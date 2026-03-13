@@ -25,6 +25,25 @@ const personSchema = {
     "Medicare Part D",
     "Medicare enrollment",
   ],
+  employee: {
+    "@type": "Person",
+    name: "Anthony Orner",
+    jobTitle: "Licensed Medicare Insurance Broker",
+    hasCredential: {
+      "@type": "EducationalOccupationalCredential",
+      credentialCategory: "Health Educator",
+      recognizedBy: {
+        "@type": "GovernmentOrganization",
+        name: "National Plan and Provider Enumeration System (NPPES)",
+        url: "https://npiregistry.cms.hhs.gov",
+      },
+    },
+    identifier: {
+      "@type": "PropertyValue",
+      name: "NPI",
+      value: "1902584006",
+    },
+  },
 };
 
 export default function AboutPage() {
