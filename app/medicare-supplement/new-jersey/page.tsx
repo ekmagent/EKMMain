@@ -14,9 +14,9 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.easykindmedicare.com" },
-    { "@type": "ListItem", position: 2, name: "Medicare Supplement", item: "https://www.easykindmedicare.com/medicare-supplement" },
-    { "@type": "ListItem", position: 3, name: "New Jersey", item: "https://www.easykindmedicare.com/medicare-supplement/new-jersey" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.medicareyourself.com" },
+    { "@type": "ListItem", position: 2, name: "Medicare Supplement", item: "https://www.medicareyourself.com/medicare-supplement" },
+    { "@type": "ListItem", position: 3, name: "New Jersey", item: "https://www.medicareyourself.com/medicare-supplement/new-jersey" },
   ],
 };
 
@@ -29,13 +29,13 @@ const articleSchema = {
   dateModified: "2026-03-13",
   author: {
     "@type": "Person",
-    name: "EasyKind Medicare",
-    url: "https://www.easykindmedicare.com/about",
+    name: "MedicareYourself",
+    url: "https://www.medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
-    name: "EasyKind Medicare",
-    url: "https://www.easykindmedicare.com",
+    name: "MedicareYourself",
+    url: "https://www.medicareyourself.com",
   },
 };
 
@@ -73,12 +73,12 @@ const faqs = [
   {
     question: "Which companies offer Medicare Supplement plans in New Jersey?",
     answer:
-      "Major carriers offering Medigap plans in New Jersey include Aetna, Cigna, Mutual of Omaha, United American, Horizon Blue Cross Blue Shield of New Jersey, and several others. Rates and plan availability vary by carrier and zip code. An independent broker like EasyKind Medicare can compare all available options for you at no cost.",
+      "Major carriers offering Medigap plans in New Jersey include Aetna, Cigna, Mutual of Omaha, United American, Horizon Blue Cross Blue Shield of New Jersey, and several others. Rates and plan availability vary by carrier and zip code. An independent broker like MedicareYourself can compare all available options for you at no cost.",
   },
   {
     question: "What is the NJ SHIP program and how can it help me?",
     answer:
-      "The New Jersey State Health Insurance Assistance Program (SHIP NJ) is a free, unbiased counseling service funded by the federal government. SHIP counselors can explain your Medicare options and rights. You can reach NJ SHIP at 1-800-792-8820. EasyKind Medicare works alongside SHIP to provide additional carrier comparisons and enrollment assistance.",
+      "The New Jersey State Health Insurance Assistance Program (SHIP NJ) is a free, unbiased counseling service funded by the federal government. SHIP counselors can explain your Medicare options and rights. You can reach NJ SHIP at 1-800-792-8820. MedicareYourself works alongside SHIP to provide additional carrier comparisons and enrollment assistance.",
   },
 ];
 

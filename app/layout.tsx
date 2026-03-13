@@ -12,14 +12,14 @@ const geist = Geist({
 
 export const metadata: Metadata = {
   title: {
-    default: "EasyKind Medicare | Medicare Insurance Broker",
-    template: "%s | EasyKind Medicare",
+    default: "MedicareYourself | Medicare Insurance Broker",
+    template: "%s | MedicareYourself",
   },
   description:
     "Independent Medicare insurance broker licensed in New Jersey and 34 other states. Compare Medicare Supplement and Medicare Advantage plans. Call 855-559-1700.",
   metadataBase: new URL(SITE_URL),
   openGraph: {
-    siteName: "EasyKind Medicare",
+    siteName: "MedicareYourself",
     type: "website",
   },
 };

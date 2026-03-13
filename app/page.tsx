@@ -4,7 +4,7 @@ import PhoneCTA from "@/components/PhoneCTA";
 import SchemaMarkup from "@/components/SchemaMarkup";
 
 export const metadata: Metadata = {
-  title: "EasyKind Medicare | Independent Medicare Insurance Broker",
+  title: "MedicareYourself | Independent Medicare Insurance Broker",
   description:
     "Independent Medicare insurance broker in New Jersey. We help you compare Medicare Supplement (Medigap) and Medicare Advantage plans at no cost to you. Call 855-559-1700.",
 };
@@ -12,8 +12,8 @@ export const metadata: Metadata = {
 const localBusinessSchema = {
   "@context": "https://schema.org",
   "@type": "InsuranceAgency",
-  name: "EasyKind Medicare",
-  url: "https://www.easykindmedicare.com",
+  name: "MedicareYourself",
+  url: "https://www.medicareyourself.com",
   telephone: "+18555591700",
   areaServed: [
     "New Jersey", "Alabama", "Arizona", "Arkansas", "California", "Colorado",
@@ -125,7 +125,7 @@ export default function HomePage() {
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-4">Not sure which plan is right for you?</h2>
           <p className="text-gray-300 mb-8 leading-relaxed">
-            A 15-minute call with an EasyKind Medicare advisor is free, completely unbiased,
+            A 15-minute call with a MedicareYourself advisor is free, completely unbiased,
             and could save you thousands over the life of your coverage.
           </p>
           <PhoneCTA size="lg" label="Talk to an Advisor Free" />

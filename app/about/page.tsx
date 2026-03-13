@@ -3,16 +3,16 @@ import PhoneCTA from "@/components/PhoneCTA";
 import SchemaMarkup from "@/components/SchemaMarkup";
 
 export const metadata: Metadata = {
-  title: "About EasyKind Medicare | Licensed Independent Medicare Broker",
+  title: "About MedicareYourself | Licensed Independent Medicare Broker",
   description:
-    "EasyKind Medicare is an independent, licensed Medicare insurance broker serving New Jersey and 34 states. Free, unbiased Medicare plan comparisons. Call 855-559-1700.",
+    "MedicareYourself is an independent, licensed Medicare insurance broker serving New Jersey and 34 states. Free, unbiased Medicare plan comparisons. Call 855-559-1700.",
 };
 
 const personSchema = {
   "@context": "https://schema.org",
   "@type": "InsuranceAgency",
-  name: "EasyKind Medicare",
-  url: "https://www.easykindmedicare.com",
+  name: "MedicareYourself",
+  url: "https://www.medicareyourself.com",
   telephone: "+18555591700",
   description:
     "Independent Medicare insurance broker licensed in New Jersey and 34 other states. We provide free, unbiased Medicare Supplement and Medicare Advantage plan comparisons.",
@@ -34,12 +34,12 @@ export default function AboutPage() {
 
       <section className="max-w-4xl mx-auto px-4 py-12">
         <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-          About EasyKind Medicare
+          About MedicareYourself
         </h1>
 
         <div className="prose prose-gray max-w-none">
           <p className="text-lg text-gray-600 leading-relaxed mb-6">
-            EasyKind Medicare is an independent insurance brokerage specializing exclusively in
+            MedicareYourself is an independent insurance brokerage specializing exclusively in
             Medicare — Supplement (Medigap) and Medicare Advantage plans. We are licensed in
             New Jersey and 34 other states.
           </p>
@@ -54,7 +54,7 @@ export default function AboutPage() {
 
           <h2 className="text-xl font-bold text-gray-900 mt-8 mb-3">Our Licensing</h2>
           <p className="text-gray-600 leading-relaxed mb-4">
-            EasyKind Medicare is a licensed insurance agency. We hold active Health and Life
+            MedicareYourself is a licensed insurance agency. We hold active Health and Life
             insurance licenses in New Jersey and the following states: Alabama, Arizona, Arkansas,
             California, Colorado, Delaware, Florida, Georgia, Illinois, Indiana, Kansas, Kentucky,
             Louisiana, Maine, Maryland, Michigan, Minnesota, Mississippi, Missouri, Montana,

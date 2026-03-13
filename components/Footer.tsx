@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-4 py-12">
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div>
-            <h3 className="text-white font-semibold mb-3">EasyKind Medicare</h3>
+            <h3 className="text-white font-semibold mb-3">MedicareYourself</h3>
             <p className="text-sm text-gray-400 leading-relaxed">
               Independent Medicare insurance broker. We help beneficiaries find the right
               Medicare Supplement and Medicare Advantage plans.
@@ -73,7 +73,7 @@ export default function Footer() {
             your local State Health Insurance Assistance Program (SHIP) for help with plan choices.
           </p>
           <p className="text-xs text-gray-600">
-            © {new Date().getFullYear()} EasyKind Medicare. All rights reserved. Licensed insurance broker. Not
+            © {new Date().getFullYear()} MedicareYourself. All rights reserved. Licensed insurance broker. Not
             affiliated with or endorsed by Medicare or any government agency.
           </p>
         </div>

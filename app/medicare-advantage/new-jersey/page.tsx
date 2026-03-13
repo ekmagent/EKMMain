@@ -14,9 +14,9 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.easykindmedicare.com" },
-    { "@type": "ListItem", position: 2, name: "Medicare Advantage", item: "https://www.easykindmedicare.com/medicare-advantage" },
-    { "@type": "ListItem", position: 3, name: "New Jersey", item: "https://www.easykindmedicare.com/medicare-advantage/new-jersey" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.medicareyourself.com" },
+    { "@type": "ListItem", position: 2, name: "Medicare Advantage", item: "https://www.medicareyourself.com/medicare-advantage" },
+    { "@type": "ListItem", position: 3, name: "New Jersey", item: "https://www.medicareyourself.com/medicare-advantage/new-jersey" },
   ],
 };
 
