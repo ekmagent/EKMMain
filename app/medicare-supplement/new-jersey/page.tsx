@@ -3,6 +3,7 @@ import Link from "next/link";
 import PhoneCTA from "@/components/PhoneCTA";
 import FAQSection from "@/components/FAQSection";
 import SchemaMarkup from "@/components/SchemaMarkup";
+import QuoteWidget from "@/components/QuoteWidget";
 
 export const metadata: Metadata = {
   title: "Best Medicare Supplement Plans in New Jersey (2026)",
@@ -240,6 +241,12 @@ export default function NJMedicareSupplementPage() {
             free, with no obligation.
           </p>
           <PhoneCTA size="lg" label="Get Your NJ Rates" />
+        </div>
+
+        <div className="mt-10">
+          <h2 className="text-2xl font-bold text-gray-900 mb-4">Compare Live NJ Medicare Supplement Rates</h2>
+          <p className="text-gray-600 text-sm mb-5">Enter your zip code to see real carrier rates for your age and plan. Rates are from CSG Actuarial and updated daily.</p>
+          <QuoteWidget defaultZip="07901" />
         </div>
       </section>
     </>
