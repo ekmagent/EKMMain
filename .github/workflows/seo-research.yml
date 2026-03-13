@@ -1,0 +1,51 @@
+name: SEO Autoresearch Loop
+
+on:
+  schedule:
+    # Runs every Monday at 9am ET
+    - cron: "0 14 * * 1"
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  seo-research:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install script dependencies
+        run: |
+          cd scripts
+          npm install
+
+      - name: Fetch GSC ranking data
+        env:
+          GSC_SERVICE_ACCOUNT_JSON: ${{ secrets.GSC_SERVICE_ACCOUNT_JSON }}
+          SITE_URL: ${{ secrets.SITE_URL }}
+        run: node scripts/fetch-gsc-data.js
+
+      - name: Run SEO research loop
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SITE_URL: ${{ secrets.SITE_URL }}
+        run: node scripts/seo-research.js
+
+      - name: Commit results and any page updates
+        run: |
+          git config user.name "SEO Research Bot"
+          git config user.email "bot@medicareyourself.com"
+          git add results.tsv gsc-data.json app/
+          # Only commit if there are staged changes
+          git diff --cached --quiet || git commit -m "SEO autoresearch: weekly update $(date +'%Y-%m-%d')"
+          git push
