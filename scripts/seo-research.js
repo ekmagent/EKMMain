@@ -27,6 +27,7 @@ const PAGE_MAP = {
   "/medicare-supplement/new-jersey/vs-medicare-advantage": "app/medicare-supplement/new-jersey/vs-medicare-advantage/page.tsx",
   "/medicare-supplement/new-jersey/turning-65": "app/medicare-supplement/new-jersey/turning-65/page.tsx",
   "/medicare-advantage/new-jersey": "app/medicare-advantage/new-jersey/page.tsx",
+  "/medicare-supplement/pennsylvania": "app/medicare-supplement/pennsylvania/page.tsx",
   "/learn/what-is-medigap": "app/learn/what-is-medigap/page.tsx",
   "/learn/medicare-parts-explained": "app/learn/medicare-parts-explained/page.tsx",
   "/about": "app/about/page.tsx",
