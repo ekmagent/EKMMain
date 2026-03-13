@@ -2,13 +2,29 @@ name: SEO Autoresearch Loop
 
 on:
   schedule:
-    # Runs every Monday at 9am ET
+    # Daily 9am ET — citation oracle + SERP tracker
+    - cron: "0 14 * * *"
+    # Weekly Monday 9am ET — GSC fetch + content optimiser
     - cron: "0 14 * * 1"
-  workflow_dispatch: # Allow manual trigger
+  workflow_dispatch:
+    inputs:
+      run_mode:
+        description: "Which scripts to run"
+        required: false
+        default: "all"
+        type: choice
+        options:
+          - all
+          - daily
+          - weekly
 
 jobs:
-  seo-research:
+  daily-signals:
     runs-on: ubuntu-latest
+    # Run on daily cron, manual "daily" or "all" trigger
+    if: |
+      github.event_name == 'workflow_dispatch' && (github.event.inputs.run_mode == 'daily' || github.event.inputs.run_mode == 'all') ||
+      github.event_name == 'schedule'
     permissions:
       contents: write
 
@@ -21,8 +37,46 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Install dependencies
-        run: npm ci
+      - name: Install script dependencies
+        run: |
+          cd scripts
+          npm install
+
+      - name: Run citation oracle (Perplexity GEO signal)
+        env:
+          PERPLEXITY_API_KEY: ${{ secrets.PERPLEXITY_API_KEY }}
+        run: node scripts/citation-oracle.js
+
+      - name: Run SERP tracker (Serper.dev rank signal)
+        env:
+          SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
+        run: node scripts/serp-tracker.js
+
+      - name: Commit signal logs
+        run: |
+          git config user.name "SEO Research Bot"
+          git config user.email "bot@medicareyourself.com"
+          git add citation-log.tsv serp-log.tsv
+          git diff --cached --quiet || git commit -m "SEO signals: daily update $(date +'%Y-%m-%d')"
+          git push
+
+  weekly-optimiser:
+    runs-on: ubuntu-latest
+    # Run only on Monday cron or manual "weekly" or "all" trigger
+    if: |
+      github.event_name == 'workflow_dispatch' && (github.event.inputs.run_mode == 'weekly' || github.event.inputs.run_mode == 'all') ||
+      (github.event_name == 'schedule' && github.event.schedule == '0 14 * * 1')
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
 
       - name: Install script dependencies
         run: |
@@ -46,6 +100,5 @@ jobs:
           git config user.name "SEO Research Bot"
           git config user.email "bot@medicareyourself.com"
           git add results.tsv gsc-data.json app/
-          # Only commit if there are staged changes
           git diff --cached --quiet || git commit -m "SEO autoresearch: weekly update $(date +'%Y-%m-%d')"
           git push
