@@ -26,7 +26,7 @@ export default function TermsPage() {
 
         <h2 className="text-xl font-bold text-gray-900">About Our Services</h2>
         <p>
-          MedicareYourself is an independent, licensed Medicare insurance brokerage. We provide
+          MedicareYourself is a trade name of <strong>EasyKind Health LLC</strong>, an independent, licensed Medicare insurance brokerage. We provide
           free plan comparisons and enrollment assistance for Medicare Supplement (Medigap) and
           Medicare Advantage plans. We are not affiliated with or endorsed by Medicare or any
           government agency.
