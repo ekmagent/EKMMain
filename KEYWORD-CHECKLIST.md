@@ -1,186 +1,301 @@
-# Compact Keywords — HITL Checklist (Edward Sturm Module 07)
+# MedicareYourself SEO Playbook
+## Edward Sturm Compact Keywords — Complete HITL Checklist
 
-This is your human-in-the-loop workflow for finding and approving compact keywords.
-The scripts do the grunt work. You make the strategic decisions.
+Scripts handle research, scoring, and page generation.
+**You** handle strategy, SERP judgment, and quality control.
 
 ---
 
-## WEEKLY (Every Monday, ~1 hour)
+# ONE-TIME SETUP
 
-### 1. Review New Keywords (15 min)
-Open the **Internal SEO Sheet** (Keywords tab + Page Blueprints tab).
+Do these before your first Monday cycle. ~45 min total.
 
-- [ ] Sort by "Date Added" (newest first)
-- [ ] For each new keyword, check:
-  - Does Claude's relevance score (1-10) match YOUR gut feeling?
-  - Is this actually bottom-of-funnel? (Would someone searching this be ready to call you?)
-  - Is this relevant to Medicare Supplement / Medicare Advantage brokerage?
-- [ ] Override Claude's score in the "Your Relevance (1-10)" column if needed
+| # | Task | Where | Time |
+|---|------|-------|------|
+| 1 | Install MozBar Chrome extension | [moz.com/products/pro/seo-toolbar](https://moz.com/products/pro/seo-toolbar) — log in with your Moz account | 5 min |
+| 2 | Run Moz True Competitor | Moz > Competitive Research > True Competitor > enter `medicareyourself.com` > add new competitors to `scripts/competitor-keyword-analysis.js` line 40 | 10 min |
+| 3 | "Overlooked details" brainstorm | Sit down with a blank doc. List every service you provide in the language your clients use on the phone. Add as seed topics to `scripts/find-compact-keywords.js` line 53. | 30 min |
+| 4 | Set up `articles@medicareyourself.com` | Email forwarding for Write for Us submissions | 5 min |
 
-### 2. SERP Analysis — The Critical Step (30-45 min)
-**Edward says: "I ignore difficulty scores and look at the SERPs myself."**
+---
 
-For each keyword you're considering approving:
+# WEEKLY — Every Monday (~1 hour)
 
-- [ ] **Google it.** Actually type it into Google.
-- [ ] **Check DA** of top 5 results (MozBar extension shows this next to each result)
-  - DA < 30 = good opportunity
-  - DA > 50 across the board = skip for now
-- [ ] **Check Page Scores** — click MozBar's On-Page Grader icon
-  - Yellow/orange (< 80) = nobody targeting properly = "wide open"
-  - Green (85+) = competitive
-- [ ] **Is the keyword in their page titles?** Look at the blue links in the SERP
-  - If NO result has your exact keyword at the beginning = wide open
-- [ ] **Is the keyword in their URLs?** Look at the green URLs
-  - If no result has the keyword in the URL slug = opportunity
-- [ ] **What content type ranks?**
-  - Products/services = bottom of funnel (GOOD — target it)
-  - "5 Best..." / "Top 10..." lists = deprioritize (harder, less conversion)
-  - How-to articles = deprioritize (informational intent)
-- [ ] **Fill in the HITL columns in Google Sheets:**
-  - "SERP Checked?" → Yes
-  - "DA Range (manual)" → e.g., "15-35"
-  - "Page Score Range" → e.g., "yellow/orange"
-  - "KW in Titles?" → Yes/No
-  - "KW in URLs?" → Yes/No
-  - "Content Type" → Product / List / How-to
-  - "SERP Notes" → Your observations (e.g., "Wide open. Nobody targeting. Top result is generic Medicare.gov page. Low DAs.")
+The scripts ran over the weekend (Saturday/Monday cron). Your job is to review what they found and make decisions.
 
-### 3. SERP Overlap Check (5 min)
+---
+
+## Step 1: Review New Keywords
+**Time:** 15 min | **Where:** Google Sheets (Internal SEO Sheet)
+
+Open the **Keywords** tab. Sort by "Date Added" (newest first).
+
+For each new keyword ask yourself:
+
+> "If someone Googled this, would they be ready to pick up the phone and call me?"
+
+- **YES** = bottom-of-funnel, keep it
+- **MAYBE** = score it 3-5, keep but deprioritize
+- **NO** = mark as "skip"
+
+Check Claude's relevance score. Override it in the **"Your Relevance (1-10)"** column if your gut says different. You know Medicare better than Claude.
+
+---
+
+## Step 2: SERP Check the Top 10 Candidates
+**Time:** 30-45 min | **Where:** Google.com + MozBar
+
+This is the step Edward says matters most. Pick your top 10 keywords by relevance + volume. For each one:
+
+### Open Google. Type the keyword. Look at the results.
+
+**Check these 6 things:**
+
+| What to Check | How | Good Sign | Bad Sign |
+|---|---|---|---|
+| **Domain Authority** | MozBar shows DA next to each result | DA under 30 | DA over 50 everywhere |
+| **Page Score** | Click MozBar On-Page Grader icon | Yellow/orange (under 80) | Green (85+) |
+| **Keyword in titles?** | Read the blue title links | Nobody has your exact keyword | Multiple results have it |
+| **Keyword in URLs?** | Read the green URL lines | Keyword not in any URL slug | Keyword in multiple URLs |
+| **Content type** | What are the results? | Service/product pages | "Best of" lists or how-to articles |
+| **Can you beat #1?** | Click into the top result, read it | Thin, generic, no screenshot, confusing | Detailed, well-targeted, great UX |
+
+### Fill in the Sheets columns:
+
+| Column | What to Write |
+|--------|--------------|
+| SERP Checked? | Yes |
+| DA Range (manual) | e.g., "12-35" |
+| Page Score Range | e.g., "yellow/orange" |
+| KW in Titles? | Yes / No |
+| KW in URLs? | Yes / No |
+| Content Type | Product / List / How-to |
+| SERP Notes | Your observations in plain English |
+
+### Example good note:
+> "Wide open. Top results DA 15-28, all page scores yellow. Nobody has keyword in title or URL. Top result is a generic Medicare.gov page. Easy #1."
+
+### Example bad note:
+> "Competitive. AARP (DA 92) and Medicare.gov (DA 94) dominate. All results are well-targeted. Skip for now."
+
+---
+
+## Step 3: Check for Overlapping Keywords
+**Time:** 5 min | **Where:** Google.com
+
 When you see similar keywords (e.g., "medigap plan g nj" and "medicare supplement plan g new jersey"):
 
-- [ ] Google BOTH keywords
-- [ ] Are 70%+ of results identical? → ONE page for both
-- [ ] Are results mostly different? → SEPARATE pages
-- [ ] Note in "SERP Overlap With" column: "Same SERP as [keyword]" or "Unique"
-
-### 4. Apply Deprioritization Rules (5 min)
-Before approving, check Edward's 7 scenarios:
-
-| Skip if... | What you see |
-|-------------|-------------|
-| High DA + High Targeting | DA 50+ AND keyword in titles/URLs everywhere |
-| All "Best Of" Lists | Top results are "5 Best...", "Top 10..." |
-| Mixed Intent | How-to at #1, product at #2 |
-| SERP doesn't match your niche | Results about something else entirely |
-| Too broad | High volume but results from completely different industries |
-| Low targeting BUT very high DA | Nobody targets it but DA 70+ across board → wait until your DA is 20-30+ |
-
-### 5. Approve or Reject (5 min)
-- [ ] Set "Status" to **"approved"** for keywords that pass all checks
-- [ ] Set "Status" to **"deprioritize"** for ones to revisit later
-- [ ] Set "Status" to **"skip"** for ones that failed checks
-- [ ] Never auto-approve — every approved keyword should have "SERP Checked? = Yes"
+1. Google both keywords
+2. Compare the results side by side
+3. **70%+ same results?** = ONE page targets both. Write "Same SERP as [keyword]" in the Overlap column.
+4. **Different results?** = Separate pages. Write "Unique" in the Overlap column.
 
 ---
 
-## MONTHLY (1st of each month, ~20 min)
+## Step 4: Apply the Skip Rules
+**Time:** 5 min | **Where:** Google Sheets
 
-### GSC "Wait and See" Review
-**Edward 07-04: Publish a broad page → wait → see what it ranks for → spin off pages.**
+Before approving, run through this quick mental checklist:
 
-- [ ] Open Google Search Console → Performance → 12-month view
-- [ ] For each page published 2+ months ago, click the page URL
-- [ ] Look at keywords in **positions 6-13**:
-  - [ ] Can you add this keyword to the EXISTING page? (Add a few sentences mentioning it)
-- [ ] Look at keywords in **positions 13+**:
-  - [ ] Is this a new dedicated page opportunity? Add to Keywords tab.
-- [ ] Check: any keywords with high impressions but low CTR?
-  - [ ] Rewrite the page title/meta description to better match that keyword
+| SKIP if you see... | Why |
+|---------------------|-----|
+| DA 50+ AND keyword in every title/URL | Too competitive — you can't outrank them yet |
+| All results are "5 Best..." or "Top 10..." lists | List intent, not purchase intent — harder, less conversion |
+| How-to article at #1, product at #2 | Mixed intent — Google isn't sure what searchers want |
+| Results are about a different product/industry | Google has bucketed this keyword differently than you expect |
+| High volume but results from random unrelated niches | Broad keyword — high volume but low conversion |
+| Nobody targets it but every result is DA 70+ | Google wants authority for this topic — wait until your DA is 20-30+ |
 
-### Client Language Mining
-**Edward 07-09: "There are things that brands do that everybody else does. But people take it for granted and they don't put it in their language."**
-
-- [ ] What did clients say on the phone this month?
-- [ ] Any phrases that sounded like a Google search? Add as seed topics.
-- [ ] Examples: "I'm turning 65 and confused", "my rates went up", "switching from Humana"
+For competitive keywords you still want: flag for **YouTube short** instead of web page.
 
 ---
 
-## QUARTERLY (every 3 months, ~30 min)
+## Step 5: Approve
+**Time:** 5 min | **Where:** Google Sheets (Page Blueprints tab)
 
-### Competitor Discovery
-- [ ] Go to Moz → Competitive Research → True Competitor
-- [ ] Enter `medicareyourself.com`, click "Find Competitors"
-- [ ] Any new competitors? Add to `scripts/competitor-keyword-analysis.js` COMPETITORS array
-- [ ] Also: Google your top 10 keywords manually — who's showing up that isn't in your competitor list?
+- Set **Status = "approved"** for keywords that passed Steps 2-4
+- Set **Status = "deprioritize"** for keywords to revisit later
+- Set **Status = "skip"** for keywords that failed
 
-### Seed Topic Refresh
-- [ ] Review the seed topics in `scripts/find-compact-keywords.js` (SEED_TOPICS array)
-- [ ] Add new seeds from: client calls, GSC discoveries, competitor analysis
-- [ ] Remove any seeds that consistently produce irrelevant results
+**Rule:** Never approve a keyword where "SERP Checked?" is blank.
 
-### "Overlooked Details" Brainstorm
-- [ ] List every service you provide in plain language:
-  - "We compare rates from 20+ carriers"
-  - "Licensed in NJ, PA, and 33 other states"
-  - "No cost — carriers pay our commission"
-  - "We handle all the paperwork"
-  - "We help with enrollment, not just quotes"
-- [ ] Turn each into potential keywords / page topics
+The build script will pick up approved keywords on the next run.
 
 ---
 
-## AFTER EACH PAGE IS BUILT (Edward Module 08)
+# AFTER EACH PAGE IS BUILT
 
-The build script (`build-compact-pages.js`) runs grammar check and logs reminders
-automatically. But YOU must complete these manual QA steps.
+The build script (`build-compact-pages.js`) automatically runs:
+- Grammar/spelling check (Claude)
+- AI detection scoring (Claude Haiku)
+- On-page SEO score (13 factors, target 96-98)
+- OG tag validation
+- GSC submission URL reminder
 
-### Pre-Deploy QA (before committing/pushing)
+**You still need to do these 3 things:**
 
-- [ ] **Read the page yourself.** Does it satisfy the searcher's intent?
-- [ ] **Grammar/spelling:** Script runs this automatically. Fix any flagged issues.
-- [ ] **AI detection check:** Paste the body text into [zerogpt.com](https://zerogpt.com). Must show "human written."
-  - Edward says: "I do not recommend having entire pages generated by AI unless they are heavily human reviewed."
-- [ ] **Real image:** Replace the SVG placeholder with a real branded WebP image.
-  - Edward (Module 05): "Show your searchers they are in the right place."
-  - Use TinyPNG to compress before uploading.
+### Pre-Deploy (~5 min per page)
 
-### Post-Deploy QA (after the page is live)
+| # | Task | Details |
+|---|------|---------|
+| 1 | **Read the page** | Does it answer the searcher's question immediately? Would YOU call 855-559-1700 after reading this? |
+| 2 | **Replace placeholder image** | Swap the SVG in `public/images/` with a real branded WebP. Compress with TinyPNG first. Edward says: "Show your searchers they are in the right place." |
+| 3 | **Review script output** | If grammar issues were flagged, fix them. If AI detection score was >4, edit for more natural voice. If on-page score was <90, check keyword placement. |
 
-- [ ] **Meta Sharing Debugger:** Go to [Meta Sharing Debugger](https://developers.facebook.com/tools/debug/).
-  Paste the page URL, click Debug. Verify OG title, OG description, and OG image appear correctly.
-- [ ] **Moz On-Page Grader:** Open MozBar on the live page, or go to moz.com On-Page Grader.
-  Enter URL + target keyword, click Analyze.
-  - **Target score: 96-98.** Edward says: "Stay away from 100. Google does not like over-optimized pages."
-  - If score is below 90: check keyword placement (title, H1, first paragraph, URL, alt text)
-  - If score is 100: remove one keyword mention to bring it down
-- [ ] **Submit to Google Search Console:** URL Inspection → paste URL → Request Indexing
-- [ ] **Track keyword in Moz:** Add the target keyword to Moz Keyword Tracking.
-  - Use a **label** matching the hub page (e.g., "Medicare Supplement NJ", "Learn", "Hub")
-  - Set region to **National (US)**
-  - Also add 1-2 keyword variations you hope the page will rank for
-- [ ] **Mark as Done:** Go to Internal SEO Sheet → Site SEO Layout Tab → Done column → **Yes**
+### Post-Deploy (~3 min per page)
+
+| # | Task | Details |
+|---|------|---------|
+| 1 | **Submit to GSC** | The script logs the exact URL. Go to GSC > URL Inspection > paste > Request Indexing. |
+| 2 | **Track keyword in Moz** | Add keyword to Moz Keyword Tracking. Use a label matching the hub page (e.g., "Hub", "Medicare Supplement NJ"). Set region: National (US). |
 
 ### Batch Planning Rule
 
-Edward recommends planning **~5 pages at a time** before building any of them:
-- Prevents repetitive content across pages
-- Helps discover keywords that can share one page
-- Helps organize hub page categories
-- "By doing research into different pages and different keywords, you may find that you're able to hit more than one keyword with one page"
+Plan **~5 pages at a time** before building. This prevents:
+- Repetitive content across similar pages
+- Making separate pages when one page could target both keywords
+- Disorganized hub page categories
 
 ---
 
-## ONE-TIME SETUP (do these once)
-
-- [ ] Install MozBar Chrome extension (https://moz.com/products/pro/seo-toolbar)
-- [ ] Run Moz True Competitor on medicareyourself.com — update competitor list
-- [ ] Do the "overlooked details" brainstorm — list every service in plain language, add as seeds
-- [ ] Verify the new HITL columns appear in Google Sheets after next weekly run
+# MONTHLY — 1st of Each Month (~20 min)
 
 ---
 
-## REFERENCE: Edward's Keyword Evaluation Shorthand
+## GSC Opportunity Review
 
-**Dream keyword (target immediately):**
-> Low DA (under 30), page scores yellow/orange, nobody has keyword in title or URL, products ranking (not lists/how-tos)
+**Where:** Google Search Console > Performance > 12-month view
 
-**Good keyword (target soon):**
-> Mixed DAs (some low, some high), some targeting but not direct, products + some lists
+For each page published 2+ months ago:
 
-**Save for later:**
-> High DA but nobody targeting (need DA 20-30+ to compete) — consider YouTube short instead
+1. Click the page URL in GSC to see all keywords it ranks for
+2. **Positions 6-13** (page 1 / top of page 2):
+   - These are low-hanging fruit
+   - Add a few sentences mentioning this keyword to the EXISTING page
+   - Don't make a new page — just strengthen the current one
+3. **Positions 13-25** (page 2-3):
+   - Consider making a NEW dedicated landing page for this keyword
+   - Add it to the Keywords tab in your Sheet
+4. **High impressions but low CTR:**
+   - Rewrite the page title and meta description to better match this keyword
 
-**Skip:**
-> High DA + high targeting, all lists, informational intent, niche mismatch
+The script also generates `gsc-keyword-opportunities.tsv` with this data — check that file too.
+
+---
+
+## Client Language Mining
+
+After a month of client calls, ask yourself:
+
+> "What phrases did people use that sounded like a Google search?"
+
+Examples:
+- "I'm turning 65 and don't know where to start" → keyword seed
+- "My Mutual of Omaha rates went up 30%" → keyword seed
+- "Can I switch my Medigap plan without a health exam?" → keyword seed
+- "Does Medicare cover my husband too?" → keyword seed
+
+Add these to `scripts/find-compact-keywords.js` SEED_TOPICS (line 53).
+
+---
+
+# QUARTERLY — Every 3 Months (~30 min)
+
+---
+
+## Competitor Refresh
+
+1. Go to Moz > Competitive Research > True Competitor
+2. Enter `medicareyourself.com`
+3. Any new competitors? Add to `scripts/competitor-keyword-analysis.js` line 40
+4. Google your top 10 keywords — who's ranking that isn't in your competitor list?
+
+## Seed Topic Audit
+
+1. Review `scripts/find-compact-keywords.js` SEED_TOPICS array
+2. Remove seeds that consistently produce irrelevant results
+3. Add new seeds from GSC discoveries + client calls
+
+## "Overlooked Details" Refresh
+
+List everything you do that competitors also do but don't talk about:
+- "We compare rates from 20+ carriers"
+- "Licensed in 35 states"
+- "No cost to you"
+- "We handle the paperwork"
+- "Medicare enrollment assistance"
+
+Turn each into a potential keyword or page topic.
+
+---
+
+# COME BACK IN 2-3 MONTHS — Module 09
+
+After you've published 10-15 pages and have ranking data, review Module 09 (After Publishing a Page) for troubleshooting pages that aren't ranking. The transcript is at:
+
+```
+/Users/anthonyorner/Claude Code/Karpathy AutoResearch/Compact Keywords Course/09 - After Publishing a Page/
+```
+
+Key topics covered:
+- Above-the-fold bounce rate issues
+- When to re-optimize vs. rebuild a page
+- Adding more detail to pages stuck on page 2
+- Link building to push pages from page 2 to page 1
+
+---
+
+# QUICK REFERENCE
+
+## Edward's Keyword Rating System
+
+| Rating | What it means | Action |
+|--------|--------------|--------|
+| **Dream keyword** | DA under 30, page scores yellow, nobody targeting, products ranking | Target immediately |
+| **Good keyword** | Mixed DAs, some targeting, products + some lists | Target soon |
+| **Save for later** | High DA but nobody targeting | Wait until your DA is 20-30+, or make a YouTube short |
+| **Skip** | High DA + high targeting, all lists, informational intent | Don't target |
+
+## Edward's Page Title Formula
+
+```
+Target Keyword | Benefit or Searcher's Goal | Brand Name
+```
+
+Examples:
+- Medicare Supplement Plan G NJ | Compare Rates Free | MedicareYourself
+- Turning 65 in New Jersey | Medicare Checklist | MedicareYourself
+
+## Edward's On-Page Optimization Target
+
+**Score: 96-98 out of 100. NOT 100.**
+
+> "Google does not like pages that are over-optimized. 96 to 98 is the sweet spot."
+
+The keyword must appear in:
+1. Page title (at the beginning)
+2. URL slug
+3. H1
+4. First sentence
+5. Meta description
+6. First image alt text
+
+## Casing Rules
+
+- **Title Case:** Page title, H1
+- **Sentence case:** H2s, meta description
+
+## What the Scripts Handle vs. What You Handle
+
+| Scripts (automated) | You (manual) |
+|---|---|
+| Find competitor keywords | SERP-check candidates |
+| Score relevance 1-10 | Override with your judgment |
+| Generate page elements | Approve/reject in Sheets |
+| Build pages from approved keywords | Read + review before deploy |
+| Grammar check | Fix flagged issues |
+| AI detection check | Edit if flagged as AI-sounding |
+| On-page SEO score (96-98 target) | Adjust if score is wrong |
+| OG tag validation | Visual check via Meta Debugger (optional) |
+| GSC opportunity detection | Decide: optimize existing or new page |
+| Track rankings (SERP tracker) | Add keywords to Moz with labels |
