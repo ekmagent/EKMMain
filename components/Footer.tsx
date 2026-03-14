@@ -31,8 +31,23 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/medicare-supplement/pennsylvania" className="hover:text-white transition-colors">
+                  Medicare Supplement — Pennsylvania
+                </Link>
+              </li>
+              <li>
                 <Link href="/medicare-advantage/new-jersey" className="hover:text-white transition-colors">
                   Medicare Advantage — New Jersey
+                </Link>
+              </li>
+              <li>
+                <Link href="/hub" className="hover:text-white transition-colors">
+                  Medicare Guides
+                </Link>
+              </li>
+              <li>
+                <Link href="/learn/medicare-help-low-income" className="hover:text-white transition-colors">
+                  Medicare Help — Low Income
                 </Link>
               </li>
               <li>
@@ -56,7 +71,20 @@ export default function Footer() {
                   Privacy Policy
                 </Link>
               </li>
+              <li>
+                <Link href="/terms" className="hover:text-white transition-colors">
+                  Terms of Service
+                </Link>
+              </li>
+              <li>
+                <Link href="/write-for-us" className="hover:text-white transition-colors">
+                  Write for Us
+                </Link>
+              </li>
             </ul>
+
+            {/* TODO: Add social profile links once accounts are created (Edward Module 06 Part 3)
+                Required: Facebook, LinkedIn, YouTube minimum. Link here in footer. */}
           </div>
         </div>
 
