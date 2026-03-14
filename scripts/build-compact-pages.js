@@ -349,6 +349,215 @@ function validatePage(content, blueprint) {
 }
 
 // ---------------------------------------------------------------------------
+// On-Page SEO Scorer (replaces Moz On-Page Grader — no API available)
+// Edward's target: 96-98 out of 100. NOT 100 (over-optimization).
+// ---------------------------------------------------------------------------
+function calculateOnPageScore(content, blueprint) {
+  const kwLower = blueprint.keyword.toLowerCase();
+  const contentLower = content.toLowerCase();
+  const details = [];
+  const missing = [];
+  let score = 0;
+
+  // 1. Keyword in title tag (20 points)
+  const titleMatch = content.match(/title:\s*["'`]([^"'`]+)["'`]/);
+  const titleText = titleMatch ? titleMatch[1].toLowerCase() : "";
+  if (titleText.includes(kwLower)) {
+    score += 20;
+    details.push("+ Title contains keyword (20pts)");
+  } else {
+    // Check if most keyword words are present
+    const kwWords = kwLower.split(/\s+/).filter((w) => w.length > 2);
+    const titleHits = kwWords.filter((w) => titleText.includes(w)).length;
+    if (titleHits >= Math.ceil(kwWords.length * 0.6)) {
+      score += 14;
+      details.push(`~ Title contains ${titleHits}/${kwWords.length} keyword words (14pts)`);
+    } else {
+      missing.push("keyword in title");
+      details.push("- Title missing keyword (0pts)");
+    }
+  }
+
+  // 2. Keyword in meta description (10 points)
+  const descMatch = content.match(/description:\s*\n?\s*["'`]([^"'`]+)["'`]/);
+  const descText = descMatch ? descMatch[1].toLowerCase() : "";
+  if (descText.includes(kwLower)) {
+    score += 10;
+    details.push("+ Meta description contains keyword (10pts)");
+  } else {
+    const kwWords = kwLower.split(/\s+/).filter((w) => w.length > 2);
+    const descHits = kwWords.filter((w) => descText.includes(w)).length;
+    if (descHits >= Math.ceil(kwWords.length * 0.6)) {
+      score += 7;
+      details.push(`~ Meta description contains ${descHits}/${kwWords.length} keyword words (7pts)`);
+    } else {
+      missing.push("keyword in meta description");
+      details.push("- Meta description missing keyword (0pts)");
+    }
+  }
+
+  // 3. Keyword in H1 (15 points)
+  const h1Match = content.match(/<h1[^>]*>([\s\S]*?)<\/h1>/i);
+  const h1Text = h1Match ? h1Match[1].replace(/<[^>]+>/g, "").toLowerCase() : "";
+  if (h1Text.includes(kwLower)) {
+    score += 15;
+    details.push("+ H1 contains keyword (15pts)");
+  } else {
+    const kwWords = kwLower.split(/\s+/).filter((w) => w.length > 2);
+    const h1Hits = kwWords.filter((w) => h1Text.includes(w)).length;
+    if (h1Hits >= Math.ceil(kwWords.length * 0.6)) {
+      score += 10;
+      details.push(`~ H1 contains ${h1Hits}/${kwWords.length} keyword words (10pts)`);
+    } else {
+      missing.push("keyword in H1");
+      details.push("- H1 missing keyword (0pts)");
+    }
+  }
+
+  // 4. Keyword in URL slug (10 points)
+  const slugLower = (blueprint.slug || "").toLowerCase();
+  const kwSlug = kwLower.replace(/\s+/g, "-");
+  if (slugLower.includes(kwSlug) || slugLower.includes(kwLower.replace(/\s+/g, "-"))) {
+    score += 10;
+    details.push("+ URL slug contains keyword (10pts)");
+  } else {
+    missing.push("keyword in URL");
+    details.push("- URL slug missing keyword (0pts)");
+  }
+
+  // 5. Keyword in first 200 chars of body content (15 points)
+  // Find first paragraph-like text after the component function
+  const bodyStart = content.indexOf("export default function");
+  const first500 = bodyStart > 0 ? contentLower.slice(bodyStart, bodyStart + 500) : "";
+  if (first500.includes(kwLower)) {
+    score += 15;
+    details.push("+ Keyword in first paragraph (15pts)");
+  } else {
+    const kwWords = kwLower.split(/\s+/).filter((w) => w.length > 2);
+    const bodyHits = kwWords.filter((w) => first500.includes(w)).length;
+    if (bodyHits >= Math.ceil(kwWords.length * 0.6)) {
+      score += 10;
+      details.push(`~ First paragraph contains ${bodyHits}/${kwWords.length} keyword words (10pts)`);
+    } else {
+      missing.push("keyword in first paragraph");
+      details.push("- First paragraph missing keyword (0pts)");
+    }
+  }
+
+  // 6. Keyword in at least one H2 (10 points)
+  const h2Regex = /<h2[^>]*>([\s\S]*?)<\/h2>/gi;
+  let h2Match;
+  let kwInH2 = false;
+  while ((h2Match = h2Regex.exec(content)) !== null) {
+    const h2Text = h2Match[1].replace(/<[^>]+>/g, "").toLowerCase();
+    const kwWords = kwLower.split(/\s+/).filter((w) => w.length > 2);
+    const h2Hits = kwWords.filter((w) => h2Text.includes(w)).length;
+    if (h2Hits >= Math.ceil(kwWords.length * 0.5)) {
+      kwInH2 = true;
+      break;
+    }
+  }
+  if (kwInH2) {
+    score += 10;
+    details.push("+ At least one H2 contains keyword words (10pts)");
+  } else {
+    missing.push("keyword in H2");
+    details.push("- No H2 contains keyword words (0pts)");
+  }
+
+  // 7. Image alt text contains keyword (10 points)
+  const altRegex = /alt=["']([^"']+)["']/gi;
+  let altMatch;
+  let kwInAlt = false;
+  while ((altMatch = altRegex.exec(content)) !== null) {
+    if (altMatch[1].toLowerCase().includes(kwLower)) {
+      kwInAlt = true;
+      break;
+    }
+  }
+  if (kwInAlt) {
+    score += 10;
+    details.push("+ Image alt text contains keyword (10pts)");
+  } else {
+    // Partial credit if keyword words in alt
+    const allAlts = content.match(/alt=["']([^"']+)["']/gi) || [];
+    const kwWords = kwLower.split(/\s+/).filter((w) => w.length > 2);
+    const anyPartialAlt = allAlts.some((a) => {
+      const altText = a.replace(/alt=["']/i, "").replace(/["']$/, "").toLowerCase();
+      return kwWords.filter((w) => altText.includes(w)).length >= Math.ceil(kwWords.length * 0.5);
+    });
+    if (anyPartialAlt) {
+      score += 7;
+      details.push("~ Image alt text partially matches keyword (7pts)");
+    } else {
+      missing.push("keyword in image alt text");
+      details.push("- No image alt text contains keyword (0pts)");
+    }
+  }
+
+  // 8. Exactly one H1 (5 points)
+  const h1Count = (content.match(/<h1[\s>]/gi) || []).length;
+  if (h1Count === 1) {
+    score += 5;
+    details.push("+ Exactly one H1 (5pts)");
+  } else {
+    missing.push(`${h1Count} H1 tags (should be 1)`);
+    details.push(`- ${h1Count} H1 tags found (0pts)`);
+  }
+
+  // 9. Title length 50-60 chars (5 points)
+  if (titleMatch) {
+    const titleLen = titleMatch[1].length;
+    if (titleLen >= 50 && titleLen <= 60) {
+      score += 5;
+      details.push(`+ Title length ${titleLen} chars — optimal (5pts)`);
+    } else if (titleLen >= 40 && titleLen <= 65) {
+      score += 3;
+      details.push(`~ Title length ${titleLen} chars — acceptable (3pts)`);
+    } else {
+      missing.push(`title length ${titleLen} (target 50-60)`);
+      details.push(`- Title length ${titleLen} chars (0pts)`);
+    }
+  }
+
+  // Cap at 100
+  score = Math.min(score, 100);
+
+  return { score, missing, details };
+}
+
+// ---------------------------------------------------------------------------
+// OG Tag Validator (replaces Meta Sharing Debugger)
+// ---------------------------------------------------------------------------
+function validateOGTags(content, blueprint) {
+  const issues = [];
+
+  // Check for openGraph in metadata
+  if (!content.includes("openGraph")) {
+    issues.push("Missing openGraph in metadata export");
+  }
+
+  // Check OG title
+  const ogTitleMatch = content.match(/openGraph[\s\S]*?title:\s*["'`]([^"'`]+)["'`]/);
+  if (!ogTitleMatch) {
+    issues.push("Missing openGraph title");
+  }
+
+  // Check OG description
+  const ogDescMatch = content.match(/openGraph[\s\S]*?description:\s*\n?\s*["'`]([^"'`]+)["'`]/);
+  if (!ogDescMatch) {
+    issues.push("Missing openGraph description");
+  }
+
+  // Check for Image component (will provide OG image via Next.js)
+  if (!content.includes("<Image")) {
+    issues.push("Missing Image component (needed for OG image)");
+  }
+
+  return { valid: issues.length === 0, issues };
+}
+
+// ---------------------------------------------------------------------------
 // Main
 // ---------------------------------------------------------------------------
 async function main() {
@@ -465,6 +674,65 @@ async function main() {
       console.log(`  Image exists: public/images/hub_${bp.slug}.webp`);
     }
 
+    // -----------------------------------------------------------------------
+    // Edward Module 08: Automated Post-Build QA
+    // Replaces manual HITL steps with programmatic checks
+    // -----------------------------------------------------------------------
+
+    // QA 1: On-Page SEO Score (replaces Moz On-Page Grader — no API available)
+    // Target: 96-98 out of 100. Edward says "stay away from 100."
+    console.log(`  Running on-page SEO score (Edward 08-01, target 96-98)...`);
+    const onPageScore = calculateOnPageScore(pageContent, bp);
+    console.log(`  On-Page Score: ${onPageScore.score}/100`);
+    if (onPageScore.score === 100) {
+      console.warn(`  WARNING: Score is 100 — Edward says this is over-optimization.`);
+      console.warn(`  Consider removing one keyword mention to bring it to 96-98.`);
+    } else if (onPageScore.score < 90) {
+      console.warn(`  WARNING: Score below 90. Missing: ${onPageScore.missing.join(", ")}`);
+    } else {
+      console.log(`  On-page optimization is in the sweet spot.`);
+    }
+    for (const detail of onPageScore.details) {
+      console.log(`    ${detail}`);
+    }
+
+    // QA 2: OG Tag Validation (replaces Meta Sharing Debugger)
+    console.log(`  Validating OG tags (replaces Meta Sharing Debugger)...`);
+    const ogCheck = validateOGTags(pageContent, bp);
+    if (ogCheck.valid) {
+      console.log(`  OG tags: PASS — title, description, and image present.`);
+    } else {
+      console.warn(`  OG tag issues: ${ogCheck.issues.join(", ")}`);
+    }
+
+    // QA 3: AI Detection Check (via Claude — checks if content reads as human-written)
+    console.log(`  Running AI detection check (Edward 08-01)...`);
+    try {
+      const aiCheckMsg = await anthropic.messages.create({
+        model: "claude-haiku-4-5-20251001",
+        max_tokens: 256,
+        messages: [{ role: "user", content: `You are an AI content detection tool. Rate the following web page content on a scale of 1-10 where 1 = "clearly human-written" and 10 = "clearly AI-generated". Consider: does it have natural voice, varied sentence structure, specific (not generic) claims, and personality? Respond with ONLY a JSON object: {"score": N, "reason": "brief reason"}\n\n${pageContent.slice(0, 3000)}` }],
+      });
+      const aiResult = JSON.parse(aiCheckMsg.content[0].text.trim());
+      if (aiResult.score <= 4) {
+        console.log(`  AI detection: PASS (score ${aiResult.score}/10 — reads as human)`);
+      } else if (aiResult.score <= 6) {
+        console.warn(`  AI detection: BORDERLINE (score ${aiResult.score}/10) — ${aiResult.reason}`);
+        console.warn(`  Consider editing for more natural voice before deploying.`);
+      } else {
+        console.warn(`  AI detection: FAIL (score ${aiResult.score}/10) — ${aiResult.reason}`);
+        console.warn(`  This page needs significant human editing before deploying.`);
+      }
+    } catch (err) {
+      console.warn(`  AI detection check failed (non-blocking): ${err.message}`);
+    }
+
+    // QA 4: GSC Submission Reminder (can't fully automate — Google rate-limits)
+    const liveUrl = `https://www.medicareyourself.com/hub/${bp.slug}`;
+    console.log(`  GSC: After deploying, submit this URL for indexing:`);
+    console.log(`  → ${liveUrl}`);
+    console.log(`  → https://search.google.com/search-console/inspect?resource_id=sc-domain:medicareyourself.com`);
+
     // Mark as built in sheet
     try {
       await markAsBuilt(sheets, bp.rowIndex);
@@ -473,10 +741,10 @@ async function main() {
       console.warn(`  WARNING: Could not update sheet: ${err.message}`);
     }
 
-    // Log
+    // Log (with on-page score)
     fs.appendFileSync(
       LOG_FILE,
-      [today, bp.keyword, bp.slug, validation.valid ? "built" : "built-with-warnings", validation.issues.join("; ")].join("\t") + "\n"
+      [today, bp.keyword, bp.slug, validation.valid ? "built" : "built-with-warnings", `score:${onPageScore.score}`, validation.issues.join("; ")].join("\t") + "\n"
     );
 
     built++;
@@ -486,6 +754,9 @@ async function main() {
   console.log(`\nDone. Built ${built} page(s) from ${blueprints.length} approved blueprint(s).`);
   if (built > 0) {
     console.log("Review the generated pages, then commit via the workflow.");
+    console.log("\nPost-deploy checklist (manual):");
+    console.log("  1. Submit each new URL to Google Search Console");
+    console.log("  2. Add target keywords to Moz tracking with hub page labels");
   }
 }
 
