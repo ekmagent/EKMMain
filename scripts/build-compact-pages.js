@@ -495,33 +495,99 @@ function calculateOnPageScore(content, blueprint) {
     }
   }
 
-  // 8. Exactly one H1 (5 points)
+  // 8. Header hierarchy — exactly one H1, proper H2 structure (5 points)
   const h1Count = (content.match(/<h1[\s>]/gi) || []).length;
-  if (h1Count === 1) {
+  const h2Count = (content.match(/<h2[\s>]/gi) || []).length;
+  if (h1Count === 1 && h2Count >= 3) {
     score += 5;
-    details.push("+ Exactly one H1 (5pts)");
+    details.push(`+ Header structure: 1 H1, ${h2Count} H2s (5pts)`);
+  } else if (h1Count === 1) {
+    score += 3;
+    details.push(`~ Header structure: 1 H1 but only ${h2Count} H2s (3pts)`);
   } else {
     missing.push(`${h1Count} H1 tags (should be 1)`);
     details.push(`- ${h1Count} H1 tags found (0pts)`);
   }
 
-  // 9. Title length 50-60 chars (5 points)
+  // 9. Title length 50-60 chars (3 points)
   if (titleMatch) {
     const titleLen = titleMatch[1].length;
     if (titleLen >= 50 && titleLen <= 60) {
-      score += 5;
-      details.push(`+ Title length ${titleLen} chars — optimal (5pts)`);
-    } else if (titleLen >= 40 && titleLen <= 65) {
       score += 3;
-      details.push(`~ Title length ${titleLen} chars — acceptable (3pts)`);
+      details.push(`+ Title length ${titleLen} chars — optimal (3pts)`);
+    } else if (titleLen >= 40 && titleLen <= 65) {
+      score += 2;
+      details.push(`~ Title length ${titleLen} chars — acceptable (2pts)`);
     } else {
       missing.push(`title length ${titleLen} (target 50-60)`);
       details.push(`- Title length ${titleLen} chars (0pts)`);
     }
   }
 
+  // 10. Meta description length 120-158 chars (3 points)
+  if (descMatch) {
+    const descLen = descMatch[1].length;
+    if (descLen >= 120 && descLen <= 158) {
+      score += 3;
+      details.push(`+ Meta desc length ${descLen} chars — optimal (3pts)`);
+    } else if (descLen >= 100 && descLen <= 165) {
+      score += 2;
+      details.push(`~ Meta desc length ${descLen} chars — acceptable (2pts)`);
+    } else {
+      missing.push(`meta desc length ${descLen} (target 120-158)`);
+      details.push(`- Meta desc length ${descLen} chars (0pts)`);
+    }
+  }
+
+  // 11. Internal links present — at least 2 (3 points)
+  const internalLinkCount = (content.match(/<Link\s+href=/gi) || []).length;
+  if (internalLinkCount >= 3) {
+    score += 3;
+    details.push(`+ ${internalLinkCount} internal links (3pts)`);
+  } else if (internalLinkCount >= 1) {
+    score += 1;
+    details.push(`~ ${internalLinkCount} internal link(s) — add more (1pt)`);
+  } else {
+    missing.push("no internal links");
+    details.push("- No internal links (0pts)");
+  }
+
+  // 12. Keyword density check — flag over-optimization (penalty)
+  // Moz flags keyword stuffing. Edward says target 96-98, NOT 100.
+  // Count keyword occurrences in body text
+  const bodyText = content
+    .replace(/<[^>]+>/g, " ")
+    .replace(/import .+;/g, "")
+    .replace(/\{[^}]*\}/g, " ")
+    .toLowerCase();
+  const bodyWords = bodyText.split(/\s+/).filter((w) => w.length > 1).length;
+  const kwOccurrences = (bodyText.match(new RegExp(kwLower.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), "gi")) || []).length;
+  const kwDensity = bodyWords > 0 ? (kwOccurrences / bodyWords) * 100 : 0;
+
+  if (kwDensity > 3.0) {
+    score -= 5;
+    details.push(`! Keyword density ${kwDensity.toFixed(1)}% — OVER-OPTIMIZED, reduce mentions (-5pts)`);
+    missing.push("keyword stuffing detected");
+  } else if (kwDensity >= 1.0 && kwDensity <= 3.0) {
+    score += 3;
+    details.push(`+ Keyword density ${kwDensity.toFixed(1)}% — natural range (3pts)`);
+  } else if (kwDensity > 0) {
+    score += 2;
+    details.push(`~ Keyword density ${kwDensity.toFixed(1)}% — could mention keyword more (2pts)`);
+  }
+
+  // 13. Content length — at least 400 words (Edward's Compact Keyword target)
+  const contentWords = bodyText.split(/\s+/).filter((w) => /[a-zA-Z]/.test(w) && w.length > 1).length;
+  if (contentWords >= 400) {
+    score += 2;
+    details.push(`+ Content length ~${contentWords} words (2pts)`);
+  } else {
+    missing.push(`content length ~${contentWords} words (target 400+)`);
+    details.push(`- Content length ~${contentWords} words — below 400 target (0pts)`);
+  }
+
   // Cap at 100
-  score = Math.min(score, 100);
+  score = Math.min(Math.max(score, 0), 100);
 
   return { score, missing, details };
 }
