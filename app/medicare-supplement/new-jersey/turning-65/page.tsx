@@ -3,11 +3,18 @@ import Link from "next/link";
 import PhoneCTA from "@/components/PhoneCTA";
 import FAQSection from "@/components/FAQSection";
 import SchemaMarkup from "@/components/SchemaMarkup";
+import { SITE_URL } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Turning 65 in New Jersey: Your Medicare Checklist (2026)",
+  title: "Turning 65 in NJ | Medicare Checklist",
   description:
-    "Everything you need to do when turning 65 in New Jersey: Medicare enrollment timeline, Medigap open enrollment, Part D deadlines, and NJ-specific rules. Call 855-559-1700.",
+    "Turning 65 in New Jersey? Medicare enrollment timeline, Medigap open enrollment, and Part D deadlines for 2026. Call 855-559-1700.",
+  alternates: { canonical: `${SITE_URL}/medicare-supplement/new-jersey/turning-65` },
+  openGraph: {
+    title: "Turning 65 in NJ | Medicare Checklist",
+    description:
+      "Turning 65 in New Jersey? Medicare enrollment timeline, Medigap open enrollment, and Part D deadlines for 2026. Call 855-559-1700.",
+  },
 };
 
 const faqs = [

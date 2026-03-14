@@ -1,11 +1,19 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import PhoneCTA from "@/components/PhoneCTA";
 import SchemaMarkup from "@/components/SchemaMarkup";
+import { SITE_URL } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "About MedicareYourself | Licensed Independent Medicare Broker",
+  title: "About Us | Licensed Medicare Broker",
   description:
-    "MedicareYourself is an independent, licensed Medicare insurance broker serving New Jersey and 34 states. Free, unbiased Medicare plan comparisons. Call 855-559-1700.",
+    "Independent, licensed Medicare broker serving New Jersey and 34 states. Free, unbiased plan comparisons. Call 855-559-1700.",
+  alternates: { canonical: `${SITE_URL}/about` },
+  openGraph: {
+    title: "About Us | Licensed Medicare Broker",
+    description:
+      "Independent, licensed Medicare broker serving New Jersey and 34 states. Free, unbiased plan comparisons. Call 855-559-1700.",
+  },
 };
 
 const personSchema = {
@@ -117,6 +125,42 @@ export default function AboutPage() {
             Free, no-pressure consultations. Licensed advisors available by phone.
           </p>
           <PhoneCTA label="Call 855-559-1700" />
+        </div>
+
+        <div className="mt-8 border-t border-gray-200 pt-6">
+          <h2 className="text-lg font-bold text-gray-900 mb-3">Explore Our Resources</h2>
+          <ul className="grid sm:grid-cols-2 gap-2 text-sm">
+            <li>
+              <Link href="/medicare-supplement/new-jersey" className="text-blue-600 hover:underline">
+                Medicare Supplement Plans — NJ
+              </Link>
+            </li>
+            <li>
+              <Link href="/medicare-advantage/new-jersey" className="text-blue-600 hover:underline">
+                Medicare Advantage Plans — NJ
+              </Link>
+            </li>
+            <li>
+              <Link href="/medicare-supplement/pennsylvania" className="text-blue-600 hover:underline">
+                Medicare Supplement Plans — PA
+              </Link>
+            </li>
+            <li>
+              <Link href="/hub" className="text-blue-600 hover:underline">
+                Medicare Guides &amp; Resources
+              </Link>
+            </li>
+            <li>
+              <Link href="/learn/what-is-medigap" className="text-blue-600 hover:underline">
+                What Is Medigap?
+              </Link>
+            </li>
+            <li>
+              <Link href="/quote" className="text-blue-600 hover:underline">
+                Get a Free Quote
+              </Link>
+            </li>
+          </ul>
         </div>
       </section>
     </>

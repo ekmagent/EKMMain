@@ -2,8 +2,30 @@
   "name": "seo-research-scripts",
   "version": "1.0.0",
   "private": true,
+  "scripts": {
+    "compact-keywords": "node find-compact-keywords.js",
+    "seo-research": "node seo-research.js",
+    "faq-pages": "node build-faq-pages.js",
+    "gsc": "node fetch-gsc-data.js",
+    "ga4": "node fetch-ga4-ai-traffic.js",
+    "artifacts": "node generate-artifacts.js",
+    "compact-pages": "node build-compact-pages.js",
+    "press-release": "node generate-press-release.js",
+    "site-audit": "node site-audit.js",
+    "validate": "node validate-pages.js",
+    "directories": "node directory-tracker.js",
+    "video-seo": "node generate-video-seo.js",
+    "expert-quotes": "node expert-quotes.js",
+    "change-log": "node change-log.js",
+    "social-posts": "node generate-social-posts.js",
+    "competitor-videos": "node generate-competitor-videos.js",
+    "x-threads": "node generate-x-threads.js",
+    "competitor-analysis": "node competitor-keyword-analysis.js",
+    "screaming-frog": "node screaming-frog-crawl.js"
+  },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.39.0",
+    "dotenv": "^16.4.0",
     "googleapis": "^144.0.0"
   }
 }

@@ -52,12 +52,18 @@ jobs:
           SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
         run: node scripts/serp-tracker.js
 
-      - name: Commit signal logs
+      - name: Run orchestrator (quality audit + gap-fill)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
+        run: node scripts/orchestrator.js
+
+      - name: Commit signal logs and any page fixes
         run: |
           git config user.name "SEO Research Bot"
           git config user.email "bot@medicareyourself.com"
-          git add citation-log.tsv serp-log.tsv
-          git diff --cached --quiet || git commit -m "SEO signals: daily update $(date +'%Y-%m-%d')"
+          git add citation-log.tsv serp-log.tsv orchestrator-log.tsv app/
+          git diff --cached --quiet || git commit -m "SEO signals + quality fixes: $(date +'%Y-%m-%d')"
           git push
 
   weekly-optimiser:
@@ -89,16 +95,124 @@ jobs:
           SITE_URL: ${{ secrets.SITE_URL }}
         run: node scripts/fetch-gsc-data.js
 
+      - name: Fetch Bing grounding queries (LLM citation signals)
+        env:
+          BING_WEBMASTER_API_KEY: ${{ secrets.BING_WEBMASTER_API_KEY }}
+          BING_WEBMASTER_SITE_URL: ${{ secrets.BING_WEBMASTER_SITE_URL }}
+        run: node scripts/fetch-bing-grounding.js
+
+      - name: Fetch GA4 AI referral traffic
+        env:
+          GA4_PROPERTY_ID: ${{ secrets.GA4_PROPERTY_ID }}
+          GA4_SERVICE_ACCOUNT_JSON: ${{ secrets.GA4_SERVICE_ACCOUNT_JSON }}
+        run: node scripts/fetch-ga4-ai-traffic.js
+
       - name: Run SEO research loop
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           SITE_URL: ${{ secrets.SITE_URL }}
+          SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
         run: node scripts/seo-research.js
+
+      - name: Analyze competitor keywords (Moz + Serper)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
+          MOZ_API_TOKEN: ${{ secrets.MOZ_API_TOKEN }}
+          GOOGLE_CREDENTIALS_JSON: ${{ secrets.GOOGLE_CREDENTIALS_JSON_PATH }}
+          COMPETITORS_KEYWORD_SHEET_ID: ${{ secrets.COMPETITORS_KEYWORD_SHEET_ID }}
+        run: node scripts/competitor-keyword-analysis.js
+
+      - name: Find Compact Keywords (populate Google Sheets)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
+          MOZ_API_TOKEN: ${{ secrets.MOZ_API_TOKEN }}
+          GOOGLE_CREDENTIALS_JSON: ${{ secrets.GOOGLE_CREDENTIALS_JSON_PATH }}
+          COMPETITORS_KEYWORD_SHEET_ID: ${{ secrets.COMPETITORS_KEYWORD_SHEET_ID }}
+          INTERNAL_SEO_SHEET_ID: ${{ secrets.INTERNAL_SEO_SHEET_ID }}
+          SITE_AUDIT_SHEET_ID: ${{ secrets.SITE_AUDIT_SHEET_ID }}
+          DIRECTORY_SEO_SHEET_ID: ${{ secrets.DIRECTORY_SEO_SHEET_ID }}
+        run: node scripts/find-compact-keywords.js
+
+      - name: Build approved Compact Keyword pages
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
+          GOOGLE_CREDENTIALS_JSON: ${{ secrets.GOOGLE_CREDENTIALS_JSON_PATH }}
+          INTERNAL_SEO_SHEET_ID: ${{ secrets.INTERNAL_SEO_SHEET_ID }}
+        run: node scripts/build-compact-pages.js
+
+      - name: Build PAA FAQ pages
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
+        run: node scripts/build-faq-pages.js
+
+      - name: Generate weekly press release draft
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node scripts/generate-press-release.js
+
+      - name: Generate weekly Claude Artifact
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node scripts/generate-artifacts.js
+
+      - name: Generate video SEO scripts (Module 11)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node scripts/generate-video-seo.js
+
+      - name: Generate competitor brand videos (Bonus)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node scripts/generate-competitor-videos.js
+
+      - name: Generate X/Threads content (Bonus)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node scripts/generate-x-threads.js
+
+      - name: Generate social media posts (Bonus)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node scripts/generate-social-posts.js
+
+      - name: Generate expert quotes for link building (Module 12)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node scripts/expert-quotes.js
+
+      - name: Suggest directory submissions (Module 12)
+        env:
+          GOOGLE_CREDENTIALS_JSON: ${{ secrets.GOOGLE_CREDENTIALS_JSON_PATH }}
+          DIRECTORY_SEO_SHEET_ID: ${{ secrets.DIRECTORY_SEO_SHEET_ID }}
+        run: node scripts/directory-tracker.js
+
+      # NOTE: Screaming Frog crawl (Module 04, Steps 4-6) runs locally via
+      # cron on macOS because it requires Screaming Frog SEO Spider installed.
+      # Run manually: cd scripts && npm run screaming-frog
+      # Results committed as screaming-frog-log.tsv + Google Sheets tab.
+
+      - name: Run site audit (Module 04)
+        env:
+          GOOGLE_CREDENTIALS_JSON: ${{ secrets.GOOGLE_CREDENTIALS_JSON_PATH }}
+          SITE_AUDIT_SHEET_ID: ${{ secrets.SITE_AUDIT_SHEET_ID }}
+          MOZ_API_TOKEN: ${{ secrets.MOZ_API_TOKEN }}
+          SITE_URL: ${{ secrets.SITE_URL }}
+        run: node scripts/site-audit.js
+
+      - name: Validate on-page SEO (Module 05)
+        run: node scripts/validate-pages.js
 
       - name: Commit results and any page updates
         run: |
           git config user.name "SEO Research Bot"
           git config user.email "bot@medicareyourself.com"
-          git add results.tsv gsc-data.json app/
+          git add results.tsv gsc-data.json faq-index.json faq-build-log.tsv bing-grounding.json bing-grounding-log.tsv ga4-ai-traffic.json ga4-ai-traffic-log.tsv compact-keywords-log.tsv compact-keywords-state.json compact-pages-log.tsv competitor-analysis-log.tsv competitor-analysis-state.json press-releases/ press-release-log.tsv press-release-state.json artifacts/ artifact-log.tsv artifact-state.json video-scripts/ video-seo-state.json video-seo-log.tsv competitor-videos/ competitor-videos-state.json competitor-videos-log.tsv x-threads/ x-threads-state.json x-threads-log.tsv social-posts/ social-posts-state.json social-posts-log.tsv expert-quotes/ expert-quotes-state.json expert-quotes-log.tsv directory-log.tsv site-audit-log.tsv screaming-frog-log.tsv page-validation-report.tsv change-log.tsv moz-usage.json app/
           git diff --cached --quiet || git commit -m "SEO autoresearch: weekly update $(date +'%Y-%m-%d')"
           git push
+
+      - name: Log page changes (Module 09)
+        run: node scripts/change-log.js

@@ -2,11 +2,18 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import PhoneCTA from "@/components/PhoneCTA";
 import SchemaMarkup from "@/components/SchemaMarkup";
+import { SITE_URL } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "MedicareYourself | Independent Medicare Insurance Broker",
+  title: "MedicareYourself | Medicare Insurance Broker",
   description:
-    "Independent Medicare insurance broker in New Jersey. We help you compare Medicare Supplement (Medigap) and Medicare Advantage plans at no cost to you. Call 855-559-1700.",
+    "Independent Medicare insurance broker in NJ. Compare Medigap and Medicare Advantage plans at no cost to you. Call 855-559-1700.",
+  alternates: { canonical: SITE_URL },
+  openGraph: {
+    title: "MedicareYourself | Medicare Insurance Broker",
+    description:
+      "Independent Medicare insurance broker in NJ. Compare Medigap and Medicare Advantage plans at no cost to you. Call 855-559-1700.",
+  },
 };
 
 const localBusinessSchema = {

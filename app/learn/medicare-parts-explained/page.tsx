@@ -3,11 +3,18 @@ import Link from "next/link";
 import PhoneCTA from "@/components/PhoneCTA";
 import FAQSection from "@/components/FAQSection";
 import SchemaMarkup from "@/components/SchemaMarkup";
+import { SITE_URL } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Medicare Parts A, B, C, and D Explained Simply (2026)",
+  title: "Medicare Parts A, B, C & D Explained",
   description:
-    "What do Medicare Parts A, B, C, and D cover? Plain-English explanations of each Medicare part, what you pay, and how they work together. Free help: 855-559-1700.",
+    "What do Medicare Parts A, B, C, and D cover? Plain-English guide to each part, costs, and how they work together. Call 855-559-1700.",
+  alternates: { canonical: `${SITE_URL}/learn/medicare-parts-explained` },
+  openGraph: {
+    title: "Medicare Parts A, B, C & D Explained",
+    description:
+      "What do Medicare Parts A, B, C, and D cover? Plain-English guide to each part, costs, and how they work together. Call 855-559-1700.",
+  },
 };
 
 const faqs = [

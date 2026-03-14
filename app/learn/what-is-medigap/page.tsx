@@ -3,11 +3,18 @@ import Link from "next/link";
 import PhoneCTA from "@/components/PhoneCTA";
 import FAQSection from "@/components/FAQSection";
 import SchemaMarkup from "@/components/SchemaMarkup";
+import { SITE_URL } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "What Is Medigap? Medicare Supplement Insurance Explained (2026)",
+  title: "What Is Medigap? | Easy Guide 2026",
   description:
-    "What is Medigap? A plain-English explanation of Medicare Supplement insurance, how it works, what it covers, and who should get it. Free guidance: 855-559-1700.",
+    "What is Medigap? A plain-English guide to Medicare Supplement insurance: how it works, what it covers, and who needs it. Call 855-559-1700.",
+  alternates: { canonical: `${SITE_URL}/learn/what-is-medigap` },
+  openGraph: {
+    title: "What Is Medigap? | Easy Guide 2026",
+    description:
+      "What is Medigap? A plain-English guide to Medicare Supplement insurance: how it works, what it covers, and who needs it. Call 855-559-1700.",
+  },
 };
 
 const faqs = [

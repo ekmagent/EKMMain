@@ -3,11 +3,18 @@ import Link from "next/link";
 import PhoneCTA from "@/components/PhoneCTA";
 import FAQSection from "@/components/FAQSection";
 import SchemaMarkup from "@/components/SchemaMarkup";
+import { SITE_URL } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Medigap Plan G vs Plan N in New Jersey (2026): Which Is Better?",
+  title: "Plan G vs Plan N in NJ | Compare 2026",
   description:
-    "Plan G vs Plan N in New Jersey: detailed cost comparison, coverage differences, and which plan saves more money for NJ residents in 2026. Free expert guidance: 855-559-1700.",
+    "Plan G vs Plan N in New Jersey: cost comparison, coverage differences, and which Medigap plan saves more in 2026. Call 855-559-1700.",
+  alternates: { canonical: `${SITE_URL}/medicare-supplement/new-jersey/plan-g-vs-plan-n` },
+  openGraph: {
+    title: "Plan G vs Plan N in NJ | Compare 2026",
+    description:
+      "Plan G vs Plan N in New Jersey: cost comparison, coverage differences, and which Medigap plan saves more in 2026. Call 855-559-1700.",
+  },
 };
 
 const faqs = [

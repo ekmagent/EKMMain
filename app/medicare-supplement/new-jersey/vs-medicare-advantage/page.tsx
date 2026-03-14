@@ -3,11 +3,18 @@ import Link from "next/link";
 import PhoneCTA from "@/components/PhoneCTA";
 import FAQSection from "@/components/FAQSection";
 import SchemaMarkup from "@/components/SchemaMarkup";
+import { SITE_URL } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Medigap vs Medicare Advantage in New Jersey (2026): Which Is Better?",
+  title: "Medigap vs Medicare Advantage in NJ",
   description:
-    "Medigap vs Medicare Advantage in New Jersey: honest comparison of costs, networks, flexibility, and which is right for NJ residents in 2026. Free guidance: 855-559-1700.",
+    "Medigap vs Medicare Advantage in NJ: compare costs, networks, and flexibility. Find which plan is right for you in 2026. Call 855-559-1700.",
+  alternates: { canonical: `${SITE_URL}/medicare-supplement/new-jersey/vs-medicare-advantage` },
+  openGraph: {
+    title: "Medigap vs Medicare Advantage in NJ",
+    description:
+      "Medigap vs Medicare Advantage in NJ: compare costs, networks, and flexibility. Find which plan is right for you in 2026. Call 855-559-1700.",
+  },
 };
 
 const faqs = [

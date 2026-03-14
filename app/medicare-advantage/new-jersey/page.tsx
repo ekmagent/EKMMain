@@ -3,11 +3,18 @@ import Link from "next/link";
 import PhoneCTA from "@/components/PhoneCTA";
 import FAQSection from "@/components/FAQSection";
 import SchemaMarkup from "@/components/SchemaMarkup";
+import { SITE_URL } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Best Medicare Advantage Plans in New Jersey (2026)",
+  title: "Best Medicare Advantage Plans in NJ 2026",
   description:
-    "Compare Medicare Advantage (Part C) plans in New Jersey. $0 premium options, drug coverage, dental & vision. Free comparison from a licensed NJ broker. Call 855-559-1700.",
+    "Compare Medicare Advantage plans in New Jersey. $0 premiums, drug coverage, dental and vision benefits. Call 855-559-1700.",
+  alternates: { canonical: `${SITE_URL}/medicare-advantage/new-jersey` },
+  openGraph: {
+    title: "Best Medicare Advantage Plans in NJ 2026",
+    description:
+      "Compare Medicare Advantage plans in New Jersey. $0 premiums, drug coverage, dental and vision benefits. Call 855-559-1700.",
+  },
 };
 
 const breadcrumbSchema = {

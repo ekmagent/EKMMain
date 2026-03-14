@@ -4,11 +4,18 @@ import PhoneCTA from "@/components/PhoneCTA";
 import FAQSection from "@/components/FAQSection";
 import SchemaMarkup from "@/components/SchemaMarkup";
 import QuoteWidget from "@/components/QuoteWidget";
+import { SITE_URL } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Best Medicare Supplement Plans in New Jersey (2026)",
+  title: "Best Medicare Supplement Plans in NJ 2026",
   description:
-    "Compare the best Medicare Supplement (Medigap) plans in New Jersey. Plan G rates from top carriers, NJ-specific enrollment rules, and free expert guidance. Call 855-559-1700.",
+    "Compare Medicare Supplement plans in New Jersey. Plan G rates from top carriers, NJ enrollment rules, and free guidance. Call 855-559-1700.",
+  alternates: { canonical: `${SITE_URL}/medicare-supplement/new-jersey` },
+  openGraph: {
+    title: "Best Medicare Supplement Plans in NJ 2026",
+    description:
+      "Compare Medicare Supplement plans in New Jersey. Plan G rates from top carriers, NJ enrollment rules, and free guidance. Call 855-559-1700.",
+  },
 };
 
 const breadcrumbSchema = {
@@ -49,12 +56,12 @@ const faqs = [
   {
     question: "How much does Medicare Supplement Plan G cost in New Jersey?",
     answer:
-      "Medicare Supplement Plan G premiums in New Jersey typically range from $130 to $220 per month for a 65-year-old, depending on the carrier and your county. New Jersey uses community rating, which means premiums are the same regardless of your age — a significant advantage for older enrollees compared to most other states.",
+      "Medicare Supplement Plan G premiums in New Jersey typically range from $130 to $220 per month for a 65-year-old, depending on the carrier and your county. Because plan letters are federally standardized, a Plan G from one carrier covers the exact same benefits as Plan G from any other — the only real difference is price and rate increase history. Comparing carriers is the best way to get the most coverage for your dollar.",
   },
   {
     question: "Does New Jersey have special Medigap enrollment rules?",
     answer:
-      "Yes. New Jersey is one of a small number of states that requires insurance companies to offer Medigap plans to Medicare beneficiaries year-round regardless of health status, thanks to guaranteed issue protections under state law. This means you cannot be denied a Medigap plan in New Jersey due to a pre-existing condition.",
+      "Like all states, New Jersey follows the federal Medigap Open Enrollment Period: a 6-month window starting the month you turn 65 and enroll in Medicare Part B. During this window no carrier can deny you coverage or charge more based on health. Enrolling during this window locks in the best possible terms — do not miss it.",
   },
   {
     question: "What is the difference between Medigap Plan G and Plan N in New Jersey?",
@@ -69,7 +76,7 @@ const faqs = [
   {
     question: "When is the best time to enroll in a Medicare Supplement plan in New Jersey?",
     answer:
-      "The best time to enroll is during your 6-month Medigap Open Enrollment Period, which begins the month you are both 65 and enrolled in Medicare Part B. During this window you cannot be turned down or charged more due to health conditions. However, because New Jersey has year-round guaranteed issue, you have more flexibility than beneficiaries in most other states.",
+      "The best time to enroll is during your 6-month Medigap Open Enrollment Period, which begins the month you are both 65 and enrolled in Medicare Part B. During this window you cannot be turned down or charged more due to health conditions. Missing this window can make it harder or more expensive to get Medigap coverage later, so timing your enrollment correctly is one of the most important decisions you will make.",
   },
   {
     question: "Which companies offer Medicare Supplement plans in New Jersey?",
@@ -119,9 +126,9 @@ export default function NJMedicareSupplementPage() {
               accepts Medicare, and costs $130–$220/month depending on your carrier and county.
             </p>
             <p className="text-gray-600 leading-relaxed mb-6">
-              New Jersey has important state-specific Medigap protections that most other states lack —
-              including year-round guaranteed issue rights. Below we explain your options, current rates,
-              top carriers, and the NJ rules that work in your favor.
+              Plan G is the same plan at every carrier — same benefits, federally standardized.
+              The difference is price and how aggressively carriers raise rates over time.
+              Below we explain your options, current rates, top carriers, and how to choose.
             </p>
             <p className="text-xs text-gray-400 mb-6">
               Last reviewed: March 2026 · Data sourced from CMS.gov and NJ Department of Banking and Insurance
@@ -156,21 +163,23 @@ export default function NJMedicareSupplementPage() {
       <section className="bg-green-50 border-y border-green-100 py-8 px-4">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-xl font-bold text-gray-900 mb-4">
-            New Jersey&apos;s Medigap Advantage: What Makes NJ Different
+            How to Get the Best Medigap Coverage in New Jersey
           </h2>
           <div className="grid md:grid-cols-3 gap-6 text-sm">
             <div className="bg-white rounded-lg p-4 border border-green-100">
-              <h3 className="font-semibold text-gray-900 mb-2">Community Rating</h3>
+              <h3 className="font-semibold text-gray-900 mb-2">Plan Letters Are All the Same</h3>
               <p className="text-gray-600">
-                NJ requires community rating — your Medigap premium is the same at 65 as it is at 80.
-                In most states, premiums rise with age. This protects long-term affordability.
+                A Plan G from Aetna covers the exact same benefits as Plan G from Mutual of Omaha.
+                Federal law standardizes every plan letter — think of it like a can of Diet Coke.
+                Same product, different price. Your job is finding the best price from a stable carrier.
               </p>
             </div>
             <div className="bg-white rounded-lg p-4 border border-green-100">
-              <h3 className="font-semibold text-gray-900 mb-2">Year-Round Guaranteed Issue</h3>
+              <h3 className="font-semibold text-gray-900 mb-2">Rate Increase History Matters</h3>
               <p className="text-gray-600">
-                Unlike most states, NJ insurers cannot deny you a Medigap plan or charge more based
-                on health conditions at any time of year — not just during open enrollment.
+                Some carriers raise premiums 2–4% per year. Others raise 10–15%. Over 10 years that
+                difference compounds dramatically. An independent broker can show you each carrier&apos;s
+                rate increase history — not just today&apos;s lowest quote.
               </p>
             </div>
             <div className="bg-white rounded-lg p-4 border border-green-100">
@@ -228,6 +237,16 @@ export default function NJMedicareSupplementPage() {
       {/* FAQ */}
       <section className="max-w-6xl mx-auto px-4">
         <FAQSection faqs={faqs} title="Medicare Supplement Questions — New Jersey" />
+      </section>
+
+      {/* Other States */}
+      <section className="max-w-3xl mx-auto px-4 mt-10">
+        <p className="text-gray-600 text-sm">
+          We also help beneficiaries in other states.{" "}
+          <Link href="/medicare-supplement/pennsylvania" className="text-blue-700 hover:underline font-medium">
+            Compare Medicare Supplement plans in Pennsylvania →
+          </Link>
+        </p>
       </section>
 
       {/* Bottom CTA */}

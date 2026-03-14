@@ -3,11 +3,18 @@ import Link from "next/link";
 import PhoneCTA from "@/components/PhoneCTA";
 import FAQSection from "@/components/FAQSection";
 import SchemaMarkup from "@/components/SchemaMarkup";
+import { SITE_URL } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "How Much Does Medicare Cost in New Jersey in 2026?",
+  title: "Medicare Supplement Cost in NJ 2026",
   description:
-    "Medicare costs in New Jersey 2026: Part B premiums, Medigap Plan G rates by carrier, Medicare Advantage costs, and total out-of-pocket estimates. Free comparison: 855-559-1700.",
+    "Medicare Supplement costs in NJ for 2026: Part B premiums, Plan G rates by carrier, and out-of-pocket estimates. Call 855-559-1700.",
+  alternates: { canonical: `${SITE_URL}/medicare-supplement/new-jersey/cost` },
+  openGraph: {
+    title: "Medicare Supplement Cost in NJ 2026",
+    description:
+      "Medicare Supplement costs in NJ for 2026: Part B premiums, Plan G rates by carrier, and out-of-pocket estimates. Call 855-559-1700.",
+  },
 };
 
 const faqs = [
