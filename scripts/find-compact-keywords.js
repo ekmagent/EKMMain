@@ -84,6 +84,37 @@ const SEED_TOPICS = [
   "how much does medicare supplement cost per month",
   "medicare supplement plan g premium 2025",
   "affordable medicare supplement plans",
+  // Age-specific cost queries (from client language — Edward 07-09)
+  "how much is plan g in nj for 65 year old",
+  "how much is plan g in nj for 70 year old",
+  "how much is plan g in nj for 72 year old",
+  "how much is plan g in nj for 75 year old",
+  "how much is plan g in nj for 80 year old",
+  // Speed / urgency
+  "how fast can i start my medicare supplement",
+  "how quickly can i get medicare supplement coverage",
+  "same day medicare supplement enrollment",
+  // Condition-specific (Edward 07-09 "overlooked details" pattern)
+  "best medicare plan for someone with parkinsons",
+  "best medicare plan for someone with crohns",
+  "best medicare plan for someone with diabetes",
+  "best medicare plan for someone with copd",
+  "best medicare plan for someone with heart disease",
+  "best medicare plan for someone with cancer",
+  "best medicare plan for someone with kidney disease",
+  "best medicare plan for someone with arthritis",
+  "best medicare plan for someone with dementia",
+  "best medicare plan for someone with multiple sclerosis",
+  // Condition-specific agent search
+  "medicare agent that specializes in parkinsons",
+  "medicare agent that specializes in crohns",
+  "medicare agent that specializes in diabetes",
+  "medicare agent for someone with pre-existing conditions",
+  // Value / trust messaging as search queries
+  "medicare broker no cost to you",
+  "free medicare plan comparison",
+  "independent medicare broker near me new jersey",
+  "medicare agent that helps with paperwork",
 ];
 
 // ---------------------------------------------------------------------------
@@ -111,6 +142,19 @@ const HIGH_LEVERAGE_MODIFIERS = [
   "for union members",
   "for people with diabetes",
   "for people with pre-existing conditions",
+  // Condition-specific modifiers (from Anthony's client language — Edward 07-09)
+  "for people with parkinsons",
+  "for people with crohns",
+  "for people with copd",
+  "for people with heart disease",
+  "for people with cancer",
+  "for people with kidney disease",
+  "for people with arthritis",
+  "for people with dementia",
+  "for people with multiple sclerosis",
+  "for people with lupus",
+  "for people with osteoporosis",
+  "for people with fibromyalgia",
 ];
 
 // Competitors whose content surfaces low-competition Medicare keywords
