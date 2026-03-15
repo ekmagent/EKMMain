@@ -379,8 +379,16 @@ function saveState(state) {
   fs.writeFileSync(STATE_FILE, JSON.stringify(state, null, 2));
 }
 
-/** Pick the next 2 competitors based on rotation index */
+/** Pick competitors for this run.
+ *  Default: 2 per run (rotation). Set ALL_COMPETITORS=1 env var to do all at once. */
 function pickCompetitors(state) {
+  // Full sweep mode — analyze all competitors in one run
+  if (process.env.ALL_COMPETITORS === "1") {
+    console.log("ALL_COMPETITORS=1 — analyzing all competitors this run");
+    state.rotationIndex = 0;
+    return [...COMPETITORS];
+  }
+
   const idx = state.rotationIndex || 0;
   const picked = [];
   for (let i = 0; i < 2; i++) {
