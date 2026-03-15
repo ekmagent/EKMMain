@@ -115,11 +115,18 @@ const HIGH_LEVERAGE_MODIFIERS = [
 
 // Competitors whose content surfaces low-competition Medicare keywords
 const COMPETITORS = [
+  // National Medicare content sites
   "boomerbenefits.com",
   "medicareresources.org",
   "medicareadvantage.com",
   "medicarefaq.com",
-  "seniorplanners.com",
+  "retireguide.com",
+  "medigap.com",
+  "thebig65.com",
+  "medicareagentshub.com",
+  // NJ-specific brokers (direct local competitors)
+  "njseniorhealth.com",
+  "themedicaregrp.com",
 ];
 
 // Keywords already on medicareyourself.com (skip these)
