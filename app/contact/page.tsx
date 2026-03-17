@@ -52,7 +52,7 @@ function ContactForm() {
         </div>
         <h2 className="text-2xl font-black text-[#1C2B27] mb-3">You&rsquo;re all set!</h2>
         <p className="text-[#3A5048] leading-relaxed max-w-sm mx-auto">
-          Anthony will reach out shortly. In the meantime, feel free to call directly at{" "}
+          Your advisor will reach out shortly. In the meantime, feel free to call directly at{" "}
           <a href="tel:8555591700" className="font-bold text-[#2D6E5F] hover:underline">855-559-1700</a>.
         </p>
       </div>
@@ -62,13 +62,13 @@ function ContactForm() {
   return (
     <form onSubmit={handleSubmit} noValidate className="space-y-5">
       {zip && (
-        <div className="bg-[#EFF6F3] border border-[#D0E4DE] rounded-xl px-5 py-3 text-sm text-[#3A5048]">
+        <div className="bg-[#EFF6F3] border border-[#D0E4DE] rounded-xl px-5 py-3 text-base text-[#3A5048]">
           Finding plans for zip code <strong className="text-[#1C2B27]">{zip}</strong>
         </div>
       )}
 
       <div>
-        <label htmlFor="name" className="block text-sm font-bold text-[#1C2B27] mb-1.5">
+        <label htmlFor="name" className="block text-base font-bold text-[#1C2B27] mb-2">
           Your Name
         </label>
         <input
@@ -78,13 +78,13 @@ function ContactForm() {
           value={name}
           onChange={(e) => setName(e.target.value)}
           placeholder="First and last name"
-          className="w-full border-2 border-[#D0E4DE] rounded-lg bg-white text-[#1C2B27] placeholder-[#3A5048] font-medium px-4 py-3 text-base focus:outline-none focus:border-[#2D6E5F] transition-colors"
+          className="w-full border-2 border-[#D0E4DE] rounded-lg bg-white text-[#1C2B27] placeholder-[#3A5048] font-medium px-4 py-3.5 text-base focus:outline-none focus:border-[#2D6E5F] transition-colors"
           required
         />
       </div>
 
       <div>
-        <label htmlFor="phone" className="block text-sm font-bold text-[#1C2B27] mb-1.5">
+        <label htmlFor="phone" className="block text-base font-bold text-[#1C2B27] mb-2">
           Phone Number
         </label>
         <input
@@ -94,13 +94,13 @@ function ContactForm() {
           value={phone}
           onChange={(e) => setPhone(e.target.value)}
           placeholder="(555) 555-5555"
-          className="w-full border-2 border-[#D0E4DE] rounded-lg bg-white text-[#1C2B27] placeholder-[#3A5048] font-medium px-4 py-3 text-base focus:outline-none focus:border-[#2D6E5F] transition-colors"
+          className="w-full border-2 border-[#D0E4DE] rounded-lg bg-white text-[#1C2B27] placeholder-[#3A5048] font-medium px-4 py-3.5 text-base focus:outline-none focus:border-[#2D6E5F] transition-colors"
           required
         />
       </div>
 
       <div>
-        <label htmlFor="email" className="block text-sm font-bold text-[#1C2B27] mb-1.5">
+        <label htmlFor="email" className="block text-base font-bold text-[#1C2B27] mb-2">
           Email Address
         </label>
         <input
@@ -110,13 +110,13 @@ function ContactForm() {
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           placeholder="you@example.com"
-          className="w-full border-2 border-[#D0E4DE] rounded-lg bg-white text-[#1C2B27] placeholder-[#3A5048] font-medium px-4 py-3 text-base focus:outline-none focus:border-[#2D6E5F] transition-colors"
+          className="w-full border-2 border-[#D0E4DE] rounded-lg bg-white text-[#1C2B27] placeholder-[#3A5048] font-medium px-4 py-3.5 text-base focus:outline-none focus:border-[#2D6E5F] transition-colors"
           required
         />
       </div>
 
       {error && (
-        <p className="text-sm text-red-600 font-medium" role="alert">{error}</p>
+        <p className="text-base text-red-600 font-medium" role="alert">{error}</p>
       )}
 
       <button
@@ -127,8 +127,8 @@ function ContactForm() {
         {submitting ? "Sending…" : "Get My Free Options"}
       </button>
 
-      <p className="text-xs text-[#3A5048] text-center leading-relaxed">
-        No spam. No pressure. Anthony will personally reach out to walk you through your options.
+      <p className="text-sm text-[#3A5048] text-center leading-relaxed">
+        No spam. No pressure. Your advisor will personally walk you through your options.
       </p>
     </form>
   );
@@ -136,10 +136,10 @@ function ContactForm() {
 
 export default function ContactPage() {
   return (
-    <section className="min-h-[80vh] flex items-center py-16 px-6">
+    <section className="min-h-[80vh] flex items-center py-12 px-4">
       <div className="w-full max-w-lg mx-auto">
 
-        <div className="text-center mb-10">
+        <div className="text-center mb-8">
           <p className="text-sm font-bold uppercase tracking-widest text-[#2D6E5F] mb-3">
             Free · No Obligation
           </p>
@@ -147,18 +147,18 @@ export default function ContactPage() {
             Let&rsquo;s Find Your Plan
           </h1>
           <p className="text-[#3A5048] leading-relaxed">
-            Tell us a little about yourself and Anthony will reach out with your best options —
+            Tell us a little about yourself and your advisor will reach out with your best options —
             usually within the hour.
           </p>
         </div>
 
-        <div className="bg-white border border-[#D0E4DE] rounded-2xl p-8 shadow-sm">
+        <div className="bg-white border border-[#D0E4DE] rounded-2xl p-5 sm:p-8 shadow-sm">
           <Suspense>
             <ContactForm />
           </Suspense>
         </div>
 
-        <div className="mt-6 text-center text-sm text-[#3A5048]">
+        <div className="mt-6 text-center text-base text-[#3A5048]">
           Prefer to call?{" "}
           <a href="tel:8555591700" className="font-bold text-[#2D6E5F] hover:underline">
             855-559-1700

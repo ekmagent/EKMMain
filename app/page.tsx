@@ -160,7 +160,7 @@ export default function HomePage() {
               { href: "/hub", title: "Medicare Guides", desc: "Plan comparisons, costs, enrollment, and more." },
               { href: "/learn/how-to-sign-up-for-medicare", title: "How to Sign Up", desc: "Deadlines, penalties, and step-by-step enrollment." },
               { href: "/learn/medicare-help-low-income", title: "Help on Fixed Income", desc: "Extra Help, QMB, SLMB, and savings programs." },
-              { href: "/about", title: "About Anthony Orner", desc: "Licensed independent broker, NPI verified." },
+              { href: "/about", title: "About Our Team", desc: "Licensed independent broker, NPI verified." },
             ].map(({ href, title, desc }) => (
               <Link
                 key={href}
@@ -184,7 +184,7 @@ export default function HomePage() {
             Not sure where to start?
           </h2>
           <p className="text-[#3A5048] mb-8 leading-relaxed">
-            A 15-minute call with Anthony is free, unbiased, and could save you thousands
+            A 15-minute call with an advisor is free, unbiased, and could save you thousands
             over the life of your coverage.
           </p>
           <a
