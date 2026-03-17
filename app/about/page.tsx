@@ -6,7 +6,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "About Us | Licensed Medicare Broker",
   description:
-    "Independent, licensed Medicare broker serving New Jersey and 34 states. Free, unbiased plan comparisons. NPI 1902584006 · NPN 205867991. Call 855-559-1700.",
+    "Independent, licensed Medicare broker serving New Jersey and 34 states. Free, unbiased plan comparisons. NPI 1902584006 · NPN 20586791. Call 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/about` },
   openGraph: {
     title: "About Us | Licensed Medicare Broker",
@@ -54,7 +54,7 @@ const personSchema = {
       {
         "@type": "PropertyValue",
         name: "NPN",
-        value: "205867991",
+        value: "20586791",
       },
     ],
   },
@@ -99,7 +99,7 @@ export default function AboutPage() {
             <svg className="w-4 h-4 text-[#2D6E5F] shrink-0" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24" aria-hidden="true">
               <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
             </svg>
-            <span>NPN <strong>205867991</strong></span>
+            <span>NPN <strong>20586791</strong></span>
             <span className="text-[#3A5048] font-normal">· Verify at NIPR ↗</span>
           </a>
         </div>
