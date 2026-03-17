@@ -106,7 +106,7 @@ export default function IndependentMedicareSupplementInsuranceAgents() {
         </nav>
 
         <h1 className="text-3xl md:text-4xl font-bold mb-4">
-          Why You Want an Independent Medicare Supplement Insurance Agent
+          Independent Medicare Supplement Insurance Agents: What Sets Them Apart
         </h1>
 
         <Image

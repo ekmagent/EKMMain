@@ -8,11 +8,11 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 export const metadata: Metadata = {
   title: "Medicare Brokers in My Area | NJ Licensed Independent Broker | MedicareYourself",
   description:
-    "Medicare brokers in your area of New Jersey. Anthony Orner is a licensed independent broker who compares Medigap and Advantage plans for free. Call or book online.",
+    "Medicare brokers in my area of New Jersey compare every major carrier at no cost. Anthony Orner is licensed, independent, and free to work with. Get a quote.",
   openGraph: {
     title: "Medicare Brokers in My Area | NJ Licensed Independent Broker | MedicareYourself",
     description:
-      "Medicare brokers in your area of New Jersey. Anthony Orner is a licensed independent broker who compares Medigap and Advantage plans for free. Call or book online.",
+      "Medicare brokers in my area of New Jersey compare every major carrier at no cost. Anthony Orner is licensed, independent, and free to work with. Get a quote.",
   },
 };
 

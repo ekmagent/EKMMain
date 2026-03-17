@@ -33,9 +33,12 @@ async function getSheetsClient() {
 // ---------------------------------------------------------------------------
 // On-page scorer (copy of build-compact-pages.js version)
 // ---------------------------------------------------------------------------
-function calculateOnPageScore(content, keyword) {
-  const kwLower = keyword.toLowerCase().trim();
-  const words = kwLower.split(/\s+/).filter(Boolean);
+function calculateOnPageScore(content, keyword, slug) {
+  // Normalize: strip apostrophes (parkinson's→parkinsons, what's→whats) and
+  // stray punctuation (em dashes, commas attached to words) before matching.
+  const norm = (s) => s.toLowerCase().replace(/&apos;/g, "").replace(/&[a-z]+;/g, " ").replace(/'/g, "").replace(/[^\w\s]/g, " ").replace(/\s+/g, " ").trim();
+  const kwNorm = norm(keyword);
+  const words = kwNorm.split(/\s+/).filter(Boolean);
   const contentLower = content.toLowerCase();
 
   let score = 0;
@@ -44,7 +47,7 @@ function calculateOnPageScore(content, keyword) {
 
   // 1. Title contains keyword (28pts — front-loaded per Edward Sturm)
   const titleMatch = content.match(/title:\s*"([^"]+)"/) || content.match(/title:\s*'([^']+)'/);
-  const titleText = (titleMatch?.[1] || "").toLowerCase();
+  const titleText = norm(titleMatch?.[1] || "");
   const titleWordMatches = words.filter((w) => titleText.includes(w)).length;
   if (titleWordMatches === words.length) {
     score += 28; details.push("+ Title contains keyword (28pts)");
@@ -59,7 +62,7 @@ function calculateOnPageScore(content, keyword) {
 
   // 2. Meta description (10pts)
   const metaMatch = content.match(/description:\s*"([^"]+)"/) || content.match(/description:\s*'([^']+)'/);
-  const metaText = (metaMatch?.[1] || "").toLowerCase();
+  const metaText = norm(metaMatch?.[1] || "");
   const metaWordMatches = words.filter((w) => metaText.includes(w)).length;
   if (metaWordMatches === words.length) {
     score += 10; details.push("+ Meta description contains keyword (10pts)");
@@ -84,7 +87,7 @@ function calculateOnPageScore(content, keyword) {
 
   // 3. H1 (15pts)
   const h1Match = content.match(/<h1[^>]*>([\s\S]*?)<\/h1>/i);
-  const h1Text = (h1Match?.[1] || "").replace(/<[^>]+>/g, "").toLowerCase();
+  const h1Text = norm((h1Match?.[1] || "").replace(/<[^>]+>/g, ""));
   const h1WordMatches = words.filter((w) => h1Text.includes(w)).length;
   if (h1WordMatches === words.length) {
     score += 15; details.push("+ H1 contains keyword (15pts)");
@@ -97,9 +100,8 @@ function calculateOnPageScore(content, keyword) {
     details.push("- H1 missing keyword (0pts)"); missing.push("keyword in H1");
   }
 
-  // 4. URL slug (10pts)
-  const slugMatch = content.match(/href="\/services\/([\w-]+)"/);
-  const slugText = (slugMatch?.[1] || "").toLowerCase();
+  // 4. URL slug (10pts) — derived from file path, not page content
+  const slugText = (slug || "").toLowerCase();
   const slugWordMatches = words.filter((w) => slugText.includes(w)).length;
   if (slugWordMatches >= Math.ceil(words.length * 0.5)) {
     score += 10; details.push("+ URL slug contains keyword (10pts)");
@@ -109,7 +111,7 @@ function calculateOnPageScore(content, keyword) {
 
   // 5. First paragraph (10pts)
   const firstParaMatch = content.match(/<p[^>]*>([\s\S]*?)<\/p>/i);
-  const firstParaText = (firstParaMatch?.[1] || "").replace(/<[^>]+>/g, "").toLowerCase();
+  const firstParaText = norm((firstParaMatch?.[1] || "").replace(/<[^>]+>/g, ""));
   const paraWordMatches = words.filter((w) => firstParaText.includes(w)).length;
   if (paraWordMatches === words.length) {
     score += 10; details.push("+ First paragraph contains keyword (10pts)");
@@ -124,7 +126,7 @@ function calculateOnPageScore(content, keyword) {
 
   // 6. Image alt text (10pts)
   const imgAltMatch = content.match(/alt=["']([^"']+)["']/i);
-  const altText = (imgAltMatch?.[1] || "").toLowerCase();
+  const altText = norm(imgAltMatch?.[1] || "");
   const altWordMatches = words.filter((w) => altText.includes(w)).length;
   if (altWordMatches === words.length) {
     score += 10; details.push("+ Image alt text contains keyword (10pts)");
@@ -230,7 +232,7 @@ async function run() {
     }
 
     const content = fs.readFileSync(pageFile, "utf8");
-    const result = calculateOnPageScore(content, keyword);
+    const result = calculateOnPageScore(content, keyword, slug);
 
     console.log(`  ${keyword}`);
     console.log(`    Score: ${result.score}/100${result.missing.length ? ` — missing: ${result.missing.join(", ")}` : " ✓"}`);

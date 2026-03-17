@@ -9,12 +9,12 @@ export const metadata: Metadata = {
   title:
     "My Medicare Supplement Rate Just Jumped — Why, and What Can I Do? | Lower Your Premium Today | MedicareYourself",
   description:
-    "Medicare Supplement rate just jumped? Learn why premiums increase and how switching carriers can lower your cost. Anthony Orner runs free comparisons — call now.",
+    "My Medicare Supplement rate just jumped. Learn why it happens and what you can do to lower your cost by switching carriers. Free quote from Anthony Orner.",
   openGraph: {
     title:
       "My Medicare Supplement Rate Just Jumped — Why, and What Can I Do? | Lower Your Premium Today | MedicareYourself",
     description:
-      "Medicare Supplement rate just jumped? Learn why premiums increase and how switching carriers can lower your cost. Anthony Orner runs free comparisons — call now.",
+      "My Medicare Supplement rate just jumped. Learn why it happens and what you can do to lower your cost by switching carriers. Free quote from Anthony Orner.",
   },
 };
 
@@ -75,13 +75,13 @@ const faqs = [
   {
     question: "What if I can't afford a Medicare Supplement plan?",
     answer:
-      "You have options. You can switch to a lower-cost carrier offering the same standardized plan, move from Plan G to Plan N to reduce your premium, or explore Medicare Advantage plans. In New Jersey, you have year-round guaranteed issue rights, so you can switch Medigap carriers any time without medical underwriting.",
+      "You have options. You can switch to a lower-cost carrier offering the same standardized plan, move from Plan G to Plan N to reduce your premium, or explore Medicare Advantage plans. Outside your initial Medigap open enrollment period, carriers can ask health questions — but federal guaranteed issue rights apply in specific situations. Call me and I'll tell you which window you qualify for.",
   },
   {
     question:
       "Do I need to wait until open enrollment to change my Medicare Supplement?",
     answer:
-      "No. Medicare Supplement plans are not tied to the Annual Enrollment Period (Oct 15 - Dec 7). You can apply to switch carriers at any time. In NJ, guaranteed issue protections let you move to a new Medigap carrier year-round without health questions.",
+      "Medicare Supplement plans are not tied to the Annual Enrollment Period (Oct 15 - Dec 7). You can apply to switch at any time, but outside your initial Medigap open enrollment period, carriers may ask health questions. Certain federal guaranteed issue triggers let you switch without underwriting — losing employer coverage and plan exits are the most common.",
   },
   {
     question: "Will I lose coverage if I switch Medicare Supplement carriers?",
@@ -123,10 +123,10 @@ export default function MedicareSupplementRateJumpedPage() {
         />
 
         <p className="text-lg text-gray-700 mb-2">
-          If your Medicare Supplement rate just jumped 15% or more, you are not
-          imagining things. Several major carriers raised Medigap premiums
-          between 15% and 20% in mid-2025, hitting Plan G and Plan N
-          policyholders especially hard.
+          If your Medicare Supplement rate just jumped, you want to know why it
+          happened and what you can do about it. You are not alone. Several
+          major carriers raised Medigap premiums 15% to 20% in mid-2025,
+          hitting Plan G and Plan N policyholders especially hard.
         </p>
         <p className="text-lg text-gray-700 mb-6">
           The good news: you do not have to accept it. I am Anthony Orner, a

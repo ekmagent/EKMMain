@@ -7,14 +7,14 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 
 export const metadata: Metadata = {
   title:
-    "What's the Best Medicare Plan for Chronic Conditions | Expert Broker Help | MedicareYourself",
+    "What's the Best Medicare Plan for Someone With Chronic Conditions | Free Broker Help | MedicareYourself",
   description:
-    "What's the best Medicare plan for chronic conditions? Learn why Medigap often wins over Advantage for ongoing care. Free broker guidance — no health screening.",
+    "What's the best Medicare plan for someone with chronic conditions? For most people, Medigap wins over Advantage. Get free broker guidance from Anthony Orner.",
   openGraph: {
     title:
-      "What's the Best Medicare Plan for Chronic Conditions | Expert Broker Help | MedicareYourself",
+      "What's the Best Medicare Plan for Someone With Chronic Conditions | Free Broker Help | MedicareYourself",
     description:
-      "What's the best Medicare plan for chronic conditions? Learn why Medigap often wins over Advantage for ongoing care. Free broker guidance — no health screening.",
+      "What's the best Medicare plan for someone with chronic conditions? For most people, Medigap wins over Advantage. Get free broker guidance from Anthony Orner.",
   },
 };
 
@@ -77,7 +77,7 @@ const faqs = [
     question:
       "Can I switch from Medicare Advantage to Medigap if I have a chronic condition?",
     answer:
-      "In most states, you would need to pass medical underwriting to switch from Medicare Advantage to Medigap after your initial enrollment period. However, New Jersey offers year-round guaranteed issue rights for Medigap, meaning no health questions regardless of your conditions. Other states may have limited guaranteed issue situations, such as when your Advantage plan leaves your area.",
+      "In most states, you would need to pass medical underwriting to switch from Medicare Advantage to Medigap after your initial enrollment period. Federal guaranteed issue rights apply in specific situations — such as when your Advantage plan leaves your service area or you lose employer coverage. I can check which situation applies to yours.",
   },
   {
     question:

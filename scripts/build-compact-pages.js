@@ -461,7 +461,8 @@ function validatePage(content, blueprint) {
 // Edward's target: 96-98 out of 100. NOT 100 (over-optimization).
 // ---------------------------------------------------------------------------
 function calculateOnPageScore(content, blueprint) {
-  const kwLower = blueprint.keyword.toLowerCase();
+  const norm = (s) => s.toLowerCase().replace(/&apos;/g, "").replace(/&[a-z]+;/g, " ").replace(/'/g, "").replace(/[^\w\s]/g, " ").replace(/\s+/g, " ").trim();
+  const kwLower = norm(blueprint.keyword);
   const contentLower = content.toLowerCase();
   const details = [];
   const missing = [];
@@ -469,7 +470,7 @@ function calculateOnPageScore(content, blueprint) {
 
   // 1. Keyword in title tag (28 points — front-loaded per Edward Sturm)
   const titleMatch = content.match(/title:\s*"([^"]+)"/) || content.match(/title:\s*'([^']+)'/);
-  const titleText = titleMatch ? titleMatch[1].toLowerCase() : "";
+  const titleText = titleMatch ? norm(titleMatch[1]) : "";
   if (titleText.includes(kwLower)) {
     score += 28;
     details.push("+ Title contains keyword (28pts)");
@@ -488,7 +489,7 @@ function calculateOnPageScore(content, blueprint) {
 
   // 2. Keyword in meta description (10 points)
   const descMatch = content.match(/description:\s*\n?\s*"([^"]+)"/) || content.match(/description:\s*\n?\s*'([^']+)'/);
-  const descText = descMatch ? descMatch[1].toLowerCase() : "";
+  const descText = descMatch ? norm(descMatch[1]) : "";
   if (descText.includes(kwLower)) {
     score += 10;
     details.push("+ Meta description contains keyword (10pts)");
@@ -506,7 +507,7 @@ function calculateOnPageScore(content, blueprint) {
 
   // 3. Keyword in H1 (15 points)
   const h1Match = content.match(/<h1[^>]*>([\s\S]*?)<\/h1>/i);
-  const h1Text = h1Match ? h1Match[1].replace(/<[^>]+>/g, "").toLowerCase() : "";
+  const h1Text = h1Match ? norm(h1Match[1].replace(/<[^>]+>/g, "")) : "";
   if (h1Text.includes(kwLower)) {
     score += 15;
     details.push("+ H1 contains keyword (15pts)");
@@ -536,7 +537,7 @@ function calculateOnPageScore(content, blueprint) {
   // 5. Keyword in first 200 chars of body content (15 points)
   // Find first paragraph-like text after the component function
   const bodyStart = content.indexOf("export default function");
-  const first500 = bodyStart > 0 ? contentLower.slice(bodyStart, bodyStart + 500) : "";
+  const first500 = bodyStart > 0 ? norm(contentLower.slice(bodyStart, bodyStart + 500)) : "";
   if (first500.includes(kwLower)) {
     score += 15;
     details.push("+ Keyword in first paragraph (15pts)");
@@ -557,7 +558,7 @@ function calculateOnPageScore(content, blueprint) {
   let altMatch;
   let kwInAlt = false;
   while ((altMatch = altRegex.exec(content)) !== null) {
-    if (altMatch[1].toLowerCase().includes(kwLower)) {
+    if (norm(altMatch[1]).includes(kwLower)) {
       kwInAlt = true;
       break;
     }
@@ -570,7 +571,7 @@ function calculateOnPageScore(content, blueprint) {
     const allAlts = content.match(/alt=["']([^"']+)["']/gi) || [];
     const kwWords = kwLower.split(/\s+/).filter((w) => w.length > 2);
     const anyPartialAlt = allAlts.some((a) => {
-      const altText = a.replace(/alt=["']/i, "").replace(/["']$/, "").toLowerCase();
+      const altText = norm(a.replace(/alt=["']/i, "").replace(/["']$/, ""));
       return kwWords.filter((w) => altText.includes(w)).length >= Math.ceil(kwWords.length * 0.5);
     });
     if (anyPartialAlt) {
