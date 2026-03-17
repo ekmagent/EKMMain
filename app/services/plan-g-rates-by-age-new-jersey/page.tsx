@@ -73,7 +73,7 @@ export default function PlanGRatesByAgeNJPage() {
       <nav className="max-w-6xl mx-auto px-4 pt-4 text-sm text-gray-500">
         <Link href="/" className="hover:text-blue-600">Home</Link>
         <span className="mx-2">&rsaquo;</span>
-        <Link href="/hub" className="hover:text-blue-600">Medicare Guides</Link>
+        <Link href="/services" className="hover:text-blue-600">Medicare Guides</Link>
         <span className="mx-2">&rsaquo;</span>
         <span className="text-gray-900 font-medium">Plan G Rates by Age in NJ</span>
       </nav>

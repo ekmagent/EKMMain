@@ -98,7 +98,7 @@ export default function MedicareBrokerParkinsons() {
           Home
         </Link>
         <span className="mx-2">/</span>
-        <Link href="/hub" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>
         <span className="mx-2">/</span>

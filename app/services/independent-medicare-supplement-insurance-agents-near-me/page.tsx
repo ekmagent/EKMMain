@@ -102,7 +102,7 @@ export default function IndependentMedicareSuppAgentsPage() {
             Home
           </Link>{" "}
           &gt;{" "}
-          <Link href="/hub" className="hover:underline">
+          <Link href="/services" className="hover:underline">
             Medicare Guides
           </Link>{" "}
           &gt;{" "}

@@ -100,7 +100,7 @@ export default function MedicareEnrollmentHelpDiabetes() {
             Home
           </Link>
           <span className="mx-2">/</span>
-          <Link href="/hub" className="hover:text-blue-600">
+          <Link href="/services" className="hover:text-blue-600">
             Medicare Guides
           </Link>
           <span className="mx-2">/</span>

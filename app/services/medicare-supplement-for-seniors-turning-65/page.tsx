@@ -99,7 +99,7 @@ export default function MedicareSupplementSeniorsTurning65() {
           Home
         </Link>
         <span className="mx-2">/</span>
-        <Link href="/hub" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>
         <span className="mx-2">/</span>
@@ -346,4 +346,32 @@ export default function MedicareSupplementSeniorsTurning65() {
           Related resources
         </h2>
         <ul className="space-y-2">
-          <li
+            <li>
+              <Link
+                href="/services/medicare-brokers-in-my-area"
+                className="text-blue-700 hover:underline"
+              >
+                Find a Medicare Broker in Your Area
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/best-and-cheapest-medicare-supplement"
+                className="text-blue-700 hover:underline"
+              >
+                Best and Cheapest Medicare Supplement Plans
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/how-to-enroll-in-medicare-in-new-jersey"
+                className="text-blue-700 hover:underline"
+              >
+                How to Enroll in Medicare in New Jersey
+              </Link>
+            </li>
+          </ul>
+        </section>
+    </main>
+  );
+}

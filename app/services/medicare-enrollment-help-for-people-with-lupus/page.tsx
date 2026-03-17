@@ -99,7 +99,7 @@ export default function MedicareEnrollmentHelpLupus() {
             Home
           </Link>
           <span className="mx-2">/</span>
-          <Link href="/hub" className="hover:underline">
+          <Link href="/services" className="hover:underline">
             Medicare Guides
           </Link>
           <span className="mx-2">/</span>
