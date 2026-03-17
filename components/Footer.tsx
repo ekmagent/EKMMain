@@ -10,11 +10,11 @@ export default function Footer() {
             <span className="text-lg font-black tracking-tight text-[#2D6E5F]">
               Medicare<span className="text-[#1C2B27]">Yourself</span>
             </span>
-            <p className="mt-3 text-sm text-[#5A7269] leading-relaxed">
+            <p className="mt-3 text-sm text-[#3A5048] leading-relaxed">
               A service of EasyKind Medicare. Independent broker helping beneficiaries
               find the right Medicare Supplement and Advantage plans.
             </p>
-            <p className="text-xs text-[#5A7269] mt-2">
+            <p className="text-xs text-[#3A5048] mt-2">
               1309 Route 79 West, Cherry Hill, NJ 08002
             </p>
             <a
@@ -30,7 +30,7 @@ export default function Footer() {
 
           <div>
             <h3 className="text-sm font-bold text-[#1C2B27] uppercase tracking-wide mb-4">Medicare Plans</h3>
-            <ul className="space-y-3 text-sm text-[#5A7269]">
+            <ul className="space-y-3 text-sm text-[#3A5048]">
               <li><Link href="/medicare-supplement/new-jersey" className="hover:text-[#2D6E5F] transition-colors">Medicare Supplement — New Jersey</Link></li>
               <li><Link href="/medicare-supplement/pennsylvania" className="hover:text-[#2D6E5F] transition-colors">Medicare Supplement — Pennsylvania</Link></li>
               <li><Link href="/medicare-advantage/new-jersey" className="hover:text-[#2D6E5F] transition-colors">Medicare Advantage — New Jersey</Link></li>
@@ -42,7 +42,7 @@ export default function Footer() {
 
           <div>
             <h3 className="text-sm font-bold text-[#1C2B27] uppercase tracking-wide mb-4">Company</h3>
-            <ul className="space-y-3 text-sm text-[#5A7269]">
+            <ul className="space-y-3 text-sm text-[#3A5048]">
               <li><Link href="/about" className="hover:text-[#2D6E5F] transition-colors">About Us</Link></li>
               <li><Link href="/privacy" className="hover:text-[#2D6E5F] transition-colors">Privacy Policy</Link></li>
               <li><Link href="/terms" className="hover:text-[#2D6E5F] transition-colors">Terms of Service</Link></li>
@@ -54,7 +54,7 @@ export default function Footer() {
 
         {/* CMS-required TPMO disclaimer */}
         <div className="border-t border-[#D0E4DE] pt-6">
-          <p className="text-xs text-[#5A7269] leading-relaxed mb-3">
+          <p className="text-xs text-[#3A5048] leading-relaxed mb-3">
             <strong className="text-[#1C2B27]">Important Disclosure:</strong> We do not offer every plan available in
             your area. Currently we represent multiple organizations which offer products in your area. You can always
             contact{" "}
@@ -64,7 +64,7 @@ export default function Footer() {
             , 1-800-MEDICARE (1-800-633-4227), TTY users should call 1-877-486-2048, 24 hours a day/7 days a week, or
             your local State Health Insurance Assistance Program (SHIP) for help with plan choices.
           </p>
-          <p className="text-xs text-[#5A7269]">
+          <p className="text-xs text-[#3A5048]">
             © {new Date().getFullYear()} MedicareYourself, a service of EasyKind Medicare (EasyKind Health LLC). All rights reserved.
             Licensed insurance broker. Not affiliated with or endorsed by Medicare or any government agency.
           </p>

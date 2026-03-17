@@ -60,14 +60,14 @@ export default function HomePage() {
             Medicare Made<br />
             <span className="text-[#2D6E5F]">Simple.</span>
           </h1>
-          <p className="text-lg text-[#5A7269] mb-10 max-w-xl mx-auto leading-relaxed">
+          <p className="text-lg text-[#3A5048] mb-10 max-w-xl mx-auto leading-relaxed">
             Enter your zip code and we'll show you what plans are available in your area —
             no pressure, no obligation, completely free.
           </p>
           <div className="flex justify-center">
             <ZipCTA size="lg" label="Compare Plans Free" />
           </div>
-          <p className="mt-5 text-sm text-[#5A7269]">
+          <p className="mt-5 text-sm text-[#3A5048]">
             Or call us directly:{" "}
             <a href="tel:8555591700" className="font-bold text-[#2D6E5F] hover:underline">
               855-559-1700
@@ -87,7 +87,7 @@ export default function HomePage() {
           ].map(({ stat, label }) => (
             <div key={label} className="text-center">
               <div className="text-xl font-black text-[#2D6E5F]">{stat}</div>
-              <div className="text-xs font-semibold text-[#5A7269] uppercase tracking-wide mt-0.5">{label}</div>
+              <div className="text-xs font-semibold text-[#3A5048] uppercase tracking-wide mt-0.5">{label}</div>
             </div>
           ))}
         </div>
@@ -99,7 +99,7 @@ export default function HomePage() {
           <h2 className="text-3xl font-black tracking-tight text-[#1C2B27] text-center mb-3">
             Two Paths. One Right Answer for You.
           </h2>
-          <p className="text-[#5A7269] text-center mb-12 max-w-xl mx-auto leading-relaxed">
+          <p className="text-[#3A5048] text-center mb-12 max-w-xl mx-auto leading-relaxed">
             The choice between Medicare Supplement and Medicare Advantage is the most
             important decision you'll make at 65. We'll walk you through both.
           </p>
@@ -116,7 +116,7 @@ export default function HomePage() {
               <h3 className="text-xl font-black text-[#1C2B27] mb-3 group-hover:text-[#2D6E5F] transition-colors">
                 Medicare Supplement
               </h3>
-              <p className="text-[#5A7269] leading-relaxed mb-5 text-sm">
+              <p className="text-[#3A5048] leading-relaxed mb-5 text-sm">
                 Pairs with Original Medicare to cover your out-of-pocket costs. See any
                 doctor in the US who takes Medicare. Plan G is the most popular in New Jersey.
               </p>
@@ -137,7 +137,7 @@ export default function HomePage() {
               <h3 className="text-xl font-black text-[#1C2B27] mb-3 group-hover:text-[#2D6E5F] transition-colors">
                 Medicare Advantage
               </h3>
-              <p className="text-[#5A7269] leading-relaxed mb-5 text-sm">
+              <p className="text-[#3A5048] leading-relaxed mb-5 text-sm">
                 An all-in-one alternative to Original Medicare. Often includes dental,
                 vision, and drug coverage. Many plans start at $0/month.
               </p>
@@ -170,7 +170,7 @@ export default function HomePage() {
                 <h3 className="font-bold text-[#1C2B27] mb-1.5 text-sm group-hover:text-[#2D6E5F] transition-colors">
                   {title}
                 </h3>
-                <p className="text-xs text-[#5A7269] leading-relaxed">{desc}</p>
+                <p className="text-xs text-[#3A5048] leading-relaxed">{desc}</p>
               </Link>
             ))}
           </div>
@@ -183,7 +183,7 @@ export default function HomePage() {
           <h2 className="text-3xl font-black tracking-tight text-[#1C2B27] mb-4">
             Not sure where to start?
           </h2>
-          <p className="text-[#5A7269] mb-8 leading-relaxed">
+          <p className="text-[#3A5048] mb-8 leading-relaxed">
             A 15-minute call with Anthony is free, unbiased, and could save you thousands
             over the life of your coverage.
           </p>
@@ -196,7 +196,7 @@ export default function HomePage() {
             </svg>
             Call 855-559-1700 — It&rsquo;s Free
           </a>
-          <p className="mt-4 text-sm text-[#5A7269]">No obligation. No pressure. Just clear answers.</p>
+          <p className="mt-4 text-sm text-[#3A5048]">No obligation. No pressure. Just clear answers.</p>
         </div>
       </section>
     </>

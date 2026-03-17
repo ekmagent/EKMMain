@@ -11,7 +11,7 @@ export default function Header() {
           </span>
         </Link>
 
-        <nav className="hidden md:flex items-center gap-8 text-sm font-semibold text-[#5A7269]">
+        <nav className="hidden md:flex items-center gap-8 text-sm font-semibold text-[#3A5048]">
           <Link href="/medicare-supplement/new-jersey" className="hover:text-[#2D6E5F] transition-colors">
             Supplement
           </Link>
