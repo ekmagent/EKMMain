@@ -294,14 +294,15 @@ ${blueprint.contentNotes ? `\nCONTENT NOTES (use as inspiration and angle — do
 
 ${competitorResearch ? competitorResearch + "\n\nUse the above competitor content to verify facts and identify content gaps. Do NOT copy — rewrite in our voice. Only include claims you can verify from these sources or from medicare.gov.\n" : ""}
 PAGE TITLE FORMULA:
-"${blueprint.keyword} | [Benefit or Searcher's Goal] | MedicareYourself"
-Example: "Medicare Plan G NJ | Compare Rates from Top Carriers | MedicareYourself"
+"${blueprint.keyword} | [Benefit or Strong CTA like 'Free' or 'No Sign-Up'] | MedicareYourself"
+Example: "Medicare Plan G NJ | Compare Rates Free | MedicareYourself"
+CRITICAL: The EXACT keyword must appear at the VERY BEGINNING of the title, before any other words.
 
 EDWARD STURM'S COMPACT KEYWORD LANDING PAGE TEMPLATE — follow this EXACTLY:
 
 1. Export metadata object with:
-   - title: use the Page Title Formula above
-   - description: the meta description from the blueprint (150-160 chars, keyword near front)
+   - title: use the Page Title Formula above — keyword FIRST, then CTA, then brand
+   - description: 120-158 chars, keyword appears in the FIRST HALF of the description
    - openGraph with same title/description
 
 2. Define breadcrumbSchema (Home > Medicare Guides > Page Name) and articleSchema
@@ -315,7 +316,7 @@ EDWARD STURM'S COMPACT KEYWORD LANDING PAGE TEMPLATE — follow this EXACTLY:
    a. SchemaMarkup
    b. Breadcrumb nav (Home > Medicare Guides > [Page Name])
    c. H1 — the page headline (keyword naturally embedded, not stuffed)
-   d. 2-3 sentences of intro text — keyword appears in the FIRST sentence
+   d. 2-3 sentences of intro text — keyword appears in the VERY FIRST WORDS of the first sentence
    e. CTA #1 (PhoneCTA component) — ABOVE THE FOLD, right after intro
    f. 6 H2 sections — short paragraphs (2-4 sentences each) or bullet lists
       - Use the H2s from the blueprint as starting points, expand to 6 total
@@ -390,7 +391,8 @@ MEDICARE FACTS — DO NOT INVENT:
 - If you are uncertain whether a Medicare rule applies in a specific state, say "rules vary by state — call to confirm" instead of stating a rule as fact
 - Use basic Tailwind: max-w-4xl mx-auto px-4 py-8 for main content wrapper
 - Optimization target: 96/100 (NOT 100 — leave room for natural language)
-- The keyword must appear in: title, H1, first paragraph, and at least one H2
+- The keyword must appear in: title (at the very start), H1, and the very first words of the first paragraph
+- Do NOT force the keyword into H2 subheadings — H2s describe the section topic naturally
 - Each page must be UNIQUE — do not clone the same intro/CTA/structure word-for-word across pages
 - Always include the heading image as shown in IMAGE SEO above
 
@@ -465,19 +467,19 @@ function calculateOnPageScore(content, blueprint) {
   const missing = [];
   let score = 0;
 
-  // 1. Keyword in title tag (20 points)
-  const titleMatch = content.match(/title:\s*["'`]([^"'`]+)["'`]/);
+  // 1. Keyword in title tag (28 points — front-loaded per Edward Sturm)
+  const titleMatch = content.match(/title:\s*"([^"]+)"/) || content.match(/title:\s*'([^']+)'/);
   const titleText = titleMatch ? titleMatch[1].toLowerCase() : "";
   if (titleText.includes(kwLower)) {
-    score += 20;
-    details.push("+ Title contains keyword (20pts)");
+    score += 28;
+    details.push("+ Title contains keyword (28pts)");
   } else {
     // Check if most keyword words are present
     const kwWords = kwLower.split(/\s+/).filter((w) => w.length > 2);
     const titleHits = kwWords.filter((w) => titleText.includes(w)).length;
     if (titleHits >= Math.ceil(kwWords.length * 0.6)) {
-      score += 14;
-      details.push(`~ Title contains ${titleHits}/${kwWords.length} keyword words (14pts)`);
+      score += 20;
+      details.push(`~ Title contains ${titleHits}/${kwWords.length} keyword words (20pts)`);
     } else {
       missing.push("keyword in title");
       details.push("- Title missing keyword (0pts)");
@@ -485,7 +487,7 @@ function calculateOnPageScore(content, blueprint) {
   }
 
   // 2. Keyword in meta description (10 points)
-  const descMatch = content.match(/description:\s*\n?\s*["'`]([^"'`]+)["'`]/);
+  const descMatch = content.match(/description:\s*\n?\s*"([^"]+)"/) || content.match(/description:\s*\n?\s*'([^']+)'/);
   const descText = descMatch ? descMatch[1].toLowerCase() : "";
   if (descText.includes(kwLower)) {
     score += 10;
@@ -550,28 +552,7 @@ function calculateOnPageScore(content, blueprint) {
     }
   }
 
-  // 6. Keyword in at least one H2 (10 points)
-  const h2Regex = /<h2[^>]*>([\s\S]*?)<\/h2>/gi;
-  let h2Match;
-  let kwInH2 = false;
-  while ((h2Match = h2Regex.exec(content)) !== null) {
-    const h2Text = h2Match[1].replace(/<[^>]+>/g, "").toLowerCase();
-    const kwWords = kwLower.split(/\s+/).filter((w) => w.length > 2);
-    const h2Hits = kwWords.filter((w) => h2Text.includes(w)).length;
-    if (h2Hits >= Math.ceil(kwWords.length * 0.5)) {
-      kwInH2 = true;
-      break;
-    }
-  }
-  if (kwInH2) {
-    score += 10;
-    details.push("+ At least one H2 contains keyword words (10pts)");
-  } else {
-    missing.push("keyword in H2");
-    details.push("- No H2 contains keyword words (0pts)");
-  }
-
-  // 7. Image alt text contains keyword (10 points)
+  // 6. Image alt text contains keyword (10 points)
   const altRegex = /alt=["']([^"']+)["']/gi;
   let altMatch;
   let kwInAlt = false;
@@ -615,30 +596,15 @@ function calculateOnPageScore(content, blueprint) {
     details.push(`- ${h1Count} H1 tags found (0pts)`);
   }
 
-  // 9. Title length 50-60 chars (3 points)
-  if (titleMatch) {
-    const titleLen = titleMatch[1].length;
-    if (titleLen >= 50 && titleLen <= 60) {
-      score += 3;
-      details.push(`+ Title length ${titleLen} chars — optimal (3pts)`);
-    } else if (titleLen >= 40 && titleLen <= 65) {
-      score += 2;
-      details.push(`~ Title length ${titleLen} chars — acceptable (2pts)`);
-    } else {
-      missing.push(`title length ${titleLen} (target 50-60)`);
-      details.push(`- Title length ${titleLen} chars (0pts)`);
-    }
-  }
-
-  // 10. Meta description length 120-158 chars (3 points)
+  // 9. Meta description length 120-158 chars (8 points — Edward Sturm target)
   if (descMatch) {
     const descLen = descMatch[1].length;
     if (descLen >= 120 && descLen <= 158) {
-      score += 3;
-      details.push(`+ Meta desc length ${descLen} chars — optimal (3pts)`);
+      score += 8;
+      details.push(`+ Meta desc length ${descLen} chars — optimal (8pts)`);
     } else if (descLen >= 100 && descLen <= 165) {
-      score += 2;
-      details.push(`~ Meta desc length ${descLen} chars — acceptable (2pts)`);
+      score += 5;
+      details.push(`~ Meta desc length ${descLen} chars — acceptable (5pts)`);
     } else {
       missing.push(`meta desc length ${descLen} (target 120-158)`);
       details.push(`- Meta desc length ${descLen} chars (0pts)`);

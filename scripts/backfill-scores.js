@@ -42,14 +42,14 @@ function calculateOnPageScore(content, keyword) {
   const missing = [];
   const details = [];
 
-  // 1. Title contains keyword (20pts)
-  const titleMatch = content.match(/title:\s*["'`]([\s\S]*?)["'`]/);
+  // 1. Title contains keyword (28pts — front-loaded per Edward Sturm)
+  const titleMatch = content.match(/title:\s*"([^"]+)"/) || content.match(/title:\s*'([^']+)'/);
   const titleText = (titleMatch?.[1] || "").toLowerCase();
   const titleWordMatches = words.filter((w) => titleText.includes(w)).length;
   if (titleWordMatches === words.length) {
-    score += 20; details.push("+ Title contains keyword (20pts)");
+    score += 28; details.push("+ Title contains keyword (28pts)");
   } else if (titleWordMatches >= Math.ceil(words.length * 0.6)) {
-    const partial = Math.round(20 * (titleWordMatches / words.length));
+    const partial = Math.round(28 * (titleWordMatches / words.length));
     score += partial;
     details.push(`~ Title contains ${titleWordMatches}/${words.length} keyword words (${partial}pts)`);
     missing.push(`keyword in title`);
@@ -57,19 +57,8 @@ function calculateOnPageScore(content, keyword) {
     details.push("- Title missing keyword (0pts)"); missing.push("keyword in title");
   }
 
-  // Title length (5pts)
-  const titleLen = (titleMatch?.[1] || "").length;
-  if (titleLen >= 50 && titleLen <= 60) {
-    score += 5; details.push(`+ Title length ${titleLen} chars — optimal (5pts)`);
-  } else if (titleLen >= 45 && titleLen <= 70) {
-    score += 2; details.push(`~ Title length ${titleLen} chars — acceptable (2pts)`);
-    missing.push(`title length ${titleLen} (target 50-60)`);
-  } else {
-    details.push(`- Title length ${titleLen} chars (0pts)`); missing.push(`title length ${titleLen} (target 50-60)`);
-  }
-
   // 2. Meta description (10pts)
-  const metaMatch = content.match(/description:\s*["'`]([\s\S]*?)["'`]/);
+  const metaMatch = content.match(/description:\s*"([^"]+)"/) || content.match(/description:\s*'([^']+)'/);
   const metaText = (metaMatch?.[1] || "").toLowerCase();
   const metaWordMatches = words.filter((w) => metaText.includes(w)).length;
   if (metaWordMatches === words.length) {
@@ -83,12 +72,12 @@ function calculateOnPageScore(content, keyword) {
     details.push("- Meta description missing keyword (0pts)"); missing.push("keyword in meta description");
   }
 
-  // Meta description length (3pts)
+  // Meta description length (8pts — Edward Sturm target 120-158 chars)
   const metaLen = (metaMatch?.[1] || "").length;
   if (metaLen >= 120 && metaLen <= 158) {
-    score += 3; details.push(`+ Meta desc length ${metaLen} chars — optimal (3pts)`);
+    score += 8; details.push(`+ Meta desc length ${metaLen} chars — optimal (8pts)`);
   } else if (metaLen >= 100 && metaLen <= 170) {
-    score += 2; details.push(`~ Meta desc length ${metaLen} chars — acceptable (2pts)`);
+    score += 5; details.push(`~ Meta desc length ${metaLen} chars — acceptable (5pts)`);
   } else {
     details.push(`- Meta desc length ${metaLen} chars (0pts)`); missing.push(`meta desc length ${metaLen} (target 120-158)`);
   }
@@ -133,20 +122,8 @@ function calculateOnPageScore(content, keyword) {
     details.push("- First paragraph missing keyword (0pts)"); missing.push("keyword in first paragraph");
   }
 
-  // 6. H2 contains keyword (10pts)
-  const h2Matches = [...content.matchAll(/<h2[^>]*>([\s\S]*?)<\/h2>/gi)];
-  const anyH2HasKw = h2Matches.some((m) => {
-    const h2Text = m[1].replace(/<[^>]+>/g, "").toLowerCase();
-    return words.filter((w) => h2Text.includes(w)).length >= Math.ceil(words.length * 0.4);
-  });
-  if (anyH2HasKw) {
-    score += 10; details.push("+ At least one H2 contains keyword words (10pts)");
-  } else {
-    details.push("- No H2 contains keyword words (0pts)"); missing.push("keyword in H2");
-  }
-
-  // 7. Image alt text (10pts)
-  const imgAltMatch = content.match(/alt=["'`]([\s\S]*?)["'`]/i);
+  // 6. Image alt text (10pts)
+  const imgAltMatch = content.match(/alt=["']([^"']+)["']/i);
   const altText = (imgAltMatch?.[1] || "").toLowerCase();
   const altWordMatches = words.filter((w) => altText.includes(w)).length;
   if (altWordMatches === words.length) {
@@ -157,7 +134,7 @@ function calculateOnPageScore(content, keyword) {
     details.push("- Image alt text missing keyword (0pts)"); missing.push("keyword in image alt");
   }
 
-  // 8. Header structure (5pts)
+  // 7. Header structure (5pts)
   const h1Count = (content.match(/<h1/gi) || []).length;
   const h2Count = (content.match(/<h2/gi) || []).length;
   if (h1Count === 1 && h2Count >= 3) {
@@ -167,7 +144,7 @@ function calculateOnPageScore(content, keyword) {
     missing.push("header structure (need 1 H1 + 3+ H2s)");
   }
 
-  // 9. Internal links (3pts)
+  // 8. Internal links (3pts)
   const internalLinks = (content.match(/href="\/(?!\/)/g) || []).length;
   if (internalLinks >= 3) {
     score += 3; details.push(`+ ${internalLinks} internal links (3pts)`);
@@ -176,7 +153,7 @@ function calculateOnPageScore(content, keyword) {
     missing.push("internal links (need 3+)");
   }
 
-  // 10. Content length (2pts)
+  // 9. Content length (2pts)
   const textOnly = content.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ");
   const wordCount = textOnly.trim().split(/\s+/).length;
   if (wordCount >= 400) {

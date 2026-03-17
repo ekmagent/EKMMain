@@ -112,11 +112,11 @@ async function generateBlueprints(keywords, anthropic) {
 Generate a Page Blueprint for each keyword below using the Compact Keywords formula (Edward Sturm methodology).
 
 RULES:
-- Title: keyword-first, 50-60 chars, Title Case. Format: "[Keyword] | [Benefit] | MedicareYourself"
+- Title: keyword MUST be the very first words. Format: "[Keyword] | [Strong CTA like 'Free' or 'No Sign-Up'] | MedicareYourself". No character limit — Edward only requires keyword first.
 - URL slug: lowercase, hyphens only, exact keyword phrasing (no /hub/ prefix — just the slug)
-- H1: keyword stated naturally, unique from the title
-- H2s: 4 section headings, sentence case, specific and scannable (not generic)
-- Meta description: 140-158 chars, keyword in first half, specific benefit, ends with soft CTA
+- H1: keyword stated naturally at the start, unique from the title
+- H2s: 4 section headings, sentence case, specific and scannable (not generic). Do NOT force the keyword into H2s.
+- Meta description: 120-158 chars (hard requirement), keyword in first half, specific benefit, ends with soft CTA
 - Voice: broker, not content farm. Specific facts over vague claims.
 - Do NOT generate blueprints for pages that already exist on the site
 
