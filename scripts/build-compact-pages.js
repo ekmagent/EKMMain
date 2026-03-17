@@ -181,6 +181,47 @@ async function getApprovedBlueprints(sheets, { skipDaGate = false } = {}) {
   return approved;
 }
 
+/**
+ * Ensure Page Blueprints header row has labels for all columns.
+ * Writes to cols M–R without touching A–L (existing data).
+ * Safe to run on every build — only updates if cell is empty.
+ */
+async function ensureBlueprintHeaders(sheets) {
+  const res = await sheets.spreadsheets.values.get({
+    spreadsheetId: INTERNAL_SEO_SHEET_ID,
+    range: "Page Blueprints!M1:R1",
+  });
+  const existing = (res.data.values || [[]])[0] || [];
+  // Only write headers that are blank
+  const headers = [
+    existing[0] || "Difficulty",   // M
+    existing[1] || "Beatable",     // N
+    existing[2] || "Content Notes", // O
+    existing[3] || "On-Page Score", // P
+    existing[4] || "Score Date",    // Q
+    existing[5] || "Score Issues",  // R
+  ];
+  await sheets.spreadsheets.values.update({
+    spreadsheetId: INTERNAL_SEO_SHEET_ID,
+    range: "Page Blueprints!M1",
+    valueInputOption: "USER_ENTERED",
+    requestBody: { values: [headers] },
+  });
+}
+
+/**
+ * Write on-page SEO score back to the blueprint row.
+ * Cols: P = score/100, Q = date scored, R = comma-separated issues
+ */
+async function writeOnPageScore(sheets, rowIndex, score, missing, today) {
+  await sheets.spreadsheets.values.update({
+    spreadsheetId: INTERNAL_SEO_SHEET_ID,
+    range: `Page Blueprints!P${rowIndex}`,
+    valueInputOption: "USER_ENTERED",
+    requestBody: { values: [[`${score}/100`, today, missing.join(", ")]] },
+  });
+}
+
 /** Mark Page Blueprints row as built (col K) */
 async function markAsBuilt(sheets, rowIndex) {
   await sheets.spreadsheets.values.update({
@@ -321,13 +362,27 @@ VOICE & STYLE — follow these exactly or the content will be rejected:
 
 CONTENT RULES:
 - 400-500 words of body content (not counting code/markup)
-- 2026 Medicare facts: Part B premium $185/mo, Part B deductible $257, Part A deductible $1,676
 - Author: Anthony Orner, Licensed Medicare Broker
 - Phone: 855-559-1700
-- Do NOT invent statistics or state-specific regulations you cannot verify
 - Do NOT mention competitor brand names
-- NJ has year-round guaranteed issue for Medigap — mention where relevant
 - Simple, clean layout — no multi-column grids, no sidebar CTAs, no fancy colored sections
+
+VERIFIED 2026 MEDICARE FACTS — use only these, do not invent others:
+- Part B premium: $185/month
+- Part B deductible: $257/year
+- Part A deductible: $1,676 per benefit period
+- Medicare Advantage / Part D Open Enrollment: October 15 – December 7
+- Medigap Open Enrollment Period: 6 months starting the month you are 65+ AND enrolled in Part B — guaranteed issue, no health questions, no higher premiums
+- Federal Guaranteed Issue triggers (apply in specific situations only): losing employer/union coverage, losing Medicare Advantage coverage, insurance company goes bankrupt, moved out of plan's service area, plan violated its contract
+- Skilled Nursing Facility coinsurance (2026): Days 21-100 = $209.50/day; Days 1-20 = $0 with Medicare
+- Part B late enrollment penalty: 10% per 12-month period you delayed
+
+MEDICARE FACTS — DO NOT INVENT:
+- Do NOT claim any state offers year-round guaranteed issue Medigap enrollment (no state does this without restriction)
+- Do NOT cite coverage percentages, approval rates, or statistics without a source
+- Do NOT make claims about specific drug coverage under Part D (formularies vary by plan)
+- Do NOT state specific carrier premium amounts — say "rates vary by carrier" and offer to compare
+- If you are uncertain whether a Medicare rule applies in a specific state, say "rules vary by state — call to confirm" instead of stating a rule as fact
 - Use basic Tailwind: max-w-4xl mx-auto px-4 py-8 for main content wrapper
 - Optimization target: 96/100 (NOT 100 — leave room for natural language)
 - The keyword must appear in: title, H1, first paragraph, and at least one H2
@@ -692,6 +747,9 @@ async function main() {
 
   console.log(`Found ${blueprints.length} approved blueprint(s) to build.\n`);
 
+  // Ensure sheet headers for cols M–R
+  await ensureBlueprintHeaders(sheets);
+
   // Ensure log file
   if (!fs.existsSync(LOG_FILE)) {
     fs.writeFileSync(LOG_FILE, "date\tkeyword\tslug\tstatus\tissues\n");
@@ -805,6 +863,14 @@ async function main() {
     }
     for (const detail of onPageScore.details) {
       console.log(`    ${detail}`);
+    }
+
+    // Write score back to Page Blueprints sheet (cols P, Q, R)
+    try {
+      await writeOnPageScore(sheets, bp.rowIndex, onPageScore.score, onPageScore.missing, today);
+      console.log(`  Sheet: score ${onPageScore.score}/100 written to cols P–R`);
+    } catch (err) {
+      console.warn(`  Sheet score write failed (non-blocking): ${err.message}`);
     }
 
     // QA 2: OG Tag Validation (replaces Meta Sharing Debugger)

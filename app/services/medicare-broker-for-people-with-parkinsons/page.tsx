@@ -83,7 +83,7 @@ const faqs = [
     question:
       "Can I switch Medicare plans if my Parkinson's symptoms get worse?",
     answer:
-      "You can change Medicare Advantage or Part D plans every year during Open Enrollment (October 15 through December 7). In New Jersey, you also have year-round guaranteed issue rights for Medigap, so you can switch supplement plans without medical underwriting at any time.",
+      "You can change Medicare Advantage or Part D plans every year during Open Enrollment (October 15 through December 7). For Medigap, your best window is the 6-month open enrollment period when you first enroll in Part B — during that window, no carrier can deny you or charge more due to your Parkinson's diagnosis. Outside that window, federal guaranteed issue rights apply in specific situations, such as losing employer coverage or leaving a Medicare Advantage plan within 12 months. I help you identify which window you qualify for.",
   },
 ];
 
@@ -213,21 +213,24 @@ export default function MedicareBrokerParkinsons() {
           Guaranteed issue situations that skip medical underwriting
         </h2>
         <p className="text-gray-700 mb-3">
-          Medical underwriting can be a real concern when you have a
-          Parkinson&apos;s diagnosis. Carriers in most states can deny Medigap
-          coverage or charge higher premiums based on health history - outside
-          your initial enrollment window.
+          Medical underwriting is a real concern when you have a
+          Parkinson&apos;s diagnosis. Outside your initial enrollment window,
+          carriers can ask health questions and decline coverage based on your
+          history.
         </p>
         <p className="text-gray-700 mb-3">
-          New Jersey is different. NJ guarantees Medigap enrollment year-round,
-          regardless of health conditions. No medical questions. No higher
-          premiums because of Parkinson&apos;s.
+          The protected window is the 6-month Medigap open enrollment period
+          that starts when you&apos;re 65 or older and first enroll in Part B.
+          During that window, no carrier can deny you or charge you more
+          because of Parkinson&apos;s. After it closes, federal guaranteed
+          issue rights apply only in specific situations — losing employer
+          coverage, leaving a Medicare Advantage plan within 12 months, or a
+          handful of other federally defined triggers.
         </p>
         <p className="text-gray-700">
-          If you&apos;re in another state, federal guaranteed issue rights kick
-          in during specific situations, like losing employer coverage or
-          leaving a Medicare Advantage plan within 12 months. I help you
-          identify and use these windows.
+          If you&apos;re already past your open enrollment window, call me.
+          We&apos;ll figure out whether a guaranteed issue trigger applies to
+          your situation before you do anything.
         </p>
       </section>
 
