@@ -1,7 +1,4 @@
 import { NextRequest, NextResponse } from "next/server";
-import { Resend } from "resend";
-
-const resend = new Resend(process.env.RESEND_API_KEY);
 
 function isValidEmail(email: string) {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
@@ -26,23 +23,22 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ ok: false, error: "Invalid zip code." }, { status: 400 });
     }
 
-    const toEmail = process.env.CONTACT_EMAIL ?? "anthony@medicareyourself.com";
+    const webhookUrl = process.env.WEBHOOK_URL;
+    if (!webhookUrl) {
+      return NextResponse.json({ ok: false, error: "Webhook not configured." }, { status: 500 });
+    }
 
-    await resend.emails.send({
-      from: "MedicareYourself <no-reply@medicareyourself.com>",
-      to: toEmail,
-      replyTo: email.trim(),
-      subject: `New Medicare lead — ${zip}`,
-      text: [
-        "New lead from MedicareYourself.com",
-        "",
-        `Name:  ${name.trim()}`,
-        `Phone: ${phone.trim()}`,
-        `Email: ${email.trim()}`,
-        `Zip:   ${zip}`,
-        "",
-        "Reply directly to this email to reach them.",
-      ].join("\n"),
+    await fetch(webhookUrl, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        name: name.trim(),
+        phone: phone.trim(),
+        email: email.trim(),
+        zip,
+        source: "medicareyourself.com",
+        submitted_at: new Date().toISOString(),
+      }),
     });
 
     return NextResponse.json({ ok: true });
