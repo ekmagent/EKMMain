@@ -23,7 +23,11 @@ function ContactForm() {
       const res = await fetch("/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ name, phone, email, zip }),
+        body: JSON.stringify({
+          name, phone, email, zip,
+          page: window.location.href,
+          referrer: document.referrer || null,
+        }),
       });
       const data = await res.json();
       if (data.ok) {

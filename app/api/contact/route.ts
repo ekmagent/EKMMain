@@ -7,7 +7,7 @@ function isValidEmail(email: string) {
 export async function POST(req: NextRequest) {
   try {
     const body = await req.json();
-    const { name, phone, email, zip } = body;
+    const { name, phone, email, zip, page, referrer } = body;
 
     // Server-side validation
     if (!name || typeof name !== "string" || name.trim().length < 2) {
@@ -36,7 +36,8 @@ export async function POST(req: NextRequest) {
         phone: phone.trim(),
         email: email.trim(),
         zip,
-        source: "medicareyourself.com",
+        source: page ?? "medicareyourself.com",
+        referrer: referrer ?? null,
         submitted_at: new Date().toISOString(),
       }),
     });
