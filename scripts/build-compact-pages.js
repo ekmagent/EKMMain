@@ -367,6 +367,11 @@ CONTENT RULES:
 - Do NOT mention competitor brand names
 - Simple, clean layout — no multi-column grids, no sidebar CTAs, no fancy colored sections
 
+MEDIGAP/MEDICARE SUPPLEMENT MESSAGING (new-to-Medicare pages only):
+- If the page targets someone new to Medicare (turning 65, first getting Part B) AND the topic is Medicare Supplement/Medigap (NOT Medicare Advantage), use this angle:
+  Anthony's practice is to have clients apply for their Medigap plan up to 6 months BEFORE their Part B start date. This locks in the rate early — protecting them from premium increases before coverage begins. Frame it as urgency: "the sooner you lock in, the better your rate." This is the primary conversion angle for new-to-Medicare Medigap pages.
+- Never apply this framing to Medicare Advantage pages — it does not apply there.
+
 VERIFIED 2026 MEDICARE FACTS — use only these, do not invent others:
 - Part B premium: $185/month
 - Part B deductible: $257/year
