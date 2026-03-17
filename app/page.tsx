@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import PhoneCTA from "@/components/PhoneCTA";
+import ZipCTA from "@/components/ZipCTA";
 import SchemaMarkup from "@/components/SchemaMarkup";
 import { SITE_URL } from "@/lib/site";
 
@@ -19,9 +19,19 @@ export const metadata: Metadata = {
 const localBusinessSchema = {
   "@context": "https://schema.org",
   "@type": "InsuranceAgency",
-  name: "MedicareYourself",
+  name: "EasyKind Medicare",
+  alternateName: "MedicareYourself",
+  legalName: "EasyKind Health LLC",
   url: "https://www.medicareyourself.com",
   telephone: "+18555591700",
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: "1309 Route 79 West",
+    addressLocality: "Cherry Hill",
+    addressRegion: "NJ",
+    postalCode: "08002",
+    addressCountry: "US",
+  },
   areaServed: [
     "New Jersey", "Alabama", "Arizona", "Arkansas", "California", "Colorado",
     "Delaware", "Florida", "Georgia", "Illinois", "Indiana", "Kansas",
@@ -40,102 +50,153 @@ export default function HomePage() {
     <>
       <SchemaMarkup schema={localBusinessSchema} />
 
-      {/* Hero */}
-      <section className="bg-gradient-to-br from-blue-800 to-blue-900 text-white py-20 px-4">
-        <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
-            Medicare Made Simple.<br />
-            <span className="text-blue-200">Free, Unbiased Guidance.</span>
-          </h1>
-          <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto leading-relaxed">
-            We compare Medicare Supplement and Medicare Advantage plans from top carriers
-            — at no cost to you. Licensed in New Jersey and 34 other states.
+      {/* ── Hero ── */}
+      <section className="bg-white pt-20 pb-24 px-6">
+        <div className="max-w-3xl mx-auto text-center">
+          <p className="text-sm font-bold uppercase tracking-widest text-[#2D6E5F] mb-5">
+            Independent Medicare Broker · Licensed in 35 States
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <PhoneCTA size="lg" label="Call for Free Advice" />
-            <Link
-              href="/quote"
-              className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-white/10 hover:bg-white/20 border border-white/30 text-white font-semibold rounded-lg transition-colors"
-            >
-              Get an Online Quote
-            </Link>
+          <h1 className="text-5xl md:text-6xl font-black tracking-tight text-[#1C2B27] leading-[1.1] mb-6">
+            Medicare Made<br />
+            <span className="text-[#2D6E5F]">Simple.</span>
+          </h1>
+          <p className="text-lg text-[#5A7269] mb-10 max-w-xl mx-auto leading-relaxed">
+            Enter your zip code and we'll show you what plans are available in your area —
+            no pressure, no obligation, completely free.
+          </p>
+          <div className="flex justify-center">
+            <ZipCTA size="lg" label="Compare Plans Free" />
           </div>
-          <p className="mt-4 text-sm text-blue-200">No obligation. No pressure. Just clear answers.</p>
+          <p className="mt-5 text-sm text-[#5A7269]">
+            Or call us directly:{" "}
+            <a href="tel:8555591700" className="font-bold text-[#2D6E5F] hover:underline">
+              855-559-1700
+            </a>
+          </p>
         </div>
       </section>
 
-      {/* Trust bar */}
-      <section className="bg-blue-50 border-b border-blue-100 py-6 px-4">
-        <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-8 text-sm text-gray-700 font-medium">
+      {/* ── Trust strip ── */}
+      <section className="bg-[#F6FAF8] border-y border-[#D0E4DE] py-8 px-6">
+        <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-x-12 gap-y-4">
           {[
-            "Licensed in 35 States",
-            "Independent — Not Tied to One Carrier",
-            "No Cost to You — Ever",
-            "Unbiased Plan Comparisons",
-          ].map((item) => (
-            <span key={item} className="flex items-center gap-2">
-              <svg className="w-5 h-5 text-green-600" fill="currentColor" viewBox="0 0 20 20">
-                <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-              </svg>
-              {item}
-            </span>
+            { stat: "35", label: "States Licensed" },
+            { stat: "Free", label: "No Cost to You, Ever" },
+            { stat: "Unbiased", label: "Not Tied to One Carrier" },
+            { stat: "15 min", label: "Average Consultation" },
+          ].map(({ stat, label }) => (
+            <div key={label} className="text-center">
+              <div className="text-xl font-black text-[#2D6E5F]">{stat}</div>
+              <div className="text-xs font-semibold text-[#5A7269] uppercase tracking-wide mt-0.5">{label}</div>
+            </div>
           ))}
         </div>
       </section>
 
-      {/* Plan types */}
-      <section className="py-16 px-4 max-w-6xl mx-auto">
-        <h2 className="text-3xl font-bold text-gray-900 text-center mb-4">
-          Two Main Paths for Medicare Coverage
-        </h2>
-        <p className="text-gray-600 text-center mb-10 max-w-2xl mx-auto">
-          Understanding the difference between Medicare Supplement and Medicare Advantage
-          is the most important decision you will make at age 65.
-        </p>
-        <div className="grid md:grid-cols-2 gap-6">
-          <Link
-            href="/medicare-supplement/new-jersey"
-            className="group border border-gray-200 rounded-xl p-8 hover:border-blue-400 hover:shadow-md transition-all"
-          >
-            <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-700 transition-colors">
-              Medicare Supplement (Medigap)
-            </h3>
-            <p className="text-gray-600 leading-relaxed mb-4">
-              Works alongside Original Medicare to cover out-of-pocket costs. Use any
-              doctor in the US who accepts Medicare. Plan G is the most popular in New Jersey.
-            </p>
-            <span className="text-blue-600 font-semibold text-sm group-hover:underline">
-              Learn about Medigap in New Jersey →
-            </span>
-          </Link>
+      {/* ── Two paths ── */}
+      <section className="py-20 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-black tracking-tight text-[#1C2B27] text-center mb-3">
+            Two Paths. One Right Answer for You.
+          </h2>
+          <p className="text-[#5A7269] text-center mb-12 max-w-xl mx-auto leading-relaxed">
+            The choice between Medicare Supplement and Medicare Advantage is the most
+            important decision you'll make at 65. We'll walk you through both.
+          </p>
+          <div className="grid md:grid-cols-2 gap-6">
+            <Link
+              href="/medicare-supplement/new-jersey"
+              className="group border border-[#D0E4DE] rounded-2xl p-8 hover:border-[#2D6E5F] hover:shadow-lg transition-all bg-white"
+            >
+              <div className="w-10 h-10 rounded-full bg-[#EFF6F3] flex items-center justify-center mb-5">
+                <svg className="w-5 h-5 text-[#2D6E5F]" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24" aria-hidden="true">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                </svg>
+              </div>
+              <h3 className="text-xl font-black text-[#1C2B27] mb-3 group-hover:text-[#2D6E5F] transition-colors">
+                Medicare Supplement
+              </h3>
+              <p className="text-[#5A7269] leading-relaxed mb-5 text-sm">
+                Pairs with Original Medicare to cover your out-of-pocket costs. See any
+                doctor in the US who takes Medicare. Plan G is the most popular in New Jersey.
+              </p>
+              <span className="text-sm font-bold text-[#2D6E5F] group-hover:underline">
+                Learn about Medigap in New Jersey →
+              </span>
+            </Link>
 
-          <Link
-            href="/medicare-advantage/new-jersey"
-            className="group border border-gray-200 rounded-xl p-8 hover:border-blue-400 hover:shadow-md transition-all"
-          >
-            <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-700 transition-colors">
-              Medicare Advantage (Part C)
-            </h3>
-            <p className="text-gray-600 leading-relaxed mb-4">
-              All-in-one alternative to Original Medicare. Often includes dental, vision,
-              and drug coverage. Many plans have $0 premiums. Network-based coverage.
-            </p>
-            <span className="text-blue-600 font-semibold text-sm group-hover:underline">
-              Explore Medicare Advantage in New Jersey →
-            </span>
-          </Link>
+            <Link
+              href="/medicare-advantage/new-jersey"
+              className="group border border-[#D0E4DE] rounded-2xl p-8 hover:border-[#2D6E5F] hover:shadow-lg transition-all bg-white"
+            >
+              <div className="w-10 h-10 rounded-full bg-[#EFF6F3] flex items-center justify-center mb-5">
+                <svg className="w-5 h-5 text-[#2D6E5F]" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24" aria-hidden="true">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                </svg>
+              </div>
+              <h3 className="text-xl font-black text-[#1C2B27] mb-3 group-hover:text-[#2D6E5F] transition-colors">
+                Medicare Advantage
+              </h3>
+              <p className="text-[#5A7269] leading-relaxed mb-5 text-sm">
+                An all-in-one alternative to Original Medicare. Often includes dental,
+                vision, and drug coverage. Many plans start at $0/month.
+              </p>
+              <span className="text-sm font-bold text-[#2D6E5F] group-hover:underline">
+                Explore Medicare Advantage in New Jersey →
+              </span>
+            </Link>
+          </div>
         </div>
       </section>
 
-      {/* CTA section */}
-      <section className="bg-gray-900 text-white py-16 px-4">
-        <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-4">Not sure which plan is right for you?</h2>
-          <p className="text-gray-300 mb-8 leading-relaxed">
-            A 15-minute call with a MedicareYourself advisor is free, completely unbiased,
-            and could save you thousands over the life of your coverage.
+      {/* ── Resources ── */}
+      <section className="bg-[#F6FAF8] border-t border-[#D0E4DE] py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-2xl font-black tracking-tight text-[#1C2B27] text-center mb-10">
+            Free Medicare Resources
+          </h2>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            {[
+              { href: "/hub", title: "Medicare Guides", desc: "Plan comparisons, costs, enrollment, and more." },
+              { href: "/learn/how-to-sign-up-for-medicare", title: "How to Sign Up", desc: "Deadlines, penalties, and step-by-step enrollment." },
+              { href: "/learn/medicare-help-low-income", title: "Help on Fixed Income", desc: "Extra Help, QMB, SLMB, and savings programs." },
+              { href: "/about", title: "About Anthony Orner", desc: "Licensed independent broker, NPI verified." },
+            ].map(({ href, title, desc }) => (
+              <Link
+                key={href}
+                href={href}
+                className="group bg-white border border-[#D0E4DE] rounded-xl p-5 hover:border-[#2D6E5F] hover:shadow-md transition-all"
+              >
+                <h3 className="font-bold text-[#1C2B27] mb-1.5 text-sm group-hover:text-[#2D6E5F] transition-colors">
+                  {title}
+                </h3>
+                <p className="text-xs text-[#5A7269] leading-relaxed">{desc}</p>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── Bottom CTA ── */}
+      <section className="py-20 px-6">
+        <div className="max-w-2xl mx-auto text-center">
+          <h2 className="text-3xl font-black tracking-tight text-[#1C2B27] mb-4">
+            Not sure where to start?
+          </h2>
+          <p className="text-[#5A7269] mb-8 leading-relaxed">
+            A 15-minute call with Anthony is free, unbiased, and could save you thousands
+            over the life of your coverage.
           </p>
-          <PhoneCTA size="lg" label="Talk to an Advisor Free" />
+          <a
+            href="tel:8555591700"
+            className="inline-flex items-center gap-3 bg-[#E8842A] hover:bg-[#cf7020] text-white font-bold px-8 py-4 rounded-xl text-lg transition-colors shadow-sm"
+          >
+            <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" />
+            </svg>
+            Call 855-559-1700 — It&rsquo;s Free
+          </a>
+          <p className="mt-4 text-sm text-[#5A7269]">No obligation. No pressure. Just clear answers.</p>
         </div>
       </section>
     </>

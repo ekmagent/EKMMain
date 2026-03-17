@@ -2,17 +2,27 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #1C2B27;
+
+  /* Brand palette */
+  --color-primary: #2D6E5F;
+  --color-primary-dark: #1f5245;
+  --color-primary-light: #EFF6F3;
+  --color-cta: #E8842A;
+  --color-cta-dark: #cf7020;
+  --color-muted: #5A7269;
+  --color-border: #D0E4DE;
+  --color-section: #F6FAF8;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
+  --font-sans: var(--font-montserrat);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+  font-family: var(--font-montserrat), Arial, Helvetica, sans-serif;
 }
