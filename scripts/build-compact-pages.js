@@ -126,10 +126,10 @@ async function getSheetsClient() {
  * Columns: Keyword | Title | URL Slug | H1 | H2-1 | H2-2 | H2-3 | H2-4 | Meta Description | Priority | Status | Date Added | Avg DA | Beatable
  * Note: Blueprint has 4 H2s from sheet; Claude prompt expands to 6 total H2 sections.
  */
-async function getApprovedBlueprints(sheets) {
+async function getApprovedBlueprints(sheets, { skipDaGate = false } = {}) {
   const res = await sheets.spreadsheets.values.get({
     spreadsheetId: INTERNAL_SEO_SHEET_ID,
-    range: "Page Blueprints!A:N",
+    range: "Page Blueprints!A:O",
   });
 
   const rows = res.data.values || [];
@@ -145,12 +145,13 @@ async function getApprovedBlueprints(sheets) {
     const beatable = (row[13] || "").toUpperCase().trim();
     const avgDA = row[12] || "";
 
-    // DA gate: refuse to build pages without verified beatability
+    // DA gate: refuse to build pages explicitly marked unbeatable
     if (beatable === "NO") {
       skippedNoDA.push(row[0] || "(unknown keyword)");
       continue;
     }
-    if (!beatable || !avgDA) {
+    // If DA data is missing, skip unless --skip-da-gate was passed
+    if (!skipDaGate && (!beatable || !avgDA)) {
       skippedNoDA.push(`${row[0] || "(unknown keyword)"} (missing DA data)`);
       continue;
     }
@@ -159,13 +160,14 @@ async function getApprovedBlueprints(sheets) {
       rowIndex: i + 1, // 1-indexed for Sheets API
       keyword: row[0] || "",
       title: row[1] || "",
-      slug: (row[2] || "").replace(/^\/hub\//, ""), // strip /hub/ prefix if present
+      slug: (row[2] || "").replace(/^\/(hub|services)\//, ""), // strip /hub/ or /services/ prefix if present
       h1: row[3] || "",
       h2s: [row[4], row[5], row[6], row[7]].filter(Boolean),
       metaDescription: row[8] || "",
       priority: row[9] || "",
       avgDA,
       beatable,
+      contentNotes: (row[14] || "").trim(), // col O — inspiration notes from Keywords tab col P
     });
   }
 
@@ -179,7 +181,7 @@ async function getApprovedBlueprints(sheets) {
   return approved;
 }
 
-/** Update a single cell in the Status column (K) */
+/** Mark Page Blueprints row as built (col K) */
 async function markAsBuilt(sheets, rowIndex) {
   await sheets.spreadsheets.values.update({
     spreadsheetId: INTERNAL_SEO_SHEET_ID,
@@ -187,6 +189,37 @@ async function markAsBuilt(sheets, rowIndex) {
     valueInputOption: "RAW",
     requestBody: { values: [["built"]] },
   });
+}
+
+/**
+ * Mark the matching keyword row in the Keywords tab as "published" (col L).
+ * Reads the full Keywords tab once, finds the matching keyword, updates it.
+ * Silently skips if the keyword isn't found (some pages may have been built
+ * before the Keywords tab workflow existed).
+ */
+async function markKeywordPublished(sheets, keyword) {
+  try {
+    const res = await sheets.spreadsheets.values.get({
+      spreadsheetId: INTERNAL_SEO_SHEET_ID,
+      range: "Keywords!A:L",
+    });
+    const rows = res.data.values || [];
+    const kwLower = keyword.toLowerCase().trim();
+    for (let i = 1; i < rows.length; i++) {
+      if ((rows[i][0] || "").toLowerCase().trim() === kwLower) {
+        await sheets.spreadsheets.values.update({
+          spreadsheetId: INTERNAL_SEO_SHEET_ID,
+          range: `Keywords!L${i + 1}`,
+          valueInputOption: "RAW",
+          requestBody: { values: [["built"]] },
+        });
+        return;
+      }
+    }
+  } catch (err) {
+    // Non-fatal — page was built, Keywords tab update is best-effort
+    console.warn(`  ⚠  Could not update Keywords tab for "${keyword}": ${err.message}`);
+  }
 }
 
 // ---------------------------------------------------------------------------
@@ -212,10 +245,11 @@ This is a Compact Keyword page: 400-500 words of high-quality, factual content t
 BLUEPRINT FROM SHEET:
 - Keyword: "${blueprint.keyword}"
 - Title: "${blueprint.title}"
-- URL: /hub/${blueprint.slug}
+- URL: /services/${blueprint.slug}
 - H1: "${blueprint.h1}"
 - H2s: ${blueprint.h2s.map((h) => `"${h}"`).join(", ")}
 - Meta Description: "${blueprint.metaDescription}"
+${blueprint.contentNotes ? `\nCONTENT NOTES (use as inspiration and angle — do not copy verbatim):\n${blueprint.contentNotes}\n` : ""}
 
 ${competitorResearch ? competitorResearch + "\n\nUse the above competitor content to verify facts and identify content gaps. Do NOT copy — rewrite in our voice. Only include claims you can verify from these sources or from medicare.gov.\n" : ""}
 PAGE TITLE FORMULA:
@@ -230,6 +264,7 @@ EDWARD STURM'S COMPACT KEYWORD LANDING PAGE TEMPLATE — follow this EXACTLY:
    - openGraph with same title/description
 
 2. Define breadcrumbSchema (Home > Medicare Guides > Page Name) and articleSchema
+   - breadcrumbSchema MUST use "@type": "ListItem" (NOT "ListItemElement") for each itemListElement entry
    - articleSchema author: Anthony Orner, url: https://www.medicareyourself.com/about
    - publisher: name "EasyKind Medicare", alternateName "MedicareYourself"
 
@@ -272,12 +307,23 @@ import PhoneCTA from "@/components/PhoneCTA";
 import FAQSection from "@/components/FAQSection";
 import SchemaMarkup from "@/components/SchemaMarkup";
 
+VOICE & STYLE — follow these exactly or the content will be rejected:
+- Write as Anthony Orner, a working Medicare broker in NJ. Practical, direct, slightly conversational.
+- Use ACTIVE VOICE. "You pay 20% after the deductible" not "20% is paid by the beneficiary."
+- VARY sentence length. Mix short punchy sentences (under 10 words) with longer ones. Never three long sentences in a row.
+- Be SPECIFIC. Use actual dollar amounts, plan names (Plan G, Plan N), enrollment windows (Oct 15-Dec 7), and state rules. Vague = rejected.
+- NEVER use these words: delve, tapestry, realm, intricate, meticulous, multifaceted, nuanced, pivotal, seamless, robust, foster, garner, bolster, interplay, underscore, vibrant, embark, testament, transformative, game-changer, landscape (as metaphor), empower/empowering
+- NEVER use these phrases: "it's worth noting", "it is important to", "having said that", "that being said", "in conclusion", "in summary", "from a broader perspective", "navigate the complexities", "ensuring peace of mind", "comprehensive coverage for your needs"
+- Do NOT use em dashes. Use a regular dash or rewrite the sentence.
+- Do NOT open paragraphs with "Furthermore," "Moreover," or "Additionally,"
+- Paragraph length: 2-3 sentences max. One-sentence paragraphs are fine and encouraged for emphasis.
+- Write for a 65-year-old in New Jersey making a real financial decision, not for SEO robots.
+
 CONTENT RULES:
 - 400-500 words of body content (not counting code/markup)
 - 2026 Medicare facts: Part B premium $185/mo, Part B deductible $257, Part A deductible $1,676
 - Author: Anthony Orner, Licensed Medicare Broker
 - Phone: 855-559-1700
-- Do NOT use em dashes — use regular dashes or rewrite
 - Do NOT invent statistics or state-specific regulations you cannot verify
 - Do NOT mention competitor brand names
 - NJ has year-round guaranteed issue for Medigap — mention where relevant
@@ -632,9 +678,12 @@ async function main() {
 
   const anthropic = new Anthropic({ apiKey: ANTHROPIC_API_KEY });
 
+  const skipDaGate = process.argv.includes("--skip-da-gate");
+  if (skipDaGate) console.log("⚠️  --skip-da-gate: building approved rows without DA data\n");
+
   console.log("Reading approved blueprints from Internal SEO Template...");
   const sheets = await getSheetsClient();
-  const blueprints = await getApprovedBlueprints(sheets);
+  const blueprints = await getApprovedBlueprints(sheets, { skipDaGate });
 
   if (blueprints.length === 0) {
     console.log("No approved blueprints found. Mark rows as 'approved' in the sheet to build pages.");
@@ -652,18 +701,19 @@ async function main() {
   let built = 0;
 
   for (const bp of blueprints) {
-    const pageDir = repoPath("app", "hub", bp.slug);
+    const pageDir = repoPath("app", "services", bp.slug);
     const pageFile = path.join(pageDir, "page.tsx");
 
     // Skip if page already exists on disk
     if (fs.existsSync(pageFile)) {
-      console.log(`  SKIP: /hub/${bp.slug} — page already exists on disk`);
+      console.log(`  SKIP: /services/${bp.slug} — page already exists on disk`);
       // Still mark as built in sheet
       try { await markAsBuilt(sheets, bp.rowIndex); } catch {}
+      await markKeywordPublished(sheets, bp.keyword);
       continue;
     }
 
-    console.log(`Building: /hub/${bp.slug}`);
+    console.log(`Building: /services/${bp.slug}`);
     console.log(`  Keyword: "${bp.keyword}"`);
     console.log(`  Title: ${bp.title}`);
 
@@ -709,15 +759,10 @@ async function main() {
       console.warn(`  Grammar check failed (non-blocking): ${err.message}`);
     }
 
-    // Edward Module 08: AI detection reminder
-    console.log(`  HITL REMINDER: Before deploying, check this page at zerogpt.com`);
-    console.log(`  Edward says: "Stay away from 100. Google does not like over-optimized pages."`);
-    console.log(`  Target Moz On-Page Grader score: 96-98 (not 100).`);
-
     // Write page
     fs.mkdirSync(pageDir, { recursive: true });
     fs.writeFileSync(pageFile, pageContent, "utf8");
-    console.log(`  Written: app/hub/${bp.slug}/page.tsx`);
+    console.log(`  Written: app/services/${bp.slug}/page.tsx`);
 
     // Edward Module 06 — Image SEO: create placeholder image if missing
     // File naming convention: hub_{slug}.webp (subfolder_slug per Edward)
@@ -794,18 +839,19 @@ async function main() {
     }
 
     // QA 4: GSC Submission Reminder (can't fully automate — Google rate-limits)
-    const liveUrl = `https://www.medicareyourself.com/hub/${bp.slug}`;
+    const liveUrl = `https://www.medicareyourself.com/services/${bp.slug}`;
     console.log(`  GSC: After deploying, submit this URL for indexing:`);
     console.log(`  → ${liveUrl}`);
     console.log(`  → https://search.google.com/search-console/inspect?resource_id=sc-domain:medicareyourself.com`);
 
-    // Mark as built in sheet
+    // Mark as built in Page Blueprints + published in Keywords tab
     try {
       await markAsBuilt(sheets, bp.rowIndex);
       console.log(`  Sheet updated: status → "built"`);
     } catch (err) {
-      console.warn(`  WARNING: Could not update sheet: ${err.message}`);
+      console.warn(`  WARNING: Could not update Page Blueprints sheet: ${err.message}`);
     }
+    await markKeywordPublished(sheets, bp.keyword);
 
     // Log (with on-page score)
     fs.appendFileSync(

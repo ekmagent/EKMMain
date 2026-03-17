@@ -6,16 +6,17 @@
  * purchase intent > volume. DA 10+ sites can rank #1 with these.
  *
  * Each run:
- *  1. Searches Serper for competitor pages to surface their ranking keywords
- *  2. Fetches organic results for each seed topic to find low-competition queries
+ *  1. Pulls competitor ranking keywords via Moz v3 API (with difficulty + volume)
+ *  2. Searches Serper for seed topics + high-leverage combos (Related Searches, PAA)
  *  3. Deduplicates and filters for Medicare bottom-of-funnel intent
- *  4. Scores each keyword by On-Site Relevance (1–10) with Claude
- *  5. Generates page elements: Title, URL slug, H1, 4 H2s (keyword-first formula)
- *  6. Writes results to Google Sheets (COMPACT_KEYWORDS_SHEET_ID)
- *  7. Logs to compact-keywords-log.tsv
+ *  4. Filters by Moz difficulty (drops keywords with difficulty > 60)
+ *  5. Enriches with SERP CTR + Priority via Moz keyword metrics API
+ *  6. Scores each keyword by On-Site Relevance (1–10) with Claude
+ *  7. Writes scored keywords to Keywords tab (Status = "pending")
+ *  8. Logs to compact-keywords-log.tsv
  *
- * Competitors analyzed:
- *   boomerbenefits.com, medicareresources.org, medicareadvantage.com
+ * NEXT STEP: Open the Keywords tab, review rows, change "pending" → "target"
+ * on keywords you want built, then run generate-blueprints.js.
  *
  * Run: node find-compact-keywords.js
  * Idempotent — skips keywords already in the sheet.
@@ -27,7 +28,7 @@ const Anthropic = require("@anthropic-ai/sdk");
 const { google } = require("googleapis");
 const fs = require("fs");
 const path = require("path");
-const { getDomainAuthority } = require("./moz-api");
+const { getRankingKeywordsV3, getKeywordMetrics, getUsageSummary } = require("./moz-api");
 
 // ---------------------------------------------------------------------------
 // Config
@@ -35,7 +36,6 @@ const { getDomainAuthority } = require("./moz-api");
 const SERPER_API_KEY = process.env.SERPER_API_KEY;
 const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY;
 const GOOGLE_CREDENTIALS_JSON = process.env.GOOGLE_CREDENTIALS_JSON;
-const MOZ_API_TOKEN = process.env.MOZ_API_TOKEN;
 
 // Course sheet IDs — each serves a distinct purpose
 const COMPETITORS_KEYWORD_SHEET_ID = process.env.COMPETITORS_KEYWORD_SHEET_ID; // keyword research output
@@ -159,18 +159,10 @@ const HIGH_LEVERAGE_MODIFIERS = [
 
 // Competitors whose content surfaces low-competition Medicare keywords
 const COMPETITORS = [
-  // National Medicare content sites
-  "boomerbenefits.com",
-  "medicareresources.org",
-  "medicareadvantage.com",
   "medicarefaq.com",
-  "retireguide.com",
-  "medigap.com",
+  "medicareguide.com",
+  "boomerbenefits.com",
   "thebig65.com",
-  "medicareagentshub.com",
-  // NJ-specific brokers (direct local competitors)
-  "njseniorhealth.com",
-  "themedicaregrp.com",
 ];
 
 // Keywords already on medicareyourself.com (skip these)
@@ -268,6 +260,14 @@ const EXCLUDE_SIGNALS = [
   /what is medicare\b/i,
   /history of medicare/i,
   /medicare for all/i,
+  // Brand-attack / complaint content — not a broker's voice
+  /worst|avoid|scam|fraud|complaint|problem|bad|terrible|horrible/i,
+  // Listicle-style titles — high competition, not compact keyword style
+  /^top \d+|^\d+ best|\d+ worst/i,
+  // News / political / coverage debates
+  /medicare cut|medicare bill|congress|legislation|reform/i,
+  // Competitor brand names — not our content to produce
+  /aarp|humana|cigna|anthem|wellcare|devoted|alignment|clover/i,
 ];
 
 function isBottomOfFunnel(kw) {
@@ -281,189 +281,55 @@ function isBottomOfFunnel(kw) {
 }
 
 // ---------------------------------------------------------------------------
-// Moz Domain Authority — SERP competition checker
+// (checkSerpCompetition removed — replaced by Moz v3 difficulty scores)
 // ---------------------------------------------------------------------------
 
-/**
- * Extract the root domain from a URL (e.g., "https://www.boomerbenefits.com/path" → "boomerbenefits.com")
- */
-function extractDomain(url) {
-  try {
-    const hostname = new URL(url).hostname;
-    // Strip leading "www."
-    return hostname.replace(/^www\./, "");
-  } catch {
-    return null;
-  }
-}
-
-/**
- * Check whether keyword words appear in a string (title or URL slug).
- * Uses the "main words" of the keyword (drops stop words).
- */
-function keywordWordsIn(keyword, text) {
-  const stopWords = new Set(["a", "an", "the", "is", "are", "of", "for", "to", "in", "on", "and", "or", "vs", "how", "what", "does", "do"]);
-  const kwWords = keyword.toLowerCase().split(/\s+/).filter((w) => !stopWords.has(w) && w.length > 2);
-  const lowerText = (text || "").toLowerCase();
-  // At least half the main words must appear
-  const matches = kwWords.filter((w) => lowerText.includes(w));
-  return matches.length >= Math.ceil(kwWords.length / 2);
-}
-
-/**
- * Check SERP competition for a keyword by looking up Domain Authority
- * of the top-ranking sites.
- *
- * Returns: { keyword, domains: [...], avgDa, minDa, maxDa, beatable }
- */
-async function checkSerpCompetition(keyword) {
-  // Get top 10 organic results
-  const serpData = await serperSearch(keyword);
-  const organicResults = (serpData.organic || []).slice(0, 10);
-
-  if (organicResults.length === 0) {
-    return { keyword, domains: [], avgDa: 0, minDa: 0, maxDa: 0, beatable: true };
-  }
-
-  // Extract unique domains
-  const domainMap = new Map(); // domain → first result info
-  for (const result of organicResults) {
-    const domain = extractDomain(result.link || result.url || "");
-    if (domain && !domainMap.has(domain)) {
-      domainMap.set(domain, {
-        title: result.title || "",
-        url: result.link || result.url || "",
-      });
-    }
-  }
-
-  const domainList = [...domainMap.keys()].slice(0, 10);
-
-  // Fetch DA from Moz
-  let daResults = {};
-  try {
-    daResults = await getDomainAuthority(domainList);
-  } catch (err) {
-    console.warn(`    Moz API error for "${keyword}": ${err.message}`);
-    // Return with unknown DA — don't crash
-    return {
-      keyword,
-      domains: domainList.map((d) => ({
-        domain: d,
-        da: null,
-        title: domainMap.get(d).title,
-        url: domainMap.get(d).url,
-        hasKeywordInTitle: keywordWordsIn(keyword, domainMap.get(d).title),
-        hasKeywordInUrl: keywordWordsIn(keyword, domainMap.get(d).url),
-      })),
-      avgDa: null,
-      minDa: null,
-      maxDa: null,
-      beatable: null, // unknown
-    };
-  }
-
-  // Build enriched domain list
-  const domains = domainList.map((domain) => {
-    const info = domainMap.get(domain);
-    const da = daResults.get(domain) != null ? daResults.get(domain) : null;
-    return {
-      domain,
-      da,
-      title: info.title,
-      url: info.url,
-      hasKeywordInTitle: keywordWordsIn(keyword, info.title),
-      hasKeywordInUrl: keywordWordsIn(keyword, info.url),
-    };
-  });
-
-  // Calculate stats (only from domains where DA is known)
-  const knownDas = domains.map((d) => d.da).filter((da) => da != null);
-  const avgDa = knownDas.length > 0 ? Math.round(knownDas.reduce((a, b) => a + b, 0) / knownDas.length) : null;
-  const minDa = knownDas.length > 0 ? Math.min(...knownDas) : null;
-  const maxDa = knownDas.length > 0 ? Math.max(...knownDas) : null;
-
-  // Determine beatability:
-  // beatable = at least 2 of the top 5 results have DA < 40 OR minDa < 20
-  const top5Das = domains.slice(0, 5).map((d) => d.da).filter((da) => da != null);
-  const lowDaInTop5 = top5Das.filter((da) => da < 40).length;
-  const beatable = lowDaInTop5 >= 2 || (minDa != null && minDa < 20);
-
-  return { keyword, domains, avgDa, minDa, maxDa, beatable };
-}
-
 // ---------------------------------------------------------------------------
-// Claude: score On-Site Relevance + generate page elements
+// Claude: score On-Site Relevance only (no blueprint generation)
+// Blueprint generation happens later in generate-blueprints.js after
+// Anthony marks keywords "target" in the Keywords tab.
 // ---------------------------------------------------------------------------
-async function scoreAndGeneratePages(keywords, anthropic, daDataMap = {}) {
-  // Build SERP competition context if DA data is available
-  let serpCompetitionBlock = "";
-  const keywordsWithDa = keywords.filter((kw) => daDataMap[kw]);
-  if (keywordsWithDa.length > 0) {
-    const daLines = keywordsWithDa.map((kw) => {
-      const d = daDataMap[kw];
-      return `- "${kw}": avg DA ${d.avgDa ?? "unknown"}, min DA ${d.minDa ?? "unknown"}, max DA ${d.maxDa ?? "unknown"}, beatable: ${d.beatable ?? "unknown"}`;
+async function scoreKeywords(keywords, anthropic, v3KeywordData = new Map()) {
+  let metricsBlock = "";
+  const keywordsWithMetrics = keywords.filter((kw) => v3KeywordData.has(kw.toLowerCase()));
+  if (keywordsWithMetrics.length > 0) {
+    const lines = keywordsWithMetrics.map((kw) => {
+      const d = v3KeywordData.get(kw.toLowerCase());
+      return `- "${kw}": difficulty ${d.difficulty ?? "?"}, volume ${d.volume ?? "?"}, beatable: ${d.difficulty != null ? (d.difficulty <= 40 ? "yes" : "no") : "unknown"}`;
     });
-    serpCompetitionBlock = `
-SERP COMPETITION DATA: For each keyword, I've checked the Domain Authority of the top-ranking sites. Use this to adjust priority — keywords where top results have low DA (< 40) should be prioritized higher.
-${daLines.join("\n")}
-`;
+    metricsBlock = `\nKEYWORD METRICS (Moz): Difficulty 0-100 (lower = easier to rank).\n${lines.join("\n")}\n`;
   }
 
-  const prompt = `You are an SEO specialist for medicareyourself.com, a licensed Medicare insurance broker site serving New Jersey and 34 other states. The broker is Anthony Orner — he helps people choose Medicare Supplement (Medigap) plans, especially Plan G.
+  const prompt = `You are an SEO specialist for medicareyourself.com, a licensed Medicare insurance broker site in New Jersey. The broker is Anthony Orner — he helps people choose Medicare Supplement (Medigap) plans, especially Plan G.
 
-COMPACT KEYWORDS RULES (Edward Sturm methodology):
-- Keyword-first Title: [Keyword | Benefit | Brand], 50-60 chars, Title Case
-- URL slug: /hub/exact-keyword-hyphenated (all lowercase, hyphens only)
-- H1: Keyword stated naturally, exactly 1 per page
-- Word count target: 400-500 words
-- Optimization score target: 96/100 (NOT 100)
-- Focus: bottom-of-funnel, purchase intent over search volume
-- 4 H2s planned per page (outline only, not full content)
+Score each keyword for this site. Focus: bottom-of-funnel purchase intent, NJ/Medicare Supplement topics. Penalize: brand-attack content, listicles, competitor brand names, informational-only queries.
 
-SITE PAGES THAT ALREADY EXIST (do NOT suggest these as new pages):
-- /medicare-supplement
-- /medicare-supplement/plan-g
-- /medicare-supplement/plan-n
-- /medicare-supplement/switch-carriers
-- /medicare-supplement/new-jersey
-- /medicare-supplement/pennsylvania
-- /medicare-advantage
-- /learn
-- /quote
-${serpCompetitionBlock}
-TASK: For each keyword below, respond with a JSON array. Each object:
+EXISTING PAGES (mark skip=true if too similar):
+/medicare-supplement, /medicare-supplement/plan-g, /medicare-supplement/plan-n,
+/medicare-supplement/switch-carriers, /medicare-supplement/new-jersey,
+/medicare-supplement/pennsylvania, /medicare-advantage, /learn, /quote
+${metricsBlock}
+TASK: Return a JSON array. One object per keyword:
 {
   "keyword": "original keyword",
-  "relevance": 8,           // On-Site Relevance 1-10: how well this fits medicareyourself.com
-  "intent": "purchase",     // purchase | comparison | informational
-  "priority": "high",       // high | medium | low (based on relevance + intent + SERP competition if available)
-  "skip": false,            // true if too similar to existing page OR not relevant
-  "title": "Plan G Medicare Supplement Cost | Save on Medigap | MedicareYourself",
-  "slug": "plan-g-medicare-supplement-cost",
-  "h1": "Plan G Medicare Supplement Cost: What You'll Actually Pay",
-  "h2s": [
-    "How Plan G Premiums Are Calculated",
-    "Average Plan G Cost by Age in 2025",
-    "Why Rates Vary Between Carriers",
-    "How to Get the Lowest Plan G Rate"
-  ],
-  "meta_description": "See real Plan G Medicare Supplement costs by age. Anthony Orner compares top carriers and finds you the lowest rate. Free quote in 2 minutes."
+  "relevance": 8,        // 1-10: fit for medicareyourself.com
+  "intent": "purchase",  // purchase | comparison | informational
+  "priority": "high",    // high | medium | low
+  "skip": false          // true if duplicate, off-topic, or brand-attack content
 }
 
-Respond ONLY with the JSON array — no preamble, no markdown fences.
+Respond ONLY with the JSON array. No markdown fences, no explanation.
 
 KEYWORDS:
 ${keywords.map((k, i) => `${i + 1}. ${k}`).join("\n")}`;
 
   const msg = await anthropic.messages.create({
     model: "claude-opus-4-6",
-    max_tokens: 4096,
+    max_tokens: 2048,
     messages: [{ role: "user", content: prompt }],
   });
 
   const text = msg.content[0].text.trim();
-  // Strip markdown fences if Claude added them
   const json = text.replace(/^```(?:json)?\n?/, "").replace(/\n?```$/, "");
   return JSON.parse(json);
 }
@@ -512,7 +378,7 @@ async function ensureInternalSeoSheet(sheets, spreadsheetId) {
           "Keyword", "Title (50-60 chars)", "URL Slug", "H1",
           "H2-1", "H2-2", "H2-3", "H2-4",
           "Meta Description", "Priority", "Status", "Date Added",
-          "Avg DA", "Beatable",
+          "Difficulty", "Beatable (diff≤40)",
           // HITL columns (Edward Module 07 — YOU fill these manually)
           "SERP Checked?", "DA Range (manual)", "Page Score Range",
           "KW in Titles?", "KW in URLs?", "Content Type (Product/List/How-to)",
@@ -551,10 +417,10 @@ async function ensureKeywordsSheet(sheets, spreadsheetId) {
   }
 }
 
-async function appendToSheet(sheets, spreadsheetId, rows) {
+async function appendToSheet(sheets, spreadsheetId, rows, tab = "Keywords") {
   await sheets.spreadsheets.values.append({
     spreadsheetId,
-    range: "Keywords!A:A",
+    range: `${tab}!A:A`,
     valueInputOption: "RAW",
     insertDataOption: "INSERT_ROWS",
     requestBody: { values: rows },
@@ -619,7 +485,7 @@ async function main() {
     }
   }
 
-  // Also search competitor sites directly for their top content
+  // Also search competitor sites directly for their top content (via Serper)
   for (const competitor of COMPETITORS) {
     try {
       const data = await serperSearch("medicare supplement", {
@@ -633,6 +499,45 @@ async function main() {
       console.warn(`  ⚠️  Competitor search failed for ${competitor}: ${err.message}`);
     }
   }
+
+  // ── Step 1b: Pull ranking keywords from Moz v3 for each competitor ─────
+  // This is the primary keyword source — returns actual ranked keywords with
+  // difficulty + volume already attached (replaces old DA-based checking).
+  const v3KeywordData = new Map(); // keyword (lowercase) → { volume, difficulty, rank_position, ranking_page, organic_ctr, priority }
+
+  const usage = getUsageSummary();
+  const maxPages = usage.remaining < 3000 ? 2 : 4; // reduce pages if budget is low
+  console.log(`\n🔬 Pulling competitor ranking keywords via Moz v3 (${usage.remaining} rows remaining)...`);
+
+  for (const competitor of COMPETITORS) {
+    try {
+      const keywords = await getRankingKeywordsV3(competitor, { limit: 50, maxPages });
+      let added = 0;
+      for (const kw of keywords) {
+        const key = kw.keyword.toLowerCase().trim();
+        allCandidates.add(key);
+        // Keep the entry with the best (lowest) rank position if seen from multiple competitors
+        if (!v3KeywordData.has(key) || kw.rank_position < v3KeywordData.get(key).rank_position) {
+          v3KeywordData.set(key, {
+            volume: kw.volume != null ? Math.round(kw.volume) : null,
+            difficulty: kw.difficulty ?? null,
+            rank_position: kw.rank_position,
+            ranking_page: kw.ranking_page,
+            organic_ctr: null, // filled later by keyword metrics enrichment
+            priority: null,    // filled later by keyword metrics enrichment
+          });
+        }
+        added++;
+      }
+      console.log(`  ${competitor}: ${added} keywords (${keywords.length} from Moz v3)`);
+      // 2-second delay between competitors to respect rate limits
+      await new Promise((r) => setTimeout(r, 2000));
+    } catch (err) {
+      console.warn(`  ⚠️  Moz v3 failed for ${competitor}: ${err.message}`);
+    }
+  }
+
+  console.log(`  Total v3 keywords: ${v3KeywordData.size} unique`);
 
   // ── High-Leverage Keywords (Module 07) ──────────────────────────────────
   // Combine base keywords with audience modifiers, search a subset per run
@@ -662,7 +567,7 @@ async function main() {
     }
   }
 
-  console.log(`  Found ${allCandidates.size} raw candidates (including high-leverage)`);
+  console.log(`  Found ${allCandidates.size} raw candidates (Serper + v3 + high-leverage)`);
 
   // Step 2: Filter for bottom-of-funnel intent + deduplicate
   const filtered = [...allCandidates].filter((kw) => {
@@ -677,64 +582,64 @@ async function main() {
     return;
   }
 
-  // Step 2b: Check SERP competition with Moz Domain Authority
-  const daDataMap = {}; // keyword → checkSerpCompetition result
-  const MOZ_KEYWORD_LIMIT = 35; // Starter Medium: 3,000 rows/month — ~350 rows per weekly run
-
-  if (!MOZ_API_TOKEN) {
-    console.error("❌ MOZ_API_TOKEN is required. Cannot run keyword research without Domain Authority validation.");
-    process.exit(1);
-  }
-
-  const daSubset = filtered.slice(0, MOZ_KEYWORD_LIMIT);
-  console.log(`\n🏋️ Checking SERP competition (Moz DA) for ${daSubset.length} keywords...`);
-
-  for (const kw of daSubset) {
-    try {
-      const result = await checkSerpCompetition(kw);
-      daDataMap[kw] = result;
-
-      // Log findings
-      if (result.avgDa != null) {
-        const label = result.beatable ? "BEATABLE" : "COMPETITIVE, deprioritizing";
-        console.log(`  Keyword "${kw}": avg DA ${result.avgDa}, min DA ${result.minDa} — ${label}`);
-      } else {
-        console.log(`  Keyword "${kw}": DA data unavailable`);
-      }
-
-      // 1-second delay between Moz API calls to respect rate limits
-      await new Promise((r) => setTimeout(r, 1000));
-    } catch (err) {
-      console.warn(`  ⚠️  DA check failed for "${kw}": ${err.message}`);
+  // Step 2b: Filter by Moz difficulty (replaces old DA-based competition check)
+  const preFilterCount = filtered.length;
+  const tooCompetitive = new Set();
+  for (const kw of filtered) {
+    const data = v3KeywordData.get(kw.toLowerCase());
+    if (data && data.difficulty != null && data.difficulty > 60) {
+      tooCompetitive.add(kw);
     }
   }
-
-  // Drop keywords that were DA-checked and found non-beatable
-  const preFilterCount = filtered.length;
-  const checkedAndNonBeatable = new Set();
-  for (const [kw, data] of Object.entries(daDataMap)) {
-    if (data.beatable === false) checkedAndNonBeatable.add(kw);
-  }
-  const beatableFiltered = filtered.filter((kw) => !checkedAndNonBeatable.has(kw));
+  const beatableFiltered = filtered.filter((kw) => !tooCompetitive.has(kw));
   const dropped = preFilterCount - beatableFiltered.length;
   if (dropped > 0) {
-    console.log(`\n🚫 Dropped ${dropped} non-beatable keyword(s) (DA too high).`);
+    console.log(`\n🚫 Dropped ${dropped} keyword(s) with difficulty > 60.`);
   }
-  // Replace filtered with only beatable keywords
   filtered.length = 0;
   filtered.push(...beatableFiltered);
 
-  // Sort remaining keywords: beatable first, then by relevance order
+  // Sort: keywords with v3 data and low difficulty first
   filtered.sort((a, b) => {
-    const aDa = daDataMap[a];
-    const bDa = daDataMap[b];
-    // Keywords with DA data and beatable come first
-    const aBeatable = aDa?.beatable === true ? 1 : aDa?.beatable === false ? -1 : 0;
-    const bBeatable = bDa?.beatable === true ? 1 : bDa?.beatable === false ? -1 : 0;
-    return bBeatable - aBeatable;
+    const aData = v3KeywordData.get(a.toLowerCase());
+    const bData = v3KeywordData.get(b.toLowerCase());
+    const aDiff = aData?.difficulty ?? 50; // unknown = middle
+    const bDiff = bData?.difficulty ?? 50;
+    return aDiff - bDiff; // easiest first
   });
 
-  // Step 3: Score and generate page elements in batches of 15 (Claude context)
+  // Step 2c: Enrich with keyword metrics (SERP CTR + Priority) from Moz v3
+  // Only for keywords that passed filtering — budget-gated
+  const enrichUsage = getUsageSummary();
+  if (enrichUsage.remaining > 1000) {
+    const toEnrich = filtered.filter((kw) => v3KeywordData.has(kw.toLowerCase())).slice(0, 50);
+    if (toEnrich.length > 0) {
+      console.log(`\n📈 Enriching ${toEnrich.length} keywords with SERP CTR + Priority (Moz v3)...`);
+      let enriched = 0;
+      for (const kw of toEnrich) {
+        try {
+          const metrics = await getKeywordMetrics(kw);
+          if (metrics) {
+            const existing = v3KeywordData.get(kw.toLowerCase());
+            existing.organic_ctr = metrics.organic_ctr;
+            existing.priority = metrics.priority;
+            // Update volume/difficulty with more current data if available
+            if (metrics.volume != null) existing.volume = metrics.volume;
+            if (metrics.difficulty != null) existing.difficulty = metrics.difficulty;
+            enriched++;
+          }
+          await new Promise((r) => setTimeout(r, 500));
+        } catch (err) {
+          // Silently skip — expected for many long-tail keywords
+        }
+      }
+      console.log(`  Enriched ${enriched}/${toEnrich.length} keywords with CTR + Priority`);
+    }
+  } else {
+    console.log(`\n⚠️  Skipping keyword metrics enrichment (${enrichUsage.remaining} rows remaining)`);
+  }
+
+  // Step 3: Score keywords in batches of 15
   const BATCH_SIZE = 15;
   const allResults = [];
 
@@ -742,17 +647,8 @@ async function main() {
     const batch = filtered.slice(i, i + BATCH_SIZE);
     console.log(`\n📊 Scoring batch ${Math.floor(i / BATCH_SIZE) + 1}/${Math.ceil(filtered.length / BATCH_SIZE)} (${batch.length} keywords)...`);
     try {
-      const results = await scoreAndGeneratePages(batch, anthropic, daDataMap);
-      // Attach DA data to each result
-      for (const r of results) {
-        const da = daDataMap[r.keyword];
-        if (da) {
-          r.avgDa = da.avgDa;
-          r.beatable = da.beatable;
-        }
-      }
+      const results = await scoreKeywords(batch, anthropic, v3KeywordData);
       allResults.push(...results);
-      // Mark as processed regardless of skip status
       for (const kw of batch) processedSet.add(kw.toLowerCase());
     } catch (err) {
       console.warn(`  ⚠️  Claude batch failed: ${err.message}`);
@@ -769,25 +665,27 @@ async function main() {
       const today = new Date().toISOString().slice(0, 10);
 
       // ── Competitors Keyword Template ──────────────────────────────────────
-      // Stores all candidate keywords with scoring (what to target)
       if (COMPETITORS_KEYWORD_SHEET_ID) {
         await ensureKeywordsSheet(sheets, COMPETITORS_KEYWORD_SHEET_ID);
         const existing = await getExistingSheetKeywords(sheets, COMPETITORS_KEYWORD_SHEET_ID);
 
         const kwRows = keepResults
           .filter((r) => !existing.has(r.keyword.toLowerCase()))
-          .map((r) => [
-            r.keyword,
-            r.relevance,
-            r.intent,
-            r.priority,
-            r.slug ? `/hub/${r.slug}` : "",
-            r.meta_description || "",
-            r.avgDa != null ? r.avgDa : "",
-            r.beatable != null ? (r.beatable ? "YES" : "NO") : "",
-            "pending",
-            today,
-          ]);
+          .map((r) => {
+            const metrics = v3KeywordData.get(r.keyword.toLowerCase());
+            return [
+              r.keyword,
+              r.relevance,
+              r.intent,
+              r.priority,
+              r.slug ? `/hub/${(r.slug || "").replace(/^\/?(hub\/)?/, "")}` : "",
+              r.meta_description || "",
+              metrics?.difficulty ?? "",
+              metrics?.difficulty != null ? (metrics.difficulty <= 40 ? "YES" : "NO") : "",
+              "pending",
+              today,
+            ];
+          });
 
         if (kwRows.length > 0) {
           await appendToSheet(sheets, COMPETITORS_KEYWORD_SHEET_ID, kwRows);
@@ -797,36 +695,36 @@ async function main() {
         }
       }
 
-      // ── Internal SEO Template ─────────────────────────────────────────────
-      // Stores page blueprints: Title / URL / H1 / 4 H2s (what to build)
+      // ── Internal SEO Template — Keywords Tab ──────────────────────────────
       if (INTERNAL_SEO_SHEET_ID) {
         await ensureInternalSeoSheet(sheets, INTERNAL_SEO_SHEET_ID);
-        const existingPages = await getExistingSheetKeywords(sheets, INTERNAL_SEO_SHEET_ID, "Page Blueprints");
 
-        const pageRows = keepResults
-          .filter((r) => r.title && r.slug && !existingPages.has(r.keyword.toLowerCase()))
-          .map((r) => [
-            r.keyword,
-            r.title || "",
-            r.slug ? `/hub/${r.slug}` : "",
-            r.h1 || "",
-            (r.h2s || [])[0] || "",
-            (r.h2s || [])[1] || "",
-            (r.h2s || [])[2] || "",
-            (r.h2s || [])[3] || "",
-            r.meta_description || "",
-            r.priority,
-            "not built",
-            today,
-            r.avgDa != null ? r.avgDa : "",
-            r.beatable != null ? (r.beatable ? "YES" : "NO") : "",
-          ]);
+        const existingKw = await getExistingSheetKeywords(sheets, INTERNAL_SEO_SHEET_ID, "Keywords");
+        const kwDataRows = keepResults
+          .filter((r) => !existingKw.has(r.keyword.toLowerCase()))
+          .map((r) => {
+            const metrics = v3KeywordData.get(r.keyword.toLowerCase());
+            return [
+              r.keyword,
+              "",                             // Category 1 (HITL)
+              "",                             // Category 2 (HITL)
+              metrics?.volume ?? "",          // Avg Volume
+              metrics?.difficulty ?? "",      // Difficulty
+              metrics?.organic_ctr ?? "",     // SERP CTR
+              metrics?.priority ?? "",        // Moz Priority
+              r.relevance || "",              // On-Site Relevance (Claude)
+              r.intent || "",                 // Notes
+              "",                             // Min Volume
+              "",                             // Max Volume
+              "no",                           // Targeted? — change to "yes" to queue for blueprint generation
+            ];
+          });
 
-        if (pageRows.length > 0) {
-          await appendToSheet(sheets, INTERNAL_SEO_SHEET_ID, pageRows);
-          console.log(`  📊 Internal SEO Template: added ${pageRows.length} page blueprints`);
-        } else {
-          console.log("  📊 Internal SEO Template: all already present");
+        if (kwDataRows.length > 0) {
+          await appendToSheet(sheets, INTERNAL_SEO_SHEET_ID, kwDataRows, "Keywords");
+          console.log(`  📊 Internal SEO Template (Keywords tab): added ${kwDataRows.length} keywords`);
+          console.log(`     → Open the Keywords tab, review rows, change "pending" → "target" on keywords you want built`);
+          console.log(`     → Then run: node generate-blueprints.js`);
         }
       }
     } catch (err) {
@@ -851,8 +749,9 @@ async function main() {
   if (highPriority.length > 0) {
     console.log("\n🎯 TOP COMPACT KEYWORDS (high priority, relevance ≥ 7):");
     for (const r of highPriority.slice(0, 10)) {
-      console.log(`  [${r.relevance}/10] ${r.keyword}`);
-      console.log(`         → /hub/${r.slug}`);
+      const metrics = v3KeywordData.get(r.keyword.toLowerCase());
+      console.log(`  [${r.relevance}/10] ${r.keyword} (diff: ${metrics?.difficulty ?? "?"}, vol: ${metrics?.volume ?? "?"})`);
+      console.log(`         → /hub/${(r.slug || "").replace(/^\/?(hub\/)?/, "")}`);
       console.log(`         → ${r.title}`);
     }
   }

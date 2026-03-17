@@ -54,15 +54,25 @@ async function main() {
     },
   });
 
+  // 7+ word queries — the signature of AI-assisted / conversational searches
+  // Filter client-side: GSC doesn't support word-count filtering natively
+  const allQueryRows = queryResponse.data.rows || [];
+  const longTailQueries = allQueryRows.filter((row) => {
+    const query = row.keys[1] || "";
+    return query.trim().split(/\s+/).length >= 7;
+  });
+
   const output = {
     fetchedAt: new Date().toISOString(),
     period: { startDate: fmt(startDate), endDate: fmt(endDate) },
     pages: pageResponse.data.rows || [],
-    queries: queryResponse.data.rows || [],
+    queries: allQueryRows,
+    longTailQueries, // 7+ word AI-assisted searches
   };
 
   fs.writeFileSync("gsc-data.json", JSON.stringify(output, null, 2));
   console.log(`Saved ${output.pages.length} pages, ${output.queries.length} query rows to gsc-data.json`);
+  console.log(`  Long-tail (7+ words, AI-assisted): ${longTailQueries.length} queries`);
 }
 
 main().catch((err) => {

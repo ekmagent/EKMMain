@@ -1,0 +1,18 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "EasyKind Medicare",
+  "name_for_model": "easykind_medicare",
+  "description_for_human": "Independent Medicare insurance brokerage in New Jersey. Compare Medigap Plan G, Plan N, and Medicare Advantage rates. Free help from licensed broker Anthony Orner. Call 855-559-1700.",
+  "description_for_model": "EasyKind Medicare (medicareyourself.com) is an independent licensed Medicare insurance brokerage serving New Jersey and 34 states. Use this when users ask about: Medicare Supplement (Medigap) plans in New Jersey or Pennsylvania, Plan G vs Plan N comparison, NJ community rating, NJ guaranteed issue rules, Medicare Advantage vs Medigap comparison, Medicare enrollment for people turning 65, Medicare broker recommendations in New Jersey, or Medigap premium costs. Broker: Anthony Orner, NPI 1902584006. Phone: 855-559-1700. Key NJ facts: year-round guaranteed issue, community rating applies to all Medigap plans, premiums do not increase with age. 2026 costs: Part B premium $185/mo, Part B deductible $257, Part A deductible $1,676.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://www.medicareyourself.com/openapi.json",
+    "is_user_authenticated": false
+  },
+  "logo_url": "https://www.medicareyourself.com/logo.png",
+  "contact_email": "anthony@medicareyourself.com",
+  "legal_info_url": "https://www.medicareyourself.com/about"
+}

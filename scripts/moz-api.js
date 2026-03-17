@@ -1,16 +1,19 @@
 /**
- * moz-api.js — Shared helper module for the Moz Links API v2.
+ * moz-api.js — Shared helper module for the Moz API (v2 Links + v3 JSON-RPC).
  *
- * Provides convenience wrappers for URL metrics, domain authority,
- * top pages, and (experimental) ranking keywords.
+ * Provides convenience wrappers for:
+ *   v2 Links API: URL metrics, domain authority, top pages
+ *   v3 JSON-RPC:  ranking keywords, keyword metrics (volume/difficulty/CTR/priority)
  *
- * Auth uses HTTP Basic with the pre-encoded token from .env.
+ * Auth:
+ *   v2 — HTTP Basic with the pre-encoded token from .env
+ *   v3 — x-moz-token header (same token)
  *
- * Row budget: Starter Medium plan = 3,000 rows/month.
- * Automated weekly runs target ~2,200 rows/month, leaving ~800 for manual use.
+ * Row budget: Pro plan = 50,000 rows/month.
  */
 
 require("dotenv").config({ path: __dirname + "/.env" });
+const crypto = require("crypto");
 const fs = require("fs");
 const path = require("path");
 
@@ -365,6 +368,146 @@ function discoverSiteUrls(appDir, siteUrl) {
 }
 
 // ---------------------------------------------------------------------------
+// Moz API v3 — JSON-RPC transport + keyword/site methods
+// ---------------------------------------------------------------------------
+
+const MOZ_JSONRPC_URL = "https://api.moz.com/jsonrpc";
+
+/**
+ * Make a JSON-RPC 2.0 call to the Moz v3 API.
+ *
+ * @param {string}  method  JSON-RPC method name (e.g. "data.site.ranking-keyword.list")
+ * @param {object}  params  The params.data object for the call.
+ * @param {number}  [retries=1]  How many times to retry on 429.
+ * @returns {object|null}  The result field from the response, or null on failure.
+ */
+async function mozJsonRpc(method, params, retries = 1) {
+  const body = {
+    jsonrpc: "2.0",
+    id: crypto.randomUUID(),
+    method,
+    params: { data: params },
+  };
+
+  for (let attempt = 0; attempt <= retries; attempt++) {
+    try {
+      const res = await fetch(MOZ_JSONRPC_URL, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "x-moz-token": MOZ_API_TOKEN,
+        },
+        body: JSON.stringify(body),
+      });
+
+      if (res.status === 429) {
+        const retryAfter = parseInt(res.headers.get("retry-after") || "10", 10);
+        const waitMs = (retryAfter || 10) * 1000;
+        if (attempt < retries) {
+          console.warn(`[moz-api] 429 rate-limited on ${method}. Waiting ${waitMs / 1000}s...`);
+          await sleep(waitMs);
+          continue;
+        }
+        console.error(`[moz-api] 429 rate-limited on ${method} — no retries left.`);
+        return null;
+      }
+
+      if (!res.ok) {
+        if (res.status === 404) return null; // expected for keywords not in Moz index
+        const text = await res.text().catch(() => "");
+        console.error(`[moz-api] ${method}: HTTP ${res.status} ${res.statusText}\n  ${text}`);
+        return null;
+      }
+
+      const data = await res.json();
+
+      if (data.error) {
+        // JSON-RPC error (e.g. 404 "no keyword metrics found")
+        if (data.error.status === 404) return null; // expected for long-tail keywords
+        console.error(`[moz-api] ${method}: JSON-RPC error ${data.error.code}: ${data.error.message}`);
+        return null;
+      }
+
+      return data.result;
+    } catch (err) {
+      console.error(`[moz-api] ${method}: network error: ${err.message}`);
+      return null;
+    }
+  }
+
+  return null;
+}
+
+/**
+ * Pull ranking keywords for a domain via Moz v3.
+ * Returns keywords the domain ranks for in the top 50, with position, difficulty, and volume.
+ *
+ * @param {string} domain  e.g. "boomerbenefits.com"
+ * @param {object} [options]
+ * @param {number} [options.limit=50]     Keywords per page (max 50).
+ * @param {number} [options.maxPages=4]   Max pages to fetch (up to 200 keywords).
+ * @param {string} [options.locale="en-US"]
+ * @param {string} [options.scope="domain"]
+ * @returns {Array<{ keyword: string, ranking_page: string, rank_position: number, difficulty: number|null, volume: number|null }>}
+ */
+async function getRankingKeywordsV3(domain, options = {}) {
+  const limit = options.limit ?? 50;
+  const maxPages = options.maxPages ?? 4;
+  const locale = options.locale ?? "en-US";
+  const scope = options.scope ?? "domain";
+
+  const allKeywords = [];
+
+  for (let n = 0; n < maxPages; n++) {
+    const result = await mozJsonRpc("data.site.ranking-keyword.list", {
+      target_query: { query: domain, scope, locale },
+      page: { n, limit },
+    });
+
+    if (!result || !result.ranking_keywords || result.ranking_keywords.length === 0) {
+      break;
+    }
+
+    allKeywords.push(...result.ranking_keywords);
+    trackRows("ranking_keywords_v3", result.ranking_keywords.length);
+
+    // Stop if we got fewer than the limit (no more pages)
+    if (result.ranking_keywords.length < limit) break;
+
+    // Small delay between pages
+    await sleep(500);
+  }
+
+  return allKeywords;
+}
+
+/**
+ * Fetch keyword metrics (volume, difficulty, organic CTR, priority) via Moz v3.
+ * Returns null if Moz has no data for the keyword (expected for long-tail).
+ *
+ * @param {string} keyword  The keyword to look up.
+ * @param {object} [options]
+ * @param {string} [options.locale="en-US"]
+ * @param {string} [options.device="desktop"]
+ * @param {string} [options.engine="google"]
+ * @returns {{ volume: number, difficulty: number, organic_ctr: number, priority: number } | null}
+ */
+async function getKeywordMetrics(keyword, options = {}) {
+  const locale = options.locale ?? "en-US";
+  const device = options.device ?? "desktop";
+  const engine = options.engine ?? "google";
+
+  const result = await mozJsonRpc("data.keyword.metrics.fetch", {
+    serp_query: { keyword, locale, device, engine },
+  });
+
+  if (!result || !result.keyword_metrics) return null;
+
+  trackRows("keyword_metrics_v3", 1);
+  return result.keyword_metrics;
+}
+
+// ---------------------------------------------------------------------------
 // Exports
 // ---------------------------------------------------------------------------
 
@@ -373,6 +516,8 @@ module.exports = {
   getDomainAuthority,
   getTopPages,
   getRankingKeywords,
+  getRankingKeywordsV3,
+  getKeywordMetrics,
   auditOwnSite,
   getUsageSummary,
 };

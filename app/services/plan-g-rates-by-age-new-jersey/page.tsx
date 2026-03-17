@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: "Plan G Rates by Age in New Jersey | 2026 Costs | MedicareYourself",
   description:
     "See real Plan G rates for ages 65-70+ in New Jersey. Anthony Orner compares top carriers by age to find your lowest rate. Free quote in 2 minutes.",
-  alternates: { canonical: `${SITE_URL}/hub/plan-g-rates-by-age-new-jersey` },
+  alternates: { canonical: `${SITE_URL}/services/plan-g-rates-by-age-new-jersey` },
   openGraph: {
     title: "Plan G Rates by Age in New Jersey | 2026 Costs | MedicareYourself",
     description:
@@ -52,7 +52,7 @@ export default function PlanGRatesByAgeNJPage() {
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: "https://www.medicareyourself.com" },
       { "@type": "ListItem", position: 2, name: "Medicare Guides", item: "https://www.medicareyourself.com/hub" },
-      { "@type": "ListItem", position: 3, name: "Plan G Rates by Age in NJ", item: "https://www.medicareyourself.com/hub/plan-g-rates-by-age-new-jersey" },
+      { "@type": "ListItem", position: 3, name: "Plan G Rates by Age in NJ", item: "https://www.medicareyourself.com/services/plan-g-rates-by-age-new-jersey" },
     ],
   };
 
