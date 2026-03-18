@@ -1,1 +1,118 @@
 date	page	score	words	faqs	meta_len	gov_link	byline	gaps	action
+2026-03-18	/about	60	518	0	154	yes	yes	word_count:518/600|faqs:0/4|internal_links:0/2|missing_faq_schema	error:Unexpected token '`', "```json
+{
+"... is not valid JSON
+2026-03-18	/contact	30	245	0	0	no	no	word_count:245/600|faqs:0/4|meta_desc_short:0/130|internal_links:0/2|missing_gov_link|missing_byline|missing_faq_schema	error:Unexpected token '`', "```json
+{
+"... is not valid JSON
+2026-03-18	/learn/how-to-sign-up-for-medicare	90	1381	6	132	yes	yes	missing_faq_schema	error:Unexpected token '`', "```json
+{
+"... is not valid JSON
+2026-03-18	/learn/medicare-help-low-income	90	1016	6	131	yes	yes	missing_faq_schema	error:Unexpected token '`', "```json
+{
+"... is not valid JSON
+2026-03-18	/learn/medicare-parts-explained	70	757	4	132	no	no	missing_gov_link|missing_byline|missing_faq_schema	error:Unexpected token '`', "```json
+{
+"... is not valid JSON
+2026-03-18	/learn/what-is-medigap	70	718	5	139	no	no	missing_gov_link|missing_byline|missing_faq_schema	error:Unexpected token '`', "```json
+{
+"... is not valid JSON
+2026-03-18	/medicare-advantage/new-jersey	50	658	5	122	no	no	meta_desc_short:122/130|missing_gov_link|missing_state_link|missing_byline|missing_faq_schema	error:Unexpected token '`', "```json
+{
+"... is not valid JSON
+2026-03-18	/medicare-supplement/new-jersey/cost	60	801	5	131	no	no	missing_gov_link|missing_state_link|missing_byline|missing_faq_schema	error:Unexpected token '`', "```json
+{
+"... is not valid JSON
+2026-03-18	/medicare-supplement/new-jersey	70	1229	8	139	no	no	missing_gov_link|missing_byline|missing_faq_schema	error:Unexpected token '`', "```json
+{
+"... is not valid JSON
+2026-03-18	/medicare-supplement/new-jersey/plan-g-vs-plan-n	60	983	5	132	no	no	missing_gov_link|missing_state_link|missing_byline|missing_faq_schema	error:Unexpected token '`', "```json
+{
+"... is not valid JSON
+2026-03-18	/medicare-supplement/new-jersey/turning-65	60	874	5	130	no	no	missing_gov_link|missing_state_link|missing_byline|missing_faq_schema	error:Unexpected token '`', "```json
+{
+"... is not valid JSON
+2026-03-18	/medicare-supplement/new-jersey/vs-medicare-advantage	60	947	5	139	no	no	missing_gov_link|missing_state_link|missing_byline|missing_faq_schema	error:Unexpected token '`', "```json
+{
+"... is not valid JSON
+2026-03-18	/medicare-supplement/pennsylvania	60	1140	6	134	no	no	missing_gov_link|missing_state_link|missing_byline|missing_faq_schema	error:Unexpected token '`', "```json
+{
+"... is not valid JSON
+2026-03-18	/medicare-supplement/switch-carriers	70	1309	6	123	no	yes	meta_desc_short:123/130|missing_gov_link|missing_faq_schema	error:Unexpected token '`', "```json
+{
+"... is not valid JSON
+2026-03-18	/	40	413	0	127	no	no	word_count:413/600|faqs:0/4|meta_desc_short:127/130|missing_gov_link|missing_byline|missing_faq_schema	error:Unexpected token '`', "```json
+{
+"... is not valid JSON
+2026-03-18	/privacy	40	349	0	133	no	no	word_count:349/600|faqs:0/4|internal_links:1/2|missing_gov_link|missing_byline|missing_faq_schema	error:Unexpected token '`', "```json
+{
+"... is not valid JSON
+2026-03-18	/quote	40	93	0	129	no	no	word_count:93/600|faqs:0/4|meta_desc_short:129/130|missing_gov_link|missing_byline|missing_faq_schema	error:Unexpected token '`', "```json
+{
+"... is not valid JSON
+2026-03-18	/services/best-and-cheapest-medicare-supplement	80	1077	4	157	no	yes	missing_gov_link|missing_faq_schema	error:Unexpected token '`', "```json
+{
+"... is not valid JSON
+2026-03-18	/services/best-medicare-insurance-brokers-near-me	80	952	4	158	no	yes	missing_gov_link|missing_faq_schema	error:Unexpected token '`', "```json
+{
+"... is not valid JSON
+2026-03-18	/services/best-medicare-plan-for-chronic-conditions	80	1127	4	157	no	yes	missing_gov_link|missing_faq_schema	error:Unexpected token '`', "```json
+{
+"... is not valid JSON
+2026-03-18	/services/free-medicare-advocate-near-me	70	1015	4	161	no	yes	meta_desc_long:161/160|missing_gov_link|missing_faq_schema	error:Unexpected token '`', "```json
+{
+"... is not valid JSON
+2026-03-18	/services/free-medicare-agent-that-helps-with-paperwork	80	982	4	158	no	yes	missing_gov_link|missing_faq_schema	error:Unexpected token '`', "```json
+{
+"... is not valid JSON
+2026-03-18	/services/how-to-enroll-in-medicare-in-new-jersey	90	1097	4	158	yes	yes	missing_faq_schema	error:Unexpected token '`', "```json
+{
+"... is not valid JSON
+2026-03-18	/services/independent-medicare-advantage-agents-near-me	80	1029	4	157	no	yes	missing_gov_link|missing_faq_schema	error:Unexpected token '`', "```json
+{
+"... is not valid JSON
+2026-03-18	/services/independent-medicare-supplement-insurance-agents	80	863	4	159	no	yes	missing_gov_link|missing_faq_schema	error:Unexpected token '`', "```json
+{
+"... is not valid JSON
+2026-03-18	/services/independent-medicare-supplement-insurance-agents-near-me	80	1100	4	159	no	yes	missing_gov_link|missing_faq_schema	error:Unexpected token '`', "```json
+{
+"... is not valid JSON
+2026-03-18	/services/medicare-advantage-agents-near-me	70	1021	4	161	no	yes	meta_desc_long:161/160|missing_gov_link|missing_faq_schema	error:Unexpected token '`', "```json
+{
+"... is not valid JSON
+2026-03-18	/services/medicare-agent-that-helps-with-paperwork-near-me	80	984	4	156	no	yes	missing_gov_link|missing_faq_schema	error:Unexpected token '`', "```json
+{
+"... is not valid JSON
+2026-03-18	/services/medicare-broker-for-people-with-parkinsons	80	1285	4	154	no	yes	missing_gov_link|missing_faq_schema	error:Unexpected token '`', "```json
+{
+"... is not valid JSON
+2026-03-18	/services/medicare-brokers-in-my-area	80	980	4	157	no	yes	missing_gov_link|missing_faq_schema	error:Unexpected token '`', "```json
+{
+"... is not valid JSON
+2026-03-18	/services/medicare-enrollment-help-for-people-with-diabetes	70	1099	4	166	no	yes	meta_desc_long:166/160|missing_gov_link|missing_faq_schema	error:Unexpected token '`', "```json
+{
+"... is not valid JSON
+2026-03-18	/services/medicare-enrollment-help-for-people-with-lupus	70	1053	4	161	no	yes	meta_desc_long:161/160|missing_gov_link|missing_faq_schema	error:Unexpected token '`', "```json
+{
+"... is not valid JSON
+2026-03-18	/services/medicare-supplement-for-seniors-turning-65	80	1221	4	159	no	yes	missing_gov_link|missing_faq_schema	error:Unexpected token '`', "```json
+{
+"... is not valid JSON
+2026-03-18	/services/medicare-supplement-rate-jumped-why-and-what-can-i-do	80	1132	4	154	no	yes	missing_gov_link|missing_faq_schema	error:Unexpected token '`', "```json
+{
+"... is not valid JSON
+2026-03-18	/services	50	283	0	144	no	no	word_count:283/600|faqs:0/4|missing_gov_link|missing_byline|missing_faq_schema	error:Unexpected token '`', "```json
+{
+"... is not valid JSON
+2026-03-18	/services/plan-g-rates-by-age-new-jersey	80	1070	5	146	no	yes	missing_gov_link|missing_faq_schema	error:Unexpected token '`', "```json
+{
+"... is not valid JSON
+2026-03-18	/services/what-time-of-year-can-you-switch-medicare-supplement-plans	80	1215	4	159	no	yes	missing_gov_link|missing_faq_schema	error:Unexpected token '`', "```json
+{
+"... is not valid JSON
+2026-03-18	/terms	40	366	0	137	no	no	word_count:366/600|faqs:0/4|internal_links:1/2|missing_gov_link|missing_byline|missing_faq_schema	error:Unexpected token '`', "```json
+{
+"... is not valid JSON
+2026-03-18	/write-for-us	40	397	0	159	no	no	word_count:397/600|faqs:0/4|internal_links:0/2|missing_gov_link|missing_byline|missing_faq_schema	error:Unexpected token '`', "```json
+{
+"... is not valid JSON
