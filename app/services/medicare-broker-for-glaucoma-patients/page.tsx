@@ -112,7 +112,7 @@ export default function MedicareBrokerForGlaucomaPatients() {
           Lasers, and Surgery
         </h1>
         <Image
-          src="/images/medicare-broker-for-glaucoma-patients_photo.webp"
+          src="/images/medicare-broker-for-glaucoma-patients.webp"
           alt="Medicare broker for glaucoma patients"
           width={800}
           height={400}

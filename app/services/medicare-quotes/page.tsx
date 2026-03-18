@@ -101,7 +101,7 @@ export default function MedicareQuotesPage() {
             Medicare Quotes: Compare Supplement and Advantage Rates in Minutes
           </h1>
           <Image
-            src="/images/medicare-quotes_photo.webp"
+            src="/images/medicare-quotes.webp"
             alt="medicare quotes"
             width={800}
             height={400}

@@ -114,7 +114,7 @@ export default function MedicareBrokerBipolarDisorderPatients() {
           Complex Medication Regimens
         </h1>
         <Image
-          src="/images/medicare-broker-for-bipolar-disorder-patients_photo.webp"
+          src="/images/medicare-broker-for-bipolar-disorder-patients.webp"
           alt="Medicare broker for bipolar disorder patients"
           width={800}
           height={400}

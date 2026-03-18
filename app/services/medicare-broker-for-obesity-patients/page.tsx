@@ -113,7 +113,7 @@ export default function MedicareBrokerForObesityPatients() {
           Surgery, and Weight-Loss Medications
         </h1>
         <Image
-          src="/images/medicare-broker-for-obesity-patients_photo.webp"
+          src="/images/medicare-broker-for-obesity-patients.webp"
           alt="Medicare broker for obesity patients"
           width={800}
           height={400}

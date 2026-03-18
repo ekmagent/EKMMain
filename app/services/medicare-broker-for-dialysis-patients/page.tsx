@@ -113,7 +113,7 @@ export default function MedicareBrokerForDialysisPatients() {
             Plan Options
           </h1>
           <Image
-            src="/images/medicare-broker-for-dialysis-patients_photo.webp"
+            src="/images/medicare-broker-for-dialysis-patients.webp"
             alt="Medicare broker for dialysis patients"
             width={800}
             height={400}

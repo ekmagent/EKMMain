@@ -112,7 +112,7 @@ export default function MedicareBrokerForDepressionPatients() {
           Mental Health Treatment
         </h1>
         <Image
-          src="/images/medicare-broker-for-depression-patients_photo.webp"
+          src="/images/medicare-broker-for-depression-patients.webp"
           alt="Medicare broker for depression patients"
           width={800}
           height={400}

@@ -110,7 +110,7 @@ export default function HowToEnrollInMedicareInNewJersey() {
       </h1>
 
       <Image
-        src="/images/how-to-enroll-in-medicare-in-new-jersey.webp"
+        src="/images/how-to-enroll-in-medicare-in-new-jersey_photo.webp"
         alt="how to enroll in medicare in new jersey"
         width={800}
         height={400}

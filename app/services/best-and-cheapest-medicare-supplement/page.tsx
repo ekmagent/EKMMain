@@ -112,7 +112,7 @@ export default function BestAndCheapestMedicareSupplement() {
       </h1>
 
       <Image
-        src="/images/best-and-cheapest-medicare-supplement.webp"
+        src="/images/best-and-cheapest-medicare-supplement_photo.webp"
         alt="need help finding best and cheapest medicare supplement"
         width={800}
         height={400}

@@ -111,7 +111,7 @@ export default function MedicareBrokerForBackPainSufferers() {
           What Matters
         </h1>
         <Image
-          src="/images/medicare-broker-for-back-pain-sufferers_photo.webp"
+          src="/images/medicare-broker-for-back-pain-sufferers.webp"
           alt="Medicare broker for back pain sufferers"
           width={800}
           height={400}

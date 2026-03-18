@@ -113,7 +113,7 @@ export default function MedicareBrokerMacularDegeneration() {
             Injections, Monitoring, and More
           </h1>
           <Image
-            src="/images/medicare-broker-for-macular-degeneration-patients_photo.webp"
+            src="/images/medicare-broker-for-macular-degeneration-patients.webp"
             alt="Medicare broker for macular degeneration patients"
             width={800}
             height={400}

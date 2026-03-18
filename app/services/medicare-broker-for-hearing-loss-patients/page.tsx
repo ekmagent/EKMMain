@@ -113,7 +113,7 @@ export default function MedicareBrokerForHearingLossPatients() {
             Hearing Aids and Audiology
           </h1>
           <Image
-            src="/images/medicare-broker-for-hearing-loss-patients_photo.webp"
+            src="/images/medicare-broker-for-hearing-loss-patients.webp"
             alt="Medicare broker for hearing loss patients"
             width={800}
             height={400}

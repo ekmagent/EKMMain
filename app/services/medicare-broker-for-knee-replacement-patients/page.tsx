@@ -112,7 +112,7 @@ export default function MedicareBrokerForKneeReplacementPatients() {
           Before You Plan the Surgery
         </h1>
         <Image
-          src="/images/medicare-broker-for-knee-replacement-patients_photo.webp"
+          src="/images/medicare-broker-for-knee-replacement-patients.webp"
           alt="Medicare broker for knee replacement patients"
           width={800}
           height={400}

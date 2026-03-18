@@ -113,7 +113,7 @@ export default function MedicareBrokerSchizophreniaPatients() {
             Medicare Broker for Schizophrenia Patients — Ensuring Coverage for Antipsychotics and Ongoing Care
           </h1>
           <Image
-            src="/images/medicare-broker-for-schizophrenia-patients_photo.webp"
+            src="/images/medicare-broker-for-schizophrenia-patients.webp"
             alt="Medicare broker for schizophrenia patients"
             width={800}
             height={400}

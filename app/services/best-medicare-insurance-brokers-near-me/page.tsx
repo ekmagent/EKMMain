@@ -110,7 +110,7 @@ export default function BestMedicareBrokersNearMe() {
         </h1>
 
         <Image
-          src="/images/best-medicare-insurance-brokers-near-me.webp"
+          src="/images/best-medicare-insurance-brokers-near-me_photo.webp"
           alt="best medicare insurance brokers near me"
           width={800}
           height={400}

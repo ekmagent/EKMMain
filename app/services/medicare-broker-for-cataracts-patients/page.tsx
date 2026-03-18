@@ -111,7 +111,7 @@ export default function MedicareBrokerForCataractsPatients() {
           and Follow-Up Care
         </h1>
         <Image
-          src="/images/medicare-broker-for-cataracts-patients_photo.webp"
+          src="/images/medicare-broker-for-cataracts-patients.webp"
           alt="Medicare broker for cataracts patients"
           width={800}
           height={400}

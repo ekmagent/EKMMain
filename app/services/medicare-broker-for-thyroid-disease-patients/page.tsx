@@ -112,7 +112,7 @@ export default function MedicareBrokerThyroidDisease() {
             Medicare Broker for Thyroid Disease Patients — Plans Covering Lab Work, Meds, and Specialist Visits
           </h1>
           <Image
-            src="/images/medicare-broker-for-thyroid-disease-patients_photo.webp"
+            src="/images/medicare-broker-for-thyroid-disease-patients.webp"
             alt="Medicare broker for thyroid disease patients"
             width={800}
             height={400}

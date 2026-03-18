@@ -16,6 +16,8 @@
  *   node generate-page-images.js --dry-run         # print prompts, no API calls
  *   node generate-page-images.js --provider gemini # use Gemini instead of KIE.ai
  *   node generate-page-images.js --skip-da-gate    # skip DA check
+ *   node generate-page-images.js --assign-reuse    # batch copy source images to pages without their own
+ *   node generate-page-images.js --force           # regenerate even if already in manifest
  *
  * Required env vars (in scripts/.env):
  *   ANTHROPIC_API_KEY          — Claude for generating image prompts
@@ -53,6 +55,7 @@ const HERO_ONLY = args.includes("--hero-only");
 const DRY_RUN = args.includes("--dry-run");
 const FORCE = args.includes("--force");
 const SKIP_DA_GATE = args.includes("--skip-da-gate");
+const ASSIGN_REUSE = args.includes("--assign-reuse");
 const PROVIDER = args.includes("--provider")
   ? args[args.indexOf("--provider") + 1]
   : (process.env.IMAGE_PROVIDER || "kie");
@@ -60,6 +63,85 @@ const PROVIDER = args.includes("--provider")
 // Edward's background color palette
 const HERO_BG = "#1e40af";
 const SECTION_BGS = ["#f0f9ff", "#fefce8", "#f0fdf4", "#fdf2f8", "#f5f3ff", "#fff7ed"];
+
+// ---------------------------------------------------------------------------
+// Image reuse categories (Edward allows reuse with unique filenames + alt text)
+// Each category maps to source images from the original 18 pages.
+// Pages without their own generated image get a copy of their category's source.
+// ---------------------------------------------------------------------------
+const REUSE_CATEGORIES = {
+  "nj-location": {
+    pattern: /find-a-medicare-agent-in-|local-medicare-agents-in-|medicare-insurance-agents-in-|-nj-medicare-insurance-agents|medicare-in-monmouth|medicare-agents-near-me$|independent-medicare-agents-(?!near)/,
+    sources: [
+      "free-medicare-advocate-near-me_photo.webp",
+      "best-medicare-insurance-brokers-near-me_photo.webp",
+      "medicare-brokers-in-my-area_photo.webp",
+      "medicare-agent-that-helps-with-paperwork-near-me_photo.webp",
+    ],
+  },
+  "condition": {
+    pattern: /medicare-broker-for-(?!people-on-disability)|medicare-enrollment-help-|copd-patient|crohns|dialysis|whats-the-best-medicare-plan-for-someone-with-diabetes/,
+    sources: [
+      "best-medicare-plan-for-chronic-conditions_photo.webp",
+      "medicare-enrollment-help-for-people-with-diabetes_photo.webp",
+      "medicare-enrollment-help-for-people-with-lupus_photo.webp",
+      "medicare-broker-for-people-with-parkinsons_photo.webp",
+    ],
+  },
+  "plan-g-enroll": {
+    pattern: /enroll-in-plan-|quickest-way-to-enroll|quote-and-enroll|compare-and-enroll|same-day-medicare|medicare-supplement-open-enrollment/,
+    sources: [
+      "how-to-enroll-in-medicare-in-new-jersey_photo.webp",
+      "free-medicare-agent-that-helps-with-paperwork_photo.webp",
+    ],
+  },
+  "plan-g-rates": {
+    pattern: /plan-g-rates|plan-g-cost|how-much-is-plan-/,
+    sources: [
+      "best-and-cheapest-medicare-supplement_photo.webp",
+      "medicare-supplement-for-seniors-turning-65_photo.webp",
+    ],
+  },
+  "supplement-cost": {
+    pattern: /average-cost|how-much-does|exploring-medicare-supplemental|best-medicare-supplement-rates|how-can-i-save/,
+    sources: [
+      "best-and-cheapest-medicare-supplement_photo.webp",
+      "medicare-supplement-rate-jumped-why-and-what-can-i-do_photo.webp",
+    ],
+  },
+  "supplement-general": {
+    pattern: /medicare-supplement-(?!for-seniors|rate-jumped)|when-can-i-change|why-did-my-medicare|premium/,
+    sources: [
+      "what-time-of-year-can-you-switch-medicare-supplement-plans_photo.webp",
+      "medicare-supplement-for-seniors-turning-65_photo.webp",
+      "medicare-supplement-rate-jumped-why-and-what-can-i-do_photo.webp",
+    ],
+  },
+  "agent-general": {
+    pattern: /broker-near|medicare-advisor|medicare-agent(?!s-near-me$)|medicare-broker-no-cost|medicare-specialists|medicare-consultant|medicare-quotes|licensed-medicare|us-medicare|top-medicare|help-with-your|free-medicare-broker|independent-medicare-(?!advantage|supplement)|medicare-advise|medicare-insurance-agent(?!s-in)/,
+    sources: [
+      "free-medicare-advocate-near-me_photo.webp",
+      "independent-medicare-supplement-insurance-agents_photo.webp",
+      "independent-medicare-advantage-agents-near-me_photo.webp",
+      "medicare-advantage-agents-near-me_vector.webp",
+    ],
+  },
+};
+
+function categorizeSlug(slug) {
+  for (const [cat, cfg] of Object.entries(REUSE_CATEGORIES)) {
+    if (cfg.pattern.test(slug)) return cat;
+  }
+  return "agent-general"; // fallback
+}
+
+function pickSourceImage(slug, category) {
+  const sources = REUSE_CATEGORIES[category]?.sources || REUSE_CATEGORIES["agent-general"].sources;
+  // Deterministic rotation based on slug hash
+  let hash = 0;
+  for (let i = 0; i < slug.length; i++) hash = ((hash << 5) - hash + slug.charCodeAt(i)) | 0;
+  return sources[Math.abs(hash) % sources.length];
+}
 
 // ---------------------------------------------------------------------------
 // Google Sheets client (reused from build-compact-pages.js)
@@ -454,6 +536,67 @@ async function run() {
 
   if (blueprints.length === 0) {
     console.log("No approved blueprints found" + (SLUG_FILTER ? ` matching --slug ${SLUG_FILTER}` : ""));
+    return;
+  }
+
+  // --assign-reuse: batch copy source images to pages that don't have their own
+  if (ASSIGN_REUSE) {
+    console.log("=== Assign Reuse Mode ===\n");
+    const catCounts = {};
+    let copied = 0;
+    let skipped = 0;
+
+    for (const bp of blueprints) {
+      // Skip pages that already have images on disk
+      const hasImage = fs.readdirSync(IMAGE_DIR).some(
+        (f) => f.startsWith(bp.slug) && f.endsWith(".webp") && !f.endsWith(".svg")
+      );
+      if (hasImage) {
+        skipped++;
+        continue;
+      }
+
+      const cat = categorizeSlug(bp.slug);
+      catCounts[cat] = (catCounts[cat] || 0) + 1;
+      const sourceFile = pickSourceImage(bp.slug, cat);
+      const sourcePath = path.join(IMAGE_DIR, sourceFile);
+
+      if (!fs.existsSync(sourcePath)) {
+        console.log(`  SKIP ${bp.slug} — source not found: ${sourceFile}`);
+        continue;
+      }
+
+      // Copy source image with new keyword-based filename (Edward: unique filename per page)
+      const destFile = `${bp.slug}.webp`;
+      const destPath = path.join(IMAGE_DIR, destFile);
+      fs.copyFileSync(sourcePath, destPath);
+
+      // Update manifest
+      manifest.pages[bp.slug] = {
+        keyword: bp.keyword,
+        hero: {
+          candidates: [{ filename: destFile, style: "reuse", status: "approved" }],
+          selected: destFile,
+          alt: bp.keyword,
+          bg_hex: "#ffffff",
+          reused_from: sourceFile,
+        },
+        sections: [],
+      };
+
+      console.log(`  ${bp.slug} [${cat}] <- ${sourceFile}`);
+      copied++;
+    }
+
+    saveManifest(manifest);
+    console.log(`\n=== Summary ===`);
+    console.log(`  Copied: ${copied}`);
+    console.log(`  Skipped (already has image): ${skipped}`);
+    console.log(`  By category:`);
+    for (const [cat, count] of Object.entries(catCounts).sort((a, b) => b[1] - a[1])) {
+      console.log(`    ${cat}: ${count}`);
+    }
+    console.log(`\nManifest updated. Images ready for deployment.`);
     return;
   }
 

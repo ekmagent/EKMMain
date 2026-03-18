@@ -109,7 +109,7 @@ export default function MedicareBrokerForPTSDPatients() {
             Medicare Broker for PTSD Patients — Find Plans Covering Trauma-Focused Therapy and Medications
           </h1>
           <Image
-            src="/images/medicare-broker-for-ptsd-patients_photo.webp"
+            src="/images/medicare-broker-for-ptsd-patients.webp"
             alt="Medicare broker for PTSD patients"
             width={800}
             height={400}
