@@ -353,3 +353,12 @@ export default function HowMuchDoesBestMedicareSupplementalInsuranceCostPerMonth
             <Link
               href="/services/plan-g-vs-plan-n"
               className="text-blue-600 hover:underline"
+            >
+              Plan G vs Plan N
+            </Link>
+          </li>
+        </ul>
+      </section>
+    </main>
+  );
+}

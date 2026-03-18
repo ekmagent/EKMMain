@@ -37,7 +37,7 @@ const breadcrumbSchema = {
     {
       "@type": "ListItem",
       position: 3,
-      name: "Exploring Medigap Cost",
+      name: "Exploring Medicare Supplemental Insurance (Medigap) Cost",
       item: "https://www.medicareyourself.com/services/exploring-medicare-supplemental-insurance-medigap-cost",
     },
   ],
@@ -66,218 +66,266 @@ const faqs = [
   {
     question: "Do Medigap plans cover chiropractic?",
     answer:
-      "Medigap plans only cover costs that Original Medicare approves. Medicare Part B covers limited chiropractic care - specifically manual manipulation of the spine to correct a subluxation. If Medicare approves the chiropractic visit, your Medigap plan will help pay your share of that cost. Other chiropractic services not covered by Medicare will not be covered by Medigap either.",
+      "Original Medicare covers limited chiropractic care, specifically manual manipulation of the spine to correct subluxation. If Medicare approves the claim, your Medigap plan will cover its share of the cost (like the 20% Part B coinsurance). Medigap does not add chiropractic benefits beyond what Medicare covers.",
   },
   {
-    question: "Why do two companies charge different prices for the same Medigap plan letter?",
+    question:
+      "Why do two companies charge different prices for the same Medigap plan letter?",
     answer:
-      "Every Medigap plan with the same letter offers identical benefits regardless of which insurance company sells it. The only difference is the premium. Companies set their own rates based on their claims experience, operating costs, and pricing model (community-rated, issue-age-rated, or attained-age-rated). That is why comparing carriers is critical before you buy.",
+      "Every Medigap Plan G, for example, covers the exact same benefits regardless of the carrier. The only difference is the premium. Each insurance company sets its own rates based on its pricing model, claims experience, and administrative costs. That's why comparing the same letter across multiple carriers is essential.",
   },
   {
-    question: "When is the best time to buy a Medigap policy?",
+    question: "Can I switch Medigap plans after my open enrollment period?",
     answer:
-      "Your best window is during your 6-month Medigap Open Enrollment Period, which starts the month you turn 65 and are enrolled in Part B. During this period, companies cannot charge you more or deny you coverage for health reasons. My practice is to have clients apply up to 6 months before their Part B start date to lock in rates early.",
+      "You can apply to switch anytime, but outside your initial 6-month Medigap Open Enrollment Period, companies can require medical underwriting. If you have health conditions, you could be charged more or denied. Some states offer additional protections, and certain federal guaranteed issue events apply. Call us to check your specific situation.",
   },
   {
-    question: "Can my Medigap premium increase after I enroll?",
+    question: "What's the most popular Medigap plan in 2025-2026?",
     answer:
-      "Yes. All Medigap premiums can increase over time due to inflation and rising healthcare costs. However, how fast your premium rises depends on the pricing model your carrier uses. Community-rated and issue-age-rated plans tend to have more predictable increases than attained-age-rated plans, which raise your premium as you age.",
+      "Plan G is the most commonly purchased Medigap plan. It covers everything except the annual Part B deductible ($283 in 2026). Plan N is a popular lower-cost alternative, though it has small copays for some office and ER visits.",
   },
 ];
 
 export default function ExploringMedigapCostPage() {
   return (
-    <>
-      <SchemaMarkup schema={breadcrumbSchema} />
-      <SchemaMarkup schema={articleSchema} />
+    <main className="max-w-4xl mx-auto px-4 py-8">
+      <SchemaMarkup schema={[breadcrumbSchema, articleSchema]} />
 
-      <main className="max-w-4xl mx-auto px-4 py-8">
-        <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
-          <Link href="/" className="hover:underline">
-            Home
-          </Link>{" "}
-          &gt;{" "}
-          <Link href="/medicare-guides" className="hover:underline">
-            Medicare Guides
-          </Link>{" "}
-          &gt;{" "}
-          <span className="text-gray-700">Exploring Medigap Cost</span>
-        </nav>
+      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
+        <Link href="/" className="hover:underline">
+          Home
+        </Link>{" "}
+        &gt;{" "}
+        <Link href="/medicare-guides" className="hover:underline">
+          Medicare Guides
+        </Link>{" "}
+        &gt;{" "}
+        <span className="text-gray-700">
+          Exploring Medicare Supplemental Insurance (Medigap) Cost
+        </span>
+      </nav>
 
-        <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-          Exploring Medicare Supplemental Insurance (Medigap) Cost: Real Numbers and What Drives Them
-        </h1>
+      <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+        Exploring Medicare Supplemental Insurance (Medigap) Cost: Real Numbers
+        and What Drives Them
+      </h1>
 
-        <Image
-          src="/images/exploring-medicare-supplemental-insurance-medigap-cost.webp"
-          alt="exploring medicare supplemental insurance medigap cost"
-          width={800}
-          height={400}
-          className="rounded-lg mb-6 w-full"
-        />
+      <Image
+        src="/images/hub_exploring-medicare-supplemental-insurance-medigap-cost.webp"
+        alt="Exploring Medicare supplemental insurance Medigap cost"
+        width={800}
+        height={400}
+        className="w-full rounded-lg mb-6"
+        priority
+      />
 
-        <p className="text-lg text-gray-700 mb-2">
-          Exploring Medicare Supplemental Insurance (Medigap) cost is one of the smartest moves you can make before committing to a plan. Premiums vary widely - sometimes by $100/month or more for the exact same coverage - depending on your carrier, location, and age. Understanding what drives those differences puts real money back in your pocket.
+      <p className="text-lg text-gray-700 mb-2">
+        Exploring Medicare supplemental insurance (Medigap) cost is the single
+        smartest thing you can do before picking a plan. The starting premium
+        matters, but what that premium does over the next 10 or 15 years matters
+        more. Most people don't hear that until it's too late.
+      </p>
+      <p className="text-lg text-gray-700 mb-6">
+        I'm Anthony Orner, a licensed Medicare broker, and I'll break down the
+        real numbers so you can compare with confidence.
+      </p>
+
+      <PhoneCTA />
+
+      <section className="mt-10 mb-8">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          What Medigap premiums actually cover in 2025–2026
+        </h2>
+        <p className="text-gray-700 mb-2">
+          Medigap fills the gaps Original Medicare leaves behind. Depending on
+          the plan letter, that includes:
         </p>
+        <ul className="list-disc pl-6 text-gray-700 space-y-1">
+          <li>Part A deductible ($1,676 per benefit period in 2026)</li>
+          <li>Part B coinsurance (the 20% Medicare doesn't pay)</li>
+          <li>
+            Skilled nursing facility coinsurance ($209.50/day for days 21–100)
+          </li>
+          <li>Part B excess charges (Plan F and Plan G cover these)</li>
+          <li>Foreign travel emergency care (up to plan limits)</li>
+        </ul>
+        <p className="text-gray-700 mt-2">
+          You still pay your Part B premium ($202.90/month in 2026) separately.
+          Medigap is on top of that.
+        </p>
+      </section>
 
-        <PhoneCTA />
+      <section className="mb-8">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          Three pricing models that determine your rate
+        </h2>
+        <p className="text-gray-700 mb-2">
+          Every Medigap carrier uses one of three pricing methods. This is where
+          people get blindsided years down the road.
+        </p>
+        <ul className="list-disc pl-6 text-gray-700 space-y-2">
+          <li>
+            <strong>Community-rated:</strong> Everyone pays the same premium
+            regardless of age. Your rate won't climb just because you got older.
+          </li>
+          <li>
+            <strong>Issue-age-rated:</strong> Your premium is based on the age
+            you were when you bought the policy. Younger buyers lock in a lower
+            base rate.
+          </li>
+          <li>
+            <strong>Attained-age-rated:</strong> Starts low, then increases
+            automatically as you age. These look cheap at 65 but can stack up
+            fast by your mid-70s.
+          </li>
+        </ul>
+        <p className="text-gray-700 mt-2">
+          On top of the pricing model, carriers can file block rate increases
+          when claims in your pool rise. Age increases plus block increases in
+          the same year can mean 10–18% jumps. Ask about a carrier's rate
+          increase history before you sign.
+        </p>
+      </section>
 
-        <section className="mt-10">
-          <h2 className="text-2xl font-semibold text-gray-900 mb-3">
-            What Medigap premiums actually cover in 2025-2026
-          </h2>
-          <p className="text-gray-700 mb-2">
-            Medigap plans help pay the out-of-pocket costs Original Medicare leaves behind. That includes the Part A deductible ($1,676 per benefit period in 2026), the Part B deductible ($257/year), and the 20% coinsurance on Part B services.
-          </p>
-          <p className="text-gray-700">
-            Skilled nursing facility stays can cost $209.50/day for days 21-100. Plans like Plan G and Plan C cover that coinsurance in full. Your monthly premium is what you pay to avoid those unpredictable bills.
-          </p>
-        </section>
+      <section className="mb-8">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          Average Medigap costs by plan letter and state
+        </h2>
+        <p className="text-gray-700 mb-2">
+          Medigap premiums vary widely by state, plan letter, and carrier. Here
+          are general ranges for a 65-year-old in 2025:
+        </p>
+        <ul className="list-disc pl-6 text-gray-700 space-y-1">
+          <li>
+            <strong>Plan G:</strong> Roughly $120–$300/month depending on state
+            and carrier
+          </li>
+          <li>
+            <strong>Plan N:</strong> Typically 15–25% less than Plan G from the
+            same carrier
+          </li>
+          <li>
+            <strong>High-deductible Plan G:</strong> Often under $50/month, but
+            you pay the first $2,800 out of pocket annually
+          </li>
+        </ul>
+        <p className="text-gray-700 mt-2">
+          Rates vary by carrier. Two companies selling Plan G in the same zip
+          code can differ by $80/month or more. That's the same exact coverage
+          for a very different price.
+        </p>
+      </section>
 
-        <section className="mt-10">
-          <h2 className="text-2xl font-semibold text-gray-900 mb-3">
-            Three pricing models that determine your rate
-          </h2>
-          <p className="text-gray-700 mb-3">
-            Insurance companies use one of three methods to set your premium. This single factor can make a bigger difference over 20 years than the plan letter you choose.
-          </p>
-          <ul className="list-disc pl-6 text-gray-700 space-y-2">
-            <li>
-              <strong>Community-rated (no-age-rated):</strong> Everyone pays the same premium regardless of age. Your rate won't increase just because you get older.
-            </li>
-            <li>
-              <strong>Issue-age-rated:</strong> Your premium is based on your age when you buy the policy. Younger buyers get a lower starting rate that doesn't jump with birthdays.
-            </li>
-            <li>
-              <strong>Attained-age-rated:</strong> Your premium starts low but increases as you age. This is the most common model and usually the cheapest at 65 - but the most expensive by 80.
-            </li>
-          </ul>
-        </section>
+      <section className="mb-8">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          How to compare carriers and find the best value
+        </h2>
+        <p className="text-gray-700 mb-2">
+          Always compare the same plan letter across carriers. A Plan G is a
+          Plan G. The benefits are identical. The only difference is price and
+          long-term rate behavior.
+        </p>
+        <p className="text-gray-700">
+          Ask about the carrier's rate increase history over the past 5 years.
+          The cheapest premium today doesn't mean the cheapest plan over time.
+          Some carriers price aggressively low to attract new members, then
+          increase sharply once the block ages.
+        </p>
+      </section>
 
-        <section className="mt-10">
-          <h2 className="text-2xl font-semibold text-gray-900 mb-3">
-            Average Medigap costs by plan letter and state
-          </h2>
-          <p className="text-gray-700 mb-2">
-            Costs vary dramatically by location. A Plan G policy might run $120/month in one state and over $250/month in another. Here in New Jersey, rates tend to sit above the national average because of state regulations and healthcare costs.
-          </p>
-          <p className="text-gray-700 mb-2">
-            Plan G is the most popular plan sold today. Plan N comes in lower - typically $20-$50/month less - but you'll pay small copays at some office visits and the Part B deductible out of pocket.
-          </p>
-          <p className="text-gray-700">
-            Plan F is only available if you became eligible for Medicare before January 1, 2020. Rates for Plan F tend to climb faster because no new enrollees are joining the risk pool.
-          </p>
-        </section>
+      <section className="mb-8">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          When to lock in your rate
+        </h2>
+        <p className="text-gray-700 mb-2">
+          Your Medigap Open Enrollment Period starts the month you turn 65 and
+          are enrolled in Part B. It lasts 6 months. During this window, no
+          carrier can deny you or charge more for health conditions.
+        </p>
+        <p className="text-gray-700">
+          After that window closes, medical underwriting applies. If you've
+          developed conditions like diabetes or heart disease, you could face
+          higher rates or outright denial. Start comparing carriers at least 6
+          months before your Part B effective date so you don't feel rushed.
+        </p>
+      </section>
 
-        <section className="mt-10">
-          <h2 className="text-2xl font-semibold text-gray-900 mb-3">
-            How to compare carriers and find the best value
-          </h2>
-          <p className="text-gray-700 mb-2">
-            Every Plan G is identical in benefits no matter who sells it. The only difference is the premium. That means carrier comparison is pure math - same coverage, different price tag.
-          </p>
-          <p className="text-gray-700">
-            I recommend pulling quotes from at least four or five carriers in your ZIP code. A broker can do this for you at no cost. You pay the same premium whether you use a broker or go direct.
-          </p>
-        </section>
+      <section className="mb-8">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          Why working with a broker costs you nothing extra
+        </h2>
+        <p className="text-gray-700 mb-2">
+          Brokers are paid by the insurance company, not by you. Your premium is
+          the same whether you buy direct or through a broker. The difference is
+          you get someone who can pull rates from multiple carriers at once and
+          explain the pricing model each one uses.
+        </p>
+        <p className="text-gray-700">
+          I compare plans from all major carriers in your area. One call, real
+          numbers, no pressure.
+        </p>
+      </section>
 
-        <section className="mt-10">
-          <h2 className="text-2xl font-semibold text-gray-900 mb-3">
-            Why locking in your rate early matters
-          </h2>
-          <p className="text-gray-700 mb-2">
-            Your 6-month Medigap Open Enrollment Period starts the month you turn 65 and are enrolled in Part B. During this window, no insurer can deny you or charge more based on health history. Miss it, and you may face medical underwriting.
-          </p>
-          <p className="text-gray-700">
-            My practice is to have clients apply up to 6 months before their Part B start date. This locks in the rate early and protects against any premium increases before coverage kicks in. The sooner you lock in, the better your rate.
-          </p>
-        </section>
-
-        <section className="mt-10">
-          <h2 className="text-2xl font-semibold text-gray-900 mb-3">
-            Household and payment discounts worth asking about
-          </h2>
-          <p className="text-gray-700 mb-2">
-            Many carriers offer discounts you won't see on a rate sheet unless you ask. Common ones include household discounts (both spouses enrolled with the same carrier), annual-pay discounts, and electronic funds transfer (EFT) discounts.
-          </p>
-          <p className="text-gray-700">
-            These can knock 5-15% off your annual premium. When I run a comparison, I factor these in so you see the true out-of-pocket number.
-          </p>
-        </section>
-
-        <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 mt-10 text-center">
-          <p className="text-xl font-semibold text-blue-900 mb-2">
-            Ready to see your real Medigap rates?
-          </p>
-          <p className="text-gray-700 mb-4">
-            Call{" "}
-            <a
-              href="tel:8555591700"
-              className="text-blue-700 font-bold hover:underline"
-            >
-              855-559-1700
-            </a>{" "}
-            for a free, no-pressure comparison from a licensed broker.
-          </p>
-          <Link
-            href="/contact"
-            className="inline-block bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg hover:bg-blue-800 transition"
-          >
+      <div className="bg-blue-600 text-white rounded-lg p-8 text-center mb-10">
+        <p className="text-xl font-semibold mb-2">
+          Get a free Medigap rate comparison today.
+        </p>
+        <p className="text-lg mb-4">
+          Call{" "}
+          <a href="tel:855-559-1700" className="underline font-bold">
+            855-559-1700
+          </a>{" "}
+          or{" "}
+          <Link href="/get-quote" className="underline font-bold">
             Get a Free Quote
           </Link>
-        </div>
-
-        <section className="mt-12">
-          <FAQSection faqs={faqs} />
-        </section>
-
-        <section className="mt-12">
-          <h2 className="text-2xl font-semibold text-gray-900 mb-4">
-            Related resources
-          </h2>
-          <ul className="space-y-2">
-            <li>
-              <Link
-                href="/services/medicare-plan-g-cost"
-                className="text-blue-700 hover:underline"
-              >
-                Medicare Plan G Cost - What You'll Actually Pay
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/services/medicare-plan-n-vs-plan-g"
-                className="text-blue-700 hover:underline"
-              >
-                Medicare Plan N vs Plan G - Which Saves More?
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/services/medigap-open-enrollment-period"
-                className="text-blue-700 hover:underline"
-              >
-                Medigap Open Enrollment Period - Timing and Rules
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/services/medicare-supplement-plans-nj"
-                className="text-blue-700 hover:underline"
-              >
-                Medicare Supplement Plans in New Jersey
-              </Link>
-            </li>
-          </ul>
-        </section>
-
-        <p className="text-sm text-gray-500 mt-10">
-          Written by Anthony Orner, Licensed Medicare Broker |{" "}
-          <Link href="/about" className="hover:underline">
-            About the Author
-          </Link>
         </p>
-      </main>
-    </>
+        <p className="text-sm opacity-90">
+          No sign-up required. We compare carriers so you don't have to.
+        </p>
+      </div>
+
+      <FAQSection faqs={faqs} />
+
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-4">
+          Related resources
+        </h2>
+        <ul className="space-y-2">
+          <li>
+            <Link
+              href="/services/medicare-supplement-plan-g"
+              className="text-blue-600 hover:underline"
+            >
+              Medicare Supplement Plan G: Full Breakdown
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/services/medicare-supplement-plan-n"
+              className="text-blue-600 hover:underline"
+            >
+              Medicare Supplement Plan N: What It Covers and Costs
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/services/medigap-open-enrollment-period"
+              className="text-blue-600 hover:underline"
+            >
+              Medigap Open Enrollment Period: When and Why It Matters
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/services/medicare-supplement-vs-medicare-advantage"
+              className="text-blue-600 hover:underline"
+            >
+              Medicare Supplement vs. Medicare Advantage: How to Decide
+            </Link>
+          </li>
+        </ul>
+      </section>
+    </main>
   );
 }
