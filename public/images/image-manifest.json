@@ -1,0 +1,25 @@
+{
+  "pages": {
+    "free-medicare-advocate-near-me": {
+      "keyword": "free medicare advocate near me",
+      "hero": {
+        "candidates": [
+          {
+            "filename": "hub_free-medicare-advocate-near-me_vector.webp",
+            "style": "vector",
+            "status": "pending_review"
+          },
+          {
+            "filename": "hub_free-medicare-advocate-near-me_photo.webp",
+            "style": "photo",
+            "status": "pending_review"
+          }
+        ],
+        "selected": null,
+        "alt": "free medicare advocate near me",
+        "bg_hex": "#1e40af"
+      },
+      "sections": []
+    }
+  }
+}

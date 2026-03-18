@@ -198,9 +198,79 @@ The filename_base for sections should be the slug + 2-3 descriptive words separa
 }
 
 // ---------------------------------------------------------------------------
-// KIE.ai image generation (async: create task → poll → download)
+// KIE.ai callback server (nano-banana-2 is callback-only, no polling endpoint)
 // ---------------------------------------------------------------------------
-async function kieCreateTask(prompt, aspectRatio) {
+const http = require("http");
+let _callbackServer = null;
+let _tunnelUrl = null;
+const _pendingTasks = new Map(); // taskId → { resolve, reject, timer }
+
+async function ensureCallbackServer() {
+  if (_callbackServer) return _tunnelUrl;
+
+  // Start local HTTP server to receive KIE.ai callbacks
+  return new Promise((resolve, reject) => {
+    _callbackServer = http.createServer((req, res) => {
+      let body = "";
+      req.on("data", (chunk) => (body += chunk));
+      req.on("end", () => {
+        try {
+          const payload = JSON.parse(body);
+          const taskId = payload.data?.taskId;
+          const pending = _pendingTasks.get(taskId);
+          if (pending) {
+            clearTimeout(pending.timer);
+            _pendingTasks.delete(taskId);
+            if (payload.data?.state === "success") {
+              pending.resolve(payload);
+            } else {
+              pending.reject(new Error(`KIE task failed: ${payload.data?.failMsg || "unknown"}`));
+            }
+          }
+        } catch (e) {
+          // Ignore malformed callbacks
+        }
+        res.writeHead(200);
+        res.end("OK");
+      });
+    });
+
+    _callbackServer.listen(0, async () => {
+      const port = _callbackServer.address().port;
+      console.log(`  Callback server listening on port ${port}`);
+
+      try {
+        const localtunnel = require("localtunnel");
+        const tunnel = await localtunnel({ port });
+        _tunnelUrl = tunnel.url;
+        console.log(`  Tunnel URL: ${_tunnelUrl}`);
+        tunnel.on("close", () => { _tunnelUrl = null; });
+        resolve(_tunnelUrl);
+      } catch (err) {
+        _callbackServer.close();
+        _callbackServer = null;
+        reject(new Error(`Failed to create tunnel: ${err.message}`));
+      }
+    });
+  });
+}
+
+function shutdownCallbackServer() {
+  if (_callbackServer) {
+    _callbackServer.close();
+    _callbackServer = null;
+  }
+  // Reject any remaining pending tasks
+  for (const [taskId, pending] of _pendingTasks) {
+    clearTimeout(pending.timer);
+    pending.reject(new Error("Server shutting down"));
+  }
+  _pendingTasks.clear();
+}
+
+async function kieGenerateImage(prompt, aspectRatio) {
+  const callbackUrl = await ensureCallbackServer();
+
   const res = await fetch("https://api.kie.ai/api/v1/jobs/createTask", {
     method: "POST",
     headers: {
@@ -209,6 +279,7 @@ async function kieCreateTask(prompt, aspectRatio) {
     },
     body: JSON.stringify({
       model: "nano-banana-2",
+      callBackUrl: callbackUrl,
       input: {
         prompt,
         aspect_ratio: aspectRatio,
@@ -222,38 +293,28 @@ async function kieCreateTask(prompt, aspectRatio) {
   if (data.code !== 200) {
     throw new Error(`KIE create task failed: ${JSON.stringify(data)}`);
   }
-  return data.data.taskId;
-}
 
-async function kiePollTask(taskId, maxWaitMs = 120000) {
-  const start = Date.now();
-  while (Date.now() - start < maxWaitMs) {
-    await new Promise((r) => setTimeout(r, 5000));
+  const taskId = data.data.taskId;
+  console.log(`      KIE task: ${taskId} — waiting for callback...`);
 
-    const res = await fetch(
-      `https://api.kie.ai/api/v1/jobs/queryTask?taskId=${taskId}`,
-      { headers: { Authorization: `Bearer ${KIE_API_KEY}` } }
-    );
-    const data = await res.json();
-    const task = data.data || {};
+  // Wait for callback (up to 5 minutes)
+  const imageUrl = await new Promise((resolve, reject) => {
+    const timer = setTimeout(() => {
+      _pendingTasks.delete(taskId);
+      reject(new Error(`KIE task ${taskId} timed out after 300s`));
+    }, 300000);
 
-    if (task.state === "success") {
-      const result = JSON.parse(task.resultJson || "{}");
-      return result.resultUrls?.[0] || null;
-    }
-    if (task.state === "fail") {
-      throw new Error(`KIE task failed: ${task.failMsg || "unknown"}`);
-    }
-    // Still processing — keep polling
-  }
-  throw new Error(`KIE task ${taskId} timed out after ${maxWaitMs / 1000}s`);
-}
-
-async function kieGenerateImage(prompt, aspectRatio) {
-  const taskId = await kieCreateTask(prompt, aspectRatio);
-  console.log(`      KIE task: ${taskId} — polling...`);
-  const imageUrl = await kiePollTask(taskId);
-  if (!imageUrl) throw new Error("KIE returned no image URL");
+    _pendingTasks.set(taskId, {
+      resolve: (payload) => {
+        const result = JSON.parse(payload.data?.resultJson || "{}");
+        const url = result.resultUrls?.[0];
+        if (url) resolve(url);
+        else reject(new Error("KIE callback had no image URL"));
+      },
+      reject,
+      timer,
+    });
+  });
 
   // Download the image
   const imgRes = await fetch(imageUrl);
@@ -425,7 +486,7 @@ async function run() {
       const isHero = p.slot === "hero";
       const width = isHero ? 800 : 600;
       const height = isHero ? 400 : 400;
-      const aspectRatio = isHero ? "2:1" : "3:2";
+      const aspectRatio = isHero ? "16:9" : "3:2";
 
       const candidates = [];
 
@@ -511,7 +572,11 @@ async function run() {
   }
 }
 
-run().catch((err) => {
-  console.error(`Fatal: ${err.message}`);
-  process.exit(1);
-});
+run()
+  .catch((err) => {
+    console.error(`Fatal: ${err.message}`);
+    process.exit(1);
+  })
+  .finally(() => {
+    shutdownCallbackServer();
+  });
