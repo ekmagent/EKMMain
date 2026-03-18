@@ -31,7 +31,7 @@ const faqs = [
   {
     question: "What is the Medigap Open Enrollment Period when I turn 65?",
     answer:
-      "Your 6-month Medigap Open Enrollment Period begins the month you are both age 65 AND enrolled in Medicare Part B. During this window, no insurer can deny you a Medigap plan or charge you more due to health conditions — regardless of your medical history. However, because New Jersey has year-round guaranteed issue, NJ residents have this protection at any time, making the open enrollment period less critical here than in most states.",
+      "Your 6-month Medigap Open Enrollment Period begins the month you are both age 65 AND enrolled in Medicare Part B. During this window, no insurer can deny you a Medigap plan or charge you more due to health conditions — regardless of your medical history. After this 6-month window closes, insurers may use medical underwriting and could deny coverage or charge higher premiums based on health conditions. That is why enrolling during your open enrollment period is so important.",
   },
   {
     question: "What if I have employer insurance and am turning 65 in New Jersey?",
@@ -83,9 +83,9 @@ export default function Turning65NJPage() {
         <p className="text-xs text-gray-400 mb-6">Last reviewed: March 2026 · Sources: SSA.gov, CMS.gov, NJ DOBI</p>
 
         <div className="bg-green-50 border border-green-100 rounded-xl p-5 mb-8">
-          <p className="font-semibold text-gray-900 mb-1">Good news for NJ residents</p>
+          <p className="font-semibold text-gray-900 mb-1">Important for NJ residents turning 65</p>
           <p className="text-gray-700">
-            New Jersey&apos;s year-round guaranteed issue rules mean you cannot be denied a Medigap plan at any age due to health conditions — giving you more flexibility than beneficiaries in most other states.
+            Your 6-month Medigap Open Enrollment Period is your best opportunity to enroll in a Medigap plan with guaranteed acceptance and no medical underwriting. This window starts the month you turn 65 and are enrolled in Part B — don&apos;t miss it.
           </p>
         </div>
 
@@ -106,7 +106,7 @@ export default function Turning65NJPage() {
           <div className="border border-gray-200 rounded-xl p-5">
             <h3 className="font-bold text-gray-900 mb-2">1. Original Medicare or Medicare Advantage?</h3>
             <p className="text-gray-600 text-sm leading-relaxed">
-              Original Medicare (Parts A + B) with a Medigap supplement gives you maximum flexibility and predictable costs. Medicare Advantage bundles everything with lower premiums but network restrictions. In New Jersey, this decision is more reversible than in other states — you can switch back to Medigap at any time under NJ guaranteed issue rules.
+              Original Medicare (Parts A + B) with a Medigap supplement gives you maximum flexibility and predictable costs. Medicare Advantage bundles everything with lower premiums but network restrictions. This is one of the most important decisions you will make at 65, because switching from Medicare Advantage back to Original Medicare with a Medigap plan later may require medical underwriting.
             </p>
           </div>
           <div className="border border-gray-200 rounded-xl p-5">

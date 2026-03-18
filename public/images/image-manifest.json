@@ -5,18 +5,375 @@
       "hero": {
         "candidates": [
           {
-            "filename": "hub_free-medicare-advocate-near-me_vector.webp",
+            "filename": "free-medicare-advocate-near-me_vector.webp",
             "style": "vector",
             "status": "pending_review"
           },
           {
-            "filename": "hub_free-medicare-advocate-near-me_photo.webp",
+            "filename": "free-medicare-advocate-near-me_photo.webp",
+            "style": "photo",
+            "status": "approved"
+          }
+        ],
+        "selected": "free-medicare-advocate-near-me_photo.webp",
+        "alt": "free medicare advocate near me",
+        "bg_hex": "#1e40af"
+      },
+      "sections": []
+    },
+    "medicare-agent-that-helps-with-paperwork-near-me": {
+      "keyword": "medicare agent that helps with paperwork near me",
+      "hero": {
+        "candidates": [
+          {
+            "filename": "medicare-agent-that-helps-with-paperwork-near-me_vector.webp",
+            "style": "vector",
+            "status": "pending_review"
+          },
+          {
+            "filename": "medicare-agent-that-helps-with-paperwork-near-me_photo.webp",
+            "style": "photo",
+            "status": "approved"
+          }
+        ],
+        "selected": "medicare-agent-that-helps-with-paperwork-near-me_photo.webp",
+        "alt": "medicare agent that helps with paperwork near me",
+        "bg_hex": "#1e40af"
+      },
+      "sections": []
+    },
+    "medicare-enrollment-help-for-people-with-diabetes": {
+      "keyword": "medicare enrollment help for people with diabetes",
+      "hero": {
+        "candidates": [
+          {
+            "filename": "medicare-enrollment-help-for-people-with-diabetes_vector.webp",
+            "style": "vector",
+            "status": "pending_review"
+          },
+          {
+            "filename": "medicare-enrollment-help-for-people-with-diabetes_photo.webp",
+            "style": "photo",
+            "status": "approved"
+          }
+        ],
+        "selected": "medicare-enrollment-help-for-people-with-diabetes_photo.webp",
+        "alt": "medicare enrollment help for people with diabetes",
+        "bg_hex": "#1e40af"
+      },
+      "sections": []
+    },
+    "medicare-enrollment-help-for-people-with-lupus": {
+      "keyword": "medicare enrollment help for people with lupus",
+      "hero": {
+        "candidates": [
+          {
+            "filename": "medicare-enrollment-help-for-people-with-lupus_vector.webp",
+            "style": "vector",
+            "status": "pending_review"
+          },
+          {
+            "filename": "medicare-enrollment-help-for-people-with-lupus_photo.webp",
+            "style": "photo",
+            "status": "approved"
+          }
+        ],
+        "selected": "medicare-enrollment-help-for-people-with-lupus_photo.webp",
+        "alt": "medicare enrollment help for people with lupus",
+        "bg_hex": "#1e40af"
+      },
+      "sections": []
+    },
+    "best-medicare-insurance-brokers-near-me": {
+      "keyword": "best medicare insurance brokers near me",
+      "hero": {
+        "candidates": [
+          {
+            "filename": "best-medicare-insurance-brokers-near-me_vector.webp",
+            "style": "vector",
+            "status": "pending_review"
+          },
+          {
+            "filename": "best-medicare-insurance-brokers-near-me_photo.webp",
+            "style": "photo",
+            "status": "approved"
+          }
+        ],
+        "selected": "best-medicare-insurance-brokers-near-me_photo.webp",
+        "alt": "best medicare insurance brokers near me",
+        "bg_hex": "#1e40af"
+      },
+      "sections": []
+    },
+    "independent-medicare-supplement-insurance-agents": {
+      "keyword": "independent medicare supplement insurance agents",
+      "hero": {
+        "candidates": [
+          {
+            "filename": "independent-medicare-supplement-insurance-agents_vector.webp",
+            "style": "vector",
+            "status": "pending_review"
+          },
+          {
+            "filename": "independent-medicare-supplement-insurance-agents_photo.webp",
+            "style": "photo",
+            "status": "approved"
+          }
+        ],
+        "selected": "independent-medicare-supplement-insurance-agents_photo.webp",
+        "alt": "independent medicare supplement insurance agents",
+        "bg_hex": "#1e40af"
+      },
+      "sections": []
+    },
+    "independent-medicare-advantage-agents-near-me": {
+      "keyword": "independent medicare advantage agents near me",
+      "hero": {
+        "candidates": [
+          {
+            "filename": "independent-medicare-advantage-agents-near-me_vector.webp",
+            "style": "vector",
+            "status": "pending_review"
+          },
+          {
+            "filename": "independent-medicare-advantage-agents-near-me_photo.webp",
+            "style": "photo",
+            "status": "approved"
+          }
+        ],
+        "selected": "independent-medicare-advantage-agents-near-me_photo.webp",
+        "alt": "independent medicare advantage agents near me",
+        "bg_hex": "#1e40af"
+      },
+      "sections": []
+    },
+    "independent-medicare-supplement-insurance-agents-near-me": {
+      "keyword": "independent medicare supplement insurance agents near me",
+      "hero": {
+        "candidates": [
+          {
+            "filename": "independent-medicare-supplement-insurance-agents-near-me_vector.webp",
+            "style": "vector",
+            "status": "pending_review"
+          },
+          {
+            "filename": "independent-medicare-supplement-insurance-agents-near-me_photo.webp",
+            "style": "photo",
+            "status": "approved"
+          }
+        ],
+        "selected": "independent-medicare-supplement-insurance-agents-near-me_photo.webp",
+        "alt": "independent medicare supplement insurance agents near me",
+        "bg_hex": "#1e40af"
+      },
+      "sections": []
+    },
+    "medicare-brokers-in-my-area": {
+      "keyword": "medicare brokers in my area",
+      "hero": {
+        "candidates": [
+          {
+            "filename": "medicare-brokers-in-my-area_vector.webp",
+            "style": "vector",
+            "status": "pending_review"
+          },
+          {
+            "filename": "medicare-brokers-in-my-area_photo.webp",
+            "style": "photo",
+            "status": "approved"
+          }
+        ],
+        "selected": "medicare-brokers-in-my-area_photo.webp",
+        "alt": "medicare brokers in my area",
+        "bg_hex": "#1e40af"
+      },
+      "sections": []
+    },
+    "medicare-advantage-agents-near-me": {
+      "keyword": "medicare advantage agents near me",
+      "hero": {
+        "candidates": [
+          {
+            "filename": "medicare-advantage-agents-near-me_vector.webp",
+            "style": "vector",
+            "status": "approved"
+          },
+          {
+            "filename": "medicare-advantage-agents-near-me_photo.webp",
             "style": "photo",
             "status": "pending_review"
           }
         ],
-        "selected": null,
-        "alt": "free medicare advocate near me",
+        "selected": "medicare-advantage-agents-near-me_vector.webp",
+        "alt": "medicare advantage agents near me",
+        "bg_hex": "#1e40af"
+      },
+      "sections": []
+    },
+    "best-and-cheapest-medicare-supplement": {
+      "keyword": "need help finding best and cheapest medicare supplement",
+      "hero": {
+        "candidates": [
+          {
+            "filename": "best-and-cheapest-medicare-supplement_vector.webp",
+            "style": "vector",
+            "status": "pending_review"
+          },
+          {
+            "filename": "best-and-cheapest-medicare-supplement_photo.webp",
+            "style": "photo",
+            "status": "approved"
+          }
+        ],
+        "selected": "best-and-cheapest-medicare-supplement_photo.webp",
+        "alt": "need help finding best and cheapest medicare supplement",
+        "bg_hex": "#1e40af"
+      },
+      "sections": []
+    },
+    "best-medicare-plan-for-chronic-conditions": {
+      "keyword": "what's the best medicare plan for someone with chronic conditions",
+      "hero": {
+        "candidates": [
+          {
+            "filename": "best-medicare-plan-for-chronic-conditions_vector.webp",
+            "style": "vector",
+            "status": "pending_review"
+          },
+          {
+            "filename": "best-medicare-plan-for-chronic-conditions_photo.webp",
+            "style": "photo",
+            "status": "approved"
+          }
+        ],
+        "selected": "best-medicare-plan-for-chronic-conditions_photo.webp",
+        "alt": "what's the best medicare plan for someone with chronic conditions",
+        "bg_hex": "#1e40af"
+      },
+      "sections": []
+    },
+    "free-medicare-agent-that-helps-with-paperwork": {
+      "keyword": "free medicare agent that helps with paperwork",
+      "hero": {
+        "candidates": [
+          {
+            "filename": "free-medicare-agent-that-helps-with-paperwork_vector.webp",
+            "style": "vector",
+            "status": "pending_review"
+          },
+          {
+            "filename": "free-medicare-agent-that-helps-with-paperwork_photo.webp",
+            "style": "photo",
+            "status": "approved"
+          }
+        ],
+        "selected": "free-medicare-agent-that-helps-with-paperwork_photo.webp",
+        "alt": "free medicare agent that helps with paperwork",
+        "bg_hex": "#1e40af"
+      },
+      "sections": []
+    },
+    "medicare-supplement-for-seniors-turning-65": {
+      "keyword": "medicare supplement for seniors turning 65",
+      "hero": {
+        "candidates": [
+          {
+            "filename": "medicare-supplement-for-seniors-turning-65_vector.webp",
+            "style": "vector",
+            "status": "pending_review"
+          },
+          {
+            "filename": "medicare-supplement-for-seniors-turning-65_photo.webp",
+            "style": "photo",
+            "status": "approved"
+          }
+        ],
+        "selected": "medicare-supplement-for-seniors-turning-65_photo.webp",
+        "alt": "medicare supplement for seniors turning 65",
+        "bg_hex": "#1e40af"
+      },
+      "sections": []
+    },
+    "medicare-broker-for-people-with-parkinsons": {
+      "keyword": "medicare broker for people with parkinsons",
+      "hero": {
+        "candidates": [
+          {
+            "filename": "medicare-broker-for-people-with-parkinsons_vector.webp",
+            "style": "vector",
+            "status": "pending_review"
+          },
+          {
+            "filename": "medicare-broker-for-people-with-parkinsons_photo.webp",
+            "style": "photo",
+            "status": "approved"
+          }
+        ],
+        "selected": "medicare-broker-for-people-with-parkinsons_photo.webp",
+        "alt": "medicare broker for people with parkinsons",
+        "bg_hex": "#1e40af"
+      },
+      "sections": []
+    },
+    "medicare-supplement-rate-jumped-why-and-what-can-i-do": {
+      "keyword": "my medicare supplement rate just jumped — why, and what can i do?",
+      "hero": {
+        "candidates": [
+          {
+            "filename": "medicare-supplement-rate-jumped-why-and-what-can-i-do_vector.webp",
+            "style": "vector",
+            "status": "pending_review"
+          },
+          {
+            "filename": "medicare-supplement-rate-jumped-why-and-what-can-i-do_photo.webp",
+            "style": "photo",
+            "status": "approved"
+          }
+        ],
+        "selected": "medicare-supplement-rate-jumped-why-and-what-can-i-do_photo.webp",
+        "alt": "my medicare supplement rate just jumped — why, and what can i do?",
+        "bg_hex": "#1e40af"
+      },
+      "sections": []
+    },
+    "how-to-enroll-in-medicare-in-new-jersey": {
+      "keyword": "how to enroll in medicare in new jersey",
+      "hero": {
+        "candidates": [
+          {
+            "filename": "how-to-enroll-in-medicare-in-new-jersey_vector.webp",
+            "style": "vector",
+            "status": "pending_review"
+          },
+          {
+            "filename": "how-to-enroll-in-medicare-in-new-jersey_photo.webp",
+            "style": "photo",
+            "status": "approved"
+          }
+        ],
+        "selected": "how-to-enroll-in-medicare-in-new-jersey_photo.webp",
+        "alt": "how to enroll in medicare in new jersey",
+        "bg_hex": "#1e40af"
+      },
+      "sections": []
+    },
+    "what-time-of-year-can-you-switch-medicare-supplement-plans": {
+      "keyword": "what time of the year can you switch medicare supplement plans",
+      "hero": {
+        "candidates": [
+          {
+            "filename": "what-time-of-year-can-you-switch-medicare-supplement-plans_vector.webp",
+            "style": "vector",
+            "status": "pending_review"
+          },
+          {
+            "filename": "what-time-of-year-can-you-switch-medicare-supplement-plans_photo.webp",
+            "style": "photo",
+            "status": "approved"
+          }
+        ],
+        "selected": "what-time-of-year-can-you-switch-medicare-supplement-plans_photo.webp",
+        "alt": "what time of the year can you switch medicare supplement plans",
         "bg_hex": "#1e40af"
       },
       "sections": []

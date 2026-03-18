@@ -51,6 +51,7 @@ const args = process.argv.slice(2);
 const SLUG_FILTER = args.includes("--slug") ? args[args.indexOf("--slug") + 1] : null;
 const HERO_ONLY = args.includes("--hero-only");
 const DRY_RUN = args.includes("--dry-run");
+const FORCE = args.includes("--force");
 const SKIP_DA_GATE = args.includes("--skip-da-gate");
 const PROVIDER = args.includes("--provider")
   ? args[args.indexOf("--provider") + 1]
@@ -141,26 +142,38 @@ Generate image prompts for ${1 + sectionCount} image slots (1 hero + ${sectionCo
 For EACH slot, generate TWO prompts — one for each style:
 
 STYLE A — FLAT VECTOR ILLUSTRATION:
-- Clean, modern flat illustration style with simple shapes
-- Solid background color (specified per slot)
-- Medicare/insurance visual metaphors: shields, calculators, calendars, clipboards, stethoscopes, dollar signs
-- NO human faces, NO text/words/letters in the image
-- Professional, warm, approachable
-- Think: app icon illustration, not stock photo
+- Clean, modern flat illustration style with simple geometric shapes and bold colors
+- MUST be on a solid #ffffff WHITE background (the website page background is white — the vector must blend seamlessly)
+- Medicare/healthcare visual metaphors: protective shields, stethoscopes, insurance cards, calendars, pill bottles, clipboards, dollar signs, magnifying glasses
+- Use brand colors for the objects: navy blue (#1e40af), teal (#0d9488), gold (#f59e0b), sky blue (#93c5fd) — NOT for the background
+- NO human figures at all in vector style — objects and symbols only
+- NO text, words, letters, or numbers anywhere in the image
+- Professional, warm, approachable — think modern app icon or infographic element
+- Each image should feel UNIQUE to the keyword's specific topic (diabetes = glucose meter + shield, Parkinson's = brain + protective umbrella, etc.)
 
 STYLE B — PHOTOREALISTIC SCENE:
-- Real-world Medicare/healthcare setting, warm natural lighting
-- NO close-up faces (use over-shoulder shots, hands on desk, blurred subjects)
-- Solid or neutral background where possible
-- Professional, trustworthy feel
-- Think: senior reviewing paperwork, hands pointing at plan options, insurance documents on desk
-- NO text/words/letters in the image
+- Real-world Medicare/healthcare setting, warm natural lighting, soft focus
+- People are OK but use MEDIUM or WIDE shots (waist-up or wider). Show people naturally: sitting at a desk, reviewing documents together, in a consultation. Faces are fine at medium distance.
+- DO NOT use extreme close-ups of faces. DO NOT show people from behind with hair covering their face.
+- MUST be on a solid or very uniform background color (${HERO_BG} dark blue preferred). The website hero section bg will be set to match, so the image must blend seamlessly at the edges.
+- Professional, trustworthy, relatable — the viewer should instantly feel "this is about MY situation"
+- Vary the scenes: some with a senior and advisor at a desk, some with just hands reviewing paperwork, some with a couple looking at a laptop, some with medical items on a clean desk
+- NO text, words, letters, or numbers anywhere in the image
 
-RULES FOR ALL PROMPTS:
-- Each prompt must be 1-3 sentences, specific and descriptive
-- NEVER include text, words, letters, or numbers IN the image
-- Each prompt must be directly relevant to its H2 topic (or the keyword for hero)
-- Include the exact background hex color in each prompt
+QUALITY CONTROL — CRITICAL:
+- Inspect your prompts for anything that could produce "AI tells": detached limbs, melting hands, nonsensical objects, extra fingers, floating elements
+- Be SPECIFIC in your descriptions — vague prompts produce generic/weird results
+- The image must be DIRECTLY RELEVANT to the keyword. A searcher should see the image and instantly know they're in the right place.
+- For condition-specific pages (diabetes, lupus, Parkinson's): include a visual cue to that condition (glucose meter, butterfly rash awareness ribbon, brain scan)
+- For "agent near me" / broker pages: show consultation scenes, insurance documents, professional settings
+- For Medigap/supplement pages: show comparison charts (as objects, not readable text), plan documents, protective imagery
+
+BACKGROUND COLOR HACK (Edward Sturm method):
+The AI generator cannot do transparent backgrounds. Instead, we generate on a solid background color and match the website section's bg to the same hex. This creates a seamless, professional look.
+- Vector images: ALWAYS use #ffffff (white) — the page background is white
+- Photo images: use ${HERO_BG} (dark blue) or neutral backgrounds — photos look natural with their own lighting
+- Section images: use the specified pastel color per slot
+- State the EXACT background hex in every prompt
 
 Return ONLY a JSON array with this structure (no markdown fences):
 [
@@ -170,21 +183,24 @@ Return ONLY a JSON array with this structure (no markdown fences):
     "vector_prompt": "...",
     "photo_prompt": "...",
     "alt_text": "${blueprint.keyword}",
-    "filename_base": "hub_${blueprint.slug}"
+    "filename_base": "${blueprint.slug}"
   }${sectionCount > 0 ? `,
   {
     "slot": "section_0",
     "bg_hex": "${SECTION_BGS[0]}",
     "vector_prompt": "...",
     "photo_prompt": "...",
-    "alt_text": "descriptive text about what the image shows (NOT the keyword)",
+    "alt_text": "descriptive text about what the image shows, relevant to the section topic (NOT the exact keyword)",
     "filename_base": "${blueprint.slug}-descriptive-name"
   }` : ""}
 ]
 
 Generate exactly ${1 + sectionCount} objects. For sections, use these background colors in order: ${SECTION_BGS.slice(0, sectionCount).join(", ")}
-The alt_text for the hero MUST be the exact keyword. Section alt_text must be descriptive of the image, NOT the keyword.
-The filename_base for sections should be the slug + 2-3 descriptive words separated by hyphens.`;
+
+IMAGE SEO RULES:
+- Hero alt_text: MUST be the EXACT target keyword "${blueprint.keyword}" — no variations
+- Section alt_text: highly descriptive of what the image shows, related to the page content, but NEVER the exact keyword (over-optimization penalty)
+- filename_base: keyword with hyphens for hero, slug + 2-3 descriptive words for sections`;
 
   const msg = await anthropic.messages.create({
     model: "claude-sonnet-4-6",
@@ -206,7 +222,13 @@ let _tunnelUrl = null;
 const _pendingTasks = new Map(); // taskId → { resolve, reject, timer }
 
 async function ensureCallbackServer() {
-  if (_callbackServer) return _tunnelUrl;
+  if (_callbackServer && _tunnelUrl) return _tunnelUrl;
+  // Tunnel dropped — clean up and recreate
+  if (_callbackServer && !_tunnelUrl) {
+    _callbackServer.close();
+    _callbackServer = null;
+    console.log("  Reconnecting tunnel...");
+  }
 
   // Start local HTTP server to receive KIE.ai callbacks
   return new Promise((resolve, reject) => {
@@ -245,6 +267,11 @@ async function ensureCallbackServer() {
         _tunnelUrl = tunnel.url;
         console.log(`  Tunnel URL: ${_tunnelUrl}`);
         tunnel.on("close", () => { _tunnelUrl = null; });
+        tunnel.on("error", (err) => {
+          console.log(`  Tunnel error: ${err.message} — will reconnect on next image`);
+          _tunnelUrl = null;
+          try { tunnel.close(); } catch (_) {}
+        });
         resolve(_tunnelUrl);
       } catch (err) {
         _callbackServer.close();
@@ -441,7 +468,7 @@ async function run() {
 
     // Check if images already exist in manifest
     const existing = manifest.pages[bp.slug];
-    if (existing && existing.hero?.candidates?.length > 0) {
+    if (!FORCE && existing && existing.hero?.candidates?.length > 0) {
       const allSlotsExist = HERO_ONLY
         ? true
         : (existing.sections?.length >= Math.min(bp.h2s.length, 6));

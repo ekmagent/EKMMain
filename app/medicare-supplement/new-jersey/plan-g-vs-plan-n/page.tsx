@@ -41,7 +41,7 @@ const faqs = [
   {
     question: "Can I switch from Plan N to Plan G in New Jersey?",
     answer:
-      "Yes — and New Jersey's year-round guaranteed issue rules make this easier than in most states. You can switch from Plan N to Plan G at any time without being denied or charged more due to health conditions. This is a major advantage unique to New Jersey that most other states do not offer.",
+      "You can apply to switch from Plan N to Plan G at any time, but outside of your 6-month Medigap Open Enrollment Period, insurers may use medical underwriting. If you are in good health, switching is usually straightforward. If you have significant health conditions, it may be more difficult. That is why choosing the right plan during your initial enrollment window matters.",
   },
 ];
 
@@ -125,7 +125,7 @@ export default function PlanGvsPlanNPage() {
           In most states, Medigap premiums rise as you age (attained-age rating). In New Jersey, community rating means your premium is set by the insurer for everyone — it does not increase because you got older. This makes the Plan G vs Plan N decision less about short-term savings and more about which coverage model fits your healthcare usage.
         </p>
         <p className="text-gray-700 leading-relaxed mb-4">
-          It also means there is less urgency to lock in Plan G at 65. Because NJ also has year-round guaranteed issue, you can start with Plan N and switch to Plan G later without medical underwriting if your health changes.
+          However, keep in mind that switching from Plan N to Plan G after your 6-month Medigap Open Enrollment Period may require medical underwriting. If your health changes later, switching could be more difficult. Consider your long-term healthcare needs when choosing between Plan G and Plan N at 65.
         </p>
 
         <div className="my-8 bg-gray-900 text-white rounded-xl p-6 text-center">

@@ -31,7 +31,7 @@ const faqs = [
   {
     question: "Does Pennsylvania have guaranteed issue for Medigap?",
     answer:
-      "Pennsylvania does not have year-round guaranteed issue for Medigap like New Jersey does. In PA, you have guaranteed acceptance during your 6-month Medigap Open Enrollment Period — the 6 months starting the month you turn 65 and are enrolled in Part B. After that window closes, insurers can use medical underwriting and deny you coverage or charge higher premiums based on health conditions. Enrolling during your open enrollment period is critical in Pennsylvania.",
+      "Pennsylvania offers guaranteed acceptance during your 6-month Medigap Open Enrollment Period — the 6 months starting the month you turn 65 and are enrolled in Part B. After that window closes, insurers can use medical underwriting and deny you coverage or charge higher premiums based on health conditions. Enrolling during your open enrollment period is critical in Pennsylvania.",
   },
   {
     question: "What is attained-age rating and how does it affect PA Medigap premiums?",
@@ -41,7 +41,7 @@ const faqs = [
   {
     question: "Can I switch Medicare Supplement plans in Pennsylvania?",
     answer:
-      "After your Medigap Open Enrollment Period ends, switching plans in Pennsylvania requires passing medical underwriting. Insurers can ask about your health history and decline your application. If you are in good health, you may qualify for a lower-premium plan with a different carrier. If you have significant health conditions, you may be locked into your current plan. This is why choosing carefully at 65 matters more in PA than in states with guaranteed issue.",
+      "After your Medigap Open Enrollment Period ends, switching plans in Pennsylvania requires passing medical underwriting. Insurers can ask about your health history and decline your application. If you are in good health, you may qualify for a lower-premium plan with a different carrier. If you have significant health conditions, you may be locked into your current plan. This is why choosing carefully at 65 is so important.",
   },
   {
     question: "What does Medicare Supplement Plan G cover in Pennsylvania?",
@@ -123,7 +123,7 @@ export default function PennsylvaniaMedigapPage() {
         <div className="bg-amber-50 border border-amber-200 rounded-xl p-5 mb-8">
           <p className="font-semibold text-gray-900 mb-1">Important for Pennsylvania residents</p>
           <p className="text-gray-700 text-sm">
-            Pennsylvania does <strong>not</strong> have year-round guaranteed issue for Medigap. Your 6-month Open Enrollment Period at 65 is your best — and often only — chance to get coverage without medical underwriting. Missing this window can make Medigap difficult or impossible to obtain later if you develop health conditions.
+            Your 6-month Medigap Open Enrollment Period at 65 is your best — and often only — chance to get coverage without medical underwriting. After that window closes, insurers can use medical underwriting and may deny coverage based on health conditions. Do not miss this window.
           </p>
         </div>
 
@@ -169,9 +169,9 @@ export default function PennsylvaniaMedigapPage() {
             </p>
           </div>
           <div className="border border-gray-200 rounded-xl p-5">
-            <h3 className="font-bold text-gray-900 mb-2">No Year-Round Guaranteed Issue</h3>
+            <h3 className="font-bold text-gray-900 mb-2">Medical Underwriting After Open Enrollment</h3>
             <p className="text-gray-600 text-sm leading-relaxed">
-              After your 6-month Open Enrollment Period, PA insurers can underwrite your application. A cancer diagnosis, heart condition, diabetes with complications, or other serious conditions may result in denial or higher premiums. Unlike New Jersey, there is no state law protecting you after the federal open enrollment window closes.
+              After your 6-month Open Enrollment Period, PA insurers can underwrite your application. A cancer diagnosis, heart condition, diabetes with complications, or other serious conditions may result in denial or higher premiums. There is no state law protecting you after the federal open enrollment window closes.
             </p>
           </div>
           <div className="border border-gray-200 rounded-xl p-5">

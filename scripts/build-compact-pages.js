@@ -109,6 +109,136 @@ async function researchKeyword(keyword) {
 }
 
 // ---------------------------------------------------------------------------
+// Social listening — understand what real people say about this topic
+// Searches Reddit, patient forums, and community discussions to surface
+// actual frustrations, language, and lived experiences. This feeds the
+// empathy rules in the prompt with real human context.
+// ---------------------------------------------------------------------------
+async function researchSentiment(keyword) {
+  if (!SERPER_API_KEY) return "";
+
+  // Extract the core topic for sentiment research
+  // Strip common SEO modifiers to get the human concern
+  const topicWords = keyword
+    .toLowerCase()
+    .replace(/\b(medicare|insurance|agents?|brokers?|near me|in|nj|new jersey|best|top|find|local|free)\b/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+
+  // Build search queries based on what the keyword is about
+  const queries = [];
+
+  // Condition-specific keywords (diabetes, COPD, lupus, Parkinson's, etc.)
+  const conditions = [
+    // Autoimmune & rheumatic
+    "polymyalgia", "rheumatica", "lupus", "rheumatoid", "psoriatic",
+    "arthritis", "scleroderma", "sjogren", "vasculitis", "myositis",
+    "ankylosing spondylitis", "fibromyalgia", "multiple sclerosis", "ms ",
+    "crohn", "colitis", "celiac", "autoimmune",
+    // Chronic conditions common in Medicare population
+    "diabetes", "copd", "parkinson", "cancer", "heart", "cardiac",
+    "atrial fibrillation", "afib", "congestive heart failure", "chf",
+    "kidney", "dialysis", "chronic", "disability",
+    "dementia", "alzheimer", "neuropathy", "stroke",
+    "pulmonary", "respiratory", "osteoporosis", "macular degeneration",
+    // Mental health
+    "mental health", "depression", "anxiety", "ptsd",
+    // Surgical / mobility
+    "back pain", "spine", "joint replacement", "hip replacement",
+    "knee replacement", "amputation", "wheelchair",
+    // Sensory
+    "vision", "hearing", "dental",
+    // Other
+    "sleep apnea", "obesity", "lymphedema", "chronic pain",
+  ];
+  const kwLower = keyword.toLowerCase();
+  const matchedCondition = conditions.find((c) => kwLower.includes(c));
+
+  if (matchedCondition) {
+    queries.push(`"medicare" "${matchedCondition}" frustrating OR worried OR "nobody told me" OR "wish I knew" site:reddit.com`);
+    queries.push(`"medicare" "${matchedCondition}" coverage OR cost OR "out of pocket" site:reddit.com OR site:inspire.com`);
+  }
+
+  // Plan-type keywords (supplement, advantage, plan g, part d, etc.)
+  const planTypes = ["supplement", "medigap", "advantage", "plan g", "plan n", "plan f", "part d", "part b"];
+  const matchedPlan = planTypes.find((p) => kwLower.includes(p));
+
+  if (matchedPlan) {
+    queries.push(`"medicare ${matchedPlan}" "I wish" OR "mistake" OR "surprised" OR "didn't realize" site:reddit.com`);
+  }
+
+  // Local keywords — what people say about Medicare in that area
+  const njCities = keyword.match(/\b(cherry hill|camden|trenton|newark|jersey city|edison|brick|toms river|lakewood|paterson|clifton|hackensack|morristown|princeton|freehold|mount laurel|marlton|voorhees|haddonfield|vineland|atlantic city|egg harbor|bridgewater|piscataway|plainfield|belleville|burlington|fort lee|jackson|woodbridge|old bridge|hamilton|east brunswick)\b/i);
+  if (njCities) {
+    queries.push(`"medicare" "${njCities[1]}" OR "south jersey" OR "north jersey" hospital OR doctor OR "health system" site:reddit.com`);
+  }
+
+  // Turning 65 / new to Medicare sentiment
+  if (kwLower.includes("turning 65") || kwLower.includes("new to medicare") || kwLower.includes("enroll")) {
+    queries.push(`"turning 65" "medicare" overwhelmed OR confused OR "where do I start" OR "nobody explains" site:reddit.com`);
+  }
+
+  // Fallback: general Medicare frustration for the topic
+  if (queries.length === 0 && topicWords.length > 3) {
+    queries.push(`"medicare" "${topicWords}" frustrated OR confusing OR "real experience" site:reddit.com`);
+  }
+
+  if (queries.length === 0) return "";
+
+  const allSnippets = [];
+
+  // Run up to 2 queries to keep API costs reasonable
+  for (const q of queries.slice(0, 2)) {
+    try {
+      const res = await fetch("https://google.serper.dev/search", {
+        method: "POST",
+        headers: { "X-API-KEY": SERPER_API_KEY, "Content-Type": "application/json" },
+        body: JSON.stringify({ q, gl: "us", hl: "en", num: 5 }),
+      });
+      if (!res.ok) continue;
+      const data = await res.json();
+
+      const urls = (data.organic || [])
+        .slice(0, 3)
+        .map((r) => r.link)
+        .filter((u) => u && (u.includes("reddit.com") || u.includes("inspire.com") || u.includes("patient")));
+
+      for (const url of urls) {
+        try {
+          const pageRes = await fetch(url, {
+            signal: AbortSignal.timeout(6000),
+            headers: { "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko)" },
+          });
+          if (!pageRes.ok) continue;
+          const html = await pageRes.text();
+          const text = stripHtml(html).slice(0, 1500);
+          allSnippets.push(text);
+        } catch {
+          // skip unreachable
+        }
+      }
+    } catch {
+      // skip failed queries
+    }
+  }
+
+  if (allSnippets.length === 0) return "";
+
+  return `REAL PATIENT & CONSUMER VOICES (from public forums — synthesize patterns, do NOT quote individuals):
+
+${allSnippets.join("\n\n---\n\n")}
+
+Use these conversations to understand:
+- What language real people use when talking about this topic
+- What frustrations come up repeatedly
+- What they wish someone had told them
+- What makes them feel overwhelmed, dismissed, or confused
+- What daily realities they deal with that most insurance content ignores
+
+Synthesize these patterns into your copy. Do NOT copy forum language verbatim. Do NOT quote or reference specific users. Do NOT invent sentiment you did not find. Let these real voices inform the tone, specificity, and empathy of what you write.`;
+}
+
+// ---------------------------------------------------------------------------
 // Google Sheets helpers
 // ---------------------------------------------------------------------------
 async function getSheetsClient() {
@@ -277,11 +407,27 @@ function escapeForJsx(str) {
 // ---------------------------------------------------------------------------
 // Claude: generate full page content
 // ---------------------------------------------------------------------------
-async function generatePageContent(blueprint, competitorResearch, anthropic) {
+async function generatePageContent(blueprint, competitorResearch, sentimentResearch, anthropic) {
   const today = new Date().toISOString().split("T")[0];
 
-  const prompt = `You are building a Next.js page for medicareyourself.com (EasyKind Medicare).
+  // Look up image from manifest (or fall back to default naming)
+  const manifestPath = repoPath("public", "images", "image-manifest.json");
+  let imageFilename = `${blueprint.slug}_photo.webp`;
+  let heroBgHex = "#1e40af";
+  try {
+    const manifest = JSON.parse(fs.readFileSync(manifestPath, "utf8"));
+    const pageData = manifest.pages[blueprint.slug];
+    if (pageData?.hero?.selected) {
+      imageFilename = pageData.hero.selected;
+      heroBgHex = pageData.hero.bg_hex || heroBgHex;
+    }
+  } catch (_) { /* manifest not found — use defaults */ }
+
+  const prompt = `You are a senior healthcare copywriter building a Next.js page for medicareyourself.com (EasyKind Medicare).
 This is a Compact Keyword page: 400-500 words of high-quality, factual content targeting one bottom-of-funnel keyword.
+
+Your core standard: Impact = meaning / length.
+Say more with fewer words. Make every sentence earn its place. Cut anything that does not increase clarity, trust, specificity, or emotional resonance.
 
 BLUEPRINT FROM SHEET:
 - Keyword: "${blueprint.keyword}"
@@ -291,8 +437,15 @@ BLUEPRINT FROM SHEET:
 - H2s: ${blueprint.h2s.map((h) => `"${h}"`).join(", ")}
 - Meta Description: "${blueprint.metaDescription}"
 ${blueprint.contentNotes ? `\nCONTENT NOTES (use as inspiration and angle — do not copy verbatim):\n${blueprint.contentNotes}\n` : ""}
-
 ${competitorResearch ? competitorResearch + "\n\nUse the above competitor content to verify facts and identify content gaps. Do NOT copy — rewrite in our voice. Only include claims you can verify from these sources or from medicare.gov.\n" : ""}
+${sentimentResearch ? sentimentResearch + "\n" : "If no patient/consumer voice research is available, write with broad human empathy. Do not fake specificity you have not verified.\n"}
+BEFORE YOU WRITE — silently decide:
+1. Who is this page really talking to? (One person, one situation.)
+2. What are they worried about but not saying out loud?
+3. What everyday reality makes this topic emotional for them?
+4. What local details make this page feel like it belongs to this place?
+5. What specific next step would feel easiest for them?
+
 PAGE TITLE FORMULA:
 "${blueprint.keyword} | [Benefit or Strong CTA like 'Free' or 'No Sign-Up'] | MedicareYourself"
 Example: "Medicare Plan G NJ | Compare Rates Free | MedicareYourself"
@@ -329,17 +482,18 @@ EDWARD STURM'S COMPACT KEYWORD LANDING PAGE TEMPLATE — follow this EXACTLY:
    i. Related Resources links section (4 internal links to related pages)
 
 KEYWORD TYPE HANDLING:
-- "vs" or "alternative" keywords: Include a 2-column comparison table (simple HTML table with Tailwind)
+- "vs" or "alternative" keywords: Include a 2-column comparison table. Write fairly — help the reader understand real tradeoffs, not just push one option.
 - Fragment keywords (e.g. "plan g cost 65 year old nj"): Write naturally — do NOT force the exact fragment into sentences. Break it into natural language.
-- "for + plural modifier" keywords (e.g. "medicare for veterans"): Use the modifier group as the audience frame throughout
+- "for + plural modifier" keywords (e.g. "medicare for veterans"): Use the modifier group as the audience frame throughout. Write to their specific reality, not generic Medicare info with the group name dropped in.
 
 IMAGE SEO (Edward Sturm Module 06):
 - Every page MUST have a heading image using Next.js Image component
-- Image src: "/images/hub_${blueprint.slug}.webp"
-- Alt text for the heading image: the keyword (or a natural variant)
+- Image src: "/images/${imageFilename}"
+- FIRST IMAGE alt text: MUST be the EXACT target keyword "${blueprint.keyword}"
 - Place the Image right after the H1, before the intro paragraph
 - Image dimensions: width={800} height={400}
-- Example: <Image src="/images/hub_medicare-plan-g-cost.webp" alt="Medicare Plan G cost comparison" width={800} height={400} className="rounded-lg mb-6 w-full" />
+- Example: <Image src="/images/${imageFilename}" alt="${blueprint.keyword}" width={800} height={400} className="rounded-lg mb-6 w-full" />
+- Hero section background: set the hero section's background to bg-[${heroBgHex}] to seamlessly blend with the AI image
 
 IMPORTS (use exactly these):
 import type { Metadata } from "next";
@@ -349,17 +503,72 @@ import PhoneCTA from "@/components/PhoneCTA";
 import FAQSection from "@/components/FAQSection";
 import SchemaMarkup from "@/components/SchemaMarkup";
 
-VOICE & STYLE — follow these exactly or the content will be rejected:
-- Write as Anthony Orner, a working Medicare broker in NJ. Practical, direct, slightly conversational.
+VOICE & STYLE:
+Write as Anthony Orner, a working Medicare broker in NJ. The voice should feel like a sharp local Medicare advisor who explains complicated things clearly and talks like a real person.
+
+The voice is: warm, clear, grounded, plainspoken, calm but confident, slightly informal, respectful but never patronizing, helpful first and persuasive second.
+
+- Use contractions naturally. Write "you'll" not "you will" when speaking conversationally.
 - Use ACTIVE VOICE. "You pay 20% after the deductible" not "20% is paid by the beneficiary."
-- VARY sentence length. Mix short punchy sentences (under 10 words) with longer ones. Never three long sentences in a row.
-- Be SPECIFIC. Use actual dollar amounts, plan names (Plan G, Plan N), enrollment windows (Oct 15-Dec 7), and state rules. Vague = rejected.
-- NEVER use these words: delve, tapestry, realm, intricate, meticulous, multifaceted, nuanced, pivotal, seamless, robust, foster, garner, bolster, interplay, underscore, vibrant, embark, testament, transformative, game-changer, landscape (as metaphor), empower/empowering
-- NEVER use these phrases: "it's worth noting", "it is important to", "having said that", "that being said", "in conclusion", "in summary", "from a broader perspective", "navigate the complexities", "ensuring peace of mind", "comprehensive coverage for your needs"
+- VARY sentence length. Mix short punches (under 10 words) with slightly longer explanatory lines. Never three long sentences in a row.
+- Be SPECIFIC. Use actual dollar amounts, plan names (Plan G, Plan N), enrollment windows (Oct 15-Dec 7), and state rules. Replace vague reassurance with useful specificity. Vague = rejected.
+- Paragraph length: 2-3 sentences max. One-sentence paragraphs are fine and encouraged for emphasis.
+- Sound human, not polished to death.
+- Write to someone, not for someone. Even on a templated page, it should feel written for one person in one situation. Use "you" naturally.
+
+CUT THESE HABITS — instant rejection if found:
+- Throat-clearing intros ("When it comes to Medicare..." / "Are you looking for...")
+- Generic SEO openings that could apply to any city or topic
+- Obvious statements ("Medicare can be confusing" without immediately following with something useful)
+- Corporate jargon or empty empathy ("we understand your needs")
+- Fear-based pressure or hype language
+- NEVER use these words: delve, tapestry, realm, intricate, meticulous, multifaceted, nuanced, pivotal, seamless, robust, foster, garner, bolster, interplay, underscore, vibrant, embark, testament, transformative, game-changer, landscape (as metaphor), empower/empowering, comprehensive (when vague), journey
+- NEVER use these phrases: "it's worth noting", "it is important to", "having said that", "that being said", "in conclusion", "in summary", "from a broader perspective", "navigate the complexities", "ensuring peace of mind", "comprehensive coverage for your needs", "peace of mind"
 - Do NOT use em dashes. Use a regular dash or rewrite the sentence.
 - Do NOT open paragraphs with "Furthermore," "Moreover," or "Additionally,"
-- Paragraph length: 2-3 sentences max. One-sentence paragraphs are fine and encouraged for emphasis.
-- Write for a 65-year-old in New Jersey making a real financial decision, not for SEO robots.
+
+EMPATHY RULES (condition and concern pages):
+When the topic involves a chronic illness, disability, or ongoing health challenge, lead with lived reality — not clinical definitions.
+
+Focus on what daily life actually feels like:
+- planning around appointments and medication schedules
+- worrying about whether a drug will stay on formulary
+- fatigue, frustration with paperwork, fear of choosing wrong
+- feeling misunderstood by insurance systems
+- trying to stay independent while managing symptoms
+- balancing health with caregiving, work, or everyday life
+
+Do not sound clinical unless a medical fact is needed. Do not diagnose. Do not pity. Do not overdramatize. Do not assume everyone's situation is the same. Speak to the part of the reader that feels tired, unseen, or alone — without exploiting fear.
+
+If the topic is NOT condition-specific, skip this section entirely. Do not force empathy where it does not belong.
+
+LOCALIZATION RULES (local/city pages):
+If the keyword targets a specific city or region, make the copy feel truly local — like it could only belong to that place.
+
+Use real, verifiable local details:
+- Major hospital systems and health networks in the area (e.g., Virtua, Hackensack Meridian, RWJBarnabas, Cooper, Jefferson, AtlantiCare — use only what is actually in or near the target city)
+- Nearby communities and neighborhoods people identify with
+- Regional healthcare realities (e.g., proximity to Philadelphia providers for South Jersey, NYC-area networks for North Jersey)
+- Any relevant local Medicare enrollment patterns or common plan choices for the area
+
+CRITICAL localization rules:
+- Do NOT hallucinate hospitals, systems, or doctor networks. Only reference health systems you are confident serve that area.
+- Do NOT stuff the city name. Use it 2-3 times naturally, plus nearby town names for geographic context.
+- Do NOT create thin copy that could belong anywhere. Each local page must contain at least one detail that is specific and verifiable to that location.
+- If you are unsure whether a health system serves the area, leave it out rather than guess.
+
+If the keyword is NOT location-specific, skip this section entirely.
+
+CTA RULES:
+The CTA should feel like relief, not pressure. The reader should feel understood, less alone, more informed, and safer taking the next step.
+
+Good CTA energy:
+- "Talk through your options with a local licensed Medicare agent"
+- "Get help comparing plans — no cost, no obligation"
+- "See which plans fit your doctors, prescriptions, and budget"
+- "Ask questions before you enroll"
+
+Do not force urgency unless the enrollment window genuinely demands it. Do not make the CTA bigger than the trust you've earned in the copy. Do not sound pushy.
 
 CONTENT RULES:
 - 400-500 words of body content (not counting code/markup)
@@ -368,14 +577,17 @@ CONTENT RULES:
 - Do NOT mention competitor brand names
 - Simple, clean layout — no multi-column grids, no sidebar CTAs, no fancy colored sections
 
+TRUST RULES:
+Be careful with claims. Do not overpromise. Do not imply universal acceptance, guaranteed savings, or guaranteed coverage unless those facts are verified. Trust is more important than hype.
+
 MEDIGAP/MEDICARE SUPPLEMENT MESSAGING (new-to-Medicare pages only):
 - If the page targets someone new to Medicare (turning 65, first getting Part B) AND the topic is Medicare Supplement/Medigap (NOT Medicare Advantage), use this angle:
   Anthony's practice is to have clients apply for their Medigap plan up to 6 months BEFORE their Part B start date. This locks in the rate early — protecting them from premium increases before coverage begins. Frame it as urgency: "the sooner you lock in, the better your rate." This is the primary conversion angle for new-to-Medicare Medigap pages.
 - Never apply this framing to Medicare Advantage pages — it does not apply there.
 
 VERIFIED 2026 MEDICARE FACTS — use only these, do not invent others:
-- Part B premium: $185/month
-- Part B deductible: $257/year
+- Part B premium: $202.90/month
+- Part B deductible: $283/year
 - Part A deductible: $1,676 per benefit period
 - Medicare Advantage / Part D Open Enrollment: October 15 – December 7
 - Medigap Open Enrollment Period: 6 months starting the month you are 65+ AND enrolled in Part B — guaranteed issue, no health questions, no higher premiums
@@ -395,6 +607,11 @@ MEDICARE FACTS — DO NOT INVENT:
 - Do NOT force the keyword into H2 subheadings — H2s describe the section topic naturally
 - Each page must be UNIQUE — do not clone the same intro/CTA/structure word-for-word across pages
 - Always include the heading image as shown in IMAGE SEO above
+
+AFTER WRITING — do a compression pass:
+- Cut filler. Tighten sentences. Shorten wherever possible.
+- Keep or increase meaning while reducing length.
+- Ask: Does this sound like a real person wrote it? Is it written to one person? Did every sentence earn its place? Does the CTA feel easy and human?
 
 CRITICAL: Output ONLY the complete .tsx file content. No markdown fences, no explanation.
 Start with: import type { Metadata } from "next";`;
@@ -747,15 +964,22 @@ async function main() {
     console.log(`  Keyword: "${bp.keyword}"`);
     console.log(`  Title: ${bp.title}`);
 
-    // Research competitor content
+    // Research competitor content + social listening
     console.log(`  Researching competitor content...`);
     const research = await researchKeyword(bp.keyword);
+    console.log(`  Researching patient/consumer sentiment...`);
+    const sentiment = await researchSentiment(bp.keyword);
+    if (sentiment) {
+      console.log(`  Found real patient/consumer voices — feeding into copy.`);
+    } else {
+      console.log(`  No sentiment data found — writing with broad empathy.`);
+    }
 
     // Generate page
     console.log(`  Generating page with Claude Opus...`);
     let pageContent;
     try {
-      pageContent = await generatePageContent(bp, research, anthropic);
+      pageContent = await generatePageContent(bp, research, sentiment, anthropic);
     } catch (err) {
       console.error(`  ERROR: Claude API failed: ${err.message}`);
       fs.appendFileSync(LOG_FILE, [today, bp.keyword, bp.slug, "error", err.message].join("\t") + "\n");
@@ -794,25 +1018,21 @@ async function main() {
     fs.writeFileSync(pageFile, pageContent, "utf8");
     console.log(`  Written: app/services/${bp.slug}/page.tsx`);
 
-    // Edward Module 06 — Image SEO: create placeholder image if missing
-    // File naming convention: hub_{slug}.webp (subfolder_slug per Edward)
+    // Edward Module 06 — Image SEO: check manifest for AI-generated image
     const imgDir = repoPath("public", "images");
-    const imgFile = path.join(imgDir, `hub_${bp.slug}.webp`);
-    if (!fs.existsSync(imgFile)) {
-      // Create a minimal placeholder SVG (to be replaced with real branded WebP)
-      // This ensures the page renders without broken images during development
-      const svgPlaceholder = `<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
-  <rect width="800" height="400" fill="#1e40af"/>
-  <text x="400" y="180" text-anchor="middle" fill="white" font-family="sans-serif" font-size="24" font-weight="bold">MedicareYourself</text>
-  <text x="400" y="220" text-anchor="middle" fill="#93c5fd" font-family="sans-serif" font-size="16">${bp.keyword.replace(/&/g, "&amp;").replace(/</g, "&lt;")}</text>
-</svg>`;
-      fs.mkdirSync(imgDir, { recursive: true });
-      // Write as SVG for now — log that WebP conversion is needed
-      const svgFile = imgFile.replace(".webp", ".svg");
-      fs.writeFileSync(svgFile, svgPlaceholder, "utf8");
-      console.log(`  Image placeholder: public/images/hub_${bp.slug}.svg (convert to WebP)`);
+    const manifestPath = path.join(imgDir, "image-manifest.json");
+    let heroImage = null;
+    try {
+      const manifest = JSON.parse(fs.readFileSync(manifestPath, "utf8"));
+      heroImage = manifest.pages[bp.slug]?.hero?.selected;
+    } catch (_) {}
+
+    if (heroImage && fs.existsSync(path.join(imgDir, heroImage))) {
+      console.log(`  Image (from manifest): ${heroImage}`);
     } else {
-      console.log(`  Image exists: public/images/hub_${bp.slug}.webp`);
+      // No manifest entry — queue for image generation
+      console.log(`  WARNING: No AI image found for ${bp.slug}`);
+      console.log(`    Run: node generate-page-images.js --slug ${bp.slug} --hero-only --skip-da-gate`);
     }
 
     // -----------------------------------------------------------------------

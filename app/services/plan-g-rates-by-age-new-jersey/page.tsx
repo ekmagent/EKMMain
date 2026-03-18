@@ -31,7 +31,7 @@ const faqs = [
   {
     question: "Can I switch Plan G carriers at age 70 in New Jersey?",
     answer:
-      "Yes. In New Jersey, you can switch Medigap carriers at any time — NJ is one of the few states with guaranteed-issue rights year-round for existing Medigap policyholders. You may need to pass medical underwriting with some carriers, but you cannot be denied coverage entirely if you already have a Medigap plan in NJ.",
+      "Yes. You can apply to switch Medigap carriers at any time of year — there is no annual enrollment period for Medigap. Outside your initial 6-month Open Enrollment Period, carriers may use medical underwriting. If you are in good health, switching is usually straightforward. Call to check which carriers are accepting applications in your county.",
   },
   {
     question: "Why are Plan G rates different in different NJ counties?",
@@ -154,10 +154,10 @@ export default function PlanGRatesByAgeNJPage() {
 
         <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">How to Enroll in Plan G at Any Age</h2>
         <p className="text-gray-700 mb-4">
-          If you are within your 6-month Medigap Open Enrollment window (starts when you turn 65 and enroll in Part B), you can enroll in any Plan G policy with no health questions. Outside that window, most carriers require medical underwriting — but New Jersey offers stronger protections than most states.
+          If you are within your 6-month Medigap Open Enrollment window (starts when you turn 65 and enroll in Part B), you can enroll in any Plan G policy with no health questions. Outside that window, most carriers require medical underwriting.
         </p>
         <p className="text-gray-700 mb-4">
-          In NJ, if you already have a Medigap policy, you can switch to another carrier&apos;s Plan G with guaranteed-issue rights. This means even at age 70, you can shop for a lower rate without being denied. Call to check which carriers are accepting applications in your county.
+          If you are in good health, switching carriers at any age is usually straightforward — even at 70. I pre-screen your health history before submitting any application so you know where you stand. Call to check which carriers are accepting applications in your county.
         </p>
 
         <div className="my-8 bg-blue-700 text-white rounded-xl p-6 text-center">

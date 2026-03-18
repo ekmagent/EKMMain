@@ -21,12 +21,12 @@ const faqs = [
   {
     question: "Is Medigap or Medicare Advantage better in New Jersey?",
     answer:
-      "It depends on your priorities. Medigap (Medicare Supplement) is better if you want the freedom to see any doctor in the US who accepts Medicare, predictable costs, and no network restrictions. Medicare Advantage is better if you want a lower monthly premium, don't mind a network, and want extra benefits like dental and vision bundled in. In New Jersey specifically, Medigap's community rating and guaranteed issue rules make it unusually accessible compared to other states.",
+      "It depends on your priorities. Medigap (Medicare Supplement) is better if you want the freedom to see any doctor in the US who accepts Medicare, predictable costs, and no network restrictions. Medicare Advantage is better if you want a lower monthly premium, don't mind a network, and want extra benefits like dental and vision bundled in. New Jersey uses community rating for Medigap, which means your premium is not based on your age — a benefit compared to attained-age states.",
   },
   {
     question: "Can I switch from Medicare Advantage back to Medigap in New Jersey?",
     answer:
-      "Yes — and New Jersey makes this easier than almost any other state. Under NJ's year-round guaranteed issue rules, you can switch back to a Medigap plan at any time without being subject to medical underwriting. This is a critical difference from most states, where switching back to Medigap after Medicare Advantage can be difficult or impossible if you have health conditions.",
+      "You can switch back to Original Medicare during the Annual Enrollment Period (October 15 – December 7) or the Medicare Advantage Open Enrollment Period (January 1 – March 31). However, if you want to add a Medigap plan after switching back, you may be subject to medical underwriting if your 6-month Medigap Open Enrollment Period has passed. This is why the initial decision between Medigap and Medicare Advantage at 65 is so important.",
   },
   {
     question: "Do Medicare Advantage plans cover all NJ hospitals?",
@@ -76,7 +76,7 @@ export default function MedigapVsMAPage() {
         <div className="bg-blue-50 border border-blue-100 rounded-xl p-5 mb-8">
           <p className="font-semibold text-gray-900 mb-1">The bottom line</p>
           <p className="text-gray-700">
-            <strong>Medigap gives you freedom. Medicare Advantage gives you extras at a lower upfront cost.</strong> In New Jersey, Medigap is unusually accessible thanks to community rating and year-round guaranteed issue — protections most other states do not have.
+            <strong>Medigap gives you freedom. Medicare Advantage gives you extras at a lower upfront cost.</strong> In New Jersey, Medigap uses community rating — your premium is not based on your age, which is an advantage compared to attained-age states. Your 6-month Medigap Open Enrollment Period at 65 is your best window to enroll with guaranteed acceptance.
           </p>
         </div>
 
@@ -101,7 +101,7 @@ export default function MedigapVsMAPage() {
                 ["Drug coverage (Part D)", "Separate plan required", "Often bundled in"],
                 ["Predictability of costs", "Very high", "Varies by usage"],
                 ["Out-of-state coverage", "Any Medicare provider", "Emergency only (HMO)"],
-                ["NJ switching flexibility", "Year-round guaranteed issue", "OEP Jan 1–Mar 31 only"],
+                ["Switching flexibility", "Can apply anytime (underwriting may apply)", "AEP Oct 15–Dec 7 or OEP Jan 1–Mar 31"],
               ].map(([feature, medigap, ma], i) => (
                 <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
                   <td className="px-4 py-3 font-medium text-gray-900 border-b border-gray-100">{feature}</td>

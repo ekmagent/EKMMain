@@ -41,7 +41,7 @@ const faqs = [
   {
     question: "Can I be denied a Medigap plan?",
     answer:
-      "During your Medigap Open Enrollment Period (6 months after you enroll in Part B at 65), no. After that, in most states insurers can deny you based on health conditions. However, New Jersey has year-round guaranteed issue — insurers cannot deny you a Medigap plan at any time, regardless of health status. This is one of the most valuable Medicare-related consumer protections in the country.",
+      "During your Medigap Open Enrollment Period (6 months after you enroll in Part B at 65), no — insurers cannot deny you or charge more based on health conditions. After that window closes, insurers can use medical underwriting and may deny you based on health conditions. That is why enrolling during your 6-month Open Enrollment Period is so important.",
   },
 ];
 

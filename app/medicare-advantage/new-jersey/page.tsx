@@ -51,7 +51,7 @@ const faqs = [
   {
     question: "Can I switch from Medicare Advantage back to Original Medicare in New Jersey?",
     answer:
-      "Yes. You can switch back to Original Medicare during the Annual Enrollment Period (October 15 – December 7) or the Medicare Advantage Open Enrollment Period (January 1 – March 31). However, if you want to add a Medigap plan after switching back, New Jersey's guaranteed issue rules give you more flexibility than most states — you cannot be denied a Medigap plan regardless of when you switch.",
+      "Yes. You can switch back to Original Medicare during the Annual Enrollment Period (October 15 – December 7) or the Medicare Advantage Open Enrollment Period (January 1 – March 31). However, if you want to add a Medigap plan after switching back and your 6-month Medigap Open Enrollment Period has passed, insurers may use medical underwriting and could deny coverage based on health conditions. This is why the initial choice between Medicare Advantage and Medigap at 65 is so important.",
   },
 ];
 
@@ -83,8 +83,8 @@ export default function NJMedicareAdvantagePage() {
             <p className="text-gray-600 leading-relaxed mb-6">
               Medicare Advantage plans replace Original Medicare. You get all Part A and Part B
               benefits through the private insurer, often with extras like dental and vision — but
-              you must use in-network providers. New Jersey&apos;s unique guaranteed issue rules mean
-              switching back to a Medigap plan is easier here than in most states.
+              you must use in-network providers. If you later want to switch back to Original Medicare
+              with a Medigap plan, medical underwriting may apply if your initial Open Enrollment Period has passed.
             </p>
             <p className="text-xs text-gray-400 mb-6">
               Last reviewed: March 2026 · Plan availability varies by county
