@@ -81,7 +81,7 @@ export default function MedicarePartsPage() {
       name: "Prescription Drug Coverage",
       color: "orange",
       covers: ["Prescription medications on the plan's formulary", "Retail and mail-order pharmacy coverage"],
-      cost: "Averages $30–$60/month depending on plan. $2,000 annual out-of-pocket cap on drugs in 2026 (Inflation Reduction Act).",
+      cost: "Averages $30–$60/month depending on plan. $2,100 annual out-of-pocket cap on drugs in 2026 (Inflation Reduction Act).",
       doesNotCover: "Drugs not on the plan formulary (though exceptions process exists)",
     },
   ];

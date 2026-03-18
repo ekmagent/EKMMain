@@ -9,12 +9,12 @@ export const metadata: Metadata = {
   title:
     "independent medicare insurance agents | Free Plan Comparison | MedicareYourself",
   description:
-    "Independent Medicare insurance agents compare plans from dozens of carriers at no cost. See how Anthony Orner finds lower rates. Free consultation.",
+    "Independent Medicare insurance agents compare plans from dozens of carriers at no cost to you. See how Anthony Orner finds lower rates. Free consultation.",
   openGraph: {
     title:
       "independent medicare insurance agents | Free Plan Comparison | MedicareYourself",
     description:
-      "Independent Medicare insurance agents compare plans from dozens of carriers at no cost. See how Anthony Orner finds lower rates. Free consultation.",
+      "Independent Medicare insurance agents compare plans from dozens of carriers at no cost to you. See how Anthony Orner finds lower rates. Free consultation.",
   },
 };
 
@@ -66,23 +66,23 @@ const faqs = [
   {
     question: "What is an independent Medicare agent?",
     answer:
-      "An independent Medicare agent is a licensed broker who isn't tied to a single insurance company. They can compare plans from dozens of carriers - Medicare Supplement, Medicare Advantage, and Part D - to find the best fit for your situation. Their services are free to you because insurance carriers pay their commissions.",
+      "An independent Medicare agent is licensed to sell plans from multiple insurance carriers, not just one company. This means they can compare premiums, networks, and drug coverage across dozens of options to find what fits your situation best. Their services are free to you because carriers pay the commission.",
   },
   {
     question:
-      "How is an independent agent different from a captive agent?",
+      "How is an independent agent different from a captive insurance agent?",
     answer:
-      "A captive agent works for one insurance company and can only show you that company's plans. An independent agent represents multiple carriers, so they can compare premiums, networks, and benefits side by side. This means you see real options instead of a single sales pitch.",
+      "A captive agent works for a single insurance company and can only offer that company's plans. An independent agent represents many carriers, so they can show you side-by-side comparisons and recommend the plan with the best value for your specific medications, doctors, and budget.",
   },
   {
-    question: "Do independent Medicare agents charge a fee?",
+    question: "Do I pay more if I use an independent Medicare agent?",
     answer:
-      "No. Independent Medicare agents are paid by insurance carriers, not by you. Your premium is the same whether you enroll through an agent or directly with the carrier. There's no markup and no hidden cost.",
+      "No. Plan premiums are set by the insurance carrier and approved by CMS. You pay the exact same rate whether you enroll directly, through a captive agent, or through an independent agent. There's no markup or hidden fee.",
   },
   {
-    question: "How do I know if a Medicare agent is licensed?",
+    question: "How do I know if a Medicare agent is properly licensed?",
     answer:
-      "Ask for their National Producer Number (NPN) and verify it through your state's Department of Banking and Insurance. A legitimate agent will have no problem sharing this. You can also check that they're certified with the carriers they represent.",
+      "Ask for their National Producer Number (NPN) and verify it through your state's Department of Insurance website. A legitimate agent will also be AHIP-certified annually and willing to share their credentials upfront.",
   },
 ];
 
@@ -92,178 +92,180 @@ export default function IndependentMedicareInsuranceAgentsPage() {
       <SchemaMarkup schema={breadcrumbSchema} />
       <SchemaMarkup schema={articleSchema} />
 
-      <main className="max-w-4xl mx-auto px-4 py-8">
-        <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
-          <Link href="/" className="hover:underline">
-            Home
-          </Link>{" "}
-          &gt;{" "}
-          <Link href="/medicare-guides" className="hover:underline">
-            Medicare Guides
-          </Link>{" "}
-          &gt;{" "}
-          <span className="text-gray-700">
-            Independent Medicare Insurance Agents
-          </span>
-        </nav>
+      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-4">
+        <Link href="/" className="hover:underline">
+          Home
+        </Link>{" "}
+        &gt;{" "}
+        <Link href="/medicare-guides" className="hover:underline">
+          Medicare Guides
+        </Link>{" "}
+        &gt;{" "}
+        <span className="text-gray-700">Independent Medicare Insurance Agents</span>
+      </nav>
 
-        <h1 className="text-3xl md:text-4xl font-bold mb-4">
-          Independent Medicare Insurance Agents: Why Working With One Saves You Money
-        </h1>
+      <h1 className="text-3xl md:text-4xl font-bold mb-4">
+        Independent Medicare Insurance Agents: Why Working With One Saves You Money
+      </h1>
 
-        <Image
-          src="/images/independent-medicare-insurance-agents.webp"
-          alt="independent medicare insurance agents"
-          width={800}
-          height={400}
-          className="rounded-lg mb-6 w-full"
-        />
+      <Image
+        src="/images/hub_independent-medicare-insurance-agents.webp"
+        alt="independent medicare insurance agents"
+        width={800}
+        height={400}
+        className="w-full h-auto rounded-lg mb-6"
+        priority
+      />
 
-        <p className="text-lg mb-2">
-          Independent Medicare insurance agents compare plans from 30+ carriers so you don't have to call each company yourself. You pay nothing for this service - the carriers pay the agent, and your premium stays exactly the same.
+      <p className="text-lg mb-2">
+        Independent Medicare insurance agents compare plans from multiple carriers so you don't have to call each company yourself. If you've ever stared at a stack of Medicare mailers and felt like you were learning a new language, you're not alone.
+      </p>
+      <p className="text-lg mb-6">
+        I'm Anthony Orner, a licensed independent broker in NJ. I work with 30+ carriers, and my help costs you nothing. Here's why that matters.
+      </p>
+
+      <PhoneCTA />
+
+      <section className="mt-10 mb-8">
+        <h2 className="text-2xl font-semibold mb-3">
+          Captive vs. independent: the difference that affects your premium
+        </h2>
+        <p className="mb-2">
+          A captive agent works for one insurance company. They can only show you that company's plans. If a competitor offers a lower rate or better drug formulary, you'll never hear about it.
         </p>
-        <p className="text-lg mb-6">
-          I'm Anthony Orner, a licensed independent broker in New Jersey. Here's why the distinction between independent and captive matters for your wallet.
+        <p>
+          An independent agent has contracts with dozens of carriers. Same licensed expertise, but no loyalty to a single brand. The result: you see the full picture before you decide.
         </p>
+      </section>
 
-        <PhoneCTA />
+      <section className="mb-8">
+        <h2 className="text-2xl font-semibold mb-3">
+          How an independent agent compares carriers side by side
+        </h2>
+        <p className="mb-2">
+          I pull quotes from every carrier available in your zip code, then filter by what actually matters to you:
+        </p>
+        <ul className="list-disc pl-6 space-y-1 mb-2">
+          <li>Your specific prescriptions and their tier placement</li>
+          <li>Whether your doctors are in-network</li>
+          <li>Monthly premium vs. out-of-pocket maximums</li>
+          <li>Extra benefits like dental, vision, or hearing</li>
+        </ul>
+        <p>
+          You get a clear comparison, not a sales pitch for one company.
+        </p>
+      </section>
 
-        <section className="mt-10 mb-8">
-          <h2 className="text-2xl font-semibold mb-3">
-            Captive vs. independent: the difference that affects your premium
-          </h2>
-          <p className="mb-3">
-            A captive agent works for one company. They can only sell you that company's plans - even if a competitor offers the same coverage for $40 less per month.
-          </p>
-          <p>
-            An independent agent has contracts with multiple carriers. That means I can pull rates from dozens of companies and show you an actual comparison, not just one option presented as the best.
-          </p>
-        </section>
+      <section className="mb-8">
+        <h2 className="text-2xl font-semibold mb-3">
+          Why this service is free to you
+        </h2>
+        <p className="mb-2">
+          Insurance carriers pay agent commissions. The rate is the same whether you enroll online, call the carrier directly, or work with me. CMS regulates this. There's no markup, no hidden fee, no catch.
+        </p>
+        <p>
+          You pay the exact same premium either way. The only difference is you get a real person who answers the phone when something goes wrong.
+        </p>
+      </section>
 
-        <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-3">
-            How an independent agent compares carriers side by side
-          </h2>
-          <p className="mb-3">
-            When you call me, I ask about your doctors, prescriptions, and budget. Then I run quotes across every carrier available in your zip code. Here's what I'm comparing:
-          </p>
-          <ul className="list-disc pl-6 space-y-2">
-            <li>Monthly premiums for the same plan letter (Plan G from Carrier A vs. Carrier B vs. Carrier C)</li>
-            <li>Rate increase history - some carriers raise premiums aggressively, others stay stable</li>
-            <li>Household and payment discounts you might not know exist</li>
-            <li>Part D formularies matched to your actual medications</li>
-          </ul>
-        </section>
+      <section className="mb-8">
+        <h2 className="text-2xl font-semibold mb-3">
+          What to look for in a licensed Medicare broker
+        </h2>
+        <ul className="list-disc pl-6 space-y-1">
+          <li>Active state license and verifiable NPN (National Producer Number)</li>
+          <li>Annual AHIP certification for the current plan year</li>
+          <li>Contracts with multiple carriers, not just two or three</li>
+          <li>Willingness to explain what they earn and why they recommend a plan</li>
+          <li>Ongoing support after enrollment, not just during sales season</li>
+        </ul>
+      </section>
 
-        <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-3">
-            What to look for in a licensed Medicare broker
-          </h2>
-          <p className="mb-3">
-            Not all agents are equal. Before you work with anyone, check three things:
-          </p>
-          <ul className="list-disc pl-6 space-y-2">
-            <li><strong>License status.</strong> Verify their NPN through your state's insurance department.</li>
-            <li><strong>Number of carriers.</strong> If they only represent two or three companies, you're not getting a real comparison.</li>
-            <li><strong>Ongoing support.</strong> A good broker helps after enrollment - with claims issues, annual reviews, and plan changes every year.</li>
-          </ul>
-        </section>
+      <section className="mb-8">
+        <h2 className="text-2xl font-semibold mb-3">
+          Common situations where an independent agent saves you real money
+        </h2>
+        <p className="mb-2">
+          People often reach out when something changes. You lost employer coverage and face the Part B late enrollment penalty of 10% per year you delayed. You're turning 65 and have a 6-month Medigap Open Enrollment window you can't afford to miss. You take 20+ medications and need someone to check every formulary.
+        </p>
+        <p>
+          These are the moments where having someone in your corner matters most. One wrong choice can cost hundreds per month.
+        </p>
+      </section>
 
-        <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-3">
-            Why people regret not using an independent agent sooner
-          </h2>
-          <p className="mb-3">
-            Picking a Part D plan and a Medigap plan at the same time is harder than most people expect. You're comparing dozens of options across multiple categories, and the stakes feel high because they are.
-          </p>
-          <p>
-            Many people I talk to spent hours on Medicare.gov comparing plans alone before calling me. Within one conversation, we usually narrow it down to two or three real choices. That's the value of working with someone who does this every day.
-          </p>
-        </section>
+      <section className="mb-8">
+        <h2 className="text-2xl font-semibold mb-3">
+          Request a free multi-carrier comparison
+        </h2>
+        <p className="mb-2">
+          I handle all the paperwork and follow up with carriers on your behalf. No call centers, no 40-minute hold times. Just a straight answer about which plan fits your budget and your doctors.
+        </p>
+        <p>
+          Call today or request a quote online. I'll build your comparison and walk you through it at your pace.
+        </p>
+      </section>
 
-        <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-3">
-            Your premium is the same whether you use an agent or not
-          </h2>
-          <p>
-            This surprises people. Insurance carriers set the premium. Whether you enroll online, call the carrier directly, or go through an independent agent, you pay the same rate. The carrier compensates the agent separately. There's no markup. You just get help for free.
-          </p>
-        </section>
+      <div className="bg-blue-600 text-white rounded-lg p-8 text-center my-10">
+        <p className="text-xl font-bold mb-2">
+          Talk to an independent Medicare agent today
+        </p>
+        <p className="text-lg mb-4">
+          Call{" "}
+          <a
+            href="tel:855-559-1700"
+            className="underline font-semibold text-white"
+          >
+            855-559-1700
+          </a>{" "}
+          for a free multi-carrier comparison.
+        </p>
+        <Link
+          href="/contact"
+          className="inline-block bg-white text-blue-600 font-semibold py-3 px-6 rounded-lg hover:bg-gray-100 transition"
+        >
+          Get a Free Quote
+        </Link>
+      </div>
 
-        <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-3">
-            Request a free multi-carrier comparison
-          </h2>
-          <p>
-            I'll pull quotes from every carrier in your area, match Part D plans to your prescriptions, and walk you through the tradeoffs in plain English. No cost, no pressure, no obligation to enroll.
-          </p>
-        </section>
+      <FAQSection faqs={faqs} />
 
-        <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 text-center mb-10">
-          <p className="text-lg font-semibold mb-2">
-            Talk to an independent Medicare agent today
-          </p>
-          <p className="mb-4">
-            Call{" "}
-            <a
-              href="tel:8555591700"
-              className="text-blue-700 font-bold hover:underline"
-            >
-              855-559-1700
-            </a>{" "}
-            or{" "}
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
+        <ul className="space-y-2">
+          <li>
             <Link
-              href="/contact"
-              className="text-blue-700 font-bold hover:underline"
+              href="/medicare-guides/medicare-supplement-vs-advantage"
+              className="text-blue-600 hover:underline"
             >
-              get a free quote online
+              Medicare Supplement vs. Medicare Advantage: How to Choose
             </Link>
-          </p>
-          <p className="text-sm text-gray-600">
-            Anthony Orner, Licensed Medicare Broker - NJ
-          </p>
-        </div>
-
-        <FAQSection faqs={faqs} />
-
-        <section className="mt-10">
-          <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
-          <ul className="space-y-2">
-            <li>
-              <Link
-                href="/medicare-guides/medicare-supplement-plans"
-                className="text-blue-700 hover:underline"
-              >
-                Medicare Supplement Plans Explained
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/medicare-guides/medicare-plan-g"
-                className="text-blue-700 hover:underline"
-              >
-                Medicare Plan G: What It Covers and What It Costs
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/medicare-guides/medicare-advantage-vs-medigap"
-                className="text-blue-700 hover:underline"
-              >
-                Medicare Advantage vs. Medigap: How to Decide
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/medicare-guides/medicare-part-d"
-                className="text-blue-700 hover:underline"
-              >
-                Medicare Part D: Finding the Right Drug Plan
-              </Link>
-            </li>
-          </ul>
-        </section>
-      </main>
+          </li>
+          <li>
+            <Link
+              href="/medicare-guides/medigap-open-enrollment"
+              className="text-blue-600 hover:underline"
+            >
+              Medigap Open Enrollment: Your 6-Month Window Explained
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/medicare-guides/part-d-drug-plans"
+              className="text-blue-600 hover:underline"
+            >
+              Medicare Part D Drug Plans: What You Need to Know in 2026
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/about"
+              className="text-blue-600 hover:underline"
+            >
+              About Anthony Orner, Licensed Medicare Broker
+            </Link>
+          </li>
+        </ul>
+      </section>
     </>
   );
 }

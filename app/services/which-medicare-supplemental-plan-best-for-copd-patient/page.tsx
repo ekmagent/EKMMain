@@ -7,14 +7,14 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 
 export const metadata: Metadata = {
   title:
-    "which medicare supplemental plan best for copd patient | Free Guidance | MedicareYourself",
+    "which medicare supplemental plan best for copd patient? | Free Expert Advice | MedicareYourself",
   description:
-    "Which Medicare Supplemental plan is best for a COPD patient? Compare Plan G vs. Plan N for pulmonology, oxygen, and inhalers. Free broker guidance.",
+    "Which Medicare Supplemental plan is best for a COPD patient? Compare Plan G and Plan N for pulmonary care costs. Free broker recommendation — no obligation.",
   openGraph: {
     title:
-      "which medicare supplemental plan best for copd patient | Free Guidance | MedicareYourself",
+      "which medicare supplemental plan best for copd patient? | Free Expert Advice | MedicareYourself",
     description:
-      "Which Medicare Supplemental plan is best for a COPD patient? Compare Plan G vs. Plan N for pulmonology, oxygen, and inhalers. Free broker guidance.",
+      "Which Medicare Supplemental plan is best for a COPD patient? Compare Plan G and Plan N for pulmonary care costs. Free broker recommendation — no obligation.",
   },
 };
 
@@ -32,7 +32,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://www.medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -46,7 +46,8 @@ const breadcrumbSchema = {
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Which Medicare Supplemental Plan Is Best for a COPD Patient?",
+  headline:
+    "Which Medicare Supplemental Plan Is Best for a COPD Patient? A Broker's Honest Answer",
   author: {
     "@type": "Person",
     name: "Anthony Orner",
@@ -57,186 +58,224 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-01",
-  dateModified: "2025-07-01",
+  datePublished: "2025-07-18",
+  dateModified: "2025-07-18",
 };
 
 const faqs = [
   {
-    question:
-      "Which Medicare Supplement plan covers the most COPD-related costs?",
+    question: "What is the best Medicare Supplement for COPD?",
     answer:
-      "Plan G covers the most. After you pay the $283 Part B deductible, Plan G picks up 100% of remaining Medicare-approved costs, including pulmonologist visits, oxygen therapy, and pulmonary rehabilitation. You won't face copays or coinsurance surprises at the doctor's office.",
+      "For most COPD patients, Plan G offers the strongest financial protection. It covers the Part A deductible ($1,676 per benefit period in 2026), all Part B excess charges, and 100% of Medicare-approved coinsurance. With frequent specialist visits, ER trips, and oxygen therapy, Plan G eliminates almost all surprise costs beyond your monthly premium and the $283 Part B deductible.",
   },
   {
-    question: "Does Medigap cover COPD inhalers and prescription medications?",
+    question: "Does Medicare cover oxygen therapy and nebulizers for COPD?",
     answer:
-      "No. Medigap plans do not cover prescription drugs. You need a separate Medicare Part D plan for inhalers like Trelegy, Breztri, or albuterol nebulizer solutions. Starting in 2025, Part D caps your annual out-of-pocket drug costs at $2,000, which helps with expensive COPD medications.",
+      "Yes. Medicare Part B covers home oxygen equipment and nebulizers when your doctor documents medical necessity. You must meet specific criteria, including qualifying oxygen saturation levels. After Medicare pays its 80%, your Medigap plan covers the remaining 20% coinsurance.",
   },
   {
-    question: "What is the new prescription cost cap for COPD drugs?",
+    question: "What is the new prescription drug cap for COPD medications?",
     answer:
-      "Medicare Part D now caps annual out-of-pocket prescription costs at $2,000. This is significant for COPD patients who use multiple inhalers or nebulizer medications, since some of these drugs can cost $300-$500 per month without the cap.",
+      "Starting in 2025, Medicare caps annual out-of-pocket Part D prescription costs at $2,100 as of 2026. This is significant for COPD patients who use multiple inhalers, which can be expensive even with insurance. Note that Medigap plans don't cover prescriptions. You'll need a standalone Part D plan alongside your supplement.",
   },
   {
-    question:
-      "Can I get a Medigap plan if I've already been diagnosed with COPD?",
+    question: "Can I get a Medigap plan if I already have COPD?",
     answer:
-      "During your 6-month Medigap Open Enrollment Period (starting the month you turn 65 and are enrolled in Part B), no carrier can deny you or charge more because of COPD. Outside that window, carriers in most states can use medical underwriting, and COPD may affect your options. Call us to check what's available in your state.",
+      "During your Medigap Open Enrollment Period (the 6 months starting when you're 65+ and enrolled in Part B), insurers cannot deny you or charge more due to COPD. Outside that window, medical underwriting may apply and approval isn't guaranteed. Call us at 855-559-1700 to review your options.",
   },
 ];
 
-export default function WhichMedicarePlanCOPD() {
+export default function WhichMedicareSupplementalPlanBestForCOPDPatient() {
   return (
-    <main className="max-w-3xl mx-auto px-4 py-8">
-      <SchemaMarkup schema={breadcrumbSchema} />
-      <SchemaMarkup schema={articleSchema} />
+    <div>
+      <SchemaMarkup schema={[breadcrumbSchema, articleSchema]} />
 
-      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
+      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-4">
         <Link href="/" className="hover:underline">
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
-        <span className="text-gray-700">
-          Which Medicare Supplemental Plan Best for COPD Patient
-        </span>
+        <span>Which Medicare Supplemental Plan Best for COPD Patient</span>
       </nav>
 
       <h1 className="text-3xl font-bold mb-4">
-        Which Medicare Supplemental Plan Is Best for a COPD Patient?
+        Which Medicare Supplemental Plan Is Best for a COPD Patient? A
+        Broker&apos;s Honest Answer
       </h1>
 
       <Image
-        src="/images/which-medicare-supplemental-plan-best-for-copd-patient.webp"
+        src="/images/hub_which-medicare-supplemental-plan-best-for-copd-patient.webp"
         alt="which medicare supplemental plan best for copd patient"
         width={800}
         height={400}
         className="w-full rounded-lg mb-6"
+        priority
       />
 
-      <p className="text-lg mb-2">
-        Which Medicare Supplemental plan is best for a COPD patient depends on how often you see specialists, whether you're on oxygen, and how much unpredictability you can absorb financially. COPD isn't one bad month. It's nebulizer treatments on hard breathing days, pulmonologist visits every few months, and the exhaustion of planning life around your lungs.
+      <p className="mb-2">
+        Which Medicare Supplemental plan is best for a COPD patient? After
+        helping hundreds of people with chronic lung conditions choose coverage,
+        my answer is almost always <strong>Plan G</strong>. Here&apos;s why, and
+        when Plan N might work too.
       </p>
-      <p className="text-lg mb-6">
-        I'm Anthony Orner, a licensed Medicare broker, and I help people with COPD figure out which Medigap plan actually fits their reality.
+
+      <p className="mb-6">
+        COPD doesn&apos;t stay predictable. You might go months feeling stable,
+        then land in the ER twice in one week. Your plan needs to handle that
+        reality.
       </p>
 
       <PhoneCTA />
 
-      <section className="mt-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Why Plan G and Plan N cover COPD treatment differently
-        </h2>
-        <p className="mb-2">
-          Plan G pays everything Medicare approves after you meet the $283/year Part B deductible. No copays at the pulmonologist. No coinsurance on oxygen equipment. No surprises.
-        </p>
-        <p className="mb-2">
-          Plan N costs less monthly but charges up to $20 copays for office visits and up to $50 for ER visits that don't result in admission. If you're seeing a pulmonologist every 6-8 weeks and hitting urgent care during flare-ups, those copays add up.
-        </p>
-        <p>
-          For someone with stable, mild COPD, Plan N can save money. For someone managing frequent exacerbations, Plan G removes the guesswork.
-        </p>
-      </section>
+      <h2 className="text-2xl font-semibold mt-10 mb-3">
+        Why COPD patients face higher out-of-pocket risk on Original Medicare
+      </h2>
+      <p className="mb-2">
+        Original Medicare covers 80% of approved Part B services. You pay the
+        other 20% with no annual cap. For someone managing COPD, that 20% adds
+        up fast: pulmonologist visits, spirometry testing, ER copays, oxygen
+        equipment, nebulizer treatments, and pulmonary rehab sessions.
+      </p>
+      <p className="mb-6">
+        Each hospital admission also triggers a $1,676 Part A deductible (2026).
+        COPD exacerbations can mean multiple hospital stays per year. Without a
+        supplement, you pay that deductible every benefit period.
+      </p>
 
-      <section className="mt-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Common COPD costs that Medigap pays vs. what you still owe
-        </h2>
-        <ul className="list-disc pl-6 space-y-2">
-          <li>
-            <strong>Pulmonologist visits:</strong> Medicare Part B covers 80%. Plan G pays the remaining 20%. Plan N pays 20% minus the office copay.
-          </li>
-          <li>
-            <strong>Home oxygen therapy:</strong> Part B covers oxygen equipment rental when you meet medical criteria. Both Plan G and Plan N cover the 20% coinsurance.
-          </li>
-          <li>
-            <strong>Pulmonary rehabilitation:</strong> Covered under Part B. Both plans pick up the coinsurance.
-          </li>
-          <li>
-            <strong>Hospital stays for exacerbations:</strong> Part A applies. Both plans cover the $1,676 Part A deductible per benefit period.
-          </li>
-          <li>
-            <strong>Inhalers and nebulizer meds:</strong> Neither plan covers these. You need a Part D drug plan.
-          </li>
-        </ul>
-      </section>
+      <h2 className="text-2xl font-semibold mt-10 mb-3">
+        Plan G vs. Plan N for frequent pulmonologist and ER visits
+      </h2>
+      <div className="overflow-x-auto mb-6">
+        <table className="w-full border-collapse border border-gray-300 text-sm">
+          <thead>
+            <tr className="bg-gray-100">
+              <th className="border border-gray-300 p-3 text-left">Feature</th>
+              <th className="border border-gray-300 p-3 text-left">Plan G</th>
+              <th className="border border-gray-300 p-3 text-left">Plan N</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td className="border border-gray-300 p-3">Part A deductible ($1,676)</td>
+              <td className="border border-gray-300 p-3">Covered</td>
+              <td className="border border-gray-300 p-3">Covered</td>
+            </tr>
+            <tr>
+              <td className="border border-gray-300 p-3">Part B deductible ($283)</td>
+              <td className="border border-gray-300 p-3">Not covered</td>
+              <td className="border border-gray-300 p-3">Not covered</td>
+            </tr>
+            <tr>
+              <td className="border border-gray-300 p-3">Part B coinsurance</td>
+              <td className="border border-gray-300 p-3">100% covered</td>
+              <td className="border border-gray-300 p-3">100% covered*</td>
+            </tr>
+            <tr>
+              <td className="border border-gray-300 p-3">Office visit copay</td>
+              <td className="border border-gray-300 p-3">$0</td>
+              <td className="border border-gray-300 p-3">Up to $20</td>
+            </tr>
+            <tr>
+              <td className="border border-gray-300 p-3">ER copay (no admission)</td>
+              <td className="border border-gray-300 p-3">$0</td>
+              <td className="border border-gray-300 p-3">Up to $50</td>
+            </tr>
+            <tr>
+              <td className="border border-gray-300 p-3">Part B excess charges</td>
+              <td className="border border-gray-300 p-3">Covered</td>
+              <td className="border border-gray-300 p-3">Not covered</td>
+            </tr>
+            <tr>
+              <td className="border border-gray-300 p-3">Monthly premium</td>
+              <td className="border border-gray-300 p-3">Higher</td>
+              <td className="border border-gray-300 p-3">Lower</td>
+            </tr>
+          </tbody>
+        </table>
+        <p className="text-xs text-gray-500 mt-1">*Plan N may require copays for some office and ER visits.</p>
+      </div>
+      <p className="mb-6">
+        If you see a pulmonologist regularly and have had ER visits for
+        exacerbations, those Plan N copays stack up. Plan G&apos;s higher
+        premium usually pays for itself. Plan N can work if your COPD is mild
+        and well-controlled.
+      </p>
 
-      <section className="mt-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          How pulmonology visits, inhalers, and oxygen factor into plan choice
-        </h2>
-        <p className="mb-2">
-          COPD patients I talk to are often shocked by inhaler costs. Trelegy and Breztri can run $300-$500 a month at pharmacy counters. Medigap won't touch that. What matters is pairing the right supplement with a solid Part D plan that covers your specific medications.
-        </p>
-        <p>
-          The 2025 Part D out-of-pocket cap at $2,000/year helps enormously. But you still need to check your Part D formulary before enrolling. Not every plan covers the same inhalers at the same tier.
-        </p>
-      </section>
+      <h2 className="text-2xl font-semibold mt-10 mb-3">
+        How supplement plans handle oxygen, nebulizers, and pulmonary rehab
+      </h2>
+      <p className="mb-2">
+        Medicare Part B covers home oxygen equipment, portable concentrators,
+        and nebulizer machines when your doctor documents medical necessity.
+        Pulmonary rehabilitation is also covered. Medicare pays 80%, and your
+        Medigap plan picks up the remaining 20%.
+      </p>
+      <p className="mb-6">
+        One frustration I hear often: suppliers send whatever oxygen equipment
+        they have on the truck. Your supplement covers costs the same regardless
+        of brand. If equipment quality matters to you, ask about switching
+        suppliers before signing a rental agreement.
+      </p>
 
-      <section className="mt-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Getting approved for a supplement after a COPD diagnosis
-        </h2>
-        <p className="mb-2">
-          Timing matters. During your 6-month Medigap Open Enrollment Period, starting the month you're 65 and enrolled in Part B, every carrier must accept you regardless of COPD status. No health questions, no higher premiums because of your diagnosis.
-        </p>
-        <p>
-          Miss that window, and most states allow carriers to medically underwrite. COPD, especially with oxygen use, can limit your options. If you're approaching 65 and already have a diagnosis, apply 6 months before your Part B start date to lock things in.
-        </p>
-      </section>
+      <h2 className="text-2xl font-semibold mt-10 mb-3">
+        Don&apos;t forget Part D for inhalers
+      </h2>
+      <p className="mb-2">
+        Medigap plans do not cover prescriptions. COPD inhalers can be
+        expensive, and formularies change year to year. You need a standalone
+        Part D plan.
+      </p>
+      <p className="mb-6">
+        The good news: Medicare now caps out-of-pocket Part D costs at $2,100
+        per year. That&apos;s a real relief for anyone juggling multiple
+        inhalers and maintenance medications.
+      </p>
 
-      <section className="mt-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          The real cost difference between Plan G and Plan N for COPD
-        </h2>
-        <p className="mb-2">
-          Plan N premiums typically run $30-$60 less per month than Plan G. That's $360-$720/year in savings. But if you're making 8+ specialist visits and a couple ER trips during bad flare-ups, Plan N copays can eat that savings and then some.
-        </p>
-        <p>
-          Rates vary by carrier, age, and location. I can pull actual quotes for your zip code in a few minutes.
-        </p>
-      </section>
+      <h2 className="text-2xl font-semibold mt-10 mb-3">
+        Timing matters: lock in your rate during open enrollment
+      </h2>
+      <p className="mb-6">
+        Your Medigap Open Enrollment Period lasts 6 months, starting when
+        you&apos;re 65 or older and enrolled in Part B. During this window,
+        carriers cannot deny you or increase your premium because of COPD.
+        Outside this window, medical underwriting applies and acceptance
+        isn&apos;t guaranteed. If you&apos;re approaching 65, start the
+        conversation at least 6 months before your Part B effective date.
+      </p>
 
-      <section className="mt-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Why pairing your supplement with the right Part D plan matters most
-        </h2>
-        <p className="mb-2">
-          Your Medigap plan handles doctor visits, hospital stays, and oxygen. Your Part D plan handles the medications that keep you breathing. Getting one right and the other wrong leaves a gap that hits your wallet hard.
-        </p>
-        <p>
-          I look at both together. We'll match your inhaler list against Part D formularies and pair it with the supplement that fits your visit frequency. One call covers everything.
-        </p>
-      </section>
+      <h2 className="text-2xl font-semibold mt-10 mb-3">
+        Get a free plan recommendation based on your COPD treatment
+      </h2>
+      <p className="mb-6">
+        Every COPD case is different. I&apos;ll look at your medications, your
+        doctors, how often you&apos;ve been hospitalized, and what you spend
+        now. Then I&apos;ll match you with the Medigap plan and Part D
+        combination that gives you the lowest total cost. No obligation, no
+        pressure.
+      </p>
 
-      <div className="mt-10 bg-blue-600 text-white rounded-lg p-6 text-center">
-        <p className="text-xl font-semibold mb-2">
-          Get a plan recommendation matched to your COPD treatment.
+      <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 my-8 text-center">
+        <p className="text-lg font-semibold mb-2">
+          Talk to a licensed Medicare broker who understands COPD coverage.
         </p>
-        <p className="text-lg mb-4">
-          Call{" "}
-          <a href="tel:8555591700" className="underline font-bold">
-            855-559-1700
-          </a>{" "}
-          for free, no-obligation guidance.
+        <p className="text-2xl font-bold text-blue-700 mb-3">
+          <a href="tel:855-559-1700">855-559-1700</a>
         </p>
         <Link
-          href="/get-a-free-quote"
-          className="inline-block bg-white text-blue-600 font-semibold py-3 px-6 rounded-lg hover:bg-gray-100 transition"
+          href="/quote"
+          className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700"
         >
           Get a Free Quote
         </Link>
       </div>
 
-      <section className="mt-10">
-        <FAQSection faqs={faqs} />
-      </section>
+      <FAQSection faqs={faqs} />
 
-      <section className="mt-10">
+      <div className="mt-10">
         <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
         <ul className="space-y-2">
           <li>
@@ -244,7 +283,7 @@ export default function WhichMedicarePlanCOPD() {
               href="/services/medicare-supplement-plan-g"
               className="text-blue-600 hover:underline"
             >
-              Medicare Supplement Plan G: Full Breakdown
+              Medicare Supplement Plan G: What It Covers and Costs
             </Link>
           </li>
           <li>
@@ -252,15 +291,7 @@ export default function WhichMedicarePlanCOPD() {
               href="/services/medicare-supplement-plan-n"
               className="text-blue-600 hover:underline"
             >
-              Medicare Supplement Plan N: What It Covers
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/services/medicare-part-d-drug-plans"
-              className="text-blue-600 hover:underline"
-            >
-              Medicare Part D Drug Plans Explained
+              Medicare Supplement Plan N: Is It Right for You?
             </Link>
           </li>
           <li>
@@ -268,11 +299,19 @@ export default function WhichMedicarePlanCOPD() {
               href="/services/medigap-open-enrollment-period"
               className="text-blue-600 hover:underline"
             >
-              Medigap Open Enrollment: When and Why It Matters
+              Medigap Open Enrollment Period: When and Why It Matters
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/services/medicare-part-d-prescription-drug-coverage"
+              className="text-blue-600 hover:underline"
+            >
+              Medicare Part D Prescription Drug Coverage
             </Link>
           </li>
         </ul>
-      </section>
-    </main>
+      </div>
+    </div>
   );
 }

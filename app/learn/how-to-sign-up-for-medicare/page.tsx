@@ -82,7 +82,7 @@ const faqs = [
   {
     question: "Do I have to sign up for Medicare when I turn 65?",
     answer:
-      "Most people should sign up for Medicare Part A at 65 since it is free for anyone with 40+ work credits. Part B has a monthly premium ($185/month in 2026), so you may delay it if you have employer coverage from active work. If you do not have creditable employer coverage, you should enroll in Part B during your Initial Enrollment Period to avoid a permanent late penalty.",
+      "Most people should sign up for Medicare Part A at 65 since it is free for anyone with 40+ work credits. Part B has a monthly premium ($202.90/month in 2026), so you may delay it if you have employer coverage from active work. If you do not have creditable employer coverage, you should enroll in Part B during your Initial Enrollment Period to avoid a permanent late penalty.",
   },
   {
     question: "What is the Medicare Initial Enrollment Period?",
@@ -174,7 +174,7 @@ export default function HowToSignUpPage() {
             {
               step: "3",
               title: "Decide whether to delay Part B if you have employer coverage",
-              body: "Part B costs $185/month in 2026. If you have coverage through an employer where you or your spouse is actively working, you may delay Part B without penalty. Retiree insurance, COBRA, and marketplace plans do not qualify. Confirm with your HR department before delaying.",
+              body: "Part B costs $202.90/month in 2026. If you have coverage through an employer where you or your spouse is actively working, you may delay Part B without penalty. Retiree insurance, COBRA, and marketplace plans do not qualify. Confirm with your HR department before delaying.",
             },
             {
               step: "4",
@@ -201,7 +201,7 @@ export default function HowToSignUpPage() {
             If you do not sign up for Part B when first eligible and do not have qualifying employer coverage,
             your premium will increase by <strong>10% for every 12-month period</strong> you were eligible but
             did not enroll. This penalty is <strong>permanent</strong> — it follows you for life.
-            At $185/month today, even a 1-year delay adds $18.50/month forever. A 5-year delay adds $92.50/month.
+            At $202.90/month today, even a 1-year delay adds $20.29/month forever. A 5-year delay adds $101.45/month.
           </p>
         </div>
 

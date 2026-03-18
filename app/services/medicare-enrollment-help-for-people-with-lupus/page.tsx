@@ -7,14 +7,14 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 
 export const metadata: Metadata = {
   title:
-    "Medicare Enrollment Help for People With Lupus | Free Guidance | MedicareYourself",
+    "medicare enrollment help for people with lupus | Free NJ Guidance | MedicareYourself",
   description:
-    "Medicare enrollment help for people with lupus. Learn disability-based eligibility, drug coverage, and NJ plan options. Free guidance from Anthony Orner.",
+    "Medicare enrollment help for people with lupus. Learn disability-based eligibility, drug coverage, and NJ plan options. Anthony Orner offers free guidance.",
   openGraph: {
     title:
-      "Medicare Enrollment Help for People With Lupus | Free Guidance | MedicareYourself",
+      "medicare enrollment help for people with lupus | Free NJ Guidance | MedicareYourself",
     description:
-      "Medicare enrollment help for people with lupus. Learn disability-based eligibility, drug coverage, and NJ plan options. Free guidance from Anthony Orner.",
+      "Medicare enrollment help for people with lupus. Learn disability-based eligibility, drug coverage, and NJ plan options. Anthony Orner offers free guidance.",
   },
 };
 
@@ -32,7 +32,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare",
+      item: "https://www.medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
@@ -63,41 +63,40 @@ const articleSchema = {
 
 const faqs = [
   {
-    question: "Does lupus qualify you for Medicare?",
+    question: "Does lupus qualify you for Medicare before age 65?",
     answer:
-      "Yes. If lupus prevents you from working and you receive Social Security Disability Insurance (SSDI), you become eligible for Medicare after 24 months of SSDI benefits. You do not need to be 65.",
+      "Yes. If lupus prevents you from working and you receive Social Security Disability Insurance (SSDI), you become eligible for Medicare after a 24-month qualifying period. Some lupus patients with end-stage renal disease (ESRD) caused by lupus nephritis may qualify sooner.",
+  },
+  {
+    question: "What support resources exist for lupus patients on Medicare?",
+    answer:
+      "The Lupus Foundation of America offers financial assistance resources and patient navigators. Many drug manufacturers run copay assistance or patient access programs for biologics like Benlysta and Saphnelo. A licensed broker can also help you find plans that minimize your out-of-pocket costs.",
   },
   {
     question:
-      "What Medicare plans cover lupus medications like Benlysta or Saphnelo?",
+      "Which Medicare plan type is better for lupus: Advantage or Medigap?",
     answer:
-      "Infusion medications like Saphnelo and Benlysta are typically covered under Medicare Part B when administered in a clinical setting. Oral medications like hydroxychloroquine (Plaquenil) fall under Part D. A Medicare Advantage plan with strong Part D drug coverage or a standalone Part D plan paired with Original Medicare can help manage these costs.",
+      "It depends on your treatment needs. Medicare Advantage plans bundle coverage and often include specialist copays, but may restrict your provider network. Original Medicare with a Medigap supplement gives you broader access to rheumatologists and infusion centers, which matters when you need consistent specialty care.",
   },
   {
-    question:
-      "Can I get a Medigap plan in NJ if I have a lupus diagnosis?",
+    question: "Can I get help enrolling in Medicare if I have lupus in NJ?",
     answer:
-      "NJ has specific rules around Medigap enrollment. During your Medigap Open Enrollment Period (6 months starting the month you turn 65 and have Part B), insurance carriers cannot deny you or charge more due to lupus. Outside that window, rules vary. Call us to confirm your options.",
-  },
-  {
-    question: "Is there a cost limit on Part D drugs in 2026?",
-    answer:
-      "Yes. Starting in 2025, Medicare Part D includes a $2,000 annual out-of-pocket cap on prescription drug costs. This is a significant change for people with lupus who rely on expensive medications.",
+      "Absolutely. Anthony Orner is a licensed Medicare broker in New Jersey who provides free, personalized enrollment guidance. Call 855-559-1700 to discuss your medications, specialists, and coverage options at no cost.",
   },
 ];
 
 export default function MedicareEnrollmentHelpLupus() {
   return (
-    <main className="max-w-3xl mx-auto px-4 py-8">
+    <>
       <SchemaMarkup schema={breadcrumbSchema} />
       <SchemaMarkup schema={articleSchema} />
 
-      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
+      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-4">
         <Link href="/" className="hover:underline">
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare" className="hover:underline">
+        <Link href="/medicare-guides" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -106,201 +105,160 @@ export default function MedicareEnrollmentHelpLupus() {
         </span>
       </nav>
 
-      <h1 className="text-3xl md:text-4xl font-bold mb-4">
-        Medicare Enrollment Help for People Living With Lupus
-      </h1>
+      <article className="max-w-3xl mx-auto">
+        <h1 className="text-3xl md:text-4xl font-bold mb-4">
+          Medicare Enrollment Help for People Living With Lupus
+        </h1>
 
-      <Image
-        src="/images/medicare-enrollment-help-for-people-with-lupus_photo.webp"
-        alt="Medicare enrollment help for people with lupus"
-        width={800}
-        height={400}
-        className="w-full rounded-lg mb-6"
-      />
+        <Image
+          src="/images/hub_medicare-enrollment-help-for-people-with-lupus.webp"
+          alt="medicare enrollment help for people with lupus"
+          width={800}
+          height={400}
+          className="w-full rounded-lg mb-6"
+          priority
+        />
 
-      <p className="text-lg mb-2">
-        Medicare enrollment help for people with lupus starts with understanding
-        that your situation isn't generic. Between specialty medications,
-        flare-ups that make it hard to get out of bed, and the runaround between
-        pharmacies, Social Security, and insurers, the last thing you need is a
-        confusing enrollment process.
-      </p>
-      <p className="text-lg mb-6">
-        I'm Anthony Orner, a licensed Medicare broker in New Jersey. I help
-        people with lupus find the right Medicare plan and avoid costly gaps in
-        coverage. No charge for my guidance.
-      </p>
+        <p className="text-lg mb-2">
+          Medicare enrollment help for people with lupus starts with one truth: the system wasn't built for someone managing unpredictable flares, expensive biologics, and a rotating team of specialists. You're already fighting your body. You shouldn't have to fight your insurance too.
+        </p>
+        <p className="text-lg mb-6">
+          I'm Anthony Orner, a licensed Medicare broker in New Jersey. I help lupus patients find plans that actually cover what they need. No cost, no obligation.
+        </p>
 
-      <PhoneCTA />
+        <PhoneCTA />
 
-      <section className="mt-10 mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          How lupus qualifies you for Medicare before age 65
-        </h2>
-        <p className="mb-2">
-          Systemic lupus can qualify you for Medicare through SSDI. Once you've
-          received Social Security Disability benefits for 24 consecutive months,
-          Medicare kicks in automatically. You'll get Parts A and B.
-        </p>
-        <p>
-          Many people with lupus enter Medicare in their 30s, 40s, or 50s
-          through this path. Your enrollment timeline and plan options look
-          different than someone turning 65, and that matters when choosing
-          coverage.
-        </p>
-      </section>
+        <section className="mt-10 mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            How lupus qualifies you for Medicare before age 65
+          </h2>
+          <p className="mb-2">
+            Systemic lupus (SLE) can qualify you for Social Security Disability Insurance if it prevents substantial work activity. After 24 months of receiving SSDI, you automatically enroll in Medicare Part A and Part B.
+          </p>
+          <p>
+            If lupus has caused kidney failure (lupus nephritis leading to ESRD), you may qualify for Medicare even sooner. Either way, the clock and the paperwork matter. Missing a window can mean gaps in coverage right when you need it most.
+          </p>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Which Medicare plans best cover lupus medications and specialists
-        </h2>
-        <p className="mb-2">
-          Lupus treatment often involves expensive drugs. Here's how Medicare
-          splits them:
-        </p>
-        <ul className="list-disc pl-6 space-y-1 mb-3">
-          <li>
-            <strong>Part B</strong> covers infusion treatments like Benlysta and
-            Saphnelo when given in a doctor's office or infusion center.
-          </li>
-          <li>
-            <strong>Part D</strong> covers oral prescriptions like
-            hydroxychloroquine (Plaquenil), mycophenolate, and prednisone.
-          </li>
-          <li>
-            <strong>Medicare Advantage</strong> plans bundle A, B, and usually D
-            together, but network restrictions can limit which rheumatologists
-            you see.
-          </li>
-        </ul>
-        <p>
-          If you rely on specific specialists or infusion centers, make sure your
-          plan's network includes them. Losing access mid-treatment isn't just
-          inconvenient. It's dangerous.
-        </p>
-      </section>
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Which Medicare plans best cover lupus medications and specialists
+          </h2>
+          <p className="mb-2">
+            Lupus treatment often involves high-cost drugs: hydroxychloroquine, mycophenolate, Benlysta, Saphnelo. Part D covers oral and self-injected medications, but formularies vary wildly between plans. One plan's $40 copay is another plan's $1,500 surprise.
+          </p>
+          <ul className="list-disc pl-6 space-y-1">
+            <li>Part B covers infusions administered in a doctor's office or infusion center (like Benlysta IV or Saphnelo).</li>
+            <li>Part D covers oral meds and self-administered injectables. The $2,100 out-of-pocket cap (2026) on Part D helps, but you still need the right formulary.</li>
+            <li>Medigap plans cover Part B cost-sharing, which reduces your exposure on infusion costs.</li>
+          </ul>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          The Part D out-of-pocket cap changes the math
-        </h2>
-        <p className="mb-2">
-          If you've hit a wall with Part D deductibles or copays for specialty
-          lupus drugs, there's real relief now. The $2,000 annual Part D
-          out-of-pocket cap means your prescription spending has a hard ceiling.
-        </p>
-        <p>
-          That said, not every Part D plan covers every drug at the same tier.
-          Formulary details matter. I check your specific medications against
-          each plan's formulary before recommending anything.
-        </p>
-      </section>
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Why provider networks matter when you have lupus
+          </h2>
+          <p className="mb-2">
+            Finding a rheumatologist who takes your insurance and actually listens is hard enough. Many lupus patients also see dermatologists, nephrologists, and hematologists. Losing access to an established doctor because of a network change can set your care back months.
+          </p>
+          <p>
+            Original Medicare with a supplement lets you see any provider who accepts Medicare. Advantage plans may cost less monthly but can restrict your network in ways that hurt complex-care patients.
+          </p>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Navigating underwriting with a lupus diagnosis in NJ
-        </h2>
-        <p className="mb-2">
-          If you're enrolling in Medigap (Medicare Supplement) during your Open
-          Enrollment Period, carriers in NJ cannot deny you or charge higher
-          premiums because of lupus. That window is 6 months starting the month
-          you're 65 and enrolled in Part B.
-        </p>
-        <p>
-          For people under 65 on disability-based Medicare, Medigap access
-          varies by state. NJ has specific protections, but timing is everything.
-          Call me so we can confirm exactly what's available to you right now.
-        </p>
-      </section>
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Navigating underwriting with a lupus diagnosis in NJ
+          </h2>
+          <p className="mb-2">
+            If you're under 65 and on Medicare through disability, Medigap underwriting in New Jersey follows specific state rules. NJ does offer certain protections for disabled beneficiaries, but the details depend on timing and your current coverage situation.
+          </p>
+          <p>
+            Rules vary, and getting them wrong can cost you. Call me to confirm what applies to your exact scenario before you apply.
+          </p>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Why lupus makes picking the wrong plan so costly
-        </h2>
-        <p className="mb-2">
-          Lupus isn't predictable. A flare can mean sudden ER visits, imaging,
-          lab work, and medication changes within days. Picking a plan with high
-          deductibles or thin specialist networks because it's cheap upfront can
-          cost you thousands during a bad flare.
-        </p>
-        <p>
-          I've talked with people who spent hours bouncing between Medicare,
-          Social Security, and specialty pharmacies just trying to keep their
-          infusions going. A broker who understands lupus can prevent that cycle.
-        </p>
-      </section>
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Drug manufacturer programs can fill the gaps
+          </h2>
+          <p className="mb-2">
+            Many lupus patients don't realize that drug manufacturers offer patient assistance programs alongside Medicare. AstraZeneca (Saphnelo) and GSK (Benlysta) both run programs that may help with out-of-pocket costs.
+          </p>
+          <p>
+            These programs have income limits and eligibility rules. I can point you in the right direction and make sure your Part D plan works alongside any assistance you qualify for.
+          </p>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Get personalized enrollment guidance from a licensed broker
-        </h2>
-        <p className="mb-2">
-          I work with people across New Jersey who are managing lupus and trying
-          to make Medicare actually work for them. I'll review your medications,
-          your doctors, and your budget, then show you the plans that fit.
-        </p>
-        <p>
-          No cost. No pressure. Just clear answers from someone who does this
-          every day.
-        </p>
-      </section>
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Get personalized enrollment guidance from a licensed broker
+          </h2>
+          <p className="mb-2">
+            You're dealing with fatigue, pain, and the stress of managing a disease that most people don't understand. The last thing you need is to spend hours on hold with Medicare and Social Security trying to untangle coverage problems.
+          </p>
+          <p>
+            I'll review your medications, your doctors, and your budget. Then I'll show you which plans actually work for how you live with lupus. No charge. No pressure. Just clear answers.
+          </p>
+        </section>
 
-      <div className="bg-blue-600 text-white rounded-lg p-6 text-center mb-10">
-        <p className="text-xl font-semibold mb-2">
-          Talk to a licensed Medicare broker who understands lupus coverage.
-        </p>
-        <p className="text-2xl font-bold mb-3">
-          <a href="tel:8555591700" className="underline">
-            855-559-1700
-          </a>
-        </p>
-        <Link
-          href="/contact"
-          className="inline-block bg-white text-blue-600 font-semibold py-2 px-6 rounded-lg hover:bg-gray-100"
-        >
-          Get a Free Quote
-        </Link>
-      </div>
+        <div className="bg-blue-600 text-white rounded-lg p-8 text-center mb-10">
+          <p className="text-xl font-semibold mb-2">
+            Talk to a licensed Medicare broker who understands lupus coverage.
+          </p>
+          <p className="text-2xl font-bold mb-4">
+            <a href="tel:8555591700" className="underline">
+              855-559-1700
+            </a>
+          </p>
+          <Link
+            href="/contact"
+            className="inline-block bg-white text-blue-600 font-semibold py-3 px-6 rounded-lg hover:bg-gray-100 transition"
+          >
+            Get a Free Quote
+          </Link>
+        </div>
 
-      <FAQSection faqs={faqs} />
+        <FAQSection faqs={faqs} />
 
-      <section className="mt-10">
-        <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
-        <ul className="space-y-2">
-          <li>
-            <Link
-              href="/medicare/medicare-part-b"
-              className="text-blue-600 hover:underline"
-            >
-              Understanding Medicare Part B Coverage
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/medicare/medicare-part-d"
-              className="text-blue-600 hover:underline"
-            >
-              Medicare Part D Prescription Drug Plans
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/medicare/medigap-plans-nj"
-              className="text-blue-600 hover:underline"
-            >
-              Medigap Plans in New Jersey
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/services/medicare-disability"
-              className="text-blue-600 hover:underline"
-            >
-              Medicare for People on Disability Under 65
-            </Link>
-          </li>
-        </ul>
-      </section>
-    </main>
+        <section className="mt-10">
+          <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
+          <ul className="space-y-2">
+            <li>
+              <Link
+                href="/services/medicare-for-people-with-disabilities"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare for People With Disabilities
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/medicare-part-d-drug-coverage"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare Part D Drug Coverage Guide
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/medigap-plans-in-nj"
+                className="text-blue-600 hover:underline"
+              >
+                Medigap Plans in New Jersey
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/medicare-advantage-vs-medigap"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare Advantage vs. Medigap
+              </Link>
+            </li>
+          </ul>
+        </section>
+      </article>
+    </>
   );
 }

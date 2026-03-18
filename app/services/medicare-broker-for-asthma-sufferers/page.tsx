@@ -58,41 +58,42 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-01",
-  dateModified: "2025-07-01",
+  mainEntityOfPage:
+    "https://www.medicareyourself.com/services/medicare-broker-for-asthma-sufferers",
 };
 
 const faqs = [
   {
+    question: "Does it cost to use a Medicare broker?",
+    answer:
+      "No. Licensed Medicare brokers like Anthony Orner are paid by insurance carriers, not by you. There's no fee for plan comparisons, enrollment help, or ongoing support. The plans cost the same whether you enroll directly or through a broker.",
+  },
+  {
     question: "Can I get Medicare if I have asthma?",
     answer:
-      "Yes. Asthma does not disqualify you from Medicare. If you're 65 or older (or qualify through disability), you're eligible for Original Medicare, Medicare Advantage, and Part D prescription drug coverage regardless of pre-existing conditions like asthma.",
-  },
-  {
-    question: "How much does it cost to use a Medicare broker?",
-    answer:
-      "Nothing. Licensed Medicare brokers like Anthony Orner are paid by insurance carriers, not by you. There's no fee for plan comparisons, reviews, or enrollment help. The plans cost the same whether you use a broker or enroll on your own.",
+      "Yes. Medicare eligibility is based on age (65+) or qualifying disability, not your health conditions. Asthma does not disqualify you. In fact, choosing the right plan matters more when you have a chronic condition because drug formularies and provider networks vary widely.",
   },
   {
     question:
-      "Will my asthma inhalers be covered under Medicare Part D?",
+      "Will Medicare Part D cover my rescue inhaler and maintenance medications?",
     answer:
-      "Most Part D plans cover inhalers, but the tier placement and copay amount vary widely between plans. A rescue inhaler might be Tier 2 on one plan and Tier 3 on another, which can mean a difference of $20 to $80 per refill. That's why comparing formularies matters.",
+      "Most Part D plans cover common inhalers, but the tier placement and copay amounts differ significantly between plans. A rescue inhaler like albuterol might be $10 on one plan and $45 on another. I compare formularies side by side so you get the lowest total cost for your specific prescriptions.",
   },
   {
     question:
-      "Should I choose Medicare Advantage or a Supplement if I have asthma?",
+      "What's the difference between Medicare Advantage and Medigap for asthma care?",
     answer:
-      "It depends on how often you see specialists and how much you use the ER. Medicare Advantage plans bundle drug coverage but may require referrals and have network restrictions. A Supplement (Medigap) plan with a standalone Part D plan gives you broader provider access but costs more in monthly premiums. A broker can help you weigh the tradeoffs based on your specific medications and doctors.",
+      "Medicare Advantage bundles hospital, doctor, and often drug coverage into one plan, usually with copays per visit. Medigap (Medicare Supplement) covers cost-sharing from Original Medicare, giving you broader provider access but requiring a separate Part D plan. The best fit depends on how often you see specialists and use the ER.",
   },
 ];
 
 export default function MedicareBrokerForAsthmaSufferers() {
   return (
-    <main className="max-w-4xl mx-auto px-4 py-8">
-      <SchemaMarkup schema={[breadcrumbSchema, articleSchema]} />
+    <>
+      <SchemaMarkup schema={breadcrumbSchema} />
+      <SchemaMarkup schema={articleSchema} />
 
-      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
+      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-4">
         <Link href="/" className="hover:underline">
           Home
         </Link>{" "}
@@ -101,222 +102,179 @@ export default function MedicareBrokerForAsthmaSufferers() {
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
-        <span className="text-gray-700">
-          Medicare Broker for Asthma Sufferers
-        </span>
+        <span className="text-gray-700">Medicare Broker for Asthma Sufferers</span>
       </nav>
 
-      <h1 className="text-3xl md:text-4xl font-bold mb-4">
-        Medicare Broker for Asthma Sufferers — Because Breathing Shouldn't Be a
-        Luxury
-      </h1>
+      <article className="max-w-3xl mx-auto">
+        <h1 className="text-3xl md:text-4xl font-bold mb-4">
+          Medicare Broker for Asthma Sufferers — Because Breathing Shouldn&apos;t Be a Luxury
+        </h1>
 
-      <Image
-        src="/images/medicare-broker-for-asthma-sufferers.webp"
-        alt="Medicare broker for asthma sufferers"
-        width={800}
-        height={400}
-        className="rounded-lg mb-6 w-full"
-      />
+        <Image
+          src="/images/hub_medicare-broker-for-asthma-sufferers.webp"
+          alt="Medicare broker for asthma sufferers"
+          width={800}
+          height={400}
+          className="w-full rounded-lg mb-6"
+          priority
+        />
 
-      <p className="text-lg mb-2">
-        A Medicare broker for asthma sufferers does one thing most plan-finder
-        tools can't: match your exact inhalers, nebulizer supplies, and
-        specialist visits to the plan that actually covers them at the lowest
-        cost. I'm Anthony Orner, a licensed Medicare broker in NJ, and I do this
-        work every day for people who are tired of sticker shock at the pharmacy
-        counter.
-      </p>
-      <p className="text-lg mb-6">
-        You know the feeling. Your rescue inhaler is running low, the refill
-        costs more than last month, and you're wondering if your plan changed
-        something without telling you. Let's fix that.
-      </p>
-
-      <PhoneCTA />
-
-      <section className="mt-10 mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Why some Part D plans make inhalers affordable and others don't
-        </h2>
-        <p className="mb-2">
-          Every Part D plan has a formulary - a list of covered drugs organized
-          into tiers. Your albuterol inhaler might sit on Tier 2 with a $15
-          copay in one plan and Tier 3 with a $60 copay in another. Same
-          medication. Same pharmacy. Wildly different price.
+        <p className="text-lg mb-2">
+          A Medicare broker for asthma sufferers does one thing most plan-finder tools can&apos;t: compare formularies drug by drug so your inhalers don&apos;t drain your bank account. I&apos;m Anthony Orner, a licensed Medicare broker, and I help people with asthma find Part D and Advantage plans that actually cover what they use.
         </p>
-        <p>
-          The only way to know which plan treats your medications favorably is to
-          compare formularies side by side. That's tedious work. I do it for
-          you.
+        <p className="text-lg mb-6">
+          You already know the feeling. The inhaler running low, the refill price higher than last time, the insurance company requesting a &ldquo;prior authorization&rdquo; for medication your doctor prescribed months ago. That&apos;s what I fix.
         </p>
-      </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Rescue vs. maintenance medications: how formulary tiers affect your
-          costs
-        </h2>
-        <p className="mb-2">
-          Most asthma treatment involves two categories of medication:
-        </p>
-        <ul className="list-disc pl-6 mb-3 space-y-1">
-          <li>
-            <strong>Rescue inhalers</strong> (like albuterol) - used during
-            attacks, usually lower tier
-          </li>
-          <li>
-            <strong>Maintenance inhalers</strong> (like Advair, Symbicort, Breo)
-            - used daily, often placed on higher tiers with bigger copays
-          </li>
-        </ul>
-        <p>
-          Insurance companies sometimes require step therapy, meaning they won't
-          cover the medication your doctor prescribed until you've tried a
-          cheaper alternative first. This happens more than you'd expect and
-          causes real delays in care. The right Part D plan minimizes these
-          hurdles for the drugs you already use.
-        </p>
-      </section>
+        <PhoneCTA />
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Supplement vs. Advantage plans for pulmonologist and ER coverage
-        </h2>
-        <p className="mb-2">
-          If you see a pulmonologist regularly or end up in the ER during bad
-          flare-ups, your plan type matters a lot:
-        </p>
-        <ul className="list-disc pl-6 mb-3 space-y-1">
-          <li>
-            <strong>Medicare Supplement (Medigap):</strong> Works with any
-            doctor who accepts Medicare. No referrals needed for specialists. No
-            network restrictions. You'll pair it with a standalone Part D plan
-            for drug coverage.
-          </li>
-          <li>
-            <strong>Medicare Advantage:</strong> Bundles medical and drug
-            coverage into one plan. Often lower premiums, but may require
-            referrals to see a pulmonologist and limit you to in-network
-            providers.
-          </li>
-        </ul>
-        <p>
-          Neither option is automatically better. It depends on your doctors,
-          your medications, and how often you need urgent care.
-        </p>
-      </section>
+        <section className="mt-10 mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Why some Part D plans make inhalers affordable and others don&apos;t
+          </h2>
+          <p className="mb-2">
+            Every Part D plan has a formulary, and every formulary groups drugs into tiers. Your albuterol rescue inhaler might sit on Tier 1 (low copay) with one carrier and Tier 3 (high copay) with another. Same drug, different price.
+          </p>
+          <p>
+            Plans also negotiate different prices with pharmacies. A $10 difference per refill adds up to $120 a year on just one medication. Multiply that across a maintenance inhaler and a rescue inhaler and the gap widens fast.
+          </p>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          What I check when reviewing plans for asthma patients
-        </h2>
-        <ul className="list-disc pl-6 space-y-1">
-          <li>Formulary tier placement for every inhaler you use</li>
-          <li>
-            Step therapy or prior authorization requirements on your maintenance
-            meds
-          </li>
-          <li>
-            Whether your pulmonologist and allergist are in-network (for
-            Advantage plans)
-          </li>
-          <li>ER and urgent care copays for acute episodes</li>
-          <li>Nebulizer and durable medical equipment coverage under Part B</li>
-        </ul>
-      </section>
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Rescue vs. maintenance medications: how formulary tiers affect your costs
+          </h2>
+          <ul className="list-disc pl-6 space-y-2">
+            <li>
+              <strong>Rescue inhalers</strong> (albuterol, levalbuterol): Usually Tier 1 or 2, but some plans require specific brands. Generic albuterol is widely covered; name-brand alternatives often cost 3-5x more.
+            </li>
+            <li>
+              <strong>Maintenance inhalers</strong> (fluticasone/salmeterol, budesonide/formoterol): Often Tier 3 or higher. Some plans require step therapy, meaning your insurer makes you try a cheaper drug first before covering what your doctor actually prescribed.
+            </li>
+            <li>
+              <strong>Biologics</strong> (for severe asthma): Specialty tier. Copays can reach hundreds per month without the right plan.
+            </li>
+          </ul>
+          <p className="mt-2">
+            Step therapy is the reason some people get denial letters after their pulmonologist already prescribed something specific. I check for these restrictions before you enroll.
+          </p>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Nebulizers and DME coverage under Part B
-        </h2>
-        <p>
-          If you use a home nebulizer, Medicare Part B covers it as durable
-          medical equipment when prescribed by your doctor. You'll pay 20% of
-          the Medicare-approved amount after your $283 annual Part B deductible.
-          A Medigap plan like Plan G covers that 20% for you. An Advantage plan
-          may have a fixed copay instead.
-        </p>
-      </section>
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Supplement vs. Advantage plans for pulmonologist and ER coverage
+          </h2>
+          <p className="mb-2">
+            If you see a pulmonologist regularly and occasionally need the ER for severe attacks, the plan structure matters. Medicare Advantage plans usually charge copays per specialist visit ($20-$50) and ER visits ($90-$250). Medigap plans cover the cost-sharing from Original Medicare, so your out-of-pocket is more predictable.
+          </p>
+          <p>
+            Advantage plans often include Part D coverage built in. Medigap requires a separate Part D plan, but gives you wider provider access. There&apos;s no single right answer. It depends on your medications, your doctors, and how often your asthma lands you in urgent care.
+          </p>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Get a free plan check so your next refill isn't a financial panic
-        </h2>
-        <p>
-          Bring me your medication list. I'll run it against every available plan
-          in your area and show you exactly what each one costs - no charge, no
-          pressure. If your current plan is already the best fit, I'll tell you
-          that too.
-        </p>
-      </section>
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            The 2025 Medicare Prescription Payment Plan can help
+          </h2>
+          <p className="mb-2">
+            Starting in 2025, Medicare introduced the Prescription Payment Plan under Part D. It lets you spread your out-of-pocket drug costs into predictable monthly payments instead of paying large amounts at the pharmacy counter. This is especially helpful if you use expensive maintenance inhalers.
+          </p>
+          <p>
+            You can opt in through your Part D or Advantage plan. I&apos;ll tell you if it makes sense for your medication list.
+          </p>
+        </section>
 
-      <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 text-center my-10">
-        <p className="text-xl font-semibold mb-2">
-          Ready to stop overpaying for the medications you need to breathe?
-        </p>
-        <p className="mb-4">
-          Call{" "}
-          <a
-            href="tel:8555591700"
-            className="text-blue-700 font-bold hover:underline"
-          >
-            855-559-1700
-          </a>{" "}
-          or{" "}
-          <Link
-            href="/contact"
-            className="text-blue-700 font-bold hover:underline"
-          >
-            get a free quote online
-          </Link>
-          .
-        </p>
-        <p className="text-sm text-gray-600">
-          No cost. No obligation. Just a clear answer on which plan fits your
-          inhalers and your budget.
-        </p>
-      </div>
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            What I check when reviewing plans for asthma patients
+          </h2>
+          <ul className="list-disc pl-6 space-y-2">
+            <li>Formulary tier for every inhaler and oral medication you take</li>
+            <li>Prior authorization and step therapy requirements</li>
+            <li>Preferred pharmacy pricing (retail vs. mail-order)</li>
+            <li>Pulmonologist and allergist network inclusion</li>
+            <li>Annual out-of-pocket maximums for both drugs and medical</li>
+            <li>ER and urgent care copay structure</li>
+          </ul>
+        </section>
 
-      <FAQSection faqs={faqs} />
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Get a free plan check so your next refill isn&apos;t a financial panic
+          </h2>
+          <p className="mb-2">
+            Call me with your medication list. I&apos;ll run the numbers across available plans in your area and show you exactly what each one costs for your drugs, your doctors, and your situation. No fee. No obligation. No pressure.
+          </p>
+          <p>
+            Open Enrollment for Medicare Advantage and Part D runs October 15 through December 7. But you can call anytime to start planning.
+          </p>
+        </section>
 
-      <section className="mt-10">
-        <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
-        <ul className="space-y-2">
-          <li>
-            <Link
-              href="/services/medicare-broker-for-copd-patients"
-              className="text-blue-700 hover:underline"
+        <div className="bg-blue-600 text-white rounded-lg p-8 text-center mb-10">
+          <p className="text-xl font-semibold mb-2">
+            Ready for a plan that covers what you breathe?
+          </p>
+          <p className="text-lg mb-4">
+            Call{" "}
+            <a
+              href="tel:855-559-1700"
+              className="underline font-bold text-white"
             >
-              Medicare Broker for COPD Patients
-            </Link>
-          </li>
-          <li>
+              855-559-1700
+            </a>{" "}
+            or{" "}
             <Link
-              href="/guides/medicare-part-d-prescription-drug-plans"
-              className="text-blue-700 hover:underline"
+              href="/get-a-free-quote"
+              className="underline font-bold text-white"
             >
-              How Medicare Part D Prescription Drug Plans Work
+              Get a Free Quote
             </Link>
-          </li>
-          <li>
-            <Link
-              href="/guides/medicare-supplement-vs-advantage"
-              className="text-blue-700 hover:underline"
-            >
-              Medicare Supplement vs. Advantage: Which Is Right for You?
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/guides/medicare-durable-medical-equipment"
-              className="text-blue-700 hover:underline"
-            >
-              Medicare Coverage for Durable Medical Equipment
-            </Link>
-          </li>
-        </ul>
-      </section>
-    </main>
+          </p>
+          <p className="text-sm opacity-90">
+            Anthony Orner, Licensed Medicare Broker
+          </p>
+        </div>
+
+        <FAQSection faqs={faqs} />
+
+        <section className="mt-10 mb-8">
+          <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
+          <ul className="space-y-2">
+            <li>
+              <Link
+                href="/services/medicare-broker-for-copd-patients"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare Broker for COPD Patients
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/guides/medicare-part-d-explained"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare Part D Explained
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/guides/medigap-vs-medicare-advantage"
+                className="text-blue-600 hover:underline"
+              >
+                Medigap vs. Medicare Advantage
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/guides/medicare-prescription-drug-costs"
+                className="text-blue-600 hover:underline"
+              >
+                How to Lower Medicare Prescription Drug Costs
+              </Link>
+            </li>
+          </ul>
+        </section>
+      </article>
+    </>
   );
 }
