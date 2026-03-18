@@ -21,11 +21,14 @@
     "competitor-videos": "node generate-competitor-videos.js",
     "x-threads": "node generate-x-threads.js",
     "competitor-analysis": "node competitor-keyword-analysis.js",
-    "screaming-frog": "node screaming-frog-crawl.js"
+    "screaming-frog": "node screaming-frog-crawl.js",
+    "images": "node generate-page-images.js"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.39.0",
+    "@google/genai": "^1.0.0",
     "dotenv": "^16.4.0",
-    "googleapis": "^144.0.0"
+    "googleapis": "^144.0.0",
+    "sharp": "^0.33.0"
   }
 }
