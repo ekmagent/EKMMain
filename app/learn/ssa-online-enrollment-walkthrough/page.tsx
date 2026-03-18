@@ -56,8 +56,8 @@ const howToSchema = {
     {
       "@type": "HowToStep",
       position: 1,
-      name: "Go to SSA.gov and click Apply Online",
-      text: "Visit ssa.gov/medicare. Under 'Sign up for Medicare,' click the 'Apply online' button, then accept the terms of service and click Next.",
+      name: "Go to the SSA Medicare sign-up page",
+      text: "Visit ssa.gov/medicare/sign-up. Accept the terms of service and click Next.",
     },
     {
       "@type": "HowToStep",
@@ -113,22 +113,21 @@ const howToSchema = {
 const steps = [
   {
     number: 1,
-    title: "Go to SSA.gov and click 'Apply online'",
+    title: "Go to the SSA Medicare sign-up page",
     description:
       "Head to the Social Security Administration website. It might feel odd that Medicare enrollment goes through Social Security, but that's how it works.",
     details: [
       <>
-        Go to{" "}
+        Go directly to{" "}
         <a
-          href="https://www.ssa.gov/medicare"
+          href="https://www.ssa.gov/medicare/sign-up"
           target="_blank"
           rel="noopener noreferrer"
           className="text-blue-600 hover:underline font-medium"
         >
-          ssa.gov/medicare
+          ssa.gov/medicare/sign-up
         </a>
       </>,
-      'Under "Sign up for Medicare," click the "Apply online" button',
       "Accept the terms of service and click Next",
     ],
   },
