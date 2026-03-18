@@ -114,7 +114,7 @@ export default function MedicareBrokerChronicPainPatients() {
       </h1>
 
       <Image
-        src="/images/hub_medicare-broker-for-chronic-pain-patients.webp"
+        src="/images/medicare-broker-for-chronic-pain-patients.webp"
         alt="Medicare broker for chronic pain patients"
         width={800}
         height={400}

@@ -111,7 +111,7 @@ export default function QuickestWayToEnrollIntoPlanN() {
       </h1>
 
       <Image
-        src="/images/hub_quickest-way-to-enroll-into-plan-n.webp"
+        src="/images/quickest-way-to-enroll-into-plan-n.webp"
         alt="quickest way to enroll into Plan N"
         width={800}
         height={400}

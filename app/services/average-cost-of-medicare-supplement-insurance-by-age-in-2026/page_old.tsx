@@ -112,7 +112,7 @@ export default function AverageCostMedigapByAge2026() {
       </h1>
 
       <Image
-        src="/images/hub_average-cost-of-medicare-supplement-insurance-by-age-in-2026.webp"
+        src="/images/average-cost-of-medicare-supplement-insurance-by-age-in-2026.webp"
         alt="average cost of medicare supplement insurance by age in 2026"
         width={800}
         height={400}

@@ -113,7 +113,7 @@ export default function MedicareBrokerArthritisSufferers() {
       </h1>
 
       <Image
-        src="/images/hub_medicare-broker-for-arthritis-sufferers.webp"
+        src="/images/medicare-broker-for-arthritis-sufferers.webp"
         alt="Medicare broker for arthritis sufferers"
         width={800}
         height={400}

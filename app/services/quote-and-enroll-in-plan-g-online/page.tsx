@@ -108,7 +108,7 @@ export default function QuoteAndEnrollInPlanGOnline() {
       </h1>
 
       <Image
-        src="/images/hub_quote-and-enroll-in-plan-g-online.webp"
+        src="/images/quote-and-enroll-in-plan-g-online.webp"
         alt="Quote and enroll in Plan G online"
         width={800}
         height={400}

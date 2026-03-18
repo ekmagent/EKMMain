@@ -113,7 +113,7 @@ export default function MedicareBrokerHeartDiseasePatients() {
       </h1>
 
       <Image
-        src="/images/hub_medicare-broker-for-heart-disease-patients.webp"
+        src="/images/medicare-broker-for-heart-disease-patients.webp"
         alt="medicare broker for heart disease patients"
         width={800}
         height={400}

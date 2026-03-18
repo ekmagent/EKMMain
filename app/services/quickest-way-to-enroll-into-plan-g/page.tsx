@@ -110,7 +110,7 @@ export default function QuickestWayToEnrollIntoPlanG() {
         </h1>
 
         <Image
-          src="/images/hub_quickest-way-to-enroll-into-plan-g.webp"
+          src="/images/quickest-way-to-enroll-into-plan-g.webp"
           alt="quickest way to enroll into Plan G"
           width={800}
           height={400}

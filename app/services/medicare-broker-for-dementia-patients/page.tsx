@@ -111,7 +111,7 @@ export default function MedicareBrokerDementiaPatients() {
       </h1>
 
       <Image
-        src="/images/hub_medicare-broker-for-dementia-patients.webp"
+        src="/images/medicare-broker-for-dementia-patients.webp"
         alt="Medicare broker for dementia patients"
         width={800}
         height={400}

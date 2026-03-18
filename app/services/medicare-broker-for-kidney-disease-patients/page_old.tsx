@@ -112,7 +112,7 @@ export default function MedicareBrokerKidneyDiseasePatients() {
       </h1>
 
       <Image
-        src="/images/hub_medicare-broker-for-kidney-disease-patients.webp"
+        src="/images/medicare-broker-for-kidney-disease-patients.webp"
         alt="Medicare broker for kidney disease patients"
         width={800}
         height={400}

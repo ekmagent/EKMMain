@@ -111,7 +111,7 @@ export default function WhichMedicarePlanCOPD() {
       </h1>
 
       <Image
-        src="/images/hub_which-medicare-supplemental-plan-best-for-copd-patient.webp"
+        src="/images/which-medicare-supplemental-plan-best-for-copd-patient.webp"
         alt="which medicare supplemental plan best for copd patient"
         width={800}
         height={400}

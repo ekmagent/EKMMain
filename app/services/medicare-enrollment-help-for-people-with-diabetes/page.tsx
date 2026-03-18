@@ -111,7 +111,7 @@ export default function MedicareEnrollmentHelpDiabetes() {
       </h1>
 
       <Image
-        src="/images/hub_medicare-enrollment-help-for-people-with-diabetes.webp"
+        src="/images/medicare-enrollment-help-for-people-with-diabetes.webp"
         alt="Medicare enrollment help for people with diabetes"
         width={800}
         height={400}

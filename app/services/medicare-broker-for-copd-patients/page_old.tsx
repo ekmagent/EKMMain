@@ -110,7 +110,7 @@ export default function MedicareBrokerForCOPDPatients() {
       </h1>
 
       <Image
-        src="/images/hub_medicare-broker-for-copd-patients.webp"
+        src="/images/medicare-broker-for-copd-patients.webp"
         alt="Medicare broker for COPD patients"
         width={800}
         height={400}

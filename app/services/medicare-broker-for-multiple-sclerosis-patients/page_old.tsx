@@ -112,7 +112,7 @@ export default function MedicareBrokerForMSPatients() {
       </h1>
 
       <Image
-        src="/images/hub_medicare-broker-for-multiple-sclerosis-patients.webp"
+        src="/images/medicare-broker-for-multiple-sclerosis-patients.webp"
         alt="Medicare broker for multiple sclerosis patients"
         width={800}
         height={400}

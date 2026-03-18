@@ -113,7 +113,7 @@ export default function MedicareBrokerHighBloodPressure() {
       </h1>
 
       <Image
-        src="/images/hub_medicare-broker-for-high-blood-pressure-patients.webp"
+        src="/images/medicare-broker-for-high-blood-pressure-patients.webp"
         alt="Medicare broker for high blood pressure patients"
         width={800}
         height={400}

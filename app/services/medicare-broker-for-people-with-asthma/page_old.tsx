@@ -109,7 +109,7 @@ export default function MedicareBrokerForPeopleWithAsthma() {
       </h1>
 
       <Image
-        src="/images/hub_medicare-broker-for-people-with-asthma.webp"
+        src="/images/medicare-broker-for-people-with-asthma.webp"
         alt="Medicare broker for people with asthma"
         width={800}
         height={400}

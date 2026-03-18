@@ -110,7 +110,7 @@ export default function IndependentMedicareSuppAgentsPage() {
         </h1>
 
         <Image
-          src="/images/hub_independent-medicare-supplement-insurance-agents.webp"
+          src="/images/independent-medicare-supplement-insurance-agents.webp"
           alt="independent medicare supplement insurance agents"
           width={800}
           height={400}

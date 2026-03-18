@@ -108,7 +108,7 @@ export default function BestMedicarePlanForForeignTravel() {
       </h1>
 
       <Image
-        src="/images/hub_best-medicare-plan-for-foreign-travel.webp"
+        src="/images/best-medicare-plan-for-foreign-travel.webp"
         alt="the best medicare plan for foreign travel"
         width={800}
         height={400}

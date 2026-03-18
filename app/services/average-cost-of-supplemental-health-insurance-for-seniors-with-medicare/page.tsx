@@ -111,7 +111,7 @@ export default function AverageCostSupplementalHealthInsurancePage() {
       </h1>
 
       <Image
-        src="/images/hub_average-cost-of-supplemental-health-insurance-for-seniors-with-medicare.webp"
+        src="/images/average-cost-of-supplemental-health-insurance-for-seniors-with-medicare.webp"
         alt="average cost of supplemental health insurance for seniors with medicare"
         width={800}
         height={400}

@@ -111,7 +111,7 @@ export default function MedicareBrokerLupusPage() {
         </h1>
 
         <Image
-          src="/images/hub_medicare-broker-for-people-with-lupus.webp"
+          src="/images/medicare-broker-for-people-with-lupus.webp"
           alt="medicare broker for people with lupus"
           width={800}
           height={400}
