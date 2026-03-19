@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Medicare Broker for Dementia Patients",
-      item: "https://www.medicareyourself.com/services/medicare-broker-for-dementia-patients",
+      item: "https://medicareyourself.com/services/medicare-broker-for-dementia-patients",
     },
   ],
 };
@@ -51,48 +51,50 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  mainEntityOfPage:
-    "https://www.medicareyourself.com/services/medicare-broker-for-dementia-patients",
+  datePublished: "2025-07-01",
+  dateModified: "2025-07-01",
 };
 
 const faqs = [
   {
     question: "How much does it cost to use a Medicare broker?",
     answer:
-      "Nothing. I'm paid by the insurance carriers, not by you. There's no fee for my help comparing plans, reviewing drug coverage, or walking you through options for your loved one's care. The plans and premiums are the same whether you call me or go direct.",
-  },
-  {
-    question: "Does Medicare cover anything for dementia patients?",
-    answer:
-      "Yes. Medicare Part B covers cognitive assessments and care planning visits. Part A covers skilled nursing facility stays and qualifying home health services. Part D covers many dementia medications, though formularies vary by plan. What Medicare does not cover is long-term custodial care like memory care facilities or around-the-clock personal assistance.",
+      "Nothing. Medicare brokers are paid by insurance carriers, not by you. Our consultations, plan comparisons, and enrollment help are completely free to families and caregivers.",
   },
   {
     question:
-      "Can I change my parent's Medicare plan if they have dementia?",
+      "Does Medicare cover memory care or assisted living for dementia?",
     answer:
-      "If you have Power of Attorney or are an authorized representative, yes. During the annual Open Enrollment period (October 15 through December 7), you can switch Advantage or Part D plans. Outside of that window, certain qualifying life events may allow changes. I can help you figure out what's available and handle the process.",
+      "Original Medicare does not cover long-term custodial care like memory care facilities or assisted living. It covers skilled nursing stays (up to 100 days per benefit period after a qualifying hospital stay) and home health services when ordered by a doctor. For long-term residential care, families typically need Medicaid, long-term care insurance, or private pay.",
   },
   {
     question:
-      "What's the difference between Medicare Supplement and Medicare Advantage for dementia care?",
+      "Should a dementia patient stay on Medicare Advantage or switch to Original Medicare?",
     answer:
-      "A Medicare Supplement (Medigap) plan lets your loved one see any provider that accepts Medicare, with no referrals or network restrictions. This matters when they need specialists or home health across multiple systems. Medicare Advantage plans may cost less monthly but use provider networks and prior authorizations, which can create delays when care needs change quickly.",
+      "It depends on care needs. Medicare Advantage plans require referrals and network restrictions, which can be difficult when a patient can't easily travel to appointments. Original Medicare with a Supplement offers broader provider access and no prior authorizations. We can review your parent's specific situation on a free call.",
+  },
+  {
+    question:
+      "Does Medicare Part D cover dementia medications like Leqembi?",
+    answer:
+      "Part D plans vary in which dementia drugs they cover and at what tier. Newer treatments like lecanemab (Leqembi) may be covered under Part B when administered in a clinical setting. Older medications like donepezil and memantine are typically on Part D formularies. We can check your parent's specific prescriptions against available plans.",
   },
 ];
 
-export default function MedicareBrokerDementiaPatients() {
+export default function MedicareBrokerForDementiaPatients() {
   return (
-    <main className="max-w-4xl mx-auto px-4 py-8">
-      <SchemaMarkup schema={[breadcrumbSchema, articleSchema]} />
+    <main className="max-w-3xl mx-auto px-4 py-8">
+      <SchemaMarkup schema={breadcrumbSchema} />
+      <SchemaMarkup schema={articleSchema} />
 
-      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-4">
+      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
         <Link href="/" className="hover:underline">
           Home
         </Link>{" "}
@@ -111,18 +113,19 @@ export default function MedicareBrokerDementiaPatients() {
       </h1>
 
       <Image
-        src="/images/medicare-broker-for-dementia-patients.webp"
+        src="/images/hub_medicare-broker-for-dementia-patients.webp"
         alt="Medicare broker for dementia patients"
         width={800}
         height={400}
-        className="rounded-lg mb-6 w-full"
+        className="w-full rounded-lg mb-6"
+        priority
       />
 
       <p className="text-lg mb-2">
-        A Medicare broker for dementia patients isn't something most families think to search for until the system has already worn them down. You're managing medications, fighting with provider networks, trying to get home health approved, and watching someone you love change in ways no one prepared you for.
+        A Medicare broker for dementia patients helps caregivers make coverage decisions when their loved one can't advocate for themselves. You're managing doctor visits, medications, behavioral changes, and grief that doesn't have a clean edge to it.
       </p>
       <p className="text-lg mb-6">
-        I'm Anthony Orner, a licensed Medicare broker in NJ. I help caregivers and families sort through the coverage that actually applies to their loved one's situation - no cost, no pressure.
+        I'm Anthony Orner, a licensed Medicare broker. I work directly with families dealing with cognitive decline to make sure the plan matches the care, not the other way around. This call is free.
       </p>
 
       <PhoneCTA />
@@ -132,16 +135,16 @@ export default function MedicareBrokerDementiaPatients() {
           What Medicare covers for dementia: home health, skilled nursing, and more
         </h2>
         <p className="mb-2">
-          Medicare doesn't cover long-term custodial care. That's the hard truth, and it catches a lot of families off guard. But it does cover more than people realize for earlier and mid-stage needs:
+          Original Medicare (Parts A and B) covers several dementia-related services, but not the one most families eventually need: long-term custodial care.
         </p>
-        <ul className="list-disc ml-6 mb-4 space-y-1">
-          <li>Part B covers cognitive assessment and care plan visits - you pay 20% after the $283 annual deductible</li>
-          <li>Part A covers skilled nursing facility stays (days 1-20 at $0; days 21-100 at $209.50/day coinsurance in 2026)</li>
-          <li>Home health services are covered when ordered by a doctor and provided by a Medicare-certified agency</li>
-          <li>Occupational therapy, speech therapy, and certain mental health services are covered under Part B</li>
+        <ul className="list-disc pl-6 space-y-1 mb-2">
+          <li>Home health aide and skilled nursing visits when doctor-ordered</li>
+          <li>Cognitive assessments and care planning under the Annual Wellness Visit</li>
+          <li>Skilled nursing facility: $0 copay for days 1-20, then $209.50/day for days 21-100 (2026)</li>
+          <li>Hospice care under Part A when a physician certifies a 6-month prognosis</li>
         </ul>
         <p>
-          The gap between what Medicare covers and what dementia actually demands is where families feel the most pain. Knowing exactly where those lines are helps you plan.
+          Medicare does not pay for memory care facilities, assisted living, or 24/7 personal care aides. That gap catches families off guard constantly.
         </p>
       </section>
 
@@ -150,64 +153,70 @@ export default function MedicareBrokerDementiaPatients() {
           How Supplement and Advantage plans differ for progressive cognitive conditions
         </h2>
         <p className="mb-2">
-          With dementia, care needs shift fast. A plan that worked six months ago can become a barrier when your parent can't travel to in-network providers or when you need a visiting specialist.
+          I hear from caregivers who hit a wall with Medicare Advantage: their parent can't travel to in-network providers, can't sit through prior authorization delays, or gets denied home health because they missed an in-person visit. That's a real pattern, not an edge case.
         </p>
         <p className="mb-2">
-          Medicare Supplement (Medigap) plans like Plan G give you open access to any doctor or facility that accepts Medicare. No referrals, no prior authorizations. That flexibility matters when someone can't physically get to a specific clinic or when their care team changes.
+          Original Medicare with a Medigap Supplement gives broader provider access and no referral requirements. Plan G, for example, covers the Part A deductible ($1,676 in 2026) and all Part B excess charges. No networks.
         </p>
         <p>
-          Medicare Advantage plans can save money on premiums, but network restrictions and authorization requirements cause real problems for dementia patients. I've heard from too many caregivers who couldn't get home health approved because their loved one's Advantage plan required an in-person visit they couldn't make happen.
+          For someone whose condition is progressing, flexibility matters more than low premiums. I can walk you through the actual tradeoffs based on your parent's doctors and care needs.
         </p>
       </section>
 
       <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
-          Part D considerations for dementia medications
+          Part D considerations for dementia medications like Leqembi and Aduhelm
         </h2>
         <p className="mb-2">
-          Common dementia drugs like donepezil and rivastigmine are available as generics and covered by most Part D plans. But newer treatments - and the costs around them - vary dramatically by formulary.
+          Generic donepezil and memantine are on most Part D formularies at affordable tiers. Newer treatments are more complicated.
+        </p>
+        <p className="mb-2">
+          Lecanemab (Leqembi) is typically administered as an IV infusion in a clinical setting, which may fall under Part B rather than Part D. Coverage requires an Alzheimer's diagnosis and ongoing monitoring, including regular brain imaging.
         </p>
         <p>
-          I compare Part D plans based on your loved one's actual prescription list. Drug tier placement, copay amounts, and pharmacy networks all affect what you pay. This isn't something to guess at during enrollment.
+          Every Part D plan has a different formulary. I check your parent's exact medications against available plans so you're not guessing at a pharmacy counter.
         </p>
       </section>
 
       <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
-          Why caregivers are usually the ones making this call
+          Why network restrictions hurt dementia patients the most
         </h2>
         <p className="mb-2">
-          Most of the people I talk to aren't the patient. They're the adult daughter managing everything from three towns away. The spouse who's exhausted. The grandson who became a full-time caregiver at 22.
+          Caregivers on Reddit describe the same scenario over and over: a parent in a memory care facility who can't be transported to an in-network doctor, so they can't get the referral they need, so they can't get the treatment approved. It's a loop with no good exit.
         </p>
         <p>
-          You don't need to become a Medicare expert on top of everything else. If you have Power of Attorney or are listed as an authorized representative, I can work directly with you to review plans, compare costs, and make changes during enrollment windows.
+          If your parent is on a Medicare Advantage plan and hitting walls like this, you may have options to switch during certain enrollment periods or through guaranteed issue rights. Let's look at what applies to your situation.
         </p>
       </section>
 
       <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
-          When and how to make plan changes
+          Planning ahead: what caregivers wish they'd known sooner
         </h2>
-        <p className="mb-2">
-          Medicare Advantage and Part D plans can be changed during Open Enrollment, October 15 through December 7. If your loved one has a qualifying event - like moving to a new facility or losing existing coverage - a Special Enrollment Period may apply.
-        </p>
-        <p>
-          Don't wait until things are urgent. If you're already feeling stuck with the current plan, call me now and we'll figure out your options before the next window opens.
-        </p>
+        <ul className="list-disc pl-6 space-y-1">
+          <li>Get a healthcare power of attorney in place early, before capacity becomes a question</li>
+          <li>Start Medicaid planning conversations now if long-term care may be needed (the look-back period is typically 5 years)</li>
+          <li>Ask about the GUIDE Model, a newer Medicare program providing dementia care management and caregiver support services</li>
+          <li>Review coverage annually, because care needs in year three look nothing like year one</li>
+        </ul>
       </section>
 
       <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
-          Schedule a free call - I help caregivers with this too
+          Schedule a free call — we help caregivers navigate this too
         </h2>
+        <p className="mb-2">
+          You don't need to have all the answers before you call. Most caregivers I talk to start with "I don't even know what to ask." That's fine. That's what I'm here for.
+        </p>
         <p>
-          You're carrying a lot. Let me carry the Medicare part. I'll review your loved one's current coverage, check whether their doctors and meds are covered, and tell you straight what makes sense. No cost, no obligation.
+          I'll review your parent's current coverage, their medications, their care situation, and tell you what your real options are. No cost, no pressure, no enrollment required.
         </p>
       </section>
 
       <div className="mt-10 bg-blue-50 border border-blue-200 rounded-lg p-6 text-center">
         <p className="text-xl font-semibold mb-2">
-          Talk to a licensed Medicare broker who understands dementia care
+          Talk to a Medicare broker who understands dementia care.
         </p>
         <p className="text-lg mb-4">
           Call{" "}
@@ -236,10 +245,18 @@ export default function MedicareBrokerDementiaPatients() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/medicare-guides/medicare-supplement-plans-nj"
+              href="/medicare-guides/medicare-supplement-plan-g"
               className="text-blue-700 hover:underline"
             >
-              Medicare Supplement Plans in NJ
+              Medicare Supplement Plan G: What It Covers and What It Costs
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/medicare-guides/medicare-advantage-vs-medigap"
+              className="text-blue-700 hover:underline"
+            >
+              Medicare Advantage vs. Medigap: Which Is Right for You?
             </Link>
           </li>
           <li>
@@ -247,7 +264,7 @@ export default function MedicareBrokerDementiaPatients() {
               href="/medicare-guides/medicare-part-d-drug-coverage"
               className="text-blue-700 hover:underline"
             >
-              Medicare Part D Drug Coverage Guide
+              Medicare Part D Drug Coverage Explained
             </Link>
           </li>
           <li>
@@ -255,15 +272,7 @@ export default function MedicareBrokerDementiaPatients() {
               href="/services/medicare-broker-for-caregivers"
               className="text-blue-700 hover:underline"
             >
-              Medicare Help for Caregivers
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/medicare-guides/medicare-home-health-coverage"
-              className="text-blue-700 hover:underline"
-            >
-              What Medicare Covers for Home Health
+              Medicare Broker for Caregivers: How We Help
             </Link>
           </li>
         </ul>

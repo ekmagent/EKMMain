@@ -21,9 +21,9 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.medicareyourself.com" },
-    { "@type": "ListItem", position: 2, name: "Medicare Supplement", item: "https://www.medicareyourself.com/medicare-supplement" },
-    { "@type": "ListItem", position: 3, name: "Switch Carriers", item: "https://www.medicareyourself.com/medicare-supplement/switch-carriers" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://medicareyourself.com" },
+    { "@type": "ListItem", position: 2, name: "Medicare Supplement", item: "https://medicareyourself.com/medicare-supplement" },
+    { "@type": "ListItem", position: 3, name: "Switch Carriers", item: "https://medicareyourself.com/medicare-supplement/switch-carriers" },
   ],
 };
 
@@ -37,12 +37,12 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
     name: "MedicareYourself / EasyKind Medicare",
-    url: "https://www.medicareyourself.com",
+    url: "https://medicareyourself.com",
   },
 };
 

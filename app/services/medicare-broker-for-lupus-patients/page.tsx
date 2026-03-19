@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Medicare Broker for Lupus Patients",
-      item: "https://www.medicareyourself.com/services/medicare-broker-for-lupus-patients",
+      item: "https://medicareyourself.com/services/medicare-broker-for-lupus-patients",
     },
   ],
 };
@@ -51,7 +51,7 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
@@ -64,30 +64,30 @@ const articleSchema = {
 
 const faqs = [
   {
-    question: "Does Medicare cover biologic infusions for lupus like Saphnelo or Benlysta?",
+    question: "Can you get Medicare with lupus?",
     answer:
-      "Medicare Part B typically covers infusions administered in a doctor's office or infusion center. Self-injected biologics may fall under Part D instead. Coverage details and out-of-pocket costs vary by plan, so it's worth reviewing your specific drug list with a broker before enrolling.",
+      "Yes. If you're 65 or older, you qualify for Medicare regardless of lupus. If you're under 65, you can qualify through Social Security Disability Insurance (SSDI) after a 24-month waiting period from when disability benefits begin. Some lupus patients with end-stage renal disease may qualify sooner.",
   },
   {
-    question: "Can I switch Medicare plans if my lupus medications aren't covered?",
+    question: "What insurance covers lupus treatments like biologics?",
     answer:
-      "You can switch Medicare Advantage or Part D plans during Open Enrollment (October 15 to December 7). For Medigap, switching outside your initial open enrollment period may require medical underwriting. Call to discuss your options based on your specific situation.",
+      "Medicare covers lupus treatment across multiple parts. Part B covers infused biologics like belimumab (Benlysta) and anifrolumab (Saphnelo) administered in a doctor's office or infusion center. Self-injected biologics may fall under Part D. Lab work, rheumatology visits, and imaging are covered under Part B. The right Medigap or Advantage plan reduces what you pay out of pocket.",
   },
   {
-    question: "Does lupus qualify me for Medicare before age 65?",
+    question: "How does a lupus diagnosis change my Medigap options in NJ?",
     answer:
-      "If lupus prevents you from working and you receive Social Security Disability Insurance (SSDI), you become eligible for Medicare after 24 months of disability benefits. Some lupus patients with end-stage renal disease may qualify sooner.",
+      "During your Medigap Open Enrollment Period (the 6 months starting when you turn 65 and have Part B), insurers in NJ cannot deny you or charge more because of lupus. Outside that window, medical underwriting applies, and a lupus diagnosis could mean higher premiums or denial. Timing your enrollment correctly is critical.",
   },
   {
-    question: "How does a Medicare broker help lupus patients differently than an online tool?",
+    question: "Why would a lupus patient need a Medicare broker?",
     answer:
-      "Online comparison tools don't account for how often you see specialists, which biologics you take, or how frequently your treatment changes. A broker reviews your full medication list, your doctors' networks, and your lab frequency to match you with a plan that actually fits your care needs.",
+      "Lupus requires coordination across rheumatologists, labs, imaging, and high-cost medications. A broker who understands these needs can match you with a plan that keeps your specialists in-network, covers your specific drugs, and protects you from unexpected costs during flares. Anthony Orner provides this review at no cost to you.",
   },
 ];
 
 export default function MedicareBrokerForLupusPatients() {
   return (
-    <main className="max-w-4xl mx-auto px-4 py-8">
+    <main className="max-w-3xl mx-auto px-4 py-8">
       <SchemaMarkup schema={breadcrumbSchema} />
       <SchemaMarkup schema={articleSchema} />
 
@@ -103,163 +103,156 @@ export default function MedicareBrokerForLupusPatients() {
         <span className="text-gray-700">Medicare Broker for Lupus Patients</span>
       </nav>
 
-      <h1 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900">
-        Medicare Broker for Lupus Patients Whose Coverage Shouldn't Be as Unpredictable as Their Flares
+      <h1 className="text-3xl font-bold mb-4 leading-snug">
+        Medicare Broker for Lupus Patients Whose Coverage Shouldn&apos;t Be as
+        Unpredictable as Their Flares
       </h1>
 
       <Image
-        src="/images/medicare-broker-for-lupus-patients.webp"
+        src="/images/hub_medicare-broker-for-lupus-patients.webp"
         alt="Medicare broker for lupus patients"
         width={800}
         height={400}
-        className="rounded-lg mb-6 w-full"
+        className="w-full rounded-lg mb-6"
+        priority
       />
 
-      <p className="text-lg text-gray-700 mb-2">
-        A Medicare broker for lupus patients does what online plan finders can't: account for biologics that change, specialists you can't lose, and lab work that runs every few weeks. I'm Anthony Orner, a licensed broker in NJ, and I help people with lupus find plans built around how they actually use their coverage.
+      <p className="text-lg mb-2">
+        A Medicare broker for lupus patients does one thing most plans don't: account for what happens when your body turns on you without warning. You didn't spend years fighting for a diagnosis just to fight your insurance company every time you need labs, a rheumatology visit, or a biologic infusion.
       </p>
-      <p className="text-lg text-gray-700 mb-6">
-        You already spend enough energy managing flares. Choosing a Medicare plan shouldn't add to the exhaustion.
+      <p className="text-lg mb-6">
+        I'm Anthony Orner, a licensed Medicare broker in New Jersey. I help lupus patients find plans built for how they actually use healthcare. No cost to you.
       </p>
 
       <PhoneCTA />
 
-      <section className="mt-10 mb-8">
-        <h2 className="text-2xl font-semibold mb-3 text-gray-900">
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold mb-3">
           Rheumatology visits, biologics, and lab work: what your plan must cover
         </h2>
-        <p className="text-gray-700 mb-3">
-          Lupus care isn't one doctor and one prescription. You're likely seeing a rheumatologist, dermatologist, nephrologist, or cardiologist - sometimes all of them. Your plan needs to cover:
+        <p className="mb-2">
+          Medicare Part B covers doctor-administered biologics like Benlysta and Saphnelo at 80% after the $283 annual deductible. You're responsible for the remaining 20%, which on a $3,000+ infusion adds up fast.
         </p>
-        <ul className="list-disc pl-6 text-gray-700 space-y-1 mb-3">
-          <li>Specialist visits without referral barriers that delay care during flares</li>
-          <li>Biologic infusions (Part B) and self-injected medications (Part D)</li>
-          <li>Frequent bloodwork - CBC, ANA, complement levels, kidney panels</li>
-          <li>Imaging for joint inflammation or organ involvement</li>
-        </ul>
-        <p className="text-gray-700">
-          Original Medicare Part B covers most outpatient care at 80% after the $283 annual deductible. That remaining 20% on biologics and frequent labs adds up fast without supplemental coverage.
+        <p className="mb-2">
+          Part B also covers ANA panels, complement levels, CBC draws, and rheumatology visits. But if your self-injected medication falls under Part D, copays depend entirely on your plan's formulary tier. Wrong plan, wrong tier, and suddenly you're staring at a bill that forces you to skip doses.
         </p>
       </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3 text-gray-900">
+      <section className="mt-8">
+        <h2 className="text-2xl font-semibold mb-3">
           How a lupus diagnosis changes your Medigap options in NJ
         </h2>
-        <p className="text-gray-700 mb-3">
-          Your Medigap Open Enrollment Period lasts 6 months starting the month you turn 65 and are enrolled in Part B. During that window, no carrier can deny you or charge more because of lupus.
+        <p className="mb-2">
+          Your Medigap Open Enrollment Period lasts 6 months, starting the month you turn 65 and are enrolled in Part B. During that window, no carrier in NJ can deny you or charge more because of lupus.
         </p>
-        <p className="text-gray-700">
-          Outside that window, medical underwriting applies. Lupus can make it harder - or more expensive - to get approved. If you're on Medicare through SSDI before 65, NJ rules around guaranteed issue differ. Call me to confirm what applies to your situation before assuming you're locked out.
+        <p className="mb-2">
+          Miss that window and medical underwriting kicks in. A lupus diagnosis with organ involvement or biologic use can mean rejection. I've seen it happen. If you're approaching 65, call me before that clock starts.
         </p>
       </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3 text-gray-900">
-          Why lupus patients often end up in the wrong Medicare plan
+      <section className="mt-8">
+        <h2 className="text-2xl font-semibold mb-3">
+          Why lupus patients often get stuck in the wrong Medicare plan
         </h2>
-        <p className="text-gray-700 mb-3">
-          People pick a plan when they're feeling okay. Then a flare hits, and suddenly they need an infusion their Part D doesn't cover without a $2,000 deductible. Or their rheumatologist isn't in-network on their Medicare Advantage plan, and switching mid-year isn't an option.
-        </p>
-        <p className="text-gray-700">
-          Lupus treatment changes. Your plan needs to handle the worst months, not just the stable ones.
+        <ul className="list-disc pl-6 space-y-2">
+          <li>They picked an Advantage plan with a narrow network that dropped their rheumatologist mid-year.</li>
+          <li>Their biologic moved to a higher Part D tier, jumping copays from $40 to $1,500 a month.</li>
+          <li>They didn't realize infusion center coverage varies by plan.</li>
+          <li>They chose the cheapest premium without checking specialist access or drug formularies.</li>
+        </ul>
+        <p className="mt-3">
+          Lupus costs aren't optional. When you're in a flare, you can't shop around or wait until next enrollment.
         </p>
       </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3 text-gray-900">
-          The real cost problem nobody warns you about
+      <section className="mt-8">
+        <h2 className="text-2xl font-semibold mb-3">
+          What I check before recommending a plan
         </h2>
-        <p className="text-gray-700 mb-3">
-          Specialty pharmacy costs for drugs like Benlysta or Saphnelo can trigger massive out-of-pocket expenses under Part D. Some plans have high deductibles on specialty tiers that hit you in January before any coverage kicks in.
-        </p>
-        <p className="text-gray-700">
-          I check formularies, tier placement, and manufacturer assistance programs so you're not blindsided at the infusion center. Rates vary by carrier and plan - I compare them so you don't have to call six places.
-        </p>
+        <ul className="list-disc pl-6 space-y-2">
+          <li>Every medication you take, including infusions, injectables, and daily pills</li>
+          <li>Your rheumatologist, dermatologist, nephrologist, and any other specialists</li>
+          <li>How often you need lab work and which facilities you use</li>
+          <li>Whether a Medigap plan or Medicare Advantage plan gives you better protection at your usage level</li>
+        </ul>
       </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3 text-gray-900">
-          Medicare Advantage vs. Medigap when you have lupus
+      <section className="mt-8">
+        <h2 className="text-2xl font-semibold mb-3">
+          The real cost of getting this wrong
         </h2>
-        <p className="text-gray-700 mb-3">
-          Medicare Advantage plans can work for people with stable, predictable care. Lupus is neither. Network restrictions, prior authorizations on biologics, and referral requirements can slow down treatment when you need it most.
+        <p className="mb-2">
+          I talk to people who've stopped taking biologics because their plan made them unaffordable. Others have waited months for a new rheumatologist because their network shrank. Some didn't know about manufacturer assistance programs or Extra Help through Social Security.
         </p>
-        <p className="text-gray-700">
-          A Medigap plan (like Plan G or Plan N) paired with Original Medicare lets you see any Medicare-accepting specialist without network limits. For many lupus patients, that flexibility matters more than the extra benefits Advantage plans advertise.
+        <p>
+          These aren't abstract problems. They're the difference between managing lupus and being managed by it.
         </p>
       </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3 text-gray-900">
-          Get matched with coverage that shows up when your body won't
+      <section className="mt-8">
+        <h2 className="text-2xl font-semibold mb-3">
+          Get matched with coverage that shows up when your body won&apos;t
         </h2>
-        <p className="text-gray-700 mb-3">
-          You shouldn't have to spend your good days fighting insurance phone trees. Bring me your medication list, your doctors, and your concerns. I'll show you which plans actually cover your care - at no cost to you.
+        <p className="mb-2">
+          You already spend enough energy explaining your condition to people who don't get it. Your Medicare plan shouldn't be another fight.
         </p>
-        <p className="text-gray-700">
-          I work with multiple carriers across NJ. My job is finding the plan that fits your care, not selling you the one that pays me the most.
+        <p>
+          Call me for a free plan review. I'll look at your medications, your doctors, and your actual healthcare needs. Then I'll show you what's available and what it costs. No pressure, no sales pitch.
         </p>
       </section>
 
-      <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 my-10 text-center">
-        <p className="text-xl font-semibold text-gray-900 mb-2">
-          Talk to a broker who understands lupus care needs
+      <div className="mt-10 bg-blue-600 text-white rounded-lg p-6 text-center">
+        <p className="text-xl font-semibold mb-2">
+          Talk to a broker who understands lupus coverage.
         </p>
-        <p className="text-gray-700 mb-4">
-          Call{" "}
-          <a
-            href="tel:8555591700"
-            className="text-blue-700 font-bold hover:underline"
-          >
+        <p className="text-2xl font-bold mb-3">
+          <a href="tel:8555591700" className="underline">
             855-559-1700
-          </a>{" "}
-          or{" "}
-          <Link
-            href="/get-a-free-quote"
-            className="text-blue-700 font-bold hover:underline"
-          >
-            get a free quote online
-          </Link>
-          . No obligation. No pressure.
+          </a>
         </p>
+        <Link
+          href="/get-a-free-quote"
+          className="inline-block bg-white text-blue-600 font-semibold px-6 py-3 rounded-lg hover:bg-gray-100 transition"
+        >
+          Get a Free Quote
+        </Link>
       </div>
 
-      <FAQSection faqs={faqs} />
+      <section className="mt-10">
+        <FAQSection faqs={faqs} />
+      </section>
 
       <section className="mt-10">
-        <h2 className="text-2xl font-semibold mb-4 text-gray-900">
-          Related resources
-        </h2>
+        <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
         <ul className="space-y-2">
           <li>
             <Link
-              href="/medicare-guides/medigap-plan-g-nj"
-              className="text-blue-700 hover:underline"
+              href="/services/medicare-broker-for-chronic-conditions"
+              className="text-blue-600 hover:underline"
             >
-              Medigap Plan G in NJ: What It Covers and What It Costs
+              Medicare Broker for Chronic Conditions
             </Link>
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-part-d-drug-coverage"
-              className="text-blue-700 hover:underline"
+              href="/medicare-guides/medigap-open-enrollment-nj"
+              className="text-blue-600 hover:underline"
             >
-              Medicare Part D: How Drug Coverage Works
+              Medigap Open Enrollment in NJ
             </Link>
           </li>
           <li>
             <Link
-              href="/services/medicare-broker-for-chronic-illness"
-              className="text-blue-700 hover:underline"
+              href="/medicare-guides/medicare-part-d-biologics"
+              className="text-blue-600 hover:underline"
             >
-              Medicare Broker for Chronic Illness
+              Medicare Part D and Biologic Medications
             </Link>
           </li>
           <li>
             <Link
               href="/medicare-guides/medicare-advantage-vs-medigap"
-              className="text-blue-700 hover:underline"
+              className="text-blue-600 hover:underline"
             >
               Medicare Advantage vs. Medigap: Which Is Right for You?
             </Link>

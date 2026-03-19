@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Howell NJ Medicare Insurance Agents",
-      item: "https://www.medicareyourself.com/services/howell-nj-medicare-insurance-agents",
+      item: "https://medicareyourself.com/services/howell-nj-medicare-insurance-agents",
     },
   ],
 };
@@ -51,184 +51,169 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-01-01",
-  dateModified: new Date().toISOString().split("T")[0],
+  datePublished: "2025-07-01",
+  dateModified: "2025-07-01",
 };
 
 const faqs = [
   {
-    question: "What is the best Medicare plan in New Jersey?",
-    answer:
-      "There is no single best plan for everyone. It depends on your doctors, prescriptions, and budget. Medicare Supplement Plan G is popular because it covers nearly everything Original Medicare does not, leaving you with only the $257 Part B annual deductible. Medicare Advantage plans may have lower premiums but use provider networks. An independent broker can compare both types side by side for your situation.",
-  },
-  {
     question: "Should I use an insurance agent for Medicare?",
     answer:
-      "Yes, especially an independent agent. A captive agent only shows you one carrier's plans. An independent broker like Anthony Orner compares plans across multiple carriers to find the right fit for your needs and budget. The service is free to you because brokers are paid by the insurance companies, not the client.",
+      "Yes. A licensed Medicare agent helps you compare plans side by side at no cost to you. Independent brokers like Anthony Orner work with multiple carriers, so you see more options than you would with a single-company agent. The carrier pays the broker's commission — you pay the same premium whether you use an agent or enroll directly.",
   },
   {
-    question: "How much do Medicare agents charge?",
+    question: "Who pays Medicare insurance agents?",
     answer:
-      "Medicare agents do not charge you anything. Brokers are compensated directly by the insurance carriers. Your premium is the same whether you enroll through a broker or go directly to the insurance company. There is zero cost or obligation for a consultation.",
+      "Insurance carriers pay agents a commission when you enroll in a plan. This commission is built into every plan's premium, so your monthly cost is identical whether you use a broker or go direct. There's no extra fee for working with an independent agent.",
   },
   {
-    question: "When is the best time to enroll in a Medigap plan in Howell?",
+    question: "What is the best Medicare plan in New Jersey?",
     answer:
-      "Your Medigap Open Enrollment Period begins the month you turn 65 and are enrolled in Part B. During this 6-month window, carriers cannot deny you or charge higher premiums due to health conditions. Anthony's practice is to have clients apply up to 6 months before their Part B start date to lock in the best rate early.",
+      "There's no single best plan — it depends on your doctors, prescriptions, and budget. In Monmouth County, many residents choose Medigap Plan G for predictable costs or a Medicare Advantage PPO for lower premiums with network flexibility. A free consultation helps you compare real numbers for your specific situation.",
+  },
+  {
+    question: "When should I apply for a Medigap plan in Howell?",
+    answer:
+      "Your Medigap Open Enrollment Period starts the month you turn 65 and are enrolled in Part B. During this 6-month window, carriers must accept you regardless of health history and cannot charge more for pre-existing conditions. Applying up to 6 months before your Part B start date helps lock in the best rate.",
   },
 ];
 
 export default function HowellNJMedicareInsuranceAgents() {
   return (
     <main className="max-w-4xl mx-auto px-4 py-8">
-      <SchemaMarkup schema={breadcrumbSchema} />
-      <SchemaMarkup schema={articleSchema} />
+      <SchemaMarkup schema={[breadcrumbSchema, articleSchema]} />
 
       <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
         <Link href="/" className="hover:underline">
           Home
-        </Link>{" "}
-        &gt;{" "}
+        </Link>
+        {" > "}
         <Link href="/medicare-guides" className="hover:underline">
           Medicare Guides
-        </Link>{" "}
-        &gt;{" "}
+        </Link>
+        {" > "}
         <span className="text-gray-700">Howell NJ Medicare Insurance Agents</span>
       </nav>
 
-      <h1 className="text-3xl font-bold mb-4">
+      <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
         Howell NJ Medicare Insurance Agents — Independent Broker Covering Monmouth County
       </h1>
 
       <Image
-        src="/images/howell-nj-medicare-insurance-agents.webp"
+        src="/images/hub_howell-nj-medicare-insurance-agents.webp"
         alt="Howell NJ Medicare insurance agents"
         width={800}
         height={400}
-        className="rounded-lg mb-6 w-full"
+        className="w-full rounded-lg mb-6"
+        priority
       />
 
-      <p className="text-lg mb-2">
-        Howell NJ Medicare insurance agents are not all the same. Most directories list captive agents who represent a single carrier, which means you only see a fraction of what is available in Monmouth County.
+      <p className="text-lg text-gray-700 mb-2">
+        Howell NJ Medicare insurance agents aren't all the same. Some represent one company. I'm Anthony Orner, an independent broker who compares Supplement and Advantage plans from multiple carriers so Howell residents see what's actually available in their zip code.
       </p>
-      <p className="text-lg mb-6">
-        I am Anthony Orner, an independent licensed Medicare broker. I compare Supplement and Advantage plans from multiple carriers so you get real choices, not a sales pitch for one company.
+      <p className="text-lg text-gray-700 mb-6">
+        No cost. No obligation. Just a straight answer about what makes sense for your situation.
       </p>
 
       <PhoneCTA />
 
       <section className="mt-10">
-        <h2 className="text-2xl font-semibold mb-3">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
           Why Howell residents choose an independent Medicare broker
         </h2>
-        <p className="mb-2">
-          Howell Township sits right in the middle of Monmouth County with ZIP codes 07731 and 07728. You have access to a wide range of plans, but sorting through them alone is a headache.
+        <p className="text-gray-700 mb-2">
+          Captive agents sell one company's products. That limits what you see. As an independent broker, I quote plans from every major carrier in Monmouth County and lay them next to each other.
         </p>
-        <p className="mb-2">
-          An independent broker works for you, not an insurance company. I am not limited to one carrier. That means I can lay out your options honestly and let you decide what fits your budget and your doctors.
-        </p>
-        <p>
-          The service costs you nothing. Brokers are paid by the carriers, and your premium stays the same whether you call me or call the company directly.
-        </p>
+        <ul className="list-disc pl-6 text-gray-700 space-y-1 mb-2">
+          <li>You compare premiums, networks, and out-of-pocket costs in one call</li>
+          <li>The carrier pays my commission — your premium stays the same</li>
+          <li>I handle enrollment paperwork and help with questions after you're covered</li>
+        </ul>
       </section>
 
       <section className="mt-10">
-        <h2 className="text-2xl font-semibold mb-3">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
           Supplement and Advantage plans available in 07731 and 07728
         </h2>
-        <p className="mb-2">
-          Medicare Supplement (Medigap) plans fill the gaps in Original Medicare. Plan G is the most popular option for people turning 65 in New Jersey. You pay the $257 annual Part B deductible, and the plan covers essentially everything else.
+        <p className="text-gray-700 mb-2">
+          Howell straddles two zip codes, and plan availability can differ by area. Medigap Plan G is the most popular Supplement choice here — it covers everything except the $283 annual Part B deductible. Plan N costs less but adds small copays at some visits.
         </p>
-        <p className="mb-2">
-          Medicare Advantage (Part C) bundles hospital, medical, and often drug coverage into one plan. Many Advantage plans in Monmouth County include dental, vision, and hearing benefits. They use provider networks, so checking that your doctors are in-network is critical before enrolling.
-        </p>
-        <p>
-          I compare both types side by side so you can see the real tradeoffs, not just the premium.
+        <p className="text-gray-700">
+          Medicare Advantage PPOs in Monmouth County often include dental, vision, and hearing benefits at $0 or low monthly premiums. Some HMO options work well if your doctors are in-network at systems like Hackensack Meridian Health, which has a strong presence in the area.
         </p>
       </section>
 
       <section className="mt-10">
-        <h2 className="text-2xl font-semibold mb-3">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
           How Monmouth County rates compare to the rest of New Jersey
         </h2>
-        <p className="mb-2">
-          Medicare Supplement premiums vary by ZIP code, age, and carrier. In Monmouth County, rates can differ by $30 to $50 per month between the most and least expensive carriers for the same Plan G coverage.
+        <p className="text-gray-700 mb-2">
+          Medigap premiums in Monmouth County tend to run slightly lower than Bergen or Essex counties, though rates vary by carrier, age, and tobacco status. Medicare Advantage plans in Howell often carry $0 premiums with competitive copay structures.
         </p>
-        <p>
-          That is why comparing matters. One carrier may have the lowest rate at age 65 but increase faster than another over time. I walk you through the numbers so there are no surprises.
-        </p>
-      </section>
-
-      <section className="mt-10">
-        <h2 className="text-2xl font-semibold mb-3">
-          Turning 65? Lock in your rate before Part B starts
-        </h2>
-        <p className="mb-2">
-          Your Medigap Open Enrollment Period lasts 6 months starting the month you turn 65 and have Part B. During this window, no carrier can deny you or charge more based on your health.
-        </p>
-        <p className="mb-2">
-          My practice is to have clients apply up to 6 months before their Part B start date. This locks in the rate early, protecting you from any premium increases that may happen before your coverage begins.
-        </p>
-        <p>
-          The sooner you start the process, the better your rate. Do not wait until the last month.
+        <p className="text-gray-700">
+          The only way to know your real cost is to compare. I pull quotes specific to your age and zip code so you see actual numbers, not averages.
         </p>
       </section>
 
       <section className="mt-10">
-        <h2 className="text-2xl font-semibold mb-3">
-          Key enrollment dates every Howell resident should know
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          Key enrollment windows Howell residents should know
         </h2>
-        <ul className="list-disc pl-6 space-y-2">
+        <ul className="list-disc pl-6 text-gray-700 space-y-2">
           <li>
-            <strong>Medigap Open Enrollment:</strong> 6 months starting the month you are 65 and enrolled in Part B. Guaranteed issue, no health questions.
+            <strong>Medigap Open Enrollment:</strong> 6 months starting the month you turn 65 and have Part B. This is when you get guaranteed acceptance with no health questions.
           </li>
           <li>
             <strong>Medicare Advantage / Part D Open Enrollment:</strong> October 15 through December 7 each year.
           </li>
           <li>
-            <strong>Part B late enrollment penalty:</strong> 10% added to your $185/month premium for every 12-month period you delayed without qualifying coverage.
+            <strong>Part B late penalty:</strong> 10% added to your premium for every 12 months you delay past initial eligibility. The 2026 Part B premium is $202.90/month.
           </li>
         </ul>
       </section>
 
       <section className="mt-10">
-        <h2 className="text-2xl font-semibold mb-3">
-          Request your free Howell Medicare consultation
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          What to expect when you call
         </h2>
-        <p className="mb-2">
-          Whether you are new to Medicare or reviewing your current plan, a quick call can save you hundreds a year. I will compare your options and explain them in plain English.
+        <p className="text-gray-700 mb-2">
+          I'll ask about your doctors, prescriptions, and budget. Then I'll show you side-by-side plan comparisons with actual premiums and out-of-pocket costs for your zip code. The whole conversation usually takes 15 to 20 minutes.
         </p>
-        <p>
-          Call me or fill out the form below. There is no cost and no obligation.
+        <p className="text-gray-700">
+          No pressure. If you want time to think, I'll email the comparison so you can review at your kitchen table.
         </p>
       </section>
 
-      <div className="mt-10 bg-blue-600 text-white rounded-lg p-8 text-center">
-        <p className="text-2xl font-bold mb-2">Get a Free Medicare Quote</p>
-        <p className="text-lg mb-4">
-          Call Anthony Orner today for a no-obligation Monmouth County plan comparison.
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          Request your free Howell Medicare consultation
+        </h2>
+        <p className="text-gray-700">
+          Whether you're turning 65, retiring from a Howell employer, or just want to see if a better plan exists, one call gives you clarity. I serve Howell, Farmingdale, Freehold, Lakewood, and all of Monmouth County.
         </p>
-        <a
-          href="tel:8555591700"
-          className="text-3xl font-bold underline hover:text-blue-100"
-        >
-          855-559-1700
-        </a>
-        <div className="mt-4">
-          <Link
-            href="/contact"
-            className="inline-block bg-white text-blue-600 font-semibold rounded-lg px-6 py-3 hover:bg-blue-50"
-          >
-            Get a Free Quote Online
+      </section>
+
+      <div className="mt-10 bg-blue-600 text-white rounded-lg p-6 text-center">
+        <p className="text-xl font-semibold mb-2">
+          Talk to a local Howell Medicare broker today
+        </p>
+        <p className="text-lg mb-4">
+          Call{" "}
+          <a href="tel:8555591700" className="underline font-bold">
+            855-559-1700
+          </a>{" "}
+          or{" "}
+          <Link href="/contact" className="underline font-bold">
+            Get a Free Quote
           </Link>
-        </div>
+        </p>
       </div>
 
       <section className="mt-12">
@@ -236,38 +221,40 @@ export default function HowellNJMedicareInsuranceAgents() {
       </section>
 
       <section className="mt-12">
-        <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
-        <ul className="space-y-3">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-4">
+          Related resources
+        </h2>
+        <ul className="space-y-2">
           <li>
             <Link
-              href="/services/medicare-supplement-plans-nj"
+              href="/medicare-guides/medigap-plan-g-vs-plan-n"
               className="text-blue-600 hover:underline"
             >
-              Medicare Supplement Plans in New Jersey
+              Medigap Plan G vs. Plan N — Which Saves You More?
             </Link>
           </li>
           <li>
             <Link
-              href="/services/medicare-advantage-plans-nj"
+              href="/medicare-guides/medicare-advantage-vs-medigap"
               className="text-blue-600 hover:underline"
             >
-              Medicare Advantage Plans in New Jersey
+              Medicare Advantage vs. Medigap in New Jersey
             </Link>
           </li>
           <li>
             <Link
-              href="/services/medicare-plan-g-nj"
+              href="/services/monmouth-county-medicare-broker"
               className="text-blue-600 hover:underline"
             >
-              Medicare Plan G in NJ - Rates and Benefits
+              Monmouth County Medicare Broker Services
             </Link>
           </li>
           <li>
             <Link
-              href="/services/monmouth-county-medicare-agents"
+              href="/medicare-guides/nj-medigap-open-enrollment"
               className="text-blue-600 hover:underline"
             >
-              Monmouth County Medicare Agents
+              New Jersey Medigap Open Enrollment Rules
             </Link>
           </li>
         </ul>

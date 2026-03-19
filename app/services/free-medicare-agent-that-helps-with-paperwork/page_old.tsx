@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Free Medicare Agent That Helps With Paperwork",
-      item: "https://www.medicareyourself.com/services/free-medicare-agent-that-helps-with-paperwork",
+      item: "https://medicareyourself.com/services/free-medicare-agent-that-helps-with-paperwork",
     },
   ],
 };
@@ -50,7 +50,7 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
@@ -111,7 +111,7 @@ export default function FreeAgentPaperworkPage() {
         </h1>
 
         <Image
-          src="/images/free-medicare-agent-that-helps-with-paperwork.webp"
+          src="/images/free-medicare-agent-that-helps-with-paperwork_photo.webp"
           alt="free medicare agent that helps with paperwork"
           width={800}
           height={400}

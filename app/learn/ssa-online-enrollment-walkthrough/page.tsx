@@ -28,19 +28,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Learn",
-      item: "https://www.medicareyourself.com/learn",
+      item: "https://medicareyourself.com/learn",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "SSA Online Enrollment Walkthrough",
-      item: "https://www.medicareyourself.com/learn/ssa-online-enrollment-walkthrough",
+      item: "https://medicareyourself.com/learn/ssa-online-enrollment-walkthrough",
     },
   ],
 };

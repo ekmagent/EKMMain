@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "When Can I Change My Medicare Supplement Plan for 2026",
-      item: "https://www.medicareyourself.com/services/when-can-i-change-my-medicare-supplement-plan-for-2026",
+      item: "https://medicareyourself.com/services/when-can-i-change-my-medicare-supplement-plan-for-2026",
     },
   ],
 };
@@ -51,7 +51,7 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
@@ -66,18 +66,23 @@ const faqs = [
   {
     question: "What time of year can you change Medicare Supplement plans?",
     answer:
-      "There is no annual enrollment period for Medigap. You can apply to switch your Medicare Supplement plan any time of year. However, outside your initial 6-month Medigap Open Enrollment Period or a guaranteed-issue situation, insurance companies can use medical underwriting to decide whether to approve your application and what rate to charge.",
+      "There's no annual enrollment period for Medigap. You can apply to switch carriers any time of year, but outside your 6-month Medigap Open Enrollment Period or a guaranteed-issue situation, the new carrier can require medical underwriting and may deny your application based on health history.",
   },
   {
     question: "Is it too late to change Medicare plans for 2026?",
     answer:
-      "For Medicare Advantage and Part D, the Annual Enrollment Period runs October 15 through December 7 for coverage starting January 1, 2026. For Medicare Supplement (Medigap) plans, there is no annual deadline. You can apply to switch at any time, but approval may depend on your health status unless you qualify for guaranteed-issue rights.",
+      "For Medicare Advantage and Part D, the annual enrollment window runs October 15 through December 7. For Medigap, there's no set deadline because no annual enrollment period exists. You can apply to switch your Medigap plan at any point, though approval outside protected windows depends on underwriting.",
+  },
+  {
+    question: "How much will Medicare Supplement plans go up in 2026?",
+    answer:
+      "Rate increases vary by carrier, plan letter, your age, and your state. Annual increases of 5-12% are common, though some carriers in some years push higher. The carrier you're with matters as much as the plan letter because long-term rate behavior differs significantly between companies.",
   },
   {
     question:
-      "Do I need to cancel my current Medigap plan before applying for a new one?",
+      "Can I switch from one Plan G to another Plan G with a different carrier?",
     answer:
-      "No. Keep your current Medigap policy active until your new policy is in effect. Once your new plan is approved and active, you will have a 30-day free look period to decide if you want to keep it. Only cancel your old plan after you are certain you want to stay with the new one. You will pay both premiums during the overlap month.",
+      "Yes. Plan G benefits are standardized by federal law, so every carrier's Plan G covers the same things. The difference is premium cost and long-term rate stability. If you qualify through underwriting or have a guaranteed-issue right, switching carriers for the same plan letter is a smart way to lower your costs.",
   },
 ];
 
@@ -101,149 +106,167 @@ export default function WhenCanIChangeMyMedicareSupplementPlanFor2026() {
         </span>
       </nav>
 
-      <h1 className="text-3xl font-bold mb-4 text-gray-900">
-        When Can I Change My Medicare Supplement Plan for 2026? Key Dates and Rules
+      <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+        When Can I Change My Medicare Supplement Plan for 2026? Key Dates and
+        Rules
       </h1>
 
       <Image
-        src="/images/when-can-i-change-my-medicare-supplement-plan-for-2026.webp"
+        src="/images/hub_when-can-i-change-my-medicare-supplement-plan-for-2026.webp"
         alt="when can I change my Medicare Supplement plan for 2026"
         width={800}
         height={400}
-        className="rounded-lg mb-6 w-full"
+        className="w-full rounded-lg mb-6"
+        priority
       />
 
       <p className="text-lg text-gray-700 mb-2">
-        When can I change my Medicare Supplement plan for 2026? The short answer: you can apply to switch any time of year. Medigap does not follow the same enrollment calendar as Medicare Advantage or Part D.
+        When can I change my Medicare Supplement plan for 2026? The short answer: you can apply to switch any time, but whether you'll get approved without health questions depends on your situation. Most people don't realize Medigap plays by completely different rules than Medicare Advantage.
       </p>
-      <p className="text-gray-700 mb-6">
-        But "can apply" and "will get approved" are two different things. Your timing matters because it determines whether a carrier can ask health questions or charge you more. Here is exactly how it works.
+      <p className="text-lg text-gray-700 mb-6">
+        If your premiums jumped and you're wondering whether a switch makes sense before 2026 rates hit, here's what you actually need to know.
       </p>
 
       <PhoneCTA />
 
-      <section className="mt-10 mb-8">
-        <h2 className="text-2xl font-semibold mb-3 text-gray-900">
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
           There is no annual enrollment period for Medigap switches
         </h2>
         <p className="text-gray-700 mb-2">
-          Medicare Advantage and Part D have an Annual Enrollment Period every October 15 through December 7. Medigap does not. You can submit an application to change your Medicare Supplement plan on any date, whether that is March, July, or November.
+          This trips people up constantly. Medicare Advantage and Part D use the October 15 through December 7 open enrollment window. Medigap doesn't.
         </p>
         <p className="text-gray-700">
-          The catch is that federal law only guarantees you the right to buy any Medigap policy during your one-time, 6-month Medigap Open Enrollment Period. That window starts the month you turn 65 and are enrolled in Part B. Miss it, and your options narrow.
+          Your one federal right to buy any Medigap plan without health screening is the 6-month Medigap Open Enrollment Period. It starts the month you turn 65 and are enrolled in Part B. After that window closes, switching rules change dramatically.
         </p>
       </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3 text-gray-900">
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
           Guaranteed-issue rights that let you change without underwriting
         </h2>
-        <p className="text-gray-700 mb-2">
-          Certain life events give you federally protected guaranteed-issue rights. During these windows, an insurance company cannot deny you coverage, charge more because of health conditions, or impose a waiting period for pre-existing conditions.
+        <p className="text-gray-700 mb-3">
+          Federal law gives you the right to buy a Medigap plan without medical questions in specific situations:
         </p>
-        <ul className="list-disc pl-6 text-gray-700 space-y-1">
-          <li>Your Medicare Advantage plan leaves your area or stops operating</li>
-          <li>You lose employer or union group health coverage</li>
-          <li>Your Medigap insurance company goes bankrupt or violates its contract</li>
-          <li>You moved out of your plan's service area</li>
-          <li>You dropped a Medigap policy to join a Medicare Advantage plan for the first time and want to switch back within 12 months</li>
+        <ul className="list-disc pl-6 text-gray-700 space-y-2">
+          <li>Your Medicare Advantage plan leaves your area or stops participating in Medicare</li>
+          <li>You lose employer or union group coverage</li>
+          <li>Your Medigap carrier goes bankrupt or violates its contract</li>
+          <li>You moved out of your plan's service area (Medicare SELECT policies)</li>
+          <li>You tried Medicare Advantage for the first time and want to return to Original Medicare within 12 months</li>
         </ul>
-        <p className="text-gray-700 mt-2">
-          If one of these applies to you, act within 63 days of losing coverage. That deadline is strict.
+        <p className="text-gray-700 mt-3">
+          Some states offer additional protections beyond federal rules. Rules vary by state, so call to confirm what applies where you live.
         </p>
       </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3 text-gray-900">
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
           How medical underwriting works if you switch outside a protected window
         </h2>
         <p className="text-gray-700 mb-2">
-          Outside your Open Enrollment Period or a guaranteed-issue event, carriers in most states can use medical underwriting. That means they review your health history, current medications, and recent treatments.
+          Outside your open enrollment period or a guaranteed-issue event, insurers can ask about your health history. They can deny coverage, charge more, or exclude pre-existing conditions.
         </p>
         <p className="text-gray-700">
-          If you are in good health, underwriting usually is not a problem. If you have chronic conditions, a carrier may decline your application or offer a higher premium. Rules vary by state, so call to confirm how your state handles Medigap underwriting.
+          That said, many people in decent health pass underwriting without issues. If you're relatively healthy and your current carrier raised rates 10-18% in a single year, switching to a more stable carrier can save you thousands over time. The application takes about 15 minutes.
         </p>
       </section>
-
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3 text-gray-900">
-          Steps to switch your Medigap plan before 2026 rates take effect
-        </h2>
-        <p className="text-gray-700 mb-2">
-          Most carriers announce rate increases in the first quarter. If you want a lower premium before a 2026 rate hike hits, follow this process:
-        </p>
-        <ol className="list-decimal pl-6 text-gray-700 space-y-1">
-          <li>Call us at 855-559-1700 so we can compare current rates across carriers</li>
-          <li>Submit your application to the new carrier while keeping your existing plan active</li>
-          <li>Wait for approval, then use your 30-day free look period to confirm you are satisfied</li>
-          <li>Cancel your old policy only after the new one is in effect</li>
-        </ol>
-      </section>
-
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3 text-gray-900">
-          Why switching sooner can save you money
-        </h2>
-        <p className="text-gray-700 mb-2">
-          Medigap premiums are based partly on your age at the time you apply. The younger and healthier you are when you switch, the better your rate. Waiting another year means you are one year older on the application.
-        </p>
-        <p className="text-gray-700">
-          For clients on Plan G or Plan N, I often see savings of $30 to $60 per month just by moving to a different carrier offering the same standardized benefits. That is $360 to $720 per year in your pocket.
-        </p>
-      </section>
-
-      <section className="mb-10">
-        <h2 className="text-2xl font-semibold mb-3 text-gray-900">
-          Keep your current coverage until the new plan is active
-        </h2>
-        <p className="text-gray-700 mb-2">
-          This is the most common mistake I see. People cancel their Medigap policy before the new one is approved, then get stuck with a gap in coverage or a denial they did not expect.
-        </p>
-        <p className="text-gray-700">
-          Always overlap. You will pay two premiums for about one month. That one extra payment is far cheaper than an uncovered hospital stay with the 2026 Part A deductible at $1,676 per benefit period.
-        </p>
-      </section>
-
-      <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 mb-10 text-center">
-        <p className="text-xl font-semibold text-blue-900 mb-2">
-          Ready to compare Medigap rates for 2026?
-        </p>
-        <p className="text-gray-700 mb-4">
-          Call <a href="tel:8555591700" className="text-blue-700 font-bold hover:underline">855-559-1700</a> for a free, no-obligation quote, or{" "}
-          <Link href="/contact" className="text-blue-700 font-bold hover:underline">
-            get a free quote online
-          </Link>.
-        </p>
-        <p className="text-sm text-gray-500">
-          Anthony Orner, Licensed Medicare Broker
-        </p>
-      </div>
-
-      <FAQSection faqs={faqs} />
 
       <section className="mt-10">
-        <h2 className="text-xl font-semibold mb-4 text-gray-900">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          Steps to switch your Medigap plan before 2026 rates take effect
+        </h2>
+        <ol className="list-decimal pl-6 text-gray-700 space-y-2">
+          <li>Compare rates from multiple carriers for the same plan letter (Plan G from one company covers the same benefits as Plan G from another)</li>
+          <li>Apply to the new carrier while keeping your current plan active</li>
+          <li>Wait for approval from the new company</li>
+          <li>Use your 30-day free-look period to confirm you're satisfied</li>
+          <li>Cancel your old policy only after the new one is active</li>
+        </ol>
+        <p className="text-gray-700 mt-3">
+          Never cancel your existing Medigap plan before your new one is confirmed in writing. You'll pay both premiums for one overlapping month. That's normal.
+        </p>
+      </section>
+
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          Why the carrier matters more than the plan letter
+        </h2>
+        <p className="text-gray-700 mb-2">
+          People focus on the starting premium. That's the wrong number to watch. What matters is long-term rate behavior. Some carriers price low to attract new members, then raise rates aggressively once the pool ages.
+        </p>
+        <p className="text-gray-700">
+          A $20/month difference at age 65 can become a $100/month gap by 78. I look at carrier rate history before recommending any switch. That's something you won't find on a comparison website.
+        </p>
+      </section>
+
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          Free help comparing your options
+        </h2>
+        <p className="text-gray-700">
+          I'm Anthony Orner, a licensed Medicare broker. I work with dozens of Medigap carriers and there's no cost to you for my help. Carriers pay me the same regardless of which one you choose, so my only job is finding you the best long-term fit. One call, and I'll tell you exactly where you stand and whether switching makes financial sense before 2026.
+        </p>
+      </section>
+
+      <div className="mt-10 bg-blue-600 text-white rounded-xl p-8 text-center">
+        <p className="text-xl font-bold mb-2">
+          Ready to see if you can save on your Medigap plan?
+        </p>
+        <p className="text-lg mb-4">
+          Call{" "}
+          <a href="tel:8555591700" className="underline font-bold">
+            855-559-1700
+          </a>{" "}
+          for a free comparison.
+        </p>
+        <Link
+          href="/get-a-free-quote"
+          className="inline-block bg-white text-blue-600 font-bold py-3 px-8 rounded-lg hover:bg-gray-100 transition"
+        >
+          Get a Free Quote
+        </Link>
+      </div>
+
+      <section className="mt-12">
+        <FAQSection faqs={faqs} />
+      </section>
+
+      <section className="mt-12">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-4">
           Related resources
         </h2>
-        <ul className="space-y-2">
+        <ul className="space-y-3">
           <li>
-            <Link href="/services/medicare-plan-g" className="text-blue-700 hover:underline">
-              Medicare Plan G: Benefits, Costs, and Coverage Details
+            <Link
+              href="/services/medicare-supplement-plan-g"
+              className="text-blue-600 hover:underline"
+            >
+              Medicare Supplement Plan G: What It Covers and Costs
             </Link>
           </li>
           <li>
-            <Link href="/services/medicare-plan-n" className="text-blue-700 hover:underline">
-              Medicare Plan N: What It Covers and What You Pay
+            <Link
+              href="/services/medigap-open-enrollment-period"
+              className="text-blue-600 hover:underline"
+            >
+              Medigap Open Enrollment Period: Your One Best Window
             </Link>
           </li>
           <li>
-            <Link href="/services/medigap-open-enrollment" className="text-blue-700 hover:underline">
-              Medigap Open Enrollment Period: Your One-Time Window Explained
-            </Link>
-          </li>
-          <li>
-            <Link href="/services/medicare-supplement-vs-medicare-advantage" className="text-blue-700 hover:underline">
+            <Link
+              href="/services/medicare-supplement-vs-medicare-advantage"
+              className="text-blue-600 hover:underline"
+            >
               Medicare Supplement vs. Medicare Advantage: Which Is Right for You?
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/services/medicare-part-b-enrollment"
+              className="text-blue-600 hover:underline"
+            >
+              Medicare Part B Enrollment: Deadlines and Penalties
             </Link>
           </li>
         </ul>

@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Medicare Supplement Rate Jumped — Why and What to Do",
-      item: "https://www.medicareyourself.com/services/medicare-supplement-rate-jumped-why-and-what-can-i-do",
+      item: "https://medicareyourself.com/services/medicare-supplement-rate-jumped-why-and-what-can-i-do",
     },
   ],
 };
@@ -51,7 +51,7 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
@@ -64,34 +64,33 @@ const articleSchema = {
 
 const faqs = [
   {
-    question: "Why did my Medicare Supplement premium increase so much?",
+    question: "Can my Medicare Supplement rate increase more than once a year?",
     answer:
-      "Most large jumps happen when your carrier files a block rate increase due to higher claims within your pool of insureds. When that stacks on top of normal age-based increases, 10-18% hikes in a single year are common. Medical inflation and your pricing method (attained-age vs. issue-age) also play a role.",
+      "Yes. Some carriers apply annual rate increases on your policy anniversary date, but your state's insurance department may also approve a separate block rate increase at a different time. That means two increases in one calendar year are possible.",
   },
   {
     question:
-      "Can I switch Medicare Supplement carriers without a waiting period?",
+      "Do I need to wait until open enrollment to switch Medigap carriers?",
     answer:
-      "Yes. If you can pass medical underwriting, you can switch to a new Medigap carrier at any time during the year. There's no enrollment period for Medigap switches. Your new policy starts with no gap in coverage as long as you time the effective date correctly.",
+      "No. Medicare Supplement plans don't follow the October-December enrollment period. You can apply to switch carriers any time of year. However, outside your initial Medigap Open Enrollment Period, you'll typically need to pass medical underwriting unless a federal guaranteed issue right applies.",
   },
   {
     question:
-      "Will I lose coverage if I switch to a different Medigap company?",
+      "Will I lose coverage if I switch from one Plan G to another carrier's Plan G?",
     answer:
-      "No. Plan G is Plan G regardless of the carrier. Benefits are standardized by the federal government. The only differences between companies are the premium, the rate increase history, and customer service.",
+      "No. Medigap plans are standardized by letter. A Plan G from one carrier covers exactly the same benefits as a Plan G from any other carrier. Only the premium and company differ.",
   },
   {
-    question: "Do I need to wait until October to change my Medigap plan?",
+    question: "Why do some carriers raise rates so much more than others?",
     answer:
-      "No. The Annual Enrollment Period (October 15 - December 7) applies to Medicare Advantage and Part D plans, not Medigap. You can apply to switch your Medicare Supplement plan any month of the year.",
+      "It depends on the carrier's pricing strategy and the health of their insured pool. Some companies price low initially to attract members, then raise rates aggressively later. Others price moderately from the start and show more stable increases over time.",
   },
 ];
 
-export default function MedicareSupplementRateJumped() {
+export default function MedicareSupplementRateJumpedPage() {
   return (
-    <>
-      <SchemaMarkup schema={breadcrumbSchema} />
-      <SchemaMarkup schema={articleSchema} />
+    <main className="max-w-3xl mx-auto px-4 py-8">
+      <SchemaMarkup schema={[breadcrumbSchema, articleSchema]} />
 
       <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
         <Link href="/" className="hover:underline">
@@ -107,226 +106,214 @@ export default function MedicareSupplementRateJumped() {
         </span>
       </nav>
 
-      <article className="max-w-3xl mx-auto px-4">
-        <h1 className="text-3xl md:text-4xl font-bold mb-6">
-          Your Medicare Supplement Rate Just Jumped — Here&apos;s Why and What
-          You Can Do About It
-        </h1>
+      <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">
+        Your Medicare Supplement Rate Just Jumped — Here's Why and What You Can
+        Do About It
+      </h1>
 
-        <Image
-          src="/images/medicare-supplement-rate-jumped-why-and-what-can-i-do_photo.webp"
-          alt="my medicare supplement rate just jumped — why and what can I do"
-          width={800}
-          height={400}
-          className="w-full rounded-lg mb-6"
-          priority
-        />
+      <Image
+        src="/images/hub_medicare-supplement-rate-jumped-why-and-what-can-i-do.webp"
+        alt="my medicare supplement rate just jumped — why and what can I do"
+        width={800}
+        height={400}
+        className="w-full rounded-lg mb-6"
+        priority
+      />
 
-        <p className="text-lg mb-2">
-          My Medicare Supplement rate just jumped is something I hear every week
-          on the phone, usually from someone who opened their bill and felt a
-          knot in their stomach. You didn&apos;t do anything wrong. Your health
-          didn&apos;t change. But your premium climbed 15%, maybe more.
+      <p className="text-lg text-gray-700 mb-2">
+        My Medicare Supplement rate just jumped is one of the most common calls I
+        get, especially mid-year when carriers push through 15% to 20%
+        increases. You're not imagining it. These hikes are real, and they're
+        hitting harder than usual in 2025.
+      </p>
+      <p className="text-lg text-gray-700 mb-6">
+        The good news: you're not stuck. Let me walk you through what's causing
+        it and what you can actually do right now.
+      </p>
+
+      <PhoneCTA />
+
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          Three reasons your Medigap premium increased this year
+        </h2>
+        <ul className="list-disc pl-6 space-y-2 text-gray-700">
+          <li>
+            <strong>Age-based increases.</strong> If your plan uses attained-age
+            pricing, your premium goes up automatically as you get older. This
+            part is predictable.
+          </li>
+          <li>
+            <strong>Block rate increases.</strong> When claims rise across your
+            carrier's pool of insured members, everyone in that block shares the
+            cost. This has nothing to do with your personal health.
+          </li>
+          <li>
+            <strong>Medical inflation.</strong> Healthcare costs are climbing.
+            Carriers adjust premiums when the cost of covering hospital stays,
+            doctor visits, and skilled nursing crosses their projections.
+          </li>
+        </ul>
+        <p className="text-gray-700 mt-3">
+          When age increases and block increases stack together, 10% to 18%
+          jumps in a single year are not unusual. Some carriers have pushed past
+          that in 2025.
         </p>
-        <p className="text-lg mb-6">
-          Here&apos;s what&apos;s actually happening and what you can do about
-          it right now.
+      </section>
+
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          How attained-age vs issue-age pricing changes your bill
+        </h2>
+        <p className="text-gray-700 mb-3">
+          Most Medigap policies use <strong>attained-age pricing</strong>. Your
+          rate increases as you age, on top of any block increases the carrier
+          files with the state.
         </p>
+        <p className="text-gray-700 mb-3">
+          <strong>Issue-age pricing</strong> locks your base rate to the age you
+          were when you bought the plan. You'll still see adjustments for
+          inflation, but the age-related component stays flat. Fewer carriers
+          offer this model, and availability varies by state.
+        </p>
+        <p className="text-gray-700">
+          At 67, the difference may feel small. By 78 or 83, it can be hundreds
+          of dollars a year.
+        </p>
+      </section>
 
-        <PhoneCTA />
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          The company matters more than the letter plan
+        </h2>
+        <p className="text-gray-700 mb-3">
+          Plan G is standardized. A Plan G from one carrier covers the exact
+          same benefits as a Plan G from another. What's not identical is
+          long-term premium behavior.
+        </p>
+        <p className="text-gray-700">
+          Some carriers price aggressively low to attract new members, then
+          raise rates hard once the block ages. Others start a bit higher but
+          deliver more stable increases over time. I track this data across
+          carriers so you don't have to guess.
+        </p>
+      </section>
 
-        <section className="mt-10">
-          <h2 className="text-2xl font-semibold mb-3">
-            Three reasons your Medigap premium increased this year
-          </h2>
-          <ul className="list-disc pl-6 space-y-2 mb-4">
-            <li>
-              <strong>Block rate increases.</strong> When claims rise within your
-              carrier&apos;s pool of policyholders, everyone in that block
-              shares the cost. This has nothing to do with your personal health.
-              Several major carriers filed 15-20% increases effective mid-2025.
-            </li>
-            <li>
-              <strong>Age-based increases.</strong> If your plan uses
-              attained-age pricing, your premium goes up a small amount each
-              birthday. Alone, these are modest. Stacked on a block increase,
-              they sting.
-            </li>
-            <li>
-              <strong>Medical inflation.</strong> Overall healthcare costs keep
-              climbing. Carriers adjust rates to keep up, and some years hit
-              harder than others.
-            </li>
-          </ul>
-          <p>
-            When two or three of these stack in the same year, 10-18% jumps
-            happen. That&apos;s not unusual. It&apos;s just poorly explained by
-            most carriers.
-          </p>
-        </section>
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          When switching carriers saves money without losing coverage
+        </h2>
+        <p className="text-gray-700 mb-3">
+          You can apply to switch Medigap carriers at any time of year. There's
+          no open enrollment window to wait for. If another carrier offers the
+          same plan letter at a lower rate for your age and zip code, the
+          medical benefits are identical.
+        </p>
+        <p className="text-gray-700 mb-3">
+          The catch: outside your initial 6-month Medigap Open Enrollment
+          Period, most carriers require medical underwriting. If you're in good
+          health, this is often straightforward. If you have significant
+          pre-existing conditions, federal guaranteed issue rights may apply in
+          certain situations (like losing employer coverage or a carrier leaving
+          your area).
+        </p>
+        <p className="text-gray-700">
+          Don't drop your current plan until a new one is approved and in force.
+          That's a rule I enforce with every client.
+        </p>
+      </section>
 
-        <section className="mt-10">
-          <h2 className="text-2xl font-semibold mb-3">
-            How attained-age vs. issue-age pricing changes your bill
-          </h2>
-          <p className="mb-3">
-            Most Medigap policies in the U.S. use attained-age pricing. Your
-            premium increases as you get older, period. Issue-age plans lock your
-            rate to the age you bought in. They cost more upfront but tend to
-            rise more slowly over time.
-          </p>
-          <p>
-            A third type, community-rated, charges everyone the same regardless
-            of age. Availability depends on your state and carrier. I can tell
-            you exactly which type your current plan uses and whether a switch
-            makes sense for your situation.
-          </p>
-        </section>
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          What people wish they'd known sooner
+        </h2>
+        <p className="text-gray-700 mb-3">
+          Most people focus entirely on the starting premium when they first
+          pick a Medigap plan. That's the wrong number to obsess over. The real
+          question is: what will I be paying at 75, 80, 85?
+        </p>
+        <p className="text-gray-700">
+          A $20/month savings today from a carrier with aggressive rate history
+          can cost you thousands over a decade. I show clients actual rate
+          history before they choose.
+        </p>
+      </section>
 
-        <section className="mt-10">
-          <h2 className="text-2xl font-semibold mb-3">
-            The company matters more than the letter plan
-          </h2>
-          <p className="mb-3">
-            Plan G from Carrier A has identical benefits to Plan G from Carrier
-            B. Benefits are standardized by the federal government. What&apos;s
-            not identical is how each company prices over time.
-          </p>
-          <p>
-            Some carriers price aggressively low to attract new members, then
-            raise rates steeply once the block ages. Others start slightly
-            higher but hold steadier. I track rate increase histories across
-            dozens of carriers so you don&apos;t have to.
-          </p>
-        </section>
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          How to get a free rate comparison before your next payment
+        </h2>
+        <p className="text-gray-700 mb-3">
+          I'll pull current rates from multiple carriers for your exact age, zip
+          code, and plan type. Takes about 10 minutes on the phone. No
+          obligation, no pressure.
+        </p>
+        <p className="text-gray-700">
+          If switching saves you money, I handle the paperwork. If staying put
+          makes more sense, I'll tell you that too.
+        </p>
+      </section>
 
-        <section className="mt-10">
-          <h2 className="text-2xl font-semibold mb-3">
-            When switching carriers saves money without losing coverage
-          </h2>
-          <p className="mb-3">
-            You can switch Medigap carriers any month of the year. There&apos;s
-            no open enrollment period for this. You don&apos;t need to wait
-            until October.
-          </p>
-          <p className="mb-3">
-            The catch: most switches require medical underwriting. If you can
-            answer health questions favorably, you may qualify for a lower rate
-            with a different carrier while keeping the exact same Plan G or Plan
-            N benefits.
-          </p>
-          <p>
-            Some people save $40-$80/month by switching. That&apos;s $500-$960 a
-            year back in your pocket for the same coverage.
-          </p>
-        </section>
+      <div className="mt-10 bg-blue-600 text-white rounded-lg p-6 text-center">
+        <p className="text-xl font-semibold mb-2">
+          Stop overpaying for the same coverage.
+        </p>
+        <p className="mb-4">
+          Call{" "}
+          <a href="tel:8555591700" className="underline font-bold">
+            855-559-1700
+          </a>{" "}
+          or{" "}
+          <Link href="/quote" className="underline font-bold">
+            get a free quote online
+          </Link>
+          . Anthony Orner will run a side-by-side comparison at no cost.
+        </p>
+      </div>
 
-        <section className="mt-10">
-          <h2 className="text-2xl font-semibold mb-3">
-            What about guaranteed issue rights?
-          </h2>
-          <p className="mb-3">
-            Federal guaranteed issue rights let you switch without health
-            questions in specific situations: your carrier goes bankrupt, your
-            plan leaves your area, or you lost certain types of prior coverage.
-            Outside those triggers, underwriting applies.
-          </p>
-          <p>
-            Rules vary by state. Some states offer additional protections. I
-            check your specific situation before recommending anything.
-          </p>
-        </section>
+      <section className="mt-12">
+        <FAQSection faqs={faqs} />
+      </section>
 
-        <section className="mt-10">
-          <h2 className="text-2xl font-semibold mb-3">
-            How to get a free rate comparison before your next payment
-          </h2>
-          <p className="mb-3">
-            Call me at{" "}
-            <a
-              href="tel:8555591700"
-              className="text-blue-600 font-semibold hover:underline"
-            >
-              855-559-1700
-            </a>
-            . Tell me your current carrier, plan letter, zip code, and date of
-            birth. I&apos;ll run a comparison across every carrier available in
-            your area and show you exactly what you&apos;d save.
-          </p>
-          <p>
-            No charge. No obligation. If your current plan is still the best
-            deal, I&apos;ll tell you that too.
-          </p>
-        </section>
-
-        <div className="mt-10 bg-blue-600 text-white rounded-lg p-8 text-center">
-          <p className="text-xl font-bold mb-2">
-            Stop overpaying for the same coverage.
-          </p>
-          <p className="mb-4">
-            Call{" "}
-            <a
-              href="tel:8555591700"
-              className="underline font-semibold text-white"
-            >
-              855-559-1700
-            </a>{" "}
-            for a free rate comparison, or{" "}
+      <section className="mt-12">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-4">
+          Related resources
+        </h2>
+        <ul className="space-y-2">
+          <li>
             <Link
-              href="/get-a-free-quote"
-              className="underline font-semibold text-white"
+              href="/services/medigap-plan-g-vs-plan-n"
+              className="text-blue-600 hover:underline"
             >
-              get a free quote online
+              Medigap Plan G vs Plan N: Which Saves You More?
             </Link>
-            .
-          </p>
-          <p className="text-sm opacity-90">
-            Anthony Orner, Licensed Medicare Broker
-          </p>
-        </div>
-
-        <section className="mt-12">
-          <FAQSection faqs={faqs} />
-        </section>
-
-        <section className="mt-12 mb-12">
-          <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
-          <ul className="space-y-2">
-            <li>
-              <Link
-                href="/services/medicare-supplement-plan-g"
-                className="text-blue-600 hover:underline"
-              >
-                Medicare Supplement Plan G: What It Covers and Costs
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/services/medicare-supplement-plan-n"
-                className="text-blue-600 hover:underline"
-              >
-                Medicare Supplement Plan N: Lower Premium, Small Tradeoffs
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/services/medigap-open-enrollment"
-                className="text-blue-600 hover:underline"
-              >
-                Medigap Open Enrollment: When You Have Guaranteed Issue Rights
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/services/medicare-supplement-vs-medicare-advantage"
-                className="text-blue-600 hover:underline"
-              >
-                Medicare Supplement vs. Medicare Advantage: Which Fits You?
-              </Link>
-            </li>
-          </ul>
-        </section>
-      </article>
-    </>
+          </li>
+          <li>
+            <Link
+              href="/services/when-to-enroll-in-medicare-supplement"
+              className="text-blue-600 hover:underline"
+            >
+              When to Enroll in a Medicare Supplement Plan
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/services/medicare-supplement-vs-medicare-advantage"
+              className="text-blue-600 hover:underline"
+            >
+              Medicare Supplement vs Medicare Advantage
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/services/guaranteed-issue-rights-medigap"
+              className="text-blue-600 hover:underline"
+            >
+              Guaranteed Issue Rights for Medigap Plans
+            </Link>
+          </li>
+        </ul>
+      </section>
+    </main>
   );
 }

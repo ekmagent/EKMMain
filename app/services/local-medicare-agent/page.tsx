@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare",
+      item: "https://medicareyourself.com/medicare",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Local Medicare Agent",
-      item: "https://www.medicareyourself.com/services/local-medicare-agent",
+      item: "https://medicareyourself.com/services/local-medicare-agent",
     },
   ],
 };
@@ -51,37 +51,37 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-01",
-  dateModified: "2025-07-01",
+  mainEntityOfPage:
+    "https://medicareyourself.com/services/local-medicare-agent",
 };
 
 const faqs = [
   {
-    question: "Does a local Medicare agent charge me anything?",
+    question: "Does a local Medicare agent charge a fee?",
     answer:
-      "No. Licensed Medicare agents are compensated by the insurance carriers, not by you. There is zero cost for consultations, plan comparisons, or enrollment help.",
+      "No. Licensed Medicare agents are paid by the insurance carriers, not by you. There is zero cost for consultations, plan comparisons, or enrollment help.",
   },
   {
-    question: "What is the difference between a captive and independent Medicare agent?",
+    question: "What's the difference between a Medicare agent and a broker?",
     answer:
-      "A captive agent represents one insurance company. An independent agent, like Anthony Orner, is contracted with multiple carriers and can compare plans across companies to find what fits your situation best.",
+      "A captive agent represents one carrier. An independent broker like Anthony Orner represents multiple carriers, so they can compare plans side by side and recommend based on your actual needs, not a sales quota.",
   },
   {
-    question: "Can a local Medicare agent help me if I already have a plan?",
+    question: "Can a local Medicare agent help me switch plans?",
     answer:
-      "Yes. During the Medicare Advantage Open Enrollment period (October 15 through December 7), a local agent can review your current coverage and help you switch plans if a better option exists.",
+      "Yes. During the Medicare Advantage Open Enrollment (October 15 through December 7) or if you qualify for a Special Enrollment Period, a local agent can review your current coverage, compare alternatives, and handle the switch for you.",
   },
   {
-    question: "How do I know if a Medicare agent is licensed in my state?",
+    question: "What areas does Anthony Orner serve?",
     answer:
-      "You can verify any agent's license through your state's Department of Banking and Insurance. Anthony Orner is licensed in both New Jersey and Pennsylvania.",
+      "Anthony is licensed in New Jersey and Pennsylvania. He works with clients across Morris, Essex, Bergen, Passaic, Sussex, Warren, and Hunterdon counties, as well as parts of eastern PA. Phone and video consultations are available statewide.",
   },
 ];
 
@@ -91,163 +91,196 @@ export default function LocalMedicareAgentPage() {
       <SchemaMarkup schema={breadcrumbSchema} />
       <SchemaMarkup schema={articleSchema} />
 
-      <main className="max-w-4xl mx-auto px-4 py-8">
-        <nav aria-label="Breadcrumb" className="mb-6 text-sm text-gray-600">
-          <Link href="/" className="hover:underline">
-            Home
-          </Link>{" "}
-          &gt;{" "}
-          <Link href="/medicare" className="hover:underline">
-            Medicare Guides
-          </Link>{" "}
-          &gt;{" "}
-          <span className="text-gray-900">Local Medicare Agent</span>
-        </nav>
+      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-4">
+        <Link href="/">Home</Link> &gt;{" "}
+        <Link href="/medicare">Medicare Guides</Link> &gt;{" "}
+        <span>Local Medicare Agent</span>
+      </nav>
 
-        <h1 className="text-3xl md:text-4xl font-bold mb-4">
-          Local Medicare Agent in New Jersey: Licensed Help You Can Actually Meet
-        </h1>
+      <h1 className="text-3xl md:text-4xl font-bold mb-4">
+        Local Medicare Agent in New Jersey: Licensed Help You Can Actually Meet
+      </h1>
 
-        <Image
-          src="/images/local-medicare-agent.webp"
-          alt="local medicare agent"
-          width={800}
-          height={400}
-          className="rounded-lg mb-6 w-full"
-        />
+      <Image
+        src="/images/hub_local-medicare-agent.webp"
+        alt="local medicare agent"
+        width={800}
+        height={400}
+        className="w-full h-auto rounded-lg mb-6"
+        priority
+      />
 
-        <p className="text-lg mb-2">
-          A local Medicare agent sits across the table from you, knows your area's doctors, and picks up the phone when something goes wrong with a claim. That is a very different experience from calling an 800 number and getting a different person every time.
-        </p>
-        <p className="text-lg mb-6">
-          I'm Anthony Orner, a licensed independent Medicare broker based in New Jersey. I'm contracted with the top carriers in NJ and PA, and every consultation is free.
-        </p>
+      <p className="text-lg mb-2">
+        Local medicare agent support changes everything when you're choosing
+        coverage. Instead of repeating your health history to a different call
+        center rep every time, you get one licensed person who knows your
+        situation, lives in your area, and picks up when you call.
+      </p>
+      <p className="text-lg mb-6">
+        I'm Anthony Orner, an independent Medicare broker licensed in New Jersey
+        and Pennsylvania. I represent multiple carriers, and my help costs you
+        nothing.
+      </p>
 
-        <PhoneCTA />
+      <PhoneCTA />
 
-        <h2 className="text-2xl font-semibold mt-10 mb-3">
+      <section className="mt-10 mb-8">
+        <h2 className="text-2xl font-semibold mb-3">
           Why working with a local broker beats a 1-800 number
         </h2>
         <p className="mb-2">
-          Call centers route you to whoever is available. That rep might be in Texas, unfamiliar with NJ Medicaid rules or which hospitals take which Advantage plans in Bergen County.
+          National hotlines assign you to whoever is available. That person
+          doesn't know which hospitals are in-network near you, which
+          pharmacies your plan covers, or what your county's plan options
+          actually look like.
         </p>
-        <p className="mb-6">
-          A local agent knows the provider networks that matter here. I can tell you which plans keep Hackensack Meridian or RWJBarnabas in-network because I check those directories regularly for my clients.
-        </p>
+        <ul className="list-disc pl-6 space-y-1 mb-2">
+          <li>A local agent knows the carrier networks in your ZIP code</li>
+          <li>You can meet face to face or talk by phone, your choice</li>
+          <li>
+            You get the same person year after year, not a rotating call center
+          </li>
+          <li>If a claim goes sideways, you have someone to call directly</li>
+        </ul>
+      </section>
 
-        <h2 className="text-2xl font-semibold mt-10 mb-3">
+      <section className="mb-8">
+        <h2 className="text-2xl font-semibold mb-3">
           What a licensed Medicare agent actually does for you
         </h2>
-        <ul className="list-disc pl-6 mb-6 space-y-2">
-          <li>Compares Medicare Supplement (Medigap) rates across carriers side by side</li>
-          <li>Reviews Medicare Advantage plan benefits, copays, and network restrictions</li>
-          <li>Checks your prescriptions against Part D formularies before you enroll</li>
-          <li>Handles the enrollment paperwork so nothing gets filed wrong</li>
-          <li>Assists with claims issues or plan changes year after year</li>
-        </ul>
-
-        <h2 className="text-2xl font-semibold mt-10 mb-3">
-          Independent vs. captive - why it matters
-        </h2>
         <p className="mb-2">
-          Some agents work for a single insurance company. They can only show you that company's plans. As an independent broker, I represent multiple carriers. That means I can show you Plan G from three or four different companies and let you pick the best rate.
+          I compare plans across carriers, check that your doctors are
+          in-network, verify your prescriptions are on formulary, and calculate
+          your real out-of-pocket costs. Then I handle enrollment paperwork.
         </p>
-        <p className="mb-6">
-          There is no cost difference either way. Carriers pay agents the same commission whether the agent is captive or independent. You just get more options with an independent broker.
+        <p>
+          After enrollment, I stay your point of contact. Billing issue? Coverage
+          denial? I make the calls so you don't sit on hold.
         </p>
+      </section>
 
-        <h2 className="text-2xl font-semibold mt-10 mb-3">
+      <section className="mb-8">
+        <h2 className="text-2xl font-semibold mb-3">
+          Plans I help clients compare
+        </h2>
+        <ul className="list-disc pl-6 space-y-1">
+          <li>
+            <strong>Medicare Advantage (Part C):</strong> Bundled medical, drug,
+            and often dental/vision coverage. $0 premium options exist in NJ.
+          </li>
+          <li>
+            <strong>Medigap (Medicare Supplement):</strong> Covers gaps in
+            Original Medicare. Apply within your 6-month Medigap Open Enrollment
+            to lock in the best rate regardless of health.
+          </li>
+          <li>
+            <strong>Part D prescription drug plans:</strong> Standalone drug
+            coverage paired with Original Medicare and a Medigap policy.
+          </li>
+        </ul>
+      </section>
+
+      <section className="mb-8">
+        <h2 className="text-2xl font-semibold mb-3">
           Areas in New Jersey Anthony Orner serves
         </h2>
         <p className="mb-2">
-          I work with clients across all 21 New Jersey counties and parts of eastern Pennsylvania. Most consultations happen by phone or video, but I also meet clients in person when that works better.
+          I work with clients across northern and central New Jersey: Morris,
+          Essex, Bergen, Passaic, Sussex, Warren, and Hunterdon counties. I'm
+          also licensed in Pennsylvania for those near the border.
         </p>
-        <ul className="list-disc pl-6 mb-6 space-y-1">
-          <li>North Jersey: Bergen, Passaic, Essex, Morris, Hudson</li>
-          <li>Central Jersey: Middlesex, Monmouth, Mercer, Somerset, Union</li>
-          <li>South Jersey: Burlington, Camden, Ocean, Atlantic, Cape May</li>
-          <li>Eastern Pennsylvania (licensed in PA)</li>
-        </ul>
+        <p>
+          Phone and video appointments are available statewide. You don't have to
+          be local to get local-level attention.
+        </p>
+      </section>
 
-        <h2 className="text-2xl font-semibold mt-10 mb-3">
-          When to contact a local agent
+      <section className="mb-8">
+        <h2 className="text-2xl font-semibold mb-3">
+          Key dates to keep in mind for 2026
         </h2>
-        <p className="mb-2">
-          The best time is three to six months before you turn 65. Your Medigap Open Enrollment Period lasts six months starting the month you turn 65 and are enrolled in Part B. During that window, no carrier can deny you or charge higher premiums based on health history.
-        </p>
-        <p className="mb-6">
-          Already on Medicare? The Annual Enrollment Period runs October 15 through December 7 each year. That is the window to switch Medicare Advantage or Part D plans for the following year.
-        </p>
+        <ul className="list-disc pl-6 space-y-1">
+          <li>
+            Medicare Advantage / Part D Open Enrollment: October 15 through
+            December 7
+          </li>
+          <li>
+            Medigap Open Enrollment: 6 months starting the month you turn 65 and
+            have Part B
+          </li>
+          <li>Part B monthly premium (2026): $202.90</li>
+          <li>Part A deductible (2026): $1,676 per benefit period</li>
+        </ul>
+      </section>
 
-        <h2 className="text-2xl font-semibold mt-10 mb-3">
+      <section className="mb-8">
+        <h2 className="text-2xl font-semibold mb-3">
           How to schedule a free Medicare consultation
         </h2>
-        <p className="mb-6">
-          Call 855-559-1700 or use the link below. I'll ask a few questions about your current coverage, doctors, and prescriptions. Then I'll show you the plans that actually fit. No pressure, no obligation, no cost.
+        <p className="mb-2">
+          Call <strong>855-559-1700</strong> or use the link below to book a
+          time. I'll ask about your doctors, prescriptions, and budget. Then I'll
+          show you what makes sense. No pressure, no obligation.
         </p>
+        <p>
+          If you already have a plan and want a second opinion before the next
+          enrollment period, that's a smart reason to call too.
+        </p>
+      </section>
 
-        <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 my-10 text-center">
-          <p className="text-xl font-semibold mb-2">
-            Ready to talk with a local Medicare agent?
-          </p>
-          <p className="text-lg mb-4">
-            Call{" "}
-            <a
-              href="tel:8555591700"
-              className="text-blue-700 font-bold hover:underline"
-            >
-              855-559-1700
-            </a>{" "}
-            or schedule online.
-          </p>
-          <Link
-            href="/get-a-free-quote"
-            className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
-          >
+      <div className="bg-blue-600 text-white rounded-lg p-8 text-center my-10">
+        <p className="text-2xl font-bold mb-2">Talk to a local agent today</p>
+        <p className="text-lg mb-4">
+          Call{" "}
+          <a href="tel:8555591700" className="underline font-semibold">
+            855-559-1700
+          </a>{" "}
+          or{" "}
+          <Link href="/contact" className="underline font-semibold">
             Get a Free Quote
           </Link>
-        </div>
+        </p>
+        <p className="text-sm opacity-90">
+          No cost. No obligation. Licensed in NJ and PA.
+        </p>
+      </div>
 
-        <FAQSection faqs={faqs} />
+      <FAQSection faqs={faqs} />
 
-        <section className="mt-12">
-          <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
-          <ul className="space-y-2">
-            <li>
-              <Link
-                href="/medicare/supplement/plan-g-nj"
-                className="text-blue-700 hover:underline"
-              >
-                Medicare Plan G in New Jersey: Rates and Coverage
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/medicare/advantage/nj"
-                className="text-blue-700 hover:underline"
-              >
-                Medicare Advantage Plans in New Jersey
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/medicare/eligibility/turning-65"
-                className="text-blue-700 hover:underline"
-              >
-                Turning 65? Your Medicare Enrollment Checklist
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/medicare/supplement/plan-g-vs-plan-n"
-                className="text-blue-700 hover:underline"
-              >
-                Plan G vs. Plan N: Which Medigap Plan is Right for You?
-              </Link>
-            </li>
-          </ul>
-        </section>
-      </main>
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
+        <ul className="space-y-2">
+          <li>
+            <Link
+              href="/medicare/medicare-advantage"
+              className="text-blue-600 underline"
+            >
+              Medicare Advantage Plans in New Jersey
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/medicare/medigap"
+              className="text-blue-600 underline"
+            >
+              Medigap Plans Explained: Which Letter Plan Fits?
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/medicare/enrollment-periods"
+              className="text-blue-600 underline"
+            >
+              Medicare Enrollment Periods and Deadlines
+            </Link>
+          </li>
+          <li>
+            <Link href="/about" className="text-blue-600 underline">
+              About Anthony Orner, Licensed Medicare Broker
+            </Link>
+          </li>
+        </ul>
+      </section>
     </>
   );
 }

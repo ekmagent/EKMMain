@@ -7,12 +7,12 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 
 export const metadata: Metadata = {
   title:
-    "medicare advantage agents near me | Free NJ Help | MedicareYourself",
+    "Medicare Advantage Agents Near Me | Free NJ Help | MedicareYourself",
   description:
     "Medicare Advantage agents near you in NJ. Anthony Orner compares $0-premium MA plans by county and helps you enroll free. Call 855-559-1700.",
   openGraph: {
     title:
-      "medicare advantage agents near me | Free NJ Help | MedicareYourself",
+      "Medicare Advantage Agents Near Me | Free NJ Help | MedicareYourself",
     description:
       "Medicare Advantage agents near you in NJ. Anthony Orner compares $0-premium MA plans by county and helps you enroll free. Call 855-559-1700.",
   },
@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare",
+      item: "https://medicareyourself.com/medicare",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Medicare Advantage Agents Near Me",
-      item: "https://www.medicareyourself.com/services/medicare-advantage-agents-near-me",
+      item: "https://medicareyourself.com/services/medicare-advantage-agents-near-me",
     },
   ],
 };
@@ -50,40 +50,37 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-01",
-  dateModified: "2025-07-01",
+  datePublished: "2025-07-14",
+  dateModified: "2025-07-14",
 };
 
 const faqs = [
   {
-    question:
-      "Who is the best person to talk to about Medicare Advantage plans?",
-    answer:
-      "An independent licensed Medicare broker can compare plans from multiple carriers in your county, not just one company. This gives you a broader view of available $0-premium plans, provider networks, and drug formularies. Independent agents like Anthony Orner are paid by the insurance carriers, so there's no cost to you.",
-  },
-  {
-    question:
-      "How do I find a Medicare Advantage agent near me in New Jersey?",
-    answer:
-      "Look for a licensed, independent broker who works across multiple carriers and knows your county's plan options. You can call EasyKind Medicare at 855-559-1700 for free help from a local NJ broker who handles everything from plan comparison to enrollment.",
-  },
-  {
     question: "Do Medicare Advantage agents charge a fee?",
     answer:
-      "No. Licensed Medicare agents and brokers are compensated by the insurance carriers, not by you. There's no fee for consultations, plan comparisons, or enrollment assistance. This is the same whether you work with a captive agent or an independent broker.",
+      "No. Licensed Medicare Advantage agents are paid by insurance carriers, not by you. There is no fee, no markup, and no cost difference between enrolling through an agent or enrolling directly with the carrier.",
   },
   {
-    question:
-      "What's the difference between a captive agent and an independent Medicare broker?",
+    question: "How do I know which Medicare Advantage plan covers my doctors in NJ?",
     answer:
-      "A captive agent represents one insurance company and can only offer that carrier's plans. An independent broker is contracted with multiple carriers, so they can compare plans across companies to find the best fit for your doctors, prescriptions, and budget.",
+      "Each MA plan has a provider network specific to your county. A local agent can check whether your doctors and hospitals are in-network before you enroll, saving you from surprise out-of-network costs.",
+  },
+  {
+    question: "Can I switch from Medicare Advantage back to Original Medicare?",
+    answer:
+      "Yes. During the Medicare Advantage Open Enrollment Period (January 1 through March 31), you can drop your MA plan and return to Original Medicare. However, in most states including NJ, you may not have guaranteed issue rights for a Medigap plan at that point, which could mean medical underwriting.",
+  },
+  {
+    question: "When is the best time to enroll in a Medicare Advantage plan?",
+    answer:
+      "The Annual Enrollment Period runs October 15 through December 7 for coverage starting January 1. If you're turning 65, your Initial Enrollment Period starts three months before your birthday month. A local agent can confirm your exact window.",
   },
 ];
 
@@ -105,13 +102,13 @@ export default function MedicareAdvantageAgentsNearMe() {
         <span className="text-gray-700">Medicare Advantage Agents Near Me</span>
       </nav>
 
-      <article className="max-w-3xl mx-auto">
+      <article className="max-w-3xl mx-auto px-4 py-8">
         <h1 className="text-3xl md:text-4xl font-bold mb-4">
           Medicare Advantage Agents Near You in New Jersey
         </h1>
 
         <Image
-          src="/images/medicare-advantage-agents-near-me_vector.webp"
+          src="/images/hub_medicare-advantage-agents-near-me.webp"
           alt="Medicare Advantage agents near me"
           width={800}
           height={400}
@@ -120,10 +117,10 @@ export default function MedicareAdvantageAgentsNearMe() {
         />
 
         <p className="text-lg mb-2">
-          Medicare Advantage agents near you can make the difference between picking a plan that works and one that leaves you scrambling at the pharmacy counter. Most people turning 65 don't realize how much MA plans vary by county in New Jersey, or that the help is completely free.
+          Medicare Advantage agents near you don't cost a dime, and they can save you hours of confusing plan comparisons. I'm Anthony Orner, a licensed broker based in New Jersey, and I help people across the state find MA plans that actually match their doctors, prescriptions, and budget.
         </p>
         <p className="text-lg mb-6">
-          I'm Anthony Orner, an independent licensed Medicare broker based in NJ. I compare plans from multiple carriers so you don't have to guess.
+          No sales pitch. Just a straight conversation about what's available in your county.
         </p>
 
         <PhoneCTA />
@@ -133,10 +130,10 @@ export default function MedicareAdvantageAgentsNearMe() {
             What a Medicare Advantage agent does during enrollment
           </h2>
           <p className="mb-2">
-            A good agent doesn't just hand you a brochure. They check whether your doctors are in-network, verify your prescriptions are on the plan's formulary, and compare out-of-pocket maximums across every option in your zip code.
+            Most people turning 65 don't realize Medicare has dozens of moving parts. Part A, Part B, Part C, Part D, enrollment windows, penalties. It feels like learning a new language.
           </p>
           <p>
-            During Annual Enrollment (October 15 through December 7), I sit down with clients and run side-by-side comparisons. You see real numbers, not marketing promises.
+            A local agent cuts through that. I review your current medications, check which plans include your preferred doctors, compare copays and out-of-pocket maximums, and handle the enrollment paperwork. You get a plan that fits. I get paid by the carrier, not you.
           </p>
         </section>
 
@@ -145,11 +142,13 @@ export default function MedicareAdvantageAgentsNearMe() {
             How NJ Medicare Advantage plans differ by county
           </h2>
           <p className="mb-2">
-            Plan availability in Bergen County looks nothing like what's offered in Ocean or Camden County. Networks, premiums, and extra benefits (dental, vision, hearing, gym memberships) shift based on where you live.
+            MA plans are tied to your zip code. A $0-premium HMO available in Bergen County might not exist in Ocean County. Networks change too. A plan that includes Hackensack Meridian facilities in one county may not in another.
           </p>
-          <p>
-            Some counties have 30+ MA options. Others have fewer than 10. An independent broker who knows your area saves you hours of research and catches details you'd likely miss on your own.
-          </p>
+          <ul className="list-disc pl-6 space-y-1">
+            <li>Urban counties (Essex, Hudson, Bergen) typically have 30+ MA options</li>
+            <li>Southern and rural counties may have fewer plans with narrower networks</li>
+            <li>Some plans include dental, vision, hearing, and gym memberships at no extra premium</li>
+          </ul>
         </section>
 
         <section className="mb-8">
@@ -157,39 +156,37 @@ export default function MedicareAdvantageAgentsNearMe() {
             Advantage vs. Medigap: which path a good agent helps you evaluate
           </h2>
           <p className="mb-2">
-            This is where people get stuck. Medicare Advantage often has $0 premiums and bundled benefits. Medigap (Medicare Supplement) pairs with Original Medicare and gives you broader provider access, but you'll pay a monthly premium plus a separate Part D drug plan.
+            Many people assume Medicare Advantage works like employer coverage. It's similar in some ways: you pick a network, pay copays, and have an out-of-pocket max. But MA plans can restrict which hospitals you use, especially for non-emergency care.
           </p>
-          <ul className="list-disc pl-6 space-y-1 mb-2">
-            <li>MA plans cap your yearly out-of-pocket costs (varies by plan)</li>
-            <li>Medigap Plan G or N covers most of what Original Medicare doesn't</li>
-            <li>MA uses provider networks; Medigap lets you see any doctor who takes Medicare</li>
-          </ul>
+          <p className="mb-2">
+            Medigap (Medicare Supplement) works differently. You keep Original Medicare, add a supplement that covers cost-sharing, and see any Medicare-accepting provider nationwide. The tradeoff? Higher monthly premiums.
+          </p>
           <p>
-            Neither choice is universally better. The right one depends on your health, your doctors, and your prescriptions. That's exactly what I help you figure out.
+            A good agent lays out both paths honestly. I'll show you what each costs in your specific situation so you can decide with real numbers, not guesses.
           </p>
         </section>
 
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-3">
-            Why independent brokers beat captive agents
+            Why "free" really means free
           </h2>
           <p className="mb-2">
-            Captive agents work for one insurance company. They can only show you that carrier's plans. An independent broker like me is contracted with multiple carriers and can compare across all of them.
+            People are skeptical, and I don't blame them. Here's how it works: Medicare carriers pay agents a commission set by CMS. Your premium stays the same whether you enroll through an agent, a carrier website, or Medicare.gov.
           </p>
           <p>
-            You get unbiased recommendations instead of a sales pitch for a single brand.
+            You're not paying more for help. You're just getting someone who knows the local plan landscape on your side.
           </p>
         </section>
 
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-3">
-            There's no cost for agent help
+            What happens if your MA plan drops your area
           </h2>
           <p className="mb-2">
-            Insurance carriers pay brokers directly. You pay nothing for consultations, plan comparisons, or enrollment. The plan you buy through me costs the same as buying it yourself on medicare.gov.
+            Carriers exit service areas every year. If your plan sends a non-renewal letter, you'll get a Special Enrollment Period and guaranteed issue rights to buy a Medigap policy within 63 days. That's a rare and valuable window.
           </p>
           <p>
-            The difference? You get a local person to call when something goes wrong. That matters more than most people expect.
+            Don't let it pass without talking to someone who can walk you through your options.
           </p>
         </section>
 
@@ -198,16 +195,16 @@ export default function MedicareAdvantageAgentsNearMe() {
             Get free Medicare Advantage help from Anthony Orner
           </h2>
           <p className="mb-2">
-            If you're turning 65, retiring, or just want to see if a better plan exists for next year, I'll walk you through your options. No pressure, no fee, no obligation.
+            I work with people across New Jersey, from Cape May to Sussex County. Whether you're turning 65, losing employer coverage, or rethinking a plan that isn't working anymore, I'll compare what's available in your county and explain the tradeoffs in plain English.
           </p>
           <p>
-            Call <strong>855-559-1700</strong> or schedule a consultation online. I work with clients across New Jersey and can meet by phone, video, or in person.
+            Call <strong>855-559-1700</strong> or schedule a consultation below. No obligation, no pressure.
           </p>
         </section>
 
         <div className="bg-blue-600 text-white rounded-lg p-6 text-center my-10">
           <p className="text-xl font-semibold mb-2">
-            Ready to compare Medicare Advantage plans in your NJ county?
+            Ready to compare Medicare Advantage plans in your area?
           </p>
           <p className="mb-4">
             Call{" "}
@@ -229,7 +226,7 @@ export default function MedicareAdvantageAgentsNearMe() {
 
         <FAQSection faqs={faqs} />
 
-        <section className="mt-10 mb-8">
+        <section className="mt-10">
           <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
           <ul className="space-y-2">
             <li>
@@ -237,20 +234,20 @@ export default function MedicareAdvantageAgentsNearMe() {
                 href="/medicare/medicare-advantage"
                 className="text-blue-600 hover:underline"
               >
-                What Is Medicare Advantage? A Plain-English Guide
+                How Medicare Advantage Works in New Jersey
               </Link>
             </li>
             <li>
               <Link
-                href="/medicare/medigap-vs-medicare-advantage"
+                href="/medicare/medigap"
                 className="text-blue-600 hover:underline"
               >
-                Medigap vs. Medicare Advantage: How to Decide
+                Medigap Plans in NJ: What They Cover and Cost
               </Link>
             </li>
             <li>
               <Link
-                href="/medicare/medicare-enrollment-periods"
+                href="/medicare/enrollment-periods"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Enrollment Periods Explained
@@ -258,10 +255,10 @@ export default function MedicareAdvantageAgentsNearMe() {
             </li>
             <li>
               <Link
-                href="/about"
+                href="/services/medicare-broker-near-me"
                 className="text-blue-600 hover:underline"
               >
-                About Anthony Orner, Licensed NJ Medicare Broker
+                Find a Medicare Broker Near You in NJ
               </Link>
             </li>
           </ul>

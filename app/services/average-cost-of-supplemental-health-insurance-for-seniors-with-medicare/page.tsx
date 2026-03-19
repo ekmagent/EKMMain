@@ -9,12 +9,12 @@ export const metadata: Metadata = {
   title:
     "average cost of supplemental health insurance for seniors with medicare | Free Broker Comparison | MedicareYourself",
   description:
-    "Average cost of supplemental health insurance for seniors with Medicare runs $90–$300+/month. See real rates by plan, age, and state. Free comparison.",
+    "Average cost of supplemental health insurance for seniors with Medicare runs $90–$300+/month. See 2025–2026 rates by plan, age, and state. Free comparison.",
   openGraph: {
     title:
       "average cost of supplemental health insurance for seniors with medicare | Free Broker Comparison | MedicareYourself",
     description:
-      "Average cost of supplemental health insurance for seniors with Medicare runs $90–$300+/month. See real rates by plan, age, and state. Free comparison.",
+      "Average cost of supplemental health insurance for seniors with Medicare runs $90–$300+/month. See 2025–2026 rates by plan, age, and state. Free comparison.",
   },
 };
 
@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Average Cost of Supplemental Health Insurance for Seniors With Medicare",
-      item: "https://www.medicareyourself.com/services/average-cost-of-supplemental-health-insurance-for-seniors-with-medicare",
+      item: "https://medicareyourself.com/services/average-cost-of-supplemental-health-insurance-for-seniors-with-medicare",
     },
   ],
 };
@@ -51,14 +51,14 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-01-01",
+  datePublished: "2025-01-15",
   dateModified: "2025-07-01",
 };
 
@@ -67,51 +67,54 @@ const faqs = [
     question:
       "What is the average monthly cost of a Medigap plan for a 65-year-old?",
     answer:
-      "Most 65-year-olds pay between $90 and $200 per month for popular Medigap plans like Plan G or Plan N. Your exact rate depends on your state, carrier, gender, and tobacco use. Rates vary significantly between insurance companies for the same plan letter, so comparing carriers is essential.",
+      "For a 65-year-old enrolling during their Medigap Open Enrollment Period, Plan G typically runs $120–$200/month depending on carrier, state, gender, and tobacco status. Plan N usually costs $90–$160/month. Rates vary significantly by insurance company for the exact same coverage, so comparing carriers is essential.",
   },
   {
     question:
-      "Is Medicare Supplement insurance cheaper than Medicare Advantage?",
+      "Why do Medigap premiums vary so much between insurance companies?",
     answer:
-      "Medicare Advantage plans often have $0 monthly premiums, but you pay copays and coinsurance at the point of care. Medigap premiums are higher monthly but cover most or all out-of-pocket costs when you see a doctor or go to the hospital. Total annual spending depends on how much care you actually use.",
+      "Every lettered Medigap plan offers identical benefits regardless of which company sells it. The difference is pricing method: community-rated, issue-age-rated, or attained-age-rated. Companies also set their own profit margins and have different claims experiences. Two carriers selling Plan G in the same zip code can differ by $50+/month.",
   },
   {
-    question: "Do Medigap premiums go up every year?",
+    question:
+      "Is Medicare Advantage cheaper than Medigap supplemental insurance?",
     answer:
-      "Yes, Medigap premiums typically increase annually due to medical inflation and, with some pricing methods, your age. Attained-age policies rise as you get older. Issue-age policies are based on the age you bought the plan, so they increase more slowly over time.",
+      "Medicare Advantage plans often have $0 premiums, making them look cheaper upfront. But they use copays, coinsurance, and network restrictions that can add up if you need care. Medigap has a monthly premium but covers most or all of your out-of-pocket costs with Original Medicare. Total annual spending depends on how much healthcare you actually use.",
   },
   {
-    question: "When is the best time to buy a Medigap plan to get the lowest rate?",
+    question:
+      "When is the best time to buy supplemental insurance to get the lowest rate?",
     answer:
-      "Your Medigap Open Enrollment Period, which is the 6 months starting the month you turn 65 and are enrolled in Part B, gives you guaranteed acceptance at the lowest available rate. After that window, carriers can charge more or deny coverage based on health history.",
+      "Your 6-month Medigap Open Enrollment Period, which starts the month you turn 65 and are enrolled in Part B, gives you guaranteed acceptance at the lowest available rate. Apply during this window and carriers can't charge more for pre-existing conditions or deny you coverage.",
   },
 ];
 
-export default function AverageCostSupplementalHealthInsurancePage() {
+export default function AverageCostSupplementalInsurancePage() {
   return (
     <main className="max-w-3xl mx-auto px-4 py-8">
-      <SchemaMarkup schema={[breadcrumbSchema, articleSchema]} />
+      <SchemaMarkup schema={breadcrumbSchema} />
+      <SchemaMarkup schema={articleSchema} />
 
       <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
         <Link href="/" className="hover:underline">
           Home
-        </Link>{" "}
-        &gt;{" "}
+        </Link>
+        {" > "}
         <Link href="/medicare-guides" className="hover:underline">
           Medicare Guides
-        </Link>{" "}
-        &gt;{" "}
+        </Link>
+        {" > "}
         <span className="text-gray-700">
           Average Cost of Supplemental Health Insurance for Seniors With Medicare
         </span>
       </nav>
 
-      <h1 className="text-3xl font-bold mb-4 leading-snug">
+      <h1 className="text-3xl font-bold text-gray-900 mb-4 leading-tight">
         Average Cost of Supplemental Health Insurance for Seniors With Medicare: What the Data Shows
       </h1>
 
       <Image
-        src="/images/average-cost-of-supplemental-health-insurance-for-seniors-with-medicare.webp"
+        src="/images/hub_average-cost-of-supplemental-health-insurance-for-seniors-with-medicare.webp"
         alt="average cost of supplemental health insurance for seniors with medicare"
         width={800}
         height={400}
@@ -119,107 +122,114 @@ export default function AverageCostSupplementalHealthInsurancePage() {
         priority
       />
 
-      <p className="text-lg mb-2">
-        Average cost of supplemental health insurance for seniors with Medicare falls between roughly $90 and $300+ per month, depending on the plan type, your age, where you live, and the carrier. That range confuses people because it covers two very different products: Medigap and Medicare Advantage.
+      <p className="text-lg text-gray-700 mb-2">
+        Average cost of supplemental health insurance for seniors with Medicare falls between $90 and $300+ per month, depending on the plan letter, your age, where you live, and which carrier you choose. Those numbers can feel abstract until you see what real people in your zip code actually pay.
       </p>
-      <p className="text-lg mb-6">
-        Here&apos;s what real rates look like in 2025 and 2026, broken down so you can actually compare.
+      <p className="text-lg text-gray-700 mb-6">
+        I pull rate comparisons daily for clients in NJ and PA. Here's what drives those numbers and how to find the right price for your situation.
       </p>
 
       <PhoneCTA />
 
       <section className="mt-10">
-        <h2 className="text-2xl font-semibold mb-3">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
           Medigap vs. Medicare Advantage — two different cost structures
         </h2>
-        <p className="mb-3">
-          Medigap (Medicare Supplement) charges a monthly premium on top of your Part B premium ($202.90/month in 2026). In return, it covers most or all of your out-of-pocket costs when you use healthcare. Popular plans like G and N typically run $90 to $250/month for new enrollees.
+        <p className="text-gray-700 mb-3">
+          Medigap (Medicare Supplement) plans charge a monthly premium on top of your $202.90/month Part B premium. In return, they cover most or all of the gaps in Original Medicare: the $1,676 Part A deductible, the $283 Part B deductible (Plan G doesn't cover this one), and coinsurance like the $209.50/day for skilled nursing days 21–100.
         </p>
-        <p className="mb-3">
-          Medicare Advantage often has a $0 monthly premium but charges copays, coinsurance, and has an annual out-of-pocket maximum. If you use little care, Advantage looks cheaper. If you have a hospitalization or surgery, Medigap usually saves you thousands.
+        <p className="text-gray-700 mb-3">
+          Medicare Advantage plans often have $0 premiums. But you'll face copays, coinsurance, prior authorizations, and network restrictions at the point of care. Total annual cost depends heavily on how much healthcare you use.
+        </p>
+        <p className="text-gray-700">
+          A $0 premium isn't the same as $0 cost. If you're comparing the two, look at total projected out-of-pocket spending, not just the monthly bill.
         </p>
       </section>
 
       <section className="mt-10">
-        <h2 className="text-2xl font-semibold mb-3">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
           National averages vs. what NJ and PA seniors actually pay
         </h2>
-        <p className="mb-3">
-          National averages are useful as a starting point, but premiums vary by state and even by county. In New Jersey and Pennsylvania, here&apos;s what I typically see for Plan G:
+        <p className="text-gray-700 mb-3">
+          Nationally, Medigap premiums can range from as low as $32/month for high-deductible plans to over $628/month for older enrollees in expensive markets. The most popular plan, Plan G, averages roughly $150–$250/month for a 65-year-old in the mid-Atlantic region.
         </p>
-        <ul className="list-disc pl-6 space-y-2 mb-3">
-          <li>Age 65, female, non-tobacco: $110–$170/month depending on carrier</li>
-          <li>Age 65, male, non-tobacco: $125–$195/month</li>
-          <li>Age 75, female, non-tobacco: $150–$260/month</li>
-          <li>Age 75, male, tobacco user: $200–$300+/month</li>
-        </ul>
-        <p>
-          The same plan letter from different carriers can differ by $50–$80/month. That&apos;s why shopping matters.
+        <p className="text-gray-700">
+          NJ and PA have different state rules, different carrier pools, and different pricing. Two carriers selling identical Plan G coverage in the same county can differ by $50 or more per month. That's why comparing isn't optional; it's where the savings are.
         </p>
       </section>
 
       <section className="mt-10">
-        <h2 className="text-2xl font-semibold mb-3">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
           How age, gender, and tobacco use affect your premium
         </h2>
-        <p className="mb-3">
-          Three pricing methods exist for Medigap. Attained-age pricing adjusts your premium as you get older each year. Issue-age pricing locks in a rate based on when you buy. Community-rated plans charge everyone the same base rate regardless of age.
+        <p className="text-gray-700 mb-3">
+          Most Medigap carriers in our area use attained-age pricing, meaning your premium starts lower and increases as you get older. A 65-year-old might pay $140/month for Plan G; at 75, the same plan could be $200+.
         </p>
-        <p className="mb-3">
-          On top of that, most carriers charge men more than women, and tobacco users pay 10–25% more than non-tobacco users. A 65-year-old non-smoking woman often pays the lowest rate available for any given plan.
-        </p>
+        <ul className="list-disc pl-6 text-gray-700 space-y-2">
+          <li>
+            <strong>Age:</strong> The single biggest factor. Locking in during your Medigap Open Enrollment Period (6 months starting the month you're 65 and enrolled in Part B) gets you the lowest rate with no medical underwriting.
+          </li>
+          <li>
+            <strong>Gender:</strong> Women typically pay 5–15% less than men for the same plan.
+          </li>
+          <li>
+            <strong>Tobacco use:</strong> Smokers pay 10–25% more with most carriers.
+          </li>
+          <li>
+            <strong>Household discounts:</strong> Some carriers offer 5–7% off when two people in the same household enroll.
+          </li>
+        </ul>
       </section>
 
       <section className="mt-10">
-        <h2 className="text-2xl font-semibold mb-3">
-          Why the same plan letter costs different amounts from different carriers
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          Plan G vs. Plan N — the cost tradeoff most seniors face
         </h2>
-        <p className="mb-3">
-          Every Plan G covers the exact same benefits. The difference is the premium. One carrier might charge $120/month while another charges $195 for identical coverage. Medicare.gov confirms this: &quot;There can be big differences in the premiums that different insurance companies charge for the same coverage.&quot;
+        <p className="text-gray-700 mb-3">
+          Plan G covers everything except the $283/year Part B deductible. Plan N costs less per month but adds small copays at doctor visits (up to $20) and ER visits ($50, waived if admitted).
         </p>
-        <p>
-          This is the single biggest thing most seniors miss. You don&apos;t need to compare benefits between plan letters and carriers at the same time. Pick your plan letter, then compare carriers on price and financial stability.
+        <p className="text-gray-700">
+          For many seniors, the $30–$50/month savings on Plan N makes sense if you don't see specialists frequently. For others, Plan G's predictability is worth the extra premium. Neither answer is wrong; it depends on how you use healthcare.
         </p>
       </section>
 
       <section className="mt-10">
-        <h2 className="text-2xl font-semibold mb-3">
-          Your open enrollment window locks in the best rate
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          Why the same plan costs different amounts from different carriers
         </h2>
-        <p className="mb-3">
-          During your 6-month Medigap Open Enrollment Period (starts the month you turn 65 and enroll in Part B), every carrier must accept you at their best price regardless of health history. Miss that window and carriers can underwrite you, charge more, or decline your application.
+        <p className="text-gray-700 mb-3">
+          Every Plan G is standardized by Medicare. The benefits are identical no matter who sells it. The only difference between Company A's Plan G and Company B's Plan G is the premium and the company's customer service.
         </p>
-        <p>
-          If you&apos;re approaching 65, start comparing at least 2–3 months before your Part B effective date so you have time to review options without rushing.
+        <p className="text-gray-700">
+          This is why a side-by-side carrier comparison saves real money. I regularly see clients save $400–$600/year by switching to a lower-cost carrier for the exact same coverage.
         </p>
       </section>
 
       <section className="mt-10">
-        <h2 className="text-2xl font-semibold mb-3">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
           Request a side-by-side carrier comparison at no cost
         </h2>
-        <p className="mb-3">
-          I pull quotes from multiple carriers and lay them next to each other so you can see exactly what you&apos;d pay. No cost to you, no obligation. Carriers pay the broker, not you, and the premium is the same whether you use a broker or go direct.
+        <p className="text-gray-700 mb-3">
+          I'll pull real quotes from every major carrier in your zip code, organized by plan letter and sorted by price. You'll see exactly what you'd pay, no guessing, no ballpark numbers from a national website.
         </p>
-        <p>
-          One call gets you a clear picture of what supplemental coverage actually costs for your specific age, zip code, and health profile.
+        <p className="text-gray-700">
+          There's no fee for this. Brokers are paid by the insurance carriers, not by you, and your premium is the same whether you call the carrier directly or work with me.
         </p>
       </section>
 
-      <div className="mt-12 bg-blue-600 text-white rounded-xl p-8 text-center">
-        <p className="text-xl font-bold mb-2">
-          See your real Medigap rates in minutes.
+      <div className="mt-10 bg-blue-600 text-white rounded-xl p-8 text-center">
+        <p className="text-xl font-semibold mb-2">
+          Get your free side-by-side Medigap rate comparison
         </p>
-        <p className="mb-4">
+        <p className="text-lg mb-4">
           Call{" "}
           <a href="tel:8555591700" className="underline font-bold">
             855-559-1700
           </a>{" "}
           or{" "}
           <Link href="/quote" className="underline font-bold">
-            get a free quote online
+            Get a Free Quote
           </Link>
-          .
         </p>
         <p className="text-sm opacity-90">
           Anthony Orner, Licensed Medicare Broker — NJ &amp; PA
@@ -231,14 +241,24 @@ export default function AverageCostSupplementalHealthInsurancePage() {
       </section>
 
       <section className="mt-12">
-        <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
-        <ul className="space-y-3">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-4">
+          Related resources
+        </h2>
+        <ul className="space-y-2">
           <li>
             <Link
               href="/services/medigap-plan-g-vs-plan-n"
               className="text-blue-600 hover:underline"
             >
-              Medigap Plan G vs. Plan N: Which Saves You More?
+              Medigap Plan G vs. Plan N: Which One Saves You More?
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/services/medigap-open-enrollment-period"
+              className="text-blue-600 hover:underline"
+            >
+              Medigap Open Enrollment Period: When and Why It Matters
             </Link>
           </li>
           <li>
@@ -251,18 +271,10 @@ export default function AverageCostSupplementalHealthInsurancePage() {
           </li>
           <li>
             <Link
-              href="/services/when-to-enroll-in-medigap"
-              className="text-blue-600 hover:underline"
-            >
-              When to Enroll in Medigap: Open Enrollment Explained
-            </Link>
-          </li>
-          <li>
-            <Link
               href="/services/medicare-advantage-vs-medigap"
               className="text-blue-600 hover:underline"
             >
-              Medicare Advantage vs. Medigap: Real Cost Comparison
+              Medicare Advantage vs. Medigap: How to Decide
             </Link>
           </li>
         </ul>

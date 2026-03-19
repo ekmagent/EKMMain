@@ -9,12 +9,12 @@ export const metadata: Metadata = {
   title:
     "top medicare advisors | Free Independent Broker Help | MedicareYourself",
   description:
-    "Top Medicare advisors share five key traits: independence, carrier access, transparency, and more. See how Anthony Orner compares. Free consultation.",
+    "Top medicare advisors share five traits: independence, carrier access, transparency, and more. See how Anthony Orner compares. Free consultation available.",
   openGraph: {
     title:
       "top medicare advisors | Free Independent Broker Help | MedicareYourself",
     description:
-      "Top Medicare advisors share five key traits: independence, carrier access, transparency, and more. See how Anthony Orner compares. Free consultation.",
+      "Top medicare advisors share five traits: independence, carrier access, transparency, and more. See how Anthony Orner compares. Free consultation available.",
   },
 };
 
@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Top Medicare Advisors",
-      item: "https://www.medicareyourself.com/services/top-medicare-advisors",
+      item: "https://medicareyourself.com/services/top-medicare-advisors",
     },
   ],
 };
@@ -51,52 +51,52 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  mainEntityOfPage:
-    "https://www.medicareyourself.com/services/top-medicare-advisors",
+  datePublished: "2025-01-01",
+  dateModified: "2025-01-01",
 };
 
 const faqs = [
   {
-    question: "How do I know if a Medicare advisor is independent?",
+    question: "Are Medicare advisors the same as insurance salespeople?",
     answer:
-      "Ask them directly how many carriers they represent. An independent broker works with multiple insurance companies, not just one. If they can only show you plans from a single carrier, they are a captive agent with limited options.",
+      "Not always. An independent Medicare advisor represents multiple carriers and works for you, not one company. A captive agent sells only their employer's plans. Always ask how many carriers an advisor can quote before you commit.",
   },
   {
-    question: "Do top Medicare advisors charge a fee for their help?",
+    question: "How do Medicare advisors get paid?",
     answer:
-      "No. Licensed Medicare brokers are paid commissions by the insurance carriers, not by you. If someone asks you to pay a consultation fee for Medicare advice, that is a red flag. Your cost for the plan is the same whether you use a broker or enroll on your own.",
-  },
-  {
-    question: "What is the difference between a Medicare advisor and a Medicare agent?",
-    answer:
-      "A Medicare agent typically represents one insurance company. A Medicare advisor or independent broker represents you and can compare plans across many carriers. Independent brokers can shop the market on your behalf to find the best fit for your budget and health needs.",
+      "Licensed Medicare brokers earn commissions directly from insurance carriers when you enroll in a plan. You pay nothing extra for their help. The premium is the same whether you use a broker or enroll on your own.",
   },
   {
     question: "When should I contact a Medicare advisor?",
     answer:
-      "Ideally, reach out 3 to 6 months before you turn 65 or before your Part B start date. This gives you time to compare options during your Medigap Open Enrollment Period, when you have guaranteed issue rights and cannot be denied coverage or charged more for health reasons.",
+      "Reach out at least three months before you turn 65 or before your employer coverage ends. For Medigap, applying six months before your Part B start date helps lock in the best rate during your open enrollment window.",
+  },
+  {
+    question: "What if a Medicare advisor gave me bad advice?",
+    answer:
+      "You can file a complaint with your state's Department of Insurance. You can also switch plans during the appropriate enrollment period. If you're unsure about advice you've received, get a second opinion from an independent broker.",
   },
 ];
 
-export default function TopMedicareAdvisors() {
+export default function TopMedicareAdvisorsPage() {
   return (
-    <main className="max-w-4xl mx-auto px-4 py-8">
+    <div>
       <SchemaMarkup schema={breadcrumbSchema} />
       <SchemaMarkup schema={articleSchema} />
 
-      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
+      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-4">
         <Link href="/" className="hover:underline">
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare" className="hover:underline">
+        <Link href="/medicare-guides" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -108,18 +108,22 @@ export default function TopMedicareAdvisors() {
       </h1>
 
       <Image
-        src="/images/top-medicare-advisors.webp"
+        src="/images/hub_top-medicare-advisors.webp"
         alt="top medicare advisors"
         width={800}
         height={400}
-        className="rounded-lg mb-6 w-full"
+        className="w-full h-auto rounded-lg mb-6"
       />
 
       <p className="text-lg mb-2">
-        Top Medicare advisors do not just sell you a plan. They listen, compare your options across carriers, and explain what each choice actually costs you out of pocket. That distinction matters when you are choosing between a Medigap Plan G, Plan N, or a Medicare Advantage plan.
+        Top medicare advisors share a handful of specific traits that set them
+        apart from the rest. Most people searching for Medicare help feel the
+        same frustration: it's hard to tell who's genuinely working for you and
+        who's just selling a product.
       </p>
-      <p className="mb-6">
-        The problem? Anyone can call themselves an advisor. Here is how to sort the good ones from the rest.
+      <p className="text-lg mb-6">
+        Here's what separates the best from the rest, and the red flags that
+        should send you looking elsewhere.
       </p>
 
       <PhoneCTA />
@@ -128,21 +132,28 @@ export default function TopMedicareAdvisors() {
         <h2 className="text-2xl font-semibold mb-3">
           Five traits that separate great Medicare advisors from average ones
         </h2>
-        <ul className="list-disc ml-6 space-y-2">
+        <ul className="list-disc pl-6 space-y-2">
           <li>
-            <strong>Independence:</strong> They represent multiple carriers, not one company. More options means a better fit for you.
+            <strong>Independence.</strong> They represent multiple carriers, not
+            just one. This means they can actually comparison shop for you.
           </li>
           <li>
-            <strong>Carrier access:</strong> A strong advisor works with 10 or more insurance companies in your state, giving you real choices.
+            <strong>Carrier access.</strong> The best brokers are contracted with
+            10+ carriers in your state, so they can match your doctors,
+            prescriptions, and budget against real plan options.
           </li>
           <li>
-            <strong>Transparency:</strong> They explain how they get paid (carrier commissions, not your pocket) and never dodge questions about plan costs.
+            <strong>Transparency about compensation.</strong> They tell you
+            upfront that carriers pay their commission and your premium stays the
+            same either way.
           </li>
           <li>
-            <strong>Local knowledge:</strong> Medicare rules vary by state. Your advisor should understand your state's regulations and know which carriers price competitively in your zip code.
+            <strong>Annual plan reviews.</strong> Good advisors call you every
+            year before open enrollment to make sure your plan still fits.
           </li>
           <li>
-            <strong>Ongoing service:</strong> The best advisors review your plan every year, especially during the Medicare Advantage Open Enrollment window (October 15 through December 7).
+            <strong>Willingness to say "don't switch."</strong> If your current
+            plan still works, an honest advisor tells you so.
           </li>
         </ul>
       </section>
@@ -151,11 +162,15 @@ export default function TopMedicareAdvisors() {
         <h2 className="text-2xl font-semibold mb-3">
           Why independent brokers consistently outperform captive agents
         </h2>
-        <p className="mb-2">
-          A captive agent works for one insurance company. They can only show you that company's plans. If a competitor offers a lower rate on Plan G in your county, a captive agent cannot tell you about it.
+        <p className="mb-3">
+          A captive agent works for one insurance company. They can only show you
+          that company's plans. An independent broker works for you and can quote
+          plans across carriers.
         </p>
         <p>
-          An independent broker shops across carriers for you. Same plan letter, different price. That is where the savings happen. And you pay nothing extra for their help - the plan costs the same either way.
+          Think of it this way: a captive agent is like a car salesperson at one
+          dealership. An independent broker is like a friend who can pull prices
+          from every lot in town. Same cost to you, better results.
         </p>
       </section>
 
@@ -163,11 +178,27 @@ export default function TopMedicareAdvisors() {
         <h2 className="text-2xl font-semibold mb-3">
           Red flags to watch for when choosing a Medicare advisor
         </h2>
-        <ul className="list-disc ml-6 space-y-2">
-          <li>They pressure you to enroll on the spot. A good advisor gives you time to decide.</li>
-          <li>They charge a consultation fee. Licensed Medicare brokers never charge you directly.</li>
-          <li>They only mention one carrier. That signals captive, not independent.</li>
-          <li>They cannot explain the Part B deductible ($257/year in 2026) or how Medigap Open Enrollment works. Basic knowledge gaps mean bigger problems later.</li>
+        <ul className="list-disc pl-6 space-y-2">
+          <li>
+            They push one plan without asking about your doctors, medications, or
+            budget first.
+          </li>
+          <li>
+            They pressure you with artificial deadlines outside of actual
+            enrollment periods.
+          </li>
+          <li>
+            They can't clearly explain how they get paid.
+          </li>
+          <li>
+            They tell you Medigap requires immediate purchase during Part B
+            enrollment with no exceptions. (In reality, guaranteed issue rights
+            apply in several situations, including loss of employer coverage or
+            moving out of a plan's service area.)
+          </li>
+          <li>
+            They disappear after enrollment and don't offer annual reviews.
+          </li>
         </ul>
       </section>
 
@@ -175,92 +206,102 @@ export default function TopMedicareAdvisors() {
         <h2 className="text-2xl font-semibold mb-3">
           How Anthony Orner's approach puts clients first
         </h2>
-        <p className="mb-2">
-          I am Anthony Orner, an independent licensed Medicare broker based in New Jersey. I work with over a dozen carriers and do not push one company over another. My job is to lay out your options, compare the numbers, and let you pick what fits your budget and health.
+        <p className="mb-3">
+          I'm Anthony Orner, a licensed independent Medicare broker in New
+          Jersey. I work with carriers across the state and I don't charge you a
+          dime. Your premium is identical whether you call a carrier directly or
+          go through me.
         </p>
         <p>
-          Every consultation is free. No sales pitch, no timer. Just answers.
+          Every consultation starts with your doctors, your prescriptions, and
+          your budget. I show you what fits. If your current plan is still the
+          best option, I'll say so. Every client gets an annual review call
+          before open enrollment.
         </p>
       </section>
 
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-3">
-          What to ask during your first call with an advisor
+          Key numbers you should know before talking to any advisor
         </h2>
-        <p className="mb-2">
-          Come prepared. These three questions will tell you everything:
-        </p>
-        <ul className="list-disc ml-6 space-y-2">
-          <li>"How many insurance companies do you represent in my state?"</li>
-          <li>"Can you show me Plan G rates from at least three carriers?"</li>
-          <li>"Will you help me review my plan next year during open enrollment?"</li>
+        <ul className="list-disc pl-6 space-y-2">
+          <li>2026 Part B premium: $202.90/month</li>
+          <li>Part B deductible: $283/year</li>
+          <li>Part A deductible: $1,676 per benefit period</li>
+          <li>
+            Medigap Open Enrollment: 6 months starting the month you turn 65 and
+            are enrolled in Part B
+          </li>
+          <li>
+            Medicare Advantage / Part D Open Enrollment: October 15 through
+            December 7
+          </li>
         </ul>
-        <p className="mt-2">
-          If they stumble on any of those, keep looking.
+        <p className="mt-3">
+          An advisor who doesn't know these numbers off the top of their head
+          probably isn't one of the top ones.
         </p>
       </section>
 
-      <section className="mb-10">
+      <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-3">
-          Timing matters more than most people realize
+          When to reach out for help
         </h2>
-        <p className="mb-2">
-          Your Medigap Open Enrollment Period starts the month you turn 65 and are enrolled in Part B. It lasts 6 months. During that window, carriers cannot deny you or charge higher premiums based on your health history.
+        <p className="mb-3">
+          Contact an advisor at least three months before you turn 65. If you're
+          considering a Medigap plan, start six months before your Part B
+          effective date to lock in guaranteed issue pricing.
         </p>
         <p>
-          Miss it and you could face medical underwriting, higher rates, or outright denial. The best time to call an advisor is 3 to 6 months before your Part B start date.
+          Already on Medicare and unsure if your plan still makes sense? That's
+          what annual reviews are for. One call can save you hundreds.
         </p>
       </section>
 
-      <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 text-center mb-10">
+      <div className="bg-blue-600 text-white rounded-lg p-8 text-center my-10">
         <p className="text-xl font-semibold mb-2">
-          Ready to compare your Medicare options?
+          Talk to an independent Medicare advisor at no cost.
         </p>
-        <p className="mb-4">
+        <p className="text-lg mb-4">
           Call{" "}
-          <a
-            href="tel:8555591700"
-            className="text-blue-700 font-bold hover:underline"
-          >
+          <a href="tel:8555591700" className="underline font-bold">
             855-559-1700
           </a>{" "}
-          for a free, no-pressure consultation.
+          or{" "}
+          <Link href="/contact" className="underline font-bold">
+            get a free quote online
+          </Link>
+          .
         </p>
-        <Link
-          href="/quote"
-          className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition"
-        >
-          Get a Free Quote
-        </Link>
       </div>
 
       <FAQSection faqs={faqs} />
 
-      <section className="mt-10">
+      <section className="mt-10 mb-8">
         <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
         <ul className="space-y-2">
           <li>
             <Link
-              href="/medicare/plan-g"
+              href="/services/medicare-broker-near-me"
               className="text-blue-600 hover:underline"
             >
-              Medicare Plan G: What It Covers and What It Costs
+              Find a Medicare Broker Near You
             </Link>
           </li>
           <li>
             <Link
-              href="/medicare/plan-n"
+              href="/medicare-guides/medigap-open-enrollment"
               className="text-blue-600 hover:underline"
             >
-              Medicare Plan N: A Lower-Premium Alternative
+              Medigap Open Enrollment: What You Need to Know
             </Link>
           </li>
           <li>
             <Link
-              href="/medicare/medigap-open-enrollment"
+              href="/medicare-guides/medicare-advantage-vs-medigap"
               className="text-blue-600 hover:underline"
             >
-              Medigap Open Enrollment Period Explained
+              Medicare Advantage vs. Medigap: How to Decide
             </Link>
           </li>
           <li>
@@ -268,11 +309,11 @@ export default function TopMedicareAdvisors() {
               href="/about"
               className="text-blue-600 hover:underline"
             >
-              About Anthony Orner - Your Independent Medicare Broker
+              About Anthony Orner
             </Link>
           </li>
         </ul>
       </section>
-    </main>
+    </div>
   );
 }

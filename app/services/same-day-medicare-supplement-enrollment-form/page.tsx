@@ -7,14 +7,14 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 
 export const metadata: Metadata = {
   title:
-    "same day medicare supplement enrollment form | Start Coverage Free | MedicareYourself",
+    "same day medicare supplement enrollment form | Apply Free | MedicareYourself",
   description:
-    "Same day Medicare Supplement enrollment form — apply with a licensed broker, get confirmation today. Anthony Orner handles the paperwork. Start free.",
+    "Same day Medicare Supplement enrollment form — apply with a licensed broker, get confirmation today. Anthony Orner handles all paperwork. Call free.",
   openGraph: {
     title:
-      "same day medicare supplement enrollment form | Start Coverage Free | MedicareYourself",
+      "same day medicare supplement enrollment form | Apply Free | MedicareYourself",
     description:
-      "Same day Medicare Supplement enrollment form — apply with a licensed broker, get confirmation today. Anthony Orner handles the paperwork. Start free.",
+      "Same day Medicare Supplement enrollment form — apply with a licensed broker, get confirmation today. Anthony Orner handles all paperwork. Call free.",
   },
 };
 
@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Same Day Medicare Supplement Enrollment Form",
-      item: "https://www.medicareyourself.com/services/same-day-medicare-supplement-enrollment-form",
+      item: "https://medicareyourself.com/services/same-day-medicare-supplement-enrollment-form",
     },
   ],
 };
@@ -51,37 +51,37 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-01-01",
-  dateModified: "2025-01-01",
+  mainEntityOfPage:
+    "https://medicareyourself.com/services/same-day-medicare-supplement-enrollment-form",
 };
 
 const faqs = [
   {
-    question: "Can I really complete a Medicare Supplement enrollment form the same day?",
+    question: "How long does it take to enroll in a Medicare Supplement?",
     answer:
-      "Yes. Many carriers accept electronic applications that can be completed in a single phone call. With your Medicare information ready, the entire process typically takes 15 to 30 minutes. You'll receive a confirmation number before we hang up.",
+      "With the right broker, you can complete your application in a single phone call. Many carriers issue confirmation the same day. The actual effective date depends on your situation and the carrier's underwriting process, but the application itself takes about 15 to 20 minutes.",
   },
   {
-    question: "Do I need to be in my Medigap Open Enrollment Period to apply?",
+    question: "Can you apply for a Medicare Supplement plan at any time?",
     answer:
-      "Your best window is the 6-month Medigap Open Enrollment Period that starts the month you turn 65 and are enrolled in Part B. During this window, carriers must accept you regardless of health history. Outside of it, underwriting may apply. Federal guaranteed issue rights also exist if you're losing employer coverage or a Medicare Advantage plan.",
+      "You can submit an application at any time of year. However, guaranteed acceptance only applies during your 6-month Medigap Open Enrollment Period (starting the month you turn 65 and are enrolled in Part B) or during a federal guaranteed issue event. Outside those windows, carriers can use medical underwriting.",
   },
   {
-    question: "Is there a fee to apply through Anthony Orner?",
+    question: "What information do I need to fill out the enrollment form?",
     answer:
-      "No. There's no cost to you. Licensed brokers are compensated by the insurance carrier, not the applicant. You pay the same premium whether you apply directly or through a broker.",
+      "You'll need your Medicare Beneficiary Identifier (MBI) from your red, white, and blue Medicare card, your Part A and Part B effective dates, basic personal info like date of birth and address, and a bank account or payment method for your first premium.",
   },
   {
-    question: "What information do I need to fill out the form?",
+    question: "Is there a fee to use a broker for Medicare Supplement enrollment?",
     answer:
-      "You'll need your Medicare card (or your Part A and Part B effective dates), date of birth, Social Security number, and a checking account or payment method for the first premium. That's it.",
+      "No. Licensed brokers are paid by the insurance carrier, not by you. The premium you pay is the same whether you enroll directly or through a broker. Working with a broker like Anthony Orner means someone handles the paperwork and follows up with the carrier on your behalf.",
   },
 ];
 
@@ -106,12 +106,13 @@ export default function SameDayMedicareSupplementEnrollmentForm() {
       </nav>
 
       <article className="max-w-3xl mx-auto">
-        <h1 className="text-3xl md:text-4xl font-bold mb-4">
-          Same Day Medicare Supplement Enrollment Form: Apply and Get Confirmation Today
+        <h1 className="text-3xl font-bold mb-4">
+          Same Day Medicare Supplement Enrollment Form: Apply and Get
+          Confirmation Today
         </h1>
 
         <Image
-          src="/images/same-day-medicare-supplement-enrollment-form.webp"
+          src="/images/hub_same-day-medicare-supplement-enrollment-form.webp"
           alt="same day medicare supplement enrollment form"
           width={800}
           height={400}
@@ -120,10 +121,13 @@ export default function SameDayMedicareSupplementEnrollmentForm() {
         />
 
         <p className="text-lg mb-2">
-          Same day Medicare Supplement enrollment form completion is real. You don't need to print anything, mail anything, or wait weeks for a response. One phone call with me, and you'll have a confirmation number before we're done.
+          Same day Medicare Supplement enrollment form completion is real. You
+          call, we walk through the application together over the phone, and most
+          carriers send confirmation before the end of the business day.
         </p>
-        <p className="text-lg mb-6">
-          Most people turning 65 tell me they didn't expect Medicare to feel this confusing. The enrollment forms alone can stop people in their tracks. I handle the form for you, in real time, over the phone.
+        <p className="mb-6">
+          No printing. No faxing. No waiting weeks to hear back. I'm Anthony
+          Orner, a licensed Medicare broker, and I handle this every day.
         </p>
 
         <PhoneCTA />
@@ -133,10 +137,27 @@ export default function SameDayMedicareSupplementEnrollmentForm() {
             Which carriers accept same-day enrollment applications
           </h2>
           <p className="mb-2">
-            Several major Medigap carriers process electronic applications with same-day confirmation. Carriers like Aetna, Mutual of Omaha, and Cigna all support e-apps that I can submit while we're on the phone together.
+            Most major Medicare Supplement carriers accept phone or electronic
+            applications that process the same day. Not all of them, but the
+            ones I work with are set up for fast turnaround.
           </p>
+          <ul className="list-disc pl-6 space-y-1 mb-2">
+            <li>
+              Several top-rated carriers offer instant or same-day application
+              confirmation
+            </li>
+            <li>
+              Carriers with electronic enrollment platforms process faster than
+              paper-based ones
+            </li>
+            <li>
+              Rates vary by carrier, but plan benefits are standardized by the
+              federal government (a Plan G is a Plan G, regardless of company)
+            </li>
+          </ul>
           <p>
-            Plan G is standardized, which means every carrier's Plan G covers the exact same benefits. What differs is premium behavior over time and customer service. I'll help you pick a carrier with stable rate history, not just the cheapest starting price.
+            I'll tell you which carriers have the best long-term rate stability
+            in your state. That matters more than the cheapest starting premium.
           </p>
         </section>
 
@@ -144,14 +165,22 @@ export default function SameDayMedicareSupplementEnrollmentForm() {
           <h2 className="text-2xl font-semibold mb-3">
             What you need to complete the form in one sitting
           </h2>
-          <p className="mb-2">Have these ready before you call:</p>
-          <ul className="list-disc pl-6 space-y-1 mb-2">
-            <li>Your Medicare card (Part A and Part B effective dates)</li>
-            <li>Date of birth and Social Security number</li>
-            <li>Checking account or card for first premium payment</li>
-            <li>List of current medications (some carriers ask during underwriting)</li>
+          <p className="mb-2">
+            Have these ready before we get on the phone and the whole thing takes
+            15 to 20 minutes:
+          </p>
+          <ul className="list-disc pl-6 space-y-1">
+            <li>Your red, white, and blue Medicare card (for your MBI number)</li>
+            <li>Part A and Part B effective dates</li>
+            <li>Date of birth, address, and phone number</li>
+            <li>
+              Bank account or card information for your first premium payment
+            </li>
+            <li>
+              Brief health history (if you're outside your Medigap Open
+              Enrollment Period and underwriting applies)
+            </li>
           </ul>
-          <p>That's it. Most applications take 15 to 30 minutes start to finish.</p>
         </section>
 
         <section className="mb-8">
@@ -159,40 +188,50 @@ export default function SameDayMedicareSupplementEnrollmentForm() {
             How quickly coverage actually starts after submission
           </h2>
           <p className="mb-2">
-            If you're in your 6-month Medigap Open Enrollment Period, approval is guaranteed and coverage typically starts on the date you choose. No health questions can disqualify you during this window.
+            The application goes in the same day. The effective date depends on
+            timing. If you apply before the 1st of the month, most carriers can
+            start coverage on the 1st of the following month.
           </p>
           <p>
-            Outside open enrollment, applications go through underwriting. Most carriers return a decision within 1 to 5 business days. Even then, your effective date is usually the first of the following month.
+            During your Medigap Open Enrollment Period, there's no medical
+            underwriting. That means no delays for health questions or
+            approvals. Outside that window, underwriting may add a few days, but
+            I stay on top of it so nothing stalls.
           </p>
         </section>
 
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-3">
-            Why the enrollment window matters more than the form itself
+            Why people put this off (and why that's risky)
           </h2>
           <p className="mb-2">
-            Your Medigap Open Enrollment Period lasts 6 months starting the month you're 65 or older and enrolled in Part B. During that window, every carrier must accept you regardless of health conditions.
+            Medicare is confusing. People tell me all the time they didn't
+            realize how many moving parts there were until they started looking
+            into it. Part A, Part B, Part D, Medigap, Advantage. It feels like
+            learning a new language.
           </p>
           <p>
-            Miss that window and you may face medical underwriting, higher rates, or outright denial. If you're approaching 65, apply up to 6 months before your Part B start date to lock in your rate.
+            But delaying costs you. The Medigap Open Enrollment Period lasts 6
+            months starting the month you turn 65 and enroll in Part B. Miss
+            that window and carriers can decline you or charge more based on
+            your health. One phone call now protects you from that.
           </p>
         </section>
 
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-3">
-            Guaranteed issue situations that qualify for fast enrollment
+            What this form is not
           </h2>
           <p className="mb-2">
-            Federal law grants guaranteed issue rights in specific situations beyond the initial open enrollment:
+            This is not the CMS-40B form for enrolling in Part B, and it's not a
+            Medicare Advantage application. A Medicare Supplement enrollment form
+            is a separate application submitted to a private insurance carrier
+            after you already have Parts A and B.
           </p>
-          <ul className="list-disc pl-6 space-y-1">
-            <li>Losing employer or union group health coverage</li>
-            <li>Leaving a Medicare Advantage plan within the first 12 months</li>
-            <li>Your current carrier goes bankrupt or leaves your area</li>
-            <li>Your plan violated its contract terms</li>
-          </ul>
-          <p className="mt-2">
-            If any of these apply to you, same-day enrollment is straightforward and acceptance is guaranteed.
+          <p>
+            If you still need to sign up for Part B, I can walk you through that
+            process too. The Part B late enrollment penalty is 10% for every
+            12-month period you delayed, so timing matters.
           </p>
         </section>
 
@@ -201,29 +240,36 @@ export default function SameDayMedicareSupplementEnrollmentForm() {
             Apply now with Anthony Orner — no paperwork delays
           </h2>
           <p className="mb-2">
-            I'm Anthony Orner, a licensed Medicare broker. I fill out the application with you over the phone, submit it electronically, and confirm acceptance before we hang up. No printing. No faxing. No waiting.
+            You don't pay me anything. The carrier pays the broker fee, and your
+            premium stays the same whether you enroll directly or through me.
+            The difference: I handle the form, follow up with the carrier, and
+            make sure nothing falls through the cracks.
           </p>
-          <p>
-            There's no cost to work with me. Carriers pay the broker fee. Your premium is the same whether you go direct or call me. The difference is you don't have to figure out the form alone.
-          </p>
+          <p>Call 855-559-1700 and we'll get your application done today.</p>
         </section>
 
-        <div className="bg-blue-600 text-white rounded-lg p-6 text-center mb-10">
-          <p className="text-xl font-semibold mb-2">
-            Ready to complete your enrollment today?
+        <div className="bg-blue-600 text-white rounded-lg p-8 text-center mb-10">
+          <p className="text-xl font-bold mb-2">
+            Ready to complete your enrollment form today?
           </p>
           <p className="text-lg mb-4">
             Call{" "}
-            <a href="tel:8555591700" className="underline font-bold">
+            <a
+              href="tel:8555591700"
+              className="underline font-bold text-white"
+            >
               855-559-1700
             </a>{" "}
             or{" "}
-            <Link href="/get-a-free-quote" className="underline font-bold">
+            <Link
+              href="/quote"
+              className="underline font-bold text-white"
+            >
               Get a Free Quote
             </Link>
           </p>
           <p className="text-sm opacity-90">
-            No obligation. No paperwork on your end. Just answers.
+            Anthony Orner, Licensed Medicare Broker
           </p>
         </div>
 
@@ -237,7 +283,7 @@ export default function SameDayMedicareSupplementEnrollmentForm() {
                 href="/medicare-guides/medigap-open-enrollment-period"
                 className="text-blue-600 hover:underline"
               >
-                Medigap Open Enrollment Period Explained
+                Medigap Open Enrollment Period: When and Why It Matters
               </Link>
             </li>
             <li>
@@ -245,23 +291,23 @@ export default function SameDayMedicareSupplementEnrollmentForm() {
                 href="/medicare-guides/plan-g-vs-plan-n"
                 className="text-blue-600 hover:underline"
               >
-                Plan G vs. Plan N: Which Is Right for You?
+                Plan G vs Plan N: Which Medicare Supplement Is Right for You?
               </Link>
             </li>
             <li>
               <Link
-                href="/medicare-guides/guaranteed-issue-rights"
+                href="/medicare-guides/medicare-part-b-enrollment"
                 className="text-blue-600 hover:underline"
               >
-                Medicare Supplement Guaranteed Issue Rights
+                How to Enroll in Medicare Part B
               </Link>
             </li>
             <li>
               <Link
-                href="/medicare-guides/medicare-supplement-rate-increases"
+                href="/services/free-medicare-consultation"
                 className="text-blue-600 hover:underline"
               >
-                Understanding Medicare Supplement Rate Increases
+                Free Medicare Consultation With a Licensed Broker
               </Link>
             </li>
           </ul>

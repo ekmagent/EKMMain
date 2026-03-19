@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Medicare Broker for High Blood Pressure Patients",
-      item: "https://www.medicareyourself.com/services/medicare-broker-for-high-blood-pressure-patients",
+      item: "https://medicareyourself.com/services/medicare-broker-for-high-blood-pressure-patients",
     },
   ],
 };
@@ -51,49 +51,51 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-01",
-  dateModified: "2025-07-01",
+  mainEntityOfPage:
+    "https://medicareyourself.com/services/medicare-broker-for-high-blood-pressure-patients",
 };
 
 const faqs = [
   {
-    question: "How much does it cost to use a Medicare broker?",
+    question:
+      "Does Medicare cover blood pressure medications like lisinopril or losartan?",
     answer:
-      "Nothing. A licensed Medicare broker is paid by the insurance carrier, not by you. The plans cost the same whether you enroll directly or work with a broker. There's no fee for a consultation, plan comparison, or enrollment help.",
+      "Medicare Part D covers most blood pressure medications, including common ACE inhibitors and ARBs. However, each plan has its own formulary, and your specific drug may sit on a different tier depending on the carrier. A broker can check your exact medications against available plans in your area.",
   },
   {
-    question: "Does Medicare pay for high blood pressure medication?",
+    question:
+      "Will Medicare pay for a blood pressure monitor at home?",
     answer:
-      "Medicare Part D covers many blood pressure medications, including ACE inhibitors, ARBs, beta-blockers, and diuretics. The specific drugs covered and your copay depend on your plan's formulary. That's why reviewing your Part D plan each year matters - formularies change, and so do your costs.",
+      "Original Medicare (Part B) covers ambulatory blood pressure monitoring when ordered by your doctor. Some Medicare Advantage plans also offer home monitoring devices as a supplemental benefit. Coverage varies by plan, so it's worth checking before you buy one out of pocket.",
   },
   {
     question:
       "Can I switch Medicare plans if my blood pressure medication isn't covered?",
     answer:
-      "During the Annual Enrollment Period (October 15 - December 7), you can switch to a Part D or Medicare Advantage plan that covers your medications at a lower cost. Outside of that window, you may qualify for a Special Enrollment Period if certain life changes apply.",
+      "During the Annual Enrollment Period (October 15 through December 7), you can switch Part D or Medicare Advantage plans. If you have Medicare Advantage, the Open Enrollment Period from January 1 through March 31 also lets you make one change. Outside those windows, you'd need a qualifying event.",
   },
   {
     question:
-      "What preventive services does Medicare cover for high blood pressure?",
+      "Does a Medicare broker charge me for help with my plan?",
     answer:
-      "Original Medicare covers blood pressure screenings, annual wellness visits, and cardiovascular disease risk reduction visits at no cost to you. Your doctor can use these visits to monitor your hypertension without triggering extra charges - as long as the visit stays within preventive care guidelines.",
+      "No. Licensed Medicare brokers are paid by the insurance carriers, not by you. A broker like Anthony Orner can review your medications, doctors, and coverage needs at no cost to you.",
   },
 ];
 
 export default function MedicareBrokerHighBloodPressure() {
   return (
-    <main className="max-w-4xl mx-auto px-4 py-8">
+    <>
       <SchemaMarkup schema={breadcrumbSchema} />
       <SchemaMarkup schema={articleSchema} />
 
-      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
+      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-4">
         <Link href="/" className="hover:underline">
           Home
         </Link>{" "}
@@ -107,202 +109,208 @@ export default function MedicareBrokerHighBloodPressure() {
         </span>
       </nav>
 
-      <h1 className="text-3xl font-bold mb-4 leading-snug">
-        Medicare Broker for High Blood Pressure Patients — Coverage for the Full
-        Picture, Not Just the Numbers
-      </h1>
+      <article className="max-w-3xl mx-auto">
+        <h1 className="text-3xl md:text-4xl font-bold mb-6">
+          Medicare Broker for High Blood Pressure Patients — Coverage for the
+          Full Picture, Not Just the Numbers
+        </h1>
 
-      <Image
-        src="/images/medicare-broker-for-high-blood-pressure-patients.webp"
-        alt="Medicare broker for high blood pressure patients"
-        width={800}
-        height={400}
-        className="rounded-lg mb-6 w-full"
-      />
+        <Image
+          src="/images/hub_medicare-broker-for-high-blood-pressure-patients.webp"
+          alt="Medicare broker for high blood pressure patients"
+          width={800}
+          height={400}
+          className="w-full rounded-lg mb-6"
+          priority
+        />
 
-      <p className="text-lg mb-2">
-        A Medicare broker for high blood pressure patients does more than match
-        you with a plan that covers lisinopril. I look at the full picture - your
-        medications, your side effects, your labs, and what happens when your
-        doctor adjusts the prescription mid-year.
-      </p>
-      <p className="text-lg mb-6">
-        I'm Anthony Orner, a licensed Medicare broker in New Jersey. I review
-        plans for free, and I pay attention to the things most people overlook
-        until they get the bill.
-      </p>
+        <p className="text-lg mb-2">
+          A Medicare broker for high blood pressure patients does something most
+          plan comparison tools can't: look past the diagnosis and into your
+          daily life. The fatigue that hits at 2 p.m. The dizziness when you
+          stand up too fast. The third medication swap this year because the side
+          effects were worse than the condition.
+        </p>
+        <p className="text-lg mb-6">
+          I'm Anthony Orner, a licensed Medicare broker, and I review plans with
+          your full medication picture in front of me. No cost to you, ever.
+        </p>
 
-      <PhoneCTA />
+        <PhoneCTA />
 
-      <section className="mt-10 mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          How Part D formularies handle ACE inhibitors, ARBs, and combination
-          meds
-        </h2>
-        <p className="mb-3">
-          Your blood pressure medication might be covered on one Part D plan and
-          cost three times as much on another. ACE inhibitors like lisinopril are
-          usually on the lower tiers. ARBs like losartan can land on higher
-          tiers depending on the carrier.
-        </p>
-        <p>
-          Combination meds - where two drugs are in one pill - are often priced
-          differently than taking each drug separately. I run your exact
-          prescriptions through every available plan to find the lowest total
-          cost, including premiums, copays, and the coverage gap.
-        </p>
-      </section>
+        <section className="mt-10 mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            How Part D formularies handle ACE inhibitors, ARBs, and combination
+            meds
+          </h2>
+          <p className="mb-2">
+            Lisinopril, losartan, amlodipine, hydrochlorothiazide. If you
+            recognize those names, you know how quickly a prescription list grows
+            with hypertension. Each Part D plan places these drugs on different
+            formulary tiers, which directly affects your copay.
+          </p>
+          <p>
+            Combination medications (like amlodipine/benazepril) can save you
+            money or cost more depending on the plan. I run your exact drug list
+            through every available carrier so you're not overpaying on a
+            medication you take every single day.
+          </p>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Covering the side effects too: fatigue, dizziness, and medication
-          adjustments
-        </h2>
-        <p className="mb-3">
-          They call hypertension the silent killer. What nobody mentions is how
-          loud the treatment can be. The fatigue. The dizziness when you stand
-          up. The brain fog that makes you wonder if the medication is worth it.
-        </p>
-        <p>
-          When your doctor switches you from one drug to another - and that
-          happens more often than people expect - you need a plan where the
-          replacement is also covered. I check formulary depth, not just whether
-          your current prescription shows up on the list.
-        </p>
-      </section>
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Covering the side effects too: fatigue, dizziness, and medication
+            adjustments
+          </h2>
+          <p className="mb-2">
+            They call high blood pressure the "silent killer," but the treatment
+            is anything but quiet. Patients deal with fatigue, brain fog,
+            chronic cough from ACE inhibitors, and swollen ankles from calcium
+            channel blockers.
+          </p>
+          <p>
+            When your doctor switches your medication, your plan needs to cover
+            the new one at a reasonable cost. I make sure your plan has enough
+            formulary depth so a mid-year medication change doesn't wreck your
+            budget.
+          </p>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Preventive screenings and specialist visits Medicare includes for
-          hypertension
-        </h2>
-        <p className="mb-3">
-          Original Medicare covers blood pressure screenings, annual wellness
-          visits, and cardiovascular risk reduction counseling at no cost to you.
-          These are preventive services - no copay, no deductible.
-        </p>
-        <p>
-          But here's what trips people up: if you mention a new symptom or ask
-          about an unrelated problem during that visit, it can trigger a
-          diagnostic billing code. Suddenly you owe money for what you thought
-          was a free checkup. I help you understand what's covered so you're not
-          blindsided.
-        </p>
-      </section>
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Preventive screenings and specialist visits Medicare includes for
+            hypertension
+          </h2>
+          <p className="mb-2">
+            Original Medicare covers blood pressure screening at your Annual
+            Wellness Visit at no extra cost. It also covers lab work your doctor
+            orders to monitor kidney function and cholesterol, both tied directly
+            to hypertension management.
+          </p>
+          <ul className="list-disc pl-6 space-y-1">
+            <li>Annual Wellness Visit: $0 under Part B</li>
+            <li>Blood work (metabolic panel, lipid panel): covered under Part B after the $283 annual deductible</li>
+            <li>Cardiologist referrals: covered with applicable copay or coinsurance</li>
+          </ul>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Why your plan choice matters more when you take daily medication
-        </h2>
-        <p className="mb-3">
-          If you take one or two blood pressure meds every day, drug costs add up
-          fast. A $15/month copay difference is $180 a year. Multiply that by two
-          or three prescriptions and the wrong plan quietly costs you hundreds.
-        </p>
-        <p>
-          I compare plans using your pharmacy, your doses, and your doctor
-          network - not just the plan's star rating or monthly premium.
-        </p>
-      </section>
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Why a broker matters more than a plan-finder tool
+          </h2>
+          <p className="mb-2">
+            Online tools compare premiums and formularies. They don't ask
+            whether your doctor has switched your meds three times this year.
+            They don't know you're worried about affording a cardiologist visit.
+          </p>
+          <p>
+            A broker connects those dots. I look at your prescriptions, your
+            providers, and your actual health situation. Then I match you to a
+            plan that handles all of it, not just the cheapest monthly premium.
+          </p>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Medicare Advantage vs. Original Medicare with a supplement
-        </h2>
-        <p className="mb-3">
-          Some Medicare Advantage plans include Part D drug coverage and extras
-          like telehealth or gym memberships. But they also come with networks.
-          If your cardiologist or internist isn't in network, you're starting
-          over.
-        </p>
-        <p>
-          Original Medicare with a Medigap plan gives you broader provider
-          access but requires a separate Part D plan. There's no single right
-          answer - it depends on your doctors, your medications, and how often
-          you need specialist care.
-        </p>
-      </section>
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Medicare Advantage vs. Original Medicare with a supplement
+          </h2>
+          <p className="mb-2">
+            Some Medicare Advantage plans include extra benefits like home blood
+            pressure monitors and wellness programs. But they also come with
+            networks, prior authorizations, and referral requirements that can
+            slow things down when you need a medication change fast.
+          </p>
+          <p>
+            Original Medicare paired with a Medigap plan gives you more
+            flexibility with specialists but costs more monthly. For patients
+            managing active hypertension with frequent adjustments, the right
+            answer depends on your situation. That's exactly what I help you
+            figure out.
+          </p>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Get a free review from a broker who looks beyond the blood pressure
-          cuff
-        </h2>
-        <p className="mb-3">
-          You don't need someone who rushes through a plan comparison. You need
-          someone who asks about your refill schedule, your side effects, and
-          whether your doctor has been talking about changing your meds.
-        </p>
-        <p>
-          That's what I do. Call me and I'll review your current plan, check your
-          drug coverage, and tell you if there's a better fit. No cost, no
-          pressure, no obligation.
-        </p>
-      </section>
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Get a free review from a broker who looks beyond the blood pressure
+            cuff
+          </h2>
+          <p className="mb-2">
+            You shouldn't have to choose between affording your medications and
+            affording everything else. I'll review your current plan, check your
+            drug costs, and tell you straight whether there's something better
+            available.
+          </p>
+          <p>
+            No charge. No obligation. Just a clear answer from someone who does
+            this every day.
+          </p>
+        </section>
 
-      <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 my-10 text-center">
-        <p className="text-xl font-semibold mb-2">
-          Talk to a licensed Medicare broker who understands hypertension
-          coverage.
-        </p>
-        <p className="text-lg mb-4">
-          Call{" "}
-          <a
-            href="tel:8555591700"
-            className="text-blue-700 font-bold hover:underline"
-          >
-            855-559-1700
-          </a>{" "}
-          or{" "}
-          <Link
-            href="/contact"
-            className="text-blue-700 font-bold hover:underline"
-          >
-            get a free quote online
-          </Link>
-          .
-        </p>
-      </div>
-
-      <FAQSection faqs={faqs} />
-
-      <section className="mt-10">
-        <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
-        <ul className="space-y-2">
-          <li>
-            <Link
-              href="/medicare-guides/medicare-part-d-explained"
-              className="text-blue-700 hover:underline"
+        <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 my-10 text-center">
+          <p className="text-xl font-semibold mb-2">
+            Talk to Anthony Orner — Licensed Medicare Broker
+          </p>
+          <p className="text-lg mb-4">
+            Call{" "}
+            <a
+              href="tel:8555591700"
+              className="text-blue-700 font-bold hover:underline"
             >
-              Medicare Part D Explained: What It Covers and What It Costs
-            </Link>
-          </li>
-          <li>
+              855-559-1700
+            </a>{" "}
+            or{" "}
             <Link
-              href="/medicare-guides/medigap-vs-medicare-advantage"
-              className="text-blue-700 hover:underline"
+              href="/get-a-free-quote"
+              className="text-blue-700 font-bold hover:underline"
             >
-              Medigap vs. Medicare Advantage: Which Is Right for You?
+              Get a Free Quote
             </Link>
-          </li>
-          <li>
-            <Link
-              href="/services/medicare-broker-nj"
-              className="text-blue-700 hover:underline"
-            >
-              Find a Licensed Medicare Broker in New Jersey
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/medicare-guides/annual-enrollment-period"
-              className="text-blue-700 hover:underline"
-            >
-              Medicare Annual Enrollment Period: Dates and What You Can Change
-            </Link>
-          </li>
-        </ul>
-      </section>
-    </main>
+          </p>
+          <p className="text-sm text-gray-600">
+            Free plan review. No pressure. Just the facts about your coverage.
+          </p>
+        </div>
+
+        <FAQSection faqs={faqs} />
+
+        <section className="mt-10 mb-8">
+          <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
+          <ul className="space-y-2">
+            <li>
+              <Link
+                href="/services/medicare-broker-for-chronic-conditions"
+                className="text-blue-700 hover:underline"
+              >
+                Medicare Broker for Chronic Conditions
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/guides/medicare-part-d-drug-coverage"
+                className="text-blue-700 hover:underline"
+              >
+                Understanding Medicare Part D Drug Coverage
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/guides/medicare-advantage-vs-medigap"
+                className="text-blue-700 hover:underline"
+              >
+                Medicare Advantage vs. Medigap: Which Is Right for You?
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/guides/annual-enrollment-period"
+                className="text-blue-700 hover:underline"
+              >
+                Annual Enrollment Period: What You Need to Know
+              </Link>
+            </li>
+          </ul>
+        </section>
+      </article>
+    </>
   );
 }

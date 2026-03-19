@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Medicare Supplement for Seniors Turning 65",
-      item: "https://www.medicareyourself.com/services/medicare-supplement-for-seniors-turning-65",
+      item: "https://medicareyourself.com/services/medicare-supplement-for-seniors-turning-65",
     },
   ],
 };
@@ -51,7 +51,7 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
@@ -112,7 +112,7 @@ export default function MedicareSupplementSeniorsTurning65() {
       </h1>
 
       <Image
-        src="/images/medicare-supplement-for-seniors-turning-65.webp"
+        src="/images/medicare-supplement-for-seniors-turning-65_photo.webp"
         alt="Medicare supplement for seniors turning 65"
         width={800}
         height={400}

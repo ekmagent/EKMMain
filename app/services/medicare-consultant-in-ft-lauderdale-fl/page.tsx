@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
-      name: "Medicare Consultant in Ft Lauderdale FL",
-      item: "https://www.medicareyourself.com/services/medicare-consultant-in-ft-lauderdale-fl",
+      name: "Medicare Consultant in Ft Lauderdale, FL",
+      item: "https://medicareyourself.com/services/medicare-consultant-in-ft-lauderdale-fl",
     },
   ],
 };
@@ -50,47 +50,44 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-01",
-  dateModified: "2025-07-01",
+  datePublished: "2025-01-01",
+  dateModified: "2025-01-01",
 };
 
 const faqs = [
   {
-    question: "How much does a Medicare consultant cost?",
+    question: "How much does a Medicare consultant in Ft Lauderdale cost?",
     answer:
-      "A licensed Medicare consultant like Anthony Orner costs you nothing. Independent brokers are compensated by the insurance carriers, not the client. You get unbiased plan comparisons and enrollment help at zero cost to you.",
+      "Nothing. Independent Medicare brokers like Anthony Orner are paid by the carriers, not by you. Your consultation and plan comparison are completely free with no obligation.",
   },
   {
-    question:
-      "What is the difference between a Medicare consultant and a captive agent?",
+    question: "What is the difference between a Medicare consultant and a captive agent?",
     answer:
-      "A captive agent represents one insurance company and can only show you that company's plans. An independent Medicare consultant works with multiple carriers across Broward County, so you see a broader range of Supplement and Advantage options side by side.",
+      "A captive agent represents one insurance company and can only show you their plans. An independent consultant compares plans from multiple carriers in Broward County, so you see the full picture before choosing.",
   },
   {
-    question: "When can I change my Medicare plan in Florida?",
+    question: "Can I switch Medicare Supplement plans in Florida without medical underwriting?",
     answer:
-      "Medicare Advantage and Part D plans can be changed during Open Enrollment (October 15 through December 7) or during the Medicare Advantage Open Enrollment Period (January 1 through March 31). For Medigap, Florida's Birthday Rule gives you a 63-day window around your birthday each year to switch Supplement plans without medical underwriting.",
+      "Florida's Birthday Rule gives you a 30-day window around your birthday each year to switch to a comparable Medigap plan without answering health questions. This is a state-specific protection that most Floridians don't know about.",
   },
   {
-    question:
-      "Can I meet with a Medicare consultant in person in Ft Lauderdale?",
+    question: "When should I contact a Medicare consultant before turning 65?",
     answer:
-      "Yes. Anthony Orner offers phone, video, and in-person consultations for Ft Lauderdale and greater Broward County residents. Call 855-559-1700 to schedule a time that works for you.",
+      "Ideally, 6 months before your Part B start date. This gives you time to compare options and apply during your Medigap Open Enrollment Period, when carriers must accept you regardless of health history.",
   },
 ];
 
-export default function MedicareConsultantFtLauderdale() {
+export default function MedicareConsultantFtLauderdaleFL() {
   return (
     <main className="max-w-4xl mx-auto px-4 py-8">
-      <SchemaMarkup schema={breadcrumbSchema} />
-      <SchemaMarkup schema={articleSchema} />
+      <SchemaMarkup schema={[breadcrumbSchema, articleSchema]} />
 
       <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
         <Link href="/" className="hover:underline">
@@ -102,7 +99,7 @@ export default function MedicareConsultantFtLauderdale() {
         </Link>{" "}
         &gt;{" "}
         <span className="text-gray-700">
-          Medicare Consultant in Ft Lauderdale FL
+          Medicare Consultant in Ft Lauderdale, FL
         </span>
       </nav>
 
@@ -111,18 +108,19 @@ export default function MedicareConsultantFtLauderdale() {
       </h1>
 
       <Image
-        src="/images/medicare-consultant-in-ft-lauderdale-fl.webp"
+        src="/images/hub_medicare-consultant-in-ft-lauderdale-fl.webp"
         alt="Medicare consultant in Ft Lauderdale FL"
         width={800}
         height={400}
-        className="rounded-lg mb-6 w-full"
+        className="w-full rounded-lg mb-6"
+        priority
       />
 
       <p className="text-lg mb-2">
-        A Medicare consultant in Ft Lauderdale, FL gives you something a single-carrier agent cannot: a side-by-side look at plans from multiple insurance companies. I'm Anthony Orner, an independent licensed Medicare broker, and I compare Supplement and Advantage options across Broward County carriers at no cost to you.
+        A Medicare consultant in Ft Lauderdale, FL can save you hours of confusion and potentially hundreds of dollars a year. I'm Anthony Orner, an independent broker who compares Supplement and Advantage plans from multiple Broward County carriers so you see real options, not a sales pitch for one company.
       </p>
       <p className="text-lg mb-6">
-        No high-pressure sales. No obligation. Just clear answers about what each plan actually covers and costs.
+        My consultations are free. Carriers pay me, you don't.
       </p>
 
       <PhoneCTA />
@@ -132,10 +130,10 @@ export default function MedicareConsultantFtLauderdale() {
           Why Ft Lauderdale retirees benefit from an independent consultant
         </h2>
         <p className="mb-2">
-          Broward County has dozens of Medicare carriers competing for your enrollment. That's good for pricing but overwhelming to sort through alone.
+          Broward County has one of the highest concentrations of Medicare-eligible adults in the country. That means more carriers compete here, which is good for you. But it also means more plans, more mailers, and more confusion.
         </p>
-        <p className="mb-4">
-          An independent consultant isn't tied to one company. I pull quotes from 10 or more carriers so you can compare premiums, networks, and benefits on one call. Captive agents only show you their employer's plans - you could miss a better deal across the street.
+        <p>
+          A captive agent shows you one company's options. I show you plans from 12+ carriers side by side. Same doctor networks, same drug formularies, different prices. You pick what fits.
         </p>
       </section>
 
@@ -144,21 +142,18 @@ export default function MedicareConsultantFtLauderdale() {
           Supplement and Advantage plans available in Broward County
         </h2>
         <p className="mb-2">
-          Ft Lauderdale residents have access to both Medicare Supplement (Medigap) and Medicare Advantage (Part C) plans. Here's the quick breakdown:
+          Ft Lauderdale residents typically choose between two paths:
         </p>
-        <ul className="list-disc pl-6 mb-4 space-y-2">
+        <ul className="list-disc pl-6 space-y-2 mb-3">
           <li>
-            <strong>Medigap Plan G</strong> - Covers the Part A deductible ($1,676 in 2026), skilled nursing coinsurance ($209.50/day for days 21-100), and Part B excess charges. You pay only the $257 Part B deductible, then Medicare and Plan G handle the rest.
+            <strong>Medicare Supplement (Medigap):</strong> Pairs with Original Medicare. Plan G is the most popular. You keep access to any doctor nationwide who accepts Medicare. Rates vary by carrier.
           </li>
           <li>
-            <strong>Medigap Plan N</strong> - Lower premiums than Plan G, but you pay small copays at office visits and the ER.
-          </li>
-          <li>
-            <strong>Medicare Advantage (HMO/PPO)</strong> - Bundles Part A, Part B, and often Part D into one plan. Many Broward County Advantage plans carry $0 premiums and include dental, vision, and hearing benefits.
+            <strong>Medicare Advantage (Part C):</strong> Replaces Original Medicare with a network-based plan. Many Broward County Advantage plans include dental, vision, and drug coverage with $0 premiums. Trade-off: network restrictions apply.
           </li>
         </ul>
         <p>
-          Rates vary by carrier, age, and tobacco status. I run the numbers so you don't have to guess.
+          Neither option is universally better. The right plan depends on your doctors, prescriptions, and how you use healthcare. That's exactly what a free review clarifies.
         </p>
       </section>
 
@@ -167,39 +162,38 @@ export default function MedicareConsultantFtLauderdale() {
           Florida's Birthday Rule and how it protects your right to switch
         </h2>
         <p className="mb-2">
-          Florida gives Medigap policyholders a powerful protection most states don't offer. Under the Birthday Rule, you get a 63-day window around your birthday each year to switch to any Medigap plan of equal or lesser benefits - with no medical underwriting.
-        </p>
-        <p className="mb-4">
-          That means if your current Supplement premiums have climbed, you can move to a lower-cost carrier without answering health questions. This window starts 30 days before your birthday and ends 33 days after. Miss it and you may need to pass underwriting.
-        </p>
-      </section>
-
-      <section className="mt-10">
-        <h2 className="text-2xl font-semibold mb-3">
-          Your 6-month Medigap open enrollment window
-        </h2>
-        <p className="mb-2">
-          If you're turning 65 and enrolling in Part B, you have a one-time 6-month Medigap Open Enrollment Period. During this window, every carrier must accept you at their standard rate regardless of health history.
+          Florida gives Medigap policyholders a powerful annual protection most people never hear about. During the 30-day window around your birthday, you can switch to a comparable or lesser Supplement plan from any carrier without medical underwriting.
         </p>
         <p>
-          Once those 6 months close, carriers in Florida can ask health questions and charge more - or decline you entirely. Don't wait until the last month to start comparing.
+          That means if your current Plan G premium jumps, you can shop for a lower rate and the new carrier can't deny you for health reasons. I track rate changes across Broward County carriers so I can tell you when a switch makes sense.
         </p>
       </section>
 
       <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
-          What a free Medicare review looks like
+          Key Medicare costs to know for 2026
         </h2>
-        <p className="mb-2">
-          Here's what happens when you call:
-        </p>
-        <ul className="list-disc pl-6 mb-4 space-y-2">
-          <li>We review your current coverage (or lack of it) and your prescriptions.</li>
-          <li>I pull real-time quotes from Broward County carriers.</li>
-          <li>You pick the plan that fits your budget and doctors - or you pick nothing. Zero pressure either way.</li>
+        <ul className="list-disc pl-6 space-y-2">
+          <li>Part B premium: $202.90/month</li>
+          <li>Part B deductible: $283/year</li>
+          <li>Part A deductible: $1,676 per benefit period</li>
+          <li>SNF coinsurance (days 21-100): $209.50/day</li>
+          <li>Part B late enrollment penalty: 10% for each 12-month delay</li>
         </ul>
+        <p className="mt-3">
+          These costs add up fast without the right coverage. A Supplement plan can cover most of them. An Advantage plan manages them differently through copays and out-of-pocket maximums.
+        </p>
+      </section>
+
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold mb-3">
+          Local healthcare systems serving Ft Lauderdale
+        </h2>
+        <p className="mb-2">
+          Broward County is home to major systems like Broward Health (including Broward Health Medical Center and Broward Health North) and Holy Cross Health, part of Trinity Health. Cleveland Clinic's Weston location is nearby too.
+        </p>
         <p>
-          The entire call typically takes 15 to 20 minutes.
+          When we compare plans, I check which networks include your specific doctors and hospitals. A plan that looks great on paper means nothing if it doesn't cover where you actually go.
         </p>
       </section>
 
@@ -207,65 +201,70 @@ export default function MedicareConsultantFtLauderdale() {
         <h2 className="text-2xl font-semibold mb-3">
           Request a free Medicare review with Anthony Orner
         </h2>
-        <p className="mb-4">
-          Whether you're new to Medicare or reviewing a plan you've had for years, I'll show you what's available in Ft Lauderdale and Broward County right now. Call 855-559-1700 or use the link below to get started.
+        <p className="mb-2">
+          Whether you're turning 65, already on Medicare, or unhappy with your current plan, a 15-minute call can show you what's available. No pressure, no obligation. I'll compare your options across Broward County carriers and let you decide.
+        </p>
+        <p>
+          Call now or request a callback at a time that works for you.
         </p>
       </section>
 
-      <div className="bg-blue-600 text-white rounded-lg p-6 text-center my-10">
-        <p className="text-xl font-semibold mb-2">
-          Talk to a licensed Medicare consultant today
+      <div className="mt-10 bg-blue-600 text-white rounded-lg p-8 text-center">
+        <p className="text-2xl font-bold mb-3">
+          Talk to a Medicare Consultant Today
         </p>
         <p className="text-lg mb-4">
           Call{" "}
-          <a href="tel:8555591700" className="underline font-bold">
+          <a href="tel:8555591700" className="underline font-semibold">
             855-559-1700
           </a>{" "}
-          for a free, no-obligation plan comparison.
+          for a free Ft Lauderdale plan comparison.
         </p>
         <Link
-          href="/contact"
-          className="inline-block bg-white text-blue-600 font-semibold px-6 py-3 rounded-lg hover:bg-gray-100 transition"
+          href="/get-a-free-quote"
+          className="inline-block bg-white text-blue-600 font-bold py-3 px-8 rounded-lg hover:bg-gray-100 transition"
         >
           Get a Free Quote
         </Link>
       </div>
 
-      <FAQSection faqs={faqs} />
+      <section className="mt-12">
+        <FAQSection faqs={faqs} />
+      </section>
 
       <section className="mt-12">
         <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
-        <ul className="space-y-2">
+        <ul className="space-y-3">
           <li>
             <Link
-              href="/services/medicare-supplement-plans-florida"
+              href="/medicare-guides/medicare-supplement-plan-g"
               className="text-blue-600 hover:underline"
             >
-              Medicare Supplement Plans in Florida
+              Medicare Supplement Plan G: What It Covers and Costs
             </Link>
           </li>
           <li>
             <Link
-              href="/guides/medicare-plan-g-vs-plan-n"
+              href="/medicare-guides/medicare-advantage-vs-medigap"
               className="text-blue-600 hover:underline"
             >
-              Medicare Plan G vs. Plan N: Which Saves You More?
+              Medicare Advantage vs. Medigap: Which Is Right for You?
             </Link>
           </li>
           <li>
             <Link
-              href="/guides/florida-birthday-rule-medigap"
+              href="/medicare-guides/florida-birthday-rule"
               className="text-blue-600 hover:underline"
             >
-              Florida Birthday Rule for Medigap Explained
+              Florida's Birthday Rule for Medigap Explained
             </Link>
           </li>
           <li>
             <Link
-              href="/guides/medicare-advantage-broward-county"
+              href="/services/medicare-broker-broward-county"
               className="text-blue-600 hover:underline"
             >
-              Medicare Advantage Plans in Broward County
+              Medicare Broker Serving All of Broward County
             </Link>
           </li>
         </ul>

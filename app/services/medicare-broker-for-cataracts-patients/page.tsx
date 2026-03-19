@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Medicare Broker for Cataracts Patients",
-      item: "https://www.medicareyourself.com/services/medicare-broker-for-cataracts-patients",
+      item: "https://medicareyourself.com/services/medicare-broker-for-cataracts-patients",
     },
   ],
 };
@@ -51,47 +51,47 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  mainEntityOfPage:
-    "https://www.medicareyourself.com/services/medicare-broker-for-cataracts-patients",
+  datePublished: "2025-07-14",
+  dateModified: "2025-07-14",
 };
 
 const faqs = [
   {
     question: "How bad do cataracts have to be for Medicare to pay?",
     answer:
-      "Medicare doesn't use a specific vision score as a cutoff. Your ophthalmologist needs to document that cataracts are causing functional impairment - difficulty driving, reading, or performing daily tasks. Once your doctor determines the cataract is medically necessary to treat, Part B covers the surgery.",
+      "Medicare doesn't use a specific vision threshold. Your ophthalmologist needs to document that cataracts are causing functional impairment that affects your daily life. If your doctor determines surgery is medically necessary, Part B will generally cover it.",
+  },
+  {
+    question: "How do I get Medicare to cover cataract surgery?",
+    answer:
+      "Start with a referral from your eye doctor confirming medical necessity. Use a Medicare-participating surgeon and an approved facility. Part B covers the surgery and a standard intraocular lens (IOL). If you want a premium lens, you'll pay the upgrade cost out of pocket unless your plan helps offset it.",
   },
   {
     question: "What does Medicare pay for cataract surgery in 2026?",
     answer:
-      "Medicare Part B covers 80% of the Medicare-approved amount for cataract surgery after you meet the $283 annual deductible. You're responsible for the remaining 20% coinsurance - which is where a Supplement or Advantage plan can help cover your out-of-pocket share.",
+      "After you meet the $283 Part B deductible for 2026, Medicare pays 80% of the approved amount for cataract surgery. You're responsible for the remaining 20% coinsurance unless you have a Medigap supplement or Medicare Advantage plan that covers it.",
   },
   {
     question: "Is Medicare going to stop paying for cataract surgery?",
     answer:
-      "No. Cataract surgery remains a covered Part B benefit. It's one of the most common Medicare-covered procedures in the country. Coverage rules for conventional lenses and standard surgical techniques have not changed.",
-  },
-  {
-    question: "How does Medicare cover cataracts?",
-    answer:
-      "Medicare Part B covers cataract surgery (blade or laser technique) with a conventional monofocal intraocular lens. It also covers one pair of corrective eyeglasses or contact lenses after surgery. You pay 20% coinsurance after your Part B deductible. Premium lens upgrades like toric or multifocal IOLs are not covered - you pay the difference out of pocket.",
+      "No. Cataract surgery remains a covered Part B benefit. It's one of the most common Medicare-covered procedures in the country. There are no pending changes to eliminate this coverage.",
   },
 ];
 
 export default function MedicareBrokerForCataractsPatients() {
   return (
-    <main className="max-w-4xl mx-auto px-4 py-8">
+    <main className="max-w-3xl mx-auto px-4 py-8">
       <SchemaMarkup schema={breadcrumbSchema} />
       <SchemaMarkup schema={articleSchema} />
 
-      <nav className="text-sm text-gray-500 mb-6" aria-label="Breadcrumb">
+      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
         <Link href="/" className="hover:underline">
           Home
         </Link>{" "}
@@ -105,31 +105,30 @@ export default function MedicareBrokerForCataractsPatients() {
         </span>
       </nav>
 
-      <div className="bg-[#1e40af] rounded-lg p-6 mb-8">
-        <h1 className="text-3xl md:text-4xl font-bold text-white mb-4">
-          Medicare Broker for Cataracts Patients — Find Plans That Cover Surgery
-          and Follow-Up Care
-        </h1>
-        <Image
-          src="/images/medicare-broker-for-cataracts-patients.webp"
-          alt="Medicare broker for cataracts patients"
-          width={800}
-          height={400}
-          className="rounded-lg mb-6 w-full"
-        />
-      </div>
+      <h1 className="text-3xl font-bold mb-4 leading-tight">
+        Medicare Broker for Cataracts Patients — Find Plans That Cover Surgery
+        and Follow-Up Care
+      </h1>
+
+      <Image
+        src="/images/hub_medicare-broker-for-cataracts-patients.webp"
+        alt="Medicare broker for cataracts patients"
+        width={800}
+        height={400}
+        className="w-full rounded-lg mb-6"
+        priority
+      />
 
       <p className="text-lg mb-2">
-        A Medicare broker for cataracts patients can save you real money and a
-        lot of confusion before you go under the light. I'm Anthony Orner, a
-        licensed broker in NJ, and I help people figure out exactly what their
-        Medicare plan covers before the surgery date - not after the bill shows
-        up.
+        A Medicare broker for cataracts patients can save you real money by
+        matching you to plans that minimize your out-of-pocket costs for surgery,
+        lenses, and post-op visits. I'm Anthony Orner, a licensed broker in NJ,
+        and I do this comparison for free.
       </p>
-      <p className="text-lg mb-6">
-        Cataract surgery is common, but the cost conversation is anything but
-        simple. Lens upgrades, post-op visits, the 20% coinsurance gap - these
-        details matter. Let me walk you through it.
+      <p className="mb-6">
+        Cataracts affect more than half of Americans over 80. The surgery is safe
+        and routine, but the bills can still surprise you if your coverage has
+        gaps.
       </p>
 
       <PhoneCTA />
@@ -139,33 +138,32 @@ export default function MedicareBrokerForCataractsPatients() {
           What Medicare Parts A and B cover for cataract surgery
         </h2>
         <p className="mb-2">
-          Medicare Part B covers cataract surgery - both traditional blade and
-          laser techniques - when your doctor documents it as medically
-          necessary. That includes the procedure itself, the facility fee, and a
-          standard monofocal intraocular lens (IOL).
+          Medicare Part B covers cataract surgery when your doctor determines
+          it's medically necessary. This includes the procedure itself, a
+          standard monofocal intraocular lens (IOL), and one pair of
+          prescription eyeglasses or contact lenses after surgery.
         </p>
         <p>
-          After your $283 Part B deductible in 2026, Medicare pays 80%. You're
-          responsible for the other 20% coinsurance. Part B also covers one pair
-          of corrective eyeglasses or contact lenses after each cataract surgery.
+          In 2026, you'll pay the $283 Part B deductible, then 20% coinsurance
+          on the Medicare-approved amount. That 20% is where many people get
+          caught off guard.
         </p>
       </section>
 
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-3">
-          How Supplement and Advantage plans handle post-op costs
+          How supplement and Advantage plans handle post-op costs
         </h2>
         <p className="mb-2">
-          That 20% coinsurance adds up fast on a surgical procedure. A Medigap
-          plan like Plan G picks up the coinsurance so your out-of-pocket cost
-          for the Medicare-covered portion drops to nearly zero.
+          A Medigap supplement (like Plan G) picks up most or all of that 20%
+          coinsurance. You pay your monthly premium and the Part B deductible,
+          and the rest is covered.
         </p>
         <p>
-          Medicare Advantage plans handle it differently - you'll have a copay or
-          coinsurance set by the plan, and you'll need to use in-network
-          surgeons. Some Advantage plans also bundle extra vision benefits that
-          Original Medicare doesn't offer. The right plan depends on your
-          situation.
+          Medicare Advantage plans work differently. Many have $0 or low copays
+          for outpatient surgery, but you need to use in-network providers. Some
+          Advantage plans also include routine vision benefits that Original
+          Medicare doesn't offer.
         </p>
       </section>
 
@@ -174,51 +172,50 @@ export default function MedicareBrokerForCataractsPatients() {
           IOL upgrades, premium lenses, and out-of-pocket gaps
         </h2>
         <p className="mb-2">
-          Here's where most people get surprised. Medicare covers a standard
-          monofocal lens. If your surgeon recommends a toric lens for
-          astigmatism or a multifocal lens to reduce glasses dependence, you pay
-          the difference out of pocket. That upgrade can run $1,500 to $4,000 or
-          more per eye.
+          Medicare covers a standard monofocal IOL. If you want a multifocal,
+          toric, or accommodating lens, you'll pay the difference between the
+          standard lens cost and the premium lens cost. That upgrade can run
+          $1,500 to $4,000 per eye.
         </p>
         <p>
-          Doctors sometimes push premium lenses hard. That doesn't mean they're
-          wrong - but you deserve clear information about what Medicare covers
-          and what comes out of your wallet before you agree.
+          No Medigap or Advantage plan covers this upgrade cost. But knowing
+          that upfront helps you budget properly rather than finding out in the
+          surgeon's office.
         </p>
       </section>
 
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-3">
-          Why the upsell conversation catches people off guard
+          Follow-up visits and corrective lenses after surgery
         </h2>
         <p className="mb-2">
-          Many patients walk into a pre-op appointment expecting a
-          straightforward process and instead face a high-pressure sales pitch
-          for premium lenses. It can feel rushed and confusing - especially when
-          no one explains the baseline of what Medicare already pays for.
+          Part B covers post-operative visits with your surgeon. You're also
+          entitled to one pair of corrective lenses (glasses or contacts) after
+          each cataract surgery. This is one of the only times Medicare pays for
+          eyeglasses.
         </p>
         <p>
-          Knowing your coverage before that appointment changes the dynamic.
-          You'll know what's covered, what's optional, and what questions to ask.
+          Your share depends on the provider's charges and whether they accept
+          Medicare assignment. I help clients find surgeons who do.
         </p>
       </section>
 
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-3">
-          Follow-up visits and ongoing eye care after surgery
+          Why cataracts patients benefit from a broker
         </h2>
-        <ul className="list-disc ml-6 space-y-2">
+        <ul className="list-disc pl-6 space-y-2">
           <li>
-            Post-operative visits within 90 days are typically bundled into the
-            surgery cost under Medicare
+            I compare Medigap and Advantage plans side by side so you see the
+            real cost for your specific surgery timeline.
           </li>
           <li>
-            Prescription eye drops after surgery may be covered under Part D -
-            but formularies vary by plan
+            I know which NJ plans offer stronger vision benefits for ongoing eye
+            care after cataracts.
           </li>
           <li>
-            Routine vision exams after recovery are not covered by Original
-            Medicare - some Advantage plans include them
+            My service is free. Carriers pay my commission, not you. There's no
+            markup on any plan.
           </li>
         </ul>
       </section>
@@ -227,35 +224,28 @@ export default function MedicareBrokerForCataractsPatients() {
         <h2 className="text-2xl font-semibold mb-3">
           Get a plan comparison specific to your cataract treatment
         </h2>
-        <p className="mb-2">
-          I'll review your current Medicare coverage, check whether your surgeon
-          is in-network, and show you what your actual costs look like under
-          different plans - Supplement vs. Advantage, side by side.
-        </p>
         <p>
-          No cost for the call. No obligation to switch anything. Just clear
-          answers before your surgery date.
+          If you're planning cataract surgery or just learned you need it, call
+          me before you enroll in or change any plan. A 10-minute conversation
+          can save you hundreds on a procedure you're already going to have.
         </p>
       </section>
 
-      <div className="bg-blue-700 text-white rounded-lg p-6 my-10 text-center">
-        <p className="text-xl font-semibold mb-2">
-          Talk to a licensed Medicare broker who understands cataract coverage.
+      <div className="bg-blue-600 text-white rounded-lg p-6 text-center mb-10">
+        <p className="text-xl font-bold mb-2">
+          Talk to Anthony — no cost, no obligation
         </p>
-        <p className="text-lg mb-4">
-          Call{" "}
-          <a href="tel:8555591700" className="underline font-bold">
+        <p className="text-2xl font-bold mb-3">
+          <a href="tel:8555591700" className="underline">
             855-559-1700
-          </a>{" "}
-          or{" "}
-          <Link href="/quote" className="underline font-bold">
-            get a free quote online
-          </Link>
-          .
+          </a>
         </p>
-        <p className="text-sm opacity-90">
-          Anthony Orner - Licensed Medicare Broker, NJ
-        </p>
+        <Link
+          href="/contact"
+          className="inline-block bg-white text-blue-600 font-semibold px-6 py-2 rounded hover:bg-gray-100"
+        >
+          Get a Free Quote
+        </Link>
       </div>
 
       <FAQSection faqs={faqs} />
@@ -265,34 +255,34 @@ export default function MedicareBrokerForCataractsPatients() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/medicare-guides/medicare-part-b-explained"
-              className="text-blue-700 hover:underline"
+              href="/medicare-guides/medicare-part-b-coverage"
+              className="text-blue-600 hover:underline"
             >
-              Medicare Part B Explained - What It Covers and What It Costs
+              What Medicare Part B Covers in 2026
             </Link>
           </li>
           <li>
             <Link
-              href="/medicare-guides/medigap-plan-g-nj"
-              className="text-blue-700 hover:underline"
+              href="/medicare-guides/medigap-plans-nj"
+              className="text-blue-600 hover:underline"
             >
-              Medigap Plan G in NJ - Benefits, Rates, and How to Enroll
+              Medigap Plans in New Jersey
             </Link>
           </li>
           <li>
             <Link
               href="/medicare-guides/medicare-advantage-vs-medigap"
-              className="text-blue-700 hover:underline"
+              className="text-blue-600 hover:underline"
             >
-              Medicare Advantage vs. Medigap - Which Is Right for You?
+              Medicare Advantage vs. Medigap: Which Is Better?
             </Link>
           </li>
           <li>
             <Link
-              href="/services/medicare-broker-nj"
-              className="text-blue-700 hover:underline"
+              href="/services/medicare-broker-for-vision-care"
+              className="text-blue-600 hover:underline"
             >
-              Find a Medicare Broker in New Jersey
+              Medicare Broker for Vision Care
             </Link>
           </li>
         </ul>

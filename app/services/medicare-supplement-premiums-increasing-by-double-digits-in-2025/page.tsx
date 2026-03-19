@@ -9,12 +9,12 @@ export const metadata: Metadata = {
   title:
     "medicare supplement premiums increasing by double digits in 2025 | Free Rate Review | MedicareYourself",
   description:
-    "Medicare Supplement premiums increasing by double digits in 2025 — see which carriers raised rates and how switching could save $50+/month. Free review.",
+    "Medicare Supplement premiums increasing by double digits in 2025 — see which carriers raised rates and how switching could save you $50+/month. Free review.",
   openGraph: {
     title:
       "medicare supplement premiums increasing by double digits in 2025 | Free Rate Review | MedicareYourself",
     description:
-      "Medicare Supplement premiums increasing by double digits in 2025 — see which carriers raised rates and how switching could save $50+/month. Free review.",
+      "Medicare Supplement premiums increasing by double digits in 2025 — see which carriers raised rates and how switching could save you $50+/month. Free review.",
   },
 };
 
@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Medicare Supplement Premiums Increasing by Double Digits in 2025",
-      item: "https://www.medicareyourself.com/services/medicare-supplement-premiums-increasing-by-double-digits-in-2025",
+      item: "https://medicareyourself.com/services/medicare-supplement-premiums-increasing-by-double-digits-in-2025",
     },
   ],
 };
@@ -51,37 +51,38 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-01-15",
-  dateModified: "2025-07-01",
+  datePublished: "2025-07-15",
+  dateModified: "2025-07-15",
 };
 
 const faqs = [
   {
-    question: "How much will Medigap premiums increase in 2025?",
+    question:
+      "How much will Medicare Supplement premiums increase in 2026?",
     answer:
-      "Many carriers filed rate increases between 10% and 20% for 2025, particularly on Plan G and Plan N. The exact increase depends on your carrier, your state, and your age band. Some policyholders saw increases above 15%.",
+      "No one can predict exact 2026 rates yet. However, if medical claim trends stay elevated, expect continued increases in the 5-15% range for many carriers. A free rate review before your renewal can help you find a lower-cost option.",
   },
   {
-    question: "Why are Medicare Supplement rates going up so much?",
+    question: "How much does a Medicare Supplement cost in 2025?",
     answer:
-      "Elevated Medicare claim trends since 2023 have pushed carrier loss ratios higher than their pricing targets. Carriers are now correcting with larger rate actions to keep their books financially stable.",
+      "Plan G premiums in 2025 range from roughly $100 to $300+ per month depending on your age, ZIP code, gender, tobacco use, and carrier. The same plan letter covers the same benefits regardless of carrier, so price shopping matters.",
   },
   {
-    question: "Can I switch Medigap carriers to get a lower rate?",
+    question: "Can I switch Medigap plans without underwriting?",
     answer:
-      "Yes, in most states you can apply to a different carrier anytime. You'll typically need to answer health questions, but if you're in reasonable health, switching could save you $50 or more per month for identical Plan G or Plan N coverage.",
+      "In most states, switching carriers outside your initial Medigap Open Enrollment Period requires medical underwriting. Some states offer additional protections. Federal guaranteed issue rights apply in specific situations like losing employer coverage or a carrier leaving your area.",
   },
   {
-    question: "Will my coverage change if I switch Medigap carriers?",
+    question: "Why are some carriers raising rates more than others?",
     answer:
-      "No. Medigap plans are standardized by the federal government. A Plan G from one carrier covers exactly the same things as a Plan G from another. The only difference is price and customer service.",
+      "Each carrier files rates based on its own claims experience. A carrier with an older or sicker pool of policyholders will raise rates faster. Newer market entrants often have lower rates because their risk pool hasn't aged yet.",
   },
 ];
 
@@ -96,7 +97,7 @@ export default function MedicareSupplementPremiumsIncreasing2025() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/medicare" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -111,7 +112,7 @@ export default function MedicareSupplementPremiumsIncreasing2025() {
       </h1>
 
       <Image
-        src="/images/medicare-supplement-premiums-increasing-by-double-digits-in-2025.webp"
+        src="/images/hub_medicare-supplement-premiums-increasing-by-double-digits-in-2025.webp"
         alt="medicare supplement premiums increasing by double digits in 2025"
         width={800}
         height={400}
@@ -120,136 +121,110 @@ export default function MedicareSupplementPremiumsIncreasing2025() {
       />
 
       <p className="text-lg text-gray-700 mb-2">
-        Medicare Supplement premiums increasing by double digits in 2025 caught
-        a lot of people off guard. Multiple carriers filed rate hikes of 10% to
-        20% this year, and if you didn&apos;t shop your renewal, you&apos;re
-        likely overpaying for the exact same coverage.
-      </p>
-      <p className="text-lg text-gray-700 mb-6">
-        Here&apos;s what&apos;s driving these increases and what you can actually
-        do about it.
+        Medicare Supplement premiums increasing by double digits in 2025 isn't a
+        rumor. It's on renewal notices landing in mailboxes right now. If your
+        Medigap bill jumped 10%, 15%, or more this year, you're not alone and
+        you're not stuck.
       </p>
 
       <PhoneCTA />
 
-      <section className="mt-10">
+      <section className="mt-8">
         <h2 className="text-2xl font-semibold text-gray-900 mb-3">
           Which carriers filed the largest rate hikes this year
         </h2>
-        <p className="text-gray-700 mb-3">
-          According to actuarial data tracking open blocks of business, several
-          major carriers implemented significantly larger rate actions in 2024
-          and into 2025 than in prior years. Plan G and Plan N saw the steepest
-          adjustments.
+        <p className="text-gray-700 mb-2">
+          Industry data through early 2025 shows several major carriers filed
+          significant Plan G and Plan N increases. Aetna, Mutual of Omaha, and
+          UnitedHealthcare took some of the largest rate actions on open blocks
+          of business. Smaller regional carriers varied widely by state.
         </p>
-        <ul className="list-disc pl-6 text-gray-700 space-y-1 mb-3">
-          <li>
-            Some of the largest national carriers raised Plan G rates by 12% to
-            18%.
-          </li>
-          <li>
-            Smaller regional carriers weren&apos;t immune either, with many
-            filing increases above 10%.
-          </li>
-          <li>
-            A few carriers held rates flat or raised modestly, creating real
-            savings opportunities for people willing to switch.
-          </li>
-        </ul>
         <p className="text-gray-700">
-          I can&apos;t name specific carriers here, but I can pull every rate
-          filed in your zip code during a free review.
+          The same Plan G from one carrier might cost $50 to $80 more per month
+          than from another. Benefits are identical. Only the price tag changes.
         </p>
       </section>
 
-      <section className="mt-10">
+      <section className="mt-8">
         <h2 className="text-2xl font-semibold text-gray-900 mb-3">
-          What&apos;s actually causing the double-digit increases
+          Why rates spiked this year
         </h2>
-        <p className="text-gray-700 mb-3">
-          Medicare claim costs have been running high since 2023. Carriers price
-          Medigap policies to hit specific loss ratios. When claims exceed those
-          targets for a year or two, carriers correct by raising premiums.
+        <p className="text-gray-700 mb-2">
+          Medical claim costs have been elevated since 2023. Delayed
+          procedures from the pandemic era, higher hospital charges, and
+          increased utilization all hit carrier loss ratios hard. Carriers
+          respond by raising premiums to cover what they're paying out.
         </p>
         <p className="text-gray-700">
-          This isn&apos;t about your individual health. It&apos;s about the
-          entire pool of policyholders on that carrier&apos;s book of business.
-          You could be perfectly healthy and still get hit with a 15% increase.
+          This isn't unique to one company. It's an industry-wide trend driven
+          by real healthcare spending.
         </p>
       </section>
 
-      <section className="mt-10">
+      <section className="mt-8">
         <h2 className="text-2xl font-semibold text-gray-900 mb-3">
           How attained-age pricing compounds over time
         </h2>
-        <p className="text-gray-700 mb-3">
-          Most Medigap policies use attained-age pricing. Your premium rises
-          every year just because you&apos;re a year older. Stack a normal age
-          increase on top of a double-digit trend adjustment, and your bill can
-          jump $40 to $80 in a single year.
+        <p className="text-gray-700 mb-2">
+          Most Medigap plans use attained-age pricing. Your premium goes up as
+          you get older, plus any rate increases the carrier files. A 5% age
+          bump stacked on a 12% rate increase means your bill climbed 17% in
+          one year.
         </p>
         <p className="text-gray-700">
-          Over five years, that compounding effect can add hundreds per month.
-          People who locked in a good rate at 65 sometimes find themselves
-          paying $250+ by age 72 without ever changing plans.
+          Over five or ten years, this compounding effect can double your
+          original premium. That's why periodic rate reviews matter so much.
         </p>
       </section>
 
-      <section className="mt-10">
+      <section className="mt-8">
         <h2 className="text-2xl font-semibold text-gray-900 mb-3">
-          When switching carriers makes sense (and when it doesn&apos;t)
+          When switching carriers makes sense (and when it doesn't)
         </h2>
-        <p className="text-gray-700 mb-3">
-          Switching makes sense when another carrier offers the same
-          standardized plan at a meaningfully lower rate and you can pass
-          medical underwriting. Plan G is Plan G regardless of the logo on the
-          card.
-        </p>
-        <ul className="list-disc pl-6 text-gray-700 space-y-1 mb-3">
+        <ul className="list-disc list-inside text-gray-700 space-y-2">
           <li>
-            If you&apos;re in good health, switching could save $50 to $100 per
-            month.
+            <strong>Good candidate to switch:</strong> You're in good health
+            and can pass underwriting. A newer carrier offers the same plan
+            letter at $50+ less per month.
           </li>
           <li>
-            If you have serious health conditions, you may not qualify. In that
-            case, staying put is likely your best option.
+            <strong>Proceed with caution:</strong> You have health conditions
+            that might cause a denial. Never cancel your current plan until
+            you're approved by the new one.
           </li>
           <li>
-            Some states offer guaranteed issue protections for certain
-            situations. Rules vary by state, so call to confirm.
+            <strong>Stay put:</strong> Your rate is still competitive after
+            comparison, or you have guaranteed issue rights you'd lose by
+            switching.
           </li>
         </ul>
       </section>
 
-      <section className="mt-10">
+      <section className="mt-8">
         <h2 className="text-2xl font-semibold text-gray-900 mb-3">
-          Don&apos;t confuse Medigap rate hikes with Part B premium changes
+          What you can't control vs. what you can
         </h2>
-        <p className="text-gray-700 mb-3">
-          The standard Part B premium for 2025 was $185/month. For 2026,
-          it&apos;s $202.90/month. That&apos;s a separate cost from your Medigap
-          premium. You pay both.
+        <p className="text-gray-700 mb-2">
+          You can't stop carriers from filing rate increases. You can control
+          which carrier you're with. Since every Plan G or Plan N covers the
+          exact same benefits by law, the only variable is price and the
+          company behind it.
         </p>
         <p className="text-gray-700">
-          When people see their total monthly Medicare cost jump, it&apos;s
-          often the Medigap side doing the heavy lifting. That&apos;s the part
-          you can actually control by shopping carriers.
+          A 10-minute rate comparison could save you $600 to $1,000 a year.
+          That's real money, especially on a fixed income.
         </p>
       </section>
 
-      <section className="mt-10">
+      <section className="mt-8">
         <h2 className="text-2xl font-semibold text-gray-900 mb-3">
           Get a free rate review before your next renewal
         </h2>
-        <p className="text-gray-700 mb-3">
-          I run rate comparisons across every carrier available in your zip code.
-          It takes about 10 minutes on the phone. No pressure, no sign-up
-          required.
-        </p>
         <p className="text-gray-700">
-          If your current rate is competitive, I&apos;ll tell you. If
-          there&apos;s a better option, you&apos;ll see the numbers side by
-          side.
+          I'll pull current rates from every carrier available in your ZIP code,
+          compare them to what you're paying now, and tell you straight whether
+          switching makes sense. No cost, no pressure. If your current plan is
+          still the best deal, I'll tell you that too.
         </p>
       </section>
 
@@ -257,71 +232,65 @@ export default function MedicareSupplementPremiumsIncreasing2025() {
         <p className="text-xl font-semibold mb-2">
           Stop overpaying for the same coverage.
         </p>
-        <p className="text-lg mb-4">
+        <p className="mb-4">
           Call{" "}
           <a href="tel:8555591700" className="underline font-bold">
             855-559-1700
           </a>{" "}
-          for a free rate comparison.
+          or{" "}
+          <Link href="/contact" className="underline font-bold">
+            get a free quote online
+          </Link>
+          .
         </p>
-        <Link
-          href="/quote"
-          className="inline-block bg-white text-blue-600 font-semibold px-6 py-3 rounded-lg hover:bg-blue-50 transition"
-        >
-          Get a Free Quote
-        </Link>
+        <p className="text-sm opacity-90">
+          Anthony Orner, Licensed Medicare Broker
+        </p>
       </div>
 
-      <section className="mt-12">
+      <section className="mt-10">
         <FAQSection faqs={faqs} />
       </section>
 
-      <section className="mt-12">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold text-gray-900 mb-4">
           Related resources
         </h2>
         <ul className="space-y-2">
           <li>
             <Link
-              href="/services/medigap-plan-g"
+              href="/services/medicare-supplement-plan-g"
               className="text-blue-600 hover:underline"
             >
-              Medigap Plan G: What It Covers and What It Costs
+              Medicare Supplement Plan G: What It Covers and Costs
             </Link>
           </li>
           <li>
             <Link
-              href="/services/medigap-plan-n-vs-plan-g"
+              href="/services/medicare-supplement-plan-n"
               className="text-blue-600 hover:underline"
             >
-              Plan N vs. Plan G: Which Saves You More?
+              Medicare Supplement Plan N: Lower Premiums, Small Tradeoffs
             </Link>
           </li>
           <li>
             <Link
-              href="/services/when-to-switch-medigap-plans"
+              href="/services/medigap-open-enrollment"
               className="text-blue-600 hover:underline"
             >
-              When to Switch Medigap Plans Without Losing Coverage
+              Medigap Open Enrollment: Your Best Window for Coverage
             </Link>
           </li>
           <li>
             <Link
-              href="/services/medicare-part-b-premium-2026"
+              href="/services/switching-medigap-plans"
               className="text-blue-600 hover:underline"
             >
-              2026 Medicare Part B Premium: What You&apos;ll Pay
+              Switching Medigap Plans: When It Works and When It Doesn&apos;t
             </Link>
           </li>
         </ul>
       </section>
-
-      <p className="text-sm text-gray-500 mt-10">
-        Written by Anthony Orner, Licensed Medicare Broker |{" "}
-        <Link href="/about" className="hover:underline">
-          About the Author
-        </Link>
-      </p>
     </main>
   );
 }

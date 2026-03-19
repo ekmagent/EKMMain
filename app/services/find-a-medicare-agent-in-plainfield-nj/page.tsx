@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Find a Medicare Agent in Plainfield, NJ",
-      item: "https://www.medicareyourself.com/services/find-a-medicare-agent-in-plainfield-nj",
+      item: "https://medicareyourself.com/services/find-a-medicare-agent-in-plainfield-nj",
     },
   ],
 };
@@ -51,46 +51,45 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-01-15",
-  dateModified: "2025-01-15",
+  datePublished: "2025-07-12",
+  dateModified: "2025-07-12",
 };
 
 const faqs = [
   {
-    question: "How do I pick a Medicare agent?",
+    question: "How much does it cost to use a Medicare agent in Plainfield, NJ?",
     answer:
-      "Look for an independent broker licensed in your state who represents multiple carriers, not just one. An independent agent can compare Supplement, Advantage, and Part D plans side by side. Ask whether their service is free to you - a good broker is paid by the insurance carrier, never by you.",
-  },
-  {
-    question: "How do I speak to a live person at Medicare?",
-    answer:
-      "You can call 1-800-MEDICARE (1-800-633-4227) 24 hours a day, 7 days a week. However, a local broker like Anthony Orner can often answer your questions faster and help you compare plans at the same time - at no cost. Call 855-559-1700 for direct help.",
-  },
-  {
-    question: "Does it cost anything to use a Medicare broker in Plainfield?",
-    answer:
-      "No. Licensed Medicare brokers are compensated by the insurance carriers, not by you. You pay the same premium whether you enroll directly or through a broker. The difference is that a broker does the comparison shopping for you.",
+      "Nothing. Independent Medicare brokers are paid by the insurance carriers, not by you. Your premiums stay the same whether you enroll directly or through a licensed agent.",
   },
   {
     question:
-      "What is the Medigap Open Enrollment Period and why does it matter?",
+      "What's the difference between a Medicare agent and a Medicare broker?",
     answer:
-      "Your Medigap Open Enrollment Period lasts 6 months, starting the month you turn 65 and are enrolled in Part B. During this window, carriers must accept you at standard rates with no health questions. Miss it, and you could face medical underwriting or higher premiums.",
+      "A captive agent represents one insurance company. An independent broker compares plans from multiple carriers and recommends the best fit for your situation. You get broader options with a broker.",
+  },
+  {
+    question: "When can I change my Medicare plan in New Jersey?",
+    answer:
+      "Medicare Advantage and Part D Open Enrollment runs October 15 through December 7 each year. Medigap Open Enrollment is the 6 months starting the month you turn 65 and are enrolled in Part B. Certain qualifying events may trigger Special Enrollment Periods year-round.",
+  },
+  {
+    question: "Can a Plainfield Medicare agent help me if I already have coverage?",
+    answer:
+      "Yes. If your current plan dropped a provider, raised costs, or stopped covering a medication, a broker can review your options during the next enrollment window or check whether you qualify for a Special Enrollment Period.",
   },
 ];
 
 export default function FindMedicareAgentPlainfieldNJ() {
   return (
-    <main className="max-w-4xl mx-auto px-4 py-8">
-      <SchemaMarkup schema={breadcrumbSchema} />
-      <SchemaMarkup schema={articleSchema} />
+    <main className="max-w-3xl mx-auto px-4 py-8">
+      <SchemaMarkup schema={[breadcrumbSchema, articleSchema]} />
 
       <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
         <Link href="/" className="hover:underline">
@@ -106,174 +105,186 @@ export default function FindMedicareAgentPlainfieldNJ() {
         </span>
       </nav>
 
-      <h1 className="text-3xl font-bold mb-4">
+      <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
         Find a Medicare Agent in Plainfield, NJ for Honest, No-Cost Plan
         Guidance
       </h1>
 
       <Image
-        src="/images/find-a-medicare-agent-in-plainfield-nj.webp"
-        alt="find a medicare agent in Plainfield NJ"
+        src="/images/hub_find-a-medicare-agent-in-plainfield-nj.webp"
+        alt="find a medicare agent in plainfield nj"
         width={800}
         height={400}
-        className="rounded-lg mb-6 w-full"
+        className="w-full h-auto rounded-lg mb-6"
+        priority
       />
 
-      <p className="text-lg mb-2">
-        Finding a Medicare agent in Plainfield, NJ doesn't have to be stressful.
-        I'm Anthony Orner, an independent Medicare broker serving Union County,
-        and I compare plans from multiple carriers so you don't have to call each
-        one yourself. My consultations are always free.
+      <p className="text-lg text-gray-700 mb-2">
+        Finding a Medicare agent in Plainfield, NJ shouldn't mean guessing which
+        carrier's 1-800 number to call. You deserve someone local who compares
+        plans across multiple insurers and tells you the truth about what each
+        one actually covers.
+      </p>
+      <p className="text-lg text-gray-700 mb-6">
+        I'm Anthony Orner, a licensed independent Medicare broker serving Union
+        County. My consultations are always free.
       </p>
 
       <PhoneCTA />
 
-      <section className="mt-8 mb-6">
-        <h2 className="text-2xl font-semibold mb-3">
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
           Why Plainfield residents need an independent Medicare broker
         </h2>
-        <p className="mb-2">
-          Plainfield sits in Union County, where several major carriers compete
-          for your business. A captive agent only shows you their company's
-          plans. I show you options from multiple insurers and let you decide
-          what fits your budget and your doctors.
+        <p className="text-gray-700 mb-2">
+          Plainfield sits in Union County with access to major hospital systems
+          like RWJBarnabas Health and Hackensack Meridian. But network access
+          varies sharply between plans. A carrier that covers your cardiologist
+          might not cover the imaging center two blocks away.
         </p>
-        <p>
-          You pay the exact same premium whether you enroll through me or go
-          directly to the carrier. There is zero markup.
+        <p className="text-gray-700">
+          An independent broker checks those details before you enroll, not
+          after. I'm not locked into selling one company's products, so I can
+          tell you which plan actually works with the providers you use.
         </p>
       </section>
 
-      <section className="mb-6">
-        <h2 className="text-2xl font-semibold mb-3">
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
           Supplement and Advantage plans available in Union County
         </h2>
-        <p className="mb-2">
-          Union County residents can choose from two main paths:
+        <p className="text-gray-700 mb-3">
+          Union County residents typically have strong options in both categories:
         </p>
-        <ul className="list-disc pl-6 space-y-2 mb-2">
+        <ul className="list-disc pl-6 space-y-2 text-gray-700">
           <li>
-            <strong>Medicare Supplement (Medigap)</strong> - Plans like G and N
-            pair with Original Medicare. Plan G covers everything except the Part
-            B deductible ($257/year in 2026). Rates vary by carrier and age.
+            <strong>Medicare Supplement (Medigap):</strong> Pairs with Original
+            Medicare. Plan G and Plan N are the most popular choices. Rates vary
+            by carrier and age, but you can see any doctor who accepts Medicare.
           </li>
           <li>
-            <strong>Medicare Advantage</strong> - Many $0-premium HMO and PPO
-            plans are available in the 07060 zip code. These often bundle Part D
-            drug coverage and extras like dental or vision.
+            <strong>Medicare Advantage (Part C):</strong> Replaces Original
+            Medicare with a managed plan. Many $0-premium HMO and PPO options
+            exist in this area, often including dental, vision, and Part D drug
+            coverage.
           </li>
         </ul>
-        <p>I help you weigh costs, network access, and flexibility side by side.</p>
+        <p className="text-gray-700 mt-3">
+          The right choice depends on your doctors, prescriptions, and how often
+          you travel. That's exactly what we sort out on a call.
+        </p>
       </section>
 
-      <section className="mb-6">
-        <h2 className="text-2xl font-semibold mb-3">
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
           Key enrollment windows and guaranteed-issue dates
         </h2>
-        <ul className="list-disc pl-6 space-y-2">
+        <ul className="list-disc pl-6 space-y-2 text-gray-700">
           <li>
             <strong>Medigap Open Enrollment:</strong> 6 months starting the
-            month you turn 65 and have Part B. No health questions. No higher
-            premiums. This is your best window.
+            month you turn 65 and are enrolled in Part B. During this window, no
+            carrier can deny you or charge more for health reasons.
           </li>
           <li>
-            <strong>Medicare Advantage / Part D:</strong> October 15 through
-            December 7 each year (Annual Election Period).
+            <strong>Annual Enrollment (AEP):</strong> October 15 through
+            December 7. This is when you can switch Medicare Advantage or Part D
+            plans for the following year.
           </li>
           <li>
-            <strong>Special Enrollment:</strong> Triggered by losing employer
-            coverage, moving out of a plan's service area, or a plan dropping
-            your county.
+            <strong>Special Enrollment Periods:</strong> Triggered by qualifying
+            events like losing employer coverage or moving out of a plan's
+            service area.
+          </li>
+          <li>
+            <strong>Part B late penalty:</strong> 10% added to your premium for
+            every 12-month period you delayed enrollment without qualifying
+            coverage. The 2026 Part B premium is $202.90/month.
           </li>
         </ul>
       </section>
 
-      <section className="mb-6">
-        <h2 className="text-2xl font-semibold mb-3">
-          Lock in your Medigap rate before Part B starts
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          What real people get frustrated about
         </h2>
-        <p className="mb-2">
-          If you're turning 65 soon, here's something most people don't know:
-          you can apply for a Medigap plan up to 6 months before your Part B
-          start date. I do this with almost every client. It locks in today's
-          rate and protects you from any premium increases before coverage kicks
-          in.
+        <p className="text-gray-700 mb-2">
+          Insurance problems in New Jersey often boil down to one thing: a
+          provider or health system stops accepting your plan, and nobody warned
+          you. Network changes hit mid-year. Billing surprises show up months
+          later. Switching plans feels impossible because nobody picks up the
+          phone.
         </p>
-        <p>The sooner you apply, the better your rate. Don't wait until the last week.</p>
-      </section>
-
-      <section className="mb-6">
-        <h2 className="text-2xl font-semibold mb-3">
-          What to expect when we talk
-        </h2>
-        <p className="mb-2">
-          Our call takes about 15 to 20 minutes. I'll ask about your doctors,
-          your prescriptions, and what you spend now. Then I pull up real quotes
-          and walk you through the numbers. No pressure, no sales tricks.
-        </p>
-        <p>
-          If a plan doesn't save you money or improve your coverage, I'll tell
-          you to keep what you have.
+        <p className="text-gray-700">
+          Having a broker means you have one person to call who already knows
+          your plan and can walk you through your options when things go sideways.
         </p>
       </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          How a free consultation works
+        </h2>
+        <p className="text-gray-700 mb-2">
+          You call or schedule a time. I ask about your medications, doctors, and
+          what matters most to you. Then I compare plans from multiple carriers
+          and walk you through the real costs, not just the premium.
+        </p>
+        <p className="text-gray-700">
+          No pressure, no enrollment deadline tricks. If your current plan is the
+          best fit, I'll tell you that too.
+        </p>
+      </section>
+
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
           Book a free call with Anthony Orner
         </h2>
-        <p>
-          Whether you're new to Medicare or reviewing your current plan, I'm
-          here to help Union County residents get clear answers. Call me directly
-          or schedule a time that works for you. There's never a charge.
+        <p className="text-gray-700">
+          Whether you're turning 65, retiring from a Union County employer, or
+          frustrated with the plan you picked last fall, I can help you sort it
+          out. Plainfield residents get the same carrier access as anyone in
+          NJ, but which plan fits you is personal. Let's figure it out together.
         </p>
       </section>
 
-      <div className="bg-blue-600 text-white rounded-lg p-6 text-center mb-10">
-        <p className="text-xl font-bold mb-2">
-          Ready to compare Medicare plans in Plainfield?
+      <div className="mt-10 bg-blue-600 text-white rounded-lg p-6 text-center">
+        <p className="text-xl font-semibold mb-2">
+          Call 855-559-1700 for free Medicare guidance
         </p>
-        <p className="text-lg mb-4">
-          Call{" "}
-          <a href="tel:8555591700" className="underline font-bold">
-            855-559-1700
-          </a>{" "}
-          or click below for a free quote.
+        <p className="mb-4">
+          No cost. No obligation. Licensed and independent.
         </p>
         <Link
-          href="/get-a-free-quote"
-          className="inline-block bg-white text-blue-600 font-bold px-6 py-3 rounded-lg hover:bg-gray-100 transition"
+          href="tel:8555591700"
+          className="inline-block bg-white text-blue-600 font-semibold px-6 py-3 rounded-lg hover:bg-blue-50 transition"
         >
           Get a Free Quote
         </Link>
       </div>
 
-      <FAQSection faqs={faqs} />
+      <section className="mt-12">
+        <FAQSection faqs={faqs} />
+      </section>
 
-      <section className="mt-10">
-        <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
+      <section className="mt-12">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-4">
+          Related resources
+        </h2>
         <ul className="space-y-2">
           <li>
             <Link
               href="/medicare-guides/medicare-supplement-plans-nj"
               className="text-blue-600 hover:underline"
             >
-              Medicare Supplement Plans in NJ - Complete Guide
+              Medicare Supplement Plans in New Jersey
             </Link>
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-advantage-plans-nj"
+              href="/medicare-guides/medicare-advantage-plans-union-county"
               className="text-blue-600 hover:underline"
             >
-              Medicare Advantage Plans in NJ - What to Know
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/medicare-guides/medicare-plan-g-nj"
-              className="text-blue-600 hover:underline"
-            >
-              Medicare Plan G in NJ - Benefits and Costs
+              Medicare Advantage Plans in Union County
             </Link>
           </li>
           <li>
@@ -281,7 +292,15 @@ export default function FindMedicareAgentPlainfieldNJ() {
               href="/medicare-guides/when-to-enroll-in-medicare"
               className="text-blue-600 hover:underline"
             >
-              When to Enroll in Medicare - Key Dates and Deadlines
+              When to Enroll in Medicare
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/about"
+              className="text-blue-600 hover:underline"
+            >
+              About Anthony Orner, Licensed Medicare Broker
             </Link>
           </li>
         </ul>

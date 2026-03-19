@@ -60,12 +60,12 @@ async function getSheetsClient() {
 // Read Keywords tab — return rows where Status = "target"
 // Columns (0-indexed):
 //   A=keyword, B=cat1, C=cat2, D=volume, E=difficulty, F=ctr, G=moz_priority,
-//   H=relevance, I=notes, J=min_vol, K=max_vol, L=status, M=..., N=..., O=..., P=content_notes
+//   H=relevance, I=notes, J=min_vol, K=max_vol, L=status, M=kw_in_titles, N=kw_in_urls, O=top5_domains, P=top5_das, Q=content_direction
 // ---------------------------------------------------------------------------
 async function getTargetKeywords(sheets) {
   const res = await sheets.spreadsheets.values.get({
     spreadsheetId: INTERNAL_SEO_SHEET_ID,
-    range: "Keywords!A:P",
+    range: "Keywords!A:Q",
   });
 
   const rows = res.data.values || [];
@@ -83,7 +83,7 @@ async function getTargetKeywords(sheets) {
       difficulty: row[4] || "",
       relevance: row[7] || "",
       intent: row[8] || "",
-      contentNotes: (row[15] || "").trim(), // col P — inspiration/angle notes
+      contentNotes: (row[16] || "").trim(), // col Q — Content Direction (your nudge on angle/CTA)
     });
   }
 

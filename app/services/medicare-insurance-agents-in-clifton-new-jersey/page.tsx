@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Medicare Insurance Agents in Clifton, New Jersey",
-      item: "https://www.medicareyourself.com/services/medicare-insurance-agents-in-clifton-new-jersey",
+      item: "https://medicareyourself.com/services/medicare-insurance-agents-in-clifton-new-jersey",
     },
   ],
 };
@@ -51,47 +51,50 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-01-15",
-  dateModified: "2025-01-15",
+  datePublished: "2025-07-15",
+  dateModified: "2025-07-15",
 };
 
 const faqs = [
   {
-    question: "Should I use an insurance agent for Medicare?",
+    question:
+      "Do I pay a fee to use a Medicare insurance agent in Clifton, NJ?",
     answer:
-      "Yes. An independent Medicare agent compares plans from multiple carriers at no cost to you. Brokers are paid by the insurance companies, so you never pay a fee for the help. You get the same premium whether you enroll directly or through an agent, but you also get someone who can explain what each plan actually covers.",
+      "No. Licensed Medicare brokers are paid by the insurance carriers, not by you. A consultation, plan comparison, and enrollment assistance all cost $0 out of your pocket.",
   },
   {
-    question: "What is the best Medicare plan in New Jersey?",
+    question:
+      "What's the difference between a captive Medicare agent and an independent broker?",
     answer:
-      "There is no single best plan for everyone. If you want predictable costs with any doctor who accepts Medicare, a Medigap plan like Plan G or Plan N is worth looking at. If you want lower premiums and are okay with a provider network, Medicare Advantage HMO or PPO plans may work. The right choice depends on your doctors, medications, and budget.",
+      "A captive agent sells plans from one carrier. An independent broker like Anthony Orner quotes 20+ carriers side by side, so the recommendation is based on your needs, not a single company's product lineup.",
   },
   {
-    question: "How do I pick a Medicare agent?",
+    question: "When can I enroll in a Medigap plan in Clifton?",
     answer:
-      "Look for a licensed, independent broker who represents multiple carriers, not just one company. Ask how many plans they can quote. An independent agent working with 20+ carriers will give you a much broader comparison than a captive agent tied to a single insurer.",
+      "Your Medigap Open Enrollment Period starts the month you turn 65 and are enrolled in Part B. It lasts 6 months. During this window, carriers must accept you regardless of health history. Outside this window, you may face medical underwriting.",
   },
   {
-    question: "What is the best insurance company for people on Medicare?",
+    question:
+      "Which Medicare Advantage plans are available in Passaic County for 2026?",
     answer:
-      "Top carriers serving Clifton and Passaic County include Aetna, Cigna, Mutual of Omaha, United American, and UnitedHealthcare, among others. Rates vary by your age, zip code, and tobacco status. The best company for you is the one offering the coverage you need at a rate that fits your budget.",
+      "Several HMO and PPO Medicare Advantage plans serve Passaic County zip codes 07011, 07012, 07013, and 07014. Availability and benefits change each year. Call 855-559-1700 for a current list tailored to your doctors and prescriptions.",
   },
 ];
 
 export default function MedicareInsuranceAgentsCliftonNJ() {
   return (
-    <main className="max-w-4xl mx-auto px-4 py-8">
+    <>
       <SchemaMarkup schema={breadcrumbSchema} />
       <SchemaMarkup schema={articleSchema} />
 
-      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
+      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-4">
         <Link href="/" className="hover:underline">
           Home
         </Link>{" "}
@@ -105,186 +108,199 @@ export default function MedicareInsuranceAgentsCliftonNJ() {
         </span>
       </nav>
 
-      <h1 className="text-3xl font-bold mb-4">
-        Medicare Insurance Agents in Clifton, New Jersey: Licensed Broker Covering Passaic County
-      </h1>
+      <article className="max-w-3xl mx-auto">
+        <h1 className="text-3xl font-bold mb-4">
+          Medicare Insurance Agents in Clifton, New Jersey: Licensed Broker
+          Covering Passaic County
+        </h1>
 
-      <Image
-        src="/images/medicare-insurance-agents-in-clifton-new-jersey.webp"
-        alt="Medicare insurance agents in Clifton New Jersey"
-        width={800}
-        height={400}
-        className="rounded-lg mb-6 w-full"
-      />
+        <Image
+          src="/images/hub_medicare-insurance-agents-in-clifton-new-jersey.webp"
+          alt="medicare insurance agents in clifton new jersey"
+          width={800}
+          height={400}
+          className="w-full rounded-lg mb-6"
+          priority
+        />
 
-      <p className="mb-4">
-        Medicare insurance agents in Clifton, New Jersey can save you hours of
-        research by pulling quotes from multiple carriers at once. I'm Anthony
-        Orner, an independent broker licensed in New Jersey. I work with over 20
-        carriers and charge you nothing - the insurance companies pay me directly.
-      </p>
-
-      <p className="mb-6">
-        Whether you live near Main Memorial Park or closer to the Passaic River,
-        I can quote Medigap, Medicare Advantage, and Part D plans for every
-        Clifton zip code.
-      </p>
-
-      <PhoneCTA />
-
-      <h2 className="text-2xl font-semibold mt-10 mb-3">
-        Clifton's carrier options: plans available in 07011, 07012, 07013, and 07014
-      </h2>
-      <p className="mb-4">
-        All four Clifton zip codes fall within Passaic County, and most major
-        carriers offer coverage across the entire county. That means your
-        neighbor in 07014 and your friend in 07011 typically have access to the
-        same plan lineup.
-      </p>
-      <p className="mb-4">
-        Carriers active in this area include Aetna, Cigna, Mutual of Omaha,
-        United American, UnitedHealthcare, and several others. Rates and plan
-        availability can shift each year, so a current comparison matters.
-      </p>
-
-      <h2 className="text-2xl font-semibold mt-10 mb-3">
-        Plan G and Plan N rates from top carriers serving Clifton
-      </h2>
-      <p className="mb-4">
-        Plan G is the most popular Medigap option in New Jersey right now. It
-        covers everything Original Medicare doesn't, except the Part B
-        deductible of $257 per year. Plan N is similar but has small copays at
-        some office visits and a slightly lower premium.
-      </p>
-      <p className="mb-4">
-        Rates vary by your age, gender, and tobacco use. Rather than guess, call
-        me and I'll pull real-time quotes from every carrier writing in Passaic
-        County. Takes about 10 minutes.
-      </p>
-
-      <h2 className="text-2xl font-semibold mt-10 mb-3">
-        Medicare Advantage HMO and PPO options in Passaic County
-      </h2>
-      <p className="mb-4">
-        Medicare Advantage plans bundle Part A, Part B, and usually Part D into
-        one plan. Many have $0 monthly premiums. The tradeoff is you use a
-        network of doctors and hospitals.
-      </p>
-      <ul className="list-disc pl-6 mb-4 space-y-1">
-        <li>HMO plans require referrals for specialists and keep costs lower</li>
-        <li>PPO plans let you see out-of-network providers at a higher cost</li>
-        <li>Many include dental, vision, hearing, and gym memberships</li>
-      </ul>
-      <p className="mb-4">
-        Open Enrollment for Medicare Advantage runs October 15 through December
-        7 each year. If you're turning 65, you have additional enrollment windows
-        tied to your Part B effective date.
-      </p>
-
-      <h2 className="text-2xl font-semibold mt-10 mb-3">
-        Why an independent broker beats a captive agent
-      </h2>
-      <p className="mb-4">
-        A captive agent works for one insurance company. They can only show you
-        that company's plans. An independent broker like me has contracts with
-        20+ carriers. Same service, zero fees, wider selection.
-      </p>
-      <p className="mb-4">
-        You pay the exact same premium whether you enroll on your own or through
-        me. The difference is you get a side-by-side comparison and a real person
-        to call when you have a claim question later.
-      </p>
-
-      <h2 className="text-2xl font-semibold mt-10 mb-3">
-        Medigap open enrollment - timing matters in Clifton
-      </h2>
-      <p className="mb-4">
-        Your Medigap Open Enrollment Period lasts six months, starting the month
-        you turn 65 and are enrolled in Part B. During this window, no carrier
-        can deny you or charge more for health conditions. Miss it, and you may
-        face medical underwriting.
-      </p>
-      <p className="mb-4">
-        My practice is to have clients apply up to six months before their Part B
-        start date. This locks in your rate early and protects you from any
-        premium increases before coverage begins. The sooner you lock in, the
-        better your rate.
-      </p>
-
-      <h2 className="text-2xl font-semibold mt-10 mb-3">
-        Get a free side-by-side plan comparison for Clifton residents
-      </h2>
-      <p className="mb-4">
-        I'll build you a personalized comparison showing Medigap and Medicare
-        Advantage options for your specific zip code, age, and needs. No
-        obligation. No pressure. Just clear numbers so you can decide.
-      </p>
-
-      <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 mt-10 mb-10 text-center">
-        <p className="text-lg font-semibold mb-2">
-          Ready to compare Medicare plans in Clifton?
+        <p className="mb-3">
+          Medicare insurance agents in Clifton, New Jersey don't all work the
+          same way. Some represent a single carrier. I'm Anthony Orner, an
+          independent broker who quotes 20+ carriers across Passaic County so
+          you see real options, not a narrow slice.
         </p>
-        <p className="mb-4">
-          Call{" "}
-          <a
-            href="tel:8555591700"
-            className="text-blue-700 font-bold hover:underline"
-          >
-            855-559-1700
-          </a>{" "}
-          or{" "}
-          <Link
-            href="/contact"
-            className="text-blue-700 font-bold hover:underline"
-          >
-            get a free quote online
-          </Link>
-          .
+        <p className="mb-6">
+          No fees. No pressure. Just a side-by-side comparison built around your
+          doctors, prescriptions, and budget.
         </p>
-        <p className="text-sm text-gray-600">
-          No fees. No obligation. Licensed in New Jersey.
-        </p>
-      </div>
 
-      <FAQSection faqs={faqs} />
+        <PhoneCTA />
 
-      <div className="mt-10">
-        <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
-        <ul className="space-y-2">
-          <li>
-            <Link
-              href="/medicare-guides/medicare-plan-g-new-jersey"
-              className="text-blue-700 hover:underline"
-            >
-              Medicare Plan G in New Jersey: Costs and Coverage
+        <section className="mt-10 mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Clifton's carrier options across 07011, 07012, 07013, and 07014
+          </h2>
+          <p className="mb-3">
+            Clifton spans four zip codes, and plan availability can shift between
+            them. Carrier networks in northern Passaic County include major
+            systems like St. Joseph's University Medical Center in Paterson and
+            Hackensack Meridian facilities nearby.
+          </p>
+          <p>
+            I check each zip code individually so nothing gets missed. A plan
+            that works in 07011 might have a different network or premium in
+            07014.
+          </p>
+        </section>
+
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Plan G and Plan N rates from top carriers serving Clifton
+          </h2>
+          <p className="mb-3">
+            Medigap Plan G covers everything Original Medicare doesn't except
+            the Part B deductible ($283/year in 2026). Plan N costs less per
+            month but adds small copays at office visits.
+          </p>
+          <p>
+            Rates vary by carrier, age, and tobacco status. I pull quotes from
+            all carriers licensed in Passaic County and line them up so you can
+            compare apples to apples in under 10 minutes.
+          </p>
+        </section>
+
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Medicare Advantage HMO and PPO options in Passaic County
+          </h2>
+          <p className="mb-3">
+            Medicare Advantage plans bundle hospital, medical, and usually drug
+            coverage into one card. Many Clifton residents pick them for the
+            lower monthly premium and added benefits like dental and vision.
+          </p>
+          <p>
+            The tradeoff: you'll use a network. HMOs require referrals. PPOs
+            give more flexibility but cost more out-of-network. I match plans to
+            your actual provider list so you don't get surprised mid-treatment.
+          </p>
+        </section>
+
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Why network changes matter more than you think
+          </h2>
+          <p className="mb-3">
+            Carriers renegotiate hospital contracts every year. A plan that
+            covered your specialist last year might drop them in 2026. This is a
+            real frustration for people across New Jersey, and it catches folks
+            off guard.
+          </p>
+          <p>
+            I verify your doctors and hospitals against current directories
+            before recommending anything. If a carrier drops a provider
+            mid-year, federal guaranteed issue rights may let you switch without
+            underwriting.
+          </p>
+        </section>
+
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Key enrollment windows for Clifton residents
+          </h2>
+          <ul className="list-disc pl-6 space-y-2">
+            <li>
+              <strong>Turning 65:</strong> Medigap Open Enrollment runs 6 months
+              from the month you're 65 and enrolled in Part B. Best rates, no
+              health questions.
+            </li>
+            <li>
+              <strong>Medicare Advantage / Part D:</strong> Annual Enrollment
+              runs October 15 through December 7.
+            </li>
+            <li>
+              <strong>Retiring after 65:</strong> Losing employer coverage
+              triggers a Special Enrollment Period. Apply early to avoid the Part
+              B late enrollment penalty (10% per 12-month delay).
+            </li>
+          </ul>
+        </section>
+
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Get a free side-by-side plan comparison for Clifton residents
+          </h2>
+          <p className="mb-3">
+            I'll pull every Medigap and Medicare Advantage plan available in
+            your specific zip code, compare premiums, out-of-pocket costs, and
+            provider networks, then walk you through it by phone or video.
+          </p>
+          <p>
+            The whole process takes about 15 minutes. You keep the comparison
+            whether you enroll or not.
+          </p>
+        </section>
+
+        <div className="bg-blue-600 text-white rounded-lg p-8 text-center my-10">
+          <p className="text-xl font-bold mb-2">
+            Ready to compare Medicare plans in Clifton?
+          </p>
+          <p className="mb-4">
+            Call{" "}
+            <a href="tel:8555591700" className="underline font-bold">
+              855-559-1700
+            </a>{" "}
+            or{" "}
+            <Link href="/contact" className="underline font-bold">
+              get a free quote online
             </Link>
-          </li>
-          <li>
-            <Link
-              href="/medicare-guides/medicare-plan-n-new-jersey"
-              className="text-blue-700 hover:underline"
-            >
-              Medicare Plan N in New Jersey: What It Covers
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/medicare-guides/medicare-advantage-plans-new-jersey"
-              className="text-blue-700 hover:underline"
-            >
-              Medicare Advantage Plans in New Jersey
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/medicare-guides/when-to-enroll-in-medicare"
-              className="text-blue-700 hover:underline"
-            >
-              When to Enroll in Medicare: Deadlines and Penalties
-            </Link>
-          </li>
-        </ul>
-      </div>
-    </main>
+            .
+          </p>
+          <p className="text-sm opacity-90">
+            No cost. No obligation. Independent advice from a licensed NJ
+            broker.
+          </p>
+        </div>
+
+        <FAQSection faqs={faqs} />
+
+        <section className="mt-10 mb-8">
+          <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
+          <ul className="space-y-2">
+            <li>
+              <Link
+                href="/medicare-guides/medigap-plan-g-new-jersey"
+                className="text-blue-600 hover:underline"
+              >
+                Medigap Plan G in New Jersey: What It Covers and Costs
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/medicare-guides/medicare-advantage-passaic-county"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare Advantage Plans in Passaic County
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/medicare-guides/when-to-enroll-in-medicare-nj"
+                className="text-blue-600 hover:underline"
+              >
+                When to Enroll in Medicare in New Jersey
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/about"
+                className="text-blue-600 hover:underline"
+              >
+                About Anthony Orner, Licensed Medicare Broker
+              </Link>
+            </li>
+          </ul>
+        </section>
+      </article>
+    </>
   );
 }

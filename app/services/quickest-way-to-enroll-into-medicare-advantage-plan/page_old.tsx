@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/services",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Quickest Way to Enroll Into a Medicare Advantage Plan",
-      item: "https://www.medicareyourself.com/services/quickest-way-to-enroll-into-medicare-advantage-plan",
+      item: "https://medicareyourself.com/services/quickest-way-to-enroll-into-medicare-advantage-plan",
     },
   ],
 };
@@ -51,7 +51,7 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",

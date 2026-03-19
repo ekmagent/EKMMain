@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Medicare Brokers in My Area",
-      item: "https://www.medicareyourself.com/services/medicare-brokers-in-my-area",
+      item: "https://medicareyourself.com/services/medicare-brokers-in-my-area",
     },
   ],
 };
@@ -50,38 +50,38 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-01",
-  dateModified: "2025-07-01",
+  datePublished: "2025-01-01",
+  dateModified: "2025-01-01",
 };
 
 const faqs = [
   {
-    question: "How much does it cost to use a Medicare broker?",
+    question: "How do I find a licensed Medicare broker near me in NJ?",
     answer:
-      "Nothing. Medicare brokers are paid by the insurance carriers, not by you. There is no fee for consultations, plan comparisons, or enrollment help. The plans cost the same whether you use a broker or go directly to the carrier.",
+      "Search the CMS Medicare Agent/Broker lookup tool or your state's Department of Banking and Insurance license verification site. Both confirm active licenses. Or call us at 855-559-1700 and we'll verify our credentials with you on the phone.",
   },
   {
-    question: "How do I verify a Medicare broker is licensed in New Jersey?",
+    question: "Do Medicare brokers charge a fee for their services?",
     answer:
-      "Visit the New Jersey Department of Banking and Insurance website (DOBI) and search for the broker by name or license number. Any legitimate broker will share their NJ Producer License number if you ask.",
+      "No. Licensed Medicare brokers are paid by the insurance carriers, not by you. There's no fee for plan comparisons, enrollment help, or ongoing support. Your premium stays the same whether you use a broker or enroll directly.",
   },
   {
     question:
-      "What is the difference between a captive and independent Medicare broker?",
+      "What's the difference between a captive and independent Medicare broker?",
     answer:
-      "A captive broker works for one insurance company and can only show you that company's plans. An independent broker is contracted with multiple carriers and can compare options across companies to find the best fit for your needs and budget.",
+      "A captive agent represents one insurance company and can only show you that carrier's plans. An independent broker is appointed with multiple carriers and compares plans across companies to find your best fit. Always ask before you sit down.",
   },
   {
-    question: "Can a local Medicare broker help me switch plans?",
+    question: "Can a Medicare broker help me switch plans after enrollment?",
     answer:
-      "Yes. A local broker can help you switch during the Medicare Advantage Open Enrollment Period (October 15 through December 7) or during qualifying Special Enrollment Periods throughout the year. They can also help with Medigap applications.",
+      "Yes. During the Medicare Advantage/Part D Open Enrollment (October 15 through December 7) or if you qualify for a Special Enrollment Period, a broker can help you compare new options and switch. A good broker checks in annually to make sure your plan still works.",
   },
 ];
 
@@ -96,20 +96,20 @@ export default function MedicareBrokersInMyArea() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/medicare" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
         <span className="text-gray-700">Medicare Brokers in My Area</span>
       </nav>
 
-      <article className="max-w-3xl mx-auto">
+      <article className="max-w-3xl mx-auto px-4 py-8">
         <h1 className="text-3xl md:text-4xl font-bold mb-4">
           Medicare Brokers in Your Area: What to Look For in NJ
         </h1>
 
         <Image
-          src="/images/medicare-brokers-in-my-area_photo.webp"
+          src="/images/hub_medicare-brokers-in-my-area.webp"
           alt="Medicare brokers in my area"
           width={800}
           height={400}
@@ -119,13 +119,12 @@ export default function MedicareBrokersInMyArea() {
 
         <p className="text-lg mb-2">
           Medicare brokers in your area aren't all the same. Some work for one
-          carrier. Others compare dozens of plans across multiple companies. That
-          distinction matters more than most people realize before they enroll.
+          carrier. Others compare dozens. Knowing the difference before you sit
+          down can save you hundreds of dollars a year and a lot of frustration.
         </p>
         <p className="text-lg mb-6">
-          I'm Anthony Orner, a licensed independent Medicare broker based in New
-          Jersey. Here's what I'd want you to know before picking someone to help
-          with your coverage.
+          Here's what to check before trusting anyone with your Medicare
+          decisions in New Jersey.
         </p>
 
         <PhoneCTA />
@@ -135,14 +134,23 @@ export default function MedicareBrokersInMyArea() {
             How to verify a Medicare broker is licensed in your state
           </h2>
           <p className="mb-2">
-            Any broker helping you enroll in a Medicare plan must hold a valid
-            state insurance producer license. In New Jersey, you can verify this
-            through the Department of Banking and Insurance (DOBI) website.
+            Every legitimate Medicare broker holds a state insurance license and
+            active CMS (Centers for Medicare & Medicaid Services) certifications.
+            Two ways to check:
           </p>
+          <ul className="list-disc pl-6 space-y-1 mb-2">
+            <li>
+              New Jersey Department of Banking and Insurance license lookup at{" "}
+              <strong>nj.gov/dobi</strong>
+            </li>
+            <li>
+              CMS Medicare Plan Finder agent/broker search at{" "}
+              <strong>medicare.gov</strong>
+            </li>
+          </ul>
           <p>
-            Ask for their NJ license number. If they hesitate, that tells you
-            something. A licensed broker will also have an Annual Notice of
-            Change training certification for the current plan year.
+            If a broker can't give you their NPN (National Producer Number) on
+            the spot, walk away.
           </p>
         </section>
 
@@ -150,21 +158,16 @@ export default function MedicareBrokersInMyArea() {
           <h2 className="text-2xl font-semibold mb-3">
             Captive vs. independent Medicare brokers and why it matters
           </h2>
-          <ul className="list-disc pl-6 space-y-2">
-            <li>
-              <strong>Captive brokers</strong> represent one insurance company.
-              They can only show you that company's plans.
-            </li>
-            <li>
-              <strong>Independent brokers</strong> are contracted with multiple
-              carriers and can compare Medigap, Medicare Advantage, and Part D
-              options side by side.
-            </li>
-          </ul>
-          <p className="mt-3">
-            Both are free to use. But if a broker can only show you one carrier's
-            lineup, you're not getting a real comparison. Always ask how many
-            carriers they represent.
+          <p className="mb-2">
+            A captive agent sells plans from one insurance company. That's it.
+            They might be great at explaining that carrier's options, but they
+            literally cannot show you anything else.
+          </p>
+          <p>
+            An independent broker is appointed with multiple carriers. I compare
+            Medigap and Medicare Advantage plans across companies so the
+            recommendation actually fits your doctors, prescriptions, and budget.
+            Always ask: "How many carriers do you represent?"
           </p>
         </section>
 
@@ -173,53 +176,53 @@ export default function MedicareBrokersInMyArea() {
             What a local NJ Medicare broker can do that a 1-800 number cannot
           </h2>
           <p className="mb-2">
-            National call centers read scripts. They don't know which NJ
-            hospitals are in-network for a specific Advantage plan, or that your
-            specialist at RWJBarnabas might not be covered by every carrier.
+            The person on a national hotline reads a script. They don't know
+            that your cardiologist is in the Hackensack Meridian network or that
+            RWJBarnabas just changed its MA contracts.
           </p>
           <p>
-            A local broker knows the provider networks, the county-level plan
-            differences, and the formulary quirks that actually affect your
-            out-of-pocket costs. That local knowledge saves real money.
+            A local broker knows which plans actually work with the providers you
+            use. I sit across the table from you, pull up your specific
+            medications in real time, and show you actual out-of-pocket numbers.
+            Not estimates. Numbers.
           </p>
         </section>
 
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-3">
-            Why people turning 65 find this more confusing than expected
+            Why "free" really means free
           </h2>
           <p className="mb-2">
-            Part A, Part B, Part C, Part D, Medigap letters, enrollment windows,
-            late penalties. People who've managed employer insurance for decades
-            still find Medicare overwhelming. That's not a personal failing.
-            It's a badly designed system.
+            People are skeptical. I get it. But Medicare brokers are paid a
+            commission by the insurance carrier you choose. Your premium is
+            identical whether you enroll through me, through the carrier
+            directly, or through medicare.gov.
           </p>
           <p>
-            A broker's job is to cut through that. I walk you through your
-            specific situation: still working with employer coverage? Just
-            retiring? Already on Medicare and unhappy? Each path has different
-            rules and timelines.
+            The difference: you get a person who answers the phone when
+            something goes wrong. That costs you nothing extra.
           </p>
         </section>
 
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-3">
-            What a good broker should do before recommending a plan
+            Timing matters more than most people realize
           </h2>
-          <ul className="list-disc pl-6 space-y-2">
-            <li>Review your current medications and check Part D formularies</li>
-            <li>Confirm your doctors are in-network for any plan they suggest</li>
-            <li>
-              Explain total annual costs, not just the monthly premium
-            </li>
-            <li>
-              Discuss whether Medigap or Medicare Advantage fits your health
-              needs and budget
-            </li>
-          </ul>
-          <p className="mt-3">
-            If someone jumps straight to a recommendation without asking these
-            questions, find a different broker.
+          <p className="mb-2">
+            If you're turning 65, your Medigap Open Enrollment Period starts the
+            month you turn 65 and are enrolled in Part B. It lasts 6 months.
+            During that window, carriers must accept you regardless of health
+            history.
+          </p>
+          <p className="mb-2">
+            Miss it, and carriers in most states can charge more or deny
+            coverage based on pre-existing conditions. The Part B late
+            enrollment penalty is 10% for every 12-month period you delayed
+            without qualifying coverage.
+          </p>
+          <p>
+            Start the conversation at least 6 months before your Part B start
+            date to lock in the best rate.
           </p>
         </section>
 
@@ -228,58 +231,58 @@ export default function MedicareBrokersInMyArea() {
             Talk to Anthony Orner, a local NJ Medicare broker
           </h2>
           <p className="mb-2">
-            I'm an independent broker licensed in New Jersey. I compare plans
-            from multiple carriers at no cost to you. We can meet by phone,
-            video, or in person.
+            I'm Anthony Orner, a licensed independent Medicare broker based in
+            New Jersey. I work with multiple carriers, I don't charge you a
+            dime, and I'll tell you straight if a plan doesn't make sense for
+            your situation.
           </p>
           <p>
-            If you're approaching 65, recently retired, or just want to see
-            whether your current plan still makes sense, I'll give you a straight
-            answer. No pressure, no scripts, no 1-800 runaround.
+            Whether you're comparing Medigap Plan G vs. Plan N, weighing
+            Medicare Advantage, or still working and unsure when to enroll, one
+            call clears it up.
           </p>
         </section>
 
         <div className="bg-blue-600 text-white rounded-lg p-8 text-center my-10">
           <p className="text-xl font-bold mb-2">
-            Ready to compare Medicare plans with a local NJ broker?
+            Call 855-559-1700 for a free plan comparison
           </p>
-          <p className="text-lg mb-4">
-            Call{" "}
-            <a href="tel:8555591700" className="underline font-bold">
-              855-559-1700
-            </a>{" "}
-            or{" "}
-            <Link href="/contact" className="underline font-bold">
-              get a free quote online
-            </Link>
-            .
+          <p className="mb-4">
+            No pressure, no cost, no obligation. Just clear answers from a local
+            broker.
           </p>
+          <Link
+            href="/get-a-free-quote"
+            className="inline-block bg-white text-blue-600 font-semibold px-6 py-3 rounded-lg hover:bg-gray-100 transition"
+          >
+            Get a Free Quote
+          </Link>
         </div>
 
         <FAQSection faqs={faqs} />
 
-        <section className="mt-10 mb-8">
+        <section className="mt-10">
           <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
           <ul className="space-y-2">
             <li>
               <Link
-                href="/services/medicare-agent-near-me"
+                href="/medicare/medigap-plan-g-nj"
                 className="text-blue-600 hover:underline"
               >
-                Find a Medicare Agent Near You in NJ
+                Medigap Plan G in New Jersey: Costs and Coverage
               </Link>
             </li>
             <li>
               <Link
-                href="/guides/medigap-vs-medicare-advantage"
+                href="/medicare/medicare-advantage-vs-medigap"
                 className="text-blue-600 hover:underline"
               >
-                Medigap vs. Medicare Advantage: Which Is Right for You?
+                Medicare Advantage vs. Medigap: How to Decide
               </Link>
             </li>
             <li>
               <Link
-                href="/guides/medicare-enrollment-periods"
+                href="/medicare/medicare-enrollment-periods"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Enrollment Periods Explained

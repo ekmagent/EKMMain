@@ -26,7 +26,7 @@ const { auditOwnSite, getUsageSummary } = require("./moz-api");
 const SITE_AUDIT_SHEET_ID = process.env.SITE_AUDIT_SHEET_ID;
 const GOOGLE_CREDENTIALS_JSON = process.env.GOOGLE_CREDENTIALS_JSON;
 
-const SITE_URL = process.env.SITE_URL || "https://www.medicareyourself.com";
+const SITE_URL = process.env.SITE_URL || "https://medicareyourself.com";
 const APP_DIR = path.resolve(__dirname, "..", "app");
 const PROJECT_ROOT = path.resolve(__dirname, "..");
 const LOG_FILE = path.resolve(__dirname, "..", "site-audit-log.tsv");

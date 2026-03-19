@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
-      name: "Local Medicare Agents in Union City NJ",
-      item: "https://www.medicareyourself.com/services/local-medicare-agents-in-union-city-nj",
+      name: "Local Medicare Agents in Union City, NJ",
+      item: "https://medicareyourself.com/services/local-medicare-agents-in-union-city-nj",
     },
   ],
 };
@@ -51,47 +51,48 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-01-15",
-  dateModified: "2025-01-15",
+  mainEntityOfPage:
+    "https://medicareyourself.com/services/local-medicare-agents-in-union-city-nj",
 };
 
 const faqs = [
   {
-    question: "How do I pick a Medicare agent in Union City?",
+    question:
+      "What does a local Medicare agent in Union City, NJ actually do for me?",
     answer:
-      "Look for a licensed, independent broker who represents multiple carriers rather than just one company. An independent agent can compare plans side by side and recommend the option that actually fits your budget and doctors. Ask if they charge a fee - a good Medicare broker is paid by the insurance carriers, not by you.",
+      "An independent Medicare agent compares plans from multiple carriers on your behalf at no cost to you. I review your doctors, prescriptions, and budget, then show you which Supplement or Advantage plans fit. Carriers pay me — you never pay a broker fee.",
   },
   {
-    question: "How can I talk to a live person about Medicare?",
+    question: "Do I have to meet in person to work with a Union City Medicare broker?",
     answer:
-      "You can call 1-800-MEDICARE (1-800-633-4227) to reach the federal helpline, available 24/7. For personalized plan comparisons with a local broker who knows Hudson County providers, call Anthony Orner at 855-559-1700. There is no cost and no obligation.",
+      "No. I help Union City clients by phone, video, or in person — whichever you prefer. Everything from plan comparison to enrollment can be handled remotely if that's easier for you.",
   },
   {
-    question: "Do I need a Medicare agent if I already have coverage?",
+    question: "When should I contact a Medicare agent before turning 65?",
     answer:
-      "Even if you have a plan, an annual review can save you money. Premiums, networks, and drug formularies change every year. During Medicare Advantage Open Enrollment (October 15 - December 7) or if you qualify for a Special Enrollment Period, a broker can check whether a different plan offers better value.",
+      "Reach out about six months before your Part B start date. That gives us time to compare Medigap plans during your Open Enrollment Period, when carriers must accept you regardless of health history. Miss that window and you may face medical underwriting.",
   },
   {
-    question: "Is there a cost to use a Medicare broker in Union City?",
+    question: "Can you help me if I only speak Spanish?",
     answer:
-      "No. Licensed Medicare brokers are compensated by insurance carriers when you enroll. You pay nothing extra for their help. The plan premiums are the same whether you enroll directly or through a broker.",
+      "Yes. I provide bilingual support so Union City residents who are more comfortable in Spanish can review plan details, ask questions, and enroll without anything getting lost in translation.",
   },
 ];
 
 export default function LocalMedicareAgentsUnionCityNJ() {
   return (
-    <main className="max-w-4xl mx-auto px-4 py-8">
+    <>
       <SchemaMarkup schema={breadcrumbSchema} />
       <SchemaMarkup schema={articleSchema} />
 
-      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
+      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-4">
         <Link href="/" className="hover:underline">
           Home
         </Link>{" "}
@@ -101,202 +102,219 @@ export default function LocalMedicareAgentsUnionCityNJ() {
         </Link>{" "}
         &gt;{" "}
         <span className="text-gray-700">
-          Local Medicare Agents in Union City NJ
+          Local Medicare Agents in Union City, NJ
         </span>
       </nav>
 
-      <h1 className="text-3xl font-bold mb-4">
-        Local Medicare Agents in Union City, NJ — Independent Broker Serving
-        Hudson County
-      </h1>
+      <article className="max-w-3xl mx-auto px-4">
+        <h1 className="text-3xl font-bold mb-4">
+          Local Medicare Agents in Union City, NJ — Independent Broker Serving
+          Hudson County
+        </h1>
 
-      <Image
-        src="/images/local-medicare-agents-in-union-city-nj.webp"
-        alt="local medicare agents in union city nj"
-        width={800}
-        height={400}
-        className="rounded-lg mb-6 w-full"
-      />
+        <Image
+          src="/images/hub_local-medicare-agents-in-union-city-nj.webp"
+          alt="local medicare agents in union city nj"
+          width={800}
+          height={400}
+          className="rounded-lg mb-6 w-full h-auto"
+        />
 
-      <p className="text-lg mb-2">
-        Local Medicare agents in Union City, NJ can make the difference between
-        overpaying for coverage and getting a plan that actually fits your
-        health needs and budget. I'm Anthony Orner, a licensed independent
-        Medicare broker serving Hudson County residents.
-      </p>
-      <p className="text-lg mb-6">
-        I compare Supplement and Advantage plans from multiple carriers at no
-        cost to you. Every consultation is free, with zero obligation to enroll.
-      </p>
+        <p className="text-lg mb-2">
+          Local Medicare agents in Union City, NJ can save you hours of
+          confusion and potentially hundreds of dollars a year. I'm Anthony
+          Orner, a licensed independent broker who compares Supplement and
+          Advantage plans from multiple carriers so you see real options, not
+          just one company's pitch.
+        </p>
+        <p className="mb-6">
+          Union City is one of the most densely populated cities in the country.
+          Finding a doctor who accepts your plan here matters more than in most
+          places. I'll make sure your coverage actually works with Hudson County
+          providers.
+        </p>
 
-      <PhoneCTA />
+        <PhoneCTA />
 
-      <section className="mt-10 mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Why Union City residents need an independent Medicare broker
-        </h2>
-        <p className="mb-2">
-          Union City sits in Hudson County - the smallest and most densely
-          populated county in New Jersey. That density means more plan options,
-          more carrier competition, and more confusion.
-        </p>
-        <p>
-          A captive agent works for one insurance company. I work for you. As an
-          independent broker, I compare rates from multiple carriers and show you
-          which plan saves the most money for the coverage you actually use.
-        </p>
-      </section>
+        <section className="mt-10 mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Why Union City residents need an independent Medicare broker
+          </h2>
+          <p className="mb-2">
+            Calling a carrier directly means hearing about their plans only.
+            An independent broker like me works with multiple insurers and
+            shows you side-by-side comparisons at no extra cost.
+          </p>
+          <p>
+            People in NJ forums talk constantly about insurers dropping
+            provider networks or raising costs mid-year. An independent agent
+            helps you switch when that happens, without starting from scratch.
+          </p>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Medicare Supplement plans most popular in Hudson County
-        </h2>
-        <p className="mb-2">
-          The two plans I recommend most often to Hudson County clients are Plan
-          G and Plan N. Here's why:
-        </p>
-        <ul className="list-disc pl-6 space-y-2">
-          <li>
-            <strong>Plan G</strong> covers everything Medicare doesn't except
-            the Part B deductible ($257/year in 2026). After that, your
-            out-of-pocket cost is $0 for Medicare-approved services.
-          </li>
-          <li>
-            <strong>Plan N</strong> has a lower monthly premium but includes
-            small copays at office visits (up to $20) and the ER ($50). Good
-            choice if you want to trade small copays for a lower bill each month.
-          </li>
-        </ul>
-        <p className="mt-2">
-          Rates vary by carrier, age, and zip code. I'll pull actual quotes for
-          your situation in minutes.
-        </p>
-      </section>
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Medicare Supplement plans most popular in Hudson County
+          </h2>
+          <ul className="list-disc pl-6 space-y-2">
+            <li>
+              <strong>Plan G</strong> — Covers everything Original Medicare
+              doesn't except the Part B deductible ($283/year in 2026). Most
+              popular choice for new enrollees.
+            </li>
+            <li>
+              <strong>Plan N</strong> — Lower monthly premium than G, but you
+              pay up to $20 for some office visits and the full Part B
+              deductible.
+            </li>
+            <li>
+              <strong>High-Deductible Plan G</strong> — Lowest premium, but
+              you cover a deductible before benefits kick in. Good fit if you're
+              healthy and want catastrophic protection.
+            </li>
+          </ul>
+          <p className="mt-2">
+            Rates vary by carrier, age, and zip code. I'll pull real quotes
+            specific to Union City so you can compare actual numbers.
+          </p>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Bilingual support and accessibility for Union City clients
-        </h2>
-        <p className="mb-2">
-          Union City has one of the largest Spanish-speaking populations in New
-          Jersey. I work with bilingual resources to make sure language isn't a
-          barrier to understanding your Medicare options.
-        </p>
-        <p>
-          Consultations are available by phone or video, so you don't need to
-          leave home. If you prefer in-person help, we can arrange that too.
-        </p>
-      </section>
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Bilingual support and accessibility for Union City clients
+          </h2>
+          <p className="mb-2">
+            Over 80% of Union City's population identifies as Hispanic or
+            Latino. I offer Spanish-language consultations so you can review
+            plan documents, ask questions, and enroll in the language you're
+            most comfortable with.
+          </p>
+          <p>
+            Nothing should get lost in translation when it comes to your
+            health coverage. If you're helping a parent or grandparent
+            choose a plan, I can walk through everything with the whole family.
+          </p>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          When to lock in your Medigap rate
-        </h2>
-        <p className="mb-2">
-          Your Medigap Open Enrollment Period lasts 6 months, starting the month
-          you turn 65 and are enrolled in Part B. During this window, no carrier
-          can deny you or charge more for health conditions.
-        </p>
-        <p>
-          My practice is to have clients apply up to 6 months before their Part
-          B start date. This locks in your rate early and protects you from
-          premium increases before coverage kicks in. The sooner you lock in, the
-          better your rate.
-        </p>
-      </section>
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            How I help if your provider drops your insurance
+          </h2>
+          <p className="mb-2">
+            Network disruptions happen in Hudson County. If your doctors stop
+            accepting your plan, you may qualify for a Special Enrollment
+            Period or federal guaranteed issue rights that let you switch
+            without medical underwriting.
+          </p>
+          <p>
+            I track these situations so you don't end up stuck. One phone
+            call and we'll figure out your options together.
+          </p>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          What working with me looks like
-        </h2>
-        <ul className="list-disc pl-6 space-y-2">
-          <li>You call or book online. Takes about 2 minutes.</li>
-          <li>
-            I ask about your doctors, prescriptions, and budget - no personal
-            health questions required during Open Enrollment.
-          </li>
-          <li>
-            I pull real quotes from multiple carriers and walk you through the
-            numbers.
-          </li>
-          <li>
-            You decide. No pressure, no sales pitch. If none of the options beat
-            what you have, I'll tell you.
-          </li>
-        </ul>
-      </section>
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Key enrollment deadlines to know
+          </h2>
+          <ul className="list-disc pl-6 space-y-2">
+            <li>
+              <strong>Medigap Open Enrollment:</strong> 6 months starting the
+              month you turn 65 and have Part B. This is your best window for
+              guaranteed acceptance.
+            </li>
+            <li>
+              <strong>Medicare Advantage / Part D:</strong> October 15 through
+              December 7 each year.
+            </li>
+            <li>
+              <strong>Advantage Open Enrollment:</strong> January 1 through
+              March 31 if you're already in an Advantage plan and want to
+              switch.
+            </li>
+          </ul>
+          <p className="mt-2">
+            Contact me six months before your 65th birthday to lock in the
+            best Supplement rates.
+          </p>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Book a free Medicare consultation by phone or video
-        </h2>
-        <p className="mb-2">
-          Whether you're turning 65, retiring from a job with group insurance, or
-          just want to review your current plan, I'm here to help. Hudson County
-          residents get the same thorough comparison whether we meet by phone,
-          video, or in person.
-        </p>
-        <p>
-          Call <strong>855-559-1700</strong> or use the link below to schedule
-          your free consultation.
-        </p>
-      </section>
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Book a free Medicare consultation by phone or video
+          </h2>
+          <p className="mb-2">
+            Every consultation is free with zero obligation. I'll review what
+            you have, show you what's available, and let you decide. No
+            pressure, no sales tactics.
+          </p>
+          <p>
+            Call <strong>855-559-1700</strong> or book a video call at a time
+            that works for you. Evenings and weekends are fine.
+          </p>
+        </section>
 
-      <div className="bg-blue-600 text-white rounded-lg p-6 text-center my-10">
-        <p className="text-xl font-bold mb-2">
-          Ready to compare Medicare plans in Union City?
-        </p>
-        <p className="mb-4">
-          Call{" "}
-          <a href="tel:855-559-1700" className="underline font-bold">
-            855-559-1700
-          </a>{" "}
-          or{" "}
-          <Link href="/quote" className="underline font-bold">
-            Get a Free Quote
-          </Link>
-        </p>
-      </div>
-
-      <FAQSection faqs={faqs} />
-
-      <section className="mt-10">
-        <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
-        <ul className="space-y-2">
-          <li>
-            <Link
-              href="/medicare-guides/medicare-supplement-plans-nj"
-              className="text-blue-600 hover:underline"
+        <div className="bg-blue-600 text-white rounded-lg p-6 text-center my-10">
+          <p className="text-xl font-bold mb-2">
+            Ready to compare Medicare plans in Union City?
+          </p>
+          <p className="mb-4">
+            Call{" "}
+            <a
+              href="tel:8555591700"
+              className="underline font-bold text-white"
             >
-              Medicare Supplement Plans in NJ - Complete Guide
-            </Link>
-          </li>
-          <li>
+              855-559-1700
+            </a>{" "}
+            or{" "}
             <Link
-              href="/medicare-guides/medicare-plan-g-nj"
-              className="text-blue-600 hover:underline"
+              href="/get-a-free-quote"
+              className="underline font-bold text-white"
             >
-              Medicare Plan G in New Jersey - Benefits and Rates
+              Get a Free Quote
             </Link>
-          </li>
-          <li>
-            <Link
-              href="/medicare-guides/medicare-plan-n-vs-plan-g"
-              className="text-blue-600 hover:underline"
-            >
-              Medicare Plan N vs Plan G - Which One Saves You More?
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/medicare-guides/when-to-enroll-in-medicare"
-              className="text-blue-600 hover:underline"
-            >
-              When to Enroll in Medicare - Key Dates and Deadlines
-            </Link>
-          </li>
-        </ul>
-      </section>
-    </main>
+          </p>
+        </div>
+
+        <FAQSection faqs={faqs} />
+
+        <section className="mt-10 mb-8">
+          <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
+          <ul className="space-y-2">
+            <li>
+              <Link
+                href="/medicare-guides/medicare-supplement-plans-nj"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare Supplement Plans in New Jersey
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/medicare-guides/medicare-advantage-hudson-county"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare Advantage in Hudson County
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/medicare-guides/medigap-plan-g-vs-plan-n"
+                className="text-blue-600 hover:underline"
+              >
+                Medigap Plan G vs. Plan N
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/medicare-guides/when-to-enroll-in-medicare"
+                className="text-blue-600 hover:underline"
+              >
+                When to Enroll in Medicare
+              </Link>
+            </li>
+          </ul>
+        </section>
+      </article>
+    </>
   );
 }

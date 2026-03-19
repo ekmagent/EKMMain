@@ -50,9 +50,9 @@ export default function MedigapVsMAPage() {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.medicareyourself.com" },
-      { "@type": "ListItem", position: 2, name: "Medicare Supplement NJ", item: "https://www.medicareyourself.com/medicare-supplement/new-jersey" },
-      { "@type": "ListItem", position: 3, name: "Medigap vs Medicare Advantage NJ", item: "https://www.medicareyourself.com/medicare-supplement/new-jersey/vs-medicare-advantage" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://medicareyourself.com" },
+      { "@type": "ListItem", position: 2, name: "Medicare Supplement NJ", item: "https://medicareyourself.com/medicare-supplement/new-jersey" },
+      { "@type": "ListItem", position: 3, name: "Medigap vs Medicare Advantage NJ", item: "https://medicareyourself.com/medicare-supplement/new-jersey/vs-medicare-advantage" },
     ],
   };
 

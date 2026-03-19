@@ -7,12 +7,12 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 
 export const metadata: Metadata = {
   title:
-    "How Much Is Plan F in NJ | Free Rate Lookup by Age | MedicareYourself",
+    "how much is plan F in nj | Free Rate Lookup by Age | MedicareYourself",
   description:
     "How much is Plan F in NJ? See 2025 premiums by age and learn why costs keep rising. Anthony Orner can show you if Plan G saves more. Free quote.",
   openGraph: {
     title:
-      "How Much Is Plan F in NJ | Free Rate Lookup by Age | MedicareYourself",
+      "how much is plan F in nj | Free Rate Lookup by Age | MedicareYourself",
     description:
       "How much is Plan F in NJ? See 2025 premiums by age and learn why costs keep rising. Anthony Orner can show you if Plan G saves more. Free quote.",
   },
@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/services",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "How Much Is Plan F in NJ",
-      item: "https://www.medicareyourself.com/services/how-much-is-plan-f-in-nj",
+      item: "https://medicareyourself.com/services/how-much-is-plan-f-in-nj",
     },
   ],
 };
@@ -50,7 +50,7 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
@@ -63,253 +63,210 @@ const articleSchema = {
 
 const faqs = [
   {
-    question: "Is Plan F the best Medicare supplement for seniors?",
+    question: "Is Plan F the best Medicare Supplement for seniors?",
     answer:
-      "Plan F covers the most benefits of any Medigap plan, including the Part B deductible. But 'best' depends on total cost. Many NJ seniors pay less overall with Plan G because the premium savings exceed the $283 annual deductible. A side-by-side comparison with your specific age and ZIP code tells the real story.",
+      "Plan F covers 100% of Medicare-approved costs with zero out-of-pocket expenses. However, since it closed to new enrollees in 2020, its shrinking risk pool drives premiums higher each year. For many NJ seniors, Plan G now offers nearly identical coverage at a lower total annual cost.",
   },
   {
     question: "How much is Medicare Plan F monthly?",
     answer:
-      "In New Jersey, Plan F premiums typically range from around $150 to $350+ per month depending on your age, gender, tobacco use, and carrier. Rates vary significantly between insurance companies for the exact same coverage. That's why comparing multiple carriers is essential.",
+      "In New Jersey, Plan F monthly premiums typically range from $180 to $350+ depending on your age, gender, tobacco use, and carrier. Rates vary significantly between insurers for the exact same standardized coverage, which is why comparing quotes matters.",
   },
   {
     question: "Why is Plan F so expensive?",
     answer:
-      "Plan F has been closed to new enrollees since January 1, 2020. No new, younger members are entering the pool. As the existing members age, claims increase and premiums rise faster than other Medigap plans. This trend will continue indefinitely.",
+      "Plan F closed to new Medicare enrollees on January 1, 2020. No younger, healthier people enter the plan, so the remaining members age together. As claims increase and fewer people share the cost, premiums rise faster than other Medigap plans like Plan G.",
   },
   {
     question: "Can I switch from Plan F to Plan G in New Jersey?",
     answer:
-      "Yes. In most cases, switching from Plan F to Plan G requires medical underwriting in NJ. However, since Plan G is lesser coverage, many carriers approve applications more readily. Call to discuss your health situation and we'll tell you which carriers are the best fit.",
+      "Yes. In New Jersey, you can switch from Plan F to Plan G or any lesser-lettered Medigap plan without medical underwriting. This is a state-specific protection. You'd then pay the $283 annual Part B deductible yourself but often save hundreds more on premiums.",
   },
 ];
 
 export default function HowMuchIsPlanFInNJ() {
   return (
-    <>
+    <main className="max-w-3xl mx-auto px-4 py-8">
       <SchemaMarkup schema={breadcrumbSchema} />
       <SchemaMarkup schema={articleSchema} />
 
-      <main className="max-w-4xl mx-auto px-4 py-8">
-        <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
-          <Link href="/" className="hover:underline">
-            Home
-          </Link>{" "}
-          &gt;{" "}
-          <Link href="/services" className="hover:underline">
-            Medicare Guides
-          </Link>{" "}
-          &gt;{" "}
-          <span className="text-gray-700">How Much Is Plan F in NJ</span>
-        </nav>
+      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
+        <Link href="/" className="hover:underline">
+          Home
+        </Link>{" "}
+        &gt;{" "}
+        <Link href="/medicare-guides" className="hover:underline">
+          Medicare Guides
+        </Link>{" "}
+        &gt;{" "}
+        <span className="text-gray-700">How Much Is Plan F in NJ</span>
+      </nav>
 
-        <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-          How Much Is Plan F in NJ? Current Rates and Why They Keep Rising
-        </h1>
+      <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+        How Much Is Plan F in NJ? Current Rates and Why They Keep Rising
+      </h1>
 
-        <Image
-          src="/images/how-much-is-plan-f-in-nj.webp"
-          alt="how much is plan F in NJ"
-          width={800}
-          height={400}
-          className="rounded-lg mb-6 w-full"
-        />
+      <Image
+        src="/images/hub_how-much-is-plan-f-in-nj.webp"
+        alt="how much is plan F in NJ"
+        width={800}
+        height={400}
+        className="w-full rounded-lg mb-6"
+        priority
+      />
 
-        <p className="text-lg text-gray-700 mb-2">
-          How much is Plan F in NJ? Most New Jersey residents on Plan F pay
-          between $150 and $350+ per month, depending on age, carrier, and ZIP
-          code. The exact number matters because Plan F premiums are climbing
-          faster than any other Medigap plan - and there's a concrete reason
-          why.
+      <p className="text-lg text-gray-700 mb-2">
+        How much is Plan F in NJ? Most New Jersey residents on Plan F pay between $180 and $350+ per month in 2025, depending on age, carrier, and tobacco status. That range keeps climbing, and there's a structural reason behind it.
+      </p>
+      <p className="text-lg text-gray-700 mb-6">
+        I'm Anthony Orner, a licensed Medicare broker here in New Jersey. I run these numbers for clients every week. Let me break down exactly what you're paying for and whether it still makes sense.
+      </p>
+
+      <PhoneCTA />
+
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          Plan F monthly premiums by age in New Jersey (2025)
+        </h2>
+        <p className="text-gray-700 mb-2">
+          New Jersey's Department of Human Services publishes Medigap rate charts. Here's the general range across major carriers:
         </p>
-        <p className="text-lg text-gray-700 mb-6">
-          I'm Anthony Orner, a licensed Medicare broker based in New Jersey.
-          I'll break down what you're actually paying, why, and whether
-          switching makes financial sense.
+        <ul className="list-disc pl-6 text-gray-700 space-y-1 mb-3">
+          <li><strong>Age 65:</strong> $180 to $250/month</li>
+          <li><strong>Age 70:</strong> $210 to $290/month</li>
+          <li><strong>Age 75:</strong> $240 to $320/month</li>
+          <li><strong>Age 80+:</strong> $280 to $350+/month</li>
+        </ul>
+        <p className="text-gray-700">
+          Rates vary by carrier for the exact same standardized benefits. Two companies can charge $100+ apart for identical Plan F coverage. That's why comparing quotes isn't optional.
         </p>
+      </section>
 
-        <PhoneCTA />
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          Why Plan F costs more than Plan G every year
+        </h2>
+        <p className="text-gray-700 mb-2">
+          Plan F closed to new enrollees on January 1, 2020. Nobody under 65 joins anymore. The pool only gets older, claims go up, and carriers raise premiums to keep up.
+        </p>
+        <p className="text-gray-700">
+          Plan G covers everything Plan F covers except the annual Part B deductible ($283 in 2026). But because Plan G still accepts new, younger members, its risk pool stays healthier. That's why Plan G premiums often run $30 to $70/month less than Plan F for the same person.
+        </p>
+      </section>
 
-        <section className="mt-10">
-          <h2 className="text-2xl font-semibold text-gray-900 mb-3">
-            Plan F monthly premiums by age in New Jersey (2025)
-          </h2>
-          <p className="text-gray-700 mb-3">
-            New Jersey uses attained-age rating for most Medigap plans. That
-            means your premium increases as you get older, on top of any annual
-            rate hikes from the carrier. Here's the general range I see across
-            multiple insurance companies:
-          </p>
-          <ul className="list-disc pl-6 text-gray-700 space-y-1 mb-3">
-            <li>Age 65-69: roughly $150 - $220/month</li>
-            <li>Age 70-74: roughly $190 - $270/month</li>
-            <li>Age 75-79: roughly $230 - $320/month</li>
-            <li>Age 80+: $280 - $370+/month</li>
-          </ul>
-          <p className="text-gray-700">
-            These are ballpark figures. Your actual rate depends on which
-            carrier, your county, gender, and tobacco status. The NJ Department
-            of Human Services publishes rate comparison charts - I use those
-            plus real-time carrier quotes when running comparisons.
-          </p>
-        </section>
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          Who still qualifies for Plan F and is it worth it
+        </h2>
+        <p className="text-gray-700 mb-2">
+          You can only keep or buy Plan F if you became eligible for Medicare before January 1, 2020. If you already have it, you're grandfathered in. No one new can get it.
+        </p>
+        <p className="text-gray-700">
+          The question isn't whether Plan F is good coverage. It is. The question is whether paying $40 to $80 more per month to avoid a $283 annual deductible makes financial sense. For most people, the math favors switching.
+        </p>
+      </section>
 
-        <section className="mt-10">
-          <h2 className="text-2xl font-semibold text-gray-900 mb-3">
-            Why Plan F costs more than Plan G every year
-          </h2>
-          <p className="text-gray-700 mb-3">
-            Since January 1, 2020, Plan F has been closed to anyone newly
-            eligible for Medicare. No one younger is joining the risk pool. The
-            people on Plan F are all getting older at the same time, filing more
-            claims, and driving premiums up.
-          </p>
-          <p className="text-gray-700">
-            Plan G still accepts new 65-year-olds every day. That fresh flow of
-            younger, healthier enrollees keeps the pool balanced and premiums
-            more stable. This isn't speculation - it's basic insurance math, and
-            it plays out in the rate filings every year.
-          </p>
-        </section>
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          How to check if switching to Plan G saves you money
+        </h2>
+        <p className="text-gray-700 mb-2">
+          New Jersey has a strong consumer protection: you can switch from Plan F to Plan G (or any lesser-lettered plan) without medical underwriting. This is a state rule, not federal.
+        </p>
+        <p className="text-gray-700">
+          That means no health questions. No denial for pre-existing conditions. You keep the same doctors and hospitals because Medigap plans are accepted by any provider who takes Medicare.
+        </p>
+      </section>
 
-        <section className="mt-10">
-          <h2 className="text-2xl font-semibold text-gray-900 mb-3">
-            Who still qualifies for Plan F and is it worth keeping
-          </h2>
-          <p className="text-gray-700 mb-3">
-            You can only have Plan F if you became eligible for Medicare before
-            January 1, 2020. If you already have it, you can keep it. But
-            "can keep" and "should keep" are different questions.
-          </p>
-          <p className="text-gray-700">
-            The only extra benefit Plan F offers over Plan G is covering the
-            annual Part B deductible - that's $283 in 2026. If your Plan F
-            premium is $40+ more per month than Plan G from the same or
-            comparable carrier, you're paying $480+ a year to avoid a $283
-            bill. That gap typically widens every year.
-          </p>
-        </section>
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          What the $283 Part B deductible actually means
+        </h2>
+        <p className="text-gray-700 mb-2">
+          Plan F pays the Part B deductible for you. Plan G doesn't. That's the only difference between the two plans.
+        </p>
+        <p className="text-gray-700">
+          In 2026, that deductible is $283 for the entire year. If you're saving $50/month by switching to Plan G, that's $600/year in premium savings minus $283 out-of-pocket. Net savings: over $300/year. Most of my NJ clients save between $300 and $700 annually.
+        </p>
+      </section>
 
-        <section className="mt-10">
-          <h2 className="text-2xl font-semibold text-gray-900 mb-3">
-            How to check if switching to Plan G saves you money
-          </h2>
-          <p className="text-gray-700 mb-3">
-            Switching from Plan F to Plan G in New Jersey usually requires
-            answering health questions. But since you're moving to less
-            coverage (not more), approval rates tend to be favorable for most
-            people in reasonable health.
-          </p>
-          <p className="text-gray-700">
-            I run a side-by-side comparison for you at no cost. I'll pull your
-            current Plan F rate, compare it to Plan G options from multiple
-            carriers, and factor in that $283 deductible so you see real
-            savings, not hypothetical ones.
-          </p>
-        </section>
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          How to get your actual Plan F rate in New Jersey
+        </h2>
+        <p className="text-gray-700 mb-2">
+          The NJ Department of Human Services publishes official Medigap rate charts, but they're dense PDFs sorted by carrier. I pull those numbers and compare them side by side so you can see exactly what you're paying versus what you could be paying.
+        </p>
+        <p className="text-gray-700">
+          One call. I'll look up your current Plan F rate, show you what Plan G costs from the same or better-rated carrier, and do the math together. No pressure, no obligation.
+        </p>
+      </section>
 
-        <section className="mt-10">
-          <h2 className="text-2xl font-semibold text-gray-900 mb-3">
-            NJ-specific details that affect your rate
-          </h2>
-          <p className="text-gray-700 mb-3">
-            Where you live in New Jersey changes your premium. Carriers serving
-            North Jersey - near Hackensack Meridian and RWJBarnabas facilities
-            - price differently than those covering South Jersey, where Cooper
-            and AtlantiCare dominate. Not every carrier offers competitive rates
-            in every county.
-          </p>
-          <p className="text-gray-700">
-            I work across the entire state and know which carriers price well
-            in your specific area. That's the kind of detail that saves you
-            real money.
-          </p>
-        </section>
-
-        <section className="mt-10">
-          <h2 className="text-2xl font-semibold text-gray-900 mb-3">
-            What people on Plan F wish someone told them sooner
-          </h2>
-          <p className="text-gray-700 mb-3">
-            A lot of folks I talk to feel stuck. They picked Plan F years ago
-            because it covered everything, and now the premium keeps climbing
-            but they're afraid to switch. Some worry they'll lose coverage or
-            get denied.
-          </p>
-          <p className="text-gray-700">
-            Here's what I tell them: Plan G covers exactly the same things as
-            Plan F except for one $283 deductible. Same doctors. Same
-            hospitals. No network restrictions. The only thing that changes is
-            your monthly bill - usually for the better.
-          </p>
-        </section>
-
-        <div className="mt-10 bg-blue-50 border border-blue-200 rounded-lg p-6 text-center">
-          <p className="text-lg font-semibold text-gray-900 mb-2">
-            Want to see exactly what Plan F costs at your age and ZIP code?
-          </p>
-          <p className="text-gray-700 mb-4">
-            Call{" "}
-            <a
-              href="tel:8555591700"
-              className="text-blue-700 font-bold hover:underline"
-            >
-              855-559-1700
-            </a>{" "}
-            for a free rate comparison. No obligation, no pressure.
-          </p>
-          <Link
-            href="/contact"
-            className="inline-block bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg hover:bg-blue-800"
+      <div className="mt-10 bg-blue-600 text-white rounded-xl p-6 text-center">
+        <p className="text-xl font-bold mb-2">
+          Want to know exactly what Plan F or Plan G costs at your age?
+        </p>
+        <p className="mb-4">
+          Call{" "}
+          <a
+            href="tel:8555591700"
+            className="underline font-semibold text-white"
           >
-            Get a Free Quote
-          </Link>
-        </div>
+            855-559-1700
+          </a>{" "}
+          for a free, no-obligation rate comparison.
+        </p>
+        <Link
+          href="/contact"
+          className="inline-block bg-white text-blue-600 font-bold py-3 px-6 rounded-lg hover:bg-gray-100 transition"
+        >
+          Get a Free Quote
+        </Link>
+      </div>
 
-        <section className="mt-12">
-          <FAQSection faqs={faqs} />
-        </section>
+      <section className="mt-12">
+        <FAQSection faqs={faqs} />
+      </section>
 
-        <section className="mt-12">
-          <h2 className="text-2xl font-semibold text-gray-900 mb-4">
-            Related resources
-          </h2>
-          <ul className="space-y-2">
-            <li>
-              <Link
-                href="/services/medicare-plan-g-nj"
-                className="text-blue-700 hover:underline"
-              >
-                Medicare Plan G in New Jersey - Rates and Coverage
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/services/plan-f-vs-plan-g"
-                className="text-blue-700 hover:underline"
-              >
-                Plan F vs Plan G - Which One Actually Costs Less?
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/services/medicare-supplement-plans-nj"
-                className="text-blue-700 hover:underline"
-              >
-                Medicare Supplement Plans in NJ - Full Guide
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/services/when-to-enroll-in-medigap"
-                className="text-blue-700 hover:underline"
-              >
-                When to Enroll in Medigap - Timing and Open Enrollment
-              </Link>
-            </li>
-          </ul>
-        </section>
-      </main>
-    </>
+      <section className="mt-12">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-4">
+          Related resources
+        </h2>
+        <ul className="space-y-2">
+          <li>
+            <Link
+              href="/services/plan-f-vs-plan-g"
+              className="text-blue-600 hover:underline"
+            >
+              Plan F vs. Plan G: Full Side-by-Side Comparison
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/services/best-medigap-plans-in-nj"
+              className="text-blue-600 hover:underline"
+            >
+              Best Medigap Plans in NJ for 2025
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/services/medigap-open-enrollment-nj"
+              className="text-blue-600 hover:underline"
+            >
+              NJ Medigap Open Enrollment: What You Need to Know
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/services/plan-g-cost-nj"
+              className="text-blue-600 hover:underline"
+            >
+              How Much Does Plan G Cost in New Jersey?
+            </Link>
+          </li>
+        </ul>
+      </section>
+    </main>
   );
 }

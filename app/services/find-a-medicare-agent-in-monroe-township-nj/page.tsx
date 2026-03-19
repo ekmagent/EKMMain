@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Find a Medicare Agent in Monroe Township, NJ",
-      item: "https://www.medicareyourself.com/services/find-a-medicare-agent-in-monroe-township-nj",
+      item: "https://medicareyourself.com/services/find-a-medicare-agent-in-monroe-township-nj",
     },
   ],
 };
@@ -50,7 +50,7 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
@@ -63,32 +63,31 @@ const articleSchema = {
 
 const faqs = [
   {
-    question: "How to find a good Medicare agent?",
+    question: "How can I get help with Medicare premiums in New Jersey?",
     answer:
-      "Look for a licensed, independent broker who represents multiple carriers rather than just one company. An independent agent can compare plans side-by-side and recommend what actually fits your doctors, prescriptions, and budget. Ask whether they charge you anything (they shouldn't) and whether they help with annual reviews during Open Enrollment.",
+      "New Jersey offers programs like NJ PAAD (Pharmaceutical Assistance to the Aged and Disabled) and the Medicare Savings Program that can help cover Part B premiums and drug costs. Income limits apply. Call us at 855-559-1700 and we'll help you check eligibility.",
   },
   {
-    question: "How much do Medicare agents charge?",
+    question: "How do I pick a Medicare agent?",
     answer:
-      "A legitimate Medicare agent costs you nothing. Brokers are paid by the insurance carriers, not by you. Your premium is the same whether you enroll on your own or through an agent. The difference is you get professional guidance at no extra cost.",
+      "Look for a licensed, independent broker who represents multiple carriers rather than just one company. Ask if they charge a fee (they shouldn't — brokers are paid by the insurance carrier, not you). A good agent will compare plans side by side and explain tradeoffs honestly.",
   },
   {
-    question: "What Medicare plans are available in Monroe Township, NJ?",
+    question: "How do I speak to a live person at Medicare?",
     answer:
-      "Monroe Township residents in Middlesex County can choose from Original Medicare with a Medigap Supplement (Plan G, Plan N, and others), Medicare Advantage HMO and PPO plans, and standalone Part D prescription drug plans. The best fit depends on your health, your doctors, and how you prefer to use coverage.",
+      "Call 1-800-MEDICARE (1-800-633-4227), available 24/7. But if you want someone local who knows Middlesex County providers and can compare your actual plan options, call our office at 855-559-1700 for a free consultation.",
   },
   {
-    question: "When is the best time to enroll in a Medicare plan in Monroe Township?",
+    question: "Is there a cost to work with a Medicare broker in Monroe Township?",
     answer:
-      "Your Medigap Open Enrollment Period - the 6 months starting the month you turn 65 and have Part B - gives you guaranteed issue rights with no health questions. For Medicare Advantage and Part D, the Annual Enrollment Period runs October 15 through December 7 each year.",
+      "No. Independent Medicare brokers like Anthony Orner are compensated by the insurance carriers. You pay the same premium whether you enroll directly or through a broker — but you get expert guidance at no extra cost.",
   },
 ];
 
 export default function FindMedicareAgentMonroeTownshipNJ() {
   return (
-    <main className="max-w-4xl mx-auto px-4 py-8">
-      <SchemaMarkup schema={breadcrumbSchema} />
-      <SchemaMarkup schema={articleSchema} />
+    <main className="max-w-3xl mx-auto px-4 py-8">
+      <SchemaMarkup schema={[breadcrumbSchema, articleSchema]} />
 
       <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
         <Link href="/" className="hover:underline">
@@ -104,141 +103,144 @@ export default function FindMedicareAgentMonroeTownshipNJ() {
         </span>
       </nav>
 
-      <h1 className="text-3xl font-bold mb-4">
+      <h1 className="text-3xl md:text-4xl font-bold mb-4 leading-tight">
         Find a Medicare Agent in Monroe Township, NJ Who Puts Your Interests First
       </h1>
 
       <Image
-        src="/images/find-a-medicare-agent-in-monroe-township-nj.webp"
-        alt="find a medicare agent in Monroe Township NJ"
+        src="/images/hub_find-a-medicare-agent-in-monroe-township-nj.webp"
+        alt="Find a Medicare agent in Monroe Township NJ"
         width={800}
         height={400}
-        className="rounded-lg mb-6 w-full"
+        className="w-full rounded-lg mb-6"
+        priority
       />
 
       <p className="text-lg mb-2">
-        Finding a Medicare agent in Monroe Township, NJ doesn't have to mean cold calls from strangers or confusing mailers. I'm Anthony Orner, an independent broker licensed in New Jersey who works with residents across Middlesex County.
+        Finding a Medicare agent in Monroe Township, NJ shouldn't mean fielding robocalls from strangers reading scripts. I'm Anthony Orner, an independent broker based right here in New Jersey. I compare plans from multiple carriers so you see real options, not a one-company sales pitch.
       </p>
       <p className="text-lg mb-6">
-        I compare plans from multiple carriers so you get honest, side-by-side options. No cost to you, ever.
+        My service is free. Carriers pay me, not you. Your premium stays the same either way.
       </p>
 
       <PhoneCTA />
 
-      <section className="mt-10 mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
           Why Monroe Township's 55+ communities need independent broker access
         </h2>
-        <p className="mb-2">
-          Monroe Township is one of the largest retirement destinations in New Jersey. Communities like Rossmoor, Clearbrook, and Concordia bring thousands of Medicare-eligible residents into a single zip code. That also attracts a lot of captive agents who can only sell one carrier's plans.
+        <p className="mb-3">
+          Monroe Township has one of the highest concentrations of active-adult communities in Middlesex County. Concordia, Rossmoor, Clearbrook, Monroe Village — thousands of residents turning 65 or reviewing plans every year. Many get flooded with mailers from captive agents who only sell one carrier.
         </p>
         <p>
-          An independent broker works differently. I'm not tied to one company. If a carrier raises rates or drops your doctor from its network, I can move you to a better option. That matters when you're locked into a community and want stability.
+          An independent broker works differently. I represent multiple Supplement and Advantage carriers, so I can show you what actually fits your doctors, your prescriptions, and your budget.
         </p>
       </section>
 
-      <section className="mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
-          Medicare Supplement rates for Monroe Township residents in 2025-2026
+          Medicare Supplement rates for Monroe Township residents in 2025–2026
         </h2>
-        <p className="mb-2">
-          Medigap premiums in Middlesex County vary by carrier, age, and tobacco status. Plan G is the most popular Supplement right now because it covers everything Original Medicare doesn't except the Part B deductible ($257 in 2026).
+        <p className="mb-3">
+          Medigap premiums in Middlesex County vary by carrier, age, and tobacco use. Plan G and Plan N are the most popular options right now. Rates vary by carrier, but I can pull real-time quotes for your specific situation in minutes.
         </p>
         <p>
-          Rates differ by $40-$80/month between the cheapest and most expensive carriers for the same Plan G coverage. That's real money. I run a carrier comparison specific to your age and zip code so you see every option.
+          If you're turning 65, your Medigap Open Enrollment Period starts the month you turn 65 and are enrolled in Part B. During that 6-month window, carriers can't deny you or charge more for health conditions. Apply up to 6 months before your Part B start date to lock in the best rate.
         </p>
       </section>
 
-      <section className="mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
           Advantage plan networks that cover CentraState and local providers
         </h2>
-        <p className="mb-2">
-          Many Monroe Township residents use CentraState Medical Center in Freehold or Robert Wood Johnson facilities. Not every Medicare Advantage plan includes these hospitals in-network.
+        <p className="mb-3">
+          Many Monroe Township residents use CentraState Medical Center in Freehold, Robert Wood Johnson University Hospital in New Brunswick, or Penn Medicine Princeton Medical Center. Not every Medicare Advantage plan includes all three in-network.
         </p>
         <p>
-          Before you pick a plan, I verify your doctors and preferred hospitals are covered. HMO plans require referrals and in-network care only. PPO plans give more flexibility but may cost more. The right structure depends on how you actually use healthcare.
+          I verify network coverage for your specific doctors and hospitals before recommending any plan. No surprises at the front desk.
         </p>
       </section>
 
-      <section className="mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
-          Locking in your Medigap rate before Part B starts
-        </h2>
-        <p className="mb-2">
-          If you're turning 65, your Medigap Open Enrollment Period lasts 6 months starting the month you're both 65 and enrolled in Part B. During this window, carriers cannot deny you or charge more based on health history.
-        </p>
-        <p>
-          My practice is to have clients apply up to 6 months before their Part B start date. This locks in the rate early and protects you from premium increases before coverage even begins. The sooner you lock in, the better your rate.
-        </p>
-      </section>
-
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          What working with an independent broker actually looks like
+          Key 2026 Medicare costs you should know
         </h2>
         <ul className="list-disc pl-6 space-y-2">
-          <li>We review your current coverage, doctors, and prescriptions</li>
-          <li>I compare Supplement and Advantage plans from every carrier available in 08831</li>
-          <li>You choose the plan that fits - no pressure, no upsell</li>
-          <li>I handle the paperwork and follow up if there are any issues</li>
-          <li>Every fall during Open Enrollment (October 15 - December 7), I check whether a better option exists</li>
+          <li>Part B premium: $202.90/month</li>
+          <li>Part B deductible: $283/year</li>
+          <li>Part A deductible: $1,676 per benefit period</li>
+          <li>SNF coinsurance (days 21–100): $209.50/day</li>
+          <li>Part B late enrollment penalty: 10% for each 12-month period you delayed</li>
+        </ul>
+        <p className="mt-3">
+          These numbers add up fast without the right coverage. A Supplement plan or a well-chosen Advantage plan can protect you from the biggest out-of-pocket hits.
+        </p>
+      </section>
+
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold mb-3">
+          What makes a good Medicare agent (and what to avoid)
+        </h2>
+        <p className="mb-3">
+          Scam calls posing as "Medicare representatives" are a real problem. They ask for your Medicare number, your Social Security number, or pressure you into quick decisions. A legitimate broker will never do that.
+        </p>
+        <ul className="list-disc pl-6 space-y-2">
+          <li>Look for a state-licensed, independent broker (not tied to one carrier)</li>
+          <li>Never give your Medicare ID to an unsolicited caller</li>
+          <li>A real broker will meet with you, answer questions, and let you decide on your timeline</li>
+          <li>You should never pay a fee for Medicare enrollment help</li>
         </ul>
       </section>
 
-      <section className="mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
           Book a free consultation with Anthony Orner
         </h2>
-        <p className="mb-2">
-          I work with Medicare beneficiaries throughout Monroe Township, Jamesburg, Cranbury, and the surrounding Middlesex County area. Phone, video, or in-person - whatever works for you.
+        <p className="mb-3">
+          I work with Monroe Township residents year-round. Whether you're aging into Medicare, losing employer coverage, or just want a second opinion on your current plan, I'll give you a straight answer.
         </p>
         <p>
-          There's no fee and no obligation. Carriers pay me, so you get professional guidance at zero cost. Call today and let's make sure your plan actually matches your needs.
+          Medicare Advantage and Part D Open Enrollment runs October 15 through December 7. But if you're turning 65 or have a qualifying life event, we can work together anytime.
         </p>
       </section>
 
-      <div className="bg-blue-600 text-white rounded-lg p-6 text-center mb-10">
+      <div className="mt-10 bg-blue-600 text-white rounded-lg p-6 text-center">
         <p className="text-xl font-semibold mb-2">
-          Ready for a free Medicare plan review?
+          Talk to a local Medicare broker who knows Monroe Township
         </p>
         <p className="text-lg mb-4">
           Call{" "}
-          <a
-            href="tel:8555591700"
-            className="underline font-bold"
-          >
+          <a href="tel:8555591700" className="underline font-bold">
             855-559-1700
           </a>{" "}
-          or book online.
+          or{" "}
+          <Link href="/contact" className="underline font-bold">
+            Get a Free Quote
+          </Link>
         </p>
-        <Link
-          href="/contact"
-          className="inline-block bg-white text-blue-600 font-semibold px-6 py-3 rounded-lg hover:bg-gray-100 transition"
-        >
-          Get a Free Quote
-        </Link>
       </div>
 
-      <FAQSection faqs={faqs} />
+      <section className="mt-12">
+        <FAQSection faqs={faqs} />
+      </section>
 
-      <section className="mt-10">
+      <section className="mt-12">
         <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
         <ul className="space-y-2">
           <li>
             <Link
-              href="/medicare-guides/medicare-plan-g-nj"
+              href="/medicare-guides/medicare-supplement-plans-nj"
               className="text-blue-600 hover:underline"
             >
-              Medicare Plan G in New Jersey - What It Covers and Costs
+              Medicare Supplement Plans in New Jersey
             </Link>
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-advantage-nj"
+              href="/medicare-guides/medicare-advantage-plans-nj"
               className="text-blue-600 hover:underline"
             >
-              Medicare Advantage Plans in NJ - 2025-2026 Options
+              Medicare Advantage Plans in New Jersey
             </Link>
           </li>
           <li>
@@ -246,7 +248,7 @@ export default function FindMedicareAgentMonroeTownshipNJ() {
               href="/medicare-guides/medigap-open-enrollment-nj"
               className="text-blue-600 hover:underline"
             >
-              Medigap Open Enrollment in NJ - When and How to Enroll
+              Medigap Open Enrollment in NJ: What You Need to Know
             </Link>
           </li>
           <li>

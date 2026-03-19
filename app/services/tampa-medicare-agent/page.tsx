@@ -9,12 +9,12 @@ export const metadata: Metadata = {
   title:
     "tampa medicare agent | Free Plan Comparison | MedicareYourself",
   description:
-    "Tampa Medicare agent Anthony Orner compares Supplement and Advantage plans across top Florida carriers. No cost, no obligation. Request your free quote now.",
+    "Tampa medicare agent Anthony Orner compares Supplement and Advantage plans across top Florida carriers. No cost, no obligation. Request your free quote now.",
   openGraph: {
     title:
       "tampa medicare agent | Free Plan Comparison | MedicareYourself",
     description:
-      "Tampa Medicare agent Anthony Orner compares Supplement and Advantage plans across top Florida carriers. No cost, no obligation. Request your free quote now.",
+      "Tampa medicare agent Anthony Orner compares Supplement and Advantage plans across top Florida carriers. No cost, no obligation. Request your free quote now.",
   },
 };
 
@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Tampa Medicare Agent",
-      item: "https://www.medicareyourself.com/services/tampa-medicare-agent",
+      item: "https://medicareyourself.com/services/tampa-medicare-agent",
     },
   ],
 };
@@ -51,48 +51,47 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  mainEntityOfPage:
-    "https://www.medicareyourself.com/services/tampa-medicare-agent",
+  datePublished: "2025-07-14",
+  dateModified: "2025-07-14",
 };
 
 const faqs = [
   {
     question: "Does it cost anything to use a Tampa Medicare agent?",
     answer:
-      "No. Licensed Medicare brokers are paid by the insurance carrier, not by you. Our plan comparisons and consultations are completely free with no obligation.",
+      "No. Licensed Medicare brokers are paid by the insurance carriers, not by you. Our plan comparisons and consultations are completely free with no obligation.",
   },
   {
     question:
-      "What is the difference between an independent broker and a captive agent?",
+      "What is the difference between a Medicare broker and a captive agent in Tampa?",
     answer:
-      "A captive agent represents one insurance company and can only show you that company's plans. An independent broker like Anthony Orner works with multiple carriers, so you see a broader range of options and pricing.",
-  },
-  {
-    question:
-      "When is the best time to enroll in a Medigap plan in Tampa?",
-    answer:
-      "Your Medigap Open Enrollment Period starts the month you turn 65 and are enrolled in Part B. It lasts 6 months. During this window, carriers cannot deny you coverage or charge higher premiums based on health. Applying early - up to 6 months before your Part B start date - can lock in the best rate.",
+      "A captive agent represents one carrier and can only show you that company's plans. An independent broker like Anthony Orner compares plans across multiple carriers so you can see the full picture before choosing.",
   },
   {
     question:
       "Does Florida use attained-age or issue-age rating for Medigap?",
     answer:
-      "Most Florida Medigap carriers use attained-age rating. That means your premium can increase as you get older, which is why locking in a plan early during your open enrollment window matters so much in this state.",
+      "Florida uses attained-age rating for most Medigap policies. That means your premium can increase as you get older, which makes choosing the right plan and timing your enrollment especially important.",
+  },
+  {
+    question:
+      "When is the best time to enroll in a Medigap plan in Tampa?",
+    answer:
+      "Your Medigap Open Enrollment Period starts the month you turn 65 and are enrolled in Part B. During this 6-month window, carriers cannot deny you or charge more for health conditions. Apply up to 6 months before your Part B start date to lock in your rate.",
   },
 ];
 
 export default function TampaMedicareAgent() {
   return (
-    <main className="max-w-4xl mx-auto px-4 py-8">
-      <SchemaMarkup schema={breadcrumbSchema} />
-      <SchemaMarkup schema={articleSchema} />
+    <main className="max-w-3xl mx-auto px-4 py-8">
+      <SchemaMarkup schema={[breadcrumbSchema, articleSchema]} />
 
       <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
         <Link href="/" className="hover:underline">
@@ -106,162 +105,165 @@ export default function TampaMedicareAgent() {
         <span className="text-gray-700">Tampa Medicare Agent</span>
       </nav>
 
-      <h1 className="text-3xl font-bold mb-4">
+      <h1 className="text-3xl md:text-4xl font-bold mb-4">
         Tampa Medicare Agent: Licensed Broker Help for Supplement and Advantage
         Plans
       </h1>
 
       <Image
-        src="/images/tampa-medicare-agent.webp"
-        alt="Tampa Medicare agent helping with plan comparison"
+        src="/images/hub_tampa-medicare-agent.webp"
+        alt="Tampa medicare agent"
         width={800}
         height={400}
-        className="rounded-lg mb-6 w-full"
+        className="w-full rounded-lg mb-6"
+        priority
       />
 
       <p className="text-lg mb-2">
-        A Tampa Medicare agent can save you real money by comparing Supplement
-        and Advantage plans across every major Florida carrier. I'm Anthony
-        Orner, a licensed independent Medicare broker, and I do this comparison
-        for Tampa-area residents at no cost to you.
+        A Tampa medicare agent who works independently can show you plans from
+        multiple carriers side by side, not just one company's lineup. I'm
+        Anthony Orner, a licensed broker serving Hillsborough County and the
+        greater Tampa Bay area.
       </p>
-      <p className="mb-6">
-        The carriers pay me, not you. That means you get unbiased help choosing
-        the right plan for your budget and doctors.
+      <p className="text-lg mb-6">
+        My comparisons cost you nothing. Carriers pay me directly, so my only
+        job is finding the plan that actually fits your situation.
       </p>
 
       <PhoneCTA />
 
-      <section className="mt-10 mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
           How a Tampa Medicare broker differs from a captive agent
         </h2>
         <p className="mb-2">
-          A captive agent works for one insurance company. They can only show you
-          that company's plans, even if a competitor offers the same coverage for
-          less.
+          A captive agent sells for one insurance company. If that company's Plan
+          G costs $40 more per month than a competitor's identical Plan G, they
+          can't tell you. An independent broker can.
         </p>
         <p>
-          As an independent broker, I quote plans from multiple carriers side by
-          side. You see all the options. You pick the one that fits.
+          I compare rates across top Florida carriers for every client. Same
+          standardized benefits, different premiums. That difference adds up fast.
         </p>
       </section>
 
-      <section className="mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
           Medicare Supplement and Advantage plans available in Hillsborough
           County
         </h2>
-        <p className="mb-2">Tampa residents in Hillsborough County have access to:</p>
-        <ul className="list-disc pl-6 space-y-1 mb-2">
+        <ul className="list-disc pl-6 space-y-2">
           <li>
-            <strong>Medicare Supplement (Medigap)</strong> - Plan G, Plan N, and
-            others that cover gaps Original Medicare leaves behind, like the
-            $1,676 Part A deductible and 20% Part B coinsurance
+            <strong>Medigap Plan G:</strong> Covers everything Original Medicare
+            doesn't except the Part B deductible ($283/year in 2026). Most
+            popular Supplement in Tampa.
           </li>
           <li>
-            <strong>Medicare Advantage (Part C)</strong> - HMO and PPO plans
-            that may bundle prescription drug coverage, dental, and vision into
-            one plan
+            <strong>Medigap Plan N:</strong> Lower premium than G, but you'll pay
+            small copays at office visits and the Part B deductible.
           </li>
           <li>
-            <strong>Part D prescription drug plans</strong> - Standalone drug
-            coverage paired with Original Medicare and a Supplement
+            <strong>Medicare Advantage (Part C):</strong> Bundles hospital, medical, and
+            often drug coverage into one plan. Many Tampa HMO and PPO options
+            carry $0 premiums but use provider networks.
+          </li>
+          <li>
+            <strong>Part D:</strong> Standalone prescription drug plan, paired
+            with Original Medicare and a Supplement.
           </li>
         </ul>
-        <p>
-          I'll walk you through which combination works best based on your
-          prescriptions, preferred doctors, and monthly budget.
-        </p>
       </section>
 
-      <section className="mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
           Florida's attained-age rating and why it affects your premium
         </h2>
         <p className="mb-2">
-          Florida carriers typically use attained-age pricing for Medigap plans.
-          Your premium starts based on your current age and increases as you get
-          older.
+          Florida allows attained-age pricing on Medigap policies. Your premium
+          starts based on your current age and rises as you get older. A plan
+          that costs $130/month at 65 could cost $200+ at 75 with the same
+          carrier.
         </p>
         <p>
-          This is why timing matters. The younger you are when you enroll, the
-          lower your starting rate. Waiting even a year can mean a higher premium
-          for the exact same plan.
+          This makes your initial carrier choice critical. I show you each
+          company's rate history so you're not surprised five years from now.
         </p>
       </section>
 
-      <section className="mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
-          Why your Medigap open enrollment window is critical
+          Why timing matters for Medigap enrollment in Tampa
         </h2>
         <p className="mb-2">
           Your Medigap Open Enrollment Period lasts 6 months, starting the month
           you're both 65 and enrolled in Part B. During this window, no carrier
-          can turn you down or charge more because of a health condition.
+          in Florida can reject you or charge more for pre-existing conditions.
         </p>
         <p>
-          My practice is to have clients apply up to 6 months before their Part
-          B start date. This locks in the rate early and protects you from
-          premium increases before coverage even begins. The sooner you lock in,
-          the better your rate.
+          Miss it, and carriers can underwrite you. Apply up to 6 months before
+          your Part B start date to lock in the best rate.
         </p>
       </section>
 
-      <section className="mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
-          What to expect when we work together
+          Local hospitals and networks to consider
         </h2>
-        <ul className="list-disc pl-6 space-y-1">
-          <li>A 15-minute call to review your medications, doctors, and budget</li>
-          <li>A side-by-side comparison of plans from multiple carriers</li>
-          <li>A clear recommendation with no pressure to buy</li>
-          <li>Free help with enrollment paperwork if you choose a plan</li>
-        </ul>
+        <p className="mb-2">
+          If you use Tampa General Hospital, AdventHealth Tampa, or St. Joseph's
+          Hospital, your plan choice matters. Original Medicare with a Supplement
+          works at any provider that accepts Medicare. Advantage plans may
+          restrict you to specific networks in Hillsborough County.
+        </p>
+        <p>
+          I verify network access for your doctors before recommending any
+          Advantage plan.
+        </p>
       </section>
 
-      <section className="mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
           Get a free Tampa Medicare quote in minutes
         </h2>
         <p className="mb-2">
-          Whether you're turning 65, retiring, or just reviewing your current
-          coverage during Open Enrollment (October 15 through December 7), I can
-          run a free comparison in minutes.
+          Call me directly. I'll ask a few questions about your doctors, prescriptions, and budget, then pull quotes from multiple carriers. The whole call usually takes about 15 minutes.
         </p>
         <p>
-          Call me directly or request a quote online. There's no cost and no
-          obligation.
+          No pressure, no obligation. If the plan you have now is already the
+          best fit, I'll tell you that too.
         </p>
       </section>
 
-      <div className="bg-blue-600 text-white rounded-lg p-6 text-center my-10">
-        <p className="text-xl font-bold mb-2">
-          Talk to a Licensed Tampa Medicare Agent Today
+      <div className="mt-10 bg-blue-600 text-white rounded-lg p-6 text-center">
+        <p className="text-xl font-semibold mb-2">
+          Ready to compare Tampa Medicare plans?
         </p>
-        <p className="mb-4">
+        <p className="text-lg mb-4">
           Call{" "}
-          <a href="tel:8555591700" className="underline font-semibold">
+          <a href="tel:8555591700" className="underline font-bold">
             855-559-1700
           </a>{" "}
           or{" "}
-          <Link href="/contact" className="underline font-semibold">
-            Get a Free Quote
+          <Link href="/quote" className="underline font-bold">
+            get a free quote online
           </Link>
+          .
         </p>
       </div>
 
-      <FAQSection faqs={faqs} />
+      <section className="mt-12">
+        <FAQSection faqs={faqs} />
+      </section>
 
-      <section className="mt-10">
+      <section className="mt-12">
         <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
         <ul className="space-y-2">
           <li>
             <Link
-              href="/medicare-guides/medicare-supplement-plan-g"
+              href="/medicare-guides/medigap-plan-g"
               className="text-blue-600 hover:underline"
             >
-              Medicare Supplement Plan G: Full Breakdown
+              Medigap Plan G: What It Covers and What It Costs
             </Link>
           </li>
           <li>
@@ -274,18 +276,18 @@ export default function TampaMedicareAgent() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/when-to-enroll-in-medicare"
+              href="/medicare-guides/florida-medigap-rules"
               className="text-blue-600 hover:underline"
             >
-              When to Enroll in Medicare: Key Dates and Deadlines
+              Florida Medigap Rules and Enrollment Windows
             </Link>
           </li>
           <li>
             <Link
-              href="/services/florida-medicare-broker"
+              href="/medicare-guides/part-b-enrollment"
               className="text-blue-600 hover:underline"
             >
-              Florida Medicare Broker: Statewide Plan Comparison
+              When to Enroll in Medicare Part B
             </Link>
           </li>
         </ul>

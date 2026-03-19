@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Medicare Broker for Knee Replacement Patients",
-      item: "https://www.medicareyourself.com/services/medicare-broker-for-knee-replacement-patients",
+      item: "https://medicareyourself.com/services/medicare-broker-for-knee-replacement-patients",
     },
   ],
 };
@@ -51,7 +51,7 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
@@ -66,29 +66,28 @@ const faqs = [
   {
     question: "Does Medicare pay 100% of knee replacement surgery?",
     answer:
-      "No. Under Original Medicare, Part A covers the hospital stay after you meet the $1,676 deductible per benefit period. Part B covers surgeon fees at 80% after your $283 annual deductible - you owe the remaining 20%. A Medigap plan like Plan G can cover most or all of those out-of-pocket costs.",
+      "No. Under Original Medicare, Part A covers the hospital stay after you pay the $1,676 deductible per benefit period. Part B covers the surgeon's fee at 80% after your $283 annual deductible. Without a Medigap plan, you're responsible for the remaining 20% coinsurance on Part B services, which can add up to thousands of dollars on a major surgery.",
   },
   {
     question: "Will Medicare pay for knee replacement after age 70?",
     answer:
-      "Yes. Medicare has no age limit for knee replacement surgery. The procedure must be deemed medically necessary by your doctor, but age alone is never a reason for denial.",
+      "Yes. Medicare has no age limit on knee replacement coverage. The only requirement is that your doctor documents the procedure as medically necessary. Whether you're 66 or 86, the same coverage rules apply.",
   },
   {
-    question:
-      "Does Medicare cover physical therapy at home after knee replacement?",
+    question: "What is the average out-of-pocket cost for knee replacement with Medicare?",
     answer:
-      "If you qualify for Medicare home health services, Part A covers in-home physical therapy at no cost to you. If you receive outpatient PT instead, Part B covers it at 80% after your deductible - meaning you'll owe 20% per session unless you have supplemental coverage.",
+      "Costs vary by location, facility, and your coverage type. With Original Medicare alone, you could owe the Part A deductible ($1,676), 20% of the surgeon and anesthesia fees under Part B, and significant skilled nursing costs if rehab extends past 20 days. A Medigap Plan G holder typically pays only the $283 Part B deductible for the entire episode of care.",
   },
   {
-    question: "Should I get a Medigap plan before knee replacement surgery?",
+    question: "Does Medicare cover physical therapy at home after knee replacement?",
     answer:
-      "If you're in your Medigap Open Enrollment Period (6 months starting the month you turn 65 and have Part B), that's your best window - guaranteed issue, no health questions. If that window has passed, options are more limited and may involve medical underwriting. Call us to review your situation before scheduling surgery.",
+      "If you qualify for Medicare home health services, Part A covers in-home physical therapy at no cost to you when ordered by your doctor. Outpatient PT at a clinic falls under Part B, where you'll pay 20% coinsurance per session after meeting the $283 deductible. Each session can run around $150 before Medicare adjustments, so those costs add up fast without supplemental coverage.",
   },
 ];
 
-export default function MedicareBrokerForKneeReplacementPatients() {
+export default function MedicareBrokerKneReplacementPage() {
   return (
-    <main className="max-w-4xl mx-auto px-4 py-8">
+    <main className="max-w-3xl mx-auto px-4 py-8">
       <SchemaMarkup schema={breadcrumbSchema} />
       <SchemaMarkup schema={articleSchema} />
 
@@ -106,163 +105,160 @@ export default function MedicareBrokerForKneeReplacementPatients() {
         </span>
       </nav>
 
-      <div className="bg-[#1e40af] rounded-lg p-6 mb-8">
-        <h1 className="text-3xl md:text-4xl font-bold text-white mb-4">
-          Medicare Broker for Knee Replacement Patients: Plan the Coverage
-          Before You Plan the Surgery
-        </h1>
-        <Image
-          src="/images/medicare-broker-for-knee-replacement-patients.webp"
-          alt="Medicare broker for knee replacement patients"
-          width={800}
-          height={400}
-          className="rounded-lg mb-6 w-full"
-        />
-      </div>
+      <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">
+        Medicare Broker for Knee Replacement Patients: Plan the Coverage Before
+        You Plan the Surgery
+      </h1>
 
-      <p className="text-lg mb-2">
-        A Medicare broker for knee replacement patients does one thing most
-        surgeons' offices won't: figure out what your plan actually covers before
-        you're in a hospital gown. I'm Anthony Orner, a licensed Medicare broker,
-        and I help people understand exactly what they'll owe for surgery, rehab,
-        and recovery.
+      <Image
+        src="/images/hub_medicare-broker-for-knee-replacement-patients.webp"
+        alt="Medicare broker for knee replacement patients"
+        width={800}
+        height={400}
+        className="w-full rounded-lg mb-6"
+        priority
+      />
+
+      <p className="text-lg text-gray-700 mb-2">
+        A Medicare broker for knee replacement patients does one thing your
+        surgeon's office won't: review your actual coverage before you're wheeled
+        into the OR. I'm Anthony Orner, a licensed broker who helps people
+        understand exactly what they'll owe for the hospital stay, the rehab, and
+        the weeks of physical therapy that follow.
       </p>
-      <p className="text-lg mb-6">
-        The surgery itself isn't where people get blindsided. It's the weeks
-        after - skilled nursing, physical therapy, the 20% coinsurance that
-        stacks up fast.
+      <p className="text-lg text-gray-700 mb-6">
+        The wrong plan can cost you thousands in surprise bills. The right plan
+        can reduce your out-of-pocket to almost nothing.
       </p>
 
       <PhoneCTA />
 
-      <section className="mt-10 mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
           What Original Medicare covers for total knee replacement
         </h2>
-        <p className="mb-2">
-          Medicare Part A covers your inpatient hospital stay once you meet the
-          $1,676 deductible per benefit period. Part B covers the surgeon, the
-          anesthesiologist, and outpatient services at 80% after a $283 yearly
-          deductible.
+        <p className="text-gray-700 mb-2">
+          Medicare only covers knee replacement when your doctor documents it as
+          medically necessary. Once approved, here's how the costs break down:
         </p>
-        <p>
-          Your knee replacement must be deemed medically necessary by your
-          doctor. Age is not a factor - Medicare covers this surgery whether
-          you're 66 or 86.
-        </p>
-      </section>
-
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Skilled nursing and rehab: where the real costs add up
-        </h2>
-        <p className="mb-2">
-          If you need a skilled nursing facility after surgery, Medicare covers
-          days 1 through 20 with zero coinsurance. Days 21 through 100 cost you
-          $209.50 per day. After day 100, you pay everything.
-        </p>
-        <p>
-          Outpatient PT runs roughly $150 per session. At two sessions a week for
-          8 to 10 weeks, you're looking at 20% of $2,400 to $3,000 under
-          Original Medicare alone. That math catches people off guard.
-        </p>
-      </section>
-
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Medigap vs. Advantage for major orthopedic surgery
-        </h2>
-        <ul className="list-disc pl-6 space-y-2">
+        <ul className="list-disc pl-6 text-gray-700 space-y-1 mb-2">
           <li>
-            <strong>Medigap Plan G</strong> covers the Part A deductible, the
-            Part B 20% coinsurance, and skilled nursing coinsurance. Your only
-            out-of-pocket cost is the $283 Part B deductible. One person on
-            Reddit had Plan G and was surprised to learn that's genuinely all
-            they owed.
+            <strong>Part A</strong> covers the hospital stay after you pay the
+            $1,676 deductible per benefit period
           </li>
           <li>
-            <strong>Medicare Advantage</strong> plans cap your yearly
-            out-of-pocket spending, but often require prior authorization, network
-            surgeons, and specific rehab facilities. Check the plan's maximum
-            out-of-pocket carefully - it can run $3,000 to $8,000+.
+            <strong>Part B</strong> covers the surgeon, anesthesiologist, and
+            outpatient services at 80% after your $283 annual deductible
           </li>
           <li>
-            <strong>Original Medicare with no supplement</strong> leaves you
-            exposed to the Part A deductible, 20% of all Part B charges, and up
-            to $209.50/day in skilled nursing costs. For a major surgery, that
-            adds up quickly.
+            That remaining 20% on a $30,000+ surgery is real money
           </li>
         </ul>
       </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Why timing your plan change matters
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          Skilled nursing and rehab: where the real costs add up
         </h2>
-        <p className="mb-2">
-          If both knees need replacing, you're looking at two separate benefit
-          periods - potentially two Part A deductibles in the same year or across
-          two calendar years. Which plan you have and when your surgery falls can
-          shift your total cost by thousands.
+        <p className="text-gray-700 mb-2">
+          Many knee replacement patients need skilled nursing facility (SNF) care
+          after discharge. Days 1-20 are covered at $0 under Part A. Days 21-100
+          cost you $209.50 per day in 2026 coinsurance.
         </p>
-        <p>
-          If you're still in your Medigap Open Enrollment window, you can lock
-          in a supplement with no health questions. Outside that window, medical
-          underwriting may apply, and a pending surgery can complicate approval.
+        <p className="text-gray-700">
+          That's up to $16,760 if you need the full 100 days. People don't
+          expect this bill. A Medigap plan covers every dollar of it.
         </p>
       </section>
-
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Home health vs. outpatient PT after surgery
-        </h2>
-        <p className="mb-2">
-          If you qualify for Medicare home health services, Part A covers a nurse
-          and physical therapist coming to your house at no cost. That's a real
-          benefit many people don't know about until after they're home and
-          struggling.
-        </p>
-        <p>
-          Outpatient therapy falls under Part B - 80% covered, 20% on you. The
-          distinction between home health and outpatient PT changes your bill
-          significantly. I'll help you understand which you're likely to qualify
-          for.
-        </p>
-      </section>
-
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Schedule a free knee replacement coverage review
-        </h2>
-        <p className="mb-2">
-          Before you lock in a surgery date, let's look at what your current
-          Medicare plan actually covers - and what gaps exist. I'll compare your
-          options, run the numbers on rehab and skilled nursing costs, and tell
-          you straight whether a plan change makes sense.
-        </p>
-        <p>No cost. No obligation. Just clarity before a big decision.</p>
-      </section>
-
-      <div className="bg-blue-600 text-white rounded-lg p-6 mb-10 text-center">
-        <p className="text-xl font-semibold mb-2">
-          Talk to a Medicare broker who understands surgical coverage
-        </p>
-        <p className="text-lg mb-4">
-          Call{" "}
-          <a href="tel:8555591700" className="underline font-bold">
-            855-559-1700
-          </a>{" "}
-          or{" "}
-          <Link href="/get-a-free-quote" className="underline font-bold">
-            Get a Free Quote
-          </Link>
-        </p>
-      </div>
-
-      <FAQSection faqs={faqs} />
 
       <section className="mt-10">
-        <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          Outpatient physical therapy costs most people miss
+        </h2>
+        <p className="text-gray-700 mb-2">
+          Your surgeon will likely prescribe 8-10 weeks of PT, twice a week.
+          Each session runs about $150 before Medicare adjustments. Under Part B,
+          you pay 20% coinsurance per visit.
+        </p>
+        <p className="text-gray-700">
+          Over two months, that's $500+ out of pocket with Original Medicare
+          alone. With Medigap Plan G, you pay $0 after your annual deductible.
+        </p>
+      </section>
+
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          Medigap vs. Advantage for major orthopedic surgery
+        </h2>
+        <p className="text-gray-700 mb-2">
+          Medicare Advantage plans cap your yearly out-of-pocket, which sounds
+          great. But many Advantage plans require prior authorization, limit
+          which surgeons you can see, and charge copays at every stage: hospital,
+          SNF, PT visits.
+        </p>
+        <p className="text-gray-700">
+          Medigap Plan G paired with Original Medicare gives you the widest
+          surgeon choice and the most predictable costs. For a planned surgery
+          this significant, predictability matters.
+        </p>
+      </section>
+
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          If you need both knees done
+        </h2>
+        <p className="text-gray-700 mb-2">
+          Surgeons typically schedule each knee months apart. That means two
+          hospital stays, two rounds of rehab, and potentially two Part A
+          deductibles if they fall in separate benefit periods.
+        </p>
+        <p className="text-gray-700">
+          Getting the right supplemental plan before the first surgery protects
+          you for both. Timing your enrollment matters as much as timing the
+          procedure.
+        </p>
+      </section>
+
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          Schedule a free knee replacement coverage review
+        </h2>
+        <p className="text-gray-700 mb-2">
+          I'll pull up your current coverage, walk through the hospital, rehab,
+          and PT costs specific to your situation, and show you exactly what
+          you'll owe under each plan option. No cost, no obligation.
+        </p>
+        <p className="text-gray-700">
+          Call before your pre-op appointment. That's when this conversation
+          helps most.
+        </p>
+      </section>
+
+      <div className="mt-10 bg-blue-600 text-white rounded-lg p-6 text-center">
+        <p className="text-xl font-semibold mb-2">
+          Talk to Anthony about your knee replacement coverage
+        </p>
+        <p className="text-3xl font-bold mb-3">
+          <a href="tel:8555591700" className="hover:underline">
+            855-559-1700
+          </a>
+        </p>
+        <Link
+          href="/contact"
+          className="inline-block bg-white text-blue-600 font-semibold px-6 py-2 rounded-md hover:bg-blue-50 transition"
+        >
+          Get a Free Quote
+        </Link>
+      </div>
+
+      <section className="mt-12">
+        <FAQSection faqs={faqs} />
+      </section>
+
+      <section className="mt-12">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-4">
+          Related resources
+        </h2>
         <ul className="space-y-2">
           <li>
             <Link
@@ -277,7 +273,7 @@ export default function MedicareBrokerForKneeReplacementPatients() {
               href="/medicare-guides/medicare-advantage-vs-medigap"
               className="text-blue-600 hover:underline"
             >
-              Medicare Advantage vs. Medigap: Which Is Better for You?
+              Medicare Advantage vs. Medigap: Which Is Better for Surgery?
             </Link>
           </li>
           <li>
@@ -285,7 +281,7 @@ export default function MedicareBrokerForKneeReplacementPatients() {
               href="/medicare-guides/skilled-nursing-facility-coverage"
               className="text-blue-600 hover:underline"
             >
-              Medicare Skilled Nursing Facility Coverage Explained
+              How Medicare Covers Skilled Nursing Facility Stays
             </Link>
           </li>
           <li>
@@ -298,10 +294,6 @@ export default function MedicareBrokerForKneeReplacementPatients() {
           </li>
         </ul>
       </section>
-
-      <p className="text-sm text-gray-500 mt-10">
-        Written by Anthony Orner, Licensed Medicare Broker | EasyKind Medicare
-      </p>
     </main>
   );
 }

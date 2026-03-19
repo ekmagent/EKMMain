@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/services",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Enroll in Medicare Supplement Plan G at 67",
-      item: "https://www.medicareyourself.com/services/enroll-in-medicare-supplement-plan-g-at-67",
+      item: "https://medicareyourself.com/services/enroll-in-medicare-supplement-plan-g-at-67",
     },
   ],
 };
@@ -51,7 +51,7 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
@@ -64,39 +64,39 @@ const articleSchema = {
 
 const faqs = [
   {
-    question: "Can you enroll in Medicare Supplement Plan G at any time?",
+    question: "Can I get Plan G at 67 without answering health questions?",
     answer:
-      "Not without conditions. Your federal Medigap Open Enrollment Period lasts 6 months starting when you're 65+ and enrolled in Part B. Outside that window, carriers can require medical underwriting. Certain guaranteed issue events - like losing employer coverage or leaving a Medicare Advantage plan - may also qualify you. At 67, underwriting is the most common path unless you have a qualifying event.",
+      "Only if you have a federal guaranteed issue right, such as losing employer coverage, leaving a Medicare Advantage plan during your first year, or your current carrier going bankrupt. Without one of those triggers, carriers will use medical underwriting at age 67.",
   },
   {
-    question: "Is Plan G more expensive at 67 than at 65?",
+    question: "What is the biggest mistake seniors make when enrolling in Medicare?",
     answer:
-      "Usually, yes. Most carriers use attained-age pricing, meaning your premium rises as you get older. Enrolling two years later means a higher starting rate. The difference varies by carrier and location, but waiting generally costs more per month for the life of the policy.",
+      "Waiting too long to apply for a Medigap plan. Your 6-month Medigap Open Enrollment Period starts the month you turn 65 and have Part B. Miss that window and you'll face underwriting, higher premiums, or possible denial when you apply later.",
   },
   {
-    question: "What does Plan G cover that Original Medicare doesn't?",
+    question: "Is Plan G the same benefits no matter which company sells it?",
     answer:
-      "Plan G covers the Part A deductible ($1,676 per benefit period in 2026), Part B excess charges, skilled nursing facility coinsurance ($209.50/day for days 21-100), and your 20% Part B coinsurance. The only thing you pay out of pocket is the annual Part B deductible of $283.",
+      "Yes. Plan G is federally standardized, so the medical benefits are identical across every carrier. The difference is the premium, long-term rate stability, and customer service. That's why carrier selection matters more than most people realize.",
   },
   {
-    question: "Do I need a broker to apply for Plan G at 67?",
+    question: "How much does Plan G cost at 67?",
     answer:
-      "You don't need one, but a broker can compare rates across multiple carriers at no cost to you. Since you'll likely face underwriting at 67, a broker knows which carriers are most favorable for your health profile and can help you avoid unnecessary denials.",
+      "Rates vary by carrier, your zip code, gender, and tobacco use. At 67, expect to pay more than someone who enrolled at 65 because most carriers use attained-age pricing. Call 855-559-1700 for a personalized quote.",
   },
 ];
 
 export default function EnrollInMedicareSupplementPlanGAt67() {
   return (
-    <main className="max-w-4xl mx-auto px-4 py-8">
+    <>
       <SchemaMarkup schema={breadcrumbSchema} />
       <SchemaMarkup schema={articleSchema} />
 
-      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
+      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-4">
         <Link href="/" className="hover:underline">
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/services" className="hover:underline">
+        <Link href="/medicare-guides" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -105,207 +105,173 @@ export default function EnrollInMedicareSupplementPlanGAt67() {
         </span>
       </nav>
 
-      <h1 className="text-3xl font-bold mb-4">
-        Enroll in Medicare Supplement Plan G at 67: Eligibility, Rates, and Next
-        Steps
-      </h1>
+      <article className="max-w-3xl mx-auto">
+        <h1 className="text-3xl md:text-4xl font-bold mb-4">
+          Enroll in Medicare Supplement Plan G at 67: Eligibility, Rates, and Next Steps
+        </h1>
 
-      <Image
-        src="/images/enroll-in-medicare-supplement-plan-g-at-67.webp"
-        alt="Enroll in Medicare Supplement Plan G at 67"
-        width={800}
-        height={400}
-        className="rounded-lg mb-6 w-full"
-      />
+        <Image
+          src="/images/hub_enroll-in-medicare-supplement-plan-g-at-67.webp"
+          alt="Enroll in Medicare Supplement Plan G at 67"
+          width={800}
+          height={400}
+          className="w-full rounded-lg mb-6"
+          priority
+        />
 
-      <p className="text-lg mb-2">
-        Enrolling in Medicare Supplement Plan G at 67 is absolutely doable, but
-        the rules are different than they were at 65. You've missed your federal
-        Medigap Open Enrollment Period, which means most carriers will ask health
-        questions before approving you.
-      </p>
-      <p className="text-lg mb-6">
-        That doesn't mean you're out of options. It means you need to be
-        strategic about how and where you apply. I'm Anthony Orner, a licensed
-        Medicare broker in NJ, and I help people in exactly this situation every
-        week.
-      </p>
+        <p className="text-lg mb-2">
+          Enrolling in Medicare Supplement Plan G at 67 is absolutely possible, but the rules are different than they were at 65. You've missed your Medigap Open Enrollment Period, which means carriers can now ask health questions before they accept you.
+        </p>
+        <p className="text-lg mb-6">
+          That doesn't mean you're out of luck. It just means you need the right approach. I'm Anthony Orner, and I help people in exactly this situation every week.
+        </p>
 
-      <PhoneCTA />
+        <PhoneCTA />
 
-      <section className="mt-10 mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Are you guaranteed issue for Plan G at age 67?
-        </h2>
-        <p className="mb-3">
-          Under federal law, your guaranteed issue Medigap window is 6 months
-          long. It starts the month you're both 65 or older and enrolled in Part
-          B. At 67, that window has typically closed.
-        </p>
-        <p>
-          However, specific events can reopen guaranteed issue rights. If you're
-          losing employer or union coverage, leaving a Medicare Advantage plan,
-          or your current plan is ending, you may qualify. Outside of those
-          triggers, you'll go through medical underwriting.
-        </p>
-      </section>
+        <section className="mt-10 mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Are you guaranteed issue for Plan G at age 67?
+          </h2>
+          <p className="mb-3">
+            Your federal Medigap Open Enrollment Period is a one-time, 6-month window that starts the month you turn 65 and have Part B. At 67, that window has closed.
+          </p>
+          <p className="mb-3">
+            However, you may still qualify for guaranteed issue rights if one of these applies:
+          </p>
+          <ul className="list-disc pl-6 space-y-1 mb-3">
+            <li>You're losing employer or union group health coverage</li>
+            <li>You left a Medicare Advantage plan within the first 12 months</li>
+            <li>Your Medigap carrier went bankrupt or violated its contract</li>
+            <li>You moved out of your plan's service area</li>
+          </ul>
+          <p>
+            If none of those apply, you'll go through medical underwriting. Rules also vary by state, so call to confirm your specific situation.
+          </p>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          What Plan G costs at 67 vs. enrolling earlier
-        </h2>
-        <p className="mb-3">
-          Most Medigap carriers use attained-age rating. That means your premium
-          is based on your current age. Enrolling at 67 instead of 65 means a
-          higher starting premium, and that gap compounds over time.
-        </p>
-        <p>
-          Rates vary by carrier and zip code, so there's no single number. But
-          the pattern is consistent: the longer you wait, the more you pay
-          monthly for identical benefits. I can pull real quotes for your area so
-          you see exact numbers.
-        </p>
-      </section>
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            What Plan G costs at 67 vs. enrolling earlier
+          </h2>
+          <p className="mb-3">
+            Most carriers use attained-age pricing. That means your premium goes up as you get older. Someone who enrolled Plan G at 65 locked in a lower starting rate. At 67, your starting premium will be higher simply because of your age.
+          </p>
+          <p>
+            But here's what people really miss: the starting premium isn't the whole story. Block rate increases can stack on top of age increases, producing 10-18% jumps in a single year. Picking the right carrier with stable long-term rate behavior matters far more than chasing the cheapest price today.
+          </p>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Medical underwriting at 67: what carriers look for
-        </h2>
-        <p className="mb-3">
-          Underwriting means the insurance company reviews your health history
-          before deciding to accept you. Common questions include:
-        </p>
-        <ul className="list-disc pl-6 space-y-1 mb-3">
-          <li>Current medications and dosages</li>
-          <li>Recent hospitalizations or surgeries</li>
-          <li>Chronic conditions like diabetes, COPD, or heart disease</li>
-          <li>Cancer history and treatment timeline</li>
-          <li>Height and weight</li>
-        </ul>
-        <p>
-          Every carrier draws different lines. One might decline you for a
-          condition another will accept. This is where working with a broker
-          matters - I know which carriers are lenient on specific health
-          profiles.
-        </p>
-      </section>
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Medical underwriting at 67: what carriers look for
+          </h2>
+          <p className="mb-3">
+            Outside of guaranteed issue, carriers will ask about your health history. Common disqualifiers include recent cancer treatment, insulin-dependent diabetes, COPD requiring oxygen, and certain heart conditions.
+          </p>
+          <p>
+            Managed blood pressure or cholesterol meds? That usually isn't a problem. Every carrier draws its own lines, which is exactly why working with a broker who knows each company's underwriting guidelines saves you from wasting applications and getting unnecessary denials on your record.
+          </p>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Why the carrier matters as much as the letter
-        </h2>
-        <p className="mb-3">
-          Plan G is standardized by the federal government. The benefits are
-          identical no matter which company sells it. What's not identical is
-          long-term rate behavior.
-        </p>
-        <p>
-          Some carriers price low to attract new customers, then raise rates
-          aggressively once their block of policyholders ages. When age-based
-          increases and block rate increases stack together, you can see 10-18%
-          jumps in a single year. I focus on carriers with stable rate histories,
-          not just the cheapest first-year premium.
-        </p>
-      </section>
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Why Plan G is still worth it at 67
+          </h2>
+          <p className="mb-3">
+            Plan G covers everything Original Medicare doesn't except the Part B deductible ($283/year in 2026). That means no copays for doctor visits, no surprise bills after surgery, and no daily cost for skilled nursing days 21-100 (otherwise $209.50/day).
+          </p>
+          <p>
+            You also keep full freedom to see any doctor in the country who accepts Medicare. No networks. No referrals.
+          </p>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          What Plan G actually covers for you
-        </h2>
-        <p className="mb-3">
-          With Plan G and Original Medicare, your only annual out-of-pocket cost
-          is the $283 Part B deductible (2026). After that, Plan G picks up:
-        </p>
-        <ul className="list-disc pl-6 space-y-1">
-          <li>Part A hospital deductible - $1,676 per benefit period</li>
-          <li>Skilled nursing coinsurance - $209.50/day for days 21-100</li>
-          <li>Part B coinsurance (the 20% you'd otherwise owe)</li>
-          <li>Part B excess charges</li>
-          <li>Foreign travel emergency care (80%)</li>
-        </ul>
-      </section>
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Don't forget Part D
+          </h2>
+          <p>
+            Plan G does not include prescription drug coverage. You'll need a standalone Part D plan alongside it. If you delayed Part D past your initial enrollment and didn't have creditable drug coverage, you could face a late enrollment penalty. Let's check that when we talk.
+          </p>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          How to apply for Plan G at 67 with a broker's help
-        </h2>
-        <p className="mb-3">
-          Here's what the process looks like when you call me:
-        </p>
-        <ul className="list-disc pl-6 space-y-1 mb-3">
-          <li>Quick health review to identify which carriers will likely approve you</li>
-          <li>Side-by-side rate comparison across multiple carriers in your area</li>
-          <li>Application submitted to the carrier with the best fit for your situation</li>
-          <li>No cost to you - carriers pay my commission, not you</li>
-        </ul>
-        <p>
-          The whole conversation usually takes about 15 minutes. If you qualify,
-          we can have your application in the same day.
-        </p>
-      </section>
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            How to apply for Plan G at 67 with a broker's help
+          </h2>
+          <p className="mb-3">
+            I compare rates across multiple carriers, match your health profile to the companies most likely to approve you, and handle the paperwork. My service costs you nothing extra. Carriers pay me, not you.
+          </p>
+          <ul className="list-disc pl-6 space-y-1">
+            <li>Call <strong>855-559-1700</strong> for a free rate comparison</li>
+            <li>I'll review your health history and guaranteed issue eligibility</li>
+            <li>We pick the carrier with the best long-term rate track record for your situation</li>
+            <li>I submit your application and follow up until you're approved</li>
+          </ul>
+        </section>
 
-      <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 mb-10 text-center">
-        <p className="text-lg font-semibold mb-2">
-          Ready to see your Plan G rates at 67?
-        </p>
-        <p className="mb-4">
-          Call{" "}
-          <a
-            href="tel:8555591700"
-            className="text-blue-700 font-bold hover:underline"
-          >
-            855-559-1700
-          </a>{" "}
-          or{" "}
-          <Link
-            href="/contact"
-            className="text-blue-700 font-bold hover:underline"
-          >
-            get a free quote online
-          </Link>
-          . No obligation. No pressure.
-        </p>
-      </div>
-
-      <FAQSection faqs={faqs} />
-
-      <section className="mt-10">
-        <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
-        <ul className="space-y-2">
-          <li>
-            <Link
-              href="/services/medicare-supplement-plan-g"
-              className="text-blue-700 hover:underline"
+        <div className="bg-blue-600 text-white rounded-lg p-6 text-center my-10">
+          <p className="text-xl font-semibold mb-2">
+            Ready to see your Plan G rates at 67?
+          </p>
+          <p className="mb-4">
+            Call{" "}
+            <a
+              href="tel:8555591700"
+              className="underline font-bold text-white"
             >
-              Medicare Supplement Plan G: Full Benefits Guide
-            </Link>
-          </li>
-          <li>
+              855-559-1700
+            </a>{" "}
+            or{" "}
             <Link
-              href="/services/medigap-open-enrollment-period"
-              className="text-blue-700 hover:underline"
+              href="/quote"
+              className="underline font-bold text-white"
             >
-              Understanding Your Medigap Open Enrollment Period
+              get a free quote online
             </Link>
-          </li>
-          <li>
-            <Link
-              href="/services/plan-g-vs-plan-n"
-              className="text-blue-700 hover:underline"
-            >
-              Plan G vs. Plan N: Which Is Right for You?
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/services/medicare-supplement-underwriting"
-              className="text-blue-700 hover:underline"
-            >
-              Medicare Supplement Underwriting: What to Expect
-            </Link>
-          </li>
-        </ul>
-      </section>
-    </main>
+            .
+          </p>
+        </div>
+
+        <FAQSection faqs={faqs} />
+
+        <section className="mt-10 mb-8">
+          <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
+          <ul className="space-y-2">
+            <li>
+              <Link
+                href="/services/medicare-supplement-plan-g"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare Supplement Plan G: Full Benefits Breakdown
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/medigap-open-enrollment-period"
+                className="text-blue-600 hover:underline"
+              >
+                Understanding Your Medigap Open Enrollment Period
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/medicare-supplement-vs-medicare-advantage"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare Supplement vs. Medicare Advantage
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/medicare-part-d-enrollment"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare Part D Enrollment: Deadlines and Penalties
+              </Link>
+            </li>
+          </ul>
+        </section>
+      </article>
+    </>
   );
 }

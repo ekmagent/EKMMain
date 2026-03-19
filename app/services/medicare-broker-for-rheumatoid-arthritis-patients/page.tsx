@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Medicare Broker for Rheumatoid Arthritis Patients",
-      item: "https://www.medicareyourself.com/services/medicare-broker-for-rheumatoid-arthritis-patients",
+      item: "https://medicareyourself.com/services/medicare-broker-for-rheumatoid-arthritis-patients",
     },
   ],
 };
@@ -51,7 +51,7 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
@@ -66,34 +66,34 @@ const faqs = [
   {
     question: "Does Medicare cover biologics for rheumatoid arthritis?",
     answer:
-      "Yes. Biologics administered by infusion at a doctor's office or infusion center (like Remicade or Orencia IV) are typically covered under Medicare Part B. Self-injected biologics like Humira or Enbrel fall under Part D. Coverage details and out-of-pocket costs vary significantly by plan, so comparing formularies before enrolling is critical.",
+      "Yes. Biologics administered by infusion (like Remicade or Orencia) are typically covered under Medicare Part B. Self-injected biologics (like Humira or Enbrel) fall under Part D. Your out-of-pocket cost depends heavily on which plan you choose and which coverage phase you're in.",
   },
   {
     question:
-      "Can I get a Medigap plan if I already have rheumatoid arthritis?",
+      "Can I get a Medigap plan with a pre-existing condition like RA?",
     answer:
-      "During your Medigap Open Enrollment Period (6 months starting the month you turn 65 and have Part B), insurance companies cannot deny you or charge more because of RA. Outside that window, medical underwriting applies in most states, and RA could result in higher premiums or denial. Timing matters enormously.",
+      "During your 6-month Medigap Open Enrollment Period (starting the month you turn 65 and are enrolled in Part B), insurance carriers cannot deny you or charge more because of rheumatoid arthritis. Outside that window, medical underwriting applies in most states, and RA could result in a denial or higher premiums.",
   },
   {
     question:
-      "Medicare Advantage or Medigap - which is better for RA patients?",
+      "Is Medicare Advantage or a Medigap supplement better for RA patients?",
     answer:
-      "It depends on your medications and providers. Medicare Advantage plans may have lower premiums but use networks and prior authorization for specialty drugs. Medigap paired with a standalone Part D plan gives broader provider access and more predictable costs, but premiums are higher. A broker can compare total annual costs for your specific treatment plan.",
+      "It depends on your treatment plan. Medicare Advantage may offer lower premiums and bundled benefits, but prior authorizations and network restrictions can delay access to specialists or biologics. A Medigap supplement with a standalone Part D plan often gives more flexibility, especially if you see multiple specialists or need infusion therapy.",
   },
   {
-    question: "What is the best state for rheumatoid arthritis?",
+    question: "How do I lower my biologic medication costs on Medicare?",
     answer:
-      "There's no single best state for RA. Climate can affect symptoms for some people, but access to rheumatologists and affordable medication coverage matters more. In New Jersey, proximity to major health systems like Hackensack Meridian and RWJBarnabas means strong access to rheumatology specialists and infusion centers.",
+      "Check whether your biologic is covered under Part B (infusion) or Part D (self-injection), compare Part D formularies carefully, look into the Medicare Prescription Payment Plan that spreads costs across 12 months, and ask about manufacturer patient assistance programs. A broker can help you identify the plan with the lowest total annual cost for your specific medications.",
   },
 ];
 
 export default function MedicareBrokerForRheumatoidArthritisPatients() {
   return (
-    <main className="max-w-4xl mx-auto px-4 py-8">
+    <main className="max-w-3xl mx-auto px-4 py-8">
       <SchemaMarkup schema={breadcrumbSchema} />
       <SchemaMarkup schema={articleSchema} />
 
-      <nav className="text-sm text-gray-500 mb-6" aria-label="Breadcrumb">
+      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
         <Link href="/" className="hover:underline">
           Home
         </Link>{" "}
@@ -107,29 +107,30 @@ export default function MedicareBrokerForRheumatoidArthritisPatients() {
         </span>
       </nav>
 
-      <h1 className="text-3xl font-bold mb-4">
+      <h1 className="text-3xl font-bold mb-4 leading-snug">
         Medicare Broker for Rheumatoid Arthritis Patients Who Need a Plan That
         Fights Alongside Them
       </h1>
 
       <Image
-        src="/images/medicare-broker-for-rheumatoid-arthritis-patients.webp"
+        src="/images/hub_medicare-broker-for-rheumatoid-arthritis-patients.webp"
         alt="Medicare broker for rheumatoid arthritis patients"
         width={800}
         height={400}
-        className="rounded-lg mb-6 w-full"
+        className="w-full rounded-lg mb-6"
+        priority
       />
 
       <p className="text-lg mb-2">
         A Medicare broker for rheumatoid arthritis patients does something most
-        plan comparison tools can't: look at your actual medications, your
-        infusion schedule, your rheumatologist, and figure out which plan won't
-        surprise you with a $600 copay on a drug that used to cost $5.
+        plan comparison tools can't: match your specific medications, infusion
+        schedule, and specialist needs to the plan that actually covers them. I'm
+        Anthony Orner, a licensed broker in New Jersey, and I do this work every
+        day for people managing RA on Medicare.
       </p>
       <p className="text-lg mb-6">
-        I'm Anthony Orner, a licensed Medicare broker in New Jersey. I help RA
-        patients compare plans based on how they actually use their coverage -
-        not how insurance companies hope they will.
+        Your alarm goes off and your brain is ready, but your hands and knees
+        have other plans. The plan you pick shouldn't make life harder.
       </p>
 
       <PhoneCTA />
@@ -139,135 +140,137 @@ export default function MedicareBrokerForRheumatoidArthritisPatients() {
           Biologics, joint injections, and the real cost of RA treatment
         </h2>
         <p className="mb-3">
-          RA treatment isn't a generic prescription and a follow-up. It's
-          biologics that cost thousands per dose. It's infusions every 4 to 8
-          weeks. It's joint injections, lab work, physical therapy, and
-          specialist visits that stack up fast.
+          Biologics like Remicade, Humira, Enbrel, Cimzia, and Orencia are often
+          the backbone of RA treatment. How Medicare covers them depends on
+          delivery method:
         </p>
-        <p className="mb-3">
-          Here's what trips people up: biologics given by infusion (like
-          Remicade or Orencia IV) typically fall under Part B. Self-injected
-          biologics like Humira or Enbrel go under Part D. That one distinction
-          can mean a difference of hundreds of dollars a month depending on your
-          plan.
+        <ul className="list-disc pl-6 mb-3 space-y-2">
+          <li>
+            <strong>Part B</strong> covers biologics given by infusion at a
+            doctor's office or infusion center. You typically pay 20% of the
+            Medicare-approved amount after meeting the $283 annual Part B
+            deductible.
+          </li>
+          <li>
+            <strong>Part D</strong> covers self-injected biologics you take at
+            home. Out-of-pocket costs vary widely by plan and can run $500 to
+            $1,800+ per month in the wrong plan.
+          </li>
+          <li>
+            <strong>Cortisone and joint injections</strong> are generally covered
+            under Part B when medically necessary.
+          </li>
+        </ul>
+        <p>
+          Wrong plan choice can mean hundreds of dollars per fill. I compare
+          formularies side by side so you don't get surprised by a phone call
+          from the specialty pharmacy.
         </p>
       </section>
 
-      <section className="mt-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
           How RA affects Medigap underwriting and enrollment timing
         </h2>
         <p className="mb-3">
-          Your 6-month Medigap Open Enrollment Period is the most important
-          window you have. It starts the month you turn 65 and are enrolled in
-          Part B. During that time, no carrier can deny you or charge more
-          because of RA.
+          If you're turning 65, you have a one-time, 6-month Medigap Open
+          Enrollment Period. During this window, no carrier can deny you or raise
+          your rate because of rheumatoid arthritis. Miss it, and medical
+          underwriting kicks in. RA on your records can mean a flat-out denial
+          for supplemental coverage.
         </p>
-        <p className="mb-3">
-          Miss that window and medical underwriting applies. With an
-          autoimmune condition on your chart, approval gets harder and premiums
-          go up. If you're approaching 65, this is the one deadline that can't
-          slip.
+        <p>
+          If you're under 65 on Medicare through disability, Medigap access
+          varies by state. In New Jersey, disabled Medicare beneficiaries do have
+          some protections, but the rules are specific. Call me and I'll walk you
+          through what applies to your situation.
         </p>
       </section>
 
-      <section className="mt-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
           Medicare Advantage vs. supplement when you're on specialty medications
         </h2>
-        <ul className="list-disc pl-6 space-y-2 mb-3">
-          <li>
-            <strong>Medicare Advantage:</strong> Lower premiums, but networks
-            restrict which rheumatologists and infusion centers you can use.
-            Prior authorization for biologics is common. Formularies change
-            yearly.
-          </li>
-          <li>
-            <strong>Medigap + standalone Part D:</strong> Higher monthly
-            premium, but you pick any provider who accepts Medicare. No referrals
-            for specialists. Costs are predictable. You still need to compare
-            Part D formularies carefully for your specific biologic.
-          </li>
-        </ul>
+        <p className="mb-3">
+          Medicare Advantage plans bundle everything and often carry low
+          premiums. That sounds great until you need a prior authorization for
+          your biologic and it takes weeks. Or your rheumatologist isn't in
+          network.
+        </p>
+        <p className="mb-3">
+          A Medigap plan (like Plan G) paired with a standalone Part D plan
+          gives you freedom to see any specialist who accepts Medicare. No
+          referrals. No network headaches. The tradeoff is higher monthly
+          premiums.
+        </p>
         <p>
-          Neither option is automatically better. It depends on what you take,
-          who you see, and what you can afford monthly vs. what you can afford if
-          something goes wrong.
+          For RA patients who rely on consistent access to specific medications
+          and providers, that flexibility often pays for itself.
         </p>
       </section>
 
-      <section className="mt-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
-          The cost shock people don't see coming
+          The Part D coverage gap and how to plan around it
         </h2>
         <p className="mb-3">
-          People who had employer insurance or Medicaid before Medicare are often
-          blindsided. A biologic that cost $5 on your old plan can suddenly run
-          $500 to $1,800 a month under Medicare Part D. Manufacturer copay cards
-          that worked before? Most don't apply once you're on Medicare.
+          If your biologic is covered under Part D, you'll move through coverage
+          phases fast. Once you and your plan spend a combined amount on covered
+          drugs, you enter the catastrophic phase where your costs drop
+          significantly. The Medicare Prescription Payment Plan can spread your
+          out-of-pocket costs across 12 months instead of hitting you all at
+          once.
         </p>
-        <p className="mb-3">
-          I check Part D formularies, tier placement, and whether Extra Help or
-          patient assistance programs can close the gap for your specific drug.
-          That's not something an online plan finder does well.
+        <p>
+          I calculate your estimated annual drug costs across multiple Part D
+          plans so you can see the real numbers before you enroll.
         </p>
       </section>
 
-      <section className="mt-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
-          What I actually look at for RA patients
+          PT visits, specialist access, and the details that add up
         </h2>
-        <ul className="list-disc pl-6 space-y-2 mb-3">
-          <li>
-            Which plans cover your current biologic - and at what tier and copay
-          </li>
-          <li>
-            Whether your rheumatologist and infusion center are in-network
-          </li>
-          <li>Prior authorization requirements for specialty drugs</li>
-          <li>Physical therapy visit limits and specialist copays</li>
-          <li>
-            Total annual out-of-pocket cost - not just the monthly premium
-          </li>
-        </ul>
+        <p className="mb-3">
+          RA care isn't just medication. Physical therapy, occupational therapy,
+          and regular rheumatology visits are part of staying functional. Medicare
+          Part B covers outpatient PT and OT when medically necessary.
+        </p>
+        <p>
+          On Medicare Advantage, you'll likely have copays for each visit and may
+          need referrals. With Original Medicare and a supplement, there's no
+          visit limit and no copay after the plan pays its share. When you're
+          going to PT twice a week, those copays stack up fast.
+        </p>
       </section>
 
-      <section className="mt-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
           Find coverage that keeps up with a condition that never takes a day off
         </h2>
         <p className="mb-3">
-          RA doesn't wait for open enrollment. The stiffness that eats your
-          first hour every morning, the fatigue that rewrites your afternoon
-          plans, the anxiety of wondering if your medication will stay covered
-          next year - that's the reality I plan around.
+          RA doesn't pause for enrollment season. But the decisions you make
+          during enrollment follow you all year. I'll review your current
+          medications, your providers, and your budget, then show you exactly
+          which plans cover what you need at the lowest total cost.
         </p>
-        <p>
-          If you're managing RA on Medicare or about to transition, call me. I'll
-          compare your options based on what you actually need. No cost, no
-          obligation, no pressure.
-        </p>
+        <p>No cost for the consultation. No pressure. Just clarity.</p>
       </section>
 
-      <div className="mt-10 bg-blue-50 border border-blue-200 rounded-lg p-6 text-center">
-        <p className="text-lg font-semibold mb-2">
-          Talk to a broker who understands RA treatment costs
+      <div className="mt-10 bg-blue-600 text-white rounded-lg p-8 text-center">
+        <p className="text-xl font-bold mb-2">
+          Talk to a broker who understands RA treatment costs.
         </p>
-        <p className="mb-4">
+        <p className="text-lg mb-4">
           Call{" "}
-          <a
-            href="tel:8555591700"
-            className="text-blue-700 font-bold hover:underline"
-          >
+          <a href="tel:8555591700" className="underline font-bold">
             855-559-1700
           </a>{" "}
           or{" "}
-          <Link
-            href="/contact"
-            className="text-blue-700 font-bold hover:underline"
-          >
-            Get a Free Quote
+          <Link href="/quote" className="underline font-bold">
+            get a free quote online
           </Link>
+          .
         </p>
       </div>
 
@@ -280,34 +283,34 @@ export default function MedicareBrokerForRheumatoidArthritisPatients() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/medicare-guides/medicare-plan-g-nj"
-              className="text-blue-700 hover:underline"
+              href="/services/medicare-broker-for-disability-patients"
+              className="text-blue-600 hover:underline"
             >
-              Medicare Plan G in New Jersey
+              Medicare Broker for Disability Patients
             </Link>
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-part-d-drug-coverage"
-              className="text-blue-700 hover:underline"
+              href="/guides/medigap-plan-g-nj"
+              className="text-blue-600 hover:underline"
             >
-              Understanding Medicare Part D Drug Coverage
+              Medigap Plan G in New Jersey
             </Link>
           </li>
           <li>
             <Link
-              href="/medicare-guides/medigap-open-enrollment"
-              className="text-blue-700 hover:underline"
+              href="/guides/medicare-part-d-specialty-drugs"
+              className="text-blue-600 hover:underline"
             >
-              Medigap Open Enrollment Period Explained
+              Medicare Part D and Specialty Drug Coverage
             </Link>
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-advantage-vs-medigap"
-              className="text-blue-700 hover:underline"
+              href="/guides/medicare-advantage-vs-medigap"
+              className="text-blue-600 hover:underline"
             >
-              Medicare Advantage vs. Medigap: Which Is Right for You?
+              Medicare Advantage vs. Medigap Supplement
             </Link>
           </li>
         </ul>

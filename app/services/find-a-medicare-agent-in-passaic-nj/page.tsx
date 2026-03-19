@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Find a Medicare Agent in Passaic NJ",
-      item: "https://www.medicareyourself.com/services/find-a-medicare-agent-in-passaic-nj",
+      item: "https://medicareyourself.com/services/find-a-medicare-agent-in-passaic-nj",
     },
   ],
 };
@@ -50,198 +50,222 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-01-15",
-  dateModified: "2025-01-15",
+  datePublished: "2025-07-01",
+  dateModified: "2025-07-01",
 };
 
 const faqs = [
   {
-    question: "How do I pick a Medicare agent?",
+    question: "How to pick a Medicare agent?",
     answer:
-      "Look for a licensed, independent broker rather than a captive agent. An independent broker represents multiple carriers and can give you a true side-by-side comparison. Ask if they charge a fee (they should not - brokers are paid by the carriers). Confirm they are licensed in New Jersey and familiar with Passaic County plan availability.",
+      "Look for an independent broker licensed in New Jersey who represents multiple carriers. Ask how many plans they can quote. If they only show you one company's options, they're captive — and you won't see the full picture. A good agent should explain costs clearly, never pressure you, and offer ongoing support after enrollment.",
   },
   {
-    question: "How do I speak to a live person at Medicare?",
+    question: "How do I speak to a live person about Medicare?",
     answer:
-      "You can call 1-800-MEDICARE (1-800-633-4227) 24 hours a day, 7 days a week. TTY users should call 1-877-486-2048. However, Medicare's representatives can only explain your benefits - they cannot compare plans or recommend one. For plan comparisons, contact an independent broker.",
+      "You can call 1-800-MEDICARE (1-800-633-4227) 24/7 for general questions. For personalized plan comparisons in Passaic County, call an independent broker like Anthony Orner at 855-559-1700 during business hours — no phone tree, no hold music.",
   },
   {
-    question: "Does it cost anything to work with a Medicare agent in Passaic?",
+    question: "Does it cost extra to use a Medicare broker in Passaic?",
     answer:
-      "No. An independent Medicare broker is paid a commission by the insurance carrier, not by you. Your premium is the same whether you enroll directly or through a broker. You get free guidance at no extra cost.",
+      "No. Medicare brokers are paid by insurance carriers, not by you. Your premium stays the same whether you enroll directly or through a broker. The difference is that a broker does the comparison work for you across multiple companies.",
   },
   {
-    question: "When is the best time to contact a Medicare agent?",
+    question: "When is the best time to enroll in Medicare in New Jersey?",
     answer:
-      "If you are turning 65, reach out at least 6 months before your Part B start date. This gives you time to compare plans during your Medigap Open Enrollment Period and lock in your rate early. If you already have Medicare, the Annual Enrollment Period runs October 15 through December 7 each year.",
+      "For Medicare Advantage and Part D, Open Enrollment runs October 15 through December 7. For Medigap (Supplement) plans, your best window is the 6-month Medigap Open Enrollment Period starting the month you turn 65 and have Part B. During this window, carriers can't deny you or charge more for health conditions.",
   },
 ];
 
 export default function FindMedicareAgentPassaicNJ() {
   return (
-    <main className="max-w-4xl mx-auto px-4 py-8">
+    <main className="max-w-3xl mx-auto px-4 py-8">
       <SchemaMarkup schema={breadcrumbSchema} />
       <SchemaMarkup schema={articleSchema} />
 
-      <nav className="text-sm text-gray-500 mb-6" aria-label="Breadcrumb">
+      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
         <Link href="/" className="hover:underline">
           Home
-        </Link>
-        {" > "}
-        <Link href="/medicare-guides" className="hover:underline">
+        </Link>{" "}
+        &gt;{" "}
+        <Link href="/services" className="hover:underline">
           Medicare Guides
-        </Link>
-        {" > "}
+        </Link>{" "}
+        &gt;{" "}
         <span className="text-gray-700">Find a Medicare Agent in Passaic NJ</span>
       </nav>
 
-      <h1 className="text-3xl font-bold mb-4">
+      <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
         Find a Medicare Agent in Passaic, NJ Who Compares Every Major Carrier
       </h1>
 
       <Image
-        src="/images/find-a-medicare-agent-in-passaic-nj.webp"
+        src="/images/hub_find-a-medicare-agent-in-passaic-nj.webp"
         alt="find a medicare agent in passaic nj"
         width={800}
         height={400}
-        className="rounded-lg mb-6 w-full"
+        className="w-full rounded-lg mb-6"
+        priority
       />
 
-      <p className="mb-3">
-        Finding a Medicare agent in Passaic, NJ who actually works for you - not a single insurance company - makes a real difference in what you pay. I'm Anthony Orner, an independent Medicare broker licensed in New Jersey. I compare plans from every major carrier so you see the full picture before you enroll.
+      <p className="text-lg text-gray-700 mb-2">
+        Finding a Medicare agent in Passaic, NJ shouldn't mean calling a 1-800 number and hoping someone picks up. I'm Anthony Orner, an independent Medicare broker licensed in New Jersey, and I compare plans across every major carrier so you see real options, not just one company's lineup.
       </p>
-      <p className="mb-6">
-        There is no fee for my services. Your premium stays the same whether you call a carrier directly or go through me.
+      <p className="text-lg text-gray-700 mb-6">
+        No cost to you. No pressure. Just a side-by-side look at what's actually available in Passaic County.
       </p>
 
       <PhoneCTA />
 
-      <section className="mt-10 mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
           What an independent broker can do that a captive agent cannot
         </h2>
-        <p className="mb-3">
-          A captive agent represents one carrier. They will show you that carrier's plan and nothing else. An independent broker like me is contracted with multiple insurance companies and can lay out your options side by side.
+        <p className="text-gray-700 mb-2">
+          A captive agent works for one insurance company. They'll show you that company's plans and nothing else. An independent broker like me is contracted with multiple carriers, which means I can pull quotes from Aetna, Cigna, Humana, United, Mutual of Omaha, and others in a single appointment.
         </p>
-        <p>
-          That means you see the actual price differences between Plan G from Carrier A versus Plan G from Carrier B. Same coverage, potentially very different premiums.
+        <p className="text-gray-700">
+          You get an honest comparison. I get paid the same commission regardless of which carrier you pick, so there's zero incentive for me to steer you wrong.
         </p>
       </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Medicare options available in Passaic County for 2025-2026
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          Medicare options available in Passaic County for 2025–2026
         </h2>
-        <ul className="list-disc pl-6 space-y-2">
+        <ul className="list-disc pl-5 text-gray-700 space-y-2">
           <li>
-            <strong>Medicare Supplement (Medigap):</strong> Plan G and Plan N are the most popular standardized options. Benefits are identical across carriers - only the premium varies.
+            <strong>Medicare Supplement (Medigap):</strong> Plans like G and N that cover gaps in Original Medicare. Rates vary by carrier, age, and zip code.
           </li>
           <li>
-            <strong>Medicare Advantage (Part C):</strong> HMO and PPO plans available in Passaic County, some with $0 premiums and added dental/vision benefits.
+            <strong>Medicare Advantage (Part C):</strong> HMO and PPO plans that bundle hospital, medical, and often drug coverage. Several carriers offer $0-premium options in Passaic County.
           </li>
           <li>
-            <strong>Part D prescription drug plans:</strong> Standalone drug coverage if you choose Original Medicare with a Supplement.
+            <strong>Part D prescription drug plans:</strong> Standalone drug coverage for people who stay on Original Medicare.
+          </li>
+          <li>
+            <strong>Dental, vision, and hearing:</strong> Available as standalone policies or bundled into many Advantage plans.
           </li>
         </ul>
       </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          Why Passaic County residents need local expertise
+        </h2>
+        <p className="text-gray-700 mb-2">
+          Passaic County's provider networks shift every year. Hospitals like St. Joseph's University Medical Center and providers throughout Clifton, Wayne, and Paterson may be in-network for one Advantage plan and out-of-network for another. Carrier changes like the ones hitting UnitedHealthcare members across parts of New Jersey make it critical to verify your doctors before you enroll.
+        </p>
+        <p className="text-gray-700">
+          I check network directories for your specific doctors and pharmacies before recommending anything.
+        </p>
+      </section>
+
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
           Red flags when choosing a Medicare agent
         </h2>
-        <ul className="list-disc pl-6 space-y-2">
-          <li>They pressure you to enroll during the first phone call.</li>
-          <li>They only show you one carrier's plans.</li>
-          <li>They charge you a fee. Brokers are paid by the carrier, not you.</li>
-          <li>They cannot clearly explain the difference between a Supplement and an Advantage plan.</li>
+        <ul className="list-disc pl-5 text-gray-700 space-y-2">
+          <li>They only quote one carrier's plans.</li>
+          <li>They pressure you to enroll on the first call.</li>
+          <li>They can't explain the difference between Supplement and Advantage clearly.</li>
+          <li>They won't give you a straight answer about what a plan doesn't cover.</li>
+          <li>They disappear after enrollment and you can't reach them for service issues.</li>
         </ul>
+        <p className="text-gray-700 mt-3">
+          A good broker stays with you year after year, reviews your plan each fall, and picks up the phone when something goes wrong.
+        </p>
       </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Why timing matters if you are turning 65
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          Key enrollment dates to know
         </h2>
-        <p className="mb-3">
-          Your Medigap Open Enrollment Period lasts 6 months, starting the month you turn 65 and are enrolled in Part B. During this window, carriers must accept you at standard rates with no health questions.
+        <p className="text-gray-700 mb-2">
+          Medicare Advantage and Part D Open Enrollment runs October 15 through December 7. Miss it and you're generally locked in for the year.
         </p>
-        <p>
-          My practice is to have clients apply up to 6 months before their Part B start date. This locks in the rate early and protects you from premium increases before your coverage kicks in. The sooner you lock in, the better your rate.
+        <p className="text-gray-700 mb-2">
+          For Medigap, your guaranteed-issue window is the 6 months starting the month you turn 65 and enroll in Part B. Apply during this period and no carrier can deny you or charge extra for pre-existing conditions.
         </p>
-      </section>
-
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          2026 Medicare costs you should know
-        </h2>
-        <ul className="list-disc pl-6 space-y-2">
-          <li>Part B premium: $185/month</li>
-          <li>Part B deductible: $257/year</li>
-          <li>Part A deductible: $1,676 per benefit period</li>
-          <li>Skilled nursing facility coinsurance (days 21-100): $209.50/day</li>
-        </ul>
-        <p className="mt-3">
-          A Medicare Supplement plan like Plan G covers all of these costs except the Part B deductible. That is a lot of financial exposure eliminated for one predictable monthly premium.
+        <p className="text-gray-700">
+          Turning 65 soon? Start the conversation at least 6 months early so you're not scrambling when the window opens.
         </p>
       </section>
 
-      <section className="mb-10">
-        <h2 className="text-2xl font-semibold mb-3">
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
           Get a free side-by-side quote from Anthony Orner
         </h2>
-        <p className="mb-3">
-          I live and work in New Jersey. I know which carriers are competitively priced in Passaic County right now and which ones are raising rates. A five-minute phone call gives you a clear comparison you will not get from a carrier's 800 number.
+        <p className="text-gray-700 mb-2">
+          I'll pull quotes from every major carrier available in Passaic County, lay them out side by side, and walk you through the tradeoffs in plain English. No jargon, no hard sell.
         </p>
-        <p>
-          Call me or request a quote online. No pressure, no obligation.
+        <p className="text-gray-700">
+          Call me at <strong>855-559-1700</strong> or request a quote online. Most calls take about 15 minutes.
         </p>
       </section>
 
-      <div className="bg-blue-600 text-white rounded-lg p-6 text-center mb-10">
-        <p className="text-xl font-bold mb-2">
+      <div className="mt-10 bg-blue-600 text-white rounded-lg p-6 text-center">
+        <p className="text-xl font-semibold mb-2">
           Ready to compare Medicare plans in Passaic County?
         </p>
         <p className="mb-4">
           Call{" "}
-          <a href="tel:8555591700" className="underline font-semibold">
+          <a href="tel:8555591700" className="underline font-bold">
             855-559-1700
           </a>{" "}
           or{" "}
-          <Link href="/contact" className="underline font-semibold">
+          <Link href="/contact" className="underline font-bold">
             Get a Free Quote
           </Link>
         </p>
       </div>
 
-      <FAQSection faqs={faqs} />
+      <section className="mt-10">
+        <FAQSection faqs={faqs} />
+      </section>
 
       <section className="mt-10">
-        <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
+        <h2 className="text-2xl font-semibold text-gray-900 mb-4">
+          Related resources
+        </h2>
         <ul className="space-y-2">
           <li>
-            <Link href="/medicare-guides/medicare-supplement-plans-nj" className="text-blue-600 hover:underline">
+            <Link
+              href="/services/medicare-supplement-plans-nj"
+              className="text-blue-600 hover:underline"
+            >
               Medicare Supplement Plans in New Jersey
             </Link>
           </li>
           <li>
-            <Link href="/medicare-guides/medicare-plan-g-nj" className="text-blue-600 hover:underline">
-              Medicare Plan G in NJ - Benefits and Costs
+            <Link
+              href="/services/medicare-advantage-plans-passaic-county"
+              className="text-blue-600 hover:underline"
+            >
+              Medicare Advantage Plans in Passaic County
             </Link>
           </li>
           <li>
-            <Link href="/medicare-guides/medicare-advantage-plans-nj" className="text-blue-600 hover:underline">
-              Medicare Advantage Plans in New Jersey
+            <Link
+              href="/services/when-to-enroll-in-medicare-nj"
+              className="text-blue-600 hover:underline"
+            >
+              When to Enroll in Medicare in NJ
             </Link>
           </li>
           <li>
-            <Link href="/medicare-guides/when-to-enroll-in-medicare" className="text-blue-600 hover:underline">
-              When to Enroll in Medicare - Key Dates and Deadlines
+            <Link
+              href="/services/medicare-plan-g-vs-plan-n-nj"
+              className="text-blue-600 hover:underline"
+            >
+              Medicare Plan G vs Plan N in New Jersey
             </Link>
           </li>
         </ul>

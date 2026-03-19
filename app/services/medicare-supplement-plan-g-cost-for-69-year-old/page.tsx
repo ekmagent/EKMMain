@@ -7,14 +7,14 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 
 export const metadata: Metadata = {
   title:
-    "Medicare Supplement Plan G Cost for 69 Year Old | See Real Rates Free | MedicareYourself",
+    "medicare supplement plan g cost for 69 year old | Free Quote | MedicareYourself",
   description:
-    "Medicare Supplement Plan G cost for a 69-year-old varies by carrier and pricing method. See 2025 rate examples and compare with a licensed broker. Free quote.",
+    "Medicare Supplement Plan G cost for a 69-year-old varies by carrier and pricing method. See 2025 rate examples and compare quotes with a licensed broker.",
   openGraph: {
     title:
-      "Medicare Supplement Plan G Cost for 69 Year Old | See Real Rates Free | MedicareYourself",
+      "medicare supplement plan g cost for 69 year old | Free Quote | MedicareYourself",
     description:
-      "Medicare Supplement Plan G cost for a 69-year-old varies by carrier and pricing method. See 2025 rate examples and compare with a licensed broker. Free quote.",
+      "Medicare Supplement Plan G cost for a 69-year-old varies by carrier and pricing method. See 2025 rate examples and compare quotes with a licensed broker.",
   },
 };
 
@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/services",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Medicare Supplement Plan G Cost for 69 Year Old",
-      item: "https://www.medicareyourself.com/services/medicare-supplement-plan-g-cost-for-69-year-old",
+      item: "https://medicareyourself.com/services/medicare-supplement-plan-g-cost-for-69-year-old",
     },
   ],
 };
@@ -51,7 +51,7 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
@@ -64,263 +64,250 @@ const articleSchema = {
 
 const faqs = [
   {
-    question: "What is the cost of Medicare Supplement Plan G for 2026?",
-    answer:
-      "Plan G premiums for 2026 haven't been released yet by most carriers. In 2025, rates for a 69-year-old typically range from roughly $140 to $280 per month depending on the carrier, your location, and whether the plan uses issue-age or attained-age pricing. Call us for updated 2026 rates as they become available.",
-  },
-  {
     question: "What is the best Medicare Supplement Plan G?",
     answer:
-      "Every Plan G offers identical benefits regardless of carrier - that's federal law. The difference is premium cost and long-term rate stability. The 'best' Plan G is the one from a financially strong carrier with a track record of moderate annual increases. A licensed broker can show you which carriers have the steadiest pricing history in your state.",
+      "Every Plan G offers identical benefits regardless of carrier. The 'best' Plan G is the one with the most stable long-term premium behavior from a financially strong insurer. A licensed broker can show you rate history by carrier in your area so you pick based on data, not marketing.",
   },
   {
     question: "Do Plan G premiums increase with age?",
     answer:
-      "It depends on the pricing method. Attained-age plans increase as you get older, on top of any inflation-based rate hikes. Issue-age plans base your rate on the age you enrolled, so aging alone doesn't raise your premium. Both types can still have block rate increases when claims rise across the insured pool.",
+      "It depends on the pricing method. Attained-age plans increase as you get older, so your premium at 74 will be higher than at 69. Issue-age plans base your rate on your age when you first enrolled and don't increase due to aging alone. Both types can still see rate increases from inflation and claims experience in your insured pool.",
   },
   {
     question:
-      "Can I switch Plan G carriers at 69 without medical underwriting?",
+      "Can I switch Plan G carriers at 69 without answering health questions?",
     answer:
-      "Outside your initial Medigap Open Enrollment Period, most carriers require medical underwriting to switch. Some states have special protections, and certain federal guaranteed issue triggers apply - like losing employer coverage or your plan leaving the market. A broker can check whether you qualify for a switch without health questions.",
+      "Outside of your initial Medigap Open Enrollment Period or a federal guaranteed issue event, most carriers will require medical underwriting. If you're healthy, switching is often straightforward. But if you have pre-existing conditions, it's worth reviewing your options with a broker before applying.",
+  },
+  {
+    question: "What does Plan G not cover?",
+    answer:
+      "Plan G covers everything Original Medicare covers except the annual Part B deductible, which is $283 in 2026. You pay that deductible out of pocket each year. After that, Plan G picks up 100% of Medicare-approved costs with no network restrictions.",
   },
 ];
 
-export default function MedicareSupplementPlanGCost69YearOld() {
+export default function MedicareSupplementPlanGCostFor69YearOld() {
   return (
-    <>
+    <main className="max-w-3xl mx-auto px-4 py-8">
       <SchemaMarkup schema={breadcrumbSchema} />
       <SchemaMarkup schema={articleSchema} />
 
-      <main className="max-w-4xl mx-auto px-4 py-8">
-        <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
-          <Link href="/" className="hover:underline">
-            Home
-          </Link>{" "}
-          &gt;{" "}
-          <Link href="/services" className="hover:underline">
-            Medicare Guides
-          </Link>{" "}
-          &gt;{" "}
-          <span className="text-gray-700">
-            Medicare Supplement Plan G Cost for 69 Year Old
-          </span>
-        </nav>
+      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
+        <Link href="/" className="hover:underline">
+          Home
+        </Link>{" "}
+        &gt;{" "}
+        <Link href="/services" className="hover:underline">
+          Medicare Guides
+        </Link>{" "}
+        &gt;{" "}
+        <span className="text-gray-700">
+          Medicare Supplement Plan G Cost for 69 Year Old
+        </span>
+      </nav>
 
-        <h1 className="text-3xl font-bold mb-4 text-gray-900">
-          Medicare Supplement Plan G Cost for a 69-Year-Old: What Carriers
-          Charge in 2025
-        </h1>
+      <h1 className="text-3xl font-bold text-gray-900 mb-4">
+        Medicare Supplement Plan G Cost for a 69-Year-Old: What Carriers Charge
+        in 2025
+      </h1>
 
-        <Image
-          src="/images/medicare-supplement-plan-g-cost-for-69-year-old.webp"
-          alt="Medicare Supplement Plan G cost for 69 year old"
-          width={800}
-          height={400}
-          className="rounded-lg mb-6 w-full"
-        />
+      <Image
+        src="/images/hub_medicare-supplement-plan-g-cost-for-69-year-old.webp"
+        alt="medicare supplement plan g cost for 69 year old"
+        width={800}
+        height={400}
+        className="w-full rounded-lg mb-6"
+      />
 
-        <p className="text-lg text-gray-700 mb-2">
-          Medicare Supplement Plan G cost for a 69-year-old typically falls
-          between $140 and $280 per month in 2025 - but your actual rate depends
-          heavily on the carrier you choose and how they price their policies.
+      <p className="text-lg text-gray-700 mb-2">
+        Medicare Supplement Plan G cost for a 69-year-old typically runs between
+        $130 and $250 per month, depending on the carrier, your state, and the
+        pricing method used. At 69, you're past the initial enrollment window
+        most people use at 65, so how a carrier prices your policy matters even
+        more.
+      </p>
+      <p className="text-gray-700 mb-6">
+        I'm Anthony Orner, a licensed Medicare broker. Let me walk you through
+        what actually drives your rate at this age.
+      </p>
+
+      <PhoneCTA />
+
+      <section className="mt-10 mb-8">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          How age 69 affects your Plan G premium
+        </h2>
+        <p className="text-gray-700 mb-2">
+          Most Medigap carriers use attained-age pricing. That means your
+          premium goes up each year as you get older. At 69, you've already had
+          four years of age-based increases since 65.
         </p>
-        <p className="text-lg text-gray-700 mb-6">
-          At 69, you're past the initial enrollment window that comes with
-          guaranteed issue protections. That means the carrier, pricing method,
-          and your health history all matter more. Here's what you should know.
+        <p className="text-gray-700">
+          The flip side: you're still younger than a huge portion of Medigap
+          policyholders. Carriers see a 69-year-old as less costly than someone
+          at 74 or 78. Your rate reflects that.
         </p>
+      </section>
 
-        <PhoneCTA />
+      <section className="mb-8">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          Sample monthly rates from top-rated carriers
+        </h2>
+        <p className="text-gray-700 mb-3">
+          Plan G is standardized. Every carrier offers identical benefits. The
+          only difference is the premium. Here's what a 69-year-old non-smoker
+          might see in 2025:
+        </p>
+        <ul className="list-disc pl-6 text-gray-700 space-y-1">
+          <li>
+            <strong>Lower-end carriers:</strong> $130 to $160/month
+          </li>
+          <li>
+            <strong>Mid-range carriers:</strong> $165 to $200/month
+          </li>
+          <li>
+            <strong>Premium-tier carriers:</strong> $200 to $250/month
+          </li>
+        </ul>
+        <p className="text-gray-700 mt-3">
+          The cheapest starting rate isn't always the best deal. Some carriers
+          price low to attract enrollees, then hit you with steep annual
+          increases. I look at 5- to 10-year rate history before recommending
+          any carrier.
+        </p>
+      </section>
 
-        <section className="mt-10">
-          <h2 className="text-2xl font-semibold mb-3 text-gray-900">
-            How age 69 affects your Plan G premium
-          </h2>
-          <p className="text-gray-700 mb-3">
-            At 69, you've been on Medicare for four years. If you enrolled in
-            Plan G at 65 with an attained-age carrier, your premium has already
-            climbed several times - once for each birthday, plus any block rate
-            increases on top of that.
-          </p>
-          <p className="text-gray-700 mb-3">
-            If you're shopping for Plan G for the first time at 69, carriers
-            will price you based on current age. You won't get the rate a
-            65-year-old sees. But there's still a wide spread between the
-            cheapest and most expensive carriers, and that gap is where a broker
-            earns their keep.
-          </p>
-        </section>
+      <section className="mb-8">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          Issue-age vs. attained-age pricing explained for 69-year-olds
+        </h2>
+        <p className="text-gray-700 mb-2">
+          <strong>Attained-age:</strong> Your premium increases as you age.
+          Most carriers use this method. Expect small annual bumps on top of
+          any rate increases from claims experience in your pool.
+        </p>
+        <p className="text-gray-700 mb-2">
+          <strong>Issue-age:</strong> Your rate is locked to the age you first
+          enrolled. If you bought at 65, your base rate stays at the 65-year-old
+          level. If you're buying at 69, you lock in a 69-year-old rate. It
+          won't go up because of aging, though it can still increase for
+          inflation or claims.
+        </p>
+        <p className="text-gray-700">
+          Issue-age plans often start higher but cost less over a 15- to
+          20-year span. At 69, this is still worth considering.
+        </p>
+      </section>
 
-        <section className="mt-10">
-          <h2 className="text-2xl font-semibold mb-3 text-gray-900">
-            Sample monthly rates from top-rated carriers
-          </h2>
-          <p className="text-gray-700 mb-3">
-            Plan G benefits are identical across every carrier - that's federal
-            law. The only difference is what you pay each month. For a
-            69-year-old in 2025, here's a general range:
-          </p>
-          <ul className="list-disc pl-6 text-gray-700 mb-3 space-y-1">
-            <li>Lower-cost carriers: roughly $140 - $175/month</li>
-            <li>Mid-range carriers: roughly $175 - $220/month</li>
-            <li>Higher-cost carriers: roughly $220 - $280/month</li>
-          </ul>
-          <p className="text-gray-700">
-            Exact premiums depend on your zip code, gender, tobacco use, and the
-            carrier's pricing structure. I can pull real quotes for your specific
-            situation in minutes.
-          </p>
-        </section>
+      <section className="mb-8">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          What to watch out for: rate stacking
+        </h2>
+        <p className="text-gray-700 mb-2">
+          Here's what nobody warns you about. Your premium can increase for two
+          separate reasons in the same year: age and block rate adjustments. When
+          a carrier's pool of insured members files more claims, everyone in that
+          block shares the cost increase.
+        </p>
+        <p className="text-gray-700">
+          Stack age increases on top of block increases, and you can see 10% to
+          18% jumps in a single year. This is why carrier selection matters more
+          than the plan letter.
+        </p>
+      </section>
 
-        <section className="mt-10">
-          <h2 className="text-2xl font-semibold mb-3 text-gray-900">
-            Issue-age vs. attained-age pricing explained for 69-year-olds
-          </h2>
-          <p className="text-gray-700 mb-3">
-            <strong>Attained-age</strong> plans start lower but increase with
-            every birthday. At 69, you're already paying more than you did at
-            65, and the increases continue every year.
-          </p>
-          <p className="text-gray-700 mb-3">
-            <strong>Issue-age</strong> plans lock your rate to the age you first
-            enroll. If you buy at 69, your rate is set to that age - aging alone
-            won't push it higher. You'll still see inflation-based adjustments,
-            but not birthday-driven hikes.
-          </p>
-          <p className="text-gray-700">
-            Both types can hit you with block rate increases when claims in your
-            insured pool rise. That's the part nobody warns you about - 10% to
-            18% jumps in a single year aren't unusual when age increases and
-            block increases stack together.
-          </p>
-        </section>
+      <section className="mb-8">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          Medical underwriting at 69: what to expect
+        </h2>
+        <p className="text-gray-700 mb-2">
+          If you're applying outside your Medigap Open Enrollment Period (the
+          six months starting when you turn 65 and have Part B), most carriers
+          will ask health questions. Good health usually means approval at
+          standard rates.
+        </p>
+        <p className="text-gray-700">
+          Certain conditions may limit your carrier options. A broker can
+          pre-screen you across multiple insurers so you only apply where you're
+          likely to get approved.
+        </p>
+      </section>
 
-        <section className="mt-10">
-          <h2 className="text-2xl font-semibold mb-3 text-gray-900">
-            Why the carrier matters more than the plan letter
-          </h2>
-          <p className="text-gray-700 mb-3">
-            Since every Plan G covers the same things, the real decision is
-            which company to buy it from. Some carriers price aggressively low
-            to attract new customers, then raise rates steeply in years three
-            through five.
-          </p>
-          <p className="text-gray-700">
-            Others start a bit higher but hold steadier over time. At 69, you
-            want a carrier with a solid track record of moderate annual
-            increases - not the cheapest premium today, but the most predictable
-            cost over the next decade.
-          </p>
-        </section>
+      <section className="mb-8">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          Compare Plan G rates at 69 with a licensed broker
+        </h2>
+        <p className="text-gray-700 mb-2">
+          I compare rates across dozens of carriers and factor in long-term
+          premium behavior, not just today's price. You get the same Plan G
+          benefits from every company. The question is which carrier treats your
+          wallet best over the next 10 to 20 years.
+        </p>
+        <p className="text-gray-700">
+          Call me for a free quote. No pressure, no sign-up required.
+        </p>
+      </section>
 
-        <section className="mt-10">
-          <h2 className="text-2xl font-semibold mb-3 text-gray-900">
-            What Plan G covers at any age
-          </h2>
-          <p className="text-gray-700 mb-3">
-            Plan G picks up nearly everything Original Medicare doesn't:
-          </p>
-          <ul className="list-disc pl-6 text-gray-700 mb-3 space-y-1">
-            <li>Part A deductible ($1,676 per benefit period in 2026)</li>
-            <li>Part A hospital coinsurance and extra 365 days of coverage</li>
-            <li>Skilled nursing facility coinsurance ($209.50/day, days 21-100)</li>
-            <li>Part B excess charges (100%)</li>
-            <li>Foreign travel emergency care (80%)</li>
-          </ul>
-          <p className="text-gray-700">
-            Your only out-of-pocket cost with Plan G is the annual Part B
-            deductible ($283 in 2026). After that, you pay nothing for
-            Medicare-covered services.
-          </p>
-        </section>
+      <div className="bg-blue-600 text-white rounded-lg p-6 text-center mb-10">
+        <p className="text-xl font-semibold mb-2">
+          Get your personalized Plan G rate at 69
+        </p>
+        <p className="mb-4">
+          Call{" "}
+          <a href="tel:8555591700" className="underline font-bold">
+            855-559-1700
+          </a>{" "}
+          or{" "}
+          <Link href="/contact" className="underline font-bold">
+            Get a Free Quote
+          </Link>
+        </p>
+        <p className="text-sm opacity-90">
+          Anthony Orner, Licensed Medicare Broker
+        </p>
+      </div>
 
-        <section className="mt-10">
-          <h2 className="text-2xl font-semibold mb-3 text-gray-900">
-            Compare Plan G rates at 69 with a licensed broker
-          </h2>
-          <p className="text-gray-700 mb-3">
-            Shopping at 69 is different from shopping at 65. You likely won't
-            have guaranteed issue rights, which means underwriting applies. Some
-            carriers are stricter than others - and a broker who works with
-            multiple carriers knows which ones are more likely to approve you
-            based on your health profile.
-          </p>
-          <p className="text-gray-700">
-            I'm Anthony Orner, a licensed Medicare broker. I'll pull quotes from
-            multiple carriers, show you each company's rate increase history,
-            and help you pick the Plan G that costs the least over time - not
-            just today.
-          </p>
-        </section>
+      <FAQSection faqs={faqs} />
 
-        <div className="mt-10 bg-blue-50 border border-blue-200 rounded-lg p-6 text-center">
-          <p className="text-xl font-semibold text-blue-900 mb-2">
-            See what Plan G actually costs at your age and zip code
-          </p>
-          <p className="text-gray-700 mb-4">
-            Call{" "}
-            <a
-              href="tel:8555591700"
-              className="text-blue-700 font-bold hover:underline"
-            >
-              855-559-1700
-            </a>{" "}
-            or{" "}
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-4">
+          Related resources
+        </h2>
+        <ul className="space-y-2">
+          <li>
             <Link
-              href="/contact"
-              className="text-blue-700 font-bold hover:underline"
+              href="/services/medicare-supplement-plan-g"
+              className="text-blue-600 hover:underline"
             >
-              get a free quote online
+              Medicare Supplement Plan G: Full Coverage Guide
             </Link>
-            . No cost, no obligation.
-          </p>
-        </div>
-
-        <section className="mt-12">
-          <FAQSection faqs={faqs} />
-        </section>
-
-        <section className="mt-12">
-          <h2 className="text-2xl font-semibold mb-4 text-gray-900">
-            Related resources
-          </h2>
-          <ul className="space-y-2">
-            <li>
-              <Link
-                href="/services/medicare-supplement-plan-g"
-                className="text-blue-700 hover:underline"
-              >
-                Medicare Supplement Plan G: Full Benefits Guide
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/services/medicare-supplement-plan-g-vs-plan-n"
-                className="text-blue-700 hover:underline"
-              >
-                Plan G vs. Plan N: Which Saves You More?
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/services/medigap-open-enrollment-period"
-                className="text-blue-700 hover:underline"
-              >
-                Medigap Open Enrollment Period Explained
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/services/medicare-supplement-rate-increases"
-                className="text-blue-700 hover:underline"
-              >
-                How Medicare Supplement Rate Increases Work
-              </Link>
-            </li>
-          </ul>
-        </section>
-      </main>
-    </>
+          </li>
+          <li>
+            <Link
+              href="/services/medicare-supplement-plan-g-vs-plan-n"
+              className="text-blue-600 hover:underline"
+            >
+              Plan G vs. Plan N: Which Costs Less Long-Term?
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/services/medigap-open-enrollment-period"
+              className="text-blue-600 hover:underline"
+            >
+              Medigap Open Enrollment: When You Have Guaranteed Issue
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/services/medicare-supplement-rate-increases"
+              className="text-blue-600 hover:underline"
+            >
+              Why Medicare Supplement Rates Increase (And How to Plan for It)
+            </Link>
+          </li>
+        </ul>
+      </section>
+    </main>
   );
 }

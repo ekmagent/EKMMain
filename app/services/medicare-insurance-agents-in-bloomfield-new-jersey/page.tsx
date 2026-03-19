@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Medicare Insurance Agents in Bloomfield, New Jersey",
-      item: "https://www.medicareyourself.com/services/medicare-insurance-agents-in-bloomfield-new-jersey",
+      item: "https://medicareyourself.com/services/medicare-insurance-agents-in-bloomfield-new-jersey",
     },
   ],
 };
@@ -51,217 +51,214 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-01-15",
-  dateModified: "2025-01-15",
+  mainEntityOfPage:
+    "https://medicareyourself.com/services/medicare-insurance-agents-in-bloomfield-new-jersey",
 };
 
 const faqs = [
   {
     question:
-      "Do Medicare insurance agents in Bloomfield, NJ charge a fee for their help?",
+      "What's the difference between a captive agent and an independent broker in Bloomfield?",
     answer:
-      "No. Independent Medicare brokers are paid by the insurance carriers, not by you. The plans cost the same whether you enroll on your own or work with a broker. You get free guidance without paying a premium surcharge.",
+      "A captive agent works for one insurance carrier and can only show you their plans. An independent broker like Anthony Orner is licensed with multiple carriers, so you see side-by-side options from Aetna, Cigna, Humana, UnitedHealthcare, and others serving Essex County — at no extra cost to you.",
   },
   {
     question:
-      "What is the difference between a captive Medicare agent and an independent broker?",
+      "Do I pay more for Medicare if I use a broker instead of going direct?",
     answer:
-      "A captive agent represents one insurance company and can only show you that company's plans. An independent broker is contracted with multiple carriers, so they can compare rates and benefits side-by-side to find the best fit for your situation.",
+      "No. Brokers are paid by the insurance carriers, not by you. Your premium is the same whether you enroll through a broker, directly with the carrier, or on medicare.gov. The difference is that a broker helps you compare plans first.",
   },
   {
-    question: "When is the best time to enroll in a Medicare plan in New Jersey?",
+    question: "When can I switch my Medicare plan in Bloomfield, NJ?",
     answer:
-      "Your Medigap Open Enrollment Period starts the month you turn 65 and are enrolled in Part B. It lasts 6 months and gives you guaranteed issue rights - no health questions and no higher premiums. For Medicare Advantage and Part D, the annual enrollment runs October 15 through December 7.",
+      "Medicare Advantage and Part D Open Enrollment runs October 15 through December 7 each year. If you're turning 65 and newly enrolled in Part B, your Medigap Open Enrollment Period is the 6 months starting the month you turn 65 and have Part B. Other qualifying events — like losing employer coverage — can also trigger special enrollment windows.",
   },
   {
     question:
-      "Can I switch Medicare plans if I already have coverage in Bloomfield?",
+      "Which hospitals and health systems accept Medicare plans in the Bloomfield area?",
     answer:
-      "Yes. During the Medicare Advantage Open Enrollment (October 15 - December 7), you can switch Advantage or Part D plans. Switching Medigap plans outside your initial enrollment may require medical underwriting in New Jersey. Call to discuss your specific options.",
+      "Most Essex County hospitals — including Hackensack Meridian Health and RWJBarnabas Health facilities — participate in Original Medicare. Medicare Advantage network coverage varies by carrier and plan. Always verify your doctors and hospitals are in-network before enrolling in any MA plan.",
   },
 ];
 
 export default function MedicareInsuranceAgentsBloomfieldNJ() {
   return (
-    <main className="max-w-4xl mx-auto px-4 py-8">
+    <>
       <SchemaMarkup schema={breadcrumbSchema} />
       <SchemaMarkup schema={articleSchema} />
 
-      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
+      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-4">
         <Link href="/" className="hover:underline">
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare" className="hover:underline">
+        <Link href="/medicare-guides" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
-        <span className="text-gray-700">
-          Medicare Insurance Agents in Bloomfield, New Jersey
-        </span>
+        <span>Medicare Insurance Agents in Bloomfield, New Jersey</span>
       </nav>
 
-      <h1 className="text-3xl md:text-4xl font-bold mb-4">
+      <h1 className="text-3xl font-bold mb-4">
         Medicare Insurance Agents in Bloomfield, New Jersey: Broker-Level
         Guidance
       </h1>
 
       <Image
-        src="/images/medicare-insurance-agents-in-bloomfield-new-jersey.webp"
+        src="/images/hub_medicare-insurance-agents-in-bloomfield-new-jersey.webp"
         alt="Medicare insurance agents in Bloomfield New Jersey"
         width={800}
         height={400}
-        className="rounded-lg mb-6 w-full"
+        className="w-full h-auto rounded-lg mb-6"
       />
 
       <p className="text-lg mb-2">
-        Medicare insurance agents in Bloomfield, New Jersey come in two
-        varieties, and the type you choose affects which plans you actually see.
-        A captive agent shows you one carrier's lineup. An independent broker
-        shows you all of them.
+        Medicare insurance agents in Bloomfield, New Jersey aren't all the same.
+        Some represent one carrier. Others compare every major plan in Essex
+        County on your behalf. That distinction can save you hundreds a year on
+        premiums alone.
       </p>
-      <p className="text-lg mb-6">
-        I'm Anthony Orner, a licensed independent Medicare broker serving
-        Bloomfield and the rest of Essex County. I compare every major carrier so
-        you don't have to.
+      <p className="mb-6">
+        I'm Anthony Orner, an independent Medicare broker licensed in New
+        Jersey. I work with Bloomfield residents to match them with the right
+        coverage — not just the plan that pays the highest commission.
       </p>
 
       <PhoneCTA />
 
-      <section className="mt-10 mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
           Captive agent vs. independent broker: what Bloomfield residents should
           know
         </h2>
         <p className="mb-2">
-          A captive agent works for one insurance company. They might know their
-          own products well, but they can't tell you if a competitor offers
-          something better or cheaper.
+          A captive agent sells plans from one company. If that company's
+          Advantage plan drops your cardiologist at Hackensack Meridian next
+          year, they can't move you to a plan that keeps them.
         </p>
         <p>
-          An independent broker like me holds contracts with multiple carriers. I
-          pull quotes from all of them and lay them side-by-side. Same plans,
-          same prices - you just get a wider view.
+          An independent broker shows you plans across carriers. Same price.
+          More choices. No loyalty to any single insurer.
         </p>
       </section>
 
-      <section className="mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
           Supplement and Advantage carriers serving Essex County
         </h2>
         <p className="mb-2">
-          Bloomfield sits in Essex County, which has strong carrier competition
-          for both Medicare Supplement (Medigap) and Medicare Advantage plans.
-          That's good news for you. More competition means more options and
-          better rates.
+          Bloomfield sits in a competitive market. Carriers actively writing
+          Medicare policies in Essex County include:
         </p>
-        <ul className="list-disc pl-6 space-y-1">
-          <li>
-            Multiple Medigap carriers offer Plan G and Plan N in your zip code
-          </li>
-          <li>
-            Several Medicare Advantage plans include $0-premium HMO and PPO
-            options
-          </li>
-          <li>
-            Part D standalone drug plans vary widely - formulary details matter
-          </li>
+        <ul className="list-disc ml-6 space-y-1 mb-2">
+          <li>Aetna (Supplement and Advantage)</li>
+          <li>Cigna (Supplement)</li>
+          <li>Humana (Advantage and Part D)</li>
+          <li>UnitedHealthcare (Advantage and Supplement)</li>
+          <li>Mutual of Omaha (Supplement)</li>
         </ul>
-        <p className="mt-2">
-          Rates vary by carrier, age, and tobacco status. I run the numbers for
-          free.
+        <p>
+          Network changes happen yearly. Recently, some NJ health systems have
+          dropped certain carrier contracts mid-cycle, leaving enrollees
+          scrambling to find in-network providers. I track these shifts so you
+          don't get caught off guard.
         </p>
       </section>
 
-      <section className="mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
           How to avoid overpaying for the same Medicare benefits
         </h2>
         <p className="mb-2">
-          Medigap plans are standardized by the federal government. Plan G from
-          one company covers exactly the same benefits as Plan G from another.
-          The only difference is the premium.
+          Medigap Plan G from one carrier covers the exact same benefits as Plan
+          G from another. The only difference is the premium. Rates vary by
+          carrier, your age, and your zip code.
         </p>
         <p>
-          Some Bloomfield residents pay $50 to $80 more per month than they need
-          to because they never compared carriers. A five-minute phone call fixes
-          that.
+          In Bloomfield (07003), I regularly see premium spreads of $40 to $80
+          per month between carriers for identical Supplement plans. That's up
+          to $960 a year for the same coverage.
         </p>
       </section>
 
-      <section className="mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
-          Your Medigap open enrollment window matters
+          Key enrollment deadlines for Bloomfield residents
         </h2>
-        <p className="mb-2">
-          If you're turning 65 and enrolling in Part B, you get a one-time
-          6-month Medigap Open Enrollment Period. During this window, carriers
-          must accept you at standard rates - no health questions, no denials.
-        </p>
-        <p>
-          I typically have clients apply up to 6 months before their Part B start
-          date. This locks in your rate early and protects you from premium
-          increases before coverage kicks in. The sooner you lock in, the better
-          your rate.
-        </p>
-      </section>
-
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Key 2026 Medicare costs to know
-        </h2>
-        <ul className="list-disc pl-6 space-y-1">
-          <li>Part B premium: $185/month</li>
-          <li>Part B deductible: $257/year</li>
-          <li>Part A deductible: $1,676 per benefit period</li>
+        <ul className="list-disc ml-6 space-y-1">
           <li>
-            Skilled nursing facility coinsurance (days 21-100): $209.50/day
+            <strong>Medigap Open Enrollment:</strong> 6 months starting the
+            month you're 65+ and enrolled in Part B. Apply during this window
+            for guaranteed issue — no health questions.
           </li>
           <li>
-            Part B late enrollment penalty: 10% for each 12-month period you
-            delayed
+            <strong>MA/Part D Open Enrollment:</strong> October 15 through
+            December 7 each year.
+          </li>
+          <li>
+            <strong>Part B late penalty:</strong> 10% per 12-month period you
+            delayed enrollment. This adds up permanently.
           </li>
         </ul>
         <p className="mt-2">
-          These costs add up fast without the right plan in place.
+          Planning to retire at 65? Start comparing plans about 6 months before
+          your Part B effective date to lock in the best Medigap rate.
         </p>
       </section>
 
-      <section className="mb-8">
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold mb-3">
+          What your 2026 Medicare costs look like
+        </h2>
+        <ul className="list-disc ml-6 space-y-1">
+          <li>Part B premium: $202.90/month</li>
+          <li>Part B deductible: $283/year</li>
+          <li>Part A deductible: $1,676 per benefit period</li>
+          <li>SNF coinsurance (days 21-100): $209.50/day</li>
+        </ul>
+        <p className="mt-2">
+          Without supplemental coverage, a single hospital stay can cost
+          thousands out of pocket. That's why most Bloomfield residents I work
+          with choose either a Supplement or Advantage plan.
+        </p>
+      </section>
+
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
           Schedule a free consultation with Anthony Orner
         </h2>
         <p className="mb-2">
-          I work with Bloomfield residents year-round. Whether you're new to
-          Medicare or reviewing your current coverage, I'll compare your options
-          at no cost. Zero sales pressure. You decide on your own timeline.
+          I live and work in New Jersey. I know which carriers are reliable in
+          Essex County and which ones cause billing headaches. One phone call
+          gives you a clear comparison of every plan available at your address.
         </p>
         <p>
-          Call me directly or request a callback. I answer most calls personally.
+          No pushy sales tactics. No obligation. Just straight answers about
+          your Medicare options in Bloomfield.
         </p>
       </section>
 
-      <div className="bg-blue-600 text-white rounded-lg p-6 text-center mb-10">
-        <p className="text-xl font-semibold mb-2">
-          Ready to compare Medicare plans in Bloomfield?
-        </p>
-        <p className="text-lg mb-4">
+      <div className="mt-10 bg-blue-600 text-white rounded-lg p-6 text-center">
+        <p className="text-xl font-bold mb-2">
           Call{" "}
-          <a href="tel:8555591700" className="underline font-bold">
+          <a href="tel:8555591700" className="underline">
             855-559-1700
           </a>{" "}
-          or click below for a free quote.
+          for a Free Medicare Comparison
+        </p>
+        <p className="mb-4">
+          Every major carrier. One phone call. Zero cost to you.
         </p>
         <Link
           href="/contact"
-          className="inline-block bg-white text-blue-600 font-bold py-3 px-6 rounded-lg hover:bg-gray-100 transition"
+          className="inline-block bg-white text-blue-600 font-semibold px-6 py-3 rounded-lg hover:bg-gray-100"
         >
           Get a Free Quote
         </Link>
@@ -270,42 +267,42 @@ export default function MedicareInsuranceAgentsBloomfieldNJ() {
       <FAQSection faqs={faqs} />
 
       <section className="mt-10">
-        <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
+        <h2 className="text-2xl font-semibold mb-3">Related resources</h2>
         <ul className="space-y-2">
           <li>
             <Link
-              href="/medicare/plan-g-new-jersey"
+              href="/services/medicare-agents-essex-county-nj"
               className="text-blue-600 hover:underline"
             >
-              Medicare Plan G in New Jersey: Full Breakdown
+              Medicare Agents in Essex County, NJ
             </Link>
           </li>
           <li>
             <Link
-              href="/medicare/medicare-advantage-essex-county"
+              href="/guides/medigap-plan-g-vs-plan-n"
               className="text-blue-600 hover:underline"
             >
-              Medicare Advantage Plans in Essex County
+              Medigap Plan G vs. Plan N: Which Saves You More?
             </Link>
           </li>
           <li>
             <Link
-              href="/medicare/medigap-open-enrollment-nj"
+              href="/guides/medicare-advantage-vs-medigap"
               className="text-blue-600 hover:underline"
             >
-              Medigap Open Enrollment in New Jersey
+              Medicare Advantage vs. Medigap: How to Decide
             </Link>
           </li>
           <li>
             <Link
-              href="/about"
+              href="/guides/new-to-medicare-nj"
               className="text-blue-600 hover:underline"
             >
-              About Anthony Orner - Licensed Medicare Broker
+              New to Medicare in New Jersey: Step-by-Step Guide
             </Link>
           </li>
         </ul>
       </section>
-    </main>
+    </>
   );
 }

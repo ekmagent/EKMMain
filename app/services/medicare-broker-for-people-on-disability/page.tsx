@@ -9,12 +9,12 @@ export const metadata: Metadata = {
   title:
     "medicare broker for people on disability | Free Guidance | MedicareYourself",
   description:
-    "Medicare broker for people on disability — Anthony Orner helps under-65 SSDI recipients in NJ find Medigap or Advantage coverage. Free consultation available.",
+    "Medicare broker for people on disability — Anthony Orner helps under-65 SSDI recipients in NJ find Medigap or Advantage coverage. Free consultation.",
   openGraph: {
     title:
       "medicare broker for people on disability | Free Guidance | MedicareYourself",
     description:
-      "Medicare broker for people on disability — Anthony Orner helps under-65 SSDI recipients in NJ find Medigap or Advantage coverage. Free consultation available.",
+      "Medicare broker for people on disability — Anthony Orner helps under-65 SSDI recipients in NJ find Medigap or Advantage coverage. Free consultation.",
   },
 };
 
@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Medicare Broker for People on Disability",
-      item: "https://www.medicareyourself.com/services/medicare-broker-for-people-on-disability",
+      item: "https://medicareyourself.com/services/medicare-broker-for-people-on-disability",
     },
   ],
 };
@@ -51,49 +51,50 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-01",
-  dateModified: "2025-07-01",
+  mainEntityOfPage:
+    "https://medicareyourself.com/services/medicare-broker-for-people-on-disability",
 };
 
 const faqs = [
   {
     question: "How much does it cost to use a Medicare broker?",
     answer:
-      "Nothing. A licensed Medicare broker like Anthony Orner is paid by the insurance carriers, not by you. You get the same plan at the same price whether you use a broker or go direct. The difference is you get someone who can compare multiple options on your behalf.",
-  },
-  {
-    question: "What does Medicare cover for people with disabilities?",
-    answer:
-      "Medicare for disability recipients includes Part A (hospital coverage) and Part B (doctor visits, outpatient care, preventive services). You can also add Part D for prescription drugs or choose a Medicare Advantage plan that bundles all of these together. The benefits are the same as what a 65-year-old receives.",
+      "Nothing. Medicare brokers are paid by the insurance carriers, not by you. My consultations are free, and there's no obligation to enroll in anything.",
   },
   {
     question:
-      "When does Medicare start after qualifying for SSDI?",
+      "When does Medicare start if I'm approved for SSDI?",
     answer:
-      "Medicare coverage typically begins after you have received Social Security Disability Insurance (SSDI) benefits for 24 months. There are exceptions for ALS (Lou Gehrig's disease) and End-Stage Renal Disease, where coverage can start sooner. Your Part A and Part B will usually begin automatically at the 25th month.",
+      "Medicare coverage begins after you've received SSDI benefits for 24 months. Your Part A and Part B will start automatically at the 25th month. The clock starts from your disability onset date, not your approval date, so some people are closer to eligibility than they realize.",
   },
   {
     question:
-      "Can someone under 65 on disability get a Medigap plan in New Jersey?",
+      "Can I get a Medigap plan if I'm under 65 in New Jersey?",
     answer:
-      "Yes, but availability and pricing vary. Federal law does not require insurance companies to sell Medigap plans to people under 65, but some states including New Jersey have their own rules. The options are more limited than what a 65-year-old would see, and premiums may be higher. Call Anthony at 855-559-1700 to find out exactly what is available to you.",
+      "New Jersey requires Medigap carriers to offer policies to Medicare-eligible residents under 65. However, carriers can charge higher premiums for under-65 enrollees. Your best rates come during your 6-month Medigap Open Enrollment window, which starts the month your Part B is active.",
+  },
+  {
+    question:
+      "What happens to my Medicare if I go back to work?",
+    answer:
+      "You can keep Medicare for at least 93 months (about 8.5 years) after returning to work under Social Security's Extended Period of Medicare Coverage. This gives you real room to test whether working is sustainable without losing healthcare.",
   },
 ];
 
 export default function MedicareBrokerForPeopleOnDisability() {
   return (
-    <main className="max-w-4xl mx-auto px-4 py-8">
+    <>
       <SchemaMarkup schema={breadcrumbSchema} />
       <SchemaMarkup schema={articleSchema} />
 
-      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
+      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-4">
         <Link href="/" className="hover:underline">
           Home
         </Link>{" "}
@@ -107,162 +108,168 @@ export default function MedicareBrokerForPeopleOnDisability() {
         </span>
       </nav>
 
-      <h1 className="text-3xl font-bold mb-4">
-        Medicare Broker for People on Disability: Navigating Under-65 Enrollment in NJ
-      </h1>
+      <article className="max-w-3xl mx-auto">
+        <h1 className="text-3xl font-bold mb-4">
+          Medicare Broker for People on Disability: Navigating Under-65 Enrollment in NJ
+        </h1>
 
-      <Image
-        src="/images/medicare-broker-for-people-on-disability.webp"
-        alt="medicare broker for people on disability"
-        width={800}
-        height={400}
-        className="rounded-lg mb-6 w-full"
-      />
+        <Image
+          src="/images/hub_medicare-broker-for-people-on-disability.webp"
+          alt="medicare broker for people on disability"
+          width={800}
+          height={400}
+          className="w-full rounded-lg mb-6"
+        />
 
-      <p className="text-lg mb-2">
-        A Medicare broker for people on disability can save you hours of confusion and potentially thousands of dollars. If you are under 65 and receiving SSDI in New Jersey, your enrollment rules, plan options, and timelines look different from the standard turning-65 crowd.
-      </p>
-      <p className="text-lg mb-6">
-        I am Anthony Orner, a licensed Medicare broker based in NJ. I work with under-65 disability recipients every week, and my help costs you nothing.
-      </p>
+        <p className="text-lg mb-2">
+          A Medicare broker for people on disability can cut through the confusion that hits when you're under 65 and suddenly enrolled in a system designed for retirees. Most of the standard Medicare advice doesn't apply to your situation. I'm Anthony Orner, a licensed broker in New Jersey, and I help SSDI recipients figure out the right coverage without the stress.
+        </p>
 
-      <PhoneCTA />
+        <PhoneCTA />
 
-      <section className="mt-10 mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          How Medicare works when you qualify through SSDI
-        </h2>
-        <p className="mb-2">
-          After receiving SSDI benefits for 24 consecutive months, you automatically qualify for Medicare Parts A and B. Your coverage starts the 25th month. Two exceptions skip that waiting period: ALS (coverage begins the month your SSDI starts) and End-Stage Renal Disease.
-        </p>
-        <p>
-          Once enrolled, you pay the same $185/month Part B premium as everyone else. Part A is typically premium-free if you or your spouse paid Medicare taxes for at least 10 years. You also face the same $257 annual Part B deductible and $1,676 Part A deductible per benefit period.
-        </p>
-      </section>
+        <section className="mt-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            How Medicare works when you qualify through SSDI
+          </h2>
+          <p className="mb-2">
+            After 24 months of receiving Social Security Disability Insurance, you're automatically enrolled in Medicare Parts A and B. Part A (hospital coverage) is premium-free if you worked at least 10 years. Part B costs $202.90/month in 2026, deducted from your SSDI check.
+          </p>
+          <p>
+            That automatic enrollment catches people off guard. One month your SSDI payment drops by $200 and nobody warned you. If that payment is $1,450 a month, that's a real hit. State programs like Medicaid or the Medicare Savings Program may cover your Part B premium depending on income. Call me and I'll check your eligibility.
+          </p>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Medigap options for under-65 disability beneficiaries in New Jersey
-        </h2>
-        <p className="mb-2">
-          Here is where things get tricky. Federal law guarantees Medigap open enrollment for people turning 65, but it does not require insurers to sell Medigap to those under 65. Some NJ carriers do offer policies to disability recipients, but the selection is narrower and premiums run higher.
-        </p>
-        <p>
-          Not every carrier participates. That is exactly why having a broker matters. I can quickly tell you which companies are writing under-65 policies in your zip code right now, and what they charge.
-        </p>
-      </section>
+        <section className="mt-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            The 24-month waiting period and what counts
+          </h2>
+          <p className="mb-2">
+            The 24-month clock starts at your disability onset date, not the date you got your approval letter. If your claim took two years to process, you may already qualify for Medicare the month your benefits begin. Back payments often overlap with the waiting period.
+          </p>
+          <p>
+            This is one of the most misunderstood parts of disability Medicare. I've worked with people in NJ who didn't realize they were already in their Medigap enrollment window until it was almost too late.
+          </p>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Medicare Advantage vs. supplement plans for disability enrollees
-        </h2>
-        <p className="mb-2">
-          You have two main paths. A Medicare Supplement (Medigap) plan pairs with Original Medicare and covers gaps like the Part A deductible and the 20% Part B coinsurance. A Medicare Advantage plan replaces Original Medicare and often bundles prescription drug coverage, dental, and vision into one plan.
-        </p>
-        <ul className="list-disc pl-6 mb-2 space-y-1">
-          <li>Medigap typically means higher monthly premiums but lower out-of-pocket costs when you need care.</li>
-          <li>Medicare Advantage often has $0 or low premiums but uses provider networks and copays.</li>
-          <li>If you see specialists frequently, a Medigap plan like Plan G may give you more flexibility.</li>
-        </ul>
-        <p>
-          The right choice depends on your doctors, medications, and budget. I will walk through the math with you for free.
-        </p>
-      </section>
+        <section className="mt-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Medigap options for under-65 disability beneficiaries in New Jersey
+          </h2>
+          <p className="mb-2">
+            New Jersey is one of the states that requires Medigap carriers to sell policies to Medicare-eligible people under 65. That's good news. The catch: carriers can charge higher premiums for under-65 enrollees, and rates vary significantly between companies.
+          </p>
+          <ul className="list-disc pl-6 space-y-1 mb-2">
+            <li>Your 6-month Medigap Open Enrollment starts when Part B kicks in</li>
+            <li>During this window, carriers can't deny you or charge more for health conditions</li>
+            <li>Missing this window means potential medical underwriting later</li>
+            <li>Plan G and Plan N are the most common choices for under-65 enrollees</li>
+          </ul>
+          <p>
+            I compare rates across every carrier available in your county so you don't overpay.
+          </p>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Why enrollment timing matters more for disability recipients
-        </h2>
-        <p className="mb-2">
-          When you turn 65, you get a clear 6-month Medigap open enrollment window with guaranteed issue. Under 65, that protection may not apply the same way. Missing your enrollment window can mean higher premiums or even denial based on health questions.
-        </p>
-        <p>
-          I have seen people wait a few months and lose access to a plan they qualified for earlier. Do not let that happen.
-        </p>
-      </section>
+        <section className="mt-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Medicare Advantage vs. supplement plans for disability enrollees
+          </h2>
+          <p className="mb-2">
+            Medicare Advantage plans bundle everything into one card and often include dental, vision, and gym memberships at no extra premium. For someone managing multiple specialists and chronic conditions, though, the network restrictions can be a real problem.
+          </p>
+          <p className="mb-2">
+            A Medigap supplement paired with a standalone Part D drug plan gives you the widest access to doctors and hospitals. You pay a monthly premium, but you avoid surprise bills and referral hassles.
+          </p>
+          <p>
+            There's no single right answer. It depends on your medications, your doctors, and how often you need care. That's exactly what I sort out for you.
+          </p>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          What a broker does that Medicare.gov cannot
-        </h2>
-        <p className="mb-2">
-          Medicare.gov is a solid resource for general information. But it cannot tell you which carriers in your NJ county are actually accepting under-65 applicants this month. It cannot compare three Medigap quotes side by side on a phone call.
-        </p>
-        <p>
-          I can. And I do not charge for it. Insurance companies pay me the same commission whether you find them yourself or I help you. So there is zero downside to calling.
-        </p>
-      </section>
+        <section className="mt-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            What daily life with disability Medicare actually looks like
+          </h2>
+          <p className="mb-2">
+            You're managing pain, fatigue, appointments, and medications. The last thing you need is to spend hours comparing insurance plans while barely keeping up with the week. I hear from people on SSDI who say they're overwhelmed and afraid of choosing wrong.
+          </p>
+          <p>
+            That fear is valid. A bad plan choice can mean losing access to a specialist or paying hundreds more per month than you should. My job is to take that weight off you. One call, and I handle the research and paperwork.
+          </p>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Get free help choosing the right plan before your window closes
-        </h2>
-        <p className="mb-2">
-          If you are on SSDI and approaching your 25th month, or if you already have Medicare and want to review your options, call me at 855-559-1700. I will check what is available in your area, compare costs, and give you a straight answer.
-        </p>
-        <p>
-          No pressure. No obligation. Just clear information from a licensed NJ broker who does this every day.
-        </p>
-      </section>
+        <section className="mt-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Get free help choosing the right plan before your window closes
+          </h2>
+          <p className="mb-2">
+            Your Medigap Open Enrollment window doesn't wait. Once it passes, your options shrink and your costs can rise. Whether you just got your SSDI approval or you've had Medicare for a while and feel like you picked the wrong plan, I can help.
+          </p>
+          <p>
+            I work with SSDI recipients across New Jersey. The consultation is free. There's no obligation to enroll in anything. Just honest answers from someone who does this every day.
+          </p>
+        </section>
 
-      <div className="bg-blue-600 text-white rounded-lg p-8 text-center my-10">
-        <p className="text-2xl font-bold mb-2">
-          Ready to Compare Your Options?
-        </p>
-        <p className="text-lg mb-4">
-          Call Anthony Orner at{" "}
-          <a href="tel:8555591700" className="underline font-semibold">
-            855-559-1700
-          </a>{" "}
-          for a free, no-obligation consultation.
-        </p>
-        <Link
-          href="/contact"
-          className="inline-block bg-white text-blue-600 font-bold py-3 px-6 rounded-lg hover:bg-gray-100 transition"
-        >
-          Get a Free Quote
-        </Link>
-      </div>
-
-      <FAQSection faqs={faqs} />
-
-      <section className="mt-12">
-        <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
-        <ul className="space-y-2">
-          <li>
-            <Link
-              href="/medicare-guides/medicare-supplement-plans-nj"
-              className="text-blue-600 hover:underline"
+        <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 mt-10 mb-10 text-center">
+          <p className="text-xl font-semibold mb-2">
+            Talk to a broker who understands disability Medicare.
+          </p>
+          <p className="text-lg mb-4">
+            Call{" "}
+            <a
+              href="tel:8555591700"
+              className="text-blue-700 font-bold hover:underline"
             >
-              Medicare Supplement Plans in NJ: Your Complete Guide
-            </Link>
-          </li>
-          <li>
+              855-559-1700
+            </a>{" "}
+            or{" "}
             <Link
-              href="/medicare-guides/medicare-advantage-vs-medigap"
-              className="text-blue-600 hover:underline"
+              href="/contact"
+              className="text-blue-700 font-bold hover:underline"
             >
-              Medicare Advantage vs. Medigap: How to Decide
+              Get a Free Quote
             </Link>
-          </li>
-          <li>
-            <Link
-              href="/medicare-guides/medigap-plan-g-nj"
-              className="text-blue-600 hover:underline"
-            >
-              Medigap Plan G in New Jersey: Benefits and Costs
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/services/medicare-broker-nj"
-              className="text-blue-600 hover:underline"
-            >
-              Why Work with a Medicare Broker in NJ
-            </Link>
-          </li>
-        </ul>
-      </section>
-    </main>
+          </p>
+        </div>
+
+        <FAQSection faqs={faqs} />
+
+        <section className="mt-10">
+          <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
+          <ul className="space-y-2">
+            <li>
+              <Link
+                href="/medicare-guides/medigap-plan-g-new-jersey"
+                className="text-blue-700 hover:underline"
+              >
+                Medigap Plan G in New Jersey: Costs and Coverage
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/medicare-guides/medicare-advantage-vs-medigap"
+                className="text-blue-700 hover:underline"
+              >
+                Medicare Advantage vs. Medigap: Which Is Right for You?
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/medicare-guides/medicare-part-b-premium-2026"
+                className="text-blue-700 hover:underline"
+              >
+                Medicare Part B Premium in 2026: What You'll Pay
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/medicare-guides/medigap-open-enrollment-period"
+                className="text-blue-700 hover:underline"
+              >
+                Medigap Open Enrollment: Why the Window Matters
+              </Link>
+            </li>
+          </ul>
+        </section>
+      </article>
+    </>
   );
 }

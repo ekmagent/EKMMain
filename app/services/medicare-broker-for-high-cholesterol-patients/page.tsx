@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Medicare Broker for High Cholesterol Patients",
-      item: "https://www.medicareyourself.com/services/medicare-broker-for-high-cholesterol-patients",
+      item: "https://medicareyourself.com/services/medicare-broker-for-high-cholesterol-patients",
     },
   ],
 };
@@ -51,7 +51,7 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
@@ -59,253 +59,238 @@ const articleSchema = {
     alternateName: "MedicareYourself",
   },
   mainEntityOfPage:
-    "https://www.medicareyourself.com/services/medicare-broker-for-high-cholesterol-patients",
+    "https://medicareyourself.com/services/medicare-broker-for-high-cholesterol-patients",
 };
 
 const faqs = [
   {
     question: "Does Medicare cover cholesterol medication?",
     answer:
-      "Medicare Part D covers most statin medications, but your specific drug, dosage, and pharmacy affect out-of-pocket costs. Formularies change every year, so it's worth reviewing your Part D plan annually to make sure your statin stays covered at the lowest tier possible.",
+      "Yes. Medicare Part D plans cover most statins and other cholesterol-lowering drugs, though formularies vary by carrier. Some plans place brand-name statins on higher tiers with larger copays, while generics like atorvastatin and rosuvastatin are often on preferred tiers. A broker can compare formularies to find the lowest cost for your specific prescription.",
   },
   {
     question: "How much does it cost to use a Medicare broker?",
     answer:
-      "Nothing. Licensed Medicare brokers like Anthony Orner are paid by the insurance carriers, not by you. There's no fee for consultations, plan comparisons, or enrollment help. The plans and premiums are the same whether you use a broker or go direct.",
-  },
-  {
-    question: "Why would Medicare not cover a lipid panel?",
-    answer:
-      "Medicare covers one cardiovascular screening blood test (including a lipid panel) every five years at no cost. If your doctor orders additional lipid panels for monitoring, those are billed as diagnostic tests under Part B. You'll pay 20% coinsurance after the $283 annual deductible unless you have supplemental coverage.",
+      "Nothing. Medicare brokers are paid by insurance carriers, not by you. There's no fee for consultations, plan comparisons, or enrollment help. The plans cost the same whether you enroll directly or through a broker.",
   },
   {
     question:
-      "Can I be denied a Medigap plan because of high cholesterol in NJ?",
+      "Will high cholesterol affect my Medigap premiums in New Jersey?",
     answer:
-      "During your 6-month Medigap Open Enrollment Period (starting the month you turn 65 and are enrolled in Part B), no carrier can deny you or charge more due to high cholesterol. Outside that window, medical underwriting applies in most states, and a cholesterol diagnosis could affect approval or pricing. Timing matters - call to discuss your situation.",
+      "During your 6-month Medigap Open Enrollment Period (starting the month you turn 65 and are enrolled in Part B), carriers cannot charge you more or deny you coverage for high cholesterol. Outside that window, NJ carriers can use medical underwriting, and a cholesterol diagnosis could affect your options or pricing.",
+  },
+  {
+    question: "How often does Medicare cover cholesterol lab work?",
+    answer:
+      "Medicare Part B covers cardiovascular screening blood tests, including cholesterol and lipid panels, once every five years at no cost. If your doctor orders more frequent labs to monitor your treatment, Part B typically covers those as medically necessary, subject to the $283 annual deductible in 2026.",
   },
 ];
 
-export default function MedicareBrokerHighCholesterol() {
+export default function MedicareBrokerHighCholesterolPage() {
   return (
-    <main className="max-w-4xl mx-auto px-4 py-8">
+    <>
       <SchemaMarkup schema={breadcrumbSchema} />
       <SchemaMarkup schema={articleSchema} />
 
-      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
+      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-4">
         <Link href="/" className="hover:underline">
           Home
-        </Link>
-        {" > "}
+        </Link>{" "}
+        &gt;{" "}
         <Link href="/medicare-guides" className="hover:underline">
           Medicare Guides
-        </Link>
-        {" > "}
+        </Link>{" "}
+        &gt;{" "}
         <span className="text-gray-700">
           Medicare Broker for High Cholesterol Patients
         </span>
       </nav>
 
-      <h1 className="text-3xl font-bold text-gray-900 mb-4 leading-tight">
-        Medicare Broker for High Cholesterol Patients Who Need Coverage That
-        Matches Their Commitment
-      </h1>
+      <article className="max-w-3xl mx-auto">
+        <h1 className="text-3xl md:text-4xl font-bold mb-4">
+          Medicare Broker for High Cholesterol Patients Who Need Coverage That
+          Matches Their Commitment
+        </h1>
 
-      <Image
-        src="/images/medicare-broker-for-high-cholesterol-patients.webp"
-        alt="Medicare broker for high cholesterol patients"
-        width={800}
-        height={400}
-        className="rounded-lg mb-6 w-full"
-      />
+        <Image
+          src="/images/hub_medicare-broker-for-high-cholesterol-patients.webp"
+          alt="Medicare broker for high cholesterol patients"
+          width={800}
+          height={400}
+          className="w-full h-auto rounded-lg mb-6"
+        />
 
-      <p className="text-lg text-gray-700 mb-2">
-        A Medicare broker for high cholesterol patients can mean the difference
-        between a plan that covers your statins and labs smoothly and one that
-        leaves you guessing at every appointment. You're doing the work -
-        watching your diet, taking the medication, showing up for bloodwork. Your
-        Medicare plan should do its part too.
-      </p>
-      <p className="text-lg text-gray-700 mb-6">
-        I'm Anthony Orner, a licensed Medicare broker in New Jersey, and I help
-        people with ongoing conditions like high cholesterol find plans that
-        actually fit how they use healthcare.
-      </p>
-
-      <PhoneCTA />
-
-      <section className="mt-10 mb-8">
-        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
-          Why statin users need more than a default Medicare plan
-        </h2>
-        <p className="text-gray-700 mb-2">
-          If you're on atorvastatin, rosuvastatin, or another statin, your Part
-          D formulary matters. A lot. The same drug can sit on Tier 1 with one
-          carrier and Tier 3 with another - that's a real cost difference every
-          month.
+        <p className="text-lg mb-2">
+          A Medicare broker for high cholesterol patients helps you find
+          coverage that actually keeps up with how you manage this condition.
+          You're tracking your numbers, taking your medication, showing up for
+          lab draws. Your plan should support that effort, not create new
+          obstacles every time you need a refill or a follow-up.
         </p>
-        <p className="text-gray-700">
-          Some people assume all Part D plans cover the same drugs the same way.
-          They don't. And formularies change annually, which means a plan that
-          worked last year might cost you more this year.
-        </p>
-      </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
-          Lab work, specialist visits, and what your plan should cover
-        </h2>
-        <p className="text-gray-700 mb-2">
-          Managing cholesterol means regular lipid panels, sometimes every few
-          months while your doctor adjusts dosages. Medicare covers one
-          cardiovascular screening every five years for free. Beyond that, lipid
-          panels are diagnostic tests billed under Part B.
+        <p className="text-lg mb-6">
+          I'm Anthony Orner, a licensed Medicare broker in New Jersey, and I
+          help people with ongoing conditions like high cholesterol match their
+          real healthcare needs to the right plan.
         </p>
-        <ul className="list-disc ml-6 text-gray-700 space-y-1">
-          <li>
-            Part B covers 80% of diagnostic labs after the $283 annual
-            deductible
-          </li>
-          <li>
-            A Medigap plan (like Plan G) picks up that remaining 20% - no
-            surprise bills
-          </li>
-          <li>
-            Cardiology referrals and follow-ups also fall under Part B
-            coinsurance
-          </li>
-        </ul>
-      </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
-          How high cholesterol affects Medigap underwriting in NJ
-        </h2>
-        <p className="text-gray-700 mb-2">
-          During your Medigap Open Enrollment Period - 6 months starting the
-          month you're 65 and enrolled in Part B - carriers can't deny you or
-          charge more for high cholesterol. That's guaranteed issue. No health
-          questions.
-        </p>
-        <p className="text-gray-700">
-          Outside that window, medical underwriting applies. A cholesterol
-          diagnosis on medication is common enough that many carriers will still
-          approve you, but timing and carrier selection matter. This is exactly
-          where a broker saves you headaches.
-        </p>
-      </section>
+        <PhoneCTA />
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
-          The hidden cost of picking the wrong Part D plan
-        </h2>
-        <p className="text-gray-700 mb-2">
-          People in online forums talk about this constantly - they picked a plan
-          based on the premium, then found out their statin required prior
-          authorization or moved to a higher cost tier mid-year. Some switch
-          medications to avoid costs, which creates its own problems.
-        </p>
-        <p className="text-gray-700">
-          I check your specific medications against every available Part D plan
-          in your zip code. You see the actual annual cost, not just the monthly
-          premium.
-        </p>
-      </section>
+        <section className="mt-10 mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Why statin users need more than a default Medicare plan
+          </h2>
+          <p className="mb-3">
+            Not all Part D formularies treat statins the same. One plan might
+            put your atorvastatin on Tier 1 with a $3 copay. Another might
+            classify it differently and charge $25. If your doctor switches you
+            to a brand-name option like Crestor, that gap widens fast.
+          </p>
+          <p>
+            I compare formularies side by side so you're not overpaying for a
+            medication you take every single day.
+          </p>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
-          What I look at when building your plan
-        </h2>
-        <ul className="list-disc ml-6 text-gray-700 space-y-1">
-          <li>Which Part D plans cover your statins at the lowest tier</li>
-          <li>Whether your cardiologist or PCP accepts the plan's network</li>
-          <li>
-            How a Medigap plan eliminates the 20% coinsurance on labs and
-            specialist visits
-          </li>
-          <li>
-            Your total annual cost - premiums, deductibles, copays combined
-          </li>
-        </ul>
-      </section>
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Lab work, specialist visits, and what your plan should cover
+          </h2>
+          <p className="mb-3">
+            Managing cholesterol means regular lipid panels, sometimes every
+            few months while your doctor adjusts dosage. Medicare Part B covers
+            cardiovascular screening blood tests every five years at no cost.
+            Medically necessary labs ordered more frequently are also covered,
+            subject to the 2026 Part B deductible of $283.
+          </p>
+          <ul className="list-disc pl-6 space-y-1">
+            <li>Lipid panels and fasting cholesterol tests</li>
+            <li>Cardiology referrals and specialist copays</li>
+            <li>Annual wellness visits to review your treatment plan</li>
+            <li>Medication therapy management programs under Part D</li>
+          </ul>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
-          Get a plan that covers every lab draw and medication adjustment
-        </h2>
-        <p className="text-gray-700">
-          You shouldn't have to worry whether asking your doctor a question at
-          your physical will trigger an extra charge, or whether your next lipid
-          panel is going to cost more than expected. The right Medicare setup
-          handles this. I'll show you exactly what each plan covers and what
-          you'll pay - before you enroll.
-        </p>
-      </section>
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            How high cholesterol affects Medigap underwriting in NJ
+          </h2>
+          <p className="mb-3">
+            If you're turning 65 and enrolling in Part B, you have a 6-month
+            Medigap Open Enrollment Period where no carrier can deny you or
+            charge more for a pre-existing condition like high cholesterol.
+            That's federal law.
+          </p>
+          <p>
+            Outside that window, New Jersey carriers can apply medical
+            underwriting. A cholesterol diagnosis on your application could
+            mean higher premiums or a denial. Timing matters here, and I make
+            sure you don't miss that protected enrollment window.
+          </p>
+        </section>
 
-      <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 text-center my-10">
-        <p className="text-xl font-semibold text-blue-900 mb-2">
-          Ready to compare plans that cover your cholesterol care?
-        </p>
-        <p className="text-blue-800 mb-4">
-          Call{" "}
-          <a
-            href="tel:8555591700"
-            className="font-bold underline hover:text-blue-600"
-          >
-            855-559-1700
-          </a>{" "}
-          or{" "}
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            The real cost of choosing the wrong Part D plan
+          </h2>
+          <p className="mb-3">
+            Someone on a daily statin who picks the cheapest Part D premium
+            without checking the formulary might spend hundreds more per year
+            in copays than someone who paid a little more upfront for better
+            drug coverage. I've seen it happen more than I'd like.
+          </p>
+          <p>
+            I run your specific medications through every available plan so
+            you see the true total cost, not just the premium.
+          </p>
+        </section>
+
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            What a broker does that a website can't
+          </h2>
+          <p className="mb-3">
+            Medicare plan-finder tools are useful, but they can't ask you
+            whether your doctor is considering switching your medication, or
+            whether you're dealing with muscle aches that might mean trying a
+            different statin next quarter. Those details change which plan is
+            best for you.
+          </p>
+          <p>
+            A broker costs you nothing. Carriers pay my commission, and the
+            plan price is the same whether you enroll through me or directly.
+          </p>
+        </section>
+
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Get a plan that covers every lab draw and medication adjustment
+          </h2>
+          <p>
+            You're already putting in the work to manage your cholesterol.
+            Your Medicare plan should make that easier, not harder. Call me for
+            a free consultation and I'll walk through your medications, your
+            doctors, and your options. No pressure, just answers.
+          </p>
+        </section>
+
+        <div className="bg-blue-600 text-white rounded-lg p-8 text-center my-10">
+          <p className="text-xl font-semibold mb-2">
+            Talk to Anthony Orner, Licensed Medicare Broker
+          </p>
+          <p className="text-3xl font-bold mb-4">
+            <a href="tel:8555591700" className="underline">
+              855-559-1700
+            </a>
+          </p>
           <Link
             href="/contact"
-            className="font-bold underline hover:text-blue-600"
+            className="inline-block bg-white text-blue-600 font-semibold px-6 py-3 rounded-lg hover:bg-gray-100 transition"
           >
-            get a free quote online
+            Get a Free Quote
           </Link>
-          . No cost, no obligation.
-        </p>
-      </div>
+        </div>
 
-      <FAQSection faqs={faqs} />
+        <FAQSection faqs={faqs} />
 
-      <section className="mt-10">
-        <h2 className="text-xl font-semibold text-gray-900 mb-4">
-          Related resources
-        </h2>
-        <ul className="space-y-2">
-          <li>
-            <Link
-              href="/medicare-guides/medigap-plan-g-nj"
-              className="text-blue-700 hover:underline"
-            >
-              Medigap Plan G in New Jersey - What It Covers
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/medicare-guides/medicare-part-d-drug-coverage"
-              className="text-blue-700 hover:underline"
-            >
-              How Medicare Part D Drug Coverage Works
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/services/medicare-broker-nj"
-              className="text-blue-700 hover:underline"
-            >
-              Working with a Medicare Broker in NJ
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/medicare-guides/medigap-open-enrollment"
-              className="text-blue-700 hover:underline"
-            >
-              Medigap Open Enrollment - When Timing Matters Most
-            </Link>
-          </li>
-        </ul>
-      </section>
-    </main>
+        <section className="mt-10 mb-8">
+          <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
+          <ul className="space-y-2">
+            <li>
+              <Link
+                href="/medicare-guides/medigap-open-enrollment-nj"
+                className="text-blue-600 hover:underline"
+              >
+                Medigap Open Enrollment in New Jersey: What You Need to Know
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/medicare-guides/part-d-drug-coverage"
+                className="text-blue-600 hover:underline"
+              >
+                How Medicare Part D Drug Coverage Works
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/medicare-broker-nj"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare Broker in New Jersey
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/medicare-guides/medicare-preventive-services"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare Preventive Services and Screenings
+              </Link>
+            </li>
+          </ul>
+        </section>
+      </article>
+    </>
   );
 }

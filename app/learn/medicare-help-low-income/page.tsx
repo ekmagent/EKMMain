@@ -21,9 +21,9 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.medicareyourself.com" },
-    { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.medicareyourself.com/learn" },
-    { "@type": "ListItem", position: 3, name: "Medicare Help for Low Income", item: "https://www.medicareyourself.com/learn/medicare-help-low-income" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://medicareyourself.com" },
+    { "@type": "ListItem", position: 2, name: "Learn", item: "https://medicareyourself.com/learn" },
+    { "@type": "ListItem", position: 3, name: "Medicare Help for Low Income", item: "https://medicareyourself.com/learn/medicare-help-low-income" },
   ],
 };
 
@@ -36,12 +36,12 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
     name: "MedicareYourself",
-    url: "https://www.medicareyourself.com",
+    url: "https://medicareyourself.com",
   },
 };
 

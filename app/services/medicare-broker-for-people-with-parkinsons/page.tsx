@@ -9,12 +9,12 @@ export const metadata: Metadata = {
   title:
     "medicare broker for people with parkinsons | Free Consultation | MedicareYourself",
   description:
-    "Medicare broker for people with Parkinson's — Anthony Orner matches coverage to your specialists, medications, and therapy schedule. Call for a free consultation.",
+    "Medicare broker for people with Parkinson's — Anthony Orner matches your specialists, medications, and therapy needs to the right plan. Free consultation.",
   openGraph: {
     title:
       "medicare broker for people with parkinsons | Free Consultation | MedicareYourself",
     description:
-      "Medicare broker for people with Parkinson's — Anthony Orner matches coverage to your specialists, medications, and therapy schedule. Call for a free consultation.",
+      "Medicare broker for people with Parkinson's — Anthony Orner matches your specialists, medications, and therapy needs to the right plan. Free consultation.",
   },
 };
 
@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Medicare Broker for People With Parkinson's",
-      item: "https://www.medicareyourself.com/services/medicare-broker-for-people-with-parkinsons",
+      item: "https://medicareyourself.com/services/medicare-broker-for-people-with-parkinsons",
     },
   ],
 };
@@ -51,37 +51,38 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-01-01",
-  dateModified: "2025-01-01",
+  datePublished: "2025-07-01",
+  dateModified: "2025-07-01",
 };
 
 const faqs = [
   {
     question: "Can I get Medicare if I have Parkinson's?",
     answer:
-      "Yes. If you're 65 or older and eligible for Social Security, you qualify for Medicare regardless of pre-existing conditions like Parkinson's. If you're under 65, you may qualify through Social Security Disability Insurance (SSDI) after a 24-month waiting period.",
+      "Yes. If you're 65 or older, you qualify for Medicare regardless of health conditions. If you're under 65, you may qualify through Social Security Disability after a 24-month waiting period. Parkinson's alone doesn't disqualify you from any Medicare plan type.",
   },
   {
     question: "How much does it cost to use a Medicare broker?",
     answer:
-      "Nothing. Medicare brokers are paid by insurance carriers, not by you. There's no fee for consultations, plan comparisons, or enrollment help. The plan costs the same whether you enroll directly or through a broker.",
+      "Nothing. Medicare brokers are paid by the insurance carriers, not by you. Anthony's consultations and plan recommendations are completely free. You'll never see a fee from us.",
   },
   {
-    question: "What's the difference between a Medicare agent and a Medicare broker?",
+    question:
+      "Will my Parkinson's diagnosis affect which Medicare plans I can enroll in?",
     answer:
-      "An agent typically represents one insurance company. A broker works with multiple carriers and can compare plans across companies to find the best fit for your situation. For someone managing Parkinson's, that flexibility matters.",
+      "For Medicare Advantage, carriers must accept you regardless of pre-existing conditions during eligible enrollment periods. For Medigap, your health history can matter outside of your 6-month Open Enrollment Period. Guaranteed issue situations may also apply. Call to discuss your specific timeline.",
   },
   {
-    question: "What is the 5:2:1 rule for Parkinson's?",
+    question: "Does Medicare cover DBS surgery for Parkinson's?",
     answer:
-      "The 5:2:1 rule is a clinical guideline that flags advanced Parkinson's: taking 5+ doses of levodopa daily, experiencing 2+ hours of 'off' time, or dealing with 1+ hour of troublesome dyskinesia. If any apply, it's time to discuss advanced therapies like DBS with your neurologist.",
+      "Medicare covers deep brain stimulation (DBS) when medically necessary and certain clinical criteria are met. Part A covers the hospital stay, Part B covers the physician services. Your out-of-pocket costs depend heavily on whether you have a Medigap plan, Medicare Advantage, or Original Medicare alone.",
   },
 ];
 
@@ -106,13 +107,13 @@ export default function MedicareBrokerForPeopleWithParkinsons() {
       </nav>
 
       <article className="max-w-3xl mx-auto">
-        <h1 className="text-3xl md:text-4xl font-bold mb-4">
-          Medicare Broker for People With Parkinson&apos;s: Finding Coverage That
-          Actually Fits
+        <h1 className="text-3xl md:text-4xl font-bold mb-6">
+          Medicare Broker for People With Parkinson&apos;s: Finding Coverage
+          That Actually Fits
         </h1>
 
         <Image
-          src="/images/medicare-broker-for-people-with-parkinsons_photo.webp"
+          src="/images/hub_medicare-broker-for-people-with-parkinsons.webp"
           alt="medicare broker for people with parkinsons"
           width={800}
           height={400}
@@ -121,10 +122,17 @@ export default function MedicareBrokerForPeopleWithParkinsons() {
         />
 
         <p className="text-lg mb-2">
-          A Medicare broker for people with Parkinson&apos;s doesn&apos;t just compare premiums. I look at your neurologist visits, your medication list, your therapy schedule, and how fast things might change. Then I match you with a plan built for where you are right now.
+          A Medicare broker for people with Parkinson&apos;s does one thing a
+          generic agent won&apos;t: build your plan around the reality of
+          movement disorder specialists, carbidopa-levodopa refills, physical
+          therapy sessions, and the possibility of procedures like DBS down the
+          road. I&apos;m Anthony Orner, and I help Parkinson&apos;s patients and
+          their families match coverage to actual treatment needs, not just check
+          a box during enrollment.
         </p>
-        <p className="text-lg mb-6">
-          I&apos;m Anthony Orner, a licensed Medicare broker. I work with families dealing with Parkinson&apos;s every enrollment season, and I know what these plans actually cover when it counts.
+
+        <p className="mb-6">
+          This consultation is free. The carriers pay me, you don&apos;t.
         </p>
 
         <PhoneCTA />
@@ -133,11 +141,19 @@ export default function MedicareBrokerForPeopleWithParkinsons() {
           <h2 className="text-2xl font-semibold mb-3">
             Why Parkinson&apos;s patients need predictable out-of-pocket costs
           </h2>
-          <p className="mb-2">
-            Parkinson&apos;s medication costs add up fast. Levodopa alone can require multiple daily doses, and many patients take several drugs on top of that. Prescription refills running $1,000 to $3,000+ per month is a reality families deal with.
+          <p className="mb-3">
+            Parkinson&apos;s isn&apos;t one specialist and one prescription.
+            It&apos;s a neurologist, a movement disorder specialist, a physical
+            therapist, maybe an occupational therapist and a speech therapist
+            too. Each visit has a copay or coinsurance. Each medication has a
+            tier. The costs stack up fast when you&apos;re managing a condition
+            that touches every part of daily life.
           </p>
           <p>
-            Then add speech therapy, physical therapy, neurologist copays, and potential procedures like deep brain stimulation (DBS). You need a plan where you can predict what you&apos;ll owe each month, not one that surprises you with 20% coinsurance on a $250,000 surgery.
+            With Original Medicare alone, you pay 20% of Part B services with no
+            annual cap. That 20% on a $100,000 DBS surgery is $20,000 out of
+            your pocket. Predictability matters here more than almost any other
+            diagnosis.
           </p>
         </section>
 
@@ -145,19 +161,23 @@ export default function MedicareBrokerForPeopleWithParkinsons() {
           <h2 className="text-2xl font-semibold mb-3">
             Medigap vs Medicare Advantage when you see multiple specialists
           </h2>
-          <p className="mb-2">
-            With Parkinson&apos;s, you&apos;re likely seeing a movement disorder specialist, a physical therapist, possibly a speech therapist, and your primary care doctor. That&apos;s a lot of moving parts.
+          <p className="mb-3">
+            Medicare Advantage plans use networks. If your movement disorder
+            specialist is out of network, you either pay more or switch doctors.
+            For someone with Parkinson&apos;s who&apos;s built trust with a care
+            team, switching isn&apos;t just inconvenient. It can set back your
+            treatment.
           </p>
-          <ul className="list-disc pl-6 space-y-1 mb-2">
-            <li>
-              <strong>Medigap (Medicare Supplement):</strong> You keep Original Medicare and see any provider who accepts Medicare. No referrals. No network restrictions. Plans like Plan G leave you paying only the $283 Part B deductible for 2026.
-            </li>
-            <li>
-              <strong>Medicare Advantage:</strong> Lower premiums, but you&apos;re locked into a network. If your neurologist or DBS surgeon is out-of-network, costs jump significantly or coverage disappears.
-            </li>
-          </ul>
+          <p className="mb-3">
+            Medigap (Medicare Supplement) plans work with any provider who
+            accepts Medicare. No referrals. No network restrictions. Plan G, the
+            most popular option, covers everything except the $283 annual Part B
+            deductible. Rates vary by carrier, age, and location.
+          </p>
           <p>
-            For most Parkinson&apos;s patients who need specialist flexibility, Medigap tends to be the safer bet. But the right choice depends on your specific doctors and drug list.
+            Medicare Advantage can work well if your entire care team is
+            in-network and you want built-in drug coverage. I&apos;ll compare
+            both options against your actual provider list.
           </p>
         </section>
 
@@ -165,43 +185,18 @@ export default function MedicareBrokerForPeopleWithParkinsons() {
           <h2 className="text-2xl font-semibold mb-3">
             Guaranteed issue situations that skip medical underwriting
           </h2>
-          <p className="mb-2">
-            If you&apos;re already on Medicare Advantage and want to switch to Medigap, you usually face medical underwriting. With Parkinson&apos;s, that can mean denial.
-          </p>
-          <p className="mb-2">
-            But federal guaranteed issue rights let you enroll in Medigap Plan A, B, C, F, K, or L without health questions in specific situations:
-          </p>
-          <ul className="list-disc pl-6 space-y-1">
-            <li>Your Medicare Advantage plan leaves your area or stops operating</li>
-            <li>You lose employer or union coverage</li>
-            <li>You&apos;re within 12 months of first joining a Medicare Advantage plan and want to switch back to Original Medicare</li>
-          </ul>
-          <p className="mt-2">
-            These windows are narrow. Missing one can lock you out of Medigap for good. I track these timelines so you don&apos;t have to.
-          </p>
-        </section>
-
-        <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-3">
-            Part D and Parkinson&apos;s drug costs
-          </h2>
-          <p className="mb-2">
-            Starting in 2025, Part D has a $2,000 annual out-of-pocket cap on prescription drugs. That&apos;s significant for Parkinson&apos;s patients on multiple medications.
+          <p className="mb-3">
+            Outside your initial Medigap Open Enrollment Period (6 months
+            starting when you&apos;re 65+ and enrolled in Part B), carriers in
+            most states can ask health questions. A Parkinson&apos;s diagnosis
+            could mean higher rates or denial.
           </p>
           <p>
-            I compare Part D formularies to make sure your specific drugs are covered at the lowest tier possible. A plan that covers carbidopa-levodopa as Tier 1 vs. Tier 3 can save you hundreds per year.
-          </p>
-        </section>
-
-        <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-3">
-            What families going through this actually worry about
-          </h2>
-          <p className="mb-2">
-            The families I work with aren&apos;t just thinking about this year. They&apos;re thinking about what happens when symptoms progress. When a parent needs skilled nursing. When DBS becomes the conversation. When the person managing the finances is also the caregiver.
-          </p>
-          <p>
-            I build plans with progression in mind. SNF coinsurance alone runs $209.50/day for days 21 through 100 in 2026 under Original Medicare without a supplement. That&apos;s over $16,000 in a single stay. The right Medigap plan covers that entirely.
+            But federal guaranteed issue rights exist. If you&apos;re losing
+            employer coverage, leaving a Medicare Advantage plan, or your
+            carrier exits your area, you can get Medigap without medical
+            underwriting. Timing these windows correctly is one of the most
+            valuable things a broker does.
           </p>
         </section>
 
@@ -209,41 +204,69 @@ export default function MedicareBrokerForPeopleWithParkinsons() {
           <h2 className="text-2xl font-semibold mb-3">
             How Anthony builds a plan around your treatment schedule
           </h2>
-          <p className="mb-2">
-            Here&apos;s what a call with me looks like:
+          <p className="mb-3">
+            I start with your medications, your doctors, and your therapy
+            schedule. Not a sales script. I check every drug on the Part D
+            formulary. I verify every provider is in-network (or confirm you
+            don&apos;t need a network at all). Then I show you the numbers side
+            by side.
           </p>
-          <ul className="list-disc pl-6 space-y-1">
-            <li>We review every doctor, specialist, and therapist on your team</li>
-            <li>I check your full medication list against Part D formularies</li>
-            <li>We talk about what&apos;s coming next: DBS evaluation, increased therapy, potential facility care</li>
-            <li>I show you 3-4 plan options with actual costs, not estimates</li>
-          </ul>
-          <p className="mt-2">
-            No charge. No pressure. I work with multiple carriers, so I&apos;m not pushing one company&apos;s product.
+          <p>
+            Families dealing with Parkinson&apos;s have enough on their plate.
+            The last thing you need is a surprise bill because someone didn&apos;t
+            check whether your neurologist takes the plan they sold you.
           </p>
         </section>
 
-        <div className="bg-blue-600 text-white rounded-lg p-8 text-center mb-10">
-          <p className="text-xl font-semibold mb-2">
-            Talk to a broker who understands Parkinson&apos;s care.
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            What about Part D drug coverage for Parkinson&apos;s medications?
+          </h2>
+          <p className="mb-3">
+            Parkinson&apos;s medications like carbidopa-levodopa, dopamine
+            agonists, and MAO-B inhibitors land on different formulary tiers
+            depending on the plan. The wrong Part D plan could cost you hundreds
+            more per year than the right one.
           </p>
-          <p className="text-lg mb-4">
-            Call{" "}
-            <a
-              href="tel:8555591700"
-              className="underline font-bold text-white"
-            >
+          <p>
+            I run your full medication list through every available Part D plan
+            in your area and rank them by total annual cost, not just the monthly
+            premium.
+          </p>
+        </section>
+
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            The financial burden families don&apos;t talk about
+          </h2>
+          <p className="mb-3">
+            Parkinson&apos;s is progressive. Costs grow over time. Adult
+            children become caregivers. Financial planning for a parent with PD
+            means thinking about skilled nursing facility coverage too. Under
+            Original Medicare, SNF coinsurance runs $209.50/day for days 21
+            through 100 in 2026. A good Medigap plan covers that entirely.
+          </p>
+          <p>
+            Getting the right Medicare coverage now saves real money later. And
+            it takes one less thing off your family&apos;s plate.
+          </p>
+        </section>
+
+        <div className="bg-blue-600 text-white rounded-lg p-8 my-10 text-center">
+          <p className="text-xl font-semibold mb-3">
+            Talk to a broker who understands Parkinson&apos;s care needs.
+          </p>
+          <p className="text-2xl font-bold mb-4">
+            <a href="tel:8555591700" className="underline">
               855-559-1700
-            </a>{" "}
-            or{" "}
-            <Link
-              href="/quote"
-              className="underline font-bold text-white"
-            >
-              get a free quote online
-            </Link>
-            .
+            </a>
           </p>
+          <Link
+            href="/contact"
+            className="inline-block bg-white text-blue-600 font-semibold py-3 px-6 rounded-lg hover:bg-gray-100"
+          >
+            Get a Free Quote
+          </Link>
         </div>
 
         <FAQSection faqs={faqs} />
@@ -264,7 +287,15 @@ export default function MedicareBrokerForPeopleWithParkinsons() {
                 href="/medicare-guides/medicare-advantage-vs-medigap"
                 className="text-blue-600 hover:underline"
               >
-                Medicare Advantage vs Medigap: How to Decide
+                Medicare Advantage vs Medigap: How to Choose
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/medicare-guides/guaranteed-issue-medigap"
+                className="text-blue-600 hover:underline"
+              >
+                Guaranteed Issue Rights for Medigap
               </Link>
             </li>
             <li>
@@ -272,15 +303,7 @@ export default function MedicareBrokerForPeopleWithParkinsons() {
                 href="/medicare-guides/part-d-drug-coverage"
                 className="text-blue-600 hover:underline"
               >
-                Part D Drug Coverage: What Parkinson&apos;s Patients Should Know
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/medicare-guides/guaranteed-issue-rights"
-                className="text-blue-600 hover:underline"
-              >
-                Guaranteed Issue Rights: When You Can Switch Without Underwriting
+                Part D Drug Coverage: Finding the Right Plan
               </Link>
             </li>
           </ul>

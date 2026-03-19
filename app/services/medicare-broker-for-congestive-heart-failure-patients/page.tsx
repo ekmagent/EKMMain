@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Medicare Broker for Congestive Heart Failure Patients",
-      item: "https://www.medicareyourself.com/services/medicare-broker-for-congestive-heart-failure-patients",
+      item: "https://medicareyourself.com/services/medicare-broker-for-congestive-heart-failure-patients",
     },
   ],
 };
@@ -51,47 +51,47 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-01",
-  dateModified: "2025-07-01",
+  datePublished: "2025-01-15",
+  dateModified: "2025-01-15",
 };
 
 const faqs = [
   {
-    question: "Can you get Medicare if you have congestive heart failure?",
+    question:
+      "Does Original Medicare cover cardiac rehab for congestive heart failure?",
     answer:
-      "Yes. Medicare does not deny coverage based on pre-existing conditions like CHF. If you're 65 or older, or qualify through disability, you're eligible for Original Medicare (Parts A and B). During your Medigap Open Enrollment Period - the 6 months starting when you turn 65 and have Part B - you can also enroll in a Medicare Supplement plan with no health questions asked.",
-  },
-  {
-    question: "How much does it cost to use a Medicare broker?",
-    answer:
-      "Nothing. Licensed Medicare brokers like Anthony are paid by the insurance carriers, not by you. There's no fee, no markup, and no difference in plan pricing whether you use a broker or enroll on your own. You get free plan comparisons and ongoing support at no cost.",
+      "Yes. Medicare Part B covers cardiac rehabilitation programs when ordered by your doctor after a CHF diagnosis. You'll pay 20% coinsurance after meeting the $283 annual Part B deductible, unless you have supplemental coverage that picks up that cost.",
   },
   {
     question:
-      "Does Medicare cover cardiac rehabilitation for heart failure patients?",
+      "Is Medigap or Medicare Advantage better for heart failure patients?",
     answer:
-      "Medicare Part B covers cardiac rehabilitation programs when ordered by a doctor. You'll typically pay 20% of the Medicare-approved amount after your $283 annual Part B deductible. A Medigap plan like Plan G covers that 20%, so your out-of-pocket cost for cardiac rehab drops to zero after the deductible.",
+      "It depends on your situation. Medigap plans like Plan G give you predictable costs and let you see any Medicare-accepting provider, which matters when you need specialists or hospital transfers. Medicare Advantage plans may offer lower premiums but can limit your network and carry higher out-of-pocket costs during hospitalizations. Call to discuss your specific medications and care team.",
   },
   {
     question:
-      "What's better for CHF patients - Medigap or Medicare Advantage?",
+      "Can I switch Medicare plans if my current one doesn't cover my heart failure medications?",
     answer:
-      "It depends on your situation, but CHF patients with frequent hospitalizations and specialist visits often benefit from Medigap (especially Plan G) paired with a standalone Part D drug plan. This combination has no network restrictions and no prior authorization for most services. Call Anthony at 855-559-1700 to compare both options side by side for free.",
+      "You can switch Part D or Medicare Advantage plans during Open Enrollment (October 15 through December 7). Certain qualifying events, like moving out of your plan's service area or losing other coverage, may also trigger a Special Enrollment Period. Anthony can review your current drug list and find plans with better formulary coverage.",
+  },
+  {
+    question: "How much could a CHF hospitalization cost on Original Medicare?",
+    answer:
+      "Each benefit period starts with a $1,676 Part A deductible in 2026. If you're readmitted within 60 days, that's the same benefit period. But a new admission after 60 days means another $1,676. Skilled nursing facility stays cost $209.50/day for days 21 through 100. Without supplemental coverage, these costs add up fast with CHF.",
   },
 ];
 
-export default function MedicareBrokerForCongestiveHeartFailurePatients() {
+export default function MedicareBrokerCHFPage() {
   return (
     <main className="max-w-4xl mx-auto px-4 py-8">
-      <SchemaMarkup schema={breadcrumbSchema} />
-      <SchemaMarkup schema={articleSchema} />
+      <SchemaMarkup schema={[breadcrumbSchema, articleSchema]} />
 
       <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
         <Link href="/" className="hover:underline">
@@ -107,133 +107,168 @@ export default function MedicareBrokerForCongestiveHeartFailurePatients() {
         </span>
       </nav>
 
-      <h1 className="text-3xl font-bold mb-4">
-        Medicare Broker for Congestive Heart Failure Patients Who Refuse to Accept Coverage Gaps
+      <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+        Medicare Broker for Congestive Heart Failure Patients Who Refuse to
+        Accept Coverage Gaps
       </h1>
 
       <Image
-        src="/images/medicare-broker-for-congestive-heart-failure-patients.webp"
+        src="/images/hub_medicare-broker-for-congestive-heart-failure-patients.webp"
         alt="Medicare broker for congestive heart failure patients"
         width={800}
         height={400}
-        className="rounded-lg mb-6 w-full"
+        className="w-full rounded-lg mb-6"
+        priority
       />
 
-      <p className="text-lg mb-2">
-        A Medicare broker for congestive heart failure patients does one thing most agents won't: look at your actual medical reality before recommending a plan. The breathlessness, the daily weigh-ins, the cardiologist visits every few weeks, the medications that keep changing - your coverage needs to match all of it, not just check a box.
+      <p className="text-lg text-gray-700 mb-2">
+        A Medicare broker for congestive heart failure patients does one thing
+        most agents won't: sit down with your medication list, your cardiologist
+        referrals, and your hospital history, then find the plan that actually
+        holds up when your heart doesn't cooperate. I'm Anthony Orner, a
+        licensed broker in NJ, and I do this work every week.
       </p>
-      <p className="text-lg mb-6">
-        I'm Anthony Orner, a licensed Medicare broker in New Jersey. I help CHF patients find plans that cover what they actually use - not what looks good on paper.
+      <p className="text-lg text-gray-700 mb-6">
+        CHF changes your life overnight. Your coverage should change with it.
       </p>
 
       <PhoneCTA />
 
       <section className="mt-10">
-        <h2 className="text-2xl font-semibold mb-3">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
           The real cost of CHF: hospitalizations, medications, and monitoring
         </h2>
-        <p className="mb-3">
-          Heart failure is expensive to manage. A single hospitalization can run well into six figures. The Part A deductible alone is $1,676 per benefit period in 2026 - and CHF patients often have multiple benefit periods in a single year.
+        <p className="text-gray-700 mb-2">
+          One hospital stay costs $1,676 in Part A deductible alone in 2026. CHF
+          patients average multiple admissions per year. If you end up in a
+          skilled nursing facility for rehab, days 21 through 100 run $209.50
+          per day out of your pocket without supplemental coverage.
         </p>
-        <p className="mb-3">
-          Then there are the medications. Entresto, Lasix, ACE inhibitors, beta-blockers. Formularies change every year. One client's Tier 2 drug became Tier 5 overnight - that's the difference between $15 and $200+ per fill.
+        <p className="text-gray-700">
+          Then there are the meds. Entresto, Jardiance, and other Tier 4 or 5
+          drugs can cost hundreds monthly under the wrong Part D plan. Add
+          cardiac rehab sessions, echocardiograms, and regular cardiology
+          visits, and you're looking at real money.
         </p>
       </section>
 
       <section className="mt-10">
-        <h2 className="text-2xl font-semibold mb-3">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
           Why most Medicare plans fall short for heart failure patients
         </h2>
-        <p className="mb-3">
-          Most plan comparisons look at premiums and star ratings. They don't account for how often you'll actually use the plan. With CHF, you're not a "maybe I'll need it" enrollee. You're using the system constantly.
+        <p className="text-gray-700 mb-2">
+          Most people pick a Medicare plan based on premium alone. That works
+          fine if you're healthy. With CHF, the wrong plan can cost you tens of
+          thousands in a single bad month.
         </p>
-        <ul className="list-disc pl-6 mb-3 space-y-2">
-          <li>Prior authorizations that delay cardiac rehab</li>
-          <li>Network restrictions that block your cardiologist</li>
-          <li>Hospital copays that stack up with each readmission</li>
-          <li>Part D plans that don't cover your specific drug regimen</li>
+        <ul className="list-disc pl-6 text-gray-700 space-y-1">
+          <li>Narrow networks that exclude your cardiologist or cardiac center</li>
+          <li>Prior authorization delays on heart failure medications</li>
+          <li>High copays for specialist visits you need every 4 to 6 weeks</li>
+          <li>No coverage for out-of-area hospital transfers during emergencies</li>
         </ul>
       </section>
 
       <section className="mt-10">
-        <h2 className="text-2xl font-semibold mb-3">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
           Medigap vs. Medicare Advantage when you have CHF
         </h2>
-        <p className="mb-3">
-          Medicare Advantage plans cap your out-of-pocket spending and often include extras like transportation and gym memberships. But they come with networks, referrals, and prior authorizations - all friction points when you need fast access to care.
+        <p className="text-gray-700 mb-2">
+          A Medigap Plan G paired with a standalone Part D plan gives you the
+          most freedom. You pay the $283 Part B deductible, and after that,
+          Plan G covers your 20% coinsurance on every Medicare-approved service.
+          Any hospital. Any specialist. No network restrictions.
         </p>
-        <p className="mb-3">
-          Medigap Plan G with a standalone Part D plan costs more monthly but eliminates surprises. After the $283 Part B deductible, Plan G covers 100% of Medicare-approved costs. No copays at the cardiologist. No hospital bills after surgery. No network to worry about.
-        </p>
-        <p className="mb-3">
-          One person with a massive cardiac event paid about $257 for their Part B deductible and monthly premiums on Plan G. The total bill was over a million dollars. That's the difference the right plan makes.
+        <p className="text-gray-700">
+          Medicare Advantage can work for some CHF patients, but you need to
+          check the maximum out-of-pocket, confirm your entire care team is
+          in-network, and verify your meds are on formulary. One person I spoke
+          with saved over a million dollars on a massive cardiac event because
+          they'd enrolled in Original Medicare with a supplement. The wrong
+          Advantage plan in that same situation could have meant six-figure bills.
         </p>
       </section>
 
       <section className="mt-10">
-        <h2 className="text-2xl font-semibold mb-3">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
           How Anthony matches CHF patients with plans that actually work
         </h2>
-        <p className="mb-3">
-          I start with your medication list, your doctors, and your recent hospital history. Not a sales script. I run your drugs through every available Part D formulary to find the lowest annual cost. Then I match that with the right Medigap or Advantage plan based on how you actually use healthcare.
+        <p className="text-gray-700 mb-2">
+          I start with your full picture: current meds, doctors, hospitals, and
+          how often you're being seen. Then I compare every available plan in
+          your area against that reality.
         </p>
-        <p className="mb-3">
-          If you're in NJ, I know which carriers have the best rates and which health systems - RWJBarnabas, Hackensack Meridian, Cooper - your plan needs to include.
+        <ul className="list-disc pl-6 text-gray-700 space-y-1">
+          <li>Run your prescriptions through every Part D formulary</li>
+          <li>Verify your cardiologist and hospital are in-network</li>
+          <li>Calculate your true annual cost, not just the premium</li>
+          <li>Flag plans with prior auth requirements on your cardiac meds</li>
+        </ul>
+      </section>
+
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          When to call (and when it's urgent)
+        </h2>
+        <p className="text-gray-700 mb-2">
+          If you're turning 65, your Medigap Open Enrollment Period is the
+          6 months starting the month you turn 65 and are enrolled in Part B.
+          During this window, no carrier can deny you or charge more because of
+          your CHF diagnosis. Miss it, and guaranteed-issue options shrink
+          dramatically.
+        </p>
+        <p className="text-gray-700">
+          Already on Medicare and unhappy with your plan? Open Enrollment runs
+          October 15 through December 7. But don't wait until October to start
+          the conversation. Call now so we're ready when the window opens.
         </p>
       </section>
 
       <section className="mt-10">
-        <h2 className="text-2xl font-semibold mb-3">
-          Your Medigap open enrollment window matters more than you think
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          Your heart condition changed everything except your right to good coverage
         </h2>
-        <p className="mb-3">
-          If you're turning 65, you have a one-time, 6-month Medigap Open Enrollment Period starting the month you're 65 and enrolled in Part B. During this window, no carrier can deny you or charge more because of CHF. Miss it, and you may face medical underwriting - which is a real problem with a heart failure diagnosis on your record.
+        <p className="text-gray-700">
+          Going from 18 holes to barely making it up the stairs is hard enough.
+          You shouldn't also have to fight your insurance company for coverage on
+          the meds and rehab keeping you alive. That's what I'm here for. The
+          call is free, there's no obligation, and I'll tell you exactly where
+          your current plan falls short.
         </p>
       </section>
 
-      <section className="mt-10">
-        <h2 className="text-2xl font-semibold mb-3">
-          Your diagnosis changed your life - your coverage should keep up
-        </h2>
-        <p className="mb-3">
-          You didn't plan for daily pill organizers, monthly lab work, and knowing every ER in your zip code. But that's your reality now. The least your Medicare plan can do is keep up with it - not fight you at every claim.
+      <div className="mt-12 bg-blue-600 text-white rounded-lg p-8 text-center">
+        <p className="text-2xl font-bold mb-2">
+          Talk to a broker who understands CHF coverage.
         </p>
-        <p>
-          Call me at 855-559-1700. I'll review your current coverage, your prescriptions, and your doctors. Free, no obligation, and I'll tell you the truth about what you have and what you need.
-        </p>
-      </section>
-
-      <section className="mt-10 bg-blue-50 rounded-lg p-6 text-center">
-        <p className="text-xl font-semibold mb-2">
-          Talk to a licensed Medicare broker who understands CHF
-        </p>
-        <p className="mb-4">
+        <p className="text-lg mb-4">
           Call{" "}
-          <a
-            href="tel:8555591700"
-            className="text-blue-700 font-bold underline"
-          >
+          <a href="tel:8555591700" className="underline font-semibold">
             855-559-1700
           </a>{" "}
-          or{" "}
-          <Link href="/contact" className="text-blue-700 font-bold underline">
-            get a free quote online
-          </Link>
-          .
+          for a free plan review.
         </p>
-      </section>
+        <Link
+          href="/contact"
+          className="inline-block bg-white text-blue-600 font-semibold px-6 py-3 rounded-lg hover:bg-gray-100 transition"
+        >
+          Get a Free Quote
+        </Link>
+      </div>
 
-      <section className="mt-10">
+      <section className="mt-12">
         <FAQSection faqs={faqs} />
       </section>
 
-      <section className="mt-10">
-        <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
+      <section className="mt-12">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-4">
+          Related resources
+        </h2>
         <ul className="space-y-2">
           <li>
             <Link
               href="/medicare-guides/medigap-plan-g-nj"
-              className="text-blue-700 hover:underline"
+              className="text-blue-600 hover:underline"
             >
               Medigap Plan G in New Jersey: What It Covers and What It Costs
             </Link>
@@ -241,25 +276,25 @@ export default function MedicareBrokerForCongestiveHeartFailurePatients() {
           <li>
             <Link
               href="/medicare-guides/medicare-advantage-vs-medigap"
-              className="text-blue-700 hover:underline"
+              className="text-blue-600 hover:underline"
             >
-              Medicare Advantage vs. Medigap: How to Decide
+              Medicare Advantage vs. Medigap: Which Is Right for You?
             </Link>
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-part-d-drug-plans-nj"
-              className="text-blue-700 hover:underline"
+              href="/medicare-guides/medicare-part-d-prescription-drug-plans"
+              className="text-blue-600 hover:underline"
             >
-              Medicare Part D Drug Plans in NJ
+              Medicare Part D Prescription Drug Plans Explained
             </Link>
           </li>
           <li>
             <Link
               href="/services/medicare-broker-nj"
-              className="text-blue-700 hover:underline"
+              className="text-blue-600 hover:underline"
             >
-              Find a Licensed Medicare Broker in New Jersey
+              Find a Medicare Broker in New Jersey
             </Link>
           </li>
         </ul>

@@ -7,14 +7,14 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 
 export const metadata: Metadata = {
   title:
-    "medicare broker for people with CLL | Free Expert Guidance | MedicareYourself",
+    "medicare broker for people with CLL | Free Consult | MedicareYourself",
   description:
-    "Medicare broker for people with CLL — honest help with Medigap underwriting, Advantage plans, and guaranteed issue options. Free consult with Anthony Orner.",
+    "Medicare broker for people with CLL — honest guidance on Medigap underwriting, Medicare Advantage, and guaranteed issue options. Call Anthony Orner today.",
   openGraph: {
     title:
-      "medicare broker for people with CLL | Free Expert Guidance | MedicareYourself",
+      "medicare broker for people with CLL | Free Consult | MedicareYourself",
     description:
-      "Medicare broker for people with CLL — honest help with Medigap underwriting, Advantage plans, and guaranteed issue options. Free consult with Anthony Orner.",
+      "Medicare broker for people with CLL — honest guidance on Medigap underwriting, Medicare Advantage, and guaranteed issue options. Call Anthony Orner today.",
   },
 };
 
@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Medicare Broker for People With CLL",
-      item: "https://www.medicareyourself.com/services/medicare-broker-for-people-with-cll",
+      item: "https://medicareyourself.com/services/medicare-broker-for-people-with-cll",
     },
   ],
 };
@@ -51,7 +51,7 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
@@ -66,76 +66,81 @@ const faqs = [
   {
     question: "Does Medicare pay for CLL treatment?",
     answer:
-      "Yes. Original Medicare (Parts A and B) covers CLL treatment including chemotherapy administered in a hospital or doctor's office, oncologist visits, lab work, and imaging. Part B covers drugs administered by your doctor. Oral cancer medications taken at home are typically covered under a Part D prescription drug plan. Your out-of-pocket costs depend on whether you have a Medigap supplement, a Medicare Advantage plan, or Part D coverage.",
+      "Yes. Original Medicare (Parts A and B) covers CLL treatments including chemotherapy, targeted therapies like BTK inhibitors, lab work, and oncologist visits. Part A covers inpatient hospital stays. Part B covers outpatient infusions and doctor appointments. Part D covers oral cancer medications. Your out-of-pocket costs depend on whether you have a Medigap plan, Medicare Advantage, or Original Medicare alone.",
+  },
+  {
+    question:
+      "Can I get a Medigap plan if I have chronic lymphocytic leukemia?",
+    answer:
+      "It depends on timing. During your 6-month Medigap Open Enrollment Period (starting the month you turn 65 and have Part B), no carrier can deny you or charge more due to CLL. Outside that window, most states allow medical underwriting, and a CLL diagnosis will likely result in a denial. Guaranteed issue situations may still apply if you qualify.",
   },
   {
     question: "What is the new treatment for chronic lymphocytic leukemia?",
     answer:
-      "Targeted therapies like BTK inhibitors and BCL-2 inhibitors have changed CLL treatment significantly. These are often oral medications covered under Part D, though formulary coverage and tier placement vary by plan. A broker can help you check whether your specific CLL medications are covered and at what cost under different plan options.",
+      "Targeted therapies like BTK inhibitors and BCL-2 inhibitors have largely replaced traditional chemotherapy for many CLL patients. These oral medications are typically covered under Medicare Part D. Your oncologist and a CLL specialist can help determine the best treatment approach based on your specific genetic markers.",
   },
   {
-    question: "Can I get a Medigap plan if I have CLL?",
+    question: "Should I choose Medicare Advantage or Original Medicare with CLL?",
     answer:
-      "It depends on timing. During your 6-month Medigap Open Enrollment Period (starting when you turn 65 and have Part B), insurers cannot deny you or charge more due to CLL. Outside that window, most carriers will medically underwrite, and an active cancer diagnosis typically results in a decline. A broker can identify whether you qualify for guaranteed issue rights that bypass health questions.",
-  },
-  {
-    question: "Is Medicare Advantage a good option for someone with CLL?",
-    answer:
-      "Medicare Advantage plans cannot deny enrollment based on health status during eligible enrollment periods. Many plans include Part D drug coverage and out-of-pocket maximums. However, network restrictions matter - you'll want to confirm your oncologist and any CLL specialists are in-network. A broker can compare plans in your area based on your specific providers and medications.",
+      "CLL patients who need ongoing oncology care, frequent lab work, or access to specialists at major cancer centers often do better on Original Medicare with a Medigap supplement. Medicare Advantage plans use provider networks that may limit access to CLL specialists. Call us at 855-559-1700 to compare your specific options.",
   },
 ];
 
 export default function MedicareBrokerForPeopleWithCLL() {
   return (
-    <main className="max-w-4xl mx-auto px-4 py-8">
+    <>
       <SchemaMarkup schema={breadcrumbSchema} />
       <SchemaMarkup schema={articleSchema} />
 
-      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
-        <Link href="/" className="hover:underline">
-          Home
-        </Link>{" "}
-        &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
-          Medicare Guides
-        </Link>{" "}
-        &gt;{" "}
-        <span className="text-gray-700">Medicare Broker for People With CLL</span>
+      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-4">
+        <Link href="/">Home</Link> &gt;{" "}
+        <Link href="/medicare-guides">Medicare Guides</Link> &gt;{" "}
+        <span>Medicare Broker for People With CLL</span>
       </nav>
 
       <h1 className="text-3xl font-bold mb-4">
-        Medicare Broker for People With CLL: Navigating Coverage With Chronic Lymphocytic Leukemia
+        Medicare Broker for People With CLL: Navigating Coverage With Chronic
+        Lymphocytic Leukemia
       </h1>
 
       <Image
-        src="/images/medicare-broker-for-people-with-cll.webp"
+        src="/images/hub_medicare-broker-for-people-with-cll.webp"
         alt="medicare broker for people with CLL"
         width={800}
         height={400}
-        className="rounded-lg mb-6 w-full"
+        className="w-full h-auto mb-6 rounded-lg"
       />
 
-      <p className="text-lg mb-2">
-        A Medicare broker for people with CLL can save you from a costly enrollment mistake at the worst possible time. When you're managing blood work schedules, watching counts, and wondering when - or if - treatment starts, the last thing you need is a plan that doesn't cover your oncologist or puts your oral medications on a high-cost tier.
+      <p className="mb-4">
+        A Medicare broker for people with CLL understands something most agents
+        don't: your diagnosis changes the rules. CLL can sit quietly on watch
+        and wait for years, or it can mean BTK inhibitors, monthly labs, and
+        frequent oncology visits. Either way, it affects which Medicare plans
+        you can get and which ones you actually need.
       </p>
-      <p className="text-lg mb-6">
-        I'm Anthony Orner, a licensed Medicare broker. I help people with chronic lymphocytic leukemia find coverage that actually fits their care - not just the cheapest premium on a spreadsheet.
+
+      <p className="mb-6">
+        I'm Anthony Orner, a licensed Medicare broker. I help CLL patients sort
+        through underwriting roadblocks, find the right coverage structure, and
+        avoid costly mistakes during enrollment.
       </p>
 
       <PhoneCTA />
 
-      <section className="mt-10 mb-8">
+      <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-3">
           Why CLL makes Medicare Supplement underwriting difficult
         </h2>
         <p className="mb-3">
-          Most Medigap carriers ask about cancer history on their applications. An active CLL diagnosis - even if you're on watch-and-wait with no treatment - usually triggers a decline outside of guaranteed issue periods.
+          Most Medigap carriers ask health questions before approving your
+          application. A CLL diagnosis, even if you're on watch and wait, almost
+          always triggers a decline outside your open enrollment window.
         </p>
         <p className="mb-3">
-          This catches people off guard. You feel fine. Your doctor says no treatment is needed yet. But the insurance company sees "leukemia" on the application and says no.
-        </p>
-        <p>
-          Timing matters enormously. Your 6-month Medigap Open Enrollment Period (starting the month you turn 65 and have Part B) is the one window where no carrier can turn you down or charge more because of CLL. Miss it, and your options shrink dramatically.
+          Carriers see an active blood cancer and stop reading. They don't
+          distinguish between early-stage CLL and someone in active treatment.
+          That's why timing matters more for CLL patients than almost anyone
+          else on Medicare.
         </p>
       </section>
 
@@ -144,27 +149,21 @@ export default function MedicareBrokerForPeopleWithCLL() {
           Medicare Advantage vs. Medigap when you have CLL
         </h2>
         <p className="mb-3">
-          Medicare Advantage plans cannot deny you based on health status during eligible enrollment periods. That's a real advantage if you're past your Medigap open enrollment window.
+          Medicare Advantage plans can't deny you for pre-existing conditions.
+          That's a real advantage if you've missed your Medigap window. But
+          Advantage plans use provider networks, which can create problems:
         </p>
-        <p className="mb-3">
-          But there are tradeoffs to weigh carefully:
-        </p>
-        <ul className="list-disc pl-6 space-y-2 mb-3">
-          <li>
-            <strong>Network restrictions:</strong> Confirm your oncologist and any CLL specialist are in-network. Seeing an out-of-network provider can cost significantly more or not be covered at all.
-          </li>
-          <li>
-            <strong>Out-of-pocket maximums:</strong> Advantage plans cap your annual costs. Original Medicare with no supplement does not.
-          </li>
-          <li>
-            <strong>Drug coverage:</strong> Many CLL treatments are oral medications covered under Part D. Check the formulary tier - the difference between Tier 3 and Tier 5 can be thousands of dollars a year.
-          </li>
-          <li>
-            <strong>Prior authorizations:</strong> Some Advantage plans require prior auth for cancer treatments. This can delay care.
-          </li>
+        <ul className="list-disc pl-6 mb-3 space-y-2">
+          <li>Your CLL specialist may be out of network</li>
+          <li>Prior authorizations can delay treatment decisions</li>
+          <li>Out-of-pocket maximums can reach $8,000+ in a treatment year</li>
+          <li>Switching back to Original Medicare later may mean no Medigap access</li>
         </ul>
         <p>
-          With Original Medicare plus a Medigap supplement and a standalone Part D plan, you get broader provider access and predictable costs - but only if you can get approved for the supplement.
+          Original Medicare with a Medigap plan (like Plan G) gives you
+          unrestricted access to any Medicare-accepting oncologist. Plan G
+          covers everything except the $283 annual Part B deductible. For
+          someone with ongoing cancer care, that freedom matters.
         </p>
       </section>
 
@@ -173,16 +172,18 @@ export default function MedicareBrokerForPeopleWithCLL() {
           Guaranteed issue situations that bypass health questions
         </h2>
         <p className="mb-3">
-          Outside your initial Medigap open enrollment, federal guaranteed issue rights still apply in specific situations:
+          Federal guaranteed issue rights let you enroll in certain Medigap
+          plans without medical underwriting. Common triggers:
         </p>
-        <ul className="list-disc pl-6 space-y-2 mb-3">
-          <li>You're losing employer or union group coverage</li>
-          <li>Your Medicare Advantage plan is leaving your area or shutting down</li>
-          <li>Your Medigap carrier goes bankrupt or violated its contract</li>
-          <li>You moved out of your plan's service area</li>
+        <ul className="list-disc pl-6 mb-3 space-y-2">
+          <li>Losing employer or union group health coverage</li>
+          <li>Your Medicare Advantage plan leaves your area or violates its contract</li>
+          <li>You dropped a Medigap plan to try Medicare Advantage and want to return within 12 months</li>
         </ul>
         <p>
-          These windows are narrow and time-sensitive. If one applies to you, it's the one chance to get a Medigap plan without answering a single health question. I help clients identify and use these rights before they expire.
+          These windows are narrow and non-negotiable. If you qualify, we need
+          to act quickly. I track these deadlines for my clients so nothing
+          gets missed.
         </p>
       </section>
 
@@ -191,56 +192,65 @@ export default function MedicareBrokerForPeopleWithCLL() {
           How a broker advocates for CLL patients during enrollment
         </h2>
         <p className="mb-3">
-          I don't charge you anything. Brokers are paid by the insurance carriers, and the premium you pay is the same whether you use a broker or go direct. The difference is you get someone reviewing your medications, checking provider networks, and flagging problems before you enroll.
+          People facing a cancer diagnosis often ask me what to expect from
+          Medicare coverage during treatment. The answer depends entirely on
+          your plan structure. I walk you through:
         </p>
-        <p>
-          For CLL patients specifically, I look at which Part D plans cover your current and likely future medications at the lowest cost, whether your specialists accept the plan, and what your total annual exposure would be if treatment starts.
-        </p>
-      </section>
-
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Why timing your enrollment around CLL matters more than you think
-        </h2>
-        <p className="mb-3">
-          People diagnosed with CLL before turning 65 face a unique challenge. You may be healthy enough that treatment isn't needed, but sick enough on paper that underwriters decline you.
-        </p>
-        <p>
-          That's why I tell every client approaching 65 with a CLL diagnosis: do not wait. Your Medigap Open Enrollment Period is the strongest protection you have. Once it closes, it doesn't reopen.
-        </p>
-      </section>
-
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          What to bring to your first call
-        </h2>
-        <ul className="list-disc pl-6 space-y-2">
-          <li>Your Medicare card or expected Part B start date</li>
-          <li>A list of current medications (including dosages)</li>
-          <li>Names of your oncologist, hematologist, and primary care doctor</li>
-          <li>Any upcoming procedures or treatment plans your doctor has discussed</li>
-          <li>Your zip code (plan availability varies by county)</li>
+        <ul className="list-disc pl-6 mb-3 space-y-2">
+          <li>Which Part D plans cover your specific CLL medications at the lowest cost</li>
+          <li>Whether a C-SNP (Chronic Special Needs Plan) fits your situation</li>
+          <li>How to protect your ability to see specialists at major cancer centers</li>
         </ul>
       </section>
 
-      <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 mb-10 text-center">
-        <p className="text-xl font-semibold mb-2">
-          Talk through your CLL coverage options with a licensed broker.
+      <section className="mb-8">
+        <h2 className="text-2xl font-semibold mb-3">
+          Your Medigap open enrollment window is everything
+        </h2>
+        <p className="mb-3">
+          If you're approaching 65 and have CLL, apply for Medigap during your
+          6-month open enrollment period. It starts the month you turn 65 and
+          are enrolled in Part B. During this window, no carrier can turn you
+          down or charge more because of your diagnosis.
+        </p>
+        <p>
+          Miss it, and you may never get Medigap coverage. If you're within 6
+          months of turning 65, call me now. This is the one thing I can't fix
+          after the fact.
+        </p>
+      </section>
+
+      <section className="mb-8">
+        <h2 className="text-2xl font-semibold mb-3">
+          Part D coverage for CLL medications
+        </h2>
+        <p className="mb-3">
+          Oral targeted therapies for CLL fall under Medicare Part D. These
+          drugs can cost thousands per month at retail. Not every Part D plan
+          covers every CLL medication on the same tier, and copays vary
+          significantly between plans.
+        </p>
+        <p>
+          I compare Part D formularies against your specific prescriptions so
+          you're not surprised at the pharmacy counter during treatment.
+        </p>
+      </section>
+
+      <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 mb-8 text-center">
+        <p className="text-lg font-semibold mb-2">
+          Talk to a broker who understands CLL and Medicare.
         </p>
         <p className="mb-4">
-          No cost. No obligation. Just honest answers about your Medicare choices.
-        </p>
-        <p className="text-2xl font-bold mb-3">
-          <a href="tel:8555591700" className="text-blue-700 hover:underline">
+          Call{" "}
+          <a href="tel:8555591700" className="text-blue-700 font-bold">
             855-559-1700
-          </a>
+          </a>{" "}
+          or{" "}
+          <Link href="/contact" className="text-blue-700 underline">
+            get a free quote online
+          </Link>
+          . No pressure, no sign-up required.
         </p>
-        <Link
-          href="/get-a-free-quote"
-          className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition"
-        >
-          Get a Free Quote
-        </Link>
       </div>
 
       <FAQSection faqs={faqs} />
@@ -250,38 +260,38 @@ export default function MedicareBrokerForPeopleWithCLL() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/medicare-guides/medigap-open-enrollment-period"
-              className="text-blue-600 hover:underline"
-            >
-              Medigap Open Enrollment Period: What You Need to Know
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/medicare-guides/medicare-advantage-vs-medigap"
-              className="text-blue-600 hover:underline"
+              href="/services/medicare-advantage-vs-medigap"
+              className="text-blue-700 underline"
             >
               Medicare Advantage vs. Medigap: Which Is Right for You?
             </Link>
           </li>
           <li>
             <Link
-              href="/medicare-guides/part-d-drug-coverage"
-              className="text-blue-600 hover:underline"
+              href="/services/guaranteed-issue-medigap"
+              className="text-blue-700 underline"
             >
-              Medicare Part D: How Prescription Drug Coverage Works
+              Guaranteed Issue Medigap Rights Explained
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/services/medicare-part-d-drug-plans"
+              className="text-blue-700 underline"
+            >
+              Medicare Part D Prescription Drug Plans
             </Link>
           </li>
           <li>
             <Link
               href="/services/medicare-broker-for-cancer-patients"
-              className="text-blue-600 hover:underline"
+              className="text-blue-700 underline"
             >
               Medicare Broker for Cancer Patients
             </Link>
           </li>
         </ul>
       </section>
-    </main>
+    </>
   );
 }

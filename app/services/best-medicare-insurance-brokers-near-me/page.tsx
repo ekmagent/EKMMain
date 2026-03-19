@@ -7,14 +7,14 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 
 export const metadata: Metadata = {
   title:
-    "best medicare insurance brokers near me | Free Quotes, No Cost | MedicareYourself",
+    "best medicare insurance brokers near me | Free Quote, No Cost | MedicareYourself",
   description:
-    "Best Medicare insurance brokers near you in NJ. Anthony Orner is an independent licensed broker who compares every major carrier at no cost. Free quote.",
+    "Best Medicare insurance brokers near you in NJ. Anthony Orner is an independent licensed broker who compares every major carrier at no cost. Get a free quote.",
   openGraph: {
     title:
-      "best medicare insurance brokers near me | Free Quotes, No Cost | MedicareYourself",
+      "best medicare insurance brokers near me | Free Quote, No Cost | MedicareYourself",
     description:
-      "Best Medicare insurance brokers near you in NJ. Anthony Orner is an independent licensed broker who compares every major carrier at no cost. Free quote.",
+      "Best Medicare insurance brokers near you in NJ. Anthony Orner is an independent licensed broker who compares every major carrier at no cost. Get a free quote.",
   },
 };
 
@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Best Medicare Insurance Brokers Near Me",
-      item: "https://www.medicareyourself.com/services/best-medicare-insurance-brokers-near-me",
+      item: "https://medicareyourself.com/services/best-medicare-insurance-brokers-near-me",
     },
   ],
 };
@@ -50,7 +50,7 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
@@ -63,24 +63,24 @@ const articleSchema = {
 
 const faqs = [
   {
-    question: "How to choose a Medicare broker?",
+    question: "How do I choose a Medicare broker?",
     answer:
-      "Look for a broker who is licensed in your state, independent (not tied to one carrier), and willing to show you plans from multiple insurers side by side. Ask how many carriers they represent. A good broker explains tradeoffs honestly and never pressures you into a decision.",
+      "Look for a broker who is independently licensed, not tied to one carrier. Ask how many companies they represent, whether they charge a fee (they shouldn't), and if they help with claims issues after enrollment. An independent broker can show you plans from every major carrier so you're comparing real options, not a curated few.",
   },
   {
-    question: "How much does it cost to use a Medicare broker?",
+    question: "Do Medicare brokers charge a fee?",
     answer:
-      "Nothing. Medicare brokers are paid commissions by the insurance carriers, not by you. The premiums you pay are the same whether you use a broker or enroll directly. There's no fee, no markup, and no catch.",
+      "No. Licensed Medicare brokers are paid a commission by the insurance carrier you choose. You pay the same premium whether you enroll directly or through a broker. There's no added cost for their help.",
   },
   {
     question: "What's the difference between a Medicare broker and a Medicare agent?",
     answer:
-      "A captive agent works for one insurance company and can only sell that company's plans. An independent broker represents multiple carriers and can compare options across the market. Independent brokers typically find better fits because they aren't locked into one product line.",
+      "A captive agent works for one insurance company and can only sell that company's plans. An independent broker is contracted with multiple carriers and can compare options across the market. This means a broker can find you the best rate and coverage match, not just the plan their employer sells.",
   },
   {
     question: "Can a Medicare broker help me switch plans?",
     answer:
-      "Yes. During the Medicare Advantage/Part D Open Enrollment (October 15 through December 7) or if you have a qualifying life event, a broker can help you compare new options and switch plans at no cost.",
+      "Yes. During the Medicare Advantage/Part D Open Enrollment (October 15 through December 7) or if you have a qualifying life event, an independent broker can review your current plan, compare alternatives, and handle the enrollment paperwork for you.",
   },
 ];
 
@@ -95,7 +95,7 @@ export default function BestMedicareBrokersNearMe() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/medicare" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -110,7 +110,7 @@ export default function BestMedicareBrokersNearMe() {
         </h1>
 
         <Image
-          src="/images/best-medicare-insurance-brokers-near-me_photo.webp"
+          src="/images/hub_best-medicare-insurance-brokers-near-me.webp"
           alt="best medicare insurance brokers near me"
           width={800}
           height={400}
@@ -119,10 +119,14 @@ export default function BestMedicareBrokersNearMe() {
         />
 
         <p className="text-lg mb-2">
-          Best Medicare insurance brokers near you aren't the ones with the biggest ads. They're the ones who represent enough carriers to actually compare your options. That distinction matters more than most people realize when they're picking a plan that covers their doctors, medications, and budget.
+          The best Medicare insurance brokers near you aren't the ones with the
+          biggest ad budget. They're the ones who sit down, listen to your
+          doctor list and medication needs, and show you every plan that fits.
         </p>
         <p className="text-lg mb-6">
-          I'm Anthony Orner, an independent licensed broker in New Jersey. Here's what I tell every person who calls me for the first time.
+          That's a harder thing to search for online. Here's what actually
+          matters when you're choosing someone to trust with your healthcare
+          coverage.
         </p>
 
         <PhoneCTA />
@@ -132,10 +136,15 @@ export default function BestMedicareBrokersNearMe() {
             What separates a good Medicare broker from a captive agent
           </h2>
           <p className="mb-2">
-            A captive agent works for one insurance company. They sell that company's plans, period. If your best option is with a different carrier, they can't help you find it.
+            A captive agent works for one insurance company. They sell that
+            company's plans, period. If their carrier's Plan G costs $40 more
+            per month than a competitor's, they can't tell you about the
+            cheaper option.
           </p>
           <p>
-            An independent broker like me contracts with multiple carriers. I can pull quotes from Aetna, Cigna, Humana, United, Mutual of Omaha, and others, then lay them side by side so you see real differences in price and coverage. No loyalty to any one insurer.
+            An independent broker is contracted with multiple carriers. They
+            pull rates from across the market and lay them side by side. Same
+            coverage letter, different price. That's the advantage.
           </p>
         </section>
 
@@ -146,12 +155,13 @@ export default function BestMedicareBrokersNearMe() {
           <ul className="list-disc pl-6 space-y-2">
             <li>How many insurance carriers do you represent?</li>
             <li>Are you licensed in my state?</li>
-            <li>Do you charge any fees? (The answer should always be no.)</li>
-            <li>Will you help me during claims or billing issues after enrollment?</li>
-            <li>Can you explain the tradeoffs between Medicare Advantage and Medigap?</li>
+            <li>Do you charge me anything? (The answer should be no.)</li>
+            <li>Will you help me if I have a claims problem after I enroll?</li>
+            <li>Can you compare both Medicare Advantage and Medigap plans?</li>
           </ul>
           <p className="mt-3">
-            If a broker can't answer these clearly, keep looking.
+            If someone dodges these questions or rushes you toward one plan,
+            that's your signal to keep looking.
           </p>
         </section>
 
@@ -160,43 +170,53 @@ export default function BestMedicareBrokersNearMe() {
             Why independent brokers get you lower rates in NJ
           </h2>
           <p className="mb-2">
-            New Jersey has dozens of Medicare Supplement and Medicare Advantage plans. Premiums for the same coverage can vary by $50 to $100+ per month depending on the carrier. An independent broker sees the full picture.
+            New Jersey has dozens of carriers offering Medigap and Medicare
+            Advantage plans. Premiums for the exact same Plan G can vary by
+            $80 or more per month depending on the company.
           </p>
           <p>
-            Captive agents only show you one slice. That might be fine. Or it might cost you hundreds of dollars a year you didn't need to spend.
+            An independent broker sees those differences instantly. A captive
+            agent never will. In NJ, where Medigap Open Enrollment lasts 6
+            months starting the month you turn 65 and have Part B, locking in
+            the right rate from the start saves you real money year after year.
           </p>
         </section>
 
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-3">
-            There's no cost to use a Medicare broker
+            What a broker should never charge you
           </h2>
           <p className="mb-2">
-            This surprises people. Medicare brokers are compensated by the insurance carriers directly. Your premium is identical whether you enroll through a broker, call the carrier, or sign up on medicare.gov.
+            Medicare brokers earn a commission from the carrier when you
+            enroll. You pay the same monthly premium whether you use a broker
+            or go directly to the insurance company.
           </p>
           <p>
-            The difference: a broker does the comparison work for you and is available when something goes wrong later.
+            If anyone asks you for an upfront fee, a "consultation charge," or
+            anything beyond your normal plan premium, walk away. That's not
+            how legitimate Medicare brokerage works.
           </p>
         </section>
 
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-3">
-            When to reach out to a broker
+            When to contact a broker (timing matters)
           </h2>
           <ul className="list-disc pl-6 space-y-2">
             <li>
-              <strong>Turning 65:</strong> Your Medigap Open Enrollment Period starts the month you turn 65 and are enrolled in Part B. This is your best window for guaranteed acceptance.
+              <strong>Turning 65:</strong> Start 6 months before your Part B
+              effective date to compare Medigap rates during your open
+              enrollment window.
             </li>
             <li>
-              <strong>Retiring and losing employer coverage:</strong> You may qualify for a Special Enrollment Period and federal guaranteed issue rights.
+              <strong>Retiring after 65:</strong> Contact a broker as soon as
+              you know your employer coverage end date.
             </li>
             <li>
-              <strong>Annual Enrollment (Oct 15 - Dec 7):</strong> If your current plan changed premiums, drug formulary, or provider network.
+              <strong>Annual enrollment:</strong> October 15 through December 7
+              for Medicare Advantage and Part D changes.
             </li>
           </ul>
-          <p className="mt-3">
-            Don't wait until the last week. Good brokers get booked during enrollment season.
-          </p>
         </section>
 
         <section className="mb-8">
@@ -204,36 +224,41 @@ export default function BestMedicareBrokersNearMe() {
             Work with Anthony Orner — licensed and independent in New Jersey
           </h2>
           <p className="mb-2">
-            I work with people across New Jersey, from Bergen County to Ocean County and everywhere in between. Every consultation is free. I compare every major Medicare carrier, explain the tradeoffs in plain language, and let you decide.
+            I'm Anthony Orner, an independent Medicare broker based in NJ. I'm
+            contracted with every major carrier in the state, and I don't charge
+            you a cent. My job is to compare your options honestly, explain the
+            tradeoffs in plain English, and help you enroll in the plan that
+            actually fits your doctors, medications, and budget.
           </p>
           <p>
-            No pressure. No gimmicks. Just a straight answer about which plan fits your situation.
+            After enrollment, I'm still your broker. Claims issues, plan
+            questions, annual reviews. One call: 855-559-1700.
           </p>
         </section>
 
         <div className="bg-blue-600 text-white rounded-lg p-8 text-center my-10">
-          <p className="text-xl font-semibold mb-2">
-            Ready to compare your Medicare options?
+          <p className="text-xl font-semibold mb-3">
+            Ready to compare Medicare plans with an independent broker?
           </p>
           <p className="text-lg mb-4">
             Call{" "}
             <a
               href="tel:8555591700"
-              className="underline font-bold"
+              className="underline font-bold text-white"
             >
               855-559-1700
             </a>{" "}
             or{" "}
             <Link
               href="/contact"
-              className="underline font-bold"
+              className="underline font-bold text-white"
             >
               get a free quote online
             </Link>
             .
           </p>
           <p className="text-sm opacity-90">
-            No fees. No obligation. Licensed in New Jersey.
+            No fees. No pressure. Just honest plan comparisons.
           </p>
         </div>
 
@@ -244,15 +269,15 @@ export default function BestMedicareBrokersNearMe() {
           <ul className="space-y-2">
             <li>
               <Link
-                href="/medicare-guides/medicare-supplement-plans-nj"
+                href="/medicare/medigap-plans-nj"
                 className="text-blue-600 hover:underline"
               >
-                Medicare Supplement Plans in New Jersey
+                Medigap Plans in New Jersey: What You Need to Know
               </Link>
             </li>
             <li>
               <Link
-                href="/medicare-guides/medicare-advantage-vs-medigap"
+                href="/medicare/medicare-advantage-vs-medigap"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Advantage vs. Medigap: Which Is Right for You?
@@ -260,18 +285,18 @@ export default function BestMedicareBrokersNearMe() {
             </li>
             <li>
               <Link
-                href="/services/independent-medicare-agent-nj"
+                href="/medicare/when-to-enroll-in-medicare"
                 className="text-blue-600 hover:underline"
               >
-                Independent Medicare Agent in NJ
+                When to Enroll in Medicare: Key Dates and Deadlines
               </Link>
             </li>
             <li>
               <Link
-                href="/medicare-guides/when-to-enroll-in-medicare"
+                href="/about"
                 className="text-blue-600 hover:underline"
               >
-                When to Enroll in Medicare
+                About Anthony Orner — Your Independent Medicare Broker
               </Link>
             </li>
           </ul>

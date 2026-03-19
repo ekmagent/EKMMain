@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Medicare Insurance Agents in Edison, New Jersey",
-      item: "https://www.medicareyourself.com/services/medicare-insurance-agents-in-edison-new-jersey",
+      item: "https://medicareyourself.com/services/medicare-insurance-agents-in-edison-new-jersey",
     },
   ],
 };
@@ -51,52 +51,51 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-01-01",
-  dateModified: "2025-01-01",
+  datePublished: "2025-07-12",
+  dateModified: "2025-07-12",
 };
 
 const faqs = [
   {
+    question: "Do Medicare insurance agents charge a fee?",
+    answer:
+      "No. Licensed Medicare brokers are paid by the insurance carriers, not by you. Your consultation and enrollment assistance cost nothing out of pocket.",
+  },
+  {
     question: "Should I use an insurance agent for Medicare?",
     answer:
-      "Yes. A licensed Medicare agent compares plans from multiple carriers at no cost to you. The carriers pay the agent, so you get professional guidance without any added fees. An independent broker like Anthony Orner can show you options a single-carrier agent cannot.",
+      "An independent broker compares plans across multiple carriers so you don't have to call each one yourself. You get unbiased guidance at no cost, and a broker can help you switch plans during future enrollment periods too.",
   },
   {
-    question: "What is the best Medicare plan in New Jersey?",
+    question: "What is the best supplemental insurance for Medicare in NJ?",
     answer:
-      "There is no single best plan for everyone. Medigap Plan G is the most popular supplement in NJ because it covers nearly all out-of-pocket costs after the $257 Part B deductible (2026). Medicare Advantage HMO and PPO plans are also available in Middlesex County with $0 premiums. The right choice depends on your doctors, prescriptions, and budget.",
+      "It depends on your doctors, prescriptions, and budget. Medigap Plan G is the most popular in New Jersey because it covers nearly all out-of-pocket costs after the $283 annual Part B deductible. Plan N offers lower premiums with small copays. A broker can run quotes for your specific situation.",
   },
   {
-    question: "Does Medicare have a local office?",
+    question: "When is the best time to enroll in a Medigap plan in Edison?",
     answer:
-      "Medicare itself does not have storefront offices. You can call 1-800-MEDICARE or visit medicare.gov for official information. For personalized local help in Edison, an independent broker can meet with you in person or by phone to review your options at no charge.",
-  },
-  {
-    question: "How much does it cost to work with a Medicare broker in Edison?",
-    answer:
-      "Nothing. Licensed Medicare brokers are compensated directly by the insurance carriers. You pay the same premium whether you enroll on your own or through a broker. The advantage is getting someone who knows Middlesex County plan options and can compare rates across companies.",
+      "Your Medigap Open Enrollment Period starts the month you turn 65 and are enrolled in Part B. During this 6-month window, carriers must accept you regardless of health history and at their best rate. After it closes, medical underwriting may apply.",
   },
 ];
 
 export default function MedicareInsuranceAgentsEdisonNJ() {
   return (
-    <main className="max-w-4xl mx-auto px-4 py-8">
-      <SchemaMarkup schema={breadcrumbSchema} />
-      <SchemaMarkup schema={articleSchema} />
+    <main className="max-w-3xl mx-auto px-4 py-8">
+      <SchemaMarkup schema={[breadcrumbSchema, articleSchema]} />
 
       <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
         <Link href="/" className="hover:underline">
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/medicare" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -105,162 +104,198 @@ export default function MedicareInsuranceAgentsEdisonNJ() {
         </span>
       </nav>
 
-      <h1 className="text-3xl font-bold mb-4">
-        Medicare Insurance Agents in Edison, New Jersey — Licensed Broker Serving Middlesex County
+      <h1 className="text-3xl md:text-4xl font-bold mb-4 leading-tight">
+        Medicare Insurance Agents in Edison, New Jersey — Licensed Broker
+        Serving Middlesex County
       </h1>
 
       <Image
-        src="/images/medicare-insurance-agents-in-edison-new-jersey.webp"
+        src="/images/hub_medicare-insurance-agents-in-edison-new-jersey.webp"
         alt="Medicare insurance agents in Edison New Jersey"
         width={800}
         height={400}
-        className="rounded-lg mb-6 w-full"
+        className="w-full h-auto rounded-lg mb-6"
+        priority
       />
 
       <p className="text-lg mb-2">
-        Medicare insurance agents in Edison, New Jersey can make the difference between picking the wrong plan and finding one that actually fits your budget and doctors. I'm Anthony Orner, an independent licensed Medicare broker serving Edison and all of Middlesex County.
+        Medicare insurance agents in Edison, New Jersey don't all work the same
+        way. I'm Anthony Orner, an independent licensed broker who compares
+        Medigap and Medicare Advantage plans across carriers so you see real
+        options side by side.
       </p>
       <p className="text-lg mb-6">
-        My consultations are always free. I compare plans from multiple carriers so you don't have to call each company yourself.
+        Every consultation is free. No pressure, no cost, no obligation.
       </p>
 
       <PhoneCTA />
 
-      <section className="mt-10 mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
           Why Edison residents work with an independent Medicare broker
         </h2>
-        <p className="mb-2">
-          A captive agent sells plans from one insurance company. I work independently, which means I can show you Medigap and Medicare Advantage plans from a wide range of carriers operating in the 08817, 08818, and 08820 zip codes.
+        <p className="mb-3">
+          A captive agent sells one carrier's plans. I'm contracted with
+          multiple carriers, which means I can show you what's actually
+          available in Middlesex County rather than what one company wants to
+          sell you.
         </p>
         <p>
-          You pay the exact same premium whether you enroll directly or through me. The carrier pays my commission, not you.
+          You get honest comparisons. If a lower-premium plan covers your
+          doctors at JFK University Medical Center or Robert Wood Johnson, I'll
+          tell you. If it doesn't, I'll tell you that too.
         </p>
       </section>
 
-      <section className="mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
           Medigap and Advantage plans available in Middlesex County
         </h2>
-        <p className="mb-2">
-          Edison falls within Middlesex County, which has strong plan availability for both Medicare Supplement and Medicare Advantage. Here's what I typically compare for clients:
+        <p className="mb-3">
+          Edison residents typically choose between two paths:
         </p>
-        <ul className="list-disc ml-6 space-y-1 mb-2">
-          <li>Medigap Plan G - covers everything except the $257 annual Part B deductible (2026)</li>
-          <li>Medigap Plan N - lower premium, small copays at office visits</li>
-          <li>Medicare Advantage HMO and PPO plans - some with $0 monthly premiums</li>
-          <li>Part D prescription drug plans - standalone or bundled with Advantage</li>
+        <ul className="list-disc pl-6 space-y-2 mb-3">
+          <li>
+            <strong>Medigap (Medicare Supplement):</strong> Pairs with Original
+            Medicare. Plan G covers everything after the $283 Part B deductible.
+            Plan N has lower premiums with small copays at office visits. Rates
+            vary by carrier.
+          </li>
+          <li>
+            <strong>Medicare Advantage (Part C):</strong> Replaces Original
+            Medicare with a network-based plan. Many include dental, vision, and
+            drug coverage. $0 premium options exist in this zip code, but
+            network restrictions matter.
+          </li>
         </ul>
         <p>
-          Rates vary by carrier, age, and tobacco status. I pull real quotes so you can compare side by side.
+          The right choice depends on which doctors you use, what medications
+          you take, and how much predictability you want in your costs.
         </p>
       </section>
 
-      <section className="mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
-          When to start your Medicare search in Edison
+          Carrier networks shift — that affects you directly
         </h2>
-        <p className="mb-2">
-          If you're turning 65, your Medigap Open Enrollment Period lasts 6 months starting the month you turn 65 and are enrolled in Part B. During this window, no carrier can reject you or charge more for health conditions.
+        <p className="mb-3">
+          Hospitals and insurers renegotiate contracts every year. A plan that
+          covered your specialist last year might drop them next year. This is a
+          real problem people run into, and it's stressful when you find out
+          mid-treatment.
         </p>
         <p>
-          I typically have clients apply for their Medigap plan up to 6 months before their Part B start date. This locks in the rate early and protects you from premium increases before coverage kicks in. The sooner you lock in, the better your rate.
+          I track network changes in the Edison and greater Middlesex County
+          area. Before enrollment, we verify that your providers are in-network
+          for the plan you're considering.
         </p>
       </section>
 
-      <section className="mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
           What to bring to your first Medicare consultation
         </h2>
-        <ul className="list-disc ml-6 space-y-1">
-          <li>Your Medicare card (red, white, and blue) or Medicare number</li>
+        <ul className="list-disc pl-6 space-y-2">
+          <li>Your red, white, and blue Medicare card (or Medicare number)</li>
           <li>A list of current prescriptions with dosages</li>
-          <li>Names of your doctors and preferred hospitals</li>
-          <li>Any current insurance cards (employer, retiree, or VA coverage)</li>
+          <li>Names of your doctors and any specialists you see regularly</li>
+          <li>
+            Your current plan's Summary of Benefits (if you already have
+            coverage)
+          </li>
         </ul>
-        <p className="mt-2">
-          This lets me run accurate plan comparisons on the spot. Most consultations take about 30 minutes.
+        <p className="mt-3">
+          With this info, I can run accurate plan comparisons in about 15
+          minutes.
         </p>
       </section>
 
-      <section className="mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
-          Key 2026 Medicare costs you should know
+          Key enrollment dates to know
         </h2>
-        <ul className="list-disc ml-6 space-y-1">
-          <li>Part B premium: $185/month</li>
-          <li>Part B deductible: $257/year</li>
-          <li>Part A deductible: $1,676 per benefit period</li>
-          <li>Skilled nursing facility coinsurance: $209.50/day for days 21-100</li>
-          <li>Part B late enrollment penalty: 10% added for each 12-month period you delayed</li>
-        </ul>
-        <p className="mt-2">
-          These costs add up fast without supplemental coverage. That's exactly why most of my Edison clients choose either a Medigap or Advantage plan.
+        <p className="mb-3">
+          <strong>Turning 65:</strong> Your Medigap Open Enrollment Period lasts
+          6 months starting the month you're 65 and enrolled in Part B. This is
+          your best window for guaranteed acceptance at the lowest rates. Apply
+          up to 6 months before your Part B start date to lock things in.
+        </p>
+        <p>
+          <strong>Already on Medicare:</strong> Medicare Advantage and Part D
+          Open Enrollment runs October 15 through December 7 each year. If your
+          current plan changed or your needs shifted, that's when we review
+          options.
         </p>
       </section>
 
-      <section className="mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
           Schedule a free phone or in-person appointment in Edison
         </h2>
-        <p className="mb-2">
-          I meet with Edison residents by phone, video, or in person - whatever works best for you. There's no pressure and no obligation.
+        <p className="mb-3">
+          I meet with Edison residents by phone, video, or in person — whatever
+          works for you. Most consultations take 20 to 30 minutes. There's no
+          fee, and I don't push one plan over another.
         </p>
         <p>
-          Call me at <strong>855-559-1700</strong> to set up a time, or use the link below. I'll pull quotes specific to your zip code and situation before we talk.
+          Call today and we'll figure out which plan fits your situation.
         </p>
       </section>
 
-      <div className="bg-blue-600 text-white rounded-lg p-6 text-center mb-10">
-        <p className="text-xl font-semibold mb-2">
-          Ready to compare Medicare plans in Edison?
+      <div className="mt-10 bg-blue-600 text-white rounded-lg p-6 text-center">
+        <p className="text-xl font-bold mb-2">
+          Talk to a licensed Medicare broker in Edison
         </p>
-        <p className="mb-4">
-          Call <strong>855-559-1700</strong> or click below for your free quote.
+        <p className="text-2xl font-bold mb-3">
+          <a href="tel:8555591700" className="underline">
+            855-559-1700
+          </a>
         </p>
         <Link
-          href="/get-a-free-quote"
+          href="/contact"
           className="inline-block bg-white text-blue-600 font-semibold px-6 py-3 rounded-lg hover:bg-gray-100 transition"
         >
           Get a Free Quote
         </Link>
       </div>
 
-      <FAQSection faqs={faqs} />
+      <section className="mt-12">
+        <FAQSection faqs={faqs} />
+      </section>
 
-      <section className="mt-10">
+      <section className="mt-12">
         <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
         <ul className="space-y-2">
           <li>
             <Link
-              href="/medicare-guides/medigap-plan-g-nj"
+              href="/medicare/medigap-plan-g-new-jersey"
               className="text-blue-600 hover:underline"
             >
-              Medigap Plan G in New Jersey - Benefits and Rates
+              Medigap Plan G in New Jersey — What It Covers and Costs
             </Link>
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-advantage-nj"
+              href="/medicare/medicare-advantage-middlesex-county"
               className="text-blue-600 hover:underline"
             >
-              Medicare Advantage Plans in New Jersey
+              Medicare Advantage Plans in Middlesex County
             </Link>
           </li>
           <li>
             <Link
-              href="/medicare-guides/when-to-enroll-in-medicare"
+              href="/medicare/when-to-enroll-in-medicare"
               className="text-blue-600 hover:underline"
             >
-              When to Enroll in Medicare - Deadlines and Penalties
+              When to Enroll in Medicare — Key Dates and Deadlines
             </Link>
           </li>
           <li>
             <Link
-              href="/medicare-guides/medigap-vs-medicare-advantage"
+              href="/medicare/medigap-vs-medicare-advantage"
               className="text-blue-600 hover:underline"
             >
-              Medigap vs. Medicare Advantage - Which Is Right for You?
+              Medigap vs. Medicare Advantage — How to Decide
             </Link>
           </li>
         </ul>

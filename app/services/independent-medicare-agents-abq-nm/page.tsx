@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Independent Medicare Agents ABQ NM",
-      item: "https://www.medicareyourself.com/services/independent-medicare-agents-abq-nm",
+      item: "https://medicareyourself.com/services/independent-medicare-agents-abq-nm",
     },
   ],
 };
@@ -51,37 +51,37 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-01",
-  dateModified: "2025-07-01",
+  datePublished: "2025-01-15",
+  dateModified: "2025-01-15",
 };
 
 const faqs = [
   {
-    question: "How much do Medicare agents charge?",
-    answer:
-      "Independent Medicare agents do not charge you anything. They are compensated by the insurance carriers when you enroll in a plan. Your premium stays the same whether you use an agent or enroll directly with the carrier.",
-  },
-  {
     question: "What is an independent Medicare agent?",
     answer:
-      "An independent Medicare agent is a licensed broker who is not tied to a single insurance company. They can compare plans from multiple carriers and recommend the one that best fits your health needs and budget, rather than pushing one company's products.",
+      "An independent Medicare agent is licensed to sell plans from multiple insurance carriers, not just one company. This means they can compare options across carriers and recommend the plan that actually fits your needs and budget, rather than pushing the only product they're allowed to sell.",
   },
   {
-    question: "Can an independent agent help with both Medicare Supplement and Medicare Advantage?",
+    question: "How much do Medicare agents charge?",
     answer:
-      "Yes. Independent agents in Albuquerque are typically licensed to sell both Medicare Supplement (Medigap) policies and Medicare Advantage plans. They can walk you through the differences and help you pick the right path.",
+      "Independent Medicare agents don't charge you anything. They're paid commissions directly by insurance carriers when you enroll in a plan. The premium you pay is the same whether you use an agent or enroll on your own, so there's no financial downside to getting expert help.",
   },
   {
-    question: "When should I contact a Medicare agent in Albuquerque?",
+    question: "What's the difference between a Medicare agent and a Medicare broker?",
     answer:
-      "Ideally, reach out 2-3 months before you turn 65 or before your Part B start date. For Medicare Advantage changes, the Annual Enrollment Period runs October 15 through December 7. An agent can help you prepare ahead of time so you don't miss key deadlines.",
+      "The terms are often used interchangeably. Technically, an agent represents insurance carriers while a broker represents you, the consumer. In practice, an independent agent who works with multiple carriers functions much like a broker because they shop across companies on your behalf.",
+  },
+  {
+    question: "Who is the best person to talk to about Medicare?",
+    answer:
+      "A licensed independent Medicare agent is your best resource. Unlike captive agents tied to one carrier, independent agents compare plans side by side. Unlike the 1-800-MEDICARE helpline, they can give you personalized recommendations based on your doctors, prescriptions, and budget.",
   },
 ];
 
@@ -90,7 +90,7 @@ export default function IndependentMedicareAgentsABQNM() {
     <main className="max-w-4xl mx-auto px-4 py-8">
       <SchemaMarkup schema={[breadcrumbSchema, articleSchema]} />
 
-      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
+      <nav aria-label="Breadcrumb" className="mb-6 text-sm text-gray-600">
         <Link href="/" className="hover:underline">
           Home
         </Link>{" "}
@@ -99,126 +99,126 @@ export default function IndependentMedicareAgentsABQNM() {
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
-        <span className="text-gray-700">Independent Medicare Agents ABQ NM</span>
+        <span className="text-gray-900">
+          Independent Medicare Agents ABQ NM
+        </span>
       </nav>
 
-      <h1 className="text-3xl font-bold mb-4">
-        Independent Medicare Agents in ABQ NM — Why Independence Matters for Your Coverage
+      <h1 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900">
+        Independent Medicare Agents in ABQ NM — Why Independence Matters for
+        Your Coverage
       </h1>
 
       <Image
-        src="/images/independent-medicare-agents-abq-nm.webp"
+        src="/images/hub_independent-medicare-agents-abq-nm.webp"
         alt="independent medicare agents abq nm"
         width={800}
         height={400}
-        className="rounded-lg mb-6 w-full"
+        className="w-full rounded-lg mb-6"
+        priority
       />
 
-      <p className="text-lg mb-3">
-        Independent Medicare agents in ABQ NM give you something a captive agent never can: an honest side-by-side comparison of plans from multiple carriers. If you live in the Albuquerque area and you are approaching 65 or already on Medicare, working with an independent broker means your options are not limited to one company's lineup.
+      <p className="text-lg mb-2 text-gray-800">
+        Independent Medicare agents in ABQ NM work for you, not for one insurance company. That distinction changes everything about the advice you get.
       </p>
-      <p className="mb-6">
-        The best part? This service costs you nothing out of pocket. Here is how it works and why Albuquerque residents are choosing independent help.
+      <p className="text-lg mb-6 text-gray-800">
+        Whether you're turning 65, retiring from Sandia Labs or Kirtland AFB, or just moved to Albuquerque and need to sort out coverage, an independent agent compares plans across carriers so you don't have to guess.
       </p>
 
       <PhoneCTA />
 
       <section className="mt-10 mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
+        <h2 className="text-2xl font-semibold mb-3 text-gray-900">
           What makes an independent agent different from a captive one
         </h2>
-        <p className="mb-2">
-          A captive agent works for one insurance company. They can only show you that company's plans. If a competitor has a lower rate or better network in Bernalillo County, you will never hear about it.
+        <p className="text-gray-800 mb-2">
+          A captive agent represents a single insurance company. They can only show you that company's plans. If a competitor has a better rate or better network coverage near Presbyterian or UNM Hospital, they can't tell you.
         </p>
-        <p>
-          An independent agent contracts with multiple carriers. That means they can pull quotes from several companies, lay them next to each other, and let you pick the best fit. No sales quotas for a single brand.
+        <p className="text-gray-800">
+          An independent agent is contracted with multiple carriers. They lay your options side by side and let you pick. No steering, no blind spots.
         </p>
       </section>
 
       <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
+        <h2 className="text-2xl font-semibold mb-3 text-gray-900">
           Medicare Supplement and Advantage options in Albuquerque
         </h2>
-        <p className="mb-2">
-          Albuquerque has a competitive Medicare market. You will find several Medicare Advantage (Part C) plans with $0 premiums and added dental or vision benefits. Medicare Supplement plans like Plan G and Plan N are also available from multiple carriers, and rates vary significantly.
+        <p className="text-gray-800 mb-2">
+          Bernalillo County has solid competition among Medicare Advantage carriers, which often means $0-premium HMO and PPO options with dental, vision, and hearing built in. But network restrictions matter here. Your plan needs to cover the providers you actually use, whether that's Lovelace, UNM Health, or Presbyterian.
         </p>
-        <ul className="list-disc pl-6 space-y-1">
-          <li>Plan G covers everything Original Medicare does not, except the $257 annual Part B deductible</li>
-          <li>Plan N has lower premiums but includes small copays at office visits</li>
-          <li>Medicare Advantage plans bundle Part A, Part B, and usually Part D into one plan</li>
-        </ul>
-        <p className="mt-2">
-          An independent agent can help you decide which path makes sense for your doctors, prescriptions, and budget.
+        <p className="text-gray-800">
+          Medicare Supplement (Medigap) plans give you more provider flexibility. Plan G is the most popular standardized option. Rates vary by carrier, and that's exactly where an independent agent saves you real money by comparing quotes.
         </p>
       </section>
 
       <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
+        <h2 className="text-2xl font-semibold mb-3 text-gray-900">
           How independent brokers get paid without charging you
         </h2>
-        <p className="mb-2">
-          Insurance carriers pay agent commissions directly. Your premium is the same whether you enroll through an agent, go online, or call the carrier yourself. There is zero markup.
+        <p className="text-gray-800 mb-2">
+          This surprises people: you pay nothing for an independent agent's help. Zero. The insurance carrier pays the agent a commission when you enroll. Your premium stays the same whether you use an agent or go direct.
         </p>
-        <p>
-          This is federally regulated. No licensed Medicare agent can charge you a fee for enrollment help. If someone asks for payment, walk away and report them to CMS.
-        </p>
-      </section>
-
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Why Albuquerque residents benefit from local knowledge
-        </h2>
-        <p className="mb-2">
-          Provider networks change by ZIP code. A plan that works great in Santa Fe might have limited doctors in the ABQ metro area. A local independent agent knows which carriers have strong networks at Presbyterian, UNM Hospital, and Lovelace.
-        </p>
-        <p>
-          They also understand New Mexico-specific Medigap rules and can flag anything that affects your enrollment window.
+        <p className="text-gray-800">
+          There's no catch. The agent's incentive is to keep you happy so you stay enrolled. That's the business model.
         </p>
       </section>
 
       <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Key enrollment windows to keep in mind
+        <h2 className="text-2xl font-semibold mb-3 text-gray-900">
+          Key enrollment windows to know
         </h2>
-        <ul className="list-disc pl-6 space-y-1">
-          <li>Medigap Open Enrollment: 6 months starting the month you turn 65 and have Part B - guaranteed issue, no health questions</li>
-          <li>Medicare Advantage and Part D Annual Enrollment: October 15 through December 7</li>
-          <li>Part B late enrollment penalty: 10% per 12-month period you delayed signing up</li>
+        <ul className="list-disc pl-6 space-y-2 text-gray-800">
+          <li>
+            <strong>Medigap Open Enrollment:</strong> 6 months starting the month you turn 65 and have Part B. This is your guaranteed-issue window with no health questions.
+          </li>
+          <li>
+            <strong>Medicare Advantage / Part D:</strong> Annual Enrollment runs October 15 through December 7.
+          </li>
+          <li>
+            <strong>New to ABQ?</strong> Moving into a new service area triggers a Special Enrollment Period for Medicare Advantage.
+          </li>
         </ul>
-        <p className="mt-2">
-          Missing these dates can cost you. An independent agent keeps you on track.
+      </section>
+
+      <section className="mb-8">
+        <h2 className="text-2xl font-semibold mb-3 text-gray-900">
+          2026 Medicare costs you should budget for
+        </h2>
+        <ul className="list-disc pl-6 space-y-2 text-gray-800">
+          <li>Part B premium: $202.90/month</li>
+          <li>Part B deductible: $283/year</li>
+          <li>Part A deductible: $1,676 per benefit period</li>
+          <li>SNF coinsurance (days 21-100): $209.50/day</li>
+        </ul>
+        <p className="text-gray-800 mt-2">
+          These numbers are why people in Albuquerque carry supplemental coverage. Without it, one hospital stay can cost thousands.
         </p>
       </section>
 
       <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
+        <h2 className="text-2xl font-semibold mb-3 text-gray-900">
           Connect with a licensed independent agent today
         </h2>
-        <p className="mb-2">
-          Whether you are turning 65, retiring from Sandia National Labs, or switching from a plan that no longer fits, a quick phone call can save you hundreds a year. We compare plans from multiple carriers and walk you through every option at no cost.
+        <p className="text-gray-800 mb-2">
+          You shouldn't have to sort through 30+ plan options alone. A quick phone call gets you a licensed agent who knows the Albuquerque market, understands which carriers have strong local networks, and will walk you through your choices with zero pressure.
         </p>
-        <p>
-          Call now or request a free consultation below.
+        <p className="text-gray-800">
+          No cost, no obligation. Just straight answers.
         </p>
       </section>
 
-      <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 text-center mb-10">
-        <p className="text-xl font-semibold mb-2">
-          Ready to compare Medicare plans in Albuquerque?
+      <div className="bg-blue-600 text-white rounded-lg p-8 text-center mb-10">
+        <p className="text-xl font-bold mb-2">
+          Talk to an independent Medicare agent who works for you.
         </p>
-        <p className="text-lg mb-4">
-          Call{" "}
-          <a
-            href="tel:8555591700"
-            className="text-blue-700 font-bold hover:underline"
-          >
+        <p className="text-2xl font-bold mb-4">
+          <a href="tel:8555591700" className="underline">
             855-559-1700
-          </a>{" "}
-          for a free, no-obligation consultation.
+          </a>
         </p>
         <Link
-          href="/get-a-free-quote"
-          className="inline-block bg-blue-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-blue-700 transition"
+          href="/contact"
+          className="inline-block bg-white text-blue-600 font-semibold px-6 py-3 rounded-lg hover:bg-blue-50 transition"
         >
           Get a Free Quote
         </Link>
@@ -227,14 +227,16 @@ export default function IndependentMedicareAgentsABQNM() {
       <FAQSection faqs={faqs} />
 
       <section className="mt-10">
-        <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
+        <h2 className="text-2xl font-semibold mb-4 text-gray-900">
+          Related resources
+        </h2>
         <ul className="space-y-2">
           <li>
             <Link
               href="/medicare-guides/medicare-supplement-plan-g"
               className="text-blue-600 hover:underline"
             >
-              Medicare Supplement Plan G - Full Breakdown
+              Medicare Supplement Plan G: What It Covers and What It Costs
             </Link>
           </li>
           <li>
@@ -242,7 +244,7 @@ export default function IndependentMedicareAgentsABQNM() {
               href="/medicare-guides/medicare-advantage-vs-medigap"
               className="text-blue-600 hover:underline"
             >
-              Medicare Advantage vs. Medigap - Which Is Right for You?
+              Medicare Advantage vs. Medigap: How to Choose
             </Link>
           </li>
           <li>
@@ -250,15 +252,15 @@ export default function IndependentMedicareAgentsABQNM() {
               href="/medicare-guides/when-to-enroll-in-medicare"
               className="text-blue-600 hover:underline"
             >
-              When to Enroll in Medicare - Deadlines and Penalties
+              When to Enroll in Medicare: Deadlines That Matter
             </Link>
           </li>
           <li>
             <Link
-              href="/services/medicare-broker-near-me"
+              href="/services/medicare-broker-new-mexico"
               className="text-blue-600 hover:underline"
             >
-              Find a Medicare Broker Near You
+              Medicare Broker Services in New Mexico
             </Link>
           </li>
         </ul>

@@ -9,12 +9,12 @@ export const metadata: Metadata = {
   title:
     "irvington nj medicare insurance agents | Free Local Broker | MedicareYourself",
   description:
-    "Irvington NJ Medicare insurance agents - Anthony Orner is a licensed independent broker comparing Supplement and Advantage plans in Essex County. Free quote.",
+    "Irvington NJ Medicare insurance agents — Anthony Orner is a licensed independent broker comparing Supplement and Advantage plans in Essex County. Free quote.",
   openGraph: {
     title:
       "irvington nj medicare insurance agents | Free Local Broker | MedicareYourself",
     description:
-      "Irvington NJ Medicare insurance agents - Anthony Orner is a licensed independent broker comparing Supplement and Advantage plans in Essex County. Free quote.",
+      "Irvington NJ Medicare insurance agents — Anthony Orner is a licensed independent broker comparing Supplement and Advantage plans in Essex County. Free quote.",
   },
 };
 
@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Irvington NJ Medicare Insurance Agents",
-      item: "https://www.medicareyourself.com/services/irvington-nj-medicare-insurance-agents",
+      item: "https://medicareyourself.com/services/irvington-nj-medicare-insurance-agents",
     },
   ],
 };
@@ -51,200 +51,169 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-01-01",
-  dateModified: "2025-01-01",
+  datePublished: "2025-07-12",
+  dateModified: "2025-07-12",
 };
 
 const faqs = [
   {
-    question:
-      "Does it cost extra to use a Medicare insurance agent in Irvington NJ?",
+    question: "What is the best Medicare plan in New Jersey?",
     answer:
-      "No. Independent Medicare brokers are paid by the insurance carriers, not by you. There is no fee for consultations, plan comparisons, or enrollment assistance. Your premium stays the same whether you use a broker or go directly to the carrier.",
+      "There's no single best plan for everyone. The right choice depends on your doctors, prescriptions, and budget. An independent broker compares Supplement and Advantage options across multiple carriers so you can see what actually fits your situation in Essex County.",
   },
   {
-    question:
-      "What is the difference between a captive and independent Medicare agent?",
+    question: "How do I speak to a live person about Medicare?",
     answer:
-      "A captive agent represents one insurance company and can only show you that company's plans. An independent broker like Anthony Orner is licensed with multiple carriers and can compare Supplement and Advantage options side by side to find the best fit for your situation.",
+      "You can call 1-800-MEDICARE (1-800-633-4227) for general questions. For plan-specific help in Irvington, call a local independent broker like Anthony Orner at 855-559-1700. You'll reach a real person, not a call center queue.",
   },
   {
-    question: "When should I contact a Medicare agent before turning 65?",
+    question: "Does it cost extra to use a Medicare insurance agent in Irvington?",
     answer:
-      "Reach out at least six months before your 65th birthday. Your Medigap Open Enrollment Period starts the month you turn 65 and are enrolled in Part B. Applying early locks in your rate and gives you guaranteed issue rights with no health questions.",
+      "No. Independent Medicare brokers are paid by the insurance carriers, not by you. The premiums you pay are the same whether you enroll directly or through a broker. The difference is you get someone who shops multiple carriers on your behalf.",
   },
   {
-    question:
-      "Can an Irvington Medicare broker help with Medicare Advantage and Part D?",
+    question: "When should I contact a broker before turning 65?",
     answer:
-      "Yes. An independent broker can compare Medicare Advantage plans with prescription drug coverage (Part C) as well as standalone Part D drug plans. During Open Enrollment from October 15 to December 7, your broker can review your current plan and switch you if a better option exists.",
+      "Reach out about six months before your 65th birthday. That gives you time to compare plans during your Medigap Open Enrollment Period, when carriers must accept you regardless of health history and offer their best rates.",
   },
 ];
 
 export default function IrvingtonNJMedicareInsuranceAgents() {
   return (
-    <main className="max-w-4xl mx-auto px-4 py-8">
+    <main className="max-w-3xl mx-auto px-4 py-8">
       <SchemaMarkup schema={breadcrumbSchema} />
       <SchemaMarkup schema={articleSchema} />
 
       <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
         <Link href="/" className="hover:underline">
           Home
-        </Link>{" "}
-        &gt;{" "}
+        </Link>
+        {" > "}
         <Link href="/medicare-guides" className="hover:underline">
           Medicare Guides
-        </Link>{" "}
-        &gt;{" "}
-        <span className="text-gray-700">
-          Irvington NJ Medicare Insurance Agents
-        </span>
+        </Link>
+        {" > "}
+        <span className="text-gray-700">Irvington NJ Medicare Insurance Agents</span>
       </nav>
 
-      <h1 className="text-3xl font-bold mb-4">
-        Irvington NJ Medicare Insurance Agents — Licensed Broker Serving Essex
-        County
+      <h1 className="text-3xl font-bold mb-4 leading-tight">
+        Irvington NJ Medicare Insurance Agents — Licensed Broker Serving Essex County
       </h1>
 
       <Image
-        src="/images/irvington-nj-medicare-insurance-agents.webp"
+        src="/images/hub_irvington-nj-medicare-insurance-agents.webp"
         alt="Irvington NJ Medicare insurance agents"
         width={800}
         height={400}
-        className="rounded-lg mb-6 w-full"
+        className="w-full h-auto rounded-lg mb-6"
+        priority
       />
 
       <p className="text-lg mb-2">
-        Irvington NJ Medicare insurance agents are not all the same. Some work
-        for a single carrier, which means you only see that company's plans. As
-        an independent broker licensed in New Jersey, I compare Supplement and
-        Advantage options from multiple carriers so you get an honest side-by-side
-        look at what is available in the 07111 zip code.
+        Irvington NJ Medicare insurance agents aren't all the same. Some represent one carrier. I'm Anthony Orner, an independent broker licensed in New Jersey, and I compare plans from multiple carriers so Irvington residents see real options side by side.
       </p>
-      <p className="text-lg mb-6">
-        My name is Anthony Orner, and I help Irvington residents choose the right
-        Medicare coverage without any cost to them. The carriers pay me - you
-        never do.
+      <p className="mb-6">
+        No cost for my help. No pressure. Just clear answers about what each plan covers and what it costs in 07111.
       </p>
 
       <PhoneCTA />
 
-      <section className="mt-10 mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
           What an independent broker offers Irvington Medicare beneficiaries
         </h2>
         <p className="mb-2">
-          A captive agent shows you one company's lineup. I show you plans from
-          several carriers and explain the trade-offs in plain English. There is no
-          pressure and no sales pitch.
+          A captive agent sells one company's plans. I work with multiple carriers, which means I can show you where the gaps are and where you might overpay.
         </p>
-        <ul className="list-disc ml-6 mb-2 space-y-1">
-          <li>Side-by-side premium comparisons for Medigap plans</li>
-          <li>Medicare Advantage plan reviews including network and drug coverage</li>
-          <li>Enrollment help at no charge - your premium stays the same</li>
+        <ul className="list-disc pl-6 space-y-1 mb-2">
+          <li>Side-by-side comparison of Supplement and Advantage plans</li>
+          <li>Prescription drug plan (Part D) review for your specific medications</li>
+          <li>Help with enrollment paperwork and carrier applications</li>
+          <li>Ongoing support if a carrier drops your doctor or changes networks</li>
         </ul>
+        <p>
+          Network disruptions happen in New Jersey. When a major health system stops accepting a carrier, you need someone who can quickly find your next best option.
+        </p>
       </section>
 
-      <section className="mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
           Medicare Supplement and Advantage plans in Irvington 07111
         </h2>
         <p className="mb-2">
-          Irvington falls inside Essex County, which means you have access to a
-          solid mix of Medicare Advantage HMO and PPO plans as well as every
-          standardized Medigap letter plan. Plan G and Plan N are the most popular
-          Supplement options I write in this area.
+          Medicare Supplement (Medigap) plans cover the gaps Original Medicare leaves behind. Plan G is the most popular standardized option: it covers the Part A deductible ($1,676 in 2026), skilled nursing coinsurance ($209.50/day for days 21-100), and Part B excess charges.
         </p>
         <p>
-          Plan G covers everything Original Medicare does not, except the Part B
-          deductible of $257 per year. Plan N has a lower premium but adds small
-          copays at office visits. Both are strong choices depending on your budget.
+          Medicare Advantage plans bundle Part A, Part B, and usually Part D into one plan. Many have $0 premiums in Essex County, but they use provider networks. If your doctors are at University Hospital Newark or Clara Maass Medical Center, check that they're in-network before you enroll.
         </p>
       </section>
 
-      <section className="mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
           Essex County carrier options and how premiums are rated
         </h2>
         <p className="mb-2">
-          New Jersey Medigap carriers use different rating methods. Some are
-          community-rated, meaning everyone pays the same regardless of age. Others
-          are attained-age, so your premium increases as you get older. This
-          matters a lot over a 20-year retirement.
+          New Jersey Medigap carriers use different rating methods. Some use attained-age rating, where your premium rises as you get older. Others use community rating, where everyone pays the same base rate regardless of age.
         </p>
         <p>
-          I walk you through both types and show you real numbers so you can pick
-          the structure that makes sense for your situation. Rates vary by carrier,
-          and I will pull current quotes for your age and zip code.
+          The rating method matters more than the starting price. A plan that's $20/month cheaper at 65 could cost significantly more by 75 under attained-age pricing. I'll show you the long-term math.
         </p>
       </section>
 
-      <section className="mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
-          Why timing matters for Medigap enrollment
+          Why timing matters for Irvington residents turning 65
         </h2>
         <p className="mb-2">
-          Your Medigap Open Enrollment Period lasts six months. It starts the
-          month you turn 65 and are enrolled in Part B. During this window, no
-          carrier can deny you or charge more because of health conditions.
+          Your Medigap Open Enrollment Period starts the month you turn 65 and are enrolled in Part B. It lasts six months. During this window, carriers can't deny you or charge more for health conditions.
         </p>
         <p>
-          My practice is to have clients apply up to six months before their Part B
-          start date. This locks in the rate early and protects you from premium
-          increases before coverage begins. The sooner you lock in, the better your
-          rate.
+          Miss it, and you may face medical underwriting. Start the conversation about six months before your birthday so there's time to compare without rushing.
         </p>
       </section>
 
-      <section className="mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
-          Key 2026 Medicare costs to know
+          2026 Medicare costs you should know
         </h2>
-        <ul className="list-disc ml-6 space-y-1">
-          <li>Part B premium: $185/month</li>
-          <li>Part B deductible: $257/year</li>
+        <ul className="list-disc pl-6 space-y-1">
+          <li>Part B premium: $202.90/month</li>
+          <li>Part B deductible: $283/year</li>
           <li>Part A deductible: $1,676 per benefit period</li>
-          <li>Skilled nursing facility coinsurance (days 21-100): $209.50/day</li>
-          <li>Medicare Advantage Open Enrollment: October 15 - December 7</li>
+          <li>Part B late enrollment penalty: 10% for each 12-month period you delayed</li>
+          <li>Medicare Advantage/Part D Open Enrollment: October 15 through December 7</li>
         </ul>
       </section>
 
-      <section className="mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
           Schedule a free Irvington Medicare plan review
         </h2>
         <p className="mb-2">
-          Whether you are turning 65 next month or reviewing your current plan,
-          I can pull up-to-date quotes for your specific zip code and health needs.
-          Calls typically take about 15 minutes.
+          Whether you're turning 65, retiring from a job with group coverage, or unhappy with your current plan, I'll walk you through your options. Phone, video, or in-person if you're in Essex County.
         </p>
         <p>
-          Call me at 855-559-1700 or use the link below to request a free
-          comparison. There is zero obligation and zero cost.
+          Call <strong>855-559-1700</strong> or use the link below. No forms, no obligation.
         </p>
       </section>
 
-      <div className="bg-blue-600 text-white rounded-lg p-6 text-center mb-10">
+      <div className="mt-10 bg-blue-600 text-white rounded-lg p-6 text-center">
         <p className="text-xl font-semibold mb-2">
-          Talk to a licensed Medicare broker today
+          Ready to compare Medicare plans in Irvington?
         </p>
-        <p className="text-lg mb-4">
-          Call{" "}
-          <a href="tel:8555591700" className="underline font-bold">
-            855-559-1700
-          </a>{" "}
-          for a free plan comparison
+        <p className="mb-4">
+          Call <strong>855-559-1700</strong> for a free, no-obligation plan review.
         </p>
         <Link
-          href="/contact"
-          className="inline-block bg-white text-blue-600 font-semibold px-6 py-3 rounded-lg hover:bg-gray-100"
+          href="/get-a-free-quote"
+          className="inline-block bg-white text-blue-600 font-semibold px-6 py-3 rounded-lg hover:bg-gray-100 transition"
         >
           Get a Free Quote
         </Link>
@@ -252,39 +221,39 @@ export default function IrvingtonNJMedicareInsuranceAgents() {
 
       <FAQSection faqs={faqs} />
 
-      <section className="mt-10">
+      <section className="mt-12">
         <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
         <ul className="space-y-2">
           <li>
             <Link
-              href="/services/essex-county-medicare-broker"
+              href="/medicare-guides/medicare-supplement-plans-nj"
               className="text-blue-600 hover:underline"
             >
-              Essex County Medicare Broker - Free Plan Comparison
+              Medicare Supplement Plans in New Jersey
             </Link>
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-plan-g-nj"
+              href="/medicare-guides/medicare-advantage-plans-nj"
               className="text-blue-600 hover:underline"
             >
-              Medicare Plan G in New Jersey - Benefits and Rates
+              Medicare Advantage Plans in New Jersey
             </Link>
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-supplement-vs-advantage"
+              href="/services/newark-nj-medicare-insurance-agents"
               className="text-blue-600 hover:underline"
             >
-              Medicare Supplement vs. Medicare Advantage
+              Newark NJ Medicare Insurance Agents
             </Link>
           </li>
           <li>
             <Link
-              href="/medicare-guides/medigap-open-enrollment-nj"
+              href="/medicare-guides/medigap-open-enrollment-period"
               className="text-blue-600 hover:underline"
             >
-              Medigap Open Enrollment in NJ - What You Need to Know
+              Medigap Open Enrollment Period Explained
             </Link>
           </li>
         </ul>

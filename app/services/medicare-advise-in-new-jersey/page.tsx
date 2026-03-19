@@ -9,12 +9,12 @@ export const metadata: Metadata = {
   title:
     "medicare advise in new jersey | Free Expert Guidance | MedicareYourself",
   description:
-    "Medicare advise in New Jersey from licensed broker Anthony Orner. Get unbiased guidance on Medigap, Advantage, and Part D plans. Free consultation available.",
+    "Medicare advice in New Jersey from licensed broker Anthony Orner. Unbiased guidance on Medigap, Advantage, and Part D plans. Free consultation available.",
   openGraph: {
     title:
       "medicare advise in new jersey | Free Expert Guidance | MedicareYourself",
     description:
-      "Medicare advise in New Jersey from licensed broker Anthony Orner. Get unbiased guidance on Medigap, Advantage, and Part D plans. Free consultation available.",
+      "Medicare advice in New Jersey from licensed broker Anthony Orner. Unbiased guidance on Medigap, Advantage, and Part D plans. Free consultation available.",
   },
 };
 
@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Medicare Advice in New Jersey",
-      item: "https://www.medicareyourself.com/services/medicare-advise-in-new-jersey",
+      item: "https://medicareyourself.com/services/medicare-advise-in-new-jersey",
     },
   ],
 };
@@ -50,48 +50,48 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-01",
-  dateModified: "2025-07-01",
+  mainEntityOfPage:
+    "https://medicareyourself.com/services/medicare-advise-in-new-jersey",
 };
 
 const faqs = [
   {
     question: "What is the New Jersey Medicare advisory?",
     answer:
-      "New Jersey does not have a single official 'Medicare advisory' agency, but the state offers the SHIP (State Health Insurance Assistance Program) for free Medicare counseling. Working with a licensed independent broker like Anthony Orner gives you personalized plan comparisons across multiple carriers at no cost to you.",
+      "New Jersey offers SHIP (State Health Insurance Assistance Program) counselors who provide free Medicare guidance. You can also work with a licensed independent broker like Anthony Orner, who compares plans across multiple carriers at no cost to you.",
   },
   {
     question: "What is the best Medicare plan in New Jersey?",
     answer:
-      "There is no single best plan for everyone. The right choice depends on your doctors, prescriptions, budget, and how often you travel. Medicare Supplement Plan G is popular for those who want predictable costs, while Medicare Advantage plans can work well if you prefer lower premiums and are comfortable with network restrictions. A licensed broker can compare your specific options.",
-  },
-  {
-    question: "How much does it cost to get Medicare advice in New Jersey?",
-    answer:
-      "Working with an independent Medicare broker like Anthony Orner costs you nothing. Brokers are paid by the insurance carriers, not by you. Your premiums are the same whether you enroll directly or through a broker.",
+      "There's no single best plan for everyone. If you want predictable costs and freedom to see any doctor who accepts Medicare, Medigap Plan G paired with a Part D drug plan is a strong choice. If you prefer lower premiums with bundled benefits like dental, a Medicare Advantage plan may work. The right answer depends on your doctors, prescriptions, and budget.",
   },
   {
     question:
-      "When should I start looking into Medicare if I am turning 65 in NJ?",
+      "Can I get Medicare advice in New Jersey without being sold something?",
     answer:
-      "Start at least 6 months before your 65th birthday. For Medigap plans, Anthony's practice is to have clients apply up to 6 months before their Part B start date to lock in the best rate. Your Medigap Open Enrollment Period begins the month you turn 65 and are enrolled in Part B, lasting 6 months with guaranteed issue rights.",
+      "Yes. Anthony Orner offers free, no-obligation consultations. As an independent broker licensed with every major carrier in New Jersey, he's paid the same regardless of which plan you choose, so there's no incentive to push one over another.",
+  },
+  {
+    question: "When should I start getting Medicare advice before I turn 65?",
+    answer:
+      "Start at least 3 months before your 65th birthday. Your Initial Enrollment Period begins 3 months before the month you turn 65 and ends 3 months after. If you want Medigap coverage, your 6-month open enrollment window starts when you're both 65 and enrolled in Part B, so timing matters.",
   },
 ];
 
 export default function MedicareAdviseInNewJersey() {
   return (
-    <main className="max-w-4xl mx-auto px-4 py-8">
+    <>
       <SchemaMarkup schema={breadcrumbSchema} />
       <SchemaMarkup schema={articleSchema} />
 
-      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
+      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-4">
         <Link href="/" className="hover:underline">
           Home
         </Link>{" "}
@@ -108,50 +108,46 @@ export default function MedicareAdviseInNewJersey() {
       </h1>
 
       <Image
-        src="/images/medicare-advise-in-new-jersey.webp"
-        alt="Medicare advice in New Jersey"
+        src="/images/hub_medicare-advise-in-new-jersey.webp"
+        alt="medicare advise in new jersey"
         width={800}
         height={400}
-        className="rounded-lg mb-6 w-full"
+        className="w-full h-auto rounded-lg mb-6"
       />
 
       <p className="text-lg mb-2">
-        Medicare advice in New Jersey should come from someone who works for you,
-        not for one insurance company. I'm Anthony Orner, a licensed independent
-        broker who compares plans across every major carrier in the state so you
-        get an honest recommendation.
-      </p>
-      <p className="text-lg mb-6">
-        My consultations are free. You pay the same premium whether you enroll
-        through me or directly with a carrier.
+        Medicare advice in New Jersey shouldn't require a decoder ring. But most
+        people turning 65 say the same thing: "I thought I understood insurance
+        until I hit Medicare." I'm Anthony Orner, an independent broker licensed
+        across NJ, and I help people cut through the confusion without charging a
+        dime.
       </p>
 
       <PhoneCTA />
 
-      <section className="mt-10 mb-8">
+      <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-3">
           Common Medicare questions NJ residents ask at 65
         </h2>
         <p className="mb-2">
-          Most people I sit down with have the same handful of concerns. Here are
-          the big ones:
+          The questions I hear most often from folks in Bergen County, Monmouth
+          County, and everywhere in between:
         </p>
-        <ul className="list-disc pl-6 space-y-2 mb-2">
+        <ul className="list-disc pl-6 space-y-1 mb-2">
+          <li>Do I need Part B if I'm still working with employer coverage?</li>
           <li>
-            Do I still need to sign up for Part B if I have employer coverage?
+            What's the Part B late enrollment penalty? (10% per 12-month period
+            you delayed)
           </li>
-          <li>
-            What is the Part B premium? In 2026, the standard amount is
-            $185/month.
-          </li>
-          <li>
-            Will I face a penalty if I enroll late? Yes - 10% added to your Part
-            B premium for every 12 months you delayed without qualifying
-            coverage.
-          </li>
+          <li>Should I get Medigap or Medicare Advantage?</li>
           <li>How do I pick a Part D drug plan that covers my medications?</li>
         </ul>
-        <p>These are real financial questions. You deserve real answers.</p>
+        <p>
+          If you're still working at 65, you can enroll in Part A (free) and
+          delay Part B without penalty as long as you have creditable employer
+          coverage. The details matter. One wrong assumption can cost you for
+          years.
+        </p>
       </section>
 
       <section className="mb-8">
@@ -159,38 +155,20 @@ export default function MedicareAdviseInNewJersey() {
           Medigap vs. Medicare Advantage: which path fits your situation
         </h2>
         <p className="mb-2">
-          This is the biggest fork in the road. A Medigap (Medicare Supplement)
-          plan pairs with Original Medicare and covers most of the gaps - like
-          the $1,676 Part A deductible and Part B coinsurance. You can see any
-          doctor who accepts Medicare nationwide.
-        </p>
-        <p className="mb-2">
-          Medicare Advantage bundles everything into one plan, often with $0 or
-          low premiums and extra perks like dental and vision. The trade-off is
-          network restrictions and prior authorizations.
+          Medigap Plan G plus a standalone Part D plan gives you freedom to see
+          any doctor who accepts Medicare, anywhere in the country. You pay
+          higher monthly premiums but your out-of-pocket costs stay predictable.
+          For 2026, you'd cover the $283 Part B deductible and Plan G handles
+          the rest.
         </p>
         <p>
-          Neither option is automatically better. It depends on your health, your
-          doctors, and your budget. I lay out both paths side by side so you can
-          choose with confidence.
-        </p>
-      </section>
-
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Why timing matters for Medigap enrollment
-        </h2>
-        <p className="mb-2">
-          Your Medigap Open Enrollment Period lasts 6 months, starting the month
-          you turn 65 and are enrolled in Part B. During this window, carriers
-          must accept you regardless of health history. No medical questions. No
-          higher premiums.
-        </p>
-        <p>
-          My practice is to have clients apply for their Medigap plan up to 6
-          months before their Part B start date. This locks in your rate early
-          and protects you from premium increases before coverage kicks in. The
-          sooner you lock in, the better your rate.
+          Medicare Advantage bundles medical, drug, and often dental/vision into
+          one plan with lower premiums. The trade-off: provider networks,
+          referrals, and prior authorizations. For people who need ongoing dental
+          work or want the simplicity of a single card, Advantage can make
+          sense. Neither choice is universally "better." Your doctors, your
+          prescriptions, and your tolerance for surprise bills should drive the
+          decision.
         </p>
       </section>
 
@@ -199,112 +177,115 @@ export default function MedicareAdviseInNewJersey() {
           How Anthony Orner helps you avoid costly enrollment mistakes
         </h2>
         <p className="mb-2">
-          I am licensed with every major carrier in New Jersey. That means I am
-          not pushing one company's product. I compare rates and benefits across
-          the board, then show you what actually fits.
+          I'm licensed with every major carrier in New Jersey. That means I
+          compare Cigna, UnitedHealthcare, Aetna, Humana, Horizon, and others
+          side by side. I don't work for any of them. I work for you.
         </p>
-        <ul className="list-disc pl-6 space-y-2">
+        <p>
+          The most expensive mistake I see: missing your Medigap open enrollment
+          window. That 6-month period starts the month you turn 65 and are
+          enrolled in Part B. During that window, carriers must accept you
+          regardless of health history. After it closes, they can deny you or
+          charge more. I make sure your timing is right.
+        </p>
+      </section>
+
+      <section className="mb-8">
+        <h2 className="text-2xl font-semibold mb-3">
+          Key 2026 Medicare costs you should know
+        </h2>
+        <ul className="list-disc pl-6 space-y-1">
+          <li>Part B premium: $202.90/month</li>
+          <li>Part B deductible: $283/year</li>
+          <li>Part A deductible: $1,676 per benefit period</li>
+          <li>Skilled nursing coinsurance (days 21-100): $209.50/day</li>
           <li>
-            I verify your enrollment timeline so you don't trigger late penalties
-          </li>
-          <li>I check whether your doctors accept Original Medicare or specific Advantage networks</li>
-          <li>I review your prescriptions against Part D formularies</li>
-          <li>
-            I explain New Jersey-specific programs like PAAD and Senior Gold that
-            can reduce your costs
+            Open Enrollment for Advantage and Part D: October 15 through
+            December 7
           </li>
         </ul>
       </section>
 
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-3">
-          New Jersey programs that can lower your costs
+          Why independent advice beats a 1-800 number
         </h2>
-        <p className="mb-2">
-          NJ offers PAAD (Pharmaceutical Assistance to the Aged and Disabled)
-          and Senior Gold, two state programs that help eligible residents pay
-          for prescriptions. Income limits apply, and I can help you check
-          whether you qualify.
-        </p>
         <p>
-          These programs work alongside Medicare, not instead of it. Many people
-          don't know they exist.
+          Call a carrier's hotline and they'll only tell you about their plans.
+          Call me and I'll show you what every carrier offers for your zip code,
+          your medications, and your doctors. Same cost to you either way,
+          because brokers are paid by the carriers. The difference is you get the
+          full picture instead of one company's sales pitch.
         </p>
       </section>
 
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-3">
-          Request free Medicare advice - no obligation, no pressure
+          Request free Medicare advice — no obligation, no pressure
         </h2>
-        <p className="mb-2">
-          Whether you are turning 65 next month or already on Medicare and
-          wondering if you picked the right plan, I am here to help. Call me
-          directly or fill out the form below to schedule a free consultation.
-        </p>
         <p>
-          There is no sales pitch. I walk you through your options, answer your
-          questions, and let you decide.
+          You don't need to figure this out alone. Whether you're three months
+          from 65 or already enrolled and wondering if you picked the right plan,
+          I'll walk you through your options in plain English. One phone call.
+          No charge. No pressure.
         </p>
       </section>
 
-      <div className="bg-blue-600 text-white rounded-lg p-6 text-center mb-10">
-        <p className="text-xl font-semibold mb-2">
-          Talk to Anthony Orner today
+      <div className="bg-blue-600 text-white rounded-lg p-6 text-center mb-8">
+        <p className="text-xl font-bold mb-2">
+          Talk to Anthony Orner — Free Medicare Guidance
         </p>
         <p className="text-lg mb-4">
           Call{" "}
-          <a href="tel:855-559-1700" className="underline font-bold">
+          <a href="tel:8555591700" className="underline font-bold">
             855-559-1700
           </a>{" "}
-          for a free, no-obligation Medicare consultation.
+          or{" "}
+          <Link href="/contact" className="underline font-bold">
+            Get a Free Quote
+          </Link>
         </p>
-        <Link
-          href="/contact"
-          className="inline-block bg-white text-blue-600 font-semibold py-3 px-6 rounded-lg hover:bg-gray-100 transition"
-        >
-          Get a Free Quote
-        </Link>
       </div>
 
       <FAQSection faqs={faqs} />
 
       <section className="mt-10">
-        <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
+        <h2 className="text-xl font-semibold mb-4">Related resources</h2>
         <ul className="space-y-2">
           <li>
             <Link
-              href="/services/medigap-plans-nj"
+              href="/medicare-guides/medigap-plan-g-new-jersey"
               className="text-blue-600 hover:underline"
             >
-              Medigap Plans in New Jersey - Compare Your Options
+              Medigap Plan G in New Jersey: What It Covers and What It Costs
             </Link>
           </li>
           <li>
             <Link
-              href="/services/medicare-advantage-nj"
+              href="/medicare-guides/medicare-advantage-vs-medigap"
               className="text-blue-600 hover:underline"
             >
-              Medicare Advantage Plans in New Jersey
+              Medicare Advantage vs. Medigap: How to Decide
             </Link>
           </li>
           <li>
             <Link
-              href="/guides/medicare-part-d-nj"
+              href="/medicare-guides/medicare-part-d-enrollment"
               className="text-blue-600 hover:underline"
             >
-              How to Choose a Part D Plan in NJ
+              Choosing the Right Part D Plan for Your Medications
             </Link>
           </li>
           <li>
             <Link
-              href="/guides/turning-65-medicare"
+              href="/medicare-guides/turning-65-checklist"
               className="text-blue-600 hover:underline"
             >
-              Turning 65? Your Complete Medicare Enrollment Checklist
+              Turning 65 Medicare Checklist: What to Do and When
             </Link>
           </li>
         </ul>
       </section>
-    </main>
+    </>
   );
 }

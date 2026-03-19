@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Medicare Insurance Agents in Atlantic City, New Jersey",
-      item: "https://www.medicareyourself.com/services/medicare-insurance-agents-in-atlantic-city-new-jersey",
+      item: "https://medicareyourself.com/services/medicare-insurance-agents-in-atlantic-city-new-jersey",
     },
   ],
 };
@@ -51,268 +51,242 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-01-15",
-  dateModified: "2025-01-15",
-  mainEntityOfPage:
-    "https://www.medicareyourself.com/services/medicare-insurance-agents-in-atlantic-city-new-jersey",
+  datePublished: "2025-07-15",
+  dateModified: "2025-07-15",
 };
 
 const faqs = [
   {
     question: "Should I use an insurance agent for Medicare?",
     answer:
-      "Yes. A licensed Medicare agent compares plans across multiple carriers at no cost to you. Brokers are paid by insurance companies, not by you, so the quotes are free. An independent agent can show you options a single-carrier representative cannot.",
+      "Yes. A licensed independent broker compares plans from multiple carriers at no cost to you. Brokers are paid by insurance companies, not by you, so there's no markup on your premium whether you use one or not.",
+  },
+  {
+    question: "What is the best Medicare plan in New Jersey?",
+    answer:
+      "It depends on your doctors, prescriptions, and budget. Atlantic County residents typically choose between Medigap Plan G or Plan N for predictable costs, or a Medicare Advantage HMO/PPO for lower premiums with network-based care. A broker can compare both side by side for your situation.",
   },
   {
     question: "How do I pick a Medicare agent?",
     answer:
-      "Look for a licensed, independent broker who represents multiple carriers in your county. Ask if they handle both Medicare Supplement and Medicare Advantage plans. Check that they are familiar with Atlantic County's specific plan options and network availability.",
+      "Look for an independent broker (not a captive agent tied to one company), a valid NJ insurance license, and someone who asks about your doctors and medications before recommending a plan. Avoid anyone who pressures you to enroll on the spot.",
   },
   {
-    question: "Does Medicare have a local office in Atlantic City?",
+    question:
+      "When is the best time to enroll in Medicare in Atlantic City?",
     answer:
-      "Medicare itself does not operate local offices. You can visit your local Social Security office for enrollment help, or you can work with a licensed Medicare broker like Anthony Orner who serves Atlantic City residents by phone and in person.",
-  },
-  {
-    question: "What does a Medicare broker in Atlantic City cost?",
-    answer:
-      "Nothing. Licensed Medicare brokers are compensated by the insurance carrier when you enroll. You pay the same premium whether you use a broker or go directly to the carrier. There is no fee for quotes or consultations.",
+      "Your Medigap Open Enrollment Period starts the month you turn 65 and are enrolled in Part B. It lasts 6 months. For Medicare Advantage or Part D, the Annual Enrollment Period runs October 15 through December 7. Missing these windows can mean higher costs or fewer plan options.",
   },
 ];
 
 export default function MedicareInsuranceAgentsAtlanticCityNJ() {
   return (
     <main className="max-w-4xl mx-auto px-4 py-8">
-      <SchemaMarkup schema={breadcrumbSchema} />
-      <SchemaMarkup schema={articleSchema} />
+      <SchemaMarkup schema={[breadcrumbSchema, articleSchema]} />
 
       <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
         <Link href="/" className="hover:underline">
           Home
-        </Link>{" "}
-        &gt;{" "}
-        <Link href="/medicare" className="hover:underline">
+        </Link>
+        {" > "}
+        <Link href="/medicare-guides" className="hover:underline">
           Medicare Guides
-        </Link>{" "}
-        &gt;{" "}
+        </Link>
+        {" > "}
         <span className="text-gray-700">
           Medicare Insurance Agents in Atlantic City, New Jersey
         </span>
       </nav>
 
-      <h1 className="text-3xl font-bold mb-4">
+      <h1 className="text-3xl md:text-4xl font-bold mb-4">
         Medicare Insurance Agents in Atlantic City, New Jersey: Honest Broker
         Help
       </h1>
 
       <Image
-        src="/images/medicare-insurance-agents-in-atlantic-city-new-jersey.webp"
-        alt="Medicare insurance agents in Atlantic City New Jersey"
+        src="/images/hub_medicare-insurance-agents-in-atlantic-city-new-jersey.webp"
+        alt="medicare insurance agents in atlantic city new jersey"
         width={800}
         height={400}
-        className="rounded-lg mb-6 w-full"
+        className="w-full rounded-lg mb-6"
+        priority
       />
 
       <p className="text-lg mb-2">
-        Medicare insurance agents in Atlantic City, New Jersey can save you
-        hours of research and thousands of dollars over time. I'm Anthony Orner,
-        a licensed independent Medicare broker who compares plans from top
-        carriers across Atlantic County.
+        Medicare insurance agents in Atlantic City, New Jersey should do one
+        thing well: match you with the right plan based on your doctors, your
+        prescriptions, and your budget. I'm Anthony Orner, a licensed
+        independent broker serving Atlantic County.
       </p>
       <p className="text-lg mb-6">
-        Whether you're turning 65 or rethinking your current coverage, I'll walk
-        you through every option at no cost. Let me do the homework for you.
+        I compare plans from top carriers so you don't have to. No cost. No
+        pressure. No catch.
       </p>
 
       <PhoneCTA />
 
-      <section className="mt-10 mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
           Why Atlantic City residents should use an independent broker
         </h2>
         <p className="mb-2">
-          A captive agent works for one insurance company. An independent broker
-          like me works for you. I'm contracted with multiple carriers, so I
-          show you side-by-side comparisons instead of pushing a single product.
+          A captive agent sells one company's plans. An independent broker like
+          me compares plans across carriers. That distinction matters when you're
+          choosing between a $0-premium Advantage plan and a Medigap plan that
+          costs more monthly but shields you from surprise bills.
         </p>
         <p>
-          My quotes are always free. Insurance companies pay my commission, not
-          you. Your premium is the same whether you call a carrier directly or go
-          through me.
+          My service is free. Carriers pay me the same commission regardless of
+          which plan you pick, so my only incentive is finding the right fit.
         </p>
       </section>
 
-      <section className="mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
           Supplement and Advantage plans serving Atlantic County
         </h2>
-        <p className="mb-2">
-          Atlantic County has solid options for both Medicare Supplement
-          (Medigap) and Medicare Advantage plans. Here's a quick breakdown:
-        </p>
-        <ul className="list-disc pl-6 space-y-2 mb-2">
+        <ul className="list-disc pl-6 space-y-2">
           <li>
-            <strong>Medicare Supplement Plan G</strong> - Covers everything
-            Original Medicare doesn't except the Part B deductible ($257/year in
-            2026). Rates vary by carrier and age.
+            <strong>Medigap Plan G:</strong> Covers everything Original Medicare
+            doesn't except the Part B deductible ($283/year in 2026). Rates vary
+            by carrier and age.
           </li>
           <li>
-            <strong>Medicare Supplement Plan N</strong> - Lower premium than Plan
-            G, but you pay small copays at office visits and the Part B
-            deductible.
+            <strong>Medigap Plan N:</strong> Lower premiums than Plan G, with
+            small copays at office visits and the ER.
           </li>
           <li>
-            <strong>Medicare Advantage (Part C)</strong> - Bundles hospital,
-            medical, and often drug coverage. Some plans in Atlantic County
-            include dental and vision at $0 premium.
+            <strong>Medicare Advantage (HMO/PPO):</strong> Network-based plans
+            that often include dental, vision, and drug coverage. Available from
+            several carriers in Atlantic County.
           </li>
         </ul>
-        <p>
-          I'll help you figure out which type fits your doctors, prescriptions,
-          and budget.
-        </p>
       </section>
 
-      <section className="mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
           Common enrollment pitfalls for shore-area retirees
         </h2>
         <p className="mb-2">
-          The biggest mistake I see in Atlantic City? Waiting too long. Your
-          Medigap Open Enrollment Period lasts 6 months starting the month
-          you're 65 and enrolled in Part B. During this window, no carrier can
-          deny you or charge more for health conditions.
-        </p>
-        <p className="mb-2">
-          Miss that window and you may face medical underwriting, higher
-          premiums, or flat-out denial.
+          Atlantic City retirees run into the same problems I see across South
+          Jersey. The biggest: missing your 6-month Medigap Open Enrollment
+          window. During those 6 months (starting when you're 65+ and enrolled
+          in Part B), carriers can't deny you or charge more for health
+          conditions. After it closes, they can.
         </p>
         <p>
-          Another pitfall: assuming every doctor at AtlantiCare or Shore Medical
-          Center accepts every Medicare Advantage plan. Networks change annually.
-          I verify provider access before you enroll.
+          Another common issue: choosing a Medicare Advantage plan without
+          checking if AtlantiCare or your specialists are in-network. Network
+          disruptions happen. One local health system recently announced it would
+          stop accepting a major insurer's plans starting in 2026. That kind of
+          change can upend your care overnight.
         </p>
       </section>
 
-      <section className="mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
-          How the enrollment timeline works
+          What to expect when we talk
+        </h2>
+        <p className="mb-2">
+          I'll ask about your current doctors, medications, and how often you
+          travel. Then I'll run a comparison showing your estimated annual
+          out-of-pocket costs across the plans available in your ZIP code.
+        </p>
+        <p>
+          The whole call takes about 15 to 20 minutes. You walk away with a
+          clear recommendation and zero obligation.
+        </p>
+      </section>
+
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold mb-3">
+          Key 2026 Medicare costs to know
         </h2>
         <ul className="list-disc pl-6 space-y-2">
+          <li>Part B premium: $202.90/month</li>
+          <li>Part B deductible: $283/year</li>
+          <li>Part A deductible: $1,676 per benefit period</li>
+          <li>SNF coinsurance (days 21-100): $209.50/day</li>
           <li>
-            <strong>Turning 65:</strong> Medigap Open Enrollment starts the
-            month your Part B begins. Apply early to lock in your rate.
-          </li>
-          <li>
-            <strong>Medicare Advantage / Part D:</strong> Annual Enrollment runs
-            October 15 through December 7 each year.
-          </li>
-          <li>
-            <strong>Special Enrollment:</strong> Triggered by events like losing
-            employer coverage or moving out of a plan's service area.
-          </li>
-          <li>
-            <strong>Part B late penalty:</strong> 10% added to your premium for
-            every 12-month period you delayed without qualifying coverage.
+            Part B late enrollment penalty: 10% for every 12-month period you
+            delayed
           </li>
         </ul>
       </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          What to expect when you call me
-        </h2>
-        <p className="mb-2">
-          No sales pitch. I ask about your doctors, medications, and budget.
-          Then I pull real quotes from carriers available in Atlantic County and
-          walk you through the numbers.
-        </p>
-        <p>
-          Most calls take 15 to 20 minutes. You'll hang up with a clear
-          recommendation, not more confusion.
-        </p>
-      </section>
-
-      <section className="mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
           Get a free Atlantic City Medicare quote from Anthony Orner
         </h2>
         <p className="mb-2">
-          I've helped retirees across the Jersey Shore find the right Medicare
-          plan without overpaying. Whether you need a Supplement, Advantage, or
-          Part D drug plan, I'll compare your options and explain the trade-offs
-          in plain English.
+          Whether you're turning 65, retiring from the casinos, or rethinking a
+          plan that isn't working, I'll give you a straight answer. I serve
+          Atlantic City, Brigantine, Northfield, Egg Harbor Township, and all of
+          Atlantic County.
         </p>
-        <p>Call today. The quote is free, and so is the advice.</p>
+        <p>Call today or request a quote online. No sign-up required.</p>
       </section>
 
-      <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 text-center mb-10">
-        <p className="text-xl font-semibold mb-2">
-          Ready to compare Medicare plans in Atlantic City?
+      <div className="mt-10 bg-blue-600 text-white rounded-lg p-6 text-center">
+        <p className="text-xl font-bold mb-2">
+          Talk to a Licensed Medicare Broker
         </p>
         <p className="text-lg mb-4">
           Call{" "}
-          <a
-            href="tel:8555591700"
-            className="text-blue-700 font-bold hover:underline"
-          >
+          <a href="tel:8555591700" className="underline font-semibold">
             855-559-1700
           </a>{" "}
           or{" "}
-          <Link
-            href="/quote"
-            className="text-blue-700 font-bold hover:underline"
-          >
+          <Link href="/contact" className="underline font-semibold">
             Get a Free Quote
           </Link>
         </p>
-        <p className="text-sm text-gray-600">
-          Anthony Orner - Licensed Medicare Broker serving Atlantic County, NJ
-        </p>
       </div>
 
-      <FAQSection faqs={faqs} />
+      <section className="mt-12">
+        <FAQSection faqs={faqs} />
+      </section>
 
-      <section className="mt-10">
+      <section className="mt-12">
         <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
         <ul className="space-y-2">
           <li>
             <Link
-              href="/medicare-supplement-plan-g-nj"
-              className="text-blue-700 hover:underline"
+              href="/medicare-guides/medigap-plan-g-vs-plan-n"
+              className="text-blue-600 hover:underline"
             >
-              Medicare Supplement Plan G in New Jersey
+              Medigap Plan G vs. Plan N: Which saves you more?
             </Link>
           </li>
           <li>
             <Link
-              href="/medicare-advantage-nj"
-              className="text-blue-700 hover:underline"
+              href="/medicare-guides/medicare-advantage-vs-medigap"
+              className="text-blue-600 hover:underline"
             >
-              Medicare Advantage Plans in New Jersey
+              Medicare Advantage vs. Medigap: A side-by-side comparison
             </Link>
           </li>
           <li>
             <Link
-              href="/when-to-enroll-in-medicare"
-              className="text-blue-700 hover:underline"
+              href="/medicare-guides/new-jersey-medicare-enrollment"
+              className="text-blue-600 hover:underline"
             >
-              When to Enroll in Medicare
+              New Jersey Medicare enrollment guide
             </Link>
           </li>
           <li>
             <Link
-              href="/medigap-open-enrollment"
-              className="text-blue-700 hover:underline"
+              href="/services/medicare-broker-south-jersey"
+              className="text-blue-600 hover:underline"
             >
-              Medigap Open Enrollment Period Explained
+              Find a Medicare broker in South Jersey
             </Link>
           </li>
         </ul>

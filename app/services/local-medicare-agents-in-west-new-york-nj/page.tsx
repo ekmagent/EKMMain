@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Local Medicare Agents in West New York, NJ",
-      item: "https://www.medicareyourself.com/services/local-medicare-agents-in-west-new-york-nj",
+      item: "https://medicareyourself.com/services/local-medicare-agents-in-west-new-york-nj",
     },
   ],
 };
@@ -51,213 +51,227 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-01-15",
-  dateModified: "2025-01-15",
+  datePublished: "2025-07-15",
+  dateModified: "2025-07-15",
 };
 
 const faqs = [
   {
-    question: "How do I pick a Medicare agent in West New York, NJ?",
+    question:
+      "How much does it cost to work with a local Medicare agent in West New York?",
     answer:
-      "Look for a licensed, independent broker who works with multiple carriers rather than just one company. An independent agent can compare plans across insurers and recommend coverage based on your doctors, prescriptions, and budget. Ask if consultations are free and whether they hold a valid NJ producer license.",
+      "Nothing. Licensed Medicare brokers are paid by the insurance carriers, not by you. There's no fee for plan comparisons, consultations, or enrollment help.",
   },
   {
     question:
-      "Is there a cost to use a local Medicare agent in Hudson County?",
+      "What's the difference between an independent broker and a captive agent?",
     answer:
-      "No. Licensed Medicare agents are paid by the insurance carriers, not by you. You pay the same premium whether you enroll through an agent, directly with the carrier, or online. There is no markup or fee for using a broker.",
+      "A captive agent works for one insurance company and can only show you their plans. An independent broker like Anthony Orner compares plans from multiple carriers, so you see the full picture before choosing.",
   },
   {
-    question: "When is the best time to talk to a Medicare agent?",
+    question:
+      "Can I get Medicare help in Spanish in West New York?",
     answer:
-      "If you are turning 65, start the conversation at least 6 months before your Part B start date. For Medicare Advantage or Part D changes, the Annual Enrollment Period runs October 15 through December 7. Your Medigap Open Enrollment Period lasts 6 months starting the month you turn 65 and are enrolled in Part B.",
+      "Yes. Anthony provides bilingual Medicare assistance for West New York's large Spanish-speaking community. You can discuss plan details, costs, and enrollment in the language you're most comfortable with.",
   },
   {
-    question: "Can a West New York Medicare agent help with bilingual support?",
+    question:
+      "When should I contact a Medicare broker if I'm turning 65?",
     answer:
-      "Yes. West New York has a large Spanish-speaking population, and many local agents offer consultations in both English and Spanish. Ask when you call to confirm bilingual availability.",
+      "Start about 6 months before your 65th birthday. This gives you time to compare plans and apply for Medigap coverage during your Open Enrollment Period, when you can't be denied or charged more for health conditions.",
   },
 ];
 
 export default function LocalMedicareAgentsWestNewYorkNJ() {
   return (
-    <>
+    <main className="max-w-3xl mx-auto px-4 py-8">
       <SchemaMarkup schema={breadcrumbSchema} />
       <SchemaMarkup schema={articleSchema} />
 
-      <main className="max-w-4xl mx-auto px-4 py-8">
-        <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
-          <Link href="/" className="hover:underline">
-            Home
-          </Link>{" "}
-          &gt;{" "}
-          <Link href="/medicare-guides" className="hover:underline">
-            Medicare Guides
-          </Link>{" "}
-          &gt;{" "}
-          <span className="text-gray-700">
-            Local Medicare Agents in West New York, NJ
-          </span>
-        </nav>
+      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
+        <Link href="/" className="hover:underline">
+          Home
+        </Link>{" "}
+        &gt;{" "}
+        <Link href="/medicare-guides" className="hover:underline">
+          Medicare Guides
+        </Link>{" "}
+        &gt;{" "}
+        <span className="text-gray-700">
+          Local Medicare Agents in West New York, NJ
+        </span>
+      </nav>
 
-        <h1 className="text-3xl font-bold mb-4">
-          Local Medicare Agents in West New York, NJ — Independent Broker for Hudson County
-        </h1>
+      <h1 className="text-3xl md:text-4xl font-bold mb-4 leading-tight">
+        Local Medicare Agents in West New York, NJ — Independent Broker for
+        Hudson County
+      </h1>
 
-        <Image
-          src="/images/local-medicare-agents-in-west-new-york-nj.webp"
-          alt="local medicare agents in west new york nj"
-          width={800}
-          height={400}
-          className="rounded-lg mb-6 w-full"
-        />
+      <Image
+        src="/images/hub_local-medicare-agents-in-west-new-york-nj.webp"
+        alt="local medicare agents in west new york nj"
+        width={800}
+        height={400}
+        className="w-full rounded-lg mb-6"
+        priority
+      />
 
-        <p className="text-lg mb-2">
-          Local Medicare agents in West New York, NJ can save you real money by comparing plans from multiple carriers instead of locking you into one company. West New York sits right across the Hudson River from Manhattan, and Hudson County residents have access to a strong selection of both Medicare Supplement and Medicare Advantage options.
-        </p>
-        <p className="mb-6">
-          I am Anthony Orner, a licensed independent Medicare broker serving West New York, North Bergen, Union City, and surrounding Hudson County towns. My consultations are always free.
-        </p>
+      <p className="text-lg mb-2">
+        Local Medicare agents in West New York, NJ can make the difference between overpaying for coverage and finding a plan that actually fits your doctors, prescriptions, and budget. I'm Anthony Orner, an independent licensed broker serving Hudson County residents.
+      </p>
+      <p className="text-lg mb-6">
+        I compare plans from multiple carriers side by side so you don't have to call each one yourself.
+      </p>
 
-        <PhoneCTA />
+      <PhoneCTA />
 
-        <h2 className="text-2xl font-semibold mt-10 mb-3">
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold mb-3">
           How an independent broker saves you time and money
         </h2>
-        <p className="mb-2">
-          A captive agent works for one insurance company. I do not. As an independent broker, I compare plans from multiple NJ-licensed carriers side by side. That means you see the full picture before you commit.
+        <p className="mb-3">
+          Captive agents sell one company's plans. That's it. An independent broker works across carriers, which means I show you options a single-company agent can't.
         </p>
-        <p className="mb-4">
-          You pay zero for my help. Carriers pay the agent commission, and your premium stays the same whether you enroll through me or call the carrier directly. There is no markup, ever.
+        <ul className="list-disc pl-6 space-y-1 mb-3">
+          <li>Compare Medigap, Advantage, and Part D plans in one sitting</li>
+          <li>No cost to you, ever. Carriers pay the broker</li>
+          <li>I handle the paperwork and follow up if there's a problem</li>
+        </ul>
+        <p>
+          People tell me they've spent weeks calling insurance companies, getting transferred, hitting dead ends. One conversation with a broker who knows Hudson County can replace all of that.
         </p>
+      </section>
 
-        <h2 className="text-2xl font-semibold mt-10 mb-3">
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold mb-3">
           Medicare Supplement and Advantage plans in Hudson County
         </h2>
-        <p className="mb-2">
-          Hudson County has competitive rates for both Medigap and Medicare Advantage. The right choice depends on your situation:
+        <p className="mb-3">
+          West New York sits right across the Hudson from Manhattan, and your plan needs to work on both sides of the river. Medicare Advantage plans use provider networks. If your doctors practice in both NJ and NY, network restrictions matter.
         </p>
-        <ul className="list-disc pl-6 mb-4 space-y-1">
-          <li>
-            <strong>Medicare Supplement (Medigap):</strong> Plan G and Plan N are the most popular standardized options. They cover Part A and Part B cost-sharing so you face fewer surprise bills. Rates vary by carrier and age.
-          </li>
-          <li>
-            <strong>Medicare Advantage:</strong> Many HMO and PPO plans in Hudson County include prescription drug coverage, dental, and vision with $0 monthly premiums. The tradeoff is network restrictions and prior authorizations.
-          </li>
-          <li>
-            <strong>Part D standalone plans:</strong> If you choose Original Medicare plus a Supplement, you will need a separate Part D drug plan. I can check your medications against plan formularies.
-          </li>
-        </ul>
+        <p>
+          Medigap (Medicare Supplement) plans let you see any doctor who accepts Medicare nationwide. In 2026, the Part B premium is $202.90/month and the Part A deductible is $1,676 per benefit period. Medigap plans cover some or all of those gaps. Rates vary by carrier, age, and zip code.
+        </p>
+      </section>
 
-        <h2 className="text-2xl font-semibold mt-10 mb-3">
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold mb-3">
           Bilingual Medicare help for West New York residents
         </h2>
-        <p className="mb-4">
-          West New York has one of the highest percentages of Spanish-speaking residents in New Jersey. I provide consultations in both English and Spanish so nothing gets lost in translation. Medicare paperwork is confusing enough in one language.
+        <p className="mb-3">
+          West New York has one of the largest Spanish-speaking communities in New Jersey. I provide bilingual consultations so you can ask questions and review plan details in the language you prefer.
         </p>
+        <p>
+          Understanding copays, formularies, and network rules is hard enough in your first language. You shouldn't have to guess at the fine print.
+        </p>
+      </section>
 
-        <h2 className="text-2xl font-semibold mt-10 mb-3">
-          Key enrollment windows to know
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold mb-3">
+          Why network disruptions matter more than you think
         </h2>
-        <ul className="list-disc pl-6 mb-4 space-y-1">
-          <li>
-            <strong>Medigap Open Enrollment:</strong> 6 months starting the month you turn 65 and have Part B. During this window, carriers cannot deny you or charge more for health conditions.
-          </li>
-          <li>
-            <strong>Annual Enrollment Period:</strong> October 15 through December 7 for Medicare Advantage and Part D changes.
-          </li>
-          <li>
-            <strong>Turning 65?</strong> I recommend applying for your Medigap plan up to 6 months before your Part B start date. Locking in early protects your rate.
-          </li>
-        </ul>
+        <p className="mb-3">
+          Carriers and health systems drop each other more often than people realize. When a major provider stops accepting your plan mid-year, you're stuck scrambling for care or paying out of pocket.
+        </p>
+        <p>
+          I track carrier-provider relationships in Hudson County and alert my clients when changes affect them. If you need to switch during a Special Enrollment Period, I'll walk you through it.
+        </p>
+      </section>
 
-        <h2 className="text-2xl font-semibold mt-10 mb-3">
-          What to expect when you call
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold mb-3">
+          Turning 65? Lock in your Medigap rate early
         </h2>
-        <p className="mb-2">
-          I will ask about your current doctors, prescriptions, and budget. From there, I run a comparison across available carriers in Hudson County and walk you through the numbers. Most calls take 15 to 20 minutes.
+        <p className="mb-3">
+          Your Medigap Open Enrollment Period starts the month you turn 65 and are enrolled in Part B. It lasts 6 months. During this window, no carrier can turn you down or charge you more based on health history.
         </p>
-        <p className="mb-4">
-          No pressure, no sales pitch. If a plan does not save you money or improve your coverage, I will tell you.
+        <p>
+          Start the process about 6 months before your birthday. That gives us time to compare plans without rushing. Miss the window and you could face medical underwriting or higher premiums.
         </p>
+      </section>
 
-        <h2 className="text-2xl font-semibold mt-10 mb-3">
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold mb-3">
           Get a free quote from a licensed NJ Medicare broker
         </h2>
-        <p className="mb-6">
-          Whether you live on Bergenline Avenue or Boulevard East, I can help you compare every plan available in your zip code. One call, and you will know exactly what you qualify for and what it costs.
+        <p className="mb-3">
+          I'll compare plans, explain the trade-offs in plain language, and help you enroll. No obligation, no pressure, no cost.
         </p>
+        <ul className="list-disc pl-6 space-y-1">
+          <li>Call for a free phone or video consultation</li>
+          <li>Bring your current plan details and prescription list</li>
+          <li>I'll show you what you're paying vs. what you could be paying</li>
+        </ul>
+      </section>
 
-        <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 text-center mb-10">
-          <p className="text-xl font-semibold mb-2">
-            Ready to compare Medicare plans in West New York?
-          </p>
-          <p className="mb-4">
-            Call{" "}
-            <a
-              href="tel:8555591700"
-              className="text-blue-700 font-bold hover:underline"
-            >
-              855-559-1700
-            </a>{" "}
-            or{" "}
-            <Link
-              href="/quote"
-              className="text-blue-700 font-bold hover:underline"
-            >
-              Get a Free Quote
-            </Link>{" "}
-            online. No obligation, no cost.
-          </p>
-        </div>
+      <div className="mt-10 bg-blue-600 text-white rounded-lg p-6 text-center">
+        <p className="text-xl font-semibold mb-2">
+          Ready to compare Medicare plans in West New York?
+        </p>
+        <p className="text-lg mb-4">
+          Call{" "}
+          <a href="tel:8555591700" className="underline font-bold">
+            855-559-1700
+          </a>{" "}
+          or{" "}
+          <Link href="/contact" className="underline font-bold">
+            get a free quote online
+          </Link>
+          .
+        </p>
+        <p className="text-sm opacity-90">
+          Anthony Orner — Licensed Medicare Broker, NJ
+        </p>
+      </div>
 
+      <section className="mt-10">
         <FAQSection faqs={faqs} />
+      </section>
 
-        <div className="mt-10">
-          <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
-          <ul className="space-y-2">
-            <li>
-              <Link
-                href="/medicare-guides/medicare-supplement-plans-nj"
-                className="text-blue-700 hover:underline"
-              >
-                Medicare Supplement Plans in New Jersey
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/medicare-guides/medicare-advantage-plans-nj"
-                className="text-blue-700 hover:underline"
-              >
-                Medicare Advantage Plans in NJ
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/medicare-guides/medigap-plan-g-vs-plan-n"
-                className="text-blue-700 hover:underline"
-              >
-                Medigap Plan G vs. Plan N
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/medicare-guides/when-to-enroll-in-medicare"
-                className="text-blue-700 hover:underline"
-              >
-                When to Enroll in Medicare
-              </Link>
-            </li>
-          </ul>
-        </div>
-      </main>
-    </>
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
+        <ul className="space-y-2">
+          <li>
+            <Link
+              href="/medicare-guides/medigap-plans-nj"
+              className="text-blue-600 hover:underline"
+            >
+              Medigap Plans in New Jersey: What You Need to Know
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/medicare-guides/medicare-advantage-hudson-county"
+              className="text-blue-600 hover:underline"
+            >
+              Medicare Advantage Plans in Hudson County
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/medicare-guides/medicare-part-b-enrollment"
+              className="text-blue-600 hover:underline"
+            >
+              Medicare Part B Enrollment: Timing and Penalties
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/services/medicare-broker-nj"
+              className="text-blue-600 hover:underline"
+            >
+              Find a Medicare Broker in New Jersey
+            </Link>
+          </li>
+        </ul>
+      </section>
+    </main>
   );
 }

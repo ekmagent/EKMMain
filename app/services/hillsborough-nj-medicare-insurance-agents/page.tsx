@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Hillsborough NJ Medicare Insurance Agents",
-      item: "https://www.medicareyourself.com/services/hillsborough-nj-medicare-insurance-agents",
+      item: "https://medicareyourself.com/services/hillsborough-nj-medicare-insurance-agents",
     },
   ],
 };
@@ -51,45 +51,44 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  mainEntityOfPage:
-    "https://www.medicareyourself.com/services/hillsborough-nj-medicare-insurance-agents",
+  datePublished: "2025-07-01",
+  dateModified: "2025-07-01",
 };
 
 const faqs = [
   {
     question: "Should I use an insurance agent for Medicare?",
     answer:
-      "Yes. An independent Medicare broker compares plans from multiple carriers at no cost to you. You get the same plan premiums whether you enroll directly or through a broker, but a broker does the research and annual reviews for you.",
+      "Yes. A licensed independent broker compares plans from multiple carriers at no cost to you. Carriers pay broker commissions directly, so you get unbiased guidance without paying a fee. An independent broker in Hillsborough can match you with the best rates across Supplement and Advantage plans available in Somerset County.",
   },
   {
-    question: "Do Medicare insurance agents charge a fee?",
+    question: "Do Medicare insurance agents charge?",
     answer:
-      "No. Licensed Medicare agents and brokers are paid commissions by the insurance carriers, not by you. There is zero cost for a consultation, plan comparison, or enrollment assistance.",
-  },
-  {
-    question: "What is the highest reviewed Medicare insurance in NJ?",
-    answer:
-      "Plan ratings change each year. In New Jersey, several Medicare Advantage and Medigap carriers consistently receive high marks. The best plan for you depends on your doctors, medications, and budget. Call 855-559-1700 for a free comparison.",
+      "No. Licensed Medicare brokers are paid by the insurance carriers, not by you. There's no consultation fee, no enrollment fee, and no hidden cost. The plan premiums are the same whether you enroll directly with a carrier or through an independent broker.",
   },
   {
     question: "How can I get help with Medicare premiums in New Jersey?",
     answer:
-      "New Jersey offers programs like PAAD (Pharmaceutical Assistance to the Aged and Disabled) and the Medicare Savings Program, which can help cover Part B premiums and drug costs. Eligibility depends on income. Contact your county Office on Aging or call us for direction.",
+      "New Jersey offers several programs. The Medicare Savings Program (MSP) can pay your Part B premium of $202.90/month if you qualify by income. NJ PAAD and Senior Gold help with prescription costs. An independent broker can check your eligibility and point you to the right program.",
+  },
+  {
+    question: "What is the highest reviewed Medicare insurance in NJ?",
+    answer:
+      "Plan ratings change yearly through CMS Star Ratings. In New Jersey, several carriers consistently score 4+ stars for Advantage plans, and Medigap plans are standardized by letter (Plan G, Plan N, etc.) so coverage is identical across carriers. The real difference is premium cost and customer service. A broker compares current ratings and prices side by side for your zip code.",
   },
 ];
 
 export default function HillsboroughNJMedicareInsuranceAgents() {
   return (
     <main className="max-w-4xl mx-auto px-4 py-8">
-      <SchemaMarkup schema={breadcrumbSchema} />
-      <SchemaMarkup schema={articleSchema} />
+      <SchemaMarkup schema={[breadcrumbSchema, articleSchema]} />
 
       <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
         <Link href="/" className="hover:underline">
@@ -105,200 +104,194 @@ export default function HillsboroughNJMedicareInsuranceAgents() {
         </span>
       </nav>
 
-      <h1 className="text-3xl font-bold mb-4">
+      <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
         Hillsborough NJ Medicare Insurance Agents — Licensed Independent Broker
         Serving Somerset County
       </h1>
 
       <Image
-        src="/images/hillsborough-nj-medicare-insurance-agents.webp"
+        src="/images/hub_hillsborough-nj-medicare-insurance-agents.webp"
         alt="Hillsborough NJ Medicare insurance agents"
         width={800}
         height={400}
-        className="rounded-lg mb-6 w-full"
+        className="w-full rounded-lg mb-6"
+        priority
       />
 
-      <p className="text-lg mb-2">
-        Hillsborough NJ Medicare insurance agents are not all the same. Some
-        work for a single carrier and can only show you that company's plans. I'm
-        Anthony Orner, a licensed independent broker, and I compare plans across
-        multiple carriers so you actually see what's available in the 08844 zip
-        code.
+      <p className="text-lg text-gray-700 mb-2">
+        Hillsborough NJ Medicare insurance agents aren't all the same. Some work
+        for one carrier and can only sell that carrier's plans. I'm Anthony
+        Orner, an independent broker who compares plans from multiple companies
+        so you see real options, not a sales pitch.
       </p>
-      <p className="mb-6">
-        My consultations are free, and I handle enrollment for you. No pressure,
-        no cost, no fine print.
+      <p className="text-lg text-gray-700 mb-6">
+        Every consultation is free. I'll show you exactly what each plan costs in
+        the 08844 zip code and which local doctors accept it.
       </p>
 
       <PhoneCTA />
 
-      <section className="mt-10 mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
           How an independent broker differs from a carrier-employed agent
         </h2>
-        <p className="mb-2">
-          A carrier agent represents one insurance company. They sell that
-          company's plans - period. An independent broker like me is appointed
-          with multiple carriers and can lay options side by side.
+        <p className="text-gray-700 mb-2">
+          A captive agent represents one insurance company. They'll recommend
+          what they have, even if a competitor's plan fits you better.
         </p>
-        <p>
-          You pay the exact same premium either way. The carrier pays me a
-          commission, so using a broker costs you nothing but could save you
-          hundreds per year by finding a better-fitting plan.
+        <p className="text-gray-700">
+          An independent broker like me is licensed with multiple carriers. I
+          pull quotes from all of them, lay the numbers side by side, and let you
+          choose. Same premiums either way because carriers set the price
+          regardless of enrollment channel.
         </p>
       </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
           Medicare Supplement and Advantage plans in Hillsborough 08844
         </h2>
-        <p className="mb-2">
-          Hillsborough residents can choose between Medicare Supplement (Medigap)
-          plans and Medicare Advantage plans. They work differently:
-        </p>
-        <ul className="list-disc pl-6 space-y-2 mb-2">
+        <ul className="list-disc pl-5 text-gray-700 space-y-2">
           <li>
-            <strong>Medigap (Plan G, Plan N, etc.):</strong> Pays after Original
-            Medicare. Plan G covers everything except the $257 annual Part B
-            deductible. You keep your freedom to see any doctor who accepts
-            Medicare nationwide.
+            <strong>Medigap (Supplement):</strong> Standardized plans like Plan G
+            and Plan N cover gaps Original Medicare leaves behind. Plan G pays
+            everything except the $283/year Part B deductible. Premiums vary by
+            carrier but coverage is identical letter-to-letter.
           </li>
           <li>
-            <strong>Medicare Advantage:</strong> Replaces Original Medicare with
-            a private plan. Often includes drug coverage and extras like dental
-            or vision. Uses a provider network, so check that your doctors
-            participate.
+            <strong>Medicare Advantage:</strong> Private plans that bundle Part A,
+            Part B, and usually Part D. Many include dental, vision, and hearing.
+            Network restrictions apply, so confirming your Somerset County
+            doctors are in-network matters.
           </li>
         </ul>
-        <p>
-          Neither option is universally "better." It depends on how often you see
-          specialists, which prescriptions you take, and what you can budget
-          monthly.
-        </p>
       </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
           Somerset County rate factors that affect your premium
         </h2>
-        <p className="mb-2">
-          Medigap carriers in New Jersey price policies using your zip code, age,
-          gender, and tobacco status. Hillsborough falls in Somerset County,
-          where rates tend to sit in the mid-range for the state.
+        <p className="text-gray-700 mb-2">
+          Your zip code, age, tobacco use, and enrollment timing all affect what
+          you pay. In New Jersey, Medigap carriers use attained-age rating, so
+          premiums increase as you get older.
         </p>
-        <p>
-          Your age at enrollment matters most. Locking in a Medigap plan during
-          your 6-month Open Enrollment Period (starting the month you turn 65 and
-          have Part B) means guaranteed issue - no health questions and no higher
-          premiums based on medical history.
+        <p className="text-gray-700">
+          Enrolling during your 6-month Medigap Open Enrollment Period (starting
+          when you're 65+ and enrolled in Part B) locks in guaranteed-issue
+          rights. Miss that window and carriers can charge more or decline you
+          based on health history.
         </p>
       </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Why timing your enrollment matters in Hillsborough
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          Why local doctor access matters more than plan ratings
         </h2>
-        <p className="mb-2">
-          I typically have clients apply for their Medigap plan up to 6 months
-          before their Part B start date. This locks in the rate early and
-          protects against premium increases before coverage begins.
+        <p className="text-gray-700 mb-2">
+          Wait times for specialists in northern New Jersey are stretching longer
+          each year. If your plan's network is too narrow, you could face months
+          of delay getting an appointment or need to drive well outside Somerset
+          County.
         </p>
-        <p>
-          If you delay past your Open Enrollment window, carriers can
-          medically underwrite you. That means higher rates or even denial. The
-          sooner you lock in, the better your rate.
+        <p className="text-gray-700">
+          I verify provider directories before recommending any Advantage plan.
+          For Medigap, any doctor who accepts Medicare accepts your plan. That
+          distinction alone drives many Hillsborough residents toward Supplement
+          coverage.
         </p>
       </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Medicare Advantage enrollment windows to know
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          When to start your Medicare plan search
         </h2>
-        <p className="mb-2">
-          The Annual Enrollment Period for Medicare Advantage and Part D runs
-          October 15 through December 7 each year. During this window, you can
-          switch Advantage plans or move between Advantage and Original Medicare.
-        </p>
-        <p>
-          If you're newly eligible for Medicare, you have a separate Initial
-          Enrollment Period around your 65th birthday. Call me before that window
-          opens so we can compare what's available in Somerset County.
-        </p>
+        <ul className="list-disc pl-5 text-gray-700 space-y-2">
+          <li>
+            <strong>Turning 65:</strong> Apply for Medigap up to 6 months before
+            your Part B start date to lock in the best rate and guaranteed
+            acceptance.
+          </li>
+          <li>
+            <strong>Leaving employer coverage:</strong> You get a Special
+            Enrollment Period and federal guaranteed-issue rights for Medigap.
+          </li>
+          <li>
+            <strong>Annual Enrollment:</strong> Medicare Advantage and Part D
+            changes happen October 15 through December 7 each year.
+          </li>
+        </ul>
       </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
           Get a free Medicare plan comparison for Hillsborough
         </h2>
-        <p className="mb-2">
-          I run plan comparisons for Hillsborough residents every day. You tell
-          me your doctors, your prescriptions, and your budget. I show you what
-          each carrier charges and what you'd actually pay out of pocket.
+        <p className="text-gray-700 mb-2">
+          One call. I'll pull every plan available in 08844, compare costs and
+          coverage, and walk you through the differences in plain English. No
+          pressure, no fee, no obligation.
         </p>
-        <p>
-          No sign-up required. No fee. Just a straight answer about which plan
-          fits your situation.
+        <p className="text-gray-700">
+          If you qualify for New Jersey's Medicare Savings Program or PAAD
+          prescription assistance, I'll flag that too. Most people don't know
+          these programs exist.
         </p>
       </section>
 
-      <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 text-center mb-10">
-        <p className="text-xl font-semibold mb-2">
-          Ready for your free Hillsborough Medicare plan comparison?
+      <div className="mt-12 bg-blue-600 text-white rounded-lg p-8 text-center">
+        <p className="text-2xl font-bold mb-2">
+          Talk to a licensed Hillsborough Medicare broker today
         </p>
         <p className="text-lg mb-4">
           Call{" "}
-          <a
-            href="tel:855-559-1700"
-            className="text-blue-700 font-bold hover:underline"
-          >
+          <a href="tel:8555591700" className="underline font-semibold">
             855-559-1700
           </a>{" "}
           or{" "}
-          <Link
-            href="/contact"
-            className="text-blue-700 font-bold hover:underline"
-          >
-            Get a Free Quote
+          <Link href="/contact" className="underline font-semibold">
+            get a free quote online
           </Link>
-        </p>
-        <p className="text-sm text-gray-600">
-          Anthony Orner — Licensed Medicare Broker, NJ
         </p>
       </div>
 
-      <FAQSection faqs={faqs} />
+      <section className="mt-12">
+        <FAQSection faqs={faqs} />
+      </section>
 
-      <section className="mt-10">
-        <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
+      <section className="mt-12">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-4">
+          Related resources
+        </h2>
         <ul className="space-y-2">
           <li>
             <Link
               href="/medicare-guides/medicare-supplement-plans-nj"
-              className="text-blue-700 hover:underline"
+              className="text-blue-600 hover:underline"
             >
               Medicare Supplement Plans in New Jersey
             </Link>
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-plan-g-nj"
-              className="text-blue-700 hover:underline"
-            >
-              Medicare Plan G in NJ - Benefits and Costs
-            </Link>
-          </li>
-          <li>
-            <Link
               href="/medicare-guides/medicare-advantage-plans-nj"
-              className="text-blue-700 hover:underline"
+              className="text-blue-600 hover:underline"
             >
               Medicare Advantage Plans in New Jersey
             </Link>
           </li>
           <li>
             <Link
+              href="/medicare-guides/medigap-open-enrollment-period"
+              className="text-blue-600 hover:underline"
+            >
+              Medigap Open Enrollment Period Explained
+            </Link>
+          </li>
+          <li>
+            <Link
               href="/services/somerset-county-medicare-broker"
-              className="text-blue-700 hover:underline"
+              className="text-blue-600 hover:underline"
             >
               Somerset County Medicare Broker Services
             </Link>

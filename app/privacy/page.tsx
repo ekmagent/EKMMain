@@ -20,7 +20,7 @@ export default function PrivacyPage() {
         <h2 className="text-xl font-bold text-gray-900">Who We Are</h2>
         <p>
           MedicareYourself is a trade name of <strong>EasyKind Health LLC</strong>, an independent, licensed Medicare insurance brokerage. Our
-          website is <strong>www.medicareyourself.com</strong>. This policy explains how we
+          website is <strong>medicareyourself.com</strong>. This policy explains how we
           handle personal information collected through our website and phone consultations.
         </p>
 

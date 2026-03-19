@@ -9,12 +9,12 @@ export const metadata: Metadata = {
   title:
     "Medicare Enrollment Help for People With Diabetes | Free Guidance | MedicareYourself",
   description:
-    "Medicare enrollment help for people with diabetes in NJ. Learn which plans cover insulin, CGMs, and supplies. Enroll even with pre-existing conditions. Free.",
+    "Medicare enrollment help for people with diabetes in NJ. Learn which plans cover insulin, CGMs, and supplies. Enroll even with pre-existing conditions. Free help.",
   openGraph: {
     title:
       "Medicare Enrollment Help for People With Diabetes | Free Guidance | MedicareYourself",
     description:
-      "Medicare enrollment help for people with diabetes in NJ. Learn which plans cover insulin, CGMs, and supplies. Enroll even with pre-existing conditions. Free.",
+      "Medicare enrollment help for people with diabetes in NJ. Learn which plans cover insulin, CGMs, and supplies. Enroll even with pre-existing conditions. Free help.",
   },
 };
 
@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Medicare Enrollment Help for People With Diabetes",
-      item: "https://www.medicareyourself.com/services/medicare-enrollment-help-for-people-with-diabetes",
+      item: "https://medicareyourself.com/services/medicare-enrollment-help-for-people-with-diabetes",
     },
   ],
 };
@@ -50,219 +50,262 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-01-15",
-  dateModified: "2025-01-15",
+  mainEntityOfPage:
+    "https://medicareyourself.com/services/medicare-enrollment-help-for-people-with-diabetes",
 };
 
 const faqs = [
   {
     question: "What's the best Medicare plan for someone with diabetes?",
     answer:
-      "It depends on your medications, devices, and doctors. If you use insulin or a CGM, a Medicare Advantage plan with strong Part D drug coverage and durable medical equipment benefits may save you money. If you want fewer restrictions and broader provider access, Original Medicare with a Medigap supplement (like Plan G) plus a standalone Part D plan is often the better fit. Anthony can compare both options based on your specific prescriptions and needs.",
+      "It depends on your medications and how you manage your diabetes. If you use insulin, a CGM, or an insulin pump, a Medigap plan paired with a strong Part D plan often gives you the most predictable costs. Medicare Advantage plans can also work well but check the formulary and supplier network before enrolling. Call Anthony at 855-559-1700 for a free plan comparison based on your specific prescriptions.",
   },
   {
-    question:
-      "Does Medicare cover continuous glucose monitors (CGMs) like Dexcom?",
+    question: "Does Medicare cover continuous glucose monitors (CGMs)?",
     answer:
-      "Yes. Medicare Part B covers CGMs as durable medical equipment for beneficiaries who use insulin. You'll need a prescription from your doctor and may need to meet certain criteria. If you're on a Medicare Advantage plan, CGM coverage depends on the specific plan's formulary and DME benefits. Call us to check your plan's coverage before switching.",
+      "Yes. Medicare Part B covers CGMs like the Dexcom and FreeStyle Libre for beneficiaries who meet certain criteria, including using insulin or having a history of problematic blood sugar levels. Your doctor will need to document medical necessity. Coverage falls under durable medical equipment (DME), so you'll want a Medicare-approved DME supplier.",
   },
   {
-    question:
-      "Can I get a Medigap plan if I already have diabetes?",
+    question: "Can I get a Medigap plan if I already have diabetes?",
     answer:
-      "During your 6-month Medigap Open Enrollment Period (starting the month you turn 65 and are enrolled in Part B), insurers cannot deny you or charge more because of diabetes. Outside that window, most carriers in NJ can use medical underwriting, which may mean higher rates or denial. Certain guaranteed issue events also let you enroll without health questions.",
+      "Yes, if you're within your 6-month Medigap Open Enrollment Period (starting the month you turn 65 and are enrolled in Part B). During this window, insurers cannot deny you or charge more because of diabetes. Outside this window, guaranteed issue rights may still apply in certain situations. Call 855-559-1700 to check your options.",
   },
   {
     question: "What resources are available for type 2 diabetes under Medicare?",
     answer:
-      "Medicare Part B covers the Medicare Diabetes Prevention Program at no cost if you qualify, including 16 weekly sessions on diet, exercise, and behavior change. Part B also covers diabetes self-management training, glucose monitors, test strips, and therapeutic shoes. Part D covers oral diabetes medications and insulin. Anthony can help you find a plan that covers all of these.",
+      "Medicare Part B covers the Medicare Diabetes Prevention Program for people at risk of type 2 diabetes, diabetes self-management training, therapeutic shoes and inserts, blood sugar monitors and test strips, and glaucoma screenings. Many of these preventive services have no cost-sharing if your doctor accepts Medicare assignment.",
   },
 ];
 
 export default function MedicareEnrollmentHelpDiabetes() {
   return (
-    <main className="max-w-3xl mx-auto px-4 py-8">
+    <>
       <SchemaMarkup schema={breadcrumbSchema} />
       <SchemaMarkup schema={articleSchema} />
 
-      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
+      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-4">
         <Link href="/" className="hover:underline">
           Home
-        </Link>
-        {" > "}
+        </Link>{" "}
+        &gt;{" "}
         <Link href="/medicare-guides" className="hover:underline">
           Medicare Guides
-        </Link>
-        {" > "}
+        </Link>{" "}
+        &gt;{" "}
         <span className="text-gray-700">
           Medicare Enrollment Help for People With Diabetes
         </span>
       </nav>
 
-      <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-        Medicare Enrollment Help for People With Diabetes
-      </h1>
+      <article className="max-w-3xl mx-auto">
+        <h1 className="text-3xl md:text-4xl font-bold mb-4">
+          Medicare Enrollment Help for People With Diabetes
+        </h1>
 
-      <Image
-        src="/images/medicare-enrollment-help-for-people-with-diabetes_photo.webp"
-        alt="Medicare enrollment help for people with diabetes"
-        width={800}
-        height={400}
-        className="w-full rounded-lg mb-6"
-        priority
-      />
+        <Image
+          src="/images/hub_medicare-enrollment-help-for-people-with-diabetes.webp"
+          alt="Medicare enrollment help for people with diabetes"
+          width={800}
+          height={400}
+          className="w-full rounded-lg mb-6"
+          priority
+        />
 
-      <p className="text-lg text-gray-700 mb-2">
-        Medicare enrollment help for people with diabetes starts with one thing: knowing exactly which plans cover your medications, devices, and supplies before you sign anything. Between insulin costs, CGM coverage denials, and confusing underwriting rules, picking the wrong plan can cost you thousands or leave you fighting appeals.
-      </p>
-      <p className="text-lg text-gray-700 mb-6">
-        I'm Anthony Orner, a licensed Medicare broker in New Jersey, and I work with diabetic clients every week. Here's what you need to know.
-      </p>
+        <p className="text-lg mb-2">
+          Medicare enrollment help for people with diabetes starts with one
+          question: which plans actually cover what you use every day? Between
+          insulin costs, CGM coverage denials, and underwriting worries, picking
+          the wrong plan can cost you thousands or leave you fighting for
+          supplies you need to stay alive.
+        </p>
+        <p className="text-lg mb-6">
+          I'm Anthony Orner, a licensed Medicare broker in NJ, and I help
+          diabetic clients sort through this every week. No cost to you, ever.
+        </p>
 
-      <PhoneCTA />
+        <PhoneCTA />
 
-      <section className="mt-10">
-        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
-          How diabetes affects your Medicare Supplement underwriting options
-        </h2>
-        <p className="text-gray-700 mb-2">
-          If you're turning 65 and enrolling in Part B, you have a 6-month Medigap Open Enrollment Period. During this window, no carrier can deny you or charge higher premiums because of diabetes. That's federal law.
-        </p>
-        <p className="text-gray-700">
-          Miss that window, and most Medigap carriers can underwrite you. With diabetes on your record, that often means higher rates or a flat-out denial. Timing matters more than most people realize.
-        </p>
-      </section>
+        <section className="mt-10 mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            How diabetes affects your Medicare Supplement underwriting options
+          </h2>
+          <p className="mb-2">
+            Outside of guaranteed issue periods, most Medigap carriers ask health
+            questions. A diabetes diagnosis can mean higher premiums or outright
+            denial depending on the carrier and your treatment history.
+          </p>
+          <p>
+            That's why timing matters so much. Your best window is the 6-month
+            Medigap Open Enrollment Period that starts the month you turn 65 and
+            have Part B. During those six months, no carrier can turn you down or
+            charge more because of diabetes.
+          </p>
+        </section>
 
-      <section className="mt-10">
-        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
-          Which Medicare plans cover insulin, CGMs, and diabetic supplies
-        </h2>
-        <ul className="list-disc pl-6 text-gray-700 space-y-2">
-          <li>
-            <strong>Part B</strong> covers CGMs (like Dexcom and Libre) as durable medical equipment if you use insulin. It also covers glucose monitors, test strips, lancets, and therapeutic shoes.
-          </li>
-          <li>
-            <strong>Part D</strong> covers insulin and oral diabetes medications. Under the Inflation Reduction Act, insulin copays are capped at $35/month under Part D.
-          </li>
-          <li>
-            <strong>Medicare Advantage (Part C)</strong> plans bundle Part A, B, and usually D. Coverage for CGMs and supplies varies by plan, so check before you enroll.
-          </li>
-        </ul>
-      </section>
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Which Medicare plans cover insulin, CGMs, and diabetic supplies
+          </h2>
+          <ul className="list-disc pl-6 space-y-2">
+            <li>
+              <strong>Part B</strong> covers CGMs (Dexcom, FreeStyle Libre),
+              insulin pumps, blood sugar monitors, and test strips as durable
+              medical equipment.
+            </li>
+            <li>
+              <strong>Part D</strong> covers injectable and inhaled insulin.
+              Under the Inflation Reduction Act, insulin copays are capped at
+              $35/month for Part D enrollees.
+            </li>
+            <li>
+              <strong>Part B also covers</strong> diabetes self-management
+              training, therapeutic shoes, and the Medicare Diabetes Prevention
+              Program for those at risk of type 2.
+            </li>
+          </ul>
+          <p className="mt-2">
+            The catch: not every Part D plan covers your specific insulin brand
+            at the same tier. I check formularies before recommending anything.
+          </p>
+        </section>
 
-      <section className="mt-10">
-        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
-          Guaranteed issue periods that bypass health questions
-        </h2>
-        <p className="text-gray-700 mb-2">
-          Outside your initial enrollment, federal guaranteed issue rights kick in during specific life events: losing employer coverage, your Medicare Advantage plan leaving your area, or your carrier going bankrupt.
-        </p>
-        <p className="text-gray-700">
-          During these periods, Medigap carriers must accept you regardless of diabetes or any other pre-existing condition. I help clients identify these windows so they don't get locked out.
-        </p>
-      </section>
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Guaranteed issue periods that bypass health questions
+          </h2>
+          <p className="mb-2">
+            Federal guaranteed issue rights let you enroll in certain Medigap
+            plans without medical underwriting. Common triggers include:
+          </p>
+          <ul className="list-disc pl-6 space-y-1">
+            <li>Losing employer or union group coverage</li>
+            <li>Your Medicare Advantage plan leaves your area</li>
+            <li>Your Medigap carrier goes bankrupt</li>
+            <li>
+              Dropping a Medicare Advantage plan within 12 months of first
+              enrolling
+            </li>
+          </ul>
+          <p className="mt-2">
+            If any of these apply to you, diabetes won't be a barrier to getting
+            a Medigap plan. But the window is narrow, so don't wait.
+          </p>
+        </section>
 
-      <section className="mt-10">
-        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
-          Preventive benefits Medicare covers at no cost
-        </h2>
-        <p className="text-gray-700 mb-2">
-          Medicare Part B covers the Medicare Diabetes Prevention Program at no cost if you qualify. It includes 16 weekly group sessions on realistic diet changes, exercise, and long-term behavior coaching. There's no limit to how many times you can participate.
-        </p>
-        <p className="text-gray-700">
-          Part B also covers diabetes self-management training and medical nutrition therapy with no copay for qualifying beneficiaries.
-        </p>
-      </section>
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            The real cost of picking the wrong plan
+          </h2>
+          <p className="mb-2">
+            I talk to diabetics who chose a plan based on a low premium, then got
+            hit with surprise costs for CGM sensors or found their insulin at a
+            non-preferred tier. Others had coverage denials for equipment they'd
+            used for years.
+          </p>
+          <p>
+            Your Part B deductible in 2026 is $283/year. The Part A deductible
+            is $1,676 per benefit period. Without the right supplemental
+            coverage, one hospitalization for a diabetic complication can be
+            devastating.
+          </p>
+        </section>
 
-      <section className="mt-10">
-        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
-          What to watch out for when choosing a plan
-        </h2>
-        <p className="text-gray-700 mb-2">
-          I hear from people all the time who enrolled in a plan that looked affordable, then found out their CGM wasn't covered or their insulin tier changed mid-year. The frustration is real. Costs pile up fast when your plan doesn't match your actual prescriptions.
-        </p>
-        <p className="text-gray-700">
-          Before you pick anything, check the formulary for your exact medications, verify your endocrinologist is in-network, and confirm DME coverage for any devices you rely on daily.
-        </p>
-      </section>
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Medicare Advantage vs. Medigap for diabetics
+          </h2>
+          <p className="mb-2">
+            Medicare Advantage plans often include Part D drug coverage and
+            extras like vision. But they use provider networks, which means your
+            endocrinologist and DME supplier need to be in-network.
+          </p>
+          <p>
+            Medigap plans paired with standalone Part D give you more freedom to
+            see any provider who accepts Medicare. For people managing diabetes
+            with specialists and specific devices, that flexibility can matter
+            more than a $0 premium.
+          </p>
+        </section>
 
-      <section className="mt-10">
-        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
-          How Anthony helps diabetic clients find affordable coverage
-        </h2>
-        <p className="text-gray-700 mb-2">
-          I pull your prescription list, check which plans cover your exact medications and devices at the lowest cost, and walk you through the enrollment step by step. No charge for my help. Carriers pay me, not you.
-        </p>
-        <p className="text-gray-700">
-          If you're worried about being denied coverage because of your diabetes, call me. There are usually more options than you think.
-        </p>
-      </section>
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            How Anthony helps diabetic clients find affordable coverage
+          </h2>
+          <p className="mb-2">
+            I pull your current medications, check every formulary, verify your
+            doctors and suppliers are covered, and identify any guaranteed issue
+            rights you may have. Then I show you the actual numbers side by side.
+          </p>
+          <p>
+            No pressure. No cost. I work with multiple carriers so the
+            recommendation fits your situation, not a sales quota. Call
+            855-559-1700 or use the link below to get started.
+          </p>
+        </section>
 
-      <section className="mt-10 bg-blue-600 text-white rounded-lg p-6 text-center">
-        <p className="text-xl font-semibold mb-2">
-          Call 855-559-1700 for free Medicare enrollment help.
-        </p>
-        <p className="mb-4">
-          Anthony will review your diabetes medications and find the right plan.
-        </p>
-        <Link
-          href="/contact"
-          className="inline-block bg-white text-blue-600 font-semibold px-6 py-3 rounded-lg hover:bg-gray-100 transition"
-        >
-          Get a Free Quote
-        </Link>
-      </section>
+        <div className="bg-blue-600 text-white rounded-lg p-6 text-center mb-10">
+          <p className="text-xl font-semibold mb-2">
+            Ready to find a plan that covers your diabetes needs?
+          </p>
+          <p className="mb-4">
+            Call{" "}
+            <a href="tel:855-559-1700" className="underline font-bold">
+              855-559-1700
+            </a>{" "}
+            or{" "}
+            <Link href="/quote" className="underline font-bold">
+              Get a Free Quote
+            </Link>
+          </p>
+        </div>
 
-      <section className="mt-12">
         <FAQSection faqs={faqs} />
-      </section>
 
-      <section className="mt-12">
-        <h2 className="text-2xl font-semibold text-gray-900 mb-4">
-          Related resources
-        </h2>
-        <ul className="space-y-2">
-          <li>
-            <Link
-              href="/medicare-guides/medicare-supplement-plans-nj"
-              className="text-blue-600 hover:underline"
-            >
-              Medicare Supplement Plans in NJ
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/medicare-guides/medicare-part-d-prescription-drug-coverage"
-              className="text-blue-600 hover:underline"
-            >
-              Medicare Part D Prescription Drug Coverage
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/medicare-guides/medicare-advantage-plans-nj"
-              className="text-blue-600 hover:underline"
-            >
-              Medicare Advantage Plans in NJ
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/medicare-guides/medigap-open-enrollment-period"
-              className="text-blue-600 hover:underline"
-            >
-              Medigap Open Enrollment Period Explained
-            </Link>
-          </li>
-        </ul>
-      </section>
-    </main>
+        <section className="mt-10">
+          <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
+          <ul className="space-y-2">
+            <li>
+              <Link
+                href="/medicare-guides/medigap-open-enrollment"
+                className="text-blue-600 hover:underline"
+              >
+                Medigap Open Enrollment Period Explained
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/medicare-guides/medicare-part-d"
+                className="text-blue-600 hover:underline"
+              >
+                How Medicare Part D Covers Prescription Drugs
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/medicare-guides/guaranteed-issue-rights"
+                className="text-blue-600 hover:underline"
+              >
+                Guaranteed Issue Rights for Medigap Plans
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/medicare-enrollment-help-nj"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare Enrollment Help in New Jersey
+              </Link>
+            </li>
+          </ul>
+        </section>
+      </article>
+    </>
   );
 }

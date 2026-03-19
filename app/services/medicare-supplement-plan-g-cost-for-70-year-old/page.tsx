@@ -7,12 +7,12 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 
 export const metadata: Metadata = {
   title:
-    "Medicare Supplement Plan G Cost for 70 Year Old | Free Rate Lookup | MedicareYourself",
+    "medicare supplement plan g cost for 70 year old | Free Rate Lookup | MedicareYourself",
   description:
     "Medicare Supplement Plan G cost for 70-year-olds varies by carrier, state, and pricing model. Compare real premiums and get a free quote from Anthony Orner.",
   openGraph: {
     title:
-      "Medicare Supplement Plan G Cost for 70 Year Old | Free Rate Lookup | MedicareYourself",
+      "medicare supplement plan g cost for 70 year old | Free Rate Lookup | MedicareYourself",
     description:
       "Medicare Supplement Plan G cost for 70-year-olds varies by carrier, state, and pricing model. Compare real premiums and get a free quote from Anthony Orner.",
   },
@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Medicare Supplement Plan G Cost for 70 Year Old",
-      item: "https://www.medicareyourself.com/services/medicare-supplement-plan-g-cost-for-70-year-old",
+      item: "https://medicareyourself.com/services/medicare-supplement-plan-g-cost-for-70-year-old",
     },
   ],
 };
@@ -51,37 +51,37 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-01-15",
-  dateModified: "2025-01-15",
+  datePublished: "2025-07-01",
+  dateModified: "2025-07-01",
 };
 
 const faqs = [
   {
-    question: "What is the average Plan G cost for a 70-year-old?",
+    question: "What is the best Medicare Supplement Plan G?",
     answer:
-      "Plan G premiums for a 70-year-old typically range from about $150 to $300+ per month depending on your state, carrier, gender, and whether you use tobacco. Rates vary significantly - the only way to know your exact premium is to get quotes from multiple carriers.",
+      "Every Plan G offers identical medical benefits regardless of carrier. The 'best' Plan G is the one with the most stable long-term premium history in your state. A carrier with a slightly higher starting rate but predictable increases often costs less over 10 years than a company that prices low upfront and raises rates aggressively.",
   },
   {
-    question: "Why is Plan G more expensive at 70 than at 65?",
+    question: "Do all Medicare Supplement Plans G cost the same?",
     answer:
-      "Most carriers use attained-age pricing, which means your premium increases as you get older. At 70, you're five years past the lowest entry point. You've also missed your Medigap Open Enrollment Period, so carriers can factor in your health history during underwriting.",
+      "No. While Plan G benefits are standardized, premiums vary widely between insurance companies. Differences come from the carrier's pricing model (attained-age, issue-age, or community-rated), your zip code, tobacco use, and household discounts. It's common to see $50-$80+ monthly differences between carriers for the same coverage.",
   },
   {
-    question: "Can I switch Plan G carriers at 70 to get a lower rate?",
+    question: "Do Plan G premiums increase with age?",
     answer:
-      "Yes, you can apply to switch carriers at any time. However, outside of guaranteed issue situations, you'll need to pass medical underwriting. If you're in good health, switching to a lower-cost carrier can save you hundreds per year on the same exact coverage.",
+      "Under attained-age pricing, which most carriers use, your premium rises as you get older. On top of age-based increases, carriers can also file rate increases based on overall claims experience in your pool. These two types of increases can stack, sometimes producing 10-18% jumps in a single year.",
   },
   {
-    question: "What does Plan G cover that Original Medicare doesn't?",
+    question: "Can I switch Plan G carriers at age 70 without underwriting?",
     answer:
-      "Plan G covers the Part A deductible ($1,676 in 2026), Part B coinsurance (20% of approved charges), skilled nursing facility coinsurance ($209.50/day for days 21-100), and Part B excess charges. Your only remaining cost is the annual Part B deductible of $283.",
+      "In most states, switching Medigap carriers after your initial open enrollment period requires medical underwriting. Some states offer additional protections, and certain federal guaranteed issue triggers apply. Call to confirm what options are available in your state.",
   },
 ];
 
@@ -94,190 +94,189 @@ export default function MedicareSupplementPlanGCostFor70YearOld() {
       <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
         <Link href="/" className="hover:underline">
           Home
-        </Link>{" "}
-        &gt;{" "}
+        </Link>
+        {" > "}
         <Link href="/medicare-guides" className="hover:underline">
           Medicare Guides
-        </Link>{" "}
-        &gt;{" "}
+        </Link>
+        {" > "}
         <span className="text-gray-700">
           Medicare Supplement Plan G Cost for 70 Year Old
         </span>
       </nav>
 
-      <h1 className="text-3xl font-bold text-gray-900 mb-4 leading-tight">
+      <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
         Medicare Supplement Plan G Cost for 70-Year-Olds: Real Premiums From Top
         Carriers
       </h1>
 
       <Image
-        src="/images/medicare-supplement-plan-g-cost-for-70-year-old.webp"
-        alt="Medicare Supplement Plan G cost for 70 year old"
+        src="/images/hub_medicare-supplement-plan-g-cost-for-70-year-old.webp"
+        alt="medicare supplement plan g cost for 70 year old"
         width={800}
         height={400}
-        className="rounded-lg mb-6 w-full"
+        className="w-full rounded-lg mb-6"
+        priority
       />
 
       <p className="text-lg text-gray-700 mb-2">
-        Medicare Supplement Plan G cost for a 70-year-old runs roughly $150 to
-        $300+ per month, but that range hides a lot. Your actual rate depends on
-        where you live, which carrier you choose, and how that carrier prices
-        their plans over time.
+        Medicare Supplement Plan G cost for a 70-year-old typically runs between
+        $150 and $300+ per month, depending on your carrier, state, and how the
+        company prices its policies. That's a wide range, and it's exactly why
+        comparing carriers matters more at 70 than at any other age.
       </p>
       <p className="text-lg text-gray-700 mb-6">
-        At 70, you're past your initial Medigap Open Enrollment window - so
-        understanding what drives your premium matters more than ever.
+        I'm Anthony Orner, a licensed Medicare broker. I pull actual rates for
+        people in your situation every day. Let me show you what's driving your
+        premium and where the real savings are.
       </p>
 
       <PhoneCTA />
 
-      <section className="mt-10 mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold text-gray-900 mb-3">
           Average monthly Plan G premiums at age 70 in 2025
         </h2>
-        <p className="text-gray-700 mb-3">
-          Nationally, Plan G premiums for 70-year-olds cluster between $160 and
-          $280 per month for non-tobacco users. Women generally pay slightly less
-          than men. State matters a lot - the same carrier might charge $170 in
-          one state and $250 in another.
+        <p className="text-gray-700 mb-2">
+          Nationally, most 70-year-olds pay between $170 and $280 per month for
+          Plan G. Your actual rate depends on zip code, tobacco status, and
+          whether you qualify for household or payment discounts.
         </p>
         <p className="text-gray-700">
-          The only reliable way to know your rate is to pull quotes from multiple
-          carriers for your specific zip code, age, and health profile. I do
-          this daily - call and I'll run them for you in about 10 minutes.
+          The gap between the cheapest and most expensive carrier in the same
+          state can easily be $80/month. That's nearly $1,000 a year for
+          identical coverage. Rates vary by carrier, so a side-by-side comparison
+          is the only way to know what you'd actually pay.
         </p>
       </section>
 
-      <section className="mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold text-gray-900 mb-3">
           How attained-age pricing affects your rate at 70
         </h2>
-        <p className="text-gray-700 mb-3">
-          Most carriers use attained-age pricing. That means your premium goes
-          up every year simply because you're a year older. At 65, Plan G might
-          cost $120. By 70, it's $180. By 78, it could be $260+.
+        <p className="text-gray-700 mb-2">
+          Most Medigap carriers use attained-age pricing. Your premium goes up
+          automatically as you age, separate from any general rate increase the
+          company files.
         </p>
         <p className="text-gray-700">
-          On top of age increases, carriers file rate increases when claims costs
-          rise within their insured pool. When both stack in the same year, you
-          might see a 10-18% jump. This is why choosing the right carrier
-          matters as much as choosing the right plan letter.
+          At 70, you're past the initial enrollment window, so your rate reflects
+          five years of age-based increases on top of any claims-driven
+          adjustments. When those stack together, 10-18% annual jumps happen. The
+          carrier you chose at 65 matters a lot right now.
         </p>
       </section>
 
-      <section className="mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold text-gray-900 mb-3">
-          Carrier comparison: who offers the best long-term value
+          Carrier comparison: who offers the best value
         </h2>
-        <p className="text-gray-700 mb-3">
-          Plan G is standardized. Every carrier's Plan G covers the same
-          benefits. The difference is how they price it now and how they raise it
-          later.
+        <p className="text-gray-700 mb-2">
+          Plan G is standardized. A Plan G from one company covers exactly what a
+          Plan G from another company covers. The only difference is premium and
+          long-term rate stability.
         </p>
-        <ul className="list-disc pl-6 text-gray-700 space-y-2">
+        <ul className="list-disc pl-6 text-gray-700 space-y-1">
           <li>
             Some carriers price low to attract new enrollees, then raise rates
-            aggressively once the pool ages.
+            aggressively within a few years
           </li>
           <li>
-            Others start slightly higher but have a track record of moderate,
-            predictable increases over time.
+            Other carriers start slightly higher but hold steadier over time
           </li>
           <li>
-            The cheapest plan today isn't always the cheapest plan five years
-            from now.
+            The best value at 70 is the carrier with the most predictable rate
+            history in your state
+          </li>
+          <li>
+            I track rate filing histories so you don't have to guess
           </li>
         </ul>
-        <p className="text-gray-700 mt-3">
-          I track rate history across carriers so I can show you who's been
-          stable - not just who's cheapest right now.
-        </p>
       </section>
 
-      <section className="mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold text-gray-900 mb-3">
           Ways to reduce your Plan G premium without losing coverage
         </h2>
-        <ul className="list-disc pl-6 text-gray-700 space-y-2">
+        <ul className="list-disc pl-6 text-gray-700 space-y-1">
           <li>
-            <strong>Shop carriers annually.</strong> If you're in good health,
-            you can apply to switch. Same coverage, potentially lower rate.
+            <strong>Household discount:</strong> Many carriers offer 5-7% off if
+            you live with another adult, even if they're not on the same plan
           </li>
           <li>
-            <strong>Ask about household discounts.</strong> Many carriers offer
-            5-7% off if you live with another adult, even if they're not on the
-            same plan.
+            <strong>Annual payment discount:</strong> Paying annually instead of
+            monthly can save 2-5%
           </li>
           <li>
-            <strong>Consider payment mode discounts.</strong> Paying annually or
-            using bank draft instead of monthly billing can save 2-5%.
+            <strong>Non-tobacco rate:</strong> If you haven't used tobacco in the
+            past 12 months, confirm you're on the non-tobacco tier
           </li>
           <li>
-            <strong>Check for non-tobacco rates.</strong> If you haven't used
-            tobacco in 12+ months, make sure you're not being charged tobacco
-            rates.
+            <strong>Carrier switch:</strong> If you can pass underwriting, moving
+            to a lower-cost carrier with stable rates is the single biggest lever
           </li>
         </ul>
       </section>
 
-      <section className="mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold text-gray-900 mb-3">
-          What Plan G leaves you responsible for in 2026
+          What Plan G covers at any age
         </h2>
-        <p className="text-gray-700 mb-3">
-          Plan G covers everything except the annual Part B deductible. In 2026,
-          that's $283. After that, Plan G picks up 100% of Medicare-approved
-          charges - including the Part A deductible ($1,676 per benefit period),
-          skilled nursing coinsurance, and Part B excess charges.
+        <p className="text-gray-700 mb-2">
+          Plan G picks up nearly everything Original Medicare doesn't. That
+          includes the Part A deductible ($1,676 per benefit period in 2026),
+          Part B excess charges, skilled nursing coinsurance ($209.50/day for
+          days 21-100), and foreign travel emergencies.
         </p>
         <p className="text-gray-700">
-          That $283 deductible is the only out-of-pocket medical cost you'll
-          face all year. No copays, no surprise bills, no network restrictions.
+          Your only remaining out-of-pocket cost is the annual Part B deductible
+          ($283 in 2026). After that, Plan G pays 100% of Medicare-approved
+          charges. No networks. No referrals. No surprise copays stacking up.
         </p>
       </section>
 
-      <section className="mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold text-gray-900 mb-3">
-          Switching from Medicare Advantage to Plan G at 70
+          Why switching from advantage to supplement gets harder at 70
         </h2>
-        <p className="text-gray-700 mb-3">
-          Some people at 70 are coming off a Medicare Advantage plan and want
-          the freedom of Plan G. This is possible, but outside of certain
-          guaranteed issue situations, you'll face medical underwriting. Health
-          conditions like diabetes or heart disease can make approval harder -
-          or impossible with some carriers.
+        <p className="text-gray-700 mb-2">
+          I hear from people who left Plan G for a $0-premium Advantage plan and
+          regret it. The referrals, copays, and network restrictions add up fast,
+          especially with chronic conditions.
         </p>
         <p className="text-gray-700">
-          If you're thinking about this switch, don't wait. The healthier you
-          are when you apply, the more options you have. I can tell you upfront
-          which carriers are most likely to approve your application.
+          Getting back on a supplement after age 70 usually requires medical
+          underwriting. Pre-existing conditions like diabetes can disqualify you.
+          Some states and certain federal triggers offer guaranteed issue rights.
+          Rules vary by state, so call to confirm your options before making any
+          switch.
         </p>
       </section>
 
-      <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 my-10 text-center">
+      <section className="mt-12 bg-blue-50 border border-blue-200 rounded-lg p-6 text-center">
         <p className="text-xl font-semibold text-blue-900 mb-2">
-          Get your actual Plan G rate in minutes
+          Get your actual Plan G rate in under 5 minutes
         </p>
         <p className="text-gray-700 mb-4">
-          I'll compare carriers for your age, zip code, and health profile. No
-          cost, no obligation.
+          I'll pull quotes from multiple carriers and show you which ones have
+          the best rate history in your state. No cost, no obligation.
         </p>
         <p className="text-2xl font-bold text-blue-800 mb-3">
-          <a href="tel:855-559-1700" className="hover:underline">
-            855-559-1700
-          </a>
+          <a href="tel:8555591700">855-559-1700</a>
         </p>
         <Link
-          href="/get-a-free-quote"
-          className="inline-block bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg hover:bg-blue-800 transition"
+          href="/quote"
+          className="inline-block bg-blue-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-blue-700 transition"
         >
           Get a Free Quote
         </Link>
-      </div>
+      </section>
 
-      <FAQSection faqs={faqs} />
+      <section className="mt-12">
+        <FAQSection faqs={faqs} />
+      </section>
 
-      <section className="mt-10">
+      <section className="mt-12">
         <h2 className="text-2xl font-semibold text-gray-900 mb-4">
           Related resources
         </h2>
@@ -285,33 +284,33 @@ export default function MedicareSupplementPlanGCostFor70YearOld() {
           <li>
             <Link
               href="/services/medicare-supplement-plan-g"
-              className="text-blue-700 hover:underline"
+              className="text-blue-600 hover:underline"
             >
               Medicare Supplement Plan G: Full Coverage Breakdown
             </Link>
           </li>
           <li>
             <Link
-              href="/services/medicare-supplement-plan-n-vs-plan-g"
-              className="text-blue-700 hover:underline"
+              href="/services/medicare-supplement-vs-medicare-advantage"
+              className="text-blue-600 hover:underline"
             >
-              Plan N vs Plan G: Which Saves You More?
+              Medicare Supplement vs. Medicare Advantage: Which Is Right for You?
             </Link>
           </li>
           <li>
             <Link
-              href="/services/medicare-supplement-rates-by-age"
-              className="text-blue-700 hover:underline"
+              href="/services/medigap-open-enrollment"
+              className="text-blue-600 hover:underline"
             >
-              Medicare Supplement Rates by Age: What to Expect
+              Medigap Open Enrollment: When and Why It Matters
             </Link>
           </li>
           <li>
             <Link
-              href="/services/switching-from-medicare-advantage-to-medigap"
-              className="text-blue-700 hover:underline"
+              href="/services/medicare-supplement-plan-n"
+              className="text-blue-600 hover:underline"
             >
-              Switching From Medicare Advantage to Medigap
+              Medicare Supplement Plan N: A Lower-Premium Alternative
             </Link>
           </li>
         </ul>

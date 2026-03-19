@@ -9,12 +9,12 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for neuropathy patients | Free Plan Review | MedicareYourself",
   description:
-    "Medicare broker for neuropathy patients comparing plans for nerve testing, specialist visits, and Rx. Anthony Orner finds the right fit — free review.",
+    "Medicare broker for neuropathy patients comparing plans that cover nerve testing, specialist visits, and Rx. Anthony Orner finds the right fit — free review.",
   openGraph: {
     title:
       "Medicare broker for neuropathy patients | Free Plan Review | MedicareYourself",
     description:
-      "Medicare broker for neuropathy patients comparing plans for nerve testing, specialist visits, and Rx. Anthony Orner finds the right fit — free review.",
+      "Medicare broker for neuropathy patients comparing plans that cover nerve testing, specialist visits, and Rx. Anthony Orner finds the right fit — free review.",
   },
 };
 
@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Medicare Broker for Neuropathy Patients",
-      item: "https://www.medicareyourself.com/services/medicare-broker-for-neuropathy-patients",
+      item: "https://medicareyourself.com/services/medicare-broker-for-neuropathy-patients",
     },
   ],
 };
@@ -51,7 +51,7 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
@@ -66,34 +66,33 @@ const faqs = [
   {
     question: "Will Medicare pay for neuropathy treatment?",
     answer:
-      "Yes. Original Medicare and Medicare Advantage both cover medically necessary neuropathy treatments, including nerve conduction studies, EMGs, FDA-approved medications like gabapentin and duloxetine, and physical therapy. Coverage depends on proper diagnosis, documentation, and the specific plan. Some therapies like laser treatment and infrared devices are generally not covered by Original Medicare.",
+      "Yes. Medicare Part B covers doctor visits, nerve conduction studies, EMGs, and physical therapy for neuropathy when ordered by your physician. Part D covers prescription medications like gabapentin and duloxetine. Medicare Advantage plans often bundle these benefits with additional coverage like podiatry visits. The specifics depend on your plan type, so a plan review helps you understand exactly what's covered.",
   },
   {
     question: "How much does it cost to use a Medicare broker?",
     answer:
-      "Nothing. Medicare brokers are paid by the insurance carriers, not by you. A plan review, comparison, and enrollment assistance are all free. There's no fee and no obligation.",
+      "Nothing. Medicare brokers like Anthony Orner are paid by the insurance carriers, not by you. A plan review is completely free, and there's no obligation to enroll. You get expert guidance at zero cost.",
   },
   {
     question:
       "Does Medicare cover podiatrist visits for non-diabetic neuropathy?",
     answer:
-      "Medicare Part B covers podiatry services when they're medically necessary, but coverage can be limited for non-diabetic neuropathy patients. A neurologist referral and proper documentation of your condition improve your chances of approval. I can help you find plans with better specialist access.",
+      "Original Medicare limits routine podiatry coverage, especially for non-diabetic neuropathy. However, some Medicare Advantage plans include podiatry benefits. If foot care is a priority, it's worth comparing Advantage plans in your area that cover podiatrist visits.",
   },
   {
-    question:
-      "Which is better for neuropathy care - Medicare Advantage or Medigap?",
+    question: "Can I switch Medigap plans if I was denied due to neuropathy?",
     answer:
-      "It depends on how often you see specialists and what medications you take. Medicare Advantage plans may offer lower premiums and extra benefits but often require referrals and use provider networks. Medigap plans paired with Original Medicare give you broader provider access with more predictable costs. Call for a free comparison based on your specific treatment needs.",
+      "Outside your Medigap Open Enrollment Period, carriers can use medical underwriting and may deny applicants with conditions like peripheral neuropathy. If you're within your 6-month open enrollment window or have a federal guaranteed issue right, you can't be denied. Call to discuss your specific situation and timing.",
   },
 ];
 
 export default function MedicareBrokerForNeuropathyPatients() {
   return (
-    <main className="max-w-4xl mx-auto px-4 py-8">
+    <>
       <SchemaMarkup schema={breadcrumbSchema} />
       <SchemaMarkup schema={articleSchema} />
 
-      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
+      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-4">
         <Link href="/" className="hover:underline">
           Home
         </Link>{" "}
@@ -107,195 +106,207 @@ export default function MedicareBrokerForNeuropathyPatients() {
         </span>
       </nav>
 
-      <div className="bg-[#1e40af] rounded-lg p-6 mb-8">
-        <h1 className="text-3xl md:text-4xl font-bold text-white mb-4">
+      <article className="max-w-3xl mx-auto px-4">
+        <h1 className="text-3xl md:text-4xl font-bold mb-4">
           Medicare Broker for Neuropathy Patients: Coverage for Nerve Pain
           Treatment and Testing
         </h1>
+
         <Image
-          src="/images/medicare-broker-for-neuropathy-patients.webp"
+          src="/images/hub_medicare-broker-for-neuropathy-patients.webp"
           alt="Medicare broker for neuropathy patients"
           width={800}
           height={400}
-          className="rounded-lg mb-6 w-full"
+          className="w-full rounded-lg mb-6"
+          priority
         />
-      </div>
 
-      <p className="text-lg mb-2">
-        A Medicare broker for neuropathy patients does what most plan comparison
-        tools can't - match your specific nerve pain treatments, medications, and
-        specialist needs to the right coverage. I'm Anthony Orner, a licensed
-        broker in NJ, and I do this at no cost to you.
-      </p>
-      <p className="text-lg mb-6">
-        Neuropathy affects every part of your day. The burning that wakes you at
-        3 a.m. The medications that half-work. The frustration of being told your
-        specific type of nerve damage doesn't qualify for the same coverage as
-        diabetic neuropathy. Your plan should work around your reality, not the
-        other way around.
-      </p>
+        <p className="text-lg mb-2">
+          Medicare broker for neuropathy patients isn't a luxury. When your feet
+          burn at night, when gabapentin barely takes the edge off, and when a
+          supplement carrier denies you because of a peripheral neuropathy
+          diagnosis, you need someone who actually understands how these plans
+          handle nerve pain care.
+        </p>
+        <p className="text-lg mb-6">
+          I'm Anthony Orner, a licensed Medicare broker. I compare plans
+          specifically around the treatments neuropathy patients use most: nerve
+          testing, specialist visits, and the prescriptions that keep daily pain
+          manageable.
+        </p>
 
-      <PhoneCTA />
+        <PhoneCTA />
 
-      <section className="mt-10 mb-8">
-        <h2 className="text-2xl font-bold mb-3">
-          How Medicare covers nerve conduction studies and EMGs
-        </h2>
-        <p className="mb-3">
-          Medicare Part B covers diagnostic nerve testing when your doctor orders
-          it as medically necessary. That includes nerve conduction studies (NCS)
-          and electromyography (EMG) - the two main tests used to identify the
-          type and severity of your neuropathy.
-        </p>
-        <p>
-          You'll pay 20% of the Medicare-approved amount after meeting the $283
-          annual Part B deductible. If you have a Medigap plan like Plan G, that
-          20% is covered. With Medicare Advantage, your cost depends on your
-          plan's copay structure.
-        </p>
-      </section>
+        <section className="mt-10 mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            How Medicare covers nerve conduction studies and EMGs
+          </h2>
+          <p className="mb-2">
+            Medicare Part B covers nerve conduction studies (NCS) and
+            electromyography (EMGs) when your doctor orders them to diagnose or
+            monitor neuropathy. You pay 20% of the Medicare-approved amount after
+            your $283 annual Part B deductible.
+          </p>
+          <p>
+            A Medigap plan can cover that 20% coinsurance. A Medicare Advantage
+            plan may require a copay instead. Either way, you shouldn't skip
+            diagnostic testing because of cost uncertainty.
+          </p>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-bold mb-3">
-          Prescription drug plans that cover neuropathy medications
-        </h2>
-        <p className="mb-3">
-          Common neuropathy medications include gabapentin, pregabalin (Lyrica),
-          duloxetine, and topical lidocaine patches. Every Part D plan has a
-          different formulary, which means your drug might be tier 1 on one plan
-          and tier 3 on another - or not covered at all.
-        </p>
-        <p className="mb-3">
-          This matters especially if your neuropathy isn't caused by diabetes.
-          Some plans restrict lidocaine patches and certain medications to
-          specific diagnoses. I check your exact prescriptions against every
-          available plan's formulary so you don't get surprised at the pharmacy
-          counter.
-        </p>
-      </section>
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Prescription drug plans that cover neuropathy medications
+          </h2>
+          <p className="mb-2">
+            Common neuropathy drugs include gabapentin, pregabalin (Lyrica),
+            duloxetine, and topical lidocaine patches. Part D plans vary widely
+            in how they tier and price these medications.
+          </p>
+          <ul className="list-disc pl-6 space-y-1 mb-2">
+            <li>
+              The 2025 Part D out-of-pocket cap of $2,000/year applies going
+              forward, which matters if you're on expensive brand-name nerve pain
+              medications.
+            </li>
+            <li>
+              Lidocaine patches may face coverage restrictions for non-diabetic
+              neuropathy. I check formularies before you enroll so there are no
+              surprises.
+            </li>
+            <li>
+              Generic gabapentin is on most formularies at low cost. Pregabalin
+              costs more and lands on higher tiers with some carriers.
+            </li>
+          </ul>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-bold mb-3">
-          Medigap or Advantage: which handles specialist visits better
-        </h2>
-        <p className="mb-3">
-          Neuropathy care usually means regular neurologist visits, sometimes a
-          podiatrist, physical therapy, and pain management. With Original
-          Medicare plus a Medigap plan, you can see any specialist who accepts
-          Medicare - no referrals, no networks.
-        </p>
-        <p>
-          Medicare Advantage plans can save money upfront, but many require
-          referrals and restrict you to in-network providers. If you're already
-          seeing a specialist you trust, that network limitation matters. I
-          compare both paths based on your actual doctors and treatment schedule.
-        </p>
-      </section>
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Medigap or Advantage: which handles specialist visits better
+          </h2>
+          <p className="mb-2">
+            Neuropathy care usually means regular neurologist visits, sometimes
+            podiatry, and occasionally physical therapy. With Original Medicare
+            plus a Medigap plan, you see any Medicare-accepting specialist
+            without referrals or network restrictions.
+          </p>
+          <p>
+            Medicare Advantage plans may require referrals and limit you to a
+            network, but some include podiatry and OTC pain relief allowances
+            that Original Medicare doesn't cover. The right choice depends on
+            your doctors, your medications, and how often you need specialist
+            care.
+          </p>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-bold mb-3">
-          What Medicare doesn't cover for nerve pain
-        </h2>
-        <p className="mb-3">
-          Original Medicare generally does not pay for laser therapy, infrared
-          light devices, massage therapy, or most supplements marketed for nerve
-          health. Some Medicare Advantage plans include a few of these as
-          supplemental benefits, but coverage varies widely.
-        </p>
-        <p>
-          I'll be straight with you about what's covered and what's not. No
-          guessing, no finding out after the bill arrives.
-        </p>
-      </section>
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Why neuropathy patients get denied Medigap coverage
+          </h2>
+          <p className="mb-2">
+            If you apply for a Medigap plan outside your 6-month open enrollment
+            window, carriers can ask health questions. A peripheral neuropathy
+            diagnosis can trigger a denial. This catches people off guard.
+          </p>
+          <p>
+            Timing matters. During your Medigap Open Enrollment Period (6 months
+            starting the month you turn 65 and are enrolled in Part B), no
+            carrier can deny you or charge more because of neuropathy. Miss that
+            window and your options shrink.
+          </p>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-bold mb-3">
-          Physical therapy and durable medical equipment coverage
-        </h2>
-        <p className="mb-3">
-          Medicare Part B covers physical therapy when prescribed for neuropathy.
-          It also covers certain durable medical equipment - diabetic shoes,
-          custom orthotics, and braces when documentation supports medical
-          necessity.
-        </p>
-        <p>
-          If your neuropathy is non-diabetic, getting approval for some of these
-          items requires extra documentation from your provider. I can help you
-          understand what your plan requires before you start treatment.
-        </p>
-      </section>
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Diabetic vs. non-diabetic neuropathy coverage differences
+          </h2>
+          <p className="mb-2">
+            Medicare covers diabetic neuropathy more generously. If you have
+            diabetes, Part B pays for therapeutic shoes, regular foot exams, and
+            enhanced preventive care. Non-diabetic neuropathy patients often
+            don't qualify for the same podiatry or footwear benefits.
+          </p>
+          <p>
+            That gap frustrates people. If your neuropathy stems from
+            chemotherapy, autoimmune conditions, or idiopathic causes, I help you
+            find plans that fill in what Original Medicare leaves out.
+          </p>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-bold mb-3">
-          Book a free plan review tailored to neuropathy care
-        </h2>
-        <p className="mb-3">
-          Bring me your medication list, your doctors, and your frustrations. I
-          compare every plan available in your area against your actual treatment
-          needs. No cost. No obligation. No sales pitch.
-        </p>
-        <p>
-          You deal with enough already. Your Medicare plan should be one less
-          thing keeping you up at night.
-        </p>
-      </section>
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Book a free plan review tailored to neuropathy care
+          </h2>
+          <p className="mb-2">
+            I look at your specific medications, your specialists, and your
+            diagnosis to compare plans side by side. No cost, no obligation. If
+            your current plan isn't covering what you need, or if a claim was
+            denied, let's talk about your options.
+          </p>
+          <p>
+            Over half of Medicare denials get overturned on appeal, but most
+            people never file one. You don't have to accept a denial without
+            pushback.
+          </p>
+        </section>
 
-      <div className="bg-blue-600 text-white rounded-lg p-6 text-center mb-10">
-        <p className="text-xl font-bold mb-2">
-          Talk to a licensed Medicare broker who understands neuropathy coverage.
-        </p>
-        <p className="text-lg mb-4">
-          Call{" "}
-          <a href="tel:8555591700" className="underline font-bold">
-            855-559-1700
-          </a>{" "}
-          or{" "}
-          <Link href="/contact" className="underline font-bold">
-            get a free quote online
+        <div className="bg-blue-600 text-white rounded-lg p-6 text-center my-10">
+          <p className="text-xl font-semibold mb-2">
+            Call 855-559-1700 for a free neuropathy-focused plan review.
+          </p>
+          <p className="mb-4">
+            Anthony Orner compares your options at no cost. No pressure, no
+            obligation.
+          </p>
+          <Link
+            href="tel:8555591700"
+            className="inline-block bg-white text-blue-600 font-semibold px-6 py-3 rounded-lg hover:bg-gray-100 transition"
+          >
+            Get a Free Quote
           </Link>
-          .
-        </p>
-      </div>
+        </div>
 
-      <FAQSection faqs={faqs} />
+        <FAQSection faqs={faqs} />
 
-      <section className="mt-10">
-        <h2 className="text-2xl font-bold mb-4">Related resources</h2>
-        <ul className="space-y-2">
-          <li>
-            <Link
-              href="/services/medicare-broker-for-chronic-pain"
-              className="text-blue-600 hover:underline"
-            >
-              Medicare Broker for Chronic Pain Patients
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/medicare-guides/medigap-vs-medicare-advantage"
-              className="text-blue-600 hover:underline"
-            >
-              Medigap vs. Medicare Advantage: Which Is Right for You?
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/medicare-guides/part-d-drug-coverage"
-              className="text-blue-600 hover:underline"
-            >
-              Understanding Medicare Part D Drug Coverage
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/services/medicare-broker-for-diabetic-patients"
-              className="text-blue-600 hover:underline"
-            >
-              Medicare Broker for Diabetic Patients
-            </Link>
-          </li>
-        </ul>
-      </section>
-    </main>
+        <section className="mt-10 mb-8">
+          <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
+          <ul className="space-y-2">
+            <li>
+              <Link
+                href="/medicare-guides/medigap-vs-medicare-advantage"
+                className="text-blue-600 hover:underline"
+              >
+                Medigap vs. Medicare Advantage: How to Choose
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/medicare-guides/medicare-part-d-drug-coverage"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare Part D Drug Coverage Explained
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/medicare-guides/medicare-for-chronic-conditions"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare for Chronic Conditions
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/free-medicare-plan-review"
+                className="text-blue-600 hover:underline"
+              >
+                Book a Free Medicare Plan Review
+              </Link>
+            </li>
+          </ul>
+        </section>
+      </article>
+    </>
   );
 }

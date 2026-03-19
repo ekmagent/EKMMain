@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
-      name: "Find a Medicare Agent in New Brunswick NJ",
-      item: "https://www.medicareyourself.com/services/find-a-medicare-agent-in-new-brunswick-nj",
+      name: "Find a Medicare Agent in New Brunswick, NJ",
+      item: "https://medicareyourself.com/services/find-a-medicare-agent-in-new-brunswick-nj",
     },
   ],
 };
@@ -50,47 +50,47 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-01",
-  dateModified: "2025-07-01",
+  datePublished: "2025-07-14",
+  dateModified: "2025-07-14",
 };
 
 const faqs = [
   {
-    question: "How to pick a Medicare agent?",
+    question: "How do I pick a Medicare agent in New Brunswick?",
     answer:
-      "Look for a licensed, independent broker who represents multiple carriers rather than just one company. Ask if they charge a fee (they shouldn't - brokers are paid by the insurance carriers, not you). Confirm they're licensed in New Jersey, and check that they can compare both Medicare Supplement and Medicare Advantage plans so you see all your options.",
+      "Look for a licensed, independent broker who works with multiple carriers, not just one. Ask if they charge a fee (they shouldn't). A good agent compares Supplement, Advantage, and Part D plans side by side so you see real options, not a single sales pitch.",
   },
   {
-    question: "How do I speak to a live person at Medicare?",
+    question: "How do I speak to a live person about Medicare?",
     answer:
-      "You can call 1-800-MEDICARE (1-800-633-4227), available 24/7. However, Medicare representatives explain your benefits - they don't compare private insurance plans or recommend specific coverage. For plan comparisons in New Brunswick, a local independent broker can walk you through your choices side by side at no cost.",
+      "You can call 1-800-MEDICARE (1-800-633-4227) for general questions from the federal program. For personalized plan comparisons and enrollment help specific to New Brunswick and Middlesex County, call a local independent broker like Anthony Orner at 855-559-1700.",
   },
   {
-    question: "Is there a fee to work with a Medicare agent in New Brunswick?",
+    question: "Does it cost anything to use a Medicare agent?",
     answer:
-      "No. Licensed Medicare brokers are compensated by the insurance carriers when you enroll. You pay the same premium whether you use a broker or go directly to the carrier. There's no markup, no hidden charge, and no obligation.",
+      "No. Independent Medicare brokers are paid by the insurance carriers, not by you. You pay the same premium whether you enroll yourself or go through a broker. The difference is you get someone who can explain your options clearly.",
   },
   {
-    question: "When should I contact a Medicare agent before turning 65?",
+    question: "When should I contact a Medicare agent in New Brunswick?",
     answer:
-      "Reach out about six months before your 65th birthday. If you're considering a Medigap plan, applying up to six months before your Part B start date can lock in a lower rate. Your Medigap Open Enrollment Period begins the month you turn 65 and are enrolled in Part B, lasting six months with guaranteed issue rights.",
+      "Ideally, reach out about six months before you turn 65 or before your employer coverage ends. This gives you time to compare plans, especially if you want a Medigap policy with guaranteed issue pricing. For plan switches, the Annual Enrollment Period runs October 15 through December 7.",
   },
 ];
 
 export default function FindMedicareAgentNewBrunswickNJ() {
   return (
-    <main className="max-w-4xl mx-auto px-4 py-8">
+    <>
       <SchemaMarkup schema={breadcrumbSchema} />
       <SchemaMarkup schema={articleSchema} />
 
-      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
+      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-4">
         <Link href="/" className="hover:underline">
           Home
         </Link>{" "}
@@ -100,175 +100,177 @@ export default function FindMedicareAgentNewBrunswickNJ() {
         </Link>{" "}
         &gt;{" "}
         <span className="text-gray-700">
-          Find a Medicare Agent in New Brunswick NJ
+          Find a Medicare Agent in New Brunswick, NJ
         </span>
       </nav>
 
-      <h1 className="text-3xl font-bold mb-4">
-        Find a Medicare Agent in New Brunswick, NJ for Unbiased Plan Advice
-      </h1>
+      <article className="max-w-3xl mx-auto">
+        <h1 className="text-3xl md:text-4xl font-bold mb-4">
+          Find a Medicare Agent in New Brunswick, NJ for Unbiased Plan Advice
+        </h1>
 
-      <Image
-        src="/images/find-a-medicare-agent-in-new-brunswick-nj.webp"
-        alt="find a medicare agent in new brunswick nj"
-        width={800}
-        height={400}
-        className="rounded-lg mb-6 w-full"
-      />
+        <Image
+          src="/images/hub_find-a-medicare-agent-in-new-brunswick-nj.webp"
+          alt="find a medicare agent in new brunswick nj"
+          width={800}
+          height={400}
+          className="w-full rounded-lg mb-6"
+          priority
+        />
 
-      <p className="text-lg mb-2">
-        Finding a Medicare agent in New Brunswick, NJ doesn't have to be complicated. New Brunswick sits in Middlesex County with a mix of retirees, Rutgers University employees aging into Medicare, and residents who simply want clear answers about their coverage options.
-      </p>
-      <p className="text-lg mb-6">
-        I'm Anthony Orner, a licensed independent Medicare broker serving central New Jersey. I compare plans from every major carrier so you don't have to guess. My help is free - always.
-      </p>
+        <p className="text-lg mb-2">
+          Finding a Medicare agent in New Brunswick, NJ shouldn't mean sitting through a high-pressure sales call. You deserve someone who'll walk through every plan option available in Middlesex County and let you decide what fits.
+        </p>
+        <p className="text-lg mb-6">
+          I'm Anthony Orner, a licensed independent broker serving New Brunswick and surrounding communities. My service is free to you, and I work with every major carrier in New Jersey.
+        </p>
 
-      <PhoneCTA />
+        <PhoneCTA />
 
-      <section className="mt-10 mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          What makes an independent broker different in New Brunswick
-        </h2>
-        <p className="mb-2">
-          A captive agent works for one insurance company. They sell that company's plans and nothing else. An independent broker like me is contracted with multiple carriers, so I can lay your options side by side.
-        </p>
-        <p>
-          You get the same premium either way. The carrier pays my commission, not you. The only difference is how many plans you actually get to compare before deciding.
-        </p>
-      </section>
+        <section className="mt-10 mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            What makes an independent broker different in New Brunswick
+          </h2>
+          <p className="mb-3">
+            A captive agent represents one insurance company. I represent you. As an independent broker, I compare plans from Aetna, Cigna, Humana, United, Mutual of Omaha, and others so you're not locked into whatever one company happens to sell.
+          </p>
+          <p>
+            New Brunswick has specific network considerations. Robert Wood Johnson University Hospital is right here in town, and which plans include RWJ in-network matters a lot. I check that before recommending anything.
+          </p>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Supplement vs. Advantage: which plans fit Middlesex County residents
-        </h2>
-        <p className="mb-2">
-          Medicare Supplement (Medigap) plans pay after Original Medicare. You keep your freedom to see any doctor who accepts Medicare nationwide. Plan G is the most popular option in New Jersey - it covers everything except the $257 annual Part B deductible.
-        </p>
-        <p className="mb-2">
-          Medicare Advantage bundles Part A, Part B, and usually Part D into one plan. Many have $0 premiums and include dental, vision, and hearing. The tradeoff is a provider network and prior authorizations.
-        </p>
-        <p>
-          Which one works better depends on your doctors, medications, and budget. That's exactly what a free review with me sorts out.
-        </p>
-      </section>
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Supplement vs. Advantage: which plans fit Middlesex County residents
+          </h2>
+          <ul className="list-disc pl-6 space-y-2">
+            <li>
+              <strong>Medigap (Supplement):</strong> Pairs with Original Medicare. You pick any doctor who accepts Medicare. Monthly premiums are higher, but out-of-pocket costs are predictable. Plan G is the most popular in NJ.
+            </li>
+            <li>
+              <strong>Medicare Advantage:</strong> Replaces Original Medicare. Often includes dental, vision, and drug coverage. Lower premiums, but you use a network. Several strong HMO and PPO options exist in the 08901 and 08903 zip codes.
+            </li>
+          </ul>
+          <p className="mt-3">
+            Neither is universally better. Your doctors, prescriptions, and budget determine the right fit.
+          </p>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Why timing matters for Medigap applicants
-        </h2>
-        <p className="mb-2">
-          Your Medigap Open Enrollment Period lasts six months. It starts the month you turn 65 and are enrolled in Part B. During this window, no carrier can deny you or charge more based on health history.
-        </p>
-        <p>
-          My practice is to have clients apply up to six months before their Part B start date. This locks in a rate early and protects you from potential premium increases before coverage actually begins. The sooner you lock in, the better your rate.
-        </p>
-      </section>
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Key enrollment dates New Brunswick residents should know
+          </h2>
+          <ul className="list-disc pl-6 space-y-2">
+            <li>
+              <strong>Initial Enrollment:</strong> 3 months before your 65th birthday through 3 months after.
+            </li>
+            <li>
+              <strong>Medigap Open Enrollment:</strong> 6-month window starting the month you turn 65 and have Part B. This is your guaranteed issue window for Supplement plans at the best rates.
+            </li>
+            <li>
+              <strong>Annual Enrollment (AEP):</strong> October 15 through December 7 for Advantage and Part D changes.
+            </li>
+            <li>
+              <strong>Part B late penalty:</strong> 10% added to your $202.90/month premium for every 12 months you delayed without creditable coverage.
+            </li>
+          </ul>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Key enrollment dates New Brunswick residents should know
-        </h2>
-        <ul className="list-disc pl-6 space-y-2">
-          <li>
-            <strong>Initial Enrollment Period:</strong> 3 months before your 65th birthday, your birthday month, and 3 months after.
-          </li>
-          <li>
-            <strong>Medicare Advantage / Part D Open Enrollment:</strong> October 15 through December 7 each year.
-          </li>
-          <li>
-            <strong>Medigap Open Enrollment:</strong> 6-month window starting the month you're both 65+ and enrolled in Part B.
-          </li>
-          <li>
-            <strong>Part B late enrollment penalty:</strong> 10% added to your premium for every 12 months you delayed without qualifying coverage.
-          </li>
-        </ul>
-      </section>
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Why timing matters for Medigap in New Jersey
+          </h2>
+          <p className="mb-3">
+            If you're approaching 65, start comparing Medigap plans about 6 months before your Part B effective date. During your open enrollment window, carriers can't charge you more or deny you based on health history.
+          </p>
+          <p>
+            Miss that window and you may face medical underwriting. I help New Brunswick residents lock in rates before that deadline passes.
+          </p>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          What to expect during a free plan review
-        </h2>
-        <p className="mb-2">
-          I'll ask about your current doctors, prescriptions, and how often you travel. Then I run a comparison across carriers. The whole call usually takes 20 to 30 minutes.
-        </p>
-        <p>
-          No pressure, no obligation. If the plan you already have is the best fit, I'll tell you that.
-        </p>
-      </section>
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Real costs you should plan for in 2026
+          </h2>
+          <ul className="list-disc pl-6 space-y-2">
+            <li>Part B premium: $202.90/month</li>
+            <li>Part B deductible: $283/year</li>
+            <li>Part A deductible: $1,676 per benefit period</li>
+            <li>Skilled nursing facility coinsurance (days 21-100): $209.50/day</li>
+          </ul>
+          <p className="mt-3">
+            These gaps are exactly what Supplement or Advantage plans are designed to cover. The right plan can save you thousands if you have a hospital stay or need skilled nursing care.
+          </p>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Book a free Medicare review with Anthony Orner
-        </h2>
-        <p className="mb-2">
-          Whether you're turning 65 this year or already on Medicare and want to double-check your coverage, I'm here to help. I serve New Brunswick, the rest of Middlesex County, and all of New Jersey.
-        </p>
-        <p>
-          Call <strong>855-559-1700</strong> or schedule online. There's zero cost and zero commitment.
-        </p>
-      </section>
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Book a free Medicare review with Anthony Orner
+          </h2>
+          <p className="mb-3">
+            I live and work in New Jersey. I know which carriers offer the strongest networks at Robert Wood Johnson and throughout Middlesex County. A 15-minute call is usually enough to know where you stand and what your best options are.
+          </p>
+          <p>
+            No cost. No obligation. No pressure.
+          </p>
+        </section>
 
-      <div className="bg-blue-600 text-white rounded-lg p-6 text-center mb-10">
-        <p className="text-xl font-semibold mb-2">
-          Ready to compare Medicare plans in New Brunswick?
-        </p>
-        <p className="mb-4">
-          Call{" "}
-          <a
-            href="tel:855-559-1700"
-            className="underline font-bold text-white"
-          >
-            855-559-1700
-          </a>{" "}
-          for a free, no-obligation consultation.
-        </p>
-        <Link
-          href="/get-a-free-quote"
-          className="inline-block bg-white text-blue-600 font-bold px-6 py-3 rounded-lg hover:bg-gray-100 transition"
-        >
-          Get a Free Quote
-        </Link>
-      </div>
-
-      <FAQSection faqs={faqs} />
-
-      <section className="mt-10">
-        <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
-        <ul className="space-y-2">
-          <li>
-            <Link
-              href="/services/medicare-agent-middlesex-county-nj"
-              className="text-blue-600 hover:underline"
-            >
-              Medicare Agent in Middlesex County, NJ
+        <div className="bg-blue-600 text-white rounded-lg p-6 text-center mb-10">
+          <p className="text-xl font-semibold mb-2">
+            Ready for a clear, honest plan comparison?
+          </p>
+          <p className="text-lg mb-4">
+            Call{" "}
+            <a href="tel:8555591700" className="underline font-bold">
+              855-559-1700
+            </a>{" "}
+            or{" "}
+            <Link href="/get-a-free-quote" className="underline font-bold">
+              Get a Free Quote
             </Link>
-          </li>
-          <li>
-            <Link
-              href="/medicare-guides/medicare-plan-g-nj"
-              className="text-blue-600 hover:underline"
-            >
-              Medicare Plan G in New Jersey
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/medicare-guides/medicare-advantage-vs-medigap"
-              className="text-blue-600 hover:underline"
-            >
-              Medicare Advantage vs. Medigap
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/medicare-guides/medigap-open-enrollment-nj"
-              className="text-blue-600 hover:underline"
-            >
-              Medigap Open Enrollment in NJ
-            </Link>
-          </li>
-        </ul>
-      </section>
-    </main>
+          </p>
+        </div>
+
+        <FAQSection faqs={faqs} />
+
+        <section className="mt-10 mb-8">
+          <h3 className="text-xl font-semibold mb-4">Related Resources</h3>
+          <ul className="space-y-2">
+            <li>
+              <Link
+                href="/medicare-guides/medicare-supplement-plans-nj"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare Supplement Plans in New Jersey
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/medicare-guides/medicare-advantage-plans-nj"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare Advantage Plans in New Jersey
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/medicare-guides/medigap-open-enrollment-nj"
+                className="text-blue-600 hover:underline"
+              >
+                Medigap Open Enrollment in NJ
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/medicare-guides/part-b-late-enrollment-penalty"
+                className="text-blue-600 hover:underline"
+              >
+                Part B Late Enrollment Penalty Explained
+              </Link>
+            </li>
+          </ul>
+        </section>
+      </article>
+    </>
   );
 }

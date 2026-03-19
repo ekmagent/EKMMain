@@ -172,7 +172,7 @@ function buildPrompt(audit, source) {
   const isNJ = audit.pagePath.includes("new-jersey");
   const isPA = audit.pagePath.includes("pennsylvania");
   const stateNote = isNJ
-    ? "New Jersey has year-round guaranteed issue for Medigap — no medical underwriting ever."
+    ? "New Jersey uses community rating for Medigap. The 6-month Medigap Open Enrollment Period applies. Do NOT claim NJ has year-round guaranteed issue."
     : isPA
     ? "Pennsylvania uses attained-age rating; Medigap open enrollment window is 6 months from Part B effective date."
     : "";

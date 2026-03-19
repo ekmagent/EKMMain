@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare",
+      item: "https://medicareyourself.com/medicare",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Medicare Agent Near Me",
-      item: "https://www.medicareyourself.com/services/medicare-agent-near-me",
+      item: "https://medicareyourself.com/services/medicare-agent-near-me",
     },
   ],
 };
@@ -51,7 +51,7 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
@@ -66,32 +66,32 @@ const faqs = [
   {
     question: "Should I use an agent for Medicare?",
     answer:
-      "Yes. A licensed Medicare agent compares plans across multiple carriers at no cost to you. The carrier pays the agent's commission, so there is no fee or markup on your premium whether you use an agent or enroll directly.",
-  },
-  {
-    question: "Where can I go in person for Medicare help?",
-    answer:
-      "You can meet with an independent broker like Anthony Orner in person if you're in NJ or PA. You can also visit your local State Health Insurance Assistance Program (SHIP) office for free Medicare counseling. Avoid going directly to a single carrier's office, since they can only show you their own plans.",
+      "Yes. A licensed Medicare agent compares plans across multiple carriers at no cost to you. The carriers pay the agent's commission, so you get professional guidance without a fee. An independent agent can show you options a single-carrier agent can't.",
   },
   {
     question: "How much does a Medicare agent cost?",
     answer:
-      "Nothing. Independent Medicare brokers are paid by the insurance carriers, not by you. Your premium is the same whether you enroll through a broker, directly with the carrier, or on medicare.gov.",
+      "Nothing. Medicare agents are paid by the insurance carriers, not by you. Your premium stays the same whether you enroll directly or through a broker. There's no hidden markup.",
   },
   {
     question: "What's the difference between a captive agent and an independent broker?",
     answer:
-      "A captive agent represents one insurance company and can only sell that company's plans. An independent broker is contracted with many carriers and can compare options across the market to find the best fit for your situation and budget.",
+      "A captive agent represents one insurance company. An independent broker is contracted with many carriers and can compare plans side by side. Independence means the recommendation fits your needs, not a sales quota.",
+  },
+  {
+    question: "Can I work with a Medicare agent by phone or video?",
+    answer:
+      "Absolutely. Licensed brokers can conduct full consultations and enrollments by phone, video, or in person. All methods are CMS-compliant. Choose whatever feels most comfortable for you.",
   },
 ];
 
-export default function MedicareAgentNearMe() {
+export default function MedicareAgentNearMePage() {
   return (
-    <main className="max-w-4xl mx-auto px-4 py-8">
+    <>
       <SchemaMarkup schema={breadcrumbSchema} />
       <SchemaMarkup schema={articleSchema} />
 
-      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
+      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-4">
         <Link href="/" className="hover:underline">
           Home
         </Link>{" "}
@@ -103,207 +103,196 @@ export default function MedicareAgentNearMe() {
         <span className="text-gray-700">Medicare Agent Near Me</span>
       </nav>
 
-      <h1 className="text-3xl font-bold mb-4">
-        Medicare Agent Near Me: Find a Licensed Independent Broker Who Works for
-        You
-      </h1>
+      <article className="max-w-3xl mx-auto">
+        <h1 className="text-3xl md:text-4xl font-bold mb-6">
+          Medicare Agent Near Me: Find a Licensed Independent Broker Who Works
+          for You
+        </h1>
 
-      <Image
-        src="/images/medicare-agent-near-me.webp"
-        alt="Medicare agent near me"
-        width={800}
-        height={400}
-        className="rounded-lg mb-6 w-full"
-      />
+        <Image
+          src="/images/hub_medicare-agent-near-me.webp"
+          alt="Medicare agent near me"
+          width={800}
+          height={400}
+          className="w-full rounded-lg mb-6"
+          priority
+        />
 
-      <p className="text-lg mb-2">
-        Medicare agent near me is one of the most common searches I see, and I
-        get why. You want someone local who can sit across from you and explain
-        your options honestly. I'm Anthony Orner, a licensed independent broker
-        serving New Jersey and Pennsylvania, and I compare plans from 30+
-        carriers so you don't have to.
-      </p>
-      <p className="mb-6">
-        My help is completely free. The insurance carrier pays my commission, not
-        you. Your premium stays the same whether you enroll with me or go
-        directly to the company.
-      </p>
+        <p className="text-lg mb-2">
+          Medicare agent near me is the search that brings most people to this
+          page. You want someone local, someone you can trust, someone who isn't
+          going to push whatever plan pays the highest commission.
+        </p>
+        <p className="text-lg mb-6">
+          I'm Anthony Orner, a licensed independent Medicare broker serving New
+          Jersey and Pennsylvania. I compare plans from 30+ carriers, and you
+          pay nothing for my help.
+        </p>
 
-      <PhoneCTA />
+        <PhoneCTA />
 
-      <section className="mt-10 mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Why proximity matters less than independence and carrier access
-        </h2>
-        <p className="mb-2">
-          A nearby agent who only sells one company's plans can only show you one
-          company's prices. That's like buying a car at a dealership that carries
-          one brand. You might get a good vehicle, but you'll never know if
-          something better existed down the road.
-        </p>
-        <p>
-          An independent broker is contracted with many carriers. I can pull
-          quotes from over 30, side by side, and show you exactly where you save.
-          Whether I'm across town or across the state, what matters is the number
-          of options I bring to the table.
-        </p>
-      </section>
+        <section className="mt-10 mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Why independence matters more than proximity
+          </h2>
+          <p className="mb-3">
+            A captive agent down the street can only show you one company's
+            plans. That's like shopping for a car at a dealership that sells one
+            brand. An independent broker pulls quotes from dozens of carriers and
+            lays them side by side.
+          </p>
+          <p>
+            Proximity is nice, but carrier access is what actually saves you
+            money. I work with clients across NJ and PA whether they're five
+            miles away or fifty.
+          </p>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          What a good Medicare agent actually does during a consultation
-        </h2>
-        <p className="mb-2">Here's what I cover in a typical meeting:</p>
-        <ul className="list-disc pl-6 space-y-1 mb-2">
-          <li>Review your current doctors, prescriptions, and budget</li>
-          <li>
-            Explain the real difference between Medicare Advantage and Medigap
-          </li>
-          <li>
-            Compare specific plan rates from multiple carriers - not just one
-          </li>
-          <li>
-            Check for enrollment timing - your Medigap Open Enrollment Period
-            lasts 6 months starting the month you turn 65 and are enrolled in
-            Part B
-          </li>
-          <li>Handle all the paperwork so nothing falls through the cracks</li>
-        </ul>
-        <p>The whole thing takes about 20 to 30 minutes. No pressure. No obligation.</p>
-      </section>
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            What a good agent actually does during a consultation
+          </h2>
+          <ul className="list-disc pl-6 space-y-2">
+            <li>
+              Reviews your current prescriptions and checks each plan's
+              formulary and copay tiers
+            </li>
+            <li>
+              Confirms your doctors are in-network before you commit to anything
+            </li>
+            <li>
+              Compares total annual costs, not just the monthly premium
+            </li>
+            <li>
+              Explains the difference between Medicare Advantage and Medigap so
+              you pick the right structure
+            </li>
+            <li>
+              Handles the enrollment paperwork and follows up after your
+              coverage starts
+            </li>
+          </ul>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Phone, video, and in-person options for NJ and PA residents
-        </h2>
-        <p className="mb-2">
-          I work with clients however they're most comfortable. Some people want
-          to meet at their kitchen table. Others prefer a quick Zoom call. Most
-          of my appointments actually happen by phone - it's fast and I can
-          screen-share plan comparisons if needed.
-        </p>
-        <p>
-          If you're in New Jersey or Pennsylvania, I'm licensed in your state and
-          familiar with the carriers that operate there. Location doesn't limit
-          what I can do for you.
-        </p>
-      </section>
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Phone, video, and in-person options for NJ and PA residents
+          </h2>
+          <p className="mb-3">
+            You don't have to drive anywhere. I conduct full consultations and
+            CMS-compliant enrollments by phone or video. If you prefer sitting
+            across a table, I do that too.
+          </p>
+          <p>
+            Every method gives you the same access to every plan. Pick whatever
+            feels easiest.
+          </p>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Captive agents vs. independent brokers
-        </h2>
-        <p className="mb-2">
-          A captive agent works for one insurance company. They may be great at
-          explaining that company's plans, but they cannot show you a competitor's
-          lower rate. They're paid to sell their employer's products.
-        </p>
-        <p>
-          I'm independent. I don't work for any single carrier. My job is to
-          match you with the best plan at the best price, period. If a carrier
-          raises your rate at renewal, I move you to a better option.
-        </p>
-      </section>
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            You pay nothing for broker help
+          </h2>
+          <p className="mb-3">
+            This surprises people. Carriers pay agent commissions directly. Your
+            premium is identical whether you enroll online, call 1-800-MEDICARE,
+            or work with me.
+          </p>
+          <p>
+            The only difference is you get a real person who knows your plan, answers your calls, and helps you switch if something isn't working.
+          </p>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Key 2026 numbers your agent should know
-        </h2>
-        <ul className="list-disc pl-6 space-y-1">
-          <li>Part B premium: $185/month</li>
-          <li>Part B deductible: $257/year</li>
-          <li>Part A deductible: $1,676 per benefit period</li>
-          <li>
-            Skilled nursing facility coinsurance (days 21-100): $209.50/day
-          </li>
-          <li>Medicare Advantage Open Enrollment: October 15 - December 7</li>
-        </ul>
-        <p className="mt-2">
-          If your agent can't rattle off these numbers, they might not be working
-          Medicare full-time. Ask.
-        </p>
-      </section>
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Key 2026 numbers you should know
+          </h2>
+          <ul className="list-disc pl-6 space-y-2">
+            <li>Part B premium: $202.90/month</li>
+            <li>Part B deductible: $283/year</li>
+            <li>Part A deductible: $1,676 per benefit period</li>
+            <li>
+              Medicare Advantage and Part D Open Enrollment: October 15 through
+              December 7
+            </li>
+            <li>
+              Medigap Open Enrollment: 6 months starting the month you turn 65
+              and are enrolled in Part B
+            </li>
+          </ul>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Request a free Medicare plan comparison in two minutes
-        </h2>
-        <p className="mb-2">
-          Call me at 855-559-1700. I'll ask a few quick questions about your
-          situation, pull quotes from multiple carriers, and walk you through
-          your best options. No sign-up required. No sales pitch.
-        </p>
-        <p>
-          If you're turning 65 soon, the earlier you call, the better. I can
-          help you apply for a Medigap plan up to 6 months before your Part B
-          start date, locking in the lowest available rate before it goes up.
-        </p>
-      </section>
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Request a free Medicare plan comparison in two minutes
+          </h2>
+          <p className="mb-3">
+            Call or fill out the form. I'll pull quotes, check your doctors and
+            drugs, and walk you through your best options. No obligation. No
+            pressure. No automated phone tree.
+          </p>
+          <p>
+            You'll talk to me directly. That's the whole point.
+          </p>
+        </section>
 
-      <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 text-center mb-10">
-        <p className="text-xl font-semibold mb-2">
-          Talk to a licensed independent broker today
-        </p>
-        <p className="text-lg mb-4">
-          Call{" "}
-          <a
-            href="tel:855-559-1700"
-            className="text-blue-700 font-bold hover:underline"
-          >
-            855-559-1700
-          </a>{" "}
-          or{" "}
+        <div className="bg-blue-600 text-white rounded-lg p-8 text-center my-10">
+          <p className="text-xl font-semibold mb-3">
+            Ready to compare Medicare plans with a licensed broker?
+          </p>
+          <p className="text-2xl font-bold mb-4">
+            <a href="tel:8555591700" className="underline">
+              855-559-1700
+            </a>
+          </p>
           <Link
-            href="/quote"
-            className="text-blue-700 font-bold hover:underline"
+            href="/contact"
+            className="inline-block bg-white text-blue-600 font-semibold px-6 py-3 rounded-lg hover:bg-gray-100 transition"
           >
             Get a Free Quote
           </Link>
-        </p>
-        <p className="text-sm text-gray-600">
-          No cost. No obligation. NJ and PA residents.
-        </p>
-      </div>
+        </div>
 
-      <FAQSection faqs={faqs} />
+        <FAQSection faqs={faqs} />
 
-      <section className="mt-10">
-        <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
-        <ul className="space-y-2">
-          <li>
-            <Link
-              href="/medicare/supplement/plan-g-nj"
-              className="text-blue-700 hover:underline"
-            >
-              Medicare Plan G in New Jersey - Rates and Coverage
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/medicare/advantage-vs-medigap"
-              className="text-blue-700 hover:underline"
-            >
-              Medicare Advantage vs. Medigap - Which Is Right for You?
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/medicare/enrollment-periods"
-              className="text-blue-700 hover:underline"
-            >
-              Medicare Enrollment Periods Explained
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/about"
-              className="text-blue-700 hover:underline"
-            >
-              About Anthony Orner - Licensed Medicare Broker
-            </Link>
-          </li>
-        </ul>
-      </section>
-    </main>
+        <section className="mt-10">
+          <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
+          <ul className="space-y-2">
+            <li>
+              <Link
+                href="/medicare/medicare-advantage-vs-medigap"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare Advantage vs. Medigap: Which Structure Fits You?
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/medicare/medigap-open-enrollment"
+                className="text-blue-600 hover:underline"
+              >
+                Medigap Open Enrollment: Why Timing Matters
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/medicare-broker-nj"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare Broker in New Jersey
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/medicare/part-b-premium-2026"
+                className="text-blue-600 hover:underline"
+              >
+                2026 Part B Premium and Deductible Explained
+              </Link>
+            </li>
+          </ul>
+        </section>
+      </article>
+    </>
   );
 }

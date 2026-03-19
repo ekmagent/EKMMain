@@ -35,7 +35,7 @@ const TAB_NAME = "Directories";
 // ---------------------------------------------------------------------------
 const BUSINESS = {
   name: "EasyKind Medicare",
-  address: "1309 Route 79 West, Cherry Hill, NJ 08002",
+  address: "1309 Route 70 West, Cherry Hill, NJ 08002",
   phone: "855-559-1700",
   website: "medicareyourself.com",
   category: "Insurance Broker / Medicare Insurance",

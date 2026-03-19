@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Medicare Broker for Thyroid Disease Patients",
-      item: "https://www.medicareyourself.com/services/medicare-broker-for-thyroid-disease-patients",
+      item: "https://medicareyourself.com/services/medicare-broker-for-thyroid-disease-patients",
     },
   ],
 };
@@ -51,7 +51,7 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
@@ -64,25 +64,24 @@ const articleSchema = {
 
 const faqs = [
   {
-    question: "Why is TSH not covered by Medicare?",
+    question: "Is levothyroxine covered by Medicare Part D?",
     answer:
-      "TSH tests are covered by Medicare Part B when ordered by your doctor for a medical reason - like monitoring hypothyroidism or hyperthyroidism. Routine screening without a diagnosis code may not be covered. If your doctor documents why the test is medically necessary, you typically pay nothing after the Part B deductible.",
+      "Yes. Generic levothyroxine is on most Part D formularies. However, brand-name Synthroid may sit on a higher tier with larger copays. A broker can compare formularies to find which plan gives you the lowest cost for your exact prescription.",
   },
   {
     question: "What is a natural alternative to Synthroid?",
     answer:
-      "Some patients use desiccated thyroid (like Armour Thyroid or NP Thyroid), which is derived from animal thyroid glands and contains both T4 and T3. These are prescription medications, not over-the-counter supplements. Always discuss options with your endocrinologist before switching - and check whether your Part D plan covers the alternative.",
+      "Desiccated thyroid products like NP Thyroid are natural alternatives derived from porcine thyroid glands. Medicare Part D plans may cover these, but formulary placement varies widely. Always confirm coverage before switching medications.",
   },
   {
-    question:
-      "Does Medicare cover thyroid ultrasounds and biopsies?",
+    question: "Does Medicare cover thyroid blood tests?",
     answer:
-      "Yes. Medicare Part B covers diagnostic thyroid ultrasounds and fine-needle aspiration biopsies when ordered by your doctor. You'll pay 20% of the Medicare-approved amount after your Part B deductible ($283 in 2026). A Medigap plan can reduce or eliminate that 20%.",
+      "Medicare Part B covers medically necessary blood tests, including TSH and T4 panels, when your doctor orders them. You pay nothing for clinical lab tests from a participating provider after the Part B deductible is met.",
   },
   {
-    question: "Can a Medicare broker help me find plans that cover my thyroid medication?",
+    question: "How does a Medicare broker help thyroid patients specifically?",
     answer:
-      "Absolutely. A licensed Medicare broker can check Part D formularies to see which plans cover your specific thyroid medication - whether that's levothyroxine, Synthroid, methimazole, or a desiccated thyroid product - and compare your total out-of-pocket costs across plans.",
+      "A broker compares Part D formularies for your thyroid medications, checks specialist network access for endocrinologists, and evaluates whether Medigap or Advantage gives you better value based on how often you need labs and office visits. The service is free to you.",
   },
 ];
 
@@ -92,40 +91,40 @@ export default function MedicareBrokerThyroidDisease() {
       <SchemaMarkup schema={breadcrumbSchema} />
       <SchemaMarkup schema={articleSchema} />
 
-      <main className="max-w-4xl mx-auto px-4 py-8">
-        <nav className="text-sm text-gray-500 mb-6" aria-label="Breadcrumb">
-          <Link href="/" className="hover:underline">
-            Home
-          </Link>{" "}
-          &gt;{" "}
-          <Link href="/medicare-guides" className="hover:underline">
-            Medicare Guides
-          </Link>{" "}
-          &gt;{" "}
-          <span className="text-gray-700">
-            Medicare Broker for Thyroid Disease Patients
-          </span>
-        </nav>
+      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-4">
+        <Link href="/" className="hover:underline">
+          Home
+        </Link>{" "}
+        &gt;{" "}
+        <Link href="/medicare-guides" className="hover:underline">
+          Medicare Guides
+        </Link>{" "}
+        &gt;{" "}
+        <span className="text-gray-700">
+          Medicare Broker for Thyroid Disease Patients
+        </span>
+      </nav>
 
-        <div className="bg-[#1e40af] rounded-lg p-6 mb-8">
-          <h1 className="text-3xl md:text-4xl font-bold text-white mb-4">
-            Medicare Broker for Thyroid Disease Patients — Plans Covering Lab Work, Meds, and Specialist Visits
-          </h1>
-          <Image
-            src="/images/medicare-broker-for-thyroid-disease-patients.webp"
-            alt="Medicare broker for thyroid disease patients"
-            width={800}
-            height={400}
-            className="rounded-lg mb-6 w-full"
-          />
-        </div>
+      <article className="max-w-3xl mx-auto px-4">
+        <h1 className="text-3xl md:text-4xl font-bold mb-4">
+          Medicare Broker for Thyroid Disease Patients — Plans Covering Lab
+          Work, Meds, and Specialist Visits
+        </h1>
 
-        <p className="text-lg mb-4">
-          A Medicare broker for thyroid disease patients does something most people don't realize is free: compare every plan option side by side based on your specific medications, labs, and doctors. I'm Anthony Orner, a licensed Medicare broker in New Jersey, and I do this every day for people managing Hashimoto's, Graves' disease, thyroid cancer follow-up, and general hypothyroidism.
+        <Image
+          src="/images/hub_medicare-broker-for-thyroid-disease-patients.webp"
+          alt="Medicare broker for thyroid disease patients"
+          width={800}
+          height={400}
+          className="w-full rounded-lg mb-6"
+          priority
+        />
+
+        <p className="text-lg mb-2">
+          A Medicare broker for thyroid disease patients does something most people don't have time for: comparing dozens of plans against your specific meds, labs, and doctors. When you're managing hypothyroidism or Graves' disease, you need a plan that actually works for the care you already receive.
         </p>
-
         <p className="text-lg mb-6">
-          Your thyroid condition touches every part of your Medicare coverage - Part B for labs and imaging, Part D for meds, and your choice of Supplement or Advantage for specialist visits. Let me walk you through what matters most.
+          I'm Anthony Orner, a licensed Medicare broker in New Jersey. I'll review your thyroid treatment and match it to the right plan at no cost to you.
         </p>
 
         <PhoneCTA />
@@ -134,11 +133,11 @@ export default function MedicareBrokerThyroidDisease() {
           <h2 className="text-2xl font-semibold mb-3">
             How Medicare covers TSH testing, biopsies, and ultrasounds
           </h2>
-          <p className="mb-3">
-            Medicare Part B covers TSH blood tests, thyroid ultrasounds, and fine-needle aspiration biopsies when your doctor orders them for a diagnosed condition. You'll pay 20% of the Medicare-approved amount after meeting the $283 Part B deductible (2026).
+          <p className="mb-2">
+            Medicare Part B covers medically necessary lab work, including TSH panels and free T4 tests, at no cost when ordered by your doctor and performed by a participating lab. Thyroid ultrasounds and fine-needle biopsies are also covered under Part B as diagnostic procedures.
           </p>
           <p>
-            If you're getting labs every 6-8 weeks while adjusting medication, that 20% adds up. A Medigap plan like Plan G covers that coinsurance entirely.
+            After meeting the $283 annual Part B deductible (2026), you typically pay 20% coinsurance for imaging and procedures. That 20% is exactly where your plan choice matters most.
           </p>
         </section>
 
@@ -146,17 +145,22 @@ export default function MedicareBrokerThyroidDisease() {
           <h2 className="text-2xl font-semibold mb-3">
             Part D formulary differences for Synthroid, methimazole, and generics
           </h2>
-          <p className="mb-3">
-            Generic levothyroxine is on most Part D formularies at a low tier. Brand-name Synthroid often sits on a higher tier with bigger copays - or may require prior authorization. Methimazole for hyperthyroidism is usually generic and affordable.
-          </p>
-          <ul className="list-disc ml-6 mb-3 space-y-1">
-            <li>Levothyroxine (generic): typically Tier 1 or 2</li>
-            <li>Synthroid (brand): often Tier 3 or higher, with possible step therapy</li>
-            <li>Methimazole (generic): typically Tier 1 or 2</li>
-            <li>Armour Thyroid / NP Thyroid: coverage varies widely by plan</li>
+          <ul className="list-disc pl-6 space-y-2">
+            <li>
+              Generic levothyroxine lands on Tier 1 or Tier 2 in most Part D plans, often with copays under $10.
+            </li>
+            <li>
+              Brand-name Synthroid frequently sits on Tier 3, which can mean $40+ monthly copays depending on the plan.
+            </li>
+            <li>
+              Methimazole (for hyperthyroidism) is usually generic and well-covered, but prior authorization requirements vary.
+            </li>
+            <li>
+              Desiccated thyroid products like NP Thyroid have inconsistent Part D coverage. Some plans exclude them entirely.
+            </li>
           </ul>
-          <p>
-            Formularies change every year. I check each plan's drug list against your exact prescriptions and dosages.
+          <p className="mt-2">
+            I check your exact medications against every available formulary so there are no surprises at the pharmacy counter.
           </p>
         </section>
 
@@ -164,92 +168,102 @@ export default function MedicareBrokerThyroidDisease() {
           <h2 className="text-2xl font-semibold mb-3">
             Supplement vs. Advantage for frequent endocrinology visits
           </h2>
-          <p className="mb-3">
-            If you see an endocrinologist regularly - two to four times a year, plus lab draws - your plan choice matters. Medicare Supplement (Medigap) plans let you see any doctor who accepts Medicare. No referrals. No network restrictions.
+          <p className="mb-2">
+            If you see an endocrinologist two to four times a year plus regular blood draws, those copays add up on a Medicare Advantage plan. A Medigap supplement (like Plan G) paired with a standalone Part D plan lets you see any Medicare-accepting specialist without referrals or network restrictions.
           </p>
           <p>
-            Medicare Advantage plans have networks. That can work fine if your endocrinologist is in-network, but specialist copays ($30-$50 per visit) add up with frequent appointments. I'll run the math for your situation.
+            Advantage plans can work well if your endocrinologist is in-network and the plan's specialist copay is reasonable. The right answer depends on your doctors, your medications, and how often you need labs.
           </p>
         </section>
 
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-3">
-            Why your thyroid medication schedule matters for plan selection
+            Why thyroid patients can't use a one-size-fits-all plan
           </h2>
-          <p className="mb-3">
-            Thyroid patients often take the same medication for years - sometimes decades. That's actually helpful for planning. We can model your annual drug costs with high confidence and find the Part D plan with the lowest total cost, not just the lowest premium.
+          <p className="mb-2">
+            Thyroid disease isn't one condition. Hashimoto's, Graves', thyroid cancer follow-up, and nodule monitoring all require different combinations of labs, imaging, meds, and specialist frequency. A plan that's great for someone on generic levothyroxine alone may be expensive for someone needing quarterly ultrasounds and brand-name medication.
           </p>
           <p>
-            If your doctor switches you between brand and generic, or adjusts dosages, I can show you which plans handle formulary changes with the least hassle.
+            That's the gap a broker fills. I look at your full treatment picture, not just one line item.
           </p>
         </section>
 
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-3">
-            What I look at during your free plan review
+            The 20% coinsurance problem and how to solve it
           </h2>
-          <ul className="list-disc ml-6 space-y-1">
-            <li>Your current thyroid medications, dosages, and pharmacy</li>
-            <li>How often you see your endocrinologist and primary care doctor</li>
-            <li>Whether you need frequent labs or imaging</li>
-            <li>Your tolerance for networks vs. freedom to choose providers</li>
-            <li>Your monthly budget for premiums and out-of-pocket costs</li>
-          </ul>
+          <p className="mb-2">
+            Original Medicare leaves you responsible for 20% of Part B-approved costs with no annual cap. A thyroid biopsy or surgical consultation can generate hundreds in out-of-pocket costs quickly.
+          </p>
+          <p>
+            Medigap Plan G covers that 20% after you pay the $283 Part B deductible. For thyroid patients who need ongoing diagnostics, that protection often saves more than the monthly premium costs.
+          </p>
         </section>
 
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-3">
             Get a free plan review based on your thyroid treatment
           </h2>
+          <p className="mb-2">
+            Tell me what medications you take, which doctors you see, and how often you get labs. I'll compare every plan available in your area and show you the real costs side by side.
+          </p>
           <p>
-            You shouldn't have to guess whether your plan covers your next TSH panel or your levothyroxine refill. I'll compare your options across carriers and show you the real numbers. No cost, no pressure, no obligation.
+            No charge. No pressure. Just clear answers about what each plan actually covers for your thyroid care.
           </p>
         </section>
 
-        <div className="bg-blue-600 text-white rounded-lg p-6 mb-10 text-center">
-          <p className="text-xl font-semibold mb-2">
-            Talk to a licensed Medicare broker who understands thyroid care.
+        <div className="bg-blue-600 text-white rounded-lg p-8 text-center my-10">
+          <p className="text-xl font-semibold mb-3">
+            Ready for a plan that fits your thyroid treatment?
           </p>
           <p className="text-lg mb-4">
             Call{" "}
-            <a href="tel:8555591700" className="underline font-bold">
+            <a
+              href="tel:8555591700"
+              className="underline font-bold"
+            >
               855-559-1700
             </a>{" "}
             or{" "}
-            <Link href="/contact" className="underline font-bold">
-              get a free quote online
+            <Link
+              href="/get-a-free-quote"
+              className="underline font-bold"
+            >
+              Get a Free Quote
             </Link>
-            .
+          </p>
+          <p className="text-sm opacity-90">
+            Anthony Orner, Licensed Medicare Broker — NJ
           </p>
         </div>
 
         <FAQSection faqs={faqs} />
 
-        <section className="mt-10">
+        <section className="mt-10 mb-8">
           <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
           <ul className="space-y-2">
             <li>
               <Link
-                href="/services/medicare-broker-for-chronic-conditions"
+                href="/medicare-guides/medicare-part-d-drug-coverage"
                 className="text-blue-600 hover:underline"
               >
-                Medicare Broker for Chronic Conditions
+                Medicare Part D Drug Coverage Guide
               </Link>
             </li>
             <li>
               <Link
-                href="/guides/medicare-part-d-drug-coverage"
+                href="/medicare-guides/medigap-plan-g-vs-plan-n"
                 className="text-blue-600 hover:underline"
               >
-                Understanding Medicare Part D Drug Coverage
+                Medigap Plan G vs. Plan N
               </Link>
             </li>
             <li>
               <Link
-                href="/guides/medigap-vs-medicare-advantage"
+                href="/medicare-guides/medicare-advantage-vs-medigap"
                 className="text-blue-600 hover:underline"
               >
-                Medigap vs. Medicare Advantage: Which Is Right for You?
+                Medicare Advantage vs. Medigap
               </Link>
             </li>
             <li>
@@ -257,12 +271,12 @@ export default function MedicareBrokerThyroidDisease() {
                 href="/services/medicare-broker-nj"
                 className="text-blue-600 hover:underline"
               >
-                Licensed Medicare Broker in New Jersey
+                Medicare Broker in New Jersey
               </Link>
             </li>
           </ul>
         </section>
-      </main>
+      </article>
     </>
   );
 }

@@ -55,8 +55,8 @@ export default function PennsylvaniaMedigapPage() {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.medicareyourself.com" },
-      { "@type": "ListItem", position: 2, name: "Medicare Supplement PA", item: "https://www.medicareyourself.com/medicare-supplement/pennsylvania" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://medicareyourself.com" },
+      { "@type": "ListItem", position: 2, name: "Medicare Supplement PA", item: "https://medicareyourself.com/medicare-supplement/pennsylvania" },
     ],
   };
 
@@ -65,10 +65,10 @@ export default function PennsylvaniaMedigapPage() {
     "@type": "Article",
     headline: "Best Medicare Supplement Plans in Pennsylvania (2026)",
     description: "Compare Medicare Supplement plans in Pennsylvania for 2026. Plan G vs Plan N, costs, enrollment rules, and PA-specific rules.",
-    author: { "@type": "Organization", name: "MedicareYourself", url: "https://www.medicareyourself.com" },
-    publisher: { "@type": "Organization", name: "MedicareYourself", url: "https://www.medicareyourself.com" },
+    author: { "@type": "Organization", name: "MedicareYourself", url: "https://medicareyourself.com" },
+    publisher: { "@type": "Organization", name: "MedicareYourself", url: "https://medicareyourself.com" },
     dateModified: "2026-03-01",
-    mainEntityOfPage: "https://www.medicareyourself.com/medicare-supplement/pennsylvania",
+    mainEntityOfPage: "https://medicareyourself.com/medicare-supplement/pennsylvania",
   };
 
   const plans = [

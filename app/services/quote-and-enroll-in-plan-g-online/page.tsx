@@ -9,12 +9,12 @@ export const metadata: Metadata = {
   title:
     "Quote and Enroll in Plan G Online | Free Instant Rates | MedicareYourself",
   description:
-    "Quote and enroll in Plan G online with a licensed NJ Medicare broker. Instant rates from top carriers, same-day enrollment. Free, no-obligation service.",
+    "Quote and enroll in Plan G online with a licensed NJ Medicare broker. Get instant rates from top carriers and finish enrollment the same day. Free service.",
   openGraph: {
     title:
       "Quote and Enroll in Plan G Online | Free Instant Rates | MedicareYourself",
     description:
-      "Quote and enroll in Plan G online with a licensed NJ Medicare broker. Instant rates from top carriers, same-day enrollment. Free, no-obligation service.",
+      "Quote and enroll in Plan G online with a licensed NJ Medicare broker. Get instant rates from top carriers and finish enrollment the same day. Free service.",
   },
 };
 
@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Quote and Enroll in Plan G Online",
-      item: "https://www.medicareyourself.com/services/quote-and-enroll-in-plan-g-online",
+      item: "https://medicareyourself.com/services/quote-and-enroll-in-plan-g-online",
     },
   ],
 };
@@ -51,47 +51,46 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-01-01",
-  dateModified: "2025-01-01",
+  datePublished: "2025-07-01",
+  dateModified: "2025-07-01",
 };
 
 const faqs = [
   {
-    question: "How much does a Plan G cost for Medicare?",
+    question: "Can you enroll in Medicare Plan G at any time?",
     answer:
-      "Plan G premiums vary by carrier, your age, zip code, and tobacco use. In NJ, monthly rates from top carriers can range widely. The best way to find your exact rate is to request a free quote - we compare multiple carriers side by side so you see the lowest option available to you.",
-  },
-  {
-    question: "Can I enroll in Medicare Plan G anytime?",
-    answer:
-      "Your best window is your 6-month Medigap Open Enrollment Period, which starts the month you turn 65 and are enrolled in Part B. During this period, no carrier can deny you or charge more due to health conditions. Outside that window, you'll typically need to pass medical underwriting unless you qualify for a federal guaranteed issue right.",
-  },
-  {
-    question: "What does Plan G cover that Original Medicare doesn't?",
-    answer:
-      "Plan G covers the Part A deductible ($1,676 in 2026), Part B excess charges, skilled nursing coinsurance ($209.50/day for days 21-100), and your 20% Part B coinsurance. The only thing you pay out of pocket is the annual Part B deductible of $283. After that, Plan G picks up the rest.",
+      "Not without conditions. You have guaranteed acceptance during your 6-month Medigap Open Enrollment Period, which starts the month you turn 65 and are enrolled in Part B. Outside that window, carriers can require medical underwriting and may decline your application based on health history. Certain federal guaranteed issue events, like losing employer coverage or leaving a Medicare Advantage plan, may also qualify you.",
   },
   {
     question: "How long does it take to enroll in Plan G online?",
     answer:
-      "Most people finish in one sitting. You'll get an instant quote, review carrier options, and complete the application - often in under 30 minutes. A licensed broker walks you through every step by phone if you want help.",
+      "Most people finish their application in 15 to 20 minutes once they have their quote. You'll need your Medicare Beneficiary Identifier (MBI), Part A and Part B effective dates, and basic health history. Coverage typically starts the first of the following month.",
+  },
+  {
+    question: "Does Plan G cover the Part B deductible?",
+    answer:
+      "No. Plan G covers everything Plan F covers except the annual Part B deductible, which is $283 in 2026. After you meet that deductible, Plan G pays 100% of remaining Medicare-approved costs for the year.",
+  },
+  {
+    question: "Is there a fee to get a Plan G quote through a broker?",
+    answer:
+      "No. Licensed Medicare brokers are paid by the insurance carrier, not by you. Our quoting and enrollment service is completely free, and your premium is the same whether you use a broker or go directly to the carrier.",
   },
 ];
 
 export default function QuoteAndEnrollInPlanGOnline() {
   return (
-    <div className="max-w-4xl mx-auto px-4 py-8">
-      <SchemaMarkup schema={breadcrumbSchema} />
-      <SchemaMarkup schema={articleSchema} />
+    <main className="max-w-3xl mx-auto px-4 py-8">
+      <SchemaMarkup schema={[breadcrumbSchema, articleSchema]} />
 
-      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-4">
+      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
         <Link href="/" className="hover:underline">
           Home
         </Link>{" "}
@@ -103,138 +102,124 @@ export default function QuoteAndEnrollInPlanGOnline() {
         <span className="text-gray-700">Quote and Enroll in Plan G Online</span>
       </nav>
 
-      <h1 className="text-3xl font-bold mb-4">
+      <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
         Quote and Enroll in Plan G Online — From Rate to Coverage in One Sitting
       </h1>
 
       <Image
-        src="/images/quote-and-enroll-in-plan-g-online.webp"
+        src="/images/hub_quote-and-enroll-in-plan-g-online.webp"
         alt="Quote and enroll in Plan G online"
         width={800}
         height={400}
-        className="rounded-lg mb-6 w-full"
+        className="w-full rounded-lg mb-6"
+        priority
       />
 
-      <p className="text-lg mb-2">
-        Quote and enroll in Plan G online without chasing down agents, waiting on callbacks, or filling out the same form three times. You pick the carrier, see your rate instantly, and finish the application - all from your kitchen table.
+      <p className="text-lg text-gray-700 mb-2">
+        Quote and enroll in Plan G online without leaving your kitchen table. You pick the carrier, I confirm the rate, and we submit your application together over the phone or right on your screen. The whole process takes one sitting.
       </p>
-      <p className="text-lg mb-6">
-        I'm Anthony Orner, a licensed NJ Medicare broker. This is a free service. You pay nothing extra - carriers pay me the same commission regardless of which one you choose.
+      <p className="text-lg text-gray-700 mb-6">
+        No appointment needed to start. No hidden fees. Just real rates from real carriers.
       </p>
 
       <PhoneCTA />
 
       <section className="mt-10">
-        <h2 className="text-2xl font-semibold mb-3">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
           How to get your Plan G quote in under 60 seconds
         </h2>
-        <p className="mb-2">
-          You need three things: your zip code, date of birth, and tobacco status. That's it.
+        <p className="text-gray-700 mb-2">
+          Enter your ZIP code, date of birth, gender, and tobacco status. That's it. Our system pulls live rates from every carrier available in your area and displays them side by side.
         </p>
-        <ul className="list-disc pl-6 mb-4 space-y-1">
-          <li>Enter your info on our quote tool or call 855-559-1700</li>
-          <li>See rates from multiple top carriers side by side</li>
-          <li>Compare monthly premiums, rate increase history, and AM Best ratings</li>
-        </ul>
-        <p>
-          No account to create. No email required to see rates. You'll have real numbers in front of you before you finish your coffee.
+        <p className="text-gray-700">
+          Rates vary by carrier, age, and location. Two people in the same town can see very different prices depending on when they turned 65 and which rating method the carrier uses. That's exactly why comparing matters.
         </p>
       </section>
 
       <section className="mt-10">
-        <h2 className="text-2xl font-semibold mb-3">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
           What Plan G actually covers
         </h2>
-        <p className="mb-2">
-          Plan G is standardized by Medicare. Every carrier offers the exact same benefits. The only difference is price and company reputation.
-        </p>
-        <ul className="list-disc pl-6 mb-4 space-y-1">
-          <li>Part A deductible: $1,676 per benefit period - covered</li>
-          <li>Part B coinsurance (your 20% after the deductible) - covered</li>
-          <li>Skilled nursing coinsurance: $209.50/day for days 21-100 - covered</li>
-          <li>Part B excess charges - covered</li>
-          <li>Foreign travel emergency care - covered</li>
+        <ul className="list-disc pl-6 text-gray-700 space-y-1">
+          <li>Part A hospital coinsurance plus 365 extra days after Medicare runs out</li>
+          <li>Part B coinsurance (the 20% you'd otherwise owe on approved services)</li>
+          <li>First 3 pints of blood per year</li>
+          <li>Skilled nursing facility coinsurance: $209.50/day for days 21-100 in 2026</li>
+          <li>Part A hospice care coinsurance</li>
+          <li>80% of foreign travel emergency care</li>
         </ul>
-        <p>
-          You pay the $283 annual Part B deductible. After that, Plan G handles the rest. No networks, no referrals, no prior authorizations.
+        <p className="text-gray-700 mt-2">
+          The only gap: you pay the $283 Part B deductible yourself each year. After that, Plan G picks up everything Medicare approves.
         </p>
       </section>
 
       <section className="mt-10">
-        <h2 className="text-2xl font-semibold mb-3">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
           What happens between your quote and your effective date
         </h2>
-        <p className="mb-2">
-          Once you pick a carrier, I help you complete the application online or by phone. During your Medigap Open Enrollment Period, approval is guaranteed - no health questions asked.
+        <p className="text-gray-700 mb-2">
+          Once you choose a carrier, we complete the application together. You'll answer a short set of health questions unless you're inside your Medigap Open Enrollment Period (where acceptance is guaranteed).
         </p>
-        <p className="mb-2">
-          Outside that window, most carriers require medical underwriting. I'll tell you upfront which carriers are most likely to approve your application based on your health history.
-        </p>
-        <p>
-          Typical timeline: application submitted, approval in 1-3 weeks, ID card in the mail before your effective date. You don't have a gap in coverage.
+        <p className="text-gray-700">
+          Carriers typically approve within 1-5 business days. Coverage usually starts the first of the next month. You'll get your ID card in the mail, but you can use your plan immediately on the effective date.
         </p>
       </section>
 
       <section className="mt-10">
-        <h2 className="text-2xl font-semibold mb-3">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
           Common mistakes that delay online enrollment
         </h2>
-        <ul className="list-disc pl-6 space-y-2">
-          <li>
-            <strong>Waiting until after Part B starts.</strong> My practice is to have clients apply up to 6 months before their Part B start date. This locks in your rate early and protects you from premium increases before coverage begins.
-          </li>
-          <li>
-            <strong>Switching from Advantage to Supplement without checking underwriting.</strong> If you've been on a Medicare Advantage plan and want to switch to Plan G, you'll likely face health questions. People with pre-existing conditions can get denied. Don't cancel anything until you're approved.
-          </li>
-          <li>
-            <strong>Forgetting Part D.</strong> Plan G doesn't include prescription drug coverage. You'll need a separate Part D plan, and missing your enrollment window triggers a permanent late penalty.
-          </li>
+        <ul className="list-disc pl-6 text-gray-700 space-y-1">
+          <li>Not having your Medicare card handy (you need your MBI number and Part A/B start dates)</li>
+          <li>Applying after your 6-month open enrollment window closes and not realizing underwriting applies</li>
+          <li>Forgetting to sign up for a standalone Part D drug plan alongside Plan G</li>
+          <li>Switching from a Medicare Advantage plan without confirming your guaranteed issue rights first</li>
         </ul>
+        <p className="text-gray-700 mt-2">
+          That last one trips people up the most. If you leave an Advantage plan mid-year and don't qualify for guaranteed issue, a carrier can deny your Plan G application based on pre-existing conditions. I've seen it happen, and it's tough to reverse.
+        </p>
       </section>
 
       <section className="mt-10">
-        <h2 className="text-2xl font-semibold mb-3">
-          Why locking in your rate early matters
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          Why people switch from Advantage plans to Plan G
         </h2>
-        <p className="mb-2">
-          Medigap premiums are lowest when you first become eligible. Every month you wait past your open enrollment period, you risk higher rates or denial based on health.
+        <p className="text-gray-700 mb-2">
+          The $0 premium on Advantage plans looks great until copays and referral requirements stack up. Plan G gives you the freedom to see any doctor who accepts Medicare, anywhere in the country, with no network restrictions and no prior authorizations.
         </p>
-        <p>
-          If you're turning 65 soon, the smartest move is getting your quote now - even if coverage doesn't start for a few months. The sooner you lock in, the better your rate.
+        <p className="text-gray-700">
+          The tradeoff: you pay a monthly premium plus the $283 annual deductible. For many people, especially those with ongoing health needs, the predictability is worth it.
         </p>
       </section>
 
       <section className="mt-10">
-        <h2 className="text-2xl font-semibold mb-3">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
           Start your Plan G quote and enroll right now
         </h2>
-        <p>
-          Call 855-559-1700 or use the link below. I'll compare carriers, answer your questions, and walk you through enrollment if you're ready. No pressure, no cost, no obligation.
+        <p className="text-gray-700 mb-2">
+          I'm Anthony Orner, a licensed Medicare broker. I work with multiple carriers, so my only job is matching you with the best rate for your situation. No cost to you, ever.
+        </p>
+        <p className="text-gray-700">
+          Call me directly or use the quote tool on this page. Either way, you'll have real numbers in front of you within a minute.
         </p>
       </section>
 
-      <div className="mt-10 bg-blue-50 border border-blue-200 rounded-lg p-6 text-center">
+      <div className="mt-10 bg-blue-600 text-white rounded-lg p-6 text-center">
         <p className="text-xl font-semibold mb-2">
           Ready to see your Plan G rates?
         </p>
         <p className="mb-4">
           Call{" "}
-          <a
-            href="tel:8555591700"
-            className="text-blue-700 font-bold hover:underline"
-          >
+          <a href="tel:8555591700" className="underline font-bold">
             855-559-1700
           </a>{" "}
           or{" "}
-          <Link
-            href="/get-a-free-quote"
-            className="text-blue-700 font-bold hover:underline"
-          >
+          <Link href="/quote" className="underline font-bold">
             Get a Free Quote
           </Link>
         </p>
-        <p className="text-sm text-gray-600">
-          Licensed NJ Medicare broker. No cost to you - ever.
+        <p className="text-sm opacity-90">
+          Licensed broker. Free service. No obligation.
         </p>
       </div>
 
@@ -243,42 +228,44 @@ export default function QuoteAndEnrollInPlanGOnline() {
       </section>
 
       <section className="mt-12">
-        <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
+        <h2 className="text-2xl font-semibold text-gray-900 mb-4">
+          Related resources
+        </h2>
         <ul className="space-y-2">
           <li>
             <Link
-              href="/medicare-guides/medicare-plan-g-cost"
-              className="text-blue-700 hover:underline"
+              href="/medicare-guides/plan-g-vs-plan-n"
+              className="text-blue-600 hover:underline"
             >
-              Medicare Plan G Cost: What You'll Actually Pay in 2026
+              Plan G vs. Plan N: Which Medigap Plan Fits You?
             </Link>
           </li>
           <li>
             <Link
               href="/medicare-guides/medigap-open-enrollment-period"
-              className="text-blue-700 hover:underline"
+              className="text-blue-600 hover:underline"
             >
-              Medigap Open Enrollment Period: When and Why It Matters
+              Medigap Open Enrollment Period Explained
             </Link>
           </li>
           <li>
             <Link
-              href="/medicare-guides/plan-g-vs-plan-n"
-              className="text-blue-700 hover:underline"
+              href="/medicare-guides/switching-from-advantage-to-medigap"
+              className="text-blue-600 hover:underline"
             >
-              Plan G vs Plan N: Which Supplement Plan Is Right for You?
+              How to Switch from Medicare Advantage to Medigap
             </Link>
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-supplement-vs-medicare-advantage"
-              className="text-blue-700 hover:underline"
+              href="/medicare-guides/part-d-standalone-drug-plans"
+              className="text-blue-600 hover:underline"
             >
-              Medicare Supplement vs Medicare Advantage: Real Tradeoffs
+              Choosing a Standalone Part D Prescription Drug Plan
             </Link>
           </li>
         </ul>
       </section>
-    </div>
+    </main>
   );
 }

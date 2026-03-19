@@ -300,13 +300,13 @@ async function getRankingKeywords(domain) {
  * Discovers pages automatically from the app/ directory.
  *
  * @param {object} [options]
- * @param {string} [options.siteUrl]  Base URL (default: https://www.medicareyourself.com)
+ * @param {string} [options.siteUrl]  Base URL (default: https://medicareyourself.com)
  * @param {string} [options.appDir]   Path to app/ directory for page discovery.
  * @param {string[]} [options.urls]   Explicit list of URLs to audit (overrides discovery).
  * @returns {Array<object>}  Metrics per page, sorted by page_authority ascending (weakest first).
  */
 async function auditOwnSite(options = {}) {
-  const siteUrl = options.siteUrl || process.env.SITE_URL || "https://www.medicareyourself.com";
+  const siteUrl = options.siteUrl || process.env.SITE_URL || "https://medicareyourself.com";
   let urls = options.urls;
 
   if (!urls) {

@@ -7,14 +7,14 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 
 export const metadata: Metadata = {
   title:
-    "how much does medicare supplement cost per month for seniors | Free Quote | MedicareYourself",
+    "how much does medicare supplement cost per month for seniors | Free 2025–2026 Rate Quote | MedicareYourself",
   description:
-    "How much does Medicare Supplement cost per month for seniors? See real Plan G and Plan N rates by age from NJ and PA carriers. Free personalized quote.",
+    "How much does Medicare Supplement cost per month for seniors? See real Plan G and Plan N rates by age from NJ carriers. Get a free personalized quote today.",
   openGraph: {
     title:
-      "how much does medicare supplement cost per month for seniors | Free Quote | MedicareYourself",
+      "how much does medicare supplement cost per month for seniors | Free 2025–2026 Rate Quote | MedicareYourself",
     description:
-      "How much does Medicare Supplement cost per month for seniors? See real Plan G and Plan N rates by age from NJ and PA carriers. Free personalized quote.",
+      "How much does Medicare Supplement cost per month for seniors? See real Plan G and Plan N rates by age from NJ carriers. Get a free personalized quote today.",
   },
 };
 
@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "How Much Does Medicare Supplement Cost Per Month for Seniors",
-      item: "https://www.medicareyourself.com/services/how-much-does-medicare-supplement-cost-per-month-for-seniors",
+      item: "https://medicareyourself.com/services/how-much-does-medicare-supplement-cost-per-month-for-seniors",
     },
   ],
 };
@@ -51,37 +51,38 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-06-01",
-  dateModified: "2025-06-01",
+  datePublished: "2025-07-01",
+  dateModified: "2025-07-01",
 };
 
 const faqs = [
   {
-    question: "What is the average cost of a good Medicare Supplement plan?",
+    question:
+      "What is the average monthly cost of a Medicare Supplement plan for a 65-year-old?",
     answer:
-      "Depending on your age, location, and carrier, Medicare Supplement premiums typically range from $90 to $350+ per month for the most popular plans (G and N). A 65-year-old in NJ will generally pay less than a 74-year-old for identical coverage because most plans use attained-age pricing.",
+      "For a 65-year-old in NJ or PA, Plan G premiums typically range from $120 to $220 per month depending on the carrier, your zip code, and whether you're a tobacco user. Plan N runs roughly $80 to $160. These are starting rates; they increase over time.",
   },
   {
-    question: "Is Plan G or Plan N cheaper per month?",
+    question: "Why do Medicare Supplement premiums vary so much between companies?",
     answer:
-      "Plan N premiums are usually $30 to $70 less per month than Plan G. The tradeoff: Plan N has small copays (up to $20 for office visits, up to $50 for ER visits that don't result in admission) and doesn't cover Part B excess charges. For many seniors, Plan N is a smart way to save.",
+      "Every lettered Medigap plan offers identical benefits regardless of which company sells it. The difference is pricing method. Some carriers use attained-age rating (premiums rise as you age), while others use issue-age or community rating. Long-term rate increase history also varies widely by carrier.",
   },
   {
     question: "Do Medicare Supplement premiums go up every year?",
     answer:
-      "Yes, most Medigap premiums increase annually. With attained-age rated plans, your premium rises as you get older. On top of that, carriers can apply block rate increases when claims costs rise for your pool of insureds. These two increases can stack, sometimes resulting in 10-18% jumps in a single year.",
+      "Yes. Premiums can increase due to age (attained-age plans), inflation, and block rate increases when claims rise across your pool of policyholders. Annual increases of 3–8% are common, though some years certain carriers push 10–18% jumps.",
   },
   {
     question: "When is the best time to buy a Medicare Supplement plan?",
     answer:
-      "Your Medigap Open Enrollment Period, which is the 6 months starting the month you turn 65 and are enrolled in Part B, gives you guaranteed acceptance at the lowest rates. Apply up to 6 months before your Part B start date to lock in your rate without medical underwriting.",
+      "Your Medigap Open Enrollment Period, which is the 6 months starting when you're 65 or older AND enrolled in Part B. During this window, carriers can't charge more or deny you based on health conditions. After it closes, you may face medical underwriting.",
   },
 ];
 
@@ -110,7 +111,7 @@ export default function HowMuchDoesMedicareSupplementCostPerMonthForSeniors() {
       </h1>
 
       <Image
-        src="/images/how-much-does-medicare-supplement-cost-per-month-for-seniors.webp"
+        src="/images/hub_how-much-does-medicare-supplement-cost-per-month-for-seniors.webp"
         alt="how much does medicare supplement cost per month for seniors"
         width={800}
         height={400}
@@ -119,143 +120,137 @@ export default function HowMuchDoesMedicareSupplementCostPerMonthForSeniors() {
       />
 
       <p className="text-lg text-gray-700 mb-2">
-        How much does Medicare Supplement cost per month for seniors depends on three things: which plan letter you choose, how old you are, and which carrier you pick. Premiums across all Medigap plans can range from roughly $32 to $628 per month, but the plans most seniors actually buy fall into a much tighter range.
+        How much does Medicare Supplement cost per month for seniors depends on your age, zip code, plan letter, and carrier. Most seniors in NJ and PA pay between $80 and $280 per month for the most popular plans.
       </p>
       <p className="text-lg text-gray-700 mb-6">
-        I'm Anthony Orner, a licensed Medicare broker in New Jersey. Here's what real pricing looks like right now.
+        That range is wide because a 65-year-old on Plan N pays a very different premium than a 78-year-old on Plan G. Here's how to figure out what you'll actually pay.
       </p>
 
       <PhoneCTA />
 
-      <section className="mt-10">
+      <section className="mt-10 mb-8">
         <h2 className="text-2xl font-semibold text-gray-900 mb-3">
           Monthly cost ranges for Plan G, Plan N, and Plan F
         </h2>
         <p className="text-gray-700 mb-3">
-          These three plans account for the vast majority of Medigap enrollments. Each plan letter is standardized, meaning the benefits are identical no matter which carrier sells it. The only difference between carriers is the premium.
+          Premiums vary by carrier, but here are realistic ranges for NJ and PA in 2025:
         </p>
-        <ul className="list-disc pl-6 text-gray-700 space-y-2 mb-3">
-          <li><strong>Plan G:</strong> $120 to $280/month for most seniors ages 65-78. You pay only the $283 annual Part B deductible, then Plan G covers everything else.</li>
-          <li><strong>Plan N:</strong> $80 to $220/month. Lower premiums, but you'll have small copays at office and ER visits.</li>
-          <li><strong>Plan F:</strong> $150 to $350/month. Only available if you were eligible for Medicare before January 1, 2020. Covers everything, including the Part B deductible.</li>
+        <ul className="list-disc ml-6 text-gray-700 space-y-2">
+          <li><strong>Plan G (age 65):</strong> $120–$220/month. The most popular Medigap plan. Covers everything except the $283 annual Part B deductible.</li>
+          <li><strong>Plan N (age 65):</strong> $80–$160/month. Lower premiums, but you'll pay small copays at some office and ER visits.</li>
+          <li><strong>Plan F (age 65):</strong> $160–$280/month. Only available if you were eligible for Medicare before January 1, 2020. Highest coverage, highest premium.</li>
         </ul>
+        <p className="text-gray-700 mt-3">
+          At age 75, expect roughly 25–40% more than these starting rates depending on the carrier's rate history.
+        </p>
       </section>
 
-      <section className="mt-10">
+      <section className="mb-8">
         <h2 className="text-2xl font-semibold text-gray-900 mb-3">
           Factors that raise or lower your premium
         </h2>
-        <ul className="list-disc pl-6 text-gray-700 space-y-2">
-          <li><strong>Age:</strong> Most carriers use attained-age pricing. A 68-year-old pays less than a 74-year-old for the same plan.</li>
-          <li><strong>Tobacco use:</strong> Smokers typically pay 15-25% more.</li>
-          <li><strong>Location:</strong> Rates in northern NJ differ from south Jersey or eastern PA, even with the same carrier.</li>
-          <li><strong>Gender:</strong> Some carriers charge different rates for men and women.</li>
-          <li><strong>Household discounts:</strong> Many carriers offer 5-7% off if your spouse is also enrolled.</li>
+        <ul className="list-disc ml-6 text-gray-700 space-y-2">
+          <li><strong>Age:</strong> Attained-age rated plans increase as you get older. Issue-age plans lock your rate to the age you enrolled.</li>
+          <li><strong>Tobacco use:</strong> Smokers often pay 10–25% more.</li>
+          <li><strong>Zip code:</strong> Urban areas in NJ tend to be pricier than rural PA counties.</li>
+          <li><strong>Household discounts:</strong> Some carriers offer 5–7% off when both spouses enroll.</li>
+          <li><strong>Block rate increases:</strong> When your carrier's overall claims rise, everyone in that pool sees a hike. This is the increase most people don't see coming.</li>
         </ul>
       </section>
 
-      <section className="mt-10">
+      <section className="mb-8">
         <h2 className="text-2xl font-semibold text-gray-900 mb-3">
           Sample rates from top carriers in NJ and PA
         </h2>
         <p className="text-gray-700 mb-3">
-          Rates vary by carrier, but here's the general picture for a non-smoking female on Plan G:
+          I can't publish exact carrier rates here since they shift quarterly. But I can tell you this: in NJ, I regularly see a $90/month difference between the cheapest and most expensive Plan G for the same 65-year-old in the same zip code.
         </p>
-        <ul className="list-disc pl-6 text-gray-700 space-y-2">
-          <li>Age 65: roughly $120-$170/month</li>
-          <li>Age 68: roughly $135-$195/month</li>
-          <li>Age 74: roughly $165-$250/month</li>
-          <li>Age 80+: roughly $210-$310/month</li>
-        </ul>
-        <p className="text-gray-700 mt-3">
-          Men typically pay $10-$30 more per month. These are ballpark ranges. Your actual quote depends on carrier, zip code, and health history (outside Open Enrollment).
+        <p className="text-gray-700">
+          The cheapest starting rate isn't always the best deal. Some carriers price low to attract new enrollees, then stack aggressive rate increases in years 3–5. I look at a carrier's 5- and 10-year rate history before recommending anything. Call and I'll show you the actual numbers.
         </p>
       </section>
 
-      <section className="mt-10">
+      <section className="mb-8">
         <h2 className="text-2xl font-semibold text-gray-900 mb-3">
           Why the starting premium isn't the whole story
         </h2>
         <p className="text-gray-700 mb-3">
-          This is the part most people miss. A carrier that starts $20 cheaper at age 65 can be $80 more expensive by age 78. That happens when age-based increases stack on top of block rate increases from rising claims in your insured pool.
+          Most people focus entirely on what they'll pay at 65. But the real cost question is what you're paying at 72, 78, or 83.
         </p>
         <p className="text-gray-700">
-          Some carriers price aggressively low to attract new enrollees, then raise rates steeply. Others start slightly higher but hold steadier over time. I look at 5 to 10-year rate histories before recommending a carrier. The cheapest plan today isn't always the cheapest plan over a decade.
+          When age increases and block increases stack together, 10–18% jumps in a single year aren't unusual. A plan that starts $30/month cheaper can end up costing you thousands more over a decade. I help clients compare long-term rate behavior, not just day-one sticker prices.
         </p>
       </section>
 
-      <section className="mt-10">
+      <section className="mb-8">
         <h2 className="text-2xl font-semibold text-gray-900 mb-3">
-          Locking in your best rate during open enrollment
+          When to lock in your best rate
         </h2>
         <p className="text-gray-700 mb-3">
-          Your Medigap Open Enrollment Period starts the month you turn 65 and are enrolled in Part B. It lasts 6 months. During this window, no carrier can deny you or charge more because of health conditions.
+          Your Medigap Open Enrollment Period lasts 6 months, starting the month you turn 65 and are enrolled in Part B. During this window, no carrier can charge you more or turn you down for health conditions.
         </p>
         <p className="text-gray-700">
-          After that window closes, most carriers in NJ and PA can medically underwrite your application. Pre-existing conditions like Type 2 diabetes or heart disease can mean denial. Apply up to 6 months before your Part B start date so you're covered from day one.
+          If you're approaching 65, start shopping about 6 months before your Part B effective date. Miss the window and you may face medical underwriting, which can mean higher premiums or outright denial.
         </p>
       </section>
 
-      <section className="mt-10">
+      <section className="mb-8">
         <h2 className="text-2xl font-semibold text-gray-900 mb-3">
           How to get a personalized quote in under 2 minutes
         </h2>
-        <p className="text-gray-700 mb-3">
-          I compare rates from multiple carriers in NJ and PA side by side, including their long-term rate increase history. One quick call gives you real numbers, not website estimates.
-        </p>
         <p className="text-gray-700">
-          No pressure, no obligation. Just accurate pricing so you can make a confident decision.
+          I'm Anthony Orner, a licensed Medicare broker in NJ. Give me your age, zip code, and which plan letter you're considering, and I'll pull real quotes from multiple carriers with their rate increase history. No cost, no obligation, and no pressure. Just numbers you can actually use.
         </p>
       </section>
 
-      <div className="mt-10 bg-blue-600 text-white rounded-xl p-6 text-center">
+      <div className="bg-blue-600 text-white rounded-xl p-8 text-center mb-10">
         <p className="text-xl font-semibold mb-2">
           Get your free personalized Medigap quote
         </p>
-        <p className="mb-4">
+        <p className="text-lg mb-4">
           Call{" "}
           <a href="tel:8555591700" className="underline font-bold">
             855-559-1700
           </a>{" "}
           or{" "}
-          <Link href="/get-a-free-quote" className="underline font-bold">
-            Get a Free Quote
-          </Link>{" "}
-          online.
+          <Link href="/quote" className="underline font-bold">
+            get a free quote online
+          </Link>
+        </p>
+        <p className="text-sm opacity-90">
+          Anthony Orner, Licensed Medicare Broker | EasyKind Medicare
         </p>
       </div>
 
-      <section className="mt-12">
-        <FAQSection faqs={faqs} />
-      </section>
+      <FAQSection faqs={faqs} />
 
-      <section className="mt-12">
+      <section className="mt-10 mb-4">
         <h2 className="text-2xl font-semibold text-gray-900 mb-4">
           Related resources
         </h2>
         <ul className="space-y-2">
           <li>
             <Link
-              href="/services/medicare-supplement-plan-g"
+              href="/services/medicare-supplement-plan-g-vs-plan-n"
               className="text-blue-600 hover:underline"
             >
-              Medicare Supplement Plan G: What It Covers and Costs
+              Medicare Supplement Plan G vs. Plan N: Which Saves You More?
             </Link>
           </li>
           <li>
             <Link
-              href="/services/medicare-supplement-plan-n"
+              href="/services/best-medicare-supplement-plans-in-nj"
               className="text-blue-600 hover:underline"
             >
-              Medicare Supplement Plan N: Is It Worth the Savings?
+              Best Medicare Supplement Plans in NJ for 2025–2026
             </Link>
           </li>
           <li>
             <Link
-              href="/services/medigap-open-enrollment-period"
+              href="/services/when-to-enroll-in-medigap"
               className="text-blue-600 hover:underline"
             >
-              Medigap Open Enrollment: Why Timing Matters
+              When to Enroll in Medigap: Open Enrollment and Guaranteed Issue
             </Link>
           </li>
           <li>
@@ -263,7 +258,7 @@ export default function HowMuchDoesMedicareSupplementCostPerMonthForSeniors() {
               href="/services/medicare-supplement-vs-medicare-advantage"
               className="text-blue-600 hover:underline"
             >
-              Medicare Supplement vs. Medicare Advantage: Which Is Right for You?
+              Medicare Supplement vs. Medicare Advantage: Honest Comparison
             </Link>
           </li>
         </ul>

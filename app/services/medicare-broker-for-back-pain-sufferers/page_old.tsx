@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Medicare Broker for Back Pain Sufferers",
-      item: "https://www.medicareyourself.com/services/medicare-broker-for-back-pain-sufferers",
+      item: "https://medicareyourself.com/services/medicare-broker-for-back-pain-sufferers",
     },
   ],
 };
@@ -51,7 +51,7 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
@@ -111,7 +111,7 @@ export default function MedicareBrokerForBackPainSufferers() {
           What Matters
         </h1>
         <Image
-          src="/images/medicare-broker-for-back-pain-sufferers_photo.webp"
+          src="/images/medicare-broker-for-back-pain-sufferers.webp"
           alt="Medicare broker for back pain sufferers"
           width={800}
           height={400}

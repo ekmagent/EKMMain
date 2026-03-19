@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/services",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "How to Enroll in Medicare in New Jersey",
-      item: "https://www.medicareyourself.com/services/how-to-enroll-in-medicare-in-new-jersey",
+      item: "https://medicareyourself.com/services/how-to-enroll-in-medicare-in-new-jersey",
     },
   ],
 };
@@ -50,7 +50,7 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
@@ -110,7 +110,7 @@ export default function HowToEnrollInMedicareInNewJersey() {
       </h1>
 
       <Image
-        src="/images/how-to-enroll-in-medicare-in-new-jersey.webp"
+        src="/images/how-to-enroll-in-medicare-in-new-jersey_photo.webp"
         alt="how to enroll in medicare in new jersey"
         width={800}
         height={400}

@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Medicare Insurance Agents in Belleville, New Jersey",
-      item: "https://www.medicareyourself.com/services/medicare-insurance-agents-in-belleville-new-jersey",
+      item: "https://medicareyourself.com/services/medicare-insurance-agents-in-belleville-new-jersey",
     },
   ],
 };
@@ -51,42 +51,41 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-01-01",
-  dateModified: "2025-01-01",
+  datePublished: "2025-07-01",
+  dateModified: "2025-07-01",
 };
 
 const faqs = [
   {
-    question: "What is the best Medicare plan in New Jersey?",
+    question: "Do Medicare insurance agents charge for their help?",
     answer:
-      "There is no single best plan for everyone. The right choice depends on your doctors, prescriptions, and budget. Medigap Plan G is the most popular supplement in New Jersey for 2026 because it covers nearly all out-of-pocket costs after the $257 Part B deductible. Medicare Advantage plans work well for people who want low premiums and are comfortable using a provider network. An independent broker can compare both options side by side at no cost to you.",
+      "No. Licensed Medicare brokers like Anthony Orner are paid by the insurance carriers, not by you. Plan comparisons, enrollment help, and ongoing support are free to Belleville residents.",
   },
   {
     question: "Should I use an insurance agent for Medicare?",
     answer:
-      "Yes, especially an independent broker who is not tied to one carrier. Independent agents compare plans from multiple insurance companies, so you see the full picture. The best part: Medicare brokers are paid by the carriers, not by you. There is zero cost for the help.",
+      "An independent broker compares plans from multiple carriers at once, which saves you hours of research. Captive agents only show one company's options. Independent brokers show you the full picture so you pick what actually fits your doctors, prescriptions, and budget.",
   },
   {
-    question: "Where to apply for Medicare in New Jersey?",
+    question: "How can I get help with Medicare premiums in New Jersey?",
     answer:
-      "You can apply for Original Medicare (Parts A and B) through the Social Security Administration at ssa.gov or your local Social Security office. For Medigap or Medicare Advantage plans, a licensed broker like Anthony Orner can walk you through applications by phone or video. Call 855-559-1700 to get started.",
+      "New Jersey offers programs like NJ PAAD (Pharmaceutical Assistance to the Aged and Disabled) and the Medicare Savings Programs, which can help cover Part B premiums and drug costs. Anthony can walk you through eligibility during your free consultation.",
   },
   {
-    question:
-      "When is the Medigap open enrollment period in New Jersey?",
+    question: "What is the highest reviewed Medicare insurance in NJ?",
     answer:
-      "Your Medigap Open Enrollment Period lasts 6 months, starting the month you turn 65 and are enrolled in Part B. During this window, carriers must accept you regardless of health history, with no higher premiums. Missing this window means you could face medical underwriting later.",
+      "Plan ratings change yearly. In Essex County, several Medicare Advantage and Medigap carriers earn 4+ stars from CMS. The best plan depends on your specific doctors, medications, and how often you travel. A broker can match you based on your actual situation, not just star ratings.",
   },
 ];
 
-export default function MedicareInsuranceAgentsBellevilleNJ() {
+export default function MedicareInsuranceAgentsBellevilleNewJersey() {
   return (
     <main className="max-w-4xl mx-auto px-4 py-8">
       <SchemaMarkup schema={breadcrumbSchema} />
@@ -106,156 +105,166 @@ export default function MedicareInsuranceAgentsBellevilleNJ() {
         </span>
       </nav>
 
-      <h1 className="text-3xl font-bold mb-4">
-        Medicare Insurance Agents in Belleville, New Jersey: Independent Broker Serving Essex County
+      <h1 className="text-3xl md:text-4xl font-bold mb-4">
+        Medicare Insurance Agents in Belleville, New Jersey: Independent Broker
+        Serving Essex County
       </h1>
 
       <Image
-        src="/images/medicare-insurance-agents-in-belleville-new-jersey.webp"
+        src="/images/hub_medicare-insurance-agents-in-belleville-new-jersey.webp"
         alt="Medicare insurance agents in Belleville New Jersey"
         width={800}
         height={400}
-        className="rounded-lg mb-6 w-full"
+        className="w-full rounded-lg mb-6"
+        priority
       />
 
       <p className="text-lg mb-2">
-        Medicare insurance agents in Belleville, New Jersey can make the difference between overpaying for coverage and finding a plan that actually fits your budget. I'm Anthony Orner, an independent Medicare broker licensed in New Jersey, and I work with Belleville residents every enrollment season to compare plans from multiple carriers - at no cost.
+        Medicare insurance agents in Belleville, New Jersey don't all work the same way. Some represent a single carrier. I'm Anthony Orner, an independent broker who compares plans from multiple companies so Belleville residents see real options side by side.
       </p>
-      <p className="mb-6">
-        Whether you're turning 65 or reviewing your current coverage, a quick call can show you options you didn't know existed.
+      <p className="text-lg mb-6">
+        No cost to you. No pressure. Just honest answers about what covers your doctors and prescriptions in 07109.
       </p>
 
       <PhoneCTA />
 
-      <section className="mt-10 mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
           Belleville Medicare demographics and why plan choice matters here
         </h2>
-        <p className="mb-2">
-          Belleville sits in Essex County, one of the most densely populated counties in New Jersey. That density means more carriers compete for your business. More competition means better rates and more plan options for you.
+        <p className="mb-3">
+          Belleville sits in Essex County, one of the most densely populated counties in New Jersey. That density means more carrier competition, which is good news for you. More carriers means more plan options and sharper pricing.
         </p>
         <p>
-          With the 2026 Part B premium at $185/month and the Part A deductible at $1,676 per benefit period, out-of-pocket costs add up fast if you only have Original Medicare. Choosing the right supplement or Advantage plan protects you from those gaps.
+          Many Belleville residents rely on Clara Maass Medical Center in neighboring Belleville or hospitals in Newark and Montclair. Your plan needs to include the providers you actually use. I check network directories before recommending anything.
         </p>
       </section>
 
-      <section className="mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
           Medigap and Medicare Advantage carriers available in 07109
         </h2>
-        <p className="mb-2">
-          Belleville's 07109 zip code has access to a strong mix of both Medigap and Medicare Advantage options. On the Medigap side, popular carriers in Essex County include Aetna, Cigna, Mutual of Omaha, and United American, among others.
+        <p className="mb-3">
+          Belleville's zip code typically has access to:
         </p>
-        <ul className="list-disc pl-6 mb-2 space-y-1">
-          <li>Medigap Plan G - covers everything except the $257 annual Part B deductible</li>
-          <li>Medigap Plan N - lower premiums with small copays at office visits</li>
-          <li>Medicare Advantage (Part C) - $0 premium options with network-based coverage</li>
-          <li>Part D prescription drug plans - standalone options if you choose a Medigap supplement</li>
+        <ul className="list-disc pl-6 space-y-2 mb-3">
+          <li>
+            <strong>Medigap (Medicare Supplement):</strong> Carriers like Aetna, Cigna, United American, and Mutual of Omaha offer Plans G and N in Essex County. Rates vary by carrier, age, and tobacco use.
+          </li>
+          <li>
+            <strong>Medicare Advantage:</strong> Aetna, Horizon, UnitedHealthcare, and Humana typically offer HMO and PPO options in 07109, often with $0 premiums and added dental/vision benefits.
+          </li>
+          <li>
+            <strong>Part D:</strong> Standalone drug plans pair with Medigap. I run your medications through every available formulary to find the lowest annual cost.
+          </li>
         </ul>
-        <p>
-          Rates vary by carrier, age, and tobacco status. I pull quotes from all available carriers so you see the real numbers.
-        </p>
       </section>
 
-      <section className="mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
           How an independent broker saves Belleville residents money
         </h2>
-        <p className="mb-2">
-          A captive agent works for one insurance company. I don't. As an independent broker, I compare plans across every carrier available in 07109. The plan you see from me costs the same as buying direct - carriers set the prices, not agents.
+        <p className="mb-3">
+          A captive agent shows you one company's lineup. I show you plans from all the major carriers in Essex County. Same enrollment, same coverage, but you actually see what's available.
         </p>
         <p>
-          The difference is that you get an honest side-by-side comparison instead of a sales pitch for one company's product. My compensation comes from the carrier, so my service costs you nothing.
+          One common mistake: people pick a Medicare Advantage plan without checking if their specialists are in-network. Provider networks shift every year. I verify your doctors and pharmacies before enrollment, and I re-check them each Annual Enrollment Period (October 15 through December 7).
         </p>
       </section>
 
-      <section className="mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
-          Turning 65 in Belleville? Lock in your Medigap rate early
+          2026 Medicare costs Belleville residents should know
         </h2>
-        <p className="mb-2">
-          Your Medigap Open Enrollment Period lasts 6 months from the month you turn 65 and have Part B. During this window, no health questions, no higher premiums. This is your best shot at the lowest rate.
-        </p>
-        <p>
-          My practice is to have clients apply up to 6 months before their Part B start date. Locking in early protects you from premium increases before coverage even begins. The sooner you start, the better your rate.
+        <ul className="list-disc pl-6 space-y-2">
+          <li>Part B premium: $202.90/month</li>
+          <li>Part B deductible: $283/year</li>
+          <li>Part A inpatient deductible: $1,676 per benefit period</li>
+          <li>Skilled nursing facility coinsurance (days 21-100): $209.50/day</li>
+          <li>Part B late enrollment penalty: 10% for every 12 months you delayed</li>
+        </ul>
+        <p className="mt-3">
+          These out-of-pocket costs are exactly why most Belleville residents choose either a Medigap plan or a Medicare Advantage plan. Going with Original Medicare alone leaves real financial gaps.
         </p>
       </section>
 
-      <section className="mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
-          Medicare Advantage open enrollment dates for 2026
+          Medigap enrollment timing for Belleville residents turning 65
         </h2>
-        <p className="mb-2">
-          If you prefer a Medicare Advantage plan, the Annual Enrollment Period runs October 15 through December 7. During this window you can switch Advantage plans or move between Advantage and Original Medicare.
+        <p className="mb-3">
+          Your Medigap Open Enrollment Period lasts 6 months, starting the month you turn 65 and are enrolled in Part B. During this window, carriers can't deny you or charge more for health conditions. Miss it, and you may face medical underwriting.
         </p>
         <p>
-          Already on an Advantage plan that's not working? The Medicare Advantage Open Enrollment Period from January 1 through March 31 lets you make one change.
+          I tell clients to start planning about 6 months before their Part B effective date. That gives us time to compare rates without rushing.
         </p>
       </section>
 
-      <section className="mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
-          Schedule a free Medicare consultation - phone or video
+          Schedule a free Medicare consultation by phone or video
         </h2>
-        <p className="mb-2">
-          I work with Belleville residents by phone, video, or in person. A typical consultation takes about 20 minutes. You'll walk away with clear numbers and a recommendation based on your doctors, medications, and budget.
+        <p className="mb-3">
+          I work with Belleville residents by phone, video, or in person. Most consultations take about 20 minutes. I'll ask about your doctors, medications, and how you use healthcare. Then I'll show you what actually makes sense.
         </p>
         <p>
-          No obligation. No pressure. Just the facts you need to make a smart decision.
+          No sign-up required. No obligation. Call 855-559-1700 or book online.
         </p>
       </section>
 
-      <div className="bg-blue-600 text-white rounded-lg p-6 text-center my-10">
-        <p className="text-xl font-bold mb-2">
-          Ready to compare Medicare plans in Belleville?
+      <div className="mt-10 bg-blue-600 text-white rounded-lg p-8 text-center">
+        <p className="text-2xl font-bold mb-3">
+          Talk to a Licensed Medicare Broker — Free
         </p>
-        <p className="mb-4">
+        <p className="text-lg mb-4">
           Call{" "}
-          <a href="tel:8555591700" className="underline font-bold">
+          <a href="tel:8555591700" className="underline font-semibold">
             855-559-1700
           </a>{" "}
           or{" "}
-          <Link href="/contact" className="underline font-bold">
+          <Link href="/get-a-free-quote" className="underline font-semibold">
             Get a Free Quote
           </Link>
         </p>
       </div>
 
-      <FAQSection faqs={faqs} />
+      <section className="mt-12">
+        <FAQSection faqs={faqs} />
+      </section>
 
-      <section className="mt-10">
+      <section className="mt-12">
         <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
         <ul className="space-y-2">
           <li>
             <Link
-              href="/medicare-guides/medigap-plan-g-new-jersey"
+              href="/medicare-guides/medigap-plan-g-vs-plan-n"
               className="text-blue-600 hover:underline"
             >
-              Medigap Plan G in New Jersey: What It Covers and What It Costs
+              Medigap Plan G vs. Plan N: Which Saves You More?
             </Link>
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-advantage-essex-county"
+              href="/medicare-guides/medicare-advantage-vs-medigap"
               className="text-blue-600 hover:underline"
             >
-              Medicare Advantage Plans in Essex County
+              Medicare Advantage vs. Medigap: How to Decide
             </Link>
           </li>
           <li>
             <Link
-              href="/medicare-guides/when-to-enroll-in-medicare-nj"
+              href="/services/medicare-insurance-agents-in-essex-county-new-jersey"
               className="text-blue-600 hover:underline"
             >
-              When to Enroll in Medicare in New Jersey
+              Medicare Insurance Agents in Essex County, New Jersey
             </Link>
           </li>
           <li>
             <Link
-              href="/medicare-guides/medigap-vs-medicare-advantage-nj"
+              href="/medicare-guides/new-jersey-medicare-savings-programs"
               className="text-blue-600 hover:underline"
             >
-              Medigap vs. Medicare Advantage in NJ
+              New Jersey Medicare Savings Programs: Eligibility and How to Apply
             </Link>
           </li>
         </ul>

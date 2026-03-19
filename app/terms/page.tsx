@@ -19,7 +19,7 @@ export default function TermsPage() {
       <div className="prose prose-gray max-w-none text-gray-700 leading-relaxed space-y-6">
         <h2 className="text-xl font-bold text-gray-900">Acceptance of Terms</h2>
         <p>
-          By accessing and using <strong>www.medicareyourself.com</strong> (&quot;the
+          By accessing and using <strong>medicareyourself.com</strong> (&quot;the
           Site&quot;), you agree to these Terms of Service. If you do not agree, please do not
           use the Site.
         </p>

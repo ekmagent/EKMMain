@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare",
+      item: "https://medicareyourself.com/medicare",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Medicare Advantage Agents Near Me",
-      item: "https://www.medicareyourself.com/services/medicare-advantage-agents-near-me",
+      item: "https://medicareyourself.com/services/medicare-advantage-agents-near-me",
     },
   ],
 };
@@ -50,7 +50,7 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
@@ -111,7 +111,7 @@ export default function MedicareAdvantageAgentsNearMe() {
         </h1>
 
         <Image
-          src="/images/medicare-advantage-agents-near-me.webp"
+          src="/images/medicare-advantage-agents-near-me_vector.webp"
           alt="Medicare Advantage agents near me"
           width={800}
           height={400}

@@ -7,12 +7,12 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 
 export const metadata: Metadata = {
   title:
-    "Find a Medicare Agent in Neptune NJ | Free No-Obligation Help | MedicareYourself",
+    "find a medicare agent in neptune nj | Free No-Obligation Help | MedicareYourself",
   description:
     "Find a Medicare agent in Neptune NJ for unbiased plan comparisons across top carriers. Anthony Orner offers free, licensed help for Monmouth County residents.",
   openGraph: {
     title:
-      "Find a Medicare Agent in Neptune NJ | Free No-Obligation Help | MedicareYourself",
+      "find a medicare agent in neptune nj | Free No-Obligation Help | MedicareYourself",
     description:
       "Find a Medicare agent in Neptune NJ for unbiased plan comparisons across top carriers. Anthony Orner offers free, licensed help for Monmouth County residents.",
   },
@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Find a Medicare Agent in Neptune NJ",
-      item: "https://www.medicareyourself.com/services/find-a-medicare-agent-in-neptune-nj",
+      item: "https://medicareyourself.com/services/find-a-medicare-agent-in-neptune-nj",
     },
   ],
 };
@@ -50,7 +50,7 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
@@ -63,34 +63,34 @@ const articleSchema = {
 
 const faqs = [
   {
-    question: "How to pick a Medicare agent?",
+    question: "How do I pick the right Medicare agent?",
     answer:
-      "Look for a licensed, independent broker who represents multiple carriers rather than just one company. An independent agent can compare plans side by side and recommend coverage based on your doctors, prescriptions, and budget. Always confirm they are licensed in New Jersey and that their services are free to you.",
+      "Look for an independent broker licensed in New Jersey who works with multiple carriers, not just one. Ask if they charge a fee (they shouldn't). A good agent will compare plans side by side, explain the tradeoffs honestly, and never pressure you into a decision.",
   },
   {
-    question: "Does Medicare have a local office?",
+    question: "Should I use an insurance agent for Medicare?",
     answer:
-      "Medicare itself does not have local offices you can walk into. The Social Security Administration handles Medicare enrollment at local offices, and there is an SSA office in Freehold serving Monmouth County residents. For plan comparisons and enrollment help, a licensed local broker like Anthony Orner can meet with you in Neptune or by phone.",
+      "Yes. A licensed Medicare agent costs you nothing. Carriers pay the broker directly, so you get the same plan at the same price whether you enroll alone or with professional help. The difference is you get someone who can sort through dozens of options and flag what actually fits your doctors and prescriptions.",
   },
   {
-    question: "How do I speak to a live person at Medicare?",
+    question: "What Medicare plans are available in Neptune, NJ?",
     answer:
-      "You can call 1-800-MEDICARE (1-800-633-4227) 24 hours a day, 7 days a week. TTY users can call 1-877-486-2048. For personalized help choosing between plans available in Neptune Township, call a licensed broker at 855-559-1700 for free, no-obligation guidance.",
+      "Neptune Township falls in Monmouth County, which has access to Medicare Advantage plans, Medigap (Medicare Supplement) policies, and standalone Part D drug plans from multiple carriers. Availability and rates vary by ZIP code, so a local comparison is the best way to see your options.",
   },
   {
-    question: "Is there a cost for using a Medicare agent in Neptune?",
+    question: "When should I contact a Medicare agent if I'm turning 65?",
     answer:
-      "No. Licensed Medicare brokers are paid by the insurance carriers, not by you. You pay the same premium whether you enroll directly with a carrier or through an agent. Working with an agent gives you expert guidance at zero extra cost.",
+      "Start at least three months before your 65th birthday. Your Initial Enrollment Period runs from three months before to three months after your birth month. For Medigap, your six-month open enrollment window starts the month you turn 65 and are enrolled in Part B.",
   },
 ];
 
 export default function FindMedicareAgentNeptuneNJ() {
   return (
-    <main className="max-w-4xl mx-auto px-4 py-8">
+    <>
       <SchemaMarkup schema={breadcrumbSchema} />
       <SchemaMarkup schema={articleSchema} />
 
-      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
+      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-4">
         <Link href="/" className="hover:underline">
           Home
         </Link>{" "}
@@ -99,173 +99,173 @@ export default function FindMedicareAgentNeptuneNJ() {
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
-        <span className="text-gray-700">Find a Medicare Agent in Neptune NJ</span>
+        <span className="text-gray-700">
+          Find a Medicare Agent in Neptune NJ
+        </span>
       </nav>
 
-      <h1 className="text-3xl md:text-4xl font-bold mb-4">
-        Find a Medicare Agent in Neptune, NJ Who Puts Your Interests First
-      </h1>
+      <article className="max-w-3xl mx-auto">
+        <h1 className="text-3xl md:text-4xl font-bold mb-4">
+          Find a Medicare Agent in Neptune, NJ Who Puts Your Interests First
+        </h1>
 
-      <Image
-        src="/images/find-a-medicare-agent-in-neptune-nj.webp"
-        alt="Find a Medicare agent in Neptune NJ"
-        width={800}
-        height={400}
-        className="rounded-lg mb-6 w-full"
-      />
+        <Image
+          src="/images/hub_find-a-medicare-agent-in-neptune-nj.webp"
+          alt="find a medicare agent in neptune nj"
+          width={800}
+          height={400}
+          className="w-full rounded-lg mb-6"
+          priority
+        />
 
-      <p className="text-lg mb-2">
-        Finding a Medicare agent in Neptune, NJ starts with knowing what to look for: independence, local knowledge, and zero pressure. I'm Anthony Orner, a licensed Medicare broker serving Neptune Township and all of Monmouth County.
-      </p>
-      <p className="text-lg mb-6">
-        My help is completely free. I work with multiple carriers so you see real options, not a sales pitch for one company.
-      </p>
+        <p className="text-lg mb-2">
+          Finding a Medicare agent in Neptune, NJ shouldn't feel like a second job. You need someone local who knows Monmouth County's provider networks and will show you every option, not just the one that pays them the highest commission.
+        </p>
+        <p className="text-lg mb-6">
+          I'm Anthony Orner, an independent licensed Medicare broker. I work with you at no cost and represent multiple carriers so the recommendation is always about your situation, not mine.
+        </p>
 
-      <PhoneCTA />
+        <PhoneCTA />
 
-      <section className="mt-10 mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          How an independent broker serves Neptune Township differently
-        </h2>
-        <p className="mb-2">
-          A captive agent works for one insurance company. They can only show you what that company sells. An independent broker like me is contracted with 18+ carriers across Monmouth County.
-        </p>
-        <p>
-          That means I compare Medicare Supplement, Medicare Advantage, and Part D plans from every major carrier available in your zip code. You get the full picture, and you choose what fits.
-        </p>
-      </section>
+        <section className="mt-10">
+          <h2 className="text-2xl font-semibold mb-3">
+            How an independent broker serves Neptune Township differently
+          </h2>
+          <p className="mb-3">
+            A captive agent sells one company's plans. I compare plans across carriers side by side. That means if one insurer drops your cardiologist at Jersey Shore University Medical Center or raises your Part D copay, I can move you to something better.
+          </p>
+          <p>
+            You pay nothing for my help. Carriers pay brokers directly, and your premium stays the same whether you enroll on your own or through me.
+          </p>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Plans and carriers available in Monmouth County
-        </h2>
-        <p className="mb-2">
-          Neptune residents in the 07753 zip code have access to a wide range of options. Here's what I typically compare for clients:
-        </p>
-        <ul className="list-disc pl-6 space-y-1 mb-2">
-          <li>Medicare Supplement (Medigap) Plans G and N from carriers like Aetna, Cigna, Mutual of Omaha, and United American</li>
-          <li>Medicare Advantage PPO and HMO plans with $0 premium options</li>
-          <li>Standalone Part D prescription drug plans</li>
-          <li>Dental, vision, and hearing coverage add-ons</li>
-        </ul>
-        <p>
-          Rates vary by carrier, age, and tobacco status. I'll pull live quotes so you can compare actual numbers, not guesses.
-        </p>
-      </section>
+        <section className="mt-10">
+          <h2 className="text-2xl font-semibold mb-3">
+            Plans and carriers available in Monmouth County
+          </h2>
+          <p className="mb-2">Neptune Township residents (ZIP codes 07753, 07754) typically have access to:</p>
+          <ul className="list-disc pl-6 space-y-1 mb-3">
+            <li>Medicare Advantage (HMO and PPO) from multiple national and regional carriers</li>
+            <li>Medigap/Medicare Supplement plans (Plans A through N)</li>
+            <li>Standalone Part D prescription drug plans</li>
+          </ul>
+          <p>
+            Rates vary by carrier and ZIP code. A quick comparison call takes about 15 minutes and covers all of them.
+          </p>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Turning 65 in Neptune? Here's your enrollment timeline
-        </h2>
-        <p className="mb-2">
-          Your Medigap Open Enrollment Period lasts 6 months. It starts the month you turn 65 and are enrolled in Part B. During this window, no carrier in New Jersey can deny you or charge more for health conditions.
-        </p>
-        <p className="mb-2">
-          My practice is to have clients apply for their Medigap plan up to 6 months before their Part B start date. This locks in your rate early, protecting you from premium increases before coverage even begins. The sooner you lock in, the better your rate.
-        </p>
-        <p>
-          Don't wait until the last month. Call me when you're 6 months out from turning 65.
-        </p>
-      </section>
+        <section className="mt-10">
+          <h2 className="text-2xl font-semibold mb-3">
+            Turning 65 in Neptune? Here's your enrollment timeline
+          </h2>
+          <p className="mb-3">
+            Your Initial Enrollment Period starts three months before your 65th birthday and ends three months after. Miss it and you risk a Part B late enrollment penalty of 10% for every 12-month period you delayed.
+          </p>
+          <p className="mb-3">
+            For Medigap, your six-month open enrollment window begins the month you're both 65 and enrolled in Part B. During this window, carriers can't deny you or charge more for health conditions. After it closes, underwriting applies.
+          </p>
+          <p>
+            The 2026 Part B premium is $202.90/month. The Part B deductible is $283/year. The Part A deductible is $1,676 per benefit period.
+          </p>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          What working with me actually looks like
-        </h2>
-        <p className="mb-2">
-          Here's the process, start to finish:
-        </p>
-        <ul className="list-decimal pl-6 space-y-1">
-          <li>You call or fill out the quote form. Takes 2 minutes.</li>
-          <li>I ask about your doctors, medications, and budget.</li>
-          <li>I pull quotes from every carrier available in Neptune and present your options.</li>
-          <li>You pick the plan that makes sense. No pressure, no deadline tricks.</li>
-        </ul>
-      </section>
+        <section className="mt-10">
+          <h2 className="text-2xl font-semibold mb-3">
+            Why carrier network changes matter here
+          </h2>
+          <p className="mb-3">
+            Healthcare in New Jersey moves fast. Hospitals and insurers renegotiate contracts regularly, and when a major system stops accepting a carrier, you can get caught off guard. That's exactly the kind of disruption an independent broker watches for on your behalf.
+          </p>
+          <p>
+            If your doctors are at Hackensack Meridian (which operates Jersey Shore University Medical Center in Neptune), I'll confirm network status before recommending any plan.
+          </p>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          2026 Medicare costs Neptune residents should know
-        </h2>
-        <ul className="list-disc pl-6 space-y-1">
-          <li>Part B premium: $185/month</li>
-          <li>Part B deductible: $257/year</li>
-          <li>Part A deductible: $1,676 per benefit period</li>
-          <li>Skilled nursing coinsurance (days 21-100): $209.50/day</li>
-          <li>Part B late enrollment penalty: 10% for each 12-month period you delayed</li>
-        </ul>
-        <p className="mt-2">
-          These out-of-pocket costs add up fast. A Medigap plan or Medicare Advantage plan can protect you from surprise bills.
-        </p>
-      </section>
+        <section className="mt-10">
+          <h2 className="text-2xl font-semibold mb-3">
+            Annual enrollment and plan reviews
+          </h2>
+          <p className="mb-3">
+            Medicare Advantage and Part D Open Enrollment runs October 15 through December 7 each year. I review your current plan against new options every fall to check for formulary changes, premium shifts, or better copay structures.
+          </p>
+          <p>
+            This isn't a one-time relationship. Your needs change, and your plan should keep up.
+          </p>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Get a free Medicare quote from Anthony Orner
-        </h2>
-        <p className="mb-2">
-          I live and work in New Jersey. I know the carriers, the local hospitals, and the plans that actually work for Monmouth County residents. Whether you're in Neptune Township, Neptune City, or nearby Ocean Grove, I can help.
-        </p>
-        <p>
-          Call me at 855-559-1700 or request a quote online. There's no cost, no obligation, and no spam.
-        </p>
-      </section>
+        <section className="mt-10">
+          <h2 className="text-2xl font-semibold mb-3">
+            Get a free Medicare quote from Anthony Orner
+          </h2>
+          <p className="mb-3">
+            One phone call. No obligation. I'll ask about your doctors, prescriptions, and budget, then show you what's available in Neptune Township so you can decide with real information.
+          </p>
+        </section>
 
-      <div className="bg-blue-600 text-white rounded-lg p-6 text-center mb-10">
-        <p className="text-xl font-semibold mb-2">
-          Ready to compare Medicare plans in Neptune?
-        </p>
-        <p className="mb-4">
-          Call{" "}
-          <a href="tel:8555591700" className="underline font-bold">
-            855-559-1700
-          </a>{" "}
-          or{" "}
-          <Link href="/quote" className="underline font-bold">
-            Get a Free Quote
-          </Link>
-        </p>
-      </div>
-
-      <FAQSection faqs={faqs} />
-
-      <section className="mt-10">
-        <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
-        <ul className="space-y-2">
-          <li>
-            <Link
-              href="/medicare-guides/turning-65-medicare-nj"
-              className="text-blue-600 hover:underline"
+        <div className="mt-10 bg-blue-600 text-white rounded-lg p-6 text-center">
+          <p className="text-xl font-semibold mb-2">
+            Ready for a free Medicare comparison?
+          </p>
+          <p className="text-lg mb-4">
+            Call{" "}
+            <a
+              href="tel:8555591700"
+              className="underline font-bold"
             >
-              Turning 65 and Medicare in New Jersey
-            </Link>
-          </li>
-          <li>
+              855-559-1700
+            </a>{" "}
+            or{" "}
             <Link
-              href="/medicare-guides/medicare-plan-g-nj"
-              className="text-blue-600 hover:underline"
+              href="/get-a-free-quote"
+              className="underline font-bold"
             >
-              Medicare Plan G in NJ: Benefits, Costs, and Eligibility
+              Get a Free Quote
             </Link>
-          </li>
-          <li>
-            <Link
-              href="/medicare-guides/medicare-supplement-vs-advantage-nj"
-              className="text-blue-600 hover:underline"
-            >
-              Medicare Supplement vs. Medicare Advantage in NJ
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/services/medicare-broker-monmouth-county-nj"
-              className="text-blue-600 hover:underline"
-            >
-              Medicare Broker in Monmouth County, NJ
-            </Link>
-          </li>
-        </ul>
-      </section>
-    </main>
+          </p>
+        </div>
+
+        <section className="mt-10">
+          <FAQSection faqs={faqs} />
+        </section>
+
+        <section className="mt-10">
+          <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
+          <ul className="space-y-2">
+            <li>
+              <Link
+                href="/medicare-guides/medicare-supplement-plans-nj"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare Supplement Plans in New Jersey
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/medicare-guides/medicare-advantage-monmouth-county"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare Advantage in Monmouth County
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/medicare-guides/turning-65-medicare-checklist"
+                className="text-blue-600 hover:underline"
+              >
+                Turning 65 Medicare Checklist
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/medicare-guides/medicare-part-d-nj"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare Part D Plans in NJ
+              </Link>
+            </li>
+          </ul>
+        </section>
+      </article>
+    </>
   );
 }

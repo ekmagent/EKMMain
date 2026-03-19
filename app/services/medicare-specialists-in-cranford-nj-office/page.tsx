@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Medicare Specialists in Cranford, NJ Office",
-      item: "https://www.medicareyourself.com/services/medicare-specialists-in-cranford-nj-office",
+      item: "https://medicareyourself.com/services/medicare-specialists-in-cranford-nj-office",
     },
   ],
 };
@@ -51,49 +51,47 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  mainEntityOfPage:
-    "https://www.medicareyourself.com/services/medicare-specialists-in-cranford-nj-office",
+  datePublished: "2025-07-01",
+  dateModified: "2025-07-01",
 };
 
 const faqs = [
   {
-    question:
-      "Does it cost anything to work with a Medicare specialist in Cranford?",
+    question: "What services are offered by a Medicare specialist in Cranford?",
     answer:
-      "No. Licensed Medicare brokers are paid by the insurance carriers, not by you. There is no fee for consultations, plan comparisons, or enrollment assistance.",
+      "A licensed Medicare specialist in Cranford can help you compare Medicare Supplement (Medigap), Medicare Advantage (Part C), Part D prescription drug plans, dental, vision, and hearing coverage. Anthony Orner works independently across multiple carriers so recommendations are based on your needs, not one company's product line.",
   },
   {
-    question:
-      "What is the difference between a Medicare specialist and a general insurance agent?",
+    question: "What is the phone number for Medicare help in New Jersey?",
     answer:
-      "A Medicare specialist focuses exclusively on Medicare coverage options like Supplement plans, Advantage plans, and Part D. A general agent may sell auto, home, and other insurance lines and may not stay current on annual Medicare changes.",
+      "For official Medicare questions, call 1-800-MEDICARE (1-800-633-4227). For free local broker help comparing plans in Union County, call Anthony Orner at 855-559-1700.",
   },
   {
-    question: "Can I meet with a broker in person near Cranford?",
+    question: "Does it cost anything to work with a Medicare broker in Cranford?",
     answer:
-      "Yes. Anthony Orner serves Union County and the Cranford area and is available for in-person meetings, phone calls, or video consultations. Call 855-559-1700 to set up an appointment.",
+      "No. Licensed Medicare brokers are compensated by the insurance carriers, not by you. There's no fee for consultations, plan comparisons, or enrollment assistance.",
   },
   {
-    question: "When should I contact a Medicare specialist before turning 65?",
+    question: "When should I start looking at Medicare plans before I turn 65?",
     answer:
-      "Ideally, reach out at least 6 months before your Part B start date. This gives you time to compare plans and, if you choose a Medigap policy, lock in your rate early during your Open Enrollment Period.",
+      "If you're interested in a Medigap plan, apply about 6 months before your Part B start date. Your Medigap Open Enrollment Period is the 6 months starting the month you turn 65 and are enrolled in Part B. During this window, carriers can't deny you or charge more based on health history.",
   },
 ];
 
-export default function MedicareSpecialistsCranfordNJ() {
+export default function MedicareSpecialistsCranfordNJOffice() {
   return (
-    <main className="max-w-4xl mx-auto px-4 py-8">
+    <>
       <SchemaMarkup schema={breadcrumbSchema} />
       <SchemaMarkup schema={articleSchema} />
 
-      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
+      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-4">
         <Link href="/" className="hover:underline">
           Home
         </Link>{" "}
@@ -107,203 +105,169 @@ export default function MedicareSpecialistsCranfordNJ() {
         </span>
       </nav>
 
-      <h1 className="text-3xl font-bold mb-4">
-        Medicare Specialists in Cranford, NJ: Licensed Broker Serving Union
-        County
-      </h1>
+      <article className="max-w-3xl mx-auto px-4 py-8">
+        <h1 className="text-3xl md:text-4xl font-bold mb-4">
+          Medicare Specialists in Cranford, NJ: Licensed Broker Serving Union County
+        </h1>
 
-      <Image
-        src="/images/medicare-specialists-in-cranford-nj-office.webp"
-        alt="Medicare specialists in Cranford, NJ office"
-        width={800}
-        height={400}
-        className="rounded-lg mb-6 w-full"
-      />
+        <Image
+          src="/images/hub_medicare-specialists-in-cranford-nj-office.webp"
+          alt="Medicare specialists in Cranford, NJ office"
+          width={800}
+          height={400}
+          className="w-full rounded-lg mb-6"
+          priority
+        />
 
-      <p className="text-lg mb-2">
-        Medicare specialists in Cranford, NJ help you cut through the confusion
-        of plan choices so you pick coverage that actually fits your doctors,
-        prescriptions, and budget. I'm Anthony Orner, a licensed independent
-        broker serving Union County residents.
-      </p>
-      <p className="mb-6">
-        Whether you're turning 65 or reviewing a plan that no longer works, I
-        compare options across multiple carriers at no cost to you.
-      </p>
-
-      <PhoneCTA />
-
-      <section className="mt-10 mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Why Cranford residents choose an independent Medicare specialist
-        </h2>
-        <p className="mb-2">
-          Cranford is a tight-knit Union County town with a walkable downtown and
-          easy train access to New York City. Residents here expect
-          straightforward advice, not a sales pitch.
+        <p className="text-lg mb-2">
+          Medicare specialists in Cranford, NJ help you cut through carrier noise and find the right plan for your doctors, prescriptions, and budget. I'm Anthony Orner, a licensed independent broker serving Union County. My consultations are always free.
         </p>
-        <p>
-          As an independent broker, I'm not tied to one carrier. That means I
-          show you plans from multiple insurers side by side and let you decide.
-          There is zero cost for my help because carriers pay me directly.
-        </p>
-      </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Supplement and Advantage plans available in the Cranford area
-        </h2>
-        <ul className="list-disc pl-6 space-y-2">
-          <li>
-            <strong>Medicare Supplement (Medigap):</strong> Plan G and Plan N are
-            the most popular options in New Jersey. Plan G covers everything
-            Original Medicare doesn't except the Part B deductible ($257/year in
-            2026).
-          </li>
-          <li>
-            <strong>Medicare Advantage (Part C):</strong> Several HMO and PPO
-            plans operate in the 07016 zip code, some with $0 premiums and added
-            dental, vision, and hearing benefits.
-          </li>
-          <li>
-            <strong>Part D prescription drug plans:</strong> Formularies change
-            each year. I review your medications against current plan formularies
-            to find the lowest annual cost.
-          </li>
-        </ul>
-      </section>
+        <PhoneCTA />
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Locking in your Medigap rate before Part B starts
-        </h2>
-        <p className="mb-2">
-          Your Medigap Open Enrollment Period lasts 6 months, starting the month
-          you turn 65 and are enrolled in Part B. During this window, insurers
-          cannot deny you or charge more based on health history.
-        </p>
-        <p>
-          My practice is to have clients apply up to 6 months before their Part B
-          start date. This locks in the rate early and protects you from premium
-          increases before coverage even begins. The sooner you lock in, the
-          better your rate.
-        </p>
-      </section>
+        <section className="mt-10">
+          <h2 className="text-2xl font-semibold mb-3">
+            Why Cranford residents choose an independent Medicare specialist
+          </h2>
+          <p className="mb-3">
+            Cranford sits in Union County with access to major health systems like RWJBarnabas and Trinitas Regional Medical Center. Which plans include your local doctors matters more than a TV ad.
+          </p>
+          <p>
+            An independent broker isn't locked to one carrier. I compare options across multiple insurers so you see the real tradeoffs, not just one company's pitch.
+          </p>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          How to meet with a broker by phone, video, or in person
-        </h2>
-        <p className="mb-2">
-          I work around your schedule. Pick whatever format is easiest:
-        </p>
-        <ul className="list-disc pl-6 space-y-2">
-          <li>
-            <strong>Phone:</strong> Call 855-559-1700 for a quick plan review.
-          </li>
-          <li>
-            <strong>Video:</strong> A Zoom session lets us screen-share plan
-            comparisons in real time.
-          </li>
-          <li>
-            <strong>In person:</strong> I meet Cranford and Union County clients
-            locally. Just call to arrange a time and place.
-          </li>
-        </ul>
-      </section>
+        <section className="mt-10">
+          <h2 className="text-2xl font-semibold mb-3">
+            Supplement and Advantage plans available in the Cranford area
+          </h2>
+          <ul className="list-disc pl-6 space-y-2">
+            <li>
+              <strong>Medigap (Medicare Supplement):</strong> Plans like G and N cover gaps in Original Medicare. You keep your choice of any doctor who accepts Medicare. Rates vary by carrier and age.
+            </li>
+            <li>
+              <strong>Medicare Advantage (Part C):</strong> Network-based plans that often bundle prescription drugs, dental, vision, and hearing. Some have $0 premiums, but check the provider network carefully.
+            </li>
+            <li>
+              <strong>Part D (Prescription Drug):</strong> Standalone drug plans pair with Original Medicare or Medigap. Formularies change yearly, so review your medications each fall.
+            </li>
+          </ul>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Key Medicare dates to know in 2026
-        </h2>
-        <ul className="list-disc pl-6 space-y-2">
-          <li>
-            Medicare Advantage and Part D Open Enrollment: October 15 through
-            December 7
-          </li>
-          <li>
-            Part B monthly premium: $185/month
-          </li>
-          <li>
-            Part A deductible: $1,676 per benefit period
-          </li>
-          <li>
-            Late enrollment penalty for Part B: 10% for every 12-month period you
-            delayed
-          </li>
-        </ul>
-      </section>
+        <section className="mt-10">
+          <h2 className="text-2xl font-semibold mb-3">
+            How to meet with a broker by phone, video, or in person
+          </h2>
+          <p className="mb-3">
+            I work with Cranford-area clients however it's easiest for you. Call, schedule a video session, or meet locally. Most reviews take about 20 minutes.
+          </p>
+          <p>
+            Bring your Medicare card, a list of current medications, and the names of doctors you want to keep. That's all I need to pull accurate plan comparisons.
+          </p>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Schedule a free Medicare review for Cranford, NJ
-        </h2>
-        <p className="mb-2">
-          A 15-minute call is usually all it takes to see if there's a better
-          plan for you. I'll ask about your doctors, pharmacy preferences, and
-          prescription list, then show you the options that match.
-        </p>
-        <p>
-          No obligation. No pressure. Just clear answers from a licensed broker
-          who knows Union County.
-        </p>
-      </section>
+        <section className="mt-10">
+          <h2 className="text-2xl font-semibold mb-3">
+            Key enrollment windows to know in 2026
+          </h2>
+          <ul className="list-disc pl-6 space-y-2">
+            <li>
+              <strong>Medigap Open Enrollment:</strong> 6 months starting the month you're 65+ and enrolled in Part B. This is your guaranteed-issue window. Miss it, and carriers can underwrite based on health.
+            </li>
+            <li>
+              <strong>Annual Enrollment (AEP):</strong> October 15 through December 7 for Medicare Advantage and Part D changes.
+            </li>
+            <li>
+              <strong>Part B late penalty:</strong> 10% added to your $202.90/month premium for each 12-month period you delayed without qualifying coverage.
+            </li>
+          </ul>
+        </section>
 
-      <div className="bg-blue-600 text-white rounded-lg p-6 text-center mb-10">
-        <p className="text-xl font-bold mb-2">
-          Ready to compare Medicare plans in Cranford?
-        </p>
-        <p className="mb-4">
-          Call{" "}
-          <a href="tel:8555591700" className="underline font-semibold">
-            855-559-1700
-          </a>{" "}
-          or{" "}
-          <Link href="/contact" className="underline font-semibold">
-            Get a Free Quote
-          </Link>
-        </p>
-      </div>
+        <section className="mt-10">
+          <h2 className="text-2xl font-semibold mb-3">
+            What a free Medicare review actually covers
+          </h2>
+          <p className="mb-3">
+            I check whether your current plan still fits. Carriers adjust networks, formularies, and costs every year. A plan that worked in 2025 might cost you more in 2026.
+          </p>
+          <p>
+            There's no obligation and no fee. Insurance carriers pay the broker, not you. You get the same plan at the same price whether you enroll directly or through me.
+          </p>
+        </section>
 
-      <FAQSection faqs={faqs} />
+        <section className="mt-10">
+          <h2 className="text-2xl font-semibold mb-3">
+            Schedule a free Medicare review for Cranford, NJ
+          </h2>
+          <p>
+            Call <strong>855-559-1700</strong> or request a callback below. I'll walk you through your options, answer every question, and only recommend a plan if it genuinely fits.
+          </p>
+        </section>
 
-      <section className="mt-10">
-        <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
-        <ul className="space-y-2">
-          <li>
-            <Link
-              href="/medicare-guides/medicare-supplement-plans-nj"
-              className="text-blue-600 hover:underline"
+        <div className="mt-10 bg-blue-600 text-white rounded-lg p-6 text-center">
+          <p className="text-xl font-semibold mb-2">
+            Talk to a licensed Medicare specialist today
+          </p>
+          <p className="mb-4">
+            Call{" "}
+            <a
+              href="tel:8555591700"
+              className="underline font-bold"
             >
-              Medicare Supplement Plans in New Jersey
-            </Link>
-          </li>
-          <li>
+              855-559-1700
+            </a>{" "}
+            or{" "}
             <Link
-              href="/medicare-guides/medicare-advantage-plans-nj"
-              className="text-blue-600 hover:underline"
+              href="/contact"
+              className="underline font-bold"
             >
-              Medicare Advantage Plans in NJ
+              Get a Free Quote
             </Link>
-          </li>
-          <li>
-            <Link
-              href="/medicare-guides/plan-g-vs-plan-n"
-              className="text-blue-600 hover:underline"
-            >
-              Plan G vs Plan N: Which Is Right for You?
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/medicare-guides/when-to-enroll-in-medicare"
-              className="text-blue-600 hover:underline"
-            >
-              When to Enroll in Medicare
-            </Link>
-          </li>
-        </ul>
-      </section>
-    </main>
+          </p>
+        </div>
+
+        <section className="mt-12">
+          <FAQSection faqs={faqs} />
+        </section>
+
+        <section className="mt-12">
+          <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
+          <ul className="space-y-2">
+            <li>
+              <Link
+                href="/medicare-guides/medigap-plan-g-vs-plan-n"
+                className="text-blue-600 hover:underline"
+              >
+                Medigap Plan G vs. Plan N: Which Saves You More?
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/medicare-guides/medicare-advantage-plans-nj"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare Advantage Plans in New Jersey
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/medicare-guides/medicare-part-b-enrollment"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare Part B Enrollment: Deadlines and Penalties
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/about"
+                className="text-blue-600 hover:underline"
+              >
+                About Anthony Orner, Licensed Medicare Broker
+              </Link>
+            </li>
+          </ul>
+        </section>
+      </article>
+    </>
   );
 }

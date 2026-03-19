@@ -22,11 +22,11 @@ const localBusinessSchema = {
   name: "EasyKind Medicare",
   alternateName: "MedicareYourself",
   legalName: "EasyKind Health LLC",
-  url: "https://www.medicareyourself.com",
+  url: "https://medicareyourself.com",
   telephone: "+18555591700",
   address: {
     "@type": "PostalAddress",
-    streetAddress: "1309 Route 79 West",
+    streetAddress: "1309 Route 70 West",
     addressLocality: "Cherry Hill",
     addressRegion: "NJ",
     postalCode: "08002",

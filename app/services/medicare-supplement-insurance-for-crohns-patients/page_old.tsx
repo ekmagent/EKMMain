@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/services",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Medicare Supplement Insurance for Crohn's Patients",
-      item: "https://www.medicareyourself.com/services/medicare-supplement-insurance-for-crohns-patients",
+      item: "https://medicareyourself.com/services/medicare-supplement-insurance-for-crohns-patients",
     },
   ],
 };
@@ -51,7 +51,7 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",

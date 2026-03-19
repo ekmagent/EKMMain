@@ -50,9 +50,9 @@ export default function PlanGRatesByAgeNJPage() {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.medicareyourself.com" },
-      { "@type": "ListItem", position: 2, name: "Medicare Guides", item: "https://www.medicareyourself.com/hub" },
-      { "@type": "ListItem", position: 3, name: "Plan G Rates by Age in NJ", item: "https://www.medicareyourself.com/services/plan-g-rates-by-age-new-jersey" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://medicareyourself.com" },
+      { "@type": "ListItem", position: 2, name: "Medicare Guides", item: "https://medicareyourself.com/hub" },
+      { "@type": "ListItem", position: 3, name: "Plan G Rates by Age in NJ", item: "https://medicareyourself.com/services/plan-g-rates-by-age-new-jersey" },
     ],
   };
 

@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Medicare Enrollment Help for People With Diabetes",
-      item: "https://www.medicareyourself.com/services/medicare-enrollment-help-for-people-with-diabetes",
+      item: "https://medicareyourself.com/services/medicare-enrollment-help-for-people-with-diabetes",
     },
   ],
 };
@@ -50,7 +50,7 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
@@ -111,7 +111,7 @@ export default function MedicareEnrollmentHelpDiabetes() {
       </h1>
 
       <Image
-        src="/images/medicare-enrollment-help-for-people-with-diabetes.webp"
+        src="/images/medicare-enrollment-help-for-people-with-diabetes_photo.webp"
         alt="Medicare enrollment help for people with diabetes"
         width={800}
         height={400}

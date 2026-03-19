@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Medicare Broker for Fibromyalgia Patients",
-      item: "https://www.medicareyourself.com/services/medicare-broker-for-fibromyalgia-patients",
+      item: "https://medicareyourself.com/services/medicare-broker-for-fibromyalgia-patients",
     },
   ],
 };
@@ -51,7 +51,7 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
@@ -64,254 +64,244 @@ const articleSchema = {
 
 const faqs = [
   {
-    question: "Is fibromyalgia covered by Medicare?",
+    question: "Does Medicare cover fibromyalgia treatment?",
     answer:
-      "Yes. Medicare Part B covers medically necessary doctor visits, diagnostic tests, and treatments related to fibromyalgia. Part D covers FDA-approved medications like duloxetine, pregabalin, and milnacipran, though specific formulary coverage varies by plan. The key is choosing a plan that keeps your doctors in-network and your medications affordable.",
+      "Yes. Medicare Part B covers doctor visits, diagnostic tests, and outpatient therapies for fibromyalgia. Part D covers FDA-approved medications like duloxetine, pregabalin, and milnacipran. Coverage details depend on your specific plan and formulary.",
   },
   {
-    question: "Do Medicare brokers charge you?",
+    question:
+      "Can I see a rheumatologist or pain specialist with Medicare if I have fibromyalgia?",
     answer:
-      "No. Licensed Medicare brokers like Anthony Orner are paid by the insurance carriers, not by you. There's no fee for consultations, plan comparisons, or enrollment help. The plan you get through a broker costs the same as buying it directly.",
+      "Medicare Part B covers specialist visits when referred by your primary care provider. Medicare Advantage plans may require in-network referrals. A broker can help you find plans with strong specialist networks in your area.",
   },
   {
-    question: "Is fibromyalgia a progressive disease?",
+    question:
+      "Will my fibromyalgia affect which Medigap plan I can get?",
     answer:
-      "Fibromyalgia is not considered classically progressive like MS or Parkinson's, but symptoms can worsen over time without proper management. Flare-ups, stress, and inadequate treatment can increase pain, fatigue, and cognitive symptoms. That's why having a plan that covers consistent specialist care and medications matters so much.",
+      "During your 6-month Medigap Open Enrollment Period (starting when you turn 65 and enroll in Part B), insurers cannot deny you or charge more due to fibromyalgia. Outside that window, medical underwriting may apply in most states. Timing matters.",
   },
   {
-    question: "What is the average age of people with fibromyalgia?",
+    question:
+      "How do I find a Medicare plan that covers my fibro medications?",
     answer:
-      "Fibromyalgia is most commonly diagnosed between ages 35 and 60, but many people live with it for years before getting a diagnosis. By the time you're Medicare-eligible at 65, you may have been managing symptoms for decades - which makes choosing the right coverage even more critical.",
+      "Call Anthony Orner at 855-559-1700 for a free plan comparison. He'll check your specific medications against Part D formularies so you know your costs before you enroll.",
   },
 ];
 
-export default function MedicareBrokerFibromyalgiaPage() {
+export default function MedicareBrokerForFibromyalgiaPatients() {
   return (
-    <>
+    <main className="max-w-3xl mx-auto px-4 py-8">
       <SchemaMarkup schema={breadcrumbSchema} />
       <SchemaMarkup schema={articleSchema} />
 
-      <main className="max-w-4xl mx-auto px-4 py-8">
-        <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
-          <Link href="/" className="hover:underline">
-            Home
-          </Link>{" "}
-          &gt;{" "}
-          <Link href="/medicare-guides" className="hover:underline">
-            Medicare Guides
-          </Link>{" "}
-          &gt;{" "}
-          <span className="text-gray-700">
-            Medicare Broker for Fibromyalgia Patients
-          </span>
-        </nav>
+      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
+        <Link href="/" className="hover:underline">
+          Home
+        </Link>{" "}
+        &gt;{" "}
+        <Link href="/medicare-guides" className="hover:underline">
+          Medicare Guides
+        </Link>{" "}
+        &gt;{" "}
+        <span className="text-gray-700">
+          Medicare Broker for Fibromyalgia Patients
+        </span>
+      </nav>
 
-        <h1 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900">
-          Medicare Broker for Fibromyalgia Patients — We Believe You, and We're
-          Here to Help
-        </h1>
+      <h1 className="text-3xl md:text-4xl font-bold mb-4 leading-tight">
+        Medicare Broker for Fibromyalgia Patients — We Believe You, and We're
+        Here to Help
+      </h1>
 
-        <Image
-          src="/images/medicare-broker-for-fibromyalgia-patients.webp"
-          alt="Medicare broker for fibromyalgia patients"
-          width={800}
-          height={400}
-          className="rounded-lg mb-6 w-full"
-        />
+      <Image
+        src="/images/hub_medicare-broker-for-fibromyalgia-patients.webp"
+        alt="Medicare broker for fibromyalgia patients"
+        width={800}
+        height={400}
+        className="w-full rounded-lg mb-6"
+        priority
+      />
 
-        <p className="text-lg text-gray-700 mb-2">
-          A Medicare broker for fibromyalgia patients does something most of the
-          healthcare system hasn't done for you: listen first, then find a plan
-          that actually fits your reality. I'm Anthony Orner, a licensed broker
-          in NJ, and I work with fibro patients who are tired of fighting their
-          insurance on top of fighting their symptoms.
+      <p className="text-lg mb-2">
+        A Medicare broker for fibromyalgia patients does something most people in
+        your life haven't done: take your pain at face value and build a plan
+        around it. The fatigue, the brain fog, the days you can barely get out of
+        bed. None of that is in your head.
+      </p>
+      <p className="text-lg mb-6">
+        I'm Anthony Orner, a licensed Medicare broker in New Jersey, and I help
+        people with fibro find coverage that actually works for their daily
+        reality.
+      </p>
+
+      <PhoneCTA />
+
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold mb-3">
+          Pain management, medications, and what Medicare actually covers for
+          fibro
+        </h2>
+        <p className="mb-2">
+          Medicare Part B covers outpatient visits with your primary care doctor,
+          rheumatologist, or pain management specialist. It also covers
+          diagnostic testing used to rule out other conditions.
         </p>
-        <p className="text-lg text-gray-700 mb-6">
-          The pain is real. The fatigue is real. The brain fog is real. Your
-          coverage should reflect that.
+        <p className="mb-2">
+          Part D covers FDA-approved fibromyalgia medications including
+          pregabalin (Lyrica), duloxetine (Cymbalta), and milnacipran (Savella).
+          Formularies vary by plan. The wrong Part D plan could stick you with
+          tier-3 copays on a drug you take every single day.
         </p>
+      </section>
 
-        <PhoneCTA />
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold mb-3">
+          How fibromyalgia affects your Medigap and Advantage options
+        </h2>
+        <p className="mb-2">
+          If you're turning 65 and enrolling in Part B, your 6-month Medigap
+          Open Enrollment Period is critical. During that window, no carrier can
+          deny you or increase your premium because of fibromyalgia. Miss it, and
+          medical underwriting kicks in.
+        </p>
+        <p className="mb-2">
+          Medicare Advantage plans can work well for fibro patients who need
+          built-in drug coverage and specialist access. But network restrictions
+          matter. I'll check whether your current providers are in-network before
+          you commit to anything.
+        </p>
+      </section>
 
-        <section className="mt-10">
-          <h2 className="text-2xl font-semibold mb-3 text-gray-900">
-            Pain management, medications, and what Medicare actually covers for
-            fibro
-          </h2>
-          <p className="text-gray-700 mb-3">
-            Medicare Part B covers doctor visits, rheumatology referrals, and
-            medically necessary treatments for fibromyalgia. Part D covers
-            FDA-approved fibro medications like pregabalin (Lyrica), duloxetine
-            (Cymbalta), and milnacipran (Savella) - but every Part D plan has a
-            different formulary, and tier placement affects what you actually
-            pay.
-          </p>
-          <p className="text-gray-700">
-            I check your specific prescriptions against plan formularies before
-            we pick anything. No surprises at the pharmacy counter.
-          </p>
-        </section>
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold mb-3">
+          The hidden costs of brain fog, fatigue, and specialist visits
+        </h2>
+        <p className="mb-2">
+          Fibromyalgia rarely travels alone. Many patients also manage sleep
+          disorders, depression, anxiety, or POTS. Each condition adds visits,
+          tests, and prescriptions.
+        </p>
+        <ul className="list-disc pl-6 space-y-1 mb-2">
+          <li>Part B deductible: $283/year (2026)</li>
+          <li>20% coinsurance on every outpatient visit under Original Medicare</li>
+          <li>Part D copays that shift when plans change their formulary tiers</li>
+          <li>Out-of-pocket costs for therapies like massage or acupuncture that Medicare doesn't cover</li>
+        </ul>
+        <p>
+          Those 20% coinsurance charges add up fast when you're seeing multiple
+          specialists. A Medigap plan or the right Advantage plan can cap that
+          exposure.
+        </p>
+      </section>
 
-        <section className="mt-10">
-          <h2 className="text-2xl font-semibold mb-3 text-gray-900">
-            How fibromyalgia affects your Medigap and Advantage options
-          </h2>
-          <p className="text-gray-700 mb-3">
-            If you're enrolling during your Medigap Open Enrollment Period (the
-            6 months starting when you're 65+ and on Part B), no carrier can
-            deny you or charge more because of fibromyalgia. That window
-            matters. Outside of it, medical underwriting applies in most states,
-            and a fibro diagnosis can affect approval.
-          </p>
-          <p className="text-gray-700">
-            Medicare Advantage plans can't deny you for pre-existing conditions
-            during Annual Enrollment (October 15 - December 7), but network
-            restrictions and prior authorization rules vary widely. Some plans
-            make it harder to see the specialists you depend on.
-          </p>
-        </section>
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold mb-3">
+          Why fibro patients get dismissed by the system
+        </h2>
+        <p className="mb-2">
+          Fibromyalgia doesn't show up on an X-ray. There's no blood test that
+          confirms it. That makes it an "invisible illness," and the insurance
+          system wasn't built for invisible illnesses. People with fibro
+          routinely face denied disability claims, inadequate documentation, and
+          providers who minimize their symptoms.
+        </p>
+        <p>
+          You shouldn't have to fight your insurance on top of fighting your
+          condition. That's what I'm here for.
+        </p>
+      </section>
 
-        <section className="mt-10">
-          <h2 className="text-2xl font-semibold mb-3 text-gray-900">
-            The hidden costs of brain fog, fatigue, and specialist visits
-          </h2>
-          <p className="text-gray-700 mb-3">
-            Fibro patients often see rheumatologists, pain management
-            specialists, neurologists, and sometimes physical therapists or
-            mental health providers. Under Original Medicare, each visit means
-            20% coinsurance after the $283 Part B deductible. That adds up fast
-            when you're managing multiple appointments per month.
-          </p>
-          <ul className="list-disc ml-6 text-gray-700 space-y-1">
-            <li>
-              Medigap Plan G covers that 20% coinsurance - you pay the $283
-              deductible and nothing else
-            </li>
-            <li>
-              Medicare Advantage plans may have $20-$50 specialist copays per
-              visit, plus referral requirements
-            </li>
-            <li>
-              Part D out-of-pocket costs depend entirely on which tier your
-              medications land on
-            </li>
-          </ul>
-        </section>
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold mb-3">
+          Your medication list matters more than you think
+        </h2>
+        <p className="mb-2">
+          I've seen fibro patients paying hundreds more per year because their
+          Part D plan placed their daily medications on a higher formulary tier.
+          Before enrollment, I run your exact prescriptions through every
+          available plan to find the lowest total annual cost.
+        </p>
+        <p>
+          If you're on medications that interact with Medicare's coverage rules
+          (like opioid guidelines), we'll talk through your options honestly so
+          nothing catches you off guard.
+        </p>
+      </section>
 
-        <section className="mt-10">
-          <h2 className="text-2xl font-semibold mb-3 text-gray-900">
-            When your condition is invisible, your plan has to work harder
-          </h2>
-          <p className="text-gray-700 mb-3">
-            People with fibromyalgia know what it's like to have their symptoms
-            questioned. You shouldn't have to fight your insurance company for
-            treatments your doctor has already prescribed. I look for plans with
-            fewer prior authorization hurdles and broader specialist access so
-            you spend less time on hold and more time managing your health.
-          </p>
-        </section>
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold mb-3">
+          Work with a broker who takes your condition as seriously as you do
+        </h2>
+        <p className="mb-2">
+          I won't rush you. I won't second-guess your symptoms. I'll ask about
+          your doctors, your prescriptions, and what a bad flare day actually
+          looks like for you. Then I'll match that reality to the plan options
+          available in New Jersey.
+        </p>
+        <p>
+          The call is free. There's no judgment, no pressure, and no sign-up
+          required.
+        </p>
+      </section>
 
-        <section className="mt-10">
-          <h2 className="text-2xl font-semibold mb-3 text-gray-900">
-            Medication restrictions you should know about
-          </h2>
-          <p className="text-gray-700 mb-3">
-            Many fibro patients use a combination of treatments - prescriptions,
-            physical therapy, sometimes pain management protocols. Medicare has
-            specific rules around certain drug combinations, and Part D plans
-            can apply step therapy or quantity limits that affect your access.
-          </p>
-          <p className="text-gray-700">
-            I review your full medication list and flag any plan that would
-            create problems before you enroll. Better to know now than at the
-            pharmacy.
-          </p>
-        </section>
+      <div className="mt-10 bg-blue-600 text-white rounded-xl p-8 text-center">
+        <p className="text-xl font-bold mb-2">
+          Ready for a plan that works with your body, not against it?
+        </p>
+        <p className="text-lg mb-4">
+          Call{" "}
+          <a href="tel:8555591700" className="underline font-bold">
+            855-559-1700
+          </a>{" "}
+          or{" "}
+          <Link href="/quote" className="underline font-bold">
+            get a free quote online
+          </Link>
+          .
+        </p>
+      </div>
 
-        <section className="mt-10">
-          <h2 className="text-2xl font-semibold mb-3 text-gray-900">
-            Work with a broker who takes your condition as seriously as you do
-          </h2>
-          <p className="text-gray-700 mb-3">
-            I'm Anthony Orner, and I'm based in New Jersey. I don't rush calls,
-            I don't dismiss conditions I can't see, and I don't push plans that
-            pay me more. You bring your doctors, your prescriptions, and your
-            budget. I bring the plan comparison. No cost to you, ever.
-          </p>
-          <p className="text-gray-700">
-            You've spent enough energy explaining yourself to people who don't
-            get it. You don't have to do that here.
-          </p>
-        </section>
+      <section className="mt-12">
+        <FAQSection faqs={faqs} />
+      </section>
 
-        <div className="mt-10 bg-blue-50 border border-blue-200 rounded-lg p-6 text-center">
-          <p className="text-xl font-semibold text-blue-900 mb-2">
-            Ready to find a plan that works with your fibromyalgia - not against
-            it?
-          </p>
-          <p className="text-blue-800 mb-4">
-            Call{" "}
-            <a
-              href="tel:8555591700"
-              className="font-bold underline hover:text-blue-600"
-            >
-              855-559-1700
-            </a>{" "}
-            or{" "}
+      <section className="mt-12">
+        <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
+        <ul className="space-y-2">
+          <li>
             <Link
-              href="/contact"
-              className="font-bold underline hover:text-blue-600"
+              href="/medicare-guides/medicare-part-d-prescription-drug-coverage"
+              className="text-blue-600 hover:underline"
             >
-              get a free quote online
+              Medicare Part D Prescription Drug Coverage
             </Link>
-            . No pressure, no judgment.
-          </p>
-        </div>
-
-        <section className="mt-12">
-          <FAQSection faqs={faqs} />
-        </section>
-
-        <section className="mt-12">
-          <h2 className="text-2xl font-semibold mb-4 text-gray-900">
-            Related resources
-          </h2>
-          <ul className="space-y-2">
-            <li>
-              <Link
-                href="/medicare-guides/medigap-plan-g-nj"
-                className="text-blue-700 hover:underline"
-              >
-                Medigap Plan G in New Jersey - What It Covers and Costs
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/medicare-guides/medicare-part-d-prescription-drug-coverage"
-                className="text-blue-700 hover:underline"
-              >
-                Medicare Part D Prescription Drug Coverage Explained
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/services/medicare-broker-for-chronic-pain-patients"
-                className="text-blue-700 hover:underline"
-              >
-                Medicare Broker for Chronic Pain Patients
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/medicare-guides/medicare-advantage-vs-medigap"
-                className="text-blue-700 hover:underline"
-              >
-                Medicare Advantage vs. Medigap - Which Is Right for You?
-              </Link>
-            </li>
-          </ul>
-        </section>
-      </main>
-    </>
+          </li>
+          <li>
+            <Link
+              href="/medicare-guides/medigap-plans-in-new-jersey"
+              className="text-blue-600 hover:underline"
+            >
+              Medigap Plans in New Jersey
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/services/medicare-broker-for-chronic-pain-patients"
+              className="text-blue-600 hover:underline"
+            >
+              Medicare Broker for Chronic Pain Patients
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/medicare-guides/medicare-advantage-vs-medigap"
+              className="text-blue-600 hover:underline"
+            >
+              Medicare Advantage vs. Medigap: Which Is Right for You?
+            </Link>
+          </li>
+        </ul>
+      </section>
+    </main>
   );
 }

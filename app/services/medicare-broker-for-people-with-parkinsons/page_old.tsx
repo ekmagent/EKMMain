@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Medicare Broker for People With Parkinson's",
-      item: "https://www.medicareyourself.com/services/medicare-broker-for-people-with-parkinsons",
+      item: "https://medicareyourself.com/services/medicare-broker-for-people-with-parkinsons",
     },
   ],
 };
@@ -51,7 +51,7 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
@@ -112,7 +112,7 @@ export default function MedicareBrokerForPeopleWithParkinsons() {
         </h1>
 
         <Image
-          src="/images/medicare-broker-for-people-with-parkinsons.webp"
+          src="/images/medicare-broker-for-people-with-parkinsons_photo.webp"
           alt="medicare broker for people with parkinsons"
           width={800}
           height={400}

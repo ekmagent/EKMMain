@@ -7,14 +7,14 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 
 export const metadata: Metadata = {
   title:
-    "Plan G Rates for 68 Year Old in New Jersey | Free Carrier Comparison | MedicareYourself",
+    "plan g rates for 68 year old in new jersey | Free Carrier Comparison | MedicareYourself",
   description:
-    "Plan G rates for a 68-year-old in New Jersey differ by $60+/month depending on carrier. Compare real NJ premiums with Anthony Orner. Free, no obligation.",
+    "Plan G rates for a 68-year-old in New Jersey vary by $60+ across carriers. See real NJ premium examples and get a free comparison from Anthony Orner.",
   openGraph: {
     title:
-      "Plan G Rates for 68 Year Old in New Jersey | Free Carrier Comparison | MedicareYourself",
+      "plan g rates for 68 year old in new jersey | Free Carrier Comparison | MedicareYourself",
     description:
-      "Plan G rates for a 68-year-old in New Jersey differ by $60+/month depending on carrier. Compare real NJ premiums with Anthony Orner. Free, no obligation.",
+      "Plan G rates for a 68-year-old in New Jersey vary by $60+ across carriers. See real NJ premium examples and get a free comparison from Anthony Orner.",
   },
 };
 
@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Plan G Rates for 68-Year-Old in New Jersey",
-      item: "https://www.medicareyourself.com/services/plan-g-rates-for-68-year-old-in-new-jersey",
+      item: "https://medicareyourself.com/services/plan-g-rates-for-68-year-old-in-new-jersey",
     },
   ],
 };
@@ -51,7 +51,7 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
@@ -66,33 +66,33 @@ const faqs = [
   {
     question: "How much is Medicare Plan G in NJ?",
     answer:
-      "Plan G rates in New Jersey vary significantly by carrier, your age, gender, and tobacco use. At age 68, monthly premiums from major carriers can range from roughly $150 to over $300. The only way to find your exact rate is a personalized comparison across all available NJ carriers.",
+      "Plan G premiums in New Jersey vary by carrier, age, gender, and tobacco status. For a 68-year-old, monthly rates can range from roughly the low $100s to over $200 depending on which company you choose. The coverage is identical across every carrier, so price and rate stability are the real differentiators.",
   },
   {
     question: "Is Plan G more expensive than Plan N?",
     answer:
-      "Plan G premiums are typically higher than Plan N because Plan G covers the Part B deductible ($283 in 2026) and has no copays at doctor visits. Plan N has lower premiums but charges up to $20 copays for office visits and up to $50 for ER visits that don't result in admission. For many people at 68, Plan G's predictable costs are worth the slightly higher premium.",
-  },
-  {
-    question: "Can I switch Plan G carriers at 68 to get a lower rate?",
-    answer:
-      "Yes, you can apply to switch carriers at any time. However, outside of your initial Medigap Open Enrollment Period, you'll typically need to pass medical underwriting. If your health is good, switching to a lower-cost carrier can save hundreds per year on the exact same Plan G coverage.",
+      "Yes. Plan G premiums are higher than Plan N because Plan G covers the Part B deductible ($283 in 2026) and has no copays at the doctor or ER. Plan N costs less per month but requires small copays for office visits and emergency room trips. Whether the savings justify the trade-off depends on how often you see doctors.",
   },
   {
     question:
-      "Does New Jersey have special Medigap enrollment protections at 68?",
+      "Can a 68-year-old in New Jersey switch Plan G carriers without underwriting?",
     answer:
-      "New Jersey requires a 6-month Medigap Open Enrollment Period starting when you're 65 and enrolled in Part B. During that window, no carrier can deny you or charge more based on health. At 68, if you're past that window, most applications require underwriting - though federal guaranteed issue rights may apply in certain situations like losing employer coverage.",
+      "New Jersey offers a birthday rule that gives you a 30-day window around your birthday to switch Medigap carriers without medical underwriting, as long as you move to the same plan letter or a lesser plan. Outside that window, you'll typically need to pass health questions. Federal guaranteed issue rights also apply in specific situations like losing employer coverage.",
+  },
+  {
+    question: "Why do Plan G rates differ if the coverage is the same?",
+    answer:
+      "Every Plan G in New Jersey covers the exact same benefits. The difference is each carrier sets its own premium based on its claims experience, overhead, and pricing method. Some use attained-age rating (price rises with age), others use community rating. That's why comparing carriers matters more than comparing plan letters.",
   },
 ];
 
 export default function PlanGRates68NJ() {
   return (
-    <main className="max-w-4xl mx-auto px-4 py-8">
+    <>
       <SchemaMarkup schema={breadcrumbSchema} />
       <SchemaMarkup schema={articleSchema} />
 
-      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
+      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-4">
         <Link href="/" className="hover:underline">
           Home
         </Link>{" "}
@@ -106,210 +106,214 @@ export default function PlanGRates68NJ() {
         </span>
       </nav>
 
-      <h1 className="text-3xl md:text-4xl font-bold mb-4">
-        Plan G Rates for a 68-Year-Old in New Jersey: Carrier-by-Carrier
-        Breakdown
-      </h1>
+      <article className="max-w-3xl mx-auto">
+        <h1 className="text-3xl font-bold mb-4">
+          Plan G Rates for a 68-Year-Old in New Jersey: Carrier-by-Carrier
+          Breakdown
+        </h1>
 
-      <Image
-        src="/images/plan-g-rates-for-68-year-old-in-new-jersey.webp"
-        alt="Plan G rates for 68 year old in New Jersey"
-        width={800}
-        height={400}
-        className="rounded-lg mb-6 w-full"
-      />
+        <Image
+          src="/images/hub_plan-g-rates-for-68-year-old-in-new-jersey.webp"
+          alt="Plan G rates for 68 year old in New Jersey"
+          width={800}
+          height={400}
+          className="w-full rounded-lg mb-6"
+          priority
+        />
 
-      <p className="text-lg mb-2">
-        Plan G rates for a 68-year-old in New Jersey swing widely depending on
-        which carrier you choose. The coverage is identical across every company
-        - same benefits, same claims acceptance, same doctors. The only
-        difference is what you pay each month.
-      </p>
-      <p className="text-lg mb-6">
-        I'm Anthony Orner, a licensed Medicare broker in NJ. Here's what I see
-        when I run real quotes for clients your age.
-      </p>
+        <p className="text-lg mb-2">
+          Plan G rates for a 68-year-old in New Jersey can swing by $60 or more
+          per month depending on which carrier you pick. The coverage is
+          identical across every company. The price is not.
+        </p>
+        <p className="mb-6">
+          I run these comparisons daily for people in your exact situation. Let
+          me show you what the numbers actually look like.
+        </p>
 
-      <PhoneCTA />
+        <PhoneCTA />
 
-      <section className="mt-10 mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          How NJ's open enrollment rules affect rates at 68
-        </h2>
-        <p className="mb-3">
-          New Jersey gives you a 6-month Medigap Open Enrollment Period starting
-          at age 65 when you enroll in Part B. During that window, every carrier
-          must accept you at standard rates regardless of health history.
-        </p>
-        <p>
-          At 68, that window has closed for most people. You can still apply for
-          Plan G, but carriers will ask health questions. If you're in good
-          health, you'll likely qualify - and a carrier comparison becomes even
-          more important because your rate depends on who you apply with.
-        </p>
-      </section>
+        <section className="mt-10 mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            How NJ's open enrollment rules affect rates at 68
+          </h2>
+          <p className="mb-3">
+            If you enrolled in Part B at 65, your Medigap Open Enrollment Period
+            ended six months later. At 68, you're outside that window, which
+            means most carriers will ask health questions before approving you.
+          </p>
+          <p className="mb-3">
+            New Jersey does offer a birthday rule. You get a 30-day window
+            around your birthday each year to switch to the same plan letter (or
+            lower) with a different carrier, no medical underwriting required.
+            This is one of the strongest consumer protections in the country.
+          </p>
+          <p>
+            If you're already on Plan G and paying too much, that birthday window
+            is your annual escape hatch. Don't let it pass without checking
+            rates.
+          </p>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Monthly premium examples from major NJ carriers
-        </h2>
-        <p className="mb-3">
-          I can't publish exact rates here because they change quarterly and
-          depend on your gender, zip code, and tobacco status. But to give you a
-          realistic picture for a 68-year-old in New Jersey:
-        </p>
-        <ul className="list-disc pl-6 space-y-2">
-          <li>
-            The lowest Plan G premiums in NJ for this age group typically start
-            around $150-$180/month
-          </li>
-          <li>
-            Mid-range carriers often fall between $200-$250/month
-          </li>
-          <li>
-            Higher-priced carriers can charge $280-$320/month for the exact same
-            Plan G
-          </li>
-        </ul>
-        <p className="mt-3">
-          The NJ Department of Human Services publishes rate comparison charts
-          each year. I use those plus real-time quoting tools to find the best
-          fit.
-        </p>
-      </section>
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Monthly premium examples from major NJ carriers
+          </h2>
+          <p className="mb-3">
+            Specific premiums change throughout the year, but here's what I
+            consistently see when quoting Plan G for a 68-year-old in New
+            Jersey:
+          </p>
+          <ul className="list-disc pl-6 space-y-2 mb-3">
+            <li>
+              The lowest-cost carriers typically land in the low-to-mid $100s
+              per month
+            </li>
+            <li>
+              Mid-range carriers often fall between $150 and $180
+            </li>
+            <li>
+              The most expensive carriers charge over $200 for the same exact
+              coverage
+            </li>
+          </ul>
+          <p>
+            New Jersey publishes Medigap rate comparison charts through the
+            Department of Human Services. I cross-reference those with live
+            carrier quotes so you see the full picture.
+          </p>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Why the same Plan G can cost $60 more with the wrong carrier
-        </h2>
-        <p className="mb-3">
-          Every Plan G covers the same things: the Part A deductible ($1,676 in
-          2026), skilled nursing coinsurance, Part B excess charges, and the Part
-          B deductible of $283. No exceptions. Every carrier pays claims the same
-          way.
-        </p>
-        <p>
-          The price difference comes down to how each company sets rates - some
-          use attained-age pricing (rates climb as you age), others use
-          issue-age pricing (locked to when you bought it), and each has
-          different loss ratios and overhead. That $60/month gap adds up to $720
-          a year for identical coverage.
-        </p>
-      </section>
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Why the same Plan G can cost $60 more with the wrong carrier
+          </h2>
+          <p className="mb-3">
+            Every Plan G in New Jersey covers the same things: the Part A
+            deductible ($1,676 in 2026), Part B excess charges, skilled nursing
+            coinsurance ($209.50/day for days 21-100), and essentially
+            everything except the $283 Part B deductible.
+          </p>
+          <p className="mb-3">
+            The price gap comes down to how each carrier prices its policies.
+            Some use attained-age rating, where your premium climbs as you get
+            older. Others use community rating, where everyone pays the same
+            regardless of age. A few use issue-age, locking your base rate to
+            the age you bought the policy.
+          </p>
+          <p>
+            A $60/month difference adds up to $720 a year for the same exact
+            benefits. Over five years, that's $3,600.
+          </p>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Attained-age vs. issue-age pricing in New Jersey
-        </h2>
-        <p className="mb-3">
-          At 68, this distinction matters. An issue-age carrier may have charged
-          less when you were 65, but some attained-age carriers actually offer
-          lower rates at 68 because they price competitively for that bracket.
-        </p>
-        <p>
-          There's no universal rule. I run both types side by side so you can see
-          the 5-year and 10-year cost projections - not just today's number.
-        </p>
-      </section>
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            What people get wrong about switching at 68
+          </h2>
+          <p className="mb-3">
+            I talk to people every week who switched from a Medigap plan to a
+            Medicare Advantage plan and regret it. Getting back to Plan G after
+            that move often requires medical underwriting. If you've picked up
+            new health conditions, you could be denied.
+          </p>
+          <p>
+            If you already have Plan G, hold onto those guaranteed issue rights.
+            Switching carriers is straightforward during your birthday window.
+            Switching plan types is a much bigger decision.
+          </p>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          What NJ hospitals and networks mean for Plan G
-        </h2>
-        <p className="mb-3">
-          Plan G works with Original Medicare, so there's no network. Any doctor
-          or hospital that accepts Medicare accepts your Plan G - whether that's
-          Hackensack Meridian, RWJBarnabas, Cooper, or AtlantiCare.
-        </p>
-        <p>
-          This is one of the main reasons people at 68 choose Plan G over
-          Medicare Advantage. No referrals, no prior authorizations, no surprise
-          network restrictions. I hear from clients regularly who switched back
-          from Advantage plans specifically because of referral hassles and
-          unexpected copays.
-        </p>
-      </section>
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Rate stability matters as much as today's price
+          </h2>
+          <p className="mb-3">
+            The cheapest carrier today might not be the cheapest in three years.
+            Some companies price low to attract new members, then raise rates
+            aggressively. Others price steadily from the start.
+          </p>
+          <p>
+            I track rate increase history across NJ carriers so you can pick a
+            company with a pattern of reasonable increases, not just a low
+            starting number.
+          </p>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Request your custom NJ Plan G rate at 68
-        </h2>
-        <p className="mb-3">
-          I'll pull quotes from every carrier writing Plan G in New Jersey for
-          your exact age, zip code, and health profile. Takes about 10 minutes
-          on the phone. No cost, no obligation, and no pressure.
-        </p>
-        <p>
-          If you're currently on an Advantage plan and considering the switch,
-          I'll walk you through the underwriting process honestly - including
-          whether you're likely to qualify.
-        </p>
-      </section>
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Request your custom NJ Plan G rate at 68
+          </h2>
+          <p className="mb-3">
+            I'll pull live quotes from every carrier available in your zip code
+            and show you a side-by-side comparison. No cost, no obligation, and
+            no pressure to switch if your current rate is already competitive.
+          </p>
+          <p>
+            Call me directly or request a comparison online. Takes about 10
+            minutes.
+          </p>
+        </section>
 
-      <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 text-center my-10">
-        <p className="text-xl font-semibold mb-2">
-          Get your free Plan G rate comparison
-        </p>
-        <p className="mb-4">
-          Call{" "}
-          <a
-            href="tel:8555591700"
-            className="text-blue-700 font-bold hover:underline"
-          >
-            855-559-1700
-          </a>{" "}
-          or{" "}
-          <Link
-            href="/contact"
-            className="text-blue-700 font-bold hover:underline"
-          >
-            Get a Free Quote
-          </Link>
-        </p>
-        <p className="text-sm text-gray-600">
-          Anthony Orner - Licensed Medicare Broker in New Jersey
-        </p>
-      </div>
-
-      <FAQSection faqs={faqs} />
-
-      <section className="mt-10">
-        <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
-        <ul className="space-y-2">
-          <li>
-            <Link
-              href="/services/medicare-plan-g-nj"
-              className="text-blue-700 hover:underline"
-            >
-              Medicare Plan G in New Jersey: Full Guide
+        <div className="bg-blue-600 text-white rounded-lg p-8 text-center mb-10">
+          <p className="text-xl font-bold mb-2">
+            Get Your Free Plan G Rate Comparison
+          </p>
+          <p className="mb-4">
+            Call{" "}
+            <a href="tel:8555591700" className="underline font-bold">
+              855-559-1700
+            </a>{" "}
+            or{" "}
+            <Link href="/contact" className="underline font-bold">
+              Get a Free Quote
             </Link>
-          </li>
-          <li>
-            <Link
-              href="/services/plan-g-vs-plan-n-nj"
-              className="text-blue-700 hover:underline"
-            >
-              Plan G vs. Plan N in New Jersey
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/services/medicare-supplement-new-jersey"
-              className="text-blue-700 hover:underline"
-            >
-              Medicare Supplement Plans in New Jersey
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/services/medigap-open-enrollment-nj"
-              className="text-blue-700 hover:underline"
-            >
-              Medigap Open Enrollment in NJ: What You Need to Know
-            </Link>
-          </li>
-        </ul>
-      </section>
-    </main>
+          </p>
+          <p className="text-sm opacity-90">
+            Anthony Orner, Licensed Medicare Broker — serving all of New Jersey
+          </p>
+        </div>
+
+        <FAQSection faqs={faqs} />
+
+        <section className="mt-10 mb-8">
+          <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
+          <ul className="space-y-2">
+            <li>
+              <Link
+                href="/services/medicare-supplement-plan-g"
+                className="text-blue-600 hover:underline"
+              >
+                What Does Medicare Plan G Cover?
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/plan-g-vs-plan-n"
+                className="text-blue-600 hover:underline"
+              >
+                Plan G vs. Plan N: Which Is Right for You?
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/medigap-open-enrollment-nj"
+                className="text-blue-600 hover:underline"
+              >
+                Medigap Open Enrollment in New Jersey
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/medicare-supplement-rates-by-age"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare Supplement Rates by Age
+              </Link>
+            </li>
+          </ul>
+        </section>
+      </article>
+    </>
   );
 }

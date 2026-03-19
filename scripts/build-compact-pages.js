@@ -460,7 +460,7 @@ EDWARD STURM'S COMPACT KEYWORD LANDING PAGE TEMPLATE — follow this EXACTLY:
 
 2. Define breadcrumbSchema (Home > Medicare Guides > Page Name) and articleSchema
    - breadcrumbSchema MUST use "@type": "ListItem" (NOT "ListItemElement") for each itemListElement entry
-   - articleSchema author: Anthony Orner, url: https://www.medicareyourself.com/about
+   - articleSchema author: Anthony Orner, url: https://medicareyourself.com/about
    - publisher: name "EasyKind Medicare", alternateName "MedicareYourself"
 
 3. Define a faqs array with 3-4 Q&As (use People Also Ask questions from research if available)
@@ -1097,7 +1097,7 @@ async function main() {
     }
 
     // QA 4: GSC Submission Reminder (can't fully automate — Google rate-limits)
-    const liveUrl = `https://www.medicareyourself.com/services/${bp.slug}`;
+    const liveUrl = `https://medicareyourself.com/services/${bp.slug}`;
     console.log(`  GSC: After deploying, submit this URL for indexing:`);
     console.log(`  → ${liveUrl}`);
     console.log(`  → https://search.google.com/search-console/inspect?resource_id=sc-domain:medicareyourself.com`);

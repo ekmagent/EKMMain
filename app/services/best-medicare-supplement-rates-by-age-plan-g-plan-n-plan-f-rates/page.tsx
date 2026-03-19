@@ -7,12 +7,12 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 
 export const metadata: Metadata = {
   title:
-    "best medicare supplement rates by age (plan g, plan n, & plan f rates) | Free Quote | MedicareYourself",
+    "Best Medicare Supplement Rates by Age (Plan G, Plan N, & Plan F Rates) | Free Quote | MedicareYourself",
   description:
     "Best Medicare Supplement rates by age for Plan G, Plan N, and Plan F. See real premium ranges by age bracket and find the lowest rate. Free instant quote.",
   openGraph: {
     title:
-      "best medicare supplement rates by age (plan g, plan n, & plan f rates) | Free Quote | MedicareYourself",
+      "Best Medicare Supplement Rates by Age (Plan G, Plan N, & Plan F Rates) | Free Quote | MedicareYourself",
     description:
       "Best Medicare Supplement rates by age for Plan G, Plan N, and Plan F. See real premium ranges by age bracket and find the lowest rate. Free instant quote.",
   },
@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
-      name: "Best Medicare Supplement Rates by Age",
-      item: "https://www.medicareyourself.com/services/best-medicare-supplement-rates-by-age-plan-g-plan-n-plan-f-rates",
+      name: "Best Medicare Supplement Rates by Age (Plan G, Plan N, & Plan F Rates)",
+      item: "https://medicareyourself.com/services/best-medicare-supplement-rates-by-age-plan-g-plan-n-plan-f-rates",
     },
   ],
 };
@@ -51,7 +51,7 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
@@ -66,29 +66,30 @@ const faqs = [
   {
     question: "How much cheaper is Plan G than Plan F?",
     answer:
-      "Plan G premiums are typically $30 to $60 per month less than Plan F, depending on your age and carrier. The only difference in coverage is the Part B deductible of $257 per year, which Plan F covers and Plan G does not. Most people save more on the lower premium than they spend on that deductible.",
+      "Plan G typically costs $30–$60 less per month than Plan F, depending on age and carrier. Since Plan F and Plan G have identical benefits except that Plan G doesn't cover the $283 Part B deductible, most people save money overall with Plan G.",
   },
   {
     question:
-      "Do Medicare Supplement rates go up every year as I age?",
+      "Why do Medicare Supplement rates vary so much between carriers for the same plan letter?",
     answer:
-      "It depends on your pricing type. With attained-age pricing (the most common), your premium can increase as you get older. Issue-age pricing bases your rate on the age you bought the policy, and community-rated plans charge the same rate regardless of age. All three types can still see rate increases due to inflation and medical costs.",
+      "Every Medigap plan letter is standardized by Medicare, so a Plan G from one carrier covers the exact same benefits as a Plan G from another. The difference is pricing strategy. Some carriers price low to attract new enrollees, then raise rates aggressively. Others start slightly higher but hold steadier over time.",
   },
   {
-    question: "What is the best age to buy a Medigap plan?",
+    question:
+      "When is the best time to buy a Medicare Supplement to get the lowest rate?",
     answer:
-      "The best time to buy is during your 6-month Medigap Open Enrollment Period, which starts the month you turn 65 and are enrolled in Part B. During this window, carriers cannot charge you more or deny you based on health conditions. Anthony's practice is to have clients apply up to 6 months before their Part B start date to lock in the lowest rate early.",
+      "Your 6-month Medigap Open Enrollment Period, which starts the month you turn 65 and are enrolled in Part B, gives you guaranteed issue rights. During this window, carriers can't charge more or deny you based on health. Applying up to 6 months before your Part B start date helps lock in the best rate.",
   },
   {
-    question: "Can I switch Medigap plans later if I find a better rate?",
+    question: "Do Medicare Supplement rates go up every year?",
     answer:
-      "Yes, you can apply to switch at any time. However, outside of your initial Open Enrollment or a guaranteed issue situation, the new carrier can ask health questions and potentially deny coverage. That is why locking in the right plan early matters so much.",
+      "Yes, in most cases. Attained-age rated plans increase as you get older, and all plans can receive block rate increases when claims in your insured pool rise. Some years you may see 4–6% bumps; other years, 10–18% jumps when age and block increases stack together.",
   },
 ];
 
 export default function BestMedicareSupplementRatesByAge() {
   return (
-    <main className="max-w-4xl mx-auto px-4 py-8">
+    <main className="max-w-3xl mx-auto px-4 py-8">
       <SchemaMarkup schema={breadcrumbSchema} />
       <SchemaMarkup schema={articleSchema} />
 
@@ -106,198 +107,231 @@ export default function BestMedicareSupplementRatesByAge() {
         </span>
       </nav>
 
-      <h1 className="text-3xl font-bold mb-4 leading-tight">
+      <h1 className="text-3xl font-bold text-gray-900 mb-4 leading-snug">
         Best Medicare Supplement Rates by Age: Plan G, Plan N, and Plan F
         Compared for 2025–2026
       </h1>
 
       <Image
-        src="/images/best-medicare-supplement-rates-by-age-plan-g-plan-n-plan-f-rates.webp"
-        alt="best medicare supplement rates by age for plan g, plan n, and plan f"
+        src="/images/hub_best-medicare-supplement-rates-by-age-plan-g-plan-n-plan-f-rates.webp"
+        alt="Best Medicare Supplement rates by age for Plan G, Plan N, and Plan F"
         width={800}
         height={400}
-        className="rounded-lg mb-6 w-full"
+        className="w-full rounded-lg mb-6"
+        priority
       />
 
-      <p className="text-lg mb-2">
-        Best Medicare Supplement rates by age vary widely depending on which plan you pick, where you live, and which carrier writes the policy. I am Anthony Orner, a licensed Medicare broker in New Jersey, and I compare these rates daily for people just like you.
+      <p className="text-lg text-gray-700 mb-2">
+        Best Medicare Supplement rates by age depend on three things: which plan
+        letter you pick, how old you are when you enroll, and how your carrier
+        prices its policies over time. Most people focus on the starting premium
+        at 65. That's a mistake.
       </p>
-      <p className="text-lg mb-6">
-        Below, I will break down what Plan G, Plan N, and Plan F actually cost at different ages so you can see real numbers, not marketing fluff.
+      <p className="text-lg text-gray-700 mb-6">
+        What you're paying at 75 or 80 matters more. Here's how to compare Plan
+        G, Plan N, and Plan F rates realistically.
       </p>
 
       <PhoneCTA />
 
       <section className="mt-10 mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
           How age affects your Medigap premium each year
         </h2>
-        <p className="mb-2">
-          Age is one of the biggest factors carriers use to set your monthly premium. A 65-year-old will almost always pay less than a 75-year-old for the exact same plan with the exact same coverage.
+        <p className="text-gray-700 mb-2">
+          Age is one of the primary factors carriers use to set your monthly
+          premium. If you're on an attained-age rated plan (most plans are),
+          your rate increases automatically as you get older, even before any
+          general rate hikes.
         </p>
-        <p>
-          That is why your Medigap Open Enrollment Period matters so much. It starts the month you turn 65 and are enrolled in Part B. During those 6 months, no carrier can charge you extra or deny you for health reasons.
+        <p className="text-gray-700">
+          The real cost surprise comes when age-based increases and block rate
+          increases hit in the same year. Jumps of 10–18% in a single year
+          aren't unusual. That's why the carrier you choose matters as much as
+          the plan letter.
         </p>
       </section>
 
       <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
           Plan G, Plan N, and Plan F rate ranges at 65, 70, and 75
         </h2>
-        <p className="mb-3">
-          These are approximate monthly premium ranges I see across multiple carriers. Your actual rate depends on ZIP code, gender, tobacco use, and the specific company.
+        <p className="text-gray-700 mb-3">
+          Rates vary by carrier, ZIP code, and tobacco status. These are
+          approximate monthly ranges you'll see across multiple carriers in 2025–2026:
         </p>
         <div className="overflow-x-auto mb-3">
-          <table className="w-full border-collapse text-sm">
+          <table className="w-full text-left border-collapse text-gray-700">
             <thead>
               <tr className="bg-gray-100">
-                <th className="border p-3 text-left">Age</th>
-                <th className="border p-3 text-left">Plan F</th>
-                <th className="border p-3 text-left">Plan G</th>
-                <th className="border p-3 text-left">Plan N</th>
+                <th className="border p-3 font-semibold">Age</th>
+                <th className="border p-3 font-semibold">Plan F</th>
+                <th className="border p-3 font-semibold">Plan G</th>
+                <th className="border p-3 font-semibold">Plan N</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td className="border p-3 font-medium">65</td>
-                <td className="border p-3">$150 – $250/mo</td>
-                <td className="border p-3">$120 – $210/mo</td>
-                <td className="border p-3">$90 – $170/mo</td>
+                <td className="border p-3">65</td>
+                <td className="border p-3">$150–$250</td>
+                <td className="border p-3">$110–$210</td>
+                <td className="border p-3">$85–$170</td>
               </tr>
               <tr className="bg-gray-50">
-                <td className="border p-3 font-medium">70</td>
-                <td className="border p-3">$185 – $310/mo</td>
-                <td className="border p-3">$155 – $270/mo</td>
-                <td className="border p-3">$115 – $210/mo</td>
+                <td className="border p-3">70</td>
+                <td className="border p-3">$185–$310</td>
+                <td className="border p-3">$145–$270</td>
+                <td className="border p-3">$110–$210</td>
               </tr>
               <tr>
-                <td className="border p-3 font-medium">75</td>
-                <td className="border p-3">$230 – $400/mo</td>
-                <td className="border p-3">$195 – $350/mo</td>
-                <td className="border p-3">$140 – $265/mo</td>
+                <td className="border p-3">75</td>
+                <td className="border p-3">$225–$390</td>
+                <td className="border p-3">$180–$340</td>
+                <td className="border p-3">$140–$260</td>
               </tr>
             </tbody>
           </table>
         </div>
-        <p className="text-sm text-gray-600">
-          Plan F is only available to people who became eligible for Medicare before January 1, 2020.
+        <p className="text-gray-600 text-sm">
+          Plan F is only available to those who became eligible for Medicare
+          before January 1, 2020. Plan G offers the same coverage minus the $283
+          Part B deductible, and typically costs $30–$60 less per month.
         </p>
       </section>
 
       <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
           Attained-age vs. issue-age vs. community-rated pricing explained
         </h2>
-        <ul className="list-disc pl-6 space-y-2">
+        <ul className="list-disc pl-6 text-gray-700 space-y-2">
           <li>
-            <strong>Attained-age:</strong> Your premium is based on your current age. It goes up as you get older. This is the most common pricing method.
+            <strong>Attained-age</strong> — Most common. Premium rises as you
+            age. Starts low, climbs steadily.
           </li>
           <li>
-            <strong>Issue-age:</strong> Your premium is based on the age you were when you bought the policy. It will not increase just because you had a birthday, though it can still rise from inflation.
+            <strong>Issue-age</strong> — Rate is based on your age when you
+            bought the policy. It won't increase due to aging, but block
+            increases still apply.
           </li>
           <li>
-            <strong>Community-rated:</strong> Everyone pays the same base rate regardless of age. These policies may cost more at 65 but less at 80 compared to attained-age plans.
+            <strong>Community-rated</strong> — Everyone pays the same rate
+            regardless of age. Rare, but a great deal if you enroll older.
           </li>
         </ul>
-        <p className="mt-2">
-          Not every carrier offers all three types. I will tell you which pricing model each option uses when we compare quotes.
+        <p className="text-gray-700 mt-3">
+          Issue-age and community-rated policies can save you thousands over a
+          decade. Not every carrier offers them in every state. Call to check
+          what's available in your ZIP code.
         </p>
       </section>
 
       <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Why Plan G is the most popular choice right now
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          Why the carrier matters more than the plan letter
         </h2>
-        <p className="mb-2">
-          Plan G covers everything Plan F covers except the annual Part B deductible of $257. The premium savings are typically $30 to $60 per month. Do that math: you save $360 to $720 a year in premiums and only pay $257 out of pocket.
+        <p className="text-gray-700 mb-2">
+          Plan G is Plan G. The medical benefits are federally standardized. A
+          Plan G from one company covers the same things as a Plan G from
+          another.
         </p>
-        <p>
-          That is why most of my clients choose Plan G over Plan F when both are available.
-        </p>
-      </section>
-
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Plan N: the budget-friendly option worth considering
-        </h2>
-        <p className="mb-2">
-          Plan N has the lowest premiums of the three. The trade-off is small copays: up to $20 for some office visits and up to $50 for emergency room visits that do not result in admission. You also pay the $257 Part B deductible.
-        </p>
-        <p>
-          If you are healthy and do not visit the doctor often, Plan N can save you serious money.
+        <p className="text-gray-700">
+          What's different is long-term premium behavior. Some carriers price
+          aggressively low to attract new business, then raise rates sharply
+          within a few years. Others start a bit higher but hold steadier. We
+          track rate history across carriers so you don't walk into a low-ball
+          trap.
         </p>
       </section>
 
       <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
           How to lock in the lowest rate for your age
         </h2>
-        <p className="mb-2">
-          My practice is to have clients apply for their Medigap plan up to 6 months before their Part B start date. This locks in the rate early and protects you from premium increases before your coverage begins.
+        <p className="text-gray-700 mb-2">
+          Your Medigap Open Enrollment Period is the single best window to buy.
+          It lasts 6 months, starting the month you turn 65 and are enrolled in
+          Part B. During this window, no carrier can deny you or charge extra
+          for health conditions.
         </p>
-        <p>
-          The sooner you lock in, the better your rate. Waiting even a year can mean higher premiums for the rest of your life. Call me at <strong>855-559-1700</strong> and I will pull quotes from multiple carriers in minutes.
+        <p className="text-gray-700">
+          Apply up to 6 months before your Part B start date to give yourself
+          time to compare. Waiting even a year past your OEP can mean higher
+          premiums or medical underwriting that limits your options.
         </p>
       </section>
 
-      <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 text-center my-10">
+      <section className="mb-8">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          What most rate comparison sites won't tell you
+        </h2>
+        <p className="text-gray-700 mb-2">
+          A quote is a snapshot. What you really need is a 5- and 10-year rate
+          outlook. We pull actual rate increase histories so you can see how a
+          carrier has behaved over time, not just what they charge today.
+        </p>
+        <p className="text-gray-700">
+          That's the difference between picking the cheapest plan right now and
+          picking the plan that stays affordable at 74 or 80.
+        </p>
+      </section>
+
+      <div className="bg-blue-600 text-white rounded-lg p-6 text-center my-10">
         <p className="text-xl font-semibold mb-2">
-          Ready to see your actual rates?
+          Get your free rate comparison in 2 minutes.
         </p>
         <p className="mb-4">
           Call{" "}
-          <a
-            href="tel:8555591700"
-            className="text-blue-700 font-bold hover:underline"
-          >
+          <a href="tel:8555591700" className="underline font-bold">
             855-559-1700
           </a>{" "}
           or{" "}
-          <Link
-            href="/quote"
-            className="text-blue-700 font-bold hover:underline"
-          >
-            Get a Free Quote
-          </Link>{" "}
-          online. No obligation, no pressure.
+          <Link href="/quote" className="underline font-bold">
+            get a free quote online
+          </Link>
+          .
+        </p>
+        <p className="text-sm opacity-90">
+          Anthony Orner, Licensed Medicare Broker
         </p>
       </div>
 
       <FAQSection faqs={faqs} />
 
-      <section className="mt-10">
-        <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
+      <section className="mt-10 mb-6">
+        <h2 className="text-xl font-semibold text-gray-900 mb-4">
+          Related resources
+        </h2>
         <ul className="space-y-2">
           <li>
             <Link
-              href="/services/medicare-plan-g-cost"
-              className="text-blue-700 hover:underline"
+              href="/services/medicare-supplement-plan-g"
+              className="text-blue-600 hover:underline"
             >
-              Medicare Plan G Cost: What You Will Actually Pay
+              Medicare Supplement Plan G: Full Breakdown
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/services/medicare-supplement-plan-n"
+              className="text-blue-600 hover:underline"
+            >
+              Medicare Supplement Plan N: What It Covers
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/services/medigap-open-enrollment-period"
+              className="text-blue-600 hover:underline"
+            >
+              Medigap Open Enrollment: When and Why It Matters
             </Link>
           </li>
           <li>
             <Link
               href="/services/plan-g-vs-plan-n"
-              className="text-blue-700 hover:underline"
+              className="text-blue-600 hover:underline"
             >
-              Plan G vs. Plan N: Which Medigap Plan Is Right for You?
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/services/medicare-supplement-plans"
-              className="text-blue-700 hover:underline"
-            >
-              Medicare Supplement Plans: Complete 2025–2026 Guide
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/services/medigap-open-enrollment"
-              className="text-blue-700 hover:underline"
-            >
-              Medigap Open Enrollment: When and How to Sign Up
+              Plan G vs. Plan N: Which Is Right for You?
             </Link>
           </li>
         </ul>

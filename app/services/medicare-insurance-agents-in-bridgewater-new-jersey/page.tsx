@@ -9,12 +9,12 @@ export const metadata: Metadata = {
   title:
     "medicare insurance agents in bridgewater new jersey | Free Rate Comparison | MedicareYourself",
   description:
-    "Medicare insurance agents in Bridgewater, New Jersey who compare Supplement and Advantage plans. Anthony Orner shops top carriers free. Request a quote today.",
+    "Medicare insurance agents in Bridgewater, New Jersey compare Supplement and Advantage plans across top carriers. Anthony Orner shops for you free. Call today.",
   openGraph: {
     title:
       "medicare insurance agents in bridgewater new jersey | Free Rate Comparison | MedicareYourself",
     description:
-      "Medicare insurance agents in Bridgewater, New Jersey who compare Supplement and Advantage plans. Anthony Orner shops top carriers free. Request a quote today.",
+      "Medicare insurance agents in Bridgewater, New Jersey compare Supplement and Advantage plans across top carriers. Anthony Orner shops for you free. Call today.",
   },
 };
 
@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Medicare Insurance Agents in Bridgewater, New Jersey",
-      item: "https://www.medicareyourself.com/services/medicare-insurance-agents-in-bridgewater-new-jersey",
+      item: "https://medicareyourself.com/services/medicare-insurance-agents-in-bridgewater-new-jersey",
     },
   ],
 };
@@ -51,37 +51,37 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-01-15",
-  dateModified: "2025-01-15",
+  datePublished: "2025-07-01",
+  dateModified: "2025-07-01",
 };
 
 const faqs = [
   {
-    question: "What is the highest reviewed Medicare insurance in NJ?",
-    answer:
-      "There is no single 'best' plan for everyone. The highest-rated options depend on whether you need a Medicare Supplement (Medigap) or Medicare Advantage plan, your doctors, your prescriptions, and your budget. An independent broker can compare carriers side by side so you see which plan actually scores highest for your situation.",
-  },
-  {
     question: "Should I use an insurance agent for Medicare?",
     answer:
-      "Yes. An independent Medicare agent shops multiple carriers at once instead of pushing one company's products. You get unbiased comparisons of premiums, networks, and benefits. The agent handles the paperwork, and you pay nothing extra for the help - carriers pay the broker directly.",
+      "Yes. An independent Medicare broker compares plans from multiple carriers at no cost to you. Carriers pay the broker directly, so you get unbiased guidance without a fee. A captive agent tied to one company can only show you their products.",
   },
   {
-    question: "Do Medicare insurance agents charge a fee?",
+    question: "How do I pick a Medicare agent in Bridgewater?",
     answer:
-      "No. Licensed Medicare agents are compensated by the insurance carriers, not by you. The premium you pay is the same whether you enroll directly or go through a broker. There is zero cost for the advice, the rate comparison, or the enrollment assistance.",
+      "Look for an independent, licensed broker who represents multiple carriers. Ask how many companies they quote, whether they handle both Supplement and Advantage plans, and if they help with annual reviews. Avoid anyone who pressures you into a decision on the spot.",
   },
   {
-    question: "When should I contact a Medicare agent in Bridgewater?",
+    question: "Does Medicare have a local office in Somerset County?",
     answer:
-      "Reach out at least six months before your Part B start date if you want a Medigap plan. For Medicare Advantage, the Annual Enrollment Period runs October 15 through December 7. The earlier you call, the more time you have to compare options without feeling rushed.",
+      "Medicare itself doesn't operate local offices, but the State Health Insurance Assistance Program (SHIP) in New Jersey offers free counseling. For personalized plan comparisons and enrollment help, an independent broker like Anthony Orner can meet your needs by phone or in person.",
+  },
+  {
+    question: "How do I speak to a live person about Medicare?",
+    answer:
+      "You can call 1-800-MEDICARE (1-800-633-4227) for general questions. For help choosing a specific plan in Bridgewater, call a local independent broker at 855-559-1700 for a free, no-pressure consultation.",
   },
 ];
 
@@ -105,133 +105,191 @@ export default function MedicareInsuranceAgentsBridgewaterNJ() {
         </span>
       </nav>
 
-      <h1 className="text-3xl font-bold mb-4">
-        Medicare Insurance Agents in Bridgewater, New Jersey: Independent Broker Help at No Cost
+      <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+        Medicare Insurance Agents in Bridgewater, New Jersey: Independent Broker
+        Help at No Cost
       </h1>
 
       <Image
-        src="/images/medicare-insurance-agents-in-bridgewater-new-jersey.webp"
+        src="/images/hub_medicare-insurance-agents-in-bridgewater-new-jersey.webp"
         alt="Medicare insurance agents in Bridgewater New Jersey"
         width={800}
         height={400}
-        className="rounded-lg mb-6 w-full"
+        className="w-full rounded-lg mb-6"
+        priority
       />
 
-      <p className="text-lg mb-2">
-        Medicare insurance agents in Bridgewater, New Jersey give you access to every major carrier without the legwork of calling each one yourself. As an independent broker licensed in New Jersey, I compare Supplement and Advantage plans from multiple companies so you see real numbers side by side.
+      <p className="text-lg text-gray-700 mb-2">
+        Medicare insurance agents in Bridgewater, New Jersey range from captive
+        salespeople tied to one carrier to independent brokers who shop the
+        entire market for you. The difference matters. A captive agent shows you
+        their company's plans. I show you all of them and let you pick.
       </p>
-      <p className="mb-6">
-        You never pay a fee for my help. The carriers compensate me directly, so your premium stays the same whether you enroll through a broker or on your own.
+      <p className="text-lg text-gray-700 mb-6">
+        I'm Anthony Orner, a licensed independent Medicare broker serving
+        Somerset County. My help costs you nothing. Carriers pay me the same
+        commission regardless of which plan you choose, so my only incentive is
+        finding the right fit.
       </p>
 
       <PhoneCTA />
 
-      <section className="mt-10 mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
           How a Bridgewater broker compares every major carrier
         </h2>
-        <p className="mb-2">
-          A captive agent sells one company's products. I work independently. That means I pull quotes from carriers like Aetna, Cigna, Mutual of Omaha, United American, and others active in Somerset County.
+        <p className="text-gray-700 mb-2">
+          I run quotes across carriers like Aetna, Cigna, Mutual of Omaha,
+          United American, and others active in Somerset County. You see the
+          rates and benefits side by side in one conversation.
         </p>
-        <p>
-          I line up premiums, rate increase histories, and household discounts in a single spreadsheet. You pick the plan that fits your budget. No pressure, no hidden agenda.
+        <p className="text-gray-700">
+          Some carriers price aggressively for 65-year-olds, then raise rates
+          steeply. Others use community-rated or attained-age pricing. I explain
+          how each model works so the plan that's cheapest today doesn't become
+          the most expensive in five years.
         </p>
       </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
           Popular Medicare Supplement plans in Somerset County
         </h2>
-        <ul className="list-disc pl-6 space-y-2">
+        <ul className="list-disc pl-6 text-gray-700 space-y-2">
           <li>
-            <strong>Plan G</strong> - Covers everything Original Medicare does not, except the annual Part B deductible ($257 in 2026). Most popular choice for new enrollees.
+            <strong>Plan G:</strong> Covers everything except the Part B
+            deductible ($283/year in 2026). The most popular Medigap plan in New
+            Jersey.
           </li>
           <li>
-            <strong>Plan N</strong> - Lower monthly premium than Plan G. You pay up to a $20 copay for some office visits and the Part B deductible.
+            <strong>Plan N:</strong> Lower premiums than Plan G. You pay small
+            copays at some office visits and the Part B deductible. Good option
+            if you want lower monthly costs.
           </li>
           <li>
-            <strong>High-Deductible Plan G</strong> - Lowest premium of all. You cover out-of-pocket costs until you hit the plan deductible, then the plan pays like standard Plan G.
+            <strong>High-Deductible Plan G:</strong> Lowest premiums. You cover
+            an annual deductible out of pocket first, then the plan pays like
+            standard Plan G.
           </li>
         </ul>
-        <p className="mt-2">
-          Rates vary by carrier, age, and zip code. I can pull your specific numbers in minutes.
+        <p className="text-gray-700 mt-3">
+          Rates vary by carrier, age, and tobacco status. I pull live quotes so
+          you see exact numbers for your situation.
         </p>
       </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
           Turning 65 in Bridgewater? Timeline and enrollment steps
         </h2>
-        <p className="mb-2">
-          Your Medigap Open Enrollment Period lasts six months, starting the month you turn 65 and are enrolled in Part B. During this window, no carrier can deny you or charge more based on health history. Miss it, and you may face medical underwriting.
+        <p className="text-gray-700 mb-2">
+          Your Medigap Open Enrollment Period starts the month you turn 65 and
+          are enrolled in Part B. It lasts six months. During this window, no
+          carrier in New Jersey can deny you or charge more for health
+          conditions.
         </p>
-        <p>
-          My practice is to have clients apply up to six months before their Part B start date. Locking in early protects you from premium increases that can happen between now and your coverage start. The sooner you lock in, the better your rate.
+        <p className="text-gray-700 mb-2">
+          Miss that window and you may face medical underwriting. Start the
+          conversation six months before your Part B effective date so we lock
+          your rate on time.
         </p>
-      </section>
-
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Medicare Advantage options in the 08807 area
-        </h2>
-        <p className="mb-2">
-          Bridgewater residents have access to several Medicare Advantage plans with $0 premiums, dental and vision benefits, and prescription drug coverage built in. These are HMO or PPO networks, so doctor access matters.
-        </p>
-        <p>
-          Annual Enrollment runs October 15 through December 7. I can check whether your current doctors are in-network before you commit.
-        </p>
-      </section>
-
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          What to bring to your Medicare consultation
-        </h2>
-        <ul className="list-disc pl-6 space-y-2">
-          <li>Your red, white, and blue Medicare card (or your Part B start date)</li>
-          <li>A list of current prescriptions with dosages</li>
-          <li>Names of your preferred doctors and specialists</li>
-          <li>Any current insurance information (employer plan, retiree benefits, VA)</li>
+        <ul className="list-disc pl-6 text-gray-700 space-y-1">
+          <li>Contact Social Security about 3 months before turning 65</li>
+          <li>Confirm your Part A and Part B start dates</li>
+          <li>Call me to compare Supplement and Advantage options</li>
+          <li>Enroll during your Open Enrollment for guaranteed acceptance</li>
         </ul>
-        <p className="mt-2">
-          Having this ready saves time and lets me give you accurate quotes on the first call.
+      </section>
+
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          Why carrier network disruptions matter in Somerset County
+        </h2>
+        <p className="text-gray-700 mb-2">
+          Provider-network disputes are real. When a major health system drops a
+          carrier, people scramble. With a Medicare Supplement plan, you avoid
+          that problem entirely because Medigap works with any doctor who
+          accepts Medicare nationwide.
+        </p>
+        <p className="text-gray-700">
+          If you've experienced the stress of losing a provider due to insurance
+          changes, a Supplement plan eliminates that worry. Medicare Advantage
+          plans offer lower premiums and extra benefits but use provider
+          networks. I'll walk you through the tradeoffs honestly.
         </p>
       </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          What an independent broker does that a captive agent can't
+        </h2>
+        <ul className="list-disc pl-6 text-gray-700 space-y-2">
+          <li>
+            Shops 10+ carriers instead of one company's product shelf
+          </li>
+          <li>
+            Reviews your plan annually and moves you if a better rate appears
+          </li>
+          <li>
+            Handles enrollment paperwork and follows up with the carrier
+          </li>
+          <li>
+            No cost to you, ever. Carriers pay the broker fee directly
+          </li>
+        </ul>
+      </section>
+
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
           Get a free quote from Anthony Orner today
         </h2>
-        <p className="mb-2">
-          I live and work in New Jersey. I know the carriers active in Somerset County and which ones have the most competitive rates right now. Whether you are turning 65, retiring, or reviewing your current plan during open enrollment, I am here to help.
+        <p className="text-gray-700 mb-2">
+          One phone call. I'll ask a few questions about your doctors, your
+          prescriptions, and your budget. Then I'll show you what every major
+          carrier charges for the coverage level you want. No pressure, no
+          obligation, no cost.
         </p>
-        <p>
-          Call me or request a quote online. There is never a charge, and there is never an obligation.
+        <p className="text-gray-700">
+          Whether you're turning 65, leaving employer coverage, or just want to
+          see if a better rate exists, I'm here for Bridgewater residents and the
+          surrounding Somerset County area.
         </p>
       </section>
 
-      <div className="bg-blue-600 text-white rounded-lg p-6 text-center mb-10">
-        <p className="text-xl font-bold mb-2">
-          Ready to compare Medicare plans in Bridgewater?
+      <div className="mt-10 bg-blue-600 text-white rounded-lg p-8 text-center">
+        <p className="text-2xl font-bold mb-3">
+          Talk to a Local Medicare Broker
         </p>
-        <p className="mb-4">
+        <p className="text-lg mb-4">
           Call{" "}
-          <a href="tel:8555591700" className="underline font-semibold">
+          <a
+            href="tel:8555591700"
+            className="underline font-semibold"
+          >
             855-559-1700
           </a>{" "}
           or{" "}
-          <Link href="/contact" className="underline font-semibold">
-            Get a Free Quote
+          <Link
+            href="/contact"
+            className="underline font-semibold"
+          >
+            get a free quote online
           </Link>
+          .
         </p>
-        <p className="text-sm">
-          Anthony Orner, Licensed Medicare Broker - No cost, no obligation.
+        <p className="text-sm opacity-90">
+          No cost. No obligation. Independent advice from Anthony Orner.
         </p>
       </div>
 
-      <FAQSection faqs={faqs} />
+      <section className="mt-12">
+        <FAQSection faqs={faqs} />
+      </section>
 
-      <section className="mt-10">
-        <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
+      <section className="mt-12">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-4">
+          Related resources
+        </h2>
         <ul className="space-y-2">
           <li>
             <Link
@@ -243,18 +301,18 @@ export default function MedicareInsuranceAgentsBridgewaterNJ() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-plan-g-nj"
-              className="text-blue-600 hover:underline"
-            >
-              Medicare Plan G in NJ: Benefits and Costs
-            </Link>
-          </li>
-          <li>
-            <Link
               href="/medicare-guides/medicare-advantage-plans-nj"
               className="text-blue-600 hover:underline"
             >
               Medicare Advantage Plans in New Jersey
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/medicare-guides/medigap-plan-g-vs-plan-n"
+              className="text-blue-600 hover:underline"
+            >
+              Medigap Plan G vs. Plan N: Which Is Right for You?
             </Link>
           </li>
           <li>

@@ -7,12 +7,12 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 
 export const metadata: Metadata = {
   title:
-    "Best Medicare Insurance Broker Near Hackensack, NJ | Free Quote | MedicareYourself",
+    "best medicare insurance broker near hackensack, nj | Free Quote | MedicareYourself",
   description:
     "Best medicare insurance broker near Hackensack, NJ — Anthony Orner compares top Medigap and Advantage carriers in Bergen County. Free, no-pressure quote.",
   openGraph: {
     title:
-      "Best Medicare Insurance Broker Near Hackensack, NJ | Free Quote | MedicareYourself",
+      "best medicare insurance broker near hackensack, nj | Free Quote | MedicareYourself",
     description:
       "Best medicare insurance broker near Hackensack, NJ — Anthony Orner compares top Medigap and Advantage carriers in Bergen County. Free, no-pressure quote.",
   },
@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Best Medicare Insurance Broker Near Hackensack, NJ",
-      item: "https://www.medicareyourself.com/services/best-medicare-insurance-broker-near-hackensack-nj",
+      item: "https://medicareyourself.com/services/best-medicare-insurance-broker-near-hackensack-nj",
     },
   ],
 };
@@ -51,7 +51,7 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
@@ -64,31 +64,31 @@ const articleSchema = {
 
 const faqs = [
   {
-    question: "Should I use a Medicare insurance broker?",
+    question: "What is the highest reviewed Medicare insurance in NJ?",
     answer:
-      "Yes. A Medicare broker is free to you - carriers pay the broker's commission. You get objective plan comparisons across multiple insurance companies instead of being limited to one carrier's lineup. There is no extra cost for using a broker versus enrolling directly.",
+      "Ratings change yearly. In Bergen County, several carriers earn 4+ stars from CMS, but the best plan depends on your doctors, prescriptions, and budget. An independent broker compares all available options so you don't have to guess.",
   },
   {
-    question: "Who is the best person to talk to about Medicare plans?",
+    question: "How much does it cost to use a Medicare broker?",
     answer:
-      "An independent, licensed Medicare broker who represents multiple carriers. Unlike a captive agent tied to one company, an independent broker like Anthony Orner can compare plans from Aetna, Cigna, Mutual of Omaha, and others to find the right fit for your budget and doctors.",
+      "Zero. Medicare brokers are paid by the insurance carriers, not by you. There's no fee for consultations, comparisons, or enrollment help. The premium you pay is the same whether you use a broker or go directly to the carrier.",
   },
   {
     question:
-      "What's the difference between a Medicare agent and a Medicare broker?",
+      "What's the difference between a Medicare broker and a captive agent?",
     answer:
-      "A Medicare agent typically works for one insurance carrier and can only sell that company's plans. A Medicare broker is contracted with many carriers and can shop the entire market on your behalf. Both are licensed, but a broker gives you more options.",
+      "A captive agent sells plans from one carrier only. An independent broker like Anthony Orner is licensed with multiple carriers and can compare plans side by side to find what actually fits your situation.",
   },
   {
-    question: "Does it cost anything to work with a Medicare broker in Hackensack?",
+    question: "When should I contact a Medicare broker in Hackensack?",
     answer:
-      "No. Medicare brokers are compensated by the insurance carriers, not by you. The premium you pay is the same whether you enroll through a broker, directly with the carrier, or on medicare.gov.",
+      "Ideally, reach out about 6 months before you turn 65 or before your employer coverage ends. For Medicare Advantage or Part D changes, the Annual Enrollment Period runs October 15 through December 7.",
   },
 ];
 
-export default function BestMedicareBrokerHackensack() {
+export default function BestMedicareBrokerHackensackNJ() {
   return (
-    <main className="max-w-4xl mx-auto px-4 py-8">
+    <main className="max-w-3xl mx-auto px-4 py-8">
       <SchemaMarkup schema={breadcrumbSchema} />
       <SchemaMarkup schema={articleSchema} />
 
@@ -106,150 +106,166 @@ export default function BestMedicareBrokerHackensack() {
         </span>
       </nav>
 
-      <h1 className="text-3xl font-bold mb-4">
-        Best Medicare Insurance Broker Near Hackensack, NJ — Independent, Licensed, Local
+      <h1 className="text-3xl font-bold mb-4 leading-tight">
+        Best Medicare Insurance Broker Near Hackensack, NJ — Independent,
+        Licensed, Local
       </h1>
 
       <Image
-        src="/images/best-medicare-insurance-broker-near-hackensack-nj.webp"
+        src="/images/hub_best-medicare-insurance-broker-near-hackensack-nj.webp"
         alt="best medicare insurance broker near hackensack, nj"
         width={800}
         height={400}
-        className="rounded-lg mb-6 w-full"
+        className="w-full rounded-lg mb-6"
+        priority
       />
 
       <p className="text-lg mb-2">
-        Best medicare insurance broker near Hackensack, NJ - that is what Bergen County residents search when they are tired of confusing mailers and one-size-fits-all advice. I am Anthony Orner, an independent licensed broker who works with multiple carriers so you see real options side by side. My consultations are free, and I never pressure you into a plan that does not fit.
+        Best medicare insurance broker near Hackensack, NJ? That's a high bar in
+        Bergen County, where hospital network changes can upend your coverage
+        overnight. Anthony Orner is an independent, licensed broker who compares
+        plans from multiple carriers so Hackensack-area residents get real
+        answers, not a sales pitch.
       </p>
 
       <PhoneCTA />
 
-      <section className="mt-10">
+      <section className="mt-8">
         <h2 className="text-2xl font-semibold mb-3">
           What makes a Medicare broker better than a captive agent
         </h2>
         <p className="mb-2">
-          A captive agent works for one insurance company. They can only show you that company's plans, even if a competitor has a lower rate or better network for your doctors.
+          A captive agent represents one company. If that carrier's network
+          drops your local hospital system, they can't help you switch. An
+          independent broker works with multiple carriers and can move you to a
+          plan that still covers your doctors.
         </p>
         <p>
-          As an independent broker, I am contracted with over a dozen carriers. I pull quotes from all of them, lay the numbers next to each other, and let you decide. Same premium either way - carriers pay me, not you.
+          In Hackensack, that distinction matters. Recent disputes between major
+          hospital systems and insurers have left many Bergen County residents
+          scrambling to confirm their providers are still in-network. A broker
+          checks this before you enroll.
         </p>
       </section>
 
-      <section className="mt-10">
+      <section className="mt-8">
         <h2 className="text-2xl font-semibold mb-3">
           Carriers available to Hackensack residents in 2025
         </h2>
         <p className="mb-2">
-          Bergen County has strong carrier competition, which means more choices and often better rates. Here are some of the carriers I compare for Hackensack-area clients:
+          Bergen County has strong carrier competition. Depending on your zip
+          code, you may have access to:
         </p>
-        <ul className="list-disc ml-6 space-y-1 mb-2">
-          <li>Aetna</li>
-          <li>Cigna</li>
-          <li>Mutual of Omaha</li>
-          <li>United American</li>
-          <li>Humana</li>
-          <li>UnitedHealthcare (AARP)</li>
-          <li>Wellcare</li>
+        <ul className="list-disc pl-6 space-y-1 mb-2">
+          <li>Medicare Advantage plans (HMO and PPO) from several national and regional carriers</li>
+          <li>Medigap plans (A, B, C, D, F, G, K, L, M, N) from multiple underwriters</li>
+          <li>Part D standalone prescription drug plans</li>
         </ul>
         <p>
-          Rates vary by carrier, age, gender, and tobacco use. I run all the numbers so you do not have to call each company yourself.
+          Rates vary by carrier, age, and tobacco status. Anthony runs the
+          comparison so you see real numbers, not marketing promises.
         </p>
       </section>
 
-      <section className="mt-10">
+      <section className="mt-8">
         <h2 className="text-2xl font-semibold mb-3">
           How Anthony Orner helps Bergen County clients save
         </h2>
         <p className="mb-2">
-          Most of my Hackensack-area clients save by choosing Plan G or Plan N for their Medigap coverage. Plan G covers everything Original Medicare does not, except the Part B deductible ($257 in 2026). Plan N costs less per month but adds small copays at some visits.
+          Anthony lives and works in New Jersey. He knows which plans cover
+          Hackensack University Medical Center, Holy Name Medical Center, and
+          other Bergen County facilities. He doesn't guess.
         </p>
         <p>
-          I walk you through both options with actual dollar amounts so you can see the real annual cost, not just the monthly premium.
+          He checks your prescriptions against each plan's formulary, confirms
+          your specialists are in-network, and runs cost projections that include
+          premiums, deductibles, and copays together. The goal: lowest total
+          out-of-pocket cost, not just the cheapest monthly premium.
         </p>
       </section>
 
-      <section className="mt-10">
+      <section className="mt-8">
         <h2 className="text-2xl font-semibold mb-3">
-          Why timing matters for your enrollment
+          Why network disruptions make broker advice critical
         </h2>
         <p className="mb-2">
-          Your Medigap Open Enrollment Period lasts 6 months starting the month you turn 65 and are enrolled in Part B. During this window, carriers must accept you at the best available rate with no health questions.
+          Bergen County residents have watched major hospital systems and
+          insurers fail to reach agreements, leaving patients caught in the
+          middle. If your hospital drops out of your plan's network mid-year, you
+          may qualify for a Special Enrollment Period to switch.
         </p>
         <p>
-          Miss it, and you may face medical underwriting or higher premiums. I recommend clients apply up to 6 months before their Part B start date to lock in the lowest rate early.
+          A broker monitors these changes and contacts you proactively. You
+          shouldn't have to find out through a surprise bill.
         </p>
       </section>
 
-      <section className="mt-10">
+      <section className="mt-8">
         <h2 className="text-2xl font-semibold mb-3">
-          Medicare Advantage options in the Hackensack area
+          Key 2026 Medicare costs to know
         </h2>
-        <p className="mb-2">
-          If you prefer an all-in-one plan with built-in drug coverage, dental, and vision, Medicare Advantage may work for you. Several carriers offer $0-premium HMO and PPO plans in Bergen County.
-        </p>
-        <p>
-          The tradeoff is network restrictions and out-of-pocket maximums. I help you compare the network against your current doctors so there are no surprises.
-        </p>
+        <ul className="list-disc pl-6 space-y-1">
+          <li>Part B premium: $202.90/month</li>
+          <li>Part B deductible: $283/year</li>
+          <li>Part A deductible: $1,676 per benefit period</li>
+          <li>SNF coinsurance (days 21–100): $209.50/day</li>
+          <li>
+            Medigap Open Enrollment: 6 months starting the month you turn 65 and
+            are enrolled in Part B
+          </li>
+        </ul>
       </section>
 
-      <section className="mt-10">
+      <section className="mt-8">
         <h2 className="text-2xl font-semibold mb-3">
           Request your free Hackensack-area Medicare quote
         </h2>
         <p className="mb-2">
-          Whether you are turning 65, retiring from a Bergen County employer, or reviewing your current plan during open enrollment (October 15 through December 7), I will build a comparison specific to your situation.
+          There's no fee to work with Anthony. Carriers pay him, you don't. The
+          premium you pay is identical whether you enroll through a broker or
+          directly.
         </p>
         <p>
-          One call. Multiple carriers. No cost. No obligation.
+          Call with your Medicare card, a list of current medications, and your
+          doctor names. That's all he needs to run a full comparison.
         </p>
       </section>
 
-      <div className="bg-blue-600 text-white rounded-lg p-8 mt-10 text-center">
+      <div className="mt-10 bg-blue-600 text-white rounded-lg p-6 text-center">
         <p className="text-xl font-bold mb-2">
-          Talk to a Licensed Medicare Broker Today
+          Talk to Anthony Orner — Bergen County's Independent Medicare Broker
         </p>
-        <p className="mb-4">
-          Call{" "}
-          <a href="tel:8555591700" className="underline font-semibold">
+        <p className="text-2xl font-bold mb-3">
+          <a href="tel:8555591700" className="underline">
             855-559-1700
-          </a>{" "}
-          or request your comparison online.
+          </a>
         </p>
         <Link
           href="/contact"
-          className="inline-block bg-white text-blue-600 font-semibold px-6 py-3 rounded-lg hover:bg-gray-100"
+          className="inline-block bg-white text-blue-600 font-semibold px-6 py-3 rounded-lg hover:bg-gray-100 transition"
         >
           Get a Free Quote
         </Link>
       </div>
 
-      <section className="mt-12">
+      <section className="mt-10">
         <FAQSection faqs={faqs} />
       </section>
 
-      <section className="mt-12">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
         <ul className="space-y-2">
           <li>
             <Link
-              href="/medicare-guides/medicare-supplement-plan-g-nj"
+              href="/medicare-guides/medigap-plan-g-nj"
               className="text-blue-600 hover:underline"
             >
-              Medicare Supplement Plan G in New Jersey
+              Medigap Plan G in New Jersey: What It Covers and Costs
             </Link>
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-supplement-plan-n-nj"
-              className="text-blue-600 hover:underline"
-            >
-              Medicare Supplement Plan N in New Jersey
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/medicare-guides/medicare-advantage-plans-bergen-county"
+              href="/medicare-guides/medicare-advantage-bergen-county"
               className="text-blue-600 hover:underline"
             >
               Medicare Advantage Plans in Bergen County
@@ -257,10 +273,18 @@ export default function BestMedicareBrokerHackensack() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/when-to-enroll-in-medicare-nj"
+              href="/medicare-guides/when-to-enroll-medicare-nj"
               className="text-blue-600 hover:underline"
             >
-              When to Enroll in Medicare in NJ
+              When to Enroll in Medicare in New Jersey
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/medicare-guides/medicare-part-d-nj"
+              className="text-blue-600 hover:underline"
+            >
+              Medicare Part D in NJ: Choosing the Right Drug Plan
             </Link>
           </li>
         </ul>

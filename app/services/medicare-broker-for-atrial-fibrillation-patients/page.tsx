@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Medicare Broker for Atrial Fibrillation Patients",
-      item: "https://www.medicareyourself.com/services/medicare-broker-for-atrial-fibrillation-patients",
+      item: "https://medicareyourself.com/services/medicare-broker-for-atrial-fibrillation-patients",
     },
   ],
 };
@@ -51,49 +51,49 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-31",
-  dateModified: "2025-07-31",
+  datePublished: "2025-07-01",
+  dateModified: "2025-07-01",
 };
 
 const faqs = [
   {
-    question: "Does Medicare cover AFib treatment?",
+    question: "How much does it cost to use a Medicare broker?",
     answer:
-      "Yes. Original Medicare (Parts A and B) covers medically necessary AFib treatments including diagnostic testing, cardiology visits, cardiovascular monitoring, and procedures like catheter ablation when deemed appropriate by your doctor. Part B covers outpatient cardiology and monitoring devices. Part A covers inpatient hospital stays for procedures. Part D or Medicare Advantage plans cover prescription medications like blood thinners, though formularies vary by plan.",
+      "Nothing. Licensed Medicare brokers like Anthony Orner are paid by the insurance carriers, not by you. The plan you choose costs the same whether you use a broker or go direct. You get free expert guidance with zero markup.",
+  },
+  {
+    question: "Is atrial fibrillation covered by Medicare?",
+    answer:
+      "Yes. Medicare covers AFib diagnosis, treatment, and monitoring. Part B covers cardiology visits, EKGs, echocardiograms, and Holter monitors. Part A covers hospital stays and procedures like catheter ablation. Part D or Medicare Advantage covers prescription blood thinners. The key is choosing a plan that minimizes your out-of-pocket costs for the specific services you use most.",
   },
   {
     question:
-      "Will Medicare pay for a cardiac ablation for atrial fibrillation?",
+      "Can I get a Medigap plan in New Jersey if I already have an AFib diagnosis?",
     answer:
-      "Medicare covers cardiac ablation when it's medically necessary and your doctor documents that other treatments haven't controlled your AFib adequately. You'll still owe the Part A deductible ($1,676 per benefit period in 2026) and any coinsurance unless you have a Medigap plan or Medicare Advantage plan that reduces your out-of-pocket costs.",
+      "During your Medigap Open Enrollment Period (the 6 months starting when you turn 65 and are enrolled in Part B), carriers cannot deny you or charge more because of AFib. Outside that window, medical underwriting may apply. That's why timing matters so much. Call Anthony to review your enrollment options.",
   },
   {
     question:
-      "Can I get a Medigap plan in New Jersey if I already have AFib?",
+      "Does Medicare cover catheter ablation for atrial fibrillation?",
     answer:
-      "During your 6-month Medigap Open Enrollment Period (starting the month you turn 65 and have Part B), no carrier can deny you or charge more because of AFib. Outside that window, medical underwriting applies in most states, and a pre-existing heart condition could affect eligibility or pricing. That's why timing matters so much. Call Anthony at 855-559-1700 to review your enrollment timeline.",
-  },
-  {
-    question: "Is Medicare Advantage or Medigap better for AFib patients?",
-    answer:
-      "It depends on how you use care. If you see specialists frequently, need regular monitoring, or may need a procedure like ablation, Medigap often provides more predictable costs since it covers your Medicare coinsurance and copays. Medicare Advantage plans may offer lower premiums but come with networks, prior authorizations, and out-of-pocket maximums. Anthony can compare both options for your specific situation at no cost.",
+      "Medicare Part A covers catheter ablation as a medically necessary inpatient or outpatient hospital procedure. You'll owe the Part A deductible ($1,676 per benefit period in 2026) plus any coinsurance. A Medigap plan can cover most or all of that gap. Some patients report ablation charges over $90,000 before insurance, which makes your supplemental coverage critical.",
   },
 ];
 
-export default function MedicareBrokerAtrialFibrillation() {
+export default function MedicareBrokerForAtrialFibrillationPatients() {
   return (
-    <main className="max-w-4xl mx-auto px-4 py-8">
+    <>
       <SchemaMarkup schema={breadcrumbSchema} />
       <SchemaMarkup schema={articleSchema} />
 
-      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
+      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-4">
         <Link href="/" className="hover:underline">
           Home
         </Link>{" "}
@@ -107,201 +107,172 @@ export default function MedicareBrokerAtrialFibrillation() {
         </span>
       </nav>
 
-      <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-        Medicare Broker for Atrial Fibrillation Patients Who Deserve Coverage
-        Without the Financial Stress
-      </h1>
+      <article className="max-w-3xl mx-auto">
+        <h1 className="text-3xl md:text-4xl font-bold mb-4">
+          Medicare Broker for Atrial Fibrillation Patients Who Deserve Coverage Without the Financial Stress
+        </h1>
 
-      <Image
-        src="/images/medicare-broker-for-atrial-fibrillation-patients.webp"
-        alt="Medicare broker for atrial fibrillation patients"
-        width={800}
-        height={400}
-        className="rounded-lg mb-6 w-full"
-      />
+        <Image
+          src="/images/hub_medicare-broker-for-atrial-fibrillation-patients.webp"
+          alt="Medicare broker for atrial fibrillation patients"
+          width={800}
+          height={400}
+          className="w-full rounded-lg mb-6"
+          priority
+        />
 
-      <p className="text-lg text-gray-700 mb-2">
-        A Medicare broker for atrial fibrillation patients can be the difference
-        between a plan that covers your blood thinners and cardiology visits and
-        one that leaves you staring at a $93,000 ablation bill wondering what
-        went wrong. I'm Anthony Orner, a licensed Medicare broker in New Jersey,
-        and I help AFib patients find the right coverage before the financial
-        stress piles on top of the heart stress.
-      </p>
+        <p className="text-lg mb-2">
+          A Medicare broker for atrial fibrillation patients does one thing most people can't do alone: match your specific cardiac care needs to the plan that actually covers them well. I'm Anthony Orner, a licensed Medicare broker in New Jersey, and I work with AFib patients every enrollment season.
+        </p>
+        <p className="text-lg mb-6">
+          That flutter at 2 AM is stressful enough. You shouldn't also be wondering whether your plan will cover the cardiologist visit, the blood thinner refill, or the ablation your EP is recommending.
+        </p>
 
-      <PhoneCTA />
+        <PhoneCTA />
 
-      <section className="mt-8">
-        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
-          Blood thinners, ablations, and what your plan needs to cover
-        </h2>
-        <p className="text-gray-700 mb-3">
-          AFib treatment isn't one prescription and done. You're likely on a
-          blood thinner like Eliquis or Xarelto, seeing a cardiologist or
-          electrophysiologist regularly, and possibly wearing a heart monitor.
-          Some of you are heading toward an ablation.
-        </p>
-        <p className="text-gray-700 mb-3">
-          Original Medicare covers medically necessary AFib treatments: Part B
-          handles outpatient cardiology and monitoring, Part A covers inpatient
-          procedures. But the gaps hit hard. The Part A deductible alone is
-          $1,676 per benefit period in 2026. Without supplemental coverage,
-          you're exposed.
-        </p>
-      </section>
+        <section className="mt-10 mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Blood thinners, ablations, and what your plan needs to cover
+          </h2>
+          <p className="mb-2">
+            AFib treatment isn't one prescription and done. It's ongoing monitoring, rate or rhythm control medications, and possibly procedures. Here's what your Medicare plan should handle:
+          </p>
+          <ul className="list-disc pl-6 space-y-1 mb-2">
+            <li>Anticoagulants like Eliquis or Xarelto (Part D or MA drug formulary)</li>
+            <li>Beta blockers, calcium channel blockers, or antiarrhythmics</li>
+            <li>EKGs, echocardiograms, Holter monitors, and event monitors (Part B)</li>
+            <li>Catheter ablation or electrical cardioversion (Part A)</li>
+            <li>Electrophysiologist and cardiologist office visits (Part B)</li>
+          </ul>
+          <p>
+            Some blood thinners run over $130/month without the right plan. I compare Part D formularies and MA drug tiers to find you the lowest real cost.
+          </p>
+        </section>
 
-      <section className="mt-8">
-        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
-          How AFib diagnosis affects Medigap enrollment in New Jersey
-        </h2>
-        <p className="text-gray-700 mb-3">
-          Timing is everything. During your 6-month Medigap Open Enrollment
-          Period, no carrier can deny you or charge higher premiums because of
-          your AFib. That window starts the month you turn 65 and have Part B.
-          Miss it, and medical underwriting kicks in. A heart rhythm condition on
-          your record can mean higher rates or flat-out denials.
-        </p>
-        <p className="text-gray-700">
-          If you're approaching 65 and already diagnosed, we need to talk before
-          that window opens. I typically have clients apply up to six months
-          early to lock in the best rate.
-        </p>
-      </section>
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            How AFib diagnosis affects Medigap enrollment in New Jersey
+          </h2>
+          <p className="mb-2">
+            Your Medigap Open Enrollment Period lasts 6 months, starting the month you turn 65 and have Part B. During that window, no carrier in NJ can deny you or charge higher premiums because of your AFib diagnosis.
+          </p>
+          <p>
+            Miss that window and medical underwriting kicks in. Carriers can ask about your heart history and may decline your application. If you're approaching 65 with an AFib diagnosis, call me at least 6 months before your Part B start date. Timing is everything here.
+          </p>
+        </section>
 
-      <section className="mt-8">
-        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
-          Medicare Advantage vs. Medigap when you're managing heart rhythm
-          issues
-        </h2>
-        <p className="text-gray-700 mb-3">
-          Medicare Advantage plans can look appealing with low premiums and added
-          benefits. But for AFib patients who need frequent specialist visits and
-          may need a procedure, there are real tradeoffs:
-        </p>
-        <ul className="list-disc pl-6 text-gray-700 space-y-2 mb-3">
-          <li>
-            <strong>Network restrictions</strong> - your electrophysiologist may
-            not be in-network
-          </li>
-          <li>
-            <strong>Prior authorizations</strong> - some plans require approval
-            before ablation procedures
-          </li>
-          <li>
-            <strong>Out-of-pocket maximums</strong> - can still reach $5,000 to
-            $8,000 in a bad year
-          </li>
-        </ul>
-        <p className="text-gray-700">
-          Medigap plans like Plan G cover your Part A and Part B coinsurance
-          with no network and no prior auth. Your out-of-pocket costs become
-          predictable. For someone with an unpredictable heart, predictable
-          finances matter.
-        </p>
-      </section>
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Medicare Advantage vs. Medigap when you're managing heart rhythm issues
+          </h2>
+          <p className="mb-2">
+            Medicare Advantage plans often have $0 premiums and extra benefits. But they use provider networks. If your electrophysiologist or cardiac center isn't in-network, you'll pay significantly more or need a referral.
+          </p>
+          <p className="mb-2">
+            Medigap (like Plan G) pairs with Original Medicare and lets you see any provider who accepts Medicare. No referrals. No network restrictions. You pay the Part B deductible ($283 in 2026), and Plan G covers the rest.
+          </p>
+          <p>
+            For AFib patients who see multiple specialists and may need procedures, that flexibility often matters more than the premium difference. I'll run the numbers both ways for your situation.
+          </p>
+        </section>
 
-      <section className="mt-8">
-        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
-          Stop worrying about bills on top of every heart flutter
-        </h2>
-        <p className="text-gray-700 mb-3">
-          That 2 AM flutter shouldn't come with a second wave of panic about
-          what the ER visit will cost. Too many AFib patients delay going in
-          because they're worried about the bill. The right plan takes that fear
-          off the table so you can focus on your health.
-        </p>
-      </section>
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            What happens when Medicare denies an AFib procedure
+          </h2>
+          <p className="mb-2">
+            Some patients hit a wall trying to get ablation approved. Medicare covers catheter ablation when it's medically necessary, but denials happen. You have the right to appeal.
+          </p>
+          <p>
+            I help clients understand what their plan actually requires for prior authorization and point them to the right resources if a denial comes through. You shouldn't have to figure out the appeals process alone while managing active symptoms.
+          </p>
+        </section>
 
-      <section className="mt-8">
-        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
-          Your prescriptions need a plan that actually covers them
-        </h2>
-        <p className="text-gray-700 mb-3">
-          Blood thinners can cost hundreds per month without proper Part D
-          coverage. Formularies vary wildly between carriers. One plan might put
-          Eliquis on a preferred tier while another requires step therapy or
-          prior authorization. I compare Part D plans alongside your Medigap or
-          Advantage options to make sure your medications are covered at the
-          lowest cost.
-        </p>
-      </section>
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            The real cost of AFib without the right plan
+          </h2>
+          <p className="mb-2">
+            An ablation can generate charges over $90,000. Even with Original Medicare paying 80%, you'd owe roughly $18,000 out of pocket without supplemental coverage. The Part A inpatient deductible alone is $1,676 per benefit period in 2026.
+          </p>
+          <p>
+            Add monthly blood thinner costs, quarterly cardiology visits, and monitoring devices. The wrong plan bleeds money every month. The right plan keeps your costs predictable.
+          </p>
+        </section>
 
-      <section className="mt-8">
-        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
-          What a free plan review looks like
-        </h2>
-        <p className="text-gray-700 mb-3">
-          You call. We talk through your doctors, your prescriptions, and what
-          procedures might be ahead. I compare carriers across New Jersey and
-          show you the actual numbers. No cost, no obligation, no pressure. If
-          the plan you already have is the best fit, I'll tell you that too.
-        </p>
-      </section>
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Stop worrying about bills on top of every heart flutter
+          </h2>
+          <p className="mb-2">
+            You're already tracking your heart rate, watching your triggers, managing medications. You don't need a second full-time job decoding insurance formularies and provider directories.
+          </p>
+          <p>
+            I compare plans across every major carrier in New Jersey, check that your cardiologist and medications are covered, and walk you through the real costs. No charge to you, ever. Carriers pay my commission, and your plan costs the same whether you use me or go direct.
+          </p>
+        </section>
 
-      <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 mt-10 mb-10 text-center">
-        <p className="text-xl font-semibold text-blue-900 mb-2">
-          Talk to a licensed Medicare broker who understands AFib coverage.
-        </p>
-        <p className="text-blue-800 mb-4">
-          Call{" "}
+        <div className="bg-blue-600 text-white rounded-lg p-8 text-center my-10">
+          <p className="text-xl font-semibold mb-2">
+            Ready to find a plan that covers your AFib care?
+          </p>
+          <p className="mb-4">
+            Call Anthony Orner for a free, no-pressure plan comparison.
+          </p>
           <a
             href="tel:8555591700"
-            className="font-bold underline hover:text-blue-600"
+            className="text-2xl font-bold underline block mb-3"
           >
             855-559-1700
-          </a>{" "}
-          or{" "}
+          </a>
           <Link
             href="/contact"
-            className="font-bold underline hover:text-blue-600"
+            className="inline-block bg-white text-blue-600 font-semibold px-6 py-3 rounded-lg hover:bg-gray-100"
           >
-            get a free quote online
+            Get a Free Quote
           </Link>
-          .
-        </p>
-      </div>
+        </div>
 
-      <FAQSection faqs={faqs} />
+        <FAQSection faqs={faqs} />
 
-      <section className="mt-10">
-        <h2 className="text-2xl font-semibold text-gray-900 mb-4">
-          Related resources
-        </h2>
-        <ul className="space-y-2">
-          <li>
-            <Link
-              href="/medicare-guides/medigap-plan-g-nj"
-              className="text-blue-700 hover:underline"
-            >
-              Medigap Plan G in New Jersey: What It Covers and What It Costs
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/medicare-guides/medicare-advantage-vs-medigap"
-              className="text-blue-700 hover:underline"
-            >
-              Medicare Advantage vs. Medigap: Which Is Right for You?
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/medicare-guides/medicare-part-d-prescription-drug-coverage"
-              className="text-blue-700 hover:underline"
-            >
-              Medicare Part D: How Prescription Drug Coverage Works
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/services/medicare-broker-nj"
-              className="text-blue-700 hover:underline"
-            >
-              Find a Licensed Medicare Broker in New Jersey
-            </Link>
-          </li>
-        </ul>
-      </section>
-    </main>
+        <section className="mt-10">
+          <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
+          <ul className="space-y-2">
+            <li>
+              <Link
+                href="/medicare-guides/medigap-plan-g-nj"
+                className="text-blue-600 hover:underline"
+              >
+                Medigap Plan G in New Jersey: What It Covers and What It Costs
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/medicare-guides/medicare-advantage-vs-medigap"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare Advantage vs. Medigap: How to Decide
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/medicare-guides/part-d-drug-coverage"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare Part D: How Prescription Drug Coverage Works
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/medicare-broker-for-heart-disease-patients"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare Broker for Heart Disease Patients in NJ
+              </Link>
+            </li>
+          </ul>
+        </section>
+      </article>
+    </>
   );
 }

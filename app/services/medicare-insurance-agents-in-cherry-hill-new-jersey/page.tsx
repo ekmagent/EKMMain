@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Medicare Insurance Agents in Cherry Hill, New Jersey",
-      item: "https://www.medicareyourself.com/services/medicare-insurance-agents-in-cherry-hill-new-jersey",
+      item: "https://medicareyourself.com/services/medicare-insurance-agents-in-cherry-hill-new-jersey",
     },
   ],
 };
@@ -51,52 +51,51 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  mainEntityOfPage:
-    "https://www.medicareyourself.com/services/medicare-insurance-agents-in-cherry-hill-new-jersey",
+  datePublished: "2025-01-01",
+  dateModified: "2025-07-01",
 };
 
 const faqs = [
   {
     question: "Should I use an insurance agent for Medicare?",
     answer:
-      "Yes. A licensed Medicare agent helps you compare plans, understand costs, and enroll correctly - all at no charge to you. Brokers are paid by the insurance carriers, so the service is free whether you choose a Supplement or Advantage plan.",
+      "Yes. An independent Medicare broker compares plans from multiple carriers at no cost to you. Brokers are compensated by the insurance companies, so the plans cost the same whether you enroll directly or through a broker. The difference is you get someone who can explain your options side by side.",
   },
   {
     question: "What is the best Medicare plan in New Jersey?",
     answer:
-      "There is no single best plan for everyone. Medicare Supplement Plan G is popular because it covers nearly all out-of-pocket costs after the $257 annual Part B deductible. Medicare Advantage plans may work better if you want bundled dental, vision, and drug coverage. A broker can compare both options based on your doctors and medications.",
+      "There's no single best plan for everyone. The right choice depends on your doctors, prescriptions, and budget. In Camden County, both Medigap Supplement plans and Medicare Advantage plans are widely available. A broker can compare your specific situation across carriers to find the strongest fit.",
   },
   {
     question: "How do I pick a Medicare agent?",
     answer:
-      "Look for someone who is independent (not tied to one carrier), licensed in New Jersey, and willing to explain plan differences without pressure. Ask how many carriers they represent. An independent broker can show you options from multiple companies so you get the best fit.",
+      "Look for an independent broker, not a captive agent tied to one carrier. Make sure they're licensed in New Jersey, willing to show you plans from multiple companies, and available after enrollment for claims questions or plan changes.",
   },
   {
-    question: "What is the best insurance company for people on Medicare?",
+    question: "Does it cost anything to work with a Medicare broker in Cherry Hill?",
     answer:
-      "Top Medicare carriers in New Jersey include Aetna, Cigna, Mutual of Omaha, and United American for Supplement plans, plus Aetna, Humana, and UnitedHealthcare for Advantage plans. Rates and networks vary, so comparing quotes from several carriers is the smartest move.",
+      "No. Independent Medicare brokers are paid by the insurance carriers. You pay the same premium whether you enroll on your own or through a broker. There's no fee, no obligation, and no markup.",
   },
 ];
 
-export default function MedicareAgentsCherryHillNJ() {
+export default function MedicareInsuranceAgentsCherryHillNJ() {
   return (
     <main className="max-w-4xl mx-auto px-4 py-8">
-      <SchemaMarkup schema={breadcrumbSchema} />
-      <SchemaMarkup schema={articleSchema} />
+      <SchemaMarkup schema={[breadcrumbSchema, articleSchema]} />
 
       <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
         <Link href="/" className="hover:underline">
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare" className="hover:underline">
+        <Link href="/medicare-guides" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -105,219 +104,205 @@ export default function MedicareAgentsCherryHillNJ() {
         </span>
       </nav>
 
-      <h1 className="text-3xl font-bold mb-4">
+      <h1 className="text-3xl md:text-4xl font-bold mb-4">
         Medicare Insurance Agents in Cherry Hill, New Jersey: Local Broker
         Support
       </h1>
 
       <Image
-        src="/images/medicare-insurance-agents-in-cherry-hill-new-jersey.webp"
+        src="/images/hub_medicare-insurance-agents-in-cherry-hill-new-jersey.webp"
         alt="Medicare insurance agents in Cherry Hill New Jersey"
         width={800}
         height={400}
-        className="rounded-lg mb-6 w-full"
+        className="w-full rounded-lg mb-6"
+        priority
       />
 
       <p className="text-lg mb-2">
-        Medicare insurance agents in Cherry Hill, New Jersey can make the
-        difference between overpaying for coverage and finding a plan that
-        actually matches your needs. I'm Anthony Orner, a licensed independent
-        Medicare broker serving Cherry Hill and Camden County residents.
+        Medicare insurance agents in Cherry Hill, New Jersey work in one of two
+        ways: captive agents sell plans for one company, while independent
+        brokers compare plans across many. That distinction shapes every
+        recommendation you receive.
       </p>
       <p className="text-lg mb-6">
-        My consultations are always free, and I work with multiple carriers so
-        you see real options - not just one company's pitch.
+        I&apos;m Anthony Orner, a licensed independent Medicare broker serving
+        Cherry Hill and Camden County. I help people approaching 65 sort through
+        their options without the pressure of a sales quota.
       </p>
 
       <PhoneCTA />
 
-      <section className="mt-10 mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
           How a Cherry Hill Medicare broker differs from a captive agent
         </h2>
         <p className="mb-2">
-          A captive agent represents one insurance company. They can only show
-          you that company's plans, even if a competitor offers better rates or
-          benefits. An independent broker like me represents multiple carriers
-          across both Supplement and Advantage categories.
+          A captive agent represents one carrier. They can only show you what
+          that company sells. If another carrier has a lower rate or better
+          network for your doctors, you&apos;ll never hear about it.
         </p>
         <p>
-          That means I can pull quotes from several companies side by side and
-          recommend the plan that fits your budget and health situation. You
-          never pay extra for using a broker - carriers pay the commission
-          directly.
+          An independent broker like me is contracted with multiple carriers. I
+          pull quotes from each and lay them next to each other so you can see
+          real differences in premiums, copays, and provider access.
         </p>
       </section>
 
-      <section className="mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
           Supplement and Advantage plans available in Camden County
         </h2>
         <p className="mb-2">
-          Cherry Hill sits in Camden County, which has strong carrier
-          availability for both plan types. Here's a quick breakdown:
+          Camden County residents have strong access to both plan types:
         </p>
         <ul className="list-disc pl-6 space-y-2 mb-2">
           <li>
-            <strong>Medicare Supplement (Medigap):</strong> Plan G is the most
-            popular standardized plan. You pay the $257 Part B deductible per
-            year, and Plan G covers the rest. Plan N offers lower premiums with
-            small copays at office visits.
+            <strong>Medigap Supplement plans</strong> (like Plan G or Plan N)
+            pair with Original Medicare. You pick any doctor who accepts
+            Medicare. Rates vary by carrier, age, and tobacco use.
           </li>
           <li>
-            <strong>Medicare Advantage (Part C):</strong> Several HMO and PPO
-            options are available in 08002, 08003, and surrounding zip codes.
-            Many include prescription drug coverage, dental, and vision at $0
-            premium beyond your $185/month Part B.
+            <strong>Medicare Advantage plans</strong> often include Part D drug
+            coverage, dental, and vision. Most use local networks tied to health
+            systems in the Cherry Hill and Philadelphia corridor.
           </li>
         </ul>
         <p>
-          Rates vary by carrier, age, and tobacco use. I'll pull current quotes
-          so you can compare actual numbers.
+          The right choice depends on your medications, how often you see
+          specialists, and whether you want predictable costs or network-based
+          savings.
         </p>
       </section>
 
-      <section className="mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
           When to contact a broker before your 65th birthday
         </h2>
         <p className="mb-2">
-          Your Medigap Open Enrollment Period lasts six months, starting the
-          month you turn 65 and are enrolled in Part B. During this window, no
-          carrier can turn you down or charge you more due to health conditions.
+          Your Medigap Open Enrollment Period starts the month you turn 65 and
+          are enrolled in Part B. It lasts six months. During this window,
+          carriers must accept you regardless of health history. After it closes,
+          medical underwriting applies.
         </p>
-        <p className="mb-2">
-          I recommend reaching out at least six months before your Part B start
-          date. This lets us apply for your Supplement plan early, locking in
-          your rate before potential premium increases take effect. The sooner
-          you lock in, the better your rate.
+        <p>
+          Start the conversation at least six months before your Part B
+          effective date. That gives us time to compare rates, review your
+          prescriptions, and confirm your doctors are in network if you&apos;re
+          considering Advantage.
         </p>
-        <p>Miss that window? You may face medical underwriting, which can mean higher premiums or denial.</p>
       </section>
 
-      <section className="mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
-          What to expect during a free plan comparison
+          What happens when a carrier drops your provider
         </h2>
         <p className="mb-2">
-          When you call or schedule a meeting, here's what happens:
+          Network disruptions are real in South Jersey. When a health system
+          stops accepting a particular insurer, patients scramble. If you&apos;re
+          on Medicare Advantage and your provider leaves the network, you may
+          qualify for a Special Enrollment Period to switch plans.
         </p>
-        <ul className="list-disc pl-6 space-y-2">
-          <li>I ask about your current doctors, prescriptions, and budget</li>
-          <li>
-            I pull quotes from multiple carriers for Supplement and/or Advantage
-            plans
-          </li>
-          <li>
-            We review the numbers together - no jargon, no pressure
-          </li>
-          <li>
-            If you want to enroll, I handle the paperwork. If not, no hard
-            feelings.
-          </li>
-        </ul>
+        <p>
+          A broker can help you move quickly when that happens. I monitor
+          carrier-network changes in Camden County so my clients aren&apos;t
+          caught off guard.
+        </p>
       </section>
 
-      <section className="mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
-          Key enrollment dates Cherry Hill residents should know
+          2026 Medicare costs you should know
         </h2>
         <ul className="list-disc pl-6 space-y-2">
+          <li>Part B premium: $202.90/month</li>
+          <li>Part B deductible: $283/year</li>
+          <li>Part A hospital deductible: $1,676 per benefit period</li>
           <li>
-            <strong>Turning 65:</strong> Medigap Open Enrollment runs six months
-            from your Part B effective date. Guaranteed issue - no health
-            questions.
+            Skilled nursing facility coinsurance (days 21-100): $209.50/day
           </li>
           <li>
-            <strong>Annual Enrollment Period:</strong> October 15 through
-            December 7 each year. This is when you can switch Medicare Advantage
-            or Part D drug plans.
-          </li>
-          <li>
-            <strong>Losing employer coverage:</strong> You may qualify for a
-            Special Enrollment Period and federal guaranteed issue rights for
-            Medigap plans.
+            Part B late enrollment penalty: 10% for each 12-month period you
+            delayed
           </li>
         </ul>
+        <p className="mt-2">
+          These costs are why most people pair Original Medicare with a
+          Supplement or choose a Medicare Advantage plan that caps
+          out-of-pocket spending.
+        </p>
       </section>
 
-      <section className="mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
           Get a free plan comparison from Anthony Orner
         </h2>
         <p className="mb-2">
-          I live and work in New Jersey. I know which carriers price well in
-          Camden County and which ones don't. Whether you prefer to meet in
-          person, over the phone, or by video call, I adjust to what works for
-          you.
+          I live and work in New Jersey. My consultations are free, and I
+          don&apos;t push one carrier over another. You pay the same premium
+          whether you call a carrier directly or go through me.
         </p>
         <p>
-          Call me today at{" "}
-          <a href="tel:8555591700" className="text-blue-700 font-semibold">
-            855-559-1700
-          </a>{" "}
-          or schedule a time that fits your calendar. There's zero obligation,
-          and the service costs you nothing.
+          Call me and we&apos;ll walk through your medications, doctors, and
+          budget together. No paperwork upfront, no obligation.
         </p>
       </section>
 
-      <div className="bg-blue-600 text-white rounded-lg p-8 text-center mb-10">
-        <p className="text-xl font-bold mb-2">
-          Ready to compare Medicare plans in Cherry Hill?
+      <div className="mt-10 bg-blue-600 text-white rounded-lg p-8 text-center">
+        <p className="text-2xl font-bold mb-2">Talk to a Local Medicare Broker</p>
+        <p className="text-lg mb-4">
+          Free plan comparison for Cherry Hill and all of Camden County.
         </p>
-        <p className="mb-4">
-          Call{" "}
-          <a
-            href="tel:8555591700"
-            className="underline font-semibold text-white"
-          >
-            855-559-1700
-          </a>{" "}
-          for a free, no-pressure consultation.
-        </p>
+        <a
+          href="tel:8555591700"
+          className="text-3xl font-bold underline block mb-4"
+        >
+          855-559-1700
+        </a>
         <Link
-          href="/quote"
-          className="inline-block bg-white text-blue-600 font-bold py-3 px-6 rounded-lg hover:bg-gray-100 transition"
+          href="/contact"
+          className="inline-block bg-white text-blue-600 font-semibold rounded-lg px-6 py-3 hover:bg-blue-50 transition"
         >
           Get a Free Quote
         </Link>
       </div>
 
-      <FAQSection faqs={faqs} />
+      <section className="mt-12">
+        <FAQSection faqs={faqs} />
+      </section>
 
-      <section className="mt-10">
+      <section className="mt-12">
         <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
-        <ul className="space-y-2">
+        <ul className="space-y-3">
           <li>
             <Link
-              href="/medicare/supplement/plan-g-new-jersey"
-              className="text-blue-700 hover:underline"
+              href="/medicare-guides/medicare-supplement-plans-new-jersey"
+              className="text-blue-600 hover:underline"
             >
-              Medicare Plan G in New Jersey: Costs and Coverage
+              Medicare Supplement Plans in New Jersey
             </Link>
           </li>
           <li>
             <Link
-              href="/medicare/advantage/plans-in-new-jersey"
-              className="text-blue-700 hover:underline"
+              href="/medicare-guides/medicare-advantage-plans-new-jersey"
+              className="text-blue-600 hover:underline"
             >
-              Medicare Advantage Plans Available in New Jersey
+              Medicare Advantage Plans in New Jersey
             </Link>
           </li>
           <li>
             <Link
-              href="/medicare/enrollment/turning-65"
-              className="text-blue-700 hover:underline"
+              href="/medicare-guides/when-to-enroll-in-medicare"
+              className="text-blue-600 hover:underline"
             >
-              Turning 65? Your Medicare Enrollment Timeline
+              When to Enroll in Medicare
             </Link>
           </li>
           <li>
             <Link
-              href="/medicare/supplement/medigap-open-enrollment"
-              className="text-blue-700 hover:underline"
+              href="/medicare-guides/medicare-part-b-late-enrollment-penalty"
+              className="text-blue-600 hover:underline"
             >
-              Medigap Open Enrollment: What You Need to Know
+              Medicare Part B Late Enrollment Penalty
             </Link>
           </li>
         </ul>

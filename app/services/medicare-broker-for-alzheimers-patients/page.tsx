@@ -9,12 +9,12 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for Alzheimer's patients | Free Family Consultation | MedicareYourself",
   description:
-    "Medicare broker for Alzheimer's patients and families. Anthony Orner coordinates coverage for medications, skilled nursing, and care ahead. Free consult.",
+    "Medicare broker for Alzheimer's patients and families. Anthony Orner coordinates coverage for medications, skilled nursing, and what's ahead. Free consult.",
   openGraph: {
     title:
       "Medicare broker for Alzheimer's patients | Free Family Consultation | MedicareYourself",
     description:
-      "Medicare broker for Alzheimer's patients and families. Anthony Orner coordinates coverage for medications, skilled nursing, and care ahead. Free consult.",
+      "Medicare broker for Alzheimer's patients and families. Anthony Orner coordinates coverage for medications, skilled nursing, and what's ahead. Free consult.",
   },
 };
 
@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Medicare Broker for Alzheimer's Patients",
-      item: "https://www.medicareyourself.com/services/medicare-broker-for-alzheimers-patients",
+      item: "https://medicareyourself.com/services/medicare-broker-for-alzheimers-patients",
     },
   ],
 };
@@ -51,53 +51,53 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-01",
-  dateModified: "2025-07-01",
+  mainEntityOfPage:
+    "https://medicareyourself.com/services/medicare-broker-for-alzheimers-patients",
 };
 
 const faqs = [
   {
     question: "How much does it cost to use a Medicare broker?",
     answer:
-      "Nothing. Medicare brokers are paid by the insurance carriers, not by you. Our consultations, plan comparisons, and enrollment help are completely free to families.",
+      "Nothing. Medicare brokers are paid by the insurance carriers, not by you. Our consultations and plan recommendations are completely free to families, no matter how many times we meet or how complex the situation gets.",
   },
   {
     question: "Does Medicare pay for any Alzheimer's care?",
     answer:
-      "Yes. Medicare Part B covers cognitive assessments, care planning visits, and doctor appointments. Part A covers skilled nursing facility stays (up to 100 days per benefit period) and home health when medically necessary. Part D covers memory medications like donepezil and rivastigmine. What Medicare does not cover is long-term custodial care or memory care facilities.",
+      "Yes. Original Medicare covers doctor visits, diagnostic testing, certain home health services, and up to 100 days of skilled nursing facility care per benefit period. Part D covers approved Alzheimer's medications. What Medicare does not cover is long-term custodial care like memory care facilities or around-the-clock personal assistance.",
   },
   {
     question:
-      "Can I change my parent's Medicare plan after an Alzheimer's diagnosis?",
+      "Should my parent stay on Medicare Advantage or switch to Original Medicare?",
     answer:
-      "In most cases, you can make changes during the Annual Enrollment Period (October 15 - December 7). Certain qualifying events may also open a Special Enrollment Period. Call us and we'll review what options apply to your situation.",
+      "It depends on their stage and care needs. Medicare Advantage plans can restrict provider networks and require referrals, which becomes harder as the disease progresses and a patient can't easily travel to appointments. Original Medicare with a Supplement often gives families more flexibility. Call us and we'll review the specifics together.",
   },
   {
     question: "Does Medicare cover respite care for Alzheimer's caregivers?",
     answer:
-      "Medicare covers inpatient respite care under the hospice benefit, which provides up to five consecutive days of inpatient care so the primary caregiver can rest. Your loved one must be enrolled in Medicare hospice for this to apply.",
+      "Medicare covers inpatient respite care under the hospice benefit, up to five consecutive days at a time, when the patient qualifies for hospice. Outside of hospice, some Medicare Advantage plans include limited respite hours as a supplemental benefit. We can help you find out what's available.",
   },
 ];
 
 export default function MedicareBrokerForAlzheimersPatients() {
   return (
-    <main className="max-w-4xl mx-auto px-4 py-8">
+    <>
       <SchemaMarkup schema={breadcrumbSchema} />
       <SchemaMarkup schema={articleSchema} />
 
-      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
+      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-4">
         <Link href="/" className="hover:underline">
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/medicare" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -106,206 +106,220 @@ export default function MedicareBrokerForAlzheimersPatients() {
         </span>
       </nav>
 
-      <h1 className="text-3xl font-bold mb-4">
-        Medicare Broker for Alzheimer&#39;s Patients — Coverage for the Journey
-        Ahead
-      </h1>
+      <article className="max-w-3xl mx-auto">
+        <h1 className="text-3xl md:text-4xl font-bold mb-6">
+          Medicare Broker for Alzheimer&#39;s Patients — Coverage for the Journey
+          Ahead
+        </h1>
 
-      <Image
-        src="/images/medicare-broker-for-alzheimers-patients.webp"
-        alt="Medicare broker for Alzheimer's patients"
-        width={800}
-        height={400}
-        className="rounded-lg mb-6 w-full"
-      />
+        <Image
+          src="/images/hub_medicare-broker-for-alzheimers-patients.webp"
+          alt="Medicare broker for Alzheimer's patients"
+          width={800}
+          height={400}
+          className="w-full rounded-lg mb-6"
+          priority
+        />
 
-      <p className="text-lg mb-2">
-        A Medicare broker for Alzheimer&#39;s patients can be the difference
-        between a family scrambling for answers and a family with a plan. If
-        you&#39;re reading this for someone you love, I want you to know: you
-        don&#39;t have to figure out coverage alone.
-      </p>
-      <p className="text-lg mb-6">
-        I&#39;m Anthony Orner, a licensed Medicare broker in New Jersey. I help
-        families coordinate the parts of Medicare that matter most when
-        Alzheimer&#39;s is part of the picture - medications, skilled care, and
-        what comes next.
-      </p>
+        <p className="text-lg mb-2">
+          A Medicare broker for Alzheimer&#39;s patients can help your family make
+          sense of coverage that changes as the disease progresses. If you&#39;re
+          the one searching this, you&#39;re probably making decisions for someone
+          who can&#39;t make them anymore.
+        </p>
+        <p className="text-lg mb-6">
+          I&#39;m Anthony Orner, a licensed Medicare broker. I help families
+          coordinate the right plans for medications, skilled care, and the
+          hard decisions still ahead. The call is free.
+        </p>
 
-      <PhoneCTA />
+        <PhoneCTA />
 
-      <section className="mt-10 mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          What Medicare actually covers for Alzheimer&#39;s care and what it
-          doesn&#39;t
-        </h2>
-        <p className="mb-3">
-          Medicare Part B covers cognitive assessment and care planning visits.
-          Your loved one pays 20% of the Medicare-approved amount after the $283
-          annual Part B deductible. Doctor visits, diagnostic testing, and
-          outpatient treatment are covered under Part B as well.
-        </p>
-        <p className="mb-3">
-          Part A covers skilled nursing facility care - $0 copay for days 1-20,
-          then $209.50/day for days 21-100. Home health services are covered when
-          ordered by a doctor as medically necessary.
-        </p>
-        <p>
-          What Medicare does <strong>not</strong> cover: long-term custodial
-          care, assisted living, or memory care facilities. This is the gap that
-          catches families off guard. Understanding this early changes how you
-          plan.
-        </p>
-      </section>
+        <section className="mt-10 mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            What Medicare actually covers for Alzheimer&#39;s care and what it
+            doesn&#39;t
+          </h2>
+          <p className="mb-2">
+            Original Medicare (Parts A and B) covers doctor visits, cognitive
+            assessments, diagnostic imaging, and lab work related to
+            Alzheimer&#39;s. Part B also covers an annual wellness visit that
+            includes cognitive screening.
+          </p>
+          <p className="mb-2">
+            What catches most families off guard: Medicare does not cover
+            long-term custodial care. That means memory care facilities,
+            24/7 personal aides, and adult daycare are not covered. This is
+            the gap that blindsides people.
+          </p>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          How to coordinate supplement and Part D plans for memory medications
-        </h2>
-        <p className="mb-3">
-          Alzheimer&#39;s medications like donepezil and rivastigmine are covered
-          under Medicare Part D, but formularies vary by plan. The wrong Part D
-          plan can mean hundreds more a month out of pocket. The right one keeps
-          costs manageable.
-        </p>
-        <p>
-          A Medicare Supplement (Medigap) plan like Plan G covers the 20% Part B
-          coinsurance and the Part A deductible - costs that add up fast with
-          regular specialist visits and cognitive assessments. I compare plans
-          across carriers so the numbers actually work for your family.
-        </p>
-      </section>
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            How to coordinate Supplement and Part D plans for memory
+            medications
+          </h2>
+          <p className="mb-2">
+            Common Alzheimer&#39;s medications like donepezil and rivastigmine are
+            typically covered under Part D. But formularies vary by carrier.
+            Some plans put these drugs on preferred tiers with low copays.
+            Others don&#39;t.
+          </p>
+          <p>
+            A Medigap plan (Medicare Supplement) helps cover the costs
+            Original Medicare leaves behind, like the $1,676 Part A
+            deductible per benefit period and the $283 Part B annual
+            deductible in 2026. I match families with plans that keep
+            out-of-pocket costs predictable.
+          </p>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Planning ahead: skilled nursing, home health, and respite coverage
-        </h2>
-        <ul className="list-disc pl-6 space-y-2">
-          <li>
-            <strong>Skilled nursing:</strong> Medicare covers up to 100 days per
-            benefit period after a qualifying hospital stay. A Medigap plan can
-            cover the $209.50/day coinsurance for days 21-100.
-          </li>
-          <li>
-            <strong>Home health:</strong> Covered when medically necessary and
-            ordered by a physician. This includes skilled nursing and therapy -
-            not 24/7 custodial help.
-          </li>
-          <li>
-            <strong>Respite care:</strong> Available under the Medicare hospice
-            benefit - up to five consecutive days of inpatient care so the
-            primary caregiver can rest.
-          </li>
-        </ul>
-      </section>
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Planning ahead: skilled nursing, home health, and respite
+            coverage
+          </h2>
+          <ul className="list-disc pl-6 space-y-2">
+            <li>
+              <strong>Skilled nursing:</strong> Medicare covers days 1-20 at
+              $0 after a qualifying hospital stay. Days 21-100 cost
+              $209.50/day in 2026 unless a Supplement covers it.
+            </li>
+            <li>
+              <strong>Home health:</strong> Covered when a doctor orders
+              skilled care and the patient is homebound. This can include
+              nursing, physical therapy, and some aide services.
+            </li>
+            <li>
+              <strong>Respite care:</strong> Available under the Medicare
+              hospice benefit for up to five consecutive days when a
+              caregiver needs a break.
+            </li>
+          </ul>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          The coverage gap families don&#39;t see coming
-        </h2>
-        <p className="mb-3">
-          Most families assume Medicare will cover a nursing home or memory care
-          when the time comes. It won&#39;t - not for custodial care. That
-          reality hits hard, especially for caregivers who&#39;ve been doing
-          everything alone.
-        </p>
-        <p>
-          I can&#39;t fix that gap entirely, but I can make sure every dollar
-          Medicare <em>does</em> cover is working for you. And I can help you
-          understand what options exist beyond Medicare - Medicaid eligibility,
-          Veterans benefits if applicable, and how to plan before a crisis
-          forces your hand.
-        </p>
-      </section>
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Medicare Advantage vs. Original Medicare as the disease
+            progresses
+          </h2>
+          <p className="mb-2">
+            Many families start on a Medicare Advantage plan and it works
+            fine early on. But as Alzheimer&#39;s advances, network restrictions
+            and prior authorization requirements can become a real problem.
+            Getting someone with severe confusion to an in-network provider
+            across town isn&#39;t always possible.
+          </p>
+          <p>
+            Original Medicare with a Supplement gives you access to any
+            doctor who accepts Medicare, anywhere in the country. For
+            families managing later-stage care, that flexibility matters.
+          </p>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Why timing matters with Alzheimer&#39;s and Medicare decisions
-        </h2>
-        <p className="mb-3">
-          Alzheimer&#39;s is progressive. The coverage decisions you make early -
-          choosing the right Medigap plan, locking in a Part D plan that covers
-          current and likely future medications - protect the family later when
-          there&#39;s less capacity to make changes.
-        </p>
-        <p>
-          If your loved one is newly diagnosed and still in the early stages,
-          now is the time to get plans aligned. Don&#39;t wait until things get
-          harder.
-        </p>
-      </section>
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            When to call a broker (and why sooner is better)
+          </h2>
+          <p className="mb-2">
+            The best time to set up coverage is before a crisis. Medigap
+            plans have medical underwriting outside of your initial open
+            enrollment period, so locking in a plan while health allows it
+            protects you from being denied later.
+          </p>
+          <p>
+            If your loved one already has coverage that isn&#39;t working, we
+            can review options during Medicare Advantage Open Enrollment
+            (October 15 through December 7) or check for guaranteed issue
+            rights that may apply.
+          </p>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          A free consultation for families navigating the long goodbye
-        </h2>
-        <p className="mb-3">
-          You&#39;re likely managing more than insurance right now. You&#39;re
-          managing grief, logistics, family dynamics, and the weight of watching
-          someone you love change. I won&#39;t add to that weight.
-        </p>
-        <p>
-          Call me or have anyone in the family call. I&#39;ll review what&#39;s
-          in place, identify gaps, and walk you through options. No cost, no
-          pressure, no time limit on the conversation.
-        </p>
-      </section>
-
-      <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 text-center mb-10">
-        <p className="text-lg font-semibold mb-2">
-          Talk to a licensed Medicare broker who understands Alzheimer&#39;s
-          care coverage.
-        </p>
-        <p className="text-2xl font-bold text-blue-700 mb-3">
-          <a href="tel:8555591700">855-559-1700</a>
-        </p>
-        <Link
-          href="/get-a-free-quote"
-          className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition"
-        >
-          Get a Free Quote
-        </Link>
-      </div>
-
-      <FAQSection faqs={faqs} />
-
-      <section className="mt-10">
-        <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
-        <ul className="space-y-2">
-          <li>
-            <Link
-              href="/medicare-guides/medigap-plan-g"
-              className="text-blue-600 hover:underline"
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            A free consultation for families navigating the long goodbye
+          </h2>
+          <p className="mb-2">
+            You&#39;re grieving someone who&#39;s still here. I won&#39;t pretend to know
+            exactly what that feels like. But I can take the Medicare piece
+            off your plate so you can focus on the person, not the
+            paperwork.
+          </p>
+          <p>
+            Call me at{" "}
+            <a
+              href="tel:8555591700"
+              className="text-blue-600 font-semibold hover:underline"
             >
-              Medicare Supplement Plan G - What It Covers
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/medicare-guides/medicare-part-d"
-              className="text-blue-600 hover:underline"
+              855-559-1700
+            </a>
+            . No cost, no obligation. I&#39;ll help you understand what&#39;s
+            covered, what isn&#39;t, and what we can do about it.
+          </p>
+        </section>
+
+        <div className="bg-blue-600 text-white rounded-lg p-8 text-center my-10">
+          <p className="text-xl font-bold mb-2">
+            Free Medicare Consultation for Alzheimer&#39;s Families
+          </p>
+          <p className="mb-4">
+            Call{" "}
+            <a
+              href="tel:8555591700"
+              className="underline font-semibold text-white"
             >
-              Medicare Part D Prescription Drug Coverage
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/medicare-guides/skilled-nursing-facility-coverage"
-              className="text-blue-600 hover:underline"
-            >
-              Skilled Nursing Facility Coverage Under Medicare
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/medicare-guides/medicare-home-health-care"
-              className="text-blue-600 hover:underline"
-            >
-              Medicare Home Health Care Benefits
-            </Link>
-          </li>
-        </ul>
-      </section>
-    </main>
+              855-559-1700
+            </a>{" "}
+            or get started online.
+          </p>
+          <Link
+            href="/quote"
+            className="inline-block bg-white text-blue-600 font-bold py-3 px-6 rounded-lg hover:bg-gray-100 transition"
+          >
+            Get a Free Quote
+          </Link>
+        </div>
+
+        <FAQSection faqs={faqs} />
+
+        <section className="mt-10 mb-8">
+          <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
+          <ul className="space-y-2">
+            <li>
+              <Link
+                href="/medicare/medigap-plans"
+                className="text-blue-600 hover:underline"
+              >
+                Medigap Plans Explained: What They Cover and What They Cost
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/medicare/part-d-drug-coverage"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare Part D: How Prescription Drug Coverage Works
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/medicare/skilled-nursing-facility-coverage"
+                className="text-blue-600 hover:underline"
+              >
+                Skilled Nursing Facility Coverage Under Medicare
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/medicare/medicare-advantage-vs-original-medicare"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare Advantage vs. Original Medicare: How to Choose
+              </Link>
+            </li>
+          </ul>
+        </section>
+      </article>
+    </>
   );
 }

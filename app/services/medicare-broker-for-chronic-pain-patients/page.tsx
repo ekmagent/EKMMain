@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Medicare Broker for Chronic Pain Patients",
-      item: "https://www.medicareyourself.com/services/medicare-broker-for-chronic-pain-patients",
+      item: "https://medicareyourself.com/services/medicare-broker-for-chronic-pain-patients",
     },
   ],
 };
@@ -51,46 +51,44 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-01",
-  dateModified: "2025-07-01",
+  mainEntityOfPage:
+    "https://medicareyourself.com/services/medicare-broker-for-chronic-pain-patients",
 };
 
 const faqs = [
   {
     question: "Does Medicare cover chronic pain management?",
     answer:
-      "Yes. Medicare Part B covers monthly chronic pain management services including pain assessments, medication management, and care coordination. You pay 20% of the Medicare-approved amount after meeting the $283 annual Part B deductible. Covered treatments can include physical therapy, acupuncture for chronic low back pain, chiropractic services, and interventional procedures when medically necessary.",
+      "Yes. Medicare Part B covers chronic pain management and treatment services, including monthly pain assessments, medication management, and care coordination. Part B also covers physical therapy, occupational therapy, chiropractic services, and acupuncture for chronic low back pain. After the $283 annual Part B deductible, you typically pay 20% of the Medicare-approved amount.",
+  },
+  {
+    question: "How do I choose a Medicare broker for chronic pain needs?",
+    answer:
+      "Look for a licensed broker who understands how pain management billing works, which plans have the best specialist networks in your area, and how Medigap underwriting may affect people with pre-existing conditions. A good broker will ask about your current treatments, medications, and providers before recommending anything.",
   },
   {
     question:
-      "Will a Medigap plan cover the 20% coinsurance for pain treatments?",
+      "Are Medicare Advantage chronic condition special needs plans worth it?",
     answer:
-      "Most Medigap plans cover Part B coinsurance, which means the 20% you'd normally owe after the deductible for injections, PT, specialist visits, and pain management services can be covered. Plan G covers 100% of that coinsurance. Plan N covers it with small copays for some office visits.",
+      "C-SNPs (Chronic Condition Special Needs Plans) are designed for people with specific chronic conditions, but they don't always mean lower costs. Some have higher out-of-pocket maximums and drug copays than standard Medicare Advantage plans. Compare the actual formulary and specialist copays before enrolling.",
   },
   {
-    question:
-      "Can I get a Medicare Supplement plan if I have chronic pain conditions?",
+    question: "Does Medigap cover pain management specialists?",
     answer:
-      "During your Medigap Open Enrollment Period - the 6 months starting the month you turn 65 and are enrolled in Part B - no insurance company can deny you or charge more because of chronic pain. Outside that window in NJ, medical underwriting may apply and pre-existing conditions could affect eligibility. Call to discuss your specific situation.",
-  },
-  {
-    question:
-      "Is Medicare Advantage or a Supplement better for chronic pain patients?",
-    answer:
-      "It depends on how often you see specialists. Medicare Advantage plans may require prior authorization for injections or procedures and limit you to in-network providers. A Supplement plan lets you see any doctor who accepts Medicare with no referrals or prior auth. For people with ongoing, multi-provider pain treatment, that freedom often matters more than the lower premium of an Advantage plan.",
+      "Medigap supplements your Original Medicare coverage. If Part B covers the pain management service, your Medigap plan helps pay the remaining costs. Plan G, for example, covers the 20% coinsurance Part B leaves behind after you meet the $283 annual deductible. Any Medicare-accepting specialist is in-network with Original Medicare.",
   },
 ];
 
-export default function MedicareBrokerChronicPainPatients() {
+export default function MedicareBrokerForChronicPainPatients() {
   return (
-    <main className="max-w-4xl mx-auto px-4 py-8">
+    <main className="max-w-3xl mx-auto px-4 py-8">
       <SchemaMarkup schema={breadcrumbSchema} />
       <SchemaMarkup schema={articleSchema} />
 
@@ -108,206 +106,204 @@ export default function MedicareBrokerChronicPainPatients() {
         </span>
       </nav>
 
-      <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+      <h1 className="text-3xl font-bold mb-4 leading-tight">
         Medicare Broker for Chronic Pain Patients Who Deserve a Plan That
         Finally Sees Them
       </h1>
 
       <Image
-        src="/images/medicare-broker-for-chronic-pain-patients.webp"
+        src="/images/hub_medicare-broker-for-chronic-pain-patients.webp"
         alt="Medicare broker for chronic pain patients"
         width={800}
         height={400}
-        className="rounded-lg mb-6 w-full"
+        className="w-full rounded-lg mb-6"
+        priority
       />
 
-      <p className="text-lg text-gray-700 mb-2">
+      <p className="text-lg mb-2">
         A Medicare broker for chronic pain patients does something most plan
-        comparison tools can't: look at how you actually live and match it to
-        coverage that keeps up. I'm Anthony Orner, a licensed Medicare broker in
-        New Jersey, and I work with people whose treatment plans are anything but
-        simple.
+        comparison tools can't: they start with your treatment reality, not a
+        spreadsheet. Some nights you sleep in a recliner because lying flat isn't
+        an option. Your week revolves around injections, PT appointments, and
+        medication refills.
       </p>
-      <p className="text-lg text-gray-700 mb-6">
-        Some of you sleep in a chair because it's the only position that works.
-        Every week means juggling specialist appointments, injection schedules,
-        and prescription refills. Your plan should handle that without making you
-        fight for every approval.
+      <p className="text-lg mb-6">
+        I'm Anthony Orner, a licensed Medicare broker in New Jersey, and I help
+        people living with chronic pain find plans that actually cover the care
+        they're already getting.
       </p>
 
       <PhoneCTA />
 
       <section className="mt-10">
-        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+        <h2 className="text-2xl font-semibold mb-3">
           Pain management, injections, and PT: what your plan should cover
         </h2>
-        <p className="text-gray-700 mb-3">
-          Medicare Part B covers a range of chronic pain treatments: physical
-          therapy, occupational therapy, acupuncture for chronic low back pain,
-          chiropractic services, and monthly pain management services including
-          medication management and care coordination.
+        <p className="mb-2">
+          Medicare Part B covers a wide range of pain management services. That
+          includes physical therapy, occupational therapy, chiropractic care,
+          acupuncture for chronic low back pain, and monthly chronic pain
+          management programs with pain assessments and medication coordination.
         </p>
-        <p className="text-gray-700 mb-3">
-          Part B also covers interventional procedures like nerve blocks and
-          radio frequency ablation when conservative treatments haven't worked
-          and medical necessity is documented. You'll pay 20% of the
-          Medicare-approved amount after the $283 annual deductible - unless a
-          Supplement plan picks that up for you.
+        <p className="mb-2">
+          After your $283 Part B deductible, you pay 20% of the
+          Medicare-approved amount. That 20% adds up fast when you're seeing
+          specialists every month. The right plan fills that gap.
         </p>
       </section>
 
       <section className="mt-10">
-        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+        <h2 className="text-2xl font-semibold mb-3">
           How chronic pain conditions affect Medigap underwriting in NJ
         </h2>
-        <p className="text-gray-700 mb-3">
-          Timing matters. During your 6-month Medigap Open Enrollment Period
-          (starts when you're 65+ and enrolled in Part B), insurers can't deny
-          you or charge higher premiums because of chronic pain or any other
-          health condition. That's federal law.
+        <p className="mb-2">
+          During your 6-month Medigap Open Enrollment window (starting the month
+          you turn 65 and enroll in Part B), carriers in NJ can't deny you or
+          charge more for pre-existing conditions like fibromyalgia, spinal
+          stenosis, or neuropathy.
         </p>
-        <p className="text-gray-700 mb-3">
-          Outside that window, medical underwriting applies in most situations.
-          A chronic pain diagnosis could mean higher rates or denial. If you're
-          approaching 65, don't wait to explore your options.
+        <p className="mb-2">
+          Miss that window, and underwriting kicks in. Carriers can ask health
+          questions and may decline your application based on pain-related
+          diagnoses or medication history. Timing matters more than most people
+          realize.
         </p>
       </section>
 
       <section className="mt-10">
-        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
-          Medicare Advantage vs. Supplement for ongoing pain treatment
+        <h2 className="text-2xl font-semibold mb-3">
+          Medicare Advantage vs. supplement for ongoing pain treatment
         </h2>
-        <p className="text-gray-700 mb-3">
-          This is where the wrong choice really costs you. Medicare Advantage
-          plans often require prior authorization for injections and procedures.
-          They can restrict you to in-network pain specialists. If your doctor
-          isn't in network, you start over.
+        <p className="mb-2">
+          Medicare Advantage plans can look great on paper with $0 premiums and
+          bundled benefits. But network restrictions hit chronic pain patients
+          hard. If your pain management doctor or interventional specialist is
+          out of network, you're starting over with someone who doesn't know your
+          history.
         </p>
-        <p className="text-gray-700 mb-3">
-          A Medicare Supplement (Medigap) plan lets you see any provider who
-          accepts Medicare. No referrals. No prior auth for Part B services. For
-          people managing pain across multiple specialists, that flexibility
-          isn't a luxury - it's the difference between getting treatment and
-          fighting for it.
+        <p className="mb-2">
+          A Medigap supplement with Original Medicare lets you see any
+          Medicare-accepting provider in the country. No referrals. No prior
+          authorization surprises for the injection series you've been getting
+          every three months.
         </p>
       </section>
 
       <section className="mt-10">
-        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+        <h2 className="text-2xl font-semibold mb-3">
           Stop negotiating with your coverage the way you negotiate with your
           body
         </h2>
-        <p className="text-gray-700 mb-3">
-          You already weigh every decision against what your body can handle
-          today. Your insurance shouldn't add to that weight. People tell me
-          about spending hours on hold trying to get a procedure approved, or
-          discovering their medication got dropped from formulary with no
-          warning.
+        <p className="mb-2">
+          You already ration energy every single day. You shouldn't have to ration
+          care because your plan makes it harder to see the right specialist or
+          fill the right prescription.
         </p>
-        <p className="text-gray-700">
-          That's not a coverage gap. That's a system that wasn't built with you
-          in mind. I help you find one that was.
+        <p>
+          "But you don't look sick" might be the loneliest sentence you hear. Your
+          Medicare plan should not make you prove your pain is real.
         </p>
       </section>
 
       <section className="mt-10">
-        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
-          Part D and your pain medications
+        <h2 className="text-2xl font-semibold mb-3">
+          Watch out for chronic condition special needs plans
         </h2>
-        <p className="text-gray-700 mb-3">
-          Formularies change every year. The Part D plan that covered your
-          medications in 2025 might tier them differently in 2026 - or drop them
-          entirely. I review your specific prescriptions against current
-          formularies so you're not blindsided by a cost spike.
+        <p className="mb-2">
+          C-SNPs (Chronic Condition Special Needs Plans) sound like they're built
+          for you. Sometimes they are. But many have higher out-of-pocket
+          maximums, higher drug copays, and tighter networks than standard
+          Medicare Advantage plans from the same carrier.
         </p>
-        <p className="text-gray-700">
-          If you're on a combination of medications that took years to get
-          right, protecting that regimen is a priority, not an afterthought.
+        <p>
+          Don't pick a plan by its label. Compare the formulary, the specialist
+          copays, and the out-of-pocket max line by line. That's exactly what I
+          do during a free plan review.
         </p>
       </section>
 
       <section className="mt-10">
-        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+        <h2 className="text-2xl font-semibold mb-3">
           What a free plan review looks like
         </h2>
-        <ul className="list-disc pl-6 text-gray-700 space-y-2">
-          <li>We go through your doctors, specialists, and treatment schedule</li>
-          <li>I check your prescriptions against current Part D formularies</li>
+        <ul className="list-disc pl-6 space-y-2">
           <li>
-            We compare Medigap vs. Advantage based on your actual healthcare
-            usage - not a generic recommendation
+            We go through your current medications, specialists, and treatment
+            schedule
           </li>
           <li>
-            You get a clear picture of what you'll pay out of pocket under each
-            option
+            I check which plans in NJ cover your specific providers and drugs
           </li>
-          <li>No cost. No obligation. No pressure to enroll in anything.</li>
+          <li>
+            We compare your real out-of-pocket costs across Medigap and
+            Advantage options
+          </li>
+          <li>
+            If you're approaching 65, we map out your Medigap Open Enrollment
+            timeline so underwriting doesn't become a problem
+          </li>
         </ul>
+        <p className="mt-3">
+          No cost. No pressure. Just a clear picture of what each plan actually
+          covers for the care you need right now.
+        </p>
       </section>
 
-      <section className="mt-12 bg-blue-50 rounded-lg p-6 text-center">
-        <p className="text-xl font-semibold text-gray-900 mb-2">
-          Talk to a broker who understands chronic pain coverage
+      <div className="mt-12 bg-blue-600 text-white rounded-lg p-8 text-center">
+        <p className="text-xl font-semibold mb-2">
+          Ready for a plan that works as hard as you do?
         </p>
-        <p className="text-gray-700 mb-4">
+        <p className="mb-4">
           Call{" "}
-          <a
-            href="tel:8555591700"
-            className="text-blue-700 font-bold hover:underline"
-          >
+          <a href="tel:8555591700" className="underline font-bold">
             855-559-1700
           </a>{" "}
           or{" "}
-          <Link
-            href="/contact"
-            className="text-blue-700 font-bold hover:underline"
-          >
+          <Link href="/get-a-free-quote" className="underline font-bold">
             get a free quote online
           </Link>
           .
         </p>
-        <p className="text-sm text-gray-500">
-          Anthony Orner, Licensed Medicare Broker - NJ
+        <p className="text-sm opacity-90">
+          Anthony Orner, Licensed Medicare Broker — New Jersey
         </p>
-      </section>
+      </div>
 
       <section className="mt-12">
         <FAQSection faqs={faqs} />
       </section>
 
       <section className="mt-12">
-        <h2 className="text-2xl font-semibold text-gray-900 mb-4">
-          Related resources
-        </h2>
+        <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
         <ul className="space-y-2">
           <li>
             <Link
               href="/medicare-guides/medicare-advantage-vs-medigap"
-              className="text-blue-700 hover:underline"
+              className="text-blue-600 hover:underline"
             >
               Medicare Advantage vs. Medigap: Which Is Right for You?
             </Link>
           </li>
           <li>
             <Link
-              href="/medicare-guides/medigap-plan-g-nj"
-              className="text-blue-700 hover:underline"
+              href="/medicare-guides/medigap-open-enrollment-nj"
+              className="text-blue-600 hover:underline"
             >
-              Medigap Plan G in New Jersey
+              Medigap Open Enrollment in New Jersey
             </Link>
           </li>
           <li>
             <Link
-              href="/medicare-guides/part-d-prescription-drug-coverage"
-              className="text-blue-700 hover:underline"
+              href="/medicare-guides/medicare-part-b-coverage"
+              className="text-blue-600 hover:underline"
             >
-              Understanding Part D Prescription Drug Coverage
+              What Does Medicare Part B Cover?
             </Link>
           </li>
           <li>
             <Link
               href="/services/medicare-broker-nj"
-              className="text-blue-700 hover:underline"
+              className="text-blue-600 hover:underline"
             >
               Find a Medicare Broker in New Jersey
             </Link>

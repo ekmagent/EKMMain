@@ -7,14 +7,14 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 
 export const metadata: Metadata = {
   title:
-    "Enroll in Plan G Online | Free Broker-Assisted Application | MedicareYourself",
+    "Enroll in Plan G Online | Fast, Free, Broker-Assisted | MedicareYourself",
   description:
-    "Enroll in Plan G online with a licensed broker guiding every step. Compare carriers, apply from home, no office visit needed. Free, no-obligation help.",
+    "Enroll in Plan G online with a licensed broker guiding every step. Compare carriers and apply from home — free, no-obligation help. Call 855-559-1700.",
   openGraph: {
     title:
-      "Enroll in Plan G Online | Free Broker-Assisted Application | MedicareYourself",
+      "Enroll in Plan G Online | Fast, Free, Broker-Assisted | MedicareYourself",
     description:
-      "Enroll in Plan G online with a licensed broker guiding every step. Compare carriers, apply from home, no office visit needed. Free, no-obligation help.",
+      "Enroll in Plan G online with a licensed broker guiding every step. Compare carriers and apply from home — free, no-obligation help. Call 855-559-1700.",
   },
 };
 
@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Enroll in Plan G Online",
-      item: "https://www.medicareyourself.com/services/enroll-in-plan-g-online",
+      item: "https://medicareyourself.com/services/enroll-in-plan-g-online",
     },
   ],
 };
@@ -51,7 +51,7 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
@@ -64,25 +64,24 @@ const articleSchema = {
 
 const faqs = [
   {
-    question: "Can I enroll in Plan G online without visiting an office?",
+    question: "What is the best time to enroll in a Medigap plan?",
     answer:
-      "Yes. Most Medicare Supplement carriers accept online or electronic applications. A licensed broker can walk you through the entire process by phone or video while you complete everything from home.",
+      "Your best window is the 6-month Medigap Open Enrollment Period that starts the month you turn 65 and are enrolled in Part B. During this window, no carrier can deny you or charge more due to health conditions. If you apply outside this period, you'll likely face medical underwriting.",
   },
   {
-    question:
-      "Will I be asked health questions when I enroll in Plan G online?",
+    question: "Do I have to renew my Plan G every year?",
     answer:
-      "It depends on timing. During your 6-month Medigap Open Enrollment Period (starting when you're 65+ and enrolled in Part B), carriers can't deny you or charge more for health conditions. Outside that window, most carriers require medical underwriting and can decline your application.",
+      "No. Once your Plan G is active, it renews automatically. You don't need to re-enroll during any annual enrollment period. Your coverage stays in place as long as you pay your premium. You can switch carriers later, but that usually requires medical underwriting.",
   },
   {
-    question: "How long does the online Plan G enrollment process take?",
+    question: "Can I enroll in Plan G online if I have pre-existing conditions?",
     answer:
-      "The application itself takes about 15-20 minutes. After you submit, carriers typically review and approve within a few business days to two weeks, depending on whether underwriting is required.",
+      "During your Medigap Open Enrollment Period, yes. Carriers must accept you regardless of health history. Outside that window, most carriers require medical underwriting and can deny coverage based on pre-existing conditions. A broker can identify which carriers are most likely to approve your application.",
   },
   {
-    question: "Is there a fee for using a broker to enroll in Plan G online?",
+    question: "Is there a fee for broker-assisted Plan G enrollment?",
     answer:
-      "No. Brokers are paid by the insurance carrier, not by you. Your premium is the same whether you apply directly or through a broker. The broker's help is free.",
+      "No. Licensed Medicare brokers are paid by the insurance carrier, not by you. The premium you pay is the same whether you use a broker or apply directly. You get free help comparing rates and completing paperwork with zero added cost.",
   },
 ];
 
@@ -92,159 +91,156 @@ export default function EnrollInPlanGOnlinePage() {
       <SchemaMarkup schema={breadcrumbSchema} />
       <SchemaMarkup schema={articleSchema} />
 
-      <main className="max-w-4xl mx-auto px-4 py-8">
-        <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
-          <Link href="/" className="hover:underline">
-            Home
-          </Link>{" "}
-          &gt;{" "}
-          <Link href="/medicare-guides" className="hover:underline">
-            Medicare Guides
-          </Link>{" "}
-          &gt;{" "}
-          <span className="text-gray-700">Enroll in Plan G Online</span>
-        </nav>
+      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-4">
+        <Link href="/" className="hover:underline">
+          Home
+        </Link>{" "}
+        &gt;{" "}
+        <Link href="/medicare-guides" className="hover:underline">
+          Medicare Guides
+        </Link>{" "}
+        &gt;{" "}
+        <span className="text-gray-700">Enroll in Plan G Online</span>
+      </nav>
 
-        <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+      <article className="max-w-3xl mx-auto">
+        <h1 className="text-3xl md:text-4xl font-bold mb-4">
           Enroll in Plan G Online: Complete Your Application From Home With
           Broker Support
         </h1>
 
         <Image
-          src="/images/enroll-in-plan-g-online.webp"
-          alt="enroll in Plan G online"
+          src="/images/hub_enroll-in-plan-g-online.webp"
+          alt="enroll in plan g online"
           width={800}
           height={400}
-          className="rounded-lg mb-6 w-full"
+          className="w-full rounded-lg mb-6"
+          priority
         />
 
-        <p className="text-lg text-gray-700 mb-2">
-          Enrolling in Plan G online is straightforward when you have a licensed
-          broker handling the details. You compare carriers, pick the best rate,
-          and submit your application - all without leaving your kitchen table.
+        <p className="text-lg mb-2">
+          Enroll in Plan G online without driving to an office or mailing paper
+          forms. A licensed broker walks you through every screen, compares
+          carriers for your zip code, and submits your application the same day.
         </p>
-        <p className="text-lg text-gray-700 mb-6">
-          I'm Anthony Orner, a licensed Medicare broker in NJ. Here's exactly
-          how the process works and what you'll need.
+        <p className="text-lg mb-6">
+          The whole process takes about 20 minutes. No cost to you, no
+          obligation.
         </p>
 
         <PhoneCTA />
 
         <section className="mt-10 mb-8">
-          <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          <h2 className="text-2xl font-semibold mb-3">
             How the online Plan G enrollment process works
           </h2>
-          <p className="text-gray-700 mb-2">
-            We start with a phone call or video chat. I pull up real-time rates
-            from multiple carriers in your area so you can see actual numbers
-            side by side - same Plan G benefits, different premiums.
+          <p className="mb-2">
+            You'll get on a phone or video call with your broker while sharing a
+            screen. Together you'll:
           </p>
-          <p className="text-gray-700">
-            Once you pick a carrier, I send you the application electronically.
-            You fill it out on your computer or tablet, sign digitally, and
-            submit. Most people finish in under 20 minutes.
+          <ul className="list-disc pl-6 space-y-1 mb-3">
+            <li>Review Plan G rates from multiple carriers in your state</li>
+            <li>Answer health questions on the application (if underwriting applies)</li>
+            <li>E-sign your application and submit it electronically</li>
+          </ul>
+          <p>
+            Most carriers confirm acceptance within 1 to 5 business days. Some
+            issue same-day approval.
           </p>
         </section>
 
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          <h2 className="text-2xl font-semibold mb-3">
             Documents and information you need before you start
           </h2>
-          <p className="text-gray-700 mb-3">
-            Have these ready before we begin:
-          </p>
-          <ul className="list-disc pl-6 text-gray-700 space-y-1">
-            <li>Your Medicare card (red, white, and blue card) with your Medicare number</li>
-            <li>Part A and Part B effective dates</li>
+          <ul className="list-disc pl-6 space-y-1">
+            <li>Your red, white, and blue Medicare card (Medicare number and Part B start date)</li>
             <li>Date of birth and Social Security number</li>
-            <li>Current address and phone number</li>
-            <li>Bank account or payment info for your first premium</li>
+            <li>List of current medications and any diagnosed conditions</li>
+            <li>Bank routing number or credit card for first premium payment</li>
           </ul>
-          <p className="text-gray-700 mt-3">
-            If you're within your Medigap Open Enrollment Period, that's all you
-            need. Outside that window, you'll also answer health history
-            questions on the application.
-          </p>
-        </section>
-
-        <section className="mb-8">
-          <h2 className="text-2xl font-semibold text-gray-900 mb-3">
-            Timing matters more than most people realize
-          </h2>
-          <p className="text-gray-700 mb-2">
-            Your 6-month Medigap Open Enrollment Period starts the month you
-            turn 65 and are enrolled in Part B. During this window, no carrier
-            can deny you or charge more because of health conditions. That's
-            federal law.
-          </p>
-          <p className="text-gray-700">
-            Outside that window, carriers use medical underwriting. I've seen
-            people denied for conditions as common as Type 2 diabetes. If you're
-            approaching 65, I recommend applying up to 6 months before your Part
-            B start date to lock in the best rate.
-          </p>
-        </section>
-
-        <section className="mb-8">
-          <h2 className="text-2xl font-semibold text-gray-900 mb-3">
-            What happens after you submit your application
-          </h2>
-          <p className="text-gray-700 mb-2">
-            The carrier reviews your application - typically a few business days
-            if no underwriting is needed, up to two weeks if health questions are
-            involved. I track the status for you and follow up directly with the
-            carrier if anything stalls.
-          </p>
-          <p className="text-gray-700">
-            Once approved, you'll get your policy documents in the mail. Your
-            coverage starts on the effective date we selected during the
+          <p className="mt-2">
+            Gather these before your call and you'll breeze through the
             application.
           </p>
         </section>
 
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold text-gray-900 mb-3">
-            Why broker-assisted enrollment beats doing it alone
+          <h2 className="text-2xl font-semibold mb-3">
+            What Plan G actually covers
           </h2>
-          <p className="text-gray-700 mb-2">
-            Plan G benefits are standardized by Medicare. A Plan G from one
-            carrier covers the exact same things as Plan G from another. The
-            only difference is price and customer service. A broker shows you all
-            the options - not just one company's price.
+          <p className="mb-2">
+            Plan G is standardized by Medicare, so every carrier offers the exact
+            same benefits. It covers the Part A deductible ($1,676 per benefit
+            period in 2026), Part B excess charges, skilled nursing facility
+            coinsurance ($209.50/day for days 21-100), and foreign travel
+            emergencies.
           </p>
-          <p className="text-gray-700">
-            You pay the same premium whether you use a broker or go direct. The
-            carrier pays my fee. Your cost doesn't change, but you get someone
-            watching out for mistakes - like applying outside your guaranteed
-            issue window or missing a form.
+          <p>
+            The only out-of-pocket cost you're responsible for is the annual Part
+            B deductible of $283. After that, Plan G picks up everything
+            Medicare approves.
           </p>
         </section>
 
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold text-gray-900 mb-3">
-            What Plan G actually covers
+          <h2 className="text-2xl font-semibold mb-3">
+            What happens after you submit your application
           </h2>
-          <ul className="list-disc pl-6 text-gray-700 space-y-1">
-            <li>Part A hospital coinsurance plus 365 extra days after Medicare ends</li>
-            <li>Part B coinsurance (the 20% you'd normally owe)</li>
-            <li>Part A deductible ($1,676 per benefit period in 2026)</li>
-            <li>Skilled nursing facility coinsurance ($209.50/day for days 21-100)</li>
-            <li>First 3 pints of blood</li>
-            <li>Part B excess charges</li>
-            <li>Foreign travel emergency care (80%, up to plan limits)</li>
-          </ul>
-          <p className="text-gray-700 mt-3">
-            The only Original Medicare cost Plan G doesn't cover is the Part B
-            deductible ($283/year in 2026). You pay that once a year, and Plan G
-            handles the rest.
+          <p className="mb-2">
+            Your broker tracks the application status for you. Once approved, the
+            carrier mails your policy and member ID card. Coverage begins on the
+            effective date you chose during enrollment.
+          </p>
+          <p>
+            If a carrier declines your application (which can happen outside your
+            Open Enrollment Period), your broker will identify alternate carriers
+            with more favorable underwriting guidelines. You're never left
+            figuring it out alone.
           </p>
         </section>
 
-        <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 text-center mb-10">
-          <p className="text-xl font-semibold text-gray-900 mb-2">
-            Ready to enroll in Plan G from home?
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Why broker-assisted online enrollment beats doing it alone
+          </h2>
+          <p className="mb-2">
+            People frequently tell me they didn't realize Medicare would be this
+            confusing until they actually had to choose a plan. Rates for the
+            same Plan G vary significantly between carriers. A broker shows you
+            the full picture so you don't overpay.
           </p>
-          <p className="text-gray-700 mb-4">
+          <p>
+            One common and costly mistake: switching from Plan G to an Advantage
+            plan, then trying to switch back. Outside your Medigap Open
+            Enrollment Period, carriers can deny you based on health history. A
+            broker helps you avoid that trap before it happens.
+          </p>
+        </section>
+
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Timing matters: when to apply for Plan G
+          </h2>
+          <p className="mb-2">
+            Your strongest enrollment window is the 6-month Medigap Open
+            Enrollment Period starting the month you're both 65 and enrolled in
+            Part B. During this window, guaranteed issue applies. No health
+            questions. No denials.
+          </p>
+          <p>
+            If you're approaching 65, apply about 6 months before your Part B
+            start date to lock in coverage right away. Already past 65? Call us.
+            We'll check which carriers in your state are still an option based on
+            your health profile.
+          </p>
+        </section>
+
+        <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 text-center my-10">
+          <p className="text-xl font-semibold mb-2">
+            Ready to enroll in Plan G from your couch?
+          </p>
+          <p className="mb-4">
             Call{" "}
             <a
               href="tel:8555591700"
@@ -252,29 +248,28 @@ export default function EnrollInPlanGOnlinePage() {
             >
               855-559-1700
             </a>{" "}
-            to compare rates and apply with free broker help.
+            or{" "}
+            <Link
+              href="/quote"
+              className="text-blue-700 font-bold hover:underline"
+            >
+              Get a Free Quote
+            </Link>{" "}
+            online. No pressure, no cost.
           </p>
-          <Link
-            href="/get-a-free-quote"
-            className="inline-block bg-blue-600 text-white font-semibold py-3 px-6 rounded-lg hover:bg-blue-700 transition"
-          >
-            Get a Free Quote
-          </Link>
         </div>
 
         <FAQSection faqs={faqs} />
 
         <section className="mt-10">
-          <h2 className="text-2xl font-semibold text-gray-900 mb-4">
-            Related resources
-          </h2>
+          <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
           <ul className="space-y-2">
             <li>
               <Link
-                href="/medicare-guides/medicare-plan-g-cost"
+                href="/medicare-guides/medigap-plan-g"
                 className="text-blue-700 hover:underline"
               >
-                How Much Does Medicare Plan G Cost?
+                What Does Medicare Supplement Plan G Cover?
               </Link>
             </li>
             <li>
@@ -282,7 +277,7 @@ export default function EnrollInPlanGOnlinePage() {
                 href="/medicare-guides/plan-g-vs-plan-n"
                 className="text-blue-700 hover:underline"
               >
-                Plan G vs. Plan N: Which Is Better?
+                Plan G vs. Plan N: Which Is Right for You?
               </Link>
             </li>
             <li>
@@ -290,20 +285,20 @@ export default function EnrollInPlanGOnlinePage() {
                 href="/medicare-guides/medigap-open-enrollment"
                 className="text-blue-700 hover:underline"
               >
-                When Is Your Medigap Open Enrollment Period?
+                Medigap Open Enrollment Period Explained
               </Link>
             </li>
             <li>
               <Link
-                href="/medicare-guides/what-is-medicare-supplement"
+                href="/medicare-guides/switching-from-advantage-to-medigap"
                 className="text-blue-700 hover:underline"
               >
-                What Is Medicare Supplement Insurance?
+                Switching From Medicare Advantage to Medigap
               </Link>
             </li>
           </ul>
         </section>
-      </main>
+      </article>
     </>
   );
 }

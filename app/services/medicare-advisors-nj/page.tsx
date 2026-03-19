@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Medicare Advisors NJ",
-      item: "https://www.medicareyourself.com/services/medicare-advisors-nj",
+      item: "https://medicareyourself.com/services/medicare-advisors-nj",
     },
   ],
 };
@@ -51,7 +51,7 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
@@ -66,25 +66,23 @@ const faqs = [
   {
     question: "What is the New Jersey Medicare advisory?",
     answer:
-      "New Jersey does not have a single official 'Medicare advisory' agency. The state operates SHIP (State Health Insurance Assistance Program), which provides free counseling. Independent licensed brokers like Anthony Orner also offer no-cost plan comparisons across all major carriers in NJ.",
+      "New Jersey doesn't have a single official 'Medicare advisory.' The term usually refers to licensed, independent Medicare brokers and agents operating in NJ who help you compare plans from multiple carriers at no cost. The State Health Insurance Assistance Program (SHIP) also offers free counseling through local offices.",
+  },
+  {
+    question: "Are Medicare advisors worth it?",
+    answer:
+      "Yes, if you work with a licensed independent broker. They compare plans from 20+ carriers, explain your options in plain English, and help you enroll correctly. They're paid by insurance carriers, not by you, so there's no fee for their help. The key is choosing a broker who represents multiple companies, not just one.",
+  },
+  {
+    question: "How do I know a Medicare advisor in NJ is legitimate?",
+    answer:
+      "Check that they hold an active New Jersey Department of Banking and Insurance license. Ask how many carriers they represent. A legitimate broker will never pressure you, will clearly explain plan differences, and won't charge you a fee. You can verify any agent's license at the NJ DOBI website.",
   },
   {
     question:
-      "Do I pay anything for a Medicare advisor's help in New Jersey?",
+      "When should I contact a Medicare advisor before turning 65 in NJ?",
     answer:
-      "No. Licensed Medicare brokers are paid by the insurance carriers, not by you. The plan premiums are identical whether you enroll directly or through a broker. You get expert guidance at zero additional cost.",
-  },
-  {
-    question:
-      "When should I contact a Medicare advisor before turning 65?",
-    answer:
-      "Reach out at least 6 months before your Part B start date. For Medigap plans especially, applying early can lock in your rate before any premium increases take effect. Your 6-month Medigap Open Enrollment starts the month you turn 65 and are enrolled in Part B.",
-  },
-  {
-    question:
-      "Can a Medicare advisor help me switch plans after open enrollment?",
-    answer:
-      "Yes, but your options depend on the time of year and your circumstances. Medicare Advantage Open Enrollment runs October 15 through December 7. Special Enrollment Periods apply if you have qualifying life events. A broker can identify which windows are available to you.",
+      "Reach out about six months before your 65th birthday. This gives you time to understand your options and, if you want a Medigap plan, apply during your six-month Medigap Open Enrollment Period, which starts the month you turn 65 and are enrolled in Part B. Applying during this window means no medical underwriting.",
   },
 ];
 
@@ -94,64 +92,70 @@ export default function MedicareAdvisorsNJ() {
       <SchemaMarkup schema={breadcrumbSchema} />
       <SchemaMarkup schema={articleSchema} />
 
-      <main className="max-w-4xl mx-auto px-4 py-8">
-        <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
-          <Link href="/" className="hover:underline">
-            Home
-          </Link>{" "}
-          &gt;{" "}
-          <Link href="/medicare-guides" className="hover:underline">
-            Medicare Guides
-          </Link>{" "}
-          &gt;{" "}
-          <span className="text-gray-700">Medicare Advisors NJ</span>
-        </nav>
+      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-4">
+        <Link href="/" className="hover:underline">
+          Home
+        </Link>{" "}
+        &gt;{" "}
+        <Link href="/medicare-guides" className="hover:underline">
+          Medicare Guides
+        </Link>{" "}
+        &gt;{" "}
+        <span className="text-gray-700">Medicare Advisors NJ</span>
+      </nav>
 
+      <article className="max-w-3xl mx-auto">
         <h1 className="text-3xl md:text-4xl font-bold mb-4">
-          Medicare Advisors in NJ: What a Licensed Broker Actually Does for
-          You
+          Medicare Advisors in NJ: What a Licensed Broker Actually Does for You
         </h1>
 
         <Image
-          src="/images/medicare-advisors-nj.webp"
-          alt="Medicare advisors NJ"
+          src="/images/hub_medicare-advisors-nj.webp"
+          alt="medicare advisors nj"
           width={800}
           height={400}
-          className="rounded-lg mb-6 w-full"
+          className="w-full rounded-lg mb-6"
+          priority
         />
 
         <p className="text-lg mb-2">
-          Medicare advisors in NJ help you compare plans across every major
-          carrier without charging you a dime. The carriers pay broker
-          commissions directly, so the premium you see is exactly the same
-          whether you call a 1-800 number or sit across the table from
-          someone like me.
+          Medicare advisors in NJ range from helpful to harmful, and the
+          difference comes down to one thing: who they actually work for. A
+          captive agent sells one carrier's plans. An independent broker
+          compares plans across every major carrier and lets you pick what
+          fits.
         </p>
         <p className="text-lg mb-6">
-          I'm Anthony Orner, a licensed Medicare broker based in New Jersey.
-          Here's what working with an independent advisor actually looks
-          like.
+          I'm Anthony Orner, a licensed independent Medicare broker based in
+          New Jersey. Here's how this works and why it matters.
         </p>
 
         <PhoneCTA />
 
         <section className="mt-10 mb-8">
           <h2 className="text-2xl font-semibold mb-3">
-            Advisor, agent, broker - which title matters and why
+            Advisor, agent, broker — which title matters and why
           </h2>
           <p className="mb-2">
-            These titles get tossed around interchangeably, but there's a
-            real difference. A <strong>captive agent</strong> works for one
-            insurance company and can only show you their plans. An{" "}
-            <strong>independent broker</strong> is contracted with multiple
-            carriers and can compare options side by side.
+            "Advisor" isn't a regulated title. Anyone can use it. What
+            actually protects you is whether the person holds a New Jersey
+            Department of Banking and Insurance license and represents
+            multiple carriers.
           </p>
+          <ul className="list-disc pl-6 space-y-1 mb-2">
+            <li>
+              <strong>Captive agent:</strong> Works for one company. Can only
+              show you their plans.
+            </li>
+            <li>
+              <strong>Independent broker:</strong> Contracted with 20+
+              carriers. Compares rates side by side. Paid by the carrier you
+              choose, not by you.
+            </li>
+          </ul>
           <p>
-            "Advisor" is a general term with no specific licensing
-            requirement. What matters is whether the person helping you holds
-            an active New Jersey health insurance producer license and
-            carries contracts with more than one carrier. Ask before you
-            share any personal information.
+            If someone won't tell you how many carriers they represent, that
+            tells you everything.
           </p>
         </section>
 
@@ -160,16 +164,18 @@ export default function MedicareAdvisorsNJ() {
             How New Jersey's guaranteed-issue rules protect you
           </h2>
           <p className="mb-2">
-            Every person turning 65 gets a 6-month Medigap Open Enrollment
-            Period starting the month they are both 65 and enrolled in Part
-            B. During this window, no insurance company in NJ can deny you or
-            charge more based on health conditions.
+            During your six-month Medigap Open Enrollment Period (starting
+            the month you turn 65 and enroll in Part B), every Medigap
+            carrier in NJ must accept you regardless of health history. No
+            medical questions. No higher premiums for pre-existing
+            conditions.
           </p>
           <p>
-            Outside that window, federal guaranteed-issue rights kick in for
-            specific situations: losing employer coverage, your plan leaving
-            your county, or your carrier going bankrupt. Rules vary, so call
-            to confirm your eligibility.
+            Outside that window, NJ carriers can underwrite. Federal
+            guaranteed-issue rights still apply in specific situations: losing
+            employer coverage, leaving a Medicare Advantage plan within 12
+            months, or your carrier going bankrupt. Miss the window without a
+            qualifying trigger, and your options shrink fast.
           </p>
         </section>
 
@@ -179,63 +185,62 @@ export default function MedicareAdvisorsNJ() {
           </h2>
           <ul className="list-disc pl-6 space-y-2">
             <li>
-              <strong>Medicare Supplement (Medigap) Plan G:</strong> Covers
-              the Part A deductible ($1,676 in 2026), Part B excess charges,
-              and skilled nursing coinsurance ($209.50/day for days 21-100).
-              You pay the $257 Part B deductible yourself.
+              <strong>Medigap (Supplement):</strong> Covers gaps in Original
+              Medicare. Plan G is the most popular, covering the $1,676 Part
+              A deductible, SNF coinsurance ($209.50/day for days 21-100),
+              and excess charges. You pay the $283 Part B deductible, then
+              essentially nothing else. Rates vary by carrier and age.
             </li>
             <li>
-              <strong>Medicare Advantage (Part C):</strong> Bundles Part A
-              and B into one plan, often with $0 premiums, dental, vision,
-              and hearing benefits. Trade-off: you use a provider network and
-              face copays per service.
-            </li>
-            <li>
-              Rates vary by carrier, zip code, age, and tobacco status. I
-              run quotes from all contracted carriers in your county so you
-              see the full picture.
+              <strong>Medicare Advantage:</strong> Replaces Original Medicare
+              with a network-based plan. Often includes dental, vision, and
+              drug coverage. Lower premiums, but copays and prior
+              authorizations apply. Network restrictions matter a lot in
+              North Jersey vs. South Jersey.
             </li>
           </ul>
+          <p className="mt-2">
+            Neither option is universally better. It depends on your doctors,
+            your medications, and how much predictability you want in your
+            costs.
+          </p>
         </section>
 
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-3">
-            Why locking in your Medigap rate early matters
+            What a broker actually does that you can't do alone
           </h2>
           <p className="mb-2">
-            My practice is to have clients apply for Medigap up to 6 months
-            before their Part B start date. This locks in your rate early and
-            protects you from premium increases that can happen before
-            coverage begins.
+            You can go to medicare.gov and compare plans yourself. Most
+            people try. Most people also call me afterward because the plan
+            finder doesn't explain what the numbers mean for their situation.
           </p>
           <p>
-            The sooner you lock in, the better your rate. Waiting until the
-            last week of your Open Enrollment Period means you might pay more
-            simply because another rate increase went into effect.
+            A broker checks your prescriptions against Part D formularies,
+            confirms your doctors are in-network, flags enrollment deadlines
+            you didn't know existed, and handles paperwork. If a claim gets
+            denied next year, you call me. Not an 800 number.
           </p>
         </section>
 
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-3">
-            What a free plan review covers
+            Common mistakes people make without guidance
           </h2>
           <ul className="list-disc pl-6 space-y-2">
             <li>
-              A side-by-side comparison of Medigap vs. Medicare Advantage for
-              your specific doctors and prescriptions
+              Buying a Medigap plan too early or too late. Timing your Part B
+              enrollment wrong can trigger a 10% premium penalty for every
+              12-month period you delayed.
             </li>
             <li>
-              Part D drug plan analysis to check whether your medications are
-              on a plan's formulary
+              Assuming employer coverage automatically coordinates with
+              Medicare. If your employer has fewer than 20 employees, Medicare
+              becomes primary. Get this wrong and claims get denied.
             </li>
             <li>
-              A review of any employer or retiree coverage you may already
-              have
-            </li>
-            <li>
-              Clear explanation of the 2026 costs: $185/month Part B
-              premium, $257 annual Part B deductible, and what each
-              Supplement plan covers beyond that
+              Choosing a plan based on premium alone without checking drug
+              formularies or provider networks.
             </li>
           </ul>
         </section>
@@ -245,48 +250,51 @@ export default function MedicareAdvisorsNJ() {
             Talk to Anthony Orner for a free plan review
           </h2>
           <p className="mb-2">
-            I work with clients across every New Jersey county, from Bergen
-            to Cape May. Whether you're turning 65 next month or
-            reconsidering a plan you've had for years, I'll walk you through
-            your options in plain language.
+            I live in New Jersey, I work with every major carrier here, and I
+            don't charge you a cent. The carriers pay me the same commission
+            regardless of which plan you pick, so I have zero reason to steer
+            you toward one over another.
           </p>
-          <p>No pressure, no cost, no obligation. That's how this works.</p>
+          <p>
+            If you're approaching 65, leaving employer coverage, or just
+            wondering whether your current plan still makes sense, call me.
+            One conversation. No obligation.
+          </p>
         </section>
 
         <div className="bg-blue-600 text-white rounded-lg p-6 text-center my-10">
           <p className="text-xl font-semibold mb-2">
-            Ready to compare your Medicare options in NJ?
+            Ready for an honest plan comparison?
           </p>
-          <p className="mb-4">
+          <p className="text-lg mb-4">
             Call{" "}
             <a
               href="tel:8555591700"
-              className="underline font-bold text-white"
+              className="underline font-bold"
             >
               855-559-1700
             </a>{" "}
             or{" "}
             <Link
-              href="/contact"
-              className="underline font-bold text-white"
+              href="/quote"
+              className="underline font-bold"
             >
-              get a free quote online
+              Get a Free Quote
             </Link>
-            .
           </p>
         </div>
 
         <FAQSection faqs={faqs} />
 
-        <section className="mt-10">
+        <section className="mt-10 mb-8">
           <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
           <ul className="space-y-2">
             <li>
               <Link
-                href="/services/medicare-plan-g-nj"
+                href="/services/medigap-plan-g-nj"
                 className="text-blue-600 hover:underline"
               >
-                Medicare Plan G in NJ: Costs and Coverage
+                Medigap Plan G in New Jersey
               </Link>
             </li>
             <li>
@@ -294,7 +302,7 @@ export default function MedicareAdvisorsNJ() {
                 href="/services/medicare-advantage-nj"
                 className="text-blue-600 hover:underline"
               >
-                Medicare Advantage Plans in New Jersey
+                Medicare Advantage Plans in NJ
               </Link>
             </li>
             <li>
@@ -302,20 +310,20 @@ export default function MedicareAdvisorsNJ() {
                 href="/guides/medigap-open-enrollment"
                 className="text-blue-600 hover:underline"
               >
-                Medigap Open Enrollment: When and How to Enroll
+                Medigap Open Enrollment: When and Why It Matters
               </Link>
             </li>
             <li>
               <Link
-                href="/guides/turning-65-medicare"
+                href="/guides/medicare-vs-employer-coverage"
                 className="text-blue-600 hover:underline"
               >
-                Turning 65? Your Medicare Enrollment Checklist
+                Medicare vs. Employer Coverage: How They Work Together
               </Link>
             </li>
           </ul>
         </section>
-      </main>
+      </article>
     </>
   );
 }

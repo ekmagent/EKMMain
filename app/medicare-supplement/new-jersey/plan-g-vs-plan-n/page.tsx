@@ -50,9 +50,9 @@ export default function PlanGvsPlanNPage() {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.medicareyourself.com" },
-      { "@type": "ListItem", position: 2, name: "Medicare Supplement NJ", item: "https://www.medicareyourself.com/medicare-supplement/new-jersey" },
-      { "@type": "ListItem", position: 3, name: "Plan G vs Plan N", item: "https://www.medicareyourself.com/medicare-supplement/new-jersey/plan-g-vs-plan-n" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://medicareyourself.com" },
+      { "@type": "ListItem", position: 2, name: "Medicare Supplement NJ", item: "https://medicareyourself.com/medicare-supplement/new-jersey" },
+      { "@type": "ListItem", position: 3, name: "Plan G vs Plan N", item: "https://medicareyourself.com/medicare-supplement/new-jersey/plan-g-vs-plan-n" },
     ],
   };
 

@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "When Can You Switch Medicare Supplement Plans?",
-      item: "https://www.medicareyourself.com/services/what-time-of-year-can-you-switch-medicare-supplement-plans",
+      item: "https://medicareyourself.com/services/what-time-of-year-can-you-switch-medicare-supplement-plans",
     },
   ],
 };
@@ -50,7 +50,7 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
@@ -110,7 +110,7 @@ export default function WhatTimeOfYearSwitchMedigap() {
       </h1>
 
       <Image
-        src="/images/what-time-of-year-can-you-switch-medicare-supplement-plans.webp"
+        src="/images/what-time-of-year-can-you-switch-medicare-supplement-plans_photo.webp"
         alt="what time of the year can you switch medicare supplement plans"
         width={800}
         height={400}

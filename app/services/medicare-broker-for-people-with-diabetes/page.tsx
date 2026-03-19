@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Medicare Broker for People with Diabetes",
-      item: "https://www.medicareyourself.com/services/medicare-broker-for-people-with-diabetes",
+      item: "https://medicareyourself.com/services/medicare-broker-for-people-with-diabetes",
     },
   ],
 };
@@ -51,7 +51,7 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
@@ -64,263 +64,246 @@ const articleSchema = {
 
 const faqs = [
   {
-    question: "Does Medicare cover insulin for people with diabetes?",
+    question: "What's the best Medicare plan for someone with diabetes?",
     answer:
-      "Yes. Under Part D, insulin is covered by prescription drug plans, and many plans cap insulin copays at $35 per month thanks to federal law. Some Medicare Advantage plans also include insulin coverage through their built-in Part D benefit. Formularies vary by plan, so you should compare options each year.",
+      "It depends on your medications and doctors. If you use insulin or a CGM, a Medicare Advantage plan with strong Part D formulary coverage or Original Medicare paired with a Medigap plan and standalone Part D can both work well. A broker can compare your specific drug list against available plans to find the lowest total cost.",
   },
   {
     question:
-      "Can I be denied a Medicare Supplement plan because of diabetes?",
+      "Does Medicare cover continuous glucose monitors like the FreeStyle Libre?",
     answer:
-      "During your Medigap Open Enrollment Period (the 6 months starting when you turn 65 and have Part B), insurance companies cannot deny you or charge more due to diabetes. Outside that window, medical underwriting applies and a pre-existing condition like diabetes could affect your approval or pricing.",
+      "Yes. Medicare Part B covers therapeutic CGMs for beneficiaries who use insulin and meet certain criteria, including a prescription from your treating physician. You'll typically pay 20% of the Medicare-approved amount after the $283 Part B deductible (2026). A Medigap plan can cover that 20%.",
   },
   {
-    question: "Does Medicare cover continuous glucose monitors (CGMs)?",
+    question: "Can I switch Medicare plans if my diabetes costs are too high?",
     answer:
-      "Medicare Part B covers CGMs classified as durable medical equipment for beneficiaries with diabetes who meet certain criteria, including those using insulin. You pay 20% of the Medicare-approved amount after the $257 Part B deductible in 2026.",
+      "You can change Medicare Advantage or Part D plans during the Annual Enrollment Period (October 15 through December 7). If you have a guaranteed issue right, you may also be able to switch Medigap plans without medical underwriting. Call us to check your options.",
   },
   {
-    question: "Why should I use a broker instead of enrolling on my own?",
+    question: "Does a Medicare broker charge people with diabetes extra?",
     answer:
-      "A broker compares plans across multiple carriers at no cost to you. For people with diabetes, this means matching your specific medications, supplies, and specialist needs to plans with the lowest total out-of-pocket cost - not just the lowest premium.",
+      "No. Licensed Medicare brokers are paid by the insurance carriers, not by you. Our service is free whether you have diabetes, other conditions, or none at all.",
   },
 ];
 
-export default function MedicareBrokerDiabetesPage() {
+export default function MedicareBrokerForPeopleWithDiabetes() {
   return (
     <>
       <SchemaMarkup schema={breadcrumbSchema} />
       <SchemaMarkup schema={articleSchema} />
 
-      <main className="max-w-4xl mx-auto px-4 py-8">
-        <nav aria-label="Breadcrumb" className="mb-6 text-sm text-gray-600">
-          <Link href="/" className="hover:underline">
-            Home
-          </Link>{" "}
-          &gt;{" "}
-          <Link href="/medicare-guides" className="hover:underline">
-            Medicare Guides
-          </Link>{" "}
-          &gt;{" "}
-          <span className="text-gray-900">
-            Medicare Broker for People with Diabetes
-          </span>
-        </nav>
+      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-4">
+        <Link href="/" className="hover:underline">
+          Home
+        </Link>{" "}
+        &gt;{" "}
+        <Link href="/medicare-guides" className="hover:underline">
+          Medicare Guides
+        </Link>{" "}
+        &gt;{" "}
+        <span className="text-gray-700">
+          Medicare Broker for People with Diabetes
+        </span>
+      </nav>
 
-        <h1 className="text-3xl font-bold mb-4 text-gray-900">
-          Medicare Broker for People with Diabetes: Plans That Cover What You
-          Actually Need
-        </h1>
+      <h1 className="text-3xl md:text-4xl font-bold mb-4">
+        Medicare Broker for People with Diabetes: Plans That Cover What You
+        Actually Need
+      </h1>
 
-        <Image
-          src="/images/medicare-broker-for-people-with-diabetes.webp"
-          alt="medicare broker for people with diabetes"
-          width={800}
-          height={400}
-          className="rounded-lg mb-6 w-full"
-        />
+      <Image
+        src="/images/hub_medicare-broker-for-people-with-diabetes.webp"
+        alt="Medicare broker for people with diabetes"
+        width={800}
+        height={400}
+        className="w-full h-auto rounded-lg mb-6"
+        priority
+      />
 
-        <p className="text-lg text-gray-800 mb-2">
-          A Medicare broker for people with diabetes does one thing most online
-          enrollment tools cannot: match your exact medications, supplies, and
-          doctor visits to the plan with the lowest real cost. I'm Anthony
-          Orner, a licensed Medicare broker in New Jersey, and I work with
-          diabetic clients every week who are overpaying because they picked a
-          plan based on premium alone.
+      <p className="text-lg mb-2">
+        A Medicare broker for people with diabetes does one thing most online
+        tools can't: match your exact medications, supplies, and specialists to
+        the plan that actually costs the least. I'm Anthony Orner, a licensed
+        broker in New Jersey, and I do this for free.
+      </p>
+      <p className="text-lg mb-6">
+        Between insulin, test strips, CGM sensors, endocrinologist visits, and
+        lab work, your costs add up fast. The wrong plan makes it worse. The
+        right one can save you hundreds every year.
+      </p>
+
+      <PhoneCTA />
+
+      <section className="mt-10 mb-8">
+        <h2 className="text-2xl font-semibold mb-3">
+          How diabetes affects your Medigap and Advantage options
+        </h2>
+        <p className="mb-2">
+          Diabetes is a pre-existing condition, and that matters for Medigap
+          pricing. Outside your Medigap Open Enrollment Period (the 6 months
+          starting the month you turn 65 and have Part B), carriers in most
+          states can medically underwrite you. That means higher premiums or
+          denial.
         </p>
-        <p className="text-lg text-gray-800 mb-6">
-          My service is free. I get paid by the carriers, not by you. Let me
-          show you how the right plan saves real money.
+        <p>
+          Medicare Advantage plans can't deny you for diabetes during open
+          enrollment. But formulary differences mean your insulin copay can swing
+          by $50+ per month between plans in the same zip code.
         </p>
+      </section>
 
-        <PhoneCTA />
+      <section className="mb-8">
+        <h2 className="text-2xl font-semibold mb-3">
+          Insulin, CGMs, and Part D: what to look for in a plan
+        </h2>
+        <ul className="list-disc pl-6 space-y-2">
+          <li>
+            <strong>Insulin:</strong> Check which tier your specific insulin
+            falls on. Some Part D plans cap insulin copays at $35/month under the
+            Inflation Reduction Act provisions. Not all plans handle this the
+            same way.
+          </li>
+          <li>
+            <strong>CGMs:</strong> Medicare Part B covers therapeutic continuous
+            glucose monitors (like FreeStyle Libre) for insulin users. You pay
+            20% after your $283 deductible (2026). A Medigap plan picks up that
+            20%.
+          </li>
+          <li>
+            <strong>Test strips and lancets:</strong> Covered under Part B
+            through Medicare-contracted suppliers. Your pharmacy may not bill
+            Part B directly, so check before filling.
+          </li>
+          <li>
+            <strong>Endocrinology visits:</strong> Covered under Part B at 80%.
+            Advantage plans may require referrals or network restrictions.
+          </li>
+        </ul>
+      </section>
 
-        <section className="mt-10 mb-8">
-          <h2 className="text-2xl font-semibold mb-3 text-gray-900">
-            How diabetes affects your Medigap and Advantage options
-          </h2>
-          <p className="text-gray-800 mb-2">
-            Diabetes is one of the most common pre-existing conditions among
-            Medicare beneficiaries. Original Medicare (Parts A and B) covers
-            diabetes screenings, glucose monitors, and related lab work. But
-            your out-of-pocket costs depend heavily on whether you add a
-            Medigap plan, choose Medicare Advantage, or rely on Original
-            Medicare alone.
-          </p>
-          <p className="text-gray-800">
-            With Original Medicare, you pay 20% of Part B-approved amounts
-            after meeting the $257 annual deductible in 2026. That 20% adds up
-            fast when you're seeing an endocrinologist regularly and ordering
-            CGM supplies. A Medigap plan like Plan G covers that 20%. A
-            Medicare Advantage plan may offer $0 copays for some services but
-            restrict your network.
-          </p>
-        </section>
+      <section className="mb-8">
+        <h2 className="text-2xl font-semibold mb-3">
+          Why guaranteed issue timing matters with pre-existing conditions
+        </h2>
+        <p className="mb-2">
+          During your Medigap Open Enrollment Period, no carrier can charge you
+          more or turn you down because of diabetes. Miss that window, and
+          underwriting kicks in.
+        </p>
+        <p>
+          Federal guaranteed issue rights also apply in specific situations:
+          losing employer coverage, moving out of a plan's service area, or a
+          carrier leaving Medicare. If any of these apply to you, call me before
+          you assume you're stuck.
+        </p>
+      </section>
 
-        <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-3 text-gray-900">
-            Insulin, CGMs, and Part D: what to look for in a plan
-          </h2>
-          <p className="text-gray-800 mb-2">
-            Federal law now caps insulin copays at $35 per month under Part D
-            plans. That's a big deal. But not every plan covers your specific
-            insulin brand the same way, and formulary tiers still matter for
-            other diabetes medications like metformin or GLP-1 drugs.
-          </p>
-          <ul className="list-disc ml-6 text-gray-800 space-y-1">
-            <li>
-              CGMs (like Dexcom or Libre) are covered under Part B as durable
-              medical equipment for qualifying beneficiaries
-            </li>
-            <li>
-              Test strips and lancets are also covered under Part B with a
-              doctor's order
-            </li>
-            <li>
-              Diabetes self-management training is a covered Part B benefit
-            </li>
-            <li>
-              Part D formularies change every year, so a plan that worked last
-              year might cost more this year
-            </li>
-          </ul>
-        </section>
+      <section className="mb-8">
+        <h2 className="text-2xl font-semibold mb-3">
+          Let a broker match your medications to the lowest-cost plan
+        </h2>
+        <p className="mb-2">
+          I pull your full medication list, check every available plan's
+          formulary, and calculate your real annual cost. Not the advertised
+          premium. The actual total: premiums, copays, deductibles, and supply
+          costs combined.
+        </p>
+        <p>
+          That's the number that matters when you're filling prescriptions every
+          30 days.
+        </p>
+      </section>
 
-        <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-3 text-gray-900">
-            Why guaranteed issue timing matters with pre-existing conditions
-          </h2>
-          <p className="text-gray-800 mb-2">
-            Your Medigap Open Enrollment Period lasts 6 months. It starts the
-            month you turn 65 and are enrolled in Part B. During this window,
-            no carrier can deny you or charge higher premiums because of
-            diabetes. Period.
-          </p>
-          <p className="text-gray-800">
-            Miss that window and you face medical underwriting. Diabetes can
-            mean higher rates or outright denial for Medigap coverage. Federal
-            guaranteed issue rights also apply in specific situations, like
-            losing employer coverage or a plan leaving your area. Call me and
-            I'll tell you exactly where you stand.
-          </p>
-        </section>
+      <section className="mb-8">
+        <h2 className="text-2xl font-semibold mb-3">
+          The daily cost burden most insurance content ignores
+        </h2>
+        <p className="mb-2">
+          Managing diabetes is expensive and exhausting. Between endo visits,
+          blood labs, medication changes, and supply reorders, you're already
+          doing a lot. Figuring out which Medicare plan won't break the bank
+          shouldn't be another full-time job.
+        </p>
+        <p>
+          That's exactly why a broker exists. I handle the comparison. You make
+          the final call.
+        </p>
+      </section>
 
-        <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-3 text-gray-900">
-            Let a broker match your medications to the lowest-cost plan
-          </h2>
-          <p className="text-gray-800 mb-2">
-            I pull up your complete medication list and run it through every
-            Part D plan available in your ZIP code. This isn't guessing. It's a
-            side-by-side comparison of total annual drug costs: premiums,
-            copays, deductibles, and coverage gap costs combined.
-          </p>
-          <p className="text-gray-800">
-            For someone on insulin plus two or three other medications, the
-            difference between the cheapest premium and the cheapest total cost
-            can be $1,000 or more per year.
-          </p>
-        </section>
+      <section className="mb-8">
+        <h2 className="text-2xl font-semibold mb-3">
+          What this costs you: nothing
+        </h2>
+        <p>
+          Insurance carriers pay my commission. You pay the same premium whether
+          you use a broker or enroll yourself. The only difference is you get
+          someone who's already done the homework on which plans actually cover
+          your insulin, your CGM, and your doctors.
+        </p>
+      </section>
 
-        <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-3 text-gray-900">
-            Endocrinologist and specialist access matters
-          </h2>
-          <p className="text-gray-800 mb-2">
-            If you see an endocrinologist, podiatrist, or ophthalmologist
-            regularly, your plan's network matters. Original Medicare with a
-            Medigap supplement lets you see any doctor who accepts Medicare
-            nationwide. Medicare Advantage plans use HMO or PPO networks, and
-            going out-of-network can cost significantly more.
-          </p>
-          <p className="text-gray-800">
-            I check that your current doctors are in-network before
-            recommending any Advantage plan. No surprises.
-          </p>
-        </section>
+      <section className="bg-blue-50 border border-blue-200 rounded-lg p-6 mb-10 text-center">
+        <p className="text-xl font-semibold mb-2">
+          Ready for a plan that covers your diabetes supplies and medications?
+        </p>
+        <p className="text-lg mb-4">
+          Call{" "}
+          <a
+            href="tel:8555591700"
+            className="text-blue-700 font-bold hover:underline"
+          >
+            855-559-1700
+          </a>{" "}
+          or{" "}
+          <Link
+            href="/contact"
+            className="text-blue-700 font-bold hover:underline"
+          >
+            get a free quote online
+          </Link>
+          . No pressure, no obligation.
+        </p>
+      </section>
 
-        <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-3 text-gray-900">
-            Annual plan reviews catch problems before they cost you
-          </h2>
-          <p className="text-gray-800 mb-2">
-            Part D formularies change every October. A drug covered at Tier 2
-            this year might move to Tier 3 next year. Medicare Advantage
-            networks can drop providers. I review your plan every fall during
-            the Open Enrollment Period (October 15 through December 7) and
-            recommend changes only when they save you money.
-          </p>
-          <p className="text-gray-800">
-            You don't have to call me. I'll reach out to you. That's how this
-            works.
-          </p>
-        </section>
+      <FAQSection faqs={faqs} />
 
-        <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 mb-10 text-center">
-          <p className="text-xl font-semibold text-blue-900 mb-2">
-            Ready to find the right Medicare plan for your diabetes needs?
-          </p>
-          <p className="text-blue-800 mb-4">
-            Call{" "}
-            <a
-              href="tel:8555591700"
-              className="font-bold underline text-blue-900"
-            >
-              855-559-1700
-            </a>{" "}
-            or{" "}
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
+        <ul className="space-y-2">
+          <li>
             <Link
-              href="/contact"
-              className="font-bold underline text-blue-900"
+              href="/medicare-guides/part-d-drug-coverage"
+              className="text-blue-700 hover:underline"
             >
-              Get a Free Quote
-            </Link>{" "}
-            online. No obligation, no pressure.
-          </p>
-        </div>
-
-        <FAQSection faqs={faqs} />
-
-        <section className="mt-10">
-          <h2 className="text-2xl font-semibold mb-4 text-gray-900">
-            Related resources
-          </h2>
-          <ul className="space-y-2">
-            <li>
-              <Link
-                href="/medicare-guides/part-d-prescription-drug-plans"
-                className="text-blue-700 hover:underline"
-              >
-                Part D Prescription Drug Plans: What You Need to Know
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/medicare-guides/medigap-plan-g-nj"
-                className="text-blue-700 hover:underline"
-              >
-                Medigap Plan G in New Jersey: Costs and Coverage
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/medicare-guides/medicare-advantage-vs-medigap"
-                className="text-blue-700 hover:underline"
-              >
-                Medicare Advantage vs. Medigap: Which Is Right for You?
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/services/medicare-broker-nj"
-                className="text-blue-700 hover:underline"
-              >
-                Find a Medicare Broker in New Jersey
-              </Link>
-            </li>
-          </ul>
-        </section>
-      </main>
+              Medicare Part D Drug Coverage Guide
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/medicare-guides/medigap-open-enrollment"
+              className="text-blue-700 hover:underline"
+            >
+              Medigap Open Enrollment: What You Need to Know
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/services/medicare-broker-nj"
+              className="text-blue-700 hover:underline"
+            >
+              Medicare Broker in New Jersey
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/medicare-guides/medicare-advantage-vs-medigap"
+              className="text-blue-700 hover:underline"
+            >
+              Medicare Advantage vs. Medigap: Which Is Right for You?
+            </Link>
+          </li>
+        </ul>
+      </section>
     </>
   );
 }

@@ -7,14 +7,14 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 
 export const metadata: Metadata = {
   title:
-    "Quickest Way to Enroll Into Plan G | Same-Day Application | MedicareYourself",
+    "quickest way to enroll into plan g | Same-Day Coverage Available | MedicareYourself",
   description:
-    "Quickest way to enroll into Plan G? With the right timing, you can finish in one call. Anthony Orner handles applications same day. Free quote.",
+    "Quickest way to enroll into Plan G? With the right timing, you can finish in one call. Anthony Orner handles the application same day. Start your free quote.",
   openGraph: {
     title:
-      "Quickest Way to Enroll Into Plan G | Same-Day Application | MedicareYourself",
+      "quickest way to enroll into plan g | Same-Day Coverage Available | MedicareYourself",
     description:
-      "Quickest way to enroll into Plan G? With the right timing, you can finish in one call. Anthony Orner handles applications same day. Free quote.",
+      "Quickest way to enroll into Plan G? With the right timing, you can finish in one call. Anthony Orner handles the application same day. Start your free quote.",
   },
 };
 
@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Quickest Way to Enroll Into Plan G",
-      item: "https://www.medicareyourself.com/services/quickest-way-to-enroll-into-plan-g",
+      item: "https://medicareyourself.com/services/quickest-way-to-enroll-into-plan-g",
     },
   ],
 };
@@ -50,7 +50,7 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
@@ -63,24 +63,24 @@ const articleSchema = {
 
 const faqs = [
   {
-    question: "How fast can I actually get enrolled in Plan G?",
+    question: "Can I enroll in Medicare Plan G anytime?",
     answer:
-      "If you're in your Medigap Open Enrollment Period or have a guaranteed issue right, the application can be completed in a single phone call. Many carriers process applications the same day they're submitted.",
+      "Not without conditions. You're guaranteed acceptance during your 6-month Medigap Open Enrollment Period, which starts the month you turn 65 and are enrolled in Part B. Outside that window, you'll typically need to pass medical underwriting unless you qualify for a federal guaranteed issue right.",
   },
   {
-    question: "Do I need to answer health questions to enroll in Plan G?",
+    question: "What is the best time to enroll in a Medigap plan?",
     answer:
-      "During your 6-month Medigap Open Enrollment Period (starting when you're 65+ and have Part B), no. Carriers cannot ask health questions or deny you. Outside that window, most carriers require medical underwriting, which can slow things down or result in denial.",
+      "Your Medigap Open Enrollment Period is the best time. During these 6 months, no insurance company can deny you or charge more based on health conditions. If you're past that window, certain life events like losing employer coverage or leaving a Medicare Advantage plan can also trigger guaranteed issue rights.",
   },
   {
-    question: "Can I switch from Medicare Advantage to Plan G quickly?",
+    question: "How long does a Plan G application take to process?",
     answer:
-      "You can leave Medicare Advantage during the Medicare Advantage Open Enrollment Period (January 1 - March 31) or during the Annual Enrollment Period (October 15 - December 7). However, switching to Plan G after that may require medical underwriting. Certain guaranteed issue situations may apply - call to discuss your specific case.",
+      "If you're in your Open Enrollment Period, the application itself can be completed in a single phone call. Most carriers issue approval within a few days. During guaranteed issue or medical underwriting situations, processing can take 1-3 weeks depending on the carrier.",
   },
   {
     question: "What if my Plan G application gets denied?",
     answer:
-      "Denials happen when you apply outside your open enrollment window and have health conditions that don't pass underwriting. A licensed broker can help you identify the right carrier and timing to avoid this. Some states have additional protections - rules vary by state.",
+      "Denials happen outside of Open Enrollment when medical underwriting is required. Health conditions like diabetes can lead to rejection. If you're denied, a licensed broker can help identify carriers with more flexible underwriting or find a guaranteed issue window that applies to your situation.",
   },
 ];
 
@@ -90,71 +90,70 @@ export default function QuickestWayToEnrollIntoPlanG() {
       <SchemaMarkup schema={breadcrumbSchema} />
       <SchemaMarkup schema={articleSchema} />
 
-      <main className="max-w-4xl mx-auto px-4 py-8">
-        <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
-          <Link href="/" className="hover:underline">
-            Home
-          </Link>
-          {" > "}
-          <Link href="/medicare-guides" className="hover:underline">
-            Medicare Guides
-          </Link>
-          {" > "}
-          <span className="text-gray-700">
-            Quickest Way to Enroll Into Plan G
-          </span>
-        </nav>
+      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-4">
+        <Link href="/" className="hover:underline">
+          Home
+        </Link>{" "}
+        &gt;{" "}
+        <Link href="/medicare-guides" className="hover:underline">
+          Medicare Guides
+        </Link>{" "}
+        &gt;{" "}
+        <span className="text-gray-700">Quickest Way to Enroll Into Plan G</span>
+      </nav>
 
+      <article className="max-w-3xl mx-auto">
         <h1 className="text-3xl md:text-4xl font-bold mb-4">
           Quickest Way to Enroll Into Plan G: A Step-by-Step Timeline
         </h1>
 
         <Image
-          src="/images/quickest-way-to-enroll-into-plan-g.webp"
-          alt="quickest way to enroll into Plan G"
+          src="/images/hub_quickest-way-to-enroll-into-plan-g.webp"
+          alt="quickest way to enroll into plan g"
           width={800}
           height={400}
-          className="rounded-lg mb-6 w-full"
+          className="w-full h-auto rounded-lg mb-6"
+          priority
         />
 
         <p className="text-lg mb-2">
-          The quickest way to enroll into Plan G depends on one thing: your enrollment window. If your timing is right, the entire application takes a single phone call - sometimes 15 minutes.
+          The quickest way to enroll into Plan G depends on one thing: your enrollment window. If you're in the right window, I can complete your application in a single phone call and have approval back within days.
         </p>
         <p className="text-lg mb-6">
-          I'm Anthony Orner, a licensed Medicare broker, and I handle Plan G applications same day. Here's exactly how the process works so nothing slows you down.
+          If you're outside that window, it still doesn't have to be slow. Here's how the timeline actually works.
         </p>
 
         <PhoneCTA />
 
         <section className="mt-10 mb-8">
           <h2 className="text-2xl font-semibold mb-3">
-            The fastest enrollment path depends on your situation
+            The fastest enrollment path depending on your situation
           </h2>
           <p className="mb-3">
-            Not everyone has the same route to Plan G. Your speed depends on which enrollment window you're in:
+            Your speed depends on which category you fall into:
           </p>
           <ul className="list-disc pl-6 space-y-2 mb-3">
             <li>
-              <strong>Medigap Open Enrollment Period:</strong> 6 months starting the month you turn 65 and have Part B. No health questions. No denials. Fastest path - apply and you're in.
+              <strong>Medigap Open Enrollment Period:</strong> No health questions. No underwriting. One call, same-day application. This is the fastest path. It starts the month you're 65+ and enrolled in Part B, lasting 6 months.
             </li>
             <li>
-              <strong>Guaranteed issue right:</strong> Triggered by specific events like losing employer coverage or leaving a Medicare Advantage plan. Also no health questions.
+              <strong>Guaranteed issue rights:</strong> If you lost employer coverage, your Medicare Advantage plan left your area, or your carrier went bankrupt, you may qualify. No medical questions required. Application takes one call.
             </li>
             <li>
-              <strong>Medical underwriting:</strong> Outside those windows, carriers will ask health questions. This can add days to weeks - or result in denial.
+              <strong>Medical underwriting:</strong> Outside those windows, you'll answer health questions. Approval typically takes 1-3 weeks depending on the carrier and your health history.
             </li>
           </ul>
         </section>
 
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-3">
-            Open enrollment vs. guaranteed issue - which applies to you
+            Open enrollment vs. guaranteed issue: which applies to you
           </h2>
           <p className="mb-3">
-            Your Medigap Open Enrollment Period is a one-time, 6-month window. It doesn't repeat annually. During this period, per federal law, insurance companies cannot refuse to sell you any Medigap policy they offer, cannot charge more for pre-existing conditions, and must start your coverage right away.
+            Your Medigap Open Enrollment Period is automatic. You don't apply for it. It starts the first day of the month you're both 65 or older and enrolled in Part B. During these 6 months, every Plan G carrier in your state must accept you at their standard rate regardless of health conditions.
           </p>
           <p>
-            Guaranteed issue rights apply in specific situations: your Medicare Advantage plan leaves your area, your insurer goes bankrupt, you lose employer or union coverage, or a plan violates its contract. If one of these applies to you, you can get Plan G without underwriting even after your open enrollment window has closed.
+            Guaranteed issue is different. It's triggered by specific life events defined by federal law. You won't always know you qualify unless someone checks. That's part of what I do.
           </p>
         </section>
 
@@ -164,41 +163,38 @@ export default function QuickestWayToEnrollIntoPlanG() {
           </h2>
           <ul className="list-disc pl-6 space-y-2">
             <li>
-              <strong>Waiting too long after Part B starts.</strong> Once your 6-month open enrollment window closes, you're subject to underwriting. Lock in your rate early.
+              <strong>Applying outside your window without knowing it.</strong> I've seen people get denied because they applied during underwriting when they actually had guaranteed issue rights. A broker catches that.
             </li>
             <li>
-              <strong>Applying to the wrong carrier first.</strong> A denied application creates a record. Work with a broker who knows which carriers are most likely to approve your situation.
+              <strong>Incomplete applications.</strong> Missing your Medicare number or Part B effective date delays processing. Have your red, white, and blue Medicare card ready.
             </li>
             <li>
-              <strong>Missing paperwork.</strong> Have your Medicare number (from your red, white, and blue card), Part B start date, and a list of current medications ready before you call.
-            </li>
-            <li>
-              <strong>Confusing enrollment periods.</strong> The Medicare Advantage open enrollment (Oct 15 - Dec 7) is different from the Medigap open enrollment. Mixing these up can cost months.
+              <strong>Waiting too long after turning 65.</strong> Once your 6-month window closes, you're subject to health questions. Pre-existing conditions like diabetes can mean denial.
             </li>
           </ul>
         </section>
 
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-3">
-            Apply up to 6 months before your Part B start date
+            What Plan G actually covers (and why people want it fast)
           </h2>
           <p className="mb-3">
-            Here's something most people don't know: you can apply for Plan G up to 6 months before your Part B effective date. I recommend this for every client turning 65. It locks in your rate early and protects you from premium increases before coverage even begins.
+            Plan G covers the Part A deductible ($1,676 per benefit period in 2026), skilled nursing facility coinsurance ($209.50/day for days 21-100), Part B excess charges, and foreign travel emergency care. You pay only the annual Part B deductible of $283, then Plan G picks up essentially everything else Original Medicare approves.
           </p>
           <p>
-            The sooner you apply during that window, the better your rate. There's no advantage to waiting.
+            People rush to lock it in because rates are lowest when you're youngest and healthiest. Every month you wait past your open enrollment, you risk higher premiums or denial.
           </p>
         </section>
 
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-3">
-            What if you're switching from Medicare Advantage to Plan G
+            Switching to Plan G from Medicare Advantage
           </h2>
           <p className="mb-3">
-            This is where people get stuck. I hear from folks who switched to a $0-premium Advantage plan and now want Plan G back - but they're facing underwriting because their open enrollment window closed years ago.
+            This is the situation I hear about most. Someone switched to an Advantage plan, hit the referral walls and copays, and wants Plan G back. The hard truth: outside of guaranteed issue, you'll face medical underwriting.
           </p>
           <p>
-            If you have pre-existing conditions like diabetes or heart disease, getting back to Plan G outside of a guaranteed issue window is harder. Not always impossible, but harder. Call me and we'll look at your specific options before you apply anywhere.
+            Some states have birthday rules or other protections that create windows. Rules vary by state, so call to confirm your options. The sooner you explore it, the more paths are available.
           </p>
         </section>
 
@@ -207,30 +203,25 @@ export default function QuickestWayToEnrollIntoPlanG() {
             Enroll in Plan G today with a licensed broker
           </h2>
           <p className="mb-3">
-            I compare Plan G rates across multiple carriers, handle the application on the phone with you, and submit it same day. No cost to you - brokers are paid by the insurance company, not by you.
+            I'm Anthony Orner, a licensed Medicare broker. I handle Plan G applications same day. No cost to you. I'll confirm your enrollment window, compare carrier rates in your state, and submit the application while we're on the phone.
           </p>
           <p>
-            One call. That's it. Bring your Medicare card info and we'll get it done.
+            If you're turning 65 soon, the smartest move is to start this process about 6 months before your Part B effective date. That locks in the best rate at the earliest possible moment.
           </p>
         </section>
 
-        <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 text-center mb-10">
-          <p className="text-xl font-semibold mb-2">
-            Ready to enroll in Plan G?
+        <div className="bg-blue-600 text-white rounded-lg p-8 text-center my-10">
+          <p className="text-xl font-semibold mb-3">
+            Ready to enroll in Plan G? One call is all it takes.
           </p>
-          <p className="mb-4">
-            Call{" "}
-            <a
-              href="tel:8555591700"
-              className="text-blue-700 font-bold hover:underline"
-            >
+          <p className="text-3xl font-bold mb-4">
+            <a href="tel:8555591700" className="hover:underline">
               855-559-1700
-            </a>{" "}
-            to complete your application today.
+            </a>
           </p>
           <Link
-            href="/quote"
-            className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition"
+            href="/get-a-free-quote"
+            className="inline-block bg-white text-blue-600 font-semibold px-6 py-3 rounded-lg hover:bg-gray-100 transition"
           >
             Get a Free Quote
           </Link>
@@ -238,17 +229,9 @@ export default function QuickestWayToEnrollIntoPlanG() {
 
         <FAQSection faqs={faqs} />
 
-        <section className="mt-10">
+        <section className="mt-10 mb-8">
           <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
           <ul className="space-y-2">
-            <li>
-              <Link
-                href="/services/medicare-plan-g-cost"
-                className="text-blue-600 hover:underline"
-              >
-                Medicare Plan G Cost: What You'll Pay in 2026
-              </Link>
-            </li>
             <li>
               <Link
                 href="/services/plan-g-vs-plan-n"
@@ -262,20 +245,28 @@ export default function QuickestWayToEnrollIntoPlanG() {
                 href="/services/medigap-open-enrollment-period"
                 className="text-blue-600 hover:underline"
               >
-                Medigap Open Enrollment Period: When and How to Enroll
+                Understanding Your Medigap Open Enrollment Period
               </Link>
             </li>
             <li>
               <Link
-                href="/services/medicare-supplement-vs-advantage"
+                href="/services/switching-from-medicare-advantage-to-medigap"
                 className="text-blue-600 hover:underline"
               >
-                Medicare Supplement vs. Advantage: How to Decide
+                Switching From Medicare Advantage to Medigap
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/medicare-supplement-plan-g-cost"
+                className="text-blue-600 hover:underline"
+              >
+                How Much Does Medicare Supplement Plan G Cost?
               </Link>
             </li>
           </ul>
         </section>
-      </main>
+      </article>
     </>
   );
 }

@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Local Medicare Agents in Toms River NJ",
-      item: "https://www.medicareyourself.com/services/local-medicare-agents-in-toms-river-nj",
+      item: "https://medicareyourself.com/services/local-medicare-agents-in-toms-river-nj",
     },
   ],
 };
@@ -51,47 +51,48 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-01-15",
-  dateModified: "2025-07-15",
+  datePublished: "2025-01-01",
+  dateModified: "2025-07-01",
 };
 
 const faqs = [
   {
-    question: "How can I get help with Medicare premiums in New Jersey?",
+    question: "How do I pick a Medicare agent in Toms River?",
     answer:
-      "New Jersey offers the PAAD (Pharmaceutical Assistance to the Aged and Disabled) program and NJ FamilyCare for income-eligible residents. The Medicare Savings Program can also help pay your Part B premium of $185/month. Call us at 855-559-1700 and we can point you to the right state resource.",
+      "Look for a licensed, independent broker who represents multiple carriers rather than just one. An independent agent can compare Supplement and Advantage plans side by side, so you see the full picture before enrolling. Ask whether they charge a fee (they shouldn't — brokers are paid by the carrier, not you).",
   },
   {
-    question: "How to pick a Medicare agent?",
+    question: "Do I actually need a Medicare agent?",
     answer:
-      "Look for a licensed, independent broker who represents multiple carriers rather than a single company. An independent agent can compare rates across Aetna, Cigna, Mutual of Omaha, and others. Ask if they charge a fee — a good Medicare broker is paid by the carrier, not by you.",
+      "You're not required to use one, but working with an agent costs you nothing and can save you hundreds per year. Agents know which carriers are competitive in Ocean County right now, which networks include your doctors, and which plans have rate stability. That's hard to figure out on medicare.gov alone.",
   },
   {
-    question: "Do I need a Medicare agent?",
+    question: "How do I speak to a live person about Medicare?",
     answer:
-      "You don't need one, but having an independent agent saves time and often money. Medicare Supplements alone have 10+ standardized plan letters, and premiums vary by carrier for the exact same coverage. An agent does the comparison work so you don't have to call each company individually.",
+      "You can call 1-800-MEDICARE (1-800-633-4227) for general questions, but they won't compare private plans for you. For plan-specific guidance in Toms River, call a local independent broker like Anthony Orner at 855-559-1700 — no phone trees, no obligation.",
   },
   {
-    question: "How do I speak to a live person at Medicare?",
+    question:
+      "What's the difference between Medicare Supplement and Medicare Advantage in Ocean County?",
     answer:
-      "You can call 1-800-MEDICARE (1-800-633-4227), available 24/7. TTY users can dial 1-877-486-2048. For local help specific to Ocean County plans and rates, call our office at 855-559-1700 during business hours.",
+      "Medicare Supplement (Medigap) pays after Original Medicare and lets you see any doctor who accepts Medicare. Medicare Advantage replaces Original Medicare with a private plan that uses a provider network. Each has tradeoffs — a local agent can walk you through which fits your doctors, prescriptions, and budget.",
   },
 ];
 
 export default function LocalMedicareAgentsTomsRiverNJ() {
   return (
-    <main className="max-w-4xl mx-auto px-4 py-8">
+    <main className="max-w-3xl mx-auto px-4 py-8">
       <SchemaMarkup schema={breadcrumbSchema} />
       <SchemaMarkup schema={articleSchema} />
 
-      <nav className="text-sm text-gray-500 mb-6" aria-label="Breadcrumb">
+      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
         <Link href="/" className="hover:underline">
           Home
         </Link>{" "}
@@ -105,201 +106,202 @@ export default function LocalMedicareAgentsTomsRiverNJ() {
         </span>
       </nav>
 
-      <h1 className="text-3xl font-bold mb-4">
-        Local Medicare Agents in Toms River, NJ — Ocean County&#39;s Independent
+      <h1 className="text-3xl md:text-4xl font-bold mb-4">
+        Local Medicare Agents in Toms River, NJ — Ocean County's Independent
         Broker
       </h1>
 
       <Image
-        src="/images/local-medicare-agents-in-toms-river-nj.webp"
+        src="/images/hub_local-medicare-agents-in-toms-river-nj.webp"
         alt="local medicare agents in toms river nj"
         width={800}
         height={400}
-        className="rounded-lg mb-6 w-full"
+        className="w-full h-auto rounded-lg mb-6"
       />
 
-      <p className="text-lg mb-3">
-        Local Medicare agents in Toms River, NJ have plenty of plans to show
-        you, but most of them only represent one or two carriers. I&#39;m Anthony
-        Orner, an independent Medicare broker who compares Supplement and
-        Advantage plans across the full Ocean County market.
+      <p className="text-lg mb-2">
+        Local Medicare agents in Toms River, NJ give you something medicare.gov
+        can't: a real person who knows which carriers are actually competitive in
+        Ocean County this year. I'm Anthony Orner, an independent broker who
+        compares Supplement and Advantage plans across multiple insurers so you
+        don't have to guess.
       </p>
       <p className="text-lg mb-6">
-        You pay nothing for my help. Carriers pay me, not you. Let me show you
-        what that difference looks like.
+        No cost to you. No obligation. Just a straight answer.
       </p>
 
       <PhoneCTA />
 
-      <section className="mt-10 mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
-          Why Toms River has so many Medicare options (and why that&#39;s confusing)
+          Why Toms River has so many Medicare options (and why that's confusing)
         </h2>
         <p className="mb-3">
-          Ocean County has one of the highest concentrations of Medicare-eligible
-          residents in New Jersey. That large population attracts carriers. More
-          carriers mean more plan choices, which sounds great until you&#39;re
-          staring at 18+ Advantage plans and 8 or more Supplement carriers all
-          competing for your enrollment.
+          Ocean County has one of the highest concentrations of Medicare
+          beneficiaries in New Jersey. That draws carriers. More carriers means
+          more plan choices, but it also means more mailers, more robocalls, and
+          more conflicting advice.
         </p>
         <p>
-          A captive agent tied to one company will naturally recommend what they
-          sell. An independent broker pulls rates from all of them and shows you
-          the actual numbers side by side.
+          An independent broker cuts through that noise. I don't work for one
+          insurance company. I work for you.
         </p>
       </section>
 
-      <section className="mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
           Plan G and Plan N rates from top carriers in Ocean County
         </h2>
         <p className="mb-3">
-          Plan G covers everything Original Medicare doesn&#39;t except the Part B
-          deductible ($257/year in 2026). Plan N works similarly but adds small
-          copays at office visits. Both are popular in Toms River.
+          Plan G covers everything Original Medicare doesn't except the Part B
+          deductible ($283/year in 2026). Plan N is similar but includes small
+          copays at office visits in exchange for a lower monthly premium.
         </p>
-        <ul className="list-disc pl-6 space-y-2 mb-3">
+        <ul className="list-disc pl-6 space-y-2">
           <li>
-            Plan G rates vary by carrier, age, tobacco use, and household
-            discount eligibility
+            Rates vary by carrier, age, gender, and tobacco status. I quote all
+            major carriers side by side so you see the real spread.
           </li>
           <li>
-            Plan N typically runs 15-20% less per month than Plan G from the
-            same carrier
+            Some carriers use attained-age rating (premiums rise with age);
+            others use issue-age or community rating. This matters over 10+
+            years.
           </li>
           <li>
-            During your 6-month Medigap Open Enrollment Period, no carrier can
-            charge you more or deny you based on health
+            During your Medigap Open Enrollment (6 months starting the month
+            you're 65+ and enrolled in Part B), no carrier can deny you or
+            charge more for health conditions.
           </li>
         </ul>
-        <p>
-          I compare rates from carriers like Aetna, Cigna, Mutual of Omaha, and
-          others so you see the real spread. Call 855-559-1700 for a current
-          quote.
-        </p>
       </section>
 
-      <section className="mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
           Medicare Advantage networks to watch in the Toms River area
         </h2>
         <p className="mb-3">
-          If you prefer a $0-premium Advantage plan, network matters more than
-          anything. Community Medical Center, Hackensack Meridian Health, and
-          several large physician groups in Ocean County participate in some
-          networks but not others.
+          If you're considering Medicare Advantage, provider networks matter
+          more than premiums. Community Medical Center in Toms River, Monmouth
+          Medical Center Southern Campus, and specialists across Ocean and
+          Monmouth counties aren't in every plan's network.
         </p>
         <p>
-          Before enrolling in any Medicare Advantage plan, I verify that your
-          doctors and preferred hospital are in-network for that specific plan
-          year. Switching mid-year is limited, so getting this right up front
-          saves real headaches.
+          I verify your doctors and prescriptions before recommending any
+          Advantage plan. A $0-premium plan that doesn't cover your oncologist
+          isn't a deal.
         </p>
       </section>
 
-      <section className="mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
-          What an independent broker actually does for you
+          What an independent broker does that a captive agent can't
+        </h2>
+        <p className="mb-3">
+          A captive agent sells one company's plans. I represent multiple
+          carriers, which means I can show you where each one wins and where it
+          falls short. If a carrier raises rates next year, I help you switch
+          without starting from scratch.
+        </p>
+        <p>
+          People dealing with high-cost conditions or specialty medications
+          already have enough to manage. You shouldn't also have to become a
+          Medicare expert. That's my job.
+        </p>
+      </section>
+
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold mb-3">
+          Key dates that affect your options in Ocean County
         </h2>
         <ul className="list-disc pl-6 space-y-2">
-          <li>Pulls Supplement quotes from 8+ carriers in one sitting</li>
           <li>
-            Checks your prescriptions against Part D or Advantage formularies
+            <strong>Medicare Advantage / Part D Open Enrollment:</strong>{" "}
+            October 15 through December 7 each year.
           </li>
-          <li>Confirms your doctors are in-network before you commit</li>
           <li>
-            Helps with enrollment paperwork and follows up if any issues arise
+            <strong>Medigap Open Enrollment:</strong> 6 months starting the
+            month you turn 65 and have Part B. Miss this window and you may face
+            medical underwriting.
           </li>
-          <li>Reviews your plan every year at no cost during Annual Enrollment (October 15 - December 7)</li>
+          <li>
+            <strong>Part B late enrollment penalty:</strong> 10% added to your
+            premium for each 12-month period you delayed without creditable
+            coverage.
+          </li>
         </ul>
       </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Turning 65 in Ocean County? Lock in your rate early
-        </h2>
-        <p className="mb-3">
-          Your Medigap Open Enrollment lasts 6 months, starting the month you
-          turn 65 and are enrolled in Part B. During this window, carriers must
-          accept you at standard rates regardless of health history.
-        </p>
-        <p>
-          My practice is to have clients apply up to 6 months before their Part
-          B start date. This locks in the rate early and protects you from any
-          premium increases before coverage begins. The sooner you start, the
-          better your rate.
-        </p>
-      </section>
-
-      <section className="mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
           Request a free Medicare plan review today
         </h2>
         <p className="mb-3">
-          Whether you&#39;re turning 65, leaving employer coverage, or just want to
-          check if a better rate exists for your current plan, I&#39;ll run the
-          numbers. No pushy sales call. Just a straightforward comparison you can
-          trust.
-        </p>
-        <p>
-          Call 855-559-1700 or request a quote online. I serve all of Ocean
-          County including Toms River, Brick, Lakewood, Jackson, and surrounding
-          towns.
+          Call me at{" "}
+          <a href="tel:8555591700" className="text-blue-600 font-semibold">
+            855-559-1700
+          </a>{" "}
+          or request a quote online. I'll compare your current coverage against
+          what's available in Toms River and Ocean County right now. If your
+          current plan is the best fit, I'll tell you that too.
         </p>
       </section>
 
-      <div className="bg-blue-600 text-white rounded-lg p-6 text-center my-10">
-        <p className="text-xl font-semibold mb-2">
-          Talk to a local, independent Medicare broker today
+      <div className="mt-10 bg-blue-600 text-white rounded-lg p-6 text-center">
+        <p className="text-xl font-bold mb-2">
+          Talk to a local Medicare broker who knows Ocean County
         </p>
-        <p className="text-2xl font-bold mb-3">
-          <a href="tel:8555591700" className="underline">
+        <p className="mb-4">
+          Call{" "}
+          <a href="tel:8555591700" className="underline font-semibold">
             855-559-1700
-          </a>
+          </a>{" "}
+          — free, no obligation
         </p>
         <Link
-          href="/contact"
-          className="inline-block bg-white text-blue-600 font-semibold px-6 py-3 rounded-lg hover:bg-gray-100"
+          href="/quote"
+          className="inline-block bg-white text-blue-600 font-bold px-6 py-3 rounded-lg hover:bg-gray-100 transition"
         >
           Get a Free Quote
         </Link>
       </div>
 
-      <FAQSection faqs={faqs} />
+      <section className="mt-12">
+        <FAQSection faqs={faqs} />
+      </section>
 
-      <section className="mt-10">
+      <section className="mt-12">
         <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
         <ul className="space-y-2">
           <li>
             <Link
-              href="/medicare-guides/medicare-plan-g-nj"
+              href="/medicare-guides/medigap-plan-g-vs-plan-n"
               className="text-blue-600 hover:underline"
             >
-              Medicare Plan G in New Jersey — Full Breakdown
+              Medigap Plan G vs. Plan N: Which Saves You More?
             </Link>
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-plan-n-vs-plan-g"
+              href="/medicare-guides/medicare-advantage-vs-medigap"
               className="text-blue-600 hover:underline"
             >
-              Plan N vs Plan G — Which Saves You More?
+              Medicare Advantage vs. Medigap in New Jersey
             </Link>
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-advantage-nj"
+              href="/medicare-guides/medicare-enrollment-periods"
               className="text-blue-600 hover:underline"
             >
-              Medicare Advantage Plans in New Jersey
+              Medicare Enrollment Periods: Every Deadline You Need
             </Link>
           </li>
           <li>
             <Link
-              href="/medicare-guides/when-to-enroll-in-medicare"
+              href="/services/medicare-broker-ocean-county-nj"
               className="text-blue-600 hover:underline"
             >
-              When to Enroll in Medicare — Deadlines and Penalties
+              Medicare Broker Serving All of Ocean County, NJ
             </Link>
           </li>
         </ul>

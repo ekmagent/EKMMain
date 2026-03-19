@@ -31,7 +31,7 @@ const path = require("path");
 const SF_BIN =
   "/Applications/Screaming Frog SEO Spider.app/Contents/MacOS/ScreamingFrogSEOSpiderLauncher";
 
-const SITE_URL = process.env.SITE_URL || "https://www.medicareyourself.com";
+const SITE_URL = process.env.SITE_URL || "https://medicareyourself.com";
 const PROJECT_ROOT = path.resolve(__dirname, "..");
 const OUTPUT_DIR = path.resolve(PROJECT_ROOT, "screaming-frog-reports");
 const LOG_FILE = path.resolve(PROJECT_ROOT, "screaming-frog-log.tsv");

@@ -19,8 +19,8 @@ const SHEET_ID    = process.env.INTERNAL_SEO_SHEET_ID;
 const SERPER_KEY  = process.env.SERPER_API_KEY;
 const GOOGLE_CREDS = process.env.GOOGLE_CREDENTIALS_JSON;
 
-const START_ROW = 1800;
-const END_ROW   = 2125;
+const START_ROW = parseInt(process.env.FILL_START_ROW) || 1126;
+const END_ROW   = parseInt(process.env.FILL_END_ROW)   || 1147;
 
 // ---------------------------------------------------------------------------
 // Auto-classify a keyword (only used when the row has NO existing metadata)

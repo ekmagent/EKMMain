@@ -9,12 +9,12 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for epilepsy patients | Free Coverage Consultation | MedicareYourself",
   description:
-    "Medicare broker for epilepsy patients in NJ. Anthony Orner finds plans covering seizure meds, ER visits, and neurology access. Free quote, no obligation.",
+    "Medicare broker for epilepsy patients in NJ. Anthony Orner finds plans covering seizure meds, ER visits, and neurology with no surprise gaps. Free quote.",
   openGraph: {
     title:
       "Medicare broker for epilepsy patients | Free Coverage Consultation | MedicareYourself",
     description:
-      "Medicare broker for epilepsy patients in NJ. Anthony Orner finds plans covering seizure meds, ER visits, and neurology access. Free quote, no obligation.",
+      "Medicare broker for epilepsy patients in NJ. Anthony Orner finds plans covering seizure meds, ER visits, and neurology with no surprise gaps. Free quote.",
   },
 };
 
@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Medicare Broker for Epilepsy Patients",
-      item: "https://www.medicareyourself.com/services/medicare-broker-for-epilepsy-patients",
+      item: "https://medicareyourself.com/services/medicare-broker-for-epilepsy-patients",
     },
   ],
 };
@@ -51,7 +51,7 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
@@ -59,30 +59,31 @@ const articleSchema = {
     alternateName: "MedicareYourself",
   },
   mainEntityOfPage:
-    "https://www.medicareyourself.com/services/medicare-broker-for-epilepsy-patients",
+    "https://medicareyourself.com/services/medicare-broker-for-epilepsy-patients",
 };
 
 const faqs = [
   {
-    question: "Can I get Medicare if I have epilepsy?",
+    question: "Can you get Medicare if you have epilepsy?",
     answer:
-      "Yes. Epilepsy does not disqualify you from Medicare. If you're 65 or older with enough work credits, you qualify for Original Medicare (Parts A and B). If you're under 65 and receiving Social Security Disability Insurance for epilepsy, you become eligible for Medicare after 24 months of benefits. Your diagnosis does not affect your eligibility.",
-  },
-  {
-    question: "What is the rule of 3 for seizures?",
-    answer:
-      "The rule of 3 is a clinical guideline some providers use: if someone has had 3 or more unprovoked seizures within a certain timeframe, epilepsy is generally diagnosed and long-term treatment is recommended. This matters for Medicare planning because an established epilepsy diagnosis affects which medications, tests, and specialists your plan needs to cover.",
+      "Yes. If you're 65 or older, you qualify for Medicare regardless of your epilepsy diagnosis. If you're under 65, you may qualify through Social Security Disability Insurance (SSDI) after a 24-month waiting period. Epilepsy does not disqualify you from Original Medicare, Medicare Advantage, or Part D prescription drug plans.",
   },
   {
     question:
       "Does Medicare cover seizure medications like Keppra or Vimpat?",
     answer:
-      "Medicare Part D covers most anti-seizure medications, but the specific drugs covered and your copay amounts depend entirely on the plan's formulary. Some plans may require prior authorization or step therapy. Because formularies change annually, it's critical to check that your exact medications are covered before enrolling or during each renewal period.",
+      "Medicare Part D covers most anti-seizure medications, but every plan has its own formulary. Brand-name drugs like Vimpat can land in higher cost tiers with significant copays. A broker can compare Part D formularies side by side so you're not blindsided at the pharmacy counter.",
   },
   {
-    question: "Does Medicare cover ambulance transport after a seizure?",
+    question: "What is the rule of 3 for seizures?",
     answer:
-      "Medicare Part B covers ambulance services when transport to a hospital is medically necessary and other transportation would endanger your health. For epilepsy patients who experience seizures requiring emergency response, this coverage applies. Under Original Medicare, you'll pay 20% of the Medicare-approved amount after meeting the $283 annual Part B deductible - a cost that a Medicare Supplement plan can help reduce or eliminate.",
+      "The rule of 3 is a clinical guideline suggesting that if a person remains seizure-free for three times the length of their longest previous seizure-free interval, they may have a lower risk of recurrence. It's used by neurologists to help assess prognosis, but it doesn't affect your Medicare eligibility or plan options.",
+  },
+  {
+    question:
+      "Will my epilepsy diagnosis affect Medicare Supplement underwriting?",
+    answer:
+      "Outside of your Medigap Open Enrollment Period, carriers can use medical underwriting to set premiums or deny coverage based on pre-existing conditions like epilepsy. That's why timing matters. During your 6-month Medigap OEP (starting the month you turn 65 and enroll in Part B), no carrier can deny you or charge more because of epilepsy.",
   },
 ];
 
@@ -92,7 +93,7 @@ export default function MedicareBrokerForEpilepsyPatients() {
       <SchemaMarkup schema={breadcrumbSchema} />
       <SchemaMarkup schema={articleSchema} />
 
-      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
+      <nav aria-label="Breadcrumb" className="mb-6 text-sm text-gray-500">
         <Link href="/" className="hover:underline">
           Home
         </Link>{" "}
@@ -106,161 +107,157 @@ export default function MedicareBrokerForEpilepsyPatients() {
         </span>
       </nav>
 
-      <h1 className="text-3xl font-bold mb-4">
+      <h1 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900">
         Medicare Broker for Epilepsy Patients Managing More Than Most People
         Could Imagine
       </h1>
 
       <Image
-        src="/images/medicare-broker-for-epilepsy-patients.webp"
+        src="/images/hub_medicare-broker-for-epilepsy-patients.webp"
         alt="Medicare broker for epilepsy patients"
         width={800}
         height={400}
-        className="rounded-lg mb-6 w-full"
+        className="w-full h-auto rounded-lg mb-6"
       />
 
-      <p className="text-lg mb-2">
-        A Medicare broker for epilepsy patients does something most agents
-        won't: look at the full picture of what you actually live with. The
-        medications you can't miss. The ER visits you can't predict. The
-        neurologist you can't lose access to.
-      </p>
-      <p className="text-lg mb-6">
-        I'm Anthony Orner, a licensed Medicare broker in New Jersey, and I help
-        people with epilepsy find plans that account for all of it.
+      <p className="text-lg text-gray-700 mb-2">
+        A Medicare broker for epilepsy patients does something most online plan
+        finders can't: account for the unpredictable. Seizure meds that cost
+        $400 a month, ambulance rides you didn't choose, neurologist visits
+        that aren't optional. I'm Anthony Orner, a licensed broker in New
+        Jersey, and I match epilepsy patients with plans that actually cover
+        how they live.
       </p>
 
       <PhoneCTA />
 
       <section className="mt-10">
-        <h2 className="text-2xl font-semibold mb-3">
-          Seizure medications, ER visits, and the coverage gaps nobody warns you
-          about
+        <h2 className="text-2xl font-semibold mb-3 text-gray-900">
+          Seizure medications, ER visits, and the coverage gaps nobody warns
+          you about
         </h2>
-        <p className="mb-3">
-          Anti-seizure drugs like levetiracetam, lacosamide, and
-          oxcarbazepine keep your life stable. But Medicare Part D formularies
-          vary by plan, and the wrong one could stick you with high copays or
-          require prior authorization on a drug you've taken for years.
+        <p className="text-gray-700 mb-2">
+          Medicare Part D covers anti-seizure drugs, but formulary placement
+          varies wildly between plans. Keppra (levetiracetam) may sit on a
+          generic tier in one plan and a preferred tier with a higher copay in
+          another. Vimpat and Briviact often land in specialty tiers where
+          you're paying 25-33% coinsurance.
         </p>
-        <p className="mb-3">
-          Under Original Medicare alone, an ER visit means you pay 20% of the
-          approved amount after your $283 Part B deductible. If you're someone
-          who ends up in the ER multiple times a year, those costs add up fast.
-          The right Supplement plan can eliminate that 20%.
+        <p className="text-gray-700">
+          ER visits under Original Medicare mean the $1,676 Part A deductible
+          per benefit period, plus 20% of Part B charges after your $283
+          annual deductible. For someone who's had three ER visits in a year,
+          those numbers add up fast.
         </p>
       </section>
 
       <section className="mt-10">
-        <h2 className="text-2xl font-semibold mb-3">
+        <h2 className="text-2xl font-semibold mb-3 text-gray-900">
           How epilepsy affects your Medicare Supplement underwriting options
         </h2>
-        <p className="mb-3">
-          During your Medigap Open Enrollment Period - the 6 months starting
-          when you're 65 and enrolled in Part B - insurance companies can't deny
-          you or charge more because of epilepsy. That's guaranteed issue. It's
-          the one window where your diagnosis doesn't matter.
+        <p className="text-gray-700 mb-2">
+          Timing is everything. During your 6-month Medigap Open Enrollment
+          Period (starts the month you turn 65 and have Part B), every
+          Supplement carrier must accept you at standard rates. Epilepsy
+          diagnosis, seizure frequency, medication list: none of it can be
+          held against you.
         </p>
-        <p>
-          Outside that window, most carriers in NJ will ask health questions.
-          Epilepsy can affect your options. Timing matters more than people
-          realize, and I help you use your enrollment window strategically.
+        <p className="text-gray-700">
+          Miss that window, and carriers can underwrite. An active epilepsy
+          diagnosis with recent seizure history can lead to higher premiums or
+          outright denial. If you're approaching 65, apply for Medigap up to
+          6 months before your Part B start date to lock in your rate.
         </p>
       </section>
 
       <section className="mt-10">
-        <h2 className="text-2xl font-semibold mb-3">
+        <h2 className="text-2xl font-semibold mb-3 text-gray-900">
           Neurologist access and ambulance coverage: what to look for
         </h2>
-        <ul className="list-disc ml-6 space-y-2 mb-3">
+        <ul className="list-disc pl-6 text-gray-700 space-y-2">
           <li>
-            Original Medicare lets you see any neurologist who accepts Medicare -
-            no referral needed. Medicare Advantage plans often require you to
-            stay in-network or get a referral.
+            <strong>Original Medicare + Medigap:</strong> See any neurologist
+            who accepts Medicare assignment. No referrals. No network
+            restrictions.
           </li>
           <li>
-            Part B covers ambulance transport when it's medically necessary. For
-            someone with seizures, that's not a luxury - it's a regular
-            possibility.
+            <strong>Medicare Advantage (HMO):</strong> You'll need in-network
+            neurologists and may need a referral from your primary care
+            doctor.
           </li>
           <li>
-            EEGs, MRIs, and other diagnostic tests are covered under Part B at
-            80% after your deductible. A Supplement plan covers the remaining
-            20%.
+            <strong>Ambulance coverage:</strong> Medicare covers ambulance
+            transport when medically necessary. You pay 20% of the
+            Medicare-approved amount under Part B. A Medigap plan like Plan G
+            covers that 20%.
           </li>
         </ul>
       </section>
 
       <section className="mt-10">
-        <h2 className="text-2xl font-semibold mb-3">
-          The costs epilepsy patients don't always see coming
+        <h2 className="text-2xl font-semibold mb-3 text-gray-900">
+          The daily costs insurance content never talks about
         </h2>
-        <p className="mb-3">
-          People talk about medication costs. What they don't always mention:
-          the Part A deductible of $1,676 per benefit period if you're admitted
-          after a prolonged seizure. Or skilled nursing facility coinsurance of
-          $209.50 per day for days 21 through 100 if recovery takes longer than
-          expected.
-        </p>
-        <p>
-          These aren't hypothetical numbers. They're real costs that hit hardest
-          when you're already dealing with enough.
+        <p className="text-gray-700 mb-2">
+          Epilepsy costs more than copays. Driving restrictions mean cab fare,
+          Uber, or relying on someone else's schedule. Missed work. Medication
+          side effects that cloud your thinking and limit what jobs you can
+          hold. Your plan should at least cover the medical side without
+          surprises so you're not fighting the insurance company on top of
+          everything else.
         </p>
       </section>
 
       <section className="mt-10">
-        <h2 className="text-2xl font-semibold mb-3">
-          What I actually do differently for epilepsy patients
+        <h2 className="text-2xl font-semibold mb-3 text-gray-900">
+          Part D formulary checks matter more than you think
         </h2>
-        <p className="mb-3">
-          I check your exact seizure medications against every Part D formulary
-          available in your area. I compare Supplement plans based on how often
-          you realistically use emergency and specialist services. And I don't
-          push Medicare Advantage if it means losing access to your neurologist.
+        <p className="text-gray-700 mb-2">
+          Switching seizure medications isn't like switching blood pressure
+          pills. A formulary change mid-year that drops your anti-epileptic or
+          moves it to a higher tier can be medically dangerous, not just
+          expensive. I check every Part D formulary against your current
+          prescriptions before recommending anything.
         </p>
-        <p>
-          This isn't about selling a plan. It's about building coverage around a
-          condition that doesn't follow a schedule.
+        <p className="text-gray-700">
+          If your plan makes a mid-year formulary change, you may have a
+          Special Enrollment Period to switch. That's the kind of detail a
+          broker catches.
         </p>
       </section>
 
       <section className="mt-10">
-        <h2 className="text-2xl font-semibold mb-3">
+        <h2 className="text-2xl font-semibold mb-3 text-gray-900">
           Find a plan built around unpredictable needs
         </h2>
-        <p className="mb-3">
-          You're managing medication timing, driving restrictions, the constant
-          low-level awareness that something could happen at any moment. Your
-          insurance shouldn't add to that weight.
-        </p>
-        <p>
-          Call me. We'll go through your medications, your doctors, and your
-          budget. No cost, no pressure, no surprises.
+        <p className="text-gray-700">
+          You don't need a plan that works fine when things are stable. You
+          need one that holds up on the worst days. I'll walk through your
+          medications, your specialists, and your real-world costs. The call
+          is free, there's no obligation, and I don't charge you a dime.
+          Carriers pay me, so you get the help without the bill.
         </p>
       </section>
 
-      <div className="mt-10 bg-blue-50 rounded-lg p-6 text-center">
-        <p className="text-xl font-semibold mb-2">
-          Talk to a Medicare broker who understands epilepsy coverage
+      <div className="mt-12 bg-blue-600 rounded-lg p-8 text-center text-white">
+        <p className="text-2xl font-bold mb-2">
+          Talk to a broker who understands epilepsy coverage.
         </p>
         <p className="text-lg mb-4">
           Call{" "}
           <a
             href="tel:8555591700"
-            className="text-blue-700 font-bold hover:underline"
+            className="underline font-semibold text-white"
           >
             855-559-1700
           </a>{" "}
           or{" "}
           <Link
-            href="/contact"
-            className="text-blue-700 font-bold hover:underline"
+            href="/quote"
+            className="underline font-semibold text-white"
           >
             Get a Free Quote
           </Link>
-        </p>
-        <p className="text-sm text-gray-600">
-          Anthony Orner, Licensed Medicare Broker - New Jersey
         </p>
       </div>
 
@@ -269,28 +266,30 @@ export default function MedicareBrokerForEpilepsyPatients() {
       </section>
 
       <section className="mt-12">
-        <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
+        <h2 className="text-2xl font-semibold mb-4 text-gray-900">
+          Related resources
+        </h2>
         <ul className="space-y-2">
           <li>
             <Link
               href="/medicare-guides/medicare-supplement-plans-nj"
-              className="text-blue-700 hover:underline"
+              className="text-blue-600 hover:underline"
             >
-              Medicare Supplement Plans in NJ
+              Medicare Supplement Plans in New Jersey
             </Link>
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-part-d-prescription-drug-coverage"
-              className="text-blue-700 hover:underline"
+              href="/medicare-guides/part-d-prescription-drug-coverage"
+              className="text-blue-600 hover:underline"
             >
-              Medicare Part D Prescription Drug Coverage
+              Part D Prescription Drug Coverage Guide
             </Link>
           </li>
           <li>
             <Link
               href="/services/medicare-broker-for-chronic-conditions"
-              className="text-blue-700 hover:underline"
+              className="text-blue-600 hover:underline"
             >
               Medicare Broker for Chronic Conditions
             </Link>
@@ -298,13 +297,18 @@ export default function MedicareBrokerForEpilepsyPatients() {
           <li>
             <Link
               href="/medicare-guides/medigap-open-enrollment-period"
-              className="text-blue-700 hover:underline"
+              className="text-blue-600 hover:underline"
             >
               Medigap Open Enrollment Period Explained
             </Link>
           </li>
         </ul>
       </section>
+
+      <p className="mt-10 text-sm text-gray-500">
+        Written by Anthony Orner, Licensed Medicare Broker | EasyKind
+        Medicare
+      </p>
     </main>
   );
 }

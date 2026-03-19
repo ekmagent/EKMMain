@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Find a Medicare Agent in Piscataway, NJ",
-      item: "https://www.medicareyourself.com/services/find-a-medicare-agent-in-piscataway-nj",
+      item: "https://medicareyourself.com/services/find-a-medicare-agent-in-piscataway-nj",
     },
   ],
 };
@@ -50,47 +50,46 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-01-15",
-  dateModified: "2025-01-15",
+  datePublished: "2025-07-12",
+  dateModified: "2025-07-12",
 };
 
 const faqs = [
   {
     question: "How much do Medicare agents charge?",
     answer:
-      "Licensed Medicare agents are paid a commission by the insurance carrier you enroll with. You pay nothing for the service. My consultations, plan comparisons, and enrollment help are completely free to you.",
+      "Nothing. Licensed Medicare brokers are paid by insurance carriers, not by you. Whether you enroll in a Medigap plan, Medicare Advantage, or Part D, the service is free. Your premium stays the same whether you use a broker or go directly to the carrier.",
   },
   {
-    question: "How to pick a Medicare agent?",
+    question: "What's the difference between a Medicare agent and a Medicare broker?",
     answer:
-      "Look for a broker who is independent, meaning they work with multiple carriers rather than just one. Ask if they are licensed in your state and whether they can show you both Medicare Supplement and Medicare Advantage options. An independent agent gives you a broader view of what is available.",
+      "A captive agent works for one insurance company and can only sell that company's plans. An independent broker like Anthony Orner is licensed with multiple carriers and can compare rates across all of them. You get unbiased recommendations instead of a sales pitch for one product.",
   },
   {
-    question: "How do I speak to a live person at Medicare?",
+    question: "How do I pick the right Medicare agent?",
     answer:
-      "You can call 1-800-MEDICARE (1-800-633-4227), available 24/7. For help comparing plans and enrolling, you can also call a licensed broker like me at 855-559-1700 during business hours.",
+      "Look for an active NJ license, appointments with multiple carriers, and willingness to explain options without pressure. Ask if they help with claims issues after enrollment. A good broker stays in your corner year after year, not just during sign-up.",
   },
   {
-    question: "Can a Medicare agent help me if I already have coverage?",
+    question: "How do I speak to a live person about Medicare?",
     answer:
-      "Yes. If you are unhappy with your current plan or your rates increased, I can review your coverage and compare it to other options during the appropriate enrollment period. There is no cost for this review.",
+      "You can call 1-800-MEDICARE (1-800-633-4227) for general questions, but they won't compare plans for you. For plan comparisons and enrollment help specific to Piscataway, call a local broker at 855-559-1700.",
   },
 ];
 
 export default function FindMedicareAgentPiscatawayNJ() {
   return (
-    <main className="max-w-4xl mx-auto px-4 py-8">
-      <SchemaMarkup schema={breadcrumbSchema} />
-      <SchemaMarkup schema={articleSchema} />
+    <>
+      <SchemaMarkup schema={[breadcrumbSchema, articleSchema]} />
 
-      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
+      <nav aria-label="Breadcrumb" className="text-sm text-gray-600 mb-4">
         <Link href="/" className="hover:underline">
           Home
         </Link>{" "}
@@ -99,170 +98,177 @@ export default function FindMedicareAgentPiscatawayNJ() {
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
-        <span className="text-gray-700">
+        <span className="text-gray-900">
           Find a Medicare Agent in Piscataway, NJ
         </span>
       </nav>
 
-      <h1 className="text-3xl md:text-4xl font-bold mb-4">
-        Find a Medicare Agent in Piscataway, NJ for Unbiased Plan Comparisons
-      </h1>
+      <article className="max-w-3xl mx-auto">
+        <h1 className="text-3xl md:text-4xl font-bold mb-4">
+          Find a Medicare Agent in Piscataway, NJ for Unbiased Plan Comparisons
+        </h1>
 
-      <Image
-        src="/images/find-a-medicare-agent-in-piscataway-nj.webp"
-        alt="find a medicare agent in Piscataway NJ"
-        width={800}
-        height={400}
-        className="rounded-lg mb-6 w-full"
-      />
+        <Image
+          src="/images/hub_find-a-medicare-agent-in-piscataway-nj.webp"
+          alt="find a medicare agent in piscataway nj"
+          width={800}
+          height={400}
+          className="w-full rounded-lg mb-6"
+          priority
+        />
 
-      <p className="text-lg mb-2">
-        Finding a Medicare agent in Piscataway, NJ does not have to involve hours of phone calls and confusing paperwork. I'm Anthony Orner, a licensed independent Medicare broker who works with residents across Middlesex County. My job is to compare plans from every major carrier so you don't have to.
-      </p>
-      <p className="text-lg mb-6">
-        There is no charge for my help. Carriers pay my commission, not you.
-      </p>
+        <p className="text-lg mb-2">
+          Find a Medicare agent in Piscataway, NJ who actually compares rates across every major carrier instead of pushing one company's plan. I'm Anthony Orner, a licensed independent broker serving Middlesex County. My consultations are always free, and I work for you, not for any single insurer.
+        </p>
 
-      <PhoneCTA />
+        <PhoneCTA />
 
-      <section className="mt-10 mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Why an independent broker beats calling each carrier yourself
-        </h2>
-        <p className="mb-2">
-          When you call a carrier directly, their representative can only show you that company's plans. An independent broker like me is contracted with 10+ carriers and can lay your options side by side in one conversation.
-        </p>
-        <ul className="list-disc pl-6 space-y-1 mb-2">
-          <li>One call replaces a dozen</li>
-          <li>You see the full picture, not a sales pitch from one company</li>
-          <li>I handle the enrollment paperwork for you</li>
-        </ul>
-        <p>
-          The result: you pick the plan that fits your doctors, prescriptions, and budget rather than settling for whatever one carrier offers.
-        </p>
-      </section>
+        <section className="mt-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Why an independent broker beats calling each carrier yourself
+          </h2>
+          <p className="mb-2">
+            Calling three or four insurance companies means repeating your health history, medications, and doctors every time. Each rep only knows their own products. An independent broker pulls rates from all of them in one conversation.
+          </p>
+          <p>
+            I hold appointments with over a dozen carriers in New Jersey. One call gives you a side-by-side comparison. Same premiums you'd get going direct, zero markup.
+          </p>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Top Medicare Supplement carriers serving Middlesex County
-        </h2>
-        <p className="mb-2">
-          Piscataway falls in Middlesex County, and you have strong carrier options here. I regularly quote plans from Aetna, Cigna, Mutual of Omaha, United American, and others.
-        </p>
-        <p className="mb-2">
-          Plan G is the most popular Medigap choice for people new to Medicare in 2026. It covers everything except the annual Part B deductible of $257. Rates vary by carrier, age, and tobacco status, so comparing across companies is where real savings happen.
-        </p>
-        <p>
-          I can pull live rates for your specific zip code in minutes. Just call 855-559-1700.
-        </p>
-      </section>
+        <section className="mt-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Top Medicare Supplement carriers serving Middlesex County
+          </h2>
+          <p className="mb-2">
+            Piscataway residents have strong access to Medigap plans from carriers actively writing policies in the 08854 zip code:
+          </p>
+          <ul className="list-disc pl-6 space-y-1 mb-2">
+            <li>Aetna</li>
+            <li>Cigna</li>
+            <li>Mutual of Omaha</li>
+            <li>United American</li>
+            <li>Anthem (via Empire BCBS network)</li>
+          </ul>
+          <p>
+            Rates vary by carrier, age, and tobacco status. I quote all of them so you see the real spread.
+          </p>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Turning 65 in Piscataway? Here is your open enrollment timeline
-        </h2>
-        <p className="mb-2">
-          Your Medigap Open Enrollment Period lasts six months. It starts the month you turn 65 and are enrolled in Part B. During this window, carriers must accept you at standard rates with no health questions.
-        </p>
-        <p className="mb-2">
-          My practice is to have clients apply up to six months before their Part B start date. This locks in your rate early and protects you from premium increases before coverage begins. The sooner you lock in, the better your rate.
-        </p>
-        <p>
-          Miss this window and you could face medical underwriting, which means higher premiums or even denial.
-        </p>
-      </section>
+        <section className="mt-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Turning 65 in Piscataway? Here is your open enrollment timeline
+          </h2>
+          <p className="mb-2">
+            Your Medigap Open Enrollment Period starts the month you turn 65 and are enrolled in Part B. It lasts six months. During this window, carriers must accept you regardless of health history. No medical questions, no denials.
+          </p>
+          <p className="mb-2">
+            Miss it, and carriers can underwrite you or decline coverage entirely. That's why I recommend starting the process about six months before your Part B effective date.
+          </p>
+          <p>
+            For 2026, the Part B premium is $202.90/month, the Part B deductible is $283/year, and the Part A deductible is $1,676 per benefit period. These costs are exactly what a good Medigap plan covers.
+          </p>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          What to expect during a free consultation
-        </h2>
-        <p className="mb-2">
-          I keep things simple. During our call or video meeting, I ask about your current doctors, any prescriptions, and what matters most to you - low premiums, low out-of-pocket costs, or something in between.
-        </p>
-        <p>
-          Then I pull up real-time quotes and walk you through two or three strong options. No pressure, no hard sell. You decide on your timeline.
-        </p>
-      </section>
+        <section className="mt-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Local healthcare realities that shape your plan choice
+          </h2>
+          <p className="mb-2">
+            Piscataway sits between Robert Wood Johnson University Hospital in New Brunswick and JFK Medical Center in Edison. With Original Medicare plus a Supplement, you can walk into either facility without network restrictions.
+          </p>
+          <p>
+            If a major hospital system drops a carrier's network (something NJ residents have seen firsthand), Medigap holders aren't affected. Your coverage follows you, not a network directory.
+          </p>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Medicare Advantage vs. Medigap in Piscataway
-        </h2>
-        <p className="mb-2">
-          Piscataway has competitive Medicare Advantage plans with $0 premiums and extra benefits like dental and vision. But these plans use provider networks and have annual out-of-pocket maximums that can reach several thousand dollars.
-        </p>
-        <p>
-          Medicare Supplement plans cost more monthly but give you predictable costs and let you see any provider that accepts Medicare nationwide. I help you weigh both paths based on your health and budget.
-        </p>
-      </section>
+        <section className="mt-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            What happens after you enroll
+          </h2>
+          <p className="mb-2">
+            I don't disappear after enrollment. If you get an unexpected bill, need to switch plans, or have questions about a claim, you call the same number. I review your plan annually to make sure it still fits your needs and budget.
+          </p>
+          <p>
+            Real broker support means you have someone in your corner when the paperwork gets confusing.
+          </p>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Book a free phone or video consultation
-        </h2>
-        <p className="mb-2">
-          Whether you are turning 65 next month or reviewing your current coverage, I am here to help. I serve Piscataway, Edison, New Brunswick, and all of Middlesex County.
-        </p>
-        <p>
-          Call 855-559-1700 or schedule a video meeting at a time that works for you. There is zero cost and zero obligation.
-        </p>
-      </section>
+        <section className="mt-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Book a free phone or video consultation
+          </h2>
+          <p className="mb-2">
+            Pick whichever format works for you. Phone, Zoom, or in-person if you're nearby. I'll pull quotes, walk through your options, and answer every question. No cost, no obligation, no pressure.
+          </p>
+          <p>
+            Call <strong>855-559-1700</strong> or click below to get started.
+          </p>
+        </section>
 
-      <div className="bg-blue-600 text-white rounded-lg p-6 text-center my-10">
-        <p className="text-xl font-semibold mb-2">
-          Ready to compare Medicare plans in Piscataway?
-        </p>
-        <p className="mb-4">
-          Call{" "}
-          <a href="tel:8555591700" className="underline font-bold">
-            855-559-1700
-          </a>{" "}
-          or{" "}
-          <Link href="/contact" className="underline font-bold">
-            Get a Free Quote
-          </Link>
-        </p>
-      </div>
-
-      <FAQSection faqs={faqs} />
-
-      <section className="mt-10">
-        <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
-        <ul className="space-y-2">
-          <li>
-            <Link
-              href="/medicare-guides/medicare-supplement-plan-g-nj"
-              className="text-blue-600 hover:underline"
+        <div className="mt-10 bg-blue-600 text-white rounded-lg p-6 text-center">
+          <p className="text-xl font-semibold mb-2">
+            Ready to compare Medicare plans in Piscataway?
+          </p>
+          <p className="mb-4">
+            Call{" "}
+            <a
+              href="tel:855-559-1700"
+              className="underline font-bold text-white"
             >
-              Medicare Supplement Plan G in NJ - Full Breakdown
-            </Link>
-          </li>
-          <li>
+              855-559-1700
+            </a>{" "}
+            or{" "}
             <Link
-              href="/medicare-guides/medicare-advantage-vs-medigap"
-              className="text-blue-600 hover:underline"
+              href="/get-a-free-quote"
+              className="underline font-bold text-white"
             >
-              Medicare Advantage vs. Medigap - Which Is Right for You?
+              Get a Free Quote
             </Link>
-          </li>
-          <li>
-            <Link
-              href="/medicare-guides/when-to-enroll-in-medicare"
-              className="text-blue-600 hover:underline"
-            >
-              When to Enroll in Medicare - Key Dates and Deadlines
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/services/find-a-medicare-agent-in-edison-nj"
-              className="text-blue-600 hover:underline"
-            >
-              Find a Medicare Agent in Edison, NJ
-            </Link>
-          </li>
-        </ul>
-      </section>
-    </main>
+          </p>
+        </div>
+
+        <section className="mt-10">
+          <FAQSection faqs={faqs} />
+        </section>
+
+        <section className="mt-10">
+          <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
+          <ul className="space-y-2">
+            <li>
+              <Link
+                href="/medicare-guides/medigap-plan-g-vs-plan-n"
+                className="text-blue-600 hover:underline"
+              >
+                Medigap Plan G vs. Plan N: Which Saves You More?
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/medicare-guides/when-to-enroll-in-medicare"
+                className="text-blue-600 hover:underline"
+              >
+                When to Enroll in Medicare: Deadlines That Matter
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/find-a-medicare-agent-in-new-brunswick-nj"
+                className="text-blue-600 hover:underline"
+              >
+                Find a Medicare Agent in New Brunswick, NJ
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/medicare-guides/part-b-late-enrollment-penalty"
+                className="text-blue-600 hover:underline"
+              >
+                Part B Late Enrollment Penalty: What It Costs You
+              </Link>
+            </li>
+          </ul>
+        </section>
+      </article>
+    </>
   );
 }

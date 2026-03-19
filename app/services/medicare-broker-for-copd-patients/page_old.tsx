@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Medicare Broker for COPD Patients",
-      item: "https://www.medicareyourself.com/services/medicare-broker-for-copd-patients",
+      item: "https://medicareyourself.com/services/medicare-broker-for-copd-patients",
     },
   ],
 };
@@ -51,7 +51,7 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
@@ -156,7 +156,7 @@ export default function MedicareBrokerForCOPDPatients() {
             <strong>Pulmonary rehab:</strong> Part B covers programs for moderate to very severe COPD. Same 20% cost-sharing applies.
           </li>
           <li>
-            <strong>2025+ cap:</strong> Medicare now caps Part D out-of-pocket costs at $2,000 annually - a real difference when you rely on multiple inhalers.
+            <strong>2025+ cap:</strong> Medicare now caps Part D out-of-pocket costs at $2,100 annually (2026) - a real difference when you rely on multiple inhalers.
           </li>
         </ul>
       </section>

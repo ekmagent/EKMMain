@@ -9,12 +9,12 @@ export const metadata: Metadata = {
   title:
     "What's the Best Medicare Plan for Someone With Chronic Conditions | Free Broker Help | MedicareYourself",
   description:
-    "What's the best Medicare plan for chronic conditions? Medigap often beats Advantage for ongoing care. Free broker guidance from Anthony Orner — no health screening.",
+    "What's the best Medicare plan for chronic conditions? Learn why Medigap often beats Advantage for ongoing care. Free broker guidance, no health screening.",
   openGraph: {
     title:
       "What's the Best Medicare Plan for Someone With Chronic Conditions | Free Broker Help | MedicareYourself",
     description:
-      "What's the best Medicare plan for chronic conditions? Medigap often beats Advantage for ongoing care. Free broker guidance from Anthony Orner — no health screening.",
+      "What's the best Medicare plan for chronic conditions? Learn why Medigap often beats Advantage for ongoing care. Free broker guidance, no health screening.",
   },
 };
 
@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Best Medicare Plan for Chronic Conditions",
-      item: "https://www.medicareyourself.com/services/best-medicare-plan-for-chronic-conditions",
+      item: "https://medicareyourself.com/services/best-medicare-plan-for-chronic-conditions",
     },
   ],
 };
@@ -51,7 +51,7 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
@@ -66,32 +66,33 @@ const faqs = [
   {
     question: "Which Medicare plan is best for chronic illness?",
     answer:
-      "For most people with chronic conditions, Original Medicare paired with a Medigap plan (like Plan G or Plan N) provides the most predictable costs and widest doctor access. Medicare Advantage C-SNP plans exist for specific chronic conditions, but they come with networks, prior authorizations, and often higher out-of-pocket maximums than people expect.",
+      "For most people with chronic conditions, Original Medicare paired with a Medigap plan like Plan G or Plan N offers the most predictable costs and widest doctor access. Medicare Advantage C-SNPs exist for specific chronic conditions but often carry higher copays and out-of-pocket maximums than expected.",
   },
   {
     question: "Does Medicare cover osteoarthritis?",
     answer:
-      "Yes. Original Medicare (Part A and Part B) covers medically necessary treatments for osteoarthritis, including doctor visits, physical therapy, joint injections, and joint replacement surgery. Part D covers prescription medications. A Medigap plan helps cover your share of these costs.",
+      "Yes. Original Medicare covers osteoarthritis-related doctor visits, imaging, physical therapy, and joint replacement surgery under Part A and Part B. You'll still owe deductibles and coinsurance unless you have supplemental coverage like a Medigap plan.",
   },
   {
     question:
       "Can I get a Medigap plan if I already have a chronic condition?",
     answer:
-      "During your 6-month Medigap Open Enrollment Period (starting when you turn 65 and enroll in Part B), carriers cannot deny you or charge more due to health conditions. Outside that window, federal guaranteed issue rights may apply if you're leaving an Advantage plan or losing employer coverage. Rules vary by state — call to confirm your options.",
+      "During your 6-month Medigap Open Enrollment Period (starting the month you turn 65 and enroll in Part B), carriers cannot deny you or charge more due to health conditions. Outside that window, federal guaranteed issue rights may apply if you lose employer coverage, leave a Medicare Advantage plan, or experience other qualifying events. Rules vary by state, so call to confirm your options.",
   },
   {
-    question: "What is a Chronic Special Needs Plan (C-SNP)?",
+    question: "What is a C-SNP plan for chronic conditions?",
     answer:
-      "A C-SNP is a type of Medicare Advantage plan designed for people with specific chronic conditions like diabetes, heart failure, or cardiovascular disorders. They include care coordination but still operate within provider networks. Many beneficiaries find the copays and out-of-pocket maximums are higher than expected compared to Medigap.",
+      "A Chronic Condition Special Needs Plan (C-SNP) is a Medicare Advantage plan designed for people with qualifying conditions like diabetes, heart failure, or cardiovascular disorders. C-SNPs coordinate care for your specific condition but still operate as HMO or PPO plans with network restrictions and cost-sharing.",
   },
 ];
 
-export default function BestMedicarePlanChronicConditions() {
+export default function BestMedicarePlanForChronicConditions() {
   return (
-    <main className="max-w-3xl mx-auto px-4 py-8">
-      <SchemaMarkup schema={[breadcrumbSchema, articleSchema]} />
+    <>
+      <SchemaMarkup schema={breadcrumbSchema} />
+      <SchemaMarkup schema={articleSchema} />
 
-      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
+      <nav aria-label="Breadcrumb" className="mb-4 text-sm text-gray-500">
         <Link href="/" className="hover:underline">
           Home
         </Link>{" "}
@@ -105,199 +106,164 @@ export default function BestMedicarePlanChronicConditions() {
         </span>
       </nav>
 
-      <h1 className="text-3xl font-bold mb-4 leading-tight">
-        What's the Best Medicare Plan for Someone With Chronic Conditions?
-      </h1>
+      <article className="max-w-3xl mx-auto">
+        <h1 className="text-3xl md:text-4xl font-bold mb-4">
+          What&#39;s the Best Medicare Plan for Someone With Chronic Conditions?
+        </h1>
 
-      <Image
-        src="/images/best-medicare-plan-for-chronic-conditions_photo.webp"
-        alt="best medicare plan for someone with chronic conditions"
-        width={800}
-        height={400}
-        className="w-full rounded-lg mb-6"
-        priority
-      />
+        <Image
+          src="/images/hub_best-medicare-plan-for-chronic-conditions.webp"
+          alt="best medicare plan for someone with chronic conditions"
+          width={800}
+          height={400}
+          className="w-full rounded-lg mb-6"
+          priority
+        />
 
-      <p className="text-lg mb-2">
-        What's the best Medicare plan for someone with chronic conditions? If you
-        manage diabetes, heart failure, autoimmune disease, or chronic pain, the
-        answer usually isn't the $0-premium plan that looks great on paper.
-      </p>
-      <p className="text-lg mb-6">
-        It's the plan that keeps your costs predictable when you actually use it.
-        I'm Anthony Orner, a licensed Medicare broker, and I help people with
-        ongoing health needs find coverage that holds up under real use.
-      </p>
+        <p className="text-lg mb-2">
+          What&#39;s the best Medicare plan for someone with chronic conditions? It depends on how often you see specialists, how many medications you take, and whether you can afford surprises. For most people managing ongoing health issues, Original Medicare plus a Medigap supplement gives you the fewest barriers and the most predictable bills.
+        </p>
+        <p className="text-lg mb-6">
+          I&#39;m Anthony Orner, a licensed Medicare broker, and I help people with conditions like diabetes, heart failure, and autoimmune disorders find coverage that actually works for their daily reality.
+        </p>
 
-      <PhoneCTA />
+        <PhoneCTA />
 
-      <section className="mt-10">
-        <h2 className="text-2xl font-semibold mb-3">
-          Why Medigap usually beats Medicare Advantage for chronic illness
-        </h2>
-        <p className="mb-2">
-          Medicare Advantage plans charge copays at every visit, every scan,
-          every specialist. When you're seeing doctors regularly, those costs
-          stack fast. The annual out-of-pocket maximum can reach $8,850 or more.
-        </p>
-        <p>
-          Original Medicare with a Medigap supplement works differently. Medigap
-          pays your cost-sharing after Medicare pays its part. No networks. No
-          referrals. No prior authorizations delaying the treatment your doctor
-          ordered.
-        </p>
-      </section>
+        <section className="mt-10 mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Why Medigap usually beats Medicare Advantage for chronic illness
+          </h2>
+          <p className="mb-2">
+            Medicare Advantage plans look great on paper. Zero-dollar premiums, dental and vision perks, even Chronic Condition Special Needs Plans (C-SNPs) designed for specific diagnoses. But people with chronic conditions use healthcare constantly, and that&#39;s where the cracks show.
+          </p>
+          <p>
+            Advantage plans require network referrals, prior authorizations, and can change their provider networks every year. When you&#39;re seeing three specialists and filling six prescriptions, a surprise network change isn&#39;t an inconvenience. It&#39;s a crisis. Medigap with Original Medicare lets you see any doctor who accepts Medicare, anywhere in the country, with no referrals.
+          </p>
+        </section>
 
-      <section className="mt-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          How Plan G and Plan N protect you from unpredictable costs
-        </h2>
-        <ul className="list-disc pl-6 space-y-2">
-          <li>
-            <strong>Plan G:</strong> Covers everything except the Part B
-            deductible ($283/year in 2026). After that, you pay $0 for
-            Medicare-approved services. No surprise bills.
-          </li>
-          <li>
-            <strong>Plan N:</strong> Lower monthly premium than Plan G. You pay
-            the $283 deductible plus small copays (up to $20 for office visits,
-            up to $50 for ER visits not resulting in admission).
-          </li>
-        </ul>
-        <p className="mt-2">
-          Both plans let you see any doctor in the country who accepts Medicare.
-          That matters when you need specialists or travel for care.
-        </p>
-      </section>
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            How Plan G and Plan N protect you from unpredictable costs
+          </h2>
+          <p className="mb-2">
+            Plan G covers everything Original Medicare doesn&#39;t except the Part B deductible ($283/year in 2026). After that, your out-of-pocket cost for approved services is zero. No copays at the oncologist. No coinsurance after surgery. No $209.50/day for skilled nursing days 21 through 100.
+          </p>
+          <p>
+            Plan N costs less per month but adds small copays: up to $20 for office visits and up to $50 for ER visits that don&#39;t result in admission. If your condition is stable and you mostly see your primary doctor, Plan N can save you real money. If you&#39;re in and out of hospitals, Plan G is worth the higher premium.
+          </p>
+        </section>
 
-      <section className="mt-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          What about Chronic Special Needs Plans (C-SNPs)?
-        </h2>
-        <p className="mb-2">
-          C-SNPs are Medicare Advantage plans built for people with conditions
-          like diabetes, heart failure, or cardiovascular disorders. They include
-          care coordination and may cover extra services.
-        </p>
-        <p>
-          But they're still Advantage plans. You'll deal with provider networks,
-          formulary restrictions, and copays at every level of care. Many people
-          find C-SNP out-of-pocket costs are higher than expected, especially
-          compared to Medigap. If your conditions require frequent, varied care,
-          a supplement plan usually costs less overall.
-        </p>
-      </section>
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            What about chronic condition special needs plans?
+          </h2>
+          <p className="mb-2">
+            C-SNPs are Medicare Advantage plans built around qualifying conditions like diabetes, chronic heart failure, and cardiovascular disorders. They coordinate care and may cover extra services for those specific conditions.
+          </p>
+          <p>
+            But they&#39;re still Advantage plans. They still have networks, out-of-pocket maximums, and cost-sharing. Some people on public forums have noticed that C-SNPs actually carry higher copays and drug costs than standard Advantage plans from the same carrier. That&#39;s worth looking at carefully before enrolling.
+          </p>
+        </section>
 
-      <section className="mt-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Guaranteed issue rights that bypass health questions entirely
-        </h2>
-        <p className="mb-2">
-          Your best window: the 6-month Medigap Open Enrollment Period, starting
-          when you turn 65 and enroll in Part B. During this time, no carrier can
-          deny you or charge more because of a chronic condition.
-        </p>
-        <p>
-          Outside that window, federal guaranteed issue rights still apply in
-          specific situations: leaving a Medicare Advantage plan, losing employer
-          coverage, or if your plan leaves your area. Rules vary by state, so
-          call to confirm what applies to you.
-        </p>
-      </section>
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Guaranteed issue rights that bypass health questions entirely
+          </h2>
+          <p className="mb-2">
+            Your best shot at Medigap is during your 6-month Open Enrollment Period, which starts the month you turn 65 and enroll in Part B. During this window, no carrier can deny you or charge more because of a chronic condition. None.
+          </p>
+          <ul className="list-disc pl-6 space-y-1">
+            <li>Losing employer or union group coverage</li>
+            <li>Leaving a Medicare Advantage plan</li>
+            <li>Your plan carrier goes bankrupt or violates its contract</li>
+            <li>Moving out of your plan&#39;s service area</li>
+          </ul>
+          <p className="mt-2">
+            These are federal guaranteed issue triggers. Some states offer additional protections. Rules vary by state, so call to confirm what applies to you.
+          </p>
+        </section>
 
-      <section className="mt-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          The real cost of choosing wrong with chronic conditions
-        </h2>
-        <p className="mb-2">
-          Copays that seem small add up when you see four specialists, fill eight
-          prescriptions, and need imaging every few months. A $0 premium plan
-          can easily cost $4,000-$6,000 a year in out-of-pocket expenses.
-        </p>
-        <p>
-          Medigap premiums are higher monthly, but your total annual spend
-          becomes predictable. For someone managing ongoing conditions, that
-          predictability isn't a luxury. It's the whole point.
-        </p>
-      </section>
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            The real cost of choosing wrong
+          </h2>
+          <p className="mb-2">
+            I&#39;ve talked to people who picked a $0 Advantage plan and then watched copays pile up after a hospital stay. Or found their longtime specialist dropped from the network mid-year. When you have a chronic condition, switching plans isn&#39;t just paperwork. It can mean gaps in treatment.
+          </p>
+          <p>
+            The Part A deductible alone is $1,676 per benefit period in 2026. If your condition puts you in the hospital more than once a year, that resets each time. A Medigap plan eliminates that exposure entirely.
+          </p>
+        </section>
 
-      <section className="mt-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          How Anthony matches your conditions to the right plan
-        </h2>
-        <p className="mb-2">
-          I look at your actual medication list, your doctors, how often you need
-          care, and whether you travel. Then I compare what you'd pay under
-          Medigap vs. Advantage across a full year, not just the monthly premium.
-        </p>
-        <p>
-          No health screening on our end. No sales pitch. I work with multiple
-          carriers so I can show you real options, not just the one plan that
-          pays me the most. Call and we'll figure it out together.
-        </p>
-      </section>
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            How Anthony matches your conditions to the right plan
+          </h2>
+          <p className="mb-2">
+            I don&#39;t sell one type of plan. I compare Medigap, Advantage, and Part D options across carriers to find what fits your actual health situation. That means looking at your medications, your doctors, how often you need specialists, and what you can budget monthly.
+          </p>
+          <p>
+            There&#39;s no cost for my help, no health screening to talk, and no pressure to enroll. If you&#39;re managing a chronic condition, you already deal with enough hassle. Getting the right Medicare plan shouldn&#39;t add to it.
+          </p>
+        </section>
 
-      <div className="mt-10 bg-blue-600 text-white rounded-lg p-6 text-center">
-        <p className="text-xl font-semibold mb-2">
-          Living with chronic conditions? Let's find the plan that actually
-          works.
-        </p>
-        <p className="text-lg mb-4">
-          Call{" "}
-          <a href="tel:8555591700" className="underline font-bold">
-            855-559-1700
-          </a>{" "}
-          for a free, no-pressure consultation.
-        </p>
-        <Link
-          href="/contact"
-          className="inline-block bg-white text-blue-600 font-semibold px-6 py-3 rounded-lg hover:bg-gray-100 transition"
-        >
-          Get a Free Quote
-        </Link>
-      </div>
+        <div className="bg-blue-600 text-white rounded-lg p-8 text-center mb-10">
+          <p className="text-xl font-semibold mb-2">
+            Talk to a licensed broker who understands chronic conditions.
+          </p>
+          <p className="text-2xl font-bold mb-4">
+            <a href="tel:8555591700" className="underline">
+              855-559-1700
+            </a>
+          </p>
+          <Link
+            href="/contact"
+            className="inline-block bg-white text-blue-600 font-semibold px-6 py-3 rounded-lg hover:bg-gray-100"
+          >
+            Get a Free Quote
+          </Link>
+        </div>
 
-      <section className="mt-12">
         <FAQSection faqs={faqs} />
-      </section>
 
-      <section className="mt-12">
-        <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
-        <ul className="space-y-2">
-          <li>
-            <Link
-              href="/services/medigap-plan-g-vs-plan-n"
-              className="text-blue-600 hover:underline"
-            >
-              Medigap Plan G vs. Plan N: Which Saves You More?
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/services/medicare-advantage-vs-medigap"
-              className="text-blue-600 hover:underline"
-            >
-              Medicare Advantage vs. Medigap: Real Cost Comparison
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/services/medigap-open-enrollment-period"
-              className="text-blue-600 hover:underline"
-            >
-              Medigap Open Enrollment: Why Timing Matters
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/services/guaranteed-issue-rights-medicare"
-              className="text-blue-600 hover:underline"
-            >
-              Guaranteed Issue Rights for Medicare Supplement Plans
-            </Link>
-          </li>
-        </ul>
-      </section>
-    </main>
+        <section className="mt-10 mb-8">
+          <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
+          <ul className="space-y-2">
+            <li>
+              <Link
+                href="/services/medigap-plan-g"
+                className="text-blue-600 hover:underline"
+              >
+                Medigap Plan G: What It Covers and What It Costs
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/medigap-plan-n"
+                className="text-blue-600 hover:underline"
+              >
+                Medigap Plan N: A Lower-Cost Supplement Option
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/medicare-advantage-vs-medigap"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare Advantage vs. Medigap: Which Is Right for You?
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/medigap-guaranteed-issue-rights"
+                className="text-blue-600 hover:underline"
+              >
+                Medigap Guaranteed Issue Rights Explained
+              </Link>
+            </li>
+          </ul>
+        </section>
+      </article>
+    </>
   );
 }

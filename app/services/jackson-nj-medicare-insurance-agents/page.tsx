@@ -9,12 +9,12 @@ export const metadata: Metadata = {
   title:
     "jackson nj medicare insurance agents | Free Local Broker Help | MedicareYourself",
   description:
-    "Jackson NJ Medicare insurance agents who compare Supplement and Advantage plans across top carriers. Anthony Orner offers free, no-pressure quotes.",
+    "Jackson NJ Medicare insurance agents compare Supplement and Advantage plans across top carriers. Anthony Orner offers free, no-pressure quotes. Call today.",
   openGraph: {
     title:
       "jackson nj medicare insurance agents | Free Local Broker Help | MedicareYourself",
     description:
-      "Jackson NJ Medicare insurance agents who compare Supplement and Advantage plans across top carriers. Anthony Orner offers free, no-pressure quotes.",
+      "Jackson NJ Medicare insurance agents compare Supplement and Advantage plans across top carriers. Anthony Orner offers free, no-pressure quotes. Call today.",
   },
 };
 
@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Jackson NJ Medicare Insurance Agents",
-      item: "https://www.medicareyourself.com/services/jackson-nj-medicare-insurance-agents",
+      item: "https://medicareyourself.com/services/jackson-nj-medicare-insurance-agents",
     },
   ],
 };
@@ -51,45 +51,44 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-01-15",
-  dateModified: "2025-01-15",
+  datePublished: "2025-07-01",
+  dateModified: "2025-07-01",
 };
 
 const faqs = [
   {
+    question: "Do Medicare insurance agents charge a fee?",
+    answer:
+      "No. Licensed Medicare brokers are paid by the insurance carrier, not by you. The plan costs the same whether you enroll directly or through a broker. You get comparison help at zero additional cost.",
+  },
+  {
     question: "Should I use an insurance agent for Medicare?",
     answer:
-      "Yes. An independent Medicare agent can compare plans from multiple carriers at once, showing you options you would not find on your own. The carrier pays the agent's commission, so you pay nothing extra for the help.",
+      "An independent broker compares plans from multiple carriers side by side, which you can't do on a single carrier's website. They handle paperwork, answer billing questions, and help with plan changes during future enrollment periods.",
   },
   {
     question: "What is the best Medicare plan in New Jersey?",
     answer:
-      "There is no single best plan for everyone. Most Jackson residents choosing a Medigap policy lean toward Plan G or Plan N, while others prefer a Medicare Advantage plan with built-in drug coverage. The right choice depends on your doctors, medications, and budget. A licensed broker can run a side-by-side comparison for free.",
-  },
-  {
-    question: "Do Medicare insurance agents charge a fee?",
-    answer:
-      "No. Licensed Medicare agents and brokers are paid by the insurance carrier when you enroll. You never pay an agent fee, and your premium is the same whether you use a broker or go directly to the company.",
+      "There's no single best plan. The right choice depends on your doctors, prescriptions, and budget. A Medigap Plan G or Plan N works well for many NJ residents, while Medicare Advantage may suit those who want lower premiums with bundled benefits. A broker can model both options for you.",
   },
   {
     question: "How do I pick a Medicare agent?",
     answer:
-      "Look for an agent who is licensed in your state, works independently (not captive to one carrier), and is willing to show you quotes from several companies. Ask if they handle both Medicare Supplement and Medicare Advantage so you can see the full picture.",
+      "Look for a broker who is licensed in New Jersey, represents multiple carriers (not just one), and doesn't pressure you. Ask if they'll help you review your plan every year. If they only push one option, find someone else.",
   },
 ];
 
 export default function JacksonNJMedicareInsuranceAgents() {
   return (
     <main className="max-w-4xl mx-auto px-4 py-8">
-      <SchemaMarkup schema={breadcrumbSchema} />
-      <SchemaMarkup schema={articleSchema} />
+      <SchemaMarkup schema={[breadcrumbSchema, articleSchema]} />
 
       <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
         <Link href="/" className="hover:underline">
@@ -105,201 +104,159 @@ export default function JacksonNJMedicareInsuranceAgents() {
         </span>
       </nav>
 
-      <h1 className="text-3xl font-bold mb-4">
-        Jackson NJ Medicare Insurance Agents: Independent Broker Comparisons at
-        Zero Cost
+      <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+        Jackson NJ Medicare Insurance Agents: Independent Broker Comparisons at Zero Cost
       </h1>
 
       <Image
-        src="/images/jackson-nj-medicare-insurance-agents.webp"
+        src="/images/hub_jackson-nj-medicare-insurance-agents.webp"
         alt="Jackson NJ Medicare insurance agents"
         width={800}
         height={400}
-        className="rounded-lg mb-6 w-full"
+        className="w-full rounded-lg mb-6"
+        priority
       />
 
-      <p className="text-lg mb-2">
-        Jackson NJ Medicare insurance agents are not all the same. Some work for
-        a single carrier and can only show you that company's plans. Others,
-        like independent brokers, compare rates across a dozen or more insurers
-        so you actually see what is available in your zip code.
+      <p className="text-lg text-gray-700 mb-2">
+        Jackson NJ Medicare insurance agents who work independently can compare Supplement and Advantage plans across every major carrier in Ocean County. That means you see real options, not just the one plan a captive agent is paid to sell.
       </p>
-      <p className="mb-6">
-        I'm Anthony Orner, a licensed independent Medicare broker based in New
-        Jersey. I help Jackson residents find the right coverage without charging
-        a dime. The carriers pay me, not you.
+      <p className="text-lg text-gray-700 mb-6">
+        I'm Anthony Orner, a licensed NJ broker. I help Jackson residents find the right Medicare coverage without charging a dime.
       </p>
 
       <PhoneCTA />
 
-      <section className="mt-10 mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
           Why Jackson residents should use an independent broker
         </h2>
-        <p className="mb-2">
-          A captive agent represents one insurance company. An independent broker
-          represents you. I pull quotes from multiple carriers, lay them
-          side-by-side, and let you decide.
+        <p className="text-gray-700 mb-2">
+          Jackson sits in Ocean County, where carrier networks and hospital affiliations shift every year. Community Medical Center in Toms River, Monmouth Medical Center Southern Campus in Lakewood, and specialists across the Route 9 corridor all contract differently with each plan.
         </p>
-        <p>
-          Your premium stays the same whether you call a carrier directly or go
-          through me. The only difference is you see more options and save
-          yourself hours of research.
+        <p className="text-gray-700">
+          A captive agent can only show you their company's products. An independent broker pulls quotes from multiple carriers so you can compare copays, networks, and premiums in one conversation. Same plan price either way.
         </p>
       </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Medicare plans available in Ocean County for 2025-2026
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          Medicare plans available in Ocean County for 2025–2026
         </h2>
-        <ul className="list-disc pl-6 space-y-2">
+        <ul className="list-disc pl-6 text-gray-700 space-y-2">
           <li>
-            <strong>Medicare Supplement (Medigap):</strong> Plan G and Plan N are
-            the most popular standardized plans. Plan G covers everything
-            Original Medicare does not, except the Part B deductible ($257 in
-            2026). Plan N has lower premiums but includes small copays.
+            <strong>Medigap (Supplement) plans:</strong> Plans G and N are the most popular in NJ. They cover Part A and Part B cost-sharing so you pay little or nothing at the doctor. Rates vary by carrier and age.
           </li>
           <li>
-            <strong>Medicare Advantage (Part C):</strong> HMO and PPO options
-            from several carriers serve Ocean County. Many include prescription
-            drug coverage, dental, and vision at $0 premium beyond your Part B
-            cost.
+            <strong>Medicare Advantage (Part C):</strong> HMO and PPO options with $0 or low premiums. Many include dental, vision, and Part D drug coverage. Network restrictions apply.
           </li>
           <li>
-            <strong>Part D prescription drug plans:</strong> Standalone drug
-            plans pair with Original Medicare and a Medigap policy. Formularies
-            vary by carrier, so always check that your medications are covered.
+            <strong>Part D prescription drug plans:</strong> Standalone drug coverage for anyone on Original Medicare plus a Supplement.
           </li>
         </ul>
+        <p className="text-gray-700 mt-2">
+          For 2026, the Part B premium is $202.90/month and the Part A deductible is $1,676 per benefit period. These costs matter when deciding between Supplement and Advantage.
+        </p>
       </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
           Switching carriers without losing coverage
         </h2>
-        <p className="mb-2">
-          If you already have a Medicare Advantage plan, you can switch during
-          the Annual Enrollment Period from October 15 through December 7. Your
-          new plan starts January 1.
+        <p className="text-gray-700 mb-2">
+          One fear I hear constantly: "If I switch, will I have a gap in coverage?" The short answer is no, if you time it correctly. Medicare Advantage and Part D changes happen during Open Enrollment (October 15 through December 7) and take effect January 1.
         </p>
-        <p>
-          Switching Medigap plans mid-year is possible but typically requires
-          medical underwriting unless you have a federal guaranteed issue right,
-          such as losing employer coverage or your plan leaving Ocean County.
-          Call me and I will check your eligibility before you apply.
+        <p className="text-gray-700">
+          Medigap switches are trickier. Outside your initial 6-month Medigap Open Enrollment Period, carriers can underwrite your health. Federal guaranteed issue rights kick in if you lose employer coverage, your plan leaves the area, or your carrier violates its contract. I walk you through every scenario before we file anything.
         </p>
       </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Turning 65 in Jackson? Lock in your rate early
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          What happens when a carrier drops your provider
         </h2>
-        <p className="mb-2">
-          Your Medigap Open Enrollment Period lasts 6 months starting the month
-          you turn 65 and are enrolled in Part B. During this window, carriers
-          cannot ask health questions or charge higher premiums.
+        <p className="text-gray-700 mb-2">
+          Network disruptions are real in South Jersey. Hospitals and large health systems renegotiate contracts regularly. If your doctors suddenly stop accepting your plan, you may have a Special Enrollment Period to switch.
         </p>
-        <p>
-          My practice is to have clients apply up to 6 months before their Part
-          B start date. This locks in today's rate and protects you from any
-          premium increases that happen before coverage begins. The sooner you
-          lock in, the better your rate.
+        <p className="text-gray-700">
+          This is exactly why an annual plan review matters. I check your doctors and prescriptions against updated networks every fall so you're never caught off guard.
         </p>
       </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          What working with me looks like
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          New to Medicare and turning 65 in Jackson?
         </h2>
-        <ul className="list-disc pl-6 space-y-2">
-          <li>
-            We start with a 10-15 minute phone call about your doctors,
-            prescriptions, and budget.
-          </li>
-          <li>
-            I run quotes across every carrier available in Jackson's 08527 zip
-            code.
-          </li>
-          <li>
-            You pick the plan that fits. No pressure, no follow-up sales calls.
-          </li>
-          <li>
-            After enrollment, I stay your broker. If you have a billing issue or
-            want to review your plan next year, you call me directly.
-          </li>
-        </ul>
+        <p className="text-gray-700 mb-2">
+          Your Medigap Open Enrollment Period starts the month you turn 65 and are enrolled in Part B. During these 6 months, no carrier in New Jersey can deny you or charge more based on health history. Miss that window and underwriting applies.
+        </p>
+        <p className="text-gray-700">
+          If you're still working with employer coverage, the rules change. Call me 6 months before your Part B start date so we can lock in the best rate.
+        </p>
       </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
           Get a free quote from a licensed NJ broker
         </h2>
-        <p>
-          Whether you are new to Medicare or re-evaluating a plan you have had
-          for years, I will show you every option in Ocean County and let you
-          decide. One call, real numbers, zero cost.
+        <p className="text-gray-700 mb-2">
+          I'll compare plans, check your doctors' networks, and review your prescriptions. No cost, no pressure, no obligation. One call saves you hours of research.
         </p>
       </section>
 
-      <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 text-center mb-10">
-        <p className="text-xl font-semibold mb-2">
-          Ready to compare Medicare plans in Jackson?
-        </p>
-        <p className="mb-4">
+      <div className="mt-10 bg-blue-600 text-white rounded-lg p-8 text-center">
+        <p className="text-2xl font-bold mb-2">Talk to a Local Medicare Broker</p>
+        <p className="text-lg mb-4">
           Call{" "}
-          <a
-            href="tel:8555591700"
-            className="text-blue-700 font-bold hover:underline"
-          >
+          <a href="tel:8555591700" className="underline font-semibold">
             855-559-1700
           </a>{" "}
           or{" "}
-          <Link
-            href="/quote"
-            className="text-blue-700 font-bold hover:underline"
-          >
-            Get a Free Quote
-          </Link>{" "}
-          online.
+          <Link href="/quote" className="underline font-semibold">
+            get a free quote online
+          </Link>
         </p>
-        <p className="text-sm text-gray-600">
-          Anthony Orner - Licensed Medicare Broker, NJ
+        <p className="text-sm opacity-90">
+          Anthony Orner, Licensed Medicare Broker serving Jackson and all of Ocean County, NJ
         </p>
       </div>
 
-      <FAQSection faqs={faqs} />
+      <section className="mt-12">
+        <FAQSection faqs={faqs} />
+      </section>
 
-      <section className="mt-10">
-        <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
+      <section className="mt-12">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-4">
+          Related resources
+        </h2>
         <ul className="space-y-2">
           <li>
             <Link
-              href="/services/medicare-supplement-plans-nj"
-              className="text-blue-700 hover:underline"
+              href="/medicare-guides/medigap-plan-g-vs-plan-n"
+              className="text-blue-600 hover:underline"
             >
-              Medicare Supplement Plans in New Jersey
+              Medigap Plan G vs. Plan N: Which Saves You More?
             </Link>
           </li>
           <li>
             <Link
-              href="/services/medicare-advantage-plans-ocean-county"
-              className="text-blue-700 hover:underline"
+              href="/medicare-guides/medicare-advantage-vs-medigap"
+              className="text-blue-600 hover:underline"
             >
-              Medicare Advantage Plans in Ocean County
+              Medicare Advantage vs. Medigap in New Jersey
             </Link>
           </li>
           <li>
             <Link
-              href="/guides/medicare-plan-g-vs-plan-n"
-              className="text-blue-700 hover:underline"
+              href="/services/ocean-county-medicare-broker"
+              className="text-blue-600 hover:underline"
             >
-              Medicare Plan G vs Plan N: Which Should You Pick?
+              Ocean County Medicare Broker: Local Plan Comparisons
             </Link>
           </li>
           <li>
             <Link
-              href="/guides/when-to-enroll-in-medicare"
-              className="text-blue-700 hover:underline"
+              href="/medicare-guides/when-to-enroll-in-medicare"
+              className="text-blue-600 hover:underline"
             >
               When to Enroll in Medicare: Deadlines and Penalties
             </Link>

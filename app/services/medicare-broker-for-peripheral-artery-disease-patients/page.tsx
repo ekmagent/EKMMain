@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Medicare Broker for Peripheral Artery Disease Patients",
-      item: "https://www.medicareyourself.com/services/medicare-broker-for-peripheral-artery-disease-patients",
+      item: "https://medicareyourself.com/services/medicare-broker-for-peripheral-artery-disease-patients",
     },
   ],
 };
@@ -51,258 +51,253 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-01",
-  dateModified: "2025-07-01",
+  mainEntityOfPage:
+    "https://medicareyourself.com/services/medicare-broker-for-peripheral-artery-disease-patients",
 };
 
 const faqs = [
   {
-    question:
-      "What kind of doctor should you see for peripheral artery disease?",
+    question: "Does Medicare cover angioplasty and stents for PAD?",
     answer:
-      "A vascular specialist or vascular surgeon is the go-to for PAD. Your primary care doctor can refer you, but Medicare Part B covers vascular specialist visits without a referral when you have Original Medicare. If you're on a Medicare Advantage plan, check whether your plan requires a referral first.",
+      "Yes. Medicare Part A covers inpatient vascular procedures like angioplasty and stent placement when medically necessary. Part B covers outpatient vascular procedures and follow-up monitoring. You'll still owe the Part A deductible ($1,676 per benefit period in 2026) or the Part B 20% coinsurance unless you have supplemental coverage.",
   },
   {
-    question: "What is the first line treatment for peripheral artery disease?",
+    question: "What Part D drugs do PAD patients typically need covered?",
     answer:
-      "Supervised exercise therapy and medication management are typically the first steps. Doctors usually prescribe blood thinners and statins to slow plaque buildup. If the disease progresses, procedures like angioplasty or stenting may be needed - all covered under Medicare Part B when medically necessary.",
+      "Most PAD patients take blood thinners (like clopidogrel or rivaroxaban) and statins (like atorvastatin). Part D formularies vary by carrier, so it's critical to compare plans based on your exact prescriptions. A broker can run your drug list through plan comparison tools at no cost to you.",
   },
   {
-    question: "What conditions are considered peripheral artery disease?",
+    question: "Is Medigap or Medicare Advantage better for PAD patients?",
     answer:
-      "PAD refers to narrowed arteries outside the heart, most commonly in the legs. Related conditions include intermittent claudication (leg pain when walking), critical limb ischemia, and chronic wounds from poor circulation. All are part of the peripheral vascular disease spectrum and covered under Medicare when treated by qualified providers.",
+      "It depends on your situation. Medigap plans cover the 20% Part B coinsurance on vascular procedures with no network restrictions, which matters if you see specialists at multiple facilities. Medicare Advantage may have lower premiums but can require referrals and prior authorizations for procedures. A broker can compare both options based on your doctors and treatment plan.",
   },
   {
-    question: "Does Medicare cover vascular screenings for PAD?",
+    question: "Does a Medicare broker charge PAD patients for help?",
     answer:
-      "Medicare Part B covers an abdominal aortic aneurysm screening once if you're at risk, and diagnostic vascular tests when ordered by your doctor. Ankle-brachial index tests and duplex ultrasounds are covered when medically necessary. Your Part B deductible ($283 in 2026) and 20% coinsurance apply unless you have supplemental coverage.",
+      "No. Licensed Medicare brokers are paid by the insurance carriers, not by you. There's no fee for consultations, plan comparisons, or enrollment help.",
   },
 ];
 
-export default function MedicareBrokerForPADPatients() {
+export default function MedicareBrokerPAD() {
   return (
-    <main className="max-w-4xl mx-auto px-4 py-8">
+    <>
       <SchemaMarkup schema={breadcrumbSchema} />
       <SchemaMarkup schema={articleSchema} />
 
-      <nav className="text-sm text-gray-500 mb-6" aria-label="Breadcrumb">
+      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-4">
         <Link href="/" className="hover:underline">
           Home
-        </Link>
-        {" > "}
+        </Link>{" "}
+        &gt;{" "}
         <Link href="/medicare-guides" className="hover:underline">
           Medicare Guides
-        </Link>
-        {" > "}
-        <span className="text-gray-700">
-          Medicare Broker for Peripheral Artery Disease Patients
-        </span>
+        </Link>{" "}
+        &gt;{" "}
+        <span>Medicare Broker for Peripheral Artery Disease Patients</span>
       </nav>
 
-      <div className="bg-[#1e40af] rounded-lg p-1 mb-6">
-        <h1 className="text-3xl md:text-4xl font-bold text-white p-4">
-          Medicare Broker for Peripheral Artery Disease Patients - Plans That
+      <article className="max-w-3xl mx-auto px-4">
+        <h1 className="text-3xl font-bold mb-4">
+          Medicare Broker for Peripheral Artery Disease Patients — Plans That
           Cover Vascular Care
         </h1>
+
         <Image
-          src="/images/medicare-broker-for-peripheral-artery-disease-patients.webp"
+          src="/images/hub_medicare-broker-for-peripheral-artery-disease-patients.webp"
           alt="Medicare broker for peripheral artery disease patients"
           width={800}
           height={400}
-          className="rounded-lg w-full"
+          className="w-full rounded-lg mb-6"
         />
-      </div>
 
-      <p className="text-lg mb-2">
-        A Medicare broker for peripheral artery disease patients can match you
-        with coverage that actually fits your vascular care needs - from
-        specialist visits and procedures to the medications keeping your
-        circulation stable. I'm Anthony Orner, a licensed Medicare broker, and I
-        help people with PAD find plans that won't leave them exposed to
-        surprise costs.
-      </p>
-      <p className="text-lg mb-6">
-        PAD isn't a one-appointment condition. It's ongoing monitoring, changing
-        prescriptions, and sometimes procedures you didn't expect. Your plan
-        should account for that.
-      </p>
+        <p className="text-lg mb-2">
+          A Medicare broker for peripheral artery disease patients does something
+          your insurer won't: compare every available plan against your actual
+          vascular care needs. PAD means regular monitoring, potential procedures,
+          and ongoing prescriptions. The wrong plan costs you thousands in
+          coinsurance and formulary gaps.
+        </p>
+        <p className="mb-6">
+          I'm Anthony Orner, a licensed Medicare broker. I help PAD patients find
+          plans that actually cover their treatment, not just the basics.
+        </p>
 
-      <PhoneCTA />
+        <PhoneCTA />
 
-      <section className="mt-10 mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          What Medicare covers for PAD: angioplasty, stents, and monitoring
-        </h2>
-        <p className="mb-3">
-          Medicare Part B covers medically necessary vascular procedures -
-          angioplasty, stent placement, atherectomy, and bypass surgery. It also
-          covers diagnostic tests like duplex ultrasounds and ankle-brachial
-          index testing when your doctor orders them.
-        </p>
-        <p>
-          You'll pay 20% of the Medicare-approved amount after your $283 annual
-          Part B deductible. For a procedure that runs $15,000 or more, that 20%
-          adds up fast. That's where supplemental coverage matters.
-        </p>
-      </section>
+        <section className="mt-8 mb-6">
+          <h2 className="text-2xl font-semibold mb-3">
+            What Medicare covers for PAD: angioplasty, stents, and monitoring
+          </h2>
+          <p className="mb-2">
+            Medicare Part A covers inpatient vascular procedures like angioplasty
+            and stent placement. Part B covers outpatient procedures, diagnostic
+            imaging (like ankle-brachial index testing), and follow-up visits with
+            your vascular specialist. CMS maintains specific coverage
+            determinations for endovascular management of peripheral arterial
+            disease.
+          </p>
+          <p>
+            The catch: Part B only pays 80%. That remaining 20% on a $40,000
+            procedure is $8,000 out of your pocket. The 2026 Part A deductible is
+            $1,676 per benefit period.
+          </p>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Part D plans with strong blood thinner and statin coverage
-        </h2>
-        <p className="mb-3">
-          Most PAD patients take a statin and at least one blood thinner -
-          sometimes clopidogrel, sometimes something newer and more expensive.
-          Part D formularies vary significantly between carriers.
-        </p>
-        <ul className="list-disc pl-6 space-y-2">
-          <li>
-            Generic statins and clopidogrel are on most formularies at lower
-            tiers
-          </li>
-          <li>
-            Brand-name blood thinners like rivaroxaban can have widely different
-            copays depending on the plan
-          </li>
-          <li>
-            Cilostazol (for claudication symptoms) coverage and tier placement
-            varies by carrier
-          </li>
-        </ul>
-        <p className="mt-3">
-          I compare your actual prescriptions across available Part D plans so
-          you're not guessing at the pharmacy counter.
-        </p>
-      </section>
+        <section className="mb-6">
+          <h2 className="text-2xl font-semibold mb-3">
+            Part D plans with strong blood thinner and statin coverage
+          </h2>
+          <p className="mb-2">
+            PAD patients typically rely on blood thinners and statins daily.
+            Formularies differ wildly between Part D carriers. A drug like
+            clopidogrel might sit on Tier 1 with one plan and Tier 3 with another,
+            changing your copay by $50+ per month.
+          </p>
+          <p>
+            I run your exact medication list through every available plan in your
+            zip code. You see real annual costs, not estimates.
+          </p>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Why Medigap often makes sense for vascular disease patients
-        </h2>
-        <p className="mb-3">
-          With Original Medicare alone, a single vascular procedure can leave you
-          with thousands in out-of-pocket costs. A Medigap plan like Plan G
-          covers that 20% Part B coinsurance and the $1,676 Part A hospital
-          deductible.
-        </p>
-        <p>
-          For someone managing PAD, that predictability matters. You shouldn't
-          have to weigh whether you can afford the angioplasty your doctor
-          recommends. Rates vary by carrier and your age - I'll compare them for
-          you at no cost.
-        </p>
-      </section>
+        <section className="mb-6">
+          <h2 className="text-2xl font-semibold mb-3">
+            Why Medigap often makes sense for vascular disease patients
+          </h2>
+          <p className="mb-2">
+            PAD can mean multiple procedures over time. Medigap Plan G covers that
+            20% Part B coinsurance with no prior authorizations and no network
+            restrictions. You pick any provider who accepts Medicare, anywhere in
+            the country.
+          </p>
+          <p>
+            If you're within your 6-month Medigap Open Enrollment window (starts
+            the month you turn 65 and enroll in Part B), carriers can't deny you
+            or charge more for your PAD diagnosis. Miss that window and medical
+            underwriting applies in most states.
+          </p>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Medicare Advantage vs. Original Medicare for PAD
-        </h2>
-        <p className="mb-3">
-          Some Medicare Advantage plans offer $0 premiums and extra benefits. But
-          they also come with networks. If your vascular specialist isn't
-          in-network, you'll pay more or need to switch doctors.
-        </p>
-        <p>
-          Original Medicare with a Medigap plan lets you see any provider
-          nationwide that accepts Medicare - no referrals needed for vascular
-          specialists. For PAD patients who need flexibility and ongoing
-          specialist access, that freedom matters.
-        </p>
-      </section>
+        <section className="mb-6">
+          <h2 className="text-2xl font-semibold mb-3">
+            How to verify your vascular specialist accepts your plan
+          </h2>
+          <p className="mb-2">
+            Before enrolling, confirm your vascular surgeon and any imaging
+            facilities are in-network. For Original Medicare with Medigap, any
+            doctor who accepts Medicare assignment works. For Medicare Advantage,
+            you'll need to check the plan's provider directory each year since
+            networks change.
+          </p>
+          <p>
+            I verify your providers before recommending any plan. No surprises at
+            your next appointment.
+          </p>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Supervised exercise therapy coverage
-        </h2>
-        <p className="mb-3">
-          Medicare covers supervised exercise therapy for PAD - up to 36
-          sessions over 12 weeks, with the option to extend. This is a
-          first-line treatment that can improve walking distance and reduce
-          symptoms without surgery.
-        </p>
-        <p>
-          Not every plan handles the referral and cost-sharing the same way. I
-          can help you understand what you'll owe before you start a program.
-        </p>
-      </section>
+        <section className="mb-6">
+          <h2 className="text-2xl font-semibold mb-3">
+            The real cost of choosing the wrong plan with PAD
+          </h2>
+          <ul className="list-disc pl-6 space-y-2">
+            <li>
+              Part B coinsurance on outpatient vascular procedures: 20% with no
+              cap under Original Medicare alone
+            </li>
+            <li>
+              Part A deductible: $1,676 per benefit period (resets if you're
+              readmitted after 60 days)
+            </li>
+            <li>
+              SNF coinsurance for days 21-100: $209.50/day in 2026 if you need
+              rehab after surgery
+            </li>
+            <li>
+              Wrong Part D plan: potentially hundreds more per year on the same
+              medications
+            </li>
+          </ul>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Schedule a free consultation about your PAD coverage
-        </h2>
-        <p>
-          Living with PAD means planning around appointments, staying on top of
-          medications, and knowing your next step if symptoms change. Your
-          Medicare plan should support that - not add another layer of stress. I
-          review your doctors, prescriptions, and upcoming needs, then show you
-          what fits. No cost, no obligation.
-        </p>
-      </section>
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Schedule a free consultation about your PAD coverage
+          </h2>
+          <p className="mb-2">
+            You don't pay me. Carriers do. My job is to match your vascular care
+            needs to the plan that costs you the least and covers you the most.
+            Bring your medication list and your doctors' names. I'll do the rest.
+          </p>
+          <p>
+            Call <strong>855-559-1700</strong> or book a time below. Most
+            consultations take about 15 minutes.
+          </p>
+        </section>
 
-      <div className="bg-blue-600 text-white rounded-lg p-6 text-center my-10">
-        <p className="text-xl font-semibold mb-2">
-          Talk to a licensed Medicare broker who understands vascular care
-          coverage.
-        </p>
-        <p className="text-2xl font-bold mb-3">
-          <a href="tel:8555591700" className="underline">
-            855-559-1700
-          </a>
-        </p>
-        <Link
-          href="/contact"
-          className="inline-block bg-white text-blue-600 font-semibold px-6 py-3 rounded-lg hover:bg-gray-100"
-        >
-          Get a Free Quote
-        </Link>
-      </div>
+        <div className="bg-blue-600 text-white rounded-lg p-6 text-center mb-8">
+          <p className="text-xl font-semibold mb-2">
+            Talk to a Medicare broker who understands PAD coverage.
+          </p>
+          <p className="text-lg mb-4">
+            Call{" "}
+            <a href="tel:8555591700" className="underline font-bold">
+              855-559-1700
+            </a>
+          </p>
+          <Link
+            href="/get-a-free-quote"
+            className="inline-block bg-white text-blue-600 font-semibold px-6 py-3 rounded-lg hover:bg-gray-100"
+          >
+            Get a Free Quote
+          </Link>
+        </div>
 
-      <FAQSection faqs={faqs} />
+        <FAQSection faqs={faqs} />
 
-      <section className="mt-10">
-        <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
-        <ul className="space-y-2">
-          <li>
-            <Link
-              href="/medicare-guides/medigap-plan-g"
-              className="text-blue-600 hover:underline"
-            >
-              Medigap Plan G: What It Covers and What It Costs
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/medicare-guides/medicare-part-b-coverage"
-              className="text-blue-600 hover:underline"
-            >
-              What Medicare Part B Covers
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/medicare-guides/part-d-prescription-drug-plans"
-              className="text-blue-600 hover:underline"
-            >
-              How to Compare Part D Prescription Drug Plans
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/services/medicare-broker-for-chronic-conditions"
-              className="text-blue-600 hover:underline"
-            >
-              Medicare Broker for Chronic Condition Patients
-            </Link>
-          </li>
-        </ul>
-      </section>
-    </main>
+        <section className="mt-10 mb-8">
+          <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
+          <ul className="space-y-2">
+            <li>
+              <Link
+                href="/services/medicare-broker-for-heart-disease-patients"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare Broker for Heart Disease Patients
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/guides/medigap-plan-g-vs-plan-n"
+                className="text-blue-600 hover:underline"
+              >
+                Medigap Plan G vs. Plan N: Which Covers More?
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/guides/medicare-part-d-drug-coverage"
+                className="text-blue-600 hover:underline"
+              >
+                How Medicare Part D Drug Coverage Works
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/guides/medigap-open-enrollment-period"
+                className="text-blue-600 hover:underline"
+              >
+                Medigap Open Enrollment: Why Timing Matters
+              </Link>
+            </li>
+          </ul>
+        </section>
+      </article>
+    </>
   );
 }

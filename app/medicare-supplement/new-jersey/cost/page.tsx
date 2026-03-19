@@ -50,9 +50,9 @@ export default function NJMedicareCostPage() {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.medicareyourself.com" },
-      { "@type": "ListItem", position: 2, name: "Medicare Supplement NJ", item: "https://www.medicareyourself.com/medicare-supplement/new-jersey" },
-      { "@type": "ListItem", position: 3, name: "Medicare Costs NJ 2026", item: "https://www.medicareyourself.com/medicare-supplement/new-jersey/cost" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://medicareyourself.com" },
+      { "@type": "ListItem", position: 2, name: "Medicare Supplement NJ", item: "https://medicareyourself.com/medicare-supplement/new-jersey" },
+      { "@type": "ListItem", position: 3, name: "Medicare Costs NJ 2026", item: "https://medicareyourself.com/medicare-supplement/new-jersey/cost" },
     ],
   };
 

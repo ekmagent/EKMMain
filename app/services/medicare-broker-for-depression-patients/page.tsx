@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Medicare Broker for Depression Patients",
-      item: "https://www.medicareyourself.com/services/medicare-broker-for-depression-patients",
+      item: "https://medicareyourself.com/services/medicare-broker-for-depression-patients",
     },
   ],
 };
@@ -51,46 +51,47 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-01",
-  dateModified: "2025-07-01",
+  datePublished: "2025-07-14",
+  dateModified: "2025-07-14",
 };
 
 const faqs = [
   {
+    question: "Can you get Medicare coverage for depression?",
+    answer:
+      "Yes. Medicare Part B covers outpatient mental health services including therapy with psychologists, clinical social workers, psychiatrists, and psychiatric nurse practitioners. You pay 20% of the Medicare-approved amount after meeting the $283 annual Part B deductible (2026). Part D covers most antidepressant medications.",
+  },
+  {
     question: "How much does it cost to use a Medicare broker?",
     answer:
-      "Nothing. My services are free to you. I'm paid by the insurance carriers, not by my clients. There's no fee for plan reviews, comparisons, or help with enrollment.",
-  },
-  {
-    question: "Does Medicare pay for depression treatment?",
-    answer:
-      "Yes. Medicare Part B covers outpatient therapy, psychiatry visits, and depression screenings with no session limits. You pay the $283 annual Part B deductible, then 20% of each visit. Part D covers antidepressant medications, though copays vary by plan and formulary tier.",
+      "Nothing. A licensed Medicare broker like Anthony Orner is paid by the insurance carriers, not by you. There's no fee for plan reviews, comparisons, or enrollment help. The plans and premiums are the same whether you enroll directly or through a broker.",
   },
   {
     question:
-      "Can I see a therapist through telehealth with Medicare?",
+      "Why do so many therapists not accept Medicare?",
     answer:
-      "Yes. Medicare covers therapy via video and phone permanently. This is especially helpful if mobility issues, fatigue, or transportation make in-person visits difficult. Some providers are easier to access through telehealth, though availability varies by plan type.",
+      "Medicare reimbursement rates for mental health providers are lower than private insurance, so many therapists opt out. A broker can help you find plans with broader behavioral health networks or telehealth options that connect you with providers who do accept your coverage.",
   },
   {
     question:
-      "Should I choose Original Medicare or Medicare Advantage for mental health care?",
+      "Does Medicare Advantage or Original Medicare work better for depression treatment?",
     answer:
-      "It depends on your treatment situation. Original Medicare with a Supplement lets you see any provider who accepts Medicare, with no referrals needed. Medicare Advantage may have lower premiums but restricts you to a network and may require prior authorizations for certain mental health services. I can help you compare both based on your specific providers and medications.",
+      "It depends on your situation. Some Medicare Advantage plans offer larger mental health provider networks and telehealth benefits. Original Medicare with a Supplement gives you access to any provider nationwide who accepts Medicare. A broker can compare both options based on your specific doctors and medications.",
   },
 ];
 
 export default function MedicareBrokerForDepressionPatients() {
   return (
-    <main className="max-w-4xl mx-auto px-4 py-8">
-      <SchemaMarkup schema={[breadcrumbSchema, articleSchema]} />
+    <main className="max-w-3xl mx-auto px-4 py-8">
+      <SchemaMarkup schema={breadcrumbSchema} />
+      <SchemaMarkup schema={articleSchema} />
 
       <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
         <Link href="/" className="hover:underline">
@@ -106,165 +107,130 @@ export default function MedicareBrokerForDepressionPatients() {
         </span>
       </nav>
 
-      <div className="bg-[#1e40af] rounded-lg p-6 mb-8">
-        <h1 className="text-3xl md:text-4xl font-bold text-white mb-4">
-          Medicare Broker for Depression Patients — Plans That Support Ongoing
-          Mental Health Treatment
-        </h1>
-        <Image
-          src="/images/medicare-broker-for-depression-patients.webp"
-          alt="Medicare broker for depression patients"
-          width={800}
-          height={400}
-          className="rounded-lg mb-6 w-full"
-        />
-      </div>
+      <h1 className="text-3xl font-bold mb-4 leading-tight">
+        Medicare Broker for Depression Patients — Plans That Support Ongoing
+        Mental Health Treatment
+      </h1>
+
+      <Image
+        src="/images/hub_medicare-broker-for-depression-patients.webp"
+        alt="Medicare broker for depression patients"
+        width={800}
+        height={400}
+        className="w-full rounded-lg mb-6"
+        priority
+      />
 
       <p className="text-lg mb-2">
-        Medicare broker for depression patients - that's the kind of search
-        that tells me someone is tired of figuring this out alone. You know
-        Medicare covers mental health. But finding a therapist who actually
-        takes your plan, confirming your medications are on formulary, and
-        sorting out what you'll actually owe per visit? That's where things
-        fall apart.
+        Medicare broker for depression patients means someone who actually understands what your treatment looks like day to day: the therapy appointments, the psychiatrist visits, the medications you can't afford to lose access to. I'm Anthony Orner, a licensed broker in NJ, and I help people match their mental health treatment to a plan that won't fight them at every step.
       </p>
       <p className="text-lg mb-6">
-        I'm Anthony Orner, a licensed Medicare broker in New Jersey. I help
-        people match their treatment plans to the right Medicare coverage -
-        therapy, psychiatry, prescriptions, all of it. No cost to you, ever.
+        You shouldn't have to call 15 therapists just to find one who takes your insurance. Let me check your coverage before that happens.
       </p>
 
       <PhoneCTA />
 
-      <section className="mt-10 mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
           How Medicare covers therapy, psychiatry, and antidepressants
         </h2>
-        <p className="mb-3">
-          Medicare Part B covers outpatient mental health services with no
-          annual session limits. That includes individual therapy, group
-          therapy, psychiatry visits, and depression screenings. You pay the
-          $283 yearly deductible, then 20% of each approved visit.
+        <p className="mb-2">
+          Part B covers outpatient mental health services: visits with psychiatrists, clinical psychologists, licensed clinical social workers, and psychiatric nurse practitioners. After your $283 annual deductible (2026), you pay 20% of the Medicare-approved amount.
         </p>
         <p>
-          Part D covers antidepressants like SSRIs, SNRIs, and other
-          commonly prescribed medications. Your copay depends on which
-          formulary tier your drug lands on - and that varies by plan.
-          Starting in 2024, Medicare expanded access to over 400,000 new
-          mental health providers, including licensed marriage and family
-          therapists and mental health counselors.
+          Part D handles antidepressants like SSRIs, SNRIs, and medications like bupropion. But not every Part D plan covers the same drugs at the same tier. That's where plan-level detail matters.
         </p>
       </section>
 
-      <section className="mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
-          The real problem: finding providers who take your plan
+          The real problem: finding therapists who accept Medicare
         </h2>
-        <p className="mb-3">
-          On paper, Medicare covers therapy. In practice, many therapists
-          don't accept Medicare because reimbursement rates are low. The ones
-          who do may be booked months out. If you have mobility issues or
-          fatigue that makes leaving the house hard, the search feels even
-          more impossible.
+        <p className="mb-2">
+          Medicare says therapy is covered. But low reimbursement rates mean many therapists opt out entirely. People call provider after provider and hit dead ends, especially when mobility issues or energy levels make in-person visits difficult.
         </p>
         <p>
-          I check provider networks before recommending a plan. There's no
-          point in a plan with great mental health "benefits" if nobody near
-          you accepts it.
+          I look at which plans in your area have actual behavioral health networks with availability, including telehealth options. Coverage on paper means nothing if no one near you accepts it.
         </p>
       </section>
 
-      <section className="mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
           Supplement vs. Advantage: which handles mental health costs better
         </h2>
         <ul className="list-disc pl-6 space-y-2">
           <li>
-            <strong>Original Medicare + Supplement (Medigap):</strong> You can
-            see any psychiatrist or therapist in the country who accepts
-            Medicare. No referrals, no prior authorization. A Plan G
-            Supplement covers the 20% coinsurance, so your therapy visits
-            cost $0 after the deductible.
+            <strong>Original Medicare + Supplement:</strong> See any psychiatrist or therapist nationwide who accepts Medicare. A Plan G supplement covers your 20% coinsurance, so therapy visits cost $0 after the $283 deductible.
           </li>
           <li>
-            <strong>Medicare Advantage:</strong> May offer lower premiums and
-            extra benefits like $0 copay telehealth. But you're limited to a
-            network, and some plans require prior authorization for mental
-            health visits. If your preferred provider isn't in-network, you
-            pay full price.
+            <strong>Medicare Advantage:</strong> Some plans offer broader behavioral health networks, built-in telehealth, and lower or $0 copays for mental health visits. Trade-off: you're limited to in-network providers.
           </li>
         </ul>
-        <p className="mt-3">
-          Which is better depends on your providers, your medications, and
-          how often you're in treatment. I'll lay out the real numbers for
-          your situation.
+        <p className="mt-2">
+          The right choice depends on whether your current providers accept Medicare, how often you're seen, and what medications you take.
         </p>
       </section>
 
-      <section className="mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
           Part D formulary checks for common depression medications
         </h2>
-        <p className="mb-3">
-          Not every Part D plan covers your specific antidepressant at the
-          same tier. A drug that costs $10/month on one plan might cost $45
-          on another. If your doctor adjusts your medication, the wrong plan
-          could leave you with a surprise bill.
+        <p className="mb-2">
+          Drug tiers vary by plan. A medication that costs $15/month on one Part D plan might cost $60 on another. I run formulary checks for your exact prescriptions before recommending anything.
         </p>
         <p>
-          I run formulary checks against your current prescriptions and flag
-          any restrictions like prior authorization or step therapy
-          requirements. You'll know exactly what you'll pay before you
-          enroll.
+          If you're on a combination that works, the last thing you need is a plan that requires prior authorization or forces a switch to a generic you've already tried.
         </p>
       </section>
 
-      <section className="mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
-          Telehealth access matters for depression care
+          Telehealth access matters more than most guides mention
         </h2>
         <p>
-          Medicare permanently covers therapy via video and phone. This is a
-          real option if leaving home on tough days isn't realistic. Some
-          Advantage plans offer $0 copay telehealth visits. I can show you
-          which plans in NJ have the best telehealth mental health access,
-          including providers with actual openings.
+          When depression makes it hard to leave the house, telehealth isn't a convenience. It's how you keep showing up for treatment. Some Advantage plans include telehealth behavioral health at no extra cost. I'll flag which ones do in your area.
         </p>
       </section>
 
-      <section className="mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
           Get a personalized plan review around your treatment plan
         </h2>
+        <p className="mb-2">
+          I'll look at your therapists, psychiatrist, medications, and how often you're seen. Then I'll show you which plans actually support that routine without surprise costs or network gaps.
+        </p>
         <p>
-          Bring me your therapist's name, your psychiatrist, your
-          prescriptions. I'll tell you which plans cover them, what you'll
-          owe per visit, and whether there's a better option you haven't
-          considered. No cost, no pressure. Just answers that match your
-          actual life.
+          No fee. No pressure. Just a straight answer about what your options look like.
         </p>
       </section>
 
-      <div className="bg-blue-600 text-white rounded-lg p-6 my-10 text-center">
+      <section className="mt-10 bg-blue-50 border border-blue-200 rounded-lg p-6 text-center">
         <p className="text-xl font-semibold mb-2">
-          Talk through your Medicare options with a local licensed broker.
-        </p>
-        <p className="text-lg mb-4">
           Call{" "}
-          <a href="tel:8555591700" className="underline font-bold">
+          <a
+            href="tel:8555591700"
+            className="text-blue-700 underline font-bold"
+          >
             855-559-1700
           </a>{" "}
-          or{" "}
-          <Link href="/contact" className="underline font-bold">
-            get a free quote online
-          </Link>
-          .
+          for a free mental health plan review
         </p>
-      </div>
+        <p className="text-gray-700 mb-4">
+          Anthony Orner, Licensed Medicare Broker — NJ
+        </p>
+        <Link
+          href="/get-a-free-quote"
+          className="inline-block bg-blue-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-blue-700 transition"
+        >
+          Get a Free Quote
+        </Link>
+      </section>
 
-      <FAQSection faqs={faqs} />
+      <section className="mt-12">
+        <FAQSection faqs={faqs} />
+      </section>
 
-      <section className="mt-10">
+      <section className="mt-12">
         <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
         <ul className="space-y-2">
           <li>

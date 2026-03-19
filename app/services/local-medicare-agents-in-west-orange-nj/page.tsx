@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Local Medicare Agents in West Orange, NJ",
-      item: "https://www.medicareyourself.com/services/local-medicare-agents-in-west-orange-nj",
+      item: "https://medicareyourself.com/services/local-medicare-agents-in-west-orange-nj",
     },
   ],
 };
@@ -50,7 +50,7 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
@@ -59,40 +59,37 @@ const articleSchema = {
   },
   datePublished: "2025-07-01",
   dateModified: "2025-07-01",
-  mainEntityOfPage:
-    "https://www.medicareyourself.com/services/local-medicare-agents-in-west-orange-nj",
 };
 
 const faqs = [
   {
-    question: "Does it cost anything to work with a local Medicare agent in West Orange?",
+    question: "What is the best Medicare plan in New Jersey?",
     answer:
-      "No. Licensed Medicare brokers are paid by the insurance carriers, not by you. My consultations are always free with no obligation to enroll.",
+      "There's no single best plan for everyone. The right choice depends on your doctors, prescriptions, and how often you travel. A Medigap Plan G offers the broadest hospital and doctor coverage, while some Medicare Advantage plans work well if you stay within a local Essex County network. A broker can compare both side by side for free.",
   },
   {
-    question: "Can a local agent help me switch from Medicare Advantage to a Supplement plan?",
+    question: "How do I pick a Medicare agent?",
     answer:
-      "Yes. If you have a federal guaranteed issue right - like dropping your Advantage plan during the first 12 months - I can help you move to a Medigap plan without health underwriting. Outside of that window, medical questions may apply. Call me and I will review your specific situation.",
+      "Look for a licensed, independent broker who represents multiple carriers, not just one company. Ask if they charge a fee (they shouldn't — brokers are paid by insurance carriers). A local agent who knows your area's hospital networks and doctor groups will give better guidance than a national call center.",
   },
   {
-    question: "What is the difference between a Medicare agent and a Medicare broker?",
+    question: "How do I speak to a live person about Medicare?",
     answer:
-      "An agent may represent one carrier. A broker like me is licensed with multiple carriers and can compare plans side by side so you see real options, not just one company's pitch.",
+      "You can call 1-800-MEDICARE (1-800-633-4227) for general questions, but wait times can be long. For plan-specific help comparing costs and coverage in West Orange, call a local broker like Anthony Orner at 855-559-1700 for a free, no-pressure conversation.",
   },
   {
-    question: "When is the best time to contact a Medicare broker in West Orange?",
+    question: "Do Medicare brokers charge a fee for their services?",
     answer:
-      "If you are turning 65, reach out at least six months before your Part B start date. Already on Medicare? The Annual Enrollment Period runs October 15 through December 7 for Advantage and Part D changes. But you can call me any time of year for a plan review.",
+      "No. Independent Medicare brokers are compensated by the insurance carriers, not by you. The plans cost the same whether you enroll directly or through a broker — but a broker does the comparison work for you.",
   },
 ];
 
 export default function LocalMedicareAgentsWestOrangeNJ() {
   return (
-    <main className="max-w-4xl mx-auto px-4 py-8">
-      <SchemaMarkup schema={breadcrumbSchema} />
-      <SchemaMarkup schema={articleSchema} />
+    <>
+      <SchemaMarkup schema={[breadcrumbSchema, articleSchema]} />
 
-      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
+      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-4">
         <Link href="/" className="hover:underline">
           Home
         </Link>{" "}
@@ -106,164 +103,211 @@ export default function LocalMedicareAgentsWestOrangeNJ() {
         </span>
       </nav>
 
-      <h1 className="text-3xl font-bold mb-4">
-        Local Medicare Agents in West Orange, NJ: Personalized Broker Support
-      </h1>
+      <article className="max-w-3xl mx-auto">
+        <h1 className="text-3xl font-bold mb-4">
+          Local Medicare Agents in West Orange, NJ: Personalized Broker Support
+        </h1>
 
-      <Image
-        src="/images/local-medicare-agents-in-west-orange-nj.webp"
-        alt="local medicare agents in west orange nj"
-        width={800}
-        height={400}
-        className="rounded-lg mb-6 w-full"
-      />
+        <Image
+          src="/images/hub_local-medicare-agents-in-west-orange-nj.webp"
+          alt="local medicare agents in west orange nj"
+          width={800}
+          height={400}
+          className="w-full rounded-lg mb-6"
+          priority
+        />
 
-      <p className="text-lg mb-2">
-        Local Medicare agents in West Orange, NJ give you something a national hotline never will: someone who knows Essex County, knows which carriers price competitively here, and will sit across the table from you. I am Anthony Orner, a licensed Medicare broker based in New Jersey, and I work with residents in West Orange every enrollment season.
-      </p>
-      <p className="mb-6">
-        Whether you are turning 65 or reviewing a plan you have had for years, a free conversation can save you real money.
-      </p>
+        <p className="text-lg mb-2">
+          Local Medicare agents in West Orange, NJ can do something a toll-free
+          number can't: sit down with you, pull up your prescriptions, check
+          which plans include your doctors at RWJBarnabas Health or Cooperman
+          Barnabas Medical Center, and walk you through the math.
+        </p>
+        <p className="text-lg mb-6">
+          I'm Anthony Orner, an independent Medicare broker serving Essex County.
+          I compare plans across carriers at no cost to you.
+        </p>
 
-      <PhoneCTA />
+        <PhoneCTA />
 
-      <section className="mt-10 mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Why working with a local broker beats an 800 number
-        </h2>
-        <p className="mb-2">
-          A toll-free number connects you with whoever is available. That person does not know which hospital networks matter in Essex County or which carriers just raised rates in your zip code.
-        </p>
-        <ul className="list-disc pl-6 mb-2 space-y-1">
-          <li>I compare plans from multiple carriers, not just one</li>
-          <li>I know the doctors and hospital systems West Orange residents use</li>
-          <li>You get my direct number - no call center, no hold music</li>
-        </ul>
-        <p>
-          Carriers pay my commission. You pay nothing for my help.
-        </p>
-      </section>
+        <section className="mt-8 mb-6">
+          <h2 className="text-2xl font-semibold mb-3">
+            Why working with a local broker beats an 800 number
+          </h2>
+          <p className="mb-2">
+            National call centers read scripts. They don't know which Essex
+            County specialists are dropping out of which network next year. They
+            don't know that your pharmacy on Eagle Rock Avenue stopped accepting
+            a specific Part D plan last quarter.
+          </p>
+          <p>
+            A local broker tracks those changes because they affect the same
+            community we live in. And when something goes wrong with a claim or a
+            provider bill, you call a person you've met, not a queue.
+          </p>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Medicare Supplement and Advantage options in Essex County
-        </h2>
-        <p className="mb-2">
-          West Orange sits in a competitive market. Multiple carriers offer Medicare Advantage plans with $0 premiums and added dental or vision benefits. Supplement plans like Plan G and Plan N are also widely available here.
-        </p>
-        <p>
-          Plan G covers everything Original Medicare does not, except the Part B deductible ($257 in 2026). Plan N has a lower premium but adds small copays at some office visits. Rates vary by carrier, which is exactly why a broker comparison matters.
-        </p>
-      </section>
+        <section className="mb-6">
+          <h2 className="text-2xl font-semibold mb-3">
+            Medicare Supplement and Advantage options in Essex County
+          </h2>
+          <p className="mb-2">
+            You've got two main paths. Medigap (Medicare Supplement) pairs with
+            Original Medicare and lets you see any doctor who takes Medicare
+            nationwide. Plan G is the most popular option. You pay the $283
+            Part B deductible in 2026, and the plan covers the rest.
+          </p>
+          <p>
+            Medicare Advantage bundles your hospital, doctor, drug, and sometimes
+            dental and vision coverage into one plan. Many Essex County Advantage
+            plans have $0 premiums but use provider networks. If your doctors are
+            in-network, the savings can be real. If they're not, the headaches
+            are real too.
+          </p>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          How to evaluate whether your current plan still fits
-        </h2>
-        <p className="mb-2">
-          Plans change every year. Your Advantage plan might drop a preferred pharmacy or raise its specialist copay. Ask yourself:
-        </p>
-        <ul className="list-disc pl-6 mb-2 space-y-1">
-          <li>Are my doctors still in-network?</li>
-          <li>Have my prescription costs increased?</li>
-          <li>Am I paying for benefits I never use?</li>
-          <li>Did my monthly premium go up?</li>
-        </ul>
-        <p>
-          If you answered yes to any of those, it is worth a review. That is what I do every day.
-        </p>
-      </section>
+        <section className="mb-6">
+          <h2 className="text-2xl font-semibold mb-3">
+            How to evaluate whether your current plan still fits
+          </h2>
+          <ul className="list-disc pl-5 space-y-2">
+            <li>
+              Have your doctors changed their network participation since you
+              enrolled?
+            </li>
+            <li>
+              Are your medications still on your plan's formulary at the same
+              tier?
+            </li>
+            <li>
+              Did your monthly premium or copays jump this year?
+            </li>
+            <li>
+              Have you been surprised by a bill for a specialist visit or
+              imaging?
+            </li>
+          </ul>
+          <p className="mt-2">
+            If you answered yes to any of those, it's time for a plan review.
+            During Open Enrollment (October 15 through December 7), you can
+            switch. Outside that window, Medigap changes follow different rules
+            depending on your situation.
+          </p>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Turning 65? Lock in your Medigap rate early
-        </h2>
-        <p className="mb-2">
-          Your Medigap Open Enrollment Period lasts six months starting the month you turn 65 and are enrolled in Part B. During this window, carriers cannot deny you or charge more based on health history.
-        </p>
-        <p>
-          My practice is to have clients apply up to six months before their Part B start date. This locks in the rate early and protects you from premium increases before coverage begins. The sooner you act, the better your rate.
-        </p>
-      </section>
+        <section className="mb-6">
+          <h2 className="text-2xl font-semibold mb-3">
+            What people get wrong about Medicare brokers
+          </h2>
+          <p className="mb-2">
+            The biggest misconception: that using a broker costs extra. It
+            doesn't. Plans are the same price whether you go direct or through
+            me. The carriers pay the broker, so you get comparison shopping
+            without a fee.
+          </p>
+          <p>
+            The second misconception: that all brokers are captive agents for one
+            company. I'm independent. I work with multiple carriers, which means
+            I can recommend what actually fits your situation, not just what one
+            insurer sells.
+          </p>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          What to expect during a free plan review
-        </h2>
-        <p className="mb-2">
-          I will ask about your doctors, prescriptions, and budget. Then I pull real quotes from multiple carriers and lay them side by side. No pressure. No confusing jargon.
-        </p>
-        <p>
-          Most reviews take about 20 minutes. You walk away knowing exactly what you are paying for and whether a better option exists.
-        </p>
-      </section>
+        <section className="mb-6">
+          <h2 className="text-2xl font-semibold mb-3">
+            New to Medicare? Timing matters more than you think
+          </h2>
+          <p className="mb-2">
+            Your Medigap Open Enrollment period starts the month you turn 65 and
+            are enrolled in Part B. For six months, carriers must accept you
+            regardless of health history. Miss that window and you could face
+            medical underwriting or higher rates.
+          </p>
+          <p>
+            The Part B late enrollment penalty is 10% for every 12-month period
+            you delayed without qualifying coverage. That penalty sticks for
+            life. A quick call before your birthday can prevent a costly mistake.
+          </p>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Connect with Anthony Orner for a free plan review
-        </h2>
-        <p className="mb-2">
-          I have helped hundreds of New Jersey residents find the right Medicare plan. If you live in West Orange or anywhere in Essex County, call me directly. No sign-up forms, no email chains.
-        </p>
-        <p>
-          Phone: <strong>855-559-1700</strong>. I will pick up or call you back the same day.
-        </p>
-      </section>
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Connect with Anthony Orner for a free plan review
+          </h2>
+          <p className="mb-2">
+            I help people in West Orange, Livingston, Montclair, South Orange,
+            and across Essex County sort through their Medicare options every
+            day. No pressure, no obligation. We look at what you have, what you
+            need, and whether there's a better fit.
+          </p>
+          <p>
+            Call <strong>855-559-1700</strong> or schedule a time that works for
+            you.
+          </p>
+        </section>
 
-      <div className="bg-blue-600 text-white rounded-lg p-6 text-center my-10">
-        <p className="text-xl font-bold mb-2">
-          Ready to compare your Medicare options?
-        </p>
-        <p className="mb-4">
-          Call <strong>855-559-1700</strong> for a free, no-obligation plan review.
-        </p>
-        <Link
-          href="tel:8555591700"
-          className="inline-block bg-white text-blue-600 font-semibold px-6 py-3 rounded-lg hover:bg-gray-100"
-        >
-          Get a Free Quote
-        </Link>
-      </div>
-
-      <FAQSection faqs={faqs} />
-
-      <section className="mt-10">
-        <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
-        <ul className="space-y-2">
-          <li>
-            <Link
-              href="/medicare-guides/medicare-supplement-plan-g-nj"
-              className="text-blue-600 hover:underline"
+        <div className="bg-blue-600 text-white rounded-lg p-6 text-center mb-8">
+          <p className="text-xl font-semibold mb-2">
+            Ready to compare your Medicare options?
+          </p>
+          <p className="mb-4">
+            Call{" "}
+            <a
+              href="tel:855-559-1700"
+              className="underline font-bold text-white"
             >
-              Medicare Supplement Plan G in NJ: What It Covers and What It Costs
-            </Link>
-          </li>
-          <li>
+              855-559-1700
+            </a>{" "}
+            or{" "}
             <Link
-              href="/medicare-guides/medicare-advantage-vs-medigap"
-              className="text-blue-600 hover:underline"
+              href="/get-a-free-quote"
+              className="underline font-bold text-white"
             >
-              Medicare Advantage vs. Medigap: Which Is Right for You?
+              Get a Free Quote
             </Link>
-          </li>
-          <li>
-            <Link
-              href="/services/medicare-broker-essex-county-nj"
-              className="text-blue-600 hover:underline"
-            >
-              Medicare Broker in Essex County, NJ
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/medicare-guides/when-to-enroll-in-medicare"
-              className="text-blue-600 hover:underline"
-            >
-              When to Enroll in Medicare: Deadlines and Penalties
-            </Link>
-          </li>
-        </ul>
-      </section>
-    </main>
+          </p>
+        </div>
+
+        <FAQSection faqs={faqs} />
+
+        <section className="mt-10">
+          <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
+          <ul className="space-y-2">
+            <li>
+              <Link
+                href="/medicare-guides/medicare-supplement-plans-nj"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare Supplement Plans in New Jersey
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/medicare-guides/medicare-advantage-plans-nj"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare Advantage Plans in New Jersey
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/medicare-guides/medigap-plan-g-vs-plan-n"
+                className="text-blue-600 hover:underline"
+              >
+                Medigap Plan G vs Plan N: Which Is Right for You?
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/medicare-broker-essex-county-nj"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare Broker Services in Essex County, NJ
+              </Link>
+            </li>
+          </ul>
+        </section>
+      </article>
+    </>
   );
 }

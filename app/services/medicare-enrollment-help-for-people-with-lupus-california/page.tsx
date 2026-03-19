@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
-      name: "Medicare Enrollment Help for People with Lupus California",
-      item: "https://www.medicareyourself.com/services/medicare-enrollment-help-for-people-with-lupus-california",
+      name: "Medicare Enrollment Help for People with Lupus in California",
+      item: "https://medicareyourself.com/services/medicare-enrollment-help-for-people-with-lupus-california",
     },
   ],
 };
@@ -51,278 +51,257 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-14",
-  dateModified: "2025-07-14",
+  datePublished: "2025-07-01",
+  dateModified: "2025-07-01",
 };
 
 const faqs = [
   {
-    question: "Can you get Medicare with lupus?",
+    question: "Can you get Medicare with lupus before age 65?",
     answer:
-      "Yes. If lupus causes you to qualify for Social Security Disability Insurance (SSDI), you become eligible for Medicare after 24 months of receiving SSDI benefits. You do not need to wait until age 65.",
+      "Yes. If lupus qualifies you for Social Security Disability Insurance (SSDI), you become eligible for Medicare after a 24-month waiting period from your first SSDI payment. This applies regardless of your age.",
   },
   {
-    question: "What are the support resources for lupus patients?",
+    question: "What are the support resources for lupus patients on Medicare in California?",
     answer:
-      "The Lupus Foundation of America offers health educator support, financial assistance resource lists, and local chapters in California. For Medicare-specific help, a licensed broker can compare plans that cover your rheumatologists, lab work, and biologic medications at no cost to you.",
+      "California offers several resources including the Health Insurance Counseling and Advocacy Program (HICAP) for free Medicare counseling, the Lupus Foundation of America's California chapter for local support services, and licensed Medicare brokers who can help match your treatment needs to the right plan at no cost.",
   },
   {
-    question:
-      "Does California offer guaranteed issue rights for Medigap if I have lupus?",
+    question: "Does Medicare cover biologic infusions like Saphnelo or Benlysta for lupus?",
     answer:
-      "California has specific Medigap rules for people under 65 on Medicare due to disability. Not all carriers are required to offer plans to under-65 beneficiaries, and pricing may differ. Call us at 855-559-1700 to confirm which carriers in your area offer coverage and at what rates.",
+      "Medicare Part B typically covers infusions administered in a doctor's office or infusion center, including biologics for lupus. Part D covers self-administered medications. Costs depend on your specific plan, and out-of-pocket amounts can be significant. A broker can help you find plans that minimize your share.",
   },
   {
-    question: "Are biologic drugs for lupus covered under Medicare?",
+    question: "When can I enroll in a Medigap plan if I'm under 65 with lupus in California?",
     answer:
-      "Biologics administered by a doctor in a clinical setting (like Benlysta infusions) are typically covered under Part B. Self-injected biologics may fall under Part D. Formularies vary by plan, so comparing your specific medications across plans is critical.",
+      "California requires Medigap carriers to offer at least two standardized plans to Medicare beneficiaries under 65 on SSDI. You'll want to apply during your Medigap Open Enrollment Period, which starts the month you turn 65 and enroll in Part B. Under-65 rules differ, so call us to confirm your options.",
   },
 ];
 
 export default function MedicareEnrollmentHelpLupusCalifornia() {
   return (
-    <>
+    <main className="max-w-3xl mx-auto px-4 py-8">
       <SchemaMarkup schema={breadcrumbSchema} />
       <SchemaMarkup schema={articleSchema} />
 
-      <main className="max-w-4xl mx-auto px-4 py-8">
-        <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
-          <Link href="/" className="hover:underline">
-            Home
-          </Link>{" "}
-          &gt;{" "}
-          <Link href="/medicare" className="hover:underline">
-            Medicare Guides
-          </Link>{" "}
-          &gt;{" "}
-          <span className="text-gray-700">
-            Medicare Enrollment Help for People with Lupus California
-          </span>
-        </nav>
+      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
+        <Link href="/" className="hover:underline">
+          Home
+        </Link>{" "}
+        &gt;{" "}
+        <Link href="/medicare-guides" className="hover:underline">
+          Medicare Guides
+        </Link>{" "}
+        &gt;{" "}
+        <span className="text-gray-700">
+          Medicare Enrollment Help for People with Lupus in California
+        </span>
+      </nav>
 
-        <h1 className="text-3xl font-bold mb-4">
-          Medicare Enrollment Help for People with Lupus in California: What You
-          Need to Know
-        </h1>
+      <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+        Medicare Enrollment Help for People with Lupus in California: What You Need to Know
+      </h1>
 
-        <Image
-          src="/images/medicare-enrollment-help-for-people-with-lupus-california.webp"
-          alt="Medicare enrollment help for people with lupus in California"
-          width={800}
-          height={400}
-          className="rounded-lg mb-6 w-full"
-        />
+      <Image
+        src="/images/hub_medicare-enrollment-help-for-people-with-lupus-california.webp"
+        alt="Medicare enrollment help for people with lupus in California"
+        width={800}
+        height={400}
+        className="w-full rounded-lg mb-6"
+        priority
+      />
 
-        <p className="text-lg mb-2">
-          Medicare enrollment help for people with lupus in California starts
-          with understanding how disability-based Medicare works and which plans
-          actually cover your treatments. Lupus patients often face unique
-          coverage decisions around biologics, frequent lab work, and specialist
-          access. I help California residents sort through those decisions every
-          day at no cost.
+      <p className="text-lg text-gray-700 mb-2">
+        Medicare enrollment help for people with lupus in California starts with understanding
+        how your diagnosis connects to your eligibility and plan options. Living with lupus
+        means managing rheumatologist visits, lab work, biologics, and flares that don't follow
+        a schedule.
+      </p>
+      <p className="text-lg text-gray-700 mb-6">
+        The wrong plan can leave you stuck choosing between affording your infusion and keeping
+        your lights on. We help you avoid that.
+      </p>
+
+      <PhoneCTA />
+
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          How lupus qualifies you for Medicare before 65
+        </h2>
+        <p className="text-gray-700 mb-2">
+          Systemic lupus can qualify you for SSDI if it prevents you from working. After 24
+          months of receiving SSDI payments, you automatically become eligible for Medicare
+          Parts A and B.
         </p>
+        <p className="text-gray-700">
+          Many people with lupus land on Medicare in their 30s or 40s. That changes the
+          enrollment math. You're not turning 65 with a standard open enrollment window. You
+          need someone who understands under-65 rules in California specifically.
+        </p>
+      </section>
 
-        <PhoneCTA />
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          California Medigap rules for lupus patients on SSDI
+        </h2>
+        <p className="text-gray-700 mb-2">
+          California requires Medigap insurers to sell at least two plan types to disabled
+          Medicare beneficiaries under 65. That's better than many states, but premiums for
+          under-65 enrollees can be higher.
+        </p>
+        <p className="text-gray-700">
+          Timing matters. Your Medigap Open Enrollment Period gives you guaranteed issue
+          rights, meaning carriers can't deny you or charge more because of lupus. Miss that
+          window and you may face medical underwriting. Call us before your Part B start date to
+          lock things in.
+        </p>
+      </section>
 
-        <section className="mt-8 mb-6">
-          <h2 className="text-2xl font-semibold mb-3">
-            How lupus qualifies you for Medicare before 65
-          </h2>
-          <p className="mb-2">
-            Systemic lupus erythematosus (SLE) can qualify you for Social
-            Security Disability Insurance if it causes severe organ involvement,
-            joint dysfunction, or other functional limitations documented by your
-            doctors. Once you have been receiving SSDI for 24 consecutive months,
-            you automatically become eligible for Medicare Parts A and B.
-          </p>
-          <p>
-            You do not need to wait until 65. Many lupus patients in California
-            enter Medicare in their 30s or 40s through this pathway. Your Part B
-            premium in 2026 is $185 per month, deducted from your SSDI check.
-          </p>
-        </section>
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          Choosing between Supplement and Advantage plans with lupus
+        </h2>
+        <p className="text-gray-700 mb-3">
+          This decision is personal, and with lupus it carries real financial weight. Here's how
+          to think about it:
+        </p>
+        <ul className="list-disc pl-6 text-gray-700 space-y-2">
+          <li>
+            <strong>Medigap (Supplement):</strong> Higher monthly premium, but predictable
+            costs. You pick any doctor who accepts Medicare. No prior authorizations for
+            specialists or infusions.
+          </li>
+          <li>
+            <strong>Medicare Advantage:</strong> Lower premium (sometimes $0), but you're
+            locked into a network. Referrals and prior auth can delay treatment during a flare.
+          </li>
+          <li>
+            <strong>For active lupus:</strong> If you're on biologics like Benlysta or Saphnelo,
+            check how the plan handles Part B infusion copays. The 2026 Part B deductible is
+            $283/year, and you'll owe 20% coinsurance on infusions without a Supplement.
+          </li>
+        </ul>
+      </section>
 
-        <section className="mb-6">
-          <h2 className="text-2xl font-semibold mb-3">
-            California Medigap rules for lupus patients on SSDI
-          </h2>
-          <p className="mb-2">
-            Here is where California gets tricky. Federal law only guarantees
-            Medigap open enrollment when you turn 65 and have Part B. If you are
-            under 65 on Medicare due to disability, federal guaranteed issue does
-            not automatically apply.
-          </p>
-          <p>
-            California does require some insurers to sell Medigap policies to
-            disabled beneficiaries under 65, but not all carriers participate and
-            premiums can be higher. Rules vary by carrier, so call us at
-            855-559-1700 to find out exactly which companies will write a policy
-            in your zip code.
-          </p>
-        </section>
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          Part D coverage and biologic costs
+        </h2>
+        <p className="text-gray-700 mb-2">
+          Part D covers self-administered lupus medications like hydroxychloroquine and
+          mycophenolate. If your biologic is administered in a clinical setting, it falls under
+          Part B instead.
+        </p>
+        <p className="text-gray-700">
+          Part D deductibles and formulary tiers vary by carrier. Some lupus patients have hit
+          sudden deductible walls that interrupted their infusions. We check formularies before
+          you enroll so you're not blindsided.
+        </p>
+      </section>
 
-        <section className="mb-6">
-          <h2 className="text-2xl font-semibold mb-3">
-            Choosing between Supplement and Advantage plans with lupus
-          </h2>
-          <p className="mb-2">
-            This is one of the biggest decisions you will make. With active
-            lupus, consider these factors:
-          </p>
-          <ul className="list-disc pl-6 mb-3 space-y-2">
-            <li>
-              <strong>Medicare Supplement (Medigap):</strong> Works with any
-              doctor who accepts Medicare. No referrals needed for
-              rheumatologists. Plan G covers everything after the $257 annual
-              Part B deductible.
-            </li>
-            <li>
-              <strong>Medicare Advantage:</strong> May have lower premiums but
-              uses a network. Check that your rheumatologist, infusion center,
-              and lab are in-network. Prior authorization for biologics is
-              common.
-            </li>
-          </ul>
-          <p>
-            If you see multiple specialists and receive regular infusions, the
-            freedom of a Supplement plan often makes more financial sense long
-            term.
-          </p>
-        </section>
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          California-specific resources worth knowing
+        </h2>
+        <ul className="list-disc pl-6 text-gray-700 space-y-2">
+          <li>
+            <strong>HICAP:</strong> California's free Medicare counseling program, available in
+            every county.
+          </li>
+          <li>
+            <strong>Medi-Medi:</strong> If your income is low enough, you may qualify for both
+            Medi-Cal and Medicare, which can cover premiums and cost-sharing.
+          </li>
+          <li>
+            Major health systems like UCLA Health, UC San Francisco, and Cedars-Sinai have
+            lupus specialty clinics that accept Original Medicare.
+          </li>
+        </ul>
+      </section>
 
-        <section className="mb-6">
-          <h2 className="text-2xl font-semibold mb-3">
-            What lupus treatments Medicare covers
-          </h2>
-          <p className="mb-2">
-            Part B covers doctor-administered biologics like Benlysta infusions,
-            outpatient lab work (ANA panels, complement levels), and visits with
-            your rheumatologist. You pay 20% of the Medicare-approved amount
-            after your $257 deductible, unless a Supplement plan covers that
-            share.
-          </p>
-          <p>
-            Self-injected medications and oral prescriptions like
-            hydroxychloroquine fall under Part D. Formularies vary by plan, so
-            always run your specific drug list through each plan before
-            enrolling.
-          </p>
-        </section>
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          Steps to enroll with a licensed broker who understands autoimmune conditions
+        </h2>
+        <ol className="list-decimal pl-6 text-gray-700 space-y-2">
+          <li>Call us at <strong>855-559-1700</strong>. Tell us about your medications, doctors, and treatment schedule.</li>
+          <li>We'll verify your eligibility window and check California's under-65 Medigap rules for your situation.</li>
+          <li>We compare plans across carriers, checking networks, formularies, and total yearly cost with your lupus care factored in.</li>
+          <li>We handle the application. No cost to you. Brokers are paid by the carrier, not the client.</li>
+        </ol>
+        <p className="text-gray-700 mt-3">
+          You shouldn't have to call Medicare, then Social Security, then your pharmacy, then
+          back again. One call to us can replace all of that.
+        </p>
+      </section>
 
-        <section className="mb-6">
-          <h2 className="text-2xl font-semibold mb-3">
-            Why working with a broker who understands autoimmune conditions
-            matters
-          </h2>
-          <p className="mb-2">
-            A generic plan comparison misses critical details for lupus patients.
-            Does the Advantage plan require prior auth for your biologic? Is
-            your infusion center in-network? What happens if you flare and need
-            an ER visit out of your service area?
-          </p>
-          <p>
-            I look at these specifics before recommending a plan. My service is
-            free to you. Carriers pay me the same commission regardless of which
-            plan you choose, so my only goal is finding the right fit.
-          </p>
-        </section>
+      <div className="mt-12 bg-blue-600 text-white rounded-xl p-8 text-center">
+        <p className="text-xl font-bold mb-2">
+          Get Free Medicare Guidance for Lupus in California
+        </p>
+        <p className="text-lg mb-4">
+          Call{" "}
+          <a href="tel:8555591700" className="underline font-bold">
+            855-559-1700
+          </a>{" "}
+          or{" "}
+          <Link href="/quote" className="underline font-bold">
+            Get a Free Quote
+          </Link>
+        </p>
+        <p className="text-sm opacity-90">
+          Licensed broker. No pressure. We help you find the right plan for your treatment.
+        </p>
+      </div>
 
-        <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-3">
-            Steps to enroll in the right Medicare plan today
-          </h2>
-          <ol className="list-decimal pl-6 space-y-2">
-            <li>
-              Call 855-559-1700 or request a callback. Tell us about your lupus
-              treatments and current doctors.
-            </li>
-            <li>
-              We check your California zip code for available Medigap carriers
-              (especially under-65 options) and Advantage plans with your
-              providers in-network.
-            </li>
-            <li>
-              We run your prescriptions through Part D plans to find the lowest
-              annual drug cost.
-            </li>
-            <li>
-              You pick the plan. We handle the enrollment paperwork.
-            </li>
-          </ol>
-        </section>
-
-        <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 mb-8 text-center">
-          <p className="text-xl font-semibold mb-2">
-            Get your free Medicare plan comparison today
-          </p>
-          <p className="mb-4">
-            Call{" "}
-            <a
-              href="tel:855-559-1700"
-              className="text-blue-700 font-bold hover:underline"
-            >
-              855-559-1700
-            </a>{" "}
-            or{" "}
-            <Link
-              href="/quote"
-              className="text-blue-700 font-bold hover:underline"
-            >
-              Get a Free Quote
-            </Link>
-          </p>
-          <p className="text-sm text-gray-600">
-            Licensed broker. No cost. No obligation.
-          </p>
-        </div>
-
+      <section className="mt-12">
         <FAQSection faqs={faqs} />
+      </section>
 
-        <section className="mt-10">
-          <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
-          <ul className="space-y-2">
-            <li>
-              <Link
-                href="/medicare/medicare-supplement-plans-california"
-                className="text-blue-700 hover:underline"
-              >
-                Medicare Supplement Plans in California
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/medicare/medicare-advantage-california"
-                className="text-blue-700 hover:underline"
-              >
-                Medicare Advantage Plans in California
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/medicare/medicare-part-d-drug-coverage"
-                className="text-blue-700 hover:underline"
-              >
-                Medicare Part D Drug Coverage Guide
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/medicare/medicare-disability-under-65"
-                className="text-blue-700 hover:underline"
-              >
-                Medicare for Disability Under 65
-              </Link>
-            </li>
-          </ul>
-        </section>
-      </main>
-    </>
+      <section className="mt-12">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-4">Related resources</h2>
+        <ul className="space-y-2">
+          <li>
+            <Link
+              href="/medicare-guides/medigap-open-enrollment-period"
+              className="text-blue-600 hover:underline"
+            >
+              Medigap Open Enrollment Period: When It Starts and Why It Matters
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/medicare-guides/medicare-part-b-coverage"
+              className="text-blue-600 hover:underline"
+            >
+              What Does Medicare Part B Cover?
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/medicare-guides/medicare-disability-under-65"
+              className="text-blue-600 hover:underline"
+            >
+              Getting Medicare Under 65 Through Disability
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/medicare-guides/medicare-supplement-vs-advantage"
+              className="text-blue-600 hover:underline"
+            >
+              Medicare Supplement vs. Medicare Advantage: How to Decide
+            </Link>
+          </li>
+        </ul>
+      </section>
+    </main>
   );
 }

@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Find a Medicare Agent in North Brunswick NJ",
-      item: "https://www.medicareyourself.com/services/find-a-medicare-agent-in-north-brunswick-nj",
+      item: "https://medicareyourself.com/services/find-a-medicare-agent-in-north-brunswick-nj",
     },
   ],
 };
@@ -50,47 +50,47 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-01",
-  dateModified: "2025-07-01",
+  datePublished: "2025-07-12",
+  dateModified: "2025-07-12",
 };
 
 const faqs = [
   {
-    question: "How do I pick a Medicare agent?",
+    question: "How do I pick a Medicare agent in North Brunswick?",
     answer:
-      "Look for an independent, licensed broker who represents multiple carriers - not just one. Ask if they charge a fee (they shouldn't). A good agent will compare plans side by side and explain costs specific to your doctors and prescriptions. If they pressure you into a decision the same day, walk away.",
+      "Look for a licensed, independent broker who works with multiple carriers, not just one. Ask whether they charge a fee (they shouldn't). A good agent will review your doctors, prescriptions, and budget before recommending anything.",
   },
   {
-    question: "How do I speak to a live person at Medicare?",
+    question: "How do I speak to a live person about Medicare?",
     answer:
-      "You can call 1-800-MEDICARE (1-800-633-4227) 24 hours a day, 7 days a week. TTY users can dial 1-877-486-2048. But keep in mind that Medicare's phone representatives can only give general information. They cannot compare plans or recommend a specific policy. That is what a licensed local agent does.",
+      "You can call 1-800-MEDICARE (1-800-633-4227) for general questions. But if you want someone local who can sit down and compare plans side by side, call a licensed broker like Anthony Orner at 855-559-1700.",
   },
   {
-    question: "Does it cost anything to use a Medicare agent in North Brunswick?",
+    question: "Does it cost anything to use a Medicare agent?",
     answer:
-      "No. Licensed Medicare agents are paid by the insurance carriers, not by you. Whether you enroll in a Medicare Advantage plan, a Medigap policy, or a Part D drug plan, there is zero cost for the agent's help. The premium you pay is the same whether you use an agent or go directly to the carrier.",
+      "No. Independent Medicare brokers are paid by the insurance carriers, not by you. The plan you choose costs the same whether you enroll through an agent, online, or directly with the carrier.",
   },
   {
-    question: "When should I contact a Medicare agent before turning 65?",
+    question: "What Medicare plans are available in Middlesex County?",
     answer:
-      "Start 6 months before your Part B effective date. This gives you time to compare all available plans and, if you are considering a Medigap policy, apply early to lock in the best rate. Your Medigap Open Enrollment Period lasts 6 months starting the month you turn 65 and have Part B - guaranteed issue with no health questions.",
+      "Middlesex County residents can choose from Original Medicare with a Medigap supplement, Medicare Advantage (Part C), and standalone Part D prescription drug plans. Multiple carriers serve this area, and plan options change each year.",
   },
 ];
 
 export default function FindMedicareAgentNorthBrunswickNJ() {
   return (
-    <main className="max-w-4xl mx-auto px-4 py-8">
+    <>
       <SchemaMarkup schema={breadcrumbSchema} />
       <SchemaMarkup schema={articleSchema} />
 
-      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
+      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-4">
         <Link href="/" className="hover:underline">
           Home
         </Link>{" "}
@@ -104,162 +104,175 @@ export default function FindMedicareAgentNorthBrunswickNJ() {
         </span>
       </nav>
 
-      <h1 className="text-3xl font-bold mb-4">
-        Find a Medicare Agent in North Brunswick, NJ Who Actually Works for You
-      </h1>
+      <article className="max-w-3xl mx-auto px-4 py-8">
+        <h1 className="text-3xl md:text-4xl font-bold mb-6">
+          Find a Medicare Agent in North Brunswick, NJ Who Actually Works for You
+        </h1>
 
-      <Image
-        src="/images/find-a-medicare-agent-in-north-brunswick-nj.webp"
-        alt="find a medicare agent in north brunswick nj"
-        width={800}
-        height={400}
-        className="rounded-lg mb-6 w-full"
-      />
+        <Image
+          src="/images/hub_find-a-medicare-agent-in-north-brunswick-nj.webp"
+          alt="find a medicare agent in north brunswick nj"
+          width={800}
+          height={400}
+          className="w-full rounded-lg mb-6"
+          priority
+        />
 
-      <p className="text-lg mb-2">
-        Finding a Medicare agent in North Brunswick, NJ should not involve a 45-minute hold with a national call center. You deserve someone local who knows which carriers serve Middlesex County, which doctors are in network, and how to save you money on premiums.
-      </p>
-      <p className="text-lg mb-6">
-        I am Anthony Orner, a licensed independent Medicare broker based right here in New Jersey. My help costs you nothing - carriers pay me, not you.
-      </p>
-
-      <PhoneCTA />
-
-      <section className="mt-10 mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Why North Brunswick residents deserve a local broker, not a call center
-        </h2>
-        <p className="mb-2">
-          North Brunswick sits in the heart of Middlesex County, with access to providers at Robert Wood Johnson and Saint Peter's. A call center rep in Arizona does not know that.
+        <p className="text-lg mb-2">
+          Finding a Medicare agent in North Brunswick, NJ shouldn't mean getting bounced between call centers and 1-800 numbers. You deserve someone local who knows the carriers in Middlesex County, the hospitals you actually use, and the plans that fit your prescriptions and your budget.
         </p>
-        <p>
-          A local broker understands your provider networks, your pharmacy options, and the specific plans available at your zip code. That matters when the difference between two plans is $80 a month.
+        <p className="text-lg mb-6">
+          I'm Anthony Orner, a licensed independent Medicare broker serving North Brunswick and surrounding communities. My help costs you nothing.
         </p>
-      </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          What a licensed Medicare agent does that Google can't
-        </h2>
-        <ul className="list-disc pl-6 space-y-2">
-          <li>Compares Medicare Advantage, Medigap, and Part D plans from every major carrier in your area</li>
-          <li>Checks whether your current doctors and prescriptions are covered under each plan</li>
-          <li>Identifies which plan actually costs you the least over a full year - not just the lowest premium</li>
-          <li>Handles enrollment paperwork and follows up if there are any issues</li>
-        </ul>
-        <p className="mt-3">
-          Google gives you a list. I give you a recommendation based on your actual situation.
-        </p>
-      </section>
+        <PhoneCTA />
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Plans and carriers available in Middlesex County
-        </h2>
-        <p className="mb-2">
-          Middlesex County residents have access to Medicare Advantage plans, Medicare Supplement (Medigap) policies, and standalone Part D drug plans from carriers like Aetna, Cigna, Humana, UnitedHealthcare, and others. Rates vary by carrier and your specific situation.
-        </p>
-        <p>
-          As an independent broker, I am not locked into one company. I compare them all and show you the numbers.
-        </p>
-      </section>
+        <section className="mt-10 mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Why North Brunswick residents deserve a local broker, not a call center
+          </h2>
+          <p className="mb-2">
+            North Brunswick sits in the middle of Middlesex County with access to Robert Wood Johnson University Hospital, Saint Peter's University Hospital, and a wide network of specialists across central New Jersey. A call center agent in another state won't know which plans keep those providers in-network.
+          </p>
+          <p>
+            A local broker checks your specific doctors and pharmacies before recommending a single plan. That matters more than any TV ad.
+          </p>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Key enrollment dates you need to know
-        </h2>
-        <ul className="list-disc pl-6 space-y-2">
-          <li>
-            <strong>Medigap Open Enrollment:</strong> 6 months starting the month you turn 65 and have Part B. Guaranteed issue - no health questions, no higher premiums.
-          </li>
-          <li>
-            <strong>Medicare Advantage / Part D Open Enrollment:</strong> October 15 through December 7 each year.
-          </li>
-          <li>
-            <strong>Part B late penalty:</strong> 10% added to your premium for every 12-month period you delayed enrollment without qualifying coverage.
-          </li>
-        </ul>
-      </section>
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            What a licensed Medicare agent does that Google can't
+          </h2>
+          <ul className="list-disc pl-6 space-y-2">
+            <li>Compares plans across every major carrier available in your ZIP code</li>
+            <li>Checks that your current doctors and medications are covered before you enroll</li>
+            <li>Handles enrollment paperwork and follows up if anything goes wrong</li>
+            <li>Helps you switch plans during Open Enrollment (October 15 through December 7) if your needs change</li>
+          </ul>
+          <p className="mt-3">
+            Google gives you a list. I give you an answer.
+          </p>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          2026 Medicare costs to budget for
-        </h2>
-        <p className="mb-2">
-          Your Part B premium is $185 per month for 2026. The Part B deductible is $257 per year. The Part A deductible is $1,676 per benefit period.
-        </p>
-        <p>
-          These costs add up fast without the right coverage. A Medigap plan like Plan G or Plan N can dramatically reduce your out-of-pocket exposure.
-        </p>
-      </section>
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Plans and carriers available in Middlesex County
+          </h2>
+          <p className="mb-2">
+            Middlesex County has strong competition among carriers, which means more choices for you. I work with multiple insurance companies offering:
+          </p>
+          <ul className="list-disc pl-6 space-y-2">
+            <li>Medicare Advantage (Part C) plans, including HMO and PPO options</li>
+            <li>Medigap (Medicare Supplement) plans like Plan G and Plan N</li>
+            <li>Standalone Part D prescription drug plans</li>
+          </ul>
+          <p className="mt-3">
+            Rates vary by carrier, age, and tobacco status. I'll show you an apples-to-apples comparison so you can pick what actually makes sense.
+          </p>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Schedule a no-cost consultation with Anthony Orner
-        </h2>
-        <p className="mb-2">
-          Whether you are turning 65 soon, retiring and losing employer coverage, or reviewing your current plan during open enrollment, I am here to help.
-        </p>
-        <p>
-          Call me directly. No scripts. No upsells. Just honest plan comparisons that save you money.
-        </p>
-      </section>
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Real frustrations I hear from people in this area
+          </h2>
+          <p className="mb-2">
+            Folks tell me they've spent hours on hold with Medicare, searched online for doctors who accept their plan, or been blindsided when a local hospital stopped accepting their insurance. That's not a small inconvenience. It's scary.
+          </p>
+          <p>
+            Having a broker means you have one person to call when any of that happens. I pick up the phone.
+          </p>
+        </section>
 
-      <div className="bg-blue-600 text-white rounded-lg p-6 text-center my-10">
-        <p className="text-xl font-semibold mb-2">
-          Ready to compare Medicare plans in North Brunswick?
-        </p>
-        <p className="text-lg mb-4">
-          Call{" "}
-          <a href="tel:8555591700" className="underline font-bold">
-            855-559-1700
-          </a>{" "}
-          or{" "}
-          <Link href="/quote" className="underline font-bold">
-            Get a Free Quote
-          </Link>
-        </p>
-      </div>
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Key numbers you should know for 2026
+          </h2>
+          <ul className="list-disc pl-6 space-y-2">
+            <li>Part B premium: $202.90/month</li>
+            <li>Part B deductible: $283/year</li>
+            <li>Part A deductible: $1,676 per benefit period</li>
+            <li>Medigap Open Enrollment: 6 months starting the month you turn 65 and are enrolled in Part B</li>
+            <li>Part B late enrollment penalty: 10% per 12-month period you delayed</li>
+          </ul>
+          <p className="mt-3">
+            These costs add up. The right plan can protect you from thousands in out-of-pocket expenses.
+          </p>
+        </section>
 
-      <FAQSection faqs={faqs} />
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Schedule a no-cost consultation with Anthony Orner
+          </h2>
+          <p className="mb-2">
+            Whether you're turning 65, retiring, or just want to make sure you're not overpaying, I'll walk you through your options. No pressure, no fee, no catch. The carriers pay me, so you get objective advice at zero cost.
+          </p>
+          <p>
+            Call <strong>855-559-1700</strong> or book online. I serve North Brunswick, East Brunswick, South Brunswick, New Brunswick, and all of Middlesex County.
+          </p>
+        </section>
 
-      <section className="mt-10">
-        <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
-        <ul className="space-y-2">
-          <li>
-            <Link
-              href="/medicare-guides/medicare-supplement-plans-nj"
-              className="text-blue-600 hover:underline"
+        <div className="bg-blue-600 text-white rounded-lg p-6 text-center mb-10">
+          <p className="text-xl font-semibold mb-2">
+            Ready to see your options?
+          </p>
+          <p className="mb-4">
+            Call{" "}
+            <a
+              href="tel:8555591700"
+              className="underline font-bold text-white"
             >
-              Medicare Supplement Plans in NJ - Full Comparison
-            </Link>
-          </li>
-          <li>
+              855-559-1700
+            </a>{" "}
+            or{" "}
             <Link
-              href="/medicare-guides/medicare-plan-g-nj"
-              className="text-blue-600 hover:underline"
+              href="/get-a-free-quote"
+              className="underline font-bold text-white"
             >
-              Medicare Plan G in New Jersey - What It Covers and Costs
+              Get a Free Quote
             </Link>
-          </li>
-          <li>
-            <Link
-              href="/medicare-guides/medicare-advantage-plans-nj"
-              className="text-blue-600 hover:underline"
-            >
-              Medicare Advantage Plans in NJ - 2026 Options
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/medicare-guides/when-to-enroll-in-medicare"
-              className="text-blue-600 hover:underline"
-            >
-              When to Enroll in Medicare - Key Deadlines
-            </Link>
-          </li>
-        </ul>
-      </section>
-    </main>
+          </p>
+        </div>
+
+        <FAQSection faqs={faqs} />
+
+        <section className="mt-10">
+          <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
+          <ul className="space-y-2">
+            <li>
+              <Link
+                href="/medicare-guides/medicare-advantage-vs-medigap"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare Advantage vs. Medigap: Which Is Right for You?
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/medicare-guides/medigap-plan-g-nj"
+                className="text-blue-600 hover:underline"
+              >
+                Medigap Plan G in New Jersey: What It Covers
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/medicare-guides/medicare-enrollment-periods"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare Enrollment Periods Explained
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/find-a-medicare-agent-in-new-brunswick-nj"
+                className="text-blue-600 hover:underline"
+              >
+                Find a Medicare Agent in New Brunswick, NJ
+              </Link>
+            </li>
+          </ul>
+        </section>
+      </article>
+    </>
   );
 }

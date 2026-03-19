@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare",
+      item: "https://medicareyourself.com/medicare",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Find an NJ Medicare Broker Near You",
-      item: "https://www.medicareyourself.com/services/find-an-nj-medicare-broker-near-you",
+      item: "https://medicareyourself.com/services/find-an-nj-medicare-broker-near-you",
     },
   ],
 };
@@ -47,236 +47,251 @@ const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
   headline: "Find an NJ Medicare Broker Near You Who Actually Works for You",
-  description:
-    "Find an NJ Medicare broker near you — Anthony Orner is licensed statewide, compares top carriers at no cost. Independent, not captive. Free consultation.",
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  mainEntityOfPage:
-    "https://www.medicareyourself.com/services/find-an-nj-medicare-broker-near-you",
+  datePublished: "2025-01-01",
+  dateModified: new Date().toISOString().split("T")[0],
 };
 
 const faqs = [
   {
-    question: "How much does an NJ Medicare broker charge?",
+    question: "How much does it cost to use a Medicare broker?",
     answer:
-      "Nothing. A licensed Medicare broker is paid by the insurance carrier, not you. The plan premiums are the same whether you enroll directly or through a broker. You get free guidance with zero markup.",
+      "Nothing. A licensed Medicare broker is paid by the insurance carrier, not by you. The plan costs the same whether you enroll directly or through a broker. You get free guidance with zero markup.",
   },
   {
-    question: "What is the difference between a Medicare broker and an agent?",
+    question: "What is the best Medicare plan in New Jersey?",
     answer:
-      "A captive agent works for one insurance company and can only sell that company's plans. An independent broker like Anthony Orner is contracted with multiple carriers and can compare options across all of them to find what fits your situation.",
+      "There's no single best plan — it depends on your doctors, prescriptions, budget, and how you use healthcare. An independent broker compares options across multiple carriers to find the plan that fits your specific situation.",
   },
   {
-    question: "Can a Medicare broker help me if I live anywhere in New Jersey?",
+    question:
+      "What's the difference between a Medicare broker and an insurance agent?",
     answer:
-      "Yes. Anthony Orner is licensed statewide in New Jersey and serves all 21 counties. Consultations happen by phone, video, or in person depending on your preference and location.",
+      "A captive agent works for one insurance company and can only show you their plans. An independent broker is licensed with multiple carriers and compares plans side by side. The broker works for you, not the carrier.",
   },
   {
-    question: "When should I contact a Medicare broker before turning 65?",
+    question: "Does Anthony Orner serve my area of New Jersey?",
     answer:
-      "Reach out at least 6 months before your 65th birthday. For Medigap plans, Anthony's practice is to have clients apply up to 6 months before their Part B start date to lock in the best rate early.",
+      "Anthony is licensed statewide in New Jersey. Whether you're in Bergen County, Ocean County, Mercer County, or anywhere else in the state, he can help you compare Medicare plans by phone, video, or in person.",
   },
 ];
 
-export default function FindNJMedicareBrokerPage() {
+export default function FindNJMedicareBrokerNearYou() {
   return (
     <>
-      <SchemaMarkup schema={[breadcrumbSchema, articleSchema]} />
+      <SchemaMarkup schema={breadcrumbSchema} />
+      <SchemaMarkup schema={articleSchema} />
 
-      <main className="max-w-4xl mx-auto px-4 py-8">
-        <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
-          <Link href="/" className="hover:underline">
-            Home
-          </Link>{" "}
-          &gt;{" "}
-          <Link href="/medicare" className="hover:underline">
-            Medicare Guides
-          </Link>{" "}
-          &gt;{" "}
-          <span className="text-gray-700">
-            Find an NJ Medicare Broker Near You
-          </span>
-        </nav>
+      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-4">
+        <Link href="/" className="hover:underline">
+          Home
+        </Link>{" "}
+        &gt;{" "}
+        <Link href="/medicare" className="hover:underline">
+          Medicare Guides
+        </Link>{" "}
+        &gt;{" "}
+        <span className="text-gray-700">
+          Find an NJ Medicare Broker Near You
+        </span>
+      </nav>
 
+      <article className="max-w-3xl mx-auto">
         <h1 className="text-3xl md:text-4xl font-bold mb-4">
           Find an NJ Medicare Broker Near You Who Actually Works for You
         </h1>
 
         <Image
-          src="/images/find-an-nj-medicare-broker-near-you.webp"
+          src="/images/hub_find-an-nj-medicare-broker-near-you.webp"
           alt="Find an NJ Medicare broker near you"
           width={800}
           height={400}
-          className="rounded-lg mb-6 w-full"
+          className="w-full rounded-lg mb-6"
+          priority
         />
 
         <p className="text-lg mb-2">
-          Finding an NJ Medicare broker near you should not feel like a chore. I am Anthony Orner, an independent Medicare broker licensed across all of New Jersey, and I compare plans from multiple top carriers so you do not have to.
+          Finding an NJ Medicare broker near you shouldn't feel like a second
+          job. Medicare is already confusing enough — the alphabet soup of Parts
+          A, B, D, and G, the enrollment deadlines that carry real penalties, the
+          salespeople pushing plans that benefit them more than you.
         </p>
         <p className="text-lg mb-6">
-          My consultations are free. No sales pressure. No hidden fees. Just straight answers about which plan actually fits your doctors, prescriptions, and budget.
+          I'm Anthony Orner, an independent Medicare broker licensed across all
+          of New Jersey. I compare plans from multiple carriers, and I never
+          charge you a dime for it.
         </p>
 
         <PhoneCTA />
 
-        <section className="mt-10 mb-8">
+        <section className="mt-10">
           <h2 className="text-2xl font-semibold mb-3">
-            Independent broker vs. insurance company agent - the key difference
+            Independent broker vs. insurance company agent — the key difference
           </h2>
           <p className="mb-2">
-            A captive agent works for one carrier. They sell that company's plans because that is all they are allowed to sell. An independent broker works for you.
+            A captive agent sells one company's plans. That's it. If their
+            carrier doesn't fit your needs, tough luck.
           </p>
-          <ul className="list-disc pl-6 space-y-1 mb-2">
-            <li>Captive agent: limited to one company's lineup</li>
-            <li>Independent broker: contracted with multiple carriers statewide</li>
-            <li>Your cost is the same either way - the carrier pays the broker's commission</li>
-          </ul>
-          <p>
-            When I sit down with you, I pull rates from every carrier I represent and lay them side by side. You pick the one that makes sense. That is the whole process.
+          <p className="mb-2">
+            An independent broker like me is contracted with multiple carriers —
+            Aetna, Cigna, Humana, United, Mutual of Omaha, and others. I lay
+            your options side by side and walk you through the tradeoffs. My
+            recommendation changes based on your doctors, your prescriptions, and
+            your budget. Not my commission.
           </p>
         </section>
 
-        <section className="mb-8">
+        <section className="mt-10">
           <h2 className="text-2xl font-semibold mb-3">
             Counties and zip codes Anthony Orner serves in New Jersey
           </h2>
           <p className="mb-2">
-            I am licensed in all 21 New Jersey counties. Whether you are in Bergen County, Ocean County, Mercer County, or Cape May County, I can help. Here are just a few areas I frequently work with:
+            I'm licensed statewide. That means every county — Bergen, Essex,
+            Middlesex, Monmouth, Ocean, Mercer, Camden, Burlington, Morris,
+            Union, Hudson, Somerset, Passaic, Atlantic, Cape May, and the rest.
           </p>
-          <ul className="list-disc pl-6 space-y-1">
-            <li>North Jersey: Bergen, Essex, Hudson, Morris, Passaic, Sussex, Warren</li>
-            <li>Central Jersey: Hunterdon, Mercer, Middlesex, Monmouth, Somerset, Union</li>
-            <li>South Jersey: Atlantic, Burlington, Camden, Cape May, Cumberland, Gloucester, Ocean, Salem</li>
-          </ul>
-          <p className="mt-2">
-            Meetings happen by phone, video call, or in person depending on where you are and what you prefer.
+          <p>
+            We can meet by phone, video, or in person depending on where you
+            are. Most clients prefer a quick call. No office visit required.
           </p>
         </section>
 
-        <section className="mb-8">
+        <section className="mt-10">
           <h2 className="text-2xl font-semibold mb-3">
             What a good Medicare broker should do (and never charge for)
           </h2>
-          <ul className="list-disc pl-6 space-y-1">
-            <li>Review your current prescriptions and check formulary coverage</li>
-            <li>Verify your doctors are in-network before you enroll</li>
-            <li>Compare Medicare Supplement (Medigap), Medicare Advantage, and Part D plans</li>
-            <li>Explain the actual dollar difference between Plan G and Plan N</li>
-            <li>Help you during enrollment periods like the Annual Election Period (October 15 - December 7)</li>
+          <ul className="list-disc pl-6 space-y-2">
+            <li>Compare Medicare Supplement, Advantage, and Part D plans across carriers</li>
+            <li>Check that your doctors and prescriptions are covered before you enroll</li>
+            <li>Explain the real cost — premiums, deductibles, copays, and out-of-pocket maximums</li>
+            <li>Help you enroll without paperwork headaches</li>
+            <li>Be available after enrollment when you have questions or need to switch</li>
           </ul>
-          <p className="mt-2">
-            All of this should cost you exactly $0. If someone tries to charge you a fee, walk away.
+          <p className="mt-3">
+            All of this is free. Carriers pay the broker. Your plan costs the
+            same whether you call a 1-800 number or work with me directly.
           </p>
         </section>
 
-        <section className="mb-8">
+        <section className="mt-10">
           <h2 className="text-2xl font-semibold mb-3">
-            Why timing matters if you are turning 65
+            Why people turning 65 in NJ need to act early
           </h2>
           <p className="mb-2">
-            Your Medigap Open Enrollment Period lasts 6 months, starting the month you turn 65 and are enrolled in Part B. During that window, carriers cannot deny you or charge more based on health history.
+            Your Medigap Open Enrollment Period lasts 6 months, starting the
+            month you turn 65 and are enrolled in Part B. During this window,
+            carriers must accept you regardless of health history. Miss it, and
+            you could face medical underwriting or higher rates.
           </p>
           <p>
-            My practice is to have clients apply for their Medigap plan up to 6 months before their Part B start date. This locks in the rate early and protects you from premium increases before coverage even begins. The sooner you lock in, the better your rate.
+            The smart move: start comparing plans about 6 months before your Part
+            B effective date. That gives you time to make a decision without
+            pressure.
           </p>
         </section>
 
-        <section className="mb-8">
+        <section className="mt-10">
           <h2 className="text-2xl font-semibold mb-3">
-            Plans I compare for NJ residents
+            2026 Medicare costs you should know
           </h2>
-          <p className="mb-2">
-            I do not push one product. Depending on your situation, we will look at:
-          </p>
-          <ul className="list-disc pl-6 space-y-1">
-            <li><strong>Medicare Supplement Plan G:</strong> covers everything after the $257 Part B annual deductible</li>
-            <li><strong>Medicare Supplement Plan N:</strong> lower premiums, small copays at some office visits</li>
-            <li><strong>Medicare Advantage (Part C):</strong> bundled plans with networks, often $0 premium</li>
-            <li><strong>Part D prescription drug plans:</strong> standalone coverage paired with Original Medicare</li>
+          <ul className="list-disc pl-6 space-y-2">
+            <li>Part B premium: $202.90/month</li>
+            <li>Part B deductible: $283/year</li>
+            <li>Part A deductible: $1,676 per benefit period</li>
+            <li>Part B late enrollment penalty: 10% added for every 12-month period you delayed</li>
+            <li>Medicare Advantage / Part D Open Enrollment: October 15 – December 7</li>
           </ul>
-          <p className="mt-2">
-            Rates vary by carrier, your age, and your zip code. I will show you exact numbers, not vague estimates.
-          </p>
         </section>
 
-        <section className="mb-8">
+        <section className="mt-10">
           <h2 className="text-2xl font-semibold mb-3">
             Request a free plan comparison in under 2 minutes
           </h2>
           <p className="mb-2">
-            Call me directly at 855-559-1700 or use the link below. I will ask a handful of questions about your medications, doctors, and budget. Then I will send you a side-by-side comparison you can review on your own time.
+            Call me at{" "}
+            <a
+              href="tel:8555591700"
+              className="text-blue-700 font-semibold hover:underline"
+            >
+              855-559-1700
+            </a>{" "}
+            or fill out a quick form. I'll pull your doctors and medications,
+            compare plans across carriers, and walk you through what actually
+            makes sense for your situation.
           </p>
-          <p>
-            No sign-up required. No obligation. Just clear information from a real person in New Jersey.
-          </p>
+          <p>No pressure. No obligation. Just clear answers.</p>
         </section>
 
-        <div className="bg-blue-600 text-white rounded-lg p-6 text-center my-10">
+        <div className="mt-12 bg-blue-600 text-white rounded-lg p-8 text-center">
           <p className="text-xl font-bold mb-2">
-            Ready to compare Medicare plans in NJ?
+            Talk to an independent NJ Medicare broker today
           </p>
           <p className="mb-4">
-            Call Anthony Orner directly:{" "}
-            <a href="tel:8555591700" className="underline font-semibold">
+            Call{" "}
+            <a
+              href="tel:8555591700"
+              className="underline font-semibold text-white"
+            >
               855-559-1700
-            </a>
+            </a>{" "}
+            or{" "}
+            <Link href="/contact" className="underline font-semibold text-white">
+              Get a Free Quote
+            </Link>
           </p>
-          <Link
-            href="/contact"
-            className="inline-block bg-white text-blue-600 font-bold py-3 px-6 rounded-lg hover:bg-gray-100 transition"
-          >
-            Get a Free Quote
-          </Link>
         </div>
 
-        <FAQSection faqs={faqs} />
+        <section className="mt-12">
+          <FAQSection faqs={faqs} />
+        </section>
 
-        <section className="mt-10">
+        <section className="mt-12">
           <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
           <ul className="space-y-2">
             <li>
               <Link
-                href="/medicare-supplement/plan-g-nj"
-                className="text-blue-600 hover:underline"
+                href="/medicare/medigap-plan-g-new-jersey"
+                className="text-blue-700 hover:underline"
               >
-                Medicare Supplement Plan G in NJ - Rates and Coverage
+                Medicare Supplement Plan G in New Jersey
               </Link>
             </li>
             <li>
               <Link
-                href="/medicare/turning-65-nj"
-                className="text-blue-600 hover:underline"
+                href="/medicare/medicare-advantage-vs-medigap"
+                className="text-blue-700 hover:underline"
               >
-                Turning 65 in New Jersey - Your Medicare Checklist
+                Medicare Advantage vs. Medigap: Which Is Right for You?
               </Link>
             </li>
             <li>
               <Link
-                href="/medicare-advantage/nj"
-                className="text-blue-600 hover:underline"
+                href="/medicare/turning-65-medicare-checklist"
+                className="text-blue-700 hover:underline"
               >
-                Medicare Advantage Plans in NJ - What to Know
+                Turning 65 Medicare Checklist
               </Link>
             </li>
             <li>
               <Link
-                href="/medicare/medigap-open-enrollment"
-                className="text-blue-600 hover:underline"
+                href="/medicare/medicare-part-d-nj"
+                className="text-blue-700 hover:underline"
               >
-                Medigap Open Enrollment Period Explained
+                Medicare Part D in New Jersey
               </Link>
             </li>
           </ul>
         </section>
-      </main>
+      </article>
     </>
   );
 }

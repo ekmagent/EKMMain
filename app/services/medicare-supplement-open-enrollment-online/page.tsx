@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Medicare Supplement Open Enrollment Online",
-      item: "https://www.medicareyourself.com/services/medicare-supplement-open-enrollment-online",
+      item: "https://medicareyourself.com/services/medicare-supplement-open-enrollment-online",
     },
   ],
 };
@@ -51,44 +51,44 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-14",
-  dateModified: "2025-07-14",
+  datePublished: "2025-07-01",
+  dateModified: "2025-07-01",
 };
 
 const faqs = [
   {
-    question: "Is there a Medicare Supplement open enrollment?",
+    question: "Can I apply for Medicare supplements anytime?",
     answer:
-      "Yes. Under federal law, you have a one-time 6-month Medigap Open Enrollment Period. It begins the month you turn 65 or older AND are enrolled in Medicare Part B. During this window, no insurance company can deny you coverage, charge more for health conditions, or make you wait for pre-existing conditions to be covered. This period does not repeat annually like the Medicare Advantage Open Enrollment.",
+      "Not with guaranteed-issue rights. Under federal law, your Medigap Open Enrollment Period lasts 6 months starting the month you turn 65 and have Part B. During that window, no carrier can deny you or charge more for health conditions. After it closes, you'll face medical underwriting in most states, and insurers can reject your application or raise your rate.",
   },
   {
     question:
-      "Can I apply for a Medigap plan online before my Part B starts?",
+      "Is Medigap open enrollment the same as the annual Medicare Open Enrollment?",
     answer:
-      "Yes, and I recommend it. In my practice, I have clients submit their Medigap application up to 6 months before their Part B effective date. This locks in your rate early and protects you from premium increases that may happen before your coverage actually begins.",
-  },
-  {
-    question: "What happens if I miss the 6-month Medigap open enrollment window?",
-    answer:
-      "After your 6-month window closes, insurance companies can use medical underwriting to decide whether to sell you a policy, and they can charge higher premiums based on your health. Some states offer additional protections, but rules vary - call us to confirm what applies in your state.",
+      "No. The annual Medicare Open Enrollment (October 15 to December 7) is for changing Medicare Advantage or Part D drug plans. Your Medigap Open Enrollment Period is a one-time, 6-month window tied to your 65th birthday and Part B start date. They are completely separate.",
   },
   {
     question: "Do I need a medical exam to enroll in Medigap online?",
     answer:
-      "During your 6-month Medigap Open Enrollment Period, no. Carriers cannot require a medical exam or ask health questions. If you apply after that window, most carriers will require medical underwriting, though the process is still done online or by phone - not an in-person physical.",
+      "During your 6-month Medigap Open Enrollment Period, no medical exam or health questions can be used against you. You can complete the entire application online from home. Outside that window, carriers typically require medical underwriting, and approval depends on your health history.",
+  },
+  {
+    question: "How long does online Medigap approval take?",
+    answer:
+      "During guaranteed-issue enrollment, most online applications are approved within a few business days. Some carriers issue approval same-day. Your coverage effective date depends on when you apply relative to your Part B start date.",
   },
 ];
 
 export default function MedicareSupplementOpenEnrollmentOnline() {
   return (
-    <main className="max-w-4xl mx-auto px-4 py-8">
+    <main className="max-w-3xl mx-auto px-4 py-8">
       <SchemaMarkup schema={breadcrumbSchema} />
       <SchemaMarkup schema={articleSchema} />
 
@@ -97,7 +97,7 @@ export default function MedicareSupplementOpenEnrollmentOnline() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare" className="hover:underline">
+        <Link href="/medicare-guides" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -111,18 +111,19 @@ export default function MedicareSupplementOpenEnrollmentOnline() {
       </h1>
 
       <Image
-        src="/images/medicare-supplement-open-enrollment-online.webp"
+        src="/images/hub_medicare-supplement-open-enrollment-online.webp"
         alt="medicare supplement open enrollment online"
         width={800}
         height={400}
-        className="rounded-lg mb-6 w-full"
+        className="w-full rounded-lg mb-6"
+        priority
       />
 
       <p className="text-lg mb-2">
-        Medicare supplement open enrollment online is the fastest way to lock in guaranteed-issue Medigap coverage without leaving your kitchen table. You get the same federal protections as a paper application, and the entire process takes about 15 minutes.
+        Medicare supplement open enrollment online gives you a simple way to lock in Medigap coverage without leaving your kitchen table. During your one-time guaranteed-issue window, every carrier must accept you regardless of health history. No exam, no health questions working against you.
       </p>
-      <p className="text-lg mb-6">
-        I'm Anthony Orner, a licensed Medicare broker in New Jersey, and I walk clients through this process every week. Here's exactly how it works and what to watch out for.
+      <p className="mb-6">
+        Miss this window and you may not get another shot at these rates. Here's exactly how the process works.
       </p>
 
       <PhoneCTA />
@@ -132,22 +133,10 @@ export default function MedicareSupplementOpenEnrollmentOnline() {
           Your 6-month guaranteed-issue window and why timing is everything
         </h2>
         <p className="mb-2">
-          Under federal law, you get a one-time 6-month Medigap Open Enrollment Period. It starts the first month you are both 65 or older and enrolled in Medicare Part B. During this window, no carrier can deny you, charge more for health issues, or impose waiting periods for pre-existing conditions.
-        </p>
-        <p className="mb-2">
-          This is not the same as the annual Medicare Open Enrollment (October 15 - December 7), which is for Medicare Advantage and Part D drug plans. Your Medigap window happens once. Miss it, and you'll likely face medical underwriting and higher premiums.
-        </p>
-      </section>
-
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Why I recommend applying up to 6 months early
-        </h2>
-        <p className="mb-2">
-          My standard practice is to have clients submit their Medigap application up to 6 months before their Part B start date. Why? Locking in your rate early protects you from premium increases that can hit between the time you apply and when coverage begins.
+          Under federal law, your Medigap Open Enrollment Period starts the month you're both 65 or older and enrolled in Medicare Part B. It lasts exactly 6 months. This is not the same as the annual Medicare Open Enrollment that runs October 15 through December 7 for Advantage and drug plans.
         </p>
         <p>
-          The sooner you lock in, the better your rate. Waiting until your Part B starts means you've already lost time in your guaranteed-issue window.
+          During this 6-month window, insurers cannot deny you, charge higher premiums for pre-existing conditions, or impose waiting periods (except for conditions treated in the 6 months before your policy starts). Once the window closes, most carriers require medical underwriting, and a single health issue can mean denial or dramatically higher rates.
         </p>
       </section>
 
@@ -155,20 +144,20 @@ export default function MedicareSupplementOpenEnrollmentOnline() {
         <h2 className="text-2xl font-semibold mb-3">
           Step-by-step: completing a Medigap application online
         </h2>
-        <ul className="list-disc pl-6 space-y-2">
+        <ol className="list-decimal pl-6 space-y-2">
           <li>
-            <strong>Gather your info:</strong> You'll need your Medicare Number (from your red, white, and blue card), Part A and Part B effective dates, and basic personal details.
+            <strong>Confirm your Part B effective date.</strong> Check your Medicare card or call Social Security. Your 6-month clock starts here.
           </li>
           <li>
-            <strong>Choose your plan letter:</strong> Most of my clients choose Plan G or Plan N. Plan G covers everything except the Part B deductible ($257/year in 2026). Plan N has lower premiums but includes small copays.
+            <strong>Compare plan letters and carriers.</strong> Plan G from one carrier has identical benefits to Plan G from another. What differs: premium, rate increase history, and customer service.
           </li>
           <li>
-            <strong>Compare carriers:</strong> Rates vary by carrier, even for the same plan letter. I compare multiple carriers side by side so you see actual monthly costs. Call 855-559-1700 for a free comparison.
+            <strong>Choose your carrier and start the application.</strong> Most carriers offer fully digital applications. You'll need your Medicare Beneficiary Identifier, Part B start date, and basic personal info.
           </li>
           <li>
-            <strong>Submit electronically:</strong> The application is filled out online or over the phone. You'll sign digitally. No fax machines required.
+            <strong>Review and submit.</strong> Double-check your Part B date and spelling. Small errors cause delays.
           </li>
-        </ul>
+        </ol>
       </section>
 
       <section className="mb-8">
@@ -177,99 +166,111 @@ export default function MedicareSupplementOpenEnrollmentOnline() {
         </h2>
         <ul className="list-disc pl-6 space-y-2">
           <li>
-            <strong>Wrong Part B date:</strong> Entering an incorrect Part B effective date is the number one error I see. Double-check your Medicare card.
+            <strong>Wrong Part B start date.</strong> This is the most common error. If the date doesn't match CMS records, the application stalls.
           </li>
           <li>
-            <strong>Applying after the window closes:</strong> If your 6-month period has passed, a carrier can reject you or charge more. Don't assume you have unlimited time.
+            <strong>Applying after the 6-month window.</strong> Even one day late means you lose guaranteed-issue rights in most states.
           </li>
           <li>
-            <strong>Confusing Medigap with Medicare Advantage:</strong> These are completely different products. You cannot have both. If you're enrolled in a Medicare Advantage plan, you must disenroll before a Medigap policy can take effect.
+            <strong>Confusing Medigap enrollment with Medicare Open Enrollment.</strong> They're separate. Signing up for a drug plan in October doesn't protect your Medigap rights.
+          </li>
+          <li>
+            <strong>Ignoring rate structure.</strong> Ask whether the carrier uses attained-age, issue-age, or community-rated pricing. This affects what you pay at 72, 78, and beyond.
           </li>
         </ul>
       </section>
 
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-3">
-          What happens after you submit - approval timeline and effective dates
+          What happens after you submit: approval timeline and effective dates
         </h2>
         <p className="mb-2">
-          During your guaranteed-issue period, approval is essentially automatic. Most carriers confirm within 3 to 7 business days. Your coverage effective date aligns with your Part B start date if you applied early, or the first of the following month if you're already enrolled.
+          During guaranteed-issue enrollment, carriers can't reject you. Most online applications are processed within a few business days. Some approve same-day.
         </p>
         <p>
-          You'll receive a policy packet in the mail. Keep it. That packet includes your plan details, premium schedule, and a 30-day free-look period where you can cancel for a full refund if you change your mind.
+          Your coverage effective date typically aligns with your Part B start date if you applied early enough. If you apply mid-window, coverage usually starts the first of the following month. You'll receive your policy documents by mail and can start using the plan immediately once active.
         </p>
       </section>
 
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-3">
-          How much does Medigap cost during open enrollment?
+          Why the carrier matters as much as the plan letter
         </h2>
         <p className="mb-2">
-          Rates vary by carrier, your age, your zip code, and the plan letter you choose. But guaranteed-issue pricing is the best rate you will ever get. No health surcharges, no exclusions.
+          Every Plan G covers the same benefits. But premium behavior over 10 or 15 years varies widely between carriers. Some companies price aggressively low to attract new members, then raise rates steeply once the block ages.
         </p>
         <p>
-          Want to see real numbers? Call me at 855-559-1700 and I'll pull up a side-by-side rate comparison for your area in about two minutes. It's free and there's no obligation.
+          Ask about the carrier's rate increase history before you enroll. A plan that costs $20 more per month now but increases 4% annually will save you thousands compared to one that jumps 12% every year. Rates vary by carrier, so this comparison matters.
         </p>
       </section>
 
-      <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 my-10 text-center">
+      <section className="mb-8">
+        <h2 className="text-2xl font-semibold mb-3">
+          You don't have to figure this out alone
+        </h2>
+        <p className="mb-2">
+          People tell me all the time that Medicare felt like learning a new language. Part A, Part B, Medigap, Part D, enrollment windows that don't repeat. It's a lot.
+        </p>
+        <p>
+          I help people walk through online Medigap applications every day. One call, we'll confirm your window, compare carriers with stable rate histories, and get your application submitted correctly the first time.
+        </p>
+      </section>
+
+      <div className="bg-blue-600 text-white rounded-lg p-8 text-center my-10">
         <p className="text-xl font-semibold mb-2">
           Ready to lock in your Medigap rate from home?
         </p>
         <p className="mb-4">
           Call{" "}
-          <a
-            href="tel:8555591700"
-            className="text-blue-700 font-bold hover:underline"
-          >
+          <a href="tel:8555591700" className="underline font-bold">
             855-559-1700
           </a>{" "}
           or{" "}
-          <Link
-            href="/quote"
-            className="text-blue-700 font-bold hover:underline"
-          >
+          <Link href="/get-a-free-quote" className="underline font-bold">
             Get a Free Quote
           </Link>{" "}
-          online. No exam, no obligation.
+          online.
+        </p>
+        <p className="text-sm opacity-90">
+          Anthony Orner, Licensed Medicare Broker
         </p>
       </div>
 
       <FAQSection faqs={faqs} />
 
       <section className="mt-10">
-        <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
+        <h2 className="text-xl font-semibold mb-4">Related resources</h2>
         <ul className="space-y-2">
           <li>
             <Link
-              href="/services/medicare-plan-g"
-              className="text-blue-700 hover:underline"
+              href="/medicare-guides/medigap-plan-g-vs-plan-n"
+              className="text-blue-600 hover:underline"
             >
-              Medicare Plan G: Full Benefits Breakdown
+              Medigap Plan G vs. Plan N: Which One Fits?
             </Link>
           </li>
           <li>
             <Link
-              href="/services/medicare-plan-n"
-              className="text-blue-700 hover:underline"
+              href="/medicare-guides/when-to-enroll-in-medicare-part-b"
+              className="text-blue-600 hover:underline"
             >
-              Medicare Plan N: Lower Premiums with Copays
+              When to Enroll in Medicare Part B
             </Link>
           </li>
           <li>
             <Link
-              href="/medicare/medigap-vs-medicare-advantage"
-              className="text-blue-700 hover:underline"
+              href="/medicare-guides/medicare-supplement-vs-medicare-advantage"
+              className="text-blue-600 hover:underline"
             >
-              Medigap vs. Medicare Advantage: Which Is Right for You?
+              Medicare Supplement vs. Medicare Advantage
             </Link>
           </li>
           <li>
             <Link
-              href="/medicare/turning-65"
-              className="text-blue-700 hover:underline"
+              href="/medicare-guides/part-b-late-enrollment-penalty"
+              className="text-blue-600 hover:underline"
             >
-              Turning 65? Your Complete Medicare Enrollment Checklist
+              Part B Late Enrollment Penalty: What It Costs
             </Link>
           </li>
         </ul>

@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Medicare Broker for Anxiety Disorder Patients",
-      item: "https://www.medicareyourself.com/services/medicare-broker-for-anxiety-disorder-patients",
+      item: "https://medicareyourself.com/services/medicare-broker-for-anxiety-disorder-patients",
     },
   ],
 };
@@ -51,47 +51,48 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-08-01",
-  dateModified: "2025-08-01",
+  mainEntityOfPage:
+    "https://medicareyourself.com/services/medicare-broker-for-anxiety-disorder-patients",
 };
 
 const faqs = [
   {
     question: "Does Medicare cover anxiety disorders?",
     answer:
-      "Yes. Medicare Part B covers outpatient mental health services including therapy and psychiatry visits for diagnosed anxiety disorders. You'll typically pay 20% of the Medicare-approved amount after the $283 annual Part B deductible. Part D plans cover prescription medications like SSRIs and benzodiazepines, though formularies vary by plan.",
+      "Yes. Medicare Part B covers outpatient mental health services for diagnosed anxiety disorders, including therapy sessions with psychiatrists, clinical psychologists, licensed clinical social workers, and other qualified providers. You pay 20% of the Medicare-approved amount after meeting the $283 annual Part B deductible.",
   },
   {
     question: "How much does it cost to use a Medicare broker?",
     answer:
-      "Nothing. A licensed Medicare broker like Anthony Orner is paid by the insurance carriers, not by you. There's no fee for plan comparisons, advice, or enrollment help. The plans cost the same whether you use a broker or enroll on your own.",
+      "Nothing. Licensed Medicare brokers like Anthony Orner are paid by insurance carriers, not by you. There's no fee for plan comparisons, enrollment help, or ongoing support.",
   },
   {
-    question: "What's the difference between a Medicare agent and a Medicare broker?",
+    question: "Do you have to use a broker for Medicare?",
     answer:
-      "A Medicare agent typically represents one insurance company. A broker works with multiple carriers and can compare plans across companies to find the best fit for your specific medications, providers, and budget. A broker advocates for you, not one carrier.",
+      "No, but working with a broker who understands mental health coverage can save you real money. A broker compares formularies, provider networks, and copay structures across plans so you don't end up with surprise costs on your medications or therapy visits.",
   },
   {
-    question: "Is Talkspace free with Medicare?",
+    question:
+      "Can I get telehealth therapy for anxiety through Medicare?",
     answer:
-      "Some Medicare Advantage plans include Talkspace or similar telehealth therapy platforms at no additional cost. Coverage depends on the specific plan. Anthony can check whether your current or prospective plan includes telehealth therapy options for anxiety treatment.",
+      "Yes. Medicare covers telehealth mental health visits, including therapy and psychiatric appointments conducted by video or phone. This is especially helpful if anxiety itself makes leaving home difficult or if local providers are limited.",
   },
 ];
 
 export default function MedicareBrokerAnxietyDisorderPatients() {
   return (
-    <main className="max-w-4xl mx-auto px-4 py-8">
+    <>
       <SchemaMarkup schema={breadcrumbSchema} />
       <SchemaMarkup schema={articleSchema} />
 
-      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
+      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-4">
         <Link href="/" className="hover:underline">
           Home
         </Link>{" "}
@@ -105,133 +106,129 @@ export default function MedicareBrokerAnxietyDisorderPatients() {
         </span>
       </nav>
 
-      <div className="bg-[#1e40af] rounded-lg p-6 mb-8">
-        <h1 className="text-3xl md:text-4xl font-bold text-white mb-4">
-          Medicare Broker for Anxiety Disorder Patients — Coverage for Therapy, Medication, and More
-        </h1>
-        <Image
-          src="/images/medicare-broker-for-anxiety-disorder-patients.webp"
-          alt="Medicare broker for anxiety disorder patients"
-          width={800}
-          height={400}
-          className="rounded-lg mb-6 w-full"
-        />
-      </div>
+      <h1 className="text-3xl md:text-4xl font-bold mb-4">
+        Medicare Broker for Anxiety Disorder Patients — Coverage for Therapy,
+        Medication, and More
+      </h1>
+
+      <Image
+        src="/images/hub_medicare-broker-for-anxiety-disorder-patients.webp"
+        alt="Medicare broker for anxiety disorder patients"
+        width={800}
+        height={400}
+        className="w-full h-auto rounded-lg mb-6"
+        priority
+      />
 
       <p className="text-lg mb-2">
-        A Medicare broker for anxiety disorder patients does something most plan comparison tools can't - match your specific medications, therapists, and treatment routine to plans that actually cover them well. I'm Anthony Orner, a licensed broker in New Jersey, and I do this work every day at no cost to you.
+        A Medicare broker for anxiety disorder patients does one thing well: matches you with a plan that actually covers the therapy, medications, and providers you rely on. I'm Anthony Orner, a licensed broker in New Jersey, and I do this work every day at no cost to you.
       </p>
       <p className="text-lg mb-6">
-        If you've ever lost sleep wondering whether your SSRI will stay on formulary next year, or whether switching plans means losing your therapist, you already know why having someone in your corner matters.
+        Choosing the wrong plan can mean denied prescriptions, surprise copays, or losing access to your therapist. I'll make sure that doesn't happen.
       </p>
 
       <PhoneCTA />
 
-      <section className="mt-10 mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
           Medicare's mental health benefits for anxiety disorders
         </h2>
-        <p className="mb-3">
-          Medicare Part B covers outpatient mental health care, including therapy and psychiatry visits for anxiety disorders like generalized anxiety, panic disorder, and social anxiety. You'll pay 20% of the Medicare-approved amount after meeting the $283 annual Part B deductible.
+        <p className="mb-2">
+          Part B covers outpatient mental health care for diagnosed anxiety disorders, including generalized anxiety, panic disorder, and social anxiety. Covered providers include psychiatrists, clinical psychologists, licensed clinical social workers, nurse practitioners, and physician assistants.
         </p>
         <p>
-          Covered providers include psychiatrists, clinical psychologists, licensed clinical social workers, and psychiatric nurse practitioners - as long as they accept Medicare assignment. There's no hard limit on the number of sessions, but your provider may need to document ongoing medical necessity.
+          After your $283 annual Part B deductible, you typically pay 20% of the Medicare-approved amount per visit. A Medigap plan or Medicare Advantage plan can reduce or eliminate that out-of-pocket cost.
         </p>
       </section>
 
-      <section className="mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
           Comparing Part D plans for benzodiazepines and SSRIs
         </h2>
-        <p className="mb-3">
-          Not all Part D plans cover the same anxiety medications at the same tier. One plan might put your SSRI at Tier 1 with a low copay. Another might require prior authorization or place it on a higher tier.
+        <p className="mb-2">
+          Not every Part D plan covers your specific medication at the same tier or copay. SSRIs like sertraline or escitalopram are widely covered, but the cost difference between plans can be $30+ per month. Benzodiazepines have additional restrictions on some formularies.
         </p>
-        <ul className="list-disc pl-6 space-y-2">
-          <li>Formularies change every year - what was covered last year may not be covered the same way this year</li>
-          <li>Some benzodiazepines require prior authorization or quantity limits</li>
-          <li>I compare your exact prescriptions across every available plan to find the lowest total cost</li>
+        <ul className="list-disc pl-6 space-y-1">
+          <li>I check each plan's formulary for your exact prescriptions</li>
+          <li>I flag prior authorization or step therapy requirements before you enroll</li>
+          <li>I compare total annual drug costs, not just monthly premiums</li>
         </ul>
       </section>
 
-      <section className="mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
           How telehealth expands access to anxiety treatment
         </h2>
-        <p className="mb-3">
-          Medicare covers telehealth therapy for anxiety, meaning you can see a licensed therapist from home over video or phone. This matters if leaving the house during a bad week feels like too much, or if the closest therapist accepting Medicare is 45 minutes away.
+        <p className="mb-2">
+          Medicare covers telehealth therapy and psychiatric visits by video or phone. If anxiety makes it hard to leave the house, or if local providers don't accept Medicare, telehealth removes that barrier.
         </p>
         <p>
-          Some Medicare Advantage plans include additional telehealth platforms at no extra cost. I can tell you which ones are available in your area.
+          Many Medicare Advantage plans offer $0 copay telehealth mental health visits. I'll identify which ones serve your area and include your preferred providers.
         </p>
       </section>
 
-      <section className="mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
-          Why the right plan choice reduces more than just cost
+          What I hear from people living with anxiety and Medicare
         </h2>
-        <p className="mb-3">
-          People dealing with anxiety often tell me the insurance process itself creates more stress. Denied claims, surprise bills, phone calls to outsourced call centers that go nowhere. I hear it constantly.
+        <p className="mb-2">
+          The insurance process itself triggers anxiety for a lot of people. Worrying about denied claims, picking the wrong Part D plan, waking up at night wondering if your medications will be covered next year. That stress is real, and it's the exact problem I solve.
         </p>
         <p>
-          Choosing the right plan from the start - one that covers your medications, your providers, and your preferred way of getting care - removes one source of worry you don't need. And if something goes wrong after enrollment, you have a local person to call instead of a 1-800 number.
+          You shouldn't have to become an insurance expert while managing your mental health. That's my job.
         </p>
       </section>
 
-      <section className="mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
-          Medicare Advantage vs. Original Medicare for anxiety care
+          Why a broker matters more than a plan finder tool
         </h2>
-        <p className="mb-3">
-          Original Medicare with a Supplement (like Plan G) gives you the widest provider access. Any therapist or psychiatrist who takes Medicare, anywhere in the country, is in your network. That flexibility matters when finding a good mental health provider is already hard enough.
+        <p className="mb-2">
+          Medicare.gov's plan finder is useful, but it doesn't tell you which plans have the best mental health provider networks in your area. It won't flag that your psychiatrist left a network mid-year, or that a plan requires prior authorization on your anxiety medication.
         </p>
         <p>
-          Medicare Advantage plans may offer lower premiums and extras like telehealth therapy platforms, but they use provider networks. If your therapist isn't in-network, you'll pay more or need to switch. I'll lay out the real tradeoffs based on your situation.
+          I review those details for you and stay available after enrollment if anything changes.
         </p>
       </section>
 
-      <section className="mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
           Schedule a free plan comparison for your specific needs
         </h2>
-        <p className="mb-3">
-          Bring me your medication list, your current providers, and your questions. I'll compare plans across multiple carriers and show you the total cost picture - premiums, copays, drug costs, everything.
+        <p className="mb-2">
+          Call me at <strong>855-559-1700</strong> and tell me what medications you take, which providers you see, and what matters most to you. I'll compare your options across Original Medicare with Medigap, Medicare Advantage, and Part D plans.
         </p>
         <p>
-          No charge. No obligation. No pressure. Just clear answers from a licensed NJ Medicare broker who understands that the last thing you need is more uncertainty.
+          No pressure, no cost, no obligation. Just clear answers from someone who does this every day in New Jersey.
         </p>
       </section>
 
-      <div className="bg-blue-600 rounded-lg p-6 text-center text-white mb-10">
+      <div className="mt-10 bg-blue-600 text-white rounded-lg p-8 text-center">
         <p className="text-xl font-semibold mb-2">
-          Talk to a licensed Medicare broker who gets it.
+          Ready for a plan that covers your anxiety treatment?
         </p>
-        <p className="text-lg mb-4">
+        <p className="mb-4">
           Call{" "}
-          <a
-            href="tel:8555591700"
-            className="underline font-bold hover:text-blue-100"
-          >
+          <a href="tel:8555591700" className="underline font-bold">
             855-559-1700
           </a>{" "}
           or{" "}
-          <Link
-            href="/contact"
-            className="underline font-bold hover:text-blue-100"
-          >
-            get a free quote online
+          <Link href="/contact" className="underline font-bold">
+            Get a Free Quote
           </Link>
-          .
         </p>
       </div>
 
-      <FAQSection faqs={faqs} />
+      <section className="mt-10">
+        <FAQSection faqs={faqs} />
+      </section>
 
       <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
         <ul className="space-y-2">
           <li>
             <Link
-              href="/medicare-guides/medicare-mental-health-coverage"
+              href="/medicare-guides/mental-health-coverage"
               className="text-blue-600 hover:underline"
             >
               Medicare Mental Health Coverage Guide
@@ -239,30 +236,30 @@ export default function MedicareBrokerAnxietyDisorderPatients() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-part-d-prescription-drug-plans"
+              href="/medicare-guides/part-d-prescription-drug-plans"
               className="text-blue-600 hover:underline"
             >
-              Understanding Medicare Part D Prescription Drug Plans
+              Understanding Part D Prescription Drug Plans
             </Link>
           </li>
           <li>
             <Link
-              href="/services/medicare-broker-nj"
+              href="/medicare-guides/medicare-advantage-vs-medigap"
               className="text-blue-600 hover:underline"
             >
-              Medicare Broker in New Jersey
+              Medicare Advantage vs. Medigap: Which Is Right for You?
             </Link>
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-telehealth-coverage"
+              href="/services/medicare-telehealth-options"
               className="text-blue-600 hover:underline"
             >
-              Medicare Telehealth Coverage Options
+              Medicare Telehealth Options in New Jersey
             </Link>
           </li>
         </ul>
       </section>
-    </main>
+    </>
   );
 }

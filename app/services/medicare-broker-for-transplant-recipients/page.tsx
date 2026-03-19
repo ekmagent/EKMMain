@@ -9,12 +9,12 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for transplant recipients | Free Coverage Analysis | MedicareYourself",
   description:
-    "Medicare broker for transplant recipients — keep immunosuppressant coverage, avoid gaps. Anthony Orner explains your options. Free analysis, no obligation.",
+    "Medicare broker for transplant recipients — keep immunosuppressant coverage, avoid gaps. Anthony Orner explains your options. Free analysis.",
   openGraph: {
     title:
       "Medicare broker for transplant recipients | Free Coverage Analysis | MedicareYourself",
     description:
-      "Medicare broker for transplant recipients — keep immunosuppressant coverage, avoid gaps. Anthony Orner explains your options. Free analysis, no obligation.",
+      "Medicare broker for transplant recipients — keep immunosuppressant coverage, avoid gaps. Anthony Orner explains your options. Free analysis.",
   },
 };
 
@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Medicare Broker for Transplant Recipients",
-      item: "https://www.medicareyourself.com/services/medicare-broker-for-transplant-recipients",
+      item: "https://medicareyourself.com/services/medicare-broker-for-transplant-recipients",
     },
   ],
 };
@@ -51,7 +51,7 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
@@ -59,226 +59,252 @@ const articleSchema = {
     alternateName: "MedicareYourself",
   },
   mainEntityOfPage:
-    "https://www.medicareyourself.com/services/medicare-broker-for-transplant-recipients",
+    "https://medicareyourself.com/services/medicare-broker-for-transplant-recipients",
 };
 
 const faqs = [
   {
-    question: "Does it cost to use a Medicare broker?",
+    question: "How much does it cost to use a Medicare broker?",
     answer:
-      "No. Medicare brokers are paid by the insurance carriers, not by you. There's no fee for plan comparisons, coverage analysis, or enrollment help. You get the same plan at the same price whether you use a broker or enroll on your own.",
+      "Nothing. Medicare brokers are paid by the insurance carriers, not by you. Our coverage analysis for transplant recipients is completely free, with no obligation.",
   },
   {
-    question: "Should I get a Medicare broker if I've had a transplant?",
+    question: "Does Medicare cover transplant services?",
     answer:
-      "Yes. Post-transplant coverage has specific rules around immunosuppressive drugs, Part B vs. Part D, and the Part B-ID benefit. A broker who understands these rules can make sure you don't end up with a gap in anti-rejection drug coverage.",
-  },
-  {
-    question:
-      "What is the Part B Immunosuppressive Drug benefit (Part B-ID)?",
-    answer:
-      "Part B-ID is a benefit for people who lose Part A coverage 36 months after a kidney transplant. It only covers immunosuppressive drugs. In 2026, you'll pay a monthly premium plus 20% of the Medicare-approved amount for your medications. It does not cover other medical services.",
+      "Yes. Medicare Part A covers organ transplant surgery at Medicare-certified facilities. Part B covers immunosuppressive drugs if you had a Medicare-covered transplant. After 2023, the Part B-ID benefit extends immunosuppressive drug coverage even if you lose full Medicare eligibility.",
   },
   {
     question:
-      "Does Medicare Part D cover anti-rejection medications?",
+      "What happens to my immunosuppressive drug coverage if I lose Medicare eligibility?",
     answer:
-      "Part D plans can cover immunosuppressive drugs, but formularies vary by carrier. Some plans may tier your specific medication differently or require prior authorization. A broker can compare Part D formularies to find plans that cover your exact prescriptions at the lowest cost.",
+      "If you had a Medicare-covered transplant and lose eligibility (for example, after 36 months of ESRD-based coverage), the Part B Immunosuppressive Drug (Part B-ID) benefit lets you keep coverage for anti-rejection medications only. You'll pay a monthly premium and a deductible, but you won't lose access to the drugs that keep your transplant functioning.",
+  },
+  {
+    question: "Should I use a Part D plan or Part B for anti-rejection drugs?",
+    answer:
+      "It depends on your situation. If you have full Medicare, Part B typically covers immunosuppressive drugs at 80% of the Medicare-approved amount. A Part D plan may cover additional medications. We compare both options side by side in your free coverage analysis.",
   },
 ];
 
 export default function MedicareBrokerForTransplantRecipients() {
   return (
-    <>
+    <main className="max-w-3xl mx-auto px-4 py-8">
       <SchemaMarkup schema={breadcrumbSchema} />
       <SchemaMarkup schema={articleSchema} />
 
-      <main className="max-w-4xl mx-auto px-4 py-8">
-        <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
-          <Link href="/" className="hover:underline">
-            Home
-          </Link>{" "}
-          &gt;{" "}
-          <Link href="/medicare-guides" className="hover:underline">
-            Medicare Guides
-          </Link>{" "}
-          &gt;{" "}
-          <span className="text-gray-700">
-            Medicare Broker for Transplant Recipients
-          </span>
-        </nav>
+      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
+        <Link href="/" className="hover:underline">
+          Home
+        </Link>{" "}
+        &gt;{" "}
+        <Link href="/medicare-guides" className="hover:underline">
+          Medicare Guides
+        </Link>{" "}
+        &gt;{" "}
+        <span className="text-gray-700">
+          Medicare Broker for Transplant Recipients
+        </span>
+      </nav>
 
-        <div className="bg-[#1e40af] rounded-lg p-6 mb-8">
-          <h1 className="text-3xl md:text-4xl font-bold text-white mb-4">
-            Medicare Broker for Transplant Recipients: Immunosuppressant and
-            Post-Op Coverage Explained
-          </h1>
-          <Image
-            src="/images/medicare-broker-for-transplant-recipients.webp"
-            alt="Medicare broker for transplant recipients"
-            width={800}
-            height={400}
-            className="rounded-lg mb-6 w-full"
-          />
-        </div>
+      <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+        Medicare Broker for Transplant Recipients: Immunosuppressant and Post-Op
+        Coverage Explained
+      </h1>
 
-        <p className="text-lg mb-2">
-          A Medicare broker for transplant recipients helps you figure out the
-          one thing you can't afford to get wrong: keeping your
-          immunosuppressive drugs covered without interruption.
+      <Image
+        src="/images/hub_medicare-broker-for-transplant-recipients.webp"
+        alt="Medicare broker for transplant recipients"
+        width={800}
+        height={400}
+        className="w-full rounded-lg mb-6"
+        priority
+      />
+
+      <p className="text-lg text-gray-700 mb-2">
+        A Medicare broker for transplant recipients can be the difference between
+        continuous immunosuppressant coverage and a gap that puts your organ at
+        risk. After transplant surgery, your medications aren't optional. They're
+        the reason the transplant works.
+      </p>
+      <p className="text-lg text-gray-700 mb-6">
+        I'm Anthony Orner, a licensed Medicare broker. I help transplant
+        recipients understand exactly how Part A, Part B, the Part B-ID benefit,
+        and Part D fit together so nothing falls through the cracks.
+      </p>
+
+      <PhoneCTA />
+
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          How Medicare Part B covers immunosuppressive drugs after 2023
+        </h2>
+        <p className="text-gray-700 mb-2">
+          If you received a transplant covered by Medicare, Part B pays 80% of
+          the Medicare-approved amount for immunosuppressive drugs. You're
+          responsible for the remaining 20% after meeting the 2026 Part B
+          deductible of $283/year.
         </p>
-        <p className="text-lg mb-6">
-          After a transplant, your medication schedule runs your life. The last
-          thing you need is a coverage gap because your plan changed its
-          formulary or you aged out of a benefit you didn't know had an
-          expiration date. I'm Anthony Orner, a licensed Medicare broker, and I
-          help transplant recipients sort through exactly this.
+        <p className="text-gray-700">
+          This coverage continues as long as you have Part B. But if your
+          Medicare eligibility is tied to End-Stage Renal Disease (ESRD), your
+          full coverage used to end 36 months after a successful kidney
+          transplant. That changed in 2023.
         </p>
+      </section>
 
-        <PhoneCTA />
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          The Part B-ID benefit and what it means for you
+        </h2>
+        <p className="text-gray-700 mb-2">
+          Starting January 2023, the Part B Immunosuppressive Drug (Part B-ID)
+          benefit covers anti-rejection medications for people who lose full
+          Medicare after ESRD-based coverage ends. This benefit covers
+          immunosuppressive drugs only, not doctor visits or hospital stays.
+        </p>
+        <ul className="list-disc ml-6 text-gray-700 space-y-1">
+          <li>Monthly premium and annual deductible apply</li>
+          <li>
+            Covers the same 80% of the Medicare-approved amount as standard Part
+            B
+          </li>
+          <li>
+            You can also buy a supplemental policy to cover the remaining 20%
+          </li>
+        </ul>
+      </section>
 
-        <section className="mt-10 mb-8">
-          <h2 className="text-2xl font-semibold mb-3">
-            How Medicare Part B covers immunosuppressive drugs after 2023
-          </h2>
-          <p className="mb-3">
-            Medicare Part A covers your transplant surgery and inpatient care in
-            a Medicare-certified hospital. Part B picks up immunosuppressive
-            drugs - but only if Medicare paid for your transplant.
-          </p>
-          <p>
-            Here's where it gets tricky: for kidney transplants, Part A coverage
-            ends 36 months after a successful transplant. Before 2023, that
-            meant some people lost immunosuppressive drug coverage entirely. The
-            Part B-ID benefit changed that.
-          </p>
-        </section>
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          Choosing a Part D plan that covers anti-rejection medications
+        </h2>
+        <p className="text-gray-700 mb-2">
+          If you have full Medicare, some of your transplant medications may fall
+          under Part D rather than Part B. Each Part D plan has its own
+          formulary. The wrong plan could mean high copays on a drug you take
+          every single day.
+        </p>
+        <p className="text-gray-700">
+          I review your exact medication list and compare it against available
+          Part D formularies. No guesswork. You see the numbers before you
+          enroll.
+        </p>
+      </section>
 
-        <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-3">
-            The Part B-ID benefit and what it means for you
-          </h2>
-          <p className="mb-3">
-            If you had a kidney transplant and your Part A ends after 36 months,
-            the Part B Immunosuppressive Drug benefit (Part B-ID) kicks in. It
-            covers only immunosuppressive medications - nothing else.
-          </p>
-          <ul className="list-disc pl-6 space-y-2">
-            <li>You'll pay a monthly premium for Part B-ID</li>
-            <li>You're responsible for 20% of the Medicare-approved amount for covered drugs</li>
-            <li>This benefit does not replace full Part B - it's narrow by design</li>
-          </ul>
-          <p className="mt-3">
-            If you already have other coverage (employer insurance, Medicaid, or full Part B), Part B-ID may not be necessary. That's exactly the kind of thing I help people figure out.
-          </p>
-        </section>
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          Why transplant recipients face unique coverage risks
+        </h2>
+        <p className="text-gray-700 mb-2">
+          Missing even a short window of anti-rejection medication can trigger
+          organ rejection. Most Medicare content doesn't address this urgency.
+          People dealing with post-transplant life know the stakes are higher
+          than a billing dispute. It's your health.
+        </p>
+        <p className="text-gray-700">
+          Coverage transitions between ESRD-based Medicare, the Part B-ID
+          benefit, employer plans, and Medigap are where gaps happen. That's
+          exactly where I focus.
+        </p>
+      </section>
 
-        <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-3">
-            Choosing a Part D plan that covers anti-rejection medications
-          </h2>
-          <p className="mb-3">
-            Part D formularies are not all the same. Your tacrolimus or
-            mycophenolate might be Tier 2 on one plan and Tier 4 on another.
-            That difference can mean hundreds of dollars a year.
-          </p>
-          <p>
-            I compare Part D plans based on your exact prescriptions, your pharmacy, and your dosages. No guessing. You see the actual estimated costs before you enroll.
-          </p>
-        </section>
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          What a post-transplant coverage analysis includes
+        </h2>
+        <ul className="list-disc ml-6 text-gray-700 space-y-1">
+          <li>
+            Full review of your current Medicare coverage (Parts A, B, D, and
+            any Medigap or Advantage plan)
+          </li>
+          <li>
+            Medication-by-medication formulary check against available Part D
+            plans
+          </li>
+          <li>Part B-ID eligibility screening if you're losing ESRD coverage</li>
+          <li>
+            Cost comparison so you know your monthly out-of-pocket before making
+            a decision
+          </li>
+        </ul>
+      </section>
 
-        <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-3">
-            What transplant recipients worry about most
-          </h2>
-          <p className="mb-3">
-            The people I work with aren't confused about Medicare in general. They're worried about one specific thing: will my anti-rejection meds stay covered next year?
-          </p>
-          <p>
-            Formulary changes happen every plan year. A drug that's covered today might need prior authorization tomorrow. I monitor these shifts so you're not caught off guard during Open Enrollment (October 15 - December 7).
-          </p>
-        </section>
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          Get a free post-transplant coverage analysis
+        </h2>
+        <p className="text-gray-700 mb-2">
+          You've already been through the hard part. Let me handle the insurance
+          side. Call me and we'll go through your medications, your coverage
+          timeline, and your options together. No cost, no pressure.
+        </p>
+        <p className="text-gray-700">
+          Open Enrollment for Medicare Advantage and Part D runs October 15
+          through December 7 each year, but coverage transitions after transplant
+          can happen anytime. Don't wait for a gap to find you.
+        </p>
+      </section>
 
-        <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-3">
-            Part A and Part B - what each covers for transplants
-          </h2>
-          <ul className="list-disc pl-6 space-y-2">
-            <li><strong>Part A:</strong> Transplant surgery, inpatient hospital stay, organ registry fees, donor evaluation and surgery</li>
-            <li><strong>Part B:</strong> Immunosuppressive drugs (if Medicare paid for the transplant), lab tests, outpatient follow-up care</li>
-            <li><strong>Part B deductible (2026):</strong> $283/year</li>
-            <li><strong>Part A deductible (2026):</strong> $1,676 per benefit period</li>
-          </ul>
-          <p className="mt-3">
-            Medicare covers heart, lung, kidney, pancreas, intestine, and liver transplants at Medicare-certified facilities. Donor services are also covered.
-          </p>
-        </section>
+      <div className="mt-10 bg-blue-600 text-white rounded-lg p-6 text-center">
+        <p className="text-xl font-semibold mb-2">
+          Talk to Anthony Orner about your transplant coverage.
+        </p>
+        <p className="text-2xl font-bold mb-3">
+          <a href="tel:8555591700" className="underline">
+            855-559-1700
+          </a>
+        </p>
+        <Link
+          href="/contact"
+          className="inline-block bg-white text-blue-600 font-semibold px-6 py-2 rounded hover:bg-gray-100"
+        >
+          Get a Free Quote
+        </Link>
+      </div>
 
-        <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-3">
-            Get a free post-transplant coverage analysis
-          </h2>
-          <p>
-            Bring me your medication list and your current plan details. I'll show you where you stand, what gaps exist, and which plans cover your drugs at the lowest out-of-pocket cost. No charge, no obligation.
-          </p>
-        </section>
-
-        <div className="bg-blue-600 text-white rounded-lg p-6 text-center mb-10">
-          <p className="text-xl font-semibold mb-2">
-            Talk to a Medicare broker who understands post-transplant coverage
-          </p>
-          <p className="text-lg mb-4">
-            Call{" "}
-            <a href="tel:8555591700" className="underline font-bold">
-              855-559-1700
-            </a>{" "}
-            or{" "}
-            <Link href="/contact" className="underline font-bold">
-              get a free quote online
-            </Link>
-          </p>
-        </div>
-
+      <section className="mt-12">
         <FAQSection faqs={faqs} />
+      </section>
 
-        <section className="mt-10">
-          <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
-          <ul className="space-y-2">
-            <li>
-              <Link
-                href="/medicare-guides/medicare-part-d-drug-coverage"
-                className="text-blue-600 hover:underline"
-              >
-                Medicare Part D Drug Coverage Guide
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/medicare-guides/medicare-part-b-explained"
-                className="text-blue-600 hover:underline"
-              >
-                Medicare Part B Explained
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/services/medicare-broker-for-chronic-conditions"
-                className="text-blue-600 hover:underline"
-              >
-                Medicare Broker for Chronic Conditions
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/medicare-guides/medicare-advantage-vs-medigap"
-                className="text-blue-600 hover:underline"
-              >
-                Medicare Advantage vs. Medigap
-              </Link>
-            </li>
-          </ul>
-        </section>
-      </main>
-    </>
+      <section className="mt-12">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-4">
+          Related resources
+        </h2>
+        <ul className="space-y-2">
+          <li>
+            <Link
+              href="/medicare-guides/medicare-part-b"
+              className="text-blue-600 hover:underline"
+            >
+              Medicare Part B: What It Covers and What It Costs
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/medicare-guides/medicare-part-d"
+              className="text-blue-600 hover:underline"
+            >
+              Medicare Part D Prescription Drug Plans Explained
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/medicare-guides/medigap-plans"
+              className="text-blue-600 hover:underline"
+            >
+              Medigap Plans: How Medicare Supplements Work
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/services/medicare-broker-for-chronic-conditions"
+              className="text-blue-600 hover:underline"
+            >
+              Medicare Broker for Chronic Conditions
+            </Link>
+          </li>
+        </ul>
+      </section>
+    </main>
   );
 }

@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Medicare Broker for Schizophrenia Patients",
-      item: "https://www.medicareyourself.com/services/medicare-broker-for-schizophrenia-patients",
+      item: "https://medicareyourself.com/services/medicare-broker-for-schizophrenia-patients",
     },
   ],
 };
@@ -51,7 +51,7 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
@@ -113,7 +113,7 @@ export default function MedicareBrokerSchizophreniaPatients() {
             Medicare Broker for Schizophrenia Patients — Ensuring Coverage for Antipsychotics and Ongoing Care
           </h1>
           <Image
-            src="/images/medicare-broker-for-schizophrenia-patients_photo.webp"
+            src="/images/medicare-broker-for-schizophrenia-patients.webp"
             alt="Medicare broker for schizophrenia patients"
             width={800}
             height={400}

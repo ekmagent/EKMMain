@@ -7,12 +7,12 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 
 export const metadata: Metadata = {
   title:
-    "how long does it take to enroll in medicare supplements | Free Broker Help | MedicareYourself",
+    "how long does it take to enroll in medicare supplements | Free Help | MedicareYourself",
   description:
     "How long does it take to enroll in Medicare Supplements? Most applications take 10–20 minutes with a broker. Learn the full timeline and get free help today.",
   openGraph: {
     title:
-      "how long does it take to enroll in medicare supplements | Free Broker Help | MedicareYourself",
+      "how long does it take to enroll in medicare supplements | Free Help | MedicareYourself",
     description:
       "How long does it take to enroll in Medicare Supplements? Most applications take 10–20 minutes with a broker. Learn the full timeline and get free help today.",
   },
@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "How Long Does It Take to Enroll in Medicare Supplements",
-      item: "https://www.medicareyourself.com/services/how-long-does-it-take-to-enroll-in-medicare-supplements",
+      item: "https://medicareyourself.com/services/how-long-does-it-take-to-enroll-in-medicare-supplements",
     },
   ],
 };
@@ -51,7 +51,7 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
@@ -64,28 +64,29 @@ const articleSchema = {
 
 const faqs = [
   {
-    question: "Can you enroll in supplemental Medicare at any time?",
+    question:
+      "How long does it take for a Medicare Supplement plan to be approved?",
     answer:
-      "Not with guaranteed acceptance. Your best window is the 6-month Medigap Open Enrollment Period, which starts the month you turn 65 and are enrolled in Part B. During this window, carriers cannot deny you or charge more based on health. Outside this period, insurers in most states can medically underwrite your application and may decline coverage.",
+      "During your Medigap Open Enrollment Period, approval is guaranteed and typically takes 1–3 business days. Outside that window, underwriting may add 1–2 weeks depending on the carrier.",
   },
   {
-    question: "How long does the actual Medigap application take to fill out?",
+    question: "Can I use my Medicare Supplement plan right away after enrolling?",
     answer:
-      "With a broker guiding you, the application itself takes about 10 to 20 minutes. Most of it is basic personal information, your Medicare Beneficiary Identifier, and a few health questions (if applying outside your Open Enrollment Period).",
+      "Your coverage start date depends on when you apply. If you enroll before your Part B effective date, coverage can start the same day as Part B. Otherwise, most carriers set coverage for the first of the following month.",
   },
   {
-    question: "When does my Medigap coverage actually start after I apply?",
+    question: "Do I need to be home to enroll in a Medicare Supplement?",
     answer:
-      "Most carriers activate coverage on the first of the following month. If you apply in mid-March, your effective date is typically April 1. Some carriers can backdate to align with your Part B start date if you apply during your Open Enrollment Period.",
+      "No. Most enrollments happen over the phone or online. A broker can walk you through the application in a single call, and you can e-sign the paperwork from anywhere.",
   },
   {
-    question: "Do I need to cancel my old plan before enrolling in a Medigap plan?",
+    question: "Is there a waiting period before a Medigap plan pays claims?",
     answer:
-      "If you're coming off a Medicare Advantage plan, you need to disenroll from it and return to Original Medicare (Part A and Part B) before a Medigap policy can take effect. A broker can walk you through the timing so there's no gap in coverage.",
+      "No. Once your coverage effective date arrives, the plan pays from day one. There are no waiting periods or deductible countdowns before benefits kick in.",
   },
 ];
 
-export default function HowLongToEnrollMedigap() {
+export default function HowLongToEnrollMedigapPage() {
   return (
     <main className="max-w-3xl mx-auto px-4 py-8">
       <SchemaMarkup schema={breadcrumbSchema} />
@@ -110,7 +111,7 @@ export default function HowLongToEnrollMedigap() {
       </h1>
 
       <Image
-        src="/images/how-long-does-it-take-to-enroll-in-medicare-supplements.webp"
+        src="/images/hub_how-long-does-it-take-to-enroll-in-medicare-supplements.webp"
         alt="how long does it take to enroll in medicare supplements"
         width={800}
         height={400}
@@ -119,23 +120,23 @@ export default function HowLongToEnrollMedigap() {
       />
 
       <p className="text-lg text-gray-700 mb-2">
-        How long does it take to enroll in Medicare Supplements? The application itself usually takes 10 to 20 minutes when a broker handles it for you. But the full timeline from first phone call to active coverage depends on a few things most people don't expect.
+        How long does it take to enroll in Medicare Supplements? The actual application takes about 10–20 minutes when you work with a broker. The part that eats up time is deciding which plan and carrier to choose.
       </p>
       <p className="text-lg text-gray-700 mb-6">
-        Here's a breakdown so you know exactly what to plan for.
+        Here's a realistic breakdown of the full timeline so you know exactly what to expect.
       </p>
 
       <PhoneCTA />
 
       <section className="mt-10">
         <h2 className="text-2xl font-semibold text-gray-900 mb-3">
-          Choosing a plan vs. completing the application are two separate steps
+          Choosing a plan vs. completing the application — two separate steps
         </h2>
         <p className="text-gray-700 mb-2">
-          Most people lump these together, but they're different. Deciding which plan letter and carrier to go with can take a 15- to 30-minute conversation with a broker who knows your situation.
+          People lump these together, but they're different. Researching plans, comparing carriers, and understanding your options can take days or weeks on your own. The application itself is fast.
         </p>
         <p className="text-gray-700">
-          Once you've picked, the actual application is quick. Name, date of birth, Medicare Beneficiary Identifier, payment info, and a few health questions if you're outside your Open Enrollment Period. That's it.
+          With a broker, you can often do both in a single phone call. We narrow the options before we ever present them to you.
         </p>
       </section>
 
@@ -143,58 +144,55 @@ export default function HowLongToEnrollMedigap() {
         <h2 className="text-2xl font-semibold text-gray-900 mb-3">
           Typical enrollment timelines by carrier
         </h2>
-        <p className="text-gray-700 mb-3">
-          Carriers vary, but here's the general pattern:
-        </p>
         <ul className="list-disc pl-6 text-gray-700 space-y-2">
           <li>
-            <strong>During Open Enrollment:</strong> No medical underwriting. Applications are approved in 1 to 5 business days. Coverage starts the first of the next month.
+            <strong>Application:</strong> 10–20 minutes by phone or e-sign.
           </li>
           <li>
-            <strong>Outside Open Enrollment (underwritten):</strong> The carrier reviews your health history. Approval can take 1 to 3 weeks depending on the insurer. Some carriers are faster than others.
+            <strong>Carrier processing (during OEP):</strong> 1–3 business days. Approval is guaranteed, so this is mostly administrative.
           </li>
           <li>
-            <strong>Electronic applications</strong> speed things up significantly. Paper apps can add a week or more.
+            <strong>Carrier processing (with underwriting):</strong> 1–2 weeks, sometimes longer if the carrier requests medical records.
+          </li>
+          <li>
+            <strong>ID card and welcome packet:</strong> Typically arrives within 7–14 days of approval.
           </li>
         </ul>
       </section>
 
       <section className="mt-10">
         <h2 className="text-2xl font-semibold text-gray-900 mb-3">
-          Open enrollment period vs. applying outside OEP
+          Open Enrollment Period vs. applying outside OEP
         </h2>
         <p className="text-gray-700 mb-2">
-          Your Medigap Open Enrollment Period lasts 6 months. It starts the month you turn 65 and are enrolled in Part B. During this window, no carrier can turn you down or charge more because of health conditions.
+          Your Medigap Open Enrollment Period lasts 6 months. It starts the month you turn 65 and are enrolled in Part B. During this window, carriers must accept you regardless of health history. No medical questions. No delays for underwriting.
         </p>
         <p className="text-gray-700">
-          Outside that window, most states allow carriers to medically underwrite you. That means longer processing and the real possibility of being declined. This is why timing matters more than people realize. If you're within 6 months of turning 65, start the conversation now.
+          Outside OEP, carriers can ask health questions and may decline your application. That underwriting step adds time and uncertainty. This is why starting early matters.
         </p>
       </section>
 
       <section className="mt-10">
         <h2 className="text-2xl font-semibold text-gray-900 mb-3">
-          What can slow things down
+          What slows people down the most
         </h2>
-        <ul className="list-disc pl-6 text-gray-700 space-y-2">
-          <li>Missing your Medicare Beneficiary Identifier (the number on your red, white, and blue card)</li>
-          <li>Incomplete health history on the application</li>
-          <li>Applying by paper instead of electronically</li>
-          <li>Carrier backlog during peak enrollment season (October through January)</li>
-        </ul>
-        <p className="text-gray-700 mt-3">
-          A broker catches these issues before they cause delays.
+        <p className="text-gray-700 mb-2">
+          It's not the paperwork. It's the overwhelm. Part A, Part B, Part D, Medigap, Advantage. People tell me all the time they didn't expect Medicare to feel like learning a new language.
+        </p>
+        <p className="text-gray-700">
+          That confusion creates paralysis. Weeks pass. Then the enrollment window gets tighter. The fix is simple: call a broker early, ask your questions, and let someone lay out your options clearly.
         </p>
       </section>
 
       <section className="mt-10">
         <h2 className="text-2xl font-semibold text-gray-900 mb-3">
-          When your coverage actually shows up on Medicare.gov
+          When your coverage actually starts
         </h2>
         <p className="text-gray-700 mb-2">
-          Your Medigap plan won't appear on your Medicare.gov account the day you enroll. It can take a few weeks for the carrier to initiate the crossover with Medicare. You'll get a confirmation letter from your insurer first.
+          If you apply before your Part B effective date, your Medigap coverage can start the same day Part B begins. Apply after, and most carriers set coverage for the first of the next month.
         </p>
         <p className="text-gray-700">
-          Don't panic if it's not showing on the website right away. Your coverage is still active as of the effective date on your approval letter.
+          There's no waiting period once coverage is active. Your plan pays claims from day one.
         </p>
       </section>
 
@@ -203,35 +201,39 @@ export default function HowLongToEnrollMedigap() {
           Let a broker handle the enrollment so nothing stalls
         </h2>
         <p className="text-gray-700 mb-2">
-          People turning 65 consistently say the same thing: they didn't expect Medicare to be this confusing. Part A, Part B, Medigap, Part D, enrollment periods. It feels like learning a new language.
+          A licensed broker fills out the application for you, submits it directly to the carrier, and follows up until your coverage is confirmed. You don't chase anything.
         </p>
         <p className="text-gray-700">
-          A licensed broker files your application electronically, confirms your effective date, and follows up with the carrier so you don't have to. There's no cost to you for this help. Carriers pay the broker, not you.
+          Our help costs you nothing. Broker commissions are built into the premium whether you use one or not. Same price either way. Call us at{" "}
+          <a
+            href="tel:8555591700"
+            className="text-blue-600 font-semibold hover:underline"
+          >
+            855-559-1700
+          </a>{" "}
+          and we'll walk through it together.
         </p>
       </section>
 
-      <section className="mt-10 bg-blue-50 border border-blue-200 rounded-lg p-6 text-center">
-        <p className="text-xl font-semibold text-blue-900 mb-2">
-          Ready to enroll? Most people finish in under 20 minutes.
+      <section className="mt-12 bg-blue-50 border border-blue-200 rounded-lg p-6 text-center">
+        <p className="text-xl font-semibold text-gray-900 mb-2">
+          Ready to enroll? Most people finish in one phone call.
         </p>
-        <p className="text-blue-800 mb-4">
+        <p className="text-gray-700 mb-4">
           Call{" "}
           <a
             href="tel:8555591700"
-            className="font-bold underline hover:text-blue-600"
+            className="text-blue-600 font-bold hover:underline"
           >
             855-559-1700
           </a>{" "}
           or{" "}
           <Link
-            href="/quote"
-            className="font-bold underline hover:text-blue-600"
+            href="/get-a-free-quote"
+            className="text-blue-600 font-bold hover:underline"
           >
             Get a Free Quote
           </Link>
-        </p>
-        <p className="text-sm text-blue-700">
-          Licensed broker help at no cost to you.
         </p>
       </section>
 
@@ -247,42 +249,37 @@ export default function HowLongToEnrollMedigap() {
           <li>
             <Link
               href="/services/medigap-open-enrollment-period"
-              className="text-blue-700 hover:underline"
+              className="text-blue-600 hover:underline"
             >
-              Medigap Open Enrollment Period: When and Why It Matters
+              Medigap Open Enrollment Period Explained
             </Link>
           </li>
           <li>
             <Link
               href="/services/medicare-supplement-plan-g"
-              className="text-blue-700 hover:underline"
+              className="text-blue-600 hover:underline"
             >
-              Medicare Supplement Plan G: What It Covers in 2026
+              Medicare Supplement Plan G: What It Covers
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/services/when-to-apply-for-medicare"
+              className="text-blue-600 hover:underline"
+            >
+              When to Apply for Medicare
             </Link>
           </li>
           <li>
             <Link
               href="/services/medicare-supplement-vs-medicare-advantage"
-              className="text-blue-700 hover:underline"
+              className="text-blue-600 hover:underline"
             >
-              Medicare Supplement vs. Medicare Advantage: Which Is Right for You?
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/services/turning-65-medicare-checklist"
-              className="text-blue-700 hover:underline"
-            >
-              Turning 65 Medicare Checklist: What to Do and When
+              Medicare Supplement vs. Medicare Advantage
             </Link>
           </li>
         </ul>
       </section>
-
-      <p className="text-sm text-gray-500 mt-10">
-        Written by Anthony Orner, Licensed Medicare Broker | EasyKind Medicare |
-        Last updated July 2025
-      </p>
     </main>
   );
 }

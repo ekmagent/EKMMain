@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Medicare Insurance Agents in Franklin, New Jersey",
-      item: "https://www.medicareyourself.com/services/medicare-insurance-agents-in-franklin-new-jersey",
+      item: "https://medicareyourself.com/services/medicare-insurance-agents-in-franklin-new-jersey",
     },
   ],
 };
@@ -51,37 +51,37 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-15",
-  dateModified: "2025-07-15",
+  datePublished: "2025-07-01",
+  dateModified: "2025-07-01",
 };
 
 const faqs = [
   {
-    question: "Should I use an insurance agent for Medicare?",
+    question: "Do Medicare insurance agents charge for their help?",
     answer:
-      "Yes. A licensed independent Medicare agent can compare plans from multiple carriers at no cost to you. The carriers pay the agent's commission, so you get professional guidance without paying a fee. An independent agent is not locked into one company, which means you see more options than working directly with a single insurer.",
+      "No. Licensed Medicare agents are paid by the insurance carriers, not by you. There's no fee for quotes, plan comparisons, or enrollment assistance. The plan costs the same whether you use an agent or enroll directly.",
   },
   {
-    question: "Do Medicare insurance agents charge?",
+    question: "Should I use an insurance agent for Medicare?",
     answer:
-      "No. Independent Medicare agents like Anthony Orner are compensated directly by the insurance carriers. You pay nothing extra for the advice, plan comparisons, or enrollment assistance. The premiums you pay are the same whether you use an agent or enroll on your own.",
+      "Yes, especially an independent broker who isn't locked to one carrier. An independent agent can show you plans from multiple companies side by side, helping you find the best fit for your doctors, prescriptions, and budget. A captive agent can only sell one company's products.",
   },
   {
     question: "How can I get help with Medicare premiums in New Jersey?",
     answer:
-      "New Jersey residents may qualify for Medicare Savings Programs (MSP) that help pay Part B premiums, deductibles, and coinsurance. Programs like QMB, SLMB, and QI have different income thresholds. Contact your local county assistance office or call us at 855-559-1700 and we can point you in the right direction.",
+      "New Jersey offers programs like NJ PAAD (Pharmaceutical Assistance to the Aged and Disabled) and Lifeline. At the federal level, Medicare Savings Programs and Extra Help/Low-Income Subsidy can reduce Part B premiums and drug costs. Your broker can help you check eligibility.",
   },
   {
     question: "What is the highest reviewed Medicare insurance in NJ?",
     answer:
-      "Plan ratings change each year, and the best plan depends on your doctors, prescriptions, and budget. In Somerset County, several Medicare Advantage and Medigap carriers consistently earn high CMS star ratings. The best way to find the right fit is a side-by-side comparison with an independent broker who knows the local network landscape.",
+      "Plan ratings change yearly based on CMS Star Ratings. In Somerset County, several carriers consistently score 4+ stars for both Advantage and Supplement plans. The best plan depends on your specific doctors and medications — not just star ratings. Call for a personalized comparison.",
   },
 ];
 
@@ -105,149 +105,160 @@ export default function MedicareInsuranceAgentsFranklinNJ() {
         </span>
       </nav>
 
-      <h1 className="text-3xl font-bold mb-4">
+      <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
         Medicare Insurance Agents in Franklin, New Jersey: Independent Broker
         Access
       </h1>
 
       <Image
-        src="/images/medicare-insurance-agents-in-franklin-new-jersey.webp"
+        src="/images/hub_medicare-insurance-agents-in-franklin-new-jersey.webp"
         alt="Medicare insurance agents in Franklin New Jersey"
         width={800}
         height={400}
-        className="rounded-lg mb-6 w-full"
+        className="w-full h-auto rounded-lg mb-6"
       />
 
-      <p className="text-lg mb-2">
-        Medicare insurance agents in Franklin, New Jersey can make the
-        difference between a plan that works for your life and one that drains
-        your wallet. Franklin Township sits in Somerset County, and residents
-        here have access to a solid range of Medicare Supplement and Medicare
-        Advantage carriers.
+      <p className="text-lg text-gray-700 mb-2">
+        Medicare insurance agents in Franklin, New Jersey aren't all the same.
+        Some work for one carrier and can only show you that company's plans.
+        Others, like independent brokers, compare plans across multiple insurers
+        so you actually see your options.
       </p>
-      <p className="text-lg mb-6">
+      <p className="text-lg text-gray-700 mb-6">
         I'm Anthony Orner, a licensed independent Medicare broker serving
-        Franklin and surrounding Somerset County communities. My job is to
-        compare your options across carriers so you don't have to.
+        Franklin Township and Somerset County. My job is to lay out your choices
+        clearly and let you decide. No cost to you, ever.
       </p>
 
       <PhoneCTA />
 
-      <section className="mt-10 mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
           Why Franklin Township residents benefit from an independent broker
         </h2>
-        <p className="mb-2">
-          A captive agent works for one insurance company. An independent broker
-          works for you. I'm contracted with multiple carriers, so I can pull
-          quotes side by side and show you real price differences.
+        <p className="text-gray-700 mb-2">
+          Franklin Township sits in Somerset County with access to RWJBarnabas
+          Health facilities, Robert Wood Johnson University Hospital, and
+          providers across central New Jersey. Your plan needs to match the
+          doctors and hospitals you actually use.
         </p>
-        <p>
-          You pay the same premium whether you enroll directly or through me.
-          The carrier pays my commission - not you. That means zero cost for
-          professional guidance.
+        <p className="text-gray-700">
+          A captive agent sells one company. I compare plans from multiple
+          carriers and show you exactly which ones cover your providers. That
+          difference matters when a hospital system drops a carrier mid-year, as
+          some NJ residents have learned the hard way with network disruptions.
         </p>
       </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
           Carriers and plan types available in Somerset County
         </h2>
-        <p className="mb-2">
-          Somerset County residents can choose from both Medicare Supplement
-          (Medigap) and Medicare Advantage plans. Here's what I typically
-          compare:
+        <p className="text-gray-700 mb-3">
+          Franklin Township residents can typically choose from:
         </p>
-        <ul className="list-disc pl-6 space-y-1 mb-2">
+        <ul className="list-disc pl-6 text-gray-700 space-y-1 mb-3">
           <li>
-            <strong>Medigap Plan G</strong> - covers the Part A deductible
-            ($1,676 in 2026), skilled nursing coinsurance, and Part B excess
-            charges
+            <strong>Medigap (Medicare Supplement)</strong> — Plans like G and N
+            that cover gaps in Original Medicare. Rates vary by carrier.
           </li>
           <li>
-            <strong>Medigap Plan N</strong> - lower premium than Plan G, but you
-            pay small copays at office visits and the Part B deductible ($257)
+            <strong>Medicare Advantage (Part C)</strong> — HMO and PPO plans
+            that bundle hospital, medical, and often drug coverage. Some include
+            dental and vision.
           </li>
           <li>
-            <strong>Medicare Advantage (Part C)</strong> - often $0 premium plans
-            with built-in drug coverage and extras like dental and vision
-          </li>
-          <li>
-            <strong>Part D prescription drug plans</strong> - standalone coverage
-            if you go the Medigap route
+            <strong>Part D prescription drug plans</strong> — Standalone drug
+            coverage paired with Original Medicare and a Supplement.
           </li>
         </ul>
-        <p>Rates vary by carrier, age, and tobacco status. I'll show you actual numbers.</p>
+        <p className="text-gray-700">
+          Multiple carriers serve Somerset County. I'll show you which ones
+          include your pharmacy and prescriptions.
+        </p>
       </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
           Common Medicare mistakes Franklin residents make at 65
         </h2>
-        <ul className="list-disc pl-6 space-y-2">
+        <ul className="list-disc pl-6 text-gray-700 space-y-2">
           <li>
-            <strong>Missing Medigap Open Enrollment.</strong> You get 6 months
-            of guaranteed issue starting the month you turn 65 and have Part B.
-            During this window, no health questions and no higher premiums. Miss
-            it and carriers can deny you or charge more.
+            <strong>Missing Medigap open enrollment.</strong> You get 6 months
+            starting when you turn 65 and enroll in Part B to buy a Supplement
+            with no health questions. Miss it and you may face underwriting or
+            denial.
           </li>
           <li>
-            <strong>Waiting too long to apply.</strong> I have my clients apply
-            up to 6 months before their Part B start date to lock in rates
-            early. The sooner you lock in, the better your rate.
+            <strong>Skipping Part B when still on employer coverage.</strong>{" "}
+            This can work, but you need to time your enrollment carefully to
+            avoid the 10% late penalty for each 12-month period you delay.
           </li>
           <li>
-            <strong>Skipping Part B enrollment.</strong> If you delay Part B
-            without qualifying employer coverage, you face a 10% penalty for
-            every 12 months you waited. That penalty lasts for life.
+            <strong>Choosing Advantage plans based on $0 premiums alone.</strong>{" "}
+            That $0 premium looks great until a hospital stay costs you
+            thousands in copays. The Part A deductible alone is $1,676 per
+            benefit period in 2026.
+          </li>
+          <li>
+            <strong>Not checking provider networks yearly.</strong> Carrier
+            contracts with hospitals change. A plan that covered your doctors
+            this year might not next year.
           </li>
         </ul>
       </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          How the quoting process works
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          What a free side-by-side comparison looks like
         </h2>
-        <p className="mb-2">
-          Call me or fill out the form. I'll ask about your doctors, medications,
-          and budget. Then I pull quotes from every carrier available in Somerset
-          County and lay them next to each other.
+        <p className="text-gray-700 mb-2">
+          I pull your doctors, prescriptions, and pharmacy into a comparison
+          that shows actual costs across plans. Not estimates. Not projections.
+          Your real numbers.
         </p>
-        <p>
-          The whole process takes about 15 minutes. No pressure, no obligation.
-          If you want to enroll, I handle the paperwork.
+        <p className="text-gray-700">
+          You'll see monthly premiums, expected out-of-pocket costs, and whether
+          your specific medications are covered under each option. Takes about 15
+          minutes by phone.
         </p>
       </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Medicare Advantage open enrollment dates
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          Key 2026 Medicare costs Franklin residents should know
         </h2>
-        <p className="mb-2">
-          The Annual Enrollment Period for Medicare Advantage and Part D runs
-          October 15 through December 7 each year. During this window you can
-          switch Advantage plans, drop Advantage and return to Original Medicare,
-          or change your Part D plan.
+        <ul className="list-disc pl-6 text-gray-700 space-y-1">
+          <li>Part B premium: $202.90/month</li>
+          <li>Part B deductible: $283/year</li>
+          <li>Part A deductible: $1,676 per benefit period</li>
+          <li>
+            SNF coinsurance (days 21-100): $209.50/day with no Supplement
+          </li>
+          <li>
+            Medicare Advantage/Part D open enrollment: October 15 through
+            December 7
+          </li>
+        </ul>
+      </section>
+
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          How to get started from Franklin Township
+        </h2>
+        <p className="text-gray-700 mb-2">
+          Call me or request a quote online. I'll ask a few questions about your
+          current coverage, medications, and doctors. Then I'll build your
+          comparison and walk through it with you.
         </p>
-        <p>
-          If you're turning 65, you have a separate Initial Enrollment Period.
-          Timing matters - call to confirm your specific dates.
+        <p className="text-gray-700">
+          No pressure. No sales pitch. If your current plan is the best fit,
+          I'll tell you that too.
         </p>
       </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Request a free side-by-side plan comparison
-        </h2>
-        <p>
-          I serve Franklin Township, Somerset County, and all of New Jersey. Whether you're turning 65 next month or reconsidering your current plan, a quick comparison call can save you hundreds per year. No sign-up required - just a conversation.
-        </p>
-      </section>
-
-      <div className="bg-blue-600 text-white rounded-lg p-8 text-center mb-10">
-        <p className="text-xl font-bold mb-2">
-          Talk to a Licensed Medicare Broker Today
-        </p>
+      <div className="mt-12 bg-blue-600 text-white rounded-lg p-8 text-center">
+        <p className="text-2xl font-bold mb-2">Talk to a local Medicare broker today.</p>
         <p className="text-lg mb-4">
           Call{" "}
           <a href="tel:8555591700" className="underline font-semibold">
@@ -255,50 +266,51 @@ export default function MedicareInsuranceAgentsFranklinNJ() {
           </a>{" "}
           or{" "}
           <Link href="/contact" className="underline font-semibold">
-            Get a Free Quote
+            get a free quote online
           </Link>
-        </p>
-        <p className="text-sm opacity-90">
-          No fees. No obligation. Just honest Medicare advice for Franklin, NJ
-          residents.
+          .
         </p>
       </div>
 
-      <FAQSection faqs={faqs} />
+      <section className="mt-12">
+        <FAQSection faqs={faqs} />
+      </section>
 
-      <section className="mt-10">
-        <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
+      <section className="mt-12">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-4">
+          Related resources
+        </h2>
         <ul className="space-y-2">
           <li>
             <Link
-              href="/medicare-guides/medicare-supplement-plan-g-nj"
+              href="/medicare-guides/medigap-plan-g-vs-plan-n"
               className="text-blue-600 hover:underline"
             >
-              Medicare Supplement Plan G in New Jersey
+              Medigap Plan G vs. Plan N: Which One Saves You More?
             </Link>
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-advantage-plans-nj"
+              href="/medicare-guides/medicare-advantage-vs-medigap"
               className="text-blue-600 hover:underline"
             >
-              Medicare Advantage Plans in NJ
+              Medicare Advantage vs. Medigap: A Real Comparison
             </Link>
           </li>
           <li>
             <Link
-              href="/medicare-guides/when-to-enroll-in-medicare"
+              href="/services/medicare-insurance-agents-in-new-jersey"
               className="text-blue-600 hover:underline"
             >
-              When to Enroll in Medicare
+              Medicare Insurance Agents Across New Jersey
             </Link>
           </li>
           <li>
             <Link
-              href="/medicare-guides/medigap-open-enrollment-nj"
+              href="/medicare-guides/medicare-enrollment-periods"
               className="text-blue-600 hover:underline"
             >
-              Medigap Open Enrollment in New Jersey
+              Medicare Enrollment Periods: When You Can (and Can't) Change Plans
             </Link>
           </li>
         </ul>

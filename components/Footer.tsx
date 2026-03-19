@@ -15,7 +15,7 @@ export default function Footer() {
               find the right Medicare Supplement and Advantage plans.
             </p>
             <p className="text-xs text-[#3A5048] mt-2">
-              1309 Route 79 West, Cherry Hill, NJ 08002
+              1309 Route 70 West, Cherry Hill, NJ 08002
             </p>
             <a
               href="tel:8555591700"

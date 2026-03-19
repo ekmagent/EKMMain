@@ -9,12 +9,12 @@ export const metadata: Metadata = {
   title:
     "medicare insurance agents in egg harbor township new jersey | Free Quotes | MedicareYourself",
   description:
-    "Medicare insurance agents in Egg Harbor Township, New Jersey compare every top carrier. Anthony Orner offers free, unbiased broker help. Get your quote today.",
+    "Medicare insurance agents in Egg Harbor Township, NJ who compare every top carrier. Anthony Orner offers free, unbiased broker help. Get your quote now.",
   openGraph: {
     title:
       "medicare insurance agents in egg harbor township new jersey | Free Quotes | MedicareYourself",
     description:
-      "Medicare insurance agents in Egg Harbor Township, New Jersey compare every top carrier. Anthony Orner offers free, unbiased broker help. Get your quote today.",
+      "Medicare insurance agents in Egg Harbor Township, NJ who compare every top carrier. Anthony Orner offers free, unbiased broker help. Get your quote now.",
   },
 };
 
@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Medicare Insurance Agents in Egg Harbor Township, New Jersey",
-      item: "https://www.medicareyourself.com/services/medicare-insurance-agents-in-egg-harbor-township-new-jersey",
+      item: "https://medicareyourself.com/services/medicare-insurance-agents-in-egg-harbor-township-new-jersey",
     },
   ],
 };
@@ -51,48 +51,48 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-15",
-  dateModified: "2025-07-15",
+  datePublished: "2025-07-12",
+  dateModified: "2025-07-12",
 };
 
 const faqs = [
   {
     question: "What is the best Medicare plan in New Jersey?",
     answer:
-      "There is no single best Medicare plan for everyone in New Jersey. The right choice depends on your doctors, prescriptions, and budget. An independent broker compares Medigap plans like Plan G and Plan N alongside Medicare Advantage options so you can see which one actually costs less for your situation.",
+      "There's no single best plan for everyone. Plan G offers the most predictable costs with Medigap, while some Medicare Advantage plans work well if your doctors are in-network. An independent broker compares your options across carriers so you pick the plan that fits your budget and health needs.",
   },
   {
     question: "Do I need an insurance agent to get Medicare?",
     answer:
-      "No, you can enroll in Original Medicare directly through Social Security. However, a licensed Medicare broker helps you pick supplemental coverage - Medigap or Medicare Advantage - and compares carriers at no extra cost to you. The carriers pay the broker, not you.",
+      "You don't need one, but working with an independent broker costs you nothing extra. Brokers compare rates from multiple carriers instead of selling one company's products. The carriers pay the broker, not you.",
   },
   {
     question: "How do I choose a Medicare insurance agent?",
     answer:
-      "Look for an independent broker, not a captive agent who sells only one company's plans. Ask if they are licensed in your state, how many carriers they represent, and whether they provide a written side-by-side rate comparison. If they push one plan without showing alternatives, find someone else.",
+      "Look for a licensed, independent broker rather than a captive agent tied to one company. Ask how many carriers they represent, whether they handle claims issues, and if they review your plan annually. Independence means unbiased advice.",
   },
   {
     question:
-      "When is the best time to enroll in a Medigap plan in Egg Harbor Township?",
+      "When should I contact a broker before my Medicare start date?",
     answer:
-      "Your Medigap Open Enrollment Period starts the month you turn 65 and are enrolled in Part B. During this 6-month window, carriers must accept you at standard rates with no health questions. Anthony's practice is to have clients apply up to 6 months before their Part B start date to lock in the best rate early.",
+      "Reach out about six months before your Part B effective date. This gives you time to compare Medigap and Advantage options, lock in your Medigap Open Enrollment rights, and avoid gaps in coverage.",
   },
 ];
 
-export default function MedicareAgentsEggHarborTownship() {
+export default function MedicareInsuranceAgentsEggHarborTownshipNJ() {
   return (
-    <main className="max-w-4xl mx-auto px-4 py-8">
+    <>
       <SchemaMarkup schema={breadcrumbSchema} />
       <SchemaMarkup schema={articleSchema} />
 
-      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
+      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-4">
         <Link href="/" className="hover:underline">
           Home
         </Link>{" "}
@@ -101,207 +101,166 @@ export default function MedicareAgentsEggHarborTownship() {
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
-        <span className="text-gray-700">
+        <span>
           Medicare Insurance Agents in Egg Harbor Township, New Jersey
         </span>
       </nav>
 
       <h1 className="text-3xl font-bold mb-4">
-        Medicare Insurance Agents in Egg Harbor Township, New Jersey -
+        Medicare Insurance Agents in Egg Harbor Township, New Jersey —
         Independent Broker Comparisons
       </h1>
 
       <Image
-        src="/images/medicare-insurance-agents-in-egg-harbor-township-new-jersey.webp"
+        src="/images/hub_medicare-insurance-agents-in-egg-harbor-township-new-jersey.webp"
         alt="Medicare insurance agents in Egg Harbor Township New Jersey"
         width={800}
         height={400}
-        className="rounded-lg mb-6 w-full"
+        className="w-full h-auto rounded-lg mb-6"
+        priority
       />
 
       <p className="text-lg mb-2">
-        Medicare insurance agents in Egg Harbor Township, New Jersey can make the
-        difference between overpaying hundreds a year and finding the right plan
-        at the right price. I'm Anthony Orner, a licensed independent Medicare
-        broker who works with residents across Atlantic County. My job is to
-        compare carriers side by side so you don't have to call each one
-        yourself.
+        Medicare insurance agents in Egg Harbor Township, New Jersey fall into two camps: captive agents locked to one carrier and independent brokers who shop the whole market for you. That difference determines whether you see one quote or a dozen.
       </p>
       <p className="text-lg mb-6">
-        There's no fee for my help. Carriers pay me, not you.
+        I'm Anthony Orner, a licensed independent Medicare broker serving Atlantic County. My help is free, and I represent you, not one insurance company.
       </p>
 
       <PhoneCTA />
 
-      <section className="mt-10 mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
           How an independent broker shops Atlantic County carriers for you
         </h2>
-        <p className="mb-3">
-          A captive agent represents one insurance company. I represent you. As
-          an independent broker, I have contracts with every major Medigap and
-          Medicare Advantage carrier selling plans in the 08234 area.
+        <p className="mb-2">
+          A captive agent at a single company can only show you that company's plans. An independent broker pulls rates from every major carrier writing policies in the 08234 zip code and stacks them side by side.
         </p>
         <p>
-          That means I pull real quotes from multiple companies and put them in a
-          single spreadsheet you can read in two minutes. Same benefits, different
-          prices. You pick the one that fits your budget.
+          Same plan letter, same benefits, different premiums. The savings between the highest and lowest carrier for the same Medigap plan can be hundreds of dollars a year. You'd never know without seeing the comparison.
         </p>
       </section>
 
-      <section className="mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
           Plan G, Plan N, and Advantage options in Egg Harbor Township
         </h2>
-        <ul className="list-disc ml-6 space-y-2">
+        <ul className="list-disc pl-6 space-y-2">
           <li>
-            <strong>Plan G</strong> covers everything Original Medicare doesn't
-            except the annual Part B deductible ($257 in 2026). It's the most
-            popular Medigap plan in New Jersey.
+            <strong>Plan G:</strong> Covers everything except the Part B deductible ($283/year in 2026). Most predictable out-of-pocket costs.
           </li>
           <li>
-            <strong>Plan N</strong> has lower premiums but adds small copays -
-            up to $20 at the doctor and up to $50 at the ER if you aren't
-            admitted.
+            <strong>Plan N:</strong> Lower premiums than G, but you pay up to $20 copays for some office visits and the Part B deductible.
           </li>
           <li>
-            <strong>Medicare Advantage (Part C)</strong> bundles hospital,
-            medical, and often drug coverage into one plan. Some include dental
-            and vision. Network restrictions apply.
+            <strong>Medicare Advantage:</strong> Bundles Part A, B, and often Part D. Network-based. Works well if your Atlantic County doctors participate. Watch out for carrier-hospital contract changes that can disrupt care mid-year.
           </li>
         </ul>
-        <p className="mt-3">
-          Which is cheaper over a full year? That depends on how often you see
-          doctors. I run the numbers for both paths.
-        </p>
       </section>
 
-      <section className="mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
           New Jersey guaranteed-issue rights that protect your switch
         </h2>
-        <p className="mb-3">
-          Your Medigap Open Enrollment Period lasts 6 months, starting the month
-          you turn 65 and have Part B. During this window, no carrier can deny
-          you or charge more because of health conditions. Miss it and you may
-          face medical underwriting.
+        <p className="mb-2">
+          Federal law gives you a 6-month Medigap Open Enrollment Period starting the month you turn 65 and have Part B. During this window, no carrier in New Jersey can deny you or charge more for health reasons.
         </p>
         <p>
-          Federal guaranteed-issue rights also kick in if you lose employer
-          coverage, your Medicare Advantage plan leaves your area, or your
-          carrier goes bankrupt. I help clients time these windows correctly so
-          they don't lose protections.
+          Outside that window, federal guaranteed-issue triggers still apply: losing employer coverage, leaving a Medicare Advantage plan during certain periods, or a carrier leaving your area. Rules vary by situation, so call to confirm your rights before making a move.
         </p>
       </section>
 
-      <section className="mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
-          Why locking in your rate early matters
+          Why local hospital networks matter for your plan choice
         </h2>
-        <p className="mb-3">
-          My standard practice is to have clients apply for their Medigap plan
-          up to 6 months before their Part B start date. This locks in today's
-          rate. Premiums can increase between the time you apply and your
-          coverage begins - applying early protects you from that gap.
+        <p className="mb-2">
+          Atlantic County residents rely heavily on regional health systems for urgent care, specialists, and hospital stays. If you're on a Medicare Advantage plan, a contract dispute between your carrier and your hospital system could force you to switch providers or pay out-of-network rates.
         </p>
         <p>
-          The sooner you lock in, the better your rate. Don't wait until the
-          last month of your open enrollment.
+          Medigap plans avoid that problem entirely. Any doctor who accepts Original Medicare accepts your Medigap plan, no network restrictions.
         </p>
       </section>
 
-      <section className="mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
-          What working with me actually looks like
+          What a free side-by-side rate comparison looks like
         </h2>
-        <ul className="list-disc ml-6 space-y-2">
-          <li>You call or fill out a form. Takes about 5 minutes.</li>
-          <li>
-            I pull quotes from every carrier in Atlantic County and build your
-            comparison sheet.
-          </li>
-          <li>
-            We review it together by phone or video. I answer every question.
-          </li>
-          <li>
-            You choose a plan. I handle the application. No charge to you, ever.
-          </li>
-        </ul>
+        <p className="mb-2">
+          I pull current rates from every carrier offering Medigap or Advantage plans in Egg Harbor Township. You get a one-page comparison showing monthly premiums, out-of-pocket maximums, and doctor access for each option.
+        </p>
+        <p>
+          No signup required. No obligation. Just clear numbers so you can decide with confidence.
+        </p>
       </section>
 
-      <section className="mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
-          Request a free side-by-side rate comparison
+          Request your free comparison today
         </h2>
         <p>
-          Whether you're turning 65, retiring from AtlantiCare or another local
-          employer, or just want to see if a better rate exists, I'll build your
-          comparison in 24 hours. Call me at{" "}
-          <a href="tel:8555591700" className="text-blue-600 font-semibold">
+          Whether you're turning 65, retiring from a job with group coverage, or frustrated with your current plan's network, one call gets you a full market comparison. I handle the paperwork and follow up after enrollment to make sure everything processes correctly.
+        </p>
+      </section>
+
+      <div className="mt-10 bg-blue-600 text-white rounded-lg p-8 text-center">
+        <p className="text-xl font-semibold mb-2">
+          Talk to a local, independent Medicare broker at no cost.
+        </p>
+        <p className="text-2xl font-bold mb-4">
+          <a href="tel:8555591700" className="underline">
             855-559-1700
-          </a>{" "}
-          or request your quote below.
-        </p>
-      </section>
-
-      <div className="bg-blue-600 text-white rounded-lg p-6 text-center mb-10">
-        <p className="text-xl font-bold mb-2">
-          Get Your Free Medicare Quote Today
-        </p>
-        <p className="mb-4">
-          Call{" "}
-          <a href="tel:8555591700" className="underline font-semibold">
-            855-559-1700
-          </a>{" "}
-          or click below to request your personalized rate comparison.
+          </a>
         </p>
         <Link
           href="/contact"
-          className="inline-block bg-white text-blue-600 font-bold py-3 px-6 rounded-lg hover:bg-gray-100 transition"
+          className="inline-block bg-white text-blue-600 font-semibold px-6 py-3 rounded-lg hover:bg-gray-100 transition"
         >
           Get a Free Quote
         </Link>
       </div>
 
-      <FAQSection faqs={faqs} />
+      <section className="mt-12">
+        <FAQSection faqs={faqs} />
+      </section>
 
-      <section className="mt-10">
+      <section className="mt-12">
         <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
         <ul className="space-y-2">
           <li>
             <Link
-              href="/medicare-guides/medicare-plan-g-new-jersey"
+              href="/services/medicare-insurance-agents-in-atlantic-county-nj"
               className="text-blue-600 hover:underline"
             >
-              Medicare Plan G in New Jersey - Full Breakdown
+              Medicare Insurance Agents in Atlantic County, NJ
             </Link>
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-plan-n-vs-plan-g"
+              href="/guides/medigap-plan-g-vs-plan-n"
               className="text-blue-600 hover:underline"
             >
-              Medicare Plan N vs. Plan G - Which Saves More?
+              Medigap Plan G vs. Plan N: Which Saves You More?
             </Link>
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-advantage-plans-new-jersey"
+              href="/guides/new-jersey-medigap-enrollment-rules"
               className="text-blue-600 hover:underline"
             >
-              Medicare Advantage Plans in New Jersey
+              New Jersey Medigap Enrollment Rules Explained
             </Link>
           </li>
           <li>
             <Link
-              href="/medicare-guides/medigap-open-enrollment-period"
+              href="/guides/medicare-advantage-vs-medigap"
               className="text-blue-600 hover:underline"
             >
-              Medigap Open Enrollment Period - What You Need to Know
+              Medicare Advantage vs. Medigap: How to Decide
             </Link>
           </li>
         </ul>
       </section>
-    </main>
+    </>
   );
 }

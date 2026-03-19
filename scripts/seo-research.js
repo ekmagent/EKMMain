@@ -358,7 +358,7 @@ Respond ONLY with a valid JSON object with these exact keys:
 
 Rules:
 - Keep all 2026 figures accurate (Part B premium $185/mo, Part B deductible $257, Part A deductible $1,676)
-- NJ has year-round guaranteed issue for Medigap — mention where relevant
+- NJ uses community rating for Medigap (premiums not based on age). Do NOT claim NJ has year-round guaranteed issue
 - Do not invent statistics. Do not mention competitor brand names.
 - The phone number is 855-559-1700. Do not include it in title/description/h1.
 - Respond with JSON only — no markdown, no prose before or after.`;

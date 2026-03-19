@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
-      name: "Local Medicare Agents in Union NJ",
-      item: "https://www.medicareyourself.com/services/local-medicare-agents-in-union-nj",
+      name: "Local Medicare Agents in Union, NJ",
+      item: "https://medicareyourself.com/services/local-medicare-agents-in-union-nj",
     },
   ],
 };
@@ -51,37 +51,37 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  mainEntityOfPage:
-    "https://www.medicareyourself.com/services/local-medicare-agents-in-union-nj",
+  datePublished: "2025-01-01",
+  dateModified: new Date().toISOString().split("T")[0],
 };
 
 const faqs = [
   {
-    question: "How much do Medicare agents charge?",
-    answer:
-      "Medicare agents are paid by the insurance carriers, not by you. There is zero cost for working with an independent broker like Anthony Orner. The plans cost the same whether you enroll directly or through a broker.",
-  },
-  {
     question: "What is the best Medicare plan in New Jersey?",
     answer:
-      "There is no single best plan for everyone. It depends on your doctors, prescriptions, and budget. Medigap Plan G offers the most comprehensive supplement coverage, while some Medicare Advantage plans work well for people who want lower premiums and bundled benefits. A free comparison is the best way to find your match.",
+      "There's no single best plan for everyone. The right choice depends on your doctors, prescriptions, and how often you use healthcare. An independent broker compares options across multiple carriers to find the best fit for your specific situation in Union County.",
   },
   {
-    question: "How to find a good Medicare agent?",
+    question: "How do I pick a Medicare agent?",
     answer:
-      "Look for an independent broker who is licensed in your state and works with multiple carriers rather than one company. Ask how many plans they compare. An agent who only represents one insurer cannot show you the full picture.",
+      "Look for a licensed, independent broker rather than a captive agent who represents only one carrier. Independent brokers compare plans from multiple insurance companies at no extra cost to you. Ask if they're familiar with the hospitals and provider networks in your area.",
   },
   {
-    question: "Can I switch Medicare plans if I already have coverage?",
+    question: "How do I speak to a live person at Medicare?",
     answer:
-      "Yes. During Medicare Advantage Open Enrollment (October 15 through December 7), you can switch Advantage or Part D plans. Medigap plan changes may require medical underwriting outside your initial open enrollment period, though certain guaranteed issue situations allow switching without health questions.",
+      "You can call 1-800-MEDICARE (1-800-633-4227) 24/7. But if you want personalized help comparing plans and enrolling, a local independent broker like Anthony Orner at 855-559-1700 can walk you through your options one-on-one.",
+  },
+  {
+    question: "Does it cost extra to use a Medicare broker in Union, NJ?",
+    answer:
+      "No. Independent Medicare brokers are paid by the insurance carriers, not by you. You pay the same premium whether you enroll directly or through a broker, but you get free plan comparison and ongoing support.",
   },
 ];
 
@@ -91,190 +91,228 @@ export default function LocalMedicareAgentsUnionNJ() {
       <SchemaMarkup schema={breadcrumbSchema} />
       <SchemaMarkup schema={articleSchema} />
 
-      <main className="max-w-4xl mx-auto px-4 py-8">
-        <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
-          <Link href="/" className="hover:underline">
-            Home
-          </Link>{" "}
-          &gt;{" "}
-          <Link href="/medicare-guides" className="hover:underline">
-            Medicare Guides
-          </Link>{" "}
-          &gt;{" "}
-          <span className="text-gray-700">
-            Local Medicare Agents in Union NJ
-          </span>
-        </nav>
+      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-4">
+        <Link href="/" className="hover:underline">
+          Home
+        </Link>{" "}
+        &gt;{" "}
+        <Link href="/medicare-guides" className="hover:underline">
+          Medicare Guides
+        </Link>{" "}
+        &gt;{" "}
+        <span className="text-gray-700">
+          Local Medicare Agents in Union, NJ
+        </span>
+      </nav>
 
-        <h1 className="text-3xl font-bold mb-4">
-          Local Medicare Agents in Union, NJ — Independent Broker Serving Union County
+      <article className="max-w-3xl mx-auto px-4 py-8">
+        <h1 className="text-3xl md:text-4xl font-bold mb-6">
+          Local Medicare Agents in Union, NJ — Independent Broker Serving Union
+          County
         </h1>
 
         <Image
-          src="/images/local-medicare-agents-in-union-nj.webp"
+          src="/images/hub_local-medicare-agents-in-union-nj.webp"
           alt="local medicare agents in union nj"
           width={800}
           height={400}
-          className="rounded-lg mb-6 w-full"
+          className="rounded-lg mb-6 w-full h-auto"
+          priority
         />
 
         <p className="text-lg mb-2">
-          Local Medicare agents in Union, NJ give you something online enrollment tools cannot: a real person who knows Union County carriers, doctors, and hospital networks. I'm Anthony Orner, an independent Medicare broker licensed in New Jersey, and I compare plans from 18 or more carriers so you see every option side by side.
+          Local Medicare agents in Union, NJ can save you hours of confusing
+          research and help you avoid costly enrollment mistakes. I'm Anthony
+          Orner, an independent Medicare broker licensed in New Jersey, and I
+          work with residents across Union County to compare plans from multiple
+          carriers side by side.
         </p>
         <p className="text-lg mb-6">
-          My service costs you nothing. Carriers pay me the same commission whether you pick Plan G or a $0-premium Advantage plan. Your rate stays identical to what you'd pay enrolling on your own.
+          My service is free. You pay the same premium whether you call me or go
+          directly to the carrier.
         </p>
 
         <PhoneCTA />
 
-        <section className="mt-10">
+        <section className="mt-10 mb-8">
           <h2 className="text-2xl font-semibold mb-3">
             Why Union County residents choose an independent broker
           </h2>
           <p className="mb-2">
-            A captive agent represents one insurance company. I represent you. When you sit down with me, I pull quotes from 8+ top Medigap carriers and 7 or more Advantage plans available in the 07083 zip code.
+            A captive agent sells plans from one company. I compare plans across
+            eight or more carriers. That distinction matters when your doctor is
+            at Overlook Medical Center in Summit and your specialist is at
+            Robert Wood Johnson in New Brunswick.
           </p>
           <p>
-            That comparison takes about 15 minutes. You walk away knowing exactly what each plan covers and what it costs. No pressure, no enrollment deadline tricks.
+            I check which networks include your providers, which formularies
+            cover your drugs, and which plan actually costs less over a full
+            year. Not just the premium. The whole picture.
           </p>
         </section>
 
-        <section className="mt-10">
+        <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-3">
             Medigap and Advantage plans available in Union, NJ
           </h2>
           <p className="mb-2">
-            Union County has strong carrier competition, which works in your favor. On the Medigap side, Plan G is the most popular supplement - it covers everything Original Medicare doesn't except the Part B deductible ($257/year in 2026).
+            Union Township sits in a competitive Medicare market. You have access
+            to multiple Medicare Advantage (Part C) plans with $0 premiums and
+            built-in drug coverage, plus several Medigap options like Plan G and
+            Plan N from carriers that serve Union County.
           </p>
-          <ul className="list-disc pl-6 mb-2 space-y-1">
-            <li>Plan G - lowest out-of-pocket after premiums for most people</li>
-            <li>Plan N - lower premiums with small copays at office visits</li>
-            <li>Medicare Advantage (Part C) - often $0 premium with dental, vision, and hearing bundled in</li>
-            <li>Part D prescription drug plans - standalone or bundled with Advantage</li>
+          <ul className="list-disc pl-6 space-y-1">
+            <li>
+              <strong>Medicare Advantage:</strong> Lower monthly costs, but you
+              use a network. Prior authorizations apply for some services.
+            </li>
+            <li>
+              <strong>Medigap (Supplement):</strong> Higher premium, but you see
+              any doctor who accepts Medicare. No network restrictions, no prior
+              auth.
+            </li>
           </ul>
-          <p>
-            Rates vary by carrier, age, and tobacco status. I'll show you actual numbers, not ranges.
+          <p className="mt-2">
+            Rates vary by carrier, age, and tobacco status. I'll run the numbers
+            for you.
           </p>
         </section>
 
-        <section className="mt-10">
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-3">
+            Hospitals and providers near Union Township
+          </h2>
+          <p className="mb-2">
+            Union County residents commonly use Trinitas Regional Medical Center
+            in Elizabeth, Overlook Medical Center in Summit, and RWJBarnabas
+            facilities across the region. Not every Medicare Advantage plan
+            includes all of these in-network.
+          </p>
+          <p>
+            Before you enroll, I verify that your doctors and hospitals are
+            covered. Switching plans later because a provider dropped out of
+            network is a headache you don't need.
+          </p>
+        </section>
+
+        <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-3">
             How to switch plans without a gap in coverage
           </h2>
           <p className="mb-2">
-            Timing matters. Medicare Advantage and Part D plans can be changed during Open Enrollment, October 15 through December 7, with new coverage starting January 1. No gap.
+            During the Annual Enrollment Period (October 15 through December 7),
+            you can switch Medicare Advantage or Part D plans for the following
+            year. Your old plan stays active through December 31, and the new one
+            starts January 1. No gap.
           </p>
           <p>
-            Medigap switches work differently. If you're outside your initial 6-month Medigap Open Enrollment Period, most carriers require health underwriting. Certain guaranteed issue situations - like losing employer coverage or moving out of a plan's service area - let you switch without medical questions. Call me and I'll tell you exactly which rules apply to your situation.
+            If you're turning 65, your Medigap Open Enrollment Period lasts six
+            months starting the month you turn 65 and are enrolled in Part B.
+            During that window, carriers can't deny you or charge more for health
+            conditions. Miss it, and you may face medical underwriting.
           </p>
         </section>
 
-        <section className="mt-10">
+        <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-3">
-            Lock in your Medigap rate before Part B starts
+            What people get wrong about Medicare Advantage
           </h2>
           <p className="mb-2">
-            Turning 75 this year? Already 65 and just signing up for Part B? Here's what I do for every client: I submit your Medigap application up to 6 months before your Part B start date.
+            The $0 premium sounds great. And for some people, it genuinely is
+            the right call. But some hospitals have started dropping Medicare
+            Advantage contracts over payment disputes. If your hospital leaves
+            the network mid-year, your options narrow fast.
           </p>
           <p>
-            This locks in today's rate and protects you from premium increases that could hit before your coverage begins. The sooner you apply, the better your rate. Waiting costs real money.
+            I'll tell you straight whether Advantage or a Supplement makes more
+            sense for how you use healthcare. No agenda. I'm paid the same
+            either way.
           </p>
         </section>
 
-        <section className="mt-10">
-          <h2 className="text-2xl font-semibold mb-3">
-            What to bring to your consultation
-          </h2>
-          <ul className="list-disc pl-6 space-y-1">
-            <li>Your red, white, and blue Medicare card (or your Medicare number)</li>
-            <li>A list of current medications and dosages</li>
-            <li>Names of your doctors and preferred hospital</li>
-            <li>Any current insurance cards (employer, retiree, VA)</li>
-          </ul>
-          <p className="mt-2">
-            That's it. I handle the rest, including verifying your doctors are in-network and checking drug formularies.
-          </p>
-        </section>
-
-        <section className="mt-10">
+        <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-3">
             Book a free Medicare consultation in Union County
           </h2>
           <p className="mb-2">
-            I meet clients by phone, video, or in person across Union County. Most consultations take 20 to 30 minutes. You'll leave with a clear recommendation and zero obligation to enroll.
+            Call me at{" "}
+            <a
+              href="tel:8555591700"
+              className="text-blue-600 font-semibold hover:underline"
+            >
+              855-559-1700
+            </a>{" "}
+            or request a callback online. I'll review your current coverage,
+            compare plans across carriers, and give you a clear recommendation.
           </p>
           <p>
-            Call today and get your free plan comparison before rates change.
+            No obligation. No sales pitch. Just the facts about what's available
+            in Union, NJ, and what actually fits your situation.
           </p>
         </section>
 
-        <div className="mt-10 bg-blue-50 border border-blue-200 rounded-lg p-6 text-center">
-          <p className="text-xl font-semibold mb-2">
-            Ready to compare Medicare plans in Union, NJ?
+        <div className="bg-blue-600 text-white rounded-lg p-6 text-center my-10">
+          <p className="text-xl font-bold mb-2">
+            Compare Medicare Plans in Union County — Free
           </p>
-          <p className="text-lg mb-4">
+          <p className="mb-4">
             Call{" "}
             <a
               href="tel:8555591700"
-              className="text-blue-700 font-bold hover:underline"
+              className="underline font-semibold text-white"
             >
               855-559-1700
             </a>{" "}
             or{" "}
             <Link
               href="/contact"
-              className="text-blue-700 font-bold hover:underline"
+              className="underline font-semibold text-white"
             >
               Get a Free Quote
             </Link>
           </p>
-          <p className="text-sm text-gray-600">
-            No cost. No obligation. Independent advice from a licensed NJ broker.
-          </p>
         </div>
 
-        <section className="mt-12">
-          <FAQSection faqs={faqs} />
-        </section>
+        <FAQSection faqs={faqs} />
 
-        <section className="mt-12">
+        <section className="mt-10">
           <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
           <ul className="space-y-2">
             <li>
               <Link
-                href="/services/medicare-broker-near-me-nj"
-                className="text-blue-700 hover:underline"
+                href="/medicare-guides/medigap-vs-medicare-advantage"
+                className="text-blue-600 hover:underline"
               >
-                Medicare Broker Near Me in NJ
+                Medigap vs. Medicare Advantage: Which Is Right for You?
               </Link>
             </li>
             <li>
               <Link
-                href="/medicare-guides/medicare-plan-g-nj"
-                className="text-blue-700 hover:underline"
+                href="/medicare-guides/medicare-enrollment-periods"
+                className="text-blue-600 hover:underline"
               >
-                Medicare Plan G in New Jersey - What It Covers
+                Medicare Enrollment Periods Explained
               </Link>
             </li>
             <li>
               <Link
-                href="/medicare-guides/medicare-advantage-vs-medigap"
-                className="text-blue-700 hover:underline"
+                href="/services/medicare-broker-new-jersey"
+                className="text-blue-600 hover:underline"
               >
-                Medicare Advantage vs. Medigap - Which Is Right for You?
+                Medicare Broker Services in New Jersey
               </Link>
             </li>
             <li>
               <Link
-                href="/medicare-guides/medigap-open-enrollment-nj"
-                className="text-blue-700 hover:underline"
+                href="/medicare-guides/plan-g-new-jersey"
+                className="text-blue-600 hover:underline"
               >
-                Medigap Open Enrollment in NJ - Deadlines and Rules
+                Medicare Plan G in New Jersey: What It Covers
               </Link>
             </li>
           </ul>
         </section>
-      </main>
+      </article>
     </>
   );
 }

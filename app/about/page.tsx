@@ -19,7 +19,7 @@ const personSchema = {
   "@context": "https://schema.org",
   "@type": "InsuranceAgency",
   name: "MedicareYourself",
-  url: "https://www.medicareyourself.com",
+  url: "https://medicareyourself.com",
   telephone: "+18555591700",
   description:
     "Independent Medicare insurance broker licensed in New Jersey and 34 other states. We provide free, unbiased Medicare Supplement and Medicare Advantage plan comparisons.",

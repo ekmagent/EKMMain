@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Why Did My Medicare Supplement Rate Change?",
-      item: "https://www.medicareyourself.com/services/why-did-my-medicare-supplement-rate-change",
+      item: "https://medicareyourself.com/services/why-did-my-medicare-supplement-rate-change",
     },
   ],
 };
@@ -51,7 +51,7 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
@@ -61,7 +61,7 @@ const articleSchema = {
   datePublished: "2025-06-25",
   dateModified: "2025-06-25",
   mainEntityOfPage:
-    "https://www.medicareyourself.com/services/why-did-my-medicare-supplement-rate-change",
+    "https://medicareyourself.com/services/why-did-my-medicare-supplement-rate-change",
 };
 
 const faqs = [

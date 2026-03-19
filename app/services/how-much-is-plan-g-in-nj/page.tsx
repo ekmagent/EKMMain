@@ -7,14 +7,14 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 
 export const metadata: Metadata = {
   title:
-    "How Much Is Plan G in NJ | Free Rate Comparison by Age | MedicareYourself",
+    "how much is plan g in nj | Free Rate Comparison by Age | MedicareYourself",
   description:
-    "How much is Plan G in NJ? See actual monthly premiums by age from every major carrier. Anthony Orner finds your lowest rate — get a free quote today.",
+    "How much is Plan G in NJ? See actual 2025 monthly premiums by age from every major carrier. Anthony Orner finds your lowest rate — free quote today.",
   openGraph: {
     title:
-      "How Much Is Plan G in NJ | Free Rate Comparison by Age | MedicareYourself",
+      "how much is plan g in nj | Free Rate Comparison by Age | MedicareYourself",
     description:
-      "How much is Plan G in NJ? See actual monthly premiums by age from every major carrier. Anthony Orner finds your lowest rate — get a free quote today.",
+      "How much is Plan G in NJ? See actual 2025 monthly premiums by age from every major carrier. Anthony Orner finds your lowest rate — free quote today.",
   },
 };
 
@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/services",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "How Much Is Plan G in NJ",
-      item: "https://www.medicareyourself.com/services/how-much-is-plan-g-in-nj",
+      item: "https://medicareyourself.com/services/how-much-is-plan-g-in-nj",
     },
   ],
 };
@@ -50,249 +50,216 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-01-01",
-  dateModified: "2025-07-01",
+  datePublished: "2025-01-15",
+  dateModified: "2025-01-15",
 };
 
 const faqs = [
   {
     question: "How much is Medicare Plan G in New Jersey?",
     answer:
-      "Plan G premiums in NJ typically range from around $120 to $300+ per month depending on your age, gender, tobacco use, and the carrier. Rates vary significantly between companies for identical coverage, which is why comparing every carrier matters.",
+      "Plan G premiums in New Jersey typically range from around $120 to $300+ per month depending on your age, gender, zip code, and the carrier. Two people the same age in different parts of the state can see very different rates. The best way to find your exact price is to compare quotes from all available carriers.",
   },
   {
     question: "How much will Medicare Plan G be in 2026?",
     answer:
-      "2026 Plan G rates haven't been finalized yet, but premiums generally increase 3-8% per year. Locking in a rate earlier - especially during your Medigap Open Enrollment Period - protects you from medical underwriting and potential rate increases tied to health changes.",
+      "No one can predict exact 2026 rates yet, but Plan G premiums generally increase 3-8% per year depending on the carrier. Some carriers have a track record of smaller annual increases. Choosing a carrier with historically stable rate increases can save you thousands over time.",
   },
   {
-    question: "Is Plan G worth the premium over Plan N?",
+    question: "Can I switch Plan G carriers in New Jersey?",
     answer:
-      "Plan G covers everything Plan N covers, plus it eliminates the small copays Plan N charges for some office and ER visits. If you see doctors frequently, Plan G often saves money overall. If you're healthy and rarely visit specialists, Plan N's lower premium might work. We can run both scenarios for you.",
+      "Yes, you can apply to switch Plan G carriers at any time. However, outside of your Medigap Open Enrollment Period, you'll need to pass medical underwriting. That's why picking the right carrier from the start matters so much.",
   },
   {
-    question: "Can I switch Plan G carriers later to get a lower rate?",
+    question:
+      "What does Plan G cover that I'd otherwise pay out of pocket?",
     answer:
-      "Yes, but outside your initial Medigap Open Enrollment Period you'll likely need to pass medical underwriting. That's why many people who switched from Plan G to an Advantage plan regret it - getting back onto a supplement can be difficult if your health changes.",
+      "Plan G covers the Part A deductible ($1,676 per benefit period in 2026), skilled nursing facility coinsurance ($209.50/day for days 21-100), Part B excess charges, and foreign travel emergency care. Your only remaining cost is the annual Part B deductible of $283.",
   },
 ];
 
 export default function HowMuchIsPlanGInNJ() {
   return (
-    <>
+    <main className="max-w-3xl mx-auto px-4 py-8">
       <SchemaMarkup schema={breadcrumbSchema} />
       <SchemaMarkup schema={articleSchema} />
-      <main className="max-w-4xl mx-auto px-4 py-8">
-        <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
-          <Link href="/" className="hover:underline">
-            Home
-          </Link>{" "}
-          &gt;{" "}
-          <Link href="/services" className="hover:underline">
-            Medicare Guides
-          </Link>{" "}
-          &gt;{" "}
-          <span className="text-gray-700">How Much Is Plan G in NJ</span>
-        </nav>
 
-        <h1 className="text-3xl font-bold mb-4">
-          How Much Is Plan G in NJ? Real Rates From Every Major Carrier
-        </h1>
+      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
+        <Link href="/" className="hover:underline">
+          Home
+        </Link>{" "}
+        &gt;{" "}
+        <Link href="/medicare-guides" className="hover:underline">
+          Medicare Guides
+        </Link>{" "}
+        &gt;{" "}
+        <span className="text-gray-700">How Much Is Plan G in NJ</span>
+      </nav>
 
-        <Image
-          src="/images/how-much-is-plan-g-in-nj.webp"
-          alt="how much is plan g in nj"
-          width={800}
-          height={400}
-          className="rounded-lg mb-6 w-full"
-        />
+      <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+        How Much Is Plan G in NJ? Real Rates From Every Major Carrier
+      </h1>
 
-        <p className="text-lg mb-2">
-          How much is Plan G in NJ? The short answer: anywhere from about $120
-          to over $300 a month, depending on your age, carrier, and a few other
-          factors. The real answer takes about two minutes to find when you
-          compare every option side by side.
+      <Image
+        src="/images/hub_how-much-is-plan-g-in-nj.webp"
+        alt="how much is plan g in nj"
+        width={800}
+        height={400}
+        className="w-full rounded-lg mb-6"
+        priority
+      />
+
+      <p className="text-lg text-gray-700 mb-2">
+        How much is Plan G in NJ? It depends on your age, zip code, gender, and which carrier you pick. In 2025, I'm seeing monthly premiums range from roughly $120 to over $300 across New Jersey. That spread is exactly why comparing every carrier matters before you lock in.
+      </p>
+
+      <PhoneCTA />
+
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          Plan G monthly premiums by age in New Jersey (2025)
+        </h2>
+        <p className="text-gray-700 mb-2">
+          New Jersey uses attained-age rating for most Medigap policies. That means your premium starts based on your current age and rises as you get older. Here's a general range of what I'm quoting right now:
         </p>
-        <p className="mb-6">
-          I'm Anthony Orner, a licensed Medicare broker in New Jersey. I pull
-          rates from every major carrier so you don't have to.
+        <ul className="list-disc pl-6 text-gray-700 space-y-1 mb-2">
+          <li>Age 65: ~$120 to $190/month</li>
+          <li>Age 70: ~$145 to $230/month</li>
+          <li>Age 75: ~$175 to $280/month</li>
+          <li>Age 80+: ~$210 to $330/month</li>
+        </ul>
+        <p className="text-gray-700">
+          These are ballpark figures. Your actual rate depends on the carrier and your specific details. Rates vary by carrier, so always compare.
         </p>
+      </section>
 
-        <PhoneCTA />
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          Why two 67-year-olds pay different rates for the same plan
+        </h2>
+        <p className="text-gray-700 mb-2">
+          Every Plan G policy covers the exact same benefits regardless of carrier. The coverage is standardized by Medicare. The only difference is the premium each company charges.
+        </p>
+        <p className="text-gray-700">
+          Carriers price based on their claims experience, the size of their enrollment pool, and their rate increase history. One company might start low and raise rates aggressively. Another might start slightly higher but hold steady for years. That long-term pattern matters more than the first-year price.
+        </p>
+      </section>
 
-        <section className="mt-10 mb-8">
-          <h2 className="text-2xl font-semibold mb-3">
-            Plan G monthly premiums by age in New Jersey (2025)
-          </h2>
-          <p className="mb-3">
-            New Jersey carriers use different pricing methods - some base your
-            rate on your current age (attained-age), some on the age you bought
-            the policy (issue-age). This creates a wide range even among people
-            the same age.
-          </p>
-          <ul className="list-disc pl-6 space-y-1 mb-3">
-            <li>Age 65: roughly $120 - $210/month</li>
-            <li>Age 70: roughly $150 - $260/month</li>
-            <li>Age 75: roughly $180 - $310/month</li>
-          </ul>
-          <p>
-            These ranges reflect non-tobacco rates across multiple carriers. Your
-            exact rate depends on your specific profile - call and I'll pull the
-            real numbers.
-          </p>
-        </section>
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          Carriers with the lowest Plan G rates right now
+        </h2>
+        <p className="text-gray-700 mb-2">
+          I work with every major carrier selling Plan G in New Jersey. The lowest-priced option shifts depending on your county and age bracket. What's cheapest in Bergen County might not be cheapest in Ocean County.
+        </p>
+        <p className="text-gray-700">
+          I look at both the current rate and the carrier's history of annual increases. A policy that's $15/month cheaper today but jumps 10% a year isn't a deal. I'll show you both numbers side by side.
+        </p>
+      </section>
 
-        <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-3">
-            Why two 67-year-olds pay different rates for the same plan
-          </h2>
-          <p className="mb-3">
-            Plan G benefits are standardized by federal law. Every carrier's Plan
-            G covers the exact same things. But each company sets its own
-            premium, and the differences are significant.
-          </p>
-          <p>
-            Pricing varies by rating method (attained-age vs. issue-age), gender,
-            ZIP code, tobacco use, and household discounts. Two neighbors on the
-            same street can pay $50 - $80 apart for identical coverage. That gap
-            adds up to hundreds a year.
-          </p>
-        </section>
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          What Plan G actually leaves you paying
+        </h2>
+        <p className="text-gray-700 mb-2">
+          Plan G covers everything except the Part B deductible, which is $283/year in 2026. That's it. No copays at the doctor. No coinsurance after surgery. No network restrictions.
+        </p>
+        <p className="text-gray-700">
+          It also picks up the Part A hospital deductible ($1,676 per benefit period), skilled nursing coinsurance at $209.50/day for days 21-100, and Part B excess charges. You see any doctor in the country who accepts Medicare.
+        </p>
+      </section>
 
-        <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-3">
-            Carriers with the lowest Plan G rates right now
-          </h2>
-          <p className="mb-3">
-            I work with every major Medigap carrier licensed in New Jersey. The
-            lowest-cost carrier changes based on your age and ZIP code - there's
-            no single "cheapest" company for everyone.
-          </p>
-          <p>
-            That's the whole point of an independent broker. I don't work for one
-            insurance company. I compare them all for you and show you the
-            numbers so you can decide.
-          </p>
-        </section>
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          Switching from an Advantage plan? Read this first
+        </h2>
+        <p className="text-gray-700 mb-2">
+          I hear from people every week who left their Medigap plan for a $0-premium Advantage plan and regret it. The copays add up. Referrals slow things down. And getting back to Plan G means passing medical underwriting if you're outside your open enrollment window.
+        </p>
+        <p className="text-gray-700">
+          If you're still in your 6-month Medigap Open Enrollment Period (starts the month you turn 65 and enroll in Part B), you get guaranteed acceptance with no health questions. Don't let that window close without comparing your options.
+        </p>
+      </section>
 
-        <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-3">
-            What Plan G actually covers
-          </h2>
-          <p className="mb-3">
-            Plan G pays everything Original Medicare doesn't cover except the
-            Part B deductible ($283 in 2026). That means no copays, no
-            coinsurance, no surprise hospital bills. You see any doctor who
-            accepts Medicare - no networks, no referrals.
-          </p>
-          <p>
-            It covers the Part A deductible ($1,676 per benefit period in 2026),
-            skilled nursing coinsurance ($209.50/day for days 21-100), and
-            foreign travel emergencies. For most people in NJ, Plan G is the most
-            popular supplement for good reason.
-          </p>
-        </section>
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          Get your exact Plan G rate in under 2 minutes
+        </h2>
+        <p className="text-gray-700">
+          I'll pull quotes from every carrier in your zip code, show you the rate history for each one, and tell you which I'd pick if it were my money. No cost, no pressure. Just the numbers you need to make a smart decision.
+        </p>
+      </section>
 
-        <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-3">
-            Why locking in early matters in New Jersey
-          </h2>
-          <p className="mb-3">
-            Your Medigap Open Enrollment Period starts the month you turn 65 and
-            are enrolled in Part B. During those six months, no carrier can deny
-            you or charge more for health conditions. After that window closes,
-            you'll face medical underwriting.
-          </p>
-          <p>
-            I've talked with too many people who switched to an Advantage plan,
-            then couldn't get back on a supplement when their health changed.
-            Pre-existing conditions like diabetes can lock you out. If you're
-            approaching 65, apply up to six months before your Part B start date
-            to lock in your rate.
-          </p>
-        </section>
+      <section className="mt-10 bg-blue-50 border border-blue-200 rounded-lg p-6 text-center">
+        <p className="text-xl font-semibold text-blue-900 mb-2">
+          Call{" "}
+          <a
+            href="tel:8555591700"
+            className="underline text-blue-700 hover:text-blue-900"
+          >
+            855-559-1700
+          </a>{" "}
+          for your free Plan G rate comparison
+        </p>
+        <p className="text-gray-700 mb-4">
+          Anthony Orner, Licensed Medicare Broker in New Jersey
+        </p>
+        <Link
+          href="/quote"
+          className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition"
+        >
+          Get a Free Quote
+        </Link>
+      </section>
 
-        <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-3">
-            Get your exact Plan G rate in under 2 minutes
-          </h2>
-          <p>
-            I'll pull quotes from every carrier, show you the numbers, and
-            explain what matters for your situation. No cost, no pressure. Just
-            clear answers from someone who does this every day in New Jersey.
-          </p>
-        </section>
+      <FAQSection faqs={faqs} />
 
-        <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 text-center my-10">
-          <p className="text-xl font-semibold mb-2">
-            Ready to see your Plan G rate?
-          </p>
-          <p className="mb-4">
-            Call{" "}
-            <a
-              href="tel:8555591700"
-              className="text-blue-700 font-bold hover:underline"
-            >
-              855-559-1700
-            </a>{" "}
-            or{" "}
+      <section className="mt-12">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-4">
+          Related resources
+        </h2>
+        <ul className="space-y-2">
+          <li>
             <Link
-              href="/quote"
-              className="text-blue-700 font-bold hover:underline"
+              href="/services/medicare-supplement-plans-nj"
+              className="text-blue-600 hover:underline"
             >
-              get a free quote online
+              Medicare Supplement Plans in NJ
             </Link>
-            . No sign-up required.
-          </p>
-        </div>
-
-        <FAQSection faqs={faqs} />
-
-        <section className="mt-10">
-          <h2 className="text-xl font-semibold mb-4">Related resources</h2>
-          <ul className="space-y-2">
-            <li>
-              <Link
-                href="/services/medicare-supplement-plan-g"
-                className="text-blue-700 hover:underline"
-              >
-                Medicare Supplement Plan G: Full Coverage Guide
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/services/plan-g-vs-plan-n"
-                className="text-blue-700 hover:underline"
-              >
-                Plan G vs. Plan N: Which Saves You More?
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/services/medigap-open-enrollment-nj"
-                className="text-blue-700 hover:underline"
-              >
-                Medigap Open Enrollment in NJ: What You Need to Know
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/services/medicare-plan-g-vs-advantage"
-                className="text-blue-700 hover:underline"
-              >
-                Plan G vs. Medicare Advantage: Honest Comparison
-              </Link>
-            </li>
-          </ul>
-        </section>
-      </main>
-    </>
+          </li>
+          <li>
+            <Link
+              href="/services/plan-g-vs-plan-n"
+              className="text-blue-600 hover:underline"
+            >
+              Plan G vs. Plan N: Which Is Better?
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/services/medigap-open-enrollment-nj"
+              className="text-blue-600 hover:underline"
+            >
+              Medigap Open Enrollment in New Jersey
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/services/medicare-advantage-vs-medigap"
+              className="text-blue-600 hover:underline"
+            >
+              Medicare Advantage vs. Medigap
+            </Link>
+          </li>
+        </ul>
+      </section>
+    </main>
   );
 }

@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Medicare Insurance Agents in Elizabeth, New Jersey",
-      item: "https://www.medicareyourself.com/services/medicare-insurance-agents-in-elizabeth-new-jersey",
+      item: "https://medicareyourself.com/services/medicare-insurance-agents-in-elizabeth-new-jersey",
     },
   ],
 };
@@ -51,44 +51,44 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-01-15",
-  dateModified: "2025-01-15",
+  datePublished: "2025-07-01",
+  dateModified: "2025-07-01",
 };
 
 const faqs = [
   {
     question: "Should I use an insurance agent for Medicare?",
     answer:
-      "Yes. A licensed Medicare agent costs you nothing - carriers pay the agent directly. An independent broker can compare plans from multiple companies at once, which saves you time and often money. You get objective guidance during enrollment without any extra fees on your premium.",
+      "Yes. A licensed Medicare agent helps you compare plans across multiple carriers at no cost to you. Brokers are paid by insurance companies, not by you, so there's no fee for their help. An independent broker can show you options a captive agent cannot.",
   },
   {
     question: "What is the best Medicare plan in New Jersey?",
     answer:
-      "There is no single best plan for everyone. Medicare Supplement Plan G is the most popular Medigap choice because it covers everything except the annual Part B deductible ($257 in 2026). Medicare Advantage HMOs may work if you prefer lower premiums and can use a network. The right plan depends on your doctors, medications, and budget.",
+      "There's no single best plan for everyone. The right choice depends on your doctors, prescriptions, budget, and how often you travel. An independent broker compares Medigap and Advantage plans side by side so you can see which one actually fits your situation in Union County.",
   },
   {
     question: "How do I pick a Medicare agent?",
     answer:
-      "Look for an independent broker, not a captive agent tied to one carrier. Confirm they are licensed in New Jersey and ask how many carriers they represent. An independent broker should offer a free side-by-side comparison and never pressure you into one plan.",
+      "Look for an independent broker licensed in New Jersey who represents multiple carriers. Ask how many companies they can quote. If the answer is one, they're a captive agent. Also confirm they hold no enrollment fees and will re-evaluate your coverage annually.",
   },
   {
     question:
-      "When should I contact a Medicare agent in Elizabeth before turning 65?",
+      "When is the best time to enroll in a Medigap plan in Elizabeth, NJ?",
     answer:
-      "Contact a broker at least 6 months before your Part B start date. This gives you time to compare plans and apply early, which can lock in a lower Medigap rate before your coverage even begins.",
+      "Your Medigap Open Enrollment Period starts the month you turn 65 and are enrolled in Part B. During this 6-month window, carriers must accept you regardless of health history. Applying up to 6 months before your Part B start date helps lock in the best rate.",
   },
 ];
 
 export default function MedicareInsuranceAgentsElizabethNJ() {
   return (
-    <main className="max-w-4xl mx-auto px-4 py-8">
+    <main className="max-w-3xl mx-auto px-4 py-8">
       <SchemaMarkup schema={breadcrumbSchema} />
       <SchemaMarkup schema={articleSchema} />
 
@@ -106,210 +106,206 @@ export default function MedicareInsuranceAgentsElizabethNJ() {
         </span>
       </nav>
 
-      <h1 className="text-3xl font-bold mb-4">
+      <h1 className="text-3xl md:text-4xl font-bold mb-4">
         Medicare Insurance Agents in Elizabeth, New Jersey: Independent Broker
         Access
       </h1>
 
       <Image
-        src="/images/medicare-insurance-agents-in-elizabeth-new-jersey.webp"
-        alt="Medicare insurance agents in Elizabeth New Jersey"
+        src="/images/hub_medicare-insurance-agents-in-elizabeth-new-jersey.webp"
+        alt="medicare insurance agents in elizabeth new jersey"
         width={800}
         height={400}
-        className="rounded-lg mb-6 w-full"
+        className="w-full h-auto rounded-lg mb-6"
+        priority
       />
 
       <p className="text-lg mb-2">
-        Medicare insurance agents in Elizabeth, New Jersey range from captive
-        agents selling one company's plans to independent brokers who compare
-        rates across a dozen or more carriers. The difference matters when you
-        are making a decision that affects your healthcare costs for years.
+        Medicare insurance agents in Elizabeth, New Jersey aren't all the same.
+        Some represent one carrier. I represent dozens. That difference
+        determines whether you see the full picture or just one company's
+        version of it.
       </p>
       <p className="text-lg mb-6">
-        I'm Anthony Orner, a licensed independent Medicare broker serving Union
-        County. I work with multiple carriers so I can show you what is actually
-        the best fit - not just what one company wants me to sell.
+        I'm Anthony Orner, an independent Medicare broker licensed in New
+        Jersey. I work with Elizabeth residents turning 65 and those already on
+        Medicare who suspect they're overpaying.
       </p>
 
       <PhoneCTA />
 
-      <section className="mt-10 mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
           How an independent broker differs from a captive agent
         </h2>
         <p className="mb-2">
-          A captive agent represents one insurance company. They can only show
-          you that company's plans, even if a competitor offers a lower rate for
-          identical coverage.
+          A captive agent works for one insurance company. They can only show
+          you that company's plans, even if a competitor offers better rates or
+          broader coverage for your situation.
         </p>
         <p>
-          An independent broker like me is appointed with multiple carriers. I
-          pull quotes from all of them, lay them side by side, and let you pick.
-          There is no cost difference to you - carriers pay the broker the same
-          commission regardless.
+          An independent broker like me is contracted with multiple carriers. I
+          pull quotes from all of them, lay them side by side, and let you
+          choose. My service costs you nothing. Carriers pay the broker
+          directly, and your premium stays the same whether you use me or enroll
+          on your own.
         </p>
       </section>
 
-      <section className="mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
           Top Medicare Supplement carriers available in Union County
         </h2>
         <p className="mb-2">
-          Elizabeth is in Union County, and several strong Medigap carriers write
-          policies here. The carriers I most frequently quote for Elizabeth
-          residents include:
+          Elizabeth sits in Union County, where several strong Medigap carriers
+          compete for your business. That competition works in your favor.
+          Carriers I regularly quote here include:
         </p>
         <ul className="list-disc pl-6 space-y-1 mb-2">
+          <li>Mutual of Omaha</li>
           <li>Aetna</li>
           <li>Cigna</li>
-          <li>Mutual of Omaha</li>
           <li>United American</li>
-          <li>Anthem (via Empire BCBS network)</li>
+          <li>Wellcare (by Centene)</li>
         </ul>
         <p>
-          Rates vary by carrier, age, and tobacco status. Plan G from one
-          company can cost $30-$50 more per month than Plan G from another - same
-          exact benefits. That is why comparing matters.
+          Rates vary by carrier, age, and tobacco status. I compare them all in
+          one call so you don't have to chase individual quotes.
         </p>
       </section>
 
-      <section className="mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
           Common Medicare mistakes Elizabeth residents make at 65
         </h2>
         <ul className="list-disc pl-6 space-y-2">
           <li>
-            Waiting too long to enroll. Your Medigap Open Enrollment Period
-            lasts 6 months starting the month you turn 65 and have Part B.
-            During this window, no carrier can deny you or charge more for
-            health conditions. Miss it, and you face medical underwriting.
+            <strong>Missing the Medigap Open Enrollment window.</strong> You get
+            6 months starting the month you turn 65 and have Part B. After that,
+            carriers can deny you or charge more based on health.
           </li>
           <li>
-            Choosing a plan based on premium alone. A $0-premium Medicare
-            Advantage plan may have $5,000-$8,000 in out-of-pocket exposure.
-            Compare total potential costs, not just the monthly number.
+            <strong>Assuming Original Medicare covers everything.</strong> The
+            2026 Part A deductible is $1,676 per benefit period. Part B covers
+            80%, leaving you with 20% of approved charges. That adds up fast.
           </li>
           <li>
-            Ignoring the Part B late enrollment penalty. If you delay Part B
-            without creditable employer coverage, you pay a 10% penalty for
-            every 12-month period you were late - and it never goes away.
+            <strong>Signing up late for Part B.</strong> The penalty is 10% for
+            every 12-month period you delayed. It sticks for life.
+          </li>
+          <li>
+            <strong>Picking a plan based on premium alone.</strong> A $30/month
+            Advantage plan with a $7,500 out-of-pocket max can cost more than a
+            Medigap plan with zero surprises.
           </li>
         </ul>
       </section>
 
-      <section className="mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
-          Why applying early can lock in a better rate
+          Why local access matters in Elizabeth
         </h2>
         <p className="mb-2">
-          My practice is to have clients apply for their Medigap plan up to 6
-          months before their Part B start date. Carriers will accept the
-          application and set your rate at that point.
+          Elizabeth residents rely on Trinitas Regional Medical Center and
+          providers across the Union County hospital network. If you're
+          considering a Medicare Advantage plan, your doctor and hospital network
+          matters. Not every plan includes the providers you already use.
         </p>
         <p>
-          Medigap premiums tend to increase over time. The sooner you lock in,
-          the better your rate. If you are turning 65 next year, now is the time
-          to start comparing - not the month your coverage begins.
+          I check your doctors and prescriptions against each plan's network and
+          formulary before recommending anything. No guesswork.
         </p>
       </section>
 
-      <section className="mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
-          2026 Medicare costs Elizabeth residents should know
+          Medigap vs. Medicare Advantage: which fits your life
         </h2>
-        <ul className="list-disc pl-6 space-y-1">
-          <li>Part B monthly premium: $185</li>
-          <li>Part B annual deductible: $257</li>
-          <li>Part A hospital deductible: $1,676 per benefit period</li>
-          <li>
-            Skilled nursing facility coinsurance: $209.50/day for days 21-100
-          </li>
-        </ul>
-        <p className="mt-2">
-          A Medigap Plan G covers all of these except the $257 Part B
-          deductible. Plan N covers most, but adds small copays for office and
-          ER visits. I can walk you through which one fits your situation.
+        <p className="mb-2">
+          Medigap (Medicare Supplement) pays after Original Medicare. You see
+          any doctor who accepts Medicare, anywhere in the country. Monthly
+          premiums are higher, but out-of-pocket costs are predictable.
+        </p>
+        <p>
+          Medicare Advantage bundles Part A, B, and usually Part D into one plan
+          with a network. Premiums are often lower, but copays and coinsurance
+          apply at point of care. Great if your doctors are in-network and you
+          stay local.
         </p>
       </section>
 
-      <section className="mb-8">
+      <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
           Get a side-by-side plan comparison at no cost
         </h2>
         <p className="mb-2">
-          I will pull real-time quotes from every carrier available in Elizabeth,
-          show you the rates next to each other, and explain the trade-offs in
-          plain English. No pressure, no obligation.
+          I'll pull real quotes from every carrier available in Elizabeth, line
+          them up by cost and benefits, and walk you through the differences.
+          Takes about 15 minutes by phone.
         </p>
         <p>
-          Whether you are turning 65, leaving employer coverage, or just want to
-          see if a better rate exists, a quick call gets you the numbers you
-          need.
+          No obligation. No pressure. If you're turning 65 soon, reach out up
+          to 6 months before your Part B effective date to lock in the lowest
+          Medigap rates.
         </p>
       </section>
 
-      <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 text-center my-10">
-        <p className="text-xl font-semibold mb-2">
-          Ready for your free Medicare comparison?
+      <div className="mt-10 bg-blue-600 text-white rounded-lg p-6 text-center">
+        <p className="text-xl font-bold mb-2">
+          Talk to an independent Medicare broker in Elizabeth, NJ
         </p>
-        <p className="mb-4">
+        <p className="text-lg mb-4">
           Call{" "}
-          <a
-            href="tel:8555591700"
-            className="text-blue-700 font-bold hover:underline"
-          >
+          <a href="tel:8555591700" className="underline font-bold">
             855-559-1700
           </a>{" "}
           or{" "}
-          <Link
-            href="/get-a-free-quote"
-            className="text-blue-700 font-bold hover:underline"
-          >
+          <Link href="/contact" className="underline font-bold">
             Get a Free Quote
-          </Link>{" "}
-          online.
+          </Link>
         </p>
-        <p className="text-sm text-gray-600">
-          Anthony Orner, Licensed Medicare Broker - serving Elizabeth and all of
-          Union County.
+        <p className="text-sm opacity-90">
+          Anthony Orner, Licensed NJ Medicare Broker
         </p>
       </div>
 
-      <FAQSection faqs={faqs} />
+      <section className="mt-12">
+        <FAQSection faqs={faqs} />
+      </section>
 
-      <section className="mt-10">
+      <section className="mt-12">
         <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
         <ul className="space-y-2">
           <li>
             <Link
-              href="/services/medicare-supplement-plan-g-nj"
-              className="text-blue-700 hover:underline"
+              href="/medicare-guides/medigap-plan-g-vs-plan-n"
+              className="text-blue-600 hover:underline"
             >
-              Medicare Supplement Plan G in New Jersey
+              Medigap Plan G vs. Plan N: Which saves more?
             </Link>
           </li>
           <li>
             <Link
-              href="/services/medicare-advantage-plans-nj"
-              className="text-blue-700 hover:underline"
+              href="/medicare-guides/medicare-advantage-vs-medigap"
+              className="text-blue-600 hover:underline"
             >
-              Medicare Advantage Plans in New Jersey
+              Medicare Advantage vs. Medigap in New Jersey
             </Link>
           </li>
           <li>
             <Link
-              href="/guides/when-to-enroll-in-medicare"
-              className="text-blue-700 hover:underline"
+              href="/medicare-guides/when-to-enroll-in-medicare"
+              className="text-blue-600 hover:underline"
             >
-              When to Enroll in Medicare: Deadlines and Penalties
+              When to enroll in Medicare: Deadlines that matter
             </Link>
           </li>
           <li>
             <Link
-              href="/guides/medigap-open-enrollment-period"
-              className="text-blue-700 hover:underline"
+              href="/services/medicare-broker-union-county-nj"
+              className="text-blue-600 hover:underline"
             >
-              Understanding Your Medigap Open Enrollment Period
+              Medicare broker services in Union County, NJ
             </Link>
           </li>
         </ul>

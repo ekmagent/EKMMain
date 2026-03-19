@@ -9,12 +9,12 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for arthritis sufferers | Free Plan Comparison | MedicareYourself",
   description:
-    "Medicare broker for arthritis sufferers needing biologics, specialist visits, and joint care. Anthony Orner compares plans at no cost to you.",
+    "Medicare broker for arthritis sufferers who need biologics, specialist visits, and joint care covered right. Anthony Orner compares plans for free.",
   openGraph: {
     title:
       "Medicare broker for arthritis sufferers | Free Plan Comparison | MedicareYourself",
     description:
-      "Medicare broker for arthritis sufferers needing biologics, specialist visits, and joint care. Anthony Orner compares plans at no cost to you.",
+      "Medicare broker for arthritis sufferers who need biologics, specialist visits, and joint care covered right. Anthony Orner compares plans for free.",
   },
 };
 
@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Medicare Broker for Arthritis Sufferers",
-      item: "https://www.medicareyourself.com/services/medicare-broker-for-arthritis-sufferers",
+      item: "https://medicareyourself.com/services/medicare-broker-for-arthritis-sufferers",
     },
   ],
 };
@@ -51,7 +51,7 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
@@ -64,32 +64,30 @@ const articleSchema = {
 
 const faqs = [
   {
-    question: "How much does it cost to use a Medicare broker?",
+    question: "Does Medicare cover biologics like Humira or Remicade for arthritis?",
     answer:
-      "Nothing. Medicare brokers are compensated by insurance carriers, not by you. There's no fee for plan comparisons, reviews, or enrollment help. The service is free whether you choose a plan through the broker or not.",
+      "Yes, but how they're covered depends on the drug and how it's administered. Infused biologics like Remicade are typically covered under Part B at a doctor's office. Self-injected biologics like Humira fall under Part D. Out-of-pocket costs vary dramatically by plan, so comparing formularies before enrollment is critical.",
   },
   {
-    question:
-      "Will Medicare cover my biologic medication like Humira or Enbrel?",
+    question: "Is a Medigap plan or Medicare Advantage better for arthritis?",
     answer:
-      "It depends on the plan. Self-injected biologics typically fall under Part D. Infused biologics like Remicade are covered under Part B. But formularies, tier placement, and copays vary widely between plans. A broker can compare which plans cover your specific medication at the lowest cost.",
+      "It depends on your treatment. If you see multiple specialists and take expensive medications, Original Medicare with a Medigap plan often gives you more predictable costs and broader provider access. Medicare Advantage plans may offer lower premiums but can require prior authorizations and have narrower networks. A broker can compare both options based on your specific medications and doctors.",
   },
   {
-    question: "Can I switch plans if my arthritis medication isn't covered?",
+    question: "How do I find out if my arthritis medication is on a plan's formulary?",
     answer:
-      "During the Annual Enrollment Period (October 15 - December 7), you can switch Medicare Advantage or Part D plans. If you have a Medicare Supplement plan, switching may require medical underwriting outside your Medigap Open Enrollment Period. Call to discuss your specific situation.",
+      "Every Part D and Medicare Advantage plan publishes a formulary listing covered drugs and their tier placement. Your broker can cross-reference your medications across every available plan in your area to find the lowest total cost. This is one of the most valuable things a broker does for arthritis patients.",
   },
   {
-    question:
-      "Should I choose Medicare Advantage or a Supplement plan for arthritis?",
+    question: "Does it cost anything to work with a Medicare broker for arthritis coverage?",
     answer:
-      "There's no single right answer. Advantage plans may have lower premiums but use networks and prior authorizations. Supplement plans offer more flexibility with specialists but require a separate Part D plan for prescriptions. The right choice depends on your medications, doctors, and budget.",
+      "No. Licensed Medicare brokers are paid by the insurance carriers, not by you. There's no fee for plan comparisons, enrollment help, or ongoing support. You get the same plan at the same price whether you enroll directly or through a broker.",
   },
 ];
 
-export default function MedicareBrokerArthritisSufferers() {
+export default function MedicareBrokerForArthritisSufferers() {
   return (
-    <main className="max-w-4xl mx-auto px-4 py-8">
+    <main className="max-w-3xl mx-auto px-4 py-8">
       <SchemaMarkup schema={breadcrumbSchema} />
       <SchemaMarkup schema={articleSchema} />
 
@@ -107,209 +105,164 @@ export default function MedicareBrokerArthritisSufferers() {
         </span>
       </nav>
 
-      <h1 className="text-3xl font-bold mb-4 leading-tight">
-        Medicare Broker for Arthritis Sufferers — Coverage That Doesn't Make You
-        Negotiate Twice
+      <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+        Medicare Broker for Arthritis Sufferers — Coverage That Doesn't Make You Negotiate Twice
       </h1>
 
       <Image
-        src="/images/medicare-broker-for-arthritis-sufferers.webp"
+        src="/images/hub_medicare-broker-for-arthritis-sufferers.webp"
         alt="Medicare broker for arthritis sufferers"
         width={800}
         height={400}
-        className="rounded-lg mb-6 w-full"
+        className="w-full rounded-lg mb-6"
+        priority
       />
 
-      <p className="text-lg mb-2">
-        A Medicare broker for arthritis sufferers does one thing most plan
-        directories can't: match your actual medications, specialists, and joint
-        care needs to a plan that covers them without sticker shock. Some
-        mornings, your body won't cooperate with buttons or stairs. Your
-        insurance shouldn't add to that negotiation.
+      <p className="text-lg text-gray-700 mb-2">
+        A Medicare broker for arthritis sufferers does one thing most online tools can't: match your exact medications, specialists, and joint care needs to the plan that actually covers them. Some mornings your joints decide the agenda before your brain does. Buttons, stairs, jar lids. You're already negotiating with your body. Your insurance shouldn't be another fight.
       </p>
-      <p className="text-lg mb-6">
-        I'm Anthony Orner, a licensed Medicare broker. I compare plans for
-        people managing RA, psoriatic arthritis, osteoarthritis, and other
-        chronic joint conditions - for free.
+
+      <p className="text-lg text-gray-700 mb-6">
+        I'm Anthony Orner, a licensed Medicare broker. I compare every plan available in your area against your prescriptions and providers, at no cost to you.
       </p>
 
       <PhoneCTA />
 
-      <section className="mt-10 mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
           How Medicare covers biologics, DMARDs, and joint replacements
         </h2>
-        <p className="mb-2">
-          Medicare splits arthritis treatment across parts in ways that trip
-          people up:
+        <p className="text-gray-700 mb-2">
+          Medicare splits arthritis drug coverage in a way that catches people off guard. Infused biologics like Remicade go through Part B at your doctor's office. Self-injected biologics like Humira or Enbrel go through Part D.
         </p>
-        <ul className="list-disc pl-6 space-y-1 mb-2">
-          <li>
-            <strong>Part B</strong> covers infused biologics like Remicade and
-            Orencia IV (administered in a doctor's office or infusion center).
-            You pay 20% of the Medicare-approved amount after your $283 annual
-            deductible.
-          </li>
-          <li>
-            <strong>Part D</strong> covers self-injected biologics like Humira,
-            Enbrel, and injectable Orencia. Costs vary dramatically by plan and
-            formulary tier.
-          </li>
-          <li>
-            <strong>Part A</strong> covers inpatient joint replacement surgery.
-            The 2026 Part A deductible is $1,676 per benefit period.
-          </li>
-        </ul>
-        <p>
-          DMARDs like methotrexate usually fall under Part D. The plan you pick
-          determines what you actually pay.
+        <p className="text-gray-700">
+          DMARDs like methotrexate are Part D. Joint replacements are covered under Part A as inpatient procedures. Each "part" has different cost-sharing, and the wrong plan choice can mean hundreds or thousands in unexpected bills.
         </p>
       </section>
-
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Why drug formularies matter more than you think with arthritis
-        </h2>
-        <p className="mb-2">
-          People find this out the hard way. You switch to Medicare, refill your
-          biologic, and get hit with a $600 or $1,800 bill for a drug that used
-          to cost $5. The plan changed. The formulary changed. The tier changed.
-        </p>
-        <p>
-          Every Part D and Advantage plan has its own formulary. A drug that's
-          Tier 3 on one plan might be Tier 5 (specialty) on another - or not
-          covered at all. I check your exact medications against every available
-          plan's formulary before we talk options.
-        </p>
-      </section>
-
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Supplement vs. Advantage plans for chronic joint conditions
-        </h2>
-        <p className="mb-2">
-          With arthritis, you see rheumatologists, get labs drawn regularly, and
-          may need imaging or infusions. That affects which plan structure works
-          better for you.
-        </p>
-        <ul className="list-disc pl-6 space-y-1">
-          <li>
-            <strong>Medicare Supplement (Medigap):</strong> No networks or
-            referrals. See any provider who accepts Medicare. You'll need a
-            separate Part D plan for prescriptions. Monthly premiums are higher,
-            but out-of-pocket costs at the doctor are predictable.
-          </li>
-          <li>
-            <strong>Medicare Advantage:</strong> Lower premiums, but uses
-            provider networks and often requires prior authorization for
-            biologics and specialist visits. Drug coverage is usually built in.
-          </li>
-        </ul>
-        <p className="mt-2">
-          Neither is universally better. It depends on your doctors, your drugs,
-          and how often you need care.
-        </p>
-      </section>
-
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Prior authorization and what it means for your treatment
-        </h2>
-        <p className="mb-2">
-          Many Advantage plans require prior authorization for biologics. That
-          means your doctor's office submits paperwork, the plan reviews it, and
-          you wait. If you're switching from a drug that's working, this step can
-          delay treatment or force a different medication.
-        </p>
-        <p>
-          I can tell you which plans in your area have prior auth requirements
-          for your specific prescriptions before you enroll.
-        </p>
-      </section>
-
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Manufacturer copay cards don't always work with Medicare
-        </h2>
-        <p>
-          On commercial insurance, copay assistance cards from drug manufacturers
-          can bring biologic costs to nearly zero. With Medicare, those cards are
-          generally not available. That's federal law, not a plan decision. There
-          are some patient assistance programs and foundations that may help, and
-          I can point you toward ones that apply to your situation.
-        </p>
-      </section>
-
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Get a free plan review built around what your body actually needs
-        </h2>
-        <p className="mb-2">
-          Bring me your medication list, your doctors, and your concerns. I'll
-          show you which plans cover your arthritis treatment at the lowest
-          realistic cost - not the lowest premium with surprise bills later.
-        </p>
-        <p>No fee. No pressure. Just a clear comparison you can trust.</p>
-      </section>
-
-      <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 text-center mb-10">
-        <p className="text-lg font-semibold mb-2">
-          Ready to compare plans that actually cover your arthritis care?
-        </p>
-        <p className="mb-4">
-          Call{" "}
-          <a
-            href="tel:8555591700"
-            className="text-blue-700 font-bold hover:underline"
-          >
-            855-559-1700
-          </a>{" "}
-          or{" "}
-          <Link
-            href="/get-a-free-quote"
-            className="text-blue-700 font-bold hover:underline"
-          >
-            get a free quote online
-          </Link>
-          .
-        </p>
-      </div>
-
-      <FAQSection faqs={faqs} />
 
       <section className="mt-10">
-        <h2 className="text-xl font-semibold mb-4">Related resources</h2>
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          Why drug formularies matter more than you think with arthritis
+        </h2>
+        <p className="text-gray-700 mb-2">
+          Every Part D plan has its own formulary. One plan might put your biologic on Tier 3. Another puts it on Tier 5 with a $1,800 monthly copay. People who've been on commercial insurance or Medicaid are blindsided by this when they switch to Medicare.
+        </p>
+        <p className="text-gray-700">
+          The drug that finally works for your RA or PsA might technically be "covered" but priced so high it's functionally not. I check every formulary in your ZIP code so you don't find out the hard way.
+        </p>
+      </section>
+
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          Supplement vs. Advantage plans for chronic joint conditions
+        </h2>
+        <ul className="list-disc pl-6 text-gray-700 space-y-2">
+          <li>
+            <strong>Original Medicare + Medigap + Part D:</strong> See any Medicare-accepting doctor. No referrals needed for rheumatologists. Predictable costs. You'll pay a separate Part D premium, so formulary research is essential.
+          </li>
+          <li>
+            <strong>Medicare Advantage (Part C):</strong> Often lower monthly premiums. May require prior authorizations for biologics and specialist visits. Network restrictions can limit your choice of rheumatologist.
+          </li>
+        </ul>
+        <p className="text-gray-700 mt-3">
+          For someone managing active RA or PsA with biologics, provider flexibility and drug coverage usually outweigh a lower premium. But the right answer depends on your specific situation.
+        </p>
+      </section>
+
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          Prior authorizations and step therapy for arthritis drugs
+        </h2>
+        <p className="text-gray-700 mb-2">
+          Many Medicare Advantage and Part D plans require step therapy. That means they'll want you to try cheaper drugs first before they approve the one your rheumatologist actually prescribed. If you've already failed methotrexate and two other DMARDs, you shouldn't have to prove it again to a new plan.
+        </p>
+        <p className="text-gray-700">
+          I look at which plans have the fewest authorization hurdles for your current treatment. Less red tape, fewer gaps in care.
+        </p>
+      </section>
+
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          The real cost numbers you need to know in 2026
+        </h2>
+        <ul className="list-disc pl-6 text-gray-700 space-y-2">
+          <li>Part B premium (2026): $202.90/month</li>
+          <li>Part B deductible: $283/year</li>
+          <li>Part A deductible: $1,676 per benefit period</li>
+          <li>Part D/Advantage Open Enrollment: October 15 through December 7</li>
+          <li>Medigap Open Enrollment: 6 months starting when you're 65+ and enrolled in Part B</li>
+        </ul>
+        <p className="text-gray-700 mt-3">
+          For arthritis patients considering Medigap, that 6-month open enrollment window matters. Carriers must accept you regardless of your RA or PsA diagnosis during that period. Miss it, and underwriting can price you out or deny you.
+        </p>
+      </section>
+
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          Get a free plan review built around what your body actually needs
+        </h2>
+        <p className="text-gray-700 mb-2">
+          Bring me your medication list, your rheumatologist's name, and your ZIP code. I'll show you every plan option, what each one will cost you for the year, and which ones cover your drugs without forcing you through step therapy hoops.
+        </p>
+        <p className="text-gray-700">
+          No charge. No obligation. I get paid by the carriers, not by you. Same plans, same prices, better guidance.
+        </p>
+      </section>
+
+      <div className="mt-10 bg-blue-600 text-white rounded-lg p-8 text-center">
+        <p className="text-xl font-semibold mb-3">
+          Call 855-559-1700 for a free arthritis-focused plan comparison
+        </p>
+        <p className="mb-4">
+          Or request a callback at a time that works for you.
+        </p>
+        <Link
+          href="/get-a-free-quote"
+          className="inline-block bg-white text-blue-600 font-semibold py-3 px-6 rounded-lg hover:bg-blue-50 transition-colors"
+        >
+          Get a Free Quote
+        </Link>
+      </div>
+
+      <section className="mt-12">
+        <FAQSection faqs={faqs} />
+      </section>
+
+      <section className="mt-12">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-4">
+          Related resources
+        </h2>
         <ul className="space-y-2">
           <li>
             <Link
-              href="/medicare-guides/medicare-part-d"
-              className="text-blue-700 hover:underline"
+              href="/medicare-guides/medigap-vs-medicare-advantage"
+              className="text-blue-600 hover:underline"
             >
-              Understanding Medicare Part D Prescription Drug Coverage
+              Medigap vs. Medicare Advantage: Which Is Right for You?
             </Link>
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-supplement-plans"
-              className="text-blue-700 hover:underline"
+              href="/medicare-guides/medicare-part-d-drug-coverage"
+              className="text-blue-600 hover:underline"
             >
-              Medicare Supplement Plans Explained
+              Medicare Part D Drug Coverage Explained
             </Link>
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-advantage-plans"
-              className="text-blue-700 hover:underline"
+              href="/services/medicare-broker-for-chronic-conditions"
+              className="text-blue-600 hover:underline"
             >
-              Medicare Advantage Plans: What You Need to Know
+              Medicare Broker for Chronic Conditions
             </Link>
           </li>
           <li>
             <Link
-              href="/services/medicare-broker-for-disabled-beneficiaries"
-              className="text-blue-700 hover:underline"
+              href="/medicare-guides/medigap-open-enrollment"
+              className="text-blue-600 hover:underline"
             >
-              Medicare Broker for Disabled Beneficiaries
+              Medigap Open Enrollment: What You Need to Know
             </Link>
           </li>
         </ul>

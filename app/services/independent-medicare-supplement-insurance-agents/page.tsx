@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Independent Medicare Supplement Insurance Agents",
-      item: "https://www.medicareyourself.com/services/independent-medicare-supplement-insurance-agents",
+      item: "https://medicareyourself.com/services/independent-medicare-supplement-insurance-agents",
     },
   ],
 };
@@ -50,37 +50,38 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-01",
-  dateModified: "2025-07-01",
+  datePublished: "2025-01-01",
+  dateModified: "2025-01-01",
 };
 
 const faqs = [
   {
     question: "What is an independent Medicare agent?",
     answer:
-      "An independent Medicare agent is licensed to sell plans from multiple insurance carriers, not just one company. This means they can compare premiums, rate histories, and financial strength across carriers to find the best fit for you. Their commissions are paid by the carrier, so you pay nothing extra.",
+      "An independent Medicare agent is licensed to sell plans from multiple insurance carriers, not just one. This means they can compare rates, coverage stability, and carrier reputation across the market to find the best fit for you. They work for you, not for a single company.",
   },
   {
     question: "How do I find a good Medicare agent?",
     answer:
-      "Look for an agent who is licensed in your state, works independently (not captive to one carrier), and is willing to explain rate increase history alongside the starting premium. Ask how many carriers they represent. A good agent will also help you time your enrollment to protect your guaranteed issue rights.",
+      "Look for someone who is licensed in your state, represents multiple carriers, and doesn't charge you a fee. Ask whether they review your plan annually and whether they'll help you switch carriers if rates increase. A good agent explains tradeoffs honestly instead of pushing one option.",
   },
   {
-    question: "Can an independent agent help me switch Medigap plans?",
+    question:
+      "Does it cost anything to use an independent Medicare Supplement agent?",
     answer:
-      "Yes. An independent agent can shop your current plan letter across carriers to find a lower rate. Outside of your initial Medigap Open Enrollment Period, you may need to pass medical underwriting to switch. Your agent can tell you which carriers are most likely to approve your application based on your health history.",
+      "No. Independent Medicare Supplement agents are paid a commission by the insurance carrier you choose. Your premium is the same whether you use an agent or enroll directly. There is no fee, no markup, and no hidden cost.",
   },
   {
-    question: "Do independent Medicare agents charge a fee?",
+    question: "Can an independent agent help me switch Medigap carriers?",
     answer:
-      "No. Independent Medicare Supplement agents are paid a commission by the insurance carrier when you enroll. You pay the same premium whether you use an agent or apply directly. There is zero cost to you for their help.",
+      "Yes. If your current carrier raises rates significantly, an independent agent can compare your plan across other carriers and help you apply for a new policy. Approval outside of your Medigap Open Enrollment Period typically requires medical underwriting, so acting early matters.",
   },
 ];
 
@@ -99,201 +100,204 @@ export default function IndependentMedicareSuppAgentsPage() {
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
-        <span className="text-gray-700">
-          Independent Medicare Supplement Insurance Agents
-        </span>
+        <span>Independent Medicare Supplement Insurance Agents</span>
       </nav>
 
-      <article className="max-w-3xl mx-auto">
-        <h1 className="text-3xl md:text-4xl font-bold mb-4">
-          Why You Want an Independent Medicare Supplement Insurance Agent
-        </h1>
+      <h1 className="text-3xl md:text-4xl font-bold mb-4">
+        Why You Want an Independent Medicare Supplement Insurance Agent
+      </h1>
 
-        <Image
-          src="/images/independent-medicare-supplement-insurance-agents_photo.webp"
-          alt="independent medicare supplement insurance agents"
-          width={800}
-          height={400}
-          className="w-full rounded-lg mb-6"
-          priority
-        />
+      <Image
+        src="/images/hub_independent-medicare-supplement-insurance-agents.webp"
+        alt="independent medicare supplement insurance agents"
+        width={800}
+        height={400}
+        className="w-full h-auto rounded-lg mb-6"
+        priority
+      />
 
-        <p className="text-lg mb-2">
-          Independent Medicare Supplement insurance agents work for you, not for
-          one carrier. They compare Plan G, Plan N, and other letters across
-          every major insurer to find the rate and rate history that actually
-          protect you long-term.
+      <p className="text-lg mb-2">
+        Independent Medicare Supplement insurance agents work with multiple
+        carriers, not just one. That single difference changes everything about
+        the advice you get, the rates you see, and how your plan performs five or
+        ten years from now.
+      </p>
+      <p className="text-lg mb-6">
+        I&apos;m Anthony Orner, a licensed independent Medicare broker in New
+        Jersey. I don&apos;t charge a fee and I don&apos;t work for any single
+        insurance company.
+      </p>
+
+      <PhoneCTA />
+
+      <section className="mt-10 mb-8">
+        <h2 className="text-2xl font-semibold mb-3">
+          Independent vs. captive Medicare Supplement agents explained
+        </h2>
+        <p className="mb-2">
+          A captive agent represents one carrier. They can only show you that
+          carrier&apos;s rates and plans. If another company offers the same Plan
+          G for $40 less per month, a captive agent can&apos;t tell you about
+          it.
         </p>
-        <p className="text-lg mb-6">
-          I'm Anthony Orner, a licensed independent broker in New Jersey. I
-          represent multiple carriers, and I never charge a fee. Here's why that
-          matters.
+        <p>
+          An independent agent is contracted with many carriers. I pull quotes
+          from across the market, compare them side by side, and show you
+          what&apos;s actually available. Same coverage. Different prices.
+          Different long-term rate behavior.
         </p>
+      </section>
 
-        <PhoneCTA />
+      <section className="mb-8">
+        <h2 className="text-2xl font-semibold mb-3">
+          How independent agents compare Plan G and Plan N across carriers
+        </h2>
+        <p className="mb-2">
+          Plan G and Plan N are standardized by Medicare. A Plan G from Carrier A
+          covers the exact same benefits as a Plan G from Carrier B. The
+          difference is the premium and how it changes over time.
+        </p>
+        <ul className="list-disc pl-6 space-y-1">
+          <li>
+            Some carriers price aggressively low to attract new enrollees, then
+            raise rates steeply as the pool ages.
+          </li>
+          <li>
+            Others price moderately at the start with more stable increases
+            year-over-year.
+          </li>
+          <li>
+            Rate increases can stack: age-based increases plus block rate
+            increases in the same year. Jumps of 10-18% in one year are not
+            unusual with certain carriers.
+          </li>
+        </ul>
+        <p className="mt-2">
+          I track this carrier pricing behavior so you don&apos;t have to. The
+          cheapest plan at 65 is rarely the cheapest plan at 78.
+        </p>
+      </section>
 
-        <section className="mt-10 mb-8">
-          <h2 className="text-2xl font-semibold mb-3">
-            Independent vs. captive Medicare Supplement agents explained
-          </h2>
-          <p className="mb-2">
-            A captive agent sells plans from one company. If that company raises
-            rates 14% next year, they can't move you. They'll tell you to call
-            customer service.
-          </p>
-          <p>
-            An independent agent represents multiple carriers. If your current
-            insurer becomes expensive, I can shop you a new Plan G from a
-            different carrier with the same exact benefits and a better rate
-            history. That flexibility is the whole point.
-          </p>
-        </section>
+      <section className="mb-8">
+        <h2 className="text-2xl font-semibold mb-3">
+          What it costs to use an independent Medicare agent (nothing)
+        </h2>
+        <p className="mb-2">
+          You pay zero. The insurance carrier pays the agent&apos;s commission.
+          Your premium is the same whether you call the carrier directly, go
+          through their website, or work with me.
+        </p>
+        <p>
+          The only difference is that with me, you get someone comparing every
+          competitive option instead of selling you one company&apos;s product.
+        </p>
+      </section>
 
-        <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-3">
-            How independent agents compare Plan G and Plan N across carriers
-          </h2>
-          <p className="mb-2">
-            Plan G is standardized by Medicare. Every Plan G covers the same
-            things regardless of which company issues it. What's not identical is
-            pricing behavior over time.
-          </p>
-          <ul className="list-disc pl-6 space-y-1">
-            <li>
-              Some carriers price aggressively low at first, then raise rates
-              steeply as the block ages.
-            </li>
-            <li>
-              Others start slightly higher but hold steadier year over year.
-            </li>
-            <li>
-              I look at 5- and 10-year rate increase history, not just today's
-              premium.
-            </li>
-          </ul>
-          <p className="mt-2">
-            The difference between a good pick and a bad one can be thousands of
-            dollars by the time you're 75.
-          </p>
-        </section>
+      <section className="mb-8">
+        <h2 className="text-2xl font-semibold mb-3">
+          Why the starting premium isn&apos;t the whole story
+        </h2>
+        <p className="mb-2">
+          Most people shopping for a Medicare Supplement focus on the starting
+          premium. That&apos;s understandable but incomplete. Attained-age
+          rating means your premium increases as you get older. Block rate
+          increases happen when claims rise within your pool of insured members.
+        </p>
+        <p>
+          When both stack in the same year, it hurts. An independent agent tracks
+          which carriers have a history of stable pricing and which ones
+          don&apos;t.
+        </p>
+      </section>
 
-        <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-3">
-            The starting premium trap most people fall into
-          </h2>
-          <p className="mb-2">
-            Most people shopping for a Medigap plan focus entirely on the
-            lowest monthly premium at 65. That's the first mistake.
-          </p>
-          <p>
-            Attained-age rate increases and block rate increases can stack
-            together. Annual jumps of 10-18% happen. An independent agent shows
-            you which carriers have a track record of stability, not just which
-            one looks cheapest on day one.
-          </p>
-        </section>
+      <section className="mb-8">
+        <h2 className="text-2xl font-semibold mb-3">
+          Annual reviews protect your budget
+        </h2>
+        <p className="mb-2">
+          I review my clients&apos; plans every year. If your carrier raised
+          rates and a competitor now offers the same standardized plan for
+          significantly less, I&apos;ll let you know and help you apply.
+        </p>
+        <p>
+          Switching carriers outside your Medigap Open Enrollment Period
+          typically requires medical underwriting. That&apos;s why acting before
+          health changes matter is smart.
+        </p>
+      </section>
 
-        <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-3">
-            What it costs to use an independent Medicare agent (nothing)
-          </h2>
-          <p className="mb-2">
-            You pay $0. The insurance carrier pays the agent's commission.
-            Your premium is the same whether you enroll through me, through a
-            captive agent, or directly on the carrier's website.
-          </p>
-          <p>
-            The only difference? I'll actually tell you when a different company
-            is the better deal.
-          </p>
-        </section>
+      <section className="mb-8">
+        <h2 className="text-2xl font-semibold mb-3">
+          Connect with an independent NJ Medicare Supplement agent today
+        </h2>
+        <p className="mb-2">
+          If you&apos;re turning 65 soon, your Medigap Open Enrollment Period
+          starts the month you turn 65 and are enrolled in Part B. During those
+          six months, no carrier can deny you or charge more based on health.
+          Apply about six months before your Part B start date to lock in your
+          rate on time.
+        </p>
+        <p>
+          Already on Medicare and want a second opinion on your plan? Call me.
+          I&apos;ll pull fresh quotes and tell you exactly where you stand.
+        </p>
+      </section>
 
-        <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-3">
-            Timing your enrollment to protect your rights
-          </h2>
-          <p className="mb-2">
-            Your Medigap Open Enrollment Period lasts 6 months, starting the
-            month you turn 65 and are enrolled in Part B. During this window,
-            no carrier can deny you or charge more based on health.
-          </p>
-          <p>
-            Miss it, and you'll face medical underwriting. Pre-existing
-            conditions like Type 2 diabetes can lock you out of Supplement plans
-            entirely. I've talked to people who switched to a $0-premium
-            Advantage plan and couldn't get their Plan G back. That's a mistake
-            an independent agent helps you avoid before it happens.
-          </p>
-        </section>
+      <div className="bg-blue-600 text-white rounded-lg p-6 text-center my-10">
+        <p className="text-xl font-semibold mb-2">
+          Talk to an independent Medicare Supplement agent for free.
+        </p>
+        <p className="text-lg mb-4">
+          Call{" "}
+          <a href="tel:8555591700" className="underline font-bold">
+            855-559-1700
+          </a>{" "}
+          or{" "}
+          <Link href="/contact" className="underline font-bold">
+            Get a Free Quote
+          </Link>
+        </p>
+      </div>
 
-        <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-3">
-            Connect with an independent NJ Medicare Supplement agent today
-          </h2>
-          <p className="mb-2">
-            I'll show you rates from every major carrier I represent, explain the
-            rate increase history behind each one, and help you enroll in the
-            plan that fits your budget now and later.
-          </p>
-          <p>No pressure. No fee. Just a straight comparison you can trust.</p>
-        </section>
+      <FAQSection faqs={faqs} />
 
-        <div className="bg-blue-600 text-white rounded-lg p-6 text-center my-10">
-          <p className="text-xl font-semibold mb-2">
-            Talk to an independent Medicare Supplement agent today.
-          </p>
-          <p className="text-lg mb-4">
-            Call{" "}
-            <a href="tel:8555591700" className="underline font-bold">
-              855-559-1700
-            </a>{" "}
-            or{" "}
-            <Link href="/contact" className="underline font-bold">
-              Get a Free Quote
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
+        <ul className="list-disc pl-6 space-y-2">
+          <li>
+            <Link
+              href="/medicare-guides/plan-g-vs-plan-n"
+              className="text-blue-600 hover:underline"
+            >
+              Plan G vs. Plan N: Which Medigap Plan Is Right for You?
             </Link>
-          </p>
-        </div>
-
-        <FAQSection faqs={faqs} />
-
-        <section className="mt-10 mb-8">
-          <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
-          <ul className="space-y-2">
-            <li>
-              <Link
-                href="/medicare-guides/medigap-plan-g"
-                className="text-blue-600 hover:underline"
-              >
-                Medicare Supplement Plan G: What It Covers and What It Costs
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/medicare-guides/medigap-plan-n"
-                className="text-blue-600 hover:underline"
-              >
-                Medicare Supplement Plan N: A Lower-Premium Alternative
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/medicare-guides/medigap-open-enrollment"
-                className="text-blue-600 hover:underline"
-              >
-                Medigap Open Enrollment: Deadlines and Guaranteed Issue Rights
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/about"
-                className="text-blue-600 hover:underline"
-              >
-                About Anthony Orner: Your Independent Medicare Broker in NJ
-              </Link>
-            </li>
-          </ul>
-        </section>
-      </article>
+          </li>
+          <li>
+            <Link
+              href="/medicare-guides/medigap-open-enrollment"
+              className="text-blue-600 hover:underline"
+            >
+              Medigap Open Enrollment: When and Why It Matters
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/medicare-guides/medicare-supplement-rates"
+              className="text-blue-600 hover:underline"
+            >
+              How Medicare Supplement Rates Work Over Time
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/about"
+              className="text-blue-600 hover:underline"
+            >
+              About Anthony Orner, Licensed Medicare Broker
+            </Link>
+          </li>
+        </ul>
+      </section>
     </>
   );
 }

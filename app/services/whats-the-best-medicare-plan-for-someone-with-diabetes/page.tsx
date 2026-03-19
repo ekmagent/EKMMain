@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Best Medicare Plan for Someone With Diabetes",
-      item: "https://www.medicareyourself.com/services/whats-the-best-medicare-plan-for-someone-with-diabetes",
+      item: "https://medicareyourself.com/services/whats-the-best-medicare-plan-for-someone-with-diabetes",
     },
   ],
 };
@@ -51,7 +51,7 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
@@ -64,217 +64,202 @@ const articleSchema = {
 
 const faqs = [
   {
-    question: "How much does a Medicare premium increase if you are diabetic?",
+    question: "Does Medicare pay 100% for insulin?",
     answer:
-      "Medicare Part B premiums are not affected by a diabetes diagnosis. Everyone pays the standard $185/month in 2026 regardless of health conditions. Medigap premiums, however, can vary by carrier and rating method. If you enroll during your 6-month Medigap Open Enrollment Period, insurers cannot charge you more due to diabetes. Outside that window, carriers in most states can medically underwrite and may increase premiums or deny coverage.",
+      "Under Part D plans, insulin costs are capped at $35 per month per covered insulin product as of 2025. This applies to both Medicare Advantage plans with drug coverage and standalone Part D plans. Original Medicare Part B also covers insulin used with a pump at 80% after the $283 annual deductible.",
   },
   {
     question: "Does Medicare pay for A1C testing for diabetics?",
     answer:
-      "Yes. Medicare Part B covers A1C tests for people diagnosed with diabetes. You can get up to two A1C tests per year, or more if your doctor determines it is medically necessary. You pay nothing for the test if your provider accepts Medicare assignment.",
+      "Yes. Medicare Part B covers A1C (hemoglobin glycated) tests when ordered by your doctor. If you have diabetes, Medicare typically covers up to two A1C tests per year. You pay nothing for the test if your provider accepts Medicare assignment.",
   },
   {
-    question:
-      "Does Medicare Advantage or Medigap cover insulin and diabetes supplies?",
+    question: "How much does a Medicare premium increase if you're diabetic?",
     answer:
-      "Original Medicare Part B covers blood glucose monitors, test strips, lancets, and continuous glucose monitors (CGMs) as durable medical equipment. Insulin administered through a pump is also covered under Part B. Insulin pens and vials used with syringes fall under Part D. Medigap helps pay the cost-sharing on Part B items. Medicare Advantage plans bundle Part D drug coverage and may offer additional benefits, but formularies and copays vary by plan.",
+      "Medicare Part A and Part B premiums are not affected by diabetes or any health condition. The 2026 Part B premium is $202.90/month regardless of health status. Medicare Supplement (Medigap) premiums can vary during underwriting, but during your Medigap Open Enrollment Period, insurers cannot charge more due to diabetes.",
   },
   {
-    question: "Is there a cap on insulin costs under Medicare?",
+    question: "Which insurance is best for diabetic patients on Medicare?",
     answer:
-      "Yes. The Inflation Reduction Act capped insulin copays at $35 per month for Medicare Part D and Medicare Advantage enrollees. This applies to all covered insulin products regardless of the plan you choose.",
+      "It depends on your specific medications, devices, and doctors. A Medicare Supplement (Medigap) plan paired with a strong Part D plan gives you the most provider flexibility. A Medicare Advantage plan may offer lower premiums but restricts your network. Call us at 855-559-1700 for a free comparison based on your prescriptions.",
   },
 ];
 
-export default function BestMedicarePlanDiabetesPage() {
+export default function BestMedicarePlanDiabetes() {
   return (
     <>
-      <SchemaMarkup schema={breadcrumbSchema} />
-      <SchemaMarkup schema={articleSchema} />
+      <SchemaMarkup schema={[breadcrumbSchema, articleSchema]} />
 
-      <main className="max-w-4xl mx-auto px-4 py-8">
-        <nav className="text-sm text-gray-500 mb-6" aria-label="Breadcrumb">
-          <Link href="/" className="hover:underline">
-            Home
-          </Link>{" "}
-          &gt;{" "}
-          <Link href="/medicare-guides" className="hover:underline">
-            Medicare Guides
-          </Link>{" "}
-          &gt;{" "}
-          <span className="text-gray-700">
-            Best Medicare Plan for Someone With Diabetes
-          </span>
-        </nav>
+      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-4">
+        <Link href="/" className="hover:underline">
+          Home
+        </Link>{" "}
+        &gt;{" "}
+        <Link href="/services" className="hover:underline">
+          Medicare Guides
+        </Link>{" "}
+        &gt;{" "}
+        <span>Best Medicare Plan for Someone With Diabetes</span>
+      </nav>
 
+      <article className="max-w-3xl mx-auto">
         <h1 className="text-3xl md:text-4xl font-bold mb-4">
           What's the Best Medicare Plan for Someone With Diabetes? A Broker's
           Honest Answer
         </h1>
 
         <Image
-          src="/images/whats-the-best-medicare-plan-for-someone-with-diabetes.webp"
+          src="/images/hub_whats-the-best-medicare-plan-for-someone-with-diabetes.webp"
           alt="what's the best medicare plan for someone with diabetes"
           width={800}
           height={400}
-          className="rounded-lg mb-6 w-full"
+          className="w-full rounded-lg mb-6"
+          priority
         />
 
         <p className="text-lg mb-2">
-          What's the best Medicare plan for someone with diabetes? After years of
-          helping diabetic clients in NJ choose coverage, my answer is always the
-          same: it depends on the medications you take, the supplies you need,
-          and how much financial predictability matters to you.
-        </p>
-        <p className="text-lg mb-6">
-          There's no single "best" plan. But there is a best plan for your
-          situation, and I can help you find it at no cost.
+          What's the best Medicare plan for someone with diabetes? There's no
+          single right answer. The right plan depends on which insulin you take,
+          whether you use a CGM, and how often you see specialists. I'll walk you
+          through the real tradeoffs so you can pick with confidence.
         </p>
 
         <PhoneCTA />
 
-        <section className="mt-10 mb-8">
+        <section className="mt-8">
           <h2 className="text-2xl font-semibold mb-3">
             How Original Medicare covers diabetes supplies and medications
           </h2>
           <p className="mb-2">
-            Medicare Part B covers diabetes supplies classified as durable
-            medical equipment. That includes blood glucose monitors, test strips,
-            lancets, and continuous glucose monitors (CGMs) like the Dexcom or
-            FreeStyle Libre. You pay 20% of the Medicare-approved amount after
-            your $257 Part B deductible.
-          </p>
-          <p className="mb-2">
-            Part B also covers A1C tests - typically two per year, or more if
-            your doctor orders them. Insulin delivered via a pump falls under
-            Part B as well.
+            Part B covers blood glucose monitors, test strips, lancets, and
+            insulin pumps at 80% after your $283 annual deductible (2026). It
+            also covers diabetes self-management training and A1C tests up to
+            twice a year at no cost.
           </p>
           <p>
-            Insulin pens and vials you inject yourself? Those go through Part D.
-            That distinction matters when you're comparing plans.
+            Part D handles oral diabetes medications and insulin pens/vials.
+            Since 2025, insulin copays are capped at $35/month per covered
+            product. That cap applies to both standalone Part D and Medicare
+            Advantage drug plans.
           </p>
         </section>
 
-        <section className="mb-8">
+        <section className="mt-8">
           <h2 className="text-2xl font-semibold mb-3">
             Medigap vs. Advantage: which controls out-of-pocket costs better
           </h2>
-          <p className="mb-2">
-            A Medigap plan like Plan G covers that 20% Part B cost-sharing on
-            your diabetes supplies. You'd pay $257 for the annual deductible and
-            then essentially nothing else for Part B services. Monthly premiums
-            are higher, but your costs are predictable.
-          </p>
-          <p className="mb-2">
-            Medicare Advantage plans often bundle Part D drug coverage and may
-            add extras like dental or vision. But you'll face copays, prior
-            authorizations, and network restrictions. For someone managing
-            diabetes with multiple specialists, those copays add up fast.
-          </p>
-          <p>
-            If keeping total annual spending predictable is your priority,
-            Medigap plus a standalone Part D plan usually wins.
+          <ul className="list-disc pl-5 space-y-2">
+            <li>
+              <strong>Medigap (Plan G or N) + Part D:</strong> You see any
+              Medicare-accepting doctor nationwide. Plan G covers the Part A
+              deductible ($1,676 in 2026) and all Part B coinsurance. You pay
+              the Part B deductible, then essentially nothing else for
+              Medicare-covered services.
+            </li>
+            <li>
+              <strong>Medicare Advantage (Part C):</strong> Often $0 premium
+              with drug coverage built in. But you're locked into a network, and
+              copays for specialist visits and supplies add up if you need
+              frequent endocrinology visits, lab work, and device fittings.
+            </li>
+          </ul>
+          <p className="mt-2">
+            If your diabetes care involves multiple specialists and frequent
+            supply orders, Medigap usually gives you more predictable costs.
+            Advantage can work well if you're stable on oral medications with
+            fewer providers.
           </p>
         </section>
 
-        <section className="mb-8">
+        <section className="mt-8">
           <h2 className="text-2xl font-semibold mb-3">
             Part D formulary traps that hit diabetics hardest
           </h2>
           <p className="mb-2">
-            Not all Part D plans cover the same insulin brands. Your doctor may
-            prescribe Humalog, but your plan's formulary might prefer Novolog -
-            or require step therapy before approving either.
+            Not all Part D plans cover every insulin brand or CGM sensor at the
+            same tier. Switching from Humalog to Novolog might save you $200 a
+            year on one plan but cost more on another. Always check the
+            formulary before you enroll.
           </p>
-          <ul className="list-disc ml-6 mb-2 space-y-1">
-            <li>
-              The $35/month insulin cap under the Inflation Reduction Act applies
-              to all covered insulin products, but the drug still has to be on
-              the formulary.
-            </li>
-            <li>
-              CGM sensors covered under Part B don't go through Part D, so don't
-              confuse the two when comparing plans.
-            </li>
-            <li>
-              Some plans place newer diabetes medications like Ozempic or
-              Mounjaro on higher tiers with steep copays or prior authorization
-              requirements.
-            </li>
-          </ul>
           <p>
-            I always run a client's full medication list through the plan finder
-            before recommending anything.
+            Watch for step therapy and prior authorization requirements on newer
+            medications like Ozempic or Mounjaro. Some plans force you to try
+            metformin or a sulfonylurea first, even if your endocrinologist
+            disagrees.
           </p>
         </section>
 
-        <section className="mb-8">
+        <section className="mt-8">
           <h2 className="text-2xl font-semibold mb-3">
             How to pick the right plan based on your specific medications
           </h2>
           <p className="mb-2">
-            Bring me your medication list - every drug, every dosage. I'll check
-            which Part D plans in your area cover each one at the lowest
-            out-of-pocket cost. This takes about 15 minutes and costs you
-            nothing.
+            Start with your medication list. Every drug, every dose, every
+            device. Then compare Part D plans on medicare.gov's Plan Finder or
+            call us. We run your exact prescriptions through every available plan
+            to find your lowest annual cost.
           </p>
           <p>
-            The right Part D plan for a diabetic on Metformin alone looks
-            completely different from someone on Lantus, Jardiance, and a CGM.
-            Cookie-cutter advice doesn't work here.
+            A broker does this for free. We're not guessing. We're running the
+            numbers.
           </p>
         </section>
 
-        <section className="mb-8">
+        <section className="mt-8">
           <h2 className="text-2xl font-semibold mb-3">
-            Why your enrollment window matters more than you think
+            CGM and pump coverage: what Medicare actually pays
           </h2>
           <p className="mb-2">
-            If you're turning 65 and have diabetes, your 6-month Medigap Open
-            Enrollment Period is critical. During this window, no carrier can
-            deny you or charge higher premiums because of your diabetes. Miss it,
-            and most states (including NJ) allow medical underwriting that could
-            price you out of Medigap entirely.
+            Medicare Part B covers continuous glucose monitors (like Dexcom and
+            Libre) as durable medical equipment when prescribed by your doctor.
+            You pay 20% after the deductible unless you have a Medigap plan that
+            picks up that coinsurance.
           </p>
           <p>
-            For Medicare Advantage and Part D changes, Open Enrollment runs
-            October 15 through December 7 each year.
+            Insulin pump supplies also fall under Part B. If you're on a pump
+            and a CGM, your 20% coinsurance adds up fast without supplemental
+            coverage.
           </p>
         </section>
 
-        <section className="mb-10">
+        <section className="mt-8">
           <h2 className="text-2xl font-semibold mb-3">
-            The bottom line for diabetics on Medicare
+            The enrollment window matters more than you think
           </h2>
           <p className="mb-2">
-            There's no universal "best" diabetes plan. But the right combination
-            of Original Medicare + Medigap + Part D (or a well-chosen Advantage
-            plan) can keep your costs low and your supplies covered.
+            Your Medigap Open Enrollment Period starts the month you turn 65 and
+            are enrolled in Part B. During those six months, no insurer can deny
+            you or charge extra because of diabetes. Miss that window and
+            underwriting kicks in. That can mean higher premiums or outright
+            denial.
           </p>
           <p>
-            Call me with your medication list. I'll compare every option
-            available in your ZIP code and show you the numbers. No pressure, no
-            cost.
+            For Medicare Advantage and Part D, Open Enrollment runs October 15
+            through December 7 each year. Review your plan annually because
+            formularies change.
           </p>
         </section>
 
-        <div className="bg-blue-600 text-white rounded-lg p-6 mb-10 text-center">
+        <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 mt-10 mb-10 text-center">
           <p className="text-xl font-semibold mb-2">
-            Ready to find the right Medicare plan for your diabetes care?
+            Let's find the right plan for your diabetes care.
           </p>
           <p className="mb-4">
             Call{" "}
-            <a href="tel:8555591700" className="underline font-bold">
+            <a
+              href="tel:8555591700"
+              className="text-blue-700 font-bold hover:underline"
+            >
               855-559-1700
             </a>{" "}
             or{" "}
-            <Link href="/contact" className="underline font-bold">
-              get a free quote online
-            </Link>
-            .
-          </p>
-          <p className="text-sm">
-            Anthony Orner, Licensed Medicare Broker - No fees, no obligation.
+            <Link
+              href="/contact"
+              className="text-blue-700 font-bold hover:underline"
+            >
+              Get a Free Quote
+            </Link>{" "}
+            to compare plans based on your exact medications and doctors.
           </p>
         </div>
 
@@ -285,39 +270,39 @@ export default function BestMedicarePlanDiabetesPage() {
           <ul className="space-y-2">
             <li>
               <Link
-                href="/services/medicare-plan-g"
-                className="text-blue-600 hover:underline"
+                href="/services/medicare-supplement-plan-g"
+                className="text-blue-700 hover:underline"
               >
-                Medicare Plan G: What It Covers and What It Costs
+                Medicare Supplement Plan G: Full Breakdown
               </Link>
             </li>
             <li>
               <Link
                 href="/services/medicare-advantage-vs-medigap"
-                className="text-blue-600 hover:underline"
+                className="text-blue-700 hover:underline"
               >
                 Medicare Advantage vs. Medigap: Which Is Right for You?
               </Link>
             </li>
             <li>
               <Link
-                href="/services/medicare-part-d"
-                className="text-blue-600 hover:underline"
+                href="/services/medicare-part-d-enrollment"
+                className="text-blue-700 hover:underline"
               >
-                Medicare Part D: How Prescription Drug Coverage Works
+                Medicare Part D Enrollment: What You Need to Know
               </Link>
             </li>
             <li>
               <Link
-                href="/services/medigap-open-enrollment"
-                className="text-blue-600 hover:underline"
+                href="/services/medicare-open-enrollment"
+                className="text-blue-700 hover:underline"
               >
-                Medigap Open Enrollment: Why Timing Matters
+                Medicare Open Enrollment Period Explained
               </Link>
             </li>
           </ul>
         </section>
-      </main>
+      </article>
     </>
   );
 }

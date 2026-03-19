@@ -9,12 +9,12 @@ export const metadata: Metadata = {
   title:
     "what is the best medicare plan for dialysis? | Free Broker Consultation | MedicareYourself",
   description:
-    "What is the best Medicare plan for dialysis? Compare Medigap and Advantage coverage for ESRD patients, including drug costs and out-of-pocket caps.",
+    "What is the best Medicare plan for dialysis? Compare Medigap and Advantage for ESRD, drug costs, and out-of-pocket caps. Free consultation: 855-559-1700.",
   openGraph: {
     title:
       "what is the best medicare plan for dialysis? | Free Broker Consultation | MedicareYourself",
     description:
-      "What is the best Medicare plan for dialysis? Compare Medigap and Advantage coverage for ESRD patients, including drug costs and out-of-pocket caps.",
+      "What is the best Medicare plan for dialysis? Compare Medigap and Advantage for ESRD, drug costs, and out-of-pocket caps. Free consultation: 855-559-1700.",
   },
 };
 
@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Best Medicare Plan for Dialysis",
-      item: "https://www.medicareyourself.com/services/what-is-the-best-medicare-plan-for-dialysis",
+      item: "https://medicareyourself.com/services/what-is-the-best-medicare-plan-for-dialysis",
     },
   ],
 };
@@ -51,7 +51,7 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
@@ -64,37 +64,37 @@ const articleSchema = {
 
 const faqs = [
   {
-    question: "Which Medicare plan covers dialysis?",
+    question: "Which insurance is best for dialysis patients?",
     answer:
-      "Original Medicare (Parts A and B) covers both in-center and home dialysis. Part A covers inpatient dialysis during hospital stays, while Part B covers outpatient dialysis treatments. You can also pair Original Medicare with a Medigap plan or enroll in a Medicare Advantage plan that includes dialysis coverage.",
+      "For most dialysis patients, Original Medicare (Parts A and B) paired with a Medigap plan like Plan G offers the most predictable costs. Medigap covers the 20% coinsurance on dialysis that Part B leaves behind. Medicare Advantage can work too, but check the plan's dialysis provider network and annual out-of-pocket maximum carefully.",
   },
   {
     question:
-      "Can I enroll in Medicare Advantage if I have ESRD?",
+      "Can I get Medicare before 65 if I need dialysis?",
     answer:
-      "Yes. Since 2021, people with End-Stage Renal Disease can enroll in Medicare Advantage plans during the Annual Enrollment Period (October 15 through December 7). Before 2021, ESRD patients were largely locked out of Advantage plans.",
+      "Yes. If you have End-Stage Renal Disease (ESRD) and meet Social Security work requirements, you can qualify for Medicare at any age. Coverage typically starts the fourth month after dialysis begins, though it can start sooner if you train for home dialysis or get a transplant.",
   },
   {
     question:
-      "Does Medicare cover the drugs I need while on dialysis?",
+      "Does Medicare pay 100% of dialysis costs?",
     answer:
-      "Medicare Part B covers certain dialysis drugs administered during treatment, including injectable EPO. Oral medications like phosphate binders may fall under Part D. Formularies vary by plan, so check your specific Part D or Advantage plan's drug list.",
+      "No. Medicare Part B covers 80% of approved dialysis charges after the $283 annual deductible (2026). You're responsible for the remaining 20% coinsurance unless you have Medigap, Medicaid, or another secondary insurance to pick up that share.",
   },
   {
     question:
-      "How much does dialysis cost with Original Medicare?",
+      "Can ESRD patients enroll in Medicare Advantage in 2025?",
     answer:
-      "Under Part B, you pay 20% of the Medicare-approved amount for outpatient dialysis after meeting the $257 annual Part B deductible (2026). That 20% can add up to thousands per year, which is why many dialysis patients add a Medigap plan to cover that coinsurance.",
+      "Yes. Since the 21st Century Cures Act took full effect in 2021, people with ESRD can enroll in Medicare Advantage plans during open enrollment (October 15 through December 7). Previously, most ESRD patients were locked out of Advantage plans.",
   },
 ];
 
 export default function BestMedicarePlanForDialysis() {
   return (
-    <main className="max-w-4xl mx-auto px-4 py-8">
+    <main className="max-w-3xl mx-auto px-4 py-8">
       <SchemaMarkup schema={breadcrumbSchema} />
       <SchemaMarkup schema={articleSchema} />
 
-      <nav className="text-sm text-gray-500 mb-6" aria-label="Breadcrumb">
+      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
         <Link href="/" className="hover:underline">
           Home
         </Link>{" "}
@@ -106,23 +106,24 @@ export default function BestMedicarePlanForDialysis() {
         <span className="text-gray-700">Best Medicare Plan for Dialysis</span>
       </nav>
 
-      <h1 className="text-3xl font-bold mb-4">
+      <h1 className="text-3xl font-bold mb-4 leading-snug">
         What Is the Best Medicare Plan for Dialysis? Comparing Original Medicare, Medigap, and Advantage
       </h1>
 
       <Image
-        src="/images/what-is-the-best-medicare-plan-for-dialysis.webp"
+        src="/images/hub_what-is-the-best-medicare-plan-for-dialysis.webp"
         alt="what is the best medicare plan for dialysis"
         width={800}
         height={400}
-        className="rounded-lg mb-6 w-full"
+        className="w-full rounded-lg mb-6"
+        priority
       />
 
       <p className="text-lg mb-2">
-        What is the best Medicare plan for dialysis? The answer depends on your age, how you qualified for Medicare, and how much out-of-pocket cost you can handle. I'm Anthony Orner, a licensed Medicare broker, and I walk ESRD patients through this decision regularly.
+        What is the best Medicare plan for dialysis? The short answer: Original Medicare plus a Medigap supplement gives most ESRD patients the lowest, most predictable out-of-pocket costs. But your age, budget, and drug needs can shift the math.
       </p>
       <p className="mb-6">
-        There's no single "best" plan for everyone on dialysis. But once you understand how the pieces fit together, the right choice gets much clearer.
+        Three treatments a week, every week. You already carry enough. Let's cut through the confusion so you know exactly what each option covers and what it costs.
       </p>
 
       <PhoneCTA />
@@ -132,10 +133,10 @@ export default function BestMedicarePlanForDialysis() {
           How Medicare Parts A and B cover in-center and home dialysis
         </h2>
         <p className="mb-2">
-          Original Medicare is the foundation. Part B covers outpatient dialysis, whether you receive it at a dialysis center or at home. Part A kicks in if you need dialysis during an inpatient hospital stay.
+          Medicare Part B covers 80% of approved charges for both in-center and home dialysis after you meet the $283 annual deductible (2026). That includes the dialysis itself, lab tests, and certain supplies.
         </p>
         <p>
-          Under Part B, you pay 20% of the Medicare-approved amount after your $257 annual deductible (2026). For three treatments per week, that 20% coinsurance can easily reach $10,000 or more per year. That's why most dialysis patients don't stop at Original Medicare alone.
+          Part A covers dialysis only if you're an inpatient in a hospital. For the vast majority of patients going to a clinic three times a week, Part B does the heavy lifting. The 20% coinsurance you owe on every session is the real cost problem.
         </p>
       </section>
 
@@ -143,42 +144,19 @@ export default function BestMedicarePlanForDialysis() {
         <h2 className="text-2xl font-semibold mb-3">
           Medigap Plan G vs. Medicare Advantage for ESRD patients in 2025
         </h2>
-        <p className="mb-3">
-          This is the core decision. Here's a quick comparison:
+        <p className="mb-2">
+          With Original Medicare alone, that 20% coinsurance on dialysis adds up fast. At roughly $6,000/month in total charges, you could owe over $1,200 monthly out of pocket.
         </p>
-        <table className="w-full border-collapse border border-gray-300 mb-4 text-sm">
-          <thead>
-            <tr className="bg-gray-100">
-              <th className="border border-gray-300 px-4 py-2 text-left">Feature</th>
-              <th className="border border-gray-300 px-4 py-2 text-left">Medigap Plan G</th>
-              <th className="border border-gray-300 px-4 py-2 text-left">Medicare Advantage</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td className="border border-gray-300 px-4 py-2">Dialysis coinsurance</td>
-              <td className="border border-gray-300 px-4 py-2">Covered at 100% after Part B deductible</td>
-              <td className="border border-gray-300 px-4 py-2">Copays or coinsurance vary by plan</td>
-            </tr>
-            <tr>
-              <td className="border border-gray-300 px-4 py-2">Provider network</td>
-              <td className="border border-gray-300 px-4 py-2">Any provider accepting Medicare</td>
-              <td className="border border-gray-300 px-4 py-2">Network restrictions apply</td>
-            </tr>
-            <tr>
-              <td className="border border-gray-300 px-4 py-2">Out-of-pocket max</td>
-              <td className="border border-gray-300 px-4 py-2">Effectively $257/year (Part B deductible only)</td>
-              <td className="border border-gray-300 px-4 py-2">Plans must cap at a set maximum</td>
-            </tr>
-            <tr>
-              <td className="border border-gray-300 px-4 py-2">Monthly premium</td>
-              <td className="border border-gray-300 px-4 py-2">Varies by carrier and location</td>
-              <td className="border border-gray-300 px-4 py-2">Many $0 premium plans available</td>
-            </tr>
-          </tbody>
-        </table>
+        <ul className="list-disc pl-6 space-y-2 mb-2">
+          <li>
+            <strong>Medigap Plan G</strong> covers that 20% coinsurance with no network restrictions. You pay a monthly premium (rates vary by carrier and age), but your dialysis cost becomes predictable.
+          </li>
+          <li>
+            <strong>Medicare Advantage</strong> now accepts ESRD patients. Plans include annual out-of-pocket maximums, but you must use in-network dialysis providers. Check that your clinic is covered before enrolling.
+          </li>
+        </ul>
         <p>
-          Medigap Plan G gives you predictable costs. You pay the Part B deductible, and Plan G covers nearly everything else. For frequent dialysis, that predictability matters a lot.
+          If you value provider freedom and hate surprises, Medigap wins. If you want lower premiums and can confirm your clinic is in-network, Advantage is worth reviewing.
         </p>
       </section>
 
@@ -186,65 +164,72 @@ export default function BestMedicarePlanForDialysis() {
         <h2 className="text-2xl font-semibold mb-3">
           Drug coverage considerations: EPO, phosphate binders, and Part D
         </h2>
-        <ul className="list-disc pl-6 space-y-2">
-          <li>Injectable EPO given during dialysis is covered under Part B, not Part D.</li>
-          <li>Oral medications like phosphate binders and certain anti-rejection drugs typically fall under Part D.</li>
-          <li>Medicare Advantage plans often bundle Part D. With Medigap, you need a standalone Part D plan.</li>
-          <li>Formularies differ between plans. Always check that your specific drugs are covered before enrolling.</li>
-        </ul>
+        <p className="mb-2">
+          Drugs administered during dialysis (like EPO injections) are covered under Part B, not Part D. You won't need a separate drug plan for those.
+        </p>
+        <p>
+          But oral medications you take at home, such as phosphate binders or blood pressure drugs, require a standalone Part D plan or an Advantage plan with built-in drug coverage. Compare formularies carefully. Not all Part D plans cover the same kidney medications at the same tier.
+        </p>
       </section>
 
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-3">
           Enrollment rules for dialysis patients under 65 and over 65
         </h2>
+        <ul className="list-disc pl-6 space-y-2">
+          <li>
+            <strong>Under 65 with ESRD:</strong> You can qualify for Medicare regardless of age if you meet Social Security work history requirements. Coverage usually starts the fourth month of dialysis. Home dialysis training can trigger earlier coverage.
+          </li>
+          <li>
+            <strong>Over 65:</strong> You're already Medicare-eligible. If you develop ESRD while on Medicare, your existing coverage applies immediately.
+          </li>
+          <li>
+            <strong>Gap risk:</strong> Some patients face a coverage gap between starting dialysis and Medicare kicking in. If you're aging off a parent's plan or between jobs, Medicaid or marketplace insurance may bridge that window.
+          </li>
+        </ul>
+      </section>
+
+      <section className="mb-8">
+        <h2 className="text-2xl font-semibold mb-3">
+          Why the 20% coinsurance catches people off guard
+        </h2>
         <p className="mb-2">
-          You can qualify for Medicare at any age with ESRD if you meet work history requirements through Social Security or the Railroad Retirement Board. Your spouse's or parent's work history may also qualify you.
+          Many dialysis patients don't realize they owe anything until a bill shows up months later. Some clinics absorb costs temporarily or bill secondary insurance without the patient knowing. That silence feels fine until coverage changes or a claim gets denied.
         </p>
         <p>
-          If you're under 65 with ESRD, Medigap guaranteed issue rights vary by state. Some states require carriers to sell Medigap to under-65 Medicare beneficiaries, but many do not. Call me to check what's available in your state.
+          Know who's paying your 20%. If you can't answer that question today, call us. We'll help you figure it out before it becomes a problem.
         </p>
       </section>
 
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-3">
-          Medicare Advantage is now open to ESRD patients
+          How to choose the right plan for your situation
         </h2>
-        <p className="mb-2">
-          Before 2021, ESRD patients were largely blocked from joining Medicare Advantage. That changed with the 21st Century Cures Act. Now you can enroll during the Annual Enrollment Period (October 15 through December 7).
-        </p>
-        <p>
-          Advantage plans can be attractive if you want $0 premiums and bundled drug coverage. But check the plan's dialysis copay structure carefully. A low premium means nothing if your per-treatment costs are high.
-        </p>
+        <ul className="list-disc pl-6 space-y-2">
+          <li>Confirm your dialysis center accepts Original Medicare and/or is in-network for any Advantage plan you're considering.</li>
+          <li>Calculate your total monthly cost under each option: premiums + coinsurance + drug copays.</li>
+          <li>If you're under 65, check your state's Medigap rules. Medigap access for under-65 ESRD patients varies by state.</li>
+          <li>Review Part D formularies for any home medications you take daily.</li>
+        </ul>
       </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          My recommendation for most dialysis patients
-        </h2>
-        <p className="mb-2">
-          If you can get Medigap Plan G and a standalone Part D plan, that's usually the strongest setup. Your out-of-pocket exposure drops to almost nothing for dialysis itself. You also keep full freedom to use any Medicare-accepting dialysis center.
-        </p>
-        <p>
-          If Medigap isn't available to you (common for under-65 ESRD patients in certain states), a well-structured Medicare Advantage plan with a reasonable out-of-pocket maximum is your next best option. Either way, don't guess. Let me run the numbers for your situation.
-        </p>
-      </section>
-
-      <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 text-center mb-10">
-        <p className="text-lg font-semibold mb-2">
-          Need help choosing the right Medicare plan for dialysis?
+      <div className="bg-blue-600 text-white rounded-lg p-6 text-center my-10">
+        <p className="text-xl font-semibold mb-2">
+          Need help comparing plans for dialysis coverage?
         </p>
         <p className="mb-4">
           Call{" "}
-          <a href="tel:8555591700" className="text-blue-700 font-bold hover:underline">
+          <a href="tel:8555591700" className="underline font-bold">
             855-559-1700
           </a>{" "}
-          for a free consultation, or{" "}
-          <Link href="/contact" className="text-blue-700 font-bold hover:underline">
-            get a free quote online
-          </Link>
-          .
+          to speak with a licensed broker. No cost, no obligation.
         </p>
+        <Link
+          href="/get-a-free-quote"
+          className="inline-block bg-white text-blue-600 font-semibold py-2 px-6 rounded-lg hover:bg-gray-100 transition"
+        >
+          Get a Free Quote
+        </Link>
       </div>
 
       <FAQSection faqs={faqs} />
@@ -253,23 +238,35 @@ export default function BestMedicarePlanForDialysis() {
         <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
         <ul className="space-y-2">
           <li>
-            <Link href="/services/medigap-plan-g" className="text-blue-700 hover:underline">
-              Medigap Plan G: Full Coverage Breakdown
+            <Link
+              href="/services/medicare-supplement-plan-g"
+              className="text-blue-600 hover:underline"
+            >
+              Medicare Supplement Plan G: What It Covers
             </Link>
           </li>
           <li>
-            <Link href="/services/medicare-advantage-plans" className="text-blue-700 hover:underline">
-              Medicare Advantage Plans: How They Work
+            <Link
+              href="/services/medicare-advantage-vs-medigap"
+              className="text-blue-600 hover:underline"
+            >
+              Medicare Advantage vs. Medigap: Which Is Better?
             </Link>
           </li>
           <li>
-            <Link href="/services/medicare-part-d" className="text-blue-700 hover:underline">
-              Medicare Part D: Prescription Drug Coverage
+            <Link
+              href="/services/medicare-part-d-drug-coverage"
+              className="text-blue-600 hover:underline"
+            >
+              Understanding Medicare Part D Drug Coverage
             </Link>
           </li>
           <li>
-            <Link href="/services/medicare-enrollment-guide" className="text-blue-700 hover:underline">
-              Medicare Enrollment Guide: Key Dates and Deadlines
+            <Link
+              href="/services/esrd-medicare-eligibility"
+              className="text-blue-600 hover:underline"
+            >
+              ESRD Medicare Eligibility: How to Qualify
             </Link>
           </li>
         </ul>

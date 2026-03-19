@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Medicare Supplement Rate Jumped — Why and What to Do",
-      item: "https://www.medicareyourself.com/services/medicare-supplement-rate-jumped-why-and-what-can-i-do",
+      item: "https://medicareyourself.com/services/medicare-supplement-rate-jumped-why-and-what-can-i-do",
     },
   ],
 };
@@ -51,7 +51,7 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
@@ -114,7 +114,7 @@ export default function MedicareSupplementRateJumped() {
         </h1>
 
         <Image
-          src="/images/medicare-supplement-rate-jumped-why-and-what-can-i-do.webp"
+          src="/images/medicare-supplement-rate-jumped-why-and-what-can-i-do_photo.webp"
           alt="my medicare supplement rate just jumped — why and what can I do"
           width={800}
           height={400}

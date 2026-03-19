@@ -167,7 +167,7 @@ function escapeForJsx(str) {
 function writeFaqPage(question, slug, answer) {
   const escapedQuestion = escapeForJsx(question);
   const escapedAnswer = escapeForJsx(answer);
-  const siteUrl = "https://www.medicareyourself.com";
+  const siteUrl = "https://medicareyourself.com";
 
   const content = `import type { Metadata } from "next";
 import Link from "next/link";
@@ -260,7 +260,7 @@ export default function FAQPage() {
 
 /** Regenerate the hub page from all current FAQ entries */
 function writeHubPage(entries) {
-  const siteUrl = "https://www.medicareyourself.com";
+  const siteUrl = "https://medicareyourself.com";
 
   const listItems = entries
     .map(

@@ -45,9 +45,9 @@ export default function MedicarePartsPage() {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.medicareyourself.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.medicareyourself.com/learn" },
-      { "@type": "ListItem", position: 3, name: "Medicare Parts Explained", item: "https://www.medicareyourself.com/learn/medicare-parts-explained" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://medicareyourself.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://medicareyourself.com/learn" },
+      { "@type": "ListItem", position: 3, name: "Medicare Parts Explained", item: "https://medicareyourself.com/learn/medicare-parts-explained" },
     ],
   };
 

@@ -7,14 +7,14 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 
 export const metadata: Metadata = {
   title:
-    "medicare broker for diabetics | Free Plan Comparison | MedicareYourself",
+    "medicare broker for diabetics | Free Help Finding the Right Plan | MedicareYourself",
   description:
-    "Medicare broker for diabetics who knows insulin costs, CGM coverage, and specialist access. Anthony Orner finds plans built for your daily reality. Free help.",
+    "Medicare broker for diabetics who understands insulin costs, CGM coverage, and specialist access. Anthony Orner finds plans built for your daily reality. Free help.",
   openGraph: {
     title:
-      "medicare broker for diabetics | Free Plan Comparison | MedicareYourself",
+      "medicare broker for diabetics | Free Help Finding the Right Plan | MedicareYourself",
     description:
-      "Medicare broker for diabetics who knows insulin costs, CGM coverage, and specialist access. Anthony Orner finds plans built for your daily reality. Free help.",
+      "Medicare broker for diabetics who understands insulin costs, CGM coverage, and specialist access. Anthony Orner finds plans built for your daily reality. Free help.",
   },
 };
 
@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Medicare Broker for Diabetics",
-      item: "https://www.medicareyourself.com/services/medicare-broker-for-diabetics",
+      item: "https://medicareyourself.com/services/medicare-broker-for-diabetics",
     },
   ],
 };
@@ -51,45 +51,44 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-01",
-  dateModified: "2025-07-01",
+  datePublished: "2025-07-14",
+  dateModified: "2025-07-14",
 };
 
 const faqs = [
   {
-    question: "Do you pay a Medicare broker?",
+    question: "What's the best Medicare plan for someone with diabetes?",
     answer:
-      "No. Medicare brokers are paid by the insurance carriers, not by you. There's no fee, no commission you owe, and no catch. The help is free whether you enroll or not.",
+      "It depends on your medications, devices, and specialists. Someone on insulin with a CGM has very different needs than someone managing with metformin alone. A broker who understands diabetes can compare formularies, device coverage, and specialist networks across dozens of plans to find the best fit for your specific situation.",
+  },
+  {
+    question: "Do I pay a Medicare broker?",
+    answer:
+      "No. Licensed Medicare brokers are paid by the insurance carriers, not by you. The plans cost the same whether you enroll yourself or work with a broker. You get expert guidance at no extra charge.",
+  },
+  {
+    question: "Does Medicare cover continuous glucose monitors (CGMs)?",
+    answer:
+      "Medicare Part B covers CGMs for beneficiaries who use insulin. If you're Type 2 and not on insulin, coverage is more limited and often denied. A broker can help identify Medicare Advantage plans with broader CGM coverage or guide you through the criteria Medicare requires.",
   },
   {
     question:
-      "Does Medicare cover continuous glucose monitors (CGMs) for Type 2 diabetes?",
+      "Can a Medicare broker help me find plans that cover my endocrinologist?",
     answer:
-      "Medicare Part B covers CGMs for people who use insulin. If you have Type 2 diabetes and don't use insulin, CGM coverage is harder to get and may require an appeal. A broker can help you understand your options based on your specific treatment plan.",
-  },
-  {
-    question:
-      "What's the difference between Part B and Part D for diabetes supplies?",
-    answer:
-      "Part B covers blood glucose testing supplies, CGMs (for insulin users), and diabetes self-management training. Part D covers diabetes medications and supplies for injecting or inhaling insulin. Some supplies fall into gray areas depending on how they're used, which is exactly where a broker helps.",
-  },
-  {
-    question: "Can a Medicare broker help me find plans that cover my endocrinologist?",
-    answer:
-      "Yes. A broker can check whether your endocrinologist, podiatrist, and eye doctor are in-network before you enroll. With Original Medicare plus a Supplement, you can see any provider who accepts Medicare. With Medicare Advantage, network rules vary by plan.",
+      "Yes. A broker can check whether your endocrinologist, podiatrist, and ophthalmologist are in-network before you enroll. This prevents surprises and referral requirements that delay the care you need.",
   },
 ];
 
 export default function MedicareBrokerForDiabetics() {
   return (
-    <main className="max-w-4xl mx-auto px-4 py-8">
+    <main className="max-w-3xl mx-auto px-4 py-8">
       <SchemaMarkup schema={breadcrumbSchema} />
       <SchemaMarkup schema={articleSchema} />
 
@@ -105,170 +104,201 @@ export default function MedicareBrokerForDiabetics() {
         <span className="text-gray-700">Medicare Broker for Diabetics</span>
       </nav>
 
-      <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-        Medicare Broker for Diabetics: Finding a Plan That Covers What Your Life Actually Looks Like
+      <h1 className="text-3xl md:text-4xl font-bold mb-4 leading-tight">
+        Medicare Broker for Diabetics: Finding a Plan That Covers What Your Life
+        Actually Looks Like
       </h1>
 
       <Image
-        src="/images/medicare-broker-for-diabetics.webp"
+        src="/images/hub_medicare-broker-for-diabetics.webp"
         alt="medicare broker for diabetics"
         width={800}
         height={400}
-        className="rounded-lg mb-6 w-full"
+        className="w-full rounded-lg mb-6"
+        priority
       />
 
-      <p className="text-lg text-gray-700 mb-2">
-        A Medicare broker for diabetics does something most general agents skip: they start with your prescriptions, your devices, and your specialists before comparing a single plan. Diabetes management touches every part of Medicare - Part A, B, D, and Advantage - and the wrong plan choice shows up fast in surprise costs.
+      <p className="text-lg mb-2">
+        A medicare broker for diabetics does something most plan comparison
+        tools can't: look at your actual daily routine and match it to coverage
+        that works. Not coverage that looks fine on paper, then fails you at the
+        pharmacy counter.
       </p>
-      <p className="text-lg text-gray-700 mb-6">
-        I'm Anthony Orner, a licensed broker in NJ, and I work with people managing diabetes every week. The call is free.
+      <p className="text-lg mb-6">
+        I'm Anthony Orner, a licensed Medicare broker. I help people with
+        diabetes find plans that cover their insulin, devices, and specialists
+        without the runaround. My help is free.
       </p>
 
       <PhoneCTA />
 
-      <section className="mt-10">
-        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+      <section className="mt-10 mb-8">
+        <h2 className="text-2xl font-semibold mb-3">
           Why standard Medicare advice fails people with diabetes
         </h2>
-        <p className="text-gray-700 mb-3">
-          Most plan comparisons focus on monthly premiums. For someone with diabetes, the real cost is buried deeper: insulin tier placement, how many test strips you're allowed per month, whether your CGM is covered, and whether you need a referral to see your endocrinologist.
+        <p className="mb-3">
+          Most Medicare guides treat diabetes as a line item. Check a box, move
+          on. But your reality is test strips running out before the refill date,
+          pharmacy staff asking for information your doctor already sent, and
+          insurance denying a CGM because you're "not on insulin yet."
         </p>
-        <p className="text-gray-700">
-          A plan that looks cheap on paper can cost hundreds more per month once you add up diabetes-specific supplies and copays. Generic advice doesn't catch this. Disease-specific plan matching does.
+        <p>
+          Generic plan comparisons don't account for how often you see
+          specialists, which insulin tier your plan uses, or whether your
+          endocrinologist is in-network. A broker who understands diabetes does.
         </p>
       </section>
 
-      <section className="mt-10">
-        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
-          Insulin, CGMs, and test strips - what each plan type actually covers
+      <section className="mb-8">
+        <h2 className="text-2xl font-semibold mb-3">
+          Insulin, CGMs, and test strips: what each plan type actually covers
         </h2>
-        <ul className="list-disc pl-5 text-gray-700 space-y-2">
+        <ul className="list-disc pl-6 space-y-2">
           <li>
-            <strong>Part B</strong> covers blood glucose testing supplies, diabetes self-management training, and CGMs for people who use insulin.
+            <strong>Original Medicare (Part B):</strong> Covers insulin pumps,
+            CGMs (if you use insulin), and diabetes self-management training.
+            Test strips and lancets fall under Part B's durable medical equipment
+            benefit.
           </li>
           <li>
-            <strong>Part D</strong> covers diabetes medications plus supplies for injecting or inhaling insulin. Formularies vary by plan - your insulin brand may be Tier 3 on one plan and Tier 5 on another.
+            <strong>Part D:</strong> Covers injectable and inhaled insulin. Under
+            the Inflation Reduction Act, insulin copays are capped at $35/month
+            for Part D enrollees.
           </li>
           <li>
-            <strong>Medicare Advantage</strong> plans bundle A, B, and usually D together. Some include insulin savings programs. But network restrictions can limit which pharmacy fills your supplies and which doctors you see.
+            <strong>Medicare Advantage:</strong> Plans vary widely. Some cover
+            CGMs more broadly. Some restrict test strip brands. I compare
+            formularies plan by plan so you know before you enroll.
           </li>
         </ul>
-        <p className="text-gray-700 mt-3">
-          If you're not on insulin, getting CGM coverage through Medicare is significantly harder. That's a real frustration I hear constantly, and it's worth discussing your specific situation.
+        <p className="mt-3">
+          CGM denials are one of the most common frustrations I hear about.
+          Medicare Part B requires insulin use for CGM coverage. Some Advantage
+          plans have different criteria. I'll find out which ones.
         </p>
       </section>
 
-      <section className="mt-10">
-        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
-          Plans that cover endocrinologists, podiatrists, and eye exams without referrals
+      <section className="mb-8">
+        <h2 className="text-2xl font-semibold mb-3">
+          Plans that cover endocrinologists, podiatrists, and eye exams without
+          referrals
         </h2>
-        <p className="text-gray-700 mb-3">
-          Diabetes care isn't one doctor. It's an endocrinologist, a podiatrist, an ophthalmologist, maybe a dietitian. With Original Medicare plus a Supplement, you pick any provider who accepts Medicare. No referrals, no network.
+        <p className="mb-3">
+          Diabetes doesn't stay in one doctor's office. You need an
+          endocrinologist, a podiatrist checking your feet, and annual dilated
+          eye exams. Original Medicare lets you see any provider who accepts
+          Medicare. Advantage plans use networks.
         </p>
-        <p className="text-gray-700">
-          Medicare Advantage plans may cost less monthly but often require referrals or limit you to in-network specialists. If you already have a care team you trust, that matters.
+        <p>
+          Before recommending any plan, I verify that your current specialists
+          are in-network. If you prefer PPO-style access without referrals, I'll
+          show you which plans offer that in your area.
         </p>
       </section>
 
-      <section className="mt-10">
-        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
-          The pharmacy fight you shouldn't have to deal with
+      <section className="mb-8">
+        <h2 className="text-2xl font-semibold mb-3">
+          The $35 insulin cap and what it actually means for your costs
         </h2>
-        <p className="text-gray-700 mb-3">
-          Every three months, the same cycle: pharmacy texts you to refill, then flags an "insurance issue." You call. You wait. You answer questions they already have on file. For insulin. That you've taken for years.
+        <p className="mb-3">
+          Since 2023, Medicare Part D plans cap insulin copays at $35 per
+          month's supply. This applies in the deductible phase too. But not
+          every insulin brand is on every plan's formulary at the same tier.
         </p>
-        <p className="text-gray-700">
-          I can't fix every pharmacy headache, but I can make sure you're on a plan where your medications are covered cleanly from the start - right tier, right pharmacy, right prior authorizations already accounted for.
+        <p>
+          I check your specific insulin against each plan's drug list. The cap
+          helps, but you still need a plan that covers your exact medication
+          without prior authorization delays.
         </p>
       </section>
 
-      <section className="mt-10">
-        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
-          What I actually check before recommending a plan
+      <section className="mb-8">
+        <h2 className="text-2xl font-semibold mb-3">
+          What your daily life looks like matters more than any brochure
         </h2>
-        <ul className="list-disc pl-5 text-gray-700 space-y-2">
-          <li>Your full medication list, including insulin type, dosage, and delivery method</li>
-          <li>Whether your CGM or pump supplies are covered under Part B or Part D</li>
-          <li>Your current specialists and whether they're in-network</li>
-          <li>Total yearly out-of-pocket cost - not just the premium</li>
-          <li>Pharmacy preferences and mail-order options for supplies</li>
-        </ul>
+        <p className="mb-3">
+          You know what it's like to fight with a pharmacy over a refill that
+          should be routine. To get a denial letter for a device your doctor
+          prescribed. To manage a condition that never takes a day off while
+          also trying to figure out which Medicare plan won't make it harder.
+        </p>
+        <p>
+          That's exactly why working with a broker who gets it makes a real
+          difference. I don't just compare premiums. I look at the full picture
+          of what you actually use.
+        </p>
       </section>
 
-      <section className="mt-10">
-        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
-          You manage enough already - let a broker handle the coverage part
+      <section className="mb-8">
+        <h2 className="text-2xl font-semibold mb-3">
+          You manage enough already: let a broker handle the coverage part
         </h2>
-        <p className="text-gray-700 mb-3">
-          Diabetes doesn't take days off. The monitoring, the planning, the mental load of a condition that demands attention around the clock - that's already a lot. Choosing the right Medicare plan shouldn't add to it.
+        <p className="mb-3">
+          You're already tracking carbs, monitoring glucose, scheduling
+          appointments, and managing medications. Sorting through dozens of
+          Medicare plans shouldn't be another thing on your list.
         </p>
-        <p className="text-gray-700">
-          I'll do the plan comparison, check your drugs and doctors, and walk you through your real options. No cost. No obligation. Just clear answers from someone who's done this for people in your exact situation.
+        <p>
+          I do the comparison work. You make the final call. No cost to you,
+          ever. Carriers pay me, not you. The plan costs the same either way.
         </p>
       </section>
 
-      <section className="mt-10 bg-blue-50 rounded-lg p-6 text-center">
-        <p className="text-xl font-semibold text-gray-900 mb-2">
-          Talk to a broker who understands diabetes coverage
+      <div className="bg-blue-600 text-white rounded-lg p-6 my-10 text-center">
+        <p className="text-xl font-semibold mb-2">
+          Ready to find a plan that actually covers your diabetes care?
         </p>
-        <p className="text-gray-700 mb-4">
+        <p className="text-lg mb-4">
           Call{" "}
-          <a
-            href="tel:8555591700"
-            className="text-blue-700 font-bold hover:underline"
-          >
+          <a href="tel:8555591700" className="underline font-bold">
             855-559-1700
           </a>{" "}
           or{" "}
-          <Link
-            href="/contact"
-            className="text-blue-700 font-bold hover:underline"
-          >
+          <Link href="/contact" className="underline font-bold">
             get a free quote online
           </Link>
           .
         </p>
-      </section>
+        <p className="text-sm opacity-90">
+          Anthony Orner, Licensed Medicare Broker
+        </p>
+      </div>
 
-      <section className="mt-12">
-        <FAQSection faqs={faqs} />
-      </section>
+      <FAQSection faqs={faqs} />
 
-      <section className="mt-12">
-        <h2 className="text-2xl font-semibold text-gray-900 mb-4">
-          Related resources
-        </h2>
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
         <ul className="space-y-2">
           <li>
             <Link
-              href="/medicare-guides/medicare-advantage-vs-medigap"
-              className="text-blue-700 hover:underline"
+              href="/medicare-guides/medicare-part-d-explained"
+              className="text-blue-600 hover:underline"
             >
-              Medicare Advantage vs. Medigap: Which Is Better for You?
+              Medicare Part D Explained: Drug Coverage Basics
             </Link>
           </li>
           <li>
             <Link
-              href="/medicare-guides/part-d-drug-coverage"
-              className="text-blue-700 hover:underline"
+              href="/medicare-guides/medicare-advantage-vs-medigap"
+              className="text-blue-600 hover:underline"
             >
-              Medicare Part D Drug Coverage Explained
+              Medicare Advantage vs. Medigap: Which Is Right for You?
             </Link>
           </li>
           <li>
             <Link
               href="/services/medicare-broker-nj"
-              className="text-blue-700 hover:underline"
+              className="text-blue-600 hover:underline"
             >
-              Medicare Broker in NJ - Free Local Help
+              Medicare Broker in NJ: Local Help You Can Trust
             </Link>
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-supplement-plans"
-              className="text-blue-700 hover:underline"
+              href="/medicare-guides/medicare-specialist-coverage"
+              className="text-blue-600 hover:underline"
             >
-              Medicare Supplement Plans: What They Cover
+              How Medicare Covers Specialist Visits
             </Link>
           </li>
         </ul>

@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Independent Medicare Supplement Insurance Agents",
-      item: "https://www.medicareyourself.com/services/independent-medicare-supplement-insurance-agents",
+      item: "https://medicareyourself.com/services/independent-medicare-supplement-insurance-agents",
     },
   ],
 };
@@ -50,7 +50,7 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
@@ -110,7 +110,7 @@ export default function IndependentMedicareSuppAgentsPage() {
         </h1>
 
         <Image
-          src="/images/independent-medicare-supplement-insurance-agents.webp"
+          src="/images/independent-medicare-supplement-insurance-agents_photo.webp"
           alt="independent medicare supplement insurance agents"
           width={800}
           height={400}

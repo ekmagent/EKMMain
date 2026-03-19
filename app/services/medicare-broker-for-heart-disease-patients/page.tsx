@@ -7,14 +7,14 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 
 export const metadata: Metadata = {
   title:
-    "medicare broker for heart disease patients | Free Plan Matching | MedicareYourself",
+    "medicare broker for heart disease patients | Free Help Finding the Right Plan | MedicareYourself",
   description:
-    "Medicare broker for heart disease patients matching you to plans that cover cardiac rehab, cardiologists, and prescriptions. Anthony Orner, licensed NJ broker. Free.",
+    "Medicare broker for heart disease patients matching you to plans covering cardiac rehab, specialists, and costly prescriptions. Call Anthony Orner — it's free.",
   openGraph: {
     title:
-      "medicare broker for heart disease patients | Free Plan Matching | MedicareYourself",
+      "medicare broker for heart disease patients | Free Help Finding the Right Plan | MedicareYourself",
     description:
-      "Medicare broker for heart disease patients matching you to plans that cover cardiac rehab, cardiologists, and prescriptions. Anthony Orner, licensed NJ broker. Free.",
+      "Medicare broker for heart disease patients matching you to plans covering cardiac rehab, specialists, and costly prescriptions. Call Anthony Orner — it's free.",
   },
 };
 
@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Medicare Broker for Heart Disease Patients",
-      item: "https://www.medicareyourself.com/services/medicare-broker-for-heart-disease-patients",
+      item: "https://medicareyourself.com/services/medicare-broker-for-heart-disease-patients",
     },
   ],
 };
@@ -51,7 +51,7 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
@@ -59,38 +59,37 @@ const articleSchema = {
     alternateName: "MedicareYourself",
   },
   mainEntityOfPage:
-    "https://www.medicareyourself.com/services/medicare-broker-for-heart-disease-patients",
+    "https://medicareyourself.com/services/medicare-broker-for-heart-disease-patients",
 };
 
 const faqs = [
   {
     question: "How much does it cost to use a Medicare broker?",
     answer:
-      "Nothing. My service is free to you. I'm compensated by the insurance carriers, and you pay the same premium whether you enroll through me or directly with the company. There's no fee, no obligation, and no catch.",
+      "Nothing. Medicare brokers are paid by the insurance carriers, not by you. There's no fee for consultations, plan comparisons, or enrollment help. The plans and premiums are the same whether you enroll directly or through a broker.",
+  },
+  {
+    question: "Which type of Medicare plan is best for heart patients?",
+    answer:
+      "It depends on your doctors, medications, and how often you need specialist care. Original Medicare with a Medigap supplement (like Plan G) gives you the widest access to cardiologists and hospitals with predictable costs. Medicare Advantage can work if your providers are in-network and the plan's maximum out-of-pocket fits your budget. A broker can compare both options based on your specific cardiac care needs.",
   },
   {
     question:
       "Does Medicare cover cardiac rehabilitation?",
     answer:
-      "Yes. Medicare Part B covers both regular and intensive cardiac rehabilitation programs if you've had a heart attack, heart failure, coronary artery bypass surgery, angioplasty/stenting, heart valve repair or replacement, or a heart transplant. Programs include supervised exercise, education, and counseling.",
+      "Yes. Medicare Part B covers cardiac rehab programs for qualifying conditions including heart attack, coronary artery bypass surgery, stable angina, heart valve repair or replacement, and heart or heart-lung transplant. You'll typically pay 20% of the Medicare-approved amount after the Part B deductible ($283 in 2026), unless your Medigap plan covers that share.",
   },
   {
     question:
-      "Should heart disease patients choose Medicare Advantage or a Supplement?",
+      "Can I switch Medicare plans if my heart condition worsens?",
     answer:
-      "It depends on your treatment needs, medication costs, and how often you see specialists. Medicare Advantage plans cap your annual out-of-pocket costs but may require referrals and prior authorizations. Supplements like Plan G give you broader provider access with more predictable costs. I can compare both based on your specific cardiac history.",
-  },
-  {
-    question:
-      "What preventive heart screenings does Medicare cover?",
-    answer:
-      "Medicare Part B covers cardiovascular screening blood tests once every five years and cardiovascular behavioral therapy to help manage heart disease risk. These preventive services are covered at no additional cost as long as your doctor accepts Medicare assignment.",
+      "You can switch Medicare Advantage plans during the Open Enrollment Period (October 15 through December 7) or the Medicare Advantage Open Enrollment (January 1 through March 31). If you're on Original Medicare with a Medigap supplement, switching supplement carriers outside your Medigap Open Enrollment Period may require medical underwriting. Call us to review your options.",
   },
 ];
 
 export default function MedicareBrokerHeartDiseasePatients() {
   return (
-    <main className="max-w-4xl mx-auto px-4 py-8">
+    <main className="max-w-3xl mx-auto px-4 py-8">
       <SchemaMarkup schema={breadcrumbSchema} />
       <SchemaMarkup schema={articleSchema} />
 
@@ -108,164 +107,169 @@ export default function MedicareBrokerHeartDiseasePatients() {
         </span>
       </nav>
 
-      <h1 className="text-3xl font-bold mb-4">
+      <h1 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900">
         Medicare Broker for Heart Disease Patients: Plans That Cover the Full Picture, Not Just the Diagnosis
       </h1>
 
       <Image
-        src="/images/medicare-broker-for-heart-disease-patients.webp"
+        src="/images/hub_medicare-broker-for-heart-disease-patients.webp"
         alt="medicare broker for heart disease patients"
         width={800}
         height={400}
-        className="rounded-lg mb-6 w-full"
+        className="w-full rounded-lg mb-6"
+        priority
       />
 
-      <p className="text-lg mb-4">
-        A Medicare broker for heart disease patients does more than compare premiums. I look at your cardiologist network, your medication list, your rehab needs, and the prior authorization policies that could delay the care you can't afford to wait for. My name is Anthony Orner, and I match people with cardiac histories to plans that actually work for them - at no cost.
+      <p className="text-lg text-gray-700 mb-2">
+        A medicare broker for heart disease patients looks at more than your diagnosis. I look at your cardiologist network, your medication tiers, your rehab schedule, and the costs that pile up when the wrong plan leaves gaps. I'm Anthony Orner, a licensed Medicare broker, and I do this for free.
+      </p>
+
+      <p className="text-lg text-gray-700 mb-6">
+        You already know the fatigue that hits after a short walk, the background worry every time your chest feels off. Your Medicare plan shouldn't add to that weight.
       </p>
 
       <PhoneCTA />
 
       <section className="mt-10">
-        <h2 className="text-2xl font-semibold mb-3">
-          Why choosing the wrong plan is so costly with heart disease
+        <h2 className="text-2xl font-semibold mb-3 text-gray-900">
+          Why heart disease makes choosing the wrong plan so costly
         </h2>
-        <p className="mb-3">
-          Heart disease doesn't send one bill. It sends dozens. Cardiologist visits, imaging, lab work, cardiac rehab sessions, Tier 3 and Tier 4 medications, maybe an emergency procedure you didn't see coming. One person I spoke with had a heart attack, three surgeries, and six weeks of rehab - the kind of event that can mean tens of thousands out of pocket on the wrong plan.
+        <p className="text-gray-700 mb-2">
+          Heart disease isn't one bill. It's an ongoing cycle of specialist visits, imaging, blood work, medication adjustments, and sometimes emergency procedures that cost six or seven figures. One real-world example: a single heart attack with three surgeries and weeks in cardiac ICU totaled over $1.2 million. The patient on the right Medigap plan paid roughly $257 for his Part B deductible plus monthly premiums.
         </p>
-        <p>
-          The wrong plan isn't always the cheapest one. It's the one that requires prior authorization for an echocardiogram and delays your care by months. Or the one that quietly drops your cardiologist from the network mid-year.
+        <p className="text-gray-700">
+          On the wrong plan, you'd face copays at every turn. The 2026 Part A deductible alone is $1,676 per benefit period, and skilled nursing coinsurance runs $209.50 per day for days 21 through 100.
         </p>
       </section>
 
       <section className="mt-10">
-        <h2 className="text-2xl font-semibold mb-3">
-          Cardiac rehab, specialists, and prescriptions - what to look for in a plan
+        <h2 className="text-2xl font-semibold mb-3 text-gray-900">
+          Cardiac rehab, specialists, and prescriptions: what to look for in a plan
         </h2>
-        <p className="mb-3">
-          Medicare Part B covers both standard and intensive cardiac rehabilitation if you've had a heart attack, heart failure, bypass surgery, angioplasty, stenting, valve surgery, or a heart transplant. But how much you pay for those sessions depends on your plan.
+        <p className="text-gray-700 mb-3">
+          Medicare Part B covers cardiac rehabilitation for qualifying conditions like heart attack, bypass surgery, stable angina, and valve repair. But coverage approval is only half the story. Here's what I check:
         </p>
-        <p className="mb-3">Here's what I check for every cardiac patient:</p>
-        <ul className="list-disc pl-6 space-y-2 mb-3">
-          <li>Whether your cardiologist and cardiac rehab facility are in-network</li>
-          <li>Prior authorization requirements for imaging and procedures</li>
-          <li>Part D formulary coverage for blood thinners, statins, beta-blockers, and newer cardiac drugs</li>
-          <li>Annual out-of-pocket maximums that protect you if something serious happens</li>
-          <li>Specialist referral requirements that could slow down care</li>
+        <ul className="list-disc pl-6 text-gray-700 space-y-2">
+          <li>Is your cardiologist in-network (for Advantage plans)?</li>
+          <li>Does the plan cover your cardiac rehab facility without prior authorization delays?</li>
+          <li>Are your blood thinners, statins, or Tier 5 specialty drugs on the formulary at a price you can afford?</li>
+          <li>Do you need referrals to see a specialist, or can you go directly?</li>
+          <li>What's the actual out-of-pocket maximum if you need emergency surgery?</li>
         </ul>
       </section>
 
       <section className="mt-10">
-        <h2 className="text-2xl font-semibold mb-3">
+        <h2 className="text-2xl font-semibold mb-3 text-gray-900">
           Supplement vs. Advantage when you have a cardiac history
         </h2>
-        <p className="mb-3">
-          With Original Medicare and a Supplement like Plan G, you pay the $283 Part B deductible and that's essentially it. No networks, no referrals, no prior auth headaches. One beneficiary who had Plan G when a massive cardiac event hit paid under $300 in medical costs on a $1.2 million total bill.
+        <p className="text-gray-700 mb-2">
+          Original Medicare plus a Medigap supplement (like Plan G) lets you see any cardiologist or hospital that accepts Medicare. No network restrictions, no referrals. After your $283 Part B deductible in 2026, Plan G covers the rest. That predictability matters when one event can generate dozens of separate bills.
         </p>
-        <p className="mb-3">
-          Medicare Advantage plans cap your yearly out-of-pocket spending and often include Part D drug coverage. But they use provider networks, and some require prior authorization for procedures and diagnostic tests. For someone with active cardiac care, a delayed authorization can mean a delayed diagnosis.
+        <p className="text-gray-700 mb-2">
+          Medicare Advantage plans often have lower premiums and may include drug coverage and extras. But they use provider networks, and out-of-pocket costs after a major cardiac event can reach $5,000 to $8,000 or more depending on the plan's maximum.
         </p>
-        <p>
-          Neither is universally better. It depends on your doctors, your drugs, and how frequently you need specialist care. That's exactly what I help you figure out.
-        </p>
-      </section>
-
-      <section className="mt-10">
-        <h2 className="text-2xl font-semibold mb-3">
-          Preventive heart screenings Medicare already covers
-        </h2>
-        <p className="mb-3">
-          Medicare Part B covers cardiovascular screening blood tests once every five years and cardiovascular behavioral therapy at no additional cost when your doctor accepts assignment. These aren't extras - they're built into your coverage.
-        </p>
-        <p>
-          Many people with heart disease don't realize these screenings exist until after a cardiac event. I make sure you know what's available before you need it.
+        <p className="text-gray-700">
+          Neither option is universally better. It depends on your doctors, your drugs, and how much financial uncertainty you can absorb. That's exactly what I help you figure out.
         </p>
       </section>
 
       <section className="mt-10">
-        <h2 className="text-2xl font-semibold mb-3">
-          The daily realities most insurance content ignores
+        <h2 className="text-2xl font-semibold mb-3 text-gray-900">
+          You stopped doing the things you love. Your coverage shouldn't hold you back too.
         </h2>
-        <p className="mb-3">
-          You know what it's like to get winded walking to the mailbox. To feel tightness in your chest and wonder if this is the time you should call someone. To quietly stop doing the things you used to enjoy because your body set new limits.
+        <p className="text-gray-700 mb-2">
+          People with heart conditions quietly adjust their whole lives. You skip the walk, cancel the trip, avoid the grandkids' soccer game because you don't trust how you'll feel. That's hard enough.
         </p>
-        <p>
-          Your coverage shouldn't add to that weight. It shouldn't make you fight for an approved test or scramble when your PCP gets switched without warning. I've heard too many stories of people turned away from scheduled procedures because of insurance paperwork. That's the kind of problem I work to prevent before enrollment, not after.
+        <p className="text-gray-700">
+          When your insurance creates its own set of worries, like surprise bills after a hospital stay or discovering your new medication isn't covered, it compounds everything. I match you to a plan that removes those variables so you can focus on the things that actually matter.
         </p>
       </section>
 
       <section className="mt-10">
-        <h2 className="text-2xl font-semibold mb-3">
-          How I match you to the right plan
+        <h2 className="text-2xl font-semibold mb-3 text-gray-900">
+          Preventive heart benefits Medicare already covers
         </h2>
-        <p className="mb-3">
-          I start with your doctors, your prescriptions, and your cardiac history. Then I compare every available plan in your area - Supplement and Advantage - against those specifics. I'll show you real costs, real network access, and real formulary coverage so you can decide with clarity, not anxiety.
+        <p className="text-gray-700 mb-3">
+          Medicare Part B includes heart-specific preventive screenings at no extra cost to you (with a doctor who accepts assignment):
         </p>
-        <p>
-          The call is free. There's no obligation. And I'm a licensed broker in NJ, not a call center.
+        <ul className="list-disc pl-6 text-gray-700 space-y-2">
+          <li>Cardiovascular screening blood tests once every five years</li>
+          <li>Cardiovascular behavioral therapy to help reduce risk</li>
+          <li>Annual wellness visits to monitor ongoing heart health</li>
+        </ul>
+        <p className="text-gray-700 mt-3">
+          Many people with heart disease don't realize these are covered. I make sure you know what you're entitled to and that your plan supports all of it.
         </p>
       </section>
 
-      <section className="mt-10 bg-blue-50 rounded-lg p-6 text-center">
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold mb-3 text-gray-900">
+          How to get started with a free plan review
+        </h2>
+        <p className="text-gray-700 mb-2">
+          Bring me your medication list, your cardiologist's name, and any upcoming procedures. I'll compare Medigap supplements, Medicare Advantage plans, and Part D options side by side. No cost, no obligation.
+        </p>
+        <p className="text-gray-700">
+          If you're turning 65, your Medigap Open Enrollment Period starts the month you turn 65 and are enrolled in Part B. That six-month window gives you guaranteed acceptance regardless of your heart condition. Apply up to six months early to lock in your rate. After that window closes, carriers can use medical underwriting and may charge more or deny coverage.
+        </p>
+      </section>
+
+      <section className="mt-10 bg-blue-600 text-white rounded-lg p-8 text-center">
         <p className="text-xl font-semibold mb-2">
-          Talk to a broker who understands cardiac care coverage.
+          Talk to a broker who understands cardiac care costs.
         </p>
-        <p className="mb-4">
-          Call{" "}
-          <a
-            href="tel:8555591700"
-            className="text-blue-700 font-bold hover:underline"
-          >
+        <p className="text-3xl font-bold mb-4">
+          <a href="tel:855-559-1700" className="underline">
             855-559-1700
-          </a>{" "}
-          or{" "}
-          <Link
-            href="/contact"
-            className="text-blue-700 font-bold hover:underline"
-          >
-            get a free quote online
-          </Link>
-          . No cost. No pressure.
+          </a>
         </p>
+        <Link
+          href="/contact"
+          className="inline-block bg-white text-blue-600 font-semibold px-6 py-3 rounded-lg hover:bg-gray-100 transition"
+        >
+          Get a Free Quote
+        </Link>
       </section>
 
-      <section className="mt-10">
+      <section className="mt-12">
         <FAQSection faqs={faqs} />
       </section>
 
-      <section className="mt-10">
-        <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
+      <section className="mt-12">
+        <h2 className="text-2xl font-semibold mb-4 text-gray-900">
+          Related resources
+        </h2>
         <ul className="space-y-2">
           <li>
             <Link
-              href="/medicare-guides/medicare-supplement-plan-g"
-              className="text-blue-700 hover:underline"
+              href="/medicare-guides/medigap-plan-g"
+              className="text-blue-600 hover:underline"
             >
-              Medicare Supplement Plan G - What It Covers and What It Costs
+              Medigap Plan G: What It Covers and What It Costs
             </Link>
           </li>
           <li>
             <Link
               href="/medicare-guides/medicare-advantage-vs-medigap"
-              className="text-blue-700 hover:underline"
+              className="text-blue-600 hover:underline"
             >
-              Medicare Advantage vs. Medigap - How to Decide
+              Medicare Advantage vs. Medigap: How to Decide
             </Link>
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-part-d-drug-coverage"
-              className="text-blue-700 hover:underline"
+              href="/medicare-guides/part-d-drug-coverage"
+              className="text-blue-600 hover:underline"
             >
-              Medicare Part D - Understanding Your Drug Coverage Options
+              Medicare Part D: Finding a Plan That Covers Your Medications
             </Link>
           </li>
           <li>
             <Link
-              href="/services/medicare-broker-nj"
-              className="text-blue-700 hover:underline"
+              href="/services/medicare-broker-for-chronic-conditions"
+              className="text-blue-600 hover:underline"
             >
-              Find a Licensed Medicare Broker in New Jersey
+              Medicare Broker for Chronic Conditions
             </Link>
           </li>
         </ul>

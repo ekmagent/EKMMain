@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Medicare Enrollment Help for People with Diabetes in Texas",
-      item: "https://www.medicareyourself.com/services/medicare-enrollment-help-for-people-with-diabetes-texas",
+      item: "https://medicareyourself.com/services/medicare-enrollment-help-for-people-with-diabetes-texas",
     },
   ],
 };
@@ -50,43 +50,45 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-15",
-  dateModified: "2025-07-15",
+  datePublished: "2025-07-14",
+  dateModified: "2025-07-14",
 };
 
 const faqs = [
   {
-    question: "What's the best Medicare plan for someone with diabetes?",
-    answer:
-      "It depends on your medications and providers. Medicare Advantage plans often bundle insulin, CGM, and A1C testing coverage into one plan with low copays. A Medigap plan paired with a standalone Part D plan can also work well if you want broader provider access. A broker can compare both options based on your specific prescriptions.",
-  },
-  {
     question: "Who qualifies for free Medicare in Texas?",
     answer:
-      "If you have limited income and resources, you may qualify for a Medicare Savings Program through Texas Health and Human Services. These programs can pay your Part B premium ($185/month in 2026) and may also cover deductibles and coinsurance. Call 800-252-9240 or visit hhs.texas.gov/medicare to check eligibility.",
+      "Texans 65 and older who paid Medicare taxes for at least 10 years (40 quarters) qualify for premium-free Part A. Part B costs $202.90/month in 2026 for most people. Low-income Texans may qualify for a Medicare Savings Program through Texas Health and Human Services that pays Part B premiums and cost-sharing.",
   },
   {
-    question: "What is the Medicare diabetes program?",
+    question: "What is the Medicare Diabetes Prevention Program?",
     answer:
-      "The Medicare Diabetes Prevention Program is covered under Part B. It includes 16 weekly group sessions focused on diet, exercise, and behavior changes to help prevent type 2 diabetes. If you qualify, you pay nothing for the program. There is no limit to the number of times you can participate.",
+      "Medicare Part B covers the Medicare Diabetes Prevention Program for beneficiaries at risk of type 2 diabetes. It includes 16 weekly group coaching sessions focused on diet, exercise, and lasting behavior changes. There's no cost if you qualify, and you can participate more than once.",
   },
   {
-    question: "Does diabetes qualify for disability in Texas?",
+    question:
+      "Does Medicare cover continuous glucose monitors (CGMs) for type 2 diabetes?",
     answer:
-      "Diabetes alone does not automatically qualify you for disability. However, if diabetes-related complications prevent you from working, you may qualify for Social Security Disability, which can lead to Medicare eligibility before age 65. A disability determination depends on your specific medical records and functional limitations.",
+      "Medicare Part B covers CGMs as durable medical equipment when your doctor certifies medical necessity. You must use insulin or have a documented history of problematic blood sugar levels. Many Medicare Advantage plans in Texas also cover CGMs, sometimes with lower out-of-pocket costs than Original Medicare.",
+  },
+  {
+    question:
+      "Can I get a Medigap plan in Texas if I have diabetes?",
+    answer:
+      "During your 6-month Medigap Open Enrollment Period (starting the month you turn 65 and enroll in Part B), insurers cannot deny you or charge more due to diabetes. Outside that window, Texas Medigap carriers can use medical underwriting and may decline coverage or add a waiting period for pre-existing conditions like diabetes.",
   },
 ];
 
 export default function MedicareEnrollmentHelpDiabetesTexas() {
   return (
-    <main className="max-w-4xl mx-auto px-4 py-8">
+    <main className="max-w-3xl mx-auto px-4 py-8">
       <SchemaMarkup schema={breadcrumbSchema} />
       <SchemaMarkup schema={articleSchema} />
 
@@ -104,28 +106,24 @@ export default function MedicareEnrollmentHelpDiabetesTexas() {
         </span>
       </nav>
 
-      <h1 className="text-3xl font-bold mb-4">
+      <h1 className="text-3xl md:text-4xl font-bold mb-4">
         Medicare Enrollment Help for People with Diabetes in Texas
       </h1>
 
       <Image
-        src="/images/medicare-enrollment-help-for-people-with-diabetes-texas.webp"
+        src="/images/hub_medicare-enrollment-help-for-people-with-diabetes-texas.webp"
         alt="Medicare enrollment help for people with diabetes in Texas"
         width={800}
         height={400}
-        className="rounded-lg mb-6 w-full"
+        className="w-full rounded-lg mb-6"
+        priority
       />
 
       <p className="text-lg mb-2">
-        Medicare enrollment help for people with diabetes in Texas starts with
-        understanding which plans actually cover what you need. Insulin, continuous
-        glucose monitors, A1C testing, and diabetes self-management training are
-        all covered under Medicare, but the details vary dramatically between
-        Original Medicare, Medigap, and Medicare Advantage.
+        Medicare enrollment help for people with diabetes in Texas starts with one reality: the plan you pick determines whether your insulin, CGM sensors, and A1C testing cost you $20 a month or $200. That gap is real, and it hits hardest when you pick the wrong plan at the wrong time.
       </p>
       <p className="text-lg mb-6">
-        I help Texas residents with diabetes pick the right plan and enroll during
-        the right window. No cost to you.
+        If you're managing diabetes and turning 65, losing employer coverage, or switching plans during open enrollment, the decisions you make in the next few weeks affect your wallet and your health for the entire year.
       </p>
 
       <PhoneCTA />
@@ -134,20 +132,11 @@ export default function MedicareEnrollmentHelpDiabetesTexas() {
         <h2 className="text-2xl font-semibold mb-3">
           How diabetes affects Medigap underwriting in Texas
         </h2>
-        <p className="mb-2">
-          Texas Medigap insurers can ask health questions outside your open
-          enrollment period. Diabetes is one of the conditions that can lead to
-          higher premiums or outright denial if you apply late.
-        </p>
-        <p className="mb-2">
-          Your Medigap Open Enrollment Period lasts 6 months, starting the month
-          you turn 65 and are enrolled in Part B. During this window, no carrier
-          can charge you more or reject you because of diabetes. Miss it, and
-          your options shrink fast.
+        <p className="mb-3">
+          Texas allows Medigap carriers to medically underwrite applicants outside the initial enrollment window. That means if you have type 1 or type 2 diabetes and miss your 6-month Medigap Open Enrollment Period, an insurer can deny your application or impose a waiting period for pre-existing conditions.
         </p>
         <p>
-          After your 6-month Medigap Open Enrollment Period, Texas insurers
-          can use medical underwriting. Timing matters.
+          Your Medigap OEP starts the month you turn 65 and are enrolled in Part B. During that window, no carrier in Texas can turn you down or charge you more because of diabetes. Miss it, and your options shrink fast.
         </p>
       </section>
 
@@ -155,114 +144,77 @@ export default function MedicareEnrollmentHelpDiabetesTexas() {
         <h2 className="text-2xl font-semibold mb-3">
           Medicare Advantage plans that cover CGMs, insulin, and A1C testing
         </h2>
-        <p className="mb-2">
-          Many Texas Medicare Advantage plans include Part D drug coverage that
-          covers insulin. Some plans cap insulin copays at $35/month under the
-          Inflation Reduction Act. That alone can save hundreds per year.
+        <p className="mb-3">
+          Many Medicare Advantage (Part C) plans in Texas cover continuous glucose monitors, insulin, test strips, and routine A1C lab work. Some even offer $0 copays on preferred insulin through the Part D benefit built into the plan.
         </p>
-        <ul className="list-disc pl-6 space-y-1 mb-2">
-          <li>Continuous glucose monitors (CGMs) are covered under Part B with a doctor's order</li>
-          <li>A1C testing is covered as a diabetes screening under Part B at no cost to you</li>
-          <li>Diabetes self-management training is covered under Part B with a referral</li>
-          <li>Blood sugar testing supplies (meters, test strips, lancets) are Part B-covered</li>
+        <ul className="list-disc pl-6 space-y-2">
+          <li>CGMs like Dexcom and FreeStyle Libre are covered under Part B as durable medical equipment when medically necessary</li>
+          <li>Part D insulin copays are capped at $35/month under the Inflation Reduction Act for all Medicare plans</li>
+          <li>A1C testing and diabetes self-management training are covered preventive services under Part B at no cost to you</li>
         </ul>
-        <p>
-          Medicare Advantage plans in Texas often bundle these benefits together with
-          added perks like transportation to endocrinologist visits.
-        </p>
       </section>
 
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-3">
           Guaranteed-issue timing that protects Texas diabetics
         </h2>
-        <p className="mb-2">
-          Beyond the initial 6-month Medigap Open Enrollment Period, federal
-          guaranteed issue rights kick in under specific circumstances:
+        <p className="mb-3">
+          Federal guaranteed-issue rights let you switch to a Medigap plan without medical underwriting in specific situations: your Medicare Advantage plan leaves your county, your carrier goes bankrupt, or you lose employer group coverage.
         </p>
-        <ul className="list-disc pl-6 space-y-1 mb-2">
-          <li>You lose employer or union group health coverage</li>
-          <li>Your Medicare Advantage plan leaves your service area</li>
-          <li>Your insurance company goes bankrupt or violates its contract</li>
-          <li>You move out of your current plan's service area</li>
+        <p>
+          If any of these apply to you, act immediately. These windows are short, typically 63 days, and once they close, Texas underwriting rules kick in. For someone with diabetes, that's the difference between guaranteed acceptance and a possible denial.
+        </p>
+      </section>
+
+      <section className="mb-8">
+        <h2 className="text-2xl font-semibold mb-3">
+          Why the wrong plan costs diabetics more than anyone else
+        </h2>
+        <p className="mb-3">
+          People without chronic conditions can survive in almost any plan. Diabetes is different. You're interacting with your coverage every single day: test strips, CGM sensors, insulin, endocrinologist visits, lab work.
+        </p>
+        <p>
+          A plan with a high Part D deductible or narrow pharmacy network can cost you hundreds more per year. A plan that doesn't cover your specific CGM brand forces you to fight appeals or pay cash. These aren't hypothetical problems. They're what people actually deal with.
+        </p>
+      </section>
+
+      <section className="mb-8">
+        <h2 className="text-2xl font-semibold mb-3">
+          Texas-specific enrollment resources you should know about
+        </h2>
+        <ul className="list-disc pl-6 space-y-2">
+          <li>Texas Health and Human Services connects low-income Texans to Medicare Savings Programs that can cover Part B premiums and cost-sharing</li>
+          <li>Medicare Part B covers the Diabetes Prevention Program for Texans at risk of type 2 diabetes: 16 free weekly sessions with no out-of-pocket costs</li>
+          <li>The Medicare Advantage and Part D Open Enrollment runs October 15 through December 7 every year</li>
+          <li>D-SNP (Dual Special Needs Plans) are available across Texas for people who qualify for both Medicare and Medicaid</li>
         </ul>
-        <p>
-          If any of these apply, you can switch to a Medigap plan without health
-          underwriting. For someone managing diabetes, this can be the difference
-          between affordable coverage and being locked out.
-        </p>
-      </section>
-
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          The Medicare Diabetes Prevention Program
-        </h2>
-        <p className="mb-2">
-          Medicare Part B covers the Diabetes Prevention Program at no cost if you
-          qualify. The program starts with 16 weekly group sessions over 6 months
-          focused on diet, exercise, and lasting behavior changes.
-        </p>
-        <p>
-          You can participate more than once. This program targets people at risk
-          for type 2 diabetes, not those already diagnosed. Ask your doctor if
-          you're eligible.
-        </p>
-      </section>
-
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-3">
-          Texas resources for Medicare beneficiaries with diabetes
-        </h2>
-        <p className="mb-2">
-          Texas Health and Human Services offers Medicare counseling through their
-          HICAP program. You can call 800-252-9240 for free help understanding
-          your benefits.
-        </p>
-        <p>
-          If you have limited income, you may qualify for a Medicare Savings
-          Program that pays your $185/month Part B premium and possibly your
-          $257 annual Part B deductible.
-        </p>
       </section>
 
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-3">
           Connect with a broker who understands diabetic coverage needs
         </h2>
-        <p className="mb-2">
-          I compare Medicare Advantage and Medigap plans side by side for Texas
-          residents with diabetes every week. There is no charge for my help. The
-          insurance carriers pay my commission, not you.
+        <p className="mb-3">
+          You shouldn't have to become an insurance expert just to keep your CGM covered. A licensed broker compares your current medications, devices, and doctors against every plan available in your Texas ZIP code. No charge to you.
         </p>
         <p>
-          Whether you're turning 65, losing employer coverage, or unhappy with
-          your current plan during Open Enrollment (October 15 through December 7),
-          I can walk you through your options in one phone call.
+          We'll check formulary tiers for your insulin, confirm your CGM is covered as DME, and make sure your endocrinologist is in-network. One call. Real answers.
         </p>
       </section>
 
-      <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 text-center mb-10">
-        <p className="text-xl font-semibold mb-2">
-          Ready to find the right Medicare plan for your diabetes needs?
+      <div className="bg-blue-600 text-white rounded-lg p-6 text-center my-10">
+        <p className="text-xl font-bold mb-2">
+          Get free Medicare enrollment help for diabetes coverage in Texas
         </p>
-        <p className="text-lg mb-3">
+        <p className="text-lg mb-4">
           Call{" "}
-          <a
-            href="tel:8555591700"
-            className="text-blue-700 font-bold hover:underline"
-          >
+          <a href="tel:8555591700" className="underline font-bold">
             855-559-1700
           </a>{" "}
           or{" "}
-          <Link
-            href="/get-a-free-quote"
-            className="text-blue-700 font-bold hover:underline"
-          >
+          <Link href="/get-a-free-quote" className="underline font-bold">
             Get a Free Quote
           </Link>
-        </p>
-        <p className="text-sm text-gray-600">
-          Licensed broker help at no cost to you.
         </p>
       </div>
 
@@ -274,33 +226,33 @@ export default function MedicareEnrollmentHelpDiabetesTexas() {
           <li>
             <Link
               href="/medicare-guides/medicare-advantage-vs-medigap"
-              className="text-blue-700 hover:underline"
+              className="text-blue-600 hover:underline"
             >
-              Medicare Advantage vs. Medigap: Which Is Right for You?
+              Medicare Advantage vs. Medigap: Which Is Better for You?
             </Link>
           </li>
           <li>
             <Link
               href="/medicare-guides/medigap-open-enrollment-period"
-              className="text-blue-700 hover:underline"
+              className="text-blue-600 hover:underline"
             >
-              Understanding Your Medigap Open Enrollment Period
+              Medigap Open Enrollment Period: What You Need to Know
             </Link>
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-part-d-insulin-savings"
-              className="text-blue-700 hover:underline"
+              href="/medicare-guides/medicare-part-d-insulin-costs"
+              className="text-blue-600 hover:underline"
             >
-              Medicare Part D Insulin Savings Under the Inflation Reduction Act
+              Medicare Part D Insulin Costs: The $35 Cap Explained
             </Link>
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-enrollment-periods"
-              className="text-blue-700 hover:underline"
+              href="/medicare-guides/medicare-cgm-coverage"
+              className="text-blue-600 hover:underline"
             >
-              Medicare Enrollment Periods Explained
+              Does Medicare Cover Continuous Glucose Monitors (CGMs)?
             </Link>
           </li>
         </ul>

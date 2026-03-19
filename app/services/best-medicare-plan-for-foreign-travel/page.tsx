@@ -9,12 +9,12 @@ export const metadata: Metadata = {
   title:
     "the best medicare plan for foreign travel | Free Comparison | MedicareYourself",
   description:
-    "The best Medicare plan for foreign travel is Plan G or Plan N — both cover emergencies abroad. Compare options free with licensed broker Anthony Orner.",
+    "The best Medicare plan for foreign travel is Plan G or Plan N — both cover emergency care abroad. Compare options free with Anthony Orner.",
   openGraph: {
     title:
       "the best medicare plan for foreign travel | Free Comparison | MedicareYourself",
     description:
-      "The best Medicare plan for foreign travel is Plan G or Plan N — both cover emergencies abroad. Compare options free with licensed broker Anthony Orner.",
+      "The best Medicare plan for foreign travel is Plan G or Plan N — both cover emergency care abroad. Compare options free with Anthony Orner.",
   },
 };
 
@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/services",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Best Medicare Plan for Foreign Travel",
-      item: "https://www.medicareyourself.com/services/best-medicare-plan-for-foreign-travel",
+      item: "https://medicareyourself.com/services/best-medicare-plan-for-foreign-travel",
     },
   ],
 };
@@ -51,37 +51,38 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-14",
-  dateModified: "2025-07-14",
+  datePublished: "2025-07-15",
+  dateModified: "2025-07-15",
 };
 
 const faqs = [
   {
-    question: "What is the best international travel medical insurance for seniors on Medicare?",
+    question: "Are there Medigap plans that cover foreign travel?",
     answer:
-      "For short trips, Medigap Plans C, D, F, G, M, and N all include foreign travel emergency coverage up to $50,000 lifetime. For extended stays abroad or non-emergency care, a standalone travel medical insurance policy gives broader protection than any Medigap plan.",
+      "Yes. Medigap Plans C, D, F, G, M, and N all include foreign travel emergency coverage. After a $250 deductible, they pay 80% of emergency care costs abroad, up to a $50,000 lifetime limit. Plans G and N are the most popular choices for travelers.",
   },
   {
-    question: "Does Medicare Advantage cover international travel?",
+    question:
+      "What is the best international travel medical insurance for seniors?",
     answer:
-      "Most Medicare Advantage plans do not cover care outside the U.S. A few may offer limited emergency coverage as an extra benefit, but it varies by plan and is never guaranteed. Check your plan's Evidence of Coverage before you travel.",
+      "If you travel frequently or take extended trips, a standalone travel medical insurance policy often provides better coverage than Medigap alone. These policies can cover non-emergency care, medical evacuation, and trip interruption. Many seniors pair Medigap with a separate travel policy for full protection.",
+  },
+  {
+    question: "Does Medicare Advantage cover you outside the United States?",
+    answer:
+      "Most Medicare Advantage plans do not cover care outside the U.S. Some PPO plans offer limited emergency coverage abroad, but it varies by plan and is rarely reliable for regular travelers. If you travel internationally, Original Medicare with a Medigap supplement is typically the stronger option.",
   },
   {
     question: "How much does Medigap foreign travel emergency coverage pay?",
     answer:
-      "Medigap plans that include foreign travel emergency benefits cover 80% of costs after a $250 calendar-year deductible, up to a $50,000 lifetime maximum. You pay the remaining 20% plus any charges beyond that cap.",
-  },
-  {
-    question: "Can I buy Medigap just for travel coverage?",
-    answer:
-      "No. Medigap is a year-round supplement to Original Medicare, not a travel-only policy. However, the foreign travel emergency benefit is included in most Medigap plans at no extra cost. If you only need travel coverage, a standalone travel insurance policy may be more cost-effective.",
+      "Medigap foreign travel emergency coverage pays 80% of approved charges after a $250 calendar-year deductible. There's a $50,000 lifetime maximum. This covers genuine emergencies only, not routine or pre-planned care abroad.",
   },
 ];
 
@@ -94,30 +95,40 @@ export default function BestMedicarePlanForForeignTravel() {
       <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
         <Link href="/" className="hover:underline">
           Home
-        </Link>
-        {" > "}
+        </Link>{" "}
+        &gt;{" "}
         <Link href="/services" className="hover:underline">
           Medicare Guides
-        </Link>
-        {" > "}
-        <span className="text-gray-700">Best Medicare Plan for Foreign Travel</span>
+        </Link>{" "}
+        &gt;{" "}
+        <span className="text-gray-700">
+          Best Medicare Plan for Foreign Travel
+        </span>
       </nav>
 
       <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-        The Best Medicare Plan for Foreign Travel: Which Medigap Plans Cover You Abroad
+        The Best Medicare Plan for Foreign Travel: Which Medigap Plans Cover You
+        Abroad
       </h1>
 
       <Image
-        src="/images/best-medicare-plan-for-foreign-travel.webp"
+        src="/images/hub_best-medicare-plan-for-foreign-travel.webp"
         alt="the best medicare plan for foreign travel"
         width={800}
         height={400}
-        className="w-full rounded-lg mb-6"
+        className="w-full h-auto rounded-lg mb-6"
         priority
       />
 
       <p className="text-lg text-gray-700 mb-2">
-        The best Medicare plan for foreign travel is a Medigap plan that includes the foreign travel emergency benefit. That means Plan G or Plan N for most people enrolling today. Original Medicare alone covers almost nothing outside the U.S., and most Medicare Advantage plans don't either.
+        The best Medicare plan for foreign travel is a Medigap supplement like
+        Plan G or Plan N. Original Medicare alone won't cover you outside the
+        U.S. in most situations, and that catches a lot of people off guard
+        right before a trip.
+      </p>
+      <p className="text-lg text-gray-700 mb-6">
+        Here's what actually works, what doesn't, and when you need something
+        beyond Medigap.
       </p>
 
       <PhoneCTA />
@@ -127,10 +138,15 @@ export default function BestMedicarePlanForForeignTravel() {
           Which Medigap plans include foreign travel emergency benefits
         </h2>
         <p className="text-gray-700 mb-2">
-          Six standardized Medigap plans cover foreign travel emergencies: C, D, F, G, M, and N. Plans A, B, K, and L do not. Since Plan F closed to new enrollees after 2019, the most popular options with travel coverage are Plan G and Plan N.
+          Six Medigap plans cover foreign travel emergencies: C, D, F, G, M, and
+          N. Plan F is closed to anyone who became eligible for Medicare after
+          January 1, 2020. For most people enrolling now, Plan G and Plan N are
+          the real contenders.
         </p>
         <p className="text-gray-700">
-          The benefit pays 80% of emergency care costs abroad after a $250 annual deductible. There's a $50,000 lifetime cap. It only applies to emergencies during the first 60 days of a trip.
+          The benefit structure is identical across all six plans: 80% of
+          emergency charges after a $250 annual deductible, with a $50,000
+          lifetime cap.
         </p>
       </section>
 
@@ -138,51 +154,80 @@ export default function BestMedicarePlanForForeignTravel() {
         <h2 className="text-2xl font-semibold text-gray-900 mb-3">
           Plan G vs Plan N travel coverage compared side by side
         </h2>
-        <div className="overflow-x-auto">
-          <table className="w-full border-collapse border border-gray-300 text-sm mb-4">
+        <div className="overflow-x-auto mb-4">
+          <table className="w-full border-collapse border border-gray-300 text-sm">
             <thead>
               <tr className="bg-gray-100">
-                <th className="border border-gray-300 px-4 py-2 text-left">Feature</th>
-                <th className="border border-gray-300 px-4 py-2 text-left">Plan G</th>
-                <th className="border border-gray-300 px-4 py-2 text-left">Plan N</th>
+                <th className="border border-gray-300 px-4 py-2 text-left">
+                  Feature
+                </th>
+                <th className="border border-gray-300 px-4 py-2 text-left">
+                  Plan G
+                </th>
+                <th className="border border-gray-300 px-4 py-2 text-left">
+                  Plan N
+                </th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td className="border border-gray-300 px-4 py-2">Foreign travel emergency</td>
-                <td className="border border-gray-300 px-4 py-2">Yes — 80% after $250 deductible</td>
-                <td className="border border-gray-300 px-4 py-2">Yes — 80% after $250 deductible</td>
+                <td className="border border-gray-300 px-4 py-2">
+                  Foreign travel emergency
+                </td>
+                <td className="border border-gray-300 px-4 py-2">
+                  Yes — 80% after $250
+                </td>
+                <td className="border border-gray-300 px-4 py-2">
+                  Yes — 80% after $250
+                </td>
               </tr>
               <tr>
-                <td className="border border-gray-300 px-4 py-2">Lifetime max for travel</td>
+                <td className="border border-gray-300 px-4 py-2">
+                  Lifetime max (travel)
+                </td>
                 <td className="border border-gray-300 px-4 py-2">$50,000</td>
                 <td className="border border-gray-300 px-4 py-2">$50,000</td>
               </tr>
               <tr>
-                <td className="border border-gray-300 px-4 py-2">Part B deductible ($283/yr)</td>
-                <td className="border border-gray-300 px-4 py-2">You pay it</td>
-                <td className="border border-gray-300 px-4 py-2">You pay it</td>
+                <td className="border border-gray-300 px-4 py-2">
+                  Part B deductible ($283/yr)
+                </td>
+                <td className="border border-gray-300 px-4 py-2">You pay</td>
+                <td className="border border-gray-300 px-4 py-2">You pay</td>
               </tr>
               <tr>
-                <td className="border border-gray-300 px-4 py-2">Office visit copays</td>
+                <td className="border border-gray-300 px-4 py-2">
+                  Part B excess charges
+                </td>
+                <td className="border border-gray-300 px-4 py-2">Covered</td>
+                <td className="border border-gray-300 px-4 py-2">
+                  Not covered
+                </td>
+              </tr>
+              <tr>
+                <td className="border border-gray-300 px-4 py-2">
+                  Office visit copays
+                </td>
                 <td className="border border-gray-300 px-4 py-2">$0</td>
-                <td className="border border-gray-300 px-4 py-2">Up to $20</td>
+                <td className="border border-gray-300 px-4 py-2">
+                  Up to $20
+                </td>
               </tr>
               <tr>
-                <td className="border border-gray-300 px-4 py-2">ER copay (not admitted)</td>
-                <td className="border border-gray-300 px-4 py-2">$0</td>
-                <td className="border border-gray-300 px-4 py-2">Up to $50</td>
-              </tr>
-              <tr>
-                <td className="border border-gray-300 px-4 py-2">Monthly premium</td>
-                <td className="border border-gray-300 px-4 py-2">Higher — rates vary by carrier</td>
-                <td className="border border-gray-300 px-4 py-2">Lower — rates vary by carrier</td>
+                <td className="border border-gray-300 px-4 py-2">
+                  Monthly premium
+                </td>
+                <td className="border border-gray-300 px-4 py-2">Higher</td>
+                <td className="border border-gray-300 px-4 py-2">Lower</td>
               </tr>
             </tbody>
           </table>
         </div>
         <p className="text-gray-700">
-          The foreign travel benefit is identical between G and N. Your choice comes down to how you want domestic cost-sharing to work. Plan G has no copays. Plan N trades small copays for a lower monthly premium.
+          The travel benefit is identical. The real difference is domestic
+          coverage. Plan G covers Part B excess charges and has no copays. Plan N
+          costs less monthly but has small copays and leaves you exposed to
+          excess charges. Rates vary by carrier and location.
         </p>
       </section>
 
@@ -191,10 +236,15 @@ export default function BestMedicarePlanForForeignTravel() {
           Why Medicare Advantage rarely covers care outside the U.S.
         </h2>
         <p className="text-gray-700 mb-2">
-          Medicare Advantage plans use provider networks. Those networks don't extend overseas. A handful of plans offer limited urgent or emergency coverage abroad as a supplemental benefit, but it's inconsistent and often capped low.
+          Medicare Advantage plans are network-based. Most HMO plans offer zero
+          coverage abroad. Some PPO plans include limited emergency benefits
+          outside the U.S., but the details vary wildly by carrier and plan
+          year.
         </p>
         <p className="text-gray-700">
-          If you travel internationally more than once a year, Original Medicare paired with a Medigap plan gives you far more predictable protection than any Advantage plan.
+          If you travel internationally more than once a year, Medicare Advantage
+          is usually the wrong fit. Original Medicare paired with a Medigap plan
+          gives you far more predictable protection.
         </p>
       </section>
 
@@ -203,24 +253,28 @@ export default function BestMedicarePlanForForeignTravel() {
           When supplemental travel insurance makes more sense than Medigap alone
         </h2>
         <p className="text-gray-700 mb-2">
-          Medigap's $50,000 lifetime cap sounds reasonable until you picture a hospitalization in Europe or a medical evacuation. One airlift can exceed $100,000. The benefit also only covers emergencies, not routine care or pre-existing condition flare-ups abroad.
+          Medigap foreign travel coverage only kicks in for emergencies. It
+          won't pay for routine doctor visits abroad, medical evacuation, or
+          trip cancellation. The $50,000 lifetime cap can run out fast if you
+          need surgery or an ICU stay overseas.
         </p>
         <ul className="list-disc pl-6 text-gray-700 space-y-1">
-          <li>Trips longer than 60 days need standalone travel medical insurance</li>
-          <li>Medical evacuation coverage requires a separate policy</li>
-          <li>Non-emergency care abroad isn't covered by any Medigap plan</li>
+          <li>Extended trips (30+ days) often need standalone travel medical insurance</li>
+          <li>Medical evacuation alone can cost $50,000 to $100,000+</li>
+          <li>Annual travel policies run roughly $100 to $500 depending on age and trip length</li>
         </ul>
       </section>
 
       <section className="mt-10">
         <h2 className="text-2xl font-semibold text-gray-900 mb-3">
-          What Medicare.gov says about coverage outside the U.S.
+          What counts as "outside the U.S." under Medicare rules
         </h2>
-        <p className="text-gray-700 mb-2">
-          According to Medicare.gov, Medicare usually doesn't cover health care while you're traveling outside the U.S. There are rare exceptions, like emergency care on a cruise ship within six hours of a U.S. port, or care at a Canadian hospital that's closer than the nearest U.S. hospital in a border emergency.
-        </p>
         <p className="text-gray-700">
-          These exceptions are narrow. Don't rely on them as a travel plan.
+          Medicare considers the 50 states, D.C., Puerto Rico, U.S. Virgin
+          Islands, Guam, Northern Mariana Islands, and American Samoa as
+          domestic. Everywhere else counts as foreign. A cruise that docks in
+          the Bahamas? That's foreign. Canada? Foreign. Mexico? Foreign. Don't
+          assume your coverage travels with you.
         </p>
       </section>
 
@@ -229,27 +283,38 @@ export default function BestMedicarePlanForForeignTravel() {
           How to lock in the best rate on a Medigap plan with travel coverage
         </h2>
         <p className="text-gray-700 mb-2">
-          Your Medigap Open Enrollment Period starts the month you turn 65 and are enrolled in Part B. During that six-month window, no carrier can charge you more or deny you based on health history. After it closes, medical underwriting applies in most states.
+          Your Medigap Open Enrollment Period starts the month you turn 65 and
+          are enrolled in Part B. During those 6 months, carriers can't deny
+          you or charge more for health conditions. After that window closes,
+          you may face medical underwriting.
         </p>
         <p className="text-gray-700">
-          If you're planning retirement travel, apply for Medigap up to 6 months before your Part B start date to lock in rates. Don't wait until your first trip is booked.
+          If you're planning trips abroad in retirement, apply for Medigap
+          during this window. It's the cleanest path to locking in a good rate
+          on Plan G or Plan N.
         </p>
       </section>
 
-      <div className="mt-12 bg-blue-600 text-white rounded-lg p-8 text-center">
-        <p className="text-xl font-semibold mb-2">
-          Want help comparing Medigap plans with foreign travel coverage?
+      <div className="mt-12 bg-blue-50 border border-blue-200 rounded-lg p-6 text-center">
+        <p className="text-xl font-semibold text-blue-900 mb-2">
+          Want to compare Medigap plans with travel coverage?
         </p>
-        <p className="text-lg mb-4">
+        <p className="text-gray-700 mb-4">
           Call{" "}
-          <a href="tel:8555591700" className="underline font-bold">
+          <a
+            href="tel:8555591700"
+            className="text-blue-700 font-bold hover:underline"
+          >
             855-559-1700
           </a>{" "}
           or{" "}
-          <Link href="/contact" className="underline font-bold">
-            get a free quote
-          </Link>{" "}
-          — no obligation, no pressure.
+          <Link
+            href="/quote"
+            className="text-blue-700 font-bold hover:underline"
+          >
+            get a free quote online
+          </Link>
+          . Anthony Orner, licensed Medicare broker.
         </p>
       </div>
 
@@ -264,34 +329,34 @@ export default function BestMedicarePlanForForeignTravel() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/services/medicare-supplement-plan-g"
-              className="text-blue-600 hover:underline"
+              href="/services/medigap-plan-g"
+              className="text-blue-700 hover:underline"
             >
-              Medicare Supplement Plan G: Full Breakdown
+              Medigap Plan G: What It Covers and What It Costs
             </Link>
           </li>
           <li>
             <Link
-              href="/services/medicare-supplement-plan-n"
-              className="text-blue-600 hover:underline"
+              href="/services/medigap-plan-n"
+              className="text-blue-700 hover:underline"
             >
-              Medicare Supplement Plan N: What It Covers
+              Medigap Plan N: Is the Lower Premium Worth It?
             </Link>
           </li>
           <li>
             <Link
-              href="/services/medigap-vs-medicare-advantage"
-              className="text-blue-600 hover:underline"
+              href="/services/medicare-advantage-vs-medigap"
+              className="text-blue-700 hover:underline"
             >
-              Medigap vs Medicare Advantage: How to Decide
+              Medicare Advantage vs Medigap: How to Decide
             </Link>
           </li>
           <li>
             <Link
               href="/services/medigap-open-enrollment"
-              className="text-blue-600 hover:underline"
+              className="text-blue-700 hover:underline"
             >
-              Medigap Open Enrollment: When and Why It Matters
+              Medigap Open Enrollment: When to Apply
             </Link>
           </li>
         </ul>

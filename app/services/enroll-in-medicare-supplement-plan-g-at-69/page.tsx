@@ -7,12 +7,12 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 
 export const metadata: Metadata = {
   title:
-    "Enroll in Medicare Supplement Plan G at 69 | Free Broker Guidance | MedicareYourself",
+    "enroll in medicare supplement plan g at 69 | Free Broker Guidance | MedicareYourself",
   description:
     "Enroll in Medicare Supplement Plan G at 69 with licensed broker help. Learn eligibility, underwriting steps, and how to apply. No fee, no obligation.",
   openGraph: {
     title:
-      "Enroll in Medicare Supplement Plan G at 69 | Free Broker Guidance | MedicareYourself",
+      "enroll in medicare supplement plan g at 69 | Free Broker Guidance | MedicareYourself",
     description:
       "Enroll in Medicare Supplement Plan G at 69 with licensed broker help. Learn eligibility, underwriting steps, and how to apply. No fee, no obligation.",
   },
@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/services",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Enroll in Medicare Supplement Plan G at 69",
-      item: "https://www.medicareyourself.com/services/enroll-in-medicare-supplement-plan-g-at-69",
+      item: "https://medicareyourself.com/services/enroll-in-medicare-supplement-plan-g-at-69",
     },
   ],
 };
@@ -51,7 +51,7 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
@@ -64,262 +64,266 @@ const articleSchema = {
 
 const faqs = [
   {
-    question: "Can I enroll in Plan G at 69 without health questions?",
+    question: "When can I enroll in Medigap Plan G?",
     answer:
-      "Only if you qualify for a federal guaranteed issue right - such as losing employer coverage or leaving a Medicare Advantage plan. Outside those situations, carriers will ask health questions through underwriting.",
+      "Your best window is your 6-month Medigap Open Enrollment Period, which starts the month you turn 65 and have Part B. At 69, you're past that window and will likely need to pass medical underwriting. Some states offer additional protections, so check your state's rules or call a licensed broker.",
+  },
+  {
+    question:
+      "Can I get Plan G at 69 if I have a pre-existing condition?",
+    answer:
+      "It depends on the condition and the carrier. Some insurers are more lenient than others. Conditions like well-controlled high blood pressure may not be an issue, while insulin-dependent diabetes or recent cancer treatment could lead to a decline. A broker can match you with carriers most likely to approve your application.",
+  },
+  {
+    question: "Is Plan G worth it at 69 versus Medicare Advantage?",
+    answer:
+      "Plan G covers everything Original Medicare doesn't pay except the Part B deductible ($283 in 2026). You get no networks, no referrals, and predictable costs. Medicare Advantage may have lower premiums but adds copays, prior authorizations, and network restrictions. Your health needs and budget should drive the decision.",
   },
   {
     question: "How much does Plan G cost at age 69?",
     answer:
-      "Rates vary by carrier, your zip code, gender, and tobacco use. At 69, you'll pay more than someone who locked in at 65, but premiums are still competitive. A licensed broker can pull real quotes for your area at no cost.",
-  },
-  {
-    question: "What does Plan G cover that Original Medicare doesn't?",
-    answer:
-      "Plan G covers the Part A deductible ($1,676 per benefit period in 2026), Part B excess charges, skilled nursing coinsurance ($209.50/day for days 21-100), and your 20% Part B coinsurance. You pay only the annual Part B deductible of $283.",
-  },
-  {
-    question: "Can I be denied Plan G at 69 for a health condition?",
-    answer:
-      "Yes. Outside your Medigap Open Enrollment Period or a guaranteed issue event, carriers can decline your application based on health history. Common conditions like diabetes, COPD, or heart disease may affect approval - but each carrier underwrites differently.",
+      "Rates vary by carrier, state, gender, and tobacco status. At 69, you'll pay more than someone who enrolled at 65 because most carriers use attained-age pricing. A licensed broker can pull real quotes from multiple carriers at no cost to you.",
   },
 ];
 
-export default function EnrollPlanGAt69Page() {
+export default function EnrollInMedicareSupplementPlanGAt69() {
   return (
-    <>
+    <main className="max-w-3xl mx-auto px-4 py-8">
       <SchemaMarkup schema={breadcrumbSchema} />
       <SchemaMarkup schema={articleSchema} />
 
-      <main className="max-w-4xl mx-auto px-4 py-8">
-        <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
-          <Link href="/" className="hover:underline">
-            Home
-          </Link>{" "}
-          &gt;{" "}
-          <Link href="/services" className="hover:underline">
-            Medicare Guides
-          </Link>{" "}
-          &gt;{" "}
-          <span className="text-gray-700">
-            Enroll in Medicare Supplement Plan G at 69
-          </span>
-        </nav>
+      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
+        <Link href="/" className="hover:underline">
+          Home
+        </Link>{" "}
+        &gt;{" "}
+        <Link href="/services" className="hover:underline">
+          Medicare Guides
+        </Link>{" "}
+        &gt;{" "}
+        <span className="text-gray-700">
+          Enroll in Medicare Supplement Plan G at 69
+        </span>
+      </nav>
 
-        <h1 className="text-3xl font-bold mb-4">
-          Enroll in Medicare Supplement Plan G at 69: Eligibility, Timing, and
-          Next Steps
-        </h1>
+      <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+        Enroll in Medicare Supplement Plan G at 69: Eligibility, Timing, and
+        Next Steps
+      </h1>
 
-        <Image
-          src="/images/enroll-in-medicare-supplement-plan-g-at-69.webp"
-          alt="Enroll in Medicare Supplement Plan G at 69"
-          width={800}
-          height={400}
-          className="rounded-lg mb-6 w-full"
-        />
+      <Image
+        src="/images/hub_enroll-in-medicare-supplement-plan-g-at-69.webp"
+        alt="Enroll in Medicare Supplement Plan G at 69"
+        width={800}
+        height={400}
+        className="w-full rounded-lg mb-6"
+        priority
+      />
 
-        <p className="text-lg mb-2">
-          Enrolling in Medicare Supplement Plan G at 69 is absolutely possible -
-          but the process looks different than it did at 65. Your Medigap Open
-          Enrollment Period is behind you, which means most carriers will review
-          your health history before issuing a policy.
+      <p className="text-lg text-gray-700 mb-2">
+        Enrolling in Medicare Supplement Plan G at 69 is absolutely possible,
+        but the process looks different than it did at 65. Your Medigap Open
+        Enrollment Period is behind you, which means most carriers will ask
+        health questions before they approve your application.
+      </p>
+      <p className="text-lg text-gray-700 mb-6">
+        That's not a dealbreaker. It just means you need to apply strategically.
+        A licensed broker can steer you toward carriers with the best approval
+        odds for your situation, at no cost to you.
+      </p>
+
+      <PhoneCTA />
+
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          Are you guaranteed issue for Plan G at age 69?
+        </h2>
+        <p className="text-gray-700 mb-2">
+          Under federal law, your guaranteed issue right to buy any Medigap plan
+          lasts 6 months. It starts the month you're both 65 or older and
+          enrolled in Part B. At 69, that window has closed unless a specific
+          trigger event applies.
         </p>
-        <p className="text-lg mb-6">
-          That doesn't mean you're out of options. It means you need the right
-          strategy and someone who knows which carriers are most likely to say
-          yes.
+        <p className="text-gray-700">
+          Federal guaranteed issue triggers include losing employer coverage,
+          leaving a Medicare Advantage plan, or having your carrier go bankrupt.
+          Some states extend additional protections. If none of these apply,
+          you'll go through underwriting.
         </p>
+      </section>
 
-        <PhoneCTA />
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          What underwriting looks like outside open enrollment
+        </h2>
+        <p className="text-gray-700 mb-2">
+          Medical underwriting means the insurance company reviews your health
+          history before deciding whether to offer you a policy. They'll
+          typically ask about conditions diagnosed, medications prescribed, and
+          treatments received over the past 2 to 5 years.
+        </p>
+        <p className="text-gray-700">
+          The process isn't as scary as it sounds. Most applications take 1 to 3
+          weeks. There's no physical exam. It's a paper review. The key is
+          applying with carriers that have favorable underwriting guidelines for
+          your specific health profile.
+        </p>
+      </section>
 
-        <section className="mt-10">
-          <h2 className="text-2xl font-semibold mb-3">
-            Are you guaranteed issue for Plan G at age 69?
-          </h2>
-          <p className="mb-3">
-            Under federal law, your Medigap Open Enrollment Period is a one-time
-            window: six months starting the month you're both 65 or older and
-            enrolled in Part B. During that window, no carrier can deny you or
-            charge more based on health.
-          </p>
-          <p className="mb-3">
-            At 69, that window has closed. However, you may still have guaranteed
-            issue rights if any of these apply:
-          </p>
-          <ul className="list-disc pl-6 mb-3 space-y-1">
-            <li>You're losing employer or union group health coverage</li>
-            <li>You're leaving a Medicare Advantage plan</li>
-            <li>Your current Medigap carrier is going bankrupt or left your area</li>
-            <li>Your plan violated its contract</li>
-          </ul>
-          <p>
-            Some states offer additional protections. Rules vary by state - call
-            to confirm your specific situation.
-          </p>
-        </section>
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          Step-by-step enrollment process with a licensed broker
+        </h2>
+        <ul className="list-disc list-inside text-gray-700 space-y-2">
+          <li>
+            <strong>Review your health history</strong> with your broker so they
+            know which carriers to target.
+          </li>
+          <li>
+            <strong>Compare quotes</strong> from multiple carriers. Plan G
+            benefits are identical no matter the company, but premiums and
+            long-term rate behavior are not.
+          </li>
+          <li>
+            <strong>Submit your application.</strong> Your broker handles the
+            paperwork and follows up with the carrier.
+          </li>
+          <li>
+            <strong>Get your approval</strong> and start using your Plan G.
+            Coverage typically begins the first of the following month.
+          </li>
+        </ul>
+      </section>
 
-        <section className="mt-10">
-          <h2 className="text-2xl font-semibold mb-3">
-            What underwriting looks like outside open enrollment
-          </h2>
-          <p className="mb-3">
-            If you don't have a guaranteed issue right, you'll go through medical
-            underwriting. That means the carrier asks about your health history,
-            medications, and recent treatments.
-          </p>
-          <p>
-            Underwriting isn't automatic rejection. It's a review. Some carriers
-            are stricter than others, and a broker who works with multiple
-            companies knows which ones are more flexible for specific health
-            profiles.
-          </p>
-        </section>
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          Common health conditions that may affect your application
+        </h2>
+        <p className="text-gray-700 mb-2">
+          Carriers evaluate conditions differently. Controlled high blood
+          pressure or cholesterol rarely causes problems. Conditions that may
+          trigger a closer look or a decline include:
+        </p>
+        <ul className="list-disc list-inside text-gray-700 space-y-1">
+          <li>Insulin-dependent diabetes</li>
+          <li>Cancer treatment within the past 2 to 5 years</li>
+          <li>COPD requiring oxygen therapy</li>
+          <li>Recent heart surgery or stroke</li>
+        </ul>
+        <p className="text-gray-700 mt-2">
+          Even with these conditions, options may exist. Some carriers are more
+          lenient than others, which is exactly why working with a broker
+          matters.
+        </p>
+      </section>
 
-        <section className="mt-10">
-          <h2 className="text-2xl font-semibold mb-3">
-            Common health conditions that may affect your application
-          </h2>
-          <p className="mb-3">
-            Carriers evaluate conditions differently. A few that commonly come up
-            during underwriting at 69:
-          </p>
-          <ul className="list-disc pl-6 mb-3 space-y-1">
-            <li>Diabetes (type and management matter)</li>
-            <li>COPD or other respiratory conditions</li>
-            <li>Heart disease, stents, or bypass history</li>
-            <li>Cancer history (timing of treatment is a key factor)</li>
-            <li>Joint replacements scheduled or recent</li>
-          </ul>
-          <p>
-            Having one of these doesn't mean automatic denial. Each carrier draws
-            its own line. That's exactly why working with an independent broker -
-            not a single-company agent - matters.
-          </p>
-        </section>
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          Why the carrier you choose matters more than you think
+        </h2>
+        <p className="text-gray-700 mb-2">
+          Plan G is standardized. Every carrier offers the exact same medical
+          benefits. What's not standardized: premiums, rate increase history, and
+          how aggressively they price new enrollees.
+        </p>
+        <p className="text-gray-700">
+          Some companies offer low introductory rates, then stack age increases
+          and block rate increases that hit 10 to 18% in a single year. At 69,
+          long-term rate stability should weigh heavily in your decision. A
+          broker who tracks rate histories across carriers can save you thousands
+          over the life of your policy.
+        </p>
+      </section>
 
-        <section className="mt-10">
-          <h2 className="text-2xl font-semibold mb-3">
-            Step-by-step enrollment process with a licensed broker
-          </h2>
-          <ol className="list-decimal pl-6 mb-3 space-y-2">
-            <li>
-              We review your health history and current coverage to identify which
-              carriers are most likely to approve you.
-            </li>
-            <li>
-              We pull real quotes from multiple carriers so you can compare
-              premiums - not just today's rate, but long-term pricing behavior.
-            </li>
-            <li>
-              We submit your application to the best-fit carrier. If one declines,
-              we pivot to another without starting from scratch.
-            </li>
-            <li>
-              Once approved, your Plan G coverage begins on the effective date.
-              There's no gap if we plan the timing right.
-            </li>
-          </ol>
-          <p>This costs you nothing. Brokers are paid by the carrier, not you.</p>
-        </section>
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+          What Plan G covers in 2026
+        </h2>
+        <p className="text-gray-700 mb-2">
+          Plan G pays nearly all of your out-of-pocket costs under Original
+          Medicare. You're responsible only for the Part B deductible ($283 in
+          2026). Everything else is covered:
+        </p>
+        <ul className="list-disc list-inside text-gray-700 space-y-1">
+          <li>Part A deductible ($1,676 per benefit period)</li>
+          <li>Part A hospital coinsurance and extra 365 days</li>
+          <li>Skilled nursing facility coinsurance ($209.50/day, days 21-100)</li>
+          <li>Part B coinsurance and copayments</li>
+          <li>Part B excess charges</li>
+          <li>First 3 pints of blood</li>
+          <li>Foreign travel emergency care (80%)</li>
+        </ul>
+        <p className="text-gray-700 mt-2">
+          No referrals. No networks. Any doctor who accepts Medicare accepts your
+          Plan G.
+        </p>
+      </section>
 
-        <section className="mt-10">
-          <h2 className="text-2xl font-semibold mb-3">
-            Why premium behavior matters more than starting price
-          </h2>
-          <p className="mb-3">
-            Plan G is standardized - identical benefits regardless of carrier. But
-            premiums aren't. Some carriers price aggressively low to attract new
-            members, then raise rates steeply year after year.
-          </p>
-          <p>
-            At 69, you want a carrier with stable long-term rate increases, not
-            the cheapest month-one premium. I help you compare pricing history so
-            you're not shocked at 73 or 78.
-          </p>
-        </section>
+      <section className="mt-12 bg-blue-600 text-white rounded-lg p-8 text-center">
+        <h2 className="text-2xl font-bold mb-3">
+          Ready to see if you qualify for Plan G?
+        </h2>
+        <p className="text-lg mb-4">
+          Call us for a free, no-obligation review of your options. We'll check
+          your eligibility and pull quotes from multiple carriers.
+        </p>
+        <a
+          href="tel:8555591700"
+          className="text-3xl font-bold hover:underline block mb-3"
+        >
+          855-559-1700
+        </a>
+        <Link
+          href="/get-a-free-quote"
+          className="inline-block bg-white text-blue-600 font-semibold py-3 px-8 rounded-lg hover:bg-gray-100 transition"
+        >
+          Get a Free Quote
+        </Link>
+      </section>
 
-        <section className="mt-10">
-          <h2 className="text-2xl font-semibold mb-3">
-            What Plan G leaves for you to pay
-          </h2>
-          <p className="mb-3">
-            Plan G covers nearly everything Original Medicare doesn't - the Part A
-            deductible ($1,676 in 2026), Part B coinsurance, skilled nursing
-            facility coinsurance, and Part B excess charges. You're responsible
-            for:
-          </p>
-          <ul className="list-disc pl-6 space-y-1">
-            <li>The annual Part B deductible: $283 in 2026</li>
-            <li>Your monthly Part B premium: $202.90 in 2026</li>
-            <li>Your Plan G monthly premium (varies by carrier and location)</li>
-          </ul>
-        </section>
+      <section className="mt-12">
+        <FAQSection faqs={faqs} />
+      </section>
 
-        <section className="mt-10 bg-blue-50 rounded-lg p-6 text-center">
-          <p className="text-xl font-semibold mb-2">
-            Ready to see if you can get approved?
-          </p>
-          <p className="mb-4">
-            Call{" "}
-            <a
-              href="tel:8555591700"
-              className="text-blue-700 font-bold hover:underline"
+      <section className="mt-12">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-4">
+          Related resources
+        </h2>
+        <ul className="space-y-2">
+          <li>
+            <Link
+              href="/services/medicare-supplement-plan-g"
+              className="text-blue-600 hover:underline"
             >
-              855-559-1700
-            </a>{" "}
-            for a free, no-obligation review of your options.
-          </p>
-          <Link
-            href="/contact"
-            className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700"
-          >
-            Get a Free Quote
-          </Link>
-        </section>
-
-        <section className="mt-10">
-          <FAQSection faqs={faqs} />
-        </section>
-
-        <section className="mt-10">
-          <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
-          <ul className="space-y-2">
-            <li>
-              <Link
-                href="/services/medicare-supplement-plan-g"
-                className="text-blue-600 hover:underline"
-              >
-                Medicare Supplement Plan G: Full Benefits Breakdown
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/services/medigap-underwriting"
-                className="text-blue-600 hover:underline"
-              >
-                How Medigap Underwriting Works After 65
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/services/plan-g-vs-plan-n"
-                className="text-blue-600 hover:underline"
-              >
-                Plan G vs Plan N: Which Is Right for You?
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/services/guaranteed-issue-medigap"
-                className="text-blue-600 hover:underline"
-              >
-                Guaranteed Issue Rights for Medigap Plans
-              </Link>
-            </li>
-          </ul>
-        </section>
-      </main>
-    </>
+              Medicare Supplement Plan G: Full Benefits Guide
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/services/medigap-open-enrollment-period"
+              className="text-blue-600 hover:underline"
+            >
+              Understanding Your Medigap Open Enrollment Period
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/services/medicare-supplement-underwriting"
+              className="text-blue-600 hover:underline"
+            >
+              How Medicare Supplement Underwriting Works
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/services/plan-g-vs-medicare-advantage"
+              className="text-blue-600 hover:underline"
+            >
+              Plan G vs. Medicare Advantage: Which Is Right for You?
+            </Link>
+          </li>
+        </ul>
+      </section>
+    </main>
   );
 }

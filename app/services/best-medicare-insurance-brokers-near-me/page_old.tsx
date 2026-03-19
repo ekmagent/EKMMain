@@ -26,19 +26,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.medicareyourself.com",
+      item: "https://medicareyourself.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://www.medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/medicare-guides",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Best Medicare Insurance Brokers Near Me",
-      item: "https://www.medicareyourself.com/services/best-medicare-insurance-brokers-near-me",
+      item: "https://medicareyourself.com/services/best-medicare-insurance-brokers-near-me",
     },
   ],
 };
@@ -50,7 +50,7 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "Anthony Orner",
-    url: "https://www.medicareyourself.com/about",
+    url: "https://medicareyourself.com/about",
   },
   publisher: {
     "@type": "Organization",
@@ -110,7 +110,7 @@ export default function BestMedicareBrokersNearMe() {
         </h1>
 
         <Image
-          src="/images/best-medicare-insurance-brokers-near-me.webp"
+          src="/images/best-medicare-insurance-brokers-near-me_photo.webp"
           alt="best medicare insurance brokers near me"
           width={800}
           height={400}
