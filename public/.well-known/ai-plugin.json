@@ -9,10 +9,10 @@
   },
   "api": {
     "type": "openapi",
-    "url": "https://www.medicareyourself.com/openapi.json",
+    "url": "https://medicareyourself.com/openapi.json",
     "is_user_authenticated": false
   },
-  "logo_url": "https://www.medicareyourself.com/logo.png",
+  "logo_url": "https://medicareyourself.com/logo.png",
   "contact_email": "anthony@medicareyourself.com",
-  "legal_info_url": "https://www.medicareyourself.com/about"
+  "legal_info_url": "https://medicareyourself.com/about"
 }

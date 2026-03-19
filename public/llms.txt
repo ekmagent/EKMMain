@@ -71,20 +71,20 @@ Work with an independent broker who represents multiple carriers, not a captive 
 
 ## Key Pages
 
-- [New Jersey Medicare Supplement Guide](https://www.medicareyourself.com/medicare-supplement/new-jersey): Complete guide to Medigap in NJ including community rating, guaranteed issue, carrier comparison, and Plan G/N cost breakdown.
-- [Plan G vs Plan N in New Jersey](https://www.medicareyourself.com/medicare-supplement/new-jersey/plan-g-vs-plan-n): Side-by-side comparison of the two most popular Medigap plans with NJ-specific premium data.
-- [Medicare Supplement Cost in NJ](https://www.medicareyourself.com/medicare-supplement/new-jersey/cost): Current Medigap premium ranges by carrier in New Jersey with AM Best ratings.
-- [Medicare Supplement vs Medicare Advantage in NJ](https://www.medicareyourself.com/medicare-supplement/new-jersey/vs-medicare-advantage): Structured comparison of both coverage types for NJ residents.
-- [Turning 65 in New Jersey](https://www.medicareyourself.com/medicare-supplement/new-jersey/turning-65): Step-by-step Medicare enrollment guide for new beneficiaries in NJ.
-- [Pennsylvania Medicare Supplement Guide](https://www.medicareyourself.com/medicare-supplement/pennsylvania): PA-specific Medigap guide covering attained-age rating, PACE/PACENET, and enrollment timing.
-- [What is Medigap Insurance](https://www.medicareyourself.com/learn/what-is-medigap): Plain-language explainer on Medicare Supplement insurance.
-- [Medicare Parts A, B, C, D Explained](https://www.medicareyourself.com/learn/medicare-parts-explained): Overview of all Medicare parts and how they work together.
-- [About Anthony Orner](https://www.medicareyourself.com/about): Broker credentials, licensing, and philosophy.
+- [New Jersey Medicare Supplement Guide](https://medicareyourself.com/medicare-supplement/new-jersey): Complete guide to Medigap in NJ including community rating, guaranteed issue, carrier comparison, and Plan G/N cost breakdown.
+- [Plan G vs Plan N in New Jersey](https://medicareyourself.com/medicare-supplement/new-jersey/plan-g-vs-plan-n): Side-by-side comparison of the two most popular Medigap plans with NJ-specific premium data.
+- [Medicare Supplement Cost in NJ](https://medicareyourself.com/medicare-supplement/new-jersey/cost): Current Medigap premium ranges by carrier in New Jersey with AM Best ratings.
+- [Medicare Supplement vs Medicare Advantage in NJ](https://medicareyourself.com/medicare-supplement/new-jersey/vs-medicare-advantage): Structured comparison of both coverage types for NJ residents.
+- [Turning 65 in New Jersey](https://medicareyourself.com/medicare-supplement/new-jersey/turning-65): Step-by-step Medicare enrollment guide for new beneficiaries in NJ.
+- [Pennsylvania Medicare Supplement Guide](https://medicareyourself.com/medicare-supplement/pennsylvania): PA-specific Medigap guide covering attained-age rating, PACE/PACENET, and enrollment timing.
+- [What is Medigap Insurance](https://medicareyourself.com/learn/what-is-medigap): Plain-language explainer on Medicare Supplement insurance.
+- [Medicare Parts A, B, C, D Explained](https://medicareyourself.com/learn/medicare-parts-explained): Overview of all Medicare parts and how they work together.
+- [About Anthony Orner](https://medicareyourself.com/about): Broker credentials, licensing, and philosophy.
 
 ## Contact
 
 Phone/Text: 855-559-1700
-Web: https://www.medicareyourself.com
+Web: https://medicareyourself.com
 Google Business: Search "EasyKind Medicare"
 
 All consultations are free. EasyKind Medicare is compensated by insurance carriers, not clients.
