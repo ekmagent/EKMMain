@@ -7,14 +7,14 @@ import PhoneCTA from "@/components/PhoneCTA";
 import { SITE_URL } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Medicare Guides | MedicareYourself",
+  title: "Medicare Services & Guides | MedicareYourself",
   description:
-    "Straightforward Medicare guides on Plan G costs, carrier comparisons, enrollment, and switching plans. Written by a licensed independent broker.",
-  alternates: { canonical: `${SITE_URL}/hub` },
+    "Find a Medicare broker, compare Medigap plans, get condition-specific guidance, and explore local agents near you. Free, independent help: 855-559-1700.",
+  alternates: { canonical: `${SITE_URL}/services` },
   openGraph: {
-    title: "Medicare Guides | MedicareYourself",
+    title: "Medicare Services & Guides | MedicareYourself",
     description:
-      "Straightforward Medicare guides on Plan G costs, carrier comparisons, enrollment, and switching plans. Written by a licensed independent broker.",
+      "Find a Medicare broker, compare Medigap plans, get condition-specific guidance, and explore local agents near you. Free, independent help: 855-559-1700.",
   },
 };
 
@@ -31,71 +31,183 @@ const breadcrumbSchema = {
     {
       "@type": "ListItem",
       position: 2,
-      name: "Medicare Guides",
-      item: "https://medicareyourself.com/hub",
+      name: "Medicare Services",
+      item: "https://medicareyourself.com/services",
     },
   ],
 };
 
-/*
- * Edward Sturm Module 06 — Hub Page Information Architecture
- *
- * Hub page categories (H2s) group bottom-of-funnel landing pages.
- * Within each category, pages are ordered by search intent + volume
- * (highest-intent first, not alphabetically).
- *
- * Anchor text = the H1 of the target page.
- */
-
-/* ── Category definitions ─────────────────────────────────────────────── */
+/* ── Category rules ─────────────────────────────────────────────────────
+ * Edward Module 06: group BOF pages under H2 categories.
+ * Order within each category: highest-intent/volume first.
+ * Slug-based pattern matching assigns each page to exactly one category.
+ * ──────────────────────────────────────────────────────────────────────── */
 
 interface HubLink {
   href: string;
-  label: string; // anchor text = H1 of target page
+  label: string;
 }
 
-interface HubCategory {
+interface CategoryRule {
   heading: string;
-  links: HubLink[];
+  test: (slug: string) => boolean;
 }
+
+const CATEGORY_RULES: CategoryRule[] = [
+  {
+    heading: "Medicare for specific health conditions",
+    test: (s) =>
+      /broker-for-(people-with-|alzheimers|anxiety|arthritis|asthma|atrial|back-pain|bipolar|cancer|cataracts|chronic-pain|congestive|copd|dementia|depression|diabeti|dialysis|epilepsy|fibromyalgia|glaucoma|hearing|heart-disease|high-blood|high-cholesterol|hip-replace|kidney|knee-replace|lupus|macular|multiple-sclerosis|neuropathy|obesity|osteoporosis|parkinsons|peripheral|ptsd|rheumatoid|schizophrenia|sleep-apnea|stroke|thyroid|transplant)/.test(s) ||
+      /enrollment-help-for-people-with/.test(s) ||
+      /best-medicare-plan-for-(chronic|dialysis|foreign)/.test(s) ||
+      /supplement-insurance-for-crohns/.test(s) ||
+      /best-medicare-plan-for-someone-with-diabetes/.test(s) ||
+      /supplemental-plan-best-for-copd/.test(s) ||
+      /supplement-if-you-are-on-disability/.test(s) ||
+      /supplement-plan-if-you-have-a-pre-existing/.test(s) ||
+      /supplement-for-people-on-disability/.test(s) ||
+      /agent-for-someone-with-pre-existing/.test(s) ||
+      /broker-for-people-on-disability/.test(s),
+  },
+  {
+    heading: "Medicare agents in New Jersey",
+    test: (s) =>
+      /(insurance-agents-in-|agents-in-|specialists-in-cranford|medicare-in-monmouth).*new-jersey/.test(s) ||
+      /-nj($|-)|in-.*-nj($|-)/.test(s) ||
+      /find-a-medicare-agent-in-/.test(s) ||
+      /local-medicare-agents-in-/.test(s) ||
+      /hackensack-nj|hillsborough-nj|hoboken-nj|howell-nj|irvington-nj|jackson-nj|kearny-nj|lakewood-nj|linden-nj/.test(s) ||
+      /broker-near-me-new-jersey/.test(s) ||
+      /free-medicare-broker-new-jersey/.test(s) ||
+      /how-to-enroll-in-medicare-in-new-jersey/.test(s) ||
+      /advise-in-new-jersey/.test(s) ||
+      /advisors-nj/.test(s) ||
+      /how-much-is-plan-(f|g)-in-nj/.test(s) ||
+      /plan-g-rates.*new-jersey/.test(s),
+  },
+  {
+    heading: "Plan G & Plan N rates, costs, and enrollment",
+    test: (s) =>
+      /plan-g-cost|plan-g-rate|plan-n-rate|enroll.*plan-g|enroll.*plan-n|compare-and-enroll|quote-and-enroll|enroll-in-plan-g/.test(s) ||
+      /quickest-way-to-enroll/.test(s) ||
+      /same-day-medicare-supplement-enrollment/.test(s) ||
+      /supplement-open-enrollment/.test(s) ||
+      /best-medicare-supplement-rates-by-age/.test(s),
+  },
+  {
+    heading: "Medicare Supplement costs and rate changes",
+    test: (s) =>
+      /cost-per-month|cost-of-medicare-supplement|cost-of-supplemental|medigap-cost/.test(s) ||
+      /rate-jumped|rate-change|premium-hikes|premiums-increasing|save-money-on-my-medicare-supplement/.test(s) ||
+      /when-can-i-change-my-medicare-supplement/.test(s) ||
+      /what-time-of-year-can-you-switch/.test(s) ||
+      /how-long-does-it-take/.test(s) ||
+      /best-and-cheapest-medicare-supplement/.test(s),
+  },
+  {
+    heading: "Find a Medicare broker or agent",
+    test: (s) =>
+      /broker|agent|advisor|advocate|consultant|specialist/.test(s) &&
+      !/nj|new-jersey|jersey/.test(s) &&
+      !/broker-for-(people|alzheimers|anxiety|arthritis|asthma|atrial|back-pain|bipolar|cancer|cataracts|chronic|congestive|copd|dementia|depression|diabeti|dialysis|epilepsy|fibromyalgia|glaucoma|hearing|heart|high-blood|high-cholesterol|hip|kidney|knee|lupus|macular|multiple|neuropathy|obesity|osteoporosis|parkinsons|peripheral|ptsd|rheumatoid|schizophrenia|sleep|stroke|thyroid|transplant)/.test(s),
+  },
+  {
+    heading: "Medicare enrollment and decisions",
+    test: (s) =>
+      /enroll|turning-65|medicare-quotes|help-with-your-medicare-decision|quickest-way-to-enroll-into-medicare-advantage/.test(s),
+  },
+];
 
 /**
- * Static categories with manually-curated pages.
- * These are the existing, hand-built pages on the site.
- * As /services/[slug] pages are generated, they'll appear in the dynamic section below.
+ * Reads all /services/[slug]/page.tsx at build time, extracts H1 or title,
+ * and assigns each to a category based on slug patterns.
  */
-const STATIC_CATEGORIES: HubCategory[] = [
+function getCategorizedPages(): { heading: string; links: HubLink[] }[] {
+  const hubDir = path.join(process.cwd(), "app", "services");
+
+  let entries: string[];
+  try {
+    entries = fs.readdirSync(hubDir).sort();
+  } catch {
+    return [];
+  }
+
+  const categorized: Map<string, HubLink[]> = new Map();
+  for (const rule of CATEGORY_RULES) {
+    categorized.set(rule.heading, []);
+  }
+  const uncategorized: HubLink[] = [];
+
+  for (const entry of entries) {
+    const pagePath = path.join(hubDir, entry, "page.tsx");
+    if (!fs.existsSync(pagePath)) continue;
+
+    const source = fs.readFileSync(pagePath, "utf8");
+
+    // Extract H1 (preferred anchor text per Edward Module 06)
+    const h1Match = source.match(/<h1[^>]*>\s*([^<]+?)\s*<\/h1>/i);
+    const titleMatch = source.match(/title:\s*"([^"]+)"/);
+    const label =
+      h1Match?.[1]?.trim() ||
+      titleMatch?.[1]?.replace(/\s*\|.*$/, "").trim() ||
+      entry.replace(/-/g, " ");
+
+    const link: HubLink = { href: `/services/${entry}`, label };
+
+    // Assign to first matching category
+    let matched = false;
+    for (const rule of CATEGORY_RULES) {
+      if (rule.test(entry)) {
+        categorized.get(rule.heading)!.push(link);
+        matched = true;
+        break;
+      }
+    }
+    if (!matched) {
+      uncategorized.push(link);
+    }
+  }
+
+  // Build result — only include categories that have pages
+  const result: { heading: string; links: HubLink[] }[] = [];
+  for (const rule of CATEGORY_RULES) {
+    const links = categorized.get(rule.heading)!;
+    if (links.length > 0) {
+      result.push({ heading: rule.heading, links });
+    }
+  }
+  if (uncategorized.length > 0) {
+    result.push({ heading: "More Medicare guides", links: uncategorized });
+  }
+
+  return result;
+}
+
+/* ── Static categories — hand-curated pages outside /services ─────────── */
+
+const STATIC_CATEGORIES = [
   {
-    heading: "Plan Comparisons",
+    heading: "Plan comparisons and education",
     links: [
-      { href: "/medicare-supplement/new-jersey/plan-g-vs-plan-n", label: "Medigap Plan G vs Plan N in New Jersey (2026): Which Is Better?" },
+      { href: "/medicare-supplement/new-jersey/plan-g-vs-plan-n", label: "Medigap Plan G vs Plan N in New Jersey (2026)" },
       { href: "/medicare-supplement/new-jersey/vs-medicare-advantage", label: "Medigap vs Medicare Advantage in New Jersey (2026)" },
-      { href: "/learn/what-is-medigap", label: "What Is Medigap? Medicare Supplement Insurance Explained (2026)" },
-      { href: "/learn/medicare-parts-explained", label: "Medicare Parts A, B, C, and D Explained Simply (2026)" },
-    ],
-  },
-  {
-    heading: "Costs & Pricing",
-    links: [
+      { href: "/learn/what-is-medigap", label: "What Is Medigap? Medicare Supplement Insurance Explained" },
+      { href: "/learn/medicare-parts-explained", label: "Medicare Parts A, B, C, and D Explained Simply" },
       { href: "/medicare-supplement/new-jersey/cost", label: "How Much Does Medicare Cost in New Jersey in 2026?" },
-      { href: "/learn/medicare-help-low-income", label: "Medicare Help for People on a Fixed Income (2026)" },
+      { href: "/learn/medicare-help-low-income", label: "Medicare Help for People on a Fixed Income" },
+      { href: "/medicare-supplement/switch-carriers", label: "How to Switch Medicare Supplement Carriers" },
     ],
   },
   {
-    heading: "Enrollment & Turning 65",
+    heading: "Enrollment guides",
     links: [
-      { href: "/medicare-supplement/new-jersey/turning-65", label: "Turning 65 in New Jersey: Your Complete Medicare Checklist (2026)" },
+      { href: "/medicare-supplement/new-jersey/turning-65", label: "Turning 65 in New Jersey: Your Medicare Checklist" },
       { href: "/learn/how-to-sign-up-for-medicare", label: "How and When to Sign Up for Medicare (2026)" },
+      { href: "/learn/ssa-online-enrollment-walkthrough", label: "SSA.gov Online Enrollment: Step-by-Step Walkthrough" },
     ],
   },
   {
-    heading: "Switching Plans",
-    links: [
-      { href: "/medicare-supplement/switch-carriers", label: "How to Switch Medicare Supplement Carriers Without Losing Coverage" },
-    ],
-  },
-  {
-    heading: "Medicare by State",
+    heading: "Medicare by state",
     links: [
       { href: "/medicare-supplement/new-jersey", label: "Best Medicare Supplement Plans in New Jersey (2026)" },
       { href: "/medicare-supplement/pennsylvania", label: "Best Medicare Supplement Plans in Pennsylvania (2026)" },
@@ -104,71 +216,35 @@ const STATIC_CATEGORIES: HubCategory[] = [
   },
 ];
 
-/**
- * Dynamically discovers all /services/[slug] pages at build time.
- * Each page.tsx is expected to export metadata with a title.
- * These are the compact-keyword BOF landing pages generated by build-compact-pages.js.
- */
-function getDynamicHubPages(): HubLink[] {
-  const hubDir = path.join(process.cwd(), "app", "services");
-  const pages: HubLink[] = [];
-
-  let entries: string[];
-  try {
-    entries = fs.readdirSync(hubDir);
-  } catch {
-    return pages;
-  }
-
-  for (const entry of entries) {
-    const pagePath = path.join(hubDir, entry, "page.tsx");
-    if (!fs.existsSync(pagePath)) continue;
-
-    const source = fs.readFileSync(pagePath, "utf8");
-
-    // Extract H1 from the page (preferred anchor text per Edward Module 06)
-    const h1Match = source.match(/<h1[^>]*>([^<]+)<\/h1>/i);
-    // Fallback to metadata title
-    const titleMatch = source.match(/title:\s*"([^"]+)"/);
-
-    const label = h1Match?.[1] || titleMatch?.[1]?.replace(/\s*\|.*$/, "") || entry.replace(/-/g, " ");
-
-    pages.push({ href: `/services/${entry}`, label });
-  }
-
-  return pages;
-}
-
-export default function HubPage() {
-  const dynamicPages = getDynamicHubPages();
+export default function ServicesHubPage() {
+  const dynamicCategories = getCategorizedPages();
 
   return (
     <>
-      <SchemaMarkup schema={[breadcrumbSchema]} />
+      <SchemaMarkup schema={breadcrumbSchema} />
 
-      {/* Breadcrumb */}
       <nav className="max-w-6xl mx-auto px-4 pt-4 text-sm text-gray-500">
         <Link href="/" className="hover:text-blue-600">
           Home
         </Link>
         <span className="mx-2">&rsaquo;</span>
-        <span className="text-gray-900 font-medium">Medicare Guides</span>
+        <span className="text-gray-900 font-medium">Medicare Services</span>
       </nav>
 
-      {/* Hero — H1 + 1-2 sentences intro (Edward Module 06) */}
+      {/* Hero — H1 + intro (Edward Module 06) */}
       <section className="max-w-6xl mx-auto px-4 py-10">
         <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-          Medicare Guides
+          Medicare Services
         </h1>
         <p className="text-lg text-gray-600 leading-relaxed max-w-3xl">
           We help Medicare beneficiaries find the right coverage with free,
           unbiased guidance from a licensed independent broker. Here are the
-          most common topics people explore before choosing a plan:
+          most common ways people use our services:
         </p>
       </section>
 
-      {/* Hub categories — H2 headings with BOF pages listed underneath */}
-      <section className="max-w-6xl mx-auto px-4 pb-12 space-y-10">
+      {/* Static categories (hand-curated pages outside /services) */}
+      <section className="max-w-6xl mx-auto px-4 pb-8 space-y-10">
         {STATIC_CATEGORIES.map((category) => (
           <div key={category.heading}>
             <h2 className="text-xl font-bold text-gray-900 mb-4 pb-2 border-b border-gray-200">
@@ -189,31 +265,33 @@ export default function HubPage() {
             </div>
           </div>
         ))}
+      </section>
 
-        {/* Dynamic hub/[slug] pages — compact keyword BOF pages */}
-        {dynamicPages.length > 0 && (
-          <div>
+      {/* Dynamic categories (auto-categorized /services/[slug] pages) */}
+      <section className="max-w-6xl mx-auto px-4 pb-12 space-y-10">
+        {dynamicCategories.map((category) => (
+          <div key={category.heading}>
             <h2 className="text-xl font-bold text-gray-900 mb-4 pb-2 border-b border-gray-200">
-              More Medicare Guides
+              {category.heading}
             </h2>
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-              {dynamicPages.map((page) => (
+              {category.links.map((link) => (
                 <Link
-                  key={page.href}
-                  href={page.href}
+                  key={link.href}
+                  href={link.href}
                   className="block bg-white border border-gray-200 rounded-lg p-5 hover:border-blue-300 hover:shadow-md transition-all"
                 >
                   <span className="font-semibold text-gray-900 text-sm leading-snug">
-                    {page.label}
+                    {link.label}
                   </span>
                 </Link>
               ))}
             </div>
           </div>
-        )}
+        ))}
       </section>
 
-      {/* Bottom CTA (Edward Module 06: generic call to action button) */}
+      {/* Bottom CTA (Edward Module 06) */}
       <section className="bg-blue-700 text-white py-10 px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-2xl font-bold mb-3">

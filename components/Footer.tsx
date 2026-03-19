@@ -34,7 +34,7 @@ export default function Footer() {
               <li><Link href="/medicare-supplement/new-jersey" className="hover:text-[#2D6E5F] transition-colors">Medicare Supplement — New Jersey</Link></li>
               <li><Link href="/medicare-supplement/pennsylvania" className="hover:text-[#2D6E5F] transition-colors">Medicare Supplement — Pennsylvania</Link></li>
               <li><Link href="/medicare-advantage/new-jersey" className="hover:text-[#2D6E5F] transition-colors">Medicare Advantage — New Jersey</Link></li>
-              <li><Link href="/hub" className="hover:text-[#2D6E5F] transition-colors">Medicare Guides</Link></li>
+              <li><Link href="/services" className="hover:text-[#2D6E5F] transition-colors">Medicare Guides</Link></li>
               <li><Link href="/learn/medicare-help-low-income" className="hover:text-[#2D6E5F] transition-colors">Medicare Help — Low Income</Link></li>
               <li><Link href="/quote" className="hover:text-[#2D6E5F] transition-colors">Get a Free Quote</Link></li>
             </ul>
