@@ -38,6 +38,9 @@ PATTERNS THAT FAIL (no volume in Moz):
 - Too many words: 6+ word phrases -> Moz returns null
 - Too specific age combos: "plan g rates for 67 year old in nj" -> null
 
+DO NOT generate any of these (already evaluated):
+switch medigap plans, medigap rate increase, compare medigap rates, medigap plan g cost, medicare plan g rates, medicare supplement pre existing conditions, guaranteed issue medigap, medigap open enrollment period, switch medicare supplement carriers, medicare supplement switching rules, licensed medicare agent, independent medicare broker, certified medicare agent, medigap plan n rates, medicare supplement rate comparison, cheapest medigap plan g, medigap plan g versus plan n, change medigap carriers, medigap plans turning 65, medicare supplement guaranteed issue, change medigap plans, medicare supplement plans new jersey, medicare supplement broker, medicare supplement agent, replace medigap policy, cancel medicare supplement plan, hire medicare insurance broker, medicare supplement broker fees, medigap plan g rates 2026, plan g rates 2026, plan n cost 2026, medicare supplement dental coverage, licensed medigap agent, switch medigap carriers, medigap rate comparison, medigap rates by age, medicare supplement rate increase, medigap broker, retiring at 65 medicare options, medicare supplement broker independent, medigap plan g enrollment, switch medicare supplement plan, compare medigap plans by price, affordable medigap plans, change medigap carrier, medigap plan n versus plan g, medicare supplement broker free, medicare supplement plans tennessee
+
 AVOID:
 - Informational "how to" / "what is" queries (title gap = 0, big sites own these)
 - "Top 10" / "Best X" listicle-style keywords
