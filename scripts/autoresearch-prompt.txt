@@ -21,12 +21,13 @@ Keywords like "switch medigap plans" (vol=27) and "medigap rate increase" (vol=1
 
 Think about: problems people Google when dealing with Medicare supplements, specific scenarios (rate hikes, switching, enrollment timing, coverage gaps), questions phrased as actions not learning, 3-5 word phrases that are specific enough to have a title gap but common enough to register search volume.
 
-PATTERNS THAT WORK (confirmed volume + title gap):
-- Specific Medicare problems: "medigap rate increase", "medicare supplement cost by age"
-- Action + product combos: "switch medigap plans", "compare medigap rates"
-- Coverage scenarios: "medicare supplement pre existing conditions", "guaranteed issue medigap"
-- Product + modifier: "medigap plan g cost", "medicare plan g rates"
-- State-level: "medicare supplement plans tennessee" (not town/county level)
+PATTERNS THAT SCORE HIGH (Edward score 7+):
+- Switching queries: "switch medicare supplement carriers" (score=8), "switch medigap plans" — small broker sites rank for these
+- Broker searches: "medicare supplement broker" — niche agencies in SERPs
+- Rate frustration: "medigap rate increase" — consumer complaint sites rank
+- These work because independent broker/agency websites (DA 10-25) appear in Google's top 5 for switching and broker-finding queries
+
+Generate 5 keywords about switching/changing/canceling supplement plans, and 5 about finding/hiring a medicare broker or agent (without "near me").
 
 PATTERNS THAT FAIL (no volume in Moz):
 - Hyper-local: anything with NJ town/county names -> Moz returns null
