@@ -27,7 +27,11 @@ PATTERNS THAT SCORE HIGH (Edward score 7+):
 - Rate frustration: "medigap rate increase" — consumer complaint sites rank
 - These work because independent broker/agency websites (DA 10-25) appear in Google's top 5 for switching and broker-finding queries
 
-Generate 5 keywords about switching/changing/canceling supplement plans, and 5 about finding/hiring a medicare broker or agent (without "near me").
+Generate keywords in these categories (2-3 each, no "near me"):
+1. Switching/changing supplement plans or carriers (action-oriented)
+2. Professional credential + medicare: "licensed", "certified", "independent", "local" + agent/broker/advisor
+3. Medicare + specific life situation: "turning 65", "retiring", "disabled", "widow"
+4. Supplement plan cost/rate queries with modifiers: "by age", "by state", "2026"
 
 PATTERNS THAT FAIL (no volume in Moz):
 - Hyper-local: anything with NJ town/county names -> Moz returns null
