@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "Need Help Finding Best and Cheapest Medicare Supplement | Free Quote | MedicareYourself",
   description:
     "Need help finding the best and cheapest Medicare Supplement? Anthony Orner compares every top carrier's rates free — no obligation. Get your quote today.",
+  alternates: { canonical: "https://medicareyourself.com/services/best-and-cheapest-medicare-supplement" },
   openGraph: {
     title:
       "Need Help Finding Best and Cheapest Medicare Supplement | Free Quote | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-15",
-  dateModified: "2025-07-15",
+  datePublished: "2026-03-17",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -98,7 +99,7 @@ export default function BestAndCheapestMedicareSupplement() {
           Home
         </Link>
         {" > "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>
         {" > "}
@@ -233,7 +234,7 @@ export default function BestAndCheapestMedicareSupplement() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/services/medigap-plan-g"
+              href="/services/compare-and-enroll-in-plan-g-online"
               className="text-blue-600 hover:underline"
             >
               Medicare Supplement Plan G: What It Covers and What It Costs
@@ -241,7 +242,7 @@ export default function BestAndCheapestMedicareSupplement() {
           </li>
           <li>
             <Link
-              href="/services/medigap-plan-n"
+              href="/services/quickest-way-to-enroll-into-plan-n"
               className="text-blue-600 hover:underline"
             >
               Medicare Supplement Plan N: Lower Premiums, Small Copays
@@ -249,7 +250,7 @@ export default function BestAndCheapestMedicareSupplement() {
           </li>
           <li>
             <Link
-              href="/services/medicare-supplement-vs-advantage"
+              href="/medicare-supplement/new-jersey/vs-medicare-advantage"
               className="text-blue-600 hover:underline"
             >
               Medicare Supplement vs. Medicare Advantage: Which Is Right for You?
@@ -257,7 +258,7 @@ export default function BestAndCheapestMedicareSupplement() {
           </li>
           <li>
             <Link
-              href="/services/medigap-open-enrollment"
+              href="/medicare-supplement/new-jersey/turning-65"
               className="text-blue-600 hover:underline"
             >
               Medigap Open Enrollment: Why Timing Matters

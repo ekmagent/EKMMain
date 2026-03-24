@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "medicare agent near me | Free Local Broker Help, No Obligation | MedicareYourself",
   description:
     "Medicare agent near me — Anthony Orner is a licensed independent broker in NJ and PA comparing 30+ carriers. Free consultation by phone, video, or in person.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-agent-near-me" },
   openGraph: {
     title:
       "medicare agent near me | Free Local Broker Help, No Obligation | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-01",
-  dateModified: "2025-07-01",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -96,7 +97,7 @@ export default function MedicareAgentNearMePage() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -260,7 +261,7 @@ export default function MedicareAgentNearMePage() {
           <ul className="space-y-2">
             <li>
               <Link
-                href="/medicare/medicare-advantage-vs-medigap"
+                href="/medicare-supplement/new-jersey/vs-medicare-advantage"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Advantage vs. Medigap: Which Structure Fits You?
@@ -268,7 +269,7 @@ export default function MedicareAgentNearMePage() {
             </li>
             <li>
               <Link
-                href="/medicare/medigap-open-enrollment"
+                href="/medicare-supplement/new-jersey/turning-65"
                 className="text-blue-600 hover:underline"
               >
                 Medigap Open Enrollment: Why Timing Matters
@@ -276,7 +277,7 @@ export default function MedicareAgentNearMePage() {
             </li>
             <li>
               <Link
-                href="/services/medicare-broker-nj"
+                href="/services/free-medicare-broker-new-jersey"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Broker in New Jersey
@@ -284,7 +285,7 @@ export default function MedicareAgentNearMePage() {
             </li>
             <li>
               <Link
-                href="/medicare/part-b-premium-2026"
+                href="/learn/irmaa-medicare-surcharge"
                 className="text-blue-600 hover:underline"
               >
                 2026 Part B Premium and Deductible Explained

@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "Medicare broker for high blood pressure patients | Free Plan Review | MedicareYourself",
   description:
     "Medicare broker for high blood pressure patients who need affordable medication coverage and fewer surprises. Anthony Orner reviews your plan for free.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-high-blood-pressure-patients" },
   openGraph: {
     title:
       "Medicare broker for high blood pressure patients | Free Plan Review | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,6 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
   mainEntityOfPage:
     "https://medicareyourself.com/services/medicare-broker-for-high-blood-pressure-patients",
 };
@@ -100,7 +103,7 @@ export default function MedicareBrokerHighBloodPressure() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -260,7 +263,7 @@ export default function MedicareBrokerHighBloodPressure() {
             </a>{" "}
             or{" "}
             <Link
-              href="/get-a-free-quote"
+              href="/quote"
               className="text-blue-700 font-bold hover:underline"
             >
               Get a Free Quote
@@ -278,7 +281,7 @@ export default function MedicareBrokerHighBloodPressure() {
           <ul className="space-y-2">
             <li>
               <Link
-                href="/services/medicare-broker-for-chronic-conditions"
+                href="/services/best-medicare-plan-for-chronic-conditions"
                 className="text-blue-700 hover:underline"
               >
                 Medicare Broker for Chronic Conditions
@@ -286,7 +289,7 @@ export default function MedicareBrokerHighBloodPressure() {
             </li>
             <li>
               <Link
-                href="/guides/medicare-part-d-drug-coverage"
+                href="/learn/medicare-parts-explained"
                 className="text-blue-700 hover:underline"
               >
                 Understanding Medicare Part D Drug Coverage
@@ -294,7 +297,7 @@ export default function MedicareBrokerHighBloodPressure() {
             </li>
             <li>
               <Link
-                href="/guides/medicare-advantage-vs-medigap"
+                href="/medicare-supplement/new-jersey/vs-medicare-advantage"
                 className="text-blue-700 hover:underline"
               >
                 Medicare Advantage vs. Medigap: Which Is Right for You?
@@ -302,7 +305,7 @@ export default function MedicareBrokerHighBloodPressure() {
             </li>
             <li>
               <Link
-                href="/guides/annual-enrollment-period"
+                href="/learn/medicare-enrollment-periods"
                 className="text-blue-700 hover:underline"
               >
                 Annual Enrollment Period: What You Need to Know

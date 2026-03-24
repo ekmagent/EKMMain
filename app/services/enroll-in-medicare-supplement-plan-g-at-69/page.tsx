@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "enroll in medicare supplement plan g at 69 | Free Broker Guidance | MedicareYourself",
   description:
     "Enroll in Medicare Supplement Plan G at 69 with licensed broker help. Learn eligibility, underwriting steps, and how to apply. No fee, no obligation.",
+  alternates: { canonical: "https://medicareyourself.com/services/enroll-in-medicare-supplement-plan-g-at-69" },
   openGraph: {
     title:
       "enroll in medicare supplement plan g at 69 | Free Broker Guidance | MedicareYourself",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-01",
-  dateModified: "2025-07-01",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-19",
 };
 
 const faqs = [
@@ -274,7 +275,7 @@ export default function EnrollInMedicareSupplementPlanGAt69() {
           855-559-1700
         </a>
         <Link
-          href="/get-a-free-quote"
+          href="/quote"
           className="inline-block bg-white text-blue-600 font-semibold py-3 px-8 rounded-lg hover:bg-gray-100 transition"
         >
           Get a Free Quote
@@ -292,7 +293,7 @@ export default function EnrollInMedicareSupplementPlanGAt69() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/services/medicare-supplement-plan-g"
+              href="/services/compare-and-enroll-in-plan-g-online"
               className="text-blue-600 hover:underline"
             >
               Medicare Supplement Plan G: Full Benefits Guide
@@ -300,7 +301,7 @@ export default function EnrollInMedicareSupplementPlanGAt69() {
           </li>
           <li>
             <Link
-              href="/services/medigap-open-enrollment-period"
+              href="/medicare-supplement/new-jersey/turning-65"
               className="text-blue-600 hover:underline"
             >
               Understanding Your Medigap Open Enrollment Period
@@ -308,7 +309,7 @@ export default function EnrollInMedicareSupplementPlanGAt69() {
           </li>
           <li>
             <Link
-              href="/services/medicare-supplement-underwriting"
+              href="/services/how-long-does-it-take-to-get-approved-for-a-medicare-supplement-plan"
               className="text-blue-600 hover:underline"
             >
               How Medicare Supplement Underwriting Works
@@ -316,7 +317,7 @@ export default function EnrollInMedicareSupplementPlanGAt69() {
           </li>
           <li>
             <Link
-              href="/services/plan-g-vs-medicare-advantage"
+              href="/medicare-supplement/new-jersey/vs-medicare-advantage"
               className="text-blue-600 hover:underline"
             >
               Plan G vs. Medicare Advantage: Which Is Right for You?

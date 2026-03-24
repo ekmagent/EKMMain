@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "medicare broker for people with CLL | Free Consult | MedicareYourself",
   description:
     "Medicare broker for people with CLL — honest guidance on Medigap underwriting, Medicare Advantage, and guaranteed issue options. Call Anthony Orner today.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-people-with-cll" },
   openGraph: {
     title:
       "medicare broker for people with CLL | Free Consult | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-01-15",
-  dateModified: "2025-01-15",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -94,7 +95,7 @@ export default function MedicareBrokerForPeopleWithCLL() {
 
       <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-4">
         <Link href="/">Home</Link> &gt;{" "}
-        <Link href="/medicare-guides">Medicare Guides</Link> &gt;{" "}
+        <Link href="/services">Medicare Guides</Link> &gt;{" "}
         <span>Medicare Broker for People With CLL</span>
       </nav>
 
@@ -260,7 +261,7 @@ export default function MedicareBrokerForPeopleWithCLL() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/services/medicare-advantage-vs-medigap"
+              href="/medicare-supplement/new-jersey/vs-medicare-advantage"
               className="text-blue-700 underline"
             >
               Medicare Advantage vs. Medigap: Which Is Right for You?
@@ -268,7 +269,7 @@ export default function MedicareBrokerForPeopleWithCLL() {
           </li>
           <li>
             <Link
-              href="/services/guaranteed-issue-medigap"
+              href="/services/you-get-a-medicare-supplement-plan-if-you-have-a-pre-existing-condition"
               className="text-blue-700 underline"
             >
               Guaranteed Issue Medigap Rights Explained
@@ -276,7 +277,7 @@ export default function MedicareBrokerForPeopleWithCLL() {
           </li>
           <li>
             <Link
-              href="/services/medicare-part-d-drug-plans"
+              href="/learn/medicare-parts-explained"
               className="text-blue-700 underline"
             >
               Medicare Part D Prescription Drug Plans
@@ -284,7 +285,7 @@ export default function MedicareBrokerForPeopleWithCLL() {
           </li>
           <li>
             <Link
-              href="/services/medicare-broker-for-cancer-patients"
+              href="/services/medicare-broker-for-cancer-survivors"
               className="text-blue-700 underline"
             >
               Medicare Broker for Cancer Patients

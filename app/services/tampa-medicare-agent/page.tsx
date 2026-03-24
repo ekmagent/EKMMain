@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "tampa medicare agent | Free Plan Comparison | MedicareYourself",
   description:
     "Tampa medicare agent Anthony Orner compares Supplement and Advantage plans across top Florida carriers. No cost, no obligation. Request your free quote now.",
+  alternates: { canonical: "https://medicareyourself.com/services/tampa-medicare-agent" },
   openGraph: {
     title:
       "tampa medicare agent | Free Plan Comparison | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-14",
-  dateModified: "2025-07-14",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -98,7 +99,7 @@ export default function TampaMedicareAgent() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -260,7 +261,7 @@ export default function TampaMedicareAgent() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/medicare-guides/medigap-plan-g"
+              href="/medicare-supplement/new-jersey/plan-g-vs-plan-n"
               className="text-blue-600 hover:underline"
             >
               Medigap Plan G: What It Covers and What It Costs
@@ -268,7 +269,7 @@ export default function TampaMedicareAgent() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-advantage-vs-medigap"
+              href="/medicare-supplement/new-jersey/vs-medicare-advantage"
               className="text-blue-600 hover:underline"
             >
               Medicare Advantage vs. Medigap: Which Is Right for You?
@@ -276,7 +277,7 @@ export default function TampaMedicareAgent() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/florida-medigap-rules"
+              href="/services/tampa-medicare-agent"
               className="text-blue-600 hover:underline"
             >
               Florida Medigap Rules and Enrollment Windows
@@ -284,7 +285,7 @@ export default function TampaMedicareAgent() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/part-b-enrollment"
+              href="/learn/how-to-sign-up-for-medicare"
               className="text-blue-600 hover:underline"
             >
               When to Enroll in Medicare Part B

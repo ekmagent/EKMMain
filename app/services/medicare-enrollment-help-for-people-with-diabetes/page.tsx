@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "Medicare Enrollment Help for People With Diabetes | Free Guidance | MedicareYourself",
   description:
     "Medicare enrollment help for people with diabetes in NJ. Learn which plans cover insulin, CGMs, and supplies. Enroll even with pre-existing conditions. Free help.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-enrollment-help-for-people-with-diabetes" },
   openGraph: {
     title:
       "Medicare Enrollment Help for People With Diabetes | Free Guidance | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -57,6 +58,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
+  datePublished: "2026-03-17",
+  dateModified: "2026-03-22",
   mainEntityOfPage:
     "https://medicareyourself.com/services/medicare-enrollment-help-for-people-with-diabetes",
 };
@@ -95,7 +98,7 @@ export default function MedicareEnrollmentHelpDiabetes() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -273,7 +276,7 @@ export default function MedicareEnrollmentHelpDiabetes() {
           <ul className="space-y-2">
             <li>
               <Link
-                href="/medicare-guides/medigap-open-enrollment"
+                href="/medicare-supplement/new-jersey/turning-65"
                 className="text-blue-600 hover:underline"
               >
                 Medigap Open Enrollment Period Explained
@@ -281,7 +284,7 @@ export default function MedicareEnrollmentHelpDiabetes() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/medicare-part-d"
+                href="/learn/medicare-parts-explained"
                 className="text-blue-600 hover:underline"
               >
                 How Medicare Part D Covers Prescription Drugs
@@ -289,7 +292,7 @@ export default function MedicareEnrollmentHelpDiabetes() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/guaranteed-issue-rights"
+                href="/medicare-supplement/new-jersey"
                 className="text-blue-600 hover:underline"
               >
                 Guaranteed Issue Rights for Medigap Plans
@@ -297,7 +300,7 @@ export default function MedicareEnrollmentHelpDiabetes() {
             </li>
             <li>
               <Link
-                href="/services/medicare-enrollment-help-nj"
+                href="/services/how-to-enroll-in-medicare-in-new-jersey"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Enrollment Help in New Jersey

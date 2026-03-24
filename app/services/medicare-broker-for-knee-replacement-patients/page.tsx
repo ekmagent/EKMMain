@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "Medicare broker for knee replacement patients | Free Pre-Surgery Review | MedicareYourself",
   description:
     "Medicare broker for knee replacement patients helping you pick the right plan before surgery. Anthony Orner compares rehab and hospital coverage — free review.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-knee-replacement-patients" },
   openGraph: {
     title:
       "Medicare broker for knee replacement patients | Free Pre-Surgery Review | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-01",
-  dateModified: "2025-07-01",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -96,7 +97,7 @@ export default function MedicareBrokerKneReplacementPage() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -262,7 +263,7 @@ export default function MedicareBrokerKneReplacementPage() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/medicare-guides/medigap-plan-g"
+              href="/medicare-supplement/new-jersey/plan-g-vs-plan-n"
               className="text-blue-600 hover:underline"
             >
               Medigap Plan G: What It Covers and What It Costs
@@ -270,7 +271,7 @@ export default function MedicareBrokerKneReplacementPage() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-advantage-vs-medigap"
+              href="/medicare-supplement/new-jersey/vs-medicare-advantage"
               className="text-blue-600 hover:underline"
             >
               Medicare Advantage vs. Medigap: Which Is Better for Surgery?
@@ -278,7 +279,7 @@ export default function MedicareBrokerKneReplacementPage() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/skilled-nursing-facility-coverage"
+              href="/learn/medicare-parts-explained"
               className="text-blue-600 hover:underline"
             >
               How Medicare Covers Skilled Nursing Facility Stays
@@ -286,7 +287,7 @@ export default function MedicareBrokerKneReplacementPage() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-part-b-outpatient-costs"
+              href="/learn/medicare-parts-explained"
               className="text-blue-600 hover:underline"
             >
               Understanding Part B Costs for Outpatient Services

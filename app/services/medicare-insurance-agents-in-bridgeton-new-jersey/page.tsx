@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "medicare insurance agents in bridgeton new jersey | Free Local Broker | MedicareYourself",
   description:
     "Medicare insurance agents in Bridgeton, New Jersey — Anthony Orner compares Supplement and Advantage plans across carriers in Cumberland County. Free quote.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-insurance-agents-in-bridgeton-new-jersey" },
   openGraph: {
     title:
       "medicare insurance agents in bridgeton new jersey | Free Local Broker | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-01",
-  dateModified: "2025-07-01",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -96,7 +97,7 @@ export default function MedicareInsuranceAgentsBridgetonNJ() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -275,7 +276,7 @@ export default function MedicareInsuranceAgentsBridgetonNJ() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/medicare-guides/medigap-plan-g-new-jersey"
+              href="/medicare-supplement/new-jersey/plan-g-vs-plan-n"
               className="text-blue-600 hover:underline"
             >
               Medigap Plan G in New Jersey — What It Covers and Costs
@@ -283,7 +284,7 @@ export default function MedicareInsuranceAgentsBridgetonNJ() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-advantage-south-jersey"
+              href="/medicare-advantage/new-jersey"
               className="text-blue-600 hover:underline"
             >
               Medicare Advantage Plans in South Jersey
@@ -291,7 +292,7 @@ export default function MedicareInsuranceAgentsBridgetonNJ() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/when-to-enroll-in-medicare"
+              href="/learn/how-to-sign-up-for-medicare"
               className="text-blue-600 hover:underline"
             >
               When to Enroll in Medicare — Deadlines and Penalties
@@ -299,7 +300,7 @@ export default function MedicareInsuranceAgentsBridgetonNJ() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/independent-broker-vs-captive-agent"
+              href="/services/best-medicare-broker-no-cost-to-you"
               className="text-blue-600 hover:underline"
             >
               Independent Broker vs. Captive Agent — What's the Difference?

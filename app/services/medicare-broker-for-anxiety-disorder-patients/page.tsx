@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "Medicare broker for anxiety disorder patients | Free Coverage Review | MedicareYourself",
   description:
     "Medicare broker for anxiety disorder patients — find plans covering therapy, prescriptions, and telehealth in NJ. Anthony Orner reviews your options free.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-anxiety-disorder-patients" },
   openGraph: {
     title:
       "Medicare broker for anxiety disorder patients | Free Coverage Review | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,6 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
   mainEntityOfPage:
     "https://medicareyourself.com/services/medicare-broker-for-anxiety-disorder-patients",
 };
@@ -97,7 +100,7 @@ export default function MedicareBrokerAnxietyDisorderPatients() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -228,7 +231,7 @@ export default function MedicareBrokerAnxietyDisorderPatients() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/medicare-guides/mental-health-coverage"
+              href="/services/medicare-broker-for-anxiety-disorder-patients"
               className="text-blue-600 hover:underline"
             >
               Medicare Mental Health Coverage Guide
@@ -236,7 +239,7 @@ export default function MedicareBrokerAnxietyDisorderPatients() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/part-d-prescription-drug-plans"
+              href="/learn/medicare-parts-explained"
               className="text-blue-600 hover:underline"
             >
               Understanding Part D Prescription Drug Plans
@@ -244,7 +247,7 @@ export default function MedicareBrokerAnxietyDisorderPatients() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-advantage-vs-medigap"
+              href="/medicare-supplement/new-jersey/vs-medicare-advantage"
               className="text-blue-600 hover:underline"
             >
               Medicare Advantage vs. Medigap: Which Is Right for You?
@@ -252,7 +255,7 @@ export default function MedicareBrokerAnxietyDisorderPatients() {
           </li>
           <li>
             <Link
-              href="/services/medicare-telehealth-options"
+              href="/services/medicare-broker-for-anxiety-disorder-patients"
               className="text-blue-600 hover:underline"
             >
               Medicare Telehealth Options in New Jersey

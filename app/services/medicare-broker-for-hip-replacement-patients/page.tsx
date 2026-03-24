@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "Medicare broker for hip replacement patients | Free Plan Comparison | MedicareYourself",
   description:
     "Medicare broker for hip replacement patients comparing Medigap and Advantage plans to cut surgery costs. Anthony Orner offers free pre-surgery plan reviews.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-hip-replacement-patients" },
   openGraph: {
     title:
       "Medicare broker for hip replacement patients | Free Plan Comparison | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,6 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
   mainEntityOfPage:
     "https://medicareyourself.com/services/medicare-broker-for-hip-replacement-patients",
 };
@@ -99,7 +102,7 @@ export default function MedicareBrokerHipReplacementPage() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -227,7 +230,7 @@ export default function MedicareBrokerHipReplacementPage() {
           </a>{" "}
           or{" "}
           <Link
-            href="/get-a-free-quote"
+            href="/quote"
             className="underline font-bold"
           >
             Get a Free Quote
@@ -246,7 +249,7 @@ export default function MedicareBrokerHipReplacementPage() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/medicare-guides/medigap-plan-g-vs-plan-n"
+              href="/medicare-supplement/new-jersey/plan-g-vs-plan-n"
               className="text-blue-600 hover:underline"
             >
               Medigap Plan G vs. Plan N: Which saves more for surgery?
@@ -254,7 +257,7 @@ export default function MedicareBrokerHipReplacementPage() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-advantage-vs-medigap"
+              href="/medicare-supplement/new-jersey/vs-medicare-advantage"
               className="text-blue-600 hover:underline"
             >
               Medicare Advantage vs. Medigap: How to choose
@@ -262,7 +265,7 @@ export default function MedicareBrokerHipReplacementPage() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medigap-open-enrollment-period"
+              href="/medicare-supplement/new-jersey/turning-65"
               className="text-blue-600 hover:underline"
             >
               Medigap Open Enrollment: Why timing matters
@@ -270,7 +273,7 @@ export default function MedicareBrokerHipReplacementPage() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-skilled-nursing-facility-coverage"
+              href="/learn/medicare-parts-explained"
               className="text-blue-600 hover:underline"
             >
               Medicare skilled nursing facility coverage explained

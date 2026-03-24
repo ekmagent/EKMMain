@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "medicare broker for people with lupus | Free Coverage Guidance | MedicareYourself",
   description:
     "Medicare broker for people with lupus — Anthony Orner helps lupus patients find coverage through underwriting-friendly carriers or guaranteed issue. Free consult.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-people-with-lupus" },
   openGraph: {
     title:
       "medicare broker for people with lupus | Free Coverage Guidance | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,6 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
   mainEntityOfPage:
     "https://medicareyourself.com/services/medicare-broker-for-people-with-lupus",
 };
@@ -93,7 +96,7 @@ export default function MedicareBrokerForPeopleWithLupus() {
 
       <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-4">
         <Link href="/">Home</Link> &gt;{" "}
-        <Link href="/medicare-guides">Medicare Guides</Link> &gt;{" "}
+        <Link href="/services">Medicare Guides</Link> &gt;{" "}
         <span>Medicare Broker for People With Lupus</span>
       </nav>
 
@@ -240,7 +243,7 @@ export default function MedicareBrokerForPeopleWithLupus() {
           <ul className="space-y-2">
             <li>
               <Link
-                href="/guides/medigap-plan-g"
+                href="/medicare-supplement/new-jersey/plan-g-vs-plan-n"
                 className="text-blue-700 underline"
               >
                 Medigap Plan G: What It Covers and What It Costs
@@ -248,7 +251,7 @@ export default function MedicareBrokerForPeopleWithLupus() {
             </li>
             <li>
               <Link
-                href="/guides/guaranteed-issue-rights"
+                href="/medicare-supplement/new-jersey"
                 className="text-blue-700 underline"
               >
                 Guaranteed Issue Rights for Medicare Supplement Plans
@@ -256,7 +259,7 @@ export default function MedicareBrokerForPeopleWithLupus() {
             </li>
             <li>
               <Link
-                href="/guides/medicare-under-65-disability"
+                href="/services/you-get-a-medicare-supplement-if-you-are-on-disability"
                 className="text-blue-700 underline"
               >
                 Medicare Under 65: Coverage Through Disability
@@ -264,7 +267,7 @@ export default function MedicareBrokerForPeopleWithLupus() {
             </li>
             <li>
               <Link
-                href="/guides/medicare-part-d-drug-coverage"
+                href="/learn/medicare-parts-explained"
                 className="text-blue-700 underline"
               >
                 Medicare Part D: How Prescription Drug Coverage Works

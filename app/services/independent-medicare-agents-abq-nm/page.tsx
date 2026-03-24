@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "independent medicare agents abq nm | Free Local Help | MedicareYourself",
   description:
     "Independent Medicare agents in ABQ NM compare plans from multiple carriers at no cost to you. Get unbiased Supplement and Advantage help. Free consultation.",
+  alternates: { canonical: "https://medicareyourself.com/services/independent-medicare-agents-abq-nm" },
   openGraph: {
     title:
       "independent medicare agents abq nm | Free Local Help | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-01-15",
-  dateModified: "2025-01-15",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -95,7 +96,7 @@ export default function IndependentMedicareAgentsABQNM() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -233,7 +234,7 @@ export default function IndependentMedicareAgentsABQNM() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/medicare-guides/medicare-supplement-plan-g"
+              href="/medicare-supplement/new-jersey/plan-g-vs-plan-n"
               className="text-blue-600 hover:underline"
             >
               Medicare Supplement Plan G: What It Covers and What It Costs
@@ -241,7 +242,7 @@ export default function IndependentMedicareAgentsABQNM() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-advantage-vs-medigap"
+              href="/medicare-supplement/new-jersey/vs-medicare-advantage"
               className="text-blue-600 hover:underline"
             >
               Medicare Advantage vs. Medigap: How to Choose
@@ -249,7 +250,7 @@ export default function IndependentMedicareAgentsABQNM() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/when-to-enroll-in-medicare"
+              href="/learn/how-to-sign-up-for-medicare"
               className="text-blue-600 hover:underline"
             >
               When to Enroll in Medicare: Deadlines That Matter
@@ -257,7 +258,7 @@ export default function IndependentMedicareAgentsABQNM() {
           </li>
           <li>
             <Link
-              href="/services/medicare-broker-new-mexico"
+              href="/services/independent-medicare-agents-abq-nm"
               className="text-blue-600 hover:underline"
             >
               Medicare Broker Services in New Mexico

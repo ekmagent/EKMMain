@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "free medicare agent that helps with paperwork | Zero Cost Enrollment Help | MedicareYourself",
   description:
     "Free Medicare agent that helps with paperwork — applications, carrier forms, and enrollment handled start to finish. Anthony Orner, licensed NJ broker. Call today.",
+  alternates: { canonical: "https://medicareyourself.com/services/free-medicare-agent-that-helps-with-paperwork" },
   openGraph: {
     title:
       "free medicare agent that helps with paperwork | Zero Cost Enrollment Help | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -57,8 +58,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-15",
-  dateModified: "2025-07-15",
+  datePublished: "2026-03-17",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -94,7 +95,7 @@ export default function FreeMedicareAgentPaperworkPage() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -260,7 +261,7 @@ export default function FreeMedicareAgentPaperworkPage() {
           or get started online.
         </p>
         <Link
-          href="/get-a-free-quote"
+          href="/quote"
           className="inline-block bg-white text-blue-600 font-semibold px-6 py-3 rounded-lg hover:bg-gray-100 transition"
         >
           Get a Free Quote
@@ -278,7 +279,7 @@ export default function FreeMedicareAgentPaperworkPage() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/medicare-guides/how-to-enroll-in-medicare"
+              href="/learn/how-to-sign-up-for-medicare"
               className="text-blue-600 hover:underline"
             >
               How to Enroll in Medicare: Step-by-Step Guide
@@ -286,7 +287,7 @@ export default function FreeMedicareAgentPaperworkPage() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medigap-open-enrollment-period"
+              href="/medicare-supplement/new-jersey/turning-65"
               className="text-blue-600 hover:underline"
             >
               Medigap Open Enrollment Period Explained
@@ -294,7 +295,7 @@ export default function FreeMedicareAgentPaperworkPage() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-part-b-late-enrollment-penalty"
+              href="/learn/how-to-sign-up-for-medicare"
               className="text-blue-600 hover:underline"
             >
               Medicare Part B Late Enrollment Penalty
@@ -302,7 +303,7 @@ export default function FreeMedicareAgentPaperworkPage() {
           </li>
           <li>
             <Link
-              href="/services/medicare-broker-nj"
+              href="/services/free-medicare-broker-new-jersey"
               className="text-blue-600 hover:underline"
             >
               Licensed Medicare Broker in New Jersey

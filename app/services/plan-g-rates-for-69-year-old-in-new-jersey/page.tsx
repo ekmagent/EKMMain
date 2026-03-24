@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "plan g rates for 69 year old in new jersey | Free Carrier Comparison | MedicareYourself",
   description:
     "Plan G rates for 69-year-olds in New Jersey vary by carrier and pricing method. See real quotes from top insurers. Free comparison from a licensed NJ broker.",
+  alternates: { canonical: "https://medicareyourself.com/services/plan-g-rates-for-69-year-old-in-new-jersey" },
   openGraph: {
     title:
       "plan g rates for 69 year old in new jersey | Free Carrier Comparison | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2026-01-01",
-  dateModified: "2026-01-01",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -97,7 +98,7 @@ export default function PlanGRates69NJ() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -277,7 +278,7 @@ export default function PlanGRates69NJ() {
           <ul className="space-y-2">
             <li>
               <Link
-                href="/services/plan-g-rates-by-age-in-new-jersey"
+                href="/services/plan-g-rates-by-age-new-jersey"
                 className="text-blue-700 hover:underline"
               >
                 Plan G Rates by Age in New Jersey
@@ -285,7 +286,7 @@ export default function PlanGRates69NJ() {
             </li>
             <li>
               <Link
-                href="/services/plan-g-vs-plan-n-new-jersey"
+                href="/medicare-supplement/new-jersey/plan-g-vs-plan-n"
                 className="text-blue-700 hover:underline"
               >
                 Plan G vs. Plan N in New Jersey
@@ -293,7 +294,7 @@ export default function PlanGRates69NJ() {
             </li>
             <li>
               <Link
-                href="/services/best-medigap-plans-new-jersey"
+                href="/services/best-and-cheapest-medicare-supplement"
                 className="text-blue-700 hover:underline"
               >
                 Best Medigap Plans in New Jersey
@@ -301,7 +302,7 @@ export default function PlanGRates69NJ() {
             </li>
             <li>
               <Link
-                href="/services/medicare-supplement-enrollment-new-jersey"
+                href="/services/how-to-enroll-in-medicare-in-new-jersey"
                 className="text-blue-700 hover:underline"
               >
                 Medicare Supplement Enrollment in New Jersey

@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "the best medicare plan for foreign travel | Free Comparison | MedicareYourself",
   description:
     "The best Medicare plan for foreign travel is Plan G or Plan N — both cover emergency care abroad. Compare options free with Anthony Orner.",
+  alternates: { canonical: "https://medicareyourself.com/services/best-medicare-plan-for-foreign-travel" },
   openGraph: {
     title:
       "the best medicare plan for foreign travel | Free Comparison | MedicareYourself",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-15",
-  dateModified: "2025-07-15",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-19",
 };
 
 const faqs = [
@@ -329,7 +330,7 @@ export default function BestMedicarePlanForForeignTravel() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/services/medigap-plan-g"
+              href="/services/compare-and-enroll-in-plan-g-online"
               className="text-blue-700 hover:underline"
             >
               Medigap Plan G: What It Covers and What It Costs
@@ -337,7 +338,7 @@ export default function BestMedicarePlanForForeignTravel() {
           </li>
           <li>
             <Link
-              href="/services/medigap-plan-n"
+              href="/services/quickest-way-to-enroll-into-plan-n"
               className="text-blue-700 hover:underline"
             >
               Medigap Plan N: Is the Lower Premium Worth It?
@@ -345,7 +346,7 @@ export default function BestMedicarePlanForForeignTravel() {
           </li>
           <li>
             <Link
-              href="/services/medicare-advantage-vs-medigap"
+              href="/medicare-supplement/new-jersey/vs-medicare-advantage"
               className="text-blue-700 hover:underline"
             >
               Medicare Advantage vs Medigap: How to Decide
@@ -353,7 +354,7 @@ export default function BestMedicarePlanForForeignTravel() {
           </li>
           <li>
             <Link
-              href="/services/medigap-open-enrollment"
+              href="/medicare-supplement/new-jersey/turning-65"
               className="text-blue-700 hover:underline"
             >
               Medigap Open Enrollment: When to Apply

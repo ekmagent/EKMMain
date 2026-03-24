@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "independent medicare agents near me | Free Broker Help, No Sales Pitch | MedicareYourself",
   description:
     "Independent Medicare agents near me — Anthony Orner compares plans from 30+ carriers as a licensed broker in NJ and PA. Free, no-obligation consultation.",
+  alternates: { canonical: "https://medicareyourself.com/services/independent-medicare-agents-near-me" },
   openGraph: {
     title:
       "independent medicare agents near me | Free Broker Help, No Sales Pitch | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-01",
-  dateModified: "2025-07-01",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -97,7 +98,7 @@ export default function IndependentMedicareAgentsNearMe() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -235,7 +236,7 @@ export default function IndependentMedicareAgentsNearMe() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/medicare-guides/medicare-advantage-vs-medigap"
+              href="/medicare-supplement/new-jersey/vs-medicare-advantage"
               className="text-blue-600 hover:underline"
             >
               Medicare Advantage vs. Medigap: Which Is Right for You?
@@ -243,7 +244,7 @@ export default function IndependentMedicareAgentsNearMe() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medigap-open-enrollment"
+              href="/medicare-supplement/new-jersey/turning-65"
               className="text-blue-600 hover:underline"
             >
               Medigap Open Enrollment: When and Why It Matters
@@ -251,7 +252,7 @@ export default function IndependentMedicareAgentsNearMe() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/part-d-drug-plans"
+              href="/learn/medicare-parts-explained"
               className="text-blue-600 hover:underline"
             >
               How Medicare Part D Drug Plans Work

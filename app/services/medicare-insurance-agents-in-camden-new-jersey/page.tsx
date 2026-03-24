@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "medicare insurance agents in camden new jersey | Free Quotes | MedicareYourself",
   description:
     "Medicare insurance agents in Camden New Jersey — Anthony Orner compares Medigap and Advantage plans across South Jersey carriers. Free quote, no obligation.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-insurance-agents-in-camden-new-jersey" },
   openGraph: {
     title:
       "medicare insurance agents in camden new jersey | Free Quotes | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-01-01",
-  dateModified: "2025-07-01",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -96,7 +97,7 @@ export default function MedicareInsuranceAgentsCamdenNJ() {
           Home
         </Link>
         {" > "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>
         {" > "}
@@ -232,7 +233,7 @@ export default function MedicareInsuranceAgentsCamdenNJ() {
             </li>
             <li>
               <Link
-                href="/guides/medigap-plan-g-new-jersey"
+                href="/medicare-supplement/new-jersey/plan-g-vs-plan-n"
                 className="text-blue-600 hover:underline"
               >
                 Medigap Plan G in New Jersey: What It Covers
@@ -240,7 +241,7 @@ export default function MedicareInsuranceAgentsCamdenNJ() {
             </li>
             <li>
               <Link
-                href="/guides/medicare-advantage-vs-medigap"
+                href="/medicare-supplement/new-jersey/vs-medicare-advantage"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Advantage vs. Medigap: How to Decide
@@ -248,7 +249,7 @@ export default function MedicareInsuranceAgentsCamdenNJ() {
             </li>
             <li>
               <Link
-                href="/guides/when-to-enroll-in-medicare"
+                href="/learn/how-to-sign-up-for-medicare"
                 className="text-blue-600 hover:underline"
               >
                 When to Enroll in Medicare: Deadlines That Matter

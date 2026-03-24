@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "Medicare broker for transplant recipients | Free Coverage Analysis | MedicareYourself",
   description:
     "Medicare broker for transplant recipients — keep immunosuppressant coverage, avoid gaps. Anthony Orner explains your options. Free analysis.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-transplant-recipients" },
   openGraph: {
     title:
       "Medicare broker for transplant recipients | Free Coverage Analysis | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,6 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
   mainEntityOfPage:
     "https://medicareyourself.com/services/medicare-broker-for-transplant-recipients",
 };
@@ -97,7 +100,7 @@ export default function MedicareBrokerForTransplantRecipients() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -273,7 +276,7 @@ export default function MedicareBrokerForTransplantRecipients() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/medicare-guides/medicare-part-b"
+              href="/learn/medicare-parts-explained"
               className="text-blue-600 hover:underline"
             >
               Medicare Part B: What It Covers and What It Costs
@@ -281,7 +284,7 @@ export default function MedicareBrokerForTransplantRecipients() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-part-d"
+              href="/learn/medicare-parts-explained"
               className="text-blue-600 hover:underline"
             >
               Medicare Part D Prescription Drug Plans Explained
@@ -289,7 +292,7 @@ export default function MedicareBrokerForTransplantRecipients() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medigap-plans"
+              href="/learn/what-is-medigap"
               className="text-blue-600 hover:underline"
             >
               Medigap Plans: How Medicare Supplements Work
@@ -297,7 +300,7 @@ export default function MedicareBrokerForTransplantRecipients() {
           </li>
           <li>
             <Link
-              href="/services/medicare-broker-for-chronic-conditions"
+              href="/services/best-medicare-plan-for-chronic-conditions"
               className="text-blue-600 hover:underline"
             >
               Medicare Broker for Chronic Conditions

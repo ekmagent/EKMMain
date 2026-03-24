@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "how can i save money on my medicare supplement | Free Rate Review | MedicareYourself",
   description:
     "How can I save money on my Medicare Supplement? Switch carriers, stack discounts, or change plan letters. Free rate review shows your actual savings.",
+  alternates: { canonical: "https://medicareyourself.com/services/how-can-i-save-money-on-my-medicare-supplement" },
   openGraph: {
     title:
       "how can i save money on my medicare supplement | Free Rate Review | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-15",
-  dateModified: "2025-07-15",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -97,7 +98,7 @@ export default function HowCanISaveMoneyOnMyMedicareSupplement() {
           Home
         </Link>
         {" > "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>
         {" > "}
@@ -273,7 +274,7 @@ export default function HowCanISaveMoneyOnMyMedicareSupplement() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/services/medicare-supplement-plan-g"
+              href="/services/compare-and-enroll-in-plan-g-online"
               className="text-blue-600 hover:underline"
             >
               Medicare Supplement Plan G: What It Covers and Costs
@@ -281,7 +282,7 @@ export default function HowCanISaveMoneyOnMyMedicareSupplement() {
           </li>
           <li>
             <Link
-              href="/services/medicare-supplement-plan-n"
+              href="/services/quickest-way-to-enroll-into-plan-n"
               className="text-blue-600 hover:underline"
             >
               Medicare Supplement Plan N: Lower Premiums, Small Copays
@@ -289,7 +290,7 @@ export default function HowCanISaveMoneyOnMyMedicareSupplement() {
           </li>
           <li>
             <Link
-              href="/services/medigap-open-enrollment"
+              href="/medicare-supplement/new-jersey/turning-65"
               className="text-blue-600 hover:underline"
             >
               Medigap Open Enrollment: When You Have Guaranteed Issue Rights
@@ -297,7 +298,7 @@ export default function HowCanISaveMoneyOnMyMedicareSupplement() {
           </li>
           <li>
             <Link
-              href="/services/medicare-supplement-rate-increase"
+              href="/services/medicare-supplement-rate-jumped-why-and-what-can-i-do"
               className="text-blue-600 hover:underline"
             >
               Why Your Medicare Supplement Rate Increased (And What to Do)

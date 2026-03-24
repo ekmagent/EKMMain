@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "local medicare agents in teaneck nj | Free Consultation | MedicareYourself",
   description:
     "Local Medicare agents in Teaneck NJ — Anthony Orner is a licensed independent broker serving Bergen County. Compare plans, no pressure. Free consultation.",
+  alternates: { canonical: "https://medicareyourself.com/services/local-medicare-agents-in-teaneck-nj" },
   openGraph: {
     title:
       "local medicare agents in teaneck nj | Free Consultation | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-01",
-  dateModified: "2025-07-01",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -96,7 +97,7 @@ export default function LocalMedicareAgentsTeaneckNJ() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -243,7 +244,7 @@ export default function LocalMedicareAgentsTeaneckNJ() {
             </a>
           </p>
           <Link
-            href="/get-a-free-quote"
+            href="/quote"
             className="inline-block bg-white text-blue-600 font-semibold px-6 py-3 rounded-lg hover:bg-gray-100 transition"
           >
             Get a Free Quote
@@ -257,7 +258,7 @@ export default function LocalMedicareAgentsTeaneckNJ() {
           <ul className="space-y-2">
             <li>
               <Link
-                href="/medicare-guides/medigap-plan-g-nj"
+                href="/medicare-supplement/new-jersey/plan-g-vs-plan-n"
                 className="text-blue-600 hover:underline"
               >
                 Medigap Plan G in New Jersey: What It Covers and Costs
@@ -265,7 +266,7 @@ export default function LocalMedicareAgentsTeaneckNJ() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/medicare-advantage-bergen-county"
+                href="/medicare-advantage/new-jersey"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Advantage Plans in Bergen County
@@ -273,7 +274,7 @@ export default function LocalMedicareAgentsTeaneckNJ() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/when-to-enroll-in-medicare-nj"
+                href="/learn/how-to-sign-up-for-medicare"
                 className="text-blue-600 hover:underline"
               >
                 When to Enroll in Medicare in New Jersey
@@ -281,7 +282,7 @@ export default function LocalMedicareAgentsTeaneckNJ() {
             </li>
             <li>
               <Link
-                href="/services/independent-medicare-broker-nj"
+                href="/services/free-independent-medicare-broker-near-me-new-jersey"
                 className="text-blue-600 hover:underline"
               >
                 Why Work With an Independent Medicare Broker in NJ

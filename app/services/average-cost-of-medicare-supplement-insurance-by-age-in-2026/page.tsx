@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "average cost of medicare supplement insurance by age in 2026 | Free Rate Comparison | MedicareYourself",
   description:
     "Average cost of Medicare Supplement insurance by age in 2026 — actual monthly premiums from top NJ carriers at 65, 70, 75+. Get a free personalized quote.",
+  alternates: { canonical: "https://medicareyourself.com/services/average-cost-of-medicare-supplement-insurance-by-age-in-2026" },
   openGraph: {
     title:
       "average cost of medicare supplement insurance by age in 2026 | Free Rate Comparison | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-01-01",
-  dateModified: "2025-01-01",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -98,7 +99,7 @@ export default function AverageCostMedigapByAge2026() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -236,7 +237,7 @@ export default function AverageCostMedigapByAge2026() {
           <ul className="space-y-2">
             <li>
               <Link
-                href="/services/medicare-supplement-plan-g-nj"
+                href="/services/how-much-is-plan-g-in-nj"
                 className="text-blue-700 hover:underline"
               >
                 Medicare Supplement Plan G in New Jersey
@@ -244,7 +245,7 @@ export default function AverageCostMedigapByAge2026() {
             </li>
             <li>
               <Link
-                href="/services/medigap-open-enrollment-period"
+                href="/medicare-supplement/new-jersey/turning-65"
                 className="text-blue-700 hover:underline"
               >
                 Understanding Your Medigap Open Enrollment Period
@@ -252,7 +253,7 @@ export default function AverageCostMedigapByAge2026() {
             </li>
             <li>
               <Link
-                href="/services/medicare-plan-n-vs-plan-g"
+                href="/medicare-supplement/new-jersey/plan-g-vs-plan-n"
                 className="text-blue-700 hover:underline"
               >
                 Medicare Plan N vs. Plan G: Which Is Right for You?
@@ -260,7 +261,7 @@ export default function AverageCostMedigapByAge2026() {
             </li>
             <li>
               <Link
-                href="/services/2026-medicare-costs"
+                href="/services/average-cost-of-medicare-supplement-insurance-by-age-in-2026"
                 className="text-blue-700 hover:underline"
               >
                 2026 Medicare Part A and Part B Costs

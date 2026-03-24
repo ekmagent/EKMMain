@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "best medicare insurance brokers near me | Free Quote, No Cost | MedicareYourself",
   description:
     "Best Medicare insurance brokers near you in NJ. Anthony Orner is an independent licensed broker who compares every major carrier at no cost. Get a free quote.",
+  alternates: { canonical: "https://medicareyourself.com/services/best-medicare-insurance-brokers-near-me" },
   openGraph: {
     title:
       "best medicare insurance brokers near me | Free Quote, No Cost | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -57,8 +58,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-01-15",
-  dateModified: "2025-01-15",
+  datePublished: "2026-03-17",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -95,7 +96,7 @@ export default function BestMedicareBrokersNearMe() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -269,7 +270,7 @@ export default function BestMedicareBrokersNearMe() {
           <ul className="space-y-2">
             <li>
               <Link
-                href="/medicare/medigap-plans-nj"
+                href="/medicare-supplement/new-jersey"
                 className="text-blue-600 hover:underline"
               >
                 Medigap Plans in New Jersey: What You Need to Know
@@ -277,7 +278,7 @@ export default function BestMedicareBrokersNearMe() {
             </li>
             <li>
               <Link
-                href="/medicare/medicare-advantage-vs-medigap"
+                href="/medicare-supplement/new-jersey/vs-medicare-advantage"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Advantage vs. Medigap: Which Is Right for You?
@@ -285,7 +286,7 @@ export default function BestMedicareBrokersNearMe() {
             </li>
             <li>
               <Link
-                href="/medicare/when-to-enroll-in-medicare"
+                href="/learn/how-to-sign-up-for-medicare"
                 className="text-blue-600 hover:underline"
               >
                 When to Enroll in Medicare: Key Dates and Deadlines

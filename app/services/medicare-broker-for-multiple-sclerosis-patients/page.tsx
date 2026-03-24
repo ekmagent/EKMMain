@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "Medicare broker for multiple sclerosis patients | Free Plan Comparison | MedicareYourself",
   description:
     "Medicare broker for multiple sclerosis patients in NJ. Anthony Orner navigates underwriting and finds plans covering infusions and MRIs. Free consultation.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-multiple-sclerosis-patients" },
   openGraph: {
     title:
       "Medicare broker for multiple sclerosis patients | Free Plan Comparison | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,6 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
   mainEntityOfPage:
     "https://medicareyourself.com/services/medicare-broker-for-multiple-sclerosis-patients",
 };
@@ -98,7 +101,7 @@ export default function MedicareBrokerForMSPatients() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -221,7 +224,7 @@ export default function MedicareBrokerForMSPatients() {
             </a>{" "}
             or{" "}
             <Link
-              href="/get-a-free-quote"
+              href="/quote"
               className="text-blue-700 font-bold hover:underline"
             >
               Get a Free Quote
@@ -236,7 +239,7 @@ export default function MedicareBrokerForMSPatients() {
           <ul className="space-y-2">
             <li>
               <Link
-                href="/medicare-guides/medigap-plan-g"
+                href="/medicare-supplement/new-jersey/plan-g-vs-plan-n"
                 className="text-blue-700 hover:underline"
               >
                 Medigap Plan G: What It Covers and What It Costs
@@ -244,7 +247,7 @@ export default function MedicareBrokerForMSPatients() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/medicare-advantage-vs-medigap"
+                href="/medicare-supplement/new-jersey/vs-medicare-advantage"
                 className="text-blue-700 hover:underline"
               >
                 Medicare Advantage vs. Medigap: How to Decide
@@ -252,7 +255,7 @@ export default function MedicareBrokerForMSPatients() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/medicare-part-d-drug-plans"
+                href="/learn/medicare-parts-explained"
                 className="text-blue-700 hover:underline"
               >
                 Medicare Part D Drug Plans: Finding the Right Fit
@@ -260,7 +263,7 @@ export default function MedicareBrokerForMSPatients() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/medicare-disability-under-65"
+                href="/services/you-get-a-medicare-supplement-if-you-are-on-disability"
                 className="text-blue-700 hover:underline"
               >
                 Medicare Through Disability: What to Know Before 65

@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "medicare supplement premiums increasing by double digits in 2025 | Free Rate Review | MedicareYourself",
   description:
     "Medicare Supplement premiums increasing by double digits in 2025 — see which carriers raised rates and how switching could save you $50+/month. Free review.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-supplement-premiums-increasing-by-double-digits-in-2025" },
   openGraph: {
     title:
       "medicare supplement premiums increasing by double digits in 2025 | Free Rate Review | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-15",
-  dateModified: "2025-07-15",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -97,7 +98,7 @@ export default function MedicareSupplementPremiumsIncreasing2025() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -259,7 +260,7 @@ export default function MedicareSupplementPremiumsIncreasing2025() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/services/medicare-supplement-plan-g"
+              href="/services/compare-and-enroll-in-plan-g-online"
               className="text-blue-600 hover:underline"
             >
               Medicare Supplement Plan G: What It Covers and Costs
@@ -267,7 +268,7 @@ export default function MedicareSupplementPremiumsIncreasing2025() {
           </li>
           <li>
             <Link
-              href="/services/medicare-supplement-plan-n"
+              href="/services/quickest-way-to-enroll-into-plan-n"
               className="text-blue-600 hover:underline"
             >
               Medicare Supplement Plan N: Lower Premiums, Small Tradeoffs
@@ -275,7 +276,7 @@ export default function MedicareSupplementPremiumsIncreasing2025() {
           </li>
           <li>
             <Link
-              href="/services/medigap-open-enrollment"
+              href="/medicare-supplement/new-jersey/turning-65"
               className="text-blue-600 hover:underline"
             >
               Medigap Open Enrollment: Your Best Window for Coverage
@@ -283,7 +284,7 @@ export default function MedicareSupplementPremiumsIncreasing2025() {
           </li>
           <li>
             <Link
-              href="/services/switching-medigap-plans"
+              href="/medicare-supplement/switch-carriers"
               className="text-blue-600 hover:underline"
             >
               Switching Medigap Plans: When It Works and When It Doesn&apos;t

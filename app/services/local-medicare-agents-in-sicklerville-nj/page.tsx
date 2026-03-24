@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "local medicare agents in sicklerville nj | Free Broker Help | MedicareYourself",
   description:
     "Local Medicare agents in Sicklerville, NJ — Anthony Orner is a licensed broker comparing Medigap and Advantage plans in Camden County. Free consultation.",
+  alternates: { canonical: "https://medicareyourself.com/services/local-medicare-agents-in-sicklerville-nj" },
   openGraph: {
     title:
       "local medicare agents in sicklerville nj | Free Broker Help | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-12",
-  dateModified: "2025-07-12",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -97,7 +98,7 @@ export default function LocalMedicareAgentsSicklerville() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -260,7 +261,7 @@ export default function LocalMedicareAgentsSicklerville() {
           <ul className="space-y-2">
             <li>
               <Link
-                href="/medicare-guides/medigap-plans-nj"
+                href="/medicare-supplement/new-jersey"
                 className="text-blue-600 hover:underline"
               >
                 Medigap Plans in New Jersey: What You Need to Know
@@ -268,7 +269,7 @@ export default function LocalMedicareAgentsSicklerville() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/medicare-advantage-camden-county"
+                href="/medicare-advantage/new-jersey"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Advantage Plans in Camden County
@@ -276,7 +277,7 @@ export default function LocalMedicareAgentsSicklerville() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/turning-65-nj"
+                href="/medicare-supplement/new-jersey/turning-65"
                 className="text-blue-600 hover:underline"
               >
                 Turning 65 in NJ: Your Complete Medicare Checklist
@@ -284,7 +285,7 @@ export default function LocalMedicareAgentsSicklerville() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/medicare-enrollment-periods"
+                href="/learn/medicare-enrollment-periods"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Enrollment Periods Explained

@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "you get a medicare supplement if you are on disability | Free Guide | MedicareYourself",
   description:
     "You get a Medicare Supplement if you are on disability, but rules vary by state. Learn which plans accept under-65 enrollees and how to apply. Free help.",
+  alternates: { canonical: "https://medicareyourself.com/services/you-get-a-medicare-supplement-if-you-are-on-disability" },
   openGraph: {
     title:
       "you get a medicare supplement if you are on disability | Free Guide | MedicareYourself",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-01",
-  dateModified: "2025-07-01",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-19",
 };
 
 const faqs = [
@@ -278,7 +279,7 @@ export default function MedicareSupplementDisabilityPage() {
         <ul className="space-y-3">
           <li>
             <Link
-              href="/services/medigap-plans-under-65"
+              href="/services/best-medicare-supplement-for-people-on-disability"
               className="text-blue-600 hover:underline"
             >
               Medigap Plans for People Under 65
@@ -286,7 +287,7 @@ export default function MedicareSupplementDisabilityPage() {
           </li>
           <li>
             <Link
-              href="/services/medicare-plan-g"
+              href="/services/compare-and-enroll-in-plan-g-online"
               className="text-blue-600 hover:underline"
             >
               Medicare Plan G: What It Covers and Costs in 2026
@@ -294,7 +295,7 @@ export default function MedicareSupplementDisabilityPage() {
           </li>
           <li>
             <Link
-              href="/services/medicare-advantage-vs-medigap"
+              href="/medicare-supplement/new-jersey/vs-medicare-advantage"
               className="text-blue-600 hover:underline"
             >
               Medicare Advantage vs. Medigap: Which Is Better?
@@ -302,7 +303,7 @@ export default function MedicareSupplementDisabilityPage() {
           </li>
           <li>
             <Link
-              href="/services/ssdi-and-medicare-enrollment"
+              href="/services/you-get-a-medicare-supplement-if-you-are-on-disability"
               className="text-blue-600 hover:underline"
             >
               SSDI and Medicare Enrollment: Timeline and Steps

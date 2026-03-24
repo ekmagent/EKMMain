@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "best medicare supplement for people on disability | Free Plan Review | MedicareYourself",
   description:
     "Best Medicare Supplement for people on disability — which states guarantee under-65 access and which plan letters offer the strongest value. Free help.",
+  alternates: { canonical: "https://medicareyourself.com/services/best-medicare-supplement-for-people-on-disability" },
   openGraph: {
     title:
       "best medicare supplement for people on disability | Free Plan Review | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,6 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
   mainEntityOfPage:
     "https://medicareyourself.com/services/best-medicare-supplement-for-people-on-disability",
 };
@@ -98,7 +101,7 @@ export default function BestMedicareSupplementForPeopleOnDisability() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -234,7 +237,7 @@ export default function BestMedicareSupplementForPeopleOnDisability() {
           <ul className="space-y-2">
             <li>
               <Link
-                href="/services/medicare-supplement-plan-g"
+                href="/services/compare-and-enroll-in-plan-g-online"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Supplement Plan G: What It Covers and Costs
@@ -242,7 +245,7 @@ export default function BestMedicareSupplementForPeopleOnDisability() {
             </li>
             <li>
               <Link
-                href="/services/medicare-supplement-plan-n"
+                href="/services/quickest-way-to-enroll-into-plan-n"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Supplement Plan N: Is the Lower Premium Worth It?
@@ -250,7 +253,7 @@ export default function BestMedicareSupplementForPeopleOnDisability() {
             </li>
             <li>
               <Link
-                href="/services/medicare-advantage-vs-medigap"
+                href="/medicare-supplement/new-jersey/vs-medicare-advantage"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Advantage vs. Medigap: How to Decide
@@ -258,7 +261,7 @@ export default function BestMedicareSupplementForPeopleOnDisability() {
             </li>
             <li>
               <Link
-                href="/services/medicare-savings-programs"
+                href="/learn/medicare-help-low-income"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Savings Programs: Help Paying Your Part B Premium

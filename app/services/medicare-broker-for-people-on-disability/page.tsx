@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "medicare broker for people on disability | Free Guidance | MedicareYourself",
   description:
     "Medicare broker for people on disability — Anthony Orner helps under-65 SSDI recipients in NJ find Medigap or Advantage coverage. Free consultation.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-people-on-disability" },
   openGraph: {
     title:
       "medicare broker for people on disability | Free Guidance | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,6 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
   mainEntityOfPage:
     "https://medicareyourself.com/services/medicare-broker-for-people-on-disability",
 };
@@ -99,7 +102,7 @@ export default function MedicareBrokerForPeopleOnDisability() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -237,7 +240,7 @@ export default function MedicareBrokerForPeopleOnDisability() {
           <ul className="space-y-2">
             <li>
               <Link
-                href="/medicare-guides/medigap-plan-g-new-jersey"
+                href="/medicare-supplement/new-jersey/plan-g-vs-plan-n"
                 className="text-blue-700 hover:underline"
               >
                 Medigap Plan G in New Jersey: Costs and Coverage
@@ -245,7 +248,7 @@ export default function MedicareBrokerForPeopleOnDisability() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/medicare-advantage-vs-medigap"
+                href="/medicare-supplement/new-jersey/vs-medicare-advantage"
                 className="text-blue-700 hover:underline"
               >
                 Medicare Advantage vs. Medigap: Which Is Right for You?
@@ -253,7 +256,7 @@ export default function MedicareBrokerForPeopleOnDisability() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/medicare-part-b-premium-2026"
+                href="/learn/irmaa-medicare-surcharge"
                 className="text-blue-700 hover:underline"
               >
                 Medicare Part B Premium in 2026: What You'll Pay
@@ -261,7 +264,7 @@ export default function MedicareBrokerForPeopleOnDisability() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/medigap-open-enrollment-period"
+                href="/medicare-supplement/new-jersey/turning-65"
                 className="text-blue-700 hover:underline"
               >
                 Medigap Open Enrollment: Why the Window Matters

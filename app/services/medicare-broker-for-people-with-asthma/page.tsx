@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "medicare broker for people with asthma | Free Help Finding Coverage | MedicareYourself",
   description:
     "Medicare broker for people with asthma — Anthony Orner knows which carriers approve asthma applicants for Medigap. Free help finding the right plan.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-people-with-asthma" },
   openGraph: {
     title:
       "medicare broker for people with asthma | Free Help Finding Coverage | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,6 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
   mainEntityOfPage:
     "https://medicareyourself.com/services/medicare-broker-for-people-with-asthma",
 };
@@ -98,7 +101,7 @@ export default function MedicareBrokerForPeopleWithAsthma() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -296,7 +299,7 @@ export default function MedicareBrokerForPeopleWithAsthma() {
           <ul className="space-y-2">
             <li>
               <Link
-                href="/medicare-guides/medigap-plan-g"
+                href="/medicare-supplement/new-jersey/plan-g-vs-plan-n"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Supplement Plan G: What It Covers in 2026
@@ -304,7 +307,7 @@ export default function MedicareBrokerForPeopleWithAsthma() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/medicare-advantage-vs-medigap"
+                href="/medicare-supplement/new-jersey/vs-medicare-advantage"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Advantage vs. Medigap: How to Decide
@@ -312,7 +315,7 @@ export default function MedicareBrokerForPeopleWithAsthma() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/medigap-underwriting"
+                href="/medicare-supplement/new-jersey"
                 className="text-blue-600 hover:underline"
               >
                 Medigap Underwriting: What to Expect With Pre-Existing
@@ -321,7 +324,7 @@ export default function MedicareBrokerForPeopleWithAsthma() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/part-d-drug-coverage"
+                href="/learn/medicare-parts-explained"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Part D: Finding a Plan That Covers Your Medications

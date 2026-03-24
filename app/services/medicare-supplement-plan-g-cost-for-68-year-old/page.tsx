@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "medicare supplement plan g cost for 68 year old | Free Rate Comparison | MedicareYourself",
   description:
     "Medicare Supplement Plan G cost for a 68-year-old varies by carrier and state. See real premium examples and compare rates. Free quote from Anthony Orner.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-supplement-plan-g-cost-for-68-year-old" },
   openGraph: {
     title:
       "medicare supplement plan g cost for 68 year old | Free Rate Comparison | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-15",
-  dateModified: "2025-07-15",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -95,7 +96,7 @@ export default function MedicareSupplementPlanGCostFor68YearOld() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -240,7 +241,7 @@ export default function MedicareSupplementPlanGCostFor68YearOld() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/services/medicare-supplement-plan-g"
+              href="/services/compare-and-enroll-in-plan-g-online"
               className="text-blue-600 hover:underline"
             >
               Medicare Supplement Plan G: Full Coverage Guide
@@ -248,7 +249,7 @@ export default function MedicareSupplementPlanGCostFor68YearOld() {
           </li>
           <li>
             <Link
-              href="/services/medicare-supplement-plan-g-vs-plan-n"
+              href="/medicare-supplement/new-jersey/plan-g-vs-plan-n"
               className="text-blue-600 hover:underline"
             >
               Plan G vs. Plan N: Which Saves You More?
@@ -256,7 +257,7 @@ export default function MedicareSupplementPlanGCostFor68YearOld() {
           </li>
           <li>
             <Link
-              href="/services/medigap-open-enrollment-period"
+              href="/medicare-supplement/new-jersey/turning-65"
               className="text-blue-600 hover:underline"
             >
               Medigap Open Enrollment: When and Why It Matters
@@ -264,7 +265,7 @@ export default function MedicareSupplementPlanGCostFor68YearOld() {
           </li>
           <li>
             <Link
-              href="/services/how-to-switch-medicare-supplement-plans"
+              href="/services/what-time-of-year-can-you-switch-medicare-supplement-plans"
               className="text-blue-600 hover:underline"
             >
               How to Switch Medicare Supplement Plans

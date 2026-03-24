@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "free independent medicare broker near me new jersey | Free Quote | MedicareYourself",
   description:
     "Free independent Medicare broker near you in New Jersey. Anthony Orner compares top Medigap and Advantage carriers at no charge. Request a free quote today.",
+  alternates: { canonical: "https://medicareyourself.com/services/free-independent-medicare-broker-near-me-new-jersey" },
   openGraph: {
     title:
       "free independent medicare broker near me new jersey | Free Quote | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -57,8 +58,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-15",
-  dateModified: "2025-07-15",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -96,7 +97,7 @@ export default function FreeIndependentMedicareBrokerNearMeNewJersey() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -232,7 +233,7 @@ export default function FreeIndependentMedicareBrokerNearMeNewJersey() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/medicare-guides/medigap-plans-new-jersey"
+              href="/medicare-supplement/new-jersey"
               className="text-blue-600 hover:underline"
             >
               Medigap Plans in New Jersey: What You Need to Know
@@ -240,7 +241,7 @@ export default function FreeIndependentMedicareBrokerNearMeNewJersey() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-advantage-vs-medigap"
+              href="/medicare-supplement/new-jersey/vs-medicare-advantage"
               className="text-blue-600 hover:underline"
             >
               Medicare Advantage vs. Medigap: How to Decide
@@ -248,7 +249,7 @@ export default function FreeIndependentMedicareBrokerNearMeNewJersey() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-enrollment-periods"
+              href="/learn/medicare-enrollment-periods"
               className="text-blue-600 hover:underline"
             >
               Medicare Enrollment Periods Explained

@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "kearny nj medicare insurance agents | Free Consultation | MedicareYourself",
   description:
     "Kearny NJ Medicare insurance agents — Anthony Orner is a licensed independent broker comparing Supplement and Advantage plans in Hudson County. Free consult.",
+  alternates: { canonical: "https://medicareyourself.com/services/kearny-nj-medicare-insurance-agents" },
   openGraph: {
     title:
       "kearny nj medicare insurance agents | Free Consultation | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-01-01",
-  dateModified: "2025-07-01",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -97,7 +98,7 @@ export default function KearnyNJMedicareInsuranceAgents() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -278,7 +279,7 @@ export default function KearnyNJMedicareInsuranceAgents() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/services/hudson-county-medicare-broker"
+              href="/services/hoboken-nj-medicare-insurance-agents"
               className="text-blue-600 hover:underline"
             >
               Hudson County Medicare Broker
@@ -286,7 +287,7 @@ export default function KearnyNJMedicareInsuranceAgents() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-supplement-plan-g-nj"
+              href="/medicare-supplement/new-jersey/plan-g-vs-plan-n"
               className="text-blue-600 hover:underline"
             >
               Medicare Supplement Plan G in New Jersey
@@ -294,7 +295,7 @@ export default function KearnyNJMedicareInsuranceAgents() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-advantage-vs-medigap"
+              href="/medicare-supplement/new-jersey/vs-medicare-advantage"
               className="text-blue-600 hover:underline"
             >
               Medicare Advantage vs. Medigap: Which Is Right for You?
@@ -302,7 +303,7 @@ export default function KearnyNJMedicareInsuranceAgents() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/nj-medicare-enrollment-deadlines"
+              href="/learn/medicare-enrollment-periods"
               className="text-blue-600 hover:underline"
             >
               NJ Medicare Enrollment Deadlines

@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "medicare insurance agents in bloomfield new jersey | Free Broker Help | MedicareYourself",
   description:
     "Medicare insurance agents in Bloomfield New Jersey — compare every major carrier with independent broker Anthony Orner. Free quotes, zero sales pressure.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-insurance-agents-in-bloomfield-new-jersey" },
   openGraph: {
     title:
       "medicare insurance agents in bloomfield new jersey | Free Broker Help | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,6 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
   mainEntityOfPage:
     "https://medicareyourself.com/services/medicare-insurance-agents-in-bloomfield-new-jersey",
 };
@@ -99,7 +102,7 @@ export default function MedicareInsuranceAgentsBloomfieldNJ() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -271,7 +274,7 @@ export default function MedicareInsuranceAgentsBloomfieldNJ() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/services/medicare-agents-essex-county-nj"
+              href="/services/find-a-medicare-agent-in-montclair-nj"
               className="text-blue-600 hover:underline"
             >
               Medicare Agents in Essex County, NJ
@@ -279,7 +282,7 @@ export default function MedicareInsuranceAgentsBloomfieldNJ() {
           </li>
           <li>
             <Link
-              href="/guides/medigap-plan-g-vs-plan-n"
+              href="/medicare-supplement/new-jersey/plan-g-vs-plan-n"
               className="text-blue-600 hover:underline"
             >
               Medigap Plan G vs. Plan N: Which Saves You More?
@@ -287,7 +290,7 @@ export default function MedicareInsuranceAgentsBloomfieldNJ() {
           </li>
           <li>
             <Link
-              href="/guides/medicare-advantage-vs-medigap"
+              href="/medicare-supplement/new-jersey/vs-medicare-advantage"
               className="text-blue-600 hover:underline"
             >
               Medicare Advantage vs. Medigap: How to Decide
@@ -295,7 +298,7 @@ export default function MedicareInsuranceAgentsBloomfieldNJ() {
           </li>
           <li>
             <Link
-              href="/guides/new-to-medicare-nj"
+              href="/learn/how-to-sign-up-for-medicare"
               className="text-blue-600 hover:underline"
             >
               New to Medicare in New Jersey: Step-by-Step Guide

@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "Medicare broker for Parkinson's patients | Free Plan Review | MedicareYourself",
   description:
     "Medicare broker for Parkinson's patients needing specialist access, therapy coverage, and the right drug plan. Anthony Orner reviews your options free.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-parkinsons-patients" },
   openGraph: {
     title:
       "Medicare broker for Parkinson's patients | Free Plan Review | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-01",
-  dateModified: "2025-07-01",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -97,7 +98,7 @@ export default function MedicareBrokerForParkinsonsPatients() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -279,7 +280,7 @@ export default function MedicareBrokerForParkinsonsPatients() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/medicare-guides/medicare-supplement-plans"
+              href="/learn/what-is-medigap"
               className="text-blue-600 hover:underline"
             >
               Medicare Supplement Plans: What They Cover and Cost
@@ -287,7 +288,7 @@ export default function MedicareBrokerForParkinsonsPatients() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-advantage-vs-medigap"
+              href="/medicare-supplement/new-jersey/vs-medicare-advantage"
               className="text-blue-600 hover:underline"
             >
               Medicare Advantage vs. Medigap: How to Choose
@@ -295,7 +296,7 @@ export default function MedicareBrokerForParkinsonsPatients() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/part-d-drug-plans"
+              href="/learn/medicare-parts-explained"
               className="text-blue-600 hover:underline"
             >
               Part D Drug Plans: Finding the Right Prescription Coverage
@@ -303,7 +304,7 @@ export default function MedicareBrokerForParkinsonsPatients() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-physical-therapy-coverage"
+              href="/services/best-medicare-plan-for-chronic-conditions"
               className="text-blue-600 hover:underline"
             >
               Medicare Physical Therapy Coverage Explained

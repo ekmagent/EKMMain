@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "free medicare broker new jersey | No Fees, No Obligation | MedicareYourself",
   description:
     "Free Medicare broker in New Jersey — Anthony Orner is licensed, independent, and paid by carriers so you pay nothing. Compare plans with zero obligation.",
+  alternates: { canonical: "https://medicareyourself.com/services/free-medicare-broker-new-jersey" },
   openGraph: {
     title:
       "free medicare broker new jersey | No Fees, No Obligation | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-01-15",
-  dateModified: "2025-01-15",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -94,7 +95,7 @@ export default function FreeMedicareBrokerNewJersey() {
 
       <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-4">
         <Link href="/">Home</Link> &gt;{" "}
-        <Link href="/medicare">Medicare Guides</Link> &gt;{" "}
+        <Link href="/services">Medicare Guides</Link> &gt;{" "}
         <span>Free Medicare Broker New Jersey</span>
       </nav>
 
@@ -228,7 +229,7 @@ export default function FreeMedicareBrokerNewJersey() {
           <ul className="space-y-2">
             <li>
               <Link
-                href="/medicare/medicare-advantage-new-jersey"
+                href="/medicare-advantage/new-jersey"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Advantage Plans in New Jersey
@@ -236,7 +237,7 @@ export default function FreeMedicareBrokerNewJersey() {
             </li>
             <li>
               <Link
-                href="/medicare/medigap-plans-new-jersey"
+                href="/medicare-supplement/new-jersey"
                 className="text-blue-600 hover:underline"
               >
                 Medigap Plans in New Jersey
@@ -244,7 +245,7 @@ export default function FreeMedicareBrokerNewJersey() {
             </li>
             <li>
               <Link
-                href="/medicare/part-d-new-jersey"
+                href="/learn/medicare-parts-explained"
                 className="text-blue-600 hover:underline"
               >
                 Part D Prescription Drug Plans in NJ

@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "Medicare broker for cataracts patients | Free Plan Comparison | MedicareYourself",
   description:
     "Medicare broker for cataracts patients — Anthony Orner helps you find plans covering surgery, IOLs, and follow-up care in NJ. Free comparison, no obligation.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-cataracts-patients" },
   openGraph: {
     title:
       "Medicare broker for cataracts patients | Free Plan Comparison | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-14",
-  dateModified: "2025-07-14",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -96,7 +97,7 @@ export default function MedicareBrokerForCataractsPatients() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -255,7 +256,7 @@ export default function MedicareBrokerForCataractsPatients() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/medicare-guides/medicare-part-b-coverage"
+              href="/learn/medicare-parts-explained"
               className="text-blue-600 hover:underline"
             >
               What Medicare Part B Covers in 2026
@@ -263,7 +264,7 @@ export default function MedicareBrokerForCataractsPatients() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medigap-plans-nj"
+              href="/medicare-supplement/new-jersey"
               className="text-blue-600 hover:underline"
             >
               Medigap Plans in New Jersey
@@ -271,7 +272,7 @@ export default function MedicareBrokerForCataractsPatients() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-advantage-vs-medigap"
+              href="/medicare-supplement/new-jersey/vs-medicare-advantage"
               className="text-blue-600 hover:underline"
             >
               Medicare Advantage vs. Medigap: Which Is Better?
@@ -279,7 +280,7 @@ export default function MedicareBrokerForCataractsPatients() {
           </li>
           <li>
             <Link
-              href="/services/medicare-broker-for-vision-care"
+              href="/services/medicare-broker-for-cataracts-patients"
               className="text-blue-600 hover:underline"
             >
               Medicare Broker for Vision Care

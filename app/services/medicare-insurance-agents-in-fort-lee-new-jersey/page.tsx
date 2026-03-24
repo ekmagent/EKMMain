@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "medicare insurance agents in fort lee new jersey | Free Broker Help | MedicareYourself",
   description:
     "Medicare insurance agents in Fort Lee, New Jersey — Anthony Orner compares Medigap and Advantage plans from top carriers in Bergen County. Free quote.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-insurance-agents-in-fort-lee-new-jersey" },
   openGraph: {
     title:
       "medicare insurance agents in fort lee new jersey | Free Broker Help | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-12",
-  dateModified: "2025-07-12",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -95,7 +96,7 @@ export default function MedicareInsuranceAgentsFortLeeNJ() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -287,7 +288,7 @@ export default function MedicareInsuranceAgentsFortLeeNJ() {
           <ul className="space-y-2">
             <li>
               <Link
-                href="/medicare/medigap-plans-new-jersey"
+                href="/medicare-supplement/new-jersey"
                 className="text-blue-700 hover:underline"
               >
                 Medigap Plans in New Jersey: What You Need to Know
@@ -295,7 +296,7 @@ export default function MedicareInsuranceAgentsFortLeeNJ() {
             </li>
             <li>
               <Link
-                href="/medicare/medicare-advantage-bergen-county"
+                href="/medicare-advantage/new-jersey"
                 className="text-blue-700 hover:underline"
               >
                 Medicare Advantage Plans in Bergen County
@@ -303,7 +304,7 @@ export default function MedicareInsuranceAgentsFortLeeNJ() {
             </li>
             <li>
               <Link
-                href="/medicare/when-to-enroll-in-medicare"
+                href="/learn/how-to-sign-up-for-medicare"
                 className="text-blue-700 hover:underline"
               >
                 When to Enroll in Medicare: Deadlines That Matter

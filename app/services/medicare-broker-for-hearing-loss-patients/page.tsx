@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "Medicare broker for hearing loss patients | Free Plan Review | MedicareYourself",
   description:
     "Medicare broker for hearing loss patients — find plans with hearing aid and audiology benefits. Anthony Orner compares NJ options at no cost. Call today.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-hearing-loss-patients" },
   openGraph: {
     title:
       "Medicare broker for hearing loss patients | Free Plan Review | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-01",
-  dateModified: "2025-07-01",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -96,7 +97,7 @@ export default function MedicareBrokerForHearingLossPatients() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -267,7 +268,7 @@ export default function MedicareBrokerForHearingLossPatients() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/medicare/medicare-advantage-plans-nj"
+              href="/medicare-advantage/new-jersey"
               className="text-blue-600 hover:underline"
             >
               Medicare Advantage Plans in NJ
@@ -275,7 +276,7 @@ export default function MedicareBrokerForHearingLossPatients() {
           </li>
           <li>
             <Link
-              href="/medicare/medigap-plans-nj"
+              href="/medicare-supplement/new-jersey"
               className="text-blue-600 hover:underline"
             >
               Medigap Plans in New Jersey
@@ -283,7 +284,7 @@ export default function MedicareBrokerForHearingLossPatients() {
           </li>
           <li>
             <Link
-              href="/services/medicare-broker-near-me"
+              href="/services/medicare-agents-near-me"
               className="text-blue-600 hover:underline"
             >
               Find a Medicare Broker Near You
@@ -291,7 +292,7 @@ export default function MedicareBrokerForHearingLossPatients() {
           </li>
           <li>
             <Link
-              href="/medicare/medicare-part-b-coverage"
+              href="/learn/medicare-parts-explained"
               className="text-blue-600 hover:underline"
             >
               What Does Medicare Part B Cover?

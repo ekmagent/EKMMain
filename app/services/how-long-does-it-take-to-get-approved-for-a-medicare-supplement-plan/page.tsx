@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "how long does it take to get approved for a medicare supplement plan | Free Timeline Guide | MedicareYourself",
   description:
     "How long does it take to get approved for a Medicare Supplement plan? Most approvals take 1–3 weeks. Learn what affects timing and how to speed it up.",
+  alternates: { canonical: "https://medicareyourself.com/services/how-long-does-it-take-to-get-approved-for-a-medicare-supplement-plan" },
   openGraph: {
     title:
       "how long does it take to get approved for a medicare supplement plan | Free Timeline Guide | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -60,6 +61,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
   mainEntityOfPage:
     "https://medicareyourself.com/services/how-long-does-it-take-to-get-approved-for-a-medicare-supplement-plan",
 };
@@ -100,7 +103,7 @@ export default function HowLongMedigapApproval() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -236,7 +239,7 @@ export default function HowLongMedigapApproval() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/services/medigap-open-enrollment-period"
+              href="/medicare-supplement/new-jersey/turning-65"
               className="text-blue-600 hover:underline"
             >
               Medigap Open Enrollment Period: What You Need to Know
@@ -244,7 +247,7 @@ export default function HowLongMedigapApproval() {
           </li>
           <li>
             <Link
-              href="/services/medicare-supplement-plan-g"
+              href="/services/compare-and-enroll-in-plan-g-online"
               className="text-blue-600 hover:underline"
             >
               Medicare Supplement Plan G: Benefits and Costs
@@ -252,7 +255,7 @@ export default function HowLongMedigapApproval() {
           </li>
           <li>
             <Link
-              href="/services/medicare-advantage-vs-medigap"
+              href="/medicare-supplement/new-jersey/vs-medicare-advantage"
               className="text-blue-600 hover:underline"
             >
               Medicare Advantage vs. Medigap: How to Choose
@@ -260,7 +263,7 @@ export default function HowLongMedigapApproval() {
           </li>
           <li>
             <Link
-              href="/services/switching-from-medicare-advantage-to-medigap"
+              href="/medicare-supplement/switch-carriers"
               className="text-blue-600 hover:underline"
             >
               Switching from Medicare Advantage to Medigap

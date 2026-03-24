@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "medicare consultant in ft lauderdale fl | Free Plan Comparison | MedicareYourself",
   description:
     "Medicare consultant in Ft Lauderdale FL — Anthony Orner compares Supplement and Advantage plans across Broward County carriers. Free, no-obligation consultation.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-consultant-in-ft-lauderdale-fl" },
   openGraph: {
     title:
       "medicare consultant in ft lauderdale fl | Free Plan Comparison | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -57,8 +58,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-01-01",
-  dateModified: "2025-01-01",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -94,7 +95,7 @@ export default function MedicareConsultantFtLauderdaleFL() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -221,7 +222,7 @@ export default function MedicareConsultantFtLauderdaleFL() {
           for a free Ft Lauderdale plan comparison.
         </p>
         <Link
-          href="/get-a-free-quote"
+          href="/quote"
           className="inline-block bg-white text-blue-600 font-bold py-3 px-8 rounded-lg hover:bg-gray-100 transition"
         >
           Get a Free Quote
@@ -237,7 +238,7 @@ export default function MedicareConsultantFtLauderdaleFL() {
         <ul className="space-y-3">
           <li>
             <Link
-              href="/medicare-guides/medicare-supplement-plan-g"
+              href="/medicare-supplement/new-jersey/plan-g-vs-plan-n"
               className="text-blue-600 hover:underline"
             >
               Medicare Supplement Plan G: What It Covers and Costs
@@ -245,7 +246,7 @@ export default function MedicareConsultantFtLauderdaleFL() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-advantage-vs-medigap"
+              href="/medicare-supplement/new-jersey/vs-medicare-advantage"
               className="text-blue-600 hover:underline"
             >
               Medicare Advantage vs. Medigap: Which Is Right for You?
@@ -253,7 +254,7 @@ export default function MedicareConsultantFtLauderdaleFL() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/florida-birthday-rule"
+              href="/services/medicare-consultant-in-ft-lauderdale-fl"
               className="text-blue-600 hover:underline"
             >
               Florida's Birthday Rule for Medigap Explained
@@ -261,7 +262,7 @@ export default function MedicareConsultantFtLauderdaleFL() {
           </li>
           <li>
             <Link
-              href="/services/medicare-broker-broward-county"
+              href="/services/medicare-consultant-in-ft-lauderdale-fl"
               className="text-blue-600 hover:underline"
             >
               Medicare Broker Serving All of Broward County

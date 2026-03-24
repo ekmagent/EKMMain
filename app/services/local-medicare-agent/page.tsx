@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "local medicare agent | Free Consultation, No Obligation | MedicareYourself",
   description:
     "Local medicare agent Anthony Orner is licensed in NJ and PA, representing top carriers. Get unbiased plan guidance at zero cost. Book a free call today.",
+  alternates: { canonical: "https://medicareyourself.com/services/local-medicare-agent" },
   openGraph: {
     title:
       "local medicare agent | Free Consultation, No Obligation | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,6 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
   mainEntityOfPage:
     "https://medicareyourself.com/services/local-medicare-agent",
 };
@@ -93,7 +96,7 @@ export default function LocalMedicareAgentPage() {
 
       <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-4">
         <Link href="/">Home</Link> &gt;{" "}
-        <Link href="/medicare">Medicare Guides</Link> &gt;{" "}
+        <Link href="/services">Medicare Guides</Link> &gt;{" "}
         <span>Local Medicare Agent</span>
       </nav>
 
@@ -252,7 +255,7 @@ export default function LocalMedicareAgentPage() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/medicare/medicare-advantage"
+              href="/medicare-advantage/new-jersey"
               className="text-blue-600 underline"
             >
               Medicare Advantage Plans in New Jersey
@@ -260,7 +263,7 @@ export default function LocalMedicareAgentPage() {
           </li>
           <li>
             <Link
-              href="/medicare/medigap"
+              href="/learn/what-is-medigap"
               className="text-blue-600 underline"
             >
               Medigap Plans Explained: Which Letter Plan Fits?
@@ -268,7 +271,7 @@ export default function LocalMedicareAgentPage() {
           </li>
           <li>
             <Link
-              href="/medicare/enrollment-periods"
+              href="/learn/medicare-enrollment-periods"
               className="text-blue-600 underline"
             >
               Medicare Enrollment Periods and Deadlines

@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "Find a Medicare Agent in North Bergen NJ | Free Broker Help | MedicareYourself",
   description:
     "Find a Medicare agent in North Bergen, NJ who compares Supplement and Advantage plans across carriers. Anthony Orner offers free, no-pressure consultations.",
+  alternates: { canonical: "https://medicareyourself.com/services/find-a-medicare-agent-in-north-bergen-nj" },
   openGraph: {
     title:
       "Find a Medicare Agent in North Bergen NJ | Free Broker Help | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,6 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
   mainEntityOfPage:
     "https://medicareyourself.com/services/find-a-medicare-agent-in-north-bergen-nj",
 };
@@ -96,7 +99,7 @@ export default function FindMedicareAgentNorthBergenNJ() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -281,7 +284,7 @@ export default function FindMedicareAgentNorthBergenNJ() {
           <ul className="space-y-2">
             <li>
               <Link
-                href="/medicare-guides/medicare-supplement-plans-nj"
+                href="/medicare-supplement/new-jersey"
                 className="text-blue-700 hover:underline"
               >
                 Medicare Supplement Plans in New Jersey
@@ -289,7 +292,7 @@ export default function FindMedicareAgentNorthBergenNJ() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/medicare-advantage-plans-nj"
+                href="/medicare-advantage/new-jersey"
                 className="text-blue-700 hover:underline"
               >
                 Medicare Advantage Plans in New Jersey
@@ -297,7 +300,7 @@ export default function FindMedicareAgentNorthBergenNJ() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/medigap-open-enrollment-nj"
+                href="/medicare-supplement/new-jersey/turning-65"
                 className="text-blue-700 hover:underline"
               >
                 Medigap Open Enrollment in NJ
@@ -305,7 +308,7 @@ export default function FindMedicareAgentNorthBergenNJ() {
             </li>
             <li>
               <Link
-                href="/services/find-a-medicare-agent-in-jersey-city-nj"
+                href="/services/hoboken-nj-medicare-insurance-agents"
                 className="text-blue-700 hover:underline"
               >
                 Find a Medicare Agent in Jersey City, NJ

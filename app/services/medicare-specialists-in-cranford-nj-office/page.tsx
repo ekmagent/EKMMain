@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "medicare specialists in cranford, nj office | Free Local Help | MedicareYourself",
   description:
     "Medicare specialists in Cranford, NJ — Anthony Orner is a licensed independent broker serving Union County. Compare plans across carriers. Free consultation.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-specialists-in-cranford-nj-office" },
   openGraph: {
     title:
       "medicare specialists in cranford, nj office | Free Local Help | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-01",
-  dateModified: "2025-07-01",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -96,7 +97,7 @@ export default function MedicareSpecialistsCranfordNJOffice() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -235,7 +236,7 @@ export default function MedicareSpecialistsCranfordNJOffice() {
           <ul className="space-y-2">
             <li>
               <Link
-                href="/medicare-guides/medigap-plan-g-vs-plan-n"
+                href="/medicare-supplement/new-jersey/plan-g-vs-plan-n"
                 className="text-blue-600 hover:underline"
               >
                 Medigap Plan G vs. Plan N: Which Saves You More?
@@ -243,7 +244,7 @@ export default function MedicareSpecialistsCranfordNJOffice() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/medicare-advantage-plans-nj"
+                href="/medicare-advantage/new-jersey"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Advantage Plans in New Jersey
@@ -251,7 +252,7 @@ export default function MedicareSpecialistsCranfordNJOffice() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/medicare-part-b-enrollment"
+                href="/learn/how-to-sign-up-for-medicare"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Part B Enrollment: Deadlines and Penalties

@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "irvington nj medicare insurance agents | Free Local Broker | MedicareYourself",
   description:
     "Irvington NJ Medicare insurance agents — Anthony Orner is a licensed independent broker comparing Supplement and Advantage plans in Essex County. Free quote.",
+  alternates: { canonical: "https://medicareyourself.com/services/irvington-nj-medicare-insurance-agents" },
   openGraph: {
     title:
       "irvington nj medicare insurance agents | Free Local Broker | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-12",
-  dateModified: "2025-07-12",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -96,7 +97,7 @@ export default function IrvingtonNJMedicareInsuranceAgents() {
           Home
         </Link>
         {" > "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>
         {" > "}
@@ -212,7 +213,7 @@ export default function IrvingtonNJMedicareInsuranceAgents() {
           Call <strong>855-559-1700</strong> for a free, no-obligation plan review.
         </p>
         <Link
-          href="/get-a-free-quote"
+          href="/quote"
           className="inline-block bg-white text-blue-600 font-semibold px-6 py-3 rounded-lg hover:bg-gray-100 transition"
         >
           Get a Free Quote
@@ -226,7 +227,7 @@ export default function IrvingtonNJMedicareInsuranceAgents() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/medicare-guides/medicare-supplement-plans-nj"
+              href="/medicare-supplement/new-jersey"
               className="text-blue-600 hover:underline"
             >
               Medicare Supplement Plans in New Jersey
@@ -234,7 +235,7 @@ export default function IrvingtonNJMedicareInsuranceAgents() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-advantage-plans-nj"
+              href="/medicare-advantage/new-jersey"
               className="text-blue-600 hover:underline"
             >
               Medicare Advantage Plans in New Jersey
@@ -242,7 +243,7 @@ export default function IrvingtonNJMedicareInsuranceAgents() {
           </li>
           <li>
             <Link
-              href="/services/newark-nj-medicare-insurance-agents"
+              href="/services/find-a-medicare-agent-in-newark-nj"
               className="text-blue-600 hover:underline"
             >
               Newark NJ Medicare Insurance Agents
@@ -250,7 +251,7 @@ export default function IrvingtonNJMedicareInsuranceAgents() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medigap-open-enrollment-period"
+              href="/medicare-supplement/new-jersey/turning-65"
               className="text-blue-600 hover:underline"
             >
               Medigap Open Enrollment Period Explained

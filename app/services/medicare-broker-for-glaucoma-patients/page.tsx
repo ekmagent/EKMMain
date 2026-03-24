@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "Medicare broker for glaucoma patients | Free Coverage Review | MedicareYourself",
   description:
     "Medicare broker for glaucoma patients comparing plans covering eye drops, laser treatment, and surgery. Anthony Orner offers free reviews in NJ.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-glaucoma-patients" },
   openGraph: {
     title:
       "Medicare broker for glaucoma patients | Free Coverage Review | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-01",
-  dateModified: "2025-07-01",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -96,7 +97,7 @@ export default function MedicareBrokerForGlaucomaPatients() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -229,7 +230,7 @@ export default function MedicareBrokerForGlaucomaPatients() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/medicare-guides/medicare-part-b-coverage"
+              href="/learn/medicare-parts-explained"
               className="text-blue-600 hover:underline"
             >
               What Does Medicare Part B Cover?
@@ -237,7 +238,7 @@ export default function MedicareBrokerForGlaucomaPatients() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medigap-plan-g-vs-plan-n"
+              href="/medicare-supplement/new-jersey/plan-g-vs-plan-n"
               className="text-blue-600 hover:underline"
             >
               Medigap Plan G vs. Plan N: Which Is Better?
@@ -245,7 +246,7 @@ export default function MedicareBrokerForGlaucomaPatients() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-part-d-drug-coverage"
+              href="/learn/medicare-parts-explained"
               className="text-blue-600 hover:underline"
             >
               How Medicare Part D Drug Coverage Works
@@ -253,7 +254,7 @@ export default function MedicareBrokerForGlaucomaPatients() {
           </li>
           <li>
             <Link
-              href="/services/medicare-broker-nj"
+              href="/services/free-medicare-broker-new-jersey"
               className="text-blue-600 hover:underline"
             >
               Medicare Broker in New Jersey

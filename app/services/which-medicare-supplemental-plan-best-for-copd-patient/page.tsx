@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "which medicare supplemental plan best for copd patient? | Free Expert Advice | MedicareYourself",
   description:
     "Which Medicare Supplemental plan is best for a COPD patient? Compare Plan G and Plan N for pulmonary care costs. Free broker recommendation — no obligation.",
+  alternates: { canonical: "https://medicareyourself.com/services/which-medicare-supplemental-plan-best-for-copd-patient" },
   openGraph: {
     title:
       "which medicare supplemental plan best for copd patient? | Free Expert Advice | MedicareYourself",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-18",
-  dateModified: "2025-07-18",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-19",
 };
 
 const faqs = [
@@ -280,7 +281,7 @@ export default function WhichMedicareSupplementalPlanBestForCOPDPatient() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/services/medicare-supplement-plan-g"
+              href="/services/compare-and-enroll-in-plan-g-online"
               className="text-blue-600 hover:underline"
             >
               Medicare Supplement Plan G: What It Covers and Costs
@@ -288,7 +289,7 @@ export default function WhichMedicareSupplementalPlanBestForCOPDPatient() {
           </li>
           <li>
             <Link
-              href="/services/medicare-supplement-plan-n"
+              href="/services/quickest-way-to-enroll-into-plan-n"
               className="text-blue-600 hover:underline"
             >
               Medicare Supplement Plan N: Is It Right for You?
@@ -296,7 +297,7 @@ export default function WhichMedicareSupplementalPlanBestForCOPDPatient() {
           </li>
           <li>
             <Link
-              href="/services/medigap-open-enrollment-period"
+              href="/medicare-supplement/new-jersey/turning-65"
               className="text-blue-600 hover:underline"
             >
               Medigap Open Enrollment Period: When and Why It Matters
@@ -304,7 +305,7 @@ export default function WhichMedicareSupplementalPlanBestForCOPDPatient() {
           </li>
           <li>
             <Link
-              href="/services/medicare-part-d-prescription-drug-coverage"
+              href="/learn/medicare-parts-explained"
               className="text-blue-600 hover:underline"
             >
               Medicare Part D Prescription Drug Coverage

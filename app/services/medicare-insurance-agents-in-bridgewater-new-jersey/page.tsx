@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "medicare insurance agents in bridgewater new jersey | Free Rate Comparison | MedicareYourself",
   description:
     "Medicare insurance agents in Bridgewater, New Jersey compare Supplement and Advantage plans across top carriers. Anthony Orner shops for you free. Call today.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-insurance-agents-in-bridgewater-new-jersey" },
   openGraph: {
     title:
       "medicare insurance agents in bridgewater new jersey | Free Rate Comparison | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-01",
-  dateModified: "2025-07-01",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -96,7 +97,7 @@ export default function MedicareInsuranceAgentsBridgewaterNJ() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -293,7 +294,7 @@ export default function MedicareInsuranceAgentsBridgewaterNJ() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/medicare-guides/medicare-supplement-plans-nj"
+              href="/medicare-supplement/new-jersey"
               className="text-blue-600 hover:underline"
             >
               Medicare Supplement Plans in New Jersey
@@ -301,7 +302,7 @@ export default function MedicareInsuranceAgentsBridgewaterNJ() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-advantage-plans-nj"
+              href="/medicare-advantage/new-jersey"
               className="text-blue-600 hover:underline"
             >
               Medicare Advantage Plans in New Jersey
@@ -309,7 +310,7 @@ export default function MedicareInsuranceAgentsBridgewaterNJ() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medigap-plan-g-vs-plan-n"
+              href="/medicare-supplement/new-jersey/plan-g-vs-plan-n"
               className="text-blue-600 hover:underline"
             >
               Medigap Plan G vs. Plan N: Which Is Right for You?
@@ -317,7 +318,7 @@ export default function MedicareInsuranceAgentsBridgewaterNJ() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/turning-65-medicare-checklist"
+              href="/medicare-supplement/new-jersey/turning-65"
               className="text-blue-600 hover:underline"
             >
               Turning 65? Your Medicare Enrollment Checklist

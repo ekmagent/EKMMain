@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "medicare insurance agents in edison new jersey | Free Local Help | MedicareYourself",
   description:
     "Medicare insurance agents in Edison, New Jersey — Anthony Orner is a licensed broker comparing Medigap and Advantage plans across carriers. Free consultation.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-insurance-agents-in-edison-new-jersey" },
   openGraph: {
     title:
       "medicare insurance agents in edison new jersey | Free Local Help | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-12",
-  dateModified: "2025-07-12",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -95,7 +96,7 @@ export default function MedicareInsuranceAgentsEdisonNJ() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -268,7 +269,7 @@ export default function MedicareInsuranceAgentsEdisonNJ() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/medicare/medigap-plan-g-new-jersey"
+              href="/medicare-supplement/new-jersey/plan-g-vs-plan-n"
               className="text-blue-600 hover:underline"
             >
               Medigap Plan G in New Jersey — What It Covers and Costs
@@ -276,7 +277,7 @@ export default function MedicareInsuranceAgentsEdisonNJ() {
           </li>
           <li>
             <Link
-              href="/medicare/medicare-advantage-middlesex-county"
+              href="/medicare-advantage/new-jersey"
               className="text-blue-600 hover:underline"
             >
               Medicare Advantage Plans in Middlesex County
@@ -284,7 +285,7 @@ export default function MedicareInsuranceAgentsEdisonNJ() {
           </li>
           <li>
             <Link
-              href="/medicare/when-to-enroll-in-medicare"
+              href="/learn/how-to-sign-up-for-medicare"
               className="text-blue-600 hover:underline"
             >
               When to Enroll in Medicare — Key Dates and Deadlines
@@ -292,7 +293,7 @@ export default function MedicareInsuranceAgentsEdisonNJ() {
           </li>
           <li>
             <Link
-              href="/medicare/medigap-vs-medicare-advantage"
+              href="/medicare-supplement/new-jersey/vs-medicare-advantage"
               className="text-blue-600 hover:underline"
             >
               Medigap vs. Medicare Advantage — How to Decide

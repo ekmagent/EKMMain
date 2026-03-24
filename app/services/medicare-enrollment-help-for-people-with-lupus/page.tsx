@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "medicare enrollment help for people with lupus | Free NJ Guidance | MedicareYourself",
   description:
     "Medicare enrollment help for people with lupus. Learn disability-based eligibility, drug coverage, and NJ plan options. Anthony Orner offers free guidance.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-enrollment-help-for-people-with-lupus" },
   openGraph: {
     title:
       "medicare enrollment help for people with lupus | Free NJ Guidance | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -57,6 +58,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
+  datePublished: "2026-03-17",
+  dateModified: "2026-03-22",
   mainEntityOfPage:
     "https://medicareyourself.com/services/medicare-enrollment-help-for-people-with-lupus",
 };
@@ -96,7 +99,7 @@ export default function MedicareEnrollmentHelpLupus() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -226,7 +229,7 @@ export default function MedicareEnrollmentHelpLupus() {
           <ul className="space-y-2">
             <li>
               <Link
-                href="/services/medicare-for-people-with-disabilities"
+                href="/services/best-medicare-supplement-for-people-on-disability"
                 className="text-blue-600 hover:underline"
               >
                 Medicare for People With Disabilities
@@ -234,7 +237,7 @@ export default function MedicareEnrollmentHelpLupus() {
             </li>
             <li>
               <Link
-                href="/services/medicare-part-d-drug-coverage"
+                href="/learn/medicare-parts-explained"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Part D Drug Coverage Guide
@@ -242,7 +245,7 @@ export default function MedicareEnrollmentHelpLupus() {
             </li>
             <li>
               <Link
-                href="/services/medigap-plans-in-nj"
+                href="/medicare-supplement/new-jersey"
                 className="text-blue-600 hover:underline"
               >
                 Medigap Plans in New Jersey
@@ -250,7 +253,7 @@ export default function MedicareEnrollmentHelpLupus() {
             </li>
             <li>
               <Link
-                href="/services/medicare-advantage-vs-medigap"
+                href="/medicare-supplement/new-jersey/vs-medicare-advantage"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Advantage vs. Medigap

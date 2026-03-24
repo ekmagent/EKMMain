@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "My Medicare Supplement Rate Just Jumped — Why, and What Can I Do? | Free Rate Comparison | MedicareYourself",
   description:
     "My Medicare Supplement rate just jumped — here's why premiums increase and how switching carriers can cut your cost. Free comparison from Anthony Orner.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-supplement-rate-jumped-why-and-what-can-i-do" },
   openGraph: {
     title:
       "My Medicare Supplement Rate Just Jumped — Why, and What Can I Do? | Free Rate Comparison | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-06-20",
-  dateModified: "2025-06-20",
+  datePublished: "2026-03-17",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -97,7 +98,7 @@ export default function MedicareSupplementRateJumpedPage() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -282,7 +283,7 @@ export default function MedicareSupplementRateJumpedPage() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/services/medigap-plan-g-vs-plan-n"
+              href="/medicare-supplement/new-jersey/plan-g-vs-plan-n"
               className="text-blue-600 hover:underline"
             >
               Medigap Plan G vs Plan N: Which Saves You More?
@@ -290,7 +291,7 @@ export default function MedicareSupplementRateJumpedPage() {
           </li>
           <li>
             <Link
-              href="/services/when-to-enroll-in-medicare-supplement"
+              href="/services/medicare-supplement-open-enrollment-online"
               className="text-blue-600 hover:underline"
             >
               When to Enroll in a Medicare Supplement Plan
@@ -298,7 +299,7 @@ export default function MedicareSupplementRateJumpedPage() {
           </li>
           <li>
             <Link
-              href="/services/medicare-supplement-vs-medicare-advantage"
+              href="/medicare-supplement/new-jersey/vs-medicare-advantage"
               className="text-blue-600 hover:underline"
             >
               Medicare Supplement vs Medicare Advantage
@@ -306,7 +307,7 @@ export default function MedicareSupplementRateJumpedPage() {
           </li>
           <li>
             <Link
-              href="/services/guaranteed-issue-rights-medigap"
+              href="/services/you-get-a-medicare-supplement-plan-if-you-have-a-pre-existing-condition"
               className="text-blue-600 hover:underline"
             >
               Guaranteed Issue Rights for Medigap Plans

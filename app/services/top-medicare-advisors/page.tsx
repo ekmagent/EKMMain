@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "top medicare advisors | Free Independent Broker Help | MedicareYourself",
   description:
     "Top medicare advisors share five traits: independence, carrier access, transparency, and more. See how Anthony Orner compares. Free consultation available.",
+  alternates: { canonical: "https://medicareyourself.com/services/top-medicare-advisors" },
   openGraph: {
     title:
       "top medicare advisors | Free Independent Broker Help | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-01-01",
-  dateModified: "2025-01-01",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -96,7 +97,7 @@ export default function TopMedicareAdvisorsPage() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -282,7 +283,7 @@ export default function TopMedicareAdvisorsPage() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/services/medicare-broker-near-me"
+              href="/services/medicare-agents-near-me"
               className="text-blue-600 hover:underline"
             >
               Find a Medicare Broker Near You
@@ -290,7 +291,7 @@ export default function TopMedicareAdvisorsPage() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medigap-open-enrollment"
+              href="/medicare-supplement/new-jersey/turning-65"
               className="text-blue-600 hover:underline"
             >
               Medigap Open Enrollment: What You Need to Know
@@ -298,7 +299,7 @@ export default function TopMedicareAdvisorsPage() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-advantage-vs-medigap"
+              href="/medicare-supplement/new-jersey/vs-medicare-advantage"
               className="text-blue-600 hover:underline"
             >
               Medicare Advantage vs. Medigap: How to Decide

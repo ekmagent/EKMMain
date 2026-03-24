@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "Enroll in Medicare Supplement Plan G at 67 | Free Rate Quote | MedicareYourself",
   description:
     "Enroll in Medicare Supplement Plan G at 67 — learn about guaranteed issue rights, underwriting, and real rates. Anthony Orner walks you through it. Free quote.",
+  alternates: { canonical: "https://medicareyourself.com/services/enroll-in-medicare-supplement-plan-g-at-67" },
   openGraph: {
     title:
       "Enroll in Medicare Supplement Plan G at 67 | Free Rate Quote | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-01",
-  dateModified: "2025-07-01",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -96,7 +97,7 @@ export default function EnrollInMedicareSupplementPlanGAt67() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -239,7 +240,7 @@ export default function EnrollInMedicareSupplementPlanGAt67() {
           <ul className="space-y-2">
             <li>
               <Link
-                href="/services/medicare-supplement-plan-g"
+                href="/services/compare-and-enroll-in-plan-g-online"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Supplement Plan G: Full Benefits Breakdown
@@ -247,7 +248,7 @@ export default function EnrollInMedicareSupplementPlanGAt67() {
             </li>
             <li>
               <Link
-                href="/services/medigap-open-enrollment-period"
+                href="/medicare-supplement/new-jersey/turning-65"
                 className="text-blue-600 hover:underline"
               >
                 Understanding Your Medigap Open Enrollment Period
@@ -255,7 +256,7 @@ export default function EnrollInMedicareSupplementPlanGAt67() {
             </li>
             <li>
               <Link
-                href="/services/medicare-supplement-vs-medicare-advantage"
+                href="/medicare-supplement/new-jersey/vs-medicare-advantage"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Supplement vs. Medicare Advantage
@@ -263,7 +264,7 @@ export default function EnrollInMedicareSupplementPlanGAt67() {
             </li>
             <li>
               <Link
-                href="/services/medicare-part-d-enrollment"
+                href="/learn/medicare-parts-explained"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Part D Enrollment: Deadlines and Penalties

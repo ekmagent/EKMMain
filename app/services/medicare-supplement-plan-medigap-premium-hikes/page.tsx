@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "medicare supplement plan (medigap) premium hikes | Free Rate Review | MedicareYourself",
   description:
     "Medicare supplement plan (medigap) premium hikes average 8–15% per year. Learn why rates rise, when to switch carriers, and how to protect your budget.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-supplement-plan-medigap-premium-hikes" },
   openGraph: {
     title:
       "medicare supplement plan (medigap) premium hikes | Free Rate Review | MedicareYourself",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-01-15",
-  dateModified: "2025-07-01",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-19",
 };
 
 const faqs = [
@@ -278,7 +279,7 @@ export default function MedigapPremiumHikesPage() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/services/medigap-plan-g"
+              href="/services/compare-and-enroll-in-plan-g-online"
               className="text-blue-600 hover:underline"
             >
               Medigap Plan G: What It Covers and What It Costs
@@ -286,7 +287,7 @@ export default function MedigapPremiumHikesPage() {
           </li>
           <li>
             <Link
-              href="/services/medigap-plan-n"
+              href="/services/quickest-way-to-enroll-into-plan-n"
               className="text-blue-600 hover:underline"
             >
               Medigap Plan N: Lower Premiums, Small Copays
@@ -294,7 +295,7 @@ export default function MedigapPremiumHikesPage() {
           </li>
           <li>
             <Link
-              href="/services/medicare-supplement-vs-medicare-advantage"
+              href="/medicare-supplement/new-jersey/vs-medicare-advantage"
               className="text-blue-600 hover:underline"
             >
               Medicare Supplement vs. Medicare Advantage
@@ -302,7 +303,7 @@ export default function MedigapPremiumHikesPage() {
           </li>
           <li>
             <Link
-              href="/services/medigap-open-enrollment"
+              href="/medicare-supplement/new-jersey/turning-65"
               className="text-blue-600 hover:underline"
             >
               Medigap Open Enrollment: Why Timing Matters

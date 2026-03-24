@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "Medicare broker for dialysis patients | Free ESRD Plan Review | MedicareYourself",
   description:
     "Medicare broker for dialysis patients explaining ESRD eligibility, plan coordination, and cost control. Anthony Orner provides free plan reviews.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-dialysis-patients" },
   openGraph: {
     title:
       "Medicare broker for dialysis patients | Free ESRD Plan Review | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-01",
-  dateModified: "2025-07-01",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -96,7 +97,7 @@ export default function MedicareBrokerForDialysisPatients() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -270,7 +271,7 @@ export default function MedicareBrokerForDialysisPatients() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/medicare-guides/esrd-medicare-eligibility"
+              href="/services/what-is-the-best-medicare-plan-for-dialysis"
               className="text-blue-600 hover:underline"
             >
               ESRD Medicare Eligibility: When Coverage Starts
@@ -278,7 +279,7 @@ export default function MedicareBrokerForDialysisPatients() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/original-medicare-vs-medicare-advantage"
+              href="/medicare-supplement/new-jersey/vs-medicare-advantage"
               className="text-blue-600 hover:underline"
             >
               Original Medicare vs. Medicare Advantage
@@ -286,7 +287,7 @@ export default function MedicareBrokerForDialysisPatients() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medigap-plans-explained"
+              href="/learn/what-is-medigap"
               className="text-blue-600 hover:underline"
             >
               Medigap Plans Explained
@@ -294,7 +295,7 @@ export default function MedicareBrokerForDialysisPatients() {
           </li>
           <li>
             <Link
-              href="/services/free-medicare-plan-review"
+              href="/services/help-with-your-medicare-decision"
               className="text-blue-600 hover:underline"
             >
               Request a Free Medicare Plan Review

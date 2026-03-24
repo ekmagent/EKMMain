@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "Medicare broker for chronic pain patients | Free Coverage Consultation | MedicareYourself",
   description:
     "Medicare broker for chronic pain patients in NJ. Anthony Orner finds plans covering pain management, injections, and specialist visits. Free plan review.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-chronic-pain-patients" },
   openGraph: {
     title:
       "Medicare broker for chronic pain patients | Free Coverage Consultation | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,6 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
   mainEntityOfPage:
     "https://medicareyourself.com/services/medicare-broker-for-chronic-pain-patients",
 };
@@ -97,7 +100,7 @@ export default function MedicareBrokerForChronicPainPatients() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -259,7 +262,7 @@ export default function MedicareBrokerForChronicPainPatients() {
             855-559-1700
           </a>{" "}
           or{" "}
-          <Link href="/get-a-free-quote" className="underline font-bold">
+          <Link href="/quote" className="underline font-bold">
             get a free quote online
           </Link>
           .
@@ -278,7 +281,7 @@ export default function MedicareBrokerForChronicPainPatients() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/medicare-guides/medicare-advantage-vs-medigap"
+              href="/medicare-supplement/new-jersey/vs-medicare-advantage"
               className="text-blue-600 hover:underline"
             >
               Medicare Advantage vs. Medigap: Which Is Right for You?
@@ -286,7 +289,7 @@ export default function MedicareBrokerForChronicPainPatients() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medigap-open-enrollment-nj"
+              href="/medicare-supplement/new-jersey/turning-65"
               className="text-blue-600 hover:underline"
             >
               Medigap Open Enrollment in New Jersey
@@ -294,7 +297,7 @@ export default function MedicareBrokerForChronicPainPatients() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-part-b-coverage"
+              href="/learn/medicare-parts-explained"
               className="text-blue-600 hover:underline"
             >
               What Does Medicare Part B Cover?
@@ -302,7 +305,7 @@ export default function MedicareBrokerForChronicPainPatients() {
           </li>
           <li>
             <Link
-              href="/services/medicare-broker-nj"
+              href="/services/free-medicare-broker-new-jersey"
               className="text-blue-600 hover:underline"
             >
               Find a Medicare Broker in New Jersey

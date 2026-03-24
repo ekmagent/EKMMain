@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "how much does the best medicare supplemental insurance cost per month | Free Plan-by-Plan Breakdown | MedicareYourself",
   description:
     "How much does the best Medicare Supplemental insurance cost per month? Compare Plan G and Plan N rates from top carriers. Free quote — no obligation.",
+  alternates: { canonical: "https://medicareyourself.com/services/how-much-does-the-best-medicare-supplemental-insurance-cost-per-month" },
   openGraph: {
     title:
       "how much does the best medicare supplemental insurance cost per month | Free Plan-by-Plan Breakdown | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-01",
-  dateModified: "2025-07-01",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -97,7 +98,7 @@ export default function HowMuchDoesBestMedicareSupplementalInsuranceCostPerMonth
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -276,7 +277,7 @@ export default function HowMuchDoesBestMedicareSupplementalInsuranceCostPerMonth
         <ul className="space-y-2">
           <li>
             <Link
-              href="/services/medigap-plan-g-vs-plan-n"
+              href="/medicare-supplement/new-jersey/plan-g-vs-plan-n"
               className="text-blue-700 hover:underline"
             >
               Medigap Plan G vs. Plan N: Full Comparison
@@ -284,7 +285,7 @@ export default function HowMuchDoesBestMedicareSupplementalInsuranceCostPerMonth
           </li>
           <li>
             <Link
-              href="/services/when-to-enroll-in-medigap"
+              href="/services/medicare-supplement-open-enrollment-online"
               className="text-blue-700 hover:underline"
             >
               When to Enroll in a Medigap Plan
@@ -292,7 +293,7 @@ export default function HowMuchDoesBestMedicareSupplementalInsuranceCostPerMonth
           </li>
           <li>
             <Link
-              href="/services/medicare-supplement-rate-increases"
+              href="/services/medicare-supplement-rate-jumped-why-and-what-can-i-do"
               className="text-blue-700 hover:underline"
             >
               Understanding Medicare Supplement Rate Increases
@@ -300,7 +301,7 @@ export default function HowMuchDoesBestMedicareSupplementalInsuranceCostPerMonth
           </li>
           <li>
             <Link
-              href="/services/original-medicare-vs-medicare-advantage"
+              href="/medicare-supplement/new-jersey/vs-medicare-advantage"
               className="text-blue-700 hover:underline"
             >
               Original Medicare vs. Medicare Advantage

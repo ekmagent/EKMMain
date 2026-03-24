@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "medicare insurance agents in freehold new jersey | Free Consultation | MedicareYourself",
   description:
     "Medicare insurance agents in Freehold, New Jersey — compare Supplement and Advantage plans with licensed broker Anthony Orner. Free quote, no pressure.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-insurance-agents-in-freehold-new-jersey" },
   openGraph: {
     title:
       "medicare insurance agents in freehold new jersey | Free Consultation | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-01",
-  dateModified: "2025-07-01",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -96,7 +97,7 @@ export default function MedicareInsuranceAgentsFreeholdNJ() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -258,7 +259,7 @@ export default function MedicareInsuranceAgentsFreeholdNJ() {
           <ul className="space-y-2">
             <li>
               <Link
-                href="/medicare-guides/medigap-plan-g-new-jersey"
+                href="/medicare-supplement/new-jersey/plan-g-vs-plan-n"
                 className="text-blue-600 hover:underline"
               >
                 Medigap Plan G in New Jersey: What It Covers
@@ -266,7 +267,7 @@ export default function MedicareInsuranceAgentsFreeholdNJ() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/medicare-advantage-vs-medigap"
+                href="/medicare-supplement/new-jersey/vs-medicare-advantage"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Advantage vs. Medigap: Which Is Right for You?
@@ -274,7 +275,7 @@ export default function MedicareInsuranceAgentsFreeholdNJ() {
             </li>
             <li>
               <Link
-                href="/services/medicare-broker-monmouth-county"
+                href="/services/howell-nj-medicare-insurance-agents"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Broker in Monmouth County
@@ -282,7 +283,7 @@ export default function MedicareInsuranceAgentsFreeholdNJ() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/medigap-open-enrollment-period"
+                href="/medicare-supplement/new-jersey/turning-65"
                 className="text-blue-600 hover:underline"
               >
                 Medigap Open Enrollment: When and Why It Matters

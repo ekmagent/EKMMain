@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "find a medicare agent in neptune nj | Free No-Obligation Help | MedicareYourself",
   description:
     "Find a Medicare agent in Neptune NJ for unbiased plan comparisons across top carriers. Anthony Orner offers free, licensed help for Monmouth County residents.",
+  alternates: { canonical: "https://medicareyourself.com/services/find-a-medicare-agent-in-neptune-nj" },
   openGraph: {
     title:
       "find a medicare agent in neptune nj | Free No-Obligation Help | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -57,8 +58,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-01",
-  dateModified: "2025-07-01",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -95,7 +96,7 @@ export default function FindMedicareAgentNeptuneNJ() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -216,7 +217,7 @@ export default function FindMedicareAgentNeptuneNJ() {
             </a>{" "}
             or{" "}
             <Link
-              href="/get-a-free-quote"
+              href="/quote"
               className="underline font-bold"
             >
               Get a Free Quote
@@ -233,7 +234,7 @@ export default function FindMedicareAgentNeptuneNJ() {
           <ul className="space-y-2">
             <li>
               <Link
-                href="/medicare-guides/medicare-supplement-plans-nj"
+                href="/medicare-supplement/new-jersey"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Supplement Plans in New Jersey
@@ -241,7 +242,7 @@ export default function FindMedicareAgentNeptuneNJ() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/medicare-advantage-monmouth-county"
+                href="/medicare-advantage/new-jersey"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Advantage in Monmouth County
@@ -249,7 +250,7 @@ export default function FindMedicareAgentNeptuneNJ() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/turning-65-medicare-checklist"
+                href="/medicare-supplement/new-jersey/turning-65"
                 className="text-blue-600 hover:underline"
               >
                 Turning 65 Medicare Checklist
@@ -257,7 +258,7 @@ export default function FindMedicareAgentNeptuneNJ() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/medicare-part-d-nj"
+                href="/learn/medicare-parts-explained"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Part D Plans in NJ

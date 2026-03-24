@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "medicare broker for people with diabetes | Free Plan Comparison | MedicareYourself",
   description:
     "Medicare broker for people with diabetes — Anthony Orner finds NJ plans covering insulin, CGMs, and endocrinology visits. Free comparison, no obligation.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-people-with-diabetes" },
   openGraph: {
     title:
       "medicare broker for people with diabetes | Free Plan Comparison | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-01",
-  dateModified: "2025-07-01",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -97,7 +98,7 @@ export default function MedicareBrokerForPeopleWithDiabetes() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -272,7 +273,7 @@ export default function MedicareBrokerForPeopleWithDiabetes() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/medicare-guides/part-d-drug-coverage"
+              href="/learn/medicare-parts-explained"
               className="text-blue-700 hover:underline"
             >
               Medicare Part D Drug Coverage Guide
@@ -280,7 +281,7 @@ export default function MedicareBrokerForPeopleWithDiabetes() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medigap-open-enrollment"
+              href="/medicare-supplement/new-jersey/turning-65"
               className="text-blue-700 hover:underline"
             >
               Medigap Open Enrollment: What You Need to Know
@@ -288,7 +289,7 @@ export default function MedicareBrokerForPeopleWithDiabetes() {
           </li>
           <li>
             <Link
-              href="/services/medicare-broker-nj"
+              href="/services/free-medicare-broker-new-jersey"
               className="text-blue-700 hover:underline"
             >
               Medicare Broker in New Jersey
@@ -296,7 +297,7 @@ export default function MedicareBrokerForPeopleWithDiabetes() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-advantage-vs-medigap"
+              href="/medicare-supplement/new-jersey/vs-medicare-advantage"
               className="text-blue-700 hover:underline"
             >
               Medicare Advantage vs. Medigap: Which Is Right for You?

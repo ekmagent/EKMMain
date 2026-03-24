@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "find a medicare agent in north brunswick nj | Free Local Help | MedicareYourself",
   description:
     "Find a Medicare agent in North Brunswick NJ who compares every major carrier. Anthony Orner offers free, local guidance for Middlesex County residents. Call today.",
+  alternates: { canonical: "https://medicareyourself.com/services/find-a-medicare-agent-in-north-brunswick-nj" },
   openGraph: {
     title:
       "find a medicare agent in north brunswick nj | Free Local Help | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -57,8 +58,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-12",
-  dateModified: "2025-07-12",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -95,7 +96,7 @@ export default function FindMedicareAgentNorthBrunswickNJ() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -225,7 +226,7 @@ export default function FindMedicareAgentNorthBrunswickNJ() {
             </a>{" "}
             or{" "}
             <Link
-              href="/get-a-free-quote"
+              href="/quote"
               className="underline font-bold text-white"
             >
               Get a Free Quote
@@ -240,7 +241,7 @@ export default function FindMedicareAgentNorthBrunswickNJ() {
           <ul className="space-y-2">
             <li>
               <Link
-                href="/medicare-guides/medicare-advantage-vs-medigap"
+                href="/medicare-supplement/new-jersey/vs-medicare-advantage"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Advantage vs. Medigap: Which Is Right for You?
@@ -248,7 +249,7 @@ export default function FindMedicareAgentNorthBrunswickNJ() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/medigap-plan-g-nj"
+                href="/medicare-supplement/new-jersey/plan-g-vs-plan-n"
                 className="text-blue-600 hover:underline"
               >
                 Medigap Plan G in New Jersey: What It Covers
@@ -256,7 +257,7 @@ export default function FindMedicareAgentNorthBrunswickNJ() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/medicare-enrollment-periods"
+                href="/learn/medicare-enrollment-periods"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Enrollment Periods Explained

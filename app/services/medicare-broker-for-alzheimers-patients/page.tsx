@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "Medicare broker for Alzheimer's patients | Free Family Consultation | MedicareYourself",
   description:
     "Medicare broker for Alzheimer's patients and families. Anthony Orner coordinates coverage for medications, skilled nursing, and what's ahead. Free consult.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-alzheimers-patients" },
   openGraph: {
     title:
       "Medicare broker for Alzheimer's patients | Free Family Consultation | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,6 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
   mainEntityOfPage:
     "https://medicareyourself.com/services/medicare-broker-for-alzheimers-patients",
 };
@@ -97,7 +100,7 @@ export default function MedicareBrokerForAlzheimersPatients() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -287,7 +290,7 @@ export default function MedicareBrokerForAlzheimersPatients() {
           <ul className="space-y-2">
             <li>
               <Link
-                href="/medicare/medigap-plans"
+                href="/learn/what-is-medigap"
                 className="text-blue-600 hover:underline"
               >
                 Medigap Plans Explained: What They Cover and What They Cost
@@ -295,7 +298,7 @@ export default function MedicareBrokerForAlzheimersPatients() {
             </li>
             <li>
               <Link
-                href="/medicare/part-d-drug-coverage"
+                href="/learn/medicare-parts-explained"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Part D: How Prescription Drug Coverage Works
@@ -303,7 +306,7 @@ export default function MedicareBrokerForAlzheimersPatients() {
             </li>
             <li>
               <Link
-                href="/medicare/skilled-nursing-facility-coverage"
+                href="/learn/medicare-parts-explained"
                 className="text-blue-600 hover:underline"
               >
                 Skilled Nursing Facility Coverage Under Medicare
@@ -311,7 +314,7 @@ export default function MedicareBrokerForAlzheimersPatients() {
             </li>
             <li>
               <Link
-                href="/medicare/medicare-advantage-vs-original-medicare"
+                href="/medicare-supplement/new-jersey/vs-medicare-advantage"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Advantage vs. Original Medicare: How to Choose

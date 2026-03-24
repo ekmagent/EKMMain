@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "medicare insurance agents in cherry hill new jersey | Free Broker Help | MedicareYourself",
   description:
     "Medicare insurance agents in Cherry Hill New Jersey — Anthony Orner compares Supplement and Advantage plans across top carriers. Free, no-obligation consultation.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-insurance-agents-in-cherry-hill-new-jersey" },
   openGraph: {
     title:
       "medicare insurance agents in cherry hill new jersey | Free Broker Help | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-01-01",
-  dateModified: "2025-07-01",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -95,7 +96,7 @@ export default function MedicareInsuranceAgentsCherryHillNJ() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -275,7 +276,7 @@ export default function MedicareInsuranceAgentsCherryHillNJ() {
         <ul className="space-y-3">
           <li>
             <Link
-              href="/medicare-guides/medicare-supplement-plans-new-jersey"
+              href="/medicare-supplement/new-jersey"
               className="text-blue-600 hover:underline"
             >
               Medicare Supplement Plans in New Jersey
@@ -283,7 +284,7 @@ export default function MedicareInsuranceAgentsCherryHillNJ() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-advantage-plans-new-jersey"
+              href="/medicare-advantage/new-jersey"
               className="text-blue-600 hover:underline"
             >
               Medicare Advantage Plans in New Jersey
@@ -291,7 +292,7 @@ export default function MedicareInsuranceAgentsCherryHillNJ() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/when-to-enroll-in-medicare"
+              href="/learn/how-to-sign-up-for-medicare"
               className="text-blue-600 hover:underline"
             >
               When to Enroll in Medicare
@@ -299,7 +300,7 @@ export default function MedicareInsuranceAgentsCherryHillNJ() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-part-b-late-enrollment-penalty"
+              href="/learn/how-to-sign-up-for-medicare"
               className="text-blue-600 hover:underline"
             >
               Medicare Part B Late Enrollment Penalty

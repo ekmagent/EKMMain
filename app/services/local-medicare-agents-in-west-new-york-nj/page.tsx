@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "local medicare agents in west new york nj | Free Plan Comparison | MedicareYourself",
   description:
     "Local Medicare agents in West New York, NJ — Anthony Orner compares Medigap and Advantage plans across Hudson County carriers. Free consultation.",
+  alternates: { canonical: "https://medicareyourself.com/services/local-medicare-agents-in-west-new-york-nj" },
   openGraph: {
     title:
       "local medicare agents in west new york nj | Free Plan Comparison | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-15",
-  dateModified: "2025-07-15",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -100,7 +101,7 @@ export default function LocalMedicareAgentsWestNewYorkNJ() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -240,7 +241,7 @@ export default function LocalMedicareAgentsWestNewYorkNJ() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/medicare-guides/medigap-plans-nj"
+              href="/medicare-supplement/new-jersey"
               className="text-blue-600 hover:underline"
             >
               Medigap Plans in New Jersey: What You Need to Know
@@ -248,7 +249,7 @@ export default function LocalMedicareAgentsWestNewYorkNJ() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-advantage-hudson-county"
+              href="/medicare-advantage/new-jersey"
               className="text-blue-600 hover:underline"
             >
               Medicare Advantage Plans in Hudson County
@@ -256,7 +257,7 @@ export default function LocalMedicareAgentsWestNewYorkNJ() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-part-b-enrollment"
+              href="/learn/how-to-sign-up-for-medicare"
               className="text-blue-600 hover:underline"
             >
               Medicare Part B Enrollment: Timing and Penalties
@@ -264,7 +265,7 @@ export default function LocalMedicareAgentsWestNewYorkNJ() {
           </li>
           <li>
             <Link
-              href="/services/medicare-broker-nj"
+              href="/services/free-medicare-broker-new-jersey"
               className="text-blue-600 hover:underline"
             >
               Find a Medicare Broker in New Jersey

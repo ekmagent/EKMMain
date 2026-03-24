@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "Medicare broker for COPD patients | Free Plan Review | MedicareYourself",
   description:
     "Medicare broker for COPD patients needing real coverage for inhalers, oxygen, pulmonary rehab. Anthony Orner finds plans that fit. Free review.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-copd-patients" },
   openGraph: {
     title:
       "Medicare broker for COPD patients | Free Plan Review | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,6 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
   mainEntityOfPage:
     "https://medicareyourself.com/services/medicare-broker-for-copd-patients",
 };
@@ -97,7 +100,7 @@ export default function MedicareBrokerForCOPDPatients() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -269,7 +272,7 @@ export default function MedicareBrokerForCOPDPatients() {
           </a>
         </p>
         <Link
-          href="/get-a-free-quote"
+          href="/quote"
           className="inline-block bg-white text-blue-600 font-semibold px-6 py-3 rounded-lg hover:bg-gray-100 transition"
         >
           Get a Free Quote
@@ -283,7 +286,7 @@ export default function MedicareBrokerForCOPDPatients() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/medicare-guides/medigap-vs-medicare-advantage"
+              href="/medicare-supplement/new-jersey/vs-medicare-advantage"
               className="text-blue-600 hover:underline"
             >
               Medigap vs. Medicare Advantage: Which Is Right for You?
@@ -291,7 +294,7 @@ export default function MedicareBrokerForCOPDPatients() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-part-d-explained"
+              href="/learn/medicare-parts-explained"
               className="text-blue-600 hover:underline"
             >
               Medicare Part D Explained: What It Covers and What It Costs
@@ -299,7 +302,7 @@ export default function MedicareBrokerForCOPDPatients() {
           </li>
           <li>
             <Link
-              href="/services/medicare-broker-for-chronic-conditions"
+              href="/services/best-medicare-plan-for-chronic-conditions"
               className="text-blue-600 hover:underline"
             >
               Medicare Broker for Chronic Conditions
@@ -307,7 +310,7 @@ export default function MedicareBrokerForCOPDPatients() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-open-enrollment"
+              href="/learn/medicare-enrollment-periods"
               className="text-blue-600 hover:underline"
             >
               Medicare Open Enrollment: Key Dates and What to Do

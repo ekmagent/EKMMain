@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "linden nj medicare insurance agents | Free Quote | MedicareYourself",
   description:
     "Linden NJ Medicare insurance agents — Anthony Orner compares Supplement and Advantage plans across carriers in Union County. Free quote, no obligation.",
+  alternates: { canonical: "https://medicareyourself.com/services/linden-nj-medicare-insurance-agents" },
   openGraph: {
     title:
       "linden nj medicare insurance agents | Free Quote | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-01",
-  dateModified: "2025-07-01",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -96,7 +97,7 @@ export default function LindenNJMedicareInsuranceAgents() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -277,7 +278,7 @@ export default function LindenNJMedicareInsuranceAgents() {
           <ul className="space-y-2">
             <li>
               <Link
-                href="/services/union-county-medicare-broker"
+                href="/services/linden-nj-medicare-insurance-agents"
                 className="text-blue-600 hover:underline"
               >
                 Union County Medicare Broker
@@ -285,7 +286,7 @@ export default function LindenNJMedicareInsuranceAgents() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/medicare-supplement-plan-g-nj"
+                href="/medicare-supplement/new-jersey/plan-g-vs-plan-n"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Supplement Plan G in New Jersey
@@ -293,7 +294,7 @@ export default function LindenNJMedicareInsuranceAgents() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/medicare-advantage-vs-medigap"
+                href="/medicare-supplement/new-jersey/vs-medicare-advantage"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Advantage vs. Medigap: Which Is Right for You?
@@ -301,7 +302,7 @@ export default function LindenNJMedicareInsuranceAgents() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/when-to-enroll-in-medicare"
+                href="/learn/how-to-sign-up-for-medicare"
                 className="text-blue-600 hover:underline"
               >
                 When to Enroll in Medicare

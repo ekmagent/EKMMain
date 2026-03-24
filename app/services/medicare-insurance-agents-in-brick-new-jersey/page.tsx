@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "medicare insurance agents in brick new jersey | Free Local Help | MedicareYourself",
   description:
     "Medicare insurance agents in Brick, New Jersey — Anthony Orner is a licensed independent broker serving Ocean County. Compare plans free, no obligation.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-insurance-agents-in-brick-new-jersey" },
   openGraph: {
     title:
       "medicare insurance agents in brick new jersey | Free Local Help | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-01",
-  dateModified: "2025-07-01",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -97,7 +98,7 @@ export default function MedicareInsuranceAgentsBrickNJ() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -276,7 +277,7 @@ export default function MedicareInsuranceAgentsBrickNJ() {
           <ul className="space-y-2">
             <li>
               <Link
-                href="/medicare-guides/medicare-supplement-plans-nj"
+                href="/medicare-supplement/new-jersey"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Supplement Plans in New Jersey
@@ -284,7 +285,7 @@ export default function MedicareInsuranceAgentsBrickNJ() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/medicare-advantage-plans-nj"
+                href="/medicare-advantage/new-jersey"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Advantage Plans in New Jersey
@@ -292,7 +293,7 @@ export default function MedicareInsuranceAgentsBrickNJ() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/plan-g-vs-plan-n"
+                href="/medicare-supplement/new-jersey/plan-g-vs-plan-n"
                 className="text-blue-600 hover:underline"
               >
                 Plan G vs Plan N: Which Is Right for You?
@@ -300,7 +301,7 @@ export default function MedicareInsuranceAgentsBrickNJ() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/when-to-enroll-in-medicare"
+                href="/learn/how-to-sign-up-for-medicare"
                 className="text-blue-600 hover:underline"
               >
                 When to Enroll in Medicare: Deadlines That Matter

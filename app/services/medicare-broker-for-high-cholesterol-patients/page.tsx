@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "Medicare broker for high cholesterol patients | Free Plan Comparison | MedicareYourself",
   description:
     "Medicare broker for high cholesterol patients in NJ. Anthony Orner finds plans covering statins, labs, and cardiology visits. Free consultation.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-high-cholesterol-patients" },
   openGraph: {
     title:
       "Medicare broker for high cholesterol patients | Free Plan Comparison | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,6 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
   mainEntityOfPage:
     "https://medicareyourself.com/services/medicare-broker-for-high-cholesterol-patients",
 };
@@ -97,7 +100,7 @@ export default function MedicareBrokerHighCholesterolPage() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -258,7 +261,7 @@ export default function MedicareBrokerHighCholesterolPage() {
           <ul className="space-y-2">
             <li>
               <Link
-                href="/medicare-guides/medigap-open-enrollment-nj"
+                href="/medicare-supplement/new-jersey/turning-65"
                 className="text-blue-600 hover:underline"
               >
                 Medigap Open Enrollment in New Jersey: What You Need to Know
@@ -266,7 +269,7 @@ export default function MedicareBrokerHighCholesterolPage() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/part-d-drug-coverage"
+                href="/learn/medicare-parts-explained"
                 className="text-blue-600 hover:underline"
               >
                 How Medicare Part D Drug Coverage Works
@@ -274,7 +277,7 @@ export default function MedicareBrokerHighCholesterolPage() {
             </li>
             <li>
               <Link
-                href="/services/medicare-broker-nj"
+                href="/services/free-medicare-broker-new-jersey"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Broker in New Jersey
@@ -282,7 +285,7 @@ export default function MedicareBrokerHighCholesterolPage() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/medicare-preventive-services"
+                href="/learn/medicare-parts-explained"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Preventive Services and Screenings

@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "Medicare broker for arthritis sufferers | Free Plan Comparison | MedicareYourself",
   description:
     "Medicare broker for arthritis sufferers who need biologics, specialist visits, and joint care covered right. Anthony Orner compares plans for free.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-arthritis-sufferers" },
   openGraph: {
     title:
       "Medicare broker for arthritis sufferers | Free Plan Comparison | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-01",
-  dateModified: "2025-07-01",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -96,7 +97,7 @@ export default function MedicareBrokerForArthritisSufferers() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -217,7 +218,7 @@ export default function MedicareBrokerForArthritisSufferers() {
           Or request a callback at a time that works for you.
         </p>
         <Link
-          href="/get-a-free-quote"
+          href="/quote"
           className="inline-block bg-white text-blue-600 font-semibold py-3 px-6 rounded-lg hover:bg-blue-50 transition-colors"
         >
           Get a Free Quote
@@ -235,7 +236,7 @@ export default function MedicareBrokerForArthritisSufferers() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/medicare-guides/medigap-vs-medicare-advantage"
+              href="/medicare-supplement/new-jersey/vs-medicare-advantage"
               className="text-blue-600 hover:underline"
             >
               Medigap vs. Medicare Advantage: Which Is Right for You?
@@ -243,7 +244,7 @@ export default function MedicareBrokerForArthritisSufferers() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-part-d-drug-coverage"
+              href="/learn/medicare-parts-explained"
               className="text-blue-600 hover:underline"
             >
               Medicare Part D Drug Coverage Explained
@@ -251,7 +252,7 @@ export default function MedicareBrokerForArthritisSufferers() {
           </li>
           <li>
             <Link
-              href="/services/medicare-broker-for-chronic-conditions"
+              href="/services/best-medicare-plan-for-chronic-conditions"
               className="text-blue-600 hover:underline"
             >
               Medicare Broker for Chronic Conditions
@@ -259,7 +260,7 @@ export default function MedicareBrokerForArthritisSufferers() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medigap-open-enrollment"
+              href="/medicare-supplement/new-jersey/turning-65"
               className="text-blue-600 hover:underline"
             >
               Medigap Open Enrollment: What You Need to Know

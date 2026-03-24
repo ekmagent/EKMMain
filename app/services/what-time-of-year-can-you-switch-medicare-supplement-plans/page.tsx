@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "what time of the year can you switch medicare supplement plans | Free Help from a Licensed Broker | MedicareYourself",
   description:
     "What time of year can you switch Medicare Supplement plans? Medigap rules differ from Advantage. Learn when you qualify and switch free with Anthony Orner.",
+  alternates: { canonical: "https://medicareyourself.com/services/what-time-of-year-can-you-switch-medicare-supplement-plans" },
   openGraph: {
     title:
       "what time of the year can you switch medicare supplement plans | Free Help from a Licensed Broker | MedicareYourself",
@@ -57,8 +58,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-14",
-  dateModified: "2025-07-14",
+  datePublished: "2026-03-17",
+  dateModified: "2026-03-19",
 };
 
 const faqs = [
@@ -271,7 +272,7 @@ export default function WhatTimeOfYearCanYouSwitchMedigap() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/services/medicare-supplement-plan-g"
+              href="/services/compare-and-enroll-in-plan-g-online"
               className="text-blue-600 hover:underline"
             >
               Medicare Supplement Plan G: What It Covers and What It Costs
@@ -279,7 +280,7 @@ export default function WhatTimeOfYearCanYouSwitchMedigap() {
           </li>
           <li>
             <Link
-              href="/services/medicare-supplement-vs-medicare-advantage"
+              href="/medicare-supplement/new-jersey/vs-medicare-advantage"
               className="text-blue-600 hover:underline"
             >
               Medicare Supplement vs. Medicare Advantage: How to Decide
@@ -287,7 +288,7 @@ export default function WhatTimeOfYearCanYouSwitchMedigap() {
           </li>
           <li>
             <Link
-              href="/services/medigap-open-enrollment-period"
+              href="/medicare-supplement/new-jersey/turning-65"
               className="text-blue-600 hover:underline"
             >
               Medigap Open Enrollment Period: Your Best Window Explained
@@ -295,7 +296,7 @@ export default function WhatTimeOfYearCanYouSwitchMedigap() {
           </li>
           <li>
             <Link
-              href="/services/guaranteed-issue-rights-medicare"
+              href="/services/you-get-a-medicare-supplement-plan-if-you-have-a-pre-existing-condition"
               className="text-blue-600 hover:underline"
             >
               Guaranteed Issue Rights for Medicare Supplement Plans

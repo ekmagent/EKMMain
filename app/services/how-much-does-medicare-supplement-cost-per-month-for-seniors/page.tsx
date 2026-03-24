@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "how much does medicare supplement cost per month for seniors | Free 2025–2026 Rate Quote | MedicareYourself",
   description:
     "How much does Medicare Supplement cost per month for seniors? See real Plan G and Plan N rates by age from NJ carriers. Get a free personalized quote today.",
+  alternates: { canonical: "https://medicareyourself.com/services/how-much-does-medicare-supplement-cost-per-month-for-seniors" },
   openGraph: {
     title:
       "how much does medicare supplement cost per month for seniors | Free 2025–2026 Rate Quote | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-01",
-  dateModified: "2025-07-01",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -97,7 +98,7 @@ export default function HowMuchDoesMedicareSupplementCostPerMonthForSeniors() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -231,7 +232,7 @@ export default function HowMuchDoesMedicareSupplementCostPerMonthForSeniors() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/services/medicare-supplement-plan-g-vs-plan-n"
+              href="/medicare-supplement/new-jersey/plan-g-vs-plan-n"
               className="text-blue-600 hover:underline"
             >
               Medicare Supplement Plan G vs. Plan N: Which Saves You More?
@@ -239,7 +240,7 @@ export default function HowMuchDoesMedicareSupplementCostPerMonthForSeniors() {
           </li>
           <li>
             <Link
-              href="/services/best-medicare-supplement-plans-in-nj"
+              href="/services/best-and-cheapest-medicare-supplement"
               className="text-blue-600 hover:underline"
             >
               Best Medicare Supplement Plans in NJ for 2025–2026
@@ -247,7 +248,7 @@ export default function HowMuchDoesMedicareSupplementCostPerMonthForSeniors() {
           </li>
           <li>
             <Link
-              href="/services/when-to-enroll-in-medigap"
+              href="/services/medicare-supplement-open-enrollment-online"
               className="text-blue-600 hover:underline"
             >
               When to Enroll in Medigap: Open Enrollment and Guaranteed Issue
@@ -255,7 +256,7 @@ export default function HowMuchDoesMedicareSupplementCostPerMonthForSeniors() {
           </li>
           <li>
             <Link
-              href="/services/medicare-supplement-vs-medicare-advantage"
+              href="/medicare-supplement/new-jersey/vs-medicare-advantage"
               className="text-blue-600 hover:underline"
             >
               Medicare Supplement vs. Medicare Advantage: Honest Comparison
