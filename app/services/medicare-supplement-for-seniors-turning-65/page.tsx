@@ -313,7 +313,31 @@ export default function MedicareSupplementSeniorsTurning65() {
                 Medicare Supplement vs Medicare Advantage: Real Tradeoffs
               </Link>
             </li>
-          </ul>
+                      <li>
+              <Link
+                href="/services/help-with-your-medicare-decision"
+                className="text-blue-600 hover:underline"
+              >
+                Help With Your Medicare Decision
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/best-and-cheapest-medicare-supplement"
+                className="text-blue-600 hover:underline"
+              >
+                Best And Cheapest Medicare Supplement
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/independent-medicare-agents-near-me"
+                className="text-blue-600 hover:underline"
+              >
+                Independent Medicare Agents Near Me
+              </Link>
+            </li>
+</ul>
         </section>
       </article>
     </>

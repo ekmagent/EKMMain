@@ -279,7 +279,31 @@ export default function EnrollInMedicareSupplementPlanGAt70() {
                 Plan G vs Plan N: Which Is Right for You?
               </Link>
             </li>
-          </ul>
+                      <li>
+              <Link
+                href="/services/how-much-is-plan-g-in-nj"
+                className="text-blue-600 hover:underline"
+              >
+                How Much Is Plan G In NJ
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/best-medicare-supplement-rates-by-age-plan-g-plan-n-plan-f-rates"
+                className="text-blue-600 hover:underline"
+              >
+                Best Medicare Supplement Rates By Age Plan G Plan N Plan F Rates
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/quickest-way-to-enroll-into-plan-g"
+                className="text-blue-600 hover:underline"
+              >
+                Quickest Way To Enroll Into Plan G
+              </Link>
+            </li>
+</ul>
         </section>
       </article>
     </>

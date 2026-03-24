@@ -288,7 +288,63 @@ export default function BestMedicareBrokerHackensackNJ() {
               Medicare Part D in NJ: Choosing the Right Drug Plan
             </Link>
           </li>
-        </ul>
+                    <li>
+              <Link
+                href="/services/find-an-nj-medicare-broker-near-you"
+                className="text-blue-600 hover:underline"
+              >
+                Find An NJ Medicare Broker Near You
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/free-medicare-broker-new-jersey"
+                className="text-blue-600 hover:underline"
+              >
+                Free Medicare Broker New Jersey
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/independent-medicare-agents-near-me"
+                className="text-blue-600 hover:underline"
+              >
+                Independent Medicare Agents Near Me
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/how-to-enroll-in-medicare-in-new-jersey"
+                className="text-blue-600 hover:underline"
+              >
+                How To Enroll In Medicare In New Jersey
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/best-medicare-insurance-brokers-near-me"
+                className="text-blue-600 hover:underline"
+              >
+                Best Medicare Insurance Brokers Near Me
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/hackensack-nj-medicare-insurance-agents"
+                className="text-blue-600 hover:underline"
+              >
+                Hackensack NJ Medicare Insurance Agents
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/medicare-insurance-agent-near-me"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare Insurance Agent Near Me
+              </Link>
+            </li>
+</ul>
       </section>
     </main>
   );

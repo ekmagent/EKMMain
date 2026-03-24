@@ -271,7 +271,47 @@ export default function FindMedicareAgentNorthBrunswickNJ() {
                 Find a Medicare Agent in New Brunswick, NJ
               </Link>
             </li>
-          </ul>
+                      <li>
+              <Link
+                href="/services/find-an-nj-medicare-broker-near-you"
+                className="text-blue-600 hover:underline"
+              >
+                Find An NJ Medicare Broker Near You
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/free-medicare-broker-new-jersey"
+                className="text-blue-600 hover:underline"
+              >
+                Free Medicare Broker New Jersey
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/independent-medicare-agents-near-me"
+                className="text-blue-600 hover:underline"
+              >
+                Independent Medicare Agents Near Me
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/how-to-enroll-in-medicare-in-new-jersey"
+                className="text-blue-600 hover:underline"
+              >
+                How To Enroll In Medicare In New Jersey
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/find-a-medicare-agent-in-north-bergen-nj"
+                className="text-blue-600 hover:underline"
+              >
+                Find A Medicare Agent In North Bergen NJ
+              </Link>
+            </li>
+</ul>
         </section>
       </article>
     </>

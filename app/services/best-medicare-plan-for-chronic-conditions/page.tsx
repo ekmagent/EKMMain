@@ -262,7 +262,55 @@ export default function BestMedicarePlanForChronicConditions() {
                 Medigap Guaranteed Issue Rights Explained
               </Link>
             </li>
-          </ul>
+                      <li>
+              <Link
+                href="/services/help-with-your-medicare-decision"
+                className="text-blue-600 hover:underline"
+              >
+                Help With Your Medicare Decision
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/best-and-cheapest-medicare-supplement"
+                className="text-blue-600 hover:underline"
+              >
+                Best And Cheapest Medicare Supplement
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/independent-medicare-agents-near-me"
+                className="text-blue-600 hover:underline"
+              >
+                Independent Medicare Agents Near Me
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/best-medicare-plan-for-foreign-travel"
+                className="text-blue-600 hover:underline"
+              >
+                Best Medicare Plan For Foreign Travel
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/whats-the-best-medicare-plan-for-someone-with-diabetes"
+                className="text-blue-600 hover:underline"
+              >
+                Whats The Best Medicare Plan For Someone With Diabetes
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/which-medicare-supplemental-plan-best-for-copd-patient"
+                className="text-blue-600 hover:underline"
+              >
+                Which Medicare Supplemental Plan Best For Copd Patient
+              </Link>
+            </li>
+</ul>
         </section>
       </article>
     </>

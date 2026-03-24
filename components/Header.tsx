@@ -6,7 +6,7 @@ import { useState } from "react";
 const navLinks = [
   { href: "/medicare-supplement/new-jersey", label: "Medicare Supplement" },
   { href: "/medicare-advantage/new-jersey", label: "Medicare Advantage" },
-  { href: "/hub", label: "Guides" },
+  { href: "/services", label: "Guides" },
   { href: "/about", label: "About" },
 ];
 

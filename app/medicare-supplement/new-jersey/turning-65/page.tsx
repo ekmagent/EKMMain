@@ -137,6 +137,9 @@ export default function Turning65NJPage() {
             <Link href="/medicare-supplement/new-jersey" className="text-blue-600 hover:underline text-sm">Best Medigap Plans in NJ</Link>
             <Link href="/medicare-supplement/new-jersey/cost" className="text-blue-600 hover:underline text-sm">Medicare Costs in NJ 2026</Link>
             <Link href="/medicare-supplement/new-jersey/vs-medicare-advantage" className="text-blue-600 hover:underline text-sm">Medigap vs Medicare Advantage NJ</Link>
+            <Link href="/services/medicare-supplement-for-seniors-turning-65" className="text-blue-600 hover:underline text-sm">Medicare Supplement for Seniors Turning 65</Link>
+            <Link href="/services/compare-and-enroll-in-plan-g-online" className="text-blue-600 hover:underline text-sm">Compare and Enroll in Plan G Online</Link>
+            <Link href="/services/how-to-enroll-in-medicare-in-new-jersey" className="text-blue-600 hover:underline text-sm">How to Enroll in Medicare in NJ</Link>
           </div>
         </div>
       </article>

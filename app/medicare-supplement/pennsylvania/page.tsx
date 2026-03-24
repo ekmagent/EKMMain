@@ -196,6 +196,9 @@ export default function PennsylvaniaMedigapPage() {
             <Link href="/medicare-supplement/new-jersey" className="text-blue-600 hover:underline text-sm">Best Medigap Plans in NJ</Link>
             <Link href="/learn/what-is-medigap" className="text-blue-600 hover:underline text-sm">What Is Medigap?</Link>
             <Link href="/learn/medicare-parts-explained" className="text-blue-600 hover:underline text-sm">Medicare Parts A, B, C, D Explained</Link>
+            <Link href="/services/help-with-your-medicare-decision" className="text-blue-600 hover:underline text-sm">Help With Your Medicare Decision</Link>
+            <Link href="/services/medicare-supplement-for-seniors-turning-65" className="text-blue-600 hover:underline text-sm">Medicare Supplement for Seniors Turning 65</Link>
+            <Link href="/services/how-much-does-medicare-supplement-cost-per-month-for-seniors" className="text-blue-600 hover:underline text-sm">How Much Does Medigap Cost Per Month?</Link>
           </div>
         </div>
       </article>

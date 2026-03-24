@@ -117,6 +117,20 @@ export default function NJMedicareAdvantagePage() {
         <FAQSection faqs={faqs} title="Medicare Advantage Questions — New Jersey" />
       </section>
 
+      {/* Related service pages */}
+      <section className="max-w-6xl mx-auto px-4 mt-10">
+        <div className="border-t border-gray-200 pt-6">
+          <p className="text-sm text-gray-500 mb-3">Learn more about your options:</p>
+          <div className="flex flex-wrap gap-3">
+            <Link href="/services/help-with-your-medicare-decision" className="text-blue-600 hover:underline text-sm">Help With Your Medicare Decision</Link>
+            <Link href="/services/best-medicare-plan-for-chronic-conditions" className="text-blue-600 hover:underline text-sm">Best Medicare Plan for Chronic Conditions</Link>
+            <Link href="/services/quickest-way-to-enroll-into-medicare-advantage-plan" className="text-blue-600 hover:underline text-sm">Quickest Way to Enroll in Medicare Advantage</Link>
+            <Link href="/services/medicare-supplement-for-seniors-turning-65" className="text-blue-600 hover:underline text-sm">Medicare Supplement for Seniors Turning 65</Link>
+            <Link href="/services/how-to-enroll-in-medicare-in-new-jersey" className="text-blue-600 hover:underline text-sm">How to Enroll in Medicare in NJ</Link>
+          </div>
+        </div>
+      </section>
+
       <section className="bg-blue-800 text-white py-14 px-4 mt-8">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-2xl font-bold mb-3">Compare NJ Medicare Advantage plans now</h2>

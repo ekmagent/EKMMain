@@ -267,7 +267,71 @@ export default function AverageCostMedigapByAge2026() {
                 2026 Medicare Part A and Part B Costs
               </Link>
             </li>
-          </ul>
+                      <li>
+              <Link
+                href="/services/best-and-cheapest-medicare-supplement"
+                className="text-blue-600 hover:underline"
+              >
+                Best And Cheapest Medicare Supplement
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/best-medicare-supplement-rates-by-age-plan-g-plan-n-plan-f-rates"
+                className="text-blue-600 hover:underline"
+              >
+                Best Medicare Supplement Rates By Age Plan G Plan N Plan F Rates
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/how-much-does-medicare-supplement-cost-per-month-for-seniors"
+                className="text-blue-600 hover:underline"
+              >
+                How Much Does Medicare Supplement Cost Per Month For Seniors
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/how-can-i-save-money-on-my-medicare-supplement"
+                className="text-blue-600 hover:underline"
+              >
+                How Can I Save Money On My Medicare Supplement
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/average-cost-of-supplemental-health-insurance-for-seniors-with-medicare"
+                className="text-blue-700 hover:underline"
+              >
+                Average Cost Of Supplemental Health Insurance For Seniors With Medicare
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/medicare-part-d-insurance-brokers-18517"
+                className="text-blue-700 hover:underline"
+              >
+                Medicare Part D Insurance Brokers 18517
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/medicare-supplement-insurance-for-crohns-patients"
+                className="text-blue-700 hover:underline"
+              >
+                Medicare Supplement Insurance For Crohns Patients
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/medicare-supplement-premiums-increasing-by-double-digits-in-2025"
+                className="text-blue-700 hover:underline"
+              >
+                Medicare Supplement Premiums Increasing By Double Digits In 2025
+              </Link>
+            </li>
+</ul>
         </section>
       </article>
     </>

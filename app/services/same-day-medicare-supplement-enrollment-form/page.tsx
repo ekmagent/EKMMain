@@ -313,7 +313,31 @@ export default function SameDayMedicareSupplementEnrollmentForm() {
                 Free Medicare Consultation With a Licensed Broker
               </Link>
             </li>
-          </ul>
+                      <li>
+              <Link
+                href="/services/how-to-enroll-in-medicare-in-new-jersey"
+                className="text-blue-600 hover:underline"
+              >
+                How To Enroll In Medicare In New Jersey
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/how-long-does-it-take-to-enroll-in-medicare-supplements"
+                className="text-blue-600 hover:underline"
+              >
+                How Long Does It Take To Enroll In Medicare Supplements
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/how-long-does-it-take-to-get-approved-for-a-medicare-supplement-plan"
+                className="text-blue-600 hover:underline"
+              >
+                How Long Does It Take To Get Approved For A Medicare Supplement Plan
+              </Link>
+            </li>
+</ul>
         </section>
       </article>
     </>

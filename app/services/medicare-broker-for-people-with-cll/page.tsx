@@ -291,7 +291,71 @@ export default function MedicareBrokerForPeopleWithCLL() {
               Medicare Broker for Cancer Patients
             </Link>
           </li>
-        </ul>
+                    <li>
+              <Link
+                href="/services/best-medicare-plan-for-chronic-conditions"
+                className="text-blue-600 hover:underline"
+              >
+                Best Medicare Plan For Chronic Conditions
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/medicare-broker-for-people-with-pre-existing-conditions"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare Broker For People With Pre Existing Conditions
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/help-with-your-medicare-decision"
+                className="text-blue-600 hover:underline"
+              >
+                Help With Your Medicare Decision
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/medicare-broker-for-people-with-asthma"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare Broker For People With Asthma
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/medicare-broker-for-people-with-crohns"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare Broker For People With Crohns
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/medicare-broker-for-people-with-diabetes"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare Broker For People With Diabetes
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/medicare-broker-for-people-with-lupus"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare Broker For People With Lupus
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/medicare-broker-for-people-with-parkinsons"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare Broker For People With Parkinsons
+              </Link>
+            </li>
+</ul>
       </section>
     </>
   );

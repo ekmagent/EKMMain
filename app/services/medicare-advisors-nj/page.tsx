@@ -322,7 +322,55 @@ export default function MedicareAdvisorsNJ() {
                 Medicare vs. Employer Coverage: How They Work Together
               </Link>
             </li>
-          </ul>
+                      <li>
+              <Link
+                href="/services/independent-medicare-agents-near-me"
+                className="text-blue-600 hover:underline"
+              >
+                Independent Medicare Agents Near Me
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/best-medicare-broker-no-cost-to-you"
+                className="text-blue-600 hover:underline"
+              >
+                Best Medicare Broker No Cost To You
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/free-medicare-broker-new-jersey"
+                className="text-blue-600 hover:underline"
+              >
+                Free Medicare Broker New Jersey
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/help-with-your-medicare-decision"
+                className="text-blue-600 hover:underline"
+              >
+                Help With Your Medicare Decision
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/licensed-medicare-advisors"
+                className="text-blue-600 hover:underline"
+              >
+                Licensed Medicare Advisors
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/top-medicare-advisors"
+                className="text-blue-600 hover:underline"
+              >
+                Top Medicare Advisors
+              </Link>
+            </li>
+</ul>
         </section>
       </article>
     </>

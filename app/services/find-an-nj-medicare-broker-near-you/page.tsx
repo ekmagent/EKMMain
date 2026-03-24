@@ -290,7 +290,71 @@ export default function FindNJMedicareBrokerNearYou() {
                 Medicare Part D in New Jersey
               </Link>
             </li>
-          </ul>
+                      <li>
+              <Link
+                href="/services/help-with-your-medicare-decision"
+                className="text-blue-600 hover:underline"
+              >
+                Help With Your Medicare Decision
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/best-and-cheapest-medicare-supplement"
+                className="text-blue-600 hover:underline"
+              >
+                Best And Cheapest Medicare Supplement
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/independent-medicare-agents-near-me"
+                className="text-blue-600 hover:underline"
+              >
+                Independent Medicare Agents Near Me
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/compare-and-enroll-in-plan-g-online"
+                className="text-blue-600 hover:underline"
+              >
+                Compare And Enroll In Plan G Online
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/irvington-nj-medicare-insurance-agents"
+                className="text-blue-700 hover:underline"
+              >
+                Irvington NJ Medicare Insurance Agents
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/jackson-nj-medicare-insurance-agents"
+                className="text-blue-700 hover:underline"
+              >
+                Jackson NJ Medicare Insurance Agents
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/kearny-nj-medicare-insurance-agents"
+                className="text-blue-700 hover:underline"
+              >
+                Kearny NJ Medicare Insurance Agents
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/medicare-specialists-in-cranford-nj-office"
+                className="text-blue-700 hover:underline"
+              >
+                Medicare Specialists In Cranford NJ Office
+              </Link>
+            </li>
+</ul>
         </section>
       </article>
     </>

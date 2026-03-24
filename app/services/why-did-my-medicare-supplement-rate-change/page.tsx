@@ -320,7 +320,39 @@ export default function WhyDidMyMedicareSupplementRateChange() {
                 Medicare Supplement Guaranteed Issue Rights
               </Link>
             </li>
-          </ul>
+                      <li>
+              <Link
+                href="/services/best-and-cheapest-medicare-supplement"
+                className="text-blue-600 hover:underline"
+              >
+                Best And Cheapest Medicare Supplement
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/best-medicare-supplement-rates-by-age-plan-g-plan-n-plan-f-rates"
+                className="text-blue-600 hover:underline"
+              >
+                Best Medicare Supplement Rates By Age Plan G Plan N Plan F Rates
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/how-much-does-medicare-supplement-cost-per-month-for-seniors"
+                className="text-blue-600 hover:underline"
+              >
+                How Much Does Medicare Supplement Cost Per Month For Seniors
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/how-can-i-save-money-on-my-medicare-supplement"
+                className="text-blue-600 hover:underline"
+              >
+                How Can I Save Money On My Medicare Supplement
+              </Link>
+            </li>
+</ul>
         </section>
       </article>
     </>

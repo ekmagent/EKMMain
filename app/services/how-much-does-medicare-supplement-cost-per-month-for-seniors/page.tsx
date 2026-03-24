@@ -262,6 +262,22 @@ export default function HowMuchDoesMedicareSupplementCostPerMonthForSeniors() {
               Medicare Supplement vs. Medicare Advantage: Honest Comparison
             </Link>
           </li>
+          <li>
+            <Link
+              href="/services/exploring-medicare-supplemental-insurance-medigap-cost"
+              className="text-blue-600 hover:underline"
+            >
+              Exploring Medicare Supplemental Insurance (Medigap) Costs
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/services/how-much-does-the-best-medicare-supplemental-insurance-cost-per-month"
+              className="text-blue-600 hover:underline"
+            >
+              How Much Does the Best Supplemental Insurance Cost Per Month?
+            </Link>
+          </li>
         </ul>
       </section>
     </main>

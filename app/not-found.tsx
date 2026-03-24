@@ -32,7 +32,7 @@ export default function NotFound() {
           <p className="text-sm text-gray-500 mt-1">$0 premium options</p>
         </Link>
         <Link
-          href="/hub"
+          href="/services"
           className="block border border-gray-200 rounded-lg p-4 hover:border-blue-400 hover:shadow-sm transition-all"
         >
           <span className="font-semibold text-gray-900">Medicare Guides</span>

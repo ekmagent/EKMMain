@@ -267,7 +267,31 @@ export default function BestMedicareSupplementForPeopleOnDisability() {
                 Medicare Savings Programs: Help Paying Your Part B Premium
               </Link>
             </li>
-          </ul>
+                      <li>
+              <Link
+                href="/services/you-get-a-medicare-supplement-if-you-are-on-disability"
+                className="text-blue-600 hover:underline"
+              >
+                You Get A Medicare Supplement If You Are On Disability
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/medicare-broker-for-people-on-disability"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare Broker For People On Disability
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/help-with-your-medicare-decision"
+                className="text-blue-600 hover:underline"
+              >
+                Help With Your Medicare Decision
+              </Link>
+            </li>
+</ul>
         </section>
       </article>
     </>

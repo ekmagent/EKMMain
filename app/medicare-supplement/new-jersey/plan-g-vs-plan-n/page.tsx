@@ -142,6 +142,9 @@ export default function PlanGvsPlanNPage() {
             <Link href="/medicare-supplement/new-jersey" className="text-blue-600 hover:underline text-sm">Best Medigap Plans in NJ</Link>
             <Link href="/medicare-supplement/new-jersey/cost" className="text-blue-600 hover:underline text-sm">Medicare Costs in NJ 2026</Link>
             <Link href="/medicare-supplement/new-jersey/vs-medicare-advantage" className="text-blue-600 hover:underline text-sm">Medigap vs Medicare Advantage NJ</Link>
+            <Link href="/services/compare-and-enroll-in-plan-g-online" className="text-blue-600 hover:underline text-sm">Compare and Enroll in Plan G Online</Link>
+            <Link href="/services/quickest-way-to-enroll-into-plan-n" className="text-blue-600 hover:underline text-sm">Enroll in Plan N</Link>
+            <Link href="/services/best-medicare-supplement-rates-by-age-plan-g-plan-n-plan-f-rates" className="text-blue-600 hover:underline text-sm">Medigap Rates by Age</Link>
           </div>
         </div>
       </article>

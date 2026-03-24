@@ -188,7 +188,7 @@ export default function AboutPage() {
               { href: "/medicare-supplement/new-jersey", label: "Medicare Supplement Plans — NJ" },
               { href: "/medicare-advantage/new-jersey", label: "Medicare Advantage Plans — NJ" },
               { href: "/medicare-supplement/pennsylvania", label: "Medicare Supplement Plans — PA" },
-              { href: "/hub", label: "Medicare Guides & Resources" },
+              { href: "/services", label: "Medicare Guides & Resources" },
               { href: "/learn/how-to-sign-up-for-medicare", label: "How to Sign Up for Medicare" },
               { href: "/quote", label: "Get a Free Quote" },
             ].map(({ href, label }) => (

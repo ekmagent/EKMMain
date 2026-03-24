@@ -271,6 +271,22 @@ export default function MedicareSupplementPlanGCostFor68YearOld() {
               How to Switch Medicare Supplement Plans
             </Link>
           </li>
+          <li>
+            <Link
+              href="/services/medicare-supplement-plan-g-cost-for-69-year-old"
+              className="text-blue-600 hover:underline"
+            >
+              Plan G Cost for 69-Year-Old
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/services/medicare-supplement-plan-g-cost-for-70-year-old"
+              className="text-blue-600 hover:underline"
+            >
+              Plan G Cost for 70-Year-Old
+            </Link>
+          </li>
         </ul>
       </section>
     </main>

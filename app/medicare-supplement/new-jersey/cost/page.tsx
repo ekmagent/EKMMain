@@ -147,6 +147,9 @@ export default function NJMedicareCostPage() {
             <Link href="/medicare-supplement/new-jersey" className="text-blue-600 hover:underline text-sm">Best Medigap Plans in NJ</Link>
             <Link href="/medicare-supplement/new-jersey/plan-g-vs-plan-n" className="text-blue-600 hover:underline text-sm">Plan G vs Plan N NJ</Link>
             <Link href="/medicare-supplement/new-jersey/turning-65" className="text-blue-600 hover:underline text-sm">Turning 65 in NJ</Link>
+            <Link href="/services/how-much-is-plan-g-in-nj" className="text-blue-600 hover:underline text-sm">How Much Is Plan G in NJ?</Link>
+            <Link href="/services/how-can-i-save-money-on-my-medicare-supplement" className="text-blue-600 hover:underline text-sm">How to Save Money on Your Supplement</Link>
+            <Link href="/services/best-medicare-supplement-rates-by-age-plan-g-plan-n-plan-f-rates" className="text-blue-600 hover:underline text-sm">Medigap Rates by Age</Link>
           </div>
         </div>
       </article>

@@ -311,7 +311,39 @@ export default function MedicareBrokerHighBloodPressure() {
                 Annual Enrollment Period: What You Need to Know
               </Link>
             </li>
-          </ul>
+                      <li>
+              <Link
+                href="/services/medicare-broker-for-people-with-pre-existing-conditions"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare Broker For People With Pre Existing Conditions
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/you-get-a-medicare-supplement-plan-if-you-have-a-pre-existing-condition"
+                className="text-blue-600 hover:underline"
+              >
+                You Get A Medicare Supplement Plan If You Have A Pre Existing Condition
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/help-with-your-medicare-decision"
+                className="text-blue-600 hover:underline"
+              >
+                Help With Your Medicare Decision
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/medicare-broker-for-high-cholesterol-patients"
+                className="text-blue-700 hover:underline"
+              >
+                Medicare Broker For High Cholesterol Patients
+              </Link>
+            </li>
+</ul>
         </section>
       </article>
     </>

@@ -291,7 +291,31 @@ export default function MedicareAgentNearMePage() {
                 2026 Part B Premium and Deductible Explained
               </Link>
             </li>
-          </ul>
+                      <li>
+              <Link
+                href="/services/independent-medicare-agents-near-me"
+                className="text-blue-600 hover:underline"
+              >
+                Independent Medicare Agents Near Me
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/best-medicare-broker-no-cost-to-you"
+                className="text-blue-600 hover:underline"
+              >
+                Best Medicare Broker No Cost To You
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/help-with-your-medicare-decision"
+                className="text-blue-600 hover:underline"
+              >
+                Help With Your Medicare Decision
+              </Link>
+            </li>
+</ul>
         </section>
       </article>
     </>

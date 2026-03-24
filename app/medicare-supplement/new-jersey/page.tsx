@@ -239,6 +239,20 @@ export default function NJMedicareSupplementPage() {
         <FAQSection faqs={faqs} title="Medicare Supplement Questions — New Jersey" />
       </section>
 
+      {/* Related service pages */}
+      <section className="max-w-6xl mx-auto px-4 mt-10">
+        <div className="border-t border-gray-200 pt-6">
+          <p className="text-sm text-gray-500 mb-3">Helpful resources:</p>
+          <div className="flex flex-wrap gap-3">
+            <Link href="/services/how-to-enroll-in-medicare-in-new-jersey" className="text-blue-600 hover:underline text-sm">How to Enroll in Medicare in NJ</Link>
+            <Link href="/services/compare-and-enroll-in-plan-g-online" className="text-blue-600 hover:underline text-sm">Compare and Enroll in Plan G Online</Link>
+            <Link href="/services/quickest-way-to-enroll-into-plan-g" className="text-blue-600 hover:underline text-sm">Quickest Way to Enroll in Plan G</Link>
+            <Link href="/services/find-an-nj-medicare-broker-near-you" className="text-blue-600 hover:underline text-sm">Find an NJ Medicare Broker Near You</Link>
+            <Link href="/services/how-much-is-plan-g-in-nj" className="text-blue-600 hover:underline text-sm">How Much Is Plan G in NJ?</Link>
+          </div>
+        </div>
+      </section>
+
       {/* Other States */}
       <section className="max-w-3xl mx-auto px-4 mt-10">
         <p className="text-gray-600 text-sm">

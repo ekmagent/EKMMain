@@ -321,7 +321,55 @@ export default function EnrollInMedicareSupplementPlanGAt68() {
                 Understanding Medicare Supplement Rate Increases
               </Link>
             </li>
-          </ul>
+                      <li>
+              <Link
+                href="/services/how-much-is-plan-g-in-nj"
+                className="text-blue-600 hover:underline"
+              >
+                How Much Is Plan G In NJ
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/best-medicare-supplement-rates-by-age-plan-g-plan-n-plan-f-rates"
+                className="text-blue-600 hover:underline"
+              >
+                Best Medicare Supplement Rates By Age Plan G Plan N Plan F Rates
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/quickest-way-to-enroll-into-plan-g"
+                className="text-blue-600 hover:underline"
+              >
+                Quickest Way To Enroll Into Plan G
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/enroll-in-medicare-supplement-plan-g-at-67"
+                className="text-blue-600 hover:underline"
+              >
+                Enroll In Medicare Supplement Plan G At 67
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/enroll-in-medicare-supplement-plan-g-at-69"
+                className="text-blue-600 hover:underline"
+              >
+                Enroll In Medicare Supplement Plan G At 69
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/enroll-in-medicare-supplement-plan-g-at-70"
+                className="text-blue-600 hover:underline"
+              >
+                Enroll In Medicare Supplement Plan G At 70
+              </Link>
+            </li>
+</ul>
         </section>
       </article>
     </>

@@ -213,6 +213,32 @@ export default function HowToSignUpPage() {
           <FAQSection faqs={faqs} title="Medicare Sign-Up Questions" />
         </div>
 
+        <div className="bg-gray-50 rounded-xl p-6 text-sm border border-gray-100 mb-8">
+          <p className="font-semibold text-gray-900 mb-2">Next steps after enrollment</p>
+          <ul className="space-y-1 text-gray-600">
+            <li>
+              <Link href="/services/medicare-supplement-for-seniors-turning-65" className="text-blue-600 hover:underline">
+                Medicare Supplement for Seniors Turning 65
+              </Link>
+            </li>
+            <li>
+              <Link href="/services/compare-and-enroll-in-plan-g-online" className="text-blue-600 hover:underline">
+                Compare and Enroll in Plan G Online
+              </Link>
+            </li>
+            <li>
+              <Link href="/services/how-long-does-it-take-to-enroll-in-medicare-supplements" className="text-blue-600 hover:underline">
+                How Long Does It Take to Enroll in Medicare Supplements?
+              </Link>
+            </li>
+            <li>
+              <Link href="/services/help-with-your-medicare-decision" className="text-blue-600 hover:underline">
+                Help With Your Medicare Decision
+              </Link>
+            </li>
+          </ul>
+        </div>
+
         <div className="bg-gray-50 rounded-xl p-6 text-sm text-gray-600 border border-gray-100">
           <p className="font-semibold text-gray-900 mb-1">Official Resources</p>
           <ul className="space-y-1">

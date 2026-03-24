@@ -118,6 +118,9 @@ export default function WhatIsMedigapPage() {
             <Link href="/medicare-supplement/new-jersey" className="text-blue-600 hover:underline text-sm">Best Medigap Plans in NJ</Link>
             <Link href="/medicare-supplement/new-jersey/plan-g-vs-plan-n" className="text-blue-600 hover:underline text-sm">Plan G vs Plan N NJ</Link>
             <Link href="/learn/medicare-parts-explained" className="text-blue-600 hover:underline text-sm">Medicare Parts A, B, C, D Explained</Link>
+            <Link href="/services/how-much-does-medicare-supplement-cost-per-month-for-seniors" className="text-blue-600 hover:underline text-sm">How Much Does Medigap Cost Per Month?</Link>
+            <Link href="/services/best-medicare-supplement-rates-by-age-plan-g-plan-n-plan-f-rates" className="text-blue-600 hover:underline text-sm">Medigap Rates by Age</Link>
+            <Link href="/services/help-with-your-medicare-decision" className="text-blue-600 hover:underline text-sm">Help With Your Medicare Decision</Link>
           </div>
         </div>
       </article>

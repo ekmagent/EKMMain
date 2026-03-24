@@ -293,6 +293,10 @@ export default function SwitchCarriersPage() {
             <Link href="/medicare-supplement/new-jersey/plan-g-vs-plan-n" className="text-blue-600 hover:underline">Plan G vs Plan N</Link>
             <Link href="/medicare-supplement/new-jersey/cost" className="text-blue-600 hover:underline">Medigap Costs in NJ</Link>
             <Link href="/medicare-supplement/new-jersey/vs-medicare-advantage" className="text-blue-600 hover:underline">Supplement vs Advantage</Link>
+            <Link href="/services/what-time-of-year-can-you-switch-medicare-supplement-plans" className="text-blue-600 hover:underline">When Can You Switch Supplement Plans?</Link>
+            <Link href="/services/when-can-i-change-my-medicare-supplement-plan-for-2026" className="text-blue-600 hover:underline">Change Your Supplement Plan for 2026</Link>
+            <Link href="/services/why-did-my-medicare-supplement-rate-change" className="text-blue-600 hover:underline">Why Did My Rate Change?</Link>
+            <Link href="/services/how-can-i-save-money-on-my-medicare-supplement" className="text-blue-600 hover:underline">How to Save Money on Your Supplement</Link>
           </div>
         </div>
       </section>

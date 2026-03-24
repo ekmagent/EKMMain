@@ -259,7 +259,39 @@ export default function QuickestWayToEnrollIntoPlanN() {
                 Guaranteed Issue Rights for Medigap Plans
               </Link>
             </li>
-          </ul>
+                      <li>
+              <Link
+                href="/services/compare-and-enroll-in-plan-g-online"
+                className="text-blue-600 hover:underline"
+              >
+                Compare And Enroll In Plan G Online
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/best-medicare-supplement-rates-by-age-plan-g-plan-n-plan-f-rates"
+                className="text-blue-600 hover:underline"
+              >
+                Best Medicare Supplement Rates By Age Plan G Plan N Plan F Rates
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/how-much-is-plan-g-in-nj"
+                className="text-blue-600 hover:underline"
+              >
+                How Much Is Plan G In NJ
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/how-to-enroll-in-medicare-in-new-jersey"
+                className="text-blue-600 hover:underline"
+              >
+                How To Enroll In Medicare In New Jersey
+              </Link>
+            </li>
+</ul>
         </section>
       </article>
     </>

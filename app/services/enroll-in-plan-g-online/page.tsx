@@ -297,7 +297,47 @@ export default function EnrollInPlanGOnlinePage() {
                 Switching From Medicare Advantage to Medigap
               </Link>
             </li>
-          </ul>
+                      <li>
+              <Link
+                href="/services/compare-and-enroll-in-plan-g-online"
+                className="text-blue-600 hover:underline"
+              >
+                Compare And Enroll In Plan G Online
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/how-much-is-plan-g-in-nj"
+                className="text-blue-600 hover:underline"
+              >
+                How Much Is Plan G In NJ
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/best-medicare-supplement-rates-by-age-plan-g-plan-n-plan-f-rates"
+                className="text-blue-600 hover:underline"
+              >
+                Best Medicare Supplement Rates By Age Plan G Plan N Plan F Rates
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/quickest-way-to-enroll-into-plan-g"
+                className="text-blue-600 hover:underline"
+              >
+                Quickest Way To Enroll Into Plan G
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/quote-and-enroll-in-plan-g-online"
+                className="text-blue-700 hover:underline"
+              >
+                Quote And Enroll In Plan G Online
+              </Link>
+            </li>
+</ul>
         </section>
       </article>
     </>

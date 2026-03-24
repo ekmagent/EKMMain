@@ -348,6 +348,21 @@ export default function IrmaaPage() {
                 What does Medicare Supplement cost in New Jersey?
               </Link>
             </li>
+            <li>
+              <Link href="/services/best-and-cheapest-medicare-supplement" className="text-blue-600 hover:underline">
+                Best and Cheapest Medicare Supplement Plans
+              </Link>
+            </li>
+            <li>
+              <Link href="/services/best-medicare-supplement-rates-by-age-plan-g-plan-n-plan-f-rates" className="text-blue-600 hover:underline">
+                Medicare Supplement Rates by Age
+              </Link>
+            </li>
+            <li>
+              <Link href="/services/help-with-your-medicare-decision" className="text-blue-600 hover:underline">
+                Help With Your Medicare Decision
+              </Link>
+            </li>
           </ul>
           <p className="mt-3 text-xs text-gray-400">
             EasyKind Medicare is an independent brokerage and is not affiliated with Medicare, CMS, SSA, or any government agency.

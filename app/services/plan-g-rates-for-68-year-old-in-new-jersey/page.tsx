@@ -312,7 +312,39 @@ export default function PlanGRates68NJ() {
                 Medicare Supplement Rates by Age
               </Link>
             </li>
-          </ul>
+                      <li>
+              <Link
+                href="/services/how-much-is-plan-g-in-nj"
+                className="text-blue-600 hover:underline"
+              >
+                How Much Is Plan G In NJ
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/quickest-way-to-enroll-into-plan-g"
+                className="text-blue-600 hover:underline"
+              >
+                Quickest Way To Enroll Into Plan G
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/plan-g-rates-for-69-year-old-in-new-jersey"
+                className="text-blue-600 hover:underline"
+              >
+                Plan G Rates For 69 Year Old In New Jersey
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/plan-g-rates-for-70-year-old-in-new-jersey"
+                className="text-blue-600 hover:underline"
+              >
+                Plan G Rates For 70 Year Old In New Jersey
+              </Link>
+            </li>
+</ul>
         </section>
       </article>
     </>

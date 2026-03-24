@@ -235,6 +235,21 @@ export default function LowIncomeMedicarePage() {
                 Medicare Supplement plans in New Jersey
               </Link>
             </li>
+            <li>
+              <Link href="/services/best-medicare-supplement-for-people-on-disability" className="text-blue-600 hover:underline">
+                Best Medicare Supplement for People on Disability
+              </Link>
+            </li>
+            <li>
+              <Link href="/services/you-get-a-medicare-supplement-if-you-are-on-disability" className="text-blue-600 hover:underline">
+                Medicare Supplement If You Are on Disability
+              </Link>
+            </li>
+            <li>
+              <Link href="/services/how-much-does-medicare-supplement-cost-per-month-for-seniors" className="text-blue-600 hover:underline">
+                How Much Does Medicare Supplement Cost Per Month?
+              </Link>
+            </li>
           </ul>
           <p className="mt-3 text-xs text-gray-400">
             EasyKind Medicare is an independent brokerage and is not affiliated with Medicare, CMS, SSA, or any government agency.

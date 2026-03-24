@@ -268,7 +268,47 @@ export default function LicensedMedicareAdvisorsPage() {
                 How to Choose a Medicare Plan
               </Link>
             </li>
-          </ul>
+                      <li>
+              <Link
+                href="/services/independent-medicare-agents-near-me"
+                className="text-blue-600 hover:underline"
+              >
+                Independent Medicare Agents Near Me
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/best-medicare-broker-no-cost-to-you"
+                className="text-blue-600 hover:underline"
+              >
+                Best Medicare Broker No Cost To You
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/free-medicare-broker-new-jersey"
+                className="text-blue-600 hover:underline"
+              >
+                Free Medicare Broker New Jersey
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/medicare-advisors-nj"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare Advisors NJ
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/top-medicare-advisors"
+                className="text-blue-600 hover:underline"
+              >
+                Top Medicare Advisors
+              </Link>
+            </li>
+</ul>
         </section>
       </article>
     </>

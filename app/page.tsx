@@ -157,7 +157,7 @@ export default function HomePage() {
           </h2>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {[
-              { href: "/hub", title: "Medicare Guides", desc: "Plan comparisons, costs, enrollment, and more." },
+              { href: "/services", title: "Medicare Guides", desc: "Plan comparisons, costs, enrollment, and more." },
               { href: "/learn/how-to-sign-up-for-medicare", title: "How to Sign Up", desc: "Deadlines, penalties, and step-by-step enrollment." },
               { href: "/learn/medicare-help-low-income", title: "Help on Fixed Income", desc: "Extra Help, QMB, SLMB, and savings programs." },
               { href: "/about", title: "About Our Team", desc: "Licensed independent broker, NPI verified." },

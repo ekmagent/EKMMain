@@ -261,7 +261,207 @@ export default function MedicareBrokerAnxietyDisorderPatients() {
               Medicare Telehealth Options in New Jersey
             </Link>
           </li>
-        </ul>
+                    <li>
+              <Link
+                href="/services/help-with-your-medicare-decision"
+                className="text-blue-600 hover:underline"
+              >
+                Help With Your Medicare Decision
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/best-and-cheapest-medicare-supplement"
+                className="text-blue-600 hover:underline"
+              >
+                Best And Cheapest Medicare Supplement
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/independent-medicare-agents-near-me"
+                className="text-blue-600 hover:underline"
+              >
+                Independent Medicare Agents Near Me
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/compare-and-enroll-in-plan-g-online"
+                className="text-blue-600 hover:underline"
+              >
+                Compare And Enroll In Plan G Online
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/medicare-broker-for-alzheimers-patients"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare Broker For Alzheimers Patients
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/medicare-broker-for-atrial-fibrillation-patients"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare Broker For Atrial Fibrillation Patients
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/medicare-broker-for-bipolar-disorder-patients"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare Broker For Bipolar Disorder Patients
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/medicare-broker-for-cataracts-patients"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare Broker For Cataracts Patients
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/medicare-broker-for-depression-patients"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare Broker For Depression Patients
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/medicare-broker-for-dialysis-patients"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare Broker For Dialysis Patients
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/medicare-broker-for-epilepsy-patients"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare Broker For Epilepsy Patients
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/medicare-broker-for-fibromyalgia-patients"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare Broker For Fibromyalgia Patients
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/medicare-broker-for-glaucoma-patients"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare Broker For Glaucoma Patients
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/medicare-broker-for-hearing-loss-patients"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare Broker For Hearing Loss Patients
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/medicare-broker-for-lupus-patients"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare Broker For Lupus Patients
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/medicare-broker-for-macular-degeneration-patients"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare Broker For Macular Degeneration Patients
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/medicare-broker-for-multiple-sclerosis-patients"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare Broker For Multiple Sclerosis Patients
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/medicare-broker-for-neuropathy-patients"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare Broker For Neuropathy Patients
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/medicare-broker-for-obesity-patients"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare Broker For Obesity Patients
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/medicare-broker-for-osteoporosis-patients"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare Broker For Osteoporosis Patients
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/medicare-broker-for-parkinsons-patients"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare Broker For Parkinsons Patients
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/medicare-broker-for-ptsd-patients"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare Broker For Ptsd Patients
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/medicare-broker-for-rheumatoid-arthritis-patients"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare Broker For Rheumatoid Arthritis Patients
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/medicare-broker-for-schizophrenia-patients"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare Broker For Schizophrenia Patients
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/medicare-broker-for-sleep-apnea-patients"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare Broker For Sleep Apnea Patients
+              </Link>
+            </li>
+</ul>
       </section>
     </>
   );

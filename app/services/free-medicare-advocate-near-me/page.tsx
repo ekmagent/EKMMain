@@ -297,7 +297,31 @@ export default function FreeMedicareAdvocateNearMe() {
                 How the Part B Late Enrollment Penalty Works
               </Link>
             </li>
-          </ul>
+                      <li>
+              <Link
+                href="/services/free-medicare-agent-that-helps-with-paperwork"
+                className="text-blue-600 hover:underline"
+              >
+                Free Medicare Agent That Helps With Paperwork
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/medicare-agent-that-helps-with-paperwork-near-me"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare Agent That Helps With Paperwork Near Me
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/help-with-your-medicare-decision"
+                className="text-blue-600 hover:underline"
+              >
+                Help With Your Medicare Decision
+              </Link>
+            </li>
+</ul>
         </section>
       </article>
     </>

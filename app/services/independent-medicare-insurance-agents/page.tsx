@@ -265,7 +265,47 @@ export default function IndependentMedicareInsuranceAgentsPage() {
               About Anthony Orner, Licensed Medicare Broker
             </Link>
           </li>
-        </ul>
+                    <li>
+              <Link
+                href="/services/independent-medicare-agents-near-me"
+                className="text-blue-600 hover:underline"
+              >
+                Independent Medicare Agents Near Me
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/best-medicare-broker-no-cost-to-you"
+                className="text-blue-600 hover:underline"
+              >
+                Best Medicare Broker No Cost To You
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/free-medicare-broker-new-jersey"
+                className="text-blue-600 hover:underline"
+              >
+                Free Medicare Broker New Jersey
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/help-with-your-medicare-decision"
+                className="text-blue-600 hover:underline"
+              >
+                Help With Your Medicare Decision
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/independent-medicare-supplement-insurance-agents"
+                className="text-blue-600 hover:underline"
+              >
+                Independent Medicare Supplement Insurance Agents
+              </Link>
+            </li>
+</ul>
       </section>
     </>
   );

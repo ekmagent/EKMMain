@@ -275,7 +275,55 @@ export default function PlanGRates70NJ() {
                 When to Enroll in Medigap
               </Link>
             </li>
-          </ul>
+                      <li>
+              <Link
+                href="/services/compare-and-enroll-in-plan-g-online"
+                className="text-blue-600 hover:underline"
+              >
+                Compare And Enroll In Plan G Online
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/how-much-is-plan-g-in-nj"
+                className="text-blue-600 hover:underline"
+              >
+                How Much Is Plan G In NJ
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/quickest-way-to-enroll-into-plan-g"
+                className="text-blue-600 hover:underline"
+              >
+                Quickest Way To Enroll Into Plan G
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/plan-g-rates-for-68-year-old-in-new-jersey"
+                className="text-blue-700 hover:underline"
+              >
+                Plan G Rates For 68 Year Old In New Jersey
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/plan-g-rates-for-69-year-old-in-new-jersey"
+                className="text-blue-700 hover:underline"
+              >
+                Plan G Rates For 69 Year Old In New Jersey
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/medicare-supplement-plan-g-cost-for-70-year-old"
+                className="text-blue-700 hover:underline"
+              >
+                Medicare Supplement Plan G Cost For 70 Year Old
+              </Link>
+            </li>
+</ul>
         </section>
       </article>
     </>

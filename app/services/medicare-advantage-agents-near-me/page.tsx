@@ -262,7 +262,47 @@ export default function MedicareAdvantageAgentsNearMe() {
                 Find a Medicare Broker Near You in NJ
               </Link>
             </li>
-          </ul>
+                      <li>
+              <Link
+                href="/services/help-with-your-medicare-decision"
+                className="text-blue-600 hover:underline"
+              >
+                Help With Your Medicare Decision
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/best-and-cheapest-medicare-supplement"
+                className="text-blue-600 hover:underline"
+              >
+                Best And Cheapest Medicare Supplement
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/independent-medicare-agents-near-me"
+                className="text-blue-600 hover:underline"
+              >
+                Independent Medicare Agents Near Me
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/compare-and-enroll-in-plan-g-online"
+                className="text-blue-600 hover:underline"
+              >
+                Compare And Enroll In Plan G Online
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/independent-medicare-advantage-agents-near-me"
+                className="text-blue-600 hover:underline"
+              >
+                Independent Medicare Advantage Agents Near Me
+              </Link>
+            </li>
+</ul>
         </section>
       </article>
     </>

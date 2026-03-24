@@ -335,6 +335,22 @@ export default function BestMedicareSupplementRatesByAge() {
               Plan G vs. Plan N: Which Is Right for You?
             </Link>
           </li>
+          <li>
+            <Link
+              href="/services/average-cost-of-medicare-supplement-insurance-by-age-in-2026"
+              className="text-blue-600 hover:underline"
+            >
+              Average Cost of Medicare Supplement Insurance by Age in 2026
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/services/how-much-is-plan-f-in-nj"
+              className="text-blue-600 hover:underline"
+            >
+              How Much Is Plan F in NJ?
+            </Link>
+          </li>
         </ul>
       </section>
     </main>

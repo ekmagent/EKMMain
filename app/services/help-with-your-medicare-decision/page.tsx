@@ -303,7 +303,39 @@ export default function HelpWithYourMedicareDecision() {
                 Book a Free Medicare Consultation
               </Link>
             </li>
-          </ul>
+                      <li>
+              <Link
+                href="/services/free-medicare-advocate-near-me"
+                className="text-blue-600 hover:underline"
+              >
+                Free Medicare Advocate Near Me
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/free-medicare-agent-that-helps-with-paperwork"
+                className="text-blue-600 hover:underline"
+              >
+                Free Medicare Agent That Helps With Paperwork
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/medicare-agent-that-helps-with-paperwork-near-me"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare Agent That Helps With Paperwork Near Me
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/medicare-quotes"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare Quotes
+              </Link>
+            </li>
+</ul>
         </section>
       </article>
     </>

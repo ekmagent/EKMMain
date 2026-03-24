@@ -275,7 +275,55 @@ export default function MedicareBrokerForAsthmaSufferers() {
                 How to Lower Medicare Prescription Drug Costs
               </Link>
             </li>
-          </ul>
+                      <li>
+              <Link
+                href="/services/best-medicare-plan-for-chronic-conditions"
+                className="text-blue-600 hover:underline"
+              >
+                Best Medicare Plan For Chronic Conditions
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/medicare-broker-for-people-with-pre-existing-conditions"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare Broker For People With Pre Existing Conditions
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/you-get-a-medicare-supplement-plan-if-you-have-a-pre-existing-condition"
+                className="text-blue-600 hover:underline"
+              >
+                You Get A Medicare Supplement Plan If You Have A Pre Existing Condition
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/help-with-your-medicare-decision"
+                className="text-blue-600 hover:underline"
+              >
+                Help With Your Medicare Decision
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/medicare-broker-for-arthritis-sufferers"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare Broker For Arthritis Sufferers
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/medicare-broker-for-back-pain-sufferers"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare Broker For Back Pain Sufferers
+              </Link>
+            </li>
+</ul>
         </section>
       </article>
     </>
