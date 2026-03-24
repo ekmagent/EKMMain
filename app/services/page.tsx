@@ -100,7 +100,7 @@ const CATEGORY_RULES: CategoryRule[] = [
       /cost-per-month|cost-of-medicare-supplement|cost-of-supplemental|medigap-cost/.test(s) ||
       /rate-jumped|rate-change|premium-hikes|premiums-increasing|save-money-on-my-medicare-supplement/.test(s) ||
       /when-can-i-change-my-medicare-supplement/.test(s) ||
-      /what-time-of-year-can-you-switch/.test(s) ||
+      /what-time-of-year-can-you-switch|switch-medigap-plans/.test(s) ||
       /how-long-does-it-take/.test(s) ||
       /best-and-cheapest-medicare-supplement/.test(s),
   },

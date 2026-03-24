@@ -1,0 +1,737 @@
+import type { Metadata } from "next";
+import Image from "next/image";
+import Link from "next/link";
+import PhoneCTA from "@/components/PhoneCTA";
+import FAQSection from "@/components/FAQSection";
+import SchemaMarkup from "@/components/SchemaMarkup";
+import { SITE_URL } from "@/lib/site";
+
+export const metadata: Metadata = {
+  title:
+    "switch medigap plans | Compare Carriers & Switch Online | MedicareYourself",
+  description:
+    "Switch Medigap plans online or with free help from a licensed broker. Compare carriers, check your eligibility, and start saving in minutes. No fee.",
+  alternates: {
+    canonical: `${SITE_URL}/services/switch-medigap-plans`,
+  },
+  openGraph: {
+    title: "Switch Medigap Plans | Compare Carriers & Switch Online",
+    description:
+      "Switch Medigap plans online or with free help from a licensed broker. Compare carriers, check your eligibility, and start saving in minutes.",
+  },
+};
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    {
+      "@type": "ListItem",
+      position: 1,
+      name: "Home",
+      item: "https://medicareyourself.com",
+    },
+    {
+      "@type": "ListItem",
+      position: 2,
+      name: "Medicare Guides",
+      item: "https://medicareyourself.com/services",
+    },
+    {
+      "@type": "ListItem",
+      position: 3,
+      name: "Switch Medigap Plans",
+      item: "https://medicareyourself.com/services/switch-medigap-plans",
+    },
+  ],
+};
+
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: "Switch Medigap Plans: Compare Carriers and Switch Online",
+  description:
+    "How to switch Medigap plans — compare carriers side by side, check eligibility, and complete your switch online or with free broker help.",
+  datePublished: "2026-03-23",
+  dateModified: "2026-03-23",
+  author: {
+    "@type": "Person",
+    name: "Anthony Orner",
+    url: "https://medicareyourself.com/about",
+  },
+  publisher: {
+    "@type": "Organization",
+    name: "MedicareYourself / EasyKind Medicare",
+    url: "https://medicareyourself.com",
+  },
+};
+
+const faqs = [
+  {
+    question: "Can I switch Medigap plans at any time of year?",
+    answer:
+      "Yes. Unlike Medicare Advantage, there is no annual enrollment window for Medigap. You can apply to switch any month. During your initial 6-month Medigap Open Enrollment Period or a guaranteed issue event, no carrier can deny you or charge more for health conditions. Outside those windows, most states allow carriers to ask health questions, but if you are in good health the switch is usually straightforward.",
+  },
+  {
+    question: "Will I lose coverage if I switch Medigap plans?",
+    answer:
+      "Not if you do it correctly. Keep your current plan active until your new plan is approved and in force. Most new plans come with a 30-day free look period. Once you confirm the new plan is active, send written notice to cancel the old one. A brief one-day overlap is normal and protects you from any gap.",
+  },
+  {
+    question:
+      "Does switching Medigap carriers change my benefits?",
+    answer:
+      "No. Medigap plan letters are federally standardized. Plan G from one carrier covers exactly the same benefits as Plan G from any other carrier. Switching carriers changes your premium, not your coverage. Your doctors stay the same because Medigap has no provider networks — any doctor who accepts Original Medicare accepts your plan.",
+  },
+  {
+    question:
+      "How much can I save by switching Medigap plans?",
+    answer:
+      "Savings depend on your age, zip code, current carrier, and how long you have had your plan. People who have been on the same Plan G for 5 or more years often find rates $30 to $100 per month lower at a different carrier for identical coverage. That is $360 to $1,200 per year in savings with no change to your benefits or doctors.",
+  },
+  {
+    question:
+      "Can I switch from Medicare Advantage back to a Medigap plan?",
+    answer:
+      "Yes, but timing matters. If you have been on Medicare Advantage for less than 12 months and had a Medigap plan before, you may have a trial right to return to your old plan without health questions. Outside that window, you can apply during Medicare Advantage Open Enrollment (January 1 through March 31), but most states allow medical underwriting. Talk to a broker before making this switch — the rules are specific to your situation.",
+  },
+  {
+    question: "Is there a fee to use a broker to switch Medigap plans?",
+    answer:
+      "No. Independent Medicare brokers are paid by the insurance carriers, not by you. The commission is the same regardless of which carrier you choose, so there is no incentive to push one company over another. Using a broker costs you nothing and saves you the work of calling each carrier individually.",
+  },
+];
+
+export default function SwitchMedigapPlansPage() {
+  return (
+    <>
+      <SchemaMarkup schema={[breadcrumbSchema, articleSchema]} />
+
+      {/* Breadcrumb */}
+      <nav
+        aria-label="Breadcrumb"
+        className="max-w-6xl mx-auto px-4 pt-4 text-sm text-gray-500"
+      >
+        <Link href="/" className="hover:text-blue-600">
+          Home
+        </Link>
+        <span className="mx-2">&gt;</span>
+        <Link href="/services" className="hover:text-blue-600">
+          Medicare Guides
+        </Link>
+        <span className="mx-2">&gt;</span>
+        <span className="text-gray-900 font-medium">Switch Medigap Plans</span>
+      </nav>
+
+      {/* Hero */}
+      <section className="max-w-6xl mx-auto px-4 py-10">
+        <Image
+          src="/images/hub_switch-medigap-plans.webp"
+          alt="Switch medigap plans — compare carriers and save"
+          width={1200}
+          height={600}
+          className="rounded-xl mb-8 w-full h-auto"
+          priority
+        />
+        <div className="grid lg:grid-cols-2 gap-10 items-center">
+          <div>
+            <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">
+              Switch Medigap Plans — See If You Could Save in 2 Minutes
+            </h1>
+
+            <p className="text-lg text-gray-600 leading-relaxed mb-4">
+              Keep what you like. See what could cost less. No phone number or
+              email required to see your possible savings. Only continue if the
+              savings are worth it.
+            </p>
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Under 2 minutes. No commitment. See your number — then decide.
+            </p>
+            <a
+              href="https://switch.healthplans.now/q/current-plan"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-blue-700 hover:bg-blue-800 text-white font-bold text-lg py-4 px-8 rounded-lg transition-colors shadow-lg"
+            >
+              CHECK MY SAVINGS
+            </a>
+            <p className="text-xs text-gray-400 mt-3">
+              By Anthony Orner, Licensed Medicare Broker · Updated March 2026
+            </p>
+          </div>
+
+          {/* Comparison chart — inspired by switch.healthplans.now */}
+          <div className="bg-white border-2 border-gray-200 rounded-xl overflow-hidden shadow-lg">
+            <div className="grid grid-cols-3 text-center">
+              <div className="p-3 bg-gray-50 border-b border-r border-gray-200" />
+              <div className="p-3 bg-gray-50 border-b border-r border-gray-200">
+                <p className="text-xs font-semibold text-gray-500 uppercase tracking-wide">Current Plan</p>
+              </div>
+              <div className="p-3 bg-blue-50 border-b border-gray-200">
+                <p className="text-xs font-semibold text-blue-700 uppercase tracking-wide">New Plan</p>
+              </div>
+            </div>
+            {/* Monthly Premium row */}
+            <div className="grid grid-cols-3 text-center border-b border-gray-100">
+              <div className="p-3 text-sm text-gray-600 text-left pl-4 font-medium border-r border-gray-100">Monthly Premium</div>
+              <div className="p-3 border-r border-gray-100">
+                <p className="text-2xl font-bold text-red-600">$198<span className="text-sm font-normal text-gray-500">/mo</span></p>
+              </div>
+              <div className="p-3 bg-blue-50/50">
+                <p className="text-2xl font-bold text-green-600">$112<span className="text-sm font-normal text-gray-500">/mo</span></p>
+              </div>
+            </div>
+            {[
+              ["Costs Less Every Month", "—", true],
+              ["Keep My Doctors", true, true],
+              ["Same Plan Letter (G, N, or F)", true, true],
+              ["Keep Same Coverage", true, true],
+              ["No Change to Drug Plan", true, true],
+            ].map(([label, current, newPlan], i) => (
+              <div key={i} className={`grid grid-cols-3 text-center ${i < 4 ? "border-b border-gray-100" : ""}`}>
+                <div className="p-3 text-sm text-gray-600 text-left pl-4 border-r border-gray-100">{label as string}</div>
+                <div className="p-3 border-r border-gray-100">
+                  {current === true ? (
+                    <span className="text-green-600 font-bold text-lg">✓</span>
+                  ) : (
+                    <span className="text-gray-300">—</span>
+                  )}
+                </div>
+                <div className="p-3 bg-blue-50/50">
+                  {newPlan === true ? (
+                    <span className="text-green-600 font-bold text-lg">✓</span>
+                  ) : (
+                    <span className="text-gray-300">—</span>
+                  )}
+                </div>
+              </div>
+            ))}
+            {/* Savings row */}
+            <div className="bg-green-50 p-4 text-center">
+              <p className="text-sm text-gray-600">Potential Annual Savings</p>
+              <p className="text-3xl font-bold text-green-700">$1,032<span className="text-base font-normal text-green-600"> / year</span></p>
+            </div>
+            <div className="p-3 text-center">
+              <a
+                href="https://switch.healthplans.now/q/current-plan"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block w-full bg-blue-700 hover:bg-blue-800 text-white font-bold py-3 rounded-lg transition-colors"
+              >
+                See My Savings Now
+              </a>
+              <p className="text-xs text-gray-400 mt-2">
+                Rates shown are illustrative. Your savings depend on age, zip code, and carrier.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Carrier logos */}
+      <section className="border-y border-gray-200 py-6 px-4">
+        <div className="max-w-4xl mx-auto text-center">
+          <p className="text-xs text-gray-400 uppercase tracking-wide mb-3">We compare 30+ carriers including</p>
+          <div className="flex flex-wrap justify-center items-center gap-x-8 gap-y-2 text-sm font-medium text-gray-500">
+            <span>Aetna</span>
+            <span>AARP/UHC</span>
+            <span>Mutual of Omaha</span>
+            <span>Cigna</span>
+            <span>Humana</span>
+            <span>Bankers Fidelity</span>
+          </div>
+        </div>
+      </section>
+
+      {/* Why switching works — the Diet Coke explanation */}
+      <section className="bg-amber-50 border-b border-amber-100 py-8 px-4">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-2xl font-bold text-gray-900 mb-4">
+            Why You Can Switch Medigap Plans Without Losing Anything
+          </h2>
+          <p className="text-gray-700 mb-6">
+            Medigap plan letters are federally standardized. Plan G is Plan G,
+            no matter which insurance company sells it. Switching carriers
+            changes your bill, not your benefits. Not your doctors. Not your
+            coverage. Just the price.
+          </p>
+          <div className="grid md:grid-cols-3 gap-6 text-sm">
+            <div className="bg-white rounded-lg p-5 border border-amber-100">
+              <h3 className="font-semibold text-gray-900 mb-2">
+                Same Coverage, Different Price
+              </h3>
+              <p className="text-gray-600">
+                Plan G from Aetna covers the exact same things as Plan G from
+                Mutual of Omaha, Cigna, or any other carrier. Congress sets the
+                benefits. The only difference between carriers is the monthly
+                premium and how fast they raise it.
+              </p>
+            </div>
+            <div className="bg-white rounded-lg p-5 border border-amber-100">
+              <h3 className="font-semibold text-gray-900 mb-2">
+                Your Doctors Do Not Change
+              </h3>
+              <p className="text-gray-600">
+                Medigap plans have no networks. Any doctor in the country who
+                accepts Original Medicare accepts your Medigap plan — regardless
+                of which carrier issued it. Switching carriers does not affect a
+                single doctor relationship.
+              </p>
+            </div>
+            <div className="bg-white rounded-lg p-5 border border-amber-100">
+              <h3 className="font-semibold text-gray-900 mb-2">
+                Rate Increases Compound
+              </h3>
+              <p className="text-gray-600">
+                Carriers raise rates every year. After 5 years on the same plan,
+                you might be paying $50 to $100 per month more than a new
+                enrollee at a different carrier for identical coverage. That is
+                $600 to $1,200 a year you do not need to spend.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* The 3 types of Medigap switches */}
+      <section className="max-w-6xl mx-auto px-4 py-10">
+        <h2 className="text-2xl font-bold text-gray-900 mb-6">
+          Two Ways to Switch Medigap Plans
+        </h2>
+        <p className="text-gray-700 mb-6">
+          When people say they want to switch Medigap plans, they usually mean
+          one of two things. Each one works differently.
+        </p>
+
+        <div className="space-y-8">
+          {/* Type 1 */}
+          <div className="border rounded-lg p-6">
+            <div className="flex items-start gap-4">
+              <div className="flex-shrink-0 w-10 h-10 bg-blue-700 text-white rounded-full flex items-center justify-center font-bold">
+                1
+              </div>
+              <div>
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">
+                  Switch Carriers — Same Plan Letter, Lower Rate
+                </h3>
+                <p className="text-gray-700 mb-3">
+                  This is the most common switch. You keep the same plan letter
+                  (usually Plan G or Plan N) but move to a carrier with a lower
+                  premium. Your benefits stay identical. This is what the online
+                  comparison tool is built for.
+                </p>
+                <div className="bg-green-50 border border-green-200 rounded-lg p-4 text-sm">
+                  <p className="text-green-800">
+                    <strong>Typical savings:</strong> $30 to $100 per month ($360
+                    to $1,200 per year) depending on age, zip code, and how long
+                    you have been with your current carrier.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Type 2 */}
+          <div className="border rounded-lg p-6">
+            <div className="flex items-start gap-4">
+              <div className="flex-shrink-0 w-10 h-10 bg-blue-700 text-white rounded-full flex items-center justify-center font-bold">
+                2
+              </div>
+              <div>
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">
+                  Switch from Medicare Advantage Back to Medigap
+                </h3>
+                <p className="text-gray-700 mb-3">
+                  If you tried Medicare Advantage and want to go back to
+                  Original Medicare with a Medigap plan, you can — but timing
+                  and health matter. If you have been on Advantage for less than
+                  12 months and had Medigap before, you may have a trial right
+                  to return without health questions. Outside that window, most
+                  states allow medical underwriting.
+                </p>
+                <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4 text-sm">
+                  <p className="text-yellow-800">
+                    <strong>Important:</strong> Call before you make this switch.
+                    The rules are specific to your state and situation. Getting
+                    this wrong can mean losing access to Medigap coverage
+                    permanently.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* How to do it — step by step */}
+      <section className="bg-gray-50 border-y py-10 px-4">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-2xl font-bold text-gray-900 mb-6">
+            How to Switch Medigap Plans — Step by Step
+          </h2>
+          <div className="grid md:grid-cols-2 gap-8">
+            <div className="space-y-6">
+              <div className="flex gap-4 items-start">
+                <div className="flex-shrink-0 w-8 h-8 bg-blue-700 text-white rounded-full flex items-center justify-center font-bold text-sm">
+                  1
+                </div>
+                <div>
+                  <h3 className="font-semibold text-gray-900">
+                    Compare carriers in your zip code
+                  </h3>
+                  <p className="text-gray-600 text-sm mt-1">
+                    Use the{" "}
+                    <a
+                      href="https://switch.healthplans.now/q/current-plan"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-600 hover:underline font-medium"
+                    >
+                      online comparison tool
+                    </a>{" "}
+                    or call 855-559-1700. An independent broker pulls rates from
+                    all carriers — not just one company.
+                  </p>
+                </div>
+              </div>
+              <div className="flex gap-4 items-start">
+                <div className="flex-shrink-0 w-8 h-8 bg-blue-700 text-white rounded-full flex items-center justify-center font-bold text-sm">
+                  2
+                </div>
+                <div>
+                  <h3 className="font-semibold text-gray-900">
+                    Check your eligibility
+                  </h3>
+                  <p className="text-gray-600 text-sm mt-1">
+                    If you are in your Open Enrollment Period or have a
+                    guaranteed issue right, no carrier can deny you. If not, your
+                    health history matters. Most healthy applicants get approved
+                    quickly.
+                  </p>
+                </div>
+              </div>
+              <div className="flex gap-4 items-start">
+                <div className="flex-shrink-0 w-8 h-8 bg-blue-700 text-white rounded-full flex items-center justify-center font-bold text-sm">
+                  3
+                </div>
+                <div>
+                  <h3 className="font-semibold text-gray-900">
+                    Apply with the new carrier
+                  </h3>
+                  <p className="text-gray-600 text-sm mt-1">
+                    Your broker handles the application. Do not cancel your
+                    current plan until the new one is approved and active.
+                  </p>
+                </div>
+              </div>
+              <div className="flex gap-4 items-start">
+                <div className="flex-shrink-0 w-8 h-8 bg-blue-700 text-white rounded-full flex items-center justify-center font-bold text-sm">
+                  4
+                </div>
+                <div>
+                  <h3 className="font-semibold text-gray-900">
+                    Cancel your old plan
+                  </h3>
+                  <p className="text-gray-600 text-sm mt-1">
+                    Once approved, send written notice to your old carrier. Most
+                    require 30 days. You get a 30-day free look period on the
+                    new plan as a safety net.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* What you need */}
+            <div className="bg-white rounded-lg border p-6">
+              <h3 className="font-semibold text-gray-900 mb-4">
+                What to have ready when you call or go online:
+              </h3>
+              <ul className="space-y-3 text-sm text-gray-600">
+                <li className="flex gap-3">
+                  <span className="text-green-600 font-bold flex-shrink-0">
+                    ✓
+                  </span>
+                  Your Medicare number (red, white, and blue card)
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-green-600 font-bold flex-shrink-0">
+                    ✓
+                  </span>
+                  Your Medicare Part B effective date
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-green-600 font-bold flex-shrink-0">
+                    ✓
+                  </span>
+                  Current plan letter and carrier name
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-green-600 font-bold flex-shrink-0">
+                    ✓
+                  </span>
+                  Current monthly premium amount
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-green-600 font-bold flex-shrink-0">
+                    ✓
+                  </span>
+                  Your zip code (rates vary by area)
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-green-600 font-bold flex-shrink-0">
+                    ✓
+                  </span>
+                  Basic health history (if outside Open Enrollment)
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* When you can switch — the rules section (for topical depth) */}
+      <section className="max-w-6xl mx-auto px-4 py-10">
+        <h2 className="text-2xl font-bold text-gray-900 mb-4">
+          When Can You Switch Medigap Plans?
+        </h2>
+        <p className="text-gray-700 mb-6">
+          You can apply to switch any time of year. But whether a carrier can
+          ask health questions depends on your situation. Here are the windows
+          that matter.
+        </p>
+
+        <div className="space-y-6">
+          <div className="border-l-4 border-green-500 pl-4">
+            <h3 className="font-semibold text-gray-900">
+              Your 6-month Medigap Open Enrollment Period
+            </h3>
+            <p className="text-gray-600 text-sm mt-1">
+              Starts the month you turn 65 and have Part B. During this window,
+              every carrier must accept you regardless of health. This is your
+              strongest protection. If you are still in this window and unhappy
+              with your current plan, switching now is risk-free.
+            </p>
+          </div>
+
+          <div className="border-l-4 border-green-500 pl-4">
+            <h3 className="font-semibold text-gray-900">
+              Guaranteed Issue Rights
+            </h3>
+            <p className="text-gray-600 text-sm mt-1">
+              Federal law gives you the right to switch without health questions
+              in specific situations: your carrier goes bankrupt, your plan
+              leaves your area, you lose employer coverage, or you tried
+              Medicare Advantage and want to return within 12 months. These
+              windows usually last 63 days from the triggering event.
+            </p>
+          </div>
+
+          <div className="border-l-4 border-blue-500 pl-4">
+            <h3 className="font-semibold text-gray-900">
+              State Birthday Rules and Annual Windows
+            </h3>
+            <p className="text-gray-600 text-sm mt-1">
+              Some states give you additional switching windows. California,
+              Oregon, Illinois, and others have birthday rules that let you
+              switch to any plan with equal or lesser benefits around your
+              birthday each year without health questions. Check with a broker
+              to see what your state offers.
+            </p>
+          </div>
+
+          <div className="border-l-4 border-gray-300 pl-4">
+            <h3 className="font-semibold text-gray-900">
+              Outside Protected Windows — Medical Underwriting
+            </h3>
+            <p className="text-gray-600 text-sm mt-1">
+              If none of the above apply, you can still apply to switch any
+              time. Most states allow carriers to ask health questions. If you
+              are in good health, approval is usually fast — often the same day.
+              Conditions like diabetes, COPD, or heart disease may result in a
+              denial or higher premium. Always apply for the new plan before
+              canceling the old one.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Banner */}
+      <section className="bg-blue-700 text-white py-10 px-4">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-2xl font-bold mb-3">
+            See If You Could Save on Your Medicare Supplement
+          </h2>
+          <p className="text-blue-100 mb-6 text-lg">
+            Under 2 minutes. No commitment. See your number — then decide.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a
+              href="https://switch.healthplans.now/q/current-plan"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-white text-blue-700 hover:bg-blue-50 font-bold text-lg px-10 py-4 rounded-lg transition-colors shadow-lg"
+            >
+              CHECK MY SAVINGS
+            </a>
+            <a
+              href="tel:8555591700"
+              className="border-2 border-white text-white hover:bg-blue-600 font-semibold px-8 py-4 rounded-lg transition-colors"
+            >
+              Call 855-559-1700
+            </a>
+          </div>
+          <p className="text-blue-200 text-sm mt-4">
+            Online tool: FL, NJ, PA, TX, VA · All other states: call for free
+            comparison
+          </p>
+        </div>
+      </section>
+
+      {/* Why people switch — social proof / empathy */}
+      <section className="max-w-6xl mx-auto px-4 py-10">
+        <h2 className="text-2xl font-bold text-gray-900 mb-6">
+          Why People Switch Medigap Plans
+        </h2>
+        <div className="grid md:grid-cols-2 gap-6">
+          <div>
+            <p className="text-gray-700 mb-4">
+              Most people call me after opening a rate increase letter. It is
+              the single most common reason someone switches. On attained-age
+              rated plans, your rate goes up every year as you get older. On top
+              of that, carriers can raise rates across the board when claims
+              increase. When both hit in the same year, 10 to 18 percent jumps
+              are common.
+            </p>
+            <p className="text-gray-700">
+              Other people switch because a friend mentioned they are paying less
+              for the same Plan G. That conversation usually leads to a call
+              asking me to check rates. More often than not, there is a
+              lower-cost carrier available.
+            </p>
+          </div>
+          <div>
+            <h3 className="font-semibold text-gray-900 mb-3">
+              Common reasons people switch:
+            </h3>
+            <ul className="space-y-2 text-sm text-gray-600">
+              <li className="flex gap-2">
+                <span className="text-blue-600 font-bold">→</span>
+                Annual rate increase letter arrived
+              </li>
+              <li className="flex gap-2">
+                <span className="text-blue-600 font-bold">→</span>
+                Premium has grown $50 or more since enrollment
+              </li>
+              <li className="flex gap-2">
+                <span className="text-blue-600 font-bold">→</span>
+                Friend or family member mentioned a lower rate
+              </li>
+              <li className="flex gap-2">
+                <span className="text-blue-600 font-bold">→</span>
+                Current broker has not reviewed coverage in years
+              </li>
+              <li className="flex gap-2">
+                <span className="text-blue-600 font-bold">→</span>
+                Switching from Medicare Advantage back to Medigap
+              </li>
+              <li className="flex gap-2">
+                <span className="text-blue-600 font-bold">→</span>
+                Moving to a new state and need to re-evaluate carriers
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      {/* About Anthony — trust section */}
+      <section className="bg-gray-50 border-y py-8 px-4">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-xl font-bold text-gray-900 mb-4">
+            About Anthony Orner — Your Medicare Broker
+          </h2>
+          <p className="text-gray-700 mb-3">
+            I am an independent licensed Medicare broker based in New Jersey,
+            working with clients in 35 states. Independent means I am not
+            employed by any single insurance company. I compare plans from every
+            carrier available in your area and recommend the one that fits your
+            budget and health situation.
+          </p>
+          <p className="text-gray-700">
+            There is no cost for my help. Carriers pay brokers the same
+            commission regardless of which plan you choose, so I have no
+            financial reason to push one carrier over another. If switching does
+            not make sense for your situation, I will tell you that. My job is
+            to give you honest information and let you decide.
+          </p>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section className="max-w-4xl mx-auto px-4 py-10">
+        <h2 className="text-2xl font-bold text-gray-900 mb-6">
+          Frequently Asked Questions About Switching Medigap Plans
+        </h2>
+        <FAQSection faqs={faqs} />
+      </section>
+
+      {/* Internal links */}
+      <section className="bg-gray-50 border-t py-8 px-4">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-lg font-semibold text-gray-900 mb-4">
+            Related Resources
+          </h2>
+          <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-4 text-sm">
+            <Link
+              href="/medicare-supplement/switch-carriers"
+              className="text-blue-600 hover:underline"
+            >
+              Switch Carriers — Same Plan G, Lower Rate
+            </Link>
+            <Link
+              href="/services/what-time-of-year-can-you-switch-medicare-supplement-plans"
+              className="text-blue-600 hover:underline"
+            >
+              When Can You Switch Supplement Plans?
+            </Link>
+            <Link
+              href="/services/why-did-my-medicare-supplement-rate-change"
+              className="text-blue-600 hover:underline"
+            >
+              Why Did My Rate Change?
+            </Link>
+            <Link
+              href="/medicare-supplement/new-jersey/plan-g-vs-plan-n"
+              className="text-blue-600 hover:underline"
+            >
+              Plan G vs Plan N — Which Saves More?
+            </Link>
+            <Link
+              href="/medicare-supplement/new-jersey/cost"
+              className="text-blue-600 hover:underline"
+            >
+              Medigap Costs in NJ
+            </Link>
+            <Link
+              href="/services/how-can-i-save-money-on-my-medicare-supplement"
+              className="text-blue-600 hover:underline"
+            >
+              How to Save Money on Your Supplement
+            </Link>
+            <Link
+              href="/medicare-supplement/new-jersey/vs-medicare-advantage"
+              className="text-blue-600 hover:underline"
+            >
+              Supplement vs Advantage
+            </Link>
+            <Link
+              href="/services/you-get-a-medicare-supplement-plan-if-you-have-a-pre-existing-condition"
+              className="text-blue-600 hover:underline"
+            >
+              Medigap with Pre-Existing Conditions
+            </Link>
+          </div>
+        </div>
+      </section>
+    </>
+  );
+}

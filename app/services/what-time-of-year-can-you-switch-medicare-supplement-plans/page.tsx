@@ -272,6 +272,14 @@ export default function WhatTimeOfYearCanYouSwitchMedigap() {
         <ul className="space-y-2">
           <li>
             <Link
+              href="/services/switch-medigap-plans"
+              className="text-blue-600 hover:underline"
+            >
+              Switch Medigap Plans — See If You Could Save in 2 Minutes
+            </Link>
+          </li>
+          <li>
+            <Link
               href="/services/compare-and-enroll-in-plan-g-online"
               className="text-blue-600 hover:underline"
             >

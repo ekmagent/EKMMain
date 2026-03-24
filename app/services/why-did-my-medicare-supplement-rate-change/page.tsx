@@ -290,6 +290,14 @@ export default function WhyDidMyMedicareSupplementRateChange() {
           <ul className="space-y-2">
             <li>
               <Link
+                href="/services/switch-medigap-plans"
+                className="text-blue-600 hover:underline"
+              >
+                Switch Medigap Plans — See If You Could Save in 2 Minutes
+              </Link>
+            </li>
+            <li>
+              <Link
                 href="/medicare-supplement/new-jersey"
                 className="text-blue-600 hover:underline"
               >
