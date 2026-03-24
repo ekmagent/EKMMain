@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "Medicare broker for lupus patients | Free Coverage Review | MedicareYourself",
   description:
     "Medicare broker for lupus patients in NJ. Anthony Orner finds plans covering biologics, labs, and specialist visits through every flare. Free plan review.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-lupus-patients" },
   openGraph: {
     title:
       "Medicare broker for lupus patients | Free Coverage Review | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-01",
-  dateModified: "2025-07-01",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -96,7 +97,7 @@ export default function MedicareBrokerForLupusPatients() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -211,7 +212,7 @@ export default function MedicareBrokerForLupusPatients() {
           </a>
         </p>
         <Link
-          href="/get-a-free-quote"
+          href="/quote"
           className="inline-block bg-white text-blue-600 font-semibold px-6 py-3 rounded-lg hover:bg-gray-100 transition"
         >
           Get a Free Quote
@@ -227,7 +228,7 @@ export default function MedicareBrokerForLupusPatients() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/services/medicare-broker-for-chronic-conditions"
+              href="/services/best-medicare-plan-for-chronic-conditions"
               className="text-blue-600 hover:underline"
             >
               Medicare Broker for Chronic Conditions
@@ -235,7 +236,7 @@ export default function MedicareBrokerForLupusPatients() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medigap-open-enrollment-nj"
+              href="/medicare-supplement/new-jersey/turning-65"
               className="text-blue-600 hover:underline"
             >
               Medigap Open Enrollment in NJ
@@ -243,7 +244,7 @@ export default function MedicareBrokerForLupusPatients() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-part-d-biologics"
+              href="/learn/medicare-parts-explained"
               className="text-blue-600 hover:underline"
             >
               Medicare Part D and Biologic Medications
@@ -251,7 +252,7 @@ export default function MedicareBrokerForLupusPatients() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-advantage-vs-medigap"
+              href="/medicare-supplement/new-jersey/vs-medicare-advantage"
               className="text-blue-600 hover:underline"
             >
               Medicare Advantage vs. Medigap: Which Is Right for You?

@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "medicare advisors nj | Free Licensed Broker Help | MedicareYourself",
   description:
     "Medicare advisors in NJ who compare every major carrier at no cost to you. Anthony Orner offers free, unbiased plan guidance. Call 855-559-1700.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-advisors-nj" },
   openGraph: {
     title:
       "medicare advisors nj | Free Licensed Broker Help | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-01",
-  dateModified: "2025-07-01",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -97,7 +98,7 @@ export default function MedicareAdvisorsNJ() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -291,7 +292,7 @@ export default function MedicareAdvisorsNJ() {
           <ul className="space-y-2">
             <li>
               <Link
-                href="/services/medigap-plan-g-nj"
+                href="/services/how-much-is-plan-g-in-nj"
                 className="text-blue-600 hover:underline"
               >
                 Medigap Plan G in New Jersey
@@ -299,7 +300,7 @@ export default function MedicareAdvisorsNJ() {
             </li>
             <li>
               <Link
-                href="/services/medicare-advantage-nj"
+                href="/medicare-advantage/new-jersey"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Advantage Plans in NJ
@@ -307,7 +308,7 @@ export default function MedicareAdvisorsNJ() {
             </li>
             <li>
               <Link
-                href="/guides/medigap-open-enrollment"
+                href="/medicare-supplement/new-jersey/turning-65"
                 className="text-blue-600 hover:underline"
               >
                 Medigap Open Enrollment: When and Why It Matters
@@ -315,7 +316,7 @@ export default function MedicareAdvisorsNJ() {
             </li>
             <li>
               <Link
-                href="/guides/medicare-vs-employer-coverage"
+                href="/learn/medicare-parts-explained"
                 className="text-blue-600 hover:underline"
               >
                 Medicare vs. Employer Coverage: How They Work Together

@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "plan g rates for 68 year old in new jersey | Free Carrier Comparison | MedicareYourself",
   description:
     "Plan G rates for a 68-year-old in New Jersey vary by $60+ across carriers. See real NJ premium examples and get a free comparison from Anthony Orner.",
+  alternates: { canonical: "https://medicareyourself.com/services/plan-g-rates-for-68-year-old-in-new-jersey" },
   openGraph: {
     title:
       "plan g rates for 68 year old in new jersey | Free Carrier Comparison | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-01",
-  dateModified: "2025-07-01",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -97,7 +98,7 @@ export default function PlanGRates68NJ() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -281,7 +282,7 @@ export default function PlanGRates68NJ() {
           <ul className="space-y-2">
             <li>
               <Link
-                href="/services/medicare-supplement-plan-g"
+                href="/services/compare-and-enroll-in-plan-g-online"
                 className="text-blue-600 hover:underline"
               >
                 What Does Medicare Plan G Cover?
@@ -289,7 +290,7 @@ export default function PlanGRates68NJ() {
             </li>
             <li>
               <Link
-                href="/services/plan-g-vs-plan-n"
+                href="/medicare-supplement/new-jersey/plan-g-vs-plan-n"
                 className="text-blue-600 hover:underline"
               >
                 Plan G vs. Plan N: Which Is Right for You?
@@ -297,7 +298,7 @@ export default function PlanGRates68NJ() {
             </li>
             <li>
               <Link
-                href="/services/medigap-open-enrollment-nj"
+                href="/medicare-supplement/new-jersey/turning-65"
                 className="text-blue-600 hover:underline"
               >
                 Medigap Open Enrollment in New Jersey
@@ -305,7 +306,7 @@ export default function PlanGRates68NJ() {
             </li>
             <li>
               <Link
-                href="/services/medicare-supplement-rates-by-age"
+                href="/services/best-medicare-supplement-rates-by-age-plan-g-plan-n-plan-f-rates"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Supplement Rates by Age

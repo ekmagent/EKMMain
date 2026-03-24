@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "hoboken nj medicare insurance agents | Free Consultation | MedicareYourself",
   description:
     "Hoboken NJ Medicare insurance agents — Anthony Orner compares Supplement and Advantage plans in Hudson County. Independent broker. Free consultation.",
+  alternates: { canonical: "https://medicareyourself.com/services/hoboken-nj-medicare-insurance-agents" },
   openGraph: {
     title:
       "hoboken nj medicare insurance agents | Free Consultation | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,6 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
   mainEntityOfPage:
     "https://medicareyourself.com/services/hoboken-nj-medicare-insurance-agents",
 };
@@ -96,7 +99,7 @@ export default function HobokenNJMedicareInsuranceAgents() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -268,7 +271,7 @@ export default function HobokenNJMedicareInsuranceAgents() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/services/jersey-city-nj-medicare-insurance-agents"
+              href="/services/hoboken-nj-medicare-insurance-agents"
               className="text-blue-600 hover:underline"
             >
               Jersey City NJ Medicare Insurance Agents
@@ -276,7 +279,7 @@ export default function HobokenNJMedicareInsuranceAgents() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-supplement-plan-g-nj"
+              href="/medicare-supplement/new-jersey/plan-g-vs-plan-n"
               className="text-blue-600 hover:underline"
             >
               Medicare Supplement Plan G in New Jersey
@@ -284,7 +287,7 @@ export default function HobokenNJMedicareInsuranceAgents() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-advantage-vs-medigap"
+              href="/medicare-supplement/new-jersey/vs-medicare-advantage"
               className="text-blue-600 hover:underline"
             >
               Medicare Advantage vs. Medigap: Which Is Right for You?
@@ -292,7 +295,7 @@ export default function HobokenNJMedicareInsuranceAgents() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medigap-open-enrollment-period"
+              href="/medicare-supplement/new-jersey/turning-65"
               className="text-blue-600 hover:underline"
             >
               Medigap Open Enrollment Period Explained

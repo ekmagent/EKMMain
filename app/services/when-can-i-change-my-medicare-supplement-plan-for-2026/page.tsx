@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "when can i change my medicare supplement plan for 2026 | Free Switching Help | MedicareYourself",
   description:
     "When can I change my Medicare Supplement plan for 2026? Learn switch rules, guaranteed-issue rights, and underwriting timelines. Free help from a broker.",
+  alternates: { canonical: "https://medicareyourself.com/services/when-can-i-change-my-medicare-supplement-plan-for-2026" },
   openGraph: {
     title:
       "when can i change my medicare supplement plan for 2026 | Free Switching Help | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-01-15",
-  dateModified: "2025-01-15",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -97,7 +98,7 @@ export default function WhenCanIChangeMyMedicareSupplementPlanFor2026() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -221,7 +222,7 @@ export default function WhenCanIChangeMyMedicareSupplementPlanFor2026() {
           for a free comparison.
         </p>
         <Link
-          href="/get-a-free-quote"
+          href="/quote"
           className="inline-block bg-white text-blue-600 font-bold py-3 px-8 rounded-lg hover:bg-gray-100 transition"
         >
           Get a Free Quote
@@ -239,7 +240,7 @@ export default function WhenCanIChangeMyMedicareSupplementPlanFor2026() {
         <ul className="space-y-3">
           <li>
             <Link
-              href="/services/medicare-supplement-plan-g"
+              href="/services/compare-and-enroll-in-plan-g-online"
               className="text-blue-600 hover:underline"
             >
               Medicare Supplement Plan G: What It Covers and Costs
@@ -247,7 +248,7 @@ export default function WhenCanIChangeMyMedicareSupplementPlanFor2026() {
           </li>
           <li>
             <Link
-              href="/services/medigap-open-enrollment-period"
+              href="/medicare-supplement/new-jersey/turning-65"
               className="text-blue-600 hover:underline"
             >
               Medigap Open Enrollment Period: Your One Best Window
@@ -255,7 +256,7 @@ export default function WhenCanIChangeMyMedicareSupplementPlanFor2026() {
           </li>
           <li>
             <Link
-              href="/services/medicare-supplement-vs-medicare-advantage"
+              href="/medicare-supplement/new-jersey/vs-medicare-advantage"
               className="text-blue-600 hover:underline"
             >
               Medicare Supplement vs. Medicare Advantage: Which Is Right for You?
@@ -263,7 +264,7 @@ export default function WhenCanIChangeMyMedicareSupplementPlanFor2026() {
           </li>
           <li>
             <Link
-              href="/services/medicare-part-b-enrollment"
+              href="/learn/how-to-sign-up-for-medicare"
               className="text-blue-600 hover:underline"
             >
               Medicare Part B Enrollment: Deadlines and Penalties

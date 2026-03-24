@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "Find an NJ Medicare Broker Near You | Free No-Pressure Help | MedicareYourself",
   description:
     "Find an NJ Medicare broker near you — Anthony Orner is licensed statewide, compares top carriers at no cost. Independent, not captive. Free consultation.",
+  alternates: { canonical: "https://medicareyourself.com/services/find-an-nj-medicare-broker-near-you" },
   openGraph: {
     title:
       "Find an NJ Medicare Broker Near You | Free No-Pressure Help | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -57,8 +58,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-01-01",
-  dateModified: new Date().toISOString().split("T")[0],
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -96,7 +97,7 @@ export default function FindNJMedicareBrokerNearYou() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -259,7 +260,7 @@ export default function FindNJMedicareBrokerNearYou() {
           <ul className="space-y-2">
             <li>
               <Link
-                href="/medicare/medigap-plan-g-new-jersey"
+                href="/medicare-supplement/new-jersey/plan-g-vs-plan-n"
                 className="text-blue-700 hover:underline"
               >
                 Medicare Supplement Plan G in New Jersey
@@ -267,7 +268,7 @@ export default function FindNJMedicareBrokerNearYou() {
             </li>
             <li>
               <Link
-                href="/medicare/medicare-advantage-vs-medigap"
+                href="/medicare-supplement/new-jersey/vs-medicare-advantage"
                 className="text-blue-700 hover:underline"
               >
                 Medicare Advantage vs. Medigap: Which Is Right for You?
@@ -275,7 +276,7 @@ export default function FindNJMedicareBrokerNearYou() {
             </li>
             <li>
               <Link
-                href="/medicare/turning-65-medicare-checklist"
+                href="/medicare-supplement/new-jersey/turning-65"
                 className="text-blue-700 hover:underline"
               >
                 Turning 65 Medicare Checklist
@@ -283,7 +284,7 @@ export default function FindNJMedicareBrokerNearYou() {
             </li>
             <li>
               <Link
-                href="/medicare/medicare-part-d-nj"
+                href="/learn/medicare-parts-explained"
                 className="text-blue-700 hover:underline"
               >
                 Medicare Part D in New Jersey

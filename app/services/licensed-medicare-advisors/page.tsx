@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "licensed medicare advisors | Free Unbiased Help | MedicareYourself",
   description:
     "Licensed medicare advisors compare plans across carriers at no cost to you. Anthony Orner holds NJ and PA licenses. Free consultation — call today.",
+  alternates: { canonical: "https://medicareyourself.com/services/licensed-medicare-advisors" },
   openGraph: {
     title:
       "licensed medicare advisors | Free Unbiased Help | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-14",
-  dateModified: "2025-07-14",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -96,7 +97,7 @@ export default function LicensedMedicareAdvisorsPage() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -222,7 +223,7 @@ export default function LicensedMedicareAdvisorsPage() {
             </a>{" "}
             or{" "}
             <Link
-              href="/get-a-free-quote"
+              href="/quote"
               className="underline font-bold text-white"
             >
               Get a Free Quote
@@ -237,7 +238,7 @@ export default function LicensedMedicareAdvisorsPage() {
           <ul className="space-y-2">
             <li>
               <Link
-                href="/medicare-guides/medicare-advantage-vs-medigap"
+                href="/medicare-supplement/new-jersey/vs-medicare-advantage"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Advantage vs. Medigap: Which Is Right for You?
@@ -245,7 +246,7 @@ export default function LicensedMedicareAdvisorsPage() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/medicare-enrollment-periods"
+                href="/learn/medicare-enrollment-periods"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Enrollment Periods Explained
@@ -253,7 +254,7 @@ export default function LicensedMedicareAdvisorsPage() {
             </li>
             <li>
               <Link
-                href="/services/free-medicare-consultation"
+                href="/services/help-with-your-medicare-decision"
                 className="text-blue-600 hover:underline"
               >
                 Free Medicare Consultation
@@ -261,7 +262,7 @@ export default function LicensedMedicareAdvisorsPage() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/how-to-choose-a-medicare-plan"
+                href="/learn/medicare-parts-explained"
                 className="text-blue-600 hover:underline"
               >
                 How to Choose a Medicare Plan

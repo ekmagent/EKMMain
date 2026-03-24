@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "Find a Medicare Agent in Newark NJ | Free No-Obligation Help | MedicareYourself",
   description:
     "Find a Medicare agent in Newark NJ — Anthony Orner is an independent broker comparing Medigap and Advantage plans in Essex County. Free consultation today.",
+  alternates: { canonical: "https://medicareyourself.com/services/find-a-medicare-agent-in-newark-nj" },
   openGraph: {
     title:
       "Find a Medicare Agent in Newark NJ | Free No-Obligation Help | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,6 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
   mainEntityOfPage:
     "https://medicareyourself.com/services/find-a-medicare-agent-in-newark-nj",
 };
@@ -97,7 +100,7 @@ export default function FindMedicareAgentNewarkNJ() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -258,7 +261,7 @@ export default function FindMedicareAgentNewarkNJ() {
             <a href="tel:8555591700">855-559-1700</a>
           </p>
           <Link
-            href="/get-a-free-quote"
+            href="/quote"
             className="inline-block bg-blue-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-blue-700 transition"
           >
             Get a Free Quote
@@ -272,7 +275,7 @@ export default function FindMedicareAgentNewarkNJ() {
           <ul className="space-y-2">
             <li>
               <Link
-                href="/medicare-guides/medigap-plans-nj"
+                href="/medicare-supplement/new-jersey"
                 className="text-blue-600 hover:underline"
               >
                 Medigap Plans in New Jersey: What You Need to Know
@@ -280,7 +283,7 @@ export default function FindMedicareAgentNewarkNJ() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/medicare-advantage-vs-medigap"
+                href="/medicare-supplement/new-jersey/vs-medicare-advantage"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Advantage vs. Medigap: Which Is Right for You?
@@ -288,7 +291,7 @@ export default function FindMedicareAgentNewarkNJ() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/medicare-enrollment-periods"
+                href="/learn/medicare-enrollment-periods"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Enrollment Periods Explained
@@ -296,7 +299,7 @@ export default function FindMedicareAgentNewarkNJ() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/part-b-late-enrollment-penalty"
+                href="/learn/how-to-sign-up-for-medicare"
                 className="text-blue-600 hover:underline"
               >
                 Part B Late Enrollment Penalty: What It Costs

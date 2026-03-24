@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "medicare supplement plan g cost for 69 year old | Free Quote | MedicareYourself",
   description:
     "Medicare Supplement Plan G cost for a 69-year-old varies by carrier and pricing method. See 2025 rate examples and compare quotes with a licensed broker.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-supplement-plan-g-cost-for-69-year-old" },
   openGraph: {
     title:
       "medicare supplement plan g cost for 69 year old | Free Quote | MedicareYourself",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-01-15",
-  dateModified: "2025-01-15",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-19",
 };
 
 const faqs = [
@@ -276,7 +277,7 @@ export default function MedicareSupplementPlanGCostFor69YearOld() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/services/medicare-supplement-plan-g"
+              href="/services/compare-and-enroll-in-plan-g-online"
               className="text-blue-600 hover:underline"
             >
               Medicare Supplement Plan G: Full Coverage Guide
@@ -284,7 +285,7 @@ export default function MedicareSupplementPlanGCostFor69YearOld() {
           </li>
           <li>
             <Link
-              href="/services/medicare-supplement-plan-g-vs-plan-n"
+              href="/medicare-supplement/new-jersey/plan-g-vs-plan-n"
               className="text-blue-600 hover:underline"
             >
               Plan G vs. Plan N: Which Costs Less Long-Term?
@@ -292,7 +293,7 @@ export default function MedicareSupplementPlanGCostFor69YearOld() {
           </li>
           <li>
             <Link
-              href="/services/medigap-open-enrollment-period"
+              href="/medicare-supplement/new-jersey/turning-65"
               className="text-blue-600 hover:underline"
             >
               Medigap Open Enrollment: When You Have Guaranteed Issue
@@ -300,7 +301,7 @@ export default function MedicareSupplementPlanGCostFor69YearOld() {
           </li>
           <li>
             <Link
-              href="/services/medicare-supplement-rate-increases"
+              href="/services/medicare-supplement-rate-jumped-why-and-what-can-i-do"
               className="text-blue-600 hover:underline"
             >
               Why Medicare Supplement Rates Increase (And How to Plan for It)

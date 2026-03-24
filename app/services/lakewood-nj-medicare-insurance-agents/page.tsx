@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "lakewood nj medicare insurance agents | Free Rate Comparison | MedicareYourself",
   description:
     "Lakewood NJ Medicare insurance agents compare plans at no cost. Anthony Orner shops every top carrier in Ocean County. Free quote — call or book online.",
+  alternates: { canonical: "https://medicareyourself.com/services/lakewood-nj-medicare-insurance-agents" },
   openGraph: {
     title:
       "lakewood nj medicare insurance agents | Free Rate Comparison | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,6 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
   mainEntityOfPage:
     "https://medicareyourself.com/services/lakewood-nj-medicare-insurance-agents",
 };
@@ -93,7 +96,7 @@ export default function LakewoodNJMedicareInsuranceAgents() {
 
       <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-4">
         <Link href="/">Home</Link> /{" "}
-        <Link href="/medicare-guides">Medicare Guides</Link> /{" "}
+        <Link href="/services">Medicare Guides</Link> /{" "}
         <span>Lakewood NJ Medicare Insurance Agents</span>
       </nav>
 
@@ -267,7 +270,7 @@ export default function LakewoodNJMedicareInsuranceAgents() {
           <ul className="space-y-2">
             <li>
               <Link
-                href="/medicare-guides/medicare-supplement-plans-nj"
+                href="/medicare-supplement/new-jersey"
                 className="text-blue-600 underline"
               >
                 Medicare Supplement Plans in New Jersey
@@ -275,7 +278,7 @@ export default function LakewoodNJMedicareInsuranceAgents() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/medicare-advantage-plans-nj"
+                href="/medicare-advantage/new-jersey"
                 className="text-blue-600 underline"
               >
                 Medicare Advantage Plans in New Jersey
@@ -283,7 +286,7 @@ export default function LakewoodNJMedicareInsuranceAgents() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/when-to-enroll-in-medicare"
+                href="/learn/how-to-sign-up-for-medicare"
                 className="text-blue-600 underline"
               >
                 When to Enroll in Medicare
@@ -291,7 +294,7 @@ export default function LakewoodNJMedicareInsuranceAgents() {
             </li>
             <li>
               <Link
-                href="/services/ocean-county-medicare-broker"
+                href="/services/lakewood-nj-medicare-insurance-agents"
                 className="text-blue-600 underline"
               >
                 Ocean County Medicare Broker Services

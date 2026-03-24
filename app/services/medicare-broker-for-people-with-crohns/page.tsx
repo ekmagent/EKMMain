@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "medicare broker for people with crohns | No-Cost Plan Help | MedicareYourself",
   description:
     "Medicare broker for people with Crohn's who need specialist and drug coverage that fits. Anthony Orner compares plans at no cost. Schedule a free call today.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-people-with-crohns" },
   openGraph: {
     title:
       "medicare broker for people with crohns | No-Cost Plan Help | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-01",
-  dateModified: "2025-07-01",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -96,7 +97,7 @@ export default function MedicareBrokerForPeopleWithCrohns() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -262,7 +263,7 @@ export default function MedicareBrokerForPeopleWithCrohns() {
               855-559-1700
             </a>{" "}
             or{" "}
-            <Link href="/get-a-free-quote" className="underline font-bold">
+            <Link href="/quote" className="underline font-bold">
               Get a Free Quote
             </Link>
           </p>
@@ -275,7 +276,7 @@ export default function MedicareBrokerForPeopleWithCrohns() {
           <ul className="space-y-2">
             <li>
               <Link
-                href="/medicare-guides/medicare-supplement-plans"
+                href="/learn/what-is-medigap"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Supplement Plans Explained
@@ -283,7 +284,7 @@ export default function MedicareBrokerForPeopleWithCrohns() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/medicare-part-d-drug-coverage"
+                href="/learn/medicare-parts-explained"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Part D Drug Coverage Guide
@@ -291,7 +292,7 @@ export default function MedicareBrokerForPeopleWithCrohns() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/medicare-advantage-vs-medigap"
+                href="/medicare-supplement/new-jersey/vs-medicare-advantage"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Advantage vs. Medigap: Which Is Right for You?
@@ -299,7 +300,7 @@ export default function MedicareBrokerForPeopleWithCrohns() {
             </li>
             <li>
               <Link
-                href="/services/medicare-broker-for-chronic-conditions"
+                href="/services/best-medicare-plan-for-chronic-conditions"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Broker Help for Chronic Conditions

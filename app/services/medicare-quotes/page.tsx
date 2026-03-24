@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "medicare quotes | Free Instant Rates From Every Carrier | MedicareYourself",
   description:
     "Medicare quotes from every major carrier compared side by side. Get free Supplement and Advantage rates instantly — no obligation, no runaround.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-quotes" },
   openGraph: {
     title:
       "medicare quotes | Free Instant Rates From Every Carrier | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,6 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
   mainEntityOfPage:
     "https://medicareyourself.com/services/medicare-quotes",
 };
@@ -96,7 +99,7 @@ export default function MedicareQuotesPage() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -240,7 +243,7 @@ export default function MedicareQuotesPage() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/medicare/supplement-plans"
+              href="/medicare-supplement/new-jersey"
               className="text-blue-600 hover:underline"
             >
               Medicare Supplement Plans Explained
@@ -248,7 +251,7 @@ export default function MedicareQuotesPage() {
           </li>
           <li>
             <Link
-              href="/medicare/advantage-plans"
+              href="/medicare-advantage/new-jersey"
               className="text-blue-600 hover:underline"
             >
               Medicare Advantage Plans: How They Work
@@ -256,7 +259,7 @@ export default function MedicareQuotesPage() {
           </li>
           <li>
             <Link
-              href="/medicare/plan-g"
+              href="/medicare-supplement/new-jersey/plan-g-vs-plan-n"
               className="text-blue-600 hover:underline"
             >
               Medicare Plan G: Benefits and Costs
@@ -264,7 +267,7 @@ export default function MedicareQuotesPage() {
           </li>
           <li>
             <Link
-              href="/medicare/enrollment-periods"
+              href="/learn/medicare-enrollment-periods"
               className="text-blue-600 hover:underline"
             >
               Medicare Enrollment Periods and Deadlines

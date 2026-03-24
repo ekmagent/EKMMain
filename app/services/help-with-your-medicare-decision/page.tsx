@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "help with your medicare decision | Free, No-Pressure Guidance | MedicareYourself",
   description:
     "Get help with your Medicare decision from a licensed independent broker. Anthony Orner explains every option without pressure. Schedule a free consultation.",
+  alternates: { canonical: "https://medicareyourself.com/services/help-with-your-medicare-decision" },
   openGraph: {
     title:
       "help with your medicare decision | Free, No-Pressure Guidance | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-01-01",
-  dateModified: "2025-01-01",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -97,7 +98,7 @@ export default function HelpWithYourMedicareDecision() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -272,7 +273,7 @@ export default function HelpWithYourMedicareDecision() {
           <ul className="space-y-2">
             <li>
               <Link
-                href="/medicare-guides/original-medicare-vs-medicare-advantage"
+                href="/medicare-supplement/new-jersey/vs-medicare-advantage"
                 className="text-blue-600 hover:underline"
               >
                 Original Medicare vs. Medicare Advantage: Full Comparison
@@ -280,7 +281,7 @@ export default function HelpWithYourMedicareDecision() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/medigap-open-enrollment"
+                href="/medicare-supplement/new-jersey/turning-65"
                 className="text-blue-600 hover:underline"
               >
                 Medigap Open Enrollment: What You Need to Know
@@ -288,7 +289,7 @@ export default function HelpWithYourMedicareDecision() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/medicare-part-b-enrollment"
+                href="/learn/how-to-sign-up-for-medicare"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Part B Enrollment and Late Penalties
@@ -296,7 +297,7 @@ export default function HelpWithYourMedicareDecision() {
             </li>
             <li>
               <Link
-                href="/services/free-medicare-consultation"
+                href="/services/help-with-your-medicare-decision"
                 className="text-blue-600 hover:underline"
               >
                 Book a Free Medicare Consultation

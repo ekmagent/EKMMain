@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "Medicare Supplement Insurance for Crohn's Patients | Free Guidance | MedicareYourself",
   description:
     "Medicare supplement insurance for Crohn's patients covers the 20% gap on biologics and colonoscopies. See which carriers approve IBD applicants. Free help.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-supplement-insurance-for-crohns-patients" },
   openGraph: {
     title:
       "Medicare Supplement Insurance for Crohn's Patients | Free Guidance | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-01",
-  dateModified: "2025-07-01",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -99,7 +100,7 @@ export default function MedicareSupplementCrohnsPage() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -222,7 +223,7 @@ export default function MedicareSupplementCrohnsPage() {
           </a>
         </p>
         <Link
-          href="/get-a-free-quote"
+          href="/quote"
           className="inline-block bg-white text-blue-600 font-semibold px-6 py-3 rounded-lg hover:bg-gray-100 transition"
         >
           Get a Free Quote
@@ -238,7 +239,7 @@ export default function MedicareSupplementCrohnsPage() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/services/best-medicare-supplement-plans"
+              href="/services/best-and-cheapest-medicare-supplement"
               className="text-blue-600 hover:underline"
             >
               Best Medicare Supplement Plans for 2026
@@ -246,7 +247,7 @@ export default function MedicareSupplementCrohnsPage() {
           </li>
           <li>
             <Link
-              href="/services/medigap-plan-g-vs-plan-n"
+              href="/medicare-supplement/new-jersey/plan-g-vs-plan-n"
               className="text-blue-600 hover:underline"
             >
               Medigap Plan G vs. Plan N: Which Saves You More?
@@ -254,7 +255,7 @@ export default function MedicareSupplementCrohnsPage() {
           </li>
           <li>
             <Link
-              href="/services/guaranteed-issue-medigap"
+              href="/services/you-get-a-medicare-supplement-plan-if-you-have-a-pre-existing-condition"
               className="text-blue-600 hover:underline"
             >
               Guaranteed-Issue Medigap Rights Explained
@@ -262,7 +263,7 @@ export default function MedicareSupplementCrohnsPage() {
           </li>
           <li>
             <Link
-              href="/services/medicare-part-d-prescription-coverage"
+              href="/learn/medicare-parts-explained"
               className="text-blue-600 hover:underline"
             >
               Medicare Part D Prescription Coverage Guide

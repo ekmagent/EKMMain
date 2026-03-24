@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "what is the best medicare plan for dialysis? | Free Broker Consultation | MedicareYourself",
   description:
     "What is the best Medicare plan for dialysis? Compare Medigap and Advantage for ESRD, drug costs, and out-of-pocket caps. Free consultation: 855-559-1700.",
+  alternates: { canonical: "https://medicareyourself.com/services/what-is-the-best-medicare-plan-for-dialysis" },
   openGraph: {
     title:
       "what is the best medicare plan for dialysis? | Free Broker Consultation | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-01",
-  dateModified: "2025-07-01",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -99,7 +100,7 @@ export default function BestMedicarePlanForDialysis() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -225,7 +226,7 @@ export default function BestMedicarePlanForDialysis() {
           to speak with a licensed broker. No cost, no obligation.
         </p>
         <Link
-          href="/get-a-free-quote"
+          href="/quote"
           className="inline-block bg-white text-blue-600 font-semibold py-2 px-6 rounded-lg hover:bg-gray-100 transition"
         >
           Get a Free Quote
@@ -239,7 +240,7 @@ export default function BestMedicarePlanForDialysis() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/services/medicare-supplement-plan-g"
+              href="/services/compare-and-enroll-in-plan-g-online"
               className="text-blue-600 hover:underline"
             >
               Medicare Supplement Plan G: What It Covers
@@ -247,7 +248,7 @@ export default function BestMedicarePlanForDialysis() {
           </li>
           <li>
             <Link
-              href="/services/medicare-advantage-vs-medigap"
+              href="/medicare-supplement/new-jersey/vs-medicare-advantage"
               className="text-blue-600 hover:underline"
             >
               Medicare Advantage vs. Medigap: Which Is Better?
@@ -255,7 +256,7 @@ export default function BestMedicarePlanForDialysis() {
           </li>
           <li>
             <Link
-              href="/services/medicare-part-d-drug-coverage"
+              href="/learn/medicare-parts-explained"
               className="text-blue-600 hover:underline"
             >
               Understanding Medicare Part D Drug Coverage
@@ -263,7 +264,7 @@ export default function BestMedicarePlanForDialysis() {
           </li>
           <li>
             <Link
-              href="/services/esrd-medicare-eligibility"
+              href="/services/what-is-the-best-medicare-plan-for-dialysis"
               className="text-blue-600 hover:underline"
             >
               ESRD Medicare Eligibility: How to Qualify

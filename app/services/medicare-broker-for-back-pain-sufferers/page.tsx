@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "Medicare broker for back pain sufferers | Free Plan Comparison | MedicareYourself",
   description:
     "Medicare broker for back pain sufferers helping you find plans covering PT, injections, and surgery. Anthony Orner compares your options — free consultation.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-back-pain-sufferers" },
   openGraph: {
     title:
       "Medicare broker for back pain sufferers | Free Plan Comparison | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-01",
-  dateModified: "2025-07-01",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -98,7 +99,7 @@ export default function MedicareBrokerForBackPainSufferers() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -259,7 +260,7 @@ export default function MedicareBrokerForBackPainSufferers() {
               855-559-1700
             </a>{" "}
             or{" "}
-            <Link href="/get-a-free-quote" className="underline font-bold">
+            <Link href="/quote" className="underline font-bold">
               Get a Free Quote
             </Link>
           </p>
@@ -272,7 +273,7 @@ export default function MedicareBrokerForBackPainSufferers() {
           <ul className="space-y-2">
             <li>
               <Link
-                href="/medicare-guides/medigap-vs-medicare-advantage"
+                href="/medicare-supplement/new-jersey/vs-medicare-advantage"
                 className="text-blue-600 hover:underline"
               >
                 Medigap vs. Medicare Advantage: Which Is Right for You?
@@ -280,7 +281,7 @@ export default function MedicareBrokerForBackPainSufferers() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/medicare-plan-g"
+                href="/medicare-supplement/new-jersey/plan-g-vs-plan-n"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Plan G: What It Covers and What It Costs
@@ -288,7 +289,7 @@ export default function MedicareBrokerForBackPainSufferers() {
             </li>
             <li>
               <Link
-                href="/services/medicare-broker-for-chronic-conditions"
+                href="/services/best-medicare-plan-for-chronic-conditions"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Broker for Chronic Conditions
@@ -296,7 +297,7 @@ export default function MedicareBrokerForBackPainSufferers() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/medicare-physical-therapy-coverage"
+                href="/services/best-medicare-plan-for-chronic-conditions"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Physical Therapy Coverage Explained

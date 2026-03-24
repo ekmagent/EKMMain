@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "local medicare agents in union nj | Free Plan Comparison | MedicareYourself",
   description:
     "Local Medicare agents in Union, NJ — Anthony Orner compares Medigap and Advantage plans across top carriers in Union County. Free no-obligation quote.",
+  alternates: { canonical: "https://medicareyourself.com/services/local-medicare-agents-in-union-nj" },
   openGraph: {
     title:
       "local medicare agents in union nj | Free Plan Comparison | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-01-01",
-  dateModified: new Date().toISOString().split("T")[0],
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -96,7 +97,7 @@ export default function LocalMedicareAgentsUnionNJ() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -280,7 +281,7 @@ export default function LocalMedicareAgentsUnionNJ() {
           <ul className="space-y-2">
             <li>
               <Link
-                href="/medicare-guides/medigap-vs-medicare-advantage"
+                href="/medicare-supplement/new-jersey/vs-medicare-advantage"
                 className="text-blue-600 hover:underline"
               >
                 Medigap vs. Medicare Advantage: Which Is Right for You?
@@ -288,7 +289,7 @@ export default function LocalMedicareAgentsUnionNJ() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/medicare-enrollment-periods"
+                href="/learn/medicare-enrollment-periods"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Enrollment Periods Explained
@@ -296,7 +297,7 @@ export default function LocalMedicareAgentsUnionNJ() {
             </li>
             <li>
               <Link
-                href="/services/medicare-broker-new-jersey"
+                href="/services/free-medicare-broker-new-jersey"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Broker Services in New Jersey
@@ -304,7 +305,7 @@ export default function LocalMedicareAgentsUnionNJ() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/plan-g-new-jersey"
+                href="/medicare-supplement/new-jersey/plan-g-vs-plan-n"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Plan G in New Jersey: What It Covers

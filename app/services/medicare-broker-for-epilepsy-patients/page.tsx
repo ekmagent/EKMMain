@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "Medicare broker for epilepsy patients | Free Coverage Consultation | MedicareYourself",
   description:
     "Medicare broker for epilepsy patients in NJ. Anthony Orner finds plans covering seizure meds, ER visits, and neurology with no surprise gaps. Free quote.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-epilepsy-patients" },
   openGraph: {
     title:
       "Medicare broker for epilepsy patients | Free Coverage Consultation | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,6 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
   mainEntityOfPage:
     "https://medicareyourself.com/services/medicare-broker-for-epilepsy-patients",
 };
@@ -98,7 +101,7 @@ export default function MedicareBrokerForEpilepsyPatients() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -272,7 +275,7 @@ export default function MedicareBrokerForEpilepsyPatients() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/medicare-guides/medicare-supplement-plans-nj"
+              href="/medicare-supplement/new-jersey"
               className="text-blue-600 hover:underline"
             >
               Medicare Supplement Plans in New Jersey
@@ -280,7 +283,7 @@ export default function MedicareBrokerForEpilepsyPatients() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/part-d-prescription-drug-coverage"
+              href="/learn/medicare-parts-explained"
               className="text-blue-600 hover:underline"
             >
               Part D Prescription Drug Coverage Guide
@@ -288,7 +291,7 @@ export default function MedicareBrokerForEpilepsyPatients() {
           </li>
           <li>
             <Link
-              href="/services/medicare-broker-for-chronic-conditions"
+              href="/services/best-medicare-plan-for-chronic-conditions"
               className="text-blue-600 hover:underline"
             >
               Medicare Broker for Chronic Conditions
@@ -296,7 +299,7 @@ export default function MedicareBrokerForEpilepsyPatients() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medigap-open-enrollment-period"
+              href="/medicare-supplement/new-jersey/turning-65"
               className="text-blue-600 hover:underline"
             >
               Medigap Open Enrollment Period Explained

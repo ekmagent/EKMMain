@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "free medicare advocate near me | Licensed NJ Broker, $0 Cost | MedicareYourself",
   description:
     "Free Medicare advocate near you in New Jersey. Anthony Orner is a licensed independent broker who compares plans at no cost. Schedule a free consultation.",
+  alternates: { canonical: "https://medicareyourself.com/services/free-medicare-advocate-near-me" },
   openGraph: {
     title:
       "free medicare advocate near me | Licensed NJ Broker, $0 Cost | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -57,6 +58,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
+  datePublished: "2026-03-17",
+  dateModified: "2026-03-22",
   mainEntityOfPage:
     "https://medicareyourself.com/services/free-medicare-advocate-near-me",
 };
@@ -96,7 +99,7 @@ export default function FreeMedicareAdvocateNearMe() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -250,7 +253,7 @@ export default function FreeMedicareAdvocateNearMe() {
             for a free, no-obligation consultation.
           </p>
           <Link
-            href="/get-a-free-quote"
+            href="/quote"
             className="inline-block bg-white text-blue-600 font-bold py-3 px-6 rounded-lg hover:bg-gray-100 transition"
           >
             Get a Free Quote
@@ -264,7 +267,7 @@ export default function FreeMedicareAdvocateNearMe() {
           <ul className="space-y-2">
             <li>
               <Link
-                href="/medicare-guides/medicare-advantage-vs-medigap"
+                href="/medicare-supplement/new-jersey/vs-medicare-advantage"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Advantage vs. Medigap: Which Is Right for You?
@@ -272,7 +275,7 @@ export default function FreeMedicareAdvocateNearMe() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/when-to-enroll-in-medicare"
+                href="/learn/how-to-sign-up-for-medicare"
                 className="text-blue-600 hover:underline"
               >
                 When to Enroll in Medicare Without Getting Penalized
@@ -280,7 +283,7 @@ export default function FreeMedicareAdvocateNearMe() {
             </li>
             <li>
               <Link
-                href="/services/independent-medicare-broker-nj"
+                href="/services/free-independent-medicare-broker-near-me-new-jersey"
                 className="text-blue-600 hover:underline"
               >
                 Independent Medicare Broker in New Jersey
@@ -288,7 +291,7 @@ export default function FreeMedicareAdvocateNearMe() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/medicare-part-b-late-enrollment-penalty"
+                href="/learn/how-to-sign-up-for-medicare"
                 className="text-blue-600 hover:underline"
               >
                 How the Part B Late Enrollment Penalty Works

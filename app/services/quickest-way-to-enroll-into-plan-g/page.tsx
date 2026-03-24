@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "quickest way to enroll into plan g | Same-Day Coverage Available | MedicareYourself",
   description:
     "Quickest way to enroll into Plan G? With the right timing, you can finish in one call. Anthony Orner handles the application same day. Start your free quote.",
+  alternates: { canonical: "https://medicareyourself.com/services/quickest-way-to-enroll-into-plan-g" },
   openGraph: {
     title:
       "quickest way to enroll into plan g | Same-Day Coverage Available | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -57,8 +58,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-01",
-  dateModified: "2025-07-01",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -95,7 +96,7 @@ export default function QuickestWayToEnrollIntoPlanG() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -220,7 +221,7 @@ export default function QuickestWayToEnrollIntoPlanG() {
             </a>
           </p>
           <Link
-            href="/get-a-free-quote"
+            href="/quote"
             className="inline-block bg-white text-blue-600 font-semibold px-6 py-3 rounded-lg hover:bg-gray-100 transition"
           >
             Get a Free Quote
@@ -234,7 +235,7 @@ export default function QuickestWayToEnrollIntoPlanG() {
           <ul className="space-y-2">
             <li>
               <Link
-                href="/services/plan-g-vs-plan-n"
+                href="/medicare-supplement/new-jersey/plan-g-vs-plan-n"
                 className="text-blue-600 hover:underline"
               >
                 Plan G vs. Plan N: Which Medigap Plan Is Right for You?
@@ -242,7 +243,7 @@ export default function QuickestWayToEnrollIntoPlanG() {
             </li>
             <li>
               <Link
-                href="/services/medigap-open-enrollment-period"
+                href="/medicare-supplement/new-jersey/turning-65"
                 className="text-blue-600 hover:underline"
               >
                 Understanding Your Medigap Open Enrollment Period
@@ -250,7 +251,7 @@ export default function QuickestWayToEnrollIntoPlanG() {
             </li>
             <li>
               <Link
-                href="/services/switching-from-medicare-advantage-to-medigap"
+                href="/medicare-supplement/switch-carriers"
                 className="text-blue-600 hover:underline"
               >
                 Switching From Medicare Advantage to Medigap
@@ -258,7 +259,7 @@ export default function QuickestWayToEnrollIntoPlanG() {
             </li>
             <li>
               <Link
-                href="/services/medicare-supplement-plan-g-cost"
+                href="/services/medicare-supplement-plan-g-cost-for-68-year-old"
                 className="text-blue-600 hover:underline"
               >
                 How Much Does Medicare Supplement Plan G Cost?

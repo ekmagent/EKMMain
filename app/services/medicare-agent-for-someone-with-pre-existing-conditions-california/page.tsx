@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "medicare agent for someone with pre existing conditions california | Free Help | MedicareYourself",
   description:
     "Medicare agent for pre-existing conditions in California? Learn which plans skip health questions and when. Connect with a licensed broker at no cost.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-agent-for-someone-with-pre-existing-conditions-california" },
   openGraph: {
     title:
       "medicare agent for someone with pre existing conditions california | Free Help | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-15",
-  dateModified: "2025-07-15",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -99,7 +100,7 @@ export default function MedicareAgentPreExistingConditionsCA() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -231,22 +232,22 @@ export default function MedicareAgentPreExistingConditionsCA() {
           <h2 className="text-2xl font-semibold mb-4">Related resources</h2>
           <ul className="list-disc pl-6 space-y-2">
             <li>
-              <Link href="/medicare/medigap-open-enrollment" className="text-blue-600 hover:underline">
+              <Link href="/medicare-supplement/new-jersey/turning-65" className="text-blue-600 hover:underline">
                 Medigap Open Enrollment Period Explained
               </Link>
             </li>
             <li>
-              <Link href="/medicare/medicare-advantage-vs-medigap" className="text-blue-600 hover:underline">
+              <Link href="/medicare-supplement/new-jersey/vs-medicare-advantage" className="text-blue-600 hover:underline">
                 Medicare Advantage vs. Medigap: How to Choose
               </Link>
             </li>
             <li>
-              <Link href="/medicare/guaranteed-issue-rights" className="text-blue-600 hover:underline">
+              <Link href="/medicare-supplement/new-jersey" className="text-blue-600 hover:underline">
                 Federal Guaranteed Issue Rights for Medicare Supplements
               </Link>
             </li>
             <li>
-              <Link href="/services/california-medicare-broker" className="text-blue-600 hover:underline">
+              <Link href="/services/medicare-agent-for-someone-with-pre-existing-conditions-california" className="text-blue-600 hover:underline">
                 Find a Licensed Medicare Broker in California
               </Link>
             </li>

@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "Medicare Advantage Agents Near Me | Free NJ Help | MedicareYourself",
   description:
     "Medicare Advantage agents near you in NJ. Anthony Orner compares $0-premium MA plans by county and helps you enroll free. Call 855-559-1700.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-advantage-agents-near-me" },
   openGraph: {
     title:
       "Medicare Advantage Agents Near Me | Free NJ Help | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -57,8 +58,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-14",
-  dateModified: "2025-07-14",
+  datePublished: "2026-03-17",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -95,7 +96,7 @@ export default function MedicareAdvantageAgentsNearMe() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -231,7 +232,7 @@ export default function MedicareAdvantageAgentsNearMe() {
           <ul className="space-y-2">
             <li>
               <Link
-                href="/medicare/medicare-advantage"
+                href="/medicare-advantage/new-jersey"
                 className="text-blue-600 hover:underline"
               >
                 How Medicare Advantage Works in New Jersey
@@ -239,7 +240,7 @@ export default function MedicareAdvantageAgentsNearMe() {
             </li>
             <li>
               <Link
-                href="/medicare/medigap"
+                href="/learn/what-is-medigap"
                 className="text-blue-600 hover:underline"
               >
                 Medigap Plans in NJ: What They Cover and Cost
@@ -247,7 +248,7 @@ export default function MedicareAdvantageAgentsNearMe() {
             </li>
             <li>
               <Link
-                href="/medicare/enrollment-periods"
+                href="/learn/medicare-enrollment-periods"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Enrollment Periods Explained
@@ -255,7 +256,7 @@ export default function MedicareAdvantageAgentsNearMe() {
             </li>
             <li>
               <Link
-                href="/services/medicare-broker-near-me"
+                href="/services/medicare-agents-near-me"
                 className="text-blue-600 hover:underline"
               >
                 Find a Medicare Broker Near You in NJ

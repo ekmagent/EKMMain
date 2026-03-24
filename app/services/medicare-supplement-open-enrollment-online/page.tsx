@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "medicare supplement open enrollment online | Apply From Home, No Exam | MedicareYourself",
   description:
     "Medicare supplement open enrollment online lets you lock in guaranteed-issue rates from home. See the step-by-step process and avoid costly timing mistakes.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-supplement-open-enrollment-online" },
   openGraph: {
     title:
       "medicare supplement open enrollment online | Apply From Home, No Exam | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-01",
-  dateModified: "2025-07-01",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -97,7 +98,7 @@ export default function MedicareSupplementOpenEnrollmentOnline() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -226,7 +227,7 @@ export default function MedicareSupplementOpenEnrollmentOnline() {
             855-559-1700
           </a>{" "}
           or{" "}
-          <Link href="/get-a-free-quote" className="underline font-bold">
+          <Link href="/quote" className="underline font-bold">
             Get a Free Quote
           </Link>{" "}
           online.
@@ -243,7 +244,7 @@ export default function MedicareSupplementOpenEnrollmentOnline() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/medicare-guides/medigap-plan-g-vs-plan-n"
+              href="/medicare-supplement/new-jersey/plan-g-vs-plan-n"
               className="text-blue-600 hover:underline"
             >
               Medigap Plan G vs. Plan N: Which One Fits?
@@ -251,7 +252,7 @@ export default function MedicareSupplementOpenEnrollmentOnline() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/when-to-enroll-in-medicare-part-b"
+              href="/learn/how-to-sign-up-for-medicare"
               className="text-blue-600 hover:underline"
             >
               When to Enroll in Medicare Part B
@@ -259,7 +260,7 @@ export default function MedicareSupplementOpenEnrollmentOnline() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-supplement-vs-medicare-advantage"
+              href="/medicare-supplement/new-jersey/vs-medicare-advantage"
               className="text-blue-600 hover:underline"
             >
               Medicare Supplement vs. Medicare Advantage
@@ -267,7 +268,7 @@ export default function MedicareSupplementOpenEnrollmentOnline() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/part-b-late-enrollment-penalty"
+              href="/learn/how-to-sign-up-for-medicare"
               className="text-blue-600 hover:underline"
             >
               Part B Late Enrollment Penalty: What It Costs

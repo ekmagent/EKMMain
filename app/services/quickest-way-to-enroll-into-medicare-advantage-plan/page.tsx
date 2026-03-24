@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "quickest way to enroll into medicare advantage plan | Free Help | MedicareYourself",
   description:
     "Quickest way to enroll into a Medicare Advantage plan? A licensed broker can complete your application in one call. Anthony Orner makes it easy. Free help.",
+  alternates: { canonical: "https://medicareyourself.com/services/quickest-way-to-enroll-into-medicare-advantage-plan" },
   openGraph: {
     title:
       "quickest way to enroll into medicare advantage plan | Free Help | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-01",
-  dateModified: "2025-07-01",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -97,7 +98,7 @@ export default function QuickestWayToEnrollMedicareAdvantagePlan() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -258,7 +259,7 @@ export default function QuickestWayToEnrollMedicareAdvantagePlan() {
           Or get started online with a free, no-obligation quote.
         </p>
         <Link
-          href="/get-a-free-quote"
+          href="/quote"
           className="inline-block bg-white text-blue-600 font-semibold px-6 py-3 rounded-lg hover:bg-blue-50 transition"
         >
           Get a Free Quote
@@ -274,7 +275,7 @@ export default function QuickestWayToEnrollMedicareAdvantagePlan() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/medicare-guides/medicare-advantage-vs-medigap"
+              href="/medicare-supplement/new-jersey/vs-medicare-advantage"
               className="text-blue-600 hover:underline"
             >
               Medicare Advantage vs. Medigap: Which Is Right for You?
@@ -282,7 +283,7 @@ export default function QuickestWayToEnrollMedicareAdvantagePlan() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-enrollment-periods"
+              href="/learn/medicare-enrollment-periods"
               className="text-blue-600 hover:underline"
             >
               Medicare Enrollment Periods Explained
@@ -290,7 +291,7 @@ export default function QuickestWayToEnrollMedicareAdvantagePlan() {
           </li>
           <li>
             <Link
-              href="/services/medicare-advantage-plans"
+              href="/medicare-advantage/new-jersey"
               className="text-blue-600 hover:underline"
             >
               Medicare Advantage Plans We Offer
@@ -298,7 +299,7 @@ export default function QuickestWayToEnrollMedicareAdvantagePlan() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/what-to-do-when-turning-65"
+              href="/medicare-supplement/new-jersey/turning-65"
               className="text-blue-600 hover:underline"
             >
               What to Do When You're Turning 65

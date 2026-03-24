@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "what's the best medicare plan for someone with diabetes | Free Guidance | MedicareYourself",
   description:
     "What's the best Medicare plan for someone with diabetes? Compare Supplement and Advantage coverage for insulin, CGMs, and A1C testing. Free broker guidance.",
+  alternates: { canonical: "https://medicareyourself.com/services/whats-the-best-medicare-plan-for-someone-with-diabetes" },
   openGraph: {
     title:
       "what's the best medicare plan for someone with diabetes | Free Guidance | MedicareYourself",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-01",
-  dateModified: "2025-07-01",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-19",
 };
 
 const faqs = [
@@ -270,7 +271,7 @@ export default function BestMedicarePlanDiabetes() {
           <ul className="space-y-2">
             <li>
               <Link
-                href="/services/medicare-supplement-plan-g"
+                href="/services/compare-and-enroll-in-plan-g-online"
                 className="text-blue-700 hover:underline"
               >
                 Medicare Supplement Plan G: Full Breakdown
@@ -278,7 +279,7 @@ export default function BestMedicarePlanDiabetes() {
             </li>
             <li>
               <Link
-                href="/services/medicare-advantage-vs-medigap"
+                href="/medicare-supplement/new-jersey/vs-medicare-advantage"
                 className="text-blue-700 hover:underline"
               >
                 Medicare Advantage vs. Medigap: Which Is Right for You?
@@ -286,7 +287,7 @@ export default function BestMedicarePlanDiabetes() {
             </li>
             <li>
               <Link
-                href="/services/medicare-part-d-enrollment"
+                href="/learn/medicare-parts-explained"
                 className="text-blue-700 hover:underline"
               >
                 Medicare Part D Enrollment: What You Need to Know
@@ -294,7 +295,7 @@ export default function BestMedicarePlanDiabetes() {
             </li>
             <li>
               <Link
-                href="/services/medicare-open-enrollment"
+                href="/learn/medicare-enrollment-periods"
                 className="text-blue-700 hover:underline"
               >
                 Medicare Open Enrollment Period Explained

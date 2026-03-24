@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "medicare insurance agents in franklin new jersey | Free Quotes | MedicareYourself",
   description:
     "Medicare insurance agents in Franklin New Jersey — compare Supplement and Advantage plans with licensed broker Anthony Orner. Free quotes, zero pressure.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-insurance-agents-in-franklin-new-jersey" },
   openGraph: {
     title:
       "medicare insurance agents in franklin new jersey | Free Quotes | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-01",
-  dateModified: "2025-07-01",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -96,7 +97,7 @@ export default function MedicareInsuranceAgentsFranklinNJ() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -283,7 +284,7 @@ export default function MedicareInsuranceAgentsFranklinNJ() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/medicare-guides/medigap-plan-g-vs-plan-n"
+              href="/medicare-supplement/new-jersey/plan-g-vs-plan-n"
               className="text-blue-600 hover:underline"
             >
               Medigap Plan G vs. Plan N: Which One Saves You More?
@@ -291,7 +292,7 @@ export default function MedicareInsuranceAgentsFranklinNJ() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-advantage-vs-medigap"
+              href="/medicare-supplement/new-jersey/vs-medicare-advantage"
               className="text-blue-600 hover:underline"
             >
               Medicare Advantage vs. Medigap: A Real Comparison
@@ -299,7 +300,7 @@ export default function MedicareInsuranceAgentsFranklinNJ() {
           </li>
           <li>
             <Link
-              href="/services/medicare-insurance-agents-in-new-jersey"
+              href="/services/find-an-nj-medicare-broker-near-you"
               className="text-blue-600 hover:underline"
             >
               Medicare Insurance Agents Across New Jersey
@@ -307,7 +308,7 @@ export default function MedicareInsuranceAgentsFranklinNJ() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-enrollment-periods"
+              href="/learn/medicare-enrollment-periods"
               className="text-blue-600 hover:underline"
             >
               Medicare Enrollment Periods: When You Can (and Can't) Change Plans

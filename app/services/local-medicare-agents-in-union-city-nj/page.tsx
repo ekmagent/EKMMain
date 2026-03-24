@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "local medicare agents in union city nj | Free Plan Comparison | MedicareYourself",
   description:
     "Local Medicare agents in Union City NJ — Anthony Orner is a licensed independent broker comparing Supplement and Advantage plans. Free, no-obligation quotes.",
+  alternates: { canonical: "https://medicareyourself.com/services/local-medicare-agents-in-union-city-nj" },
   openGraph: {
     title:
       "local medicare agents in union city nj | Free Plan Comparison | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,6 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
   mainEntityOfPage:
     "https://medicareyourself.com/services/local-medicare-agents-in-union-city-nj",
 };
@@ -97,7 +100,7 @@ export default function LocalMedicareAgentsUnionCityNJ() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -267,7 +270,7 @@ export default function LocalMedicareAgentsUnionCityNJ() {
             </a>{" "}
             or{" "}
             <Link
-              href="/get-a-free-quote"
+              href="/quote"
               className="underline font-bold text-white"
             >
               Get a Free Quote
@@ -282,7 +285,7 @@ export default function LocalMedicareAgentsUnionCityNJ() {
           <ul className="space-y-2">
             <li>
               <Link
-                href="/medicare-guides/medicare-supplement-plans-nj"
+                href="/medicare-supplement/new-jersey"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Supplement Plans in New Jersey
@@ -290,7 +293,7 @@ export default function LocalMedicareAgentsUnionCityNJ() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/medicare-advantage-hudson-county"
+                href="/medicare-advantage/new-jersey"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Advantage in Hudson County
@@ -298,7 +301,7 @@ export default function LocalMedicareAgentsUnionCityNJ() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/medigap-plan-g-vs-plan-n"
+                href="/medicare-supplement/new-jersey/plan-g-vs-plan-n"
                 className="text-blue-600 hover:underline"
               >
                 Medigap Plan G vs. Plan N
@@ -306,7 +309,7 @@ export default function LocalMedicareAgentsUnionCityNJ() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/when-to-enroll-in-medicare"
+                href="/learn/how-to-sign-up-for-medicare"
                 className="text-blue-600 hover:underline"
               >
                 When to Enroll in Medicare

@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "Medicare broker for congestive heart failure patients | Free Plan Review | MedicareYourself",
   description:
     "Medicare broker for congestive heart failure patients in NJ. Anthony Orner finds plans covering cardiac rehab, meds, and hospital stays. Free consultation.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-congestive-heart-failure-patients" },
   openGraph: {
     title:
       "Medicare broker for congestive heart failure patients | Free Plan Review | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-01-15",
-  dateModified: "2025-01-15",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -98,7 +99,7 @@ export default function MedicareBrokerCHFPage() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -267,7 +268,7 @@ export default function MedicareBrokerCHFPage() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/medicare-guides/medigap-plan-g-nj"
+              href="/medicare-supplement/new-jersey/plan-g-vs-plan-n"
               className="text-blue-600 hover:underline"
             >
               Medigap Plan G in New Jersey: What It Covers and What It Costs
@@ -275,7 +276,7 @@ export default function MedicareBrokerCHFPage() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-advantage-vs-medigap"
+              href="/medicare-supplement/new-jersey/vs-medicare-advantage"
               className="text-blue-600 hover:underline"
             >
               Medicare Advantage vs. Medigap: Which Is Right for You?
@@ -283,7 +284,7 @@ export default function MedicareBrokerCHFPage() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-part-d-prescription-drug-plans"
+              href="/learn/medicare-parts-explained"
               className="text-blue-600 hover:underline"
             >
               Medicare Part D Prescription Drug Plans Explained
@@ -291,7 +292,7 @@ export default function MedicareBrokerCHFPage() {
           </li>
           <li>
             <Link
-              href="/services/medicare-broker-nj"
+              href="/services/free-medicare-broker-new-jersey"
               className="text-blue-600 hover:underline"
             >
               Find a Medicare Broker in New Jersey

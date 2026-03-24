@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "find a medicare agent in new brunswick nj | Free Local Guidance | MedicareYourself",
   description:
     "Find a Medicare agent in New Brunswick NJ who compares plans from every top carrier. Anthony Orner provides free, licensed guidance. Schedule a call today.",
+  alternates: { canonical: "https://medicareyourself.com/services/find-a-medicare-agent-in-new-brunswick-nj" },
   openGraph: {
     title:
       "find a medicare agent in new brunswick nj | Free Local Guidance | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -57,8 +58,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-14",
-  dateModified: "2025-07-14",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -95,7 +96,7 @@ export default function FindMedicareAgentNewBrunswickNJ() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -225,7 +226,7 @@ export default function FindMedicareAgentNewBrunswickNJ() {
               855-559-1700
             </a>{" "}
             or{" "}
-            <Link href="/get-a-free-quote" className="underline font-bold">
+            <Link href="/quote" className="underline font-bold">
               Get a Free Quote
             </Link>
           </p>
@@ -238,7 +239,7 @@ export default function FindMedicareAgentNewBrunswickNJ() {
           <ul className="space-y-2">
             <li>
               <Link
-                href="/medicare-guides/medicare-supplement-plans-nj"
+                href="/medicare-supplement/new-jersey"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Supplement Plans in New Jersey
@@ -246,7 +247,7 @@ export default function FindMedicareAgentNewBrunswickNJ() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/medicare-advantage-plans-nj"
+                href="/medicare-advantage/new-jersey"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Advantage Plans in New Jersey
@@ -254,7 +255,7 @@ export default function FindMedicareAgentNewBrunswickNJ() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/medigap-open-enrollment-nj"
+                href="/medicare-supplement/new-jersey/turning-65"
                 className="text-blue-600 hover:underline"
               >
                 Medigap Open Enrollment in NJ
@@ -262,7 +263,7 @@ export default function FindMedicareAgentNewBrunswickNJ() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/part-b-late-enrollment-penalty"
+                href="/learn/how-to-sign-up-for-medicare"
                 className="text-blue-600 hover:underline"
               >
                 Part B Late Enrollment Penalty Explained

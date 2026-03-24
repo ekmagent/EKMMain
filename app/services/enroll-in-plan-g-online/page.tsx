@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "Enroll in Plan G Online | Fast, Free, Broker-Assisted | MedicareYourself",
   description:
     "Enroll in Plan G online with a licensed broker guiding every step. Compare carriers and apply from home — free, no-obligation help. Call 855-559-1700.",
+  alternates: { canonical: "https://medicareyourself.com/services/enroll-in-plan-g-online" },
   openGraph: {
     title:
       "Enroll in Plan G Online | Fast, Free, Broker-Assisted | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-01",
-  dateModified: "2025-07-01",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -96,7 +97,7 @@ export default function EnrollInPlanGOnlinePage() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -266,7 +267,7 @@ export default function EnrollInPlanGOnlinePage() {
           <ul className="space-y-2">
             <li>
               <Link
-                href="/medicare-guides/medigap-plan-g"
+                href="/medicare-supplement/new-jersey/plan-g-vs-plan-n"
                 className="text-blue-700 hover:underline"
               >
                 What Does Medicare Supplement Plan G Cover?
@@ -274,7 +275,7 @@ export default function EnrollInPlanGOnlinePage() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/plan-g-vs-plan-n"
+                href="/medicare-supplement/new-jersey/plan-g-vs-plan-n"
                 className="text-blue-700 hover:underline"
               >
                 Plan G vs. Plan N: Which Is Right for You?
@@ -282,7 +283,7 @@ export default function EnrollInPlanGOnlinePage() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/medigap-open-enrollment"
+                href="/medicare-supplement/new-jersey/turning-65"
                 className="text-blue-700 hover:underline"
               >
                 Medigap Open Enrollment Period Explained
@@ -290,7 +291,7 @@ export default function EnrollInPlanGOnlinePage() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/switching-from-advantage-to-medigap"
+                href="/medicare-supplement/switch-carriers"
                 className="text-blue-700 hover:underline"
               >
                 Switching From Medicare Advantage to Medigap

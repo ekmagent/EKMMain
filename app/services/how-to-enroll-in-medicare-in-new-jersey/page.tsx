@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "how to enroll in medicare in new jersey | Free Local Help | MedicareYourself",
   description:
     "How to enroll in Medicare in New Jersey — enrollment windows, Parts A & B sign-up, NJ Medigap rules explained. Anthony Orner helps free. Call 855-559-1700.",
+  alternates: { canonical: "https://medicareyourself.com/services/how-to-enroll-in-medicare-in-new-jersey" },
   openGraph: {
     title:
       "how to enroll in medicare in new jersey | Free Local Help | MedicareYourself",
@@ -57,8 +58,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-01",
-  dateModified: "2025-07-01",
+  datePublished: "2026-03-17",
+  dateModified: "2026-03-19",
 };
 
 const faqs = [
@@ -233,7 +234,7 @@ export default function HowToEnrollInMedicareInNewJersey() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/services/medigap-plans-in-new-jersey"
+              href="/medicare-supplement/new-jersey"
               className="text-blue-600 hover:underline"
             >
               Medigap Plans in New Jersey
@@ -241,7 +242,7 @@ export default function HowToEnrollInMedicareInNewJersey() {
           </li>
           <li>
             <Link
-              href="/services/medicare-advantage-plans-in-new-jersey"
+              href="/medicare-advantage/new-jersey"
               className="text-blue-600 hover:underline"
             >
               Medicare Advantage Plans in New Jersey
@@ -249,7 +250,7 @@ export default function HowToEnrollInMedicareInNewJersey() {
           </li>
           <li>
             <Link
-              href="/services/medicare-part-d-drug-plans"
+              href="/learn/medicare-parts-explained"
               className="text-blue-600 hover:underline"
             >
               Medicare Part D Drug Plans
@@ -257,7 +258,7 @@ export default function HowToEnrollInMedicareInNewJersey() {
           </li>
           <li>
             <Link
-              href="/services/medicare-enrollment-periods"
+              href="/learn/medicare-enrollment-periods"
               className="text-blue-600 hover:underline"
             >
               Medicare Enrollment Periods Explained

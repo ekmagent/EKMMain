@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "Medicare broker for fibromyalgia patients | Free No-Judgment Consultation | MedicareYourself",
   description:
     "Medicare broker for fibromyalgia patients in NJ. Anthony Orner finds plans covering pain management, meds, and specialist care. Free, no-judgment quote.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-fibromyalgia-patients" },
   openGraph: {
     title:
       "Medicare broker for fibromyalgia patients | Free No-Judgment Consultation | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-01",
-  dateModified: "2025-07-01",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -99,7 +100,7 @@ export default function MedicareBrokerForFibromyalgiaPatients() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -270,7 +271,7 @@ export default function MedicareBrokerForFibromyalgiaPatients() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/medicare-guides/medicare-part-d-prescription-drug-coverage"
+              href="/learn/medicare-parts-explained"
               className="text-blue-600 hover:underline"
             >
               Medicare Part D Prescription Drug Coverage
@@ -278,7 +279,7 @@ export default function MedicareBrokerForFibromyalgiaPatients() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medigap-plans-in-new-jersey"
+              href="/medicare-supplement/new-jersey"
               className="text-blue-600 hover:underline"
             >
               Medigap Plans in New Jersey
@@ -294,7 +295,7 @@ export default function MedicareBrokerForFibromyalgiaPatients() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-advantage-vs-medigap"
+              href="/medicare-supplement/new-jersey/vs-medicare-advantage"
               className="text-blue-600 hover:underline"
             >
               Medicare Advantage vs. Medigap: Which Is Right for You?

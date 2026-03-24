@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "find a medicare agent in monroe township nj | Free Plan Review | MedicareYourself",
   description:
     "Find a Medicare agent in Monroe Township NJ — Anthony Orner compares Supplement and Advantage carriers for Middlesex County residents. Free plan review.",
+  alternates: { canonical: "https://medicareyourself.com/services/find-a-medicare-agent-in-monroe-township-nj" },
   openGraph: {
     title:
       "find a medicare agent in monroe township nj | Free Plan Review | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -57,8 +58,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-01-15",
-  dateModified: "2025-01-15",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -94,7 +95,7 @@ export default function FindMedicareAgentMonroeTownshipNJ() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -229,7 +230,7 @@ export default function FindMedicareAgentMonroeTownshipNJ() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/medicare-guides/medicare-supplement-plans-nj"
+              href="/medicare-supplement/new-jersey"
               className="text-blue-600 hover:underline"
             >
               Medicare Supplement Plans in New Jersey
@@ -237,7 +238,7 @@ export default function FindMedicareAgentMonroeTownshipNJ() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-advantage-plans-nj"
+              href="/medicare-advantage/new-jersey"
               className="text-blue-600 hover:underline"
             >
               Medicare Advantage Plans in New Jersey
@@ -245,7 +246,7 @@ export default function FindMedicareAgentMonroeTownshipNJ() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medigap-open-enrollment-nj"
+              href="/medicare-supplement/new-jersey/turning-65"
               className="text-blue-600 hover:underline"
             >
               Medigap Open Enrollment in NJ: What You Need to Know
@@ -253,7 +254,7 @@ export default function FindMedicareAgentMonroeTownshipNJ() {
           </li>
           <li>
             <Link
-              href="/services/medicare-broker-middlesex-county-nj"
+              href="/services/find-a-medicare-agent-in-new-brunswick-nj"
               className="text-blue-600 hover:underline"
             >
               Medicare Broker in Middlesex County, NJ

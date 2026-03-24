@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "same day medicare supplement enrollment form | Apply Free | MedicareYourself",
   description:
     "Same day Medicare Supplement enrollment form — apply with a licensed broker, get confirmation today. Anthony Orner handles all paperwork. Call free.",
+  alternates: { canonical: "https://medicareyourself.com/services/same-day-medicare-supplement-enrollment-form" },
   openGraph: {
     title:
       "same day medicare supplement enrollment form | Apply Free | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,6 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
   mainEntityOfPage:
     "https://medicareyourself.com/services/same-day-medicare-supplement-enrollment-form",
 };
@@ -96,7 +99,7 @@ export default function SameDayMedicareSupplementEnrollmentForm() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -280,7 +283,7 @@ export default function SameDayMedicareSupplementEnrollmentForm() {
           <ul className="space-y-2">
             <li>
               <Link
-                href="/medicare-guides/medigap-open-enrollment-period"
+                href="/medicare-supplement/new-jersey/turning-65"
                 className="text-blue-600 hover:underline"
               >
                 Medigap Open Enrollment Period: When and Why It Matters
@@ -288,7 +291,7 @@ export default function SameDayMedicareSupplementEnrollmentForm() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/plan-g-vs-plan-n"
+                href="/medicare-supplement/new-jersey/plan-g-vs-plan-n"
                 className="text-blue-600 hover:underline"
               >
                 Plan G vs Plan N: Which Medicare Supplement Is Right for You?
@@ -296,7 +299,7 @@ export default function SameDayMedicareSupplementEnrollmentForm() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/medicare-part-b-enrollment"
+                href="/learn/how-to-sign-up-for-medicare"
                 className="text-blue-600 hover:underline"
               >
                 How to Enroll in Medicare Part B
@@ -304,7 +307,7 @@ export default function SameDayMedicareSupplementEnrollmentForm() {
             </li>
             <li>
               <Link
-                href="/services/free-medicare-consultation"
+                href="/services/help-with-your-medicare-decision"
                 className="text-blue-600 hover:underline"
               >
                 Free Medicare Consultation With a Licensed Broker

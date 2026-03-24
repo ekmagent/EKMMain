@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "Medicare broker for stroke survivors | Free Plan Review | MedicareYourself",
   description:
     "Medicare broker for stroke survivors needing rehab, therapy, and specialist coverage. Anthony Orner finds the right plan. Free review.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-stroke-survivors" },
   openGraph: {
     title:
       "Medicare broker for stroke survivors | Free Plan Review | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,6 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
   mainEntityOfPage:
     "https://medicareyourself.com/services/medicare-broker-for-stroke-survivors",
 };
@@ -97,7 +100,7 @@ export default function MedicareBrokerForStrokeSurvivors() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -223,7 +226,7 @@ export default function MedicareBrokerForStrokeSurvivors() {
               855-559-1700
             </a>{" "}
             or{" "}
-            <Link href="/get-a-free-quote" className="underline font-bold">
+            <Link href="/quote" className="underline font-bold">
               Get a Free Quote
             </Link>
           </p>
@@ -236,7 +239,7 @@ export default function MedicareBrokerForStrokeSurvivors() {
           <ul className="space-y-2">
             <li>
               <Link
-                href="/medicare-guides/medigap-plan-g"
+                href="/medicare-supplement/new-jersey/plan-g-vs-plan-n"
                 className="text-blue-600 hover:underline"
               >
                 Medigap Plan G: What It Covers and What It Costs
@@ -244,7 +247,7 @@ export default function MedicareBrokerForStrokeSurvivors() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/medicare-advantage-vs-medigap"
+                href="/medicare-supplement/new-jersey/vs-medicare-advantage"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Advantage vs. Medigap: How to Decide
@@ -252,7 +255,7 @@ export default function MedicareBrokerForStrokeSurvivors() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/part-d-prescription-drug-plans"
+                href="/learn/medicare-parts-explained"
                 className="text-blue-600 hover:underline"
               >
                 Part D Prescription Drug Plans Explained
@@ -260,7 +263,7 @@ export default function MedicareBrokerForStrokeSurvivors() {
             </li>
             <li>
               <Link
-                href="/services/medicare-broker-for-caregivers"
+                href="/services/medicare-broker-for-dementia-patients"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Help for Caregivers

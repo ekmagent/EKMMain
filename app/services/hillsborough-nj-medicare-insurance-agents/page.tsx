@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "hillsborough nj medicare insurance agents | Free Broker Consultation | MedicareYourself",
   description:
     "Hillsborough NJ Medicare insurance agents — Anthony Orner is a licensed independent broker comparing Supplement and Advantage plans. Free Somerset County quote.",
+  alternates: { canonical: "https://medicareyourself.com/services/hillsborough-nj-medicare-insurance-agents" },
   openGraph: {
     title:
       "hillsborough nj medicare insurance agents | Free Broker Consultation | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-01",
-  dateModified: "2025-07-01",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -95,7 +96,7 @@ export default function HillsboroughNJMedicareInsuranceAgents() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -266,7 +267,7 @@ export default function HillsboroughNJMedicareInsuranceAgents() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/medicare-guides/medicare-supplement-plans-nj"
+              href="/medicare-supplement/new-jersey"
               className="text-blue-600 hover:underline"
             >
               Medicare Supplement Plans in New Jersey
@@ -274,7 +275,7 @@ export default function HillsboroughNJMedicareInsuranceAgents() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-advantage-plans-nj"
+              href="/medicare-advantage/new-jersey"
               className="text-blue-600 hover:underline"
             >
               Medicare Advantage Plans in New Jersey
@@ -282,7 +283,7 @@ export default function HillsboroughNJMedicareInsuranceAgents() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medigap-open-enrollment-period"
+              href="/medicare-supplement/new-jersey/turning-65"
               className="text-blue-600 hover:underline"
             >
               Medigap Open Enrollment Period Explained
@@ -290,7 +291,7 @@ export default function HillsboroughNJMedicareInsuranceAgents() {
           </li>
           <li>
             <Link
-              href="/services/somerset-county-medicare-broker"
+              href="/services/hillsborough-nj-medicare-insurance-agents"
               className="text-blue-600 hover:underline"
             >
               Somerset County Medicare Broker Services

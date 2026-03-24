@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "best independent medicare broker near me new jersey | Free Consultation | MedicareYourself",
   description:
     "Best independent Medicare broker near me in New Jersey? Anthony Orner compares 20+ carriers, charges nothing, and serves every NJ county. Free consultation.",
+  alternates: { canonical: "https://medicareyourself.com/services/best-independent-medicare-broker-near-me-new-jersey" },
   openGraph: {
     title:
       "best independent medicare broker near me new jersey | Free Consultation | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,6 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
   mainEntityOfPage:
     "https://medicareyourself.com/services/best-independent-medicare-broker-near-me-new-jersey",
 };
@@ -97,7 +100,7 @@ export default function BestIndependentMedicareBrokerNearMeNewJersey() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -265,7 +268,7 @@ export default function BestIndependentMedicareBrokerNearMeNewJersey() {
           <ul className="space-y-2">
             <li>
               <Link
-                href="/medicare-guides/medicare-supplement-plans-new-jersey"
+                href="/medicare-supplement/new-jersey"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Supplement Plans in New Jersey
@@ -273,7 +276,7 @@ export default function BestIndependentMedicareBrokerNearMeNewJersey() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/medicare-advantage-vs-medigap"
+                href="/medicare-supplement/new-jersey/vs-medicare-advantage"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Advantage vs. Medigap: Which Is Right for You?
@@ -281,7 +284,7 @@ export default function BestIndependentMedicareBrokerNearMeNewJersey() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/turning-65-medicare-checklist"
+                href="/medicare-supplement/new-jersey/turning-65"
                 className="text-blue-600 hover:underline"
               >
                 Turning 65 Medicare Checklist
@@ -289,7 +292,7 @@ export default function BestIndependentMedicareBrokerNearMeNewJersey() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/medicare-part-d-new-jersey"
+                href="/learn/medicare-parts-explained"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Part D in New Jersey

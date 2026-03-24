@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "independent medicare supplement insurance agents near me | Free Quote | MedicareYourself",
   description:
     "Independent Medicare Supplement insurance agents near you in NJ. Anthony Orner compares Plan G and Plan N rates across all top carriers. Free quote in minutes.",
+  alternates: { canonical: "https://medicareyourself.com/services/independent-medicare-supplement-insurance-agents-near-me" },
   openGraph: {
     title:
       "independent medicare supplement insurance agents near me | Free Quote | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -57,8 +58,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-15",
-  dateModified: "2025-07-15",
+  datePublished: "2026-03-17",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -96,7 +97,7 @@ export default function IndependentMedicareSupplementAgentsNearMe() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -239,7 +240,7 @@ export default function IndependentMedicareSupplementAgentsNearMe() {
           <ul className="space-y-2">
             <li>
               <Link
-                href="/medicare-guides/plan-g-vs-plan-n"
+                href="/medicare-supplement/new-jersey/plan-g-vs-plan-n"
                 className="text-blue-600 hover:underline"
               >
                 Plan G vs. Plan N: Which Medigap plan is right for you?
@@ -247,7 +248,7 @@ export default function IndependentMedicareSupplementAgentsNearMe() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/medigap-open-enrollment-period"
+                href="/medicare-supplement/new-jersey/turning-65"
                 className="text-blue-600 hover:underline"
               >
                 Medigap Open Enrollment Period explained
@@ -255,7 +256,7 @@ export default function IndependentMedicareSupplementAgentsNearMe() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/medicare-supplement-rate-increases"
+                href="/medicare-supplement/new-jersey/cost"
                 className="text-blue-600 hover:underline"
               >
                 Why Medicare Supplement rates increase and how to prepare

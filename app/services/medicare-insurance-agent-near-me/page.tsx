@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "medicare insurance agent near me | Free NJ Broker Consultation | MedicareYourself",
   description:
     "Medicare insurance agent near me in New Jersey — Anthony Orner is a licensed independent broker who compares plans by phone or video. Free no-pressure quote.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-insurance-agent-near-me" },
   openGraph: {
     title:
       "medicare insurance agent near me | Free NJ Broker Consultation | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-14",
-  dateModified: "2025-07-14",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -98,7 +99,7 @@ export default function MedicareInsuranceAgentNearMe() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -231,7 +232,7 @@ export default function MedicareInsuranceAgentNearMe() {
           <ul className="space-y-2">
             <li>
               <Link
-                href="/medicare/medicare-advantage-plans-nj"
+                href="/medicare-advantage/new-jersey"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Advantage Plans in New Jersey
@@ -239,7 +240,7 @@ export default function MedicareInsuranceAgentNearMe() {
             </li>
             <li>
               <Link
-                href="/medicare/medigap-plans-nj"
+                href="/medicare-supplement/new-jersey"
                 className="text-blue-600 hover:underline"
               >
                 Medigap Plans in New Jersey
@@ -247,7 +248,7 @@ export default function MedicareInsuranceAgentNearMe() {
             </li>
             <li>
               <Link
-                href="/medicare/part-d-drug-plans"
+                href="/learn/medicare-parts-explained"
                 className="text-blue-600 hover:underline"
               >
                 Part D Prescription Drug Plans

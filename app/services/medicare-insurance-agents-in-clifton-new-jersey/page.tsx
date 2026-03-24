@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "medicare insurance agents in clifton new jersey | Free Quote, No Fees | MedicareYourself",
   description:
     "Medicare insurance agents in Clifton, New Jersey — Anthony Orner is an independent broker quoting 20+ carriers in Passaic County. Free comparison, zero fees.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-insurance-agents-in-clifton-new-jersey" },
   openGraph: {
     title:
       "medicare insurance agents in clifton new jersey | Free Quote, No Fees | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-15",
-  dateModified: "2025-07-15",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -99,7 +100,7 @@ export default function MedicareInsuranceAgentsCliftonNJ() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -268,7 +269,7 @@ export default function MedicareInsuranceAgentsCliftonNJ() {
           <ul className="space-y-2">
             <li>
               <Link
-                href="/medicare-guides/medigap-plan-g-new-jersey"
+                href="/medicare-supplement/new-jersey/plan-g-vs-plan-n"
                 className="text-blue-600 hover:underline"
               >
                 Medigap Plan G in New Jersey: What It Covers and Costs
@@ -276,7 +277,7 @@ export default function MedicareInsuranceAgentsCliftonNJ() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/medicare-advantage-passaic-county"
+                href="/medicare-advantage/new-jersey"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Advantage Plans in Passaic County
@@ -284,7 +285,7 @@ export default function MedicareInsuranceAgentsCliftonNJ() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/when-to-enroll-in-medicare-nj"
+                href="/learn/how-to-sign-up-for-medicare"
                 className="text-blue-600 hover:underline"
               >
                 When to Enroll in Medicare in New Jersey

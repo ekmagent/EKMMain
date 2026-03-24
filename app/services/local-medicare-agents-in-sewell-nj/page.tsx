@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "local medicare agents in sewell nj | Free Quotes, No Pressure | MedicareYourself",
   description:
     "Local Medicare agents in Sewell NJ — Anthony Orner is a licensed independent broker serving Gloucester County. Compare plans across carriers. Free quotes.",
+  alternates: { canonical: "https://medicareyourself.com/services/local-medicare-agents-in-sewell-nj" },
   openGraph: {
     title:
       "local medicare agents in sewell nj | Free Quotes, No Pressure | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-01",
-  dateModified: "2025-07-01",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -97,7 +98,7 @@ export default function LocalMedicareAgentsInSewellNJ() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -266,7 +267,7 @@ export default function LocalMedicareAgentsInSewellNJ() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/medicare-guides/medigap-plan-g-vs-plan-n"
+              href="/medicare-supplement/new-jersey/plan-g-vs-plan-n"
               className="text-blue-600 hover:underline"
             >
               Medigap Plan G vs. Plan N: Which One Saves You More?
@@ -274,7 +275,7 @@ export default function LocalMedicareAgentsInSewellNJ() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-advantage-vs-medigap"
+              href="/medicare-supplement/new-jersey/vs-medicare-advantage"
               className="text-blue-600 hover:underline"
             >
               Medicare Advantage vs. Medigap: How to Decide
@@ -282,7 +283,7 @@ export default function LocalMedicareAgentsInSewellNJ() {
           </li>
           <li>
             <Link
-              href="/services/medicare-broker-south-jersey"
+              href="/services/local-medicare-agents-in-sewell-nj"
               className="text-blue-600 hover:underline"
             >
               Medicare Broker Serving All of South Jersey
@@ -290,7 +291,7 @@ export default function LocalMedicareAgentsInSewellNJ() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/part-b-late-enrollment-penalty"
+              href="/learn/how-to-sign-up-for-medicare"
               className="text-blue-600 hover:underline"
             >
               Part B Late Enrollment Penalty: What It Costs You

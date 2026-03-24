@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "Medicare broker for schizophrenia patients | Free Coverage Analysis | MedicareYourself",
   description:
     "Medicare broker for schizophrenia patients — Anthony Orner finds NJ plans covering antipsychotics, injectables, and psychiatric care. Free consultation.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-schizophrenia-patients" },
   openGraph: {
     title:
       "Medicare broker for schizophrenia patients | Free Coverage Analysis | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-01",
-  dateModified: "2025-07-01",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -98,7 +99,7 @@ export default function MedicareBrokerSchizophreniaPatients() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -275,7 +276,7 @@ export default function MedicareBrokerSchizophreniaPatients() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/services/medicare-broker-mental-health"
+              href="/services/medicare-broker-for-anxiety-disorder-patients"
               className="text-blue-600 hover:underline"
             >
               Medicare Broker for Mental Health Coverage
@@ -283,7 +284,7 @@ export default function MedicareBrokerSchizophreniaPatients() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/part-d-drug-coverage"
+              href="/learn/medicare-parts-explained"
               className="text-blue-600 hover:underline"
             >
               Understanding Medicare Part D Drug Coverage
@@ -291,7 +292,7 @@ export default function MedicareBrokerSchizophreniaPatients() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-advantage-vs-original-medicare"
+              href="/medicare-supplement/new-jersey/vs-medicare-advantage"
               className="text-blue-600 hover:underline"
             >
               Medicare Advantage vs. Original Medicare
@@ -299,7 +300,7 @@ export default function MedicareBrokerSchizophreniaPatients() {
           </li>
           <li>
             <Link
-              href="/services/medicare-broker-nj"
+              href="/services/free-medicare-broker-new-jersey"
               className="text-blue-600 hover:underline"
             >
               Medicare Broker in New Jersey

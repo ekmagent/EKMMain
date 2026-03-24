@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "independent medicare insurance agents | Free Plan Comparison | MedicareYourself",
   description:
     "Independent Medicare insurance agents compare plans from dozens of carriers at no cost to you. See how Anthony Orner finds lower rates. Free consultation.",
+  alternates: { canonical: "https://medicareyourself.com/services/independent-medicare-insurance-agents" },
   openGraph: {
     title:
       "independent medicare insurance agents | Free Plan Comparison | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-01",
-  dateModified: "2025-07-01",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -97,7 +98,7 @@ export default function IndependentMedicareInsuranceAgentsPage() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -234,7 +235,7 @@ export default function IndependentMedicareInsuranceAgentsPage() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/medicare-guides/medicare-supplement-vs-advantage"
+              href="/medicare-supplement/new-jersey/vs-medicare-advantage"
               className="text-blue-600 hover:underline"
             >
               Medicare Supplement vs. Medicare Advantage: How to Choose
@@ -242,7 +243,7 @@ export default function IndependentMedicareInsuranceAgentsPage() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medigap-open-enrollment"
+              href="/medicare-supplement/new-jersey/turning-65"
               className="text-blue-600 hover:underline"
             >
               Medigap Open Enrollment: Your 6-Month Window Explained
@@ -250,7 +251,7 @@ export default function IndependentMedicareInsuranceAgentsPage() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/part-d-drug-plans"
+              href="/learn/medicare-parts-explained"
               className="text-blue-600 hover:underline"
             >
               Medicare Part D Drug Plans: What You Need to Know in 2026

@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "how long does it take to enroll in medicare supplements | Free Help | MedicareYourself",
   description:
     "How long does it take to enroll in Medicare Supplements? Most applications take 10–20 minutes with a broker. Learn the full timeline and get free help today.",
+  alternates: { canonical: "https://medicareyourself.com/services/how-long-does-it-take-to-enroll-in-medicare-supplements" },
   openGraph: {
     title:
       "how long does it take to enroll in medicare supplements | Free Help | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-01",
-  dateModified: "2025-07-01",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -97,7 +98,7 @@ export default function HowLongToEnrollMedigapPage() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -229,7 +230,7 @@ export default function HowLongToEnrollMedigapPage() {
           </a>{" "}
           or{" "}
           <Link
-            href="/get-a-free-quote"
+            href="/quote"
             className="text-blue-600 font-bold hover:underline"
           >
             Get a Free Quote
@@ -248,7 +249,7 @@ export default function HowLongToEnrollMedigapPage() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/services/medigap-open-enrollment-period"
+              href="/medicare-supplement/new-jersey/turning-65"
               className="text-blue-600 hover:underline"
             >
               Medigap Open Enrollment Period Explained
@@ -256,7 +257,7 @@ export default function HowLongToEnrollMedigapPage() {
           </li>
           <li>
             <Link
-              href="/services/medicare-supplement-plan-g"
+              href="/services/compare-and-enroll-in-plan-g-online"
               className="text-blue-600 hover:underline"
             >
               Medicare Supplement Plan G: What It Covers
@@ -264,7 +265,7 @@ export default function HowLongToEnrollMedigapPage() {
           </li>
           <li>
             <Link
-              href="/services/when-to-apply-for-medicare"
+              href="/learn/how-to-sign-up-for-medicare"
               className="text-blue-600 hover:underline"
             >
               When to Apply for Medicare
@@ -272,7 +273,7 @@ export default function HowLongToEnrollMedigapPage() {
           </li>
           <li>
             <Link
-              href="/services/medicare-supplement-vs-medicare-advantage"
+              href="/medicare-supplement/new-jersey/vs-medicare-advantage"
               className="text-blue-600 hover:underline"
             >
               Medicare Supplement vs. Medicare Advantage

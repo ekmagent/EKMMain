@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "find a medicare agent in paterson nj | Free Guidance, No Fees | MedicareYourself",
   description:
     "Find a medicare agent in Paterson NJ — Anthony Orner compares Medigap and Advantage plans across Passaic County carriers. Free, no-obligation consultation.",
+  alternates: { canonical: "https://medicareyourself.com/services/find-a-medicare-agent-in-paterson-nj" },
   openGraph: {
     title:
       "find a medicare agent in paterson nj | Free Guidance, No Fees | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,6 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
   mainEntityOfPage:
     "https://medicareyourself.com/services/find-a-medicare-agent-in-paterson-nj",
 };
@@ -96,7 +99,7 @@ export default function FindMedicareAgentPatersonNJ() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -266,7 +269,7 @@ export default function FindMedicareAgentPatersonNJ() {
           <ul className="space-y-2">
             <li>
               <Link
-                href="/medicare-guides/medigap-plans-nj"
+                href="/medicare-supplement/new-jersey"
                 className="text-blue-600 hover:underline"
               >
                 Medigap Plans in New Jersey: Your Complete Guide
@@ -274,7 +277,7 @@ export default function FindMedicareAgentPatersonNJ() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/medicare-advantage-nj"
+                href="/medicare-advantage/new-jersey"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Advantage Plans in NJ
@@ -282,7 +285,7 @@ export default function FindMedicareAgentPatersonNJ() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/when-to-enroll-in-medicare"
+                href="/learn/how-to-sign-up-for-medicare"
                 className="text-blue-600 hover:underline"
               >
                 When to Enroll in Medicare: Deadlines and Penalties

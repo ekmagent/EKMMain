@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "Medicare broker for peripheral artery disease patients | Free Consultation | MedicareYourself",
   description:
     "Medicare broker for peripheral artery disease patients matching you with plans covering vascular procedures and Rx. Anthony Orner offers free consultations.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-peripheral-artery-disease-patients" },
   openGraph: {
     title:
       "Medicare broker for peripheral artery disease patients | Free Consultation | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,6 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
   mainEntityOfPage:
     "https://medicareyourself.com/services/medicare-broker-for-peripheral-artery-disease-patients",
 };
@@ -96,7 +99,7 @@ export default function MedicareBrokerPAD() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -251,7 +254,7 @@ export default function MedicareBrokerPAD() {
             </a>
           </p>
           <Link
-            href="/get-a-free-quote"
+            href="/quote"
             className="inline-block bg-white text-blue-600 font-semibold px-6 py-3 rounded-lg hover:bg-gray-100"
           >
             Get a Free Quote
@@ -273,7 +276,7 @@ export default function MedicareBrokerPAD() {
             </li>
             <li>
               <Link
-                href="/guides/medigap-plan-g-vs-plan-n"
+                href="/medicare-supplement/new-jersey/plan-g-vs-plan-n"
                 className="text-blue-600 hover:underline"
               >
                 Medigap Plan G vs. Plan N: Which Covers More?
@@ -281,7 +284,7 @@ export default function MedicareBrokerPAD() {
             </li>
             <li>
               <Link
-                href="/guides/medicare-part-d-drug-coverage"
+                href="/learn/medicare-parts-explained"
                 className="text-blue-600 hover:underline"
               >
                 How Medicare Part D Drug Coverage Works
@@ -289,7 +292,7 @@ export default function MedicareBrokerPAD() {
             </li>
             <li>
               <Link
-                href="/guides/medigap-open-enrollment-period"
+                href="/medicare-supplement/new-jersey/turning-65"
                 className="text-blue-600 hover:underline"
               >
                 Medigap Open Enrollment: Why Timing Matters

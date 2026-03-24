@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "Medicare broker for bipolar disorder patients | Free Plan Comparison | MedicareYourself",
   description:
     "Medicare broker for bipolar disorder patients — Anthony Orner finds NJ plans covering mood stabilizers, psychiatric care, and lab work. Free analysis.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-bipolar-disorder-patients" },
   openGraph: {
     title:
       "Medicare broker for bipolar disorder patients | Free Plan Comparison | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-01-15",
-  dateModified: "2025-01-15",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -99,7 +100,7 @@ export default function MedicareBrokerBipolarDisorderPage() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -279,7 +280,7 @@ export default function MedicareBrokerBipolarDisorderPage() {
           <ul className="space-y-2">
             <li>
               <Link
-                href="/services/medicare-broker-for-mental-health"
+                href="/services/medicare-broker-for-anxiety-disorder-patients"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Broker for Mental Health Coverage
@@ -287,7 +288,7 @@ export default function MedicareBrokerBipolarDisorderPage() {
             </li>
             <li>
               <Link
-                href="/guides/medicare-part-d-drug-coverage"
+                href="/learn/medicare-parts-explained"
                 className="text-blue-600 hover:underline"
               >
                 Understanding Medicare Part D Drug Coverage
@@ -295,7 +296,7 @@ export default function MedicareBrokerBipolarDisorderPage() {
             </li>
             <li>
               <Link
-                href="/guides/medigap-vs-medicare-advantage"
+                href="/medicare-supplement/new-jersey/vs-medicare-advantage"
                 className="text-blue-600 hover:underline"
               >
                 Medigap vs. Medicare Advantage: Which Is Right for You?
@@ -303,7 +304,7 @@ export default function MedicareBrokerBipolarDisorderPage() {
             </li>
             <li>
               <Link
-                href="/services/medicare-broker-nj"
+                href="/services/free-medicare-broker-new-jersey"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Broker in New Jersey

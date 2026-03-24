@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "plan g rates for 70 year old in new jersey | Free Quote in Minutes | MedicareYourself",
   description:
     "Plan G rates for 70-year-olds in New Jersey vary widely by carrier. Compare real NJ premiums side by side. Get a free quote from a licensed local broker.",
+  alternates: { canonical: "https://medicareyourself.com/services/plan-g-rates-for-70-year-old-in-new-jersey" },
   openGraph: {
     title:
       "plan g rates for 70 year old in new jersey | Free Quote in Minutes | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-01-01",
-  dateModified: "2025-07-01",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -96,7 +97,7 @@ export default function PlanGRates70NJ() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -244,7 +245,7 @@ export default function PlanGRates70NJ() {
           <ul className="space-y-2">
             <li>
               <Link
-                href="/services/plan-g-vs-plan-n-in-new-jersey"
+                href="/medicare-supplement/new-jersey/plan-g-vs-plan-n"
                 className="text-blue-700 hover:underline"
               >
                 Plan G vs. Plan N in New Jersey
@@ -252,7 +253,7 @@ export default function PlanGRates70NJ() {
             </li>
             <li>
               <Link
-                href="/services/best-medigap-plans-in-new-jersey"
+                href="/services/best-and-cheapest-medicare-supplement"
                 className="text-blue-700 hover:underline"
               >
                 Best Medigap Plans in New Jersey
@@ -260,7 +261,7 @@ export default function PlanGRates70NJ() {
             </li>
             <li>
               <Link
-                href="/services/medicare-supplement-rates-by-age"
+                href="/services/best-medicare-supplement-rates-by-age-plan-g-plan-n-plan-f-rates"
                 className="text-blue-700 hover:underline"
               >
                 Medicare Supplement Rates by Age
@@ -268,7 +269,7 @@ export default function PlanGRates70NJ() {
             </li>
             <li>
               <Link
-                href="/services/when-to-enroll-in-medigap"
+                href="/services/medicare-supplement-open-enrollment-online"
                 className="text-blue-700 hover:underline"
               >
                 When to Enroll in Medigap

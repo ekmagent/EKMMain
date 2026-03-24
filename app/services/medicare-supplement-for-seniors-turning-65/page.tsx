@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "medicare supplement for seniors turning 65 | Free Quote in Minutes | MedicareYourself",
   description:
     "Medicare supplement for seniors turning 65 — lock in guaranteed-issue rates during your 6-month open enrollment window. Anthony Orner compares top carriers.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-supplement-for-seniors-turning-65" },
   openGraph: {
     title:
       "medicare supplement for seniors turning 65 | Free Quote in Minutes | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-01-01",
-  dateModified: "2025-07-01",
+  datePublished: "2026-03-17",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -97,7 +98,7 @@ export default function MedicareSupplementSeniorsTurning65() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -282,7 +283,7 @@ export default function MedicareSupplementSeniorsTurning65() {
           <ul className="space-y-2">
             <li>
               <Link
-                href="/services/medigap-plan-g"
+                href="/services/compare-and-enroll-in-plan-g-online"
                 className="text-blue-600 hover:underline"
               >
                 Medigap Plan G: What It Covers and What It Costs
@@ -290,7 +291,7 @@ export default function MedicareSupplementSeniorsTurning65() {
             </li>
             <li>
               <Link
-                href="/services/medigap-plan-n"
+                href="/services/quickest-way-to-enroll-into-plan-n"
                 className="text-blue-600 hover:underline"
               >
                 Medigap Plan N: Is the Lower Premium Worth It?
@@ -298,7 +299,7 @@ export default function MedicareSupplementSeniorsTurning65() {
             </li>
             <li>
               <Link
-                href="/services/medicare-part-b-enrollment"
+                href="/learn/how-to-sign-up-for-medicare"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Part B Enrollment: When to Sign Up
@@ -306,7 +307,7 @@ export default function MedicareSupplementSeniorsTurning65() {
             </li>
             <li>
               <Link
-                href="/services/medicare-supplement-vs-advantage"
+                href="/medicare-supplement/new-jersey/vs-medicare-advantage"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Supplement vs Medicare Advantage: Real Tradeoffs

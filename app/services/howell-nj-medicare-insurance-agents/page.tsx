@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "howell nj medicare insurance agents | Free Independent Broker Help | MedicareYourself",
   description:
     "Howell NJ Medicare insurance agents — Anthony Orner compares Supplement and Advantage plans from top carriers in Monmouth County. Free no-obligation quote.",
+  alternates: { canonical: "https://medicareyourself.com/services/howell-nj-medicare-insurance-agents" },
   openGraph: {
     title:
       "howell nj medicare insurance agents | Free Independent Broker Help | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-01",
-  dateModified: "2025-07-01",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -95,7 +96,7 @@ export default function HowellNJMedicareInsuranceAgents() {
           Home
         </Link>
         {" > "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>
         {" > "}
@@ -227,7 +228,7 @@ export default function HowellNJMedicareInsuranceAgents() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/medicare-guides/medigap-plan-g-vs-plan-n"
+              href="/medicare-supplement/new-jersey/plan-g-vs-plan-n"
               className="text-blue-600 hover:underline"
             >
               Medigap Plan G vs. Plan N — Which Saves You More?
@@ -235,7 +236,7 @@ export default function HowellNJMedicareInsuranceAgents() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-advantage-vs-medigap"
+              href="/medicare-supplement/new-jersey/vs-medicare-advantage"
               className="text-blue-600 hover:underline"
             >
               Medicare Advantage vs. Medigap in New Jersey
@@ -243,7 +244,7 @@ export default function HowellNJMedicareInsuranceAgents() {
           </li>
           <li>
             <Link
-              href="/services/monmouth-county-medicare-broker"
+              href="/services/howell-nj-medicare-insurance-agents"
               className="text-blue-600 hover:underline"
             >
               Monmouth County Medicare Broker Services
@@ -251,7 +252,7 @@ export default function HowellNJMedicareInsuranceAgents() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/nj-medigap-open-enrollment"
+              href="/medicare-supplement/new-jersey/turning-65"
               className="text-blue-600 hover:underline"
             >
               New Jersey Medigap Open Enrollment Rules

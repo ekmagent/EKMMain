@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "Medicare broker for rheumatoid arthritis patients | Free Plan Comparison | MedicareYourself",
   description:
     "Medicare broker for rheumatoid arthritis patients in NJ. Anthony Orner compares plans covering biologics, injections, and PT visits. Free consultation.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-rheumatoid-arthritis-patients" },
   openGraph: {
     title:
       "Medicare broker for rheumatoid arthritis patients | Free Plan Comparison | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-01",
-  dateModified: "2025-07-01",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -98,7 +99,7 @@ export default function MedicareBrokerForRheumatoidArthritisPatients() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -283,7 +284,7 @@ export default function MedicareBrokerForRheumatoidArthritisPatients() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/services/medicare-broker-for-disability-patients"
+              href="/services/medicare-broker-for-people-on-disability"
               className="text-blue-600 hover:underline"
             >
               Medicare Broker for Disability Patients
@@ -291,7 +292,7 @@ export default function MedicareBrokerForRheumatoidArthritisPatients() {
           </li>
           <li>
             <Link
-              href="/guides/medigap-plan-g-nj"
+              href="/medicare-supplement/new-jersey/plan-g-vs-plan-n"
               className="text-blue-600 hover:underline"
             >
               Medigap Plan G in New Jersey
@@ -299,7 +300,7 @@ export default function MedicareBrokerForRheumatoidArthritisPatients() {
           </li>
           <li>
             <Link
-              href="/guides/medicare-part-d-specialty-drugs"
+              href="/learn/medicare-parts-explained"
               className="text-blue-600 hover:underline"
             >
               Medicare Part D and Specialty Drug Coverage
@@ -307,7 +308,7 @@ export default function MedicareBrokerForRheumatoidArthritisPatients() {
           </li>
           <li>
             <Link
-              href="/guides/medicare-advantage-vs-medigap"
+              href="/medicare-supplement/new-jersey/vs-medicare-advantage"
               className="text-blue-600 hover:underline"
             >
               Medicare Advantage vs. Medigap Supplement

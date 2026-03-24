@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "medicare insurance agents in egg harbor township new jersey | Free Quotes | MedicareYourself",
   description:
     "Medicare insurance agents in Egg Harbor Township, NJ who compare every top carrier. Anthony Orner offers free, unbiased broker help. Get your quote now.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-insurance-agents-in-egg-harbor-township-new-jersey" },
   openGraph: {
     title:
       "medicare insurance agents in egg harbor township new jersey | Free Quotes | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-12",
-  dateModified: "2025-07-12",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -97,7 +98,7 @@ export default function MedicareInsuranceAgentsEggHarborTownshipNJ() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -229,7 +230,7 @@ export default function MedicareInsuranceAgentsEggHarborTownshipNJ() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/services/medicare-insurance-agents-in-atlantic-county-nj"
+              href="/services/medicare-insurance-agents-in-atlantic-city-new-jersey"
               className="text-blue-600 hover:underline"
             >
               Medicare Insurance Agents in Atlantic County, NJ
@@ -237,7 +238,7 @@ export default function MedicareInsuranceAgentsEggHarborTownshipNJ() {
           </li>
           <li>
             <Link
-              href="/guides/medigap-plan-g-vs-plan-n"
+              href="/medicare-supplement/new-jersey/plan-g-vs-plan-n"
               className="text-blue-600 hover:underline"
             >
               Medigap Plan G vs. Plan N: Which Saves You More?
@@ -245,7 +246,7 @@ export default function MedicareInsuranceAgentsEggHarborTownshipNJ() {
           </li>
           <li>
             <Link
-              href="/guides/new-jersey-medigap-enrollment-rules"
+              href="/medicare-supplement/new-jersey"
               className="text-blue-600 hover:underline"
             >
               New Jersey Medigap Enrollment Rules Explained
@@ -253,7 +254,7 @@ export default function MedicareInsuranceAgentsEggHarborTownshipNJ() {
           </li>
           <li>
             <Link
-              href="/guides/medicare-advantage-vs-medigap"
+              href="/medicare-supplement/new-jersey/vs-medicare-advantage"
               className="text-blue-600 hover:underline"
             >
               Medicare Advantage vs. Medigap: How to Decide

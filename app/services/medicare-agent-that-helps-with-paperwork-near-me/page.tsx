@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "medicare agent that helps with paperwork near me | Free Help in NJ | MedicareYourself",
   description:
     "Medicare agent that helps with paperwork near you in NJ. Anthony Orner handles applications, carrier forms, and CMS enrollment at no cost. Book a free call.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-agent-that-helps-with-paperwork-near-me" },
   openGraph: {
     title:
       "medicare agent that helps with paperwork near me | Free Help in NJ | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -57,6 +58,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
+  datePublished: "2026-03-17",
+  dateModified: "2026-03-22",
   mainEntityOfPage:
     "https://medicareyourself.com/services/medicare-agent-that-helps-with-paperwork-near-me",
 };
@@ -95,7 +98,7 @@ export default function MedicareAgentPaperworkPage() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -227,7 +230,7 @@ export default function MedicareAgentPaperworkPage() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/medicare-guides/how-to-enroll-in-medicare"
+              href="/learn/how-to-sign-up-for-medicare"
               className="text-blue-600 hover:underline"
             >
               How to Enroll in Medicare: Step-by-Step Guide
@@ -235,7 +238,7 @@ export default function MedicareAgentPaperworkPage() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-part-b-enrollment"
+              href="/learn/how-to-sign-up-for-medicare"
               className="text-blue-600 hover:underline"
             >
               Medicare Part B Enrollment and Late Penalties
@@ -243,7 +246,7 @@ export default function MedicareAgentPaperworkPage() {
           </li>
           <li>
             <Link
-              href="/services/medicare-broker-near-me-nj"
+              href="/services/free-medicare-broker-new-jersey"
               className="text-blue-600 hover:underline"
             >
               Find a Medicare Broker Near You in NJ
@@ -251,7 +254,7 @@ export default function MedicareAgentPaperworkPage() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medigap-open-enrollment-period"
+              href="/medicare-supplement/new-jersey/turning-65"
               className="text-blue-600 hover:underline"
             >
               Medigap Open Enrollment: When to Apply

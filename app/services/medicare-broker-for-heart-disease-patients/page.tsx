@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "medicare broker for heart disease patients | Free Help Finding the Right Plan | MedicareYourself",
   description:
     "Medicare broker for heart disease patients matching you to plans covering cardiac rehab, specialists, and costly prescriptions. Call Anthony Orner — it's free.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-heart-disease-patients" },
   openGraph: {
     title:
       "medicare broker for heart disease patients | Free Help Finding the Right Plan | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,6 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
   mainEntityOfPage:
     "https://medicareyourself.com/services/medicare-broker-for-heart-disease-patients",
 };
@@ -98,7 +101,7 @@ export default function MedicareBrokerHeartDiseasePatients() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -242,7 +245,7 @@ export default function MedicareBrokerHeartDiseasePatients() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/medicare-guides/medigap-plan-g"
+              href="/medicare-supplement/new-jersey/plan-g-vs-plan-n"
               className="text-blue-600 hover:underline"
             >
               Medigap Plan G: What It Covers and What It Costs
@@ -250,7 +253,7 @@ export default function MedicareBrokerHeartDiseasePatients() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-advantage-vs-medigap"
+              href="/medicare-supplement/new-jersey/vs-medicare-advantage"
               className="text-blue-600 hover:underline"
             >
               Medicare Advantage vs. Medigap: How to Decide
@@ -258,7 +261,7 @@ export default function MedicareBrokerHeartDiseasePatients() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/part-d-drug-coverage"
+              href="/learn/medicare-parts-explained"
               className="text-blue-600 hover:underline"
             >
               Medicare Part D: Finding a Plan That Covers Your Medications
@@ -266,7 +269,7 @@ export default function MedicareBrokerHeartDiseasePatients() {
           </li>
           <li>
             <Link
-              href="/services/medicare-broker-for-chronic-conditions"
+              href="/services/best-medicare-plan-for-chronic-conditions"
               className="text-blue-600 hover:underline"
             >
               Medicare Broker for Chronic Conditions

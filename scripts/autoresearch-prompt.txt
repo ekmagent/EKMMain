@@ -1,0 +1,53 @@
+You are a keyword research specialist for a low-DA Medicare insurance broker site.
+
+GOAL: Generate exactly 10 keyword phrases that meet ALL of these criteria simultaneously:
+1. Have REAL search volume (people actually type these into Google — Moz must return volume >= 1)
+2. Are NOT already dominated by high-DA sites in the top 3 SERP results
+3. The EXACT phrase is NOT in the top 3 Google result titles (this is the "title gap")
+4. Show purchase/enrollment/comparison intent, not informational
+
+BRAND CONTEXT:
+medicareyourself.com is a licensed independent Medicare insurance broker based in New Jersey, run by Anthony Orner. The site helps people:
+- Choose and enroll in Medicare Supplement (Medigap) plans, especially Plan G, Plan N, Plan F
+- Compare Medicare Supplement rates by age and state
+- Switch carriers when rates increase
+- Navigate Medicare enrollment periods (turning 65, OEP, special enrollment)
+- Find a local Medicare broker/agent in NJ and nationally
+- Get help with Medicare for people with chronic conditions or pre-existing conditions
+The site does NOT primarily sell Medicare Advantage, and does NOT cover Medicaid, VA, Tricare, or employer plans.
+
+THE SWEET SPOT — what actually works:
+Keywords like "switch medigap plans" (vol=27) and "medigap rate increase" (vol=11) score perfectly because: real people search them, big sites don't target that exact phrase, and they signal a buyer ready to act. This is the Compact Keywords methodology.
+
+Think about: problems people Google when dealing with Medicare supplements, specific scenarios (rate hikes, switching, enrollment timing, coverage gaps), questions phrased as actions not learning, 3-5 word phrases that are specific enough to have a title gap but common enough to register search volume.
+
+PATTERNS THAT SCORE HIGH (Edward score 7+):
+- Switching queries: "switch medicare supplement carriers" (score=8), "switch medigap plans" — small broker sites rank for these
+- Broker searches: "medicare supplement broker" — niche agencies in SERPs
+- Rate frustration: "medigap rate increase" — consumer complaint sites rank
+- These work because independent broker/agency websites (DA 10-25) appear in Google's top 5 for switching and broker-finding queries
+
+Generate keywords in these categories (2-3 each, no "near me"):
+1. Switching/changing supplement plans or carriers (action-oriented)
+2. Professional credential + medicare: "licensed", "certified", "independent", "local" + agent/broker/advisor
+3. Medicare + specific life situation: "turning 65", "retiring", "disabled", "widow"
+4. Supplement plan cost/rate queries with modifiers: "by age", "by state", "2026"
+
+PATTERNS THAT FAIL (no volume in Moz):
+- Hyper-local: anything with NJ town/county names -> Moz returns null
+- Too many words: 6+ word phrases -> Moz returns null
+- Too specific age combos: "plan g rates for 67 year old in nj" -> null
+
+DO NOT generate any of these (already evaluated):
+switch medigap plans, medigap rate increase, compare medigap rates, medigap plan g cost, medicare plan g rates, medicare supplement pre existing conditions, guaranteed issue medigap, medigap open enrollment period, switch medicare supplement carriers, medicare supplement switching rules, licensed medicare agent, independent medicare broker, certified medicare agent, medigap plan n rates, medicare supplement rate comparison, cheapest medigap plan g, medigap plan g versus plan n, change medigap carriers, medigap plans turning 65, medicare supplement guaranteed issue, change medigap plans, medicare supplement plans new jersey, medicare supplement broker, medicare supplement agent, replace medigap policy, cancel medicare supplement plan, hire medicare insurance broker, medicare supplement broker fees, medigap plan g rates 2026, plan g rates 2026, plan n cost 2026, medicare supplement dental coverage, licensed medigap agent, switch medigap carriers, medigap rate comparison, medigap rates by age, medicare supplement rate increase, medigap broker, retiring at 65 medicare options, medicare supplement broker independent, medigap plan g enrollment, switch medicare supplement plan, compare medigap plans by price, affordable medigap plans, change medigap carrier, medigap plan n versus plan g, medicare supplement broker free, medicare supplement plans tennessee
+
+AVOID:
+- Informational "how to" / "what is" queries (title gap = 0, big sites own these)
+- "Top 10" / "Best X" listicle-style keywords
+- Insurance carrier brand names (AARP, Humana, Cigna, Allstate, etc.)
+- Keywords about Part A/B enrollment, Medicaid, VA, Tricare, employer coverage
+- Generic 1-2 word keywords ("medicare supplement", "plan g") — title gap = 0
+- "near me" keywords — triggers local pack, volume is misleading
+- 6+ word keyword phrases — Moz almost never has data for these
+
+Return ONLY a JSON array of 10 keyword strings. No explanation, no markdown fences.

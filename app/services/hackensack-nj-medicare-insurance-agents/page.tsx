@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "hackensack nj medicare insurance agents | Free Broker Consultation | MedicareYourself",
   description:
     "Hackensack NJ medicare insurance agents — Anthony Orner compares top Bergen County carriers as a licensed independent broker. Free quote in minutes.",
+  alternates: { canonical: "https://medicareyourself.com/services/hackensack-nj-medicare-insurance-agents" },
   openGraph: {
     title:
       "hackensack nj medicare insurance agents | Free Broker Consultation | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-01",
-  dateModified: "2025-07-01",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -96,7 +97,7 @@ export default function HackensackNJMedicareInsuranceAgents() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -265,7 +266,7 @@ export default function HackensackNJMedicareInsuranceAgents() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/medicare-guides/medigap-plan-g-nj"
+              href="/medicare-supplement/new-jersey/plan-g-vs-plan-n"
               className="text-blue-600 hover:underline"
             >
               Medigap Plan G in New Jersey: What It Covers and Costs
@@ -273,7 +274,7 @@ export default function HackensackNJMedicareInsuranceAgents() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-advantage-vs-medigap"
+              href="/medicare-supplement/new-jersey/vs-medicare-advantage"
               className="text-blue-600 hover:underline"
             >
               Medicare Advantage vs. Medigap: Which Is Right for You?
@@ -281,7 +282,7 @@ export default function HackensackNJMedicareInsuranceAgents() {
           </li>
           <li>
             <Link
-              href="/services/bergen-county-medicare-broker"
+              href="/services/hackensack-nj-medicare-insurance-agents"
               className="text-blue-600 hover:underline"
             >
               Bergen County Medicare Broker Services
@@ -289,7 +290,7 @@ export default function HackensackNJMedicareInsuranceAgents() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/when-to-enroll-medicare-nj"
+              href="/learn/how-to-sign-up-for-medicare"
               className="text-blue-600 hover:underline"
             >
               When to Enroll in Medicare in New Jersey

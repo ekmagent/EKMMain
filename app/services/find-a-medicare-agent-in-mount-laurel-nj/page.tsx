@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "Find a Medicare Agent in Mount Laurel NJ | Free Local Help | MedicareYourself",
   description:
     "Find a Medicare agent in Mount Laurel, NJ who compares every major carrier. Anthony Orner offers free, no-pressure consultations. Call or book online today.",
+  alternates: { canonical: "https://medicareyourself.com/services/find-a-medicare-agent-in-mount-laurel-nj" },
   openGraph: {
     title:
       "Find a Medicare Agent in Mount Laurel NJ | Free Local Help | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-12",
-  dateModified: "2025-07-12",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -96,7 +97,7 @@ export default function FindMedicareAgentMountLaurelNJ() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -242,7 +243,7 @@ export default function FindMedicareAgentMountLaurelNJ() {
             855-559-1700
           </a>{" "}
           or{" "}
-          <Link href="/get-a-free-quote" className="underline font-bold">
+          <Link href="/quote" className="underline font-bold">
             Get a Free Quote
           </Link>{" "}
           online.
@@ -263,7 +264,7 @@ export default function FindMedicareAgentMountLaurelNJ() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/medicare-guides/medicare-supplement-plans-nj"
+              href="/medicare-supplement/new-jersey"
               className="text-blue-600 hover:underline"
             >
               Medicare Supplement Plans in New Jersey
@@ -271,7 +272,7 @@ export default function FindMedicareAgentMountLaurelNJ() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-advantage-plans-nj"
+              href="/medicare-advantage/new-jersey"
               className="text-blue-600 hover:underline"
             >
               Medicare Advantage Plans in New Jersey
@@ -279,7 +280,7 @@ export default function FindMedicareAgentMountLaurelNJ() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medigap-open-enrollment"
+              href="/medicare-supplement/new-jersey/turning-65"
               className="text-blue-600 hover:underline"
             >
               Medigap Open Enrollment: What You Need to Know
@@ -287,7 +288,7 @@ export default function FindMedicareAgentMountLaurelNJ() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/plan-g-vs-plan-n"
+              href="/medicare-supplement/new-jersey/plan-g-vs-plan-n"
               className="text-blue-600 hover:underline"
             >
               Plan G vs. Plan N: Which Is Right for You?

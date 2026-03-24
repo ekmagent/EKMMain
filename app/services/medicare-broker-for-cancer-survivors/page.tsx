@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "Medicare broker for cancer survivors | Free Coverage Review | MedicareYourself",
   description:
     "Medicare broker for cancer survivors navigating post-treatment coverage — scans, oncology visits, prescriptions. Anthony Orner reviews your plan for free.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-cancer-survivors" },
   openGraph: {
     title:
       "Medicare broker for cancer survivors | Free Coverage Review | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,6 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
   mainEntityOfPage:
     "https://medicareyourself.com/services/medicare-broker-for-cancer-survivors",
 };
@@ -99,7 +102,7 @@ export default function MedicareBrokerForCancerSurvivors() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -233,7 +236,7 @@ export default function MedicareBrokerForCancerSurvivors() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/medicare-guides/medigap-plan-g"
+              href="/medicare-supplement/new-jersey/plan-g-vs-plan-n"
               className="text-blue-700 hover:underline"
             >
               Medigap Plan G: What It Covers and What It Costs
@@ -241,7 +244,7 @@ export default function MedicareBrokerForCancerSurvivors() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-advantage-vs-medigap"
+              href="/medicare-supplement/new-jersey/vs-medicare-advantage"
               className="text-blue-700 hover:underline"
             >
               Medicare Advantage vs. Medigap: Which Is Right for You?
@@ -249,7 +252,7 @@ export default function MedicareBrokerForCancerSurvivors() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/part-d-drug-coverage"
+              href="/learn/medicare-parts-explained"
               className="text-blue-700 hover:underline"
             >
               Understanding Medicare Part D Drug Coverage
@@ -257,7 +260,7 @@ export default function MedicareBrokerForCancerSurvivors() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/guaranteed-issue-rights"
+              href="/medicare-supplement/new-jersey"
               className="text-blue-700 hover:underline"
             >
               Medicare Guaranteed Issue Rights Explained

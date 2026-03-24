@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "Exploring Medicare Supplemental Insurance (Medigap) Cost | Free Rate Comparison | MedicareYourself",
   description:
     "Exploring Medicare Supplemental insurance (Medigap) cost? See average premiums by plan letter, pricing model, and state. Compare carriers free with a broker.",
+  alternates: { canonical: "https://medicareyourself.com/services/exploring-medicare-supplemental-insurance-medigap-cost" },
   openGraph: {
     title:
       "Exploring Medicare Supplemental Insurance (Medigap) Cost | Free Rate Comparison | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-01",
-  dateModified: "2025-07-01",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -96,7 +97,7 @@ export default function ExploringMedigapCostPage() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -276,7 +277,7 @@ export default function ExploringMedigapCostPage() {
             855-559-1700
           </a>{" "}
           or{" "}
-          <Link href="/get-quote" className="underline font-bold">
+          <Link href="/quote" className="underline font-bold">
             Get a Free Quote
           </Link>
         </p>
@@ -294,7 +295,7 @@ export default function ExploringMedigapCostPage() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/services/medicare-supplement-plan-g"
+              href="/services/compare-and-enroll-in-plan-g-online"
               className="text-blue-600 hover:underline"
             >
               Medicare Supplement Plan G: Full Breakdown
@@ -302,7 +303,7 @@ export default function ExploringMedigapCostPage() {
           </li>
           <li>
             <Link
-              href="/services/medicare-supplement-plan-n"
+              href="/services/quickest-way-to-enroll-into-plan-n"
               className="text-blue-600 hover:underline"
             >
               Medicare Supplement Plan N: What It Covers and Costs
@@ -310,7 +311,7 @@ export default function ExploringMedigapCostPage() {
           </li>
           <li>
             <Link
-              href="/services/medigap-open-enrollment-period"
+              href="/medicare-supplement/new-jersey/turning-65"
               className="text-blue-600 hover:underline"
             >
               Medigap Open Enrollment Period: When and Why It Matters
@@ -318,7 +319,7 @@ export default function ExploringMedigapCostPage() {
           </li>
           <li>
             <Link
-              href="/services/medicare-supplement-vs-medicare-advantage"
+              href="/medicare-supplement/new-jersey/vs-medicare-advantage"
               className="text-blue-600 hover:underline"
             >
               Medicare Supplement vs. Medicare Advantage: How to Decide

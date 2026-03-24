@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "medicare supplement plan g cost for 70 year old | Free Rate Lookup | MedicareYourself",
   description:
     "Medicare Supplement Plan G cost for 70-year-olds varies by carrier, state, and pricing model. Compare real premiums and get a free quote from Anthony Orner.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-supplement-plan-g-cost-for-70-year-old" },
   openGraph: {
     title:
       "medicare supplement plan g cost for 70 year old | Free Rate Lookup | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-01",
-  dateModified: "2025-07-01",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -96,7 +97,7 @@ export default function MedicareSupplementPlanGCostFor70YearOld() {
           Home
         </Link>
         {" > "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>
         {" > "}
@@ -283,7 +284,7 @@ export default function MedicareSupplementPlanGCostFor70YearOld() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/services/medicare-supplement-plan-g"
+              href="/services/compare-and-enroll-in-plan-g-online"
               className="text-blue-600 hover:underline"
             >
               Medicare Supplement Plan G: Full Coverage Breakdown
@@ -291,7 +292,7 @@ export default function MedicareSupplementPlanGCostFor70YearOld() {
           </li>
           <li>
             <Link
-              href="/services/medicare-supplement-vs-medicare-advantage"
+              href="/medicare-supplement/new-jersey/vs-medicare-advantage"
               className="text-blue-600 hover:underline"
             >
               Medicare Supplement vs. Medicare Advantage: Which Is Right for You?
@@ -299,7 +300,7 @@ export default function MedicareSupplementPlanGCostFor70YearOld() {
           </li>
           <li>
             <Link
-              href="/services/medigap-open-enrollment"
+              href="/medicare-supplement/new-jersey/turning-65"
               className="text-blue-600 hover:underline"
             >
               Medigap Open Enrollment: When and Why It Matters
@@ -307,7 +308,7 @@ export default function MedicareSupplementPlanGCostFor70YearOld() {
           </li>
           <li>
             <Link
-              href="/services/medicare-supplement-plan-n"
+              href="/services/quickest-way-to-enroll-into-plan-n"
               className="text-blue-600 hover:underline"
             >
               Medicare Supplement Plan N: A Lower-Premium Alternative

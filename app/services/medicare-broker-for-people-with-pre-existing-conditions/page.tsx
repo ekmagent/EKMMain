@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "medicare broker for people with pre-existing conditions | Free Guidance | MedicareYourself",
   description:
     "Medicare broker for people with pre-existing conditions — learn which plans skip health questions and which carriers are lenient. Free help from Anthony Orner.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-people-with-pre-existing-conditions" },
   openGraph: {
     title:
       "medicare broker for people with pre-existing conditions | Free Guidance | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-14",
-  dateModified: "2025-07-14",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -99,7 +100,7 @@ export default function MedicareBrokerPreExistingConditions() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -244,7 +245,7 @@ export default function MedicareBrokerPreExistingConditions() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/medicare-guides/medigap-open-enrollment-period"
+              href="/medicare-supplement/new-jersey/turning-65"
               className="text-blue-700 hover:underline"
             >
               Medigap Open Enrollment Period: What You Need to Know
@@ -252,7 +253,7 @@ export default function MedicareBrokerPreExistingConditions() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-advantage-vs-medigap"
+              href="/medicare-supplement/new-jersey/vs-medicare-advantage"
               className="text-blue-700 hover:underline"
             >
               Medicare Advantage vs. Medigap: Which Is Right for You?
@@ -260,7 +261,7 @@ export default function MedicareBrokerPreExistingConditions() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/guaranteed-issue-rights"
+              href="/medicare-supplement/new-jersey"
               className="text-blue-700 hover:underline"
             >
               Federal Guaranteed Issue Rights Explained
@@ -268,7 +269,7 @@ export default function MedicareBrokerPreExistingConditions() {
           </li>
           <li>
             <Link
-              href="/services/free-medicare-consultation"
+              href="/services/help-with-your-medicare-decision"
               className="text-blue-700 hover:underline"
             >
               Schedule a Free Medicare Consultation

@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "Medicare broker for depression patients | Free Mental Health Plan Review | MedicareYourself",
   description:
     "Medicare broker for depression patients — Anthony Orner matches you with plans covering therapy, psychiatry, and medications in NJ. Free, no-pressure review.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-depression-patients" },
   openGraph: {
     title:
       "Medicare broker for depression patients | Free Mental Health Plan Review | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-14",
-  dateModified: "2025-07-14",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -98,7 +99,7 @@ export default function MedicareBrokerForDepressionPatients() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -219,7 +220,7 @@ export default function MedicareBrokerForDepressionPatients() {
           Anthony Orner, Licensed Medicare Broker — NJ
         </p>
         <Link
-          href="/get-a-free-quote"
+          href="/quote"
           className="inline-block bg-blue-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-blue-700 transition"
         >
           Get a Free Quote
@@ -235,7 +236,7 @@ export default function MedicareBrokerForDepressionPatients() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/services/medicare-broker-for-mental-health"
+              href="/services/medicare-broker-for-anxiety-disorder-patients"
               className="text-blue-600 hover:underline"
             >
               Medicare Broker for Mental Health Coverage
@@ -243,7 +244,7 @@ export default function MedicareBrokerForDepressionPatients() {
           </li>
           <li>
             <Link
-              href="/guides/medicare-part-d-drug-coverage"
+              href="/learn/medicare-parts-explained"
               className="text-blue-600 hover:underline"
             >
               Understanding Medicare Part D Drug Coverage
@@ -251,7 +252,7 @@ export default function MedicareBrokerForDepressionPatients() {
           </li>
           <li>
             <Link
-              href="/guides/medicare-supplement-vs-advantage"
+              href="/medicare-supplement/new-jersey/vs-medicare-advantage"
               className="text-blue-600 hover:underline"
             >
               Medicare Supplement vs. Medicare Advantage
@@ -259,7 +260,7 @@ export default function MedicareBrokerForDepressionPatients() {
           </li>
           <li>
             <Link
-              href="/services/medicare-broker-nj"
+              href="/services/free-medicare-broker-new-jersey"
               className="text-blue-600 hover:underline"
             >
               Medicare Broker in New Jersey

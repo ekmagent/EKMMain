@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "Medicare broker for neuropathy patients | Free Plan Review | MedicareYourself",
   description:
     "Medicare broker for neuropathy patients comparing plans that cover nerve testing, specialist visits, and Rx. Anthony Orner finds the right fit — free review.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-neuropathy-patients" },
   openGraph: {
     title:
       "Medicare broker for neuropathy patients | Free Plan Review | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-01",
-  dateModified: "2025-07-01",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -97,7 +98,7 @@ export default function MedicareBrokerForNeuropathyPatients() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -274,7 +275,7 @@ export default function MedicareBrokerForNeuropathyPatients() {
           <ul className="space-y-2">
             <li>
               <Link
-                href="/medicare-guides/medigap-vs-medicare-advantage"
+                href="/medicare-supplement/new-jersey/vs-medicare-advantage"
                 className="text-blue-600 hover:underline"
               >
                 Medigap vs. Medicare Advantage: How to Choose
@@ -282,7 +283,7 @@ export default function MedicareBrokerForNeuropathyPatients() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/medicare-part-d-drug-coverage"
+                href="/learn/medicare-parts-explained"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Part D Drug Coverage Explained
@@ -290,7 +291,7 @@ export default function MedicareBrokerForNeuropathyPatients() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/medicare-for-chronic-conditions"
+                href="/services/best-medicare-plan-for-chronic-conditions"
                 className="text-blue-600 hover:underline"
               >
                 Medicare for Chronic Conditions
@@ -298,7 +299,7 @@ export default function MedicareBrokerForNeuropathyPatients() {
             </li>
             <li>
               <Link
-                href="/services/free-medicare-plan-review"
+                href="/services/help-with-your-medicare-decision"
                 className="text-blue-600 hover:underline"
               >
                 Book a Free Medicare Plan Review

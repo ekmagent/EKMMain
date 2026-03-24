@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "Medicare broker for asthma sufferers | Free Inhaler Coverage Check | MedicareYourself",
   description:
     "Medicare broker for asthma sufferers tired of overpaying for inhalers and rescue meds. Anthony Orner finds plans that cover what you breathe. Free review.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-asthma-sufferers" },
   openGraph: {
     title:
       "Medicare broker for asthma sufferers | Free Inhaler Coverage Check | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,6 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
   mainEntityOfPage:
     "https://medicareyourself.com/services/medicare-broker-for-asthma-sufferers",
 };
@@ -98,7 +101,7 @@ export default function MedicareBrokerForAsthmaSufferers() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -224,7 +227,7 @@ export default function MedicareBrokerForAsthmaSufferers() {
             </a>{" "}
             or{" "}
             <Link
-              href="/get-a-free-quote"
+              href="/quote"
               className="underline font-bold text-white"
             >
               Get a Free Quote
@@ -250,7 +253,7 @@ export default function MedicareBrokerForAsthmaSufferers() {
             </li>
             <li>
               <Link
-                href="/guides/medicare-part-d-explained"
+                href="/learn/medicare-parts-explained"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Part D Explained
@@ -258,7 +261,7 @@ export default function MedicareBrokerForAsthmaSufferers() {
             </li>
             <li>
               <Link
-                href="/guides/medigap-vs-medicare-advantage"
+                href="/medicare-supplement/new-jersey/vs-medicare-advantage"
                 className="text-blue-600 hover:underline"
               >
                 Medigap vs. Medicare Advantage
@@ -266,7 +269,7 @@ export default function MedicareBrokerForAsthmaSufferers() {
             </li>
             <li>
               <Link
-                href="/guides/medicare-prescription-drug-costs"
+                href="/learn/medicare-parts-explained"
                 className="text-blue-600 hover:underline"
               >
                 How to Lower Medicare Prescription Drug Costs

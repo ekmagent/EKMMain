@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "medicare insurance agents in bayonne new jersey | Free Local Help | MedicareYourself",
   description:
     "Medicare insurance agents in Bayonne, New Jersey — Anthony Orner is a licensed independent broker comparing Supplement and Advantage plans. Free consultation.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-insurance-agents-in-bayonne-new-jersey" },
   openGraph: {
     title:
       "medicare insurance agents in bayonne new jersey | Free Local Help | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,6 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
   mainEntityOfPage:
     "https://medicareyourself.com/services/medicare-insurance-agents-in-bayonne-new-jersey",
 };
@@ -100,7 +103,7 @@ export default function MedicareInsuranceAgentsBayonneNJ() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -223,7 +226,7 @@ export default function MedicareInsuranceAgentsBayonneNJ() {
           </a>
         </p>
         <Link
-          href="/get-a-free-quote"
+          href="/quote"
           className="inline-block bg-white text-blue-600 font-semibold px-6 py-3 rounded-lg hover:bg-blue-50 transition"
         >
           Get a Free Quote
@@ -241,7 +244,7 @@ export default function MedicareInsuranceAgentsBayonneNJ() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/medicare-guides/medicare-supplement-plans-nj"
+              href="/medicare-supplement/new-jersey"
               className="text-blue-600 hover:underline"
             >
               Medicare Supplement Plans in New Jersey
@@ -249,7 +252,7 @@ export default function MedicareInsuranceAgentsBayonneNJ() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-advantage-plans-hudson-county"
+              href="/medicare-advantage/new-jersey"
               className="text-blue-600 hover:underline"
             >
               Medicare Advantage Plans in Hudson County
@@ -257,7 +260,7 @@ export default function MedicareInsuranceAgentsBayonneNJ() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/when-to-enroll-in-medicare"
+              href="/learn/how-to-sign-up-for-medicare"
               className="text-blue-600 hover:underline"
             >
               When to Enroll in Medicare
@@ -265,7 +268,7 @@ export default function MedicareInsuranceAgentsBayonneNJ() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-part-d-nj"
+              href="/learn/medicare-parts-explained"
               className="text-blue-600 hover:underline"
             >
               Medicare Part D in New Jersey

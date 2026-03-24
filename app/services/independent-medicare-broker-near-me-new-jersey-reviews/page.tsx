@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "independent medicare broker near me new jersey reviews | Free Consultation | MedicareYourself",
   description:
     "Independent Medicare broker near me in New Jersey — read real client reviews of Anthony Orner. Licensed, independent, no cost to you. Book a free call today.",
+  alternates: { canonical: "https://medicareyourself.com/services/independent-medicare-broker-near-me-new-jersey-reviews" },
   openGraph: {
     title:
       "independent medicare broker near me new jersey reviews | Free Consultation | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-01-01",
-  dateModified: "2025-07-01",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -97,7 +98,7 @@ export default function IndependentMedicareBrokerNJReviewsPage() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -265,7 +266,7 @@ export default function IndependentMedicareBrokerNJReviewsPage() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/medicare/supplement"
+              href="/medicare-supplement/new-jersey"
               className="text-blue-600 hover:underline"
             >
               Medicare Supplement Plans in New Jersey
@@ -273,7 +274,7 @@ export default function IndependentMedicareBrokerNJReviewsPage() {
           </li>
           <li>
             <Link
-              href="/medicare/advantage"
+              href="/medicare-advantage/new-jersey"
               className="text-blue-600 hover:underline"
             >
               Medicare Advantage Plans in NJ
@@ -281,7 +282,7 @@ export default function IndependentMedicareBrokerNJReviewsPage() {
           </li>
           <li>
             <Link
-              href="/medicare/part-d"
+              href="/learn/medicare-parts-explained"
               className="text-blue-600 hover:underline"
             >
               Medicare Part D Drug Coverage Guide

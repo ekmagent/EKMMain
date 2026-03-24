@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "enroll in medicare supplement plan g at 68 | Free Guidance | MedicareYourself",
   description:
     "Enroll in Medicare Supplement Plan G at 68 — understand guaranteed issue rights, underwriting, and current rates. Anthony Orner guides you. Free consultation.",
+  alternates: { canonical: "https://medicareyourself.com/services/enroll-in-medicare-supplement-plan-g-at-68" },
   openGraph: {
     title:
       "enroll in medicare supplement plan g at 68 | Free Guidance | MedicareYourself",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-01",
-  dateModified: "2025-07-01",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-19",
 };
 
 const faqs = [
@@ -290,7 +291,7 @@ export default function EnrollInMedicareSupplementPlanGAt68() {
           <ul className="space-y-2">
             <li>
               <Link
-                href="/services/medicare-supplement-plan-g"
+                href="/services/compare-and-enroll-in-plan-g-online"
                 className="text-blue-700 underline hover:text-blue-900"
               >
                 Medicare Supplement Plan G: Full Benefits Breakdown
@@ -298,7 +299,7 @@ export default function EnrollInMedicareSupplementPlanGAt68() {
             </li>
             <li>
               <Link
-                href="/services/medigap-underwriting"
+                href="/services/how-long-does-it-take-to-get-approved-for-a-medicare-supplement-plan"
                 className="text-blue-700 underline hover:text-blue-900"
               >
                 How Medigap Underwriting Works After 65
@@ -306,7 +307,7 @@ export default function EnrollInMedicareSupplementPlanGAt68() {
             </li>
             <li>
               <Link
-                href="/services/plan-g-vs-plan-n"
+                href="/medicare-supplement/new-jersey/plan-g-vs-plan-n"
                 className="text-blue-700 underline hover:text-blue-900"
               >
                 Plan G vs. Plan N: Which Saves You More?
@@ -314,7 +315,7 @@ export default function EnrollInMedicareSupplementPlanGAt68() {
             </li>
             <li>
               <Link
-                href="/services/medicare-supplement-rate-increases"
+                href="/services/medicare-supplement-rate-jumped-why-and-what-can-i-do"
                 className="text-blue-700 underline hover:text-blue-900"
               >
                 Understanding Medicare Supplement Rate Increases

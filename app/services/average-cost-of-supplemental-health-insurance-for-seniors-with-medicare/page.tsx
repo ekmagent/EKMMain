@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "average cost of supplemental health insurance for seniors with medicare | Free Broker Comparison | MedicareYourself",
   description:
     "Average cost of supplemental health insurance for seniors with Medicare runs $90–$300+/month. See 2025–2026 rates by plan, age, and state. Free comparison.",
+  alternates: { canonical: "https://medicareyourself.com/services/average-cost-of-supplemental-health-insurance-for-seniors-with-medicare" },
   openGraph: {
     title:
       "average cost of supplemental health insurance for seniors with medicare | Free Broker Comparison | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-01-15",
-  dateModified: "2025-07-01",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -100,7 +101,7 @@ export default function AverageCostSupplementalInsurancePage() {
           Home
         </Link>
         {" > "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>
         {" > "}
@@ -247,7 +248,7 @@ export default function AverageCostSupplementalInsurancePage() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/services/medigap-plan-g-vs-plan-n"
+              href="/medicare-supplement/new-jersey/plan-g-vs-plan-n"
               className="text-blue-600 hover:underline"
             >
               Medigap Plan G vs. Plan N: Which One Saves You More?
@@ -255,7 +256,7 @@ export default function AverageCostSupplementalInsurancePage() {
           </li>
           <li>
             <Link
-              href="/services/medigap-open-enrollment-period"
+              href="/medicare-supplement/new-jersey/turning-65"
               className="text-blue-600 hover:underline"
             >
               Medigap Open Enrollment Period: When and Why It Matters
@@ -263,7 +264,7 @@ export default function AverageCostSupplementalInsurancePage() {
           </li>
           <li>
             <Link
-              href="/services/medicare-supplement-plans-nj"
+              href="/medicare-supplement/new-jersey"
               className="text-blue-600 hover:underline"
             >
               Medicare Supplement Plans in New Jersey
@@ -271,7 +272,7 @@ export default function AverageCostSupplementalInsurancePage() {
           </li>
           <li>
             <Link
-              href="/services/medicare-advantage-vs-medigap"
+              href="/medicare-supplement/new-jersey/vs-medicare-advantage"
               className="text-blue-600 hover:underline"
             >
               Medicare Advantage vs. Medigap: How to Decide

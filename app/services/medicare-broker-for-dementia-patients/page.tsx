@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "Medicare broker for dementia patients | Free Caregiver Consultation | MedicareYourself",
   description:
     "Medicare broker for dementia patients and caregivers needing real coverage guidance — home health, meds, skilled nursing. Free consultation with Anthony Orner.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-dementia-patients" },
   openGraph: {
     title:
       "Medicare broker for dementia patients | Free Caregiver Consultation | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-01",
-  dateModified: "2025-07-01",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -99,7 +100,7 @@ export default function MedicareBrokerForDementiaPatients() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -228,7 +229,7 @@ export default function MedicareBrokerForDementiaPatients() {
           </a>{" "}
           or{" "}
           <Link
-            href="/get-a-free-quote"
+            href="/quote"
             className="text-blue-700 font-bold hover:underline"
           >
             Get a Free Quote
@@ -245,7 +246,7 @@ export default function MedicareBrokerForDementiaPatients() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/medicare-guides/medicare-supplement-plan-g"
+              href="/medicare-supplement/new-jersey/plan-g-vs-plan-n"
               className="text-blue-700 hover:underline"
             >
               Medicare Supplement Plan G: What It Covers and What It Costs
@@ -253,7 +254,7 @@ export default function MedicareBrokerForDementiaPatients() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-advantage-vs-medigap"
+              href="/medicare-supplement/new-jersey/vs-medicare-advantage"
               className="text-blue-700 hover:underline"
             >
               Medicare Advantage vs. Medigap: Which Is Right for You?
@@ -261,7 +262,7 @@ export default function MedicareBrokerForDementiaPatients() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-part-d-drug-coverage"
+              href="/learn/medicare-parts-explained"
               className="text-blue-700 hover:underline"
             >
               Medicare Part D Drug Coverage Explained
@@ -269,7 +270,7 @@ export default function MedicareBrokerForDementiaPatients() {
           </li>
           <li>
             <Link
-              href="/services/medicare-broker-for-caregivers"
+              href="/services/medicare-broker-for-dementia-patients"
               className="text-blue-700 hover:underline"
             >
               Medicare Broker for Caregivers: How We Help

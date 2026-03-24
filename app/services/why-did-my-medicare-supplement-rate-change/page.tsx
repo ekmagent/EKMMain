@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "Why Did My Medicare Supplement Rate Change? | Free Rate Review | MedicareYourself",
   description:
     "Why did my Medicare supplement rate change? Understand attained-age pricing, carrier loss ratios, and NJ filing data. Anthony Orner offers a free rate review.",
+  alternates: { canonical: "https://medicareyourself.com/services/why-did-my-medicare-supplement-rate-change" },
   openGraph: {
     title:
       "Why Did My Medicare Supplement Rate Change? | Free Rate Review | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-01",
-  dateModified: "2025-07-01",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -96,7 +97,7 @@ export default function WhyDidMyMedicareSupplementRateChange() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -289,7 +290,7 @@ export default function WhyDidMyMedicareSupplementRateChange() {
           <ul className="space-y-2">
             <li>
               <Link
-                href="/services/medicare-supplement-plans-nj"
+                href="/medicare-supplement/new-jersey"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Supplement Plans in NJ
@@ -297,7 +298,7 @@ export default function WhyDidMyMedicareSupplementRateChange() {
             </li>
             <li>
               <Link
-                href="/services/medigap-plan-g-vs-plan-n"
+                href="/medicare-supplement/new-jersey/plan-g-vs-plan-n"
                 className="text-blue-600 hover:underline"
               >
                 Medigap Plan G vs. Plan N
@@ -305,7 +306,7 @@ export default function WhyDidMyMedicareSupplementRateChange() {
             </li>
             <li>
               <Link
-                href="/services/when-to-enroll-in-medicare-supplement"
+                href="/services/medicare-supplement-open-enrollment-online"
                 className="text-blue-600 hover:underline"
               >
                 When to Enroll in a Medicare Supplement
@@ -313,7 +314,7 @@ export default function WhyDidMyMedicareSupplementRateChange() {
             </li>
             <li>
               <Link
-                href="/services/medicare-supplement-guaranteed-issue-rights"
+                href="/services/you-get-a-medicare-supplement-plan-if-you-have-a-pre-existing-condition"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Supplement Guaranteed Issue Rights

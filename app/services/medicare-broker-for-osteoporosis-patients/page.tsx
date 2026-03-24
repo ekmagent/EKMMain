@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "Medicare broker for osteoporosis patients | Free Coverage Review | MedicareYourself",
   description:
     "Medicare broker for osteoporosis patients in NJ. Anthony Orner matches you with plans covering DEXA scans, infusions, and fracture rehab. Free quote today.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-osteoporosis-patients" },
   openGraph: {
     title:
       "Medicare broker for osteoporosis patients | Free Coverage Review | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-14",
-  dateModified: "2025-07-14",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -99,7 +100,7 @@ export default function MedicareBrokerForOsteoporosisPatients() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -245,7 +246,7 @@ export default function MedicareBrokerForOsteoporosisPatients() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/medicare-guides/medigap-plans-explained"
+              href="/learn/what-is-medigap"
               className="text-blue-700 hover:underline"
             >
               Medigap Plans Explained: What They Cover and What They Cost
@@ -253,7 +254,7 @@ export default function MedicareBrokerForOsteoporosisPatients() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-advantage-vs-medigap"
+              href="/medicare-supplement/new-jersey/vs-medicare-advantage"
               className="text-blue-700 hover:underline"
             >
               Medicare Advantage vs. Medigap: How to Choose
@@ -261,7 +262,7 @@ export default function MedicareBrokerForOsteoporosisPatients() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/part-d-drug-coverage"
+              href="/learn/medicare-parts-explained"
               className="text-blue-700 hover:underline"
             >
               Medicare Part D Drug Coverage: What You Need to Know
@@ -269,7 +270,7 @@ export default function MedicareBrokerForOsteoporosisPatients() {
           </li>
           <li>
             <Link
-              href="/services/medicare-broker-nj"
+              href="/services/free-medicare-broker-new-jersey"
               className="text-blue-700 hover:underline"
             >
               Medicare Broker in New Jersey: Free Plan Comparison

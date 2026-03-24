@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "how much is plan F in nj | Free Rate Lookup by Age | MedicareYourself",
   description:
     "How much is Plan F in NJ? See 2025 premiums by age and learn why costs keep rising. Anthony Orner can show you if Plan G saves more. Free quote.",
+  alternates: { canonical: "https://medicareyourself.com/services/how-much-is-plan-f-in-nj" },
   openGraph: {
     title:
       "how much is plan F in nj | Free Rate Lookup by Age | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -57,8 +58,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-01-15",
-  dateModified: "2025-07-01",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -95,7 +96,7 @@ export default function HowMuchIsPlanFInNJ() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -235,7 +236,7 @@ export default function HowMuchIsPlanFInNJ() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/services/plan-f-vs-plan-g"
+              href="/services/how-much-is-plan-f-in-nj"
               className="text-blue-600 hover:underline"
             >
               Plan F vs. Plan G: Full Side-by-Side Comparison
@@ -243,7 +244,7 @@ export default function HowMuchIsPlanFInNJ() {
           </li>
           <li>
             <Link
-              href="/services/best-medigap-plans-in-nj"
+              href="/services/best-and-cheapest-medicare-supplement"
               className="text-blue-600 hover:underline"
             >
               Best Medigap Plans in NJ for 2025
@@ -251,7 +252,7 @@ export default function HowMuchIsPlanFInNJ() {
           </li>
           <li>
             <Link
-              href="/services/medigap-open-enrollment-nj"
+              href="/medicare-supplement/new-jersey/turning-65"
               className="text-blue-600 hover:underline"
             >
               NJ Medigap Open Enrollment: What You Need to Know
@@ -259,7 +260,7 @@ export default function HowMuchIsPlanFInNJ() {
           </li>
           <li>
             <Link
-              href="/services/plan-g-cost-nj"
+              href="/services/how-much-is-plan-g-in-nj"
               className="text-blue-600 hover:underline"
             >
               How Much Does Plan G Cost in New Jersey?

@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "medicare in monmouth county new jersey | Free Local Broker Quotes | MedicareYourself",
   description:
     "Medicare in Monmouth County, New Jersey — see Supplement and Advantage plans in your zip code. Free comparison from a licensed local broker.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-in-monmouth-county-new-jersey" },
   openGraph: {
     title:
       "medicare in monmouth county new jersey | Free Local Broker Quotes | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-01",
-  dateModified: "2025-07-01",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -97,7 +98,7 @@ export default function MedicareInMonmouthCountyNewJersey() {
           Home
         </Link>
         {" > "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>
         {" > "}
@@ -281,7 +282,7 @@ export default function MedicareInMonmouthCountyNewJersey() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/services/medicare-supplement-plans-new-jersey"
+              href="/medicare-supplement/new-jersey"
               className="text-blue-600 hover:underline"
             >
               Medicare Supplement Plans in New Jersey
@@ -289,7 +290,7 @@ export default function MedicareInMonmouthCountyNewJersey() {
           </li>
           <li>
             <Link
-              href="/services/medicare-advantage-plans-new-jersey"
+              href="/medicare-advantage/new-jersey"
               className="text-blue-600 hover:underline"
             >
               Medicare Advantage Plans in New Jersey
@@ -297,7 +298,7 @@ export default function MedicareInMonmouthCountyNewJersey() {
           </li>
           <li>
             <Link
-              href="/services/medicare-plan-g-new-jersey"
+              href="/services/how-much-is-plan-g-in-nj"
               className="text-blue-600 hover:underline"
             >
               Medicare Plan G in New Jersey
@@ -305,7 +306,7 @@ export default function MedicareInMonmouthCountyNewJersey() {
           </li>
           <li>
             <Link
-              href="/services/medicare-enrollment-new-jersey"
+              href="/learn/how-to-sign-up-for-medicare"
               className="text-blue-600 hover:underline"
             >
               Medicare Enrollment Guide for New Jersey

@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "find a medicare agent in passaic nj | Free Independent Advice | MedicareYourself",
   description:
     "Find a Medicare agent in Passaic NJ — Anthony Orner compares Supplement and Advantage plans across every major carrier. Free consultation, no obligation.",
+  alternates: { canonical: "https://medicareyourself.com/services/find-a-medicare-agent-in-passaic-nj" },
   openGraph: {
     title:
       "find a medicare agent in passaic nj | Free Independent Advice | MedicareYourself",
@@ -57,8 +58,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-01",
-  dateModified: "2025-07-01",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-19",
 };
 
 const faqs = [
@@ -238,7 +239,7 @@ export default function FindMedicareAgentPassaicNJ() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/services/medicare-supplement-plans-nj"
+              href="/medicare-supplement/new-jersey"
               className="text-blue-600 hover:underline"
             >
               Medicare Supplement Plans in New Jersey
@@ -246,7 +247,7 @@ export default function FindMedicareAgentPassaicNJ() {
           </li>
           <li>
             <Link
-              href="/services/medicare-advantage-plans-passaic-county"
+              href="/medicare-advantage/new-jersey"
               className="text-blue-600 hover:underline"
             >
               Medicare Advantage Plans in Passaic County
@@ -254,7 +255,7 @@ export default function FindMedicareAgentPassaicNJ() {
           </li>
           <li>
             <Link
-              href="/services/when-to-enroll-in-medicare-nj"
+              href="/services/how-to-enroll-in-medicare-in-new-jersey"
               className="text-blue-600 hover:underline"
             >
               When to Enroll in Medicare in NJ
@@ -262,7 +263,7 @@ export default function FindMedicareAgentPassaicNJ() {
           </li>
           <li>
             <Link
-              href="/services/medicare-plan-g-vs-plan-n-nj"
+              href="/medicare-supplement/new-jersey/plan-g-vs-plan-n"
               className="text-blue-600 hover:underline"
             >
               Medicare Plan G vs Plan N in New Jersey

@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "medicare agents near me | Free Unbiased Plan Comparison | MedicareYourself",
   description:
     "Medicare agents near me — find an independent broker who compares every major carrier with no bias. Anthony Orner offers free, no-pressure consultations.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-agents-near-me" },
   openGraph: {
     title:
       "medicare agents near me | Free Unbiased Plan Comparison | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,6 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
   mainEntityOfPage:
     "https://medicareyourself.com/services/medicare-agents-near-me",
 };
@@ -96,7 +99,7 @@ export default function MedicareAgentsNearMe() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -221,7 +224,7 @@ export default function MedicareAgentsNearMe() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/medicare/medicare-advantage-vs-medigap"
+              href="/medicare-supplement/new-jersey/vs-medicare-advantage"
               className="text-blue-600 hover:underline"
             >
               Medicare Advantage vs. Medigap: Which Is Right for You?
@@ -229,7 +232,7 @@ export default function MedicareAgentsNearMe() {
           </li>
           <li>
             <Link
-              href="/medicare/medigap-open-enrollment"
+              href="/medicare-supplement/new-jersey/turning-65"
               className="text-blue-600 hover:underline"
             >
               Medigap Open Enrollment: When and Why It Matters
@@ -237,7 +240,7 @@ export default function MedicareAgentsNearMe() {
           </li>
           <li>
             <Link
-              href="/medicare/part-b-enrollment"
+              href="/learn/how-to-sign-up-for-medicare"
               className="text-blue-600 hover:underline"
             >
               Part B Enrollment: Deadlines and Late Penalties
@@ -245,7 +248,7 @@ export default function MedicareAgentsNearMe() {
           </li>
           <li>
             <Link
-              href="/services/free-medicare-consultation"
+              href="/services/help-with-your-medicare-decision"
               className="text-blue-600 hover:underline"
             >
               Schedule a Free Medicare Consultation

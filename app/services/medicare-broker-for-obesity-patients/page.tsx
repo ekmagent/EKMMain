@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "Medicare broker for obesity patients | Free Plan Comparison | MedicareYourself",
   description:
     "Medicare broker for obesity patients — Anthony Orner finds NJ plans covering behavioral therapy, bariatric surgery, and GLP-1 drugs. Free comparison.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-obesity-patients" },
   openGraph: {
     title:
       "Medicare broker for obesity patients | Free Plan Comparison | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-01",
-  dateModified: "2025-07-01",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -97,7 +98,7 @@ export default function MedicareBrokerForObesityPatients() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -241,7 +242,7 @@ export default function MedicareBrokerForObesityPatients() {
           <ul className="space-y-2">
             <li>
               <Link
-                href="/medicare-guides/medicare-part-d-drug-coverage"
+                href="/learn/medicare-parts-explained"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Part D Drug Coverage Explained
@@ -249,7 +250,7 @@ export default function MedicareBrokerForObesityPatients() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/medicare-advantage-vs-medigap"
+                href="/medicare-supplement/new-jersey/vs-medicare-advantage"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Advantage vs. Medigap: Which Is Right for You?
@@ -257,7 +258,7 @@ export default function MedicareBrokerForObesityPatients() {
             </li>
             <li>
               <Link
-                href="/services/medicare-broker-nj"
+                href="/services/free-medicare-broker-new-jersey"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Broker in New Jersey
@@ -265,7 +266,7 @@ export default function MedicareBrokerForObesityPatients() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/medicare-preventive-services"
+                href="/learn/medicare-parts-explained"
                 className="text-blue-600 hover:underline"
               >
                 Free Preventive Services Under Medicare

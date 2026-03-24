@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "Best Medicare Supplement Rates by Age (Plan G, Plan N, & Plan F Rates) | Free Quote | MedicareYourself",
   description:
     "Best Medicare Supplement rates by age for Plan G, Plan N, and Plan F. See real premium ranges by age bracket and find the lowest rate. Free instant quote.",
+  alternates: { canonical: "https://medicareyourself.com/services/best-medicare-supplement-rates-by-age-plan-g-plan-n-plan-f-rates" },
   openGraph: {
     title:
       "Best Medicare Supplement Rates by Age (Plan G, Plan N, & Plan F Rates) | Free Quote | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-01-15",
-  dateModified: "2025-07-01",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -98,7 +99,7 @@ export default function BestMedicareSupplementRatesByAge() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -304,7 +305,7 @@ export default function BestMedicareSupplementRatesByAge() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/services/medicare-supplement-plan-g"
+              href="/services/compare-and-enroll-in-plan-g-online"
               className="text-blue-600 hover:underline"
             >
               Medicare Supplement Plan G: Full Breakdown
@@ -312,7 +313,7 @@ export default function BestMedicareSupplementRatesByAge() {
           </li>
           <li>
             <Link
-              href="/services/medicare-supplement-plan-n"
+              href="/services/quickest-way-to-enroll-into-plan-n"
               className="text-blue-600 hover:underline"
             >
               Medicare Supplement Plan N: What It Covers
@@ -320,7 +321,7 @@ export default function BestMedicareSupplementRatesByAge() {
           </li>
           <li>
             <Link
-              href="/services/medigap-open-enrollment-period"
+              href="/medicare-supplement/new-jersey/turning-65"
               className="text-blue-600 hover:underline"
             >
               Medigap Open Enrollment: When and Why It Matters
@@ -328,7 +329,7 @@ export default function BestMedicareSupplementRatesByAge() {
           </li>
           <li>
             <Link
-              href="/services/plan-g-vs-plan-n"
+              href="/medicare-supplement/new-jersey/plan-g-vs-plan-n"
               className="text-blue-600 hover:underline"
             >
               Plan G vs. Plan N: Which Is Right for You?

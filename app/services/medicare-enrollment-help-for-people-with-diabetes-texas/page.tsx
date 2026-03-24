@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "medicare enrollment help for people with diabetes texas | Free Guidance | MedicareYourself",
   description:
     "Medicare enrollment help for people with diabetes in Texas. Learn which plans cover insulin, CGMs, and testing without underwriting hurdles. Free broker help.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-enrollment-help-for-people-with-diabetes-texas" },
   openGraph: {
     title:
       "medicare enrollment help for people with diabetes texas | Free Guidance | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -57,8 +58,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-14",
-  dateModified: "2025-07-14",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -97,7 +98,7 @@ export default function MedicareEnrollmentHelpDiabetesTexas() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -212,7 +213,7 @@ export default function MedicareEnrollmentHelpDiabetesTexas() {
             855-559-1700
           </a>{" "}
           or{" "}
-          <Link href="/get-a-free-quote" className="underline font-bold">
+          <Link href="/quote" className="underline font-bold">
             Get a Free Quote
           </Link>
         </p>
@@ -225,7 +226,7 @@ export default function MedicareEnrollmentHelpDiabetesTexas() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/medicare-guides/medicare-advantage-vs-medigap"
+              href="/medicare-supplement/new-jersey/vs-medicare-advantage"
               className="text-blue-600 hover:underline"
             >
               Medicare Advantage vs. Medigap: Which Is Better for You?
@@ -233,7 +234,7 @@ export default function MedicareEnrollmentHelpDiabetesTexas() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medigap-open-enrollment-period"
+              href="/medicare-supplement/new-jersey/turning-65"
               className="text-blue-600 hover:underline"
             >
               Medigap Open Enrollment Period: What You Need to Know
@@ -241,7 +242,7 @@ export default function MedicareEnrollmentHelpDiabetesTexas() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-part-d-insulin-costs"
+              href="/learn/medicare-parts-explained"
               className="text-blue-600 hover:underline"
             >
               Medicare Part D Insulin Costs: The $35 Cap Explained
@@ -249,7 +250,7 @@ export default function MedicareEnrollmentHelpDiabetesTexas() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-cgm-coverage"
+              href="/services/medicare-enrollment-help-for-people-with-diabetes"
               className="text-blue-600 hover:underline"
             >
               Does Medicare Cover Continuous Glucose Monitors (CGMs)?

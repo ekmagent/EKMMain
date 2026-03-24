@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   title: "US Medicare Brokers | Free Unbiased Help | MedicareYourself",
   description:
     "US Medicare brokers compare Supplement and Advantage plans across carriers at no cost to you. Learn how Anthony Orner finds the best rate. Free quote.",
+  alternates: { canonical: "https://medicareyourself.com/services/us-medicare-brokers" },
   openGraph: {
     title: "US Medicare Brokers | Free Unbiased Help | MedicareYourself",
     description:
@@ -30,7 +31,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -56,6 +57,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
   mainEntityOfPage:
     "https://medicareyourself.com/services/us-medicare-brokers",
 };
@@ -94,7 +97,7 @@ export default function USMedicareBrokersPage() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -233,7 +236,7 @@ export default function USMedicareBrokersPage() {
           <ul className="space-y-2">
             <li>
               <Link
-                href="/medicare/supplement-plans"
+                href="/medicare-supplement/new-jersey"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Supplement Plans Explained
@@ -241,7 +244,7 @@ export default function USMedicareBrokersPage() {
             </li>
             <li>
               <Link
-                href="/medicare/advantage-plans"
+                href="/medicare-advantage/new-jersey"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Advantage Plans: What You Need to Know
@@ -249,7 +252,7 @@ export default function USMedicareBrokersPage() {
             </li>
             <li>
               <Link
-                href="/medicare/when-to-enroll"
+                href="/learn/how-to-sign-up-for-medicare"
                 className="text-blue-600 hover:underline"
               >
                 When to Enroll in Medicare: Key Dates and Deadlines

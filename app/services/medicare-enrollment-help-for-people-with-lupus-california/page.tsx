@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "medicare enrollment help for people with lupus california | Free Guidance | MedicareYourself",
   description:
     "Medicare enrollment help for people with lupus in California. Learn your rights, compare plans covering rheumatologists and biologics. Free broker guidance.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-enrollment-help-for-people-with-lupus-california" },
   openGraph: {
     title:
       "medicare enrollment help for people with lupus california | Free Guidance | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-01",
-  dateModified: "2025-07-01",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -96,7 +97,7 @@ export default function MedicareEnrollmentHelpLupusCalifornia() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -270,7 +271,7 @@ export default function MedicareEnrollmentHelpLupusCalifornia() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/medicare-guides/medigap-open-enrollment-period"
+              href="/medicare-supplement/new-jersey/turning-65"
               className="text-blue-600 hover:underline"
             >
               Medigap Open Enrollment Period: When It Starts and Why It Matters
@@ -278,7 +279,7 @@ export default function MedicareEnrollmentHelpLupusCalifornia() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-part-b-coverage"
+              href="/learn/medicare-parts-explained"
               className="text-blue-600 hover:underline"
             >
               What Does Medicare Part B Cover?
@@ -286,7 +287,7 @@ export default function MedicareEnrollmentHelpLupusCalifornia() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-disability-under-65"
+              href="/services/you-get-a-medicare-supplement-if-you-are-on-disability"
               className="text-blue-600 hover:underline"
             >
               Getting Medicare Under 65 Through Disability
@@ -294,7 +295,7 @@ export default function MedicareEnrollmentHelpLupusCalifornia() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-supplement-vs-advantage"
+              href="/medicare-supplement/new-jersey/vs-medicare-advantage"
               className="text-blue-600 hover:underline"
             >
               Medicare Supplement vs. Medicare Advantage: How to Decide

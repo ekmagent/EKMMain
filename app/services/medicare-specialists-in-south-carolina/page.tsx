@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "medicare specialists in south carolina | Free Multi-Carrier Quotes | MedicareYourself",
   description:
     "Medicare specialists in South Carolina — Anthony Orner compares Supplement and Advantage plans from top SC carriers. Free quotes, licensed guidance.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-specialists-in-south-carolina" },
   openGraph: {
     title:
       "medicare specialists in south carolina | Free Multi-Carrier Quotes | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,6 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
   mainEntityOfPage:
     "https://medicareyourself.com/services/medicare-specialists-in-south-carolina",
 };
@@ -100,7 +103,7 @@ export default function MedicareSpecialistsSouthCarolina() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -223,7 +226,7 @@ export default function MedicareSpecialistsSouthCarolina() {
             855-559-1700
           </a>{" "}
           or{" "}
-          <Link href="/get-a-free-quote" className="underline font-bold">
+          <Link href="/quote" className="underline font-bold">
             Get a Free Quote
           </Link>
         </p>
@@ -240,7 +243,7 @@ export default function MedicareSpecialistsSouthCarolina() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/medicare-guides/medigap-plan-g"
+              href="/medicare-supplement/new-jersey/plan-g-vs-plan-n"
               className="text-blue-600 hover:underline"
             >
               Medigap Plan G: What It Covers and What It Costs
@@ -248,7 +251,7 @@ export default function MedicareSpecialistsSouthCarolina() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-advantage-vs-medigap"
+              href="/medicare-supplement/new-jersey/vs-medicare-advantage"
               className="text-blue-600 hover:underline"
             >
               Medicare Advantage vs. Medigap: How to Decide
@@ -256,7 +259,7 @@ export default function MedicareSpecialistsSouthCarolina() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medigap-open-enrollment"
+              href="/medicare-supplement/new-jersey/turning-65"
               className="text-blue-600 hover:underline"
             >
               Medigap Open Enrollment: When and Why It Matters
@@ -264,7 +267,7 @@ export default function MedicareSpecialistsSouthCarolina() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/part-b-late-enrollment-penalty"
+              href="/learn/how-to-sign-up-for-medicare"
               className="text-blue-600 hover:underline"
             >
               Part B Late Enrollment Penalty: What You'll Pay

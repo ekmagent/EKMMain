@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "medicare part d insurance brokers 18517 | Free Plan Comparison | MedicareYourself",
   description:
     "Medicare Part D insurance brokers near 18517 — Anthony Orner compares every drug plan in your zip code at no cost. Book a free review today.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-part-d-insurance-brokers-18517" },
   openGraph: {
     title:
       "medicare part d insurance brokers 18517 | Free Plan Comparison | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,6 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
   mainEntityOfPage:
     "https://medicareyourself.com/services/medicare-part-d-insurance-brokers-18517",
 };
@@ -97,7 +100,7 @@ export default function MedicarePartDBrokers18517() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -212,7 +215,7 @@ export default function MedicarePartDBrokers18517() {
             855-559-1700
           </a>{" "}
           or{" "}
-          <Link href="/get-a-free-quote" className="underline font-bold">
+          <Link href="/quote" className="underline font-bold">
             Get a Free Quote
           </Link>
         </p>
@@ -225,7 +228,7 @@ export default function MedicarePartDBrokers18517() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/medicare-guides/medicare-part-d-explained"
+              href="/learn/medicare-parts-explained"
               className="text-blue-600 hover:underline"
             >
               Medicare Part D Explained: How Drug Plans Work
@@ -233,7 +236,7 @@ export default function MedicarePartDBrokers18517() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/part-d-late-enrollment-penalty"
+              href="/learn/medicare-parts-explained"
               className="text-blue-600 hover:underline"
             >
               Part D Late Enrollment Penalty: What It Costs and How to Avoid It
@@ -241,7 +244,7 @@ export default function MedicarePartDBrokers18517() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-open-enrollment"
+              href="/learn/medicare-enrollment-periods"
               className="text-blue-600 hover:underline"
             >
               Medicare Open Enrollment: Key Dates and What You Can Change
@@ -249,7 +252,7 @@ export default function MedicarePartDBrokers18517() {
           </li>
           <li>
             <Link
-              href="/services/medicare-brokers-pennsylvania"
+              href="/medicare-supplement/pennsylvania"
               className="text-blue-600 hover:underline"
             >
               Medicare Brokers in Pennsylvania

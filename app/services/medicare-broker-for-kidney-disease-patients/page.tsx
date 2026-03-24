@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "Medicare broker for kidney disease patients | Free Coverage Review | MedicareYourself",
   description:
     "Medicare broker for kidney disease patients navigating CKD stages, dialysis, and ESRD rules. Anthony Orner simplifies your coverage options. Free review.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-kidney-disease-patients" },
   openGraph: {
     title:
       "Medicare broker for kidney disease patients | Free Coverage Review | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-07",
-  dateModified: "2025-07-07",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -98,7 +99,7 @@ export default function MedicareBrokerKidneyDisease() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -238,7 +239,7 @@ export default function MedicareBrokerKidneyDisease() {
           <ul className="space-y-2">
             <li>
               <Link
-                href="/medicare-guides/medicare-advantage-vs-medigap"
+                href="/medicare-supplement/new-jersey/vs-medicare-advantage"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Advantage vs. Medigap: Which Is Right for You?
@@ -246,7 +247,7 @@ export default function MedicareBrokerKidneyDisease() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/part-d-drug-coverage"
+                href="/learn/medicare-parts-explained"
                 className="text-blue-600 hover:underline"
               >
                 Understanding Medicare Part D Drug Coverage
@@ -254,7 +255,7 @@ export default function MedicareBrokerKidneyDisease() {
             </li>
             <li>
               <Link
-                href="/services/medicare-broker-for-chronic-conditions"
+                href="/services/best-medicare-plan-for-chronic-conditions"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Broker for Chronic Conditions
@@ -262,7 +263,7 @@ export default function MedicareBrokerKidneyDisease() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/esrd-and-medicare-enrollment"
+                href="/services/what-is-the-best-medicare-plan-for-dialysis"
                 className="text-blue-600 hover:underline"
               >
                 ESRD and Medicare Enrollment: What You Need to Know

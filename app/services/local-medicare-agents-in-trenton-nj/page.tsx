@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "local medicare agents in trenton nj | Free Plan Comparison | MedicareYourself",
   description:
     "Local Medicare agents in Trenton, NJ compare every major carrier at no cost. Anthony Orner offers free licensed broker guidance in Mercer County.",
+  alternates: { canonical: "https://medicareyourself.com/services/local-medicare-agents-in-trenton-nj" },
   openGraph: {
     title:
       "local medicare agents in trenton nj | Free Plan Comparison | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -57,6 +58,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
   mainEntityOfPage:
     "https://medicareyourself.com/services/local-medicare-agents-in-trenton-nj",
 };
@@ -95,7 +98,7 @@ export default function LocalMedicareAgentsTrentonNJ() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -212,7 +215,7 @@ export default function LocalMedicareAgentsTrentonNJ() {
               855-559-1700
             </a>{" "}
             or{" "}
-            <Link href="/get-a-free-quote" className="underline font-semibold">
+            <Link href="/quote" className="underline font-semibold">
               Get a Free Quote
             </Link>
           </p>
@@ -228,7 +231,7 @@ export default function LocalMedicareAgentsTrentonNJ() {
           <ul className="space-y-2">
             <li>
               <Link
-                href="/medicare-guides/medicare-supplement-plans-nj"
+                href="/medicare-supplement/new-jersey"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Supplement Plans in NJ: Full Breakdown
@@ -236,7 +239,7 @@ export default function LocalMedicareAgentsTrentonNJ() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/medicare-advantage-plans-nj"
+                href="/medicare-advantage/new-jersey"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Advantage Plans in New Jersey
@@ -244,7 +247,7 @@ export default function LocalMedicareAgentsTrentonNJ() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/medigap-plan-g-vs-plan-n"
+                href="/medicare-supplement/new-jersey/plan-g-vs-plan-n"
                 className="text-blue-600 hover:underline"
               >
                 Medigap Plan G vs Plan N: Which Saves More?
@@ -252,7 +255,7 @@ export default function LocalMedicareAgentsTrentonNJ() {
             </li>
             <li>
               <Link
-                href="/medicare-guides/medicare-enrollment-deadlines"
+                href="/learn/medicare-enrollment-periods"
                 className="text-blue-600 hover:underline"
               >
                 Medicare Enrollment Deadlines You Need to Know

@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "medicare insurance agents in atlantic city new jersey | Free Quotes | MedicareYourself",
   description:
     "Medicare insurance agents in Atlantic City New Jersey — Anthony Orner compares plans from top carriers in Atlantic County. Free quotes, licensed broker support.",
+  alternates: { canonical: "https://medicareyourself.com/services/medicare-insurance-agents-in-atlantic-city-new-jersey" },
   openGraph: {
     title:
       "medicare insurance agents in atlantic city new jersey | Free Quotes | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-15",
-  dateModified: "2025-07-15",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -96,7 +97,7 @@ export default function MedicareInsuranceAgentsAtlanticCityNJ() {
           Home
         </Link>
         {" > "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>
         {" > "}
@@ -259,7 +260,7 @@ export default function MedicareInsuranceAgentsAtlanticCityNJ() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/medicare-guides/medigap-plan-g-vs-plan-n"
+              href="/medicare-supplement/new-jersey/plan-g-vs-plan-n"
               className="text-blue-600 hover:underline"
             >
               Medigap Plan G vs. Plan N: Which saves you more?
@@ -267,7 +268,7 @@ export default function MedicareInsuranceAgentsAtlanticCityNJ() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/medicare-advantage-vs-medigap"
+              href="/medicare-supplement/new-jersey/vs-medicare-advantage"
               className="text-blue-600 hover:underline"
             >
               Medicare Advantage vs. Medigap: A side-by-side comparison
@@ -275,7 +276,7 @@ export default function MedicareInsuranceAgentsAtlanticCityNJ() {
           </li>
           <li>
             <Link
-              href="/medicare-guides/new-jersey-medicare-enrollment"
+              href="/learn/how-to-sign-up-for-medicare"
               className="text-blue-600 hover:underline"
             >
               New Jersey Medicare enrollment guide
@@ -283,7 +284,7 @@ export default function MedicareInsuranceAgentsAtlanticCityNJ() {
           </li>
           <li>
             <Link
-              href="/services/medicare-broker-south-jersey"
+              href="/services/local-medicare-agents-in-sewell-nj"
               className="text-blue-600 hover:underline"
             >
               Find a Medicare broker in South Jersey

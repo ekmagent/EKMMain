@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "how much is plan g in nj | Free Rate Comparison by Age | MedicareYourself",
   description:
     "How much is Plan G in NJ? See actual 2025 monthly premiums by age from every major carrier. Anthony Orner finds your lowest rate — free quote today.",
+  alternates: { canonical: "https://medicareyourself.com/services/how-much-is-plan-g-in-nj" },
   openGraph: {
     title:
       "how much is plan g in nj | Free Rate Comparison by Age | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -57,8 +58,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-01-15",
-  dateModified: "2025-01-15",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -96,7 +97,7 @@ export default function HowMuchIsPlanGInNJ() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -228,7 +229,7 @@ export default function HowMuchIsPlanGInNJ() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/services/medicare-supplement-plans-nj"
+              href="/medicare-supplement/new-jersey"
               className="text-blue-600 hover:underline"
             >
               Medicare Supplement Plans in NJ
@@ -236,7 +237,7 @@ export default function HowMuchIsPlanGInNJ() {
           </li>
           <li>
             <Link
-              href="/services/plan-g-vs-plan-n"
+              href="/medicare-supplement/new-jersey/plan-g-vs-plan-n"
               className="text-blue-600 hover:underline"
             >
               Plan G vs. Plan N: Which Is Better?
@@ -244,7 +245,7 @@ export default function HowMuchIsPlanGInNJ() {
           </li>
           <li>
             <Link
-              href="/services/medigap-open-enrollment-nj"
+              href="/medicare-supplement/new-jersey/turning-65"
               className="text-blue-600 hover:underline"
             >
               Medigap Open Enrollment in New Jersey
@@ -252,7 +253,7 @@ export default function HowMuchIsPlanGInNJ() {
           </li>
           <li>
             <Link
-              href="/services/medicare-advantage-vs-medigap"
+              href="/medicare-supplement/new-jersey/vs-medicare-advantage"
               className="text-blue-600 hover:underline"
             >
               Medicare Advantage vs. Medigap

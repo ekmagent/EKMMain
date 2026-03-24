@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     "You Get a Medicare Supplement Plan If You Have a Pre-Existing Condition | Free Guidance | MedicareYourself",
   description:
     "You get a Medicare Supplement plan if you have a pre-existing condition during the right enrollment window. Learn guaranteed-issue rules and avoid waiting periods.",
+  alternates: { canonical: "https://medicareyourself.com/services/you-get-a-medicare-supplement-plan-if-you-have-a-pre-existing-condition" },
   openGraph: {
     title:
       "You Get a Medicare Supplement Plan If You Have a Pre-Existing Condition | Free Guidance | MedicareYourself",
@@ -32,7 +33,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 2,
       name: "Medicare Guides",
-      item: "https://medicareyourself.com/medicare-guides",
+      item: "https://medicareyourself.com/services",
     },
     {
       "@type": "ListItem",
@@ -58,8 +59,8 @@ const articleSchema = {
     name: "EasyKind Medicare",
     alternateName: "MedicareYourself",
   },
-  datePublished: "2025-07-14",
-  dateModified: "2025-07-14",
+  datePublished: "2026-03-18",
+  dateModified: "2026-03-22",
 };
 
 const faqs = [
@@ -100,7 +101,7 @@ export default function PreExistingConditionMedigapPage() {
           Home
         </Link>{" "}
         &gt;{" "}
-        <Link href="/medicare-guides" className="hover:underline">
+        <Link href="/services" className="hover:underline">
           Medicare Guides
         </Link>{" "}
         &gt;{" "}
@@ -280,7 +281,7 @@ export default function PreExistingConditionMedigapPage() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/services/medigap-plan-g"
+              href="/services/compare-and-enroll-in-plan-g-online"
               className="text-blue-600 hover:underline"
             >
               Medicare Supplement Plan G: What It Covers in 2026
@@ -288,7 +289,7 @@ export default function PreExistingConditionMedigapPage() {
           </li>
           <li>
             <Link
-              href="/services/medigap-open-enrollment"
+              href="/medicare-supplement/new-jersey/turning-65"
               className="text-blue-600 hover:underline"
             >
               Medigap Open Enrollment Period: When and Why It Matters
@@ -296,7 +297,7 @@ export default function PreExistingConditionMedigapPage() {
           </li>
           <li>
             <Link
-              href="/services/medicare-advantage-vs-medigap"
+              href="/medicare-supplement/new-jersey/vs-medicare-advantage"
               className="text-blue-600 hover:underline"
             >
               Medicare Advantage vs. Medigap: How to Choose
@@ -304,7 +305,7 @@ export default function PreExistingConditionMedigapPage() {
           </li>
           <li>
             <Link
-              href="/services/guaranteed-issue-rights-medicare"
+              href="/services/you-get-a-medicare-supplement-plan-if-you-have-a-pre-existing-condition"
               className="text-blue-600 hover:underline"
             >
               Federal Guaranteed-Issue Rights for Medicare Supplement Plans
