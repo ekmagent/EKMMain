@@ -125,14 +125,6 @@ export default function SwitchMedigapPlansPage() {
 
       {/* Hero */}
       <section className="max-w-6xl mx-auto px-4 py-10">
-        <Image
-          src="/images/hub_switch-medigap-plans.webp"
-          alt="Switch medigap plans — compare carriers and save"
-          width={1200}
-          height={600}
-          className="rounded-xl mb-8 w-full h-auto"
-          priority
-        />
         <div className="grid lg:grid-cols-2 gap-10 items-center">
           <div>
             <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">
@@ -141,8 +133,7 @@ export default function SwitchMedigapPlansPage() {
 
             <p className="text-lg text-gray-600 leading-relaxed mb-4">
               Keep what you like. See what could cost less. No phone number or
-              email required to see your possible savings. Only continue if the
-              savings are worth it.
+              email required to see your possible savings.
             </p>
             <p className="text-gray-600 leading-relaxed mb-6">
               Under 2 minutes. No commitment. See your number — then decide.
@@ -159,6 +150,22 @@ export default function SwitchMedigapPlansPage() {
               By Anthony Orner, Licensed Medicare Broker · Updated March 2026
             </p>
           </div>
+
+          {/* Hero image — right side */}
+          <div className="flex justify-center">
+            <Image
+              src="/images/hub_switch-medigap-plans.webp"
+              alt="Switch medigap plans — compare carriers and save"
+              width={400}
+              height={300}
+              className="rounded-xl"
+              priority
+            />
+          </div>
+        </div>
+
+        {/* Comparison chart — below hero, full width */}
+        <div className="mt-10 max-w-xl mx-auto">
 
           {/* Comparison chart — inspired by switch.healthplans.now */}
           <div className="bg-white border-2 border-gray-200 rounded-xl overflow-hidden shadow-lg">
