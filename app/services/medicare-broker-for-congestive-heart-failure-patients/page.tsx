@@ -114,7 +114,7 @@ export default function MedicareBrokerCHFPage() {
       </h1>
 
       <Image
-        src="/images/hub_medicare-broker-for-congestive-heart-failure-patients.webp"
+        src="/images/medicare-broker-for-congestive-heart-failure-patients.webp"
         alt="Medicare broker for congestive heart failure patients"
         width={800}
         height={400}

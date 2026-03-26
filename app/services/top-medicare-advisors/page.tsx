@@ -109,7 +109,7 @@ export default function TopMedicareAdvisorsPage() {
       </h1>
 
       <Image
-        src="/images/hub_top-medicare-advisors.webp"
+        src="/images/top-medicare-advisors.webp"
         alt="top medicare advisors"
         width={800}
         height={400}

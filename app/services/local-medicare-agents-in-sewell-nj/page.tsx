@@ -113,7 +113,7 @@ export default function LocalMedicareAgentsInSewellNJ() {
       </h1>
 
       <Image
-        src="/images/hub_local-medicare-agents-in-sewell-nj.webp"
+        src="/images/local-medicare-agents-in-sewell-nj.webp"
         alt="local medicare agents in sewell nj"
         width={800}
         height={400}

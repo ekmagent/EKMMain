@@ -114,7 +114,7 @@ export default function MedicareBrokerForRheumatoidArthritisPatients() {
       </h1>
 
       <Image
-        src="/images/hub_medicare-broker-for-rheumatoid-arthritis-patients.webp"
+        src="/images/medicare-broker-for-rheumatoid-arthritis-patients.webp"
         alt="Medicare broker for rheumatoid arthritis patients"
         width={800}
         height={400}

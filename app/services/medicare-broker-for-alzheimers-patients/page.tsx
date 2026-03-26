@@ -116,7 +116,7 @@ export default function MedicareBrokerForAlzheimersPatients() {
         </h1>
 
         <Image
-          src="/images/hub_medicare-broker-for-alzheimers-patients.webp"
+          src="/images/medicare-broker-for-alzheimers-patients.webp"
           alt="Medicare broker for Alzheimer's patients"
           width={800}
           height={400}

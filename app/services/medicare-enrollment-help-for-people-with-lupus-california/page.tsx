@@ -111,7 +111,7 @@ export default function MedicareEnrollmentHelpLupusCalifornia() {
       </h1>
 
       <Image
-        src="/images/hub_medicare-enrollment-help-for-people-with-lupus-california.webp"
+        src="/images/medicare-enrollment-help-for-people-with-lupus-california.webp"
         alt="Medicare enrollment help for people with lupus in California"
         width={800}
         height={400}

@@ -114,7 +114,7 @@ export default function MedicareSupplementCrohnsPage() {
       </h1>
 
       <Image
-        src="/images/hub_medicare-supplement-insurance-for-crohns-patients.webp"
+        src="/images/medicare-supplement-insurance-for-crohns-patients.webp"
         alt="Medicare supplement insurance for Crohn's patients"
         width={800}
         height={400}

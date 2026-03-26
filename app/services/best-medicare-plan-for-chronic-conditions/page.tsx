@@ -113,7 +113,7 @@ export default function BestMedicarePlanForChronicConditions() {
         </h1>
 
         <Image
-          src="/images/hub_best-medicare-plan-for-chronic-conditions.webp"
+          src="/images/best-medicare-plan-for-chronic-conditions.webp"
           alt="best medicare plan for someone with chronic conditions"
           width={800}
           height={400}

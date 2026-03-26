@@ -110,7 +110,7 @@ export default function MedigapPremiumHikesPage() {
       </h1>
 
       <Image
-        src="/images/hub_medicare-supplement-plan-medigap-premium-hikes.webp"
+        src="/images/medicare-supplement-plan-medigap-premium-hikes.webp"
         alt="medicare supplement plan medigap premium hikes"
         width={800}
         height={400}

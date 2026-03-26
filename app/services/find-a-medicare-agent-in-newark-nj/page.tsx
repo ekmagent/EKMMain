@@ -116,7 +116,7 @@ export default function FindMedicareAgentNewarkNJ() {
         </h1>
 
         <Image
-          src="/images/hub_find-a-medicare-agent-in-newark-nj.webp"
+          src="/images/find-a-medicare-agent-in-newark-nj.webp"
           alt="Find a Medicare agent in Newark NJ"
           width={800}
           height={400}

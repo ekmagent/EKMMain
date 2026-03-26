@@ -116,7 +116,7 @@ export default function MedicareBrokerHighCholesterolPage() {
         </h1>
 
         <Image
-          src="/images/hub_medicare-broker-for-high-cholesterol-patients.webp"
+          src="/images/medicare-broker-for-high-cholesterol-patients.webp"
           alt="Medicare broker for high cholesterol patients"
           width={800}
           height={400}

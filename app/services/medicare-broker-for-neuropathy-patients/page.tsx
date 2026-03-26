@@ -114,7 +114,7 @@ export default function MedicareBrokerForNeuropathyPatients() {
         </h1>
 
         <Image
-          src="/images/hub_medicare-broker-for-neuropathy-patients.webp"
+          src="/images/medicare-broker-for-neuropathy-patients.webp"
           alt="Medicare broker for neuropathy patients"
           width={800}
           height={400}

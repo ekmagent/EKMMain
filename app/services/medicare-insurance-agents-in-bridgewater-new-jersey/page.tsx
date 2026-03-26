@@ -112,7 +112,7 @@ export default function MedicareInsuranceAgentsBridgewaterNJ() {
       </h1>
 
       <Image
-        src="/images/hub_medicare-insurance-agents-in-bridgewater-new-jersey.webp"
+        src="/images/medicare-insurance-agents-in-bridgewater-new-jersey.webp"
         alt="Medicare insurance agents in Bridgewater New Jersey"
         width={800}
         height={400}

@@ -105,7 +105,7 @@ export default function MedicareBrokerForPeopleWithCLL() {
       </h1>
 
       <Image
-        src="/images/hub_medicare-broker-for-people-with-cll.webp"
+        src="/images/medicare-broker-for-people-with-cll.webp"
         alt="medicare broker for people with CLL"
         width={800}
         height={400}

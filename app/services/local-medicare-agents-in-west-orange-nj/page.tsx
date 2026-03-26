@@ -110,7 +110,7 @@ export default function LocalMedicareAgentsWestOrangeNJ() {
         </h1>
 
         <Image
-          src="/images/hub_local-medicare-agents-in-west-orange-nj.webp"
+          src="/images/local-medicare-agents-in-west-orange-nj.webp"
           alt="local medicare agents in west orange nj"
           width={800}
           height={400}

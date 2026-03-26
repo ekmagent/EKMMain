@@ -110,7 +110,7 @@ export default function MedicareSupplementPlanGCostFor68YearOld() {
       </h1>
 
       <Image
-        src="/images/hub_medicare-supplement-plan-g-cost-for-68-year-old.webp"
+        src="/images/medicare-supplement-plan-g-cost-for-68-year-old.webp"
         alt="Medicare Supplement Plan G cost for 68 year old"
         width={800}
         height={400}

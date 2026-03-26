@@ -109,7 +109,7 @@ export default function FreeMedicareAgentPaperworkPage() {
       </h1>
 
       <Image
-        src="/images/hub_free-medicare-agent-that-helps-with-paperwork.webp"
+        src="/images/free-medicare-agent-that-helps-with-paperwork_photo.webp"
         alt="free medicare agent that helps with paperwork"
         width={800}
         height={400}

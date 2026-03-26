@@ -110,7 +110,7 @@ export default function PlanGRates70NJ() {
         </h1>
 
         <Image
-          src="/images/hub_plan-g-rates-for-70-year-old-in-new-jersey.webp"
+          src="/images/plan-g-rates-for-70-year-old-in-new-jersey.webp"
           alt="plan g rates for 70 year old in new jersey"
           width={800}
           height={400}

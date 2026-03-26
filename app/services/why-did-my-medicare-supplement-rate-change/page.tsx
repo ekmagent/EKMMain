@@ -111,7 +111,7 @@ export default function WhyDidMyMedicareSupplementRateChange() {
         </h1>
 
         <Image
-          src="/images/hub_why-did-my-medicare-supplement-rate-change.webp"
+          src="/images/why-did-my-medicare-supplement-rate-change.webp"
           alt="why did my medicare supplement rate change"
           width={800}
           height={400}

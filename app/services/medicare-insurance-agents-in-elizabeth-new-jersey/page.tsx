@@ -113,7 +113,7 @@ export default function MedicareInsuranceAgentsElizabethNJ() {
       </h1>
 
       <Image
-        src="/images/hub_medicare-insurance-agents-in-elizabeth-new-jersey.webp"
+        src="/images/medicare-insurance-agents-in-elizabeth-new-jersey.webp"
         alt="medicare insurance agents in elizabeth new jersey"
         width={800}
         height={400}

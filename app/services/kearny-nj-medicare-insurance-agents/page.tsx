@@ -113,7 +113,7 @@ export default function KearnyNJMedicareInsuranceAgents() {
       </h1>
 
       <Image
-        src="/images/hub_kearny-nj-medicare-insurance-agents.webp"
+        src="/images/kearny-nj-medicare-insurance-agents.webp"
         alt="Kearny NJ Medicare insurance agents"
         width={800}
         height={400}

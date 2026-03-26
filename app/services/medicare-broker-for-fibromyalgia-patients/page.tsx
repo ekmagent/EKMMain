@@ -115,7 +115,7 @@ export default function MedicareBrokerForFibromyalgiaPatients() {
       </h1>
 
       <Image
-        src="/images/hub_medicare-broker-for-fibromyalgia-patients.webp"
+        src="/images/medicare-broker-for-fibromyalgia-patients.webp"
         alt="Medicare broker for fibromyalgia patients"
         width={800}
         height={400}

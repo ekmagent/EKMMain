@@ -112,7 +112,7 @@ export default function HowMuchDoesBestMedicareSupplementalInsuranceCostPerMonth
       </h1>
 
       <Image
-        src="/images/hub_how-much-does-the-best-medicare-supplemental-insurance-cost-per-month.webp"
+        src="/images/how-much-does-the-best-medicare-supplemental-insurance-cost-per-month.webp"
         alt="how much does the best medicare supplemental insurance cost per month"
         width={800}
         height={400}

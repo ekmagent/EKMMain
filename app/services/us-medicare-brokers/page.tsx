@@ -111,7 +111,7 @@ export default function USMedicareBrokersPage() {
         </h1>
 
         <Image
-          src="/images/hub_us-medicare-brokers.webp"
+          src="/images/us-medicare-brokers.webp"
           alt="US Medicare brokers helping seniors compare plans"
           width={800}
           height={400}

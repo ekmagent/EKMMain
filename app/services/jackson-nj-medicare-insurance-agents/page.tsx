@@ -110,7 +110,7 @@ export default function JacksonNJMedicareInsuranceAgents() {
       </h1>
 
       <Image
-        src="/images/hub_jackson-nj-medicare-insurance-agents.webp"
+        src="/images/jackson-nj-medicare-insurance-agents.webp"
         alt="Jackson NJ Medicare insurance agents"
         width={800}
         height={400}

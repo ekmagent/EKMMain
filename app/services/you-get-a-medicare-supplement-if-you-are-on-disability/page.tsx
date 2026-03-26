@@ -114,7 +114,7 @@ export default function MedicareSupplementDisabilityPage() {
       </h1>
 
       <Image
-        src="/images/hub_you-get-a-medicare-supplement-if-you-are-on-disability.webp"
+        src="/images/you-get-a-medicare-supplement-if-you-are-on-disability.webp"
         alt="you get a medicare supplement if you are on disability"
         width={800}
         height={400}

@@ -113,7 +113,7 @@ export default function MedicareBrokerForStrokeSurvivors() {
         </h1>
 
         <Image
-          src="/images/hub_medicare-broker-for-stroke-survivors.webp"
+          src="/images/medicare-broker-for-stroke-survivors.webp"
           alt="Medicare broker for stroke survivors"
           width={800}
           height={400}

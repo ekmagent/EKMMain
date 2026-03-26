@@ -108,7 +108,7 @@ export default function HowellNJMedicareInsuranceAgents() {
       </h1>
 
       <Image
-        src="/images/hub_howell-nj-medicare-insurance-agents.webp"
+        src="/images/howell-nj-medicare-insurance-agents.webp"
         alt="Howell NJ Medicare insurance agents"
         width={800}
         height={400}

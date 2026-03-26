@@ -116,7 +116,7 @@ export default function MedicareBrokerBipolarDisorderPage() {
         </h1>
 
         <Image
-          src="/images/hub_medicare-broker-for-bipolar-disorder-patients.webp"
+          src="/images/medicare-broker-for-bipolar-disorder-patients.webp"
           alt="Medicare broker for bipolar disorder patients"
           width={800}
           height={400}

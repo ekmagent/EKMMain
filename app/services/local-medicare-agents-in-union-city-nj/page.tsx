@@ -116,7 +116,7 @@ export default function LocalMedicareAgentsUnionCityNJ() {
         </h1>
 
         <Image
-          src="/images/hub_local-medicare-agents-in-union-city-nj.webp"
+          src="/images/local-medicare-agents-in-union-city-nj.webp"
           alt="local medicare agents in union city nj"
           width={800}
           height={400}

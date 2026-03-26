@@ -112,7 +112,7 @@ export default function ExploringMedigapCostPage() {
       </h1>
 
       <Image
-        src="/images/hub_exploring-medicare-supplemental-insurance-medigap-cost.webp"
+        src="/images/exploring-medicare-supplemental-insurance-medigap-cost.webp"
         alt="Exploring Medicare supplemental insurance Medigap cost"
         width={800}
         height={400}

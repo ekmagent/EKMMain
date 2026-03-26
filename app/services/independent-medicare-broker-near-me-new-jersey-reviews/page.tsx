@@ -113,7 +113,7 @@ export default function IndependentMedicareBrokerNJReviewsPage() {
       </h1>
 
       <Image
-        src="/images/hub_independent-medicare-broker-near-me-new-jersey-reviews.webp"
+        src="/images/independent-medicare-broker-near-me-new-jersey-reviews.webp"
         alt="Independent Medicare broker near me New Jersey reviews"
         width={800}
         height={400}

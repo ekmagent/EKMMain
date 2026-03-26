@@ -113,7 +113,7 @@ export default function MedicareBrokerThyroidDisease() {
         </h1>
 
         <Image
-          src="/images/hub_medicare-broker-for-thyroid-disease-patients.webp"
+          src="/images/medicare-broker-for-thyroid-disease-patients.webp"
           alt="Medicare broker for thyroid disease patients"
           width={800}
           height={400}

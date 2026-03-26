@@ -116,7 +116,7 @@ export default function PreExistingConditionMedigapPage() {
       </h1>
 
       <Image
-        src="/images/hub_you-get-a-medicare-supplement-plan-if-you-have-a-pre-existing-condition.webp"
+        src="/images/you-get-a-medicare-supplement-plan-if-you-have-a-pre-existing-condition.webp"
         alt="you get a medicare supplement plan if you have a pre-existing condition"
         width={800}
         height={400}

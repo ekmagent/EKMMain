@@ -114,7 +114,7 @@ export default function MedicareInsuranceAgentsBrickNJ() {
         </h1>
 
         <Image
-          src="/images/hub_medicare-insurance-agents-in-brick-new-jersey.webp"
+          src="/images/medicare-insurance-agents-in-brick-new-jersey.webp"
           alt="Medicare insurance agents in Brick New Jersey"
           width={800}
           height={400}

@@ -112,7 +112,7 @@ export default function HowLongToEnrollMedigapPage() {
       </h1>
 
       <Image
-        src="/images/hub_how-long-does-it-take-to-enroll-in-medicare-supplements.webp"
+        src="/images/how-long-does-it-take-to-enroll-in-medicare-supplements.webp"
         alt="how long does it take to enroll in medicare supplements"
         width={800}
         height={400}

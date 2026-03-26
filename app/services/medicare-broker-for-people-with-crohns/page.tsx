@@ -113,7 +113,7 @@ export default function MedicareBrokerForPeopleWithCrohns() {
         </h1>
 
         <Image
-          src="/images/hub_medicare-broker-for-people-with-crohns.webp"
+          src="/images/medicare-broker-for-people-with-crohns.webp"
           alt="medicare broker for people with crohns"
           width={800}
           height={400}

@@ -112,7 +112,7 @@ export default function MedicareInsuranceAgentsBellevilleNewJersey() {
       </h1>
 
       <Image
-        src="/images/hub_medicare-insurance-agents-in-belleville-new-jersey.webp"
+        src="/images/medicare-insurance-agents-in-belleville-new-jersey.webp"
         alt="Medicare insurance agents in Belleville New Jersey"
         width={800}
         height={400}

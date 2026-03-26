@@ -111,7 +111,7 @@ export default function LocalMedicareAgentsSayrevilleNJ() {
       </h1>
 
       <Image
-        src="/images/hub_local-medicare-agents-in-sayreville-nj.webp"
+        src="/images/local-medicare-agents-in-sayreville-nj.webp"
         alt="local medicare agents in sayreville nj"
         width={800}
         height={400}

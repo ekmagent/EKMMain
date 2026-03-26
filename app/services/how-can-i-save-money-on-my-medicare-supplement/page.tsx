@@ -113,7 +113,7 @@ export default function HowCanISaveMoneyOnMyMedicareSupplement() {
       </h1>
 
       <Image
-        src="/images/hub_how-can-i-save-money-on-my-medicare-supplement.webp"
+        src="/images/how-can-i-save-money-on-my-medicare-supplement.webp"
         alt="how can i save money on my medicare supplement"
         width={800}
         height={400}

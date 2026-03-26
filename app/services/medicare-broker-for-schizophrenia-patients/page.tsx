@@ -114,7 +114,7 @@ export default function MedicareBrokerSchizophreniaPatients() {
       </h1>
 
       <Image
-        src="/images/hub_medicare-broker-for-schizophrenia-patients.webp"
+        src="/images/medicare-broker-for-schizophrenia-patients.webp"
         alt="Medicare broker for schizophrenia patients"
         width={800}
         height={400}

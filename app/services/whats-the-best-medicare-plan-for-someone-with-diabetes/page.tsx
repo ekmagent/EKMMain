@@ -110,7 +110,7 @@ export default function BestMedicarePlanDiabetes() {
         </h1>
 
         <Image
-          src="/images/hub_whats-the-best-medicare-plan-for-someone-with-diabetes.webp"
+          src="/images/whats-the-best-medicare-plan-for-someone-with-diabetes.webp"
           alt="what's the best medicare plan for someone with diabetes"
           width={800}
           height={400}

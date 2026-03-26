@@ -154,7 +154,7 @@ export default function SwitchMedigapPlansPage() {
           {/* Hero image — right side */}
           <div className="flex justify-center">
             <Image
-              src="/images/hub_switch-medigap-plans.webp"
+              src="/images/switch-medigap-plans.webp"
               alt="Switch medigap plans — compare carriers and save"
               width={400}
               height={300}

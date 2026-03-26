@@ -115,7 +115,7 @@ export default function MedicareInsuranceAgentsBloomfieldNJ() {
       </h1>
 
       <Image
-        src="/images/hub_medicare-insurance-agents-in-bloomfield-new-jersey.webp"
+        src="/images/medicare-insurance-agents-in-bloomfield-new-jersey.webp"
         alt="Medicare insurance agents in Bloomfield New Jersey"
         width={800}
         height={400}

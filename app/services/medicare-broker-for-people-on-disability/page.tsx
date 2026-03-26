@@ -117,7 +117,7 @@ export default function MedicareBrokerForPeopleOnDisability() {
         </h1>
 
         <Image
-          src="/images/hub_medicare-broker-for-people-on-disability.webp"
+          src="/images/medicare-broker-for-people-on-disability.webp"
           alt="medicare broker for people on disability"
           width={800}
           height={400}

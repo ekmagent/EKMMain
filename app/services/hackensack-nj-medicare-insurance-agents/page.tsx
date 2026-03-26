@@ -112,7 +112,7 @@ export default function HackensackNJMedicareInsuranceAgents() {
       </h1>
 
       <Image
-        src="/images/hub_hackensack-nj-medicare-insurance-agents.webp"
+        src="/images/hackensack-nj-medicare-insurance-agents.webp"
         alt="Hackensack NJ medicare insurance agents"
         width={800}
         height={400}

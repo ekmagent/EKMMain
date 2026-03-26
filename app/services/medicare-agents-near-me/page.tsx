@@ -111,7 +111,7 @@ export default function MedicareAgentsNearMe() {
       </h1>
 
       <Image
-        src="/images/hub_medicare-agents-near-me.webp"
+        src="/images/medicare-agents-near-me.webp"
         alt="medicare agents near me"
         width={800}
         height={400}

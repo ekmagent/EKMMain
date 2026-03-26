@@ -111,7 +111,7 @@ export default function MedicareInsuranceAgentsFreeholdNJ() {
         </h1>
 
         <Image
-          src="/images/hub_medicare-insurance-agents-in-freehold-new-jersey.webp"
+          src="/images/medicare-insurance-agents-in-freehold-new-jersey.webp"
           alt="Medicare insurance agents in Freehold New Jersey"
           width={800}
           height={400}

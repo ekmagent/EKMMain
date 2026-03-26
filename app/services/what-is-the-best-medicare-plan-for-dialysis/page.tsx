@@ -112,7 +112,7 @@ export default function BestMedicarePlanForDialysis() {
       </h1>
 
       <Image
-        src="/images/hub_what-is-the-best-medicare-plan-for-dialysis.webp"
+        src="/images/what-is-the-best-medicare-plan-for-dialysis.webp"
         alt="what is the best medicare plan for dialysis"
         width={800}
         height={400}

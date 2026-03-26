@@ -112,7 +112,7 @@ export default function HowMuchDoesMedicareSupplementCostPerMonthForSeniors() {
       </h1>
 
       <Image
-        src="/images/hub_how-much-does-medicare-supplement-cost-per-month-for-seniors.webp"
+        src="/images/how-much-does-medicare-supplement-cost-per-month-for-seniors.webp"
         alt="how much does medicare supplement cost per month for seniors"
         width={800}
         height={400}

@@ -115,7 +115,7 @@ export default function LocalMedicareAgentsWayneNJ() {
         </h1>
 
         <Image
-          src="/images/hub_local-medicare-agents-in-wayne-nj.webp"
+          src="/images/local-medicare-agents-in-wayne-nj.webp"
           alt="local medicare agents in wayne nj"
           width={800}
           height={400}

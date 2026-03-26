@@ -108,7 +108,7 @@ export default function CompareAndEnrollInPlanGOnline() {
       </h1>
 
       <Image
-        src="/images/hub_compare-and-enroll-in-plan-g-online.webp"
+        src="/images/compare-and-enroll-in-plan-g-online.webp"
         alt="compare and enroll in plan g online"
         width={800}
         height={400}

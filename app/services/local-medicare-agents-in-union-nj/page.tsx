@@ -113,7 +113,7 @@ export default function LocalMedicareAgentsUnionNJ() {
         </h1>
 
         <Image
-          src="/images/hub_local-medicare-agents-in-union-nj.webp"
+          src="/images/local-medicare-agents-in-union-nj.webp"
           alt="local medicare agents in union nj"
           width={800}
           height={400}

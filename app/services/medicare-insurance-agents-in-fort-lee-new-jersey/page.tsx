@@ -110,7 +110,7 @@ export default function MedicareInsuranceAgentsFortLeeNJ() {
         </h1>
 
         <Image
-          src="/images/hub_medicare-insurance-agents-in-fort-lee-new-jersey.webp"
+          src="/images/medicare-insurance-agents-in-fort-lee-new-jersey.webp"
           alt="Medicare insurance agents in Fort Lee New Jersey"
           width={800}
           height={400}

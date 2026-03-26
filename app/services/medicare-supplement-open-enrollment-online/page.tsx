@@ -112,7 +112,7 @@ export default function MedicareSupplementOpenEnrollmentOnline() {
       </h1>
 
       <Image
-        src="/images/hub_medicare-supplement-open-enrollment-online.webp"
+        src="/images/medicare-supplement-open-enrollment-online.webp"
         alt="medicare supplement open enrollment online"
         width={800}
         height={400}

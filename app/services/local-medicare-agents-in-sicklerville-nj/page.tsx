@@ -114,7 +114,7 @@ export default function LocalMedicareAgentsSicklerville() {
         </h1>
 
         <Image
-          src="/images/hub_local-medicare-agents-in-sicklerville-nj.webp"
+          src="/images/local-medicare-agents-in-sicklerville-nj.webp"
           alt="local medicare agents in sicklerville nj"
           width={800}
           height={400}

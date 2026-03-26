@@ -114,7 +114,7 @@ export default function MedicareBrokerForCancerSurvivors() {
       </h1>
 
       <Image
-        src="/images/hub_medicare-broker-for-cancer-survivors.webp"
+        src="/images/medicare-broker-for-cancer-survivors.webp"
         alt="Medicare broker for cancer survivors"
         width={800}
         height={400}

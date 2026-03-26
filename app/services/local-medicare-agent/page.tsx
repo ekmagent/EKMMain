@@ -105,7 +105,7 @@ export default function LocalMedicareAgentPage() {
       </h1>
 
       <Image
-        src="/images/hub_local-medicare-agent.webp"
+        src="/images/local-medicare-agent.webp"
         alt="local medicare agent"
         width={800}
         height={400}

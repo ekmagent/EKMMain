@@ -117,7 +117,7 @@ export default function HowLongMedigapApproval() {
       </h1>
 
       <Image
-        src="/images/hub_how-long-does-it-take-to-get-approved-for-a-medicare-supplement-plan.webp"
+        src="/images/how-long-does-it-take-to-get-approved-for-a-medicare-supplement-plan.webp"
         alt="how long does it take to get approved for a medicare supplement plan"
         width={800}
         height={400}

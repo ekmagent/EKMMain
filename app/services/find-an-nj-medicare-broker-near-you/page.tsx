@@ -112,7 +112,7 @@ export default function FindNJMedicareBrokerNearYou() {
         </h1>
 
         <Image
-          src="/images/hub_find-an-nj-medicare-broker-near-you.webp"
+          src="/images/find-an-nj-medicare-broker-near-you.webp"
           alt="Find an NJ Medicare broker near you"
           width={800}
           height={400}

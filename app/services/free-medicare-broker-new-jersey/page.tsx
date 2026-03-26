@@ -106,7 +106,7 @@ export default function FreeMedicareBrokerNewJersey() {
         </h1>
 
         <Image
-          src="/images/hub_free-medicare-broker-new-jersey.webp"
+          src="/images/free-medicare-broker-new-jersey.webp"
           alt="free medicare broker new jersey"
           width={800}
           height={400}

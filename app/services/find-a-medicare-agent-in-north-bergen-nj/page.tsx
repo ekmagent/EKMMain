@@ -115,7 +115,7 @@ export default function FindMedicareAgentNorthBergenNJ() {
         </h1>
 
         <Image
-          src="/images/hub_find-a-medicare-agent-in-north-bergen-nj.webp"
+          src="/images/find-a-medicare-agent-in-north-bergen-nj.webp"
           alt="find a medicare agent in North Bergen NJ"
           width={800}
           height={400}

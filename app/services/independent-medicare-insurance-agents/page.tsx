@@ -110,7 +110,7 @@ export default function IndependentMedicareInsuranceAgentsPage() {
       </h1>
 
       <Image
-        src="/images/hub_independent-medicare-insurance-agents.webp"
+        src="/images/independent-medicare-insurance-agents.webp"
         alt="independent medicare insurance agents"
         width={800}
         height={400}

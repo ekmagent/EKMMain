@@ -109,7 +109,7 @@ export default function MedicareConsultantFtLauderdaleFL() {
       </h1>
 
       <Image
-        src="/images/hub_medicare-consultant-in-ft-lauderdale-fl.webp"
+        src="/images/medicare-consultant-in-ft-lauderdale-fl.webp"
         alt="Medicare consultant in Ft Lauderdale FL"
         width={800}
         height={400}

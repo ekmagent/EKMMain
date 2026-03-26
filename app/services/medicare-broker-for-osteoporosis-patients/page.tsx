@@ -114,7 +114,7 @@ export default function MedicareBrokerForOsteoporosisPatients() {
       </h1>
 
       <Image
-        src="/images/hub_medicare-broker-for-osteoporosis-patients.webp"
+        src="/images/medicare-broker-for-osteoporosis-patients.webp"
         alt="Medicare broker for osteoporosis patients"
         width={800}
         height={400}

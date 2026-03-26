@@ -111,7 +111,7 @@ export default function HillsboroughNJMedicareInsuranceAgents() {
       </h1>
 
       <Image
-        src="/images/hub_hillsborough-nj-medicare-insurance-agents.webp"
+        src="/images/hillsborough-nj-medicare-insurance-agents.webp"
         alt="Hillsborough NJ Medicare insurance agents"
         width={800}
         height={400}

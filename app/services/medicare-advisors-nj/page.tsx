@@ -111,7 +111,7 @@ export default function MedicareAdvisorsNJ() {
         </h1>
 
         <Image
-          src="/images/hub_medicare-advisors-nj.webp"
+          src="/images/medicare-advisors-nj.webp"
           alt="medicare advisors nj"
           width={800}
           height={400}

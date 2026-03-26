@@ -112,7 +112,7 @@ export default function MedicareBrokerKneReplacementPage() {
       </h1>
 
       <Image
-        src="/images/hub_medicare-broker-for-knee-replacement-patients.webp"
+        src="/images/medicare-broker-for-knee-replacement-patients.webp"
         alt="Medicare broker for knee replacement patients"
         width={800}
         height={400}

@@ -113,7 +113,7 @@ export default function MedicareSupplementRateJumpedPage() {
       </h1>
 
       <Image
-        src="/images/hub_medicare-supplement-rate-jumped-why-and-what-can-i-do.webp"
+        src="/images/medicare-supplement-rate-jumped-why-and-what-can-i-do.webp"
         alt="my medicare supplement rate just jumped — why and what can I do"
         width={800}
         height={400}

@@ -111,7 +111,7 @@ export default function MedicareAdviseInNewJersey() {
       </h1>
 
       <Image
-        src="/images/hub_medicare-advise-in-new-jersey.webp"
+        src="/images/medicare-advise-in-new-jersey.webp"
         alt="medicare advise in new jersey"
         width={800}
         height={400}

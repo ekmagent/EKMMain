@@ -113,7 +113,7 @@ export default function WhenCanIChangeMyMedicareSupplementPlanFor2026() {
       </h1>
 
       <Image
-        src="/images/hub_when-can-i-change-my-medicare-supplement-plan-for-2026.webp"
+        src="/images/when-can-i-change-my-medicare-supplement-plan-for-2026.webp"
         alt="when can I change my Medicare Supplement plan for 2026"
         width={800}
         height={400}

@@ -114,7 +114,7 @@ export default function BestMedicareSupplementForPeopleOnDisability() {
         </h1>
 
         <Image
-          src="/images/hub_best-medicare-supplement-for-people-on-disability.webp"
+          src="/images/best-medicare-supplement-for-people-on-disability.webp"
           alt="best medicare supplement for people on disability"
           width={800}
           height={400}

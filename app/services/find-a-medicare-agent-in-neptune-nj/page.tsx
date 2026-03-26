@@ -111,7 +111,7 @@ export default function FindMedicareAgentNeptuneNJ() {
         </h1>
 
         <Image
-          src="/images/hub_find-a-medicare-agent-in-neptune-nj.webp"
+          src="/images/find-a-medicare-agent-in-neptune-nj.webp"
           alt="find a medicare agent in neptune nj"
           width={800}
           height={400}

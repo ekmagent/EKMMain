@@ -113,7 +113,7 @@ export default function MedicareInMonmouthCountyNewJersey() {
       </h1>
 
       <Image
-        src="/images/hub_medicare-in-monmouth-county-new-jersey.webp"
+        src="/images/medicare-in-monmouth-county-new-jersey.webp"
         alt="Medicare in Monmouth County New Jersey"
         width={800}
         height={400}

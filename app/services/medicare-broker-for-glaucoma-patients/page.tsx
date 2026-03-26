@@ -112,7 +112,7 @@ export default function MedicareBrokerForGlaucomaPatients() {
       </h1>
 
       <Image
-        src="/images/hub_medicare-broker-for-glaucoma-patients.webp"
+        src="/images/medicare-broker-for-glaucoma-patients.webp"
         alt="Medicare broker for glaucoma patients"
         width={800}
         height={400}

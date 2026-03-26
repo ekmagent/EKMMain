@@ -117,7 +117,7 @@ export default function MedicareInsuranceAgentsBayonneNJ() {
       </h1>
 
       <Image
-        src="/images/hub_medicare-insurance-agents-in-bayonne-new-jersey.webp"
+        src="/images/medicare-insurance-agents-in-bayonne-new-jersey.webp"
         alt="medicare insurance agents in bayonne new jersey"
         width={800}
         height={400}

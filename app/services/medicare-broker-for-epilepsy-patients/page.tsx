@@ -116,7 +116,7 @@ export default function MedicareBrokerForEpilepsyPatients() {
       </h1>
 
       <Image
-        src="/images/hub_medicare-broker-for-epilepsy-patients.webp"
+        src="/images/medicare-broker-for-epilepsy-patients.webp"
         alt="Medicare broker for epilepsy patients"
         width={800}
         height={400}

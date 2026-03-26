@@ -112,7 +112,7 @@ export default function FindMedicareAgentPlainfieldNJ() {
       </h1>
 
       <Image
-        src="/images/hub_find-a-medicare-agent-in-plainfield-nj.webp"
+        src="/images/find-a-medicare-agent-in-plainfield-nj.webp"
         alt="find a medicare agent in plainfield nj"
         width={800}
         height={400}

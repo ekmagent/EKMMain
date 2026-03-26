@@ -111,7 +111,7 @@ export default function WhatTimeOfYearCanYouSwitchMedigap() {
       </h1>
 
       <Image
-        src="/images/hub_what-time-of-year-can-you-switch-medicare-supplement-plans.webp"
+        src="/images/what-time-of-year-can-you-switch-medicare-supplement-plans.webp"
         alt="what time of the year can you switch medicare supplement plans"
         width={800}
         height={400}

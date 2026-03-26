@@ -111,7 +111,7 @@ export default function IndependentMedicareAgentsABQNM() {
       </h1>
 
       <Image
-        src="/images/hub_independent-medicare-agents-abq-nm.webp"
+        src="/images/independent-medicare-agents-abq-nm.webp"
         alt="independent medicare agents abq nm"
         width={800}
         height={400}

@@ -113,7 +113,7 @@ export default function HobokenNJMedicareInsuranceAgents() {
       </h1>
 
       <Image
-        src="/images/hub_hoboken-nj-medicare-insurance-agents.webp"
+        src="/images/hoboken-nj-medicare-insurance-agents.webp"
         alt="Hoboken NJ Medicare insurance agents"
         width={800}
         height={400}

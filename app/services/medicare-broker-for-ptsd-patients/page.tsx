@@ -110,7 +110,7 @@ export default function MedicareBrokerForPTSDPatients() {
       </h1>
 
       <Image
-        src="/images/hub_medicare-broker-for-ptsd-patients.webp"
+        src="/images/medicare-broker-for-ptsd-patients.webp"
         alt="Medicare broker for PTSD patients"
         width={800}
         height={400}

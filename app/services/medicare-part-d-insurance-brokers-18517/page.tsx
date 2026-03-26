@@ -114,7 +114,7 @@ export default function MedicarePartDBrokers18517() {
       </h1>
 
       <Image
-        src="/images/hub_medicare-part-d-insurance-brokers-18517.webp"
+        src="/images/medicare-part-d-insurance-brokers-18517.webp"
         alt="Medicare Part D insurance brokers 18517"
         width={800}
         height={400}

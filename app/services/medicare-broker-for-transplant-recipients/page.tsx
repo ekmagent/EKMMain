@@ -115,7 +115,7 @@ export default function MedicareBrokerForTransplantRecipients() {
       </h1>
 
       <Image
-        src="/images/hub_medicare-broker-for-transplant-recipients.webp"
+        src="/images/medicare-broker-for-transplant-recipients.webp"
         alt="Medicare broker for transplant recipients"
         width={800}
         height={400}

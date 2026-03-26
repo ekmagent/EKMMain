@@ -110,7 +110,7 @@ export default function FindMedicareAgentPiscatawayNJ() {
         </h1>
 
         <Image
-          src="/images/hub_find-a-medicare-agent-in-piscataway-nj.webp"
+          src="/images/find-a-medicare-agent-in-piscataway-nj.webp"
           alt="find a medicare agent in piscataway nj"
           width={800}
           height={400}

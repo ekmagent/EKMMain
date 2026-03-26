@@ -113,7 +113,7 @@ export default function QuickestWayToEnrollMedicareAdvantagePlan() {
       </h1>
 
       <Image
-        src="/images/hub_quickest-way-to-enroll-into-medicare-advantage-plan.webp"
+        src="/images/quickest-way-to-enroll-into-medicare-advantage-plan.webp"
         alt="quickest way to enroll into medicare advantage plan"
         width={800}
         height={400}

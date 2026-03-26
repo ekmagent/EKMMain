@@ -113,7 +113,7 @@ export default function MedicareBrokerForParkinsonsPatients() {
       </h1>
 
       <Image
-        src="/images/hub_medicare-broker-for-parkinsons-patients.webp"
+        src="/images/medicare-broker-for-parkinsons-patients.webp"
         alt="Medicare broker for Parkinson's patients"
         width={800}
         height={400}

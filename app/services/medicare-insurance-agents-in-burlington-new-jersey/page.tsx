@@ -110,7 +110,7 @@ export default function MedicareInsuranceAgentsBurlingtonNJ() {
       </h1>
 
       <Image
-        src="/images/hub_medicare-insurance-agents-in-burlington-new-jersey.webp"
+        src="/images/medicare-insurance-agents-in-burlington-new-jersey.webp"
         alt="Medicare insurance agents in Burlington New Jersey"
         width={800}
         height={400}

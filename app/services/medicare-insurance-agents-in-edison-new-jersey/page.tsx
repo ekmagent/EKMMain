@@ -111,7 +111,7 @@ export default function MedicareInsuranceAgentsEdisonNJ() {
       </h1>
 
       <Image
-        src="/images/hub_medicare-insurance-agents-in-edison-new-jersey.webp"
+        src="/images/medicare-insurance-agents-in-edison-new-jersey.webp"
         alt="Medicare insurance agents in Edison New Jersey"
         width={800}
         height={400}

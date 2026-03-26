@@ -112,7 +112,7 @@ export default function PlanGRates69NJ() {
         </h1>
 
         <Image
-          src="/images/hub_plan-g-rates-for-69-year-old-in-new-jersey.webp"
+          src="/images/plan-g-rates-for-69-year-old-in-new-jersey.webp"
           alt="Plan G rates for 69 year old in New Jersey"
           width={800}
           height={400}

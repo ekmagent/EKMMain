@@ -115,7 +115,7 @@ export default function SameDayMedicareSupplementEnrollmentForm() {
         </h1>
 
         <Image
-          src="/images/hub_same-day-medicare-supplement-enrollment-form.webp"
+          src="/images/same-day-medicare-supplement-enrollment-form.webp"
           alt="same day medicare supplement enrollment form"
           width={800}
           height={400}

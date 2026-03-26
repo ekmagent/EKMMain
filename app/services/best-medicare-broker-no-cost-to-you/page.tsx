@@ -109,7 +109,7 @@ export default function BestMedicareBrokerNoCostToYou() {
       </h1>
 
       <Image
-        src="/images/hub_best-medicare-broker-no-cost-to-you.webp"
+        src="/images/best-medicare-broker-no-cost-to-you.webp"
         alt="best medicare broker no cost to you"
         width={800}
         height={400}

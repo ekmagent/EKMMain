@@ -111,7 +111,7 @@ export default function MedicareQuotesPage() {
       </h1>
 
       <Image
-        src="/images/hub_medicare-quotes.webp"
+        src="/images/medicare-quotes.webp"
         alt="Medicare quotes comparison"
         width={800}
         height={400}

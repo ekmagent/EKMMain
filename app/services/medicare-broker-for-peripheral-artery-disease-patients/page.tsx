@@ -113,7 +113,7 @@ export default function MedicareBrokerPAD() {
         </h1>
 
         <Image
-          src="/images/hub_medicare-broker-for-peripheral-artery-disease-patients.webp"
+          src="/images/medicare-broker-for-peripheral-artery-disease-patients.webp"
           alt="Medicare broker for peripheral artery disease patients"
           width={800}
           height={400}

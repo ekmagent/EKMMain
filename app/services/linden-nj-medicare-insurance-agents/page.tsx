@@ -113,7 +113,7 @@ export default function LindenNJMedicareInsuranceAgents() {
         </h1>
 
         <Image
-          src="/images/hub_linden-nj-medicare-insurance-agents.webp"
+          src="/images/linden-nj-medicare-insurance-agents.webp"
           alt="Linden NJ Medicare insurance agents"
           width={800}
           height={400}

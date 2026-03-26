@@ -109,7 +109,7 @@ export default function FindMedicareAgentMonroeTownshipNJ() {
       </h1>
 
       <Image
-        src="/images/hub_find-a-medicare-agent-in-monroe-township-nj.webp"
+        src="/images/find-a-medicare-agent-in-monroe-township-nj.webp"
         alt="Find a Medicare agent in Monroe Township NJ"
         width={800}
         height={400}

@@ -112,7 +112,7 @@ export default function MedicareEnrollmentHelpDiabetesTexas() {
       </h1>
 
       <Image
-        src="/images/hub_medicare-enrollment-help-for-people-with-diabetes-texas.webp"
+        src="/images/medicare-enrollment-help-for-people-with-diabetes-texas.webp"
         alt="Medicare enrollment help for people with diabetes in Texas"
         width={800}
         height={400}

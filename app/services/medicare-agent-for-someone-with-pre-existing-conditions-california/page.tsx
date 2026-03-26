@@ -113,7 +113,7 @@ export default function MedicareAgentPreExistingConditionsCA() {
         </h1>
 
         <Image
-          src="/images/hub_medicare-agent-for-someone-with-pre-existing-conditions-california.webp"
+          src="/images/medicare-agent-for-someone-with-pre-existing-conditions-california.webp"
           alt="medicare agent for someone with pre existing conditions california"
           width={800}
           height={400}

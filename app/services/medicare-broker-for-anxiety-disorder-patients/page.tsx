@@ -115,7 +115,7 @@ export default function MedicareBrokerAnxietyDisorderPatients() {
       </h1>
 
       <Image
-        src="/images/hub_medicare-broker-for-anxiety-disorder-patients.webp"
+        src="/images/medicare-broker-for-anxiety-disorder-patients.webp"
         alt="Medicare broker for anxiety disorder patients"
         width={800}
         height={400}

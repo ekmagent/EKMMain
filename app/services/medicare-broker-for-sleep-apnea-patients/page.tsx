@@ -112,7 +112,7 @@ export default function MedicareBrokerForSleepApneaPatients() {
       </h1>
 
       <Image
-        src="/images/hub_medicare-broker-for-sleep-apnea-patients.webp"
+        src="/images/medicare-broker-for-sleep-apnea-patients.webp"
         alt="Medicare broker for sleep apnea patients"
         width={800}
         height={400}

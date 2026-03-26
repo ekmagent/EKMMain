@@ -111,7 +111,7 @@ export default function LocalMedicareAgentsTrentonNJ() {
         </h1>
 
         <Image
-          src="/images/hub_local-medicare-agents-in-trenton-nj.webp"
+          src="/images/local-medicare-agents-in-trenton-nj.webp"
           alt="local medicare agents in trenton nj"
           width={800}
           height={400}

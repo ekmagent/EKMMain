@@ -114,7 +114,7 @@ export default function MedicareBrokerPreExistingConditions() {
       </h1>
 
       <Image
-        src="/images/hub_medicare-broker-for-people-with-pre-existing-conditions.webp"
+        src="/images/medicare-broker-for-people-with-pre-existing-conditions.webp"
         alt="medicare broker for people with pre-existing conditions"
         width={800}
         height={400}

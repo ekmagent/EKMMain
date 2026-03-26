@@ -112,7 +112,7 @@ export default function TampaMedicareAgent() {
       </h1>
 
       <Image
-        src="/images/hub_tampa-medicare-agent.webp"
+        src="/images/tampa-medicare-agent.webp"
         alt="Tampa medicare agent"
         width={800}
         height={400}

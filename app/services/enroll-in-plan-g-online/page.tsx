@@ -111,7 +111,7 @@ export default function EnrollInPlanGOnlinePage() {
         </h1>
 
         <Image
-          src="/images/hub_enroll-in-plan-g-online.webp"
+          src="/images/enroll-in-plan-g-online.webp"
           alt="enroll in plan g online"
           width={800}
           height={400}

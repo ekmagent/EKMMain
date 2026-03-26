@@ -113,7 +113,7 @@ export default function MedicareSupplementPremiumsIncreasing2025() {
       </h1>
 
       <Image
-        src="/images/hub_medicare-supplement-premiums-increasing-by-double-digits-in-2025.webp"
+        src="/images/medicare-supplement-premiums-increasing-by-double-digits-in-2025.webp"
         alt="medicare supplement premiums increasing by double digits in 2025"
         width={800}
         height={400}

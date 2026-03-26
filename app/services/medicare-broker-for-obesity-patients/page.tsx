@@ -111,7 +111,7 @@ export default function MedicareBrokerForObesityPatients() {
         </h1>
 
         <Image
-          src="/images/hub_medicare-broker-for-obesity-patients.webp"
+          src="/images/medicare-broker-for-obesity-patients.webp"
           alt="Medicare broker for obesity patients"
           width={800}
           height={400}

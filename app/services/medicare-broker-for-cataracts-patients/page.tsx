@@ -112,7 +112,7 @@ export default function MedicareBrokerForCataractsPatients() {
       </h1>
 
       <Image
-        src="/images/hub_medicare-broker-for-cataracts-patients.webp"
+        src="/images/medicare-broker-for-cataracts-patients.webp"
         alt="Medicare broker for cataracts patients"
         width={800}
         height={400}

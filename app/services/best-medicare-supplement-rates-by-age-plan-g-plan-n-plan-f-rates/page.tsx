@@ -114,7 +114,7 @@ export default function BestMedicareSupplementRatesByAge() {
       </h1>
 
       <Image
-        src="/images/hub_best-medicare-supplement-rates-by-age-plan-g-plan-n-plan-f-rates.webp"
+        src="/images/best-medicare-supplement-rates-by-age-plan-g-plan-n-plan-f-rates.webp"
         alt="Best Medicare Supplement rates by age for Plan G, Plan N, and Plan F"
         width={800}
         height={400}

@@ -113,7 +113,7 @@ export default function LocalMedicareAgentsTomsRiverNJ() {
       </h1>
 
       <Image
-        src="/images/hub_local-medicare-agents-in-toms-river-nj.webp"
+        src="/images/local-medicare-agents-in-toms-river-nj.webp"
         alt="local medicare agents in toms river nj"
         width={800}
         height={400}

@@ -114,7 +114,7 @@ export default function EnrollInMedicareSupplementPlanGAt70() {
         </h1>
 
         <Image
-          src="/images/hub_enroll-in-medicare-supplement-plan-g-at-70.webp"
+          src="/images/enroll-in-medicare-supplement-plan-g-at-70.webp"
           alt="enroll in medicare supplement plan g at 70"
           width={800}
           height={400}

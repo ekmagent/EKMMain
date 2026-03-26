@@ -107,7 +107,7 @@ export default function LakewoodNJMedicareInsuranceAgents() {
         </h1>
 
         <Image
-          src="/images/hub_lakewood-nj-medicare-insurance-agents.webp"
+          src="/images/lakewood-nj-medicare-insurance-agents.webp"
           alt="Lakewood NJ Medicare insurance agents"
           width={800}
           height={400}

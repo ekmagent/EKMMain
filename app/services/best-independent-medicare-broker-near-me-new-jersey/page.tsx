@@ -114,7 +114,7 @@ export default function BestIndependentMedicareBrokerNearMeNewJersey() {
         </h1>
 
         <Image
-          src="/images/hub_best-independent-medicare-broker-near-me-new-jersey.webp"
+          src="/images/best-independent-medicare-broker-near-me-new-jersey.webp"
           alt="best independent medicare broker near me new jersey"
           width={800}
           height={400}

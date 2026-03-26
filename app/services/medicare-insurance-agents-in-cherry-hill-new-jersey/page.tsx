@@ -111,7 +111,7 @@ export default function MedicareInsuranceAgentsCherryHillNJ() {
       </h1>
 
       <Image
-        src="/images/hub_medicare-insurance-agents-in-cherry-hill-new-jersey.webp"
+        src="/images/medicare-insurance-agents-in-cherry-hill-new-jersey.webp"
         alt="Medicare insurance agents in Cherry Hill New Jersey"
         width={800}
         height={400}

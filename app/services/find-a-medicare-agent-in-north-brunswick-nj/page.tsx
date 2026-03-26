@@ -111,7 +111,7 @@ export default function FindMedicareAgentNorthBrunswickNJ() {
         </h1>
 
         <Image
-          src="/images/hub_find-a-medicare-agent-in-north-brunswick-nj.webp"
+          src="/images/find-a-medicare-agent-in-north-brunswick-nj.webp"
           alt="find a medicare agent in north brunswick nj"
           width={800}
           height={400}

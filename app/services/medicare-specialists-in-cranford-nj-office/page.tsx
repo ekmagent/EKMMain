@@ -112,7 +112,7 @@ export default function MedicareSpecialistsCranfordNJOffice() {
         </h1>
 
         <Image
-          src="/images/hub_medicare-specialists-in-cranford-nj-office.webp"
+          src="/images/medicare-specialists-in-cranford-nj-office.webp"
           alt="Medicare specialists in Cranford, NJ office"
           width={800}
           height={400}

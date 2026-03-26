@@ -118,7 +118,7 @@ export default function MedicareSpecialistsSouthCarolina() {
       </h1>
 
       <Image
-        src="/images/hub_medicare-specialists-in-south-carolina.webp"
+        src="/images/medicare-specialists-in-south-carolina.webp"
         alt="medicare specialists in south carolina"
         width={800}
         height={400}

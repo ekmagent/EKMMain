@@ -113,7 +113,7 @@ export default function BestMedicareBrokerHackensackNJ() {
       </h1>
 
       <Image
-        src="/images/hub_best-medicare-insurance-broker-near-hackensack-nj.webp"
+        src="/images/best-medicare-insurance-broker-near-hackensack-nj.webp"
         alt="best medicare insurance broker near hackensack, nj"
         width={800}
         height={400}

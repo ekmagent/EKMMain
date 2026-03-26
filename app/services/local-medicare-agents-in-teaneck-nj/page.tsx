@@ -113,7 +113,7 @@ export default function LocalMedicareAgentsTeaneckNJ() {
         </h1>
 
         <Image
-          src="/images/hub_local-medicare-agents-in-teaneck-nj.webp"
+          src="/images/local-medicare-agents-in-teaneck-nj.webp"
           alt="local medicare agents in teaneck nj"
           width={800}
           height={400}

@@ -109,7 +109,7 @@ export default function HowMuchIsPlanGInNJ() {
       </h1>
 
       <Image
-        src="/images/hub_how-much-is-plan-g-in-nj.webp"
+        src="/images/how-much-is-plan-g-in-nj.webp"
         alt="how much is plan g in nj"
         width={800}
         height={400}

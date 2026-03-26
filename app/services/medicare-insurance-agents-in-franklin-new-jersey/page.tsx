@@ -112,7 +112,7 @@ export default function MedicareInsuranceAgentsFranklinNJ() {
       </h1>
 
       <Image
-        src="/images/hub_medicare-insurance-agents-in-franklin-new-jersey.webp"
+        src="/images/medicare-insurance-agents-in-franklin-new-jersey.webp"
         alt="Medicare insurance agents in Franklin New Jersey"
         width={800}
         height={400}

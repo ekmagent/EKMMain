@@ -111,7 +111,7 @@ export default function MedicareBrokerForDiabetics() {
       </h1>
 
       <Image
-        src="/images/hub_medicare-broker-for-diabetics.webp"
+        src="/images/medicare-broker-for-diabetics.webp"
         alt="medicare broker for diabetics"
         width={800}
         height={400}

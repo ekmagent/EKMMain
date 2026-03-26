@@ -112,7 +112,7 @@ export default function FindMedicareAgentMountLaurelNJ() {
       </h1>
 
       <Image
-        src="/images/hub_find-a-medicare-agent-in-mount-laurel-nj.webp"
+        src="/images/find-a-medicare-agent-in-mount-laurel-nj.webp"
         alt="Find a Medicare agent in Mount Laurel NJ"
         width={800}
         height={400}

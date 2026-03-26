@@ -109,7 +109,7 @@ export default function IrvingtonNJMedicareInsuranceAgents() {
       </h1>
 
       <Image
-        src="/images/hub_irvington-nj-medicare-insurance-agents.webp"
+        src="/images/irvington-nj-medicare-insurance-agents.webp"
         alt="Irvington NJ Medicare insurance agents"
         width={800}
         height={400}

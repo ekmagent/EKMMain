@@ -112,7 +112,7 @@ export default function HelpWithYourMedicareDecision() {
         </h1>
 
         <Image
-          src="/images/hub_help-with-your-medicare-decision.webp"
+          src="/images/help-with-your-medicare-decision.webp"
           alt="help with your medicare decision"
           width={800}
           height={400}

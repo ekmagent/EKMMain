@@ -110,7 +110,7 @@ export default function LicensedMedicareAdvisorsPage() {
         </h1>
 
         <Image
-          src="/images/hub_licensed-medicare-advisors.webp"
+          src="/images/licensed-medicare-advisors.webp"
           alt="licensed medicare advisors"
           width={800}
           height={400}
