@@ -112,7 +112,7 @@ export default function MedicareAgentPaperworkPage() {
       </h1>
 
       <Image
-        src="/images/medicare-agent-that-helps-with-paperwork-near-me.webp"
+        src="/images/medicare-agent-that-helps-with-paperwork-near-me_vector.webp"
         alt="Medicare agent that helps with paperwork near me"
         width={800}
         height={400}

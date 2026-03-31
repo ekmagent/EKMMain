@@ -110,7 +110,7 @@ export default function MedicareBrokersInMyArea() {
         </h1>
 
         <Image
-          src="/images/medicare-brokers-in-my-area.webp"
+          src="/images/medicare-brokers-in-my-area_vector.webp"
           alt="Medicare brokers in my area"
           width={800}
           height={400}

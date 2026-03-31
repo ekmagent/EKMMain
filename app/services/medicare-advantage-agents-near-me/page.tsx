@@ -109,7 +109,7 @@ export default function MedicareAdvantageAgentsNearMe() {
         </h1>
 
         <Image
-          src="/images/medicare-advantage-agents-near-me.webp"
+          src="/images/medicare-advantage-agents-near-me_vector.webp"
           alt="Medicare Advantage agents near me"
           width={800}
           height={400}

@@ -114,7 +114,7 @@ export default function MedicareEnrollmentHelpLupus() {
         </h1>
 
         <Image
-          src="/images/medicare-enrollment-help-for-people-with-lupus.webp"
+          src="/images/medicare-enrollment-help-for-people-with-lupus_vector.webp"
           alt="medicare enrollment help for people with lupus"
           width={800}
           height={400}

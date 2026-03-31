@@ -112,7 +112,7 @@ export default function IndependentMedicareSupplementAgentsNearMe() {
         </h1>
 
         <Image
-          src="/images/independent-medicare-supplement-insurance-agents-near-me.webp"
+          src="/images/independent-medicare-supplement-insurance-agents-near-me_vector.webp"
           alt="Independent Medicare Supplement insurance agents near me"
           width={800}
           height={400}

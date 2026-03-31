@@ -112,7 +112,7 @@ export default function FreeMedicareAdvocateNearMe() {
         </h1>
 
         <Image
-          src="/images/free-medicare-advocate-near-me.webp"
+          src="/images/free-medicare-advocate-near-me_vector.webp"
           alt="free medicare advocate near me"
           width={800}
           height={400}

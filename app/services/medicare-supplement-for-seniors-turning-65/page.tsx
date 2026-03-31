@@ -114,7 +114,7 @@ export default function MedicareSupplementSeniorsTurning65() {
         </h1>
 
         <Image
-          src="/images/medicare-supplement-for-seniors-turning-65.webp"
+          src="/images/medicare-supplement-for-seniors-turning-65_vector.webp"
           alt="medicare supplement for seniors turning 65"
           width={800}
           height={400}
