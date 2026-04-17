@@ -432,7 +432,7 @@ async function main() {
 
     try {
       const msg = await anthropic.messages.create({
-        model: "claude-opus-4-6",
+        model: "claude-opus-4-7",
         max_tokens: 4096,
         messages: [{ role: "user", content: prompt }],
       });

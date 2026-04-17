@@ -34,7 +34,7 @@ const articleSchema = {
   headline: "Best Medicare Supplement Plans in New Jersey (2026)",
   description: "A comprehensive guide to Medicare Supplement (Medigap) plans in New Jersey, including Plan G rates, NJ-specific enrollment rules, and carrier comparisons.",
   datePublished: "2026-01-01",
-  dateModified: "2026-03-13",
+  dateModified: "2026-04-16",
   author: {
     "@type": "Person",
     name: "MedicareYourself",
@@ -131,7 +131,7 @@ export default function NJMedicareSupplementPage() {
               Below we explain your options, current rates, top carriers, and how to choose.
             </p>
             <p className="text-xs text-gray-400 mb-6">
-              Last reviewed: March 2026 · Data sourced from CMS.gov and NJ Department of Banking and Insurance
+              Last reviewed: April 2026 · Data sourced from CMS.gov and NJ Department of Banking and Insurance
             </p>
             <PhoneCTA label="Compare NJ Plans Free" />
           </div>
@@ -185,7 +185,7 @@ export default function NJMedicareSupplementPage() {
             <div className="bg-white rounded-lg p-4 border border-green-100">
               <h3 className="font-semibold text-gray-900 mb-2">DOBI Oversight</h3>
               <p className="text-gray-600">
-                The NJ Department of Banking and Insurance (DOBI) regulates all Medigap plans sold
+                The <a href="https://www.state.nj.us/dobi/index.html" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline font-medium">NJ Department of Banking and Insurance (DOBI)</a> regulates all Medigap plans sold
                 in the state. File complaints at dobi.nj.gov or call 1-800-446-7467.
               </p>
             </div>
@@ -230,8 +230,53 @@ export default function NJMedicareSupplementPage() {
           </table>
         </div>
         <p className="text-xs text-gray-400 mt-2">
-          Source: CMS Medicare Supplement standardized plans. Plan F is only available to those who became Medicare-eligible before January 1, 2020.
+          Source: <a href="https://www.medicare.gov/health-drug-plans/medigap" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Medicare.gov</a> standardized plans. Plan F is only available to those who became Medicare-eligible before January 1, 2020.
         </p>
+      </section>
+
+      {/* NJ Medicare at a Glance — hub navigation */}
+      <section className="max-w-6xl mx-auto px-4 py-12 border-t border-gray-100">
+        <h2 className="text-2xl font-bold text-gray-900 mb-2">
+          New Jersey Medigap at a Glance (2026)
+        </h2>
+        <p className="text-gray-600 mb-6">
+          Every New Jersey Medicare Supplement decision comes down to a handful of questions.
+          Pick the one that fits your situation and jump to the full breakdown.
+        </p>
+        <div className="grid md:grid-cols-2 gap-4">
+          <Link href="/medicare-supplement/new-jersey/cost" className="group block bg-white border border-gray-200 hover:border-blue-300 hover:shadow-md rounded-xl p-5 transition-all">
+            <p className="text-xs uppercase tracking-wide text-blue-700 font-semibold mb-1">Cost</p>
+            <h3 className="text-base font-bold text-gray-900 group-hover:text-blue-700 mb-1">How much does Medigap cost in NJ?</h3>
+            <p className="text-sm text-gray-600">Plan G rates by age, carrier comparison, and 2026 pricing for NJ zip codes.</p>
+          </Link>
+          <Link href="/medicare-supplement/new-jersey/plan-g-vs-plan-n" className="group block bg-white border border-gray-200 hover:border-blue-300 hover:shadow-md rounded-xl p-5 transition-all">
+            <p className="text-xs uppercase tracking-wide text-blue-700 font-semibold mb-1">Plan Choice</p>
+            <h3 className="text-base font-bold text-gray-900 group-hover:text-blue-700 mb-1">Plan G vs Plan N in New Jersey</h3>
+            <p className="text-sm text-gray-600">Side-by-side comparison: copays, premiums, and which is right for NJ retirees.</p>
+          </Link>
+          <Link href="/medicare-supplement/new-jersey/vs-medicare-advantage" className="group block bg-white border border-gray-200 hover:border-blue-300 hover:shadow-md rounded-xl p-5 transition-all">
+            <p className="text-xs uppercase tracking-wide text-blue-700 font-semibold mb-1">Medigap vs Advantage</p>
+            <h3 className="text-base font-bold text-gray-900 group-hover:text-blue-700 mb-1">Medigap vs Medicare Advantage in NJ</h3>
+            <p className="text-sm text-gray-600">Network access, out-of-pocket limits, and why NJ academic medical centers matter.</p>
+          </Link>
+          <Link href="/medicare-supplement/new-jersey/turning-65" className="group block bg-white border border-gray-200 hover:border-blue-300 hover:shadow-md rounded-xl p-5 transition-all">
+            <p className="text-xs uppercase tracking-wide text-blue-700 font-semibold mb-1">Turning 65</p>
+            <h3 className="text-base font-bold text-gray-900 group-hover:text-blue-700 mb-1">Turning 65 in New Jersey — your checklist</h3>
+            <p className="text-sm text-gray-600">Your 6-month Medigap window, what to sign up for, and NJ-specific deadlines.</p>
+          </Link>
+        </div>
+
+        {/* NJ-specific 2026 context — unique to the hub */}
+        <div className="mt-8 bg-amber-50 border border-amber-200 rounded-xl p-6">
+          <h3 className="text-lg font-bold text-gray-900 mb-3">What&apos;s Changed for NJ Medicare in 2026</h3>
+          <ul className="space-y-2 text-sm text-gray-700">
+            <li>• <strong>Part B premium:</strong> $185/month standard premium — up from $174.70 in 2025.</li>
+            <li>• <strong>Part B deductible:</strong> $257 — the one cost Plan G doesn&apos;t cover.</li>
+            <li>• <strong>Part A deductible:</strong> $1,676 per benefit period — Plan G covers this in full.</li>
+            <li>• <strong>Carrier activity in NJ:</strong> Most major carriers filed single-digit rate increases for 2026, though specific increases vary by birth year and enrollment month.</li>
+            <li>• <strong>Medigap OEP reminder:</strong> Your 6-month federal Open Enrollment window is the one chance to enroll in any plan with no health questions.</li>
+          </ul>
+        </div>
       </section>
 
       {/* FAQ */}

@@ -391,7 +391,7 @@ async function main() {
 
     try {
       const msg = await client.messages.create({
-        model: "claude-opus-4-6",
+        model: "claude-opus-4-7",
         max_tokens: 1024,
         messages: [{ role: "user", content: prompt }],
       });

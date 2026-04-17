@@ -245,7 +245,7 @@ GLOBAL RULES:
 Output in clean markdown with the section headers above. Each section should be clearly separated and copy-paste ready. Do NOT wrap the entire output in a code block.`;
 
   const msg = await client.messages.create({
-    model: "claude-opus-4-6",
+    model: "claude-opus-4-7",
     max_tokens: 3000,
     messages: [{ role: "user", content: prompt }],
   });

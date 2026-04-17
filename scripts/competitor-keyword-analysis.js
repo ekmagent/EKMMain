@@ -268,7 +268,7 @@ KEYWORDS:
 ${keywords.map((k, i) => `${i + 1}. "${k.keyword}" (from: ${k.source}, avgDA: ${k.avgDA}, minDA: ${k.minDA}, in competitor title: ${k.inCompetitorTitle})`).join("\n")}`;
 
   const msg = await anthropic.messages.create({
-    model: "claude-sonnet-4-20250514",
+    model: "claude-sonnet-4-6",
     max_tokens: 4096,
     messages: [{ role: "user", content: prompt }],
   });
