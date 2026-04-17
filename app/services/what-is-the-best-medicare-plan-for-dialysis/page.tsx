@@ -303,6 +303,7 @@ export default function BestMedicarePlanForDialysis() {
               </Link>
             </li>
 </ul>
+            <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/publications/10128-medicare-coverage-of-kidney-dialysis-kidney-transplant-services.pdf" rel="noopener noreferrer" target="_blank" className="underline">Medicare Coverage of Kidney Dialysis & Kidney Transplant Services (Medicare.gov PDF)</a> and <a href="https://www.medicare.gov/coverage/dialysis-services-supplies" rel="noopener noreferrer" target="_blank" className="underline">Dialysis Services & Supplies coverage details</a>.</div>
       </section>
     </main>
   );

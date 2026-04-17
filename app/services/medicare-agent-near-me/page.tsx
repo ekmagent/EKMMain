@@ -316,7 +316,9 @@ export default function MedicareAgentNearMePage() {
               </Link>
             </li>
 </ul>
-        </section>
+              <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/plan-compare/" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov Plan Finder</a> and <a href="https://www.medicare.gov/talk-to-someone" rel="noopener noreferrer" target="_blank" className="underline">Talk to Someone at Medicare.gov</a>.</div>
+            <div className="text-sm text-gray-600 mt-2">Free unbiased counseling is also available through <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">SHIP (State Health Insurance Assistance Program)</a>.</div>
+      </section>
       </article>
     </>
   );

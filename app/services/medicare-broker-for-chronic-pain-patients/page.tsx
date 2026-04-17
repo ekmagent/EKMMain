@@ -344,6 +344,7 @@ export default function MedicareBrokerForChronicPainPatients() {
               </Link>
             </li>
 </ul>
+            <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/coverage/chronic-pain-management-treatment-services" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Chronic Pain Management &amp; Treatment Services</a> and <a href="https://www.medicare.gov/coverage/pain-management" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Pain Management Coverage</a>.</div>
       </section>
     </main>
   );

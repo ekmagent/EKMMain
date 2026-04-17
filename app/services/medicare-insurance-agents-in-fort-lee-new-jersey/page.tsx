@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare insurance agents in fort lee new jersey | Free Broker Help | MedicareYourself",
   description:
-    "Medicare insurance agents in Fort Lee, New Jersey — Anthony Orner compares Medigap and Advantage plans from top carriers in Bergen County. Free quote.",
+    "Talk to a licensed Medicare broker in Fort Lee, NJ. Anthony Orner compares Medigap and Advantage plans from top carriers at no cost. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-insurance-agents-in-fort-lee-new-jersey" },
   openGraph: {
     title:
@@ -84,6 +84,26 @@ const faqs = [
     answer:
       "Nothing. Medicare brokers are compensated by insurance carriers when you enroll. You pay the same premium whether you use a broker or go directly to the carrier. There's no fee, no markup, and no obligation.",
   },
+,
+  {
+    question: "When can I enroll in a Medigap plan in New Jersey?",
+    answer:
+      "Your best window is the 6-month Medigap Open Enrollment Period that starts when you're 65 or older and enrolled in Part B. During this window, carriers cannot deny coverage or charge more based on health. New Jersey uses community rating, so Medigap premiums are not based on your individual age.",
+  },
+  {
+    question: "What does Medicare Part B cost in 2026?",
+    answer:
+      "The standard Part B premium is ];
+
+export default85 per month with an annual deductible of $257. Higher-income beneficiaries may pay more due to IRMAA adjustments. Part A has a ];
+
+export default,676 inpatient hospital deductible per benefit period for those who pay a premium or qualify premium-free.",
+  },
+  {
+    question: "Do Fort Lee doctors and hospitals accept Medicare?",
+    answer:
+      "Most providers in Bergen County accept Original Medicare, and many also participate in Medicare Advantage networks. If you choose a Medigap plan, you can see any provider nationwide who accepts Medicare. A broker can verify your specific doctors before you enroll.",
+  }
 ];
 
 export default function MedicareInsuranceAgentsFortLeeNJ() {
@@ -351,7 +371,8 @@ export default function MedicareInsuranceAgentsFortLeeNJ() {
               </Link>
             </li>
 </ul>
-        </section>
+              <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/basics/get-started-with-medicare" rel="noopener noreferrer" target="_blank" className="underline">Get Started with Medicare (Medicare.gov)</a> &middot; <a href="https://www.medicare.gov/plan-compare/" rel="noopener noreferrer" target="_blank" className="underline">Compare Plans on Medicare.gov</a> &middot; <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
+      </section>
       </article>
     </>
   );

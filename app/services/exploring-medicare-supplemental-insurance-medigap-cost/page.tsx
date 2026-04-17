@@ -326,6 +326,7 @@ export default function ExploringMedigapCostPage() {
             </Link>
           </li>
         </ul>
+            <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/health-drug-plans/medigap/basics/costs" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Medicare.gov — Get Medigap Costs</a> and <a href="https://www.medicare.gov/medigap-supplemental-insurance-plans/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Medicare.gov — Find Medigap Plans in Your Area</a>.</div>
       </section>
     </main>
   );

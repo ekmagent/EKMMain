@@ -292,7 +292,9 @@ export default function BestMedicareSupplementForPeopleOnDisability() {
               </Link>
             </li>
 </ul>
-        </section>
+              <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/health-drug-plans/medigap" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Medicare.gov — Medigap (Medicare Supplement) Plans</a> and <a href="https://www.medicare.gov/basics/get-started-with-medicare/medicare-basics/medicare-for-people-under-65" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Medicare for People Under 65 with Disabilities</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">Need state-specific help? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
+      </section>
       </article>
     </>
   );

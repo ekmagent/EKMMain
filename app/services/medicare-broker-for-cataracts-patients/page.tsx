@@ -319,6 +319,7 @@ export default function MedicareBrokerForCataractsPatients() {
               </Link>
             </li>
 </ul>
+            <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/coverage/cataract-surgery" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Cataract Surgery Coverage</a> and <a href="https://www.medicare.gov/coverage/eyeglasses-contact-lenses" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Eyeglasses &amp; Contact Lenses After Cataract Surgery</a>.</div>
       </section>
     </main>
   );

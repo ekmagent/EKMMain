@@ -308,7 +308,8 @@ export default function MedicareBrokerThyroidDisease() {
               </Link>
             </li>
 </ul>
-        </section>
+              <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/coverage/thyroid-cancer-screenings" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Thyroid-related coverage</a> and <a href="https://www.medicare.gov/drug-coverage-part-d" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Part D prescription drug coverage</a>.</div>
+      </section>
       </article>
     </>
   );

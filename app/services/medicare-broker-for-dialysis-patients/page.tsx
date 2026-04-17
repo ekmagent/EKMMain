@@ -84,6 +84,17 @@ const faqs = [
     answer:
       "Under Original Medicare, you're responsible for 20% of the Medicare-approved amount after meeting the Part B deductible ($283 in 2026). A Medigap policy, Medicaid, or employer coverage can pick up that cost share. Without secondary coverage, those bills add up fast at three sessions per week.",
   },
+,
+  {
+    question: "Does Medicare cover home dialysis training and equipment?",
+    answer:
+      "Yes. Medicare Part B covers home dialysis training, equipment, and supplies when you and a helper are trained by a Medicare-certified facility. If you start a home dialysis training program, your Medicare coverage can begin during the first month of dialysis instead of waiting until the fourth month.",
+  },
+  {
+    question: "What's the difference between Part A and Part B coverage for dialysis?",
+    answer:
+      "Under Original Medicare, Part A covers inpatient dialysis if you're admitted to a hospital for special care. Part B covers outpatient dialysis treatments at a dialysis facility or at home, along with certain dialysis drugs, lab tests, and supplies. You generally need both parts to get the full ESRD benefit.",
+  }
 ];
 
 export default function MedicareBrokerForDialysisPatients() {
@@ -326,6 +337,7 @@ export default function MedicareBrokerForDialysisPatients() {
               </Link>
             </li>
 </ul>
+            <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/coverage/dialysis-services-supplies" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Dialysis Services &amp; Supplies Coverage</a> and <a href="https://www.medicare.gov/basics/end-stage-renal-disease" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — End-Stage Renal Disease (ESRD)</a>.</div>
       </section>
     </main>
   );

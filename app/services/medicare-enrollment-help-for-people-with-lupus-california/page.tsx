@@ -84,6 +84,12 @@ const faqs = [
     answer:
       "California requires Medigap carriers to offer at least two standardized plans to Medicare beneficiaries under 65 on SSDI. You'll want to apply during your Medigap Open Enrollment Period, which starts the month you turn 65 and enroll in Part B. Under-65 rules differ, so call us to confirm your options.",
   },
+,
+  {
+    question: "Does Medicare cover rheumatologist visits for lupus management?",
+    answer:
+      "Yes. Medicare Part B covers medically necessary visits to rheumatologists and other specialists who accept Medicare. After meeting the 2026 Part B deductible of $257, you typically pay 20% of the Medicare-approved amount unless you have supplemental coverage that reduces your cost share.",
+  }
 ];
 
 export default function MedicareEnrollmentHelpLupusCalifornia() {
@@ -342,6 +348,8 @@ export default function MedicareEnrollmentHelpLupusCalifornia() {
               </Link>
             </li>
 </ul>
+            <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/basics/get-started-with-medicare/sign-up/when-does-medicare-coverage-start" rel="noopener noreferrer" target="_blank" className="underline">When Medicare coverage starts (Medicare.gov)</a> · <a href="https://www.medicare.gov/basics/costs/medicare-costs" rel="noopener noreferrer" target="_blank" className="underline">2026 Medicare costs</a></div>
+            <div className="text-sm text-gray-600 mt-2">California residents: Get free local Medicare counseling through <a href="https://aging.ca.gov/hicap/" rel="noopener noreferrer" target="_blank" className="underline">California's Health Insurance Counseling and Advocacy Program (HICAP)</a>.</div>
       </section>
     </main>
   );

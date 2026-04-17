@@ -146,6 +146,7 @@ export default function ContactPage() {
           <h1 className="text-4xl font-black tracking-tight text-[#1C2B27] mb-3">
             Let&rsquo;s Find Your Plan
           </h1>
+        <p className="text-sm text-gray-500 mt-2">By <strong>Anthony Orner</strong>, Licensed Medicare Insurance Broker — NJ &amp; 34 states</p>
           <p className="text-[#3A5048] leading-relaxed">
             Tell us a little about yourself and your advisor will reach out with your best options —
             usually within the hour.
@@ -166,6 +167,8 @@ export default function ContactPage() {
         </div>
 
       </div>
-    </section>
+          <div className="text-sm text-gray-600 mt-4">Official Medicare resources: <a href="https://www.medicare.gov/talk-to-someone" rel="noopener noreferrer" target="_blank" className="underline">Talk to Someone at Medicare.gov</a> · <a href="https://www.medicare.gov/about-us/contact-medicare" rel="noopener noreferrer" target="_blank" className="underline">Contact Medicare</a></div>
+            <div className="text-sm text-gray-600 mt-2">New Jersey residents can also get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+      </section>
   );
 }

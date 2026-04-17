@@ -307,6 +307,7 @@ export default function MedicareBrokerForTransplantRecipients() {
             </Link>
           </li>
         </ul>
+            <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/coverage/organ-transplants" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Organ Transplant Coverage</a> and <a href="https://www.medicare.gov/coverage/immunosuppressive-drugs" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Immunosuppressive Drug Coverage (Part B-ID)</a>.</div>
       </section>
     </main>
   );

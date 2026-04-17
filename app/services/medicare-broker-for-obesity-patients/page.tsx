@@ -305,7 +305,8 @@ export default function MedicareBrokerForObesityPatients() {
               </Link>
             </li>
 </ul>
-        </section>
+              <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/coverage/obesity-behavioral-therapy" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Obesity Behavioral Therapy Coverage</a> and <a href="https://www.medicare.gov/coverage/bariatric-surgery" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Bariatric Surgery Coverage</a>.</div>
+      </section>
       </article>
     </>
   );

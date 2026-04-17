@@ -338,7 +338,8 @@ export default function MedicareSupplementSeniorsTurning65() {
               </Link>
             </li>
 </ul>
-        </section>
+              <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/health-drug-plans/medigap/basics" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">Medigap Basics (Medicare.gov)</a> and <a href="https://www.medicare.gov/basics/get-started-with-medicare" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">Get Started With Medicare</a>.</div>
+      </section>
       </article>
     </>
   );

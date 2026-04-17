@@ -304,6 +304,7 @@ export default function LocalMedicareAgentsWestNewYorkNJ() {
               </Link>
             </li>
 </ul>
+            <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/plan-compare" rel="noopener noreferrer" target="_blank" className="underline">Compare Medicare plans on Medicare.gov</a> or review the <a href="https://www.medicare.gov/Pubs/pdf/10050-medicare-and-you.pdf" rel="noopener noreferrer" target="_blank" className="underline">official Medicare &amp; You handbook (CMS)</a>. For NJ-specific counseling, visit the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey SHIP program</a>.</div>
       </section>
     </main>
   );

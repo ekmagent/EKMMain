@@ -289,6 +289,7 @@ export default function HowToEnrollInMedicareInNewJersey() {
               </Link>
             </li>
 </ul>
+            <div className="text-sm text-gray-600 mt-4">Need free NJ counseling? Visit the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
     </main>
   );

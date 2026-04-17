@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare Enrollment Help for People With Diabetes | Free Guidance | MedicareYourself",
   description:
-    "Medicare enrollment help for people with diabetes in NJ. Learn which plans cover insulin, CGMs, and supplies. Enroll even with pre-existing conditions. Free help.",
+    "Medicare enrollment help for people with diabetes. Learn which plans cover insulin, CGMs, and supplies—even with pre-existing conditions. Call for free help.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-enrollment-help-for-people-with-diabetes" },
   openGraph: {
     title:
@@ -85,6 +85,17 @@ const faqs = [
     answer:
       "Medicare Part B covers the Medicare Diabetes Prevention Program for people at risk of type 2 diabetes, diabetes self-management training, therapeutic shoes and inserts, blood sugar monitors and test strips, and glaucoma screenings. Many of these preventive services have no cost-sharing if your doctor accepts Medicare assignment.",
   },
+,
+  {
+    question: "How much does insulin cost under Medicare in 2026?",
+    answer:
+      "Under the Inflation Reduction Act, covered insulin is capped at $35 for a one-month supply under Medicare Part D and Part B. There is no deductible for covered insulin under Part D. Your specific insulin must be on your plan's formulary, so check before enrolling.",
+  },
+  {
+    question: "Does Medicare cover diabetes self-management training?",
+    answer:
+      "Yes. Medicare Part B covers diabetes self-management training (DSMT) for beneficiaries recently diagnosed with diabetes or at risk for complications. You'll need a written referral from the doctor treating your diabetes. After meeting the Part B deductible ($257 in 2026), you typically pay 20% of the Medicare-approved amount.",
+  }
 ];
 
 export default function MedicareEnrollmentHelpDiabetes() {
@@ -363,7 +374,8 @@ export default function MedicareEnrollmentHelpDiabetes() {
               </Link>
             </li>
 </ul>
-        </section>
+              <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/coverage/medicare-diabetes-prevention-program" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Medicare Diabetes Prevention Program (Medicare.gov)</a> and <a href="https://www.medicare.gov/coverage/continuous-glucose-monitors" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">CGM coverage under Part B</a>.</div>
+      </section>
       </article>
     </>
   );

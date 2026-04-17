@@ -267,6 +267,7 @@ export default function MedicareBrokerForCancerSurvivors() {
             </Link>
           </li>
         </ul>
+            <div className="text-sm text-gray-600 mt-4"><p>Official resources: <a href="https://www.medicare.gov/publications/11931-medicare-coverage-of-cancer-treatment-services.pdf" rel="noopener noreferrer" target="_blank" className="underline">Medicare Coverage of Cancer Treatment Services (Medicare.gov PDF)</a> and <a href="https://www.medicare.gov/coverage/chemotherapy" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov: Chemotherapy Coverage</a>.</p></div>
       </section>
     </main>
   );

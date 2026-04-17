@@ -336,6 +336,7 @@ export default function MedicareBrokerForPeopleWithDiabetes() {
               </Link>
             </li>
 </ul>
+            <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/coverage/continuous-glucose-monitors" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Continuous Glucose Monitor coverage</a> and <a href="https://www.medicare.gov/coverage/diabetes-supplies-services" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Diabetes supplies &amp; services</a>.</div>
       </section>
     </>
   );

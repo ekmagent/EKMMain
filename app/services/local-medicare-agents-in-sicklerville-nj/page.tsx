@@ -332,7 +332,9 @@ export default function LocalMedicareAgentsSicklerville() {
               </Link>
             </li>
 </ul>
-        </section>
+              <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/plan-compare/" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">Medicare.gov Plan Compare</a> and <a href="https://www.cms.gov/medicare/enrollment-renewal/health-plans/eligibility" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">CMS Medicare Eligibility</a>.</div>
+            <div className="text-sm text-gray-600 mt-2">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free unbiased Medicare counseling.</div>
+      </section>
       </article>
     </>
   );

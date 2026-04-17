@@ -7,7 +7,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "MedicareYourself | Medicare Insurance Broker",
   description:
-    "Independent Medicare insurance broker in NJ. Compare Medigap and Medicare Advantage plans at no cost to you. Call 855-559-1700.",
+    "Independent Medicare broker licensed in NJ & 34 states. Compare Medigap and Medicare Advantage plans at no cost. Call 855-559-1700 for free help.",
   alternates: { canonical: SITE_URL },
   openGraph: {
     title: "MedicareYourself | Medicare Insurance Broker",
@@ -60,6 +60,7 @@ export default function HomePage() {
             Medicare Made<br />
             <span className="text-[#2D6E5F]">Simple.</span>
           </h1>
+        <p className="text-sm text-gray-500 mt-2">By <strong>Anthony Orner</strong>, Licensed Medicare Insurance Broker — NJ &amp; 34 states</p>
           <p className="text-lg text-[#3A5048] mb-10 max-w-xl mx-auto leading-relaxed">
             Enter your zip code and we'll show you what plans are available in your area —
             no pressure, no obligation, completely free.
@@ -198,6 +199,8 @@ export default function HomePage() {
           </a>
           <p className="mt-4 text-sm text-[#3A5048]">No obligation. No pressure. Just clear answers.</p>
         </div>
+            <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov</a> · <a href="https://www.ssa.gov/medicare" rel="noopener noreferrer" target="_blank" className="underline">Social Security Medicare enrollment</a></div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </>
   );

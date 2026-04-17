@@ -309,6 +309,7 @@ export default function MedicareBrokerForDementiaPatients() {
               </Link>
             </li>
 </ul>
+            <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/coverage/home-health-services" rel="noopener noreferrer" target="_blank" className="underline">Medicare home health coverage (Medicare.gov)</a> and <a href="https://www.cms.gov/priorities/innovation/innovation-models/guide" rel="noopener noreferrer" target="_blank" className="underline">CMS GUIDE Model for dementia care</a>.</div>
       </section>
     </main>
   );

@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Best Medicare Advantage Plans in NJ 2026",
   description:
-    "Compare Medicare Advantage plans in New Jersey. $0 premiums, drug coverage, dental and vision benefits. Call 855-559-1700.",
+    "Compare 2026 Medicare Advantage plans in New Jersey with $0 premium options, drug, dental and vision benefits. Call 855-559-1700 for free local help.",
   alternates: { canonical: `${SITE_URL}/medicare-advantage/new-jersey` },
   openGraph: {
     title: "Best Medicare Advantage Plans in NJ 2026",
@@ -75,6 +75,7 @@ export default function NJMedicareAdvantagePage() {
             <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">
               Best Medicare Advantage Plans in New Jersey (2026)
             </h1>
+        <p className="text-sm text-gray-500 mt-2">By <strong>Anthony Orner</strong>, Licensed Medicare Insurance Broker — NJ &amp; 34 states</p>
             <p className="text-lg text-gray-600 leading-relaxed mb-6">
               <strong>The short answer:</strong> New Jersey has competitive Medicare Advantage options
               with several $0 premium plans available in most counties, including drug, dental, and vision
@@ -139,6 +140,8 @@ export default function NJMedicareAdvantagePage() {
           </p>
           <PhoneCTA size="lg" label="Get Your NJ MA Comparison" />
         </div>
+            <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/plan-compare" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Medicare.gov Plan Compare</a> and <a href="https://www.medicare.gov/basics/get-started-with-medicare/medicare-basics/parts-of-medicare" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Parts of Medicare</a>.</div>
+            <div className="text-sm text-gray-600 mt-2">New Jersey help: <a href="https://www.nj.gov/humanservices/doas/services/ship/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">NJ State Health Insurance Assistance Program (SHIP)</a> offers free Medicare counseling.</div>
       </section>
     </>
   );

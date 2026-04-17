@@ -403,7 +403,8 @@ export default function MedicareBrokerForPeopleWithAsthma() {
               </Link>
             </li>
 </ul>
-        </section>
+              <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/coverage/pulmonary-rehabilitation-programs" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Pulmonary Rehabilitation Coverage</a> and <a href="https://www.medicare.gov/basics/costs/medicare-costs" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — 2026 Costs at a Glance</a>.</div>
+      </section>
       </article>
     </>
   );

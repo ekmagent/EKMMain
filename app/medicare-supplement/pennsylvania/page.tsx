@@ -118,6 +118,7 @@ export default function PennsylvaniaMedigapPage() {
         <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">
           Best Medicare Supplement Plans in Pennsylvania (2026)
         </h1>
+        <p className="text-sm text-gray-500 mt-2">By <strong>Anthony Orner</strong>, Licensed Medicare Insurance Broker — NJ &amp; 34 states</p>
         <p className="text-xs text-gray-400 mb-8">Last reviewed: March 2026 · Sources: CMS.gov, Pennsylvania Insurance Department</p>
 
         <div className="bg-amber-50 border border-amber-200 rounded-xl p-5 mb-8">

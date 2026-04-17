@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare broker for people with lupus | Free Coverage Guidance | MedicareYourself",
   description:
-    "Medicare broker for people with lupus — Anthony Orner helps lupus patients find coverage through underwriting-friendly carriers or guaranteed issue. Free consult.",
+    "Medicare broker for people with lupus — Anthony Orner helps patients find coverage through underwriting-friendly carriers or guaranteed issue. Free consult.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-people-with-lupus" },
   openGraph: {
     title:
@@ -306,7 +306,8 @@ export default function MedicareBrokerForPeopleWithLupus() {
               </Link>
             </li>
 </ul>
-        </section>
+              <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/what-medicare-covers" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">What Medicare covers (Medicare.gov)</a> and <a href="https://www.cms.gov/medicare/coverage/coverage-general-information" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">CMS coverage information</a>.</div>
+      </section>
       </article>
     </>
   );

@@ -313,6 +313,7 @@ export default function HowCanISaveMoneyOnMyMedicareSupplement() {
             </Link>
           </li>
         </ul>
+            <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/basics/costs/help/medicare-savings-programs" rel="noopener noreferrer" target="_blank" className="underline">Medicare Savings Programs (Medicare.gov)</a> &middot; <a href="https://www.medicare.gov/basics/costs/help" rel="noopener noreferrer" target="_blank" className="underline">Get help with Medicare costs</a></div>
       </section>
     </main>
   );

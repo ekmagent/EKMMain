@@ -284,7 +284,9 @@ export default function MedicareAgentPreExistingConditionsCA() {
               </Link>
             </li>
 </ul>
-        </section>
+              <div className="text-sm text-gray-600 mt-4"><p className="font-semibold mb-2">Official Medicare Resources:</p><ul className="list-disc pl-5 space-y-1"><li><a href="https://www.medicare.gov/health-drug-plans/medigap/basics/when-to-buy" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Medicare.gov: When can I buy Medigap?</a></li><li><a href="https://www.medicare.gov/basics/get-started-with-medicare/medicare-basics/parts-of-medicare" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Medicare.gov: Parts of Medicare</a></li></ul></div>
+            <div className="text-sm text-gray-600 mt-4"><p>California residents can get free, unbiased counseling through <a href="https://www.aging.ca.gov/HICAP/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">HICAP (California's SHIP program)</a> or file insurance questions with the <a href="https://www.insurance.ca.gov/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">California Department of Insurance</a>.</p></div>
+      </section>
       </article>
     </>
   );

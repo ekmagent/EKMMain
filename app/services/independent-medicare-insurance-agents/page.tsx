@@ -306,6 +306,7 @@ export default function IndependentMedicareInsuranceAgentsPage() {
               </Link>
             </li>
 </ul>
+            <div className="text-sm text-gray-600 mt-4">Official Medicare resources: <a href="https://www.medicare.gov/plan-compare" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">Medicare.gov Plan Finder</a> and <a href="https://www.medicare.gov/talk-to-someone" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">Medicare.gov: Talk to Someone</a>.</div>
       </section>
     </>
   );

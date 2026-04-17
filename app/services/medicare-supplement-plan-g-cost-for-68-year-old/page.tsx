@@ -288,6 +288,7 @@ export default function MedicareSupplementPlanGCostFor68YearOld() {
             </Link>
           </li>
         </ul>
+            <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/health-drug-plans/medigap/basics/costs" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — How Medigap Costs Are Set</a> and <a href="https://www.medicare.gov/plan-compare/" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov Plan Compare Tool</a>.</div>
       </section>
     </main>
   );

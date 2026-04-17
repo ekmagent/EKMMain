@@ -270,6 +270,7 @@ export default function HowLongMedigapApproval() {
             </Link>
           </li>
         </ul>
+            <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/health-drug-plans/medigap" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Medigap (Medicare Supplement Insurance)</a> and <a href="https://www.medicare.gov/basics/get-started-with-medicare/whats-next" rel="noopener noreferrer" target="_blank" className="underline">What's next after signing up for Medicare</a>.</div>
       </section>
     </main>
   );

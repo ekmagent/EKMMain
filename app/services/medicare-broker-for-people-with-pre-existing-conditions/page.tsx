@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare broker for people with pre-existing conditions | Free Guidance | MedicareYourself",
   description:
-    "Medicare broker for people with pre-existing conditions — learn which plans skip health questions and which carriers are lenient. Free help from Anthony Orner.",
+    "Medicare broker for people with pre-existing conditions — know which carriers underwrite leniently and when health questions don't apply. Free help: 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-people-with-pre-existing-conditions" },
   openGraph: {
     title:
@@ -87,6 +87,22 @@ const faqs = [
     answer:
       "You still have options. Some carriers are more lenient with underwriting than others, and certain life events trigger federal guaranteed issue rights that bypass health questions. A broker who knows which carriers accept specific conditions can save you from wasting time on applications that won't get approved.",
   },
+,
+  {
+    question: "Are Medicare Advantage plans available if I have pre-existing conditions?",
+    answer:
+      "Yes. Medicare Advantage plans cannot deny enrollment based on pre-existing conditions, with the historical exception of End-Stage Renal Disease (ESRD), which changed in 2021 — ESRD patients can now enroll in Medicare Advantage plans. You can join during your Initial Enrollment Period, Annual Enrollment (Oct 15–Dec 7), or certain Special Enrollment Periods.",
+  },
+  {
+    question: "Do Medicare Part D drug plans use medical underwriting?",
+    answer:
+      "No. Medicare Part D prescription drug plans are guaranteed issue during valid enrollment periods and do not ask health questions. Your current medications and conditions will not affect your ability to enroll, though they should factor into which plan's formulary you choose.",
+  },
+  {
+    question: "Can switching Medigap plans trigger underwriting if I have health issues?",
+    answer:
+      "In most states, yes. If you already have a Medigap plan and want to switch to a different one outside a protected enrollment window, the new carrier can typically require medical underwriting. A few states have birthday rules or annual switch windows that allow changes without health questions, so the rules depend on where you live.",
+  }
 ];
 
 export default function MedicareBrokerPreExistingConditions() {
@@ -276,6 +292,7 @@ export default function MedicareBrokerPreExistingConditions() {
             </Link>
           </li>
         </ul>
+            <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/health-drug-plans/medigap/basics/ready-to-buy" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — When to buy Medigap</a> and <a href="https://www.medicare.gov/basics/get-started-with-medicare/sign-up/when-does-medicare-coverage-start" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Guaranteed issue rights</a>.</div>
       </section>
     </main>
   );

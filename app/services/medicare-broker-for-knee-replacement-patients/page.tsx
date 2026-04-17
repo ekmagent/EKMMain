@@ -294,6 +294,7 @@ export default function MedicareBrokerKneReplacementPage() {
             </Link>
           </li>
         </ul>
+            <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/coverage/knee-replacement" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Knee Replacement Coverage</a> and <a href="https://www.medicare.gov/coverage/inpatient-hospital-care" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Inpatient Hospital Care</a>.</div>
       </section>
     </main>
   );

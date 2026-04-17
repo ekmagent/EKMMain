@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Switch Medigap Carriers, Same Plan G (2026)",
   description:
-    "Got a Plan G rate increase? Switch to a cheaper carrier with identical coverage. Free help comparing carriers in NJ and PA.",
+    "Got a Plan G rate increase? Switch carriers and keep identical coverage at a lower premium. Free comparison help in NJ and 34 states — call today.",
   alternates: { canonical: `${SITE_URL}/medicare-supplement/switch-carriers` },
   openGraph: {
     title: "Switch Medigap Carriers, Same Plan G (2026)",
@@ -77,6 +77,17 @@ const faqs = [
     answer:
       "Yes, but it requires careful timing. If you have been on Medicare Advantage for less than 12 months and had a Medigap plan before enrolling, you may have a trial right to return to your old Medigap plan. Outside that window, you can apply for Medigap during Medicare Advantage Open Enrollment (January 1 – March 31) or during your Special Enrollment Period, but most states allow carriers to use medical underwriting. Talk to a broker before making this switch.",
   },
+,
+  {
+    question: "Will I have to answer health questions to switch carriers?",
+    answer:
+      "In most states, yes — once your 6-month Medigap Open Enrollment Period ends, carriers can use medical underwriting to approve or decline your application. Certain guaranteed issue situations (like your plan leaving the market or moving out of the service area) let you switch without health questions. A few states, such as New York and Connecticut, allow year-round switching without underwriting. Your broker can confirm the rules that apply in your state.",
+  },
+  {
+    question: "Should I cancel my old Medigap plan before the new one starts?",
+    answer:
+      "No — never cancel your existing policy until the new carrier has approved your application and confirmed an effective date. Medicare allows a 30-day free look period where you can try the new plan while keeping the old one, then cancel the old policy once you are satisfied. This protects you from any gap in coverage if something unexpected happens during the switch.",
+  }
 ];
 
 export default function SwitchCarriersPage() {
@@ -299,6 +310,8 @@ export default function SwitchCarriersPage() {
             <Link href="/services/how-can-i-save-money-on-my-medicare-supplement" className="text-blue-600 hover:underline">How to Save Money on Your Supplement</Link>
           </div>
         </div>
+            <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/health-drug-plans/medigap/ready-to-buy/change-policies/switch-drop" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Medicare.gov – Switching or Dropping a Medigap Policy</a> · <a href="https://www.medicare.gov/health-drug-plans/medigap/basics/when-to-get" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Medigap Open Enrollment Period</a></div>
+            <div className="text-sm text-gray-600 mt-4">State help: <a href="https://www.nj.gov/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a> — confirms carrier rates and any state-specific Medigap switching rules.</div>
       </section>
     </>
   );

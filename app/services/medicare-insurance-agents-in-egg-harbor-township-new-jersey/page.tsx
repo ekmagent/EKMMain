@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare insurance agents in egg harbor township new jersey | Free Quotes | MedicareYourself",
   description:
-    "Medicare insurance agents in Egg Harbor Township, NJ who compare every top carrier. Anthony Orner offers free, unbiased broker help. Get your quote now.",
+    "Compare every top Medicare carrier in Egg Harbor Township, NJ with independent broker Anthony Orner. Free, unbiased help — call 855-559-1700 for a quote today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-insurance-agents-in-egg-harbor-township-new-jersey" },
   openGraph: {
     title:
@@ -85,6 +85,21 @@ const faqs = [
     answer:
       "Reach out about six months before your Part B effective date. This gives you time to compare Medigap and Advantage options, lock in your Medigap Open Enrollment rights, and avoid gaps in coverage.",
   },
+,
+  {
+    question: "How much does Medicare Part B cost in 2026?",
+    answer:
+      "The standard Part B premium is ];
+
+export default85 per month in 2026, with an annual deductible of $257. Higher-income beneficiaries may pay more through IRMAA adjustments. The Part A hospital deductible is ];
+
+export default,676 per benefit period.",
+  },
+  {
+    question: "Does New Jersey use community rating for Medigap?",
+    answer:
+      "Yes. New Jersey uses community rating for Medigap, meaning premiums are generally the same regardless of your age within a given plan and carrier. Your strongest rights to enroll without medical underwriting occur during your 6-month Medigap Open Enrollment Period that begins when you're 65 and enrolled in Part B.",
+  }
 ];
 
 export default function MedicareInsuranceAgentsEggHarborTownshipNJ() {
@@ -293,6 +308,8 @@ export default function MedicareInsuranceAgentsEggHarborTownshipNJ() {
               </Link>
             </li>
 </ul>
+            <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/plan-compare" rel="noopener noreferrer" target="_blank" className="underline">Compare Medicare plans on Medicare.gov</a> and learn about <a href="https://www.medicare.gov/basics/get-started-with-medicare/get-more-coverage/how-to-get-prescription-drug-coverage" rel="noopener noreferrer" target="_blank" className="underline">Part D prescription drug coverage</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </>
   );

@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Turning 65 in NJ | Medicare Checklist",
   description:
-    "Turning 65 in New Jersey? Medicare enrollment timeline, Medigap open enrollment, and Part D deadlines for 2026. Call 855-559-1700.",
+    "Turning 65 in NJ? Get your Medicare enrollment timeline, Medigap open enrollment window, and Part D deadlines for 2026. Call 855-559-1700 for free guidance.",
   alternates: { canonical: `${SITE_URL}/medicare-supplement/new-jersey/turning-65` },
   openGraph: {
     title: "Turning 65 in NJ | Medicare Checklist",
@@ -80,6 +80,7 @@ export default function Turning65NJPage() {
         <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">
           Turning 65 in New Jersey: Your Complete Medicare Checklist (2026)
         </h1>
+        <p className="text-sm text-gray-500 mt-2">By <strong>Anthony Orner</strong>, Licensed Medicare Insurance Broker — NJ &amp; 34 states</p>
         <p className="text-xs text-gray-400 mb-6">Last reviewed: March 2026 · Sources: SSA.gov, CMS.gov, NJ DOBI</p>
 
         <div className="bg-green-50 border border-green-100 rounded-xl p-5 mb-8">

@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "How to Sign Up for Medicare (2026 Guide)",
   description:
-    "Learn Medicare enrollment windows, how to avoid late penalties, and what happens if you miss your deadline. Free help: 855-559-1700.",
+    "Step-by-step 2026 Medicare sign-up guide: enrollment windows, how to avoid late penalties, and what to do at 65. Free expert help at 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/how-to-sign-up-for-medicare` },
   openGraph: {
     title: "How to Sign Up for Medicare (2026 Guide)",
@@ -109,6 +109,22 @@ const faqs = [
     answer:
       "Call a broker during the same window you enroll in Medicare — ideally 2–3 months before you turn 65. Your 6-month Medigap Open Enrollment Period starts the month you are both 65 and enrolled in Part B. Enrolling in a supplement during this window means no carrier can deny you or charge extra based on health. After this window, your options may be more limited.",
   },
+,
+  {
+    question: "When should I apply for Medicare if I'm not automatically enrolled?",
+    answer:
+      "You can apply up to 3 months before the month you turn 65 through ssa.gov/medicare. Applying early helps ensure your coverage starts the first day of your birthday month. If you miss your Initial Enrollment Period, you may face late penalties and have to wait for the General Enrollment Period (January 1–March 31).",
+  },
+  {
+    question: "How do I sign up for Medicare Part B if I already have Part A?",
+    answer:
+      "If you already have Part A and want to add Part B, you'll need to complete form CMS-40B and submit it to Social Security. If you delayed Part B due to employer coverage, you'll also need form CMS-L564 from your employer to qualify for a Special Enrollment Period. Call 855-559-1700 for free help walking through the process.",
+  },
+  {
+    question: "Is there a penalty for signing up for Medicare late?",
+    answer:
+      "Yes. If you don't enroll in Part B when first eligible and don't have creditable coverage, your premium increases 10% for each 12-month period you could have had Part B. This penalty is permanent and added to your monthly premium for life. The Part D late enrollment penalty is 1% of the national base premium per month you went without creditable drug coverage.",
+  }
 ];
 
 export default function HowToSignUpPage() {

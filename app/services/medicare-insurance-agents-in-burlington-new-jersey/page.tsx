@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare insurance agents in burlington new jersey | Free Local Help | MedicareYourself",
   description:
-    "Medicare insurance agents in Burlington, New Jersey — Anthony Orner is a licensed independent broker comparing plans across carriers. Free consultation, no obligation.",
+    "Medicare insurance agents in Burlington, NJ — Anthony Orner, licensed independent broker, compares plans across carriers. Free consultation, no obligation.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-insurance-agents-in-burlington-new-jersey" },
   openGraph: {
     title:
@@ -331,6 +331,8 @@ export default function MedicareInsuranceAgentsBurlingtonNJ() {
               </Link>
             </li>
 </ul>
+            <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/plan-compare" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov Plan Finder</a> and <a href="https://www.cms.gov/medicare/enrollment-renewal/health-plans" rel="noopener noreferrer" target="_blank" className="underline">CMS Medicare Enrollment</a>.</div>
+            <div className="text-sm text-gray-600 mt-2">New Jersey residents can also get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> or the <a href="https://www.nj.gov/dobi/" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a>.</div>
       </section>
     </>
   );

@@ -344,7 +344,8 @@ export default function MedicareBrokerForBackPainSufferers() {
               </Link>
             </li>
 </ul>
-        </section>
+              <div className="text-sm text-gray-600 mt-4">Learn more from official sources: <a href="https://www.medicare.gov/coverage/acupuncture" target="_blank" rel="noopener noreferrer" className="underline">Medicare.gov — Acupuncture for chronic low back pain</a> and <a href="https://www.medicare.gov/coverage/physical-therapy" target="_blank" rel="noopener noreferrer" className="underline">Medicare.gov — Physical therapy coverage</a>.</div>
+      </section>
       </article>
     </>
   );

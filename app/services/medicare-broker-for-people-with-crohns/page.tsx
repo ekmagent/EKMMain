@@ -347,7 +347,8 @@ export default function MedicareBrokerForPeopleWithCrohns() {
               </Link>
             </li>
 </ul>
-        </section>
+              <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/drug-coverage-part-d" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Part D Drug Coverage</a> and <a href="https://www.medicare.gov/basics/costs/medicare-costs" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — 2026 Costs at a Glance</a>.</div>
+      </section>
 
         <p className="text-sm text-gray-500 mt-8">
           Written by Anthony Orner, Licensed Medicare Broker | EasyKind Medicare

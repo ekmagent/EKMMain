@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "plan g rates for 70 year old in new jersey | Free Quote in Minutes | MedicareYourself",
   description:
-    "Plan G rates for 70-year-olds in New Jersey vary widely by carrier. Compare real NJ premiums side by side. Get a free quote from a licensed local broker.",
+    "Compare 2026 Plan G rates for 70-year-olds in New Jersey across top carriers. Community-rated pricing, side-by-side quotes. Call 855-559-1700 for free help.",
   alternates: { canonical: "https://medicareyourself.com/services/plan-g-rates-for-70-year-old-in-new-jersey" },
   openGraph: {
     title:
@@ -84,6 +84,24 @@ const faqs = [
     answer:
       "Yes. New Jersey has a yearly 30-day open enrollment window around your Medigap policy anniversary. You can also switch anytime if you pass medical underwriting. A licensed broker can help you find the right timing and carrier.",
   },
+,
+  {
+    question: "Does New Jersey use community rating for Plan G?",
+    answer:
+      "New Jersey uses community rating for Medigap, which means carriers charge the same premium to everyone with the same plan in a given area regardless of age. However, premiums still vary significantly between carriers, so comparing companies is the most important step. Pricing can also change based on ZIP code and carrier household discounts.",
+  },
+  {
+    question: "When can a 70-year-old in NJ enroll in Plan G without underwriting?",
+    answer:
+      "The federal 6-month Medigap Open Enrollment Period begins when you are 65 or older and enrolled in Part B, giving you guaranteed issue rights. Outside that window, a 70-year-old typically needs to answer health questions to switch Plan G carriers unless a specific guaranteed issue situation applies. A licensed broker can review whether you qualify for any current protections.",
+  },
+  {
+    question: "What does Plan G cover at age 70 in New Jersey?",
+    answer:
+      "Plan G covers the Part A ];
+
+export default,676 hospital deductible, Part A coinsurance, Part B coinsurance, skilled nursing coinsurance, and excess charges. You are only responsible for the annual Part B deductible of $257 in 2026. After that, approved Medicare services are generally covered in full.",
+  }
 ];
 
 export default function PlanGRates70NJ() {
@@ -324,7 +342,9 @@ export default function PlanGRates70NJ() {
               </Link>
             </li>
 </ul>
-        </section>
+              <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/health-drug-plans/medigap/basics/costs" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Medicare.gov — How Medigap Costs Are Set</a> and <a href="https://www.state.nj.us/dobi/division_insurance/ihcseh/medsupp.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking & Insurance — Medicare Supplement Information</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">Free one-on-one counseling is available through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">New Jersey SHIP (State Health Insurance Assistance Program)</a>.</div>
+      </section>
       </article>
     </>
   );

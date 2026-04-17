@@ -283,6 +283,7 @@ export default function MedicareBrokerForLupusPatients() {
               </Link>
             </li>
 </ul>
+            <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/coverage/infusion-pumps-supplies" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Infused drug coverage</a> · <a href="https://www.medicare.gov/basics/get-started-with-medicare/medicare-basics/parts-of-medicare" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Parts of Medicare</a> · <a href="https://www.state.nj.us/dobi/division_insurance/ship/shipindex.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP — Free Medicare counseling</a></div>
       </section>
     </main>
   );

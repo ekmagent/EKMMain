@@ -32,6 +32,7 @@ export default function ToolsLogin() {
     <div style={{ minHeight: "100vh", display: "flex", alignItems: "center", justifyContent: "center", background: "#0a0a0a" }}>
       <form onSubmit={handleSubmit} style={{ background: "#1a1a1a", padding: "2rem", borderRadius: "12px", width: "100%", maxWidth: "360px", border: "1px solid #333" }}>
         <h1 style={{ color: "#fff", fontSize: "1.25rem", marginBottom: "0.5rem" }}>Internal Tools</h1>
+        <p className="text-sm text-gray-500 mt-2">By <strong>Anthony Orner</strong>, Licensed Medicare Insurance Broker — NJ &amp; 34 states</p>
         <p style={{ color: "#888", fontSize: "0.875rem", marginBottom: "1.5rem" }}>Enter password to continue</p>
 
         <input

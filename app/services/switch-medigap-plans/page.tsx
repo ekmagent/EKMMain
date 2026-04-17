@@ -738,6 +738,7 @@ export default function SwitchMedigapPlansPage() {
             </Link>
           </div>
         </div>
+            <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/health-drug-plans/medigap/ready-to-buy/change-policies" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Medicare.gov — Can I change my Medigap policy?</a> and <a href="https://www.medicare.gov/health-drug-plans/medigap/ready-to-buy/change-policies/switch-drop" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Medicare.gov — Switch or drop your Medigap policy</a>.</div>
       </section>
     </>
   );

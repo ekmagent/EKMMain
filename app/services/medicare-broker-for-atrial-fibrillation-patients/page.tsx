@@ -312,7 +312,9 @@ export default function MedicareBrokerForAtrialFibrillationPatients() {
               </Link>
             </li>
 </ul>
-        </section>
+              <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/coverage/cardiovascular-disease-screenings" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Medicare.gov — Cardiovascular Disease Screenings</a> and <a href="https://www.medicare.gov/coverage/prescription-drugs-outpatient" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Medicare.gov — Prescription Drug Coverage</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
+      </section>
       </article>
     </>
   );

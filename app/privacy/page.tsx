@@ -5,7 +5,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Privacy Policy",
   description:
-    "How MedicareYourself collects, uses, and protects your personal information when you use our website or request Medicare plan quotes.",
+    "Read how MedicareYourself protects your personal information when you request plan quotes. Questions? Call a licensed broker at 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/privacy` },
 };
 
@@ -13,6 +13,7 @@ export default function PrivacyPage() {
   return (
     <section className="max-w-3xl mx-auto px-4 py-12">
       <h1 className="text-3xl font-bold text-gray-900 mb-6">Privacy Policy</h1>
+        <p className="text-sm text-gray-500 mt-2">By <strong>Anthony Orner</strong>, Licensed Medicare Insurance Broker — NJ &amp; 34 states</p>
 
       <p className="text-sm text-gray-500 mb-8">Last updated: March 14, 2026</p>
 
@@ -86,6 +87,7 @@ export default function PrivacyPage() {
           or visit our <Link href="/about" className="text-blue-600 hover:underline">About page</Link>.
         </p>
       </div>
-    </section>
+          <div className="text-sm text-gray-600 mt-4">Learn more about federal Medicare privacy standards: <a href="https://www.medicare.gov/privacy-policy" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Medicare.gov Privacy Policy</a> and the <a href="https://www.medicare.gov/basics/reporting-medicare-fraud-and-abuse/privacy-practices-original-medicare" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Notice of Privacy Practices for Original Medicare</a>.</div>
+      </section>
   );
 }

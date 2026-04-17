@@ -327,7 +327,8 @@ export default function EnrollInMedicareSupplementPlanGAt67() {
               </Link>
             </li>
 </ul>
-        </section>
+              <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/health-drug-plans/medigap/ready-to-buy" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Get Ready to Buy Medigap</a> and <a href="https://www.medicare.gov/health-drug-plans/medigap/basics/costs" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Medigap Costs</a>.</div>
+      </section>
       </article>
     </>
   );

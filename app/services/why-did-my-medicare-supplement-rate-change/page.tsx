@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Why Did My Medicare Supplement Rate Change? | Free Rate Review | MedicareYourself",
   description:
-    "Why did my Medicare supplement rate change? Understand attained-age pricing, carrier loss ratios, and NJ filing data. Anthony Orner offers a free rate review.",
+    "Why did your Medicare supplement rate change? Learn the 3 pricing factors and get a free rate review from Anthony Orner. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/why-did-my-medicare-supplement-rate-change" },
   openGraph: {
     title:
@@ -84,6 +84,17 @@ const faqs = [
     answer:
       "Plan G from one carrier covers the exact same benefits as Plan G from another. The benefits are standardized by Medicare. What differs is the carrier's pricing strategy and long-term rate stability. Some carriers price low to attract new members, then raise rates sharply once the block ages.",
   },
+,
+  {
+    question: "What is the difference between attained-age, issue-age, and community-rated pricing?",
+    answer:
+      "Attained-age policies increase premiums as you grow older, so the same plan costs more each birthday. Issue-age policies base your premium on your age when you first bought the policy and do not raise it because you aged. Community-rated plans charge the same premium regardless of age. All three can still increase due to inflation and claims experience within the block.",
+  },
+  {
+    question: "Should I switch carriers after a rate increase?",
+    answer:
+      "Switching can lower your premium if you qualify medically or through a guaranteed issue right, but a lower introductory rate from a new carrier may not stay low. It is worth comparing current filed rates, the carrier's history of increases, and whether you would need to pass underwriting before making a change. A free rate review can show whether switching actually saves money long-term.",
+  }
 ];
 
 export default function WhyDidMyMedicareSupplementRateChange() {
@@ -361,7 +372,9 @@ export default function WhyDidMyMedicareSupplementRateChange() {
               </Link>
             </li>
 </ul>
-        </section>
+              <div className="text-sm text-gray-600 mt-4">Official references: <a href="https://www.medicare.gov/health-drug-plans/medigap/basics/costs" rel="noopener noreferrer" target="_blank" className="text-blue-700 hover:underline">Medicare.gov — How Medigap policies are priced</a> and <a href="https://www.medicare.gov/health-drug-plans/medigap/basics/when-to-get" rel="noopener noreferrer" target="_blank" className="text-blue-700 hover:underline">Medicare.gov — When to get a Medigap policy</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify carrier rate filings and consumer protections through the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-700 hover:underline">NJ Department of Banking and Insurance</a>.</div>
+      </section>
       </article>
     </>
   );

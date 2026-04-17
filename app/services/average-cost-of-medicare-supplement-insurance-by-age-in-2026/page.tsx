@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "average cost of medicare supplement insurance by age in 2026 | Free Rate Comparison | MedicareYourself",
   description:
-    "Average cost of Medicare Supplement insurance by age in 2026 — actual monthly premiums from top NJ carriers at 65, 70, 75+. Get a free personalized quote.",
+    "Compare 2026 Medicare Supplement costs by age — real NJ carrier rates at 65, 70, 75+. Call 855-559-1700 for a free personalized Medigap quote today.",
   alternates: { canonical: "https://medicareyourself.com/services/average-cost-of-medicare-supplement-insurance-by-age-in-2026" },
   openGraph: {
     title:
@@ -332,7 +332,9 @@ export default function AverageCostMedigapByAge2026() {
               </Link>
             </li>
 </ul>
-        </section>
+              <div className="text-sm text-gray-600 mt-4">Official references: <a href="https://www.medicare.gov/health-drug-plans/medigap" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Medicare.gov — Medigap (Medicare Supplement) Plans</a> and the <a href="https://www.medicare.gov/publications/11579-medicare-costs.pdf" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">2026 Medicare Costs at a Glance (PDF)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">For free, unbiased counseling, New Jersey residents can contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+      </section>
       </article>
     </>
   );

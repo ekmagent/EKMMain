@@ -85,6 +85,12 @@ const faqs = [
     answer:
       "Plan G covers everything Original Medicare covers except the annual Part B deductible, which is $283 in 2026. You pay that deductible out of pocket each year. After that, Plan G picks up 100% of Medicare-approved costs with no network restrictions.",
   },
+,
+  {
+    question: "How do insurance companies price Plan G for a 69-year-old?",
+    answer:
+      "Carriers use one of three pricing methods: community-rated (same premium regardless of age), issue-age (based on age at enrollment), or attained-age (increases as you get older). At 69, an attained-age policy may look cheaper today but typically rises faster over time. Medicare.gov notes premiums can vary significantly between companies selling the exact same lettered plan.",
+  }
 ];
 
 export default function MedicareSupplementPlanGCostFor69YearOld() {
@@ -308,6 +314,7 @@ export default function MedicareSupplementPlanGCostFor69YearOld() {
             </Link>
           </li>
         </ul>
+            <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/health-drug-plans/medigap/basics/costs" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Get Medigap Costs</a> and <a href="https://www.medicare.gov/health-drug-plans/medigap" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Medigap Basics</a>.</div>
       </section>
     </main>
   );

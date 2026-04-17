@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Find an NJ Medicare Broker Near You | Free No-Pressure Help | MedicareYourself",
   description:
-    "Find an NJ Medicare broker near you — Anthony Orner is licensed statewide, compares top carriers at no cost. Independent, not captive. Free consultation.",
+    "Find an NJ Medicare broker near you — Anthony Orner compares top carriers statewide at no cost. Independent, no pressure. Call 855-559-1700 for free help.",
   alternates: { canonical: "https://medicareyourself.com/services/find-an-nj-medicare-broker-near-you" },
   openGraph: {
     title:
@@ -84,6 +84,16 @@ const faqs = [
     answer:
       "Anthony is licensed statewide in New Jersey. Whether you're in Bergen County, Ocean County, Mercer County, or anywhere else in the state, he can help you compare Medicare plans by phone, video, or in person.",
   },
+,
+  {
+    question: "What does Medicare cost in 2026?",
+    answer:
+      "In 2026, the standard Medicare Part B premium is ];
+
+export default85 per month with a $257 annual deductible. Part A has a ];
+
+export default,676 inpatient hospital deductible per benefit period. Part C (Medicare Advantage) and Part D premiums vary by plan and carrier.",
+  }
 ];
 
 export default function FindNJMedicareBrokerNearYou() {
@@ -355,7 +365,9 @@ export default function FindNJMedicareBrokerNearYou() {
               </Link>
             </li>
 </ul>
-        </section>
+              <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/plan-compare" target="_blank" rel="noopener noreferrer" className="underline">Medicare.gov Plan Finder</a> and <a href="https://www.cms.gov/medicare" target="_blank" rel="noopener noreferrer" className="underline">CMS Medicare program information</a>.</div>
+            <div className="text-sm text-gray-600 mt-2">New Jersey residents can also get free unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" target="_blank" rel="noopener noreferrer" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+      </section>
       </article>
     </>
   );

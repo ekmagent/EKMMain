@@ -309,7 +309,8 @@ export default function LicensedMedicareAdvisorsPage() {
               </Link>
             </li>
 </ul>
-        </section>
+              <div className="text-sm text-gray-600 mt-4">Verify any advisor's guidance against official sources: <a href="https://www.medicare.gov/talk-to-someone" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Talk to Someone</a> and <a href="https://www.cms.gov/medicare/enrollment-renewal/agents-brokers" rel="noopener noreferrer" target="_blank" className="underline">CMS Agent & Broker Resources</a>.</div>
+      </section>
       </article>
     </>
   );

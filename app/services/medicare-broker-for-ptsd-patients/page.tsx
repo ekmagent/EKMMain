@@ -84,6 +84,14 @@ const faqs = [
     answer:
       "Medicare Part B covers EMDR (Eye Movement Desensitization and Reprocessing) when billed by a licensed psychiatrist, clinical psychologist, clinical social worker, or other qualifying mental health provider who accepts Medicare assignment. Coverage falls under outpatient mental health services.",
   },
+,
+  {
+    question: "Does Medicare cover inpatient psychiatric care for PTSD?",
+    answer:
+      "Yes. Medicare Part A covers inpatient mental health care in either a general or psychiatric hospital. In 2026 you pay the ];
+
+export default,676 Part A deductible per benefit period. Medicare limits coverage in a freestanding psychiatric hospital to 190 days in a lifetime.",
+  }
 ];
 
 export default function MedicareBrokerForPTSDPatients() {
@@ -329,6 +337,7 @@ export default function MedicareBrokerForPTSDPatients() {
               </Link>
             </li>
 </ul>
+            <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/coverage/mental-health-care-outpatient" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Outpatient Mental Health Coverage</a> and <a href="https://www.medicare.gov/coverage/mental-health-care-inpatient" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Inpatient Mental Health Coverage</a>.</div>
       </section>
     </main>
   );

@@ -307,6 +307,7 @@ export default function MedicareSupplementOpenEnrollmentOnline() {
               </Link>
             </li>
 </ul>
+            <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/health-drug-plans/open-enrollment" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov Open Enrollment</a> and <a href="https://www.cms.gov/priorities/key-initiatives/medicare-open-enrollment-partner-resources" rel="noopener noreferrer" target="_blank" className="underline">CMS Medicare Open Enrollment Partner Resources</a>.</div>
       </section>
     </main>
   );

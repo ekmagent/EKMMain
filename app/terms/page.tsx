@@ -5,7 +5,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Terms of Service",
   description:
-    "Terms and conditions for using the MedicareYourself website and Medicare insurance brokerage services. Please read before using our site.",
+    "Review the Terms of Service for MedicareYourself, a licensed Medicare brokerage offering free plan comparisons. Questions? Call 855-559-1700 today.",
   alternates: { canonical: `${SITE_URL}/terms` },
 };
 
@@ -13,6 +13,7 @@ export default function TermsPage() {
   return (
     <section className="max-w-3xl mx-auto px-4 py-12">
       <h1 className="text-3xl font-bold text-gray-900 mb-6">Terms of Service</h1>
+        <p className="text-sm text-gray-500 mt-2">By <strong>Anthony Orner</strong>, Licensed Medicare Insurance Broker — NJ &amp; 34 states</p>
 
       <p className="text-sm text-gray-500 mb-8">Last updated: March 14, 2026</p>
 
@@ -83,6 +84,8 @@ export default function TermsPage() {
           or visit our <Link href="/about" className="text-blue-600 hover:underline">About page</Link>.
         </p>
       </div>
-    </section>
+          <div className="text-sm text-gray-600 mt-4">Official Medicare resources: <a href="https://www.medicare.gov" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">Medicare.gov</a> and the <a href="https://www.cms.gov" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">Centers for Medicare &amp; Medicaid Services (CMS)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">For free, unbiased Medicare counseling in your state, contact your local <a href="https://www.shiphelp.org" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">State Health Insurance Assistance Program (SHIP)</a>.</div>
+      </section>
   );
 }

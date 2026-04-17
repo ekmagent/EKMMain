@@ -84,6 +84,22 @@ const faqs = [
     answer:
       "Medicare covers annual glaucoma screenings (for high-risk patients), diagnostic testing, laser treatments like SLT, surgical procedures including trabeculectomy and MIGS, and follow-up visits under Part B. Prescription eye drops like latanoprost or timolol fall under Part D. Some Medicare Advantage plans add routine vision benefits that Original Medicare doesn't include.",
   },
+,
+  {
+    question: "How often does Medicare cover glaucoma screenings?",
+    answer:
+      "Medicare Part B covers a glaucoma screening once every 12 months for beneficiaries at high risk. High-risk categories include people with diabetes, a family history of glaucoma, African Americans age 50 or older, and Hispanic Americans age 65 or older. The screening must be performed or supervised by an eye doctor legally authorized to provide the service in your state.",
+  },
+  {
+    question: "Are glaucoma eye drops covered by Original Medicare?",
+    answer:
+      "No. Original Medicare (Parts A and B) does not cover self-administered prescription eye drops for glaucoma. These medications fall under Medicare Part D or the prescription drug benefit included in most Medicare Advantage plans. Formulary tier, copay, and prior authorization rules vary by plan, so comparing Part D drug lists before enrollment is important.",
+  },
+  {
+    question: "Can a Medigap plan lower my glaucoma treatment costs?",
+    answer:
+      "Yes. Medigap (Medicare Supplement) plans help pay the 20% coinsurance Original Medicare leaves behind for covered services like laser procedures, diagnostic testing, and surgery. Plans G and N cover most out-of-pocket costs after the Part B deductible ($257 in 2026). A free plan review can help you compare Medigap premiums against Medicare Advantage copays for your specific treatment plan.",
+  }
 ];
 
 export default function MedicareBrokerForGlaucomaPatients() {
@@ -293,6 +309,7 @@ export default function MedicareBrokerForGlaucomaPatients() {
               </Link>
             </li>
 </ul>
+            <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/coverage/glaucoma-screenings" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Medicare.gov — Glaucoma Screenings Coverage</a> and <a href="https://www.medicare.gov/coverage/eye-exams" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Medicare.gov — Eye Exams</a>.</div>
       </section>
     </div>
   );

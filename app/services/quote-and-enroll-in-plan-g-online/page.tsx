@@ -266,6 +266,7 @@ export default function QuoteAndEnrollInPlanGOnline() {
             </Link>
           </li>
         </ul>
+            <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/health-drug-plans/medigap" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Medigap (Medicare Supplement) Insurance</a> and <a href="https://www.medicare.gov/medigap-supplemental-insurance-plans/" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Find a Medigap policy that works for you</a>.</div>
       </section>
     </main>
   );

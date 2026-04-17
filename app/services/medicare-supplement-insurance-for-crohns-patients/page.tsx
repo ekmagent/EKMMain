@@ -270,6 +270,7 @@ export default function MedicareSupplementCrohnsPage() {
             </Link>
           </li>
         </ul>
+            <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/health-drug-plans/medigap" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">Medicare.gov Medigap basics</a> and <a href="https://www.medicare.gov/coverage/infusion-pumps-supplies" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">Medicare Part B infusion coverage</a>.</div>
       </section>
     </main>
   );

@@ -261,6 +261,7 @@ export default function MedicareAgentPaperworkPage() {
             </Link>
           </li>
         </ul>
+            <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/basics/get-started-with-medicare/sign-up/how-do-i-sign-up-for-medicare" rel="noopener noreferrer" target="_blank" className="underline">How to sign up for Medicare (Medicare.gov)</a> and <a href="https://www.ssa.gov/medicare/sign-up" rel="noopener noreferrer" target="_blank" className="underline">Apply for Medicare through Social Security</a>.</div>
       </section>
     </main>
   );

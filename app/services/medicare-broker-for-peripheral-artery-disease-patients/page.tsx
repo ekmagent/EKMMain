@@ -339,7 +339,8 @@ export default function MedicareBrokerPAD() {
               </Link>
             </li>
 </ul>
-        </section>
+              <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/coverage/cardiovascular-disease-screenings" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Medicare.gov — Cardiovascular Disease Screenings</a> and <a href="https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=60400&ver=4" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">CMS Endovascular Management for Peripheral Arterial Disease</a>.</div>
+      </section>
       </article>
     </>
   );

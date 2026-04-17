@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "find a medicare agent in monroe township nj | Free Plan Review | MedicareYourself",
   description:
-    "Find a Medicare agent in Monroe Township NJ — Anthony Orner compares Supplement and Advantage carriers for Middlesex County residents. Free plan review.",
+    "Find a Medicare agent in Monroe Township, NJ — Anthony Orner compares Supplement & Advantage plans side by side. Free review, no fees. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/find-a-medicare-agent-in-monroe-township-nj" },
   openGraph: {
     title:
@@ -83,6 +83,21 @@ const faqs = [
     answer:
       "No. Independent Medicare brokers like Anthony Orner are compensated by the insurance carriers. You pay the same premium whether you enroll directly or through a broker — but you get expert guidance at no extra cost.",
   },
+,
+  {
+    question: "What does Medicare Part B cost in 2026 for Monroe Township residents?",
+    answer:
+      "The standard Medicare Part B premium in 2026 is ];
+
+export default85 per month, with an annual deductible of $257. Higher-income beneficiaries may pay more under IRMAA rules. Part A has a ];
+
+export default,676 inpatient hospital deductible per benefit period.",
+  },
+  {
+    question: "When can I enroll in or change my Medicare plan?",
+    answer:
+      "Your Initial Enrollment Period runs for seven months around your 65th birthday. The Annual Enrollment Period is October 15 to December 7 each year, when you can switch Advantage or Part D plans. Medicare Supplement plans can often be changed year-round in New Jersey, subject to underwriting.",
+  }
 ];
 
 export default function FindMedicareAgentMonroeTownshipNJ() {
@@ -365,6 +380,8 @@ export default function FindMedicareAgentMonroeTownshipNJ() {
               </Link>
             </li>
 </ul>
+            <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/plan-compare" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov Plan Compare</a> and <a href="https://www.medicare.gov/basics/costs/medicare-costs" rel="noopener noreferrer" target="_blank" className="underline">2026 Medicare Costs at a Glance</a>.</div>
+            <div className="text-sm text-gray-600 mt-2">New Jersey residents can also get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

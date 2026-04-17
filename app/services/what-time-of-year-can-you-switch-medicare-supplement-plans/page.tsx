@@ -84,6 +84,17 @@ const faqs = [
     answer:
       "During your initial 6-month Open Enrollment Period or under a guaranteed issue right, carriers cannot deny you or charge more for pre-existing conditions. Outside those windows, you'll likely face medical underwriting, and a condition like diabetes or heart disease could lead to a denial or higher premium.",
   },
+,
+  {
+    question: "Does my state offer extra rights to switch Medigap plans?",
+    answer:
+      "Yes, some states provide broader rights to switch Medigap policies beyond federal rules. For example, certain states allow annual switching on your birthday or policy anniversary without medical underwriting. Contact your State Insurance Department to confirm what applies to you.",
+  },
+  {
+    question: "Is there a free look period when switching Medigap plans?",
+    answer:
+      "Yes. When you buy a new Medigap policy, you get a 30-day free look period to decide if you want to keep it. You should keep your old policy active and pay both premiums during this time, then cancel the old one once you're sure about the new plan.",
+  }
 ];
 
 export default function WhatTimeOfYearCanYouSwitchMedigap() {
@@ -311,6 +322,7 @@ export default function WhatTimeOfYearCanYouSwitchMedigap() {
             </Link>
           </li>
         </ul>
+            <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/health-drug-plans/medigap/ready-to-buy/change-policies/switch-drop" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Can I switch or drop my Medigap policy?</a> and <a href="https://www.medicare.gov/health-drug-plans/medigap/basics/when-to-get" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — When can I buy Medigap?</a></div>
       </section>
     </main>
   );

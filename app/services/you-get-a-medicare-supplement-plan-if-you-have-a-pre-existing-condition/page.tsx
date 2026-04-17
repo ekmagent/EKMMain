@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "You Get a Medicare Supplement Plan If You Have a Pre-Existing Condition | Free Guidance | MedicareYourself",
   description:
-    "You get a Medicare Supplement plan if you have a pre-existing condition during the right enrollment window. Learn guaranteed-issue rules and avoid waiting periods.",
+    "You can get a Medicare Supplement plan with pre-existing conditions during the right enrollment window. Learn guaranteed-issue rules — call for free help.",
   alternates: { canonical: "https://medicareyourself.com/services/you-get-a-medicare-supplement-plan-if-you-have-a-pre-existing-condition" },
   openGraph: {
     title:
@@ -312,6 +312,7 @@ export default function PreExistingConditionMedigapPage() {
             </Link>
           </li>
         </ul>
+            <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/health-drug-plans/medigap/basics/when-to-buy" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — When to buy a Medigap policy</a> and <a href="https://www.medicare.gov/health-drug-plans/medigap/basics/guaranteed-issue-rights" rel="noopener noreferrer" target="_blank" className="underline">Medigap guaranteed-issue rights</a>.</div>
       </section>
 
       <p className="text-sm text-gray-400 mt-10">

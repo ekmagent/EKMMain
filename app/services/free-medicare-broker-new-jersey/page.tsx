@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "free medicare broker new jersey | No Fees, No Obligation | MedicareYourself",
   description:
-    "Free Medicare broker in New Jersey — Anthony Orner is licensed, independent, and paid by carriers so you pay nothing. Compare plans with zero obligation.",
+    "Work with a free, licensed New Jersey Medicare broker. Compare Medigap, Advantage, and Part D plans with zero fees or obligation. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/free-medicare-broker-new-jersey" },
   openGraph: {
     title:
@@ -85,6 +85,26 @@ const faqs = [
     answer:
       "Yes. An independent broker licensed in New Jersey can quote both Medigap (Medicare Supplement) and Medicare Advantage plans, plus standalone Part D prescription drug plans. You get a side-by-side view of all your options in one call.",
   },
+,
+  {
+    question: "How is a New Jersey Medicare broker regulated?",
+    answer:
+      "Medicare brokers in New Jersey must hold an active producer license through the New Jersey Department of Banking and Insurance. They are also required to complete annual AHIP or carrier-specific training and follow CMS marketing rules. You can verify any broker's license number directly with the state.",
+  },
+  {
+    question: "Does New Jersey have special Medigap rules I should know about?",
+    answer:
+      "Yes. New Jersey uses community rating for Medigap, meaning premiums are not based on your individual age. Your strongest protections apply during the 6-month Medigap Open Enrollment Period that begins when you're 65 and enrolled in Part B, when carriers must issue a policy regardless of health.",
+  },
+  {
+    question: "What will Medicare cost me in 2026 if I work with a broker?",
+    answer:
+      "The broker service itself is free. You'll still pay the standard Part B premium of ];
+
+export default85/month and the $257 annual Part B deductible, plus the ];
+
+export default,676 Part A hospital deductible if admitted. A broker helps you choose supplemental coverage to manage those out-of-pocket costs.",
+  }
 ];
 
 export default function FreeMedicareBrokerNewJersey() {
@@ -300,7 +320,9 @@ export default function FreeMedicareBrokerNewJersey() {
               </Link>
             </li>
 </ul>
-        </section>
+              <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/basics/get-started-with-medicare" rel="noopener noreferrer" target="_blank" className="underline">Get Started with Medicare (Medicare.gov)</a> &middot; <a href="https://www.medicare.gov/plan-compare/" rel="noopener noreferrer" target="_blank" className="underline">Compare Plans on Medicare.gov</a></div>
+            <div className="text-sm text-gray-600 mt-2">New Jersey residents can also get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> or verify a broker's license with the <a href="https://www.nj.gov/dobi/" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a>.</div>
+      </section>
       </article>
     </>
   );

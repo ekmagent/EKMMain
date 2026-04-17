@@ -100,6 +100,7 @@ export default function KeywordChecker() {
       <div style={s.container}>
         <div style={s.header}>
           <h1 style={s.title}>Keyword Checker</h1>
+        <p className="text-sm text-gray-500 mt-2">By <strong>Anthony Orner</strong>, Licensed Medicare Insurance Broker — NJ &amp; 34 states</p>
           <span style={{ color: "#666", fontSize: "0.75rem" }}>Edward Sturm Framework</span>
         </div>
 

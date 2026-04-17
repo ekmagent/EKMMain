@@ -309,6 +309,7 @@ export default function MedicareBrokerForOsteoporosisPatients() {
               </Link>
             </li>
 </ul>
+            <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/coverage/osteoporosis-drugs" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Osteoporosis drug coverage</a> and <a href="https://www.medicare.gov/coverage/bone-mass-measurement" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Bone mass measurements (DEXA)</a>.</div>
       </section>
     </main>
   );

@@ -87,6 +87,22 @@ const faqs = [
     answer:
       "Medicare Part A covers inpatient rehab and skilled nursing facility stays (days 1 through 20 at $0 coinsurance, days 21 through 100 at $209.50/day in 2026). Part B covers outpatient physical, speech, and occupational therapy when deemed medically necessary. Coverage is not unlimited, so the right supplemental plan matters.",
   },
+,
+  {
+    question: "Does Medicare cover speech and occupational therapy after a stroke?",
+    answer:
+      "Yes. Medicare Part B covers outpatient speech-language pathology and occupational therapy when your doctor certifies the services are medically necessary. There is no longer a hard cap on therapy services, but your provider must document that continued care is reasonable. Coinsurance and the Part B deductible still apply.",
+  },
+  {
+    question: "Will Medicare pay for a skilled nursing facility after a stroke hospital stay?",
+    answer:
+      "Medicare Part A covers skilled nursing facility care after a qualifying inpatient hospital stay of at least three days, as long as skilled care is needed for stroke recovery. Days 1-20 have $0 coinsurance and days 21-100 require a daily coinsurance. After day 100 in a benefit period, you are responsible for all costs.",
+  },
+  {
+    question: "Does a Medicare Supplement plan help with stroke recovery costs?",
+    answer:
+      "Yes. Medigap plans can cover the Part A hospital deductible, skilled nursing coinsurance, and the 20% Part B coinsurance on therapy and specialist visits. For stroke survivors with ongoing rehab needs, this predictable cost structure often saves money. I compare Medigap and Advantage options side by side so you can see the full picture.",
+  }
 ];
 
 export default function MedicareBrokerForStrokeSurvivors() {
@@ -302,7 +318,8 @@ export default function MedicareBrokerForStrokeSurvivors() {
               </Link>
             </li>
 </ul>
-        </section>
+              <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/coverage/inpatient-rehabilitation-care" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Inpatient Rehabilitation Care</a> and <a href="https://www.medicare.gov/coverage/outpatient-therapy" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Outpatient Therapy Coverage</a>.</div>
+      </section>
       </article>
     </>
   );

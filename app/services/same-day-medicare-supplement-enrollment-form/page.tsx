@@ -338,7 +338,8 @@ export default function SameDayMedicareSupplementEnrollmentForm() {
               </Link>
             </li>
 </ul>
-        </section>
+              <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/basics/forms-publications-mailings/forms/enrollment" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov enrollment forms</a> and the <a href="https://www.cms.gov/medicare/cms-forms/cms-forms/downloads/cms40b-e.pdf" rel="noopener noreferrer" target="_blank" className="underline">CMS-40B Part B application (PDF)</a>.</div>
+      </section>
       </article>
     </>
   );

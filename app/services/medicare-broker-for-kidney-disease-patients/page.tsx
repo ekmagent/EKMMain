@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for kidney disease patients | Free Coverage Review | MedicareYourself",
   description:
-    "Medicare broker for kidney disease patients navigating CKD stages, dialysis, and ESRD rules. Anthony Orner simplifies your coverage options. Free review.",
+    "Kidney disease Medicare help — compare ESRD, dialysis, and transplant coverage options with a licensed broker. Free review, no fees. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-kidney-disease-patients" },
   openGraph: {
     title:
@@ -310,7 +310,8 @@ export default function MedicareBrokerKidneyDisease() {
               </Link>
             </li>
 </ul>
-        </section>
+              <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/basics/end-stage-renal-disease" rel="noopener noreferrer" target="_blank" className="underline">Medicare coverage for ESRD (Medicare.gov)</a> and <a href="https://www.cms.gov/medicare/coverage/end-stage-renal-disease" rel="noopener noreferrer" target="_blank" className="underline">CMS End-Stage Renal Disease program</a>.</div>
+      </section>
       </article>
     </>
   );

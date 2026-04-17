@@ -553,7 +553,9 @@ export default function MedicareBrokerForAlzheimersPatients() {
               </Link>
             </li>
 </ul>
-        </section>
+              <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/coverage/cognitive-assessment-care-plan-services" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Cognitive Assessment &amp; Care Plan Services</a> and <a href="https://www.medicare.gov/coverage/skilled-nursing-facility-snf-care" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Skilled Nursing Facility Care</a>.</div>
+            <div className="text-sm text-gray-600 mt-2">New Jersey families can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
+      </section>
       </article>
     </>
   );

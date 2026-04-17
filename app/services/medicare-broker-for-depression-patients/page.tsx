@@ -299,6 +299,7 @@ export default function MedicareBrokerForDepressionPatients() {
               </Link>
             </li>
 </ul>
+            <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/coverage/mental-health-care-outpatient" target="_blank" rel="noopener noreferrer" className="underline">Medicare.gov — Outpatient Mental Health Coverage</a> and <a href="https://www.medicare.gov/coverage/mental-health-care-inpatient" target="_blank" rel="noopener noreferrer" className="underline">Medicare.gov — Inpatient Mental Health Care</a>.</div>
       </section>
     </main>
   );

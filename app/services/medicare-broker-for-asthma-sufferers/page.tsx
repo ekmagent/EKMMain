@@ -324,7 +324,8 @@ export default function MedicareBrokerForAsthmaSufferers() {
               </Link>
             </li>
 </ul>
-        </section>
+              <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/drug-coverage-part-d" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Drug Coverage (Part D)</a> and <a href="https://www.medicare.gov/plan-compare/" rel="noopener noreferrer" target="_blank" className="underline">Medicare Plan Finder</a> to compare formularies for your inhalers.</div>
+      </section>
       </article>
     </>
   );

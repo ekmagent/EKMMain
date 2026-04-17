@@ -274,6 +274,8 @@ export default function MedicareSpecialistsSouthCarolina() {
             </Link>
           </li>
         </ul>
+            <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/plan-compare" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Medicare.gov Plan Compare</a> · <a href="https://www.cms.gov/medicare" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">CMS Medicare Overview</a></div>
+            <div className="text-sm text-gray-600 mt-4">South Carolina residents can also get free counseling through <a href="https://aging.sc.gov/programs-initiatives/gethelp/insurance-counseling-assistance-and-referrals-medicare" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">SC SHIP (Insurance Counseling Assistance and Referrals for Medicare)</a> through the SC Department on Aging.</div>
       </section>
     </main>
   );

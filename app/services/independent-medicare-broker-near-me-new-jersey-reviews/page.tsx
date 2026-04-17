@@ -337,6 +337,8 @@ export default function IndependentMedicareBrokerNJReviewsPage() {
               </Link>
             </li>
 </ul>
+            <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/basics/get-started-with-medicare" target="_blank" rel="noopener noreferrer" className="underline">Medicare.gov — Get Started with Medicare</a> and <a href="https://www.medicare.gov/talk-to-someone" target="_blank" rel="noopener noreferrer" className="underline">Talk to Someone at Medicare.gov</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">Verify a broker's license or get free NJ counseling: <a href="https://www.state.nj.us/dobi/" target="_blank" rel="noopener noreferrer" className="underline">NJ Department of Banking and Insurance</a> and <a href="https://www.nj.gov/humanservices/doas/services/ship/" target="_blank" rel="noopener noreferrer" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

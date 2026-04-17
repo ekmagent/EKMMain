@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "free medicare agent that helps with paperwork | Zero Cost Enrollment Help | MedicareYourself",
   description:
-    "Free Medicare agent that helps with paperwork — applications, carrier forms, and enrollment handled start to finish. Anthony Orner, licensed NJ broker. Call today.",
+    "Free Medicare agent handles your paperwork — applications, carrier forms, and enrollment done for you at no cost. Call Anthony Orner, licensed NJ broker.",
   alternates: { canonical: "https://medicareyourself.com/services/free-medicare-agent-that-helps-with-paperwork" },
   openGraph: {
     title:
@@ -310,6 +310,8 @@ export default function FreeMedicareAgentPaperworkPage() {
             </Link>
           </li>
         </ul>
+            <div className="text-sm text-gray-600 mt-4">For official Medicare information, visit <a href="https://www.medicare.gov/talk-to-someone" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">Medicare.gov's Talk to Someone page</a> or call 1-800-MEDICARE (1-800-633-4227), available 24/7.</div>
+            <div className="text-sm text-gray-600 mt-4">You can also get free one-on-one Medicare counseling from your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
     </main>
   );

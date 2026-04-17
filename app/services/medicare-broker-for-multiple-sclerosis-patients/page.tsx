@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for multiple sclerosis patients | Free Plan Comparison | MedicareYourself",
   description:
-    "Medicare broker for multiple sclerosis patients in NJ. Anthony Orner navigates underwriting and finds plans covering infusions and MRIs. Free consultation.",
+    "Medicare broker for MS patients in NJ. Anthony Orner finds plans covering Ocrevus, MRIs & rehab. Free consultation — call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-multiple-sclerosis-patients" },
   openGraph: {
     title:
@@ -88,6 +88,24 @@ const faqs = [
     answer:
       "It depends on your treatment plan. Medicare Advantage may offer lower premiums but can require prior authorizations for MRIs and specialty drugs. Medigap paired with Original Medicare gives you more freedom to see any provider who accepts Medicare, with no referrals or network restrictions. For people on high-cost infusion therapies, the out-of-pocket structure of each option can mean thousands of dollars in difference.",
   },
+,
+  {
+    question: "What does Medicare Part B cost in 2026 for MS patients?",
+    answer:
+      "In 2026, the standard Part B premium is ];
+
+export default85 per month with an annual deductible of $257. After meeting the deductible, you pay 20% coinsurance for covered services, including physician-administered MS infusions. A Medigap plan can cover most or all of that 20% coinsurance depending on the plan letter you choose.",
+  },
+  {
+    question: "Are MRIs covered by Medicare for MS monitoring?",
+    answer:
+      "Yes. Medicare Part B covers medically necessary MRIs ordered by your doctor to monitor MS progression. You pay 20% coinsurance after the $257 Part B deductible under Original Medicare. Medicare Advantage plans also cover MRIs but may require prior authorization and use in-network imaging facilities.",
+  },
+  {
+    question: "Does Medicare cover physical therapy and rehab for MS?",
+    answer:
+      "Medicare Part B covers medically necessary physical therapy, occupational therapy, and speech-language pathology services when ordered by your doctor as part of your MS care plan. You pay 20% coinsurance after the Part B deductible. There is no longer a hard cap on therapy services, though documentation of medical necessity is required above certain thresholds.",
+  }
 ];
 
 export default function MedicareBrokerForMSPatients() {
@@ -302,7 +320,8 @@ export default function MedicareBrokerForMSPatients() {
               </Link>
             </li>
 </ul>
-        </section>
+              <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/coverage/infusion-pumps-supplies" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov on infusion coverage</a> and <a href="https://www.cms.gov/medicare/coverage/coverage-general-information" rel="noopener noreferrer" target="_blank" className="underline">CMS coverage guidelines</a> for Part B drugs.</div>
+      </section>
       </article>
     </>
   );

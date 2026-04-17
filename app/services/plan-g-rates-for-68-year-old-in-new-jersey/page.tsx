@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "plan g rates for 68 year old in new jersey | Free Carrier Comparison | MedicareYourself",
   description:
-    "Plan G rates for a 68-year-old in New Jersey vary by $60+ across carriers. See real NJ premium examples and get a free comparison from Anthony Orner.",
+    "Compare Plan G rates for a 68-year-old in New Jersey across top carriers. Same coverage, different prices — call 855-559-1700 for a free side-by-side quote.",
   alternates: { canonical: "https://medicareyourself.com/services/plan-g-rates-for-68-year-old-in-new-jersey" },
   openGraph: {
     title:
@@ -85,6 +85,19 @@ const faqs = [
     answer:
       "Every Plan G in New Jersey covers the exact same benefits. The difference is each carrier sets its own premium based on its claims experience, overhead, and pricing method. Some use attained-age rating (price rises with age), others use community rating. That's why comparing carriers matters more than comparing plan letters.",
   },
+,
+  {
+    question: "When can a 68-year-old in NJ enroll in Plan G without answering health questions?",
+    answer:
+      "Your 6-month Medigap Open Enrollment Period starts the month you're 65 and enrolled in Part B. If you're already 68 and that window has closed, you may still qualify under specific guaranteed issue rights, such as losing employer coverage. Outside those protected situations, carriers in New Jersey can use medical underwriting to approve or price your policy.",
+  },
+  {
+    question: "Does Plan G cover the 2026 Part B deductible?",
+    answer:
+      "Yes. Plan G pays the $257 Part B deductible in 2026, along with the Part A ];
+
+export default,676 hospital deductible, Part B coinsurance, and skilled nursing coinsurance. After you meet the Part B deductible once per year, Plan G typically leaves you with $0 out-of-pocket for Medicare-approved services.",
+  }
 ];
 
 export default function PlanGRates68NJ() {
@@ -345,7 +358,8 @@ export default function PlanGRates68NJ() {
               </Link>
             </li>
 </ul>
-        </section>
+              <div className="text-sm text-gray-600 mt-4">Official references: <a href="https://www.medicare.gov/health-drug-plans/medigap/basics/costs" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — How Medigap costs are set</a> and the <a href="https://www.nj.gov/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey SHIP (State Health Insurance Assistance Program)</a> for free local counseling.</div>
+      </section>
       </article>
     </>
   );

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare insurance agents in cherry hill new jersey | Free Broker Help | MedicareYourself",
   description:
-    "Medicare insurance agents in Cherry Hill New Jersey — Anthony Orner compares Supplement and Advantage plans across top carriers. Free, no-obligation consultation.",
+    "Medicare insurance agents in Cherry Hill, New Jersey — Anthony Orner compares Supplement and Advantage plans across top carriers. Free consultation.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-insurance-agents-in-cherry-hill-new-jersey" },
   openGraph: {
     title:
@@ -339,6 +339,8 @@ export default function MedicareInsuranceAgentsCherryHillNJ() {
               </Link>
             </li>
 </ul>
+            <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/plan-compare" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov Plan Finder</a> and <a href="https://www.medicare.gov/basics/get-started-with-medicare" rel="noopener noreferrer" target="_blank" className="underline">Getting Started with Medicare</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

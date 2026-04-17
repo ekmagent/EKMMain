@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
   description:
-    "What IRMAA is, how the income brackets work, and how to appeal with SSA-44 if your income dropped. Free guidance: 855-559-1700.",
+    "Learn how IRMAA surcharges raise Medicare Part B and D premiums, which 2026 income brackets apply, and how to appeal with SSA-44. Call 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/irmaa-medicare-surcharge` },
   openGraph: {
     title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
@@ -104,6 +104,22 @@ const faqs = [
     answer:
       "It can. If the capital gain from selling your home pushes your MAGI above the IRMAA threshold for that tax year, you may owe the surcharge two years later. However, the first $250,000 of gain ($500,000 for married couples) on a primary residence is typically excluded from taxable income. A one-time spike usually only affects one year of IRMAA.",
   },
+,
+  {
+    question: "How do I appeal IRMAA if my income has dropped?",
+    answer:
+      "File Form SSA-44 with the Social Security Administration if you've had a life-changing event such as retirement, marriage, divorce, or the death of a spouse. You'll need supporting documentation like a more recent tax return or a letter from your former employer. If approved, Social Security will recalculate your Part B and Part D premiums based on your updated income.",
+  },
+  {
+    question: "Is IRMAA recalculated every year?",
+    answer:
+      "Yes. Social Security reviews your tax return each year and determines IRMAA based on your MAGI from two years prior. If your income drops below the thresholds, your surcharge will automatically go away the following year — no appeal needed.",
+  },
+  {
+    question: "Can Roth conversions or capital gains trigger IRMAA?",
+    answer:
+      "Yes. Because IRMAA is based on Modified Adjusted Gross Income, one-time income events like Roth IRA conversions, large capital gains, or required minimum distributions can push you into a higher bracket. Many retirees plan these events carefully to avoid crossing an IRMAA threshold.",
+  }
 ];
 
 export default function IrmaaPage() {

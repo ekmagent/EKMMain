@@ -88,6 +88,17 @@ const faqs = [
     answer:
       "In most states, yes. Carriers typically charge higher premiums for under-65 disabled enrollees. Rates vary significantly by carrier and state, so comparing plans is critical. Call 855-559-1700 for free rate comparisons.",
   },
+,
+  {
+    question: "Does Medicare automatically enroll me after 24 months of SSDI?",
+    answer:
+      "Yes. If you have received Social Security Disability Insurance for 24 months, you are automatically enrolled in Medicare Parts A and B in the 25th month. Your red, white, and blue Medicare card arrives in the mail about three months before coverage begins. You can choose to keep or drop Part B if you have other coverage.",
+  },
+  {
+    question: "Do I get a Medigap Open Enrollment Period when I turn 65?",
+    answer:
+      "Yes. Even if you already had Medicare under 65 due to disability, you get a fresh 6-month Medigap Open Enrollment Period starting the month you turn 65 and are enrolled in Part B. During this window, you have guaranteed issue rights and cannot be denied coverage or charged more for health reasons.",
+  }
 ];
 
 export default function MedicareSupplementDisabilityPage() {
@@ -326,6 +337,7 @@ export default function MedicareSupplementDisabilityPage() {
               </Link>
             </li>
 </ul>
+            <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/basics/get-started-with-medicare/medicare-basics/people-under-65-with-disabilities" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">Medicare.gov — People Under 65 With Disabilities</a> and <a href="https://www.medicare.gov/health-drug-plans/medigap" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">Medicare.gov — Medigap Basics</a>.</div>
       </section>
 
       <p className="text-sm text-gray-500 mt-10">

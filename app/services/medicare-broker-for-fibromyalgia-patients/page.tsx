@@ -334,6 +334,7 @@ export default function MedicareBrokerForFibromyalgiaPatients() {
               </Link>
             </li>
 </ul>
+            <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/coverage/chronic-care-management-services" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Chronic Care Management Services</a> and <a href="https://www.medicare.gov/drug-coverage-part-d" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Part D Prescription Drug Coverage</a>.</div>
       </section>
     </main>
   );

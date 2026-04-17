@@ -331,6 +331,7 @@ export default function MedicareBrokerForHearingLossPatients() {
               </Link>
             </li>
 </ul>
+            <div className="text-sm text-gray-600 mt-4">Learn more from official sources: <a href="https://www.medicare.gov/coverage/hearing-balance-exams" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">Medicare.gov — Hearing &amp; Balance Exams</a> and <a href="https://www.medicare.gov/coverage/hearing-aids" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">Medicare.gov — Hearing Aids Coverage</a>.</div>
       </section>
     </main>
   );

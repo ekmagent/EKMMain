@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare broker for diabetics | Free Help Finding the Right Plan | MedicareYourself",
   description:
-    "Medicare broker for diabetics who understands insulin costs, CGM coverage, and specialist access. Anthony Orner finds plans built for your daily reality. Free help.",
+    "Medicare broker for diabetics who understands insulin costs, CGM coverage, and specialist networks. Anthony Orner finds the right plan — free help.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-diabetics" },
   openGraph: {
     title:
@@ -85,6 +85,22 @@ const faqs = [
     answer:
       "Yes. A broker can check whether your endocrinologist, podiatrist, and ophthalmologist are in-network before you enroll. This prevents surprises and referral requirements that delay the care you need.",
   },
+,
+  {
+    question: "Does Medicare cover insulin costs in 2026?",
+    answer:
+      "Yes. Under the Inflation Reduction Act, insulin covered by Medicare Part D is capped at $35 per month per covered prescription, and insulin used with a pump covered under Part B is also capped at $35. A broker can confirm that the specific insulin you use is on a plan's formulary before you enroll.",
+  },
+  {
+    question: "Will my diabetes medications be covered under every Medicare plan?",
+    answer:
+      "No. Each Medicare Part D and Medicare Advantage plan has its own formulary, and tier placement and prior authorization rules vary. A broker reviews your exact medication list against each plan's formulary so you don't end up paying more than necessary or facing coverage denials.",
+  },
+  {
+    question: "Does Medicare cover diabetes self-management training and nutrition counseling?",
+    answer:
+      "Yes. Medicare Part B covers diabetes self-management training (DSMT) with a doctor's referral and medical nutrition therapy (MNT) for people with diabetes or kidney disease. Many Medicare Advantage plans also offer additional wellness benefits that support diabetes management.",
+  }
 ];
 
 export default function MedicareBrokerForDiabetics() {
@@ -335,6 +351,7 @@ export default function MedicareBrokerForDiabetics() {
               </Link>
             </li>
 </ul>
+            <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/coverage/continuous-glucose-monitors" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Continuous Glucose Monitor Coverage</a> and <a href="https://www.medicare.gov/coverage/diabetes-supplies-services" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Diabetes Supplies &amp; Services</a>.</div>
       </section>
     </main>
   );

@@ -356,6 +356,7 @@ export default function MedicareBrokerForPeopleWithCLL() {
               </Link>
             </li>
 </ul>
+            <div className="text-sm text-gray-600 mt-4">Helpful resources: <a href="https://www.medicare.gov/coverage/chemotherapy" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Medicare.gov — Chemotherapy Coverage</a> and <a href="https://www.medicare.gov/health-drug-plans/medigap/basics/when-to-buy" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Medicare.gov — When to Buy Medigap</a>.</div>
       </section>
     </>
   );

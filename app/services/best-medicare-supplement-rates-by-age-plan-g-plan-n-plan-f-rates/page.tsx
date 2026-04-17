@@ -86,6 +86,19 @@ const faqs = [
     answer:
       "Yes, in most cases. Attained-age rated plans increase as you get older, and all plans can receive block rate increases when claims in your insured pool rise. Some years you may see 4–6% bumps; other years, 10–18% jumps when age and block increases stack together.",
   },
+,
+  {
+    question: "Are Medigap benefits the same across all insurance carriers?",
+    answer:
+      "Yes. Medigap plan letters are standardized by Medicare, so a Plan G from any carrier covers the exact same benefits as a Plan G from another. The only differences are premium price, carrier reputation, and rate increase history.",
+  },
+  {
+    question: "Does Plan G cover the Part A and Part B deductibles in 2026?",
+    answer:
+      "Plan G covers the Part A hospital deductible of ];
+
+export default,676 in full but does not cover the $257 Part B deductible, which you'll pay once per year before your Medigap kicks in. After that deductible is met, Plan G covers the Part B coinsurance at 100%.",
+  }
 ];
 
 export default function BestMedicareSupplementRatesByAge() {
@@ -352,6 +365,7 @@ export default function BestMedicareSupplementRatesByAge() {
             </Link>
           </li>
         </ul>
+            <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/health-drug-plans/medigap/basics/compare-plan-benefits" rel="noopener noreferrer" target="_blank" className="underline">Compare Medigap Plan Benefits (Medicare.gov)</a> &middot; <a href="https://www.medicare.gov/health-drug-plans/medigap" rel="noopener noreferrer" target="_blank" className="underline">What's Medicare Supplement Insurance (Medigap)?</a></div>
       </section>
     </main>
   );

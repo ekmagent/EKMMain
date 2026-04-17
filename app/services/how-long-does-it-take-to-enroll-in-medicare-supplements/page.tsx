@@ -280,6 +280,7 @@ export default function HowLongToEnrollMedigapPage() {
             </Link>
           </li>
         </ul>
+            <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/basics/get-started-with-medicare/sign-up/when-does-medicare-coverage-start" rel="noopener noreferrer" target="_blank" className="underline">When does Medicare coverage start? (Medicare.gov)</a> and <a href="https://www.medicare.gov/health-drug-plans/medigap" rel="noopener noreferrer" target="_blank" className="underline">Medigap basics (Medicare.gov)</a>.</div>
       </section>
     </main>
   );

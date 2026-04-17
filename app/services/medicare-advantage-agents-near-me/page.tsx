@@ -83,6 +83,12 @@ const faqs = [
     answer:
       "The Annual Enrollment Period runs October 15 through December 7 for coverage starting January 1. If you're turning 65, your Initial Enrollment Period starts three months before your birthday month. A local agent can confirm your exact window.",
   },
+,
+  {
+    question: "What does a Medicare Advantage plan typically include that Original Medicare does not?",
+    answer:
+      "Most Medicare Advantage plans bundle Part A, Part B, and Part D prescription drug coverage into a single plan. Many also include extras like dental, vision, hearing, and fitness benefits that Original Medicare does not cover. Benefits vary by plan and county, so a local agent can confirm what is available where you live.",
+  }
 ];
 
 export default function MedicareAdvantageAgentsNearMe() {
@@ -303,7 +309,9 @@ export default function MedicareAdvantageAgentsNearMe() {
               </Link>
             </li>
 </ul>
-        </section>
+              <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/plan-compare" target="_blank" rel="noopener noreferrer" className="underline">Compare Medicare Advantage plans on Medicare.gov</a> and learn <a href="https://www.medicare.gov/basics/get-started-with-medicare/get-more-coverage/joining-a-plan" target="_blank" rel="noopener noreferrer" className="underline">how to join a Medicare Advantage plan</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">Free NJ counseling: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" target="_blank" rel="noopener noreferrer" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+      </section>
       </article>
     </>
   );

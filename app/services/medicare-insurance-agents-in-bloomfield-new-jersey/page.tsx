@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare insurance agents in bloomfield new jersey | Free Broker Help | MedicareYourself",
   description:
-    "Medicare insurance agents in Bloomfield New Jersey — compare every major carrier with independent broker Anthony Orner. Free quotes, zero sales pressure.",
+    "Compare Medicare plans in Bloomfield, NJ with independent broker Anthony Orner. Free side-by-side carrier quotes, no pressure. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-insurance-agents-in-bloomfield-new-jersey" },
   openGraph: {
     title:

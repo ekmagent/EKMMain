@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "find a medicare agent in north brunswick nj | Free Local Help | MedicareYourself",
   description:
-    "Find a Medicare agent in North Brunswick NJ who compares every major carrier. Anthony Orner offers free, local guidance for Middlesex County residents. Call today.",
+    "Find a Medicare agent in North Brunswick NJ. Anthony Orner compares every major carrier at no cost to Middlesex County residents. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/find-a-medicare-agent-in-north-brunswick-nj" },
   openGraph: {
     title:
@@ -83,6 +83,16 @@ const faqs = [
     answer:
       "Middlesex County residents can choose from Original Medicare with a Medigap supplement, Medicare Advantage (Part C), and standalone Part D prescription drug plans. Multiple carriers serve this area, and plan options change each year.",
   },
+,
+  {
+    question: "What does Medicare cost in 2026?",
+    answer:
+      "In 2026, the standard Part B premium is ];
+
+export default85 per month with a $257 annual deductible. The Part A hospital deductible is ];
+
+export default,676 per benefit period. Medicare Advantage and Part D premiums vary by plan and carrier.",
+  }
 ];
 
 export default function FindMedicareAgentNorthBrunswickNJ() {
@@ -312,7 +322,9 @@ export default function FindMedicareAgentNorthBrunswickNJ() {
               </Link>
             </li>
 </ul>
-        </section>
+              <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/plan-compare" rel="noopener noreferrer" target="_blank" className="underline">Compare Medicare plans on Medicare.gov</a> or review <a href="https://www.medicare.gov/what-medicare-covers" rel="noopener noreferrer" target="_blank" className="underline">what Medicare covers</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+      </section>
       </article>
     </>
   );

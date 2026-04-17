@@ -306,7 +306,8 @@ export default function QuickestWayToEnrollIntoPlanG() {
               </Link>
             </li>
 </ul>
-        </section>
+              <div className="text-sm text-gray-600 mt-4">Official Medicare resources: <a href="https://www.medicare.gov/health-drug-plans/medigap/ready-to-buy" rel="noopener noreferrer" target="_blank" className="underline">Get ready to buy a Medigap policy</a> and <a href="https://www.medicare.gov/health-drug-plans/medigap/ready-to-buy/how" rel="noopener noreferrer" target="_blank" className="underline">How to buy a Medigap policy</a>.</div>
+      </section>
       </article>
     </>
   );

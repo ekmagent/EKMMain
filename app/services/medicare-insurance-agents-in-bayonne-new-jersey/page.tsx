@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare insurance agents in bayonne new jersey | Free Local Help | MedicareYourself",
   description:
-    "Medicare insurance agents in Bayonne, New Jersey — Anthony Orner is a licensed independent broker comparing Supplement and Advantage plans. Free consultation.",
+    "Medicare agents in Bayonne, NJ — Anthony Orner, licensed broker, compares Medigap & Advantage plans at no cost. Free consult: call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-insurance-agents-in-bayonne-new-jersey" },
   openGraph: {
     title:
@@ -275,6 +275,8 @@ export default function MedicareInsuranceAgentsBayonneNJ() {
             </Link>
           </li>
         </ul>
+            <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/plan-compare" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov Plan Finder</a> and <a href="https://www.medicare.gov/basics/get-started-with-medicare" rel="noopener noreferrer" target="_blank" className="underline">Getting Started with Medicare</a>.</div>
+            <div className="text-sm text-gray-600 mt-2">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </main>
   );

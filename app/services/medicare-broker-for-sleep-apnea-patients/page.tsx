@@ -335,6 +335,7 @@ export default function MedicareBrokerForSleepApneaPatients() {
               </Link>
             </li>
 </ul>
+            <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/coverage/continuous-positive-airway-pressure-devices" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — CPAP therapy coverage</a> and <a href="https://www.medicare.gov/coverage/sleep-studies" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Sleep studies coverage</a>.</div>
       </section>
     </main>
   );

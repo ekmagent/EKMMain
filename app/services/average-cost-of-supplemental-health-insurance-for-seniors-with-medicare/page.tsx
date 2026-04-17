@@ -88,6 +88,21 @@ const faqs = [
     answer:
       "Your 6-month Medigap Open Enrollment Period, which starts the month you turn 65 and are enrolled in Part B, gives you guaranteed acceptance at the lowest available rate. Apply during this window and carriers can't charge more for pre-existing conditions or deny you coverage.",
   },
+,
+  {
+    question: "Do I still pay the Medicare Part B premium if I have a Medigap plan?",
+    answer:
+      "Yes. Medigap supplements Original Medicare but does not replace it. You continue paying the standard Part B premium of ];
+
+export default85/month in 2026, plus your Medigap premium. Medigap then picks up much of the cost-sharing Original Medicare leaves behind, like the Part A hospital deductible of ];
+
+export default,676.",
+  },
+  {
+    question: "Will my Medigap premium go up each year?",
+    answer:
+      "Most Medigap policies increase over time due to inflation and medical cost trends, and attained-age-rated plans also raise premiums as you get older. Community-rated and issue-age-rated plans don't increase based on your age, but can still rise with overall claims costs. Always ask the carrier which pricing method they use before enrolling.",
+  }
 ];
 
 export default function AverageCostSupplementalInsurancePage() {
@@ -279,6 +294,8 @@ export default function AverageCostSupplementalInsurancePage() {
             </Link>
           </li>
         </ul>
+            <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/health-drug-plans/medigap/basics/costs" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Medicare.gov — Get Medigap Costs</a> &middot; <a href="https://www.medicare.gov/health-drug-plans/medigap" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Medicare.gov — Medigap Basics</a></div>
+            <div className="text-sm text-gray-600 mt-4">For free one-on-one counseling in your state, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a> or the <a href="https://www.nj.gov/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a>.</div>
       </section>
     </main>
   );

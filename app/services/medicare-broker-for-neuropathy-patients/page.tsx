@@ -322,7 +322,8 @@ export default function MedicareBrokerForNeuropathyPatients() {
               </Link>
             </li>
 </ul>
-        </section>
+              <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/coverage/nerve-conduction-studies" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">Medicare.gov — Nerve conduction studies coverage</a> and <a href="https://www.medicare.gov/coverage/foot-care" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">Medicare.gov — Foot care coverage</a>.</div>
+      </section>
       </article>
     </>
   );

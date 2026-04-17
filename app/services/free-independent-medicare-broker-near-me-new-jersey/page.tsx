@@ -264,6 +264,8 @@ export default function FreeIndependentMedicareBrokerNearMeNewJersey() {
             </Link>
           </li>
         </ul>
+            <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/basics/get-started-with-medicare/get-more-coverage/working-with-an-agent-or-broker" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov: Working with an agent or broker</a> &middot; <a href="https://www.medicare.gov/plan-compare/" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov Plan Finder</a></div>
+            <div className="text-sm text-gray-600 mt-2">For free unbiased counseling in New Jersey, contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

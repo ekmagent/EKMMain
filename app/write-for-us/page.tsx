@@ -6,7 +6,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Write for Us — Medicare Articles",
   description:
-    "Submit a Medicare article to MedicareYourself. We publish expert-written content on Medicare Supplement, Medicare Advantage, and enrollment. Guidelines inside.",
+    "Write for MedicareYourself: submit expert Medicare Supplement, Advantage, and enrollment articles. Earn a byline and do-follow link — see our guidelines.",
   alternates: { canonical: `${SITE_URL}/write-for-us` },
   openGraph: {
     title: "Write for Us — Medicare Articles",
@@ -22,6 +22,7 @@ export default function WriteForUsPage() {
         <h1 className="text-3xl font-bold text-gray-900 mb-4">
           Write for Us — Medicare Article Submission
         </h1>
+        <p className="text-sm text-gray-500 mt-2">By <strong>Anthony Orner</strong>, Licensed Medicare Insurance Broker — NJ &amp; 34 states</p>
 
         <p className="text-lg text-gray-700 mb-6">
           MedicareYourself publishes expert-written articles on Medicare Supplement insurance,
@@ -105,6 +106,7 @@ export default function WriteForUsPage() {
           </p>
           <PhoneCTA size="lg" label="Call 855-559-1700" />
         </div>
+            <div className="text-sm text-gray-600 mt-4">Helpful authoritative sources for contributors: <a href="https://www.medicare.gov/" target="_blank" rel="noopener noreferrer" className="text-blue-700 underline">Medicare.gov</a> and <a href="https://www.cms.gov/" target="_blank" rel="noopener noreferrer" className="text-blue-700 underline">CMS.gov</a>.</div>
       </section>
     </>
   );

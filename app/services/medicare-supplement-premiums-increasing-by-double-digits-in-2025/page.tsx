@@ -85,6 +85,17 @@ const faqs = [
     answer:
       "Each carrier files rates based on its own claims experience. A carrier with an older or sicker pool of policyholders will raise rates faster. Newer market entrants often have lower rates because their risk pool hasn't aged yet.",
   },
+,
+  {
+    question: "Does my Medicare Supplement plan automatically renew if my premium increases?",
+    answer:
+      "Yes. Medigap policies sold today are guaranteed renewable, meaning the carrier cannot cancel your coverage as long as you pay your premium. A rate increase does not change your benefits, but it is a good reason to compare other carriers offering the same plan letter.",
+  },
+  {
+    question: "What should I do if I get a double-digit rate increase letter?",
+    answer:
+      "Don't cancel your current plan until you have a new one approved. Request a free rate review to compare carriers offering the identical plan letter at a lower price. If you can pass medical underwriting, switching carriers may lock in significant savings without changing your benefits.",
+  }
 ];
 
 export default function MedicareSupplementPremiumsIncreasing2025() {
@@ -291,6 +302,7 @@ export default function MedicareSupplementPremiumsIncreasing2025() {
             </Link>
           </li>
         </ul>
+            <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/health-drug-plans/medigap" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">Medicare.gov — Medigap (Medicare Supplement) basics</a> and <a href="https://www.medicare.gov/health-drug-plans/medigap/basics/when-to-buy" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">When to buy a Medigap policy</a>.</div>
       </section>
     </main>
   );

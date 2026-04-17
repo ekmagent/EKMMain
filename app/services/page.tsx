@@ -9,7 +9,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Medicare Services & Guides | MedicareYourself",
   description:
-    "Find a Medicare broker, compare Medigap plans, get condition-specific guidance, and explore local agents near you. Free, independent help: 855-559-1700.",
+    "Compare Medigap, Part D, and Medicare Advantage with a licensed independent broker. Condition-specific guidance and free plan reviews—call 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/services` },
   openGraph: {
     title: "Medicare Services & Guides | MedicareYourself",
@@ -214,6 +214,26 @@ const STATIC_CATEGORIES = [
       { href: "/medicare-advantage/new-jersey", label: "Best Medicare Advantage Plans in New Jersey (2026)" },
     ],
   },
+,
+  {
+    question: "What services does a Medicare broker provide?",
+    answer:
+      "An independent Medicare broker helps you compare Medigap, Medicare Advantage, and Part D plans from multiple carriers based on your doctors, medications, and budget. The service is free to you because brokers are paid by the insurance companies after you enroll. A licensed broker can also assist with enrollment paperwork and annual plan reviews.",
+  },
+  {
+    question: "How much does Medicare cost in 2026?",
+    answer:
+      "In 2026, the standard Part B premium is ];
+
+export default85 per month with a $257 annual deductible, and the Part A hospital deductible is ];
+
+export default,676 per benefit period. Most people pay no premium for Part A if they or a spouse paid Medicare taxes for at least 10 years. Medigap, Medicare Advantage, and Part D premiums vary by plan and ZIP code.",
+  },
+  {
+    question: "Can I get help enrolling in Medicare for free?",
+    answer:
+      "Yes. Licensed independent brokers offer no-cost guidance and enrollment help, and you can also contact Medicare directly at 1-800-MEDICARE or your State Health Insurance Assistance Program (SHIP). Call 855-559-1700 to speak with a licensed broker for a plan comparison tailored to your needs.",
+  }
 ];
 
 export default function ServicesHubPage() {
@@ -236,6 +256,7 @@ export default function ServicesHubPage() {
         <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
           Medicare Services
         </h1>
+        <p className="text-sm text-gray-500 mt-2">By <strong>Anthony Orner</strong>, Licensed Medicare Insurance Broker — NJ &amp; 34 states</p>
         <p className="text-lg text-gray-600 leading-relaxed max-w-3xl">
           We help Medicare beneficiaries find the right coverage with free,
           unbiased guidance from a licensed independent broker. Here are the
@@ -314,6 +335,8 @@ export default function ServicesHubPage() {
             Free &middot; Independent &middot; Licensed in NJ and 34 states
           </p>
         </div>
+            <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/" rel="noopener noreferrer" target="_blank">Medicare.gov</a> · <a href="https://www.medicare.gov/plan-compare/" rel="noopener noreferrer" target="_blank">Find &amp; compare plans</a></div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents: see the <a href="https://www.state.nj.us/dobi/division_consumers/insurance/shipp.htm" rel="noopener noreferrer" target="_blank">NJ SHIP program</a> for free Medicare counseling.</div>
       </section>
     </>
   );

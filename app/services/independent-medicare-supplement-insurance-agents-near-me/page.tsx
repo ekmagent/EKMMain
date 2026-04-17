@@ -271,7 +271,8 @@ export default function IndependentMedicareSupplementAgentsNearMe() {
               </Link>
             </li>
           </ul>
-        </section>
+              <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/health-drug-plans/medigap" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Medigap (Medicare Supplement Insurance)</a> and <a href="https://www.medicare.gov/talk-to-someone" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Find someone to talk to in your state</a>.</div>
+      </section>
       </article>
     </>
   );

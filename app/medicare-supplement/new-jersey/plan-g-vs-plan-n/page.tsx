@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Plan G vs Plan N in NJ | Compare 2026",
   description:
-    "Plan G vs Plan N in New Jersey: cost comparison, coverage differences, and which Medigap plan saves more in 2026. Call 855-559-1700.",
+    "Compare Medigap Plan G vs Plan N in New Jersey for 2026: premiums, copays, and coverage differences. Get personalized NJ quotes — call 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/medicare-supplement/new-jersey/plan-g-vs-plan-n` },
   openGraph: {
     title: "Plan G vs Plan N in NJ | Compare 2026",
@@ -71,6 +71,7 @@ export default function PlanGvsPlanNPage() {
         <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">
           Medigap Plan G vs Plan N in New Jersey (2026): Which Is Better?
         </h1>
+        <p className="text-sm text-gray-500 mt-2">By <strong>Anthony Orner</strong>, Licensed Medicare Insurance Broker — NJ &amp; 34 states</p>
         <p className="text-xs text-gray-400 mb-6">Last reviewed: March 2026 · Sources: CMS.gov, NJ DOBI</p>
 
         <div className="bg-blue-50 border border-blue-100 rounded-xl p-5 mb-8">

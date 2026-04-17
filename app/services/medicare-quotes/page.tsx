@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare quotes | Free Instant Rates From Every Carrier | MedicareYourself",
   description:
-    "Medicare quotes from every major carrier compared side by side. Get free Supplement and Advantage rates instantly — no obligation, no runaround.",
+    "Compare free Medicare quotes from every major carrier side by side. Get instant Supplement and Advantage rates — no obligation. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-quotes" },
   openGraph: {
     title:
@@ -274,6 +274,7 @@ export default function MedicareQuotesPage() {
             </Link>
           </li>
         </ul>
+            <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/plan-compare" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Medicare.gov Plan Finder</a> to compare plans in your area, or visit <a href="https://www.medicare.gov/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Medicare.gov</a> to create an account and review your current coverage.</div>
       </section>
     </main>
   );

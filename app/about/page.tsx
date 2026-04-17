@@ -6,7 +6,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "About Us | Licensed Medicare Broker",
   description:
-    "Independent, licensed Medicare broker serving New Jersey and 34 states. Free, unbiased plan comparisons. NPI 1902584006 · NPN 20586791. Call 855-559-1700.",
+    "Meet Anthony Orner, an independent licensed Medicare broker serving NJ and 34 states. Free, unbiased Medigap & Advantage comparisons. Call 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/about` },
   openGraph: {
     title: "About Us | Licensed Medicare Broker",
@@ -201,6 +201,7 @@ export default function AboutPage() {
           </ul>
         </div>
 
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" target="_blank" rel="noopener noreferrer" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </>
   );

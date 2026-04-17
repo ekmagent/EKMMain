@@ -87,6 +87,16 @@ const faqs = [
     answer:
       "Yes. I provide bilingual support so Union City residents who are more comfortable in Spanish can review plan details, ask questions, and enroll without anything getting lost in translation.",
   },
+,
+  {
+    question: "How much does Medicare cost in 2026 when I work with a local Union City agent?",
+    answer:
+      "My services are free to you — carriers pay broker commissions directly. Your actual Medicare costs in 2026 include the standard Part B premium of ];
+
+export default85/month, a Part B deductible of $257, and a Part A hospital deductible of ];
+
+export default,676 per benefit period. Supplement and Advantage plan premiums vary by carrier and coverage level.",
+  }
 ];
 
 export default function LocalMedicareAgentsUnionCityNJ() {
@@ -356,7 +366,8 @@ export default function LocalMedicareAgentsUnionCityNJ() {
               </Link>
             </li>
 </ul>
-        </section>
+              <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/plan-compare" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov Plan Finder</a> and <a href="https://www.medicare.gov/basics/get-started-with-medicare" rel="noopener noreferrer" target="_blank" className="underline">Getting Started with Medicare</a>. New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free counseling.</div>
+      </section>
       </article>
     </>
   );

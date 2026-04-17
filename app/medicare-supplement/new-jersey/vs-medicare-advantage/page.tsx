@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Medigap vs Medicare Advantage in NJ",
   description:
-    "Medigap vs Medicare Advantage in NJ: compare costs, networks, and flexibility. Find which plan is right for you in 2026. Call 855-559-1700.",
+    "Medigap vs Medicare Advantage in NJ: compare costs, networks, and flexibility for 2026. Get clear guidance from a licensed NJ broker — call 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/medicare-supplement/new-jersey/vs-medicare-advantage` },
   openGraph: {
     title: "Medigap vs Medicare Advantage in NJ",
@@ -71,6 +71,7 @@ export default function MedigapVsMAPage() {
         <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">
           Medigap vs Medicare Advantage in New Jersey (2026)
         </h1>
+        <p className="text-sm text-gray-500 mt-2">By <strong>Anthony Orner</strong>, Licensed Medicare Insurance Broker — NJ &amp; 34 states</p>
         <p className="text-xs text-gray-400 mb-6">Last reviewed: March 2026 · Sources: CMS.gov, KFF.org, NJ DOBI</p>
 
         <div className="bg-blue-50 border border-blue-100 rounded-xl p-5 mb-8">

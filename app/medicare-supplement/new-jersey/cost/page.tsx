@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Medicare Supplement Cost in NJ 2026",
   description:
-    "Medicare Supplement costs in NJ for 2026: Part B premiums, Plan G rates by carrier, and out-of-pocket estimates. Call 855-559-1700.",
+    "Medicare Supplement costs in NJ for 2026: Part B $185/mo, Plan G rates, and real out-of-pocket estimates. Compare carriers — call 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/medicare-supplement/new-jersey/cost` },
   openGraph: {
     title: "Medicare Supplement Cost in NJ 2026",
@@ -71,6 +71,7 @@ export default function NJMedicareCostPage() {
         <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">
           How Much Does Medicare Cost in New Jersey in 2026?
         </h1>
+        <p className="text-sm text-gray-500 mt-2">By <strong>Anthony Orner</strong>, Licensed Medicare Insurance Broker — NJ &amp; 34 states</p>
         <p className="text-xs text-gray-400 mb-6">Last reviewed: March 2026 · Sources: CMS.gov, NJ DOBI</p>
 
         <div className="bg-blue-50 border border-blue-100 rounded-xl p-5 mb-8">

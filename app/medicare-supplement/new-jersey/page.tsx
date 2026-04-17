@@ -120,6 +120,7 @@ export default function NJMedicareSupplementPage() {
             <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">
               Best Medicare Supplement Plans in New Jersey (2026)
             </h1>
+        <p className="text-sm text-gray-500 mt-2">By <strong>Anthony Orner</strong>, Licensed Medicare Insurance Broker — NJ &amp; 34 states</p>
             <p className="text-lg text-gray-600 leading-relaxed mb-6">
               <strong>The short answer:</strong> Plan G is the best Medicare Supplement plan for most New Jersey
               residents in 2026. It covers nearly all out-of-pocket Medicare costs, lets you use any doctor who
