@@ -281,6 +281,7 @@ export default function MedicareBrokerHipReplacementPage() {
           </li>
         </ul>
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/coverage/hip-joint-replacement" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Hip Joint Replacement Coverage</a> and <a href="https://www.medicare.gov/coverage/physical-therapy" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Physical Therapy Coverage</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">Need unbiased help in your state? Contact the <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
       </section>
     </main>
   );

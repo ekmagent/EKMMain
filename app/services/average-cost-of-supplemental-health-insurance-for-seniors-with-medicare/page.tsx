@@ -92,7 +92,13 @@ const faqs = [
   {
     question: "Do I still pay the Medicare Part B premium if I have a Medigap plan?",
     answer:
-      "Yes. Medigap supplements Original Medicare but does not replace it. You continue paying the standard Part B premium of ];
+      "Yes. Medigap supplements Original Medicare but does not replace it. You continue paying the standard Part B premium of ,
+  {
+    question: "Does the cost of supplemental insurance increase as I get older?",
+    answer:
+      "It depends on the pricing method your carrier uses. Attained-age-rated policies increase as you age, issue-age-rated policies are based on your age at purchase and don't rise with age (though they can increase for inflation), and community-rated policies charge everyone in your area the same regardless of age. All three types can still have annual rate increases tied to inflation and claims costs.",
+  }
+];
 
 export default85/month in 2026, plus your Medigap premium. Medigap then picks up much of the cost-sharing Original Medicare leaves behind, like the Part A hospital deductible of ];
 

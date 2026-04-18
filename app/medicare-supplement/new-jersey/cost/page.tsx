@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Medicare Supplement Cost in NJ 2026",
   description:
-    "Medicare Supplement costs in NJ for 2026: Part B $185/mo, Plan G rates, and real out-of-pocket estimates. Compare carriers — call 855-559-1700.",
+    "2026 Medicare Supplement costs in NJ: Part B $185/mo, $257 deductible, Plan G rates by county. Compare NJ Medigap carriers — call 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/medicare-supplement/new-jersey/cost` },
   openGraph: {
     title: "Medicare Supplement Cost in NJ 2026",
@@ -43,6 +43,24 @@ const faqs = [
     answer:
       "The Medicare Part B deductible is $257 in 2026 — this is a federal amount that applies nationwide, not NJ-specific. Plan G covers everything except this deductible. Plan F covers it entirely but is only available to those who became Medicare-eligible before January 1, 2020.",
   },
+,
+  {
+    question: "Does New Jersey use community rating for Medigap premiums?",
+    answer:
+      "Yes. New Jersey uses community rating for Medicare Supplement plans, meaning premiums are not based on your individual age. Everyone enrolled in the same plan with the same carrier pays the same base rate, though prices can still differ by county and carrier. This generally keeps long-term costs more predictable than age-rated states.",
+  },
+  {
+    question: "When is the best time to buy a Medigap plan in New Jersey to get the lowest cost?",
+    answer:
+      "The best time is during your 6-month Medigap Open Enrollment Period, which starts the month you are 65 or older and enrolled in Part B. During this window, you have guaranteed issue rights — carriers cannot deny you or charge more due to health. Outside this window, you may face medical underwriting. Call 855-559-1700 to review your options.",
+  },
+  {
+    question: "What is the Part A hospital deductible in New Jersey for 2026?",
+    answer:
+      "The Medicare Part A hospital deductible is ];
+
+export default,676 per benefit period in 2026. This is a federal amount and applies in every state, including New Jersey. Medigap Plan G and Plan N both fully cover this deductible, which is one of the main reasons many NJ beneficiaries add a supplement.",
+  }
 ];
 
 export default function NJMedicareCostPage() {

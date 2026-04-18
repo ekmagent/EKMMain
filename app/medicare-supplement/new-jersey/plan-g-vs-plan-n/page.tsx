@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Plan G vs Plan N in NJ | Compare 2026",
   description:
-    "Compare Medigap Plan G vs Plan N in New Jersey for 2026: premiums, copays, and coverage differences. Get personalized NJ quotes — call 855-559-1700.",
+    "Compare Medigap Plan G vs Plan N in NJ for 2026: premiums, copays, and coverage differences under community rating. Get personalized quotes — call 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/medicare-supplement/new-jersey/plan-g-vs-plan-n` },
   openGraph: {
     title: "Plan G vs Plan N in NJ | Compare 2026",
@@ -43,6 +43,24 @@ const faqs = [
     answer:
       "You can apply to switch from Plan N to Plan G at any time, but outside of your 6-month Medigap Open Enrollment Period, insurers may use medical underwriting. If you are in good health, switching is usually straightforward. If you have significant health conditions, it may be more difficult. That is why choosing the right plan during your initial enrollment window matters.",
   },
+,
+  {
+    question: "Does New Jersey's community rating affect Plan G vs Plan N pricing?",
+    answer:
+      "Yes. Because New Jersey uses community rating for Medigap, every enrollee with a given carrier pays the same premium regardless of age for both Plan G and Plan N. This means the monthly savings you get from choosing Plan N over Plan G stays consistent as you age, rather than shrinking over time like it would in age-rated states.",
+  },
+  {
+    question: "When can I enroll in Plan G or Plan N in New Jersey without medical underwriting?",
+    answer:
+      "Your best window is the 6-month Medigap Open Enrollment Period that begins the month you turn 65 and are enrolled in Medicare Part B. During this period, insurers in New Jersey must sell you any Medigap plan they offer without health questions. Outside that window, applications may be subject to medical underwriting.",
+  },
+  {
+    question: "Do Plan G and Plan N cover the Part A deductible in New Jersey?",
+    answer:
+      "Yes. Both Plan G and Plan N fully cover the Medicare Part A hospital deductible, which is ];
+
+export default,676 per benefit period in 2026. They also both cover Part A coinsurance and an additional 365 days of hospital coverage after Medicare benefits are exhausted.",
+  }
 ];
 
 export default function PlanGvsPlanNPage() {

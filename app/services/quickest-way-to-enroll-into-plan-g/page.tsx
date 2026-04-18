@@ -307,6 +307,7 @@ export default function QuickestWayToEnrollIntoPlanG() {
             </li>
 </ul>
               <div className="text-sm text-gray-600 mt-4">Official Medicare resources: <a href="https://www.medicare.gov/health-drug-plans/medigap/ready-to-buy" rel="noopener noreferrer" target="_blank" className="underline">Get ready to buy a Medigap policy</a> and <a href="https://www.medicare.gov/health-drug-plans/medigap/ready-to-buy/how" rel="noopener noreferrer" target="_blank" className="underline">How to buy a Medigap policy</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

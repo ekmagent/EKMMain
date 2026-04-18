@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "how long does it take to get approved for a medicare supplement plan | Free Timeline Guide | MedicareYourself",
   description:
-    "How long does it take to get approved for a Medicare Supplement plan? Most approvals take 1–3 weeks. Learn what affects timing and how to speed it up.",
+    "How long does Medicare Supplement approval take? Most applications clear in 1–3 weeks. Get a free timeline review — call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/how-long-does-it-take-to-get-approved-for-a-medicare-supplement-plan" },
   openGraph: {
     title:

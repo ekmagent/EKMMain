@@ -311,6 +311,7 @@ export default function MedicareBrokerKidneyDisease() {
             </li>
 </ul>
               <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/basics/end-stage-renal-disease" rel="noopener noreferrer" target="_blank" className="underline">Medicare coverage for ESRD (Medicare.gov)</a> and <a href="https://www.cms.gov/medicare/coverage/end-stage-renal-disease" rel="noopener noreferrer" target="_blank" className="underline">CMS End-Stage Renal Disease program</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling from the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
       </article>
     </>

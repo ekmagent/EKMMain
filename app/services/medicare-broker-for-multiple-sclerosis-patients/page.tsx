@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for multiple sclerosis patients | Free Plan Comparison | MedicareYourself",
   description:
-    "Medicare broker for MS patients in NJ. Anthony Orner finds plans covering Ocrevus, MRIs & rehab. Free consultation — call 855-559-1700 today.",
+    "Medicare broker for MS patients in NJ. Anthony Orner finds plans covering Ocrevus, MRIs & neurologist visits. Free plan comparison — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-multiple-sclerosis-patients" },
   openGraph: {
     title:
@@ -92,7 +92,13 @@ const faqs = [
   {
     question: "What does Medicare Part B cost in 2026 for MS patients?",
     answer:
-      "In 2026, the standard Part B premium is ];
+      "In 2026, the standard Part B premium is ,
+  {
+    question: "Does Medicare cover MRIs needed to monitor MS progression?",
+    answer:
+      "Yes. Medicare Part B covers medically necessary MRIs ordered by your doctor to monitor MS. You'll typically pay 20% of the Medicare-approved amount after meeting the $257 annual Part B deductible, unless you have a Medigap plan that covers coinsurance. Medicare Advantage plans may require prior authorization before approving the scan.",
+  }
+];
 
 export default85 per month with an annual deductible of $257. After meeting the deductible, you pay 20% coinsurance for covered services, including physician-administered MS infusions. A Medigap plan can cover most or all of that 20% coinsurance depending on the plan letter you choose.",
   },
@@ -321,6 +327,7 @@ export default function MedicareBrokerForMSPatients() {
             </li>
 </ul>
               <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/coverage/infusion-pumps-supplies" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov on infusion coverage</a> and <a href="https://www.cms.gov/medicare/coverage/coverage-general-information" rel="noopener noreferrer" target="_blank" className="underline">CMS coverage guidelines</a> for Part B drugs.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

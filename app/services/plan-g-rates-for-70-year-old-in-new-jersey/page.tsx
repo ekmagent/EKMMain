@@ -98,7 +98,20 @@ const faqs = [
   {
     question: "What does Plan G cover at age 70 in New Jersey?",
     answer:
-      "Plan G covers the Part A ];
+      "Plan G covers the Part A ,
+  {
+    question: "When can a 70-year-old in NJ enroll in Plan G without underwriting?",
+    answer:
+      "The federal 6-month Medigap Open Enrollment Period starts the month you are 65 or older and enrolled in Part B, so most 70-year-olds are past that window. You may still qualify for guaranteed issue under specific circumstances, such as losing employer coverage. Outside those windows, carriers in New Jersey can require medical underwriting. Call 855-559-1700 to review your options.",
+  },
+  {
+    question: "Does Plan G cover the Part B deductible in 2026?",
+    answer:
+      "No. Plan G does not cover the 2026 Part B deductible of $257, which you pay once per year before Medicare begins paying its share. After that deductible is met, Plan G covers the remaining Part B coinsurance and copayments. It also covers the 2026 Part A hospital deductible of ];
+
+export default,676.",
+  }
+];
 
 export default,676 hospital deductible, Part A coinsurance, Part B coinsurance, skilled nursing coinsurance, and excess charges. You are only responsible for the annual Part B deductible of $257 in 2026. After that, approved Medicare services are generally covered in full.",
   }

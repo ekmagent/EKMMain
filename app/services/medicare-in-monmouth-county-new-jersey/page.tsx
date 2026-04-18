@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare in monmouth county new jersey | Free Local Broker Quotes | MedicareYourself",
   description:
-    "Compare Medicare Supplement, Advantage, and Part D plans in Monmouth County, NJ with a licensed local broker. Free zip-code quotes — call 855-559-1700 today.",
+    "Compare Medicare Advantage, Medigap, and Part D plans in Monmouth County, NJ with a licensed local broker. Free zip-code quotes — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-in-monmouth-county-new-jersey" },
   openGraph: {
     title:

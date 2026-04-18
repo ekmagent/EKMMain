@@ -295,6 +295,7 @@ export default function HowMuchDoesMedicareSupplementCostPerMonthForSeniors() {
           </li>
         </ul>
             <div className="text-sm text-gray-600 mt-4">Official references: <a href="https://www.medicare.gov/health-drug-plans/medigap/basics/costs" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Get Medigap Costs</a> and <a href="https://www.medicare.gov/basics/costs/medicare-costs" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — 2026 Medicare Costs</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">Need free, unbiased state help? Contact <a href="https://www.state.nj.us/dobi/division_insurance/ship/shipmain.htm" rel="noopener noreferrer" target="_blank" className="text-blue-700 underline">NJ SHIP (State Health Insurance Assistance Program)</a> for one-on-one Medigap counseling.</div>
       </section>
     </main>
   );

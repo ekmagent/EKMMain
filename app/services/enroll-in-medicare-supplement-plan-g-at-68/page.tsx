@@ -371,6 +371,7 @@ export default function EnrollInMedicareSupplementPlanGAt68() {
             </li>
 </ul>
               <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/health-drug-plans/medigap" rel="noopener noreferrer" target="_blank" className="underline hover:text-blue-700">Medicare.gov Medigap Overview</a> &middot; <a href="https://www.medicare.gov/health-drug-plans/medigap/basics/when-to-get" rel="noopener noreferrer" target="_blank" className="underline hover:text-blue-700">When to Enroll in Medigap</a></div>
+            <div className="text-sm text-gray-600 mt-4">Need local help? Contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/shipmain.htm" rel="noopener noreferrer" target="_blank" className="underline hover:text-blue-700">New Jersey State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
       </section>
       </article>
     </>

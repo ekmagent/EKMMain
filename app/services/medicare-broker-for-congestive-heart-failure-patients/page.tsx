@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for congestive heart failure patients | Free Plan Review | MedicareYourself",
   description:
-    "Medicare broker for congestive heart failure patients in NJ. Anthony Orner finds plans covering cardiac rehab, meds, and hospital stays. Free consultation.",
+    "Medicare broker for congestive heart failure patients. Anthony Orner compares plans covering cardiac rehab, CHF meds & hospital stays. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-congestive-heart-failure-patients" },
   openGraph: {
     title:
@@ -301,6 +301,7 @@ export default function MedicareBrokerCHFPage() {
         </ul>
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/coverage/cardiac-rehabilitation-programs" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Cardiac Rehabilitation Coverage</a> and <a href="https://www.medicare.gov/coverage/heart-disease-screenings" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Heart Disease Screenings</a>.</div>
             <div className="text-sm text-gray-600 mt-2">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </main>
   );

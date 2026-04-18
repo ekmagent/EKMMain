@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Best Medicare Supplement Plans in PA 2026",
   description:
-    "Compare Medicare Supplement plans in Pennsylvania. Plan G vs Plan N rates, costs, and PA enrollment rules for 2026. Call 855-559-1700.",
+    "Compare Medicare Supplement plans in Pennsylvania for 2026. Plan G vs Plan N rates, PA attained-age rules, and enrollment tips. Call 855-559-1700 today.",
   alternates: { canonical: `${SITE_URL}/medicare-supplement/pennsylvania` },
   openGraph: {
     title: "Best Medicare Supplement Plans in PA 2026",

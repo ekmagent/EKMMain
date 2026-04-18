@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "My Medicare Supplement Rate Just Jumped — Why, and What Can I Do? | Free Rate Comparison | MedicareYourself",
   description:
-    "My Medicare Supplement rate just jumped — here's why premiums increase and how switching carriers can cut your cost. Free comparison from Anthony Orner.",
+    "Medicare Supplement rate jumped? Learn why Medigap premiums rise and how switching carriers (same benefits, lower cost) can save you money. Free comparison.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-supplement-rate-jumped-why-and-what-can-i-do" },
   openGraph: {
     title:

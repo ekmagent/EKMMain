@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for Alzheimer's patients | Free Family Consultation | MedicareYourself",
   description:
-    "Medicare broker for Alzheimer's patients and families. Anthony Orner coordinates coverage for medications, skilled nursing, and what's ahead. Free consult.",
+    "Medicare broker for Alzheimer's patients and families. Anthony Orner coordinates drug, skilled nursing & hospice coverage. Free consult — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-alzheimers-patients" },
   openGraph: {
     title:
@@ -555,6 +555,7 @@ export default function MedicareBrokerForAlzheimersPatients() {
 </ul>
               <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/coverage/cognitive-assessment-care-plan-services" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Cognitive Assessment &amp; Care Plan Services</a> and <a href="https://www.medicare.gov/coverage/skilled-nursing-facility-snf-care" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Skilled Nursing Facility Care</a>.</div>
             <div className="text-sm text-gray-600 mt-2">New Jersey families can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey families can also reach the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
       </section>
       </article>
     </>

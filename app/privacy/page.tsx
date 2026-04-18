@@ -5,7 +5,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Privacy Policy",
   description:
-    "Read how MedicareYourself protects your personal information when you request plan quotes. Questions? Call a licensed broker at 855-559-1700.",
+    "See how MedicareYourself safeguards your personal info when comparing 2026 plans. Questions about your data? Call a licensed broker at 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/privacy` },
 };
 

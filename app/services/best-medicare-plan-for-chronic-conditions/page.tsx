@@ -312,6 +312,7 @@ export default function BestMedicarePlanForChronicConditions() {
             </li>
 </ul>
               <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/coverage/chronic-care-management-services" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov – Chronic Care Management Services</a> and <a href="https://www.medicare.gov/health-drug-plans/health-plans/your-health-plan-options/SNP" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov – Special Needs Plans (SNPs)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

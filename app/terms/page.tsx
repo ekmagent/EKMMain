@@ -5,7 +5,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Terms of Service",
   description:
-    "Review the Terms of Service for MedicareYourself, a licensed Medicare brokerage offering free plan comparisons. Questions? Call 855-559-1700 today.",
+    "Review MedicareYourself's Terms of Service — a licensed Medicare brokerage offering free, no-cost plan comparisons. Questions? Call 855-559-1700 today.",
   alternates: { canonical: `${SITE_URL}/terms` },
 };
 

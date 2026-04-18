@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "what time of the year can you switch medicare supplement plans | Free Help from a Licensed Broker | MedicareYourself",
   description:
-    "What time of year can you switch Medicare Supplement plans? Medigap rules differ from Advantage. Learn when you qualify and switch free with Anthony Orner.",
+    "Switch Medicare Supplement plans any time of year, but timing matters. Learn your rights and get free broker help from Anthony Orner. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/what-time-of-year-can-you-switch-medicare-supplement-plans" },
   openGraph: {
     title:

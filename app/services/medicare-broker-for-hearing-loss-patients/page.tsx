@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for hearing loss patients | Free Plan Review | MedicareYourself",
   description:
-    "Medicare broker for hearing loss patients — find plans with hearing aid and audiology benefits. Anthony Orner compares NJ options at no cost. Call today.",
+    "Medicare broker for hearing loss patients — compare NJ plans with hearing aid allowances and audiology benefits at no cost. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-hearing-loss-patients" },
   openGraph: {
     title:
@@ -84,6 +84,17 @@ const faqs = [
     answer:
       "Costs vary by plan. Some NJ Medicare Advantage plans offer hearing aid allowances ranging from a few hundred dollars to over $1,000 per ear. Copays and brand restrictions differ between carriers. A broker can compare the exact benefit amounts across your available plans.",
   },
+,
+  {
+    question: "Does Medicare cover diagnostic hearing exams?",
+    answer:
+      "Yes. Medicare Part B covers diagnostic hearing and balance exams when your doctor or other health care provider orders them to see if you need medical treatment. You pay 20% of the Medicare-approved amount after the annual Part B deductible of $257 in 2026.",
+  },
+  {
+    question: "Can a Medicare broker help me switch plans if my current one does not cover hearing aids?",
+    answer:
+      "Yes. During the Annual Enrollment Period (October 15 to December 7) or the Medicare Advantage Open Enrollment Period (January 1 to March 31), a licensed broker can help you compare plans that include hearing benefits. Anthony Orner reviews your current coverage and identifies NJ plans with stronger hearing aid allowances at no cost to you.",
+  }
 ];
 
 export default function MedicareBrokerForHearingLossPatients() {
@@ -332,6 +343,7 @@ export default function MedicareBrokerForHearingLossPatients() {
             </li>
 </ul>
             <div className="text-sm text-gray-600 mt-4">Learn more from official sources: <a href="https://www.medicare.gov/coverage/hearing-balance-exams" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">Medicare.gov — Hearing &amp; Balance Exams</a> and <a href="https://www.medicare.gov/coverage/hearing-aids" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">Medicare.gov — Hearing Aids Coverage</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

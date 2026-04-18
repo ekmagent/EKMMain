@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "plan g rates for 68 year old in new jersey | Free Carrier Comparison | MedicareYourself",
   description:
-    "Compare Plan G rates for a 68-year-old in New Jersey across top carriers. Same coverage, different prices — call 855-559-1700 for a free side-by-side quote.",
+    "Compare Plan G rates for a 68-year-old in New Jersey across top carriers. Same coverage, different prices — call 855-559-1700 for a free quote.",
   alternates: { canonical: "https://medicareyourself.com/services/plan-g-rates-for-68-year-old-in-new-jersey" },
   openGraph: {
     title:
@@ -94,7 +94,23 @@ const faqs = [
   {
     question: "Does Plan G cover the 2026 Part B deductible?",
     answer:
-      "Yes. Plan G pays the $257 Part B deductible in 2026, along with the Part A ];
+      "Yes. Plan G pays the $257 Part B deductible in 2026, along with the Part A ,
+  {
+    question: "Does Plan G in NJ cover the Part B deductible?",
+    answer:
+      "Yes. Plan G covers the annual Medicare Part B deductible, which is $257 in 2026. After that deductible is met, Plan G pays the remaining Part B coinsurance and copayments, so you typically have no out-of-pocket cost for Medicare-approved doctor visits or outpatient services.",
+  },
+  {
+    question: "Will my Plan G premium in New Jersey increase as I get older?",
+    answer:
+      "It depends on the carrier's rating method. Some NJ Plan G policies use attained-age rating, where premiums rise as you age, while others use issue-age or community rating, which are more stable over time. Comparing the pricing method — not just today's premium — is an important part of choosing the right carrier.",
+  },
+  {
+    question: "Can I enroll in Plan G at 68 without medical underwriting?",
+    answer:
+      "The 6-month Medigap Open Enrollment Period starts the first month you're 65 or older and enrolled in Part B, so most 68-year-olds are past that window and may need to answer health questions. Exceptions include certain federal guaranteed-issue situations, such as losing employer coverage. A licensed broker can review whether any protection applies to your situation.",
+  }
+];
 
 export default,676 hospital deductible, Part B coinsurance, and skilled nursing coinsurance. After you meet the Part B deductible once per year, Plan G typically leaves you with $0 out-of-pocket for Medicare-approved services.",
   }
@@ -359,6 +375,7 @@ export default function PlanGRates68NJ() {
             </li>
 </ul>
               <div className="text-sm text-gray-600 mt-4">Official references: <a href="https://www.medicare.gov/health-drug-plans/medigap/basics/costs" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — How Medigap costs are set</a> and the <a href="https://www.nj.gov/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey SHIP (State Health Insurance Assistance Program)</a> for free local counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
       </article>
     </>

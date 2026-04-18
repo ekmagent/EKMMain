@@ -300,6 +300,7 @@ export default function MedicareBrokerForDepressionPatients() {
             </li>
 </ul>
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/coverage/mental-health-care-outpatient" target="_blank" rel="noopener noreferrer" className="underline">Medicare.gov — Outpatient Mental Health Coverage</a> and <a href="https://www.medicare.gov/coverage/mental-health-care-inpatient" target="_blank" rel="noopener noreferrer" className="underline">Medicare.gov — Inpatient Mental Health Care</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free one-on-one Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "How to Sign Up for Medicare (2026 Guide)",
   description:
-    "Step-by-step 2026 Medicare sign-up guide: enrollment windows, how to avoid late penalties, and what to do at 65. Free expert help at 855-559-1700.",
+    "2026 Medicare sign-up guide: enrollment windows, how to avoid the Part B late penalty, and steps to take at 65. Free expert help — call 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/how-to-sign-up-for-medicare` },
   openGraph: {
     title: "How to Sign Up for Medicare (2026 Guide)",
@@ -124,6 +124,26 @@ const faqs = [
     question: "Is there a penalty for signing up for Medicare late?",
     answer:
       "Yes. If you don't enroll in Part B when first eligible and don't have creditable coverage, your premium increases 10% for each 12-month period you could have had Part B. This penalty is permanent and added to your monthly premium for life. The Part D late enrollment penalty is 1% of the national base premium per month you went without creditable drug coverage.",
+  }
+,
+  {
+    question: "What happens if I miss my Medicare Initial Enrollment Period?",
+    answer:
+      "If you miss your 7-month Initial Enrollment Period and do not qualify for a Special Enrollment Period, you will need to wait for the General Enrollment Period (January 1 through March 31) to sign up for Part B. You may also face a permanent late enrollment penalty of 10% added to your Part B premium for each full 12-month period you were eligible but did not enroll. Coverage from a General Enrollment Period sign-up begins the month after you enroll.",
+  },
+  {
+    question: "How much does Medicare Part B cost in 2026?",
+    answer:
+      "The standard Medicare Part B premium is ];
+
+export default85 per month in 2026, with an annual deductible of $257. Higher-income beneficiaries may pay more through IRMAA (Income-Related Monthly Adjustment Amount) surcharges based on their tax returns from two years prior. Part A remains premium-free for most people who have 40+ work credits, with a ];
+
+export default,676 inpatient hospital deductible per benefit period in 2026.",
+  },
+  {
+    question: "Can I sign up for Medicare online?",
+    answer:
+      "Yes. You can apply for Medicare online at ssa.gov/medicare in about 10 minutes, even if you are not ready to start Social Security retirement benefits. You can apply up to 3 months before the month you turn 65. If you prefer, you can also apply by calling Social Security at 1-800-772-1213 or visiting a local SSA office.",
   }
 ];
 

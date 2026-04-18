@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title:
     "How to Enroll in Medicare Online at SSA.gov (Step-by-Step Walkthrough)",
   description:
-    "A screen-by-screen walkthrough of the Social Security Administration online Medicare enrollment process. 9 steps, about 10 minutes. Free help: 855-559-1700.",
+    "Step-by-step SSA.gov walkthrough to enroll in Medicare Part A and Part B online in about 10 minutes. Free broker help at 855-559-1700.",
   alternates: {
     canonical: `${SITE_URL}/learn/ssa-online-enrollment-walkthrough`,
   },
@@ -240,6 +240,26 @@ const steps = [
     question: "Can I change my application after I submit it on SSA.gov?",
     answer:
       "No. Once you click Submit Now and sign electronically, the application cannot be modified online. If you need to make a correction, you will need to contact Social Security directly at 1-800-772-1213 or visit your local SSA office.",
+  }
+,
+  {
+    question: "How long does the SSA online Medicare application take?",
+    answer:
+      "Most people complete the online application in about 10 to 15 minutes if they have their documents ready. You'll need your Social Security number, a driver's license or state ID for identity verification, and details about any current health coverage. The application cannot be saved and resumed mid-step in all cases, so set aside uninterrupted time.",
+  },
+  {
+    question: "When should I apply for Medicare on SSA.gov?",
+    answer:
+      "You can apply online up to 3 months before the month you turn 65, giving you a 7-month Initial Enrollment Period. Applying early helps ensure your Part A and Part B coverage starts the first day of your birthday month. If you miss your Initial Enrollment Period and don't qualify for a Special Enrollment Period, you may face late enrollment penalties.",
+  },
+  {
+    question: "What does Medicare Part B cost in 2026?",
+    answer:
+      "The standard Part B premium is ];
+
+export default85 per month in 2026, with an annual deductible of $257. Higher-income beneficiaries pay more through the Income-Related Monthly Adjustment Amount (IRMAA). Part A has no premium for most people but carries a ];
+
+export default,676 inpatient hospital deductible per benefit period.",
   }
 ];
 

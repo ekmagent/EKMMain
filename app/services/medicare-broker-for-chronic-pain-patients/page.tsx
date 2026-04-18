@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for chronic pain patients | Free Coverage Consultation | MedicareYourself",
   description:
-    "Medicare broker for chronic pain patients in NJ. Anthony Orner finds plans covering pain management, injections, and specialist visits. Free plan review.",
+    "Medicare broker for chronic pain patients in NJ. Anthony Orner compares plans covering pain management, injections & specialists. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-chronic-pain-patients" },
   openGraph: {
     title:
@@ -345,6 +345,7 @@ export default function MedicareBrokerForChronicPainPatients() {
             </li>
 </ul>
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/coverage/chronic-pain-management-treatment-services" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Chronic Pain Management &amp; Treatment Services</a> and <a href="https://www.medicare.gov/coverage/pain-management" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Pain Management Coverage</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/dobi/division_insurance/ship/shipmain.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> — free, unbiased Medicare counseling.</div>
       </section>
     </main>
   );

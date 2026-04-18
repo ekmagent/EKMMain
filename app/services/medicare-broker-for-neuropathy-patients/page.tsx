@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for neuropathy patients | Free Plan Review | MedicareYourself",
   description:
-    "Medicare broker for neuropathy patients comparing plans that cover nerve testing, specialist visits, and Rx. Anthony Orner finds the right fit — free review.",
+    "Medicare broker for neuropathy patients: compare plans covering nerve testing, specialists, and Rx. Free plan review with Anthony Orner — call today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-neuropathy-patients" },
   openGraph: {
     title:

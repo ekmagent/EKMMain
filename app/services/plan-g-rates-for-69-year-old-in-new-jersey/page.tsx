@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "plan g rates for 69 year old in new jersey | Free Carrier Comparison | MedicareYourself",
   description:
-    "Plan G rates for 69-year-olds in New Jersey vary by carrier and pricing method. See real quotes from top insurers. Free comparison from a licensed NJ broker.",
+    "Compare Plan G rates for 69-year-olds in New Jersey by carrier. Free, no-pressure quotes from a licensed NJ broker. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/plan-g-rates-for-69-year-old-in-new-jersey" },
   openGraph: {
     title:
@@ -311,6 +311,7 @@ export default function PlanGRates69NJ() {
           </ul>
               <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/health-drug-plans/medigap" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">Medicare.gov — Medigap Basics</a> and <a href="https://www.medicare.gov/health-drug-plans/medigap/basics/compare-plan-benefits" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">Compare Medigap Plan Benefits</a>.</div>
             <div className="text-sm text-gray-600 mt-2">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.nj.gov/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
       </section>
       </article>
     </>

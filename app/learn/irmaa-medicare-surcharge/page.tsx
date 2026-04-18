@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
   description:
-    "Learn how IRMAA surcharges raise Medicare Part B and D premiums, which 2026 income brackets apply, and how to appeal with SSA-44. Call 855-559-1700.",
+    "See 2026 IRMAA income brackets, how Part B and Part D surcharges are calculated, and how to appeal with SSA-44. Free broker help at 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/irmaa-medicare-surcharge` },
   openGraph: {
     title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
@@ -119,6 +119,22 @@ const faqs = [
     question: "Can Roth conversions or capital gains trigger IRMAA?",
     answer:
       "Yes. Because IRMAA is based on Modified Adjusted Gross Income, one-time income events like Roth IRA conversions, large capital gains, or required minimum distributions can push you into a higher bracket. Many retirees plan these events carefully to avoid crossing an IRMAA threshold.",
+  }
+,
+  {
+    question: "How do I appeal an IRMAA determination?",
+    answer:
+      "If you've experienced a life-changing event that reduced your income, you can file Form SSA-44 with the Social Security Administration to request a new IRMAA determination. Qualifying events include retirement, marriage, divorce, death of a spouse, or loss of pension income. You'll need to submit documentation of the event and an estimate of your new income. For help understanding your options, call 855-559-1700.",
+  },
+  {
+    question: "Will I have to pay IRMAA every year?",
+    answer:
+      "IRMAA is recalculated each year based on your tax return from two years prior. If your income drops below the threshold, your IRMAA surcharge will be removed automatically the following year. Because income fluctuates, some beneficiaries pay IRMAA one year but not the next.",
+  },
+  {
+    question: "How is IRMAA paid?",
+    answer:
+      "If you receive Social Security benefits, your IRMAA Part B surcharge is deducted directly from your monthly check along with your standard Part B premium. The Part D IRMAA surcharge is billed separately by Medicare — it is not paid to your Part D plan. If you don't yet collect Social Security, Medicare will bill you directly.",
   }
 ];
 

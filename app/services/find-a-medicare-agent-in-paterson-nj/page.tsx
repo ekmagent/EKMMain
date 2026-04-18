@@ -95,7 +95,18 @@ const faqs = [
   {
     question: "What does Medicare cost in 2026?",
     answer:
-      "In 2026, the standard Part B premium is ];
+      "In 2026, the standard Part B premium is ,
+  {
+    question: "Does a Medicare agent in Paterson help with both Medigap and Medicare Advantage?",
+    answer:
+      "Yes. An independent broker like Anthony Orner can walk you through Medicare Supplement (Medigap), Medicare Advantage, and stand-alone Part D prescription drug plans. You get side-by-side comparisons so you can weigh premiums, out-of-pocket costs, and provider networks before enrolling.",
+  },
+  {
+    question: "Will my Paterson doctors and hospitals accept the plan I choose?",
+    answer:
+      "Original Medicare with a Medigap plan is accepted by any provider that takes Medicare, which includes most doctors and hospitals serving Passaic County. With Medicare Advantage, you'll want to confirm that St. Joseph's Health and your preferred physicians are in-network before enrolling.",
+  }
+];
 
 export default85 per month with a $257 annual deductible. Part A has a ];
 
@@ -354,6 +365,7 @@ export default function FindMedicareAgentPatersonNJ() {
 </ul>
               <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/plan-compare" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov Plan Compare</a> and <a href="https://www.medicare.gov/care-compare/?searchType=Hospital&state=NJ" rel="noopener noreferrer" target="_blank" className="underline">Care Compare for New Jersey hospitals</a>.</div>
             <div className="text-sm text-gray-600 mt-2">Free, unbiased counseling is also available through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

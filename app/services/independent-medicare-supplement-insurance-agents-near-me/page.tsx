@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "independent medicare supplement insurance agents near me | Free Quote | MedicareYourself",
   description:
-    "Independent Medicare Supplement insurance agents near you in NJ. Anthony Orner compares Plan G and Plan N rates across all top carriers. Free quote in minutes.",
+    "Independent Medicare Supplement agent in NJ. Anthony Orner compares Plan G & N rates across top carriers at no cost. Call 855-559-1700 for a free quote.",
   alternates: { canonical: "https://medicareyourself.com/services/independent-medicare-supplement-insurance-agents-near-me" },
   openGraph: {
     title:
@@ -272,6 +272,7 @@ export default function IndependentMedicareSupplementAgentsNearMe() {
             </li>
           </ul>
               <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/health-drug-plans/medigap" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Medigap (Medicare Supplement Insurance)</a> and <a href="https://www.medicare.gov/talk-to-someone" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Find someone to talk to in your state</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">For free, unbiased Medicare counseling in New Jersey, contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

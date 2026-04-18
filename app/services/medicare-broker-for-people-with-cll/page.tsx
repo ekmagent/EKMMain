@@ -357,6 +357,7 @@ export default function MedicareBrokerForPeopleWithCLL() {
             </li>
 </ul>
             <div className="text-sm text-gray-600 mt-4">Helpful resources: <a href="https://www.medicare.gov/coverage/chemotherapy" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Medicare.gov — Chemotherapy Coverage</a> and <a href="https://www.medicare.gov/health-drug-plans/medigap/basics/when-to-buy" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Medicare.gov — When to Buy Medigap</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
       </section>
     </>
   );

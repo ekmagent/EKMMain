@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "you get a medicare supplement if you are on disability | Free Guide | MedicareYourself",
   description:
-    "You get a Medicare Supplement if you are on disability, but rules vary by state. Learn which plans accept under-65 enrollees and how to apply. Free help.",
+    "On disability and under 65? You may qualify for a Medicare Supplement — rules vary by state. Compare plans and get free expert help at 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/you-get-a-medicare-supplement-if-you-are-on-disability" },
   openGraph: {
     title:
@@ -98,6 +98,22 @@ const faqs = [
     question: "Do I get a Medigap Open Enrollment Period when I turn 65?",
     answer:
       "Yes. Even if you already had Medicare under 65 due to disability, you get a fresh 6-month Medigap Open Enrollment Period starting the month you turn 65 and are enrolled in Part B. During this window, you have guaranteed issue rights and cannot be denied coverage or charged more for health reasons.",
+  }
+,
+  {
+    question: "What happens to my Medigap options when I turn 65?",
+    answer:
+      "When you turn 65, you get a new Medigap Open Enrollment Period. During this six-month window starting the month you turn 65 and are enrolled in Part B, you can buy any Medigap plan sold in your state with no medical underwriting. Premiums typically drop significantly compared to under-65 disability rates.",
+  },
+  {
+    question: "Does End-Stage Renal Disease (ESRD) qualify me for Medicare before 65?",
+    answer:
+      "Yes. People with ESRD requiring dialysis or a kidney transplant can qualify for Medicare at any age. ALS (Lou Gehrig's disease) also qualifies you for Medicare immediately once SSDI benefits begin, without the 24-month waiting period.",
+  },
+  {
+    question: "Can I switch from Medicare Advantage to a Medigap plan while on disability?",
+    answer:
+      "You can try, but approval depends on your state's rules and medical underwriting. Some states offer guaranteed-issue rights for disabled enrollees switching plans, while others let carriers decline coverage based on health history. Call 855-559-1700 and we'll review your specific situation.",
   }
 ];
 
@@ -338,6 +354,7 @@ export default function MedicareSupplementDisabilityPage() {
             </li>
 </ul>
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/basics/get-started-with-medicare/medicare-basics/people-under-65-with-disabilities" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">Medicare.gov — People Under 65 With Disabilities</a> and <a href="https://www.medicare.gov/health-drug-plans/medigap" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">Medicare.gov — Medigap Basics</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">Need state-specific help? Contact your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
 
       <p className="text-sm text-gray-500 mt-10">

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "You Get a Medicare Supplement Plan If You Have a Pre-Existing Condition | Free Guidance | MedicareYourself",
   description:
-    "You can get a Medicare Supplement plan with pre-existing conditions during the right enrollment window. Learn guaranteed-issue rules — call for free help.",
+    "Get a Medicare Supplement plan with pre-existing conditions — learn guaranteed-issue rights and enrollment windows. Call 855-559-1700 for free help.",
   alternates: { canonical: "https://medicareyourself.com/services/you-get-a-medicare-supplement-plan-if-you-have-a-pre-existing-condition" },
   openGraph: {
     title:
@@ -313,6 +313,7 @@ export default function PreExistingConditionMedigapPage() {
           </li>
         </ul>
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/health-drug-plans/medigap/basics/when-to-buy" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — When to buy a Medigap policy</a> and <a href="https://www.medicare.gov/health-drug-plans/medigap/basics/guaranteed-issue-rights" rel="noopener noreferrer" target="_blank" className="underline">Medigap guaranteed-issue rights</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
 
       <p className="text-sm text-gray-400 mt-10">

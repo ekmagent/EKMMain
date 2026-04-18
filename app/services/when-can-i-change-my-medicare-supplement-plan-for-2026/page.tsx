@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "when can i change my medicare supplement plan for 2026 | Free Switching Help | MedicareYourself",
   description:
-    "When can I change my Medicare Supplement plan for 2026? Learn Medigap switch rules, guaranteed-issue rights, and underwriting. Call 855-559-1700 for free help.",
+    "When can I change my Medicare Supplement plan for 2026? Learn Medigap switch rules, guaranteed-issue rights & underwriting. Free broker help — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/when-can-i-change-my-medicare-supplement-plan-for-2026" },
   openGraph: {
     title:
@@ -273,6 +273,7 @@ export default function WhenCanIChangeMyMedicareSupplementPlanFor2026() {
         </ul>
             <div className="text-sm text-gray-600 mt-4">Official Medicare resources: <a href="https://www.medicare.gov/health-drug-plans/medigap/ready-to-buy/change-policies" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">Can I change my Medigap policy? (Medicare.gov)</a> and <a href="https://www.medicare.gov/health-drug-plans/medigap/ready-to-buy/change-policies/switch-drop" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">Can I switch or drop my Medigap policy? (Medicare.gov)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Your state may offer additional Medigap switching rights beyond federal law. Check with the <a href="https://www.shiphelp.org/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a> for free, unbiased counseling in your state.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
       </section>
     </main>
   );

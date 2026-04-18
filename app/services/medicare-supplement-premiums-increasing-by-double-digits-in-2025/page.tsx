@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare supplement premiums increasing by double digits in 2025 | Free Rate Review | MedicareYourself",
   description:
-    "Medicare Supplement premiums increasing by double digits in 2025 — see which carriers raised rates and how switching could save you $50+/month. Free review.",
+    "Medigap premiums are climbing by double digits in 2025. See why rates rose, how to compare carriers, and save $50+/month. Free review: 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-supplement-premiums-increasing-by-double-digits-in-2025" },
   openGraph: {
     title:
@@ -303,6 +303,7 @@ export default function MedicareSupplementPremiumsIncreasing2025() {
           </li>
         </ul>
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/health-drug-plans/medigap" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">Medicare.gov — Medigap (Medicare Supplement) basics</a> and <a href="https://www.medicare.gov/health-drug-plans/medigap/basics/when-to-buy" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">When to buy a Medigap policy</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">Need state-specific help? Contact the <a href="https://www.nj.gov/dobi/division_insurance/" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">SHIP counselor</a> for free one-on-one Medicare guidance.</div>
       </section>
     </main>
   );

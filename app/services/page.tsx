@@ -9,7 +9,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Medicare Services & Guides | MedicareYourself",
   description:
-    "Compare Medigap, Part D, and Medicare Advantage with a licensed independent broker. Condition-specific guidance and free plan reviews—call 855-559-1700.",
+    "Compare Medigap, Part D, and Medicare Advantage with a licensed independent broker. Free plan reviews and condition-specific guidance—call 855-559-1700 today.",
   alternates: { canonical: `${SITE_URL}/services` },
   openGraph: {
     title: "Medicare Services & Guides | MedicareYourself",
@@ -223,7 +223,25 @@ const STATIC_CATEGORIES = [
   {
     question: "How much does Medicare cost in 2026?",
     answer:
-      "In 2026, the standard Part B premium is ];
+      "In 2026, the standard Part B premium is ,
+  {
+    question: "What does it cost to work with an independent Medicare broker?",
+    answer:
+      "There is no cost to you. Licensed Medicare brokers are compensated by the insurance carriers, so plan premiums are the same whether you enroll through a broker or directly with the carrier. You get personalized plan comparisons and ongoing support at no charge.",
+  },
+  {
+    question: "How do I compare Medigap, Part D, and Medicare Advantage plans?",
+    answer:
+      "Medigap supplements Original Medicare by covering out-of-pocket costs like the Part A ];
+
+export default,676 deductible and Part B 20% coinsurance. Part D covers prescription drugs, while Medicare Advantage (Part C) bundles Parts A, B, and usually D into one plan. A licensed broker can run a side-by-side comparison based on your doctors, medications, and budget.",
+  },
+  {
+    question: "When can I enroll in or change my Medicare plan?",
+    answer:
+      "Your Initial Enrollment Period spans seven months around your 65th birthday. After that, the Annual Enrollment Period runs October 15 to December 7 for Part D and Medicare Advantage changes. Medigap has its own six-month open enrollment window starting when you're 65 and enrolled in Part B. Call 855-559-1700 to review your options.",
+  }
+];
 
 export default85 per month with a $257 annual deductible, and the Part A hospital deductible is ];
 
@@ -337,6 +355,7 @@ export default function ServicesHubPage() {
         </div>
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/" rel="noopener noreferrer" target="_blank">Medicare.gov</a> · <a href="https://www.medicare.gov/plan-compare/" rel="noopener noreferrer" target="_blank">Find &amp; compare plans</a></div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents: see the <a href="https://www.state.nj.us/dobi/division_consumers/insurance/shipp.htm" rel="noopener noreferrer" target="_blank">NJ SHIP program</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free local counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </>
   );

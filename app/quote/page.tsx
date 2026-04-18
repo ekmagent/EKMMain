@@ -6,7 +6,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Get a Free Medicare Quote",
   description:
-    "Get a free Medicare Supplement or Advantage quote from a licensed broker. Compare top carriers with no obligation. Call 855-559-1700 to start saving today.",
+    "Get a free 2026 Medicare Supplement or Advantage quote from a licensed broker. Compare top carriers with no obligation. Call 855-559-1700 today.",
   alternates: { canonical: `${SITE_URL}/quote` },
   openGraph: {
     title: "Get a Free Medicare Quote",

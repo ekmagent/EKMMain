@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare Supplement Insurance for Crohn's Patients | Free Guidance | MedicareYourself",
   description:
-    "Medicare supplement insurance for Crohn's patients covers the 20% gap on biologics and colonoscopies. See which carriers approve IBD applicants. Free help.",
+    "Medicare supplement insurance for Crohn's patients covers the 20% gap on biologics, infusions, and colonoscopies. Get free broker guidance — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-supplement-insurance-for-crohns-patients" },
   openGraph: {
     title:
@@ -271,6 +271,7 @@ export default function MedicareSupplementCrohnsPage() {
           </li>
         </ul>
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/health-drug-plans/medigap" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">Medicare.gov Medigap basics</a> and <a href="https://www.medicare.gov/coverage/infusion-pumps-supplies" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">Medicare Part B infusion coverage</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free one-on-one Medicare counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
     </main>
   );

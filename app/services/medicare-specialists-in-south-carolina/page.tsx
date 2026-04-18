@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare specialists in south carolina | Free Multi-Carrier Quotes | MedicareYourself",
   description:
-    "Medicare specialists in South Carolina — Anthony Orner compares Supplement and Advantage plans from top SC carriers. Free quotes, licensed guidance.",
+    "Medicare specialists in South Carolina — compare Supplement & Advantage plans from top SC carriers with licensed broker Anthony Orner. Free quotes today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-specialists-in-south-carolina" },
   openGraph: {
     title:

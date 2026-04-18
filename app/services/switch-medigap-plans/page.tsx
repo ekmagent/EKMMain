@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title:
     "switch medigap plans | Compare Carriers & Switch Online | MedicareYourself",
   description:
-    "Switch Medigap plans online or with free help from a licensed broker. Compare carriers, check your eligibility, and start saving in minutes. No fee.",
+    "Switch Medigap plans and keep identical benefits at a lower rate. Compare carriers with a licensed broker — free help, no fee. Call 855-559-1700.",
   alternates: {
     canonical: `${SITE_URL}/services/switch-medigap-plans`,
   },
@@ -739,6 +739,7 @@ export default function SwitchMedigapPlansPage() {
           </div>
         </div>
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/health-drug-plans/medigap/ready-to-buy/change-policies" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Medicare.gov — Can I change my Medigap policy?</a> and <a href="https://www.medicare.gov/health-drug-plans/medigap/ready-to-buy/change-policies/switch-drop" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Medicare.gov — Switch or drop your Medigap policy</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">State help: <a href="https://www.nj.gov/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey SHIP (State Health Insurance Assistance Program)</a> offers free, unbiased Medicare counseling.</div>
       </section>
     </>
   );

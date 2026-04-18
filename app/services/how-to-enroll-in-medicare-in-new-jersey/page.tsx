@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "how to enroll in medicare in new jersey | Free Local Help | MedicareYourself",
   description:
-    "How to enroll in Medicare in New Jersey — enrollment windows, Parts A & B sign-up, NJ Medigap rules explained. Anthony Orner helps free. Call 855-559-1700.",
+    "How to enroll in Medicare in New Jersey: IEP timing, Parts A & B sign-up, and NJ Medigap rules. Free local help from Anthony Orner. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/how-to-enroll-in-medicare-in-new-jersey" },
   openGraph: {
     title:
@@ -290,6 +290,7 @@ export default function HowToEnrollInMedicareInNewJersey() {
             </li>
 </ul>
             <div className="text-sm text-gray-600 mt-4">Need free NJ counseling? Visit the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey counseling: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> offers free, unbiased Medicare counseling.</div>
       </section>
     </main>
   );

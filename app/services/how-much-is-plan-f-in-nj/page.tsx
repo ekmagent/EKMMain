@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "how much is plan F in nj | Free Rate Lookup by Age | MedicareYourself",
   description:
-    "How much is Plan F in NJ? See 2025 premiums by age and learn why costs keep rising. Anthony Orner can show you if Plan G saves more. Free quote.",
+    "How much is Plan F in NJ in 2026? Compare premiums by age, see why rates keep climbing, and find out if Plan G saves more. Call 855-559-1700 for a free quote.",
   alternates: { canonical: "https://medicareyourself.com/services/how-much-is-plan-f-in-nj" },
   openGraph: {
     title:
@@ -83,6 +83,12 @@ const faqs = [
     answer:
       "Yes. In New Jersey, you can switch from Plan F to Plan G or any lesser-lettered Medigap plan without medical underwriting. This is a state-specific protection. You'd then pay the $283 annual Part B deductible yourself but often save hundreds more on premiums.",
   },
+,
+  {
+    question: "Does Plan F cover the Part B deductible in 2026?",
+    answer:
+      "Yes. Plan F is the only Medigap plan that still covers the annual Medicare Part B deductible, which is $257 in 2026. This is one reason Plan F costs more than Plan G, which requires you to pay that deductible yourself before coverage kicks in.",
+  }
 ];
 
 export default function HowMuchIsPlanFInNJ() {

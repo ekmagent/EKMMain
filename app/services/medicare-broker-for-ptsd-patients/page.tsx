@@ -88,7 +88,18 @@ const faqs = [
   {
     question: "Does Medicare cover inpatient psychiatric care for PTSD?",
     answer:
-      "Yes. Medicare Part A covers inpatient mental health care in either a general or psychiatric hospital. In 2026 you pay the ];
+      "Yes. Medicare Part A covers inpatient mental health care in either a general or psychiatric hospital. In 2026 you pay the ,
+  {
+    question: "Does Medicare cover prescription medications for PTSD?",
+    answer:
+      "Yes. Medicare Part D prescription drug plans cover SSRIs, SNRIs, prazosin, and other medications commonly prescribed for PTSD. Formularies vary by plan, so comparing your specific medications across Part D options is important. A licensed broker can match your prescriptions to the lowest-cost plan in your area.",
+  },
+  {
+    question: "Can I see a therapist by telehealth under Medicare?",
+    answer:
+      "Yes. Medicare Part B covers mental health services delivered by telehealth, including therapy and psychiatric visits from your home. This makes care more accessible for PTSD patients who find in-person visits difficult. Standard Part B cost-sharing applies after the $257 annual deductible.",
+  }
+];
 
 export default,676 Part A deductible per benefit period. Medicare limits coverage in a freestanding psychiatric hospital to 190 days in a lifetime.",
   }
@@ -338,6 +349,7 @@ export default function MedicareBrokerForPTSDPatients() {
             </li>
 </ul>
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/coverage/mental-health-care-outpatient" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Outpatient Mental Health Coverage</a> and <a href="https://www.medicare.gov/coverage/mental-health-care-inpatient" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Inpatient Mental Health Coverage</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );
