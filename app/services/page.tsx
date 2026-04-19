@@ -9,7 +9,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Medicare Services & Guides | MedicareYourself",
   description:
-    "Compare Medigap, Part D, and Medicare Advantage with a licensed independent broker. Free plan reviews and condition-specific guidance—call 855-559-1700 today.",
+    "Compare Medigap, Part D & Medicare Advantage with a licensed independent broker. Free plan reviews and condition-specific guides—call 855-559-1700 today.",
   alternates: { canonical: `${SITE_URL}/services` },
   openGraph: {
     title: "Medicare Services & Guides | MedicareYourself",
@@ -232,7 +232,27 @@ const STATIC_CATEGORIES = [
   {
     question: "How do I compare Medigap, Part D, and Medicare Advantage plans?",
     answer:
-      "Medigap supplements Original Medicare by covering out-of-pocket costs like the Part A ];
+      "Medigap supplements Original Medicare by covering out-of-pocket costs like the Part A ,
+  {
+    question: "What does it cost to work with an independent Medicare broker?",
+    answer:
+      "Working with a licensed independent Medicare broker is free to you. Brokers are paid directly by the insurance carriers, and the commission is already built into the plan premium, so you pay the same rate whether you enroll through a broker or on your own. Call 855-559-1700 for a no-cost plan review.",
+  },
+  {
+    question: "How much are Medicare Part A and Part B costs in 2026?",
+    answer:
+      "In 2026, the standard Part B premium is ];
+
+export default85 per month with an annual deductible of $257. Part A has a hospital deductible of ];
+
+export default,676 per benefit period, and most people pay no Part A premium if they have enough work history. Higher-income beneficiaries may pay an income-related adjustment on Part B and Part D.",
+  },
+  {
+    question: "What's the difference between Medigap, Medicare Advantage, and Part D?",
+    answer:
+      "Medigap (Medicare Supplement) plans work alongside Original Medicare to help pay your share of costs like deductibles and coinsurance. Medicare Advantage (Part C) replaces Original Medicare with a private plan that typically includes drug coverage and extra benefits. Part D is standalone prescription drug coverage you add to Original Medicare or a Medigap plan.",
+  }
+];
 
 export default,676 deductible and Part B 20% coinsurance. Part D covers prescription drugs, while Medicare Advantage (Part C) bundles Parts A, B, and usually D into one plan. A licensed broker can run a side-by-side comparison based on your doctors, medications, and budget.",
   },

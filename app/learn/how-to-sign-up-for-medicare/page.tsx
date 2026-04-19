@@ -134,7 +134,27 @@ const faqs = [
   {
     question: "How much does Medicare Part B cost in 2026?",
     answer:
+      "The standard Medicare Part B premium is ,
+  {
+    question: "Can I sign up for Medicare online?",
+    answer:
+      "Yes. You can apply for Medicare online at ssa.gov/medicare in about 10 minutes. You can start your application up to 3 months before the month you turn 65, even if you are not ready to collect Social Security benefits yet.",
+  },
+  {
+    question: "What happens if I miss my Medicare Initial Enrollment Period?",
+    answer:
+      "If you miss your 7-month Initial Enrollment Period and do not qualify for a Special Enrollment Period, you will have to wait for the General Enrollment Period (January 1 – March 31) to sign up. You may also owe a permanent Part B late enrollment penalty of 10% for every 12 months you were eligible but not enrolled.",
+  },
+  {
+    question: "How much does Medicare Part B cost in 2026?",
+    answer:
       "The standard Medicare Part B premium is ];
+
+export default85 per month in 2026, with an annual deductible of $257. Higher-income beneficiaries may pay more through IRMAA. Part A is premium-free for most people who have 40+ work credits, but the Part A hospital deductible is ];
+
+export default,676 per benefit period.",
+  }
+];
 
 export default85 per month in 2026, with an annual deductible of $257. Higher-income beneficiaries may pay more through IRMAA (Income-Related Monthly Adjustment Amount) surcharges based on their tax returns from two years prior. Part A remains premium-free for most people who have 40+ work credits, with a ];
 

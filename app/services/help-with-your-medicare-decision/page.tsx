@@ -358,6 +358,7 @@ export default function HelpWithYourMedicareDecision() {
 </ul>
               <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/basics/get-started-with-medicare/using-medicare/helpful-tools" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">Medicare.gov Helpful Tools</a> and <a href="https://www.medicare.gov/basics/your-medicare-rights/get-help-with-your-rights-protections" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">Your Medicare Rights & Protections</a>.</div>
             <div className="text-sm text-gray-600 mt-4">For free, unbiased one-on-one counseling, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">Free local counseling: find your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for unbiased Medicare help.</div>
       </section>
       </article>
     </>

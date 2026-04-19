@@ -98,6 +98,12 @@ const faqs = [
     answer:
       "Yes. Medicare Part B covers medically necessary MRIs ordered by your doctor to monitor MS. You'll typically pay 20% of the Medicare-approved amount after meeting the $257 annual Part B deductible, unless you have a Medigap plan that covers coinsurance. Medicare Advantage plans may require prior authorization before approving the scan.",
   }
+,
+  {
+    question: "Does Medicare cover MRIs for MS monitoring?",
+    answer:
+      "Yes. Medicare Part B covers medically necessary MRIs ordered by your doctor to monitor MS progression. You'll typically pay 20% of the Medicare-approved amount after meeting the $257 annual Part B deductible, unless you have a Medigap plan that covers coinsurance. Medicare Advantage plans may require prior authorization before approving the scan.",
+  }
 ];
 
 export default85 per month with an annual deductible of $257. After meeting the deductible, you pay 20% coinsurance for covered services, including physician-administered MS infusions. A Medigap plan can cover most or all of that 20% coinsurance depending on the plan letter you choose.",

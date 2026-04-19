@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare brokers in my area | Free NJ Plan Comparison | MedicareYourself",
   description:
-    "Medicare brokers in your area of New Jersey. Anthony Orner is a licensed independent broker who compares Medigap and Advantage plans for free. Call today.",
+    "Find a licensed Medicare broker in your NJ area. Anthony Orner compares Medigap and Advantage plans free—no fees, no pressure. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-brokers-in-my-area" },
   openGraph: {
     title:

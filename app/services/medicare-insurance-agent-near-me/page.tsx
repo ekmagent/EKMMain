@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare insurance agent near me | Free NJ Broker Consultation | MedicareYourself",
   description:
-    "Medicare insurance agent near me in New Jersey — Anthony Orner is a licensed independent broker who compares plans by phone or video. Free no-pressure quote.",
+    "Medicare insurance agent near me in NJ? Anthony Orner compares plans across carriers by phone or video — free, unbiased, no pressure. Call today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-insurance-agent-near-me" },
   openGraph: {
     title:

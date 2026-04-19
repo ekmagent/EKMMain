@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title:
     "How to Enroll in Medicare Online at SSA.gov (Step-by-Step Walkthrough)",
   description:
-    "Step-by-step SSA.gov walkthrough to enroll in Medicare Part A and Part B online in about 10 minutes. Free broker help at 855-559-1700.",
+    "Step-by-step SSA.gov walkthrough to enroll in Medicare Part A & B online in about 10 minutes. Free broker guidance — call 855-559-1700.",
   alternates: {
     canonical: `${SITE_URL}/learn/ssa-online-enrollment-walkthrough`,
   },
@@ -255,7 +255,23 @@ const steps = [
   {
     question: "What does Medicare Part B cost in 2026?",
     answer:
-      "The standard Part B premium is ];
+      "The standard Part B premium is ,
+  {
+    question: "How long does the SSA online Medicare application take?",
+    answer:
+      "Most people complete the online application in about 10 minutes if they have their documents ready. You will need your Social Security number, a driver's license or state ID for identity verification, and details about any current health insurance coverage.",
+  },
+  {
+    question: "Can I apply for Medicare only without starting Social Security retirement benefits?",
+    answer:
+      "Yes. During the SSA online application, you can choose to apply for Medicare only and delay your Social Security retirement benefits. This is a common choice for people who are still working or want their monthly benefit amount to continue growing.",
+  },
+  {
+    question: "What happens after I submit my Medicare application on SSA.gov?",
+    answer:
+      "Once submitted, you cannot modify the application online. SSA will review your information and typically mail your Medicare card within a few weeks. If they need additional documentation, they will contact you by phone or mail.",
+  }
+];
 
 export default85 per month in 2026, with an annual deductible of $257. Higher-income beneficiaries pay more through the Income-Related Monthly Adjustment Amount (IRMAA). Part A has no premium for most people but carries a ];
 

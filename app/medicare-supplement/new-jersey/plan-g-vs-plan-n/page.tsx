@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Plan G vs Plan N in NJ | Compare 2026",
   description:
-    "Compare Medigap Plan G vs Plan N in NJ for 2026: premiums, copays, and coverage differences under community rating. Get personalized quotes — call 855-559-1700.",
+    "Plan G vs Plan N in NJ for 2026: compare premiums, copays, and coverage under community rating. Find your best fit — call 855-559-1700 for free quotes.",
   alternates: { canonical: `${SITE_URL}/medicare-supplement/new-jersey/plan-g-vs-plan-n` },
   openGraph: {
     title: "Plan G vs Plan N in NJ | Compare 2026",
@@ -57,7 +57,25 @@ const faqs = [
   {
     question: "Do Plan G and Plan N cover the Part A deductible in New Jersey?",
     answer:
+      "Yes. Both Plan G and Plan N fully cover the Medicare Part A hospital deductible, which is ,
+  {
+    question: "Do Plan G and Plan N cover the Part A hospital deductible in New Jersey?",
+    answer:
       "Yes. Both Plan G and Plan N fully cover the Medicare Part A hospital deductible, which is ];
+
+export default,676 per benefit period in 2026. They also both cover Part A coinsurance and an additional 365 days of hospital care after Medicare benefits are exhausted.",
+  },
+  {
+    question: "Is the network the same for Plan G and Plan N in NJ?",
+    answer:
+      "Yes. Both Plan G and Plan N let you see any provider nationwide who accepts Original Medicare — there are no networks or referrals required. This is one of the biggest advantages of Medigap compared to Medicare Advantage plans in New Jersey.",
+  },
+  {
+    question: "Does Plan N still cover foreign travel emergencies like Plan G?",
+    answer:
+      "Yes. Both Plan G and Plan N include foreign travel emergency coverage up to plan limits after a $250 deductible, covering 80% of billed charges for emergency care during the first 60 days of a trip abroad. Lifetime maximum is $50,000 on both plans.",
+  }
+];
 
 export default,676 per benefit period in 2026. They also both cover Part A coinsurance and an additional 365 days of hospital coverage after Medicare benefits are exhausted.",
   }

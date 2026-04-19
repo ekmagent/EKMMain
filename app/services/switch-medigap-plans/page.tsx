@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title:
     "switch medigap plans | Compare Carriers & Switch Online | MedicareYourself",
   description:
-    "Switch Medigap plans and keep identical benefits at a lower rate. Compare carriers with a licensed broker — free help, no fee. Call 855-559-1700.",
+    "Switch Medigap plans and keep identical benefits at a lower premium. Compare carriers free with a licensed broker. Call 855-559-1700 to start saving today.",
   alternates: {
     canonical: `${SITE_URL}/services/switch-medigap-plans`,
   },
@@ -100,6 +100,17 @@ const faqs = [
     answer:
       "No. Independent Medicare brokers are paid by the insurance carriers, not by you. The commission is the same regardless of which carrier you choose, so there is no incentive to push one company over another. Using a broker costs you nothing and saves you the work of calling each carrier individually.",
   },
+,
+  {
+    question: "Do I have a federal right to switch Medigap policies after my Open Enrollment Period ends?",
+    answer:
+      "In most cases, no. Under federal law, you generally can only switch Medigap policies during your 6-month Medigap Open Enrollment Period or when you qualify for a guaranteed issue right. Outside those windows, carriers can use medical underwriting. However, some states offer additional opportunities to change policies, so it is worth checking with your State Insurance Department.",
+  },
+  {
+    question: "What happens during the 30-day free look period?",
+    answer:
+      "When you buy a new Medigap policy, you have 30 days to decide if you want to keep it. You should keep your old Medigap policy active during this time and pay both premiums for one month. If you are satisfied with the new policy, cancel the old one; if not, you can return the new plan during the free look window.",
+  }
 ];
 
 export default function SwitchMedigapPlansPage() {
@@ -740,6 +751,7 @@ export default function SwitchMedigapPlansPage() {
         </div>
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/health-drug-plans/medigap/ready-to-buy/change-policies" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Medicare.gov — Can I change my Medigap policy?</a> and <a href="https://www.medicare.gov/health-drug-plans/medigap/ready-to-buy/change-policies/switch-drop" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Medicare.gov — Switch or drop your Medigap policy</a>.</div>
             <div className="text-sm text-gray-600 mt-4">State help: <a href="https://www.nj.gov/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey SHIP (State Health Insurance Assistance Program)</a> offers free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP program</a> for free Medigap counseling.</div>
       </section>
     </>
   );

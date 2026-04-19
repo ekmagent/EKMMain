@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Medicare Supplement Cost in NJ 2026",
   description:
-    "2026 Medicare Supplement costs in NJ: Part B $185/mo, $257 deductible, Plan G rates by county. Compare NJ Medigap carriers — call 855-559-1700.",
+    "2026 NJ Medicare Supplement costs: Part B $185/mo, $257 deductible, Plan G rates by county. Compare NJ Medigap carriers — call 855-559-1700 for a free quote.",
   alternates: { canonical: `${SITE_URL}/medicare-supplement/new-jersey/cost` },
   openGraph: {
     title: "Medicare Supplement Cost in NJ 2026",

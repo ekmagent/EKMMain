@@ -94,6 +94,12 @@ const faqs = [
     answer:
       "In most states, yes — outside of your 6-month Medigap Open Enrollment Period, carriers can use medical underwriting and ask health questions before approving you. However, federal guaranteed issue rights protect you in specific situations, such as your current plan leaving the market or losing employer coverage. Some states also offer additional protections, so it's worth checking with your State Insurance Department before applying.",
   }
+,
+  {
+    question: "Will I have to answer health questions to switch Medigap carriers?",
+    answer:
+      "In most states, yes — outside of your 6-month Medigap Open Enrollment Period or a Guaranteed Issue situation, carriers can use medical underwriting and deny coverage based on health. Some states (like New York and Connecticut) have year-round guaranteed issue rules, and others have birthday or anniversary rules that allow switching without underwriting. Check with your state insurance department or ask a licensed broker to confirm what applies in your state.",
+  }
 ];
 
 export default function SwitchCarriersPage() {
@@ -318,6 +324,7 @@ export default function SwitchCarriersPage() {
         </div>
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/health-drug-plans/medigap/ready-to-buy/change-policies/switch-drop" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Medicare.gov – Switching or Dropping a Medigap Policy</a> · <a href="https://www.medicare.gov/health-drug-plans/medigap/basics/when-to-get" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Medigap Open Enrollment Period</a></div>
             <div className="text-sm text-gray-600 mt-4">State help: <a href="https://www.nj.gov/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a> — confirms carrier rates and any state-specific Medigap switching rules.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents: contact <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or the free <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP program</a> for unbiased counseling on switching Medigap carriers.</div>
       </section>
     </>
   );

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "enroll in medicare supplement plan g at 68 | Free Guidance | MedicareYourself",
   description:
-    "Enroll in Medicare Supplement Plan G at 68 — understand guaranteed issue rights, underwriting, and current rates. Anthony Orner guides you. Free consultation.",
+    "Enroll in Medicare Supplement Plan G at 68 with expert guidance on underwriting, carrier choice, and rates. Call 855-559-1700 for a free review.",
   alternates: { canonical: "https://medicareyourself.com/services/enroll-in-medicare-supplement-plan-g-at-68" },
   openGraph: {
     title:
@@ -372,6 +372,7 @@ export default function EnrollInMedicareSupplementPlanGAt68() {
 </ul>
               <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/health-drug-plans/medigap" rel="noopener noreferrer" target="_blank" className="underline hover:text-blue-700">Medicare.gov Medigap Overview</a> &middot; <a href="https://www.medicare.gov/health-drug-plans/medigap/basics/when-to-get" rel="noopener noreferrer" target="_blank" className="underline hover:text-blue-700">When to Enroll in Medigap</a></div>
             <div className="text-sm text-gray-600 mt-4">Need local help? Contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/shipmain.htm" rel="noopener noreferrer" target="_blank" className="underline hover:text-blue-700">New Jersey State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">Need state-specific help? Contact the <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline hover:text-blue-700">State Health Insurance Assistance Program (SHIP)</a> for free one-on-one Medicare counseling in your state.</div>
       </section>
       </article>
     </>

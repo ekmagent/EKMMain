@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "find a medicare agent in paterson nj | Free Guidance, No Fees | MedicareYourself",
   description:
-    "Find a Medicare agent in Paterson, NJ. Anthony Orner compares Medigap, Advantage & Part D plans across Passaic County carriers. Free help — call 855-559-1700.",
+    "Find a Medicare agent in Paterson, NJ. Anthony Orner compares Medigap, Advantage & Part D plans across Passaic County — free, no-fee help. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/find-a-medicare-agent-in-paterson-nj" },
   openGraph: {
     title:
@@ -105,6 +105,26 @@ const faqs = [
     question: "Will my Paterson doctors and hospitals accept the plan I choose?",
     answer:
       "Original Medicare with a Medigap plan is accepted by any provider that takes Medicare, which includes most doctors and hospitals serving Passaic County. With Medicare Advantage, you'll want to confirm that St. Joseph's Health and your preferred physicians are in-network before enrolling.",
+  }
+,
+  {
+    question: "Does a Medicare agent in Paterson help with both Medigap and Medicare Advantage?",
+    answer:
+      "Yes. An independent broker like Anthony Orner is appointed with multiple carriers and can compare Medigap (Medicare Supplement), Medicare Advantage, and Part D prescription drug plans side by side. That way you can see how premiums, out-of-pocket costs, and provider networks stack up before deciding.",
+  },
+  {
+    question: "What does Medicare cost in 2026?",
+    answer:
+      "In 2026, the standard Part B premium is ];
+
+export default85 per month with a $257 annual deductible. Part A has a ];
+
+export default,676 hospital deductible per benefit period for most beneficiaries. Medigap, Medicare Advantage, and Part D premiums vary by plan and carrier.",
+  },
+  {
+    question: "Can I switch Medicare plans if I already have coverage?",
+    answer:
+      "Yes, during the Annual Enrollment Period from October 15 to December 7 you can change Medicare Advantage or Part D plans for the following year. Medigap plans can often be changed year-round, though outside your Open Enrollment window carriers may require medical underwriting.",
   }
 ];
 

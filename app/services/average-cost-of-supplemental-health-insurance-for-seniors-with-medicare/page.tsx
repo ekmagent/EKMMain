@@ -98,6 +98,12 @@ const faqs = [
     answer:
       "It depends on the pricing method your carrier uses. Attained-age-rated policies increase as you age, issue-age-rated policies are based on your age at purchase and don't rise with age (though they can increase for inflation), and community-rated policies charge everyone in your area the same regardless of age. All three types can still have annual rate increases tied to inflation and claims costs.",
   }
+,
+  {
+    question: "Does my zip code really affect how much I pay for a Medigap plan?",
+    answer:
+      "Yes. Medigap premiums vary widely based on where you live because insurance companies price policies around local medical costs and claims experience. The same Plan G can cost significantly more in one state than another, and even differ between zip codes within the same state. Comparing carriers licensed in your specific area is the only way to find your lowest rate.",
+  }
 ];
 
 export default85/month in 2026, plus your Medigap premium. Medigap then picks up much of the cost-sharing Original Medicare leaves behind, like the Part A hospital deductible of ];

@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Best Medicare Supplement Plans in PA 2026",
   description:
-    "Compare Medicare Supplement plans in Pennsylvania for 2026. Plan G vs Plan N rates, PA attained-age rules, and enrollment tips. Call 855-559-1700 today.",
+    "Compare 2026 Medicare Supplement plans in Pennsylvania. Plan G vs Plan N, PA attained-age rules, and enrollment tips. Call 855-559-1700 for a free quote.",
   alternates: { canonical: `${SITE_URL}/medicare-supplement/pennsylvania` },
   openGraph: {
     title: "Best Medicare Supplement Plans in PA 2026",
@@ -48,6 +48,19 @@ const faqs = [
     answer:
       "Plan G in Pennsylvania covers: the Part A hospital deductible ($1,676 in 2026), Part A coinsurance and hospital costs, Part B coinsurance (the 20% you owe on all outpatient services), Part B excess charges, skilled nursing facility coinsurance, hospice care coinsurance, and foreign travel emergency care (80% up to plan limits). The only gap is the Part B deductible ($257/year), which you pay out of pocket. After that, Plan G covers virtually all remaining Medicare-approved costs.",
   },
+,
+  {
+    question: "When is my Medigap Open Enrollment Period in Pennsylvania?",
+    answer:
+      "Your Medigap Open Enrollment Period is the 6-month window that begins the month your Medicare Part B becomes effective and you are age 65 or older. During this period, you can enroll in any Medigap plan sold in Pennsylvania without medical underwriting. Missing this window can make it harder and more expensive to get Medigap coverage later.",
+  },
+  {
+    question: "Do I need Medicare Part B before buying a Medigap plan in PA?",
+    answer:
+      "Yes. You must be enrolled in both Medicare Part A and Part B to purchase a Medicare Supplement plan in Pennsylvania. Part B carries a standard premium of ];
+
+export default85/month in 2026 and a $257 annual deductible. Medigap works alongside Original Medicare to cover your share of costs.",
+  }
 ];
 
 export default function PennsylvaniaMedigapPage() {

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "plan g rates for 70 year old in new jersey | Free Quote in Minutes | MedicareYourself",
   description:
-    "Compare 2026 Plan G rates for 70-year-olds in New Jersey across top carriers. Community-rated pricing, side-by-side quotes. Call 855-559-1700 for free help.",
+    "Compare 2026 Plan G rates for 70-year-olds in New Jersey across top carriers. Same benefits, very different premiums. Call 855-559-1700 for a free quote.",
   alternates: { canonical: "https://medicareyourself.com/services/plan-g-rates-for-70-year-old-in-new-jersey" },
   openGraph: {
     title:
@@ -107,7 +107,25 @@ const faqs = [
   {
     question: "Does Plan G cover the Part B deductible in 2026?",
     answer:
-      "No. Plan G does not cover the 2026 Part B deductible of $257, which you pay once per year before Medicare begins paying its share. After that deductible is met, Plan G covers the remaining Part B coinsurance and copayments. It also covers the 2026 Part A hospital deductible of ];
+      "No. Plan G does not cover the 2026 Part B deductible of $257, which you pay once per year before Medicare begins paying its share. After that deductible is met, Plan G covers the remaining Part B coinsurance and copayments. It also covers the 2026 Part A hospital deductible of ,
+  {
+    question: "When can a 70-year-old in NJ enroll in Plan G without underwriting?",
+    answer:
+      "Your 6-month Medigap Open Enrollment Period starts the month you are 65 or older and enrolled in Part B, so most 70-year-olds are past that initial window. You may still qualify for guaranteed issue rights in certain situations, such as losing other coverage. Otherwise, carriers can apply medical underwriting, though approval is still common for healthy applicants.",
+  },
+  {
+    question: "What does Plan G cover in 2026 for a 70-year-old in New Jersey?",
+    answer:
+      "Plan G covers the Part A ];
+
+export default,676 deductible, Part A coinsurance and hospital costs up to an additional 365 days after Medicare benefits are used up, Part B coinsurance, skilled nursing facility coinsurance, and foreign travel emergency care up to plan limits. You are responsible for the $257 annual Part B deductible in 2026. Once that deductible is met, Plan G typically leaves you with $0 out-of-pocket for Medicare-approved services.",
+  },
+  {
+    question: "Why do Plan G prices differ between NJ carriers if benefits are identical?",
+    answer:
+      "Medicare.gov confirms the benefits in each lettered Medigap plan are the same regardless of which insurance company sells it — price is the only difference. Carriers set their own premiums based on claims experience, administrative costs, and discounts such as household or electronic payment savings. That is why comparing multiple NJ carriers side by side is the single most effective way to save money.",
+  }
+];
 
 export default,676.",
   }
@@ -357,6 +375,7 @@ export default function PlanGRates70NJ() {
 </ul>
               <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/health-drug-plans/medigap/basics/costs" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Medicare.gov — How Medigap Costs Are Set</a> and <a href="https://www.state.nj.us/dobi/division_insurance/ihcseh/medsupp.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking & Insurance — Medicare Supplement Information</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Free one-on-one counseling is available through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">New Jersey SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling from <a href="https://www.nj.gov/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

@@ -95,7 +95,22 @@ const faqs = [
   {
     question: "What are the 2026 Medicare costs I should budget for in Monmouth County?",
     answer:
-      "In 2026, the standard Part B premium is ];
+      "In 2026, the standard Part B premium is ,
+  {
+    question: "What are the 2026 Medicare Part A and Part B costs in Monmouth County?",
+    answer:
+      "For 2026, the standard Medicare Part B premium is ];
+
+export default85 per month with an annual deductible of $257. The Part A inpatient hospital deductible is ];
+
+export default,676 per benefit period. Most people qualify for premium-free Part A based on their work history.",
+  },
+  {
+    question: "Can I switch Medicare Advantage plans during the year in Monmouth County?",
+    answer:
+      "Yes. The Medicare Advantage Open Enrollment Period runs January 1 through March 31 each year, allowing you to switch to another Advantage plan or return to Original Medicare. You may also qualify for a Special Enrollment Period due to moving, losing coverage, or other qualifying events. Call 855-559-1700 to review your options.",
+  }
+];
 
 export default85 per month with a $257 annual deductible, and the Part A hospital deductible is ];
 
@@ -335,6 +350,7 @@ export default function MedicareInMonmouthCountyNewJersey() {
         </ul>
             <div className="text-sm text-gray-600 mt-4"><strong>Official Medicare resources:</strong> <a href="https://www.medicare.gov/plan-compare/" rel="noopener noreferrer" target="_blank" className="underline">Compare plans on Medicare.gov</a> &middot; <a href="https://www.medicare.gov/basics/get-started-with-medicare" rel="noopener noreferrer" target="_blank" className="underline">Get started with Medicare</a></div>
             <div className="text-sm text-gray-600 mt-4"><strong>New Jersey resources:</strong> <a href="https://www.nj.gov/humanservices/doas/services/l-p/msp/" rel="noopener noreferrer" target="_blank" className="underline">NJ Medicare Savings Programs (Division of Aging Services)</a></div>
+            <div className="text-sm text-gray-600 mt-4">Monmouth County residents can access free SHIP Medicare counseling through <a href="https://www.fcsmonmouth.org/_home/services/medicare-counseling/" rel="noopener noreferrer" target="_blank" className="underline">Family and Children's Service of Monmouth County</a>.</div>
       </section>
     </main>
   );

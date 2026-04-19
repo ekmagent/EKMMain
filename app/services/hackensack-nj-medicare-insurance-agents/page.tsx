@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "hackensack nj medicare insurance agents | Free Broker Consultation | MedicareYourself",
   description:
-    "Hackensack NJ medicare insurance agents — Anthony Orner compares top Bergen County carriers as a licensed independent broker. Free quote in minutes.",
+    "Hackensack NJ Medicare insurance agents — Anthony Orner compares Bergen County plans from top carriers as an independent broker. Free quote, no fees.",
   alternates: { canonical: "https://medicareyourself.com/services/hackensack-nj-medicare-insurance-agents" },
   openGraph: {
     title:

@@ -6,7 +6,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Write for Us — Medicare Articles",
   description:
-    "Write for MedicareYourself: submit expert Medicare Supplement, Advantage & enrollment articles. Earn a byline, do-follow link & reach engaged readers.",
+    "Write for MedicareYourself: submit expert Medicare articles and earn a byline plus do-follow link. Reach engaged readers — review our guidelines and submit today.",
   alternates: { canonical: `${SITE_URL}/write-for-us` },
   openGraph: {
     title: "Write for Us — Medicare Articles",

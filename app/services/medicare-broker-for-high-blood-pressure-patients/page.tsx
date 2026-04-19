@@ -345,6 +345,7 @@ export default function MedicareBrokerHighBloodPressure() {
             </li>
 </ul>
               <div className="text-sm text-gray-600 mt-4">Learn more from official sources: <a href="https://www.medicare.gov/coverage/blood-pressure-screenings" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Blood Pressure Screenings</a> and <a href="https://www.medicare.gov/drug-coverage-part-d" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Part D Prescription Drug Coverage</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
       </article>
     </>

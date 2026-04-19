@@ -333,6 +333,7 @@ export default function TampaMedicareAgent() {
             </li>
 </ul>
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/plan-compare" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov Plan Compare</a> and <a href="https://www.myfloridacfo.com/division/consumers/understandingcoverage/serving-health-insurance-needs-of-elders-ship" rel="noopener noreferrer" target="_blank" className="underline">Florida SHINE (free Medicare counseling)</a>.</div>
+            <div className="text-sm text-gray-600 mt-2">Florida residents can get free, unbiased counseling through <a href="https://www.floridashine.org/" target="_blank" rel="noopener noreferrer" className="underline">SHINE (Florida's SHIP program)</a> or verify any agent's license with the <a href="https://www.floir.com/" target="_blank" rel="noopener noreferrer" className="underline">Florida Office of Insurance Regulation</a>.</div>
       </section>
     </main>
   );

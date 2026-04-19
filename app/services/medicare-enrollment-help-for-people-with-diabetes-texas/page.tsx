@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare enrollment help for people with diabetes texas | Free Guidance | MedicareYourself",
   description:
-    "Medicare enrollment help for people with diabetes in Texas. Learn which plans cover insulin, CGMs, and testing without underwriting hurdles. Free broker help.",
+    "Medicare enrollment help for Texans with diabetes. Compare plans covering insulin, CGMs, and supplies with no underwriting. Call 855-559-1700 for free broker guidance.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-enrollment-help-for-people-with-diabetes-texas" },
   openGraph: {
     title:

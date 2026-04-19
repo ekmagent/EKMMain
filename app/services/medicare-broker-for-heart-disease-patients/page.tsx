@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare broker for heart disease patients | Free Help Finding the Right Plan | MedicareYourself",
   description:
-    "Medicare broker for heart disease patients matching you to plans covering cardiac rehab, specialists, and costly prescriptions. Call Anthony Orner — it's free.",
+    "Medicare broker for heart disease patients — compare plans covering cardiac rehab, cardiologists & drugs. Free help from Anthony Orner. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-heart-disease-patients" },
   openGraph: {
     title:
@@ -88,6 +88,17 @@ const faqs = [
     answer:
       "You can switch Medicare Advantage plans during the Open Enrollment Period (October 15 through December 7) or the Medicare Advantage Open Enrollment (January 1 through March 31). If you're on Original Medicare with a Medigap supplement, switching supplement carriers outside your Medigap Open Enrollment Period may require medical underwriting. Call us to review your options.",
   },
+,
+  {
+    question: "Do Medicare Advantage plans cover heart medications?",
+    answer:
+      "Most Medicare Advantage plans include Part D prescription drug coverage, which typically covers common cardiac medications like statins, beta blockers, ACE inhibitors, and anticoagulants. However, each plan has its own formulary, tier structure, and preferred pharmacies. A broker can check that your specific heart medications are covered at the lowest possible cost before you enroll.",
+  },
+  {
+    question: "Will Medicare cover my cardiologist visits and testing?",
+    answer:
+      "Medicare Part B covers medically necessary cardiologist visits, EKGs, stress tests, echocardiograms, and cardiac catheterization. You pay 20% of the Medicare-approved amount after meeting the $257 Part B deductible in 2026, unless you have a Medigap plan that covers that coinsurance. Medicare Advantage plans cover the same services but use copays and require in-network providers.",
+  }
 ];
 
 export default function MedicareBrokerHeartDiseasePatients() {

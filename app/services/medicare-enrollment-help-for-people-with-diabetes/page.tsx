@@ -375,6 +375,7 @@ export default function MedicareEnrollmentHelpDiabetes() {
             </li>
 </ul>
               <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/coverage/medicare-diabetes-prevention-program" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Medicare Diabetes Prevention Program (Medicare.gov)</a> and <a href="https://www.medicare.gov/coverage/continuous-glucose-monitors" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">CGM coverage under Part B</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

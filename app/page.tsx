@@ -7,7 +7,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "MedicareYourself | Medicare Insurance Broker",
   description:
-    "Independent Medicare broker licensed in NJ & 34 states. Compare Medigap & Medicare Advantage plans free—no pressure. Call 855-559-1700 for honest guidance.",
+    "Independent Medicare broker licensed in NJ & 34 states. Compare Medigap & Medicare Advantage plans free—no pressure. Call 855-559-1700 for honest guidance today.",
   alternates: { canonical: SITE_URL },
   openGraph: {
     title: "MedicareYourself | Medicare Insurance Broker",
