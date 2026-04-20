@@ -427,6 +427,51 @@ export default function SSAOnlineEnrollmentWalkthrough() {
               </Link>
             </li>
           </ul>
+          <p className="font-semibold text-gray-900 mb-2 mt-4">
+            Next steps after enrolling
+          </p>
+          <ul className="space-y-1">
+            <li>
+              <Link
+                href="/services/medicare-supplement-for-seniors-turning-65"
+                className="text-blue-600 hover:underline"
+              >
+                Medicare Supplement for Seniors Turning 65
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/compare-and-enroll-in-plan-g-online"
+                className="text-blue-600 hover:underline"
+              >
+                Compare and Enroll in Plan G Online
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/same-day-medicare-supplement-enrollment-form"
+                className="text-blue-600 hover:underline"
+              >
+                Same-Day Medicare Supplement Enrollment
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/free-medicare-agent-that-helps-with-paperwork"
+                className="text-blue-600 hover:underline"
+              >
+                Free Medicare Agent That Helps With Paperwork
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services/how-long-does-it-take-to-enroll-in-medicare-supplements"
+                className="text-blue-600 hover:underline"
+              >
+                How Long Does It Take to Enroll in Medicare Supplements?
+              </Link>
+            </li>
+          </ul>
           <p className="mt-3 text-xs text-gray-400">
             EasyKind Medicare is an independent brokerage. We are not
             affiliated with Medicare, CMS, or the Social Security

@@ -293,6 +293,24 @@ export default function HowToSignUpPage() {
               </Link>
             </li>
           </ul>
+          <p className="font-semibold text-gray-900 mt-4 mb-2">Explore your options</p>
+          <ul className="space-y-1 text-gray-600">
+            <li>
+              <Link href="/services/how-to-enroll-in-medicare-in-new-jersey" className="text-blue-600 hover:underline">
+                How to Enroll in Medicare in New Jersey
+              </Link>
+            </li>
+            <li>
+              <Link href="/services/medicare-supplement-open-enrollment-online" className="text-blue-600 hover:underline">
+                Medicare Supplement Open Enrollment Online
+              </Link>
+            </li>
+            <li>
+              <Link href="/services/same-day-medicare-supplement-enrollment-form" className="text-blue-600 hover:underline">
+                Same-Day Medicare Supplement Enrollment
+              </Link>
+            </li>
+          </ul>
         </div>
 
         <div className="bg-gray-50 rounded-xl p-6 text-sm text-gray-600 border border-gray-100">

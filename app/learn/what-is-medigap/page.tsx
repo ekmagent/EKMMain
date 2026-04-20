@@ -77,13 +77,13 @@ export default function WhatIsMedigapPage() {
         <div className="bg-blue-50 border border-blue-100 rounded-xl p-5 mb-8">
           <p className="font-semibold text-gray-900 mb-1">In plain English</p>
           <p className="text-gray-700">
-            Medigap is private insurance that fills in the &quot;gaps&quot; that Original Medicare leaves behind — mainly the 20% coinsurance you owe on every Part B medical service. It does not replace Medicare; it works alongside it.
+            Medigap is private insurance that fills in the &quot;gaps&quot; that <a href="https://www.medicare.gov/health-drug-plans/medigap" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline font-medium">Original Medicare</a> leaves behind — mainly the 20% coinsurance you owe on every Part B medical service. It does not replace Medicare; it works alongside it.
           </p>
         </div>
 
         <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-3">How Medicare&apos;s Cost-Sharing Works</h2>
         <p className="text-gray-700 leading-relaxed mb-4">
-          Original Medicare pays 80% of covered Part B services (doctor visits, outpatient care, procedures). You pay the remaining 20% — with no annual cap. A $100,000 cancer treatment could leave you with a $20,000 bill. A single hospitalization with complications could trigger the Part A deductible ($1,676 in 2026) plus daily coinsurance for extended stays.
+          <a href="https://www.medicare.gov/basics/get-started-with-medicare" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline font-medium">Original Medicare</a> pays 80% of covered Part B services (doctor visits, outpatient care, procedures). You pay the remaining 20% — with no annual cap. A $100,000 cancer treatment could leave you with a $20,000 bill. A single hospitalization with complications could trigger the Part A deductible ($1,676 in 2026) plus daily coinsurance for extended stays.
         </p>
         <p className="text-gray-700 leading-relaxed mb-4">
           Medigap covers most or all of these remaining costs, depending on which plan letter you choose. Plan G — the most popular — covers everything except the Part B deductible ($257/year).
@@ -122,6 +122,12 @@ export default function WhatIsMedigapPage() {
             <Link href="/services/how-much-does-medicare-supplement-cost-per-month-for-seniors" className="text-blue-600 hover:underline text-sm">How Much Does Medigap Cost Per Month?</Link>
             <Link href="/services/best-medicare-supplement-rates-by-age-plan-g-plan-n-plan-f-rates" className="text-blue-600 hover:underline text-sm">Medigap Rates by Age</Link>
             <Link href="/services/help-with-your-medicare-decision" className="text-blue-600 hover:underline text-sm">Help With Your Medicare Decision</Link>
+          </div>
+          <p className="text-sm text-gray-500 mt-4 mb-2">Explore your options:</p>
+          <div className="flex flex-wrap gap-3">
+            <Link href="/services/switch-medigap-plans" className="text-blue-600 hover:underline text-sm">Switch Medigap Plans</Link>
+            <Link href="/services/best-medicare-plan-for-foreign-travel" className="text-blue-600 hover:underline text-sm">Best Medicare Plan for Foreign Travel</Link>
+            <Link href="/services/medicare-supplement-for-seniors-turning-65" className="text-blue-600 hover:underline text-sm">Medicare Supplement for Seniors Turning 65</Link>
           </div>
         </div>
       </article>

@@ -108,8 +108,7 @@ export default function MedicarePartsPage() {
         <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">
           Medicare Parts A, B, C, and D Explained Simply (2026)
         </h1>
-        <p className="text-sm text-gray-500 mt-2">By <strong>Anthony Orner</strong>, Licensed Medicare Insurance Broker — NJ &amp; 34 states</p>
-        <p className="text-xs text-gray-400 mb-8">Last reviewed: March 2026 · Source: CMS.gov Medicare &amp; You 2026</p>
+        <p className="text-xs text-gray-400 mb-8">Last reviewed: March 2026 · Source: <a href="https://www.medicare.gov/basics/get-started-with-medicare" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Medicare.gov</a> Medicare &amp; You 2026</p>
 
         <div className="space-y-6 mb-10">
           {parts.map((part) => (
@@ -155,6 +154,12 @@ export default function MedicarePartsPage() {
             <Link href="/services/how-to-enroll-in-medicare-in-new-jersey" className="text-blue-600 hover:underline text-sm">How to Enroll in Medicare in NJ</Link>
             <Link href="/services/medicare-supplement-for-seniors-turning-65" className="text-blue-600 hover:underline text-sm">Medicare Supplement for Seniors Turning 65</Link>
             <Link href="/services/help-with-your-medicare-decision" className="text-blue-600 hover:underline text-sm">Help With Your Medicare Decision</Link>
+          </div>
+          <p className="text-sm text-gray-500 mt-4 mb-2">Explore your options:</p>
+          <div className="flex flex-wrap gap-3">
+            <Link href="/services/best-medicare-plan-for-chronic-conditions" className="text-blue-600 hover:underline text-sm">Best Medicare Plan for Chronic Conditions</Link>
+            <Link href="/services/quickest-way-to-enroll-into-medicare-advantage-plan" className="text-blue-600 hover:underline text-sm">Quickest Way to Enroll in Medicare Advantage</Link>
+            <Link href="/services/exploring-medicare-supplemental-insurance-medigap-cost" className="text-blue-600 hover:underline text-sm">Exploring Medigap Insurance Costs</Link>
           </div>
         </div>
       </article>

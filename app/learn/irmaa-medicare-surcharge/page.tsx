@@ -412,6 +412,24 @@ export default function IrmaaPage() {
               </Link>
             </li>
           </ul>
+          <p className="font-semibold text-gray-900 mt-4 mb-2">Explore your options</p>
+          <ul className="space-y-1 text-gray-600">
+            <li>
+              <Link href="/services/switch-medigap-plans" className="text-blue-600 hover:underline">
+                Switch Medigap Plans
+              </Link>
+            </li>
+            <li>
+              <Link href="/services/how-can-i-save-money-on-my-medicare-supplement" className="text-blue-600 hover:underline">
+                How Can I Save Money on My Medicare Supplement?
+              </Link>
+            </li>
+            <li>
+              <Link href="/services/medicare-supplement-plan-medigap-premium-hikes" className="text-blue-600 hover:underline">
+                Medigap Premium Hikes — What to Do
+              </Link>
+            </li>
+          </ul>
           <p className="mt-3 text-xs text-gray-400">
             EasyKind Medicare is an independent brokerage and is not affiliated with Medicare, CMS, SSA, or any government agency.
           </p>
