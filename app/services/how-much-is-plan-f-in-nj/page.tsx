@@ -87,7 +87,7 @@ const faqs = [
   {
     question: "Does Plan F cover the Part B deductible in 2026?",
     answer:
-      "Yes. Plan F is the only Medigap plan that still covers the annual Medicare Part B deductible, which is $257 in 2026. This is one reason Plan F costs more than Plan G, which requires you to pay that deductible yourself before coverage kicks in.",
+      "Yes. Plan F is the only Medigap plan that still covers the annual Medicare Part B deductible, which is $283 in 2026. This is one reason Plan F costs more than Plan G, which requires you to pay that deductible yourself before coverage kicks in.",
   }
 ];
 

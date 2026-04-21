@@ -64,7 +64,7 @@ const faqs = [
   {
     question: "What is SLMB and how does it differ from QMB?",
     answer:
-      "The Specified Low-Income Medicare Beneficiary (SLMB) program pays only your Part B monthly premium ($185/month in 2026). It is available to people with slightly higher income than QMB — roughly 100–120% of the Federal Poverty Level. SLMB also automatically qualifies you for Extra Help with drug costs, which can save hundreds per year.",
+      "The Specified Low-Income Medicare Beneficiary (SLMB) program pays only your Part B monthly premium ($202.90/month in 2026). It is available to people with slightly higher income than QMB — roughly 100–120% of the Federal Poverty Level. SLMB also automatically qualifies you for Extra Help with drug costs, which can save hundreds per year.",
   },
   {
     question: "Can I get Medicare Supplement if I have low income?",
@@ -90,7 +90,7 @@ const programs = [
   {
     name: "SLMB",
     fullName: "Specified Low-Income Medicare Beneficiary",
-    covers: "Part B premium only ($185/mo)",
+    covers: "Part B premium only ($202.90/mo)",
     income: "100–120% FPL (~$1,235–$1,480/mo)",
     drugHelp: "Yes — automatic Extra Help",
     highlight: false,

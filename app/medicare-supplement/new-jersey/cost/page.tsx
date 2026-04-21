@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Medicare Supplement Cost in NJ 2026",
   description:
-    "2026 NJ Medicare Supplement costs: Part B $185/mo, $257 deductible, Plan G rates by county. Compare NJ Medigap carriers — call 855-559-1700 for a free quote.",
+    "2026 NJ Medicare Supplement costs: Part B $202.90/mo, $283 deductible, Plan G rates by county. Compare NJ Medigap carriers — call 855-559-1700 for a free quote.",
   alternates: { canonical: `${SITE_URL}/medicare-supplement/new-jersey/cost` },
   openGraph: {
     title: "Medicare Supplement Cost in NJ 2026",
@@ -21,12 +21,12 @@ const faqs = [
   {
     question: "How much does Medicare cost per month in New Jersey in 2026?",
     answer:
-      "The base cost of Medicare in New Jersey is the Part B premium of $185/month (2026), which everyone pays regardless of which plan they choose. If you add a Medigap Plan G, expect to pay an additional $130–$220/month depending on carrier and county — totaling roughly $315–$405/month for comprehensive coverage with no networks and near-zero out-of-pocket costs.",
+      "The base cost of Medicare in New Jersey is the Part B premium of $202.90/month (2026), which everyone pays regardless of which plan they choose. If you add a Medigap Plan G, expect to pay an additional $130–$220/month depending on carrier and county — totaling roughly $315–$405/month for comprehensive coverage with no networks and near-zero out-of-pocket costs.",
   },
   {
     question: "Is Medicare free in New Jersey?",
     answer:
-      "Medicare Part A (hospital insurance) is free for most people who worked and paid Medicare taxes for at least 10 years. Part B (medical insurance) costs $185/month in 2026. Part D (drug coverage) averages $30–$50/month. Medigap coverage is optional but eliminates most cost-sharing. There is no such thing as completely free comprehensive Medicare coverage.",
+      "Medicare Part A (hospital insurance) is free for most people who worked and paid Medicare taxes for at least 10 years. Part B (medical insurance) costs $202.90/month in 2026. Part D (drug coverage) averages $30–$50/month. Medigap coverage is optional but eliminates most cost-sharing. There is no such thing as completely free comprehensive Medicare coverage.",
   },
   {
     question: "Why are Medigap premiums different across New Jersey counties?",
@@ -41,7 +41,7 @@ const faqs = [
   {
     question: "What is the Medicare Part B deductible in New Jersey in 2026?",
     answer:
-      "The Medicare Part B deductible is $257 in 2026 — this is a federal amount that applies nationwide, not NJ-specific. Plan G covers everything except this deductible. Plan F covers it entirely but is only available to those who became Medicare-eligible before January 1, 2020.",
+      "The Medicare Part B deductible is $283 in 2026 — this is a federal amount that applies nationwide, not NJ-specific. Plan G covers everything except this deductible. Plan F covers it entirely but is only available to those who became Medicare-eligible before January 1, 2020.",
   },
   {
     question: "Does New Jersey use community rating for Medigap premiums?",
@@ -95,13 +95,13 @@ export default function NJMedicareCostPage() {
           <div className="grid sm:grid-cols-2 gap-4 text-sm">
             <div>
               <p className="font-semibold text-gray-900">Monthly Costs</p>
-              <p className="text-gray-700 mt-1"><strong>$185</strong> Part B premium</p>
+              <p className="text-gray-700 mt-1"><strong>$202.90</strong> Part B premium</p>
               <p className="text-gray-700"><strong>$130–$220</strong> Plan G average</p>
               <p className="text-gray-700"><strong>~$40</strong> Part D drug plan</p>
             </div>
             <div>
               <p className="font-semibold text-gray-900">Annual Deductibles</p>
-              <p className="text-gray-700 mt-1"><strong>$257</strong> Part B (covered by Plan G)</p>
+              <p className="text-gray-700 mt-1"><strong>$283</strong> Part B (covered by Plan G)</p>
               <p className="text-gray-700"><strong>$1,676</strong> Part A per benefit period</p>
               <p className="text-gray-700"><strong>$0</strong> out-of-pocket with Plan G</p>
             </div>
@@ -111,7 +111,7 @@ export default function NJMedicareCostPage() {
         <div className="bg-blue-50 border border-blue-100 rounded-xl p-5 mb-8">
           <p className="font-semibold text-gray-900 mb-1">Quick answer</p>
           <p className="text-gray-700">
-            Most NJ residents with comprehensive Medigap coverage (Plan G) pay <strong>$315–$405/month total</strong> — that is the <a href="https://www.medicare.gov/your-medicare-costs/part-b-costs" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline font-medium">$185 Part B premium</a> plus $130–$220 for Plan G. In return, they have near-zero out-of-pocket costs and can see any doctor in the US who accepts Medicare.
+            Most NJ residents with comprehensive Medigap coverage (Plan G) pay <strong>$333–$423/month total</strong> — that is the <a href="https://www.medicare.gov/your-medicare-costs/part-b-costs" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline font-medium">$202.90 Part B premium</a> plus $130–$220 for Plan G. In return, they have near-zero out-of-pocket costs and can see any doctor in the US who accepts Medicare.
           </p>
         </div>
 
@@ -129,8 +129,8 @@ export default function NJMedicareCostPage() {
               {[
                 ["Part A premium", "$0 for most", "Free if 40+ quarters of Medicare taxes"],
                 ["Part A deductible (per benefit period)", "$1,676", "Covered by Plan G and Plan N"],
-                ["Part B premium", "$185/month", "Federal standard; higher if IRMAA applies"],
-                ["Part B deductible", "$257/year", "Covered by Plan G, not Plan N"],
+                ["Part B premium", "$202.90/month", "Federal standard; higher if IRMAA applies"],
+                ["Part B deductible", "$283/year", "Covered by Plan G, not Plan N"],
                 ["Medigap Plan G (NJ avg)", "$130–$220/month", "Varies by carrier and county"],
                 ["Medigap Plan N (NJ avg)", "$110–$185/month", "Plus up to $20 copay per visit"],
                 ["Part D drug plan (avg)", "$30–$60/month", "Varies by plan and drugs needed"],
@@ -150,21 +150,21 @@ export default function NJMedicareCostPage() {
           <div className="border border-gray-200 rounded-xl p-5">
             <h3 className="font-bold text-gray-900 mb-3">Original Medicare Only</h3>
             <div className="space-y-1 text-sm text-gray-600 mb-3">
-              <div className="flex justify-between"><span>Part B premium</span><span>$185</span></div>
+              <div className="flex justify-between"><span>Part B premium</span><span>$202.90</span></div>
               <div className="flex justify-between"><span>Part D drug plan</span><span>~$40</span></div>
-              <div className="flex justify-between font-semibold text-gray-900 border-t pt-2 mt-2"><span>Monthly total</span><span>~$225</span></div>
+              <div className="flex justify-between font-semibold text-gray-900 border-t pt-2 mt-2"><span>Monthly total</span><span>~$243</span></div>
             </div>
             <p className="text-xs text-red-600">⚠️ Unlimited out-of-pocket exposure — 20% of all Part B costs with no cap</p>
           </div>
           <div className="border-2 border-blue-400 rounded-xl p-5 bg-blue-50">
             <h3 className="font-bold text-gray-900 mb-3">Plan G + Part D (Recommended)</h3>
             <div className="space-y-1 text-sm text-gray-600 mb-3">
-              <div className="flex justify-between"><span>Part B premium</span><span>$185</span></div>
+              <div className="flex justify-between"><span>Part B premium</span><span>$202.90</span></div>
               <div className="flex justify-between"><span>Medigap Plan G</span><span>~$165</span></div>
               <div className="flex justify-between"><span>Part D drug plan</span><span>~$40</span></div>
-              <div className="flex justify-between font-semibold text-gray-900 border-t pt-2 mt-2"><span>Monthly total</span><span>~$390</span></div>
+              <div className="flex justify-between font-semibold text-gray-900 border-t pt-2 mt-2"><span>Monthly total</span><span>~$408</span></div>
             </div>
-            <p className="text-xs text-green-700">✅ Near-zero out-of-pocket — only the $257 Part B deductible per year</p>
+            <p className="text-xs text-green-700">✅ Near-zero out-of-pocket — only the $283 Part B deductible per year</p>
           </div>
         </div>
 

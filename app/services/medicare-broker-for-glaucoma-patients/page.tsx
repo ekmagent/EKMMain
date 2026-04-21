@@ -98,7 +98,7 @@ const faqs = [
   {
     question: "Can a Medigap plan lower my glaucoma treatment costs?",
     answer:
-      "Yes. Medigap (Medicare Supplement) plans help pay the 20% coinsurance Original Medicare leaves behind for covered services like laser procedures, diagnostic testing, and surgery. Plans G and N cover most out-of-pocket costs after the Part B deductible ($257 in 2026). A free plan review can help you compare Medigap premiums against Medicare Advantage copays for your specific treatment plan.",
+      "Yes. Medigap (Medicare Supplement) plans help pay the 20% coinsurance Original Medicare leaves behind for covered services like laser procedures, diagnostic testing, and surgery. Plans G and N cover most out-of-pocket costs after the Part B deductible ($283 in 2026). A free plan review can help you compare Medigap premiums against Medicare Advantage copays for your specific treatment plan.",
   }
 ];
 

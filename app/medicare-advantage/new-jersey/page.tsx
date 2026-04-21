@@ -36,7 +36,7 @@ const faqs = [
   {
     question: "Are there $0 premium Medicare Advantage plans in New Jersey?",
     answer:
-      "Yes. Many New Jersey counties have Medicare Advantage plans with $0 monthly premiums. You still pay your Part B premium ($185/month in 2026), but the Advantage plan itself costs nothing extra. These $0 plans typically have HMO networks and copays for services, so doctor network compatibility is important to check.",
+      "Yes. Many New Jersey counties have Medicare Advantage plans with $0 monthly premiums. You still pay your Part B premium ($202.90/month in 2026), but the Advantage plan itself costs nothing extra. These $0 plans typically have HMO networks and copays for services, so doctor network compatibility is important to check.",
   },
   {
     question: "Does Medicare Advantage cover dental and vision in New Jersey?",

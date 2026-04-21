@@ -51,7 +51,7 @@ const faqs = [
   {
     question: "What is the best Medicare Supplement plan in New Jersey in 2026?",
     answer:
-      "Plan G is the most popular Medicare Supplement plan in New Jersey for new enrollees in 2026. It covers everything Medicare covers except the Part B deductible ($257 in 2026), giving you near-zero out-of-pocket costs with any doctor who accepts Medicare. For those who qualify, Plan N offers lower premiums with small copays.",
+      "Plan G is the most popular Medicare Supplement plan in New Jersey for new enrollees in 2026. It covers everything Medicare covers except the Part B deductible ($283 in 2026), giving you near-zero out-of-pocket costs with any doctor who accepts Medicare. For those who qualify, Plan N offers lower premiums with small copays.",
   },
   {
     question: "How much does Medicare Supplement Plan G cost in New Jersey?",
@@ -271,8 +271,8 @@ export default function NJMedicareSupplementPage() {
         <div className="mt-8 bg-amber-50 border border-amber-200 rounded-xl p-6">
           <h3 className="text-lg font-bold text-gray-900 mb-3">What&apos;s Changed for NJ Medicare in 2026</h3>
           <ul className="space-y-2 text-sm text-gray-700">
-            <li>• <strong>Part B premium:</strong> $185/month standard premium — up from $174.70 in 2025.</li>
-            <li>• <strong>Part B deductible:</strong> $257 — the one cost Plan G doesn&apos;t cover.</li>
+            <li>• <strong>Part B premium:</strong> $202.90/month standard premium — up from $174.70 in 2025.</li>
+            <li>• <strong>Part B deductible:</strong> $283 — the one cost Plan G doesn&apos;t cover.</li>
             <li>• <strong>Part A deductible:</strong> $1,676 per benefit period — Plan G covers this in full.</li>
             <li>• <strong>Carrier activity in NJ:</strong> Most major carriers filed single-digit rate increases for 2026, though specific increases vary by birth year and enrollment month.</li>
             <li>• <strong>Medigap OEP reminder:</strong> Your 6-month federal Open Enrollment window is the one chance to enroll in any plan with no health questions.</li>

@@ -36,7 +36,7 @@ const faqs = [
   {
     question: "Are Medicare Advantage plans really $0 premium in New Jersey?",
     answer:
-      "Many Medicare Advantage plans in New Jersey do have $0 monthly premiums, but you still pay your Part B premium ($185/month in 2026). The $0 refers to the plan's additional premium on top of Part B. These plans generate revenue through Medicare's capitated payments and your cost-sharing (copays, deductibles) when you use services.",
+      "Many Medicare Advantage plans in New Jersey do have $0 monthly premiums, but you still pay your Part B premium ($202.90/month in 2026). The $0 refers to the plan's additional premium on top of Part B. These plans generate revenue through Medicare's capitated payments and your cost-sharing (copays, deductibles) when you use services.",
   },
   {
     question: "Which is more expensive long-term — Medigap or Medicare Advantage in NJ?",

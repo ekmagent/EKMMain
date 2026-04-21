@@ -88,7 +88,7 @@ const faqs = [
   {
     question: "Does Medicare cover diagnostic hearing exams?",
     answer:
-      "Yes. Medicare Part B covers diagnostic hearing and balance exams when your doctor or other health care provider orders them to see if you need medical treatment. You pay 20% of the Medicare-approved amount after the annual Part B deductible of $257 in 2026.",
+      "Yes. Medicare Part B covers diagnostic hearing and balance exams when your doctor or other health care provider orders them to see if you need medical treatment. You pay 20% of the Medicare-approved amount after the annual Part B deductible of $283 in 2026.",
   },
   {
     question: "Can a Medicare broker help me switch plans if my current one does not cover hearing aids?",

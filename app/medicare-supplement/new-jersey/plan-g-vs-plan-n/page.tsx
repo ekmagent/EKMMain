@@ -21,7 +21,7 @@ const faqs = [
   {
     question: "Is Plan G or Plan N better in New Jersey?",
     answer:
-      "For most New Jersey residents, Plan G is the better choice because it eliminates virtually all out-of-pocket costs after the Part B deductible ($257 in 2026). Plan N makes sense if you are in excellent health, rarely visit specialists, and want to save $20–$40/month on premiums — but you must be comfortable with copays up to $20 per office visit and $50 per ER visit.",
+      "For most New Jersey residents, Plan G is the better choice because it eliminates virtually all out-of-pocket costs after the Part B deductible ($283 in 2026). Plan N makes sense if you are in excellent health, rarely visit specialists, and want to save $20–$40/month on premiums — but you must be comfortable with copays up to $20 per office visit and $50 per ER visit.",
   },
   {
     question: "How much does Plan N cost compared to Plan G in New Jersey?",
@@ -31,7 +31,7 @@ const faqs = [
   {
     question: "What does Plan N not cover that Plan G does?",
     answer:
-      "Plan N does not cover the Medicare Part B deductible ($257 in 2026), Part B excess charges (when doctors charge above Medicare rates), and it adds copays: up to $20 per doctor visit and up to $50 per emergency room visit if you are not admitted. Plan G covers all of these.",
+      "Plan N does not cover the Medicare Part B deductible ($283 in 2026), Part B excess charges (when doctors charge above Medicare rates), and it adds copays: up to $20 per doctor visit and up to $50 per emergency room visit if you are not admitted. Plan G covers all of these.",
   },
   {
     question: "What are Part B excess charges and do I need to worry about them in NJ?",
@@ -103,7 +103,7 @@ export default function PlanGvsPlanNPage() {
         <div className="bg-amber-50 border border-amber-200 rounded-xl p-5 mb-8">
           <p className="font-semibold text-gray-900 mb-2">What's Different for NJ Plan G vs Plan N in 2026</p>
           <ul className="text-sm text-gray-700 space-y-1">
-            <li>• Part B deductible is <strong>$257</strong> (covered by Plan G, not Plan N)</li>
+            <li>• Part B deductible is <strong>$283</strong> (covered by Plan G, not Plan N)</li>
             <li>• Part A hospital deductible is <strong>$1,676 per benefit period</strong> (both plans cover it)</li>
             <li>• NJ community rating means your Plan G premium <strong>won't increase as you age</strong></li>
             <li>• Plan N copays up to <strong>$20 per doctor visit, $50 per ER visit</strong> still apply</li>
@@ -133,7 +133,7 @@ export default function PlanGvsPlanNPage() {
                 ["Part B coinsurance / copayment", "✅ Covered", "✅ Covered (with copays)"],
                 ["Part A hospice coinsurance", "✅ Covered", "✅ Covered"],
                 ["Part A deductible ($1,676 in 2026)", "✅ Covered", "✅ Covered"],
-                ["Part B deductible ($257 in 2026)", "✅ Covered", "❌ Not covered"],
+                ["Part B deductible ($283 in 2026)", "✅ Covered", "❌ Not covered"],
                 ["Part B excess charges", "✅ Covered", "❌ Not covered"],
                 ["Foreign travel emergency (80%)", "✅ Covered", "✅ Covered"],
                 ["Doctor visit copay", "None", "Up to $20"],

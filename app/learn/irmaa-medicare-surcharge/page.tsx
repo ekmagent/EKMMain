@@ -46,12 +46,12 @@ const articleSchema = {
 };
 
 const partBBrackets = [
-  { filing: "Single", joint: "Married Filing Jointly", surcharge: "$0", total: "$185.00" , income: "$106,000 or less", jointIncome: "$212,000 or less" },
-  { filing: "Single", joint: "Married Filing Jointly", surcharge: "+$70.00", total: "$255.00", income: "$106,001–$133,000", jointIncome: "$212,001–$266,000" },
-  { filing: "Single", joint: "Married Filing Jointly", surcharge: "+$175.00", total: "$360.00", income: "$133,001–$167,000", jointIncome: "$266,001–$334,000" },
-  { filing: "Single", joint: "Married Filing Jointly", surcharge: "+$280.10", total: "$465.10", income: "$167,001–$200,000", jointIncome: "$334,001–$400,000" },
-  { filing: "Single", joint: "Married Filing Jointly", surcharge: "+$385.00", total: "$570.00", income: "$200,001–$500,000", jointIncome: "$400,001–$750,000" },
-  { filing: "Single", joint: "Married Filing Jointly", surcharge: "+$420.80", total: "$605.80", income: "Above $500,000", jointIncome: "Above $750,000" },
+  { filing: "Single", joint: "Married Filing Jointly", surcharge: "$0", total: "$202.90" , income: "$106,000 or less", jointIncome: "$212,000 or less" },
+  { filing: "Single", joint: "Married Filing Jointly", surcharge: "+$70.00", total: "$272.90", income: "$106,001–$133,000", jointIncome: "$212,001–$266,000" },
+  { filing: "Single", joint: "Married Filing Jointly", surcharge: "+$175.00", total: "$377.90", income: "$133,001–$167,000", jointIncome: "$266,001–$334,000" },
+  { filing: "Single", joint: "Married Filing Jointly", surcharge: "+$280.10", total: "$483.00", income: "$167,001–$200,000", jointIncome: "$334,001–$400,000" },
+  { filing: "Single", joint: "Married Filing Jointly", surcharge: "+$385.00", total: "$587.90", income: "$200,001–$500,000", jointIncome: "$400,001–$750,000" },
+  { filing: "Single", joint: "Married Filing Jointly", surcharge: "+$420.80", total: "$623.70", income: "Above $500,000", jointIncome: "Above $750,000" },
 ];
 
 const lifeChangingEvents = [
@@ -187,7 +187,7 @@ export default function IrmaaPage() {
         <p className="text-gray-700 leading-relaxed mb-4">
           IRMAA stands for <strong>Income-Related Monthly Adjustment Amount</strong>. It is an additional
           amount that higher-income Medicare beneficiaries pay on top of the standard Part B premium
-          ($185/month in 2026) and their Part D drug plan premium.
+          ($202.90/month in 2026) and their Part D drug plan premium.
         </p>
         <p className="text-gray-700 leading-relaxed mb-4">
           About <strong>93% of Medicare beneficiaries</strong> pay only the standard premium. IRMAA only

@@ -21,7 +21,7 @@ const faqs = [
   {
     question: "What is the best Medicare Supplement plan in Pennsylvania in 2026?",
     answer:
-      "Plan G is the most popular Medicare Supplement plan for new enrollees in Pennsylvania in 2026. It covers everything Original Medicare leaves behind except the Part B deductible ($257/year). Plan N is the second most common choice — it has lower premiums but requires small copays ($20 for office visits, $50 for ER). Both are standardized, so coverage is identical across all carriers; only the price differs.",
+      "Plan G is the most popular Medicare Supplement plan for new enrollees in Pennsylvania in 2026. It covers everything Original Medicare leaves behind except the Part B deductible ($283/year). Plan N is the second most common choice — it has lower premiums but requires small copays ($20 for office visits, $50 for ER). Both are standardized, so coverage is identical across all carriers; only the price differs.",
   },
   {
     question: "How much does Medicare Supplement cost in Pennsylvania?",
@@ -46,7 +46,7 @@ const faqs = [
   {
     question: "What does Medicare Supplement Plan G cover in Pennsylvania?",
     answer:
-      "Plan G in Pennsylvania covers: the Part A hospital deductible ($1,676 in 2026), Part A coinsurance and hospital costs, Part B coinsurance (the 20% you owe on all outpatient services), Part B excess charges, skilled nursing facility coinsurance, hospice care coinsurance, and foreign travel emergency care (80% up to plan limits). The only gap is the Part B deductible ($257/year), which you pay out of pocket. After that, Plan G covers virtually all remaining Medicare-approved costs.",
+      "Plan G in Pennsylvania covers: the Part A hospital deductible ($1,676 in 2026), Part A coinsurance and hospital costs, Part B coinsurance (the 20% you owe on all outpatient services), Part B excess charges, skilled nursing facility coinsurance, hospice care coinsurance, and foreign travel emergency care (80% up to plan limits). The only gap is the Part B deductible ($283/year), which you pay out of pocket. After that, Plan G covers virtually all remaining Medicare-approved costs.",
   },
 
   {
@@ -57,7 +57,7 @@ const faqs = [
   {
     question: "Do I need Medicare Part B before buying a Medigap plan in PA?",
     answer:
-      "Yes. You must be enrolled in both Medicare Part A and Part B to purchase a Medicare Supplement plan in Pennsylvania. Part B carries a standard premium of $185/month in 2026 and a $257 annual deductible. Medigap works alongside Original Medicare to cover your share of costs.",
+      "Yes. You must be enrolled in both Medicare Part A and Part B to purchase a Medicare Supplement plan in Pennsylvania. Part B carries a standard premium of $202.90/month in 2026 and a $283 annual deductible. Medigap works alongside Original Medicare to cover your share of costs.",
   },
 ];
 
@@ -88,7 +88,7 @@ export default function PennsylvaniaMedigapPage() {
       monthlyEst: "$100–$200",
       partADeductible: "✓ Covered",
       partBCoinsurance: "✓ Covered",
-      partBDeductible: "✗ You pay $257",
+      partBDeductible: "✗ You pay $283",
       excessCharges: "✓ Covered",
       bestFor: "Most new enrollees — near-complete coverage",
       popular: true,
@@ -98,7 +98,7 @@ export default function PennsylvaniaMedigapPage() {
       monthlyEst: "$75–$155",
       partADeductible: "✓ Covered",
       partBCoinsurance: "✓ Covered (copays apply)",
-      partBDeductible: "✗ You pay $257",
+      partBDeductible: "✗ You pay $283",
       excessCharges: "✗ Not covered",
       bestFor: "Healthy enrollees who rarely see specialists",
       popular: false,
@@ -108,7 +108,7 @@ export default function PennsylvaniaMedigapPage() {
       monthlyEst: "$50–$90",
       partADeductible: "50% Covered",
       partBCoinsurance: "50% Covered",
-      partBDeductible: "✗ You pay $257",
+      partBDeductible: "✗ You pay $283",
       excessCharges: "✗ Not covered",
       bestFor: "Budget-focused with $7,220 out-of-pocket cap",
       popular: false,

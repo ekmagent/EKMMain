@@ -65,7 +65,7 @@ export default function MedicarePartsPage() {
       name: "Medical Insurance",
       color: "green",
       covers: ["Doctor visits and specialist care", "Outpatient procedures and surgery", "Preventive screenings and vaccines", "Durable medical equipment", "Mental health services"],
-      cost: "$185/month premium in 2026. $257 annual deductible. Then you pay 20% of covered services — with no cap.",
+      cost: "$202.90/month premium in 2026. $283 annual deductible. Then you pay 20% of covered services — with no cap.",
       doesNotCover: "Prescription drugs, dental, vision, hearing aids, cosmetic procedures",
     },
     {

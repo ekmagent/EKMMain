@@ -97,7 +97,7 @@ const faqs = [
   {
     question: "Will Medicare cover my cardiologist visits and testing?",
     answer:
-      "Medicare Part B covers medically necessary cardiologist visits, EKGs, stress tests, echocardiograms, and cardiac catheterization. You pay 20% of the Medicare-approved amount after meeting the $257 Part B deductible in 2026, unless you have a Medigap plan that covers that coinsurance. Medicare Advantage plans cover the same services but use copays and require in-network providers.",
+      "Medicare Part B covers medically necessary cardiologist visits, EKGs, stress tests, echocardiograms, and cardiac catheterization. You pay 20% of the Medicare-approved amount after meeting the $283 Part B deductible in 2026, unless you have a Medigap plan that covers that coinsurance. Medicare Advantage plans cover the same services but use copays and require in-network providers.",
   }
 ];
 
@@ -149,7 +149,7 @@ export default function MedicareBrokerHeartDiseasePatients() {
           Why heart disease makes choosing the wrong plan so costly
         </h2>
         <p className="text-gray-700 mb-2">
-          Heart disease isn't one bill. It's an ongoing cycle of specialist visits, imaging, blood work, medication adjustments, and sometimes emergency procedures that cost six or seven figures. One real-world example: a single heart attack with three surgeries and weeks in cardiac ICU totaled over $1.2 million. The patient on the right Medigap plan paid roughly $257 for his Part B deductible plus monthly premiums.
+          Heart disease isn't one bill. It's an ongoing cycle of specialist visits, imaging, blood work, medication adjustments, and sometimes emergency procedures that cost six or seven figures. One real-world example: a single heart attack with three surgeries and weeks in cardiac ICU totaled over $1.2 million. The patient on the right Medigap plan paid roughly $283 for his Part B deductible plus monthly premiums.
         </p>
         <p className="text-gray-700">
           On the wrong plan, you'd face copays at every turn. The 2026 Part A deductible alone is $1,676 per benefit period, and skilled nursing coinsurance runs $209.50 per day for days 21 through 100.

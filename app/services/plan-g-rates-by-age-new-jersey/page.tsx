@@ -41,7 +41,7 @@ const faqs = [
   {
     question: "Is Plan G worth it at age 70?",
     answer:
-      "For most people, yes. At 70 you are more likely to use medical services, and Plan G covers everything except the $257 annual Part B deductible. Without Plan G, you would pay 20% of all Part B services with no out-of-pocket cap. One hospital stay or surgery could cost thousands. The predictable monthly premium protects against unpredictable bills.",
+      "For most people, yes. At 70 you are more likely to use medical services, and Plan G covers everything except the $283 annual Part B deductible. Without Plan G, you would pay 20% of all Part B services with no out-of-pocket cap. One hospital stay or surgery could cost thousands. The predictable monthly premium protects against unpredictable bills.",
   },
 ];
 

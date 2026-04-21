@@ -88,7 +88,7 @@ const faqs = [
   {
     question: "Does Medicare cover rheumatologist visits for lupus management?",
     answer:
-      "Yes. Medicare Part B covers medically necessary visits to rheumatologists and other specialists who accept Medicare. After meeting the 2026 Part B deductible of $257, you typically pay 20% of the Medicare-approved amount unless you have supplemental coverage that reduces your cost share.",
+      "Yes. Medicare Part B covers medically necessary visits to rheumatologists and other specialists who accept Medicare. After meeting the 2026 Part B deductible of $283, you typically pay 20% of the Medicare-approved amount unless you have supplemental coverage that reduces your cost share.",
   }
 ];
 
