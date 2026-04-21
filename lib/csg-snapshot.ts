@@ -48,6 +48,17 @@ export function getSnapshot(): CsgSnapshot | null {
     const raw = fs.readFileSync(jsonPath, "utf8");
     const parsed = JSON.parse(raw);
     if (!parsed?.asOfDate || !parsed?.states) return null;
+
+    // Require at least one state to have at least one populated plan entry —
+    // otherwise the snapshot is a shape-only stub from a failed fetch and
+    // should not trigger the "Verified against CSG" freshness stamps.
+    const hasData = Object.values(parsed.states as Record<string, CsgStateEntry>).some((state) =>
+      Object.values(state?.plans ?? {}).some((plan) =>
+        Object.keys(plan ?? {}).length > 0
+      )
+    );
+    if (!hasData) return null;
+
     cached = parsed as CsgSnapshot;
     return cached;
   } catch {

@@ -41,10 +41,11 @@ const REQUEST_DELAY_MS = 500; // be gentle on CSG
 // ---------------------------------------------------------------------------
 const CSG_BASE = process.env.CSG_BASE_URL || "https://api.csgactuarial.com/v1";
 const CSG_API_KEY = process.env.CSG_API_KEY || "";
+const CSG_API_TOKEN = process.env.CSG_API_TOKEN || "";
 const CSG_PORTAL = process.env.CSG_PORTAL_NAME || "csg_individual";
 
-if (!CSG_API_KEY) {
-  console.error("CSG_API_KEY env var is required");
+if (!CSG_API_KEY && !CSG_API_TOKEN) {
+  console.error("Either CSG_API_KEY (preferred, auth flow) or CSG_API_TOKEN (static token, legacy) must be set");
   process.exit(1);
 }
 
@@ -52,6 +53,9 @@ let cachedToken = null;
 let tokenExpires = 0;
 
 async function getToken() {
+  // Legacy static token bypasses the auth flow entirely
+  if (!CSG_API_KEY && CSG_API_TOKEN) return CSG_API_TOKEN;
+
   const now = Date.now();
   const buffer = 15 * 60 * 1000;
   if (cachedToken && tokenExpires > now + buffer) return cachedToken;
