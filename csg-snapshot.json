@@ -1,0 +1,495 @@
+{
+  "asOfDate": "2026-04-21",
+  "sourceApi": "CSG Actuarial v1",
+  "notes": "Aggregate ranges only. Carrier names are never exposed. Based on one flagship ZIP per state; in-state ZIPs may vary. Gender sampled: Female 65+.",
+  "states": {
+    "NJ": {
+      "sampleZip": "08002",
+      "sampleCity": "Cherry Hill",
+      "tobaccoNeutralOEP": true,
+      "plans": {
+        "G": {
+          "65": {
+            "carrierCount": 19,
+            "low": 147.88,
+            "high": 260.98,
+            "spread": 113.1,
+            "hhd": {
+              "carriersOffering": 4,
+              "low": 155.15,
+              "high": 231.86,
+              "minDiscountPct": 5,
+              "maxDiscountPct": 11.1
+            },
+            "tobacco": null
+          },
+          "67": {
+            "carrierCount": 19,
+            "low": 150.53,
+            "high": 266.89,
+            "spread": 116.36,
+            "hhd": {
+              "carriersOffering": 4,
+              "low": 155.15,
+              "high": 248.39,
+              "minDiscountPct": 5,
+              "maxDiscountPct": 10.1
+            },
+            "tobacco": null
+          },
+          "69": {
+            "carrierCount": 19,
+            "low": 153.54,
+            "high": 281.97,
+            "spread": 128.43,
+            "hhd": {
+              "carriersOffering": 4,
+              "low": 166.72,
+              "high": 266.07,
+              "minDiscountPct": 5,
+              "maxDiscountPct": 9.3
+            },
+            "tobacco": null
+          }
+        },
+        "N": {
+          "65": {
+            "carrierCount": 20,
+            "low": 106.57,
+            "high": 176.72,
+            "spread": 70.15,
+            "hhd": {
+              "carriersOffering": 4,
+              "low": 105.3,
+              "high": 167.78,
+              "minDiscountPct": 5.1,
+              "maxDiscountPct": 11.1
+            },
+            "tobacco": null
+          },
+          "67": {
+            "carrierCount": 20,
+            "low": 109.24,
+            "high": 189.32,
+            "spread": 80.08,
+            "hhd": {
+              "carriersOffering": 4,
+              "low": 105.3,
+              "high": 179.75,
+              "minDiscountPct": 5.1,
+              "maxDiscountPct": 10.1
+            },
+            "tobacco": null
+          },
+          "69": {
+            "carrierCount": 20,
+            "low": 114.77,
+            "high": 206.83,
+            "spread": 92.06,
+            "hhd": {
+              "carriersOffering": 4,
+              "low": 113.25,
+              "high": 192.55,
+              "minDiscountPct": 5,
+              "maxDiscountPct": 9.3
+            },
+            "tobacco": null
+          }
+        }
+      }
+    },
+    "PA": {
+      "sampleZip": "19103",
+      "sampleCity": "Philadelphia",
+      "tobaccoNeutralOEP": false,
+      "plans": {
+        "G": {
+          "65": {
+            "carrierCount": 30,
+            "low": 137.68,
+            "high": 295.51,
+            "spread": 157.83,
+            "hhd": {
+              "carriersOffering": 5,
+              "low": 122.39,
+              "high": 169.03,
+              "minDiscountPct": 11.1,
+              "maxDiscountPct": 20
+            },
+            "tobacco": {
+              "carriersRatingTobacco": 37,
+              "totalCarriersWithTobaccoQuote": 39,
+              "minSurchargePct": 10,
+              "maxSurchargePct": 286.6,
+              "avgSurchargePct": 33.7
+            }
+          },
+          "67": {
+            "carrierCount": 30,
+            "low": 137.68,
+            "high": 295.51,
+            "spread": 157.83,
+            "hhd": {
+              "carriersOffering": 5,
+              "low": 122.39,
+              "high": 169.03,
+              "minDiscountPct": 11.1,
+              "maxDiscountPct": 20
+            },
+            "tobacco": {
+              "carriersRatingTobacco": 37,
+              "totalCarriersWithTobaccoQuote": 39,
+              "minSurchargePct": 10,
+              "maxSurchargePct": 286.6,
+              "avgSurchargePct": 33.7
+            }
+          },
+          "69": {
+            "carrierCount": 30,
+            "low": 142.92,
+            "high": 313.36,
+            "spread": 170.44,
+            "hhd": {
+              "carriersOffering": 5,
+              "low": 127.04,
+              "high": 178.54,
+              "minDiscountPct": 11.1,
+              "maxDiscountPct": 20
+            },
+            "tobacco": {
+              "carriersRatingTobacco": 37,
+              "totalCarriersWithTobaccoQuote": 39,
+              "minSurchargePct": 10,
+              "maxSurchargePct": 259.8,
+              "avgSurchargePct": 32.5
+            }
+          }
+        },
+        "N": {
+          "65": {
+            "carrierCount": 30,
+            "low": 114.51,
+            "high": 228.18,
+            "spread": 113.67,
+            "hhd": {
+              "carriersOffering": 4,
+              "low": 99.11,
+              "high": 144.19,
+              "minDiscountPct": 11.6,
+              "maxDiscountPct": 20
+            },
+            "tobacco": {
+              "carriersRatingTobacco": 36,
+              "totalCarriersWithTobaccoQuote": 38,
+              "minSurchargePct": 10,
+              "maxSurchargePct": 397.6,
+              "avgSurchargePct": 36.5
+            }
+          },
+          "67": {
+            "carrierCount": 30,
+            "low": 114.51,
+            "high": 228.18,
+            "spread": 113.67,
+            "hhd": {
+              "carriersOffering": 4,
+              "low": 102.08,
+              "high": 144.19,
+              "minDiscountPct": 11.6,
+              "maxDiscountPct": 20
+            },
+            "tobacco": {
+              "carriersRatingTobacco": 36,
+              "totalCarriersWithTobaccoQuote": 38,
+              "minSurchargePct": 9.6,
+              "maxSurchargePct": 397.6,
+              "avgSurchargePct": 36.5
+            }
+          },
+          "69": {
+            "carrierCount": 30,
+            "low": 114.51,
+            "high": 254,
+            "spread": 139.49,
+            "hhd": {
+              "carriersOffering": 4,
+              "low": 108.29,
+              "high": 152.32,
+              "minDiscountPct": 11.1,
+              "maxDiscountPct": 20
+            },
+            "tobacco": {
+              "carriersRatingTobacco": 36,
+              "totalCarriersWithTobaccoQuote": 38,
+              "minSurchargePct": 9.6,
+              "maxSurchargePct": 362.8,
+              "avgSurchargePct": 35
+            }
+          }
+        }
+      }
+    },
+    "OH": {
+      "sampleZip": "44101",
+      "sampleCity": "Cleveland",
+      "tobaccoNeutralOEP": false,
+      "plans": {
+        "G": {
+          "65": {
+            "carrierCount": 34,
+            "low": 118.17,
+            "high": 342.84,
+            "spread": 224.67,
+            "hhd": {
+              "carriersOffering": 4,
+              "low": 104.38,
+              "high": 157.5,
+              "minDiscountPct": 10,
+              "maxDiscountPct": 12.3
+            },
+            "tobacco": {
+              "carriersRatingTobacco": 38,
+              "totalCarriersWithTobaccoQuote": 43,
+              "minSurchargePct": 7.5,
+              "maxSurchargePct": 355.2,
+              "avgSurchargePct": 41.5
+            }
+          },
+          "67": {
+            "carrierCount": 34,
+            "low": 118.17,
+            "high": 346.22,
+            "spread": 228.05,
+            "hhd": {
+              "carriersOffering": 4,
+              "low": 104.38,
+              "high": 157.5,
+              "minDiscountPct": 10,
+              "maxDiscountPct": 12.3
+            },
+            "tobacco": {
+              "carriersRatingTobacco": 38,
+              "totalCarriersWithTobaccoQuote": 43,
+              "minSurchargePct": 7.7,
+              "maxSurchargePct": 355.2,
+              "avgSurchargePct": 41.7
+            }
+          },
+          "69": {
+            "carrierCount": 34,
+            "low": 124.08,
+            "high": 357.31,
+            "spread": 233.23,
+            "hhd": {
+              "carriersOffering": 4,
+              "low": 110.29,
+              "high": 160.07,
+              "minDiscountPct": 10,
+              "maxDiscountPct": 12.3
+            },
+            "tobacco": {
+              "carriersRatingTobacco": 38,
+              "totalCarriersWithTobaccoQuote": 43,
+              "minSurchargePct": 7.3,
+              "maxSurchargePct": 333.6,
+              "avgSurchargePct": 40.1
+            }
+          }
+        },
+        "N": {
+          "65": {
+            "carrierCount": 33,
+            "low": 95,
+            "high": 277.27,
+            "spread": 182.27,
+            "hhd": {
+              "carriersOffering": 3,
+              "low": 92.09,
+              "high": 106.71,
+              "minDiscountPct": 11.7,
+              "maxDiscountPct": 12.5
+            },
+            "tobacco": {
+              "carriersRatingTobacco": 36,
+              "totalCarriersWithTobaccoQuote": 41,
+              "minSurchargePct": 0.8,
+              "maxSurchargePct": 397.8,
+              "avgSurchargePct": 44.8
+            }
+          },
+          "67": {
+            "carrierCount": 33,
+            "low": 102,
+            "high": 292,
+            "spread": 190,
+            "hhd": {
+              "carriersOffering": 3,
+              "low": 92.09,
+              "high": 106.71,
+              "minDiscountPct": 11.7,
+              "maxDiscountPct": 12.5
+            },
+            "tobacco": {
+              "carriersRatingTobacco": 36,
+              "totalCarriersWithTobaccoQuote": 41,
+              "minSurchargePct": 0.8,
+              "maxSurchargePct": 397.8,
+              "avgSurchargePct": 45.1
+            }
+          },
+          "69": {
+            "carrierCount": 33,
+            "low": 104.36,
+            "high": 312,
+            "spread": 207.64,
+            "hhd": {
+              "carriersOffering": 3,
+              "low": 97.32,
+              "high": 109.47,
+              "minDiscountPct": 11.1,
+              "maxDiscountPct": 12.4
+            },
+            "tobacco": {
+              "carriersRatingTobacco": 36,
+              "totalCarriersWithTobaccoQuote": 41,
+              "minSurchargePct": 0.8,
+              "maxSurchargePct": 374,
+              "avgSurchargePct": 43.1
+            }
+          }
+        }
+      }
+    },
+    "TX": {
+      "sampleZip": "77002",
+      "sampleCity": "Houston",
+      "tobaccoNeutralOEP": false,
+      "plans": {
+        "G": {
+          "65": {
+            "carrierCount": 28,
+            "low": 129.92,
+            "high": 284.86,
+            "spread": 154.94,
+            "hhd": {
+              "carriersOffering": 4,
+              "low": 133.24,
+              "high": 191.27,
+              "minDiscountPct": 11.1,
+              "maxDiscountPct": 20
+            },
+            "tobacco": {
+              "carriersRatingTobacco": 33,
+              "totalCarriersWithTobaccoQuote": 34,
+              "minSurchargePct": 10,
+              "maxSurchargePct": 237.9,
+              "avgSurchargePct": 24.2
+            }
+          },
+          "67": {
+            "carrierCount": 28,
+            "low": 129.92,
+            "high": 287.71,
+            "spread": 157.79,
+            "hhd": {
+              "carriersOffering": 4,
+              "low": 133.24,
+              "high": 191.27,
+              "minDiscountPct": 11.1,
+              "maxDiscountPct": 20
+            },
+            "tobacco": {
+              "carriersRatingTobacco": 33,
+              "totalCarriersWithTobaccoQuote": 34,
+              "minSurchargePct": 9.9,
+              "maxSurchargePct": 237.9,
+              "avgSurchargePct": 24.2
+            }
+          },
+          "69": {
+            "carrierCount": 28,
+            "low": 132.52,
+            "high": 296.9,
+            "spread": 164.38,
+            "hhd": {
+              "carriersOffering": 4,
+              "low": 133.91,
+              "high": 199.01,
+              "minDiscountPct": 11,
+              "maxDiscountPct": 20
+            },
+            "tobacco": {
+              "carriersRatingTobacco": 33,
+              "totalCarriersWithTobaccoQuote": 34,
+              "minSurchargePct": 10,
+              "maxSurchargePct": 221.9,
+              "avgSurchargePct": 23.7
+            }
+          }
+        },
+        "N": {
+          "65": {
+            "carrierCount": 26,
+            "low": 99.14,
+            "high": 243,
+            "spread": 143.86,
+            "hhd": {
+              "carriersOffering": 3,
+              "low": 96.93,
+              "high": 142.9,
+              "minDiscountPct": 11.6,
+              "maxDiscountPct": 20
+            },
+            "tobacco": {
+              "carriersRatingTobacco": 29,
+              "totalCarriersWithTobaccoQuote": 30,
+              "minSurchargePct": 10,
+              "maxSurchargePct": 219.7,
+              "avgSurchargePct": 23.7
+            }
+          },
+          "67": {
+            "carrierCount": 26,
+            "low": 99.14,
+            "high": 269,
+            "spread": 169.86,
+            "hhd": {
+              "carriersOffering": 3,
+              "low": 97.41,
+              "high": 142.9,
+              "minDiscountPct": 11.6,
+              "maxDiscountPct": 20
+            },
+            "tobacco": {
+              "carriersRatingTobacco": 29,
+              "totalCarriersWithTobaccoQuote": 30,
+              "minSurchargePct": 10,
+              "maxSurchargePct": 219.7,
+              "avgSurchargePct": 23.7
+            }
+          },
+          "69": {
+            "carrierCount": 26,
+            "low": 101.12,
+            "high": 296,
+            "spread": 194.88,
+            "hhd": {
+              "carriersOffering": 3,
+              "low": 102.35,
+              "high": 150.19,
+              "minDiscountPct": 11.1,
+              "maxDiscountPct": 20
+            },
+            "tobacco": {
+              "carriersRatingTobacco": 29,
+              "totalCarriersWithTobaccoQuote": 30,
+              "minSurchargePct": 10,
+              "maxSurchargePct": 204.5,
+              "avgSurchargePct": 23.2
+            }
+          }
+        }
+      }
+    }
+  }
+}
