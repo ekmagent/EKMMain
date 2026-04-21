@@ -154,23 +154,10 @@ const faqs = [
   },
 ];
 
-const faqSchema = {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  mainEntity: faqs.map((f) => ({
-    "@type": "Question",
-    name: f.question,
-    acceptedAnswer: {
-      "@type": "Answer",
-      text: f.answer,
-    },
-  })),
-};
-
 export default function HowToEnrollMedigapPage() {
   return (
     <>
-      <SchemaMarkup schema={[breadcrumbSchema, articleSchema, howToSchema, faqSchema]} />
+      <SchemaMarkup schema={[breadcrumbSchema, articleSchema, howToSchema]} />
 
       <nav className="max-w-4xl mx-auto px-4 pt-4 text-sm text-gray-500">
         <Link href="/" className="hover:text-blue-600">Home</Link>
