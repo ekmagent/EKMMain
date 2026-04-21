@@ -100,7 +100,7 @@ const faqs = [
     answer:
       "No. Independent Medicare brokers are paid by the insurance carriers, not by you. The commission is the same regardless of which carrier you choose, so there is no incentive to push one company over another. Using a broker costs you nothing and saves you the work of calling each carrier individually.",
   },
-,
+
   {
     question: "Do I have a federal right to switch Medigap policies after my Open Enrollment Period ends?",
     answer:

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare consultant in ft lauderdale fl | Free Plan Comparison | MedicareYourself",
   description:
-    "Medicare consultant in Ft Lauderdale FL — Anthony Orner compares Supplement and Advantage plans across Broward County. Free consultation, no obligation.",
+    "Medicare consultant in Ft Lauderdale FL — Anthony Orner compares Supplement and Advantage plans across Broward County carriers. Free, no-obligation consultation.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-consultant-in-ft-lauderdale-fl" },
   openGraph: {
     title:
@@ -83,14 +83,6 @@ const faqs = [
     answer:
       "Ideally, 6 months before your Part B start date. This gives you time to compare options and apply during your Medigap Open Enrollment Period, when carriers must accept you regardless of health history.",
   },
-,
-  {
-    question: "What does Medicare Part B cost in 2026?",
-    answer:
-      "The standard Part B premium in 2026 is ];
-
-export default85 per month, with an annual deductible of $257. Higher-income beneficiaries may pay more through IRMAA adjustments based on their tax returns.",
-  }
 ];
 
 export default function MedicareConsultantFtLauderdaleFL() {
@@ -309,8 +301,6 @@ export default function MedicareConsultantFtLauderdaleFL() {
               </Link>
             </li>
 </ul>
-            <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/plan-compare" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov Plan Finder</a> and <a href="https://www.medicare.gov/basics/get-started-with-medicare" rel="noopener noreferrer" target="_blank" className="underline">Getting Started with Medicare</a>.</div>
-            <div className="text-sm text-gray-600 mt-4">Florida seniors can also get free, unbiased counseling from <a href="https://www.floridashine.org/" rel="noopener noreferrer" target="_blank" className="underline">Florida SHINE</a>, the state's SHIP program.</div>
       </section>
     </main>
   );

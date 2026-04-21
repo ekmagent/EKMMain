@@ -84,7 +84,7 @@ const faqs = [
     answer:
       "Costs vary by plan. Some NJ Medicare Advantage plans offer hearing aid allowances ranging from a few hundred dollars to over $1,000 per ear. Copays and brand restrictions differ between carriers. A broker can compare the exact benefit amounts across your available plans.",
   },
-,
+
   {
     question: "Does Medicare cover diagnostic hearing exams?",
     answer:

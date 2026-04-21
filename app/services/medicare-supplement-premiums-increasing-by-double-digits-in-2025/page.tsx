@@ -85,7 +85,7 @@ const faqs = [
     answer:
       "Each carrier files rates based on its own claims experience. A carrier with an older or sicker pool of policyholders will raise rates faster. Newer market entrants often have lower rates because their risk pool hasn't aged yet.",
   },
-,
+
   {
     question: "Does my Medicare Supplement plan automatically renew if my premium increases?",
     answer:

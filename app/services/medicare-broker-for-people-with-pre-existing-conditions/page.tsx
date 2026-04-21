@@ -87,7 +87,7 @@ const faqs = [
     answer:
       "You still have options. Some carriers are more lenient with underwriting than others, and certain life events trigger federal guaranteed issue rights that bypass health questions. A broker who knows which carriers accept specific conditions can save you from wasting time on applications that won't get approved.",
   },
-,
+
   {
     question: "Are Medicare Advantage plans available if I have pre-existing conditions?",
     answer:

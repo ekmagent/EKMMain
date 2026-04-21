@@ -84,7 +84,7 @@ const faqs = [
     answer:
       "During your initial 6-month Open Enrollment Period or under a guaranteed issue right, carriers cannot deny you or charge more for pre-existing conditions. Outside those windows, you'll likely face medical underwriting, and a condition like diabetes or heart disease could lead to a denial or higher premium.",
   },
-,
+
   {
     question: "Does my state offer extra rights to switch Medigap plans?",
     answer:

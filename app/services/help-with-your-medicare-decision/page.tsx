@@ -86,26 +86,6 @@ const faqs = [
     answer:
       "Not always. Many TV ads connect you to call centers that may only represent certain carriers. An independent broker works with multiple carriers and is not locked into selling one company's plans. Ask any agent whether they are independent or captive before taking advice.",
   },
-,
-  {
-    question: "What should I prepare before a Medicare decision consultation?",
-    answer:
-      "Have your Medicare card or Part A/B effective dates handy, along with a list of your current prescriptions (including dosages) and your preferred doctors, hospitals, and pharmacies. This allows a broker to check plan formularies and provider networks accurately. Knowing your typical yearly healthcare usage and budget also helps narrow down the right fit.",
-  },
-  {
-    question: "How much does Medicare Part B cost in 2026?",
-    answer:
-      "In 2026, the standard Medicare Part B premium is ];
-
-export default85 per month, with an annual deductible of $257. The Part A inpatient hospital deductible is ];
-
-export default,676 per benefit period. Higher-income beneficiaries may pay an Income-Related Monthly Adjustment Amount (IRMAA) on top of the standard Part B premium.",
-  },
-  {
-    question: "Can I change my Medicare decision later if it does not fit?",
-    answer:
-      "Yes. You can switch Medicare Advantage or Part D plans during the Annual Enrollment Period (October 15 – December 7) each year, and the Medicare Advantage Open Enrollment Period (January 1 – March 31) lets Advantage enrollees make one change. Switching from Medicare Advantage back to Original Medicare with a Medigap plan may require medical underwriting outside of guaranteed-issue windows, so timing matters.",
-  }
 ];
 
 export default function HelpWithYourMedicareDecision() {
@@ -356,10 +336,7 @@ export default function HelpWithYourMedicareDecision() {
               </Link>
             </li>
 </ul>
-              <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/basics/get-started-with-medicare/using-medicare/helpful-tools" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">Medicare.gov Helpful Tools</a> and <a href="https://www.medicare.gov/basics/your-medicare-rights/get-help-with-your-rights-protections" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">Your Medicare Rights & Protections</a>.</div>
-            <div className="text-sm text-gray-600 mt-4">For free, unbiased one-on-one counseling, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">State Health Insurance Assistance Program (SHIP)</a>.</div>
-            <div className="text-sm text-gray-600 mt-4">Free local counseling: find your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for unbiased Medicare help.</div>
-      </section>
+        </section>
       </article>
     </>
   );

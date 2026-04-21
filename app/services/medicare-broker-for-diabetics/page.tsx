@@ -85,7 +85,7 @@ const faqs = [
     answer:
       "Yes. A broker can check whether your endocrinologist, podiatrist, and ophthalmologist are in-network before you enroll. This prevents surprises and referral requirements that delay the care you need.",
   },
-,
+
   {
     question: "Does Medicare cover insulin costs in 2026?",
     answer:

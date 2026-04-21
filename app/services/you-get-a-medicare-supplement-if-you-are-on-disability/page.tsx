@@ -88,7 +88,7 @@ const faqs = [
     answer:
       "In most states, yes. Carriers typically charge higher premiums for under-65 disabled enrollees. Rates vary significantly by carrier and state, so comparing plans is critical. Call 855-559-1700 for free rate comparisons.",
   },
-,
+
   {
     question: "Does Medicare automatically enroll me after 24 months of SSDI?",
     answer:
@@ -98,8 +98,7 @@ const faqs = [
     question: "Do I get a Medigap Open Enrollment Period when I turn 65?",
     answer:
       "Yes. Even if you already had Medicare under 65 due to disability, you get a fresh 6-month Medigap Open Enrollment Period starting the month you turn 65 and are enrolled in Part B. During this window, you have guaranteed issue rights and cannot be denied coverage or charged more for health reasons.",
-  }
-,
+  },
   {
     question: "What happens to my Medigap options when I turn 65?",
     answer:

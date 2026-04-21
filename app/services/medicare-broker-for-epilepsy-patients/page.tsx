@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for epilepsy patients | Free Coverage Consultation | MedicareYourself",
   description:
-    "Medicare broker for epilepsy patients in NJ. Anthony Orner compares plans covering seizure meds, neurology, and ER visits. Call 855-559-1700 for a free review.",
+    "Medicare broker for epilepsy patients in NJ. Anthony Orner finds plans covering seizure meds, ER visits, and neurology with no surprise gaps. Free quote.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-epilepsy-patients" },
   openGraph: {
     title:
@@ -88,24 +88,6 @@ const faqs = [
     answer:
       "Outside of your Medigap Open Enrollment Period, carriers can use medical underwriting to set premiums or deny coverage based on pre-existing conditions like epilepsy. That's why timing matters. During your 6-month Medigap OEP (starting the month you turn 65 and enroll in Part B), no carrier can deny you or charge more because of epilepsy.",
   },
-,
-  {
-    question: "Does Medicare cover EEGs and neurology visits for epilepsy?",
-    answer:
-      "Medicare Part B covers medically necessary outpatient services, including neurologist visits and diagnostic tests like EEGs, when ordered by a doctor. After meeting the 2026 Part B deductible of $257, you typically pay 20% of the Medicare-approved amount. A Medigap plan or Medicare Advantage plan can help reduce that cost share.",
-  },
-  {
-    question: "Are emergency room visits for seizures covered by Medicare?",
-    answer:
-      "Yes. Emergency room care for a seizure is covered under Medicare Part B for outpatient ER visits and Part A if you're formally admitted as an inpatient. In 2026, the Part A inpatient deductible is ];
-
-export default,676 per benefit period. Medicare Advantage and Medigap plans can help limit your out-of-pocket exposure for repeat ER visits.",
-  },
-  {
-    question: "Should someone with epilepsy choose Medigap or Medicare Advantage?",
-    answer:
-      "It depends on your providers, medications, and budget. Medigap plans offer broader provider access and predictable cost sharing, which many epilepsy patients prefer when they see specialists regularly. Medicare Advantage plans may have lower premiums but use networks and prior authorization, so it's important to confirm your neurologist and seizure medications are covered before enrolling.",
-  }
 ];
 
 export default function MedicareBrokerForEpilepsyPatients() {
@@ -324,8 +306,6 @@ export default function MedicareBrokerForEpilepsyPatients() {
             </Link>
           </li>
         </ul>
-            <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/drug-coverage-part-d" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Part D prescription drug coverage</a> and <a href="https://www.medicare.gov/basics/get-started-with-medicare/medicare-basics/parts-of-medicare" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Parts of Medicare overview</a>.</div>
-            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
 
       <p className="mt-10 text-sm text-gray-500">

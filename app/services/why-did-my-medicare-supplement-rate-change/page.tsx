@@ -84,7 +84,7 @@ const faqs = [
     answer:
       "Plan G from one carrier covers the exact same benefits as Plan G from another. The benefits are standardized by Medicare. What differs is the carrier's pricing strategy and long-term rate stability. Some carriers price low to attract new members, then raise rates sharply once the block ages.",
   },
-,
+
   {
     question: "What is the difference between attained-age, issue-age, and community-rated pricing?",
     answer:

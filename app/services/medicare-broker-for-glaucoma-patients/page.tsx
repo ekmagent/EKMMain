@@ -84,7 +84,7 @@ const faqs = [
     answer:
       "Medicare covers annual glaucoma screenings (for high-risk patients), diagnostic testing, laser treatments like SLT, surgical procedures including trabeculectomy and MIGS, and follow-up visits under Part B. Prescription eye drops like latanoprost or timolol fall under Part D. Some Medicare Advantage plans add routine vision benefits that Original Medicare doesn't include.",
   },
-,
+
   {
     question: "How often does Medicare cover glaucoma screenings?",
     answer:

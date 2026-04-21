@@ -88,7 +88,7 @@ const faqs = [
     answer:
       "A licensed Medicare agent or broker costs you nothing. Agents are paid by the insurance carriers, not by you. The plan premiums are the same whether you enroll on your own or through an agent.",
   },
-,
+
   {
     question: "Does California have special Medigap rules for people with pre-existing conditions?",
     answer:

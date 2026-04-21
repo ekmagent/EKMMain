@@ -84,7 +84,7 @@ const faqs = [
     answer:
       "California requires Medigap carriers to offer at least two standardized plans to Medicare beneficiaries under 65 on SSDI. You'll want to apply during your Medigap Open Enrollment Period, which starts the month you turn 65 and enroll in Part B. Under-65 rules differ, so call us to confirm your options.",
   },
-,
+
   {
     question: "Does Medicare cover rheumatologist visits for lupus management?",
     answer:

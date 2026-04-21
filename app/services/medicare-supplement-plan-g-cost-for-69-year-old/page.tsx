@@ -85,7 +85,7 @@ const faqs = [
     answer:
       "Plan G covers everything Original Medicare covers except the annual Part B deductible, which is $283 in 2026. You pay that deductible out of pocket each year. After that, Plan G picks up 100% of Medicare-approved costs with no network restrictions.",
   },
-,
+
   {
     question: "How do insurance companies price Plan G for a 69-year-old?",
     answer:

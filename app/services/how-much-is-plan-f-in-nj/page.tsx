@@ -83,7 +83,7 @@ const faqs = [
     answer:
       "Yes. In New Jersey, you can switch from Plan F to Plan G or any lesser-lettered Medigap plan without medical underwriting. This is a state-specific protection. You'd then pay the $283 annual Part B deductible yourself but often save hundreds more on premiums.",
   },
-,
+
   {
     question: "Does Plan F cover the Part B deductible in 2026?",
     answer:

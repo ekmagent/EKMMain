@@ -87,7 +87,7 @@ const faqs = [
     answer:
       "Medicare Part A covers inpatient rehab and skilled nursing facility stays (days 1 through 20 at $0 coinsurance, days 21 through 100 at $209.50/day in 2026). Part B covers outpatient physical, speech, and occupational therapy when deemed medically necessary. Coverage is not unlimited, so the right supplemental plan matters.",
   },
-,
+
   {
     question: "Does Medicare cover speech and occupational therapy after a stroke?",
     answer:

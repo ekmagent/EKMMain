@@ -104,7 +104,6 @@ const faqs = [
     answer:
       "It can. If the capital gain from selling your home pushes your MAGI above the IRMAA threshold for that tax year, you may owe the surcharge two years later. However, the first $250,000 of gain ($500,000 for married couples) on a primary residence is typically excluded from taxable income. A one-time spike usually only affects one year of IRMAA.",
   },
-,
   {
     question: "How do I appeal IRMAA if my income has dropped?",
     answer:
@@ -119,8 +118,7 @@ const faqs = [
     question: "Can Roth conversions or capital gains trigger IRMAA?",
     answer:
       "Yes. Because IRMAA is based on Modified Adjusted Gross Income, one-time income events like Roth IRA conversions, large capital gains, or required minimum distributions can push you into a higher bracket. Many retirees plan these events carefully to avoid crossing an IRMAA threshold.",
-  }
-,
+  },
   {
     question: "How do I appeal an IRMAA determination?",
     answer:
@@ -135,8 +133,7 @@ const faqs = [
     question: "How is IRMAA paid?",
     answer:
       "If you receive Social Security benefits, your IRMAA Part B surcharge is deducted directly from your monthly check along with your standard Part B premium. The Part D IRMAA surcharge is billed separately by Medicare — it is not paid to your Part D plan. If you don't yet collect Social Security, Medicare will bill you directly.",
-  }
-,
+  },
   {
     question: "How do I appeal an IRMAA determination?",
     answer:

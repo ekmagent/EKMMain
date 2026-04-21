@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "how much does medicare supplement cost per month for seniors | Free 2025–2026 Rate Quote | MedicareYourself",
   description:
-    "How much does Medicare Supplement cost per month for seniors? Compare 2026 Plan G & N rates by age and get a free no-pressure quote. Call 855-559-1700.",
+    "How much does Medicare Supplement cost per month for seniors? See real Plan G and Plan N rates by age from NJ carriers. Get a free personalized quote today.",
   alternates: { canonical: "https://medicareyourself.com/services/how-much-does-medicare-supplement-cost-per-month-for-seniors" },
   openGraph: {
     title:
@@ -85,21 +85,6 @@ const faqs = [
     answer:
       "Your Medigap Open Enrollment Period, which is the 6 months starting when you're 65 or older AND enrolled in Part B. During this window, carriers can't charge more or deny you based on health conditions. After it closes, you may face medical underwriting.",
   },
-,
-  {
-    question: "How do insurance companies set prices for Medigap policies?",
-    answer:
-      "Medicare.gov explains that insurers use one of three pricing methods: community-rated (same premium regardless of age), issue-age-rated (based on your age when you buy), or attained-age-rated (premium rises as you get older). The pricing method affects not only what you pay now but how much your premium increases over time. Always ask which method a carrier uses before enrolling.",
-  },
-  {
-    question: "Does a Medicare Supplement plan replace Part A and Part B costs in 2026?",
-    answer:
-      "No. You must still pay your Part B premium (];
-
-export default85/month in 2026) and remain enrolled in Original Medicare. A Medigap plan helps pay your share of costs like the Part A hospital deductible (];
-
-export default,676 in 2026) and Part B coinsurance after the $257 Part B deductible. The Medigap premium is paid in addition to your Part B premium.",
-  }
 ];
 
 export default function HowMuchDoesMedicareSupplementCostPerMonthForSeniors() {
@@ -294,9 +279,6 @@ export default function HowMuchDoesMedicareSupplementCostPerMonthForSeniors() {
             </Link>
           </li>
         </ul>
-            <div className="text-sm text-gray-600 mt-4">Official references: <a href="https://www.medicare.gov/health-drug-plans/medigap/basics/costs" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Get Medigap Costs</a> and <a href="https://www.medicare.gov/basics/costs/medicare-costs" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — 2026 Medicare Costs</a>.</div>
-            <div className="text-sm text-gray-600 mt-4">Need free, unbiased state help? Contact <a href="https://www.state.nj.us/dobi/division_insurance/ship/shipmain.htm" rel="noopener noreferrer" target="_blank" className="text-blue-700 underline">NJ SHIP (State Health Insurance Assistance Program)</a> for one-on-one Medigap counseling.</div>
-            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

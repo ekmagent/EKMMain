@@ -88,7 +88,7 @@ const faqs = [
     answer:
       "You can switch Medicare Advantage plans during the Open Enrollment Period (October 15 through December 7) or the Medicare Advantage Open Enrollment (January 1 through March 31). If you're on Original Medicare with a Medigap supplement, switching supplement carriers outside your Medigap Open Enrollment Period may require medical underwriting. Call us to review your options.",
   },
-,
+
   {
     question: "Do Medicare Advantage plans cover heart medications?",
     answer:

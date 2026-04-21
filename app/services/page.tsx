@@ -9,7 +9,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Medicare Services & Guides | MedicareYourself",
   description:
-    "Compare Medigap, Part D & Medicare Advantage with a licensed independent broker. Free plan reviews and condition-specific guides—call 855-559-1700 today.",
+    "Find a Medicare broker, compare Medigap plans, get condition-specific guidance, and explore local agents near you. Free, independent help: 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/services` },
   openGraph: {
     title: "Medicare Services & Guides | MedicareYourself",
@@ -195,7 +195,6 @@ const STATIC_CATEGORIES = [
       { href: "/learn/medicare-parts-explained", label: "Medicare Parts A, B, C, and D Explained Simply" },
       { href: "/medicare-supplement/new-jersey/cost", label: "How Much Does Medicare Cost in New Jersey in 2026?" },
       { href: "/learn/medicare-help-low-income", label: "Medicare Help for People on a Fixed Income" },
-      { href: "/learn/irmaa-medicare-surcharge", label: "IRMAA Medicare Surcharge: What It Is and How to Avoid It" },
       { href: "/medicare-supplement/switch-carriers", label: "How to Switch Medicare Supplement Carriers" },
     ],
   },
@@ -205,7 +204,6 @@ const STATIC_CATEGORIES = [
       { href: "/medicare-supplement/new-jersey/turning-65", label: "Turning 65 in New Jersey: Your Medicare Checklist" },
       { href: "/learn/how-to-sign-up-for-medicare", label: "How and When to Sign Up for Medicare (2026)" },
       { href: "/learn/ssa-online-enrollment-walkthrough", label: "SSA.gov Online Enrollment: Step-by-Step Walkthrough" },
-      { href: "/medicare-supplement/new-jersey/enrollment", label: "Medicare Supplement Enrollment in New Jersey" },
     ],
   },
   {
@@ -216,64 +214,6 @@ const STATIC_CATEGORIES = [
       { href: "/medicare-advantage/new-jersey", label: "Best Medicare Advantage Plans in New Jersey (2026)" },
     ],
   },
-,
-  {
-    question: "What services does a Medicare broker provide?",
-    answer:
-      "An independent Medicare broker helps you compare Medigap, Medicare Advantage, and Part D plans from multiple carriers based on your doctors, medications, and budget. The service is free to you because brokers are paid by the insurance companies after you enroll. A licensed broker can also assist with enrollment paperwork and annual plan reviews.",
-  },
-  {
-    question: "How much does Medicare cost in 2026?",
-    answer:
-      "In 2026, the standard Part B premium is ,
-  {
-    question: "What does it cost to work with an independent Medicare broker?",
-    answer:
-      "There is no cost to you. Licensed Medicare brokers are compensated by the insurance carriers, so plan premiums are the same whether you enroll through a broker or directly with the carrier. You get personalized plan comparisons and ongoing support at no charge.",
-  },
-  {
-    question: "How do I compare Medigap, Part D, and Medicare Advantage plans?",
-    answer:
-      "Medigap supplements Original Medicare by covering out-of-pocket costs like the Part A ,
-  {
-    question: "What does it cost to work with an independent Medicare broker?",
-    answer:
-      "Working with a licensed independent Medicare broker is free to you. Brokers are paid directly by the insurance carriers, and the commission is already built into the plan premium, so you pay the same rate whether you enroll through a broker or on your own. Call 855-559-1700 for a no-cost plan review.",
-  },
-  {
-    question: "How much are Medicare Part A and Part B costs in 2026?",
-    answer:
-      "In 2026, the standard Part B premium is ];
-
-export default85 per month with an annual deductible of $257. Part A has a hospital deductible of ];
-
-export default,676 per benefit period, and most people pay no Part A premium if they have enough work history. Higher-income beneficiaries may pay an income-related adjustment on Part B and Part D.",
-  },
-  {
-    question: "What's the difference between Medigap, Medicare Advantage, and Part D?",
-    answer:
-      "Medigap (Medicare Supplement) plans work alongside Original Medicare to help pay your share of costs like deductibles and coinsurance. Medicare Advantage (Part C) replaces Original Medicare with a private plan that typically includes drug coverage and extra benefits. Part D is standalone prescription drug coverage you add to Original Medicare or a Medigap plan.",
-  }
-];
-
-export default,676 deductible and Part B 20% coinsurance. Part D covers prescription drugs, while Medicare Advantage (Part C) bundles Parts A, B, and usually D into one plan. A licensed broker can run a side-by-side comparison based on your doctors, medications, and budget.",
-  },
-  {
-    question: "When can I enroll in or change my Medicare plan?",
-    answer:
-      "Your Initial Enrollment Period spans seven months around your 65th birthday. After that, the Annual Enrollment Period runs October 15 to December 7 for Part D and Medicare Advantage changes. Medigap has its own six-month open enrollment window starting when you're 65 and enrolled in Part B. Call 855-559-1700 to review your options.",
-  }
-];
-
-export default85 per month with a $257 annual deductible, and the Part A hospital deductible is ];
-
-export default,676 per benefit period. Most people pay no premium for Part A if they or a spouse paid Medicare taxes for at least 10 years. Medigap, Medicare Advantage, and Part D premiums vary by plan and ZIP code.",
-  },
-  {
-    question: "Can I get help enrolling in Medicare for free?",
-    answer:
-      "Yes. Licensed independent brokers offer no-cost guidance and enrollment help, and you can also contact Medicare directly at 1-800-MEDICARE or your State Health Insurance Assistance Program (SHIP). Call 855-559-1700 to speak with a licensed broker for a plan comparison tailored to your needs.",
-  }
 ];
 
 export default function ServicesHubPage() {
@@ -294,13 +234,12 @@ export default function ServicesHubPage() {
       {/* Hero — H1 + intro (Edward Module 06) */}
       <section className="max-w-6xl mx-auto px-4 py-10">
         <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-          Medicare Supplement &amp; Advantage Services, Guides &amp; Enrollment Help
+          Medicare Services
         </h1>
-        <p className="text-sm text-gray-500 mt-2">By <strong>Anthony Orner</strong>, Licensed Medicare Insurance Broker — NJ &amp; 34 states</p>
         <p className="text-lg text-gray-600 leading-relaxed max-w-3xl">
-          We help Medicare beneficiaries save money on coverage with free,
-          unbiased guidance from a licensed independent broker. Browse our
-          guides below to find what you need:
+          We help Medicare beneficiaries find the right coverage with free,
+          unbiased guidance from a licensed independent broker. Here are the
+          most common ways people use our services:
         </p>
       </section>
 
@@ -311,19 +250,19 @@ export default function ServicesHubPage() {
             <h2 className="text-xl font-bold text-gray-900 mb-4 pb-2 border-b border-gray-200">
               {category.heading}
             </h2>
-            <ul className="space-y-2 text-sm">
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
               {category.links.map((link) => (
-                <li key={link.href} className="flex items-start gap-2">
-                  <span className="text-gray-400 mt-0.5">&bull;</span>
-                  <Link
-                    href={link.href}
-                    className="text-blue-700 hover:text-blue-900 hover:underline font-medium"
-                  >
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  className="block bg-white border border-gray-200 rounded-lg p-5 hover:border-blue-300 hover:shadow-md transition-all"
+                >
+                  <span className="font-semibold text-gray-900 text-sm leading-snug">
                     {link.label}
-                  </Link>
-                </li>
+                  </span>
+                </Link>
               ))}
-            </ul>
+            </div>
           </div>
         ))}
       </section>
@@ -335,19 +274,19 @@ export default function ServicesHubPage() {
             <h2 className="text-xl font-bold text-gray-900 mb-4 pb-2 border-b border-gray-200">
               {category.heading}
             </h2>
-            <ul className="space-y-2 text-sm">
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
               {category.links.map((link) => (
-                <li key={link.href} className="flex items-start gap-2">
-                  <span className="text-gray-400 mt-0.5">&bull;</span>
-                  <Link
-                    href={link.href}
-                    className="text-blue-700 hover:text-blue-900 hover:underline font-medium"
-                  >
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  className="block bg-white border border-gray-200 rounded-lg p-5 hover:border-blue-300 hover:shadow-md transition-all"
+                >
+                  <span className="font-semibold text-gray-900 text-sm leading-snug">
                     {link.label}
-                  </Link>
-                </li>
+                  </span>
+                </Link>
               ))}
-            </ul>
+            </div>
           </div>
         ))}
       </section>
@@ -375,9 +314,6 @@ export default function ServicesHubPage() {
             Free &middot; Independent &middot; Licensed in NJ and 34 states
           </p>
         </div>
-            <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/" rel="noopener noreferrer" target="_blank">Medicare.gov</a> · <a href="https://www.medicare.gov/plan-compare/" rel="noopener noreferrer" target="_blank">Find &amp; compare plans</a></div>
-            <div className="text-sm text-gray-600 mt-4">New Jersey residents: see the <a href="https://www.state.nj.us/dobi/division_consumers/insurance/shipp.htm" rel="noopener noreferrer" target="_blank">NJ SHIP program</a> for free Medicare counseling.</div>
-            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free local counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </>
   );

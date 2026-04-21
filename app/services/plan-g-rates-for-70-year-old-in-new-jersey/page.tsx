@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "plan g rates for 70 year old in new jersey | Free Quote in Minutes | MedicareYourself",
   description:
-    "Compare 2026 Plan G rates for 70-year-olds in New Jersey across top carriers. Same benefits, very different premiums. Call 855-559-1700 for a free quote.",
+    "Plan G rates for 70-year-olds in New Jersey vary widely by carrier. Compare real NJ premiums side by side. Get a free quote from a licensed local broker.",
   alternates: { canonical: "https://medicareyourself.com/services/plan-g-rates-for-70-year-old-in-new-jersey" },
   openGraph: {
     title:
@@ -84,55 +84,6 @@ const faqs = [
     answer:
       "Yes. New Jersey has a yearly 30-day open enrollment window around your Medigap policy anniversary. You can also switch anytime if you pass medical underwriting. A licensed broker can help you find the right timing and carrier.",
   },
-,
-  {
-    question: "Does New Jersey use community rating for Plan G?",
-    answer:
-      "New Jersey uses community rating for Medigap, which means carriers charge the same premium to everyone with the same plan in a given area regardless of age. However, premiums still vary significantly between carriers, so comparing companies is the most important step. Pricing can also change based on ZIP code and carrier household discounts.",
-  },
-  {
-    question: "When can a 70-year-old in NJ enroll in Plan G without underwriting?",
-    answer:
-      "The federal 6-month Medigap Open Enrollment Period begins when you are 65 or older and enrolled in Part B, giving you guaranteed issue rights. Outside that window, a 70-year-old typically needs to answer health questions to switch Plan G carriers unless a specific guaranteed issue situation applies. A licensed broker can review whether you qualify for any current protections.",
-  },
-  {
-    question: "What does Plan G cover at age 70 in New Jersey?",
-    answer:
-      "Plan G covers the Part A ,
-  {
-    question: "When can a 70-year-old in NJ enroll in Plan G without underwriting?",
-    answer:
-      "The federal 6-month Medigap Open Enrollment Period starts the month you are 65 or older and enrolled in Part B, so most 70-year-olds are past that window. You may still qualify for guaranteed issue under specific circumstances, such as losing employer coverage. Outside those windows, carriers in New Jersey can require medical underwriting. Call 855-559-1700 to review your options.",
-  },
-  {
-    question: "Does Plan G cover the Part B deductible in 2026?",
-    answer:
-      "No. Plan G does not cover the 2026 Part B deductible of $257, which you pay once per year before Medicare begins paying its share. After that deductible is met, Plan G covers the remaining Part B coinsurance and copayments. It also covers the 2026 Part A hospital deductible of ,
-  {
-    question: "When can a 70-year-old in NJ enroll in Plan G without underwriting?",
-    answer:
-      "Your 6-month Medigap Open Enrollment Period starts the month you are 65 or older and enrolled in Part B, so most 70-year-olds are past that initial window. You may still qualify for guaranteed issue rights in certain situations, such as losing other coverage. Otherwise, carriers can apply medical underwriting, though approval is still common for healthy applicants.",
-  },
-  {
-    question: "What does Plan G cover in 2026 for a 70-year-old in New Jersey?",
-    answer:
-      "Plan G covers the Part A ];
-
-export default,676 deductible, Part A coinsurance and hospital costs up to an additional 365 days after Medicare benefits are used up, Part B coinsurance, skilled nursing facility coinsurance, and foreign travel emergency care up to plan limits. You are responsible for the $257 annual Part B deductible in 2026. Once that deductible is met, Plan G typically leaves you with $0 out-of-pocket for Medicare-approved services.",
-  },
-  {
-    question: "Why do Plan G prices differ between NJ carriers if benefits are identical?",
-    answer:
-      "Medicare.gov confirms the benefits in each lettered Medigap plan are the same regardless of which insurance company sells it — price is the only difference. Carriers set their own premiums based on claims experience, administrative costs, and discounts such as household or electronic payment savings. That is why comparing multiple NJ carriers side by side is the single most effective way to save money.",
-  }
-];
-
-export default,676.",
-  }
-];
-
-export default,676 hospital deductible, Part A coinsurance, Part B coinsurance, skilled nursing coinsurance, and excess charges. You are only responsible for the annual Part B deductible of $257 in 2026. After that, approved Medicare services are generally covered in full.",
-  }
 ];
 
 export default function PlanGRates70NJ() {
@@ -373,10 +324,7 @@ export default function PlanGRates70NJ() {
               </Link>
             </li>
 </ul>
-              <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/health-drug-plans/medigap/basics/costs" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Medicare.gov — How Medigap Costs Are Set</a> and <a href="https://www.state.nj.us/dobi/division_insurance/ihcseh/medsupp.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking & Insurance — Medicare Supplement Information</a>.</div>
-            <div className="text-sm text-gray-600 mt-4">Free one-on-one counseling is available through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">New Jersey SHIP (State Health Insurance Assistance Program)</a>.</div>
-            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling from <a href="https://www.nj.gov/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
-      </section>
+        </section>
       </article>
     </>
   );

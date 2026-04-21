@@ -83,7 +83,7 @@ const faqs = [
     answer:
       "The Annual Enrollment Period runs October 15 through December 7 for coverage starting January 1. If you're turning 65, your Initial Enrollment Period starts three months before your birthday month. A local agent can confirm your exact window.",
   },
-,
+
   {
     question: "What does a Medicare Advantage plan typically include that Original Medicare does not?",
     answer:

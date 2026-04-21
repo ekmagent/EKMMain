@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "find a medicare agent in paterson nj | Free Guidance, No Fees | MedicareYourself",
   description:
-    "Find a Medicare agent in Paterson, NJ. Anthony Orner compares Medigap, Advantage & Part D plans across Passaic County — free, no-fee help. Call 855-559-1700.",
+    "Find a medicare agent in Paterson NJ — Anthony Orner compares Medigap and Advantage plans across Passaic County carriers. Free, no-obligation consultation.",
   alternates: { canonical: "https://medicareyourself.com/services/find-a-medicare-agent-in-paterson-nj" },
   openGraph: {
     title:
@@ -86,57 +86,6 @@ const faqs = [
     answer:
       "If you're turning 65, reach out at least 6 months before your Part B start date to lock in Medigap rates during your Open Enrollment Period. For Medicare Advantage or Part D changes, Annual Enrollment runs October 15 through December 7.",
   },
-,
-  {
-    question: "Do I have to use a Paterson-based agent, or can I work remotely?",
-    answer:
-      "You don't need an agent physically located in Paterson. Anthony Orner is licensed in New Jersey and 34 other states and works with clients by phone, video, or email. What matters is that the broker is licensed in NJ and familiar with the carriers and provider networks available in Passaic County.",
-  },
-  {
-    question: "What does Medicare cost in 2026?",
-    answer:
-      "In 2026, the standard Part B premium is ,
-  {
-    question: "Does a Medicare agent in Paterson help with both Medigap and Medicare Advantage?",
-    answer:
-      "Yes. An independent broker like Anthony Orner can walk you through Medicare Supplement (Medigap), Medicare Advantage, and stand-alone Part D prescription drug plans. You get side-by-side comparisons so you can weigh premiums, out-of-pocket costs, and provider networks before enrolling.",
-  },
-  {
-    question: "Will my Paterson doctors and hospitals accept the plan I choose?",
-    answer:
-      "Original Medicare with a Medigap plan is accepted by any provider that takes Medicare, which includes most doctors and hospitals serving Passaic County. With Medicare Advantage, you'll want to confirm that St. Joseph's Health and your preferred physicians are in-network before enrolling.",
-  }
-,
-  {
-    question: "Does a Medicare agent in Paterson help with both Medigap and Medicare Advantage?",
-    answer:
-      "Yes. An independent broker like Anthony Orner is appointed with multiple carriers and can compare Medigap (Medicare Supplement), Medicare Advantage, and Part D prescription drug plans side by side. That way you can see how premiums, out-of-pocket costs, and provider networks stack up before deciding.",
-  },
-  {
-    question: "What does Medicare cost in 2026?",
-    answer:
-      "In 2026, the standard Part B premium is ];
-
-export default85 per month with a $257 annual deductible. Part A has a ];
-
-export default,676 hospital deductible per benefit period for most beneficiaries. Medigap, Medicare Advantage, and Part D premiums vary by plan and carrier.",
-  },
-  {
-    question: "Can I switch Medicare plans if I already have coverage?",
-    answer:
-      "Yes, during the Annual Enrollment Period from October 15 to December 7 you can change Medicare Advantage or Part D plans for the following year. Medigap plans can often be changed year-round, though outside your Open Enrollment window carriers may require medical underwriting.",
-  }
-];
-
-export default85 per month with a $257 annual deductible. Part A has a ];
-
-export default,676 hospital deductible per benefit period. Medigap, Medicare Advantage, and Part D plan premiums are separate and vary by carrier and ZIP code in the Paterson area.",
-  },
-  {
-    question: "Can a Medicare agent help me keep my current doctors?",
-    answer:
-      "Yes. An independent broker can check whether your doctors and preferred hospitals participate in a plan's network before you enroll. For Medigap, any provider that accepts Medicare nationwide will accept your plan, which is useful if you travel or see specialists outside Paterson.",
-  }
 ];
 
 export default function FindMedicareAgentPatersonNJ() {
@@ -383,10 +332,7 @@ export default function FindMedicareAgentPatersonNJ() {
               </Link>
             </li>
 </ul>
-              <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/plan-compare" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov Plan Compare</a> and <a href="https://www.medicare.gov/care-compare/?searchType=Hospital&state=NJ" rel="noopener noreferrer" target="_blank" className="underline">Care Compare for New Jersey hospitals</a>.</div>
-            <div className="text-sm text-gray-600 mt-2">Free, unbiased counseling is also available through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey SHIP (State Health Insurance Assistance Program)</a>.</div>
-            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
-      </section>
+        </section>
       </article>
     </>
   );

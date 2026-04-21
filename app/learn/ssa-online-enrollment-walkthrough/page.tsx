@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title:
     "How to Enroll in Medicare Online at SSA.gov (Step-by-Step Walkthrough)",
   description:
-    "Step-by-step SSA.gov walkthrough to enroll in Medicare Part A & B online in about 10 minutes. Free broker guidance — call 855-559-1700.",
+    "A screen-by-screen walkthrough of the Social Security Administration online Medicare enrollment process. 9 steps, about 10 minutes. Free help: 855-559-1700.",
   alternates: {
     canonical: `${SITE_URL}/learn/ssa-online-enrollment-walkthrough`,
   },
@@ -225,58 +225,6 @@ const steps = [
     ],
     tip: "Double-check your Part B election before submitting. Once it's in, changing your mind requires contacting Social Security directly.",
   },
-,
-  {
-    question: "How long does the online Medicare application take?",
-    answer:
-      "Most people complete the SSA online Medicare application in about 10 minutes. Having your Social Security number, driver's license, and any current health insurance information ready beforehand will make the process faster.",
-  },
-  {
-    question: "Can I enroll in Medicare online if I am not taking Social Security retirement benefits yet?",
-    answer:
-      "Yes. During the application, SSA asks whether you want to apply for Medicare only without starting retirement benefits. You can select that option and delay your Social Security income until a later date.",
-  },
-  {
-    question: "Can I change my application after I submit it on SSA.gov?",
-    answer:
-      "No. Once you click Submit Now and sign electronically, the application cannot be modified online. If you need to make a correction, you will need to contact Social Security directly at 1-800-772-1213 or visit your local SSA office.",
-  }
-,
-  {
-    question: "How long does the SSA online Medicare application take?",
-    answer:
-      "Most people complete the online application in about 10 to 15 minutes if they have their documents ready. You'll need your Social Security number, a driver's license or state ID for identity verification, and details about any current health coverage. The application cannot be saved and resumed mid-step in all cases, so set aside uninterrupted time.",
-  },
-  {
-    question: "When should I apply for Medicare on SSA.gov?",
-    answer:
-      "You can apply online up to 3 months before the month you turn 65, giving you a 7-month Initial Enrollment Period. Applying early helps ensure your Part A and Part B coverage starts the first day of your birthday month. If you miss your Initial Enrollment Period and don't qualify for a Special Enrollment Period, you may face late enrollment penalties.",
-  },
-  {
-    question: "What does Medicare Part B cost in 2026?",
-    answer:
-      "The standard Part B premium is ,
-  {
-    question: "How long does the SSA online Medicare application take?",
-    answer:
-      "Most people complete the online application in about 10 minutes if they have their documents ready. You will need your Social Security number, a driver's license or state ID for identity verification, and details about any current health insurance coverage.",
-  },
-  {
-    question: "Can I apply for Medicare only without starting Social Security retirement benefits?",
-    answer:
-      "Yes. During the SSA online application, you can choose to apply for Medicare only and delay your Social Security retirement benefits. This is a common choice for people who are still working or want their monthly benefit amount to continue growing.",
-  },
-  {
-    question: "What happens after I submit my Medicare application on SSA.gov?",
-    answer:
-      "Once submitted, you cannot modify the application online. SSA will review your information and typically mail your Medicare card within a few weeks. If they need additional documentation, they will contact you by phone or mail.",
-  }
-];
-
-export default85 per month in 2026, with an annual deductible of $257. Higher-income beneficiaries pay more through the Income-Related Monthly Adjustment Amount (IRMAA). Part A has no premium for most people but carries a ];
-
-export default,676 inpatient hospital deductible per benefit period.",
-  }
 ];
 
 export default function SSAOnlineEnrollmentWalkthrough() {
@@ -424,51 +372,6 @@ export default function SSAOnlineEnrollmentWalkthrough() {
                 className="text-blue-600 hover:underline"
               >
                 What Is Medigap?
-              </Link>
-            </li>
-          </ul>
-          <p className="font-semibold text-gray-900 mb-2 mt-4">
-            Next steps after enrolling
-          </p>
-          <ul className="space-y-1">
-            <li>
-              <Link
-                href="/services/medicare-supplement-for-seniors-turning-65"
-                className="text-blue-600 hover:underline"
-              >
-                Medicare Supplement for Seniors Turning 65
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/services/compare-and-enroll-in-plan-g-online"
-                className="text-blue-600 hover:underline"
-              >
-                Compare and Enroll in Plan G Online
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/services/same-day-medicare-supplement-enrollment-form"
-                className="text-blue-600 hover:underline"
-              >
-                Same-Day Medicare Supplement Enrollment
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/services/free-medicare-agent-that-helps-with-paperwork"
-                className="text-blue-600 hover:underline"
-              >
-                Free Medicare Agent That Helps With Paperwork
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/services/how-long-does-it-take-to-enroll-in-medicare-supplements"
-                className="text-blue-600 hover:underline"
-              >
-                How Long Does It Take to Enroll in Medicare Supplements?
               </Link>
             </li>
           </ul>

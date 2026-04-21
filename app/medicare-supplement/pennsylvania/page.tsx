@@ -48,7 +48,7 @@ const faqs = [
     answer:
       "Plan G in Pennsylvania covers: the Part A hospital deductible ($1,676 in 2026), Part A coinsurance and hospital costs, Part B coinsurance (the 20% you owe on all outpatient services), Part B excess charges, skilled nursing facility coinsurance, hospice care coinsurance, and foreign travel emergency care (80% up to plan limits). The only gap is the Part B deductible ($257/year), which you pay out of pocket. After that, Plan G covers virtually all remaining Medicare-approved costs.",
   },
-,
+
   {
     question: "When is my Medigap Open Enrollment Period in Pennsylvania?",
     answer:
@@ -57,10 +57,8 @@ const faqs = [
   {
     question: "Do I need Medicare Part B before buying a Medigap plan in PA?",
     answer:
-      "Yes. You must be enrolled in both Medicare Part A and Part B to purchase a Medicare Supplement plan in Pennsylvania. Part B carries a standard premium of ];
-
-export default85/month in 2026 and a $257 annual deductible. Medigap works alongside Original Medicare to cover your share of costs.",
-  }
+      "Yes. You must be enrolled in both Medicare Part A and Part B to purchase a Medicare Supplement plan in Pennsylvania. Part B carries a standard premium of $185/month in 2026 and a $257 annual deductible. Medigap works alongside Original Medicare to cover your share of costs.",
+  },
 ];
 
 export default function PennsylvaniaMedigapPage() {
@@ -131,12 +129,8 @@ export default function PennsylvaniaMedigapPage() {
         <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">
           Best Medicare Supplement Plans in Pennsylvania (2026)
         </h1>
-<<<<<<< Updated upstream
         <p className="text-sm text-gray-500 mt-2">By <strong>Anthony Orner</strong>, Licensed Medicare Insurance Broker — NJ &amp; 34 states</p>
         <p className="text-xs text-gray-400 mb-8">Last reviewed: March 2026 · Sources: CMS.gov, Pennsylvania Insurance Department</p>
-=======
-        <p className="text-xs text-gray-400 mb-8">Last reviewed: March 2026 · Sources: <a href="https://www.medicare.gov/health-drug-plans/medigap" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Medicare.gov</a>, Pennsylvania Insurance Department</p>
->>>>>>> Stashed changes
 
         <div className="bg-amber-50 border border-amber-200 rounded-xl p-5 mb-8">
           <p className="font-semibold text-gray-900 mb-1">Important for Pennsylvania residents</p>

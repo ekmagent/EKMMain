@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "How to Sign Up for Medicare (2026 Guide)",
   description:
-    "2026 Medicare sign-up guide: enrollment windows, how to avoid the Part B late penalty, and steps to take at 65. Free expert help — call 855-559-1700.",
+    "Learn Medicare enrollment windows, how to avoid late penalties, and what happens if you miss your deadline. Free help: 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/how-to-sign-up-for-medicare` },
   openGraph: {
     title: "How to Sign Up for Medicare (2026 Guide)",
@@ -109,62 +109,6 @@ const faqs = [
     answer:
       "Call a broker during the same window you enroll in Medicare — ideally 2–3 months before you turn 65. Your 6-month Medigap Open Enrollment Period starts the month you are both 65 and enrolled in Part B. Enrolling in a supplement during this window means no carrier can deny you or charge extra based on health. After this window, your options may be more limited.",
   },
-,
-  {
-    question: "When should I apply for Medicare if I'm not automatically enrolled?",
-    answer:
-      "You can apply up to 3 months before the month you turn 65 through ssa.gov/medicare. Applying early helps ensure your coverage starts the first day of your birthday month. If you miss your Initial Enrollment Period, you may face late penalties and have to wait for the General Enrollment Period (January 1–March 31).",
-  },
-  {
-    question: "How do I sign up for Medicare Part B if I already have Part A?",
-    answer:
-      "If you already have Part A and want to add Part B, you'll need to complete form CMS-40B and submit it to Social Security. If you delayed Part B due to employer coverage, you'll also need form CMS-L564 from your employer to qualify for a Special Enrollment Period. Call 855-559-1700 for free help walking through the process.",
-  },
-  {
-    question: "Is there a penalty for signing up for Medicare late?",
-    answer:
-      "Yes. If you don't enroll in Part B when first eligible and don't have creditable coverage, your premium increases 10% for each 12-month period you could have had Part B. This penalty is permanent and added to your monthly premium for life. The Part D late enrollment penalty is 1% of the national base premium per month you went without creditable drug coverage.",
-  }
-,
-  {
-    question: "What happens if I miss my Medicare Initial Enrollment Period?",
-    answer:
-      "If you miss your 7-month Initial Enrollment Period and do not qualify for a Special Enrollment Period, you will need to wait for the General Enrollment Period (January 1 through March 31) to sign up for Part B. You may also face a permanent late enrollment penalty of 10% added to your Part B premium for each full 12-month period you were eligible but did not enroll. Coverage from a General Enrollment Period sign-up begins the month after you enroll.",
-  },
-  {
-    question: "How much does Medicare Part B cost in 2026?",
-    answer:
-      "The standard Medicare Part B premium is ,
-  {
-    question: "Can I sign up for Medicare online?",
-    answer:
-      "Yes. You can apply for Medicare online at ssa.gov/medicare in about 10 minutes. You can start your application up to 3 months before the month you turn 65, even if you are not ready to collect Social Security benefits yet.",
-  },
-  {
-    question: "What happens if I miss my Medicare Initial Enrollment Period?",
-    answer:
-      "If you miss your 7-month Initial Enrollment Period and do not qualify for a Special Enrollment Period, you will have to wait for the General Enrollment Period (January 1 – March 31) to sign up. You may also owe a permanent Part B late enrollment penalty of 10% for every 12 months you were eligible but not enrolled.",
-  },
-  {
-    question: "How much does Medicare Part B cost in 2026?",
-    answer:
-      "The standard Medicare Part B premium is ];
-
-export default85 per month in 2026, with an annual deductible of $257. Higher-income beneficiaries may pay more through IRMAA. Part A is premium-free for most people who have 40+ work credits, but the Part A hospital deductible is ];
-
-export default,676 per benefit period.",
-  }
-];
-
-export default85 per month in 2026, with an annual deductible of $257. Higher-income beneficiaries may pay more through IRMAA (Income-Related Monthly Adjustment Amount) surcharges based on their tax returns from two years prior. Part A remains premium-free for most people who have 40+ work credits, with a ];
-
-export default,676 inpatient hospital deductible per benefit period in 2026.",
-  },
-  {
-    question: "Can I sign up for Medicare online?",
-    answer:
-      "Yes. You can apply for Medicare online at ssa.gov/medicare in about 10 minutes, even if you are not ready to start Social Security retirement benefits. You can apply up to 3 months before the month you turn 65. If you prefer, you can also apply by calling Social Security at 1-800-772-1213 or visiting a local SSA office.",
-  }
 ];
 
 export default function HowToSignUpPage() {
@@ -290,24 +234,6 @@ export default function HowToSignUpPage() {
             <li>
               <Link href="/services/help-with-your-medicare-decision" className="text-blue-600 hover:underline">
                 Help With Your Medicare Decision
-              </Link>
-            </li>
-          </ul>
-          <p className="font-semibold text-gray-900 mt-4 mb-2">Explore your options</p>
-          <ul className="space-y-1 text-gray-600">
-            <li>
-              <Link href="/services/how-to-enroll-in-medicare-in-new-jersey" className="text-blue-600 hover:underline">
-                How to Enroll in Medicare in New Jersey
-              </Link>
-            </li>
-            <li>
-              <Link href="/services/medicare-supplement-open-enrollment-online" className="text-blue-600 hover:underline">
-                Medicare Supplement Open Enrollment Online
-              </Link>
-            </li>
-            <li>
-              <Link href="/services/same-day-medicare-supplement-enrollment-form" className="text-blue-600 hover:underline">
-                Same-Day Medicare Supplement Enrollment
               </Link>
             </li>
           </ul>

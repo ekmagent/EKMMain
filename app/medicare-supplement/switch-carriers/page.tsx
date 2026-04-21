@@ -77,7 +77,7 @@ const faqs = [
     answer:
       "Yes, but it requires careful timing. If you have been on Medicare Advantage for less than 12 months and had a Medigap plan before enrolling, you may have a trial right to return to your old Medigap plan. Outside that window, you can apply for Medigap during Medicare Advantage Open Enrollment (January 1 – March 31) or during your Special Enrollment Period, but most states allow carriers to use medical underwriting. Talk to a broker before making this switch.",
   },
-,
+
   {
     question: "Will I have to answer health questions to switch carriers?",
     answer:
@@ -87,19 +87,12 @@ const faqs = [
     question: "Should I cancel my old Medigap plan before the new one starts?",
     answer:
       "No — never cancel your existing policy until the new carrier has approved your application and confirmed an effective date. Medicare allows a 30-day free look period where you can try the new plan while keeping the old one, then cancel the old policy once you are satisfied. This protects you from any gap in coverage if something unexpected happens during the switch.",
-  }
-,
-  {
-    question: "Will I have to answer health questions to switch Medigap carriers?",
-    answer:
-      "In most states, yes — outside of your 6-month Medigap Open Enrollment Period, carriers can use medical underwriting and ask health questions before approving you. However, federal guaranteed issue rights protect you in specific situations, such as your current plan leaving the market or losing employer coverage. Some states also offer additional protections, so it's worth checking with your State Insurance Department before applying.",
-  }
-,
+  },
   {
     question: "Will I have to answer health questions to switch Medigap carriers?",
     answer:
       "In most states, yes — outside of your 6-month Medigap Open Enrollment Period or a Guaranteed Issue situation, carriers can use medical underwriting and deny coverage based on health. Some states (like New York and Connecticut) have year-round guaranteed issue rules, and others have birthday or anniversary rules that allow switching without underwriting. Check with your state insurance department or ask a licensed broker to confirm what applies in your state.",
-  }
+  },
 ];
 
 export default function SwitchCarriersPage() {

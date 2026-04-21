@@ -84,7 +84,7 @@ const faqs = [
     answer:
       "Under Original Medicare, you're responsible for 20% of the Medicare-approved amount after meeting the Part B deductible ($283 in 2026). A Medigap policy, Medicaid, or employer coverage can pick up that cost share. Without secondary coverage, those bills add up fast at three sessions per week.",
   },
-,
+
   {
     question: "Does Medicare cover home dialysis training and equipment?",
     answer:

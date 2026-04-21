@@ -85,7 +85,7 @@ const faqs = [
     answer:
       "Medicare Part B covers the Medicare Diabetes Prevention Program for people at risk of type 2 diabetes, diabetes self-management training, therapeutic shoes and inserts, blood sugar monitors and test strips, and glaucoma screenings. Many of these preventive services have no cost-sharing if your doctor accepts Medicare assignment.",
   },
-,
+
   {
     question: "How much does insulin cost under Medicare in 2026?",
     answer:

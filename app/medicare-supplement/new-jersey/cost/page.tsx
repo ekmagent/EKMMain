@@ -43,7 +43,6 @@ const faqs = [
     answer:
       "The Medicare Part B deductible is $257 in 2026 — this is a federal amount that applies nationwide, not NJ-specific. Plan G covers everything except this deductible. Plan F covers it entirely but is only available to those who became Medicare-eligible before January 1, 2020.",
   },
-,
   {
     question: "Does New Jersey use community rating for Medigap premiums?",
     answer:

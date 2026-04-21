@@ -70,10 +70,6 @@ const faqs = [
   }
 ];
 
-export default,676 per benefit period in 2026. They also both cover Part A coinsurance and an additional 365 days of hospital coverage after Medicare benefits are exhausted.",
-  }
-];
-
 export default function PlanGvsPlanNPage() {
   const breadcrumb = {
     "@context": "https://schema.org",
