@@ -204,9 +204,9 @@ Produce a JSON object with ONLY the keys that address the gaps above. Choose fro
 Rules:
 - Respond with valid JSON ONLY — no markdown, no prose before or after.
 - Do not include keys for gaps that are already passing.
-- Keep 2026 cost figures accurate: Part B $185/mo premium, $257 deductible; Part A $1,676 deductible.
+- Do not invent, alter, or insert any specific dollar amounts, percentages, or statistics. If a figure is relevant, reference it by name only (e.g., "the Part B premium", "the Part A deductible") without citing a number — the site imports canonical 2026 figures from lib/medicare-figures.ts.
 - Phone number for CTA: 855-559-1700.
-- Do not invent statistics or mention competitor brand names.`;
+- Do not mention competitor brand names.`;
 }
 
 /** Safely insert a string before the first return ( in JSX */
@@ -265,17 +265,24 @@ function applyGapFill(source, suggestions) {
       )
       .join(",\n");
 
-    // Insert before the closing ]; of the faqs array
-    const replaced = s.replace(/(\];[\s\n]*export default)/, `,\n${newFaqs}\n];\n\nexport default`);
+    // Insert before the closing ]; of the faqs array.
+    // IMPORTANT: use a function replacement, not a string replacement — a string
+    // replacement treats `$1`, `$&`, etc. in `newFaqs` as regex backreferences,
+    // which silently corrupts any FAQ answer containing dollar amounts like
+    // `$185` or `$1,676`. Function replacements insert the value verbatim.
+    const replaced = s.replace(
+      /\];[\s\n]*export default/,
+      () => `,\n${newFaqs}\n];\n\nexport default`
+    );
     if (replaced !== s) s = replaced;
   }
 
-  // 5. Meta description replacement
+  // 5. Meta description replacement — function callback for the same reason
   if (suggestions.meta_description) {
     const desc = String(suggestions.meta_description).replace(/"/g, '\\"');
     s = s.replace(
       /description\s*:\s*\n?\s*"[^"]*"/,
-      `description:\n    "${desc}"`
+      () => `description:\n    "${desc}"`
     );
   }
 
@@ -406,6 +413,18 @@ async function main() {
     const updatedSource = applyGapFill(source, suggestions);
 
     if (updatedSource !== source) {
+      // Safety net: reject updates that break the expected file shape.
+      // A well-formed page.tsx has exactly one `];<ws>export default` sequence
+      // (the close of the faqs array followed by the default export).
+      // If our regex splice accidentally produced zero or multiple, the file
+      // is corrupt — skip the write and log.
+      const terminatorCount = (updatedSource.match(/\];[\s\n]*export default/g) || []).length;
+      if (terminatorCount !== 1) {
+        console.error(`  ✗ Aborted write: expected 1 \`];<ws>export default\` terminator, found ${terminatorCount}. Source unchanged.`);
+        logRows.push([today, pagePath, audit.score, audit.words, audit.faqs, audit.metaLen, audit.govLink ? "yes" : "no", audit.byline ? "yes" : "no", gapStr, `aborted:corrupt_terminator_${terminatorCount}`].join("\t"));
+        continue;
+      }
+
       fs.writeFileSync(absPath, updatedSource, "utf8");
       console.log(`  Fixed: ${Object.keys(suggestions).join(", ")}`);
       pagesFixed++;
