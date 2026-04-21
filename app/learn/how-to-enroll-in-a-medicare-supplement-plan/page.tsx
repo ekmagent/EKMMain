@@ -224,7 +224,7 @@ export default function HowToEnrollMedigapPage() {
               {
                 step: "5",
                 title: "Submit through a licensed broker, not direct-to-insurer",
-                body: "Medigap commissions are regulated and built into every premium — the price is the same whether you apply direct, through a broker, or through an agent. A broker shows every carrier's price at once, catches household discounts most applicants miss, and pulls rate-increase history before you commit.",
+                body: "Medigap commissions are regulated and built into every premium — the price is the same whether you apply direct, through a broker, or through an agent. A broker shows every carrier's price at once, catches household discounts most applicants miss, and pulls rate-increase history before you commit. Call 855-559-1700 for a no-cost comparison across every licensed carrier in your state.",
               },
             ].map((item) => (
               <li key={item.step} className="flex gap-4 bg-white rounded-lg p-4 border border-blue-100">
