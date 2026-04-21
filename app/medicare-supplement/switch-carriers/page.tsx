@@ -141,14 +141,12 @@ export default function SwitchCarriersPage() {
             <p className="text-sm text-gray-600 mb-4">
               Use our online carrier comparison tool or call to speak with Anthony directly.
             </p>
-            <a
-              href="https://switch.healthplans.now"
-              target="_blank"
-              rel="noopener noreferrer"
+            <Link
+              href="/quote"
               className="block w-full text-center bg-blue-700 hover:bg-blue-800 text-white font-semibold py-3 rounded-lg transition-colors mb-3"
             >
               Compare Carriers Online
-            </a>
+            </Link>
             <a
               href="tel:8555591700"
               className="block w-full text-center border border-blue-700 text-blue-700 hover:bg-blue-50 font-semibold py-3 rounded-lg transition-colors text-sm mb-3"
@@ -170,7 +168,7 @@ export default function SwitchCarriersPage() {
             <div className="bg-white rounded-lg p-4 border border-amber-100">
               <h3 className="font-semibold text-gray-900 mb-2">Plan Letters Are Federally Standardized</h3>
               <p className="text-gray-600">
-                Congress and CMS define exactly what each Medigap plan letter covers. A Plan G from
+                Congress and <a href="https://www.medicare.gov/health-drug-plans/medigap" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline font-medium">CMS</a> define exactly what each Medigap plan letter covers. A Plan G from
                 any carrier pays the same bills in the same situations. Think of it like a can of
                 Coke — same product at every store, different price tag.
               </p>
@@ -206,9 +204,9 @@ export default function SwitchCarriersPage() {
               <p className="text-gray-600 text-sm mt-1">
                 An independent broker pulls rates from all carriers available to you — not just one company.
                 You can do this online at{" "}
-                <a href="https://switch.healthplans.now" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
-                  switch.healthplans.now
-                </a>{" "}
+                <Link href="/quote" className="text-blue-600 hover:underline">
+                  our online comparison tool
+                </Link>{" "}
                 or by calling 855-559-1700.
               </p>
             </div>
@@ -255,14 +253,12 @@ export default function SwitchCarriersPage() {
             Free, no-obligation comparison from every carrier in your zip code.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href="https://switch.healthplans.now"
-              target="_blank"
-              rel="noopener noreferrer"
+            <Link
+              href="/quote"
               className="bg-white text-blue-700 hover:bg-blue-50 font-semibold px-8 py-3 rounded-lg transition-colors"
             >
-              Compare Online — switch.healthplans.now
-            </a>
+              Compare Carriers Online
+            </Link>
             <a
               href="tel:8555591700"
               className="border-2 border-white text-white hover:bg-blue-600 font-semibold px-8 py-3 rounded-lg transition-colors"

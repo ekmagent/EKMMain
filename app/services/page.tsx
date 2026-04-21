@@ -195,6 +195,7 @@ const STATIC_CATEGORIES = [
       { href: "/learn/medicare-parts-explained", label: "Medicare Parts A, B, C, and D Explained Simply" },
       { href: "/medicare-supplement/new-jersey/cost", label: "How Much Does Medicare Cost in New Jersey in 2026?" },
       { href: "/learn/medicare-help-low-income", label: "Medicare Help for People on a Fixed Income" },
+      { href: "/learn/irmaa-medicare-surcharge", label: "IRMAA Medicare Surcharge: What It Is and How to Avoid It" },
       { href: "/medicare-supplement/switch-carriers", label: "How to Switch Medicare Supplement Carriers" },
     ],
   },
@@ -204,6 +205,7 @@ const STATIC_CATEGORIES = [
       { href: "/medicare-supplement/new-jersey/turning-65", label: "Turning 65 in New Jersey: Your Medicare Checklist" },
       { href: "/learn/how-to-sign-up-for-medicare", label: "How and When to Sign Up for Medicare (2026)" },
       { href: "/learn/ssa-online-enrollment-walkthrough", label: "SSA.gov Online Enrollment: Step-by-Step Walkthrough" },
+      { href: "/medicare-supplement/new-jersey/enrollment", label: "Medicare Supplement Enrollment in New Jersey" },
     ],
   },
   {
@@ -292,13 +294,13 @@ export default function ServicesHubPage() {
       {/* Hero — H1 + intro (Edward Module 06) */}
       <section className="max-w-6xl mx-auto px-4 py-10">
         <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-          Medicare Services
+          Medicare Supplement &amp; Advantage Services, Guides &amp; Enrollment Help
         </h1>
         <p className="text-sm text-gray-500 mt-2">By <strong>Anthony Orner</strong>, Licensed Medicare Insurance Broker — NJ &amp; 34 states</p>
         <p className="text-lg text-gray-600 leading-relaxed max-w-3xl">
-          We help Medicare beneficiaries find the right coverage with free,
-          unbiased guidance from a licensed independent broker. Here are the
-          most common ways people use our services:
+          We help Medicare beneficiaries save money on coverage with free,
+          unbiased guidance from a licensed independent broker. Browse our
+          guides below to find what you need:
         </p>
       </section>
 
@@ -309,19 +311,19 @@ export default function ServicesHubPage() {
             <h2 className="text-xl font-bold text-gray-900 mb-4 pb-2 border-b border-gray-200">
               {category.heading}
             </h2>
-            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            <ul className="space-y-2 text-sm">
               {category.links.map((link) => (
-                <Link
-                  key={link.href}
-                  href={link.href}
-                  className="block bg-white border border-gray-200 rounded-lg p-5 hover:border-blue-300 hover:shadow-md transition-all"
-                >
-                  <span className="font-semibold text-gray-900 text-sm leading-snug">
+                <li key={link.href} className="flex items-start gap-2">
+                  <span className="text-gray-400 mt-0.5">&bull;</span>
+                  <Link
+                    href={link.href}
+                    className="text-blue-700 hover:text-blue-900 hover:underline font-medium"
+                  >
                     {link.label}
-                  </span>
-                </Link>
+                  </Link>
+                </li>
               ))}
-            </div>
+            </ul>
           </div>
         ))}
       </section>
@@ -333,19 +335,19 @@ export default function ServicesHubPage() {
             <h2 className="text-xl font-bold text-gray-900 mb-4 pb-2 border-b border-gray-200">
               {category.heading}
             </h2>
-            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            <ul className="space-y-2 text-sm">
               {category.links.map((link) => (
-                <Link
-                  key={link.href}
-                  href={link.href}
-                  className="block bg-white border border-gray-200 rounded-lg p-5 hover:border-blue-300 hover:shadow-md transition-all"
-                >
-                  <span className="font-semibold text-gray-900 text-sm leading-snug">
+                <li key={link.href} className="flex items-start gap-2">
+                  <span className="text-gray-400 mt-0.5">&bull;</span>
+                  <Link
+                    href={link.href}
+                    className="text-blue-700 hover:text-blue-900 hover:underline font-medium"
+                  >
                     {link.label}
-                  </span>
-                </Link>
+                  </Link>
+                </li>
               ))}
-            </div>
+            </ul>
           </div>
         ))}
       </section>

@@ -1,202 +1,7 @@
 {
   "month": "2026-03",
-  "rowsUsed": 11819,
+  "rowsUsed": 11970,
   "calls": [
-    {
-      "date": "2026-03-17T15:16:15.582Z",
-      "endpoint": "keyword_metrics_v3",
-      "rows": 1
-    },
-    {
-      "date": "2026-03-17T15:16:16.751Z",
-      "endpoint": "keyword_metrics_v3",
-      "rows": 1
-    },
-    {
-      "date": "2026-03-17T15:16:17.909Z",
-      "endpoint": "keyword_metrics_v3",
-      "rows": 1
-    },
-    {
-      "date": "2026-03-17T15:33:16.515Z",
-      "endpoint": "ranking_keywords_v3",
-      "rows": 50
-    },
-    {
-      "date": "2026-03-17T15:33:17.077Z",
-      "endpoint": "ranking_keywords_v3",
-      "rows": 11
-    },
-    {
-      "date": "2026-03-17T15:33:19.353Z",
-      "endpoint": "ranking_keywords_v3",
-      "rows": 50
-    },
-    {
-      "date": "2026-03-17T15:33:19.890Z",
-      "endpoint": "ranking_keywords_v3",
-      "rows": 50
-    },
-    {
-      "date": "2026-03-17T15:33:20.424Z",
-      "endpoint": "ranking_keywords_v3",
-      "rows": 50
-    },
-    {
-      "date": "2026-03-17T15:33:20.959Z",
-      "endpoint": "ranking_keywords_v3",
-      "rows": 50
-    },
-    {
-      "date": "2026-03-17T15:33:23.664Z",
-      "endpoint": "ranking_keywords_v3",
-      "rows": 50
-    },
-    {
-      "date": "2026-03-17T15:33:24.204Z",
-      "endpoint": "ranking_keywords_v3",
-      "rows": 50
-    },
-    {
-      "date": "2026-03-17T15:33:24.748Z",
-      "endpoint": "ranking_keywords_v3",
-      "rows": 50
-    },
-    {
-      "date": "2026-03-17T15:33:25.289Z",
-      "endpoint": "ranking_keywords_v3",
-      "rows": 50
-    },
-    {
-      "date": "2026-03-17T15:33:28.124Z",
-      "endpoint": "ranking_keywords_v3",
-      "rows": 50
-    },
-    {
-      "date": "2026-03-17T15:33:28.665Z",
-      "endpoint": "ranking_keywords_v3",
-      "rows": 50
-    },
-    {
-      "date": "2026-03-17T15:33:29.209Z",
-      "endpoint": "ranking_keywords_v3",
-      "rows": 50
-    },
-    {
-      "date": "2026-03-17T15:33:29.754Z",
-      "endpoint": "ranking_keywords_v3",
-      "rows": 50
-    },
-    {
-      "date": "2026-03-17T15:33:49.695Z",
-      "endpoint": "keyword_metrics_v3",
-      "rows": 1
-    },
-    {
-      "date": "2026-03-17T15:33:50.369Z",
-      "endpoint": "keyword_metrics_v3",
-      "rows": 1
-    },
-    {
-      "date": "2026-03-17T15:33:51.063Z",
-      "endpoint": "keyword_metrics_v3",
-      "rows": 1
-    },
-    {
-      "date": "2026-03-17T15:33:51.743Z",
-      "endpoint": "keyword_metrics_v3",
-      "rows": 1
-    },
-    {
-      "date": "2026-03-17T15:33:52.403Z",
-      "endpoint": "keyword_metrics_v3",
-      "rows": 1
-    },
-    {
-      "date": "2026-03-17T15:33:53.206Z",
-      "endpoint": "keyword_metrics_v3",
-      "rows": 1
-    },
-    {
-      "date": "2026-03-17T15:33:53.862Z",
-      "endpoint": "keyword_metrics_v3",
-      "rows": 1
-    },
-    {
-      "date": "2026-03-17T15:33:54.520Z",
-      "endpoint": "keyword_metrics_v3",
-      "rows": 1
-    },
-    {
-      "date": "2026-03-17T15:33:55.324Z",
-      "endpoint": "keyword_metrics_v3",
-      "rows": 1
-    },
-    {
-      "date": "2026-03-17T15:33:55.998Z",
-      "endpoint": "keyword_metrics_v3",
-      "rows": 1
-    },
-    {
-      "date": "2026-03-17T15:33:56.675Z",
-      "endpoint": "keyword_metrics_v3",
-      "rows": 1
-    },
-    {
-      "date": "2026-03-17T15:33:57.592Z",
-      "endpoint": "keyword_metrics_v3",
-      "rows": 1
-    },
-    {
-      "date": "2026-03-17T15:33:58.241Z",
-      "endpoint": "keyword_metrics_v3",
-      "rows": 1
-    },
-    {
-      "date": "2026-03-17T15:33:58.903Z",
-      "endpoint": "keyword_metrics_v3",
-      "rows": 1
-    },
-    {
-      "date": "2026-03-17T15:33:59.564Z",
-      "endpoint": "keyword_metrics_v3",
-      "rows": 1
-    },
-    {
-      "date": "2026-03-17T15:34:00.268Z",
-      "endpoint": "keyword_metrics_v3",
-      "rows": 1
-    },
-    {
-      "date": "2026-03-17T15:34:00.927Z",
-      "endpoint": "keyword_metrics_v3",
-      "rows": 1
-    },
-    {
-      "date": "2026-03-17T15:34:01.592Z",
-      "endpoint": "keyword_metrics_v3",
-      "rows": 1
-    },
-    {
-      "date": "2026-03-17T15:34:02.288Z",
-      "endpoint": "keyword_metrics_v3",
-      "rows": 1
-    },
-    {
-      "date": "2026-03-17T15:34:02.982Z",
-      "endpoint": "keyword_metrics_v3",
-      "rows": 1
-    },
-    {
-      "date": "2026-03-17T15:34:03.750Z",
-      "endpoint": "keyword_metrics_v3",
-      "rows": 1
-    },
-    {
-      "date": "2026-03-17T15:34:04.410Z",
-      "endpoint": "keyword_metrics_v3",
-      "rows": 1
-    },
     {
       "date": "2026-03-17T15:34:05.077Z",
       "endpoint": "keyword_metrics_v3",
@@ -501,6 +306,201 @@
       "date": "2026-03-17T16:19:39.143Z",
       "endpoint": "keyword_metrics_v3",
       "rows": 1
+    },
+    {
+      "date": "2026-03-24T13:16:28.173Z",
+      "endpoint": "keyword_metrics_v3",
+      "rows": 1
+    },
+    {
+      "date": "2026-03-24T13:16:29.436Z",
+      "endpoint": "url_metrics",
+      "rows": 5
+    },
+    {
+      "date": "2026-03-24T13:16:29.790Z",
+      "endpoint": "keyword_metrics_v3",
+      "rows": 1
+    },
+    {
+      "date": "2026-03-24T13:16:32.450Z",
+      "endpoint": "url_metrics",
+      "rows": 5
+    },
+    {
+      "date": "2026-03-24T13:16:32.728Z",
+      "endpoint": "keyword_metrics_v3",
+      "rows": 1
+    },
+    {
+      "date": "2026-03-24T13:16:33.761Z",
+      "endpoint": "url_metrics",
+      "rows": 5
+    },
+    {
+      "date": "2026-03-24T13:16:43.906Z",
+      "endpoint": "keyword_metrics_v3",
+      "rows": 1
+    },
+    {
+      "date": "2026-03-24T13:16:44.647Z",
+      "endpoint": "url_metrics",
+      "rows": 5
+    },
+    {
+      "date": "2026-03-26T02:51:17.947Z",
+      "endpoint": "keyword_metrics_v3",
+      "rows": 1
+    },
+    {
+      "date": "2026-03-26T02:51:19.515Z",
+      "endpoint": "url_metrics",
+      "rows": 5
+    },
+    {
+      "date": "2026-03-26T02:51:20.884Z",
+      "endpoint": "url_metrics",
+      "rows": 5
+    },
+    {
+      "date": "2026-03-26T02:51:23.780Z",
+      "endpoint": "url_metrics",
+      "rows": 5
+    },
+    {
+      "date": "2026-03-26T02:51:24.159Z",
+      "endpoint": "keyword_metrics_v3",
+      "rows": 1
+    },
+    {
+      "date": "2026-03-26T02:51:25.153Z",
+      "endpoint": "url_metrics",
+      "rows": 5
+    },
+    {
+      "date": "2026-03-26T02:51:25.492Z",
+      "endpoint": "keyword_metrics_v3",
+      "rows": 1
+    },
+    {
+      "date": "2026-03-26T02:51:26.767Z",
+      "endpoint": "url_metrics",
+      "rows": 5
+    },
+    {
+      "date": "2026-03-26T02:51:27.080Z",
+      "endpoint": "keyword_metrics_v3",
+      "rows": 1
+    },
+    {
+      "date": "2026-03-26T02:51:28.252Z",
+      "endpoint": "url_metrics",
+      "rows": 5
+    },
+    {
+      "date": "2026-03-26T02:51:28.581Z",
+      "endpoint": "keyword_metrics_v3",
+      "rows": 1
+    },
+    {
+      "date": "2026-03-26T02:51:29.520Z",
+      "endpoint": "url_metrics",
+      "rows": 5
+    },
+    {
+      "date": "2026-03-26T02:51:31.019Z",
+      "endpoint": "url_metrics",
+      "rows": 5
+    },
+    {
+      "date": "2026-03-26T02:51:32.455Z",
+      "endpoint": "url_metrics",
+      "rows": 5
+    },
+    {
+      "date": "2026-03-26T02:51:33.889Z",
+      "endpoint": "url_metrics",
+      "rows": 5
+    },
+    {
+      "date": "2026-03-26T02:51:34.197Z",
+      "endpoint": "keyword_metrics_v3",
+      "rows": 1
+    },
+    {
+      "date": "2026-03-26T02:51:34.949Z",
+      "endpoint": "url_metrics",
+      "rows": 5
+    },
+    {
+      "date": "2026-03-26T02:51:36.404Z",
+      "endpoint": "url_metrics",
+      "rows": 5
+    },
+    {
+      "date": "2026-03-26T02:51:37.054Z",
+      "endpoint": "keyword_metrics_v3",
+      "rows": 1
+    },
+    {
+      "date": "2026-03-26T02:51:37.979Z",
+      "endpoint": "url_metrics",
+      "rows": 5
+    },
+    {
+      "date": "2026-03-26T02:51:39.961Z",
+      "endpoint": "url_metrics",
+      "rows": 5
+    },
+    {
+      "date": "2026-03-26T02:51:56.423Z",
+      "endpoint": "url_metrics",
+      "rows": 5
+    },
+    {
+      "date": "2026-03-26T02:51:57.862Z",
+      "endpoint": "url_metrics",
+      "rows": 5
+    },
+    {
+      "date": "2026-03-26T02:51:59.328Z",
+      "endpoint": "url_metrics",
+      "rows": 5
+    },
+    {
+      "date": "2026-03-26T02:52:00.722Z",
+      "endpoint": "url_metrics",
+      "rows": 5
+    },
+    {
+      "date": "2026-03-26T02:52:02.253Z",
+      "endpoint": "url_metrics",
+      "rows": 5
+    },
+    {
+      "date": "2026-03-26T02:52:03.555Z",
+      "endpoint": "url_metrics",
+      "rows": 5
+    },
+    {
+      "date": "2026-03-26T02:52:04.918Z",
+      "endpoint": "url_metrics",
+      "rows": 5
+    },
+    {
+      "date": "2026-03-26T02:52:06.086Z",
+      "endpoint": "url_metrics",
+      "rows": 5
+    },
+    {
+      "date": "2026-03-26T02:52:07.718Z",
+      "endpoint": "url_metrics",
+      "rows": 5
+    },
+    {
+      "date": "2026-03-26T02:52:08.858Z",
+      "endpoint": "url_metrics",
+      "rows": 5
     }
   ]
 }

@@ -102,7 +102,7 @@ export default function HomePage() {
           </h2>
           <p className="text-[#3A5048] text-center mb-12 max-w-xl mx-auto leading-relaxed">
             The choice between Medicare Supplement and Medicare Advantage is the most
-            important decision you'll make at 65. We'll walk you through both.
+            important decision you'll make at 65. We'll walk you through both — using resources from <a href="https://www.medicare.gov" target="_blank" rel="noopener noreferrer" className="text-[#2D6E5F] hover:underline font-medium">Medicare.gov</a> and your specific situation.
           </p>
           <div className="grid md:grid-cols-2 gap-6">
             <Link

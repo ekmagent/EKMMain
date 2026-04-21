@@ -131,13 +131,17 @@ export default function PennsylvaniaMedigapPage() {
         <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">
           Best Medicare Supplement Plans in Pennsylvania (2026)
         </h1>
+<<<<<<< Updated upstream
         <p className="text-sm text-gray-500 mt-2">By <strong>Anthony Orner</strong>, Licensed Medicare Insurance Broker — NJ &amp; 34 states</p>
         <p className="text-xs text-gray-400 mb-8">Last reviewed: March 2026 · Sources: CMS.gov, Pennsylvania Insurance Department</p>
+=======
+        <p className="text-xs text-gray-400 mb-8">Last reviewed: March 2026 · Sources: <a href="https://www.medicare.gov/health-drug-plans/medigap" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Medicare.gov</a>, Pennsylvania Insurance Department</p>
+>>>>>>> Stashed changes
 
         <div className="bg-amber-50 border border-amber-200 rounded-xl p-5 mb-8">
           <p className="font-semibold text-gray-900 mb-1">Important for Pennsylvania residents</p>
           <p className="text-gray-700 text-sm">
-            Your 6-month Medigap Open Enrollment Period at 65 is your best — and often only — chance to get coverage without medical underwriting. After that window closes, insurers can use medical underwriting and may deny coverage based on health conditions. Do not miss this window.
+            Your 6-month <a href="https://www.medicare.gov/health-drug-plans/medigap/basics/when-can-i-buy-medigap" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline font-medium">Medigap Open Enrollment Period</a> at 65 is your best — and often only — chance to get coverage without medical underwriting. After that window closes, insurers can use medical underwriting and may deny coverage based on health conditions. Do not miss this window.
           </p>
         </div>
 

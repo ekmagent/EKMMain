@@ -1,0 +1,11 @@
+experiment	avg_score	winners	vol_pass	status	description
+1	4.1	1	30	keep	baseline prompt as-is
+2	4.4	1	11	keep	focus on switching + broker queries — found licensed medicare agent (7, vol=125)
+3	5.0	1	11	keep	credential+medicare, life situations — avg up to 5.0, three 6-scorers
+4	4.7	0	0	discard	credential+2026+coverage — 0 vol pass, reverted
+5	4.7	0	10	discard	template from confirmed-volume keywords — 0 winners, reverted
+6	4.4	1	30	keep	exclusion list forced new territory — found independent medicare agent (7, vol=47)
+7	4.4	0	10	discard	expanded exclusion list — no new winners
+8	3.4	0	30	discard	medical costs + confused terms — low scores, reverted
+9	5.7	1	10	keep	rerun current best — avg=5.7 (new high), 2x score-9 keywords
+10	4.7	0	10	discard	expanded exclusion — no new winners

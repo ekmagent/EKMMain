@@ -43,7 +43,6 @@ const faqs = [
     answer:
       "You can apply to switch from Plan N to Plan G at any time, but outside of your 6-month Medigap Open Enrollment Period, insurers may use medical underwriting. If you are in good health, switching is usually straightforward. If you have significant health conditions, it may be more difficult. That is why choosing the right plan during your initial enrollment window matters.",
   },
-,
   {
     question: "Does New Jersey's community rating affect Plan G vs Plan N pricing?",
     answer:
@@ -57,13 +56,7 @@ const faqs = [
   {
     question: "Do Plan G and Plan N cover the Part A deductible in New Jersey?",
     answer:
-      "Yes. Both Plan G and Plan N fully cover the Medicare Part A hospital deductible, which is ,
-  {
-    question: "Do Plan G and Plan N cover the Part A hospital deductible in New Jersey?",
-    answer:
-      "Yes. Both Plan G and Plan N fully cover the Medicare Part A hospital deductible, which is ];
-
-export default,676 per benefit period in 2026. They also both cover Part A coinsurance and an additional 365 days of hospital care after Medicare benefits are exhausted.",
+      "Yes. Both Plan G and Plan N fully cover the Medicare Part A hospital deductible, which is $1,676 per benefit period in 2026. They also both cover Part A coinsurance and an additional 365 days of hospital care after Medicare benefits are exhausted.",
   },
   {
     question: "Is the network the same for Plan G and Plan N in NJ?",
@@ -90,6 +83,7 @@ export default function PlanGvsPlanNPage() {
       { "@type": "ListItem", position: 2, name: "Medicare Supplement NJ", item: "https://medicareyourself.com/medicare-supplement/new-jersey" },
       { "@type": "ListItem", position: 3, name: "Plan G vs Plan N", item: "https://medicareyourself.com/medicare-supplement/new-jersey/plan-g-vs-plan-n" },
     ],
+    dateModified: "2026-04-21",
   };
 
   return (
@@ -108,7 +102,17 @@ export default function PlanGvsPlanNPage() {
           Medigap Plan G vs Plan N in New Jersey (2026): Which Is Better?
         </h1>
         <p className="text-sm text-gray-500 mt-2">By <strong>Anthony Orner</strong>, Licensed Medicare Insurance Broker — NJ &amp; 34 states</p>
-        <p className="text-xs text-gray-400 mb-6">Last reviewed: March 2026 · Sources: CMS.gov, NJ DOBI</p>
+        <p className="text-xs text-gray-400 mb-6">Last reviewed: April 2026 · Sources: CMS.gov, NJ DOBI</p>
+
+        <div className="bg-amber-50 border border-amber-200 rounded-xl p-5 mb-8">
+          <p className="font-semibold text-gray-900 mb-2">What's Different for NJ Plan G vs Plan N in 2026</p>
+          <ul className="text-sm text-gray-700 space-y-1">
+            <li>• Part B deductible is <strong>$257</strong> (covered by Plan G, not Plan N)</li>
+            <li>• Part A hospital deductible is <strong>$1,676 per benefit period</strong> (both plans cover it)</li>
+            <li>• NJ community rating means your Plan G premium <strong>won't increase as you age</strong></li>
+            <li>• Plan N copays up to <strong>$20 per doctor visit, $50 per ER visit</strong> still apply</li>
+          </ul>
+        </div>
 
         <div className="bg-blue-50 border border-blue-100 rounded-xl p-5 mb-8">
           <p className="font-semibold text-gray-900 mb-1">The short answer</p>
@@ -162,7 +166,7 @@ export default function PlanGvsPlanNPage() {
           In most states, Medigap premiums rise as you age (attained-age rating). In New Jersey, community rating means your premium is set by the insurer for everyone — it does not increase because you got older. This makes the Plan G vs Plan N decision less about short-term savings and more about which coverage model fits your healthcare usage.
         </p>
         <p className="text-gray-700 leading-relaxed mb-4">
-          However, keep in mind that switching from Plan N to Plan G after your 6-month Medigap Open Enrollment Period may require medical underwriting. If your health changes later, switching could be more difficult. Consider your long-term healthcare needs when choosing between Plan G and Plan N at 65.
+          However, keep in mind that switching from Plan N to Plan G after your 6-month <a href="https://www.medicare.gov/health-drug-plans/medigap/basics/when-can-i-buy-medigap" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline font-medium">Medigap Open Enrollment Period</a> may require medical underwriting. If your health changes later, switching could be more difficult. Consider your long-term healthcare needs when choosing between Plan G and Plan N at 65.
         </p>
 
         <div className="my-8 bg-gray-900 text-white rounded-xl p-6 text-center">

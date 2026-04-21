@@ -11,15 +11,22 @@ const SITE_DOMAIN = "medicareyourself.com";
 
 const TARGET_QUERIES = [
   "best medicare supplement plans new jersey 2026",
+  "best medigap plans in NJ",
+  "best medigap plans new jersey",
   "medigap plan g new jersey cost",
   "medicare supplement vs medicare advantage new jersey",
   "turning 65 in new jersey medicare",
   "plan g vs plan n new jersey",
   "what is medigap insurance",
+  "what is medigap",
   "medicare supplement plans pennsylvania 2026",
   "best medicare supplement plans pennsylvania",
   "medicare parts a b c d explained",
   "medigap open enrollment new jersey",
+  "switch medigap plans",
+  "how to sign up for medicare",
+  "medicare help low income",
+  "irmaa medicare surcharge",
 ];
 
 async function serpSearch(query, apiKey) {

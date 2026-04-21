@@ -149,14 +149,12 @@ export default function SwitchMedigapPlansPage() {
             <p className="text-gray-600 leading-relaxed mb-6">
               Under 2 minutes. No commitment. See your number — then decide.
             </p>
-            <a
-              href="https://switch.healthplans.now/q/current-plan"
-              target="_blank"
-              rel="noopener noreferrer"
+            <Link
+              href="/quote"
               className="inline-block bg-blue-700 hover:bg-blue-800 text-white font-bold text-lg py-4 px-8 rounded-lg transition-colors shadow-lg"
             >
               CHECK MY SAVINGS
-            </a>
+            </Link>
             <p className="text-xs text-gray-400 mt-3">
               By Anthony Orner, Licensed Medicare Broker · Updated March 2026
             </p>
@@ -178,7 +176,7 @@ export default function SwitchMedigapPlansPage() {
         {/* Comparison chart — below hero, full width */}
         <div className="mt-10 max-w-xl mx-auto">
 
-          {/* Comparison chart — inspired by switch.healthplans.now */}
+          {/* Comparison chart */}
           <div className="bg-white border-2 border-gray-200 rounded-xl overflow-hidden shadow-lg">
             <div className="grid grid-cols-3 text-center">
               <div className="p-3 bg-gray-50 border-b border-r border-gray-200" />
@@ -230,14 +228,12 @@ export default function SwitchMedigapPlansPage() {
               <p className="text-3xl font-bold text-green-700">$1,032<span className="text-base font-normal text-green-600"> / year</span></p>
             </div>
             <div className="p-3 text-center">
-              <a
-                href="https://switch.healthplans.now/q/current-plan"
-                target="_blank"
-                rel="noopener noreferrer"
+              <Link
+                href="/quote"
                 className="inline-block w-full bg-blue-700 hover:bg-blue-800 text-white font-bold py-3 rounded-lg transition-colors"
               >
                 See My Savings Now
-              </a>
+              </Link>
               <p className="text-xs text-gray-400 mt-2">
                 Rates shown are illustrative. Your savings depend on age, zip code, and carrier.
               </p>
@@ -399,14 +395,12 @@ export default function SwitchMedigapPlansPage() {
                   </h3>
                   <p className="text-gray-600 text-sm mt-1">
                     Use the{" "}
-                    <a
-                      href="https://switch.healthplans.now/q/current-plan"
-                      target="_blank"
-                      rel="noopener noreferrer"
+                    <Link
+                      href="/quote"
                       className="text-blue-600 hover:underline font-medium"
                     >
                       online comparison tool
-                    </a>{" "}
+                    </Link>{" "}
                     or call 855-559-1700. An independent broker pulls rates from
                     all carriers — not just one company.
                   </p>
@@ -583,14 +577,12 @@ export default function SwitchMedigapPlansPage() {
             Under 2 minutes. No commitment. See your number — then decide.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href="https://switch.healthplans.now/q/current-plan"
-              target="_blank"
-              rel="noopener noreferrer"
+            <Link
+              href="/quote"
               className="bg-white text-blue-700 hover:bg-blue-50 font-bold text-lg px-10 py-4 rounded-lg transition-colors shadow-lg"
             >
               CHECK MY SAVINGS
-            </a>
+            </Link>
             <a
               href="tel:8555591700"
               className="border-2 border-white text-white hover:bg-blue-600 font-semibold px-8 py-4 rounded-lg transition-colors"

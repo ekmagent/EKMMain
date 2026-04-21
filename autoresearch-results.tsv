@@ -1,0 +1,12 @@
+timestamp	avg_score	winners	vol_pass	status	description
+2026-03-22T14:59:09.568Z	3.9	0	3	no_winners	best: switch medicare supplement carriers(7)
+2026-03-22T15:00:00.812Z	4.1	1	3	has_winners	medicare supplement broker near me(8,WORTH TARGETING)
+2026-03-22T15:01:04.071Z	4.4	1	1	has_winners	licensed medicare agent(7,WORTH TARGETING)
+2026-03-22T15:02:14.252Z	5	1	1	has_winners	licensed medicare agent(7,WORTH TARGETING)
+2026-03-22T15:03:05.210Z	4.7	0	0	no_winners	best: licensed medigap agent(9)
+2026-03-22T15:03:59.310Z	4.7	0	1	no_winners	best: medicare supplement broker free(7)
+2026-03-22T15:05:04.457Z	4.4	1	3	has_winners	independent medicare agent(7,WORTH TARGETING)
+2026-03-22T15:05:56.298Z	4.4	0	1	no_winners	best: medicare supplement switching carriers(8)
+2026-03-22T15:07:05.268Z	3.4	0	3	no_winners	best: plan n enrollment period(9)
+2026-03-22T15:07:33.957Z	5.7	1	1	has_winners	independent medicare agent(7,WORTH TARGETING)
+2026-03-22T15:08:23.530Z	4.7	0	1	no_winners	best: independent medigap broker(8)

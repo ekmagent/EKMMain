@@ -54,10 +54,11 @@ export default function Turning65NJPage() {
       { "@type": "ListItem", position: 2, name: "Medicare Supplement NJ", item: "https://medicareyourself.com/medicare-supplement/new-jersey" },
       { "@type": "ListItem", position: 3, name: "Turning 65 in NJ", item: "https://medicareyourself.com/medicare-supplement/new-jersey/turning-65" },
     ],
+    dateModified: "2026-04-21",
   };
 
   const steps = [
-    { months: "3 months before birthday", action: "Enroll in Medicare Part A and Part B through SSA.gov or call 1-800-772-1213", important: true },
+    { months: "3 months before birthday", action: "Enroll in Medicare Part A and Part B through Social Security (ssa.gov) or call 1-800-772-1213", important: true },
     { months: "3 months before birthday", action: "Compare Medigap plans and Part D drug plans so you are ready to enroll when Part B starts", important: false },
     { months: "Birthday month", action: "Your Medicare coverage begins. Enroll in a Medigap plan within your Open Enrollment Period", important: true },
     { months: "Birthday month", action: "Enroll in a Part D prescription drug plan to avoid the late enrollment penalty", important: true },
@@ -81,7 +82,18 @@ export default function Turning65NJPage() {
           Turning 65 in New Jersey: Your Complete Medicare Checklist (2026)
         </h1>
         <p className="text-sm text-gray-500 mt-2">By <strong>Anthony Orner</strong>, Licensed Medicare Insurance Broker — NJ &amp; 34 states</p>
-        <p className="text-xs text-gray-400 mb-6">Last reviewed: March 2026 · Sources: SSA.gov, CMS.gov, NJ DOBI</p>
+        <p className="text-xs text-gray-400 mb-6">Last reviewed: April 2026 · Sources: SSA.gov, CMS.gov, NJ DOBI</p>
+
+        <div className="bg-amber-50 border border-amber-200 rounded-xl p-5 mb-8">
+          <p className="font-semibold text-gray-900 mb-2">2026 Medicare Deadlines for NJ Residents Turning 65</p>
+          <ul className="text-sm text-gray-700 space-y-1">
+            <li>• <strong>Initial Enrollment Period:</strong> 7 months (3 months before + your birthday month + 3 months after)</li>
+            <li>• <strong>Part B premium (2026):</strong> $185/month — no increase if you enroll within your IEP window</li>
+            <li>• <strong>Part A deductible (2026):</strong> $1,676 per benefit period (Plan G covers it)</li>
+            <li>• <strong>Medigap Open Enrollment:</strong> 6 months starting the month you're 65 and enrolled in Part B — guaranteed issue window</li>
+            <li>• <strong>Part D deadline:</strong> Enroll within your IEP to avoid 1% per month late penalty for life</li>
+          </ul>
+        </div>
 
         <div className="bg-green-50 border border-green-100 rounded-xl p-5 mb-8">
           <p className="font-semibold text-gray-900 mb-1">Important for NJ residents turning 65</p>
@@ -119,7 +131,7 @@ export default function Turning65NJPage() {
           <div className="border border-gray-200 rounded-xl p-5">
             <h3 className="font-bold text-gray-900 mb-2">3. Which Part D Drug Plan?</h3>
             <p className="text-gray-600 text-sm leading-relaxed">
-              Even if you take no prescriptions now, enroll in a Part D plan during your Initial Enrollment Period to avoid the permanent late enrollment penalty. A low-premium plan (&lt;$15/month) is sufficient if you have no current drug needs. Use Medicare.gov&apos;s Plan Finder to compare options by your specific medications.
+              Even if you take no prescriptions now, enroll in a Part D plan during your Initial Enrollment Period to avoid the permanent late enrollment penalty. A low-premium plan (&lt;$15/month) is sufficient if you have no current drug needs. Use <a href="https://www.medicare.gov/plan-compare" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline font-medium">Medicare.gov&apos;s Plan Finder</a> to compare options by your specific medications.
             </p>
           </div>
         </div>

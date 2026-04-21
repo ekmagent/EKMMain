@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { redirect } from "next/navigation";
 import { SITE_URL } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -16,9 +15,6 @@ export const metadata: Metadata = {
 };
 
 export default function QuotePage() {
-  redirect("https://switch.healthplans.now");
-
-  // Fallback content for crawlers / JS-disabled browsers
   return (
     <section className="max-w-3xl mx-auto px-4 py-12 text-center">
       <h1 className="text-3xl font-bold text-gray-900 mb-4">Get a Free Medicare Quote</h1>

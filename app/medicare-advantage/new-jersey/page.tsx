@@ -84,7 +84,7 @@ export default function NJMedicareAdvantagePage() {
             <p className="text-gray-600 leading-relaxed mb-6">
               Medicare Advantage plans replace Original Medicare. You get all Part A and Part B
               benefits through the private insurer, often with extras like dental and vision — but
-              you must use in-network providers. If you later want to switch back to Original Medicare
+              you must use in-network providers. Use the <a href="https://www.medicare.gov/plan-compare" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline font-medium">Medicare Plan Finder</a> to compare plans by county. If you later want to switch back to Original Medicare
               with a Medigap plan, medical underwriting may apply if your initial Open Enrollment Period has passed.
             </p>
             <p className="text-xs text-gray-400 mb-6">

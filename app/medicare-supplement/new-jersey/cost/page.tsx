@@ -57,10 +57,8 @@ const faqs = [
   {
     question: "What is the Part A hospital deductible in New Jersey for 2026?",
     answer:
-      "The Medicare Part A hospital deductible is ];
-
-export default,676 per benefit period in 2026. This is a federal amount and applies in every state, including New Jersey. Medigap Plan G and Plan N both fully cover this deductible, which is one of the main reasons many NJ beneficiaries add a supplement.",
-  }
+      "The Medicare Part A hospital deductible is $1,676 per benefit period in 2026. This is a federal amount and applies in every state, including New Jersey. Medigap Plan G and Plan N both fully cover this deductible, which is one of the main reasons many NJ beneficiaries add a supplement.",
+  },
 ];
 
 export default function NJMedicareCostPage() {
@@ -72,6 +70,7 @@ export default function NJMedicareCostPage() {
       { "@type": "ListItem", position: 2, name: "Medicare Supplement NJ", item: "https://medicareyourself.com/medicare-supplement/new-jersey" },
       { "@type": "ListItem", position: 3, name: "Medicare Costs NJ 2026", item: "https://medicareyourself.com/medicare-supplement/new-jersey/cost" },
     ],
+    dateModified: "2026-04-21",
   };
 
   return (
@@ -90,12 +89,30 @@ export default function NJMedicareCostPage() {
           How Much Does Medicare Cost in New Jersey in 2026?
         </h1>
         <p className="text-sm text-gray-500 mt-2">By <strong>Anthony Orner</strong>, Licensed Medicare Insurance Broker — NJ &amp; 34 states</p>
-        <p className="text-xs text-gray-400 mb-6">Last reviewed: March 2026 · Sources: CMS.gov, NJ DOBI</p>
+        <p className="text-xs text-gray-400 mb-6">Last reviewed: April 2026 · Sources: CMS.gov, NJ DOBI</p>
+
+        <div className="bg-amber-50 border border-amber-200 rounded-xl p-5 mb-8">
+          <p className="font-semibold text-gray-900 mb-2">2026 Cost Breakdown for NJ Medicare</p>
+          <div className="grid sm:grid-cols-2 gap-4 text-sm">
+            <div>
+              <p className="font-semibold text-gray-900">Monthly Costs</p>
+              <p className="text-gray-700 mt-1"><strong>$185</strong> Part B premium</p>
+              <p className="text-gray-700"><strong>$130–$220</strong> Plan G average</p>
+              <p className="text-gray-700"><strong>~$40</strong> Part D drug plan</p>
+            </div>
+            <div>
+              <p className="font-semibold text-gray-900">Annual Deductibles</p>
+              <p className="text-gray-700 mt-1"><strong>$257</strong> Part B (covered by Plan G)</p>
+              <p className="text-gray-700"><strong>$1,676</strong> Part A per benefit period</p>
+              <p className="text-gray-700"><strong>$0</strong> out-of-pocket with Plan G</p>
+            </div>
+          </div>
+        </div>
 
         <div className="bg-blue-50 border border-blue-100 rounded-xl p-5 mb-8">
           <p className="font-semibold text-gray-900 mb-1">Quick answer</p>
           <p className="text-gray-700">
-            Most NJ residents with comprehensive Medigap coverage (Plan G) pay <strong>$315–$405/month total</strong> — that is the $185 Part B premium plus $130–$220 for Plan G. In return, they have near-zero out-of-pocket costs and can see any doctor in the US who accepts Medicare.
+            Most NJ residents with comprehensive Medigap coverage (Plan G) pay <strong>$315–$405/month total</strong> — that is the <a href="https://www.medicare.gov/your-medicare-costs/part-b-costs" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline font-medium">$185 Part B premium</a> plus $130–$220 for Plan G. In return, they have near-zero out-of-pocket costs and can see any doctor in the US who accepts Medicare.
           </p>
         </div>
 
