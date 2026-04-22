@@ -7,15 +7,15 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 
 export const metadata: Metadata = {
   title:
-    "how much is plan g in nj | Free Rate Comparison by Age | MedicareYourself",
+    "How Much Is Plan G in NJ? | Free Rate Comparison by Age | MedicareYourself",
   description:
     "How much is Plan G in NJ? Compare 2026 monthly premiums from every major carrier by age and zip. Anthony Orner finds your lowest rate — free quote.",
   alternates: { canonical: "https://medicareyourself.com/services/how-much-is-plan-g-in-nj" },
   openGraph: {
     title:
-      "how much is plan g in nj | Free Rate Comparison by Age | MedicareYourself",
+      "How Much Is Plan G in NJ? | Free Rate Comparison by Age | MedicareYourself",
     description:
-      "How much is Plan G in NJ? See actual 2025 monthly premiums by age from every major carrier. Anthony Orner finds your lowest rate — free quote today.",
+      "How much is Plan G in NJ? See actual 2026 monthly premiums by age from every major carrier. Anthony Orner finds your lowest rate — free quote today.",
   },
 };
 

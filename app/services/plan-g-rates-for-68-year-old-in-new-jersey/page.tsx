@@ -7,13 +7,13 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 
 export const metadata: Metadata = {
   title:
-    "plan g rates for 68 year old in new jersey | Free Carrier Comparison | MedicareYourself",
+    "Plan G Rates for a 68-Year-Old in New Jersey | Free Carrier Comparison | MedicareYourself",
   description:
     "Compare Plan G rates for a 68-year-old in New Jersey across top carriers. Identical coverage, different prices — call 855-559-1700 for a free NJ quote.",
   alternates: { canonical: "https://medicareyourself.com/services/plan-g-rates-for-68-year-old-in-new-jersey" },
   openGraph: {
     title:
-      "plan g rates for 68 year old in new jersey | Free Carrier Comparison | MedicareYourself",
+      "Plan G Rates for a 68-Year-Old in New Jersey | Free Carrier Comparison | MedicareYourself",
     description:
       "Plan G rates for a 68-year-old in New Jersey vary by $60+ across carriers. See real NJ premium examples and get a free comparison from Anthony Orner.",
   },

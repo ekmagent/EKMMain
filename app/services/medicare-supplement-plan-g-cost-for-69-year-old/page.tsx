@@ -7,15 +7,15 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 
 export const metadata: Metadata = {
   title:
-    "medicare supplement plan g cost for 69 year old | Free Quote | MedicareYourself",
+    "Medicare Supplement Plan G Cost for a 69-Year-Old | Free Quote | MedicareYourself",
   description:
-    "Medicare Supplement Plan G cost for a 69-year-old varies by carrier and pricing method. See 2025 rate examples and compare quotes with a licensed broker.",
+    "Medicare Supplement Plan G cost for a 69-year-old varies by carrier and pricing method. See 2026 rate examples and compare quotes with a licensed broker.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-supplement-plan-g-cost-for-69-year-old" },
   openGraph: {
     title:
-      "medicare supplement plan g cost for 69 year old | Free Quote | MedicareYourself",
+      "Medicare Supplement Plan G Cost for a 69-Year-Old | Free Quote | MedicareYourself",
     description:
-      "Medicare Supplement Plan G cost for a 69-year-old varies by carrier and pricing method. See 2025 rate examples and compare quotes with a licensed broker.",
+      "Medicare Supplement Plan G cost for a 69-year-old varies by carrier and pricing method. See 2026 rate examples and compare quotes with a licensed broker.",
   },
 };
 

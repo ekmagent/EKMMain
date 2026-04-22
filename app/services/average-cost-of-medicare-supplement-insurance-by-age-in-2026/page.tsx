@@ -7,13 +7,13 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 
 export const metadata: Metadata = {
   title:
-    "average cost of medicare supplement insurance by age in 2026 | Free Rate Comparison | MedicareYourself",
+    "Average Cost of Medicare Supplement Insurance by Age (2026) | Free Rate Comparison | MedicareYourself",
   description:
     "Compare 2026 Medicare Supplement costs by age — real NJ carrier rates at 65, 70, 75+. Call 855-559-1700 for a free personalized Medigap quote today.",
   alternates: { canonical: "https://medicareyourself.com/services/average-cost-of-medicare-supplement-insurance-by-age-in-2026" },
   openGraph: {
     title:
-      "average cost of medicare supplement insurance by age in 2026 | Free Rate Comparison | MedicareYourself",
+      "Average Cost of Medicare Supplement Insurance by Age (2026) | Free Rate Comparison | MedicareYourself",
     description:
       "Average cost of Medicare Supplement insurance by age in 2026 — actual monthly premiums from top NJ carriers at 65, 70, 75+. Get a free personalized quote.",
   },

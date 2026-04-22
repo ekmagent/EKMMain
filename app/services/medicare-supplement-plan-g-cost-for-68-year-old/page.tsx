@@ -7,13 +7,13 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 
 export const metadata: Metadata = {
   title:
-    "medicare supplement plan g cost for 68 year old | Free Rate Comparison | MedicareYourself",
+    "Medicare Supplement Plan G Cost for a 68-Year-Old | Free Rate Comparison | MedicareYourself",
   description:
     "Medicare Supplement Plan G cost for a 68-year-old varies by carrier, state, and pricing method. Compare real rates with Anthony Orner — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-supplement-plan-g-cost-for-68-year-old" },
   openGraph: {
     title:
-      "medicare supplement plan g cost for 68 year old | Free Rate Comparison | MedicareYourself",
+      "Medicare Supplement Plan G Cost for a 68-Year-Old | Free Rate Comparison | MedicareYourself",
     description:
       "Medicare Supplement Plan G cost for a 68-year-old varies by carrier and state. See real premium examples and compare rates. Free quote from Anthony Orner.",
   },

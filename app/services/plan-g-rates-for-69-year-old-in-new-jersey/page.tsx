@@ -7,13 +7,13 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 
 export const metadata: Metadata = {
   title:
-    "plan g rates for 69 year old in new jersey | Free Carrier Comparison | MedicareYourself",
+    "Plan G Rates for a 69-Year-Old in New Jersey | Free Carrier Comparison | MedicareYourself",
   description:
     "Compare Plan G rates for 69-year-olds in New Jersey by carrier. Free, no-pressure quotes from a licensed NJ broker. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/plan-g-rates-for-69-year-old-in-new-jersey" },
   openGraph: {
     title:
-      "plan g rates for 69 year old in new jersey | Free Carrier Comparison | MedicareYourself",
+      "Plan G Rates for a 69-Year-Old in New Jersey | Free Carrier Comparison | MedicareYourself",
     description:
       "Plan G rates for 69-year-olds in New Jersey vary by carrier and pricing method. See real quotes from top insurers. Free comparison from a licensed NJ broker.",
   },

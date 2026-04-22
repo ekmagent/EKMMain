@@ -7,13 +7,13 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 
 export const metadata: Metadata = {
   title:
-    "medicare supplement plan g cost for 70 year old | Free Rate Lookup | MedicareYourself",
+    "Medicare Supplement Plan G Cost for a 70-Year-Old | Free Rate Lookup | MedicareYourself",
   description:
     "Medicare Supplement Plan G cost for 70-year-olds varies by carrier, state, and pricing model. Compare real premiums and get a free quote from Anthony Orner.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-supplement-plan-g-cost-for-70-year-old" },
   openGraph: {
     title:
-      "medicare supplement plan g cost for 70 year old | Free Rate Lookup | MedicareYourself",
+      "Medicare Supplement Plan G Cost for a 70-Year-Old | Free Rate Lookup | MedicareYourself",
     description:
       "Medicare Supplement Plan G cost for 70-year-olds varies by carrier, state, and pricing model. Compare real premiums and get a free quote from Anthony Orner.",
   },
