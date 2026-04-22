@@ -364,6 +364,7 @@ export default function TopMedicareAdvisorsPage() {
 </ul>
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/basics/get-started-with-medicare/get-more-coverage/find-out-about-your-options" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">Medicare.gov — Get Help with Your Medicare Choices</a> and <a href="https://www.medicare.gov/talk-to-someone" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">Medicare.gov — Talk to Someone</a> for free counseling options.</div>
             <div className="text-sm text-gray-600 mt-2">Prefer free state-based counseling? Find your local <a href="https://www.shiphelp.org/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">SHIP (State Health Insurance Assistance Program)</a> counselor for unbiased Medicare guidance at no cost.</div>
+            <div className="text-sm text-gray-600 mt-4">Free one-on-one counseling is also available through your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> or the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a>.</div>
       </section>
     </div>
   );

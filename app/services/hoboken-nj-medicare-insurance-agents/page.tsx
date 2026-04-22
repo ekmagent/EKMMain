@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "hoboken nj medicare insurance agents | Free Consultation | MedicareYourself",
   description:
-    "Hoboken NJ Medicare insurance agents — Anthony Orner compares Supplement and Advantage plans in Hudson County. Independent broker. Free consultation.",
+    "Hoboken NJ Medicare insurance agents — Anthony Orner compares Supplement and Advantage plans across carriers in Hudson County. Free consultation.",
   alternates: { canonical: "https://medicareyourself.com/services/hoboken-nj-medicare-insurance-agents" },
   openGraph: {
     title:

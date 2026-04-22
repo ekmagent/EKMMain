@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for glaucoma patients | Free Coverage Review | MedicareYourself",
   description:
-    "Medicare broker for glaucoma patients comparing plans covering eye drops, laser treatment, and surgery. Anthony Orner offers free reviews in NJ.",
+    "Compare Medicare plans covering glaucoma screenings, eye drops, SLT, and surgery. Free plan review with licensed broker Anthony Orner — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-glaucoma-patients" },
   openGraph: {
     title:
@@ -310,6 +310,7 @@ export default function MedicareBrokerForGlaucomaPatients() {
             </li>
 </ul>
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/coverage/glaucoma-screenings" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Medicare.gov — Glaucoma Screenings Coverage</a> and <a href="https://www.medicare.gov/coverage/eye-exams" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Medicare.gov — Eye Exams</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased help through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </div>
   );

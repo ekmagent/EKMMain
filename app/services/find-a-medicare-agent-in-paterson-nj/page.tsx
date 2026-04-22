@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "find a medicare agent in paterson nj | Free Guidance, No Fees | MedicareYourself",
   description:
-    "Find a medicare agent in Paterson NJ — Anthony Orner compares Medigap and Advantage plans across Passaic County carriers. Free, no-obligation consultation.",
+    "Find a Medicare agent in Paterson NJ — Anthony Orner compares Medigap, Advantage, and Part D plans across Passaic County carriers. Call for a free review.",
   alternates: { canonical: "https://medicareyourself.com/services/find-a-medicare-agent-in-paterson-nj" },
   openGraph: {
     title:
@@ -86,6 +86,17 @@ const faqs = [
     answer:
       "If you're turning 65, reach out at least 6 months before your Part B start date to lock in Medigap rates during your Open Enrollment Period. For Medicare Advantage or Part D changes, Annual Enrollment runs October 15 through December 7.",
   },
+,
+  {
+    question: "Does a Paterson Medicare agent work with all the major carriers in Passaic County?",
+    answer:
+      "An independent broker is appointed with multiple carriers that sell Medicare Advantage, Medigap, and Part D plans in Passaic County. That allows a side-by-side comparison based on your doctors, hospitals, and prescriptions rather than a single company's product lineup.",
+  },
+  {
+    question: "Can I switch Medicare plans if my Paterson doctor leaves the network?",
+    answer:
+      "If your provider drops out of a Medicare Advantage network mid-year, you may qualify for a Special Enrollment Period in some situations, but this is limited. More commonly, you'd review and change plans during the Annual Enrollment Period from October 15 through December 7.",
+  }
 ];
 
 export default function FindMedicareAgentPatersonNJ() {
@@ -332,7 +343,9 @@ export default function FindMedicareAgentPatersonNJ() {
               </Link>
             </li>
 </ul>
-        </section>
+              <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/plan-compare" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov Plan Finder</a> and <a href="https://www.medicare.gov/talk-to-someone" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Talk to Someone</a>.</div>
+            <div className="text-sm text-gray-600 mt-2">New Jersey beneficiaries can also get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+      </section>
       </article>
     </>
   );

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "find a medicare agent in plainfield nj | Free Broker Consultation | MedicareYourself",
   description:
-    "Find a Medicare agent in Plainfield, NJ who compares rates from top carriers at no cost. Anthony Orner offers free consultations for Union County residents.",
+    "Find a licensed Medicare agent in Plainfield, NJ for free plan comparisons across top carriers. Anthony Orner helps Union County residents enroll—call today.",
   alternates: { canonical: "https://medicareyourself.com/services/find-a-medicare-agent-in-plainfield-nj" },
   openGraph: {
     title:

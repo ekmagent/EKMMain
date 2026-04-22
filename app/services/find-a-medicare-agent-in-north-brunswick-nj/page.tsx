@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "find a medicare agent in north brunswick nj | Free Local Help | MedicareYourself",
   description:
-    "Find a Medicare agent in North Brunswick NJ who compares every major carrier. Anthony Orner offers free, local guidance for Middlesex County residents. Call today.",
+    "Find a Medicare agent in North Brunswick NJ who compares every major carrier. Anthony Orner offers free local guidance for Middlesex County. Call today.",
   alternates: { canonical: "https://medicareyourself.com/services/find-a-medicare-agent-in-north-brunswick-nj" },
   openGraph: {
     title:
@@ -312,7 +312,9 @@ export default function FindMedicareAgentNorthBrunswickNJ() {
               </Link>
             </li>
 </ul>
-        </section>
+              <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/plan-compare" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov Plan Finder</a> and <a href="https://www.medicare.gov/talk-to-someone" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov Talk to Someone</a>.</div>
+            <div className="text-sm text-gray-600 mt-2">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
+      </section>
       </article>
     </>
   );

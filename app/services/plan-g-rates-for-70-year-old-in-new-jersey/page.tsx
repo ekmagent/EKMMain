@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "plan g rates for 70 year old in new jersey | Free Quote in Minutes | MedicareYourself",
   description:
-    "Plan G rates for 70-year-olds in New Jersey vary widely by carrier. Compare real NJ premiums side by side. Get a free quote from a licensed local broker.",
+    "Compare Plan G rates for 70-year-olds in New Jersey across top carriers. See how community rating works in NJ and get a free quote — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/plan-g-rates-for-70-year-old-in-new-jersey" },
   openGraph: {
     title:
@@ -84,6 +84,22 @@ const faqs = [
     answer:
       "Yes. New Jersey has a yearly 30-day open enrollment window around your Medigap policy anniversary. You can also switch anytime if you pass medical underwriting. A licensed broker can help you find the right timing and carrier.",
   },
+,
+  {
+    question: "Does New Jersey use community rating for Medigap Plan G?",
+    answer:
+      "New Jersey uses community-rated pricing for Medigap, meaning carriers generally charge the same premium regardless of age within a given plan and area. That said, premiums still vary significantly between carriers, so shopping multiple companies is essential. Call 855-559-1700 and we'll pull live NJ rates for you.",
+  },
+  {
+    question: "When can a 70-year-old in New Jersey enroll in Plan G?",
+    answer:
+      "The federal 6-month Medigap Open Enrollment Period starts when you are 65 or older and enrolled in Part B, giving you guaranteed issue rights during that window. Outside of that window or a qualifying guaranteed-issue situation, carriers in NJ may use medical underwriting. A licensed broker can review your options and timing.",
+  },
+  {
+    question: "Is Plan G worth it at age 70 in New Jersey?",
+    answer:
+      "Plan G covers nearly all Medicare-approved out-of-pocket costs except the annual Part B deductible, which makes budgeting predictable at age 70. Whether it is the best value depends on your health, the carrier's rate stability, and how it compares to Plan N or high-deductible Plan G. We'll walk through the tradeoffs with you on a quick call.",
+  }
 ];
 
 export default function PlanGRates70NJ() {
@@ -324,7 +340,8 @@ export default function PlanGRates70NJ() {
               </Link>
             </li>
 </ul>
-        </section>
+              <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/health-drug-plans/medigap" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Compare Medigap policies</a> and the <a href="https://www.nj.gov/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey SHIP (State Health Insurance Assistance Program)</a> for free unbiased counseling.</div>
+      </section>
       </article>
     </>
   );

@@ -7,7 +7,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Medicare Education Guides | MedicareYourself",
   description:
-    "Free Medicare education guides: learn about Medigap, Medicare Parts A-D, enrollment steps, IRMAA surcharges, and low-income assistance. Call 855-559-1700.",
+    "Free Medicare education guides written by a licensed broker: Parts A-D, Medigap, enrollment, IRMAA, and low-income help. Call 855-559-1700 for answers.",
   alternates: { canonical: `${SITE_URL}/learn` },
   openGraph: {
     title: "Medicare Education Guides | MedicareYourself",
@@ -58,6 +58,22 @@ const GUIDES = [
       { href: "/learn/medicare-help-low-income", label: "Medicare Help for People on a Fixed Income" },
     ],
   },
+,
+  {
+    question: "Where should I start if I'm new to Medicare?",
+    answer:
+      "Begin by learning the four parts of Medicare: Part A (hospital), Part B (medical), Part C (Medicare Advantage), and Part D (prescription drugs). Once you understand what each part covers, you can decide between Original Medicare with a Medigap plan or a Medicare Advantage plan. Our guides walk through each step in plain language.",
+  },
+  {
+    question: "Is Medicare the same as Medicaid?",
+    answer:
+      "No. Medicare is a federal health insurance program primarily for people age 65 and older or with certain disabilities, regardless of income. Medicaid is a joint federal and state program that helps people with limited income and resources. Some people qualify for both, which is called being 'dual-eligible.'",
+  },
+  {
+    question: "Do I have to pay for help from a licensed Medicare broker?",
+    answer:
+      "No. Licensed brokers like Anthony Orner are paid by the insurance carriers when a client enrolls, so there is no separate fee to you. Your plan premium is the same whether you enroll through a broker or directly with the carrier. Call 855-559-1700 for no-cost guidance.",
+  }
 ];
 
 export default function LearnHubPage() {
@@ -77,6 +93,7 @@ export default function LearnHubPage() {
         <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
           Medicare Education Guides
         </h1>
+        <p className="text-sm text-gray-500 mt-2">By <strong>Anthony Orner</strong>, Licensed Medicare Insurance Broker — NJ &amp; 34 states</p>
         <p className="text-lg text-gray-600 leading-relaxed">
           Straightforward explanations of how Medicare works, written by a
           licensed broker. Start here before choosing a plan:
@@ -145,6 +162,7 @@ export default function LearnHubPage() {
             Free &middot; Independent &middot; Licensed in NJ and 34 states
           </p>
         </div>
+            <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/basics/get-started-with-medicare/medicare-basics" rel="noopener noreferrer" target="_blank" className="text-blue-700 hover:underline">Medicare Basics (Medicare.gov)</a> &middot; <a href="https://www.cms.gov/medicare" rel="noopener noreferrer" target="_blank" className="text-blue-700 hover:underline">CMS Medicare Program</a></div>
       </section>
     </>
   );

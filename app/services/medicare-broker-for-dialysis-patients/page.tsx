@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for dialysis patients | Free ESRD Plan Review | MedicareYourself",
   description:
-    "Medicare broker for dialysis patients explaining ESRD eligibility, plan coordination, and cost control. Anthony Orner provides free plan reviews.",
+    "Medicare broker for dialysis patients: ESRD eligibility, plan coordination, and cost control. Free plan review with Anthony Orner. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-dialysis-patients" },
   openGraph: {
     title:

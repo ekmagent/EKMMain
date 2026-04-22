@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare supplement open enrollment online | Apply From Home, No Exam | MedicareYourself",
   description:
-    "Medicare supplement open enrollment online lets you lock in guaranteed-issue rates from home. See the step-by-step process and avoid costly timing mistakes.",
+    "Enroll in a Medicare Supplement plan online during your 6-month guaranteed-issue window — no medical exam, no health questions. Call 855-559-1700 for help.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-supplement-open-enrollment-online" },
   openGraph: {
     title:
@@ -85,6 +85,22 @@ const faqs = [
     answer:
       "During guaranteed-issue enrollment, most online applications are approved within a few business days. Some carriers issue approval same-day. Your coverage effective date depends on when you apply relative to your Part B start date.",
   },
+,
+  {
+    question: "What documents do I need to apply for Medigap online?",
+    answer:
+      "You'll need your red, white, and blue Medicare card showing your Medicare number and your Part A and Part B effective dates. You'll also provide basic identifying information and banking details if you choose automatic premium payments. Having your Part B start date handy is important because it determines when your Medigap Open Enrollment Period begins.",
+  },
+  {
+    question: "Can I switch Medigap plans after my open enrollment window closes?",
+    answer:
+      "You can apply to switch at any time, but outside your 6-month Medigap Open Enrollment Period most states allow carriers to use medical underwriting. That means they can review your health history and either decline coverage or charge a higher rate. A few states offer ongoing or annual guaranteed-issue rights, so the rules depend on where you live.",
+  },
+  {
+    question: "Does applying online cost more than using a local agent?",
+    answer:
+      "No. Medigap premiums are filed with each state's department of insurance, so identical plans from the same carrier cost the same whether you apply online, by phone, or in person. Working with a licensed broker does not add any fee to your premium.",
+  }
 ];
 
 export default function MedicareSupplementOpenEnrollmentOnline() {
@@ -309,6 +325,7 @@ export default function MedicareSupplementOpenEnrollmentOnline() {
 </ul>
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/health-drug-plans/open-enrollment" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov Open Enrollment</a> and <a href="https://www.cms.gov/priorities/key-initiatives/medicare-open-enrollment-partner-resources" rel="noopener noreferrer" target="_blank" className="underline">CMS Medicare Open Enrollment Partner Resources</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">Need local help? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> or the <a href="https://www.nj.gov/dobi/division_insurance/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> for free, unbiased guidance.</div>
       </section>
     </main>
   );

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "help with your medicare decision | Free, No-Pressure Guidance | MedicareYourself",
   description:
-    "Get help with your Medicare decision from a licensed independent broker. Anthony Orner explains every option without pressure. Schedule a free consultation.",
+    "Get free, no-pressure help with your Medicare decision from licensed broker Anthony Orner. Compare every option clearly — call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/help-with-your-medicare-decision" },
   openGraph: {
     title:
@@ -86,6 +86,17 @@ const faqs = [
     answer:
       "Not always. Many TV ads connect you to call centers that may only represent certain carriers. An independent broker works with multiple carriers and is not locked into selling one company's plans. Ask any agent whether they are independent or captive before taking advice.",
   },
+,
+  {
+    question: "Where can I get free, unbiased Medicare counseling besides a broker?",
+    answer:
+      "Every state has a State Health Insurance Assistance Program (SHIP) that offers free, one-on-one Medicare counseling. You can also call 1-800-MEDICARE (1-800-633-4227) 24 hours a day, 7 days a week to speak with a representative. TTY users can call 1-877-486-2048.",
+  },
+  {
+    question: "How does an independent broker decide which Medicare plan to recommend?",
+    answer:
+      "An independent broker reviews your doctors, prescriptions, budget, and travel needs, then compares plans across multiple carriers to find options that fit. The goal is to match you with a plan that covers your providers and medications at the lowest total cost. You make the final decision — the broker's job is to explain trade-offs clearly.",
+  }
 ];
 
 export default function HelpWithYourMedicareDecision() {
@@ -336,7 +347,8 @@ export default function HelpWithYourMedicareDecision() {
               </Link>
             </li>
 </ul>
-        </section>
+              <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/talk-to-someone" rel="noopener noreferrer" target="_blank" className="underline">Talk to someone at Medicare.gov</a> (1-800-MEDICARE, available 24/7) or visit <a href="https://www.medicare.gov/" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov</a> for plan comparisons and enrollment details.</div>
+      </section>
       </article>
     </>
   );

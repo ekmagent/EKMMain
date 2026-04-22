@@ -9,7 +9,7 @@ import { MF } from "@/lib/medicare-figures";
 export const metadata: Metadata = {
   title: "How to Enroll in a Medicare Supplement Plan (2026): The 5-Step Guide",
   description:
-    "Enroll in a Medicare Supplement plan in 5 steps: confirm Parts A and B, compare every carrier in your state, choose Plan G or N, apply during your 6-month Open Enrollment Period. See the step most applicants skip. Free help: 855-559-1700.",
+    "Enroll in a Medicare Supplement plan in 5 steps: confirm Parts A & B, compare every carrier, pick Plan G or N, apply during your 6-month window. Call 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/how-to-enroll-in-a-medicare-supplement-plan` },
   openGraph: {
     title: "How to Enroll in a Medicare Supplement Plan (2026): The 5-Step Guide",
@@ -152,6 +152,22 @@ const faqs = [
     answer:
       "Ideally 3–6 months before your Part B effective date. Many carriers will accept an application up to 6 months in advance of coverage starting, which lets you lock in your current-age rate and avoid a last-minute scramble. Waiting until the last month of your OEP is the most common mistake — it works, but it removes your ability to compare quotes at a calm pace.",
   },
+,
+  {
+    question: "Do I need both Medicare Part A and Part B to enroll in a Medicare Supplement plan?",
+    answer:
+      "Yes. You must be enrolled in both Part A and Part B before you can buy a Medicare Supplement (Medigap) policy. If you don't yet have both parts, you'll need to sign up through the Social Security Administration first at ssa.gov/medicare.",
+  },
+  {
+    question: "Can I switch Medicare Supplement plans after my Open Enrollment Period ends?",
+    answer:
+      "You can apply to switch plans at any time, but outside your 6-month Medigap Open Enrollment Period carriers in most states can use medical underwriting. That means they can deny your application or charge more based on your health history. A few states have additional guaranteed-issue rights — we can tell you what applies where you live.",
+  },
+  {
+    question: "Does the Medicare Supplement enrollment process vary by state?",
+    answer:
+      "The federal Medigap standardization rules apply nationwide, but Massachusetts, Minnesota, and Wisconsin have their own standardized plan designs. Some states also offer additional protections like annual guaranteed-issue windows or birthday rules. Carrier availability and pricing always vary by state and ZIP code.",
+  }
 ];
 
 export default function HowToEnrollMedigapPage() {

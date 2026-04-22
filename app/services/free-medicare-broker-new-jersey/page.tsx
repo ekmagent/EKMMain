@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "free medicare broker new jersey | No Fees, No Obligation | MedicareYourself",
   description:
-    "Free Medicare broker in New Jersey — Anthony Orner is licensed, independent, and paid by carriers so you pay nothing. Compare plans with zero obligation.",
+    "Work with a free, licensed Medicare broker in New Jersey. Compare Medigap, Advantage & Part D plans at no cost. Call 855-559-1700 for a no-obligation review.",
   alternates: { canonical: "https://medicareyourself.com/services/free-medicare-broker-new-jersey" },
   openGraph: {
     title:
@@ -85,6 +85,17 @@ const faqs = [
     answer:
       "Yes. An independent broker licensed in New Jersey can quote both Medigap (Medicare Supplement) and Medicare Advantage plans, plus standalone Part D prescription drug plans. You get a side-by-side view of all your options in one call.",
   },
+,
+  {
+    question: "Is Anthony Orner licensed to help with Medicare in New Jersey?",
+    answer:
+      "Yes. Anthony Orner (NPI 1902584006) is a licensed Medicare insurance broker in New Jersey and 34 additional states. He works as an independent broker, which means he can compare plans across multiple carriers rather than representing just one company.",
+  },
+  {
+    question: "How does a New Jersey broker help with Medigap enrollment?",
+    answer:
+      "New Jersey uses community rating for Medigap, meaning premiums are set the same regardless of your age. A broker can explain your 6-month Medigap Open Enrollment Period, which begins when you're 65 or older and enrolled in Part B, and help you compare letter plans like Plan G and Plan N across carriers.",
+  }
 ];
 
 export default function FreeMedicareBrokerNewJersey() {
@@ -300,7 +311,9 @@ export default function FreeMedicareBrokerNewJersey() {
               </Link>
             </li>
 </ul>
-        </section>
+              <div className="text-sm text-gray-600 mt-4"><p>Official Medicare resources: <a href="https://www.medicare.gov/basics/get-started-with-medicare" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">Get Started with Medicare (medicare.gov)</a> and <a href="https://www.medicare.gov/plan-compare/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">Compare Plans on Medicare.gov</a>.</p></div>
+            <div className="text-sm text-gray-600 mt-4"><p>New Jersey residents can also get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a> through the NJ Department of Human Services.</p></div>
+      </section>
       </article>
     </>
   );

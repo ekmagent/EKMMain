@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "How to Sign Up for Medicare (2026 Guide)",
   description:
-    "Learn Medicare enrollment windows, how to avoid late penalties, and what happens if you miss your deadline. Free help: 855-559-1700.",
+    "Step-by-step 2026 guide to signing up for Medicare Parts A & B, avoiding late penalties, and choosing coverage. Free broker help at 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/how-to-sign-up-for-medicare` },
   openGraph: {
     title: "How to Sign Up for Medicare (2026 Guide)",
@@ -109,6 +109,22 @@ const faqs = [
     answer:
       "Call a broker during the same window you enroll in Medicare — ideally 2–3 months before you turn 65. Your 6-month Medigap Open Enrollment Period starts the month you are both 65 and enrolled in Part B. Enrolling in a supplement during this window means no carrier can deny you or charge extra based on health. After this window, your options may be more limited.",
   },
+,
+  {
+    question: "What happens if I miss my Initial Enrollment Period?",
+    answer:
+      "If you miss your 7-month Initial Enrollment Period and do not qualify for a Special Enrollment Period, you will need to sign up during the General Enrollment Period, which runs January 1 through March 31 each year. Coverage begins the month after you enroll. You may also owe a permanent Part B late enrollment penalty for each 12-month period you could have had Part B but didn't.",
+  },
+  {
+    question: "Can I sign up for Medicare if I'm still working?",
+    answer:
+      "Yes. You can enroll in premium-free Part A at 65 even if you're still working, and it generally won't affect your employer coverage. Whether to enroll in Part B depends on whether your employer plan counts as creditable coverage. If your employer has fewer than 20 employees, Medicare usually becomes primary and you should enroll in Part B on time.",
+  },
+  {
+    question: "How long does it take for Medicare coverage to start after I apply?",
+    answer:
+      "If you sign up during the 3 months before your 65th birthday, coverage starts the first day of your birthday month. If you sign up during your birthday month or the 3 months after, coverage begins the month after you enroll. For help choosing the right start date, call 855-559-1700.",
+  }
 ];
 
 export default function HowToSignUpPage() {

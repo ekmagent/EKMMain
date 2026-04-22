@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare enrollment help for people with lupus california | Free Guidance | MedicareYourself",
   description:
-    "Medicare enrollment help for people with lupus in California. Learn your rights, compare plans covering rheumatologists and biologics. Free broker guidance.",
+    "Medicare enrollment help for Californians with lupus. Compare plans covering rheumatologists, biologics & infusions. Free broker guidance — call today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-enrollment-help-for-people-with-lupus-california" },
   openGraph: {
     title:

@@ -149,6 +149,17 @@ const faqs = [
     answer:
       "IRMAA only applies to Part B and Part D premiums. It does not increase your Medicare Advantage plan premium or your Medigap (Medicare Supplement) premium directly. However, if you have a Medicare Advantage plan that includes drug coverage, the Part D portion of IRMAA is still paid separately to Medicare.",
   }
+,
+  {
+    question: "How do I appeal an IRMAA determination if my income has dropped?",
+    answer:
+      "If you've had a life-changing event that reduced your income — such as retirement, divorce, or the death of a spouse — you can request a reduction by filing Form SSA-44 with the Social Security Administration. You'll need to provide documentation of the event and evidence of your more recent or expected income. If you'd like help understanding the process, call 855-559-1700.",
+  },
+  {
+    question: "Will IRMAA automatically go away if my income decreases?",
+    answer:
+      "Yes, but not immediately. Because Social Security uses tax returns from two years prior, a drop in income today won't affect your IRMAA until that lower income appears on a processed tax return. If the income change is due to a qualifying life-changing event, you can file SSA-44 to have it adjusted sooner rather than waiting.",
+  }
 ];
 
 export default function IrmaaPage() {

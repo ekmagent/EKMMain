@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for Parkinson's patients | Free Plan Review | MedicareYourself",
   description:
-    "Medicare broker for Parkinson's patients needing specialist access, therapy coverage, and the right drug plan. Anthony Orner reviews your options free.",
+    "Medicare broker for Parkinson's patients — compare Part D drug plans, specialist networks, and DBS coverage. Free plan review with Anthony Orner. Call today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-parkinsons-patients" },
   openGraph: {
     title:
@@ -336,6 +336,7 @@ export default function MedicareBrokerForParkinsonsPatients() {
             </li>
 </ul>
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/coverage/deep-brain-stimulation-for-essential-tremor-parkinsons-disease" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Deep Brain Stimulation coverage</a> and <a href="https://www.medicare.gov/drug-coverage-part-d" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Part D prescription drug coverage</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">For free, unbiased counseling in New Jersey, contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

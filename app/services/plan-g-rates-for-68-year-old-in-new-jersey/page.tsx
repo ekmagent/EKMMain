@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "plan g rates for 68 year old in new jersey | Free Carrier Comparison | MedicareYourself",
   description:
-    "Plan G rates for a 68-year-old in New Jersey vary by $60+ across carriers. See real NJ premium examples and get a free comparison from Anthony Orner.",
+    "Compare Plan G rates for a 68-year-old in New Jersey across top carriers. Identical coverage, different prices — call 855-559-1700 for a free NJ quote.",
   alternates: { canonical: "https://medicareyourself.com/services/plan-g-rates-for-68-year-old-in-new-jersey" },
   openGraph: {
     title:
@@ -85,6 +85,17 @@ const faqs = [
     answer:
       "Every Plan G in New Jersey covers the exact same benefits. The difference is each carrier sets its own premium based on its claims experience, overhead, and pricing method. Some use attained-age rating (price rises with age), others use community rating. That's why comparing carriers matters more than comparing plan letters.",
   },
+,
+  {
+    question: "Does New Jersey use community rating for Medigap Plan G?",
+    answer:
+      "Yes. New Jersey generally requires community-rated pricing for Medigap, meaning premiums are not based on your individual age at the time of purchase. That said, rates still vary from one carrier to another based on each company's claims experience and overhead, which is why comparing carriers is important.",
+  },
+  {
+    question: "When is the best time for a 68-year-old in NJ to enroll in Plan G?",
+    answer:
+      "The strongest window is your 6-month Medigap Open Enrollment Period, which starts when you're 65 or older and enrolled in Part B. During that window, carriers cannot deny you coverage or charge more for health conditions. If you're 68 and outside that window, you may still qualify through a guaranteed issue situation or by passing medical underwriting.",
+  }
 ];
 
 export default function PlanGRates68NJ() {
@@ -345,7 +356,9 @@ export default function PlanGRates68NJ() {
               </Link>
             </li>
 </ul>
-        </section>
+              <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/health-drug-plans/medigap/basics/costs" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — How Medigap Costs Are Set</a> and the <a href="https://www.nj.gov/humanservices/doas/documents/Copy%20of%2012%2024%202024%20Male%20at%20Age%2065%20Chart.pdf" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Human Services Medigap Rate Chart</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free one-on-one counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+      </section>
       </article>
     </>
   );

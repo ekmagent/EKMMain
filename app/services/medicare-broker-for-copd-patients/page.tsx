@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for COPD patients | Free Plan Review | MedicareYourself",
   description:
-    "Medicare broker for COPD patients needing real coverage for inhalers, oxygen, pulmonary rehab. Anthony Orner finds plans that fit. Free review.",
+    "Medicare broker for COPD patients — get coverage that fits inhalers, oxygen, and pulmonary rehab. Free plan review with Anthony Orner. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-copd-patients" },
   openGraph: {
     title:
@@ -87,6 +87,12 @@ const faqs = [
     answer:
       "Medigap (Supplement) plans let you see any provider that accepts Medicare with no referrals or network restrictions. Medicare Advantage plans may offer added benefits like transportation to appointments but require you to use network providers and may need prior authorizations for treatments. For COPD patients who see multiple specialists or need frequent care, the right choice depends on your specific treatment plan.",
   },
+,
+  {
+    question: "Does Medicare cover oxygen equipment for COPD at home?",
+    answer:
+      "Yes. Medicare Part B covers home oxygen equipment rental and related supplies when your doctor certifies it is medically necessary to treat a lung condition like COPD. You typically pay the Part B coinsurance after meeting the Part B deductible, and the supplier must be Medicare-approved.",
+  }
 ];
 
 export default function MedicareBrokerForCOPDPatients() {
@@ -343,6 +349,7 @@ export default function MedicareBrokerForCOPDPatients() {
 </ul>
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/coverage/pulmonary-rehabilitation-programs" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Pulmonary Rehabilitation Coverage</a> &middot; <a href="https://www.medicare.gov/coverage/oxygen-equipment-accessories" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Oxygen Equipment & Accessories</a></div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

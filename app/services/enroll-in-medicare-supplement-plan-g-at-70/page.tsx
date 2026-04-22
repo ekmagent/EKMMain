@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "enroll in medicare supplement plan g at 70 | Free Broker Help | MedicareYourself",
   description:
-    "Enroll in Medicare Supplement Plan G at 70 — even outside open enrollment. Learn about underwriting, top carriers, and guaranteed issue. Free broker help.",
+    "Enroll in Medicare Supplement Plan G at 70 with broker guidance on underwriting, carrier choice, and Guaranteed Issue rights. Call 855-559-1700 for free help.",
   alternates: { canonical: "https://medicareyourself.com/services/enroll-in-medicare-supplement-plan-g-at-70" },
   openGraph: {
     title:
@@ -306,6 +306,7 @@ export default function EnrollInMedicareSupplementPlanGAt70() {
 </ul>
               <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/health-drug-plans/medigap/ready-to-buy/when" rel="noopener noreferrer" target="_blank" className="underline">When can I buy a Medigap policy? (Medicare.gov)</a> &middot; <a href="https://www.medicare.gov/medigap-supplemental-insurance-plans/" rel="noopener noreferrer" target="_blank" className="underline">Find a Medigap plan (Medicare.gov)</a></div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents: free counseling is available through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">Need state-level help? Contact your <a href="https://www.shiphelp.org/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
       </section>
       </article>
     </>

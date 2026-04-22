@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "average cost of supplemental health insurance for seniors with medicare | Free Broker Comparison | MedicareYourself",
   description:
-    "Average cost of supplemental health insurance for seniors with Medicare runs $90–$300+/month. See 2025–2026 rates by plan, age, and state. Free comparison.",
+    "Compare average supplemental health insurance costs for seniors on Medicare. See how Medigap pricing works and get a free broker comparison — call today.",
   alternates: { canonical: "https://medicareyourself.com/services/average-cost-of-supplemental-health-insurance-for-seniors-with-medicare" },
   openGraph: {
     title:
@@ -88,6 +88,22 @@ const faqs = [
     answer:
       "Your 6-month Medigap Open Enrollment Period, which starts the month you turn 65 and are enrolled in Part B, gives you guaranteed acceptance at the lowest available rate. Apply during this window and carriers can't charge more for pre-existing conditions or deny you coverage.",
   },
+,
+  {
+    question: "Do Medigap premiums increase as I get older?",
+    answer:
+      "It depends on how the carrier prices the policy. Attained-age-rated plans increase as you age, issue-age-rated plans are based on your age at purchase, and community-rated plans charge everyone in an area the same regardless of age. All three pricing methods can also see increases over time due to inflation and claims costs.",
+  },
+  {
+    question: "Does where I live affect what I pay for supplemental insurance?",
+    answer:
+      "Yes. Medigap premiums vary significantly by state and even by zip code within a state because carriers price based on local healthcare costs and claims experience. The same lettered plan from the same company can cost very different amounts in different regions.",
+  },
+  {
+    question: "Can a broker help me find the lowest-cost supplemental plan?",
+    answer:
+      "Yes. A licensed independent broker can compare identical lettered plans across multiple carriers in your zip code, since benefits are standardized and price is the main difference. Call 855-559-1700 to compare rates at no cost to you.",
+  }
 ];
 
 export default function AverageCostSupplementalInsurancePage() {
@@ -279,6 +295,8 @@ export default function AverageCostSupplementalInsurancePage() {
             </Link>
           </li>
         </ul>
+            <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/health-drug-plans/medigap/basics/costs" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Medicare.gov — Get Medigap Costs</a> and <a href="https://www.medicare.gov/health-drug-plans/medigap/basics/compare-plan-benefits" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Compare Medigap Plan Benefits</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/index.shtml" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a> or the free <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">SHIP counseling program</a> for unbiased Medicare guidance.</div>
       </section>
     </main>
   );

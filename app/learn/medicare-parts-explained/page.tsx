@@ -108,6 +108,7 @@ export default function MedicarePartsPage() {
         <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">
           Medicare Parts A, B, C, and D Explained Simply (2026)
         </h1>
+        <p className="text-sm text-gray-500 mt-2">By <strong>Anthony Orner</strong>, Licensed Medicare Insurance Broker — NJ &amp; 34 states</p>
         <p className="text-xs text-gray-400 mb-8">Last reviewed: March 2026 · Source: <a href="https://www.medicare.gov/basics/get-started-with-medicare" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Medicare.gov</a> Medicare &amp; You 2026</p>
 
         <div className="space-y-6 mb-10">

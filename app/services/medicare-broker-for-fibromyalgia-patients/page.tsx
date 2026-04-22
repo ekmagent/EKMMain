@@ -87,6 +87,12 @@ const faqs = [
     answer:
       "Call Anthony Orner at 855-559-1700 for a free plan comparison. He'll check your specific medications against Part D formularies so you know your costs before you enroll.",
   },
+,
+  {
+    question: "Does Medicare Advantage cover physical therapy for fibromyalgia?",
+    answer:
+      "Yes. Medicare Advantage plans must cover everything Original Medicare covers, including medically necessary physical therapy for fibromyalgia. Many plans also include extra benefits like chiropractic visits, acupuncture for chronic pain, or fitness programs. Coverage rules, prior authorization requirements, and network restrictions vary by plan.",
+  }
 ];
 
 export default function MedicareBrokerForFibromyalgiaPatients() {

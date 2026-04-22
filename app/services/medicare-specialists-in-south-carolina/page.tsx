@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare specialists in south carolina | Free Multi-Carrier Quotes | MedicareYourself",
   description:
-    "Medicare specialists in South Carolina — compare Supplement & Advantage plans from top SC carriers with licensed broker Anthony Orner. Free quotes today.",
+    "Compare Medicare Supplement & Advantage plans in South Carolina with licensed broker Anthony Orner. Free multi-carrier quotes — call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-specialists-in-south-carolina" },
   openGraph: {
     title:
@@ -90,6 +90,22 @@ const faqs = [
     answer:
       "Nothing. Independent Medicare brokers like Anthony Orner are paid by insurance carriers, not by you. The plan premiums are the same whether you enroll directly or through a broker. You get expert guidance at zero additional cost.",
   },
+,
+  {
+    question: "Does South Carolina offer SHIP counseling for Medicare questions?",
+    answer:
+      "Yes. South Carolina's State Health Insurance Assistance Program (SHIP) is called GetCareSC (formerly known as the Insurance Counseling Assistance and Referrals for Elders program). It provides free, unbiased Medicare counseling to SC beneficiaries and their families. SHIP counselors do not sell insurance — they offer educational guidance.",
+  },
+  {
+    question: "Which Medicare Advantage and Supplement carriers are available in South Carolina?",
+    answer:
+      "South Carolina residents typically have access to plans from major national carriers such as BlueCross BlueShield of South Carolina, Aetna, Humana, UnitedHealthcare, Cigna, and Mutual of Omaha, among others. Availability varies by county and ZIP code. An independent broker can compare options across multiple carriers in your specific area at no cost.",
+  },
+  {
+    question: "Can I switch Medicare plans each year in South Carolina?",
+    answer:
+      "Yes. During the Annual Enrollment Period (October 15 to December 7), SC residents can join, switch, or drop a Medicare Advantage or Part D plan for coverage starting January 1. There's also a Medicare Advantage Open Enrollment Period from January 1 to March 31 for those already in an Advantage plan. Medigap changes outside your initial window may require medical underwriting in South Carolina.",
+  }
 ];
 
 export default function MedicareSpecialistsSouthCarolina() {
@@ -276,6 +292,7 @@ export default function MedicareSpecialistsSouthCarolina() {
         </ul>
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/plan-compare" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Medicare.gov Plan Compare</a> · <a href="https://www.cms.gov/medicare" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">CMS Medicare Overview</a></div>
             <div className="text-sm text-gray-600 mt-4">South Carolina residents can also get free counseling through <a href="https://aging.sc.gov/programs-initiatives/gethelp/insurance-counseling-assistance-and-referrals-medicare" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">SC SHIP (Insurance Counseling Assistance and Referrals for Medicare)</a> through the SC Department on Aging.</div>
+            <div className="text-sm text-gray-600 mt-4">South Carolina resource: <a href="https://doi.sc.gov/" rel="noopener noreferrer" target="_blank" className="underline">South Carolina Department of Insurance</a> — verify agent licenses and file complaints.</div>
       </section>
     </main>
   );

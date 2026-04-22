@@ -313,6 +313,8 @@ export default function MedicareInMonmouthCountyNewJersey() {
             </Link>
           </li>
         </ul>
+            <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/plan-compare" rel="noopener noreferrer" target="_blank" className="underline">Compare Medicare plans on Medicare.gov</a> and review <a href="https://www.medicare.gov/basics/get-started-with-medicare/sign-up/when-does-medicare-coverage-start" rel="noopener noreferrer" target="_blank" className="underline">when your Medicare coverage starts</a>.</div>
+            <div className="text-sm text-gray-600 mt-2">Monmouth County residents can also access free SHIP counseling through <a href="https://www.fcsmonmouth.org/_home/services/medicare-counseling/" rel="noopener noreferrer" target="_blank" className="underline">Family and Children's Service SHIP</a> or find other <a href="https://www.nj.gov/humanservices/doas/assistance/medicare/offices.shtml" rel="noopener noreferrer" target="_blank" className="underline">New Jersey SHIP local offices</a>.</div>
       </section>
     </main>
   );

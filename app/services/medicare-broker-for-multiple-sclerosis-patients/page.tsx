@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for multiple sclerosis patients | Free Plan Comparison | MedicareYourself",
   description:
-    "Medicare broker for multiple sclerosis patients in NJ. Anthony Orner navigates underwriting and finds plans covering infusions and MRIs. Free consultation.",
+    "Medicare broker for MS patients in NJ. Anthony Orner helps you find plans that cover infusions, MRIs & specialists. Call 855-559-1700 for a free review.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-multiple-sclerosis-patients" },
   openGraph: {
     title:
@@ -88,6 +88,22 @@ const faqs = [
     answer:
       "It depends on your treatment plan. Medicare Advantage may offer lower premiums but can require prior authorizations for MRIs and specialty drugs. Medigap paired with Original Medicare gives you more freedom to see any provider who accepts Medicare, with no referrals or network restrictions. For people on high-cost infusion therapies, the out-of-pocket structure of each option can mean thousands of dollars in difference.",
   },
+,
+  {
+    question: "Will Medicare cover the MRIs I need to monitor my MS?",
+    answer:
+      "Yes. Medicare Part B covers medically necessary diagnostic MRIs when ordered by a doctor who accepts Medicare. With Original Medicare you'll owe the Part B deductible and coinsurance unless a Medigap plan fills that gap. Medicare Advantage plans also cover MRIs but often require prior authorization and use of in-network imaging centers.",
+  },
+  {
+    question: "What should MS patients look for when comparing Part D drug plans?",
+    answer:
+      "Check each plan's formulary to confirm your specific disease-modifying therapy is covered and note its tier, since specialty tier drugs carry higher cost-sharing. Review prior authorization and step therapy rules, which are common for MS medications. A broker can run your exact drug list through multiple plans to find the lowest total annual cost.",
+  },
+  {
+    question: "Can I keep my neurologist if I switch Medicare plans?",
+    answer:
+      "With Original Medicare plus Medigap, you can see any neurologist nationwide who accepts Medicare — no networks or referrals. With Medicare Advantage, you're generally limited to the plan's network, so confirm your MS specialist is in-network before enrolling. This matters because many communities have a shortage of neurologists trained in MS care.",
+  }
 ];
 
 export default function MedicareBrokerForMSPatients() {
@@ -302,7 +318,8 @@ export default function MedicareBrokerForMSPatients() {
               </Link>
             </li>
 </ul>
-        </section>
+              <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/basics/get-started-with-medicare" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Get Started with Medicare</a> and <a href="https://www.medicare.gov/health-drug-plans/health-plans/your-coverage-options" rel="noopener noreferrer" target="_blank" className="underline">Your Medicare Coverage Options</a>.</div>
+      </section>
       </article>
     </>
   );

@@ -93,6 +93,17 @@ const faqs = [
     answer:
       "In most states, yes — outside of your 6-month Medigap Open Enrollment Period or a Guaranteed Issue situation, carriers can use medical underwriting and deny coverage based on health. Some states (like New York and Connecticut) have year-round guaranteed issue rules, and others have birthday or anniversary rules that allow switching without underwriting. Check with your state insurance department or ask a licensed broker to confirm what applies in your state.",
   },
+,
+  {
+    question: "Will I have to answer health questions when switching Medigap carriers?",
+    answer:
+      "In most states, yes — if you apply outside your 6-month Medigap Open Enrollment Period or a Guaranteed Issue situation, the new carrier can use medical underwriting. That means they can ask health questions and decline your application based on your answers. Some states (like New York and Connecticut) have year-round guaranteed issue rules, and a few others have limited 'birthday rule' or anniversary windows. A licensed broker can tell you which rules apply in your state before you apply.",
+  },
+  {
+    question: "Should I cancel my old Medigap policy before the new one is approved?",
+    answer:
+      "No. Always wait until your new Medicare Supplement policy is approved and has an active start date before cancelling the old one. This prevents any gap in coverage if the new carrier declines your application due to underwriting. Once the new plan is in force, contact your old carrier in writing to cancel and request a refund of any unused premium.",
+  }
 ];
 
 export default function SwitchCarriersPage() {
