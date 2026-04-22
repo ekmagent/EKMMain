@@ -85,7 +85,6 @@ const faqs = [
     answer:
       "Every Plan G in New Jersey covers the exact same benefits. The difference is each carrier sets its own premium based on its claims experience, overhead, and pricing method. Some use attained-age rating (price rises with age), others use community rating. That's why comparing carriers matters more than comparing plan letters.",
   },
-,
   {
     question: "Does New Jersey use community rating for Medigap Plan G?",
     answer:

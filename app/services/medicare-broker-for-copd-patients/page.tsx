@@ -87,7 +87,6 @@ const faqs = [
     answer:
       "Medigap (Supplement) plans let you see any provider that accepts Medicare with no referrals or network restrictions. Medicare Advantage plans may offer added benefits like transportation to appointments but require you to use network providers and may need prior authorizations for treatments. For COPD patients who see multiple specialists or need frequent care, the right choice depends on your specific treatment plan.",
   },
-,
   {
     question: "Does Medicare cover oxygen equipment for COPD at home?",
     answer:

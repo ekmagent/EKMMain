@@ -85,7 +85,6 @@ const faqs = [
     answer:
       "Yes. An independent broker licensed in New Jersey can quote both Medigap (Medicare Supplement) and Medicare Advantage plans, plus standalone Part D prescription drug plans. You get a side-by-side view of all your options in one call.",
   },
-,
   {
     question: "Is Anthony Orner licensed to help with Medicare in New Jersey?",
     answer:

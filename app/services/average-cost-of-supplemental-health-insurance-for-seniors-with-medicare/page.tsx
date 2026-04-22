@@ -88,7 +88,6 @@ const faqs = [
     answer:
       "Your 6-month Medigap Open Enrollment Period, which starts the month you turn 65 and are enrolled in Part B, gives you guaranteed acceptance at the lowest available rate. Apply during this window and carriers can't charge more for pre-existing conditions or deny you coverage.",
   },
-,
   {
     question: "Do Medigap premiums increase as I get older?",
     answer:

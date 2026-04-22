@@ -152,7 +152,6 @@ const faqs = [
     answer:
       "Ideally 3–6 months before your Part B effective date. Many carriers will accept an application up to 6 months in advance of coverage starting, which lets you lock in your current-age rate and avoid a last-minute scramble. Waiting until the last month of your OEP is the most common mistake — it works, but it removes your ability to compare quotes at a calm pace.",
   },
-,
   {
     question: "Do I need both Medicare Part A and Part B to enroll in a Medicare Supplement plan?",
     answer:

@@ -109,7 +109,6 @@ const faqs = [
     answer:
       "Call a broker during the same window you enroll in Medicare — ideally 2–3 months before you turn 65. Your 6-month Medigap Open Enrollment Period starts the month you are both 65 and enrolled in Part B. Enrolling in a supplement during this window means no carrier can deny you or charge extra based on health. After this window, your options may be more limited.",
   },
-,
   {
     question: "What happens if I miss my Initial Enrollment Period?",
     answer:

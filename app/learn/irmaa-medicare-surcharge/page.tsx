@@ -148,8 +148,7 @@ const faqs = [
     question: "Does IRMAA affect my Medicare Advantage or Medigap premium?",
     answer:
       "IRMAA only applies to Part B and Part D premiums. It does not increase your Medicare Advantage plan premium or your Medigap (Medicare Supplement) premium directly. However, if you have a Medicare Advantage plan that includes drug coverage, the Part D portion of IRMAA is still paid separately to Medicare.",
-  }
-,
+  },
   {
     question: "How do I appeal an IRMAA determination if my income has dropped?",
     answer:

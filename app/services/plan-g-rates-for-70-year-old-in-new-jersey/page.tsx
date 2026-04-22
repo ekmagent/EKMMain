@@ -84,7 +84,6 @@ const faqs = [
     answer:
       "Yes. New Jersey has a yearly 30-day open enrollment window around your Medigap policy anniversary. You can also switch anytime if you pass medical underwriting. A licensed broker can help you find the right timing and carrier.",
   },
-,
   {
     question: "Does New Jersey use community rating for Medigap Plan G?",
     answer:

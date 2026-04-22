@@ -87,7 +87,6 @@ const faqs = [
     answer:
       "Call Anthony Orner at 855-559-1700 for a free plan comparison. He'll check your specific medications against Part D formularies so you know your costs before you enroll.",
   },
-,
   {
     question: "Does Medicare Advantage cover physical therapy for fibromyalgia?",
     answer:

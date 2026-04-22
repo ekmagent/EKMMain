@@ -86,7 +86,6 @@ const faqs = [
     answer:
       "If you're turning 65, reach out at least 6 months before your Part B start date to lock in Medigap rates during your Open Enrollment Period. For Medicare Advantage or Part D changes, Annual Enrollment runs October 15 through December 7.",
   },
-,
   {
     question: "Does a Paterson Medicare agent work with all the major carriers in Passaic County?",
     answer:

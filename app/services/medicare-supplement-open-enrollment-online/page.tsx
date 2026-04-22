@@ -85,7 +85,6 @@ const faqs = [
     answer:
       "During guaranteed-issue enrollment, most online applications are approved within a few business days. Some carriers issue approval same-day. Your coverage effective date depends on when you apply relative to your Part B start date.",
   },
-,
   {
     question: "What documents do I need to apply for Medigap online?",
     answer:

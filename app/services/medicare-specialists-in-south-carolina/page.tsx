@@ -90,7 +90,6 @@ const faqs = [
     answer:
       "Nothing. Independent Medicare brokers like Anthony Orner are paid by insurance carriers, not by you. The plan premiums are the same whether you enroll directly or through a broker. You get expert guidance at zero additional cost.",
   },
-,
   {
     question: "Does South Carolina offer SHIP counseling for Medicare questions?",
     answer:

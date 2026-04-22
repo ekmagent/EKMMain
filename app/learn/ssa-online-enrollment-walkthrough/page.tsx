@@ -225,22 +225,6 @@ const steps = [
     ],
     tip: "Double-check your Part B election before submitting. Once it's in, changing your mind requires contacting Social Security directly.",
   },
-,
-  {
-    question: "How long does the SSA online Medicare application take to complete?",
-    answer:
-      "Most people finish the application in about 10 minutes if they have their information ready. Having your Social Security number, driver's license, and current health insurance details nearby will speed things up. If you need to step away, SSA lets you save your progress and return later.",
-  },
-  {
-    question: "Can I change my Medicare application after I submit it online?",
-    answer:
-      "No. Once you agree to the Electronic Signature Agreement and click Submit Now, the application is locked and cannot be modified through the website. If you need to make a correction, you will need to contact the Social Security Administration directly by phone or at your local office.",
-  },
-  {
-    question: "Do I have to enroll in Part B when I sign up online?",
-    answer:
-      "No, the SSA application specifically asks whether you want to enroll in Part B. You can decline Part B if you have creditable coverage through an employer group health plan and plan to enroll later during a Special Enrollment Period. Delaying Part B without creditable coverage can trigger a lifetime late enrollment penalty.",
-  }
 ];
 
 export default function SSAOnlineEnrollmentWalkthrough() {

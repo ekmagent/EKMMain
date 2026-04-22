@@ -86,7 +86,6 @@ const faqs = [
     answer:
       "Not always. Many TV ads connect you to call centers that may only represent certain carriers. An independent broker works with multiple carriers and is not locked into selling one company's plans. Ask any agent whether they are independent or captive before taking advice.",
   },
-,
   {
     question: "Where can I get free, unbiased Medicare counseling besides a broker?",
     answer:

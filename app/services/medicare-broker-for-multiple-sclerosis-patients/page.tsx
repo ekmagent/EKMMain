@@ -88,7 +88,6 @@ const faqs = [
     answer:
       "It depends on your treatment plan. Medicare Advantage may offer lower premiums but can require prior authorizations for MRIs and specialty drugs. Medigap paired with Original Medicare gives you more freedom to see any provider who accepts Medicare, with no referrals or network restrictions. For people on high-cost infusion therapies, the out-of-pocket structure of each option can mean thousands of dollars in difference.",
   },
-,
   {
     question: "Will Medicare cover the MRIs I need to monitor my MS?",
     answer:
