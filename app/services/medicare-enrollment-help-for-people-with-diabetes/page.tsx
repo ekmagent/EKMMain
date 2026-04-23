@@ -96,6 +96,12 @@ const faqs = [
     answer:
       "Yes. Medicare Part B covers diabetes self-management training (DSMT) for beneficiaries recently diagnosed with diabetes or at risk for complications. You'll need a written referral from the doctor treating your diabetes. After meeting the Part B deductible ($283 in 2026), you typically pay 20% of the Medicare-approved amount.",
   }
+,
+  {
+    question: "Does Medicare cover the Medicare Diabetes Prevention Program?",
+    answer:
+      "Yes. Medicare Part B covers the Medicare Diabetes Prevention Program (MDPP) for eligible beneficiaries at no cost to you. The program provides training on diet, exercise, and lifestyle changes to help prevent type 2 diabetes. You can find an in-person or online program through Medicare.gov, and there is no cost-sharing if you qualify.",
+  }
 ];
 
 export default function MedicareEnrollmentHelpDiabetes() {

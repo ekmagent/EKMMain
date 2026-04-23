@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare specialists in cranford, nj office | Free Local Help | MedicareYourself",
   description:
-    "Medicare specialists in Cranford, NJ — Anthony Orner, licensed independent broker, compares plans across carriers. Free local consultation. Call today.",
+    "Medicare specialists in Cranford, NJ — licensed broker Anthony Orner compares Medigap, Advantage & Part D plans across carriers. Free local help. Call today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-specialists-in-cranford-nj-office" },
   openGraph: {
     title:

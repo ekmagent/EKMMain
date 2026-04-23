@@ -99,6 +99,12 @@ const faqs = [
     answer:
       "Medicare Part B covers medically necessary cardiologist visits, EKGs, stress tests, echocardiograms, and cardiac catheterization. You pay 20% of the Medicare-approved amount after meeting the $283 Part B deductible in 2026, unless you have a Medigap plan that covers that coinsurance. Medicare Advantage plans cover the same services but use copays and require in-network providers.",
   }
+,
+  {
+    question: "Will a Medicare Advantage plan cover my cardiologist?",
+    answer:
+      "Only if your cardiologist is in the plan's network. Medicare Advantage plans use provider networks, so before enrolling it's critical to verify that your cardiologist, hospital, and any specialists you see accept the specific plan. A broker can check network status for every plan in your area before you commit.",
+  }
 ];
 
 export default function MedicareBrokerHeartDiseasePatients() {

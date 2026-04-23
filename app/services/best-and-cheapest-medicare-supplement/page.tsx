@@ -266,6 +266,7 @@ export default function BestAndCheapestMedicareSupplement() {
           </li>
         </ul>
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/health-drug-plans/medigap" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — How to compare Medigap policies</a> and <a href="https://www.medicare.gov/medigap-supplemental-insurance-plans/" rel="noopener noreferrer" target="_blank" className="underline">Find a Medigap plan in your ZIP code</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

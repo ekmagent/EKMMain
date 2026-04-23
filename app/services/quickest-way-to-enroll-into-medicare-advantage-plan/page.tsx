@@ -340,6 +340,7 @@ export default function QuickestWayToEnrollMedicareAdvantagePlan() {
 </ul>
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/basics/get-started-with-medicare/get-more-coverage/joining-a-plan" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Joining a Plan</a> and <a href="https://www.medicare.gov/plan-compare" rel="noopener noreferrer" target="_blank" className="underline">Medicare Plan Finder</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Need free local help? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">Free local counseling: <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
     </main>
   );

@@ -312,6 +312,7 @@ export default function FreeMedicareBrokerNewJersey() {
 </ul>
               <div className="text-sm text-gray-600 mt-4"><p>Official Medicare resources: <a href="https://www.medicare.gov/basics/get-started-with-medicare" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">Get Started with Medicare (medicare.gov)</a> and <a href="https://www.medicare.gov/plan-compare/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">Compare Plans on Medicare.gov</a>.</p></div>
             <div className="text-sm text-gray-600 mt-4"><p>New Jersey residents can also get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a> through the NJ Department of Human Services.</p></div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
       </section>
       </article>
     </>

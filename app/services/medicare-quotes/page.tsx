@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare quotes | Free Instant Rates From Every Carrier | MedicareYourself",
   description:
-    "Compare free Medicare quotes from every major carrier side by side. Get instant Supplement and Advantage rates — no obligation. Call 855-559-1700 today.",
+    "Compare free Medicare quotes from every major carrier side by side. See Supplement and Advantage rates instantly with no obligation — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-quotes" },
   openGraph: {
     title:
@@ -86,6 +86,22 @@ const faqs = [
     answer:
       "Yes. Medicare Part A covers pacemaker implantation as an inpatient hospital procedure. Part B covers the doctor's services. You're responsible for the Part A deductible ($1,676 in 2026) and any applicable coinsurance unless you have a Supplement plan that covers those costs.",
   },
+,
+  {
+    question: "Why do Medicare Supplement quotes differ between carriers for the same plan letter?",
+    answer:
+      "Every Medigap carrier must offer identical benefits within each standardized plan letter, such as Plan G or Plan N. However, each company sets its own premium based on underwriting, rating method (attained-age, issue-age, or community-rated), and claims experience. That's why comparing quotes across carriers for the exact same plan can save you money for identical coverage.",
+  },
+  {
+    question: "Can I switch Medicare plans after getting a quote?",
+    answer:
+      "Yes, but timing matters. Medicare Advantage and Part D plans can generally be changed during the Annual Enrollment Period each fall or during a Special Enrollment Period if you qualify. Medigap switches outside your initial open enrollment window may require medical underwriting, so it's worth reviewing quotes with a licensed broker before making a change.",
+  },
+  {
+    question: "Will getting a Medicare quote affect my current coverage?",
+    answer:
+      "No. Requesting a quote is purely informational and does not cancel, change, or interrupt any coverage you currently have. Your existing plan stays in force until you actively enroll in a new one and the new effective date begins.",
+  }
 ];
 
 export default function MedicareQuotesPage() {
@@ -277,6 +293,7 @@ export default function MedicareQuotesPage() {
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/plan-compare" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Medicare.gov Plan Finder</a> to compare plans in your area, or visit <a href="https://www.medicare.gov/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Medicare.gov</a> to create an account and review your current coverage.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" target="_blank" rel="noopener noreferrer" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

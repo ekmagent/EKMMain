@@ -58,6 +58,17 @@ const faqs = [
     answer:
       "The Medicare Part A hospital deductible is $1,676 per benefit period in 2026. This is a federal amount and applies in every state, including New Jersey. Medigap Plan G and Plan N both fully cover this deductible, which is one of the main reasons many NJ beneficiaries add a supplement.",
   },
+,
+  {
+    question: "Do Medigap premiums in New Jersey increase each year?",
+    answer:
+      "Yes, Medigap premiums can increase over time due to inflation and rising healthcare costs, even in community-rated states like New Jersey. However, because NJ uses community rating, your premium will not increase solely because you get older. Rate changes apply to all policyholders in the same plan and area. Call 855-559-1700 to compare carriers with stable rate histories.",
+  },
+  {
+    question: "Are Medicare Supplement benefits the same across all New Jersey carriers?",
+    answer:
+      "Yes. Medigap plans are standardized by the federal government, so Plan G from one carrier provides identical benefits as Plan G from another carrier. The only differences are the monthly premium, the insurer's customer service, and rate stability. This makes price shopping in New Jersey straightforward — same coverage, different cost.",
+  }
 ];
 
 export default function NJMedicareCostPage() {

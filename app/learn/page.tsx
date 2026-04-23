@@ -7,7 +7,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Medicare Education Guides | MedicareYourself",
   description:
-    "Free Medicare education guides written by a licensed broker: Parts A-D, Medigap, enrollment, IRMAA, and low-income help. Call 855-559-1700 for answers.",
+    "Free Medicare education guides by a licensed broker: Parts A-D, Medigap, enrollment, IRMAA, and low-income help. Get clear answers — call 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn` },
   openGraph: {
     title: "Medicare Education Guides | MedicareYourself",
@@ -58,6 +58,22 @@ const GUIDES = [
       { href: "/learn/medicare-help-low-income", label: "Medicare Help for People on a Fixed Income" },
     ],
   },
+,
+  {
+    question: "Where should I start if I'm new to Medicare?",
+    answer:
+      "Start by learning the four parts of Medicare: Part A (hospital), Part B (medical), Part C (Medicare Advantage), and Part D (prescription drugs). Once you understand what each part covers, you can decide between Original Medicare with a Medigap policy or a Medicare Advantage plan. Our guide on Medicare Parts A-D explained is a good first read, or call 855-559-1700 to talk it through.",
+  },
+  {
+    question: "Do I have to pay for help from a licensed Medicare broker?",
+    answer:
+      "No. Licensed brokers are paid by the insurance carrier when a client enrolls, so there is no extra cost to you for using one. The plan premium is the same whether you enroll directly with the carrier or through a broker. A broker can compare multiple carriers and help you avoid common enrollment mistakes.",
+  },
+  {
+    question: "Are these Medicare education guides free to read?",
+    answer:
+      "Yes. Every guide on MedicareYourself is free and written in plain English by a licensed Medicare insurance broker. There is no signup or email required to read them. If you have a question a guide doesn't answer, you can call 855-559-1700 for personal help.",
+  }
 ];
 
 export default function LearnHubPage() {
@@ -147,6 +163,7 @@ export default function LearnHubPage() {
           </p>
         </div>
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/basics/get-started-with-medicare/medicare-basics" rel="noopener noreferrer" target="_blank" className="text-blue-700 hover:underline">Medicare Basics (Medicare.gov)</a> &middot; <a href="https://www.cms.gov/medicare" rel="noopener noreferrer" target="_blank" className="text-blue-700 hover:underline">CMS Medicare Program</a></div>
+            <div className="text-sm text-gray-600 mt-4">Free unbiased counseling is available through your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-700 hover:underline">State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
     </>
   );

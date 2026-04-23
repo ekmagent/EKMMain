@@ -96,6 +96,12 @@ const faqs = [
     answer:
       "Don't cancel your current plan until you have a new one approved. Request a free rate review to compare carriers offering the identical plan letter at a lower price. If you can pass medical underwriting, switching carriers may lock in significant savings without changing your benefits.",
   }
+,
+  {
+    question: "What should I do if I receive a rate increase notice from my Medigap carrier?",
+    answer:
+      "Don't panic or cancel your policy. Request a free rate review to compare the same plan letter across other carriers in your state. If you can pass medical underwriting, you may qualify for a lower premium with identical benefits. Call 855-559-1700 to review your options before your renewal date.",
+  }
 ];
 
 export default function MedicareSupplementPremiumsIncreasing2025() {

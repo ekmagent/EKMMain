@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare broker for people with CLL | Free Consult | MedicareYourself",
   description:
-    "Medicare broker for people with CLL — honest guidance on Medigap underwriting, Medicare Advantage, and guaranteed issue options. Call Anthony Orner today.",
+    "Medicare broker for people with CLL — guidance on Medigap underwriting, Part D oral cancer drugs, and specialist access. Call 855-559-1700 for a free review.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-people-with-cll" },
   openGraph: {
     title:
@@ -358,6 +358,7 @@ export default function MedicareBrokerForPeopleWithCLL() {
 </ul>
             <div className="text-sm text-gray-600 mt-4">Helpful resources: <a href="https://www.medicare.gov/coverage/chemotherapy" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Medicare.gov — Chemotherapy Coverage</a> and <a href="https://www.medicare.gov/health-drug-plans/medigap/basics/when-to-buy" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Medicare.gov — When to Buy Medigap</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">New Jersey State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </>
   );

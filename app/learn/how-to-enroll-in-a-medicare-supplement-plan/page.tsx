@@ -9,7 +9,7 @@ import { MF } from "@/lib/medicare-figures";
 export const metadata: Metadata = {
   title: "How to Enroll in a Medicare Supplement Plan (2026): The 5-Step Guide",
   description:
-    "Enroll in a Medicare Supplement plan in 5 steps: confirm Parts A & B, compare every carrier, pick Plan G or N, apply during your 6-month window. Call 855-559-1700.",
+    "Enroll in a Medicare Supplement plan in 5 steps: confirm Parts A & B, compare carriers, pick Plan G or N, apply in your 6-month window. Call 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/how-to-enroll-in-a-medicare-supplement-plan` },
   openGraph: {
     title: "How to Enroll in a Medicare Supplement Plan (2026): The 5-Step Guide",
@@ -166,6 +166,22 @@ const faqs = [
     question: "Does the Medicare Supplement enrollment process vary by state?",
     answer:
       "The federal Medigap standardization rules apply nationwide, but Massachusetts, Minnesota, and Wisconsin have their own standardized plan designs. Some states also offer additional protections like annual guaranteed-issue windows or birthday rules. Carrier availability and pricing always vary by state and ZIP code.",
+  }
+,
+  {
+    question: "Do I need both Medicare Part A and Part B to buy a Medigap policy?",
+    answer:
+      "Yes. Generally, you must have Original Medicare — both Part A and Part B — to buy a Medicare Supplement (Medigap) policy. If you are not yet enrolled in Part B, you will need to sign up through the Social Security Administration before a Medigap carrier can issue coverage.",
+  },
+  {
+    question: "Can my spouse and I share one Medigap policy?",
+    answer:
+      "No. A Medigap policy only covers one person. If you and your spouse both want Medicare Supplement coverage, each of you must buy your own separate policy, even if you choose the same plan letter from the same carrier.",
+  },
+  {
+    question: "Can I switch Medigap plans after my Open Enrollment Period ends?",
+    answer:
+      "You can apply to switch Medigap plans at any time, but outside your 6-month Medigap Open Enrollment Period carriers in most states can use medical underwriting to deny coverage or charge higher premiums based on your health. A licensed broker can tell you whether you are likely to qualify before you apply.",
   }
 ];
 

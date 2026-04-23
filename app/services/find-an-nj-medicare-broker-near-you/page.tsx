@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Find an NJ Medicare Broker Near You | Free No-Pressure Help | MedicareYourself",
   description:
-    "Find an NJ Medicare broker near you — Anthony Orner is licensed statewide, compares top carriers at no cost. Independent, not captive. Free consultation.",
+    "Find an NJ Medicare broker near you — Anthony Orner compares top carriers statewide at no cost. Independent, not captive. Call 855-559-1700 for free help.",
   alternates: { canonical: "https://medicareyourself.com/services/find-an-nj-medicare-broker-near-you" },
   openGraph: {
     title:
@@ -357,6 +357,7 @@ export default function FindNJMedicareBrokerNearYou() {
 </ul>
               <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/plan-compare" target="_blank" rel="noopener noreferrer" className="underline">Medicare.gov Plan Finder</a> and <a href="https://www.medicare.gov/talk-to-someone" target="_blank" rel="noopener noreferrer" className="underline">Medicare.gov Talk to Someone</a> for additional guidance.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" target="_blank" rel="noopener noreferrer" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" target="_blank" rel="noopener noreferrer" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

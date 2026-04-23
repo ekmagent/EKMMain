@@ -103,6 +103,12 @@ const faqs = [
     answer:
       "With Original Medicare plus Medigap, you can see any neurologist nationwide who accepts Medicare — no networks or referrals. With Medicare Advantage, you're generally limited to the plan's network, so confirm your MS specialist is in-network before enrolling. This matters because many communities have a shortage of neurologists trained in MS care.",
   }
+,
+  {
+    question: "Will Medicare cover MRIs needed to monitor MS progression?",
+    answer:
+      "Yes. Medically necessary MRIs ordered by your doctor to monitor MS are covered under Medicare Part B as diagnostic imaging. You'll typically owe the Part B deductible and coinsurance unless you have a Medigap plan. Medicare Advantage plans cover MRIs too, but often require prior authorization, which can delay scans.",
+  }
 ];
 
 export default function MedicareBrokerForMSPatients() {

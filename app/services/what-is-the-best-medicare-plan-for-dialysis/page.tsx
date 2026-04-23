@@ -305,6 +305,7 @@ export default function BestMedicarePlanForDialysis() {
 </ul>
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/publications/10128-medicare-coverage-of-kidney-dialysis-kidney-transplant-services.pdf" rel="noopener noreferrer" target="_blank" className="underline">Medicare Coverage of Kidney Dialysis & Kidney Transplant Services (Medicare.gov PDF)</a> and <a href="https://www.medicare.gov/coverage/dialysis-services-supplies" rel="noopener noreferrer" target="_blank" className="underline">Dialysis Services & Supplies coverage details</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free one-on-one Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free one-on-one counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

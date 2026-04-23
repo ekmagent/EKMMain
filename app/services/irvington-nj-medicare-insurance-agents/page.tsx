@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "irvington nj medicare insurance agents | Free Local Broker | MedicareYourself",
   description:
-    "Irvington NJ Medicare insurance agents — compare Supplement and Advantage plans with licensed broker Anthony Orner. Free local help. Call 855-559-1700 today.",
+    "Talk to a licensed Irvington NJ Medicare broker. Anthony Orner compares Supplement & Advantage plans at no cost to you. Call 855-559-1700 for free help.",
   alternates: { canonical: "https://medicareyourself.com/services/irvington-nj-medicare-insurance-agents" },
   openGraph: {
     title:
@@ -293,6 +293,7 @@ export default function IrvingtonNJMedicareInsuranceAgents() {
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/basics/get-started-with-medicare" rel="noopener noreferrer" target="_blank" className="underline">Get started with Medicare (Medicare.gov)</a> &middot; <a href="https://www.medicare.gov/plan-compare/" rel="noopener noreferrer" target="_blank" className="underline">Compare plans on Medicare.gov</a></div>
             <div className="text-sm text-gray-600 mt-2">New Jersey residents can also get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" target="_blank" rel="noopener noreferrer" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

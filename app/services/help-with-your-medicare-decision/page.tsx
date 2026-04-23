@@ -347,6 +347,7 @@ export default function HelpWithYourMedicareDecision() {
             </li>
 </ul>
               <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/talk-to-someone" rel="noopener noreferrer" target="_blank" className="underline">Talk to someone at Medicare.gov</a> (1-800-MEDICARE, available 24/7) or visit <a href="https://www.medicare.gov/" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov</a> for plan comparisons and enrollment details.</div>
+            <div className="text-sm text-gray-600 mt-4">Prefer state-based counseling? Find your local SHIP at <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">shiphelp.org</a> for free, unbiased Medicare guidance.</div>
       </section>
       </article>
     </>

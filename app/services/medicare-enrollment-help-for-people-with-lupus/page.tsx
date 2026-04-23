@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare enrollment help for people with lupus | Free NJ Guidance | MedicareYourself",
   description:
-    "Medicare enrollment help for people with lupus in NJ. Compare plans, lower drug costs, and keep your specialists. Call Anthony Orner at 855-559-1700 free.",
+    "Medicare enrollment help for people with lupus in NJ. Protect specialist access, manage drug costs, and compare plans. Free guidance — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-enrollment-help-for-people-with-lupus" },
   openGraph: {
     title:
@@ -311,6 +311,7 @@ export default function MedicareEnrollmentHelpLupus() {
               <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/basics/get-started-with-medicare/medicare-basics/get-medicare-early" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Medicare.gov — Getting Medicare Under 65 With a Disability</a> and <a href="https://www.medicare.gov/basics/costs/medicare-costs" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Medicare.gov — 2026 Medicare Costs</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
       </article>
     </>

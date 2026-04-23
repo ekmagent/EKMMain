@@ -59,6 +59,17 @@ const faqs = [
     answer:
       "Yes. You must be enrolled in both Medicare Part A and Part B to purchase a Medicare Supplement plan in Pennsylvania. Part B carries a standard premium of $202.90/month in 2026 and a $283 annual deductible. Medigap works alongside Original Medicare to cover your share of costs.",
   },
+,
+  {
+    question: "When can I enroll in a Medicare Supplement plan in Pennsylvania?",
+    answer:
+      "Your best opportunity to enroll is during your 6-month Medigap Open Enrollment Period, which begins the month your Part B coverage takes effect and you are 65 or older. During this window, you have guaranteed issue rights — no carrier can deny you or charge more based on health. Outside this window, Pennsylvania allows medical underwriting, so planning ahead is critical. Call 855-559-1700 for help timing your enrollment.",
+  },
+  {
+    question: "Where can I get free Medicare counseling in Pennsylvania?",
+    answer:
+      "Pennsylvania residents can contact PA MEDI (Pennsylvania Medicare Education and Decision Insight), the state's official SHIP program, for free one-on-one Medicare counseling. The Pennsylvania Insurance Department also provides consumer help for Medigap questions and complaints. These are unbiased public resources, separate from any insurance broker or carrier.",
+  }
 ];
 
 export default function PennsylvaniaMedigapPage() {

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title:
     "How to Enroll in Medicare Online at SSA.gov (Step-by-Step Walkthrough)",
   description:
-    "Screen-by-screen SSA.gov Medicare enrollment walkthrough — 9 steps, about 10 minutes. Avoid common mistakes. Free broker help: 855-559-1700.",
+    "Step-by-step SSA.gov Medicare enrollment walkthrough — 9 screens in about 10 minutes. Avoid costly mistakes. Free broker help at 855-559-1700.",
   alternates: {
     canonical: `${SITE_URL}/learn/ssa-online-enrollment-walkthrough`,
   },
@@ -225,6 +225,22 @@ const steps = [
     ],
     tip: "Double-check your Part B election before submitting. Once it's in, changing your mind requires contacting Social Security directly.",
   },
+,
+  {
+    question: "How long does the SSA online Medicare application take to complete?",
+    answer:
+      "Most people can complete the SSA.gov Medicare enrollment application in about 10 minutes if they have their documents ready. You will need your Social Security number and a driver's license or state ID for identity verification. Having information about any current health insurance coverage on hand will also help you move through the questions faster.",
+  },
+  {
+    question: "Can I change my Medicare application after I submit it online?",
+    answer:
+      "No. Once you agree to the Electronic Signature Agreement and click Submit Now on SSA.gov, your application is final and cannot be modified online. If you need to make a correction, you will need to contact the Social Security Administration directly by phone or at a local office. Review every screen carefully before submitting.",
+  },
+  {
+    question: "Do I have to enroll in Part B when I apply online?",
+    answer:
+      "No. During the application, SSA will ask whether you want to enroll in Part B or decline it. If you have creditable coverage through an active employer group health plan, you may choose to delay Part B without a late enrollment penalty. If you are unsure, call us at 855-559-1700 before you submit to review your options.",
+  }
 ];
 
 export default function SSAOnlineEnrollmentWalkthrough() {

@@ -299,6 +299,7 @@ export default function MedicarePartDBrokers18517() {
               </Link>
             </li>
 </ul>
+            <div className="text-sm text-gray-600 mt-4">Pennsylvania residents near 18517 can also contact <a href="https://www.aging.pa.gov/aging-services/pharmaceutical-assistance/Pages/APPRISE.aspx" rel="noopener noreferrer" target="_blank" className="underline">PA APPRISE (State SHIP Program)</a> for free Medicare counseling.</div>
       </section>
     </>
   );

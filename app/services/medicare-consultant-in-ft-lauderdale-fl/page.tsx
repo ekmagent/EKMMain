@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare consultant in ft lauderdale fl | Free Plan Comparison | MedicareYourself",
   description:
-    "Medicare consultant in Ft Lauderdale FL — Anthony Orner compares Supplement and Advantage plans across Broward County carriers. Free consultation, no obligation.",
+    "Medicare consultant in Ft Lauderdale FL — Anthony Orner compares Supplement and Advantage plans across Broward County. Free, no-obligation review.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-consultant-in-ft-lauderdale-fl" },
   openGraph: {
     title:
@@ -303,6 +303,7 @@ export default function MedicareConsultantFtLauderdaleFL() {
 </ul>
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/plan-compare" rel="noopener noreferrer" target="_blank" className="underline">Compare Medicare plans on Medicare.gov</a> and review <a href="https://www.medicare.gov/basics/get-started-with-medicare/get-more-coverage/joining-a-plan" rel="noopener noreferrer" target="_blank" className="underline">enrollment periods and joining a plan</a>.</div>
             <div className="text-sm text-gray-600 mt-2">Florida residents can also contact <a href="https://www.floir.com/" rel="noopener noreferrer" target="_blank" className="underline">the Florida Office of Insurance Regulation</a> or <a href="https://www.floridashine.org/" rel="noopener noreferrer" target="_blank" className="underline">SHINE (Florida's SHIP program)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">Florida residents can also contact <a href="https://www.floridashine.org/" rel="noopener noreferrer" target="_blank" className="underline">Florida SHINE</a>, the state's free SHIP counseling program, for unbiased Medicare guidance.</div>
       </section>
     </main>
   );

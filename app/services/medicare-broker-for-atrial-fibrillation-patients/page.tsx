@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for atrial fibrillation patients | Free Carrier Comparison | MedicareYourself",
   description:
-    "Medicare broker for atrial fibrillation patients in NJ. Anthony Orner finds plans covering blood thinners, monitoring, and cardiology. Free plan review.",
+    "Medicare broker for AFib patients in NJ. Anthony Orner compares plans covering blood thinners, cardiology, and ablation. Free review — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-atrial-fibrillation-patients" },
   openGraph: {
     title:

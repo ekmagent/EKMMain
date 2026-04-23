@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "average cost of supplemental health insurance for seniors with medicare | Free Broker Comparison | MedicareYourself",
   description:
-    "Compare average supplemental health insurance costs for seniors on Medicare. See how Medigap pricing works and get a free broker comparison — call today.",
+    "Compare average Medigap costs for seniors on Medicare. See how plan pricing works by age, state, and carrier. Call 855-559-1700 for a free broker comparison.",
   alternates: { canonical: "https://medicareyourself.com/services/average-cost-of-supplemental-health-insurance-for-seniors-with-medicare" },
   openGraph: {
     title:
@@ -102,6 +102,22 @@ const faqs = [
     question: "Can a broker help me find the lowest-cost supplemental plan?",
     answer:
       "Yes. A licensed independent broker can compare identical lettered plans across multiple carriers in your zip code, since benefits are standardized and price is the main difference. Call 855-559-1700 to compare rates at no cost to you.",
+  }
+,
+  {
+    question: "Does where I live affect how much I pay for Medigap?",
+    answer:
+      "Yes. Medigap premiums vary widely based on your state, zip code, and local claims experience. The same lettered plan with identical benefits can cost substantially more in one state than another. Comparing carriers licensed in your specific area is the only way to find the best available rate.",
+  },
+  {
+    question: "What's the difference between community-rated, issue-age, and attained-age pricing?",
+    answer:
+      "Community-rated plans charge everyone the same premium regardless of age. Issue-age plans base your premium on your age when you first bought the policy and don't increase with age. Attained-age plans start lower but rise as you get older, which can make them more expensive long-term even if they look cheaper at first.",
+  },
+  {
+    question: "Do I pay the Part B premium in addition to my Medigap plan?",
+    answer:
+      "Yes. Medigap supplements Original Medicare, so you must remain enrolled in Medicare Part B and continue paying the standard Part B premium. Your Medigap premium is separate and paid directly to the private insurance carrier that issued your policy.",
   }
 ];
 
@@ -296,6 +312,7 @@ export default function AverageCostSupplementalInsurancePage() {
         </ul>
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/health-drug-plans/medigap/basics/costs" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Medicare.gov — Get Medigap Costs</a> and <a href="https://www.medicare.gov/health-drug-plans/medigap/basics/compare-plan-benefits" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Compare Medigap Plan Benefits</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/index.shtml" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a> or the free <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">SHIP counseling program</a> for unbiased Medicare guidance.</div>
+            <div className="text-sm text-gray-600 mt-4">For state-specific help, contact the <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> or the <a href="https://www.nj.gov/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a>.</div>
       </section>
     </main>
   );

@@ -159,6 +159,22 @@ const faqs = [
     answer:
       "Yes, but not immediately. Because Social Security uses tax returns from two years prior, a drop in income today won't affect your IRMAA until that lower income appears on a processed tax return. If the income change is due to a qualifying life-changing event, you can file SSA-44 to have it adjusted sooner rather than waiting.",
   }
+,
+  {
+    question: "How do I appeal IRMAA if my income has dropped?",
+    answer:
+      "If you've experienced a life-changing event such as retirement, divorce, or the death of a spouse, you can file Form SSA-44 with the Social Security Administration to request a reduction. You'll need documentation of the event and your estimated current-year income. If approved, SSA will recalculate your IRMAA based on your new income rather than your tax return from two years ago.",
+  },
+  {
+    question: "Does IRMAA reset every year?",
+    answer:
+      "Yes. Social Security recalculates IRMAA annually using your most recent available tax return, which is generally from two years prior. If your income drops below the threshold in a later year, your surcharge will be removed automatically once SSA receives the updated tax data from the IRS.",
+  },
+  {
+    question: "Can a licensed broker help me plan around IRMAA?",
+    answer:
+      "A licensed Medicare broker can help you understand how IRMAA interacts with your Part B and Part D costs and choose plans that fit your budget. While brokers don't provide tax advice, we can explain the brackets and help you coordinate with your tax professional. Call 855-559-1700 for free guidance.",
+  }
 ];
 
 export default function IrmaaPage() {

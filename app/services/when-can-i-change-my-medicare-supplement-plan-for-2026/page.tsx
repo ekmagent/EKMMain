@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "when can i change my medicare supplement plan for 2026 | Free Switching Help | MedicareYourself",
   description:
-    "When can I change my Medicare Supplement plan for 2026? Learn Medigap switch rules, guaranteed-issue rights & underwriting. Free broker help — 855-559-1700.",
+    "Change your Medicare Supplement plan for 2026 — learn Medigap switch rules, guaranteed-issue rights & underwriting. Free broker help at 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/when-can-i-change-my-medicare-supplement-plan-for-2026" },
   openGraph: {
     title:
@@ -85,6 +85,22 @@ const faqs = [
     answer:
       "Yes. Plan G benefits are standardized by federal law, so every carrier's Plan G covers the same things. The difference is premium cost and long-term rate stability. If you qualify through underwriting or have a guaranteed-issue right, switching carriers for the same plan letter is a smart way to lower your costs.",
   },
+,
+  {
+    question: "Do I have a guaranteed-issue right to change my Medigap plan in 2026?",
+    answer:
+      "Federal guaranteed-issue rights apply only in specific situations, such as losing other coverage, your carrier going bankrupt, or leaving a Medicare Advantage plan within the first year of trying it. Outside of these situations and your 6-month Medigap Open Enrollment Period, carriers can require medical underwriting. Some states offer additional switching rights beyond federal law, so it's worth checking with your state insurance department.",
+  },
+  {
+    question: "What happens to my old Medigap policy if I switch in 2026?",
+    answer:
+      "You should not cancel your existing Medigap policy until your new policy is approved and in effect. Federal law gives you a 30-day free-look period on the new policy, during which you can decide whether to keep it. Call 855-559-1700 and we can help coordinate the timing so you're never without coverage.",
+  },
+  {
+    question: "Can my Medigap carrier drop me if I change plans in 2026?",
+    answer:
+      "Once you're enrolled in a Medigap policy, the carrier generally cannot cancel it as long as you pay your premium, regardless of health changes. However, if you apply to switch to a new policy outside a protected window, the new carrier can deny you based on underwriting. Your current policy remains in force until you choose to end it.",
+  }
 ];
 
 export default function WhenCanIChangeMyMedicareSupplementPlanFor2026() {
@@ -275,6 +291,7 @@ export default function WhenCanIChangeMyMedicareSupplementPlanFor2026() {
             <div className="text-sm text-gray-600 mt-4">Your state may offer additional Medigap switching rights beyond federal law. Check with the <a href="https://www.shiphelp.org/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a> for free, unbiased counseling in your state.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">State help: <a href="https://www.nj.gov/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey State Health Insurance Assistance Program (SHIP)</a> offers free Medicare counseling, including Medigap switch questions. Call 855-559-1700 for broker help.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>, which may also share any state-specific Medigap switching rights.</div>
       </section>
     </main>
   );

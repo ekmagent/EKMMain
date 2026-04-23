@@ -124,6 +124,22 @@ const faqs = [
     answer:
       "If you sign up during the 3 months before your 65th birthday, coverage starts the first day of your birthday month. If you sign up during your birthday month or the 3 months after, coverage begins the month after you enroll. For help choosing the right start date, call 855-559-1700.",
   }
+,
+  {
+    question: "How do I sign up for Medicare if I'm not automatically enrolled?",
+    answer:
+      "You can apply online at ssa.gov/medicare, which typically takes about 10 minutes. You may also call Social Security or visit a local SSA office to enroll. Applications can be submitted starting 3 months before the month you turn 65.",
+  },
+  {
+    question: "What happens if I miss my Medicare enrollment deadline?",
+    answer:
+      "If you miss your Initial Enrollment Period and don't qualify for a Special Enrollment Period, you'll need to wait for the General Enrollment Period (January 1 – March 31) to sign up for Part B. You may also owe a permanent Part B late enrollment penalty that is added to your monthly premium for as long as you have Medicare. Call 855-559-1700 if you're unsure which enrollment window applies to you.",
+  },
+  {
+    question: "Do I need to sign up for Medicare if I have employer coverage?",
+    answer:
+      "If you or your spouse are still actively working and have creditable employer coverage, you may be able to delay Part B without penalty. Most people still enroll in Part A at 65 since it is premium-free for those with enough work credits. Confirm with your HR department that your plan counts as creditable before delaying any part of Medicare.",
+  }
 ];
 
 export default function HowToSignUpPage() {

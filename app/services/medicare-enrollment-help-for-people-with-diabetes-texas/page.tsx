@@ -292,6 +292,7 @@ export default function MedicareEnrollmentHelpDiabetesTexas() {
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/coverage/diabetes-supplies-and-services" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Diabetes Supplies &amp; Services Coverage</a> and <a href="https://www.medicare.gov/coverage/continuous-glucose-monitors" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Continuous Glucose Monitors</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Texas residents can get free local Medicare counseling through <a href="https://www.hhs.texas.gov/services/health/medicare" rel="noopener noreferrer" target="_blank" className="underline">Texas Health and Human Services — Medicare</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Texas help: <a href="https://www.hhs.texas.gov/services/health/medicare" rel="noopener noreferrer" target="_blank">Texas Health and Human Services — Medicare</a></div>
+            <div className="text-sm text-gray-600 mt-4">Texas residents can get free local Medicare counseling through <a href="https://www.hhs.texas.gov/services/health/medicare" rel="noopener noreferrer" target="_blank" className="underline">Texas Health and Human Services Medicare programs</a>.</div>
       </section>
     </main>
   );

@@ -9,7 +9,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Medicare Services & Guides | MedicareYourself",
   description:
-    "Find a Medicare broker, compare Medigap plans, get condition-specific guidance, and explore local agents near you. Free, independent help: 855-559-1700.",
+    "Compare Medigap, Advantage, and Part D plans with a licensed independent broker. Free, unbiased Medicare guidance in 35 states — call 855-559-1700 today.",
   alternates: { canonical: `${SITE_URL}/services` },
   openGraph: {
     title: "Medicare Services & Guides | MedicareYourself",
@@ -214,6 +214,22 @@ const STATIC_CATEGORIES = [
       { href: "/medicare-advantage/new-jersey", label: "Best Medicare Advantage Plans in New Jersey (2026)" },
     ],
   },
+,
+  {
+    question: "What services does a Medicare insurance broker provide?",
+    answer:
+      "A licensed Medicare broker helps you compare Medigap (Medicare Supplement), Medicare Advantage, and Part D drug plans across multiple carriers. Brokers can explain eligibility, enrollment windows, and plan differences, and they submit your application at no cost to you. Carriers pay the broker directly, so the consultation is free.",
+  },
+  {
+    question: "Is there a cost to use MedicareYourself for plan help?",
+    answer:
+      "No. Our guidance, plan comparisons, and enrollment assistance are free to consumers. Insurance carriers compensate licensed brokers when a policy is issued, so you pay the same premium whether you enroll with a broker or directly with the carrier.",
+  },
+  {
+    question: "Can you help with Medicare in states outside New Jersey?",
+    answer:
+      "Yes. Anthony Orner is licensed in New Jersey and 34 additional states, so we can help with plan selection and enrollment in most of the country. Call 855-559-1700 to confirm availability in your state and review plans in your ZIP code.",
+  }
 ];
 
 export default function ServicesHubPage() {
@@ -236,6 +252,7 @@ export default function ServicesHubPage() {
         <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
           Medicare Services
         </h1>
+        <p className="text-sm text-gray-500 mt-2">By <strong>Anthony Orner</strong>, Licensed Medicare Insurance Broker — NJ &amp; 34 states</p>
         <p className="text-lg text-gray-600 leading-relaxed max-w-3xl">
           We help Medicare beneficiaries find the right coverage with free,
           unbiased guidance from a licensed independent broker. Here are the
@@ -314,6 +331,8 @@ export default function ServicesHubPage() {
             Free &middot; Independent &middot; Licensed in NJ and 34 states
           </p>
         </div>
+            <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov</a> · <a href="https://www.medicare.gov/plan-compare/" rel="noopener noreferrer" target="_blank" className="underline">Find & compare plans</a></div>
+            <div className="text-sm text-gray-600 mt-2">New Jersey residents: visit the <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free counseling.</div>
       </section>
     </>
   );
