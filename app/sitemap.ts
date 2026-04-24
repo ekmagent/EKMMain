@@ -26,6 +26,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/medicare-supplement/pennsylvania`, lastModified: pageMtime("medicare-supplement/pennsylvania"), changeFrequency: "weekly", priority: 0.9 },
     { url: `${SITE_URL}/medicare-supplement/switch-carriers`, lastModified: pageMtime("medicare-supplement/switch-carriers"), changeFrequency: "monthly", priority: 0.8 },
     { url: `${SITE_URL}/medicare-supplement/bankers-fidelity-review`, lastModified: pageMtime("medicare-supplement/bankers-fidelity-review"), changeFrequency: "monthly", priority: 0.8 },
+    { url: `${SITE_URL}/medicare-supplement/compare-policies`, lastModified: pageMtime("medicare-supplement/compare-policies"), changeFrequency: "monthly", priority: 0.9 },
     { url: `${SITE_URL}/medicare-supplement/new-jersey/enrollment`, lastModified: pageMtime("medicare-supplement/new-jersey/enrollment"), changeFrequency: "monthly", priority: 0.8 },
     { url: `${SITE_URL}/learn`, lastModified: pageMtime("learn"), changeFrequency: "weekly", priority: 0.7 },
     { url: `${SITE_URL}/learn/what-is-medigap`, lastModified: pageMtime("learn/what-is-medigap"), changeFrequency: "monthly", priority: 0.7 },
