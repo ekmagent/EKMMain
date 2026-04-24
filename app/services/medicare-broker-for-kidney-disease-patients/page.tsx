@@ -86,6 +86,12 @@ const faqs = [
     answer:
       "You don't have to use one, but ESRD enrollment rules are unusually complex. Coordination between Medicare and employer plans, special enrollment periods, transplant timelines, and Part D drug coverage for medications like phosphate binders all create real risk of costly mistakes. A licensed broker helps you avoid gaps at no cost to you.",
   },
+,
+  {
+    question: "When should I enroll in Medicare if I'm starting dialysis?",
+    answer:
+      "Medicare eligibility based on ESRD typically begins the fourth month of in-center dialysis, though it can start sooner if you train for home dialysis. You apply through Social Security, not automatically. Timing matters because delaying enrollment can create coverage gaps or affect how your employer plan coordinates with Medicare.",
+  }
 ];
 
 export default function MedicareBrokerKidneyDisease() {
@@ -314,6 +320,7 @@ export default function MedicareBrokerKidneyDisease() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling from the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Need unbiased help in your state? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">For free, unbiased counseling in New Jersey, contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

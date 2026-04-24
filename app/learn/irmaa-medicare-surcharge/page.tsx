@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
   description:
-    "2026 IRMAA brackets explained: Part B & Part D income surcharges, how MAGI is used, and how to appeal with SSA-44. Free broker help at 855-559-1700.",
+    "Understand 2026 IRMAA: how Medicare Part B & D income surcharges work, MAGI brackets, and how to appeal with SSA-44. Free broker help — call 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/irmaa-medicare-surcharge` },
   openGraph: {
     title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
@@ -174,6 +174,17 @@ const faqs = [
     question: "Can a licensed broker help me plan around IRMAA?",
     answer:
       "A licensed Medicare broker can help you understand how IRMAA interacts with your Part B and Part D costs and choose plans that fit your budget. While brokers don't provide tax advice, we can explain the brackets and help you coordinate with your tax professional. Call 855-559-1700 for free guidance.",
+  }
+,
+  {
+    question: "How do I appeal IRMAA if my income has dropped?",
+    answer:
+      "If you've experienced a life-changing event such as retirement, divorce, or the death of a spouse, you can request a reduction by filing Form SSA-44 with the Social Security Administration. You'll need documentation of the event and proof of your reduced income. SSA reviews appeals case by case, and approved appeals can significantly lower or eliminate your IRMAA surcharge.",
+  },
+  {
+    question: "Is IRMAA recalculated every year?",
+    answer:
+      "Yes. Social Security reviews your most recent tax return annually to determine whether IRMAA applies for the upcoming year. If your income drops below the threshold, the surcharge goes away automatically the following year — you don't need to reapply.",
   }
 ];
 

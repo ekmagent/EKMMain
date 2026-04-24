@@ -109,6 +109,12 @@ const faqs = [
     answer:
       "Yes. Medically necessary MRIs ordered by your doctor to monitor MS are covered under Medicare Part B as diagnostic imaging. You'll typically owe the Part B deductible and coinsurance unless you have a Medigap plan. Medicare Advantage plans cover MRIs too, but often require prior authorization, which can delay scans.",
   }
+,
+  {
+    question: "Will Medicare cover MRI scans to monitor my MS?",
+    answer:
+      "Yes. Medicare Part B covers medically necessary MRI scans ordered by your doctor to monitor MS progression or treatment response. You'll typically pay the Part B coinsurance after meeting the annual deductible, unless you have a Medigap plan that covers those costs. Medicare Advantage plans cover MRIs but may require prior authorization before the scan is approved.",
+  }
 ];
 
 export default function MedicareBrokerForMSPatients() {

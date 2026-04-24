@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for dialysis patients | Free ESRD Plan Review | MedicareYourself",
   description:
-    "Medicare broker for dialysis patients: ESRD eligibility, plan coordination, and cost control. Free plan review with Anthony Orner. Call 855-559-1700.",
+    "Medicare broker for dialysis patients: ESRD eligibility, Advantage vs. Medigap, and coordination of benefits. Free plan review with Anthony Orner — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-dialysis-patients" },
   openGraph: {
     title:
@@ -338,6 +338,7 @@ export default function MedicareBrokerForDialysisPatients() {
             </li>
 </ul>
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/coverage/dialysis-services-supplies" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Dialysis Services &amp; Supplies Coverage</a> and <a href="https://www.medicare.gov/basics/end-stage-renal-disease" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — End-Stage Renal Disease (ESRD)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

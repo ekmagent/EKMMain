@@ -9,7 +9,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Medicare Services & Guides | MedicareYourself",
   description:
-    "Compare Medigap, Advantage, and Part D plans with a licensed independent broker. Free, unbiased Medicare guidance in 35 states — call 855-559-1700 today.",
+    "Compare Medigap, Medicare Advantage, and Part D plans with a licensed independent broker. Free, unbiased help in 35 states — call 855-559-1700 today.",
   alternates: { canonical: `${SITE_URL}/services` },
   openGraph: {
     title: "Medicare Services & Guides | MedicareYourself",
@@ -230,6 +230,22 @@ const STATIC_CATEGORIES = [
     answer:
       "Yes. Anthony Orner is licensed in New Jersey and 34 additional states, so we can help with plan selection and enrollment in most of the country. Call 855-559-1700 to confirm availability in your state and review plans in your ZIP code.",
   }
+,
+  {
+    question: "Does it cost anything to work with a Medicare broker?",
+    answer:
+      "No. Licensed Medicare brokers are paid directly by the insurance carriers, so there is no cost to you for plan comparisons, enrollment help, or ongoing support. You pay the same premium whether you enroll through a broker or on your own. Working with an independent broker gives you access to multiple carriers in one conversation.",
+  },
+  {
+    question: "What's the difference between a Medigap plan and a Medicare Advantage plan?",
+    answer:
+      "Medigap (Medicare Supplement) plans work alongside Original Medicare to help cover out-of-pocket costs like coinsurance and deductibles, and they let you see any provider that accepts Medicare. Medicare Advantage (Part C) plans replace Original Medicare with a private plan that usually uses provider networks and may include extra benefits. You cannot have both at the same time, so choosing the right path matters.",
+  },
+  {
+    question: "When can I enroll in or change my Medicare plan?",
+    answer:
+      "Most people first enroll during their Initial Enrollment Period around their 65th birthday. After that, the Annual Enrollment Period (October 15 – December 7) lets you change Medicare Advantage and Part D plans, and Medigap can often be applied for year-round, subject to medical underwriting outside of guaranteed-issue windows. You can verify current enrollment windows at medicare.gov.",
+  }
 ];
 
 export default function ServicesHubPage() {
@@ -333,6 +349,7 @@ export default function ServicesHubPage() {
         </div>
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov</a> · <a href="https://www.medicare.gov/plan-compare/" rel="noopener noreferrer" target="_blank" className="underline">Find & compare plans</a></div>
             <div className="text-sm text-gray-600 mt-2">New Jersey residents: visit the <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </>
   );

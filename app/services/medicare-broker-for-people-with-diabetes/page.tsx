@@ -337,6 +337,7 @@ export default function MedicareBrokerForPeopleWithDiabetes() {
             </li>
 </ul>
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/coverage/continuous-glucose-monitors" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Continuous Glucose Monitor coverage</a> and <a href="https://www.medicare.gov/coverage/diabetes-supplies-services" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Diabetes supplies &amp; services</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free one-on-one Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </>
   );

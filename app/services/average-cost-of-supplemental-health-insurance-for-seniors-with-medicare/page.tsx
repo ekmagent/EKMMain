@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "average cost of supplemental health insurance for seniors with medicare | Free Broker Comparison | MedicareYourself",
   description:
-    "Compare average Medigap costs for seniors on Medicare. See how plan pricing works by age, state, and carrier. Call 855-559-1700 for a free broker comparison.",
+    "Compare average Medigap costs for seniors on Medicare by age, state, and carrier. Get a free broker comparison — call 855-559-1700 to find your lowest rate.",
   alternates: { canonical: "https://medicareyourself.com/services/average-cost-of-supplemental-health-insurance-for-seniors-with-medicare" },
   openGraph: {
     title:
@@ -118,6 +118,22 @@ const faqs = [
     question: "Do I pay the Part B premium in addition to my Medigap plan?",
     answer:
       "Yes. Medigap supplements Original Medicare, so you must remain enrolled in Medicare Part B and continue paying the standard Part B premium. Your Medigap premium is separate and paid directly to the private insurance carrier that issued your policy.",
+  }
+,
+  {
+    question: "Does where I live affect how much I pay for supplemental insurance?",
+    answer:
+      "Yes. Medigap premiums vary widely by state and even by zip code within the same state. Carriers factor in local claims experience, state rating rules, and regional healthcare costs when setting prices. The same lettered plan with identical benefits can cost noticeably more or less depending on your location.",
+  },
+  {
+    question: "Will my Medigap premium go up as I get older?",
+    answer:
+      "It depends on how your plan is priced. Attained-age policies increase as you age, issue-age policies are based on your age at enrollment but can still rise with inflation, and community-rated policies charge everyone the same regardless of age. All three types can adjust annually for inflation and claims costs.",
+  },
+  {
+    question: "How can a licensed broker help me find the lowest Medigap premium?",
+    answer:
+      "Because every carrier sells the same lettered benefits but prices differ, a broker can compare multiple companies in your zip code side by side. This helps you avoid overpaying for identical coverage. Call 855-559-1700 to get a free comparison from Anthony Orner, a licensed Medicare broker.",
   }
 ];
 
@@ -313,6 +329,7 @@ export default function AverageCostSupplementalInsurancePage() {
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/health-drug-plans/medigap/basics/costs" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Medicare.gov — Get Medigap Costs</a> and <a href="https://www.medicare.gov/health-drug-plans/medigap/basics/compare-plan-benefits" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Compare Medigap Plan Benefits</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/index.shtml" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a> or the free <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">SHIP counseling program</a> for unbiased Medicare guidance.</div>
             <div className="text-sm text-gray-600 mt-4">For state-specific help, contact the <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> or the <a href="https://www.nj.gov/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

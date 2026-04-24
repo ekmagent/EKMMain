@@ -102,6 +102,17 @@ const faqs = [
     answer:
       "Yes. Medicare Part B covers the Medicare Diabetes Prevention Program (MDPP) for eligible beneficiaries at no cost to you. The program provides training on diet, exercise, and lifestyle changes to help prevent type 2 diabetes. You can find an in-person or online program through Medicare.gov, and there is no cost-sharing if you qualify.",
   }
+,
+  {
+    question: "Does Medicare Part D cover insulin?",
+    answer:
+      "Yes. Medicare Part D plans cover insulin, and there is a monthly cap on what you pay for a one-month supply of each covered insulin product. Coverage details and formularies vary by plan, so it's important to confirm your specific insulin is on the plan's drug list before enrolling. Call 855-559-1700 for help comparing Part D plans based on your prescriptions.",
+  },
+  {
+    question: "Are diabetes self-management training and supplies covered by Medicare?",
+    answer:
+      "Yes. Medicare Part B covers diabetes self-management training when ordered by your doctor, along with blood sugar monitors, test strips, lancets, and therapeutic shoes or inserts for people with diabetes-related foot conditions. You generally pay coinsurance after meeting the Part B deductible, and the Part B premium applies. Supplies are typically obtained through a Medicare-enrolled supplier.",
+  }
 ];
 
 export default function MedicareEnrollmentHelpDiabetes() {

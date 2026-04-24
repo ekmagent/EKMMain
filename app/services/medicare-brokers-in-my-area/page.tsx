@@ -330,7 +330,8 @@ export default function MedicareBrokersInMyArea() {
               </Link>
             </li>
 </ul>
-        </section>
+              <div className="text-sm text-gray-600 mt-4">NJ residents can verify a broker's license through the <a href="https://www.njdobi.org/DOBI_LSRCH/lookup.htm" target="_blank" rel="noopener noreferrer" className="underline">NJ Department of Banking and Insurance license lookup</a> or get free unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" target="_blank" rel="noopener noreferrer" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+      </section>
       </article>
     </>
   );

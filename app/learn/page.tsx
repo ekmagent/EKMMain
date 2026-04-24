@@ -74,6 +74,12 @@ const GUIDES = [
     answer:
       "Yes. Every guide on MedicareYourself is free and written in plain English by a licensed Medicare insurance broker. There is no signup or email required to read them. If you have a question a guide doesn't answer, you can call 855-559-1700 for personal help.",
   }
+,
+  {
+    question: "What's the difference between Original Medicare and Medicare Advantage?",
+    answer:
+      "Original Medicare is the federal program that includes Part A (hospital) and Part B (medical), and you can add a standalone Part D drug plan and a Medigap policy. Medicare Advantage (Part C) is an all-in-one alternative offered by private insurers that bundles Part A, Part B, and usually Part D into one plan with its own network and rules. Each path has trade-offs in cost, flexibility, and provider access. Call 855-559-1700 if you'd like help comparing the two.",
+  }
 ];
 
 export default function LearnHubPage() {

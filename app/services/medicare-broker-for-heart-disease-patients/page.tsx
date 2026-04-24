@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare broker for heart disease patients | Free Help Finding the Right Plan | MedicareYourself",
   description:
-    "Medicare broker for heart disease patients — compare plans covering cardiac rehab, cardiologists & drugs. Free help from Anthony Orner. Call 855-559-1700.",
+    "Medicare broker for heart disease patients — find plans covering cardiologists, cardiac rehab & heart meds. Free help from Anthony Orner. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-heart-disease-patients" },
   openGraph: {
     title:
@@ -104,6 +104,12 @@ const faqs = [
     question: "Will a Medicare Advantage plan cover my cardiologist?",
     answer:
       "Only if your cardiologist is in the plan's network. Medicare Advantage plans use provider networks, so before enrolling it's critical to verify that your cardiologist, hospital, and any specialists you see accept the specific plan. A broker can check network status for every plan in your area before you commit.",
+  }
+,
+  {
+    question: "Will Medicare cover my cardiologist visits and heart procedures?",
+    answer:
+      "Yes. Medicare Part B covers medically necessary cardiologist visits, diagnostic tests like EKGs and echocardiograms, and outpatient procedures. Part A covers inpatient hospital stays for heart surgery, stent placement, and other cardiac admissions. With Original Medicare you pay coinsurance unless a Medigap plan covers your share, while Medicare Advantage plans use copays and networks that vary by carrier.",
   }
 ];
 
@@ -295,6 +301,7 @@ export default function MedicareBrokerHeartDiseasePatients() {
         </ul>
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/coverage/cardiac-rehabilitation-programs" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Cardiac Rehabilitation Coverage</a> and <a href="https://www.medicare.gov/basics/costs/medicare-costs" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — 2026 Costs at a Glance</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for congestive heart failure patients | Free Plan Review | MedicareYourself",
   description:
-    "Medicare broker for congestive heart failure patients. Anthony Orner compares plans covering cardiac rehab, CHF meds & hospital stays. Call 855-559-1700.",
+    "Medicare broker for congestive heart failure patients. Anthony Orner compares plans covering cardiac rehab, CHF meds & hospital stays. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-congestive-heart-failure-patients" },
   openGraph: {
     title:

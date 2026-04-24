@@ -43,6 +43,12 @@ const faqs = [
     answer:
       "For most people, yes. At 70 you are more likely to use medical services, and Plan G covers everything except the $283 annual Part B deductible. Without Plan G, you would pay 20% of all Part B services with no out-of-pocket cap. One hospital stay or surgery could cost thousands. The predictable monthly premium protects against unpredictable bills.",
   },
+,
+  {
+    question: "Does New Jersey have guaranteed issue for Medigap year-round?",
+    answer:
+      "No. New Jersey follows the federal rule that guarantees Medigap issue during your 6-month Medigap Open Enrollment Period, which starts when you are 65 or older and enrolled in Part B. Outside that window, carriers may use medical underwriting unless you qualify for a specific guaranteed-issue situation under federal law.",
+  }
 ];
 
 export default function PlanGRatesByAgeNJPage() {

@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Best Medicare Advantage Plans in NJ 2026",
   description:
-    "Compare 2026 Medicare Advantage plans in New Jersey with $0 premium options plus drug, dental and vision benefits. Call 855-559-1700 for free broker help.",
+    "Compare 2026 Medicare Advantage plans in New Jersey with $0 premium options, drug, dental and vision benefits. Call 855-559-1700 for free broker guidance.",
   alternates: { canonical: `${SITE_URL}/medicare-advantage/new-jersey` },
   openGraph: {
     title: "Best Medicare Advantage Plans in NJ 2026",
@@ -144,6 +144,7 @@ export default function NJMedicareAdvantagePage() {
             <div className="text-sm text-gray-600 mt-2">New Jersey help: <a href="https://www.nj.gov/humanservices/doas/services/ship/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">NJ State Health Insurance Assistance Program (SHIP)</a> offers free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.nj.gov/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">NJ State Health Insurance Assistance Program (SHIP)</a> offers free, unbiased Medicare counseling to New Jersey residents.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.nj.gov/humanservices/doas/services/ship/" target="_blank" rel="noopener noreferrer" className="text-blue-700 underline">NJ State Health Insurance Assistance Program (SHIP)</a> offers free, unbiased Medicare counseling to New Jersey residents.</div>
+            <div className="text-sm text-gray-600 mt-4">For free unbiased counseling, contact <a href="https://www.nj.gov/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">New Jersey SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </>
   );

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "local medicare agent | Free Consultation, No Obligation | MedicareYourself",
   description:
-    "Local medicare agent Anthony Orner is licensed in NJ and PA, representing top carriers. Get unbiased plan guidance at zero cost. Book a free call today.",
+    "Meet a local Medicare agent licensed in NJ & PA. Anthony Orner compares top carriers at no cost. Book your free, no-obligation consultation today.",
   alternates: { canonical: "https://medicareyourself.com/services/local-medicare-agent" },
   openGraph: {
     title:

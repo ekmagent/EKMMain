@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "My Medicare Supplement Rate Just Jumped — Why, and What Can I Do? | Free Rate Comparison | MedicareYourself",
   description:
-    "Medicare Supplement rate jumped? Learn why Medigap premiums rise and how switching carriers (same benefits, lower cost) can save you money. Free comparison.",
+    "Medigap rate jumped? Learn why Medicare Supplement premiums rise and how switching to the same plan letter with a new carrier can lower your cost. Free review.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-supplement-rate-jumped-why-and-what-can-i-do" },
   openGraph: {
     title:
@@ -324,6 +324,7 @@ export default function MedicareSupplementRateJumpedPage() {
         </ul>
             <div className="text-sm text-gray-600 mt-4">Learn more from official sources: <a href="https://www.medicare.gov/health-drug-plans/medigap" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">Medicare.gov — Medigap (Medicare Supplement Insurance)</a> and <a href="https://www.medicare.gov/health-drug-plans/medigap/basics/costs" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">How Medigap Policies Are Priced</a>.</div>
             <div className="text-sm text-gray-600 mt-4">For state-specific guidance, contact the <a href="https://www.state.nj.us/dobi/index.html" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">New Jersey Department of Banking and Insurance</a> or your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">local SHIP counselor</a> for free, unbiased Medicare help.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">NJ Department of Banking and Insurance</a> or the free <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">NJ State Health Insurance Assistance Program (SHIP)</a> for unbiased Medigap guidance.</div>
       </section>
     </main>
   );

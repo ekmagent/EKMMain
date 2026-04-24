@@ -312,6 +312,7 @@ export default function FreeMedicareAgentPaperworkPage() {
         </ul>
             <div className="text-sm text-gray-600 mt-4">For official Medicare information, visit <a href="https://www.medicare.gov/talk-to-someone" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">Medicare.gov's Talk to Someone page</a> or call 1-800-MEDICARE (1-800-633-4227), available 24/7.</div>
             <div className="text-sm text-gray-600 mt-4">You can also get free one-on-one Medicare counseling from your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free one-on-one counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

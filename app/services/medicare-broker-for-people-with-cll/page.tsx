@@ -85,6 +85,12 @@ const faqs = [
     answer:
       "CLL patients who need ongoing oncology care, frequent lab work, or access to specialists at major cancer centers often do better on Original Medicare with a Medigap supplement. Medicare Advantage plans use provider networks that may limit access to CLL specialists. Call us at 855-559-1700 to compare your specific options.",
   },
+,
+  {
+    question: "Will Medicare cover a second opinion from a CLL specialist?",
+    answer:
+      "Yes. Medicare Part B covers second opinions from specialists, including CLL experts at academic cancer centers. If the first and second opinions differ, Medicare will also cover a third opinion. With Original Medicare plus Medigap, you can see any oncologist nationwide who accepts Medicare, which is often helpful for accessing CLL specialists.",
+  }
 ];
 
 export default function MedicareBrokerForPeopleWithCLL() {

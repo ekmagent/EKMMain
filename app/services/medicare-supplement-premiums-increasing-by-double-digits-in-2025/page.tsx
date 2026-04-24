@@ -102,6 +102,12 @@ const faqs = [
     answer:
       "Don't panic or cancel your policy. Request a free rate review to compare the same plan letter across other carriers in your state. If you can pass medical underwriting, you may qualify for a lower premium with identical benefits. Call 855-559-1700 to review your options before your renewal date.",
   }
+,
+  {
+    question: "What should I do if I received a rate increase letter from my Medigap carrier?",
+    answer:
+      "Don't panic or cancel your coverage before comparing options. Request a free rate review to see what other carriers charge for the same plan letter in your ZIP code. If you qualify medically, switching carriers while keeping the same benefits could lower your monthly premium. Call 855-559-1700 to compare.",
+  }
 ];
 
 export default function MedicareSupplementPremiumsIncreasing2025() {

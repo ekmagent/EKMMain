@@ -69,6 +69,12 @@ const faqs = [
     answer:
       "Yes. Medigap plans are standardized by the federal government, so Plan G from one carrier provides identical benefits as Plan G from another carrier. The only differences are the monthly premium, the insurer's customer service, and rate stability. This makes price shopping in New Jersey straightforward — same coverage, different cost.",
   }
+,
+  {
+    question: "Do Medigap premiums in New Jersey increase as I get older?",
+    answer:
+      "Because New Jersey uses community rating for Medicare Supplement plans, your premium is not based on your individual age. Rates can still change over time due to inflation and carrier-wide adjustments, but you will not be charged more simply for aging into a higher age bracket. This makes NJ Medigap pricing more predictable than in age-rated states.",
+  }
 ];
 
 export default function NJMedicareCostPage() {

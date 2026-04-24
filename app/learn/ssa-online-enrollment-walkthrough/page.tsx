@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title:
     "How to Enroll in Medicare Online at SSA.gov (Step-by-Step Walkthrough)",
   description:
-    "Step-by-step SSA.gov Medicare enrollment walkthrough — 9 screens in about 10 minutes. Avoid costly mistakes. Free broker help at 855-559-1700.",
+    "Step-by-step SSA.gov Medicare enrollment walkthrough — 9 screens in about 10 minutes. Avoid Part B penalty mistakes. Free broker help at 855-559-1700.",
   alternates: {
     canonical: `${SITE_URL}/learn/ssa-online-enrollment-walkthrough`,
   },
@@ -240,6 +240,22 @@ const steps = [
     question: "Do I have to enroll in Part B when I apply online?",
     answer:
       "No. During the application, SSA will ask whether you want to enroll in Part B or decline it. If you have creditable coverage through an active employer group health plan, you may choose to delay Part B without a late enrollment penalty. If you are unsure, call us at 855-559-1700 before you submit to review your options.",
+  }
+,
+  {
+    question: "How long does the SSA online Medicare application take to complete?",
+    answer:
+      "Most people finish the SSA.gov Medicare application in about 10 minutes across 9 screens. Having your Social Security number, driver's license, and current insurance information ready before you start will help you move through it without pausing.",
+  },
+  {
+    question: "Can I change my Medicare application after I submit it online?",
+    answer:
+      "No. Once you agree to the Electronic Signature Agreement and click Submit Now on SSA.gov, the application cannot be modified online. If you notice a mistake, you will need to contact Social Security directly to correct or withdraw it.",
+  },
+  {
+    question: "Do I have to enroll in Part B when I apply online?",
+    answer:
+      "No. During the application, SSA will ask whether you want Medicare only (without retirement benefits) and whether you want Part B. You can choose Part A only if you have creditable employer coverage, but delaying Part B without qualifying coverage can trigger a lifelong late enrollment penalty. If you're unsure, call 855-559-1700 before submitting.",
   }
 ];
 

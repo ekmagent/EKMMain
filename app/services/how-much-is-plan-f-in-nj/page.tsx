@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "how much is plan F in nj | Free Rate Lookup by Age | MedicareYourself",
   description:
-    "How much is Plan F in NJ in 2026? Compare premiums by age, see why rates keep rising, and find out if Plan G saves more. Call 855-559-1700 for a free quote.",
+    "How much is Plan F in NJ in 2026? Compare premiums by age, see why rates keep rising, and learn if Plan G saves more. Call 855-559-1700 for a free quote.",
   alternates: { canonical: "https://medicareyourself.com/services/how-much-is-plan-f-in-nj" },
   openGraph: {
     title:

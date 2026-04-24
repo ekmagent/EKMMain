@@ -312,6 +312,7 @@ export default function MedicareBrokerForGlaucomaPatients() {
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/coverage/glaucoma-screenings" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Medicare.gov — Glaucoma Screenings Coverage</a> and <a href="https://www.medicare.gov/coverage/eye-exams" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Medicare.gov — Eye Exams</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased help through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </div>
   );

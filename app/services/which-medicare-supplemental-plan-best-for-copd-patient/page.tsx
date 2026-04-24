@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "which medicare supplemental plan best for copd patient? | Free Expert Advice | MedicareYourself",
   description:
-    "Which Medicare Supplement is best for COPD? Compare Plan G vs Plan N for oxygen, inhalers & ER visits. Call 855-559-1700 for a free broker review.",
+    "Compare Medigap Plan G and Plan N for COPD oxygen, inhalers, and ER visits. Get a free, no-obligation broker review — call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/which-medicare-supplemental-plan-best-for-copd-patient" },
   openGraph: {
     title:
@@ -84,6 +84,22 @@ const faqs = [
     answer:
       "During your Medigap Open Enrollment Period (the 6 months starting when you're 65+ and enrolled in Part B), insurers cannot deny you or charge more due to COPD. Outside that window, medical underwriting may apply and approval isn't guaranteed. Call us at 855-559-1700 to review your options.",
   },
+,
+  {
+    question: "Does Medicare cover pulmonary rehabilitation for COPD?",
+    answer:
+      "Yes. Medicare Part B covers pulmonary rehabilitation programs for patients with moderate to very severe COPD when referred by the doctor treating the condition. After Medicare pays its share, a Medigap plan like Plan G or Plan N covers the remaining coinsurance, which can add up over a multi-session program.",
+  },
+  {
+    question: "Is Plan N a good option for a COPD patient on a tighter budget?",
+    answer:
+      "Plan N can work well if you want a lower monthly premium and don't mind small copays for office and ER visits. However, Plan N does not cover Part B excess charges, so if your pulmonologist does not accept Medicare assignment, you could owe more. We can review local provider billing patterns before you decide.",
+  },
+  {
+    question: "Will my Medigap plan cover hospital stays for COPD flare-ups?",
+    answer:
+      "Yes. All standardized Medigap plans cover Part A hospital coinsurance and add extra days of coverage after Medicare benefits are used up. Plan G and Plan N both cover the Part A deductible and hospital coinsurance in full, which is valuable for COPD patients who may face repeated admissions.",
+  }
 ];
 
 export default function WhichMedicareSupplementalPlanBestForCOPDPatient() {

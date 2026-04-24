@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare broker for people with pre-existing conditions | Free Guidance | MedicareYourself",
   description:
-    "Medicare broker for people with pre-existing conditions — know which carriers underwrite leniently and when health questions don't apply. Call 855-559-1700.",
+    "Medicare broker for people with pre-existing conditions — find lenient carriers, guaranteed issue rights, and plans that skip health questions. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-people-with-pre-existing-conditions" },
   openGraph: {
     title:
@@ -102,6 +102,22 @@ const faqs = [
     question: "Can switching Medigap plans trigger underwriting if I have health issues?",
     answer:
       "In most states, yes. If you already have a Medigap plan and want to switch to a different one outside a protected enrollment window, the new carrier can typically require medical underwriting. A few states have birthday rules or annual switch windows that allow changes without health questions, so the rules depend on where you live.",
+  }
+,
+  {
+    question: "Do Medicare Advantage plans use medical underwriting for pre-existing conditions?",
+    answer:
+      "No. Medicare Advantage plans cannot deny enrollment, charge more, or impose waiting periods based on pre-existing conditions. The only exception historically was End-Stage Renal Disease, but that restriction was removed starting in 2021, so people with ESRD can now enroll in Medicare Advantage plans during applicable enrollment periods.",
+  },
+  {
+    question: "Which pre-existing conditions make Medigap underwriting harder?",
+    answer:
+      "Conditions carriers scrutinize most closely include recent cancer treatment, congestive heart failure, COPD, diabetes with complications, kidney disease, and recent strokes or heart attacks. Each carrier has its own underwriting guidelines, so a condition that disqualifies you with one insurer may be acceptable to another. That's why working with a broker who knows carrier-specific rules matters.",
+  },
+  {
+    question: "What is a guaranteed issue right and how does it help?",
+    answer:
+      "Guaranteed issue rights are federal protections that require Medigap carriers to sell you a policy without medical underwriting, regardless of your health history. They are triggered by specific situations, such as losing employer coverage or a Medicare Advantage plan leaving your area. When a guaranteed issue right applies, pre-existing conditions cannot be used to deny or surcharge your policy.",
   }
 ];
 

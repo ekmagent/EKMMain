@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Switch Medigap Carriers, Same Plan G (2026)",
   description:
-    "Got a Plan G rate increase? Switch carriers and keep identical coverage at a lower premium. Free comparison help in NJ and 34 states — call today.",
+    "Switch Medigap Plan G carriers and keep identical coverage at a lower premium. Free rate comparison in NJ & 34 states — call 855-559-1700 today.",
   alternates: { canonical: `${SITE_URL}/medicare-supplement/switch-carriers` },
   openGraph: {
     title: "Switch Medigap Carriers, Same Plan G (2026)",
@@ -102,6 +102,22 @@ const faqs = [
     question: "Should I cancel my old Medigap policy before the new one is approved?",
     answer:
       "No. Always wait until your new Medicare Supplement policy is approved and has an active start date before cancelling the old one. This prevents any gap in coverage if the new carrier declines your application due to underwriting. Once the new plan is in force, contact your old carrier in writing to cancel and request a refund of any unused premium.",
+  }
+,
+  {
+    question: "Will I have to answer health questions to switch Medigap carriers?",
+    answer:
+      "In most states, yes. Outside of your 6-month Medigap Open Enrollment Period or a Guaranteed Issue situation, carriers can use medical underwriting and deny your application based on health. Some states have additional protections that let you switch more freely, so it's worth checking your state's rules. A licensed broker can pre-screen your health questions to tell you which carriers are likely to approve you before you apply.",
+  },
+  {
+    question: "What happens to my old Medigap policy when I switch?",
+    answer:
+      "You keep your current policy active until the new carrier approves you and sets a start date. Once the new plan is effective, you contact the old carrier to cancel. Most new Medigap policies also include a 30-day free look period, during which you can cancel the new plan and keep the old one if you change your mind.",
+  },
+  {
+    question: "Does switching Medigap carriers restart a deductible or waiting period?",
+    answer:
+      "Plan G has no annual deductible to restart, so there is no coverage gap when you switch. If you've had creditable coverage continuously, the new carrier generally cannot impose a pre-existing condition waiting period. Your Medicare Part A and Part B benefits are unaffected by the Medigap change.",
   }
 ];
 

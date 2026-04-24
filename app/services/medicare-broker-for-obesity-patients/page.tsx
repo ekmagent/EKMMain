@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for obesity patients | Free Plan Comparison | MedicareYourself",
   description:
-    "Medicare broker for obesity patients — Anthony Orner finds NJ plans covering behavioral therapy, bariatric surgery, and GLP-1 drugs. Free comparison.",
+    "Medicare broker for obesity patients — Anthony Orner compares NJ plans covering behavioral therapy, bariatric surgery & GLP-1 drugs. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-obesity-patients" },
   openGraph: {
     title:

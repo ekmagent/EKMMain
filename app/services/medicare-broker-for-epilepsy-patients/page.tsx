@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for epilepsy patients | Free Coverage Consultation | MedicareYourself",
   description:
-    "Medicare broker for epilepsy patients in NJ. Anthony Orner finds plans covering seizure meds, ER visits, and neurology with no surprise gaps. Free quote.",
+    "Medicare broker for epilepsy patients in NJ. Anthony Orner compares Part D formularies and Medigap options so seizure meds and neurology visits stay covered.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-epilepsy-patients" },
   openGraph: {
     title:
