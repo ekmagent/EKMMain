@@ -42,3 +42,6 @@ next-env.d.ts
 
 # screaming frog crawl exports (large CSV files, local only)
 /screaming-frog-reports/
+
+# CSG carrier probes — commercially-licensed rate data; derived content only goes on pages
+/artifacts/csg-probes/
