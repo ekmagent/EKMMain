@@ -27,17 +27,7 @@
 
 const fs = require("fs");
 const path = require("path");
-
-// Load .env.local (same place the Next.js app reads CSG credentials from)
-try {
-  const envText = fs.readFileSync(path.resolve(__dirname, "..", ".env.local"), "utf8");
-  for (const line of envText.split("\n")) {
-    const m = line.match(/^\s*([A-Z_]+)\s*=\s*(.*)\s*$/);
-    if (m && !process.env[m[1]]) process.env[m[1]] = m[2].replace(/^["']|["']$/g, "");
-  }
-} catch {
-  // .env.local not found — relying on ambient env
-}
+const { csgFetch } = require("./csg-auth"); // shared auth with disk-backed token cache
 
 // ---------------------------------------------------------------------------
 // Config
@@ -59,60 +49,6 @@ const OUT_DIR = path.resolve(__dirname, "..", "artifacts", "csg-probes");
 const BY_CARRIER_DIR = path.join(OUT_DIR, "by-carrier");
 const SNAPSHOT_FILE = path.join(OUT_DIR, "full-snapshot.json");
 const CARRIERS_INDEX = path.join(OUT_DIR, "carriers.md");
-
-// ---------------------------------------------------------------------------
-// CSG auth (forked from scripts/csg-snapshot.js)
-// ---------------------------------------------------------------------------
-const CSG_BASE = process.env.CSG_BASE_URL || "https://api.csgactuarial.com/v1";
-const CSG_API_KEY = process.env.CSG_API_KEY || "";
-const CSG_PORTAL = process.env.CSG_PORTAL_NAME || "csg_individual";
-
-if (!CSG_API_KEY) {
-  console.error("CSG_API_KEY not set. Add it to .env.local.");
-  process.exit(1);
-}
-
-let cachedToken = null;
-let tokenExpires = 0;
-
-async function getToken() {
-  const now = Date.now();
-  const buffer = 15 * 60 * 1000;
-  if (cachedToken && tokenExpires > now + buffer) return cachedToken;
-
-  const res = await fetch(`${CSG_BASE}/auth.json`, {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ api_key: CSG_API_KEY, portal_name: CSG_PORTAL }),
-  });
-  if (!res.ok) {
-    const text = await res.text().catch(() => "");
-    throw new Error(`CSG auth failed: ${res.status} ${text}`);
-  }
-  const data = await res.json();
-  cachedToken = data.token;
-  const expires = new Date(data.expires_date).getTime();
-  tokenExpires = isNaN(expires) ? now + 3600000 : expires;
-  return cachedToken;
-}
-
-async function csgFetch(endpoint, params) {
-  const token = await getToken();
-  const qs = new URLSearchParams(params).toString();
-  let res = await fetch(`${CSG_BASE}/${endpoint}?${qs}`, {
-    headers: { "x-api-token": token },
-  });
-  if (res.status === 401 || res.status === 403) {
-    cachedToken = null;
-    tokenExpires = 0;
-    const fresh = await getToken();
-    res = await fetch(`${CSG_BASE}/${endpoint}?${qs}`, {
-      headers: { "x-api-token": fresh },
-    });
-  }
-  if (!res.ok) throw new Error(`CSG ${endpoint} failed: ${res.status}`);
-  return res.json();
-}
 
 // ---------------------------------------------------------------------------
 // Helpers

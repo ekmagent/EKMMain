@@ -45,3 +45,6 @@ next-env.d.ts
 
 # CSG carrier probes — commercially-licensed rate data; derived content only goes on pages
 /artifacts/csg-probes/
+
+# CSG auth token cache — credential, never commit
+/scripts/.csg-token.json
