@@ -442,17 +442,16 @@ export default function HumanaMedigapReviewPage() {
               </article>
             ))}
 
-            {/* MI gap disclosure */}
+            {/* North Carolina note — we sell there but don't have data in this snapshot yet */}
             <div className="bg-white border border-gray-200 rounded-xl p-6 text-sm text-gray-700">
-              <h3 className="font-semibold text-gray-900 mb-2">Michigan — Data Unavailable</h3>
+              <h3 className="font-semibold text-gray-900 mb-2">North Carolina — Data Refresh Pending</h3>
               <p>
-                We are appointed with the Humana-family carriers in Michigan and can place
-                Medigap policies there, but real-time rate data for Michigan ZIP codes is not
-                currently available through our quoting interface. Call{" "}
+                We place Humana Medicare Supplement policies in North Carolina. State-specific rate
+                and loss-ratio data for NC will be added in the next CSG Actuarial data refresh.
+                For current NC quotes, call{" "}
                 <a href="tel:8555591700" className="text-blue-700 hover:underline font-medium">855-559-1700</a>
                 {" "}or apply at{" "}
-                <a href={APPLY_URL} className="text-blue-700 hover:underline font-medium">healthplans.now</a>
-                {" "}for Michigan-specific quotes and carrier comparisons.
+                <a href={APPLY_URL} className="text-blue-700 hover:underline font-medium">healthplans.now</a>.
               </p>
             </div>
           </div>

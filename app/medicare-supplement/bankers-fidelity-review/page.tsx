@@ -203,7 +203,7 @@ export default function BankersFidelityReviewPage() {
           <div className="grid md:grid-cols-2 gap-4 mb-6">
             <div className="bg-white rounded-lg p-5 border border-green-100">
               <h3 className="font-semibold text-gray-900 mb-2">
-                Pennsylvania, New Jersey, Michigan
+                Pennsylvania, New Jersey
               </h3>
               <p className="text-gray-700 text-sm">
                 Your policy is typically issued by{" "}
@@ -212,7 +212,7 @@ export default function BankersFidelityReviewPage() {
               </p>
             </div>
             <div className="bg-white rounded-lg p-5 border border-green-100">
-              <h3 className="font-semibold text-gray-900 mb-2">Ohio, Texas</h3>
+              <h3 className="font-semibold text-gray-900 mb-2">Ohio, North Carolina, Texas</h3>
               <p className="text-gray-700 text-sm">
                 Your policy is typically issued by{" "}
                 <strong>Atlantic Capital Life Assurance Company</strong>, the group&apos;s newer
@@ -395,7 +395,7 @@ export default function BankersFidelityReviewPage() {
             <strong>Disclosure.</strong> This page is published by MedicareYourself, a brand of
             EasyKind Medicare. We are a licensed independent Medicare insurance broker. We do not
             offer every plan available in your area. Currently we place Bankers Fidelity family
-            Medicare Supplement policies in Pennsylvania, New Jersey, Ohio, Michigan, and Texas. Any
+            Medicare Supplement policies in Pennsylvania, New Jersey, Ohio, North Carolina, and Texas. Any
             information we provide is limited to the plans we offer in your area. Please contact
             Medicare.gov or 1-800-MEDICARE (TTY 1-877-486-2048), 24 hours a day, 7 days a week, to
             get information on all of your options. Plan availability, plan letters, and premiums
