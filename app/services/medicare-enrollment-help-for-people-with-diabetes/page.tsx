@@ -113,6 +113,22 @@ const faqs = [
     answer:
       "Yes. Medicare Part B covers diabetes self-management training when ordered by your doctor, along with blood sugar monitors, test strips, lancets, and therapeutic shoes or inserts for people with diabetes-related foot conditions. You generally pay coinsurance after meeting the Part B deductible, and the Part B premium applies. Supplies are typically obtained through a Medicare-enrolled supplier.",
   }
+,
+  {
+    question: "Does Medicare cover the Medicare Diabetes Prevention Program?",
+    answer:
+      "Yes. Medicare Part B covers the Medicare Diabetes Prevention Program (MDPP) for eligible beneficiaries at no cost to you if you qualify. The program offers training to help you make lasting diet and exercise changes to prevent type 2 diabetes. You can find an in-person or online program through medicare.gov.",
+  },
+  {
+    question: "Will Part D cover my insulin under Medicare?",
+    answer:
+      "Yes. Medicare Part D plans cover insulin, and recent law caps your monthly cost-sharing for a covered insulin product. Insulin used with a traditional insulin pump is generally covered under Part B as durable medical equipment instead. Call 855-559-1700 to make sure your specific insulin is on a plan's formulary before enrolling.",
+  },
+  {
+    question: "Are diabetes test strips and blood sugar monitors covered by Medicare?",
+    answer:
+      "Yes. Medicare Part B covers blood sugar monitors, test strips, lancets, and control solutions as durable medical equipment when prescribed by your doctor. You'll need to use a Medicare-enrolled DME supplier to get the lowest cost. Quantities covered may depend on whether you use insulin.",
+  }
 ];
 
 export default function MedicareEnrollmentHelpDiabetes() {

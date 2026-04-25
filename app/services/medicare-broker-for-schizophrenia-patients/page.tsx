@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for schizophrenia patients | Free Coverage Analysis | MedicareYourself",
   description:
-    "Medicare broker for schizophrenia patients — Anthony Orner finds NJ plans covering antipsychotics, injectables, and psychiatric care. Free consultation.",
+    "Medicare broker for schizophrenia patients — Anthony Orner compares NJ plans covering antipsychotics, injectables & psychiatric care. Free help, call today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-schizophrenia-patients" },
   openGraph: {
     title:

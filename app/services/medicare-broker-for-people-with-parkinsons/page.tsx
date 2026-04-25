@@ -342,6 +342,7 @@ export default function MedicareBrokerForPeopleWithParkinsons() {
 </ul>
               <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/coverage/deep-brain-stimulation-for-essential-tremor-parkinsons-disease" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Deep Brain Stimulation coverage</a> and <a href="https://www.medicare.gov/basics/costs/medicare-costs" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — 2026 costs at a glance</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
       </section>
       </article>
     </>

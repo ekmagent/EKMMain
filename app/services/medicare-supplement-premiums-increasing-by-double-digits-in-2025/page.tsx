@@ -108,6 +108,22 @@ const faqs = [
     answer:
       "Don't panic or cancel your coverage before comparing options. Request a free rate review to see what other carriers charge for the same plan letter in your ZIP code. If you qualify medically, switching carriers while keeping the same benefits could lower your monthly premium. Call 855-559-1700 to compare.",
   }
+,
+  {
+    question: "What should I do if I get a Medigap rate increase notice?",
+    answer:
+      "Don't panic or drop coverage. Request a free rate comparison from a licensed broker who can quote the same plan letter across multiple carriers. Because Plan G is Plan G regardless of carrier, switching to a lower-priced carrier preserves identical benefits if you can pass underwriting. Call 855-559-1700 to review your options.",
+  },
+  {
+    question: "Why are Medigap premiums rising by double digits in 2025?",
+    answer:
+      "Carriers cite rising medical claim costs, increased utilization of healthcare services, and aging risk pools as the main drivers. When a carrier's block of policyholders gets older and sicker, premiums climb to keep pace with claims. Newer carriers with younger pools often file smaller increases.",
+  },
+  {
+    question: "Will switching carriers change my doctors or hospitals?",
+    answer:
+      "No. Medicare Supplement plans work with any provider that accepts Original Medicare nationwide. Switching from one Medigap carrier to another does not affect which doctors or hospitals you can use, only who pays the supplemental portion of your bills.",
+  }
 ];
 
 export default function MedicareSupplementPremiumsIncreasing2025() {

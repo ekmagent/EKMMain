@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title:
     "How to Enroll in Medicare Online at SSA.gov (Step-by-Step Walkthrough)",
   description:
-    "Step-by-step SSA.gov Medicare enrollment walkthrough — 9 screens in about 10 minutes. Avoid Part B penalty mistakes. Free broker help at 855-559-1700.",
+    "Step-by-step SSA.gov Medicare enrollment walkthrough — 9 screens in about 10 minutes. Avoid Part B mistakes. Free broker help at 855-559-1700.",
   alternates: {
     canonical: `${SITE_URL}/learn/ssa-online-enrollment-walkthrough`,
   },
@@ -256,6 +256,22 @@ const steps = [
     question: "Do I have to enroll in Part B when I apply online?",
     answer:
       "No. During the application, SSA will ask whether you want Medicare only (without retirement benefits) and whether you want Part B. You can choose Part A only if you have creditable employer coverage, but delaying Part B without qualifying coverage can trigger a lifelong late enrollment penalty. If you're unsure, call 855-559-1700 before submitting.",
+  }
+,
+  {
+    question: "How long does the SSA online Medicare application take?",
+    answer:
+      "Most people complete the SSA.gov Medicare-only application in about 10 minutes if they have their documents ready. You'll need your Social Security number, a driver's license or state ID for identity verification, and details about any current health insurance coverage.",
+  },
+  {
+    question: "Can I enroll in Medicare online if I'm not taking Social Security retirement benefits yet?",
+    answer:
+      "Yes. The SSA.gov application lets you apply for Medicare only without filing for retirement benefits. During the application, you'll select the option indicating you want Medicare coverage but are not yet claiming Social Security.",
+  },
+  {
+    question: "Can I change my Medicare application after I submit it on SSA.gov?",
+    answer:
+      "No. Once you click Submit Now and agree to the Electronic Signature Agreement, you cannot modify the application online. If you need to make changes, you'll have to contact Social Security directly by phone or visit a local office.",
   }
 ];
 

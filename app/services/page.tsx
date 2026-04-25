@@ -9,7 +9,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Medicare Services & Guides | MedicareYourself",
   description:
-    "Compare Medigap, Medicare Advantage, and Part D plans with a licensed independent broker. Free, unbiased help in 35 states — call 855-559-1700 today.",
+    "Compare Medigap, Medicare Advantage & Part D plans with a licensed independent broker. Free, unbiased help in 35 states — call 855-559-1700 today.",
   alternates: { canonical: `${SITE_URL}/services` },
   openGraph: {
     title: "Medicare Services & Guides | MedicareYourself",
@@ -246,6 +246,22 @@ const STATIC_CATEGORIES = [
     answer:
       "Most people first enroll during their Initial Enrollment Period around their 65th birthday. After that, the Annual Enrollment Period (October 15 – December 7) lets you change Medicare Advantage and Part D plans, and Medigap can often be applied for year-round, subject to medical underwriting outside of guaranteed-issue windows. You can verify current enrollment windows at medicare.gov.",
   }
+,
+  {
+    question: "What does a licensed Medicare broker help with?",
+    answer:
+      "A licensed independent Medicare broker helps you compare Medigap, Medicare Advantage, and Part D plans across multiple carriers. They explain enrollment windows, eligibility rules, and coverage differences so you can choose a plan that fits your health needs and budget. Working with an independent broker is free to you — carriers pay the broker directly.",
+  },
+  {
+    question: "Is there a cost to use MedicareYourself's services?",
+    answer:
+      "No. Our services are free to consumers. Licensed brokers are compensated by insurance carriers, so your premium is the same whether you enroll on your own or with our help. Call 855-559-1700 to speak with a licensed broker at no cost.",
+  },
+  {
+    question: "Which states does MedicareYourself serve?",
+    answer:
+      "Anthony Orner is a licensed Medicare insurance broker in New Jersey and 34 additional states. We help beneficiaries compare plans, review carriers available in their ZIP code, and enroll during their Initial Enrollment Period, Open Enrollment, or a qualifying Special Enrollment Period.",
+  }
 ];
 
 export default function ServicesHubPage() {
@@ -350,6 +366,7 @@ export default function ServicesHubPage() {
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov</a> · <a href="https://www.medicare.gov/plan-compare/" rel="noopener noreferrer" target="_blank" className="underline">Find & compare plans</a></div>
             <div className="text-sm text-gray-600 mt-2">New Jersey residents: visit the <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or the <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free counseling.</div>
       </section>
     </>
   );

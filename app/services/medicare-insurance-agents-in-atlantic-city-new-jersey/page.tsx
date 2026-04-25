@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare insurance agents in atlantic city new jersey | Free Quotes | MedicareYourself",
   description:
-    "Medicare insurance agents in Atlantic City New Jersey — Anthony Orner compares plans from top carriers in Atlantic County. Free quotes, licensed broker support.",
+    "Medicare insurance agents in Atlantic City, NJ — Anthony Orner compares Medigap, Advantage & Part D plans from top carriers. Free quotes, call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-insurance-agents-in-atlantic-city-new-jersey" },
   openGraph: {
     title:

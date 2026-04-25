@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Switch Medigap Carriers, Same Plan G (2026)",
   description:
-    "Switch Medigap Plan G carriers and keep identical coverage at a lower premium. Free rate comparison in NJ & 34 states — call 855-559-1700 today.",
+    "Switch Medigap Plan G carriers and keep identical, federally standardized coverage at a lower premium. Free rate comparison — call 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/medicare-supplement/switch-carriers` },
   openGraph: {
     title: "Switch Medigap Carriers, Same Plan G (2026)",
@@ -118,6 +118,22 @@ const faqs = [
     question: "Does switching Medigap carriers restart a deductible or waiting period?",
     answer:
       "Plan G has no annual deductible to restart, so there is no coverage gap when you switch. If you've had creditable coverage continuously, the new carrier generally cannot impose a pre-existing condition waiting period. Your Medicare Part A and Part B benefits are unaffected by the Medigap change.",
+  }
+,
+  {
+    question: "What is a Medigap guaranteed issue right when switching carriers?",
+    answer:
+      "Guaranteed issue rights are specific situations where a Medigap carrier must sell you a policy, cover all pre-existing conditions, and cannot charge more due to health. Common triggers include losing employer coverage, your current plan leaving the market, or moving outside your plan's service area. Outside of these situations and your initial 6-month Open Enrollment Period, federal law generally does not require carriers to accept you, though some states offer broader switching rights.",
+  },
+  {
+    question: "Will I have a waiting period for pre-existing conditions if I switch Medigap plans?",
+    answer:
+      "If you have had your current Medigap policy for at least six months, the new carrier generally cannot impose a new pre-existing condition waiting period when you switch to the same or lesser benefits. If you are switching during a guaranteed issue right, the waiting period also cannot be applied. A broker can confirm how this works with the specific carrier you are considering.",
+  },
+  {
+    question: "Should I cancel my old Medigap policy before the new one starts?",
+    answer:
+      "No. Medicare allows a 30-day free-look period when you start a new Medigap policy, so you should keep the old policy active until the new one is approved and in force. Once you confirm the new plan has started, contact the prior carrier in writing to cancel. This prevents any gap in supplemental coverage.",
   }
 ];
 
@@ -340,6 +356,7 @@ export default function SwitchCarriersPage() {
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/health-drug-plans/medigap/ready-to-buy/change-policies/switch-drop" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Medicare.gov – Switching or Dropping a Medigap Policy</a> · <a href="https://www.medicare.gov/health-drug-plans/medigap/basics/when-to-get" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Medigap Open Enrollment Period</a></div>
             <div className="text-sm text-gray-600 mt-4">State help: <a href="https://www.nj.gov/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a> — confirms carrier rates and any state-specific Medigap switching rules.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents: contact <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or the free <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP program</a> for unbiased counseling on switching Medigap carriers.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify carrier rates and complaint history with the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP</a>.</div>
       </section>
     </>
   );

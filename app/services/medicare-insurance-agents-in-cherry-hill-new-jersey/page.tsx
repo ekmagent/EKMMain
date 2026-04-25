@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare insurance agents in cherry hill new jersey | Free Broker Help | MedicareYourself",
   description:
-    "Medicare insurance agents in Cherry Hill, New Jersey — Anthony Orner compares Supplement and Advantage plans across top carriers. Free consultation.",
+    "Medicare insurance agents in Cherry Hill, NJ — Anthony Orner compares Supplement and Advantage plans across top carriers. Free, no-obligation help.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-insurance-agents-in-cherry-hill-new-jersey" },
   openGraph: {
     title:

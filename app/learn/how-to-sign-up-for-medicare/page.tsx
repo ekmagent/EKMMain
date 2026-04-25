@@ -156,6 +156,22 @@ const faqs = [
     answer:
       "Yes. Many people enroll in premium-free Part A at 65 and delay Part B while they have creditable employer coverage from active work. When that employment or coverage ends, you get an 8-month Special Enrollment Period to sign up for Part B without penalty. Always confirm with your HR department that your plan counts as creditable before delaying.",
   }
+,
+  {
+    question: "How do I sign up for Medicare if I'm not getting Social Security yet?",
+    answer:
+      "You can apply online at ssa.gov/medicare, which takes about 10 minutes. You can also call Social Security or visit a local office. Apply up to 3 months before the month you turn 65 so your coverage starts on time.",
+  },
+  {
+    question: "What happens if I miss my Medicare Initial Enrollment Period?",
+    answer:
+      "If you miss your IEP and don't qualify for a Special Enrollment Period, you'll have to wait for the General Enrollment Period (January 1 – March 31) to sign up for Part B. You may also owe a permanent Part B late enrollment penalty added to your monthly premium for as long as you have Medicare.",
+  },
+  {
+    question: "Do I need to sign up for Part D when I enroll in Medicare?",
+    answer:
+      "Part D prescription drug coverage is optional but recommended unless you have other creditable drug coverage. If you go more than 63 days without creditable coverage after your IEP, you'll face a permanent Part D late enrollment penalty. Call 855-559-1700 to review Part D options before you enroll.",
+  }
 ];
 
 export default function HowToSignUpPage() {

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "best medicare insurance broker near hackensack, nj | Free Quote | MedicareYourself",
   description:
-    "Best medicare insurance broker near Hackensack, NJ — Anthony Orner compares top Medigap and Advantage carriers in Bergen County. Free, no-pressure quote.",
+    "Best Medicare insurance broker near Hackensack, NJ — Anthony Orner compares Medigap, Advantage & Part D plans across Bergen County. Call for a free quote.",
   alternates: { canonical: "https://medicareyourself.com/services/best-medicare-insurance-broker-near-hackensack-nj" },
   openGraph: {
     title:

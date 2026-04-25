@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "which medicare supplemental plan best for copd patient? | Free Expert Advice | MedicareYourself",
   description:
-    "Compare Medigap Plan G and Plan N for COPD oxygen, inhalers, and ER visits. Get a free, no-obligation broker review — call 855-559-1700 today.",
+    "Compare Medigap Plan G vs. Plan N for COPD oxygen, inhalers, and ER visits. Get a free, no-pressure broker review — call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/which-medicare-supplemental-plan-best-for-copd-patient" },
   openGraph: {
     title:
@@ -99,6 +99,17 @@ const faqs = [
     question: "Will my Medigap plan cover hospital stays for COPD flare-ups?",
     answer:
       "Yes. All standardized Medigap plans cover Part A hospital coinsurance and add extra days of coverage after Medicare benefits are used up. Plan G and Plan N both cover the Part A deductible and hospital coinsurance in full, which is valuable for COPD patients who may face repeated admissions.",
+  }
+,
+  {
+    question: "Is Plan G or Plan N better for a COPD patient with frequent ER visits?",
+    answer:
+      "Plan G is typically the stronger choice for COPD patients with frequent ER visits because it covers Part B excess charges and leaves no copays at the time of service. Plan N has lower premiums but charges a copay for office and ER visits and does not cover excess charges. If your COPD requires repeated specialist or hospital encounters, Plan G's predictability often outweighs the premium difference.",
+  },
+  {
+    question: "Will a Medigap plan cover my COPD inhalers and prescription drugs?",
+    answer:
+      "No. Medigap (Medicare Supplement) plans do not cover prescription drugs, including COPD inhalers and nebulizer solutions taken at home. You'll need a separate Medicare Part D prescription drug plan to help with these costs. Call 855-559-1700 and we'll help match you with a Part D plan that covers your specific inhalers.",
   }
 ];
 

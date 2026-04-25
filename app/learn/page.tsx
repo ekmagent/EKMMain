@@ -7,7 +7,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Medicare Education Guides | MedicareYourself",
   description:
-    "Free Medicare education guides by a licensed broker: Parts A-D, Medigap, enrollment, IRMAA, and low-income help. Get clear answers — call 855-559-1700.",
+    "Free Medicare education guides by a licensed broker — Parts A-D, Medigap, enrollment, IRMAA, and low-income help explained simply. Call 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn` },
   openGraph: {
     title: "Medicare Education Guides | MedicareYourself",
@@ -170,6 +170,7 @@ export default function LearnHubPage() {
         </div>
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/basics/get-started-with-medicare/medicare-basics" rel="noopener noreferrer" target="_blank" className="text-blue-700 hover:underline">Medicare Basics (Medicare.gov)</a> &middot; <a href="https://www.cms.gov/medicare" rel="noopener noreferrer" target="_blank" className="text-blue-700 hover:underline">CMS Medicare Program</a></div>
             <div className="text-sm text-gray-600 mt-4">Free unbiased counseling is available through your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-700 hover:underline">State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </>
   );

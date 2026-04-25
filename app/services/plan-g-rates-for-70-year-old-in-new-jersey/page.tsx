@@ -99,6 +99,17 @@ const faqs = [
     answer:
       "Plan G covers nearly all Medicare-approved out-of-pocket costs except the annual Part B deductible, which makes budgeting predictable at age 70. Whether it is the best value depends on your health, the carrier's rate stability, and how it compares to Plan N or high-deductible Plan G. We'll walk through the tradeoffs with you on a quick call.",
   }
+,
+  {
+    question: "What does Medicare Plan G cover for a 70-year-old in New Jersey?",
+    answer:
+      "Plan G covers the Part A hospital coinsurance and deductible, Part B coinsurance, the first three pints of blood, skilled nursing facility coinsurance, hospice coinsurance, and Part B excess charges. The only standard Medicare-covered cost you pay out of pocket is the annual Part B deductible. After that deductible is met, Plan G typically leaves you with little to no cost-sharing on Medicare-approved services.",
+  },
+  {
+    question: "Should a 70-year-old in NJ choose Plan G or Plan N?",
+    answer:
+      "Plan N usually has a lower premium than Plan G but adds small office-visit and ER copays and does not cover Part B excess charges. Plan G offers more predictable out-of-pocket costs once the Part B deductible is met. The right choice depends on how often you see doctors and your tolerance for variable copays — call 855-559-1700 and we'll compare both side by side.",
+  }
 ];
 
 export default function PlanGRates70NJ() {

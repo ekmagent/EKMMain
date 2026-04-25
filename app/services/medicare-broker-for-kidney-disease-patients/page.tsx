@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for kidney disease patients | Free Coverage Review | MedicareYourself",
   description:
-    "Kidney disease Medicare help — compare ESRD, dialysis, and transplant coverage options with a licensed broker. Free review, no fees. Call 855-559-1700.",
+    "Kidney disease Medicare help — compare ESRD, dialysis & transplant coverage with a licensed broker. Free review, no fees. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-kidney-disease-patients" },
   openGraph: {
     title:

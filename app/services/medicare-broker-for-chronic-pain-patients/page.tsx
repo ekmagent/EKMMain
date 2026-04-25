@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for chronic pain patients | Free Coverage Consultation | MedicareYourself",
   description:
-    "Chronic pain and Medicare? Broker Anthony Orner finds plans with strong pain management, PT, and specialist coverage. Call 855-559-1700 for a free plan review.",
+    "Living with chronic pain? Broker Anthony Orner compares Medicare plans for pain management, PT, and specialists. Call 855-559-1700 for a free plan review.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-chronic-pain-patients" },
   openGraph: {
     title:
@@ -350,6 +350,7 @@ export default function MedicareBrokerForChronicPainPatients() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </main>
   );

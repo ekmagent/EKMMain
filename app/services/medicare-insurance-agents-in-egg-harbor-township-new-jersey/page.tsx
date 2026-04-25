@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare insurance agents in egg harbor township new jersey | Free Quotes | MedicareYourself",
   description:
-    "Medicare insurance agents in Egg Harbor Township, NJ who compare every top carrier. Anthony Orner offers free, unbiased broker help. Get your quote now.",
+    "Talk to a licensed Medicare broker serving Egg Harbor Township, NJ. Compare every top carrier free of charge — call 855-559-1700 for unbiased plan help.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-insurance-agents-in-egg-harbor-township-new-jersey" },
   openGraph: {
     title:
@@ -295,6 +295,7 @@ export default function MedicareInsuranceAgentsEggHarborTownshipNJ() {
 </ul>
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/plan-compare/" rel="noopener noreferrer" target="_blank" className="underline">Medicare Plan Compare (Medicare.gov)</a> and <a href="https://www.medicare.gov/basics/get-started-with-medicare" rel="noopener noreferrer" target="_blank" className="underline">Get Started with Medicare</a>.</div>
             <div className="text-sm text-gray-600 mt-2">New Jersey residents can also get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> or contact the <a href="https://www.nj.gov/dobi/division_insurance/" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a>.</div>
       </section>
     </>
   );

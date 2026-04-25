@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare enrollment help for people with lupus | Free NJ Guidance | MedicareYourself",
   description:
-    "Medicare enrollment help for people with lupus in NJ. Protect rheumatologist access and drug coverage. Free broker guidance — call 855-559-1700.",
+    "Medicare enrollment help for people with lupus in NJ. Protect rheumatologist access, biologics, and infusion coverage. Free broker guidance — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-enrollment-help-for-people-with-lupus" },
   openGraph: {
     title:

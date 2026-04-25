@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Plan G Rates for a 68-Year-Old in New Jersey | Free Carrier Comparison | MedicareYourself",
   description:
-    "Compare Plan G rates for a 68-year-old in New Jersey. Identical coverage, different premiums — call 855-559-1700 for a free NJ carrier comparison today.",
+    "Compare Plan G rates for a 68-year-old in New Jersey across top carriers. Same coverage, different premiums — call 855-559-1700 for a free NJ comparison.",
   alternates: { canonical: "https://medicareyourself.com/services/plan-g-rates-for-68-year-old-in-new-jersey" },
   openGraph: {
     title:
@@ -374,6 +374,7 @@ export default function PlanGRates68NJ() {
               <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/health-drug-plans/medigap/basics/costs" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — How Medigap Costs Are Set</a> and the <a href="https://www.nj.gov/humanservices/doas/documents/Copy%20of%2012%2024%202024%20Male%20at%20Age%2065%20Chart.pdf" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Human Services Medigap Rate Chart</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free one-on-one counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can review carrier rate charts and consumer guides from the <a href="https://www.nj.gov/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey resources: <a href="https://www.nj.gov/dobi/division_insurance/managedcare/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking & Insurance</a> · <a href="https://www.nj.gov/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a></div>
       </section>
       </article>
     </>

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "local medicare agent | Free Consultation, No Obligation | MedicareYourself",
   description:
-    "Meet a local Medicare agent licensed in NJ & PA. Anthony Orner compares top carriers at no cost. Book your free, no-obligation consultation today.",
+    "Work with a local NJ Medicare agent who compares top carriers at no cost. Anthony Orner offers free, no-obligation consultations — book your call today.",
   alternates: { canonical: "https://medicareyourself.com/services/local-medicare-agent" },
   openGraph: {
     title:
@@ -316,6 +316,7 @@ export default function LocalMedicareAgentPage() {
             </li>
 </ul>
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/talk-to-someone" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Talk to Someone</a> and <a href="https://www.medicare.gov/plan-compare" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov Plan Compare</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">For free, unbiased counseling, contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">New Jersey SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </>
   );

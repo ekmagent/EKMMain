@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for glaucoma patients | Free Coverage Review | MedicareYourself",
   description:
-    "Medicare broker for glaucoma patients — compare plans covering screenings, eye drops, SLT, and surgery. Free review with Anthony Orner. Call 855-559-1700.",
+    "Medicare broker for glaucoma patients — compare plans covering screenings, drops, SLT, and surgery. Free review with Anthony Orner. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-glaucoma-patients" },
   openGraph: {
     title:
@@ -99,6 +99,22 @@ const faqs = [
     question: "Can a Medigap plan lower my glaucoma treatment costs?",
     answer:
       "Yes. Medigap (Medicare Supplement) plans help pay the 20% coinsurance Original Medicare leaves behind for covered services like laser procedures, diagnostic testing, and surgery. Plans G and N cover most out-of-pocket costs after the Part B deductible ($283 in 2026). A free plan review can help you compare Medigap premiums against Medicare Advantage copays for your specific treatment plan.",
+  }
+,
+  {
+    question: "Who qualifies as high risk for a Medicare-covered glaucoma screening?",
+    answer:
+      "Medicare considers you high risk if you have diabetes, a family history of glaucoma, are African American and age 50 or older, or are Hispanic and age 65 or older. If you meet one of these criteria, Part B covers a screening once every 12 months when performed or supervised by a state-authorized eye doctor. Talk with your ophthalmologist to confirm eligibility before scheduling.",
+  },
+  {
+    question: "Are glaucoma eye drops covered by Medicare?",
+    answer:
+      "Prescription glaucoma eye drops such as latanoprost, timolol, and brimonidine are covered under Medicare Part D, not Part B. Each Part D or Medicare Advantage plan with drug coverage has its own formulary, tier placement, and copay structure, so the same medication can cost very different amounts depending on your plan. A broker can compare plans using your specific drug list to minimize annual out-of-pocket costs.",
+  },
+  {
+    question: "Does Medicare Advantage cover glaucoma care differently than Original Medicare?",
+    answer:
+      "Medicare Advantage plans must cover everything Original Medicare covers, including glaucoma screenings, diagnostic testing, laser procedures, and surgery. However, cost-sharing comes in the form of copays rather than the standard 20% coinsurance, and you typically need to use in-network ophthalmologists. Many Advantage plans also bundle Part D drug coverage and routine vision benefits that Original Medicare doesn't include.",
   }
 ];
 
@@ -313,6 +329,7 @@ export default function MedicareBrokerForGlaucomaPatients() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased help through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/dobi/division_consumers/insurance/ship.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </div>
   );

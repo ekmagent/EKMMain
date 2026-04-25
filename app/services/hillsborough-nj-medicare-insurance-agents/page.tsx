@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "hillsborough nj medicare insurance agents | Free Broker Consultation | MedicareYourself",
   description:
-    "Hillsborough NJ Medicare insurance agents — Anthony Orner is a licensed independent broker comparing Supplement and Advantage plans. Free Somerset County quote.",
+    "Hillsborough NJ Medicare insurance agents — Anthony Orner compares Supplement & Advantage plans across carriers. Free Somerset County quote. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/hillsborough-nj-medicare-insurance-agents" },
   openGraph: {
     title:

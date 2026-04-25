@@ -119,6 +119,22 @@ const faqs = [
     answer:
       "Guaranteed issue rights are federal protections that require Medigap carriers to sell you a policy without medical underwriting, regardless of your health history. They are triggered by specific situations, such as losing employer coverage or a Medicare Advantage plan leaving your area. When a guaranteed issue right applies, pre-existing conditions cannot be used to deny or surcharge your policy.",
   }
+,
+  {
+    question: "Which Medicare plans never use medical underwriting?",
+    answer:
+      "Original Medicare (Part A and Part B) and Medicare Advantage plans do not use medical underwriting, so pre-existing conditions cannot block enrollment or raise your price. Stand-alone Part D prescription drug plans also accept you regardless of health history. Medigap (Medicare Supplement) plans are the main exception, since carriers can ask health questions outside of protected enrollment windows.",
+  },
+  {
+    question: "Do guaranteed issue rights apply to pre-existing conditions?",
+    answer:
+      "Yes. When a federal guaranteed issue right is triggered — such as losing employer coverage, a Medicare Advantage plan leaving your area, or moving out of a plan's service area — Medigap carriers must sell you certain plans without asking about your health. These protections override medical underwriting, so a pre-existing condition cannot be used to deny you or raise your premium during the qualifying window.",
+  },
+  {
+    question: "How does a broker help if I've already been declined for a Medigap plan?",
+    answer:
+      "An experienced broker tracks which carriers accept which conditions and which ones are stricter, so you avoid repeat declines that can complicate future applications. They can also identify whether you qualify for a guaranteed issue right, a Medicare Advantage plan with strong benefits for your condition, or a state-specific protection. There is no cost to you for this guidance.",
+  }
 ];
 
 export default function MedicareBrokerPreExistingConditions() {
@@ -309,6 +325,7 @@ export default function MedicareBrokerPreExistingConditions() {
           </li>
         </ul>
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/health-drug-plans/medigap/basics/ready-to-buy" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — When to buy Medigap</a> and <a href="https://www.medicare.gov/basics/get-started-with-medicare/sign-up/when-does-medicare-coverage-start" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Guaranteed issue rights</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">Free, unbiased counseling is available through your <a href="https://www.shiphelp.org/" target="_blank" rel="noopener noreferrer" className="underline">State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
     </main>
   );

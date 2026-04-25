@@ -9,7 +9,7 @@ import { MF } from "@/lib/medicare-figures";
 export const metadata: Metadata = {
   title: "How to Enroll in a Medicare Supplement Plan (2026): The 5-Step Guide",
   description:
-    "Enroll in a Medicare Supplement plan in 5 steps — use your 6-month Medigap window to lock in guaranteed-issue rates. Call 855-559-1700 to compare carriers.",
+    "Enroll in a Medicare Supplement plan in 5 steps and lock in guaranteed-issue rates during your 6-month Medigap window. Call 855-559-1700 to compare carriers.",
   alternates: { canonical: `${SITE_URL}/learn/how-to-enroll-in-a-medicare-supplement-plan` },
   openGraph: {
     title: "How to Enroll in a Medicare Supplement Plan (2026): The 5-Step Guide",
@@ -198,6 +198,22 @@ const faqs = [
     question: "When is the best time to buy a Medicare Supplement policy?",
     answer:
       "Medicare.gov identifies the Medigap Open Enrollment Period as your best time to buy. During this one-time 6-month window, insurance companies cannot use medical underwriting to deny you coverage or charge you more based on your health. To review your options before the window closes, call 855-559-1700.",
+  }
+,
+  {
+    question: "Do I need both Medicare Part A and Part B to buy a Medigap policy?",
+    answer:
+      "Yes. You generally must have Original Medicare — both Part A and Part B — to purchase a Medicare Supplement (Medigap) policy. If you only have Part A, you'll need to enroll in Part B before a carrier can issue your Medigap coverage.",
+  },
+  {
+    question: "Can my spouse and I share one Medigap policy?",
+    answer:
+      "No. A Medigap policy only covers one person. If you and your spouse both want Medigap coverage, each of you must apply for and purchase your own separate policy, even if you choose the same plan letter from the same carrier.",
+  },
+  {
+    question: "Can I switch Medigap plans later if my health changes?",
+    answer:
+      "You can apply to switch Medigap plans at any time, but outside your 6-month Medigap Open Enrollment Period, carriers in most states can use medical underwriting to deny coverage or charge more based on your health. That's why choosing the right plan during your initial enrollment window is so important. Call 855-559-1700 to review your options before your window closes.",
   }
 ];
 

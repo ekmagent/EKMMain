@@ -186,6 +186,22 @@ const faqs = [
     answer:
       "Yes. Social Security reviews your most recent tax return annually to determine whether IRMAA applies for the upcoming year. If your income drops below the threshold, the surcharge goes away automatically the following year — you don't need to reapply.",
   }
+,
+  {
+    question: "How do I appeal an IRMAA determination if my income has dropped?",
+    answer:
+      "If you've experienced a life-changing event such as retirement, divorce, or the death of a spouse, you can file Form SSA-44 with the Social Security Administration to request a reduction or removal of your IRMAA surcharge. You'll need to provide documentation of the event and an estimate of your reduced income for the current or upcoming year. Social Security will review your request and adjust your Part B and Part D premiums if approved.",
+  },
+  {
+    question: "Is IRMAA a one-time charge or does it apply every year?",
+    answer:
+      "IRMAA is recalculated every year based on your tax return from two years prior. If your income drops below the threshold in a future year, your IRMAA will go away automatically once Social Security processes the updated tax data. You don't need to reapply each year unless you're appealing based on a life-changing event.",
+  },
+  {
+    question: "How is IRMAA collected from my benefits?",
+    answer:
+      "The Part B IRMAA surcharge is deducted directly from your Social Security check along with your standard Part B premium. The Part D IRMAA surcharge is billed separately by Medicare — it is not paid to your Part D plan — and is also typically deducted from Social Security if you receive benefits.",
+  }
 ];
 
 export default function IrmaaPage() {

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare insurance agents in camden new jersey | Free Quotes | MedicareYourself",
   description:
-    "Medicare agents in Camden, NJ — Anthony Orner compares Medigap & Advantage plans from multiple carriers. Free, no-obligation quote. Call 855-559-1700.",
+    "Medicare agents in Camden, NJ — Anthony Orner compares Medigap & Advantage plans from multiple carriers. Free, no-obligation quote. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-insurance-agents-in-camden-new-jersey" },
   openGraph: {
     title:
@@ -293,6 +293,7 @@ export default function MedicareInsuranceAgentsCamdenNJ() {
             <div className="text-sm text-gray-600 mt-2">New Jersey residents can also get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> offers free Medicare counseling to Camden County residents.</div>
             <div className="text-sm text-gray-600 mt-2">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>
