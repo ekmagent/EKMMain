@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare broker for people on disability | Free Guidance | MedicareYourself",
   description:
-    "Medicare broker for people on disability — Anthony Orner helps under-65 SSDI recipients in NJ find Medigap or Advantage coverage. Free consultation.",
+    "Medicare broker for under-65 SSDI recipients in NJ. Anthony Orner helps you compare Medigap and Advantage plans at no cost. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-people-on-disability" },
   openGraph: {
     title:
@@ -297,6 +297,7 @@ export default function MedicareBrokerForPeopleOnDisability() {
 </ul>
               <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/basics/get-started-with-medicare/medicare-basics/medicare-and-disability" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Medicare and Disability</a> and <a href="https://www.ssa.gov/benefits/disability/" rel="noopener noreferrer" target="_blank" className="underline">SSA — Disability Benefits</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>

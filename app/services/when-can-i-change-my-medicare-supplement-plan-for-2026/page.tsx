@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "when can i change my medicare supplement plan for 2026 | Free Switching Help | MedicareYourself",
   description:
-    "When can you change your 2026 Medicare Supplement plan? Learn switch rules, guaranteed-issue rights & underwriting tips. Free broker help: call 855-559-1700.",
+    "When can you change your 2026 Medicare Supplement plan? Learn switch rules, guaranteed-issue rights & underwriting tips. Free broker review: 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/when-can-i-change-my-medicare-supplement-plan-for-2026" },
   openGraph: {
     title:
@@ -132,6 +132,22 @@ const faqs = [
     question: "Should I cancel my old Medigap plan before the new one is approved?",
     answer:
       "No. Never cancel your existing Medigap policy until the new carrier has approved your application and your new coverage start date is confirmed. If you cancel too early and the new application is denied, you could be left without supplemental coverage.",
+  }
+,
+  {
+    question: "What happens if I switch Medigap plans and then change my mind?",
+    answer:
+      "If you buy a new Medigap policy, you generally have a 30-day free-look period to decide whether to keep it. During that window you can cancel the new policy and stay on your old one, but you must continue paying premiums on both during the trial. After the free-look period ends, the switch becomes permanent.",
+  },
+  {
+    question: "Does my state offer extra rights to change my Medigap plan?",
+    answer:
+      "Some states give Medigap policyholders broader switching rights than federal law requires, such as annual birthday or anniversary windows, or year-round guaranteed issue. Rules vary widely by state, so contact your State Insurance Department or SHIP program to confirm what applies to you. A licensed broker can also walk you through your state's specific protections.",
+  },
+  {
+    question: "Should I cancel my old Medigap policy before the new one is approved?",
+    answer:
+      "No. Never cancel your existing Medigap policy until the new carrier has formally approved your application and issued the new policy. If you're medically underwritten, approval isn't guaranteed, and canceling early could leave you without supplemental coverage. Most people keep both active briefly during the free-look period before dropping the old plan.",
   }
 ];
 
@@ -326,6 +342,7 @@ export default function WhenCanIChangeMyMedicareSupplementPlanFor2026() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>, which may also share any state-specific Medigap switching rights.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medigap guidance.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medigap counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> or the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> to learn about additional state-level Medigap switching rights.</div>
       </section>
     </main>
   );

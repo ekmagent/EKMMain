@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title:
     "How to Enroll in Medicare Online at SSA.gov (Step-by-Step Walkthrough)",
   description:
-    "Step-by-step SSA.gov Medicare enrollment walkthrough — 9 screens in about 10 minutes. Avoid Part B mistakes. Free broker help at 855-559-1700.",
+    "Step-by-step SSA.gov Medicare enrollment walkthrough — finish in about 10 minutes, avoid Part B mistakes. Free broker help at 855-559-1700.",
   alternates: {
     canonical: `${SITE_URL}/learn/ssa-online-enrollment-walkthrough`,
   },
@@ -272,6 +272,22 @@ const steps = [
     question: "Can I change my Medicare application after I submit it on SSA.gov?",
     answer:
       "No. Once you click Submit Now and agree to the Electronic Signature Agreement, you cannot modify the application online. If you need to make changes, you'll have to contact Social Security directly by phone or visit a local office.",
+  }
+,
+  {
+    question: "How long does the SSA online Medicare application take to complete?",
+    answer:
+      "Most people finish the SSA.gov Medicare application in about 10 minutes if they have their documents ready. You'll need your Social Security number, a driver's license or state ID for identity verification, and details about any current health coverage. Having employer coverage dates handy speeds things up.",
+  },
+  {
+    question: "Can I change my Medicare application after I submit it on SSA.gov?",
+    answer:
+      "No. Once you click Submit Now and agree to the Electronic Signature Agreement, you cannot modify the application online. If you made a mistake or need to change your Part B election, contact the Social Security Administration directly to correct the record.",
+  },
+  {
+    question: "Should I enroll in Part B if I still have employer coverage?",
+    answer:
+      "It depends on the size of the employer and how the coverage coordinates with Medicare. Delaying Part B is sometimes the right call, but the wrong decision can trigger a lifetime late enrollment penalty and a coverage gap. Call us at 855-559-1700 before you submit so we can review your situation at no cost.",
   }
 ];
 

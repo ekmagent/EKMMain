@@ -86,6 +86,17 @@ const faqs = [
     answer:
       "It depends on your treatment needs. Medigap gives you unrestricted provider access and predictable costs, which matters if you're seeing multiple specialists. Medicare Advantage may offer lower premiums and extras like transportation to appointments, but networks and prior authorizations can slow treatment. I'll walk you through the tradeoffs based on your specific situation.",
   },
+,
+  {
+    question: "Will I need prior authorization for back surgery or injections under Medicare?",
+    answer:
+      "Original Medicare generally does not require prior authorization for medically necessary back procedures, though some outpatient services have been added to a CMS prior authorization list. Medicare Advantage plans frequently require prior authorization for injections, MRIs, and spinal surgeries. I review each plan's authorization requirements with you before you enroll so there are no surprises.",
+  },
+  {
+    question: "Does Medicare cover physical therapy for chronic back pain?",
+    answer:
+      "Yes. Medicare Part B covers medically necessary outpatient physical therapy with no hard cap on visits, as long as your provider documents that continued therapy is reasonable and necessary. After you meet the Part B deductible, you typically pay coinsurance unless you have a Medigap plan that covers it.",
+  }
 ];
 
 export default function MedicareBrokerForBackPainSufferers() {

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare broker for people with crohns | No-Cost Plan Help | MedicareYourself",
   description:
-    "Medicare broker for people with Crohn's who need biologic and specialist coverage. Anthony Orner compares plans at no cost. Call 855-559-1700 for free help.",
+    "Medicare broker for people with Crohn's disease. Compare plans covering biologics and GI specialists at no cost. Call 855-559-1700 for free help.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-people-with-crohns" },
   openGraph: {
     title:

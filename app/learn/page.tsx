@@ -7,7 +7,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Medicare Education Guides | MedicareYourself",
   description:
-    "Free Medicare education guides by a licensed broker — Parts A-D, Medigap, enrollment, IRMAA, and low-income help explained simply. Call 855-559-1700.",
+    "Free Medicare education guides from a licensed broker — Parts A-D, Medigap, enrollment timing, IRMAA, and low-income help, in plain English. Call 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn` },
   openGraph: {
     title: "Medicare Education Guides | MedicareYourself",
@@ -79,6 +79,22 @@ const GUIDES = [
     question: "What's the difference between Original Medicare and Medicare Advantage?",
     answer:
       "Original Medicare is the federal program that includes Part A (hospital) and Part B (medical), and you can add a standalone Part D drug plan and a Medigap policy. Medicare Advantage (Part C) is an all-in-one alternative offered by private insurers that bundles Part A, Part B, and usually Part D into one plan with its own network and rules. Each path has trade-offs in cost, flexibility, and provider access. Call 855-559-1700 if you'd like help comparing the two.",
+  }
+,
+  {
+    question: "When can I enroll in or change my Medicare coverage?",
+    answer:
+      "Most people first enroll during their Initial Enrollment Period, which is the seven-month window around their 65th birthday. After that, the Annual Enrollment Period each fall lets you change Medicare Advantage and Part D plans, and Medigap has its own one-time guaranteed-issue window. Special Enrollment Periods may also apply if you lose other coverage or move.",
+  },
+  {
+    question: "Do these guides apply to my state?",
+    answer:
+      "The Medicare program is federal, so the rules in our guides apply nationwide. However, Medigap pricing, plan availability, and Medicare Advantage networks vary by state and ZIP code. Anthony Orner is licensed in New Jersey and 34 other states and can confirm what's available in your area at 855-559-1700.",
+  },
+  {
+    question: "How do I know which guide to read first?",
+    answer:
+      "If you're new to Medicare, start with the Medicare Parts A-D guide, then read the enrollment periods guide so you know your timing. If you already have Medicare and are reviewing options, the Medigap and IRMAA guides are usually the most useful next reads.",
   }
 ];
 
@@ -171,6 +187,7 @@ export default function LearnHubPage() {
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/basics/get-started-with-medicare/medicare-basics" rel="noopener noreferrer" target="_blank" className="text-blue-700 hover:underline">Medicare Basics (Medicare.gov)</a> &middot; <a href="https://www.cms.gov/medicare" rel="noopener noreferrer" target="_blank" className="text-blue-700 hover:underline">CMS Medicare Program</a></div>
             <div className="text-sm text-gray-600 mt-4">Free unbiased counseling is available through your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-700 hover:underline">State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </>
   );

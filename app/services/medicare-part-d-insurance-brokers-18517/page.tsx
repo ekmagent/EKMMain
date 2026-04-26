@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare part d insurance brokers 18517 | Free Plan Comparison | MedicareYourself",
   description:
-    "Medicare Part D brokers serving 18517 — Anthony Orner compares every drug plan for your prescriptions at no cost. Call 855-559-1700 for a free review.",
+    "Compare every Medicare Part D drug plan in 18517 with broker Anthony Orner. Free, unbiased reviews to lower your prescription costs. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-part-d-insurance-brokers-18517" },
   openGraph: {
     title:

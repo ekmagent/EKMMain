@@ -9,7 +9,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Medicare Services & Guides | MedicareYourself",
   description:
-    "Compare Medigap, Medicare Advantage & Part D plans with a licensed independent broker. Free, unbiased help in 35 states — call 855-559-1700 today.",
+    "Compare Medigap, Medicare Advantage & Part D with a licensed independent broker. Free, unbiased help in 35 states — call 855-559-1700 today.",
   alternates: { canonical: `${SITE_URL}/services` },
   openGraph: {
     title: "Medicare Services & Guides | MedicareYourself",
@@ -262,6 +262,22 @@ const STATIC_CATEGORIES = [
     answer:
       "Anthony Orner is a licensed Medicare insurance broker in New Jersey and 34 additional states. We help beneficiaries compare plans, review carriers available in their ZIP code, and enroll during their Initial Enrollment Period, Open Enrollment, or a qualifying Special Enrollment Period.",
   }
+,
+  {
+    question: "What does an independent Medicare broker do?",
+    answer:
+      "An independent Medicare broker is licensed to compare plans from multiple insurance carriers and help you choose coverage that fits your health needs and budget. There is no cost to you for working with a broker — carriers pay a standard commission set by CMS. You can also get free, unbiased counseling from your State Health Insurance Assistance Program (SHIP) at any time.",
+  },
+  {
+    question: "Which Medicare plan types can I compare on this site?",
+    answer:
+      "We help you compare Medicare Supplement (Medigap) plans, Medicare Advantage (Part C) plans, and stand-alone Part D prescription drug plans. Each plan type works differently with Original Medicare, so the right choice depends on your doctors, prescriptions, and travel needs. Call 855-559-1700 to walk through the options with a licensed broker.",
+  },
+  {
+    question: "When can I enroll or switch Medicare plans?",
+    answer:
+      "Most people first enroll during their seven-month Initial Enrollment Period around their 65th birthday. After that, the Annual Enrollment Period (October 15–December 7) and the Medicare Advantage Open Enrollment Period (January 1–March 31) allow plan changes. Medigap can often be applied for year-round, though medical underwriting may apply outside your Open Enrollment window.",
+  }
 ];
 
 export default function ServicesHubPage() {
@@ -367,6 +383,7 @@ export default function ServicesHubPage() {
             <div className="text-sm text-gray-600 mt-2">New Jersey residents: visit the <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or the <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
       </section>
     </>
   );

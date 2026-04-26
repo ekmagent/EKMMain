@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Medigap vs Medicare Advantage in NJ",
   description:
-    "Compare Medigap vs Medicare Advantage in NJ for 2026: costs, networks, and flexibility explained. Talk to a licensed NJ broker — call 855-559-1700.",
+    "Compare Medigap vs Medicare Advantage in NJ for 2026: costs, networks, and flexibility. Get unbiased guidance from a licensed NJ broker — call 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/medicare-supplement/new-jersey/vs-medicare-advantage` },
   openGraph: {
     title: "Medigap vs Medicare Advantage in NJ",

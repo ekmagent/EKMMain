@@ -172,6 +172,22 @@ const faqs = [
     answer:
       "Part D prescription drug coverage is optional but recommended unless you have other creditable drug coverage. If you go more than 63 days without creditable coverage after your IEP, you'll face a permanent Part D late enrollment penalty. Call 855-559-1700 to review Part D options before you enroll.",
   }
+,
+  {
+    question: "How do I sign up for Medicare if I'm not getting Social Security?",
+    answer:
+      "You can apply online at SSA.gov/medicare, which takes about 10 minutes. You may also apply by calling Social Security or visiting your local Social Security office. Applications can be submitted starting 3 months before the month you turn 65.",
+  },
+  {
+    question: "What happens if I miss my Initial Enrollment Period?",
+    answer:
+      "If you miss your IEP and don't qualify for a Special Enrollment Period, you'll need to wait for the General Enrollment Period (January 1 – March 31) to sign up for Part B. You may also face a permanent Part B late enrollment penalty that's added to your monthly premium for as long as you have Medicare. Call 855-559-1700 if you're unsure which window applies to you.",
+  },
+  {
+    question: "Do I need to sign up for Medicare if I have employer coverage?",
+    answer:
+      "If you or your spouse are still actively working and covered by a group health plan with 20 or more employees, you may be able to delay Part B without penalty. Confirm with your HR department that your coverage qualifies as creditable before delaying. When the employer coverage ends, you'll have an 8-month Special Enrollment Period to sign up for Part B.",
+  }
 ];
 
 export default function HowToSignUpPage() {

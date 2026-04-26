@@ -324,6 +324,7 @@ export default function MedicareBrokerForNeuropathyPatients() {
 </ul>
               <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/coverage/nerve-conduction-studies" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">Medicare.gov — Nerve conduction studies coverage</a> and <a href="https://www.medicare.gov/coverage/foot-care" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">Medicare.gov — Foot care coverage</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">Free unbiased counseling: <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> offers one-on-one Medicare guidance in every state.</div>
       </section>
       </article>
     </>

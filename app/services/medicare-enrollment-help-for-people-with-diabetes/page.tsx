@@ -129,6 +129,12 @@ const faqs = [
     answer:
       "Yes. Medicare Part B covers blood sugar monitors, test strips, lancets, and control solutions as durable medical equipment when prescribed by your doctor. You'll need to use a Medicare-enrolled DME supplier to get the lowest cost. Quantities covered may depend on whether you use insulin.",
   }
+,
+  {
+    question: "Does Medicare cover the Medicare Diabetes Prevention Program?",
+    answer:
+      "Yes. Medicare Part B covers the Medicare Diabetes Prevention Program for eligible beneficiaries at no cost to you. The program provides training to make lasting diet and exercise changes and is available in person and online. You can find a program through medicare.gov.",
+  }
 ];
 
 export default function MedicareEnrollmentHelpDiabetes() {
