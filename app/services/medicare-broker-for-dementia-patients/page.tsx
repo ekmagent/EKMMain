@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for dementia patients | Free Caregiver Consultation | MedicareYourself",
   description:
-    "Medicare broker for dementia patients and caregivers — real guidance on home health, Part D drugs, and skilled nursing. Call 855-559-1700 for a free consult.",
+    "Medicare broker for dementia patients — free guidance on home health, Part D drugs, and skilled nursing coverage. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-dementia-patients" },
   openGraph: {
     title:
@@ -311,6 +311,7 @@ export default function MedicareBrokerForDementiaPatients() {
 </ul>
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/coverage/home-health-services" rel="noopener noreferrer" target="_blank" className="underline">Medicare home health coverage (Medicare.gov)</a> and <a href="https://www.cms.gov/priorities/innovation/innovation-models/guide" rel="noopener noreferrer" target="_blank" className="underline">CMS GUIDE Model for dementia care</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey families can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey caregivers can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
       </section>
     </main>
   );

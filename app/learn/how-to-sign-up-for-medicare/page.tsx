@@ -188,6 +188,17 @@ const faqs = [
     answer:
       "If you or your spouse are still actively working and covered by a group health plan with 20 or more employees, you may be able to delay Part B without penalty. Confirm with your HR department that your coverage qualifies as creditable before delaying. When the employer coverage ends, you'll have an 8-month Special Enrollment Period to sign up for Part B.",
   }
+,
+  {
+    question: "Can I sign up for Medicare online?",
+    answer:
+      "Yes. You can apply for Medicare online at ssa.gov/medicare in about 10 minutes. You can submit your application up to 3 months before the month you turn 65, even if you are not ready to start Social Security benefits yet.",
+  },
+  {
+    question: "What happens if I miss my Initial Enrollment Period?",
+    answer:
+      "If you miss your Initial Enrollment Period and do not qualify for a Special Enrollment Period, you may have to wait until the General Enrollment Period (January 1 – March 31) to sign up for Part B. You may also owe a permanent late enrollment penalty that is added to your Part B premium for as long as you have Medicare.",
+  }
 ];
 
 export default function HowToSignUpPage() {

@@ -307,6 +307,7 @@ export default function MedicareBrokerForPeopleWithLupus() {
             </li>
 </ul>
               <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/what-medicare-covers" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">What Medicare covers (Medicare.gov)</a> and <a href="https://www.cms.gov/medicare/coverage/coverage-general-information" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">CMS coverage information</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
       </section>
       </article>
     </>

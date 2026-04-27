@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for rheumatoid arthritis patients | Free Plan Comparison | MedicareYourself",
   description:
-    "Medicare broker for rheumatoid arthritis patients in NJ. Anthony Orner compares plans covering biologics, injections, and PT visits. Free consultation.",
+    "Medicare broker for rheumatoid arthritis patients. Anthony Orner compares plans covering biologics, infusions, and PT. Free consultation — call today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-rheumatoid-arthritis-patients" },
   openGraph: {
     title:

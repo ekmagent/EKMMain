@@ -135,6 +135,12 @@ const faqs = [
     answer:
       "Yes. Medicare Part B covers the Medicare Diabetes Prevention Program for eligible beneficiaries at no cost to you. The program provides training to make lasting diet and exercise changes and is available in person and online. You can find a program through medicare.gov.",
   }
+,
+  {
+    question: "Does Medicare cover the Medicare Diabetes Prevention Program?",
+    answer:
+      "Yes. Medicare Part B covers the Medicare Diabetes Prevention Program (MDPP) for eligible beneficiaries at no cost to you if you qualify. The program provides training to make lasting diet and exercise changes to help prevent type 2 diabetes. You can find an MDPP supplier near you or join an online program through medicare.gov.",
+  }
 ];
 
 export default function MedicareEnrollmentHelpDiabetes() {
@@ -415,6 +421,7 @@ export default function MedicareEnrollmentHelpDiabetes() {
 </ul>
               <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/coverage/medicare-diabetes-prevention-program" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Medicare Diabetes Prevention Program (Medicare.gov)</a> and <a href="https://www.medicare.gov/coverage/continuous-glucose-monitors" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">CGM coverage under Part B</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">For free, unbiased counseling, contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

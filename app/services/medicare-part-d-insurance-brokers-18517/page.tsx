@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare part d insurance brokers 18517 | Free Plan Comparison | MedicareYourself",
   description:
-    "Compare every Medicare Part D drug plan in 18517 with broker Anthony Orner. Free, unbiased reviews to lower your prescription costs. Call 855-559-1700.",
+    "Compare every Medicare Part D drug plan in 18517 with broker Anthony Orner. Free, unbiased reviews to lower prescription costs. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-part-d-insurance-brokers-18517" },
   openGraph: {
     title:
@@ -301,6 +301,7 @@ export default function MedicarePartDBrokers18517() {
 </ul>
             <div className="text-sm text-gray-600 mt-4">Pennsylvania residents near 18517 can also contact <a href="https://www.aging.pa.gov/aging-services/pharmaceutical-assistance/Pages/APPRISE.aspx" rel="noopener noreferrer" target="_blank" className="underline">PA APPRISE (State SHIP Program)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">Pennsylvania residents near 18517 can also get free, unbiased counseling from <a href="https://www.aging.pa.gov/aging-services/insurance/Pages/default.aspx" rel="noopener noreferrer" target="_blank" className="underline">PA APPRISE</a>, the state's SHIP program.</div>
+            <div className="text-sm text-gray-600 mt-4">Pennsylvania residents can get free, unbiased counseling from <a href="https://www.aging.pa.gov/aging-services/insurance/Pages/default.aspx" rel="noopener noreferrer" target="_blank" className="underline">PA APPRISE</a>, the state's SHIP program.</div>
       </section>
     </>
   );

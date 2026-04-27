@@ -135,6 +135,12 @@ const faqs = [
     answer:
       "Because every carrier sells the same lettered benefits but prices differ, a broker can compare multiple companies in your zip code side by side. This helps you avoid overpaying for identical coverage. Call 855-559-1700 to get a free comparison from Anthony Orner, a licensed Medicare broker.",
   }
+,
+  {
+    question: "Does the cost of a Medigap plan increase as I get older?",
+    answer:
+      "It depends on the pricing method the insurance company uses. Attained-age-rated policies increase as you age, issue-age-rated policies are based on your age at purchase and don't rise due to age, and community-rated policies charge the same premium regardless of age. All three may still increase due to inflation and other factors.",
+  }
 ];
 
 export default function AverageCostSupplementalInsurancePage() {
@@ -331,6 +337,7 @@ export default function AverageCostSupplementalInsurancePage() {
             <div className="text-sm text-gray-600 mt-4">For state-specific help, contact the <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> or the <a href="https://www.nj.gov/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">For state-specific rate help, contact the <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling in your area.</div>
+            <div className="text-sm text-gray-600 mt-4">For state-specific rate filings and free counseling, visit the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a> or your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">SHIP program</a>.</div>
       </section>
     </main>
   );

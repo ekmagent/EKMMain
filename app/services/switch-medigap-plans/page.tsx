@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title:
     "switch medigap plans | Compare Carriers & Switch Online | MedicareYourself",
   description:
-    "Switch Medigap plans any month of the year and keep identical coverage at a lower premium. Compare carriers free with a licensed broker — call 855-559-1700.",
+    "Switch Medigap plans any month and keep identical Plan G or N coverage at a lower premium. Compare carriers free with a licensed broker — call 855-559-1700.",
   alternates: {
     canonical: `${SITE_URL}/services/switch-medigap-plans`,
   },
@@ -110,6 +110,22 @@ const faqs = [
     question: "What happens during the 30-day free look period?",
     answer:
       "When you buy a new Medigap policy, you have 30 days to decide if you want to keep it. You should keep your old Medigap policy active during this time and pay both premiums for one month. If you are satisfied with the new policy, cancel the old one; if not, you can return the new plan during the free look window.",
+  }
+,
+  {
+    question: "Do I have a federal right to switch Medigap policies whenever I want?",
+    answer:
+      "In most cases, no. Federal law only guarantees the right to switch during your 6-month Medigap Open Enrollment Period or when you qualify for a guaranteed issue right. Outside those windows, carriers in most states can use medical underwriting. Some states offer additional rights, so it is worth checking with your state insurance department or a licensed broker.",
+  },
+  {
+    question: "What is the 30-day free look period when switching Medigap plans?",
+    answer:
+      "When you buy a new Medigap policy, you have 30 days to decide if you want to keep it. During this free look period, you should keep your old policy active and pay both premiums. If you decide to keep the new plan, you then cancel the old one. This protects you from being left without coverage if the new plan is not what you expected.",
+  },
+  {
+    question: "Will I have to answer health questions to switch Medigap plans?",
+    answer:
+      "Usually yes, unless you are in your Medigap Open Enrollment Period or qualify for a guaranteed issue right. Outside those protected windows, most states allow carriers to use medical underwriting and review your health history before approving the switch. A licensed broker can pre-screen carriers to find the ones most likely to approve you based on your conditions.",
   }
 ];
 
@@ -749,6 +765,7 @@ export default function SwitchMedigapPlansPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> or the free <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP program</a> for state-specific Medigap switching rights.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> or the free <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP program</a> for state-specific Medigap switching rules.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify state-specific Medigap rules with the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> or get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">State help: <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Find your local SHIP program</a> for free, unbiased counseling on Medigap rights and switching rules in your state.</div>
       </section>
     </>
   );

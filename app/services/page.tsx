@@ -9,7 +9,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Medicare Services & Guides | MedicareYourself",
   description:
-    "Compare Medigap, Medicare Advantage & Part D with a licensed independent broker. Free, unbiased help in 35 states — call 855-559-1700 today.",
+    "Compare Medigap, Medicare Advantage & Part D with a licensed independent broker. Free, unbiased guidance in 35 states — call 855-559-1700 today.",
   alternates: { canonical: `${SITE_URL}/services` },
   openGraph: {
     title: "Medicare Services & Guides | MedicareYourself",
@@ -278,6 +278,22 @@ const STATIC_CATEGORIES = [
     answer:
       "Most people first enroll during their seven-month Initial Enrollment Period around their 65th birthday. After that, the Annual Enrollment Period (October 15–December 7) and the Medicare Advantage Open Enrollment Period (January 1–March 31) allow plan changes. Medigap can often be applied for year-round, though medical underwriting may apply outside your Open Enrollment window.",
   }
+,
+  {
+    question: "What does an independent Medicare broker do?",
+    answer:
+      "An independent Medicare broker is a licensed agent appointed with multiple insurance carriers, which means they can compare Medigap, Medicare Advantage, and Part D plans across companies on your behalf. There is no cost to you for using a broker — carriers pay a standardized commission set by CMS. Call 855-559-1700 to get unbiased help comparing your options.",
+  },
+  {
+    question: "Which Medicare plans can you help me compare?",
+    answer:
+      "We help you compare Medicare Supplement (Medigap) plans like Plan G and Plan N, Medicare Advantage (Part C) plans, and stand-alone Part D prescription drug plans. We review your doctors, prescriptions, and budget to narrow the field. You can also compare plans yourself at Medicare.gov before scheduling a call.",
+  },
+  {
+    question: "Do I have to switch plans every year?",
+    answer:
+      "No, but it is wise to review your coverage every year during the Medicare Annual Enrollment Period (October 15 – December 7) because plan benefits, networks, and drug formularies can change. Medigap policies are guaranteed renewable, but Advantage and Part D plans are renewed annually. We offer free annual reviews at 855-559-1700.",
+  }
 ];
 
 export default function ServicesHubPage() {
@@ -384,6 +400,7 @@ export default function ServicesHubPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or the <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents: visit the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank">NJ Department of Banking and Insurance</a> or contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank">NJ SHIP</a> for free counseling.</div>
       </section>
     </>
   );

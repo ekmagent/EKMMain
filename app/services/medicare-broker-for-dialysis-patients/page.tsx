@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for dialysis patients | Free ESRD Plan Review | MedicareYourself",
   description:
-    "Medicare broker for dialysis patients: ESRD eligibility, Advantage vs. Medigap, and home dialysis coverage. Free plan review — call 855-559-1700.",
+    "Medicare broker for dialysis patients — ESRD eligibility, Advantage vs. Medigap, and home dialysis coverage explained. Free plan review: call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-dialysis-patients" },
   openGraph: {
     title:
@@ -94,6 +94,22 @@ const faqs = [
     question: "What's the difference between Part A and Part B coverage for dialysis?",
     answer:
       "Under Original Medicare, Part A covers inpatient dialysis if you're admitted to a hospital for special care. Part B covers outpatient dialysis treatments at a dialysis facility or at home, along with certain dialysis drugs, lab tests, and supplies. You generally need both parts to get the full ESRD benefit.",
+  }
+,
+  {
+    question: "Does Medicare cover ambulance transportation to dialysis appointments?",
+    answer:
+      "Medicare Part B may cover ambulance transportation to and from a dialysis facility only when other transportation could endanger your health and you meet medical necessity rules. Routine rides to outpatient dialysis are generally not covered. A broker can help you confirm what your specific plan includes for non-emergency transportation.",
+  },
+  {
+    question: "Can I keep my employer health plan and still enroll in Medicare with ESRD?",
+    answer:
+      "Yes. If you have employer or COBRA coverage when you become eligible for Medicare due to ESRD, that plan typically pays first for the first 30 months, and Medicare pays second. After the coordination period ends, Medicare becomes the primary payer. Reviewing both plans together helps avoid surprise bills during the transition.",
+  },
+  {
+    question: "Should a dialysis patient choose Medicare Advantage or Medigap?",
+    answer:
+      "It depends on your treatment center, prescriptions, and budget. Medicare Advantage plans often include dental, vision, and out-of-pocket maximums but use provider networks that may not include every dialysis center. Medigap pairs with Original Medicare to cover cost-sharing and offers broader provider access, though guaranteed-issue rights for ESRD patients vary by state. Call 855-559-1700 for a side-by-side review.",
   }
 ];
 
@@ -340,6 +356,7 @@ export default function MedicareBrokerForDialysisPatients() {
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/coverage/dialysis-services-supplies" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Dialysis Services &amp; Supplies Coverage</a> and <a href="https://www.medicare.gov/basics/end-stage-renal-disease" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — End-Stage Renal Disease (ESRD)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
     </main>
   );

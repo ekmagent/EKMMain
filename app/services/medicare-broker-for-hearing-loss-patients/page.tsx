@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for hearing loss patients | Free Plan Review | MedicareYourself",
   description:
-    "Medicare broker for hearing loss patients — compare NJ Medicare Advantage plans with hearing aid and audiology benefits at no cost. Call 855-559-1700.",
+    "Medicare broker for hearing loss patients — compare NJ Medicare Advantage plans with hearing aid and audiology benefits at no cost. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-hearing-loss-patients" },
   openGraph: {
     title:
@@ -94,6 +94,22 @@ const faqs = [
     question: "Can a Medicare broker help me switch plans if my current one does not cover hearing aids?",
     answer:
       "Yes. During the Annual Enrollment Period (October 15 to December 7) or the Medicare Advantage Open Enrollment Period (January 1 to March 31), a licensed broker can help you compare plans that include hearing benefits. Anthony Orner reviews your current coverage and identifies NJ plans with stronger hearing aid allowances at no cost to you.",
+  }
+,
+  {
+    question: "Does Original Medicare cover hearing aids or fitting exams?",
+    answer:
+      "No. Original Medicare does not cover hearing aids or the exams needed to fit them, so you would pay all costs out of pocket. However, some Medicare Advantage plans include hearing aid coverage as a supplemental benefit. A licensed broker can help you compare plans that offer this extra coverage.",
+  },
+  {
+    question: "What hearing services does Medicare Part B cover?",
+    answer:
+      "Medicare Part B covers diagnostic hearing and balance exams when your doctor orders them to determine whether you need medical treatment. Part B also covers certain audiology services without a physician referral for non-acute hearing conditions. Hearing aids and routine hearing exams remain excluded under Original Medicare.",
+  },
+  {
+    question: "How do I find a Medicare Advantage plan with hearing benefits in NJ?",
+    answer:
+      "The fastest way is to work with a licensed Medicare broker who can compare carriers side by side at no cost to you. Anthony Orner reviews Medicare Advantage options across New Jersey to identify plans with hearing aid allowances, audiology visits, and fitting coverage. Call 855-559-1700 for a free plan review.",
   }
 ];
 
@@ -345,6 +361,7 @@ export default function MedicareBrokerForHearingLossPatients() {
             <div className="text-sm text-gray-600 mt-4">Learn more from official sources: <a href="https://www.medicare.gov/coverage/hearing-balance-exams" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">Medicare.gov — Hearing &amp; Balance Exams</a> and <a href="https://www.medicare.gov/coverage/hearing-aids" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">Medicare.gov — Hearing Aids Coverage</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">NJ residents can contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </main>
   );

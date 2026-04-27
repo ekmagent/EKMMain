@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "when can i change my medicare supplement plan for 2026 | Free Switching Help | MedicareYourself",
   description:
-    "When can you change your 2026 Medicare Supplement plan? Learn switch rules, guaranteed-issue rights & underwriting tips. Free broker review: 855-559-1700.",
+    "Change your 2026 Medicare Supplement plan anytime — learn switch rules, guaranteed-issue rights & underwriting tips. Free broker review: 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/when-can-i-change-my-medicare-supplement-plan-for-2026" },
   openGraph: {
     title:
@@ -148,6 +148,22 @@ const faqs = [
     question: "Should I cancel my old Medigap policy before the new one is approved?",
     answer:
       "No. Never cancel your existing Medigap policy until the new carrier has formally approved your application and issued the new policy. If you're medically underwritten, approval isn't guaranteed, and canceling early could leave you without supplemental coverage. Most people keep both active briefly during the free-look period before dropping the old plan.",
+  }
+,
+  {
+    question: "What happens if I switch Medigap plans and don't like the new one?",
+    answer:
+      "Medicare gives you a 30-day free look period when you buy a new Medigap policy. During this window you can decide whether to keep the new policy or go back to your old one. You'll need to pay both premiums for that month, but it lets you compare coverage without losing your prior plan.",
+  },
+  {
+    question: "Does my state offer extra rights to change my Medigap plan?",
+    answer:
+      "Some states provide broader switching protections than federal law requires, such as annual birthday rules or anniversary rules that allow you to change plans without underwriting. Rules vary widely, so contact your State Insurance Department or SHIP to confirm what applies where you live. Call 855-559-1700 and we'll review your state's options with you.",
+  },
+  {
+    question: "Will I have to answer health questions to change my Medigap plan in 2026?",
+    answer:
+      "Yes, in most cases. Outside your 6-month Medigap Open Enrollment Period or a federal guaranteed-issue situation, carriers can require medical underwriting and may deny coverage or charge more based on your health history. A broker can pre-screen you with multiple carriers before you formally apply.",
   }
 ];
 
@@ -343,6 +359,7 @@ export default function WhenCanIChangeMyMedicareSupplementPlanFor2026() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medigap guidance.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medigap counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> or the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> to learn about additional state-level Medigap switching rights.</div>
+            <div className="text-sm text-gray-600 mt-4">For state-specific Medigap switching rules, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">State Health Insurance Assistance Program (SHIP)</a> for free, unbiased counseling.</div>
       </section>
     </main>
   );

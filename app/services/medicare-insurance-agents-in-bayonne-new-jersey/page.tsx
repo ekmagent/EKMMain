@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare insurance agents in bayonne new jersey | Free Local Help | MedicareYourself",
   description:
-    "Medicare agents in Bayonne, NJ — Anthony Orner, licensed broker, compares Medigap & Advantage plans at no cost. Free local consult: call 855-559-1700.",
+    "Talk to a licensed Medicare broker in Bayonne, NJ. Anthony Orner compares Medigap and Advantage plans at no cost. Free local consult — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-insurance-agents-in-bayonne-new-jersey" },
   openGraph: {
     title:

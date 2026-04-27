@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Switch Medigap Carriers, Same Plan G (2026)",
   description:
-    "Switch Medigap Plan G carriers and keep identical federally standardized coverage at a lower rate. Free carrier comparison — call 855-559-1700 today.",
+    "Switch Medigap Plan G carriers and keep identical federally standardized benefits at a lower premium. Free carrier comparison — call 855-559-1700 today.",
   alternates: { canonical: `${SITE_URL}/medicare-supplement/switch-carriers` },
   openGraph: {
     title: "Switch Medigap Carriers, Same Plan G (2026)",
@@ -140,6 +140,17 @@ const faqs = [
     question: "Will I have to answer health questions when I switch Medigap carriers?",
     answer:
       "In most states, yes — outside your 6-month Medigap Open Enrollment Period, carriers can use medical underwriting and ask about your health history. There are exceptions called Guaranteed Issue rights (such as your plan leaving the market or losing employer coverage) where carriers must accept you. Some states also offer broader switching rights, so it's worth checking with your State Insurance Department or a licensed broker.",
+  }
+,
+  {
+    question: "Will I have to answer health questions to switch Plan G carriers?",
+    answer:
+      "In most states, yes — outside your 6-month Medigap Open Enrollment Period, carriers can use medical underwriting and may decline your application based on health. Some states have additional rules that allow easier switching, and federal Guaranteed Issue rights apply in specific situations like losing other coverage. Contact your State Insurance Department or a licensed broker to confirm what applies in your state.",
+  },
+  {
+    question: "Should I cancel my old Medigap policy before applying for a new one?",
+    answer:
+      "No. Always wait until the new Medigap policy is approved and active before canceling the old one. Medicare allows a 30-day free-look period to review the new policy, and you should keep your existing coverage in place until you are certain the new plan has started. Canceling early could leave you with a gap in supplemental coverage.",
   }
 ];
 
@@ -364,6 +375,7 @@ export default function SwitchCarriersPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents: contact <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or the free <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP program</a> for unbiased counseling on switching Medigap carriers.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify carrier rates and complaint history with the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or the free <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP program</a> for unbiased Medigap guidance.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or the free <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP program</a> for unbiased Medigap switching guidance.</div>
       </section>
     </>
   );
