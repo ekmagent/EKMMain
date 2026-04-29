@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare Supplement Plan G Cost for a 68-Year-Old | Free Rate Comparison | MedicareYourself",
   description:
-    "Medicare Supplement Plan G cost for a 68-year-old varies by carrier, state, and pricing method. Compare real rates with Anthony Orner — call 855-559-1700.",
+    "Compare real Medicare Supplement Plan G rates for a 68-year-old by carrier and state. Get a free side-by-side quote from Anthony Orner — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-supplement-plan-g-cost-for-68-year-old" },
   openGraph: {
     title:
@@ -289,6 +289,7 @@ export default function MedicareSupplementPlanGCostFor68YearOld() {
           </li>
         </ul>
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/health-drug-plans/medigap/basics/costs" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — How Medigap Costs Are Set</a> and <a href="https://www.medicare.gov/plan-compare/" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov Plan Compare Tool</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">For state-specific rate filings and consumer help, visit the <a href="https://www.state.nj.us/dobi/division_insurance/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> or contact <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">your local SHIP program</a> for free Medicare counseling.</div>
       </section>
     </main>
   );

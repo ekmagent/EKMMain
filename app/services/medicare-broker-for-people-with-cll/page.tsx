@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare broker for people with CLL | Free Consult | MedicareYourself",
   description:
-    "Medicare broker for people with CLL — guidance on Medigap underwriting, Part D oral cancer drugs, and specialist access. Call 855-559-1700 for a free review.",
+    "Medicare broker for people with CLL — clear help with Medigap underwriting, Part D oral cancer drugs, and specialist access. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-people-with-cll" },
   openGraph: {
     title:
@@ -90,6 +90,12 @@ const faqs = [
     question: "Will Medicare cover a second opinion from a CLL specialist?",
     answer:
       "Yes. Medicare Part B covers second opinions from specialists, including CLL experts at academic cancer centers. If the first and second opinions differ, Medicare will also cover a third opinion. With Original Medicare plus Medigap, you can see any oncologist nationwide who accepts Medicare, which is often helpful for accessing CLL specialists.",
+  }
+,
+  {
+    question: "Does Medicare Part B cover a second opinion from a CLL specialist?",
+    answer:
+      "Yes. Medicare Part B covers second opinions for medical conditions when your doctor recommends surgery or a major treatment decision, and this includes consultations with CLL specialists. If the first and second opinions differ, Medicare may also help cover a third opinion. Call 855-559-1700 if you need help confirming whether a specific specialist accepts Medicare assignment.",
   }
 ];
 

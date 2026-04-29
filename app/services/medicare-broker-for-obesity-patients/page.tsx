@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for obesity patients | Free Plan Comparison | MedicareYourself",
   description:
-    "Medicare broker for obesity patients — Anthony Orner compares NJ plans covering IBT counseling, bariatric surgery & GLP-1 drugs. Free help at 855-559-1700.",
+    "Medicare broker for obesity patients — Anthony Orner compares NJ plans covering IBT counseling, bariatric surgery, and GLP-1 drugs. Free help: 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-obesity-patients" },
   openGraph: {
     title:
@@ -308,6 +308,7 @@ export default function MedicareBrokerForObesityPatients() {
               <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/coverage/obesity-behavioral-therapy" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Obesity Behavioral Therapy Coverage</a> and <a href="https://www.medicare.gov/coverage/bariatric-surgery" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Bariatric Surgery Coverage</a>.</div>
             <div className="text-sm text-gray-600 mt-4">NJ residents can also get free unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">NJ residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">New Jersey SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">NJ residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
       </section>
       </article>
     </>

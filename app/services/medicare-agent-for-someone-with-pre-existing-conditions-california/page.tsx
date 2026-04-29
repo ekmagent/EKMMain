@@ -110,6 +110,12 @@ const faqs = [
     answer:
       "Share your full list of diagnoses, current medications, preferred doctors, and any upcoming procedures. A licensed broker uses that information to check plan formularies, provider networks, and whether you qualify for guaranteed-issue Medigap rights. The more complete the picture, the better the plan match — and nothing you share affects the cost of your coverage.",
   }
+,
+  {
+    question: "Does California's Medigap birthday rule help if I have pre-existing conditions?",
+    answer:
+      "Yes. California's birthday rule lets you switch to another Medigap plan with equal or lesser benefits from the same or a different carrier each year around your birthday without medical underwriting. This is especially valuable if you have chronic conditions that would otherwise trigger denials or higher premiums outside guaranteed-issue windows.",
+  }
 ];
 
 export default function MedicareAgentPreExistingConditionsCA() {

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare enrollment help for people with lupus california | Free Guidance | MedicareYourself",
   description:
-    "Medicare enrollment help for Californians with lupus. Compare plans covering rheumatologists, biologics & infusions. Free broker guidance — call today.",
+    "Medicare help for Californians with lupus. Compare plans covering rheumatologists, biologics & infusions. Free licensed broker guidance — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-enrollment-help-for-people-with-lupus-california" },
   openGraph: {
     title:
@@ -89,6 +89,22 @@ const faqs = [
     question: "Does Medicare cover rheumatologist visits for lupus management?",
     answer:
       "Yes. Medicare Part B covers medically necessary visits to rheumatologists and other specialists who accept Medicare. After meeting the 2026 Part B deductible of $283, you typically pay 20% of the Medicare-approved amount unless you have supplemental coverage that reduces your cost share.",
+  }
+,
+  {
+    question: "Does Medicare cover lab work and monitoring tests for lupus?",
+    answer:
+      "Yes. Medicare Part B covers medically necessary diagnostic lab tests used to monitor lupus, including blood work and urinalysis ordered by your doctor. These tests help track disease activity, kidney function, and medication side effects. Coverage applies when the lab accepts Medicare assignment.",
+  },
+  {
+    question: "Should I choose Original Medicare or Medicare Advantage if I have lupus in California?",
+    answer:
+      "It depends on your providers and treatment plan. Original Medicare with a Part D plan and Medigap offers broad access to any provider that accepts Medicare, which can matter if you see specialists at academic centers like UCLA or UCSF. Medicare Advantage plans may have lower premiums but use networks and prior authorization. A broker can compare both based on your rheumatologist and medications.",
+  },
+  {
+    question: "Can a Medicare broker in California help me at no cost?",
+    answer:
+      "Yes. Licensed Medicare brokers are paid by the insurance carriers, not by you, so their guidance is free. A broker like Anthony Orner can review plans available in your California county, check whether your rheumatologist and medications are covered, and help you enroll. Call 855-559-1700 to get started.",
   }
 ];
 
@@ -350,6 +366,7 @@ export default function MedicareEnrollmentHelpLupusCalifornia() {
 </ul>
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/basics/get-started-with-medicare/sign-up/when-does-medicare-coverage-start" rel="noopener noreferrer" target="_blank" className="underline">When Medicare coverage starts (Medicare.gov)</a> · <a href="https://www.medicare.gov/basics/costs/medicare-costs" rel="noopener noreferrer" target="_blank" className="underline">2026 Medicare costs</a></div>
             <div className="text-sm text-gray-600 mt-2">California residents: Get free local Medicare counseling through <a href="https://aging.ca.gov/hicap/" rel="noopener noreferrer" target="_blank" className="underline">California's Health Insurance Counseling and Advocacy Program (HICAP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">California residents can get free local Medicare counseling through <a href="https://www.aging.ca.gov/HICAP/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">California's Health Insurance Counseling and Advocacy Program (HICAP)</a>.</div>
       </section>
     </main>
   );

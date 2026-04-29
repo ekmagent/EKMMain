@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "find a medicare agent in montclair nj | Free Local Help | MedicareYourself",
   description:
-    "Find a medicare agent in Montclair NJ — Anthony Orner is a licensed independent broker comparing top carriers in Essex County. Free consultation, no pressure.",
+    "Find a Medicare agent in Montclair, NJ — Anthony Orner is an independent broker comparing top carriers in Essex County. Free, no-pressure review at 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/find-a-medicare-agent-in-montclair-nj" },
   openGraph: {
     title:
@@ -83,6 +83,17 @@ const faqs = [
     answer:
       "A captive agent represents one insurance company. An independent broker represents multiple carriers and can compare plans side by side. Independent brokers like Anthony Orner have no financial incentive to steer you toward one carrier over another.",
   },
+,
+  {
+    question: "Does a Medicare agent in Montclair need to meet me in person?",
+    answer:
+      "No. Most consultations can be done by phone or video, which many beneficiaries prefer for convenience. In-person meetings are available when helpful, but they're not required to enroll or compare plans. The same licensed broker handles your case either way.",
+  },
+  {
+    question: "What carriers can an independent broker offer in Essex County?",
+    answer:
+      "An independent broker contracts with multiple national and regional carriers that serve New Jersey. The exact lineup varies by ZIP code and plan type, since Medicare Advantage and Part D networks are county-specific. During a consultation, the broker reviews which carriers are available at your Montclair address.",
+  }
 ];
 
 export default function FindMedicareAgentMontclairNJ() {
@@ -369,6 +380,7 @@ export default function FindMedicareAgentMontclairNJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey beneficiaries can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

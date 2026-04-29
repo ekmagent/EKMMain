@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "local medicare agents in union city nj | Free Plan Comparison | MedicareYourself",
   description:
-    "Local Medicare agents in Union City NJ — Anthony Orner is a licensed independent broker comparing Supplement and Advantage plans. Free, no-obligation quotes.",
+    "Local Medicare agents in Union City, NJ — compare Supplement & Advantage plans free with licensed broker Anthony Orner. Call 855-559-1700 for a no-obligation quote.",
   alternates: { canonical: "https://medicareyourself.com/services/local-medicare-agents-in-union-city-nj" },
   openGraph: {
     title:
@@ -361,6 +361,7 @@ export default function LocalMedicareAgentsUnionCityNJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased Medicare counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

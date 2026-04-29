@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "how long does it take to enroll in medicare supplements | Free Help | MedicareYourself",
   description:
-    "How long does it take to enroll in Medicare Supplements? Most applications take 10–20 minutes with a broker. Learn the full timeline and get free help today.",
+    "How long does it take to enroll in a Medicare Supplement? Most apps take 10–20 minutes with a licensed broker. Call 855-559-1700 for free help today.",
   alternates: { canonical: "https://medicareyourself.com/services/how-long-does-it-take-to-enroll-in-medicare-supplements" },
   openGraph: {
     title:

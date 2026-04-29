@@ -111,6 +111,22 @@ const programs = [
     drugHelp: "This IS the drug help program",
     highlight: false,
   },
+,
+  {
+    question: "How do I apply for a Medicare Savings Program?",
+    answer:
+      "You apply through your state Medicaid office, not through Medicare directly. Each state runs its own application process, and the state will determine which of the four MSP programs you qualify for. Medicare.gov recommends applying even if you are not sure you qualify, because income and resource limits vary by state.",
+  },
+  {
+    question: "Does Extra Help automatically come with a Medicare Savings Program?",
+    answer:
+      "Yes. If you qualify for QMB, SLMB, or QI, you are automatically enrolled in Extra Help (the Low Income Subsidy) for Part D prescription drug costs. You do not need to file a separate Extra Help application with Social Security. This combination can dramatically lower both your medical and prescription costs.",
+  },
+  {
+    question: "What if my income is just above the limit — can I still get help?",
+    answer:
+      "Possibly. Income and resource limits vary by state, and some states use higher thresholds or do not count certain assets. Medicare.gov advises applying even if you think you make too much, since the state makes the final eligibility decision. A licensed broker can also review whether a different plan structure could lower your costs.",
+  }
 ];
 
 export default function LowIncomeMedicarePage() {

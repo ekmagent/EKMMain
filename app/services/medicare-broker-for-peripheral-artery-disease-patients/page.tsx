@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for peripheral artery disease patients | Free Consultation | MedicareYourself",
   description:
-    "Medicare broker for peripheral artery disease patients matching you with plans covering vascular procedures and Rx. Anthony Orner offers free consultations.",
+    "Medicare broker for peripheral artery disease patients — compare plans covering angioplasty, stents, and PAD medications. Free consultation with Anthony Orner.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-peripheral-artery-disease-patients" },
   openGraph: {
     title:

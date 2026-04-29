@@ -9,7 +9,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Medicare Services & Guides | MedicareYourself",
   description:
-    "Compare Medigap, Medicare Advantage & Part D with a licensed independent broker. Free, unbiased guidance in 35 states — call 855-559-1700 today.",
+    "Compare Medigap, Medicare Advantage & Part D with a licensed independent broker in 35 states. Free, unbiased guidance — call 855-559-1700 today.",
   alternates: { canonical: `${SITE_URL}/services` },
   openGraph: {
     title: "Medicare Services & Guides | MedicareYourself",
@@ -294,6 +294,22 @@ const STATIC_CATEGORIES = [
     answer:
       "No, but it is wise to review your coverage every year during the Medicare Annual Enrollment Period (October 15 – December 7) because plan benefits, networks, and drug formularies can change. Medigap policies are guaranteed renewable, but Advantage and Part D plans are renewed annually. We offer free annual reviews at 855-559-1700.",
   }
+,
+  {
+    question: "What does an independent Medicare broker do?",
+    answer:
+      "An independent Medicare broker is licensed to compare plans from multiple insurance carriers and help you choose coverage that fits your health needs and budget. Brokers explain the differences between Original Medicare, Medigap, Medicare Advantage, and Part D drug plans. There is no cost to work with a broker — carriers pay the commission directly. You can reach our office at 855-559-1700.",
+  },
+  {
+    question: "Are your Medicare services free to use?",
+    answer:
+      "Yes. Working with our licensed broker costs you nothing out of pocket, and your plan premium is the same whether you enroll through us or directly with the carrier. We are paid by the insurance company after you enroll, not by you. You can review official plan details anytime at Medicare.gov.",
+  },
+  {
+    question: "Which states does MedicareYourself serve?",
+    answer:
+      "Anthony Orner (NPI 1902584006) is a licensed Medicare insurance broker based in New Jersey and appointed in 34 additional states. We help beneficiaries compare Medigap, Medicare Advantage, and Part D options across our service area. Call 855-559-1700 to confirm coverage in your state.",
+  }
 ];
 
 export default function ServicesHubPage() {
@@ -401,6 +417,7 @@ export default function ServicesHubPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or the <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents: visit the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank">NJ Department of Banking and Insurance</a> or contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank">NJ SHIP</a> for free counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank">NJ SHIP (State Health Insurance Assistance Program)</a> for free counseling.</div>
       </section>
     </>
   );

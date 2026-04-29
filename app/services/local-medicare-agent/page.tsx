@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "local medicare agent | Free Consultation, No Obligation | MedicareYourself",
   description:
-    "Work with a local NJ Medicare agent who compares top carriers at no cost. Anthony Orner offers free, no-obligation consultations — book your call today.",
+    "Meet with a licensed local NJ Medicare agent who compares top carriers at no cost. Free, no-pressure consultations with Anthony Orner — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/local-medicare-agent" },
   openGraph: {
     title:
@@ -86,6 +86,22 @@ const faqs = [
     answer:
       "Anthony is licensed in New Jersey and Pennsylvania. He works with clients across Morris, Essex, Bergen, Passaic, Sussex, Warren, and Hunterdon counties, as well as parts of eastern PA. Phone and video consultations are available statewide.",
   },
+,
+  {
+    question: "How do I prepare for a meeting with a local Medicare agent?",
+    answer:
+      "Have a list of your current doctors, preferred hospitals, and prescription medications (including dosages) ready. It also helps to know your Medicare number and Part A/Part B effective dates. This lets your agent run an accurate plan comparison based on your actual providers and drugs.",
+  },
+  {
+    question: "Is meeting with a local Medicare agent better than enrolling online?",
+    answer:
+      "A local agent reviews your specific doctors, prescriptions, and budget before recommending a plan, which an online enrollment tool cannot do. Agents also stay with you year over year to handle plan reviews, claim issues, and Annual Enrollment changes. There is no extra cost compared to enrolling directly.",
+  },
+  {
+    question: "Do I have to meet in person, or can we do it by phone?",
+    answer:
+      "Either works. Anthony Orner offers in-person appointments across northern and central New Jersey, plus phone and video consultations for clients who prefer to meet remotely. The plan options and pricing are identical regardless of how you choose to meet.",
+  }
 ];
 
 export default function LocalMedicareAgentPage() {
@@ -317,6 +333,7 @@ export default function LocalMedicareAgentPage() {
 </ul>
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/talk-to-someone" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Talk to Someone</a> and <a href="https://www.medicare.gov/plan-compare" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov Plan Compare</a>.</div>
             <div className="text-sm text-gray-600 mt-4">For free, unbiased counseling, contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">New Jersey SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </>
   );

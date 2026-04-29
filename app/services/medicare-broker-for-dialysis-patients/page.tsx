@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for dialysis patients | Free ESRD Plan Review | MedicareYourself",
   description:
-    "Medicare broker for dialysis patients — ESRD eligibility, Advantage vs. Medigap, and home dialysis coverage explained. Free plan review: call 855-559-1700.",
+    "Medicare broker for dialysis patients — ESRD eligibility, Advantage vs. Medigap, and home dialysis coverage. Get a free plan review: call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-dialysis-patients" },
   openGraph: {
     title:
@@ -110,6 +110,22 @@ const faqs = [
     question: "Should a dialysis patient choose Medicare Advantage or Medigap?",
     answer:
       "It depends on your treatment center, prescriptions, and budget. Medicare Advantage plans often include dental, vision, and out-of-pocket maximums but use provider networks that may not include every dialysis center. Medigap pairs with Original Medicare to cover cost-sharing and offers broader provider access, though guaranteed-issue rights for ESRD patients vary by state. Call 855-559-1700 for a side-by-side review.",
+  }
+,
+  {
+    question: "Should I choose Medicare Advantage or Medigap if I'm on dialysis?",
+    answer:
+      "It depends on your treatment center, travel needs, and budget. Medigap pairs with Original Medicare and lets you see any provider that accepts Medicare, which can be helpful if your dialysis clinic is out of network for local Advantage plans. Advantage plans may offer lower upfront premiums and extra benefits, but networks and prior authorization rules matter for ongoing dialysis care. A licensed broker can compare both side by side.",
+  },
+  {
+    question: "Will Medicare cover a kidney transplant?",
+    answer:
+      "Yes. Medicare covers kidney transplant surgery, related hospital care, and immunosuppressive drugs when the transplant is performed at a Medicare-approved facility. Part A covers the inpatient stay and Part B covers physician services and many post-transplant medications.",
+  },
+  {
+    question: "Can I keep my employer health plan along with Medicare for dialysis?",
+    answer:
+      "Often yes. For the first 30 months after you become Medicare-eligible due to ESRD, your employer group health plan generally pays first and Medicare pays second. After that coordination period ends, Medicare becomes the primary payer. A broker can help you plan for the transition before your secondary coverage shifts.",
   }
 ];
 

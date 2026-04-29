@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title:
     "How to Enroll in Medicare Online at SSA.gov (Step-by-Step Walkthrough)",
   description:
-    "Step-by-step SSA.gov Medicare enrollment walkthrough — finish in about 10 minutes and avoid Part B mistakes. Free broker help: call 855-559-1700.",
+    "Step-by-step SSA.gov Medicare enrollment walkthrough — finish in about 10 minutes and avoid costly Part B mistakes. Free broker help: 855-559-1700.",
   alternates: {
     canonical: `${SITE_URL}/learn/ssa-online-enrollment-walkthrough`,
   },
@@ -304,6 +304,22 @@ const steps = [
     question: "Do I have to enroll in Part B when I sign up online?",
     answer:
       "No. The SSA application asks separately whether you want to enroll in Part B, so you can decline it if you have qualifying employer coverage. However, declining Part B without creditable coverage can lead to a lifetime late enrollment penalty, so it's worth confirming your situation with a licensed broker before submitting.",
+  }
+,
+  {
+    question: "Do I need to enroll in Medicare online if I already get Social Security benefits?",
+    answer:
+      "No. If you are already receiving Social Security retirement or disability benefits before turning 65, you will be automatically enrolled in Medicare Part A and Part B. Your red, white, and blue Medicare card will arrive in the mail about three months before your 65th birthday.",
+  },
+  {
+    question: "Can I decline Part B during the SSA online application?",
+    answer:
+      "Yes. The application asks whether you want to enroll in Part B, and you can decline if you have qualifying employer coverage. Be careful — declining Part B without creditable coverage can trigger a lifelong late enrollment penalty and a delayed effective date. Speak with a licensed broker at 855-559-1700 before declining.",
+  },
+  {
+    question: "What documents do I need before starting the SSA Medicare application?",
+    answer:
+      "Have your Social Security number, a valid driver's license or state ID for identity verification through Login.gov or ID.me, and details about any current health insurance coverage, including employer group plan dates. If you've worked outside the U.S., gather those employment records as well.",
   }
 ];
 

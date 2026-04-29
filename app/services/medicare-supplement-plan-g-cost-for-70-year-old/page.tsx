@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare Supplement Plan G Cost for a 70-Year-Old | Free Rate Lookup | MedicareYourself",
   description:
-    "Medicare Supplement Plan G cost for 70-year-olds varies by carrier, state, and pricing model. Compare real premiums and get a free quote from Anthony Orner.",
+    "Medicare Supplement Plan G cost for 70-year-olds depends on carrier, zip code, and pricing model. Compare quotes free — call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-supplement-plan-g-cost-for-70-year-old" },
   openGraph: {
     title:

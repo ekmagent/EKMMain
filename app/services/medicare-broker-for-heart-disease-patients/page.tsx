@@ -127,6 +127,12 @@ const faqs = [
     answer:
       "With Original Medicare, you can see any cardiologist who accepts Medicare without a referral. Medicare Advantage HMO plans usually require a referral from your primary care doctor, while PPO plans typically do not. This is one reason plan structure matters so much for heart patients who see specialists regularly.",
   }
+,
+  {
+    question: "Will my cardiologist accept my Medicare plan?",
+    answer:
+      "With Original Medicare, any cardiologist who accepts Medicare assignment will treat you, which is the vast majority nationwide. Medicare Advantage plans use provider networks, so you'll need to confirm your cardiologist is in-network before enrolling. A broker can run your specific doctors against each plan's directory before you commit.",
+  }
 ];
 
 export default function MedicareBrokerHeartDiseasePatients() {

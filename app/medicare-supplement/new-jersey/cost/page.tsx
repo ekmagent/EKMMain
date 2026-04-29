@@ -75,6 +75,22 @@ const faqs = [
     answer:
       "Because New Jersey uses community rating for Medicare Supplement plans, your premium is not based on your individual age. Rates can still change over time due to inflation and carrier-wide adjustments, but you will not be charged more simply for aging into a higher age bracket. This makes NJ Medigap pricing more predictable than in age-rated states.",
   }
+,
+  {
+    question: "Can my Medigap premium in New Jersey go up over time?",
+    answer:
+      "Yes. Even though New Jersey uses community rating, carriers can still raise premiums across the board due to inflation, claims experience, and rising healthcare costs. Your rate will not increase because you got older or developed a health condition, but the overall plan rate may adjust each year. Comparing carriers periodically can help you stay on a competitive rate.",
+  },
+  {
+    question: "Do all Medigap carriers in New Jersey charge the same price for Plan G?",
+    answer:
+      "No. Plan G benefits are standardized by Medicare, so the coverage is identical no matter which carrier you choose, but premiums can vary significantly between insurers. That is why it is important to compare every carrier licensed in your county before enrolling. Call 855-559-1700 for a side-by-side comparison.",
+  },
+  {
+    question: "Will I pay more for Medigap in NJ if I enroll outside my Open Enrollment Period?",
+    answer:
+      "Possibly. Outside your 6-month Medigap Open Enrollment Period, carriers in New Jersey can use medical underwriting, which may result in higher premiums or a denial of coverage based on your health history. Some limited guaranteed issue situations exist, such as losing other coverage. Enrolling during your initial 6-month window is the safest way to lock in a rate without health questions.",
+  }
 ];
 
 export default function NJMedicareCostPage() {

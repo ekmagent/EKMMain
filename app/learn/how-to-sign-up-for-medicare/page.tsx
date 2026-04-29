@@ -199,6 +199,22 @@ const faqs = [
     answer:
       "If you miss your Initial Enrollment Period and do not qualify for a Special Enrollment Period, you may have to wait until the General Enrollment Period (January 1 – March 31) to sign up for Part B. You may also owe a permanent late enrollment penalty that is added to your Part B premium for as long as you have Medicare.",
   }
+,
+  {
+    question: "What happens if I miss my Initial Enrollment Period?",
+    answer:
+      "If you miss your Initial Enrollment Period and don't qualify for a Special Enrollment Period, you'll need to wait for the General Enrollment Period (January 1 through March 31) to sign up for Part B. You may also owe a late enrollment penalty that is added to your Part B premium for as long as you have Medicare. To avoid this, enroll on time or confirm you have creditable employer coverage.",
+  },
+  {
+    question: "Can I sign up for Medicare online?",
+    answer:
+      "Yes. You can apply for Medicare Part A and Part B online at ssa.gov/medicare in about 10 minutes. You can start your application up to 3 months before the month you turn 65. If you're already receiving Social Security benefits, you'll be enrolled automatically and don't need to apply.",
+  },
+  {
+    question: "Do I need to sign up for Medicare if I have employer coverage?",
+    answer:
+      "If you or your spouse are still actively working and have group health coverage from an employer with 20 or more employees, you may delay Part B without penalty. You should still consider enrolling in Part A since it's typically premium-free. Always confirm with your HR department that your plan counts as creditable coverage before delaying. Call 855-559-1700 if you'd like help reviewing your options.",
+  }
 ];
 
 export default function HowToSignUpPage() {

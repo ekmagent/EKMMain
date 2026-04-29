@@ -141,6 +141,22 @@ const faqs = [
     answer:
       "Yes. Medicare Part B covers the Medicare Diabetes Prevention Program (MDPP) for eligible beneficiaries at no cost to you if you qualify. The program provides training to make lasting diet and exercise changes to help prevent type 2 diabetes. You can find an MDPP supplier near you or join an online program through medicare.gov.",
   }
+,
+  {
+    question: "Does Medicare cover the Medicare Diabetes Prevention Program?",
+    answer:
+      "Yes. Medicare Part B covers the Medicare Diabetes Prevention Program for eligible beneficiaries at risk of type 2 diabetes. The program provides training on diet and lifestyle changes to help prevent the onset of type 2 diabetes, and you pay nothing if you qualify. You can find a program near you or attend online through medicare.gov.",
+  },
+  {
+    question: "Will Medicare Part D help with the cost of insulin?",
+    answer:
+      "Yes. Medicare Part D plans and Medicare Advantage plans with drug coverage include insulin on their formularies, and federal law caps what you pay for a month's supply of covered insulin. Insulin used with a traditional pump is covered under Part B as durable medical equipment instead of Part D. Call 855-559-1700 for help comparing plans based on the specific insulin you take.",
+  },
+  {
+    question: "Can I switch Medicare plans during the year if my diabetes care changes?",
+    answer:
+      "In most cases, you make plan changes during the Annual Enrollment Period each fall or the Medicare Advantage Open Enrollment Period in early spring. Special Enrollment Periods may apply if you move, lose other coverage, or qualify for Extra Help. Anthony can review your current coverage and let you know if you qualify to switch — call 855-559-1700.",
+  }
 ];
 
 export default function MedicareEnrollmentHelpDiabetes() {
