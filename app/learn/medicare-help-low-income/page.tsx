@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Medicare Help on a Fixed Income (2026)",
   description:
-    "Lower or eliminate Medicare costs with Extra Help, QMB, SLMB & Medicare Savings Programs. Free help finding what you qualify for — call 855-559-1700.",
+    "Lower Medicare costs with Extra Help, QMB, SLMB & Medicare Savings Programs. Find out what you qualify for — free guidance at 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/medicare-help-low-income` },
   openGraph: {
     title: "Medicare Help on a Fixed Income (2026)",
@@ -126,6 +126,22 @@ const programs = [
     question: "What if my income is just above the limit — can I still get help?",
     answer:
       "Possibly. Income and resource limits vary by state, and some states use higher thresholds or do not count certain assets. Medicare.gov advises applying even if you think you make too much, since the state makes the final eligibility decision. A licensed broker can also review whether a different plan structure could lower your costs.",
+  }
+,
+  {
+    question: "How do I apply for a Medicare Savings Program?",
+    answer:
+      "You apply for Medicare Savings Programs through your state Medicaid office, not through Medicare directly. Even if you're not sure you qualify, Medicare recommends applying anyway because income and resource rules vary by state and some states have higher limits. In New Jersey, applications are handled through NJ FamilyCare or your county Board of Social Services.",
+  },
+  {
+    question: "Will applying for Extra Help affect my Social Security or other benefits?",
+    answer:
+      "No. Applying for Extra Help through the Social Security Administration does not reduce your Social Security retirement, disability, or SSI benefits. Extra Help is a separate federal subsidy that lowers your Medicare Part D prescription drug costs. You can apply online at ssa.gov, by phone at 1-800-772-1213, or at a local Social Security office.",
+  },
+  {
+    question: "If I qualify for QMB, can providers still bill me?",
+    answer:
+      "No. Federal law prohibits Medicare providers from billing QMB enrollees for Medicare cost-sharing — including deductibles, coinsurance, and copayments. If you receive a bill in error, show the provider your QMB or Medicaid card and contact Medicare at 1-800-MEDICARE. For free help understanding a bill, call us at 855-559-1700.",
   }
 ];
 

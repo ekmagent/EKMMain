@@ -97,6 +97,22 @@ const faqs = [
     answer:
       "Yes. Medicare Part B covers second opinions for medical conditions when your doctor recommends surgery or a major treatment decision, and this includes consultations with CLL specialists. If the first and second opinions differ, Medicare may also help cover a third opinion. Call 855-559-1700 if you need help confirming whether a specific specialist accepts Medicare assignment.",
   }
+,
+  {
+    question: "How does the Medigap Open Enrollment Period protect CLL patients?",
+    answer:
+      "Your Medigap Open Enrollment Period is a 6-month window that begins when you are 65 or older and enrolled in Part B. During this time, insurance carriers cannot deny coverage, charge higher premiums, or impose waiting periods because of your CLL diagnosis. Missing this window often means facing medical underwriting, which can make Medigap coverage difficult to obtain with CLL.",
+  },
+  {
+    question: "Are CLL clinical trials covered by Medicare?",
+    answer:
+      "Yes. Medicare covers routine costs of qualifying clinical trials, including doctor visits, lab work, and standard care items you would receive outside the trial. The investigational drug or device itself is typically paid for by the trial sponsor. This can be especially valuable for CLL patients exploring newer targeted therapies or CAR-T research.",
+  },
+  {
+    question: "Do I need a referral to see a CLL specialist under Medicare?",
+    answer:
+      "With Original Medicare, you do not need a referral to see any provider who accepts Medicare, including hematologists and oncologists at major cancer centers. Medicare Advantage plans, however, often require referrals and limit you to in-network specialists. This is one reason many CLL patients prefer Original Medicare paired with a Medigap plan.",
+  }
 ];
 
 export default function MedicareBrokerForPeopleWithCLL() {

@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Plan G Rates by Age in New Jersey | 2026 Costs | MedicareYourself",
   description:
-    "Compare Plan G rates by age in New Jersey for 2026. Anthony Orner shops top NJ carriers to find your lowest monthly premium. Free quote — call 855-559-1700.",
+    "Compare 2026 Plan G rates by age in New Jersey across top carriers. Anthony Orner finds your lowest NJ premium — call 855-559-1700 for a free quote.",
   alternates: { canonical: `${SITE_URL}/services/plan-g-rates-by-age-new-jersey` },
   openGraph: {
     title: "Plan G Rates by Age in New Jersey | 2026 Costs | MedicareYourself",
@@ -48,6 +48,17 @@ const faqs = [
     question: "Does New Jersey have guaranteed issue for Medigap year-round?",
     answer:
       "No. New Jersey follows the federal rule that guarantees Medigap issue during your 6-month Medigap Open Enrollment Period, which starts when you are 65 or older and enrolled in Part B. Outside that window, carriers may use medical underwriting unless you qualify for a specific guaranteed-issue situation under federal law.",
+  }
+,
+  {
+    question: "Does New Jersey use community rating for Medigap?",
+    answer:
+      "New Jersey carriers may use community-rated, issue-age, or attained-age pricing depending on the company. Community-rated plans charge the same premium regardless of age, while attained-age plans increase as you grow older. Anthony Orner can compare both pricing structures across NJ carriers to find the best long-term value for your situation.",
+  },
+  {
+    question: "When is the best age to lock in a Plan G rate in NJ?",
+    answer:
+      "The best time is during your 6-month Medigap Open Enrollment Period, which begins the month you turn 65 and are enrolled in Part B. During this window, carriers cannot deny you or charge more for health conditions. Locking in younger generally means a lower starting premium, especially with attained-age carriers.",
   }
 ];
 

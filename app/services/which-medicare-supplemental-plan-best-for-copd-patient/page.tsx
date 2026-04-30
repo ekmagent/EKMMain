@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "which medicare supplemental plan best for copd patient? | Free Expert Advice | MedicareYourself",
   description:
-    "Compare Medigap Plan G vs. Plan N for COPD oxygen, inhalers, and ER visits. Get a free, no-pressure broker review — call 855-559-1700 today.",
+    "Compare Medigap Plan G vs. Plan N for COPD oxygen, inhalers & ER visits. Get a free, no-pressure broker review — call 855-559-1700 today for honest advice.",
   alternates: { canonical: "https://medicareyourself.com/services/which-medicare-supplemental-plan-best-for-copd-patient" },
   openGraph: {
     title:
@@ -110,6 +110,22 @@ const faqs = [
     question: "Will a Medigap plan cover my COPD inhalers and prescription drugs?",
     answer:
       "No. Medigap (Medicare Supplement) plans do not cover prescription drugs, including COPD inhalers and nebulizer solutions taken at home. You'll need a separate Medicare Part D prescription drug plan to help with these costs. Call 855-559-1700 and we'll help match you with a Part D plan that covers your specific inhalers.",
+  }
+,
+  {
+    question: "Is Plan G or Plan N better for a COPD patient who visits the ER often?",
+    answer:
+      "Plan G is generally the better choice for COPD patients with frequent ER visits because it covers Part B excess charges and waives the small copays that Plan N applies to office and emergency room visits. Plan N has a lower premium but can add up quickly when COPD flare-ups lead to multiple urgent visits per year. A broker can compare the total annual cost based on your usage.",
+  },
+  {
+    question: "Will a Medigap plan cover my COPD inhalers and prescriptions?",
+    answer:
+      "No. Medicare Supplement (Medigap) plans do not cover prescription drugs, including COPD inhalers, nebulizer solutions, or oral medications. You'll need a separate Part D prescription drug plan to cover those costs. Call 855-559-1700 and we'll help you pair your Medigap plan with the right Part D plan for your specific medications.",
+  },
+  {
+    question: "Does Medicare cover smoking cessation counseling for COPD patients?",
+    answer:
+      "Yes. Medicare Part B covers smoking and tobacco-use cessation counseling sessions per year for people who use tobacco, with no out-of-pocket cost when your provider accepts assignment. This benefit is especially valuable for COPD patients, since quitting smoking is the single most effective way to slow disease progression.",
   }
 ];
 

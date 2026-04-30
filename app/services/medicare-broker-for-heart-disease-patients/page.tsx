@@ -133,6 +133,12 @@ const faqs = [
     answer:
       "With Original Medicare, any cardiologist who accepts Medicare assignment will treat you, which is the vast majority nationwide. Medicare Advantage plans use provider networks, so you'll need to confirm your cardiologist is in-network before enrolling. A broker can run your specific doctors against each plan's directory before you commit.",
   }
+,
+  {
+    question: "Will my cardiologist accept Medicare?",
+    answer:
+      "Most cardiologists accept Original Medicare, which gives you broad access to specialists nationwide without referrals. With Medicare Advantage, you'll need to confirm your cardiologist is in the plan's network and check whether referrals are required. A broker can verify provider participation before you enroll so there are no surprises.",
+  }
 ];
 
 export default function MedicareBrokerHeartDiseasePatients() {
@@ -326,6 +332,7 @@ export default function MedicareBrokerHeartDiseasePatients() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Need unbiased state help? Contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/shipindex.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
     </main>
   );

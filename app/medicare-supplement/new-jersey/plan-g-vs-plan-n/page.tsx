@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Plan G vs Plan N in NJ | Compare 2026",
   description:
-    "Plan G vs Plan N in NJ for 2026: compare premiums, copays, and coverage under community rating. Find your best fit — call 855-559-1700 for free quotes.",
+    "Compare Plan G vs Plan N in New Jersey for 2026: premiums, copays, and coverage under NJ community rating. Call 855-559-1700 for free Medigap quotes.",
   alternates: { canonical: `${SITE_URL}/medicare-supplement/new-jersey/plan-g-vs-plan-n` },
   openGraph: {
     title: "Plan G vs Plan N in NJ | Compare 2026",

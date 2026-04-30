@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare Supplement Plan G Cost for a 69-Year-Old | Free Quote | MedicareYourself",
   description:
-    "Medicare Supplement Plan G cost for a 69-year-old varies by carrier and pricing method. See 2026 rate examples and compare quotes with a licensed broker.",
+    "Compare Medicare Supplement Plan G costs for a 69-year-old by carrier and pricing method. Get 2026 rate examples — call 855-559-1700 for a free quote.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-supplement-plan-g-cost-for-69-year-old" },
   openGraph: {
     title:

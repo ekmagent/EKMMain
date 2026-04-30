@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare Enrollment Help for People With Diabetes | Free Guidance | MedicareYourself",
   description:
-    "Medicare enrollment help for people with diabetes. Learn which plans cover insulin, CGMs, and supplies—even with pre-existing conditions. Call for free help.",
+    "Medicare enrollment help for people with diabetes. Find plans covering insulin, CGMs & supplies—even with pre-existing conditions. Call 855-559-1700 for free help.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-enrollment-help-for-people-with-diabetes" },
   openGraph: {
     title:
@@ -156,6 +156,22 @@ const faqs = [
     question: "Can I switch Medicare plans during the year if my diabetes care changes?",
     answer:
       "In most cases, you make plan changes during the Annual Enrollment Period each fall or the Medicare Advantage Open Enrollment Period in early spring. Special Enrollment Periods may apply if you move, lose other coverage, or qualify for Extra Help. Anthony can review your current coverage and let you know if you qualify to switch — call 855-559-1700.",
+  }
+,
+  {
+    question: "Does Medicare cover insulin under Part D?",
+    answer:
+      "Yes. Medicare Part D plans cover insulin, and a monthly cap on insulin copays applies to covered insulin products at the pharmacy. Insulin used with a traditional insulin pump is covered under Part B as durable medical equipment instead. Call 855-559-1700 to compare Part D plans that cover your specific insulin.",
+  },
+  {
+    question: "Is the Medicare Diabetes Prevention Program free?",
+    answer:
+      "Yes. Medicare Part B covers the Medicare Diabetes Prevention Program at no cost to eligible beneficiaries with prediabetes. The program provides training on diet, exercise, and behavior changes to help prevent type 2 diabetes. You can find an in-person or online program through Medicare.gov.",
+  },
+  {
+    question: "Are diabetes test strips and lancets covered by Medicare?",
+    answer:
+      "Yes. Medicare Part B covers blood sugar monitors, test strips, lancets, and control solutions as durable medical equipment when ordered by your doctor. You'll typically need to use a Medicare-enrolled supplier, and standard Part B cost-sharing applies after the deductible.",
   }
 ];
 
@@ -438,6 +454,7 @@ export default function MedicareEnrollmentHelpDiabetes() {
               <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/coverage/medicare-diabetes-prevention-program" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Medicare Diabetes Prevention Program (Medicare.gov)</a> and <a href="https://www.medicare.gov/coverage/continuous-glucose-monitors" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">CGM coverage under Part B</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">For free, unbiased counseling, contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

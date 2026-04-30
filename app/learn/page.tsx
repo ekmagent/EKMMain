@@ -102,6 +102,12 @@ const GUIDES = [
     answer:
       "Original Medicare is the federal program that includes Part A (hospital) and Part B (medical), and you can add a standalone Part D drug plan and a Medigap policy. Medicare Advantage (Part C) is an all-in-one alternative offered by private insurers that bundles Part A, Part B, and usually Part D into one plan with its own network and rules. Each path has trade-offs in cost, flexibility, and provider access. Call 855-559-1700 if you'd like help comparing the two.",
   }
+,
+  {
+    question: "Can I switch from Medicare Advantage back to Original Medicare later?",
+    answer:
+      "Yes. You can switch during the Annual Enrollment Period each fall or during the Medicare Advantage Open Enrollment Period in the first months of the year. Keep in mind that if you want to add a Medigap policy after returning to Original Medicare, you may be subject to medical underwriting depending on your state and timing. Call 855-559-1700 if you want to review your options.",
+  }
 ];
 
 export default function LearnHubPage() {

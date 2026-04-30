@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "find a medicare agent in paterson nj | Free Guidance, No Fees | MedicareYourself",
   description:
-    "Find a Medicare agent in Paterson NJ — Anthony Orner compares Medigap, Advantage, and Part D plans across Passaic County carriers. Call for a free review.",
+    "Find a Medicare agent in Paterson NJ — Anthony Orner compares Medigap, Advantage & Part D plans across Passaic County. Free review, no fees. Call today.",
   alternates: { canonical: "https://medicareyourself.com/services/find-a-medicare-agent-in-paterson-nj" },
   openGraph: {
     title:

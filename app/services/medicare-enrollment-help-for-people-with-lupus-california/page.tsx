@@ -106,6 +106,22 @@ const faqs = [
     answer:
       "Yes. Licensed Medicare brokers are paid by the insurance carriers, not by you, so their guidance is free. A broker like Anthony Orner can review plans available in your California county, check whether your rheumatologist and medications are covered, and help you enroll. Call 855-559-1700 to get started.",
   }
+,
+  {
+    question: "Does Medicare cover lab tests needed to monitor lupus activity?",
+    answer:
+      "Yes. Medicare Part B covers medically necessary diagnostic lab work ordered by your doctor, including blood tests commonly used to monitor lupus activity such as ANA panels, complement levels, and kidney function tests. When tests are performed at a Medicare-approved lab, you typically pay nothing for the lab work itself.",
+  },
+  {
+    question: "Are lupus medications like hydroxychloroquine covered by Medicare in California?",
+    answer:
+      "Self-administered lupus medications such as hydroxychloroquine, methotrexate tablets, and corticosteroids are generally covered under Medicare Part D prescription drug plans. Formularies and tiers vary by plan, so the same drug can have different costs depending on which Part D or Medicare Advantage plan you choose. A licensed broker can compare formularies against your current prescriptions.",
+  },
+  {
+    question: "Should I choose Medicare Advantage or Original Medicare with a Medigap plan if I have lupus?",
+    answer:
+      "It depends on your providers, medications, and budget. Original Medicare with a Medigap plan offers broad access to any rheumatologist who accepts Medicare and predictable out-of-pocket costs, while Medicare Advantage plans use networks but often include extra benefits. Californians with lupus should weigh specialist access and biologic coverage carefully — call 855-559-1700 for a free side-by-side review.",
+  }
 ];
 
 export default function MedicareEnrollmentHelpLupusCalifornia() {
@@ -367,6 +383,7 @@ export default function MedicareEnrollmentHelpLupusCalifornia() {
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/basics/get-started-with-medicare/sign-up/when-does-medicare-coverage-start" rel="noopener noreferrer" target="_blank" className="underline">When Medicare coverage starts (Medicare.gov)</a> · <a href="https://www.medicare.gov/basics/costs/medicare-costs" rel="noopener noreferrer" target="_blank" className="underline">2026 Medicare costs</a></div>
             <div className="text-sm text-gray-600 mt-2">California residents: Get free local Medicare counseling through <a href="https://aging.ca.gov/hicap/" rel="noopener noreferrer" target="_blank" className="underline">California's Health Insurance Counseling and Advocacy Program (HICAP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">California residents can get free local Medicare counseling through <a href="https://www.aging.ca.gov/HICAP/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">California's Health Insurance Counseling and Advocacy Program (HICAP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">California beneficiaries can get free local Medicare counseling through <a href="https://aging.ca.gov/HICAP/" rel="noopener noreferrer" target="_blank" className="underline">California's Health Insurance Counseling and Advocacy Program (HICAP)</a>.</div>
       </section>
     </main>
   );

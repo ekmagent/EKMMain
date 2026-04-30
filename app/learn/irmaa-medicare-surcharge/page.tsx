@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
   description:
-    "Understand 2026 IRMAA: how Medicare Part B & D income surcharges work, MAGI brackets, and how to appeal with SSA-44. Free broker help — call 855-559-1700.",
+    "Understand how 2026 Medicare IRMAA surcharges work on Part B & D, the income brackets, and how to appeal with SSA-44. Free broker help — call 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/irmaa-medicare-surcharge` },
   openGraph: {
     title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
@@ -228,6 +228,22 @@ const faqs = [
     question: "Is IRMAA recalculated every year?",
     answer:
       "Yes. Social Security reviews your tax return data each year and adjusts your IRMAA status based on your most recent MAGI from two years prior. If your income drops below the threshold, the surcharge goes away automatically the following year — no appeal needed.",
+  }
+,
+  {
+    question: "How do I appeal IRMAA if my income has dropped?",
+    answer:
+      "If you experienced a life-changing event such as retirement, divorce, or the death of a spouse, you can request a reduction by filing Form SSA-44 with the Social Security Administration. Include documentation of the event and an estimate of your current year's income. SSA will review your request and adjust your IRMAA if approved, often back to the start of the year.",
+  },
+  {
+    question: "Is IRMAA recalculated every year?",
+    answer:
+      "Yes. Social Security reviews your most recent tax return on file each year (typically from two years prior) to determine whether IRMAA applies. If your income drops below the threshold, your surcharge will go away automatically the following year. There's nothing you need to file to remove IRMAA once your income falls.",
+  },
+  {
+    question: "Can I avoid IRMAA with tax planning?",
+    answer:
+      "Sometimes. Since IRMAA is based on MAGI, strategies like Roth conversions done before Medicare age, qualified charitable distributions from IRAs, and managing capital gains timing can help keep income under the brackets. Talk with a tax professional — a Medicare broker can explain the IRMAA rules but cannot give tax advice.",
   }
 ];
 

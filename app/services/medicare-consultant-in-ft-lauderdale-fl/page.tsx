@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare consultant in ft lauderdale fl | Free Plan Comparison | MedicareYourself",
   description:
-    "Medicare consultant in Ft Lauderdale FL — Anthony Orner compares Supplement and Advantage plans across Broward County. Free, no-obligation review.",
+    "Medicare consultant in Ft Lauderdale, FL — Anthony Orner compares Supplement and Advantage plans across Broward County. Free review, no obligation.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-consultant-in-ft-lauderdale-fl" },
   openGraph: {
     title:

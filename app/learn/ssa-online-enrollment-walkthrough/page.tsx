@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title:
     "How to Enroll in Medicare Online at SSA.gov (Step-by-Step Walkthrough)",
   description:
-    "Step-by-step SSA.gov Medicare enrollment walkthrough — finish in about 10 minutes and avoid costly Part B mistakes. Free broker help: 855-559-1700.",
+    "Step-by-step SSA.gov Medicare enrollment walkthrough — finish in about 10 minutes and avoid Part B mistakes. Free broker help at 855-559-1700.",
   alternates: {
     canonical: `${SITE_URL}/learn/ssa-online-enrollment-walkthrough`,
   },
@@ -320,6 +320,22 @@ const steps = [
     question: "What documents do I need before starting the SSA Medicare application?",
     answer:
       "Have your Social Security number, a valid driver's license or state ID for identity verification through Login.gov or ID.me, and details about any current health insurance coverage, including employer group plan dates. If you've worked outside the U.S., gather those employment records as well.",
+  }
+,
+  {
+    question: "Do I need to enroll in Medicare online if I'm already getting Social Security benefits?",
+    answer:
+      "No. If you're already receiving Social Security retirement or disability benefits before turning 65, you'll be automatically enrolled in Medicare Part A and Part B starting the first day of the month you turn 65. You don't need to use the SSA online application unless you want to delay or decline Part B.",
+  },
+  {
+    question: "What documents do I need before starting the SSA Medicare application?",
+    answer:
+      "Have your Social Security number, a valid driver's license or state ID, and details about any current health coverage ready. If you have employer group coverage, you'll need the employer name, dates of coverage, and policy information. Creating a my Social Security account through Login.gov or ID.me also requires identity verification.",
+  },
+  {
+    question: "Can I change my application after I submit it on SSA.gov?",
+    answer:
+      "No. Once you click Submit Now and agree to the Electronic Signature Agreement, the application is final and cannot be modified online. If you need to correct something, you must contact the Social Security Administration directly. That's why reviewing every screen carefully before submitting is critical.",
   }
 ];
 

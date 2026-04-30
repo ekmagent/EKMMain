@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "average cost of supplemental health insurance for seniors with medicare | Free Broker Comparison | MedicareYourself",
   description:
-    "Compare average Medigap costs for seniors on Medicare by age, state, and carrier. Get a free broker comparison — call 855-559-1700 to find your lowest rate.",
+    "See what seniors really pay for Medigap in 2026 by plan, age, and state. Compare every carrier in your zip code free — call 855-559-1700 for your lowest rate.",
   alternates: { canonical: "https://medicareyourself.com/services/average-cost-of-supplemental-health-insurance-for-seniors-with-medicare" },
   openGraph: {
     title:
@@ -140,6 +140,22 @@ const faqs = [
     question: "Does the cost of a Medigap plan increase as I get older?",
     answer:
       "It depends on the pricing method the insurance company uses. Attained-age-rated policies increase as you age, issue-age-rated policies are based on your age at purchase and don't rise due to age, and community-rated policies charge the same premium regardless of age. All three may still increase due to inflation and other factors.",
+  }
+,
+  {
+    question: "Does the cost of supplemental insurance go up as I age?",
+    answer:
+      "It depends on how the carrier prices the plan. Attained-age-rated policies increase as you get older, issue-age-rated policies are based on your age at purchase, and community-rated policies charge everyone in your area the same regardless of age. All three pricing methods can also see annual rate increases due to inflation and claims experience.",
+  },
+  {
+    question: "Do I still pay the Part B premium if I have a Medigap plan?",
+    answer:
+      "Yes. A Medigap policy is in addition to Original Medicare, so you continue paying the standard Part B premium directly to Medicare along with your Medigap premium to the private insurer. Some higher-income beneficiaries also pay an income-related adjustment on top of the standard Part B premium.",
+  },
+  {
+    question: "Can a broker help me find the lowest-cost Medigap plan?",
+    answer:
+      "Yes. Because every lettered Medigap plan offers identical federally standardized benefits, the only real difference is price and the carrier's rate-increase history. A licensed broker can compare every available carrier in your zip code at once so you don't overpay for the same coverage. Call 855-559-1700 for a free comparison.",
   }
 ];
 
@@ -339,6 +355,7 @@ export default function AverageCostSupplementalInsurancePage() {
             <div className="text-sm text-gray-600 mt-4">For state-specific rate help, contact the <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling in your area.</div>
             <div className="text-sm text-gray-600 mt-4">For state-specific rate filings and free counseling, visit the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a> or your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">SHIP program</a>.</div>
             <div className="text-sm text-gray-600 mt-4">For state-specific rate filings and consumer help, visit the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">New Jersey Department of Banking and Insurance</a> or your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can compare Medigap rates and file complaints through the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP</a>.</div>
       </section>
     </main>
   );

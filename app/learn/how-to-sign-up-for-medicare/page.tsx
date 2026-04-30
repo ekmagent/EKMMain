@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "How to Sign Up for Medicare (2026 Guide)",
   description:
-    "Step-by-step 2026 guide to signing up for Medicare Parts A & B, enrollment windows, and avoiding late penalties. Free broker help: 855-559-1700.",
+    "Step-by-step 2026 guide to signing up for Medicare Parts A & B — enrollment windows, late penalties, and how to apply. Free broker help: 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/how-to-sign-up-for-medicare` },
   openGraph: {
     title: "How to Sign Up for Medicare (2026 Guide)",
@@ -214,6 +214,22 @@ const faqs = [
     question: "Do I need to sign up for Medicare if I have employer coverage?",
     answer:
       "If you or your spouse are still actively working and have group health coverage from an employer with 20 or more employees, you may delay Part B without penalty. You should still consider enrolling in Part A since it's typically premium-free. Always confirm with your HR department that your plan counts as creditable coverage before delaying. Call 855-559-1700 if you'd like help reviewing your options.",
+  }
+,
+  {
+    question: "What happens if I miss my Medicare Initial Enrollment Period?",
+    answer:
+      "If you miss your Initial Enrollment Period and do not qualify for a Special Enrollment Period, you will need to wait for the General Enrollment Period (January 1 – March 31) to sign up for Part B. You may also owe a permanent Part B late enrollment penalty for each 12-month period you were eligible but did not enroll. Call 855-559-1700 if you are unsure whether you qualify for a Special Enrollment Period.",
+  },
+  {
+    question: "How do I actually sign up for Medicare?",
+    answer:
+      "You can apply online at ssa.gov/medicare, by calling Social Security at 1-800-772-1213, or by visiting your local Social Security office. The online application typically takes about 10 minutes, and you can apply up to 3 months before the month you turn 65. If you are already receiving Social Security benefits, your enrollment is automatic.",
+  },
+  {
+    question: "Can I sign up for Medicare if I am still working?",
+    answer:
+      "Yes. You can enroll in Part A at 65 (it is usually premium-free if you have 40+ work credits) and delay Part B if you have creditable coverage from your or your spouse's active employment. When that employer coverage ends, you get an 8-month Special Enrollment Period to sign up for Part B without a late penalty. Confirm your plan is creditable with your HR department before delaying.",
   }
 ];
 
