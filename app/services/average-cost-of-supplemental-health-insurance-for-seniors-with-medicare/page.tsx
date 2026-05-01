@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "average cost of supplemental health insurance for seniors with medicare | Free Broker Comparison | MedicareYourself",
   description:
-    "See what seniors really pay for Medigap in 2026 by plan, age, and state. Compare every carrier in your zip code free — call 855-559-1700 for your lowest rate.",
+    "Compare 2026 Medigap costs by plan, age, and state. See what seniors really pay and find your lowest rate — call 855-559-1700 for a free broker comparison.",
   alternates: { canonical: "https://medicareyourself.com/services/average-cost-of-supplemental-health-insurance-for-seniors-with-medicare" },
   openGraph: {
     title:
@@ -156,6 +156,22 @@ const faqs = [
     question: "Can a broker help me find the lowest-cost Medigap plan?",
     answer:
       "Yes. Because every lettered Medigap plan offers identical federally standardized benefits, the only real difference is price and the carrier's rate-increase history. A licensed broker can compare every available carrier in your zip code at once so you don't overpay for the same coverage. Call 855-559-1700 for a free comparison.",
+  }
+,
+  {
+    question: "Does my state affect how much I pay for Medigap?",
+    answer:
+      "Yes, location is one of the biggest pricing factors. Medigap premiums vary widely by state and even by zip code due to local claims costs, regulations, and competition among carriers. Some states like New York and Connecticut also require community-rated pricing, which changes how age affects your premium.",
+  },
+  {
+    question: "Will my Medigap premium go up every year?",
+    answer:
+      "Most Medigap policies sold today are attained-age-rated, meaning premiums increase as you get older in addition to standard inflation adjustments. Issue-age and community-rated policies don't raise rates based on your age, but all policies can increase due to inflation and claims experience. Asking about the rating method before you enroll helps predict long-term costs.",
+  },
+  {
+    question: "Can a licensed broker help me find the lowest Medigap rate?",
+    answer:
+      "Yes. An independent broker licensed with multiple carriers can quote every Medigap plan available in your zip code and identify which company offers the lowest premium for the same lettered plan. Since benefits are standardized by Medicare, the only thing that changes is price and the carrier's rate stability. Call 855-559-1700 to compare your options.",
   }
 ];
 
@@ -356,6 +372,7 @@ export default function AverageCostSupplementalInsurancePage() {
             <div className="text-sm text-gray-600 mt-4">For state-specific rate filings and free counseling, visit the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a> or your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">SHIP program</a>.</div>
             <div className="text-sm text-gray-600 mt-4">For state-specific rate filings and consumer help, visit the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">New Jersey Department of Banking and Insurance</a> or your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can compare Medigap rates and file complaints through the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

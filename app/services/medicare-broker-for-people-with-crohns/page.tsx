@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare broker for people with crohns | No-Cost Plan Help | MedicareYourself",
   description:
-    "Medicare broker for people with Crohn's disease. Compare plans covering biologics and GI specialists at no cost. Call 855-559-1700 for free help.",
+    "Medicare broker for people with Crohn's. Compare plans covering biologics, infusions, and GI specialists at no cost. Call 855-559-1700 for free guidance.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-people-with-crohns" },
   openGraph: {
     title:
@@ -84,6 +84,22 @@ const faqs = [
     answer:
       "Nothing. Licensed Medicare brokers are paid by insurance carriers, not by you. There's no fee for plan comparisons, enrollment help, or ongoing support. The plans and premiums are identical whether you enroll directly or through a broker.",
   },
+,
+  {
+    question: "Can a Medicare Advantage plan restrict which gastroenterologist I see?",
+    answer:
+      "Yes. Most Medicare Advantage plans use provider networks, and HMO plans typically require you to stay in-network and get referrals for specialists. PPO plans offer more flexibility but charge more for out-of-network care. If you have an established GI specialist treating your Crohn's, confirming network status before enrolling is essential — a broker can verify this for you.",
+  },
+  {
+    question: "Is Original Medicare or Medicare Advantage better for Crohn's disease?",
+    answer:
+      "It depends on your providers, medications, and budget. Original Medicare with a Supplement plan offers nationwide access to any doctor accepting Medicare and predictable costs, which helps with frequent specialist visits and infusions. Medicare Advantage often has lower premiums but uses networks and prior authorization, which can complicate access to biologics. There's no universal answer — the right choice comes from comparing your specific care needs against each plan's rules.",
+  },
+  {
+    question: "Are infusions like Remicade covered under Part B or Part D?",
+    answer:
+      "Infusions administered in a doctor's office or infusion center are generally covered under Medicare Part B, not Part D. That means cost-sharing falls under your Part B coinsurance, which a Medigap or Medicare Advantage plan can help offset. Self-injected biologics taken at home usually fall under Part D. Knowing how your specific medication is administered changes which plan structure works best.",
+  }
 ];
 
 export default function MedicareBrokerForPeopleWithCrohns() {
@@ -351,6 +367,7 @@ export default function MedicareBrokerForPeopleWithCrohns() {
             <div className="text-sm text-gray-600 mt-4">Need local counseling? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare guidance.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Need free, unbiased counseling? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> or the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents: <a href="https://www.state.nj.us/dobi/division_consumers/insurance/ship.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> offers free Medicare counseling.</div>
       </section>
 
         <p className="text-sm text-gray-500 mt-8">

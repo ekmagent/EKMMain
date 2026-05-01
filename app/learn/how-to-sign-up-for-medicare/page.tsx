@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "How to Sign Up for Medicare (2026 Guide)",
   description:
-    "Step-by-step 2026 guide to signing up for Medicare Parts A & B — enrollment windows, late penalties, and how to apply. Free broker help: 855-559-1700.",
+    "2026 step-by-step Medicare sign-up guide: enrollment windows, late penalties, and how to apply. Get free broker help — call 855-559-1700 today.",
   alternates: { canonical: `${SITE_URL}/learn/how-to-sign-up-for-medicare` },
   openGraph: {
     title: "How to Sign Up for Medicare (2026 Guide)",
@@ -230,6 +230,22 @@ const faqs = [
     question: "Can I sign up for Medicare if I am still working?",
     answer:
       "Yes. You can enroll in Part A at 65 (it is usually premium-free if you have 40+ work credits) and delay Part B if you have creditable coverage from your or your spouse's active employment. When that employer coverage ends, you get an 8-month Special Enrollment Period to sign up for Part B without a late penalty. Confirm your plan is creditable with your HR department before delaying.",
+  }
+,
+  {
+    question: "What happens if I miss my Initial Enrollment Period?",
+    answer:
+      "If you miss your Initial Enrollment Period and do not qualify for a Special Enrollment Period, you will need to wait for the General Enrollment Period (January 1 – March 31) to sign up for Part B. You may also owe a permanent Part B late enrollment penalty that increases the longer you wait. Coverage from a General Enrollment Period sign-up begins the month after you enroll.",
+  },
+  {
+    question: "Can I sign up for Medicare online?",
+    answer:
+      "Yes. You can apply for Medicare online at ssa.gov/medicare, and the application typically takes about 10 minutes. You can also apply by calling Social Security or by visiting your local Social Security office. If you already get Social Security or Railroad Retirement Board benefits, you will be enrolled automatically and do not need to apply.",
+  },
+  {
+    question: "Do I need to sign up for Medicare every year?",
+    answer:
+      "No. Once you are enrolled in Medicare Parts A and B, your coverage continues automatically as long as you pay any required premiums. However, if you have a Medicare Advantage or Part D plan, you should review it each year during the Annual Enrollment Period (October 15 – December 7) to make sure it still fits your needs.",
   }
 ];
 

@@ -108,6 +108,12 @@ const GUIDES = [
     answer:
       "Yes. You can switch during the Annual Enrollment Period each fall or during the Medicare Advantage Open Enrollment Period in the first months of the year. Keep in mind that if you want to add a Medigap policy after returning to Original Medicare, you may be subject to medical underwriting depending on your state and timing. Call 855-559-1700 if you want to review your options.",
   }
+,
+  {
+    question: "How do I know if I should choose Original Medicare with Medigap or Medicare Advantage?",
+    answer:
+      "The right choice depends on your priorities around provider flexibility, predictable costs, and extra benefits. Original Medicare with a Medigap policy lets you see any provider that accepts Medicare nationwide and offers more predictable out-of-pocket costs, while Medicare Advantage often bundles drug coverage and extras but uses provider networks and prior authorization. Reviewing your doctors, prescriptions, and travel needs is a good starting point. Call 855-559-1700 to walk through your situation with a licensed broker.",
+  }
 ];
 
 export default function LearnHubPage() {

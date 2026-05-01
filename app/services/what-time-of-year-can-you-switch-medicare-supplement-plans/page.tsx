@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "what time of the year can you switch medicare supplement plans | Free Help from a Licensed Broker | MedicareYourself",
   description:
-    "Wondering when you can switch Medicare Supplement plans? Learn your Medigap rights, open enrollment, and guaranteed issue windows. Call 855-559-1700 for free help.",
+    "When can you switch Medicare Supplement plans? Learn Medigap enrollment windows, guaranteed issue rights, and underwriting rules. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/what-time-of-year-can-you-switch-medicare-supplement-plans" },
   openGraph: {
     title:

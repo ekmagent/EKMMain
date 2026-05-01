@@ -139,6 +139,12 @@ const faqs = [
     answer:
       "Most cardiologists accept Original Medicare, which gives you broad access to specialists nationwide without referrals. With Medicare Advantage, you'll need to confirm your cardiologist is in the plan's network and check whether referrals are required. A broker can verify provider participation before you enroll so there are no surprises.",
   }
+,
+  {
+    question: "Does Medicare cover heart medications like statins, blood thinners, and beta blockers?",
+    answer:
+      "Most heart medications are covered under Medicare Part D prescription drug plans, but each plan has its own formulary and tier pricing. The same medication can have very different copays depending on the plan you choose. A broker can run your specific medication list against available Part D and Medicare Advantage plans to find the lowest total annual cost.",
+  }
 ];
 
 export default function MedicareBrokerHeartDiseasePatients() {

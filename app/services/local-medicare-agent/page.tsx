@@ -102,6 +102,22 @@ const faqs = [
     answer:
       "Either works. Anthony Orner offers in-person appointments across northern and central New Jersey, plus phone and video consultations for clients who prefer to meet remotely. The plan options and pricing are identical regardless of how you choose to meet.",
   }
+,
+  {
+    question: "How do I find a licensed local Medicare agent I can trust?",
+    answer:
+      "Verify the agent's license through your state's department of banking and insurance, and confirm they hold an active National Producer Number (NPI). A trustworthy local agent will represent multiple carriers, explain how they're compensated, and never pressure you into a same-day decision. Anthony Orner (NPI 1902584006) is happy to share credentials before any meeting.",
+  },
+  {
+    question: "Will a local Medicare agent help me after I enroll?",
+    answer:
+      "Yes. A good local agent provides ongoing support, including annual plan reviews during the Medicare Advantage Open Enrollment Period, help with billing or ID card issues, and guidance if your doctors or medications change. Year-round service is part of how independent brokers earn long-term client relationships.",
+  },
+  {
+    question: "Can I meet with a local Medicare agent virtually instead of in person?",
+    answer:
+      "Yes. Many beneficiaries prefer phone or video consultations for convenience, and licensed agents can complete plan comparisons and enrollments remotely. In-person meetings remain available across NJ if you'd rather review materials face to face.",
+  }
 ];
 
 export default function LocalMedicareAgentPage() {
@@ -334,6 +350,7 @@ export default function LocalMedicareAgentPage() {
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/talk-to-someone" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Talk to Someone</a> and <a href="https://www.medicare.gov/plan-compare" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov Plan Compare</a>.</div>
             <div className="text-sm text-gray-600 mt-4">For free, unbiased counseling, contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">New Jersey SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </>
   );

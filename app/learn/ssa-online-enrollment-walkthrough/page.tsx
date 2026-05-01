@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title:
     "How to Enroll in Medicare Online at SSA.gov (Step-by-Step Walkthrough)",
   description:
-    "Step-by-step SSA.gov Medicare enrollment walkthrough — finish in about 10 minutes and avoid Part B mistakes. Free broker help at 855-559-1700.",
+    "Step-by-step SSA.gov Medicare enrollment walkthrough — finish in about 10 minutes, avoid Part B penalties. Free broker help at 855-559-1700.",
   alternates: {
     canonical: `${SITE_URL}/learn/ssa-online-enrollment-walkthrough`,
   },
@@ -336,6 +336,22 @@ const steps = [
     question: "Can I change my application after I submit it on SSA.gov?",
     answer:
       "No. Once you click Submit Now and agree to the Electronic Signature Agreement, the application is final and cannot be modified online. If you need to correct something, you must contact the Social Security Administration directly. That's why reviewing every screen carefully before submitting is critical.",
+  }
+,
+  {
+    question: "How long does the SSA online Medicare application take to complete?",
+    answer:
+      "Most people finish the SSA.gov Medicare application in about 10 minutes if they have their documents ready. You'll need your Social Security number, a driver's license or state ID for identity verification, and details about any current health coverage. Having employer plan dates handy will speed things up.",
+  },
+  {
+    question: "Can I change my Medicare application after submitting it on SSA.gov?",
+    answer:
+      "No. Once you click Submit Now and agree to the Electronic Signature Agreement, you cannot modify the application online. If you need to make a correction, you'll have to contact the Social Security Administration directly by phone or visit a local office.",
+  },
+  {
+    question: "Do I have to enroll in Part B when I apply online?",
+    answer:
+      "No, the SSA application asks separately whether you want to enroll in Part B. You can choose Part A only if you have qualifying employer coverage, but declining Part B without creditable coverage can trigger a lifelong late enrollment penalty. If you're unsure, call us at 855-559-1700 before submitting.",
   }
 ];
 

@@ -122,6 +122,17 @@ const faqs = [
     answer:
       "It depends on your providers, medications, and budget. Original Medicare with a Medigap plan offers broad access to any rheumatologist who accepts Medicare and predictable out-of-pocket costs, while Medicare Advantage plans use networks but often include extra benefits. Californians with lupus should weigh specialist access and biologic coverage carefully — call 855-559-1700 for a free side-by-side review.",
   }
+,
+  {
+    question: "Does Medicare Part D cover oral lupus medications like hydroxychloroquine?",
+    answer:
+      "Yes. Medicare Part D plans cover most oral lupus medications, including hydroxychloroquine, corticosteroids, and immunosuppressants. Each plan has its own formulary, so it's important to verify your specific medications are covered before enrolling. A licensed broker can run a drug-by-drug comparison to find the plan with the lowest total cost for your prescriptions.",
+  },
+  {
+    question: "Should I choose Original Medicare or Medicare Advantage if I have lupus in California?",
+    answer:
+      "It depends on your providers and treatment needs. Original Medicare with a Medigap plan offers broader provider access and predictable costs, which can help if you see specialists or need biologic infusions. Medicare Advantage plans may have lower premiums but use networks and prior authorization. Call 855-559-1700 to compare options based on your rheumatologist and medications.",
+  }
 ];
 
 export default function MedicareEnrollmentHelpLupusCalifornia() {

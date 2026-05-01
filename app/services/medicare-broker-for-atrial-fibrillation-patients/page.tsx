@@ -86,6 +86,22 @@ const faqs = [
     answer:
       "Medicare Part A covers catheter ablation as a medically necessary inpatient or outpatient hospital procedure. You'll owe the Part A deductible ($1,676 per benefit period in 2026) plus any coinsurance. A Medigap plan can cover most or all of that gap. Some patients report ablation charges over $90,000 before insurance, which makes your supplemental coverage critical.",
   },
+,
+  {
+    question: "What should I look for in a Medicare plan if I take blood thinners for AFib?",
+    answer:
+      "Check the plan's drug formulary to confirm your specific anticoagulant (such as warfarin, apixaban, rivaroxaban, or dabigatran) is covered and on a reasonable tier. Compare the deductible, copay, and coinsurance for each tier across plans. Also review pharmacy network rules and any prior authorization or step therapy requirements that could delay your prescription.",
+  },
+  {
+    question: "Can I appeal a Medicare denial for an AFib treatment or medication?",
+    answer:
+      "Yes. Medicare and Medicare Advantage plans both have a formal appeals process if a treatment, procedure, or medication is denied. You can request a redetermination, and your cardiologist can submit clinical documentation supporting medical necessity. Many AFib-related denials are overturned on appeal when proper records are submitted.",
+  },
+  {
+    question: "Should an AFib patient choose Medicare Advantage or Medigap?",
+    answer:
+      "It depends on your providers, budget, and how often you use care. Medigap paired with Original Medicare and a Part D plan offers broad provider access and predictable out-of-pocket costs, which many AFib patients prefer for ongoing cardiology care. Medicare Advantage may have lower premiums but uses networks and prior authorization. Anthony can compare both side by side based on your cardiologist and medications.",
+  }
 ];
 
 export default function MedicareBrokerForAtrialFibrillationPatients() {
@@ -316,6 +332,7 @@ export default function MedicareBrokerForAtrialFibrillationPatients() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
       </section>
       </article>
     </>

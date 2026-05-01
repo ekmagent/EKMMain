@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "independent medicare insurance agent near me | Free No-Obligation Help | MedicareYourself",
   description:
-    "Independent Medicare insurance agent near me? Anthony Orner compares top carriers across multiple states at no cost to you. Book a free consultation today.",
+    "Looking for an independent Medicare insurance agent near me? Anthony Orner compares top carriers across NJ & 34 states at no cost. Book a free call today.",
   alternates: { canonical: "https://medicareyourself.com/services/independent-medicare-insurance-agent-near-me" },
   openGraph: {
     title:

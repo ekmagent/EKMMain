@@ -326,6 +326,22 @@ const STATIC_CATEGORIES = [
     answer:
       "The right plan depends on your doctors, prescriptions, travel habits, and budget for premiums versus out-of-pocket costs. Medigap plans pair with Original Medicare and offer broad provider access nationwide, while Medicare Advantage plans typically use networks and may include extra benefits. A broker can walk you through the trade-offs based on your specific situation.",
   }
+,
+  {
+    question: "What does an independent Medicare broker do?",
+    answer:
+      "An independent Medicare broker is licensed to compare plans from multiple insurance carriers and help you choose coverage that fits your health and budget. The service is free to you because brokers are compensated by the carriers, not by clients. Anthony Orner is licensed in New Jersey and 34 additional states and works with most major Medicare carriers.",
+  },
+  {
+    question: "Are there any fees for using MedicareYourself's services?",
+    answer:
+      "No. There is no charge to compare plans, get quotes, or enroll through our office. Medicare brokers are paid directly by the insurance company you choose, and the rate you pay for a plan is the same whether you enroll through a broker, the carrier, or on your own.",
+  },
+  {
+    question: "How do I get started comparing Medicare plans?",
+    answer:
+      "Call 855-559-1700 to speak with Anthony Orner, a licensed Medicare insurance broker. He'll review your prescriptions, doctors, and budget, then walk you through Medigap, Medicare Advantage, and Part D options available in your ZIP code. You can also use the official plan finder at Medicare.gov to research on your own first.",
+  }
 ];
 
 export default function ServicesHubPage() {
