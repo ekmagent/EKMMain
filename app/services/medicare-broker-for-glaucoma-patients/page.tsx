@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for glaucoma patients | Free Coverage Review | MedicareYourself",
   description:
-    "Medicare broker for glaucoma patients — compare plans covering screenings, drops, SLT, and surgery. Free review with Anthony Orner. Call 855-559-1700 today.",
+    "Medicare broker helping glaucoma patients compare plans for screenings, drops, SLT & surgery. Free review with Anthony Orner — call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-glaucoma-patients" },
   openGraph: {
     title:
@@ -115,6 +115,22 @@ const faqs = [
     question: "Does Medicare Advantage cover glaucoma care differently than Original Medicare?",
     answer:
       "Medicare Advantage plans must cover everything Original Medicare covers, including glaucoma screenings, diagnostic testing, laser procedures, and surgery. However, cost-sharing comes in the form of copays rather than the standard 20% coinsurance, and you typically need to use in-network ophthalmologists. Many Advantage plans also bundle Part D drug coverage and routine vision benefits that Original Medicare doesn't include.",
+  }
+,
+  {
+    question: "Who is considered high-risk for glaucoma under Medicare?",
+    answer:
+      "Medicare considers you high-risk if you have diabetes, a family history of glaucoma, are African American and age 50 or older, or are Hispanic American and age 65 or older. If you fall into one of these categories, Part B covers a glaucoma screening once every 12 months. The screening must be performed or supervised by an eye doctor legally authorized to do so in your state.",
+  },
+  {
+    question: "Are glaucoma eye drops covered by Medicare Part B or Part D?",
+    answer:
+      "Prescription glaucoma drops like latanoprost, timolol, or brimonidine are covered under Medicare Part D, not Part B. Each Part D plan has its own formulary, tier placement, and copay structure, so the same medication can cost very different amounts on different plans. Comparing drug plans annually based on your specific prescriptions is one of the most impactful things a glaucoma patient can do.",
+  },
+  {
+    question: "Should glaucoma patients choose Medigap or Medicare Advantage?",
+    answer:
+      "It depends on your providers, medications, and budget. Medigap paired with Original Medicare gives you nationwide access to any provider that accepts Medicare and predictable cost-sharing for procedures like SLT or trabeculectomy. Medicare Advantage plans often include routine vision benefits but use networks and prior authorization, which can affect access to specific glaucoma specialists. A free review can help you weigh the trade-offs for your situation.",
   }
 ];
 
@@ -333,6 +349,7 @@ export default function MedicareBrokerForGlaucomaPatients() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
     </div>
   );

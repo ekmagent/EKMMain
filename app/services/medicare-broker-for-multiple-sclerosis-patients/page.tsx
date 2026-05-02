@@ -145,6 +145,12 @@ const faqs = [
     answer:
       "Yes. Medicare Part B covers medically necessary MRI scans ordered by your doctor to monitor MS, and you'll typically owe the Part B deductible plus coinsurance unless you have a Medigap plan that covers cost-sharing. Medicare Advantage plans also cover MRIs but often require prior authorization, which can delay imaging. A broker can help you compare how each plan type handles diagnostic imaging.",
   }
+,
+  {
+    question: "Does Medicare Part D cover oral MS medications?",
+    answer:
+      "Yes. Oral disease-modifying therapies for MS that you take at home are typically covered under Medicare Part D prescription drug plans, not Part B. Coverage tiers, prior authorization rules, and out-of-pocket costs vary significantly between Part D plans, so comparing formularies before enrolling is essential to avoid surprises at the pharmacy.",
+  }
 ];
 
 export default function MedicareBrokerForMSPatients() {

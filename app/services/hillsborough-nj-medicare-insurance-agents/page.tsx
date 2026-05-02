@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "hillsborough nj medicare insurance agents | Free Broker Consultation | MedicareYourself",
   description:
-    "Hillsborough NJ Medicare insurance agents — Anthony Orner compares Supplement & Advantage plans across carriers at no cost. Free Somerset quote: 855-559-1700.",
+    "Hillsborough NJ Medicare insurance agents — Anthony Orner compares Supplement & Advantage plans across carriers at no cost. Free Somerset County quote: 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/hillsborough-nj-medicare-insurance-agents" },
   openGraph: {
     title:
@@ -84,6 +84,22 @@ const faqs = [
     answer:
       "Plan ratings change yearly through CMS Star Ratings. In New Jersey, several carriers consistently score 4+ stars for Advantage plans, and Medigap plans are standardized by letter (Plan G, Plan N, etc.) so coverage is identical across carriers. The real difference is premium cost and customer service. A broker compares current ratings and prices side by side for your zip code.",
   },
+,
+  {
+    question: "When can I enroll in a Medicare plan in Hillsborough, NJ?",
+    answer:
+      "Your Initial Enrollment Period runs for seven months around your 65th birthday. After that, the Annual Enrollment Period from October 15 through December 7 lets you change Advantage and Part D plans. Special Enrollment Periods may apply if you move, lose employer coverage, or qualify for certain programs.",
+  },
+  {
+    question: "What's the difference between Medicare Supplement and Medicare Advantage in New Jersey?",
+    answer:
+      "Medicare Supplement (Medigap) plans work alongside Original Medicare and help pay deductibles, copays, and coinsurance, with nationwide doctor access. Medicare Advantage plans replace Original Medicare with a private plan that often bundles Part D and extras like dental or vision, but uses provider networks. A licensed broker can compare both options for your Somerset County zip code.",
+  },
+  {
+    question: "Does a Hillsborough Medicare broker work with my doctors at RWJ Somerset or Hunterdon?",
+    answer:
+      "An independent broker doesn't choose your providers, but checks each plan's network and formulary before you enroll. That means confirming your doctors at RWJUH Somerset, Hunterdon Health, and your preferred pharmacies are covered. This step helps avoid surprises after your effective date.",
+  }
 ];
 
 export default function HillsboroughNJMedicareInsuranceAgents() {
@@ -300,6 +316,7 @@ export default function HillsboroughNJMedicareInsuranceAgents() {
         </ul>
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/plan-compare" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov Plan Finder</a> and <a href="https://www.cms.gov/medicare/health-drug-plans/part-c-d-performance-data" rel="noopener noreferrer" target="_blank" className="underline">CMS Star Ratings</a>. New Jersey beneficiaries can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP</a> for free unbiased counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free one-on-one counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </main>

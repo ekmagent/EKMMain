@@ -92,6 +92,12 @@ const faqs = [
     answer:
       "Yes. Medicare Part B covers home oxygen equipment rental and related supplies when your doctor certifies it is medically necessary to treat a lung condition like COPD. You typically pay the Part B coinsurance after meeting the Part B deductible, and the supplier must be Medicare-approved.",
   }
+,
+  {
+    question: "Who is eligible for Medicare-covered pulmonary rehabilitation?",
+    answer:
+      "Medicare Part B covers a comprehensive pulmonary rehabilitation program if you have moderate to very severe COPD and a referral from the doctor treating your condition. The program includes exercise, education, and breathing techniques designed to help you breathe better and stay independent. Coverage requires that the program be considered medically necessary and delivered by an approved provider.",
+  }
 ];
 
 export default function MedicareBrokerForCOPDPatients() {
@@ -351,6 +357,7 @@ export default function MedicareBrokerForCOPDPatients() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">Need state-specific help? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </main>
   );

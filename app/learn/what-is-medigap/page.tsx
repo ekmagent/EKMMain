@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "What Is Medigap? | Easy Guide 2026",
   description:
-    "What is Medigap? Plain-English guide to Medicare Supplement insurance — how it works, what it covers, and how to pick a plan. Call 855-559-1700.",
+    "What is Medigap? Plain-English guide to Medicare Supplement insurance — how it works, what it covers, and how to choose. Free help: call 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/what-is-medigap` },
   openGraph: {
     title: "What Is Medigap? | Easy Guide 2026",

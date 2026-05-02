@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title:
     "How to Enroll in Medicare Online at SSA.gov (Step-by-Step Walkthrough)",
   description:
-    "Step-by-step SSA.gov Medicare enrollment walkthrough — finish in about 10 minutes, avoid Part B penalties. Free broker help at 855-559-1700.",
+    "Step-by-step SSA.gov Medicare enrollment walkthrough — finish in about 10 minutes and avoid Part B penalties. Free broker help at 855-559-1700.",
   alternates: {
     canonical: `${SITE_URL}/learn/ssa-online-enrollment-walkthrough`,
   },
@@ -352,6 +352,22 @@ const steps = [
     question: "Do I have to enroll in Part B when I apply online?",
     answer:
       "No, the SSA application asks separately whether you want to enroll in Part B. You can choose Part A only if you have qualifying employer coverage, but declining Part B without creditable coverage can trigger a lifelong late enrollment penalty. If you're unsure, call us at 855-559-1700 before submitting.",
+  }
+,
+  {
+    question: "Do I need a my Social Security account to enroll online?",
+    answer:
+      "Yes. SSA requires you to sign in with a my Social Security account to apply for Medicare online. You can create one through Login.gov or ID.me using your Social Security number and a government-issued ID like a driver's license.",
+  },
+  {
+    question: "Can I change my application after I submit it on SSA.gov?",
+    answer:
+      "No. Once you click Submit Now and agree to the Electronic Signature Agreement, the application is final and cannot be modified online. If you need to make changes, you must contact the Social Security Administration directly to correct the record.",
+  },
+  {
+    question: "Should I enroll in Part B if I still have employer coverage?",
+    answer:
+      "It depends on the size of the employer and how the coverage coordinates with Medicare. Delaying Part B without qualifying creditable coverage can trigger a lifetime late-enrollment penalty. Call us at 855-559-1700 before submitting if you're unsure how your employer plan affects timing.",
   }
 ];
 

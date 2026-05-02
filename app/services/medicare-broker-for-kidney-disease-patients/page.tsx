@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for kidney disease patients | Free Coverage Review | MedicareYourself",
   description:
-    "Kidney disease Medicare help from a licensed broker. Compare ESRD, dialysis, and transplant coverage at no cost. Avoid costly gaps. Call 855-559-1700.",
+    "Kidney disease Medicare help from a licensed broker. Compare ESRD, dialysis, and transplant coverage at no cost — avoid gaps. Call 855-559-1700 for a free review.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-kidney-disease-patients" },
   openGraph: {
     title:
@@ -91,6 +91,17 @@ const faqs = [
     question: "When should I enroll in Medicare if I'm starting dialysis?",
     answer:
       "Medicare eligibility based on ESRD typically begins the fourth month of in-center dialysis, though it can start sooner if you train for home dialysis. You apply through Social Security, not automatically. Timing matters because delaying enrollment can create coverage gaps or affect how your employer plan coordinates with Medicare.",
+  }
+,
+  {
+    question: "When should I enroll in Medicare if I'm starting dialysis?",
+    answer:
+      "Medicare eligibility based on ESRD typically begins the fourth month after you start in-center dialysis. If you train for and start home dialysis earlier, coverage can begin the first month of dialysis. Enrolling promptly through Social Security helps you avoid gaps, especially if you also have employer coverage with coordination-of-benefits rules.",
+  },
+  {
+    question: "Does Medicare cover dialysis and related medications?",
+    answer:
+      "Yes. Medicare Part B covers outpatient dialysis treatments, most dialysis-related drugs, and home dialysis training and equipment when you meet the requirements. Part D plans cover oral medications such as phosphate binders. Reviewing your plan's formulary each year is important because drug tiers and pharmacy networks can change.",
   }
 ];
 

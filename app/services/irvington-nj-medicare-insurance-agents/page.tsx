@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "irvington nj medicare insurance agents | Free Local Broker | MedicareYourself",
   description:
-    "Irvington NJ Medicare insurance agents — Anthony Orner compares Supplement & Advantage plans across carriers at no cost to you. Call 855-559-1700 for free help.",
+    "Irvington NJ Medicare insurance agents — Anthony Orner compares Supplement & Advantage plans across carriers at no cost. Call 855-559-1700 for free local help.",
   alternates: { canonical: "https://medicareyourself.com/services/irvington-nj-medicare-insurance-agents" },
   openGraph: {
     title:

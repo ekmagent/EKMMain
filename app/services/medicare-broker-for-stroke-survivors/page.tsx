@@ -103,6 +103,17 @@ const faqs = [
     answer:
       "Yes. Medigap plans can cover the Part A hospital deductible, skilled nursing coinsurance, and the 20% Part B coinsurance on therapy and specialist visits. For stroke survivors with ongoing rehab needs, this predictable cost structure often saves money. I compare Medigap and Advantage options side by side so you can see the full picture.",
   }
+,
+  {
+    question: "What should stroke survivors look for in a Medicare plan?",
+    answer:
+      "Focus on access to neurologists, rehabilitation facilities, and outpatient therapy providers in the plan's network. Also review prescription drug coverage for blood thinners and blood pressure medications, and check whether durable medical equipment like walkers or wheelchairs is covered. A broker can compare these details across plans side by side.",
+  },
+  {
+    question: "Does Medicare cover home health care after a stroke?",
+    answer:
+      "Yes. Medicare Part A and Part B cover medically necessary home health services when ordered by your doctor and provided by a Medicare-certified agency. Covered services can include part-time skilled nursing, physical therapy, speech-language pathology, and occupational therapy. You must be considered homebound to qualify.",
+  }
 ];
 
 export default function MedicareBrokerForStrokeSurvivors() {

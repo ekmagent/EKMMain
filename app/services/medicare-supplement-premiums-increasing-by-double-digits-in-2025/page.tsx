@@ -124,6 +124,12 @@ const faqs = [
     answer:
       "No. Medicare Supplement plans work with any provider that accepts Original Medicare nationwide. Switching from one Medigap carrier to another does not affect which doctors or hospitals you can use, only who pays the supplemental portion of your bills.",
   }
+,
+  {
+    question: "What should I do if I receive a Medigap rate increase letter?",
+    answer:
+      "Don't panic, but don't ignore it either. Compare your renewal premium to what other carriers charge for the same plan letter in your ZIP code, since benefits are standardized by Medicare. Call 855-559-1700 for a free rate review before your renewal date to see if switching makes sense for your health situation.",
+  }
 ];
 
 export default function MedicareSupplementPremiumsIncreasing2025() {

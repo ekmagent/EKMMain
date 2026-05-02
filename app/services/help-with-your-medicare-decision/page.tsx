@@ -96,6 +96,22 @@ const faqs = [
     answer:
       "An independent broker reviews your doctors, prescriptions, budget, and travel needs, then compares plans across multiple carriers to find options that fit. The goal is to match you with a plan that covers your providers and medications at the lowest total cost. You make the final decision — the broker's job is to explain trade-offs clearly.",
   }
+,
+  {
+    question: "How does an independent broker decide which Medicare plan to recommend?",
+    answer:
+      "An independent broker reviews your doctors, prescriptions, budget, and travel needs before comparing plans across multiple carriers. The goal is to match you with coverage that fits your situation, not to push a single product. You stay in control of the final decision, and there is no cost or obligation to enroll.",
+  },
+  {
+    question: "What should I have ready before a Medicare consultation?",
+    answer:
+      "Have your Medicare card or Part A/B effective dates, a list of current prescriptions with dosages, and the names of doctors or specialists you want to keep. Knowing your ZIP code and any planned travel also helps narrow plan options. This information lets a broker run an accurate side-by-side comparison during the call.",
+  },
+  {
+    question: "Can I change my Medicare plan if I make the wrong choice?",
+    answer:
+      "Yes. During the Annual Enrollment Period from October 15 through December 7, you can switch Medicare Advantage or Part D plans for the following year. There is also a Medicare Advantage Open Enrollment Period from January 1 through March 31. Special Enrollment Periods may apply if you move, lose other coverage, or qualify for Extra Help.",
+  }
 ];
 
 export default function HelpWithYourMedicareDecision() {
@@ -350,6 +366,7 @@ export default function HelpWithYourMedicareDecision() {
             <div className="text-sm text-gray-600 mt-4">Prefer state-based counseling? Find your local SHIP at <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">shiphelp.org</a> for free, unbiased Medicare guidance.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased Medicare counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">For free, unbiased counseling in your state, visit the <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP) locator</a>.</div>
       </section>
       </article>
     </>

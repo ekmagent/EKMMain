@@ -9,7 +9,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Medicare Services & Guides | MedicareYourself",
   description:
-    "Compare Medigap, Medicare Advantage & Part D with a licensed independent broker in 35 states. Free, unbiased guidance — call 855-559-1700 today.",
+    "Compare Medigap, Medicare Advantage & Part D with a licensed independent broker in 35 states. Free, unbiased plan reviews — call 855-559-1700 today.",
   alternates: { canonical: `${SITE_URL}/services` },
   openGraph: {
     title: "Medicare Services & Guides | MedicareYourself",
@@ -342,6 +342,22 @@ const STATIC_CATEGORIES = [
     answer:
       "Call 855-559-1700 to speak with Anthony Orner, a licensed Medicare insurance broker. He'll review your prescriptions, doctors, and budget, then walk you through Medigap, Medicare Advantage, and Part D options available in your ZIP code. You can also use the official plan finder at Medicare.gov to research on your own first.",
   }
+,
+  {
+    question: "What does an independent Medicare broker actually do?",
+    answer:
+      "An independent Medicare broker compares plans from multiple insurance carriers to help you find coverage that fits your health needs and budget. Brokers are licensed by each state's Department of Banking and Insurance and contracted with carriers to enroll you at no extra cost. You pay the same premium whether you enroll directly with a carrier or through a broker.",
+  },
+  {
+    question: "Is there a fee to work with MedicareYourself?",
+    answer:
+      "No. Our services are free to you because licensed brokers are compensated directly by the insurance carriers when a plan is issued. You will never receive a bill from us, and your premium is not increased by working with a broker. Call 855-559-1700 to get unbiased plan comparisons.",
+  },
+  {
+    question: "What's the difference between Medicare Advantage, Medigap, and Part D?",
+    answer:
+      "Medicare Advantage (Part C) bundles your Part A, Part B, and usually Part D into a single private plan, often with extra benefits and network rules. Medigap (Medicare Supplement) works alongside Original Medicare to help cover out-of-pocket costs like deductibles and coinsurance. Part D is standalone prescription drug coverage paired with Original Medicare or a Medigap plan.",
+  }
 ];
 
 export default function ServicesHubPage() {
@@ -451,6 +467,7 @@ export default function ServicesHubPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents: visit the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank">NJ Department of Banking and Insurance</a> or contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank">NJ SHIP</a> for free counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank">NJ SHIP (State Health Insurance Assistance Program)</a> for free counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/dobi/division_consumers/insurance/ship.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
       </section>
     </>
   );

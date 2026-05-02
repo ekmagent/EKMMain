@@ -174,6 +174,12 @@ const faqs = [
     answer:
       "If you've had your current Medigap policy for at least 6 months, a new carrier generally cannot impose a new pre-existing condition waiting period when you switch to the same or lesser benefits. This continuous coverage protection helps people move between carriers without losing access to care for known conditions. Confirm the rules in your state before applying.",
   }
+,
+  {
+    question: "Do I have a federal right to switch Medigap policies anytime?",
+    answer:
+      "In most cases, no. Under federal law, you generally only have a right to switch Medigap policies during your 6-month Medigap Open Enrollment Period or if you qualify for a guaranteed issue right. Outside those windows, carriers in most states can require medical underwriting. Some states offer additional switching rights beyond federal protections, so it's worth checking with your State Insurance Department.",
+  }
 ];
 
 export default function SwitchCarriersPage() {

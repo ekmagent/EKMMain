@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare broker for heart disease patients | Free Help Finding the Right Plan | MedicareYourself",
   description:
-    "Medicare broker for heart disease patients — find plans covering cardiologists, cardiac rehab & heart meds. Free expert help. Call 855-559-1700 today.",
+    "Medicare broker for heart disease patients — find plans covering cardiologists, cardiac rehab & heart meds. Free unbiased help. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-heart-disease-patients" },
   openGraph: {
     title:
@@ -144,6 +144,12 @@ const faqs = [
     question: "Does Medicare cover heart medications like statins, blood thinners, and beta blockers?",
     answer:
       "Most heart medications are covered under Medicare Part D prescription drug plans, but each plan has its own formulary and tier pricing. The same medication can have very different copays depending on the plan you choose. A broker can run your specific medication list against available Part D and Medicare Advantage plans to find the lowest total annual cost.",
+  }
+,
+  {
+    question: "Are heart medications covered under Medicare Part D?",
+    answer:
+      "Most heart medications including statins, blood thinners, beta blockers, and ACE inhibitors are covered under Medicare Part D prescription drug plans. However, formularies and tier placement vary significantly between plans, so a drug that's affordable on one plan may be costly on another. A broker can run your specific medication list against available plans to find the lowest total annual cost.",
   }
 ];
 
@@ -339,6 +345,7 @@ export default function MedicareBrokerHeartDiseasePatients() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Need unbiased state help? Contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/shipindex.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

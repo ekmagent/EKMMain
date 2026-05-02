@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Plan G Rates by Age in New Jersey | 2026 Costs | MedicareYourself",
   description:
-    "Compare 2026 Plan G rates by age in New Jersey across top carriers. Anthony Orner finds your lowest NJ premium fast — call 855-559-1700 for a free quote.",
+    "Compare 2026 Plan G rates by age in New Jersey across top carriers. Anthony Orner finds your lowest NJ premium fast — call 855-559-1700 for a free quote today.",
   alternates: { canonical: `${SITE_URL}/services/plan-g-rates-by-age-new-jersey` },
   openGraph: {
     title: "Plan G Rates by Age in New Jersey | 2026 Costs | MedicareYourself",
@@ -59,6 +59,17 @@ const faqs = [
     question: "When is the best age to lock in a Plan G rate in NJ?",
     answer:
       "The best time is during your 6-month Medigap Open Enrollment Period, which begins the month you turn 65 and are enrolled in Part B. During this window, carriers cannot deny you or charge more for health conditions. Locking in younger generally means a lower starting premium, especially with attained-age carriers.",
+  }
+,
+  {
+    question: "What does Plan G cover that Original Medicare does not in New Jersey?",
+    answer:
+      "Plan G covers your Part A hospital coinsurance and deductible, Part B coinsurance, the first three pints of blood, skilled nursing facility coinsurance, hospice coinsurance, and 80% of foreign travel emergency care up to plan limits. The only gap left is the annual Part B deductible, which you pay once per year before Plan G picks up the rest. Coverage is standardized federally, so Plan G in NJ works the same as Plan G in any other state.",
+  },
+  {
+    question: "Can Anthony Orner help me compare Plan G rates across NJ carriers?",
+    answer:
+      "Yes. As a licensed Medicare insurance broker in New Jersey, Anthony Orner contracts with multiple Medigap carriers and can run side-by-side rate comparisons by your exact age, ZIP code, and tobacco status. There is no cost to use a broker — carriers pay the same commission regardless of how you enroll. Call 855-559-1700 for a free quote.",
   }
 ];
 

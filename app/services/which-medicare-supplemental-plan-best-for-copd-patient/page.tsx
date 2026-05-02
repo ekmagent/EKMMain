@@ -127,6 +127,17 @@ const faqs = [
     answer:
       "Yes. Medicare Part B covers smoking and tobacco-use cessation counseling sessions per year for people who use tobacco, with no out-of-pocket cost when your provider accepts assignment. This benefit is especially valuable for COPD patients, since quitting smoking is the single most effective way to slow disease progression.",
   }
+,
+  {
+    question: "Which parts of Medicare help with COPD care?",
+    answer:
+      "Part A covers inpatient hospital stays for COPD exacerbations, while Part B covers doctor visits, outpatient pulmonary rehab, oxygen equipment, and nebulizers when medically necessary. Part D covers inhalers and other prescription medications. A Medigap plan sits alongside Original Medicare to pay the coinsurance and deductibles you would otherwise owe out of pocket.",
+  },
+  {
+    question: "Is Plan N a reasonable alternative to Plan G for COPD patients?",
+    answer:
+      "Plan N typically has a lower monthly premium than Plan G but leaves you responsible for small copays at office and ER visits and does not cover Part B excess charges. For a COPD patient with frequent pulmonologist visits and possible ER trips, those copays and excess charges can add up. Plan G usually offers more predictable costs, but a broker review can confirm which fits your situation.",
+  }
 ];
 
 export default function WhichMedicareSupplementalPlanBestForCOPDPatient() {

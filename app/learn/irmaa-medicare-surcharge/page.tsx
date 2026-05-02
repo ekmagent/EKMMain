@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
   description:
-    "Learn how 2026 Medicare IRMAA surcharges work on Part B & D, income brackets, and how to appeal with SSA-44. Free broker help — call 855-559-1700.",
+    "Understand 2026 Medicare IRMAA surcharges on Part B & D, income brackets, and how to appeal with SSA-44 if income dropped. Free broker help — 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/irmaa-medicare-surcharge` },
   openGraph: {
     title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
@@ -260,6 +260,22 @@ const faqs = [
     question: "Does IRMAA come out of my Social Security check?",
     answer:
       "Yes. If you receive Social Security benefits, your Part B premium plus any IRMAA surcharge is automatically deducted from your monthly check. The Part D IRMAA surcharge is also typically deducted from Social Security, even though your base Part D premium is paid directly to your drug plan.",
+  }
+,
+  {
+    question: "How do I appeal an IRMAA determination if my income has dropped?",
+    answer:
+      "If you've experienced a life-changing event such as retirement, divorce, or the death of a spouse, you can request a reduction by filing Form SSA-44 with the Social Security Administration. You'll need to provide documentation of the event and an estimate of your new income. SSA will review your request and adjust your IRMAA if approved. Call 855-559-1700 if you'd like help understanding the process.",
+  },
+  {
+    question: "Is IRMAA permanent once it's applied to my Medicare premiums?",
+    answer:
+      "No. IRMAA is recalculated each year based on your most recent tax return on file with the IRS. If your income drops below the threshold in a future tax year, your IRMAA surcharge will be reduced or removed automatically. You don't need to reapply each year unless you're appealing based on a life-changing event.",
+  },
+  {
+    question: "Do both spouses pay IRMAA if a couple's joint income exceeds the threshold?",
+    answer:
+      "Yes. If you and your spouse are both enrolled in Medicare and your joint MAGI exceeds the threshold, each spouse pays the IRMAA surcharge on their own Part B and Part D premiums. The surcharge is assessed individually, even though it's based on household income from your joint tax return.",
   }
 ];
 

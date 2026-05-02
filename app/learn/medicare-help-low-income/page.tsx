@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Medicare Help on a Fixed Income (2026)",
   description:
-    "Lower Medicare costs with Extra Help, QMB, SLMB & Medicare Savings Programs. Find out what you qualify for — free guidance at 855-559-1700.",
+    "Lower or eliminate Medicare costs with Extra Help, QMB, SLMB & Medicare Savings Programs. See what you qualify for — free guidance at 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/medicare-help-low-income` },
   openGraph: {
     title: "Medicare Help on a Fixed Income (2026)",
@@ -142,6 +142,22 @@ const programs = [
     question: "If I qualify for QMB, can providers still bill me?",
     answer:
       "No. Federal law prohibits Medicare providers from billing QMB enrollees for Medicare cost-sharing — including deductibles, coinsurance, and copayments. If you receive a bill in error, show the provider your QMB or Medicaid card and contact Medicare at 1-800-MEDICARE. For free help understanding a bill, call us at 855-559-1700.",
+  }
+,
+  {
+    question: "How do I apply for a Medicare Savings Program?",
+    answer:
+      "You apply through your state Medicaid agency, not through Medicare directly. When you apply, your state will determine which of the four MSPs (QMB, SLMB, QI, or QDWI) you qualify for based on your income and resources. Medicare.gov recommends applying even if you are not sure you qualify, since limits vary by state.",
+  },
+  {
+    question: "Does Extra Help automatically come with a Medicare Savings Program?",
+    answer:
+      "Yes. If you qualify for QMB, SLMB, or QI, you are automatically enrolled in Extra Help (the Part D Low Income Subsidy) for the rest of that calendar year. This can dramatically reduce what you pay for prescription drug premiums, deductibles, and copays.",
+  },
+  {
+    question: "Can I get help choosing a plan that works with these programs?",
+    answer:
+      "Yes. As a licensed Medicare broker, I can review which Part D or Medicare Advantage plans coordinate best with Extra Help and your Medicare Savings Program in your county. There is no cost to you for this guidance — call 855-559-1700 to get started.",
   }
 ];
 
