@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "independent medicare insurance agents | Free Plan Comparison | MedicareYourself",
   description:
-    "Independent Medicare insurance agents compare plans from dozens of carriers at no cost to you. See how Anthony Orner finds lower rates. Free consultation.",
+    "Independent Medicare insurance agents compare plans from dozens of carriers at zero cost. Talk to Anthony Orner today — call 855-559-1700 for free help.",
   alternates: { canonical: "https://medicareyourself.com/services/independent-medicare-insurance-agents" },
   openGraph: {
     title:

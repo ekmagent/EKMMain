@@ -159,6 +159,22 @@ const programs = [
     answer:
       "Yes. As a licensed Medicare broker, I can review which Part D or Medicare Advantage plans coordinate best with Extra Help and your Medicare Savings Program in your county. There is no cost to you for this guidance — call 855-559-1700 to get started.",
   }
+,
+  {
+    question: "How do I apply for a Medicare Savings Program?",
+    answer:
+      "You apply through your state Medicaid office, not through Medicare directly. Each state has its own application process and may have slightly different income and resource limits. Medicare.gov recommends applying even if you don't think you qualify, since states determine eligibility when you submit your application. In New Jersey, applications go through NJ FamilyCare.",
+  },
+  {
+    question: "Does Extra Help work with any Medicare drug plan?",
+    answer:
+      "Extra Help (the Low Income Subsidy) can be used with most Medicare Part D prescription drug plans and Medicare Advantage plans that include drug coverage. If you qualify, Social Security will notify you and you can choose a plan that fits your medications and pharmacy preferences. You can apply for Extra Help any time at ssa.gov or by calling Social Security at 1-800-772-1213.",
+  },
+  {
+    question: "If I qualify for QMB, can providers still bill me?",
+    answer:
+      "No. Federal law prohibits Medicare providers from billing QMB enrollees for Medicare deductibles, coinsurance, or copayments for covered services. If you receive a bill in error, contact the provider, show your QMB or Medicaid card, and ask them to refund any payments you made. You can also call 1-800-MEDICARE to report improper billing.",
+  }
 ];
 
 export default function LowIncomeMedicarePage() {

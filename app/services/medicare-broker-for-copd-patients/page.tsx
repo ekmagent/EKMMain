@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for COPD patients | Free Plan Review | MedicareYourself",
   description:
-    "Medicare broker for COPD patients — get coverage that fits inhalers, oxygen, and pulmonary rehab. Free plan review with Anthony Orner. Call 855-559-1700.",
+    "Medicare broker for COPD patients — find plans covering inhalers, oxygen, and pulmonary rehab. Free plan review with Anthony Orner. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-copd-patients" },
   openGraph: {
     title:
@@ -97,6 +97,17 @@ const faqs = [
     question: "Who is eligible for Medicare-covered pulmonary rehabilitation?",
     answer:
       "Medicare Part B covers a comprehensive pulmonary rehabilitation program if you have moderate to very severe COPD and a referral from the doctor treating your condition. The program includes exercise, education, and breathing techniques designed to help you breathe better and stay independent. Coverage requires that the program be considered medically necessary and delivered by an approved provider.",
+  }
+,
+  {
+    question: "Are pulmonary rehabilitation programs covered by Medicare for COPD?",
+    answer:
+      "Yes. Medicare Part B covers comprehensive pulmonary rehabilitation programs for beneficiaries with moderate to very severe COPD when referred by the treating provider. Coverage includes exercise training, education, and psychosocial support. After meeting the Part B deductible, you typically pay coinsurance for each session.",
+  },
+  {
+    question: "Can a Medicare broker help me switch plans if my COPD medications change?",
+    answer:
+      "Yes. If your inhaler or nebulizer medications change, your current Part D or Medicare Advantage formulary may no longer be the best fit. During the Annual Enrollment Period each fall, I can review your drug list against available plans and recommend changes. Special Enrollment Periods may also apply in certain situations.",
   }
 ];
 
@@ -358,6 +369,7 @@ export default function MedicareBrokerForCOPDPatients() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Need state-specific help? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
       </section>
     </main>
   );

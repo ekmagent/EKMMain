@@ -358,6 +358,22 @@ const STATIC_CATEGORIES = [
     answer:
       "Medicare Advantage (Part C) bundles your Part A, Part B, and usually Part D into a single private plan, often with extra benefits and network rules. Medigap (Medicare Supplement) works alongside Original Medicare to help cover out-of-pocket costs like deductibles and coinsurance. Part D is standalone prescription drug coverage paired with Original Medicare or a Medigap plan.",
   }
+,
+  {
+    question: "What types of Medicare plans can a licensed broker help me compare?",
+    answer:
+      "A licensed independent Medicare broker can help you compare Medicare Supplement (Medigap) plans, Medicare Advantage (Part C) plans, and standalone Part D prescription drug plans. The goal is to match your doctors, prescriptions, and budget to a plan that fits. You can also get help understanding Original Medicare Parts A and B before adding coverage.",
+  },
+  {
+    question: "Does it cost anything to work with a Medicare broker?",
+    answer:
+      "No. Working with a licensed Medicare broker is free to you — brokers are paid a standard commission by the insurance carrier when you enroll, and that commission does not change your premium. You pay the same rate whether you enroll directly with the carrier or through a broker. Call 855-559-1700 to get unbiased plan comparisons at no cost.",
+  },
+  {
+    question: "How do I know if a Medicare agent is licensed and trustworthy?",
+    answer:
+      "You can verify any agent's license through your state's Department of Banking and Insurance and confirm their National Producer Number (NPN) on NIPR.com. Anthony Orner is licensed in NJ and 34 additional states under NPN 1902584006. Medicare.gov also offers free, official guidance if you'd like to cross-check plan details.",
+  }
 ];
 
 export default function ServicesHubPage() {
@@ -468,6 +484,7 @@ export default function ServicesHubPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank">NJ SHIP (State Health Insurance Assistance Program)</a> for free counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/dobi/division_consumers/insurance/ship.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-2">New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
       </section>
     </>
   );

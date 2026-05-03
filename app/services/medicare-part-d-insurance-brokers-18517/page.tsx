@@ -302,6 +302,7 @@ export default function MedicarePartDBrokers18517() {
             <div className="text-sm text-gray-600 mt-4">Pennsylvania residents near 18517 can also contact <a href="https://www.aging.pa.gov/aging-services/pharmaceutical-assistance/Pages/APPRISE.aspx" rel="noopener noreferrer" target="_blank" className="underline">PA APPRISE (State SHIP Program)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">Pennsylvania residents near 18517 can also get free, unbiased counseling from <a href="https://www.aging.pa.gov/aging-services/insurance/Pages/default.aspx" rel="noopener noreferrer" target="_blank" className="underline">PA APPRISE</a>, the state's SHIP program.</div>
             <div className="text-sm text-gray-600 mt-4">Pennsylvania residents can get free, unbiased counseling from <a href="https://www.aging.pa.gov/aging-services/insurance/Pages/default.aspx" rel="noopener noreferrer" target="_blank" className="underline">PA APPRISE</a>, the state's SHIP program.</div>
+            <div className="text-sm text-gray-600 mt-4">Pennsylvania residents in 18517 can also get free Medicare counseling through <a href="https://www.aging.pa.gov/aging-services/Pages/APPRISE.aspx" rel="noopener noreferrer" target="_blank" className="underline">APPRISE, Pennsylvania's State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
     </>
   );

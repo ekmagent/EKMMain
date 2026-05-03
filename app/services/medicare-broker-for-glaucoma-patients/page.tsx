@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for glaucoma patients | Free Coverage Review | MedicareYourself",
   description:
-    "Medicare broker helping glaucoma patients compare plans for screenings, drops, SLT & surgery. Free review with Anthony Orner — call 855-559-1700 today.",
+    "Medicare broker for glaucoma patients comparing plans for screenings, drops, SLT & surgery. Free coverage review with Anthony Orner — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-glaucoma-patients" },
   openGraph: {
     title:

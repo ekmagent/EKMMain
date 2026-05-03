@@ -87,6 +87,22 @@ const faqs = [
     answer:
       "Each benefit period starts with a $1,676 Part A deductible in 2026. If you're readmitted within 60 days, that's the same benefit period. But a new admission after 60 days means another $1,676. Skilled nursing facility stays cost $209.50/day for days 21 through 100. Without supplemental coverage, these costs add up fast with CHF.",
   },
+,
+  {
+    question: "Does Medicare cover heart failure medications like Entresto or Jardiance?",
+    answer:
+      "Brand-name CHF medications are typically covered under Medicare Part D prescription drug plans, but coverage tiers, prior authorization rules, and copays vary by plan formulary. Anthony can run your medication list through different Part D and Medicare Advantage formularies to find the lowest total cost. Switching to a better-aligned plan during Open Enrollment can meaningfully reduce annual drug spending.",
+  },
+  {
+    question: "Will Medicare cover a heart failure remote monitoring device?",
+    answer:
+      "Medicare Part B generally covers remote physiologic monitoring services when ordered by your physician for managing chronic conditions like CHF. Some Medicare Advantage plans also include additional cardiac monitoring or in-home support as supplemental benefits. Coverage details depend on the specific plan and provider, so it's worth reviewing before you enroll.",
+  },
+  {
+    question: "Can a Medicare broker help if I've already been diagnosed with CHF?",
+    answer:
+      "Yes. As a licensed broker, Anthony can compare Medicare Advantage and Part D plans without medical underwriting during valid enrollment windows. Medigap underwriting rules vary by state and timing, so it's important to review your guaranteed-issue rights before applying. Call 855-559-1700 for a free plan review tailored to your CHF care team and medications.",
+  }
 ];
 
 export default function MedicareBrokerCHFPage() {
@@ -308,6 +324,7 @@ export default function MedicareBrokerCHFPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
     </main>
   );

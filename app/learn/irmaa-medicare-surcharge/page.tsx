@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
   description:
-    "Understand 2026 Medicare IRMAA surcharges on Part B & D, income brackets, and how to appeal with SSA-44 if income dropped. Free broker help — 855-559-1700.",
+    "Learn how 2026 Medicare IRMAA surcharges work on Part B & D, income brackets, and how to appeal with SSA-44 if income dropped. Free broker help — 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/irmaa-medicare-surcharge` },
   openGraph: {
     title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
@@ -276,6 +276,22 @@ const faqs = [
     question: "Do both spouses pay IRMAA if a couple's joint income exceeds the threshold?",
     answer:
       "Yes. If you and your spouse are both enrolled in Medicare and your joint MAGI exceeds the threshold, each spouse pays the IRMAA surcharge on their own Part B and Part D premiums. The surcharge is assessed individually, even though it's based on household income from your joint tax return.",
+  }
+,
+  {
+    question: "How do I appeal an IRMAA determination if my income has dropped?",
+    answer:
+      "If you experienced a life-changing event such as retirement, divorce, or the death of a spouse, you can file Form SSA-44 with the Social Security Administration to request a reduction. You'll need to provide documentation of the event and an estimate of your new income. SSA reviews these requests and can adjust your IRMAA based on your current financial situation rather than your tax return from two years ago.",
+  },
+  {
+    question: "Will IRMAA stay on my premium forever once I'm subject to it?",
+    answer:
+      "No. IRMAA is recalculated every year based on your most recent tax return on file with the IRS. If your income drops below the threshold in a future tax year, your surcharge will be removed automatically. You don't need to reapply each year unless you're filing an SSA-44 appeal due to a life-changing event.",
+  },
+  {
+    question: "Can a Medicare broker help me plan around IRMAA?",
+    answer:
+      "A licensed broker can't change your tax situation, but we can help you understand how IRMAA affects your total Medicare costs and which plan structures make the most sense given your income. For tax planning strategies like Roth conversions or capital gains timing, you should also consult a CPA or financial advisor. Call 855-559-1700 to review your options.",
   }
 ];
 

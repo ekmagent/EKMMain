@@ -120,6 +120,12 @@ const GUIDES = [
     answer:
       "Yes, but the timing matters. You can switch during the Annual Enrollment Period (October 15 to December 7) or the Medicare Advantage Open Enrollment Period (January 1 to March 31). Keep in mind that if you want to add a Medigap policy after switching back, you may have to answer health questions unless you qualify for a guaranteed issue right. Call 855-559-1700 if you'd like help reviewing your options.",
   }
+,
+  {
+    question: "How do I know if I should choose Medigap or Medicare Advantage?",
+    answer:
+      "The right choice depends on your budget, preferred doctors, travel habits, and how predictable you want your costs to be. Medigap pairs with Original Medicare and offers broad provider access nationwide with more predictable out-of-pocket costs, while Medicare Advantage often has lower monthly premiums but uses networks and prior authorization. Call 855-559-1700 to compare both based on your situation.",
+  }
 ];
 
 export default function LearnHubPage() {

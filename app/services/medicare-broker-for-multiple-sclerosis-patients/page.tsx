@@ -151,6 +151,12 @@ const faqs = [
     answer:
       "Yes. Oral disease-modifying therapies for MS that you take at home are typically covered under Medicare Part D prescription drug plans, not Part B. Coverage tiers, prior authorization rules, and out-of-pocket costs vary significantly between Part D plans, so comparing formularies before enrolling is essential to avoid surprises at the pharmacy.",
   }
+,
+  {
+    question: "Will Medicare cover MRI scans needed to monitor MS progression?",
+    answer:
+      "Yes. Medicare Part B covers medically necessary MRI scans ordered by your doctor to monitor MS. Under Original Medicare you pay the Part B coinsurance after meeting the deductible, while Medicare Advantage plans may require prior authorization before approving the scan. A Medigap policy can help cover the coinsurance.",
+  }
 ];
 
 export default function MedicareBrokerForMSPatients() {

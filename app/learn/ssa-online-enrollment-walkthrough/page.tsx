@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title:
     "How to Enroll in Medicare Online at SSA.gov (Step-by-Step Walkthrough)",
   description:
-    "Step-by-step SSA.gov Medicare enrollment walkthrough — finish in about 10 minutes and avoid Part B penalties. Free broker help at 855-559-1700.",
+    "Step-by-step SSA.gov Medicare enrollment walkthrough — finish in about 10 minutes, avoid Part B penalties, and get free broker help at 855-559-1700.",
   alternates: {
     canonical: `${SITE_URL}/learn/ssa-online-enrollment-walkthrough`,
   },
@@ -368,6 +368,22 @@ const steps = [
     question: "Should I enroll in Part B if I still have employer coverage?",
     answer:
       "It depends on the size of the employer and how the coverage coordinates with Medicare. Delaying Part B without qualifying creditable coverage can trigger a lifetime late-enrollment penalty. Call us at 855-559-1700 before submitting if you're unsure how your employer plan affects timing.",
+  }
+,
+  {
+    question: "Do I need to apply for Medicare online if I'm already getting Social Security benefits?",
+    answer:
+      "No. If you are already receiving Social Security retirement or disability benefits before turning 65, you will be automatically enrolled in Medicare Part A and Part B. Your red, white, and blue Medicare card will arrive in the mail about three months before your 65th birthday.",
+  },
+  {
+    question: "Can I apply for Medicare online without applying for Social Security retirement benefits?",
+    answer:
+      "Yes. The SSA online application lets you apply for Medicare only without starting your retirement benefits. During the application you will be asked whether you want Medicare alone or Medicare plus retirement benefits, and you can choose Medicare only.",
+  },
+  {
+    question: "What documents do I need before starting the SSA online Medicare application?",
+    answer:
+      "You will need your Social Security number, a valid driver's license or state ID for identity verification through Login.gov or ID.me, and information about any current health insurance, including employer group coverage and employment dates. Having Medicaid details on hand is also helpful if applicable.",
   }
 ];
 

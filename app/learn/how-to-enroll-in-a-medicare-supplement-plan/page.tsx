@@ -295,6 +295,22 @@ const faqs = [
     answer:
       "You can apply to switch Medigap plans at any time, but outside your Open Enrollment Period or a guaranteed-issue situation, the new carrier can use medical underwriting and may decline you or charge more based on health. Before switching, it is important to compare benefits and confirm the new policy will be issued. Call 855-559-1700 to review your options before canceling an existing policy.",
   }
+,
+  {
+    question: "When is the best time to buy a Medigap policy?",
+    answer:
+      "The best time to buy a Medigap policy is during your 6-month Medigap Open Enrollment Period, which starts the first month you have Medicare Part B and you're 65 or older. During this window, you have a federally protected guaranteed-issue right, meaning carriers cannot deny you coverage or charge more based on pre-existing conditions. Outside this window, you may be subject to medical underwriting in most states.",
+  },
+  {
+    question: "Do I need both Medicare Part A and Part B to buy a Medigap policy?",
+    answer:
+      "Yes. You generally must be enrolled in both Medicare Part A and Part B to purchase a Medigap policy. If you only have Part A, you'll need to enroll in Part B before applying. You can verify your enrollment status or sign up for Part B at ssa.gov/medicare.",
+  },
+  {
+    question: "Does a Medigap policy cover my spouse too?",
+    answer:
+      "No. A Medigap policy only covers one person. If you and your spouse both want Medicare Supplement coverage, each of you must apply for and purchase your own separate policy. You can choose different plan letters or different carriers based on each person's needs and budget.",
+  }
 ];
 
 export default function HowToEnrollMedigapPage() {

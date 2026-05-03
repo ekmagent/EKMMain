@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "average cost of supplemental health insurance for seniors with medicare | Free Broker Comparison | MedicareYourself",
   description:
-    "Compare 2026 Medigap costs by plan, age, and state. See what seniors really pay and find your lowest rate — call 855-559-1700 for a free broker comparison.",
+    "Compare 2026 Medigap costs by plan, age, and state. See what seniors really pay and lock in your lowest rate — call 855-559-1700 for a free broker comparison.",
   alternates: { canonical: "https://medicareyourself.com/services/average-cost-of-supplemental-health-insurance-for-seniors-with-medicare" },
   openGraph: {
     title:
@@ -172,6 +172,22 @@ const faqs = [
     question: "Can a licensed broker help me find the lowest Medigap rate?",
     answer:
       "Yes. An independent broker licensed with multiple carriers can quote every Medigap plan available in your zip code and identify which company offers the lowest premium for the same lettered plan. Since benefits are standardized by Medicare, the only thing that changes is price and the carrier's rate stability. Call 855-559-1700 to compare your options.",
+  }
+,
+  {
+    question: "Does where I live affect what I pay for a Medigap policy?",
+    answer:
+      "Yes. Medicare.gov confirms that Medigap premiums vary widely based on the insurance company, the plan letter, and where you live. The same Plan G in one zip code can cost noticeably more or less than in a neighboring area. A licensed broker can pull rates specific to your county to find the lowest premium available.",
+  },
+  {
+    question: "How do insurance companies set Medigap prices?",
+    answer:
+      "Carriers use one of three pricing methods: community-rated (same premium regardless of age), issue-age-rated (based on the age you buy), or attained-age-rated (increases as you get older). Each method affects what you'll pay now and in the future. Understanding which method a carrier uses helps you predict long-term cost — call 855-559-1700 to compare.",
+  },
+  {
+    question: "Do Medigap premiums increase every year?",
+    answer:
+      "Most Medigap policies see annual rate adjustments due to inflation and claims experience, regardless of pricing method. Attained-age-rated plans also increase as you get older. Switching carriers later may require medical underwriting outside your Open Enrollment Period, so locking in a competitively priced plan early matters.",
   }
 ];
 
@@ -373,6 +389,7 @@ export default function AverageCostSupplementalInsurancePage() {
             <div className="text-sm text-gray-600 mt-4">For state-specific rate filings and consumer help, visit the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">New Jersey Department of Banking and Insurance</a> or your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can compare Medigap rates and file complaints through the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">Need state-specific help? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free local Medicare counseling.</div>
       </section>
     </main>
   );

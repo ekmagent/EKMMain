@@ -91,6 +91,12 @@ const faqs = [
     answer:
       "Possibly. Outside your 6-month Medigap Open Enrollment Period, carriers in New Jersey can use medical underwriting, which may result in higher premiums or a denial of coverage based on your health history. Some limited guaranteed issue situations exist, such as losing other coverage. Enrolling during your initial 6-month window is the safest way to lock in a rate without health questions.",
   }
+,
+  {
+    question: "Can my Medigap premium in New Jersey go up over time?",
+    answer:
+      "Yes. Even though New Jersey uses community rating (premiums are not based on your individual age), carriers can still raise rates over time due to overall medical inflation, claims experience, and rating area adjustments. Reviewing your plan annually helps ensure you are still getting a competitive rate. Call 855-559-1700 for a no-cost rate review.",
+  }
 ];
 
 export default function NJMedicareCostPage() {

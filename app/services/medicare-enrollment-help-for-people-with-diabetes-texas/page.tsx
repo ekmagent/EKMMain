@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare enrollment help for people with diabetes texas | Free Guidance | MedicareYourself",
   description:
-    "Medicare enrollment help for Texans with diabetes. Compare plans covering insulin, CGMs, and supplies with no underwriting. Call 855-559-1700 for free help.",
+    "Texas Medicare help for people with diabetes: compare plans covering insulin, CGMs & supplies with no underwriting. Call 855-559-1700 for free broker guidance.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-enrollment-help-for-people-with-diabetes-texas" },
   openGraph: {
     title:
@@ -301,6 +301,7 @@ export default function MedicareEnrollmentHelpDiabetesTexas() {
             <div className="text-sm text-gray-600 mt-4">Texas help: <a href="https://www.hhs.texas.gov/services/health/medicare" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">Texas Health and Human Services — Medicare</a></div>
             <div className="text-sm text-gray-600 mt-4">Texas resources: <a href="https://www.hhs.texas.gov/services/health/medicare" rel="noopener noreferrer" target="_blank" className="underline">Texas Health and Human Services — Medicare</a></div>
             <div className="text-sm text-gray-600 mt-4">Texas help: <a href="https://www.hhs.texas.gov/services/health/medicare" rel="noopener noreferrer" target="_blank" className="underline">Texas Health and Human Services — Medicare</a></div>
+            <div className="text-sm text-gray-600 mt-4">Texas help: <a href="https://www.hhs.texas.gov/services/health/medicare" rel="noopener noreferrer" target="_blank" className="underline">Texas Health and Human Services — Medicare</a> for state programs and SHIP counseling.</div>
       </section>
     </main>
   );

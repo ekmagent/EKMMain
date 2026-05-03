@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "licensed medicare advisors | Free Unbiased Help | MedicareYourself",
   description:
-    "Work with licensed Medicare advisors who compare plans across carriers at no cost. Anthony Orner, NJ & 34 states. Free consultation — call 855-559-1700.",
+    "Talk with licensed Medicare advisors who compare plans across carriers at no cost to you. Anthony Orner — NJ & 34 states. Free help: call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/licensed-medicare-advisors" },
   openGraph: {
     title:
@@ -311,6 +311,7 @@ export default function LicensedMedicareAdvisorsPage() {
 </ul>
               <div className="text-sm text-gray-600 mt-4">Verify any advisor's guidance against official sources: <a href="https://www.medicare.gov/talk-to-someone" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Talk to Someone</a> and <a href="https://www.cms.gov/medicare/enrollment-renewal/agents-brokers" rel="noopener noreferrer" target="_blank" className="underline">CMS Agent & Broker Resources</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Free, unbiased counseling is also available through your State Health Insurance Assistance Program. New Jersey residents can contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP</a> for one-on-one Medicare help.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify a producer's license through the <a href="https://www.state.nj.us/dobi/insurance.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or get free counseling from <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare insurance agents in freehold new jersey | Free Consultation | MedicareYourself",
   description:
-    "Medicare insurance agents in Freehold, New Jersey — compare Supplement and Advantage plans with licensed broker Anthony Orner. Free quote, no pressure.",
+    "Talk with a licensed Medicare broker serving Freehold, NJ. Compare Medigap and Advantage plans at no cost — call 855-559-1700 for a free, no-pressure quote.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-insurance-agents-in-freehold-new-jersey" },
   openGraph: {
     title:

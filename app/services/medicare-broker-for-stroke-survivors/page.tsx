@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for stroke survivors | Free Plan Review | MedicareYourself",
   description:
-    "Medicare broker for stroke survivors needing rehab, therapy, and specialist coverage. Anthony Orner finds the right plan. Free review.",
+    "Medicare broker for stroke survivors — get help comparing plans for rehab, therapy, and specialists. Free review with Anthony Orner. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-stroke-survivors" },
   openGraph: {
     title:
@@ -113,6 +113,22 @@ const faqs = [
     question: "Does Medicare cover home health care after a stroke?",
     answer:
       "Yes. Medicare Part A and Part B cover medically necessary home health services when ordered by your doctor and provided by a Medicare-certified agency. Covered services can include part-time skilled nursing, physical therapy, speech-language pathology, and occupational therapy. You must be considered homebound to qualify.",
+  }
+,
+  {
+    question: "Will my stroke specialists and rehab facilities be covered if I switch plans?",
+    answer:
+      "It depends on the plan type. Original Medicare is accepted by any provider who takes Medicare nationwide, while Medicare Advantage plans use networks that vary by carrier. Before switching, I verify that your neurologist, rehab center, and therapy providers are in-network so your recovery isn't disrupted.",
+  },
+  {
+    question: "Does Medicare cover home health care after a stroke?",
+    answer:
+      "Yes. Medicare Part A and Part B cover medically necessary home health services, including skilled nursing, physical therapy, speech-language pathology, and occupational therapy, when ordered by your doctor and provided by a Medicare-certified home health agency. You must be considered homebound to qualify.",
+  },
+  {
+    question: "What Medicare plan is best for a stroke survivor?",
+    answer:
+      "There is no single best plan — it depends on your providers, prescriptions, budget, and recovery needs. Many stroke survivors prefer Original Medicare paired with a Medigap plan and a standalone Part D plan for predictable costs and broad provider access. I review your specific situation and compare options at no cost.",
   }
 ];
 

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare broker for people with CLL | Free Consult | MedicareYourself",
   description:
-    "Medicare broker for people with CLL — get clear help navigating Medigap underwriting, Part D oral cancer drugs, and specialist access. Call 855-559-1700.",
+    "Medicare broker for people with CLL — get clear guidance on Medigap underwriting, Part D oral cancer drugs, and specialist access. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-people-with-cll" },
   openGraph: {
     title:
@@ -112,6 +112,17 @@ const faqs = [
     question: "Do I need a referral to see a CLL specialist under Medicare?",
     answer:
       "With Original Medicare, you do not need a referral to see any provider who accepts Medicare, including hematologists and oncologists at major cancer centers. Medicare Advantage plans, however, often require referrals and limit you to in-network specialists. This is one reason many CLL patients prefer Original Medicare paired with a Medigap plan.",
+  }
+,
+  {
+    question: "Does Medicare cover clinical trials for CLL?",
+    answer:
+      "Yes. Medicare covers routine costs of qualifying clinical trials, including doctor visits, lab tests, and items or services typically covered for patients not in a trial. This is important for CLL patients, as many advances in treatment come through clinical trial participation. Speak with your oncologist about trials at NCI-designated cancer centers.",
+  },
+  {
+    question: "Are CLL specialists covered under Medicare?",
+    answer:
+      "Original Medicare allows you to see any oncologist or hematologist who accepts Medicare assignment, including CLL specialists at major academic medical centers. Medicare Advantage plans restrict you to in-network providers, which may exclude top CLL experts. If specialist access matters to you, Original Medicare paired with a Medigap plan typically offers more flexibility.",
   }
 ];
 

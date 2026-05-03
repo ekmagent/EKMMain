@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "local medicare agent | Free Consultation, No Obligation | MedicareYourself",
   description:
-    "Meet with a licensed local NJ Medicare agent who compares top carriers at no cost. Free, no-pressure consultations with Anthony Orner — call 855-559-1700.",
+    "Meet a licensed local NJ Medicare agent who compares top carriers at no cost. Free, no-pressure plan reviews with Anthony Orner — call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/local-medicare-agent" },
   openGraph: {
     title:
@@ -117,6 +117,17 @@ const faqs = [
     question: "Can I meet with a local Medicare agent virtually instead of in person?",
     answer:
       "Yes. Many beneficiaries prefer phone or video consultations for convenience, and licensed agents can complete plan comparisons and enrollments remotely. In-person meetings remain available across NJ if you'd rather review materials face to face.",
+  }
+,
+  {
+    question: "How do I find a licensed local Medicare agent I can trust?",
+    answer:
+      "Verify the agent's license through your state's Department of Banking and Insurance and confirm they're appointed with multiple carriers. Independent brokers can compare plans across companies, while captive agents only represent one. You can also check medicare.gov or call 1-800-MEDICARE to confirm an agent is registered to sell Medicare products.",
+  },
+  {
+    question: "What should I bring to my first meeting with a local Medicare agent?",
+    answer:
+      "Bring your red, white, and blue Medicare card, a list of current prescriptions with dosages, and the names of your preferred doctors and hospitals. Also have any current insurance cards available. This information lets your agent check network and formulary coverage for an accurate side-by-side plan comparison.",
   }
 ];
 
@@ -351,6 +362,7 @@ export default function LocalMedicareAgentPage() {
             <div className="text-sm text-gray-600 mt-4">For free, unbiased counseling, contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">New Jersey SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </>
   );

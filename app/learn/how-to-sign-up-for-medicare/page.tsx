@@ -263,6 +263,22 @@ const faqs = [
     answer:
       "If you or your spouse are still actively working and have creditable group health coverage, you may delay Part B without a late penalty and enroll later through a Special Enrollment Period. Most people still sign up for Part A at 65 since it is premium-free for those with enough work credits. Always confirm with your HR department that your plan counts as creditable coverage before delaying Part B.",
   }
+,
+  {
+    question: "How do I sign up for Medicare if I'm not automatically enrolled?",
+    answer:
+      "You can apply online at ssa.gov/medicare, which takes about 10 minutes. You can also apply by calling Social Security or by visiting your local Social Security office. Apply up to 3 months before the month you turn 65 to ensure coverage starts on time.",
+  },
+  {
+    question: "What documents do I need to sign up for Medicare?",
+    answer:
+      "You'll typically need your Social Security number, birth certificate, and proof of U.S. citizenship or legal residency. If you're delaying Part B due to employer coverage, you'll also need form CMS-L564 from your employer when you eventually enroll. Most online applications don't require uploading documents unless Social Security requests them.",
+  },
+  {
+    question: "What happens if I miss my Medicare Initial Enrollment Period?",
+    answer:
+      "If you miss your IEP and don't qualify for a Special Enrollment Period, you'll need to wait for the General Enrollment Period (January 1 – March 31) to sign up for Part B. You may also owe a permanent Part B late enrollment penalty that's added to your monthly premium for as long as you have Medicare. Call 855-559-1700 to review your options before missing a deadline.",
+  }
 ];
 
 export default function HowToSignUpPage() {

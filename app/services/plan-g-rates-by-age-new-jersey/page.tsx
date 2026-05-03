@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Plan G Rates by Age in New Jersey | 2026 Costs | MedicareYourself",
   description:
-    "Compare 2026 Plan G rates by age in New Jersey across top carriers. Anthony Orner finds your lowest NJ premium fast — call 855-559-1700 for a free quote today.",
+    "Compare 2026 Plan G rates by age across top New Jersey carriers. Anthony Orner finds your lowest NJ premium fast — call 855-559-1700 for a free quote.",
   alternates: { canonical: `${SITE_URL}/services/plan-g-rates-by-age-new-jersey` },
   openGraph: {
     title: "Plan G Rates by Age in New Jersey | 2026 Costs | MedicareYourself",
@@ -70,6 +70,22 @@ const faqs = [
     question: "Can Anthony Orner help me compare Plan G rates across NJ carriers?",
     answer:
       "Yes. As a licensed Medicare insurance broker in New Jersey, Anthony Orner contracts with multiple Medigap carriers and can run side-by-side rate comparisons by your exact age, ZIP code, and tobacco status. There is no cost to use a broker — carriers pay the same commission regardless of how you enroll. Call 855-559-1700 for a free quote.",
+  }
+,
+  {
+    question: "How does the 6-month Medigap Open Enrollment Period work in New Jersey?",
+    answer:
+      "Your Medigap Open Enrollment Period is a one-time, 6-month window that begins the month you are 65 or older and enrolled in Medicare Part B. During this window, NJ carriers must sell you any Plan G they offer at their best available rate, regardless of your health history. Once it ends, carriers can use medical underwriting to approve or decline your application.",
+  },
+  {
+    question: "Are Plan G benefits the same across every NJ carrier?",
+    answer:
+      "Yes. Plan G is standardized by federal law, so the benefits are identical no matter which carrier you choose in New Jersey. The only differences are the monthly premium, the carrier's rate-increase history, and customer service. That is why comparing rates by age across carriers is the smartest way to shop.",
+  },
+  {
+    question: "How can Anthony Orner help me find the lowest Plan G rate in NJ?",
+    answer:
+      "Anthony Orner is a licensed Medicare insurance broker representing multiple top-rated carriers in New Jersey. He compares Plan G rates by your exact age, ZIP code, and tobacco status to identify the lowest premium available to you. Call 855-559-1700 for a free, no-obligation quote in about two minutes.",
   }
 ];
 
