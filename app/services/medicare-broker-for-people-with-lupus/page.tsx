@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare broker for people with lupus | Free Coverage Guidance | MedicareYourself",
   description:
-    "Living with lupus? Anthony Orner helps you compare Medigap, Advantage, and Part D options for autoimmune care. Free guidance — call 855-559-1700 today.",
+    "Lupus and Medicare? Anthony Orner helps you compare Medigap, Advantage, and Part D plans for autoimmune care. Free guidance — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-people-with-lupus" },
   openGraph: {
     title:

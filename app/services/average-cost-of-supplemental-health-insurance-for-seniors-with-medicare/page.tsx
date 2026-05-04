@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "average cost of supplemental health insurance for seniors with medicare | Free Broker Comparison | MedicareYourself",
   description:
-    "Compare 2026 Medigap costs by plan, age, and state. See what seniors really pay and lock in your lowest rate — call 855-559-1700 for a free broker comparison.",
+    "See what seniors actually pay for Medigap in 2026 by plan, age, and state — and lock in your lowest rate. Call 855-559-1700 for a free broker comparison.",
   alternates: { canonical: "https://medicareyourself.com/services/average-cost-of-supplemental-health-insurance-for-seniors-with-medicare" },
   openGraph: {
     title:
@@ -188,6 +188,17 @@ const faqs = [
     question: "Do Medigap premiums increase every year?",
     answer:
       "Most Medigap policies see annual rate adjustments due to inflation and claims experience, regardless of pricing method. Attained-age-rated plans also increase as you get older. Switching carriers later may require medical underwriting outside your Open Enrollment Period, so locking in a competitively priced plan early matters.",
+  }
+,
+  {
+    question: "Does where I live affect my Medigap premium?",
+    answer:
+      "Yes. Medigap premiums vary widely by state and even by zip code because carriers price based on local claims experience and state regulations. The same lettered plan from the same carrier can cost noticeably more in one region than another, which is why comparing rates in your specific area matters.",
+  },
+  {
+    question: "Will my Medigap premium go up as I get older?",
+    answer:
+      "It depends on how the policy is rated. Attained-age policies increase as you age, issue-age policies are based on your enrollment age and only rise with inflation, and community-rated policies charge everyone in an area the same regardless of age. All three types can also see rate adjustments over time due to inflation and claims trends.",
   }
 ];
 

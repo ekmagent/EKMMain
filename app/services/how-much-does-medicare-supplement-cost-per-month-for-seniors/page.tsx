@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "How Much Does Medicare Supplement Cost per Month for Seniors? | Free 2026 Rate Quote | MedicareYourself",
   description:
-    "How much does Medicare Supplement cost per month for seniors? See real Plan G and Plan N rates by age from NJ carriers. Get a free personalized quote today.",
+    "How much does Medicare Supplement cost per month for seniors? Compare Plan G and Plan N rates by age and carrier. Get your free 2026 quote today.",
   alternates: { canonical: "https://medicareyourself.com/services/how-much-does-medicare-supplement-cost-per-month-for-seniors" },
   openGraph: {
     title:

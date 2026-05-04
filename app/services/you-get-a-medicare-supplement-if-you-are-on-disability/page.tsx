@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "you get a medicare supplement if you are on disability | Free Guide | MedicareYourself",
   description:
-    "On disability and under 65? Many states guarantee Medigap access for disabled enrollees. Compare plans and get free expert help at 855-559-1700.",
+    "On disability and under 65? Many states guarantee Medigap access for disabled Medicare enrollees. Compare plans with a licensed broker. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/you-get-a-medicare-supplement-if-you-are-on-disability" },
   openGraph: {
     title:

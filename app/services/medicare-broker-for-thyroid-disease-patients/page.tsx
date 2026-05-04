@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for thyroid disease patients | Free Plan Review | MedicareYourself",
   description:
-    "Medicare broker for thyroid disease patients — find NJ plans covering lab work, thyroid meds, and specialist care. Anthony Orner compares options free.",
+    "Medicare broker for thyroid patients — compare NJ plans covering levothyroxine, TSH labs, and endocrinologist visits. Free review with Anthony Orner.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-thyroid-disease-patients" },
   openGraph: {
     title:

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for epilepsy patients | Free Coverage Consultation | MedicareYourself",
   description:
-    "Medicare broker for epilepsy patients in NJ. Anthony Orner compares Part D formularies and Medigap options so seizure meds and neurology visits stay covered.",
+    "Medicare broker for epilepsy patients in NJ. Anthony Orner compares Part D formularies and Medigap plans so seizure meds stay covered. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-epilepsy-patients" },
   openGraph: {
     title:
@@ -309,6 +309,7 @@ export default function MedicareBrokerForEpilepsyPatients() {
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/coverage/prescription-drugs-outpatient" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Prescription drug coverage (Part D)</a> and <a href="https://www.medicare.gov/basics/get-started-with-medicare/medicare-basics/parts-of-medicare" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Parts of Medicare</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
 
       <p className="mt-10 text-sm text-gray-500">

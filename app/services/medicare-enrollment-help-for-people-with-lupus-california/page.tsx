@@ -133,6 +133,12 @@ const faqs = [
     answer:
       "It depends on your providers and treatment needs. Original Medicare with a Medigap plan offers broader provider access and predictable costs, which can help if you see specialists or need biologic infusions. Medicare Advantage plans may have lower premiums but use networks and prior authorization. Call 855-559-1700 to compare options based on your rheumatologist and medications.",
   }
+,
+  {
+    question: "Will Medicare cover lab work needed to monitor my lupus in California?",
+    answer:
+      "Yes. Medicare Part B covers medically necessary lab tests ordered by your doctor to monitor lupus, including blood work and urinalysis. When the lab accepts Medicare assignment, these diagnostic tests are typically covered. Coverage applies whether you have Original Medicare or a Medicare Advantage plan, though network rules may apply with Advantage.",
+  }
 ];
 
 export default function MedicareEnrollmentHelpLupusCalifornia() {

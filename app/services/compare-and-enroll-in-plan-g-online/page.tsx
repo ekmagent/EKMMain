@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Compare and Enroll in Plan G Online | No Paperwork Needed | MedicareYourself",
   description:
-    "Compare every NJ carrier's Plan G rate side by side and enroll online in minutes with a licensed broker. No fees, no pressure. Call 855-559-1700.",
+    "Compare every NJ Plan G rate side by side and enroll online in minutes with a licensed broker. No fees, no pressure. Call 855-559-1700 to start.",
   alternates: { canonical: "https://medicareyourself.com/services/compare-and-enroll-in-plan-g-online" },
   openGraph: {
     title:
@@ -83,6 +83,22 @@ const faqs = [
     answer:
       "During your Medigap Open Enrollment Period, which is the 6 months starting the month you turn 65 and are enrolled in Part B. During this window, carriers cannot deny you or charge more for pre-existing conditions. Outside that window, you'll face medical underwriting in most states.",
   },
+,
+  {
+    question: "How long does it take to enroll in Plan G online?",
+    answer:
+      "Most applications take 15 to 30 minutes to complete electronically. Once submitted, the carrier typically issues a coverage decision within a few business days, and your policy can start as early as the first of the following month.",
+  },
+  {
+    question: "Is Plan G coverage the same no matter which carrier I choose?",
+    answer:
+      "Yes. Medigap Plan G benefits are standardized by federal law, so every carrier covers the exact same services. The only differences between carriers are the monthly premium, customer service, financial strength, and how they handle future rate increases.",
+  },
+  {
+    question: "Can I switch to Plan G if I already have a different Medigap plan?",
+    answer:
+      "Yes, you can apply to switch at any time, but outside of guaranteed issue windows you'll usually need to pass medical underwriting. We can review your situation and tell you whether switching is likely to be approved before you submit an application.",
+  }
 ];
 
 export default function CompareAndEnrollInPlanGOnline() {
@@ -277,6 +293,7 @@ export default function CompareAndEnrollInPlanGOnline() {
             <div className="text-sm text-gray-600 mt-4">NJ residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </main>
   );

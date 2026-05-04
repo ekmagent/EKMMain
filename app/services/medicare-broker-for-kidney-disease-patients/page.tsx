@@ -103,6 +103,17 @@ const faqs = [
     answer:
       "Yes. Medicare Part B covers outpatient dialysis treatments, most dialysis-related drugs, and home dialysis training and equipment when you meet the requirements. Part D plans cover oral medications such as phosphate binders. Reviewing your plan's formulary each year is important because drug tiers and pharmacy networks can change.",
   }
+,
+  {
+    question: "Can I enroll in a Medicare Advantage plan if I have ESRD?",
+    answer:
+      "Yes. As of 2021, federal rules allow patients with End-Stage Renal Disease to enroll in any Medicare Advantage plan available in their area, not just Special Needs Plans. This opened up more options, but the right choice still depends on your dialysis center's network status and your medication needs. A licensed broker can compare plans side by side at no cost.",
+  },
+  {
+    question: "Does Medicare cover dialysis at home?",
+    answer:
+      "Yes. Medicare Part B covers home dialysis training, equipment, and supplies for eligible patients, as well as in-center dialysis treatments. Some support services, like a home dialysis aide, are not covered by Medicare. Your nephrologist and dialysis team can help determine whether home dialysis is appropriate for you.",
+  }
 ];
 
 export default function MedicareBrokerKidneyDisease() {

@@ -9,7 +9,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Medicare Services & Guides | MedicareYourself",
   description:
-    "Compare Medigap, Medicare Advantage & Part D with a licensed independent broker in 35 states. Free, unbiased plan reviews — call 855-559-1700 today.",
+    "Compare Medigap, Medicare Advantage & Part D with a licensed independent broker in 35 states. Free, unbiased plan reviews — call 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/services` },
   openGraph: {
     title: "Medicare Services & Guides | MedicareYourself",
@@ -374,6 +374,22 @@ const STATIC_CATEGORIES = [
     answer:
       "You can verify any agent's license through your state's Department of Banking and Insurance and confirm their National Producer Number (NPN) on NIPR.com. Anthony Orner is licensed in NJ and 34 additional states under NPN 1902584006. Medicare.gov also offers free, official guidance if you'd like to cross-check plan details.",
   }
+,
+  {
+    question: "What does a licensed Medicare broker do?",
+    answer:
+      "A licensed Medicare broker helps you compare Medigap, Medicare Advantage, and Part D plans from multiple carriers so you can choose coverage that fits your health needs and budget. Brokers are appointed with insurance companies and must be licensed in your state. There is no cost to you for using a broker — carriers pay the broker directly. Call 855-559-1700 to speak with a licensed broker.",
+  },
+  {
+    question: "Are Medicare broker services really free?",
+    answer:
+      "Yes. Independent Medicare brokers are compensated by the insurance carriers when a client enrolls, so you pay the same premium whether you enroll on your own or with a broker. Working with a broker also gives you ongoing support during the Annual Enrollment Period and when life changes affect your coverage. You can also get free, unbiased counseling from your State Health Insurance Assistance Program (SHIP).",
+  },
+  {
+    question: "When can I enroll in or change a Medicare plan?",
+    answer:
+      "Most people first become eligible during their Initial Enrollment Period, a 7-month window around their 65th birthday. After that, the Annual Enrollment Period (October 15 – December 7) lets you change Medicare Advantage and Part D plans. Medigap has its own one-time Open Enrollment Period that begins when you're 65 and enrolled in Part B. Special Enrollment Periods may also apply if you lose other coverage.",
+  }
 ];
 
 export default function ServicesHubPage() {
@@ -485,6 +501,7 @@ export default function ServicesHubPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/dobi/division_consumers/insurance/ship.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-2">New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents: visit the <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </>
   );

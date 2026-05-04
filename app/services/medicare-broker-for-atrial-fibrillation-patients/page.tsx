@@ -102,6 +102,12 @@ const faqs = [
     answer:
       "It depends on your providers, budget, and how often you use care. Medigap paired with Original Medicare and a Part D plan offers broad provider access and predictable out-of-pocket costs, which many AFib patients prefer for ongoing cardiology care. Medicare Advantage may have lower premiums but uses networks and prior authorization. Anthony can compare both side by side based on your cardiologist and medications.",
   }
+,
+  {
+    question: "Will my cardiologist accept my Medicare plan?",
+    answer:
+      "It depends on the plan type. Original Medicare with a Medigap plan is accepted by any provider that accepts Medicare assignment, which gives you the broadest access to cardiologists and electrophysiologists. Medicare Advantage plans use networks, so you'll need to confirm your cardiologist is in-network before enrolling. Anthony can verify your providers before you choose a plan.",
+  }
 ];
 
 export default function MedicareBrokerForAtrialFibrillationPatients() {

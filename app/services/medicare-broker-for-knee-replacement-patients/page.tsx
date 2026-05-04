@@ -296,6 +296,7 @@ export default function MedicareBrokerKneReplacementPage() {
         </ul>
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/coverage/knee-replacement" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Knee Replacement Coverage</a> and <a href="https://www.medicare.gov/coverage/inpatient-hospital-care" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Inpatient Hospital Care</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Need help from a neutral counselor? Contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey SHIP</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" target="_blank" rel="noopener noreferrer" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </main>
   );

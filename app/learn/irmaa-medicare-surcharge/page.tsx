@@ -293,6 +293,22 @@ const faqs = [
     answer:
       "A licensed broker can't change your tax situation, but we can help you understand how IRMAA affects your total Medicare costs and which plan structures make the most sense given your income. For tax planning strategies like Roth conversions or capital gains timing, you should also consult a CPA or financial advisor. Call 855-559-1700 to review your options.",
   }
+,
+  {
+    question: "How do I appeal an IRMAA determination if my income has dropped?",
+    answer:
+      "You can request a reduction by filing Form SSA-44 with the Social Security Administration if you've experienced a qualifying life-changing event such as retirement, marriage, divorce, or the death of a spouse. You'll need to provide documentation of the event and evidence of your reduced income. SSA reviews each request individually and will issue a new determination if approved.",
+  },
+  {
+    question: "Will I have to pay IRMAA every year once I'm subject to it?",
+    answer:
+      "Not necessarily. Social Security recalculates IRMAA each year based on the most recent tax return on file (typically two years prior). If your income drops below the threshold in a later tax year, the surcharge will automatically come off once SSA receives that updated information from the IRS.",
+  },
+  {
+    question: "How is the IRMAA surcharge collected?",
+    answer:
+      "For most beneficiaries, IRMAA is deducted directly from your Social Security benefit along with your standard Part B premium. If you're not yet receiving Social Security, Medicare will bill you directly. The Part D surcharge is paid to Medicare separately from the premium you pay your drug plan.",
+  }
 ];
 
 export default function IrmaaPage() {

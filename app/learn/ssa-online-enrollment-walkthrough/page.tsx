@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title:
     "How to Enroll in Medicare Online at SSA.gov (Step-by-Step Walkthrough)",
   description:
-    "Step-by-step SSA.gov Medicare enrollment walkthrough — finish in about 10 minutes, avoid Part B penalties, and get free broker help at 855-559-1700.",
+    "Step-by-step SSA.gov Medicare enrollment walkthrough — finish in about 10 minutes, avoid Part B penalties. Free broker help at 855-559-1700.",
   alternates: {
     canonical: `${SITE_URL}/learn/ssa-online-enrollment-walkthrough`,
   },
@@ -384,6 +384,22 @@ const steps = [
     question: "What documents do I need before starting the SSA online Medicare application?",
     answer:
       "You will need your Social Security number, a valid driver's license or state ID for identity verification through Login.gov or ID.me, and information about any current health insurance, including employer group coverage and employment dates. Having Medicaid details on hand is also helpful if applicable.",
+  }
+,
+  {
+    question: "Do I need to create a my Social Security account before applying for Medicare online?",
+    answer:
+      "Yes. SSA requires you to sign in with a my Social Security account, which you can create through Login.gov or ID.me. You'll need your Social Security number and a valid driver's license or state ID to complete identity verification.",
+  },
+  {
+    question: "Can I change my Medicare application after I submit it on SSA.gov?",
+    answer:
+      "No. Once you click Submit Now and agree to the Electronic Signature Agreement, the application is final and cannot be modified online. If you need to correct information, you'll have to contact the Social Security Administration directly.",
+  },
+  {
+    question: "Can I apply for Medicare Part A only and delay Part B through SSA.gov?",
+    answer:
+      "Yes. The online application asks whether you want to enroll in Part B, and you can decline it if you have qualifying employer coverage. Be aware that delaying Part B without creditable coverage can trigger a lifetime late-enrollment penalty, so confirm your situation before declining.",
   }
 ];
 
