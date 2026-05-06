@@ -295,6 +295,22 @@ const faqs = [
     answer:
       "No. If you are already receiving Social Security or Railroad Retirement Board benefits when you become eligible, you are automatically enrolled in Medicare Part A and Part B. Your red, white, and blue Medicare card will arrive in the mail about 3 months before your 65th birthday.",
   }
+,
+  {
+    question: "How long does it take to get my Medicare card after I apply?",
+    answer:
+      "If you apply online at SSA.gov, most people receive their red, white, and blue Medicare card within about 2 to 3 weeks. If you are automatically enrolled because you are already receiving Social Security, your card arrives roughly 3 months before your 65th birthday. You can also print a temporary card from your My Social Security account.",
+  },
+  {
+    question: "Can I sign up for Medicare if I am still working?",
+    answer:
+      "Yes. You can enroll in Medicare at 65 even if you are still working. Many people sign up for Part A (which is usually free) and delay Part B if they have creditable employer coverage from active work. Confirm with your HR department that your group plan qualifies as creditable before delaying Part B to avoid a late enrollment penalty.",
+  },
+  {
+    question: "What happens if I miss my Medicare Initial Enrollment Period?",
+    answer:
+      "If you miss your IEP and do not qualify for a Special Enrollment Period, you will need to wait for the General Enrollment Period (January 1 – March 31) to sign up, with coverage starting the month after you enroll. You may also owe a permanent Part B late enrollment penalty added to your monthly premium. Call 855-559-1700 if you missed your window and need help figuring out next steps.",
+  }
 ];
 
 export default function HowToSignUpPage() {

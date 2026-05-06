@@ -94,6 +94,12 @@ const faqs = [
     answer:
       "An independent broker contracts with multiple national and regional carriers that serve New Jersey. The exact lineup varies by ZIP code and plan type, since Medicare Advantage and Part D networks are county-specific. During a consultation, the broker reviews which carriers are available at your Montclair address.",
   }
+,
+  {
+    question: "When can I switch Medicare plans with help from a Montclair agent?",
+    answer:
+      "Most plan changes happen during the Annual Enrollment Period from October 15 to December 7, with another window called the Medicare Advantage Open Enrollment Period running January 1 to March 31. Special Enrollment Periods may apply if you move, lose other coverage, or qualify for Extra Help. An independent broker can confirm which window fits your situation.",
+  }
 ];
 
 export default function FindMedicareAgentMontclairNJ() {

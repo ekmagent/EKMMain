@@ -130,6 +130,22 @@ const faqs = [
     answer:
       "Don't panic, but don't ignore it either. Compare your renewal premium to what other carriers charge for the same plan letter in your ZIP code, since benefits are standardized by Medicare. Call 855-559-1700 for a free rate review before your renewal date to see if switching makes sense for your health situation.",
   }
+,
+  {
+    question: "What should I do first if I get a Medigap rate increase letter?",
+    answer:
+      "Don't panic or cancel your coverage. Call a licensed broker for a free rate review to compare other carriers offering the same plan letter in your ZIP code. If you qualify medically, switching can lock in a lower premium with identical benefits. Reach our office at 855-559-1700.",
+  },
+  {
+    question: "Are all Medigap Plan G policies the same regardless of carrier?",
+    answer:
+      "Yes. Medigap benefits are standardized by the federal government, so Plan G from one carrier covers the exact same services as Plan G from another. The only differences are price, customer service, and optional extras like dental or vision discounts. That's why shopping carriers can save money without reducing coverage.",
+  },
+  {
+    question: "Why are Medigap premiums rising by double digits in 2025?",
+    answer:
+      "Carriers cite higher medical claim costs, increased utilization of healthcare services, and the aging of existing policyholder pools as the main drivers. When claims paid out exceed projections, carriers file for rate increases with state regulators. Newer carriers or those with younger risk pools often have more competitive pricing.",
+  }
 ];
 
 export default function MedicareSupplementPremiumsIncreasing2025() {

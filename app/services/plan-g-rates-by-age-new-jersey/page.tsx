@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Plan G Rates by Age in New Jersey | 2026 Costs | MedicareYourself",
   description:
-    "Compare 2026 Plan G rates by age across top New Jersey carriers. Anthony Orner pinpoints your lowest NJ premium fast — call 855-559-1700 for a free quote.",
+    "Compare 2026 Plan G rates by age across NJ carriers. Anthony Orner finds your lowest New Jersey premium fast — call 855-559-1700 for a free quote today.",
   alternates: { canonical: `${SITE_URL}/services/plan-g-rates-by-age-new-jersey` },
   openGraph: {
     title: "Plan G Rates by Age in New Jersey | 2026 Costs | MedicareYourself",
@@ -86,6 +86,22 @@ const faqs = [
     question: "How can Anthony Orner help me find the lowest Plan G rate in NJ?",
     answer:
       "Anthony Orner is a licensed Medicare insurance broker representing multiple top-rated carriers in New Jersey. He compares Plan G rates by your exact age, ZIP code, and tobacco status to identify the lowest premium available to you. Call 855-559-1700 for a free, no-obligation quote in about two minutes.",
+  }
+,
+  {
+    question: "Does the federal Medigap Open Enrollment Period apply in New Jersey?",
+    answer:
+      "Yes. The federal 6-month Medigap Open Enrollment Period applies in New Jersey. It begins the month you are 65 or older and enrolled in Medicare Part B. During that window, carriers must sell you any Plan G they offer at their best available rate without medical underwriting.",
+  },
+  {
+    question: "How does New Jersey rate Medigap premiums?",
+    answer:
+      "New Jersey allows carriers to use different rating methods, including community-rated, issue-age, and attained-age pricing. Each method affects how your Plan G premium changes over time. Anthony Orner can walk you through how each NJ carrier prices Plan G so you can compare apples to apples. Call 855-559-1700 for help.",
+  },
+  {
+    question: "Where can I see official NJ Medicare Supplement rate information?",
+    answer:
+      "The New Jersey Department of Human Services Division of Aging Services publishes Medicare Supplement rate charts each year, and the NJ Department of Banking and Insurance regulates carriers selling Medigap in the state. You can also call NJ SHIP for free, unbiased counseling on Medigap options.",
   }
 ];
 

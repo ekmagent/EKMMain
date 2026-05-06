@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare brokers in my area | Free NJ Plan Comparison | MedicareYourself",
   description:
-    "Looking for Medicare brokers in your area? Anthony Orner offers free NJ Medigap & Advantage plan comparisons — no fees, no pressure. Call 855-559-1700.",
+    "Find licensed Medicare brokers in your NJ area. Anthony Orner offers free Medigap & Advantage plan comparisons—no fees, no pressure. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-brokers-in-my-area" },
   openGraph: {
     title:
@@ -334,6 +334,7 @@ export default function MedicareBrokersInMyArea() {
             <div className="text-sm text-gray-600 mt-4">NJ residents can verify a broker's license through the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> or get free unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">NJ residents can verify a broker's license through the <a href="https://www.state.nj.us/dobi/inslic.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> or get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify a broker's license through the <a href="https://www.state.nj.us/dobi/division_insurance/" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify a broker's license through the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">NJ Department of Banking and Insurance</a> or get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

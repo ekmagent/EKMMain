@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title:
     "switch medigap plans | Compare Carriers & Switch Online | MedicareYourself",
   description:
-    "Switch Medigap plans any month and keep identical Plan G or N coverage at a lower premium. Compare carriers free with a licensed broker — call 855-559-1700.",
+    "Switch Medigap plans any month — keep identical Plan G or N coverage at a lower premium. Compare carriers free with a licensed broker. Call 855-559-1700.",
   alternates: {
     canonical: `${SITE_URL}/services/switch-medigap-plans`,
   },

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Plan G Rates for a 69-Year-Old in New Jersey | Free Carrier Comparison | MedicareYourself",
   description:
-    "Compare Plan G rates for 69-year-olds in New Jersey by carrier. Free, no-pressure quotes from a licensed NJ broker. Call 855-559-1700 today.",
+    "Compare Plan G rates for 69-year-olds in New Jersey side by side. Free, no-pressure carrier quotes from a licensed NJ broker. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/plan-g-rates-for-69-year-old-in-new-jersey" },
   openGraph: {
     title:
@@ -85,6 +85,22 @@ const faqs = [
     answer:
       "In most cases, switching Medigap plans outside your initial open enrollment period requires medical underwriting in New Jersey. Certain federal guaranteed issue rights may apply if you lost coverage involuntarily. A licensed broker can check your specific situation.",
   },
+,
+  {
+    question: "When is the best time to enroll in Plan G in New Jersey?",
+    answer:
+      "The best time is during your 6-month Medigap Open Enrollment Period, which begins the month you're 65 or older and enrolled in Part B. During this window, carriers cannot deny you coverage or charge more based on health. If you're 69 and missed this window, you may still apply but could face medical underwriting.",
+  },
+  {
+    question: "How are Plan G premiums priced in New Jersey?",
+    answer:
+      "New Jersey carriers may use community-rated, issue-age, or attained-age pricing depending on the company. Community-rated plans charge the same premium regardless of age, while attained-age plans increase as you grow older. Comparing pricing methods is just as important as comparing the starting premium.",
+  },
+  {
+    question: "Does Plan G cover the Part B deductible at age 69?",
+    answer:
+      "No. Plan G covers nearly all Medicare-approved out-of-pocket costs after you meet the Part B deductible, but it does not pay the deductible itself. Once met, Plan G covers the Part A and Part B coinsurance, hospital costs, and excess charges for the rest of the year.",
+  }
 ];
 
 export default function PlanGRates69NJ() {
@@ -313,6 +329,7 @@ export default function PlanGRates69NJ() {
             <div className="text-sm text-gray-600 mt-2">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.nj.gov/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">For free unbiased counseling, contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">New Jersey SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

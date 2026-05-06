@@ -132,6 +132,22 @@ const faqs = [
     answer:
       "It depends on your providers, medications, and budget. Medigap paired with Original Medicare gives you nationwide access to any provider that accepts Medicare and predictable cost-sharing for procedures like SLT or trabeculectomy. Medicare Advantage plans often include routine vision benefits but use networks and prior authorization, which can affect access to specific glaucoma specialists. A free review can help you weigh the trade-offs for your situation.",
   }
+,
+  {
+    question: "How often does Medicare cover glaucoma screenings?",
+    answer:
+      "Medicare Part B covers glaucoma screenings once every 12 months for people considered high-risk. High-risk groups include people with diabetes, a family history of glaucoma, African Americans age 50 and older, and Hispanic Americans age 65 and older. The screening must be performed or supervised by an eye doctor legally authorized to do so in your state.",
+  },
+  {
+    question: "Are glaucoma eye drops covered by Medicare?",
+    answer:
+      "Prescription glaucoma eye drops such as latanoprost, timolol, and brimonidine are typically covered under Medicare Part D or through a Medicare Advantage plan that includes drug coverage. Formulary placement, tier, and copay vary significantly between plans, which is why a side-by-side plan comparison matters when you take daily drops. A licensed broker can run your specific medications through each plan's formulary before you enroll.",
+  },
+  {
+    question: "Should I choose Medigap or Medicare Advantage if I have glaucoma?",
+    answer:
+      "It depends on your providers, medications, and budget. Medigap paired with Original Medicare and a Part D plan offers broad access to any ophthalmologist who accepts Medicare and predictable cost-sharing on procedures like SLT or trabeculectomy. Medicare Advantage may offer lower premiums and added routine vision benefits but uses networks and prior authorization. A free review with Anthony Orner at 855-559-1700 can clarify which fits your situation.",
+  }
 ];
 
 export default function MedicareBrokerForGlaucomaPatients() {

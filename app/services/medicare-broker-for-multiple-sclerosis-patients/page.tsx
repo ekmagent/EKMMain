@@ -163,6 +163,12 @@ const faqs = [
     answer:
       "Yes. Medically necessary MRIs are covered under Medicare Part B when ordered by your doctor to monitor disease progression or treatment response. Under Original Medicare, you typically pay the Part B deductible and a coinsurance percentage of the Medicare-approved amount. Medicare Advantage plans must cover MRIs but may require prior authorization and use in-network imaging facilities.",
   }
+,
+  {
+    question: "Will Medicare cover MRI scans needed to monitor MS progression?",
+    answer:
+      "Yes. Medicare Part B covers medically necessary MRI scans ordered by your doctor to monitor MS activity and treatment response. You'll typically pay the Part B coinsurance after meeting the annual deductible, unless a Medigap policy covers that cost share. Medicare Advantage plans also cover MRIs but may require prior authorization.",
+  }
 ];
 
 export default function MedicareBrokerForMSPatients() {
@@ -378,6 +384,7 @@ export default function MedicareBrokerForMSPatients() {
             </li>
 </ul>
               <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/basics/get-started-with-medicare" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Get Started with Medicare</a> and <a href="https://www.medicare.gov/health-drug-plans/health-plans/your-coverage-options" rel="noopener noreferrer" target="_blank" className="underline">Your Medicare Coverage Options</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
       </section>
       </article>
     </>

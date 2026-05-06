@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Find a Medicare Agent in Newark NJ | Free No-Obligation Help | MedicareYourself",
   description:
-    "Find a Medicare agent in Newark NJ — Anthony Orner is an independent broker comparing Medigap and Advantage plans in Essex County. Free consultation today.",
+    "Find a licensed Medicare agent in Newark, NJ. Anthony Orner compares Medigap & Advantage plans across Essex County — free, no-obligation help. Call today.",
   alternates: { canonical: "https://medicareyourself.com/services/find-a-medicare-agent-in-newark-nj" },
   openGraph: {
     title:
@@ -342,6 +342,7 @@ export default function FindMedicareAgentNewarkNJ() {
             <div className="text-sm text-gray-600 mt-2">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free unbiased counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey beneficiaries can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

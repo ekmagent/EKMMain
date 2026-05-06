@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for transplant recipients | Free Coverage Analysis | MedicareYourself",
   description:
-    "Medicare broker for transplant recipients — keep immunosuppressant coverage, avoid gaps. Anthony Orner explains your options. Free analysis.",
+    "Medicare broker for transplant recipients — protect immunosuppressant coverage and avoid gaps. Anthony Orner explains your options. Call 855-559-1700 for a free analysis.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-transplant-recipients" },
   openGraph: {
     title:
@@ -309,6 +309,7 @@ export default function MedicareBrokerForTransplantRecipients() {
         </ul>
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/coverage/organ-transplants" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Organ Transplant Coverage</a> and <a href="https://www.medicare.gov/coverage/immunosuppressive-drugs" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Immunosuppressive Drug Coverage (Part B-ID)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </main>
   );

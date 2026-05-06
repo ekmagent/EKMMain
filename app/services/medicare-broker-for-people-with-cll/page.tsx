@@ -124,6 +124,17 @@ const faqs = [
     answer:
       "Original Medicare allows you to see any oncologist or hematologist who accepts Medicare assignment, including CLL specialists at major academic medical centers. Medicare Advantage plans restrict you to in-network providers, which may exclude top CLL experts. If specialist access matters to you, Original Medicare paired with a Medigap plan typically offers more flexibility.",
   }
+,
+  {
+    question: "Does Medicare cover clinical trials for CLL?",
+    answer:
+      "Yes. Medicare covers routine costs of qualifying clinical trials, including doctor visits, lab work, and standard care that would be covered outside the trial. This is important for CLL patients who may want to access investigational targeted therapies. Your oncologist's office can confirm whether a specific trial qualifies for Medicare coverage.",
+  },
+  {
+    question: "Are oral CLL medications covered under Part B or Part D?",
+    answer:
+      "Most oral targeted therapies for CLL, including BTK inhibitors and BCL-2 inhibitors, are covered under Medicare Part D rather than Part B. Part B typically covers infused or injected cancer drugs administered in a clinic. Choosing a Part D plan with a strong specialty tier formulary is critical when living with CLL.",
+  }
 ];
 
 export default function MedicareBrokerForPeopleWithCLL() {

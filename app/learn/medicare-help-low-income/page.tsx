@@ -175,6 +175,22 @@ const programs = [
     answer:
       "No. Federal law prohibits Medicare providers from billing QMB enrollees for Medicare deductibles, coinsurance, or copayments for covered services. If you receive a bill in error, contact the provider, show your QMB or Medicaid card, and ask them to refund any payments you made. You can also call 1-800-MEDICARE to report improper billing.",
   }
+,
+  {
+    question: "How do I apply for a Medicare Savings Program?",
+    answer:
+      "You apply through your state Medicaid agency, not through Medicare directly. Each state runs its own application process, and the state determines which of the four programs (QMB, SLMB, QI, or QDWI) you qualify for. Medicare.gov recommends applying even if you're unsure whether you qualify, since income and resource rules vary by state. For free help reviewing your options, call 855-559-1700.",
+  },
+  {
+    question: "Do I have to apply separately for Extra Help and a Medicare Savings Program?",
+    answer:
+      "If you qualify for a Medicare Savings Program like QMB or SLMB, you are automatically enrolled in Extra Help for Part D drug costs. However, you can also apply for Extra Help on its own through the Social Security Administration at ssa.gov, even if you don't qualify for an MSP. The two programs have different income and asset rules, so it's worth checking both.",
+  },
+  {
+    question: "Will applying for Medicare Savings Programs affect my Social Security?",
+    answer:
+      "No. Medicare Savings Programs do not reduce your Social Security benefit. In fact, if your state pays your Part B premium through QMB, SLMB, or QI, the premium is no longer deducted from your Social Security check, which can increase your monthly deposit. Approval is based only on income and resources, not your benefit amount.",
+  }
 ];
 
 export default function LowIncomeMedicarePage() {

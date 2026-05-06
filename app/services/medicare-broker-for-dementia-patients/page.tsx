@@ -312,6 +312,7 @@ export default function MedicareBrokerForDementiaPatients() {
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/coverage/home-health-services" rel="noopener noreferrer" target="_blank" className="underline">Medicare home health coverage (Medicare.gov)</a> and <a href="https://www.cms.gov/priorities/innovation/innovation-models/guide" rel="noopener noreferrer" target="_blank" className="underline">CMS GUIDE Model for dementia care</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey families can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey caregivers can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey families can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
       </section>
     </main>
   );
