@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare agents near me | Free Unbiased Plan Comparison | MedicareYourself",
   description:
-    "Medicare agents near me — find an independent broker who compares every major carrier with no bias. Anthony Orner offers free, no-pressure consultations.",
+    "Medicare agents near me — work with an independent licensed broker who compares every major carrier with no bias. Free, no-pressure help. Call today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-agents-near-me" },
   openGraph: {
     title:

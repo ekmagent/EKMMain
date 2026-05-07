@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "when can i change my medicare supplement plan for 2026 | Free Switching Help | MedicareYourself",
   description:
-    "When can you change your 2026 Medicare Supplement plan? Learn switch rules, guaranteed-issue rights & underwriting tips. Free broker review: 855-559-1700.",
+    "When can you change your Medicare Supplement plan for 2026? Learn switch rules, guaranteed-issue rights & underwriting tips. Free broker review: 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/when-can-i-change-my-medicare-supplement-plan-for-2026" },
   openGraph: {
     title:
@@ -180,6 +180,17 @@ const faqs = [
     question: "Does my state offer extra rights to change my Medigap plan beyond federal law?",
     answer:
       "Some states give Medigap policyholders broader switching rights than federal law requires, such as annual birthday or anniversary rules that allow changing plans without underwriting. Rules vary widely by state, so it's worth checking with your state insurance department or a licensed broker before assuming you'll need underwriting. We can confirm your state's rules at 855-559-1700.",
+  }
+,
+  {
+    question: "What happens if I switch Medigap plans and then change my mind?",
+    answer:
+      "Medigap policies include a 30-day free look period. You can keep both your old and new policies for 30 days to compare them, then decide which to keep. You'll need to pay both premiums during that window, but it lets you cancel the new policy without penalty if it isn't a good fit.",
+  },
+  {
+    question: "Does my state offer extra rights to change Medigap outside federal rules?",
+    answer:
+      "Some states offer broader switching rights than federal law requires, such as annual birthday or anniversary rules that allow plan changes without underwriting. Rules vary widely by state, so contact your State Insurance Department or SHIP program to confirm what protections apply to you in 2026.",
   }
 ];
 
@@ -378,6 +389,7 @@ export default function WhenCanIChangeMyMedicareSupplementPlanFor2026() {
             <div className="text-sm text-gray-600 mt-4">For state-specific Medigap switching rules, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">State Health Insurance Assistance Program (SHIP)</a> for free, unbiased counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP program</a> for free Medicare counseling and state-specific Medigap rules.</div>
             <div className="text-sm text-gray-600 mt-4">State help: <a href="https://www.nj.gov/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> — your state may offer additional Medigap switching rights beyond federal law. Call <strong>855-559-1700</strong> for a free review.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents: contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">New Jersey Department of Banking and Insurance</a> or your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a> for state-specific Medigap switching rights.</div>
       </section>
     </main>
   );

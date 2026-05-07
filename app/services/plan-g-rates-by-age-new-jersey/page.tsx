@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Plan G Rates by Age in New Jersey | 2026 Costs | MedicareYourself",
   description:
-    "Compare 2026 Plan G rates by age across NJ carriers. Anthony Orner finds your lowest New Jersey premium fast — call 855-559-1700 for a free quote today.",
+    "Compare 2026 Plan G rates by age across New Jersey carriers. Anthony Orner finds your lowest NJ premium fast — call 855-559-1700 for a free quote in minutes.",
   alternates: { canonical: `${SITE_URL}/services/plan-g-rates-by-age-new-jersey` },
   openGraph: {
     title: "Plan G Rates by Age in New Jersey | 2026 Costs | MedicareYourself",
@@ -102,6 +102,17 @@ const faqs = [
     question: "Where can I see official NJ Medicare Supplement rate information?",
     answer:
       "The New Jersey Department of Human Services Division of Aging Services publishes Medicare Supplement rate charts each year, and the NJ Department of Banking and Insurance regulates carriers selling Medigap in the state. You can also call NJ SHIP for free, unbiased counseling on Medigap options.",
+  }
+,
+  {
+    question: "Where can I find official NJ Medigap rate charts by age?",
+    answer:
+      "The New Jersey Department of Human Services, Division of Aging Services, publishes Medigap premium charts comparing carriers by age and gender. These charts are updated periodically and are available on nj.gov. They are useful for cross-checking quotes, but a licensed broker can confirm the current rate in your specific county.",
+  },
+  {
+    question: "Does the Medigap Open Enrollment Period restart if I move within NJ?",
+    answer:
+      "No. Your 6-month Medigap Open Enrollment Period only happens once — when you are 65 or older and first enrolled in Part B. Moving between NJ counties does not reopen guaranteed issue, though some carriers may offer competitive rates without underwriting in certain situations. Call 855-559-1700 to review your options.",
   }
 ];
 

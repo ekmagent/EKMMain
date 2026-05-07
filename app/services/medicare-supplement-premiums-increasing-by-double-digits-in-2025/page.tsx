@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare supplement premiums increasing by double digits in 2025 | Free Rate Review | MedicareYourself",
   description:
-    "Medigap premiums are climbing in 2025. Compare carriers, keep the same benefits, and see if switching saves you money. Free rate review at 855-559-1700.",
+    "Medigap rates rising in 2025? Compare carriers, keep the same standardized benefits, and see if switching cuts your premium. Free rate review: 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-supplement-premiums-increasing-by-double-digits-in-2025" },
   openGraph: {
     title:
@@ -145,6 +145,22 @@ const faqs = [
     question: "Why are Medigap premiums rising by double digits in 2025?",
     answer:
       "Carriers cite higher medical claim costs, increased utilization of healthcare services, and the aging of existing policyholder pools as the main drivers. When claims paid out exceed projections, carriers file for rate increases with state regulators. Newer carriers or those with younger risk pools often have more competitive pricing.",
+  }
+,
+  {
+    question: "Will switching Medigap carriers change my doctors or hospitals?",
+    answer:
+      "No. Medigap plans work with any provider that accepts Original Medicare, regardless of which carrier issues your policy. Switching from one carrier's Plan G to another carrier's Plan G does not change your network or your access to doctors and hospitals.",
+  },
+  {
+    question: "When is the best time to shop for a lower Medigap rate?",
+    answer:
+      "A good time to compare is 30-60 days before your policy anniversary or whenever you receive a rate increase notice. That gives time to apply, complete any required underwriting, and align the new policy's start date with the cancellation of your old one to avoid a coverage gap.",
+  },
+  {
+    question: "Does a rate increase mean my carrier is in financial trouble?",
+    answer:
+      "Not necessarily. Rate increases usually reflect rising medical claim costs and the aging of a carrier's policyholder pool, not financial instability. Still, a sustained pattern of large increases is a signal to compare other carriers offering the same standardized plan letter.",
   }
 ];
 
@@ -355,6 +371,7 @@ export default function MedicareSupplementPremiumsIncreasing2025() {
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/health-drug-plans/medigap" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">Medicare.gov — Medigap (Medicare Supplement) basics</a> and <a href="https://www.medicare.gov/health-drug-plans/medigap/basics/when-to-buy" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">When to buy a Medigap policy</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Need state-specific help? Contact the <a href="https://www.nj.gov/dobi/division_insurance/" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">SHIP counselor</a> for free one-on-one Medicare guidance.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a> or the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP program</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents: contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a> or the free <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP counseling program</a> for unbiased guidance.</div>
       </section>
     </main>
   );

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "local medicare agents in trenton nj | Free Plan Comparison | MedicareYourself",
   description:
-    "Compare every major Medicare plan in Trenton, NJ with licensed broker Anthony Orner. Free, no-pressure guidance for Mercer County. Call 855-559-1700 today.",
+    "Compare every major Medicare plan in Trenton, NJ with licensed broker Anthony Orner. Free Mercer County guidance, no pressure. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/local-medicare-agents-in-trenton-nj" },
   openGraph: {
     title:
@@ -296,6 +296,7 @@ export default function LocalMedicareAgentsTrentonNJ() {
 </ul>
               <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/plan-compare" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov Plan Finder</a> · <a href="https://www.medicare.gov/talk-to-someone" rel="noopener noreferrer" target="_blank" className="underline">Talk to Someone at Medicare.gov</a></div>
             <div className="text-sm text-gray-600 mt-2">New Jersey residents can also get free unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
       </section>
       </article>
     </>

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "free medicare advocate near me | Licensed NJ Broker, $0 Cost | MedicareYourself",
   description:
-    "Free Medicare advocate near you in New Jersey. Anthony Orner is a licensed independent broker who compares plans at no cost. Schedule a free consultation.",
+    "Need a free Medicare advocate near you? Anthony Orner, a licensed NJ broker, compares plans across carriers at no cost. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/free-medicare-advocate-near-me" },
   openGraph: {
     title:

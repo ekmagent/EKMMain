@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "jackson nj medicare insurance agents | Free Local Broker Help | MedicareYourself",
   description:
-    "Compare Medicare Supplement and Advantage plans in Jackson NJ with licensed broker Anthony Orner. Free quotes, no pressure. Call 855-559-1700 today.",
+    "Compare Medicare Advantage and Supplement plans in Jackson NJ with licensed broker Anthony Orner. Free side-by-side quotes, no pressure. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/jackson-nj-medicare-insurance-agents" },
   openGraph: {
     title:
@@ -265,6 +265,7 @@ export default function JacksonNJMedicareInsuranceAgents() {
         </ul>
             <div className="text-sm text-gray-600 mt-4">Official Medicare resources: <a href="https://www.medicare.gov/plan-compare" rel="noopener noreferrer" target="_blank" className="underline">Medicare Plan Compare</a> and <a href="https://www.medicare.gov/basics/get-started-with-medicare" rel="noopener noreferrer" target="_blank" className="underline">Get Started with Medicare</a>.</div>
             <div className="text-sm text-gray-600 mt-2">New Jersey residents can also get free one-on-one counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
       </section>
     </main>
   );

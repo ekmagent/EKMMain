@@ -132,6 +132,12 @@ const GUIDES = [
     answer:
       "Yes, you can switch during certain enrollment windows like the Annual Enrollment Period (October 15 to December 7) or the Medicare Advantage Open Enrollment Period (January 1 to March 31). However, if you want to add a Medigap policy after switching back, you may have to answer health questions unless you qualify for a guaranteed issue right. Our guide on Medicare enrollment periods explains the timing in detail, or call 855-559-1700 for help.",
   }
+,
+  {
+    question: "Can I switch Medicare plans after I enroll?",
+    answer:
+      "Yes, but only during certain enrollment windows. The Annual Enrollment Period each fall lets you change Medicare Advantage and Part D plans, and there are separate windows for Medigap and special situations like moving or losing other coverage. Our guide on Medicare enrollment periods explains the timing, or call 855-559-1700 for help.",
+  }
 ];
 
 export default function LearnHubPage() {

@@ -406,6 +406,22 @@ const STATIC_CATEGORIES = [
     answer:
       "Yes, but the rules depend on the plan type. Medicare Advantage and Part D plans can typically be changed during the Annual Enrollment Period each fall or during a Special Enrollment Period if you qualify. Medigap plan changes may require medical underwriting outside of your initial enrollment window, so timing matters.",
   }
+,
+  {
+    question: "What types of Medicare plans can a licensed broker help me compare?",
+    answer:
+      "A licensed independent broker can help you compare Medicare Supplement (Medigap) plans, Medicare Advantage (Part C) plans, and standalone Part D prescription drug plans. Brokers represent multiple carriers, so you can review options side-by-side based on your doctors, prescriptions, and budget. You can also verify plan details directly at Medicare.gov.",
+  },
+  {
+    question: "Is there a fee to use a Medicare broker?",
+    answer:
+      "No. Working with a licensed Medicare broker is free to you — brokers are compensated by the insurance carriers when a plan is issued. Commissions are regulated by CMS and are the same across plans of the same type, so there is no financial incentive to steer you toward one carrier over another.",
+  },
+  {
+    question: "How do I know if a Medicare agent is licensed in my state?",
+    answer:
+      "You can verify any agent's license through your state Department of Insurance website. Anthony Orner (NPI 1902584006) is licensed in New Jersey and 34 additional states. Always confirm an agent is appointed with the carriers they recommend before enrolling.",
+  }
 ];
 
 export default function ServicesHubPage() {

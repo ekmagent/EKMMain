@@ -191,6 +191,22 @@ const programs = [
     answer:
       "No. Medicare Savings Programs do not reduce your Social Security benefit. In fact, if your state pays your Part B premium through QMB, SLMB, or QI, the premium is no longer deducted from your Social Security check, which can increase your monthly deposit. Approval is based only on income and resources, not your benefit amount.",
   }
+,
+  {
+    question: "How do I apply for a Medicare Savings Program?",
+    answer:
+      "You apply for Medicare Savings Programs through your state Medicaid office, not through Medicare directly. Each state sets its own application process and may have slightly different income and resource rules. Medicare.gov recommends applying even if you think your income is too high, because some states do not count all of your income or resources. In New Jersey, you apply through NJ FamilyCare or your county Board of Social Services.",
+  },
+  {
+    question: "Does Extra Help work with any Part D plan?",
+    answer:
+      "Extra Help can be used with any Medicare Part D prescription drug plan or Medicare Advantage plan that includes drug coverage. If you qualify, the Social Security Administration notifies you and you can pick a plan that fits your medications and pharmacy. If you do not choose one, Medicare will enroll you in a benchmark plan automatically so your coverage is not delayed.",
+  },
+  {
+    question: "Will signing up for a Medicare Savings Program affect my Social Security check?",
+    answer:
+      "Yes — in a good way. If you qualify for QMB, SLMB, or QI, the state pays your Part B premium, which means it is no longer deducted from your Social Security benefit. That can increase your monthly Social Security deposit. The programs do not reduce your Social Security retirement or disability benefit itself.",
+  }
 ];
 
 export default function LowIncomeMedicarePage() {

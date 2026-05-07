@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "average cost of supplemental health insurance for seniors with medicare | Free Broker Comparison | MedicareYourself",
   description:
-    "See what seniors actually pay for Medigap in 2026 by plan, age, and state — and lock in your lowest rate. Call 855-559-1700 for a free broker comparison.",
+    "Compare 2026 Medigap costs by plan, age, and state — and find your lowest rate from top-rated carriers. Call 855-559-1700 for a free broker comparison.",
   alternates: { canonical: "https://medicareyourself.com/services/average-cost-of-supplemental-health-insurance-for-seniors-with-medicare" },
   openGraph: {
     title:
@@ -205,6 +205,22 @@ const faqs = [
     question: "Does where I live affect how much I pay for Medigap?",
     answer:
       "Yes. Medigap premiums vary widely by state and even by zip code because carriers price policies based on local claims experience and state regulations. The same lettered plan with identical benefits can cost noticeably more in one state than another. That's why comparing carrier rates in your specific area matters more than looking at national averages.",
+  }
+,
+  {
+    question: "Does where I live affect the cost of Medigap supplemental insurance?",
+    answer:
+      "Yes. Medigap premiums vary widely by state and even by zip code because each carrier prices based on local claims data, state regulations, and competition. The same Plan G can cost noticeably more in one state than another, which is why comparing rates filed in your specific area matters.",
+  },
+  {
+    question: "Will my Medigap premium go up as I get older?",
+    answer:
+      "It depends on the pricing method. Attained-age-rated policies increase as you age, issue-age-rated policies are based on your age at purchase and only rise with inflation, and community-rated policies charge everyone the same regardless of age. Asking how a plan is rated before enrolling helps you predict long-term costs.",
+  },
+  {
+    question: "Can I switch Medigap plans later if I find a cheaper rate?",
+    answer:
+      "You can apply to switch Medigap plans at any time, but outside your Open Enrollment Period or a guaranteed issue right, carriers can use medical underwriting and deny coverage or charge more. A licensed broker can review your health and state rules to see if switching is realistic before you apply.",
   }
 ];
 

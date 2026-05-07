@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare broker for diabetics | Free Help Finding the Right Plan | MedicareYourself",
   description:
-    "Medicare broker for diabetics — Anthony Orner compares plans for insulin, CGM coverage, and specialist access. Free expert help. Call 855-559-1700.",
+    "Medicare broker for diabetics — compare plans for insulin, CGM coverage, and specialist access. Free expert help from Anthony Orner. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-diabetics" },
   openGraph: {
     title:
@@ -100,6 +100,22 @@ const faqs = [
     question: "Does Medicare cover diabetes self-management training and nutrition counseling?",
     answer:
       "Yes. Medicare Part B covers diabetes self-management training (DSMT) with a doctor's referral and medical nutrition therapy (MNT) for people with diabetes or kidney disease. Many Medicare Advantage plans also offer additional wellness benefits that support diabetes management.",
+  }
+,
+  {
+    question: "Does Medicare cover diabetes self-management training?",
+    answer:
+      "Yes. Medicare Part B covers diabetes self-management training (DSMT) when ordered by your doctor as part of your treatment plan. This training helps you learn how to manage diabetes through diet, exercise, medication, and blood sugar monitoring. A broker can help you identify plans with low or no out-of-pocket cost for these covered services.",
+  },
+  {
+    question: "Are diabetic supplies like test strips and lancets covered by Medicare?",
+    answer:
+      "Yes. Medicare Part B covers blood glucose monitors, test strips, lancets, and control solutions as durable medical equipment when prescribed by your doctor. Coverage amounts and supplier requirements can vary by plan, so a broker can compare which Medicare Advantage plans offer enhanced supply benefits.",
+  },
+  {
+    question: "Can I switch Medicare plans if my diabetes medications change?",
+    answer:
+      "You can typically change Medicare Advantage or Part D plans during the Annual Enrollment Period each fall or during the Medicare Advantage Open Enrollment Period in early spring. Certain life events also trigger Special Enrollment Periods. A broker can review your current medications and recommend a better-fit plan during these windows.",
   }
 ];
 
@@ -352,6 +368,7 @@ export default function MedicareBrokerForDiabetics() {
             </li>
 </ul>
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/coverage/continuous-glucose-monitors" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Continuous Glucose Monitor Coverage</a> and <a href="https://www.medicare.gov/coverage/diabetes-supplies-services" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Diabetes Supplies &amp; Services</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">For free, unbiased counseling, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> or the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a>.</div>
       </section>
     </main>
   );

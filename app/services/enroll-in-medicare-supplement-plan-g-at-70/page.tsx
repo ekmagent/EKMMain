@@ -313,6 +313,7 @@ export default function EnrollInMedicareSupplementPlanGAt70() {
             <div className="text-sm text-gray-600 mt-4">Need free, unbiased counseling? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for one-on-one Medicare guidance in your state.</div>
             <div className="text-sm text-gray-600 mt-4">Need state-level help? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free local Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">Need free, unbiased counseling? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for one-on-one Medicare guidance in your state.</div>
+            <div className="text-sm text-gray-600 mt-4">Need state-specific help? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free local Medicare counseling.</div>
       </section>
       </article>
     </>

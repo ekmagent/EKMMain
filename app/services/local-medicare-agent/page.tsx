@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "local medicare agent | Free Consultation, No Obligation | MedicareYourself",
   description:
-    "Work with a licensed local NJ Medicare agent who compares top carriers at no cost to you. Get unbiased plan guidance from Anthony Orner — call 855-559-1700.",
+    "Meet a licensed local NJ Medicare agent who compares top carriers at no cost. Get unbiased plan guidance from Anthony Orner — call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/local-medicare-agent" },
   openGraph: {
     title:

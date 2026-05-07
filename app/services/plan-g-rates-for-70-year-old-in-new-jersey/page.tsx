@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Plan G Rates for a 70-Year-Old in New Jersey | Free Quote in Minutes | MedicareYourself",
   description:
-    "Compare Plan G rates for 70-year-olds in New Jersey. See how NJ community rating affects pricing and get a free quote from a licensed local broker today.",
+    "Compare Plan G rates for 70-year-olds in New Jersey with a licensed local broker. See how NJ community rating affects pricing — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/plan-g-rates-for-70-year-old-in-new-jersey" },
   openGraph: {
     title:

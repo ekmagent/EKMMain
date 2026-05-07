@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for transplant recipients | Free Coverage Analysis | MedicareYourself",
   description:
-    "Medicare broker for transplant recipients — protect immunosuppressant coverage and avoid gaps. Anthony Orner explains your options. Call 855-559-1700 for a free analysis.",
+    "Medicare broker for transplant recipients — protect immunosuppressant coverage and avoid gaps. Call 855-559-1700 for a free analysis.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-transplant-recipients" },
   openGraph: {
     title:

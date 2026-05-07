@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "How Much Is Plan G in NJ? | Free Rate Comparison by Age | MedicareYourself",
   description:
-    "How much is Plan G in NJ? Compare 2026 Medigap rates by age and zip from every major carrier. Anthony Orner finds your lowest price — free quote.",
+    "How much is Plan G in NJ? Compare 2026 Medigap rates by age and zip from every major carrier. Anthony Orner finds your lowest price — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/how-much-is-plan-g-in-nj" },
   openGraph: {
     title:
@@ -262,6 +262,7 @@ export default function HowMuchIsPlanGInNJ() {
         </ul>
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/health-drug-plans/medigap/basics/costs" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — How Medigap Premiums Are Priced</a> and the <a href="https://www.nj.gov/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also review the <a href="https://www.nj.gov/dobi/division_insurance/managedcare/medsupp.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance Medicare Supplement guide</a> or contact <a href="https://www.nj.gov/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">For free, unbiased Medicare counseling in New Jersey, contact the <a href="https://www.nj.gov/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">New Jersey State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
     </main>
   );

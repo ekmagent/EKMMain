@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "enroll in medicare supplement plan g at 69 | Free Broker Guidance | MedicareYourself",
   description:
-    "Enroll in Medicare Supplement Plan G at 69 with licensed broker help. Compare carriers, navigate underwriting, and apply with confidence. Call 855-559-1700.",
+    "Enroll in Medicare Supplement Plan G at 69 with licensed broker help. Compare carriers, navigate underwriting, and apply confidently — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/enroll-in-medicare-supplement-plan-g-at-69" },
   openGraph: {
     title:
@@ -327,6 +327,7 @@ export default function EnrollInMedicareSupplementPlanGAt69() {
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/health-drug-plans/medigap" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov Medigap overview</a> and <a href="https://www.medicare.gov/health-drug-plans/medigap/basics/when-to-get" rel="noopener noreferrer" target="_blank" className="underline">When to get a Medigap policy</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">For state-specific guidance, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free local Medicare counseling.</div>
       </section>
     </main>
   );

@@ -325,6 +325,17 @@ const faqs = [
     answer:
       "Yes, in many cases. Strategies like Roth conversions before age 63, qualified charitable distributions from IRAs, and managing capital gains can help keep your MAGI below IRMAA thresholds. Because IRMAA uses income from two years prior, planning ahead is essential — speak with a tax professional for personalized guidance.",
   }
+,
+  {
+    question: "How do I appeal an IRMAA determination if my income has dropped?",
+    answer:
+      "You can request a reduction by filing form SSA-44 with the Social Security Administration if you experienced a qualifying life-changing event, such as retirement, marriage, divorce, or the death of a spouse. Submit the form with documentation of the event and your estimated current income to your local SSA office. If you'd like help understanding the process, call 855-559-1700.",
+  },
+  {
+    question: "Is IRMAA a one-time charge or does it continue every year?",
+    answer:
+      "IRMAA is reassessed every year based on your most recent tax return on file with the IRS, which is typically from two years prior. If your income drops below the threshold in a later tax year, your IRMAA surcharge will be removed automatically the following year. You do not need to reapply each year unless you're appealing based on a life-changing event.",
+  }
 ];
 
 export default function IrmaaPage() {

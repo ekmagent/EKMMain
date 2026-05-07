@@ -103,6 +103,17 @@ const faqs = [
     answer:
       "Yes. As a licensed broker, Anthony can compare Medicare Advantage and Part D plans without medical underwriting during valid enrollment windows. Medigap underwriting rules vary by state and timing, so it's important to review your guaranteed-issue rights before applying. Call 855-559-1700 for a free plan review tailored to your CHF care team and medications.",
   }
+,
+  {
+    question: "Does Medicare cover heart failure medications under Part D?",
+    answer:
+      "Most Part D plans cover common heart failure medications, including beta blockers, ACE inhibitors, ARBs, and diuretics. Coverage and tier placement vary by plan formulary, so the same drug can have very different copays from one plan to the next. Anthony can run your medication list against available plans to find the lowest total cost.",
+  },
+  {
+    question: "Why work with a Medicare broker instead of enrolling directly?",
+    answer:
+      "A licensed broker compares plans across multiple carriers at no cost to you, so you see how each option handles cardiac specialists, hospital networks, and your specific medications. Anthony Orner is licensed in NJ and 34 other states and can review your full situation rather than steering you toward a single carrier's plan.",
+  }
 ];
 
 export default function MedicareBrokerCHFPage() {
