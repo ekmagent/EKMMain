@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare enrollment help for people with lupus california | Free Guidance | MedicareYourself",
   description:
-    "Medicare help for Californians with lupus. Compare plans covering rheumatologists, biologics & infusions. Free licensed broker guidance — call 855-559-1700.",
+    "Medicare help for Californians with lupus — compare plans covering rheumatologists, biologics & infusions. Free licensed broker guidance. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-enrollment-help-for-people-with-lupus-california" },
   openGraph: {
     title:
@@ -138,6 +138,22 @@ const faqs = [
     question: "Will Medicare cover lab work needed to monitor my lupus in California?",
     answer:
       "Yes. Medicare Part B covers medically necessary lab tests ordered by your doctor to monitor lupus, including blood work and urinalysis. When the lab accepts Medicare assignment, these diagnostic tests are typically covered. Coverage applies whether you have Original Medicare or a Medicare Advantage plan, though network rules may apply with Advantage.",
+  }
+,
+  {
+    question: "Does Medicare cover lab tests needed to monitor lupus activity?",
+    answer:
+      "Yes. Medicare Part B covers medically necessary diagnostic lab work ordered by your doctor, including blood tests commonly used to monitor lupus such as ANA, complement levels, and kidney function panels. When labs are performed at a Medicare-approved facility and ordered for a covered reason, you typically pay nothing for the test itself.",
+  },
+  {
+    question: "Can I switch Medicare plans if my lupus treatment changes?",
+    answer:
+      "Yes. You can change Medicare Advantage or Part D plans during the Annual Enrollment Period each fall, and the Medicare Advantage Open Enrollment Period in early year. If your plan stops covering a needed biologic or your rheumatologist leaves the network, you may also qualify for a Special Enrollment Period. Call 855-559-1700 to review your options.",
+  },
+  {
+    question: "Will a Medicare Advantage plan in California require referrals to see a rheumatologist?",
+    answer:
+      "It depends on the plan type. HMO plans in California typically require a referral from your primary care doctor before seeing a rheumatologist, while PPO plans usually allow you to see in-network specialists without a referral. Original Medicare with a Medigap policy does not require referrals at all.",
   }
 ];
 
@@ -401,6 +417,7 @@ export default function MedicareEnrollmentHelpLupusCalifornia() {
             <div className="text-sm text-gray-600 mt-2">California residents: Get free local Medicare counseling through <a href="https://aging.ca.gov/hicap/" rel="noopener noreferrer" target="_blank" className="underline">California's Health Insurance Counseling and Advocacy Program (HICAP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">California residents can get free local Medicare counseling through <a href="https://www.aging.ca.gov/HICAP/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">California's Health Insurance Counseling and Advocacy Program (HICAP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">California beneficiaries can get free local Medicare counseling through <a href="https://aging.ca.gov/HICAP/" rel="noopener noreferrer" target="_blank" className="underline">California's Health Insurance Counseling and Advocacy Program (HICAP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">California residents can get free local Medicare counseling through <a href="https://aging.ca.gov/HICAP/" rel="noopener noreferrer" target="_blank" className="underline">California HICAP (Health Insurance Counseling and Advocacy Program)</a>.</div>
       </section>
     </main>
   );

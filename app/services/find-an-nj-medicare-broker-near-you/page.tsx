@@ -90,6 +90,17 @@ const faqs = [
     answer:
       "Most beneficiaries can change Medicare Advantage or Part D plans during the Annual Enrollment Period from October 15 to December 7, with changes effective January 1. There is also a Medicare Advantage Open Enrollment Period from January 1 to March 31. Special Enrollment Periods may apply if you move, lose other coverage, or qualify for Extra Help.",
   }
+,
+  {
+    question: "Do I have to use a New Jersey-based broker for my Medicare plan?",
+    answer:
+      "Your broker must be licensed in New Jersey to sell you a Medicare plan in the state, but they don't have to live in your county. Anthony Orner is licensed statewide in NJ and works with clients by phone, video, or in person. What matters most is that the broker is independent and contracted with the carriers available in your ZIP code.",
+  },
+  {
+    question: "Will a broker help me after I enroll, or only during sign-up?",
+    answer:
+      "A good independent broker stays with you year after year, not just at enrollment. That includes annual plan reviews during the Annual Enrollment Period, help when your prescriptions or doctors change, and support if a claim or billing question comes up. You can call your broker directly instead of waiting on a carrier hotline.",
+  }
 ];
 
 export default function FindNJMedicareBrokerNearYou() {
@@ -373,6 +384,7 @@ export default function FindNJMedicareBrokerNearYou() {
             <div className="text-sm text-gray-600 mt-2">New Jersey residents can also get free Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free Medicare counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a> or contact the <a href="https://www.nj.gov/dobi/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title:
     "How to Enroll in Medicare Online at SSA.gov (Step-by-Step Walkthrough)",
   description:
-    "Step-by-step SSA.gov Medicare enrollment walkthrough — finish in about 10 minutes, avoid Part B penalties. Free broker help: 855-559-1700.",
+    "Step-by-step SSA.gov Medicare enrollment walkthrough — finish in about 10 minutes and avoid Part B penalties. Free broker help at 855-559-1700.",
   alternates: {
     canonical: `${SITE_URL}/learn/ssa-online-enrollment-walkthrough`,
   },
@@ -432,6 +432,22 @@ const steps = [
     question: "Can I change my application after I submit it on SSA.gov?",
     answer:
       "No. Once you agree to the Electronic Signature Agreement and click Submit Now, the application is final and cannot be modified online. If you need to make a correction, you'll have to contact Social Security directly by phone or visit a local SSA office.",
+  }
+,
+  {
+    question: "Do I need to apply for Medicare online if I already get Social Security benefits?",
+    answer:
+      "No. If you are already receiving Social Security or Railroad Retirement benefits when you become eligible for Medicare, you will be automatically enrolled in Part A and Part B. Your Medicare card will arrive in the mail about three months before your 65th birthday.",
+  },
+  {
+    question: "What documents do I need before starting the SSA online application?",
+    answer:
+      "You will need your Social Security number, a valid driver's license or state ID for identity verification through Login.gov or ID.me, and details about any current health insurance, including employer group coverage and employment dates. Having this information ready helps you complete the application in about 10 minutes.",
+  },
+  {
+    question: "Can I delay Part B if I have employer coverage?",
+    answer:
+      "Yes. If you or your spouse are still working and covered by a qualifying employer group health plan, you can delay Part B without a late enrollment penalty and sign up later during a Special Enrollment Period. The SSA application asks about your current coverage so you can indicate this. Call 855-559-1700 if you want help reviewing whether your coverage qualifies.",
   }
 ];
 

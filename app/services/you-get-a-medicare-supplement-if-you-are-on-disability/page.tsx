@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "you get a medicare supplement if you are on disability | Free Guide | MedicareYourself",
   description:
-    "On disability and under 65? Many states guarantee Medigap access for disabled Medicare enrollees. Compare plans free with a licensed broker — call 855-559-1700.",
+    "On disability and under 65? Many states guarantee Medigap access. Compare plans free with a licensed broker — call 855-559-1700 for a no-cost rate review.",
   alternates: { canonical: "https://medicareyourself.com/services/you-get-a-medicare-supplement-if-you-are-on-disability" },
   openGraph: {
     title:
@@ -113,6 +113,17 @@ const faqs = [
     question: "Can I switch from Medicare Advantage to a Medigap plan while on disability?",
     answer:
       "You can try, but approval depends on your state's rules and medical underwriting. Some states offer guaranteed-issue rights for disabled enrollees switching plans, while others let carriers decline coverage based on health history. Call 855-559-1700 and we'll review your specific situation.",
+  }
+,
+  {
+    question: "What happens to my Medigap rates when I turn 65?",
+    answer:
+      "When you turn 65, you get a new Medigap Open Enrollment Period that lasts six months. During this window, you can apply for any Medigap plan in your state at standard age-65 rates without medical underwriting. Many disabled enrollees use this opportunity to switch to a lower-priced plan.",
+  },
+  {
+    question: "Can I be denied a Medigap plan because of my health if I'm under 65?",
+    answer:
+      "In states without guaranteed-issue protections for disabled enrollees, carriers can use medical underwriting and may decline your application based on health history. In states with under-65 Medigap protections, you typically have guaranteed-issue rights during certain windows. Call 855-559-1700 to confirm what applies in your state.",
   }
 ];
 
@@ -360,6 +371,7 @@ export default function MedicareSupplementDisabilityPage() {
             <div className="text-sm text-gray-600 mt-4">For state-specific rules on under-65 Medigap access, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a> for free, unbiased counseling.</div>
             <div className="text-sm text-gray-600 mt-4">For state-specific rules, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a> for free local counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents: see the <a href="https://www.nj.gov/dobi/division_insurance/medsuppunder50/intro.html" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance — Medicare Supplement Under 50 Program</a> for state-specific protections.</div>
+            <div className="text-sm text-gray-600 mt-4">State help: <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Find your local SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling in your state.</div>
       </section>
 
       <p className="text-sm text-gray-500 mt-10">

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "average cost of supplemental health insurance for seniors with medicare | Free Broker Comparison | MedicareYourself",
   description:
-    "Compare 2026 Medigap costs by plan, age, and state — and find your lowest rate from top-rated carriers. Call 855-559-1700 for a free broker comparison.",
+    "Compare 2026 Medigap costs by plan, age, and state and find your lowest rate from top-rated carriers. Call 855-559-1700 for a free broker comparison.",
   alternates: { canonical: "https://medicareyourself.com/services/average-cost-of-supplemental-health-insurance-for-seniors-with-medicare" },
   openGraph: {
     title:
@@ -222,6 +222,22 @@ const faqs = [
     answer:
       "You can apply to switch Medigap plans at any time, but outside your Open Enrollment Period or a guaranteed issue right, carriers can use medical underwriting and deny coverage or charge more. A licensed broker can review your health and state rules to see if switching is realistic before you apply.",
   }
+,
+  {
+    question: "Does where I live affect my Medigap premium?",
+    answer:
+      "Yes. Medigap premiums vary widely by state, county, and even zip code because insurers price based on local claims experience and demographics. The same lettered plan from the same carrier can cost meaningfully more in one area than another, which is why a broker comparison across multiple carriers in your specific zip code matters.",
+  },
+  {
+    question: "Will my Medigap premium go up as I get older?",
+    answer:
+      "It depends on how the carrier prices the policy. Attained-age-rated plans increase as you age, issue-age-rated plans are based on your age at purchase, and community-rated plans charge everyone in an area the same regardless of age. All three types can still rise due to inflation and claims trends.",
+  },
+  {
+    question: "Can I switch Medigap plans later if I find a cheaper rate?",
+    answer:
+      "You can apply to switch Medigap plans at any time, but outside of your Open Enrollment Period or a guaranteed-issue situation, carriers can use medical underwriting and may decline you or charge more for pre-existing conditions. A licensed broker can review whether you qualify before you drop your current coverage.",
+  }
 ];
 
 export default function AverageCostSupplementalInsurancePage() {
@@ -424,6 +440,7 @@ export default function AverageCostSupplementalInsurancePage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Need state-specific help? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free local Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">Need state-specific help? Contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
     </main>
   );

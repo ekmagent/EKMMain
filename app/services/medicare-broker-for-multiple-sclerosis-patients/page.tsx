@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for multiple sclerosis patients | Free Plan Comparison | MedicareYourself",
   description:
-    "Medicare broker for MS patients in NJ. Anthony Orner helps you find plans that cover infusions, MRIs & specialists. Call 855-559-1700 for a free review.",
+    "Medicare broker for MS patients. Anthony Orner finds plans covering infusions, MRIs & neurologists. Call 855-559-1700 for a free plan review.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-multiple-sclerosis-patients" },
   openGraph: {
     title:
@@ -174,6 +174,12 @@ const faqs = [
     question: "Does Medicare cover MRIs needed to monitor MS progression?",
     answer:
       "Yes. Medically necessary MRIs ordered by your doctor to monitor MS are covered under Medicare Part B. With Original Medicare, you'll pay the Part B coinsurance after meeting the deductible, while Medicare Advantage plans may require prior authorization and have different cost-sharing. A Medigap plan can help cover the out-of-pocket Part B costs.",
+  }
+,
+  {
+    question: "Does Medicare cover MRI scans for MS monitoring?",
+    answer:
+      "Yes. Medically necessary MRIs ordered by your doctor to monitor MS progression are covered under Medicare Part B. You'll typically pay coinsurance after meeting the Part B deductible, unless you have a Medigap plan or Medicare Advantage plan that covers cost-sharing differently. Some Medicare Advantage plans require prior authorization for MRIs.",
   }
 ];
 
@@ -391,6 +397,7 @@ export default function MedicareBrokerForMSPatients() {
 </ul>
               <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/basics/get-started-with-medicare" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Get Started with Medicare</a> and <a href="https://www.medicare.gov/health-drug-plans/health-plans/your-coverage-options" rel="noopener noreferrer" target="_blank" className="underline">Your Medicare Coverage Options</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
       </section>
       </article>
     </>

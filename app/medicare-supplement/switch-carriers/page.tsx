@@ -191,6 +191,12 @@ const faqs = [
     answer:
       "No. Always wait until your new Medigap policy is approved and active before cancelling the old one. Most carriers also give you a 30-day free look period to review the new plan, so you can change your mind and keep your original coverage if needed. Your broker can coordinate the effective dates so you are never without protection.",
   }
+,
+  {
+    question: "Will I have to answer health questions when I switch Medigap carriers?",
+    answer:
+      "In most cases, yes. Outside of your 6-month Medigap Open Enrollment Period or a Guaranteed Issue situation, federal law does not give you the right to switch Medigap policies, so carriers can use medical underwriting and ask about your health history. If you qualify for a Guaranteed Issue right — such as your plan leaving the market or losing employer coverage — the new carrier must accept you without health questions. Call 855-559-1700 and we'll review which path applies to you.",
+  }
 ];
 
 export default function SwitchCarriersPage() {
