@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Plan G Rates for a 70-Year-Old in New Jersey | Free Quote in Minutes | MedicareYourself",
   description:
-    "Compare Plan G rates for 70-year-olds in New Jersey with a licensed local broker. See how NJ community rating shapes pricing — call 855-559-1700 today.",
+    "Compare Plan G rates for 70-year-olds in New Jersey with a licensed local broker. See how NJ Medigap pricing works and call 855-559-1700 for a free quote.",
   alternates: { canonical: "https://medicareyourself.com/services/plan-g-rates-for-70-year-old-in-new-jersey" },
   openGraph: {
     title:
@@ -109,6 +109,17 @@ const faqs = [
     question: "Should a 70-year-old in NJ choose Plan G or Plan N?",
     answer:
       "Plan N usually has a lower premium than Plan G but adds small office-visit and ER copays and does not cover Part B excess charges. Plan G offers more predictable out-of-pocket costs once the Part B deductible is met. The right choice depends on how often you see doctors and your tolerance for variable copays — call 855-559-1700 and we'll compare both side by side.",
+  }
+,
+  {
+    question: "Why do Plan G premiums vary so much between carriers in New Jersey?",
+    answer:
+      "Every Medigap Plan G covers the exact same federally standardized benefits, so the only real difference between carriers is price and customer service. Insurance companies set their own premiums based on claims experience, administrative costs, and how they price policies in your area. That's why comparing multiple NJ carriers side by side is so important.",
+  },
+  {
+    question: "Is Plan G worth it for a 70-year-old in New Jersey?",
+    answer:
+      "For most NJ retirees, Plan G offers the most comprehensive coverage available to people newly eligible for Medicare, leaving only the annual Part B deductible as out-of-pocket exposure. It pairs well with Original Medicare and lets you see any provider nationwide that accepts Medicare. Whether it's the best value depends on your health, budget, and how often you use care.",
   }
 ];
 
@@ -351,6 +362,7 @@ export default function PlanGRates70NJ() {
             </li>
 </ul>
               <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/health-drug-plans/medigap" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Compare Medigap policies</a> and the <a href="https://www.nj.gov/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey SHIP (State Health Insurance Assistance Program)</a> for free unbiased counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey resource: <a href="https://www.nj.gov/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> and <a href="https://www.nj.gov/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

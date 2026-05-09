@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "local medicare agents in union city nj | Free Plan Comparison | MedicareYourself",
   description:
-    "Talk to a local Medicare agent in Union City, NJ. Licensed broker Anthony Orner compares Supplement & Advantage plans free — call 855-559-1700 today.",
+    "Local Medicare agents in Union City, NJ — licensed broker Anthony Orner compares Supplement & Advantage plans free. Bilingual help. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/local-medicare-agents-in-union-city-nj" },
   openGraph: {
     title:

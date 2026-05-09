@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for congestive heart failure patients | Free Plan Review | MedicareYourself",
   description:
-    "Medicare broker for CHF patients. Anthony Orner compares plans for cardiac rehab, heart meds & hospital coverage. Free plan review — call 855-559-1700.",
+    "Medicare broker for CHF patients — Anthony Orner compares plans for cardiac rehab, heart meds & hospital coverage. Free plan review. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-congestive-heart-failure-patients" },
   openGraph: {
     title:
@@ -113,6 +113,22 @@ const faqs = [
     question: "Why work with a Medicare broker instead of enrolling directly?",
     answer:
       "A licensed broker compares plans across multiple carriers at no cost to you, so you see how each option handles cardiac specialists, hospital networks, and your specific medications. Anthony Orner is licensed in NJ and 34 other states and can review your full situation rather than steering you toward a single carrier's plan.",
+  }
+,
+  {
+    question: "Does Medicare cover heart failure medications under Part D?",
+    answer:
+      "Yes. Medicare Part D plans cover prescription drugs commonly prescribed for CHF, including ACE inhibitors, beta blockers, diuretics, and SGLT2 inhibitors. Each plan has its own formulary, so the same medication can have very different copays from one plan to another. Anthony reviews your full medication list to find the plan with the lowest total annual cost.",
+  },
+  {
+    question: "Will Medicare pay for a heart failure specialist or cardiologist?",
+    answer:
+      "Original Medicare Part B covers visits to cardiologists and heart failure specialists who accept Medicare assignment. With Medicare Advantage, you typically need to use in-network specialists and may need a referral. This is one reason CHF patients with established care teams often prefer Original Medicare paired with a Medigap plan.",
+  },
+  {
+    question: "Does Medicare cover home health care after a CHF hospitalization?",
+    answer:
+      "Yes. Medicare Part A and Part B cover medically necessary home health services, including skilled nursing visits, physical therapy, and home health aide services, when ordered by your doctor and provided by a Medicare-certified agency. You must be considered homebound and need intermittent skilled care to qualify.",
   }
 ];
 
@@ -336,6 +352,7 @@ export default function MedicareBrokerCHFPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

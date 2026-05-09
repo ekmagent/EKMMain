@@ -155,6 +155,17 @@ const faqs = [
     answer:
       "It depends on the plan type. HMO plans in California typically require a referral from your primary care doctor before seeing a rheumatologist, while PPO plans usually allow you to see in-network specialists without a referral. Original Medicare with a Medigap policy does not require referrals at all.",
   }
+,
+  {
+    question: "Does Medicare cover lab tests needed to monitor lupus activity?",
+    answer:
+      "Yes. Medicare Part B covers medically necessary lab work ordered by your doctor to monitor lupus, including blood counts, kidney function tests, and autoantibody panels. The lab must accept Medicare assignment. A licensed broker can help you compare plans that minimize your cost share for frequent lab monitoring.",
+  },
+  {
+    question: "Can I switch Medicare Advantage plans if my rheumatologist leaves the network?",
+    answer:
+      "You can change Medicare Advantage plans during the Annual Enrollment Period each fall or the Medicare Advantage Open Enrollment Period in early spring. In limited cases, a Special Enrollment Period may apply if your provider leaves the network mid-year. Call 855-559-1700 to review your options.",
+  }
 ];
 
 export default function MedicareEnrollmentHelpLupusCalifornia() {

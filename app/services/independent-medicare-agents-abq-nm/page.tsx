@@ -84,6 +84,22 @@ const faqs = [
     answer:
       "A licensed independent Medicare agent is your best resource. Unlike captive agents tied to one carrier, independent agents compare plans side by side. Unlike the 1-800-MEDICARE helpline, they can give you personalized recommendations based on your doctors, prescriptions, and budget.",
   },
+,
+  {
+    question: "Can an independent Medicare agent in Albuquerque help with both Medicare Advantage and Medigap plans?",
+    answer:
+      "Yes. Licensed independent agents are typically appointed with multiple carriers offering Medicare Advantage, Medicare Supplement (Medigap), and Part D prescription drug plans. That allows them to compare both approaches side by side so you can decide which structure fits your doctors, prescriptions, and budget in the ABQ area.",
+  },
+  {
+    question: "Where can I get free, unbiased Medicare counseling in New Mexico besides an agent?",
+    answer:
+      "New Mexico's State Health Insurance Assistance Program (SHIP), known locally as the Benefits Counseling program through the Aging and Long-Term Services Department, offers free one-on-one Medicare counseling. SHIP counselors are not paid by insurance carriers, so they're a good complement to an independent agent when you want a second opinion.",
+  },
+  {
+    question: "Do independent Medicare agents in ABQ meet with clients in person?",
+    answer:
+      "Many do. Independent agents serving Albuquerque commonly offer in-person consultations, phone appointments, and virtual meetings so you can choose what's most comfortable. In-person visits can be especially helpful when reviewing plan documents, drug formularies, or provider networks together.",
+  }
 ];
 
 export default function IndependentMedicareAgentsABQNM() {

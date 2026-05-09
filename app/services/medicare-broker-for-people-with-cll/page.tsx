@@ -135,6 +135,17 @@ const faqs = [
     answer:
       "Most oral targeted therapies for CLL, including BTK inhibitors and BCL-2 inhibitors, are covered under Medicare Part D rather than Part B. Part B typically covers infused or injected cancer drugs administered in a clinic. Choosing a Part D plan with a strong specialty tier formulary is critical when living with CLL.",
   }
+,
+  {
+    question: "Does Medicare Part B cover a second opinion from a CLL specialist?",
+    answer:
+      "Yes. Medicare Part B covers second opinions from specialists when your doctor recommends surgery or a major treatment decision. For CLL patients considering chemotherapy, BTK inhibitors, or clinical trial enrollment, getting a second opinion from a CLL specialist at a major cancer center is often a smart step. Medicare may also cover a third opinion if the first two differ.",
+  },
+  {
+    question: "Are CLL clinical trials covered by Medicare?",
+    answer:
+      "Medicare covers routine costs of qualifying clinical trials, including office visits, lab work, and standard care that would be covered outside the trial. The investigational drug itself is typically paid for by the trial sponsor. Talk with your oncologist and trial coordinator to confirm what Medicare and any supplemental coverage will pay before enrolling.",
+  }
 ];
 
 export default function MedicareBrokerForPeopleWithCLL() {
@@ -409,6 +420,7 @@ export default function MedicareBrokerForPeopleWithCLL() {
             <div className="text-sm text-gray-600 mt-4">Helpful resources: <a href="https://www.medicare.gov/coverage/chemotherapy" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Medicare.gov — Chemotherapy Coverage</a> and <a href="https://www.medicare.gov/health-drug-plans/medigap/basics/when-to-buy" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Medicare.gov — When to Buy Medigap</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">New Jersey State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">For free, unbiased counseling, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> or the <a href="https://www.nj.gov/dobi/division_insurance/" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a>.</div>
       </section>
     </>
   );

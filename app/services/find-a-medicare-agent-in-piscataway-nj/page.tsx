@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "find a medicare agent in piscataway nj | Free Broker Help | MedicareYourself",
   description:
-    "Find a Medicare agent in Piscataway, NJ who compares rates from every major carrier. Anthony Orner offers free, licensed broker guidance. Call today.",
+    "Find a licensed Medicare agent in Piscataway, NJ who compares every major carrier at no cost. Get unbiased plan help from Anthony Orner — call today.",
   alternates: { canonical: "https://medicareyourself.com/services/find-a-medicare-agent-in-piscataway-nj" },
   openGraph: {
     title:
@@ -304,6 +304,7 @@ export default function FindMedicareAgentPiscatawayNJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

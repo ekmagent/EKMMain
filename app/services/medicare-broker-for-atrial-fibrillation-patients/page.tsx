@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for atrial fibrillation patients | Free Carrier Comparison | MedicareYourself",
   description:
-    "Medicare broker for AFib patients in NJ. Anthony Orner compares plans covering blood thinners, cardiology, and ablation. Free review — call 855-559-1700.",
+    "Medicare broker for AFib patients in NJ. Anthony Orner compares plans covering blood thinners, cardiology, and ablation. Free no-cost review — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-atrial-fibrillation-patients" },
   openGraph: {
     title:
@@ -107,6 +107,12 @@ const faqs = [
     question: "Will my cardiologist accept my Medicare plan?",
     answer:
       "It depends on the plan type. Original Medicare with a Medigap plan is accepted by any provider that accepts Medicare assignment, which gives you the broadest access to cardiologists and electrophysiologists. Medicare Advantage plans use networks, so you'll need to confirm your cardiologist is in-network before enrolling. Anthony can verify your providers before you choose a plan.",
+  }
+,
+  {
+    question: "Will switching Medicare plans affect my current cardiologist relationship?",
+    answer:
+      "It depends on the plan type. Original Medicare with a Medigap plan lets you see any cardiologist who accepts Medicare nationwide. Medicare Advantage plans use provider networks, so you'd need to confirm your cardiologist is in-network before enrolling. Anthony reviews provider directories with you before you make any change.",
   }
 ];
 
@@ -339,6 +345,7 @@ export default function MedicareBrokerForAtrialFibrillationPatients() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
       </section>
       </article>
     </>

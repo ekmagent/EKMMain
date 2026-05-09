@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "free medicare agent that helps with paperwork | Zero Cost Enrollment Help | MedicareYourself",
   description:
-    "Free Medicare agent handles your paperwork — applications, carrier forms, and enrollment done for you at no cost. Call Anthony Orner, licensed NJ broker.",
+    "Free Medicare agent who handles the paperwork for you — applications, carrier forms, and enrollment at zero cost. Call Anthony Orner today at 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/free-medicare-agent-that-helps-with-paperwork" },
   openGraph: {
     title:
@@ -316,6 +316,7 @@ export default function FreeMedicareAgentPaperworkPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also reach the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">Prefer a state-run counselor? New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </main>
   );

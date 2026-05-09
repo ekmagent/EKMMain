@@ -9,7 +9,7 @@ import { MF } from "@/lib/medicare-figures";
 export const metadata: Metadata = {
   title: "How to Enroll in a Medicare Supplement Plan (2026): The 5-Step Guide",
   description:
-    "Enroll in a Medicare Supplement plan in 5 steps and lock in your 6-month guaranteed-issue Medigap window. Call 855-559-1700 for free broker help.",
+    "Enroll in a Medicare Supplement plan in 5 steps and lock in your 6-month guaranteed-issue Medigap window. Call 855-559-1700 to compare every carrier free.",
   alternates: { canonical: `${SITE_URL}/learn/how-to-enroll-in-a-medicare-supplement-plan` },
   openGraph: {
     title: "How to Enroll in a Medicare Supplement Plan (2026): The 5-Step Guide",
@@ -374,6 +374,22 @@ const faqs = [
     question: "What happens if I apply for Medigap after my 6-month Open Enrollment Period ends?",
     answer:
       "Outside your Medigap Open Enrollment Period, carriers in most states can use medical underwriting to deny your application or charge you a higher premium based on your health history. A few states have additional guaranteed-issue protections, but in most cases waiting past this 6-month window can permanently limit your options. Call 855-559-1700 to review the rules in your state before you apply.",
+  }
+,
+  {
+    question: "Do I need both Medicare Part A and Part B to buy a Medigap policy?",
+    answer:
+      "Yes. Generally, you must be enrolled in Original Medicare — both Part A and Part B — before an insurance company can sell you a Medigap policy. If you only have Part A, you'll need to enroll in Part B first through the Social Security Administration.",
+  },
+  {
+    question: "Can my spouse and I share one Medigap policy?",
+    answer:
+      "No. A Medigap policy only covers one person. If you and your spouse both want Medicare Supplement coverage, each of you must apply for and purchase your own separate policy, even if you choose the same plan letter from the same carrier.",
+  },
+  {
+    question: "When is the best time to buy a Medicare Supplement plan?",
+    answer:
+      "The best time to buy is during your 6-month Medigap Open Enrollment Period, which starts the first month you have Part B and are 65 or older. During this one-time window, carriers cannot deny you coverage or charge more based on your health. Call 855-559-1700 to compare carriers before your window closes.",
   }
 ];
 

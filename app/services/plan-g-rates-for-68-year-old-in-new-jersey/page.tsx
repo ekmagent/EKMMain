@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Plan G Rates for a 68-Year-Old in New Jersey | Free Carrier Comparison | MedicareYourself",
   description:
-    "Compare Plan G rates for a 68-year-old in NJ across top carriers. Same coverage, different premiums — call 855-559-1700 for a free side-by-side quote.",
+    "Compare Plan G rates for a 68-year-old in NJ across top carriers. Same coverage, lower premium possible — call 855-559-1700 for a free side-by-side quote.",
   alternates: { canonical: "https://medicareyourself.com/services/plan-g-rates-for-68-year-old-in-new-jersey" },
   openGraph: {
     title:
@@ -110,6 +110,22 @@ const faqs = [
     question: "Will my Plan G premium go up each year in New Jersey?",
     answer:
       "Most Medigap premiums adjust over time due to medical inflation and claims experience, even under community rating. New Jersey's community-rated approach means premiums aren't based on your individual age, but carriers can still file rate increases with the state. Reviewing your rate annually helps ensure you're not overpaying for identical coverage.",
+  }
+,
+  {
+    question: "When is the best time for a 68-year-old in NJ to enroll in Plan G?",
+    answer:
+      "The strongest enrollment window is your 6-month Medigap Open Enrollment Period, which begins when you're 65 or older and enrolled in Part B. During that window, carriers cannot deny you or charge more for health reasons. If you're already past that window, New Jersey's birthday rule and certain federal guaranteed issue situations may still let you switch without full underwriting.",
+  },
+  {
+    question: "What does Plan G cover for a 68-year-old in New Jersey?",
+    answer:
+      "Plan G covers everything Original Medicare leaves behind except the Part B deductible. That includes the Part A deductible, hospital coinsurance, skilled nursing coinsurance, Part B coinsurance, and excess charges. Once you meet the Part B deductible for the year, Plan G typically leaves you with no out-of-pocket costs for Medicare-approved services.",
+  },
+  {
+    question: "Should I work with a broker to compare Plan G rates in NJ?",
+    answer:
+      "Comparing carriers on your own is possible, but a licensed independent broker can run side-by-side quotes from multiple companies in minutes at no cost to you. Since every Plan G policy provides identical benefits, the goal is finding the lowest premium with a stable rate history. Call 855-559-1700 to request a free NJ Plan G comparison from Anthony Orner.",
   }
 ];
 
@@ -375,6 +391,7 @@ export default function PlanGRates68NJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free one-on-one counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can review carrier rate charts and consumer guides from the <a href="https://www.nj.gov/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey resources: <a href="https://www.nj.gov/dobi/division_insurance/managedcare/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking & Insurance</a> · <a href="https://www.nj.gov/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a></div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey resources: <a href="https://www.nj.gov/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
       </section>
       </article>
     </>

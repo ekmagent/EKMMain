@@ -7,7 +7,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Medicare Education Guides | MedicareYourself",
   description:
-    "Free Medicare guides from a licensed broker — Parts A-D, Medigap, enrollment timing, IRMAA, and low-income help in plain English. Call 855-559-1700.",
+    "Free Medicare guides from a licensed broker — Parts A-D, Medigap, enrollment timing, IRMAA, and low-income help in plain English. Call 855-559-1700 today.",
   alternates: { canonical: `${SITE_URL}/learn` },
   openGraph: {
     title: "Medicare Education Guides | MedicareYourself",
@@ -138,6 +138,12 @@ const GUIDES = [
     answer:
       "Yes, but only during certain enrollment windows. The Annual Enrollment Period each fall lets you change Medicare Advantage and Part D plans, and there are separate windows for Medigap and special situations like moving or losing other coverage. Our guide on Medicare enrollment periods explains the timing, or call 855-559-1700 for help.",
   }
+,
+  {
+    question: "How do I know if Medigap or Medicare Advantage is right for me?",
+    answer:
+      "It depends on how you value flexibility versus lower upfront premiums. Medigap paired with Original Medicare and a Part D plan lets you see any provider that accepts Medicare and tends to have predictable out-of-pocket costs, while Medicare Advantage usually has lower premiums but uses networks and prior authorization. The best fit depends on your doctors, prescriptions, travel habits, and budget. Call 855-559-1700 for a side-by-side comparison.",
+  }
 ];
 
 export default function LearnHubPage() {
@@ -231,6 +237,7 @@ export default function LearnHubPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">For free local counseling, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">For free one-on-one Medicare counseling in your state, contact your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </>
   );

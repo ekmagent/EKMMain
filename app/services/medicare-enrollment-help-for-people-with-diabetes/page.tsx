@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare Enrollment Help for People With Diabetes | Free Guidance | MedicareYourself",
   description:
-    "Medicare enrollment help for people with diabetes—find plans covering insulin, CGMs & supplies, even with pre-existing conditions. Call 855-559-1700 for free guidance.",
+    "Medicare enrollment help for people with diabetes—find plans covering insulin, CGMs & supplies. Call 855-559-1700 for free guidance.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-enrollment-help-for-people-with-diabetes" },
   openGraph: {
     title:
@@ -188,6 +188,12 @@ const faqs = [
     question: "Does Medicare pay for diabetes self-management training?",
     answer:
       "Yes. Medicare Part B covers Diabetes Self-Management Training (DSMT) for beneficiaries who have been diagnosed with diabetes, when ordered by a doctor as part of your treatment plan. The program teaches you how to manage blood sugar, plan meals, and reduce risks of complications. Medical nutrition therapy is also covered for people with diabetes or kidney disease.",
+  }
+,
+  {
+    question: "Does Medicare cover the Medicare Diabetes Prevention Program?",
+    answer:
+      "Yes. Medicare Part B covers the Medicare Diabetes Prevention Program for eligible beneficiaries at risk of type 2 diabetes, and you pay nothing if you qualify. The program offers training to help you make lasting diet and exercise changes. You can find a program near you or attend online through medicare.gov.",
   }
 ];
 

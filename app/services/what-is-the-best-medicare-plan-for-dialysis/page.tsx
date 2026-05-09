@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "what is the best medicare plan for dialysis? | Free Broker Consultation | MedicareYourself",
   description:
-    "What is the best Medicare plan for dialysis? Compare Medigap vs. Advantage for ESRD coverage, networks, and out-of-pocket caps. Free help: 855-559-1700.",
+    "What is the best Medicare plan for dialysis? Compare Medigap and Advantage for ESRD coverage, networks, and cost caps. Free broker help: 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/what-is-the-best-medicare-plan-for-dialysis" },
   openGraph: {
     title:

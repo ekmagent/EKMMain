@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "How to Sign Up for Medicare (2026 Guide)",
   description:
-    "2026 Medicare sign-up guide: when to enroll, how to apply at SSA.gov, and how to avoid Part B late penalties. Free broker help — call 855-559-1700.",
+    "2026 Medicare sign-up guide: enrollment windows, how to apply at SSA.gov, and how to avoid Part B late penalties. Free broker help — call 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/how-to-sign-up-for-medicare` },
   openGraph: {
     title: "How to Sign Up for Medicare (2026 Guide)",
@@ -342,6 +342,22 @@ const faqs = [
     question: "What happens if I miss my Medicare enrollment deadline?",
     answer:
       "If you miss your Initial Enrollment Period and do not qualify for a Special Enrollment Period, you may have to wait for the General Enrollment Period to sign up for Part B. You may also owe a permanent Part B late enrollment penalty that is added to your monthly premium for as long as you have Medicare. Call 855-559-1700 if you're unsure which window applies to you.",
+  }
+,
+  {
+    question: "Will I be automatically enrolled in Medicare at 65?",
+    answer:
+      "If you are already receiving Social Security or Railroad Retirement Board benefits before age 65, you will be automatically enrolled in Medicare Part A and Part B starting the month you turn 65. Your red, white, and blue Medicare card will arrive in the mail about three months before your birthday month. If you are not yet collecting those benefits, you must sign up yourself through SSA.gov.",
+  },
+  {
+    question: "How do I apply for Medicare if I am not getting Social Security yet?",
+    answer:
+      "You can apply online at ssa.gov/medicare, and the application typically takes about 10 minutes to complete. You may also apply by calling Social Security or by visiting your local Social Security office. The earliest you can apply is three months before the month you turn 65.",
+  },
+  {
+    question: "What happens if I miss my Medicare Initial Enrollment Period?",
+    answer:
+      "If you miss your Initial Enrollment Period and do not qualify for a Special Enrollment Period, you will need to wait for the General Enrollment Period (January 1 – March 31) to sign up. You may also owe a permanent Part B late enrollment penalty that increases the longer you go without coverage. Call 855-559-1700 if you are unsure which enrollment window applies to you.",
   }
 ];
 

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "quickest way to enroll into plan n | Same-Day Application | MedicareYourself",
   description:
-    "Quickest way to enroll in Plan N? A licensed broker can complete most applications in under 15 minutes. Call 855-559-1700 for a same-day quote.",
+    "Quickest way to enroll in Medigap Plan N? A licensed broker can finish most applications in under 15 minutes. Call 855-559-1700 for a same-day quote.",
   alternates: { canonical: "https://medicareyourself.com/services/quickest-way-to-enroll-into-plan-n" },
   openGraph: {
     title:
@@ -306,6 +306,7 @@ export default function QuickestWayToEnrollIntoPlanN() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">Need free, unbiased help in your state? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for one-on-one Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or the <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
       </article>
     </>

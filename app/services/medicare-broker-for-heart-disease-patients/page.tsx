@@ -151,6 +151,22 @@ const faqs = [
     answer:
       "Most heart medications including statins, blood thinners, beta blockers, and ACE inhibitors are covered under Medicare Part D prescription drug plans. However, formularies and tier placement vary significantly between plans, so a drug that's affordable on one plan may be costly on another. A broker can run your specific medication list against available plans to find the lowest total annual cost.",
   }
+,
+  {
+    question: "Will my cardiologist accept the Medicare plan I choose?",
+    answer:
+      "With Original Medicare, any cardiologist who accepts Medicare assignment will see you, which is most cardiologists nationwide. With Medicare Advantage, your cardiologist must be in the plan's network, so always confirm before enrolling. A broker can verify your specific doctors against each plan's network before you make a decision.",
+  },
+  {
+    question: "Are heart medications like blood thinners and statins covered by Medicare?",
+    answer:
+      "Yes, prescription drugs including blood thinners, statins, beta blockers, and ACE inhibitors are covered under Medicare Part D or through a Medicare Advantage plan that includes drug coverage. Each plan has its own formulary, so the same medication may have different copays depending on the plan. We compare formularies to find the lowest total cost for your specific heart medications.",
+  },
+  {
+    question: "Does Medicare cover heart procedures like stents, bypass surgery, or pacemakers?",
+    answer:
+      "Yes. Medicare Part A covers inpatient hospital stays for procedures like coronary artery bypass surgery and pacemaker implantation, while Part B covers outpatient procedures and follow-up care. Your out-of-pocket costs depend on whether you have a Medigap supplement or a Medicare Advantage plan with its own cost-sharing structure.",
+  }
 ];
 
 export default function MedicareBrokerHeartDiseasePatients() {

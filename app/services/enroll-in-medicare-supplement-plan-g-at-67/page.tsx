@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Enroll in Medicare Supplement Plan G at 67 | Free Rate Quote | MedicareYourself",
   description:
-    "Enroll in Medicare Supplement Plan G at 67 — learn about guaranteed issue rights, underwriting, and real rates. Anthony Orner walks you through it. Free quote.",
+    "Enrolling in Medicare Supplement Plan G at 67? Learn underwriting rules, guaranteed issue rights, and how to lock in a fair rate. Call 855-559-1700 for a free quote.",
   alternates: { canonical: "https://medicareyourself.com/services/enroll-in-medicare-supplement-plan-g-at-67" },
   openGraph: {
     title:
@@ -330,6 +330,7 @@ export default function EnrollInMedicareSupplementPlanGAt67() {
               <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/health-drug-plans/medigap/ready-to-buy" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Get Ready to Buy Medigap</a> and <a href="https://www.medicare.gov/health-drug-plans/medigap/basics/costs" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Medigap Costs</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/division_consumers/insurance/ship.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
       </section>
       </article>
     </>

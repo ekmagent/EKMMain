@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare agent near me | Free Local Broker Help, No Obligation | MedicareYourself",
   description:
-    "Medicare agent near me — compare 30+ carriers free with licensed broker Anthony Orner. Phone, video, or in-person help. Call 855-559-1700 today.",
+    "Find a licensed Medicare agent near you. Independent broker Anthony Orner compares 30+ carriers free—phone, video, or in person. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-agent-near-me" },
   openGraph: {
     title:
@@ -320,6 +320,7 @@ export default function MedicareAgentNearMePage() {
             <div className="text-sm text-gray-600 mt-2">Free unbiased counseling is also available through <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" target="_blank" rel="noopener noreferrer" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">Free local counseling is also available through <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

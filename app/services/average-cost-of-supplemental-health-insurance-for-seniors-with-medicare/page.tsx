@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "average cost of supplemental health insurance for seniors with medicare | Free Broker Comparison | MedicareYourself",
   description:
-    "Compare 2026 Medigap costs by plan, age, and state and find your lowest rate from top-rated carriers. Call 855-559-1700 for a free broker comparison.",
+    "See what supplemental health insurance costs seniors on Medicare in 2026 by plan, age, and state. Compare top carriers free — call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/average-cost-of-supplemental-health-insurance-for-seniors-with-medicare" },
   openGraph: {
     title:
@@ -238,6 +238,17 @@ const faqs = [
     answer:
       "You can apply to switch Medigap plans at any time, but outside of your Open Enrollment Period or a guaranteed-issue situation, carriers can use medical underwriting and may decline you or charge more for pre-existing conditions. A licensed broker can review whether you qualify before you drop your current coverage.",
   }
+,
+  {
+    question: "Does where I live affect how much I pay for a Medigap plan?",
+    answer:
+      "Yes. Medicare.gov confirms Medigap premiums vary widely based on the insurance company, the plan, and where you live. Two people in different zip codes can pay very different rates for the exact same lettered plan. That's why comparing carriers licensed in your state is the most reliable way to find the lowest rate.",
+  },
+  {
+    question: "Are the benefits different if I pick a cheaper Medigap carrier?",
+    answer:
+      "No. Per Medicare.gov, the benefits in each lettered Medigap plan are standardized and identical no matter which insurance company sells it. Plan G from one carrier covers the exact same gaps as Plan G from another carrier. Price is the main difference, so shopping carriers can save you money for the same coverage.",
+  }
 ];
 
 export default function AverageCostSupplementalInsurancePage() {
@@ -441,6 +452,7 @@ export default function AverageCostSupplementalInsurancePage() {
             <div className="text-sm text-gray-600 mt-4">Need state-specific help? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free local Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">Need state-specific help? Contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">Need state-specific help? Contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> or your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">SHIP counselor</a> for free Medicare counseling.</div>
       </section>
     </main>
   );

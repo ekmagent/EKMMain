@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for kidney disease patients | Free Coverage Review | MedicareYourself",
   description:
-    "Kidney disease Medicare help from a licensed broker. Compare ESRD, dialysis, and transplant coverage at no cost. Call 855-559-1700 for a free review.",
+    "Kidney disease Medicare broker help — compare ESRD, dialysis, and transplant coverage at no cost. Avoid enrollment mistakes. Call 855-559-1700 for a free review.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-kidney-disease-patients" },
   openGraph: {
     title:
@@ -113,6 +113,12 @@ const faqs = [
     question: "Does Medicare cover dialysis at home?",
     answer:
       "Yes. Medicare Part B covers home dialysis training, equipment, and supplies for eligible patients, as well as in-center dialysis treatments. Some support services, like a home dialysis aide, are not covered by Medicare. Your nephrologist and dialysis team can help determine whether home dialysis is appropriate for you.",
+  }
+,
+  {
+    question: "When should I enroll in Medicare if I'm starting dialysis?",
+    answer:
+      "Medicare eligibility based on ESRD typically begins the fourth month of regular outpatient dialysis. If you complete a home dialysis training program or receive a kidney transplant, coverage can start sooner. It's wise to apply through Social Security as soon as your nephrologist confirms a treatment plan so you don't miss enrollment windows.",
   }
 ];
 

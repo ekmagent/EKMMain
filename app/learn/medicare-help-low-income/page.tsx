@@ -207,6 +207,22 @@ const programs = [
     answer:
       "Yes — in a good way. If you qualify for QMB, SLMB, or QI, the state pays your Part B premium, which means it is no longer deducted from your Social Security benefit. That can increase your monthly Social Security deposit. The programs do not reduce your Social Security retirement or disability benefit itself.",
   }
+,
+  {
+    question: "How do I apply for a Medicare Savings Program?",
+    answer:
+      "You apply through your state Medicaid office, not through Medicare directly. Each state determines which of the four programs (QMB, SLMB, QI, or QDWI) you qualify for based on your income and resources. Medicare.gov recommends applying even if you're unsure whether you qualify, because limits vary by state and some states have higher thresholds or no asset test.",
+  },
+  {
+    question: "Where do I apply for Extra Help with prescription drug costs?",
+    answer:
+      "Extra Help is administered by the Social Security Administration. You can apply online at ssa.gov/medicare/part-d-extra-help, by calling Social Security at 1-800-772-1213, or in person at your local Social Security office. If you already qualify for Medicaid, SSI, or a Medicare Savings Program, you are automatically enrolled in Extra Help.",
+  },
+  {
+    question: "Will applying for these programs affect my other benefits?",
+    answer:
+      "No. Qualifying for a Medicare Savings Program or Extra Help does not reduce your Social Security check, Medicare coverage, or other federal benefits. In fact, if your state pays your Part B premium through an MSP, your Social Security check may actually increase because the premium is no longer deducted. Call 855-559-1700 if you'd like help reviewing your options.",
+  }
 ];
 
 export default function LowIncomeMedicarePage() {

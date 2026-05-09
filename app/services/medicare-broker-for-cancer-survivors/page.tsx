@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for cancer survivors | Free Coverage Review | MedicareYourself",
   description:
-    "Medicare broker for cancer survivors navigating post-treatment coverage — scans, oncology visits, prescriptions. Anthony Orner reviews your plan for free.",
+    "Medicare broker for cancer survivors — get help with oncology coverage, scans, and Part D drug plans. Free plan review with Anthony Orner. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-cancer-survivors" },
   openGraph: {
     title:

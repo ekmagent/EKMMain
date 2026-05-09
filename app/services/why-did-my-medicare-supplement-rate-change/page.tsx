@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Why Did My Medicare Supplement Rate Change? | Free Rate Review | MedicareYourself",
   description:
-    "Why did your Medicare supplement rate change? Learn the 3 pricing factors and get a free rate review from Anthony Orner. Call 855-559-1700 today.",
+    "Medicare supplement rate jump? Learn the 3 pricing factors behind every increase and get a free rate review from Anthony Orner. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/why-did-my-medicare-supplement-rate-change" },
   openGraph: {
     title:
@@ -94,6 +94,22 @@ const faqs = [
     question: "Should I switch carriers after a rate increase?",
     answer:
       "Switching can lower your premium if you qualify medically or through a guaranteed issue right, but a lower introductory rate from a new carrier may not stay low. It is worth comparing current filed rates, the carrier's history of increases, and whether you would need to pass underwriting before making a change. A free rate review can show whether switching actually saves money long-term.",
+  }
+,
+  {
+    question: "Should I shop my Medicare supplement plan every year?",
+    answer:
+      "Yes, an annual rate review is one of the smartest habits a Medigap policyholder can build. Because Plan G and Plan N benefits are standardized by Medicare, comparing carriers means comparing premiums and rate stability for identical coverage. A licensed broker can run a side-by-side review at no cost to you.",
+  },
+  {
+    question: "Will my rate go down if I lose weight or improve my health?",
+    answer:
+      "No. Medicare supplement premiums are based on pricing model, age, gender, tobacco use, and zip code, not on your current health status once the policy is in force. Health only matters when you apply and go through medical underwriting to switch plans outside a guaranteed issue window.",
+  },
+  {
+    question: "Can my carrier single me out for a rate increase?",
+    answer:
+      "No. Rate adjustments must be filed with the state insurance department and apply to an entire block of policyholders, not to individuals. If your premium went up, every person in your same plan, age band, and rating class received the same increase.",
   }
 ];
 
@@ -374,6 +390,7 @@ export default function WhyDidMyMedicareSupplementRateChange() {
 </ul>
               <div className="text-sm text-gray-600 mt-4">Official references: <a href="https://www.medicare.gov/health-drug-plans/medigap/basics/costs" rel="noopener noreferrer" target="_blank" className="text-blue-700 hover:underline">Medicare.gov — How Medigap policies are priced</a> and <a href="https://www.medicare.gov/health-drug-plans/medigap/basics/when-to-get" rel="noopener noreferrer" target="_blank" className="text-blue-700 hover:underline">Medicare.gov — When to get a Medigap policy</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify carrier rate filings and consumer protections through the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-700 hover:underline">NJ Department of Banking and Insurance</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">NJ residents can verify carrier rate filings with the <a href="https://www.state.nj.us/dobi/division_insurance/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> or get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP</a>.</div>
       </section>
       </article>
     </>

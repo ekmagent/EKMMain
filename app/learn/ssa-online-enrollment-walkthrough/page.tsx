@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title:
     "How to Enroll in Medicare Online at SSA.gov (Step-by-Step Walkthrough)",
   description:
-    "Step-by-step SSA.gov Medicare enrollment walkthrough — finish in about 10 minutes and avoid Part B penalties. Free broker help at 855-559-1700.",
+    "Step-by-step SSA.gov Medicare enrollment walkthrough — finish in about 10 minutes, avoid Part B late penalties. Free broker help at 855-559-1700.",
   alternates: {
     canonical: `${SITE_URL}/learn/ssa-online-enrollment-walkthrough`,
   },
@@ -448,6 +448,22 @@ const steps = [
     question: "Can I delay Part B if I have employer coverage?",
     answer:
       "Yes. If you or your spouse are still working and covered by a qualifying employer group health plan, you can delay Part B without a late enrollment penalty and sign up later during a Special Enrollment Period. The SSA application asks about your current coverage so you can indicate this. Call 855-559-1700 if you want help reviewing whether your coverage qualifies.",
+  }
+,
+  {
+    question: "How long does the SSA online Medicare application take to complete?",
+    answer:
+      "Most people finish the SSA.gov Medicare application in about 10 minutes if they have their documents ready. You'll need your Social Security number, a driver's license or state ID for identity verification, and details about any current health insurance coverage.",
+  },
+  {
+    question: "Can I apply for Medicare online if I'm not ready to start Social Security retirement benefits?",
+    answer:
+      "Yes. The SSA application lets you apply for Medicare only without filing for retirement benefits. During the application, you'll be asked specifically whether you want Medicare only or both Medicare and retirement benefits.",
+  },
+  {
+    question: "What if I make a mistake on my Medicare application after submitting?",
+    answer:
+      "You cannot modify the application after clicking Submit Now. If you notice an error, contact the Social Security Administration directly to correct your record. For help reviewing your enrollment before you submit, call our office at 855-559-1700.",
   }
 ];
 

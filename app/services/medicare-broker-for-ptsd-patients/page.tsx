@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for PTSD patients | Free Mental Health Plan Review | MedicareYourself",
   description:
-    "Medicare broker for PTSD patients — find NJ plans covering trauma therapy, prescriptions, and telehealth. Anthony Orner compares your options for free.",
+    "Medicare broker for PTSD patients — compare NJ plans covering trauma therapy, psychiatric meds, and telehealth. Free help from Anthony Orner. Call today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-ptsd-patients" },
   openGraph: {
     title:

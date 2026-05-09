@@ -310,6 +310,7 @@ export default function MedicareBrokerForTransplantRecipients() {
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/coverage/organ-transplants" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Organ Transplant Coverage</a> and <a href="https://www.medicare.gov/coverage/immunosuppressive-drugs" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Immunosuppressive Drug Coverage (Part B-ID)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
       </section>
     </main>
   );
