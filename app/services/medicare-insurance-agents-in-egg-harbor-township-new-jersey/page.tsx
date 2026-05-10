@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare insurance agents in egg harbor township new jersey | Free Quotes | MedicareYourself",
   description:
-    "Talk to a licensed Medicare broker serving Egg Harbor Township, NJ. Compare every top carrier free of charge — call 855-559-1700 for unbiased plan help.",
+    "Compare every top Medicare carrier with a licensed broker serving Egg Harbor Township, NJ. Free, unbiased plan help — call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-insurance-agents-in-egg-harbor-township-new-jersey" },
   openGraph: {
     title:

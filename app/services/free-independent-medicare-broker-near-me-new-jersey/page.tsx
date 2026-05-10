@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "free independent medicare broker near me new jersey | Free Quote | MedicareYourself",
   description:
-    "Work with a free independent NJ Medicare broker. Anthony Orner compares Medigap & Advantage plans from top carriers — no fees. Call 855-559-1700 today.",
+    "Work with a free independent NJ Medicare broker. Anthony Orner compares Medigap & Advantage plans from top carriers at no cost. Call 855-559-1700 for a free quote.",
   alternates: { canonical: "https://medicareyourself.com/services/free-independent-medicare-broker-near-me-new-jersey" },
   openGraph: {
     title:
@@ -89,6 +89,22 @@ const faqs = [
     question: "Does an independent broker in New Jersey work with both Medigap and Medicare Advantage plans?",
     answer:
       "Yes. An independent broker licensed in New Jersey can present both Medigap (Medicare Supplement) plans and Medicare Advantage plans from multiple carriers. That allows you to compare the two approaches side by side based on your doctors, prescriptions, travel needs, and budget before deciding.",
+  }
+,
+  {
+    question: "Does New Jersey use community rating for Medigap premiums?",
+    answer:
+      "Yes. New Jersey is a community-rated state for Medicare Supplement (Medigap) plans, which means carriers cannot charge you a higher premium based on your age. Everyone enrolled in the same plan with the same carrier pays the same base rate, though premiums can still change over time due to overall rate adjustments.",
+  },
+  {
+    question: "When can I enroll in a Medigap plan in New Jersey?",
+    answer:
+      "Your best window is the 6-month Medigap Open Enrollment Period, which begins the month you are 65 or older and enrolled in Part B. During that window, you have guaranteed issue rights and cannot be turned down or charged more for health reasons. Outside that window, medical underwriting may apply unless you qualify for a specific guaranteed issue situation.",
+  },
+  {
+    question: "Will a free broker still help me after I enroll?",
+    answer:
+      "Yes. Anthony Orner provides ongoing support after enrollment, including help with claims questions, plan reviews each year during the Annual Enrollment Period, and guidance if your doctors, prescriptions, or budget change. There is no additional cost for this continued service.",
   }
 ];
 
@@ -278,6 +294,7 @@ export default function FreeIndependentMedicareBrokerNearMeNewJersey() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> or verify a broker's license with the <a href="https://www.state.nj.us/dobi/division_insurance/" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </main>

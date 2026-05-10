@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for congestive heart failure patients | Free Plan Review | MedicareYourself",
   description:
-    "Medicare broker for CHF patients — Anthony Orner compares plans for cardiac rehab, heart meds & hospital coverage. Free plan review. Call 855-559-1700.",
+    "Medicare broker for CHF patients — Anthony Orner finds plans covering cardiac rehab, heart meds & hospital stays. Free plan review. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-congestive-heart-failure-patients" },
   openGraph: {
     title:
@@ -129,6 +129,22 @@ const faqs = [
     question: "Does Medicare cover home health care after a CHF hospitalization?",
     answer:
       "Yes. Medicare Part A and Part B cover medically necessary home health services, including skilled nursing visits, physical therapy, and home health aide services, when ordered by your doctor and provided by a Medicare-certified agency. You must be considered homebound and need intermittent skilled care to qualify.",
+  }
+,
+  {
+    question: "Does Medicare cover heart failure medications under Part D?",
+    answer:
+      "Yes. Medicare Part D plans cover most prescription medications used to treat congestive heart failure, including ACE inhibitors, beta-blockers, and diuretics. Coverage and copays vary by plan formulary, so it's important to compare drug lists before enrolling. Anthony can run your medication list against available plans to find the lowest total cost.",
+  },
+  {
+    question: "Will a Medicare Advantage plan require referrals to see a cardiologist?",
+    answer:
+      "It depends on the plan type. HMO Medicare Advantage plans often require a referral from your primary care doctor before seeing a cardiologist, while PPO plans typically allow direct specialist access at higher cost. Original Medicare with a Medigap plan does not require referrals to see any Medicare-accepting cardiologist.",
+  },
+  {
+    question: "Can I keep my cardiologist if I switch Medicare plans?",
+    answer:
+      "If you have Original Medicare with a Medigap plan, you can see any provider who accepts Medicare nationwide. Medicare Advantage plans use provider networks, so you'll need to confirm your cardiologist is in-network before enrolling. Anthony verifies provider participation as part of every plan review.",
   }
 ];
 
@@ -353,6 +369,7 @@ export default function MedicareBrokerCHFPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
       </section>
     </main>
   );

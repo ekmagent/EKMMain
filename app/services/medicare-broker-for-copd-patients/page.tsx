@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for COPD patients | Free Plan Review | MedicareYourself",
   description:
-    "Medicare broker for COPD patients — compare plans covering inhalers, oxygen, and pulmonary rehab. Free review with Anthony Orner. Call 855-559-1700.",
+    "Medicare broker for COPD patients — compare plans covering inhalers, oxygen & pulmonary rehab. Free review with Anthony Orner. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-copd-patients" },
   openGraph: {
     title:
@@ -119,6 +119,22 @@ const faqs = [
     question: "Can I switch Medicare plans if my COPD treatment changes?",
     answer:
       "Yes. You can change Medicare Advantage or Part D plans during the Annual Enrollment Period each fall, and the Medicare Advantage Open Enrollment Period runs from January through March. You may also qualify for a Special Enrollment Period if you move, lose other coverage, or qualify for Extra Help. Call 855-559-1700 to review whether your current plan still fits your treatment plan.",
+  }
+,
+  {
+    question: "Does Medicare cover pulmonary rehabilitation for COPD?",
+    answer:
+      "Yes. Medicare Part B covers pulmonary rehabilitation programs for beneficiaries with moderate to very severe COPD when referred by the doctor treating the condition. Coverage includes exercise training, education, and psychosocial support delivered by a qualified program. After meeting the Part B deductible, you typically pay coinsurance for each session.",
+  },
+  {
+    question: "Are COPD inhalers covered under Medicare Part B or Part D?",
+    answer:
+      "Most maintenance and rescue inhalers fall under Part D prescription drug coverage, while nebulizer medications used with durable medical equipment are generally covered under Part B. Formularies, tiers, and copays differ by plan, so the same inhaler can cost very different amounts depending on which Part D or Medicare Advantage plan you choose. A broker review can flag plans that place your specific inhalers on lower tiers.",
+  },
+  {
+    question: "Can I switch Medicare plans if my COPD treatment changes?",
+    answer:
+      "You can change Medicare Advantage and Part D plans during the Annual Enrollment Period each fall, and during the Medicare Advantage Open Enrollment Period in early spring. Certain life events, such as moving or losing other coverage, can trigger a Special Enrollment Period. If your pulmonologist changes your inhaler regimen, it is worth reviewing whether your current plan still offers the best coverage.",
   }
 ];
 
@@ -382,6 +398,7 @@ export default function MedicareBrokerForCOPDPatients() {
             <div className="text-sm text-gray-600 mt-4">Need state-specific help? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">For free, unbiased counseling in your state, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

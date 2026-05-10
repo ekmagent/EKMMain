@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare specialists in cranford, nj office | Free Local Help | MedicareYourself",
   description:
-    "Medicare specialists in Cranford, NJ — licensed broker Anthony Orner compares Medigap, Advantage & Part D plans across carriers. Free local help. Call today.",
+    "Medicare specialists in Cranford, NJ — broker Anthony Orner compares Medigap, Advantage & Part D across carriers. Free local help. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-specialists-in-cranford-nj-office" },
   openGraph: {
     title:
@@ -84,6 +84,22 @@ const faqs = [
     answer:
       "If you're interested in a Medigap plan, apply about 6 months before your Part B start date. Your Medigap Open Enrollment Period is the 6 months starting the month you turn 65 and are enrolled in Part B. During this window, carriers can't deny you or charge more based on health history.",
   },
+,
+  {
+    question: "Can a Cranford Medicare broker help me switch plans during the Annual Enrollment Period?",
+    answer:
+      "Yes. The Medicare Annual Enrollment Period runs from October 15 through December 7 each year. During this window, you can switch Medicare Advantage plans, change Part D prescription drug plans, or move between Original Medicare and Medicare Advantage. A licensed broker can review your current coverage and compare alternatives across multiple carriers at no cost.",
+  },
+  {
+    question: "Do I need to live in Cranford to work with Anthony Orner?",
+    answer:
+      "No. Anthony Orner is licensed in New Jersey and 34 additional states, so residents throughout Union County and beyond can get help. Consultations are available by phone, video, or in person depending on your preference.",
+  },
+  {
+    question: "What's the difference between a Medicare broker and a captive agent?",
+    answer:
+      "A captive agent represents a single insurance company and can only offer that carrier's plans. An independent broker like Anthony Orner contracts with multiple carriers, so plan recommendations are based on your specific needs, doctors, and prescriptions rather than one company's product line.",
+  }
 ];
 
 export default function MedicareSpecialistsCranfordNJOffice() {
@@ -311,6 +327,7 @@ export default function MedicareSpecialistsCranfordNJOffice() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
       </section>
       </article>
     </>

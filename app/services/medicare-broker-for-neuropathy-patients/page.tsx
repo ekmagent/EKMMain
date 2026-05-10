@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for neuropathy patients | Free Plan Review | MedicareYourself",
   description:
-    "Medicare broker for neuropathy patients — compare plans covering nerve testing, specialists, and Rx. Free review with Anthony Orner. Call 855-559-1700.",
+    "Medicare broker for neuropathy patients — compare plans covering nerve conduction tests, specialists, podiatry, and Rx. Free review. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-neuropathy-patients" },
   openGraph: {
     title:

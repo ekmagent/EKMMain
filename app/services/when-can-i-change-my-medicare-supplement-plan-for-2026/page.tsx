@@ -192,6 +192,22 @@ const faqs = [
     answer:
       "Some states offer broader switching rights than federal law requires, such as annual birthday or anniversary rules that allow plan changes without underwriting. Rules vary widely by state, so contact your State Insurance Department or SHIP program to confirm what protections apply to you in 2026.",
   }
+,
+  {
+    question: "Does my state give me extra rights to switch Medigap plans in 2026?",
+    answer:
+      "Yes, some states offer broader Medigap switching rights than federal law requires. A few states allow annual switching windows or birthday/anniversary rules where you can change plans without underwriting. Contact your State Insurance Department or call 855-559-1700 to confirm what applies in your state.",
+  },
+  {
+    question: "What happens if I'm denied when I apply to switch Medigap carriers?",
+    answer:
+      "If a new carrier denies your application due to underwriting, your existing Medigap policy stays in force as long as you keep paying the premium. You haven't lost coverage by applying. A licensed broker can help you identify carriers with friendlier underwriting before you submit an application.",
+  },
+  {
+    question: "Should I drop my Medigap plan during the 30-day free look period?",
+    answer:
+      "When you switch Medigap policies, you get a 30-day free look period to try the new plan while keeping the old one. You'll pay both premiums during this window, but it lets you cancel the new policy and keep your original coverage if you're not satisfied. Don't cancel the old plan until you're sure about the new one.",
+  }
 ];
 
 export default function WhenCanIChangeMyMedicareSupplementPlanFor2026() {
@@ -391,6 +407,7 @@ export default function WhenCanIChangeMyMedicareSupplementPlanFor2026() {
             <div className="text-sm text-gray-600 mt-4">State help: <a href="https://www.nj.gov/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> — your state may offer additional Medigap switching rights beyond federal law. Call <strong>855-559-1700</strong> for a free review.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents: contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">New Jersey Department of Banking and Insurance</a> or your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a> for state-specific Medigap switching rights.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a> or the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP program</a> for free Medigap counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medigap counseling.</div>
       </section>
     </main>
   );

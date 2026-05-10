@@ -368,6 +368,22 @@ const faqs = [
     answer:
       "Yes. If you receive Social Security benefits, your Part B premium and any IRMAA surcharge are typically deducted directly from your monthly benefit payment. The Part D IRMAA surcharge is also paid to Medicare (not your drug plan) and is usually withheld from Social Security as well.",
   }
+,
+  {
+    question: "How do I appeal an IRMAA determination if my income has dropped?",
+    answer:
+      "If you've experienced a life-changing event such as retirement, divorce, or the death of a spouse, you can request a reduction by filing Form SSA-44 with the Social Security Administration. Submit the form along with documentation of the event and your reduced income estimate. SSA will review your request and adjust your IRMAA if approved. Call 855-559-1700 if you'd like help understanding the process.",
+  },
+  {
+    question: "Do I have to pay IRMAA every year?",
+    answer:
+      "IRMAA is recalculated each year based on your most recent available tax return, which is typically two years prior. If your income drops below the threshold in a later tax year, your IRMAA surcharge will be reduced or removed automatically. You don't need to reapply each year unless you're appealing based on a life-changing event.",
+  },
+  {
+    question: "Can I avoid IRMAA with tax planning?",
+    answer:
+      "Yes, careful income planning can help some retirees stay below IRMAA thresholds. Strategies include managing Roth conversions, timing capital gains, using qualified charitable distributions from IRAs, and spreading taxable withdrawals across years. Consult a tax professional, since even a small amount over a bracket triggers the full surcharge for that tier.",
+  }
 ];
 
 export default function IrmaaPage() {

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for fibromyalgia patients | Free No-Judgment Consultation | MedicareYourself",
   description:
-    "Medicare broker for fibromyalgia patients in NJ. Anthony Orner finds plans covering pain management, meds, and specialist care. Free, no-judgment quote.",
+    "Medicare broker for fibromyalgia patients. Anthony Orner finds plans covering pain management, meds & specialists. Free, no-judgment quote — call today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-fibromyalgia-patients" },
   openGraph: {
     title:
@@ -343,6 +343,7 @@ export default function MedicareBrokerForFibromyalgiaPatients() {
             <div className="text-sm text-gray-600 mt-4">Need free one-on-one counseling? Contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </main>
   );

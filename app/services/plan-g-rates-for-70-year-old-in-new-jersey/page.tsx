@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Plan G Rates for a 70-Year-Old in New Jersey | Free Quote in Minutes | MedicareYourself",
   description:
-    "Compare Plan G rates for 70-year-olds in New Jersey with a licensed local broker. See how NJ Medigap pricing works and call 855-559-1700 for a free quote.",
+    "Compare Plan G rates for 70-year-olds in New Jersey with a licensed local broker. See how NJ Medigap pricing works—call 855-559-1700 for a free quote.",
   alternates: { canonical: "https://medicareyourself.com/services/plan-g-rates-for-70-year-old-in-new-jersey" },
   openGraph: {
     title:
@@ -120,6 +120,22 @@ const faqs = [
     question: "Is Plan G worth it for a 70-year-old in New Jersey?",
     answer:
       "For most NJ retirees, Plan G offers the most comprehensive coverage available to people newly eligible for Medicare, leaving only the annual Part B deductible as out-of-pocket exposure. It pairs well with Original Medicare and lets you see any provider nationwide that accepts Medicare. Whether it's the best value depends on your health, budget, and how often you use care.",
+  }
+,
+  {
+    question: "Why do Plan G premiums vary so much between NJ carriers?",
+    answer:
+      "Every Medigap Plan G covers the same federally standardized benefits, so the only real difference between carriers is price and customer service. Insurance companies set their own premiums based on their claims experience, administrative costs, and discounts they offer. That's why shopping multiple carriers in New Jersey can lead to meaningful savings on identical coverage.",
+  },
+  {
+    question: "Is Plan G worth it for a 70-year-old in New Jersey?",
+    answer:
+      "Plan G covers nearly all out-of-pocket costs under Original Medicare except the annual Part B deductible, making it one of the most comprehensive Medigap options available. For a 70-year-old who wants predictable healthcare spending and the freedom to see any doctor that accepts Medicare, Plan G is often a strong fit. Call 855-559-1700 to compare your options with a licensed broker.",
+  },
+  {
+    question: "When does the Medigap Open Enrollment Period apply in NJ?",
+    answer:
+      "The federal 6-month Medigap Open Enrollment Period begins the month you turn 65 and are enrolled in Medicare Part B. During this window, you have guaranteed issue rights and cannot be denied coverage or charged more for health reasons. If you're already past this period at age 70, you may need to answer health questions to switch carriers.",
   }
 ];
 

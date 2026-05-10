@@ -127,6 +127,22 @@ const faqs = [
     answer:
       "Often yes. For the first 30 months after you become Medicare-eligible due to ESRD, your employer group health plan generally pays first and Medicare pays second. After that coordination period ends, Medicare becomes the primary payer. A broker can help you plan for the transition before your secondary coverage shifts.",
   }
+,
+  {
+    question: "Does Medicare cover ambulance transportation to dialysis appointments?",
+    answer:
+      "Medicare Part B may cover ambulance transportation to and from a dialysis facility, but only when other forms of transportation could endanger your health. Routine rides to dialysis are generally not covered. A Medicare broker can help you review Advantage plans that may include supplemental transportation benefits.",
+  },
+  {
+    question: "Should a dialysis patient choose Medicare Advantage or Medigap?",
+    answer:
+      "It depends on your providers, prescriptions, and budget. Medicare Advantage plans often include extra benefits like transportation and dental, but they use networks that may not include your dialysis center. Medigap pairs with Original Medicare to cover cost-sharing, though premiums and underwriting rules vary by state. A free plan review can compare both options side by side.",
+  },
+  {
+    question: "Can I keep my employer coverage while getting Medicare for ESRD?",
+    answer:
+      "Yes. If you have group health coverage through your or a spouse's employer, that plan typically pays first for the first 30 months after Medicare eligibility based on ESRD. After that coordination period, Medicare becomes the primary payer. Reviewing how the two plans coordinate can prevent surprise bills.",
+  }
 ];
 
 export default function MedicareBrokerForDialysisPatients() {
@@ -377,6 +393,7 @@ export default function MedicareBrokerForDialysisPatients() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Need local help? Contact <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">your State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling tailored to dialysis and ESRD patients.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
     </main>
   );

@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Plan G Rates by Age in New Jersey | 2026 Costs | MedicareYourself",
   description:
-    "Compare 2026 Plan G rates by age across New Jersey carriers. Anthony Orner finds your lowest NJ premium fast — call 855-559-1700 for a free quote today.",
+    "Compare 2026 Plan G rates by age across New Jersey carriers. Anthony Orner finds your lowest NJ premium fast — call 855-559-1700 for a free quote.",
   alternates: { canonical: `${SITE_URL}/services/plan-g-rates-by-age-new-jersey` },
   openGraph: {
     title: "Plan G Rates by Age in New Jersey | 2026 Costs | MedicareYourself",
@@ -113,6 +113,17 @@ const faqs = [
     question: "Does the Medigap Open Enrollment Period restart if I move within NJ?",
     answer:
       "No. Your 6-month Medigap Open Enrollment Period only happens once — when you are 65 or older and first enrolled in Part B. Moving between NJ counties does not reopen guaranteed issue, though some carriers may offer competitive rates without underwriting in certain situations. Call 855-559-1700 to review your options.",
+  }
+,
+  {
+    question: "How does the 6-month Medigap Open Enrollment Period work in New Jersey?",
+    answer:
+      "Your Medigap Open Enrollment Period begins the month you are 65 or older and enrolled in Medicare Part B, and it lasts 6 months. During this window, NJ carriers must sell you any Plan G policy they offer at their best available rate, regardless of health history. After this window closes, medical underwriting may apply unless you qualify for a federal guaranteed-issue right.",
+  },
+  {
+    question: "Should I compare Plan G rates from multiple NJ carriers?",
+    answer:
+      "Yes. Plan G benefits are standardized by federal law, so every carrier's Plan G covers the exact same services. The only differences are price, customer service, and rate stability over time. Anthony Orner compares all major NJ carriers side by side so you can see which one offers the lowest rate for your age and county.",
   }
 ];
 

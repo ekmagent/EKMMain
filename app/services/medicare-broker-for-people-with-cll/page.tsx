@@ -146,6 +146,12 @@ const faqs = [
     answer:
       "Medicare covers routine costs of qualifying clinical trials, including office visits, lab work, and standard care that would be covered outside the trial. The investigational drug itself is typically paid for by the trial sponsor. Talk with your oncologist and trial coordinator to confirm what Medicare and any supplemental coverage will pay before enrolling.",
   }
+,
+  {
+    question: "Does Medicare Part B cover a second opinion from a CLL specialist?",
+    answer:
+      "Yes. Medicare Part B covers second opinions for medical conditions including CLL when your doctor recommends surgery or a major treatment decision. If the first and second opinions differ, Medicare will also help cover a third opinion. This benefit is especially valuable for CLL patients deciding between watch-and-wait, targeted therapy, or clinical trial options.",
+  }
 ];
 
 export default function MedicareBrokerForPeopleWithCLL() {

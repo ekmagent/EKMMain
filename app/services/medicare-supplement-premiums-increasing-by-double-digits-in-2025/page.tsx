@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare supplement premiums increasing by double digits in 2025 | Free Rate Review | MedicareYourself",
   description:
-    "Medigap rates rising in 2025? Compare carriers, keep the same standardized benefits, and see if switching cuts your premium. Free rate review: 855-559-1700.",
+    "Medigap premiums rising in 2025? Compare carriers for the same standardized benefits and see if switching lowers your rate. Free review: 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-supplement-premiums-increasing-by-double-digits-in-2025" },
   openGraph: {
     title:

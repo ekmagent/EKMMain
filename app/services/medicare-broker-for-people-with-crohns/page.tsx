@@ -100,6 +100,17 @@ const faqs = [
     answer:
       "Infusions administered in a doctor's office or infusion center are generally covered under Medicare Part B, not Part D. That means cost-sharing falls under your Part B coinsurance, which a Medigap or Medicare Advantage plan can help offset. Self-injected biologics taken at home usually fall under Part D. Knowing how your specific medication is administered changes which plan structure works best.",
   }
+,
+  {
+    question: "Should I choose Medicare Supplement or Medicare Advantage if I have Crohn's?",
+    answer:
+      "Many people with Crohn's lean toward Medicare Supplement (Medigap) plans because they let you see any provider who accepts Medicare, with no network restrictions and predictable costs after the Part B deductible. Medicare Advantage may have lower premiums but uses networks and prior authorization, which can complicate biologic infusions and specialist access. The right choice depends on your providers, medications, budget, and whether you travel. A broker can walk you through the trade-offs at no cost — call 855-559-1700.",
+  },
+  {
+    question: "Are Crohn's infusions covered under Medicare Part B or Part D?",
+    answer:
+      "It depends on how the drug is administered. Infusions given in a doctor's office or infusion center, like Remicade or Entyvio, are typically billed under Part B as a medical benefit. Self-injected biologics you administer at home usually fall under Part D as a pharmacy benefit. This distinction matters because Part B and Part D have different cost-sharing structures.",
+  }
 ];
 
 export default function MedicareBrokerForPeopleWithCrohns() {

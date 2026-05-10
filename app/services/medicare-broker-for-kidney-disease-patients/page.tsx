@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for kidney disease patients | Free Coverage Review | MedicareYourself",
   description:
-    "Kidney disease Medicare broker help — compare ESRD, dialysis, and transplant coverage at no cost. Avoid enrollment mistakes. Call 855-559-1700 for a free review.",
+    "Kidney disease Medicare broker help — compare ESRD, dialysis, and transplant coverage at no cost. Call 855-559-1700 for a free review.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-kidney-disease-patients" },
   openGraph: {
     title:
@@ -119,6 +119,17 @@ const faqs = [
     question: "When should I enroll in Medicare if I'm starting dialysis?",
     answer:
       "Medicare eligibility based on ESRD typically begins the fourth month of regular outpatient dialysis. If you complete a home dialysis training program or receive a kidney transplant, coverage can start sooner. It's wise to apply through Social Security as soon as your nephrologist confirms a treatment plan so you don't miss enrollment windows.",
+  }
+,
+  {
+    question: "Does Medicare cover dialysis at home?",
+    answer:
+      "Yes. Medicare Part B covers home dialysis training, equipment, and supplies when prescribed by your doctor. You'll typically need to work with a Medicare-certified dialysis facility that supports home treatment. Home dialysis can also affect when your Medicare coverage starts, since eligibility may begin earlier than for in-center dialysis.",
+  },
+  {
+    question: "Can I switch to a Medicare Advantage plan if I have ESRD?",
+    answer:
+      "Yes. Since 2021, people with ESRD can enroll in any Medicare Advantage plan available in their area during valid enrollment periods. Before switching, it's important to confirm your nephrologist, dialysis center, and transplant team are in-network. A licensed broker can compare plan networks and drug formularies side by side at no cost.",
   }
 ];
 

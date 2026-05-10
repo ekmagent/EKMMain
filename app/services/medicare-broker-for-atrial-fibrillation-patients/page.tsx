@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for atrial fibrillation patients | Free Carrier Comparison | MedicareYourself",
   description:
-    "Medicare broker for AFib patients in NJ. Anthony Orner compares plans covering blood thinners, cardiology, and ablation. Free no-cost review — call 855-559-1700.",
+    "Medicare broker for AFib patients in NJ. Anthony Orner compares plans for blood thinners, cardiology & ablation. Free review — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-atrial-fibrillation-patients" },
   openGraph: {
     title:
@@ -113,6 +113,12 @@ const faqs = [
     question: "Will switching Medicare plans affect my current cardiologist relationship?",
     answer:
       "It depends on the plan type. Original Medicare with a Medigap plan lets you see any cardiologist who accepts Medicare nationwide. Medicare Advantage plans use provider networks, so you'd need to confirm your cardiologist is in-network before enrolling. Anthony reviews provider directories with you before you make any change.",
+  }
+,
+  {
+    question: "Should I choose Medicare Advantage or Medigap if I have atrial fibrillation?",
+    answer:
+      "It depends on your providers, medications, and budget. Medigap plans typically offer broader access to specialists and predictable out-of-pocket costs, which many AFib patients prefer for ongoing cardiology care and procedures. Medicare Advantage plans may have lower premiums but use networks and prior authorization. Anthony can compare both side by side based on your doctors and prescriptions.",
   }
 ];
 

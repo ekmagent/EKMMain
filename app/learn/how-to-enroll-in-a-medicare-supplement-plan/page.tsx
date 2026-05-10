@@ -391,6 +391,22 @@ const faqs = [
     answer:
       "The best time to buy is during your 6-month Medigap Open Enrollment Period, which starts the first month you have Part B and are 65 or older. During this one-time window, carriers cannot deny you coverage or charge more based on your health. Call 855-559-1700 to compare carriers before your window closes.",
   }
+,
+  {
+    question: "Do I need both Medicare Part A and Part B to buy a Medigap policy?",
+    answer:
+      "Yes. Generally, you must have Original Medicare — both Part A and Part B — to buy a Medicare Supplement (Medigap) policy. If you only have Part A, you'll need to enroll in Part B before a Medigap carrier can issue your policy.",
+  },
+  {
+    question: "Can my spouse and I share one Medigap policy?",
+    answer:
+      "No. A Medigap policy only covers one person. If you and your spouse both want Medigap coverage, each of you has to buy your own separate policy, even if you choose the same plan letter from the same carrier.",
+  },
+  {
+    question: "What happens if I apply for Medigap after my 6-month Open Enrollment Period ends?",
+    answer:
+      "Outside your Medigap Open Enrollment Period, carriers in most states can use medical underwriting to deny your application or charge you more based on your health history. A few states have additional protections, but for most applicants, missing this one-time window can mean paying significantly more or being unable to switch plans later. Call 855-559-1700 to review your options before the window closes.",
+  }
 ];
 
 export default function HowToEnrollMedigapPage() {

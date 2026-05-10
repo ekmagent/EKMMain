@@ -70,6 +70,22 @@ const faqs = [
     answer:
       "Pennsylvania residents can contact PA MEDI (Pennsylvania Medicare Education and Decision Insight), the state's official SHIP program, for free one-on-one Medicare counseling. The Pennsylvania Insurance Department also provides consumer help for Medigap questions and complaints. These are unbiased public resources, separate from any insurance broker or carrier.",
   }
+,
+  {
+    question: "When is the best time to enroll in a Medigap plan in Pennsylvania?",
+    answer:
+      "The best time is during your 6-month Medigap Open Enrollment Period, which begins the month your Part B coverage starts. During this window, Pennsylvania insurers cannot deny you coverage or charge more based on health conditions. Missing this window often means facing medical underwriting for the rest of your life.",
+  },
+  {
+    question: "Are Medicare Supplement plans standardized in Pennsylvania?",
+    answer:
+      "Yes. Pennsylvania follows federal standardization rules, so Plan G from one carrier provides identical benefits to Plan G from any other carrier. The only differences are the monthly premium, the company's customer service, and how often they raise rates. This makes price shopping straightforward — call 855-559-1700 to compare PA carriers side by side.",
+  },
+  {
+    question: "Does Medicare Supplement cover prescription drugs in Pennsylvania?",
+    answer:
+      "No. Medigap plans sold in Pennsylvania do not include prescription drug coverage. To get drug coverage, you'll need a separate standalone Medicare Part D plan. Many PA enrollees pair Plan G or Plan N with a Part D plan to cover both medical and pharmacy costs.",
+  }
 ];
 
 export default function PennsylvaniaMedigapPage() {

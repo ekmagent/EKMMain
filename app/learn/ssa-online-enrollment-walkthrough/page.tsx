@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title:
     "How to Enroll in Medicare Online at SSA.gov (Step-by-Step Walkthrough)",
   description:
-    "Step-by-step SSA.gov Medicare enrollment walkthrough — finish in about 10 minutes, avoid Part B late penalties. Free broker help at 855-559-1700.",
+    "SSA.gov Medicare enrollment walkthrough — finish your Part A & Part B application in about 10 minutes. Free broker help at 855-559-1700.",
   alternates: {
     canonical: `${SITE_URL}/learn/ssa-online-enrollment-walkthrough`,
   },
@@ -464,6 +464,22 @@ const steps = [
     question: "What if I make a mistake on my Medicare application after submitting?",
     answer:
       "You cannot modify the application after clicking Submit Now. If you notice an error, contact the Social Security Administration directly to correct your record. For help reviewing your enrollment before you submit, call our office at 855-559-1700.",
+  }
+,
+  {
+    question: "Can I enroll in Medicare online if I'm not taking Social Security retirement benefits yet?",
+    answer:
+      "Yes. The SSA online application lets you apply for Medicare only without starting your retirement or spousal benefits. During the application you'll be asked whether you want Medicare only, and you can defer your Social Security check until later.",
+  },
+  {
+    question: "What documents do I need before starting the SSA Medicare application?",
+    answer:
+      "You'll need your Social Security number, a valid driver's license or state ID for identity verification through Login.gov or ID.me, and details about any current health coverage. If you're delaying Part B because of employer coverage, have your employer's name and your coverage start and end dates ready.",
+  },
+  {
+    question: "How long does SSA take to process an online Medicare application?",
+    answer:
+      "Most online Medicare applications are processed within a few weeks, and you'll typically receive your Medicare card by mail before your coverage start date. You can check status anytime by signing back into your my Social Security account. If SSA needs additional documents, they'll contact you by mail.",
   }
 ];
 

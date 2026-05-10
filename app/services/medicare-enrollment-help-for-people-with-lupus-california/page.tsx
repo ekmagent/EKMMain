@@ -166,6 +166,12 @@ const faqs = [
     answer:
       "You can change Medicare Advantage plans during the Annual Enrollment Period each fall or the Medicare Advantage Open Enrollment Period in early spring. In limited cases, a Special Enrollment Period may apply if your provider leaves the network mid-year. Call 855-559-1700 to review your options.",
   }
+,
+  {
+    question: "Does Medicare Advantage in California require referrals to see a rheumatologist for lupus?",
+    answer:
+      "It depends on the plan type. HMO plans typically require a referral from your primary care doctor to see a rheumatologist, while PPO plans usually allow you to see specialists without a referral. Always confirm the network includes your preferred rheumatologist before enrolling. Call 855-559-1700 to review plan rules.",
+  }
 ];
 
 export default function MedicareEnrollmentHelpLupusCalifornia() {
