@@ -375,6 +375,22 @@ const faqs = [
     answer:
       "No. Once you are enrolled in Original Medicare (Parts A and B), your coverage continues automatically as long as you pay the Part B premium. However, if you have a Medicare Advantage or Part D drug plan, you can review and change those plans each year during the Annual Enrollment Period from October 15 to December 7.",
   }
+,
+  {
+    question: "Can I sign up for Medicare if I am still working at 65?",
+    answer:
+      "Yes. You can enroll in Medicare at 65 even if you are still working. Many people sign up for premium-free Part A and delay Part B if they have creditable employer coverage from active employment. Check with your HR department before delaying Part B to confirm your group plan qualifies as creditable coverage.",
+  },
+  {
+    question: "How long does it take to get my Medicare card after I apply?",
+    answer:
+      "After applying through SSA.gov, most people receive their red, white, and blue Medicare card in the mail within about 2 to 4 weeks. If you are automatically enrolled, your card arrives about 3 months before the month you turn 65. You can also print a replacement card from your My Social Security account.",
+  },
+  {
+    question: "What documents do I need to sign up for Medicare?",
+    answer:
+      "You generally need your Social Security number, birth certificate or proof of U.S. citizenship or lawful residency, and information about any current health coverage. If you are delaying Part B due to employer coverage, you will later need form CMS-L564 completed by your employer. Most applications can be completed online at SSA.gov/medicare in about 10 minutes.",
+  }
 ];
 
 export default function HowToSignUpPage() {

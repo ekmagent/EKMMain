@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
   description:
-    "Understand 2026 Medicare IRMAA surcharges on Part B & D, income brackets, and how to appeal with SSA-44. Free licensed broker help — call 855-559-1700.",
+    "Learn how 2026 Medicare IRMAA surcharges work on Part B & D, who pays, and how to appeal with SSA-44. Free licensed broker help — call 855-559-1700 today.",
   alternates: { canonical: `${SITE_URL}/learn/irmaa-medicare-surcharge` },
   openGraph: {
     title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
@@ -383,6 +383,22 @@ const faqs = [
     question: "Can I avoid IRMAA with tax planning?",
     answer:
       "Yes, careful income planning can help some retirees stay below IRMAA thresholds. Strategies include managing Roth conversions, timing capital gains, using qualified charitable distributions from IRAs, and spreading taxable withdrawals across years. Consult a tax professional, since even a small amount over a bracket triggers the full surcharge for that tier.",
+  }
+,
+  {
+    question: "How do I appeal an IRMAA determination?",
+    answer:
+      "If you experienced a life-changing event that reduced your income, you can appeal by filing Form SSA-44 with the Social Security Administration. Qualifying events include marriage, divorce, death of a spouse, work stoppage or reduction, and loss of pension or income-producing property. Submit the form along with supporting documentation to your local SSA office.",
+  },
+  {
+    question: "Will I get a notice if I owe IRMAA?",
+    answer:
+      "Yes. The Social Security Administration mails a predetermination notice followed by an initial determination notice if you owe IRMAA for the upcoming year. The notice explains the surcharge amount, which tax year was used, and your right to appeal if your income has since dropped.",
+  },
+  {
+    question: "Does IRMAA change each year?",
+    answer:
+      "Yes. IRMAA income brackets and surcharge amounts are updated annually by CMS, and your status is recalculated each year using your most recent IRS tax return on file. If your income decreases below the threshold, your IRMAA can be removed the following year automatically.",
   }
 ];
 

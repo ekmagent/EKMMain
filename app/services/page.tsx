@@ -470,6 +470,22 @@ const STATIC_CATEGORIES = [
     answer:
       "Most people first enroll during their Initial Enrollment Period, which spans the seven months around their 65th birthday. Medicare Advantage and Part D plans can be changed during the Annual Enrollment Period each fall, and Medigap can often be applied for year-round, though medical underwriting may apply outside your one-time Medigap Open Enrollment Period. Call 855-559-1700 to confirm which window applies to you.",
   }
+,
+  {
+    question: "What does a licensed Medicare insurance broker do?",
+    answer:
+      "A licensed Medicare broker helps you compare Medigap, Medicare Advantage, and Part D plans from multiple carriers so you can choose coverage that fits your health needs and budget. Brokers are appointed by insurers but work independently on your behalf. There is no cost to you for using a broker's services.",
+  },
+  {
+    question: "Is there a fee to work with MedicareYourself?",
+    answer:
+      "No. Our services are free to you because licensed brokers are compensated directly by the insurance carrier when you enroll in a plan. The premium you pay is the same whether you enroll on your own or with a broker. You can call 855-559-1700 to get a free, unbiased plan review.",
+  },
+  {
+    question: "Can I switch Medicare plans after I enroll?",
+    answer:
+      "Yes, you can change Medicare Advantage or Part D plans during the Annual Enrollment Period each fall, and Medigap plans can often be changed year-round, though medical underwriting may apply outside of guaranteed-issue windows. State rules and your health history affect eligibility. A licensed broker can review your specific situation before you switch.",
+  }
 ];
 
 export default function ServicesHubPage() {
@@ -586,6 +602,7 @@ export default function ServicesHubPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents: visit the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP program</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents: visit the <a href="https://www.state.nj.us/dobi/division_insurance/ship/ship.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
       </section>
     </>
   );

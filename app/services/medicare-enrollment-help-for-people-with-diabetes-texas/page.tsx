@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare enrollment help for people with diabetes texas | Free Guidance | MedicareYourself",
   description:
-    "Texas Medicare help for people with diabetes: compare plans covering insulin, CGMs & supplies with no underwriting. Call 855-559-1700 for free broker guidance.",
+    "Texas Medicare help for people with diabetes: compare plans covering insulin, CGMs & supplies without underwriting. Call 855-559-1700 for free broker guidance.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-enrollment-help-for-people-with-diabetes-texas" },
   openGraph: {
     title:
@@ -306,6 +306,7 @@ export default function MedicareEnrollmentHelpDiabetesTexas() {
             <div className="text-sm text-gray-600 mt-4">Texas residents can get free local Medicare counseling through the <a href="https://www.hhs.texas.gov/services/health/medicare" rel="noopener noreferrer" target="_blank" className="underline">Texas Health and Human Services Medicare program</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Texas residents can get free local Medicare counseling through the <a href="https://www.tdi.texas.gov/hicap/" rel="noopener noreferrer" target="_blank" className="underline">Texas Health Information, Counseling and Advocacy Program (HICAP/SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Texas help: <a href="https://www.tdi.texas.gov/hicap/" rel="noopener noreferrer" target="_blank" className="underline">Texas Health Information, Counseling &amp; Advocacy Program (HICAP/SHIP)</a> offers free Medicare counseling for Texans with diabetes.</div>
+            <div className="text-sm text-gray-600 mt-4">Texas help: <a href="https://www.hhs.texas.gov/services/health/medicare" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Texas Health and Human Services — Medicare</a> for state-based benefits counseling and Medicare Savings Program info.</div>
       </section>
     </main>
   );

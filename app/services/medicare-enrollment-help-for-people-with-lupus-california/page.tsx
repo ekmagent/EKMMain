@@ -172,6 +172,22 @@ const faqs = [
     answer:
       "It depends on the plan type. HMO plans typically require a referral from your primary care doctor to see a rheumatologist, while PPO plans usually allow you to see specialists without a referral. Always confirm the network includes your preferred rheumatologist before enrolling. Call 855-559-1700 to review plan rules.",
   }
+,
+  {
+    question: "Does Medicare Advantage or Original Medicare work better for lupus patients in California?",
+    answer:
+      "It depends on your providers and treatments. Original Medicare with a Medigap plan offers broader access to specialists nationwide, which helps if you see rheumatologists at UCLA, UCSF, or Stanford. Medicare Advantage plans may bundle Part D and extras but use networks and prior authorization for biologics. A licensed broker can compare both based on your rheumatologist and medication list.",
+  },
+  {
+    question: "Will Medicare cover lab work and imaging needed to monitor lupus?",
+    answer:
+      "Yes. Medicare Part B covers medically necessary lab tests like ANA panels, complement levels, and urinalysis, as well as imaging used to monitor organ involvement. You'll generally be responsible for the Part B deductible and coinsurance unless you have a Medigap plan or Medicare Advantage cost-sharing applies.",
+  },
+  {
+    question: "Can I get help paying for lupus medications if I'm on a fixed income?",
+    answer:
+      "Yes. The Medicare Extra Help program (Low Income Subsidy) lowers Part D drug costs for those who qualify. California also offers the Medicare Savings Programs through Medi-Cal, which can help pay Part B premiums and cost-sharing. Call 855-559-1700 to review eligibility.",
+  }
 ];
 
 export default function MedicareEnrollmentHelpLupusCalifornia() {
@@ -435,6 +451,7 @@ export default function MedicareEnrollmentHelpLupusCalifornia() {
             <div className="text-sm text-gray-600 mt-4">California residents can get free local Medicare counseling through <a href="https://www.aging.ca.gov/HICAP/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">California's Health Insurance Counseling and Advocacy Program (HICAP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">California beneficiaries can get free local Medicare counseling through <a href="https://aging.ca.gov/HICAP/" rel="noopener noreferrer" target="_blank" className="underline">California's Health Insurance Counseling and Advocacy Program (HICAP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">California residents can get free local Medicare counseling through <a href="https://aging.ca.gov/HICAP/" rel="noopener noreferrer" target="_blank" className="underline">California HICAP (Health Insurance Counseling and Advocacy Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">California residents can get free, unbiased Medicare counseling through <a href="https://aging.ca.gov/HICAP/" rel="noopener noreferrer" target="_blank" className="underline">California's Health Insurance Counseling and Advocacy Program (HICAP)</a>.</div>
       </section>
     </main>
   );

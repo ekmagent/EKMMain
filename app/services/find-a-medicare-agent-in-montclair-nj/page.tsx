@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "find a medicare agent in montclair nj | Free Local Help | MedicareYourself",
   description:
-    "Find a Medicare agent in Montclair, NJ. Independent broker Anthony Orner compares top carriers across Essex County — call 855-559-1700 for a free review.",
+    "Find a Medicare agent in Montclair, NJ. Independent broker Anthony Orner compares top carriers across Essex County — call 855-559-1700 for a free plan review.",
   alternates: { canonical: "https://medicareyourself.com/services/find-a-medicare-agent-in-montclair-nj" },
   openGraph: {
     title:
@@ -99,6 +99,17 @@ const faqs = [
     question: "When can I switch Medicare plans with help from a Montclair agent?",
     answer:
       "Most plan changes happen during the Annual Enrollment Period from October 15 to December 7, with another window called the Medicare Advantage Open Enrollment Period running January 1 to March 31. Special Enrollment Periods may apply if you move, lose other coverage, or qualify for Extra Help. An independent broker can confirm which window fits your situation.",
+  }
+,
+  {
+    question: "When can I enroll in Medicare with help from a Montclair agent?",
+    answer:
+      "Your Initial Enrollment Period spans the seven months around your 65th birthday. After that, the Annual Enrollment Period runs October 15 through December 7 each year for Medicare Advantage and Part D changes. There's also a Medicare Advantage Open Enrollment Period from January 1 through March 31. A local broker can confirm which window applies to your situation.",
+  },
+  {
+    question: "Is a Montclair Medicare broker different from calling the carrier directly?",
+    answer:
+      "Yes. Calling a carrier connects you with a representative who can only sell that company's plans. An independent broker in Montclair compares plans across multiple carriers, so you see how options stack up side by side. Premiums and benefits are identical whether you enroll through a broker or directly.",
   }
 ];
 

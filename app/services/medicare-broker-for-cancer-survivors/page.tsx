@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for cancer survivors | Free Coverage Review | MedicareYourself",
   description:
-    "Medicare broker for cancer survivors — get help with oncology coverage, scans, and Part D drug plans. Free plan review with Anthony Orner. Call 855-559-1700.",
+    "Cancer survivor on Medicare? Anthony Orner reviews oncology, scan, and Part D coverage at no cost. Free plan review — call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-cancer-survivors" },
   openGraph: {
     title:
@@ -268,6 +268,7 @@ export default function MedicareBrokerForCancerSurvivors() {
           </li>
         </ul>
             <div className="text-sm text-gray-600 mt-4"><p>Official resources: <a href="https://www.medicare.gov/publications/11931-medicare-coverage-of-cancer-treatment-services.pdf" rel="noopener noreferrer" target="_blank" className="underline">Medicare Coverage of Cancer Treatment Services (Medicare.gov PDF)</a> and <a href="https://www.medicare.gov/coverage/chemotherapy" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov: Chemotherapy Coverage</a>.</p></div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

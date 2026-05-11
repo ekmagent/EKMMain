@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for anxiety disorder patients | Free Coverage Review | MedicareYourself",
   description:
-    "Medicare broker for anxiety disorder patients — compare plans covering therapy, medications, and telehealth. Free review with Anthony Orner. Call 855-559-1700.",
+    "Medicare broker for anxiety disorder patients — compare plans covering therapy, medications, and telehealth at no cost to you. Call Anthony Orner at 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-anxiety-disorder-patients" },
   openGraph: {
     title:
@@ -473,6 +473,7 @@ export default function MedicareBrokerAnxietyDisorderPatients() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
       </section>
     </>
   );

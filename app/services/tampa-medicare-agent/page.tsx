@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "tampa medicare agent | Free Plan Comparison | MedicareYourself",
   description:
-    "Tampa medicare agent Anthony Orner compares Supplement and Advantage plans across top Florida carriers. No cost, no obligation. Request your free quote now.",
+    "Work with Tampa Medicare agent Anthony Orner to compare Supplement and Advantage plans across top Florida carriers at no cost. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/tampa-medicare-agent" },
   openGraph: {
     title:
@@ -87,6 +87,22 @@ const faqs = [
     answer:
       "Your Medigap Open Enrollment Period starts the month you turn 65 and are enrolled in Part B. During this 6-month window, carriers cannot deny you or charge more for health conditions. Apply up to 6 months before your Part B start date to lock in your rate.",
   },
+,
+  {
+    question: "Can a Tampa Medicare agent help me compare Medicare Advantage plans from different carriers?",
+    answer:
+      "Yes. An independent broker is appointed with multiple carriers and can compare Medicare Advantage plan benefits, provider networks, and drug formularies side by side. This helps you confirm your Tampa-area doctors and prescriptions are covered before you enroll.",
+  },
+  {
+    question: "What Medicare plan options are available to Tampa residents in Hillsborough County?",
+    answer:
+      "Tampa residents can choose Original Medicare (Parts A and B), add a standalone Part D prescription drug plan, and either pair Original Medicare with a Medigap supplement or enroll in a Medicare Advantage plan. Plan availability and provider networks vary by ZIP code within Hillsborough County.",
+  },
+  {
+    question: "Do I have to switch agents if I move to Tampa from another state?",
+    answer:
+      "Not necessarily. A licensed Medicare broker can continue to serve you as long as they hold a license in your new state. A permanent move out of your current plan's service area is also a Special Enrollment Period that lets you change Medicare Advantage or Part D plans.",
+  }
 ];
 
 export default function TampaMedicareAgent() {
@@ -335,6 +351,7 @@ export default function TampaMedicareAgent() {
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/plan-compare" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov Plan Compare</a> and <a href="https://www.myfloridacfo.com/division/consumers/understandingcoverage/serving-health-insurance-needs-of-elders-ship" rel="noopener noreferrer" target="_blank" className="underline">Florida SHINE (free Medicare counseling)</a>.</div>
             <div className="text-sm text-gray-600 mt-2">Florida residents can get free, unbiased counseling through <a href="https://www.floridashine.org/" target="_blank" rel="noopener noreferrer" className="underline">SHINE (Florida's SHIP program)</a> or verify any agent's license with the <a href="https://www.floir.com/" target="_blank" rel="noopener noreferrer" className="underline">Florida Office of Insurance Regulation</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Florida residents can also get free local counseling through <a href="https://www.floridashine.org/" rel="noopener noreferrer" target="_blank" className="underline">Florida SHINE</a>, the state's official SHIP program.</div>
+            <div className="text-sm text-gray-600 mt-4">Florida residents can also get free Medicare counseling through <a href="https://www.floridashine.org/" rel="noopener noreferrer" target="_blank" className="underline">Florida SHINE</a>, the state's official SHIP program.</div>
       </section>
     </main>
   );

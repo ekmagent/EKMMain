@@ -101,6 +101,12 @@ const faqs = [
     answer:
       "No. Plan G covers nearly all Medicare-approved out-of-pocket costs after you meet the Part B deductible, but it does not pay the deductible itself. Once met, Plan G covers the Part A and Part B coinsurance, hospital costs, and excess charges for the rest of the year.",
   }
+,
+  {
+    question: "How does New Jersey's community-rated pricing affect my Plan G premium at 69?",
+    answer:
+      "New Jersey uses community rating for Medigap, which means carriers cannot charge you a different premium based on your age. A 69-year-old and an 85-year-old buying the same Plan G from the same carrier in NJ generally pay the same base rate. Premiums can still change over time due to inflation and claims experience.",
+  }
 ];
 
 export default function PlanGRates69NJ() {
@@ -332,6 +338,7 @@ export default function PlanGRates69NJ() {
             <div className="text-sm text-gray-600 mt-4">For free unbiased counseling, contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">New Jersey SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/dobi/division_insurance/ihcseh/medsupp.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance — Medicare Supplement</a> and the <a href="https://www.nj.gov/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey resources: <a href="https://www.state.nj.us/dobi/division_insurance/ihcseh/medsupp.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance — Medicare Supplement information</a>.</div>
       </section>
       </article>
     </>

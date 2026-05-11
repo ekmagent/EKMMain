@@ -85,6 +85,22 @@ const faqs = [
     answer:
       "Medicare Supplement (Medigap) pays after Original Medicare and lets you see any doctor who accepts Medicare. Medicare Advantage replaces Original Medicare with a private plan that uses a provider network. Each has tradeoffs — a local agent can walk you through which fits your doctors, prescriptions, and budget.",
   },
+,
+  {
+    question: "Does a Toms River Medicare agent help during the Annual Enrollment Period?",
+    answer:
+      "Yes. From October 15 through December 7 each year, you can switch Medicare Advantage plans or Part D drug plans for coverage starting January 1. A local independent agent will review your current plan against next year's options across Ocean County carriers, since formularies, networks, and premiums change annually.",
+  },
+  {
+    question: "Will a Medicare broker in Ocean County charge me a fee?",
+    answer:
+      "No. Independent Medicare brokers are paid directly by the insurance carrier when you enroll, not by you. Your premium is the same whether you sign up through an agent, on medicare.gov, or directly with the carrier — so there's no cost to getting a side-by-side comparison from a local broker.",
+  },
+  {
+    question: "Can I keep my doctors in Toms River if I switch Medicare plans?",
+    answer:
+      "It depends on the plan type. Medicare Supplement plans let you see any provider nationwide who accepts Medicare, while Medicare Advantage plans use provider networks that vary by carrier. A local agent can verify whether your specific Toms River doctors and Ocean County hospitals are in-network before you enroll.",
+  }
 ];
 
 export default function LocalMedicareAgentsTomsRiverNJ() {
@@ -339,6 +355,7 @@ export default function LocalMedicareAgentsTomsRiverNJ() {
             </li>
 </ul>
             <div className="text-sm text-gray-600 mt-4">New Jersey beneficiaries can also get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-2">New Jersey residents can also get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

@@ -209,6 +209,22 @@ const faqs = [
     answer:
       "In most states, yes — outside of your 6-month Medigap Open Enrollment Period or a guaranteed issue situation, federal law does not require carriers to accept you. Insurers can use medical underwriting to review your health history and either approve, decline, or rate you. Some states have additional rules that give you more freedom to switch, so it is worth checking with your State Insurance Department or a licensed broker before you apply.",
   }
+,
+  {
+    question: "Do I need to answer health questions to switch Medigap carriers?",
+    answer:
+      "Outside of your 6-month Medigap Open Enrollment Period, most states allow carriers to use medical underwriting when you apply to switch. That means the new carrier can ask health questions and decline you based on your conditions. Exceptions include federal guaranteed issue rights and any extra switching protections your state may offer.",
+  },
+  {
+    question: "Should I cancel my old Medigap plan before the new one is approved?",
+    answer:
+      "No. Never cancel your existing Medigap policy until the new carrier has officially approved your application and given you a confirmed start date. Once the new plan is in force, you can cancel the old one and align the termination date so you avoid a gap or overlap in coverage.",
+  },
+  {
+    question: "Will I have to start a new waiting period for pre-existing conditions?",
+    answer:
+      "If you have had continuous creditable coverage for at least 6 months, a new Medigap carrier generally cannot impose a new pre-existing condition waiting period. If your prior coverage was shorter, the new carrier may apply a waiting period of up to 6 months for conditions treated or diagnosed before the policy started.",
+  }
 ];
 
 export default function SwitchCarriersPage() {
@@ -439,6 +455,7 @@ export default function SwitchCarriersPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents: contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a> or the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP program</a> for free Medigap counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify carrier rates and consumer rights with the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or free SHIP counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify carrier rates and rights through the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> or the free <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP counseling program</a>.</div>
+            <div className="text-sm text-gray-600 mt-2">For state-specific switching rights, contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> or your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">SHIP counselor</a>.</div>
       </section>
     </>
   );

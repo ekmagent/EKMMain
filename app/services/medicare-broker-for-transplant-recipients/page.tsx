@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for transplant recipients | Free Coverage Analysis | MedicareYourself",
   description:
-    "Medicare broker for transplant recipients — protect immunosuppressant coverage and avoid gaps. Call 855-559-1700 for a free analysis.",
+    "Medicare broker for transplant recipients — protect immunosuppressant coverage and avoid post-op gaps. Call 855-559-1700 for a free, no-obligation analysis.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-transplant-recipients" },
   openGraph: {
     title:
@@ -311,6 +311,7 @@ export default function MedicareBrokerForTransplantRecipients() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </main>
   );

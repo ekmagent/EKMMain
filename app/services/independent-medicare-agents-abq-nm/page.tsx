@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "independent medicare agents abq nm | Free Local Help | MedicareYourself",
   description:
-    "Independent Medicare agents in ABQ NM compare plans from multiple carriers at no cost to you. Get unbiased Supplement and Advantage help. Free consultation.",
+    "Independent Medicare agents serving ABQ NM compare Advantage, Medigap & Part D plans from multiple carriers at no cost. Call 855-559-1700 for unbiased help.",
   alternates: { canonical: "https://medicareyourself.com/services/independent-medicare-agents-abq-nm" },
   openGraph: {
     title:
@@ -99,6 +99,22 @@ const faqs = [
     question: "Do independent Medicare agents in ABQ meet with clients in person?",
     answer:
       "Many do. Independent agents serving Albuquerque commonly offer in-person consultations, phone appointments, and virtual meetings so you can choose what's most comfortable. In-person visits can be especially helpful when reviewing plan documents, drug formularies, or provider networks together.",
+  }
+,
+  {
+    question: "Does an independent Medicare agent in Albuquerque know the local provider networks?",
+    answer:
+      "Yes. Independent agents who serve the Albuquerque area stay current on which carriers contract with local hospital systems and physician groups in Bernalillo County. Before recommending a Medicare Advantage plan, a good agent will check that your specific doctors and preferred facilities are in-network.",
+  },
+  {
+    question: "Will I get help after I enroll, or only during sign-up?",
+    answer:
+      "A reputable independent Medicare agent provides ongoing service after enrollment, not just during the application. That includes help with claims questions, ID card issues, annual plan reviews during the Annual Enrollment Period, and switching plans if your health needs or prescriptions change.",
+  },
+  {
+    question: "Can I keep my current doctors if I switch plans with an Albuquerque Medicare agent?",
+    answer:
+      "In many cases, yes — but it depends on the plan type. With Original Medicare plus a Medigap policy, you can see any provider nationwide that accepts Medicare. With a Medicare Advantage plan, your agent will verify your doctors are in the plan's network before you enroll.",
   }
 ];
 

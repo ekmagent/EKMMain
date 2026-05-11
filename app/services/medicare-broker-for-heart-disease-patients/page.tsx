@@ -167,6 +167,17 @@ const faqs = [
     answer:
       "Yes. Medicare Part A covers inpatient hospital stays for procedures like coronary artery bypass surgery and pacemaker implantation, while Part B covers outpatient procedures and follow-up care. Your out-of-pocket costs depend on whether you have a Medigap supplement or a Medicare Advantage plan with its own cost-sharing structure.",
   }
+,
+  {
+    question: "Will my cardiologist accept my Medicare plan?",
+    answer:
+      "It depends on the plan type. Original Medicare is accepted by any provider who takes Medicare assignment, which includes the vast majority of cardiologists nationwide. Medicare Advantage plans use provider networks, so you'll want to confirm your cardiologist is in-network before enrolling — a broker can verify this for every plan being compared.",
+  },
+  {
+    question: "Does Medicare Part D cover common heart medications?",
+    answer:
+      "Yes, Part D plans cover most heart medications including statins, blood thinners, beta-blockers, and ACE inhibitors, but each plan has its own formulary and pricing tiers. The same drug can cost very different amounts depending on which Part D plan you choose. A broker can run your specific medication list against available plans to find the lowest annual out-of-pocket cost.",
+  }
 ];
 
 export default function MedicareBrokerHeartDiseasePatients() {

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "local medicare agents in west orange nj | Free Broker Consultation | MedicareYourself",
   description:
-    "Local Medicare agents in West Orange NJ — Anthony Orner compares Supplement and Advantage plans across carriers in Essex County. Free, no-obligation help.",
+    "Local Medicare agents in West Orange NJ — Anthony Orner compares Supplement and Advantage plans across carriers. Free, no-pressure help. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/local-medicare-agents-in-west-orange-nj" },
   openGraph: {
     title:
@@ -349,6 +349,7 @@ export default function LocalMedicareAgentsWestOrangeNJ() {
 </ul>
               <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/plan-compare" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">Medicare.gov Plan Finder</a> and <a href="https://www.medicare.gov/basics/get-started-with-medicare" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">Get Started with Medicare</a>.</div>
             <div className="text-sm text-gray-600 mt-2">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

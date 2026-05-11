@@ -85,6 +85,17 @@ const faqs = [
     answer:
       "Ask for their National Producer Number (NPN) and verify it through your state's Department of Insurance website. A legitimate agent will also be AHIP-certified annually and willing to share their credentials upfront.",
   },
+,
+  {
+    question: "Can an independent Medicare agent help me switch plans during the Annual Enrollment Period?",
+    answer:
+      "Yes. During the Annual Enrollment Period each fall, an independent agent can review your current coverage, compare it against new plan options for the upcoming year, and help you switch if a better fit exists. They can also assist during the Medicare Advantage Open Enrollment Period and any Special Enrollment Periods you qualify for.",
+  },
+  {
+    question: "What information should I have ready before talking to an independent Medicare agent?",
+    answer:
+      "Have your Medicare card, a list of your current prescriptions with dosages, and the names of doctors and specialists you want to keep. Knowing your ZIP code and preferred pharmacy also helps the agent run accurate plan comparisons so you see real out-of-pocket costs for your situation.",
+  }
 ];
 
 export default function IndependentMedicareInsuranceAgentsPage() {

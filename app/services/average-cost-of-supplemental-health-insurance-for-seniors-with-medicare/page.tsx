@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "average cost of supplemental health insurance for seniors with medicare | Free Broker Comparison | MedicareYourself",
   description:
-    "Compare 2026 supplemental insurance costs for seniors on Medicare by plan, age, and state. Free broker comparison — call 855-559-1700 to find your lowest rate.",
+    "See what seniors typically pay for Medicare supplemental insurance in 2026 by plan, age, and state. Free broker comparison — call 855-559-1700 for your lowest rate.",
   alternates: { canonical: "https://medicareyourself.com/services/average-cost-of-supplemental-health-insurance-for-seniors-with-medicare" },
   openGraph: {
     title:
@@ -254,6 +254,17 @@ const faqs = [
     question: "How do insurance companies decide how to price Medigap policies?",
     answer:
       "Carriers use one of three rating methods: community-rated (same premium regardless of age), issue-age-rated (based on the age you buy), or attained-age-rated (increases as you get older). The rating method affects not only your starting premium but how much it rises over time. Medicare.gov recommends asking which method a carrier uses before enrolling.",
+  }
+,
+  {
+    question: "Does where I live affect how much I pay for Medigap?",
+    answer:
+      "Yes. Medigap premiums vary widely by state and even by zip code because insurance companies factor in local claims experience, demographics, and regulatory environment. The same lettered plan from the same carrier can cost significantly more in one state than another, which is why comparing quotes in your specific area matters.",
+  },
+  {
+    question: "Will my Medigap premium go up as I get older?",
+    answer:
+      "It depends on the pricing method your carrier uses. Attained-age-rated policies increase as you age, issue-age-rated policies are based on your age at enrollment but can rise with inflation, and community-rated policies charge everyone in your area the same regardless of age. All three types can still see annual rate adjustments for inflation and claims trends.",
   }
 ];
 

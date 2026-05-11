@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title:
     "How to Enroll in Medicare Online at SSA.gov (Step-by-Step Walkthrough)",
   description:
-    "SSA.gov Medicare enrollment walkthrough — finish your Part A & Part B application in about 10 minutes. Free broker help at 855-559-1700.",
+    "Step-by-step SSA.gov Medicare enrollment walkthrough — finish your Part A & Part B application in about 10 minutes. Free broker help at 855-559-1700.",
   alternates: {
     canonical: `${SITE_URL}/learn/ssa-online-enrollment-walkthrough`,
   },
@@ -480,6 +480,22 @@ const steps = [
     question: "How long does SSA take to process an online Medicare application?",
     answer:
       "Most online Medicare applications are processed within a few weeks, and you'll typically receive your Medicare card by mail before your coverage start date. You can check status anytime by signing back into your my Social Security account. If SSA needs additional documents, they'll contact you by mail.",
+  }
+,
+  {
+    question: "How long does the SSA online Medicare application take?",
+    answer:
+      "Most people complete the SSA.gov Medicare application in about 10 minutes if they have their information ready. You'll need your Social Security number, a valid ID for identity verification, and details about any current health coverage. The application is processed by the Social Security Administration, not Medicare directly.",
+  },
+  {
+    question: "Can I change my Medicare application after submitting it on SSA.gov?",
+    answer:
+      "No. Once you click Submit Now and agree to the Electronic Signature Agreement, you cannot modify the application online. If you need to make corrections, you'll have to contact the Social Security Administration directly by phone or visit a local SSA office.",
+  },
+  {
+    question: "Do I have to enroll in Part B when I sign up online?",
+    answer:
+      "No. The SSA application asks separately whether you want Part A only or both Part A and Part B. If you have qualifying employer coverage, you may choose to delay Part B to avoid paying the Part B premium until you actually need it. A licensed broker can help you decide — call 855-559-1700.",
   }
 ];
 

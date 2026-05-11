@@ -9,7 +9,7 @@ import { MF } from "@/lib/medicare-figures";
 export const metadata: Metadata = {
   title: "How to Enroll in a Medicare Supplement Plan (2026): The 5-Step Guide",
   description:
-    "Enroll in a Medicare Supplement plan in 5 steps and lock in your 6-month guaranteed-issue Medigap window. Call 855-559-1700 to compare every carrier free.",
+    "Enroll in a Medicare Supplement plan in 5 steps and protect your 6-month guaranteed-issue window. Call 855-559-1700 to compare every carrier free.",
   alternates: { canonical: `${SITE_URL}/learn/how-to-enroll-in-a-medicare-supplement-plan` },
   openGraph: {
     title: "How to Enroll in a Medicare Supplement Plan (2026): The 5-Step Guide",
@@ -406,6 +406,22 @@ const faqs = [
     question: "What happens if I apply for Medigap after my 6-month Open Enrollment Period ends?",
     answer:
       "Outside your Medigap Open Enrollment Period, carriers in most states can use medical underwriting to deny your application or charge you more based on your health history. A few states have additional protections, but for most applicants, missing this one-time window can mean paying significantly more or being unable to switch plans later. Call 855-559-1700 to review your options before the window closes.",
+  }
+,
+  {
+    question: "Do I need both Medicare Part A and Part B to buy a Medigap plan?",
+    answer:
+      "Yes. You generally must be enrolled in both Original Medicare Part A and Part B before you can purchase a Medicare Supplement (Medigap) policy. If you only have Part A, you'll need to enroll in Part B first through the Social Security Administration.",
+  },
+  {
+    question: "Can my spouse and I share one Medicare Supplement policy?",
+    answer:
+      "No. A Medigap policy only covers one person. If both you and your spouse want Medigap coverage, each of you must purchase your own individual policy, even if you buy from the same carrier.",
+  },
+  {
+    question: "What happens if I apply for a Medigap plan after my 6-month Open Enrollment Period ends?",
+    answer:
+      "Outside of your Medigap Open Enrollment Period or a guaranteed-issue situation, carriers in most states can use medical underwriting. That means they can ask health questions and may deny coverage, charge higher premiums, or impose waiting periods for pre-existing conditions. Call 855-559-1700 to review your options before applying.",
   }
 ];
 
