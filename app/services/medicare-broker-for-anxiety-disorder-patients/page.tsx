@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for anxiety disorder patients | Free Coverage Review | MedicareYourself",
   description:
-    "Medicare broker for anxiety disorder patients — compare plans covering therapy, medications, and telehealth at no cost to you. Call Anthony Orner at 855-559-1700.",
+    "Medicare broker for anxiety disorder patients — compare plans covering therapy, medications, and telehealth at no cost. Call Anthony Orner at 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-anxiety-disorder-patients" },
   openGraph: {
     title:

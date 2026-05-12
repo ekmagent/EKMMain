@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "local medicare agents in toms river nj | Free Carrier Comparison | MedicareYourself",
   description:
-    "Local Medicare agents in Toms River NJ — Anthony Orner compares Supplement & Advantage plans across Ocean County carriers. Free quote, call 855-559-1700.",
+    "Local Medicare agents in Toms River NJ — Anthony Orner compares Supplement & Advantage plans across Ocean County carriers at no cost. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/local-medicare-agents-in-toms-river-nj" },
   openGraph: {
     title:
@@ -100,6 +100,22 @@ const faqs = [
     question: "Can I keep my doctors in Toms River if I switch Medicare plans?",
     answer:
       "It depends on the plan type. Medicare Supplement plans let you see any provider nationwide who accepts Medicare, while Medicare Advantage plans use provider networks that vary by carrier. A local agent can verify whether your specific Toms River doctors and Ocean County hospitals are in-network before you enroll.",
+  }
+,
+  {
+    question: "Is there a cost to work with a local Medicare broker in Toms River?",
+    answer:
+      "No. Independent Medicare brokers like Anthony Orner are paid directly by the insurance carrier when you enroll, not by you. The premium you pay is the same whether you enroll through a broker, call the carrier directly, or sign up on medicare.gov. You get personalized comparison help at no added cost.",
+  },
+  {
+    question: "Can a local agent help me check if my Toms River doctors accept a plan?",
+    answer:
+      "Yes. Before you enroll, a local broker can verify whether your current Ocean County physicians and specialists participate in a Medicare Advantage network or accept Medicare assignment for a Supplement plan. This step prevents the most common enrollment regret — losing access to a trusted doctor after a plan switch.",
+  },
+  {
+    question: "When can I enroll in Medicare if I live in Toms River?",
+    answer:
+      "Your Initial Enrollment Period runs for seven months around your 65th birthday. After that, you can make changes during the Annual Enrollment Period (October 15 – December 7) or, for Medicare Advantage, during the Open Enrollment Period (January 1 – March 31). Special Enrollment Periods may also apply if you lose employer coverage or move.",
   }
 ];
 
@@ -356,6 +372,7 @@ export default function LocalMedicareAgentsTomsRiverNJ() {
 </ul>
             <div className="text-sm text-gray-600 mt-4">New Jersey beneficiaries can also get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-2">New Jersey residents can also get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> offers free, unbiased Medicare counseling for Ocean County residents.</div>
       </section>
     </main>
   );

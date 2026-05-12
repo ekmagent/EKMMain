@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "enroll in medicare supplement plan g at 68 | Free Guidance | MedicareYourself",
   description:
-    "Enroll in Medicare Supplement Plan G at 68 with broker support on underwriting, carriers, and rates. Call 855-559-1700 for a free Plan G review.",
+    "Enroll in Medicare Supplement Plan G at 68 with broker guidance on underwriting, carriers, and rates. Call 855-559-1700 for a free Plan G review today.",
   alternates: { canonical: "https://medicareyourself.com/services/enroll-in-medicare-supplement-plan-g-at-68" },
   openGraph: {
     title:
@@ -387,6 +387,7 @@ export default function EnrollInMedicareSupplementPlanGAt68() {
             <div className="text-sm text-gray-600 mt-4">For state-specific guidance, visit the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline hover:text-blue-700">New Jersey Department of Banking and Insurance</a> or contact your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline hover:text-blue-700">SHIP counselor</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">For state-specific guidance, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline hover:text-blue-700">State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">Independent help: <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline hover:text-blue-700">SHIP — free state-based Medicare counseling</a></div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline hover:text-blue-700">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
       </article>
     </>

@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
   description:
-    "Learn how 2026 Medicare IRMAA surcharges work on Part B & D, who pays, and how to appeal with SSA-44. Free licensed broker help — call 855-559-1700 today.",
+    "Understand 2026 Medicare IRMAA surcharges on Part B & D, who pays, and how to appeal with SSA-44. Free licensed broker help — call 855-559-1700 today.",
   alternates: { canonical: `${SITE_URL}/learn/irmaa-medicare-surcharge` },
   openGraph: {
     title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
@@ -399,6 +399,22 @@ const faqs = [
     question: "Does IRMAA change each year?",
     answer:
       "Yes. IRMAA income brackets and surcharge amounts are updated annually by CMS, and your status is recalculated each year using your most recent IRS tax return on file. If your income decreases below the threshold, your IRMAA can be removed the following year automatically.",
+  }
+,
+  {
+    question: "How do I appeal an IRMAA determination if my income has dropped?",
+    answer:
+      "If you've experienced a life-changing event such as retirement, divorce, or the death of a spouse, you can request a reduction by filing Form SSA-44 with the Social Security Administration. Submit the form along with documentation of the event and your estimated current income. SSA will review and, if approved, recalculate your IRMAA based on your more recent income.",
+  },
+  {
+    question: "How will I know if I have to pay IRMAA?",
+    answer:
+      "Social Security mails a predetermination notice if they believe you owe IRMAA based on your tax return from two years ago. The notice explains the surcharge amount and how to appeal if you've had a qualifying life-changing event. The extra amount is typically deducted directly from your Social Security benefit.",
+  },
+  {
+    question: "Does IRMAA change every year?",
+    answer:
+      "Yes. Social Security recalculates IRMAA annually based on your most recent tax return, so your surcharge can go up, go down, or disappear entirely from year to year. The income brackets themselves are also adjusted periodically for inflation.",
   }
 ];
 

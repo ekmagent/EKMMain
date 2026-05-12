@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare broker for heart disease patients | Free Help Finding the Right Plan | MedicareYourself",
   description:
-    "Medicare broker for heart disease patients — find plans covering cardiologists, cardiac rehab & heart meds. Free unbiased help. Call 855-559-1700.",
+    "Medicare broker for heart disease patients — compare plans covering cardiologists, cardiac rehab & heart meds. Free unbiased help. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-heart-disease-patients" },
   openGraph: {
     title:
@@ -177,6 +177,22 @@ const faqs = [
     question: "Does Medicare Part D cover common heart medications?",
     answer:
       "Yes, Part D plans cover most heart medications including statins, blood thinners, beta-blockers, and ACE inhibitors, but each plan has its own formulary and pricing tiers. The same drug can cost very different amounts depending on which Part D plan you choose. A broker can run your specific medication list against available plans to find the lowest annual out-of-pocket cost.",
+  }
+,
+  {
+    question: "Does Medicare cover heart medications and blood thinners?",
+    answer:
+      "Medicare Part D prescription drug plans cover most heart medications, including blood thinners, statins, beta-blockers, and ACE inhibitors. However, formularies vary by plan, so the same drug may have very different copays depending on which plan you choose. A broker can run your actual medication list through plan finders to identify the lowest total annual cost.",
+  },
+  {
+    question: "Are pre-existing heart conditions covered by Medicare?",
+    answer:
+      "Yes. Medicare does not exclude pre-existing conditions, so coverage for heart disease, prior heart attacks, or cardiac surgeries begins as soon as your Medicare is active. The one caveat is Medigap supplement plans: outside your Medigap Open Enrollment Period or a guaranteed-issue situation, insurers can use medical underwriting and may decline or charge more based on cardiac history.",
+  },
+  {
+    question: "Will my Medicare plan cover follow-up visits with my cardiologist?",
+    answer:
+      "Original Medicare Part B covers medically necessary cardiologist visits, diagnostic tests, and most outpatient cardiac care, with you responsible for the Part B deductible and coinsurance. Medicare Advantage plans also cover cardiology but typically require the specialist to be in-network and may require a referral. Confirming your cardiologist's network status before enrolling is critical.",
   }
 ];
 

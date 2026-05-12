@@ -423,6 +423,22 @@ const faqs = [
     answer:
       "Outside of your Medigap Open Enrollment Period or a guaranteed-issue situation, carriers in most states can use medical underwriting. That means they can ask health questions and may deny coverage, charge higher premiums, or impose waiting periods for pre-existing conditions. Call 855-559-1700 to review your options before applying.",
   }
+,
+  {
+    question: "Can I be denied a Medicare Supplement plan if I have pre-existing conditions?",
+    answer:
+      "During your 6-month Medigap Open Enrollment Period, insurance companies cannot deny you coverage, charge you more, or impose waiting periods based on pre-existing health conditions. Outside this window, in most states carriers can use medical underwriting to deny coverage or charge higher premiums. This is why timing your application during the protected window matters.",
+  },
+  {
+    question: "Do I need to re-enroll in my Medicare Supplement plan each year?",
+    answer:
+      "No. Medicare Supplement plans automatically renew each year as long as you pay your premium. Unlike Medicare Advantage plans, Medigap policies are guaranteed renewable and you do not need to take any action during the annual Medicare Open Enrollment Period to keep your coverage.",
+  },
+  {
+    question: "Can I switch Medicare Supplement plans after I enroll?",
+    answer:
+      "Yes, you can apply to switch Medigap plans at any time, but outside of guaranteed-issue situations the new carrier can use medical underwriting to approve or deny your application. Some states have additional protections that allow switching without underwriting. Call 855-559-1700 to review your state's specific rules before switching.",
+  }
 ];
 
 export default function HowToEnrollMedigapPage() {

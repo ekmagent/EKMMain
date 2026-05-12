@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare insurance agents in burlington new jersey | Free Local Help | MedicareYourself",
   description:
-    "Medicare insurance agents in Burlington, NJ — Anthony Orner, licensed independent broker, compares Medigap, Advantage & Part D plans. Call 855-559-1700.",
+    "Talk with a licensed Medicare broker serving Burlington, NJ. Compare Medigap, Advantage & Part D plans at no cost. Free local help — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-insurance-agents-in-burlington-new-jersey" },
   openGraph: {
     title:
@@ -84,6 +84,22 @@ const faqs = [
     answer:
       "Nothing. Independent Medicare brokers are compensated by insurance carriers. You pay the same premium whether you enroll directly or through a broker, but you get personalized guidance at no extra charge.",
   },
+,
+  {
+    question: "Does a Medicare broker in Burlington, NJ help after I enroll?",
+    answer:
+      "Yes. A good independent broker stays available year-round for billing questions, ID card issues, and provider network changes. They also review your plan each fall during the Annual Enrollment Period to make sure your prescriptions and doctors are still covered for the coming year.",
+  },
+  {
+    question: "When can I enroll in a Medigap plan in New Jersey?",
+    answer:
+      "Your best window is the 6-month Medigap Open Enrollment Period that starts the month you're 65 or older and enrolled in Part B. During this window, carriers cannot deny you coverage or charge more based on health. New Jersey uses community rating, so Medigap premiums are not based on your individual age.",
+  },
+  {
+    question: "Can I switch from Medicare Advantage to Medigap later?",
+    answer:
+      "You can apply, but outside of your initial Medigap Open Enrollment Period or a specific guaranteed-issue situation, insurers in New Jersey can use medical underwriting and may decline coverage. It's important to understand these rules before choosing your first plan, which is where a licensed broker can help.",
+  }
 ];
 
 export default function MedicareInsuranceAgentsBurlingtonNJ() {
@@ -337,6 +353,7 @@ export default function MedicareInsuranceAgentsBurlingtonNJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-2">New Jersey residents can also get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free unbiased Medicare counseling.</div>
       </section>
     </>
   );

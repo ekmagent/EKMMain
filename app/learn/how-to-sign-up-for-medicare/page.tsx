@@ -391,6 +391,22 @@ const faqs = [
     answer:
       "You generally need your Social Security number, birth certificate or proof of U.S. citizenship or lawful residency, and information about any current health coverage. If you are delaying Part B due to employer coverage, you will later need form CMS-L564 completed by your employer. Most applications can be completed online at SSA.gov/medicare in about 10 minutes.",
   }
+,
+  {
+    question: "How do I sign up for Medicare if I'm not getting Social Security yet?",
+    answer:
+      "You can apply online at ssa.gov/medicare, which takes about 10 minutes. You may also apply by calling Social Security or by visiting your local Social Security office. Apply during the 3 months before your 65th birthday month so your coverage starts on time.",
+  },
+  {
+    question: "What happens if I miss my Initial Enrollment Period?",
+    answer:
+      "If you miss your IEP and don't qualify for a Special Enrollment Period, you'll have to wait for the General Enrollment Period (January 1 – March 31) to sign up for Part B. You may also owe a permanent Part B late enrollment penalty for each 12-month period you went without coverage. Coverage from General Enrollment begins the month after you sign up.",
+  },
+  {
+    question: "Can a licensed broker help me sign up for Medicare?",
+    answer:
+      "A licensed broker cannot enroll you in Part A or Part B — that's done through Social Security. However, a broker can help you understand your enrollment timing, avoid late penalties, and choose a Medicare Supplement, Advantage, or Part D plan once you have your Medicare number. Call 855-559-1700 for free, no-obligation help.",
+  }
 ];
 
 export default function HowToSignUpPage() {

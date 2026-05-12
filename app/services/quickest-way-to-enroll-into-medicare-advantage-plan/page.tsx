@@ -345,6 +345,7 @@ export default function QuickestWayToEnrollMedicareAdvantagePlan() {
             <div className="text-sm text-gray-600 mt-4">Need free local counseling? Visit the <a href="https://www.shiphelp.org/" target="_blank" rel="noopener noreferrer" className="underline">State Health Insurance Assistance Program (SHIP)</a> for unbiased Medicare guidance in your state.</div>
             <div className="text-sm text-gray-600 mt-4">Need unbiased local help? Contact <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">Need free local counseling? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for unbiased Medicare guidance.</div>
+            <div className="text-sm text-gray-600 mt-4">Need unbiased help in your state? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
       </section>
     </main>
   );

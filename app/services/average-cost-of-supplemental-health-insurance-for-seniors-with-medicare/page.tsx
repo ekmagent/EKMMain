@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "average cost of supplemental health insurance for seniors with medicare | Free Broker Comparison | MedicareYourself",
   description:
-    "See what seniors typically pay for Medicare supplemental insurance in 2026 by plan, age, and state. Free broker comparison — call 855-559-1700 for your lowest rate.",
+    "See what seniors pay for Medicare supplemental insurance in 2026 by plan, age, and state. Free broker comparison — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/average-cost-of-supplemental-health-insurance-for-seniors-with-medicare" },
   openGraph: {
     title:
@@ -266,6 +266,17 @@ const faqs = [
     answer:
       "It depends on the pricing method your carrier uses. Attained-age-rated policies increase as you age, issue-age-rated policies are based on your age at enrollment but can rise with inflation, and community-rated policies charge everyone in your area the same regardless of age. All three types can still see annual rate adjustments for inflation and claims trends.",
   }
+,
+  {
+    question: "Does where I live affect what I pay for Medigap?",
+    answer:
+      "Yes. Medicare.gov notes that Medigap premiums vary widely depending on the insurance company, the plan, and where you live. Two seniors in different zip codes can pay very different rates for the exact same lettered plan. That's why a broker comparison across your specific state and county matters.",
+  },
+  {
+    question: "Do Medigap plans cover the Part B premium or Part A deductible?",
+    answer:
+      "Medigap plans do not pay your Part B premium — you continue paying that to Medicare directly. However, most popular Medigap plans, including Plan G and Plan N, fully cover the Part A hospital deductible. Coverage of other cost-sharing items depends on the specific plan letter you choose.",
+  }
 ];
 
 export default function AverageCostSupplementalInsurancePage() {
@@ -471,6 +482,7 @@ export default function AverageCostSupplementalInsurancePage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Need state-specific help? Contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> or your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">SHIP counselor</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can compare rates and file complaints through the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP</a>.</div>
       </section>
     </main>
   );

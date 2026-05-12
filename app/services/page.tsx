@@ -9,7 +9,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Medicare Services & Guides | MedicareYourself",
   description:
-    "Compare Medigap, Medicare Advantage & Part D with a licensed independent broker in NJ & 34 states. Free, unbiased plan reviews — call 855-559-1700 today.",
+    "Compare Medigap, Medicare Advantage & Part D with a licensed independent broker in NJ & 34 states. Free, unbiased plan reviews — call 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/services` },
   openGraph: {
     title: "Medicare Services & Guides | MedicareYourself",
@@ -486,6 +486,22 @@ const STATIC_CATEGORIES = [
     answer:
       "Yes, you can change Medicare Advantage or Part D plans during the Annual Enrollment Period each fall, and Medigap plans can often be changed year-round, though medical underwriting may apply outside of guaranteed-issue windows. State rules and your health history affect eligibility. A licensed broker can review your specific situation before you switch.",
   }
+,
+  {
+    question: "What does a licensed Medicare broker actually do?",
+    answer:
+      "A licensed Medicare broker helps you compare Medigap, Medicare Advantage, and Part D plans from multiple carriers so you can choose coverage that fits your health needs and budget. Brokers are appointed and certified to enroll you directly, and their guidance is typically free to you. You keep the same benefits whether you enroll on your own through Medicare.gov or through a broker.",
+  },
+  {
+    question: "Is there a cost to work with MedicareYourself?",
+    answer:
+      "No. Our services are free to consumers because licensed brokers are compensated by insurance carriers when an enrollment is completed. Your plan premium is the same whether you enroll directly with the carrier or with our help. Call 855-559-1700 to review your options at no cost.",
+  },
+  {
+    question: "Can you help me if I don't live in New Jersey?",
+    answer:
+      "Yes. Anthony Orner is licensed in New Jersey and 34 additional states, so we can review plans and complete enrollments across most of the country. Plan availability and pricing vary by ZIP code, so we'll quote the specific carriers offered in your area.",
+  }
 ];
 
 export default function ServicesHubPage() {
@@ -603,6 +619,7 @@ export default function ServicesHubPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents: visit the <a href="https://www.state.nj.us/dobi/division_insurance/ship/ship.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/dobi/division_insurance/ship/shipindex.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
       </section>
     </>
   );

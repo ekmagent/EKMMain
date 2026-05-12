@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Find an NJ Medicare Broker Near You | Free No-Pressure Help | MedicareYourself",
   description:
-    "Find an NJ Medicare broker near you — Anthony Orner compares top carriers statewide at zero cost. Independent, no pressure. Call 855-559-1700 for free help.",
+    "Find an NJ Medicare broker near you — Anthony Orner compares top carriers statewide at no cost. Independent, no pressure. Call 855-559-1700 for free help today.",
   alternates: { canonical: "https://medicareyourself.com/services/find-an-nj-medicare-broker-near-you" },
   openGraph: {
     title:
@@ -100,6 +100,22 @@ const faqs = [
     question: "Will a broker help me after I enroll, or only during sign-up?",
     answer:
       "A good independent broker stays with you year after year, not just at enrollment. That includes annual plan reviews during the Annual Enrollment Period, help when your prescriptions or doctors change, and support if a claim or billing question comes up. You can call your broker directly instead of waiting on a carrier hotline.",
+  }
+,
+  {
+    question: "Can I meet with an NJ Medicare broker in person, or only by phone?",
+    answer:
+      "Both options are available. Anthony Orner meets with New Jersey beneficiaries by phone, video call, or in person depending on your preference and location. Many clients prefer phone or video because it lets them review plan documents on screen together in real time.",
+  },
+  {
+    question: "Will a broker still help me after I enroll?",
+    answer:
+      "Yes. A good independent broker provides ongoing service at no cost, including help with claims questions, ID card issues, and annual plan reviews during the Annual Enrollment Period. The carrier continues to compensate the broker as long as you stay enrolled, so there's no extra fee for support.",
+  },
+  {
+    question: "What information should I have ready when I call a Medicare broker?",
+    answer:
+      "It helps to have your Medicare card with your Part A and Part B effective dates, a list of your current prescriptions with dosages, and the names of your preferred doctors and hospitals. With that information, a broker can quickly compare plans that cover your providers and medications.",
   }
 ];
 
@@ -387,6 +403,7 @@ export default function FindNJMedicareBrokerNearYou() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-700 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

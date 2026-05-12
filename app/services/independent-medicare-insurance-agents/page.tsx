@@ -96,6 +96,17 @@ const faqs = [
     answer:
       "Have your Medicare card, a list of your current prescriptions with dosages, and the names of doctors and specialists you want to keep. Knowing your ZIP code and preferred pharmacy also helps the agent run accurate plan comparisons so you see real out-of-pocket costs for your situation.",
   }
+,
+  {
+    question: "How does an independent Medicare agent get paid if their help is free to me?",
+    answer:
+      "Independent agents are compensated directly by the insurance carriers when a client enrolls in a plan. Commission rates are standardized by CMS, so agents have no financial incentive to push one carrier over another. This structure keeps the service free for you while allowing the agent to offer unbiased comparisons.",
+  },
+  {
+    question: "Can an independent Medicare agent help with both Medicare Advantage and Medicare Supplement plans?",
+    answer:
+      "Yes. A properly appointed independent agent can present Medicare Advantage plans, Medicare Supplement (Medigap) policies, and standalone Part D prescription drug plans. This lets you compare the two main paths to Medicare coverage side by side before deciding which fits your health needs and budget.",
+  }
 ];
 
 export default function IndependentMedicareInsuranceAgentsPage() {

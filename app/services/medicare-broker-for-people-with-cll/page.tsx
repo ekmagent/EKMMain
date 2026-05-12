@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare broker for people with CLL | Free Consult | MedicareYourself",
   description:
-    "Medicare broker for people with CLL — guidance on Medigap underwriting, Part D oral cancer drugs, and specialist access. Call 855-559-1700 for a free consult.",
+    "Medicare broker for people with CLL — get clear guidance on Medigap underwriting, Part D oral cancer drugs, and specialist access. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-people-with-cll" },
   openGraph: {
     title:
@@ -151,6 +151,22 @@ const faqs = [
     question: "Does Medicare Part B cover a second opinion from a CLL specialist?",
     answer:
       "Yes. Medicare Part B covers second opinions for medical conditions including CLL when your doctor recommends surgery or a major treatment decision. If the first and second opinions differ, Medicare will also help cover a third opinion. This benefit is especially valuable for CLL patients deciding between watch-and-wait, targeted therapy, or clinical trial options.",
+  }
+,
+  {
+    question: "Does Medicare Part D cover BTK inhibitors and other oral CLL drugs?",
+    answer:
+      "Yes. Oral targeted therapies for CLL, including BTK inhibitors and BCL-2 inhibitors, are typically covered under Medicare Part D prescription drug plans. Coverage, tier placement, and prior authorization rules vary by plan, so comparing formularies is important before enrolling. We can help you review which Part D plan best covers your specific medications.",
+  },
+  {
+    question: "Can I switch from Medicare Advantage back to Original Medicare after a CLL diagnosis?",
+    answer:
+      "You can switch plan types during the Annual Enrollment Period or the Medicare Advantage Open Enrollment Period. However, returning to Original Medicare does not guarantee you can buy a Medigap plan — outside of guaranteed issue rights, carriers can use medical underwriting and may deny coverage due to CLL. Timing matters, so call 855-559-1700 before making changes.",
+  },
+  {
+    question: "Does Medicare cover clinical trials for CLL?",
+    answer:
+      "Medicare covers routine costs of qualifying clinical trials, including office visits, lab tests, and standard care that would be covered outside the trial. The investigational drug or device itself is often provided by the trial sponsor. Talk with your oncologist and trial coordinator to confirm what Medicare will and will not cover in your specific study.",
   }
 ];
 
@@ -427,6 +443,7 @@ export default function MedicareBrokerForPeopleWithCLL() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">New Jersey State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">For free, unbiased counseling, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> or the <a href="https://www.nj.gov/dobi/division_insurance/" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </>
   );

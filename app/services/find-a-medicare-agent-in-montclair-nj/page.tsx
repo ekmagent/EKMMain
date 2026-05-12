@@ -111,6 +111,17 @@ const faqs = [
     answer:
       "Yes. Calling a carrier connects you with a representative who can only sell that company's plans. An independent broker in Montclair compares plans across multiple carriers, so you see how options stack up side by side. Premiums and benefits are identical whether you enroll through a broker or directly.",
   }
+,
+  {
+    question: "When can I enroll in Medicare or change plans in Montclair?",
+    answer:
+      "Most people first enroll during their Initial Enrollment Period, the seven-month window around their 65th birthday. After that, the Annual Enrollment Period runs October 15 through December 7 each year for Medicare Advantage and Part D changes. Medicare Advantage enrollees also get a separate Open Enrollment Period from January 1 through March 31. A Montclair broker can confirm which window applies to you.",
+  },
+  {
+    question: "Can a Medicare agent in Montclair help with both Medigap and Medicare Advantage?",
+    answer:
+      "Yes. An independent broker licensed in New Jersey can compare both Medicare Supplement (Medigap) and Medicare Advantage plans side by side. This matters because the two work very differently in terms of network rules, out-of-pocket costs, and how secondary coverage is handled. Reviewing both helps you choose the structure that fits your doctors and budget.",
+  }
 ];
 
 export default function FindMedicareAgentMontclairNJ() {
@@ -399,6 +410,7 @@ export default function FindMedicareAgentMontclairNJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey beneficiaries can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">For free, unbiased counseling in Essex County, contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey SHIP (State Health Insurance Assistance Program)</a> or the <a href="https://www.nj.gov/dobi/" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey beneficiaries can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

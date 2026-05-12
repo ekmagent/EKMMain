@@ -95,6 +95,22 @@ const faqs = [
     answer:
       "Yes. When you buy a new Medigap policy, you get a 30-day free look period to decide if you want to keep it. You should keep your old policy active and pay both premiums during this time, then cancel the old one once you're sure about the new plan.",
   }
+,
+  {
+    question: "What is the Medigap free look period?",
+    answer:
+      "When you switch Medigap policies, you have a 30-day free look period to decide if you want to keep the new policy. During this time, you'll need to pay premiums for both your old and new policies. If you decide to keep the new plan, you can then cancel the old one.",
+  },
+  {
+    question: "Do I have to answer health questions to switch Medigap plans?",
+    answer:
+      "Outside of your 6-month Medigap Open Enrollment Period or a guaranteed issue situation, carriers can require medical underwriting. This means answering health questions, and they may deny coverage or charge higher premiums based on your answers. During Open Enrollment or guaranteed issue periods, no health questions apply.",
+  },
+  {
+    question: "Can I switch from Medicare Advantage back to Original Medicare with a Medigap plan?",
+    answer:
+      "Yes, you can switch from Medicare Advantage to Original Medicare during the Annual Enrollment Period or the Medicare Advantage Open Enrollment Period. However, getting a Medigap policy afterward may require medical underwriting unless you qualify for a guaranteed issue right, such as a trial right within your first year on Advantage.",
+  }
 ];
 
 export default function WhatTimeOfYearCanYouSwitchMedigap() {

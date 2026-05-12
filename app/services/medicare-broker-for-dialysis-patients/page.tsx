@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for dialysis patients | Free ESRD Plan Review | MedicareYourself",
   description:
-    "Medicare broker for dialysis patients — ESRD eligibility, home dialysis coverage, and Advantage vs. Medigap explained. Free plan review: call 855-559-1700.",
+    "Medicare broker for dialysis patients — ESRD eligibility, home dialysis coverage, and plan comparisons explained. Free review: call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-dialysis-patients" },
   openGraph: {
     title:

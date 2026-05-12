@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare advise in new jersey | Free Expert Guidance | MedicareYourself",
   description:
-    "Get free Medicare advice in New Jersey from licensed broker Anthony Orner. Compare Medigap, Advantage & Part D plans with no pressure. Call 855-559-1700.",
+    "Free Medicare advice in New Jersey from licensed broker Anthony Orner. Compare Medigap, Advantage & Part D plans with zero pressure. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-advise-in-new-jersey" },
   openGraph: {
     title:
@@ -328,6 +328,7 @@ export default function MedicareAdviseInNewJersey() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">New Jersey State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.nj.gov/humanservices/doas/services/q-z/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">New Jersey State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.nj.gov/humanservices/doas/services/q-z/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-700 hover:underline">New Jersey State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </>
   );

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for asthma sufferers | Free Inhaler Coverage Check | MedicareYourself",
   description:
-    "Medicare broker for asthma sufferers tired of overpaying for inhalers and rescue meds. Anthony Orner finds plans that cover what you breathe. Free review.",
+    "Medicare broker for asthma sufferers. Anthony Orner compares Part D formularies so your inhalers and rescue meds cost less. Free plan review — call today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-asthma-sufferers" },
   openGraph: {
     title:

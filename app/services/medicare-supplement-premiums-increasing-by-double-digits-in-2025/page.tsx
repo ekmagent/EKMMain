@@ -162,6 +162,22 @@ const faqs = [
     answer:
       "Not necessarily. Rate increases usually reflect rising medical claim costs and the aging of a carrier's policyholder pool, not financial instability. Still, a sustained pattern of large increases is a signal to compare other carriers offering the same standardized plan letter.",
   }
+,
+  {
+    question: "What should I do if I get a Medigap rate increase letter?",
+    answer:
+      "Don't panic or drop coverage immediately. Compare quotes from other carriers offering the same standardized plan letter, since benefits are identical by law. If you're healthy enough to pass underwriting in your state, switching can lock in a lower rate. Call 855-559-1700 for a free rate review.",
+  },
+  {
+    question: "Are all Medigap Plan G policies the same?",
+    answer:
+      "Yes, benefits under each lettered plan are standardized by federal law, so Plan G from one carrier covers the exact same services as Plan G from another. The only differences between carriers are price, customer service, and rate increase history. That's why shopping carriers can save money without reducing coverage.",
+  },
+  {
+    question: "Why are Medigap premiums rising faster in 2025?",
+    answer:
+      "Carriers point to higher medical claim costs, increased utilization of healthcare services, and an aging policyholder pool as the main drivers behind double-digit increases. Some blocks of business that have been closed to new enrollees see even steeper hikes. Reviewing your options at renewal is the best defense.",
+  }
 ];
 
 export default function MedicareSupplementPremiumsIncreasing2025() {

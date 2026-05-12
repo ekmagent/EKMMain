@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare specialists in cranford, nj office | Free Local Help | MedicareYourself",
   description:
-    "Medicare specialists in Cranford, NJ — broker Anthony Orner compares Medigap, Advantage & Part D across carriers. Free local help. Call 855-559-1700 today.",
+    "Medicare specialists in Cranford, NJ — broker Anthony Orner compares Medigap, Advantage & Part D across carriers. Free local help. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-specialists-in-cranford-nj-office" },
   openGraph: {
     title:

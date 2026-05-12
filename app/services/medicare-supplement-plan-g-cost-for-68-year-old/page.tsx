@@ -290,6 +290,7 @@ export default function MedicareSupplementPlanGCostFor68YearOld() {
         </ul>
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/health-drug-plans/medigap/basics/costs" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — How Medigap Costs Are Set</a> and <a href="https://www.medicare.gov/plan-compare/" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov Plan Compare Tool</a>.</div>
             <div className="text-sm text-gray-600 mt-4">For state-specific rate filings and consumer help, visit the <a href="https://www.state.nj.us/dobi/division_insurance/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> or contact <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">your local SHIP program</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">For state-specific guidance, visit the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> or contact your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">SHIP (State Health Insurance Assistance Program)</a> for free counseling.</div>
       </section>
     </main>
   );

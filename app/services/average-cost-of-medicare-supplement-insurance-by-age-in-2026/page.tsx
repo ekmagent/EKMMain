@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Average Cost of Medicare Supplement Insurance by Age (2026) | Free Rate Comparison | MedicareYourself",
   description:
-    "Compare 2026 Medicare Supplement costs by age — real NJ carrier rates at 65, 70, 75+. Call 855-559-1700 for a free personalized Medigap quote today.",
+    "Compare 2026 Medicare Supplement costs by age — see how Medigap premiums change at 65, 70, and 75+. Call 855-559-1700 for a free personalized quote.",
   alternates: { canonical: "https://medicareyourself.com/services/average-cost-of-medicare-supplement-insurance-by-age-in-2026" },
   openGraph: {
     title:

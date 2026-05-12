@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title:
     "How to Enroll in Medicare Online at SSA.gov (Step-by-Step Walkthrough)",
   description:
-    "Step-by-step SSA.gov Medicare enrollment walkthrough — finish your Part A & Part B application in about 10 minutes. Free broker help at 855-559-1700.",
+    "Step-by-step SSA.gov Medicare enrollment walkthrough — finish your Part A and Part B application in about 10 minutes. Free broker help at 855-559-1700.",
   alternates: {
     canonical: `${SITE_URL}/learn/ssa-online-enrollment-walkthrough`,
   },
@@ -496,6 +496,22 @@ const steps = [
     question: "Do I have to enroll in Part B when I sign up online?",
     answer:
       "No. The SSA application asks separately whether you want Part A only or both Part A and Part B. If you have qualifying employer coverage, you may choose to delay Part B to avoid paying the Part B premium until you actually need it. A licensed broker can help you decide — call 855-559-1700.",
+  }
+,
+  {
+    question: "How long does the SSA online Medicare application take?",
+    answer:
+      "Most people complete the SSA.gov Medicare-only application in about 10 minutes if they have their information ready. You'll need your Social Security number, a driver's license or state ID for identity verification, and details about any current health insurance coverage.",
+  },
+  {
+    question: "Can I apply for Medicare online without starting Social Security retirement benefits?",
+    answer:
+      "Yes. During the application, you can choose to apply for Medicare only and delay your retirement benefits. This is a common choice for people who plan to keep working past 65 or want their retirement benefit to keep growing.",
+  },
+  {
+    question: "What happens after I submit my Medicare application on SSA.gov?",
+    answer:
+      "Once you click Submit Now, you cannot modify the application online. SSA will review your submission and mail your Medicare card and a decision notice, typically within a few weeks. If they need additional information, they will contact you by mail or phone.",
   }
 ];
 

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Find a Medicare Agent in North Bergen NJ | Free Broker Help | MedicareYourself",
   description:
-    "Find a Medicare agent in North Bergen, NJ who compares Supplement and Advantage plans across carriers. Anthony Orner offers free, no-pressure consultations.",
+    "Find a Medicare agent in North Bergen, NJ to compare Supplement, Advantage, and Part D plans across carriers. Free, no-pressure help — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/find-a-medicare-agent-in-north-bergen-nj" },
   openGraph: {
     title:

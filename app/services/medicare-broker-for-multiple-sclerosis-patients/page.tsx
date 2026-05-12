@@ -199,6 +199,12 @@ const faqs = [
     answer:
       "Yes. MRIs ordered by your doctor to monitor MS are covered under Medicare Part B as diagnostic imaging. You'll typically pay the Part B coinsurance after meeting the annual deductible, unless a Medigap policy covers that cost. Medicare Advantage plans usually cover MRIs but may require prior authorization before the scan is approved.",
   }
+,
+  {
+    question: "Does Medicare cover MRI scans for MS monitoring?",
+    answer:
+      "Yes. Medicare Part B covers medically necessary MRI scans ordered by your doctor to monitor MS progression. You'll typically pay coinsurance after meeting the Part B deductible. Medicare Advantage plans also cover MRIs but may require prior authorization, which can delay scheduling.",
+  }
 ];
 
 export default function MedicareBrokerForMSPatients() {
@@ -417,6 +423,7 @@ export default function MedicareBrokerForMSPatients() {
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">NJ residents: free counseling is available through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
       </article>
     </>

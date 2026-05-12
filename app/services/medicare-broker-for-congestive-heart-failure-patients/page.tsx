@@ -146,6 +146,22 @@ const faqs = [
     answer:
       "If you have Original Medicare with a Medigap plan, you can see any provider who accepts Medicare nationwide. Medicare Advantage plans use provider networks, so you'll need to confirm your cardiologist is in-network before enrolling. Anthony verifies provider participation as part of every plan review.",
   }
+,
+  {
+    question: "Does Medicare cover heart failure medications under Part D?",
+    answer:
+      "Most heart failure medications, including ACE inhibitors, beta blockers, diuretics, and SGLT2 inhibitors, are covered under Medicare Part D prescription drug plans. Coverage and copays vary by plan formulary, so it's important to compare plans based on your specific medication list. Anthony can run your drug list through multiple plans to find the lowest total annual cost.",
+  },
+  {
+    question: "Will Medicare cover a cardiologist for ongoing CHF management?",
+    answer:
+      "Yes. Medicare Part B covers medically necessary visits to cardiologists for ongoing heart failure management, including diagnostic tests like echocardiograms and EKGs. With Original Medicare, you can see any cardiologist who accepts Medicare. Medicare Advantage plans typically require you to stay in-network or get referrals, which is something to weigh if you already have an established cardiac care team.",
+  },
+  {
+    question: "Are home health services covered for CHF patients?",
+    answer:
+      "Medicare covers part-time skilled home health services for CHF patients who are homebound and need skilled nursing or therapy ordered by a doctor. This can include monitoring vital signs, medication management, and patient education. The benefit is the same under Original Medicare and Medicare Advantage, but Advantage plans may require prior authorization.",
+  }
 ];
 
 export default function MedicareBrokerCHFPage() {
@@ -370,6 +386,7 @@ export default function MedicareBrokerCHFPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );
