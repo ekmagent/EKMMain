@@ -513,6 +513,22 @@ const steps = [
     answer:
       "Once you click Submit Now, you cannot modify the application online. SSA will review your submission and mail your Medicare card and a decision notice, typically within a few weeks. If they need additional information, they will contact you by mail or phone.",
   }
+,
+  {
+    question: "How long does the SSA online Medicare application take?",
+    answer:
+      "Most people complete the SSA.gov Medicare-only application in about 10 minutes. Having your Social Security number, driver's license, and current health insurance information ready before you start will help you move through the screens without interruption.",
+  },
+  {
+    question: "Can I apply for Medicare online if I'm not ready to start Social Security retirement benefits?",
+    answer:
+      "Yes. The SSA application includes an option to apply for Medicare only, without starting your Social Security retirement benefits. This is a common choice for people who plan to keep working or delay claiming Social Security until a later age.",
+  },
+  {
+    question: "What happens after I submit my Medicare application on SSA.gov?",
+    answer:
+      "After you submit, you cannot modify the application online. Social Security will review your information and mail your Medicare card, typically within a few weeks. If SSA needs additional documentation, they will contact you by mail or phone.",
+  }
 ];
 
 export default function SSAOnlineEnrollmentWalkthrough() {

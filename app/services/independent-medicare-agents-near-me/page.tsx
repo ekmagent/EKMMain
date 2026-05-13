@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "independent medicare agents near me | Free Broker Help, No Sales Pitch | MedicareYourself",
   description:
-    "Find an independent Medicare agent near you. Anthony Orner compares 30+ carriers across NJ & 34 states — free, unbiased help. Call 855-559-1700 today.",
+    "Find an independent Medicare agent near you. Anthony Orner compares 30+ carriers across NJ & 34 states — free, unbiased help. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/independent-medicare-agents-near-me" },
   openGraph: {
     title:

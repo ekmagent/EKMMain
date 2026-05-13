@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "free independent medicare broker near me new jersey | Free Quote | MedicareYourself",
   description:
-    "Compare Medigap & Medicare Advantage plans across top carriers with a free independent NJ broker. No fees, no pressure. Call 855-559-1700 for a free quote.",
+    "Work with a free independent NJ Medicare broker. Anthony Orner compares Medigap and Advantage plans from top carriers at no cost. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/free-independent-medicare-broker-near-me-new-jersey" },
   openGraph: {
     title:

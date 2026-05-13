@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for hearing loss patients | Free Plan Review | MedicareYourself",
   description:
-    "Medicare broker for hearing loss patients — compare NJ Advantage plans with hearing aid and audiology benefits at no cost. Call 855-559-1700 for a free review.",
+    "Medicare broker for hearing loss patients—compare NJ Advantage plans with hearing aid and audiology benefits at no cost. Call 855-559-1700 for a free review.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-hearing-loss-patients" },
   openGraph: {
     title:

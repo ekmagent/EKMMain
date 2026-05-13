@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "You Get a Medicare Supplement Plan If You Have a Pre-Existing Condition | Free Guidance | MedicareYourself",
   description:
-    "Yes, you can get a Medicare Supplement plan with a pre-existing condition. Learn enrollment windows and guaranteed-issue rights. Call 855-559-1700 today.",
+    "Yes, you can get a Medicare Supplement plan with a pre-existing condition during the right window. Learn guaranteed-issue rights. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/you-get-a-medicare-supplement-plan-if-you-have-a-pre-existing-condition" },
   openGraph: {
     title:

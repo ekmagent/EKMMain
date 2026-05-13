@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare part d insurance brokers 18517 | Free Plan Comparison | MedicareYourself",
   description:
-    "Compare every Medicare Part D drug plan in 18517 with broker Anthony Orner. Free, unbiased reviews to lower prescription costs. Call 855-559-1700 today.",
+    "Compare every Medicare Part D drug plan in 18517 with licensed broker Anthony Orner. Free, unbiased reviews to lower Rx costs — call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-part-d-insurance-brokers-18517" },
   openGraph: {
     title:
@@ -305,6 +305,7 @@ export default function MedicarePartDBrokers18517() {
             <div className="text-sm text-gray-600 mt-4">Pennsylvania residents in 18517 can also get free Medicare counseling through <a href="https://www.aging.pa.gov/aging-services/Pages/APPRISE.aspx" rel="noopener noreferrer" target="_blank" className="underline">APPRISE, Pennsylvania's State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-2">Pennsylvania residents in 18517 can also contact <a href="https://www.aging.pa.gov/aging-services/insurance/Pages/default.aspx" rel="noopener noreferrer" target="_blank" className="underline">PA APPRISE</a>, the state's free SHIP counseling program, or the <a href="https://www.insurance.pa.gov/" rel="noopener noreferrer" target="_blank" className="underline">Pennsylvania Insurance Department</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Free local counseling: <a href="https://www.insurance.pa.gov/Consumers/Pages/APPRISE.aspx" rel="noopener noreferrer" target="_blank" className="underline">Pennsylvania APPRISE SHIP Program</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">Free local counseling: <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">Find your State Health Insurance Assistance Program (SHIP)</a> for unbiased Medicare guidance.</div>
       </section>
     </>
   );

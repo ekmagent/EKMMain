@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Exploring Medicare Supplemental Insurance (Medigap) Cost | Free Rate Comparison | MedicareYourself",
   description:
-    "Compare Medigap premiums by plan letter, pricing model, and ZIP. Get a free rate review from a licensed broker — call 855-559-1700 to lower your monthly cost.",
+    "Compare Medigap costs by plan letter, pricing model, and ZIP. Get a free rate review from a licensed broker — call 855-559-1700 to find your lowest premium.",
   alternates: { canonical: "https://medicareyourself.com/services/exploring-medicare-supplemental-insurance-medigap-cost" },
   openGraph: {
     title:

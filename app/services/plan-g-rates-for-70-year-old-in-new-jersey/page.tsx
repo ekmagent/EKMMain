@@ -137,6 +137,17 @@ const faqs = [
     answer:
       "The federal 6-month Medigap Open Enrollment Period begins the month you turn 65 and are enrolled in Medicare Part B. During this window, you have guaranteed issue rights and cannot be denied coverage or charged more for health reasons. If you're already past this period at age 70, you may need to answer health questions to switch carriers.",
   }
+,
+  {
+    question: "Why do Plan G premiums vary so much between carriers in New Jersey?",
+    answer:
+      "Even though every Plan G policy covers the exact same federally standardized benefits, each insurance company sets its own premium. That means the price is the only real difference between Plan G policies from different carriers. Shopping multiple NJ carriers is the most effective way to lower your monthly cost.",
+  },
+  {
+    question: "Is it worth using a broker to compare Plan G rates in NJ?",
+    answer:
+      "Yes. A licensed independent broker can quote multiple New Jersey carriers in one call, explain how community-rated pricing works in NJ, and flag which companies have a history of stable renewal increases. There's no extra cost to you — premiums are the same whether you enroll through a broker or directly with the carrier.",
+  }
 ];
 
 export default function PlanGRates70NJ() {
@@ -379,6 +390,7 @@ export default function PlanGRates70NJ() {
 </ul>
               <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/health-drug-plans/medigap" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Compare Medigap policies</a> and the <a href="https://www.nj.gov/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey SHIP (State Health Insurance Assistance Program)</a> for free unbiased counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey resource: <a href="https://www.nj.gov/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> and <a href="https://www.nj.gov/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also review the <a href="https://www.nj.gov/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
       </section>
       </article>
     </>

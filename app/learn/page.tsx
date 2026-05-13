@@ -7,7 +7,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Medicare Education Guides | MedicareYourself",
   description:
-    "Free Medicare guides from a licensed broker — Parts A-D, Medigap, enrollment, IRMAA, and low-income help in plain English. Call 855-559-1700 for help.",
+    "Free plain-English Medicare guides from a licensed broker — Parts A-D, Medigap, enrollment, IRMAA, and low-income help. Call 855-559-1700 for personal answers.",
   alternates: { canonical: `${SITE_URL}/learn` },
   openGraph: {
     title: "Medicare Education Guides | MedicareYourself",
@@ -144,6 +144,12 @@ const GUIDES = [
     answer:
       "It depends on how you value flexibility versus lower upfront premiums. Medigap paired with Original Medicare and a Part D plan lets you see any provider that accepts Medicare and tends to have predictable out-of-pocket costs, while Medicare Advantage usually has lower premiums but uses networks and prior authorization. The best fit depends on your doctors, prescriptions, travel habits, and budget. Call 855-559-1700 for a side-by-side comparison.",
   }
+,
+  {
+    question: "How do I know if I should choose Original Medicare with Medigap or Medicare Advantage?",
+    answer:
+      "The right choice depends on your priorities around provider access, predictability of costs, travel needs, and prescription drug coverage. Original Medicare with a Medigap policy generally offers broader provider access and more predictable out-of-pocket costs, while Medicare Advantage often bundles extras but uses networks and prior authorization. Reading our Medigap and Parts A-D guides side by side can help, or call 855-559-1700 for a personal comparison.",
+  }
 ];
 
 export default function LearnHubPage() {
@@ -240,6 +246,7 @@ export default function LearnHubPage() {
             <div className="text-sm text-gray-600 mt-4">For free one-on-one Medicare counseling in your state, contact your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free local Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free local counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </>
   );

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare enrollment help for people with lupus california | Free Guidance | MedicareYourself",
   description:
-    "Medicare help for Californians with lupus — compare plans covering rheumatologists, biologics & infusions. Free licensed broker guidance. Call 855-559-1700.",
+    "Medicare help for Californians with lupus — compare plans covering rheumatologists, biologics, and infusions. Free licensed broker guidance. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-enrollment-help-for-people-with-lupus-california" },
   openGraph: {
     title:
@@ -187,6 +187,22 @@ const faqs = [
     question: "Can I get help paying for lupus medications if I'm on a fixed income?",
     answer:
       "Yes. The Medicare Extra Help program (Low Income Subsidy) lowers Part D drug costs for those who qualify. California also offers the Medicare Savings Programs through Medi-Cal, which can help pay Part B premiums and cost-sharing. Call 855-559-1700 to review eligibility.",
+  }
+,
+  {
+    question: "Does Medicare Advantage or Original Medicare work better for lupus patients in California?",
+    answer:
+      "It depends on your treatment team and medications. Original Medicare with a Medigap plan offers broader provider access, which matters if you see rheumatologists at academic centers like UCLA or UCSF. Medicare Advantage plans may have lower upfront costs but use networks and prior authorization. A licensed broker can compare both based on your specific doctors and biologics.",
+  },
+  {
+    question: "Will Medicare cover lab work and imaging needed to monitor lupus?",
+    answer:
+      "Yes. Medicare Part B covers medically necessary lab tests, blood work, and imaging used to monitor lupus activity and organ involvement, including kidney function tests for lupus nephritis. You'll typically owe coinsurance after meeting the Part B deductible unless you have supplemental coverage that fills in those costs.",
+  },
+  {
+    question: "Can a Medicare Part D plan help lower my lupus medication costs?",
+    answer:
+      "Yes. Part D plans cover self-administered prescriptions such as hydroxychloroquine, oral corticosteroids, and immunosuppressants commonly used for lupus. Formularies and tier placement vary by plan, so comparing options each year during the Annual Enrollment Period can reduce your out-of-pocket spending. Call 855-559-1700 for a free formulary check.",
   }
 ];
 
@@ -452,6 +468,7 @@ export default function MedicareEnrollmentHelpLupusCalifornia() {
             <div className="text-sm text-gray-600 mt-4">California beneficiaries can get free local Medicare counseling through <a href="https://aging.ca.gov/HICAP/" rel="noopener noreferrer" target="_blank" className="underline">California's Health Insurance Counseling and Advocacy Program (HICAP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">California residents can get free local Medicare counseling through <a href="https://aging.ca.gov/HICAP/" rel="noopener noreferrer" target="_blank" className="underline">California HICAP (Health Insurance Counseling and Advocacy Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">California residents can get free, unbiased Medicare counseling through <a href="https://aging.ca.gov/HICAP/" rel="noopener noreferrer" target="_blank" className="underline">California's Health Insurance Counseling and Advocacy Program (HICAP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">California residents: <a href="https://aging.ca.gov/HICAP/" rel="noopener noreferrer" target="_blank" className="underline">Health Insurance Counseling &amp; Advocacy Program (HICAP)</a> offers free Medicare counseling statewide.</div>
       </section>
     </main>
   );

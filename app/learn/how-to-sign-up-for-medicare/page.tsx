@@ -407,6 +407,22 @@ const faqs = [
     answer:
       "A licensed broker cannot enroll you in Part A or Part B — that's done through Social Security. However, a broker can help you understand your enrollment timing, avoid late penalties, and choose a Medicare Supplement, Advantage, or Part D plan once you have your Medicare number. Call 855-559-1700 for free, no-obligation help.",
   }
+,
+  {
+    question: "Can I sign up for Medicare if I am still working at 65?",
+    answer:
+      "Yes. You can enroll in Medicare at 65 even if you are still working. Many people sign up for premium-free Part A and delay Part B if they have creditable employer coverage from active employment. Confirm with your employer's HR department whether your group plan counts as creditable coverage before delaying Part B.",
+  },
+  {
+    question: "How long does it take to get my Medicare card after applying?",
+    answer:
+      "After you apply through SSA.gov, Social Security typically processes your application within a few weeks. Your red, white, and blue Medicare card is mailed to the address on file. If you are automatically enrolled, your card arrives about 3 months before your 65th birthday month.",
+  },
+  {
+    question: "What happens if I miss my Medicare Initial Enrollment Period?",
+    answer:
+      "If you miss your 7-month Initial Enrollment Period and do not qualify for a Special Enrollment Period, you must wait for the General Enrollment Period (January 1 – March 31) to sign up for Part B. You may also owe a permanent Part B late enrollment penalty that is added to your monthly premium for as long as you have Medicare.",
+  }
 ];
 
 export default function HowToSignUpPage() {

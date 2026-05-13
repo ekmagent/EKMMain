@@ -100,6 +100,12 @@ const faqs = [
     answer:
       "You can apply, but outside of your initial Medigap Open Enrollment Period or a specific guaranteed-issue situation, insurers in New Jersey can use medical underwriting and may decline coverage. It's important to understand these rules before choosing your first plan, which is where a licensed broker can help.",
   }
+,
+  {
+    question: "When can I enroll in a Medigap plan in New Jersey?",
+    answer:
+      "Your best window is the 6-month Medigap Open Enrollment Period that begins the month you're 65 or older and enrolled in Part B. During this period, you have guaranteed issue rights and can't be turned down or charged more for health reasons. New Jersey uses community rating, meaning Medigap premiums are the same regardless of age within a given plan and carrier.",
+  }
 ];
 
 export default function MedicareInsuranceAgentsBurlingtonNJ() {

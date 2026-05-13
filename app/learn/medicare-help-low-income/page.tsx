@@ -223,6 +223,22 @@ const programs = [
     answer:
       "No. Qualifying for a Medicare Savings Program or Extra Help does not reduce your Social Security check, Medicare coverage, or other federal benefits. In fact, if your state pays your Part B premium through an MSP, your Social Security check may actually increase because the premium is no longer deducted. Call 855-559-1700 if you'd like help reviewing your options.",
   }
+,
+  {
+    question: "How do I apply for a Medicare Savings Program?",
+    answer:
+      "You apply through your state Medicaid office, not through Medicare or Social Security. Each state has its own application process, and some states have higher income or asset limits than the federal baseline. Even if you are unsure whether you qualify, Medicare.gov encourages you to apply — the state will determine which program fits. In New Jersey, applications go through NJ FamilyCare.",
+  },
+  {
+    question: "Does Extra Help cover all my prescription drugs?",
+    answer:
+      "Extra Help significantly reduces what you pay for Part D prescription drugs, including premiums, deductibles, and copays for covered medications. However, it only applies to drugs included on your Part D plan's formulary. If a medication is not covered by your specific plan, Extra Help will not reduce its cost — so choosing the right Part D plan still matters. Call 855-559-1700 for free help comparing plans.",
+  },
+  {
+    question: "If I qualify for QMB, do providers have to accept it?",
+    answer:
+      "Yes. Federal law prohibits Medicare providers from billing QMB enrollees for Medicare cost-sharing such as deductibles, coinsurance, or copays for Medicare-covered services. If you are billed in error, you can contact Medicare or your state Medicaid office to resolve the charge. Always show both your Medicare and Medicaid/QMB cards at every visit.",
+  }
 ];
 
 export default function LowIncomeMedicarePage() {

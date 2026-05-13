@@ -9,7 +9,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Best Medicare Supplement Plans in NJ 2026",
   description:
-    "Compare Medicare Supplement plans in New Jersey. Plan G rates from top carriers, NJ enrollment rules, and free guidance. Call 855-559-1700.",
+    "Compare NJ Medicare Supplement plans for 2026. Community-rated Plan G & Plan N from top carriers, NJ enrollment rules, free expert help. Call 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/medicare-supplement/new-jersey` },
   openGraph: {
     title: "Best Medicare Supplement Plans in NJ 2026",
@@ -97,6 +97,17 @@ const planData = [
   { plan: "Plan N", covers: "Plan G minus small copays", bestFor: "Healthy, want lower premiums" },
   { plan: "Plan K", covers: "50% cost-sharing up to out-of-pocket max", bestFor: "Younger, very healthy" },
   { plan: "Plan L", covers: "75% cost-sharing up to out-of-pocket max", bestFor: "Budget-conscious, healthy" },
+,
+  {
+    question: "Does New Jersey use community-rated pricing for Medigap?",
+    answer:
+      "Yes. New Jersey is a community-rated state, meaning Medigap carriers charge the same premium to everyone with the same plan in a given area regardless of age. This differs from issue-age or attained-age states where premiums rise as you get older. Community rating can make Medigap more predictable over time in NJ.",
+  },
+  {
+    question: "Can I switch Medicare Supplement plans in New Jersey after my Open Enrollment Period?",
+    answer:
+      "You can apply to switch Medigap plans in New Jersey at any time, but outside your 6-month Medigap Open Enrollment Period carriers may use medical underwriting and can deny coverage or charge more based on health. Certain guaranteed issue situations — like losing other coverage — protect your right to enroll. Call 855-559-1700 to review your options before switching.",
+  }
 ];
 
 export default function NJMedicareSupplementPage() {
@@ -327,6 +338,7 @@ export default function NJMedicareSupplementPage() {
           <p className="text-gray-600 text-sm mb-5">Enter your zip code to see real carrier rates for your age and plan. Rates are from CSG Actuarial and updated daily.</p>
           <QuoteWidget defaultZip="07901" />
         </div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey resource: <a href="https://www.nj.gov/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> offers free, unbiased Medicare counseling.</div>
       </section>
     </>
   );

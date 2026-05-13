@@ -140,6 +140,12 @@ const faqs = [
     answer:
       "Ask for the agent's National Producer Number (NPN) and the states they are licensed in, then verify through your state's Department of Banking and Insurance. Anthony Orner's NPN is 1902584006, and he is licensed in New Jersey plus 34 additional states.",
   }
+,
+  {
+    question: "Will my local Medicare agent help me after I enroll?",
+    answer:
+      "Yes. A good local agent stays with you year after year to handle annual plan reviews, claim questions, billing issues, and changes to your prescriptions or providers. You should never have to pay extra for this ongoing service.",
+  }
 ];
 
 export default function LocalMedicareAgentPage() {

@@ -162,6 +162,22 @@ const faqs = [
     answer:
       "Medicare covers part-time skilled home health services for CHF patients who are homebound and need skilled nursing or therapy ordered by a doctor. This can include monitoring vital signs, medication management, and patient education. The benefit is the same under Original Medicare and Medicare Advantage, but Advantage plans may require prior authorization.",
   }
+,
+  {
+    question: "Does Medicare cover heart failure medications under Part D?",
+    answer:
+      "Most Part D plans cover common CHF medications like ACE inhibitors, beta blockers, and diuretics, but each plan has its own formulary and tier structure. Your out-of-pocket costs can vary significantly between plans for the same drug. Anthony can compare formularies side by side to find the plan that covers your specific prescriptions at the lowest total cost.",
+  },
+  {
+    question: "Will a Medicare Advantage plan let me keep my cardiologist?",
+    answer:
+      "Medicare Advantage plans use provider networks, so your cardiologist must be in-network for the plan to cover routine visits at the lowest cost. Before enrolling, it's important to verify your cardiologist, primary care doctor, and preferred hospital all participate. Anthony checks every provider in your care team before recommending a plan.",
+  },
+  {
+    question: "Does Medicare cover home health care after a CHF hospitalization?",
+    answer:
+      "Yes. Medicare covers intermittent skilled nursing care, physical therapy, and home health aide services when ordered by your doctor after a qualifying hospital stay. You must be considered homebound and use a Medicare-certified home health agency. Supplemental coverage can help with any related costs not paid by Original Medicare.",
+  }
 ];
 
 export default function MedicareBrokerCHFPage() {
@@ -387,6 +403,7 @@ export default function MedicareBrokerCHFPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">Free unbiased counseling: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
       </section>
     </main>
   );

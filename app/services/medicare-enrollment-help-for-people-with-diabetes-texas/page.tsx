@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare enrollment help for people with diabetes texas | Free Guidance | MedicareYourself",
   description:
-    "Texas Medicare help for people with diabetes — compare plans covering insulin, CGMs, and supplies with no underwriting hassle. Call 855-559-1700 for free guidance.",
+    "Texas Medicare help for people with diabetes — compare plans covering insulin, CGMs, and supplies. Call 855-559-1700 for free guidance.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-enrollment-help-for-people-with-diabetes-texas" },
   openGraph: {
     title:

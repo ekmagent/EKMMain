@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare broker for people with CLL | Free Consult | MedicareYourself",
   description:
-    "Medicare broker for people with CLL — get clear guidance on Medigap underwriting, Part D oral cancer drugs, and specialist access. Call 855-559-1700.",
+    "Medicare broker for people with CLL — clear help with Medigap underwriting, Part D oral cancer drugs, and specialist access. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-people-with-cll" },
   openGraph: {
     title:
@@ -167,6 +167,22 @@ const faqs = [
     question: "Does Medicare cover clinical trials for CLL?",
     answer:
       "Medicare covers routine costs of qualifying clinical trials, including office visits, lab tests, and standard care that would be covered outside the trial. The investigational drug or device itself is often provided by the trial sponsor. Talk with your oncologist and trial coordinator to confirm what Medicare will and will not cover in your specific study.",
+  }
+,
+  {
+    question: "Does Medicare Part B cover oncologist visits and lab work for CLL monitoring?",
+    answer:
+      "Yes. Medicare Part B covers medically necessary oncologist visits, blood tests, flow cytometry, and imaging used to monitor CLL during watch-and-wait or active treatment. After you meet the Part B deductible, Medicare typically pays 80% of the approved amount and you pay the remaining 20% unless you have a Medigap plan or other secondary coverage. Keeping consistent labs with a CLL-knowledgeable hematologist is important for tracking disease progression.",
+  },
+  {
+    question: "Are oral CLL medications like BTK inhibitors covered under Part D?",
+    answer:
+      "Yes. Oral targeted therapies for CLL, including BTK inhibitors and BCL-2 inhibitors, are generally covered under Medicare Part D rather than Part B. Each Part D plan has its own formulary and tier placement, so the same drug can cost very different amounts on different plans. We compare formularies side by side to find the plan that covers your specific regimen most affordably.",
+  },
+  {
+    question: "Can I see a CLL specialist at a major cancer center on Medicare?",
+    answer:
+      "With Original Medicare, you can generally see any oncologist or CLL specialist nationwide who accepts Medicare assignment, including those at NCI-designated cancer centers. Medicare Advantage plans use provider networks, and many top cancer centers are out-of-network or require prior authorization. This is a key reason many CLL patients prefer Original Medicare paired with a Medigap plan.",
   }
 ];
 

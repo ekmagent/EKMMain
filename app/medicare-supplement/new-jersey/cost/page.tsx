@@ -97,6 +97,22 @@ const faqs = [
     answer:
       "Yes. Even though New Jersey uses community rating (premiums are not based on your individual age), carriers can still raise rates over time due to overall medical inflation, claims experience, and rating area adjustments. Reviewing your plan annually helps ensure you are still getting a competitive rate. Call 855-559-1700 for a no-cost rate review.",
   }
+,
+  {
+    question: "Are Medigap premiums in New Jersey the same for everyone regardless of age?",
+    answer:
+      "Because New Jersey uses community rating, your individual age does not factor into your Medigap premium the way it does in age-rated states. However, premiums can still differ by carrier, county, and household discounts. Rates may also adjust over time due to general inflation and claims experience.",
+  },
+  {
+    question: "Can I switch Medigap plans in New Jersey after my Open Enrollment Period?",
+    answer:
+      "You can apply to switch Medigap plans at any time, but outside your 6-month Medigap Open Enrollment Period, carriers in New Jersey may use medical underwriting and decline coverage or charge more based on health. Certain limited guaranteed-issue situations apply, such as losing other coverage involuntarily. Call 855-559-1700 to review whether you qualify.",
+  },
+  {
+    question: "Does where I live in New Jersey affect my total Medicare costs?",
+    answer:
+      "Yes. While federal premiums and deductibles are the same statewide, Medigap and Part D premiums are priced by rating area and zip code. Northern NJ counties typically see higher Medigap premiums than southern counties for the same plan letter. Comparing carriers in your specific zip code is the best way to find your lowest available rate.",
+  }
 ];
 
 export default function NJMedicareCostPage() {

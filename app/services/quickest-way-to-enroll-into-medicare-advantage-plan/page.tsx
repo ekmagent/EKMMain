@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "quickest way to enroll into medicare advantage plan | Free Help | MedicareYourself",
   description:
-    "Quickest way to enroll into a Medicare Advantage plan? A licensed broker can complete your application in one call. Anthony Orner makes it easy. Free help.",
+    "Quickest way to enroll in a Medicare Advantage plan? A licensed broker can complete your application in about 10-15 minutes. Call 855-559-1700 for free help.",
   alternates: { canonical: "https://medicareyourself.com/services/quickest-way-to-enroll-into-medicare-advantage-plan" },
   openGraph: {
     title:

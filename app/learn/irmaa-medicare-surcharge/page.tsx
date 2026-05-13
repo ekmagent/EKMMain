@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
   description:
-    "Understand 2026 Medicare IRMAA surcharges on Part B & D, who pays, and how to appeal with SSA-44. Free licensed broker help — call 855-559-1700 today.",
+    "Learn how 2026 Medicare IRMAA surcharges work on Part B & D, who pays, and how to appeal with SSA-44. Free licensed broker help — call 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/irmaa-medicare-surcharge` },
   openGraph: {
     title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
@@ -415,6 +415,22 @@ const faqs = [
     question: "Does IRMAA change every year?",
     answer:
       "Yes. Social Security recalculates IRMAA annually based on your most recent tax return, so your surcharge can go up, go down, or disappear entirely from year to year. The income brackets themselves are also adjusted periodically for inflation.",
+  }
+,
+  {
+    question: "How do I appeal an IRMAA determination?",
+    answer:
+      "If you've had a life-changing event that reduced your income, you can request a new IRMAA determination by filing Form SSA-44 with the Social Security Administration. You'll need to provide documentation of the event and an estimate of your reduced income. SSA reviews the request and, if approved, recalculates your IRMAA based on the more recent income.",
+  },
+  {
+    question: "Is IRMAA recalculated every year?",
+    answer:
+      "Yes. Social Security reviews your most recent IRS tax return data each year to determine whether IRMAA applies for the upcoming year. If your income drops below the threshold, your surcharge will automatically go away the following year without any action on your part.",
+  },
+  {
+    question: "Can Roth conversions or capital gains trigger IRMAA?",
+    answer:
+      "Yes. One-time income events like Roth IRA conversions, large capital gains, or required minimum distributions can push your MAGI over an IRMAA threshold. Because IRMAA uses a two-year lookback, careful tax planning before age 63 can help you avoid surprise surcharges later. Call 855-559-1700 to discuss your situation with a licensed broker.",
   }
 ];
 

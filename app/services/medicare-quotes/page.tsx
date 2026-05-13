@@ -102,6 +102,22 @@ const faqs = [
     answer:
       "No. Requesting a quote is purely informational and does not cancel, change, or interrupt any coverage you currently have. Your existing plan stays in force until you actively enroll in a new one and the new effective date begins.",
   }
+,
+  {
+    question: "Do Medicare quotes from a broker cost more than going direct to a carrier?",
+    answer:
+      "No. Medicare premiums are filed with each state's Department of Banking and Insurance, so the rate is the same whether you enroll through a licensed broker or directly with the carrier. The advantage of a broker is comparing every carrier in one conversation instead of calling each one individually.",
+  },
+  {
+    question: "How long does it take to get Medicare quotes?",
+    answer:
+      "Most quotes can be pulled in just a few minutes. For Medigap, you'll see side-by-side premiums from every carrier in your zip code. For Medicare Advantage and Part D, plan benefits and drug costs can be matched to your specific medications and providers during the same call.",
+  },
+  {
+    question: "Will requesting a Medicare quote affect my current coverage?",
+    answer:
+      "No. Getting a quote is purely informational and has no effect on any plan you currently have. Your coverage only changes if you choose to submit a new enrollment application and that application is approved by the carrier.",
+  }
 ];
 
 export default function MedicareQuotesPage() {

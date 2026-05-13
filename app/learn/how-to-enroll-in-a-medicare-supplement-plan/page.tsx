@@ -439,6 +439,22 @@ const faqs = [
     answer:
       "Yes, you can apply to switch Medigap plans at any time, but outside of guaranteed-issue situations the new carrier can use medical underwriting to approve or deny your application. Some states have additional protections that allow switching without underwriting. Call 855-559-1700 to review your state's specific rules before switching.",
   }
+,
+  {
+    question: "Do I need both Medicare Part A and Part B to buy a Medigap policy?",
+    answer:
+      "Yes. Generally, you must be enrolled in Original Medicare — both Part A (Hospital Insurance) and Part B (Medical Insurance) — before a private insurer can sell you a Medigap policy. If you only have Part A, you'll need to enroll in Part B before applying. You can verify your enrollment status at Medicare.gov or by calling 1-800-MEDICARE.",
+  },
+  {
+    question: "When is the best time to buy a Medicare Supplement policy?",
+    answer:
+      "Medicare.gov states that the best time to buy a Medigap policy is during your 6-month Medigap Open Enrollment Period, which starts the first month you have Part B and are 65 or older. During this window, insurance companies cannot use medical underwriting to deny you coverage or charge you more based on health conditions. After this window closes, you may be subject to underwriting in most states.",
+  },
+  {
+    question: "Can I switch Medigap policies after I enroll?",
+    answer:
+      "You can apply to switch Medigap policies at any time, but outside of your Open Enrollment Period or a guaranteed-issue situation, the new carrier can use medical underwriting and may deny you or charge more based on health. Medicare warns that you might not be able to switch policies later, so choosing carefully the first time matters. Call 855-559-1700 to review your options before making a change.",
+  }
 ];
 
 export default function HowToEnrollMedigapPage() {

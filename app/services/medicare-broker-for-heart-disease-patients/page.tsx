@@ -194,6 +194,22 @@ const faqs = [
     answer:
       "Original Medicare Part B covers medically necessary cardiologist visits, diagnostic tests, and most outpatient cardiac care, with you responsible for the Part B deductible and coinsurance. Medicare Advantage plans also cover cardiology but typically require the specialist to be in-network and may require a referral. Confirming your cardiologist's network status before enrolling is critical.",
   }
+,
+  {
+    question: "Will a Medicare plan cover my heart medications?",
+    answer:
+      "Most heart medications, including statins, beta blockers, ACE inhibitors, and blood thinners, are covered under Medicare Part D or the drug benefit built into a Medicare Advantage plan. Each plan has its own formulary, so the same drug can have very different copays depending on the plan. A broker can run your exact medication list through every available plan to find the one with the lowest total annual cost.",
+  },
+  {
+    question: "Can I keep seeing my current cardiologist on Medicare?",
+    answer:
+      "If you choose Original Medicare with a Medigap supplement, you can see any cardiologist in the country who accepts Medicare — no network restrictions or referrals. With Medicare Advantage, your cardiologist must be in the plan's network, and you may need a referral from your primary care doctor. Confirming network status before enrolling is one of the most important steps for heart patients.",
+  },
+  {
+    question: "Does Medicare cover heart procedures like stents, bypass, or pacemakers?",
+    answer:
+      "Yes. Medicare Part A covers inpatient hospital care for procedures such as coronary stents, bypass surgery, valve repair, and pacemaker or defibrillator implantation. Part B covers related physician services and follow-up outpatient care. Your out-of-pocket share depends on whether you have a Medigap supplement or are enrolled in a Medicare Advantage plan with its own cost-sharing structure.",
+  }
 ];
 
 export default function MedicareBrokerHeartDiseasePatients() {

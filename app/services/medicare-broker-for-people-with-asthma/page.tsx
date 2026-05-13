@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare broker for people with asthma | Free Help Finding Coverage | MedicareYourself",
   description:
-    "Medicare broker for people with asthma — Anthony Orner knows which carriers approve asthma applicants for Medigap. Free help finding the right plan.",
+    "Medicare broker for people with asthma — Anthony Orner helps you find carriers that approve asthma applicants for Medigap. Free guidance, call today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-people-with-asthma" },
   openGraph: {
     title:
