@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "best independent medicare broker near me new jersey | Free Consultation | MedicareYourself",
   description:
-    "Best independent Medicare broker near me in New Jersey? Anthony Orner compares 20+ carriers, charges nothing, and serves every NJ county. Free consultation.",
+    "Looking for the best independent Medicare broker near you in New Jersey? Anthony Orner compares 20+ carriers at no cost. Call 855-559-1700 for a free review.",
   alternates: { canonical: "https://medicareyourself.com/services/best-independent-medicare-broker-near-me-new-jersey" },
   openGraph: {
     title:

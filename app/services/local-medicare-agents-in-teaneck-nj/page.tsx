@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "local medicare agents in teaneck nj | Free Consultation | MedicareYourself",
   description:
-    "Local Medicare agents in Teaneck, NJ — Anthony Orner, licensed independent broker serving Bergen County. Compare plans free, no fees. Call 855-559-1700.",
+    "Local Medicare agents in Teaneck, NJ — Anthony Orner, licensed independent broker, compares plans free with no pressure. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/local-medicare-agents-in-teaneck-nj" },
   openGraph: {
     title:
@@ -326,6 +326,7 @@ export default function LocalMedicareAgentsTeaneckNJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-2">New Jersey residents can also get free unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
       </section>
       </article>
     </>

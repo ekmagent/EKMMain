@@ -113,6 +113,12 @@ const faqs = [
     answer:
       "Yes. While federal premiums and deductibles are the same statewide, Medigap and Part D premiums are priced by rating area and zip code. Northern NJ counties typically see higher Medigap premiums than southern counties for the same plan letter. Comparing carriers in your specific zip code is the best way to find your lowest available rate.",
   }
+,
+  {
+    question: "Are there cost differences between Medigap carriers in New Jersey if plans are standardized?",
+    answer:
+      "Yes. Although Medigap plan benefits are federally standardized (Plan G is Plan G with every carrier), premiums can vary significantly between insurers in New Jersey. Carriers price differently based on their claims experience, administrative costs, and discounts offered. Comparing multiple carriers in your county is the only reliable way to find the lowest cost for identical coverage.",
+  }
 ];
 
 export default function NJMedicareCostPage() {

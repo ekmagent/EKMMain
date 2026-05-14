@@ -9,7 +9,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Medicare Services & Guides | MedicareYourself",
   description:
-    "Compare Medigap, Medicare Advantage & Part D with a licensed independent broker in NJ & 34 states. Free, unbiased plan reviews — call 855-559-1700 today.",
+    "Compare Medigap, Medicare Advantage & Part D with a licensed independent broker serving NJ & 34 states. Free, unbiased guidance — call 855-559-1700 today.",
   alternates: { canonical: `${SITE_URL}/services` },
   openGraph: {
     title: "Medicare Services & Guides | MedicareYourself",
@@ -518,6 +518,22 @@ const STATIC_CATEGORIES = [
     answer:
       "Anthony Orner is a licensed Medicare insurance broker based in New Jersey and appointed in 34 states. You can call 855-559-1700 to confirm licensure in your state and get a free, unbiased plan review.",
   }
+,
+  {
+    question: "What does a licensed Medicare broker do?",
+    answer:
+      "A licensed Medicare broker helps you compare Medigap, Medicare Advantage, and Part D plans from multiple carriers so you can choose coverage that fits your health needs and budget. Brokers are appointed and certified to discuss plan benefits, and their guidance is free to you. You can also reach official help through Medicare.gov or your State Health Insurance Assistance Program (SHIP).",
+  },
+  {
+    question: "Is there a cost to work with an independent Medicare broker?",
+    answer:
+      "No. Independent brokers are compensated by the insurance carriers when you enroll, so the consultation, plan comparison, and enrollment assistance are free to you. Your premium is the same whether you enroll directly with the carrier or through a licensed broker.",
+  },
+  {
+    question: "When can I enroll in or change a Medicare plan?",
+    answer:
+      "Most people first enroll during their Initial Enrollment Period around their 65th birthday. After that, you can make changes during the Annual Enrollment Period each fall, the Medicare Advantage Open Enrollment Period in early spring, or during a Special Enrollment Period triggered by a qualifying life event. Details are published at Medicare.gov.",
+  }
 ];
 
 export default function ServicesHubPage() {
@@ -637,6 +653,7 @@ export default function ServicesHubPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents: visit the <a href="https://www.state.nj.us/dobi/division_insurance/ship/ship.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/dobi/division_insurance/ship/shipindex.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </>
   );

@@ -241,6 +241,12 @@ const faqs = [
     answer:
       "No, and you should not. Apply for the new policy first and wait until it is approved and in force before canceling your existing Medigap plan. This protects you from a coverage gap if the new carrier declines your application during underwriting.",
   }
+,
+  {
+    question: "Do I need to answer health questions to switch Medigap carriers?",
+    answer:
+      "In most states, yes. Outside your 6-month Medigap Open Enrollment Period, carriers can use medical underwriting to approve or decline your application based on health. Some states offer additional opportunities to switch without underwriting, and federal Guaranteed Issue rights apply in specific situations like losing employer coverage. Contact your State Insurance Department or a licensed broker to confirm the rules where you live.",
+  }
 ];
 
 export default function SwitchCarriersPage() {
@@ -473,6 +479,7 @@ export default function SwitchCarriersPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify carrier rates and rights through the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> or the free <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP counseling program</a>.</div>
             <div className="text-sm text-gray-600 mt-2">For state-specific switching rights, contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> or your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">SHIP counselor</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medigap switching guidance from <a href="https://www.state.nj.us/dobi/division_insurance/ship/ship.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or the free <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">SHIP program</a> for unbiased Medigap switching guidance.</div>
       </section>
     </>
   );

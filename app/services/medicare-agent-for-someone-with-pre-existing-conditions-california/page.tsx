@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare agent for someone with pre existing conditions california | Free Help | MedicareYourself",
   description:
-    "Pre-existing conditions in California? A licensed Medicare broker explains Medigap timing, the Birthday Rule & guaranteed issue. Free help: 855-559-1700.",
+    "Pre-existing conditions in California? A licensed broker explains Medigap timing, the Birthday Rule & guaranteed issue. Free help: call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-agent-for-someone-with-pre-existing-conditions-california" },
   openGraph: {
     title:
@@ -121,6 +121,22 @@ const faqs = [
     question: "Does California have special Medigap rules for people with pre-existing conditions?",
     answer:
       "Yes. California offers the Medigap Birthday Rule, which lets current Medigap enrollees switch to another Medigap plan with equal or lesser benefits from the same or different carrier without medical underwriting. The window opens on your birthday each year and runs for a limited number of days. This is a California-specific protection that does not exist in most other states.",
+  }
+,
+  {
+    question: "Does California's Medigap Birthday Rule help if I have a pre-existing condition?",
+    answer:
+      "Yes. California's Birthday Rule lets Medigap policyholders switch to another Medigap plan with equal or lesser benefits from the same or a different carrier during a window that begins on their birthday each year. During this window, carriers cannot use health underwriting, so pre-existing conditions like diabetes, heart disease, or lupus do not block you from switching. This is one of the strongest consumer protections in the country for Medicare beneficiaries with chronic conditions.",
+  },
+  {
+    question: "Can a Medicare Advantage plan deny me in California because of a pre-existing condition?",
+    answer:
+      "No. Medicare Advantage plans cannot deny enrollment based on pre-existing conditions, with the historical exception of End-Stage Renal Disease, which is no longer a barrier under current federal rules. As long as you live in the plan's service area and are enrolled in Medicare Parts A and B, you can join during a valid enrollment period. Some Special Needs Plans (SNPs) are actually designed for people with specific chronic conditions.",
+  },
+  {
+    question: "Should I work with a local California Medicare broker if I have complex health needs?",
+    answer:
+      "A licensed broker who understands California's Birthday Rule, guaranteed-issue triggers, and local provider networks can compare plans across multiple carriers in one conversation. That matters when you have specialists you want to keep or medications you need covered. Call 855-559-1700 to review your options at no cost.",
   }
 ];
 

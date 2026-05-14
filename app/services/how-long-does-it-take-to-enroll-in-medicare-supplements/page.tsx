@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "how long does it take to enroll in medicare supplements | Free Help | MedicareYourself",
   description:
-    "How long does it take to enroll in a Medicare Supplement? Most applications take 10–20 minutes. Call 855-559-1700 for free broker help today.",
+    "How long does it take to enroll in a Medicare Supplement? Most apps take 10–20 minutes. Call 855-559-1700 for free broker help and same-call enrollment.",
   alternates: { canonical: "https://medicareyourself.com/services/how-long-does-it-take-to-enroll-in-medicare-supplements" },
   openGraph: {
     title:
@@ -284,6 +284,7 @@ export default function HowLongToEnrollMedigapPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free one-on-one counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/dobi/division_insurance/ship/shipindex.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">For state-specific help, contact the <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> or your <a href="https://www.nj.gov/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a>.</div>
       </section>
     </main>
   );

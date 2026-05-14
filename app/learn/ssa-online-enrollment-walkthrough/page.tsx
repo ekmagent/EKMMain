@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title:
     "How to Enroll in Medicare Online at SSA.gov (Step-by-Step Walkthrough)",
   description:
-    "Step-by-step SSA.gov Medicare enrollment walkthrough — finish your Part A and Part B application in about 10 minutes. Free broker help at 855-559-1700.",
+    "Enroll in Medicare online at SSA.gov in about 10 minutes with this 9-step walkthrough. Free broker help at 855-559-1700 — avoid Part B penalty mistakes.",
   alternates: {
     canonical: `${SITE_URL}/learn/ssa-online-enrollment-walkthrough`,
   },
@@ -528,6 +528,22 @@ const steps = [
     question: "What happens after I submit my Medicare application on SSA.gov?",
     answer:
       "After you submit, you cannot modify the application online. Social Security will review your information and mail your Medicare card, typically within a few weeks. If SSA needs additional documentation, they will contact you by mail or phone.",
+  }
+,
+  {
+    question: "How long does the SSA online Medicare application take?",
+    answer:
+      "Most people complete the SSA.gov Medicare application in about 10 minutes if they have their documents ready. You will need your Social Security number, a valid driver's license or state ID for identity verification, and details about any current health insurance coverage. The system lets you save and return later if you need to gather information.",
+  },
+  {
+    question: "Can I enroll in just Part A and delay Part B through SSA.gov?",
+    answer:
+      "Yes. During the online application, SSA asks whether you want to enroll in Part B or apply for Part A only. If you have qualifying employer coverage, you can decline Part B and enroll later using a Special Enrollment Period without a late penalty. Choosing the wrong option can trigger a lifelong Part B late enrollment penalty, so call us at 855-559-1700 if you are unsure.",
+  },
+  {
+    question: "What happens after I submit my Medicare application on SSA.gov?",
+    answer:
+      "After you submit, SSA sends a confirmation with a re-entry number you can use to check status. Processing typically takes a few weeks, and your red, white, and blue Medicare card arrives by mail. Once you have your Medicare number, you can shop for a Medigap, Medicare Advantage, or Part D plan.",
   }
 ];
 

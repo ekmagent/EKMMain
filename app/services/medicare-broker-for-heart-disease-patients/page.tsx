@@ -210,6 +210,12 @@ const faqs = [
     answer:
       "Yes. Medicare Part A covers inpatient hospital care for procedures such as coronary stents, bypass surgery, valve repair, and pacemaker or defibrillator implantation. Part B covers related physician services and follow-up outpatient care. Your out-of-pocket share depends on whether you have a Medigap supplement or are enrolled in a Medicare Advantage plan with its own cost-sharing structure.",
   }
+,
+  {
+    question: "Are heart medications covered by Medicare?",
+    answer:
+      "Most heart medications are covered through Medicare Part D prescription drug plans or Medicare Advantage plans that include drug coverage. Common cardiac drugs like statins, beta-blockers, ACE inhibitors, and anticoagulants are typically on plan formularies, though tier placement and cost-sharing vary. A broker can compare formularies to find the plan that covers your specific medications at the lowest cost.",
+  }
 ];
 
 export default function MedicareBrokerHeartDiseasePatients() {

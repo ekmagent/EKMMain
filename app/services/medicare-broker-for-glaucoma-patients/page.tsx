@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for glaucoma patients | Free Coverage Review | MedicareYourself",
   description:
-    "Medicare broker for glaucoma patients comparing plans for screenings, drops, SLT & surgery. Free coverage review with Anthony Orner — call 855-559-1700.",
+    "Medicare broker for glaucoma patients comparing plans for drops, SLT & surgery. Free coverage review with Anthony Orner — call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-glaucoma-patients" },
   openGraph: {
     title:
@@ -147,6 +147,17 @@ const faqs = [
     question: "Should I choose Medigap or Medicare Advantage if I have glaucoma?",
     answer:
       "It depends on your providers, medications, and budget. Medigap paired with Original Medicare and a Part D plan offers broad access to any ophthalmologist who accepts Medicare and predictable cost-sharing on procedures like SLT or trabeculectomy. Medicare Advantage may offer lower premiums and added routine vision benefits but uses networks and prior authorization. A free review with Anthony Orner at 855-559-1700 can clarify which fits your situation.",
+  }
+,
+  {
+    question: "Does Medicare cover prescription eye drops for glaucoma?",
+    answer:
+      "Prescription eye drops used to treat glaucoma, such as latanoprost or timolol, are typically covered under Medicare Part D prescription drug plans. Each plan has its own formulary, tier placement, and copay structure, so the same medication can cost very different amounts depending on the plan you choose. Comparing Part D formularies during Annual Enrollment is one of the most important steps for glaucoma patients.",
+  },
+  {
+    question: "Who is considered high-risk for Medicare glaucoma screenings?",
+    answer:
+      "Medicare considers you high-risk if you have diabetes, a family history of glaucoma, are African American and age 50 or older, or are Hispanic American and age 65 or older. If you meet one of these criteria, Part B covers a glaucoma screening once every 12 months when performed by a state-licensed eye doctor.",
   }
 ];
 

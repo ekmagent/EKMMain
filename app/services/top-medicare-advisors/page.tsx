@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "top medicare advisors | Free Independent Broker Help | MedicareYourself",
   description:
-    "Top Medicare advisors share five traits: independence, multi-carrier access, transparency, and more. Compare Anthony Orner — call 855-559-1700 for free help.",
+    "Top Medicare advisors share 5 traits: independence, multi-carrier access, transparency, licensing, and service. Call 855-559-1700 for free broker help.",
   alternates: { canonical: "https://medicareyourself.com/services/top-medicare-advisors" },
   openGraph: {
     title:

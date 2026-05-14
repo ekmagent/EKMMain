@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
   description:
-    "Learn how 2026 Medicare IRMAA surcharges work on Part B & D, who pays, and how to appeal with SSA-44. Free licensed broker help — call 855-559-1700.",
+    "Understand 2026 Medicare IRMAA surcharges on Part B & D, income brackets, and how to appeal with SSA-44. Free licensed broker help — call 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/irmaa-medicare-surcharge` },
   openGraph: {
     title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
@@ -431,6 +431,22 @@ const faqs = [
     question: "Can Roth conversions or capital gains trigger IRMAA?",
     answer:
       "Yes. One-time income events like Roth IRA conversions, large capital gains, or required minimum distributions can push your MAGI over an IRMAA threshold. Because IRMAA uses a two-year lookback, careful tax planning before age 63 can help you avoid surprise surcharges later. Call 855-559-1700 to discuss your situation with a licensed broker.",
+  }
+,
+  {
+    question: "How do I appeal an IRMAA determination if my income has dropped?",
+    answer:
+      "If you've had a life-changing event like retirement, divorce, or the death of a spouse, you can request a reconsideration by filing Form SSA-44 with the Social Security Administration. You'll need to provide documentation of the event and your estimated new income. If approved, SSA will recalculate your premium using the lower income figure. Call 855-559-1700 if you'd like help walking through the form.",
+  },
+  {
+    question: "Will IRMAA continue every year or is it a one-time charge?",
+    answer:
+      "IRMAA is recalculated annually based on your most recent tax return on file (typically from two years prior). If your income drops below the threshold in a later year, the surcharge goes away automatically. Many beneficiaries pay IRMAA one year and not the next, depending on income fluctuations like Roth conversions or capital gains.",
+  },
+  {
+    question: "Does IRMAA come out of my Social Security check?",
+    answer:
+      "Yes. The Part B IRMAA surcharge is deducted directly from your Social Security benefit along with your standard Part B premium. The Part D IRMAA surcharge is also billed by Medicare (not your drug plan) and is typically deducted from Social Security as well, even though your base Part D premium is paid to your plan.",
   }
 ];
 

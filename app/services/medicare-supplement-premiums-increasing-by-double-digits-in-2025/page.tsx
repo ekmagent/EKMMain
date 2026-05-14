@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare supplement premiums increasing by double digits in 2025 | Free Rate Review | MedicareYourself",
   description:
-    "Medigap premiums rising in 2025? Compare carriers for the same standardized benefits and see if switching lowers your rate. Free review: 855-559-1700.",
+    "Medigap premiums rising in 2025? Compare carriers offering the same standardized benefits and see if switching lowers your rate. Free review: 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-supplement-premiums-increasing-by-double-digits-in-2025" },
   openGraph: {
     title:
@@ -177,6 +177,22 @@ const faqs = [
     question: "Why are Medigap premiums rising faster in 2025?",
     answer:
       "Carriers point to higher medical claim costs, increased utilization of healthcare services, and an aging policyholder pool as the main drivers behind double-digit increases. Some blocks of business that have been closed to new enrollees see even steeper hikes. Reviewing your options at renewal is the best defense.",
+  }
+,
+  {
+    question: "What should I do if I receive a double-digit rate increase notice on my Medigap plan?",
+    answer:
+      "Don't panic, but don't ignore it either. Request a free rate comparison from a licensed broker who can quote multiple carriers offering the same standardized plan letter. If you're healthy enough to pass underwriting, switching carriers may save you a meaningful amount each month without changing your benefits. Call 855-559-1700 to start a review.",
+  },
+  {
+    question: "Why are Medigap premiums rising so much in 2025?",
+    answer:
+      "Carriers point to higher medical claim costs, increased utilization of healthcare services, and an aging policyholder pool as the main drivers behind 2025 rate increases. Because Medigap plans pay the gaps left by Original Medicare, rising provider costs translate directly into higher premiums. Each carrier files rates independently, which is why increases vary widely.",
+  },
+  {
+    question: "Will switching to Medicare Advantage lower my costs if my Medigap premium goes up?",
+    answer:
+      "Medicare Advantage plans often have lower monthly premiums but use networks, prior authorization, and cost-sharing that Medigap does not. The right choice depends on your health, providers, prescriptions, and travel needs. A licensed broker can walk you through the trade-offs before you make a switch you can't easily reverse.",
   }
 ];
 
@@ -389,6 +405,7 @@ export default function MedicareSupplementPremiumsIncreasing2025() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a> or the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP program</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents: contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a> or the free <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP counseling program</a> for unbiased guidance.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free unbiased help comparing Medigap rates through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> or contact the <a href="https://www.nj.gov/dobi/" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/shipindex.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </main>
   );

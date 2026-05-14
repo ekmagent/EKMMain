@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Medicare Help on a Fixed Income (2026)",
   description:
-    "Lower or eliminate Medicare costs with Extra Help, QMB, SLMB & Medicare Savings Programs. Find out what you qualify for — free guidance at 855-559-1700.",
+    "Lower or eliminate Medicare costs with Extra Help, QMB, SLMB & Medicare Savings Programs. See what you qualify for — free guidance at 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/medicare-help-low-income` },
   openGraph: {
     title: "Medicare Help on a Fixed Income (2026)",
@@ -238,6 +238,22 @@ const programs = [
     question: "If I qualify for QMB, do providers have to accept it?",
     answer:
       "Yes. Federal law prohibits Medicare providers from billing QMB enrollees for Medicare cost-sharing such as deductibles, coinsurance, or copays for Medicare-covered services. If you are billed in error, you can contact Medicare or your state Medicaid office to resolve the charge. Always show both your Medicare and Medicaid/QMB cards at every visit.",
+  }
+,
+  {
+    question: "How do I apply for a Medicare Savings Program?",
+    answer:
+      "You apply through your state Medicaid office, not through Medicare directly. Each state has its own application process and reviews your income and resources to determine which of the four MSPs (QMB, SLMB, QI, or QDWI) you qualify for. Medicare.gov recommends applying even if you're unsure you qualify, since limits and rules vary by state.",
+  },
+  {
+    question: "Does Extra Help work with any Part D plan?",
+    answer:
+      "Extra Help can be used with any Medicare Part D prescription drug plan, but your savings will be greatest if you choose a plan whose premium is at or below the regional benchmark. If you're automatically enrolled because of Medicaid, SSI, or an MSP, Medicare will assign you to a benchmark plan, but you can switch to a different plan at any time.",
+  },
+  {
+    question: "Will applying for these programs affect my other benefits?",
+    answer:
+      "No. Qualifying for Extra Help, QMB, SLMB, or other Medicare Savings Programs does not reduce your Social Security check or affect SNAP, housing assistance, or other benefits. In fact, if your state pays your Part B premium through an MSP, your Social Security deposit may actually increase because that premium is no longer deducted.",
   }
 ];
 

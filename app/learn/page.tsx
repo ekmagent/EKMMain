@@ -150,6 +150,12 @@ const GUIDES = [
     answer:
       "The right choice depends on your priorities around provider access, predictability of costs, travel needs, and prescription drug coverage. Original Medicare with a Medigap policy generally offers broader provider access and more predictable out-of-pocket costs, while Medicare Advantage often bundles extras but uses networks and prior authorization. Reading our Medigap and Parts A-D guides side by side can help, or call 855-559-1700 for a personal comparison.",
   }
+,
+  {
+    question: "Can I switch from Medicare Advantage back to Original Medicare later?",
+    answer:
+      "Yes. You can switch from a Medicare Advantage plan back to Original Medicare during the Annual Enrollment Period each fall or during the Medicare Advantage Open Enrollment Period in the first quarter of the year. Keep in mind that if you want to add a Medigap policy after switching back, you may have to answer health questions unless you have a guaranteed-issue right. Call 855-559-1700 to review your options before making a change.",
+  }
 ];
 
 export default function LearnHubPage() {

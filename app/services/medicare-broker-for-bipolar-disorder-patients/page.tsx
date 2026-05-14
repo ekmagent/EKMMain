@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for bipolar disorder patients | Free Plan Comparison | MedicareYourself",
   description:
-    "Medicare broker for bipolar disorder patients — Anthony Orner compares plans covering mood stabilizers, therapy & psychiatric care. Free help: 855-559-1700.",
+    "Medicare broker for bipolar disorder patients — Anthony Orner compares Part D plans for mood stabilizers & psychiatric care. Free help: 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-bipolar-disorder-patients" },
   openGraph: {
     title:

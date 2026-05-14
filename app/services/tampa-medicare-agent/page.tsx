@@ -352,6 +352,7 @@ export default function TampaMedicareAgent() {
             <div className="text-sm text-gray-600 mt-2">Florida residents can get free, unbiased counseling through <a href="https://www.floridashine.org/" target="_blank" rel="noopener noreferrer" className="underline">SHINE (Florida's SHIP program)</a> or verify any agent's license with the <a href="https://www.floir.com/" target="_blank" rel="noopener noreferrer" className="underline">Florida Office of Insurance Regulation</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Florida residents can also get free local counseling through <a href="https://www.floridashine.org/" rel="noopener noreferrer" target="_blank" className="underline">Florida SHINE</a>, the state's official SHIP program.</div>
             <div className="text-sm text-gray-600 mt-4">Florida residents can also get free Medicare counseling through <a href="https://www.floridashine.org/" rel="noopener noreferrer" target="_blank" className="underline">Florida SHINE</a>, the state's official SHIP program.</div>
+            <div className="text-sm text-gray-600 mt-4">Florida residents can also contact <a href="https://www.floridashine.org/" rel="noopener noreferrer" target="_blank" className="underline">Florida SHINE</a>, the state's free Medicare counseling program through the Department of Elder Affairs.</div>
       </section>
     </main>
   );

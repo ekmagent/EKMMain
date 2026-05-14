@@ -423,6 +423,22 @@ const faqs = [
     answer:
       "If you miss your 7-month Initial Enrollment Period and do not qualify for a Special Enrollment Period, you must wait for the General Enrollment Period (January 1 – March 31) to sign up for Part B. You may also owe a permanent Part B late enrollment penalty that is added to your monthly premium for as long as you have Medicare.",
   }
+,
+  {
+    question: "Can I sign up for Medicare if I am still working at 65?",
+    answer:
+      "Yes, you can sign up for Medicare at 65 even if you are still working. Many people enroll in premium-free Part A and delay Part B if they have creditable employer coverage from active employment. Confirm with your HR department that your group plan qualifies as creditable coverage before delaying Part B to avoid a late enrollment penalty.",
+  },
+  {
+    question: "How long does it take for Medicare coverage to start after I apply?",
+    answer:
+      "If you apply during the 3 months before your 65th birthday, your Medicare coverage starts the first day of your birthday month. If you apply during or after your birthday month, coverage can be delayed by up to a month or more. Applying early at ssa.gov/medicare helps ensure your coverage begins on time.",
+  },
+  {
+    question: "Do I need to sign up for Medicare every year?",
+    answer:
+      "No, Medicare Part A and Part B enrollment is a one-time process and your coverage continues automatically as long as you pay any required premiums. However, if you have a Medicare Advantage or Part D prescription drug plan, you should review your options each year during the Annual Enrollment Period (October 15 – December 7) to make sure your plan still fits your needs.",
+  }
 ];
 
 export default function HowToSignUpPage() {

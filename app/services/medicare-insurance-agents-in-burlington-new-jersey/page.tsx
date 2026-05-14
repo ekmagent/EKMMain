@@ -106,6 +106,17 @@ const faqs = [
     answer:
       "Your best window is the 6-month Medigap Open Enrollment Period that begins the month you're 65 or older and enrolled in Part B. During this period, you have guaranteed issue rights and can't be turned down or charged more for health reasons. New Jersey uses community rating, meaning Medigap premiums are the same regardless of age within a given plan and carrier.",
   }
+,
+  {
+    question: "Does Medicare cover services at Virtua Willingboro or other Burlington County hospitals?",
+    answer:
+      "Original Medicare is accepted at hospitals across Burlington County that participate in Medicare, including most major facilities. With a Medicare Advantage plan, coverage depends on whether the hospital is in your plan's network, so it's important to verify network status before enrolling. A licensed broker can check provider networks for the specific plans available in your ZIP code.",
+  },
+  {
+    question: "Can a Burlington, NJ Medicare broker help me compare Medigap and Medicare Advantage?",
+    answer:
+      "Yes. An independent broker can walk you through the tradeoffs between Medigap (which pairs with Original Medicare and a standalone Part D plan) and Medicare Advantage (which bundles hospital, medical, and usually drug coverage). New Jersey uses community rating for Medigap, meaning premiums are not based on your individual age. The right fit depends on your doctors, prescriptions, and travel habits.",
+  }
 ];
 
 export default function MedicareInsuranceAgentsBurlingtonNJ() {

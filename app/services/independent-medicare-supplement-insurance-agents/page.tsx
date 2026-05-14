@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "independent medicare supplement insurance agents | Free Help | MedicareYourself",
   description:
-    "Independent Medicare Supplement insurance agents compare every top carrier for you. Anthony Orner is licensed, independent, and free to work with. Get a quote.",
+    "Work with an independent Medicare Supplement agent who compares every top carrier for you — no fees, no pressure. Call 855-559-1700 for a free quote.",
   alternates: { canonical: "https://medicareyourself.com/services/independent-medicare-supplement-insurance-agents" },
   openGraph: {
     title:

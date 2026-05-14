@@ -100,6 +100,12 @@ const faqs = [
     answer:
       "A captive agent represents a single insurance company and can only offer that carrier's plans. An independent broker like Anthony Orner contracts with multiple carriers, so plan recommendations are based on your specific needs, doctors, and prescriptions rather than one company's product line.",
   }
+,
+  {
+    question: "Do I need to live in Cranford to work with Anthony Orner?",
+    answer:
+      "No. Anthony Orner is licensed in New Jersey and 34 additional states, so residents throughout Union County and beyond can get help comparing Medicare plans. Consultations can be done in person, by phone, or virtually based on what works best for you.",
+  }
 ];
 
 export default function MedicareSpecialistsCranfordNJOffice() {

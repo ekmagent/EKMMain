@@ -122,6 +122,17 @@ const faqs = [
     answer:
       "Yes. An independent broker licensed in New Jersey can compare both Medicare Supplement (Medigap) and Medicare Advantage plans side by side. This matters because the two work very differently in terms of network rules, out-of-pocket costs, and how secondary coverage is handled. Reviewing both helps you choose the structure that fits your doctors and budget.",
   }
+,
+  {
+    question: "When can I switch Medicare plans with help from a Montclair agent?",
+    answer:
+      "Most plan changes happen during the Annual Enrollment Period from October 15 to December 7 each year. Medicare Advantage enrollees also have an Open Enrollment Period from January 1 to March 31 to switch plans or return to Original Medicare. Special Enrollment Periods may apply if you move, lose coverage, or qualify for Extra Help. An independent broker can confirm which window fits your situation.",
+  },
+  {
+    question: "What should I bring to a Medicare consultation?",
+    answer:
+      "Have your red, white, and blue Medicare card ready, along with a list of your current prescriptions and dosages. It also helps to write down the doctors and hospitals you want to keep in-network. With that information, a licensed broker can run an accurate plan comparison and check whether your providers and medications are covered.",
+  }
 ];
 
 export default function FindMedicareAgentMontclairNJ() {
@@ -411,6 +422,7 @@ export default function FindMedicareAgentMontclairNJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">For free, unbiased counseling in Essex County, contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey SHIP (State Health Insurance Assistance Program)</a> or the <a href="https://www.nj.gov/dobi/" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey beneficiaries can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
       </section>
       </article>
     </>

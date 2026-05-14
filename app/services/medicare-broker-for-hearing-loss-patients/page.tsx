@@ -111,6 +111,22 @@ const faqs = [
     answer:
       "The fastest way is to work with a licensed Medicare broker who can compare carriers side by side at no cost to you. Anthony Orner reviews Medicare Advantage options across New Jersey to identify plans with hearing aid allowances, audiology visits, and fitting coverage. Call 855-559-1700 for a free plan review.",
   }
+,
+  {
+    question: "Does Original Medicare cover hearing aids?",
+    answer:
+      "No. Original Medicare does not cover hearing aids or the exams for fitting hearing aids. You pay all costs for these non-covered services unless you enroll in a Medicare Advantage plan that includes a hearing benefit.",
+  },
+  {
+    question: "What hearing services does Medicare Part B cover?",
+    answer:
+      "Medicare Part B covers diagnostic hearing and balance exams when your doctor orders them to determine whether you need medical treatment. Part B may also cover certain audiology services for non-acute hearing conditions once per year without a physician referral. Routine hearing exams for hearing aid fittings are not covered.",
+  },
+  {
+    question: "When can I enroll in a Medicare Advantage plan with hearing benefits?",
+    answer:
+      "You can enroll during your Initial Enrollment Period when you first become eligible for Medicare, during the Annual Enrollment Period from October 15 to December 7, or during the Medicare Advantage Open Enrollment Period from January 1 to March 31. A licensed broker can review your options at no cost. Call 855-559-1700 to compare plans with hearing coverage.",
+  }
 ];
 
 export default function MedicareBrokerForHearingLossPatients() {

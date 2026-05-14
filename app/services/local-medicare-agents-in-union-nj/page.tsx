@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "local medicare agents in union nj | Free Plan Comparison | MedicareYourself",
   description:
-    "Local Medicare agents in Union, NJ — Anthony Orner compares Medigap & Advantage plans from top carriers at no cost. Call 855-559-1700 for a free quote today.",
+    "Local Medicare agents in Union, NJ — Anthony Orner compares Medigap & Advantage plans from top carriers at no cost. Call 855-559-1700 for your free quote.",
   alternates: { canonical: "https://medicareyourself.com/services/local-medicare-agents-in-union-nj" },
   openGraph: {
     title:
@@ -99,6 +99,22 @@ const faqs = [
     question: "Will my doctors in Union County accept the plan I choose?",
     answer:
       "Network access depends on the specific plan. Medicare Advantage plans use carrier networks, while Original Medicare with a Medigap policy is accepted by any provider who takes Medicare. A local broker can verify whether your current doctors and preferred hospitals participate before you enroll.",
+  }
+,
+  {
+    question: "What's the difference between Medicare Advantage and Medigap for Union, NJ residents?",
+    answer:
+      "Medicare Advantage (Part C) bundles Parts A, B, and usually D into one plan from a private carrier, often with network restrictions. Medigap (Medicare Supplement) works alongside Original Medicare to cover out-of-pocket costs and lets you see any provider that accepts Medicare. A local broker can help you weigh both based on your Union County doctors and budget.",
+  },
+  {
+    question: "Do Union, NJ Medicare brokers help during Annual Enrollment?",
+    answer:
+      "Yes. Independent brokers assist during the Annual Enrollment Period (October 15 – December 7) when you can switch Medicare Advantage or Part D plans. They also help during the Medicare Advantage Open Enrollment Period (January 1 – March 31) and any Special Enrollment Periods you qualify for.",
+  },
+  {
+    question: "Can I keep my Union County doctors if I switch Medicare plans?",
+    answer:
+      "It depends on the plan. Original Medicare with a Medigap policy lets you see any provider nationwide that accepts Medicare. Medicare Advantage plans use networks, so a local broker will check whether your current Union, NJ doctors and hospitals are in-network before you enroll.",
   }
 ];
 
