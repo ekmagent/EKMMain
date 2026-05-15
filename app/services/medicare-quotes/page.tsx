@@ -118,6 +118,12 @@ const faqs = [
     answer:
       "No. Getting a quote is purely informational and has no effect on any plan you currently have. Your coverage only changes if you choose to submit a new enrollment application and that application is approved by the carrier.",
   }
+,
+  {
+    question: "Can I get Medicare quotes without giving my Social Security or Medicare number?",
+    answer:
+      "Yes. To see accurate Medigap or Medicare Advantage rates, you only need basic information like your zip code, date of birth, sex, and tobacco status. You should never have to share your Social Security number or Medicare Beneficiary Identifier just to compare quotes.",
+  }
 ];
 
 export default function MedicareQuotesPage() {
@@ -321,6 +327,7 @@ export default function MedicareQuotesPage() {
             <div className="text-sm text-gray-600 mt-4">For free state-based counseling, contact your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">SHIP (State Health Insurance Assistance Program)</a> or the <a href="https://www.nj.gov/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">For free, unbiased counseling in your state, contact your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> or the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">Need unbiased local help? Contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">New Jersey Department of Banking and Insurance</a> or your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a> for free counseling.</div>
       </section>
     </main>
   );

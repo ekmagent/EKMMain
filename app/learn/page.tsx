@@ -7,7 +7,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Medicare Education Guides | MedicareYourself",
   description:
-    "Free plain-English Medicare guides from a licensed broker — Parts A-D, Medigap, enrollment, IRMAA, and low-income help. Call 855-559-1700 for personal answers.",
+    "Free plain-English Medicare guides from a licensed broker — learn Parts A-D, Medigap, enrollment, IRMAA, and savings. Call 855-559-1700 for personal answers.",
   alternates: { canonical: `${SITE_URL}/learn` },
   openGraph: {
     title: "Medicare Education Guides | MedicareYourself",
@@ -155,6 +155,12 @@ const GUIDES = [
     question: "Can I switch from Medicare Advantage back to Original Medicare later?",
     answer:
       "Yes. You can switch from a Medicare Advantage plan back to Original Medicare during the Annual Enrollment Period each fall or during the Medicare Advantage Open Enrollment Period in the first quarter of the year. Keep in mind that if you want to add a Medigap policy after switching back, you may have to answer health questions unless you have a guaranteed-issue right. Call 855-559-1700 to review your options before making a change.",
+  }
+,
+  {
+    question: "When can I switch Medicare plans if I'm unhappy with my current coverage?",
+    answer:
+      "Medicare has set enrollment windows for changes. The Annual Enrollment Period runs each fall and lets you switch Medicare Advantage or Part D plans. There is also a Medicare Advantage Open Enrollment Period early in the year, plus Special Enrollment Periods for qualifying life events like moving or losing other coverage. Call 855-559-1700 to confirm which window applies to your situation.",
   }
 ];
 

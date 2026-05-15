@@ -117,6 +117,22 @@ const faqs = [
     answer:
       "Yes. An independent broker can walk you through the tradeoffs between Medigap (which pairs with Original Medicare and a standalone Part D plan) and Medicare Advantage (which bundles hospital, medical, and usually drug coverage). New Jersey uses community rating for Medigap, meaning premiums are not based on your individual age. The right fit depends on your doctors, prescriptions, and travel habits.",
   }
+,
+  {
+    question: "Does an independent Medicare broker in Burlington work with multiple carriers?",
+    answer:
+      "Yes. An independent broker is appointed with several insurance companies rather than being captive to one. That means they can compare Medigap, Medicare Advantage, and Part D options side by side and recommend what fits your doctors, prescriptions, and budget.",
+  },
+  {
+    question: "When is the Medigap Open Enrollment Period in New Jersey?",
+    answer:
+      "Your six-month Medigap Open Enrollment Period begins the month you are 65 or older and enrolled in Medicare Part B. During this window, you have guaranteed issue rights and cannot be denied a Medigap policy or charged more due to health conditions. New Jersey uses community rating, so premiums are not based on your individual age.",
+  },
+  {
+    question: "Can a Burlington Medicare agent help me switch plans during AEP?",
+    answer:
+      "Yes. The Medicare Annual Enrollment Period runs October 15 through December 7 each year. A licensed broker can review your current coverage, check that your prescriptions and providers are still in-network, and help you switch Medicare Advantage or Part D plans for the following year.",
+  }
 ];
 
 export default function MedicareInsuranceAgentsBurlingtonNJ() {

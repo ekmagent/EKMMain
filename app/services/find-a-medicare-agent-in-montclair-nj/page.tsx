@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "find a medicare agent in montclair nj | Free Local Help | MedicareYourself",
   description:
-    "Find a Medicare agent in Montclair, NJ. Independent broker Anthony Orner compares top carriers across Essex County — call 855-559-1700 for a free plan review.",
+    "Find a Medicare agent in Montclair, NJ. Independent broker Anthony Orner compares top carriers in Essex County — call 855-559-1700 for a free plan review.",
   alternates: { canonical: "https://medicareyourself.com/services/find-a-medicare-agent-in-montclair-nj" },
   openGraph: {
     title:

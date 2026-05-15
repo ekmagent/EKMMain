@@ -439,6 +439,22 @@ const faqs = [
     answer:
       "No, Medicare Part A and Part B enrollment is a one-time process and your coverage continues automatically as long as you pay any required premiums. However, if you have a Medicare Advantage or Part D prescription drug plan, you should review your options each year during the Annual Enrollment Period (October 15 – December 7) to make sure your plan still fits your needs.",
   }
+,
+  {
+    question: "Can I sign up for Medicare if I am not yet collecting Social Security?",
+    answer:
+      "Yes. If you are not already receiving Social Security benefits, you will not be automatically enrolled and must actively sign up. You can apply online at ssa.gov/medicare, by calling Social Security, or by visiting a local Social Security office. Most people apply online because it takes about 10 minutes.",
+  },
+  {
+    question: "When does my Medicare coverage actually start?",
+    answer:
+      "If you sign up during the 3 months before your 65th birthday month, coverage begins the first day of your birthday month. If you sign up during or after your birthday month, coverage starts the first day of the month after you enroll. Planning ahead helps avoid any gap in coverage.",
+  },
+  {
+    question: "What happens if I miss my Medicare Initial Enrollment Period?",
+    answer:
+      "If you miss your 7-month Initial Enrollment Period and do not qualify for a Special Enrollment Period, you generally must wait for the General Enrollment Period (January 1 – March 31) to sign up for Part B. You may also owe a permanent Part B late enrollment penalty for each 12-month period you went without coverage. Call 855-559-1700 if you need help reviewing your options.",
+  }
 ];
 
 export default function HowToSignUpPage() {

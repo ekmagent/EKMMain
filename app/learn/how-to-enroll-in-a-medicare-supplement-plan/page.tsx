@@ -9,7 +9,7 @@ import { MF } from "@/lib/medicare-figures";
 export const metadata: Metadata = {
   title: "How to Enroll in a Medicare Supplement Plan (2026): The 5-Step Guide",
   description:
-    "Enroll in a Medicare Supplement plan in 5 steps and protect your 6-month guaranteed-issue window. Call 855-559-1700 to compare every carrier free.",
+    "Enroll in a Medicare Supplement plan in 5 simple steps and lock in your 6-month guaranteed-issue window. Call 855-559-1700 to compare every carrier free.",
   alternates: { canonical: `${SITE_URL}/learn/how-to-enroll-in-a-medicare-supplement-plan` },
   openGraph: {
     title: "How to Enroll in a Medicare Supplement Plan (2026): The 5-Step Guide",
@@ -470,6 +470,22 @@ const faqs = [
     question: "Do I need both Medicare Part A and Part B to buy a Medigap plan?",
     answer:
       "Yes. You must be enrolled in both Medicare Part A and Part B before you can purchase a Medicare Supplement (Medigap) policy. If you have not yet enrolled in Part B, you can sign up through the Social Security Administration at ssa.gov/medicare. Call 855-559-1700 if you need help coordinating your enrollment timing.",
+  }
+,
+  {
+    question: "When is the best time to enroll in a Medicare Supplement plan?",
+    answer:
+      "The best time to buy a Medigap policy is during your 6-month Medigap Open Enrollment Period, which starts the first month you are both 65 or older and enrolled in Medicare Part B. During this one-time window, insurance companies cannot deny you coverage or charge you more based on pre-existing conditions. Missing this window can mean medical underwriting and significantly higher premiums later.",
+  },
+  {
+    question: "Do I need both Medicare Part A and Part B to buy a Medigap policy?",
+    answer:
+      "Yes. Medicare.gov is clear that you generally must have Original Medicare — both Part A and Part B — to buy a Medigap policy. If you are not yet enrolled in Part B, you'll need to sign up through the Social Security Administration before a Medigap application can take effect. Call 855-559-1700 if you need help coordinating the timing.",
+  },
+  {
+    question: "Can my spouse and I share one Medigap policy?",
+    answer:
+      "No. A Medigap policy only covers one person, so you and your spouse each need to buy your own separate policy. You don't have to choose the same plan letter or the same carrier — each spouse can pick what fits their health needs and budget.",
   }
 ];
 

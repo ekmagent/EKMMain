@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Plan G Rates for a 68-Year-Old in New Jersey | Free Carrier Comparison | MedicareYourself",
   description:
-    "Compare Plan G rates for a 68-year-old in NJ across top carriers — identical coverage, very different premiums. Call 855-559-1700 for a free side-by-side quote.",
+    "Compare Plan G rates for a 68-year-old in New Jersey across top carriers — identical coverage, very different premiums. Call 855-559-1700 for a free quote.",
   alternates: { canonical: "https://medicareyourself.com/services/plan-g-rates-for-68-year-old-in-new-jersey" },
   openGraph: {
     title:
@@ -126,6 +126,17 @@ const faqs = [
     question: "Should I work with a broker to compare Plan G rates in NJ?",
     answer:
       "Comparing carriers on your own is possible, but a licensed independent broker can run side-by-side quotes from multiple companies in minutes at no cost to you. Since every Plan G policy provides identical benefits, the goal is finding the lowest premium with a stable rate history. Call 855-559-1700 to request a free NJ Plan G comparison from Anthony Orner.",
+  }
+,
+  {
+    question: "When can a 68-year-old in New Jersey first enroll in Plan G without underwriting?",
+    answer:
+      "Your strongest enrollment window is the 6-month Medigap Open Enrollment Period that begins when you're 65 or older and enrolled in Medicare Part B. During this window, any carrier in New Jersey must sell you Plan G at its best available rate regardless of health history. If you're 68 and missed that initial window, you may still have options through New Jersey's birthday rule or federal guaranteed issue events.",
+  },
+  {
+    question: "Will my Plan G premium in New Jersey go up every year?",
+    answer:
+      "Most Medigap carriers file rate adjustments annually, so premiums typically rise over time due to medical inflation and claims experience — not because of your individual age under community-rated pricing. The size of the increase varies significantly by carrier, which is why comparing rate-history stability matters as much as the starting premium. Call 855-559-1700 for a side-by-side look at carrier pricing trends.",
   }
 ];
 
@@ -394,6 +405,7 @@ export default function PlanGRates68NJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey resources: <a href="https://www.nj.gov/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
             <div className="text-sm text-gray-600 mt-4">New Jersey resource: <a href="https://www.nj.gov/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a> and the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also review the state's published Medigap rate chart from the <a href="https://www.nj.gov/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> for unbiased counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/dobi/division_insurance/ins_ombudsman.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or the <a href="https://www.nj.gov/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medigap counseling.</div>
       </section>
       </article>
     </>

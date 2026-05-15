@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "find a medicare agent in new brunswick nj | Free Local Guidance | MedicareYourself",
   description:
-    "Looking for a Medicare agent in New Brunswick, NJ? Get free side-by-side plan comparisons from licensed broker Anthony Orner. Call 855-559-1700 today.",
+    "Find a Medicare agent in New Brunswick, NJ for free, unbiased plan comparisons. Licensed broker Anthony Orner helps you choose. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/find-a-medicare-agent-in-new-brunswick-nj" },
   openGraph: {
     title:

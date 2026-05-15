@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title:
     "How to Enroll in Medicare Online at SSA.gov (Step-by-Step Walkthrough)",
   description:
-    "Enroll in Medicare online at SSA.gov in about 10 minutes with this 9-step walkthrough. Free broker help at 855-559-1700 — avoid Part B penalty mistakes.",
+    "Enroll in Medicare online at SSA.gov in about 10 minutes with our 9-step walkthrough. Avoid Part B penalties — free broker help at 855-559-1700.",
   alternates: {
     canonical: `${SITE_URL}/learn/ssa-online-enrollment-walkthrough`,
   },
@@ -544,6 +544,22 @@ const steps = [
     question: "What happens after I submit my Medicare application on SSA.gov?",
     answer:
       "After you submit, SSA sends a confirmation with a re-entry number you can use to check status. Processing typically takes a few weeks, and your red, white, and blue Medicare card arrives by mail. Once you have your Medicare number, you can shop for a Medigap, Medicare Advantage, or Part D plan.",
+  }
+,
+  {
+    question: "Do I need to create an account before applying for Medicare online?",
+    answer:
+      "Yes. SSA requires identity verification through a my Social Security account, which you can create using Login.gov or ID.me. You will need your Social Security number and a government-issued ID such as a driver's license to complete the verification.",
+  },
+  {
+    question: "Can I apply for Medicare without starting my Social Security retirement benefits?",
+    answer:
+      "Yes. During the application, SSA asks whether you want to apply for Medicare only without claiming retirement benefits. This lets you enroll in Part A and Part B while delaying retirement income until a later date.",
+  },
+  {
+    question: "Can I change my application after I submit it on SSA.gov?",
+    answer:
+      "No. Once you agree to the Electronic Signature Agreement and click Submit Now, the application is final and cannot be modified online. If you need to make corrections, you must contact Social Security directly by phone or at your local field office.",
   }
 ];
 

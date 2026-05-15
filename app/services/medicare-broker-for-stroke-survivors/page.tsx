@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for stroke survivors | Free Plan Review | MedicareYourself",
   description:
-    "Medicare broker for stroke survivors — get help comparing plans for rehab, therapy, and specialists. Free review with Anthony Orner. Call 855-559-1700.",
+    "Medicare broker for stroke survivors — compare plans covering rehab, therapy & specialists. Free review with Anthony Orner. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-stroke-survivors" },
   openGraph: {
     title:
@@ -346,6 +346,7 @@ export default function MedicareBrokerForStrokeSurvivors() {
             </li>
 </ul>
               <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/coverage/inpatient-rehabilitation-care" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Inpatient Rehabilitation Care</a> and <a href="https://www.medicare.gov/coverage/outpatient-therapy" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Outpatient Therapy Coverage</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

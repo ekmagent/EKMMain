@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "average cost of supplemental health insurance for seniors with medicare | Free Broker Comparison | MedicareYourself",
   description:
-    "Compare 2026 average Medigap costs for seniors by plan, age, and state. Get a free broker comparison and find your lowest rate — call 855-559-1700.",
+    "Compare 2026 Medigap costs for seniors by plan, age, and state. Get a free licensed broker comparison and lock in your lowest rate — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/average-cost-of-supplemental-health-insurance-for-seniors-with-medicare" },
   openGraph: {
     title:
@@ -288,6 +288,22 @@ const faqs = [
     answer:
       "It depends on the pricing method your carrier uses. Attained-age-rated policies increase as you age, issue-age-rated policies are based on the age you first enrolled, and community-rated policies charge everyone in your area the same regardless of age. All three types can also rise due to inflation and claims experience.",
   }
+,
+  {
+    question: "Do Medigap premiums increase as I get older?",
+    answer:
+      "It depends on how the insurance company prices its policies. Attained-age-rated plans increase as you age, issue-age-rated plans are based on your age at purchase, and community-rated plans charge everyone the same regardless of age. All three pricing methods may still see annual increases due to inflation and claims experience.",
+  },
+  {
+    question: "Does Medigap cover the Part B premium or Part A deductible?",
+    answer:
+      "Medigap does not cover your monthly Part B premium — you continue paying that to Medicare directly. However, most Medigap plans, including Plan G and Plan N, fully cover the Part A hospital deductible and many other Original Medicare out-of-pocket costs. Coverage specifics depend on the lettered plan you choose.",
+  },
+  {
+    question: "Can I switch Medigap plans later to lower my cost?",
+    answer:
+      "Yes, but outside your Medigap Open Enrollment Period most states allow carriers to use medical underwriting, which means you can be denied or charged more for health conditions. A few states have annual or birthday rules that allow guaranteed switching. Call 855-559-1700 to review your state's rules before changing plans.",
+  }
 ];
 
 export default function AverageCostSupplementalInsurancePage() {
@@ -495,6 +511,7 @@ export default function AverageCostSupplementalInsurancePage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can compare rates and file complaints through the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents: contact <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </main>
   );

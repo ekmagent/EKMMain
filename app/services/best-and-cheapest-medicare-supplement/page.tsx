@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Need Help Finding Best and Cheapest Medicare Supplement | Free Quote | MedicareYourself",
   description:
-    "Need help finding the best and cheapest Medicare Supplement? Anthony Orner compares every top carrier's rates free — no obligation. Get your quote today.",
+    "Find the best and cheapest Medicare Supplement with free carrier-by-carrier rate comparisons from licensed broker Anthony Orner. Call 855-559-1700 for a quote.",
   alternates: { canonical: "https://medicareyourself.com/services/best-and-cheapest-medicare-supplement" },
   openGraph: {
     title:
@@ -275,6 +275,7 @@ export default function BestAndCheapestMedicareSupplement() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">Free state counseling: <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">SHIP — State Health Insurance Assistance Program</a></div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
     </main>
   );

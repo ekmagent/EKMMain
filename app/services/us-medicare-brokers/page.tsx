@@ -8,7 +8,7 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 export const metadata: Metadata = {
   title: "US Medicare Brokers | Free Unbiased Help | MedicareYourself",
   description:
-    "US Medicare brokers compare Supplement and Advantage plans across carriers at no cost to you. Learn how Anthony Orner finds the best rate. Free quote.",
+    "US Medicare brokers compare Supplement & Advantage plans across carriers at no cost to you. Get unbiased help from Anthony Orner — call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/us-medicare-brokers" },
   openGraph: {
     title: "US Medicare Brokers | Free Unbiased Help | MedicareYourself",
@@ -84,6 +84,22 @@ const faqs = [
     answer:
       "Yes. During Open Enrollment (October 15 through December 7 for Advantage and Part D plans) or during a qualifying Special Enrollment Period, a broker can help you review and switch to a better plan at no charge.",
   },
+,
+  {
+    question: "How do I verify a US Medicare broker is properly licensed?",
+    answer:
+      "Every state insurance department maintains a public license lookup tool where you can confirm a broker's name, license number, and active status. You can also ask the broker for their National Producer Number (NPN) and check it against the NIPR database. CMS additionally requires annual AHIP or carrier certification before a broker can sell Medicare Advantage or Part D plans.",
+  },
+  {
+    question: "Do US Medicare brokers work nationwide or only in certain states?",
+    answer:
+      "Brokers must be individually licensed in each state where they sell, and they must also be appointed by the specific carriers they represent in that state. Some brokers operate locally, while others are licensed across many states and can help clients who move or have homes in multiple regions. Anthony Orner is licensed in New Jersey and 34 additional states.",
+  },
+  {
+    question: "Will a Medicare broker review my current plan each year?",
+    answer:
+      "A good broker will reach out before the Annual Enrollment Period to review your prescriptions, doctors, and plan changes for the coming year. This yearly check-in helps catch formulary changes, premium increases, or new plan options that may fit you better. There is no cost or obligation to switch after the review.",
+  }
 ];
 
 export default function USMedicareBrokersPage() {
@@ -318,6 +334,7 @@ export default function USMedicareBrokersPage() {
               <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/plan-compare" rel="noopener noreferrer" target="_blank" className="underline">Medicare Plan Finder on Medicare.gov</a> and <a href="https://www.medicare.gov/talk-to-someone" rel="noopener noreferrer" target="_blank" className="underline">Talk to Someone at Medicare.gov</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Verify any broker's license through the <a href="https://www.state.nj.us/dobi/division_insurance/" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or contact your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify any broker's license through the <a href="https://www.state.nj.us/dobi/insurance.htm" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">NJ Department of Banking and Insurance</a> or get free counseling from <a href="https://www.shiphelp.org/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">your local SHIP program</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">Verify a broker's license or get free local counseling through your <a href="https://www.shiphelp.org/about-medicare/regional-ship-location" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
       </article>
     </>

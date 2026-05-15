@@ -125,6 +125,12 @@ const faqs = [
     answer:
       "In states without guaranteed-issue protections for disabled enrollees, carriers can use medical underwriting and may decline your application based on health history. In states with under-65 Medigap protections, you typically have guaranteed-issue rights during certain windows. Call 855-559-1700 to confirm what applies in your state.",
   }
+,
+  {
+    question: "What happens to my Medigap plan when I turn 65?",
+    answer:
+      "When you turn 65, you get a second Medigap Open Enrollment Period. This means you can switch to any Medigap plan with any carrier without medical underwriting. Many under-65 disabled enrollees use this milestone to lower their premiums by re-shopping their coverage.",
+  }
 ];
 
 export default function MedicareSupplementDisabilityPage() {

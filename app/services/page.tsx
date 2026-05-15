@@ -9,7 +9,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Medicare Services & Guides | MedicareYourself",
   description:
-    "Compare Medigap, Medicare Advantage & Part D with a licensed independent broker serving NJ & 34 states. Free, unbiased guidance — call 855-559-1700 today.",
+    "Compare Medigap, Medicare Advantage & Part D with a licensed independent broker serving NJ & 34 states. Free unbiased guidance — call 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/services` },
   openGraph: {
     title: "Medicare Services & Guides | MedicareYourself",
@@ -534,6 +534,22 @@ const STATIC_CATEGORIES = [
     answer:
       "Most people first enroll during their Initial Enrollment Period around their 65th birthday. After that, you can make changes during the Annual Enrollment Period each fall, the Medicare Advantage Open Enrollment Period in early spring, or during a Special Enrollment Period triggered by a qualifying life event. Details are published at Medicare.gov.",
   }
+,
+  {
+    question: "What does a licensed Medicare broker do?",
+    answer:
+      "A licensed Medicare broker helps you compare Medigap, Medicare Advantage, and Part D plans from multiple carriers and enroll in the option that fits your health needs and budget. Brokers are paid by the insurance companies, so their guidance is free to you. An independent broker is not tied to a single carrier, which means a wider view of available plans.",
+  },
+  {
+    question: "When can I enroll in Medicare or change my plan?",
+    answer:
+      "Most people first enroll during their Initial Enrollment Period, which spans the seven months around their 65th birthday. You can also make changes during the Annual Enrollment Period each fall or during a Special Enrollment Period if you qualify. A broker can confirm which enrollment window applies to your situation.",
+  },
+  {
+    question: "Is there a cost to work with MedicareYourself?",
+    answer:
+      "No. Our services are free to consumers because licensed brokers are compensated by the insurance carriers when a plan is issued. You pay the same plan premium whether you enroll on your own or with our help. Call 855-559-1700 to speak with Anthony Orner directly.",
+  }
 ];
 
 export default function ServicesHubPage() {
@@ -654,6 +670,7 @@ export default function ServicesHubPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/dobi/division_insurance/ship/shipindex.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </>
   );

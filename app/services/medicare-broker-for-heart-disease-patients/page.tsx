@@ -216,6 +216,22 @@ const faqs = [
     answer:
       "Most heart medications are covered through Medicare Part D prescription drug plans or Medicare Advantage plans that include drug coverage. Common cardiac drugs like statins, beta-blockers, ACE inhibitors, and anticoagulants are typically on plan formularies, though tier placement and cost-sharing vary. A broker can compare formularies to find the plan that covers your specific medications at the lowest cost.",
   }
+,
+  {
+    question: "Will my cardiologist accept my Medicare plan?",
+    answer:
+      "If you have Original Medicare, any provider who accepts Medicare assignment will see you — that includes the vast majority of cardiologists nationwide. If you have Medicare Advantage, your cardiologist must be in that plan's network, and referrals may be required. Before enrolling, a broker can verify your specific cardiologist and hospital system are covered in-network.",
+  },
+  {
+    question: "Are heart medications covered under Medicare?",
+    answer:
+      "Yes. Common cardiac medications like statins, beta-blockers, ACE inhibitors, anticoagulants, and antiarrhythmics are covered under Medicare Part D prescription drug plans or through a Medicare Advantage plan that includes drug coverage. Each plan has its own formulary and tier structure, so the same medication can have very different copays across plans. A broker can run your exact drug list against available plans to find the lowest total cost.",
+  },
+  {
+    question: "Does Medicare cover heart procedures like stents, bypass, or pacemakers?",
+    answer:
+      "Yes. Medicare Part A covers inpatient hospital care including coronary bypass surgery, valve replacement, and pacemaker or defibrillator implantation. Part B covers medically necessary outpatient procedures such as diagnostic catheterizations and many stent placements performed in outpatient settings. Your out-of-pocket share depends on whether you have a Medigap supplement or a Medicare Advantage plan with a maximum out-of-pocket limit.",
+  }
 ];
 
 export default function MedicareBrokerHeartDiseasePatients() {

@@ -357,6 +357,7 @@ export default function MedicareBrokerForBackPainSufferers() {
 </ul>
               <div className="text-sm text-gray-600 mt-4">Learn more from official sources: <a href="https://www.medicare.gov/coverage/acupuncture" target="_blank" rel="noopener noreferrer" className="underline">Medicare.gov — Acupuncture for chronic low back pain</a> and <a href="https://www.medicare.gov/coverage/physical-therapy" target="_blank" rel="noopener noreferrer" className="underline">Medicare.gov — Physical therapy coverage</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
       </section>
       </article>
     </>

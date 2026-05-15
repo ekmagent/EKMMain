@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare supplement open enrollment online | Apply From Home, No Exam | MedicareYourself",
   description:
-    "Apply for Medicare Supplement online during your 6-month guaranteed-issue window — no exam, no health questions. Call 855-559-1700 for free expert help.",
+    "Apply for Medicare Supplement online during your 6-month guaranteed-issue window — no exam, no health questions. Call 855-559-1700 for free expert help today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-supplement-open-enrollment-online" },
   openGraph: {
     title:

@@ -143,6 +143,22 @@ const faqs = [
     answer:
       "When you buy a new Medigap policy, you have a 30-day free look period to decide if you want to keep it. Medicare recommends keeping your old policy active during those 30 days so you are not left without coverage. You'll pay both premiums for that month, but once you're satisfied with the new plan, you can cancel the old one in writing.",
   }
+,
+  {
+    question: "Do I have a federal right to switch Medigap policies outside open enrollment?",
+    answer:
+      "In most cases, federal law does not guarantee the right to switch Medigap policies unless you are within your 6-month Medigap Open Enrollment Period or qualify for a guaranteed issue right. Outside those windows, carriers in most states can use medical underwriting to decide whether to approve your application. Some states offer broader rights to change Medigap plans, so it is worth checking with your state insurance department before applying.",
+  },
+  {
+    question: "What happens during the 30-day free look period when I switch Medigap plans?",
+    answer:
+      "Medicare gives you a 30-day free look period when you buy a new Medigap policy. During this window you can try the new plan while keeping your old one active, which means you pay both premiums for one month. If you decide to keep the new plan, you then cancel the old one in writing — this protects you from any gap in coverage.",
+  },
+  {
+    question: "Do I need to answer health questions to switch Medigap carriers?",
+    answer:
+      "In most states, yes — if you are outside your Medigap Open Enrollment Period or a guaranteed issue situation, the new carrier can ask health questions and review your medical history before approving your application. If you are in reasonably good health, approval is usually straightforward. A licensed broker can pre-screen carriers so you only apply where you are likely to be accepted.",
+  }
 ];
 
 export default function SwitchMedigapPlansPage() {

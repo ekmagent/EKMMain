@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
   description:
-    "Understand 2026 Medicare IRMAA surcharges on Part B & D, income brackets, and how to appeal with SSA-44. Free licensed broker help — call 855-559-1700.",
+    "Learn how 2026 Medicare IRMAA surcharges work on Part B & D, income brackets, and how to appeal with SSA-44. Free licensed broker help — call 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/irmaa-medicare-surcharge` },
   openGraph: {
     title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
@@ -447,6 +447,22 @@ const faqs = [
     question: "Does IRMAA come out of my Social Security check?",
     answer:
       "Yes. The Part B IRMAA surcharge is deducted directly from your Social Security benefit along with your standard Part B premium. The Part D IRMAA surcharge is also billed by Medicare (not your drug plan) and is typically deducted from Social Security as well, even though your base Part D premium is paid to your plan.",
+  }
+,
+  {
+    question: "How do I appeal an IRMAA determination if my income has dropped?",
+    answer:
+      "If you experienced a life-changing event such as retirement, divorce, or the death of a spouse, you can file Form SSA-44 with the Social Security Administration to request a reduction. You'll need to provide documentation of the event and your estimated current-year income. SSA will review the request and may adjust your IRMAA based on more recent income. You can also call SSA directly to start the process.",
+  },
+  {
+    question: "Does IRMAA reset every year?",
+    answer:
+      "Yes. Social Security recalculates IRMAA annually using your most recent tax return on file, which is typically from two years prior. If your income drops back below the threshold, your IRMAA surcharge will go away automatically the following year. You do not need to reapply each year unless you're filing an appeal based on a life-changing event.",
+  },
+  {
+    question: "Can I avoid IRMAA with Roth conversions or tax planning?",
+    answer:
+      "Strategic tax planning before age 63 can help some retirees stay below IRMAA thresholds, since the surcharge is based on MAGI from two years prior. Roth conversions, capital gains timing, and managing required minimum distributions are common strategies people discuss with their tax advisor. We do not provide tax advice, but we can help you understand how IRMAA brackets work so you can plan accordingly.",
   }
 ];
 

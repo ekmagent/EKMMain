@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare insurance agents in clifton new jersey | Free Quote, No Fees | MedicareYourself",
   description:
-    "Medicare insurance agents in Clifton, New Jersey — Anthony Orner is an independent broker quoting 20+ carriers in Passaic County. Free comparison, zero fees.",
+    "Medicare insurance agents in Clifton, NJ — independent broker Anthony Orner compares 20+ carriers in Passaic County. Free quote, no fees. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-insurance-agents-in-clifton-new-jersey" },
   openGraph: {
     title:
@@ -87,6 +87,12 @@ const faqs = [
     answer:
       "Several HMO and PPO Medicare Advantage plans serve Passaic County zip codes 07011, 07012, 07013, and 07014. Availability and benefits change each year. Call 855-559-1700 for a current list tailored to your doctors and prescriptions.",
   },
+,
+  {
+    question: "Does New Jersey use community rating for Medigap premiums?",
+    answer:
+      "Yes. New Jersey is a community-rated state, meaning Medigap carriers charge the same premium to all enrollees of a given plan regardless of age. Premiums can still change annually based on factors like inflation and claims experience.",
+  }
 ];
 
 export default function MedicareInsuranceAgentsCliftonNJ() {
@@ -333,6 +339,7 @@ export default function MedicareInsuranceAgentsCliftonNJ() {
             </li>
 </ul>
               <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/plan-compare" target="_blank" rel="noopener noreferrer" className="underline">Compare plans on Medicare.gov</a> · <a href="https://www.medicare.gov/basics/get-started-with-medicare" target="_blank" rel="noopener noreferrer" className="underline">Get started with Medicare</a> · <a href="https://www.state.nj.us/dobi/division_insurance/ship/" target="_blank" rel="noopener noreferrer" className="underline">NJ SHIP (free state counseling)</a></div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
       </article>
     </>
