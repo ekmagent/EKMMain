@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for epilepsy patients | Free Coverage Consultation | MedicareYourself",
   description:
-    "Medicare broker for epilepsy patients in NJ. Anthony Orner compares Part D formularies and Medigap plans so seizure meds stay covered. Call 855-559-1700.",
+    "Medicare broker for epilepsy patients in NJ. Anthony Orner compares Part D formularies so seizure meds stay covered. Free quote: 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-epilepsy-patients" },
   openGraph: {
     title:

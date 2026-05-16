@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "same day medicare supplement enrollment form | Apply Free | MedicareYourself",
   description:
-    "Same day Medicare Supplement enrollment form — apply with a licensed broker, get confirmation today. Anthony Orner handles all paperwork. Call free.",
+    "Same day Medicare Supplement enrollment form — apply by phone with a licensed broker, get confirmation today. Call 855-559-1700 for free help.",
   alternates: { canonical: "https://medicareyourself.com/services/same-day-medicare-supplement-enrollment-form" },
   openGraph: {
     title:

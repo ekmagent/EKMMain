@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare agent that helps with paperwork near me | Free Help in NJ | MedicareYourself",
   description:
-    "Need help with Medicare paperwork in NJ? Licensed broker Anthony Orner completes applications and carrier forms at no cost. Call 855-559-1700 for free help.",
+    "Need help with Medicare paperwork in NJ? Licensed broker Anthony Orner completes applications and carrier forms at no cost. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-agent-that-helps-with-paperwork-near-me" },
   openGraph: {
     title:

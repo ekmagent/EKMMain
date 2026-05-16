@@ -223,6 +223,22 @@ const faqs = [
     answer:
       "Yes. Medicare Part B covers medically necessary outpatient physical therapy, occupational therapy, and speech-language pathology services when prescribed by your doctor. There is no longer a hard cap on therapy services, but your provider must document that continued therapy is medically necessary. This is important for MS patients managing mobility, balance, and fatigue.",
   }
+,
+  {
+    question: "Does Medicare cover MRIs needed to monitor MS progression?",
+    answer:
+      "Yes. Medically necessary MRIs ordered by your doctor to monitor MS are covered under Medicare Part B as diagnostic imaging. You'll generally be responsible for the Part B deductible and coinsurance unless a Medigap plan covers those costs. Medicare Advantage plans cover MRIs too, but may require prior authorization before the scan is approved.",
+  },
+  {
+    question: "Will Medicare cover physical therapy and rehabilitation for MS?",
+    answer:
+      "Medicare Part B covers medically necessary outpatient physical therapy, occupational therapy, and speech-language pathology services when ordered by your doctor. There is no longer a hard cap on therapy services, but ongoing care must be documented as medically necessary. Home health therapy may also be covered if you meet the homebound criteria.",
+  },
+  {
+    question: "What happens to my MS coverage if I'm under 65 and on Medicare due to disability?",
+    answer:
+      "If you qualified for Medicare through SSDI, you receive the same Part A and Part B benefits as someone over 65. However, Medigap protections for people under 65 vary by state — some states require insurers to offer Medigap plans to disabled enrollees, while others do not. A licensed broker can review your state's specific rules with you.",
+  }
 ];
 
 export default function MedicareBrokerForMSPatients() {
@@ -444,6 +460,7 @@ export default function MedicareBrokerForMSPatients() {
             <div className="text-sm text-gray-600 mt-4">NJ residents: free counseling is available through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-700 underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
       </section>
       </article>
     </>

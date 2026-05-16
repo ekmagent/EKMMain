@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Plan G Rates for a 70-Year-Old in New Jersey | Free Quote in Minutes | MedicareYourself",
   description:
-    "Compare Medicare Plan G rates for a 70-year-old in New Jersey with a licensed local broker. See how NJ Medigap pricing works—call 855-559-1700 for a free quote.",
+    "Compare Medicare Plan G rates for a 70-year-old in New Jersey with a licensed NJ broker. See how NJ Medigap pricing works—call 855-559-1700 for a free quote.",
   alternates: { canonical: "https://medicareyourself.com/services/plan-g-rates-for-70-year-old-in-new-jersey" },
   openGraph: {
     title:
@@ -147,6 +147,17 @@ const faqs = [
     question: "Is it worth using a broker to compare Plan G rates in NJ?",
     answer:
       "Yes. A licensed independent broker can quote multiple New Jersey carriers in one call, explain how community-rated pricing works in NJ, and flag which companies have a history of stable renewal increases. There's no extra cost to you — premiums are the same whether you enroll through a broker or directly with the carrier.",
+  }
+,
+  {
+    question: "What does Medicare Plan G cover in New Jersey?",
+    answer:
+      "Plan G covers the Part A hospital coinsurance and deductible, Part B coinsurance, the first three pints of blood, skilled nursing facility coinsurance, and Part B excess charges. The only major out-of-pocket cost left to you is the annual Part B deductible. Coverage is standardized federally, so benefits are identical across NJ carriers.",
+  },
+  {
+    question: "Should I work with a Medicare broker in New Jersey for Plan G?",
+    answer:
+      "A licensed NJ broker can compare every carrier offering Plan G in your area side by side at no cost to you. Because Medigap benefits are standardized, the only real differences are price, carrier stability, and household discounts. Call 855-559-1700 to speak with Anthony Orner directly.",
   }
 ];
 
@@ -391,6 +402,7 @@ export default function PlanGRates70NJ() {
               <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/health-drug-plans/medigap" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Compare Medigap policies</a> and the <a href="https://www.nj.gov/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey SHIP (State Health Insurance Assistance Program)</a> for free unbiased counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey resource: <a href="https://www.nj.gov/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> and <a href="https://www.nj.gov/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also review the <a href="https://www.nj.gov/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey resource: <a href="https://www.state.nj.us/dobi/division_insurance/ihcseh/heshome.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance — Medicare Supplement</a></div>
       </section>
       </article>
     </>

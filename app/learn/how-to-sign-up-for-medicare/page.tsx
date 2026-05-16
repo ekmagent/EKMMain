@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "How to Sign Up for Medicare (2026 Guide)",
   description:
-    "2026 Medicare sign-up guide: enrollment windows, applying at SSA.gov, and avoiding Part B late penalties. Free licensed broker help — call 855-559-1700.",
+    "2026 Medicare sign-up guide: enrollment windows, applying at SSA.gov, and how to avoid Part B late penalties. Free licensed broker help — call 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/how-to-sign-up-for-medicare` },
   openGraph: {
     title: "How to Sign Up for Medicare (2026 Guide)",
@@ -454,6 +454,22 @@ const faqs = [
     question: "What happens if I miss my Medicare Initial Enrollment Period?",
     answer:
       "If you miss your 7-month Initial Enrollment Period and do not qualify for a Special Enrollment Period, you generally must wait for the General Enrollment Period (January 1 – March 31) to sign up for Part B. You may also owe a permanent Part B late enrollment penalty for each 12-month period you went without coverage. Call 855-559-1700 if you need help reviewing your options.",
+  }
+,
+  {
+    question: "How do I sign up for Medicare if I am not automatically enrolled?",
+    answer:
+      "You can apply online at ssa.gov/medicare, which usually takes about 10 minutes. You may also apply by calling Social Security or visiting your local Social Security office. Apply during the 3 months before the month you turn 65 to ensure coverage starts on time.",
+  },
+  {
+    question: "What happens if I miss my Medicare Initial Enrollment Period?",
+    answer:
+      "If you miss your IEP and do not have creditable employer coverage, you may have to wait until the General Enrollment Period (January 1 – March 31) to sign up for Part B. You may also owe a permanent late enrollment penalty added to your Part B premium for as long as you have Medicare. Call 855-559-1700 if you are unsure whether your coverage qualifies.",
+  },
+  {
+    question: "Can I sign up for Medicare if I am still working?",
+    answer:
+      "Yes, you can enroll in Medicare while still working, but you may choose to delay Part B if you have creditable health coverage through your or your spouse's active employment. Confirm with your HR department that your plan counts as creditable coverage before delaying. When that employment ends, you get an 8-month Special Enrollment Period to sign up for Part B without penalty.",
   }
 ];
 

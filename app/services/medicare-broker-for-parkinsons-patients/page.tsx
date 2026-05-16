@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for Parkinson's patients | Free Plan Review | MedicareYourself",
   description:
-    "Medicare broker for Parkinson's patients — compare Part D, specialist networks & DBS coverage. Free plan review with Anthony Orner. Call 855-559-1700.",
+    "Medicare broker for Parkinson's patients — compare Part D, specialist networks & DBS coverage. Free plan review with Anthony Orner. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-parkinsons-patients" },
   openGraph: {
     title:
@@ -340,6 +340,7 @@ export default function MedicareBrokerForParkinsonsPatients() {
             <div className="text-sm text-gray-600 mt-4">Free unbiased counseling is available through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

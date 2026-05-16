@@ -304,6 +304,22 @@ const faqs = [
     answer:
       "Yes, but outside your Medigap Open Enrollment Period most states allow carriers to use medical underwriting, which means you can be denied or charged more for health conditions. A few states have annual or birthday rules that allow guaranteed switching. Call 855-559-1700 to review your state's rules before changing plans.",
   }
+,
+  {
+    question: "Does where I live affect the cost of supplemental health insurance?",
+    answer:
+      "Yes. Medigap premiums vary widely by state and even by zip code because insurers price based on local claims experience, demographics, and state regulations. The same lettered plan with identical benefits can cost significantly more in one region than another. Comparing carriers licensed in your specific state is the only way to find your lowest available rate.",
+  },
+  {
+    question: "Will my Medigap premium go up as I get older?",
+    answer:
+      "It depends on how the carrier prices the plan. Attained-age-rated policies increase as you age, issue-age-rated policies are based on your age at purchase, and community-rated policies charge everyone the same regardless of age. All three types can still increase over time due to inflation and claims trends, so the pricing method matters for long-term affordability.",
+  },
+  {
+    question: "Can a licensed broker help me find the cheapest supplemental plan?",
+    answer:
+      "Yes. An independent broker can compare every Medigap carrier available in your state and show you side-by-side pricing for the same lettered plan. Because benefits are standardized by Medicare, you're really shopping for the lowest premium and most stable rate history. Call 855-559-1700 for a free comparison with no obligation.",
+  }
 ];
 
 export default function AverageCostSupplementalInsurancePage() {

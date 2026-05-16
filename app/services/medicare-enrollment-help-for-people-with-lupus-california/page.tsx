@@ -204,6 +204,12 @@ const faqs = [
     answer:
       "Yes. Part D plans cover self-administered prescriptions such as hydroxychloroquine, oral corticosteroids, and immunosuppressants commonly used for lupus. Formularies and tier placement vary by plan, so comparing options each year during the Annual Enrollment Period can reduce your out-of-pocket spending. Call 855-559-1700 for a free formulary check.",
   }
+,
+  {
+    question: "Does Medicare cover lab work and monitoring tests needed for lupus?",
+    answer:
+      "Yes. Medicare Part B covers medically necessary lab tests ordered by your doctor to monitor lupus activity, such as ANA panels, complement levels, and kidney function tests. These are typically covered when performed at a Medicare-approved lab. Your specific plan determines any cost-sharing that applies.",
+  }
 ];
 
 export default function MedicareEnrollmentHelpLupusCalifornia() {

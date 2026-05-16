@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare specialists in cranford, nj office | Free Local Help | MedicareYourself",
   description:
-    "Medicare specialists in Cranford, NJ — broker Anthony Orner compares Medigap, Advantage & Part D across carriers. Free local help. Call 855-559-1700.",
+    "Medicare specialists in Cranford, NJ — broker Anthony Orner compares Medigap, Advantage & Part D across carriers at no cost. Call 855-559-1700 for free help.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-specialists-in-cranford-nj-office" },
   openGraph: {
     title:
@@ -105,6 +105,17 @@ const faqs = [
     question: "Do I need to live in Cranford to work with Anthony Orner?",
     answer:
       "No. Anthony Orner is licensed in New Jersey and 34 additional states, so residents throughout Union County and beyond can get help comparing Medicare plans. Consultations can be done in person, by phone, or virtually based on what works best for you.",
+  }
+,
+  {
+    question: "Do I need to live in Cranford to work with a local Medicare broker?",
+    answer:
+      "No. Anthony Orner is licensed in New Jersey and 34 other states, so you can work with him whether you live in Cranford, elsewhere in Union County, or out of state. Meetings can be done in person locally or by phone and video. Call 855-559-1700 to set up a free consultation.",
+  },
+  {
+    question: "What is the difference between Medicare Advantage and Medigap?",
+    answer:
+      "Medicare Advantage (Part C) replaces Original Medicare with a private plan that often bundles Part D and extras like dental or vision, typically using a network. Medigap works alongside Original Medicare to help pay deductibles, coinsurance, and copays, and lets you see any provider that accepts Medicare. A Cranford broker can walk through the trade-offs based on your doctors, prescriptions, and budget.",
   }
 ];
 

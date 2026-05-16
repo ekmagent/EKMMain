@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for dialysis patients | Free ESRD Plan Review | MedicareYourself",
   description:
-    "Medicare broker for dialysis patients — ESRD enrollment, home dialysis coverage, and plan comparisons made simple. Free review: call 855-559-1700.",
+    "Medicare broker for dialysis patients — ESRD enrollment, home dialysis coverage, and plan comparisons at no cost. Free review: call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-dialysis-patients" },
   openGraph: {
     title:
@@ -142,6 +142,22 @@ const faqs = [
     question: "Can I keep my employer coverage while getting Medicare for ESRD?",
     answer:
       "Yes. If you have group health coverage through your or a spouse's employer, that plan typically pays first for the first 30 months after Medicare eligibility based on ESRD. After that coordination period, Medicare becomes the primary payer. Reviewing how the two plans coordinate can prevent surprise bills.",
+  }
+,
+  {
+    question: "Does Medicare cover ambulance transportation to dialysis appointments?",
+    answer:
+      "Medicare Part B may cover ambulance transportation to a dialysis facility, but only when other transportation could endanger your health and the service is medically necessary. Routine rides to scheduled dialysis appointments are generally not covered. Your broker can help you review supplemental plans that may offer non-emergency transportation benefits.",
+  },
+  {
+    question: "Can I keep my nephrologist when switching Medicare plans?",
+    answer:
+      "It depends on the plan. Original Medicare lets you see any provider that accepts Medicare, including most nephrologists and dialysis centers. Medicare Advantage plans use networks, so you'll want to confirm your kidney specialist and dialysis facility are in-network before enrolling — that's something a broker can verify for you.",
+  },
+  {
+    question: "What happens to my Medicare coverage after a kidney transplant?",
+    answer:
+      "If you qualified for Medicare solely because of ESRD, your Medicare coverage generally continues for 36 months after a successful kidney transplant. After that, coverage ends unless you qualify through age or disability. Part B can continue to cover immunosuppressive drugs under a separate benefit if you have no other coverage.",
   }
 ];
 
@@ -395,6 +411,7 @@ export default function MedicareBrokerForDialysisPatients() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
       </section>
     </main>
   );

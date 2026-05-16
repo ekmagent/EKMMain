@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
   description:
-    "Learn how 2026 Medicare IRMAA surcharges work on Part B & D, income brackets, and how to appeal with SSA-44. Free licensed broker help — call 855-559-1700.",
+    "Understand 2026 Medicare IRMAA surcharges on Part B & D, income brackets, and how to appeal with SSA-44. Free licensed broker help — call 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/irmaa-medicare-surcharge` },
   openGraph: {
     title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
@@ -463,6 +463,17 @@ const faqs = [
     question: "Can I avoid IRMAA with Roth conversions or tax planning?",
     answer:
       "Strategic tax planning before age 63 can help some retirees stay below IRMAA thresholds, since the surcharge is based on MAGI from two years prior. Roth conversions, capital gains timing, and managing required minimum distributions are common strategies people discuss with their tax advisor. We do not provide tax advice, but we can help you understand how IRMAA brackets work so you can plan accordingly.",
+  }
+,
+  {
+    question: "How do I appeal an IRMAA determination?",
+    answer:
+      "If you've experienced a life-changing event that reduced your income, you can file Form SSA-44 with the Social Security Administration to request a reduction. You'll need documentation of the event, such as a marriage certificate, death certificate, or proof of work stoppage. SSA reviews your request and notifies you of their decision in writing. Call 855-559-1700 if you'd like help understanding the process.",
+  },
+  {
+    question: "Does IRMAA reset each year?",
+    answer:
+      "Yes. Social Security recalculates your IRMAA every year based on the most recent tax return available, which is typically from two years prior. If your income drops below the threshold, your IRMAA surcharge goes away automatically the following year. You do not need to reapply each year unless you're appealing based on a life-changing event.",
   }
 ];
 

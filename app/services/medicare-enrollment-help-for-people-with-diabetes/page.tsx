@@ -195,6 +195,22 @@ const faqs = [
     answer:
       "Yes. Medicare Part B covers the Medicare Diabetes Prevention Program for eligible beneficiaries at risk of type 2 diabetes, and you pay nothing if you qualify. The program offers training to help you make lasting diet and exercise changes. You can find a program near you or attend online through medicare.gov.",
   }
+,
+  {
+    question: "Does Medicare Part D cover insulin?",
+    answer:
+      "Yes. Medicare Part D plans cover insulin, and recent changes under the Inflation Reduction Act capped monthly out-of-pocket costs for covered insulin products. Coverage details vary by plan formulary, so it's important to confirm your specific insulin is included before enrolling. Call 855-559-1700 for help comparing Part D plans that cover your insulin.",
+  },
+  {
+    question: "Does Medicare cover diabetes self-management training?",
+    answer:
+      "Yes. Medicare Part B covers diabetes self-management training (DSMT) when ordered by your doctor as part of your treatment plan. This training helps you learn to manage your diabetes, including monitoring blood sugar, taking medication, and making healthy lifestyle choices. You'll typically need a referral from a Medicare-enrolled provider.",
+  },
+  {
+    question: "Are diabetic test strips and monitors covered by Medicare?",
+    answer:
+      "Yes. Medicare Part B covers blood sugar monitors, test strips, lancets, and lancet devices as durable medical equipment when prescribed by your doctor. You'll need to use a Medicare-enrolled DME supplier to get the lowest cost. Coverage amounts may differ depending on whether you use insulin.",
+  }
 ];
 
 export default function MedicareEnrollmentHelpDiabetes() {
@@ -488,6 +504,7 @@ export default function MedicareEnrollmentHelpDiabetes() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

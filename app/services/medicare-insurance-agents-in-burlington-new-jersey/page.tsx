@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare insurance agents in burlington new jersey | Free Local Help | MedicareYourself",
   description:
-    "Talk with a licensed Medicare broker serving Burlington, NJ. Compare Medigap, Advantage & Part D plans at no cost. Free local help — call 855-559-1700.",
+    "Talk with Anthony Orner, a licensed Medicare broker serving Burlington, NJ. Compare Medigap, Advantage & Part D plans free — call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-insurance-agents-in-burlington-new-jersey" },
   openGraph: {
     title:
@@ -132,6 +132,22 @@ const faqs = [
     question: "Can a Burlington Medicare agent help me switch plans during AEP?",
     answer:
       "Yes. The Medicare Annual Enrollment Period runs October 15 through December 7 each year. A licensed broker can review your current coverage, check that your prescriptions and providers are still in-network, and help you switch Medicare Advantage or Part D plans for the following year.",
+  }
+,
+  {
+    question: "Does Anthony Orner serve all of Burlington County, NJ?",
+    answer:
+      "Yes. Anthony Orner is a licensed independent Medicare broker (NPI 1902584006) serving Burlington Township, Mount Laurel, Willingboro, Moorestown, Marlton, Medford, and surrounding Burlington County communities. Consultations are available by phone, video, or in person depending on your preference. Call 855-559-1700 to schedule a free review.",
+  },
+  {
+    question: "How does New Jersey Medigap pricing work?",
+    answer:
+      "New Jersey uses community rating for Medigap policies, which means insurers charge the same premium to everyone with a given plan regardless of age. Your best opportunity to enroll without medical underwriting is during your 6-month Medigap Open Enrollment Period, which begins when you're 65 or older and enrolled in Part B. Outside that window, carriers in NJ may require health underwriting.",
+  },
+  {
+    question: "What's the difference between Medigap and Medicare Advantage in Burlington?",
+    answer:
+      "Medigap (Medicare Supplement) works alongside Original Medicare and lets you see any provider nationwide that accepts Medicare, with predictable out-of-pocket costs. Medicare Advantage replaces Original Medicare with a private plan that typically uses local networks and may include extras like dental or vision. A broker can compare both options side-by-side based on your doctors and prescriptions.",
   }
 ];
 

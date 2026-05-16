@@ -136,6 +136,22 @@ const faqs = [
     answer:
       "You can change Medicare Advantage and Part D plans during the Annual Enrollment Period each fall, and during the Medicare Advantage Open Enrollment Period in early spring. Certain life events, such as moving or losing other coverage, can trigger a Special Enrollment Period. If your pulmonologist changes your inhaler regimen, it is worth reviewing whether your current plan still offers the best coverage.",
   }
+,
+  {
+    question: "Does Medicare cover pulmonary rehabilitation for COPD?",
+    answer:
+      "Yes. Medicare Part B covers comprehensive pulmonary rehabilitation programs for beneficiaries with moderate to very severe COPD when referred by the treating physician. Coverage includes exercise training, education, and psychosocial support. Each plan handles cost-sharing differently, so I review the specifics before you enroll.",
+  },
+  {
+    question: "Can I switch Medicare plans if my COPD treatment changes?",
+    answer:
+      "Yes. You can review and switch Medicare Advantage or Part D plans during the Annual Enrollment Period each fall, or during the Medicare Advantage Open Enrollment Period in early spring. If you qualify for Extra Help or a Special Enrollment Period, you may be able to change plans outside those windows. I track these windows for every client I work with.",
+  },
+  {
+    question: "Are COPD inhalers covered under Part B or Part D?",
+    answer:
+      "Most maintenance and rescue inhalers are covered under Medicare Part D prescription drug plans. Nebulizer medications administered through durable medical equipment may fall under Part B instead. Formularies vary widely between plans, so matching your specific inhalers to the right drug plan is one of the most important parts of my review.",
+  }
 ];
 
 export default function MedicareBrokerForCOPDPatients() {
@@ -401,6 +417,7 @@ export default function MedicareBrokerForCOPDPatients() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Free state counseling: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP — State Health Insurance Assistance Program</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free unbiased Medicare counseling.</div>
       </section>
     </main>
   );

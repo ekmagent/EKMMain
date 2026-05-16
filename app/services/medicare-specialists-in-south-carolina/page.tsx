@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare specialists in south carolina | Free Multi-Carrier Quotes | MedicareYourself",
   description:
-    "Compare Medicare Supplement & Advantage plans across South Carolina with licensed broker Anthony Orner. Free multi-carrier quotes — call 855-559-1700 today.",
+    "Medicare specialists in South Carolina — compare Supplement, Advantage & Part D plans with licensed broker Anthony Orner. Free quotes, call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-specialists-in-south-carolina" },
   openGraph: {
     title:
@@ -104,6 +104,22 @@ const faqs = [
     question: "Can I switch Medicare plans each year in South Carolina?",
     answer:
       "Yes. During the Annual Enrollment Period (October 15 to December 7), SC residents can join, switch, or drop a Medicare Advantage or Part D plan for coverage starting January 1. There's also a Medicare Advantage Open Enrollment Period from January 1 to March 31 for those already in an Advantage plan. Medigap changes outside your initial window may require medical underwriting in South Carolina.",
+  }
+,
+  {
+    question: "Can I switch from Medicare Advantage back to Original Medicare in South Carolina?",
+    answer:
+      "Yes. You can switch during the Medicare Annual Enrollment Period from October 15 to December 7, or during the Medicare Advantage Open Enrollment Period from January 1 to March 31. Keep in mind that if you want to add a Medigap policy after switching back, SC carriers may use medical underwriting outside your initial open enrollment window.",
+  },
+  {
+    question: "Does Medicare cover prescription drugs in South Carolina?",
+    answer:
+      "Original Medicare (Parts A and B) does not cover most outpatient prescription drugs. SC residents can add a standalone Part D plan or choose a Medicare Advantage plan that includes drug coverage. A licensed broker can compare formularies to ensure your specific medications are covered at the lowest cost.",
+  },
+  {
+    question: "What's the difference between Medigap and Medicare Advantage for SC seniors?",
+    answer:
+      "Medigap (Medicare Supplement) works alongside Original Medicare to help pay deductibles, copays, and coinsurance, and lets you see any provider that accepts Medicare nationwide. Medicare Advantage replaces Original Medicare with a private plan that typically uses SC provider networks and often bundles drug and extra benefits. The right choice depends on your providers, budget, and travel habits.",
   }
 ];
 

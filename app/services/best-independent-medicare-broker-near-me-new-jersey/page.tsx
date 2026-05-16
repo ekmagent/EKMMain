@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "best independent medicare broker near me new jersey | Free Consultation | MedicareYourself",
   description:
-    "Looking for the best independent Medicare broker near you in New Jersey? Anthony Orner compares 20+ carriers at no cost. Call 855-559-1700 for a free review.",
+    "Searching for the best independent Medicare broker near you in New Jersey? Anthony Orner compares 20+ carriers at no cost. Call 855-559-1700 for a free review.",
   alternates: { canonical: "https://medicareyourself.com/services/best-independent-medicare-broker-near-me-new-jersey" },
   openGraph: {
     title:
@@ -87,6 +87,22 @@ const faqs = [
     answer:
       "Yes. Anthony Orner serves all 21 New Jersey counties by phone, video, or in person. Whether you're in Sussex County or Cape May, you get the same full plan comparison and enrollment support.",
   },
+,
+  {
+    question: "When can I enroll in a Medigap plan in New Jersey?",
+    answer:
+      "Your strongest protections come during your 6-month Medigap Open Enrollment Period, which starts the month you're 65 or older and enrolled in Part B. During that window, carriers cannot deny you or charge more based on health. New Jersey uses community rating, so Medigap premiums are not based on your age.",
+  },
+  {
+    question: "How do I know if a New Jersey Medicare broker is licensed?",
+    answer:
+      "You can verify any agent through the New Jersey Department of Banking and Insurance license lookup. Anthony Orner is licensed in New Jersey under NPI 1902584006 and appointed with more than 20 carriers serving NJ residents.",
+  },
+  {
+    question: "Do I have to switch plans every year?",
+    answer:
+      "No, but it's smart to review annually during the Medicare Annual Enrollment Period from October 15 to December 7. Plan formularies, networks, and premiums change each year, and a quick check-in with a broker confirms your current plan is still the best fit. Call 855-559-1700 for a no-cost review.",
+  }
 ];
 
 export default function BestIndependentMedicareBrokerNearMeNewJersey() {
@@ -398,6 +414,7 @@ export default function BestIndependentMedicareBrokerNearMeNewJersey() {
               <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/basics/get-started-with-medicare" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">Get Started with Medicare (Medicare.gov)</a> and <a href="https://www.medicare.gov/talk-to-someone" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">Talk to Someone (Medicare.gov)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-2">Free, unbiased Medicare counseling is also available through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

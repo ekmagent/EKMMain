@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare broker for heart disease patients | Free Help Finding the Right Plan | MedicareYourself",
   description:
-    "Medicare broker for heart disease patients — compare plans covering cardiologists, cardiac rehab & heart meds. Free unbiased help. Call 855-559-1700 today.",
+    "Medicare broker for heart patients — compare plans covering cardiologists, cardiac rehab & heart meds. Free unbiased guidance. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-heart-disease-patients" },
   openGraph: {
     title:
@@ -231,6 +231,17 @@ const faqs = [
     question: "Does Medicare cover heart procedures like stents, bypass, or pacemakers?",
     answer:
       "Yes. Medicare Part A covers inpatient hospital care including coronary bypass surgery, valve replacement, and pacemaker or defibrillator implantation. Part B covers medically necessary outpatient procedures such as diagnostic catheterizations and many stent placements performed in outpatient settings. Your out-of-pocket share depends on whether you have a Medigap supplement or a Medicare Advantage plan with a maximum out-of-pocket limit.",
+  }
+,
+  {
+    question: "Will Medicare cover my cardiologist visits and heart medications?",
+    answer:
+      "Medicare Part B covers medically necessary cardiologist visits, diagnostic tests like echocardiograms and stress tests, and outpatient procedures after you meet the Part B deductible. Heart medications are covered under Part D prescription drug plans or through a Medicare Advantage plan that includes drug coverage. A broker can review your specific medications against each plan's formulary to find the lowest total cost.",
+  },
+  {
+    question: "Do I need a referral to see a cardiologist with Medicare?",
+    answer:
+      "Original Medicare does not require referrals to see specialists, including cardiologists, as long as the provider accepts Medicare. Medicare Advantage HMO plans typically require a referral from your primary care doctor, while PPO plans usually do not. If you see your cardiologist frequently, this difference can be a key factor in choosing the right plan.",
   }
 ];
 

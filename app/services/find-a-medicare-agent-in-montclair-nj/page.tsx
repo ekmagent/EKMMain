@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "find a medicare agent in montclair nj | Free Local Help | MedicareYourself",
   description:
-    "Find a Medicare agent in Montclair, NJ. Independent broker Anthony Orner compares top carriers in Essex County — call 855-559-1700 for a free plan review.",
+    "Find a Medicare agent in Montclair, NJ. Independent broker Anthony Orner compares top carriers across Essex County — call 855-559-1700 for a free plan review.",
   alternates: { canonical: "https://medicareyourself.com/services/find-a-medicare-agent-in-montclair-nj" },
   openGraph: {
     title:
@@ -132,6 +132,17 @@ const faqs = [
     question: "What should I bring to a Medicare consultation?",
     answer:
       "Have your red, white, and blue Medicare card ready, along with a list of your current prescriptions and dosages. It also helps to write down the doctors and hospitals you want to keep in-network. With that information, a licensed broker can run an accurate plan comparison and check whether your providers and medications are covered.",
+  }
+,
+  {
+    question: "What carriers can an independent broker offer in Essex County?",
+    answer:
+      "An independent broker in Essex County typically contracts with several major Medicare carriers offering Advantage, Supplement, and Part D plans in New Jersey. The specific carriers available depend on your ZIP code and the plan year. Anthony Orner will walk through the carriers serving Montclair and compare benefits, networks, and drug coverage side by side.",
+  },
+  {
+    question: "When can I switch Medicare plans with help from a Montclair agent?",
+    answer:
+      "Most beneficiaries can change plans during the Annual Enrollment Period from October 15 to December 7, with Medicare Advantage enrollees also having the Open Enrollment Period from January 1 to March 31. Special Enrollment Periods may apply if you move, lose other coverage, or qualify for Extra Help. A licensed agent can confirm which window applies to your situation.",
   }
 ];
 

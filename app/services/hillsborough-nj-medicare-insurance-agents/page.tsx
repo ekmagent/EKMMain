@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "hillsborough nj medicare insurance agents | Free Broker Consultation | MedicareYourself",
   description:
-    "Hillsborough NJ Medicare insurance agents — Anthony Orner compares Supplement & Advantage plans across carriers at no cost. Free Somerset County quote.",
+    "Hillsborough NJ Medicare insurance agents — compare Supplement & Advantage plans across carriers at no cost. Free Somerset County quote: 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/hillsborough-nj-medicare-insurance-agents" },
   openGraph: {
     title:
@@ -319,6 +319,7 @@ export default function HillsboroughNJMedicareInsuranceAgents() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free unbiased help from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

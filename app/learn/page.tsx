@@ -162,6 +162,12 @@ const GUIDES = [
     answer:
       "Medicare has set enrollment windows for changes. The Annual Enrollment Period runs each fall and lets you switch Medicare Advantage or Part D plans. There is also a Medicare Advantage Open Enrollment Period early in the year, plus Special Enrollment Periods for qualifying life events like moving or losing other coverage. Call 855-559-1700 to confirm which window applies to your situation.",
   }
+,
+  {
+    question: "Can I switch from Medicare Advantage back to Original Medicare later?",
+    answer:
+      "Yes, you can switch during the Annual Enrollment Period (October 15 to December 7) or the Medicare Advantage Open Enrollment Period (January 1 to March 31). Keep in mind that if you want to add a Medigap policy after switching back, you may have to answer health questions unless you qualify for a guaranteed issue right. Call 855-559-1700 if you'd like help reviewing your timing and options.",
+  }
 ];
 
 export default function LearnHubPage() {

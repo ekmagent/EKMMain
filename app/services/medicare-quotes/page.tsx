@@ -124,6 +124,12 @@ const faqs = [
     answer:
       "Yes. To see accurate Medigap or Medicare Advantage rates, you only need basic information like your zip code, date of birth, sex, and tobacco status. You should never have to share your Social Security number or Medicare Beneficiary Identifier just to compare quotes.",
   }
+,
+  {
+    question: "How long does it take to get Medicare quotes?",
+    answer:
+      "Most quotes can be generated in just a few minutes once you provide your zip code, date of birth, and tobacco status. A licensed broker can email you a side-by-side comparison the same day. Call 855-559-1700 to get started.",
+  }
 ];
 
 export default function MedicareQuotesPage() {

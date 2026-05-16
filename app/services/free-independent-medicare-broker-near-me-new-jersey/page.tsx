@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "free independent medicare broker near me new jersey | Free Quote | MedicareYourself",
   description:
-    "Work with a free independent Medicare broker in New Jersey. Anthony Orner compares Medigap and Advantage plans from top carriers. Call 855-559-1700 today.",
+    "Free independent Medicare broker in New Jersey. Anthony Orner compares Medigap and Advantage plans from top carriers at no cost. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/free-independent-medicare-broker-near-me-new-jersey" },
   openGraph: {
     title:
@@ -116,6 +116,22 @@ const faqs = [
     question: "When can I enroll in a Medigap plan in New Jersey?",
     answer:
       "The best time to enroll is during your 6-month Medigap Open Enrollment Period, which begins the month your Part B becomes effective and you are 65 or older. During this window, you have guaranteed issue rights and cannot be denied coverage or charged more due to health conditions. Outside this window, medical underwriting may apply.",
+  }
+,
+  {
+    question: "Does New Jersey use community rating for Medigap premiums?",
+    answer:
+      "Yes. New Jersey is a community-rated state for Medicare Supplement plans, meaning carriers cannot charge you a higher premium based on your age. Everyone enrolled in the same plan with the same carrier pays the same base rate, though premiums can still vary between carriers.",
+  },
+  {
+    question: "When can I enroll in a Medigap plan in New Jersey without medical underwriting?",
+    answer:
+      "Your guaranteed-issue window is the 6-month Medigap Open Enrollment Period that begins the month you are 65 or older and enrolled in Part B. During that window, carriers cannot deny you coverage or charge more based on health. Outside of that window, you may be subject to medical underwriting unless you qualify for a separate guaranteed-issue right.",
+  },
+  {
+    question: "What does an independent Medicare broker actually do for me?",
+    answer:
+      "An independent broker reviews your doctors, prescriptions, and budget, then compares Medigap, Medicare Advantage, and Part D plans from multiple carriers. They handle the application paperwork, explain enrollment windows, and remain your point of contact for plan reviews each year — all at no cost to you.",
   }
 ];
 
@@ -308,6 +324,7 @@ export default function FreeIndependentMedicareBrokerNearMeNewJersey() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-2">New Jersey resource: <a href="https://www.state.nj.us/dobi/division_insurance/ihcseh/aboutship.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
       </section>
     </main>
   );

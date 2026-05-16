@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare advise in new jersey | Free Expert Guidance | MedicareYourself",
   description:
-    "Free Medicare advice in New Jersey from licensed broker Anthony Orner. Compare Medigap, Advantage & Part D plans with zero pressure. Call 855-559-1700 today.",
+    "Free Medicare advice in New Jersey from licensed broker Anthony Orner. Compare Medigap, Advantage & Part D plans with no pressure. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-advise-in-new-jersey" },
   openGraph: {
     title:
@@ -330,6 +330,7 @@ export default function MedicareAdviseInNewJersey() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.nj.gov/humanservices/doas/services/q-z/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">New Jersey State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.nj.gov/humanservices/doas/services/q-z/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-700 hover:underline">New Jersey State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">For free unbiased counseling, contact the <a href="https://www.nj.gov/humanservices/doas/services/q-z/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey State Health Insurance Assistance Program (SHIP)</a> through the Division of Aging Services.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling through the <a href="https://www.nj.gov/humanservices/doas/services/q-z/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>, run by the Division of Aging Services.</div>
       </section>
     </>
   );

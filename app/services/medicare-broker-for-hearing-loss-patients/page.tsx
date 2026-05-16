@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for hearing loss patients | Free Plan Review | MedicareYourself",
   description:
-    "Medicare broker for hearing loss patients—compare NJ Advantage plans with hearing aid and audiology benefits at no cost. Call 855-559-1700 for a free review.",
+    "Medicare broker for hearing loss patients—compare NJ Advantage plans with hearing aid and audiology benefits. Free review. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-hearing-loss-patients" },
   openGraph: {
     title:
@@ -126,6 +126,22 @@ const faqs = [
     question: "When can I enroll in a Medicare Advantage plan with hearing benefits?",
     answer:
       "You can enroll during your Initial Enrollment Period when you first become eligible for Medicare, during the Annual Enrollment Period from October 15 to December 7, or during the Medicare Advantage Open Enrollment Period from January 1 to March 31. A licensed broker can review your options at no cost. Call 855-559-1700 to compare plans with hearing coverage.",
+  }
+,
+  {
+    question: "Does Original Medicare cover routine hearing exams?",
+    answer:
+      "No. Original Medicare does not cover routine hearing exams or exams for fitting hearing aids. Part B only covers diagnostic hearing and balance exams when ordered by your doctor to determine if you need medical treatment.",
+  },
+  {
+    question: "What hearing benefits might a Medicare Advantage plan include?",
+    answer:
+      "Many Medicare Advantage plans in NJ offer supplemental hearing benefits that Original Medicare does not, such as routine hearing exams, hearing aid fittings, and allowances toward hearing aid purchases. Benefits vary by carrier and plan, so it helps to compare options side by side with a licensed broker.",
+  },
+  {
+    question: "When can I switch to a Medicare Advantage plan with hearing benefits?",
+    answer:
+      "You can enroll or switch plans during the Annual Enrollment Period from October 15 to December 7, or during the Medicare Advantage Open Enrollment Period from January 1 to March 31. Special Enrollment Periods may also apply if you qualify due to a life event.",
   }
 ];
 
@@ -385,6 +401,7 @@ export default function MedicareBrokerForHearingLossPatients() {
             <div className="text-sm text-gray-600 mt-4">For free, unbiased Medicare counseling in New Jersey, contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">NJ residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">New Jersey SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">Need unbiased counseling? Contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare guidance.</div>
+            <div className="text-sm text-gray-600 mt-4">NJ residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
       </section>
     </main>
   );

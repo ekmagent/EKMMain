@@ -487,6 +487,22 @@ const faqs = [
     answer:
       "No. A Medigap policy only covers one person, so you and your spouse each need to buy your own separate policy. You don't have to choose the same plan letter or the same carrier — each spouse can pick what fits their health needs and budget.",
   }
+,
+  {
+    question: "Do I need both Medicare Part A and Part B to buy a Medigap policy?",
+    answer:
+      "Yes. Medicare.gov states that you generally must have Original Medicare — both Part A and Part B — to buy a Medigap policy. If you only have Part A, you'll need to enroll in Part B before a carrier can issue your supplement coverage.",
+  },
+  {
+    question: "Can my spouse and I share one Medigap policy?",
+    answer:
+      "No. A Medigap policy only covers one person. If you and your spouse both want Medigap coverage, each of you must apply for and buy your own separate policy, even if you choose the same plan letter from the same carrier.",
+  },
+  {
+    question: "When is the best time to buy a Medigap policy?",
+    answer:
+      "Medicare.gov identifies your Medigap Open Enrollment Period as the best time to buy. During this one-time 6-month window, carriers cannot deny you coverage or charge more based on health conditions. Applying outside this window typically means answering health questions and risking denial.",
+  }
 ];
 
 export default function HowToEnrollMedigapPage() {
