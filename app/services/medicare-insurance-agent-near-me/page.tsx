@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare insurance agent near me | Free NJ Broker Consultation | MedicareYourself",
   description:
-    "Searching for a Medicare insurance agent near you in NJ? Anthony Orner compares plans across carriers by phone or video — free, no pressure. Call 855-559-1700.",
+    "Looking for a Medicare insurance agent near you in NJ? Anthony Orner compares plans across carriers by phone or video — free, no pressure. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-insurance-agent-near-me" },
   openGraph: {
     title:

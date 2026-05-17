@@ -9,7 +9,7 @@ import { MF } from "@/lib/medicare-figures";
 export const metadata: Metadata = {
   title: "How to Enroll in a Medicare Supplement Plan (2026): The 5-Step Guide",
   description:
-    "Enroll in a Medicare Supplement plan in 5 simple steps and lock in your 6-month guaranteed-issue window. Call 855-559-1700 to compare every carrier free.",
+    "Enroll in a Medicare Supplement plan in 5 steps and lock in your 6-month guaranteed-issue window. Call 855-559-1700 to compare every carrier free.",
   alternates: { canonical: `${SITE_URL}/learn/how-to-enroll-in-a-medicare-supplement-plan` },
   openGraph: {
     title: "How to Enroll in a Medicare Supplement Plan (2026): The 5-Step Guide",
@@ -502,6 +502,22 @@ const faqs = [
     question: "When is the best time to buy a Medigap policy?",
     answer:
       "Medicare.gov identifies your Medigap Open Enrollment Period as the best time to buy. During this one-time 6-month window, carriers cannot deny you coverage or charge more based on health conditions. Applying outside this window typically means answering health questions and risking denial.",
+  }
+,
+  {
+    question: "Do I need both Medicare Part A and Part B to buy a Medigap policy?",
+    answer:
+      "Yes. You must be enrolled in both Part A and Part B before a carrier can issue a Medicare Supplement policy. If you only have Part A, you'll need to enroll in Part B through Social Security first. Call 855-559-1700 if you need help confirming your enrollment status.",
+  },
+  {
+    question: "Can I be denied a Medigap policy because of my health?",
+    answer:
+      "During your 6-month Medigap Open Enrollment Period, no carrier can deny you coverage or charge more based on pre-existing conditions. Outside that window, most states allow carriers to use medical underwriting, which can result in higher premiums or denial. A few guaranteed-issue situations exist outside the open enrollment window — a licensed broker can confirm whether you qualify.",
+  },
+  {
+    question: "Can I switch Medigap plans after I enroll?",
+    answer:
+      "Yes, you can apply to switch plans at any time, but outside of your initial 6-month open enrollment window most states allow the new carrier to medically underwrite your application. That means you could be denied or charged more based on your health. It's important to choose carefully during your initial enrollment window.",
   }
 ];
 

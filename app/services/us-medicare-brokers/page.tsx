@@ -8,7 +8,7 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 export const metadata: Metadata = {
   title: "US Medicare Brokers | Free Unbiased Help | MedicareYourself",
   description:
-    "US Medicare brokers compare Supplement & Advantage plans across carriers at no cost to you. Get unbiased help from Anthony Orner — call 855-559-1700 today.",
+    "US Medicare brokers compare Supplement & Advantage plans across top carriers at no cost. Get unbiased guidance from Anthony Orner — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/us-medicare-brokers" },
   openGraph: {
     title: "US Medicare Brokers | Free Unbiased Help | MedicareYourself",

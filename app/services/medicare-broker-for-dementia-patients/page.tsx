@@ -87,6 +87,12 @@ const faqs = [
     answer:
       "Part D plans vary in which dementia drugs they cover and at what tier. Newer treatments like lecanemab (Leqembi) may be covered under Part B when administered in a clinical setting. Older medications like donepezil and memantine are typically on Part D formularies. We can check your parent's specific prescriptions against available plans.",
   },
+,
+  {
+    question: "Can a caregiver or power of attorney handle Medicare enrollment for a dementia patient?",
+    answer:
+      "Yes. A spouse, adult child, or legal representative with a signed authorization or power of attorney can speak with a Medicare broker and help enroll a loved one. We routinely work with family caregivers and can guide you through what paperwork is needed before plan changes are made.",
+  }
 ];
 
 export default function MedicareBrokerForDementiaPatients() {
@@ -315,6 +321,7 @@ export default function MedicareBrokerForDementiaPatients() {
             <div className="text-sm text-gray-600 mt-4">New Jersey families can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey caregivers can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">For free unbiased counseling, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey families can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" target="_blank" rel="noopener noreferrer" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
       </section>
     </main>
   );

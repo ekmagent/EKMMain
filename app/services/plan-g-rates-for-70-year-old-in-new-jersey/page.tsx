@@ -159,6 +159,22 @@ const faqs = [
     answer:
       "A licensed NJ broker can compare every carrier offering Plan G in your area side by side at no cost to you. Because Medigap benefits are standardized, the only real differences are price, carrier stability, and household discounts. Call 855-559-1700 to speak with Anthony Orner directly.",
   }
+,
+  {
+    question: "What does Medigap Plan G cover for a 70-year-old in New Jersey?",
+    answer:
+      "Plan G covers your Part A hospital coinsurance and deductible, Part B coinsurance, the first three pints of blood, skilled nursing facility coinsurance, hospice coinsurance, and foreign travel emergency care up to plan limits. The only standard Medicare-covered cost you pay out of pocket is the annual Part B deductible. After that, most Medicare-approved services are covered in full.",
+  },
+  {
+    question: "Is Plan G the same with every carrier in New Jersey?",
+    answer:
+      "Yes. Medigap Plan G benefits are standardized by federal law, so the coverage is identical no matter which insurance company you choose in New Jersey. The only differences between carriers are premium price, customer service, and household discounts. That is why comparing multiple NJ carriers side by side is the best way to save.",
+  },
+  {
+    question: "When should a 70-year-old apply for Plan G in New Jersey?",
+    answer:
+      "The best time to enroll is during your 6-month Medigap Open Enrollment Period, which begins the month you are 65 or older and enrolled in Part B. If you missed that window, you may still apply at any time, but carriers in NJ can require medical underwriting outside of guaranteed issue situations. Call 855-559-1700 and we will review your timing options.",
+  }
 ];
 
 export default function PlanGRates70NJ() {

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for glaucoma patients | Free Coverage Review | MedicareYourself",
   description:
-    "Compare Medicare plans covering glaucoma drops, SLT laser, and surgery with broker Anthony Orner. Free coverage review — call 855-559-1700 today.",
+    "Compare Medicare plans covering glaucoma drops, SLT laser & surgery with broker Anthony Orner. Free coverage review — call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-glaucoma-patients" },
   openGraph: {
     title:
@@ -158,6 +158,22 @@ const faqs = [
     question: "Who is considered high-risk for Medicare glaucoma screenings?",
     answer:
       "Medicare considers you high-risk if you have diabetes, a family history of glaucoma, are African American and age 50 or older, or are Hispanic American and age 65 or older. If you meet one of these criteria, Part B covers a glaucoma screening once every 12 months when performed by a state-licensed eye doctor.",
+  }
+,
+  {
+    question: "Are glaucoma eye drops covered by Medicare?",
+    answer:
+      "Prescription glaucoma eye drops such as latanoprost, timolol, and brimonidine are covered under Medicare Part D, not Part B. Each Part D plan has its own formulary, tier placement, and copays, so the same medication can cost very different amounts depending on which plan you choose. Comparing formularies during the Annual Enrollment Period can help you find the lowest total cost for your specific drops.",
+  },
+  {
+    question: "Can I see any ophthalmologist with Medicare if I have glaucoma?",
+    answer:
+      "With Original Medicare, you can see any ophthalmologist in the U.S. who accepts Medicare assignment, with no referral needed. Medicare Advantage plans typically use provider networks and may require you to stay in-network or get a referral to see a specialist. If keeping a specific glaucoma specialist matters, confirm their network status before enrolling in any plan.",
+  },
+  {
+    question: "Why work with a Medicare broker if I have glaucoma?",
+    answer:
+      "A licensed Medicare broker can compare Part D formularies to see which plans cover your specific eye drops at the lowest tier, and check whether your ophthalmologist is in-network on Medicare Advantage options. Broker services are free to you because carriers pay the commission. Anthony Orner offers a no-cost coverage review at 855-559-1700.",
   }
 ];
 
@@ -379,6 +395,7 @@ export default function MedicareBrokerForGlaucomaPatients() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </div>

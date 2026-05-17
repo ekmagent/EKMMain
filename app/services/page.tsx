@@ -9,7 +9,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Medicare Services & Guides | MedicareYourself",
   description:
-    "Compare Medigap, Medicare Advantage & Part D with a licensed independent broker serving NJ & 34 states. Free unbiased guidance — call 855-559-1700.",
+    "Compare Medigap, Medicare Advantage & Part D with a licensed independent broker in NJ & 34 states. Free unbiased guidance — call 855-559-1700 today.",
   alternates: { canonical: `${SITE_URL}/services` },
   openGraph: {
     title: "Medicare Services & Guides | MedicareYourself",
@@ -550,6 +550,22 @@ const STATIC_CATEGORIES = [
     answer:
       "No. Our services are free to consumers because licensed brokers are compensated by the insurance carriers when a plan is issued. You pay the same plan premium whether you enroll on your own or with our help. Call 855-559-1700 to speak with Anthony Orner directly.",
   }
+,
+  {
+    question: "What does a licensed independent Medicare broker do?",
+    answer:
+      "An independent Medicare broker is licensed to compare plans from multiple insurance carriers and help you choose coverage that fits your health needs and budget. Brokers are paid by the carriers, so their guidance is typically free to you. Anthony Orner is licensed in NJ and 34 states and works with Medigap, Medicare Advantage, and Part D plans.",
+  },
+  {
+    question: "Is there a cost to use MedicareYourself for plan comparisons?",
+    answer:
+      "No. There is no cost to speak with our licensed broker, compare plans, or enroll through our service. Plan premiums are set by the insurance carriers and approved by CMS, so you pay the same rate whether you enroll on your own or with a broker's help. Call 855-559-1700 to get started.",
+  },
+  {
+    question: "Where can I verify Medicare information on my own?",
+    answer:
+      "The official sources for Medicare information are Medicare.gov and CMS.gov, where you can review coverage rules, compare plans in your area, and check enrollment periods. You can also contact your State Health Insurance Assistance Program (SHIP) for free, unbiased counseling. Our team is happy to walk you through any of these resources at 855-559-1700.",
+  }
 ];
 
 export default function ServicesHubPage() {
@@ -671,6 +687,7 @@ export default function ServicesHubPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
     </>
   );

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "average cost of supplemental health insurance for seniors with medicare | Free Broker Comparison | MedicareYourself",
   description:
-    "Compare 2026 Medigap costs for seniors by plan, age, and state. Get a free licensed broker comparison and lock in your lowest rate — call 855-559-1700.",
+    "Compare 2026 Medigap costs by plan, age, and state. Get a free licensed broker comparison and lock in your lowest rate — call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/average-cost-of-supplemental-health-insurance-for-seniors-with-medicare" },
   openGraph: {
     title:
@@ -320,6 +320,22 @@ const faqs = [
     answer:
       "Yes. An independent broker can compare every Medigap carrier available in your state and show you side-by-side pricing for the same lettered plan. Because benefits are standardized by Medicare, you're really shopping for the lowest premium and most stable rate history. Call 855-559-1700 for a free comparison with no obligation.",
   }
+,
+  {
+    question: "How much can Medigap premiums vary depending on where I live?",
+    answer:
+      "Medigap premiums vary widely by state, zip code, insurance company, and the specific lettered plan you choose. Industry data shows monthly premiums can range from under fifty dollars to several hundred dollars for the same lettered plan. That's why comparing multiple carriers in your zip code is the single most important step in lowering your cost.",
+  },
+  {
+    question: "Do Medigap premiums increase as I get older?",
+    answer:
+      "It depends on how the carrier prices its policy. Attained-age-rated plans go up as you age, issue-age-rated plans are based on the age you enrolled and don't rise with age, and community-rated plans charge everyone in your area the same regardless of age. All three pricing types can also rise annually due to inflation and claims experience.",
+  },
+  {
+    question: "Does a Medigap plan cover the Part B premium or Part A deductible?",
+    answer:
+      "Medigap plans don't pay your Part B premium — you continue paying that directly to Medicare. However, most popular Medigap plans, including Plan G, fully cover the Part A hospital deductible and many other Original Medicare cost-sharing amounts. Coverage details vary by lettered plan, which is standardized across all carriers.",
+  }
 ];
 
 export default function AverageCostSupplementalInsurancePage() {
@@ -528,6 +544,7 @@ export default function AverageCostSupplementalInsurancePage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can compare rates and file complaints through the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents: contact <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">Need state-specific help? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free local Medicare counseling.</div>
       </section>
     </main>
   );

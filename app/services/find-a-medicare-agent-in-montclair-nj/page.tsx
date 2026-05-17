@@ -144,6 +144,17 @@ const faqs = [
     answer:
       "Most beneficiaries can change plans during the Annual Enrollment Period from October 15 to December 7, with Medicare Advantage enrollees also having the Open Enrollment Period from January 1 to March 31. Special Enrollment Periods may apply if you move, lose other coverage, or qualify for Extra Help. A licensed agent can confirm which window applies to your situation.",
   }
+,
+  {
+    question: "When can I enroll in Medicare or change plans in Montclair, NJ?",
+    answer:
+      "Your Initial Enrollment Period runs for seven months around your 65th birthday. After that, the Annual Enrollment Period from October 15 to December 7 lets you switch Medicare Advantage or Part D plans. Medigap has its own one-time open enrollment window when you first sign up for Part B, and special enrollment periods may apply if you lose other coverage.",
+  },
+  {
+    question: "Can a Montclair Medicare broker help me keep my current doctors?",
+    answer:
+      "Yes. Before recommending a plan, an independent broker checks whether your doctors and preferred hospitals are in-network for Medicare Advantage options, or confirms that Original Medicare with a Medigap plan will be accepted. This is one of the most common reasons Essex County beneficiaries call for a plan review.",
+  }
 ];
 
 export default function FindMedicareAgentMontclairNJ() {

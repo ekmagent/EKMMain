@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare enrollment help for people with lupus california | Free Guidance | MedicareYourself",
   description:
-    "Medicare help for Californians with lupus — compare plans covering rheumatologists, biologics, and infusions. Free licensed broker guidance. Call 855-559-1700.",
+    "Medicare help for Californians with lupus — find plans covering rheumatologists, biologics & infusions. Free licensed broker guidance. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-enrollment-help-for-people-with-lupus-california" },
   openGraph: {
     title:
@@ -209,6 +209,17 @@ const faqs = [
     question: "Does Medicare cover lab work and monitoring tests needed for lupus?",
     answer:
       "Yes. Medicare Part B covers medically necessary lab tests ordered by your doctor to monitor lupus activity, such as ANA panels, complement levels, and kidney function tests. These are typically covered when performed at a Medicare-approved lab. Your specific plan determines any cost-sharing that applies.",
+  }
+,
+  {
+    question: "Are there special Medicare enrollment periods for people with lupus in California?",
+    answer:
+      "If you qualify for Medicare through SSDI due to lupus, you'll have an Initial Enrollment Period that begins three months before your 25th month of disability benefits. California residents may also qualify for Special Enrollment Periods if they lose other coverage or move. Speaking with a licensed broker can help you avoid late enrollment penalties.",
+  },
+  {
+    question: "Should I choose Original Medicare or Medicare Advantage if I have lupus?",
+    answer:
+      "It depends on your treatment team and medications. Original Medicare with a Part D plan generally lets you see any rheumatologist who accepts Medicare nationwide, while Medicare Advantage plans use networks but may include extra benefits. If you rely on specific specialists or infusion centers in California, verify they're in-network before enrolling.",
   }
 ];
 
@@ -475,6 +486,7 @@ export default function MedicareEnrollmentHelpLupusCalifornia() {
             <div className="text-sm text-gray-600 mt-4">California residents can get free local Medicare counseling through <a href="https://aging.ca.gov/HICAP/" rel="noopener noreferrer" target="_blank" className="underline">California HICAP (Health Insurance Counseling and Advocacy Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">California residents can get free, unbiased Medicare counseling through <a href="https://aging.ca.gov/HICAP/" rel="noopener noreferrer" target="_blank" className="underline">California's Health Insurance Counseling and Advocacy Program (HICAP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">California residents: <a href="https://aging.ca.gov/HICAP/" rel="noopener noreferrer" target="_blank" className="underline">Health Insurance Counseling &amp; Advocacy Program (HICAP)</a> offers free Medicare counseling statewide.</div>
+            <div className="text-sm text-gray-600 mt-4">California residents can get free Medicare counseling through <a href="https://aging.ca.gov/HICAP/" rel="noopener noreferrer" target="_blank" className="underline">California's HICAP program</a> or contact the <a href="https://www.insurance.ca.gov/" rel="noopener noreferrer" target="_blank" className="underline">California Department of Insurance</a>.</div>
       </section>
     </main>
   );

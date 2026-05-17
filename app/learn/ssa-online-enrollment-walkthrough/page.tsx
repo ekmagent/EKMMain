@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title:
     "How to Enroll in Medicare Online at SSA.gov (Step-by-Step Walkthrough)",
   description:
-    "Enroll in Medicare online at SSA.gov in about 10 minutes with our 9-step walkthrough. Avoid Part B penalties — free broker help at 855-559-1700.",
+    "Enroll in Medicare online at SSA.gov in about 10 minutes with our 9-step walkthrough. Avoid Part B penalties — call 855-559-1700 for free broker help.",
   alternates: {
     canonical: `${SITE_URL}/learn/ssa-online-enrollment-walkthrough`,
   },
@@ -576,6 +576,22 @@ const steps = [
     question: "Do I have to enroll in Part B when I apply online?",
     answer:
       "No. The SSA application asks whether you want to enroll in Part B, and you can decline it if you have qualifying coverage through an employer group health plan. Be aware that delaying Part B without creditable coverage can trigger a late enrollment penalty that lasts as long as you have Medicare.",
+  }
+,
+  {
+    question: "Do I need a my Social Security account to enroll in Medicare online?",
+    answer:
+      "Yes. The SSA online Medicare application requires you to sign in with a my Social Security account, which you can create using Login.gov or ID.me. You'll need your Social Security number and a valid driver's license or state ID to verify your identity.",
+  },
+  {
+    question: "Can I change my Medicare application after I submit it online?",
+    answer:
+      "No. Once you click Submit Now and agree to the Electronic Signature Agreement, your application is final and cannot be modified online. If you need to make a correction, you'll have to contact Social Security directly by phone or at your local field office.",
+  },
+  {
+    question: "Do I have to enroll in Part B when I sign up online?",
+    answer:
+      "No. During the SSA online application, you can choose to enroll in Part A only, or in both Part A and Part B. Keep in mind that delaying Part B without qualifying creditable coverage can trigger a lifetime late enrollment penalty, so review your situation carefully before declining.",
   }
 ];
 

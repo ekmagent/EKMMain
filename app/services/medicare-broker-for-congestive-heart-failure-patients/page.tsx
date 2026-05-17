@@ -178,6 +178,17 @@ const faqs = [
     answer:
       "Yes. Medicare covers intermittent skilled nursing care, physical therapy, and home health aide services when ordered by your doctor after a qualifying hospital stay. You must be considered homebound and use a Medicare-certified home health agency. Supplemental coverage can help with any related costs not paid by Original Medicare.",
   }
+,
+  {
+    question: "Will a Medicare broker charge me to find a plan that covers my heart failure care?",
+    answer:
+      "No. Licensed Medicare brokers like Anthony Orner are paid by the insurance carriers, not by you. You pay the same premium whether you enroll directly or work with a broker, so the plan review and ongoing support come at no cost to you. Call 855-559-1700 to start a free review.",
+  },
+  {
+    question: "Can a Medicare Advantage plan drop my cardiologist mid-year?",
+    answer:
+      "Yes, Medicare Advantage provider networks can change during the plan year if a hospital system or specialist leaves the network. That's one reason CHF patients often prefer Medigap, which lets you see any provider who accepts Medicare. If your cardiologist is dropped, you may qualify for a Special Enrollment Period in some cases.",
+  }
 ];
 
 export default function MedicareBrokerCHFPage() {
@@ -404,6 +415,7 @@ export default function MedicareBrokerCHFPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Free unbiased counseling: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

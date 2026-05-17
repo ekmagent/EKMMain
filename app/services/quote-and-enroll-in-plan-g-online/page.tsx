@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Quote and Enroll in Plan G Online | Free Instant Rates | MedicareYourself",
   description:
-    "Quote and enroll in Plan G online with a licensed NJ Medicare broker. Get instant rates from top carriers and finish enrollment the same day. Free service.",
+    "Quote and enroll in Medigap Plan G online with a licensed NJ broker. Compare top-carrier rates instantly and finish enrollment today — free service.",
   alternates: { canonical: "https://medicareyourself.com/services/quote-and-enroll-in-plan-g-online" },
   openGraph: {
     title:

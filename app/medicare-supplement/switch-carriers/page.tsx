@@ -258,6 +258,22 @@ const faqs = [
     answer:
       "You keep your existing Medigap policy active until your new policy is approved and in force. Once the new carrier confirms your start date, you contact the old carrier to cancel — never cancel first. Medicare also allows a 30-day free look period on the new policy so you can compare it to your old plan before fully committing.",
   }
+,
+  {
+    question: "Will I have to answer health questions to switch Plan G carriers?",
+    answer:
+      "In most cases, yes. Under federal law, you only have a guaranteed right to switch Medigap policies during your 6-month Medigap Open Enrollment Period or if you qualify for a specific guaranteed issue right, such as losing other coverage or your carrier leaving the market. Outside of those windows, carriers in most states can use medical underwriting and deny your application based on health history. A broker can pre-screen the health questions before you formally apply.",
+  },
+  {
+    question: "What happens to my old Medigap policy when I switch?",
+    answer:
+      "You should never cancel your existing Medigap policy until the new one is approved and active. Once your new Plan G start date is confirmed in writing, you contact the old carrier to cancel — typically the day before the new policy begins so there is no gap. Medicare itself does not need to be notified; the carriers handle the transition.",
+  },
+  {
+    question: "Is there a free look period when I switch Medigap carriers?",
+    answer:
+      "Yes. When you buy a new Medigap policy you generally get a 30-day free look period to review the coverage. During that window you can cancel the new policy and keep your old one if you kept it active during the overlap. You'll pay both premiums for the overlap month, but it protects you from being stranded if something goes wrong with the new application.",
+  }
 ];
 
 export default function SwitchCarriersPage() {
@@ -492,6 +508,7 @@ export default function SwitchCarriersPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medigap switching guidance from <a href="https://www.state.nj.us/dobi/division_insurance/ship/ship.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or the free <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">SHIP program</a> for unbiased Medigap switching guidance.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can confirm state-specific Medigap switching rules with the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or free <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP counseling</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">For state-specific switching rules, see the <a href="https://www.state.nj.us/dobi/division_insurance/ihcseh/medsupp.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance — Medicare Supplement</a> resources or contact your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">SHIP counselor</a>.</div>
       </section>
     </>
   );

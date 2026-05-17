@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare broker for heart disease patients | Free Help Finding the Right Plan | MedicareYourself",
   description:
-    "Medicare broker for heart patients — compare plans covering cardiologists, cardiac rehab & heart meds. Free unbiased guidance. Call 855-559-1700 today.",
+    "Medicare broker for heart disease patients — find plans covering cardiologists, cardiac rehab & heart meds. Free unbiased help. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-heart-disease-patients" },
   openGraph: {
     title:
@@ -242,6 +242,22 @@ const faqs = [
     question: "Do I need a referral to see a cardiologist with Medicare?",
     answer:
       "Original Medicare does not require referrals to see specialists, including cardiologists, as long as the provider accepts Medicare. Medicare Advantage HMO plans typically require a referral from your primary care doctor, while PPO plans usually do not. If you see your cardiologist frequently, this difference can be a key factor in choosing the right plan.",
+  }
+,
+  {
+    question: "Will Medicare cover my heart medications?",
+    answer:
+      "Yes, but coverage depends on the specific Part D or Medicare Advantage prescription drug plan you choose. Each plan has its own formulary, tier structure, and preferred pharmacies, so the same medication can cost very different amounts across plans. A broker can run your exact medication list through multiple plans to find the one with the lowest total annual cost for your heart prescriptions.",
+  },
+  {
+    question: "Are cardiologists and heart specialists covered under Medicare Advantage?",
+    answer:
+      "Medicare Advantage plans cover cardiologists, but only within the plan's provider network in most cases. If your current cardiologist is out-of-network, you may pay significantly more or not be covered at all. Before enrolling, it's important to confirm that your specialists, preferred hospitals, and any planned procedures are in-network with the plan you're considering.",
+  },
+  {
+    question: "Does Medicare cover heart procedures like stents, bypass surgery, or pacemakers?",
+    answer:
+      "Yes. Medicare Part A covers inpatient hospital stays for procedures like coronary bypass surgery and pacemaker implantation, while Part B covers many outpatient cardiac procedures and follow-up care. Your out-of-pocket costs depend on whether you have Original Medicare with a Medigap supplement or a Medicare Advantage plan, which is why plan selection matters so much for heart patients.",
   }
 ];
 

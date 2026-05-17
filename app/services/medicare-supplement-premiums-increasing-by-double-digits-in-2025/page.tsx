@@ -194,6 +194,17 @@ const faqs = [
     answer:
       "Medicare Advantage plans often have lower monthly premiums but use networks, prior authorization, and cost-sharing that Medigap does not. The right choice depends on your health, providers, prescriptions, and travel needs. A licensed broker can walk you through the trade-offs before you make a switch you can't easily reverse.",
   }
+,
+  {
+    question: "What should I do if I get a rate increase notice from my Medigap carrier?",
+    answer:
+      "Don't panic and don't cancel coverage before securing a replacement. Call a licensed broker at 855-559-1700 for a free rate review comparing carriers offering the same standardized plan letter. If you can pass medical underwriting, switching to a lower-priced carrier with identical benefits is often the best move.",
+  },
+  {
+    question: "Why are Medigap premiums rising so much in 2025?",
+    answer:
+      "Carriers are responding to higher medical claim costs, increased utilization of services, and an aging risk pool. Because Medigap plans are standardized by the federal government, carriers compete primarily on price and service — so when claims rise, premiums follow. Shopping carriers annually helps offset these increases.",
+  }
 ];
 
 export default function MedicareSupplementPremiumsIncreasing2025() {

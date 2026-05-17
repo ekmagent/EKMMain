@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "How to Sign Up for Medicare (2026 Guide)",
   description:
-    "2026 Medicare sign-up guide: enrollment windows, applying at SSA.gov, and how to avoid Part B late penalties. Free licensed broker help — call 855-559-1700.",
+    "2026 Medicare sign-up guide: enrollment windows, applying at SSA.gov, and avoiding Part B late penalties. Free licensed broker help — call 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/how-to-sign-up-for-medicare` },
   openGraph: {
     title: "How to Sign Up for Medicare (2026 Guide)",
@@ -470,6 +470,22 @@ const faqs = [
     question: "Can I sign up for Medicare if I am still working?",
     answer:
       "Yes, you can enroll in Medicare while still working, but you may choose to delay Part B if you have creditable health coverage through your or your spouse's active employment. Confirm with your HR department that your plan counts as creditable coverage before delaying. When that employment ends, you get an 8-month Special Enrollment Period to sign up for Part B without penalty.",
+  }
+,
+  {
+    question: "Can I sign up for Medicare if I am still working at 65?",
+    answer:
+      "Yes. You can enroll in Part A at 65 even if you are still working, and Part A is premium-free for most people with enough work credits. If you have creditable health coverage through your or your spouse's active employment, you may delay Part B without a late penalty and enroll later through a Special Enrollment Period.",
+  },
+  {
+    question: "How long does it take to get my Medicare card after applying?",
+    answer:
+      "After applying through SSA.gov, most people receive their red, white, and blue Medicare card in the mail within about 2 to 3 weeks. If you are automatically enrolled, your card typically arrives about 3 months before your 65th birthday month.",
+  },
+  {
+    question: "What happens if I miss my Initial Enrollment Period?",
+    answer:
+      "If you miss your IEP and do not qualify for a Special Enrollment Period, you generally must wait for the General Enrollment Period (January 1 – March 31) to sign up for Part B, with coverage starting the month after you enroll. You may also owe a permanent Part B late enrollment penalty for each 12-month period you went without coverage.",
   }
 ];
 

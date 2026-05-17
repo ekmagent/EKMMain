@@ -149,6 +149,12 @@ const faqs = [
     answer:
       "Medigap (Medicare Supplement) works alongside Original Medicare and lets you see any provider nationwide that accepts Medicare, with predictable out-of-pocket costs. Medicare Advantage replaces Original Medicare with a private plan that typically uses local networks and may include extras like dental or vision. A broker can compare both options side-by-side based on your doctors and prescriptions.",
   }
+,
+  {
+    question: "When can I enroll in a Medigap plan in New Jersey?",
+    answer:
+      "Your best window is the 6-month Medigap Open Enrollment Period that begins the month you're 65 or older and enrolled in Part B. During this window, insurers in New Jersey must sell you any Medigap plan they offer without medical underwriting. New Jersey also uses community rating, meaning premiums aren't based on your individual age.",
+  }
 ];
 
 export default function MedicareInsuranceAgentsBurlingtonNJ() {

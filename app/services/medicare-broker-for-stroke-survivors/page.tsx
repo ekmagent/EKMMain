@@ -347,6 +347,7 @@ export default function MedicareBrokerForStrokeSurvivors() {
 </ul>
               <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/coverage/inpatient-rehabilitation-care" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Inpatient Rehabilitation Care</a> and <a href="https://www.medicare.gov/coverage/outpatient-therapy" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Outpatient Therapy Coverage</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">Free local help: <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> offers unbiased Medicare counseling for stroke survivors and caregivers in every state.</div>
       </section>
       </article>
     </>
