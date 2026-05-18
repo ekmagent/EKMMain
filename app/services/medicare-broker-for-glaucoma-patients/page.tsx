@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for glaucoma patients | Free Coverage Review | MedicareYourself",
   description:
-    "Compare Medicare plans covering glaucoma drops, SLT laser & surgery with broker Anthony Orner. Free coverage review — call 855-559-1700 today.",
+    "Glaucoma patient on Medicare? Compare plans covering drops, SLT laser & surgery with broker Anthony Orner. Free coverage review — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-glaucoma-patients" },
   openGraph: {
     title:
@@ -174,6 +174,22 @@ const faqs = [
     question: "Why work with a Medicare broker if I have glaucoma?",
     answer:
       "A licensed Medicare broker can compare Part D formularies to see which plans cover your specific eye drops at the lowest tier, and check whether your ophthalmologist is in-network on Medicare Advantage options. Broker services are free to you because carriers pay the commission. Anthony Orner offers a no-cost coverage review at 855-559-1700.",
+  }
+,
+  {
+    question: "Who is eligible for Medicare-covered glaucoma screenings?",
+    answer:
+      "Medicare considers you high-risk and eligible for an annual glaucoma screening if you have diabetes, a family history of glaucoma, are African American and age 50 or older, or are Hispanic and age 65 or older. The screening must be performed or supervised by an eye doctor who is legally authorized to do so in your state. After the Part B deductible, you pay 20% of the Medicare-approved amount.",
+  },
+  {
+    question: "Do Medicare Advantage plans cover glaucoma treatment differently than Original Medicare?",
+    answer:
+      "Medicare Advantage plans must cover everything Original Medicare covers, including glaucoma screenings, laser procedures, and surgery. However, copays, networks, and prior authorization rules vary by plan. As a licensed broker, Anthony Orner can compare specific plans in your area to confirm your ophthalmologist is in-network and review drop formularies before you enroll.",
+  },
+  {
+    question: "Are glaucoma eye drops covered by Medicare Part D?",
+    answer:
+      "Yes. Prescription glaucoma eye drops such as latanoprost, timolol, and brimonidine are typically covered under Medicare Part D or the Part D portion of a Medicare Advantage plan. Each plan has its own formulary, tier placement, and copay structure, so the same drop can cost very different amounts depending on the plan you choose.",
   }
 ];
 
@@ -395,6 +411,7 @@ export default function MedicareBrokerForGlaucomaPatients() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>

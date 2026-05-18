@@ -88,6 +88,22 @@ const faqs = [
     answer:
       "If you're outside your Open Enrollment Period and get denied, you may still qualify through a federal guaranteed-issue trigger, such as losing employer coverage or leaving a Medicare Advantage plan. Call us at 855-559-1700 and we'll identify your options.",
   },
+,
+  {
+    question: "Will Medicare cover colonoscopies for Crohn's monitoring?",
+    answer:
+      "Medicare covers diagnostic colonoscopies needed to monitor Crohn's disease under Part B. When a colonoscopy is performed for diagnostic reasons rather than routine screening, Part B coinsurance applies, and a Medigap plan can cover that share. Your gastroenterologist's billing code determines whether the visit is treated as screening or diagnostic.",
+  },
+  {
+    question: "Is a Special Needs Plan a better option than Medigap for Crohn's patients?",
+    answer:
+      "Chronic Condition Special Needs Plans (C-SNPs) are Medicare Advantage plans tailored to people with specific chronic illnesses, and some are designed for autoimmune or gastrointestinal conditions. They include care coordination and customized drug formularies, but they use network restrictions unlike Medigap. The right choice depends on your providers, medications, and travel needs — call 855-559-1700 to compare.",
+  },
+  {
+    question: "Are Crohn's medications covered under Part B or Part D?",
+    answer:
+      "It depends on how the medication is administered. Infusions given in a doctor's office or infusion center are usually billed under Part B, while self-injected or oral Crohn's medications are typically covered under a Part D prescription drug plan. A Medigap plan only helps with Part B cost-sharing, so pairing it with a strong Part D plan matters for IBD patients.",
+  }
 ];
 
 export default function MedicareSupplementCrohnsPage() {

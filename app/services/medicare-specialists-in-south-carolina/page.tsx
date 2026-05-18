@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare specialists in south carolina | Free Multi-Carrier Quotes | MedicareYourself",
   description:
-    "Medicare specialists in South Carolina — compare Supplement, Advantage & Part D plans with licensed broker Anthony Orner. Free quotes, call 855-559-1700.",
+    "Compare South Carolina Medicare Supplement, Advantage & Part D plans with licensed broker Anthony Orner. Free multi-carrier quotes — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-specialists-in-south-carolina" },
   openGraph: {
     title:

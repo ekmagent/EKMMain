@@ -117,6 +117,22 @@ const faqs = [
     answer:
       "You can typically change Medicare Advantage or Part D plans during the Annual Enrollment Period each fall or during the Medicare Advantage Open Enrollment Period in early spring. Certain life events also trigger Special Enrollment Periods. A broker can review your current medications and recommend a better-fit plan during these windows.",
   }
+,
+  {
+    question: "Are diabetes supplies like test strips and lancets covered by Medicare?",
+    answer:
+      "Yes. Medicare Part B covers blood glucose test strips, lancets, lancet devices, and glucose monitors as durable medical equipment when prescribed by your doctor. Coverage amounts and supplier requirements can vary, so a broker can help confirm which suppliers in your area are Medicare-approved before you fill an order.",
+  },
+  {
+    question: "Does Medicare cover diabetes self-management training?",
+    answer:
+      "Yes. Medicare Part B covers Diabetes Self-Management Training (DSMT) for beneficiaries with a diabetes diagnosis when ordered by the doctor managing your condition. This includes education on monitoring blood sugar, healthy eating, and reducing complications. A broker can help you verify which providers in a plan's network offer this benefit.",
+  },
+  {
+    question: "Can switching Medicare plans during Annual Enrollment help lower my diabetes costs?",
+    answer:
+      "Often, yes. Formularies, preferred pharmacies, and specialist networks change every year, so the plan that was best last year may not be best this year. During the Annual Enrollment Period (October 15 – December 7), a broker can re-shop your medications and devices across available plans to see if a switch would lower your out-of-pocket costs.",
+  }
 ];
 
 export default function MedicareBrokerForDiabetics() {

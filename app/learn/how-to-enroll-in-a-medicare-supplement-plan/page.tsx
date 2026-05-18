@@ -519,6 +519,22 @@ const faqs = [
     answer:
       "Yes, you can apply to switch plans at any time, but outside of your initial 6-month open enrollment window most states allow the new carrier to medically underwrite your application. That means you could be denied or charged more based on your health. It's important to choose carefully during your initial enrollment window.",
   }
+,
+  {
+    question: "Do I need both Medicare Part A and Part B to buy a Medigap policy?",
+    answer:
+      "Yes. You generally must be enrolled in both Original Medicare Part A and Part B before you can purchase a Medicare Supplement (Medigap) policy. If you only have Part A, you'll need to enroll in Part B through Social Security before applying. Call 855-559-1700 if you need help confirming your enrollment status.",
+  },
+  {
+    question: "Can my spouse and I share one Medigap policy?",
+    answer:
+      "No. A Medigap policy only covers one person. If you and your spouse both want Medicare Supplement coverage, each of you must apply for and purchase your own separate policy, even if you choose the same plan letter from the same carrier.",
+  },
+  {
+    question: "What happens if I apply for Medigap after my 6-month Open Enrollment Period ends?",
+    answer:
+      "Outside your Medigap Open Enrollment Period, carriers in most states can use medical underwriting to deny your application or charge higher premiums based on your health history. A limited set of guaranteed-issue rights still apply in certain situations, such as losing other coverage. We can review whether you qualify — call 855-559-1700.",
+  }
 ];
 
 export default function HowToEnrollMedigapPage() {

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare enrollment help for people with lupus california | Free Guidance | MedicareYourself",
   description:
-    "Medicare help for Californians with lupus — find plans covering rheumatologists, biologics & infusions. Free licensed broker guidance. Call 855-559-1700 today.",
+    "Medicare help for Californians with lupus—compare plans covering rheumatologists, biologics & infusions. Free licensed broker guidance. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-enrollment-help-for-people-with-lupus-california" },
   openGraph: {
     title:
@@ -220,6 +220,22 @@ const faqs = [
     question: "Should I choose Original Medicare or Medicare Advantage if I have lupus?",
     answer:
       "It depends on your treatment team and medications. Original Medicare with a Part D plan generally lets you see any rheumatologist who accepts Medicare nationwide, while Medicare Advantage plans use networks but may include extra benefits. If you rely on specific specialists or infusion centers in California, verify they're in-network before enrolling.",
+  }
+,
+  {
+    question: "Does Medicare cover lab tests needed to monitor lupus activity in California?",
+    answer:
+      "Yes. Medicare Part B covers medically necessary diagnostic lab tests ordered by your doctor, including blood work used to monitor lupus disease activity and medication side effects. You typically pay nothing for clinical lab services when your provider accepts Medicare assignment. Coverage applies the same way across California.",
+  },
+  {
+    question: "Should I choose Original Medicare or Medicare Advantage if I have lupus?",
+    answer:
+      "It depends on your treatment team and medications. Original Medicare with a Medigap plan and Part D offers broader provider access, which can matter if you see specialists at academic centers like UCLA or UCSF. Medicare Advantage plans may have lower premiums but use networks and prior authorization. A licensed broker can compare both options against your current rheumatologist and prescriptions.",
+  },
+  {
+    question: "Can a licensed Medicare broker in California help me at no cost?",
+    answer:
+      "Yes. Licensed Medicare brokers are paid by the insurance carriers, so their guidance is free to you and your plan premium is the same whether you enroll directly or through a broker. A broker can compare plans across carriers, check that your rheumatologist is in-network, and confirm your lupus medications are on the formulary.",
   }
 ];
 
@@ -487,6 +503,7 @@ export default function MedicareEnrollmentHelpLupusCalifornia() {
             <div className="text-sm text-gray-600 mt-4">California residents can get free, unbiased Medicare counseling through <a href="https://aging.ca.gov/HICAP/" rel="noopener noreferrer" target="_blank" className="underline">California's Health Insurance Counseling and Advocacy Program (HICAP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">California residents: <a href="https://aging.ca.gov/HICAP/" rel="noopener noreferrer" target="_blank" className="underline">Health Insurance Counseling &amp; Advocacy Program (HICAP)</a> offers free Medicare counseling statewide.</div>
             <div className="text-sm text-gray-600 mt-4">California residents can get free Medicare counseling through <a href="https://aging.ca.gov/HICAP/" rel="noopener noreferrer" target="_blank" className="underline">California's HICAP program</a> or contact the <a href="https://www.insurance.ca.gov/" rel="noopener noreferrer" target="_blank" className="underline">California Department of Insurance</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">California residents can get free, unbiased Medicare counseling through <a href="https://www.aging.ca.gov/HICAP/" rel="noopener noreferrer" target="_blank" className="underline">California HICAP (Health Insurance Counseling and Advocacy Program)</a>.</div>
       </section>
     </main>
   );

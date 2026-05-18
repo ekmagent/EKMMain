@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "when can i change my medicare supplement plan for 2026 | Free Switching Help | MedicareYourself",
   description:
-    "When can you change your Medicare Supplement plan for 2026? Learn switch windows, guaranteed-issue rights & underwriting tips. Call 855-559-1700 for free help.",
+    "Change your Medicare Supplement plan for 2026 anytime—learn switch rules, guaranteed-issue rights & underwriting tips. Call 855-559-1700 for free broker help.",
   alternates: { canonical: "https://medicareyourself.com/services/when-can-i-change-my-medicare-supplement-plan-for-2026" },
   openGraph: {
     title:
@@ -207,6 +207,22 @@ const faqs = [
     question: "Should I drop my Medigap plan during the 30-day free look period?",
     answer:
       "When you switch Medigap policies, you get a 30-day free look period to try the new plan while keeping the old one. You'll pay both premiums during this window, but it lets you cancel the new policy and keep your original coverage if you're not satisfied. Don't cancel the old plan until you're sure about the new one.",
+  }
+,
+  {
+    question: "What is the 6-month Medigap Open Enrollment Period?",
+    answer:
+      "Your Medigap Open Enrollment Period is a one-time 6-month window that starts the month you're 65 or older and enrolled in Medicare Part B. During this period, you have a guaranteed right to buy any Medigap policy sold in your state without medical underwriting. Outside this window, carriers can typically use health questions to approve or deny your application.",
+  },
+  {
+    question: "What happens to my old Medigap plan when I switch?",
+    answer:
+      "When switching Medigap policies, you should not cancel your old plan until the new carrier confirms approval and your new policy is in effect. Medicare allows a 30-day 'free look' period to try the new policy while keeping the old one. You will pay premiums for both during this overlap, but it protects you from a coverage gap if the new policy isn't right for you.",
+  },
+  {
+    question: "Should I work with a broker to change my Medicare Supplement plan?",
+    answer:
+      "A licensed independent broker can compare Medigap rates across multiple carriers in your state at no cost to you, since brokers are paid by the insurance company. This helps you find competitive pricing for the same standardized plan letter and review underwriting questions before you apply. Call 855-559-1700 to review your options with a licensed broker.",
   }
 ];
 
@@ -410,6 +426,7 @@ export default function WhenCanIChangeMyMedicareSupplementPlanFor2026() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medigap counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> or the <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for state-specific Medigap switching rights.</div>
             <div className="text-sm text-gray-600 mt-4">State-specific help: <a href="https://www.nj.gov/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey SHIP — free Medicare counseling</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">Need state-specific help? Contact the <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling in your state.</div>
       </section>
     </main>
   );

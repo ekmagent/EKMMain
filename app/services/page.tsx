@@ -9,7 +9,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Medicare Services & Guides | MedicareYourself",
   description:
-    "Compare Medigap, Medicare Advantage & Part D with a licensed independent broker in NJ & 34 states. Free unbiased guidance — call 855-559-1700 today.",
+    "Compare Medigap, Medicare Advantage & Part D with a licensed independent broker in NJ & 34 states. Free, unbiased help — call 855-559-1700 today.",
   alternates: { canonical: `${SITE_URL}/services` },
   openGraph: {
     title: "Medicare Services & Guides | MedicareYourself",
@@ -566,6 +566,22 @@ const STATIC_CATEGORIES = [
     answer:
       "The official sources for Medicare information are Medicare.gov and CMS.gov, where you can review coverage rules, compare plans in your area, and check enrollment periods. You can also contact your State Health Insurance Assistance Program (SHIP) for free, unbiased counseling. Our team is happy to walk you through any of these resources at 855-559-1700.",
   }
+,
+  {
+    question: "What does a licensed independent Medicare broker do?",
+    answer:
+      "A licensed independent Medicare broker helps you compare Medigap, Medicare Advantage, and Part D plans from multiple carriers so you can choose what fits your health and budget. Brokers are appointed with several insurance companies, which lets them present options side by side rather than promoting a single carrier. There is no cost to you for working with a broker — carriers pay a standardized commission set under CMS rules.",
+  },
+  {
+    question: "When can I enroll in or change a Medicare plan?",
+    answer:
+      "Most people first enroll during their Initial Enrollment Period around their 65th birthday. After that, the Annual Enrollment Period (October 15 – December 7) lets you change Medicare Advantage and Part D plans. Medigap can often be applied for year-round, though medical underwriting may apply outside of your open enrollment or a guaranteed-issue situation.",
+  },
+  {
+    question: "Do I have to pay to talk with a Medicare broker?",
+    answer:
+      "No. Consultations with our licensed brokers are free, and Medicare plan premiums are the same whether you enroll directly with a carrier or through a broker. Carriers compensate brokers using CMS-regulated commissions, so personalized guidance costs you nothing out of pocket.",
+  }
 ];
 
 export default function ServicesHubPage() {
@@ -688,6 +704,7 @@ export default function ServicesHubPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/dobi/division_consumers/insurance/ship.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free counseling.</div>
       </section>
     </>
   );

@@ -259,6 +259,22 @@ const faqs = [
     answer:
       "Yes. Medicare Part A covers inpatient hospital stays for procedures like coronary bypass surgery and pacemaker implantation, while Part B covers many outpatient cardiac procedures and follow-up care. Your out-of-pocket costs depend on whether you have Original Medicare with a Medigap supplement or a Medicare Advantage plan, which is why plan selection matters so much for heart patients.",
   }
+,
+  {
+    question: "Will Medicare cover my heart medications?",
+    answer:
+      "Most heart medications, including statins, beta-blockers, ACE inhibitors, and blood thinners, are covered under Medicare Part D prescription drug plans or through a Medicare Advantage plan with drug coverage. Coverage and copays vary significantly between plans, so it's important to compare each plan's formulary against your specific prescriptions. A broker can run your medication list through every available plan to find the lowest total annual cost.",
+  },
+  {
+    question: "Are cardiologist visits covered under Medicare?",
+    answer:
+      "Yes. Medicare Part B covers medically necessary visits to cardiologists, including diagnostic tests like EKGs, echocardiograms, and stress tests. Under Original Medicare you'll pay the Part B coinsurance after the deductible, while Medicare Advantage plans typically charge a specialist copay. A Medigap policy can cover most or all of the Part B coinsurance.",
+  },
+  {
+    question: "Do I need a referral to see a cardiologist with Medicare?",
+    answer:
+      "With Original Medicare, you do not need a referral to see any cardiologist who accepts Medicare. Medicare Advantage HMO plans usually require a referral from your primary care doctor and that the cardiologist be in-network, while PPO plans generally allow direct access. This is a key reason heart patients should review plan type carefully before enrolling.",
+  }
 ];
 
 export default function MedicareBrokerHeartDiseasePatients() {

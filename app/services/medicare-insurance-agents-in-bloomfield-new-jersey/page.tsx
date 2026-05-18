@@ -89,6 +89,12 @@ const faqs = [
     answer:
       "Most Essex County hospitals — including Hackensack Meridian Health and RWJBarnabas Health facilities — participate in Original Medicare. Medicare Advantage network coverage varies by carrier and plan. Always verify your doctors and hospitals are in-network before enrolling in any MA plan.",
   },
+,
+  {
+    question: "Does New Jersey have special Medigap enrollment rules I should know about?",
+    answer:
+      "New Jersey uses community rating for Medigap policies, which means insurers in the state don't price premiums based on your individual age at issue. Your strongest enrollment protection is still the 6-month Medigap Open Enrollment Period that begins the month you're 65 and enrolled in Part B. During that window, carriers cannot deny you coverage or charge more based on health.",
+  }
 ];
 
 export default function MedicareInsuranceAgentsBloomfieldNJ() {

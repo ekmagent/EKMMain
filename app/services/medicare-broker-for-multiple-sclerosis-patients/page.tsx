@@ -239,6 +239,12 @@ const faqs = [
     answer:
       "If you qualified for Medicare through SSDI, you receive the same Part A and Part B benefits as someone over 65. However, Medigap protections for people under 65 vary by state — some states require insurers to offer Medigap plans to disabled enrollees, while others do not. A licensed broker can review your state's specific rules with you.",
   }
+,
+  {
+    question: "Will Medicare cover MRI scans I need to monitor my MS progression?",
+    answer:
+      "Yes. Medicare Part B covers medically necessary MRI scans ordered by your doctor to monitor MS, including brain and spinal cord imaging. You'll typically be responsible for the Part B deductible and coinsurance unless you have a Medigap plan. Medicare Advantage plans may require prior authorization before scheduling an MRI.",
+  }
 ];
 
 export default function MedicareBrokerForMSPatients() {

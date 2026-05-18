@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for fibromyalgia patients | Free No-Judgment Consultation | MedicareYourself",
   description:
-    "Medicare broker for fibromyalgia patients. Anthony Orner finds plans covering pain management, specialists & meds. Free, no-judgment quote — call 855-559-1700.",
+    "Medicare broker for fibromyalgia patients. Anthony Orner finds plans covering pain management, specialists & meds. Free no-judgment quote — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-fibromyalgia-patients" },
   openGraph: {
     title:
@@ -348,6 +348,7 @@ export default function MedicareBrokerForFibromyalgiaPatients() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents: free, unbiased counseling is available through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

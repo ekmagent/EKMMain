@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare broker for people with crohns | No-Cost Plan Help | MedicareYourself",
   description:
-    "Medicare broker for people with Crohn's. Compare plans covering biologics, infusions, and GI specialists at no cost. Call 855-559-1700 for free guidance.",
+    "Medicare broker for people with Crohn's. Compare plans covering biologics, infusions, and GI specialists at no cost. Call 855-559-1700 for free guidance today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-people-with-crohns" },
   openGraph: {
     title:
@@ -110,6 +110,22 @@ const faqs = [
     question: "Are Crohn's infusions covered under Medicare Part B or Part D?",
     answer:
       "It depends on how the drug is administered. Infusions given in a doctor's office or infusion center, like Remicade or Entyvio, are typically billed under Part B as a medical benefit. Self-injected biologics you administer at home usually fall under Part D as a pharmacy benefit. This distinction matters because Part B and Part D have different cost-sharing structures.",
+  }
+,
+  {
+    question: "What should people with Crohn's look for in a Medicare drug plan?",
+    answer:
+      "Start by checking each plan's formulary for your specific biologics, immunosuppressants, and any rescue medications you rely on. Look at the tier placement, prior authorization requirements, and step therapy rules, since these directly affect access and cost. A broker can run your full medication list across multiple plans to find the best match.",
+  },
+  {
+    question: "Is a Medigap plan or Medicare Advantage better for Crohn's patients?",
+    answer:
+      "It depends on your priorities. Medigap paired with Original Medicare and a Part D plan offers nationwide access to any provider that accepts Medicare, which helps if you see specialized GI centers. Medicare Advantage may have lower premiums but uses networks and prior authorizations that can complicate infusion scheduling and specialist referrals.",
+  },
+  {
+    question: "Are infusions for Crohn's covered under Part B or Part D?",
+    answer:
+      "It depends on where and how the drug is administered. Infusions given in a doctor's office or outpatient setting are usually billed under Part B, while self-administered or pharmacy-dispensed drugs typically fall under Part D. Knowing which part covers your treatment is critical when comparing plans, and a broker can help map this out.",
   }
 ];
 
@@ -380,6 +396,7 @@ export default function MedicareBrokerForPeopleWithCrohns() {
             <div className="text-sm text-gray-600 mt-4">Need free, unbiased counseling? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> or the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents: <a href="https://www.state.nj.us/dobi/division_consumers/insurance/ship.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> offers free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
       </section>
 
         <p className="text-sm text-gray-500 mt-8">

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "local medicare agents in west new york nj | Free Plan Comparison | MedicareYourself",
   description:
-    "Local Medicare agents in West New York, NJ — Anthony Orner compares Medigap and Advantage plans across Hudson County carriers. Free consultation.",
+    "Local Medicare agents in West New York, NJ — Anthony Orner compares Medigap and Advantage plans free of charge. Call 855-559-1700 for a no-cost review.",
   alternates: { canonical: "https://medicareyourself.com/services/local-medicare-agents-in-west-new-york-nj" },
   openGraph: {
     title:
@@ -309,6 +309,7 @@ export default function LocalMedicareAgentsWestNewYorkNJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey beneficiaries can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">For free, unbiased Medicare counseling in New Jersey, contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

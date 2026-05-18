@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "average cost of supplemental health insurance for seniors with medicare | Free Broker Comparison | MedicareYourself",
   description:
-    "Compare 2026 Medigap costs by plan, age, and state. Get a free licensed broker comparison and lock in your lowest rate — call 855-559-1700 today.",
+    "See what seniors typically pay for Medicare supplemental insurance and how plan, age, and state affect rates. Compare carriers free — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/average-cost-of-supplemental-health-insurance-for-seniors-with-medicare" },
   openGraph: {
     title:
@@ -336,6 +336,22 @@ const faqs = [
     answer:
       "Medigap plans don't pay your Part B premium — you continue paying that directly to Medicare. However, most popular Medigap plans, including Plan G, fully cover the Part A hospital deductible and many other Original Medicare cost-sharing amounts. Coverage details vary by lettered plan, which is standardized across all carriers.",
   }
+,
+  {
+    question: "Does the Medigap plan I pick affect what Original Medicare pays?",
+    answer:
+      "No. Original Medicare pays its share of approved costs first, and then your Medigap policy pays its share based on the lettered plan you chose. The benefits within each lettered plan are standardized by federal law, so coverage is identical from one carrier to the next.",
+  },
+  {
+    question: "Will my Medigap premium increase as I get older?",
+    answer:
+      "It depends on how the carrier prices the policy. Attained-age-rated plans increase as you age, issue-age-rated plans are based on the age you bought in, and community-rated plans charge everyone in an area the same regardless of age. All three pricing types can also see annual increases due to inflation and claims experience.",
+  },
+  {
+    question: "Can a licensed broker help me find the lowest Medigap rate?",
+    answer:
+      "Yes. Because every carrier sets its own premium for the exact same standardized benefits, a licensed broker can quickly compare rates across multiple companies in your zip code. Call 855-559-1700 to get a side-by-side comparison at no cost to you.",
+  }
 ];
 
 export default function AverageCostSupplementalInsurancePage() {
@@ -545,6 +561,7 @@ export default function AverageCostSupplementalInsurancePage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents: contact <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">Need state-specific help? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free local Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">For state-specific rate help, contact the <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> or the <a href="https://www.nj.gov/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a>.</div>
       </section>
     </main>
   );

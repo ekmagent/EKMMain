@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "what's the best medicare plan for someone with diabetes | Free Guidance | MedicareYourself",
   description:
-    "What's the best Medicare plan for someone with diabetes? Compare Supplement and Advantage coverage for insulin, CGMs, and A1C testing. Free broker guidance.",
+    "Compare Medicare Supplement vs Advantage for diabetes — insulin, CGMs, A1C tests, and doctor access. Free broker review. Call 855-559-1700 for honest guidance.",
   alternates: { canonical: "https://medicareyourself.com/services/whats-the-best-medicare-plan-for-someone-with-diabetes" },
   openGraph: {
     title:
@@ -348,6 +348,7 @@ export default function BestMedicarePlanDiabetes() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

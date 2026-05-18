@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "kearny nj medicare insurance agents | Free Consultation | MedicareYourself",
   description:
-    "Kearny NJ Medicare agents — Anthony Orner, licensed independent broker, compares Supplement & Advantage plans free. Call 855-559-1700 for a no-cost consult.",
+    "Kearny NJ Medicare agents — Anthony Orner, independent broker, compares Supplement & Advantage plans free. Keep your doctors. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/kearny-nj-medicare-insurance-agents" },
   openGraph: {
     title:
@@ -344,6 +344,7 @@ export default function KearnyNJMedicareInsuranceAgents() {
 </ul>
             <div className="text-sm text-gray-600 mt-4">Official Medicare resources: <a href="https://www.medicare.gov/plan-compare" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Medicare.gov Plan Finder</a> and <a href="https://www.medicare.gov/basics/get-started-with-medicare" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Get Started with Medicare</a>. For free local counseling, visit the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

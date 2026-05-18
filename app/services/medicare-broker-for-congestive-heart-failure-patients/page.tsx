@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for congestive heart failure patients | Free Plan Review | MedicareYourself",
   description:
-    "Medicare broker for CHF patients — Anthony Orner finds plans covering cardiac rehab, heart meds & hospital stays. Free plan review. Call 855-559-1700.",
+    "Medicare broker for CHF patients — Anthony Orner finds plans covering cardiac rehab, heart meds, and hospital stays. Free plan review. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-congestive-heart-failure-patients" },
   openGraph: {
     title:
@@ -188,6 +188,22 @@ const faqs = [
     question: "Can a Medicare Advantage plan drop my cardiologist mid-year?",
     answer:
       "Yes, Medicare Advantage provider networks can change during the plan year if a hospital system or specialist leaves the network. That's one reason CHF patients often prefer Medigap, which lets you see any provider who accepts Medicare. If your cardiologist is dropped, you may qualify for a Special Enrollment Period in some cases.",
+  }
+,
+  {
+    question: "Does Medicare cover heart failure medications under Part D?",
+    answer:
+      "Most heart failure medications, including ACE inhibitors, beta blockers, diuretics, and SGLT2 inhibitors, are covered under Medicare Part D prescription drug plans. However, each plan has its own formulary, so the same drug can cost very different amounts depending on the plan. Anthony reviews your full medication list before recommending a Part D or Medicare Advantage plan.",
+  },
+  {
+    question: "Will Medicare pay for a heart failure specialist or cardiologist?",
+    answer:
+      "Yes. Medicare Part B covers visits to cardiologists and heart failure specialists when the care is medically necessary. With Original Medicare you can see any provider who accepts Medicare, while Medicare Advantage plans typically require you to stay within a network or get referrals. This is an important factor for CHF patients who already have an established care team.",
+  },
+  {
+    question: "Does Medicare cover home health care for congestive heart failure?",
+    answer:
+      "Medicare covers intermittent home health services like skilled nursing visits, physical therapy, and home health aide care when ordered by your doctor and provided by a Medicare-certified agency. You must be considered homebound to qualify. This benefit can be especially helpful for CHF patients recovering after a hospital stay.",
   }
 ];
 
@@ -416,6 +432,7 @@ export default function MedicareBrokerCHFPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Free unbiased counseling: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

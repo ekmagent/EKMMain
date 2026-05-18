@@ -274,6 +274,12 @@ const faqs = [
     answer:
       "Yes. When you buy a new Medigap policy you generally get a 30-day free look period to review the coverage. During that window you can cancel the new policy and keep your old one if you kept it active during the overlap. You'll pay both premiums for the overlap month, but it protects you from being stranded if something goes wrong with the new application.",
   }
+,
+  {
+    question: "Do I need to answer health questions when switching Medigap carriers?",
+    answer:
+      "In most states, yes — outside of your 6-month Medigap Open Enrollment Period or a Guaranteed Issue situation, federal law does not give you the right to switch Medigap policies without underwriting. That means the new carrier can ask health questions and may decline your application based on your health history. A few states (like New York and Connecticut) have year-round guaranteed issue rules, so the answer depends on where you live. Call 855-559-1700 to check the rules in your state.",
+  }
 ];
 
 export default function SwitchCarriersPage() {

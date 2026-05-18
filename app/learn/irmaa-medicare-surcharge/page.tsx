@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
   description:
-    "Learn how 2026 Medicare IRMAA surcharges work on Part B & D, income brackets, and how to appeal with SSA-44. Free licensed broker help — call 855-559-1700.",
+    "How 2026 Medicare IRMAA surcharges work on Part B & D, income brackets, and how to appeal with SSA-44 if income dropped. Free broker help — call 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/irmaa-medicare-surcharge` },
   openGraph: {
     title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
@@ -490,6 +490,22 @@ const faqs = [
     question: "Can a licensed Medicare broker help me understand IRMAA?",
     answer:
       "Yes. A licensed broker can explain how IRMAA affects your total Medicare costs and help you plan your Part B, Part D, and supplemental coverage accordingly. While brokers don't file SSA-44 appeals for you, they can walk you through the process and coordinate with your tax advisor. Call 855-559-1700 for free guidance from a licensed Medicare broker.",
+  }
+,
+  {
+    question: "How do I appeal an IRMAA determination if my income has dropped?",
+    answer:
+      "If you experienced a qualifying life-changing event — such as retirement, the death of a spouse, divorce, or loss of pension income — you can file Form SSA-44 with the Social Security Administration to request a reduction. You'll need documentation of the event and your estimated current-year income. Social Security reviews the request and, if approved, recalculates your IRMAA based on your more recent income.",
+  },
+  {
+    question: "How will I know if I owe IRMAA?",
+    answer:
+      "Social Security mails an initial determination letter each year notifying you of any IRMAA surcharge for the upcoming year. The letter explains which tax year's income was used and what your adjusted Part B and Part D premiums will be. If you disagree with the determination, you have 60 days to request a reconsideration.",
+  },
+  {
+    question: "Is IRMAA recalculated every year?",
+    answer:
+      "Yes. Social Security reviews your most recent tax return data from the IRS each year and recalculates whether IRMAA applies. If your income drops below the threshold in a later tax year, the surcharge will automatically come off once that return is processed — no appeal needed.",
   }
 ];
 
