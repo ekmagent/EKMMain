@@ -352,6 +352,12 @@ const faqs = [
     answer:
       "Yes. Because every carrier sets its own premium for the exact same standardized benefits, a licensed broker can quickly compare rates across multiple companies in your zip code. Call 855-559-1700 to get a side-by-side comparison at no cost to you.",
   }
+,
+  {
+    question: "Does where I live really change what I pay for Medigap?",
+    answer:
+      "Yes. Medicare.gov confirms that Medigap premiums vary widely based on the insurance company, the specific lettered plan, and your geographic location. The same Plan G can cost dramatically different amounts in two neighboring states, or even two zip codes in the same state. That's why pulling quotes from multiple carriers licensed in your area matters.",
+  }
 ];
 
 export default function AverageCostSupplementalInsurancePage() {
@@ -562,6 +568,7 @@ export default function AverageCostSupplementalInsurancePage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents: contact <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">Need state-specific help? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free local Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">For state-specific rate help, contact the <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> or the <a href="https://www.nj.gov/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a> or contact the <a href="https://www.state.nj.us/dobi/division_insurance/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a>.</div>
       </section>
     </main>
   );

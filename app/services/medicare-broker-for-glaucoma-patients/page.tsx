@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for glaucoma patients | Free Coverage Review | MedicareYourself",
   description:
-    "Glaucoma patient on Medicare? Compare plans covering drops, SLT laser & surgery with broker Anthony Orner. Free coverage review — call 855-559-1700.",
+    "Glaucoma and on Medicare? Compare plans covering drops, SLT laser & surgery with licensed broker Anthony Orner. Free coverage review — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-glaucoma-patients" },
   openGraph: {
     title:
@@ -190,6 +190,22 @@ const faqs = [
     question: "Are glaucoma eye drops covered by Medicare Part D?",
     answer:
       "Yes. Prescription glaucoma eye drops such as latanoprost, timolol, and brimonidine are typically covered under Medicare Part D or the Part D portion of a Medicare Advantage plan. Each plan has its own formulary, tier placement, and copay structure, so the same drop can cost very different amounts depending on the plan you choose.",
+  }
+,
+  {
+    question: "Who is eligible for Medicare's annual glaucoma screening?",
+    answer:
+      "Medicare Part B covers a glaucoma screening once every 12 months for people considered high risk. That includes individuals with diabetes, a family history of glaucoma, African Americans age 50 and older, and Hispanic Americans age 65 and older. The screening must be performed or supervised by an eye doctor legally authorized to do so in your state.",
+  },
+  {
+    question: "Are glaucoma eye drops covered by Original Medicare?",
+    answer:
+      "Original Medicare (Parts A and B) generally does not cover prescription glaucoma eye drops you take at home. Drops like latanoprost, timolol, or brimonidine are covered under Medicare Part D prescription drug plans or through a Medicare Advantage plan that includes drug coverage. Formulary tiers and copays vary, so comparing Part D plans during Annual Enrollment can lower your costs.",
+  },
+  {
+    question: "Should I choose Medigap or Medicare Advantage if I have glaucoma?",
+    answer:
+      "It depends on how often you see specialists and which ophthalmologist you want to keep. Medigap paired with Original Medicare gives you nationwide access to any provider that accepts Medicare and helps cover the Part B coinsurance for laser and surgical procedures. Medicare Advantage may offer lower premiums and routine vision extras, but you'll need to stay in-network and follow plan rules. A free review with broker Anthony Orner at 855-559-1700 can compare both paths.",
   }
 ];
 

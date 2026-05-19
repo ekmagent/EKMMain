@@ -503,6 +503,22 @@ const faqs = [
     answer:
       "If you miss your Initial Enrollment Period and do not qualify for a Special Enrollment Period, you will need to sign up during the General Enrollment Period, which runs January 1 through March 31 each year. Coverage begins the month after you enroll. You may also owe a permanent Part B late enrollment penalty added to your monthly premium for as long as you have Medicare.",
   }
+,
+  {
+    question: "How do I sign up for Medicare if I'm not getting Social Security yet?",
+    answer:
+      "If you're not already receiving Social Security or Railroad Retirement Board benefits, you'll need to actively sign up for Medicare. The fastest way is online at ssa.gov/medicare, which takes about 10 minutes. You can also apply by calling Social Security at 1-800-772-1213 or visiting your local Social Security office.",
+  },
+  {
+    question: "When can I first enroll in Medicare?",
+    answer:
+      "You can apply for Medicare up to 3 months before the month you turn 65. Your Initial Enrollment Period continues through your birthday month and the 3 months after, for a total 7-month window. Applying in the 3 months before your birthday helps ensure coverage starts the first day of your birthday month.",
+  },
+  {
+    question: "What happens if I miss my Medicare Initial Enrollment Period?",
+    answer:
+      "If you miss your IEP and don't qualify for a Special Enrollment Period, you'll have to wait for the General Enrollment Period (January 1 through March 31) to sign up. You may also owe a permanent Part B late enrollment penalty that is added to your monthly premium for as long as you have Medicare. A licensed broker can help you confirm whether you qualify for an SEP — call 855-559-1700.",
+  }
 ];
 
 export default function HowToSignUpPage() {

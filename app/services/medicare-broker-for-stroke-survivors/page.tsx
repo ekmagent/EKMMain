@@ -130,6 +130,22 @@ const faqs = [
     answer:
       "There is no single best plan — it depends on your providers, prescriptions, budget, and recovery needs. Many stroke survivors prefer Original Medicare paired with a Medigap plan and a standalone Part D plan for predictable costs and broad provider access. I review your specific situation and compare options at no cost.",
   }
+,
+  {
+    question: "What should stroke survivors look for when comparing Medicare plans during Open Enrollment?",
+    answer:
+      "Focus on whether your neurologist, rehab facility, and therapists are in-network, and check prescription drug coverage for blood thinners and blood pressure medications. Review out-of-pocket maximums, therapy coverage limits, and any prior authorization requirements for rehab services. Open Enrollment runs October 15 through December 7 each year and is your main chance to switch plans.",
+  },
+  {
+    question: "Should a stroke survivor choose Medicare Advantage or Original Medicare with a Supplement?",
+    answer:
+      "It depends on your providers, budget, and how often you need specialist care. Original Medicare paired with a Medigap plan typically offers broader provider access and more predictable out-of-pocket costs, which can matter during long rehab. Medicare Advantage may include extras like transportation or fitness benefits but usually requires network providers and prior authorizations. I'll walk through both options with you.",
+  },
+  {
+    question: "Can a family member or caregiver help manage Medicare decisions for a stroke survivor?",
+    answer:
+      "Yes. With proper authorization, a spouse, adult child, or designated representative can join calls, review plans, and help with enrollment. I regularly work with care partners to make sure the stroke survivor's medical needs and provider preferences drive the plan choice.",
+  }
 ];
 
 export default function MedicareBrokerForStrokeSurvivors() {
@@ -348,6 +364,7 @@ export default function MedicareBrokerForStrokeSurvivors() {
               <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/coverage/inpatient-rehabilitation-care" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Inpatient Rehabilitation Care</a> and <a href="https://www.medicare.gov/coverage/outpatient-therapy" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Outpatient Therapy Coverage</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Free local help: <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> offers unbiased Medicare counseling for stroke survivors and caregivers in every state.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

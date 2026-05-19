@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for COPD patients | Free Plan Review | MedicareYourself",
   description:
-    "Medicare broker for COPD patients — compare plans covering inhalers, oxygen & pulmonary rehab. Free review with Anthony Orner. Call 855-559-1700 today.",
+    "Medicare broker for COPD patients — compare plans covering inhalers, oxygen, and pulmonary rehab. Free plan review with Anthony Orner. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-copd-patients" },
   openGraph: {
     title:
@@ -151,6 +151,22 @@ const faqs = [
     question: "Are COPD inhalers covered under Part B or Part D?",
     answer:
       "Most maintenance and rescue inhalers are covered under Medicare Part D prescription drug plans. Nebulizer medications administered through durable medical equipment may fall under Part B instead. Formularies vary widely between plans, so matching your specific inhalers to the right drug plan is one of the most important parts of my review.",
+  }
+,
+  {
+    question: "Am I eligible for Medicare-covered pulmonary rehabilitation with COPD?",
+    answer:
+      "Medicare Part B covers a comprehensive pulmonary rehabilitation program if you have moderate to very severe COPD and a referral from the doctor treating your condition. The program includes exercise, education, and breathing techniques designed to help you breathe better and live more independently. Coverage requires the program be furnished in a doctor's office or hospital outpatient setting.",
+  },
+  {
+    question: "Can a Medicare broker help me switch plans if my inhaler is no longer covered?",
+    answer:
+      "Yes. If your Part D or Medicare Advantage plan drops your inhaler from its formulary or raises the tier, I can review alternative plans during the Annual Enrollment Period each fall. In some cases a Special Enrollment Period may also apply. Call 855-559-1700 for a free formulary check.",
+  },
+  {
+    question: "Does Medicare cover nebulizers and nebulizer medications for COPD?",
+    answer:
+      "Yes. Medicare Part B covers nebulizers as durable medical equipment when prescribed by your doctor for use in the home, along with certain nebulizer medications used with the device. You'll typically be responsible for the Part B coinsurance after meeting your deductible, and the supplier must be enrolled in Medicare.",
   }
 ];
 
@@ -418,6 +434,7 @@ export default function MedicareBrokerForCOPDPatients() {
             <div className="text-sm text-gray-600 mt-4">Free state counseling: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP — State Health Insurance Assistance Program</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
       </section>
     </main>
   );

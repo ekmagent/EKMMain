@@ -310,6 +310,7 @@ export default function MedicarePartDBrokers18517() {
             <div className="text-sm text-gray-600 mt-4">Pennsylvania residents can get free, unbiased counseling through <a href="https://www.aging.pa.gov/aging-services/pace/Pages/APPRISE.aspx" rel="noopener noreferrer" target="_blank" className="underline">APPRISE, Pennsylvania's SHIP program</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Pennsylvania residents in 18517 can also contact <a href="https://www.aging.pa.gov/aging-services/pharmaceutical-assistance/Pages/APPRISE.aspx" rel="noopener noreferrer" target="_blank" className="underline">PA APPRISE</a>, the state's free SHIP counseling program.</div>
             <div className="text-sm text-gray-600 mt-4">Pennsylvania residents in 18517 can also get free, unbiased Medicare counseling through <a href="https://www.aging.pa.gov/aging-services/pages/apprise.aspx" rel="noopener noreferrer" target="_blank" className="underline">PA APPRISE</a>, the state's SHIP program.</div>
+            <div className="text-sm text-gray-600 mt-4">Free local counseling: <a href="https://www.pa.gov/agencies/aging/programs-and-services/health-and-wellness/apprise-health-insurance-counseling.html" rel="noopener noreferrer" target="_blank" className="underline">Pennsylvania APPRISE SHIP Program</a>.</div>
       </section>
     </>
   );

@@ -138,6 +138,12 @@ const faqs = [
     answer:
       "A licensed broker who understands California's Birthday Rule, guaranteed-issue triggers, and local provider networks can compare plans across multiple carriers in one conversation. That matters when you have specialists you want to keep or medications you need covered. Call 855-559-1700 to review your options at no cost.",
   }
+,
+  {
+    question: "Does Original Medicare cover pre-existing conditions in California?",
+    answer:
+      "Yes. Original Medicare (Part A and Part B) has covered pre-existing conditions since the program began in 1965. There are no health questions or waiting periods for pre-existing conditions when you enroll in Original Medicare, regardless of your diagnosis or treatment history.",
+  }
 ];
 
 export default function MedicareAgentPreExistingConditionsCA() {
@@ -342,6 +348,7 @@ export default function MedicareAgentPreExistingConditionsCA() {
             <div className="text-sm text-gray-600 mt-4">California residents can also get free, unbiased counseling through <a href="https://www.aging.ca.gov/HICAP/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">HICAP (California's SHIP program)</a> or contact the <a href="https://www.insurance.ca.gov/01-consumers/105-type/95-guides/05-health/medicare-supplement.cfm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">California Department of Insurance</a>.</div>
             <div className="text-sm text-gray-600 mt-4">California residents: contact <a href="https://www.insurance.ca.gov/01-consumers/105-type/95-guides/05-health/medicare-supp.cfm" rel="noopener noreferrer" target="_blank" className="underline">California Department of Insurance — Medicare Supplement</a> or the <a href="https://cahealthadvocates.org/hicap/" rel="noopener noreferrer" target="_blank" className="underline">California HICAP (SHIP) program</a> for free local counseling.</div>
             <div className="text-sm text-gray-600 mt-4">California help: <a href="https://aging.ca.gov/Programs_and_Services/Medicare_Counseling/" rel="noopener noreferrer" target="_blank" className="underline">California HICAP — free Medicare counseling</a> through the California Department of Aging.</div>
+            <div className="text-sm text-gray-600 mt-4">California residents can get free, unbiased Medicare counseling from <a href="https://www.aging.ca.gov/HICAP/" rel="noopener noreferrer" target="_blank" className="underline">California HICAP (the state's SHIP program)</a>.</div>
       </section>
       </article>
     </>

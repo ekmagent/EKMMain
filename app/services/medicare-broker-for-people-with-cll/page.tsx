@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare broker for people with CLL | Free Consult | MedicareYourself",
   description:
-    "Medicare broker for people with CLL — clear help with Medigap underwriting, Part D oral cancer drugs, and specialist access. Call 855-559-1700 today.",
+    "Medicare broker for people with CLL — clear guidance on Medigap underwriting, Part D oral cancer drugs, and specialist access. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-people-with-cll" },
   openGraph: {
     title:
@@ -183,6 +183,12 @@ const faqs = [
     question: "Can I see a CLL specialist at a major cancer center on Medicare?",
     answer:
       "With Original Medicare, you can generally see any oncologist or CLL specialist nationwide who accepts Medicare assignment, including those at NCI-designated cancer centers. Medicare Advantage plans use provider networks, and many top cancer centers are out-of-network or require prior authorization. This is a key reason many CLL patients prefer Original Medicare paired with a Medigap plan.",
+  }
+,
+  {
+    question: "Does Medicare Part D cover oral targeted therapies for CLL?",
+    answer:
+      "Yes. Medicare Part D plans cover oral oncology drugs, including BTK inhibitors and BCL-2 inhibitors commonly prescribed for CLL. However, formulary placement, prior authorization rules, and cost-sharing tiers vary widely between plans. Reviewing each plan's formulary against your specific medications before enrolling can prevent costly surprises.",
   }
 ];
 
@@ -460,6 +466,7 @@ export default function MedicareBrokerForPeopleWithCLL() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">New Jersey State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">For free, unbiased counseling, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> or the <a href="https://www.nj.gov/dobi/division_insurance/" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">State help: <a href="https://www.state.nj.us/dobi/division_insurance/ship/shipmain.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a></div>
       </section>
     </>
   );

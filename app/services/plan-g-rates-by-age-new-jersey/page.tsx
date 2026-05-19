@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Plan G Rates by Age in New Jersey | 2026 Costs | MedicareYourself",
   description:
-    "Compare 2026 Plan G rates by age across New Jersey carriers. Anthony Orner finds your lowest NJ premium — call 855-559-1700 for a free quote today.",
+    "Compare 2026 Plan G rates by age across New Jersey carriers. Broker Anthony Orner finds your lowest NJ premium — call 855-559-1700 for a free quote.",
   alternates: { canonical: `${SITE_URL}/services/plan-g-rates-by-age-new-jersey` },
   openGraph: {
     title: "Plan G Rates by Age in New Jersey | 2026 Costs | MedicareYourself",
@@ -124,6 +124,12 @@ const faqs = [
     question: "Should I compare Plan G rates from multiple NJ carriers?",
     answer:
       "Yes. Plan G benefits are standardized by federal law, so every carrier's Plan G covers the exact same services. The only differences are price, customer service, and rate stability over time. Anthony Orner compares all major NJ carriers side by side so you can see which one offers the lowest rate for your age and county.",
+  }
+,
+  {
+    question: "How does the 6-month Medigap Open Enrollment Period affect my Plan G rate in NJ?",
+    answer:
+      "Your Medigap Open Enrollment Period begins the month you are 65 or older and enrolled in Part B, and it lasts 6 months. During this window, NJ carriers must sell you any Plan G they offer at their best available rate without medical underwriting. Applying during this period typically locks in the lowest price you will qualify for.",
   }
 ];
 

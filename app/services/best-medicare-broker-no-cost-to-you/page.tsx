@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "best medicare broker no cost to you | Free Plan Comparison | MedicareYourself",
   description:
-    "Work with a licensed Medicare broker at no cost to you. Compare plans from top carriers, get unbiased guidance, and enroll free. Call 855-559-1700.",
+    "Work with a licensed Medicare broker at no cost to you—compare plans from top carriers and enroll free with unbiased guidance. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/best-medicare-broker-no-cost-to-you" },
   openGraph: {
     title:

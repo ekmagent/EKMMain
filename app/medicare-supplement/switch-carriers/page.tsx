@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Switch Medigap Carriers, Same Plan G (2026)",
   description:
-    "Switch Medigap Plan G carriers and keep identical federally standardized benefits at a lower rate. Free carrier comparison — call 855-559-1700 today.",
+    "Switch Medigap Plan G carriers and keep identical federally standardized benefits at a lower rate. Free carrier comparison — call 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/medicare-supplement/switch-carriers` },
   openGraph: {
     title: "Switch Medigap Carriers, Same Plan G (2026)",
@@ -280,6 +280,12 @@ const faqs = [
     answer:
       "In most states, yes — outside of your 6-month Medigap Open Enrollment Period or a Guaranteed Issue situation, federal law does not give you the right to switch Medigap policies without underwriting. That means the new carrier can ask health questions and may decline your application based on your health history. A few states (like New York and Connecticut) have year-round guaranteed issue rules, so the answer depends on where you live. Call 855-559-1700 to check the rules in your state.",
   }
+,
+  {
+    question: "Will I need to answer health questions to switch Medigap carriers?",
+    answer:
+      "In most cases, yes. Under federal law, you only have a guaranteed right to switch Medigap policies during your 6-month Medigap Open Enrollment Period or if you qualify for a specific guaranteed issue right, such as losing other coverage or your plan leaving the market. Outside of those windows, carriers in most states can use medical underwriting to approve or deny your application. A broker can pre-screen the health questions before you apply so you only submit to carriers likely to approve you.",
+  }
 ];
 
 export default function SwitchCarriersPage() {
@@ -515,6 +521,7 @@ export default function SwitchCarriersPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or the free <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">SHIP program</a> for unbiased Medigap switching guidance.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can confirm state-specific Medigap switching rules with the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or free <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP counseling</a>.</div>
             <div className="text-sm text-gray-600 mt-4">For state-specific switching rules, see the <a href="https://www.state.nj.us/dobi/division_insurance/ihcseh/medsupp.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance — Medicare Supplement</a> resources or contact your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">SHIP counselor</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </>
   );

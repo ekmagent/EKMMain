@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare broker for people with pre-existing conditions | Free Guidance | MedicareYourself",
   description:
-    "Medicare broker for pre-existing conditions — find lenient carriers, guaranteed issue rights, and plans that skip health questions. Call 855-559-1700 today.",
+    "Medicare broker for pre-existing conditions — find lenient carriers, guaranteed issue rights, and plans with no health questions. Free help: call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-people-with-pre-existing-conditions" },
   openGraph: {
     title:
@@ -134,6 +134,22 @@ const faqs = [
     question: "How does a broker help if I've already been declined for a Medigap plan?",
     answer:
       "An experienced broker tracks which carriers accept which conditions and which ones are stricter, so you avoid repeat declines that can complicate future applications. They can also identify whether you qualify for a guaranteed issue right, a Medicare Advantage plan with strong benefits for your condition, or a state-specific protection. There is no cost to you for this guidance.",
+  }
+,
+  {
+    question: "Can a Medicare Advantage plan charge me more because of a pre-existing condition?",
+    answer:
+      "No. Medicare Advantage plans cannot deny enrollment or charge a higher premium based on your health history, with the narrow exception of End-Stage Renal Disease rules that have largely been removed. Plans must accept you during your Initial Enrollment Period, the Annual Election Period, or any qualifying Special Enrollment Period.",
+  },
+  {
+    question: "What counts as a pre-existing condition for Medigap underwriting?",
+    answer:
+      "Insurers generally define a pre-existing condition as any health issue diagnosed or treated before your Medigap policy begins. Common examples include diabetes, heart disease, COPD, and cancer history. Each carrier sets its own underwriting guidelines, which is why working with a broker who knows carrier-specific rules can be valuable.",
+  },
+  {
+    question: "Does a Medigap plan have a waiting period for pre-existing conditions?",
+    answer:
+      "It can. If you enroll during your Medigap Open Enrollment Period without prior creditable coverage, a carrier may impose a look-back period before covering treatment for a pre-existing condition. Continuous creditable coverage before enrolling can reduce or eliminate that waiting period.",
   }
 ];
 
@@ -326,6 +342,7 @@ export default function MedicareBrokerPreExistingConditions() {
         </ul>
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/health-drug-plans/medigap/basics/ready-to-buy" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — When to buy Medigap</a> and <a href="https://www.medicare.gov/basics/get-started-with-medicare/sign-up/when-does-medicare-coverage-start" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Guaranteed issue rights</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Free, unbiased counseling is available through your <a href="https://www.shiphelp.org/" target="_blank" rel="noopener noreferrer" className="underline">State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">Free local counseling: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
       </section>
     </main>
   );

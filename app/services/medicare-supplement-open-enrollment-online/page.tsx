@@ -100,6 +100,22 @@ const faqs = [
     answer:
       "No. Medigap premiums are filed with each state's department of insurance, so identical plans from the same carrier cost the same whether you apply online, by phone, or in person. Working with a licensed broker does not add any fee to your premium.",
   }
+,
+  {
+    question: "What information from my Medicare card do I need to apply online?",
+    answer:
+      "You'll need your Medicare Number and your Part A and Part B coverage start dates, all of which appear on your red, white, and blue Medicare card. Insurers use these details to verify your eligibility and set your Medigap effective date. Have the card in front of you before starting the online application.",
+  },
+  {
+    question: "Can an insurance company deny me Medigap coverage if I apply during my open enrollment period?",
+    answer:
+      "No. Under federal law, during your 6-month Medigap Open Enrollment Period an insurance company cannot refuse to sell you any Medigap policy it offers, cannot use medical underwriting, and cannot deny you coverage based on pre-existing health problems. You also generally get better prices and more plan choices during this window.",
+  },
+  {
+    question: "Do I need both Medicare Part A and Part B before buying a Medigap policy online?",
+    answer:
+      "Yes. To be eligible for a Medigap policy, you must be enrolled in both Medicare Part A and Part B. Your 6-month Medigap Open Enrollment Period begins the first month you have Part B and are 65 or older, so timing your Part B start date is important.",
+  }
 ];
 
 export default function MedicareSupplementOpenEnrollmentOnline() {
@@ -339,6 +355,7 @@ export default function MedicareSupplementOpenEnrollmentOnline() {
             <div className="text-sm text-gray-600 mt-4">Need one-on-one help? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">Need state-specific help? Contact the <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling in your state.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

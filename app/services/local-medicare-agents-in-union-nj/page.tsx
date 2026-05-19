@@ -116,6 +116,12 @@ const faqs = [
     answer:
       "It depends on the plan. Original Medicare with a Medigap policy lets you see any provider nationwide that accepts Medicare. Medicare Advantage plans use networks, so a local broker will check whether your current Union, NJ doctors and hospitals are in-network before you enroll.",
   }
+,
+  {
+    question: "What's the difference between Medigap and Medicare Advantage in Union, NJ?",
+    answer:
+      "Medigap (Medicare Supplement) works alongside Original Medicare to help cover out-of-pocket costs like coinsurance and deductibles, and lets you see any provider that accepts Medicare nationwide. Medicare Advantage replaces Original Medicare with a private plan that typically uses a network of doctors and hospitals, often bundling drug coverage and extras like dental or vision. A local independent broker can walk you through how each option works with the hospitals and physicians you use in Union County.",
+  }
 ];
 
 export default function LocalMedicareAgentsUnionNJ() {
@@ -381,6 +387,7 @@ export default function LocalMedicareAgentsUnionNJ() {
             <div className="text-sm text-gray-600 mt-2">New Jersey residents can also get free unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

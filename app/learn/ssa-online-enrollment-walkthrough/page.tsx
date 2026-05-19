@@ -609,6 +609,22 @@ const steps = [
     answer:
       "Once you click Submit Now and agree to the Electronic Signature Agreement, the application cannot be modified online. If you need to correct information, you'll have to contact the Social Security Administration directly. Reviewing each screen carefully before submitting is the best way to avoid issues.",
   }
+,
+  {
+    question: "How long does it take to enroll in Medicare online at SSA.gov?",
+    answer:
+      "Most people complete the online Medicare application in about 10 minutes. Having your Social Security number, a driver's license or state ID, and any current health insurance information ready in advance helps speed things up. You can save your progress and return later if needed.",
+  },
+  {
+    question: "Can I sign up for only Part A and delay Part B online?",
+    answer:
+      "Yes. During the application, SSA will ask whether you want to enroll in Part B. You can choose Part A only if you have qualifying coverage through current employment, but be aware that delaying Part B without creditable coverage can trigger a lifetime late enrollment penalty.",
+  },
+  {
+    question: "What if I make a mistake on my SSA Medicare application?",
+    answer:
+      "Once you click Submit, you cannot modify the application yourself. You'll need to contact the Social Security Administration directly to correct any errors. Review every screen carefully before signing the Electronic Signature Agreement and submitting.",
+  }
 ];
 
 export default function SSAOnlineEnrollmentWalkthrough() {
