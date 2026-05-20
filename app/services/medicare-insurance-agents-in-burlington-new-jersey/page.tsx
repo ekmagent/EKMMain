@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare insurance agents in burlington new jersey | Free Local Help | MedicareYourself",
   description:
-    "Talk with Anthony Orner, a licensed Medicare broker serving Burlington, NJ. Compare Medigap, Advantage & Part D plans free — call 855-559-1700 today.",
+    "Compare Medigap, Medicare Advantage & Part D plans in Burlington, NJ with licensed broker Anthony Orner. Free, no-obligation help — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-insurance-agents-in-burlington-new-jersey" },
   openGraph: {
     title:
@@ -154,6 +154,17 @@ const faqs = [
     question: "When can I enroll in a Medigap plan in New Jersey?",
     answer:
       "Your best window is the 6-month Medigap Open Enrollment Period that begins the month you're 65 or older and enrolled in Part B. During this window, insurers in New Jersey must sell you any Medigap plan they offer without medical underwriting. New Jersey also uses community rating, meaning premiums aren't based on your individual age.",
+  }
+,
+  {
+    question: "Does Burlington County, NJ have local Medicare help besides brokers?",
+    answer:
+      "Yes. New Jersey's State Health Insurance Assistance Program (SHIP) offers free, unbiased Medicare counseling to residents of Burlington County. SHIP counselors can answer questions about eligibility, enrollment periods, and coverage options. Many beneficiaries use SHIP alongside an independent broker for a second opinion.",
+  },
+  {
+    question: "Are Medigap premiums the same for everyone in New Jersey?",
+    answer:
+      "New Jersey uses community rating for Medigap, meaning carriers cannot charge you more based on your age. Premiums still vary by carrier and plan letter, so comparing quotes across companies is important. An independent broker can show you side-by-side pricing for the same plan letter from different insurers.",
   }
 ];
 
@@ -409,6 +420,7 @@ export default function MedicareInsuranceAgentsBurlingtonNJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-2">New Jersey residents can also get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </>
   );

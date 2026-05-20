@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
   description:
-    "Understand 2026 Medicare IRMAA surcharges on Part B & D, income brackets, and how to appeal with SSA-44. Free broker guidance — call 855-559-1700 today.",
+    "Learn how 2026 Medicare IRMAA surcharges work on Part B & D, see income brackets, and appeal with SSA-44. Free broker guidance — call 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/irmaa-medicare-surcharge` },
   openGraph: {
     title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
@@ -517,6 +517,22 @@ const faqs = [
     question: "When does IRMAA stop applying to my Medicare premiums?",
     answer:
       "IRMAA is recalculated each year based on your tax return from two years prior. If your income drops below the IRMAA thresholds, the surcharge will automatically come off the following year. You don't have to reapply unless you want a faster adjustment through an SSA-44 life-changing event appeal.",
+  }
+,
+  {
+    question: "How do I appeal an IRMAA determination?",
+    answer:
+      "If you've experienced a life-changing event that reduced your income, you can file Form SSA-44 with the Social Security Administration to request a new IRMAA determination. Qualifying events include retirement, marriage, divorce, death of a spouse, or loss of pension income. You'll need documentation such as a marriage certificate, death certificate, or proof of work stoppage to support your appeal.",
+  },
+  {
+    question: "Does IRMAA get recalculated every year?",
+    answer:
+      "Yes. The Social Security Administration reviews your tax return data each year and recalculates IRMAA annually based on your most recent tax filing from two years prior. If your income drops below the threshold, your IRMAA surcharge will be removed automatically the following year.",
+  },
+  {
+    question: "Who notifies me if I owe IRMAA?",
+    answer:
+      "The Social Security Administration mails you a predetermination notice if your income triggers IRMAA, followed by an initial determination notice with your new premium amount. The surcharge is typically deducted directly from your Social Security benefit, or billed quarterly if you're not yet collecting Social Security.",
   }
 ];
 

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for Parkinson's patients | Free Plan Review | MedicareYourself",
   description:
-    "Medicare broker for Parkinson's patients — compare Part D, specialist networks & DBS coverage. Free plan review with Anthony Orner. Call 855-559-1700 today.",
+    "Medicare broker for Parkinson's patients — compare Part D, specialist access & DBS coverage. Free plan review with Anthony Orner. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-parkinsons-patients" },
   openGraph: {
     title:
@@ -85,6 +85,22 @@ const faqs = [
     answer:
       "Look for a plan that covers your specific medications, especially carbidopa-levodopa combinations, at a low tier. Some patients take 15-20 pills a day across multiple prescriptions. Even small copay differences per fill add up fast. I run your full medication list through every available plan to find the lowest annual cost.",
   },
+,
+  {
+    question: "Does Medicare cover physical, occupational, and speech therapy for Parkinson's?",
+    answer:
+      "Yes. Medicare Part B covers medically necessary outpatient physical therapy, occupational therapy, and speech-language pathology services when prescribed by your doctor. These therapies are commonly used to help Parkinson's patients maintain mobility, daily function, and communication. After you meet the Part B deductible, you typically pay coinsurance unless you have a Supplement that covers it.",
+  },
+  {
+    question: "Is Medicare Advantage or Medigap better for Parkinson's patients?",
+    answer:
+      "It depends on your priorities. A Medicare Supplement (Medigap) plan paired with Original Medicare gives you nationwide access to any provider that accepts Medicare and predictable out-of-pocket costs, which matters when you see movement disorder specialists. Medicare Advantage plans often include extras but use networks and prior authorizations that can affect specialist access and DBS approvals. I'll walk you through both based on your doctors and medications.",
+  },
+  {
+    question: "Can I switch Medicare plans if my Parkinson's medications change?",
+    answer:
+      "Yes, during the Annual Enrollment Period each fall (October 15 to December 7), you can change your Part D or Medicare Advantage plan for the following year. There's also a Medicare Advantage Open Enrollment Period in early spring. If your medication list has changed, it's worth re-running your plan comparison every year to make sure your drugs are still covered at the lowest tier.",
+  }
 ];
 
 export default function MedicareBrokerForParkinsonsPatients() {
@@ -343,6 +359,7 @@ export default function MedicareBrokerForParkinsonsPatients() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Need unbiased state-level help? Contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">Need local help? Contact <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">your State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling — or call 855-559-1700 to review your options with Anthony.</div>
       </section>
     </main>
   );

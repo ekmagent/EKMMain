@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare supplement open enrollment online | Apply From Home, No Exam | MedicareYourself",
   description:
-    "Apply for Medicare Supplement online during your 6-month guaranteed-issue window — no exam, no health questions. Call 855-559-1700 for free expert help today.",
+    "Apply for Medicare Supplement online during your 6-month guaranteed-issue window — no exam, no health questions. Call 855-559-1700 for free expert help.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-supplement-open-enrollment-online" },
   openGraph: {
     title:
@@ -115,6 +115,22 @@ const faqs = [
     question: "Do I need both Medicare Part A and Part B before buying a Medigap policy online?",
     answer:
       "Yes. To be eligible for a Medigap policy, you must be enrolled in both Medicare Part A and Part B. Your 6-month Medigap Open Enrollment Period begins the first month you have Part B and are 65 or older, so timing your Part B start date is important.",
+  }
+,
+  {
+    question: "What information from my Medicare card do I need to apply online?",
+    answer:
+      "You'll need your Medicare Number and your Part A and Part B coverage start dates, all of which appear on your red, white, and blue Medicare card. Insurers use these details to verify eligibility and set your Medigap effective date. Have the card in front of you before starting the online application to avoid delays.",
+  },
+  {
+    question: "Can an insurance company refuse to sell me a Medigap policy during my Open Enrollment Period?",
+    answer:
+      "No. Under federal law, during your 6-month Medigap Open Enrollment Period an insurance company cannot refuse to sell you any Medigap policy it offers in your state. They also cannot use medical underwriting to deny coverage or charge more based on pre-existing conditions. This protection only applies during that one-time window.",
+  },
+  {
+    question: "Do I need to keep Part B after enrolling in a Medigap plan online?",
+    answer:
+      "Yes. Medigap policies only work alongside Original Medicare, so you must remain enrolled in both Part A and Part B to keep your Medigap coverage active. If you drop Part B, your Medigap policy will no longer pay benefits. Call 855-559-1700 if you need help confirming your Part B status before applying.",
   }
 ];
 
@@ -356,6 +372,7 @@ export default function MedicareSupplementOpenEnrollmentOnline() {
             <div className="text-sm text-gray-600 mt-4">Need state-specific help? Contact the <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling in your state.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

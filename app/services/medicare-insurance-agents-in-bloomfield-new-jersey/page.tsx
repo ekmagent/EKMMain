@@ -101,6 +101,12 @@ const faqs = [
     answer:
       "New Jersey uses community rating for Medigap, which means insurers in the state cannot charge different premiums based on your age for the same plan. Your strongest protections still apply during your 6-month Medigap Open Enrollment Period, which begins the month you turn 65 and are enrolled in Part B. During that window, carriers cannot deny you coverage or charge more based on health history.",
   }
+,
+  {
+    question: "Does New Jersey have special Medigap enrollment rules I should know about?",
+    answer:
+      "New Jersey uses community rating for Medigap plans, which means premiums are based on the broader pool rather than your individual age. However, the strongest protection is still your one-time 6-month Medigap Open Enrollment Period, which starts the month you're 65 and enrolled in Part B. During that window, carriers cannot deny you coverage or charge more for health reasons. Outside that window, medical underwriting typically applies unless you have a guaranteed issue right.",
+  }
 ];
 
 export default function MedicareInsuranceAgentsBloomfieldNJ() {

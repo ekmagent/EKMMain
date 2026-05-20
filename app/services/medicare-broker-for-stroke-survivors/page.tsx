@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for stroke survivors | Free Plan Review | MedicareYourself",
   description:
-    "Medicare broker for stroke survivors — compare plans covering rehab, therapy, and specialists. Free plan review with Anthony Orner. Call 855-559-1700.",
+    "Medicare broker for stroke survivors — compare plans covering rehab, therapy, DME, and specialists. Free plan review with Anthony Orner. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-stroke-survivors" },
   openGraph: {
     title:
@@ -145,6 +145,22 @@ const faqs = [
     question: "Can a family member or caregiver help manage Medicare decisions for a stroke survivor?",
     answer:
       "Yes. With proper authorization, a spouse, adult child, or designated representative can join calls, review plans, and help with enrollment. I regularly work with care partners to make sure the stroke survivor's medical needs and provider preferences drive the plan choice.",
+  }
+,
+  {
+    question: "Does Medicare cover home health care after a stroke?",
+    answer:
+      "Yes. Medicare Part A and Part B cover medically necessary home health services for stroke survivors who are considered homebound and need skilled care, including intermittent skilled nursing, physical therapy, speech-language pathology, and occupational therapy. A doctor must certify the need and a Medicare-certified home health agency must provide the care.",
+  },
+  {
+    question: "Will Medicare pay for a wheelchair or walker after a stroke?",
+    answer:
+      "Medicare Part B covers durable medical equipment (DME) such as wheelchairs, walkers, and hospital beds when your doctor prescribes them as medically necessary for use in your home. You'll typically be responsible for the Part B deductible and coinsurance, and the equipment must come from a Medicare-approved supplier.",
+  },
+  {
+    question: "Can a Medicare Advantage plan be better for stroke recovery than Original Medicare?",
+    answer:
+      "It depends. Some Medicare Advantage plans bundle extras like transportation to therapy, over-the-counter benefits, or expanded rehab support, but they use provider networks and require prior authorization for many services. Original Medicare with a Medigap plan offers broader provider access and more predictable out-of-pocket costs. I'll walk you through both side by side.",
   }
 ];
 

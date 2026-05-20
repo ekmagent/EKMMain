@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare insurance agents in atlantic city new jersey | Free Quotes | MedicareYourself",
   description:
-    "Talk to a licensed Medicare broker in Atlantic City, NJ. Anthony Orner compares Medigap, Advantage & Part D plans free. Call 855-559-1700 for honest guidance.",
+    "Compare Medigap, Advantage & Part D plans with a licensed Atlantic City Medicare broker. Free, no-pressure guidance from Anthony Orner. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-insurance-agents-in-atlantic-city-new-jersey" },
   openGraph: {
     title:
@@ -450,6 +450,7 @@ export default function MedicareInsuranceAgentsAtlanticCityNJ() {
             <div className="text-sm text-gray-600 mt-2">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" target="_blank" rel="noopener noreferrer" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" target="_blank" rel="noopener noreferrer" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> or verify a broker's license with the <a href="https://www.nj.gov/dobi/" target="_blank" rel="noopener noreferrer" className="underline">NJ Department of Banking and Insurance</a>.</div>
             <div className="text-sm text-gray-600 mt-2">New Jersey residents can also get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">Free local help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey SHIP (State Health Insurance Assistance Program)</a> offers unbiased Medicare counseling for Atlantic County residents.</div>
       </section>
     </main>
   );

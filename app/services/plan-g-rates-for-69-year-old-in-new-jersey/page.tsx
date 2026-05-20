@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Plan G Rates for a 69-Year-Old in New Jersey | Free Carrier Comparison | MedicareYourself",
   description:
-    "Compare Plan G rates for 69-year-olds in NJ across top carriers. Free, no-pressure quotes from a licensed NJ broker. Call 855-559-1700 today.",
+    "Compare Plan G rates for 69-year-olds in NJ across top carriers. Free side-by-side quotes from a licensed NJ broker—call 855-559-1700 to save time.",
   alternates: { canonical: "https://medicareyourself.com/services/plan-g-rates-for-69-year-old-in-new-jersey" },
   openGraph: {
     title:
@@ -341,6 +341,7 @@ export default function PlanGRates69NJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey resources: <a href="https://www.state.nj.us/dobi/division_insurance/ihcseh/medsupp.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance — Medicare Supplement information</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">For New Jersey-specific guidance, visit the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP</a> for free Medicare counseling.</div>
       </section>
       </article>
     </>

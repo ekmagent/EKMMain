@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title:
     "How to Enroll in Medicare Online at SSA.gov (Step-by-Step Walkthrough)",
   description:
-    "Step-by-step SSA.gov Medicare enrollment walkthrough — sign up online in about 10 minutes and avoid Part B penalties. Free broker help at 855-559-1700.",
+    "Step-by-step SSA.gov Medicare enrollment walkthrough — sign up online in about 10 minutes, avoid Part B penalties, and get free broker help at 855-559-1700.",
   alternates: {
     canonical: `${SITE_URL}/learn/ssa-online-enrollment-walkthrough`,
   },
@@ -624,6 +624,22 @@ const steps = [
     question: "What if I make a mistake on my SSA Medicare application?",
     answer:
       "Once you click Submit, you cannot modify the application yourself. You'll need to contact the Social Security Administration directly to correct any errors. Review every screen carefully before signing the Electronic Signature Agreement and submitting.",
+  }
+,
+  {
+    question: "How long does it take to enroll in Medicare online at SSA.gov?",
+    answer:
+      "Most people complete the online Medicare application in about 10 minutes. Having your Social Security number, driver's license, and any current health insurance information ready before you start will help you move through the screens quickly.",
+  },
+  {
+    question: "Can I sign up for only Part A and delay Part B online?",
+    answer:
+      "Yes. During the application, SSA asks whether you want to enroll in Part B. You can decline Part B if you have qualifying employer coverage, but be aware that delaying without creditable coverage can trigger a lifelong Part B late enrollment penalty.",
+  },
+  {
+    question: "What if I make a mistake on my SSA Medicare application?",
+    answer:
+      "You cannot modify the application after you click Submit Now. If you spot an error, contact the Social Security Administration directly to correct it. You can also call our office at 855-559-1700 for guidance on next steps.",
   }
 ];
 

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare Supplement Insurance for Crohn's Patients | Free Guidance | MedicareYourself",
   description:
-    "Medicare supplement insurance for Crohn's patients helps cover biologics, infusions, and colonoscopies. Get free broker guidance — call 855-559-1700 today.",
+    "Medicare supplement insurance for Crohn's patients covers biologics, infusions & colonoscopy coinsurance. Free broker help — call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-supplement-insurance-for-crohns-patients" },
   openGraph: {
     title:
@@ -103,6 +103,22 @@ const faqs = [
     question: "Are Crohn's medications covered under Part B or Part D?",
     answer:
       "It depends on how the medication is administered. Infusions given in a doctor's office or infusion center are usually billed under Part B, while self-injected or oral Crohn's medications are typically covered under a Part D prescription drug plan. A Medigap plan only helps with Part B cost-sharing, so pairing it with a strong Part D plan matters for IBD patients.",
+  }
+,
+  {
+    question: "Does a Medigap plan cover specialist visits to my gastroenterologist?",
+    answer:
+      "Yes. Once Medicare Part B approves the visit, your Medigap plan picks up the Part B coinsurance based on the letter plan you choose. With Plan G, for example, your gastroenterologist visits are covered after you meet the annual Part B deductible. You can see any provider nationwide who accepts Medicare.",
+  },
+  {
+    question: "Are Crohn's-related hospital stays covered by Medicare Supplement insurance?",
+    answer:
+      "Yes. Medicare Part A covers inpatient hospital stays, including flare-related admissions and bowel surgeries, but leaves you responsible for the Part A deductible and daily coinsurance after a set number of days. Medigap plans like Plan G and Plan N cover the Part A deductible, coinsurance, and an additional 365 days of hospital coverage after Medicare benefits are exhausted.",
+  },
+  {
+    question: "Can I switch Medigap plans later if my Crohn's symptoms change?",
+    answer:
+      "You can apply to switch Medigap plans at any time, but outside your Open Enrollment or a guaranteed-issue window, carriers can use medical underwriting. Some states have additional protections that let you switch without underwriting. Call 855-559-1700 and we'll review your state's rules and carrier options before you apply.",
   }
 ];
 

@@ -251,6 +251,22 @@ const faqs = [
     answer:
       "If MS prevents you from working, you can apply for Social Security Disability Insurance (SSDI). After receiving SSDI benefits for 24 months, you're automatically enrolled in Medicare Part A and Part B. This pathway is common for people with progressive forms of MS who can no longer maintain employment.",
   }
+,
+  {
+    question: "Does Medicare cover MRIs needed to monitor MS progression?",
+    answer:
+      "Yes. Medicare Part B covers medically necessary MRIs ordered by your doctor to monitor MS activity and treatment response. You typically pay coinsurance after meeting the Part B deductible, unless a Medigap plan covers that cost-sharing. With a Medicare Advantage plan, MRIs may require prior authorization and use in-network imaging centers.",
+  },
+  {
+    question: "Does Medicare cover physical and occupational therapy for MS?",
+    answer:
+      "Medicare Part B covers medically necessary physical therapy, occupational therapy, and speech-language pathology services when prescribed by your doctor as part of an MS care plan. There are no longer hard caps on therapy services, but ongoing care above certain thresholds requires your therapist to confirm medical necessity. Coinsurance applies after the Part B deductible.",
+  },
+  {
+    question: "Can I qualify for Medicare under 65 if MS has caused disability?",
+    answer:
+      "Yes. If MS leaves you unable to work, you can apply for Social Security Disability Insurance (SSDI). After receiving SSDI for 24 months, you are automatically enrolled in Medicare Part A and Part B. At that point, a licensed broker can help you compare Part D, Medicare Advantage, and Medigap options available in your state.",
+  }
 ];
 
 export default function MedicareBrokerForMSPatients() {
@@ -474,6 +490,7 @@ export default function MedicareBrokerForMSPatients() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

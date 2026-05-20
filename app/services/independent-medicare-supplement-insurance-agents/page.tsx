@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "independent medicare supplement insurance agents | Free Help | MedicareYourself",
   description:
-    "Independent Medicare Supplement agents compare every top carrier at no cost to you. Honest guidance, no pressure. Call 855-559-1700 for a free quote.",
+    "Work with an independent Medicare Supplement agent who compares every top carrier at no cost. Honest, pressure-free guidance. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/independent-medicare-supplement-insurance-agents" },
   openGraph: {
     title:

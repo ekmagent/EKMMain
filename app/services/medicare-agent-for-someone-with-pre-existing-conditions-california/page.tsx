@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare agent for someone with pre existing conditions california | Free Help | MedicareYourself",
   description:
-    "Pre-existing conditions in California? A licensed broker explains Medigap timing, the Birthday Rule & guaranteed issue. Free help: call 855-559-1700.",
+    "California Medicare help for pre-existing conditions: understand Medigap timing, the Birthday Rule & guaranteed issue. Free broker help — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-agent-for-someone-with-pre-existing-conditions-california" },
   openGraph: {
     title:

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "enroll in medicare supplement plan g at 70 | Free Broker Help | MedicareYourself",
   description:
-    "Enrolling in Medicare Supplement Plan G at 70? Get free broker help with underwriting & carrier comparisons. Call 855-559-1700 for your no-cost quote.",
+    "Enrolling in Medicare Supplement Plan G at 70? Compare carriers, navigate underwriting, and lock in coverage with free licensed broker help. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/enroll-in-medicare-supplement-plan-g-at-70" },
   openGraph: {
     title:
@@ -86,6 +86,22 @@ const faqs = [
     answer:
       "Rates vary by carrier, zip code, and health status. Attained-age-rated plans will be higher at 70 than at 65, but choosing a carrier with stable long-term rate behavior matters more than chasing the lowest starting premium. Call 855-559-1700 for a free rate comparison.",
   },
+,
+  {
+    question: "Do I have to wait for an open enrollment period to apply for Plan G at 70?",
+    answer:
+      "No. Unlike Medicare Advantage and Part D, Medigap plans like Plan G can be applied for at any time of year. However, outside of your initial Medigap Open Enrollment Period or a Guaranteed Issue situation, you'll typically need to answer health questions. A broker can pre-screen you with multiple carriers before you submit a formal application.",
+  },
+  {
+    question: "Can I switch from Medicare Advantage to Plan G at age 70?",
+    answer:
+      "Yes, you can apply to switch from Medicare Advantage to Original Medicare with a Plan G supplement, but you'll usually need to pass medical underwriting unless you qualify for a Guaranteed Issue right. The Medicare Advantage Open Enrollment Period each year is a common time people make this move. We can review your health profile and identify which carriers are most likely to approve you.",
+  },
+  {
+    question: "Does Plan G cover prescription drugs at 70?",
+    answer:
+      "No. Medigap Plan G does not include prescription drug coverage. To get drug coverage, you'll need to enroll in a standalone Medicare Part D plan alongside your Plan G. We can help you compare Part D plans based on your specific medications and preferred pharmacy.",
+  }
 ];
 
 export default function EnrollInMedicareSupplementPlanGAt70() {
@@ -322,6 +338,7 @@ export default function EnrollInMedicareSupplementPlanGAt70() {
             <div className="text-sm text-gray-600 mt-4">Need state-level help? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free local Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">Need state-specific help? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">local SHIP counselor</a> for free, unbiased Medicare guidance.</div>
             <div className="text-sm text-gray-600 mt-4">Need state-specific help? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free local Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents: <a href="https://www.state.nj.us/dobi/division_insurance/ship/" target="_blank" rel="noopener noreferrer" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> offers free, unbiased Medicare counseling.</div>
       </section>
       </article>
     </>

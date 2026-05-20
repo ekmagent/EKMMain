@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "How to Sign Up for Medicare (2026 Guide)",
   description:
-    "2026 Medicare sign-up guide: enrollment windows, applying at SSA.gov, and avoiding Part B late penalties. Get free licensed broker help — call 855-559-1700.",
+    "2026 Medicare sign-up guide: enrollment windows, applying at SSA.gov, and avoiding Part B late penalties. Free licensed broker help — call 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/how-to-sign-up-for-medicare` },
   openGraph: {
     title: "How to Sign Up for Medicare (2026 Guide)",
@@ -518,6 +518,22 @@ const faqs = [
     question: "What happens if I miss my Medicare Initial Enrollment Period?",
     answer:
       "If you miss your IEP and don't qualify for a Special Enrollment Period, you'll have to wait for the General Enrollment Period (January 1 through March 31) to sign up. You may also owe a permanent Part B late enrollment penalty that is added to your monthly premium for as long as you have Medicare. A licensed broker can help you confirm whether you qualify for an SEP — call 855-559-1700.",
+  }
+,
+  {
+    question: "Can I sign up for Medicare if I'm still working at 65?",
+    answer:
+      "Yes, you can enroll in Medicare at 65 even if you're still working. Most people take Part A since it's premium-free with 40+ work credits. You may delay Part B without penalty if you have creditable coverage through active employment (yours or a spouse's), but confirm with your HR department before delaying.",
+  },
+  {
+    question: "What happens if I miss my Medicare enrollment deadline?",
+    answer:
+      "If you miss your Initial Enrollment Period and don't qualify for a Special Enrollment Period, you'll need to wait for the General Enrollment Period (January 1 – March 31) to sign up for Part B. You may also owe a permanent Part B late enrollment penalty that is added to your monthly premium for as long as you have Medicare.",
+  },
+  {
+    question: "Do I need to re-enroll in Medicare every year?",
+    answer:
+      "No, your Medicare Part A and Part B enrollment is continuous and does not require yearly renewal. However, if you have a Medicare Advantage or Part D drug plan, you can review and change those plans each year during the Annual Enrollment Period (October 15 – December 7). Call 855-559-1700 for a free annual plan review.",
   }
 ];
 

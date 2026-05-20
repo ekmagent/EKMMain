@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title:
     "switch medigap plans | Compare Carriers & Switch Online | MedicareYourself",
   description:
-    "Switch Medigap plans any month and keep identical Plan G or N coverage at a lower premium. Free licensed broker help — call 855-559-1700 to compare carriers.",
+    "Switch Medigap plans any month and keep the same Plan G or N coverage at a lower premium. Free licensed broker help — call 855-559-1700 to compare carriers.",
   alternates: {
     canonical: `${SITE_URL}/services/switch-medigap-plans`,
   },
@@ -820,6 +820,7 @@ export default function SwitchMedigapPlansPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP program</a> for free, unbiased counseling about Medigap switching rules in your state.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents: contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free counseling on state-specific Medigap switching rights.</div>
             <div className="text-sm text-gray-600 mt-4">For state-specific Medigap switching rules and rights, contact the <a href="https://www.nj.gov/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> or your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medigap guidance.</div>
       </section>
     </>
   );

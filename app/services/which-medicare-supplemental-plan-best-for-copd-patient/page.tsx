@@ -170,6 +170,17 @@ const faqs = [
     answer:
       "Medicare Advantage plans often have lower premiums but use networks and require referrals or prior authorization for specialists, oxygen, and pulmonary rehab. For COPD patients who need consistent access to pulmonologists and predictable costs, a Medigap plan paired with a Part D plan generally offers more flexibility. Call 855-559-1700 to compare both options.",
   }
+,
+  {
+    question: "Is Plan G or Plan N better for a COPD patient with frequent doctor visits?",
+    answer:
+      "Plan G typically offers more predictable costs for COPD patients because it covers Part B excess charges and leaves you with only the annual Part B deductible. Plan N has a lower premium but includes copays for office and ER visits, which can add up quickly when you see pulmonologists regularly. For someone managing chronic respiratory disease, Plan G's predictability is usually worth the higher premium.",
+  },
+  {
+    question: "Do Medigap plans cover inhalers and COPD prescriptions?",
+    answer:
+      "No. Medigap (Medicare Supplement) plans do not cover outpatient prescription drugs like inhalers, bronchodilators, or corticosteroids. You'll need a standalone Medicare Part D prescription drug plan to cover these medications. We can help you pair a Medigap plan with a Part D plan that covers your specific COPD inhalers.",
+  }
 ];
 
 export default function WhichMedicareSupplementalPlanBestForCOPDPatient() {

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Plan G Rates for a 70-Year-Old in New Jersey | Free Quote in Minutes | MedicareYourself",
   description:
-    "Compare Medicare Plan G rates for a 70-year-old in New Jersey with a licensed NJ broker. See how NJ Medigap pricing works—call 855-559-1700 for a free quote.",
+    "Compare Medicare Plan G rates for a 70-year-old in NJ with a licensed local broker. See how community-rated Medigap pricing works—call 855-559-1700 for a free quote.",
   alternates: { canonical: "https://medicareyourself.com/services/plan-g-rates-for-70-year-old-in-new-jersey" },
   openGraph: {
     title:
@@ -419,6 +419,7 @@ export default function PlanGRates70NJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey resource: <a href="https://www.nj.gov/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> and <a href="https://www.nj.gov/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also review the <a href="https://www.nj.gov/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey resource: <a href="https://www.state.nj.us/dobi/division_insurance/ihcseh/heshome.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance — Medicare Supplement</a></div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/dobi/division_insurance/ship/shipindex.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
       </section>
       </article>
     </>

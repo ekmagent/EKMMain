@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "when can i change my medicare supplement plan for 2026 | Free Switching Help | MedicareYourself",
   description:
-    "When can you change your Medicare Supplement plan for 2026? Learn switch rules, guaranteed-issue rights, and underwriting tips. Call 855-559-1700 for free help.",
+    "When can you change your Medicare Supplement plan for 2026? Learn switch rules, guaranteed-issue rights & underwriting tips. Free broker help: 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/when-can-i-change-my-medicare-supplement-plan-for-2026" },
   openGraph: {
     title:
@@ -240,6 +240,22 @@ const faqs = [
     answer:
       "No. As long as you pay your premiums and the policy is a standardized Medigap plan, the carrier cannot cancel your coverage because of health changes or claims. This guaranteed renewability is a federal protection, regardless of whether you recently switched plans.",
   }
+,
+  {
+    question: "If I switch Medigap plans, do I have to start a new waiting period for pre-existing conditions?",
+    answer:
+      "If you've had your current Medigap policy for at least 6 months, a new carrier generally cannot impose a new pre-existing condition waiting period when you switch. If you had your previous policy for less than 6 months, the new insurer may apply the remaining waiting period. This rule is set under federal Medigap protections.",
+  },
+  {
+    question: "What happens if I cancel my old Medigap policy before the new one is approved?",
+    answer:
+      "You should never cancel your existing Medigap policy until the new carrier confirms approval and an effective date. Most carriers offer a 30-day free look period, allowing you to keep both policies briefly and cancel the old one once you're satisfied with the new coverage. Canceling too early could leave you without supplemental coverage if the new application is denied.",
+  },
+  {
+    question: "Can I change Medigap plans if my health has changed?",
+    answer:
+      "You can apply at any time, but outside your initial Medigap Open Enrollment Period or a guaranteed-issue situation, the new carrier can use medical underwriting to review your health history. Conditions like diabetes, heart disease, or recent surgeries may lead to higher rates or denial. A licensed broker can pre-screen your health questions across carriers before you formally apply.",
+  }
 ];
 
 export default function WhenCanIChangeMyMedicareSupplementPlanFor2026() {
@@ -444,6 +460,7 @@ export default function WhenCanIChangeMyMedicareSupplementPlanFor2026() {
             <div className="text-sm text-gray-600 mt-4">State-specific help: <a href="https://www.nj.gov/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey SHIP — free Medicare counseling</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Need state-specific help? Contact the <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling in your state.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">State help: <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> offers free Medicare counseling for residents.</div>
       </section>
     </main>
   );

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "tampa medicare agent | Free Plan Comparison | MedicareYourself",
   description:
-    "Work with Tampa Medicare agent Anthony Orner to compare Supplement and Advantage plans across top Florida carriers at no cost. Call 855-559-1700 today.",
+    "Compare Medigap and Medicare Advantage plans in Tampa with licensed broker Anthony Orner. Free, no-obligation help across top FL carriers — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/tampa-medicare-agent" },
   openGraph: {
     title:

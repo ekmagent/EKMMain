@@ -300,6 +300,7 @@ export default function MedicareBrokerMacularDegenerationPage() {
 </ul>
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/coverage/macular-degeneration-tests-treatment" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Macular Degeneration Tests &amp; Treatment Coverage</a> and <a href="https://www.medicare.gov/basics/costs/medicare-costs" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Part B Costs &amp; Deductible</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
       </section>
     </main>
   );
