@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title:
     "How to Enroll in Medicare Online at SSA.gov (Step-by-Step Walkthrough)",
   description:
-    "Step-by-step SSA.gov Medicare enrollment walkthrough — sign up online in about 10 minutes, avoid Part B penalties, and get free broker help at 855-559-1700.",
+    "Follow our 9-step SSA.gov Medicare enrollment walkthrough to sign up online in about 10 minutes. Free broker help available — call 855-559-1700.",
   alternates: {
     canonical: `${SITE_URL}/learn/ssa-online-enrollment-walkthrough`,
   },
@@ -640,6 +640,22 @@ const steps = [
     question: "What if I make a mistake on my SSA Medicare application?",
     answer:
       "You cannot modify the application after you click Submit Now. If you spot an error, contact the Social Security Administration directly to correct it. You can also call our office at 855-559-1700 for guidance on next steps.",
+  }
+,
+  {
+    question: "How long does the SSA.gov Medicare online application take?",
+    answer:
+      "Most people complete the online Medicare application in about 10 minutes. Having your Social Security number, driver's license, and any current health insurance information ready before you start will help you move through the screens without interruption.",
+  },
+  {
+    question: "Can I apply for Medicare only without starting Social Security retirement benefits?",
+    answer:
+      "Yes. During the SSA online application, you will be asked whether you want to apply for Medicare only. Selecting this option lets you enroll in Part A and Part B without triggering your Social Security retirement benefits, which is useful if you want to delay claiming retirement income.",
+  },
+  {
+    question: "What happens after I submit my Medicare application on SSA.gov?",
+    answer:
+      "After you electronically sign and submit, Social Security processes your application and mails your Medicare card once approved. You cannot modify the application after submission, so review every screen carefully. If you need to make changes, you must contact SSA directly.",
   }
 ];
 

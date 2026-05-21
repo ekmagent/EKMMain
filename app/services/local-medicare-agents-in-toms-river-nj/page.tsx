@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "local medicare agents in toms river nj | Free Carrier Comparison | MedicareYourself",
   description:
-    "Local Medicare agents in Toms River NJ — Anthony Orner compares Supplement & Advantage plans across Ocean County carriers at no cost. Call 855-559-1700.",
+    "Local Medicare agents in Toms River NJ — Anthony Orner compares Supplement & Advantage plans across Ocean County carriers free. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/local-medicare-agents-in-toms-river-nj" },
   openGraph: {
     title:
@@ -375,6 +375,7 @@ export default function LocalMedicareAgentsTomsRiverNJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> offers free, unbiased Medicare counseling for Ocean County residents.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

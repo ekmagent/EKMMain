@@ -190,6 +190,12 @@ const faqs = [
     answer:
       "Yes. Medicare Part D plans cover oral oncology drugs, including BTK inhibitors and BCL-2 inhibitors commonly prescribed for CLL. However, formulary placement, prior authorization rules, and cost-sharing tiers vary widely between plans. Reviewing each plan's formulary against your specific medications before enrolling can prevent costly surprises.",
   }
+,
+  {
+    question: "Does Medicare Part D cover oral CLL medications like BTK inhibitors?",
+    answer:
+      "Yes. Oral targeted therapies for CLL, including BTK inhibitors and BCL-2 inhibitors, are generally covered under Medicare Part D prescription drug plans. However, these specialty drugs typically sit on the highest formulary tier, which can mean significant coinsurance. Choosing a Part D plan that covers your specific medication on the best tier is critical — call 855-559-1700 for help comparing formularies.",
+  }
 ];
 
 export default function MedicareBrokerForPeopleWithCLL() {

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare insurance agents in bridgeton new jersey | Free Local Broker | MedicareYourself",
   description:
-    "Medicare agents in Bridgeton, NJ — Anthony Orner compares Supplement and Advantage plans across top carriers at no cost. Call 855-559-1700 for a free quote.",
+    "Medicare agents in Bridgeton, NJ — broker Anthony Orner compares Supplement & Advantage plans across top carriers at no cost. Call 855-559-1700 for a free quote.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-insurance-agents-in-bridgeton-new-jersey" },
   openGraph: {
     title:
@@ -343,6 +343,7 @@ export default function MedicareInsuranceAgentsBridgetonNJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> offers free Medicare counseling for Cumberland County residents.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

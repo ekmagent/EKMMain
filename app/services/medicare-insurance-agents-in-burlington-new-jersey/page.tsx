@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare insurance agents in burlington new jersey | Free Local Help | MedicareYourself",
   description:
-    "Compare Medigap, Medicare Advantage & Part D plans in Burlington, NJ with licensed broker Anthony Orner. Free, no-obligation help — call 855-559-1700.",
+    "Compare Medigap, Medicare Advantage & Part D plans in Burlington, NJ with licensed broker Anthony Orner. Free, no-obligation guidance — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-insurance-agents-in-burlington-new-jersey" },
   openGraph: {
     title:
@@ -165,6 +165,22 @@ const faqs = [
     question: "Are Medigap premiums the same for everyone in New Jersey?",
     answer:
       "New Jersey uses community rating for Medigap, meaning carriers cannot charge you more based on your age. Premiums still vary by carrier and plan letter, so comparing quotes across companies is important. An independent broker can show you side-by-side pricing for the same plan letter from different insurers.",
+  }
+,
+  {
+    question: "What is the Medigap Open Enrollment Period in New Jersey?",
+    answer:
+      "Your Medigap Open Enrollment Period is a one-time, six-month window that begins the month you're 65 or older and enrolled in Medicare Part B. During this window you have a guaranteed issue right to buy any Medigap policy sold in New Jersey, regardless of your health. New Jersey also uses community rating, meaning carriers cannot charge you more based on age.",
+  },
+  {
+    question: "Do Burlington, NJ Medicare brokers charge a fee?",
+    answer:
+      "No. Licensed independent Medicare brokers serving Burlington County are paid by the insurance carriers, not by you. Your premium is the same whether you enroll directly with a carrier or through a broker like Anthony Orner.",
+  },
+  {
+    question: "Can a broker help me compare Medicare Advantage plans in Burlington County?",
+    answer:
+      "Yes. An independent broker can review the Medicare Advantage plans available in your Burlington County ZIP code and compare provider networks, drug formularies, and out-of-pocket maximums. They can also compare those options against Original Medicare with a Medigap policy so you can weigh the tradeoffs.",
   }
 ];
 
@@ -421,6 +437,7 @@ export default function MedicareInsuranceAgentsBurlingtonNJ() {
             <div className="text-sm text-gray-600 mt-2">New Jersey residents can also get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
       </section>
     </>
   );

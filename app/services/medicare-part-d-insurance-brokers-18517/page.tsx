@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare part d insurance brokers 18517 | Free Plan Comparison | MedicareYourself",
   description:
-    "Compare every Medicare Part D drug plan in 18517 with licensed broker Anthony Orner. Free, unbiased reviews to lower your Rx costs — call 855-559-1700.",
+    "Compare every Medicare Part D drug plan in 18517 with licensed broker Anthony Orner. Free, unbiased reviews to lower your Rx costs — call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-part-d-insurance-brokers-18517" },
   openGraph: {
     title:
@@ -87,6 +87,22 @@ const faqs = [
     answer:
       "Medicare Part D Open Enrollment runs October 15 through December 7 each year. During this window, you can switch plans for the following year. Some qualifying events also trigger Special Enrollment Periods throughout the year.",
   },
+,
+  {
+    question: "How does a Medicare Part D broker compare plans for my specific medications?",
+    answer:
+      "A licensed broker enters your full prescription list, dosages, and preferred pharmacy into the Medicare Plan Finder to project the total annual cost — premiums, deductibles, and copays combined — for every Part D plan available in your zip code. This reveals which plan is cheapest for your exact drugs, since the same medication can cost very different amounts on different formularies.",
+  },
+  {
+    question: "Can I get help paying for Medicare Part D in 18517?",
+    answer:
+      "Yes. The federal Extra Help program (also called the Low Income Subsidy) reduces or eliminates Part D premiums, deductibles, and copays for those who qualify based on income and resources. Pennsylvania also offers the PACE and PACENET programs, which can work alongside Part D to lower prescription costs for eligible residents.",
+  },
+  {
+    question: "What's the difference between a standalone Part D plan and Medicare Advantage drug coverage?",
+    answer:
+      "A standalone Part D plan adds prescription coverage to Original Medicare or a Medicare Supplement. A Medicare Advantage plan with drug coverage (MAPD) bundles medical and prescription benefits into one plan. You generally cannot have both a standalone Part D plan and an MAPD at the same time, so a broker can help you weigh which structure fits your situation.",
+  }
 ];
 
 export default function MedicarePartDBrokers18517() {
@@ -311,6 +327,7 @@ export default function MedicarePartDBrokers18517() {
             <div className="text-sm text-gray-600 mt-4">Pennsylvania residents in 18517 can also contact <a href="https://www.aging.pa.gov/aging-services/pharmaceutical-assistance/Pages/APPRISE.aspx" rel="noopener noreferrer" target="_blank" className="underline">PA APPRISE</a>, the state's free SHIP counseling program.</div>
             <div className="text-sm text-gray-600 mt-4">Pennsylvania residents in 18517 can also get free, unbiased Medicare counseling through <a href="https://www.aging.pa.gov/aging-services/pages/apprise.aspx" rel="noopener noreferrer" target="_blank" className="underline">PA APPRISE</a>, the state's SHIP program.</div>
             <div className="text-sm text-gray-600 mt-4">Free local counseling: <a href="https://www.pa.gov/agencies/aging/programs-and-services/health-and-wellness/apprise-health-insurance-counseling.html" rel="noopener noreferrer" target="_blank" className="underline">Pennsylvania APPRISE SHIP Program</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">Pennsylvania residents in 18517 can also contact <a href="https://www.aging.pa.gov/aging-services/insurance/Pages/default.aspx" rel="noopener noreferrer" target="_blank" className="underline">PA APPRISE</a>, the state's free SHIP Medicare counseling program.</div>
       </section>
     </>
   );

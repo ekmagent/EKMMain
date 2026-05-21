@@ -205,6 +205,22 @@ const faqs = [
     answer:
       "Carriers are responding to higher medical claim costs, increased utilization of services, and an aging risk pool. Because Medigap plans are standardized by the federal government, carriers compete primarily on price and service — so when claims rise, premiums follow. Shopping carriers annually helps offset these increases.",
   }
+,
+  {
+    question: "What should I do if I get a rate increase letter from my Medigap carrier?",
+    answer:
+      "Don't panic and don't cancel coverage before lining up a replacement. Request a free rate review to compare other carriers offering the same standardized plan letter in your ZIP code. If you qualify medically, you may be able to switch to a lower-priced carrier with identical benefits. Call 855-559-1700 to start a comparison.",
+  },
+  {
+    question: "Will switching Medigap carriers change my doctors or benefits?",
+    answer:
+      "No. Medigap plans are standardized by federal law, so Plan G with one carrier covers the exact same gaps in Original Medicare as Plan G with another carrier. Your doctors are tied to Original Medicare, not your Medigap carrier, so any provider who accepts Medicare will accept your new supplement.",
+  },
+  {
+    question: "Why are Medicare Supplement rates rising faster than in past years?",
+    answer:
+      "Insurers cite higher medical claim costs, increased utilization of services, and inflation in hospital and outpatient pricing. As the Part A deductible and other Medicare cost-sharing amounts rise, the dollars carriers pay on each claim go up as well. Carriers with older closed blocks of business tend to see the steepest increases.",
+  }
 ];
 
 export default function MedicareSupplementPremiumsIncreasing2025() {

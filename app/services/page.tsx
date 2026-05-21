@@ -9,7 +9,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Medicare Services & Guides | MedicareYourself",
   description:
-    "Compare Medigap, Medicare Advantage & Part D with a licensed independent broker in NJ & 34 states. Free unbiased guidance — call 855-559-1700 today.",
+    "Compare Medigap, Medicare Advantage & Part D with a licensed independent broker in NJ & 34 states. Free, unbiased guidance — call 855-559-1700 today.",
   alternates: { canonical: `${SITE_URL}/services` },
   openGraph: {
     title: "Medicare Services & Guides | MedicareYourself",
@@ -614,6 +614,22 @@ const STATIC_CATEGORIES = [
     answer:
       "Yes. You can call 1-800-MEDICARE (1-800-633-4227), available 24/7, or use the live chat on Medicare.gov. Medicare's official line can answer general questions, but it doesn't compare specific carrier plans or enroll you in Medigap policies the way a licensed broker can.",
   }
+,
+  {
+    question: "What does an independent Medicare broker do?",
+    answer:
+      "An independent Medicare broker compares plans from multiple insurance carriers and helps you choose coverage that fits your health needs and budget. Because brokers are not tied to a single company, the guidance is unbiased. There is no cost to you for working with a licensed broker — carriers pay the commission directly.",
+  },
+  {
+    question: "Can I get help directly from Medicare instead?",
+    answer:
+      "Yes. You can call 1-800-MEDICARE (1-800-633-4227) 24/7 or live chat at Medicare.gov for official guidance on enrollment, coverage, and benefits. TTY users can call 1-877-486-2048. A licensed broker complements that resource by comparing private Medigap, Medicare Advantage, and Part D plans available in your ZIP code.",
+  },
+  {
+    question: "Which states does MedicareYourself serve?",
+    answer:
+      "Anthony Orner is a licensed Medicare insurance broker (NPI 1902584006) based in New Jersey and appointed in 34 states. You can call 855-559-1700 to confirm licensure in your state and get a free plan comparison.",
+  }
 ];
 
 export default function ServicesHubPage() {
@@ -739,6 +755,7 @@ export default function ServicesHubPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/dobi/division_consumers/insurance/ship.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents: visit the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking &amp; Insurance</a> or the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP program</a> for free state counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents: visit the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP</a> for free Medicare counseling.</div>
       </section>
     </>
   );

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare supplement plan (medigap) premium hikes | Free Rate Review | MedicareYourself",
   description:
-    "Facing a Medigap premium hike? Learn why rates rise, when you can switch carriers without underwriting, and call 855-559-1700 for a free rate review.",
+    "Medigap premium hikes hurting your budget? Compare carriers on the same plan letter and call 855-559-1700 for a free, no-pressure rate review.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-supplement-plan-medigap-premium-hikes" },
   openGraph: {
     title:
@@ -84,6 +84,22 @@ const faqs = [
     answer:
       "At least once a year, ideally right after you receive a rate increase notice. A broker can compare your current rate against other carriers offering the same plan letter in your area and determine whether a switch makes financial sense.",
   },
+,
+  {
+    question: "What are the three Medigap pricing methods carriers use?",
+    answer:
+      "Insurance companies set Medigap premiums using one of three methods: community-rated (everyone pays the same regardless of age), issue-age-rated (based on your age when you bought the policy), and attained-age-rated (which increases as you get older). Attained-age-rated policies often start cheaper but rise more over time. Knowing which method your carrier uses helps explain why your premium changed.",
+  },
+  {
+    question: "Does Medigap pricing differ between insurance companies for the same plan letter?",
+    answer:
+      "Yes. The benefits in each lettered Medigap plan are standardized by Medicare, so coverage is identical across carriers. However, premiums can vary significantly between companies selling the same plan in the same area. That's why comparing rates from multiple carriers is important before locking in or switching plans.",
+  },
+  {
+    question: "What should I do when I receive a Medigap rate increase notice?",
+    answer:
+      "Don't cancel your current policy until a new one is approved. Contact a licensed broker to compare rates on the same plan letter from other carriers in your state and confirm whether you'll need to answer health questions. Call 855-559-1700 for a free rate review before making any changes.",
+  }
 ];
 
 export default function MedigapPremiumHikesPage() {
@@ -340,6 +356,7 @@ export default function MedigapPremiumHikesPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">NJ Department of Banking and Insurance</a> or the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">NJ SHIP program</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">New Jersey State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medigap counseling.</div>
       </section>
     </main>
   );

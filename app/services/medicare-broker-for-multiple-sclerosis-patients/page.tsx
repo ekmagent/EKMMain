@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for multiple sclerosis patients | Free Plan Comparison | MedicareYourself",
   description:
-    "Medicare broker for MS patients. Anthony Orner finds plans covering Ocrevus, MRIs, and neurologists. Call 855-559-1700 for a free, no-pressure plan review.",
+    "Medicare broker for MS patients. Anthony Orner finds plans covering Ocrevus, MRIs, and your neurologist — no pressure. Call 855-559-1700 for a free review.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-multiple-sclerosis-patients" },
   openGraph: {
     title:
@@ -267,6 +267,22 @@ const faqs = [
     answer:
       "Yes. If MS leaves you unable to work, you can apply for Social Security Disability Insurance (SSDI). After receiving SSDI for 24 months, you are automatically enrolled in Medicare Part A and Part B. At that point, a licensed broker can help you compare Part D, Medicare Advantage, and Medigap options available in your state.",
   }
+,
+  {
+    question: "Does Medicare cover physical therapy and rehabilitation for MS?",
+    answer:
+      "Yes. Medicare Part B covers medically necessary outpatient physical therapy, occupational therapy, and speech-language pathology services when prescribed by your doctor as part of your MS treatment plan. There is no longer a hard cap on therapy services, but your provider must document that continued therapy is medically necessary. Home health therapy may also be covered if you meet homebound criteria.",
+  },
+  {
+    question: "Will Medicare pay for MRIs to monitor MS progression?",
+    answer:
+      "Yes. MRIs ordered by your doctor to diagnose or monitor multiple sclerosis are covered under Medicare Part B as diagnostic imaging. You'll typically owe the Part B deductible and coinsurance unless a Medigap plan covers those costs. Medicare Advantage plans cover MRIs too, but most require prior authorization before the scan is approved.",
+  },
+  {
+    question: "What happens if my MS specialist isn't in a Medicare Advantage network?",
+    answer:
+      "With Medicare Advantage, going out-of-network can mean higher costs or no coverage at all, depending on whether the plan is an HMO or PPO. If keeping a specific neurologist or MS center is critical, Original Medicare with a Medigap plan generally lets you see any provider who accepts Medicare nationwide. We review your current care team before recommending any plan.",
+  }
 ];
 
 export default function MedicareBrokerForMSPatients() {
@@ -491,6 +507,7 @@ export default function MedicareBrokerForMSPatients() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

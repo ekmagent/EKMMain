@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare insurance agents in bloomfield new jersey | Free Broker Help | MedicareYourself",
   description:
-    "Compare Medicare plans in Bloomfield, NJ with independent broker Anthony Orner. Side-by-side carrier quotes, no pressure. Call 855-559-1700 for free help.",
+    "Compare Medicare plans in Bloomfield, NJ with independent broker Anthony Orner. Side-by-side carrier quotes, no pressure. Call 855-559-1700 for free help today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-insurance-agents-in-bloomfield-new-jersey" },
   openGraph: {
     title:
@@ -106,6 +106,12 @@ const faqs = [
     question: "Does New Jersey have special Medigap enrollment rules I should know about?",
     answer:
       "New Jersey uses community rating for Medigap plans, which means premiums are based on the broader pool rather than your individual age. However, the strongest protection is still your one-time 6-month Medigap Open Enrollment Period, which starts the month you're 65 and enrolled in Part B. During that window, carriers cannot deny you coverage or charge more for health reasons. Outside that window, medical underwriting typically applies unless you have a guaranteed issue right.",
+  }
+,
+  {
+    question: "Does New Jersey have special Medigap enrollment rules I should know about?",
+    answer:
+      "New Jersey uses community rating for Medigap, meaning carriers cannot charge you more based on age. Your strongest protections apply during your 6-month Medigap Open Enrollment Period, which starts the month you turn 65 and are enrolled in Part B. Outside that window, medical underwriting can apply unless you qualify for a guaranteed issue right.",
   }
 ];
 

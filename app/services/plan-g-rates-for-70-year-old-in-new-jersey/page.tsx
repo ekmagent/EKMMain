@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Plan G Rates for a 70-Year-Old in New Jersey | Free Quote in Minutes | MedicareYourself",
   description:
-    "Compare Medicare Plan G rates for a 70-year-old in NJ with a licensed local broker. See how community-rated Medigap pricing works—call 855-559-1700 for a free quote.",
+    "Compare Medicare Plan G rates for a 70-year-old in NJ with a licensed local broker. See how community-rated Medigap pricing works—call for a free quote.",
   alternates: { canonical: "https://medicareyourself.com/services/plan-g-rates-for-70-year-old-in-new-jersey" },
   openGraph: {
     title:
@@ -174,6 +174,17 @@ const faqs = [
     question: "When should a 70-year-old apply for Plan G in New Jersey?",
     answer:
       "The best time to enroll is during your 6-month Medigap Open Enrollment Period, which begins the month you are 65 or older and enrolled in Part B. If you missed that window, you may still apply at any time, but carriers in NJ can require medical underwriting outside of guaranteed issue situations. Call 855-559-1700 and we will review your timing options.",
+  }
+,
+  {
+    question: "Why do Plan G premiums vary between carriers in New Jersey?",
+    answer:
+      "Even though every Medigap Plan G covers identical benefits by federal law, insurance companies each set their own premium. Differences come from underwriting practices, discounts, household savings, and overhead. That's why comparing multiple carriers side by side is the only way to find the best Plan G price in NJ.",
+  },
+  {
+    question: "Is the 6-month Medigap Open Enrollment Period still relevant at age 70?",
+    answer:
+      "Yes. The 6-month Medigap Open Enrollment Period begins when you're 65 or older and enrolled in Part B. If you delayed Part B and are just now enrolling at 70, your one-time guaranteed-issue window opens then. Outside that window, carriers in NJ may apply medical underwriting.",
   }
 ];
 
@@ -420,6 +431,7 @@ export default function PlanGRates70NJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also review the <a href="https://www.nj.gov/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey resource: <a href="https://www.state.nj.us/dobi/division_insurance/ihcseh/heshome.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance — Medicare Supplement</a></div>
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/dobi/division_insurance/ship/shipindex.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
       </article>
     </>

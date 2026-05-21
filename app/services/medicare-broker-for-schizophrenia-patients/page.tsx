@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for schizophrenia patients | Free Coverage Analysis | MedicareYourself",
   description:
-    "Medicare broker for schizophrenia patients — Anthony Orner compares NJ plans covering antipsychotics & psychiatric care. Free help: 855-559-1700.",
+    "Medicare broker for schizophrenia patients — Anthony Orner compares NJ plans covering antipsychotics & psychiatric care. Call 855-559-1700 for free help.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-schizophrenia-patients" },
   openGraph: {
     title:
@@ -357,6 +357,7 @@ export default function MedicareBrokerSchizophreniaPatients() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
       </section>
     </main>
   );

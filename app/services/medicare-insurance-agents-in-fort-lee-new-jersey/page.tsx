@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare insurance agents in fort lee new jersey | Free Broker Help | MedicareYourself",
   description:
-    "Talk with a licensed Medicare broker in Fort Lee, NJ. Anthony Orner compares Medigap & Advantage plans across Bergen County — free help. Call 855-559-1700.",
+    "Talk with a licensed Medicare broker in Fort Lee, NJ. Anthony Orner compares Medigap & Advantage plans across Bergen County at no cost. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-insurance-agents-in-fort-lee-new-jersey" },
   openGraph: {
     title:
@@ -84,6 +84,22 @@ const faqs = [
     answer:
       "Nothing. Medicare brokers are compensated by insurance carriers when you enroll. You pay the same premium whether you use a broker or go directly to the carrier. There's no fee, no markup, and no obligation.",
   },
+,
+  {
+    question: "When can I enroll in a Medigap plan in New Jersey?",
+    answer:
+      "Your best opportunity is the 6-month Medigap Open Enrollment Period, which starts the month your Part B becomes effective and you're 65 or older. During this window, carriers cannot deny coverage or charge more based on health. New Jersey uses community rating, meaning Medigap premiums for a given plan are the same regardless of age.",
+  },
+  {
+    question: "Do Fort Lee Medicare brokers help with Part D drug plans?",
+    answer:
+      "Yes. A licensed broker can run your prescription list through Medicare.gov's Plan Finder to identify the most cost-effective Part D plan based on your specific medications and preferred pharmacy. This review is free and can be repeated each year during the Annual Enrollment Period.",
+  },
+  {
+    question: "Can I switch Medicare plans after I enroll?",
+    answer:
+      "Yes, but the rules depend on the type of plan. Medicare Advantage and Part D plans can be changed during the Annual Enrollment Period each fall. Switching to a Medigap plan after your initial open enrollment may require medical underwriting in New Jersey, so it's worth speaking with a broker before making changes.",
+  }
 ];
 
 export default function MedicareInsuranceAgentsFortLeeNJ() {
@@ -372,6 +388,7 @@ export default function MedicareInsuranceAgentsFortLeeNJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free local counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

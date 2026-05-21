@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare agents near me | Free Unbiased Plan Comparison | MedicareYourself",
   description:
-    "Medicare agents near me — work with an independent licensed broker who compares every major carrier with no bias. Free, no-pressure help. Call today.",
+    "Find a local Medicare agent who compares every major carrier with zero pressure. Free help from a licensed independent broker — call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-agents-near-me" },
   openGraph: {
     title:

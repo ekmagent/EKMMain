@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "average cost of supplemental health insurance for seniors with medicare | Free Broker Comparison | MedicareYourself",
   description:
-    "See what seniors typically pay for Medicare supplemental insurance and how plan, age, and state affect rates. Compare carriers free — call 855-559-1700.",
+    "Compare average Medicare supplemental insurance costs for seniors by plan, age, and state. Free 2026 carrier comparison — call 855-559-1700 to save.",
   alternates: { canonical: "https://medicareyourself.com/services/average-cost-of-supplemental-health-insurance-for-seniors-with-medicare" },
   openGraph: {
     title:
@@ -358,6 +358,22 @@ const faqs = [
     answer:
       "Yes. Medicare.gov confirms that Medigap premiums vary widely based on the insurance company, the specific lettered plan, and your geographic location. The same Plan G can cost dramatically different amounts in two neighboring states, or even two zip codes in the same state. That's why pulling quotes from multiple carriers licensed in your area matters.",
   }
+,
+  {
+    question: "Does where I live affect what I pay for Medicare supplemental insurance?",
+    answer:
+      "Yes, location is one of the biggest factors in Medigap pricing. Premiums vary widely by state and even by zip code because each insurance company sets its own rates based on local claims experience and state regulations. The exact same lettered plan can cost dramatically more in one area than another.",
+  },
+  {
+    question: "Will my Medigap premium go up as I get older?",
+    answer:
+      "It depends on how the policy is priced. Attained-age-rated plans increase as you age, issue-age-rated plans are based on your age when you bought the policy, and community-rated plans charge everyone in the area the same regardless of age. All three types can still increase due to inflation and rising healthcare costs.",
+  },
+  {
+    question: "Does a broker charge me extra to compare supplemental insurance rates?",
+    answer:
+      "No. Licensed Medicare brokers are paid by the insurance carriers, so comparing plans through a broker costs you nothing. Premiums are set by the carrier and filed with your state, meaning you pay the same rate whether you enroll directly or through a broker. Call 855-559-1700 for a free comparison.",
+  }
 ];
 
 export default function AverageCostSupplementalInsurancePage() {
@@ -569,6 +585,7 @@ export default function AverageCostSupplementalInsurancePage() {
             <div className="text-sm text-gray-600 mt-4">Need state-specific help? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free local Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">For state-specific rate help, contact the <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> or the <a href="https://www.nj.gov/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a> or contact the <a href="https://www.state.nj.us/dobi/division_insurance/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_consumers/insurance/ship.htm" rel="noopener noreferrer" target="_blank" className="text-blue-700 underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </main>
   );

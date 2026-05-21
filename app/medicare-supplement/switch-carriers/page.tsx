@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Switch Medigap Carriers, Same Plan G (2026)",
   description:
-    "Switch Medigap Plan G carriers and keep identical federally standardized benefits at a lower rate. Free carrier comparison — call 855-559-1700.",
+    "Switch Medigap Plan G carriers and keep identical federally standardized benefits at a lower premium. Free carrier comparison — call 855-559-1700 today.",
   alternates: { canonical: `${SITE_URL}/medicare-supplement/switch-carriers` },
   openGraph: {
     title: "Switch Medigap Carriers, Same Plan G (2026)",
@@ -285,6 +285,22 @@ const faqs = [
     question: "Will I need to answer health questions to switch Medigap carriers?",
     answer:
       "In most cases, yes. Under federal law, you only have a guaranteed right to switch Medigap policies during your 6-month Medigap Open Enrollment Period or if you qualify for a specific guaranteed issue right, such as losing other coverage or your plan leaving the market. Outside of those windows, carriers in most states can use medical underwriting to approve or deny your application. A broker can pre-screen the health questions before you apply so you only submit to carriers likely to approve you.",
+  }
+,
+  {
+    question: "Do I have a federal right to switch Medigap policies any time?",
+    answer:
+      "In most cases, no. Under federal law, you generally have the right to switch Medigap policies only during your 6-month Medigap Open Enrollment Period or if you qualify for a guaranteed issue right. Outside those windows, carriers in most states can use medical underwriting and decline your application based on health.",
+  },
+  {
+    question: "What happens to my old Medigap policy when I switch carriers?",
+    answer:
+      "You should not cancel your existing Medigap policy until the new one is approved and active. Most carriers also give you a 30-day free look period to review the new policy after it starts. If you cancel during that window, you can return to your previous coverage without penalty in many cases.",
+  },
+  {
+    question: "Will I have to answer health questions to switch Plan G carriers?",
+    answer:
+      "Usually yes, unless you are still in your initial 6-month Medigap Open Enrollment Period or qualify for a guaranteed issue right such as losing other coverage or moving out of a plan's service area. Carriers review prescriptions and medical history before approving. A licensed broker can pre-screen your health profile and match you with carriers most likely to accept your application.",
   }
 ];
 

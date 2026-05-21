@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "enroll in medicare supplement plan g at 70 | Free Broker Help | MedicareYourself",
   description:
-    "Enrolling in Medicare Supplement Plan G at 70? Compare carriers, navigate underwriting, and lock in coverage with free licensed broker help. Call 855-559-1700.",
+    "Enroll in Medicare Supplement Plan G at 70 with free licensed broker help. Compare carriers, navigate underwriting, and lock in coverage. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/enroll-in-medicare-supplement-plan-g-at-70" },
   openGraph: {
     title:

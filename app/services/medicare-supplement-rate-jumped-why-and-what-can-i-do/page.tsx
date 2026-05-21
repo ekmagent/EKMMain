@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "My Medicare Supplement Rate Just Jumped — Why, and What Can I Do? | Free Rate Comparison | MedicareYourself",
   description:
-    "Medicare Supplement rate jumped? Learn why Medigap premiums rise and how switching to the same plan letter with a new carrier can lower your cost. Call 855-559-1700.",
+    "Medicare Supplement rate jumped? Learn why Medigap premiums rise and how switching to the same plan letter with a new carrier can lower costs.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-supplement-rate-jumped-why-and-what-can-i-do" },
   openGraph: {
     title:
@@ -86,6 +86,22 @@ const faqs = [
     answer:
       "It depends on the carrier's pricing strategy and the health of their insured pool. Some companies price low initially to attract members, then raise rates aggressively later. Others price moderately from the start and show more stable increases over time.",
   },
+,
+  {
+    question: "How does medical underwriting work when switching Medigap plans?",
+    answer:
+      "When you apply to switch Medigap carriers outside a guaranteed issue window, the new carrier will ask health questions and may review your prescription and medical history. Based on that review, they can approve you at standard rates, approve you at a higher rate class, or decline coverage. If approved, your new policy starts and you cancel the old one.",
+  },
+  {
+    question: "What is a guaranteed issue right and when does it apply?",
+    answer:
+      "A guaranteed issue right is a federal protection that requires Medigap carriers to sell you a policy without medical underwriting in certain situations. Common triggers include losing employer coverage, your Medicare Advantage plan leaving your area, or moving out of your plan's service area. Some states also offer broader switching rights beyond the federal rules.",
+  },
+  {
+    question: "Should I cancel my current Medigap policy before the new one is approved?",
+    answer:
+      "No. Never cancel an existing Medigap policy until the new carrier has formally approved your application and given you an effective date. Most new policies include a 30-day free look period, allowing you to review the new plan before fully committing.",
+  }
 ];
 
 export default function MedicareSupplementRateJumpedPage() {
@@ -331,6 +347,7 @@ export default function MedicareSupplementRateJumpedPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">For state-specific help, contact the <a href="https://www.nj.gov/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> or your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or the free <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP program</a> for help reviewing rate increases.</div>
+            <div className="text-sm text-gray-600 mt-4">For state-specific help, contact the <a href="https://www.nj.gov/dobi/division_insurance/" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">NJ Department of Banking and Insurance</a> or your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">SHIP counselor</a> for free Medicare counseling.</div>
       </section>
     </main>
   );

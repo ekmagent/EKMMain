@@ -87,6 +87,22 @@ const faqs = [
     answer:
       "Medigap supplements your Original Medicare coverage. If Part B covers the pain management service, your Medigap plan helps pay the remaining costs. Plan G, for example, covers the 20% coinsurance Part B leaves behind after you meet the $283 annual deductible. Any Medicare-accepting specialist is in-network with Original Medicare.",
   },
+,
+  {
+    question: "Will my pain medications be covered under Medicare Part D?",
+    answer:
+      "Most prescription pain medications are covered under a Medicare Part D plan or the drug benefit built into a Medicare Advantage plan, but each plan has its own formulary, tier structure, and prior authorization rules. Opioid prescriptions in particular often require step therapy or quantity limits. Before enrolling, a broker can run your specific medication list through each plan's formulary to estimate your true annual drug cost.",
+  },
+  {
+    question: "Can I switch Medicare plans if my pain specialist leaves the network?",
+    answer:
+      "If your Medicare Advantage plan drops a key provider mid-year, you may qualify for a Special Enrollment Period in some cases, but it isn't automatic. With Original Medicare and a Medigap plan, network changes aren't a concern because any provider that accepts Medicare is covered. This is one reason chronic pain patients often prefer Medigap when underwriting allows.",
+  },
+  {
+    question: "Does Medicare cover physical therapy and chiropractic care for chronic pain?",
+    answer:
+      "Medicare Part B covers medically necessary physical therapy with no hard cap, though therapy above an annual threshold requires your provider to confirm continued medical necessity. Part B also covers manual manipulation of the spine by a chiropractor to correct a subluxation and covers acupuncture for chronic low back pain under specific conditions. Call 855-559-1700 to review which plan pairs best with your treatment schedule.",
+  }
 ];
 
 export default function MedicareBrokerForChronicPainPatients() {
@@ -370,6 +386,7 @@ export default function MedicareBrokerForChronicPainPatients() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for unbiased Medicare guidance.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

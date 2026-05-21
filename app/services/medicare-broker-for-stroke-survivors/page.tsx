@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for stroke survivors | Free Plan Review | MedicareYourself",
   description:
-    "Medicare broker for stroke survivors — compare plans covering rehab, therapy, DME, and specialists. Free plan review with Anthony Orner. Call 855-559-1700.",
+    "Medicare broker for stroke survivors — find plans covering rehab, therapy, DME, and specialists. Free plan review with Anthony Orner. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-stroke-survivors" },
   openGraph: {
     title:
@@ -161,6 +161,22 @@ const faqs = [
     question: "Can a Medicare Advantage plan be better for stroke recovery than Original Medicare?",
     answer:
       "It depends. Some Medicare Advantage plans bundle extras like transportation to therapy, over-the-counter benefits, or expanded rehab support, but they use provider networks and require prior authorization for many services. Original Medicare with a Medigap plan offers broader provider access and more predictable out-of-pocket costs. I'll walk you through both side by side.",
+  }
+,
+  {
+    question: "What stroke-related equipment and home medical supplies does Medicare cover?",
+    answer:
+      "Medicare Part B covers durable medical equipment (DME) deemed medically necessary by your doctor, such as walkers, wheelchairs, hospital beds, and canes. After meeting the Part B deductible, you typically pay coinsurance for DME from Medicare-approved suppliers. Some Medicare Advantage plans include additional benefits like grab bars or shower seats that Original Medicare does not cover.",
+  },
+  {
+    question: "Should a stroke survivor choose Medicare Advantage or Original Medicare with a Medigap plan?",
+    answer:
+      "It depends on your providers, prescriptions, and recovery needs. Original Medicare with a Medigap plan offers broad provider access and predictable out-of-pocket costs, which can help if you see many specialists or need ongoing rehab. Medicare Advantage may offer lower premiums and extra benefits but uses networks and prior authorization. I review both side by side so you can decide with full information.",
+  },
+  {
+    question: "Can a caregiver or family member help manage Medicare decisions for a stroke survivor?",
+    answer:
+      "Yes. With written authorization, a family member or caregiver can speak with Medicare, brokers, and insurance carriers on the survivor's behalf. I regularly work with adult children and spouses during plan reviews, especially when aphasia or cognitive changes make phone calls difficult. Call 855-559-1700 to set up a family-friendly review.",
   }
 ];
 
@@ -381,6 +397,7 @@ export default function MedicareBrokerForStrokeSurvivors() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Free local help: <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> offers unbiased Medicare counseling for stroke survivors and caregivers in every state.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">Free unbiased counseling: <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a></div>
       </section>
       </article>
     </>

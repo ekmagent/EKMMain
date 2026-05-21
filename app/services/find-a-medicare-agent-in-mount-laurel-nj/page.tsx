@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Find a Medicare Agent in Mount Laurel NJ | Free Local Help | MedicareYourself",
   description:
-    "Find a Medicare agent in Mount Laurel, NJ who compares every major carrier at no cost. Anthony Orner offers free, no-pressure help — call today.",
+    "Find a Medicare agent in Mount Laurel, NJ who compares every major carrier at no cost. Anthony Orner offers free, no-pressure help — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/find-a-medicare-agent-in-mount-laurel-nj" },
   openGraph: {
     title:

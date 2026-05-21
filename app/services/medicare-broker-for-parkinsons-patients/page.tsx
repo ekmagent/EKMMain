@@ -101,6 +101,17 @@ const faqs = [
     answer:
       "Yes, during the Annual Enrollment Period each fall (October 15 to December 7), you can change your Part D or Medicare Advantage plan for the following year. There's also a Medicare Advantage Open Enrollment Period in early spring. If your medication list has changed, it's worth re-running your plan comparison every year to make sure your drugs are still covered at the lowest tier.",
   }
+,
+  {
+    question: "Should Parkinson's patients choose Original Medicare with a Supplement or a Medicare Advantage plan?",
+    answer:
+      "It depends on your priorities. Original Medicare with a Medigap policy gives you nationwide access to any provider who accepts Medicare, which matters if you see a movement disorder specialist out of state. Medicare Advantage plans may offer extra benefits but use networks and prior authorization, which can complicate access to specialists and DBS surgery. I'll walk you through the trade-offs based on your doctors and medications.",
+  },
+  {
+    question: "Will Medicare cover a movement disorder specialist?",
+    answer:
+      "Yes. Medicare Part B covers visits to neurologists and movement disorder specialists when they accept Medicare. Under Original Medicare you can see any participating specialist without a referral. Under Medicare Advantage you typically need the specialist to be in-network and may need a referral from your primary care doctor.",
+  }
 ];
 
 export default function MedicareBrokerForParkinsonsPatients() {
