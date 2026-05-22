@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for multiple sclerosis patients | Free Plan Comparison | MedicareYourself",
   description:
-    "Medicare broker for MS patients. Anthony Orner finds plans covering Ocrevus, MRIs, and your neurologist — no pressure. Call 855-559-1700 for a free review.",
+    "Medicare broker for MS patients. Anthony Orner finds plans covering Ocrevus, MRIs, and your neurologist. Call 855-559-1700 for a free, no-pressure review.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-multiple-sclerosis-patients" },
   openGraph: {
     title:
@@ -283,6 +283,12 @@ const faqs = [
     answer:
       "With Medicare Advantage, going out-of-network can mean higher costs or no coverage at all, depending on whether the plan is an HMO or PPO. If keeping a specific neurologist or MS center is critical, Original Medicare with a Medigap plan generally lets you see any provider who accepts Medicare nationwide. We review your current care team before recommending any plan.",
   }
+,
+  {
+    question: "Does Medicare Part D cover oral MS medications?",
+    answer:
+      "Yes. Oral disease-modifying therapies for MS, such as those taken at home in pill form, are generally covered under Medicare Part D prescription drug plans rather than Part B. Coverage, tier placement, and prior authorization rules vary by plan, so it's important to check each plan's formulary before enrolling. A broker can run your specific medications against available plans to find the lowest total cost.",
+  }
 ];
 
 export default function MedicareBrokerForMSPatients() {
@@ -508,6 +514,7 @@ export default function MedicareBrokerForMSPatients() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
       </section>
       </article>
     </>

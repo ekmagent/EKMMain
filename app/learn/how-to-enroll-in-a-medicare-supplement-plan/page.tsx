@@ -535,6 +535,22 @@ const faqs = [
     answer:
       "Outside your Medigap Open Enrollment Period, carriers in most states can use medical underwriting to deny your application or charge higher premiums based on your health history. A limited set of guaranteed-issue rights still apply in certain situations, such as losing other coverage. We can review whether you qualify — call 855-559-1700.",
   }
+,
+  {
+    question: "When is the best time to enroll in a Medicare Supplement plan?",
+    answer:
+      "The best time to buy a Medigap policy is during your 6-month Medigap Open Enrollment Period, which starts the first month you are both 65 or older and enrolled in Part B. During this window, you have a guaranteed right to buy any Medigap plan sold in your state regardless of your health. Outside this window, carriers in most states can use medical underwriting to deny you or charge more.",
+  },
+  {
+    question: "Do I need both Part A and Part B to enroll in a Medicare Supplement plan?",
+    answer:
+      "Yes. You must be enrolled in both Medicare Part A and Part B before you can purchase a Medigap policy. If you only have Part A, you'll need to enroll in Part B through the Social Security Administration before applying.",
+  },
+  {
+    question: "Can I switch Medicare Supplement plans after I enroll?",
+    answer:
+      "You can apply to switch Medigap plans at any time, but outside your Open Enrollment Period or a guaranteed-issue situation, the new carrier can use medical underwriting and may deny coverage or charge more based on your health. A few states have rules that allow easier switching — call 855-559-1700 to check your state's options before changing plans.",
+  }
 ];
 
 export default function HowToEnrollMedigapPage() {

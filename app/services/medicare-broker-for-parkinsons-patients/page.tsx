@@ -112,6 +112,17 @@ const faqs = [
     answer:
       "Yes. Medicare Part B covers visits to neurologists and movement disorder specialists when they accept Medicare. Under Original Medicare you can see any participating specialist without a referral. Under Medicare Advantage you typically need the specialist to be in-network and may need a referral from your primary care doctor.",
   }
+,
+  {
+    question: "Should Parkinson's patients choose Original Medicare with a Supplement or Medicare Advantage?",
+    answer:
+      "It depends on your priorities. Original Medicare paired with a Medigap plan offers broad access to any provider that accepts Medicare, which matters when you need movement disorder specialists who may be out of network on Advantage plans. Medicare Advantage may offer lower premiums and extra benefits like transportation, but requires staying within networks and following prior authorization rules for therapies and DBS. I walk through both side by side for your situation.",
+  },
+  {
+    question: "Will Medicare cover a movement disorder specialist outside my local area?",
+    answer:
+      "Under Original Medicare, you can see any neurologist or movement disorder specialist nationwide who accepts Medicare assignment. Under Medicare Advantage, coverage is usually limited to the plan's network, and out-of-area specialists may require referrals or be considered out-of-network. This is a key reason many Parkinson's patients prefer Original Medicare plus a Supplement.",
+  }
 ];
 
 export default function MedicareBrokerForParkinsonsPatients() {
@@ -371,6 +382,7 @@ export default function MedicareBrokerForParkinsonsPatients() {
             <div className="text-sm text-gray-600 mt-4">Need unbiased state-level help? Contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Need local help? Contact <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">your State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling — or call 855-559-1700 to review your options with Anthony.</div>
+            <div className="text-sm text-gray-600 mt-4">Need local help? Contact <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">your State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </main>
   );

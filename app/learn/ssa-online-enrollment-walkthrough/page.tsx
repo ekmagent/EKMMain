@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title:
     "How to Enroll in Medicare Online at SSA.gov (Step-by-Step Walkthrough)",
   description:
-    "Follow our 9-step SSA.gov Medicare enrollment walkthrough to sign up online in about 10 minutes. Free broker help available — call 855-559-1700.",
+    "Step-by-step SSA.gov Medicare enrollment walkthrough — sign up online in about 10 minutes. Free licensed broker help available at 855-559-1700.",
   alternates: {
     canonical: `${SITE_URL}/learn/ssa-online-enrollment-walkthrough`,
   },
@@ -656,6 +656,22 @@ const steps = [
     question: "What happens after I submit my Medicare application on SSA.gov?",
     answer:
       "After you electronically sign and submit, Social Security processes your application and mails your Medicare card once approved. You cannot modify the application after submission, so review every screen carefully. If you need to make changes, you must contact SSA directly.",
+  }
+,
+  {
+    question: "How long does the SSA online Medicare application take to complete?",
+    answer:
+      "Most people complete the SSA.gov Medicare application in about 10 minutes if they have their documents ready. You will need your Social Security number, a driver's license or state ID for identity verification, and details about any current health insurance coverage.",
+  },
+  {
+    question: "Can I sign up for only Medicare without starting Social Security retirement benefits?",
+    answer:
+      "Yes. During the online application, you can indicate that you want to apply for Medicare only and delay your retirement benefits. This is a common choice for people who plan to keep working past age 65 or want their retirement check to grow.",
+  },
+  {
+    question: "What happens after I submit my Medicare application on SSA.gov?",
+    answer:
+      "After submitting, you cannot modify the application online. SSA will review your application and mail your Medicare card, typically within a few weeks. If they need additional information, a representative will contact you by phone or mail.",
   }
 ];
 

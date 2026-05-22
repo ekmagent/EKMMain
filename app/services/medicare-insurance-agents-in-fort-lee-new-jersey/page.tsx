@@ -100,6 +100,12 @@ const faqs = [
     answer:
       "Yes, but the rules depend on the type of plan. Medicare Advantage and Part D plans can be changed during the Annual Enrollment Period each fall. Switching to a Medigap plan after your initial open enrollment may require medical underwriting in New Jersey, so it's worth speaking with a broker before making changes.",
   }
+,
+  {
+    question: "Do Fort Lee Medicare brokers help with prescription drug (Part D) plans?",
+    answer:
+      "Yes. An independent broker can compare standalone Part D prescription drug plans based on your specific medication list and preferred pharmacy. The goal is to find the plan with the lowest total annual cost, not just the lowest premium. This review should be done every year during the Annual Election Period, since drug formularies change.",
+  }
 ];
 
 export default function MedicareInsuranceAgentsFortLeeNJ() {

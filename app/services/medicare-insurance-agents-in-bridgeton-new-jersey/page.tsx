@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare insurance agents in bridgeton new jersey | Free Local Broker | MedicareYourself",
   description:
-    "Medicare agents in Bridgeton, NJ — broker Anthony Orner compares Supplement & Advantage plans across top carriers at no cost. Call 855-559-1700 for a free quote.",
+    "Medicare agents in Bridgeton, NJ — broker Anthony Orner compares Supplement and Advantage plans across top carriers at no cost. Call 855-559-1700 for a free quote.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-insurance-agents-in-bridgeton-new-jersey" },
   openGraph: {
     title:
@@ -84,6 +84,17 @@ const faqs = [
     answer:
       "Your Medigap Open Enrollment Period lasts 6 months, starting the month you turn 65 and are enrolled in Part B. During this window, carriers must accept you regardless of health history. After it closes, you may face medical underwriting or denial. Plan ahead — ideally 6 months before your Part B start date.",
   },
+,
+  {
+    question: "Is there free Medicare counseling available in Cumberland County?",
+    answer:
+      "Yes. The State Health Insurance Assistance Program (SHIP) offers free, unbiased Medicare counseling through Cumberland County Aging & Disability Services. SHIP counselors can help you understand Original Medicare, Medigap, Medicare Advantage, and Part D options. It's a useful resource alongside a licensed broker who can actually enroll you in a plan.",
+  },
+  {
+    question: "Does New Jersey use community rating for Medigap policies?",
+    answer:
+      "Yes. New Jersey requires community-rated pricing for Medicare Supplement plans, meaning premiums are not based on your age. However, this does not mean year-round guaranteed issue — you still need to enroll during your 6-month Medigap Open Enrollment Period or another qualifying guaranteed-issue window to avoid medical underwriting.",
+  }
 ];
 
 export default function MedicareInsuranceAgentsBridgetonNJ() {
@@ -344,6 +355,7 @@ export default function MedicareInsuranceAgentsBridgetonNJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> offers free Medicare counseling for Cumberland County residents.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">Local help: <a href="https://www.cumberlandcountynj.gov/aging/ship" rel="noopener noreferrer" target="_blank" className="underline">Cumberland County SHIP — free Medicare counseling</a></div>
       </section>
     </main>
   );

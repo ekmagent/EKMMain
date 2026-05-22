@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for stroke survivors | Free Plan Review | MedicareYourself",
   description:
-    "Medicare broker for stroke survivors — find plans covering rehab, therapy, DME, and specialists. Free plan review with Anthony Orner. Call 855-559-1700.",
+    "Medicare broker for stroke survivors — find plans covering rehab, therapy, DME, and home health. Free plan review with Anthony Orner. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-stroke-survivors" },
   openGraph: {
     title:
@@ -177,6 +177,22 @@ const faqs = [
     question: "Can a caregiver or family member help manage Medicare decisions for a stroke survivor?",
     answer:
       "Yes. With written authorization, a family member or caregiver can speak with Medicare, brokers, and insurance carriers on the survivor's behalf. I regularly work with adult children and spouses during plan reviews, especially when aphasia or cognitive changes make phone calls difficult. Call 855-559-1700 to set up a family-friendly review.",
+  }
+,
+  {
+    question: "Does Medicare cover durable medical equipment like walkers or wheelchairs after a stroke?",
+    answer:
+      "Yes. Medicare Part B covers medically necessary durable medical equipment (DME) such as walkers, wheelchairs, hospital beds, and canes when prescribed by your doctor. You'll typically be responsible for the Part B deductible and coinsurance. A Medigap plan or Medicare Advantage plan can help reduce those out-of-pocket costs.",
+  },
+  {
+    question: "When should a stroke survivor review their Medicare plan?",
+    answer:
+      "The Medicare Annual Open Enrollment Period (October 15 through December 7) is the main window to compare plans and switch coverage for the following year. After a stroke, your care needs often change — new specialists, therapies, and medications — so an annual review helps ensure your plan still fits. I offer free plan reviews any time of year.",
+  },
+  {
+    question: "Will Medicare cover home health care after a stroke?",
+    answer:
+      "Yes. Medicare Part A and Part B can cover intermittent skilled nursing care, physical therapy, speech-language pathology, and occupational therapy at home if you are homebound and your doctor certifies the need. Home health aide services may also be covered alongside skilled care. Coverage requires care from a Medicare-certified home health agency.",
   }
 ];
 
@@ -398,6 +414,7 @@ export default function MedicareBrokerForStrokeSurvivors() {
             <div className="text-sm text-gray-600 mt-4">Free local help: <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> offers unbiased Medicare counseling for stroke survivors and caregivers in every state.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Free unbiased counseling: <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a></div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

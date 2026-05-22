@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "best medicare insurance broker near hackensack, nj | Free Quote | MedicareYourself",
   description:
-    "Top-rated Medicare broker near Hackensack, NJ — Anthony Orner compares Medigap, Advantage & Part D plans in Bergen County. Call 855-559-1700 for a free quote.",
+    "Compare Medicare plans near Hackensack, NJ with independent broker Anthony Orner. Free quotes on Medigap, Advantage & Part D. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/best-medicare-insurance-broker-near-hackensack-nj" },
   openGraph: {
     title:

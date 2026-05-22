@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare supplement plan (medigap) premium hikes | Free Rate Review | MedicareYourself",
   description:
-    "Medigap premium hikes hurting your budget? Compare carriers on the same plan letter and call 855-559-1700 for a free, no-pressure rate review.",
+    "Tired of yearly Medigap premium hikes? Compare carriers on the same plan letter and call 855-559-1700 for a free, no-pressure rate review with a licensed broker.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-supplement-plan-medigap-premium-hikes" },
   openGraph: {
     title:
@@ -99,6 +99,22 @@ const faqs = [
     question: "What should I do when I receive a Medigap rate increase notice?",
     answer:
       "Don't cancel your current policy until a new one is approved. Contact a licensed broker to compare rates on the same plan letter from other carriers in your state and confirm whether you'll need to answer health questions. Call 855-559-1700 for a free rate review before making any changes.",
+  }
+,
+  {
+    question: "Does Medicare regulate how much my Medigap premium can increase?",
+    answer:
+      "No. Medicare standardizes the benefits within each lettered plan, but individual insurance companies set their own premiums and rate increases. State insurance departments review filings in most states, but carriers retain wide discretion to raise rates. That's why two companies selling the identical plan letter can have very different long-term pricing.",
+  },
+  {
+    question: "Will I lose my current Medigap coverage if I apply for a new policy and get denied?",
+    answer:
+      "No. Your existing Medigap policy stays in force until you cancel it. If you apply for a new policy and the new carrier declines you due to underwriting, you simply keep your current coverage. A broker can help you compare options before you commit to any changes.",
+  },
+  {
+    question: "Are Medigap premium hikes the same across every ZIP code?",
+    answer:
+      "No. Carriers file rates by state and often by region or ZIP code within a state. Two neighbors with the same plan letter and the same carrier can pay different premiums based on local claims experience. Reviewing your specific area's pricing is essential before assuming a switch will save money.",
   }
 ];
 
@@ -357,6 +373,7 @@ export default function MedigapPremiumHikesPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">New Jersey State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medigap counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a> or call the <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a> for free, unbiased counseling.</div>
       </section>
     </main>
   );

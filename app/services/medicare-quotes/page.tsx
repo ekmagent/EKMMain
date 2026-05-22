@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare quotes | Free Instant Rates From Every Carrier | MedicareYourself",
   description:
-    "Compare free Medicare quotes from every major carrier side by side. See Supplement and Advantage rates instantly with no obligation — call 855-559-1700 today.",
+    "Compare free Medicare quotes from every major carrier side by side. See Supplement and Advantage rates instantly — call 855-559-1700 for no-obligation help.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-quotes" },
   openGraph: {
     title:
@@ -129,6 +129,22 @@ const faqs = [
     question: "How long does it take to get Medicare quotes?",
     answer:
       "Most quotes can be generated in just a few minutes once you provide your zip code, date of birth, and tobacco status. A licensed broker can email you a side-by-side comparison the same day. Call 855-559-1700 to get started.",
+  }
+,
+  {
+    question: "Will comparing Medicare quotes affect my current coverage?",
+    answer:
+      "No. Requesting quotes is purely informational and does not change, cancel, or interrupt any plan you currently have. Your existing Medicare, Medigap, or Advantage coverage stays exactly as it is until you actively choose to enroll in something new during a valid election period.",
+  },
+  {
+    question: "Can I get accurate Medicare quotes online without talking to anyone?",
+    answer:
+      "You can see ballpark rates online, but quotes vary by zip code, age, tobacco status, and household discount eligibility. A licensed broker can pull live rates from every contracted carrier at once and confirm which Medigap carriers offer household or spousal discounts in your state, which often changes the lowest-priced option.",
+  },
+  {
+    question: "Do Medicare Advantage quotes include prescription drug coverage?",
+    answer:
+      "Most Medicare Advantage plans include Part D prescription drug coverage built in, and the quote you see reflects the combined premium. Always confirm your specific medications are on the plan's formulary before enrolling, since drug tiers and pharmacy networks vary by carrier.",
   }
 ];
 
@@ -337,6 +353,7 @@ export default function MedicareQuotesPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free unbiased counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">For free unbiased counseling, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a> or the <a href="https://www.nj.gov/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Free unbiased counseling is available through your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a>, or contact the <a href="https://www.nj.gov/dobi/division_insurance/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

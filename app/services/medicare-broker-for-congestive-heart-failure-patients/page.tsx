@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for congestive heart failure patients | Free Plan Review | MedicareYourself",
   description:
-    "Medicare broker for CHF patients — Anthony Orner finds plans covering cardiac rehab, heart meds, and hospital stays. Free plan review. Call 855-559-1700 today.",
+    "Medicare broker for CHF patients — Anthony Orner finds plans covering cardiac rehab, heart meds, specialists, and hospital stays. Free review: 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-congestive-heart-failure-patients" },
   openGraph: {
     title:
@@ -204,6 +204,22 @@ const faqs = [
     question: "Does Medicare cover home health care for congestive heart failure?",
     answer:
       "Medicare covers intermittent home health services like skilled nursing visits, physical therapy, and home health aide care when ordered by your doctor and provided by a Medicare-certified agency. You must be considered homebound to qualify. This benefit can be especially helpful for CHF patients recovering after a hospital stay.",
+  }
+,
+  {
+    question: "Does Medicare cover heart failure medications under Part D?",
+    answer:
+      "Most Part D plans cover common CHF medications like ACE inhibitors, beta-blockers, diuretics, and ARNIs, but each plan has its own formulary and tier structure. The same drug can have very different copays from one plan to another. Anthony can compare your exact medication list against available plans to find the lowest total annual cost.",
+  },
+  {
+    question: "Will Medicare pay for a heart failure specialist or cardiologist visits?",
+    answer:
+      "Yes. Medicare Part B covers visits to cardiologists and heart failure specialists when the care is medically necessary. With Original Medicare you can see any cardiologist who accepts Medicare, while Medicare Advantage plans typically require you to stay in-network and may need referrals. This is an important factor to weigh if you already have an established cardiology team.",
+  },
+  {
+    question: "Does Medicare cover implantable devices like pacemakers or defibrillators for CHF?",
+    answer:
+      "Yes. Medicare covers medically necessary implantable cardiac devices such as pacemakers and ICDs when prescribed by your cardiologist for qualifying heart conditions. Part A covers the inpatient procedure and Part B covers outpatient follow-up monitoring. Your out-of-pocket cost depends heavily on whether you have a Medigap plan or Medicare Advantage coverage.",
   }
 ];
 

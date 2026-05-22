@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "How to Sign Up for Medicare (2026 Guide)",
   description:
-    "2026 Medicare sign-up guide: enrollment windows, applying at SSA.gov, and avoiding Part B late penalties. Free licensed broker help — call 855-559-1700.",
+    "2026 Medicare sign-up guide: enrollment windows, applying through SSA, and avoiding Part B late penalties. Free licensed broker help — call 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/how-to-sign-up-for-medicare` },
   openGraph: {
     title: "How to Sign Up for Medicare (2026 Guide)",
@@ -550,6 +550,22 @@ const faqs = [
     question: "How long does it take to get my Medicare card after I apply?",
     answer:
       "After you apply through SSA.gov, it typically takes a few weeks to receive your red, white, and blue Medicare card in the mail. If you are automatically enrolled, the card arrives about 3 months before your 65th birthday. You can also print a replacement card from your my Social Security account.",
+  }
+,
+  {
+    question: "Can I sign up for Medicare if I'm still working at 65?",
+    answer:
+      "Yes, you can enroll in Medicare at 65 even if you're still working. Many people enroll in Part A since it's premium-free for those with sufficient work credits, and delay Part B if they have creditable employer coverage from active employment. Confirm with your HR department that your group coverage qualifies as creditable before delaying Part B.",
+  },
+  {
+    question: "What happens if I miss my Medicare Initial Enrollment Period?",
+    answer:
+      "If you miss your IEP and don't qualify for a Special Enrollment Period, you'll need to wait for the General Enrollment Period (January 1 – March 31) to sign up. You may also face a permanent Part B late enrollment penalty that's added to your monthly premium for as long as you have Medicare. Call 855-559-1700 if you're unsure which window applies to you.",
+  },
+  {
+    question: "Where do I actually apply for Medicare?",
+    answer:
+      "You apply for Medicare through the Social Security Administration at ssa.gov/medicare, by calling Social Security, or by visiting a local SSA office. Medicare itself is administered by CMS, but enrollment is handled by Social Security. Once enrolled in Original Medicare, you can separately choose a Medicare Supplement, Part D, or Medicare Advantage plan.",
   }
 ];
 

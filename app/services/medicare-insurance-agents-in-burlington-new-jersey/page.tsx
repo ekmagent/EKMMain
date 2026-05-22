@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare insurance agents in burlington new jersey | Free Local Help | MedicareYourself",
   description:
-    "Compare Medigap, Medicare Advantage & Part D plans in Burlington, NJ with licensed broker Anthony Orner. Free, no-obligation guidance — call 855-559-1700.",
+    "Compare Medigap, Medicare Advantage & Part D plans in Burlington, NJ with licensed independent broker Anthony Orner. Free, no-obligation help — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-insurance-agents-in-burlington-new-jersey" },
   openGraph: {
     title:
@@ -181,6 +181,22 @@ const faqs = [
     question: "Can a broker help me compare Medicare Advantage plans in Burlington County?",
     answer:
       "Yes. An independent broker can review the Medicare Advantage plans available in your Burlington County ZIP code and compare provider networks, drug formularies, and out-of-pocket maximums. They can also compare those options against Original Medicare with a Medigap policy so you can weigh the tradeoffs.",
+  }
+,
+  {
+    question: "How does Medigap pricing work in New Jersey?",
+    answer:
+      "New Jersey uses community rating for Medigap policies, which means insurers charge the same premium for a given plan regardless of the applicant's age. Premiums can still vary between carriers and may change over time, so it's worth comparing identical plan letters across multiple companies.",
+  },
+  {
+    question: "When is the Medigap Open Enrollment Period in New Jersey?",
+    answer:
+      "Your Medigap Open Enrollment Period is a one-time 6-month window that begins the month you're 65 or older and enrolled in Medicare Part B. During this window you have guaranteed issue rights and cannot be denied coverage or charged more for pre-existing conditions. Outside of this window, acceptance is not guaranteed in most situations.",
+  },
+  {
+    question: "Do you serve all of Burlington County, NJ?",
+    answer:
+      "Yes. Anthony Orner is a licensed independent Medicare broker serving Burlington and surrounding Burlington County communities including Mount Laurel, Willingboro, Moorestown, Evesham, Bordentown, and Pemberton. Consultations are available by phone at 855-559-1700 at no cost to you.",
   }
 ];
 
@@ -438,6 +454,7 @@ export default function MedicareInsuranceAgentsBurlingtonNJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </>
   );
