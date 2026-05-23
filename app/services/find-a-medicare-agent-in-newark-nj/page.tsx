@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Find a Medicare Agent in Newark NJ | Free No-Obligation Help | MedicareYourself",
   description:
-    "Find a licensed Medicare agent in Newark, NJ. Anthony Orner compares Medigap & Advantage plans across Essex County — free, no-obligation help. Call 855-559-1700.",
+    "Find a licensed Medicare agent in Newark, NJ. Anthony Orner compares Medigap & Advantage plans across Essex County — free, no-obligation help today.",
   alternates: { canonical: "https://medicareyourself.com/services/find-a-medicare-agent-in-newark-nj" },
   openGraph: {
     title:
@@ -87,6 +87,22 @@ const faqs = [
     answer:
       "An agent typically works for one insurance company. A broker is independent and compares plans across multiple carriers. I'm an independent broker, which means I shop the market on your behalf to find what actually fits your situation.",
   },
+,
+  {
+    question: "Does a Newark Medicare agent help with both Medigap and Medicare Advantage?",
+    answer:
+      "Yes. As an independent broker, I compare both Medicare Supplement (Medigap) and Medicare Advantage plans side by side. That way you can see the trade-offs in cost, network, and coverage before choosing what fits your Newark-area doctors and budget.",
+  },
+  {
+    question: "Can I get help outside of Medicare Open Enrollment?",
+    answer:
+      "Yes. I work with Essex County residents year-round, including those aging into Medicare, leaving employer coverage, or qualifying for a Special Enrollment Period. Medigap applications can also be submitted any time of year, subject to underwriting outside your initial window.",
+  },
+  {
+    question: "What should I bring to my Medicare consultation?",
+    answer:
+      "Have your Medicare card (or your Part A/B start dates), a list of your current medications with dosages, and the names of doctors or hospitals you want to keep. That information lets me check formularies and provider networks accurately before recommending a plan.",
+  }
 ];
 
 export default function FindMedicareAgentNewarkNJ() {
@@ -343,6 +359,7 @@ export default function FindMedicareAgentNewarkNJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey beneficiaries can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free unbiased Medicare counseling.</div>
       </section>
       </article>
     </>

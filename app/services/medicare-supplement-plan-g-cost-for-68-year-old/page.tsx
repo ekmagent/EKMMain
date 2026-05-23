@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare Supplement Plan G Cost for a 68-Year-Old | Free Rate Comparison | MedicareYourself",
   description:
-    "Medicare Supplement Plan G cost for a 68-year-old varies by carrier, state, and pricing method. Call 855-559-1700 for a free side-by-side rate comparison.",
+    "Medicare Supplement Plan G cost for a 68-year-old varies by carrier and state. Compare real rates side-by-side — call 855-559-1700 for a free quote.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-supplement-plan-g-cost-for-68-year-old" },
   openGraph: {
     title:
@@ -297,6 +297,7 @@ export default function MedicareSupplementPlanGCostFor68YearOld() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/shipindex.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can compare Medigap rates and file complaints through the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/dobi/division_insurance/ship/shipindex.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </main>
   );

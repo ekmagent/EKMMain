@@ -168,6 +168,12 @@ const GUIDES = [
     answer:
       "Yes, you can switch during the Annual Enrollment Period (October 15 to December 7) or the Medicare Advantage Open Enrollment Period (January 1 to March 31). Keep in mind that if you want to add a Medigap policy after switching back, you may have to answer health questions unless you qualify for a guaranteed issue right. Call 855-559-1700 if you'd like help reviewing your timing and options.",
   }
+,
+  {
+    question: "What is the difference between Medicare and Medicaid?",
+    answer:
+      "Medicare is a federal health insurance program primarily for people age 65 and older, and for some younger people with disabilities or End-Stage Renal Disease. Medicaid is a joint federal and state program that helps with medical costs for people with limited income and resources. Some people qualify for both programs, which is called being 'dual eligible.' Call 855-559-1700 if you want help understanding which programs you may qualify for.",
+  }
 ];
 
 export default function LearnHubPage() {

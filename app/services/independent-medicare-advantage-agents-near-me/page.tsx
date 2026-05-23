@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "independent medicare advantage agents near me | Free NJ Consultations | MedicareYourself",
   description:
-    "Independent Medicare Advantage agents near you in NJ. Anthony Orner compares every MA plan in your county at no cost. Call 855-559-1700 for free help.",
+    "Work with an independent Medicare Advantage agent near you in NJ. Anthony Orner compares every MA plan in your county at no cost. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/independent-medicare-advantage-agents-near-me" },
   openGraph: {
     title:
@@ -84,6 +84,22 @@ const faqs = [
     answer:
       "You can enroll during the Annual Enrollment Period (October 15 through December 7), your Initial Enrollment Period when you first qualify for Medicare, or during a Special Enrollment Period if you have a qualifying life event like losing employer coverage.",
   },
+,
+  {
+    question: "How is an independent Medicare agent different from a captive agent?",
+    answer:
+      "A captive agent works for one insurance company and can only offer that carrier's plans. An independent agent holds contracts with multiple carriers, so they can compare Medicare Advantage options side by side and recommend the plan that best matches your needs rather than the one their employer sells.",
+  },
+  {
+    question: "Will my independent agent still be there after I enroll?",
+    answer:
+      "Yes. A good independent Medicare agent serves as your ongoing point of contact for plan questions, billing issues, and the Annual Enrollment Period review each fall. Anthony Orner reviews client plans every year to make sure your coverage still fits your doctors and prescriptions.",
+  },
+  {
+    question: "How do I verify an independent Medicare agent is licensed in New Jersey?",
+    answer:
+      "You can confirm any agent's license through the New Jersey Department of Banking and Insurance or by checking their National Producer Number (NPN) on NIPR.com. Anthony Orner is licensed in NJ and 34 additional states under NPI 1902584006.",
+  }
 ];
 
 export default function IndependentMedicareAdvantageAgentsNearMe() {
@@ -326,6 +342,7 @@ export default function IndependentMedicareAdvantageAgentsNearMe() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

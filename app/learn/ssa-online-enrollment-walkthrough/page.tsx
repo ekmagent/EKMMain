@@ -673,6 +673,22 @@ const steps = [
     answer:
       "After submitting, you cannot modify the application online. SSA will review your application and mail your Medicare card, typically within a few weeks. If they need additional information, a representative will contact you by phone or mail.",
   }
+,
+  {
+    question: "Do I need a my Social Security account to enroll in Medicare online?",
+    answer:
+      "Yes. You'll need to either sign in to an existing my Social Security account or create one through Login.gov or ID.me. Identity verification requires your Social Security number and a valid driver's license or state ID.",
+  },
+  {
+    question: "Can I change my application after I submit it on SSA.gov?",
+    answer:
+      "No. Once you agree to the Electronic Signature Agreement and click Submit Now, the application cannot be modified online. If you need to make a correction, you'll have to contact the Social Security Administration directly by phone or at a local field office.",
+  },
+  {
+    question: "Can I enroll in Medicare online without applying for Social Security retirement benefits?",
+    answer:
+      "Yes. During the application, you'll be asked whether you want to apply for Medicare only or for Medicare along with retirement benefits. Selecting Medicare only lets you sign up for Part A and/or Part B without starting your Social Security check.",
+  }
 ];
 
 export default function SSAOnlineEnrollmentWalkthrough() {

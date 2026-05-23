@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "local medicare agents in toms river nj | Free Carrier Comparison | MedicareYourself",
   description:
-    "Local Medicare agents in Toms River NJ — Anthony Orner compares Supplement & Advantage plans across Ocean County carriers free. Call 855-559-1700.",
+    "Local Medicare agents in Toms River NJ — Anthony Orner compares Supplement & Advantage plans across Ocean County carriers. Free quote, call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/local-medicare-agents-in-toms-river-nj" },
   openGraph: {
     title:
@@ -116,6 +116,12 @@ const faqs = [
     question: "When can I enroll in Medicare if I live in Toms River?",
     answer:
       "Your Initial Enrollment Period runs for seven months around your 65th birthday. After that, you can make changes during the Annual Enrollment Period (October 15 – December 7) or, for Medicare Advantage, during the Open Enrollment Period (January 1 – March 31). Special Enrollment Periods may also apply if you lose employer coverage or move.",
+  }
+,
+  {
+    question: "Is there a cost to work with a local Medicare broker in Toms River?",
+    answer:
+      "No. Independent Medicare brokers are compensated by the insurance carriers when a policy is issued, not by the client. You pay the same premium whether you enroll directly with the carrier or through a licensed broker like Anthony Orner.",
   }
 ];
 

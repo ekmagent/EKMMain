@@ -102,6 +102,22 @@ const faqs = [
     answer:
       "No. Never cancel an existing Medigap policy until the new carrier has formally approved your application and given you an effective date. Most new policies include a 30-day free look period, allowing you to review the new plan before fully committing.",
   }
+,
+  {
+    question: "What is medical underwriting and when does it apply to Medigap switches?",
+    answer:
+      "Medical underwriting is the process where a Medigap carrier reviews your health history, prescriptions, and medical conditions before approving a new policy. It applies when you switch carriers outside your initial Medigap Open Enrollment Period or a federal guaranteed issue situation. Based on the review, the carrier can approve you at standard rates, charge a higher rate class, or decline coverage.",
+  },
+  {
+    question: "Does switching Medigap carriers affect my doctors or hospitals?",
+    answer:
+      "No. Medicare Supplement plans work with any provider that accepts Original Medicare nationwide, regardless of which carrier issues your Medigap policy. Switching from one carrier's Plan G to another's Plan G does not change your access to doctors or hospitals.",
+  },
+  {
+    question: "What should I compare before switching Medigap carriers?",
+    answer:
+      "Compare the new premium to your current one, the carrier's rate increase history, and the company's financial strength rating. Also confirm the plan letter matches so your benefits stay identical, and review any household or non-tobacco discounts you may qualify for with the new carrier.",
+  }
 ];
 
 export default function MedicareSupplementRateJumpedPage() {

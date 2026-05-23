@@ -108,6 +108,12 @@ const planData = [
     answer:
       "You can apply to switch Medigap plans in New Jersey at any time, but outside your 6-month Medigap Open Enrollment Period carriers may use medical underwriting and can deny coverage or charge more based on health. Certain guaranteed issue situations — like losing other coverage — protect your right to enroll. Call 855-559-1700 to review your options before switching.",
   }
+,
+  {
+    question: "Is Medigap coverage guaranteed if I apply outside my Open Enrollment Period in New Jersey?",
+    answer:
+      "Outside the 6-month Medigap Open Enrollment Period, carriers in New Jersey can generally use medical underwriting and may decline coverage or charge more based on your health history. Limited guaranteed-issue rights still apply in specific situations, such as losing other creditable coverage or moving out of a plan's service area. It is best to apply during your initial 6-month window to lock in coverage without health questions.",
+  }
 ];
 
 export default function NJMedicareSupplementPage() {

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare insurance agents in burlington new jersey | Free Local Help | MedicareYourself",
   description:
-    "Compare Medigap, Medicare Advantage & Part D plans in Burlington, NJ with licensed independent broker Anthony Orner. Free, no-obligation help — call 855-559-1700.",
+    "Compare Medigap, Medicare Advantage & Part D plans in Burlington, NJ with licensed broker Anthony Orner. Free, no-obligation help — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-insurance-agents-in-burlington-new-jersey" },
   openGraph: {
     title:
@@ -197,6 +197,12 @@ const faqs = [
     question: "Do you serve all of Burlington County, NJ?",
     answer:
       "Yes. Anthony Orner is a licensed independent Medicare broker serving Burlington and surrounding Burlington County communities including Mount Laurel, Willingboro, Moorestown, Evesham, Bordentown, and Pemberton. Consultations are available by phone at 855-559-1700 at no cost to you.",
+  }
+,
+  {
+    question: "Does Burlington County have a SHIP counselor for Medicare questions?",
+    answer:
+      "Yes. New Jersey's State Health Insurance Assistance Program (SHIP) offers free, unbiased Medicare counseling to residents in every county, including Burlington. SHIP counselors can answer questions about enrollment, appeals, and low-income assistance programs. You can use SHIP alongside working with an independent broker.",
   }
 ];
 
@@ -455,6 +461,7 @@ export default function MedicareInsuranceAgentsBurlingtonNJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
       </section>
     </>
   );

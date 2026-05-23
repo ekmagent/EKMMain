@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "free medicare agent that helps with paperwork | Zero Cost Enrollment Help | MedicareYourself",
   description:
-    "Free Medicare agent who handles every form — applications, carrier paperwork, and enrollment at zero cost. Call Anthony at 855-559-1700 for hands-on help.",
+    "Free Medicare agent who handles every form, application, and carrier signup at zero cost. Call Anthony at 855-559-1700 for hands-on paperwork help today.",
   alternates: { canonical: "https://medicareyourself.com/services/free-medicare-agent-that-helps-with-paperwork" },
   openGraph: {
     title:
@@ -318,6 +318,7 @@ export default function FreeMedicareAgentPaperworkPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">Prefer a state-run counselor? New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">Prefer a non-broker counselor? Find free local help through your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling from the <a href="https://www.nj.gov/humanservices/doas/services/q-z/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
     </main>
   );

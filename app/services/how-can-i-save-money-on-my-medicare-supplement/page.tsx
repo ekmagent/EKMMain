@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "how can i save money on my medicare supplement | Free Rate Review | MedicareYourself",
   description:
-    "Save money on your Medicare Supplement: compare carriers, stack household discounts, and review plan letters. Free 10-minute rate review at 855-559-1700.",
+    "Lower your Medicare Supplement premium: compare carriers, stack household discounts, and review plan letters. Free 10-minute rate review — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/how-can-i-save-money-on-my-medicare-supplement" },
   openGraph: {
     title:
@@ -85,6 +85,22 @@ const faqs = [
     answer:
       "If you've already satisfied any pre-existing condition waiting period on your current plan, that credit transfers to your new carrier. You won't start over.",
   },
+,
+  {
+    question: "Do I need to keep Original Medicare to have a Medicare Supplement?",
+    answer:
+      "Yes. To buy or keep a Medigap policy, you generally must be enrolled in both Medicare Part A and Part B. Medigap policies only work alongside Original Medicare, not with Medicare Advantage plans.",
+  },
+  {
+    question: "Does a Medicare Supplement policy cover my spouse?",
+    answer:
+      "No. Each Medigap policy only covers one person, so you and your spouse would each need to purchase your own policy. Some carriers offer a household discount when both spouses are enrolled, which is one of the easiest ways to lower your premium.",
+  },
+  {
+    question: "Can I get help paying my Part B premium if money is tight?",
+    answer:
+      "Yes. Medicare Savings Programs run by your state can help pay your Part B premium and other out-of-pocket costs if you qualify based on income and resources. You can also explore Supplemental Security Income and Medicaid. Call 855-559-1700 and we'll walk through which programs you may qualify for.",
+  }
 ];
 
 export default function HowCanISaveMoneyOnMyMedicareSupplement() {
@@ -326,6 +342,7 @@ export default function HowCanISaveMoneyOnMyMedicareSupplement() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Free local counseling: contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for unbiased Medicare guidance.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">Free local counseling: contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for unbiased help comparing Medigap options in your state.</div>
       </section>
     </main>
   );

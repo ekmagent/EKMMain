@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for Parkinson's patients | Free Plan Review | MedicareYourself",
   description:
-    "Medicare broker for Parkinson's patients — compare Part D, specialist access & DBS coverage. Free plan review with Anthony Orner. Call 855-559-1700.",
+    "Medicare broker for Parkinson's patients — compare Part D, DBS coverage & specialist access. Free plan review with Anthony Orner. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-parkinsons-patients" },
   openGraph: {
     title:
@@ -383,6 +383,7 @@ export default function MedicareBrokerForParkinsonsPatients() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Need local help? Contact <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">your State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling — or call 855-559-1700 to review your options with Anthony.</div>
             <div className="text-sm text-gray-600 mt-4">Need local help? Contact <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">your State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

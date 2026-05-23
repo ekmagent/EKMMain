@@ -144,6 +144,22 @@ const faqs = [
     answer:
       "Yes. Original Medicare (Part A and Part B) has covered pre-existing conditions since the program began in 1965. There are no health questions or waiting periods for pre-existing conditions when you enroll in Original Medicare, regardless of your diagnosis or treatment history.",
   }
+,
+  {
+    question: "Does Original Medicare cover pre-existing conditions in California?",
+    answer:
+      "Yes. Original Medicare (Part A and Part B) has covered pre-existing conditions since the program began in 1965. There are no health questions or waiting periods to enroll in Original Medicare, and your existing conditions are covered the same as any other beneficiary's. This applies in California and every other state.",
+  },
+  {
+    question: "Can a Medicare Advantage plan in California deny me for a pre-existing condition?",
+    answer:
+      "No. Medicare Advantage plans cannot deny enrollment based on pre-existing conditions, with the historical exception of End-Stage Renal Disease (ESRD), which was removed as a barrier starting in 2021. As long as you're enrolled in Medicare Parts A and B and live in the plan's service area, you can join during a valid enrollment period regardless of your health history.",
+  },
+  {
+    question: "What is California's Medigap Birthday Rule?",
+    answer:
+      "California's Birthday Rule lets existing Medigap policyholders switch to another Medigap plan with equal or lesser benefits from any carrier without medical underwriting during a window that begins on their birthday each year. This guaranteed-issue right is unique to a handful of states and is especially valuable for residents with pre-existing conditions who want to shop for better pricing.",
+  }
 ];
 
 export default function MedicareAgentPreExistingConditionsCA() {

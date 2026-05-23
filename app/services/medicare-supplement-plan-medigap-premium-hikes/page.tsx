@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare supplement plan (medigap) premium hikes | Free Rate Review | MedicareYourself",
   description:
-    "Tired of yearly Medigap premium hikes? Compare carriers on the same plan letter and call 855-559-1700 for a free, no-pressure rate review with a licensed broker.",
+    "Tired of yearly Medigap premium hikes? Compare carriers on the same plan letter and call 855-559-1700 for a free, no-pressure rate review.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-supplement-plan-medigap-premium-hikes" },
   openGraph: {
     title:
@@ -115,6 +115,12 @@ const faqs = [
     question: "Are Medigap premium hikes the same across every ZIP code?",
     answer:
       "No. Carriers file rates by state and often by region or ZIP code within a state. Two neighbors with the same plan letter and the same carrier can pay different premiums based on local claims experience. Reviewing your specific area's pricing is essential before assuming a switch will save money.",
+  }
+,
+  {
+    question: "Does Medicare set Medigap premiums?",
+    answer:
+      "No. Medicare standardizes the benefits in each lettered plan, but each insurance company decides how to price its policies. That's why the same Plan G can cost very different amounts depending on the carrier and your location.",
   }
 ];
 
@@ -374,6 +380,7 @@ export default function MedigapPremiumHikesPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">New Jersey State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medigap counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a> or call the <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a> for free, unbiased counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">For state-specific help, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medigap counseling.</div>
       </section>
     </main>
   );

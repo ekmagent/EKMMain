@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
   description:
-    "Learn how 2026 Medicare IRMAA surcharges work, see the income brackets for Part B & D, and how to appeal with SSA-44. Free broker help — call 855-559-1700.",
+    "How 2026 Medicare IRMAA surcharges work — income brackets for Part B & D, plus how to appeal with SSA-44. Free broker help: call 855-559-1700 today.",
   alternates: { canonical: `${SITE_URL}/learn/irmaa-medicare-surcharge` },
   openGraph: {
     title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
@@ -565,6 +565,22 @@ const faqs = [
     question: "How do I pay the IRMAA surcharge?",
     answer:
       "The Part B IRMAA surcharge is deducted directly from your Social Security benefit, or billed by Medicare if you're not yet collecting Social Security. The Part D IRMAA surcharge is also typically deducted from your Social Security benefit, separate from the premium you pay to your Part D plan. You cannot pay IRMAA directly to your insurance carrier.",
+  }
+,
+  {
+    question: "How do I appeal an IRMAA determination?",
+    answer:
+      "If you've had a life-changing event that reduced your income, you can appeal IRMAA by filing form SSA-44 with the Social Security Administration. You'll need to provide documentation of the event and your estimated current-year income. SSA can also accept a request to reconsider if the IRS data used was incorrect or outdated.",
+  },
+  {
+    question: "Is IRMAA permanent once it's applied?",
+    answer:
+      "No. IRMAA is recalculated every year based on your most recent tax return on file (typically from two years prior). If your income drops below the threshold in a future year, your IRMAA surcharge will automatically be removed. You do not need to reapply each year unless you're appealing based on a life-changing event.",
+  },
+  {
+    question: "Can a licensed broker help me with IRMAA?",
+    answer:
+      "A broker cannot file your SSA-44 appeal for you — that goes directly through Social Security. However, we can help you understand how IRMAA affects your total Medicare costs, plan around it when choosing Part D or Medicare Advantage coverage, and coordinate timing of enrollment decisions. Call 855-559-1700 for free guidance.",
   }
 ];
 

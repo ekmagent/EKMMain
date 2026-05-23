@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "How to Sign Up for Medicare (2026 Guide)",
   description:
-    "2026 Medicare sign-up guide: enrollment windows, applying through SSA, and avoiding Part B late penalties. Free licensed broker help — call 855-559-1700.",
+    "2026 Medicare sign-up guide: enrollment windows, applying through SSA, and avoiding Part B late penalties. Get free licensed broker help — call 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/how-to-sign-up-for-medicare` },
   openGraph: {
     title: "How to Sign Up for Medicare (2026 Guide)",
@@ -566,6 +566,22 @@ const faqs = [
     question: "Where do I actually apply for Medicare?",
     answer:
       "You apply for Medicare through the Social Security Administration at ssa.gov/medicare, by calling Social Security, or by visiting a local SSA office. Medicare itself is administered by CMS, but enrollment is handled by Social Security. Once enrolled in Original Medicare, you can separately choose a Medicare Supplement, Part D, or Medicare Advantage plan.",
+  }
+,
+  {
+    question: "How do I sign up for Medicare if I'm not automatically enrolled?",
+    answer:
+      "You can apply online at ssa.gov/medicare, which usually takes about 10 minutes. You may also apply by calling Social Security or visiting your local SSA office. Apply up to 3 months before the month you turn 65 to ensure coverage starts on time.",
+  },
+  {
+    question: "What happens if I miss my Initial Enrollment Period for Part B?",
+    answer:
+      "If you miss your IEP and don't qualify for a Special Enrollment Period, you'll have to wait for the General Enrollment Period (January 1 – March 31) to sign up. You may also owe a permanent Part B late enrollment penalty that increases the longer you go without coverage. Call 855-559-1700 if you're unsure which window applies to you.",
+  },
+  {
+    question: "Do I need to sign up for Medicare if I have employer coverage?",
+    answer:
+      "If you or your spouse are still actively working and the employer plan is considered creditable coverage, you can usually delay Part B without penalty. Confirm creditable coverage status with your HR department before delaying enrollment. When you eventually leave that coverage, you'll have an 8-month Special Enrollment Period to sign up for Part B.",
   }
 ];
 

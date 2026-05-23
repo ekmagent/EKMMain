@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare broker for people with pre-existing conditions | Free Guidance | MedicareYourself",
   description:
-    "Medicare broker for pre-existing conditions — find lenient carriers, guaranteed issue rights & plans skipping health questions. Free help: call 855-559-1700.",
+    "Medicare broker for pre-existing conditions — find lenient carriers, guaranteed issue rights & plans that skip health questions. Free help: call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-people-with-pre-existing-conditions" },
   openGraph: {
     title:
@@ -150,6 +150,22 @@ const faqs = [
     question: "Does a Medigap plan have a waiting period for pre-existing conditions?",
     answer:
       "It can. If you enroll during your Medigap Open Enrollment Period without prior creditable coverage, a carrier may impose a look-back period before covering treatment for a pre-existing condition. Continuous creditable coverage before enrolling can reduce or eliminate that waiting period.",
+  }
+,
+  {
+    question: "What counts as a pre-existing condition for Medicare purposes?",
+    answer:
+      "A pre-existing condition is any health problem you had before applying for or enrolling in a new insurance plan. This can include chronic conditions like diabetes, heart disease, or cancer history, as well as prior injuries or surgeries. Original Medicare has covered pre-existing conditions since the program began in 1965.",
+  },
+  {
+    question: "Can a Medigap carrier impose a waiting period for pre-existing conditions?",
+    answer:
+      "In some cases, yes. Even when you have guaranteed issue rights or apply during your Medigap Open Enrollment Period, a carrier may impose a pre-existing condition waiting period of up to six months if you did not have prior creditable coverage. Creditable coverage from a previous health plan can reduce or eliminate that waiting period.",
+  },
+  {
+    question: "Why does working with a broker matter when you have a pre-existing condition?",
+    answer:
+      "Underwriting guidelines vary widely between carriers, and a condition that triggers a denial at one company may be accepted at another. A licensed broker who represents multiple carriers can match your specific health history to the carriers most likely to approve you, saving time and avoiding application denials that can sit on your record.",
   }
 ];
 
@@ -345,6 +361,7 @@ export default function MedicareBrokerPreExistingConditions() {
             <div className="text-sm text-gray-600 mt-4">Free local counseling: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">State help: <a href="https://www.state.nj.us/dobi/division_insurance/ihcseh/shipindex.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free unbiased counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
     </main>
   );

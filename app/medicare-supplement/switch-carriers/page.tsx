@@ -302,6 +302,22 @@ const faqs = [
     answer:
       "Usually yes, unless you are still in your initial 6-month Medigap Open Enrollment Period or qualify for a guaranteed issue right such as losing other coverage or moving out of a plan's service area. Carriers review prescriptions and medical history before approving. A licensed broker can pre-screen your health profile and match you with carriers most likely to accept your application.",
   }
+,
+  {
+    question: "What is a Medigap guaranteed issue right when switching carriers?",
+    answer:
+      "Guaranteed issue rights are specific situations where an insurance company must sell you a Medigap policy without medical underwriting. Common triggers include your current Medigap carrier going bankrupt, losing employer retiree coverage, or moving out of a Medicare Advantage plan's service area. In these situations you cannot be denied or charged more due to health conditions, but you typically have only 63 days to apply.",
+  },
+  {
+    question: "Will I have a waiting period for pre-existing conditions if I switch Medigap carriers?",
+    answer:
+      "If you have had your current Medigap policy for at least 6 months and you switch to a new Medigap policy with the same or fewer benefits, the new carrier generally cannot impose a new pre-existing condition waiting period. This is one reason switching between two Plan G policies is usually seamless. Always confirm with the new carrier in writing before canceling your existing plan.",
+  },
+  {
+    question: "Should I cancel my old Medigap policy before the new one starts?",
+    answer:
+      "No. You should never cancel your existing Medigap policy until the new policy is approved and the effective date is confirmed in writing. Medicare also gives you a 30-day 'free look' period on the new policy so you can review it before fully committing. Once the new plan is active and you are satisfied, contact the old carrier to cancel.",
+  }
 ];
 
 export default function SwitchCarriersPage() {
@@ -539,6 +555,7 @@ export default function SwitchCarriersPage() {
             <div className="text-sm text-gray-600 mt-4">For state-specific switching rules, see the <a href="https://www.state.nj.us/dobi/division_insurance/ihcseh/medsupp.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance — Medicare Supplement</a> resources or contact your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">SHIP counselor</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">Need state-specific help? Contact <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or your local <a href="https://www.shiphelp.org/about-medicare/regional-ship-location" rel="noopener noreferrer" target="_blank" className="underline">SHIP counselor</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">Need state-level help? Contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> or your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">SHIP counselor</a> for free Medicare counseling.</div>
       </section>
     </>
   );

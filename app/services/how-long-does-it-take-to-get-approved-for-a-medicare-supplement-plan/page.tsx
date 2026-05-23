@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "how long does it take to get approved for a medicare supplement plan | Free Timeline Guide | MedicareYourself",
   description:
-    "How long does Medicare Supplement approval take? Most applications clear in 1–3 weeks. Get a free timeline review — call 855-559-1700 today.",
+    "How long does Medigap approval take? Most applications clear in 1–3 weeks — guaranteed during open enrollment. Call 855-559-1700 for a free timeline review.",
   alternates: { canonical: "https://medicareyourself.com/services/how-long-does-it-take-to-get-approved-for-a-medicare-supplement-plan" },
   openGraph: {
     title:
@@ -287,6 +287,7 @@ export default function HowLongMedigapApproval() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">For state-specific guidance, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free, one-on-one Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> before applying.</div>
       </section>
     </main>
   );

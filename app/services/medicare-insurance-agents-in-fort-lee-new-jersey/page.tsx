@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare insurance agents in fort lee new jersey | Free Broker Help | MedicareYourself",
   description:
-    "Talk with a licensed Medicare broker in Fort Lee, NJ. Anthony Orner compares Medigap & Advantage plans across Bergen County at no cost. Call 855-559-1700.",
+    "Compare Medigap and Advantage plans in Fort Lee, NJ with licensed broker Anthony Orner. Free, no-pressure guidance for Bergen County. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-insurance-agents-in-fort-lee-new-jersey" },
   openGraph: {
     title:
@@ -105,6 +105,12 @@ const faqs = [
     question: "Do Fort Lee Medicare brokers help with prescription drug (Part D) plans?",
     answer:
       "Yes. An independent broker can compare standalone Part D prescription drug plans based on your specific medication list and preferred pharmacy. The goal is to find the plan with the lowest total annual cost, not just the lowest premium. This review should be done every year during the Annual Election Period, since drug formularies change.",
+  }
+,
+  {
+    question: "Do Fort Lee Medicare brokers help with prescription drug plans?",
+    answer:
+      "Yes. A licensed broker can run your medication list against available Part D plans and Medicare Advantage plans that include drug coverage. This helps identify which plan covers your prescriptions at the lowest total cost, including premiums, deductibles, and copays. Anthony Orner offers this comparison at no charge.",
   }
 ];
 
@@ -395,6 +401,7 @@ export default function MedicareInsuranceAgentsFortLeeNJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free local counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
       </section>
       </article>
     </>

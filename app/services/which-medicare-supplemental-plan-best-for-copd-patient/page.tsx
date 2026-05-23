@@ -192,6 +192,17 @@ const faqs = [
     answer:
       "Yes. Medigap plans like G and N cover Part A hospital coinsurance and provide an additional 365 days of hospital coverage after Medicare benefits are exhausted. For COPD patients prone to exacerbations requiring readmission, this protection is one of the most valuable features of a supplement plan.",
   }
+,
+  {
+    question: "Is Plan G or Plan N better for a COPD patient?",
+    answer:
+      "Plan G typically offers more predictable costs for COPD patients because it covers Part B excess charges and leaves only the annual Part B deductible as out-of-pocket. Plan N has lower premiums but includes copays for office and ER visits and does not cover excess charges, which can add up with frequent pulmonologist appointments. If you see specialists often or want minimal surprises, Plan G is usually the safer choice.",
+  },
+  {
+    question: "Does a Medigap plan cover COPD inhalers and prescription drugs?",
+    answer:
+      "No. Medigap (Medicare Supplement) plans do not cover prescription drugs, including inhalers, nebulizer medications, or oral COPD treatments. You'll need a standalone Medicare Part D plan to cover these medications. A broker can help you compare formularies to make sure your specific inhalers are covered at the lowest cost.",
+  }
 ];
 
 export default function WhichMedicareSupplementalPlanBestForCOPDPatient() {

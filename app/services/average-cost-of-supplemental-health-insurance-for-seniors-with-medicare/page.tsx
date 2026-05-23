@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "average cost of supplemental health insurance for seniors with medicare | Free Broker Comparison | MedicareYourself",
   description:
-    "See what Medicare supplemental insurance really costs seniors in 2026 by plan, age & state. Compare carriers free — call 855-559-1700 to lock in your best rate.",
+    "Compare 2026 Medicare supplemental insurance costs by plan, age & state. Free licensed broker comparison — call 855-559-1700 to find your lowest rate.",
   alternates: { canonical: "https://medicareyourself.com/services/average-cost-of-supplemental-health-insurance-for-seniors-with-medicare" },
   openGraph: {
     title:
@@ -385,6 +385,22 @@ const faqs = [
     answer:
       "Yes. Medigap premiums vary widely by state and even by zip code because carriers price policies based on local claims experience, competition, and state regulations. The same lettered plan with identical benefits can cost significantly more in one state than another.",
   }
+,
+  {
+    question: "Do Medigap premiums go up as I get older?",
+    answer:
+      "It depends on how the carrier prices the policy. Attained-age-rated plans increase as you age, issue-age-rated plans are based on your age at purchase, and community-rated plans charge the same regardless of age. All three types can still see annual increases due to inflation and claims experience, so the pricing method matters for long-term cost.",
+  },
+  {
+    question: "Does where I live affect what I pay for supplemental insurance?",
+    answer:
+      "Yes, premiums for the same lettered Medigap plan vary significantly by state and even by zip code. Carriers price based on local claims data, regulations, and competition. According to Medicare.gov, Medigap premiums vary widely depending on the insurance company, the plan, and where you live.",
+  },
+  {
+    question: "Can I be charged more for a Medigap plan if I have health conditions?",
+    answer:
+      "If you apply during your 6-month Medigap Open Enrollment Period or qualify for a guaranteed issue right, carriers cannot charge you more or deny coverage based on health. Outside those windows, most states allow medical underwriting, which can raise your premium or result in denial. Timing your application matters.",
+  }
 ];
 
 export default function AverageCostSupplementalInsurancePage() {
@@ -598,6 +614,7 @@ export default function AverageCostSupplementalInsurancePage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a> or contact the <a href="https://www.state.nj.us/dobi/division_insurance/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_consumers/insurance/ship.htm" rel="noopener noreferrer" target="_blank" className="text-blue-700 underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a> or contact the <a href="https://www.nj.gov/dobi/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

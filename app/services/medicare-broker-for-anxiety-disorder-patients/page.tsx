@@ -87,6 +87,22 @@ const faqs = [
     answer:
       "Yes. Medicare covers telehealth mental health visits, including therapy and psychiatric appointments conducted by video or phone. This is especially helpful if anxiety itself makes leaving home difficult or if local providers are limited.",
   },
+,
+  {
+    question: "Are anxiety medications covered under Medicare?",
+    answer:
+      "Yes. Prescription medications used to treat anxiety disorders, such as SSRIs and SNRIs, are typically covered under a Medicare Part D prescription drug plan or a Medicare Advantage plan that includes drug coverage. Each plan has its own formulary, so a broker can compare which plan covers your specific medications at the lowest cost.",
+  },
+  {
+    question: "Does Medicare cover an annual mental health screening?",
+    answer:
+      "Yes. Medicare Part B covers an annual depression screening and a yearly wellness visit that can include a review of your mental health and any cognitive concerns. These preventive visits are covered when provided by a primary care provider who accepts Medicare assignment.",
+  },
+  {
+    question: "What if my therapist doesn't accept Medicare?",
+    answer:
+      "Medicare only pays for therapy when the provider is enrolled with Medicare and accepts assignment. If your current therapist isn't enrolled, a broker can help you find in-network mental health providers under your plan or compare Medicare Advantage networks that include the specialists you need.",
+  }
 ];
 
 export default function MedicareBrokerAnxietyDisorderPatients() {
@@ -476,6 +492,7 @@ export default function MedicareBrokerAnxietyDisorderPatients() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </>
   );

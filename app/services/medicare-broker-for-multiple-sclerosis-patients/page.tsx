@@ -289,6 +289,22 @@ const faqs = [
     answer:
       "Yes. Oral disease-modifying therapies for MS, such as those taken at home in pill form, are generally covered under Medicare Part D prescription drug plans rather than Part B. Coverage, tier placement, and prior authorization rules vary by plan, so it's important to check each plan's formulary before enrolling. A broker can run your specific medications against available plans to find the lowest total cost.",
   }
+,
+  {
+    question: "Does Medicare cover MRI scans for MS monitoring?",
+    answer:
+      "Yes. Medically necessary MRI scans ordered by your doctor to monitor MS progression are covered under Medicare Part B as diagnostic imaging. You'll typically pay the Part B coinsurance after meeting the annual deductible, unless you have a Medigap plan or Medicare Advantage plan that covers those costs differently. Medicare Advantage plans often require prior authorization before approving the scan.",
+  },
+  {
+    question: "Will Medicare cover physical therapy and rehabilitation for MS?",
+    answer:
+      "Yes. Medicare Part B covers medically necessary outpatient physical therapy, occupational therapy, and speech-language pathology services when prescribed by your doctor as part of your MS care plan. There is no longer a hard cap on therapy services, but providers must document medical necessity once costs exceed an annual threshold. Home health therapy may also be covered if you meet homebound criteria.",
+  },
+  {
+    question: "What happens to my Medicare if I'm under 65 and on SSDI for MS?",
+    answer:
+      "After receiving Social Security Disability Insurance for 24 months, you're automatically enrolled in Medicare Part A and Part B. You can then choose to add a Part D plan, enroll in a Medicare Advantage plan, or in some states purchase a Medigap policy. Medigap rights for people under 65 vary by state, which is why timing and state of residence matter when planning your coverage.",
+  }
 ];
 
 export default function MedicareBrokerForMSPatients() {
@@ -515,6 +531,7 @@ export default function MedicareBrokerForMSPatients() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

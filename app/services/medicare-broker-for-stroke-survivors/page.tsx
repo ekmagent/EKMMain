@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for stroke survivors | Free Plan Review | MedicareYourself",
   description:
-    "Medicare broker for stroke survivors — find plans covering rehab, therapy, DME, and home health. Free plan review with Anthony Orner. Call 855-559-1700.",
+    "Medicare broker for stroke survivors — find plans covering rehab, therapy, DME & home health. Free plan review with Anthony Orner. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-stroke-survivors" },
   openGraph: {
     title:
@@ -193,6 +193,22 @@ const faqs = [
     question: "Will Medicare cover home health care after a stroke?",
     answer:
       "Yes. Medicare Part A and Part B can cover intermittent skilled nursing care, physical therapy, speech-language pathology, and occupational therapy at home if you are homebound and your doctor certifies the need. Home health aide services may also be covered alongside skilled care. Coverage requires care from a Medicare-certified home health agency.",
+  }
+,
+  {
+    question: "Does Medicare cover durable medical equipment like walkers or wheelchairs after a stroke?",
+    answer:
+      "Yes. Medicare Part B covers durable medical equipment (DME) such as walkers, wheelchairs, hospital beds, and canes when your doctor prescribes them as medically necessary. You typically pay the Part B coinsurance after meeting the deductible. The right Medigap or Medicare Advantage plan can reduce or eliminate that out-of-pocket cost.",
+  },
+  {
+    question: "Will Medicare cover home health care after a stroke?",
+    answer:
+      "Yes. If your doctor certifies that you are homebound and need skilled nursing or therapy services, Medicare Part A and Part B cover intermittent home health care, including physical therapy, speech-language pathology, and occupational therapy. Home health aide services may also be covered when tied to skilled care. Coverage requires care from a Medicare-certified home health agency.",
+  },
+  {
+    question: "Is a Medicare Supplement or Medicare Advantage plan better for stroke survivors?",
+    answer:
+      "It depends on your providers, budget, and recovery needs. Medicare Supplement (Medigap) plans pair with Original Medicare and offer broad provider access plus predictable out-of-pocket costs — often a strong fit for ongoing rehab and specialist care. Medicare Advantage plans may include extras like transportation or fitness benefits but use networks and prior authorization. I'll compare both based on your situation — call 855-559-1700.",
   }
 ];
 
@@ -415,6 +431,7 @@ export default function MedicareBrokerForStrokeSurvivors() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Free unbiased counseling: <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a></div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>
