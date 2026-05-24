@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "tampa medicare agent | Free Plan Comparison | MedicareYourself",
   description:
-    "Compare Medigap and Medicare Advantage plans in Tampa with licensed broker Anthony Orner. Free, no-obligation help across top FL carriers — call 855-559-1700.",
+    "Work with a licensed Tampa Medicare agent to compare Medigap and Advantage plans across top FL carriers. Free, no-obligation help — call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/tampa-medicare-agent" },
   openGraph: {
     title:
@@ -102,6 +102,22 @@ const faqs = [
     question: "Do I have to switch agents if I move to Tampa from another state?",
     answer:
       "Not necessarily. A licensed Medicare broker can continue to serve you as long as they hold a license in your new state. A permanent move out of your current plan's service area is also a Special Enrollment Period that lets you change Medicare Advantage or Part D plans.",
+  }
+,
+  {
+    question: "Can a Tampa Medicare agent help if I'm still working past 65?",
+    answer:
+      "Yes. If you have employer coverage, a licensed broker can help you decide whether to delay Part B or enroll now. We review how your group plan coordinates with Medicare and help you avoid late enrollment penalties when you do transition.",
+  },
+  {
+    question: "Will my Tampa-area doctors accept the Medicare plan I choose?",
+    answer:
+      "With Original Medicare plus a Medigap plan, you can see any provider nationwide who accepts Medicare assignment. With Medicare Advantage, networks vary by carrier, so we verify your Tampa and Hillsborough County doctors are in-network before you enroll.",
+  },
+  {
+    question: "Do I have to switch agents if I move within Florida or to another state?",
+    answer:
+      "No. Anthony Orner is licensed in Florida and over 30 other states, so you can keep the same broker if you relocate. We can also review your plan during the Annual Election Period to make sure it still fits your new ZIP code.",
   }
 ];
 
@@ -354,6 +370,7 @@ export default function TampaMedicareAgent() {
             <div className="text-sm text-gray-600 mt-4">Florida residents can also get free Medicare counseling through <a href="https://www.floridashine.org/" rel="noopener noreferrer" target="_blank" className="underline">Florida SHINE</a>, the state's official SHIP program.</div>
             <div className="text-sm text-gray-600 mt-4">Florida residents can also contact <a href="https://www.floridashine.org/" rel="noopener noreferrer" target="_blank" className="underline">Florida SHINE</a>, the state's free Medicare counseling program through the Department of Elder Affairs.</div>
             <div className="text-sm text-gray-600 mt-4">Florida residents can also contact <a href="https://www.floridashine.org/" rel="noopener noreferrer" target="_blank" className="underline">Florida SHINE</a>, the state's free Medicare counseling program.</div>
+            <div className="text-sm text-gray-600 mt-4">Florida residents can also contact <a href="https://www.floir.com/" rel="noopener noreferrer" target="_blank" className="underline">the Florida Office of Insurance Regulation</a> or the <a href="https://www.floridashine.org/" rel="noopener noreferrer" target="_blank" className="underline">Florida SHINE program</a> for free Medicare counseling.</div>
       </section>
     </main>
   );

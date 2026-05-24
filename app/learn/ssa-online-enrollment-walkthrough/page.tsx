@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title:
     "How to Enroll in Medicare Online at SSA.gov (Step-by-Step Walkthrough)",
   description:
-    "Step-by-step SSA.gov Medicare enrollment walkthrough — sign up online in about 10 minutes. Free licensed broker help available at 855-559-1700.",
+    "Step-by-step SSA.gov Medicare enrollment walkthrough — sign up online in about 10 minutes. Free licensed broker help at 855-559-1700.",
   alternates: {
     canonical: `${SITE_URL}/learn/ssa-online-enrollment-walkthrough`,
   },
@@ -688,6 +688,22 @@ const steps = [
     question: "Can I enroll in Medicare online without applying for Social Security retirement benefits?",
     answer:
       "Yes. During the application, you'll be asked whether you want to apply for Medicare only or for Medicare along with retirement benefits. Selecting Medicare only lets you sign up for Part A and/or Part B without starting your Social Security check.",
+  }
+,
+  {
+    question: "How long does the online Medicare enrollment process take?",
+    answer:
+      "Most people complete the SSA.gov online Medicare application in about 10 minutes. Having your Social Security number, driver's license, and current health insurance information ready before you begin will help speed up the process.",
+  },
+  {
+    question: "Can I sign up for Medicare without applying for Social Security retirement benefits?",
+    answer:
+      "Yes. During the application you can choose to apply for Medicare only without starting your Social Security retirement benefits. This is a common choice for people who want to delay retirement income but still enroll in Part A and Part B at age 65.",
+  },
+  {
+    question: "What happens after I submit my online Medicare application?",
+    answer:
+      "After you submit, you cannot modify the application online. The Social Security Administration will process it and mail your Medicare card, typically within a few weeks. If SSA needs additional documentation, they will contact you by mail or phone.",
   }
 ];
 

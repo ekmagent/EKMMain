@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "how much does the best medicare supplemental insurance cost per month | Free Plan-by-Plan Breakdown | MedicareYourself",
   description:
-    "Compare Medicare Supplement Plan G and Plan N monthly costs by carrier and rating method. Get a free side-by-side quote — call 855-559-1700 today.",
+    "Compare Medicare Supplement Plan G and Plan N monthly costs by carrier, age, and zip code. Get a free side-by-side quote — call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/how-much-does-the-best-medicare-supplemental-insurance-cost-per-month" },
   openGraph: {
     title:
@@ -102,6 +102,17 @@ const faqs = [
     question: "Does where I live affect how much I pay for a Medigap plan?",
     answer:
       "Yes. Medigap premiums vary significantly by zip code because carriers base rates on local claims experience, demographics, and state regulations. Two people with the same plan letter can pay very different amounts depending on their county. Comparing carrier rates in your specific area is the only way to find the true lowest price.",
+  }
+,
+  {
+    question: "Does where I live affect how much I pay for a Medigap plan?",
+    answer:
+      "Yes. Medigap premiums vary significantly by zip code because insurers price plans based on local claims experience, demographics, and state regulations. Two neighbors in different states — or even different counties — can pay very different amounts for identical Plan G coverage. That's why a personalized quote by zip code is the only way to know your true cost.",
+  },
+  {
+    question: "Will my Medigap premium go up every year?",
+    answer:
+      "Most Medigap policies use attained-age rating, meaning your premium increases as you get older, plus annual adjustments for inflation and claims experience. Community-rated and issue-age-rated policies don't increase with age but may still rise due to inflation. Reviewing your plan annually helps ensure you're not overpaying compared to other carriers offering the same benefits.",
   }
 ];
 

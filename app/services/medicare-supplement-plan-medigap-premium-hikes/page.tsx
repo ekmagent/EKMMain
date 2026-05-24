@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare supplement plan (medigap) premium hikes | Free Rate Review | MedicareYourself",
   description:
-    "Tired of yearly Medigap premium hikes? Compare carriers on the same plan letter and call 855-559-1700 for a free, no-pressure rate review.",
+    "Facing yearly Medigap premium hikes? Compare carriers on the same plan letter and call 855-559-1700 for a free, no-pressure rate review today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-supplement-plan-medigap-premium-hikes" },
   openGraph: {
     title:

@@ -159,6 +159,22 @@ const faqs = [
     answer:
       "If you qualified for Medicare solely because of ESRD, your Medicare coverage generally continues for 36 months after a successful kidney transplant. After that, coverage ends unless you qualify through age or disability. Part B can continue to cover immunosuppressive drugs under a separate benefit if you have no other coverage.",
   }
+,
+  {
+    question: "Does Medicare cover ambulance transportation to dialysis appointments?",
+    answer:
+      "Medicare Part B may cover ambulance transportation to a dialysis facility, but only when other transportation could endanger your health. Routine, non-emergency rides are generally not covered unless medical necessity is documented. A broker can help you understand what your specific plan includes.",
+  },
+  {
+    question: "Are dialysis drugs like erythropoiesis-stimulating agents covered by Medicare?",
+    answer:
+      "Yes. Medicare Part B covers certain injectable drugs used during dialysis, including erythropoiesis-stimulating agents to treat anemia related to kidney failure. Other oral medications may fall under Part D, which is why coordinating drug coverage is an important part of plan selection.",
+  },
+  {
+    question: "Can I keep my nephrologist if I switch Medicare plans?",
+    answer:
+      "It depends on the plan. Original Medicare lets you see any provider that accepts Medicare, while Medicare Advantage plans use networks that may or may not include your nephrologist and dialysis center. Confirming network status before enrolling is essential, and that's something a broker can verify with you.",
+  }
 ];
 
 export default function MedicareBrokerForDialysisPatients() {

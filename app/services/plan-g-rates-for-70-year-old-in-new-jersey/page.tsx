@@ -186,6 +186,22 @@ const faqs = [
     answer:
       "Yes. The 6-month Medigap Open Enrollment Period begins when you're 65 or older and enrolled in Part B. If you delayed Part B and are just now enrolling at 70, your one-time guaranteed-issue window opens then. Outside that window, carriers in NJ may apply medical underwriting.",
   }
+,
+  {
+    question: "Why do Plan G premiums differ between carriers if benefits are identical?",
+    answer:
+      "Every Medigap Plan G covers the exact same federally standardized benefits, regardless of which insurance company sells it. The only difference between carriers is price and customer service. That's why comparing multiple NJ carriers side by side is the single most effective way to lower your premium.",
+  },
+  {
+    question: "When is the best time to lock in Plan G as a 70-year-old in NJ?",
+    answer:
+      "The strongest protection comes during your 6-month Medigap Open Enrollment Period that begins when you're 65 and enrolled in Part B. Outside that window, most carriers in New Jersey require medical underwriting, which can affect approval. A licensed broker can review your situation and identify any guaranteed-issue rights you may qualify for.",
+  },
+  {
+    question: "Should I work with a broker or call carriers directly?",
+    answer:
+      "A licensed independent broker can quote multiple NJ carriers in one call at no cost to you—premiums are the same whether you enroll through a broker or directly. Call 855-559-1700 to compare live Plan G rates with Anthony Orner, a licensed NJ Medicare broker.",
+  }
 ];
 
 export default function PlanGRates70NJ() {
@@ -434,6 +450,7 @@ export default function PlanGRates70NJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">For free NJ counseling, visit the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey resources: <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> and the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
       </article>
     </>

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for congestive heart failure patients | Free Plan Review | MedicareYourself",
   description:
-    "Medicare broker for CHF patients — Anthony Orner finds plans that cover cardiac rehab, heart meds, specialists & hospital stays. Free review: 855-559-1700.",
+    "Medicare broker for CHF patients — Anthony Orner finds plans covering cardiac rehab, heart meds & hospital stays. Free plan review: 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-congestive-heart-failure-patients" },
   openGraph: {
     title:
@@ -226,6 +226,17 @@ const faqs = [
     question: "Does Medicare cover heart failure medications under Part D?",
     answer:
       "Yes. Medicare Part D plans cover prescription medications commonly used for congestive heart failure, including ACE inhibitors, beta-blockers, diuretics, and SGLT2 inhibitors when they're on the plan's formulary. Each plan has its own drug list and tier pricing, so the same medication can cost very differently across plans. Anthony can compare your specific drug list against available Part D and Medicare Advantage plans.",
+  }
+,
+  {
+    question: "Does Medicare cover heart failure medications under Part D?",
+    answer:
+      "Yes. Medicare Part D plans cover most prescription medications used to treat congestive heart failure, including ACE inhibitors, beta blockers, diuretics, and SGLT2 inhibitors. Coverage and copays vary by plan formulary, so it's important to compare plans against your specific drug list before enrolling.",
+  },
+  {
+    question: "Will Medicare cover an implantable device or heart procedure for CHF?",
+    answer:
+      "Medicare Part A covers inpatient hospital stays for procedures like pacemaker or defibrillator implantation, while Part B covers outpatient cardiac services and follow-up care. You'll be responsible for the Part A deductible and Part B coinsurance unless you have a Medigap or Medicare Advantage plan that reduces those costs.",
   }
 ];
 
@@ -456,6 +467,7 @@ export default function MedicareBrokerCHFPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
       </section>
     </main>
   );

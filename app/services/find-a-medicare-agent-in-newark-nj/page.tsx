@@ -103,6 +103,17 @@ const faqs = [
     answer:
       "Have your Medicare card (or your Part A/B start dates), a list of your current medications with dosages, and the names of doctors or hospitals you want to keep. That information lets me check formularies and provider networks accurately before recommending a plan.",
   }
+,
+  {
+    question: "Is there a New Jersey SHIP program I can use instead of a broker?",
+    answer:
+      "Yes. New Jersey's State Health Insurance Assistance Program (SHIP) offers free, unbiased Medicare counseling through trained volunteers. SHIP counselors don't sell plans, so they can be a good second opinion alongside working with a licensed broker who can actually enroll you in coverage.",
+  },
+  {
+    question: "Do you serve Newark neighborhoods and surrounding Essex County towns?",
+    answer:
+      "Yes. I work with Medicare beneficiaries throughout Newark — including the Ironbound, North Newark, Forest Hill, and Weequahic — as well as surrounding Essex County communities like East Orange, Bloomfield, Montclair, and Belleville. Meetings are available by phone, video, or in person depending on what works for you.",
+  }
 ];
 
 export default function FindMedicareAgentNewarkNJ() {
@@ -360,6 +371,7 @@ export default function FindMedicareAgentNewarkNJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey beneficiaries can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling from the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
       </article>
     </>

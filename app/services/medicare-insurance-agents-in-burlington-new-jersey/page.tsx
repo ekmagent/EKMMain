@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare insurance agents in burlington new jersey | Free Local Help | MedicareYourself",
   description:
-    "Compare Medigap, Medicare Advantage & Part D plans in Burlington, NJ with licensed broker Anthony Orner. Free, no-obligation help — call 855-559-1700.",
+    "Talk to a licensed Medicare broker serving Burlington, NJ. Compare Medigap, Advantage & Part D plans across carriers — free, no-obligation help. Call today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-insurance-agents-in-burlington-new-jersey" },
   openGraph: {
     title:
@@ -203,6 +203,22 @@ const faqs = [
     question: "Does Burlington County have a SHIP counselor for Medicare questions?",
     answer:
       "Yes. New Jersey's State Health Insurance Assistance Program (SHIP) offers free, unbiased Medicare counseling to residents in every county, including Burlington. SHIP counselors can answer questions about enrollment, appeals, and low-income assistance programs. You can use SHIP alongside working with an independent broker.",
+  }
+,
+  {
+    question: "Does Medicare cover prescription drugs in Burlington, NJ?",
+    answer:
+      "Original Medicare (Parts A and B) does not include routine prescription drug coverage. To get drug coverage, you can either enroll in a standalone Part D plan alongside Original Medicare and a Medigap policy, or choose a Medicare Advantage plan that includes drug coverage. A broker can compare the available Part D formularies against your current prescription list.",
+  },
+  {
+    question: "Can I switch from Medicare Advantage to Medigap later in New Jersey?",
+    answer:
+      "You can apply, but outside of your initial 6-month Medigap Open Enrollment Period or a qualifying guaranteed-issue situation, carriers in New Jersey may medical-underwrite your application. That means approval and pricing can depend on your health history. It's worth reviewing your options with a licensed broker before making the switch.",
+  },
+  {
+    question: "What's the difference between Medigap and Medicare Advantage?",
+    answer:
+      "Medigap (Medicare Supplement) works alongside Original Medicare to help cover out-of-pocket costs like coinsurance and deductibles, and lets you see any provider that accepts Medicare. Medicare Advantage replaces Original Medicare with a private plan that typically uses a provider network and often bundles in drug and extra benefits. The right fit depends on your doctors, travel habits, and budget.",
   }
 ];
 

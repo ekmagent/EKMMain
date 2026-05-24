@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for multiple sclerosis patients | Free Plan Comparison | MedicareYourself",
   description:
-    "Medicare broker for MS patients. Anthony Orner finds plans covering Ocrevus, MRIs, and your neurologist. Call 855-559-1700 for a free, no-pressure review.",
+    "Medicare broker for MS patients. Anthony Orner finds plans covering Ocrevus, MRIs & your neurologist. Call 855-559-1700 for a free, no-pressure review.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-multiple-sclerosis-patients" },
   openGraph: {
     title:
@@ -305,6 +305,12 @@ const faqs = [
     answer:
       "After receiving Social Security Disability Insurance for 24 months, you're automatically enrolled in Medicare Part A and Part B. You can then choose to add a Part D plan, enroll in a Medicare Advantage plan, or in some states purchase a Medigap policy. Medigap rights for people under 65 vary by state, which is why timing and state of residence matter when planning your coverage.",
   }
+,
+  {
+    question: "Does Medicare cover physical therapy and rehabilitation for MS?",
+    answer:
+      "Yes. Medicare Part B covers medically necessary outpatient physical therapy, occupational therapy, and speech-language pathology services when prescribed by your doctor. There is no longer a hard cap on therapy services, though your provider must document medical necessity once costs exceed an annual threshold. Inpatient rehabilitation may be covered under Part A if you meet the criteria.",
+  }
 ];
 
 export default function MedicareBrokerForMSPatients() {
@@ -532,6 +538,7 @@ export default function MedicareBrokerForMSPatients() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

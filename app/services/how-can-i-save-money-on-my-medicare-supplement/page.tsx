@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "how can i save money on my medicare supplement | Free Rate Review | MedicareYourself",
   description:
-    "Lower your Medicare Supplement premium: compare carriers, stack household discounts, and review plan letters. Free 10-minute rate review — call 855-559-1700.",
+    "How can I save money on my Medicare Supplement? Compare carriers, stack household discounts, and review plan letters. Free rate review — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/how-can-i-save-money-on-my-medicare-supplement" },
   openGraph: {
     title:
@@ -100,6 +100,12 @@ const faqs = [
     question: "Can I get help paying my Part B premium if money is tight?",
     answer:
       "Yes. Medicare Savings Programs run by your state can help pay your Part B premium and other out-of-pocket costs if you qualify based on income and resources. You can also explore Supplemental Security Income and Medicaid. Call 855-559-1700 and we'll walk through which programs you may qualify for.",
+  }
+,
+  {
+    question: "Are Medicare Supplement household discounts common?",
+    answer:
+      "Many carriers offer a household discount when two people in the same home are enrolled, and some apply the discount even if your spouse or roommate isn't on the same plan. The discount and eligibility rules vary by carrier and state. We can check which carriers offer the largest household discount in your area.",
   }
 ];
 
@@ -343,6 +349,7 @@ export default function HowCanISaveMoneyOnMyMedicareSupplement() {
             <div className="text-sm text-gray-600 mt-4">Free local counseling: contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for unbiased Medicare guidance.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Free local counseling: contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for unbiased help comparing Medigap options in your state.</div>
+            <div className="text-sm text-gray-600 mt-4">Free local help: contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a> for unbiased Medicare counseling in your state.</div>
       </section>
     </main>
   );

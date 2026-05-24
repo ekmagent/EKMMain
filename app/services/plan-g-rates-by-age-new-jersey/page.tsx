@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Plan G Rates by Age in New Jersey | 2026 Costs | MedicareYourself",
   description:
-    "Compare 2026 Plan G rates by age across New Jersey carriers. Broker Anthony Orner finds your lowest NJ premium — call 855-559-1700 for a free quote today.",
+    "Compare 2026 Plan G rates by age across New Jersey carriers. Broker Anthony Orner finds your lowest NJ premium — call 855-559-1700 for a free quote.",
   alternates: { canonical: `${SITE_URL}/services/plan-g-rates-by-age-new-jersey` },
   openGraph: {
     title: "Plan G Rates by Age in New Jersey | 2026 Costs | MedicareYourself",
@@ -141,6 +141,12 @@ const faqs = [
     question: "Can I get a household discount on Plan G in NJ?",
     answer:
       "Several New Jersey Medigap carriers offer household or spousal discounts when two people in the same home enroll, or sometimes just when another adult lives in the household. Discount amounts vary by company. Anthony Orner can check which carriers in your county currently offer this discount.",
+  }
+,
+  {
+    question: "Where can I find an official NJ Plan G rate comparison chart?",
+    answer:
+      "The New Jersey Department of Human Services, Division of Aging Services, publishes annual Medigap rate charts comparing Plan G and other plans by age and carrier. These charts are available through the NJ SHIP program. Anthony Orner can walk you through the current chart and identify the most competitive carrier for your county — call 855-559-1700.",
   }
 ];
 

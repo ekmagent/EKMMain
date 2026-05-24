@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "average cost of supplemental health insurance for seniors with medicare | Free Broker Comparison | MedicareYourself",
   description:
-    "Compare 2026 Medicare supplemental insurance costs by plan, age & state. Free licensed broker comparison — call 855-559-1700 to find your lowest rate.",
+    "Compare 2026 Medicare supplemental insurance costs by plan, age & zip code. Same benefits, different prices — call 855-559-1700 for a free broker comparison.",
   alternates: { canonical: "https://medicareyourself.com/services/average-cost-of-supplemental-health-insurance-for-seniors-with-medicare" },
   openGraph: {
     title:
@@ -401,6 +401,22 @@ const faqs = [
     answer:
       "If you apply during your 6-month Medigap Open Enrollment Period or qualify for a guaranteed issue right, carriers cannot charge you more or deny coverage based on health. Outside those windows, most states allow medical underwriting, which can raise your premium or result in denial. Timing your application matters.",
   }
+,
+  {
+    question: "What factors most affect what I'll pay for Medigap coverage?",
+    answer:
+      "Premiums are influenced by your age, gender, tobacco use, zip code, the insurance carrier's pricing method (community-rated, issue-age-rated, or attained-age-rated), and the specific lettered plan you choose. Because benefits within each lettered plan are standardized, the carrier you pick is often the biggest controllable factor. A licensed broker can compare every carrier in your zip code at once.",
+  },
+  {
+    question: "Will my Medigap premium go up every year?",
+    answer:
+      "Most Medigap policies experience annual rate increases tied to inflation, medical trend, and claims experience. Attained-age-rated policies also increase as you get older, while issue-age-rated and community-rated policies don't raise premiums based on your age alone. Reviewing your plan each year ensures you're not overpaying for identical coverage.",
+  },
+  {
+    question: "Can a broker help me find a lower rate without changing my benefits?",
+    answer:
+      "Yes. Since every carrier selling the same lettered Medigap plan must offer identical benefits, switching carriers can lower your premium without reducing coverage. A licensed broker compares pricing across multiple carriers at no cost to you. Call 855-559-1700 to run a free comparison for your zip code.",
+  }
 ];
 
 export default function AverageCostSupplementalInsurancePage() {
@@ -615,6 +631,7 @@ export default function AverageCostSupplementalInsurancePage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_consumers/insurance/ship.htm" rel="noopener noreferrer" target="_blank" className="text-blue-700 underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a> or contact the <a href="https://www.nj.gov/dobi/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

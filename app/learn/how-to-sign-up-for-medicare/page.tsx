@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "How to Sign Up for Medicare (2026 Guide)",
   description:
-    "2026 Medicare sign-up guide: enrollment windows, applying through SSA, and avoiding Part B late penalties. Get free licensed broker help — call 855-559-1700.",
+    "2026 Medicare sign-up guide: enrollment windows, applying via SSA, and how to avoid Part B late penalties. Free licensed broker help — call 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/how-to-sign-up-for-medicare` },
   openGraph: {
     title: "How to Sign Up for Medicare (2026 Guide)",
@@ -582,6 +582,22 @@ const faqs = [
     question: "Do I need to sign up for Medicare if I have employer coverage?",
     answer:
       "If you or your spouse are still actively working and the employer plan is considered creditable coverage, you can usually delay Part B without penalty. Confirm creditable coverage status with your HR department before delaying enrollment. When you eventually leave that coverage, you'll have an 8-month Special Enrollment Period to sign up for Part B.",
+  }
+,
+  {
+    question: "Can I sign up for Medicare if I'm not collecting Social Security yet?",
+    answer:
+      "Yes. If you are not already receiving Social Security benefits, you will not be automatically enrolled and must apply yourself. You can apply online at ssa.gov/medicare, by calling Social Security, or by visiting a local SSA office. The online application takes about 10 minutes.",
+  },
+  {
+    question: "What happens if I miss my Initial Enrollment Period?",
+    answer:
+      "If you miss your 7-month Initial Enrollment Period and do not have creditable employer coverage, you may have to wait for the General Enrollment Period (January 1 to March 31) to sign up for Part B. You may also owe a permanent Part B late enrollment penalty that is added to your monthly premium for as long as you have Medicare. Call 855-559-1700 if you are unsure which enrollment period applies to you.",
+  },
+  {
+    question: "Do I need to sign up for Medicare if I have employer health insurance?",
+    answer:
+      "If you or your spouse are still actively working and have group health coverage from that employer, you may be able to delay Part B without a late penalty. Most people still enroll in Part A at 65 because it is premium-free for those with enough work credits. Always confirm with your HR department that your coverage is considered creditable before delaying Part B.",
   }
 ];
 

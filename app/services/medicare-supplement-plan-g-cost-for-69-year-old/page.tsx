@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare Supplement Plan G Cost for a 69-Year-Old | Free Quote | MedicareYourself",
   description:
-    "Compare Medicare Supplement Plan G cost for a 69-year-old by carrier and pricing method. See 2026 rate factors — call 855-559-1700 for a free broker quote.",
+    "See how Medicare Supplement Plan G cost for a 69-year-old varies by carrier, ZIP, and pricing method. Call 855-559-1700 for a free broker comparison.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-supplement-plan-g-cost-for-69-year-old" },
   openGraph: {
     title:
@@ -90,6 +90,22 @@ const faqs = [
     question: "How do insurance companies price Plan G for a 69-year-old?",
     answer:
       "Carriers use one of three pricing methods: community-rated (same premium regardless of age), issue-age (based on age at enrollment), or attained-age (increases as you get older). At 69, an attained-age policy may look cheaper today but typically rises faster over time. Medicare.gov notes premiums can vary significantly between companies selling the exact same lettered plan.",
+  }
+,
+  {
+    question: "Is it cheaper to buy Plan G at 65 or 69?",
+    answer:
+      "Premiums for Medicare Supplement plans generally rise with age, so buying earlier often locks in a lower starting rate — especially with issue-age policies. However, at 69 you can still enroll, and rates from different carriers in your area can vary widely for the exact same Plan G benefits. A broker can compare carrier-by-carrier pricing so you don't overpay for identical coverage.",
+  },
+  {
+    question: "Does ZIP code affect Plan G cost at 69?",
+    answer:
+      "Yes. Medicare.gov confirms that Medigap premiums vary based on where you live, in addition to the insurance company and the plan you choose. Two 69-year-olds in different ZIP codes can see meaningfully different Plan G premiums from the same carrier. That's why personalized quotes matter more than national averages.",
+  },
+  {
+    question: "Will tobacco use change my Plan G premium at 69?",
+    answer:
+      "Most carriers charge a higher premium for tobacco users, and the surcharge varies by company. If you've quit recently, some insurers will reclassify you as a non-tobacco user after a defined period. A broker can identify which carriers in your state offer the most favorable tobacco rules for your situation.",
   }
 ];
 
@@ -319,6 +335,7 @@ export default function MedicareSupplementPlanGCostFor69YearOld() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">For state-specific Medigap rate information, visit the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">New Jersey Department of Banking and Insurance</a> or contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">local SHIP program</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </main>
   );

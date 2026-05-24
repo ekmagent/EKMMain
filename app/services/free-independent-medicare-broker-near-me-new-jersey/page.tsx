@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "free independent medicare broker near me new jersey | Free Quote | MedicareYourself",
   description:
-    "Work with a free independent Medicare broker in New Jersey. Anthony Orner compares Medigap & Advantage plans from top carriers. Call 855-559-1700 today.",
+    "Work with a free independent Medicare broker in New Jersey. Anthony Orner compares Medigap & Advantage plans from top carriers. Call 855-559-1700 for a free quote.",
   alternates: { canonical: "https://medicareyourself.com/services/free-independent-medicare-broker-near-me-new-jersey" },
   openGraph: {
     title:
@@ -149,6 +149,22 @@ const faqs = [
     question: "Does New Jersey use community rating for Medigap?",
     answer:
       "Yes. New Jersey is a community-rated state for Medicare Supplement (Medigap) plans, meaning carriers charge the same base premium regardless of your age. However, federal guaranteed-issue rights generally apply during your 6-month Medigap Open Enrollment Period that starts when you're 65 and enrolled in Part B. Outside that window, medical underwriting may apply unless you qualify for a specific guaranteed-issue situation.",
+  }
+,
+  {
+    question: "Does New Jersey use community rating for Medigap?",
+    answer:
+      "Yes. New Jersey uses community rating for Medicare Supplement plans, which means premiums are not based on your age. Everyone enrolled in the same Medigap plan with the same carrier pays the same base rate, regardless of whether they are 65 or 85.",
+  },
+  {
+    question: "When can I enroll in a Medigap plan in New Jersey?",
+    answer:
+      "The best time to enroll is during your 6-month Medigap Open Enrollment Period, which begins the month you are 65 or older and enrolled in Part B. During this window, you have guaranteed issue rights and cannot be denied coverage or charged more due to health conditions. Outside this window, medical underwriting may apply unless you qualify for another guaranteed issue situation.",
+  },
+  {
+    question: "What does an independent Medicare broker cost in New Jersey?",
+    answer:
+      "Nothing. Independent brokers are compensated directly by the insurance carriers when a plan is issued. Your premium is identical whether you enroll on your own or work with a licensed broker like Anthony Orner.",
   }
 ];
 
@@ -343,6 +359,7 @@ export default function FreeIndependentMedicareBrokerNearMeNewJersey() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-2">New Jersey resource: <a href="https://www.state.nj.us/dobi/division_insurance/ihcseh/aboutship.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-700 underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey resources: <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> · <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
       </section>
     </main>
   );

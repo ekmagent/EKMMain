@@ -582,6 +582,22 @@ const faqs = [
     answer:
       "A broker cannot file your SSA-44 appeal for you — that goes directly through Social Security. However, we can help you understand how IRMAA affects your total Medicare costs, plan around it when choosing Part D or Medicare Advantage coverage, and coordinate timing of enrollment decisions. Call 855-559-1700 for free guidance.",
   }
+,
+  {
+    question: "How do I appeal an IRMAA determination if my income has dropped?",
+    answer:
+      "If you've experienced a life-changing event such as retirement, divorce, or the death of a spouse, you can request a reduction by filing Form SSA-44 with the Social Security Administration. Submit the form along with documentation of the event and your reduced income. SSA reviews each request individually and will notify you of their decision in writing.",
+  },
+  {
+    question: "Will IRMAA apply every year once I trigger it?",
+    answer:
+      "Not necessarily. IRMAA is recalculated each year based on your tax return from two years prior. If your income drops below the threshold in a future year, your IRMAA surcharge will automatically end the following adjustment cycle without needing to appeal.",
+  },
+  {
+    question: "Can I avoid IRMAA through tax planning before enrolling in Medicare?",
+    answer:
+      "Yes, proactive planning can help. Strategies such as Roth conversions earlier in life, managing capital gains, and timing required minimum distributions can keep your MAGI below IRMAA thresholds. Consult a tax professional, since IRMAA looks back two years at your reported income.",
+  }
 ];
 
 export default function IrmaaPage() {

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare insurance agents in camden new jersey | Free Quotes | MedicareYourself",
   description:
-    "Talk to a licensed Medicare agent in Camden, NJ. Anthony Orner compares Medigap & Advantage plans from top carriers. Free quote — call 855-559-1700.",
+    "Compare Medicare plans with a licensed Camden, NJ broker. Anthony Orner reviews Medigap & Advantage options from top carriers. Free quote — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-insurance-agents-in-camden-new-jersey" },
   openGraph: {
     title:

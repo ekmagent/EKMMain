@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for Parkinson's patients | Free Plan Review | MedicareYourself",
   description:
-    "Medicare broker for Parkinson's patients — compare Part D, DBS coverage & specialist access. Free plan review with Anthony Orner. Call 855-559-1700 today.",
+    "Medicare broker for Parkinson's patients — compare Part D, DBS coverage, and specialist access. Free plan review with Anthony Orner. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-parkinsons-patients" },
   openGraph: {
     title:
@@ -122,6 +122,22 @@ const faqs = [
     question: "Will Medicare cover a movement disorder specialist outside my local area?",
     answer:
       "Under Original Medicare, you can see any neurologist or movement disorder specialist nationwide who accepts Medicare assignment. Under Medicare Advantage, coverage is usually limited to the plan's network, and out-of-area specialists may require referrals or be considered out-of-network. This is a key reason many Parkinson's patients prefer Original Medicare plus a Supplement.",
+  }
+,
+  {
+    question: "Will Medicare cover a neurologist who specializes in movement disorders?",
+    answer:
+      "Yes. Original Medicare lets you see any neurologist who accepts Medicare, with no referral required. Medicare Advantage plans usually restrict you to in-network specialists and may require a referral from your primary care doctor. If you have a movement disorder specialist you want to keep, I verify network status before recommending any plan.",
+  },
+  {
+    question: "Is a Medicare Supplement or Medicare Advantage plan better for someone with Parkinson's?",
+    answer:
+      "For many Parkinson's patients, a Medicare Supplement plan paired with a standalone Part D drug plan offers more predictable costs and broader specialist access, since there are no networks under Original Medicare. Advantage plans can have lower upfront premiums but may require prior authorization for therapies, DBS, and imaging. The right choice depends on your medications, doctors, and budget — I review both sides with you.",
+  },
+  {
+    question: "Can I switch Medicare plans if my Parkinson's symptoms change?",
+    answer:
+      "Yes. During the Annual Enrollment Period each fall, you can change Part D plans or switch between Original Medicare and Advantage. Some patients also qualify for Special Enrollment Periods after a diagnosis change, move, or loss of other coverage. I reach out every year to make sure your plan still fits your current medications and care team.",
   }
 ];
 
@@ -384,6 +400,7 @@ export default function MedicareBrokerForParkinsonsPatients() {
             <div className="text-sm text-gray-600 mt-4">Need local help? Contact <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">your State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling — or call 855-559-1700 to review your options with Anthony.</div>
             <div className="text-sm text-gray-600 mt-4">Need local help? Contact <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">your State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">Free unbiased counseling: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
     </main>
   );

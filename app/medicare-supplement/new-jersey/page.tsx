@@ -114,6 +114,22 @@ const planData = [
     answer:
       "Outside the 6-month Medigap Open Enrollment Period, carriers in New Jersey can generally use medical underwriting and may decline coverage or charge more based on your health history. Limited guaranteed-issue rights still apply in specific situations, such as losing other creditable coverage or moving out of a plan's service area. It is best to apply during your initial 6-month window to lock in coverage without health questions.",
   }
+,
+  {
+    question: "Is Medicare Supplement coverage in New Jersey community-rated?",
+    answer:
+      "New Jersey Medigap plans are generally community-rated, meaning premiums are based on the geographic area rather than your individual age. This can make Medigap more affordable for older enrollees compared to age-rated states. Rates still vary by carrier, so comparing options is important.",
+  },
+  {
+    question: "Can I switch Medicare Supplement plans in New Jersey after my Open Enrollment Period?",
+    answer:
+      "Yes, you can apply to switch Medigap plans in New Jersey at any time, but outside your 6-month Medigap Open Enrollment Period or a guaranteed-issue situation, carriers can use medical underwriting. That means you may be denied or charged more based on health. Call 855-559-1700 to review whether switching makes sense for your situation.",
+  },
+  {
+    question: "Do Medicare Supplement plans in New Jersey cover prescription drugs?",
+    answer:
+      "No. Medicare Supplement plans sold today do not include prescription drug coverage. To cover medications, you'll need to enroll in a separate standalone Medicare Part D plan alongside your Medigap policy.",
+  }
 ];
 
 export default function NJMedicareSupplementPage() {

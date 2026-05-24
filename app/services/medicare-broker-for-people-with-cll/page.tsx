@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare broker for people with CLL | Free Consult | MedicareYourself",
   description:
-    "Medicare broker for people with CLL — guidance on Medigap underwriting, Part D oral cancer drugs, and specialist access. Call 855-559-1700 for free help.",
+    "Medicare broker for people with CLL — guidance on Medigap underwriting, Part D oral cancer drugs, and specialist access. Call 855-559-1700 for free help today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-people-with-cll" },
   openGraph: {
     title:
@@ -195,6 +195,22 @@ const faqs = [
     question: "Does Medicare Part D cover oral CLL medications like BTK inhibitors?",
     answer:
       "Yes. Oral targeted therapies for CLL, including BTK inhibitors and BCL-2 inhibitors, are generally covered under Medicare Part D prescription drug plans. However, these specialty drugs typically sit on the highest formulary tier, which can mean significant coinsurance. Choosing a Part D plan that covers your specific medication on the best tier is critical — call 855-559-1700 for help comparing formularies.",
+  }
+,
+  {
+    question: "Does Medicare Part D cover oral CLL medications like BTK inhibitors?",
+    answer:
+      "Yes. Oral targeted therapies for CLL, including BTK inhibitors and BCL-2 inhibitors, are typically covered under Medicare Part D prescription drug plans. However, formularies vary by plan, and these specialty drugs often fall in the highest tier. Comparing Part D plans annually during the Annual Enrollment Period is essential to make sure your specific medications stay covered affordably.",
+  },
+  {
+    question: "Can I switch from Medicare Advantage to Original Medicare after a CLL diagnosis?",
+    answer:
+      "You can switch during the Annual Enrollment Period or the Medicare Advantage Open Enrollment Period, but securing a Medigap plan afterward may require medical underwriting in most states. A CLL diagnosis could lead to a Medigap denial outside of guaranteed issue windows. Call 855-559-1700 before switching so we can review your state's rules and timing.",
+  },
+  {
+    question: "Will Medicare cover clinical trials for CLL?",
+    answer:
+      "Yes. Medicare covers routine costs of qualifying clinical trials, including doctor visits, lab work, and standard care items that would be covered outside the trial. The investigational drug itself is usually paid for by the trial sponsor. Talk with your oncologist and your Medicare broker to confirm coverage before enrolling.",
   }
 ];
 

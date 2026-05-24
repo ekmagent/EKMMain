@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "best medicare insurance brokers near me | Free Quote, No Cost | MedicareYourself",
   description:
-    "Find the best Medicare insurance broker near you. Anthony Orner compares every major carrier at no cost. Call 855-559-1700 for your free quote today.",
+    "Find the best Medicare insurance broker near you. Anthony Orner compares every major carrier at no cost. Call 855-559-1700 for a free quote today.",
   alternates: { canonical: "https://medicareyourself.com/services/best-medicare-insurance-brokers-near-me" },
   openGraph: {
     title:

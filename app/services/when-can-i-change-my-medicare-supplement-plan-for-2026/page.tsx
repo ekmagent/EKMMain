@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "when can i change my medicare supplement plan for 2026 | Free Switching Help | MedicareYourself",
   description:
-    "Wondering when you can change your Medicare Supplement plan for 2026? Learn switch rules, guaranteed-issue rights & underwriting. Call 855-559-1700.",
+    "Change your Medicare Supplement plan for 2026? Learn switch rules, guaranteed-issue rights & underwriting. Free broker help — call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/when-can-i-change-my-medicare-supplement-plan-for-2026" },
   openGraph: {
     title:
@@ -256,6 +256,22 @@ const faqs = [
     answer:
       "You can apply at any time, but outside your initial Medigap Open Enrollment Period or a guaranteed-issue situation, the new carrier can use medical underwriting to review your health history. Conditions like diabetes, heart disease, or recent surgeries may lead to higher rates or denial. A licensed broker can pre-screen your health questions across carriers before you formally apply.",
   }
+,
+  {
+    question: "Will I need medical underwriting to change my Medigap plan in 2026?",
+    answer:
+      "Outside your initial 6-month Medigap Open Enrollment Period or a federal guaranteed-issue situation, most carriers require medical underwriting to switch plans. That means the new carrier can ask health questions and may decline your application or charge a higher rate. A few states have their own rules that limit or eliminate underwriting, so the answer depends on where you live.",
+  },
+  {
+    question: "If I switch Medigap carriers, when does my new coverage start?",
+    answer:
+      "Once your application is approved, you and the new carrier set a coverage effective date — usually the first of an upcoming month. It's important to keep your existing Medigap policy active until the new one takes effect to avoid a gap in coverage. A licensed broker can help coordinate the switch so you're never uninsured during the transition.",
+  },
+  {
+    question: "Should I review my Medigap plan every year even if I can't easily switch?",
+    answer:
+      "Yes. Even though Medigap doesn't have an annual enrollment period, premiums change every year and your current plan may no longer be the most competitive option. A yearly review helps you see whether switching is worth pursuing through underwriting. Call 855-559-1700 for a free comparison with no obligation.",
+  }
 ];
 
 export default function WhenCanIChangeMyMedicareSupplementPlanFor2026() {
@@ -464,6 +480,7 @@ export default function WhenCanIChangeMyMedicareSupplementPlanFor2026() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> before switching Medigap plans.</div>
             <div className="text-sm text-gray-600 mt-4">For state-specific Medigap switching rules, contact the <a href="https://www.state.nj.us/dobi/division_insurance/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> or your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );
