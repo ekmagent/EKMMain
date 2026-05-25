@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for high cholesterol patients | Free Plan Comparison | MedicareYourself",
   description:
-    "Medicare broker for high cholesterol patients in NJ. Anthony Orner finds plans covering statins, labs, and cardiology visits. Free consultation.",
+    "Compare Medicare plans for high cholesterol patients in NJ. Anthony Orner helps find coverage for statins, lipid panels & cardiology. Free help — call today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-high-cholesterol-patients" },
   openGraph: {
     title:

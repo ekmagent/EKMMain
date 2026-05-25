@@ -114,6 +114,22 @@ const faqs = [
     answer:
       "Most Medigap policies use attained-age rating, meaning your premium increases as you get older, plus annual adjustments for inflation and claims experience. Community-rated and issue-age-rated policies don't increase with age but may still rise due to inflation. Reviewing your plan annually helps ensure you're not overpaying compared to other carriers offering the same benefits.",
   }
+,
+  {
+    question: "Does where I live affect how much I pay for a Medigap plan?",
+    answer:
+      "Yes. Medigap premiums vary significantly by zip code because carriers factor in local healthcare costs, claims history, and state regulations. Two neighbors in different states — or even different counties — can pay very different rates for the exact same plan letter. Always compare quotes specific to your address before enrolling.",
+  },
+  {
+    question: "Can my Medigap premium go up after I enroll?",
+    answer:
+      "Yes. Most Medigap policies use attained-age pricing, meaning your premium increases as you get older. Carriers can also raise rates across an entire block of policyholders due to inflation and claims experience. Choosing a financially stable carrier with a history of modest increases helps protect your long-term budget.",
+  },
+  {
+    question: "How do I get an accurate quote for my situation?",
+    answer:
+      "The most accurate way is to compare quotes from multiple carriers using your actual age, zip code, gender, and tobacco status. As a licensed broker representing many top-rated carriers, I can run a side-by-side comparison in minutes at no cost. Call 855-559-1700 to get your personalized rates.",
+  }
 ];
 
 export default function HowMuchDoesBestMedicareSupplementalInsuranceCostPerMonth() {

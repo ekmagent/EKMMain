@@ -114,6 +114,22 @@ const faqs = [
     answer:
       "Yes. I work with Medicare beneficiaries throughout Newark — including the Ironbound, North Newark, Forest Hill, and Weequahic — as well as surrounding Essex County communities like East Orange, Bloomfield, Montclair, and Belleville. Meetings are available by phone, video, or in person depending on what works for you.",
   }
+,
+  {
+    question: "Do I need to live in Newark to work with you?",
+    answer:
+      "No. I'm licensed in New Jersey and 34 other states, so I help clients throughout Essex County and beyond. Most consultations happen by phone or video, though I can coordinate in-person meetings for Newark-area residents when helpful.",
+  },
+  {
+    question: "What should I bring to my first Medicare consultation?",
+    answer:
+      "Have your Medicare card (or your Part A/Part B effective dates), a list of your current medications with dosages, and the names of doctors or hospitals you want to keep. That lets me check formularies and provider networks before recommending a plan.",
+  },
+  {
+    question: "Will a Medicare agent try to switch me out of a plan I like?",
+    answer:
+      "No. If your current coverage still fits your doctors, medications, and budget, I'll tell you to keep it. My job is to compare your options honestly, not to push a change for the sake of a commission.",
+  }
 ];
 
 export default function FindMedicareAgentNewarkNJ() {

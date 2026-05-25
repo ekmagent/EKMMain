@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title:
     "How to Enroll in Medicare Online at SSA.gov (Step-by-Step Walkthrough)",
   description:
-    "Step-by-step SSA.gov Medicare enrollment walkthrough — sign up online in about 10 minutes. Free licensed broker help at 855-559-1700.",
+    "Step-by-step SSA.gov Medicare enrollment walkthrough — apply online in about 10 minutes. Call 855-559-1700 for free licensed broker help choosing coverage.",
   alternates: {
     canonical: `${SITE_URL}/learn/ssa-online-enrollment-walkthrough`,
   },
@@ -704,6 +704,22 @@ const steps = [
     question: "What happens after I submit my online Medicare application?",
     answer:
       "After you submit, you cannot modify the application online. The Social Security Administration will process it and mail your Medicare card, typically within a few weeks. If SSA needs additional documentation, they will contact you by mail or phone.",
+  }
+,
+  {
+    question: "How long does the SSA online Medicare application take?",
+    answer:
+      "Most people complete the SSA.gov Medicare application in about 10 minutes. Having your Social Security number, driver's license, and any current health insurance details ready before you start will help you finish without interruptions.",
+  },
+  {
+    question: "Can I apply for Medicare online without also applying for Social Security retirement benefits?",
+    answer:
+      "Yes. The SSA online application includes a question asking whether you want to apply for Medicare only without starting retirement benefits. Selecting that option lets you enroll in Part A and Part B while delaying your Social Security retirement claim.",
+  },
+  {
+    question: "What happens after I submit my Medicare application on SSA.gov?",
+    answer:
+      "After you submit, you cannot modify the application online. Social Security will review your information and may contact you if anything else is needed. Once approved, you'll receive your red, white, and blue Medicare card in the mail with your effective dates for Part A and Part B.",
   }
 ];
 

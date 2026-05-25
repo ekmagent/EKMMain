@@ -311,6 +311,12 @@ const faqs = [
     answer:
       "Yes. Medicare Part B covers medically necessary outpatient physical therapy, occupational therapy, and speech-language pathology services when prescribed by your doctor. There is no longer a hard cap on therapy services, though your provider must document medical necessity once costs exceed an annual threshold. Inpatient rehabilitation may be covered under Part A if you meet the criteria.",
   }
+,
+  {
+    question: "How long is the Medicare waiting period if I have MS and qualify through disability?",
+    answer:
+      "If you qualify for Medicare through Social Security Disability Insurance because of MS, there's a 24-month waiting period from when your SSDI cash benefits begin before Medicare coverage starts. Unlike ALS or ESRD, MS does not waive this waiting period. Once it ends, you're automatically enrolled in Part A and Part B.",
+  }
 ];
 
 export default function MedicareBrokerForMSPatients() {
@@ -539,6 +545,7 @@ export default function MedicareBrokerForMSPatients() {
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">For state-specific help, contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
       </section>
       </article>
     </>

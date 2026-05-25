@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
   description:
-    "How 2026 Medicare IRMAA surcharges work — income brackets for Part B & D, plus how to appeal with SSA-44. Free broker help: call 855-559-1700 today.",
+    "Understand 2026 Medicare IRMAA surcharges on Part B & D, income brackets, and how to appeal with SSA-44. Free broker guidance — call 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/irmaa-medicare-surcharge` },
   openGraph: {
     title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
@@ -597,6 +597,22 @@ const faqs = [
     question: "Can I avoid IRMAA through tax planning before enrolling in Medicare?",
     answer:
       "Yes, proactive planning can help. Strategies such as Roth conversions earlier in life, managing capital gains, and timing required minimum distributions can keep your MAGI below IRMAA thresholds. Consult a tax professional, since IRMAA looks back two years at your reported income.",
+  }
+,
+  {
+    question: "How do I appeal an IRMAA determination if my income has dropped?",
+    answer:
+      "If you've experienced a life-changing event such as retirement, divorce, or the death of a spouse, you can file Form SSA-44 with the Social Security Administration to request a reduction. You'll need documentation of the event and an estimate of your current year's income. SSA reviews appeals case by case and can adjust your surcharge for the current year. Call 855-559-1700 if you'd like help understanding the process.",
+  },
+  {
+    question: "Does IRMAA reset each year?",
+    answer:
+      "Yes. Social Security re-evaluates IRMAA every year using your most recent available tax return, which is typically from two years prior. If your income drops below the threshold, your surcharge goes away automatically the following year. There is no need to reapply once your income returns to a lower bracket.",
+  },
+  {
+    question: "Can I avoid IRMAA with Medicare Advantage instead of Original Medicare?",
+    answer:
+      "No. IRMAA applies to your Part B and Part D premiums regardless of whether you choose Original Medicare or Medicare Advantage. Even if your Medicare Advantage plan has a $0 premium, you still owe the standard Part B premium plus any IRMAA surcharge. Switching plan types does not change how the income surcharge is calculated.",
   }
 ];
 

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare part d insurance brokers 18517 | Free Plan Comparison | MedicareYourself",
   description:
-    "Compare every Medicare Part D drug plan available in 18517 with licensed broker Anthony Orner. Free, unbiased Rx cost reviews — call 855-559-1700.",
+    "Compare every Medicare Part D drug plan in 18517 with licensed broker Anthony Orner. Free, unbiased Rx cost reviews — call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-part-d-insurance-brokers-18517" },
   openGraph: {
     title:
@@ -102,6 +102,22 @@ const faqs = [
     question: "What's the difference between a standalone Part D plan and Medicare Advantage drug coverage?",
     answer:
       "A standalone Part D plan adds prescription coverage to Original Medicare or a Medicare Supplement. A Medicare Advantage plan with drug coverage (MAPD) bundles medical and prescription benefits into one plan. You generally cannot have both a standalone Part D plan and an MAPD at the same time, so a broker can help you weigh which structure fits your situation.",
+  }
+,
+  {
+    question: "What does Medicare Part D actually cover in 18517?",
+    answer:
+      "Medicare Part D covers outpatient prescription drugs through private insurance plans approved by Medicare. Each plan has its own formulary — the list of covered medications — along with preferred pharmacies and tiered copay structures. Coverage standards are set by CMS, but the specific drugs, costs, and pharmacy networks vary by plan in your zip code.",
+  },
+  {
+    question: "Can I get help paying for Part D if I have limited income?",
+    answer:
+      "Yes. The Extra Help program (also called the Low-Income Subsidy) can significantly reduce or eliminate your Part D premium, deductible, and copays. Eligibility is based on income and resources, and you can apply through Social Security or your state Medicaid office. A broker can help you determine if you qualify and complete the application.",
+  },
+  {
+    question: "Should I choose a standalone Part D plan or a Medicare Advantage plan with drug coverage?",
+    answer:
+      "It depends on how you want the rest of your Medicare benefits structured. Standalone Part D pairs with Original Medicare and a Medigap policy, while Medicare Advantage plans often bundle drug coverage with medical benefits. A broker reviews your prescriptions, doctors, and budget to recommend the structure that fits your situation.",
   }
 ];
 
@@ -329,6 +345,7 @@ export default function MedicarePartDBrokers18517() {
             <div className="text-sm text-gray-600 mt-4">Free local counseling: <a href="https://www.pa.gov/agencies/aging/programs-and-services/health-and-wellness/apprise-health-insurance-counseling.html" rel="noopener noreferrer" target="_blank" className="underline">Pennsylvania APPRISE SHIP Program</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Pennsylvania residents in 18517 can also contact <a href="https://www.aging.pa.gov/aging-services/insurance/Pages/default.aspx" rel="noopener noreferrer" target="_blank" className="underline">PA APPRISE</a>, the state's free SHIP Medicare counseling program.</div>
             <div className="text-sm text-gray-600 mt-4">Pennsylvania residents in 18517 can get free local counseling from <a href="https://www.aging.pa.gov/aging-services/pages/apprise.aspx" rel="noopener noreferrer" target="_blank" className="underline">APPRISE, the PA State Health Insurance Assistance Program</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">Pennsylvania residents in 18517 can also contact <a href="https://www.aging.pa.gov/aging-services/Pages/APPRISE.aspx" rel="noopener noreferrer" target="_blank" className="underline">PA APPRISE (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </>
   );

@@ -238,6 +238,22 @@ const faqs = [
     answer:
       "Medicare Part A covers inpatient hospital stays for procedures like pacemaker or defibrillator implantation, while Part B covers outpatient cardiac services and follow-up care. You'll be responsible for the Part A deductible and Part B coinsurance unless you have a Medigap or Medicare Advantage plan that reduces those costs.",
   }
+,
+  {
+    question: "Does Medicare cover the implantable devices sometimes used for heart failure?",
+    answer:
+      "Yes. Medicare covers implantable cardioverter defibrillators (ICDs) and cardiac resynchronization therapy devices when they're medically necessary and you meet specific clinical criteria. Part A covers the inpatient procedure, while follow-up monitoring may fall under Part B. Your out-of-pocket cost depends on whether you have a Medigap plan or Medicare Advantage.",
+  },
+  {
+    question: "Will Medicare pay for home health visits to monitor my heart failure?",
+    answer:
+      "Medicare Part A and Part B cover intermittent skilled nursing care and home health services when you're homebound and your doctor certifies you need them. This can include weight monitoring, medication management, and education to help prevent CHF hospital readmissions. There's no coinsurance for covered home health visits under Original Medicare.",
+  },
+  {
+    question: "Are heart failure medications like Entresto or SGLT2 inhibitors covered under Part D?",
+    answer:
+      "Most heart failure medications are covered under Medicare Part D or the drug benefit built into a Medicare Advantage plan, but coverage tiers, prior authorization, and step therapy rules vary by plan. A formulary review before enrollment can prevent surprise costs at the pharmacy. Anthony can compare your exact medication list against available plans in your county.",
+  }
 ];
 
 export default function MedicareBrokerCHFPage() {
@@ -468,6 +484,7 @@ export default function MedicareBrokerCHFPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </main>
   );

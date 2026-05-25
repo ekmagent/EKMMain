@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "tampa medicare agent | Free Plan Comparison | MedicareYourself",
   description:
-    "Work with a licensed Tampa Medicare agent to compare Medigap and Advantage plans across top FL carriers. Free, no-obligation help — call 855-559-1700 today.",
+    "Compare Medigap and Medicare Advantage plans with a licensed Tampa Medicare agent. Free, no-obligation help across top FL carriers — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/tampa-medicare-agent" },
   openGraph: {
     title:
@@ -118,6 +118,17 @@ const faqs = [
     question: "Do I have to switch agents if I move within Florida or to another state?",
     answer:
       "No. Anthony Orner is licensed in Florida and over 30 other states, so you can keep the same broker if you relocate. We can also review your plan during the Annual Election Period to make sure it still fits your new ZIP code.",
+  }
+,
+  {
+    question: "Do I need to live in Tampa to work with a Florida-licensed Medicare broker?",
+    answer:
+      "You need to reside in a state where the broker holds an active license. Anthony Orner is licensed in Florida and 33 additional states, so Tampa-area residents in Hillsborough County and surrounding communities can work with him directly by phone, email, or video.",
+  },
+  {
+    question: "Will switching Medicare Advantage plans in Tampa affect my doctors?",
+    answer:
+      "It can. Medicare Advantage plans use carrier-specific provider networks, so a new plan may or may not include your current Tampa-area doctors and hospitals. A broker can verify your providers against each plan's network before you make a change.",
   }
 ];
 
@@ -371,6 +382,7 @@ export default function TampaMedicareAgent() {
             <div className="text-sm text-gray-600 mt-4">Florida residents can also contact <a href="https://www.floridashine.org/" rel="noopener noreferrer" target="_blank" className="underline">Florida SHINE</a>, the state's free Medicare counseling program through the Department of Elder Affairs.</div>
             <div className="text-sm text-gray-600 mt-4">Florida residents can also contact <a href="https://www.floridashine.org/" rel="noopener noreferrer" target="_blank" className="underline">Florida SHINE</a>, the state's free Medicare counseling program.</div>
             <div className="text-sm text-gray-600 mt-4">Florida residents can also contact <a href="https://www.floir.com/" rel="noopener noreferrer" target="_blank" className="underline">the Florida Office of Insurance Regulation</a> or the <a href="https://www.floridashine.org/" rel="noopener noreferrer" target="_blank" className="underline">Florida SHINE program</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">Florida residents can also contact <a href="https://www.floridashine.org/" rel="noopener noreferrer" target="_blank" className="underline">SHINE (Florida's SHIP program)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </main>
   );

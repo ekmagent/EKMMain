@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "find a medicare agent in montclair nj | Free Local Help | MedicareYourself",
   description:
-    "Find a Medicare agent in Montclair, NJ. Independent broker Anthony Orner compares top carriers in Essex County. Call 855-559-1700 for a free plan review.",
+    "Find a Medicare agent in Montclair, NJ. Independent broker Anthony Orner compares top carriers in Essex County — free plan review. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/find-a-medicare-agent-in-montclair-nj" },
   openGraph: {
     title:
@@ -165,6 +165,22 @@ const faqs = [
     question: "When can I switch Medicare plans with a Montclair agent?",
     answer:
       "Most plan changes happen during the Annual Enrollment Period from October 15 to December 7, or the Medicare Advantage Open Enrollment Period from January 1 to March 31. You may also qualify for a Special Enrollment Period if you move, lose other coverage, or experience certain life events. A broker can confirm which window applies to your situation.",
+  }
+,
+  {
+    question: "When can I enroll in Medicare with an agent in Montclair?",
+    answer:
+      "You can enroll during your Initial Enrollment Period, which spans the seven months around your 65th birthday. The Annual Election Period runs October 15 to December 7 each year for Medicare Advantage and Part D changes. The Medicare Advantage Open Enrollment Period runs January 1 to March 31. An independent broker can confirm which window applies to your situation.",
+  },
+  {
+    question: "Does New Jersey have a free Medicare counseling program?",
+    answer:
+      "Yes. New Jersey's State Health Insurance Assistance Program (SHIP) offers free, unbiased Medicare counseling to beneficiaries and their families. SHIP counselors can answer general questions but do not sell plans. An independent broker like Anthony Orner can complement SHIP guidance by comparing specific carrier options available in Essex County.",
+  },
+  {
+    question: "Can a Medicare agent help with prescription drug coverage?",
+    answer:
+      "Yes. An independent broker can run your medication list through carrier formularies to compare Part D plans or Medicare Advantage plans that include drug coverage. This helps identify which plan covers your prescriptions at the lowest total cost. Reviewing drug coverage annually during the Annual Election Period is recommended since formularies change each year.",
   }
 ];
 
@@ -458,6 +474,7 @@ export default function FindMedicareAgentMontclairNJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> offers free Medicare counseling for Essex County residents.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey resource: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> — free, unbiased Medicare counseling for New Jersey residents.</div>
       </section>
       </article>
     </>

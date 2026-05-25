@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for lupus patients | Free Coverage Review | MedicareYourself",
   description:
-    "Medicare broker for lupus patients in NJ. Anthony Orner finds plans covering biologics, labs & rheumatology. Call 855-559-1700 for a free coverage review.",
+    "Medicare broker for lupus patients in NJ. Anthony Orner helps match plans covering biologics, labs & rheumatology. Call 855-559-1700 for a free review.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-lupus-patients" },
   openGraph: {
     title:

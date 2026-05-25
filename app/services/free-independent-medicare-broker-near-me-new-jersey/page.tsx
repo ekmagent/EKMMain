@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "free independent medicare broker near me new jersey | Free Quote | MedicareYourself",
   description:
-    "Work with a free independent Medicare broker in New Jersey. Anthony Orner compares Medigap & Advantage plans from top carriers. Call 855-559-1700 for a free quote.",
+    "Work with a free independent Medicare broker in New Jersey. Anthony Orner compares Medigap & Advantage plans from top carriers. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/free-independent-medicare-broker-near-me-new-jersey" },
   openGraph: {
     title:
@@ -165,6 +165,12 @@ const faqs = [
     question: "What does an independent Medicare broker cost in New Jersey?",
     answer:
       "Nothing. Independent brokers are compensated directly by the insurance carriers when a plan is issued. Your premium is identical whether you enroll on your own or work with a licensed broker like Anthony Orner.",
+  }
+,
+  {
+    question: "Does it cost more to use an independent Medicare broker in New Jersey?",
+    answer:
+      "No. The premium you pay is set by the insurance carrier and filed with the state, so it is identical whether you enroll directly or through an independent broker. Brokers are compensated by the carriers, not by you. You get personalized plan comparisons at no additional cost.",
   }
 ];
 

@@ -116,6 +116,12 @@ const faqs = [
     answer:
       "In many cases, yes — but it depends on the plan type. With Original Medicare plus a Medigap policy, you can see any provider nationwide that accepts Medicare. With a Medicare Advantage plan, your agent will verify your doctors are in the plan's network before you enroll.",
   }
+,
+  {
+    question: "Do independent Medicare agents in Albuquerque know the local New Mexico provider networks?",
+    answer:
+      "Yes. Local independent agents stay current on which Medicare Advantage and Part D plans contract with Albuquerque-area hospitals, clinics, and pharmacies. That local knowledge helps you avoid enrolling in a plan that excludes your preferred doctors at Presbyterian, UNM Health, or Lovelace facilities. Call 855-559-1700 to review your providers before you enroll.",
+  }
 ];
 
 export default function IndependentMedicareAgentsABQNM() {
@@ -300,6 +306,7 @@ export default function IndependentMedicareAgentsABQNM() {
             <div className="text-sm text-gray-600 mt-4">Official Medicare resources: <a href="https://www.medicare.gov/plan-compare" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">Medicare Plan Finder on Medicare.gov</a> and <a href="https://www.medicare.gov/talk-to-someone" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">Talk to Someone at Medicare.gov</a>. For New Mexico-specific help, contact <a href="https://www.benefits.nm.gov/SHIP.aspx" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">New Mexico SHIP (Senior Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Mexico residents can also get free, unbiased counseling from <a href="https://www.benefitsmycare.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">New Mexico SHIP (Benefits My Care)</a> or contact the <a href="https://www.osi.state.nm.us/" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">New Mexico Office of Superintendent of Insurance</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Mexico residents can also get free, unbiased counseling through the <a href="https://www.benefits.aoa.nm.gov/Benefits-Counseling" rel="noopener noreferrer" target="_blank" className="underline">New Mexico SHIP / Benefits Counseling Program</a> or verify agent licensing with the <a href="https://www.osi.state.nm.us/" rel="noopener noreferrer" target="_blank" className="underline">New Mexico Office of Superintendent of Insurance</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Mexico residents can also contact the <a href="https://www.benefits.nm.gov/SHIP/" rel="noopener noreferrer" target="_blank" className="underline">New Mexico SHIP (Senior Health Insurance Program)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </main>
   );

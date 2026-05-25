@@ -9,7 +9,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Medicare Services & Guides | MedicareYourself",
   description:
-    "Compare Medigap, Medicare Advantage & Part D with a licensed independent broker in NJ & 34 states. Free, unbiased guidance — call 855-559-1700 today.",
+    "Compare Medigap, Medicare Advantage & Part D with a licensed independent broker in NJ & 34 states. Free, unbiased help — call 855-559-1700 today.",
   alternates: { canonical: `${SITE_URL}/services` },
   openGraph: {
     title: "Medicare Services & Guides | MedicareYourself",
@@ -678,6 +678,22 @@ const STATIC_CATEGORIES = [
     answer:
       "Yes. You can call 1-800-MEDICARE (1-800-633-4227), available 24/7 except some federal holidays, or visit Medicare.gov for official program information. TTY users can call 1-877-486-2048. A licensed broker complements these resources by comparing specific plans available in your ZIP code and helping you enroll.",
   }
+,
+  {
+    question: "What does an independent Medicare broker actually do?",
+    answer:
+      "An independent Medicare broker helps you compare Medigap, Medicare Advantage, and Part D plans from multiple carriers so you can choose coverage that fits your doctors, prescriptions, and budget. Brokers are licensed by each state's Department of Banking and Insurance and are paid by the insurance carrier, not by you. That means there's no fee for our guidance, quotes, or enrollment assistance.",
+  },
+  {
+    question: "Is there a cost to work with MedicareYourself?",
+    answer:
+      "No. Our services are free to you because licensed brokers are compensated by the insurance carrier when a policy is issued. The premium you pay is the same whether you enroll directly with the carrier or through a broker. You can also call 1-800-MEDICARE or visit Medicare.gov for free general information from the federal government.",
+  },
+  {
+    question: "Can I switch plans after I enroll?",
+    answer:
+      "Yes, but the rules depend on the plan type. Medicare Advantage and Part D plans can typically be changed during the Annual Enrollment Period each fall or during a Special Enrollment Period if you qualify. Medigap plans can usually be changed any time, though outside your initial enrollment window carriers may require medical underwriting.",
+  }
 ];
 
 export default function ServicesHubPage() {
@@ -807,6 +823,7 @@ export default function ServicesHubPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/division_consumers/insurance/ship.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </>
   );

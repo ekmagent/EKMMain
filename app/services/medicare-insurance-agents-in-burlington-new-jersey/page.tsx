@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare insurance agents in burlington new jersey | Free Local Help | MedicareYourself",
   description:
-    "Talk to a licensed Medicare broker serving Burlington, NJ. Compare Medigap, Advantage & Part D plans across carriers — free, no-obligation help. Call today.",
+    "Talk to a licensed Medicare broker serving Burlington, NJ. Compare Medigap, Advantage & Part D plans across carriers free of charge. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-insurance-agents-in-burlington-new-jersey" },
   openGraph: {
     title:
@@ -219,6 +219,22 @@ const faqs = [
     question: "What's the difference between Medigap and Medicare Advantage?",
     answer:
       "Medigap (Medicare Supplement) works alongside Original Medicare to help cover out-of-pocket costs like coinsurance and deductibles, and lets you see any provider that accepts Medicare. Medicare Advantage replaces Original Medicare with a private plan that typically uses a provider network and often bundles in drug and extra benefits. The right fit depends on your doctors, travel habits, and budget.",
+  }
+,
+  {
+    question: "When can I enroll in a Medigap plan in New Jersey?",
+    answer:
+      "Your best window is the 6-month Medigap Open Enrollment Period, which starts the month you're 65 or older and enrolled in Part B. During this window, insurers in New Jersey must sell you any Medigap plan they offer without medical underwriting. New Jersey also uses community rating, meaning premiums aren't based on your individual age.",
+  },
+  {
+    question: "Can a Burlington Medicare broker help with both Medigap and Medicare Advantage?",
+    answer:
+      "Yes. An independent broker licensed in New Jersey can compare Medigap supplement plans, Medicare Advantage (Part C), and standalone Part D drug plans side by side. This lets you weigh tradeoffs like provider networks, prescription coverage, and out-of-pocket costs before deciding which path fits your needs in Burlington County.",
+  },
+  {
+    question: "Do I have to live in Burlington to work with a New Jersey Medicare broker?",
+    answer:
+      "No. Anthony Orner is licensed in New Jersey and 34 other states, so he can help residents across Burlington County and beyond. Meetings can be done by phone, video, or in person, depending on what works best for you.",
   }
 ];
 

@@ -84,6 +84,22 @@ const faqs = [
     answer:
       "With Original Medicare plus a Medigap plan like Plan G, your 20% coinsurance for CPAP equipment is covered. Medicare Advantage plans may have lower premiums but can require prior authorization and limit you to in-network DME suppliers. A broker can compare both options for your situation.",
   },
+,
+  {
+    question: "Does Medicare cover CPAP supplies like masks and tubing?",
+    answer:
+      "Yes. Medicare Part B covers replacement CPAP accessories including masks, cushions, tubing, filters, and headgear on a set replacement schedule. You must purchase supplies from a Medicare-enrolled DME supplier, and you pay your standard Part B coinsurance after meeting the deductible.",
+  },
+  {
+    question: "How long does Medicare rent a CPAP machine before I own it?",
+    answer:
+      "Medicare rents CPAP machines for a 13-month period if you continue to use the device and meet compliance requirements. After 13 months of consecutive rental payments, you own the machine outright. Medicare continues to cover supplies and accessories after ownership transfers.",
+  },
+  {
+    question: "Can a Medicare broker help me find a DME supplier for my CPAP?",
+    answer:
+      "Yes. A licensed Medicare broker can help you confirm whether a DME supplier accepts Medicare assignment and whether your specific plan has in-network requirements. This is especially important with Medicare Advantage plans, which often limit you to contracted suppliers.",
+  }
 ];
 
 export default function MedicareBrokerForSleepApneaPatients() {

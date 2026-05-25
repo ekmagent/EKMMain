@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "local medicare agents in toms river nj | Free Carrier Comparison | MedicareYourself",
   description:
-    "Local Medicare agents in Toms River NJ — Anthony Orner compares Supplement & Advantage plans across Ocean County carriers. Free quote, call 855-559-1700.",
+    "Local Medicare agents in Toms River, NJ — Anthony Orner compares Supplement, Advantage & Part D plans across Ocean County carriers. Free help, call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/local-medicare-agents-in-toms-river-nj" },
   openGraph: {
     title:
@@ -122,6 +122,22 @@ const faqs = [
     question: "Is there a cost to work with a local Medicare broker in Toms River?",
     answer:
       "No. Independent Medicare brokers are compensated by the insurance carriers when a policy is issued, not by the client. You pay the same premium whether you enroll directly with the carrier or through a licensed broker like Anthony Orner.",
+  }
+,
+  {
+    question: "Is there a cost to work with a local Medicare agent in Toms River?",
+    answer:
+      "No. Independent Medicare brokers are paid directly by the insurance carrier when a client enrolls, so there is no fee or markup passed to you. The premium is the same whether you enroll through an agent or directly with the carrier. That means you get personalized comparisons and ongoing service at no out-of-pocket cost.",
+  },
+  {
+    question: "Can a Toms River agent help with Part D prescription drug plans?",
+    answer:
+      "Yes. A local independent broker can run your specific medication list through each available Part D plan and stand-alone drug plan in Ocean County to show which one covers your prescriptions at the lowest total annual cost. This includes checking preferred pharmacies near Toms River and verifying tier placement for each drug.",
+  },
+  {
+    question: "Does Anthony Orner meet with clients in person in Ocean County?",
+    answer:
+      "Yes. Anthony Orner is licensed in New Jersey and serves Toms River and surrounding Ocean County communities through in-person, phone, or video appointments based on your preference. Call 855-559-1700 to schedule a no-obligation consultation.",
   }
 ];
 
@@ -382,6 +398,7 @@ export default function LocalMedicareAgentsTomsRiverNJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </main>
   );

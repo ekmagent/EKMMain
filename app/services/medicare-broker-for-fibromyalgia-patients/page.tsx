@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for fibromyalgia patients | Free No-Judgment Consultation | MedicareYourself",
   description:
-    "Medicare broker for fibromyalgia patients — Anthony Orner finds plans covering pain specialists, PT & meds. Free no-judgment quote. Call 855-559-1700 today.",
+    "Medicare broker for fibromyalgia patients — Anthony Orner finds plans covering pain specialists, PT, and meds. Free no-judgment quote. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-fibromyalgia-patients" },
   openGraph: {
     title:

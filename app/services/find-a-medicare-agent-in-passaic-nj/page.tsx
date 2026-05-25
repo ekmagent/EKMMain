@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "find a medicare agent in passaic nj | Free Independent Advice | MedicareYourself",
   description:
-    "Find a Medicare agent in Passaic, NJ. Anthony Orner compares Supplement & Advantage plans across major carriers — free, no-pressure help. Call 855-559-1700.",
+    "Find a Medicare agent in Passaic, NJ. Anthony Orner compares Supplement & Advantage plans across major carriers — free, unbiased help. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/find-a-medicare-agent-in-passaic-nj" },
   openGraph: {
     title:
@@ -284,6 +284,7 @@ export default function FindMedicareAgentPassaicNJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" target="_blank" rel="noopener noreferrer" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

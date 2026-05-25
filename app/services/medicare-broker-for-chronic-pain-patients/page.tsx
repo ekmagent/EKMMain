@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for chronic pain patients | Free Coverage Consultation | MedicareYourself",
   description:
-    "Medicare broker for chronic pain patients — Anthony Orner compares plans covering pain management, PT, injections and specialists. Call 855-559-1700.",
+    "Medicare broker for chronic pain patients — Anthony Orner compares plans covering pain management, PT, and injections. Free plan review: call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-chronic-pain-patients" },
   openGraph: {
     title:
@@ -102,6 +102,12 @@ const faqs = [
     question: "Does Medicare cover physical therapy and chiropractic care for chronic pain?",
     answer:
       "Medicare Part B covers medically necessary physical therapy with no hard cap, though therapy above an annual threshold requires your provider to confirm continued medical necessity. Part B also covers manual manipulation of the spine by a chiropractor to correct a subluxation and covers acupuncture for chronic low back pain under specific conditions. Call 855-559-1700 to review which plan pairs best with your treatment schedule.",
+  }
+,
+  {
+    question: "What pain management treatments does Medicare Part B cover monthly?",
+    answer:
+      "Medicare Part B covers monthly chronic pain management and treatment services, which can include a pain assessment, care planning, medication management, and coordination of care with your providers. These services are bundled and billed monthly when you have a diagnosed chronic pain condition. After your Part B deductible, you typically pay coinsurance on the Medicare-approved amount.",
   }
 ];
 
@@ -388,6 +394,7 @@ export default function MedicareBrokerForChronicPainPatients() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
       </section>
     </main>
   );

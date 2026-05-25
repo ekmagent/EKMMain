@@ -107,6 +107,12 @@ const faqs = [
     answer:
       "Many carriers offer a household discount when two people in the same home are enrolled, and some apply the discount even if your spouse or roommate isn't on the same plan. The discount and eligibility rules vary by carrier and state. We can check which carriers offer the largest household discount in your area.",
   }
+,
+  {
+    question: "Are Medicare Savings Programs worth applying for?",
+    answer:
+      "Yes. Medicare Savings Programs are state-run programs that can help pay your Part B premium, and in some cases your Part A premium, deductibles, and coinsurance. Eligibility is based on income and resources, and the limits vary by state. You can apply through your state Medicaid office even if you don't think you'll qualify.",
+  }
 ];
 
 export default function HowCanISaveMoneyOnMyMedicareSupplement() {
