@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title:
     "How to Enroll in Medicare Online at SSA.gov (Step-by-Step Walkthrough)",
   description:
-    "Step-by-step SSA.gov Medicare enrollment walkthrough — apply online in about 10 minutes. Call 855-559-1700 for free licensed broker help choosing coverage.",
+    "Step-by-step SSA.gov Medicare enrollment walkthrough — apply online in about 10 minutes. Call 855-559-1700 for free licensed broker help picking coverage.",
   alternates: {
     canonical: `${SITE_URL}/learn/ssa-online-enrollment-walkthrough`,
   },
@@ -720,6 +720,22 @@ const steps = [
     question: "What happens after I submit my Medicare application on SSA.gov?",
     answer:
       "After you submit, you cannot modify the application online. Social Security will review your information and may contact you if anything else is needed. Once approved, you'll receive your red, white, and blue Medicare card in the mail with your effective dates for Part A and Part B.",
+  }
+,
+  {
+    question: "Do I have to enroll in Medicare through SSA.gov, or can I call Medicare directly?",
+    answer:
+      "You enroll in Medicare Part A and Part B through the Social Security Administration, not Medicare itself. SSA.gov is the fastest option, but you can also call Social Security or visit a local office if you prefer. Medicare.gov directs all Part A and Part B sign-ups to SSA.",
+  },
+  {
+    question: "What documents do I need before starting the SSA online application?",
+    answer:
+      "You'll need your Social Security number and a driver's license or state ID for identity verification through Login.gov or ID.me. If you have employer group health coverage, gather your insurance card and employment dates. Having this information ready helps you complete the application in about 10 minutes.",
+  },
+  {
+    question: "Can I change my application after I submit it on SSA.gov?",
+    answer:
+      "No. Once you click Submit Now and agree to the Electronic Signature Agreement, your application is final and cannot be modified online. If you need to make changes, you'll have to contact Social Security directly. Review every screen carefully before submitting.",
   }
 ];
 

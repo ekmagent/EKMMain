@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "My Medicare Supplement Rate Just Jumped — Why, and What Can I Do? | Free Rate Comparison | MedicareYourself",
   description:
-    "Medigap rate jumped? Learn why Medicare Supplement premiums rise and how switching to the same plan letter can lower your cost. Call 855-559-1700 for a free comparison.",
+    "Medigap rate jumped? Learn why Medicare Supplement premiums rise and how switching to the same plan letter can lower your cost. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-supplement-rate-jumped-why-and-what-can-i-do" },
   openGraph: {
     title:
@@ -117,6 +117,17 @@ const faqs = [
     question: "What should I compare before switching Medigap carriers?",
     answer:
       "Compare the new premium to your current one, the carrier's rate increase history, and the company's financial strength rating. Also confirm the plan letter matches so your benefits stay identical, and review any household or non-tobacco discounts you may qualify for with the new carrier.",
+  }
+,
+  {
+    question: "Does switching Medigap carriers restart any waiting periods?",
+    answer:
+      "In most cases, no. If you've already satisfied the six-month pre-existing condition waiting period under your current Medigap policy, a new carrier generally cannot impose another one when you switch. However, this can vary, so confirm with the new carrier before applying.",
+  },
+  {
+    question: "Should I cancel my current Medigap plan before the new one is approved?",
+    answer:
+      "No. Always wait until the new carrier has formally approved your application and issued an effective date before canceling your existing policy. This prevents any gap in coverage if underwriting results in a delay or denial.",
   }
 ];
 
@@ -365,6 +376,7 @@ export default function MedicareSupplementRateJumpedPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or the free <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP program</a> for help reviewing rate increases.</div>
             <div className="text-sm text-gray-600 mt-4">For state-specific help, contact the <a href="https://www.nj.gov/dobi/division_insurance/" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">NJ Department of Banking and Insurance</a> or your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">SHIP counselor</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">Need help in your state? Contact the <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling, or reach <a href="https://www.nj.gov/dobi/division_insurance/" rel="noopener noreferrer" target="_blank" className="underline">the New Jersey Department of Banking and Insurance</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a> or the free <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a> for unbiased Medigap rate information.</div>
       </section>
     </main>
   );

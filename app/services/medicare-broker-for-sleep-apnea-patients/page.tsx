@@ -352,6 +352,7 @@ export default function MedicareBrokerForSleepApneaPatients() {
             </li>
 </ul>
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/coverage/continuous-positive-airway-pressure-devices" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — CPAP therapy coverage</a> and <a href="https://www.medicare.gov/coverage/sleep-studies" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Sleep studies coverage</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

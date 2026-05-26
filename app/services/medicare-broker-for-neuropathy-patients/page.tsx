@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for neuropathy patients | Free Plan Review | MedicareYourself",
   description:
-    "Medicare broker for neuropathy patients — compare plans covering nerve tests, podiatry, specialists & Rx. Free plan review with Anthony Orner. Call 855-559-1700.",
+    "Medicare broker for neuropathy patients — compare plans covering nerve tests, podiatry & Rx. Free review with Anthony Orner. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-neuropathy-patients" },
   openGraph: {
     title:
@@ -335,6 +335,7 @@ export default function MedicareBrokerForNeuropathyPatients() {
             <div className="text-sm text-gray-600 mt-4">Need unbiased help? Contact <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">Free unbiased counseling: <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
       </article>
     </>

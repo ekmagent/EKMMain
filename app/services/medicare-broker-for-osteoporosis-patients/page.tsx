@@ -87,6 +87,12 @@ const faqs = [
     answer:
       "Medicare Part A covers skilled nursing facility (SNF) care after a qualifying hospital stay. In 2026, days 1-20 cost $0. Days 21-100 carry a $209.50/day coinsurance charge. A Medigap plan or the right Medicare Advantage plan can cover that coinsurance and prevent a devastating bill.",
   },
+,
+  {
+    question: "Who is eligible for Medicare-covered osteoporosis injections at home?",
+    answer:
+      "Medicare Part B helps cover injectable osteoporosis drugs and home health nurse visits to administer them for women with osteoporosis who meet specific criteria. You must be eligible for the Medicare home health benefit, and your doctor must certify that you can't give yourself the injection or learn how. A broker can help you confirm whether your plan covers in-home administration.",
+  }
 ];
 
 export default function MedicareBrokerForOsteoporosisPatients() {
@@ -331,6 +337,7 @@ export default function MedicareBrokerForOsteoporosisPatients() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased Medicare counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" target="_blank" rel="noopener noreferrer" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
     </main>
   );

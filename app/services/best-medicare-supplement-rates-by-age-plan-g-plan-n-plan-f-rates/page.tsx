@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Best Medicare Supplement Rates by Age (Plan G, Plan N, & Plan F Rates) | Free Quote | MedicareYourself",
   description:
-    "Compare Medicare Supplement rates by age for Plan G, Plan N & Plan F. See how premiums shift by age bracket and lock in your best rate — call 855-559-1700.",
+    "Compare Medicare Supplement rates by age for Plan G, Plan N & Plan F. Find your lowest premium by age bracket — call 855-559-1700 for a free quote today.",
   alternates: { canonical: "https://medicareyourself.com/services/best-medicare-supplement-rates-by-age-plan-g-plan-n-plan-f-rates" },
   openGraph: {
     title:
@@ -86,6 +86,22 @@ const faqs = [
     answer:
       "Yes, in most cases. Attained-age rated plans increase as you get older, and all plans can receive block rate increases when claims in your insured pool rise. Some years you may see 4–6% bumps; other years, 10–18% jumps when age and block increases stack together.",
   },
+,
+  {
+    question: "Are Plan G and Plan N benefits standardized across carriers?",
+    answer:
+      "Yes. Medicare standardizes every Medigap plan letter, so Plan G benefits are identical from one carrier to the next, and the same is true for Plan N. The only differences between carriers are premium pricing, rate increase history, and customer service. That means shopping by price for the same letter is straightforward.",
+  },
+  {
+    question: "Can I switch from Plan F to Plan G to get a lower rate?",
+    answer:
+      "In most states, switching Medigap plans after your Open Enrollment Period requires medical underwriting, meaning the carrier can review your health and potentially decline coverage or charge more. If you qualify, moving from Plan F to Plan G often lowers your monthly premium because Plan G doesn't include the Part B deductible coverage. A licensed broker can help you compare offers before you cancel existing coverage.",
+  },
+  {
+    question: "Does Plan N have any out-of-pocket costs that Plan G doesn't?",
+    answer:
+      "Yes. Plan N requires copays for some office visits and emergency room visits, and it doesn't cover Part B excess charges, while Plan G does. In exchange, Plan N typically has a lower monthly premium than Plan G. Whether the savings outweigh the copays depends on how often you use care.",
+  }
 ];
 
 export default function BestMedicareSupplementRatesByAge() {
@@ -366,6 +382,7 @@ export default function BestMedicareSupplementRatesByAge() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP program</a> for free Medicare counseling.</div>
       </section>
     </main>
   );

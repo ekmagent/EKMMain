@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for high blood pressure patients | Free Plan Review | MedicareYourself",
   description:
-    "Medicare broker for high blood pressure patients — Anthony Orner reviews your Part D formulary at no cost so meds stay covered. Call 855-559-1700.",
+    "Medicare broker for high blood pressure patients — Anthony Orner reviews your Part D formulary free so meds stay covered. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-high-blood-pressure-patients" },
   openGraph: {
     title:

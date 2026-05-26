@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare Supplement Insurance for Crohn's Patients | Free Guidance | MedicareYourself",
   description:
-    "Medigap for Crohn's patients helps cover biologic infusions, colonoscopies & GI specialist visits. Call 855-559-1700 for free broker guidance from a licensed agent.",
+    "Medigap for Crohn's patients helps cover biologics, colonoscopies & GI visits. Call 855-559-1700 for free licensed broker guidance.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-supplement-insurance-for-crohns-patients" },
   openGraph: {
     title:
@@ -167,6 +167,12 @@ const faqs = [
     question: "Can a broker help me compare Medigap carriers that accept Crohn's applicants?",
     answer:
       "Yes. As an independent broker licensed in NJ and 34 states, I can compare which carriers underwrite favorably for IBD applicants and identify whether you qualify for guaranteed-issue rights. Call 855-559-1700 for a no-cost review of your situation and the plans available in your ZIP code.",
+  }
+,
+  {
+    question: "Does Medigap cover ostomy supplies for Crohn's patients who've had surgery?",
+    answer:
+      "Medicare Part B covers medically necessary ostomy supplies for beneficiaries who've had a colostomy, ileostomy, or urinary ostomy after Crohn's-related surgery. Part B pays its share after the deductible, and a Medigap plan like Plan G covers the remaining coinsurance. You'll need a prescription and supplies must come from a Medicare-enrolled supplier.",
   }
 ];
 

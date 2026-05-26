@@ -213,6 +213,22 @@ const faqs = [
     answer:
       "Medicare Part B covers glaucoma screenings once every 12 months for people considered high risk. That includes individuals with diabetes, a family history of glaucoma, African Americans age 50 and older, and Hispanic Americans age 65 and older. The screening must be performed or supervised by an eye doctor legally authorized to do so in your state.",
   }
+,
+  {
+    question: "Who qualifies as high-risk for Medicare's glaucoma screening benefit?",
+    answer:
+      "Medicare considers you high-risk if you have diabetes, a family history of glaucoma, are African American and age 50 or older, or are Hispanic American and age 65 or older. If you meet one of these criteria, Part B covers a screening once every 12 months. The exam must be performed or supervised by an eye doctor legally authorized to do the test in your state.",
+  },
+  {
+    question: "Are glaucoma eye drops covered under Part B or Part D?",
+    answer:
+      "Prescription glaucoma eye drops such as latanoprost, timolol, or brimonidine are covered under Medicare Part D, not Part B. Formulary tier, prior authorization rules, and copays vary widely between Part D plans, so comparing drug coverage each year during Annual Enrollment can make a meaningful difference. A licensed broker can run your specific medications against available plans in your ZIP code.",
+  },
+  {
+    question: "Should glaucoma patients choose Medigap or Medicare Advantage?",
+    answer:
+      "It depends on your providers, medications, and budget. Medigap plans tend to offer predictable costs and broad access to any ophthalmologist who accepts Medicare, which can matter if you need ongoing specialist care or surgery. Medicare Advantage plans may include extra vision benefits but often use networks and prior authorization. A free coverage review can compare both paths side by side — call 855-559-1700.",
+  }
 ];
 
 export default function MedicareBrokerForGlaucomaPatients() {
@@ -439,6 +455,7 @@ export default function MedicareBrokerForGlaucomaPatients() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
       </section>
     </div>
   );

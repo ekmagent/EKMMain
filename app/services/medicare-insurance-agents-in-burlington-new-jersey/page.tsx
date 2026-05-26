@@ -236,6 +236,22 @@ const faqs = [
     answer:
       "No. Anthony Orner is licensed in New Jersey and 34 other states, so he can help residents across Burlington County and beyond. Meetings can be done by phone, video, or in person, depending on what works best for you.",
   }
+,
+  {
+    question: "Does Medicare cover services from doctors and hospitals in Burlington County?",
+    answer:
+      "Original Medicare is accepted by most hospitals and physicians across Burlington County and throughout New Jersey. With a Medigap plan, you can typically see any provider nationwide who accepts Medicare. Medicare Advantage plans use provider networks, so it's important to confirm your doctors are in-network before enrolling.",
+  },
+  {
+    question: "When can I enroll in a Medigap plan in New Jersey?",
+    answer:
+      "Your strongest enrollment window is the 6-month Medigap Open Enrollment Period that begins the month your Part B becomes effective and you're 65 or older. During this window, carriers cannot deny you coverage or charge more based on health. New Jersey uses community rating, so Medigap premiums are not based on your individual age.",
+  },
+  {
+    question: "What's the difference between Medigap and Medicare Advantage in Burlington, NJ?",
+    answer:
+      "Medigap supplements Original Medicare by helping pay deductibles and coinsurance, and it lets you use any Medicare-accepting provider. Medicare Advantage replaces Original Medicare with a private plan that often bundles drug coverage and extras but uses a network. A broker can compare both side by side based on your doctors and prescriptions.",
+  }
 ];
 
 export default function MedicareInsuranceAgentsBurlingtonNJ() {

@@ -9,7 +9,7 @@ import { MF } from "@/lib/medicare-figures";
 export const metadata: Metadata = {
   title: "How to Enroll in a Medicare Supplement Plan (2026): The 5-Step Guide",
   description:
-    "Enroll in a Medicare Supplement plan in 5 steps and protect your 6-month guaranteed-issue window. Call 855-559-1700 to compare every carrier at no cost.",
+    "Enroll in a Medicare Supplement plan in 5 steps and lock in your 6-month guaranteed-issue window. Call 855-559-1700 to compare every carrier free.",
   alternates: { canonical: `${SITE_URL}/learn/how-to-enroll-in-a-medicare-supplement-plan` },
   openGraph: {
     title: "How to Enroll in a Medicare Supplement Plan (2026): The 5-Step Guide",
@@ -582,6 +582,22 @@ const faqs = [
     question: "Can I switch Medicare Supplement plans after I enroll?",
     answer:
       "You can apply to switch Medigap plans at any time, but outside your Medigap Open Enrollment Period or a guaranteed-issue situation, carriers in most states can use medical underwriting to deny coverage or charge more based on health. This is why choosing carefully during your initial 6-month window matters. Call 855-559-1700 if you want to review whether a switch makes sense in your situation.",
+  }
+,
+  {
+    question: "When is the best time to enroll in a Medicare Supplement plan?",
+    answer:
+      "The best time to enroll is during your 6-month Medigap Open Enrollment Period, which starts the first month you are both 65 or older and enrolled in Medicare Part B. During this window, you have a guaranteed right to buy any Medigap plan sold in your state regardless of your health history. Outside this window, carriers in most states can use medical underwriting to deny coverage or charge more.",
+  },
+  {
+    question: "Do I need Medicare Part A and Part B before I can buy a Medigap plan?",
+    answer:
+      "Yes. You must be enrolled in both Medicare Part A and Part B before you can purchase a Medicare Supplement policy. If you are not yet enrolled, you can sign up through the Social Security Administration at ssa.gov/medicare.",
+  },
+  {
+    question: "Are Medigap plans the same from every insurance company?",
+    answer:
+      "Yes — Medigap plan benefits are federally standardized, so a Plan G from one carrier covers the exact same services as a Plan G from any other carrier. However, the monthly premium each carrier charges for that identical coverage can vary significantly. That is why comparing every licensed carrier in your state matters more than picking a brand name.",
   }
 ];
 

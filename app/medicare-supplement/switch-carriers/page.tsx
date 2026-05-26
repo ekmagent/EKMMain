@@ -329,6 +329,12 @@ const faqs = [
     answer:
       "You should never cancel your existing Medigap policy until your new policy has been approved and is in effect. Medicare allows a 30-day 'free look' period when you start a new Medigap policy, during which you can keep both policies briefly to make sure you want to continue with the new one. You will pay both premiums during that overlap, then cancel the old policy.",
   }
+,
+  {
+    question: "Do I have a federal right to switch Medigap policies whenever I want?",
+    answer:
+      "In most cases, no. Under federal law you generally can only switch Medigap policies during your 6-month Medigap Open Enrollment Period or if you qualify for a guaranteed issue right, such as your current carrier leaving the market or you moving out of its service area. Some states offer additional opportunities to switch, so it is worth checking with your State Insurance Department or a licensed broker before applying.",
+  }
 ];
 
 export default function SwitchCarriersPage() {
@@ -569,6 +575,7 @@ export default function SwitchCarriersPage() {
             <div className="text-sm text-gray-600 mt-4">Need state-level help? Contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> or your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">SHIP counselor</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">Free unbiased help in New Jersey: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Need free, unbiased help in your state? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> or the <a href="https://www.nj.gov/dobi/division_insurance/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify state-specific Medigap switching rules with the <a href="https://www.state.nj.us/dobi/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> or get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP</a>.</div>
       </section>
     </>
   );

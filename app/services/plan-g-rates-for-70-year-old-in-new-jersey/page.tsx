@@ -208,6 +208,17 @@ const faqs = [
     answer:
       "Every insurance company sets its own price for Medigap policies, even though the benefits in each lettered plan are standardized by federal law. That means Plan G coverage is identical across carriers, but the monthly premium can differ significantly. Comparing multiple carriers is the only way to find the best value.",
   }
+,
+  {
+    question: "Why do Plan G premiums vary so much between carriers in New Jersey?",
+    answer:
+      "The benefits in Plan G are standardized by federal law, so every carrier covers the exact same things. The only real difference between policies is the premium each insurance company charges. That's why comparing multiple carriers side by side can save you hundreds of dollars per year for identical coverage.",
+  },
+  {
+    question: "What is the Medigap Open Enrollment Period for a 70-year-old in New Jersey?",
+    answer:
+      "Your federal Medigap Open Enrollment Period is the 6-month window that begins the month you're 65 or older and enrolled in Medicare Part B. During this window, you have guaranteed issue rights and cannot be denied or charged more for health reasons. If you're 70 and missed this window, a licensed broker can review your options — call 855-559-1700.",
+  }
 ];
 
 export default function PlanGRates70NJ() {

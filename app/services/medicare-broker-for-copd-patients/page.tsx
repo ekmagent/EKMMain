@@ -168,6 +168,22 @@ const faqs = [
     answer:
       "Yes. Medicare Part B covers nebulizers as durable medical equipment when prescribed by your doctor for use in the home, along with certain nebulizer medications used with the device. You'll typically be responsible for the Part B coinsurance after meeting your deductible, and the supplier must be enrolled in Medicare.",
   }
+,
+  {
+    question: "Does Medicare cover pulmonary rehabilitation for COPD patients?",
+    answer:
+      "Yes. Medicare Part B covers comprehensive pulmonary rehabilitation programs for beneficiaries with moderate to very severe COPD when referred by the doctor treating the chronic respiratory disease. These programs include exercise, education, and psychosocial support to help improve breathing and quality of life. Coverage requires physician certification of medical necessity.",
+  },
+  {
+    question: "Are COPD inhalers covered under Medicare Part B or Part D?",
+    answer:
+      "Most maintenance and rescue inhalers are covered under Medicare Part D prescription drug plans, not Part B. Nebulizer medications used with durable medical equipment at home are typically covered under Part B. Because formularies and tier placement vary widely, comparing Part D plans against your specific inhaler list is essential before enrolling.",
+  },
+  {
+    question: "Can I switch Medicare plans if my COPD medications change?",
+    answer:
+      "You can change Medicare Advantage or Part D plans during the Annual Enrollment Period each fall, and certain qualifying events may trigger a Special Enrollment Period. If your pulmonologist prescribes a new inhaler or biologic, a free plan review can identify whether a different Part D formulary would lower your costs. Call 855-559-1700 to review your options.",
+  }
 ];
 
 export default function MedicareBrokerForCOPDPatients() {
@@ -437,6 +453,7 @@ export default function MedicareBrokerForCOPDPatients() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Need state-level help? Contact <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

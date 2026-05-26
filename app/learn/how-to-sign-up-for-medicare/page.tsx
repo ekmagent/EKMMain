@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "How to Sign Up for Medicare (2026 Guide)",
   description:
-    "2026 Medicare sign-up guide: enrollment windows, applying through SSA, and avoiding Part B late penalties. Free licensed broker help — call 855-559-1700.",
+    "How to sign up for Medicare in 2026: enrollment windows, applying at SSA.gov, and avoiding Part B penalties. Free licensed broker help — call 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/how-to-sign-up-for-medicare` },
   openGraph: {
     title: "How to Sign Up for Medicare (2026 Guide)",
@@ -614,6 +614,22 @@ const faqs = [
     question: "What happens if I miss my Medicare enrollment deadline?",
     answer:
       "If you miss your Initial Enrollment Period and don't qualify for a Special Enrollment Period, you'll have to wait for the General Enrollment Period (January 1 – March 31) to sign up for Part B. You may also owe a permanent late enrollment penalty added to your Part B premium for as long as you have Medicare.",
+  }
+,
+  {
+    question: "How do I actually apply for Medicare?",
+    answer:
+      "Most people apply online through the Social Security Administration at ssa.gov/medicare, which takes about 10 minutes. You can also apply by calling Social Security or by visiting your local Social Security office. If you worked for a railroad, you should contact the Railroad Retirement Board instead.",
+  },
+  {
+    question: "What if I miss my Initial Enrollment Period?",
+    answer:
+      "If you miss your IEP and do not qualify for a Special Enrollment Period, you must wait for the General Enrollment Period (January 1 – March 31) to sign up for Part B, with coverage starting the month after you enroll. You may also owe a permanent Part B late enrollment penalty for each 12-month period you went without coverage. A licensed broker can help you confirm whether you qualify for an SEP — call 855-559-1700.",
+  },
+  {
+    question: "Do I need to sign up for Part D when I enroll in Medicare?",
+    answer:
+      "Part D prescription drug coverage is optional, but if you go without creditable drug coverage for 63 days or more after your Initial Enrollment Period, you may owe a permanent Part D late enrollment penalty. Most people enroll in either a stand-alone Part D plan or a Medicare Advantage plan that includes drug coverage when they first become eligible.",
   }
 ];
 

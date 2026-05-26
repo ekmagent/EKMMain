@@ -119,6 +119,17 @@ const faqs = [
     answer:
       "Yes. Although Medigap plan benefits are federally standardized (Plan G is Plan G with every carrier), premiums can vary significantly between insurers in New Jersey. Carriers price differently based on their claims experience, administrative costs, and discounts offered. Comparing multiple carriers in your county is the only reliable way to find the lowest cost for identical coverage.",
   }
+,
+  {
+    question: "Can I lower my Medigap cost in New Jersey by switching carriers later?",
+    answer:
+      "Possibly. Because NJ uses community rating, premiums are not based on your age, but they can still differ between carriers for the same standardized plan. If you are outside your 6-month Medigap Open Enrollment Period, switching may require medical underwriting and you could be declined. Call 855-559-1700 to compare current NJ carrier rates before making a change.",
+  },
+  {
+    question: "Does where I live in New Jersey affect my Medicare Supplement premium?",
+    answer:
+      "Yes. NJ Medigap carriers file rates by county or rating area, so two people enrolled in the same Plan G can pay different premiums based on zip code. The benefits of each standardized plan letter are identical across carriers — only the price varies. Comparing quotes specific to your county is the most reliable way to find the lowest cost.",
+  }
 ];
 
 export default function NJMedicareCostPage() {

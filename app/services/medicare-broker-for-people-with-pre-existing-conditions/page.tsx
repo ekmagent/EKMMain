@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare broker for people with pre-existing conditions | Free Guidance | MedicareYourself",
   description:
-    "Medicare broker for pre-existing conditions: find lenient carriers, guaranteed issue rights, and plans that skip health questions. Free help — call 855-559-1700.",
+    "Medicare broker for pre-existing conditions: find lenient carriers, guaranteed issue rights, and plans skipping health questions. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-people-with-pre-existing-conditions" },
   openGraph: {
     title:
@@ -166,6 +166,22 @@ const faqs = [
     question: "Why does working with a broker matter when you have a pre-existing condition?",
     answer:
       "Underwriting guidelines vary widely between carriers, and a condition that triggers a denial at one company may be accepted at another. A licensed broker who represents multiple carriers can match your specific health history to the carriers most likely to approve you, saving time and avoiding application denials that can sit on your record.",
+  }
+,
+  {
+    question: "What counts as a pre-existing condition for Medicare purposes?",
+    answer:
+      "A pre-existing condition is any health problem you had before applying for or enrolling in a new insurance plan. This can include chronic conditions like diabetes, heart disease, or COPD, as well as past injuries or illnesses. Original Medicare does not factor these in, but Medigap carriers may consider them during medical underwriting.",
+  },
+  {
+    question: "Can a Medicare Advantage plan charge me more because of my health?",
+    answer:
+      "No. Medicare Advantage plans cannot deny enrollment or charge higher premiums based on pre-existing conditions, except in the case of End-Stage Renal Disease in limited situations. Plan premiums are the same regardless of your health history during valid enrollment periods.",
+  },
+  {
+    question: "How does a broker help if I have multiple health conditions?",
+    answer:
+      "A broker familiar with carrier underwriting guidelines knows which insurers are more lenient with specific conditions and which will likely decline. This saves you from submitting applications that get denied and helps target carriers most likely to approve your coverage. The guidance is free since brokers are paid by the carriers.",
   }
 ];
 

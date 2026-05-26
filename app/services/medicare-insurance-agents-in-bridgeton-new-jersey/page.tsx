@@ -95,6 +95,22 @@ const faqs = [
     answer:
       "Yes. New Jersey requires community-rated pricing for Medicare Supplement plans, meaning premiums are not based on your age. However, this does not mean year-round guaranteed issue — you still need to enroll during your 6-month Medigap Open Enrollment Period or another qualifying guaranteed-issue window to avoid medical underwriting.",
   }
+,
+  {
+    question: "Does an independent Medicare broker in Bridgeton cost anything?",
+    answer:
+      "No. Working with a licensed independent broker is free to you. Brokers are compensated by the insurance carriers when you enroll, and that compensation does not change your premium. You pay the same rate whether you enroll through a broker or directly with the carrier.",
+  },
+  {
+    question: "Can I switch Medicare plans after I enroll in Bridgeton?",
+    answer:
+      "Yes, but timing matters. Medicare Advantage and Part D plans can be changed during the Annual Enrollment Period from October 15 to December 7 each year. Switching Medigap plans outside your 6-month Open Enrollment Period may require medical underwriting in New Jersey, so it's important to choose carefully the first time.",
+  },
+  {
+    question: "What's the difference between Medicare Supplement and Medicare Advantage in New Jersey?",
+    answer:
+      "Medicare Supplement (Medigap) works alongside Original Medicare and helps cover out-of-pocket costs like coinsurance and deductibles, with nationwide doctor access. Medicare Advantage replaces Original Medicare with a private plan that typically includes Part D and extra benefits but uses provider networks. An independent broker can compare both for your needs in Cumberland County.",
+  }
 ];
 
 export default function MedicareInsuranceAgentsBridgetonNJ() {

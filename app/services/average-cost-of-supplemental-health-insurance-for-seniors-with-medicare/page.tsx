@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "average cost of supplemental health insurance for seniors with medicare | Free Broker Comparison | MedicareYourself",
   description:
-    "Compare 2026 Medicare supplemental insurance costs by plan, age & zip. Same benefits, different prices — call 855-559-1700 for a free broker comparison today.",
+    "Compare 2026 Medicare supplement costs by plan, age & zip — same benefits, different prices. Call 855-559-1700 for a free licensed broker comparison.",
   alternates: { canonical: "https://medicareyourself.com/services/average-cost-of-supplemental-health-insurance-for-seniors-with-medicare" },
   openGraph: {
     title:
@@ -423,6 +423,22 @@ const faqs = [
     answer:
       "It depends on how the carrier prices the policy. Attained-age-rated plans increase as you age, issue-age-rated plans are based on your age when you bought the policy, and community-rated plans charge everyone in the area the same regardless of age. All three pricing methods can also see annual increases due to inflation and claims experience.",
   }
+,
+  {
+    question: "Do Medigap premiums increase as I get older?",
+    answer:
+      "It depends on how the carrier prices the policy. Attained-age-rated plans go up as you get older, issue-age-rated plans are based on your age when you bought the policy, and community-rated plans charge everyone in the area the same regardless of age. All three types may also increase due to inflation and claims experience.",
+  },
+  {
+    question: "Does the same Medigap plan letter cover the same things at every company?",
+    answer:
+      "Yes. Medicare standardizes Medigap benefits by plan letter, so Plan G from one carrier provides the exact same coverage as Plan G from another carrier. The only real difference between identical plans is the monthly premium, which is why comparing carriers in your zip code can save significant money. Call 855-559-1700 for a free side-by-side comparison.",
+  },
+  {
+    question: "Do I need a separate drug plan if I have a Medigap policy?",
+    answer:
+      "Yes. Medigap policies sold today do not include prescription drug coverage, so most enrollees pair their plan with a standalone Medicare Part D drug plan. Skipping Part D when first eligible can also trigger a late enrollment penalty that lasts as long as you have Medicare.",
+  }
 ];
 
 export default function AverageCostSupplementalInsurancePage() {
@@ -639,6 +655,7 @@ export default function AverageCostSupplementalInsurancePage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> or contact the <a href="https://www.nj.gov/dobi/division_insurance/" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

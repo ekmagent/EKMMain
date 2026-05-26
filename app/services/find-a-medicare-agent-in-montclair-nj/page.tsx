@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "find a medicare agent in montclair nj | Free Local Help | MedicareYourself",
   description:
-    "Find a Medicare agent in Montclair, NJ. Independent broker Anthony Orner compares top carriers in Essex County — free plan review. Call 855-559-1700.",
+    "Find a Medicare agent in Montclair, NJ. Independent broker Anthony Orner compares top carriers in Essex County — free, no-pressure review. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/find-a-medicare-agent-in-montclair-nj" },
   openGraph: {
     title:
@@ -181,6 +181,17 @@ const faqs = [
     question: "Can a Medicare agent help with prescription drug coverage?",
     answer:
       "Yes. An independent broker can run your medication list through carrier formularies to compare Part D plans or Medicare Advantage plans that include drug coverage. This helps identify which plan covers your prescriptions at the lowest total cost. Reviewing drug coverage annually during the Annual Election Period is recommended since formularies change each year.",
+  }
+,
+  {
+    question: "When can I switch Medicare plans with an agent in Montclair?",
+    answer:
+      "Most beneficiaries can change Medicare Advantage or Part D plans during the Annual Enrollment Period from October 15 to December 7, with changes taking effect January 1. The Medicare Advantage Open Enrollment Period from January 1 to March 31 allows one additional change. Special Enrollment Periods may apply if you move, lose coverage, or qualify for assistance programs.",
+  },
+  {
+    question: "Is Anthony Orner licensed to help Medicare beneficiaries in Montclair, NJ?",
+    answer:
+      "Yes. Anthony Orner is a licensed independent Medicare insurance broker in New Jersey and 34 additional states, with NPI 1902584006. He works with Essex County residents on Medicare Supplement, Medicare Advantage, and Part D plan comparisons. Consultations are free and there is no obligation to enroll.",
   }
 ];
 
@@ -475,6 +486,7 @@ export default function FindMedicareAgentMontclairNJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> offers free Medicare counseling for Essex County residents.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey resource: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> — free, unbiased Medicare counseling for New Jersey residents.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey beneficiaries can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

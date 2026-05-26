@@ -139,6 +139,12 @@ const faqs = [
     answer:
       "Yes. During the Annual Enrollment Period each fall, you can change Part D plans or switch between Original Medicare and Advantage. Some patients also qualify for Special Enrollment Periods after a diagnosis change, move, or loss of other coverage. I reach out every year to make sure your plan still fits your current medications and care team.",
   }
+,
+  {
+    question: "When can I change my Medicare plan if my Parkinson's treatment needs change?",
+    answer:
+      "The Annual Enrollment Period runs October 15 through December 7 each year, when you can switch Part D or Medicare Advantage plans. There's also a Medicare Advantage Open Enrollment Period from January 1 through March 31. If you qualify for Extra Help or move, you may get a Special Enrollment Period. Call 855-559-1700 and I'll review whether a change makes sense for your situation.",
+  }
 ];
 
 export default function MedicareBrokerForParkinsonsPatients() {

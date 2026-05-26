@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "how much does the best medicare supplemental insurance cost per month | Free Plan-by-Plan Breakdown | MedicareYourself",
   description:
-    "Compare Medicare Supplement Plan G and Plan N monthly costs by carrier, age, and zip code. Get a free side-by-side quote — call 855-559-1700 today.",
+    "Compare Medicare Supplement Plan G and Plan N monthly costs by carrier, age, and zip code. Get a free side-by-side quote from a licensed broker — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/how-much-does-the-best-medicare-supplemental-insurance-cost-per-month" },
   openGraph: {
     title:
@@ -129,6 +129,22 @@ const faqs = [
     question: "How do I get an accurate quote for my situation?",
     answer:
       "The most accurate way is to compare quotes from multiple carriers using your actual age, zip code, gender, and tobacco status. As a licensed broker representing many top-rated carriers, I can run a side-by-side comparison in minutes at no cost. Call 855-559-1700 to get your personalized rates.",
+  }
+,
+  {
+    question: "Does where I live affect how much I pay for Medigap?",
+    answer:
+      "Yes. Medigap premiums vary by zip code because carriers base rates on local claims experience and demographics. The same Plan G from the same company can cost noticeably more in one county than another. That is why it is important to compare quotes specific to your address rather than relying on national averages.",
+  },
+  {
+    question: "Is there a yearly out-of-pocket limit with Original Medicare alone?",
+    answer:
+      "No. Original Medicare does not cap your annual out-of-pocket spending. Adding a Medigap policy is how many beneficiaries create predictable monthly costs and limit exposure to large hospital or outpatient bills. Without supplemental coverage, your share of costs could continue to grow with each service.",
+  },
+  {
+    question: "Can I switch Medigap plans later if I find a cheaper rate?",
+    answer:
+      "You can apply to switch Medigap plans at any time, but outside your initial Open Enrollment Period you may face medical underwriting. That means a carrier can review your health history and either charge more or decline coverage. Some states have additional protections, so it is worth reviewing your options with a licensed broker before switching.",
   }
 ];
 

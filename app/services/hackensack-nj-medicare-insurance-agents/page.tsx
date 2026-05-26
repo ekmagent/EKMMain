@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "hackensack nj medicare insurance agents | Free Broker Consultation | MedicareYourself",
   description:
-    "Hackensack NJ Medicare insurance agents — Anthony Orner compares Bergen County plans across top carriers. Free quote, no fees. Call 855-559-1700 today.",
+    "Hackensack NJ Medicare insurance agents — broker Anthony Orner compares Bergen County plans across top carriers at no cost. Call 855-559-1700 for a free quote.",
   alternates: { canonical: "https://medicareyourself.com/services/hackensack-nj-medicare-insurance-agents" },
   openGraph: {
     title:
@@ -299,6 +299,7 @@ export default function HackensackNJMedicareInsuranceAgents() {
         </ul>
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/plan-compare" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov Plan Compare</a> and <a href="https://www.medicare.gov/basics/get-started-with-medicare" rel="noopener noreferrer" target="_blank" className="underline">Get Started with Medicare</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free Medicare counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-2">New Jersey beneficiaries can also get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );
