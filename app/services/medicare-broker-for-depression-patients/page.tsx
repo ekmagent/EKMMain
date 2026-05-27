@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for depression patients | Free Mental Health Plan Review | MedicareYourself",
   description:
-    "Medicare broker for depression patients — Anthony Orner finds plans covering therapy, psychiatry, and antidepressants. Free review. Call 855-559-1700 today.",
+    "Medicare broker for depression patients — Anthony Orner finds plans covering therapy, psychiatry & antidepressants. Free review. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-depression-patients" },
   openGraph: {
     title:

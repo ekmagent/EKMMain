@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Find an NJ Medicare Broker Near You | Free No-Pressure Help | MedicareYourself",
   description:
-    "Find an NJ Medicare broker near you. Anthony Orner compares top carriers statewide at no cost — independent, no pressure. Call 855-559-1700 for free help.",
+    "Find a trusted NJ Medicare broker near you. Anthony Orner compares top carriers statewide at no cost — independent, no pressure. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/find-an-nj-medicare-broker-near-you" },
   openGraph: {
     title:

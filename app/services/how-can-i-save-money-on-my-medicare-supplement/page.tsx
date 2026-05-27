@@ -113,6 +113,12 @@ const faqs = [
     answer:
       "Yes. Medicare Savings Programs are state-run programs that can help pay your Part B premium, and in some cases your Part A premium, deductibles, and coinsurance. Eligibility is based on income and resources, and the limits vary by state. You can apply through your state Medicaid office even if you don't think you'll qualify.",
   }
+,
+  {
+    question: "Are there state programs that can help lower my Medicare costs?",
+    answer:
+      "Yes. Medicare Savings Programs run by each state can help pay Part B premiums, and in some cases Part A premiums, deductibles, and coinsurance, for people who meet income and resource limits. Your State Health Insurance Assistance Program (SHIP) offers free one-on-one counseling to help you apply. You can learn more at Medicare.gov or call us at 855-559-1700 for a personalized review.",
+  }
 ];
 
 export default function HowCanISaveMoneyOnMyMedicareSupplement() {

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare insurance agents in burlington new jersey | Free Local Help | MedicareYourself",
   description:
-    "Talk to a licensed Medicare broker serving Burlington, NJ. Compare Medigap, Advantage & Part D plans across carriers free of charge. Call 855-559-1700 today.",
+    "Talk to a licensed Medicare broker serving Burlington, NJ. Free side-by-side comparison of Medigap, Advantage & Part D plans. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-insurance-agents-in-burlington-new-jersey" },
   openGraph: {
     title:
@@ -251,6 +251,22 @@ const faqs = [
     question: "What's the difference between Medigap and Medicare Advantage in Burlington, NJ?",
     answer:
       "Medigap supplements Original Medicare by helping pay deductibles and coinsurance, and it lets you use any Medicare-accepting provider. Medicare Advantage replaces Original Medicare with a private plan that often bundles drug coverage and extras but uses a network. A broker can compare both side by side based on your doctors and prescriptions.",
+  }
+,
+  {
+    question: "When can I enroll in a Medigap plan in New Jersey?",
+    answer:
+      "Your best window is the 6-month Medigap Open Enrollment Period that begins the month you're 65 or older and enrolled in Part B. During this period you have guaranteed issue rights, meaning carriers can't deny coverage or charge more based on health. Outside this window, medical underwriting may apply in New Jersey.",
+  },
+  {
+    question: "How are Medigap premiums priced in New Jersey?",
+    answer:
+      "New Jersey uses community rating for Medigap policies, meaning everyone with the same plan from the same carrier pays the same base premium regardless of age. Premiums can still vary between carriers, so comparing quotes through an independent broker is the best way to find competitive pricing in Burlington County.",
+  },
+  {
+    question: "Can a Burlington NJ broker help with both Medigap and Medicare Advantage?",
+    answer:
+      "Yes. A licensed independent broker can quote and enroll you in Medigap, Medicare Advantage, and Part D prescription drug plans. This lets you weigh the tradeoffs between the two main coverage paths side-by-side rather than only seeing options from a single carrier.",
   }
 ];
 
@@ -510,6 +526,7 @@ export default function MedicareInsuranceAgentsBurlingtonNJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
       </section>
     </>
   );

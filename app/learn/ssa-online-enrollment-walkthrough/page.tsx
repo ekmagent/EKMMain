@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title:
     "How to Enroll in Medicare Online at SSA.gov (Step-by-Step Walkthrough)",
   description:
-    "Step-by-step SSA.gov Medicare enrollment walkthrough — apply online in about 10 minutes. Call 855-559-1700 for free licensed broker help picking coverage.",
+    "Step-by-step SSA.gov Medicare enrollment walkthrough — apply online in about 10 minutes. Call 855-559-1700 for free licensed broker help choosing coverage.",
   alternates: {
     canonical: `${SITE_URL}/learn/ssa-online-enrollment-walkthrough`,
   },
@@ -736,6 +736,22 @@ const steps = [
     question: "Can I change my application after I submit it on SSA.gov?",
     answer:
       "No. Once you click Submit Now and agree to the Electronic Signature Agreement, your application is final and cannot be modified online. If you need to make changes, you'll have to contact Social Security directly. Review every screen carefully before submitting.",
+  }
+,
+  {
+    question: "How long does it take to enroll in Medicare online at SSA.gov?",
+    answer:
+      "Most people complete the online Medicare application in about 10 minutes. You'll need your Social Security number and a form of identification (like a driver's license) ready before you start. Social Security says applying online is the easiest and fastest way to sign up.",
+  },
+  {
+    question: "Can I sign up for just Medicare without claiming Social Security retirement benefits?",
+    answer:
+      "Yes. During the SSA online application, you can apply for Medicare only and delay your Social Security retirement benefits. This is a common choice for people who plan to keep working or want their retirement benefit to keep growing.",
+  },
+  {
+    question: "Can I change my Medicare application after I submit it on SSA.gov?",
+    answer:
+      "No. Once you click Submit Now and agree to the Electronic Signature Agreement, you cannot modify the application through the online portal. If you need to make a correction, you'll have to contact the Social Security Administration directly to update your record.",
   }
 ];
 

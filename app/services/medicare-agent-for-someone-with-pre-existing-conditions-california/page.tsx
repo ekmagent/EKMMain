@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare agent for someone with pre existing conditions california | Free Help | MedicareYourself",
   description:
-    "California Medicare help for pre-existing conditions: Medigap timing, Birthday Rule & guaranteed issue explained. Free licensed broker help — call 855-559-1700.",
+    "California Medicare help for pre-existing conditions: Birthday Rule, Medigap timing & guaranteed issue rights explained. Free licensed broker — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-agent-for-someone-with-pre-existing-conditions-california" },
   openGraph: {
     title:
@@ -159,6 +159,22 @@ const faqs = [
     question: "What is California's Medigap Birthday Rule?",
     answer:
       "California's Birthday Rule lets existing Medigap policyholders switch to another Medigap plan with equal or lesser benefits from any carrier without medical underwriting during a window that begins on their birthday each year. This guaranteed-issue right is unique to a handful of states and is especially valuable for residents with pre-existing conditions who want to shop for better pricing.",
+  }
+,
+  {
+    question: "Does Original Medicare cover pre-existing conditions in California?",
+    answer:
+      "Yes. Original Medicare (Part A and Part B) covers pre-existing conditions and has done so since the program began in 1965. There are no health questions, waiting periods, or exclusions based on prior diagnoses when you enroll in Original Medicare.",
+  },
+  {
+    question: "Does California have a Medigap Birthday Rule for switching plans?",
+    answer:
+      "Yes. California's Birthday Rule allows current Medigap enrollees to switch to another Medigap plan of equal or lesser benefits with the same or different carrier without medical underwriting. The window opens on your birthday each year and runs for a limited time, giving Californians with pre-existing conditions a yearly opportunity to shop rates.",
+  },
+  {
+    question: "Can a Medicare Advantage plan deny me in California for a pre-existing condition?",
+    answer:
+      "No. Medicare Advantage plans cannot deny enrollment or charge more based on pre-existing conditions, with the historical exception of End-Stage Renal Disease (ESRD), which was removed as a barrier starting in 2021. You can enroll during your Initial Enrollment Period, Annual Enrollment, or a qualifying Special Enrollment Period.",
   }
 ];
 

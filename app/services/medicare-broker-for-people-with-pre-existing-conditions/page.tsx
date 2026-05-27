@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare broker for people with pre-existing conditions | Free Guidance | MedicareYourself",
   description:
-    "Medicare broker for pre-existing conditions: find lenient carriers, guaranteed issue rights, and plans skipping health questions. Call 855-559-1700.",
+    "Medicare broker for pre-existing conditions — find lenient carriers, guaranteed issue rights, and plans that skip health questions. Free help: 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-people-with-pre-existing-conditions" },
   openGraph: {
     title:
@@ -182,6 +182,22 @@ const faqs = [
     question: "How does a broker help if I have multiple health conditions?",
     answer:
       "A broker familiar with carrier underwriting guidelines knows which insurers are more lenient with specific conditions and which will likely decline. This saves you from submitting applications that get denied and helps target carriers most likely to approve your coverage. The guidance is free since brokers are paid by the carriers.",
+  }
+,
+  {
+    question: "Which pre-existing conditions make Medigap underwriting harder?",
+    answer:
+      "Carriers vary, but conditions like recent cancer treatment, congestive heart failure, COPD, kidney disease, and insulin-dependent diabetes often trigger declines or higher-rate offers outside of open enrollment. Some carriers are more lenient with controlled conditions than others. A broker who works with multiple carriers can match your specific health profile to the company most likely to approve you.",
+  },
+  {
+    question: "Can a Medicare Advantage plan drop me if my health declines?",
+    answer:
+      "No. Medicare Advantage plans cannot drop you or raise your premium because your health changes after enrollment. Plans can change their benefits or leave a service area at year-end, but that applies to all enrollees equally — not based on individual health. You also keep guaranteed access to Original Medicare at any time.",
+  },
+  {
+    question: "Do I need to disclose my pre-existing conditions to a Medicare broker?",
+    answer:
+      "It helps. Sharing your health history lets the broker steer you toward carriers and plan types most likely to approve you and cover your needs. Brokers are required to keep your information confidential, and the conversation itself does not trigger any application or underwriting review.",
   }
 ];
 
@@ -379,6 +395,7 @@ export default function MedicareBrokerPreExistingConditions() {
             <div className="text-sm text-gray-600 mt-4">State help: <a href="https://www.state.nj.us/dobi/division_insurance/ihcseh/shipindex.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free unbiased counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </main>
   );

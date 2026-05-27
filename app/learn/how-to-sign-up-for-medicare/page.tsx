@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "How to Sign Up for Medicare (2026 Guide)",
   description:
-    "How to sign up for Medicare in 2026: enrollment windows, applying at SSA.gov, and avoiding Part B penalties. Free licensed broker help — call 855-559-1700.",
+    "How to sign up for Medicare in 2026: enrollment windows, applying at SSA.gov, and avoiding Part B late penalties. Free licensed broker help — call 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/how-to-sign-up-for-medicare` },
   openGraph: {
     title: "How to Sign Up for Medicare (2026 Guide)",
@@ -630,6 +630,22 @@ const faqs = [
     question: "Do I need to sign up for Part D when I enroll in Medicare?",
     answer:
       "Part D prescription drug coverage is optional, but if you go without creditable drug coverage for 63 days or more after your Initial Enrollment Period, you may owe a permanent Part D late enrollment penalty. Most people enroll in either a stand-alone Part D plan or a Medicare Advantage plan that includes drug coverage when they first become eligible.",
+  }
+,
+  {
+    question: "What happens if I miss my Medicare Initial Enrollment Period?",
+    answer:
+      "If you miss your Initial Enrollment Period and do not qualify for a Special Enrollment Period, you will need to wait for the General Enrollment Period (January 1 – March 31) to sign up for Part B. Coverage begins the month after you enroll. You may also owe a permanent Part B late enrollment penalty that is added to your monthly premium for as long as you have Medicare.",
+  },
+  {
+    question: "Can I sign up for Medicare if I am still working?",
+    answer:
+      "Yes. If you have group health coverage through your or your spouse's current employer, you can typically delay Part B without penalty and enroll later during a Special Enrollment Period. Most people still enroll in Part A at 65 since it is premium-free for those with 40+ work credits. Confirm with your HR department that your coverage is considered creditable before delaying.",
+  },
+  {
+    question: "How do I apply for Medicare online?",
+    answer:
+      "You can apply for Medicare directly through the Social Security Administration at ssa.gov/medicare/sign-up. The online application takes about 10 minutes and you can apply up to 3 months before the month you turn 65. You can also apply by calling Social Security or visiting your local office.",
   }
 ];
 

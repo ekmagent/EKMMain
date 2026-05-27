@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "tampa medicare agent | Free Plan Comparison | MedicareYourself",
   description:
-    "Compare Medigap and Medicare Advantage plans with a licensed Tampa Medicare agent. Free, no-obligation help across top FL carriers — call 855-559-1700.",
+    "Work with a licensed Tampa Medicare agent to compare Medigap and Advantage plans across top FL carriers. Free, no-obligation help — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/tampa-medicare-agent" },
   openGraph: {
     title:

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare supplement premiums increasing by double digits in 2025 | Free Rate Review | MedicareYourself",
   description:
-    "Medigap premiums rising in 2025? Compare carriers offering the same standardized benefits and see if switching lowers your rate. Free review: 855-559-1700.",
+    "Medigap rates rising in 2025? Compare carriers offering identical standardized benefits and see if switching lowers your premium. Free review: 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-supplement-premiums-increasing-by-double-digits-in-2025" },
   openGraph: {
     title:
@@ -220,6 +220,22 @@ const faqs = [
     question: "Why are Medicare Supplement rates rising faster than in past years?",
     answer:
       "Insurers cite higher medical claim costs, increased utilization of services, and inflation in hospital and outpatient pricing. As the Part A deductible and other Medicare cost-sharing amounts rise, the dollars carriers pay on each claim go up as well. Carriers with older closed blocks of business tend to see the steepest increases.",
+  }
+,
+  {
+    question: "What should I do first if I get a rate increase letter from my Medigap carrier?",
+    answer:
+      "Open the letter and note your new premium and effective date. Then request a free rate review to compare other carriers offering the same standardized plan letter in your ZIP code. If you qualify medically, switching can lock in a lower rate without changing your benefits. Call 855-559-1700 to start a comparison.",
+  },
+  {
+    question: "Will switching Medigap carriers change my doctors or hospitals?",
+    answer:
+      "No. Medicare Supplement plans work with any provider in the U.S. that accepts Original Medicare. The carrier on your Medigap card does not affect your provider network, only the premium and customer service experience.",
+  },
+  {
+    question: "Is it worth switching Medigap plans if I have to go through underwriting?",
+    answer:
+      "It depends on your health and the potential savings. If you qualify medically and the new premium is meaningfully lower, the long-term savings can be significant since Medigap rates tend to increase each year. A licensed broker can pre-screen underwriting questions before you submit a formal application.",
   }
 ];
 

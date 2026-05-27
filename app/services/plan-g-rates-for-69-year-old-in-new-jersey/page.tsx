@@ -107,6 +107,12 @@ const faqs = [
     answer:
       "New Jersey uses community rating for Medigap, which means carriers cannot charge you a different premium based on your age. A 69-year-old and an 85-year-old buying the same Plan G from the same carrier in NJ generally pay the same base rate. Premiums can still change over time due to inflation and claims experience.",
   }
+,
+  {
+    question: "Why do Plan G premiums differ between carriers if benefits are the same?",
+    answer:
+      "Federal law standardizes Plan G benefits, so coverage is identical no matter which company sells it. Carriers differ in how they price policies, their underwriting, expected claims, administrative costs, and rate stability over time. That's why comparing multiple carriers side by side is the most effective way to save money on identical coverage.",
+  }
 ];
 
 export default function PlanGRates69NJ() {
@@ -344,6 +350,7 @@ export default function PlanGRates69NJ() {
             <div className="text-sm text-gray-600 mt-4">For New Jersey-specific guidance, visit the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free unbiased counseling.</div>
             <div className="text-sm text-gray-600 mt-4">For free, unbiased Medicare counseling in New Jersey, visit the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> or the <a href="https://www.nj.gov/dobi/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
       </article>
     </>

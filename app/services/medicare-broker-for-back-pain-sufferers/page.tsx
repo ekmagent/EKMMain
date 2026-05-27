@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for back pain sufferers | Free Plan Comparison | MedicareYourself",
   description:
-    "Medicare broker for back pain sufferers helping you find plans covering PT, injections, and surgery. Anthony Orner compares your options — free consultation.",
+    "Medicare broker for back pain sufferers — compare plans covering PT, injections, chiropractic, and surgery. Free consultation with Anthony Orner: 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-back-pain-sufferers" },
   openGraph: {
     title:
@@ -96,6 +96,22 @@ const faqs = [
     question: "Does Medicare cover physical therapy for chronic back pain?",
     answer:
       "Yes. Medicare Part B covers medically necessary outpatient physical therapy with no hard cap on visits, as long as your provider documents that continued therapy is reasonable and necessary. After you meet the Part B deductible, you typically pay coinsurance unless you have a Medigap plan that covers it.",
+  }
+,
+  {
+    question: "Does Medicare cover chiropractic care for back pain?",
+    answer:
+      "Medicare Part B covers manual manipulation of the spine by a chiropractor when medically necessary to correct a subluxation. Medicare does not cover other chiropractic services such as X-rays, massage therapy, or acupuncture performed by a chiropractor. After meeting your Part B deductible, you typically pay coinsurance for covered chiropractic visits.",
+  },
+  {
+    question: "Are epidural steroid injections covered by Medicare?",
+    answer:
+      "Yes. Medicare Part B covers medically necessary epidural steroid injections for back pain when performed in an outpatient setting and ordered by a qualified provider. Coverage rules and documentation requirements can vary by region, so I help clients confirm whether their plan applies coinsurance, copays, or prior authorization to these procedures.",
+  },
+  {
+    question: "Does Medicare cover acupuncture for chronic back pain?",
+    answer:
+      "Yes. Since 2020, Medicare covers acupuncture for chronic low back pain — defined as pain lasting 12 weeks or longer — for up to 12 visits in 90 days, with 8 additional sessions if you show improvement. Treatment must be furnished by an authorized provider, and Part B cost-sharing applies.",
   }
 ];
 
@@ -358,6 +374,7 @@ export default function MedicareBrokerForBackPainSufferers() {
               <div className="text-sm text-gray-600 mt-4">Learn more from official sources: <a href="https://www.medicare.gov/coverage/acupuncture" target="_blank" rel="noopener noreferrer" className="underline">Medicare.gov — Acupuncture for chronic low back pain</a> and <a href="https://www.medicare.gov/coverage/physical-therapy" target="_blank" rel="noopener noreferrer" className="underline">Medicare.gov — Physical therapy coverage</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">Free unbiased counseling: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
       </section>
       </article>
     </>

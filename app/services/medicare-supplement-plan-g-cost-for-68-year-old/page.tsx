@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare Supplement Plan G Cost for a 68-Year-Old | Free Rate Comparison | MedicareYourself",
   description:
-    "Medicare Supplement Plan G cost for a 68-year-old varies by carrier and state. Compare real rates side-by-side — call 855-559-1700 for a free quote.",
+    "Compare Medicare Supplement Plan G costs for a 68-year-old by carrier and state. See how premiums vary — call 855-559-1700 for a free rate comparison.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-supplement-plan-g-cost-for-68-year-old" },
   openGraph: {
     title:

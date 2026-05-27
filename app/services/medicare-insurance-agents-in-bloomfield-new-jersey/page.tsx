@@ -143,6 +143,17 @@ const faqs = [
     answer:
       "New Jersey uses community rating for Medigap, meaning premiums are based on the plan and carrier rather than your individual age. Your strongest enrollment protection is the federal 6-month Medigap Open Enrollment Period that begins the month you're 65 or older and enrolled in Part B. During that window, carriers cannot deny you coverage or charge more based on health. Outside that window, applying for Medigap in NJ may involve medical underwriting unless you qualify for a guaranteed issue right.",
   }
+,
+  {
+    question: "Does New Jersey have special Medigap enrollment rules I should know about?",
+    answer:
+      "New Jersey uses community rating for Medigap, which means premiums for a given plan are not based on your individual age. Your strongest protections apply during your 6-month Medigap Open Enrollment Period, which starts the month you're 65 or older and enrolled in Part B. Outside that window, applying for a Medigap policy may involve medical underwriting unless you qualify for a specific guaranteed-issue right.",
+  },
+  {
+    question: "What should I bring to a Medicare planning appointment in Bloomfield?",
+    answer:
+      "Have your red, white, and blue Medicare card or your Medicare number ready, along with a list of your current prescriptions including dosages. It also helps to have the names of your preferred doctors, specialists, and hospitals so we can confirm network participation. If you have existing coverage through an employer, union, or retiree plan, bring that summary as well.",
+  }
 ];
 
 export default function MedicareInsuranceAgentsBloomfieldNJ() {

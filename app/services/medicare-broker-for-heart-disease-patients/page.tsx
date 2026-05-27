@@ -291,6 +291,12 @@ const faqs = [
     answer:
       "Not for Original Medicare or Medicare Advantage — you cannot be denied coverage or charged more based on your heart condition. However, Medigap supplement plans can use medical underwriting outside your initial Medigap Open Enrollment Period, which means a heart condition could affect your ability to switch supplements later. This is why timing your enrollment correctly matters.",
   }
+,
+  {
+    question: "Are heart medications covered under Medicare?",
+    answer:
+      "Most heart medications are covered under Medicare Part D prescription drug plans or through a Medicare Advantage plan that includes drug coverage. Each plan has its own formulary, so the same medication may have very different costs depending on the plan you choose. A broker can run your specific prescription list against available plans to find the lowest total annual cost.",
+  }
 ];
 
 export default function MedicareBrokerHeartDiseasePatients() {

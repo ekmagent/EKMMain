@@ -255,6 +255,22 @@ const programs = [
     answer:
       "No. Qualifying for Extra Help, QMB, SLMB, or other Medicare Savings Programs does not reduce your Social Security check or affect SNAP, housing assistance, or other benefits. In fact, if your state pays your Part B premium through an MSP, your Social Security deposit may actually increase because that premium is no longer deducted.",
   }
+,
+  {
+    question: "How do I apply for Extra Help with prescription drug costs?",
+    answer:
+      "You can apply for Extra Help (the Part D Low Income Subsidy) for free through the Social Security Administration at ssa.gov, by calling Social Security, or by visiting your local Social Security office. You can also apply through your state Medicaid office. If you already have Medicaid, Supplemental Security Income (SSI), or a Medicare Savings Program, you automatically qualify and do not need to apply separately.",
+  },
+  {
+    question: "Will applying for a Medicare Savings Program affect my Social Security check?",
+    answer:
+      "No — qualifying for a Medicare Savings Program actually increases your monthly income because your state begins paying your Part B premium, which is normally deducted from your Social Security check. That deduction stops once QMB, SLMB, or QI coverage begins. It does not reduce your Social Security benefit in any other way.",
+  },
+  {
+    question: "What if I am turned down for a Medicare Savings Program?",
+    answer:
+      "Income and asset limits change yearly, and many states use rules that are more generous than the federal baseline, so it is worth reapplying — especially after a change in income, marital status, or housing costs. You also have the right to appeal a denial through your state Medicaid office. A licensed broker can walk you through your options at 855-559-1700.",
+  }
 ];
 
 export default function LowIncomeMedicarePage() {

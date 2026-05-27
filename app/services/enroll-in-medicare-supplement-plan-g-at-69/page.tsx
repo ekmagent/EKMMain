@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "enroll in medicare supplement plan g at 69 | Free Broker Guidance | MedicareYourself",
   description:
-    "Enrolling in Medicare Supplement Plan G at 69? Compare carriers, navigate underwriting, and apply with licensed broker help. Call 855-559-1700 today.",
+    "Turning 69 and want Medigap Plan G? Compare carriers, navigate underwriting, and apply with free licensed broker help. Call 855-559-1700 to get started.",
   alternates: { canonical: "https://medicareyourself.com/services/enroll-in-medicare-supplement-plan-g-at-69" },
   openGraph: {
     title:
@@ -85,6 +85,17 @@ const faqs = [
     answer:
       "Rates vary by carrier, state, gender, and tobacco status. At 69, you'll pay more than someone who enrolled at 65 because most carriers use attained-age pricing. A licensed broker can pull real quotes from multiple carriers at no cost to you.",
   },
+,
+  {
+    question: "What happens if I'm denied Plan G at 69 due to underwriting?",
+    answer:
+      "If one carrier declines your application, another may still approve you because each insurer uses different underwriting criteria. A licensed broker can help you identify carriers most likely to accept your health profile before you apply. You can also explore Medicare Advantage as an alternative, since it has guaranteed issue during your annual enrollment windows.",
+  },
+  {
+    question: "Do I need to drop my current coverage before applying for Plan G?",
+    answer:
+      "No. You should keep your existing coverage in place until your Plan G application is approved and the new policy's effective date is confirmed. Dropping coverage too early can leave you with gaps in protection. Once approved, you can coordinate the cancellation of your prior plan with the start date of Plan G.",
+  }
 ];
 
 export default function EnrollInMedicareSupplementPlanGAt69() {
@@ -331,6 +342,7 @@ export default function EnrollInMedicareSupplementPlanGAt69() {
             <div className="text-sm text-gray-600 mt-4">For state-specific guidance, visit the <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">State Health Insurance Assistance Program (SHIP)</a> to find free, unbiased Medicare counseling in your state.</div>
             <div className="text-sm text-gray-600 mt-4">Need state-specific guidance? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free local Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </main>
   );

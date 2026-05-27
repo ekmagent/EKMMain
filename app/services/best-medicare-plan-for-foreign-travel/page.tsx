@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "the best medicare plan for foreign travel | Free Comparison | MedicareYourself",
   description:
-    "The best Medicare plan for foreign travel is Plan G or Plan N — both cover emergency care abroad. Compare options free with Anthony Orner.",
+    "Find the best Medicare plan for foreign travel. Medigap Plans G and N include emergency coverage abroad — compare free with a licensed broker today.",
   alternates: { canonical: "https://medicareyourself.com/services/best-medicare-plan-for-foreign-travel" },
   openGraph: {
     title:
@@ -362,6 +362,7 @@ export default function BestMedicarePlanForForeignTravel() {
           </li>
         </ul>
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/coverage/travel-outside-the-u.s." rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Travel Outside the U.S.</a> and <a href="https://www.medicare.gov/publications/11037-medicare-coverage-outside-the-united-states.pdf" rel="noopener noreferrer" target="_blank" className="underline">CMS Publication 11037: Medicare Coverage Outside the United States (PDF)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
       </section>
     </main>
   );

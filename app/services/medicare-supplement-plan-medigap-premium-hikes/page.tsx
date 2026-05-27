@@ -122,6 +122,17 @@ const faqs = [
     answer:
       "No. Medicare standardizes the benefits in each lettered plan, but each insurance company decides how to price its policies. That's why the same Plan G can cost very different amounts depending on the carrier and your location.",
   }
+,
+  {
+    question: "Does my Medigap policy renew automatically even if rates go up?",
+    answer:
+      "Yes. As long as you pay your premium, your Medigap policy is guaranteed renewable. The insurance company cannot cancel it because of health changes, but they can raise your premium based on the pricing method used for your policy.",
+  },
+  {
+    question: "If I switch Medigap carriers, will there be a gap in my coverage?",
+    answer:
+      "No, if the transition is timed correctly. A licensed broker will align your new policy's effective date with the cancellation of the old one so coverage is continuous. Never cancel your existing policy until the new one is approved and in force.",
+  }
 ];
 
 export default function MedigapPremiumHikesPage() {
@@ -383,6 +394,7 @@ export default function MedigapPremiumHikesPage() {
             <div className="text-sm text-gray-600 mt-4">For state-specific help, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medigap counseling.</div>
             <div className="text-sm text-gray-600 mt-4">Need state-specific guidance? Contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">New Jersey Department of Banking and Insurance</a> or your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a> for free counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> or contact the <a href="https://www.nj.gov/dobi/division_insurance/" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medigap counseling.</div>
       </section>
     </main>
   );

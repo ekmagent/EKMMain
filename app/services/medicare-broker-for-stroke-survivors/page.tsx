@@ -210,6 +210,22 @@ const faqs = [
     answer:
       "It depends on your providers, budget, and recovery needs. Medicare Supplement (Medigap) plans pair with Original Medicare and offer broad provider access plus predictable out-of-pocket costs — often a strong fit for ongoing rehab and specialist care. Medicare Advantage plans may include extras like transportation or fitness benefits but use networks and prior authorization. I'll compare both based on your situation — call 855-559-1700.",
   }
+,
+  {
+    question: "Does Medicare cover home health care after a stroke?",
+    answer:
+      "Yes. If your doctor certifies you are homebound and need skilled care, Medicare Part A and Part B cover intermittent skilled nursing, physical therapy, speech-language pathology, and occupational therapy at home. Home health aide services may also be covered when tied to skilled care. A Medicare-certified home health agency must provide the services.",
+  },
+  {
+    question: "Will Medicare pay for durable medical equipment like a wheelchair or walker after a stroke?",
+    answer:
+      "Yes. Medicare Part B covers durable medical equipment (DME) such as wheelchairs, walkers, hospital beds, and commode chairs when your doctor prescribes them as medically necessary. You typically pay the Part B coinsurance after meeting the deductible. The supplier must be enrolled in Medicare for the equipment to be covered.",
+  },
+  {
+    question: "Should a stroke survivor choose Medicare Advantage or a Medigap plan?",
+    answer:
+      "It depends on your providers, prescriptions, and out-of-pocket tolerance. Medigap plans pair with Original Medicare and offer broad provider access plus predictable cost-sharing, which can be valuable when rehab and specialist visits are frequent. Medicare Advantage plans often bundle drug coverage and extras but use networks and prior authorization. I'll compare both sides for your situation — call 855-559-1700.",
+  }
 ];
 
 export default function MedicareBrokerForStrokeSurvivors() {
@@ -433,6 +449,7 @@ export default function MedicareBrokerForStrokeSurvivors() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Need free local counseling? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for unbiased Medicare guidance.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

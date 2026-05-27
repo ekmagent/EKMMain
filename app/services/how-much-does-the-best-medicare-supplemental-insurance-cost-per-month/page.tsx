@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "how much does the best medicare supplemental insurance cost per month | Free Plan-by-Plan Breakdown | MedicareYourself",
   description:
-    "Compare Medicare Supplement Plan G and Plan N monthly costs by carrier, age, and zip code. Get a free side-by-side quote from a licensed broker — call 855-559-1700.",
+    "Compare Medicare Supplement Plan G and Plan N monthly costs by carrier, age, and zip code. Free side-by-side quote — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/how-much-does-the-best-medicare-supplemental-insurance-cost-per-month" },
   openGraph: {
     title:
@@ -145,6 +145,12 @@ const faqs = [
     question: "Can I switch Medigap plans later if I find a cheaper rate?",
     answer:
       "You can apply to switch Medigap plans at any time, but outside your initial Open Enrollment Period you may face medical underwriting. That means a carrier can review your health history and either charge more or decline coverage. Some states have additional protections, so it is worth reviewing your options with a licensed broker before switching.",
+  }
+,
+  {
+    question: "Does where I live affect my Medicare Supplement premium?",
+    answer:
+      "Yes. Medigap premiums vary significantly by zip code because carriers price policies based on local claims experience and state regulations. Two people the same age with the same Plan G can pay very different rates depending on where they live.",
   }
 ];
 
@@ -397,6 +403,7 @@ export default function HowMuchDoesBestMedicareSupplementalInsuranceCostPerMonth
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">State help: <a href="https://www.nj.gov/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> &middot; <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">SHIP — Free State Medicare Counseling</a></div>
       </section>
     </main>
   );

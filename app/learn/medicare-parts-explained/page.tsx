@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Medicare Parts A, B, C & D Explained",
   description:
-    "Medicare Parts A, B, C & D explained in plain English — what each part covers, costs, and how they work together. Call 855-559-1700 for free guidance.",
+    "Medicare Parts A, B, C & D explained in plain English — what each part covers and how they fit together. Call 855-559-1700 for free, no-pressure guidance.",
   alternates: { canonical: `${SITE_URL}/learn/medicare-parts-explained` },
   openGraph: {
     title: "Medicare Parts A, B, C & D Explained",
@@ -38,6 +38,22 @@ const faqs = [
     answer:
       "Part B coverage begins based on when you enroll. If you enroll during the 3 months before your 65th birthday, coverage starts the month you turn 65. If you enroll during your birthday month or after, coverage is delayed by 1–3 months. Enrolling early is recommended to avoid a gap in coverage.",
   },
+,
+  {
+    question: "What does Medicare Part D cover?",
+    answer:
+      "Part D covers the cost of prescription drugs, including many recommended shots and vaccines. You join a stand-alone Medicare drug plan in addition to Original Medicare, or get drug coverage bundled into a Medicare Advantage plan. Each plan has its own formulary (list of covered drugs) and pharmacy network.",
+  },
+  {
+    question: "Can I switch between Original Medicare and Medicare Advantage?",
+    answer:
+      "Yes. You can switch during the Annual Enrollment Period (October 15 – December 7) each year, with changes taking effect January 1. There is also a Medicare Advantage Open Enrollment Period (January 1 – March 31) for those already in a Medicare Advantage plan. Switching back to Original Medicare may affect your ability to buy a Medigap policy without medical underwriting.",
+  },
+  {
+    question: "Do Medicare Parts A and B cover prescription drugs?",
+    answer:
+      "Generally, no. Original Medicare (Parts A and B) does not cover most outpatient prescription drugs. To get drug coverage, you need to enroll in a stand-alone Part D plan or a Medicare Advantage plan that includes drug coverage. Call 855-559-1700 for help comparing your options.",
+  }
 ];
 
 export default function MedicarePartsPage() {

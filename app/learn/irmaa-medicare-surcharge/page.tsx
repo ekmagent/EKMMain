@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
   description:
-    "Understand 2026 Medicare IRMAA surcharges on Part B & D, income brackets, and how to appeal with SSA-44. Free broker guidance — call 855-559-1700.",
+    "Learn how Medicare's IRMAA surcharge works for 2026 — income brackets, Part B & D impact, and how to appeal with SSA-44. Free broker help: 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/irmaa-medicare-surcharge` },
   openGraph: {
     title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
@@ -613,6 +613,22 @@ const faqs = [
     question: "Can I avoid IRMAA with Medicare Advantage instead of Original Medicare?",
     answer:
       "No. IRMAA applies to your Part B and Part D premiums regardless of whether you choose Original Medicare or Medicare Advantage. Even if your Medicare Advantage plan has a $0 premium, you still owe the standard Part B premium plus any IRMAA surcharge. Switching plan types does not change how the income surcharge is calculated.",
+  }
+,
+  {
+    question: "How do I appeal an IRMAA determination?",
+    answer:
+      "If you've experienced a life-changing event that reduced your income, you can file Form SSA-44 with the Social Security Administration to request a reduction in your IRMAA surcharge. Acceptable events include marriage, divorce, death of a spouse, work stoppage or reduction, and loss of pension or income-producing property. You'll need to submit documentation supporting both the event and your reduced income estimate.",
+  },
+  {
+    question: "Is IRMAA recalculated every year?",
+    answer:
+      "Yes. Social Security reviews your most recent tax return data from the IRS each year to determine whether you owe IRMAA for the upcoming year. If your income drops below the threshold, your surcharge will go away automatically the following year. If it rises, you may begin owing IRMAA or move into a higher bracket.",
+  },
+  {
+    question: "Can a Medicare broker help me plan around IRMAA?",
+    answer:
+      "A licensed Medicare broker can't change your tax situation, but we can help you understand how IRMAA affects your total Medicare costs and choose plans that work with your budget. We can also walk you through the SSA-44 appeal process if you've had a qualifying life-changing event. Call 855-559-1700 for free guidance.",
   }
 ];
 
