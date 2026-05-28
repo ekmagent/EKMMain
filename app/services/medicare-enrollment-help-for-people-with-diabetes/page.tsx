@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare Enrollment Help for People With Diabetes | Free Guidance | MedicareYourself",
   description:
-    "Medicare enrollment help for people with diabetes—compare plans covering insulin, CGMs, and supplies. Call 855-559-1700 for free expert guidance today.",
+    "Medicare enrollment help for people with diabetes—compare plans covering insulin, CGMs & supplies. Call 855-559-1700 for free expert guidance today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-enrollment-help-for-people-with-diabetes" },
   openGraph: {
     title:
@@ -210,6 +210,12 @@ const faqs = [
     question: "Are diabetic test strips and monitors covered by Medicare?",
     answer:
       "Yes. Medicare Part B covers blood sugar monitors, test strips, lancets, and lancet devices as durable medical equipment when prescribed by your doctor. You'll need to use a Medicare-enrolled DME supplier to get the lowest cost. Coverage amounts may differ depending on whether you use insulin.",
+  }
+,
+  {
+    question: "Is there help paying for insulin and other diabetes medications under Medicare?",
+    answer:
+      "Yes. Medicare's Extra Help program assists people with limited income and resources in paying Part D premiums, deductibles, and copayments. Insulin covered under Part D also has a monthly cost cap set by Medicare. Call 855-559-1700 to see if you qualify for Extra Help or to compare Part D plans that include your insulin.",
   }
 ];
 
@@ -508,6 +514,7 @@ export default function MedicareEnrollmentHelpDiabetes() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free local Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

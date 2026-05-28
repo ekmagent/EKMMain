@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title:
     "How to Enroll in Medicare Online at SSA.gov (Step-by-Step Walkthrough)",
   description:
-    "Step-by-step SSA.gov Medicare enrollment walkthrough — apply online in about 10 minutes. Call 855-559-1700 for free licensed broker help choosing coverage.",
+    "Step-by-step SSA.gov Medicare enrollment walkthrough — apply online in about 10 minutes. Call 855-559-1700 for free licensed broker help with next steps.",
   alternates: {
     canonical: `${SITE_URL}/learn/ssa-online-enrollment-walkthrough`,
   },
@@ -752,6 +752,22 @@ const steps = [
     question: "Can I change my Medicare application after I submit it on SSA.gov?",
     answer:
       "No. Once you click Submit Now and agree to the Electronic Signature Agreement, you cannot modify the application through the online portal. If you need to make a correction, you'll have to contact the Social Security Administration directly to update your record.",
+  }
+,
+  {
+    question: "Do I have to enroll in Medicare through SSA.gov, or can I sign up at Medicare.gov?",
+    answer:
+      "Medicare enrollment for Part A and Part B is handled by the Social Security Administration, not Medicare.gov. Medicare.gov directs you to SSA.gov to complete the application. You can also enroll by phone with Social Security or by visiting a local SSA office.",
+  },
+  {
+    question: "What documents do I need before starting the SSA online Medicare application?",
+    answer:
+      "You will need your Social Security number and a valid driver's license or state ID to verify your identity through Login.gov or ID.me. If you have current health coverage through an employer, gather the employer name, coverage start date, and group plan details. Having this information ready helps you complete the application in about 10 minutes.",
+  },
+  {
+    question: "Can I change my Medicare application after I submit it on SSA.gov?",
+    answer:
+      "No. Once you click Submit Now and agree to the Electronic Signature Agreement, you cannot modify the application online. If you need to make changes, you must contact the Social Security Administration directly. Review every screen carefully before submitting.",
   }
 ];
 

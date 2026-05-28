@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare specialists in south carolina | Free Multi-Carrier Quotes | MedicareYourself",
   description:
-    "Compare South Carolina Medicare Supplement, Advantage & Part D plans with licensed broker Anthony Orner. Free multi-carrier quotes — call 855-559-1700.",
+    "Compare South Carolina Medicare Supplement, Advantage & Part D plans with licensed broker Anthony Orner. Free multi-carrier quotes — call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-specialists-in-south-carolina" },
   openGraph: {
     title:
@@ -120,6 +120,22 @@ const faqs = [
     question: "What's the difference between Medigap and Medicare Advantage for SC seniors?",
     answer:
       "Medigap (Medicare Supplement) works alongside Original Medicare to help pay deductibles, copays, and coinsurance, and lets you see any provider that accepts Medicare nationwide. Medicare Advantage replaces Original Medicare with a private plan that typically uses SC provider networks and often bundles drug and extra benefits. The right choice depends on your providers, budget, and travel habits.",
+  }
+,
+  {
+    question: "What's the difference between a Medicare agent and a Medicare broker in South Carolina?",
+    answer:
+      "A captive Medicare agent typically represents one insurance carrier and can only sell that company's plans. An independent broker like Anthony Orner is appointed with multiple carriers and can compare options side-by-side. For South Carolina residents, working with an independent broker means seeing a wider range of Medigap and Advantage choices in one conversation.",
+  },
+  {
+    question: "Can I switch Medicare plans during the year in South Carolina?",
+    answer:
+      "Medicare Advantage and Part D plans can be changed during the Annual Enrollment Period each fall, and certain Special Enrollment Periods may apply if you move, lose coverage, or qualify for Extra Help. Medigap plan changes outside your initial open enrollment window may require medical underwriting in South Carolina. A licensed broker can review your situation and tell you exactly when you're eligible to switch.",
+  },
+  {
+    question: "Are Medicare Advantage plans popular in South Carolina?",
+    answer:
+      "Yes, Medicare Advantage enrollment has grown steadily across South Carolina, with strong plan availability in metro areas like Charleston, Columbia, and Greenville. Network size, prescription drug coverage, and extra benefits like dental and vision vary by county. Comparing plans by ZIP code with a licensed broker helps ensure your doctors and medications are covered before you enroll.",
   }
 ];
 
@@ -308,6 +324,7 @@ export default function MedicareSpecialistsSouthCarolina() {
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/plan-compare" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Medicare.gov Plan Compare</a> · <a href="https://www.cms.gov/medicare" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">CMS Medicare Overview</a></div>
             <div className="text-sm text-gray-600 mt-4">South Carolina residents can also get free counseling through <a href="https://aging.sc.gov/programs-initiatives/gethelp/insurance-counseling-assistance-and-referrals-medicare" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">SC SHIP (Insurance Counseling Assistance and Referrals for Medicare)</a> through the SC Department on Aging.</div>
             <div className="text-sm text-gray-600 mt-4">South Carolina resource: <a href="https://doi.sc.gov/" rel="noopener noreferrer" target="_blank" className="underline">South Carolina Department of Insurance</a> — verify agent licenses and file complaints.</div>
+            <div className="text-sm text-gray-600 mt-4">South Carolina residents can also contact <a href="https://aging.sc.gov/programs-initiatives/insurance-counseling-assistance-and-referrals-medicare" rel="noopener noreferrer" target="_blank" className="underline">SC SHIP (Insurance Counseling Assistance and Referrals for Medicare)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </main>
   );

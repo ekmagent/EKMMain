@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "How to Sign Up for Medicare (2026 Guide)",
   description:
-    "How to sign up for Medicare in 2026: enrollment windows, applying at SSA.gov, and avoiding Part B late penalties. Free licensed broker help — call 855-559-1700.",
+    "How to sign up for Medicare in 2026: enrollment windows, applying at SSA.gov, and avoiding Part B late penalties. Free broker help — call 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/how-to-sign-up-for-medicare` },
   openGraph: {
     title: "How to Sign Up for Medicare (2026 Guide)",
@@ -646,6 +646,22 @@ const faqs = [
     question: "How do I apply for Medicare online?",
     answer:
       "You can apply for Medicare directly through the Social Security Administration at ssa.gov/medicare/sign-up. The online application takes about 10 minutes and you can apply up to 3 months before the month you turn 65. You can also apply by calling Social Security or visiting your local office.",
+  }
+,
+  {
+    question: "What happens if I miss my Medicare Initial Enrollment Period?",
+    answer:
+      "If you miss your Initial Enrollment Period and do not qualify for a Special Enrollment Period, you will need to wait for the General Enrollment Period, which runs January 1 through March 31 each year. You may also owe a permanent Part B late enrollment penalty that increases your premium for as long as you have Medicare. Call 855-559-1700 if you missed your window and need help figuring out your next step.",
+  },
+  {
+    question: "Can I sign up for Medicare online?",
+    answer:
+      "Yes. You can apply for Medicare online at ssa.gov/medicare, even if you are not ready to start collecting Social Security retirement benefits. The application typically takes about 10 minutes, and you can apply starting 3 months before the month you turn 65.",
+  },
+  {
+    question: "Do I need to sign up for Medicare if I already have employer health insurance?",
+    answer:
+      "If you have creditable coverage through active employment (yours or a spouse's), you can usually delay Part B without penalty and enroll later through a Special Enrollment Period. Most people still enroll in Part A at 65 because it is premium-free for those with enough work credits. Confirm with your HR department that your plan counts as creditable before delaying Part B.",
   }
 ];
 

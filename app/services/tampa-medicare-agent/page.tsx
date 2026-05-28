@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "tampa medicare agent | Free Plan Comparison | MedicareYourself",
   description:
-    "Work with a licensed Tampa Medicare agent to compare Medigap and Advantage plans across top FL carriers. Free, no-obligation help — call 855-559-1700.",
+    "Compare Medigap and Medicare Advantage plans in Tampa with a licensed broker. Free, no-obligation help across top FL carriers — call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/tampa-medicare-agent" },
   openGraph: {
     title:
@@ -383,6 +383,7 @@ export default function TampaMedicareAgent() {
             <div className="text-sm text-gray-600 mt-4">Florida residents can also contact <a href="https://www.floridashine.org/" rel="noopener noreferrer" target="_blank" className="underline">Florida SHINE</a>, the state's free Medicare counseling program.</div>
             <div className="text-sm text-gray-600 mt-4">Florida residents can also contact <a href="https://www.floir.com/" rel="noopener noreferrer" target="_blank" className="underline">the Florida Office of Insurance Regulation</a> or the <a href="https://www.floridashine.org/" rel="noopener noreferrer" target="_blank" className="underline">Florida SHINE program</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">Florida residents can also contact <a href="https://www.floridashine.org/" rel="noopener noreferrer" target="_blank" className="underline">SHINE (Florida's SHIP program)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">Florida residents can also get free, unbiased counseling through <a href="https://www.floridashine.org/" rel="noopener noreferrer" target="_blank" className="underline">SHINE (Florida's SHIP program)</a>.</div>
       </section>
     </main>
   );

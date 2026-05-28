@@ -599,6 +599,22 @@ const faqs = [
     answer:
       "Yes — Medigap plan benefits are federally standardized, so a Plan G from one carrier covers the exact same services as a Plan G from any other carrier. However, the monthly premium each carrier charges for that identical coverage can vary significantly. That is why comparing every licensed carrier in your state matters more than picking a brand name.",
   }
+,
+  {
+    question: "When is the best time to buy a Medigap policy?",
+    answer:
+      "The best time to buy a Medigap policy is during your 6-month Medigap Open Enrollment Period, which starts the first month you are both 65 or older and enrolled in Medicare Part B. During this window, insurance companies cannot deny you coverage or charge you more based on health conditions. Outside this window, you may face medical underwriting in most states.",
+  },
+  {
+    question: "Can I switch Medigap plans after I enroll?",
+    answer:
+      "You can apply to switch Medigap plans at any time, but outside your Open Enrollment Period or a guaranteed-issue situation, carriers can use medical underwriting to deny coverage or charge higher premiums. A few states have special rules that allow easier switching. Call 855-559-1700 to review whether your state offers additional protections before you switch.",
+  },
+  {
+    question: "Do I need to re-enroll in my Medigap plan every year?",
+    answer:
+      "No. Medigap policies are guaranteed renewable as long as you pay your premium, meaning the carrier cannot drop you because of health issues or claims. You do not need to re-apply each year like you would with a Medicare Advantage plan during the Annual Enrollment Period.",
+  }
 ];
 
 export default function HowToEnrollMedigapPage() {

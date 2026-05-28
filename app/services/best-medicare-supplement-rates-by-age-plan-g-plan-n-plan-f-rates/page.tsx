@@ -102,6 +102,22 @@ const faqs = [
     answer:
       "Yes. Plan N requires copays for some office visits and emergency room visits, and it doesn't cover Part B excess charges, while Plan G does. In exchange, Plan N typically has a lower monthly premium than Plan G. Whether the savings outweigh the copays depends on how often you use care.",
   }
+,
+  {
+    question: "Does my ZIP code affect my Medicare Supplement rate?",
+    answer:
+      "Yes. Carriers file rates by state and often by rating area within a state, so two people the same age can pay different premiums for the same Plan G based on ZIP code. Urban areas typically see higher Medigap premiums than rural areas because of local claims costs. We can compare your ZIP-specific rates when you call 855-559-1700.",
+  },
+  {
+    question: "Can I switch from Plan F to Plan G to save money?",
+    answer:
+      "You can apply to switch, but outside your Open Enrollment Period most carriers require medical underwriting, meaning you can be denied or charged more based on health. Some states have rules like birthday or anniversary windows that allow switching without underwriting. It's worth comparing your current premium against a fresh Plan G quote each year.",
+  },
+  {
+    question: "Are Medicare Supplement rates the same for men and women?",
+    answer:
+      "Most carriers offer a household or female discount, so rates can differ slightly by gender and living situation. Tobacco use also affects pricing with many carriers. Comparing multiple carriers side-by-side is the only reliable way to find your lowest rate.",
+  }
 ];
 
 export default function BestMedicareSupplementRatesByAge() {

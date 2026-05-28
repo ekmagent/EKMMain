@@ -145,6 +145,22 @@ const faqs = [
     answer:
       "The Annual Enrollment Period runs October 15 through December 7 each year, when you can switch Part D or Medicare Advantage plans. There's also a Medicare Advantage Open Enrollment Period from January 1 through March 31. If you qualify for Extra Help or move, you may get a Special Enrollment Period. Call 855-559-1700 and I'll review whether a change makes sense for your situation.",
   }
+,
+  {
+    question: "Should Parkinson's patients choose Medicare Advantage or Original Medicare with a Supplement?",
+    answer:
+      "It depends on your specialists, medications, and travel needs. Original Medicare with a Medigap plan gives you nationwide access to any provider who accepts Medicare, which matters if you see a movement disorder specialist out of state. Advantage plans can offer extras like dental and transportation, but they use networks and prior authorization. I walk you through the tradeoffs based on your specific care team.",
+  },
+  {
+    question: "Will Medicare cover a neurologist or movement disorder specialist?",
+    answer:
+      "Yes. Medicare Part B covers visits to neurologists and movement disorder specialists when they accept Medicare assignment. With Original Medicare you do not need a referral. With a Medicare Advantage plan, check whether the specialist is in-network and whether a referral from your primary care doctor is required.",
+  },
+  {
+    question: "What happens if my Parkinson's medication isn't on my Part D plan's formulary?",
+    answer:
+      "You can request a formulary exception with documentation from your prescriber, switch to a covered alternative if clinically appropriate, or change plans during the Annual Enrollment Period. This is why I review your full medication list before recommending a Part D plan — the goal is to avoid surprise non-coverage at the pharmacy counter.",
+  }
 ];
 
 export default function MedicareBrokerForParkinsonsPatients() {

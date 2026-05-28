@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "local medicare agents in west new york nj | Free Plan Comparison | MedicareYourself",
   description:
-    "Local Medicare agents in West New York, NJ — Anthony Orner compares Medigap and Advantage plans at no cost. Call 855-559-1700 for a free review.",
+    "Local Medicare agents in West New York, NJ — Anthony Orner offers free Medigap & Advantage plan comparisons. Call 855-559-1700 for a no-cost review.",
   alternates: { canonical: "https://medicareyourself.com/services/local-medicare-agents-in-west-new-york-nj" },
   openGraph: {
     title:

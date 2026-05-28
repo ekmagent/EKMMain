@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Find a Medicare Agent in North Bergen NJ | Free Broker Help | MedicareYourself",
   description:
-    "Find a licensed Medicare agent in North Bergen, NJ to compare Supplement, Advantage, and Part D plans across carriers. Free, no-pressure help — call today.",
+    "Talk to a licensed Medicare agent in North Bergen, NJ. Compare Supplement, Advantage & Part D plans across carriers — free, no-pressure help. Call today.",
   alternates: { canonical: "https://medicareyourself.com/services/find-a-medicare-agent-in-north-bergen-nj" },
   openGraph: {
     title:

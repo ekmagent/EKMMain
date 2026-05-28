@@ -268,6 +268,12 @@ const faqs = [
     answer:
       "Yes. A licensed independent broker can quote and enroll you in Medigap, Medicare Advantage, and Part D prescription drug plans. This lets you weigh the tradeoffs between the two main coverage paths side-by-side rather than only seeing options from a single carrier.",
   }
+,
+  {
+    question: "When can I enroll in a Medigap plan in New Jersey?",
+    answer:
+      "Your best window is the 6-month Medigap Open Enrollment Period that begins when you're 65 or older and enrolled in Part B. During this window, you have guaranteed issue rights and can't be denied coverage or charged more due to health history. New Jersey uses community rating for Medigap, meaning premiums are not based on individual age.",
+  }
 ];
 
 export default function MedicareInsuranceAgentsBurlingtonNJ() {
@@ -527,6 +533,7 @@ export default function MedicareInsuranceAgentsBurlingtonNJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </>
   );

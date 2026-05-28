@@ -131,6 +131,12 @@ const faqs = [
     answer:
       "When you turn 65, you get a second Medigap Open Enrollment Period. This means you can switch to any Medigap plan with any carrier without medical underwriting. Many under-65 disabled enrollees use this milestone to lower their premiums by re-shopping their coverage.",
   }
+,
+  {
+    question: "What if my state doesn't guarantee Medigap access for under-65 disabled enrollees?",
+    answer:
+      "If your state doesn't require carriers to sell Medigap to disabled beneficiaries under 65, you may still find a carrier willing to offer coverage voluntarily, though premiums may be higher. You can also enroll in a Medicare Advantage plan as an alternative. When you turn 65, you'll get a fresh Medigap Open Enrollment Period with guaranteed issue rights. Call 855-559-1700 to review your options.",
+  }
 ];
 
 export default function MedicareSupplementDisabilityPage() {
@@ -385,6 +391,7 @@ export default function MedicareSupplementDisabilityPage() {
             <div className="text-sm text-gray-600 mt-4">Need state-specific guidance? Contact your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">Need state-specific guidance? Find your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">For state-specific Medigap rules, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free local counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">For state-specific Medigap rules and free counseling, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
 
       <p className="text-sm text-gray-500 mt-10">

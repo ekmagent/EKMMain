@@ -323,6 +323,12 @@ const faqs = [
     answer:
       "Yes. Medicare Part B covers medically necessary outpatient physical therapy, occupational therapy, and speech-language pathology services when prescribed by your doctor. There is no longer a hard cap on therapy services, but documentation requirements apply above certain thresholds. Home health therapy may also be covered if you qualify as homebound.",
   }
+,
+  {
+    question: "How does Medicare cover MRIs for MS monitoring?",
+    answer:
+      "Medicare Part B covers medically necessary MRIs used to monitor MS progression when ordered by your doctor. Under Original Medicare, you pay the Part B deductible and then coinsurance unless a Medigap plan covers the gap. Medicare Advantage plans cover MRIs too, but may require prior authorization and use of in-network imaging facilities.",
+  }
 ];
 
 export default function MedicareBrokerForMSPatients() {

@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
   description:
-    "Learn how Medicare's IRMAA surcharge works for 2026 — income brackets, Part B & D impact, and how to appeal with SSA-44. Free broker help: 855-559-1700.",
+    "Understand Medicare's IRMAA surcharge for 2026 — income brackets, Part B & D impact, and how to appeal with SSA-44. Free broker help at 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/irmaa-medicare-surcharge` },
   openGraph: {
     title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
@@ -629,6 +629,22 @@ const faqs = [
     question: "Can a Medicare broker help me plan around IRMAA?",
     answer:
       "A licensed Medicare broker can't change your tax situation, but we can help you understand how IRMAA affects your total Medicare costs and choose plans that work with your budget. We can also walk you through the SSA-44 appeal process if you've had a qualifying life-changing event. Call 855-559-1700 for free guidance.",
+  }
+,
+  {
+    question: "How do I appeal an IRMAA determination if my income has dropped?",
+    answer:
+      "If you experienced a life-changing event such as retirement, divorce, or the death of a spouse, you can file Form SSA-44 with the Social Security Administration to request a reduction. Include documentation of the event and an estimate of your current year income. SSA will review and, if approved, adjust your IRMAA going forward. A licensed broker can walk you through the process at 855-559-1700.",
+  },
+  {
+    question: "Will IRMAA go away on its own if my income decreases?",
+    answer:
+      "Yes, but with a two-year lag. Because Social Security uses your tax return from two years prior, a drop in income will eventually flow through to a lower IRMAA — or remove it entirely — once that lower-income tax year is reviewed. If you cannot wait, filing SSA-44 after a qualifying life event is the faster path.",
+  },
+  {
+    question: "Does IRMAA come out of my Social Security check?",
+    answer:
+      "Yes. The Part B IRMAA surcharge is deducted directly from your Social Security benefit along with your standard Part B premium. The Part D IRMAA surcharge is also billed through Social Security (or directly by Medicare if you don't receive benefits yet), not by your drug plan.",
   }
 ];
 

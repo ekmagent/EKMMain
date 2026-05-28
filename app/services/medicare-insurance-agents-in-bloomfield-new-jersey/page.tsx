@@ -154,6 +154,17 @@ const faqs = [
     answer:
       "Have your red, white, and blue Medicare card or your Medicare number ready, along with a list of your current prescriptions including dosages. It also helps to have the names of your preferred doctors, specialists, and hospitals so we can confirm network participation. If you have existing coverage through an employer, union, or retiree plan, bring that summary as well.",
   }
+,
+  {
+    question: "Does New Jersey have special Medigap enrollment rules I should know about?",
+    answer:
+      "Yes. New Jersey uses community rating for Medigap, meaning premiums are not based on your individual age. Your strongest protections apply during your 6-month Medigap Open Enrollment Period, which starts the month you're 65 or older and enrolled in Part B. Outside that window, applying for a Medigap plan may involve medical underwriting unless you qualify for a guaranteed-issue right.",
+  },
+  {
+    question: "Can a Bloomfield broker help me with both Medicare Advantage and Medigap plans?",
+    answer:
+      "Yes. Independent broker Anthony Orner is appointed with multiple carriers for Medicare Advantage, Part D, and Medigap (Medicare Supplement) plans. That means you can compare all three lanes side-by-side in one conversation instead of calling each carrier separately. Call 855-559-1700 to walk through your options.",
+  }
 ];
 
 export default function MedicareInsuranceAgentsBloomfieldNJ() {

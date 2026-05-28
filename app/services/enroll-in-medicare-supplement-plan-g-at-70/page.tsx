@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "enroll in medicare supplement plan g at 70 | Free Broker Help | MedicareYourself",
   description:
-    "Enroll in Medicare Supplement Plan G at 70 with free licensed broker help. Compare carriers, pass underwriting, lock in coverage. Call 855-559-1700 today.",
+    "Enroll in Medicare Supplement Plan G at 70 with free licensed broker help. Compare carriers, pass underwriting, lock in stable coverage. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/enroll-in-medicare-supplement-plan-g-at-70" },
   openGraph: {
     title:
@@ -101,6 +101,22 @@ const faqs = [
     question: "Does Plan G cover prescription drugs at 70?",
     answer:
       "No. Medigap Plan G does not include prescription drug coverage. To get drug coverage, you'll need to enroll in a standalone Medicare Part D plan alongside your Plan G. We can help you compare Part D plans based on your specific medications and preferred pharmacy.",
+  }
+,
+  {
+    question: "What happens if I'm denied Plan G coverage at 70?",
+    answer:
+      "If one carrier declines you due to underwriting, you still have options. Different carriers use different underwriting criteria, so a broker can shop your application to companies more likely to approve your specific health profile. If no Medigap carrier will accept you, alternatives like Medicare Advantage remain guaranteed issue during certain enrollment windows.",
+  },
+  {
+    question: "Can I switch from Medicare Advantage to Plan G at 70?",
+    answer:
+      "Yes, but timing matters. You can disenroll from Medicare Advantage during the Annual Enrollment Period or the Medicare Advantage Open Enrollment Period. However, unless you have a Guaranteed Issue right, you'll typically need to pass medical underwriting to get Plan G. Call 855-559-1700 to review your switch options before you cancel anything.",
+  },
+  {
+    question: "Does Plan G cover prescription drugs at 70?",
+    answer:
+      "No. Medigap Plan G covers gaps in Original Medicare Parts A and B, but it does not include prescription drug coverage. You'll need a separate Part D plan to cover medications. A broker can help you enroll in both at the same time so there are no coverage gaps.",
   }
 ];
 

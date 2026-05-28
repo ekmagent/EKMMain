@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare agent for someone with pre existing conditions california | Free Help | MedicareYourself",
   description:
-    "California Medicare help for pre-existing conditions: Birthday Rule, Medigap timing & guaranteed issue rights explained. Free licensed broker — call 855-559-1700.",
+    "California Medicare help for pre-existing conditions: Medigap timing, guaranteed-issue rights & enrollment windows. Free licensed broker — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-agent-for-someone-with-pre-existing-conditions-california" },
   openGraph: {
     title:
@@ -175,6 +175,22 @@ const faqs = [
     question: "Can a Medicare Advantage plan deny me in California for a pre-existing condition?",
     answer:
       "No. Medicare Advantage plans cannot deny enrollment or charge more based on pre-existing conditions, with the historical exception of End-Stage Renal Disease (ESRD), which was removed as a barrier starting in 2021. You can enroll during your Initial Enrollment Period, Annual Enrollment, or a qualifying Special Enrollment Period.",
+  }
+,
+  {
+    question: "Does Original Medicare cover pre-existing conditions in California?",
+    answer:
+      "Yes. Original Medicare (Part A and Part B) has covered pre-existing conditions since the program began in 1965. Your eligibility and coverage are not affected by prior health history, and there is no medical underwriting to enroll in Parts A and B.",
+  },
+  {
+    question: "Can a Medicare Advantage plan in California deny me for a pre-existing condition?",
+    answer:
+      "No. Medicare Advantage plans cannot deny enrollment based on pre-existing conditions, with the historical exception of End-Stage Renal Disease, which was removed as a barrier starting in 2021. As long as you have Parts A and B and live in the plan's service area, you can enroll during a valid election period.",
+  },
+  {
+    question: "What should I do if I missed my Medigap Open Enrollment window in California?",
+    answer:
+      "First, check whether you qualify for a guaranteed-issue right tied to a triggering event, such as losing employer coverage or a plan leaving the area. If not, a licensed broker can help you compare carriers that may still accept you through underwriting or identify other pathways like the California Birthday Rule to switch Medigap plans without health questions.",
   }
 ];
 
@@ -381,6 +397,7 @@ export default function MedicareAgentPreExistingConditionsCA() {
             <div className="text-sm text-gray-600 mt-4">California residents: contact <a href="https://www.insurance.ca.gov/01-consumers/105-type/95-guides/05-health/medicare-supp.cfm" rel="noopener noreferrer" target="_blank" className="underline">California Department of Insurance — Medicare Supplement</a> or the <a href="https://cahealthadvocates.org/hicap/" rel="noopener noreferrer" target="_blank" className="underline">California HICAP (SHIP) program</a> for free local counseling.</div>
             <div className="text-sm text-gray-600 mt-4">California help: <a href="https://aging.ca.gov/Programs_and_Services/Medicare_Counseling/" rel="noopener noreferrer" target="_blank" className="underline">California HICAP — free Medicare counseling</a> through the California Department of Aging.</div>
             <div className="text-sm text-gray-600 mt-4">California residents can get free, unbiased Medicare counseling from <a href="https://www.aging.ca.gov/HICAP/" rel="noopener noreferrer" target="_blank" className="underline">California HICAP (the state's SHIP program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">California residents can get free, unbiased counseling through <a href="https://www.aging.ca.gov/HICAP/" rel="noopener noreferrer" target="_blank">HICAP (California's SHIP program)</a> or contact the <a href="https://www.insurance.ca.gov/" rel="noopener noreferrer" target="_blank">California Department of Insurance</a>.</div>
       </section>
       </article>
     </>

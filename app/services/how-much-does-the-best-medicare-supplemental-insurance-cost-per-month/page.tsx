@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "how much does the best medicare supplemental insurance cost per month | Free Plan-by-Plan Breakdown | MedicareYourself",
   description:
-    "Compare Medicare Supplement Plan G and Plan N monthly costs by carrier, age, and zip code. Free side-by-side quote — call 855-559-1700.",
+    "How much does the best Medicare Supplement plan cost per month? Compare Plan G and Plan N rates by carrier and age. Free quote — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/how-much-does-the-best-medicare-supplemental-insurance-cost-per-month" },
   openGraph: {
     title:

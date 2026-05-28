@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "average cost of supplemental health insurance for seniors with medicare | Free Broker Comparison | MedicareYourself",
   description:
-    "Compare 2026 Medicare supplement costs by plan, age & ZIP — identical benefits, very different prices. Call 855-559-1700 for a free licensed broker quote.",
+    "See what supplemental insurance for seniors with Medicare really costs in 2026 — identical benefits, very different prices. Free broker quote: 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/average-cost-of-supplemental-health-insurance-for-seniors-with-medicare" },
   openGraph: {
     title:
@@ -450,6 +450,17 @@ const faqs = [
     answer:
       "No. Medigap plans sold today do not include prescription drug coverage. To get drug coverage with Original Medicare and a Medigap policy, you need to enroll in a standalone Medicare Part D prescription drug plan.",
   }
+,
+  {
+    question: "Do Medigap premiums increase as I get older?",
+    answer:
+      "It depends on the carrier's pricing method. Attained-age-rated policies increase as you age, issue-age-rated policies are based on your age at purchase and don't rise due to age, and community-rated policies charge the same premium regardless of age. All three types may still increase due to inflation and claims experience.",
+  },
+  {
+    question: "Does where I live affect how much I pay for a Medigap plan?",
+    answer:
+      "Yes. Medicare.gov notes that Medigap premiums vary widely based on the insurance company, the specific plan, and your location. Even within the same state, ZIP-level rating can produce meaningful price differences for identical coverage.",
+  }
 ];
 
 export default function AverageCostSupplementalInsurancePage() {
@@ -668,6 +679,7 @@ export default function AverageCostSupplementalInsurancePage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> or contact the <a href="https://www.nj.gov/dobi/division_insurance/" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
     </main>
   );

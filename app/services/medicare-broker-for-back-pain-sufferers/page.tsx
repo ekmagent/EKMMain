@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for back pain sufferers | Free Plan Comparison | MedicareYourself",
   description:
-    "Medicare broker for back pain sufferers — compare plans covering PT, injections, chiropractic, and surgery. Free consultation with Anthony Orner: 855-559-1700.",
+    "Medicare broker for back pain sufferers — compare plans covering PT, chiropractic, injections, and surgery. Free consultation with Anthony Orner: 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-back-pain-sufferers" },
   openGraph: {
     title:
@@ -112,6 +112,17 @@ const faqs = [
     question: "Does Medicare cover acupuncture for chronic back pain?",
     answer:
       "Yes. Since 2020, Medicare covers acupuncture for chronic low back pain — defined as pain lasting 12 weeks or longer — for up to 12 visits in 90 days, with 8 additional sessions if you show improvement. Treatment must be furnished by an authorized provider, and Part B cost-sharing applies.",
+  }
+,
+  {
+    question: "Does Medicare cover chiropractic care for back pain?",
+    answer:
+      "Yes, Medicare Part B covers manual manipulation of the spine by a chiropractor to correct a subluxation when medically necessary. However, Medicare does not cover other chiropractic services like X-rays, massage therapy, or acupuncture performed by a chiropractor. Many Medicare Advantage plans include expanded chiropractic benefits, which is something I can help you compare.",
+  },
+  {
+    question: "Does Medicare cover physical therapy for back pain?",
+    answer:
+      "Yes, Medicare Part B covers medically necessary outpatient physical therapy with no annual cap, though your therapist must confirm continued medical necessity above a certain threshold. You're responsible for the Part B deductible and coinsurance unless you have a Medigap plan or Medicare Advantage that reduces those costs. Call 855-559-1700 and I'll help you find a plan that fits your therapy schedule.",
   }
 ];
 
@@ -375,6 +386,7 @@ export default function MedicareBrokerForBackPainSufferers() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">Free unbiased counseling: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
       </article>
     </>

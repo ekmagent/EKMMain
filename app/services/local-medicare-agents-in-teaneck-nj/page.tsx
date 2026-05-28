@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "local medicare agents in teaneck nj | Free Consultation | MedicareYourself",
   description:
-    "Local Medicare agents in Teaneck, NJ — Anthony Orner, licensed independent broker, compares plans free with no pressure. Call 855-559-1700 today.",
+    "Local Medicare agents in Teaneck, NJ — Anthony Orner, licensed independent broker, compares Bergen County plans free with no pressure. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/local-medicare-agents-in-teaneck-nj" },
   openGraph: {
     title:

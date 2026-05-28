@@ -7,7 +7,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Medicare Education Guides | MedicareYourself",
   description:
-    "Free plain-English Medicare guides from a licensed broker — learn Parts A-D, Medigap, enrollment, and IRMAA. Call 855-559-1700 for personal help.",
+    "Free plain-English Medicare guides from a licensed broker — learn Parts A-D, Medigap, enrollment, and IRMAA. Call 855-559-1700 for free personal help.",
   alternates: { canonical: `${SITE_URL}/learn` },
   openGraph: {
     title: "Medicare Education Guides | MedicareYourself",
@@ -174,6 +174,17 @@ const GUIDES = [
     answer:
       "Medicare is a federal health insurance program primarily for people age 65 and older, and for some younger people with disabilities or End-Stage Renal Disease. Medicaid is a joint federal and state program that helps with medical costs for people with limited income and resources. Some people qualify for both programs, which is called being 'dual eligible.' Call 855-559-1700 if you want help understanding which programs you may qualify for.",
   }
+,
+  {
+    question: "How do I know if I should choose Original Medicare with Medigap or a Medicare Advantage plan?",
+    answer:
+      "The right choice depends on your priorities around provider access, monthly budget, prescription needs, and travel. Original Medicare paired with a Medigap policy offers nationwide provider access and predictable out-of-pocket costs, while Medicare Advantage plans typically have lower premiums but use networks and prior authorization. Reviewing your doctors, medications, and budget side by side helps clarify the trade-offs. Call 855-559-1700 for a no-cost walkthrough.",
+  },
+  {
+    question: "When can I switch Medicare plans after I'm already enrolled?",
+    answer:
+      "Most people can make changes during the Annual Enrollment Period each fall or the Medicare Advantage Open Enrollment Period in the first quarter of the year. Special Enrollment Periods may also apply if you move, lose other coverage, or qualify for assistance programs. Medigap rules vary by state and may involve medical underwriting outside your initial window. Our enrollment periods guide explains the options in plain English.",
+  }
 ];
 
 export default function LearnHubPage() {
@@ -273,6 +284,7 @@ export default function LearnHubPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free local counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </>
   );

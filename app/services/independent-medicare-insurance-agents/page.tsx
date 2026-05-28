@@ -107,6 +107,12 @@ const faqs = [
     answer:
       "Yes. A properly appointed independent agent can present Medicare Advantage plans, Medicare Supplement (Medigap) policies, and standalone Part D prescription drug plans. This lets you compare the two main paths to Medicare coverage side by side before deciding which fits your health needs and budget.",
   }
+,
+  {
+    question: "Why do independent Medicare agents work with multiple carriers?",
+    answer:
+      "Independent agents contract with many insurance companies so they can match clients to the plan that best fits their doctors, prescriptions, and budget. Because no single carrier dictates their recommendations, they can offer a more objective comparison. This setup also lets them adjust your coverage if your needs change year to year.",
+  }
 ];
 
 export default function IndependentMedicareInsuranceAgentsPage() {
