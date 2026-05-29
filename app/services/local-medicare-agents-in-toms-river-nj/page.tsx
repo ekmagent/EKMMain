@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "local medicare agents in toms river nj | Free Carrier Comparison | MedicareYourself",
   description:
-    "Local Medicare agents in Toms River, NJ — Anthony Orner compares Supplement, Advantage & Part D plans across Ocean County carriers. Call 855-559-1700.",
+    "Local Medicare agents in Toms River, NJ — Anthony Orner compares Supplement, Advantage & Part D plans across Ocean County carriers. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/local-medicare-agents-in-toms-river-nj" },
   openGraph: {
     title:
@@ -138,6 +138,22 @@ const faqs = [
     question: "Does Anthony Orner meet with clients in person in Ocean County?",
     answer:
       "Yes. Anthony Orner is licensed in New Jersey and serves Toms River and surrounding Ocean County communities through in-person, phone, or video appointments based on your preference. Call 855-559-1700 to schedule a no-obligation consultation.",
+  }
+,
+  {
+    question: "Does a Toms River Medicare agent help with SHIP counseling questions?",
+    answer:
+      "New Jersey's State Health Insurance Assistance Program (SHIP) offers free, unbiased Medicare counseling through trained volunteers. A licensed local broker can complement that by actually quoting and enrolling you in private Supplement, Advantage, and Part D plans. Many Ocean County residents use both resources together.",
+  },
+  {
+    question: "When can I switch Medicare plans if I live in Ocean County?",
+    answer:
+      "Most plan changes happen during the Annual Enrollment Period from October 15 to December 7, with new coverage starting January 1. Medicare Advantage members also have the Open Enrollment Period from January 1 to March 31 to switch once. Medigap changes can often be made year-round, though underwriting may apply outside your initial enrollment window.",
+  },
+  {
+    question: "Can I keep my current Toms River doctors if I switch Medicare plans?",
+    answer:
+      "It depends on the plan type. Medicare Supplement plans let you see any provider nationwide who accepts Medicare, while Medicare Advantage plans use provider networks that vary by carrier. A local agent will verify whether your specific doctors and Ocean County hospitals are in-network before you enroll.",
   }
 ];
 
@@ -399,6 +415,7 @@ export default function LocalMedicareAgentsTomsRiverNJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

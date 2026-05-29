@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Why Did My Medicare Supplement Rate Change? | Free Rate Review | MedicareYourself",
   description:
-    "Medicare supplement rate jumped? Learn the 3 pricing factors behind every Medigap increase and get a free, no-pressure rate review. Call 855-559-1700.",
+    "Medigap rate jumped? Learn the 3 pricing factors behind every Medicare Supplement increase and get a free rate review. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/why-did-my-medicare-supplement-rate-change" },
   openGraph: {
     title:
@@ -110,6 +110,22 @@ const faqs = [
     question: "Can my carrier single me out for a rate increase?",
     answer:
       "No. Rate adjustments must be filed with the state insurance department and apply to an entire block of policyholders, not to individuals. If your premium went up, every person in your same plan, age band, and rating class received the same increase.",
+  }
+,
+  {
+    question: "Do all Medicare Supplement plans with the same letter cost the same?",
+    answer:
+      "No. The benefits in each lettered Medigap plan are standardized and identical no matter which carrier sells it, but the premium is not. Medicare.gov confirms that price is the only difference between policies with the same plan letter sold by different companies, which is why shopping the same plan across carriers can produce meaningful savings.",
+  },
+  {
+    question: "Can a carrier raise my Medigap premium individually because of my health?",
+    answer:
+      "No. A Medigap carrier can only raise your premium if it raises the premium for all policies like yours in your state. Increases are filed on a block-wide basis, not based on your personal claims or new diagnoses, so a recent hospital stay should not directly trigger a personal rate hike.",
+  },
+  {
+    question: "Should I review my Medigap plan every year even if I'm happy with it?",
+    answer:
+      "Yes. Because every carrier files its own rate adjustments and pricing models age differently over time, the most competitive carrier for your plan letter can change year to year. A free annual rate review confirms whether your current plan is still priced competitively for your age and ZIP code.",
   }
 ];
 
@@ -394,6 +410,7 @@ export default function WhyDidMyMedicareSupplementRateChange() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a> or the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify carrier rate filings and consumer protections through the <a href="https://www.nj.gov/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a> or get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents: review filings and consumer guidance through the <a href="https://www.state.nj.us/dobi/division_insurance/" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP</a> for free counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can compare filed Medigap rates and consumer protections through the <a href="https://www.state.nj.us/dobi/division_insurance/managedcare/medsupp.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance — Medicare Supplement</a> or get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP</a>.</div>
       </section>
       </article>
     </>

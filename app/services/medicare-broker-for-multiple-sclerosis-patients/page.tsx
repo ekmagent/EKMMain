@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for multiple sclerosis patients | Free Plan Comparison | MedicareYourself",
   description:
-    "Medicare broker for MS patients. Anthony Orner finds plans covering Ocrevus, MRIs & your neurologist. Call 855-559-1700 for a free, no-pressure review.",
+    "Medicare broker for MS patients — Anthony Orner finds plans covering Ocrevus, MRIs & your neurologist. Call 855-559-1700 for a free, no-pressure review.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-multiple-sclerosis-patients" },
   openGraph: {
     title:
@@ -329,6 +329,22 @@ const faqs = [
     answer:
       "Medicare Part B covers medically necessary MRIs used to monitor MS progression when ordered by your doctor. Under Original Medicare, you pay the Part B deductible and then coinsurance unless a Medigap plan covers the gap. Medicare Advantage plans cover MRIs too, but may require prior authorization and use of in-network imaging facilities.",
   }
+,
+  {
+    question: "Does Medicare cover MRIs needed to monitor MS progression?",
+    answer:
+      "Yes. Medically necessary MRIs ordered by your doctor to monitor MS are covered under Medicare Part B as diagnostic imaging. You'll typically pay the Part B coinsurance after meeting the annual deductible, unless a Medigap plan covers that share. Medicare Advantage plans cover MRIs too, but often require prior authorization.",
+  },
+  {
+    question: "Will Medicare Part D cover oral MS disease-modifying therapies?",
+    answer:
+      "Oral disease-modifying therapies for MS are generally covered under Medicare Part D prescription drug plans, though they are usually placed on a specialty tier. Your out-of-pocket cost depends on the specific plan's formulary and tier structure. Comparing Part D formularies before enrolling is critical because coverage and cost-sharing vary widely between plans.",
+  },
+  {
+    question: "Can a Medicare broker help me keep my current neurologist?",
+    answer:
+      "Yes. As a licensed broker, Anthony Orner reviews each plan's provider network or Medicare-accepting status to confirm your neurologist and MS care team are covered before you enroll. With Original Medicare plus a Medigap plan, you can see any provider who accepts Medicare nationwide, with no network limitations.",
+  }
 ];
 
 export default function MedicareBrokerForMSPatients() {
@@ -559,6 +575,7 @@ export default function MedicareBrokerForMSPatients() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">For state-specific help, contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
       </section>
       </article>
     </>

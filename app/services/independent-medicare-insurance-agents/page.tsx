@@ -113,6 +113,12 @@ const faqs = [
     answer:
       "Independent agents contract with many insurance companies so they can match clients to the plan that best fits their doctors, prescriptions, and budget. Because no single carrier dictates their recommendations, they can offer a more objective comparison. This setup also lets them adjust your coverage if your needs change year to year.",
   }
+,
+  {
+    question: "What should I bring to my first call with an independent Medicare agent?",
+    answer:
+      "Have your Medicare card or Medicare Beneficiary Identifier (MBI) ready, a list of your current prescriptions with dosages, and the names of doctors or specialists you want to keep. It also helps to know any hospitals or pharmacies you prefer. With that information, an independent agent can run accurate plan comparisons on the first call.",
+  }
 ];
 
 export default function IndependentMedicareInsuranceAgentsPage() {

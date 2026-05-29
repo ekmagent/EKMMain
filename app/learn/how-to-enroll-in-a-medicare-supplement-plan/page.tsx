@@ -615,6 +615,22 @@ const faqs = [
     answer:
       "No. Medigap policies are guaranteed renewable as long as you pay your premium, meaning the carrier cannot drop you because of health issues or claims. You do not need to re-apply each year like you would with a Medicare Advantage plan during the Annual Enrollment Period.",
   }
+,
+  {
+    question: "When is the best time to buy a Medigap policy?",
+    answer:
+      "The best time to buy a Medigap policy is during your 6-month Medigap Open Enrollment Period, which begins the first month you are both 65 or older and enrolled in Medicare Part B. During this window, you have a guaranteed right to buy any Medigap policy sold in your state, regardless of health conditions. Outside this window, insurers in most states can use medical underwriting to deny coverage or charge more.",
+  },
+  {
+    question: "Can I switch Medigap plans after I enroll?",
+    answer:
+      "You can apply to switch Medigap plans at any time, but outside of your Medigap Open Enrollment Period or a guaranteed-issue situation, the new carrier can use medical underwriting. That means you could be denied or charged higher premiums based on your health. It's important to choose carefully during your initial 6-month window because you may not be able to switch later.",
+  },
+  {
+    question: "Does a Medigap policy from one carrier cover more than the same letter plan from another carrier?",
+    answer:
+      "No. Medigap benefits are federally standardized, so a Plan G from one insurance company covers the exact same services as a Plan G from any other company in your state. The only meaningful differences are the monthly premium, the carrier's rate-increase history, and customer service. That's why comparing every licensed carrier matters.",
+  }
 ];
 
 export default function HowToEnrollMedigapPage() {

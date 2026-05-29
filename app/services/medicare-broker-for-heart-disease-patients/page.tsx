@@ -313,6 +313,12 @@ const faqs = [
     answer:
       "Check that your cardiologist and preferred hospital system are in-network, confirm your heart medications are on the formulary at an affordable tier, and compare the maximum out-of-pocket limits since cardiac care can be expensive. Also look at whether the plan covers cardiac rehab, remote heart monitoring, and access to specialists without referrals. A broker can compare these details side-by-side at no cost to you.",
   }
+,
+  {
+    question: "Will Medicare cover my heart medications?",
+    answer:
+      "Medicare Part D and Medicare Advantage plans with drug coverage include heart medications, but each plan has its own formulary with different tiers and pricing. Common cardiac drugs like statins, beta-blockers, blood thinners, and ACE inhibitors are typically covered, though your specific brand may sit on a higher tier in some plans. A broker can run your exact medication list through every available plan to find the lowest total annual cost.",
+  }
 ];
 
 export default function MedicareBrokerHeartDiseasePatients() {

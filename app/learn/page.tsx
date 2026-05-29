@@ -185,6 +185,12 @@ const GUIDES = [
     answer:
       "Most people can make changes during the Annual Enrollment Period each fall or the Medicare Advantage Open Enrollment Period in the first quarter of the year. Special Enrollment Periods may also apply if you move, lose other coverage, or qualify for assistance programs. Medigap rules vary by state and may involve medical underwriting outside your initial window. Our enrollment periods guide explains the options in plain English.",
   }
+,
+  {
+    question: "What is the difference between Medicare and Medicaid?",
+    answer:
+      "Medicare is a federal health insurance program based mainly on age or disability, while Medicaid is a joint federal and state program based on income and resources. Some people qualify for both and are called dual-eligible. If you are not sure which applies to you, call 855-559-1700 and we can help you sort it out.",
+  }
 ];
 
 export default function LearnHubPage() {
@@ -285,6 +291,7 @@ export default function LearnHubPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </>
   );

@@ -217,6 +217,22 @@ const faqs = [
     answer:
       "Yes. Medicare's Extra Help program assists people with limited income and resources in paying Part D premiums, deductibles, and copayments. Insulin covered under Part D also has a monthly cost cap set by Medicare. Call 855-559-1700 to see if you qualify for Extra Help or to compare Part D plans that include your insulin.",
   }
+,
+  {
+    question: "Does Medicare cover diabetes self-management training?",
+    answer:
+      "Yes. Medicare Part B covers diabetes self-management training (DSMT) for beneficiaries diagnosed with diabetes when ordered by your doctor. This training helps you learn how to manage your condition, including monitoring blood sugar, nutrition, and medication. Call 855-559-1700 to confirm whether your provider offers covered DSMT sessions.",
+  },
+  {
+    question: "Are insulin and diabetes supplies covered under Medicare Part D?",
+    answer:
+      "Yes. Medicare Part D plans cover insulin and supplies like syringes, needles, alcohol swabs, and gauze used for injecting insulin. Insulin used with a traditional insulin pump is covered under Part B as durable medical equipment instead. Plan formularies vary, so it's important to review which insulins your specific Part D plan covers before enrolling.",
+  },
+  {
+    question: "Who is eligible for the Medicare Diabetes Prevention Program?",
+    answer:
+      "Medicare Part B covers the Medicare Diabetes Prevention Program for beneficiaries who meet specific criteria, including a recent qualifying blood test result indicating prediabetes and a BMI at or above the threshold set by Medicare. The program provides lifestyle and behavior change training at no cost to eligible enrollees. Your doctor can help confirm whether you qualify.",
+  }
 ];
 
 export default function MedicareEnrollmentHelpDiabetes() {

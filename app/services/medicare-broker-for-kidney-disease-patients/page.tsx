@@ -131,6 +131,17 @@ const faqs = [
     answer:
       "Yes. Since 2021, people with ESRD can enroll in any Medicare Advantage plan available in their area during valid enrollment periods. Before switching, it's important to confirm your nephrologist, dialysis center, and transplant team are in-network. A licensed broker can compare plan networks and drug formularies side by side at no cost.",
   }
+,
+  {
+    question: "Does Medicare cover dialysis treatment?",
+    answer:
+      "Yes. Medicare Part B covers outpatient dialysis treatments at certified facilities, including home dialysis training and supplies. Part A covers inpatient dialysis if you're admitted to a hospital. You'll typically pay the standard Part B coinsurance after meeting the deductible, which is why many ESRD patients add a Medigap plan or choose Medicare Advantage to limit out-of-pocket costs.",
+  },
+  {
+    question: "Can I enroll in a Medicare Advantage plan if I have ESRD?",
+    answer:
+      "Yes. Since 2021, people with ESRD can enroll in any Medicare Advantage plan available in their area. Before choosing, it's important to confirm your nephrologist, dialysis center, and transplant hospital are in the plan's network. A broker can compare provider networks and drug formularies side by side.",
+  }
 ];
 
 export default function MedicareBrokerKidneyDisease() {

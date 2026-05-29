@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "you get a medicare supplement if you are on disability | Free Guide | MedicareYourself",
   description:
-    "On disability and under 65? Many states guarantee Medigap access. Compare plans free with a licensed broker — call 855-559-1700 for a no-cost rate review.",
+    "On disability and under 65? Over 30 states protect Medigap access. Compare plans free with a licensed broker — call 855-559-1700 for a no-cost rate review.",
   alternates: { canonical: "https://medicareyourself.com/services/you-get-a-medicare-supplement-if-you-are-on-disability" },
   openGraph: {
     title:
@@ -136,6 +136,12 @@ const faqs = [
     question: "What if my state doesn't guarantee Medigap access for under-65 disabled enrollees?",
     answer:
       "If your state doesn't require carriers to sell Medigap to disabled beneficiaries under 65, you may still find a carrier willing to offer coverage voluntarily, though premiums may be higher. You can also enroll in a Medicare Advantage plan as an alternative. When you turn 65, you'll get a fresh Medigap Open Enrollment Period with guaranteed issue rights. Call 855-559-1700 to review your options.",
+  }
+,
+  {
+    question: "Can I switch Medigap plans later when I turn 65?",
+    answer:
+      "Yes. When you turn 65, you get a brand-new Medigap Open Enrollment Period that lasts six months and starts the month your Part B coverage begins under your age-65 eligibility. During this window, you can buy any Medigap plan sold in your state with guaranteed issue rights, regardless of health history. This is often a great opportunity to lower your premium.",
   }
 ];
 

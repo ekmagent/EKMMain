@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
   description:
-    "Understand Medicare's IRMAA surcharge for 2026 — income brackets, Part B & D impact, and how to appeal with SSA-44. Free broker help at 855-559-1700.",
+    "Learn how Medicare's IRMAA surcharge works in 2026 — income brackets, Part B & D impact, and SSA-44 appeals. Free broker help: 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/irmaa-medicare-surcharge` },
   openGraph: {
     title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
@@ -645,6 +645,22 @@ const faqs = [
     question: "Does IRMAA come out of my Social Security check?",
     answer:
       "Yes. The Part B IRMAA surcharge is deducted directly from your Social Security benefit along with your standard Part B premium. The Part D IRMAA surcharge is also billed through Social Security (or directly by Medicare if you don't receive benefits yet), not by your drug plan.",
+  }
+,
+  {
+    question: "How will I know if I owe IRMAA?",
+    answer:
+      "The Social Security Administration (SSA) will send you a notice if you owe IRMAA. The notice explains your new Part B and/or Part D premium amount, how it was calculated based on your tax return from two years prior, and your right to appeal if you believe the determination is incorrect.",
+  },
+  {
+    question: "Can I appeal IRMAA if my income has dropped?",
+    answer:
+      "Yes. If you experienced a qualifying life-changing event — such as retirement, the death of a spouse, marriage, or divorce — you can file Form SSA-44 to request a reduction. Submit the form with supporting documentation to your local Social Security office. A licensed broker can walk you through the process at 855-559-1700.",
+  },
+  {
+    question: "Is IRMAA recalculated every year?",
+    answer:
+      "Yes. SSA reviews your most recent tax return on file each year and recalculates whether IRMAA applies. If your income falls below the threshold in a later tax year, the surcharge will be removed automatically once SSA receives that updated return from the IRS.",
   }
 ];
 

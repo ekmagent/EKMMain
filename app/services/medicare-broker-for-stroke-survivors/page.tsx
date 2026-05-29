@@ -226,6 +226,22 @@ const faqs = [
     answer:
       "It depends on your providers, prescriptions, and out-of-pocket tolerance. Medigap plans pair with Original Medicare and offer broad provider access plus predictable cost-sharing, which can be valuable when rehab and specialist visits are frequent. Medicare Advantage plans often bundle drug coverage and extras but use networks and prior authorization. I'll compare both sides for your situation — call 855-559-1700.",
   }
+,
+  {
+    question: "Does Medicare cover durable medical equipment after a stroke?",
+    answer:
+      "Yes. Medicare Part B covers durable medical equipment (DME) like wheelchairs, walkers, hospital beds, and canes when prescribed by your doctor as medically necessary. You typically pay the Part B coinsurance after meeting the Part B deductible. The supplier must be enrolled in Medicare for coverage to apply.",
+  },
+  {
+    question: "Will Medicare pay for home health care after a stroke?",
+    answer:
+      "Yes, if you're homebound and need skilled nursing or therapy services certified by your doctor. Medicare covers part-time skilled nursing, physical therapy, speech-language pathology, and occupational therapy at home through a Medicare-certified home health agency. Custodial care alone (help with bathing or dressing) is not covered.",
+  },
+  {
+    question: "Should a stroke survivor choose Medicare Advantage or a Medigap plan?",
+    answer:
+      "It depends on your providers, prescriptions, and budget. Medigap plans typically offer broader provider access and predictable out-of-pocket costs, which can matter for ongoing rehab and specialist care. Medicare Advantage may include extras like transportation or fitness benefits but uses networks. I'll compare both based on your stroke recovery needs — call 855-559-1700.",
+  }
 ];
 
 export default function MedicareBrokerForStrokeSurvivors() {
@@ -451,6 +467,7 @@ export default function MedicareBrokerForStrokeSurvivors() {
             <div className="text-sm text-gray-600 mt-4">Need free local counseling? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for unbiased Medicare guidance.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

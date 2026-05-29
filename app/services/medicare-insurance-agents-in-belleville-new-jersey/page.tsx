@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare insurance agents in belleville new jersey | Free Plan Comparison | MedicareYourself",
   description:
-    "Medicare insurance agents in Belleville, New Jersey — Anthony Orner compares Medigap and Advantage plans in Essex County at no cost. Book a free consultation.",
+    "Talk to a licensed Medicare broker in Belleville, NJ. Anthony Orner compares Medigap and Advantage plans across Essex County free — book your consultation today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-insurance-agents-in-belleville-new-jersey" },
   openGraph: {
     title:

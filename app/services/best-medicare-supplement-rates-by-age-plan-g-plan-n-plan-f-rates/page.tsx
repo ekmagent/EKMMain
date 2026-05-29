@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Best Medicare Supplement Rates by Age (Plan G, Plan N, & Plan F Rates) | Free Quote | MedicareYourself",
   description:
-    "Compare Medicare Supplement rates by age for Plan G, Plan N & Plan F. Find your lowest premium by age bracket — call 855-559-1700 for a free quote today.",
+    "Compare Medicare Supplement rates by age for Plan G, Plan N & Plan F. Lock in your lowest premium by age bracket — call 855-559-1700 for a free quote.",
   alternates: { canonical: "https://medicareyourself.com/services/best-medicare-supplement-rates-by-age-plan-g-plan-n-plan-f-rates" },
   openGraph: {
     title:
@@ -117,6 +117,22 @@ const faqs = [
     question: "Are Medicare Supplement rates the same for men and women?",
     answer:
       "Most carriers offer a household or female discount, so rates can differ slightly by gender and living situation. Tobacco use also affects pricing with many carriers. Comparing multiple carriers side-by-side is the only reliable way to find your lowest rate.",
+  }
+,
+  {
+    question: "Does my ZIP code affect my Medicare Supplement premium?",
+    answer:
+      "Yes. Carriers file rates by ZIP code or rating area, so two people the same age with the same plan letter can pay different premiums in different parts of the state. Urban ZIP codes often see higher premiums than rural ones due to claims costs. That's why comparing carriers locally matters more than national averages.",
+  },
+  {
+    question: "Can I switch from Plan F to Plan G to save money?",
+    answer:
+      "You can apply to switch, but outside your Medigap Open Enrollment Period most states allow carriers to use medical underwriting. If you're healthy enough to qualify, switching from Plan F to Plan G often lowers your monthly premium while keeping nearly identical coverage. A licensed broker can shop your underwriting across carriers in one application process.",
+  },
+  {
+    question: "Is Plan N a good option if I want lower premiums than Plan G?",
+    answer:
+      "Plan N typically has a lower monthly premium than Plan G in exchange for small copays at office and ER visits and no coverage of Part B excess charges. If your providers accept Medicare assignment and you're comfortable with minor copays, Plan N can be a strong value. Call 855-559-1700 for a side-by-side quote.",
   }
 ];
 
@@ -399,6 +415,7 @@ export default function BestMedicareSupplementRatesByAge() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP program</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
       </section>
     </main>
   );

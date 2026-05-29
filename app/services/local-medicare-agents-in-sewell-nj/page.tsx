@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "local medicare agents in sewell nj | Free Quotes, No Pressure | MedicareYourself",
   description:
-    "Local Medicare agents in Sewell NJ — Anthony Orner is a licensed independent broker serving Gloucester County. Compare plans across carriers. Free quotes.",
+    "Local Medicare agents in Sewell, NJ — Anthony Orner compares plans across carriers in Gloucester County. Free, no-pressure quotes. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/local-medicare-agents-in-sewell-nj" },
   openGraph: {
     title:
@@ -383,6 +383,7 @@ export default function LocalMedicareAgentsInSewellNJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> offers free Medicare counseling to Gloucester County residents.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey beneficiaries can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for osteoporosis patients | Free Coverage Review | MedicareYourself",
   description:
-    "Medicare broker for osteoporosis patients: Anthony Orner compares plans covering DEXA scans, Prolia, Reclast & fracture rehab. Free review — call 855-559-1700.",
+    "Compare Medicare plans covering DEXA scans, Prolia, Reclast & fracture rehab with broker Anthony Orner. Free review — call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-osteoporosis-patients" },
   openGraph: {
     title:
@@ -340,6 +340,7 @@ export default function MedicareBrokerForOsteoporosisPatients() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased Medicare counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" target="_blank" rel="noopener noreferrer" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
       </section>
     </main>
   );

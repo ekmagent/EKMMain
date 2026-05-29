@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for chronic pain patients | Free Coverage Consultation | MedicareYourself",
   description:
-    "Medicare broker for chronic pain patients — Anthony Orner compares plans covering pain management, PT, injections & specialists. Call 855-559-1700.",
+    "Medicare broker for chronic pain patients — Anthony Orner compares plans covering pain management, PT, injections & specialists. Free review: 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-chronic-pain-patients" },
   openGraph: {
     title:
@@ -402,6 +402,7 @@ export default function MedicareBrokerForChronicPainPatients() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

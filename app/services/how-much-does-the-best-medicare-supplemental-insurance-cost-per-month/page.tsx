@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "how much does the best medicare supplemental insurance cost per month | Free Plan-by-Plan Breakdown | MedicareYourself",
   description:
-    "How much does the best Medicare Supplement plan cost per month? Compare Plan G and Plan N rates by carrier and age. Free quote — call 855-559-1700.",
+    "Compare Medicare Supplement Plan G and Plan N monthly costs by carrier and age. Get a free personalized quote — call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/how-much-does-the-best-medicare-supplemental-insurance-cost-per-month" },
   openGraph: {
     title:
@@ -151,6 +151,22 @@ const faqs = [
     question: "Does where I live affect my Medicare Supplement premium?",
     answer:
       "Yes. Medigap premiums vary significantly by zip code because carriers price policies based on local claims experience and state regulations. Two people the same age with the same Plan G can pay very different rates depending on where they live.",
+  }
+,
+  {
+    question: "Does where I live affect how much I pay for a Medigap plan?",
+    answer:
+      "Yes. Medigap premiums vary by zip code because carriers price based on local claims experience, demographics, and state regulations. The same Plan G from the same carrier can cost noticeably more in one county than another. That's why a personalized quote based on your zip code is the only accurate way to compare.",
+  },
+  {
+    question: "Do Medigap plans cover prescription drugs?",
+    answer:
+      "No. Medicare Supplement plans sold today do not include prescription drug coverage. To get drug coverage, you'll need to enroll in a separate standalone Medicare Part D plan. Pairing a Medigap policy with a Part D plan is the most common approach for predictable costs.",
+  },
+  {
+    question: "Can my Medigap premium go up each year?",
+    answer:
+      "Yes. Most carriers use attained-age rating, which means your premium increases as you get older, plus general inflation adjustments. The benefits themselves never change because they're standardized by Medicare, but the price you pay can rise annually. Reviewing your plan each year helps ensure you're not overpaying.",
   }
 ];
 

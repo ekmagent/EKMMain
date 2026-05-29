@@ -260,6 +260,12 @@ const faqs = [
     answer:
       "Yes. Medicare Part D plans cover most common CHF medications, including ACE inhibitors, ARBs, beta-blockers, and diuretics. Coverage and copays vary by plan formulary, so it's important to compare drug lists before enrolling. Anthony can run your medication list against available plans to find the lowest total cost.",
   }
+,
+  {
+    question: "Does Medicare cover heart failure medications like entresto, beta blockers, and diuretics?",
+    answer:
+      "Most heart failure medications are covered under Medicare Part D prescription drug plans or through a Medicare Advantage plan that includes drug coverage. Coverage and copays vary by plan formulary, so the same medication can cost very different amounts depending on which plan you choose. Anthony can run your full medication list against available plans to find the lowest total cost.",
+  }
 ];
 
 export default function MedicareBrokerCHFPage() {
@@ -492,6 +498,7 @@ export default function MedicareBrokerCHFPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
     </main>
   );

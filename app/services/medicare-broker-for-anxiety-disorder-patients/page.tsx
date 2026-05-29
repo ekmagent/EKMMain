@@ -103,6 +103,22 @@ const faqs = [
     answer:
       "Medicare only pays for therapy when the provider is enrolled with Medicare and accepts assignment. If your current therapist isn't enrolled, a broker can help you find in-network mental health providers under your plan or compare Medicare Advantage networks that include the specialists you need.",
   }
+,
+  {
+    question: "Does Medicare cover inpatient mental health care for severe anxiety?",
+    answer:
+      "Yes. Medicare Part A covers inpatient mental health care provided in a general hospital or a psychiatric hospital when medically necessary. There is a lifetime limit on inpatient psychiatric hospital days, so a broker can help you understand how your plan handles extended stays.",
+  },
+  {
+    question: "Does Medicare cover an annual depression and anxiety screening?",
+    answer:
+      "Yes. Medicare Part B covers one annual depression screening at no cost when performed in a primary care setting that can provide follow-up treatment. This screening often helps identify anxiety symptoms early so you can be referred for appropriate counseling or medication management.",
+  },
+  {
+    question: "Will a Medicare Advantage plan cover more anxiety services than Original Medicare?",
+    answer:
+      "It depends on the plan. Medicare Advantage plans must cover everything Original Medicare covers, and many include extra mental health benefits, lower copays for therapy, or bundled prescription drug coverage. A broker can compare specific Advantage plans in your area against Original Medicare with a Part D plan.",
+  }
 ];
 
 export default function MedicareBrokerAnxietyDisorderPatients() {

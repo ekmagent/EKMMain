@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for peripheral artery disease patients | Free Consultation | MedicareYourself",
   description:
-    "Medicare broker for peripheral artery disease patients — compare plans covering angioplasty, stents & PAD prescriptions. Free help: 855-559-1700.",
+    "PAD patient on Medicare? Compare plans covering angioplasty, stents, blood thinners & statins with a licensed broker. Free help: call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-peripheral-artery-disease-patients" },
   openGraph: {
     title:
@@ -353,6 +353,7 @@ export default function MedicareBrokerPAD() {
             <div className="text-sm text-gray-600 mt-4">Need state-specific help? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">Free unbiased counseling: <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">Need unbiased state-level help? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
       </section>
       </article>
     </>

@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Switch Medigap Carriers, Same Plan G (2026)",
   description:
-    "Switch Medigap Plan G carriers and keep the exact same federally standardized benefits at a lower premium. Free carrier comparison — call 855-559-1700 today.",
+    "Switch Medigap Plan G carriers and keep identical federally standardized benefits at a lower premium. Free carrier comparison — call 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/medicare-supplement/switch-carriers` },
   openGraph: {
     title: "Switch Medigap Carriers, Same Plan G (2026)",
@@ -367,6 +367,22 @@ const faqs = [
     answer:
       "If you had your original Medigap policy for at least 6 months, the new carrier generally cannot impose a new pre-existing condition waiting period when you switch to the same or lesser benefits. However, if you are adding benefits not in your previous plan, a waiting period of up to 6 months can apply to those new benefits. A broker can confirm how this rule applies to your specific switch.",
   }
+,
+  {
+    question: "Will I have to answer health questions to switch Medigap carriers?",
+    answer:
+      "In most states, yes — outside of your initial 6-month Medigap Open Enrollment Period or a federal guaranteed issue situation, carriers can use medical underwriting and may decline your application based on health. A few states have additional rules that make switching easier. A licensed broker can review your health history first and only submit to carriers likely to approve you.",
+  },
+  {
+    question: "Does my new Medigap policy start before the old one ends?",
+    answer:
+      "You should never cancel your existing Medigap policy until the new one is approved and active. Medicare.gov recommends keeping the old policy in force during the 30-day 'free look' period on the new policy so you can compare them side by side. Once you're confident in the new coverage, you contact the old carrier to cancel and request a refund of any unused premium.",
+  },
+  {
+    question: "Do I need to re-enroll in Medicare Part B to switch Medigap carriers?",
+    answer:
+      "No. Your Original Medicare (Parts A and B) stays exactly the same when you switch Medigap carriers. Only the supplement policy changes. Your doctors, hospitals, and Medicare claims process all continue without interruption.",
+  }
 ];
 
 export default function SwitchCarriersPage() {
@@ -610,6 +626,7 @@ export default function SwitchCarriersPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify state-specific Medigap switching rules with the <a href="https://www.state.nj.us/dobi/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> or get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medigap counseling.</div>
             <div className="text-sm text-gray-600 mt-4">Need free state-level help? Contact <a href="https://www.state.nj.us/dobi/division_insurance/ship/shipmain.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey SHIP (State Health Insurance Assistance Program)</a> for unbiased Medigap counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">Free unbiased help in New Jersey: <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
     </>
   );

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "hackensack nj medicare insurance agents | Free Broker Consultation | MedicareYourself",
   description:
-    "Hackensack NJ Medicare insurance agents — broker Anthony Orner compares Bergen County plans across top carriers free. Call 855-559-1700 today.",
+    "Hackensack NJ Medicare insurance agents — broker Anthony Orner compares Bergen County plans across top carriers at no cost. Free quote: 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/hackensack-nj-medicare-insurance-agents" },
   openGraph: {
     title:

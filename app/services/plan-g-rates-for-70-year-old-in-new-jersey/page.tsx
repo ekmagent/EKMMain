@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Plan G Rates for a 70-Year-Old in New Jersey | Free Quote in Minutes | MedicareYourself",
   description:
-    "Compare Plan G rates for a 70-year-old in NJ with a licensed local broker. See how community-rated Medigap pricing works—call 855-559-1700 for a free quote.",
+    "Compare Plan G rates for a 70-year-old in NJ with a licensed local broker. See how community-rated Medigap pricing works—call 855-559-1700 for free quotes.",
   alternates: { canonical: "https://medicareyourself.com/services/plan-g-rates-for-70-year-old-in-new-jersey" },
   openGraph: {
     title:
@@ -218,6 +218,22 @@ const faqs = [
     question: "What is the Medigap Open Enrollment Period for a 70-year-old in New Jersey?",
     answer:
       "Your federal Medigap Open Enrollment Period is the 6-month window that begins the month you're 65 or older and enrolled in Medicare Part B. During this window, you have guaranteed issue rights and cannot be denied or charged more for health reasons. If you're 70 and missed this window, a licensed broker can review your options — call 855-559-1700.",
+  }
+,
+  {
+    question: "Why do Plan G premiums vary so much between carriers in New Jersey?",
+    answer:
+      "Every Medigap Plan G covers the exact same federally standardized benefits, regardless of which carrier sells it. The only real difference between policies is the premium each company charges, which is why shopping multiple carriers is so important. A licensed NJ broker can pull side-by-side quotes in minutes at 855-559-1700.",
+  },
+  {
+    question: "Is the 6-month Medigap Open Enrollment Period the best time to enroll?",
+    answer:
+      "Yes. The federal 6-month Medigap Open Enrollment Period starts when you're 65 or older and enrolled in Part B, and during this window carriers cannot deny coverage or charge more based on your health. Outside this window, you may need to pass medical underwriting to switch plans in New Jersey.",
+  },
+  {
+    question: "What does Plan G cover for a 70-year-old in New Jersey?",
+    answer:
+      "Plan G covers nearly all of the out-of-pocket costs Original Medicare leaves behind, including the Part A hospital deductible, coinsurance, and excess charges, with the only major exception being the annual Part B deductible. Once that deductible is met, your covered Medicare services are generally paid in full.",
   }
 ];
 

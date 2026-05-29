@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare insurance agents in franklin new jersey | Free Quotes | MedicareYourself",
   description:
-    "Work with a licensed Medicare broker in Franklin, NJ. Compare Supplement and Advantage plans side by side at no cost. Call 855-559-1700 for free quotes.",
+    "Compare Medicare Supplement and Advantage plans in Franklin, NJ with a licensed independent broker. Free quotes, no pressure. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-insurance-agents-in-franklin-new-jersey" },
   openGraph: {
     title:

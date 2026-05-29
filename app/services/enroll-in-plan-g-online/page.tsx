@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Enroll in Plan G Online | Fast, Free, Broker-Assisted | MedicareYourself",
   description:
-    "Enroll in Plan G online with a licensed broker guiding every step. Compare carriers and apply from home — free, no-obligation help. Call 855-559-1700.",
+    "Enroll in Plan G online in minutes with a licensed broker comparing top carriers for you — free, no-obligation help from home. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/enroll-in-plan-g-online" },
   openGraph: {
     title:
@@ -84,6 +84,22 @@ const faqs = [
     answer:
       "No. Licensed Medicare brokers are paid by the insurance carrier, not by you. The premium you pay is the same whether you use a broker or apply directly. You get free help comparing rates and completing paperwork with zero added cost.",
   },
+,
+  {
+    question: "How long does it take to enroll in Plan G online?",
+    answer:
+      "Most online Plan G applications take 20 to 40 minutes to complete with a broker on the phone or screen-share. If you apply during your Medigap Open Enrollment Period, approval can be immediate or take a few business days. Outside that window, underwriting review may take one to two weeks.",
+  },
+  {
+    question: "What information do I need to enroll in Plan G online?",
+    answer:
+      "You'll need your red, white, and blue Medicare card showing your Part A and Part B effective dates, a valid ID, your bank or payment details for the premium, and basic contact information. If you're applying outside your Open Enrollment Period, you'll also need a list of current medications and recent health history for underwriting.",
+  },
+  {
+    question: "Can I switch to Plan G from another Medigap plan?",
+    answer:
+      "Yes, you can apply to switch to Plan G at any time, but most carriers will require medical underwriting if you're outside a guaranteed issue period. If approved, your new Plan G can start the first of an upcoming month, and you should not cancel your existing policy until the new one is confirmed active.",
+  }
 ];
 
 export default function EnrollInPlanGOnlinePage() {
@@ -350,6 +366,7 @@ export default function EnrollInPlanGOnlinePage() {
             <div className="text-sm text-gray-600 mt-4">For state-specific help, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">Need state-specific help? Contact the <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling in your state.</div>
       </section>
       </article>
     </>

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title:
     "How to Enroll in Medicare Online at SSA.gov (Step-by-Step Walkthrough)",
   description:
-    "Step-by-step SSA.gov Medicare enrollment walkthrough — apply online in about 10 minutes. Call 855-559-1700 for free licensed broker help with next steps.",
+    "Step-by-step SSA.gov Medicare enrollment walkthrough — apply online in about 10 minutes. Call 855-559-1700 for free licensed broker help choosing coverage.",
   alternates: {
     canonical: `${SITE_URL}/learn/ssa-online-enrollment-walkthrough`,
   },
@@ -768,6 +768,22 @@ const steps = [
     question: "Can I change my Medicare application after I submit it on SSA.gov?",
     answer:
       "No. Once you click Submit Now and agree to the Electronic Signature Agreement, you cannot modify the application online. If you need to make changes, you must contact the Social Security Administration directly. Review every screen carefully before submitting.",
+  }
+,
+  {
+    question: "How long does the SSA online Medicare application take?",
+    answer:
+      "Most people complete the online application in about 10 minutes if they have their information ready. You will need your Social Security number, a valid ID for identity verification, and details about any current health insurance coverage.",
+  },
+  {
+    question: "Can I apply for Medicare online if I am not taking Social Security retirement benefits yet?",
+    answer:
+      "Yes. The SSA application includes an option to apply for Medicare only without starting your Social Security retirement benefits. This is common for people who are still working or want to delay claiming Social Security.",
+  },
+  {
+    question: "What happens after I submit my Medicare application on SSA.gov?",
+    answer:
+      "After submitting, you will receive a confirmation and a re-entry number to check your application status. Social Security will process the application and mail your Medicare card, typically within a few weeks. If additional documents are needed, SSA will contact you directly.",
   }
 ];
 

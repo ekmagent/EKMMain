@@ -137,6 +137,17 @@ const faqs = [
     answer:
       "Yes, Medicare Advantage enrollment has grown steadily across South Carolina, with strong plan availability in metro areas like Charleston, Columbia, and Greenville. Network size, prescription drug coverage, and extra benefits like dental and vision vary by county. Comparing plans by ZIP code with a licensed broker helps ensure your doctors and medications are covered before you enroll.",
   }
+,
+  {
+    question: "Can a South Carolina Medicare broker help me compare plans from multiple carriers?",
+    answer:
+      "Yes. An independent broker like Anthony Orner is appointed with several top carriers serving South Carolina, which means you can compare Medigap, Medicare Advantage, and Part D options side by side in one conversation. This is different from a captive agent who only represents one company. Call 855-559-1700 for a free multi-carrier comparison.",
+  },
+  {
+    question: "What Medicare plan types are available to South Carolina residents?",
+    answer:
+      "South Carolina residents can choose Original Medicare (Parts A and B), add a standalone Part D prescription drug plan, pair Original Medicare with a Medigap supplement, or enroll in a Medicare Advantage plan that bundles hospital, medical, and often drug coverage. Availability of specific Advantage and Part D plans varies by SC county. A licensed broker can confirm which plans are offered in your ZIP code.",
+  }
 ];
 
 export default function MedicareSpecialistsSouthCarolina() {

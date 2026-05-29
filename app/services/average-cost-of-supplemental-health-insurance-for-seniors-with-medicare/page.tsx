@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "average cost of supplemental health insurance for seniors with medicare | Free Broker Comparison | MedicareYourself",
   description:
-    "See what supplemental insurance for seniors with Medicare really costs in 2026 — identical benefits, very different prices. Free broker quote: 855-559-1700.",
+    "Compare 2026 Medigap and supplemental insurance costs for seniors on Medicare. Identical benefits, very different prices — call 855-559-1700 for a free quote.",
   alternates: { canonical: "https://medicareyourself.com/services/average-cost-of-supplemental-health-insurance-for-seniors-with-medicare" },
   openGraph: {
     title:
@@ -461,6 +461,22 @@ const faqs = [
     answer:
       "Yes. Medicare.gov notes that Medigap premiums vary widely based on the insurance company, the specific plan, and your location. Even within the same state, ZIP-level rating can produce meaningful price differences for identical coverage.",
   }
+,
+  {
+    question: "Does my Medigap premium increase as I get older?",
+    answer:
+      "It depends on how the carrier prices the policy. Attained-age-rated plans increase as you age, issue-age-rated plans lock in your age at enrollment, and community-rated plans charge everyone in your area the same regardless of age. All three pricing methods can also see annual increases due to inflation and claims experience.",
+  },
+  {
+    question: "Does supplemental insurance cover the Part B premium or Part A deductible?",
+    answer:
+      "Medigap plans do not cover the Part B premium — you continue paying that directly to Medicare. However, most Medigap plans (including Plan G and Plan N) fully cover the Part A hospital deductible, and Plan G covers the Part B deductible after you meet it once per year.",
+  },
+  {
+    question: "Can I switch Medigap plans later to find a lower price?",
+    answer:
+      "You can apply to switch Medigap plans at any time, but outside your Open Enrollment Period or a guaranteed-issue situation, carriers in most states can use medical underwriting and deny coverage or charge more based on health history. A licensed broker can review whether you qualify for a lower-cost plan with the same benefits before you drop your current coverage.",
+  }
 ];
 
 export default function AverageCostSupplementalInsurancePage() {
@@ -680,6 +696,7 @@ export default function AverageCostSupplementalInsurancePage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify rates and file complaints with the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP</a>.</div>
       </section>
     </main>
   );

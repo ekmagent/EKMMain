@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare insurance agents in bloomfield new jersey | Free Broker Help | MedicareYourself",
   description:
-    "Compare Medicare plans in Bloomfield, NJ with independent broker Anthony Orner. Side-by-side carrier quotes, no pressure. Call 855-559-1700 for free help today.",
+    "Compare Medicare plans in Bloomfield, NJ with independent broker Anthony Orner. Side-by-side carrier quotes, no pressure. Call 855-559-1700 for free help.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-insurance-agents-in-bloomfield-new-jersey" },
   openGraph: {
     title:
@@ -164,6 +164,22 @@ const faqs = [
     question: "Can a Bloomfield broker help me with both Medicare Advantage and Medigap plans?",
     answer:
       "Yes. Independent broker Anthony Orner is appointed with multiple carriers for Medicare Advantage, Part D, and Medigap (Medicare Supplement) plans. That means you can compare all three lanes side-by-side in one conversation instead of calling each carrier separately. Call 855-559-1700 to walk through your options.",
+  }
+,
+  {
+    question: "Does New Jersey have special Medigap enrollment rules I should know about?",
+    answer:
+      "New Jersey uses community rating for Medigap, meaning carriers cannot charge you more based on your age. However, the strongest protection is still your 6-month Medigap Open Enrollment Period, which starts the month you're 65 and enrolled in Part B. During that window, carriers cannot deny you or charge more for health conditions.",
+  },
+  {
+    question: "Can a Bloomfield broker help me compare Medicare Advantage and Medigap side by side?",
+    answer:
+      "Yes. An independent broker can lay out Medicare Advantage, Medigap, and Part D options together so you can see the trade-offs in monthly premium, out-of-pocket exposure, and provider networks. Anthony Orner walks Bloomfield residents through both paths before recommending anything. Call 855-559-1700 for a no-pressure review.",
+  },
+  {
+    question: "What should I bring to a Medicare consultation in Bloomfield?",
+    answer:
+      "Have your red, white, and blue Medicare card (or your Part A/B start dates), a list of your current prescriptions with dosages, and the names of doctors and hospitals you want to keep. That information lets your broker check formularies and provider networks accurately before you enroll.",
   }
 ];
 
