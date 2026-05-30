@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title:
     "How to Enroll in Medicare Online at SSA.gov (Step-by-Step Walkthrough)",
   description:
-    "Step-by-step SSA.gov Medicare enrollment walkthrough — apply online in about 10 minutes. Call 855-559-1700 for free licensed broker help choosing coverage.",
+    "Step-by-step SSA.gov Medicare enrollment walkthrough — apply online in about 10 minutes. Call 855-559-1700 for free licensed broker guidance on coverage.",
   alternates: {
     canonical: `${SITE_URL}/learn/ssa-online-enrollment-walkthrough`,
   },
@@ -784,6 +784,22 @@ const steps = [
     question: "What happens after I submit my Medicare application on SSA.gov?",
     answer:
       "After submitting, you will receive a confirmation and a re-entry number to check your application status. Social Security will process the application and mail your Medicare card, typically within a few weeks. If additional documents are needed, SSA will contact you directly.",
+  }
+,
+  {
+    question: "How long does the SSA online Medicare application take?",
+    answer:
+      "Most people complete the online application at ssa.gov/medicare/sign-up in about 10 minutes. Having your Social Security number, driver's license, and current health insurance details ready before you start helps avoid delays.",
+  },
+  {
+    question: "Can I enroll in Medicare online if I'm not taking Social Security retirement benefits yet?",
+    answer:
+      "Yes. The SSA application includes an option to apply for Medicare only without starting your retirement benefits. This is common for people who plan to delay Social Security but still want Part A and/or Part B at 65.",
+  },
+  {
+    question: "What happens after I submit my Medicare application on SSA.gov?",
+    answer:
+      "SSA reviews your application and mails your Medicare card, typically within a few weeks. You cannot modify the application after submitting, so review carefully before signing. If you need to make changes, you'll need to contact Social Security directly.",
   }
 ];
 

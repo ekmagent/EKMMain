@@ -9,7 +9,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Best Medicare Supplement Plans in NJ 2026",
   description:
-    "Compare NJ Medicare Supplement plans for 2026. Community-rated Plan G & Plan N from top carriers, NJ enrollment rules, free expert help. Call 855-559-1700.",
+    "Compare 2026 NJ Medicare Supplement plans. Community-rated Plan G & Plan N, NJ enrollment rules, and free broker guidance. Call 855-559-1700 today.",
   alternates: { canonical: `${SITE_URL}/medicare-supplement/new-jersey` },
   openGraph: {
     title: "Best Medicare Supplement Plans in NJ 2026",
@@ -145,6 +145,22 @@ const planData = [
     question: "Do Medicare Supplement plans in New Jersey cover prescription drugs?",
     answer:
       "No. Medicare Supplement (Medigap) plans do not include prescription drug coverage. To get prescription coverage, you will need to enroll in a separate Medicare Part D plan. Our licensed brokers can help you pair the right Medigap and Part D combination at no cost — call 855-559-1700.",
+  }
+,
+  {
+    question: "Is New Jersey a community-rated state for Medicare Supplement plans?",
+    answer:
+      "Yes. New Jersey uses community rating for Medigap, which means carriers cannot charge you more based on your age. Everyone enrolled in the same plan with the same carrier pays the same base premium, regardless of whether they are 65 or 85. This can make Medigap more affordable as you age compared to age-rated states.",
+  },
+  {
+    question: "When can I switch Medicare Supplement plans in New Jersey?",
+    answer:
+      "You can apply to switch Medigap plans in New Jersey at any time, but outside your 6-month Medigap Open Enrollment Period or a federal guaranteed issue right, carriers can review your health history and may decline coverage or charge more. If you are considering a switch, speak with a licensed broker first to confirm you can qualify. Call 855-559-1700 for a free review.",
+  },
+  {
+    question: "Do Medicare Supplement plans in New Jersey cover prescription drugs?",
+    answer:
+      "No. Medicare Supplement plans sold today do not include prescription drug coverage. To get drug coverage in New Jersey, you need to enroll in a separate Medicare Part D prescription drug plan alongside your Medigap plan.",
   }
 ];
 

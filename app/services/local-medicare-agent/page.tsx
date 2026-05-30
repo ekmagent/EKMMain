@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "local medicare agent | Free Consultation, No Obligation | MedicareYourself",
   description:
-    "Work with a licensed local NJ Medicare agent who compares top carriers at no cost. Get unbiased plan guidance from Anthony Orner — call 855-559-1700 today.",
+    "Meet with a licensed local NJ Medicare agent who compares top carriers at no cost to you. Get unbiased guidance from Anthony Orner — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/local-medicare-agent" },
   openGraph: {
     title:
@@ -145,6 +145,22 @@ const faqs = [
     question: "Will my local Medicare agent help me after I enroll?",
     answer:
       "Yes. A good local agent stays with you year after year to handle annual plan reviews, claim questions, billing issues, and changes to your prescriptions or providers. You should never have to pay extra for this ongoing service.",
+  }
+,
+  {
+    question: "Will a local Medicare agent steer me toward a specific carrier?",
+    answer:
+      "An independent broker is contracted with multiple carriers and is required by CMS to recommend coverage based on your needs, not a sales quota. Anthony Orner walks through doctor networks, drug formularies, and total costs across each available plan before you make a decision. You stay in control of the final choice.",
+  },
+  {
+    question: "Can I keep my same doctors if I work with a local Medicare agent?",
+    answer:
+      "A local agent will check each plan's provider network against your current doctors and preferred hospitals before you enroll. If keeping a specific provider is a priority, that becomes part of the plan comparison. This is one of the main advantages over enrolling online without guidance.",
+  },
+  {
+    question: "Does a local Medicare agent help after enrollment?",
+    answer:
+      "Yes. Ongoing support is part of the service — including annual plan reviews, help with claims or billing questions, and reviewing your coverage if your medications or doctors change. You can call Anthony directly at 855-559-1700 whenever a question comes up.",
   }
 ];
 
@@ -385,6 +401,7 @@ export default function LocalMedicareAgentPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased Medicare counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </>
   );

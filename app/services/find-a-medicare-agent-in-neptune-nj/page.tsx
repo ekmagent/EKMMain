@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "find a medicare agent in neptune nj | Free No-Obligation Help | MedicareYourself",
   description:
-    "Find a Medicare agent in Neptune, NJ for free, unbiased plan comparisons across top carriers. Anthony Orner helps Monmouth County residents enroll—call today.",
+    "Find a Medicare agent in Neptune, NJ for free, unbiased plan comparisons. Anthony Orner helps Monmouth County residents enroll—call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/find-a-medicare-agent-in-neptune-nj" },
   openGraph: {
     title:
@@ -98,6 +98,22 @@ const faqs = [
     question: "What's the difference between a captive and independent Medicare agent?",
     answer:
       "A captive agent represents only one insurance carrier, so they can only offer that company's plans. An independent broker is appointed with multiple carriers and can compare options across the market, which usually leads to a better fit for your doctors, medications, and budget.",
+  }
+,
+  {
+    question: "Can a Medicare agent help me switch plans during the Annual Enrollment Period?",
+    answer:
+      "Yes. The Annual Enrollment Period runs October 15 through December 7 each year, and a licensed agent can review your current coverage, compare it against other available Medicare Advantage and Part D plans, and handle the enrollment paperwork. Changes you make during this window take effect January 1.",
+  },
+  {
+    question: "Does a Medicare agent in Neptune know which local doctors take which plans?",
+    answer:
+      "A local independent agent can check provider directories for each Medicare Advantage plan to confirm whether your doctors and preferred hospitals in Monmouth County are in-network. With Medigap, network questions don't apply because you can see any provider nationwide who accepts Medicare.",
+  },
+  {
+    question: "What information should I have ready before meeting with a Medicare agent?",
+    answer:
+      "Have your red, white, and blue Medicare card, a list of your current prescriptions with dosages, and the names of doctors and specialists you want to keep. This lets your agent run an accurate plan comparison based on your actual coverage needs rather than estimates.",
   }
 ];
 
@@ -316,6 +332,7 @@ export default function FindMedicareAgentNeptuneNJ() {
               <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/plan-compare" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov Plan Compare</a> and <a href="https://www.medicare.gov/talk-to-someone" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov &mdash; Talk to Someone</a>.</div>
             <div className="text-sm text-gray-600 mt-2">New Jersey residents can also get free unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

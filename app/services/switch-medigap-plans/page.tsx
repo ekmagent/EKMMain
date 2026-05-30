@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title:
     "switch medigap plans | Compare Carriers & Switch Online | MedicareYourself",
   description:
-    "Switch Medigap plans any month and keep identical Plan G or N benefits at a lower premium. Free licensed broker help — call 855-559-1700 to compare carriers.",
+    "Switch Medigap plans any month and keep identical Plan G or N benefits at a lower premium. Call 855-559-1700 for free licensed broker help comparing carriers.",
   alternates: {
     canonical: `${SITE_URL}/services/switch-medigap-plans`,
   },
@@ -190,6 +190,22 @@ const faqs = [
     question: "Will I have to answer health questions when I switch?",
     answer:
       "Outside of your Medigap Open Enrollment Period or a guaranteed issue situation, most states allow carriers to use medical underwriting, which means health questions and possible denial. If you are reasonably healthy, underwriting is often manageable. A licensed broker can pre-screen carriers so you only apply where you are likely to be approved.",
+  }
+,
+  {
+    question: "Do I need to answer health questions to switch Medigap plans?",
+    answer:
+      "In most states, yes — once you are outside your 6-month Medigap Open Enrollment Period or a guaranteed issue situation, carriers can use medical underwriting. That means they may ask health questions and review prescriptions before approving your application. Some states have additional rules that make switching easier, so it is worth checking your state insurance department or calling 855-559-1700 to review your options.",
+  },
+  {
+    question: "What is the 30-day free look period when switching Medigap plans?",
+    answer:
+      "When you buy a new Medigap policy, you have 30 days to decide if you want to keep it, and you can hold both policies during that window. You will pay both premiums for one month, but it guarantees you do not lose coverage if the new plan is not the right fit. After you confirm the new plan works, you cancel the old one in writing.",
+  },
+  {
+    question: "Should I work with a broker to switch Medigap plans?",
+    answer:
+      "A licensed independent broker can compare multiple carriers at once and check whether you qualify for a lower premium on the same plan letter. There is no cost to you because brokers are paid by the insurance company you choose. To compare your options with no obligation, call Anthony Orner at 855-559-1700.",
   }
 ];
 
@@ -840,6 +856,7 @@ export default function SwitchMedigapPlansPage() {
             <div className="text-sm text-gray-600 mt-4">Need state-level help? Contact your <a href="https://www.shiphelp.org/about-medicare/regional-ship-location" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">local SHIP (State Health Insurance Assistance Program)</a> for free Medigap counseling in your state.</div>
             <div className="text-sm text-gray-600 mt-4">State help: <a href="https://www.nj.gov/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a> or contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a> for free local counseling on Medigap rights.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/index.shtml" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or the free <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP program</a> for state-specific Medigap switching rights.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify carrier rates and consumer rights with the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> or get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP</a>.</div>
       </section>
     </>
   );

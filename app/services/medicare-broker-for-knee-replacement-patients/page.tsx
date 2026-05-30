@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for knee replacement patients | Free Pre-Surgery Review | MedicareYourself",
   description:
-    "Medicare broker for knee replacement patients — Anthony Orner reviews rehab, hospital, and PT coverage before surgery. Free consultation, call today.",
+    "Medicare broker for knee replacement patients — Anthony Orner compares rehab, hospital, and PT coverage before surgery. Free pre-surgery review.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-knee-replacement-patients" },
   openGraph: {
     title:

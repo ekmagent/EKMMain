@@ -100,6 +100,17 @@ const faqs = [
     answer:
       "Yes. A licensed Medicare broker can help you confirm whether a DME supplier accepts Medicare assignment and whether your specific plan has in-network requirements. This is especially important with Medicare Advantage plans, which often limit you to contracted suppliers.",
   }
+,
+  {
+    question: "Do I need a sleep study to qualify for Medicare CPAP coverage?",
+    answer:
+      "Yes. Medicare requires a face-to-face clinical evaluation with your doctor followed by a qualifying sleep study before approving CPAP therapy. The study can be done in a sleep lab or, in some cases, as a home sleep test ordered by your physician.",
+  },
+  {
+    question: "Can I switch DME suppliers if I'm unhappy with my CPAP provider?",
+    answer:
+      "Yes, but the process depends on your plan. With Original Medicare you can choose any Medicare-enrolled DME supplier that accepts assignment, while Medicare Advantage plans typically restrict you to in-network suppliers. A broker can help you confirm which suppliers are available under your current coverage.",
+  }
 ];
 
 export default function MedicareBrokerForSleepApneaPatients() {

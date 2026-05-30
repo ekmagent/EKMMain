@@ -345,6 +345,12 @@ const faqs = [
     answer:
       "Yes. As a licensed broker, Anthony Orner reviews each plan's provider network or Medicare-accepting status to confirm your neurologist and MS care team are covered before you enroll. With Original Medicare plus a Medigap plan, you can see any provider who accepts Medicare nationwide, with no network limitations.",
   }
+,
+  {
+    question: "Will Medicare cover MRIs needed to monitor MS progression?",
+    answer:
+      "Yes. Medically necessary MRIs ordered by your doctor to monitor MS are covered under Medicare Part B as diagnostic imaging. You'll typically be responsible for the Part B deductible and coinsurance unless you have a Medigap plan that fills those gaps. Medicare Advantage plans cover MRIs but may require prior authorization before the scan is approved.",
+  }
 ];
 
 export default function MedicareBrokerForMSPatients() {

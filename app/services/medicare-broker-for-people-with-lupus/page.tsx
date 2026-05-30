@@ -86,6 +86,12 @@ const faqs = [
     answer:
       "Outside your Medigap Open Enrollment Period, most carriers will ask health questions and may decline applicants with lupus. That's why timing matters. During your 6-month open enrollment window or during a guaranteed issue event, carriers cannot deny you or charge more based on your health.",
   },
+,
+  {
+    question: "Does Medicare cover infusion treatments for lupus?",
+    answer:
+      "Yes. Medicare Part B typically covers physician-administered infusion therapies used for lupus, including biologics given in a clinic or infusion center. You're responsible for the Part B deductible and coinsurance unless a Medigap plan or Medicare Advantage plan helps cover those costs. Always confirm coverage and prior authorization requirements before starting a new infusion.",
+  }
 ];
 
 export default function MedicareBrokerForPeopleWithLupus() {

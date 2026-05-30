@@ -191,6 +191,12 @@ const GUIDES = [
     answer:
       "Medicare is a federal health insurance program based mainly on age or disability, while Medicaid is a joint federal and state program based on income and resources. Some people qualify for both and are called dual-eligible. If you are not sure which applies to you, call 855-559-1700 and we can help you sort it out.",
   }
+,
+  {
+    question: "Can I switch from Medicare Advantage back to Original Medicare later?",
+    answer:
+      "Yes. You can switch during the Annual Enrollment Period each fall or during the Medicare Advantage Open Enrollment Period in the first quarter of the year. Keep in mind that if you want to add a Medigap policy after switching back, you may be subject to medical underwriting unless you have a guaranteed issue right. Call 855-559-1700 to review your options before making a change.",
+  }
 ];
 
 export default function LearnHubPage() {

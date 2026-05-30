@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "best medicare insurance broker near hackensack, nj | Free Quote | MedicareYourself",
   description:
-    "Compare Medicare plans near Hackensack, NJ with independent broker Anthony Orner. Free quotes on Medigap, Advantage & Part D. Call 855-559-1700 today.",
+    "Compare Medicare plans near Hackensack, NJ with independent broker Anthony Orner. Free quotes on Medigap, Advantage & Part D — call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/best-medicare-insurance-broker-near-hackensack-nj" },
   openGraph: {
     title:

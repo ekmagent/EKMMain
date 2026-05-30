@@ -319,6 +319,12 @@ const faqs = [
     answer:
       "Medicare Part D and Medicare Advantage plans with drug coverage include heart medications, but each plan has its own formulary with different tiers and pricing. Common cardiac drugs like statins, beta-blockers, blood thinners, and ACE inhibitors are typically covered, though your specific brand may sit on a higher tier in some plans. A broker can run your exact medication list through every available plan to find the lowest total annual cost.",
   }
+,
+  {
+    question: "Will my cardiologist accept my Medicare plan?",
+    answer:
+      "With Original Medicare, any cardiologist who accepts Medicare assignment will see you, which is the vast majority of cardiac specialists nationwide. With Medicare Advantage, you're limited to the plan's network, so it's important to verify your cardiologist is in-network before enrolling. A broker can check provider directories for every plan you're considering.",
+  }
 ];
 
 export default function MedicareBrokerHeartDiseasePatients() {

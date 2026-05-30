@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "local medicare agents in union nj | Free Plan Comparison | MedicareYourself",
   description:
-    "Local Medicare agents in Union, NJ — Anthony Orner compares Medigap & Advantage plans from top carriers at no cost. Call 855-559-1700 for free guidance today.",
+    "Local Medicare agents in Union, NJ — Anthony Orner compares Medigap & Advantage plans from top carriers at no cost. Call 855-559-1700 for free guidance.",
   alternates: { canonical: "https://medicareyourself.com/services/local-medicare-agents-in-union-nj" },
   openGraph: {
     title:
@@ -138,6 +138,22 @@ const faqs = [
     question: "Does New Jersey offer any Medicare assistance programs?",
     answer:
       "Yes. New Jersey residents may qualify for PAAD (Pharmaceutical Assistance to the Aged and Disabled) and Senior Gold, which help eligible seniors pay for prescription drugs. The State Health Insurance Assistance Program (SHIP) also offers free Medicare counseling. A local broker can let you know if these programs may apply to your situation.",
+  }
+,
+  {
+    question: "Do local Union, NJ Medicare agents charge a fee for plan comparisons?",
+    answer:
+      "No. Licensed independent Medicare brokers serving Union County are compensated by the insurance carriers when you enroll, not by you. Your premium is the same whether you sign up directly with a carrier or through a broker like Anthony Orner.",
+  },
+  {
+    question: "Can I switch Medicare plans after enrolling through a Union, NJ broker?",
+    answer:
+      "Yes. You can review and change plans each year during the Annual Enrollment Period (October 15 – December 7), and Medicare Advantage members have an additional Open Enrollment window from January 1 to March 31. Special Enrollment Periods may also apply if you move or lose other coverage.",
+  },
+  {
+    question: "What hospitals and providers do Union, NJ Medicare plans typically cover?",
+    answer:
+      "Most Union County residents use providers affiliated with major regional health systems serving the area. Network coverage varies by plan, so an independent broker can verify whether your specific doctors and preferred hospitals are in-network before you enroll.",
   }
 ];
 
@@ -411,6 +427,7 @@ export default function LocalMedicareAgentsUnionNJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey resources: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free local Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
       </article>
     </>

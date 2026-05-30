@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "You Get a Medicare Supplement Plan If You Have a Pre-Existing Condition | Free Guidance | MedicareYourself",
   description:
-    "Yes, you can get a Medicare Supplement plan with a pre-existing condition during Medigap Open Enrollment—no underwriting. Call 855-559-1700 for free help.",
+    "Yes—you can get a Medicare Supplement plan with a pre-existing condition during Medigap Open Enrollment. Call 855-559-1700 for free expert guidance today.",
   alternates: { canonical: "https://medicareyourself.com/services/you-get-a-medicare-supplement-plan-if-you-have-a-pre-existing-condition" },
   openGraph: {
     title:

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "how long does it take to enroll in medicare supplements | Free Help | MedicareYourself",
   description:
-    "How long does it take to enroll in a Medicare Supplement? Most applications take 10–20 minutes. Call 855-559-1700 for free same-call broker enrollment help.",
+    "How long does it take to enroll in a Medicare Supplement? Most applications take 10–20 minutes. Call 855-559-1700 for free same-call broker help.",
   alternates: { canonical: "https://medicareyourself.com/services/how-long-does-it-take-to-enroll-in-medicare-supplements" },
   openGraph: {
     title:
@@ -294,6 +294,7 @@ export default function HowLongToEnrollMedigapPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">For state-specific help, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
       </section>
     </main>
   );

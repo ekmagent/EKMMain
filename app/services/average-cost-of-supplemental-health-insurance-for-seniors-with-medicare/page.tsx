@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "average cost of supplemental health insurance for seniors with medicare | Free Broker Comparison | MedicareYourself",
   description:
-    "Compare 2026 Medigap and supplemental insurance costs for seniors on Medicare. Identical benefits, very different prices — call 855-559-1700 for a free quote.",
+    "Compare 2026 Medigap costs for seniors on Medicare — identical benefits, very different prices by carrier. Call 855-559-1700 for a free broker comparison.",
   alternates: { canonical: "https://medicareyourself.com/services/average-cost-of-supplemental-health-insurance-for-seniors-with-medicare" },
   openGraph: {
     title:
@@ -477,6 +477,22 @@ const faqs = [
     answer:
       "You can apply to switch Medigap plans at any time, but outside your Open Enrollment Period or a guaranteed-issue situation, carriers in most states can use medical underwriting and deny coverage or charge more based on health history. A licensed broker can review whether you qualify for a lower-cost plan with the same benefits before you drop your current coverage.",
   }
+,
+  {
+    question: "Does where I live affect what I pay for a Medigap policy?",
+    answer:
+      "Yes. Medicare.gov confirms that Medigap premiums vary widely based on the insurance company, the specific plan letter, and your geographic location. Two people with the same plan letter in different zip codes can pay very different premiums for identical coverage. That's why comparing carriers licensed in your state is critical.",
+  },
+  {
+    question: "Can I be denied Medigap coverage or charged more for health issues?",
+    answer:
+      "During your 6-month Medigap Open Enrollment Period, insurance companies must sell you any policy they offer at their best available rate regardless of health status. Outside that window, in most states carriers can use medical underwriting and either deny coverage or charge higher premiums. A few states have year-round guaranteed issue rules.",
+  },
+  {
+    question: "Do Medigap premiums go up as I get older?",
+    answer:
+      "It depends on how the carrier prices the plan. Community-rated policies charge everyone the same regardless of age, issue-age-rated policies base premiums on your age at purchase, and attained-age-rated policies increase as you get older. All three pricing methods are also subject to general rate increases over time.",
+  }
 ];
 
 export default function AverageCostSupplementalInsurancePage() {
@@ -697,6 +713,7 @@ export default function AverageCostSupplementalInsurancePage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify rates and file complaints with the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">For state-specific Medigap rate guidance, contact your <a href="https://www.shiphelp.org/about-medicare/regional-ship-location" rel="noopener noreferrer" target="_blank" className="text-blue-700 underline">local SHIP (State Health Insurance Assistance Program)</a> for free, unbiased counseling.</div>
       </section>
     </main>
   );

@@ -146,6 +146,12 @@ const faqs = [
     answer:
       "Most Medicare Advantage plans include Part D prescription drug coverage built in, and the quote you see reflects the combined premium. Always confirm your specific medications are on the plan's formulary before enrolling, since drug tiers and pharmacy networks vary by carrier.",
   }
+,
+  {
+    question: "Can I compare Medicare Advantage and Medigap quotes at the same time?",
+    answer:
+      "Yes. A licensed broker can pull both Medicare Advantage and Medicare Supplement quotes side by side so you can see the trade-offs between premium, out-of-pocket costs, and network flexibility. Medicare.gov also offers a plan finder tool to compare Advantage and Part D options in your area. Call 855-559-1700 to walk through both at once.",
+  }
 ];
 
 export default function MedicareQuotesPage() {
@@ -356,6 +362,7 @@ export default function MedicareQuotesPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free unbiased counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
     </main>
   );

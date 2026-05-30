@@ -93,6 +93,12 @@ const faqs = [
     answer:
       "Medicare Part B helps cover injectable osteoporosis drugs and home health nurse visits to administer them for women with osteoporosis who meet specific criteria. You must be eligible for the Medicare home health benefit, and your doctor must certify that you can't give yourself the injection or learn how. A broker can help you confirm whether your plan covers in-home administration.",
   }
+,
+  {
+    question: "Can a Medicare broker help me find a plan that covers my osteoporosis specialist?",
+    answer:
+      "Yes. A licensed broker can check provider networks before you enroll to confirm your endocrinologist, rheumatologist, or orthopedist is in-network. This is especially important with Medicare Advantage plans, where out-of-network care can cost significantly more or not be covered at all.",
+  }
 ];
 
 export default function MedicareBrokerForOsteoporosisPatients() {

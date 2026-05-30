@@ -679,6 +679,22 @@ const faqs = [
     answer:
       "If you have group health coverage through active employment (yours or your spouse's), you may be able to delay Part B without penalty as long as that coverage is considered creditable. Most people still enroll in Part A at 65 since it is premium-free for those with enough work credits. Always confirm creditable coverage status with your HR department before delaying Part B.",
   }
+,
+  {
+    question: "How long does it take to get my Medicare card after I apply?",
+    answer:
+      "If you enroll during your Initial Enrollment Period before your 65th birthday, your Medicare card typically arrives within about 3 weeks of approval. If you are automatically enrolled because you already receive Social Security, your card arrives about 3 months before your 65th birthday month. You can also print a replacement card from your My Social Security account.",
+  },
+  {
+    question: "Can I sign up for Medicare if I am still working?",
+    answer:
+      "Yes. You can enroll in Part A at 65 even if you are still working, and Part A is premium-free for most people with enough work credits. Whether to enroll in Part B depends on whether your employer coverage is creditable — generally, employer plans from companies with 20 or more employees count. Call 855-559-1700 if you are unsure how your work coverage affects Medicare timing.",
+  },
+  {
+    question: "What happens if I miss my Medicare enrollment deadline?",
+    answer:
+      "If you miss your Initial Enrollment Period and do not qualify for a Special Enrollment Period, you must wait for the General Enrollment Period from January 1 to March 31 each year, with coverage starting the month after you enroll. You may also owe a permanent Part B late enrollment penalty that is added to your monthly premium for as long as you have Medicare. A licensed broker can review your situation at 855-559-1700.",
+  }
 ];
 
 export default function HowToSignUpPage() {

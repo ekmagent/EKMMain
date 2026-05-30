@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for dementia patients | Free Caregiver Consultation | MedicareYourself",
   description:
-    "Medicare broker for dementia patients and caregivers — free help with home health, Part D drugs, and skilled nursing coverage. Call 855-559-1700.",
+    "Medicare broker for dementia patients and caregivers — free help comparing home health, Part D, and skilled nursing coverage. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-dementia-patients" },
   openGraph: {
     title:
@@ -322,6 +322,7 @@ export default function MedicareBrokerForDementiaPatients() {
             <div className="text-sm text-gray-600 mt-4">New Jersey caregivers can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">For free unbiased counseling, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey families can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" target="_blank" rel="noopener noreferrer" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">For free, unbiased local counseling, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> or the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking &amp; Insurance</a>.</div>
       </section>
     </main>
   );

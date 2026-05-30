@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "free medicare broker new jersey | No Fees, No Obligation | MedicareYourself",
   description:
-    "Work with a free, licensed New Jersey Medicare broker. Compare Medigap, Advantage & Part D plans at no cost — call 855-559-1700 for a no-obligation review.",
+    "Free New Jersey Medicare broker — compare Medigap, Advantage & Part D plans with a licensed independent broker. No fees, no obligation. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/free-medicare-broker-new-jersey" },
   openGraph: {
     title:
@@ -142,6 +142,22 @@ const faqs = [
     question: "What information should I have ready before calling a Medicare broker?",
     answer:
       "Have your Medicare card (or your Part A/B effective dates), a list of your current prescriptions with dosages, and the names of any doctors or specialists you want to keep. This lets the broker quickly compare plans that fit both your providers and your medications.",
+  }
+,
+  {
+    question: "When can I enroll in a Medigap plan in New Jersey?",
+    answer:
+      "Your 6-month Medigap Open Enrollment Period begins the month you're 65 or older and enrolled in Medicare Part B. During this window, you have guaranteed issue rights and can't be denied coverage or charged more due to health conditions. New Jersey also uses community rating, so Medigap premiums aren't based on your age.",
+  },
+  {
+    question: "Where can I get free Medicare counseling in New Jersey besides a broker?",
+    answer:
+      "New Jersey's State Health Insurance Assistance Program (SHIP) offers free, unbiased Medicare counseling to residents. A licensed broker is a separate option that adds plan-shopping across multiple carriers at no cost to you. Many beneficiaries use both resources to make a confident decision.",
+  },
+  {
+    question: "Does working with a broker cost more than enrolling directly with a carrier?",
+    answer:
+      "No. Medicare plan premiums are filed with CMS and the state, so the price is identical whether you enroll through a broker, the carrier, or medicare.gov. A broker simply adds licensed guidance and ongoing service at no extra cost to you.",
   }
 ];
 
@@ -368,6 +384,7 @@ export default function FreeMedicareBrokerNewJersey() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased Medicare counseling through <a href="https://www.nj.gov/humanservices/doas/services/q-z/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey SHIP (State Health Insurance Assistance Program)</a>, operated by the NJ Division of Aging Services.</div>
             <div className="text-sm text-gray-600 mt-4">Free unbiased counseling for New Jersey beneficiaries: <a href="https://www.nj.gov/humanservices/doas/services/q-z/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
       </section>
       </article>
     </>

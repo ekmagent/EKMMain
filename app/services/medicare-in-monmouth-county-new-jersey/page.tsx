@@ -86,6 +86,22 @@ const faqs = [
     answer:
       "Your Initial Enrollment Period starts 3 months before you turn 65 and lasts 7 months. Medicare Advantage and Part D Open Enrollment runs October 15 through December 7 each year. Medigap Open Enrollment lasts 6 months starting the month you turn 65 and are enrolled in Part B.",
   },
+,
+  {
+    question: "Are there Medicare Savings Programs available to Monmouth County residents?",
+    answer:
+      "Yes. New Jersey offers Medicare Savings Programs (MSPs) through the Division of Aging Services that can help pay Medicare premiums, deductibles, and coinsurance for those who qualify based on income and resources. Monmouth County residents can apply through the state or get help from a SHIP counselor. A licensed broker can also point you to the right application.",
+  },
+  {
+    question: "How are Medigap rates set in New Jersey?",
+    answer:
+      "New Jersey uses community rating for Medicare Supplement (Medigap) policies, meaning carriers charge the same base premium regardless of age. Your best opportunity to enroll without medical underwriting is during your 6-month Medigap Open Enrollment Period, which begins the month you turn 65 and are enrolled in Part B. Rates can still vary between carriers, so comparing plans matters.",
+  },
+  {
+    question: "Can I keep my doctors at Jersey Shore or Monmouth Medical Center with Medicare?",
+    answer:
+      "Original Medicare is accepted by most providers in Monmouth County, including major hospital systems along the Shore. Medicare Advantage plans use networks, so coverage at a specific hospital or specialist depends on the plan you choose. A licensed broker can verify whether your preferred providers are in-network before you enroll.",
+  }
 ];
 
 export default function MedicareInMonmouthCountyNewJersey() {

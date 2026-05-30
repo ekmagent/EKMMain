@@ -229,6 +229,22 @@ const faqs = [
     answer:
       "It depends on your providers, medications, and budget. Medigap plans tend to offer predictable costs and broad access to any ophthalmologist who accepts Medicare, which can matter if you need ongoing specialist care or surgery. Medicare Advantage plans may include extra vision benefits but often use networks and prior authorization. A free coverage review can compare both paths side by side — call 855-559-1700.",
   }
+,
+  {
+    question: "How often does Medicare cover glaucoma screenings?",
+    answer:
+      "Medicare Part B covers a glaucoma screening once every 12 months for people considered high risk. High-risk groups include people with diabetes, a family history of glaucoma, African Americans age 50 or older, and Hispanic Americans age 65 or older. The screening must be performed or supervised by a state-licensed eye doctor.",
+  },
+  {
+    question: "Are glaucoma eye drops covered by Medicare?",
+    answer:
+      "Prescription glaucoma eye drops such as latanoprost, timolol, and brimonidine are covered under Medicare Part D, not Part B. Coverage and copays depend on your specific Part D plan's formulary and tier placement. A licensed broker can compare Part D plans to find one that covers your specific drops at the lowest cost.",
+  },
+  {
+    question: "Does Medicare Advantage cover glaucoma treatment differently than Original Medicare?",
+    answer:
+      "Medicare Advantage plans must cover everything Original Medicare covers, including glaucoma screenings, laser treatments, and surgery. However, cost-sharing, prior authorization rules, and provider networks vary by plan. Some Advantage plans also include routine vision benefits that Original Medicare does not cover.",
+  }
 ];
 
 export default function MedicareBrokerForGlaucomaPatients() {

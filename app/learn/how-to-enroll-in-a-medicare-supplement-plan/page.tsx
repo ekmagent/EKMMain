@@ -9,7 +9,7 @@ import { MF } from "@/lib/medicare-figures";
 export const metadata: Metadata = {
   title: "How to Enroll in a Medicare Supplement Plan (2026): The 5-Step Guide",
   description:
-    "Enroll in a Medicare Supplement plan in 5 steps and lock in your 6-month guaranteed-issue window. Call 855-559-1700 to compare every carrier free.",
+    "Enroll in a Medicare Supplement plan in 5 steps and protect your 6-month guaranteed-issue window. Call 855-559-1700 to compare every carrier free.",
   alternates: { canonical: `${SITE_URL}/learn/how-to-enroll-in-a-medicare-supplement-plan` },
   openGraph: {
     title: "How to Enroll in a Medicare Supplement Plan (2026): The 5-Step Guide",
@@ -630,6 +630,22 @@ const faqs = [
     question: "Does a Medigap policy from one carrier cover more than the same letter plan from another carrier?",
     answer:
       "No. Medigap benefits are federally standardized, so a Plan G from one insurance company covers the exact same services as a Plan G from any other company in your state. The only meaningful differences are the monthly premium, the carrier's rate-increase history, and customer service. That's why comparing every licensed carrier matters.",
+  }
+,
+  {
+    question: "When is the best time to buy a Medicare Supplement policy?",
+    answer:
+      "The best time to buy is during your Medigap Open Enrollment Period, the 6-month window that begins the month you are 65 or older and enrolled in Part B. During this window you have a guaranteed-issue right, meaning carriers cannot deny coverage or charge more based on your health. Outside this window, most states allow medical underwriting.",
+  },
+  {
+    question: "Do I need both Medicare Part A and Part B to enroll in a Medigap plan?",
+    answer:
+      "Yes. You must have both Part A and Part B before a carrier can issue you a Medicare Supplement policy. If you do not yet have Part B, you can start enrollment at ssa.gov/medicare. Call 855-559-1700 if you need help coordinating the timing.",
+  },
+  {
+    question: "Can I switch Medigap plans after I enroll?",
+    answer:
+      "You can apply to switch Medigap plans at any time, but outside of your Open Enrollment Period or a guaranteed-issue situation, the new carrier can use medical underwriting and may deny your application or charge more. Some states have additional protections, so it's worth comparing options before you switch.",
   }
 ];
 

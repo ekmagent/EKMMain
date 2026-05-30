@@ -383,6 +383,22 @@ const faqs = [
     answer:
       "No. Your Original Medicare (Parts A and B) stays exactly the same when you switch Medigap carriers. Only the supplement policy changes. Your doctors, hospitals, and Medicare claims process all continue without interruption.",
   }
+,
+  {
+    question: "Do I have to answer health questions when switching Medigap carriers?",
+    answer:
+      "In most states, yes — outside your 6-month Medigap Open Enrollment Period or a guaranteed issue situation, carriers can use medical underwriting and may decline your application based on health history. Some states (like New York and Connecticut) have year-round guaranteed issue rules, and others offer birthday or anniversary rules that let you switch without underwriting. Your broker can confirm what applies in your state before you apply.",
+  },
+  {
+    question: "Will I have a gap in coverage when I switch Medigap plans?",
+    answer:
+      "No, a proper switch is designed to avoid any coverage gap. You apply to the new carrier first, wait for approval, and only cancel the old policy once the new one has an active effective date. Medicare itself continues to pay its share the entire time, and the new Medigap policy picks up the secondary coverage on day one. Call 855-559-1700 if you want help timing the transition.",
+  },
+  {
+    question: "Is there a free-look period if I switch Medigap policies?",
+    answer:
+      "Yes. When you buy a new Medigap policy, you have a 30-day free-look period during which you can decide whether to keep it. You'll need to pay both premiums for that month, but if you cancel the new policy within 30 days you can keep your original coverage. This protects you when testing a switch to a lower-priced carrier.",
+  }
 ];
 
 export default function SwitchCarriersPage() {

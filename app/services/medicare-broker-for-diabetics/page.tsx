@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare broker for diabetics | Free Help Finding the Right Plan | MedicareYourself",
   description:
-    "Medicare broker for diabetics: compare plans covering insulin, CGMs and endocrinologists. Free expert help from Anthony Orner — call 855-559-1700 today.",
+    "Medicare broker for diabetics — compare plans covering insulin, CGMs, and your endocrinologist. Free expert help from Anthony Orner. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-diabetics" },
   openGraph: {
     title:
@@ -148,6 +148,22 @@ const faqs = [
     question: "Can I switch Medicare plans if my diabetes medications change?",
     answer:
       "You can change plans during the Annual Enrollment Period each fall, and in some cases during the Medicare Advantage Open Enrollment Period in early spring. If a plan drops your medication from its formulary mid-year, you may also qualify for a transition fill or formulary exception. A broker can help you time changes around your treatment plan.",
+  }
+,
+  {
+    question: "Are diabetes self-management training and nutrition counseling covered by Medicare?",
+    answer:
+      "Yes. Medicare Part B covers Diabetes Self-Management Training (DSMT) when ordered by your doctor, and Medical Nutrition Therapy (MNT) is covered for people with diabetes or kidney disease when provided by a registered dietitian. A broker can confirm which providers in your area accept Medicare assignment for these services.",
+  },
+  {
+    question: "Does Medicare cover diabetic shoes and supplies?",
+    answer:
+      "Medicare Part B covers therapeutic shoes or inserts for people with diabetes who meet specific medical criteria, along with blood sugar testing supplies like monitors, test strips, and lancets. Coverage rules and supplier requirements vary, so a broker can help you understand what your specific plan requires for these supplies.",
+  },
+  {
+    question: "When can I switch Medicare plans if my diabetes care needs change?",
+    answer:
+      "Most people can change Medicare Advantage or Part D plans during the Annual Enrollment Period each fall, with coverage starting January 1. There is also a Medicare Advantage Open Enrollment Period in the first quarter of the year. If you qualify for a Special Enrollment Period — for example, due to moving or losing other coverage — you may be able to switch outside those windows.",
   }
 ];
 
@@ -413,6 +429,7 @@ export default function MedicareBrokerForDiabetics() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

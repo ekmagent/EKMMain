@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for congestive heart failure patients | Free Plan Review | MedicareYourself",
   description:
-    "Medicare broker for CHF patients — Anthony Orner finds plans covering cardiac rehab, heart meds & hospital stays. Free plan review: 855-559-1700.",
+    "Medicare broker for CHF patients — Anthony Orner helps you find plans covering cardiac rehab, heart meds & hospital stays. Free plan review: 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-congestive-heart-failure-patients" },
   openGraph: {
     title:
@@ -265,6 +265,17 @@ const faqs = [
     question: "Does Medicare cover heart failure medications like entresto, beta blockers, and diuretics?",
     answer:
       "Most heart failure medications are covered under Medicare Part D prescription drug plans or through a Medicare Advantage plan that includes drug coverage. Coverage and copays vary by plan formulary, so the same medication can cost very different amounts depending on which plan you choose. Anthony can run your full medication list against available plans to find the lowest total cost.",
+  }
+,
+  {
+    question: "Does a Medicare broker cost anything for CHF patients?",
+    answer:
+      "No. Licensed Medicare brokers like Anthony Orner are paid by the insurance carriers, not by you. You pay the same plan premium whether you enroll directly or through a broker, so there's no added cost for personalized help comparing plans for heart failure care.",
+  },
+  {
+    question: "Will Medicare cover a cardiologist for ongoing CHF management?",
+    answer:
+      "Yes. Medicare Part B covers medically necessary visits to cardiologists and other specialists for monitoring and treating congestive heart failure. With Original Medicare you can see any provider that accepts Medicare, while Medicare Advantage plans typically require you to stay within a network.",
   }
 ];
 

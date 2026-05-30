@@ -242,6 +242,22 @@ const faqs = [
     answer:
       "It depends on your providers, prescriptions, and budget. Medigap plans typically offer broader provider access and predictable out-of-pocket costs, which can matter for ongoing rehab and specialist care. Medicare Advantage may include extras like transportation or fitness benefits but uses networks. I'll compare both based on your stroke recovery needs — call 855-559-1700.",
   }
+,
+  {
+    question: "Does Medicare cover durable medical equipment like wheelchairs or walkers after a stroke?",
+    answer:
+      "Yes. Medicare Part B covers medically necessary durable medical equipment (DME) such as wheelchairs, walkers, hospital beds, and canes when prescribed by your doctor. You typically pay the Part B coinsurance after meeting the annual deductible. A Medicare Supplement plan can help cover those out-of-pocket costs.",
+  },
+  {
+    question: "Will Medicare pay for home health care after a stroke?",
+    answer:
+      "Medicare Part A and Part B cover eligible home health services — including intermittent skilled nursing, physical therapy, speech-language pathology, and occupational therapy — when ordered by your doctor and provided by a Medicare-certified home health agency. You must be considered homebound to qualify. Personal care alone (bathing, dressing) is not covered if it's the only service needed.",
+  },
+  {
+    question: "Should a stroke survivor choose Medicare Advantage or Original Medicare with a Medigap plan?",
+    answer:
+      "It depends on your providers, prescriptions, and recovery needs. Original Medicare paired with a Medigap plan offers broad provider access and predictable out-of-pocket costs, which can matter when you're seeing multiple specialists. Medicare Advantage may offer extras like transportation or fitness benefits but uses networks. I'll compare both side-by-side for your situation.",
+  }
 ];
 
 export default function MedicareBrokerForStrokeSurvivors() {

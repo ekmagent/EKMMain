@@ -115,6 +115,22 @@ const faqs = [
     answer:
       "Medicare Part B covers monthly chronic pain management and treatment services, which can include a comprehensive pain assessment, care planning, medication management, and care coordination with your providers. Part B also covers physical therapy, occupational therapy, and acupuncture for chronic low back pain when medically necessary. After you meet the Part B deductible, you typically pay 20% of the Medicare-approved amount.",
   }
+,
+  {
+    question: "Can a Medicare broker help me keep my current pain management specialist?",
+    answer:
+      "Yes. A licensed broker reviews each plan's provider network before recommending coverage and confirms whether your current pain specialist, physical therapist, or interventional doctor participates. With Original Medicare plus Medigap, any provider who accepts Medicare is in-network, which often gives chronic pain patients the most flexibility. Call 855-559-1700 for a free provider check.",
+  },
+  {
+    question: "Do Medicare drug plans cover pain medications and injections?",
+    answer:
+      "Part D plans cover most oral pain medications, but each plan has its own formulary, tier structure, and prior authorization rules. Injectable treatments administered in a doctor's office, such as epidural steroid injections or trigger point injections, are typically billed under Part B rather than Part D. A broker can run your specific medication list against each plan's formulary before you enroll.",
+  },
+  {
+    question: "Can I switch Medicare plans if my chronic pain treatment changes?",
+    answer:
+      "You can change Medicare Advantage or Part D plans during the Annual Enrollment Period each fall, and during the Medicare Advantage Open Enrollment Period in early spring. Switching to a Medigap plan outside your initial enrollment window may require medical underwriting, which can affect approval for people with chronic conditions. A broker can explain which switches are guaranteed-issue in your state.",
+  }
 ];
 
 export default function MedicareBrokerForChronicPainPatients() {

@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
   description:
-    "Learn how Medicare's IRMAA surcharge works in 2026 — income brackets, Part B & D impact, and SSA-44 appeals. Free broker help: 855-559-1700.",
+    "Understand Medicare's IRMAA income surcharge for 2026 — how brackets work, Part B & D impact, and how to appeal with SSA-44. Free broker help: 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/irmaa-medicare-surcharge` },
   openGraph: {
     title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
@@ -661,6 +661,17 @@ const faqs = [
     question: "Is IRMAA recalculated every year?",
     answer:
       "Yes. SSA reviews your most recent tax return on file each year and recalculates whether IRMAA applies. If your income falls below the threshold in a later tax year, the surcharge will be removed automatically once SSA receives that updated return from the IRS.",
+  }
+,
+  {
+    question: "How do I appeal an IRMAA determination if my income has dropped?",
+    answer:
+      "You can request a reduction by filing Form SSA-44 with the Social Security Administration if you've experienced a life-changing event such as retirement, divorce, or the death of a spouse. You'll need to provide documentation of the event and an estimate of your new income. SSA reviews each request individually and may adjust your surcharge accordingly.",
+  },
+  {
+    question: "Is IRMAA permanent once I'm charged?",
+    answer:
+      "No. IRMAA is recalculated every year based on your most recent tax return on file with the IRS. If your income drops below the threshold in a later tax year, your surcharge will be removed automatically the following year. You don't need to reapply each year unless you're requesting a reduction due to a life-changing event.",
   }
 ];
 

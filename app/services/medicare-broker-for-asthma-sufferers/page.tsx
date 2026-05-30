@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for asthma sufferers | Free Inhaler Coverage Check | MedicareYourself",
   description:
-    "Medicare broker for asthma sufferers. Anthony Orner compares Part D formularies so your inhalers and rescue meds cost less. Free plan review — call today.",
+    "Medicare broker for asthma sufferers. Anthony Orner compares Part D formularies so your inhalers cost less. Free plan review — call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-asthma-sufferers" },
   openGraph: {
     title:
@@ -88,6 +88,12 @@ const faqs = [
     answer:
       "Medicare Advantage bundles hospital, doctor, and often drug coverage into one plan, usually with copays per visit. Medigap (Medicare Supplement) covers cost-sharing from Original Medicare, giving you broader provider access but requiring a separate Part D plan. The best fit depends on how often you see specialists and use the ER.",
   },
+,
+  {
+    question: "Are nebulizers and nebulizer medications covered by Medicare?",
+    answer:
+      "Yes. Nebulizers are typically covered under Medicare Part B as durable medical equipment when prescribed by your doctor for use at home. The medications used with the nebulizer, such as albuterol solution, are also generally covered under Part B rather than Part D when administered through the device. You'll usually pay the Part B coinsurance after meeting your deductible.",
+  }
 ];
 
 export default function MedicareBrokerForAsthmaSufferers() {

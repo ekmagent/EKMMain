@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare broker for people with CLL | Free Consult | MedicareYourself",
   description:
-    "Medicare broker for people with CLL — get clear help with Medigap underwriting, Part D oral cancer drugs, and specialist access. Call 855-559-1700.",
+    "Medicare broker for CLL patients — get clear help with Medigap underwriting, Part D oral cancer drugs, and specialist access. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-people-with-cll" },
   openGraph: {
     title:
@@ -211,6 +211,22 @@ const faqs = [
     question: "Will Medicare cover clinical trials for CLL?",
     answer:
       "Yes. Medicare covers routine costs of qualifying clinical trials, including doctor visits, lab work, and standard care items that would be covered outside the trial. The investigational drug itself is usually paid for by the trial sponsor. Talk with your oncologist and your Medicare broker to confirm coverage before enrolling.",
+  }
+,
+  {
+    question: "Does Medicare Part D cover oral targeted therapies for CLL?",
+    answer:
+      "Yes. Medicare Part D plans cover oral cancer medications, including BTK inhibitors and BCL-2 inhibitors commonly used to treat CLL. However, formularies, prior authorization rules, and cost-sharing tiers vary widely between plans. Choosing the right Part D plan based on your specific CLL medications can significantly reduce your annual drug costs.",
+  },
+  {
+    question: "Can I see a CLL specialist at a major cancer center with Medicare?",
+    answer:
+      "With Original Medicare, you can see any oncologist or CLL specialist nationwide who accepts Medicare, including those at NCI-designated cancer centers. Medicare Advantage plans typically require you to stay within a provider network, which may exclude top CLL specialists. Call 855-559-1700 to discuss how to preserve access to the specialists you need.",
+  },
+  {
+    question: "What happens to my Medigap plan if my CLL progresses?",
+    answer:
+      "Once you are enrolled in a Medigap policy, the carrier cannot drop you or raise your rates because your CLL progresses or you need more treatment. Medigap plans are guaranteed renewable as long as you pay your premium. This protection is a key reason many CLL patients prioritize enrolling in Medigap during their initial open enrollment window.",
   }
 ];
 
@@ -489,6 +505,7 @@ export default function MedicareBrokerForPeopleWithCLL() {
             <div className="text-sm text-gray-600 mt-4">For free, unbiased counseling, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> or the <a href="https://www.nj.gov/dobi/division_insurance/" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">State help: <a href="https://www.state.nj.us/dobi/division_insurance/ship/shipmain.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a></div>
+            <div className="text-sm text-gray-600 mt-4">For free state-based counseling, contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </>
   );
