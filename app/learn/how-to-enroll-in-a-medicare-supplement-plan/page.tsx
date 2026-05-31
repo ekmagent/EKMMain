@@ -9,7 +9,7 @@ import { MF } from "@/lib/medicare-figures";
 export const metadata: Metadata = {
   title: "How to Enroll in a Medicare Supplement Plan (2026): The 5-Step Guide",
   description:
-    "Enroll in a Medicare Supplement plan in 5 steps and protect your 6-month guaranteed-issue window. Call 855-559-1700 to compare every carrier free.",
+    "Enroll in a Medicare Supplement plan in 5 steps and lock in your 6-month guaranteed-issue window. Call 855-559-1700 to compare every carrier free.",
   alternates: { canonical: `${SITE_URL}/learn/how-to-enroll-in-a-medicare-supplement-plan` },
   openGraph: {
     title: "How to Enroll in a Medicare Supplement Plan (2026): The 5-Step Guide",
@@ -646,6 +646,22 @@ const faqs = [
     question: "Can I switch Medigap plans after I enroll?",
     answer:
       "You can apply to switch Medigap plans at any time, but outside of your Open Enrollment Period or a guaranteed-issue situation, the new carrier can use medical underwriting and may deny your application or charge more. Some states have additional protections, so it's worth comparing options before you switch.",
+  }
+,
+  {
+    question: "Do I need both Medicare Part A and Part B to buy a Medigap policy?",
+    answer:
+      "Yes. Generally, you must be enrolled in Original Medicare — both Part A and Part B — before a carrier can issue you a Medicare Supplement policy. If you only have Part A, you'll need to enroll in Part B before applying. You can start your Medicare enrollment at ssa.gov/medicare.",
+  },
+  {
+    question: "Can my spouse and I share one Medigap policy?",
+    answer:
+      "No. A Medigap policy only covers one person. If you and your spouse both want Medicare Supplement coverage, each of you must apply for and purchase your own separate policy, even if you choose the same plan letter from the same carrier.",
+  },
+  {
+    question: "What happens if I apply for Medigap after my 6-month Open Enrollment Period ends?",
+    answer:
+      "Outside your Medigap Open Enrollment Period, carriers in most states can use medical underwriting — meaning they can deny your application or charge higher premiums based on your health history. A few states have additional protections, but in most cases, missing the 6-month window can permanently limit your options. Call 855-559-1700 to review your situation before you apply.",
   }
 ];
 

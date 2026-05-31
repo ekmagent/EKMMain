@@ -274,6 +274,12 @@ const faqs = [
     answer:
       "Your best window is the 6-month Medigap Open Enrollment Period that begins when you're 65 or older and enrolled in Part B. During this window, you have guaranteed issue rights and can't be denied coverage or charged more due to health history. New Jersey uses community rating for Medigap, meaning premiums are not based on individual age.",
   }
+,
+  {
+    question: "When can I enroll in a Medigap plan in New Jersey?",
+    answer:
+      "Your best window is the 6-month Medigap Open Enrollment Period that begins the month you turn 65 and are enrolled in Part B. During this window, carriers cannot deny you coverage or charge more based on health. New Jersey uses community rating, which means Medigap premiums are not based on your individual age. After this window closes, acceptance is no longer guaranteed in most situations.",
+  }
 ];
 
 export default function MedicareInsuranceAgentsBurlingtonNJ() {
@@ -534,6 +540,7 @@ export default function MedicareInsuranceAgentsBurlingtonNJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
       </section>
     </>
   );

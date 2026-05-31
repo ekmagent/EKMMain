@@ -100,6 +100,22 @@ const faqs = [
     answer:
       "Yes, you can apply to switch to Plan G at any time, but most carriers will require medical underwriting if you're outside a guaranteed issue period. If approved, your new Plan G can start the first of an upcoming month, and you should not cancel your existing policy until the new one is confirmed active.",
   }
+,
+  {
+    question: "Can I switch from another Medigap plan to Plan G online?",
+    answer:
+      "Yes, you can apply to switch to Plan G at any time, but outside your Medigap Open Enrollment Period most carriers will require medical underwriting. If approved, your new Plan G replaces your existing coverage on the effective date. A broker can help you compare carrier rates before you cancel your current policy.",
+  },
+  {
+    question: "Does Plan G cover the Part B deductible?",
+    answer:
+      "No. Plan G covers nearly all Medicare-approved out-of-pocket costs except the annual Part B deductible, which you pay before coverage begins. After meeting the Part B deductible, Plan G generally covers the remaining Part B coinsurance and copayments at full. This is the main difference between Plan G and the older Plan F.",
+  },
+  {
+    question: "Can I keep my doctors if I enroll in Plan G?",
+    answer:
+      "Yes. Plan G works with Original Medicare, so you can see any doctor or hospital nationwide that accepts Medicare. There are no network restrictions and no referrals required for specialists. Your provider access does not change based on which carrier issues your Plan G policy.",
+  }
 ];
 
 export default function EnrollInPlanGOnlinePage() {

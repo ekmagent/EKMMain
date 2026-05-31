@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for bipolar disorder patients | Free Plan Comparison | MedicareYourself",
   description:
-    "Medicare broker for bipolar disorder patients — Anthony Orner compares Part D plans covering mood stabilizers & psychiatric care. Free help: 855-559-1700.",
+    "Medicare broker for bipolar disorder patients — Anthony Orner compares Part D formularies for mood stabilizers & psychiatric care. Free help: 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-bipolar-disorder-patients" },
   openGraph: {
     title:
@@ -87,6 +87,22 @@ const faqs = [
     answer:
       "Nothing. Licensed Medicare brokers like Anthony Orner are paid by insurance carriers, not by you. There is no fee for plan comparisons, drug-cost analysis, or enrollment assistance. The plans and premiums are the same whether you enroll directly or through a broker.",
   },
+,
+  {
+    question: "Are therapy and counseling sessions covered for bipolar disorder under Medicare?",
+    answer:
+      "Yes. Medicare Part B covers outpatient psychotherapy, counseling, and visits with psychiatrists, clinical psychologists, clinical social workers, and nurse practitioners. After meeting the Part B deductible, you typically pay coinsurance for each session. A Medicare Advantage plan may handle these services differently, so it's important to confirm provider networks before enrolling.",
+  },
+  {
+    question: "Can a Medicare Advantage plan limit my choice of psychiatrist?",
+    answer:
+      "Yes. Medicare Advantage plans use provider networks, which means your psychiatrist or therapist must be in-network for full coverage. Original Medicare with a Part D plan generally allows you to see any provider who accepts Medicare. If continuity with a current psychiatrist matters, a broker can verify network status before you enroll.",
+  },
+  {
+    question: "What happens to my bipolar medication coverage if I switch Part D plans?",
+    answer:
+      "Each Part D plan has its own formulary, tier structure, and prior authorization rules, so switching can change what you pay for mood stabilizers and antipsychotics. Some plans require step therapy before covering certain brand-name drugs. Reviewing your full medication list against each plan's formulary during the Annual Enrollment Period helps avoid coverage surprises.",
+  }
 ];
 
 export default function MedicareBrokerBipolarDisorderPage() {
@@ -371,6 +387,7 @@ export default function MedicareBrokerBipolarDisorderPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <p className="text-sm text-gray-600 mt-3">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</p>
       </section>
       </article>
     </>

@@ -68,6 +68,12 @@ const faqs = [
     answer:
       "Yes. Both Plan G and Plan N include foreign travel emergency coverage up to plan limits after a $250 deductible, covering 80% of billed charges for emergency care during the first 60 days of a trip abroad. Lifetime maximum is $50,000 on both plans.",
   }
+,
+  {
+    question: "Are Plan G and Plan N standardized the same way in New Jersey as in other states?",
+    answer:
+      "Yes. Medigap Plan G and Plan N benefits are federally standardized, so the core coverage is identical from carrier to carrier and state to state. What differs in New Jersey is the pricing structure — NJ uses community rating, meaning premiums do not change based on your age. Carriers compete on price and customer service rather than benefits.",
+  }
 ];
 
 export default function PlanGvsPlanNPage() {

@@ -127,6 +127,12 @@ const faqs = [
     answer:
       "Yes. Because every carrier files its own rate adjustments and pricing models age differently over time, the most competitive carrier for your plan letter can change year to year. A free annual rate review confirms whether your current plan is still priced competitively for your age and ZIP code.",
   }
+,
+  {
+    question: "Should I shop my Medicare Supplement plan after every rate increase?",
+    answer:
+      "It is wise to review your coverage whenever you receive a rate notice, but switching is not always the right move. If you can pass medical underwriting, you may qualify for a lower premium on the same standardized benefits with a different carrier. A free rate review can compare your current policy against other available carriers in your state before you make any decision.",
+  }
 ];
 
 export default function WhyDidMyMedicareSupplementRateChange() {
@@ -411,6 +417,7 @@ export default function WhyDidMyMedicareSupplementRateChange() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify carrier rate filings and consumer protections through the <a href="https://www.nj.gov/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a> or get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents: review filings and consumer guidance through the <a href="https://www.state.nj.us/dobi/division_insurance/" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP</a> for free counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can compare filed Medigap rates and consumer protections through the <a href="https://www.state.nj.us/dobi/division_insurance/managedcare/medsupp.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance — Medicare Supplement</a> or get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" target="_blank" rel="noopener noreferrer" className="text-blue-700 underline">NJ Department of Banking and Insurance</a> or the free <a href="https://www.state.nj.us/humanservices/doas/services/ship/" target="_blank" rel="noopener noreferrer" className="text-blue-700 underline">NJ SHIP counseling program</a> for unbiased Medigap rate guidance.</div>
       </section>
       </article>
     </>

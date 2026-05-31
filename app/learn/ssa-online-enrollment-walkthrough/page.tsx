@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title:
     "How to Enroll in Medicare Online at SSA.gov (Step-by-Step Walkthrough)",
   description:
-    "Step-by-step SSA.gov Medicare enrollment walkthrough — apply online in about 10 minutes. Call 855-559-1700 for free licensed broker guidance on coverage.",
+    "Step-by-step SSA.gov Medicare enrollment walkthrough — apply online in about 10 minutes. Call 855-559-1700 for free licensed broker help choosing coverage.",
   alternates: {
     canonical: `${SITE_URL}/learn/ssa-online-enrollment-walkthrough`,
   },
@@ -800,6 +800,22 @@ const steps = [
     question: "What happens after I submit my Medicare application on SSA.gov?",
     answer:
       "SSA reviews your application and mails your Medicare card, typically within a few weeks. You cannot modify the application after submitting, so review carefully before signing. If you need to make changes, you'll need to contact Social Security directly.",
+  }
+,
+  {
+    question: "Can I sign up for Medicare online if I'm not taking Social Security retirement benefits yet?",
+    answer:
+      "Yes. The SSA online application lets you apply for Medicare only without starting your retirement benefits. During the application, you'll be asked whether you want to apply for Medicare only, and you can answer yes to keep your retirement claim separate for later.",
+  },
+  {
+    question: "What documents do I need to complete the SSA online Medicare application?",
+    answer:
+      "You'll need your Social Security number, a valid driver's license or state ID for identity verification through Login.gov or ID.me, and details about any current health insurance, including employer group coverage and employment dates. Having this information ready helps you finish the application in about 10 minutes.",
+  },
+  {
+    question: "Can I change my Medicare application after I submit it on SSA.gov?",
+    answer:
+      "No. Once you sign the Electronic Signature Agreement and click Submit Now, the application is final and cannot be modified online. If you need to correct something or change your Part B election, you'll need to contact Social Security directly. Call 855-559-1700 for free broker guidance before you submit.",
   }
 ];
 

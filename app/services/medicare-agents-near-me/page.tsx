@@ -86,6 +86,12 @@ const faqs = [
     answer:
       "Yes. During the Annual Enrollment Period (October 15 – December 7) or if you qualify for a Special Enrollment Period, a licensed agent can help you review your current coverage and switch to a plan that better fits your needs.",
   },
+,
+  {
+    question: "How do I find a trustworthy Medicare agent near me?",
+    answer:
+      "Look for an independent broker who is licensed in your state and contracted with multiple major carriers. Ask how they get paid, whether they charge fees, and if they offer ongoing support after enrollment. A trustworthy agent will explain options clearly, share their National Producer Number, and never pressure you into a decision.",
+  }
 ];
 
 export default function MedicareAgentsNearMe() {

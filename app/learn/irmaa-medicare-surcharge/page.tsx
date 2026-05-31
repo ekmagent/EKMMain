@@ -673,6 +673,22 @@ const faqs = [
     answer:
       "No. IRMAA is recalculated every year based on your most recent tax return on file with the IRS. If your income drops below the threshold in a later tax year, your surcharge will be removed automatically the following year. You don't need to reapply each year unless you're requesting a reduction due to a life-changing event.",
   }
+,
+  {
+    question: "How do I appeal an IRMAA determination if my income has dropped?",
+    answer:
+      "If you've had a life-changing event such as retirement, divorce, or the death of a spouse, you can request a reduction by filing Form SSA-44 with the Social Security Administration. You'll need to provide documentation of the event and an estimate of your new income. SSA reviews these requests and can adjust or remove your IRMAA surcharge for the year.",
+  },
+  {
+    question: "Is IRMAA recalculated every year?",
+    answer:
+      "Yes. Social Security reviews your tax return data each year and reassesses whether IRMAA applies based on your most recent MAGI on file. If your income drops below the threshold in a later tax year, your IRMAA surcharge will automatically go away. You don't need to reapply each year unless you're filing an appeal based on a life-changing event.",
+  },
+  {
+    question: "Can a Medicare broker help me reduce or avoid IRMAA?",
+    answer:
+      "A broker can't change what the IRS reports to Social Security, but we can help you understand which life-changing events qualify for an SSA-44 appeal and walk you through the documentation. We can also help you plan your Part D and Medicare Advantage choices so the IRMAA surcharge isn't compounded by an inefficient plan. Call 855-559-1700 for free guidance.",
+  }
 ];
 
 export default function IrmaaPage() {

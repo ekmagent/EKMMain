@@ -168,6 +168,17 @@ const faqs = [
     answer:
       "Yes. Most carriers use attained-age rating, which means your premium increases as you get older, plus general inflation adjustments. The benefits themselves never change because they're standardized by Medicare, but the price you pay can rise annually. Reviewing your plan each year helps ensure you're not overpaying.",
   }
+,
+  {
+    question: "Does where I live affect how much I pay for a Medigap plan?",
+    answer:
+      "Yes. Medigap premiums vary widely by zip code because carriers price policies based on local claims experience, state regulations, and demographics. The same Plan G from the same carrier can cost noticeably more or less depending on whether you live in an urban or rural area. That's why getting quotes specific to your zip code matters.",
+  },
+  {
+    question: "Are Medigap benefits the same across every insurance company?",
+    answer:
+      "Yes. Every Medigap plan with the same letter offers identical standardized benefits by federal law, regardless of which insurance company sells it. The only real differences between carriers are the monthly premium, customer service, and how aggressively they raise rates over time. That makes price and carrier stability the two factors worth comparing closely.",
+  }
 ];
 
 export default function HowMuchDoesBestMedicareSupplementalInsuranceCostPerMonth() {

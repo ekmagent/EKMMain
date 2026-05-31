@@ -102,6 +102,17 @@ const faqs = [
     answer:
       "Original Medicare is accepted by most providers in Monmouth County, including major hospital systems along the Shore. Medicare Advantage plans use networks, so coverage at a specific hospital or specialist depends on the plan you choose. A licensed broker can verify whether your preferred providers are in-network before you enroll.",
   }
+,
+  {
+    question: "Does Monmouth County offer a Medicare Part B premium reimbursement?",
+    answer:
+      "Monmouth County administers a Medicare Part B Reimbursement program for eligible retirees through its online portal. Residents can register, sign in, and submit a reimbursement request form at medicare.co.monmouth.nj.us. For help, the county provides an email (Medicarehelp@co.monmouth.nj.us) and phone line (732-683-8955).",
+  },
+  {
+    question: "How does Medigap pricing work for Monmouth County residents?",
+    answer:
+      "New Jersey uses community rating for Medicare Supplement plans, which means carriers generally charge the same premium for a given Medigap plan regardless of your age. Your best window to enroll without medical underwriting is your 6-month Medigap Open Enrollment Period, which begins when you are 65 and enrolled in Part B. A licensed broker can compare community-rated Medigap premiums across carriers in your zip code.",
+  }
 ];
 
 export default function MedicareInMonmouthCountyNewJersey() {
@@ -338,6 +349,7 @@ export default function MedicareInMonmouthCountyNewJersey() {
             <div className="text-sm text-gray-600 mt-4">Local help: <a href="https://www.fcsmonmouth.org/_home/services/medicare-counseling/" rel="noopener noreferrer" target="_blank" className="underline">Family and Children's Service of Monmouth County SHIP Counseling</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Local help: <a href="https://www.fcsmonmouth.org/_home/services/medicare-counseling/" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">SHIP Medicare Counseling through Family and Children's Service of Monmouth County</a></div>
             <div className="text-sm text-gray-600 mt-4">New Jersey resources: <a href="https://www.nj.gov/humanservices/doas/assistance/medicare/offices.shtml" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP Local Offices</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey resources: <a href="https://www.nj.gov/humanservices/doas/services/l-p/msp/" rel="noopener noreferrer" target="_blank" className="underline">NJ Division of Aging Services — Medicare Savings Programs</a> and <a href="https://medicare.co.monmouth.nj.us/" rel="noopener noreferrer" target="_blank" className="underline">Monmouth County Medicare Part B Reimbursement</a></div>
       </section>
     </main>
   );

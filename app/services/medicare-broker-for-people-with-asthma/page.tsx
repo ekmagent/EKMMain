@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare broker for people with asthma | Free Help Finding Coverage | MedicareYourself",
   description:
-    "Have asthma and need Medicare? Anthony Orner helps you find carriers more likely to approve Medigap coverage. Free broker help — call 855-559-1700.",
+    "Have asthma and need Medicare? Broker Anthony Orner helps you find carriers more likely to approve Medigap coverage. Free help — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-people-with-asthma" },
   openGraph: {
     title:
@@ -417,6 +417,7 @@ export default function MedicareBrokerForPeopleWithAsthma() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">For free one-on-one Medicare counseling in your state, contact your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
       </article>
     </>

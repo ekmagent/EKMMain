@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "you get a medicare supplement if you are on disability | Free Guide | MedicareYourself",
   description:
-    "On disability and under 65? Over 30 states protect Medigap access. Compare plans free with a licensed broker — call 855-559-1700 for a no-cost rate review.",
+    "On disability and under 65? Over 30 states protect Medigap access. Compare plans with a licensed broker — call 855-559-1700 for a free rate review.",
   alternates: { canonical: "https://medicareyourself.com/services/you-get-a-medicare-supplement-if-you-are-on-disability" },
   openGraph: {
     title:
@@ -399,6 +399,7 @@ export default function MedicareSupplementDisabilityPage() {
             <div className="text-sm text-gray-600 mt-4">For state-specific Medigap rules, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free local counseling.</div>
             <div className="text-sm text-gray-600 mt-4">For state-specific Medigap rules and free counseling, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">For state-specific Medigap rules for under-65 enrollees, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free local counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">State help: <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">Find your local SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
       </section>
 
       <p className="text-sm text-gray-500 mt-10">

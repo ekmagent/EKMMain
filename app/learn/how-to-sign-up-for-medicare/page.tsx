@@ -695,6 +695,17 @@ const faqs = [
     answer:
       "If you miss your Initial Enrollment Period and do not qualify for a Special Enrollment Period, you must wait for the General Enrollment Period from January 1 to March 31 each year, with coverage starting the month after you enroll. You may also owe a permanent Part B late enrollment penalty that is added to your monthly premium for as long as you have Medicare. A licensed broker can review your situation at 855-559-1700.",
   }
+,
+  {
+    question: "Can I sign up for Medicare if I'm still working at 65?",
+    answer:
+      "Yes. You can enroll in Medicare at 65 even if you're still working. Many people sign up for Part A since it's premium-free for those with enough work credits, and delay Part B if they have creditable employer coverage from active employment. Check with your HR department before delaying Part B to avoid a late enrollment penalty.",
+  },
+  {
+    question: "What happens if I miss my Medicare Initial Enrollment Period?",
+    answer:
+      "If you miss your IEP and don't qualify for a Special Enrollment Period, you'll need to wait for the General Enrollment Period (January 1 – March 31) to sign up for Part B, with coverage starting the month after you enroll. You may also owe a permanent Part B late enrollment penalty for each 12-month period you could have had Part B but didn't. Call 855-559-1700 if you're unsure which window applies to you.",
+  }
 ];
 
 export default function HowToSignUpPage() {

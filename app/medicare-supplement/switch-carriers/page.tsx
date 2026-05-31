@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Switch Medigap Carriers, Same Plan G (2026)",
   description:
-    "Switch Medigap Plan G carriers and keep identical federally standardized benefits at a lower premium. Free carrier comparison — call 855-559-1700.",
+    "Switch Medigap Plan G carriers and keep identical federally standardized benefits at a lower premium. Free carrier comparison — call 855-559-1700 today.",
   alternates: { canonical: `${SITE_URL}/medicare-supplement/switch-carriers` },
   openGraph: {
     title: "Switch Medigap Carriers, Same Plan G (2026)",
@@ -399,6 +399,22 @@ const faqs = [
     answer:
       "Yes. When you buy a new Medigap policy, you have a 30-day free-look period during which you can decide whether to keep it. You'll need to pay both premiums for that month, but if you cancel the new policy within 30 days you can keep your original coverage. This protects you when testing a switch to a lower-priced carrier.",
   }
+,
+  {
+    question: "Will I need to answer medical questions to switch Medigap carriers?",
+    answer:
+      "In most states, yes — if you are switching outside your 6-month Medigap Open Enrollment Period or a Guaranteed Issue situation, the new carrier can require medical underwriting. That means they can ask about your health history and prescriptions, and they can decline your application. A few states have more generous switching rules, so it is worth checking with your state insurance department or a licensed broker before applying.",
+  },
+  {
+    question: "What happens to my old Medigap policy when I switch?",
+    answer:
+      "You should never cancel your existing Medigap policy until the new one is fully approved and has an active start date. Once approved, you notify your old carrier in writing to cancel, and Medicare also gives you a 30-day free look period to try the new policy. If you cancel within that window, you can return to your previous coverage without penalty in most cases.",
+  },
+  {
+    question: "Do I lose any waiting period credit when I switch Medigap carriers?",
+    answer:
+      "If you had your previous Medigap policy for at least 6 months, the new carrier generally cannot impose a new pre-existing condition waiting period when you switch to the same or lesser benefits. This protection is part of federal Medigap rules. Your licensed broker can confirm how the rule applies to your specific switch.",
+  }
 ];
 
 export default function SwitchCarriersPage() {
@@ -643,6 +659,7 @@ export default function SwitchCarriersPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medigap counseling.</div>
             <div className="text-sm text-gray-600 mt-4">Need free state-level help? Contact <a href="https://www.state.nj.us/dobi/division_insurance/ship/shipmain.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey SHIP (State Health Insurance Assistance Program)</a> for unbiased Medigap counseling.</div>
             <div className="text-sm text-gray-600 mt-4">Free unbiased help in New Jersey: <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify carrier rates and switching rules with the <a href="https://www.nj.gov/dobi/division_insurance/managedcare/shipinfo.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
     </>
   );

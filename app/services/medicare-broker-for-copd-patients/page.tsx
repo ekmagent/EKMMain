@@ -184,6 +184,22 @@ const faqs = [
     answer:
       "You can change Medicare Advantage or Part D plans during the Annual Enrollment Period each fall, and certain qualifying events may trigger a Special Enrollment Period. If your pulmonologist prescribes a new inhaler or biologic, a free plan review can identify whether a different Part D formulary would lower your costs. Call 855-559-1700 to review your options.",
   }
+,
+  {
+    question: "Does Medicare cover pulmonary rehabilitation for COPD?",
+    answer:
+      "Yes. Medicare Part B covers pulmonary rehabilitation programs for beneficiaries with moderate to very severe COPD when referred by the doctor treating the condition. Coverage includes exercise training, education, and psychosocial assessment delivered by qualified providers.",
+  },
+  {
+    question: "Are COPD inhalers covered under Medicare Part D?",
+    answer:
+      "Most COPD inhalers are covered under Medicare Part D, but formularies, tiers, and prior authorization rules vary by plan. A broker can compare your specific inhaler list across plans to find the lowest total annual cost. This matters because switching plans during Annual Enrollment can dramatically change what you pay at the pharmacy.",
+  },
+  {
+    question: "Can I change Medicare plans if my COPD treatment changes?",
+    answer:
+      "Yes. You can switch Medicare Advantage or Part D plans during the Annual Enrollment Period each fall, and the Medicare Advantage Open Enrollment Period in the first quarter of the year. Certain Special Enrollment Periods may also apply if you lose coverage, move, or qualify for Extra Help.",
+  }
 ];
 
 export default function MedicareBrokerForCOPDPatients() {

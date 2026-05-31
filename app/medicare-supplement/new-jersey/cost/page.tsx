@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Medicare Supplement Cost in NJ 2026",
   description:
-    "2026 NJ Medicare Supplement costs: Part B $202.90/mo, $283 deductible, Plan G rates by county. Compare NJ Medigap carriers — call 855-559-1700 for a free quote.",
+    "Compare 2026 NJ Medicare Supplement costs — Part B premium, deductible, and Plan G rates by county. Call 855-559-1700 for a free NJ Medigap quote.",
   alternates: { canonical: `${SITE_URL}/medicare-supplement/new-jersey/cost` },
   openGraph: {
     title: "Medicare Supplement Cost in NJ 2026",
@@ -129,6 +129,22 @@ const faqs = [
     question: "Does where I live in New Jersey affect my Medicare Supplement premium?",
     answer:
       "Yes. NJ Medigap carriers file rates by county or rating area, so two people enrolled in the same Plan G can pay different premiums based on zip code. The benefits of each standardized plan letter are identical across carriers — only the price varies. Comparing quotes specific to your county is the most reliable way to find the lowest cost.",
+  }
+,
+  {
+    question: "Can my Medigap premium go up each year in New Jersey?",
+    answer:
+      "Yes. Even though New Jersey uses community rating (so premiums are not increased because of your individual age), carriers can still raise rates annually due to inflation, claims experience, and overall medical costs. Reviewing your plan each year helps ensure you are not overpaying for identical coverage.",
+  },
+  {
+    question: "Does the cost of Medigap Plan G differ from Plan N in New Jersey?",
+    answer:
+      "Yes. Plan N typically has a lower monthly premium than Plan G in New Jersey, but Plan N requires small copays for some office and ER visits and does not cover Part B excess charges. Plan G has higher premiums but more predictable out-of-pocket costs. The right choice depends on how often you use care.",
+  },
+  {
+    question: "Do I pay more for Medigap in NJ if I enroll after age 65?",
+    answer:
+      "Because New Jersey uses community rating, your base premium is not higher simply because of your age. However, if you apply outside your 6-month Medigap Open Enrollment Period, carriers may use medical underwriting and can deny coverage or charge more based on health. Call 855-559-1700 to review your enrollment window.",
   }
 ];
 

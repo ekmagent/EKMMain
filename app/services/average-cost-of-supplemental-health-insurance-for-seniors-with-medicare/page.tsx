@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "average cost of supplemental health insurance for seniors with medicare | Free Broker Comparison | MedicareYourself",
   description:
-    "Compare 2026 Medigap costs for seniors on Medicare — identical benefits, very different prices by carrier. Call 855-559-1700 for a free broker comparison.",
+    "See what supplemental insurance for seniors on Medicare really costs in 2026 — same benefits, very different prices. Call 855-559-1700 for a free comparison.",
   alternates: { canonical: "https://medicareyourself.com/services/average-cost-of-supplemental-health-insurance-for-seniors-with-medicare" },
   openGraph: {
     title:
@@ -492,6 +492,22 @@ const faqs = [
     question: "Do Medigap premiums go up as I get older?",
     answer:
       "It depends on how the carrier prices the plan. Community-rated policies charge everyone the same regardless of age, issue-age-rated policies base premiums on your age at purchase, and attained-age-rated policies increase as you get older. All three pricing methods are also subject to general rate increases over time.",
+  }
+,
+  {
+    question: "Do Medigap premiums increase as I get older?",
+    answer:
+      "It depends on the pricing method your carrier uses. Attained-age policies increase as you age, issue-age policies are based on your age at purchase, and community-rated policies charge the same regardless of age. All three can still see annual increases due to inflation and claims experience.",
+  },
+  {
+    question: "Does where I live affect the cost of supplemental insurance?",
+    answer:
+      "Yes, Medigap premiums vary widely by state and even by zip code. According to Medicare.gov, the same lettered plan can have very different premiums depending on the insurance company and your location. State regulations and local medical costs both influence the final rate.",
+  },
+  {
+    question: "Can I switch Medigap plans later to lower my premium?",
+    answer:
+      "You can apply to switch Medigap plans at any time, but outside of your Open Enrollment Period or a guaranteed issue right, carriers can use medical underwriting. That means you could be charged more or denied based on health history. A licensed broker can check whether you qualify for a lower-cost switch in your state.",
   }
 ];
 

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "independent medicare advantage agents near me | Free NJ Consultations | MedicareYourself",
   description:
-    "Independent Medicare Advantage agent serving NJ. Anthony Orner compares every major carrier in your county at no cost. Call 855-559-1700 for a free review.",
+    "Work with an independent Medicare Advantage agent in NJ who compares every major carrier in your county at no cost. Call 855-559-1700 for a free review.",
   alternates: { canonical: "https://medicareyourself.com/services/independent-medicare-advantage-agents-near-me" },
   openGraph: {
     title:
@@ -99,6 +99,22 @@ const faqs = [
     question: "How do I verify an independent Medicare agent is licensed in New Jersey?",
     answer:
       "You can confirm any agent's license through the New Jersey Department of Banking and Insurance or by checking their National Producer Number (NPN) on NIPR.com. Anthony Orner is licensed in NJ and 34 additional states under NPI 1902584006.",
+  }
+,
+  {
+    question: "What should I bring to a meeting with an independent Medicare Advantage agent?",
+    answer:
+      "Have your Medicare card, a list of your current doctors and preferred hospitals, and your prescription medications with dosages. It also helps to know your ZIP code and any specific benefits you care about, like dental, vision, or transportation. With that information, the agent can run an accurate plan comparison in your county.",
+  },
+  {
+    question: "Does an independent agent help after I enroll, or only during sign-up?",
+    answer:
+      "A good independent Medicare agent stays available year-round, not just during enrollment season. That includes help with ID cards, billing questions, prior authorizations, and reviewing your plan each year to confirm it still fits. Ongoing service is part of how independent agents build long-term client relationships.",
+  },
+  {
+    question: "Can I work with an independent Medicare agent if I live in NJ but spend time in another state?",
+    answer:
+      "Yes. Anthony Orner is licensed in New Jersey and 34 additional states, which makes him a good fit for snowbirds and clients with homes in multiple regions. He can help you choose a Medicare Advantage or alternative plan structure that travels well with your lifestyle.",
   }
 ];
 
@@ -347,6 +363,7 @@ export default function IndependentMedicareAdvantageAgentsNearMe() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey beneficiaries can also get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
       </article>
     </>

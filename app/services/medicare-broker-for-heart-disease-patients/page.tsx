@@ -325,6 +325,22 @@ const faqs = [
     answer:
       "With Original Medicare, any cardiologist who accepts Medicare assignment will see you, which is the vast majority of cardiac specialists nationwide. With Medicare Advantage, you're limited to the plan's network, so it's important to verify your cardiologist is in-network before enrolling. A broker can check provider directories for every plan you're considering.",
   }
+,
+  {
+    question: "Will my cardiologist accept my Medicare plan?",
+    answer:
+      "If you have Original Medicare, any provider who accepts Medicare assignment will see you, which includes the vast majority of cardiologists nationwide. With Medicare Advantage, your cardiologist must be in the plan's network, and you may need a referral depending on the plan type. A broker can verify your specific cardiologist's participation before you enroll.",
+  },
+  {
+    question: "Are heart medications covered under Medicare Part D?",
+    answer:
+      "Yes, but coverage varies by plan formulary. Common cardiac medications like statins, beta-blockers, ACE inhibitors, and anticoagulants are typically covered, though tier placement and prior authorization rules differ between plans. A broker can run your exact medication list through available Part D and Medicare Advantage drug plans to find the lowest total annual cost.",
+  },
+  {
+    question: "Does Medicare cover heart procedures like stents and bypass surgery?",
+    answer:
+      "Yes. Medicare Part A covers inpatient hospital care for procedures like coronary artery bypass grafting and valve replacement, while Part B covers outpatient cardiac procedures, diagnostic tests, and physician services. Your out-of-pocket share depends on whether you have Original Medicare alone, a Medigap supplement, or a Medicare Advantage plan.",
+  }
 ];
 
 export default function MedicareBrokerHeartDiseasePatients() {

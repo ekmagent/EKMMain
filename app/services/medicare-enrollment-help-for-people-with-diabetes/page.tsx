@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare Enrollment Help for People With Diabetes | Free Guidance | MedicareYourself",
   description:
-    "Medicare enrollment help for people with diabetes—compare plans covering insulin, CGMs & supplies. Call 855-559-1700 for free expert guidance today.",
+    "Medicare enrollment help for people with diabetes—find plans covering insulin, CGMs, pumps & supplies. Call 855-559-1700 for free expert guidance today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-enrollment-help-for-people-with-diabetes" },
   openGraph: {
     title:
@@ -248,6 +248,22 @@ const faqs = [
     question: "Are diabetes test strips and blood sugar monitors covered by Medicare?",
     answer:
       "Yes. Medicare Part B covers blood sugar monitors, test strips, lancets, and control solutions as durable medical equipment when prescribed by your doctor. You'll need to use a Medicare-approved DME supplier to get the full benefit. Quantities may vary depending on whether you use insulin.",
+  }
+,
+  {
+    question: "Does Medicare cover insulin pumps?",
+    answer:
+      "Yes. Medicare Part B covers insulin pumps and the insulin used in them as durable medical equipment if you meet medical necessity criteria. If you use an insulin pen, vial, or syringe instead, your insulin is covered under Part D. Call 855-559-1700 to make sure your plan covers your specific insulin and delivery method.",
+  },
+  {
+    question: "Am I eligible for the Medicare Diabetes Prevention Program?",
+    answer:
+      "The Medicare Diabetes Prevention Program is a once-per-lifetime benefit covered under Part B for eligible beneficiaries with prediabetes indicators, including a qualifying A1C, fasting plasma glucose, or oral glucose tolerance test result. You'll also need a BMI at or above the program threshold and no prior diagnosis of type 1 or type 2 diabetes. There is no cost-sharing if you qualify.",
+  },
+  {
+    question: "Does Medicare cover diabetes self-management training?",
+    answer:
+      "Yes. Medicare Part B covers diabetes self-management training (DSMT) for beneficiaries diagnosed with diabetes when ordered by your doctor as part of your treatment plan. This training helps you manage blood sugar, nutrition, and lifestyle changes. Coverage typically includes an initial set of hours plus follow-up training in later years.",
   }
 ];
 

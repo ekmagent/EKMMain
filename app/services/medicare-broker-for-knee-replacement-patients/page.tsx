@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for knee replacement patients | Free Pre-Surgery Review | MedicareYourself",
   description:
-    "Medicare broker for knee replacement patients — Anthony Orner compares rehab, hospital, and PT coverage before surgery. Free pre-surgery review.",
+    "Medicare broker for knee replacement patients — Anthony Orner reviews rehab, hospital & PT coverage before surgery. Call 855-559-1700 for a free pre-op review.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-knee-replacement-patients" },
   openGraph: {
     title:
@@ -84,6 +84,22 @@ const faqs = [
     answer:
       "If you qualify for Medicare home health services, Part A covers in-home physical therapy at no cost to you when ordered by your doctor. Outpatient PT at a clinic falls under Part B, where you'll pay 20% coinsurance per session after meeting the $283 deductible. Each session can run around $150 before Medicare adjustments, so those costs add up fast without supplemental coverage.",
   },
+,
+  {
+    question: "Should I switch Medicare plans before my knee replacement surgery?",
+    answer:
+      "If you're outside your Initial Enrollment Period or a Special Enrollment window, switching plans can be tricky — especially moving from Medicare Advantage to Original Medicare with a Medigap plan, which may require medical underwriting in most states. A licensed broker can review your timing, your surgeon's network status, and your rehab needs before you commit. The best time to review coverage is well before surgery is scheduled, not after.",
+  },
+  {
+    question: "Does Medicare Advantage cover knee replacement differently than Original Medicare?",
+    answer:
+      "Medicare Advantage plans must cover the same medically necessary services as Original Medicare, but cost-sharing, networks, and prior authorization rules vary by plan. Many Advantage plans require prior authorization for knee replacement and limit you to in-network surgeons and rehab facilities. Original Medicare with a Medigap plan typically offers broader provider access but higher monthly premiums.",
+  },
+  {
+    question: "How long does Medicare cover skilled nursing or rehab after knee surgery?",
+    answer:
+      "Medicare Part A covers up to 100 days of skilled nursing facility care per benefit period if you qualify, but coverage is only full for the first 20 days. After day 20, a daily coinsurance applies, and after day 100, you pay the full cost. Most knee replacement patients don't need the full 100 days, but understanding the coinsurance tiers helps you avoid surprise bills.",
+  }
 ];
 
 export default function MedicareBrokerKneReplacementPage() {
@@ -300,6 +316,7 @@ export default function MedicareBrokerKneReplacementPage() {
             <div className="text-sm text-gray-600 mt-4">Need free state-level help? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> or the <a href="https://www.state.nj.us/dobi/division_insurance/" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a>. Or call Anthony Orner at 855-559-1700.</div>
             <div className="text-sm text-gray-600 mt-4">Need state-specific help? Contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> or your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">SHIP counselor</a> for free Medicare guidance.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" target="_blank" rel="noopener noreferrer" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
       </section>
     </main>
   );
