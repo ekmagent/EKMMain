@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
   description:
-    "Understand Medicare's IRMAA income surcharge for 2026 — how brackets work, Part B & D impact, and how to appeal with SSA-44. Free broker help: 855-559-1700.",
+    "Understand Medicare's 2026 IRMAA income surcharge — how brackets work, Part B & D impact, and how to appeal with SSA-44. Free broker help: 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/irmaa-medicare-surcharge` },
   openGraph: {
     title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
@@ -688,6 +688,22 @@ const faqs = [
     question: "Can a Medicare broker help me reduce or avoid IRMAA?",
     answer:
       "A broker can't change what the IRS reports to Social Security, but we can help you understand which life-changing events qualify for an SSA-44 appeal and walk you through the documentation. We can also help you plan your Part D and Medicare Advantage choices so the IRMAA surcharge isn't compounded by an inefficient plan. Call 855-559-1700 for free guidance.",
+  }
+,
+  {
+    question: "How do I appeal IRMAA if my income has dropped?",
+    answer:
+      "If you've experienced a life-changing event such as retirement, divorce, or the death of a spouse, you can request a reduction by filing Form SSA-44 with the Social Security Administration. Include documentation of the event and your estimated current-year income. SSA reviews these requests and can adjust your IRMAA based on your more recent income rather than the tax return from two years ago.",
+  },
+  {
+    question: "Will IRMAA automatically go away if my income drops?",
+    answer:
+      "Yes, eventually. Because IRMAA is recalculated each year using your tax return from two years prior, a drop in income will flow through automatically once that lower return is filed. If you don't want to wait two years, you can file Form SSA-44 to request an earlier adjustment based on a qualifying life-changing event.",
+  },
+  {
+    question: "Does selling a house or taking a Roth conversion trigger IRMAA?",
+    answer:
+      "It can. One-time income spikes like capital gains, large Roth conversions, or required minimum distributions all count toward MAGI and can push you into a higher IRMAA bracket for one year. Planning the timing of these events with a tax advisor before you turn 63 can help avoid surprise surcharges later.",
   }
 ];
 

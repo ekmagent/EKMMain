@@ -663,6 +663,22 @@ const faqs = [
     answer:
       "Outside your Medigap Open Enrollment Period, carriers in most states can use medical underwriting — meaning they can deny your application or charge higher premiums based on your health history. A few states have additional protections, but in most cases, missing the 6-month window can permanently limit your options. Call 855-559-1700 to review your situation before you apply.",
   }
+,
+  {
+    question: "Do I need both Medicare Part A and Part B to buy a Medigap policy?",
+    answer:
+      "Yes. You must be enrolled in both Part A and Part B before you can purchase a Medicare Supplement policy. If you do not yet have Part B, you'll need to enroll through the Social Security Administration first. Call 855-559-1700 if you need help confirming your enrollment status.",
+  },
+  {
+    question: "Can I be denied a Medigap policy because of pre-existing conditions?",
+    answer:
+      "During your 6-month Medigap Open Enrollment Period, insurance companies cannot deny you coverage, charge more, or impose waiting periods based on health conditions. Outside that window, in most states, carriers can use medical underwriting and decline your application. This is why timing your enrollment matters.",
+  },
+  {
+    question: "Can I switch Medigap plans later if my needs change?",
+    answer:
+      "You can apply to switch Medigap plans at any time, but outside of your Open Enrollment Period or a guaranteed-issue situation, carriers can use medical underwriting and deny you or charge more. Some states have additional protections that allow easier switching. Call 855-559-1700 to discuss your options before making a change.",
+  }
 ];
 
 export default function HowToEnrollMedigapPage() {

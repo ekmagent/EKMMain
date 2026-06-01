@@ -245,6 +245,12 @@ const faqs = [
     answer:
       "Medicare Advantage plans must cover everything Original Medicare covers, including glaucoma screenings, laser treatments, and surgery. However, cost-sharing, prior authorization rules, and provider networks vary by plan. Some Advantage plans also include routine vision benefits that Original Medicare does not cover.",
   }
+,
+  {
+    question: "Who qualifies as high-risk for Medicare's glaucoma screening benefit?",
+    answer:
+      "Medicare considers you high-risk if you have diabetes, a family history of glaucoma, are African American and age 50 or older, or are Hispanic American and age 65 or older. If you meet one of these criteria, Part B covers a screening once every 12 months when performed or supervised by an eye doctor legally authorized in your state. Talk with your ophthalmologist about documenting your risk factors.",
+  }
 ];
 
 export default function MedicareBrokerForGlaucomaPatients() {
@@ -474,6 +480,7 @@ export default function MedicareBrokerForGlaucomaPatients() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </div>
   );

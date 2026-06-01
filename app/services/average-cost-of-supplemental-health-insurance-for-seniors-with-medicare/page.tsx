@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "average cost of supplemental health insurance for seniors with medicare | Free Broker Comparison | MedicareYourself",
   description:
-    "See what supplemental insurance for seniors on Medicare really costs in 2026 — same benefits, very different prices. Call 855-559-1700 for a free comparison.",
+    "Compare 2026 supplemental insurance costs for seniors on Medicare — same benefits, very different prices by carrier. Call 855-559-1700 for a free broker review.",
   alternates: { canonical: "https://medicareyourself.com/services/average-cost-of-supplemental-health-insurance-for-seniors-with-medicare" },
   openGraph: {
     title:
@@ -509,6 +509,12 @@ const faqs = [
     answer:
       "You can apply to switch Medigap plans at any time, but outside of your Open Enrollment Period or a guaranteed issue right, carriers can use medical underwriting. That means you could be charged more or denied based on health history. A licensed broker can check whether you qualify for a lower-cost switch in your state.",
   }
+,
+  {
+    question: "Does the cost of supplemental insurance go up every year?",
+    answer:
+      "Most Medigap policies increase in price over time due to inflation and rising medical costs. How quickly premiums rise depends on the carrier's rating method — community-rated, issue-age-rated, or attained-age-rated plans each behave differently as you age. Asking a broker to show projected rate history for each carrier is one of the best ways to avoid a plan that looks cheap today but climbs sharply later.",
+  }
 ];
 
 export default function AverageCostSupplementalInsurancePage() {
@@ -730,6 +736,7 @@ export default function AverageCostSupplementalInsurancePage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify rates and file complaints with the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP</a>.</div>
             <div className="text-sm text-gray-600 mt-4">For state-specific Medigap rate guidance, contact your <a href="https://www.shiphelp.org/about-medicare/regional-ship-location" rel="noopener noreferrer" target="_blank" className="text-blue-700 underline">local SHIP (State Health Insurance Assistance Program)</a> for free, unbiased counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also compare rates and get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

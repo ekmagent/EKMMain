@@ -350,6 +350,7 @@ export default function MedicareInMonmouthCountyNewJersey() {
             <div className="text-sm text-gray-600 mt-4">Local help: <a href="https://www.fcsmonmouth.org/_home/services/medicare-counseling/" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">SHIP Medicare Counseling through Family and Children's Service of Monmouth County</a></div>
             <div className="text-sm text-gray-600 mt-4">New Jersey resources: <a href="https://www.nj.gov/humanservices/doas/assistance/medicare/offices.shtml" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP Local Offices</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey resources: <a href="https://www.nj.gov/humanservices/doas/services/l-p/msp/" rel="noopener noreferrer" target="_blank" className="underline">NJ Division of Aging Services — Medicare Savings Programs</a> and <a href="https://medicare.co.monmouth.nj.us/" rel="noopener noreferrer" target="_blank" className="underline">Monmouth County Medicare Part B Reimbursement</a></div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.nj.gov/humanservices/doas/assistance/medicare/offices.shtml" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free local Medicare counseling.</div>
       </section>
     </main>
   );

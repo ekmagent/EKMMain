@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Enroll in Medicare Supplement Plan G at 67 | Free Rate Quote | MedicareYourself",
   description:
-    "Enrolling in Medicare Supplement Plan G at 67? Learn underwriting rules, guaranteed issue rights, and lock in a fair rate. Call 855-559-1700 for a free quote.",
+    "Enrolling in Medicare Supplement Plan G at 67? Understand underwriting, guaranteed issue rights, and lock in a fair rate. Call 855-559-1700 for a free quote.",
   alternates: { canonical: "https://medicareyourself.com/services/enroll-in-medicare-supplement-plan-g-at-67" },
   openGraph: {
     title:
@@ -344,6 +344,7 @@ export default function EnrollInMedicareSupplementPlanGAt67() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medigap counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

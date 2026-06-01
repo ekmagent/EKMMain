@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "which medicare supplemental plan best for copd patient? | Free Expert Advice | MedicareYourself",
   description:
-    "Compare Medigap Plan G vs Plan N for COPD oxygen, inhalers, and pulmonologist visits. Get a free, no-pressure broker review — call 855-559-1700 today.",
+    "Compare Medigap Plan G vs Plan N for COPD oxygen, inhalers, and pulmonologist visits. Get a free broker review — call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/which-medicare-supplemental-plan-best-for-copd-patient" },
   openGraph: {
     title:
@@ -202,6 +202,17 @@ const faqs = [
     question: "Does a Medigap plan cover COPD inhalers and prescription drugs?",
     answer:
       "No. Medigap (Medicare Supplement) plans do not cover prescription drugs, including inhalers, nebulizer medications, or oral COPD treatments. You'll need a standalone Medicare Part D plan to cover these medications. A broker can help you compare formularies to make sure your specific inhalers are covered at the lowest cost.",
+  }
+,
+  {
+    question: "Is Plan G or Plan N better for a COPD patient who visits the pulmonologist often?",
+    answer:
+      "Plan G is generally the better fit for frequent specialist users. Plan N requires a copay for each office and ER visit (waived if admitted) and does not cover Part B excess charges, which can add up quickly for COPD patients seeing pulmonologists regularly. Plan G eliminates those copays and excess charges, making budgeting predictable.",
+  },
+  {
+    question: "Does a Medigap plan cover COPD inhalers and prescription drugs?",
+    answer:
+      "No. Medigap plans only fill gaps in Original Medicare (Parts A and B) and do not include prescription drug coverage. COPD patients will need a standalone Part D plan to cover inhalers, nebulizer solutions, and other maintenance medications. We can help you pair a Medigap plan with a Part D plan that covers your specific inhalers.",
   }
 ];
 

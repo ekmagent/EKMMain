@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title:
     "How to Enroll in Medicare Online at SSA.gov (Step-by-Step Walkthrough)",
   description:
-    "Step-by-step SSA.gov Medicare enrollment walkthrough — apply online in about 10 minutes. Call 855-559-1700 for free licensed broker help choosing coverage.",
+    "Step-by-step SSA.gov Medicare enrollment walkthrough — apply online in about 10 minutes. Call 855-559-1700 for free broker help choosing Part B coverage.",
   alternates: {
     canonical: `${SITE_URL}/learn/ssa-online-enrollment-walkthrough`,
   },
@@ -816,6 +816,22 @@ const steps = [
     question: "Can I change my Medicare application after I submit it on SSA.gov?",
     answer:
       "No. Once you sign the Electronic Signature Agreement and click Submit Now, the application is final and cannot be modified online. If you need to correct something or change your Part B election, you'll need to contact Social Security directly. Call 855-559-1700 for free broker guidance before you submit.",
+  }
+,
+  {
+    question: "How long does the SSA online Medicare application take?",
+    answer:
+      "Most people complete the SSA.gov Medicare application in about 10 minutes if they have their documents ready. You'll need your Social Security number and a driver's license or state ID for identity verification through Login.gov or ID.me.",
+  },
+  {
+    question: "Can I apply for Medicare only without starting Social Security retirement benefits?",
+    answer:
+      "Yes. During the SSA online application, you'll be asked whether you want to apply for Medicare only or also start retirement benefits. Selecting Medicare only lets you enroll in Part A and Part B while delaying your retirement claim.",
+  },
+  {
+    question: "Can I change my application after submitting it on SSA.gov?",
+    answer:
+      "No. Once you agree to the Electronic Signature Agreement and click Submit Now, the application is locked and cannot be modified online. If you need to correct information, you'll need to contact the Social Security Administration directly.",
   }
 ];
 

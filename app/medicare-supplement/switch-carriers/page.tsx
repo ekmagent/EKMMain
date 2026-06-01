@@ -415,6 +415,22 @@ const faqs = [
     answer:
       "If you had your previous Medigap policy for at least 6 months, the new carrier generally cannot impose a new pre-existing condition waiting period when you switch to the same or lesser benefits. This protection is part of federal Medigap rules. Your licensed broker can confirm how the rule applies to your specific switch.",
   }
+,
+  {
+    question: "Do I have a 30-day free look period when switching Medigap policies?",
+    answer:
+      "Yes. Federal law gives you a 30-day free look period when you buy a new Medigap policy. During this window you can decide whether to keep the new plan, but you must pay premiums for both the old and new policy for one month. After confirming the new policy works for you, cancel the old one to avoid paying double premiums going forward.",
+  },
+  {
+    question: "Will I have to answer health questions to switch carriers?",
+    answer:
+      "In most states, yes — outside of your 6-month Medigap Open Enrollment Period or a guaranteed issue situation, carriers can require medical underwriting and may decline coverage based on your health history. Some states offer additional rights that allow switching without underwriting, so it is worth contacting your State Insurance Department or a licensed broker to confirm your options.",
+  },
+  {
+    question: "Should I cancel my old Medigap policy before the new one starts?",
+    answer:
+      "No. Always wait until your new Medigap policy is approved and in force before canceling the old one. This prevents any gap in coverage and protects you if the new application is delayed. Once the new policy's effective date arrives and you have confirmed it during the free look period, contact the old carrier to cancel.",
+  }
 ];
 
 export default function SwitchCarriersPage() {

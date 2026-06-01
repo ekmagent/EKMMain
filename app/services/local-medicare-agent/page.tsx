@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "local medicare agent | Free Consultation, No Obligation | MedicareYourself",
   description:
-    "Meet with a licensed local NJ Medicare agent who compares top carriers at no cost to you. Get unbiased guidance from Anthony Orner — call 855-559-1700.",
+    "Talk with a licensed local NJ Medicare agent who compares top carriers at no cost. Get unbiased plan guidance from Anthony Orner — call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/local-medicare-agent" },
   openGraph: {
     title:
@@ -161,6 +161,22 @@ const faqs = [
     question: "Does a local Medicare agent help after enrollment?",
     answer:
       "Yes. Ongoing support is part of the service — including annual plan reviews, help with claims or billing questions, and reviewing your coverage if your medications or doctors change. You can call Anthony directly at 855-559-1700 whenever a question comes up.",
+  }
+,
+  {
+    question: "What questions should I ask a local Medicare agent at our first meeting?",
+    answer:
+      "Ask which carriers they represent, how they are compensated, and whether they will check that your doctors and prescriptions are covered before recommending a plan. You should also ask how they handle plan reviews each year and what support they offer if you have a billing or claims issue. A good local agent will answer all of these directly and in plain language.",
+  },
+  {
+    question: "Can a local Medicare agent help with both Medicare Advantage and Medigap plans?",
+    answer:
+      "Yes. An independent local agent licensed for both Medicare Advantage (Part C) and Medicare Supplement (Medigap) plans can walk you through the trade-offs of each. That includes comparing networks, out-of-pocket exposure, drug coverage, and how each option works with Original Medicare Parts A and B.",
+  },
+  {
+    question: "How do I verify a Medicare agent is licensed?",
+    answer:
+      "You can verify any agent's license through your state Department of Banking and Insurance and by checking their National Producer Number (NPN). Anthony Orner's NPI is 1902584006, and he is licensed in New Jersey and 34 additional states. Licensed Medicare agents must also complete annual AHIP certification before selling Medicare Advantage or Part D plans.",
   }
 ];
 
@@ -402,6 +418,7 @@ export default function LocalMedicareAgentPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased Medicare counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </>
   );

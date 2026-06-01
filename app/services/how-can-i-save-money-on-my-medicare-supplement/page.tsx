@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "how can i save money on my medicare supplement | Free Rate Review | MedicareYourself",
   description:
-    "Save money on your Medicare Supplement — compare carriers, stack discounts, and review plan letters. Free rate review at 855-559-1700.",
+    "Save money on your Medicare Supplement by comparing carriers, stacking discounts, and reviewing plan letters. Free rate review at 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/how-can-i-save-money-on-my-medicare-supplement" },
   openGraph: {
     title:
@@ -118,6 +118,17 @@ const faqs = [
     question: "Are there state programs that can help lower my Medicare costs?",
     answer:
       "Yes. Medicare Savings Programs run by each state can help pay Part B premiums, and in some cases Part A premiums, deductibles, and coinsurance, for people who meet income and resource limits. Your State Health Insurance Assistance Program (SHIP) offers free one-on-one counseling to help you apply. You can learn more at Medicare.gov or call us at 855-559-1700 for a personalized review.",
+  }
+,
+  {
+    question: "Are there state programs that can help lower my Medicare costs?",
+    answer:
+      "Yes. Medicare Savings Programs run by your state can help pay Part B premiums, and in some cases Part A premiums, deductibles, and coinsurance. You may also qualify for Extra Help with prescription drug costs or Supplemental Security Income through Social Security. Visit Medicare.gov or call us at 855-559-1700 to see which programs you may qualify for.",
+  },
+  {
+    question: "Does household discount lower my Medicare Supplement premium?",
+    answer:
+      "Many carriers offer a household or spousal discount when more than one adult in the home enrolls in a Medigap policy with the same company. The discount amount varies by carrier and state. We can check which carriers offer this discount in your area during a free rate review.",
   }
 ];
 

@@ -146,6 +146,12 @@ const faqs = [
     answer:
       "Because New Jersey uses community rating, your base premium is not higher simply because of your age. However, if you apply outside your 6-month Medigap Open Enrollment Period, carriers may use medical underwriting and can deny coverage or charge more based on health. Call 855-559-1700 to review your enrollment window.",
   }
+,
+  {
+    question: "Do Medigap premiums in New Jersey increase as I get older?",
+    answer:
+      "No. Because New Jersey uses community rating for Medicare Supplement plans, your premium does not go up simply because you age into a higher bracket. Premiums can still change over time due to inflation, claims experience, and carrier rate filings, but they are not tied to your individual age.",
+  }
 ];
 
 export default function NJMedicareCostPage() {

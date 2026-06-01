@@ -271,6 +271,17 @@ const programs = [
     answer:
       "Income and asset limits change yearly, and many states use rules that are more generous than the federal baseline, so it is worth reapplying — especially after a change in income, marital status, or housing costs. You also have the right to appeal a denial through your state Medicaid office. A licensed broker can walk you through your options at 855-559-1700.",
   }
+,
+  {
+    question: "How do I apply for a Medicare Savings Program?",
+    answer:
+      "You apply through your state Medicaid office, not through Medicare directly. Each state runs its own application process and reviews your income and resources to decide which program you qualify for. Medicare recommends applying even if you are not sure you qualify, since limits and rules vary by state.",
+  },
+  {
+    question: "Does Extra Help automatically come with a Medicare Savings Program?",
+    answer:
+      "Yes. If you qualify for QMB, SLMB, or QI, you are automatically enrolled in Extra Help for Part D prescription drug costs. You do not need to file a separate Extra Help application with Social Security in that case.",
+  }
 ];
 
 export default function LowIncomeMedicarePage() {

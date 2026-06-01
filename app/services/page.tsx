@@ -9,7 +9,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Medicare Services & Guides | MedicareYourself",
   description:
-    "Compare Medigap, Medicare Advantage & Part D with a licensed independent broker in NJ & 34 states. Free, unbiased guidance — call 855-559-1700 today.",
+    "Compare Medigap, Medicare Advantage & Part D with a licensed independent broker in NJ & 34 states. Free, unbiased plan reviews — call 855-559-1700 today.",
   alternates: { canonical: `${SITE_URL}/services` },
   openGraph: {
     title: "Medicare Services & Guides | MedicareYourself",
@@ -774,6 +774,22 @@ const STATIC_CATEGORIES = [
     answer:
       "Each year during the Annual Enrollment Period (Oct 15–Dec 7), it's smart to review your Part D drug plan and Medicare Advantage coverage because formularies, networks, and premiums can change. Medigap policies generally stay stable, but rates can rise, so comparing carriers periodically can help. You can verify plan details directly on Medicare.gov's Plan Finder.",
   }
+,
+  {
+    question: "What Medicare services does an independent broker help with?",
+    answer:
+      "An independent Medicare broker can help you compare Medigap (Medicare Supplement) plans, Medicare Advantage plans, and Part D prescription drug coverage across multiple carriers. Because brokers are not tied to a single insurer, they can present options side by side based on your doctors, medications, and budget. Anthony Orner is licensed in NJ and 34 additional states and offers this guidance at no cost to you.",
+  },
+  {
+    question: "Is there a fee to work with a licensed Medicare broker?",
+    answer:
+      "No. Licensed Medicare brokers are paid directly by the insurance carriers, so consultations, plan comparisons, and enrollment assistance are free to the beneficiary. Your premium is the same whether you enroll through a broker or directly with the carrier. Call 855-559-1700 to get started.",
+  },
+  {
+    question: "How do I contact Medicare directly if I have a question a broker can't answer?",
+    answer:
+      "You can reach Medicare 24 hours a day, 7 days a week (except some federal holidays) by calling 1-800-MEDICARE (1-800-633-4227), or TTY 1-877-486-2048. Medicare.gov also offers a live chat option for general questions. For Part A and Part B enrollment, contact the Social Security Administration.",
+  }
 ];
 
 export default function ServicesHubPage() {
@@ -909,6 +925,7 @@ export default function ServicesHubPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/shipindex.htm" rel="noopener noreferrer" target="_blank">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents: get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
     </>
   );

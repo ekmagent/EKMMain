@@ -207,6 +207,17 @@ const faqs = [
     answer:
       "A licensed independent broker can compare multiple carriers at once and check whether you qualify for a lower premium on the same plan letter. There is no cost to you because brokers are paid by the insurance company you choose. To compare your options with no obligation, call Anthony Orner at 855-559-1700.",
   }
+,
+  {
+    question: "Do I need to answer health questions to switch Medigap plans?",
+    answer:
+      "It depends on when you apply. Inside your 6-month Medigap Open Enrollment Period or when you have a guaranteed issue right, carriers cannot deny you or use medical underwriting. Outside those windows, federal law allows carriers to ask health questions and decide whether to approve your application, though some states offer additional protections.",
+  },
+  {
+    question: "Will I have to repeat the Part B deductible if I switch mid-year?",
+    answer:
+      "No. The Part B deductible is tied to Original Medicare, not to your Medigap policy. If you have already met it for the year, switching Medigap carriers does not reset it. Your new Medigap plan simply picks up where the old one left off in covering the gaps after Medicare pays.",
+  }
 ];
 
 export default function SwitchMedigapPlansPage() {
@@ -857,6 +868,7 @@ export default function SwitchMedigapPlansPage() {
             <div className="text-sm text-gray-600 mt-4">State help: <a href="https://www.nj.gov/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a> or contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a> for free local counseling on Medigap rights.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/index.shtml" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or the free <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP program</a> for state-specific Medigap switching rights.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify carrier rates and consumer rights with the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> or get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medigap counseling.</div>
       </section>
     </>
   );

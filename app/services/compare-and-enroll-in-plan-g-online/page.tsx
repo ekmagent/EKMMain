@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Compare and Enroll in Plan G Online | No Paperwork Needed | MedicareYourself",
   description:
-    "Compare every NJ Plan G rate side by side and enroll online in minutes with a licensed broker. No fees, no pressure. Call 855-559-1700 to start.",
+    "Compare every NJ Plan G rate side by side and enroll online in minutes with a licensed broker. Same price as going direct. Call 855-559-1700 to start.",
   alternates: { canonical: "https://medicareyourself.com/services/compare-and-enroll-in-plan-g-online" },
   openGraph: {
     title:
@@ -98,6 +98,22 @@ const faqs = [
     question: "Can I switch to Plan G if I already have a different Medigap plan?",
     answer:
       "Yes, you can apply to switch at any time, but outside of guaranteed issue windows you'll usually need to pass medical underwriting. We can review your situation and tell you whether switching is likely to be approved before you submit an application.",
+  }
+,
+  {
+    question: "Will I need to answer health questions to enroll in Plan G online?",
+    answer:
+      "It depends on your timing. If you apply during your Medigap Open Enrollment Period or qualify for a guaranteed issue right, no health questions apply. Outside those windows, most carriers require medical underwriting before approving your application.",
+  },
+  {
+    question: "Can I switch to Plan G from a different Medigap plan or Medicare Advantage?",
+    answer:
+      "Yes, but the process differs. Switching from another Medigap plan usually requires underwriting unless you have a guaranteed issue right. Moving from Medicare Advantage back to Original Medicare with a Plan G is allowed during specific election periods, and a licensed broker can walk you through eligibility before you apply.",
+  },
+  {
+    question: "What information do I need ready to enroll in Plan G online?",
+    answer:
+      "You'll need your red, white, and blue Medicare card with your Medicare Beneficiary Identifier, your Part A and Part B effective dates, your bank or routing information if you want premiums drafted automatically, and basic contact details. Having a list of current medications and providers nearby also speeds up the call.",
   }
 ];
 

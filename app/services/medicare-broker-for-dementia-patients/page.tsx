@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for dementia patients | Free Caregiver Consultation | MedicareYourself",
   description:
-    "Medicare broker for dementia patients and caregivers — free help comparing home health, Part D, and skilled nursing coverage. Call 855-559-1700 today.",
+    "Medicare broker for dementia patients and caregivers — free help with home health, Part D drug coverage, and skilled nursing. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-dementia-patients" },
   openGraph: {
     title:
@@ -92,6 +92,22 @@ const faqs = [
     question: "Can a caregiver or power of attorney handle Medicare enrollment for a dementia patient?",
     answer:
       "Yes. A spouse, adult child, or legal representative with a signed authorization or power of attorney can speak with a Medicare broker and help enroll a loved one. We routinely work with family caregivers and can guide you through what paperwork is needed before plan changes are made.",
+  }
+,
+  {
+    question: "Does Medicare cover in-home care for a parent with dementia?",
+    answer:
+      "Medicare covers intermittent skilled home health services — like nursing visits, physical therapy, and home health aide hours — when a doctor certifies the patient is homebound and needs skilled care. It does not cover 24-hour home care, full-time custodial help, or homemaker services. We can walk caregivers through what qualifies and how to request a home health referral.",
+  },
+  {
+    question: "What Medicare plan is best for a parent recently diagnosed with dementia?",
+    answer:
+      "There's no single best plan, but families often prefer Original Medicare with a Medigap Supplement and a standalone Part D plan because it avoids prior authorizations and lets the patient see any Medicare-accepting provider. Medicare Advantage may work if the patient's doctors and preferred neurologist are in-network. We compare both options side by side on a free call.",
+  },
+  {
+    question: "When can we change a dementia patient's Medicare plan?",
+    answer:
+      "The Annual Enrollment Period runs October 15 through December 7 each year, and the Medicare Advantage Open Enrollment runs January 1 through March 31. Patients who qualify for Medicaid or Extra Help can often change plans more frequently through a Special Enrollment Period. We can confirm which window applies to your family's situation.",
   }
 ];
 
@@ -323,6 +339,7 @@ export default function MedicareBrokerForDementiaPatients() {
             <div className="text-sm text-gray-600 mt-4">For free unbiased counseling, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey families can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" target="_blank" rel="noopener noreferrer" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">For free, unbiased local counseling, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> or the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking &amp; Insurance</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey families can also get free unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" target="_blank" rel="noopener noreferrer" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

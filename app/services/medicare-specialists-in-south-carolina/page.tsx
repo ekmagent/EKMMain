@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare specialists in south carolina | Free Multi-Carrier Quotes | MedicareYourself",
   description:
-    "Compare South Carolina Medicare Supplement, Advantage & Part D plans with licensed broker Anthony Orner. Free multi-carrier quotes — call 855-559-1700.",
+    "South Carolina Medicare specialists — compare Medigap, Advantage & Part D plans from top SC carriers with licensed broker Anthony Orner. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-specialists-in-south-carolina" },
   openGraph: {
     title:
@@ -147,6 +147,22 @@ const faqs = [
     question: "What Medicare plan types are available to South Carolina residents?",
     answer:
       "South Carolina residents can choose Original Medicare (Parts A and B), add a standalone Part D prescription drug plan, pair Original Medicare with a Medigap supplement, or enroll in a Medicare Advantage plan that bundles hospital, medical, and often drug coverage. Availability of specific Advantage and Part D plans varies by SC county. A licensed broker can confirm which plans are offered in your ZIP code.",
+  }
+,
+  {
+    question: "Can I switch from Medicare Advantage back to Original Medicare in South Carolina?",
+    answer:
+      "Yes. You can switch during the Annual Enrollment Period (October 15 – December 7) or the Medicare Advantage Open Enrollment Period (January 1 – March 31). However, if you want to add a Medigap policy after leaving Advantage, SC carriers may require medical underwriting unless you qualify for a guaranteed issue right. A licensed broker can review whether you have a protected enrollment window.",
+  },
+  {
+    question: "Are all Medicare Supplement plans the same price in South Carolina?",
+    answer:
+      "No. Medigap benefits are standardized by letter (Plan G, Plan N, etc.), so coverage is identical across carriers — but premiums can vary significantly between insurers for the exact same plan. That's why comparing multi-carrier quotes through an independent broker often saves SC residents money on identical coverage.",
+  },
+  {
+    question: "Does Medicare cover prescription drugs in South Carolina?",
+    answer:
+      "Original Medicare (Parts A and B) does not cover most outpatient prescriptions. South Carolina residents can add a standalone Part D drug plan or choose a Medicare Advantage plan that includes drug coverage. Each plan has its own formulary, so it's important to confirm your medications are covered before enrolling.",
   }
 ];
 

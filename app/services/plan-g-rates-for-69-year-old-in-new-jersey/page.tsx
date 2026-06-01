@@ -113,6 +113,17 @@ const faqs = [
     answer:
       "Federal law standardizes Plan G benefits, so coverage is identical no matter which company sells it. Carriers differ in how they price policies, their underwriting, expected claims, administrative costs, and rate stability over time. That's why comparing multiple carriers side by side is the most effective way to save money on identical coverage.",
   }
+,
+  {
+    question: "Does New Jersey use community rating for Medigap Plan G?",
+    answer:
+      "New Jersey uses community-rated pricing for many Medigap plans, meaning premiums are not based on your individual age. However, rates can still vary by carrier, household discounts, and other underwriting factors. A licensed NJ broker can confirm how each carrier applies pricing in your county.",
+  },
+  {
+    question: "Is Plan G worth it at age 69 in New Jersey?",
+    answer:
+      "Plan G covers nearly all Medicare-approved out-of-pocket costs after you pay the Part B deductible, which can offer strong protection at age 69 when healthcare use often increases. Whether it's worth it depends on your budget, expected medical use, and how long you plan to keep the same plan. Comparing Plan G against other Medigap options helps clarify the value.",
+  }
 ];
 
 export default function PlanGRates69NJ() {

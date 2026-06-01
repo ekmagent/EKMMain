@@ -99,6 +99,12 @@ const faqs = [
     answer:
       "Yes. A licensed broker can check provider networks before you enroll to confirm your endocrinologist, rheumatologist, or orthopedist is in-network. This is especially important with Medicare Advantage plans, where out-of-network care can cost significantly more or not be covered at all.",
   }
+,
+  {
+    question: "Does Medicare cover osteoporosis screening for men?",
+    answer:
+      "Medicare Part B covers bone mass measurements for both men and women who meet certain risk criteria, such as a history of fractures, long-term steroid use, or hyperparathyroidism. Your doctor must order the test and document why you're at risk. Coverage frequency is generally once every 24 months, though more frequent testing may be approved when medically necessary.",
+  }
 ];
 
 export default function MedicareBrokerForOsteoporosisPatients() {

@@ -341,6 +341,17 @@ const faqs = [
     answer:
       "Yes. Medicare Part A covers inpatient hospital care for procedures like coronary artery bypass grafting and valve replacement, while Part B covers outpatient cardiac procedures, diagnostic tests, and physician services. Your out-of-pocket share depends on whether you have Original Medicare alone, a Medigap supplement, or a Medicare Advantage plan.",
   }
+,
+  {
+    question: "Will Medicare cover my cardiologist visits?",
+    answer:
+      "Yes. Medicare Part B covers medically necessary visits to cardiologists, including diagnostic testing like EKGs, echocardiograms, and stress tests. After meeting the Part B deductible, you typically pay 20% of the Medicare-approved amount unless you have a Medigap plan or Medicare Advantage plan that covers that share. With Medicare Advantage, make sure your cardiologist is in the plan's network.",
+  },
+  {
+    question: "Are heart medications covered under Medicare?",
+    answer:
+      "Heart medications such as statins, beta blockers, ACE inhibitors, and blood thinners are typically covered under Medicare Part D prescription drug plans or through the drug benefit included in most Medicare Advantage plans. Each plan has its own formulary, so the same medication can have very different costs depending on the plan. A broker can run your specific drug list against available plans to find the lowest total annual cost.",
+  }
 ];
 
 export default function MedicareBrokerHeartDiseasePatients() {
@@ -537,6 +548,7 @@ export default function MedicareBrokerHeartDiseasePatients() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Free local counseling: <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> offers unbiased Medicare guidance in every state.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

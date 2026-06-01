@@ -706,6 +706,22 @@ const faqs = [
     answer:
       "If you miss your IEP and don't qualify for a Special Enrollment Period, you'll need to wait for the General Enrollment Period (January 1 – March 31) to sign up for Part B, with coverage starting the month after you enroll. You may also owe a permanent Part B late enrollment penalty for each 12-month period you could have had Part B but didn't. Call 855-559-1700 if you're unsure which window applies to you.",
   }
+,
+  {
+    question: "How do I sign up for Medicare if I am not getting Social Security yet?",
+    answer:
+      "You can apply online at ssa.gov/medicare, which typically takes about 10 minutes. You may also call the Social Security Administration or visit a local SSA office to enroll. Apply during the 3 months before the month you turn 65 to ensure coverage starts on time.",
+  },
+  {
+    question: "What happens if I miss my Initial Enrollment Period?",
+    answer:
+      "If you miss your IEP and do not qualify for a Special Enrollment Period, you will need to wait for the General Enrollment Period (January 1 – March 31) to sign up for Part B. You may also owe a permanent Part B late enrollment penalty that increases the longer you wait. Coverage from a General Enrollment Period sign-up begins the month after you enroll.",
+  },
+  {
+    question: "Do I need to sign up for Medicare if I have employer coverage?",
+    answer:
+      "If you or your spouse are still actively working and your employer plan is considered creditable coverage, you may delay Part B without penalty. Confirm with your HR department in writing that the coverage qualifies before delaying. When the employer coverage ends, you get an 8-month Special Enrollment Period to sign up for Part B.",
+  }
 ];
 
 export default function HowToSignUpPage() {

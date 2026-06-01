@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Enroll in Plan G Online | Fast, Free, Broker-Assisted | MedicareYourself",
   description:
-    "Enroll in Plan G online in minutes with a licensed broker comparing top carriers for you — free, no-obligation help from home. Call 855-559-1700 today.",
+    "Enroll in Medicare Plan G online with a licensed broker comparing top carriers free — apply from home in minutes. Call 855-559-1700 for no-obligation help.",
   alternates: { canonical: "https://medicareyourself.com/services/enroll-in-plan-g-online" },
   openGraph: {
     title:
@@ -115,6 +115,22 @@ const faqs = [
     question: "Can I keep my doctors if I enroll in Plan G?",
     answer:
       "Yes. Plan G works with Original Medicare, so you can see any doctor or hospital nationwide that accepts Medicare. There are no network restrictions and no referrals required for specialists. Your provider access does not change based on which carrier issues your Plan G policy.",
+  }
+,
+  {
+    question: "Can I switch from a Medicare Advantage plan to Plan G online?",
+    answer:
+      "Yes, but timing matters. You can switch during the Annual Enrollment Period or Medicare Advantage Open Enrollment Period to drop your Advantage plan and return to Original Medicare. Enrolling in Plan G after that typically requires medical underwriting unless you qualify for a guaranteed issue right. A broker can review your situation and confirm eligibility before you apply.",
+  },
+  {
+    question: "Does Plan G cover prescription drugs?",
+    answer:
+      "No. Plan G is a Medicare Supplement policy that covers gaps in Original Medicare, but it does not include prescription drug coverage. To get prescription coverage, you'll need to enroll in a standalone Part D plan. We can help you compare Part D plans during the same enrollment call.",
+  },
+  {
+    question: "Is Plan G the same with every insurance carrier?",
+    answer:
+      "Yes. Plan G benefits are standardized by federal law, so the coverage is identical no matter which carrier you choose. The differences are premium price, customer service, rate stability, and household discounts. That's why comparing carriers through a broker can save you money on the same exact coverage.",
   }
 ];
 
@@ -383,6 +399,7 @@ export default function EnrollInPlanGOnlinePage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Need state-specific help? Contact the <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling in your state.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

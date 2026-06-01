@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "how much does the best medicare supplemental insurance cost per month | Free Plan-by-Plan Breakdown | MedicareYourself",
   description:
-    "Compare Medicare Supplement Plan G and Plan N monthly costs by carrier and age. Get a free personalized quote — call 855-559-1700 today.",
+    "Compare Medicare Supplement Plan G and Plan N monthly costs across top carriers and lock in the lowest rate. Call 855-559-1700 for a free personalized quote.",
   alternates: { canonical: "https://medicareyourself.com/services/how-much-does-the-best-medicare-supplemental-insurance-cost-per-month" },
   openGraph: {
     title:
@@ -178,6 +178,22 @@ const faqs = [
     question: "Are Medigap benefits the same across every insurance company?",
     answer:
       "Yes. Every Medigap plan with the same letter offers identical standardized benefits by federal law, regardless of which insurance company sells it. The only real differences between carriers are the monthly premium, customer service, and how aggressively they raise rates over time. That makes price and carrier stability the two factors worth comparing closely.",
+  }
+,
+  {
+    question: "Does where I live affect how much I pay for a Medigap plan?",
+    answer:
+      "Yes. Medigap premiums vary widely by zip code because insurers price policies based on local claims data, healthcare costs, and state regulations. Two people with identical plans can pay very different rates depending on the state and even the county they live in. That's why it's important to compare carriers licensed in your specific area.",
+  },
+  {
+    question: "Can my Medigap premium go up after I enroll?",
+    answer:
+      "Yes. Most Medigap plans use attained-age pricing, meaning your premium increases as you get older, plus annual adjustments for inflation and claims experience. Community-rated and issue-age-rated plans may rise more slowly with age but still adjust over time. Reviewing your plan every couple of years helps ensure you're not overpaying.",
+  },
+  {
+    question: "Do all insurance companies charge the same for the same Medigap plan letter?",
+    answer:
+      "No. By federal law, every Medigap plan with the same letter offers identical benefits, but each carrier sets its own premium. According to Medicare.gov, the price is the only real difference between policies with the same plan letter from different companies. Shopping across carriers is the single best way to lower your monthly cost.",
   }
 ];
 

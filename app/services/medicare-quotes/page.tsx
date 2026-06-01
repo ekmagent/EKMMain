@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare quotes | Free Instant Rates From Every Carrier | MedicareYourself",
   description:
-    "Compare free Medicare quotes from every major carrier side by side. See Supplement and Advantage rates in minutes — call 855-559-1700 for no-obligation help.",
+    "Compare free Medicare quotes from every major carrier side by side in minutes. See Supplement and Advantage rates — call 855-559-1700 for no-obligation help.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-quotes" },
   openGraph: {
     title:
@@ -151,6 +151,17 @@ const faqs = [
     question: "Can I compare Medicare Advantage and Medigap quotes at the same time?",
     answer:
       "Yes. A licensed broker can pull both Medicare Advantage and Medicare Supplement quotes side by side so you can see the trade-offs between premium, out-of-pocket costs, and network flexibility. Medicare.gov also offers a plan finder tool to compare Advantage and Part D options in your area. Call 855-559-1700 to walk through both at once.",
+  }
+,
+  {
+    question: "Will getting a Medicare quote affect my current coverage?",
+    answer:
+      "No. Requesting a quote is simply a rate comparison and does not change, cancel, or enroll you in any plan. Your existing coverage stays in place until you actively choose to make a change during a valid enrollment period.",
+  },
+  {
+    question: "Can I get accurate Medicare quotes online without speaking to anyone?",
+    answer:
+      "You can view ballpark rates online, but accurate quotes depend on your specific zip code, age, tobacco status, and eligibility for household or other discounts. A quick call to 855-559-1700 ensures the numbers you see reflect every discount you actually qualify for.",
   }
 ];
 
@@ -363,6 +374,7 @@ export default function MedicareQuotesPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free unbiased counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

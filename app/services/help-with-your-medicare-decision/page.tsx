@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "help with your medicare decision | Free, No-Pressure Guidance | MedicareYourself",
   description:
-    "Get free, no-pressure help with your Medicare decision from licensed broker Anthony Orner. Compare every option clearly — call 855-559-1700 today.",
+    "Free, no-pressure help with your Medicare decision from licensed broker Anthony Orner. Compare Medigap, Advantage & Part D clearly — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/help-with-your-medicare-decision" },
   openGraph: {
     title:
@@ -376,6 +376,7 @@ export default function HelpWithYourMedicareDecision() {
             <div className="text-sm text-gray-600 mt-4">For free, unbiased state-level Medicare counseling, contact your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">You can also get free one-on-one counseling from your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also access free, unbiased counseling through <a href="https://www.nj.gov/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">For free, unbiased one-on-one counseling, contact your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
       </article>
     </>
