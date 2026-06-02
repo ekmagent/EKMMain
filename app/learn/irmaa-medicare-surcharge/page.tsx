@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
   description:
-    "Understand Medicare's 2026 IRMAA income surcharge — how brackets work, Part B & D impact, and how to appeal with SSA-44. Free broker help: 855-559-1700.",
+    "Learn how Medicare's 2026 IRMAA surcharge works, who pays it, and how to appeal with SSA-44 if your income dropped. Free broker guidance: 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/irmaa-medicare-surcharge` },
   openGraph: {
     title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
@@ -704,6 +704,22 @@ const faqs = [
     question: "Does selling a house or taking a Roth conversion trigger IRMAA?",
     answer:
       "It can. One-time income spikes like capital gains, large Roth conversions, or required minimum distributions all count toward MAGI and can push you into a higher IRMAA bracket for one year. Planning the timing of these events with a tax advisor before you turn 63 can help avoid surprise surcharges later.",
+  }
+,
+  {
+    question: "How do I appeal an IRMAA determination?",
+    answer:
+      "If you experienced a life-changing event that reduced your income, you can file Form SSA-44 with the Social Security Administration to request a reduction or removal of your IRMAA surcharge. Acceptable events include retirement, marriage, divorce, death of a spouse, or loss of pension income. You'll need to provide documentation, and SSA will review your more recent income to recalculate your surcharge.",
+  },
+  {
+    question: "Is IRMAA permanent once I owe it?",
+    answer:
+      "No. IRMAA is recalculated every year based on your tax return from two years prior. If your income drops below the threshold in a future tax year, your surcharge will automatically be reduced or removed the following year. You don't need to reapply unless you're appealing based on a life-changing event.",
+  },
+  {
+    question: "Does selling a house or doing a Roth conversion trigger IRMAA?",
+    answer:
+      "Potentially yes. One-time income events like capital gains from selling property, large Roth IRA conversions, or required minimum distributions can push your MAGI above an IRMAA threshold for that year. Since IRMAA uses a two-year lookback, the surcharge would apply two years after the income event, then drop off once your income normalizes.",
   }
 ];
 

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "local medicare agents in sayreville nj | Free Independent Guidance | MedicareYourself",
   description:
-    "Local Medicare agents in Sayreville, NJ — Anthony Orner compares top carriers side by side at no cost. Free, no-pressure quote. Call 855-559-1700 today.",
+    "Local Medicare agents in Sayreville, NJ — Anthony Orner, independent broker, compares top carriers side by side. Free, no-pressure quote. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/local-medicare-agents-in-sayreville-nj" },
   openGraph: {
     title:

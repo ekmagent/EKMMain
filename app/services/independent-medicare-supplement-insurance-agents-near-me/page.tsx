@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "independent medicare supplement insurance agents near me | Free Quote | MedicareYourself",
   description:
-    "Work with an independent Medicare Supplement agent in NJ. Anthony Orner compares Medigap Plan G & N rates across top carriers — call 855-559-1700 free.",
+    "Independent Medicare Supplement agents near you in NJ. Anthony Orner compares Plan G & N rates across top carriers — call 855-559-1700 for a free quote.",
   alternates: { canonical: "https://medicareyourself.com/services/independent-medicare-supplement-insurance-agents-near-me" },
   openGraph: {
     title:

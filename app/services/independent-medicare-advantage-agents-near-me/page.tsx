@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "independent medicare advantage agents near me | Free NJ Consultations | MedicareYourself",
   description:
-    "Work with an independent Medicare Advantage agent in NJ who compares every major carrier in your county at no cost. Call 855-559-1700 for a free review.",
+    "Compare every major Medicare Advantage plan in your NJ county with an independent agent. No fees, no pressure. Call 855-559-1700 for a free review today.",
   alternates: { canonical: "https://medicareyourself.com/services/independent-medicare-advantage-agents-near-me" },
   openGraph: {
     title:
@@ -115,6 +115,12 @@ const faqs = [
     question: "Can I work with an independent Medicare agent if I live in NJ but spend time in another state?",
     answer:
       "Yes. Anthony Orner is licensed in New Jersey and 34 additional states, which makes him a good fit for snowbirds and clients with homes in multiple regions. He can help you choose a Medicare Advantage or alternative plan structure that travels well with your lifestyle.",
+  }
+,
+  {
+    question: "Will my independent agent help me after I enroll?",
+    answer:
+      "Yes. A good independent Medicare Advantage agent stays with you year after year, reviewing your plan during the Annual Enrollment Period to make sure your doctors, pharmacies, and prescriptions are still covered. If your needs change, they can help you switch plans during the appropriate enrollment window at no cost.",
   }
 ];
 
@@ -364,6 +370,7 @@ export default function IndependentMedicareAdvantageAgentsNearMe() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey beneficiaries can also get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
       </article>
     </>

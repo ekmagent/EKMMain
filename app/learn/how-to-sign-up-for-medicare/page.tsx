@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "How to Sign Up for Medicare (2026 Guide)",
   description:
-    "How to sign up for Medicare in 2026: enrollment windows, applying through SSA, and avoiding Part B late penalties. Free broker help — call 855-559-1700.",
+    "How to sign up for Medicare in 2026: enrollment windows, applying via SSA, and avoiding Part B late penalties. Free broker help — call 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/how-to-sign-up-for-medicare` },
   openGraph: {
     title: "How to Sign Up for Medicare (2026 Guide)",
@@ -721,6 +721,22 @@ const faqs = [
     question: "Do I need to sign up for Medicare if I have employer coverage?",
     answer:
       "If you or your spouse are still actively working and your employer plan is considered creditable coverage, you may delay Part B without penalty. Confirm with your HR department in writing that the coverage qualifies before delaying. When the employer coverage ends, you get an 8-month Special Enrollment Period to sign up for Part B.",
+  }
+,
+  {
+    question: "How do I sign up for Medicare if I am not getting Social Security?",
+    answer:
+      "You can apply online at ssa.gov/medicare, which takes about 10 minutes. You can also apply by calling Social Security or by visiting your local Social Security office. Apply during the 3 months before your 65th birthday month to make sure coverage starts on time.",
+  },
+  {
+    question: "What happens if I miss my Initial Enrollment Period for Part B?",
+    answer:
+      "If you miss your IEP and do not qualify for a Special Enrollment Period, you will need to wait for the General Enrollment Period (January 1 to March 31) to sign up. You may also face a permanent Part B late enrollment penalty that is added to your monthly premium for as long as you have Medicare.",
+  },
+  {
+    question: "Do I need to do anything to get Medicare if I am already on Social Security?",
+    answer:
+      "No. If you are already receiving Social Security or Railroad Retirement Board benefits, you will be automatically enrolled in Medicare Parts A and B starting the month you turn 65. Your Medicare card will arrive in the mail about 3 months before your birthday month.",
   }
 ];
 

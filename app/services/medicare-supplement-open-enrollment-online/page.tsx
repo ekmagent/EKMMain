@@ -132,6 +132,22 @@ const faqs = [
     answer:
       "Yes. Medigap policies only work alongside Original Medicare, so you must remain enrolled in both Part A and Part B to keep your Medigap coverage active. If you drop Part B, your Medigap policy will no longer pay benefits. Call 855-559-1700 if you need help confirming your Part B status before applying.",
   }
+,
+  {
+    question: "What information from my Medicare card do I need to apply online?",
+    answer:
+      "You'll need your Medicare Number and your Part A and Part B coverage start dates, all of which appear on your red, white, and blue Medicare card. Having Part B active is required before a Medigap policy can take effect. Keep the card handy when you start the online application so you can enter the details accurately.",
+  },
+  {
+    question: "Can I switch Medigap plans online after my open enrollment window closes?",
+    answer:
+      "You can apply to switch plans at any time, but outside your 6-month Medigap Open Enrollment Period most states allow carriers to use medical underwriting. That means your application can be denied or priced higher based on health history. A licensed broker can review whether you qualify for any guaranteed-issue protections in your state before you apply.",
+  },
+  {
+    question: "Do I have to enroll in Part B before applying for Medigap online?",
+    answer:
+      "Yes. Federal rules require you to have both Medicare Part A and Part B in effect for a Medigap policy to start. Your 6-month Medigap Open Enrollment Period also begins the month your Part B is active and you are 65 or older, so timing your Part B start date is an important first step.",
+  }
 ];
 
 export default function MedicareSupplementOpenEnrollmentOnline() {
@@ -380,6 +396,7 @@ export default function MedicareSupplementOpenEnrollmentOnline() {
             <div className="text-sm text-gray-600 mt-4">State help: <a href="https://www.state.nj.us/dobi/division_insurance/ship/shipmain.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> offers free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">Need state-specific help? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> or contact the <a href="https://www.nj.gov/dobi/" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
     </main>
   );

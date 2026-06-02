@@ -181,6 +181,12 @@ const faqs = [
     answer:
       "Have your red, white, and blue Medicare card (or your Part A/B start dates), a list of your current prescriptions with dosages, and the names of doctors and hospitals you want to keep. That information lets your broker check formularies and provider networks accurately before you enroll.",
   }
+,
+  {
+    question: "Does New Jersey have special Medigap enrollment rules I should know about?",
+    answer:
+      "New Jersey uses community rating for Medigap policies, which means everyone in the same plan pays the same premium regardless of age. Your strongest guaranteed-issue protection is the 6-month Medigap Open Enrollment Period that begins the month you're 65 or older and enrolled in Part B. During that window, carriers can't deny you coverage or charge more based on health history. Outside that window, medical underwriting may apply unless you qualify for a separate guaranteed-issue right.",
+  }
 ];
 
 export default function MedicareInsuranceAgentsBloomfieldNJ() {
@@ -431,6 +437,7 @@ export default function MedicareInsuranceAgentsBloomfieldNJ() {
 </ul>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> offers free, unbiased Medicare counseling to Bloomfield residents.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> offers free, unbiased Medicare counseling.</div>
       </section>
     </>
   );

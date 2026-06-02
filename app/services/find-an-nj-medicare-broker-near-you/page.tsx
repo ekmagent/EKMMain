@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Find an NJ Medicare Broker Near You | Free No-Pressure Help | MedicareYourself",
   description:
-    "Find a trusted NJ Medicare broker near you. Anthony Orner compares top carriers statewide at no cost — independent, no pressure. Call 855-559-1700 today.",
+    "Find a trusted NJ Medicare broker near you. Anthony Orner compares top carriers statewide at zero cost — independent, no pressure. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/find-an-nj-medicare-broker-near-you" },
   openGraph: {
     title:
@@ -116,6 +116,22 @@ const faqs = [
     question: "What information should I have ready when I call a Medicare broker?",
     answer:
       "It helps to have your Medicare card with your Part A and Part B effective dates, a list of your current prescriptions with dosages, and the names of your preferred doctors and hospitals. With that information, a broker can quickly compare plans that cover your providers and medications.",
+  }
+,
+  {
+    question: "How do I verify a New Jersey Medicare broker is licensed?",
+    answer:
+      "You can confirm any broker's license through the New Jersey Department of Banking and Insurance license lookup tool. Ask for the broker's National Producer Number (NPN) and confirm they hold an active health insurance license in New Jersey. Anthony Orner's NPN is 1902584006.",
+  },
+  {
+    question: "What does a Medicare broker actually do for me?",
+    answer:
+      "A Medicare broker reviews your doctors, prescriptions, and budget, then compares plans across multiple carriers side by side. They handle the enrollment paperwork and stay available year-round for questions, plan reviews, and Annual Enrollment Period changes — at no cost to you.",
+  },
+  {
+    question: "Can I get free unbiased Medicare help in New Jersey besides a broker?",
+    answer:
+      "Yes. New Jersey's State Health Insurance Assistance Program (SHIP) offers free Medicare counseling through trained volunteers. SHIP counselors don't sell plans, while a licensed broker can both advise you and complete enrollment. Many beneficiaries use both resources.",
   }
 ];
 
@@ -409,6 +425,7 @@ export default function FindNJMedicareBrokerNearYou() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased Medicare counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
       </section>
       </article>
     </>

@@ -293,6 +293,22 @@ const faqs = [
     answer:
       "Yes, Medicare covers intermittent skilled nursing care, physical therapy, and home health aide services for CHF patients who are homebound and under a doctor's care plan. Services must be provided by a Medicare-certified home health agency. This benefit can be critical for monitoring fluid status and medication adherence after a hospitalization.",
   }
+,
+  {
+    question: "Does Medicare cover heart failure medications under Part D?",
+    answer:
+      "Yes. Medicare Part D prescription drug plans cover most heart failure medications, including ACE inhibitors, beta blockers, diuretics, and newer agents like SGLT2 inhibitors. However, formularies vary by plan, so a medication covered by one plan may require prior authorization or be excluded by another. A broker can compare your specific drug list across available plans.",
+  },
+  {
+    question: "Will Medicare pay for a cardiologist visit if I have CHF?",
+    answer:
+      "Yes. Medicare Part B covers medically necessary visits to cardiologists and other specialists for CHF management. You'll typically owe the Part B coinsurance after meeting the annual deductible, unless a Medigap or Medicare Advantage plan reduces that cost. You generally don't need a referral with Original Medicare, but some Medicare Advantage plans require one.",
+  },
+  {
+    question: "Does Medicare cover home health care for CHF patients?",
+    answer:
+      "Medicare covers intermittent home health care for CHF patients who are homebound and need skilled nursing or therapy services ordered by a doctor. Covered services can include skilled nursing visits, physical therapy, and home health aide support tied to a skilled need. Custodial care alone is not covered.",
+  }
 ];
 
 export default function MedicareBrokerCHFPage() {

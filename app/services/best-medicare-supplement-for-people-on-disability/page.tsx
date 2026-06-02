@@ -88,6 +88,17 @@ const faqs = [
     answer:
       "Carriers price under-65 Medigap policies separately from the 65+ pool. Fewer people are in the under-65 risk group, and medical costs for disability beneficiaries tend to be higher. This means premiums can be two to three times what a 65-year-old would pay for the same plan letter.",
   },
+,
+  {
+    question: "Do I get a Medigap Open Enrollment Period when I turn 65 if I already had Medicare on disability?",
+    answer:
+      "Yes. Even if you've had Medicare for years due to disability, you get a fresh six-month Medigap Open Enrollment Period when you turn 65. During that window, carriers must sell you any Medigap plan they offer at their best available rate regardless of your health history. This is often the best opportunity to switch into a more affordable supplement.",
+  },
+  {
+    question: "Which Medigap plan letters are typically available to people under 65 on disability?",
+    answer:
+      "Plan availability for under-65 beneficiaries depends entirely on state law and carrier participation. In states with under-65 protections, Plan A is the most commonly required offering, though some states mandate broader access including Plans G and N. Call 855-559-1700 and we'll confirm which plan letters are available to you in your state.",
+  }
 ];
 
 export default function BestMedicareSupplementForPeopleOnDisability() {
@@ -310,6 +321,7 @@ export default function BestMedicareSupplementForPeopleOnDisability() {
             <div className="text-sm text-gray-600 mt-4">For free state-specific counseling on Medigap rules for people under 65, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">For state-specific Medigap rules and free counseling, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">For state-specific Medigap rules and free counseling, visit your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">Free state counseling: <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">Find your local SHIP program</a> for unbiased Medicare guidance in your state.</div>
       </section>
       </article>
     </>

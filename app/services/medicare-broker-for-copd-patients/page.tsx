@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for COPD patients | Free Plan Review | MedicareYourself",
   description:
-    "Medicare broker for COPD patients — compare plans that cover inhalers, oxygen, and pulmonary rehab. Free plan review with Anthony Orner. Call 855-559-1700.",
+    "Medicare broker for COPD patients — find plans that cover inhalers, oxygen, and pulmonary rehab. Free plan review with Anthony Orner. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-copd-patients" },
   openGraph: {
     title:
@@ -199,6 +199,22 @@ const faqs = [
     question: "Can I change Medicare plans if my COPD treatment changes?",
     answer:
       "Yes. You can switch Medicare Advantage or Part D plans during the Annual Enrollment Period each fall, and the Medicare Advantage Open Enrollment Period in the first quarter of the year. Certain Special Enrollment Periods may also apply if you lose coverage, move, or qualify for Extra Help.",
+  }
+,
+  {
+    question: "Does Medicare cover pulmonary rehabilitation for COPD?",
+    answer:
+      "Yes. Medicare Part B covers comprehensive pulmonary rehabilitation programs for beneficiaries with moderate to very severe COPD when referred by the doctor treating the chronic respiratory condition. Programs typically include exercise training, education, nutrition counseling, and psychosocial support. You will generally pay a coinsurance after meeting the Part B deductible.",
+  },
+  {
+    question: "Can a Medicare broker help me switch plans if my COPD medications change?",
+    answer:
+      "Yes. If your prescribed inhalers, nebulizer medications, or other COPD treatments change, I can review your current plan's formulary against newer options during the Annual Enrollment Period or a qualifying Special Enrollment Period. Switching to a plan that covers your specific medications at a lower tier can meaningfully reduce your out-of-pocket costs. Call 855-559-1700 for a free review.",
+  },
+  {
+    question: "Are COPD-related doctor visits and specialists covered by Medicare?",
+    answer:
+      "Yes. Medicare Part B covers visits to pulmonologists, primary care doctors, and other specialists who treat COPD, including diagnostic tests like spirometry and chest imaging when medically necessary. Under Original Medicare you typically pay a coinsurance after meeting the Part B deductible. Medicare Advantage plans cover the same services but may require network providers and prior authorization.",
   }
 ];
 
@@ -470,6 +486,7 @@ export default function MedicareBrokerForCOPDPatients() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Need state-level help? Contact <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">Need local help? Contact <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">New Jersey SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
       </section>
     </main>
   );

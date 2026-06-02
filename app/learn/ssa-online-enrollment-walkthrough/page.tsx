@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title:
     "How to Enroll in Medicare Online at SSA.gov (Step-by-Step Walkthrough)",
   description:
-    "Step-by-step SSA.gov Medicare enrollment walkthrough — apply online in about 10 minutes. Call 855-559-1700 for free broker help choosing Part B coverage.",
+    "Step-by-step SSA.gov Medicare enrollment walkthrough — apply online in about 10 minutes. Call 855-559-1700 for free broker help with your Part B decision.",
   alternates: {
     canonical: `${SITE_URL}/learn/ssa-online-enrollment-walkthrough`,
   },
@@ -832,6 +832,22 @@ const steps = [
     question: "Can I change my application after submitting it on SSA.gov?",
     answer:
       "No. Once you agree to the Electronic Signature Agreement and click Submit Now, the application is locked and cannot be modified online. If you need to correct information, you'll need to contact the Social Security Administration directly.",
+  }
+,
+  {
+    question: "Do I need a my Social Security account to enroll in Medicare online?",
+    answer:
+      "Yes. The SSA online Medicare application requires you to sign in with a my Social Security account, which you can create using Login.gov or ID.me. You'll need your Social Security number and a valid ID such as a driver's license to verify your identity.",
+  },
+  {
+    question: "Can I change my Medicare application after I submit it online?",
+    answer:
+      "No. Once you electronically sign and click Submit Now, you cannot modify the application. If you need to make corrections, you'll need to contact the Social Security Administration directly to update your record.",
+  },
+  {
+    question: "Should I enroll in Part B if I still have employer coverage?",
+    answer:
+      "It depends on the size of the employer and how your current coverage coordinates with Medicare. If you're unsure whether to delay Part B, call 855-559-1700 to review your situation with a licensed broker before submitting your SSA application.",
   }
 ];
 

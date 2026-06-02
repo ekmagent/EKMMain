@@ -132,6 +132,22 @@ const faqs = [
     answer:
       "Yes. Plan G benefits are standardized by federal law, so the coverage is identical no matter which carrier you choose. The differences are premium price, customer service, rate stability, and household discounts. That's why comparing carriers through a broker can save you money on the same exact coverage.",
   }
+,
+  {
+    question: "Can I switch from another Medigap plan to Plan G online?",
+    answer:
+      "Yes, you can apply for Plan G at any time, but switching outside your Medigap Open Enrollment Period usually requires medical underwriting. Carriers can review your health history and decide whether to approve you. A licensed broker can help you compare carriers and determine which is most likely to accept your application.",
+  },
+  {
+    question: "Does Plan G cover prescription drugs?",
+    answer:
+      "No. Medigap policies sold today, including Plan G, do not include prescription drug coverage. To get drug coverage, you'll need to enroll in a separate Medicare Part D plan. A broker can help you pair Plan G with a Part D plan that fits the medications you take.",
+  },
+  {
+    question: "Is Plan G the same with every insurance carrier?",
+    answer:
+      "Yes. Medigap plans are standardized by the federal government, so the benefits of Plan G are identical no matter which carrier you choose. The differences come down to monthly premium, customer service, rate stability, and household discounts. That's why comparing carriers before enrolling is important.",
+  }
 ];
 
 export default function EnrollInPlanGOnlinePage() {
@@ -400,6 +416,7 @@ export default function EnrollInPlanGOnlinePage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Need state-specific help? Contact the <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling in your state.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

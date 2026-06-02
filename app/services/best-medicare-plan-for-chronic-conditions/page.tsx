@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "What's the Best Medicare Plan for Someone With Chronic Conditions | Free Broker Help | MedicareYourself",
   description:
-    "What's the best Medicare plan for chronic conditions? Learn why Medigap often beats Advantage for ongoing care. Free broker guidance, no health screening.",
+    "Compare Medigap vs. C-SNP for chronic conditions and find predictable costs with broad doctor access. Free licensed broker help — call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/best-medicare-plan-for-chronic-conditions" },
   openGraph: {
     title:
@@ -85,6 +85,22 @@ const faqs = [
     answer:
       "A Chronic Condition Special Needs Plan (C-SNP) is a Medicare Advantage plan designed for people with qualifying conditions like diabetes, heart failure, or cardiovascular disorders. C-SNPs coordinate care for your specific condition but still operate as HMO or PPO plans with network restrictions and cost-sharing.",
   },
+,
+  {
+    question: "Do Special Needs Plans include prescription drug coverage?",
+    answer:
+      "Yes. All Chronic Condition Special Needs Plans (C-SNPs) are required to include Medicare Part D prescription drug coverage as part of the plan. The formulary is tailored to the chronic conditions the plan serves, which can be helpful if you take specialty medications. However, you're locked into that plan's drug list and pharmacy network.",
+  },
+  {
+    question: "Is Medigap or Medicare Advantage better if I see multiple specialists?",
+    answer:
+      "If you regularly see multiple specialists, Medigap paired with Original Medicare usually gives you broader access because any provider that accepts Medicare nationwide will accept your supplement. Medicare Advantage plans, including C-SNPs, typically restrict you to in-network providers and may require referrals. For complex chronic care across several doctors, the freedom of Medigap is often worth the higher monthly premium.",
+  },
+  {
+    question: "Can I switch from Medicare Advantage to Medigap if my chronic condition worsens?",
+    answer:
+      "You can switch during the Annual Election Period or Medicare Advantage Open Enrollment Period, but Medigap carriers can medically underwrite you outside of guaranteed issue windows. That means a carrier could deny coverage or charge more based on your health. A few states have more generous Medigap switching rules, so call 855-559-1700 to review what's available where you live.",
+  }
 ];
 
 export default function BestMedicarePlanForChronicConditions() {

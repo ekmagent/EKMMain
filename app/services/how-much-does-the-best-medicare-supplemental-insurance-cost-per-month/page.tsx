@@ -195,6 +195,12 @@ const faqs = [
     answer:
       "No. By federal law, every Medigap plan with the same letter offers identical benefits, but each carrier sets its own premium. According to Medicare.gov, the price is the only real difference between policies with the same plan letter from different companies. Shopping across carriers is the single best way to lower your monthly cost.",
   }
+,
+  {
+    question: "Does where I live affect my Medicare Supplement premium?",
+    answer:
+      "Yes. Medigap premiums vary widely by zip code because carriers factor in local medical costs, claims history, and state regulations. Two neighbors in different zip codes can pay noticeably different rates for the exact same Plan G or Plan N benefits. Call 855-559-1700 for a quote based on your specific location.",
+  }
 ];
 
 export default function HowMuchDoesBestMedicareSupplementalInsuranceCostPerMonth() {

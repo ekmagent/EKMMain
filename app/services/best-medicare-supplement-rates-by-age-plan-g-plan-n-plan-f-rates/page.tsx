@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Best Medicare Supplement Rates by Age (Plan G, Plan N, & Plan F Rates) | Free Quote | MedicareYourself",
   description:
-    "Compare Medicare Supplement rates by age for Plan G, Plan N & Plan F. Lock in your lowest premium by age bracket — call 855-559-1700 for a free quote.",
+    "Compare Medicare Supplement rates by age for Plan G, Plan N & Plan F. See premium ranges by age bracket and lock in your lowest rate — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/best-medicare-supplement-rates-by-age-plan-g-plan-n-plan-f-rates" },
   openGraph: {
     title:
@@ -133,6 +133,22 @@ const faqs = [
     question: "Is Plan N a good option if I want lower premiums than Plan G?",
     answer:
       "Plan N typically has a lower monthly premium than Plan G in exchange for small copays at office and ER visits and no coverage of Part B excess charges. If your providers accept Medicare assignment and you're comfortable with minor copays, Plan N can be a strong value. Call 855-559-1700 for a side-by-side quote.",
+  }
+,
+  {
+    question: "Can I switch Medicare Supplement plans later if my rates get too high?",
+    answer:
+      "Yes, you can apply to switch Medigap plans or carriers at any time, but outside your initial Open Enrollment Period most states allow carriers to medically underwrite your application. That means they can review your health history and decline coverage or charge higher rates. A licensed broker can shop carriers to see if you qualify for a lower rate before you cancel your current plan.",
+  },
+  {
+    question: "What's the difference between attained-age, issue-age, and community-rated pricing?",
+    answer:
+      "Attained-age policies start lower but increase as you get older. Issue-age policies base your premium on the age you were when you bought the plan and don't go up due to age alone. Community-rated plans charge the same premium to everyone in a given area regardless of age. Each pricing method affects your long-term cost differently.",
+  },
+  {
+    question: "Does Plan N cost less than Plan G long-term?",
+    answer:
+      "Plan N generally has a lower monthly premium than Plan G, but it includes small copays for some office and emergency room visits and doesn't cover Part B excess charges. For healthy enrollees who don't visit doctors frequently, the lower premium often outweighs the occasional copays. A side-by-side quote based on your age and ZIP code is the best way to compare true total cost.",
   }
 ];
 
@@ -417,6 +433,7 @@ export default function BestMedicareSupplementRatesByAge() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP program</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify carriers and rates through the <a href="https://www.state.nj.us/dobi/index.shtml" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP</a> for free Medicare counseling.</div>
       </section>
     </main>
   );

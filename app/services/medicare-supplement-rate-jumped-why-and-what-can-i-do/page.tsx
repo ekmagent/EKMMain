@@ -129,6 +129,17 @@ const faqs = [
     answer:
       "No. Always wait until the new carrier has formally approved your application and issued an effective date before canceling your existing policy. This prevents any gap in coverage if underwriting results in a delay or denial.",
   }
+,
+  {
+    question: "What should I do first when I get a Medicare Supplement rate increase notice?",
+    answer:
+      "Before paying the new premium, request a free comparison of the same plan letter from other carriers in your state. Because Medigap plans are standardized, you can often find identical coverage at a lower price. Call 855-559-1700 to compare available rates with a licensed broker.",
+  },
+  {
+    question: "Are Medicare Supplement rate increases the same in every state?",
+    answer:
+      "No. Each state's department of insurance reviews and approves Medigap rate filings separately, so increases vary by state, carrier, and plan letter. Some states like New York and Connecticut also require community rating, which changes how rates are calculated compared to age-based pricing used in most states.",
+  }
 ];
 
 export default function MedicareSupplementRateJumpedPage() {

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "average cost of supplemental health insurance for seniors with medicare | Free Broker Comparison | MedicareYourself",
   description:
-    "Compare 2026 supplemental insurance costs for seniors on Medicare — same benefits, very different prices by carrier. Call 855-559-1700 for a free broker review.",
+    "See how supplemental insurance costs for seniors on Medicare vary by carrier, age, and state in 2026. Call 855-559-1700 for a free broker rate comparison.",
   alternates: { canonical: "https://medicareyourself.com/services/average-cost-of-supplemental-health-insurance-for-seniors-with-medicare" },
   openGraph: {
     title:
@@ -515,6 +515,22 @@ const faqs = [
     answer:
       "Most Medigap policies increase in price over time due to inflation and rising medical costs. How quickly premiums rise depends on the carrier's rating method — community-rated, issue-age-rated, or attained-age-rated plans each behave differently as you age. Asking a broker to show projected rate history for each carrier is one of the best ways to avoid a plan that looks cheap today but climbs sharply later.",
   }
+,
+  {
+    question: "Does the federal government set Medigap prices?",
+    answer:
+      "No. While the benefits in each lettered Medigap plan are standardized by federal law, each private insurance company sets its own premium. Medicare.gov confirms the price is the only difference between policies with the same plan letter sold by different companies, which is why shopping multiple carriers matters.",
+  },
+  {
+    question: "Will my Medigap premium go up as I get older?",
+    answer:
+      "It depends on the pricing method. Attained-age policies increase as you age, issue-age policies are based on the age you bought the plan, and community-rated policies charge everyone in the area the same regardless of age. All three types can still see annual increases due to inflation and claims costs.",
+  },
+  {
+    question: "How can a licensed broker help me find the lowest supplemental insurance rate?",
+    answer:
+      "An independent broker can quote multiple carriers at once and identify which insurer is most competitive in your zip code for your age and household. Because broker compensation is built into the rate by the carrier, you don't pay more for using one. Call 855-559-1700 for a free side-by-side comparison.",
+  }
 ];
 
 export default function AverageCostSupplementalInsurancePage() {
@@ -737,6 +753,7 @@ export default function AverageCostSupplementalInsurancePage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify rates and file complaints with the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP</a>.</div>
             <div className="text-sm text-gray-600 mt-4">For state-specific Medigap rate guidance, contact your <a href="https://www.shiphelp.org/about-medicare/regional-ship-location" rel="noopener noreferrer" target="_blank" className="text-blue-700 underline">local SHIP (State Health Insurance Assistance Program)</a> for free, unbiased counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also compare rates and get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify rates and file complaints with the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a> or get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP</a>.</div>
       </section>
     </main>
   );

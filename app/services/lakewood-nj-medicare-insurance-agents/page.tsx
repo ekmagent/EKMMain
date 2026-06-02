@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "lakewood nj medicare insurance agents | Free Rate Comparison | MedicareYourself",
   description:
-    "Lakewood NJ Medicare insurance agents compare plans at no cost. Anthony Orner shops every top carrier in Ocean County. Free quote — call or book online.",
+    "Lakewood NJ Medicare insurance agents compare every top carrier in Ocean County at no cost. Anthony Orner shops plans for you. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/lakewood-nj-medicare-insurance-agents" },
   openGraph: {
     title:

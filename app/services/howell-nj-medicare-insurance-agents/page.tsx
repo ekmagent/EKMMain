@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "howell nj medicare insurance agents | Free Independent Broker Help | MedicareYourself",
   description:
-    "Howell NJ Medicare insurance agents — Anthony Orner compares Supplement and Advantage plans from top carriers in Monmouth County. Free no-obligation quote.",
+    "Howell NJ Medicare insurance agents — Anthony Orner compares Supplement & Advantage plans across Monmouth County carriers. Get a free no-obligation quote today.",
   alternates: { canonical: "https://medicareyourself.com/services/howell-nj-medicare-insurance-agents" },
   openGraph: {
     title:

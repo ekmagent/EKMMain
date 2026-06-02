@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Why Did My Medicare Supplement Rate Change? | Free Rate Review | MedicareYourself",
   description:
-    "Medigap rate jumped? Learn the 3 pricing factors behind every Medicare Supplement increase and get a free rate review. Call 855-559-1700 today.",
+    "Medigap rate increase? Learn the 3 pricing factors behind every Medicare Supplement hike and get a free rate review from a licensed broker. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/why-did-my-medicare-supplement-rate-change" },
   openGraph: {
     title:
@@ -132,6 +132,22 @@ const faqs = [
     question: "Should I shop my Medicare Supplement plan after every rate increase?",
     answer:
       "It is wise to review your coverage whenever you receive a rate notice, but switching is not always the right move. If you can pass medical underwriting, you may qualify for a lower premium on the same standardized benefits with a different carrier. A free rate review can compare your current policy against other available carriers in your state before you make any decision.",
+  }
+,
+  {
+    question: "Can my Medicare Supplement carrier raise my rate because of my health?",
+    answer:
+      "No. Once you have a Medigap policy in force, the carrier cannot single you out for a rate increase based on your individual health or claims history. Rate adjustments are filed at the block level and apply to everyone in that same plan and rating class. Your personal claims do not trigger your premium change.",
+  },
+  {
+    question: "Should I shop my Medicare Supplement plan every year?",
+    answer:
+      "Yes, an annual rate review is smart even if you are happy with your current carrier. Because every carrier sells the same standardized benefits under each plan letter, you may qualify for identical coverage at a lower premium with another insurer. A licensed broker can run a comparison and confirm whether you can pass underwriting to switch.",
+  },
+  {
+    question: "Will moving to a different state change my Medigap premium?",
+    answer:
+      "Yes. Medigap premiums are filed and approved state by state, so the same plan letter and same carrier can cost a different amount in New Jersey than in another state. If you relocate, notify your carrier and request a new rate review for your new ZIP code.",
   }
 ];
 
@@ -418,6 +434,7 @@ export default function WhyDidMyMedicareSupplementRateChange() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents: review filings and consumer guidance through the <a href="https://www.state.nj.us/dobi/division_insurance/" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP</a> for free counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can compare filed Medigap rates and consumer protections through the <a href="https://www.state.nj.us/dobi/division_insurance/managedcare/medsupp.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance — Medicare Supplement</a> or get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" target="_blank" rel="noopener noreferrer" className="text-blue-700 underline">NJ Department of Banking and Insurance</a> or the free <a href="https://www.state.nj.us/humanservices/doas/services/ship/" target="_blank" rel="noopener noreferrer" className="text-blue-700 underline">NJ SHIP counseling program</a> for unbiased Medigap rate guidance.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify carrier rate filings and consumer protections through the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP</a>.</div>
       </section>
       </article>
     </>

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for multiple sclerosis patients | Free Plan Comparison | MedicareYourself",
   description:
-    "Medicare broker for MS patients — Anthony Orner helps you find plans covering Ocrevus, MRIs & your neurologist. Call 855-559-1700 for a free plan review.",
+    "Medicare broker for MS patients — Anthony Orner finds plans covering Ocrevus, MRIs & your neurologist with no surprises. Call 855-559-1700 for a free review.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-multiple-sclerosis-patients" },
   openGraph: {
     title:
@@ -356,6 +356,22 @@ const faqs = [
     question: "Does Medicare cover MRIs needed to monitor MS progression?",
     answer:
       "Yes. Medically necessary MRIs ordered by your doctor to monitor multiple sclerosis are covered under Medicare Part B as diagnostic imaging. You'll typically owe the Part B deductible and coinsurance unless a Medigap plan picks up that share. Medicare Advantage plans cover MRIs too, but often require prior authorization before the scan is approved.",
+  }
+,
+  {
+    question: "Will Medicare cover the MRIs I need to monitor my MS progression?",
+    answer:
+      "Yes. Medicare Part B covers medically necessary MRIs ordered by your doctor to monitor MS activity and treatment response. Under Original Medicare you'll owe the Part B coinsurance after meeting the deductible, which a Medigap plan can help offset. Medicare Advantage plans also cover MRIs but often require prior authorization, so timing matters when your neurologist needs imaging quickly.",
+  },
+  {
+    question: "Does Medicare cover physical, occupational, and speech therapy for MS?",
+    answer:
+      "Yes. Medicare Part B covers outpatient physical therapy, occupational therapy, and speech-language pathology when prescribed as medically necessary by your doctor. There is no longer a hard cap on therapy services, though documentation requirements increase above certain thresholds. These therapies are often central to maintaining function and mobility for people living with MS.",
+  },
+  {
+    question: "What happens to my MS drug coverage if I qualify for Medicare before age 65 through SSDI?",
+    answer:
+      "Once you complete the 24-month SSDI waiting period, you're enrolled in Medicare Parts A and B. Self-administered MS disease-modifying therapies fall under Part D, while infused therapies given at an office or infusion center are billed under Part B. Reviewing both your Part D formulary and your Part B coinsurance exposure is essential before picking a plan.",
   }
 ];
 

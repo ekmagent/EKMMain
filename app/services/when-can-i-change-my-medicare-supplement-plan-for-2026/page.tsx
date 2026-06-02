@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "when can i change my medicare supplement plan for 2026 | Free Switching Help | MedicareYourself",
   description:
-    "When can you change your Medicare Supplement plan for 2026? Learn switch rules, guaranteed-issue rights, and underwriting — call 855-559-1700 for free help.",
+    "When can you change your Medicare Supplement plan for 2026? Learn switch rules, guaranteed-issue rights & underwriting. Call 855-559-1700 for free broker help.",
   alternates: { canonical: "https://medicareyourself.com/services/when-can-i-change-my-medicare-supplement-plan-for-2026" },
   openGraph: {
     title:
@@ -283,6 +283,22 @@ const faqs = [
     answer:
       "Yes, outside of your 6-month Medigap Open Enrollment Period or a guaranteed-issue situation, carriers can use medical underwriting and may deny your application based on your health history. That's why timing your switch around a protected window — or working with a broker who knows carrier underwriting rules — matters.",
   }
+,
+  {
+    question: "What happens if I'm denied when applying to switch my Medigap plan?",
+    answer:
+      "If you apply outside your Medigap Open Enrollment Period or a guaranteed-issue situation, the new carrier can use medical underwriting and may deny your application based on health history. If denied, you keep your current Medigap plan — your existing coverage doesn't change unless you cancel it. That's why it's important to get approval on the new policy before dropping the old one.",
+  },
+  {
+    question: "Should I cancel my current Medigap plan before the new one is approved?",
+    answer:
+      "No. Always wait until the new carrier has approved your application and confirmed the effective date before canceling your existing Medigap policy. There's typically a 30-day free-look period with the new plan, giving you time to compare before fully committing. Call 855-559-1700 if you want a broker to coordinate the switch.",
+  },
+  {
+    question: "Does changing Medigap carriers affect my doctor network?",
+    answer:
+      "No. Medigap policies don't have provider networks — any provider that accepts Original Medicare will accept your Medigap plan, regardless of which carrier issues it. Switching carriers only changes your premium and the company billing you; it does not change which doctors or hospitals you can see.",
+  }
 ];
 
 export default function WhenCanIChangeMyMedicareSupplementPlanFor2026() {
@@ -499,6 +515,7 @@ export default function WhenCanIChangeMyMedicareSupplementPlanFor2026() {
             <div className="text-sm text-gray-600 mt-4">For state-specific Medigap rules and free counseling, contact the <a href="https://www.nj.gov/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

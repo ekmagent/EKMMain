@@ -107,6 +107,17 @@ const faqs = [
     answer:
       "Most carriers charge a higher premium for tobacco users, and the surcharge varies by company. If you've quit recently, some insurers will reclassify you as a non-tobacco user after a defined period. A broker can identify which carriers in your state offer the most favorable tobacco rules for your situation.",
   }
+,
+  {
+    question: "Is Plan G a good value at age 69?",
+    answer:
+      "For many 69-year-olds, Plan G offers strong predictability because it covers nearly all Medicare-approved costs after the annual Part B deductible. The trade-off is a higher monthly premium compared to plans with more cost-sharing. Whether it's a good value depends on your expected healthcare use and how stable the carrier's rates have been in your ZIP code.",
+  },
+  {
+    question: "Why do Plan G premiums vary so much between carriers?",
+    answer:
+      "Even though every Plan G covers the same benefits, each insurance company sets its own price based on underwriting, claims experience, administrative costs, and pricing method. Premiums also vary by ZIP code, gender, tobacco use, and household discounts. That's why comparing multiple carriers through a broker often surfaces meaningful savings.",
+  }
 ];
 
 export default function MedicareSupplementPlanGCostFor69YearOld() {
@@ -338,6 +349,7 @@ export default function MedicareSupplementPlanGCostFor69YearOld() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or the <a href="https://www.nj.gov/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP program</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
     </main>
   );

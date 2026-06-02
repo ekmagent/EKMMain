@@ -163,6 +163,17 @@ const faqs = [
     answer:
       "You can view ballpark rates online, but accurate quotes depend on your specific zip code, age, tobacco status, and eligibility for household or other discounts. A quick call to 855-559-1700 ensures the numbers you see reflect every discount you actually qualify for.",
   }
+,
+  {
+    question: "Can I switch Medicare plans after getting a quote?",
+    answer:
+      "Yes, but timing matters. Medicare Advantage and Part D plans can be changed during the Annual Enrollment Period each fall or during the Medicare Advantage Open Enrollment Period in early spring. Medigap can be changed at any time, but outside of guaranteed-issue windows you may need to answer health questions and pass medical underwriting.",
+  },
+  {
+    question: "Do Medicare quotes include Part D prescription drug coverage?",
+    answer:
+      "It depends on the plan type. Many Medicare Advantage plans bundle Part D coverage into a single quote, while Medicare Supplement quotes are for medical coverage only — you'd add a stand-alone Part D plan separately. When you call 855-559-1700, we can quote your medical plan and your drug plan together based on your prescriptions.",
+  }
 ];
 
 export default function MedicareQuotesPage() {

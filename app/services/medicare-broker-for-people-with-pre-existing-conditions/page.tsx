@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare broker for people with pre-existing conditions | Free Guidance | MedicareYourself",
   description:
-    "Pre-existing condition? A licensed Medicare broker helps you find lenient carriers and guaranteed issue rights. Free guidance — call 855-559-1700.",
+    "Have a pre-existing condition? A licensed Medicare broker helps you find lenient carriers and guaranteed issue rights. Free guidance — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-people-with-pre-existing-conditions" },
   openGraph: {
     title:

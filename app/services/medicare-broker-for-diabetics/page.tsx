@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare broker for diabetics | Free Help Finding the Right Plan | MedicareYourself",
   description:
-    "Medicare broker for diabetics — compare plans covering insulin, CGMs, and your endocrinologist. Free expert help from Anthony Orner. Call 855-559-1700.",
+    "Medicare broker for diabetics: compare plans covering insulin, CGMs, and your endocrinologist. Free expert help from Anthony Orner. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-diabetics" },
   openGraph: {
     title:
@@ -164,6 +164,22 @@ const faqs = [
     question: "When can I switch Medicare plans if my diabetes care needs change?",
     answer:
       "Most people can change Medicare Advantage or Part D plans during the Annual Enrollment Period each fall, with coverage starting January 1. There is also a Medicare Advantage Open Enrollment Period in the first quarter of the year. If you qualify for a Special Enrollment Period — for example, due to moving or losing other coverage — you may be able to switch outside those windows.",
+  }
+,
+  {
+    question: "Does Medicare cover the Medicare Diabetes Prevention Program?",
+    answer:
+      "Yes. Medicare Part B covers the Medicare Diabetes Prevention Program for eligible beneficiaries at no cost. It provides training on diet and exercise changes to help prevent the progression to type 2 diabetes. A broker can help you understand eligibility and find providers offering the program.",
+  },
+  {
+    question: "Can I switch Medicare plans if my diabetes medications change?",
+    answer:
+      "Yes, but typically only during specific enrollment periods like the Annual Enrollment Period or a Special Enrollment Period if you qualify. If your medications, devices, or doctors change, a broker can review your current plan during the next eligible window and recommend alternatives. Call 855-559-1700 for a free review.",
+  },
+  {
+    question: "Does Medicare cover diabetic supplies like test strips and lancets?",
+    answer:
+      "Yes. Medicare Part B covers blood sugar testing supplies including test strips, lancets, and glucose monitors as durable medical equipment when prescribed by your doctor. Insulin pumps and the insulin used with them are also covered under Part B. A broker can confirm supply coverage and preferred suppliers under each plan.",
   }
 ];
 
@@ -430,6 +446,7 @@ export default function MedicareBrokerForDiabetics() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
     </main>
   );

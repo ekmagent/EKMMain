@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare enrollment help for people with lupus california | Free Guidance | MedicareYourself",
   description:
-    "Medicare help for Californians with lupus—compare plans covering rheumatologists, biologics & infusions. Free licensed broker guidance. Call 855-559-1700.",
+    "Medicare enrollment help for Californians with lupus. Compare plans covering rheumatologists, biologics & infusions. Free licensed broker—call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-enrollment-help-for-people-with-lupus-california" },
   openGraph: {
     title:

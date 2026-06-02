@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Medicare Supplement Cost in NJ 2026",
   description:
-    "Compare 2026 NJ Medicare Supplement costs — Part B premium, deductible, and Plan G rates by county. Call 855-559-1700 for a free NJ Medigap quote.",
+    "Compare 2026 NJ Medicare Supplement costs — Part B premium, deductible, and Plan G rates by county. Call 855-559-1700 for a free NJ Medigap quote today.",
   alternates: { canonical: `${SITE_URL}/medicare-supplement/new-jersey/cost` },
   openGraph: {
     title: "Medicare Supplement Cost in NJ 2026",
