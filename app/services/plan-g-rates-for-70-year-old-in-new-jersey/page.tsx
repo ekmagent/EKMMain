@@ -235,6 +235,22 @@ const faqs = [
     answer:
       "Plan G covers nearly all of the out-of-pocket costs Original Medicare leaves behind, including the Part A hospital deductible, coinsurance, and excess charges, with the only major exception being the annual Part B deductible. Once that deductible is met, your covered Medicare services are generally paid in full.",
   }
+,
+  {
+    question: "Why do Plan G premiums vary so much between carriers in New Jersey?",
+    answer:
+      "Every Medigap Plan G covers the exact same federally standardized benefits, so the only real difference between carriers is price and company stability. Insurers set their own rates based on their claims experience, marketing costs, and discounts they offer. That's why comparing several NJ carriers side by side is the single biggest factor in saving money.",
+  },
+  {
+    question: "Is Plan G a good choice for a 70-year-old in NJ?",
+    answer:
+      "Plan G is the most comprehensive Medigap plan available to people who became Medicare-eligible after January 1, 2020. It covers nearly all out-of-pocket costs after you meet the annual Part B deductible, which makes budgeting predictable. For most 70-year-olds in New Jersey, the tradeoff between premium and low cost-sharing makes Plan G a strong fit.",
+  },
+  {
+    question: "Do I need to answer health questions to get Plan G at age 70?",
+    answer:
+      "If you are outside your 6-month Medigap Open Enrollment Period and don't qualify for a guaranteed issue right, most NJ carriers will require medical underwriting to switch into Plan G. Approval and pricing can depend on your health history. A licensed broker can pre-screen you with multiple carriers before you formally apply.",
+  }
 ];
 
 export default function PlanGRates70NJ() {
@@ -488,6 +504,7 @@ export default function PlanGRates70NJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/dobi/division_insurance/ins_index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> and the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.nj.gov/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> offers free Medicare counseling for NJ residents.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.nj.gov/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
       </article>
     </>

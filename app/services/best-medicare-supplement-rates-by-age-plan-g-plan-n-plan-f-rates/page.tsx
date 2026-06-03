@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Best Medicare Supplement Rates by Age (Plan G, Plan N, & Plan F Rates) | Free Quote | MedicareYourself",
   description:
-    "Compare Medicare Supplement rates by age for Plan G, Plan N & Plan F. See premium ranges by age bracket and lock in your lowest rate — call 855-559-1700.",
+    "Compare Medicare Supplement rates by age for Plan G, Plan N & Plan F. Lock in your lowest premium — call 855-559-1700 for a free side-by-side quote today.",
   alternates: { canonical: "https://medicareyourself.com/services/best-medicare-supplement-rates-by-age-plan-g-plan-n-plan-f-rates" },
   openGraph: {
     title:
@@ -149,6 +149,22 @@ const faqs = [
     question: "Does Plan N cost less than Plan G long-term?",
     answer:
       "Plan N generally has a lower monthly premium than Plan G, but it includes small copays for some office and emergency room visits and doesn't cover Part B excess charges. For healthy enrollees who don't visit doctors frequently, the lower premium often outweighs the occasional copays. A side-by-side quote based on your age and ZIP code is the best way to compare true total cost.",
+  }
+,
+  {
+    question: "Can I switch Medicare Supplement plans later to get a lower rate?",
+    answer:
+      "Yes, you can apply to switch Medigap plans at any time, but outside of your Open Enrollment Period or a guaranteed issue situation, carriers in most states can require medical underwriting. That means they can review your health history and either decline coverage or charge a higher rate. If you're healthy, shopping your plan every few years can sometimes uncover meaningful savings.",
+  },
+  {
+    question: "Does Plan N cost less than Plan G?",
+    answer:
+      "Plan N premiums are typically lower than Plan G premiums for the same age and carrier. The trade-off is that Plan N requires small copays for some office and ER visits and does not cover Part B excess charges. For people who don't expect frequent specialist visits, Plan N can be a strong value.",
+  },
+  {
+    question: "Do Medicare Supplement rates depend on whether I smoke or my health?",
+    answer:
+      "During your Medigap Open Enrollment Period, carriers cannot use your health to deny you or charge more, though most still apply a tobacco rating. Outside that window, in states that allow underwriting, both health conditions and tobacco use can significantly affect your premium or eligibility.",
   }
 ];
 
@@ -434,6 +450,7 @@ export default function BestMedicareSupplementRatesByAge() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify carriers and rates through the <a href="https://www.state.nj.us/dobi/index.shtml" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify carrier rate filings and consumer protections through the <a href="https://www.nj.gov/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a> or get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP</a>.</div>
       </section>
     </main>
   );

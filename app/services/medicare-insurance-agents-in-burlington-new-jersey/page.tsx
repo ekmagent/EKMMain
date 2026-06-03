@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare insurance agents in burlington new jersey | Free Local Help | MedicareYourself",
   description:
-    "Licensed Medicare broker in Burlington, NJ. Compare Medigap, Advantage & Part D side-by-side at no cost. Call 855-559-1700 for free local guidance.",
+    "Licensed Medicare broker serving Burlington, NJ. Compare Medigap, Advantage & Part D side-by-side at no cost. Call 855-559-1700 for free local guidance.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-insurance-agents-in-burlington-new-jersey" },
   openGraph: {
     title:
@@ -280,6 +280,22 @@ const faqs = [
     answer:
       "Your best window is the 6-month Medigap Open Enrollment Period that begins the month you turn 65 and are enrolled in Part B. During this window, carriers cannot deny you coverage or charge more based on health. New Jersey uses community rating, which means Medigap premiums are not based on your individual age. After this window closes, acceptance is no longer guaranteed in most situations.",
   }
+,
+  {
+    question: "When can I enroll in a Medigap plan in New Jersey?",
+    answer:
+      "Your best window is the 6-month Medigap Open Enrollment Period that begins the month you're both 65 or older and enrolled in Part B. During this window, insurance companies cannot deny you coverage or charge more based on health history. New Jersey uses community rating, meaning premiums are not based on your age. Outside this window, you may be subject to medical underwriting.",
+  },
+  {
+    question: "Do I need a local agent in Burlington County, or can I work with someone remote?",
+    answer:
+      "You can do either. A licensed broker can help by phone, video, or in person, and Anthony Orner is licensed in New Jersey and 34 other states. What matters most is that the agent understands the carriers available in Burlington County and the local provider networks for hospitals like Virtua Willingboro and area primary care groups.",
+  },
+  {
+    question: "What's the difference between Medigap and Medicare Advantage in Burlington, NJ?",
+    answer:
+      "Medigap (Medicare Supplement) works alongside Original Medicare and helps pay your share of costs like the Part A deductible and coinsurance, with broad access to any provider that accepts Medicare. Medicare Advantage replaces Original Medicare with a private plan that often bundles drug coverage and extras but uses a network of doctors and hospitals. The right choice depends on your providers, travel habits, and how you prefer to handle out-of-pocket costs.",
+  }
 ];
 
 export default function MedicareInsuranceAgentsBurlingtonNJ() {
@@ -542,6 +558,7 @@ export default function MedicareInsuranceAgentsBurlingtonNJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </>
   );

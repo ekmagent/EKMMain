@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for hearing loss patients | Free Plan Review | MedicareYourself",
   description:
-    "Medicare broker for hearing loss patients—compare NJ Advantage plans with hearing aid and audiology benefits at no cost. Call 855-559-1700 for a free review.",
+    "Medicare broker for hearing loss patients — compare NJ Medicare Advantage plans with hearing aid and audiology benefits at no cost. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-hearing-loss-patients" },
   openGraph: {
     title:
@@ -142,6 +142,17 @@ const faqs = [
     question: "When can I switch to a Medicare Advantage plan with hearing benefits?",
     answer:
       "You can enroll or switch plans during the Annual Enrollment Period from October 15 to December 7, or during the Medicare Advantage Open Enrollment Period from January 1 to March 31. Special Enrollment Periods may also apply if you qualify due to a life event.",
+  }
+,
+  {
+    question: "Does Original Medicare cover routine hearing aids?",
+    answer:
+      "No. Original Medicare does not cover routine hearing exams, hearing aids, or fittings for hearing aids. Beneficiaries who want help with these costs typically look at Medicare Advantage plans that bundle a hearing benefit, or consider standalone hearing discount programs.",
+  },
+  {
+    question: "When can I switch to a plan with better hearing coverage?",
+    answer:
+      "You can change Medicare Advantage plans during the Annual Election Period each fall and the Medicare Advantage Open Enrollment Period in the first quarter of the year. Special Enrollment Periods may also apply if you move, lose coverage, or qualify for Extra Help. A licensed broker can confirm which window applies to your situation.",
   }
 ];
 

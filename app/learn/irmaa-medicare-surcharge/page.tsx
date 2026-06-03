@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
   description:
-    "Learn how Medicare's 2026 IRMAA surcharge works, who pays it, and how to appeal with SSA-44 if your income dropped. Free broker guidance: 855-559-1700.",
+    "Understand Medicare's 2026 IRMAA income surcharge, who pays it, and how to appeal with SSA-44 if your income dropped. Free broker help: 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/irmaa-medicare-surcharge` },
   openGraph: {
     title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
@@ -720,6 +720,22 @@ const faqs = [
     question: "Does selling a house or doing a Roth conversion trigger IRMAA?",
     answer:
       "Potentially yes. One-time income events like capital gains from selling property, large Roth IRA conversions, or required minimum distributions can push your MAGI above an IRMAA threshold for that year. Since IRMAA uses a two-year lookback, the surcharge would apply two years after the income event, then drop off once your income normalizes.",
+  }
+,
+  {
+    question: "How do I appeal IRMAA if my income has dropped?",
+    answer:
+      "If you experienced a qualifying life-changing event — such as retirement, divorce, or the death of a spouse — you can file Form SSA-44 with the Social Security Administration to request a reduction. You'll need to provide documentation of the event and an estimate of your new, lower income. Social Security reviews the request and adjusts your IRMAA if approved.",
+  },
+  {
+    question: "Does IRMAA get recalculated every year?",
+    answer:
+      "Yes. Social Security reviews your tax return each year to determine whether IRMAA applies for the upcoming year. If your income drops below the threshold in a later tax year, your IRMAA surcharge will automatically be removed or reduced the following year without needing to file an appeal.",
+  },
+  {
+    question: "Can a Medicare broker help me plan around IRMAA?",
+    answer:
+      "A licensed broker can't change your tax return, but we can help you understand how your plan choices and income decisions affect your total Medicare costs. If you'd like a free review of your situation, call 855-559-1700 to speak with Anthony Orner.",
   }
 ];
 

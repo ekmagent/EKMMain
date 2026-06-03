@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for COPD patients | Free Plan Review | MedicareYourself",
   description:
-    "Medicare broker for COPD patients — find plans that cover inhalers, oxygen, and pulmonary rehab. Free plan review with Anthony Orner. Call 855-559-1700.",
+    "Medicare broker for COPD patients — compare plans covering inhalers, oxygen, and pulmonary rehab. Free review with Anthony Orner. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-copd-patients" },
   openGraph: {
     title:
@@ -215,6 +215,22 @@ const faqs = [
     question: "Are COPD-related doctor visits and specialists covered by Medicare?",
     answer:
       "Yes. Medicare Part B covers visits to pulmonologists, primary care doctors, and other specialists who treat COPD, including diagnostic tests like spirometry and chest imaging when medically necessary. Under Original Medicare you typically pay a coinsurance after meeting the Part B deductible. Medicare Advantage plans cover the same services but may require network providers and prior authorization.",
+  }
+,
+  {
+    question: "Does Medicare cover pulmonary rehabilitation for COPD?",
+    answer:
+      "Yes. Medicare Part B covers comprehensive pulmonary rehabilitation programs for beneficiaries with moderate to very severe COPD when referred by the treating physician. Coverage typically includes exercise training, education, and psychosocial support delivered in an outpatient setting. A broker can help you confirm how your specific plan handles the coinsurance for these sessions.",
+  },
+  {
+    question: "Can I switch Medicare plans if my COPD inhaler is dropped from the formulary?",
+    answer:
+      "Formularies can change each plan year, and a dropped drug alone does not create a special enrollment period mid-year. However, during the Annual Enrollment Period each fall, you can switch Part D or Medicare Advantage plans to one that covers your inhalers. I review formularies against your current prescription list every year to catch these changes early.",
+  },
+  {
+    question: "What should COPD patients look for when choosing a Medicare plan?",
+    answer:
+      "Focus on inhaler coverage tier and copay structure, access to your pulmonologist, oxygen supplier network, and prior authorization requirements for nebulizers or rehab. Plan design matters more than premium for chronic conditions like COPD. I compare these details side by side so you can see total expected cost, not just the sticker price.",
   }
 ];
 
@@ -487,6 +503,7 @@ export default function MedicareBrokerForCOPDPatients() {
             <div className="text-sm text-gray-600 mt-4">Need state-level help? Contact <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Need local help? Contact <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">New Jersey SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey beneficiaries: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> offers free Medicare counseling.</div>
       </section>
     </main>
   );

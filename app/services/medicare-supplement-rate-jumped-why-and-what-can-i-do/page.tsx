@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "My Medicare Supplement Rate Just Jumped — Why, and What Can I Do? | Free Rate Comparison | MedicareYourself",
   description:
-    "Medigap rate jumped? Learn why Medicare Supplement premiums rise and how switching to the same plan letter can lower your cost. Call 855-559-1700.",
+    "Medigap rate jumped? Learn why Medicare Supplement premiums rise and how switching to the same plan letter can lower your cost. Free comparison—call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-supplement-rate-jumped-why-and-what-can-i-do" },
   openGraph: {
     title:

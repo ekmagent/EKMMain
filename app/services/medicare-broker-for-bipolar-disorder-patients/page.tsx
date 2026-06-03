@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for bipolar disorder patients | Free Plan Comparison | MedicareYourself",
   description:
-    "Medicare broker for bipolar disorder patients — Anthony Orner compares Part D plans for mood stabilizers & psychiatric coverage. Free help: 855-559-1700.",
+    "Medicare broker for bipolar disorder patients — Anthony Orner compares Part D plans covering mood stabilizers & therapy. Free help: 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-bipolar-disorder-patients" },
   openGraph: {
     title:
@@ -108,6 +108,17 @@ const faqs = [
     question: "Does Medicare cover outpatient therapy and psychiatric visits for bipolar disorder?",
     answer:
       "Yes. Medicare Part B covers a wide range of outpatient mental health services, including visits with psychiatrists, clinical psychologists, clinical social workers, and nurse practitioners. Part B also covers individual and group psychotherapy, medication management, and partial hospitalization programs when medically necessary. You typically pay the Part B coinsurance after meeting the Part B deductible.",
+  }
+,
+  {
+    question: "Are therapy and counseling sessions covered by Medicare for bipolar disorder?",
+    answer:
+      "Yes. Medicare Part B covers outpatient mental health services including individual and group therapy, counseling, and psychiatric evaluations when provided by a licensed professional who accepts Medicare. After meeting the Part B deductible, you typically pay a coinsurance share of the Medicare-approved amount. Telehealth therapy visits are also covered under Part B.",
+  },
+  {
+    question: "Does Medicare cover lab work needed to monitor mood stabilizers?",
+    answer:
+      "Yes. Part B covers medically necessary blood tests ordered by your psychiatrist or primary care provider, including lithium levels, thyroid panels, kidney function, and liver function tests commonly required for mood stabilizer monitoring. Lab work ordered by a Medicare-enrolled provider and performed at a participating lab is generally covered at no cost to you.",
   }
 ];
 
@@ -395,6 +406,7 @@ export default function MedicareBrokerBipolarDisorderPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <p className="text-sm text-gray-600 mt-3">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</p>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

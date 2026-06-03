@@ -695,6 +695,22 @@ const faqs = [
     answer:
       "You can apply to switch Medigap plans at any time, but outside your Open Enrollment Period or a guaranteed-issue situation, carriers in most states can require medical underwriting. That means you could be denied or charged more based on your health. Call 855-559-1700 to review whether switching makes sense before you apply.",
   }
+,
+  {
+    question: "Can I be denied a Medigap policy if I apply outside my Open Enrollment Period?",
+    answer:
+      "Yes. Outside your 6-month Medigap Open Enrollment Period, carriers in most states can use medical underwriting to deny your application, charge you more, or impose a waiting period for pre-existing conditions. A limited set of guaranteed-issue rights also apply in specific situations, such as losing other coverage. Call 855-559-1700 before you apply so we can check whether you qualify for a guaranteed-issue right.",
+  },
+  {
+    question: "Do I need to cancel my current coverage before enrolling in a Medicare Supplement plan?",
+    answer:
+      "No. You should keep your existing coverage in place until your new Medigap policy is approved and the effective date is confirmed. Once your application is accepted, the carrier will issue a policy with a specific start date, and you can then cancel your prior plan to avoid paying for overlapping coverage.",
+  },
+  {
+    question: "How long does it take for a Medicare Supplement application to be approved?",
+    answer:
+      "During your Medigap Open Enrollment Period, applications are typically approved within a few business days because no medical underwriting is required. Outside that window, underwritten applications can take two to four weeks while the carrier reviews your health history and prescription records.",
+  }
 ];
 
 export default function HowToEnrollMedigapPage() {

@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "How to Sign Up for Medicare (2026 Guide)",
   description:
-    "How to sign up for Medicare in 2026: enrollment windows, applying via SSA, and avoiding Part B late penalties. Free broker help — call 855-559-1700.",
+    "Step-by-step 2026 guide to signing up for Medicare: enrollment windows, applying through SSA, and avoiding Part B penalties. Free broker help — 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/how-to-sign-up-for-medicare` },
   openGraph: {
     title: "How to Sign Up for Medicare (2026 Guide)",
@@ -737,6 +737,22 @@ const faqs = [
     question: "Do I need to do anything to get Medicare if I am already on Social Security?",
     answer:
       "No. If you are already receiving Social Security or Railroad Retirement Board benefits, you will be automatically enrolled in Medicare Parts A and B starting the month you turn 65. Your Medicare card will arrive in the mail about 3 months before your birthday month.",
+  }
+,
+  {
+    question: "Am I automatically enrolled in Medicare at 65?",
+    answer:
+      "You are automatically enrolled in Medicare Parts A and B if you are already receiving Social Security or Railroad Retirement Board benefits before you turn 65. Your Medicare card will arrive in the mail about 3 months before your birthday month. If you are not yet collecting those benefits, you must sign up yourself through the Social Security Administration.",
+  },
+  {
+    question: "How do I actually apply for Medicare?",
+    answer:
+      "The fastest way to apply is online at ssa.gov/medicare, which takes about 10 minutes. You can also apply by calling Social Security at 1-800-772-1213 or by visiting your local Social Security office. Medicare is administered by CMS, but enrollment is handled through the Social Security Administration.",
+  },
+  {
+    question: "What happens if I miss my Initial Enrollment Period?",
+    answer:
+      "If you miss your Initial Enrollment Period and do not qualify for a Special Enrollment Period, you will need to wait for the General Enrollment Period (January 1 - March 31) to sign up for Part B. You may also owe a permanent Part B late enrollment penalty that is added to your monthly premium for as long as you have Medicare. Call 855-559-1700 if you are unsure which window applies to you.",
   }
 ];
 

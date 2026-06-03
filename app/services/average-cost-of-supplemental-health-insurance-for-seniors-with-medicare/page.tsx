@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "average cost of supplemental health insurance for seniors with medicare | Free Broker Comparison | MedicareYourself",
   description:
-    "See how supplemental insurance costs for seniors on Medicare vary by carrier, age, and state in 2026. Call 855-559-1700 for a free broker rate comparison.",
+    "Compare 2026 Medigap supplemental insurance costs for seniors by carrier, age, and state. Call 855-559-1700 for a free broker rate comparison across top plans.",
   alternates: { canonical: "https://medicareyourself.com/services/average-cost-of-supplemental-health-insurance-for-seniors-with-medicare" },
   openGraph: {
     title:
@@ -531,6 +531,12 @@ const faqs = [
     answer:
       "An independent broker can quote multiple carriers at once and identify which insurer is most competitive in your zip code for your age and household. Because broker compensation is built into the rate by the carrier, you don't pay more for using one. Call 855-559-1700 for a free side-by-side comparison.",
   }
+,
+  {
+    question: "How do the three Medigap pricing methods affect what I pay over time?",
+    answer:
+      "Community-rated plans charge everyone the same premium regardless of age. Issue-age-rated plans base your premium on the age you were when you bought the policy and don't increase due to aging. Attained-age-rated plans start lower but rise as you get older, which can make them more expensive long-term. All three are still subject to inflation and carrier rate adjustments.",
+  }
 ];
 
 export default function AverageCostSupplementalInsurancePage() {
@@ -754,6 +760,7 @@ export default function AverageCostSupplementalInsurancePage() {
             <div className="text-sm text-gray-600 mt-4">For state-specific Medigap rate guidance, contact your <a href="https://www.shiphelp.org/about-medicare/regional-ship-location" rel="noopener noreferrer" target="_blank" className="text-blue-700 underline">local SHIP (State Health Insurance Assistance Program)</a> for free, unbiased counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also compare rates and get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify rates and file complaints with the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a> or get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can compare rates and file complaints through the <a href="https://www.nj.gov/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank">NJ Department of Banking and Insurance</a> or get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank">NJ SHIP</a>.</div>
       </section>
     </main>
   );

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare insurance agents in freehold new jersey | Free Consultation | MedicareYourself",
   description:
-    "Talk with a licensed Medicare broker serving Freehold, NJ. Compare Medigap and Advantage plans at no cost — call 855-559-1700 for a free, no-pressure quote.",
+    "Compare Medigap and Medicare Advantage plans with a licensed broker serving Freehold, NJ. Free, no-pressure quotes — call 855-559-1700 to review your options.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-insurance-agents-in-freehold-new-jersey" },
   openGraph: {
     title:
@@ -324,6 +324,7 @@ export default function MedicareInsuranceAgentsFreeholdNJ() {
 </ul>
               <div className="text-sm text-gray-600 mt-4">Official Medicare resources: <a href="https://www.medicare.gov/basics/get-started-with-medicare" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">Get Started with Medicare (Medicare.gov)</a> and <a href="https://www.medicare.gov/plan-compare" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">Medicare Plan Compare</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling through the <a href="https://www.nj.gov/humanservices/doas/services/q-z/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
       </article>
     </>

@@ -373,6 +373,12 @@ const faqs = [
     answer:
       "Once you complete the 24-month SSDI waiting period, you're enrolled in Medicare Parts A and B. Self-administered MS disease-modifying therapies fall under Part D, while infused therapies given at an office or infusion center are billed under Part B. Reviewing both your Part D formulary and your Part B coinsurance exposure is essential before picking a plan.",
   }
+,
+  {
+    question: "Does Medicare cover MRIs needed to monitor MS progression?",
+    answer:
+      "Yes. Medically necessary MRIs ordered by your doctor to monitor MS are covered under Medicare Part B. With Original Medicare you'll generally pay the Part B coinsurance after the deductible, while Medicare Advantage plans may require prior authorization and have their own cost-sharing. A Medigap plan can help offset the Part B coinsurance.",
+  }
 ];
 
 export default function MedicareBrokerForMSPatients() {

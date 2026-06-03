@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "best medicare supplement for people on disability | Free Plan Review | MedicareYourself",
   description:
-    "Best Medicare Supplement for people on disability under 65 — compare state rules, plan options, and eligibility. Call 855-559-1700 for free guidance.",
+    "Best Medicare Supplement for people on disability under 65 — compare state rules, plan options, and eligibility. Call 855-559-1700 for a free plan review.",
   alternates: { canonical: "https://medicareyourself.com/services/best-medicare-supplement-for-people-on-disability" },
   openGraph: {
     title:
@@ -98,6 +98,22 @@ const faqs = [
     question: "Which Medigap plan letters are typically available to people under 65 on disability?",
     answer:
       "Plan availability for under-65 beneficiaries depends entirely on state law and carrier participation. In states with under-65 protections, Plan A is the most commonly required offering, though some states mandate broader access including Plans G and N. Call 855-559-1700 and we'll confirm which plan letters are available to you in your state.",
+  }
+,
+  {
+    question: "Which Medigap plan letter is most popular for disability beneficiaries under 65?",
+    answer:
+      "Plan G and Plan N are the most commonly chosen letters for under-65 enrollees in states that guarantee access, because they offer comprehensive coverage of Medicare cost-sharing. Plan A is the minimum benefit package every Medigap carrier must offer to those eligible. The right choice depends on your state's rules, your budget, and how often you expect to use care.",
+  },
+  {
+    question: "Will my Medigap premium drop when I turn 65?",
+    answer:
+      "In most cases, yes. When you turn 65, you receive a new six-month Medigap Open Enrollment Period and can switch to a 65+ rated policy, which is typically priced much lower than under-65 rates. This is true even if you've had Medicare for years due to disability.",
+  },
+  {
+    question: "Does Medicare cover prescription drugs for people on disability?",
+    answer:
+      "Original Medicare (Parts A and B) does not include outpatient prescription drug coverage. Disability beneficiaries can enroll in a standalone Part D plan alongside a Medigap policy, or choose a Medicare Advantage plan that bundles drug coverage. We can help you compare both routes at 855-559-1700.",
   }
 ];
 
@@ -322,6 +338,7 @@ export default function BestMedicareSupplementForPeopleOnDisability() {
             <div className="text-sm text-gray-600 mt-4">For state-specific Medigap rules and free counseling, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">For state-specific Medigap rules and free counseling, visit your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Free state counseling: <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">Find your local SHIP program</a> for unbiased Medicare guidance in your state.</div>
+            <div className="text-sm text-gray-600 mt-4">Need state-specific guidance? Contact your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
       </section>
       </article>
     </>

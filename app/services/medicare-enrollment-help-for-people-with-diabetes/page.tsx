@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare Enrollment Help for People With Diabetes | Free Guidance | MedicareYourself",
   description:
-    "Medicare enrollment help for people with diabetes—find plans covering insulin, CGMs, pumps & supplies. Call 855-559-1700 for free expert guidance today.",
+    "Medicare enrollment help for people with diabetes—compare plans covering insulin, CGMs, pumps & supplies. Call 855-559-1700 for free expert guidance.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-enrollment-help-for-people-with-diabetes" },
   openGraph: {
     title:
@@ -264,6 +264,22 @@ const faqs = [
     question: "Does Medicare cover diabetes self-management training?",
     answer:
       "Yes. Medicare Part B covers diabetes self-management training (DSMT) for beneficiaries diagnosed with diabetes when ordered by your doctor as part of your treatment plan. This training helps you manage blood sugar, nutrition, and lifestyle changes. Coverage typically includes an initial set of hours plus follow-up training in later years.",
+  }
+,
+  {
+    question: "Does Medicare Part D cover insulin?",
+    answer:
+      "Yes. Medicare Part D plans cover insulin, and recent federal changes cap monthly out-of-pocket costs for covered insulin products under Part D and Medicare Advantage drug plans. Coverage and tier placement vary by plan, so it's important to check the formulary for your specific insulin before enrolling. Call 855-559-1700 for a free formulary review.",
+  },
+  {
+    question: "Are insulin pumps covered under Medicare?",
+    answer:
+      "Yes. Medicare Part B covers insulin pumps as durable medical equipment (DME) when your doctor documents medical necessity, and the insulin used in the pump is also covered under Part B. You'll need to use a Medicare-approved DME supplier to get coverage. A Medigap plan can help offset the Part B coinsurance for pump supplies.",
+  },
+  {
+    question: "Can I switch Medicare plans if my diabetes medications change?",
+    answer:
+      "Yes. You can review and switch your Medicare Advantage or Part D plan during the Annual Enrollment Period each fall (October 15 – December 7), with changes taking effect January 1. There's also a Medicare Advantage Open Enrollment Period from January 1 – March 31. If your medications change mid-year, special enrollment rules may apply in limited situations.",
   }
 ];
 
@@ -564,6 +580,7 @@ export default function MedicareEnrollmentHelpDiabetes() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free local Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
       </article>
     </>

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare broker for people on disability | Free Guidance | MedicareYourself",
   description:
-    "Under-65 on SSDI? Free Medicare broker help in NJ from Anthony Orner. Compare Medigap and Advantage plans with no pressure. Call 855-559-1700 today.",
+    "On SSDI and new to Medicare? Anthony Orner offers free, no-pressure broker help comparing Medigap and Advantage plans in NJ. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-people-on-disability" },
   openGraph: {
     title:
@@ -311,6 +311,7 @@ export default function MedicareBrokerForPeopleOnDisability() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> offers free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling through the <a href="https://www.nj.gov/humanservices/doas/services/q-z/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
       </article>
     </>

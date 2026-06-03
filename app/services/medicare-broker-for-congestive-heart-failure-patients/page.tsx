@@ -309,6 +309,12 @@ const faqs = [
     answer:
       "Medicare covers intermittent home health care for CHF patients who are homebound and need skilled nursing or therapy services ordered by a doctor. Covered services can include skilled nursing visits, physical therapy, and home health aide support tied to a skilled need. Custodial care alone is not covered.",
   }
+,
+  {
+    question: "Does Medicare cover heart failure medications under Part D?",
+    answer:
+      "Yes. Medicare Part D prescription drug plans cover most heart failure medications, including ACE inhibitors, beta blockers, diuretics, and SGLT2 inhibitors. Coverage and copays vary by plan formulary, so it's important to compare plans based on your specific medication list. Anthony can run a personalized drug comparison to find the lowest total cost plan.",
+  }
 ];
 
 export default function MedicareBrokerCHFPage() {

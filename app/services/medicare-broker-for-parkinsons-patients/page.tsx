@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for Parkinson's patients | Free Plan Review | MedicareYourself",
   description:
-    "Medicare broker for Parkinson's patients — compare Part D, DBS coverage & therapy access. Free plan review with Anthony Orner. Call 855-559-1700 today.",
+    "Medicare broker for Parkinson's patients — compare Part D, DBS coverage, and therapy access. Free plan review with Anthony Orner. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-parkinsons-patients" },
   openGraph: {
     title:
@@ -160,6 +160,22 @@ const faqs = [
     question: "What happens if my Parkinson's medication isn't on my Part D plan's formulary?",
     answer:
       "You can request a formulary exception with documentation from your prescriber, switch to a covered alternative if clinically appropriate, or change plans during the Annual Enrollment Period. This is why I review your full medication list before recommending a Part D plan — the goal is to avoid surprise non-coverage at the pharmacy counter.",
+  }
+,
+  {
+    question: "When can I change my Medicare plan if my Parkinson's treatment needs change?",
+    answer:
+      "The Annual Enrollment Period runs from October 15 through December 7 each year, when you can switch Part D or Medicare Advantage plans. There's also a Medicare Advantage Open Enrollment Period from January 1 through March 31. If you qualify for Extra Help or move, you may get a Special Enrollment Period. I'll review your plan every year to make sure it still fits your medication list and care team.",
+  },
+  {
+    question: "Should a Parkinson's patient choose Original Medicare or Medicare Advantage?",
+    answer:
+      "It depends on your specialists, medications, and where you receive care. Original Medicare with a Supplement and standalone Part D gives you nationwide access to any provider who accepts Medicare, which matters if you see a movement disorder specialist out of state. Medicare Advantage plans may offer extra benefits but use networks and prior authorization. I compare both side-by-side based on your actual doctors and prescriptions.",
+  },
+  {
+    question: "Will Medicare cover a movement disorder specialist?",
+    answer:
+      "Yes. Medicare Part B covers visits to neurologists and movement disorder specialists when medically necessary. With Original Medicare, you can see any specialist who accepts Medicare without a referral. With Medicare Advantage, you'll need to confirm the specialist is in-network and check whether a referral is required.",
   }
 ];
 
@@ -425,6 +441,7 @@ export default function MedicareBrokerForParkinsonsPatients() {
             <div className="text-sm text-gray-600 mt-4">Free unbiased counseling: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">For free unbiased counseling, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> or the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">Free, unbiased counseling: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
     </main>
   );

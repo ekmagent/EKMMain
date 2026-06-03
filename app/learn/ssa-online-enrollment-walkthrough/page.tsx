@@ -849,6 +849,22 @@ const steps = [
     answer:
       "It depends on the size of the employer and how your current coverage coordinates with Medicare. If you're unsure whether to delay Part B, call 855-559-1700 to review your situation with a licensed broker before submitting your SSA application.",
   }
+,
+  {
+    question: "Do I sign up for Medicare through Medicare.gov or SSA.gov?",
+    answer:
+      "You enroll in Medicare Part A and Part B through the Social Security Administration at SSA.gov, not Medicare.gov. Medicare.gov is the official site for plan information and coverage choices, but Social Security handles the actual enrollment because it determines your eligibility and processes premiums.",
+  },
+  {
+    question: "How long does the online SSA Medicare application take?",
+    answer:
+      "Most people complete the online application in about 10 minutes once they have their information ready. You'll need your Social Security number, a driver's license or state ID for identity verification, and details about any current health coverage or employer group plan.",
+  },
+  {
+    question: "Can I change my answers after I submit the SSA Medicare application?",
+    answer:
+      "No. Once you click Submit Now and agree to the Electronic Signature Agreement, you cannot modify the application online. If you need to correct information or change your Part B election, you'll need to contact Social Security directly to fix it.",
+  }
 ];
 
 export default function SSAOnlineEnrollmentWalkthrough() {

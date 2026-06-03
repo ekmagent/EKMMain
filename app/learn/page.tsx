@@ -7,7 +7,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Medicare Education Guides | MedicareYourself",
   description:
-    "Free plain-English Medicare guides from a licensed broker. Learn Parts A-D, Medigap, enrollment, and IRMAA. Call 855-559-1700 for free personal help.",
+    "Free plain-English Medicare guides from a licensed broker. Learn Parts A-D, Medigap, enrollment, and IRMAA. Call 855-559-1700 for personal help.",
   alternates: { canonical: `${SITE_URL}/learn` },
   openGraph: {
     title: "Medicare Education Guides | MedicareYourself",
@@ -202,6 +202,12 @@ const GUIDES = [
     question: "Can I switch from Medicare Advantage back to Original Medicare later?",
     answer:
       "Yes. You can switch during the Annual Enrollment Period each fall or during the Medicare Advantage Open Enrollment Period in the first quarter of the year. Keep in mind that if you want to add a Medigap policy after switching back, you may be subject to medical underwriting outside of your initial guaranteed-issue window. Call 855-559-1700 to review your options before making a change.",
+  }
+,
+  {
+    question: "How do I report Medicare fraud or a suspicious call?",
+    answer:
+      "Medicare.gov has a dedicated section on reporting fraud and abuse, including how to protect your Medicare Number and spot common scams. Never share your Medicare Number with unsolicited callers. If you suspect fraud, you can report it through the official Medicare fraud reporting channels.",
   }
 ];
 

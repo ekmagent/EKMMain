@@ -111,6 +111,22 @@ const faqs = [
     answer:
       "Yes, but the process depends on your plan. With Original Medicare you can choose any Medicare-enrolled DME supplier that accepts assignment, while Medicare Advantage plans typically restrict you to in-network suppliers. A broker can help you confirm which suppliers are available under your current coverage.",
   }
+,
+  {
+    question: "Can I switch DME suppliers if I'm unhappy with my current CPAP provider?",
+    answer:
+      "Yes, you can switch to a different Medicare-enrolled DME supplier, though the process depends on whether you're in the rental period or post-ownership. During the 13-month rental, transferring suppliers can be complicated and may require coordination between providers. A Medicare broker can help you understand your options and find an in-network supplier that meets your needs.",
+  },
+  {
+    question: "Does Medicare cover BiPAP machines or only CPAP for sleep apnea?",
+    answer:
+      "Medicare Part B covers BiPAP (bilevel positive airway pressure) devices when CPAP therapy has been tried and documented as ineffective, or when your doctor determines BiPAP is medically necessary. The same compliance and DME supplier rules apply. Your doctor must provide documentation supporting the need for a BiPAP over a standard CPAP.",
+  },
+  {
+    question: "What happens if I was diagnosed with sleep apnea before enrolling in Medicare?",
+    answer:
+      "If you were diagnosed and used a CPAP before Medicare eligibility, you may still qualify for Medicare-covered equipment, but you'll typically need a new face-to-face evaluation with your doctor and documentation of continued need. Medicare may also require a new compliance period. A broker can help you understand transition requirements based on your plan choice.",
+  }
 ];
 
 export default function MedicareBrokerForSleepApneaPatients() {
@@ -365,6 +381,7 @@ export default function MedicareBrokerForSleepApneaPatients() {
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/coverage/continuous-positive-airway-pressure-devices" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — CPAP therapy coverage</a> and <a href="https://www.medicare.gov/coverage/sleep-studies" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Sleep studies coverage</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/shipindex.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
       </section>
     </main>
   );

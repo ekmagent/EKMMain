@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare insurance agents in bloomfield new jersey | Free Broker Help | MedicareYourself",
   description:
-    "Compare Medicare plans in Bloomfield, NJ with independent broker Anthony Orner. Side-by-side carrier quotes, no pressure. Call 855-559-1700 for free help.",
+    "Compare Medicare plans in Bloomfield, NJ with independent broker Anthony Orner. See every major carrier side-by-side — free help. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-insurance-agents-in-bloomfield-new-jersey" },
   openGraph: {
     title:
@@ -186,6 +186,12 @@ const faqs = [
     question: "Does New Jersey have special Medigap enrollment rules I should know about?",
     answer:
       "New Jersey uses community rating for Medigap policies, which means everyone in the same plan pays the same premium regardless of age. Your strongest guaranteed-issue protection is the 6-month Medigap Open Enrollment Period that begins the month you're 65 or older and enrolled in Part B. During that window, carriers can't deny you coverage or charge more based on health history. Outside that window, medical underwriting may apply unless you qualify for a separate guaranteed-issue right.",
+  }
+,
+  {
+    question: "Does New Jersey have special Medigap enrollment rules I should know about?",
+    answer:
+      "New Jersey uses community rating for Medigap, meaning carriers cannot charge you more based on your age for the same plan. Your guaranteed-issue right to buy any Medigap plan without medical underwriting applies during your 6-month Medigap Open Enrollment Period, which starts the month you're 65 or older and enrolled in Part B. Outside that window, carriers may use medical underwriting unless you qualify for a specific guaranteed-issue situation under federal or state rules.",
   }
 ];
 
@@ -438,6 +444,7 @@ export default function MedicareInsuranceAgentsBloomfieldNJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> offers free, unbiased Medicare counseling to Bloomfield residents.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> offers free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
       </section>
     </>
   );

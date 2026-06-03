@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "hillsborough nj medicare insurance agents | Free Broker Consultation | MedicareYourself",
   description:
-    "Hillsborough NJ Medicare agents — compare Supplement and Advantage plans from top carriers at no cost. Call 855-559-1700 for a free Somerset County quote.",
+    "Hillsborough NJ Medicare agents compare Supplement & Advantage plans from top carriers at no cost. Call 855-559-1700 for a free Somerset County quote today.",
   alternates: { canonical: "https://medicareyourself.com/services/hillsborough-nj-medicare-insurance-agents" },
   openGraph: {
     title:

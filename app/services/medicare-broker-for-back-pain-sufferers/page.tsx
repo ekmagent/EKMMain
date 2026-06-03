@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for back pain sufferers | Free Plan Comparison | MedicareYourself",
   description:
-    "Medicare broker for back pain sufferers — compare plans covering PT, chiropractic, injections, and surgery. Free consultation with Anthony Orner: 855-559-1700.",
+    "Medicare broker for back pain sufferers — compare plans covering PT, chiropractic, injections, and surgery. Call Anthony Orner at 855-559-1700 for a free review.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-back-pain-sufferers" },
   openGraph: {
     title:
@@ -123,6 +123,22 @@ const faqs = [
     question: "Does Medicare cover physical therapy for back pain?",
     answer:
       "Yes, Medicare Part B covers medically necessary outpatient physical therapy with no annual cap, though your therapist must confirm continued medical necessity above a certain threshold. You're responsible for the Part B deductible and coinsurance unless you have a Medigap plan or Medicare Advantage that reduces those costs. Call 855-559-1700 and I'll help you find a plan that fits your therapy schedule.",
+  }
+,
+  {
+    question: "Does Medicare cover physical therapy for back pain long-term?",
+    answer:
+      "Yes. Medicare Part B covers medically necessary outpatient physical therapy with no hard cap on visits, as long as your therapist documents that continued care is reasonable and necessary. After you meet the Part B deductible, you typically pay 20% of the Medicare-approved amount unless you have supplemental coverage.",
+  },
+  {
+    question: "Does Medicare cover chiropractic care for back pain?",
+    answer:
+      "Medicare Part B covers manual manipulation of the spine by a chiropractor to correct a subluxation. It does not cover X-rays, massage therapy, or other services ordered by a chiropractor. Some Medicare Advantage plans offer expanded chiropractic benefits beyond Original Medicare.",
+  },
+  {
+    question: "Can a Medicare broker help me switch plans if my back treatment isn't covered?",
+    answer:
+      "Yes, during the Annual Enrollment Period (October 15–December 7) and certain Special Enrollment Periods, you can change plans. As your broker, I'll review your providers, prescriptions, and planned procedures to find a plan that aligns with your treatment needs. Call 855-559-1700 to start.",
   }
 ];
 
@@ -387,6 +403,7 @@ export default function MedicareBrokerForBackPainSufferers() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">Free unbiased counseling: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">Need local help? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free one-on-one Medicare counseling.</div>
       </section>
       </article>
     </>
