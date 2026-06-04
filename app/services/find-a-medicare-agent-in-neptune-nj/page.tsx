@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "find a medicare agent in neptune nj | Free No-Obligation Help | MedicareYourself",
   description:
-    "Find a Medicare agent in Neptune, NJ for free, unbiased plan comparisons. Anthony Orner helps Monmouth County residents enroll—call 855-559-1700 today.",
+    "Find a Medicare agent in Neptune, NJ for free, unbiased plan comparisons across top carriers. Anthony Orner helps Monmouth County residents—call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/find-a-medicare-agent-in-neptune-nj" },
   openGraph: {
     title:
@@ -114,6 +114,17 @@ const faqs = [
     question: "What information should I have ready before meeting with a Medicare agent?",
     answer:
       "Have your red, white, and blue Medicare card, a list of your current prescriptions with dosages, and the names of doctors and specialists you want to keep. This lets your agent run an accurate plan comparison based on your actual coverage needs rather than estimates.",
+  }
+,
+  {
+    question: "Can a Medicare agent in Neptune, NJ help me compare Medicare Advantage and Medigap?",
+    answer:
+      "Yes. An independent agent can walk you through the structural differences between Medicare Advantage and Medigap, including network rules, referral requirements, and how each interacts with Original Medicare. They can also model how your specific doctors, hospitals, and prescriptions fit under each option before you enroll.",
+  },
+  {
+    question: "Does a Medicare agent help with Part D prescription drug plans?",
+    answer:
+      "Yes. A licensed agent can run your medication list through each available Part D plan to compare formularies, pharmacy networks, and total annual drug costs. This is especially useful during the Annual Enrollment Period when plans update their drug tiers and pricing.",
   }
 ];
 
@@ -333,6 +344,7 @@ export default function FindMedicareAgentNeptuneNJ() {
             <div className="text-sm text-gray-600 mt-2">New Jersey residents can also get free unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
       </article>
     </>

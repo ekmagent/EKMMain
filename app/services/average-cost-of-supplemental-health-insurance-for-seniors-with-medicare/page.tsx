@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "average cost of supplemental health insurance for seniors with medicare | Free Broker Comparison | MedicareYourself",
   description:
-    "Compare 2026 Medigap supplemental insurance costs for seniors by carrier, age, and state. Call 855-559-1700 for a free broker rate comparison across top plans.",
+    "Compare 2026 Medigap supplemental insurance costs by carrier, age, and state. Call 855-559-1700 for a free licensed broker rate comparison.",
   alternates: { canonical: "https://medicareyourself.com/services/average-cost-of-supplemental-health-insurance-for-seniors-with-medicare" },
   openGraph: {
     title:
@@ -537,6 +537,22 @@ const faqs = [
     answer:
       "Community-rated plans charge everyone the same premium regardless of age. Issue-age-rated plans base your premium on the age you were when you bought the policy and don't increase due to aging. Attained-age-rated plans start lower but rise as you get older, which can make them more expensive long-term. All three are still subject to inflation and carrier rate adjustments.",
   }
+,
+  {
+    question: "How do insurance companies set Medigap premiums?",
+    answer:
+      "Per Medicare.gov, carriers use one of three pricing methods: community-rated (same premium regardless of age), issue-age-rated (based on the age you bought the policy), or attained-age-rated (premium rises as you get older). The pricing method affects what you pay now and how rates change over time. Call 855-559-1700 to compare which pricing structure fits your long-term budget.",
+  },
+  {
+    question: "Does the same Medigap plan letter cost the same at every company?",
+    answer:
+      "No. Medicare.gov confirms that benefits within each lettered plan are standardized, but premiums can vary significantly between insurance companies selling the identical plan in the same zip code. That's why comparing carriers through a licensed broker is the most effective way to find the lowest rate for the coverage you want.",
+  },
+  {
+    question: "Can my Medigap premium go up after I enroll?",
+    answer:
+      "Yes. Premiums can increase due to inflation, claims experience, or your age depending on the pricing method used by the carrier. Community-rated plans don't raise rates based on your age, while attained-age-rated plans typically increase as you grow older.",
+  }
 ];
 
 export default function AverageCostSupplementalInsurancePage() {
@@ -761,6 +777,7 @@ export default function AverageCostSupplementalInsurancePage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also compare rates and get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify rates and file complaints with the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a> or get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can compare rates and file complaints through the <a href="https://www.nj.gov/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank">NJ Department of Banking and Insurance</a> or get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank">NJ SHIP</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a> or contact the <a href="https://www.nj.gov/dobi/division_insurance/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a>.</div>
       </section>
     </main>
   );

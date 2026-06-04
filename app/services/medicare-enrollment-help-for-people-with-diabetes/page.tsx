@@ -281,6 +281,12 @@ const faqs = [
     answer:
       "Yes. You can review and switch your Medicare Advantage or Part D plan during the Annual Enrollment Period each fall (October 15 – December 7), with changes taking effect January 1. There's also a Medicare Advantage Open Enrollment Period from January 1 – March 31. If your medications change mid-year, special enrollment rules may apply in limited situations.",
   }
+,
+  {
+    question: "Does Medicare Part D cover insulin?",
+    answer:
+      "Yes. Medicare Part D plans cover insulin, and under the Inflation Reduction Act, there is a monthly cap on what you pay for a covered insulin product. Coverage details and formularies vary by plan, so it's important to confirm your specific insulin is on the plan's drug list before enrolling. Call 855-559-1700 for help comparing Part D plans that cover your insulin.",
+  }
 ];
 
 export default function MedicareEnrollmentHelpDiabetes() {
@@ -581,6 +587,7 @@ export default function MedicareEnrollmentHelpDiabetes() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free local Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

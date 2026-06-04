@@ -358,6 +358,22 @@ const faqs = [
     answer:
       "Yes, prescription heart medications are typically covered under Medicare Part D or through a Medicare Advantage plan that includes drug coverage. Coverage and copays vary significantly between plans, so it's important to check each plan's formulary against your specific medication list. A broker can run your drug list through plan comparison tools to find the lowest total annual cost.",
   }
+,
+  {
+    question: "Will Medicare cover my heart medications?",
+    answer:
+      "Medicare Part D prescription drug plans cover most cardiac medications including blood thinners, statins, beta blockers, and ACE inhibitors. However, formularies and tier placement vary widely between plans, which means the same medication can cost very different amounts depending on which plan you choose. A broker can run your exact medication list against available Part D plans to find the lowest total annual cost.",
+  },
+  {
+    question: "Does Medicare cover heart procedures like stents, bypass surgery, or pacemakers?",
+    answer:
+      "Yes. Medicare Part A covers inpatient hospital care for procedures like coronary artery bypass grafting, stent placement, valve repair or replacement, and pacemaker or defibrillator implantation. Part B covers the surgeon, anesthesiologist, and outpatient follow-up care. Your share of the costs depends on whether you have Original Medicare alone, a Medigap supplement, or a Medicare Advantage plan.",
+  },
+  {
+    question: "Can my cardiologist stay the same if I switch Medicare plans?",
+    answer:
+      "With Original Medicare and a Medigap supplement, you can see any cardiologist or hospital nationwide that accepts Medicare. With Medicare Advantage, you're limited to the plan's network, so changing plans could mean changing cardiologists. Before recommending any plan, we verify your current cardiology team is in-network so you don't lose continuity of care.",
+  }
 ];
 
 export default function MedicareBrokerHeartDiseasePatients() {

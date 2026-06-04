@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare insurance agents in burlington new jersey | Free Local Help | MedicareYourself",
   description:
-    "Licensed Medicare broker serving Burlington, NJ. Compare Medigap, Advantage & Part D side-by-side at no cost. Call 855-559-1700 for free local guidance.",
+    "Talk to a licensed Medicare broker serving Burlington, NJ. Compare Medigap, Advantage & Part D at no cost. Call 855-559-1700 for free local guidance.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-insurance-agents-in-burlington-new-jersey" },
   openGraph: {
     title:
@@ -295,6 +295,22 @@ const faqs = [
     question: "What's the difference between Medigap and Medicare Advantage in Burlington, NJ?",
     answer:
       "Medigap (Medicare Supplement) works alongside Original Medicare and helps pay your share of costs like the Part A deductible and coinsurance, with broad access to any provider that accepts Medicare. Medicare Advantage replaces Original Medicare with a private plan that often bundles drug coverage and extras but uses a network of doctors and hospitals. The right choice depends on your providers, travel habits, and how you prefer to handle out-of-pocket costs.",
+  }
+,
+  {
+    question: "Can a Burlington, NJ Medicare broker help me compare Medigap and Medicare Advantage?",
+    answer:
+      "Yes. An independent broker can lay out Medigap and Medicare Advantage options side by side, explaining the differences in monthly premiums, out-of-pocket costs, provider networks, and prescription coverage. This makes it easier to choose based on your doctors, medications, and travel habits rather than guessing.",
+  },
+  {
+    question: "Does New Jersey have a Medigap Open Enrollment Period?",
+    answer:
+      "Yes. Your 6-month Medigap Open Enrollment Period begins the month you are 65 or older and enrolled in Part B. During that window, NJ insurers must sell you any Medigap plan they offer regardless of health history. New Jersey also uses community rating, which affects how Medigap premiums are calculated.",
+  },
+  {
+    question: "Do I need a local agent, or can I work with one remotely?",
+    answer:
+      "Either works. Many Burlington County residents prefer a New Jersey-licensed broker who understands the local hospital systems and carrier networks, but consultations can be done by phone, video, or in person depending on what's most convenient for you.",
   }
 ];
 

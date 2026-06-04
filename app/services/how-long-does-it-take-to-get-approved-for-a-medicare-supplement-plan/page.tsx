@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "how long does it take to get approved for a medicare supplement plan | Free Timeline Guide | MedicareYourself",
   description:
-    "How long does Medigap approval take? Most applications clear in 1–3 weeks, with guaranteed acceptance during open enrollment. Call 855-559-1700 to start today.",
+    "How long does Medicare Supplement approval take? Most Medigap applications clear in 1–3 weeks. Call 855-559-1700 for a free timeline review today.",
   alternates: { canonical: "https://medicareyourself.com/services/how-long-does-it-take-to-get-approved-for-a-medicare-supplement-plan" },
   openGraph: {
     title:
@@ -299,6 +299,7 @@ export default function HowLongMedigapApproval() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Need state-specific help? Contact the <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling in your state.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/division_consumers/insurance/ship.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </main>
   );

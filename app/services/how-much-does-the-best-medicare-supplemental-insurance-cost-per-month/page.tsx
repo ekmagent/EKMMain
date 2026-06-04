@@ -201,6 +201,12 @@ const faqs = [
     answer:
       "Yes. Medigap premiums vary widely by zip code because carriers factor in local medical costs, claims history, and state regulations. Two neighbors in different zip codes can pay noticeably different rates for the exact same Plan G or Plan N benefits. Call 855-559-1700 for a quote based on your specific location.",
   }
+,
+  {
+    question: "Does where I live affect my Medicare Supplement premium?",
+    answer:
+      "Yes. Insurance companies set Medigap rates by zip code because medical costs and claims experience vary by region. Two people the same age can pay very different premiums for the identical plan letter depending on their state and county. Call 855-559-1700 to compare local carrier rates for your area.",
+  }
 ];
 
 export default function HowMuchDoesBestMedicareSupplementalInsuranceCostPerMonth() {

@@ -193,6 +193,12 @@ const faqs = [
     answer:
       "New Jersey uses community rating for Medigap, meaning carriers cannot charge you more based on your age for the same plan. Your guaranteed-issue right to buy any Medigap plan without medical underwriting applies during your 6-month Medigap Open Enrollment Period, which starts the month you're 65 or older and enrolled in Part B. Outside that window, carriers may use medical underwriting unless you qualify for a specific guaranteed-issue situation under federal or state rules.",
   }
+,
+  {
+    question: "Does the page have FAQ schema markup for search engines?",
+    answer:
+      "Yes. This page includes FAQPage structured data so the questions and answers can appear as rich results in Google. If you have a question that isn't covered here, call 855-559-1700 to speak directly with Anthony Orner.",
+  }
 ];
 
 export default function MedicareInsuranceAgentsBloomfieldNJ() {
@@ -445,6 +451,7 @@ export default function MedicareInsuranceAgentsBloomfieldNJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> offers free, unbiased Medicare counseling to Bloomfield residents.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> offers free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </>
   );

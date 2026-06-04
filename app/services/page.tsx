@@ -806,6 +806,22 @@ const STATIC_CATEGORIES = [
     answer:
       "Anthony Orner (NPI 1902584006) is licensed in New Jersey and 34 additional states, offering Medigap, Medicare Advantage, and Part D plan reviews. Service is provided by phone, video, or in person in New Jersey. Call 855-559-1700 to confirm availability in your state.",
   }
+,
+  {
+    question: "What does an independent Medicare broker do?",
+    answer:
+      "An independent Medicare broker compares plans from multiple insurance carriers to help you find coverage that fits your health needs and budget. Brokers are licensed and appointed with several companies, so they aren't tied to a single insurer. There's no cost to you for using a broker — carriers pay a standardized commission. Call 855-559-1700 to speak with a licensed broker.",
+  },
+  {
+    question: "Can I get free Medicare help from the government?",
+    answer:
+      "Yes. You can call 1-800-MEDICARE (1-800-633-4227) 24 hours a day, 7 days a week, or visit Medicare.gov to compare plans. Each state also runs a State Health Insurance Assistance Program (SHIP) that offers free, unbiased counseling. A licensed broker can supplement this guidance with side-by-side carrier comparisons.",
+  },
+  {
+    question: "What's the difference between Medigap and Medicare Advantage?",
+    answer:
+      "Medigap (Medicare Supplement) works alongside Original Medicare to cover out-of-pocket costs like coinsurance and deductibles, and you can see any provider that accepts Medicare. Medicare Advantage (Part C) replaces Original Medicare with a private plan that typically uses provider networks and often includes Part D drug coverage. You can only have one or the other, not both.",
+  }
 ];
 
 export default function ServicesHubPage() {

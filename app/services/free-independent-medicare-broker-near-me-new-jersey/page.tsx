@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "free independent medicare broker near me new jersey | Free Quote | MedicareYourself",
   description:
-    "Work with a free independent Medicare broker in New Jersey. Anthony Orner compares Medigap & Advantage plans from top NJ carriers. Call 855-559-1700.",
+    "Free independent Medicare broker in NJ. Anthony Orner compares Medigap & Advantage plans from top carriers at no cost. Call 855-559-1700 for a free quote.",
   alternates: { canonical: "https://medicareyourself.com/services/free-independent-medicare-broker-near-me-new-jersey" },
   openGraph: {
     title:
@@ -187,6 +187,22 @@ const faqs = [
     question: "What does a free independent Medicare broker actually do for me?",
     answer:
       "An independent broker reviews your doctors, prescriptions, and budget, then compares Medigap and Medicare Advantage plans from multiple carriers licensed in New Jersey. There is no cost to you because carriers pay the broker the same standardized commission regardless of which plan you choose. Call 855-559-1700 to compare your options with Anthony Orner.",
+  }
+,
+  {
+    question: "Does New Jersey use community rating for Medigap?",
+    answer:
+      "Yes. New Jersey requires community-rated pricing for Medigap plans, meaning premiums are not based on your individual age. Everyone enrolled in the same plan with the same carrier pays the same base rate, though premiums can still vary between insurance companies.",
+  },
+  {
+    question: "When can I enroll in a Medigap plan in New Jersey?",
+    answer:
+      "Your Medigap Open Enrollment Period is the 6-month window that begins when you are both age 65 or older and enrolled in Medicare Part B. During this window you have guaranteed issue rights and cannot be denied coverage based on health. Outside this window, acceptance may depend on medical underwriting unless you qualify for another guaranteed issue situation.",
+  },
+  {
+    question: "How many carriers does an independent NJ Medicare broker compare?",
+    answer:
+      "An independent broker is appointed with multiple insurance companies and can compare Medigap, Medicare Advantage, and Part D options across them. Anthony Orner reviews plans from the major carriers operating in New Jersey so you can see the differences in premium, network, and benefits side by side before making a decision.",
   }
 ];
 
@@ -383,6 +399,7 @@ export default function FreeIndependentMedicareBrokerNearMeNewJersey() {
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-700 underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
             <div className="text-sm text-gray-600 mt-4">New Jersey resources: <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> · <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
             <div className="text-sm text-gray-600 mt-4">New Jersey resources: <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank">NJ Department of Banking and Insurance</a> and <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
       </section>
     </main>
   );

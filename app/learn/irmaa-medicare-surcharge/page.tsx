@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
   description:
-    "Understand Medicare's 2026 IRMAA income surcharge, who pays it, and how to appeal with SSA-44 if your income dropped. Free broker help: 855-559-1700.",
+    "Learn how Medicare's 2026 IRMAA surcharge works, who pays it, and how to appeal with SSA-44 if income dropped. Free broker guidance: 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/irmaa-medicare-surcharge` },
   openGraph: {
     title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
@@ -736,6 +736,22 @@ const faqs = [
     question: "Can a Medicare broker help me plan around IRMAA?",
     answer:
       "A licensed broker can't change your tax return, but we can help you understand how your plan choices and income decisions affect your total Medicare costs. If you'd like a free review of your situation, call 855-559-1700 to speak with Anthony Orner.",
+  }
+,
+  {
+    question: "How do I appeal an IRMAA determination if my income has dropped?",
+    answer:
+      "If you've had a life-changing event that reduced your income, you can file Form SSA-44 with the Social Security Administration to request a reduction. Qualifying events include retirement, work stoppage or reduction, marriage, divorce, death of a spouse, loss of pension, or loss of income-producing property. You'll need to provide documentation of the event and your estimated new income. SSA reviews the request and can adjust your IRMAA going forward.",
+  },
+  {
+    question: "Will IRMAA last forever once I start paying it?",
+    answer:
+      "No. IRMAA is recalculated each year based on your tax return from two years prior. If your income drops below the threshold in a later year, your IRMAA surcharge will go away automatically once SSA processes that year's tax data. You don't need to reapply unless you want to use SSA-44 to request an earlier adjustment based on a life-changing event.",
+  },
+  {
+    question: "Can a Medicare broker help me understand IRMAA?",
+    answer:
+      "Yes. While brokers cannot file your SSA-44 appeal for you, we can explain how IRMAA interacts with your Part B and Part D premiums and help you plan coverage around it. Call 855-559-1700 to speak with a licensed broker about your situation at no cost.",
   }
 ];
 

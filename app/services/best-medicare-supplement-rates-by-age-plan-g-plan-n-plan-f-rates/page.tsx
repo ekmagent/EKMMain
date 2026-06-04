@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Best Medicare Supplement Rates by Age (Plan G, Plan N, & Plan F Rates) | Free Quote | MedicareYourself",
   description:
-    "Compare Medicare Supplement rates by age for Plan G, Plan N & Plan F. Lock in your lowest premium — call 855-559-1700 for a free side-by-side quote today.",
+    "Compare Medicare Supplement rates by age for Plan G, Plan N & Plan F. Lock in your lowest premium today — call 855-559-1700 for a free side-by-side quote.",
   alternates: { canonical: "https://medicareyourself.com/services/best-medicare-supplement-rates-by-age-plan-g-plan-n-plan-f-rates" },
   openGraph: {
     title:
@@ -165,6 +165,22 @@ const faqs = [
     question: "Do Medicare Supplement rates depend on whether I smoke or my health?",
     answer:
       "During your Medigap Open Enrollment Period, carriers cannot use your health to deny you or charge more, though most still apply a tobacco rating. Outside that window, in states that allow underwriting, both health conditions and tobacco use can significantly affect your premium or eligibility.",
+  }
+,
+  {
+    question: "Can I switch from Plan F to Plan G later to save money?",
+    answer:
+      "Yes, but in most states you'll need to pass medical underwriting to switch carriers or plans outside of your Medigap Open Enrollment Period. If you're healthy, switching from Plan F to Plan G often reduces your premium. Call 855-559-1700 and we'll run a free comparison to see if switching makes sense for you.",
+  },
+  {
+    question: "What's the difference between Plan G and Plan N at the same age?",
+    answer:
+      "Plan N typically has a lower monthly premium than Plan G, but you'll pay small copays for office and ER visits and you're responsible for Part B excess charges. Plan G has no copays and covers Part B excess charges in full. Which is cheaper overall depends on how often you use care.",
+  },
+  {
+    question: "Is Plan F still available for new Medicare enrollees?",
+    answer:
+      "Plan F is only available if you were eligible for Medicare before January 1, 2020. If you became Medicare-eligible on or after that date, Plan G is the closest equivalent and is generally the most popular choice for new enrollees seeking comprehensive coverage.",
   }
 ];
 
@@ -451,6 +467,7 @@ export default function BestMedicareSupplementRatesByAge() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify carriers and rates through the <a href="https://www.state.nj.us/dobi/index.shtml" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify carrier rate filings and consumer protections through the <a href="https://www.nj.gov/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a> or get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </main>
   );

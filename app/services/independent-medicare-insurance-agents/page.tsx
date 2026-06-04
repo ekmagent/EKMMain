@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "independent medicare insurance agents | Free Plan Comparison | MedicareYourself",
   description:
-    "Independent Medicare insurance agents compare plans from multiple carriers at no cost to you. Call Anthony Orner at 855-559-1700 for unbiased help today.",
+    "Independent Medicare agents compare plans from multiple carriers at no cost to you. Call Anthony Orner at 855-559-1700 for unbiased side-by-side help.",
   alternates: { canonical: "https://medicareyourself.com/services/independent-medicare-insurance-agents" },
   openGraph: {
     title:
@@ -345,6 +345,7 @@ export default function IndependentMedicareInsuranceAgentsPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify any agent's license through the <a href="https://www.state.nj.us/dobi/insurance.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can confirm an agent's license or get free counseling through the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or the <a href="https://www.nj.gov/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify a producer's license through the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">Verify any agent's license through your state insurance department, or get free unbiased counseling from <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">your local SHIP program</a>. New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a>.</div>
       </section>
     </>
   );

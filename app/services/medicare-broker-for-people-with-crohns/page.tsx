@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare broker for people with crohns | No-Cost Plan Help | MedicareYourself",
   description:
-    "Medicare broker for people with Crohn's disease. Compare plans that cover biologics, infusions, and GI specialists at no cost. Call 855-559-1700 today.",
+    "Medicare broker for people with Crohn's. Compare plans covering biologics, infusions & GI specialists at no cost to you. Call 855-559-1700 for free help.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-people-with-crohns" },
   openGraph: {
     title:
@@ -126,6 +126,22 @@ const faqs = [
     question: "Are infusions for Crohn's covered under Part B or Part D?",
     answer:
       "It depends on where and how the drug is administered. Infusions given in a doctor's office or outpatient setting are usually billed under Part B, while self-administered or pharmacy-dispensed drugs typically fall under Part D. Knowing which part covers your treatment is critical when comparing plans, and a broker can help map this out.",
+  }
+,
+  {
+    question: "Should I choose Medicare Advantage or Original Medicare with a Supplement if I have Crohn's?",
+    answer:
+      "It depends on your providers and medications. Original Medicare paired with a Medigap plan offers the most flexibility — you can see any gastroenterologist or specialist nationwide who accepts Medicare, with no referrals or network limits. Medicare Advantage plans may have lower premiums but use networks and prior authorization for biologics and infusions. A broker can weigh both based on your GI team and drug list.",
+  },
+  {
+    question: "Are Crohn's-related infusions covered under Medicare Part B or Part D?",
+    answer:
+      "It depends on the drug and how it's administered. Infusions given in a doctor's office or infusion center, like Remicade or Entyvio, are typically covered under Part B as a medical benefit. Self-injected biologics you administer at home usually fall under Part D. This distinction matters because Part B and Part D have different cost-sharing structures.",
+  },
+  {
+    question: "Can I switch Medicare plans if my Crohn's medication isn't covered well?",
+    answer:
+      "Yes, during the Annual Enrollment Period each fall (October 15 to December 7), you can change Part D or Medicare Advantage plans for the following year. There's also a Medicare Advantage Open Enrollment Period from January 1 to March 31. If you qualify for Extra Help or have a Special Enrollment Period trigger, you may be able to switch outside those windows.",
   }
 ];
 

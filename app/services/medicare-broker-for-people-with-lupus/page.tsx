@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare broker for people with lupus | Free Coverage Guidance | MedicareYourself",
   description:
-    "Living with lupus? Broker Anthony Orner compares Medigap, Advantage & Part D plans for autoimmune and infusion care. Call 855-559-1700 for free guidance.",
+    "Living with lupus? Broker Anthony Orner compares Medigap, Advantage & Part D plans for rheumatology and infusion care. Call 855-559-1700 for free guidance.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-people-with-lupus" },
   openGraph: {
     title:
@@ -107,6 +107,17 @@ const faqs = [
     question: "Can I switch Medicare plans if my lupus treatment changes?",
     answer:
       "Yes. During the Annual Enrollment Period from October 15 to December 7, you can change your Medicare Advantage or Part D plan to better match your treatment. Switching to a Medigap plan outside your initial open enrollment may require medical underwriting, so it helps to review your options with a broker before making changes.",
+  }
+,
+  {
+    question: "Are lupus medications covered under Part B or Part D?",
+    answer:
+      "It depends on how the drug is administered. Infusion biologics given in a clinic or doctor's office are usually billed under Part B, while oral medications like hydroxychloroquine fall under Part D prescription drug plans. Choosing a Part D plan that includes your specific lupus medications on its formulary is essential to managing out-of-pocket costs.",
+  },
+  {
+    question: "Should lupus patients choose Medigap or Medicare Advantage?",
+    answer:
+      "It depends on your providers, medications, and budget. Medigap plans paired with Original Medicare offer broad provider access and predictable cost-sharing, which can benefit lupus patients who see specialists and need infusions. Medicare Advantage plans may have lower premiums but use networks and prior authorization, which can affect access to rheumatologists and biologics.",
   }
 ];
 
@@ -344,6 +355,7 @@ export default function MedicareBrokerForPeopleWithLupus() {
             <div className="text-sm text-gray-600 mt-4">Need free local counseling? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank">State Health Insurance Assistance Program (SHIP)</a> for unbiased Medicare help in your state.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">For free local Medicare counseling, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a> or the <a href="https://www.nj.gov/dobi/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a>.</div>
       </section>
       </article>
     </>

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare broker for people with pre-existing conditions | Free Guidance | MedicareYourself",
   description:
-    "Pre-existing condition? A licensed Medicare broker helps you find lenient carriers and guaranteed issue rights. Free guidance — call 855-559-1700.",
+    "Pre-existing condition and need Medicare? A licensed broker helps you find lenient carriers and guaranteed issue rights — free guidance. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-people-with-pre-existing-conditions" },
   openGraph: {
     title:
@@ -198,6 +198,22 @@ const faqs = [
     question: "Do I need to disclose my pre-existing conditions to a Medicare broker?",
     answer:
       "It helps. Sharing your health history lets the broker steer you toward carriers and plan types most likely to approve you and cover your needs. Brokers are required to keep your information confidential, and the conversation itself does not trigger any application or underwriting review.",
+  }
+,
+  {
+    question: "Which pre-existing conditions are hardest to get approved for outside Medigap Open Enrollment?",
+    answer:
+      "Conditions that commonly trigger underwriting denials include recent cancer treatment, congestive heart failure, COPD requiring oxygen, kidney disease requiring dialysis, and recent stroke. Each carrier maintains its own underwriting guidelines, so a condition declined by one company may be accepted by another. A broker who works with multiple carriers can match your specific health history to a company likely to approve you.",
+  },
+  {
+    question: "Can a Medigap plan impose a waiting period for my pre-existing condition?",
+    answer:
+      "Yes. Even when you enroll during your Medigap Open Enrollment Period, a carrier can impose a pre-existing condition waiting period of up to 6 months if you did not have prior creditable coverage. If you had at least 6 months of continuous creditable coverage before enrolling, the waiting period is waived. Original Medicare still covers the condition during any Medigap waiting period.",
+  },
+  {
+    question: "Does end-stage renal disease (ESRD) affect my Medicare plan options?",
+    answer:
+      "As of 2021, people with ESRD can enroll in Medicare Advantage plans, which was previously restricted. ESRD does not affect eligibility for Original Medicare or Part D. Medigap availability for ESRD beneficiaries varies by state, and a broker can confirm which supplement options are available where you live.",
   }
 ];
 
@@ -399,6 +415,7 @@ export default function MedicareBrokerPreExistingConditions() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free unbiased Medicare counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </main>
   );

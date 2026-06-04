@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title:
     "How to Enroll in Medicare Online at SSA.gov (Step-by-Step Walkthrough)",
   description:
-    "Step-by-step SSA.gov Medicare enrollment walkthrough — apply online in about 10 minutes. Call 855-559-1700 for free broker help with your Part B decision.",
+    "Step-by-step SSA.gov Medicare enrollment walkthrough — apply online in about 10 minutes. Call 855-559-1700 for free help deciding on Part B.",
   alternates: {
     canonical: `${SITE_URL}/learn/ssa-online-enrollment-walkthrough`,
   },
@@ -864,6 +864,22 @@ const steps = [
     question: "Can I change my answers after I submit the SSA Medicare application?",
     answer:
       "No. Once you click Submit Now and agree to the Electronic Signature Agreement, you cannot modify the application online. If you need to correct information or change your Part B election, you'll need to contact Social Security directly to fix it.",
+  }
+,
+  {
+    question: "Do I sign up for Medicare through Medicare.gov or SSA.gov?",
+    answer:
+      "Even though Medicare benefits are administered by CMS, you enroll in Part A and Part B through the Social Security Administration at SSA.gov. Medicare.gov directs you to Social Security for the actual sign-up. You can apply online, by phone, or at a local Social Security office.",
+  },
+  {
+    question: "What documents do I need before starting the SSA online application?",
+    answer:
+      "You'll need your Social Security number, a valid driver's license or state ID for identity verification through Login.gov or ID.me, and details about any current health coverage. If you have employer group health insurance, have the employer name, address, and coverage start date ready.",
+  },
+  {
+    question: "Can I change my application after submitting it on SSA.gov?",
+    answer:
+      "No. Once you click Submit Now and agree to the Electronic Signature Agreement, you cannot modify the application online. If you need to make changes, you'll have to contact Social Security directly by phone or visit a local office.",
   }
 ];
 
