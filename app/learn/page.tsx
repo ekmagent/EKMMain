@@ -209,6 +209,12 @@ const GUIDES = [
     answer:
       "Medicare.gov has a dedicated section on reporting fraud and abuse, including how to protect your Medicare Number and spot common scams. Never share your Medicare Number with unsolicited callers. If you suspect fraud, you can report it through the official Medicare fraud reporting channels.",
   }
+,
+  {
+    question: "Can I get free one-on-one Medicare counseling from a non-broker source?",
+    answer:
+      "Yes. Every state has a State Health Insurance Assistance Program (SHIP) that offers free, unbiased Medicare counseling to beneficiaries and their families. SHIP counselors can answer questions about enrollment, coverage choices, and assistance programs. You can also call 855-559-1700 if you'd like to speak with a licensed broker.",
+  }
 ];
 
 export default function LearnHubPage() {

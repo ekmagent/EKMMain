@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Plan G Rates by Age in New Jersey | 2026 Costs | MedicareYourself",
   description:
-    "Compare 2026 Plan G rates by age in New Jersey. Broker Anthony Orner shops top NJ Medigap carriers to find your lowest premium — call 855-559-1700 today.",
+    "Compare 2026 Plan G rates by age in New Jersey. Broker Anthony Orner shops top NJ Medigap carriers to find your lowest premium. Call 855-559-1700 for a free quote.",
   alternates: { canonical: `${SITE_URL}/services/plan-g-rates-by-age-new-jersey` },
   openGraph: {
     title: "Plan G Rates by Age in New Jersey | 2026 Costs | MedicareYourself",
@@ -147,6 +147,17 @@ const faqs = [
     question: "Where can I find an official NJ Plan G rate comparison chart?",
     answer:
       "The New Jersey Department of Human Services, Division of Aging Services, publishes annual Medigap rate charts comparing Plan G and other plans by age and carrier. These charts are available through the NJ SHIP program. Anthony Orner can walk you through the current chart and identify the most competitive carrier for your county — call 855-559-1700.",
+  }
+,
+  {
+    question: "What is the Medigap Open Enrollment Period in New Jersey?",
+    answer:
+      "Your Medigap Open Enrollment Period is a one-time 6-month window that starts the month you are 65 or older and enrolled in Medicare Part B. During this window, NJ carriers must sell you any Plan G policy they offer at their best available rate, regardless of your health history. Missing this window means future applications may require medical underwriting.",
+  },
+  {
+    question: "How does Anthony Orner help me find the lowest Plan G rate in NJ?",
+    answer:
+      "As an independent broker licensed in New Jersey, Anthony Orner compares Plan G rates across multiple top-rated NJ Medigap carriers for your exact age and ZIP code. Because Plan G benefits are standardized by federal law, the only real difference between carriers is price and rate-increase history. Call 855-559-1700 for a no-cost comparison.",
   }
 ];
 

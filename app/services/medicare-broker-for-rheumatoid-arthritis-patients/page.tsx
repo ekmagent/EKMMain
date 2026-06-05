@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for rheumatoid arthritis patients | Free Plan Comparison | MedicareYourself",
   description:
-    "Compare Medicare plans covering RA biologics, infusions & rheumatology visits. Broker Anthony Orner reviews your options free — call 855-559-1700 today.",
+    "Compare Medicare plans that cover RA biologics, infusions and rheumatology visits. Broker Anthony Orner reviews your options free — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-rheumatoid-arthritis-patients" },
   openGraph: {
     title:
@@ -368,6 +368,7 @@ export default function MedicareBrokerForRheumatoidArthritisPatients() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Need one-on-one help in your state? Contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">NJ residents can also get free unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

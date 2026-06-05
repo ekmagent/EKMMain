@@ -374,6 +374,12 @@ const faqs = [
     answer:
       "With Original Medicare and a Medigap supplement, you can see any cardiologist or hospital nationwide that accepts Medicare. With Medicare Advantage, you're limited to the plan's network, so changing plans could mean changing cardiologists. Before recommending any plan, we verify your current cardiology team is in-network so you don't lose continuity of care.",
   }
+,
+  {
+    question: "Will Medicare cover my heart medications?",
+    answer:
+      "Medicare Part D plans cover prescription drugs, but each plan has its own formulary that determines which heart medications are included and at what tier. Common cardiac drugs like statins, beta blockers, ACE inhibitors, and anticoagulants are typically covered, though costs vary by plan. A broker can compare formularies to find the plan that covers your specific medications at the lowest total cost.",
+  }
 ];
 
 export default function MedicareBrokerHeartDiseasePatients() {

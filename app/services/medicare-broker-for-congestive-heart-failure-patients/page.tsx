@@ -315,6 +315,12 @@ const faqs = [
     answer:
       "Yes. Medicare Part D prescription drug plans cover most heart failure medications, including ACE inhibitors, beta blockers, diuretics, and SGLT2 inhibitors. Coverage and copays vary by plan formulary, so it's important to compare plans based on your specific medication list. Anthony can run a personalized drug comparison to find the lowest total cost plan.",
   }
+,
+  {
+    question: "Does Medicare cover heart failure medications like Entresto or beta-blockers?",
+    answer:
+      "Most heart failure medications are covered under Medicare Part D prescription drug plans, but coverage and tier placement vary by plan formulary. Some brand-name drugs like Entresto may sit on higher tiers with larger copays. Anthony can compare formularies side-by-side to find the plan that covers your specific medications at the lowest cost.",
+  }
 ];
 
 export default function MedicareBrokerCHFPage() {

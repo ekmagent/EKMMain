@@ -9,7 +9,7 @@ import { MF } from "@/lib/medicare-figures";
 export const metadata: Metadata = {
   title: "How to Enroll in a Medicare Supplement Plan (2026): The 5-Step Guide",
   description:
-    "Enroll in a Medicare Supplement plan in 5 steps and lock in your 6-month guaranteed-issue window. Call 855-559-1700 to compare every carrier free.",
+    "Enroll in a Medicare Supplement plan in 5 steps and lock in your 6-month guaranteed-issue window. Call 855-559-1700 to compare every carrier for free.",
   alternates: { canonical: `${SITE_URL}/learn/how-to-enroll-in-a-medicare-supplement-plan` },
   openGraph: {
     title: "How to Enroll in a Medicare Supplement Plan (2026): The 5-Step Guide",
@@ -710,6 +710,22 @@ const faqs = [
     question: "How long does it take for a Medicare Supplement application to be approved?",
     answer:
       "During your Medigap Open Enrollment Period, applications are typically approved within a few business days because no medical underwriting is required. Outside that window, underwritten applications can take two to four weeks while the carrier reviews your health history and prescription records.",
+  }
+,
+  {
+    question: "Can I be denied a Medicare Supplement plan because of my health?",
+    answer:
+      "During your 6-month Medigap Open Enrollment Period, no carrier can deny you coverage or charge you more based on pre-existing conditions. Outside of that window, most states allow carriers to use medical underwriting, which means they can deny your application or charge higher premiums based on your health history. A few states have additional guaranteed-issue protections beyond the federal window.",
+  },
+  {
+    question: "Do I need to re-enroll in my Medigap plan every year?",
+    answer:
+      "No. Unlike Medicare Advantage and Part D drug plans, Medicare Supplement policies are guaranteed renewable for life as long as you pay your premium. You do not need to reapply during the annual Medicare Open Enrollment Period, and your carrier cannot drop you because of changes in your health.",
+  },
+  {
+    question: "Can I switch Medigap plans after my Open Enrollment Period ends?",
+    answer:
+      "Yes, you can apply to switch Medigap plans at any time, but outside of guaranteed-issue situations the new carrier can require medical underwriting. That means they can review your health history and either decline your application or charge a higher premium. Some states offer expanded switching rights, so it is worth checking your state's specific rules before applying.",
   }
 ];
 

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "average cost of supplemental health insurance for seniors with medicare | Free Broker Comparison | MedicareYourself",
   description:
-    "Compare 2026 Medigap supplemental insurance costs by carrier, age, and state. Call 855-559-1700 for a free licensed broker rate comparison.",
+    "Compare 2026 Medigap supplemental insurance costs by carrier, age, and state. Call 855-559-1700 for a free licensed broker rate comparison and save monthly.",
   alternates: { canonical: "https://medicareyourself.com/services/average-cost-of-supplemental-health-insurance-for-seniors-with-medicare" },
   openGraph: {
     title:
@@ -553,6 +553,12 @@ const faqs = [
     answer:
       "Yes. Premiums can increase due to inflation, claims experience, or your age depending on the pricing method used by the carrier. Community-rated plans don't raise rates based on your age, while attained-age-rated plans typically increase as you grow older.",
   }
+,
+  {
+    question: "How do insurance companies set Medigap premiums?",
+    answer:
+      "Medigap carriers use one of three pricing methods: community-rated (same price regardless of age), issue-age-rated (based on the age you buy the policy), or attained-age-rated (premium rises as you get older). Each method affects how much you pay today and how rates change in the future. According to Medicare.gov, the benefits in each lettered plan are identical no matter which company sells it — only the price differs.",
+  }
 ];
 
 export default function AverageCostSupplementalInsurancePage() {
@@ -778,6 +784,7 @@ export default function AverageCostSupplementalInsurancePage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify rates and file complaints with the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a> or get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can compare rates and file complaints through the <a href="https://www.nj.gov/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank">NJ Department of Banking and Insurance</a> or get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank">NJ SHIP</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a> or contact the <a href="https://www.nj.gov/dobi/division_insurance/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents: contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </main>
   );

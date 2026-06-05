@@ -8,7 +8,7 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 export const metadata: Metadata = {
   title: "US Medicare Brokers | Free Unbiased Help | MedicareYourself",
   description:
-    "US Medicare brokers compare Supplement & Advantage plans across top carriers at no cost. Get unbiased guidance from Anthony Orner — call 855-559-1700.",
+    "Compare Medicare Supplement, Advantage & Part D plans across top carriers with a licensed US Medicare broker at no cost. Call 855-559-1700 for free unbiased help.",
   alternates: { canonical: "https://medicareyourself.com/services/us-medicare-brokers" },
   openGraph: {
     title: "US Medicare Brokers | Free Unbiased Help | MedicareYourself",
@@ -99,6 +99,17 @@ const faqs = [
     question: "Will a Medicare broker review my current plan each year?",
     answer:
       "A good broker will reach out before the Annual Enrollment Period to review your prescriptions, doctors, and plan changes for the coming year. This yearly check-in helps catch formulary changes, premium increases, or new plan options that may fit you better. There is no cost or obligation to switch after the review.",
+  }
+,
+  {
+    question: "What should I ask a US Medicare broker before working with them?",
+    answer:
+      "Ask which carriers they are appointed with, how many Medicare Supplement and Advantage plans they can compare in your ZIP code, and whether they offer ongoing service after enrollment. A reputable broker will share their National Producer Number and explain that their compensation comes from the carrier, not from you. You can also confirm their license status through your state Department of Insurance.",
+  },
+  {
+    question: "Can a US Medicare broker help with both Medicare Supplement and Medicare Advantage?",
+    answer:
+      "Yes. Independent brokers like Anthony Orner are typically contracted to sell Medicare Supplement (Medigap), Medicare Advantage, and standalone Part D prescription drug plans. That lets them compare the total cost and coverage of each path side by side instead of steering you toward a single product line.",
   }
 ];
 

@@ -134,6 +134,17 @@ const faqs = [
     answer:
       "Yes. Plan G benefits are standardized by federal law, so the coverage is identical from carrier to carrier and state to state, with the exception of Massachusetts, Minnesota, and Wisconsin which standardize Medigap differently. What varies is the monthly premium, customer service, and how each carrier handles future rate increases.",
   }
+,
+  {
+    question: "Can I switch from Medicare Advantage to Plan G at 70?",
+    answer:
+      "Yes, but in most states you'll need to pass medical underwriting unless you qualify for a federal Guaranteed Issue right, such as a trial right within your first year on Medicare Advantage. Some states offer additional protections beyond federal rules. A licensed broker can review your situation and identify carriers most likely to approve your application.",
+  },
+  {
+    question: "What documents do I need to enroll in Plan G at 70?",
+    answer:
+      "You'll need your Medicare card showing your Part A and Part B effective dates, a valid ID, and basic health history for the underwriting questions. Some carriers also pull a prescription history report. The application itself usually takes about 20 minutes when working with a broker.",
+  }
 ];
 
 export default function EnrollInMedicareSupplementPlanGAt70() {

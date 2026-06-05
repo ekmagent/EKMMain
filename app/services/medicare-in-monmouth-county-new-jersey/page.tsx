@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare in monmouth county new jersey | Free Local Broker Quotes | MedicareYourself",
   description:
-    "Compare Medicare Advantage, Medigap & Part D plans in Monmouth County, NJ with a licensed local broker. Free zip-code review — call 855-559-1700 today.",
+    "Compare Medicare Advantage, Medigap & Part D plans in Monmouth County, NJ with licensed local broker Anthony Orner. Free zip-code review — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-in-monmouth-county-new-jersey" },
   openGraph: {
     title:
@@ -112,6 +112,17 @@ const faqs = [
     question: "How does Medigap pricing work for Monmouth County residents?",
     answer:
       "New Jersey uses community rating for Medicare Supplement plans, which means carriers generally charge the same premium for a given Medigap plan regardless of your age. Your best window to enroll without medical underwriting is your 6-month Medigap Open Enrollment Period, which begins when you are 65 and enrolled in Part B. A licensed broker can compare community-rated Medigap premiums across carriers in your zip code.",
+  }
+,
+  {
+    question: "How does New Jersey's community rating affect Medigap costs in Monmouth County?",
+    answer:
+      "New Jersey requires Medigap insurers to use community rating, meaning all enrollees in the same plan from the same carrier pay the same base premium regardless of age. This can make Medigap more predictable as you age compared to attained-age states. However, premiums still vary between carriers, so comparing quotes in Monmouth County is important.",
+  },
+  {
+    question: "Can I switch Medigap plans in New Jersey after my Open Enrollment Period?",
+    answer:
+      "Outside your 6-month Medigap Open Enrollment Period, switching plans in New Jersey generally requires medical underwriting, and carriers can decline coverage or charge more based on health. Certain guaranteed-issue situations apply, such as losing employer coverage. A licensed broker can review whether you qualify for a guaranteed-issue right.",
   }
 ];
 

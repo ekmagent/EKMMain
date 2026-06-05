@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Enroll in Plan G Online | Fast, Free, Broker-Assisted | MedicareYourself",
   description:
-    "Enroll in Medicare Plan G online with a licensed broker comparing top carriers — apply from home in minutes. Call 855-559-1700 for free, no-obligation help.",
+    "Enroll in Medicare Plan G online with a licensed broker comparing top carriers. Apply from home in minutes — call 855-559-1700 for free, no-obligation help.",
   alternates: { canonical: "https://medicareyourself.com/services/enroll-in-plan-g-online" },
   openGraph: {
     title:

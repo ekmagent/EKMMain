@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for asthma sufferers | Free Inhaler Coverage Check | MedicareYourself",
   description:
-    "Medicare broker for asthma sufferers. Anthony Orner compares Part D formularies so your inhalers cost less. Free plan review — call 855-559-1700 today.",
+    "Medicare broker for asthma sufferers — Anthony Orner compares Part D formularies so inhalers and nebulizer meds cost less. Free plan review: 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-asthma-sufferers" },
   openGraph: {
     title:
@@ -332,6 +332,7 @@ export default function MedicareBrokerForAsthmaSufferers() {
 </ul>
               <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/drug-coverage-part-d" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Drug Coverage (Part D)</a> and <a href="https://www.medicare.gov/plan-compare/" rel="noopener noreferrer" target="_blank" className="underline">Medicare Plan Finder</a> to compare formularies for your inhalers.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

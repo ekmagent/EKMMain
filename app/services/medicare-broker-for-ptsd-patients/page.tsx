@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for PTSD patients | Free Mental Health Plan Review | MedicareYourself",
   description:
-    "Medicare broker for PTSD patients — compare NJ plans covering trauma therapy, EMDR, psychiatric meds & telehealth. Free help from Anthony Orner. Call 855-559-1700.",
+    "Medicare broker for PTSD patients — compare NJ plans covering trauma therapy, EMDR & psychiatric meds. Free help from Anthony Orner. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-ptsd-patients" },
   openGraph: {
     title:

@@ -287,6 +287,12 @@ const faqs = [
     answer:
       "Yes. Medicare Part D plans cover insulin, and under the Inflation Reduction Act, there is a monthly cap on what you pay for a covered insulin product. Coverage details and formularies vary by plan, so it's important to confirm your specific insulin is on the plan's drug list before enrolling. Call 855-559-1700 for help comparing Part D plans that cover your insulin.",
   }
+,
+  {
+    question: "Does Medicare cover the Diabetes Prevention Program?",
+    answer:
+      "Yes. Medicare Part B covers the Medicare Diabetes Prevention Program (MDPP) for eligible beneficiaries at risk of type 2 diabetes. The program provides training on diet and exercise changes designed to last, and there is no cost-sharing if you qualify. You can find an in-person or online program through Medicare.gov.",
+  }
 ];
 
 export default function MedicareEnrollmentHelpDiabetes() {

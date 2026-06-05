@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare agent for someone with pre existing conditions california | Free Help | MedicareYourself",
   description:
-    "California Medicare help for pre-existing conditions — Medigap timing, guaranteed-issue rights & free licensed broker support. Call 855-559-1700 today.",
+    "California Medicare help for pre-existing conditions — understand Medigap timing, the birthday rule & guaranteed-issue rights. Call 855-559-1700 free.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-agent-for-someone-with-pre-existing-conditions-california" },
   openGraph: {
     title:
@@ -191,6 +191,22 @@ const faqs = [
     question: "What should I do if I missed my Medigap Open Enrollment window in California?",
     answer:
       "First, check whether you qualify for a guaranteed-issue right tied to a triggering event, such as losing employer coverage or a plan leaving the area. If not, a licensed broker can help you compare carriers that may still accept you through underwriting or identify other pathways like the California Birthday Rule to switch Medigap plans without health questions.",
+  }
+,
+  {
+    question: "Does California have a Medigap birthday rule that helps people with pre-existing conditions?",
+    answer:
+      "Yes. California's Medigap birthday rule allows existing Medigap enrollees to switch to another Medigap plan with equal or lesser benefits each year around their birthday without going through medical underwriting. This is especially valuable if you developed a chronic condition after your initial enrollment and would otherwise face underwriting. The window is time-limited, so plan your switch in advance.",
+  },
+  {
+    question: "Can a Medicare Advantage plan deny me in California because of a pre-existing condition?",
+    answer:
+      "No. Medicare Advantage plans cannot deny enrollment based on health status, with the historical exception involving End-Stage Renal Disease, which was eliminated starting in 2021. As long as you have Medicare Parts A and B, live in the plan's service area, and enroll during a valid election period, you can join regardless of pre-existing conditions.",
+  },
+  {
+    question: "Should I choose a Medigap or Medicare Advantage plan in California if I have a chronic condition?",
+    answer:
+      "It depends on how often you see specialists, whether your providers are in-network, and your preference for predictable costs versus extra benefits. Medigap offers broader provider access and predictable out-of-pocket costs, while Medicare Advantage may bundle drug, dental, and vision coverage with networks. A licensed broker can compare both based on your doctors and medications at no cost — call 855-559-1700.",
   }
 ];
 
@@ -400,6 +416,7 @@ export default function MedicareAgentPreExistingConditionsCA() {
             <div className="text-sm text-gray-600 mt-4">California residents can get free, unbiased counseling through <a href="https://www.aging.ca.gov/HICAP/" rel="noopener noreferrer" target="_blank">HICAP (California's SHIP program)</a> or contact the <a href="https://www.insurance.ca.gov/" rel="noopener noreferrer" target="_blank">California Department of Insurance</a>.</div>
             <div className="text-sm text-gray-600 mt-4">California residents can also contact the <a href="https://www.insurance.ca.gov/01-consumers/105-type/95-guides/05-health/medicare.cfm" rel="noopener noreferrer" target="_blank" className="underline">California Department of Insurance — Medicare resources</a> or the free <a href="https://www.aging.ca.gov/HICAP/" rel="noopener noreferrer" target="_blank" className="underline">California HICAP (SHIP) counseling program</a>.</div>
             <div className="text-sm text-gray-600 mt-4">California residents can also get free counseling from <a href="https://www.aging.ca.gov/HICAP/" rel="noopener noreferrer" target="_blank" className="underline">HICAP (California's SHIP)</a> or check carrier complaints with the <a href="https://www.insurance.ca.gov/" rel="noopener noreferrer" target="_blank" className="underline">California Department of Insurance</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">California consumers: review the <a href="https://www.insurance.ca.gov/01-consumers/105-type/95-guides/05-health/03-medsup/list-of-companies.cfm" rel="noopener noreferrer" target="_blank" className="underline">California Department of Insurance list of Medicare Supplement companies</a>.</div>
       </section>
       </article>
     </>

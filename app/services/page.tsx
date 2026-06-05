@@ -822,6 +822,22 @@ const STATIC_CATEGORIES = [
     answer:
       "Medigap (Medicare Supplement) works alongside Original Medicare to cover out-of-pocket costs like coinsurance and deductibles, and you can see any provider that accepts Medicare. Medicare Advantage (Part C) replaces Original Medicare with a private plan that typically uses provider networks and often includes Part D drug coverage. You can only have one or the other, not both.",
   }
+,
+  {
+    question: "What does a licensed Medicare broker do?",
+    answer:
+      "A licensed Medicare broker compares plans from multiple insurance carriers and helps you choose Medigap, Medicare Advantage, or Part D coverage that fits your health needs and budget. Brokers are paid by the insurance company, so their help is free to you. You can also call 1-800-MEDICARE or visit Medicare.gov for official guidance.",
+  },
+  {
+    question: "Is there a cost to use MedicareYourself for plan comparisons?",
+    answer:
+      "No. There is no cost to you for comparing plans or enrolling through a licensed independent broker. Carriers compensate the broker directly, and your plan premium is the same whether you enroll on your own or with broker assistance. Call 855-559-1700 to get started.",
+  },
+  {
+    question: "How do I sign up for Medicare Part A and Part B?",
+    answer:
+      "You enroll in Medicare Part A and Part B through the Social Security Administration, either online at ssa.gov, by phone, or at a local SSA office. Once you have your Medicare number, a broker can help you compare and enroll in a Medigap, Medicare Advantage, or Part D plan.",
+  }
 ];
 
 export default function ServicesHubPage() {

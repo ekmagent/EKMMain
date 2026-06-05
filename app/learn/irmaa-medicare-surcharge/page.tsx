@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
   description:
-    "Learn how Medicare's 2026 IRMAA surcharge works, who pays it, and how to appeal with SSA-44 if income dropped. Free broker guidance: 855-559-1700.",
+    "IRMAA explained: how Medicare's 2026 income surcharge works on Part B and Part D, who pays it, and how to appeal with SSA-44. Free broker help: 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/irmaa-medicare-surcharge` },
   openGraph: {
     title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
@@ -752,6 +752,22 @@ const faqs = [
     question: "Can a Medicare broker help me understand IRMAA?",
     answer:
       "Yes. While brokers cannot file your SSA-44 appeal for you, we can explain how IRMAA interacts with your Part B and Part D premiums and help you plan coverage around it. Call 855-559-1700 to speak with a licensed broker about your situation at no cost.",
+  }
+,
+  {
+    question: "How do I appeal an IRMAA determination?",
+    answer:
+      "You can appeal IRMAA by filing Form SSA-44 with the Social Security Administration if you experienced a qualifying life-changing event that reduced your income. Common qualifying events include retirement, marriage, divorce, death of a spouse, or loss of pension income. You'll need to provide documentation such as a marriage certificate, death certificate, or proof of work stoppage. SSA reviews appeals individually and adjusts your surcharge if approved.",
+  },
+  {
+    question: "Will IRMAA go away on its own if my income drops?",
+    answer:
+      "Yes, but with a two-year lag. Because Social Security uses your tax return from two years prior, a drop in income today won't reduce your IRMAA until the corresponding tax year is used. If you don't want to wait, filing Form SSA-44 after a qualifying life-changing event can get the surcharge reduced sooner.",
+  },
+  {
+    question: "Can I reduce my IRMAA through tax planning?",
+    answer:
+      "Yes. Strategies such as Roth conversions before age 63, qualified charitable distributions from IRAs, tax-loss harvesting, and careful timing of capital gains can help keep your MAGI below the next IRMAA bracket. Because the brackets are cliffs — crossing by even one dollar moves you to a higher tier — proactive planning with a tax professional is often worthwhile.",
   }
 ];
 

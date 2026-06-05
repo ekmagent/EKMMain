@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "how much does the best medicare supplemental insurance cost per month | Free Plan-by-Plan Breakdown | MedicareYourself",
   description:
-    "Compare Medicare Supplement Plan G and Plan N monthly costs across top carriers and lock in the lowest rate. Call 855-559-1700 for a free personalized quote.",
+    "Compare Medicare Supplement Plan G and Plan N monthly premiums across top carriers and lock in the lowest rate. Call 855-559-1700 for a free, no-obligation quote.",
   alternates: { canonical: "https://medicareyourself.com/services/how-much-does-the-best-medicare-supplemental-insurance-cost-per-month" },
   openGraph: {
     title:
@@ -206,6 +206,17 @@ const faqs = [
     question: "Does where I live affect my Medicare Supplement premium?",
     answer:
       "Yes. Insurance companies set Medigap rates by zip code because medical costs and claims experience vary by region. Two people the same age can pay very different premiums for the identical plan letter depending on their state and county. Call 855-559-1700 to compare local carrier rates for your area.",
+  }
+,
+  {
+    question: "Does where I live affect my Medicare Supplement premium?",
+    answer:
+      "Yes. Medigap premiums vary widely by zip code because insurance companies factor in local medical costs and claims experience. Two people with the same age and plan letter can pay very different premiums depending on the state and even the county where they live.",
+  },
+  {
+    question: "Will my Medigap premium increase over time?",
+    answer:
+      "Most Medigap policies are attained-age-rated, meaning the premium increases as you get older. Premiums can also rise due to inflation and overall claims experience within the carrier's block of business. Comparing carriers periodically helps you make sure you're still getting a competitive rate.",
   }
 ];
 
@@ -460,6 +471,7 @@ export default function HowMuchDoesBestMedicareSupplementalInsuranceCostPerMonth
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">State help: <a href="https://www.nj.gov/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> &middot; <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">SHIP — Free State Medicare Counseling</a></div>
             <div className="text-sm text-gray-600 mt-4">For free, unbiased counseling, contact your <a href="https://www.shiphelp.org/about-medicare/regional-ship-location" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a> or the <a href="https://www.nj.gov/dobi/division_insurance/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

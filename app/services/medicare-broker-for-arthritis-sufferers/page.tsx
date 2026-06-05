@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for arthritis sufferers | Free Plan Comparison | MedicareYourself",
   description:
-    "Compare Medicare plans for arthritis — biologics, rheumatologists, and joint care covered. Free help from broker Anthony Orner. Call 855-559-1700 today.",
+    "Medicare broker for arthritis sufferers — compare plans covering biologics, rheumatologists, and joint care. Free help from Anthony Orner. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-arthritis-sufferers" },
   openGraph: {
     title:

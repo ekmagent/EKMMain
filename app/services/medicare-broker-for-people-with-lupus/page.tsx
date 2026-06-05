@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare broker for people with lupus | Free Coverage Guidance | MedicareYourself",
   description:
-    "Living with lupus? Broker Anthony Orner compares Medigap, Advantage & Part D plans for rheumatology and infusion care. Call 855-559-1700 for free guidance.",
+    "Lupus and Medicare? Broker Anthony Orner compares Medigap, Advantage & Part D for rheumatology and infusions. Call 855-559-1700 for free guidance.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-people-with-lupus" },
   openGraph: {
     title:
@@ -356,6 +356,7 @@ export default function MedicareBrokerForPeopleWithLupus() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">For free local Medicare counseling, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a> or the <a href="https://www.nj.gov/dobi/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
       </article>
     </>

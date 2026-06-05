@@ -152,6 +152,17 @@ const faqs = [
     answer:
       "No. Because New Jersey uses community rating for Medicare Supplement plans, your premium does not go up simply because you age into a higher bracket. Premiums can still change over time due to inflation, claims experience, and carrier rate filings, but they are not tied to your individual age.",
   }
+,
+  {
+    question: "Do Medigap premiums in New Jersey go up as I get older?",
+    answer:
+      "Because New Jersey uses community rating, your Medigap premium is not increased based on your age as you get older. However, premiums can still rise over time due to inflation, medical trend, and carrier-wide rate adjustments approved by the NJ Department of Banking and Insurance. This pricing structure tends to make long-term costs more stable than in age-rated states.",
+  },
+  {
+    question: "Can I switch Medigap plans in New Jersey to lower my cost?",
+    answer:
+      "You can apply to switch Medigap plans in New Jersey at any time, but outside your 6-month Medigap Open Enrollment Period or a guaranteed issue situation, carriers may use medical underwriting. That means a lower-priced plan is not guaranteed if you have health conditions. Call 855-559-1700 and we can shop the NJ market to see if a switch makes sense for you.",
+  }
 ];
 
 export default function NJMedicareCostPage() {

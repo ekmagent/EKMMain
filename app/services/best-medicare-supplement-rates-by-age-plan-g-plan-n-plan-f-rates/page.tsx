@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Best Medicare Supplement Rates by Age (Plan G, Plan N, & Plan F Rates) | Free Quote | MedicareYourself",
   description:
-    "Compare Medicare Supplement rates by age for Plan G, Plan N & Plan F. Lock in your lowest premium today — call 855-559-1700 for a free side-by-side quote.",
+    "Compare Medicare Supplement rates by age for Plan G, Plan N & Plan F. Lock in your lowest premium with a free side-by-side quote — call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/best-medicare-supplement-rates-by-age-plan-g-plan-n-plan-f-rates" },
   openGraph: {
     title:
@@ -181,6 +181,22 @@ const faqs = [
     question: "Is Plan F still available for new Medicare enrollees?",
     answer:
       "Plan F is only available if you were eligible for Medicare before January 1, 2020. If you became Medicare-eligible on or after that date, Plan G is the closest equivalent and is generally the most popular choice for new enrollees seeking comprehensive coverage.",
+  }
+,
+  {
+    question: "Does my ZIP code affect my Medicare Supplement rate?",
+    answer:
+      "Yes. Carriers file rates by state and often by ZIP code or rating area within a state. Two people the same age and gender can pay very different premiums for the identical Plan G simply because they live in different ZIP codes, which is why a side-by-side quote in your area matters.",
+  },
+  {
+    question: "Can I switch Medicare Supplement plans later if I find a lower rate?",
+    answer:
+      "You can apply to switch Medigap plans at any time, but outside of your Open Enrollment Period or a guaranteed issue situation, carriers in most states can use medical underwriting. That means they can decline you or charge more based on health history, so it's important to compare carefully before switching.",
+  },
+  {
+    question: "Are women's Medicare Supplement rates lower than men's?",
+    answer:
+      "In most states, yes. Many carriers offer a household or gender discount, and women often pay slightly less than men for the same plan because of claims experience. The discount amount varies by carrier and state, so comparing multiple carriers is the only way to see your true lowest rate.",
   }
 ];
 
@@ -468,6 +484,7 @@ export default function BestMedicareSupplementRatesByAge() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify carriers and rates through the <a href="https://www.state.nj.us/dobi/index.shtml" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify carrier rate filings and consumer protections through the <a href="https://www.nj.gov/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a> or get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP program</a> for free Medicare counseling.</div>
       </section>
     </main>
   );

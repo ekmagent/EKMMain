@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title:
     "How to Enroll in Medicare Online at SSA.gov (Step-by-Step Walkthrough)",
   description:
-    "Step-by-step SSA.gov Medicare enrollment walkthrough — apply online in about 10 minutes. Call 855-559-1700 for free help deciding on Part B.",
+    "Step-by-step SSA.gov Medicare enrollment walkthrough — apply for Part A and Part B online in about 10 minutes. Call 855-559-1700 for free Part B guidance.",
   alternates: {
     canonical: `${SITE_URL}/learn/ssa-online-enrollment-walkthrough`,
   },
@@ -880,6 +880,22 @@ const steps = [
     question: "Can I change my application after submitting it on SSA.gov?",
     answer:
       "No. Once you click Submit Now and agree to the Electronic Signature Agreement, you cannot modify the application online. If you need to make changes, you'll have to contact Social Security directly by phone or visit a local office.",
+  }
+,
+  {
+    question: "Do I have to sign up for Medicare through SSA, or can I do it through Medicare.gov?",
+    answer:
+      "Medicare enrollment for Part A and Part B is handled by the Social Security Administration, not Medicare.gov. Medicare.gov will direct you to SSA.gov to complete your application. You can apply online, by phone, or at a local Social Security office.",
+  },
+  {
+    question: "What documents do I need before starting the SSA online Medicare application?",
+    answer:
+      "You'll need your Social Security number, a valid driver's license or state ID for identity verification through Login.gov or ID.me, and details about any current health insurance coverage. If you're still working, have your employer's name and the date your group health coverage started ready. The application takes about 10 minutes once you have these items.",
+  },
+  {
+    question: "Can I change my answers after submitting the SSA Medicare application?",
+    answer:
+      "No. Once you click Submit Now and agree to the Electronic Signature Agreement, you cannot modify your application. If you need to make a correction or change your Part B decision, you'll have to contact Social Security directly. Call 855-559-1700 before submitting if you want help reviewing your Part B decision.",
   }
 ];
 
