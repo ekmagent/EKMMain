@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "local medicare agents in sicklerville nj | Free Broker Help | MedicareYourself",
   description:
-    "Local Medicare agents in Sicklerville, NJ — Anthony Orner, licensed broker, compares Medigap & Advantage plans across Camden County. Free help: call 855-559-1700.",
+    "Local Medicare agents in Sicklerville, NJ — Anthony Orner compares Medigap & Advantage plans in Camden County. Free help: call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/local-medicare-agents-in-sicklerville-nj" },
   openGraph: {
     title:

@@ -84,6 +84,22 @@ const faqs = [
     answer:
       "Plan G covers the Part A deductible ($1,676 per benefit period in 2026), skilled nursing facility coinsurance ($209.50/day for days 21-100), Part B excess charges, and foreign travel emergency care. Your only remaining cost is the annual Part B deductible of $283.",
   },
+,
+  {
+    question: "Why do Plan G prices vary so much between carriers in New Jersey?",
+    answer:
+      "Although every Plan G policy covers the exact same benefits by federal law, each insurance company sets its own premium. Carriers use different pricing methods, underwriting standards, and rate increase histories, which is why identical coverage can cost very different amounts. Comparing every available carrier is the only way to find your lowest price.",
+  },
+  {
+    question: "Does Plan G in NJ cover the Part B deductible?",
+    answer:
+      "No. Plan G covers nearly every gap in Original Medicare except the annual Part B deductible, which you pay once per year before coverage kicks in. After that, Plan G picks up the remaining Part B coinsurance and excess charges.",
+  },
+  {
+    question: "Is Plan G worth it in New Jersey compared to other Medigap plans?",
+    answer:
+      "For most New Jersey beneficiaries, Plan G offers the most comprehensive coverage available to those newly eligible for Medicare. It eliminates nearly all out-of-pocket exposure outside the Part B deductible, making budgeting predictable. Whether it's the right fit depends on your health, budget, and how often you use care.",
+  }
 ];
 
 export default function HowMuchIsPlanGInNJ() {
@@ -267,6 +283,7 @@ export default function HowMuchIsPlanGInNJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased help from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> or the <a href="https://www.nj.gov/dobi/division_insurance/" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">For NJ-specific help, visit the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or the <a href="https://www.nj.gov/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </main>
   );

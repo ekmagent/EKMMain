@@ -218,6 +218,12 @@ const faqs = [
     answer:
       "No. The Part B deductible is tied to Original Medicare, not to your Medigap policy. If you have already met it for the year, switching Medigap carriers does not reset it. Your new Medigap plan simply picks up where the old one left off in covering the gaps after Medicare pays.",
   }
+,
+  {
+    question: "Do I have a federal right to switch Medigap policies outside open enrollment?",
+    answer:
+      "In most cases, federal law does not guarantee the right to switch Medigap policies outside your 6-month Medigap Open Enrollment Period unless you qualify for a guaranteed issue right. Some states offer additional opportunities to switch, so it is worth checking your state's rules. A licensed broker can review whether you qualify for a guaranteed issue situation or can pass underwriting in your state.",
+  }
 ];
 
 export default function SwitchMedigapPlansPage() {
@@ -873,6 +879,7 @@ export default function SwitchMedigapPlansPage() {
             <div className="text-sm text-gray-600 mt-4">For state-specific Medigap rules and free counseling, contact the <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a> in your state.</div>
             <div className="text-sm text-gray-600 mt-4">State help: <a href="https://www.nj.gov/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free local counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can confirm state-specific Medigap switching rules with the <a href="https://www.state.nj.us/dobi/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> or get free counseling through <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">your local SHIP program</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a> or the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP program</a> for free counseling on Medigap rights.</div>
       </section>
     </>
   );

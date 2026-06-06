@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title:
     "How to Enroll in Medicare Online at SSA.gov (Step-by-Step Walkthrough)",
   description:
-    "Step-by-step SSA.gov Medicare enrollment walkthrough — apply for Part A and Part B online in about 10 minutes. Call 855-559-1700 for free Part B guidance.",
+    "Step-by-step SSA.gov Medicare enrollment walkthrough — apply for Part A & Part B online in about 10 minutes. Call 855-559-1700 for free Part B guidance.",
   alternates: {
     canonical: `${SITE_URL}/learn/ssa-online-enrollment-walkthrough`,
   },
@@ -896,6 +896,22 @@ const steps = [
     question: "Can I change my answers after submitting the SSA Medicare application?",
     answer:
       "No. Once you click Submit Now and agree to the Electronic Signature Agreement, you cannot modify your application. If you need to make a correction or change your Part B decision, you'll have to contact Social Security directly. Call 855-559-1700 before submitting if you want help reviewing your Part B decision.",
+  }
+,
+  {
+    question: "Do I need a my Social Security account to apply for Medicare online?",
+    answer:
+      "Yes. You'll create a secure my Social Security account using Login.gov or ID.me to start and submit your application. You'll need your Social Security number and a form of identification, such as a driver's license, to verify your identity.",
+  },
+  {
+    question: "Can I sign up for only Medicare Part A online without taking Part B?",
+    answer:
+      "Yes. During the application, SSA will ask whether you want to enroll in Part B. You can choose Part A only if you have other creditable coverage, but be aware that delaying Part B without qualifying coverage can trigger a late enrollment penalty later.",
+  },
+  {
+    question: "What if I make a mistake on my SSA Medicare application?",
+    answer:
+      "Once you click Submit Now and sign the Electronic Signature Agreement, you cannot modify the application online. If you notice an error, contact the Social Security Administration directly to correct it. You can also call us at 855-559-1700 for free guidance before you submit.",
   }
 ];
 

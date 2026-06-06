@@ -299,6 +299,22 @@ const faqs = [
     answer:
       "No. Medigap policies don't have provider networks — any provider that accepts Original Medicare will accept your Medigap plan, regardless of which carrier issues it. Switching carriers only changes your premium and the company billing you; it does not change which doctors or hospitals you can see.",
   }
+,
+  {
+    question: "Is there a free-look period if I switch Medigap plans in 2026?",
+    answer:
+      "Yes. When you buy a new Medigap policy, you have a 30-day free-look period to decide if you want to keep it. You'll need to pay both premiums during that month, but if you cancel the new policy within 30 days you can keep your original coverage without penalty.",
+  },
+  {
+    question: "Do I have to answer health questions to switch Medigap plans?",
+    answer:
+      "Usually yes, unless you're inside your 6-month Medigap Open Enrollment Period or qualify for a guaranteed-issue right. Outside those windows, carriers can use medical underwriting and deny coverage or charge more based on your health history. A broker can pre-screen carriers before you apply to protect your current policy.",
+  },
+  {
+    question: "Will switching Medigap plans affect my Part D drug coverage?",
+    answer:
+      "No. Medigap and Part D are separate policies, so changing your Medicare Supplement carrier does not affect your stand-alone Part D prescription drug plan. You can change Part D during the Annual Enrollment Period from October 15 to December 7. Call 855-559-1700 if you'd like both reviewed together.",
+  }
 ];
 
 export default function WhenCanIChangeMyMedicareSupplementPlanFor2026() {
@@ -518,6 +534,7 @@ export default function WhenCanIChangeMyMedicareSupplementPlanFor2026() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">State help: <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> offers free Medigap counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a> or contact the <a href="https://www.nj.gov/dobi/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/dobi/index.shtml" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or the <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free local Medigap counseling.</div>
       </section>
     </main>
   );

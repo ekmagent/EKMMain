@@ -140,6 +140,22 @@ const faqs = [
     answer:
       "Yes, during the Annual Enrollment Period (October 15–December 7) and certain Special Enrollment Periods, you can change plans. As your broker, I'll review your providers, prescriptions, and planned procedures to find a plan that aligns with your treatment needs. Call 855-559-1700 to start.",
   }
+,
+  {
+    question: "Does Medicare cover chiropractic care for back pain?",
+    answer:
+      "Medicare Part B covers manual manipulation of the spine by a chiropractor to correct a subluxation when medically necessary. It does not cover other chiropractic services such as X-rays, massage therapy, or acupuncture performed by a chiropractor. Some Medicare Advantage plans offer expanded chiropractic benefits beyond what Original Medicare covers.",
+  },
+  {
+    question: "Does Medicare cover physical therapy for back pain?",
+    answer:
+      "Yes. Medicare Part B covers medically necessary outpatient physical therapy when prescribed by your doctor as part of a documented treatment plan. After you meet the Part B deductible, you pay coinsurance for each session, and your therapist must periodically recertify that continued therapy is medically reasonable.",
+  },
+  {
+    question: "Can I switch Medicare plans if my back condition gets worse?",
+    answer:
+      "You can change Medicare Advantage or Part D plans during the Annual Enrollment Period (October 15 – December 7) or the Medicare Advantage Open Enrollment Period (January 1 – March 31). Switching from Medicare Advantage back to Medigap may require medical underwriting outside of guaranteed issue windows, so it's important to plan ahead. I can review your options before you make a change.",
+  }
 ];
 
 export default function MedicareBrokerForBackPainSufferers() {
@@ -404,6 +420,7 @@ export default function MedicareBrokerForBackPainSufferers() {
             <div className="text-sm text-gray-600 mt-4">Free unbiased counseling: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">Need local help? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free one-on-one Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

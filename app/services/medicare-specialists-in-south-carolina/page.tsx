@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare specialists in south carolina | Free Multi-Carrier Quotes | MedicareYourself",
   description:
-    "South Carolina Medicare specialists — compare Medigap, Advantage & Part D plans from top SC carriers at no cost. Free quotes: call 855-559-1700.",
+    "Talk to a licensed Medicare specialist in South Carolina. Compare Medigap, Advantage & Part D plans from top SC carriers free. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-specialists-in-south-carolina" },
   openGraph: {
     title:

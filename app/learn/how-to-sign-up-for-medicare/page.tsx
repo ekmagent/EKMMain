@@ -786,6 +786,22 @@ const faqs = [
     answer:
       "If you apply during the 3 months before your 65th birthday, coverage typically begins the first day of your birthday month. If you apply during or after your birthday month, coverage start dates may be delayed. Applying early through ssa.gov/medicare is the best way to ensure your coverage is active on time.",
   }
+,
+  {
+    question: "Can I sign up for Medicare online?",
+    answer:
+      "Yes. You can apply for Medicare online at ssa.gov/medicare in about 10 minutes. You do not need to be receiving Social Security benefits to apply, and you can start the application up to 3 months before the month you turn 65.",
+  },
+  {
+    question: "What happens if I miss my Initial Enrollment Period?",
+    answer:
+      "If you miss your Initial Enrollment Period and do not qualify for a Special Enrollment Period, you will need to wait for the General Enrollment Period (January 1 – March 31) to sign up for Part B. You may also owe a permanent late enrollment penalty added to your Part B premium for as long as you have Medicare.",
+  },
+  {
+    question: "Do I need to sign up for Medicare if I am still working?",
+    answer:
+      "If you have creditable health coverage through your or your spouse's active employment, you may delay Part B without penalty and enroll later through a Special Enrollment Period. Confirm with your HR department that your coverage qualifies as creditable before delaying. Most people still enroll in premium-free Part A at 65.",
+  }
 ];
 
 export default function HowToSignUpPage() {

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for bipolar disorder patients | Free Plan Comparison | MedicareYourself",
   description:
-    "Medicare broker for bipolar disorder patients — Anthony Orner compares Part D plans covering mood stabilizers & therapy. Free help: 855-559-1700.",
+    "Medicare broker for bipolar disorder patients — Anthony Orner compares Part D plans for mood stabilizers, therapy & psychiatric care. Free help: 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-bipolar-disorder-patients" },
   openGraph: {
     title:
@@ -130,6 +130,17 @@ const faqs = [
     question: "Will a Medicare Advantage plan or Original Medicare with Part D work better for bipolar disorder?",
     answer:
       "It depends on your medications, providers, and how often you need psychiatric care. Original Medicare with a standalone Part D plan and Medigap offers nationwide provider access and predictable out-of-pocket costs, which can help if you see specialists outside a local network. Medicare Advantage plans may bundle behavioral health extras but use networks and prior authorization. A broker can compare both paths against your specific drug list and prescribers.",
+  }
+,
+  {
+    question: "Are therapy and counseling sessions covered by Medicare for bipolar disorder?",
+    answer:
+      "Yes. Medicare Part B covers outpatient mental health services including individual and group therapy with psychiatrists, clinical psychologists, licensed clinical social workers, nurse practitioners, and physician assistants who accept Medicare assignment. Part B also covers an annual depression screening at no cost when provided by a participating provider. After meeting the Part B deductible, you typically pay coinsurance for each therapy visit.",
+  },
+  {
+    question: "Should I choose Medicare Advantage or Original Medicare with a Part D plan for bipolar disorder?",
+    answer:
+      "It depends on your providers and medications. Original Medicare with a standalone Part D plan and Medigap supplement gives you broad access to any psychiatrist or therapist who accepts Medicare nationwide. Medicare Advantage plans may include extra behavioral health benefits but use networks and require referrals or prior authorization for some psychiatric services. A broker can compare both paths against your current treatment team and drug list.",
   }
 ];
 
@@ -419,6 +430,7 @@ export default function MedicareBrokerBipolarDisorderPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free local counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

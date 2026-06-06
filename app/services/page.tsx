@@ -838,6 +838,22 @@ const STATIC_CATEGORIES = [
     answer:
       "You enroll in Medicare Part A and Part B through the Social Security Administration, either online at ssa.gov, by phone, or at a local SSA office. Once you have your Medicare number, a broker can help you compare and enroll in a Medigap, Medicare Advantage, or Part D plan.",
   }
+,
+  {
+    question: "How do I get free Medicare help from a licensed broker?",
+    answer:
+      "You can call Anthony Orner at 855-559-1700 for a free, no-obligation plan review. As a licensed independent broker in NJ and 34 states, he compares Medigap, Medicare Advantage, and Part D options across multiple carriers. There is no cost to you for broker services — carriers pay a standardized commission set by CMS.",
+  },
+  {
+    question: "What's the difference between a Medicare broker and calling 1-800-MEDICARE?",
+    answer:
+      "1-800-MEDICARE (1-800-633-4227) is the official federal helpline run by CMS and can answer general questions about benefits and enrollment 24/7. A licensed independent broker, by contrast, can actually compare specific plans from multiple carriers and enroll you in the one that fits your health and budget. Both services are free to use.",
+  },
+  {
+    question: "Can I switch Medicare plans if my needs change?",
+    answer:
+      "Yes. Medicare Advantage and Part D plans can typically be changed during the Annual Enrollment Period each fall, and Medigap plans can often be changed year-round (though medical underwriting may apply outside guaranteed-issue windows). Call 855-559-1700 to review your options before making a switch.",
+  }
 ];
 
 export default function ServicesHubPage() {

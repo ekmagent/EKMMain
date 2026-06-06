@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Why Did My Medicare Supplement Rate Change? | Free Rate Review | MedicareYourself",
   description:
-    "Medigap rate going up? Learn the 3 pricing factors behind every Medicare Supplement increase and get a free rate review from a licensed broker. Call 855-559-1700.",
+    "Medigap rate going up? Learn the 3 pricing factors behind every Medicare Supplement increase and get a free rate review. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/why-did-my-medicare-supplement-rate-change" },
   openGraph: {
     title:
@@ -148,6 +148,12 @@ const faqs = [
     question: "Will moving to a different state change my Medigap premium?",
     answer:
       "Yes. Medigap premiums are filed and approved state by state, so the same plan letter and same carrier can cost a different amount in New Jersey than in another state. If you relocate, notify your carrier and request a new rate review for your new ZIP code.",
+  }
+,
+  {
+    question: "Should I shop my Medicare Supplement plan every year?",
+    answer:
+      "Reviewing your Medigap premium annually is a smart habit because identical lettered plans can have very different prices between carriers. Since benefits are standardized by Medicare, the only difference between two Plan G policies is the premium and the carrier's rate history. A licensed broker can compare available carriers in your state at no cost.",
   }
 ];
 
@@ -436,6 +442,7 @@ export default function WhyDidMyMedicareSupplementRateChange() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" target="_blank" rel="noopener noreferrer" className="text-blue-700 underline">NJ Department of Banking and Insurance</a> or the free <a href="https://www.state.nj.us/humanservices/doas/services/ship/" target="_blank" rel="noopener noreferrer" className="text-blue-700 underline">NJ SHIP counseling program</a> for unbiased Medigap rate guidance.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify carrier rate filings and consumer protections through the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents: contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a> or the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP program</a> for free counseling.</div>
       </section>
       </article>
     </>

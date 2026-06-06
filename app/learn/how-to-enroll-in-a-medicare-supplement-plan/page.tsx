@@ -9,7 +9,7 @@ import { MF } from "@/lib/medicare-figures";
 export const metadata: Metadata = {
   title: "How to Enroll in a Medicare Supplement Plan (2026): The 5-Step Guide",
   description:
-    "Enroll in a Medicare Supplement plan in 5 steps and lock in your 6-month guaranteed-issue window. Call 855-559-1700 to compare every carrier for free.",
+    "Enroll in a Medicare Supplement plan in 5 steps and lock in your 6-month guaranteed-issue window. Call 855-559-1700 to compare every carrier free.",
   alternates: { canonical: `${SITE_URL}/learn/how-to-enroll-in-a-medicare-supplement-plan` },
   openGraph: {
     title: "How to Enroll in a Medicare Supplement Plan (2026): The 5-Step Guide",
@@ -726,6 +726,22 @@ const faqs = [
     question: "Can I switch Medigap plans after my Open Enrollment Period ends?",
     answer:
       "Yes, you can apply to switch Medigap plans at any time, but outside of guaranteed-issue situations the new carrier can require medical underwriting. That means they can review your health history and either decline your application or charge a higher premium. Some states offer expanded switching rights, so it is worth checking your state's specific rules before applying.",
+  }
+,
+  {
+    question: "When is the best time to buy a Medigap policy?",
+    answer:
+      "The best time to buy is during your 6-month Medigap Open Enrollment Period, which starts the first month you have Medicare Part B and are 65 or older. During this window, insurance companies cannot deny you coverage or charge more based on pre-existing conditions. Once this window closes, carriers in most states can use medical underwriting to deny your application or raise your premium.",
+  },
+  {
+    question: "Can I switch Medigap plans after I enroll?",
+    answer:
+      "You can apply to switch Medigap plans at any time, but outside of your Open Enrollment Period or a guaranteed-issue situation, the new carrier can require medical underwriting. That means they can deny your application or charge a higher premium based on your health. Some states have additional protections that allow annual switching without underwriting — call 855-559-1700 to check the rules in your state.",
+  },
+  {
+    question: "Do I need to cancel my old coverage before applying for a Medigap plan?",
+    answer:
+      "No. You should keep your existing coverage in place until your new Medigap policy is approved and the effective date is confirmed in writing. Medicare requires the new insurer to give you a 30-day &quot;free look&quot; period to review the policy. Only cancel previous coverage once you are certain the new plan is active.",
   }
 ];
 

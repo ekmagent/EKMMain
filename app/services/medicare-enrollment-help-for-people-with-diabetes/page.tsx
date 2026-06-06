@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare Enrollment Help for People With Diabetes | Free Guidance | MedicareYourself",
   description:
-    "Medicare enrollment help for people with diabetes—compare plans covering insulin, CGMs, pumps & supplies. Call 855-559-1700 for free expert guidance.",
+    "Medicare enrollment help for people with diabetes—find plans covering insulin, CGMs, pumps & supplies. Call 855-559-1700 for free expert guidance today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-enrollment-help-for-people-with-diabetes" },
   openGraph: {
     title:
@@ -292,6 +292,22 @@ const faqs = [
     question: "Does Medicare cover the Diabetes Prevention Program?",
     answer:
       "Yes. Medicare Part B covers the Medicare Diabetes Prevention Program (MDPP) for eligible beneficiaries at risk of type 2 diabetes. The program provides training on diet and exercise changes designed to last, and there is no cost-sharing if you qualify. You can find an in-person or online program through Medicare.gov.",
+  }
+,
+  {
+    question: "Does Medicare cover insulin for people with diabetes?",
+    answer:
+      "Yes. Medicare Part D covers insulin taken by injection, and Part B covers insulin used with a traditional insulin pump as durable medical equipment. Thanks to recent changes, out-of-pocket costs for a month's supply of covered insulin are capped under Part D. Call 855-559-1700 to compare Part D plans that include your specific insulin.",
+  },
+  {
+    question: "Are diabetes supplies like test strips and lancets covered by Medicare?",
+    answer:
+      "Yes. Medicare Part B covers blood sugar monitors, test strips, lancets, and control solutions as durable medical equipment when prescribed by your doctor. You'll typically pay coinsurance after meeting the Part B deductible, and you must use a Medicare-enrolled supplier. Therapeutic shoes and inserts are also covered for those who qualify.",
+  },
+  {
+    question: "Can I switch Medicare plans if my diabetes medications change?",
+    answer:
+      "Yes, during the Annual Enrollment Period from October 15 to December 7, you can change your Medicare Advantage or Part D plan for any reason, including formulary changes. You may also qualify for a Special Enrollment Period in certain situations. Call 855-559-1700 for help reviewing whether your current plan still fits your prescriptions.",
   }
 ];
 

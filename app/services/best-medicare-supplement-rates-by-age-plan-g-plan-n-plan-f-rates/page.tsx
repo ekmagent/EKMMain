@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Best Medicare Supplement Rates by Age (Plan G, Plan N, & Plan F Rates) | Free Quote | MedicareYourself",
   description:
-    "Compare Medicare Supplement rates by age for Plan G, Plan N & Plan F. Lock in your lowest premium with a free side-by-side quote — call 855-559-1700 today.",
+    "Compare Medicare Supplement rates by age for Plan G, Plan N & Plan F. Find your lowest premium with a free side-by-side quote — call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/best-medicare-supplement-rates-by-age-plan-g-plan-n-plan-f-rates" },
   openGraph: {
     title:
@@ -197,6 +197,22 @@ const faqs = [
     question: "Are women's Medicare Supplement rates lower than men's?",
     answer:
       "In most states, yes. Many carriers offer a household or gender discount, and women often pay slightly less than men for the same plan because of claims experience. The discount amount varies by carrier and state, so comparing multiple carriers is the only way to see your true lowest rate.",
+  }
+,
+  {
+    question: "Can I switch Medicare Supplement plans later to get a lower rate?",
+    answer:
+      "Yes, you can apply to switch Medigap plans at any time, but outside of your Open Enrollment Period or a guaranteed issue situation, carriers can use medical underwriting. That means they can deny coverage or charge more based on your health. Many people shop their Medigap rate every couple of years to see if a healthier-priced block is available.",
+  },
+  {
+    question: "Does ZIP code affect my Medicare Supplement rate?",
+    answer:
+      "Yes. Carriers file rates by state and often by rating area or ZIP code within a state. Two people the same age with the same Plan G can pay different premiums simply because they live in different counties or ZIP codes.",
+  },
+  {
+    question: "Is Plan N a good alternative if Plan G rates are too high?",
+    answer:
+      "Plan N can be a strong option for budget-conscious enrollees because its premium is typically lower than Plan G. The tradeoff is small copays for some office and ER visits, plus you're responsible for Part B excess charges. For people who see doctors who accept Medicare assignment, Plan N often delivers significant monthly savings.",
   }
 ];
 
@@ -485,6 +501,7 @@ export default function BestMedicareSupplementRatesByAge() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify carrier rate filings and consumer protections through the <a href="https://www.nj.gov/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a> or get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP program</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </main>
   );

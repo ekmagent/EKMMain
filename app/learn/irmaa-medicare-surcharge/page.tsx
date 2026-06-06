@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
   description:
-    "IRMAA explained: how Medicare's 2026 income surcharge works on Part B and Part D, who pays it, and how to appeal with SSA-44. Free broker help: 855-559-1700.",
+    "IRMAA explained: how Medicare's 2026 income surcharge affects Part B and Part D, who pays it, and how to appeal with SSA-44. Free broker help: 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/irmaa-medicare-surcharge` },
   openGraph: {
     title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
@@ -768,6 +768,22 @@ const faqs = [
     question: "Can I reduce my IRMAA through tax planning?",
     answer:
       "Yes. Strategies such as Roth conversions before age 63, qualified charitable distributions from IRAs, tax-loss harvesting, and careful timing of capital gains can help keep your MAGI below the next IRMAA bracket. Because the brackets are cliffs — crossing by even one dollar moves you to a higher tier — proactive planning with a tax professional is often worthwhile.",
+  }
+,
+  {
+    question: "How will I know if I have to pay IRMAA?",
+    answer:
+      "The Social Security Administration mails you a predetermination notice if your income exceeds the IRMAA thresholds. The notice explains the surcharge amount, which tax year was used to calculate it, and how to appeal if you've had a life-changing event. You can also call us at 855-559-1700 if you need help understanding the notice.",
+  },
+  {
+    question: "How do I appeal IRMAA if my income has dropped?",
+    answer:
+      "File Form SSA-44 with the Social Security Administration to request a new initial determination. You'll need to document a qualifying life-changing event such as retirement, divorce, or loss of pension income, along with a recent tax return or estimate of your current year's income. SSA reviews the request and adjusts your premium if approved.",
+  },
+  {
+    question: "Is IRMAA recalculated every year?",
+    answer:
+      "Yes. Social Security reviews your tax return data from the IRS each year and recalculates your IRMAA based on your most recent MAGI. If your income drops below the threshold, the surcharge goes away automatically the following year — you don't need to reapply.",
   }
 ];
 

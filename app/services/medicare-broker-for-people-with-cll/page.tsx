@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare broker for people with CLL | Free Consult | MedicareYourself",
   description:
-    "Medicare broker for CLL patients — honest guidance on Medigap underwriting, Part D oral cancer drugs, and specialist access. Call 855-559-1700 today.",
+    "CLL Medicare broker help: Medigap underwriting, Part D oral cancer drugs, and specialist access. Free consult with Anthony Orner — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-people-with-cll" },
   openGraph: {
     title:

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "local medicare agents in west orange nj | Free Broker Consultation | MedicareYourself",
   description:
-    "Local Medicare agents in West Orange, NJ — Anthony Orner compares Supplement & Advantage plans across carriers. Free, no-pressure help. Call 855-559-1700.",
+    "Local Medicare agents in West Orange, NJ — Anthony Orner compares Supplement & Advantage plans across carriers in Essex County. Free help. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/local-medicare-agents-in-west-orange-nj" },
   openGraph: {
     title:

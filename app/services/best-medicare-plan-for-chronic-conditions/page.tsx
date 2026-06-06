@@ -101,6 +101,12 @@ const faqs = [
     answer:
       "You can switch during the Annual Election Period or Medicare Advantage Open Enrollment Period, but Medigap carriers can medically underwrite you outside of guaranteed issue windows. That means a carrier could deny coverage or charge more based on your health. A few states have more generous Medigap switching rules, so call 855-559-1700 to review what's available where you live.",
   }
+,
+  {
+    question: "Are chronic care management services covered by Medicare?",
+    answer:
+      "Yes. Medicare Part B covers Chronic Care Management (CCM) services for beneficiaries with two or more chronic conditions expected to last at least 12 months. These services include a comprehensive care plan, medication management, and coordination between your providers. Standard Part B cost-sharing applies unless you have Medigap coverage.",
+  }
 ];
 
 export default function BestMedicarePlanForChronicConditions() {
