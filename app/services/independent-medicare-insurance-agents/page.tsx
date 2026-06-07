@@ -119,6 +119,12 @@ const faqs = [
     answer:
       "Have your Medicare card or Medicare Beneficiary Identifier (MBI) ready, a list of your current prescriptions with dosages, and the names of doctors or specialists you want to keep. It also helps to know any hospitals or pharmacies you prefer. With that information, an independent agent can run accurate plan comparisons on the first call.",
   }
+,
+  {
+    question: "What questions should I ask an independent Medicare agent before enrolling?",
+    answer:
+      "Ask which carriers they're appointed with, how many plans they actively compare in your ZIP code, and whether they'll check your specific doctors and prescriptions against each plan's network and formulary. You should also ask how they handle service after enrollment, including claims issues, plan changes, and annual reviews. A good independent agent will answer all of these without pressure.",
+  }
 ];
 
 export default function IndependentMedicareInsuranceAgentsPage() {

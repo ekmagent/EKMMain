@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "independent medicare agents abq nm | Free Local Help | MedicareYourself",
   description:
-    "Independent Medicare agents serving ABQ, NM compare Advantage, Medigap & Part D plans across carriers at no cost. Call 855-559-1700 for free local guidance.",
+    "Independent Medicare agents serving ABQ, NM compare Advantage, Medigap & Part D plans across carriers at no cost. Call 855-559-1700 for free local help.",
   alternates: { canonical: "https://medicareyourself.com/services/independent-medicare-agents-abq-nm" },
   openGraph: {
     title:
@@ -121,6 +121,22 @@ const faqs = [
     question: "Do independent Medicare agents in Albuquerque know the local New Mexico provider networks?",
     answer:
       "Yes. Local independent agents stay current on which Medicare Advantage and Part D plans contract with Albuquerque-area hospitals, clinics, and pharmacies. That local knowledge helps you avoid enrolling in a plan that excludes your preferred doctors at Presbyterian, UNM Health, or Lovelace facilities. Call 855-559-1700 to review your providers before you enroll.",
+  }
+,
+  {
+    question: "Are independent Medicare agents in Albuquerque licensed in New Mexico?",
+    answer:
+      "Yes. Any agent helping Albuquerque residents enroll in a Medicare plan must hold an active New Mexico health insurance license and be appointed with the carriers whose plans they offer. You can verify any agent's license through the New Mexico Office of Superintendent of Insurance before enrolling.",
+  },
+  {
+    question: "When can I work with an independent Medicare agent in ABQ?",
+    answer:
+      "You can speak with an independent agent any time of year, but enrollments are tied to Medicare's election periods. These include your Initial Enrollment Period around age 65, the Annual Enrollment Period each fall, the Medicare Advantage Open Enrollment Period in early spring, and Special Enrollment Periods triggered by qualifying life events.",
+  },
+  {
+    question: "Will an independent agent help after I enroll?",
+    answer:
+      "A good independent Medicare agent stays your point of contact after enrollment, helping with ID cards, billing questions, provider network issues, and annual plan reviews. Because Medicare plans change each year, an annual review ensures your coverage still matches your doctors, prescriptions, and budget.",
   }
 ];
 
@@ -309,6 +325,7 @@ export default function IndependentMedicareAgentsABQNM() {
             <div className="text-sm text-gray-600 mt-4">New Mexico residents can also contact the <a href="https://www.benefits.nm.gov/SHIP/" rel="noopener noreferrer" target="_blank" className="underline">New Mexico SHIP (Senior Health Insurance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Mexico residents can also get free counseling through the <a href="https://www.benefitscheckup.org/agency/new-mexico-aging-and-long-term-services-department-ship/" rel="noopener noreferrer" target="_blank" className="underline">New Mexico SHIP (Benefits Counseling Program)</a> or contact the <a href="https://www.osi.state.nm.us/" rel="noopener noreferrer" target="_blank" className="underline">New Mexico Office of Superintendent of Insurance</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Mexico residents can also get free, unbiased counseling from <a href="https://www.benefitscheckup.org/ship/new-mexico/" rel="noopener noreferrer" target="_blank" className="underline">New Mexico SHIP (Benefits Counseling)</a> or contact the <a href="https://www.osi.state.nm.us/" rel="noopener noreferrer" target="_blank" className="underline">New Mexico Office of Superintendent of Insurance</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Mexico residents can also contact the <a href="https://www.nmaging.state.nm.us/benefits-counseling.aspx" rel="noopener noreferrer" target="_blank" className="underline">New Mexico Aging and Long-Term Services SHIP/Benefits Counseling program</a> for free, unbiased Medicare counseling.</div>
       </section>
     </main>
   );

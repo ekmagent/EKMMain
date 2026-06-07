@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for stroke survivors | Free Plan Review | MedicareYourself",
   description:
-    "Medicare broker for stroke survivors — compare plans covering rehab, therapy, DME & home health. Free plan review with Anthony Orner. Call 855-559-1700.",
+    "Medicare broker for stroke survivors — find plans covering rehab, therapy, DME & home health. Free plan review with Anthony Orner. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-stroke-survivors" },
   openGraph: {
     title:
@@ -274,6 +274,22 @@ const faqs = [
     answer:
       "Prescription medications such as blood thinners, blood pressure drugs, and cholesterol medications are generally covered under Medicare Part D or through a Medicare Advantage plan with drug coverage. Each plan has its own formulary, so the same medication may cost very differently from one plan to another. I can compare your exact drug list across plans during a free review.",
   }
+,
+  {
+    question: "What Medicare coverage helps with durable medical equipment after a stroke?",
+    answer:
+      "Medicare Part B covers durable medical equipment (DME) like wheelchairs, walkers, hospital beds, and canes when prescribed by your doctor as medically necessary. After meeting the Part B deductible, you typically pay a coinsurance for covered equipment. A Medigap or Medicare Advantage plan can help reduce these out-of-pocket costs.",
+  },
+  {
+    question: "Does Medicare cover home health care after a stroke?",
+    answer:
+      "Yes. Medicare Part A and Part B cover intermittent skilled nursing care, physical therapy, speech-language pathology, and occupational therapy at home when ordered by your doctor and you are considered homebound. The care must be provided through a Medicare-certified home health agency. Coverage typically includes part-time services rather than continuous 24-hour care.",
+  },
+  {
+    question: "Can a Medicare broker help me find a plan that includes my neurologist and rehab center?",
+    answer:
+      "Yes. As a licensed broker, I check provider networks across Medicare Advantage and supplement plans to confirm your neurologist, rehab facility, and therapists are covered. This is one of the most important steps for stroke survivors who already have an established care team. Call 855-559-1700 for a free network check.",
+  }
 ];
 
 export default function MedicareBrokerForStrokeSurvivors() {
@@ -501,6 +517,7 @@ export default function MedicareBrokerForStrokeSurvivors() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
       </section>
       </article>
     </>

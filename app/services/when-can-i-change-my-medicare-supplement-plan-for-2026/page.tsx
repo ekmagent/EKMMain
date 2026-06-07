@@ -315,6 +315,22 @@ const faqs = [
     answer:
       "No. Medigap and Part D are separate policies, so changing your Medicare Supplement carrier does not affect your stand-alone Part D prescription drug plan. You can change Part D during the Annual Enrollment Period from October 15 to December 7. Call 855-559-1700 if you'd like both reviewed together.",
   }
+,
+  {
+    question: "If I switch Medigap plans, do I have to start a new waiting period for pre-existing conditions?",
+    answer:
+      "In most cases, if you've had your current Medigap policy for at least six months, the new carrier cannot impose a new pre-existing condition waiting period when you switch. If you've had your policy less than six months, the new carrier may be able to apply the remaining portion of the waiting period. Always confirm the rules with the new carrier before canceling your existing coverage.",
+  },
+  {
+    question: "Should I cancel my old Medigap policy before the new one is approved?",
+    answer:
+      "No. You should never cancel your existing Medigap policy until the new policy is fully approved and in force. Medigap applications outside protected windows can be denied based on health underwriting, and canceling early could leave you without supplemental coverage. Most carriers also give you a 30-day free look period to review the new policy.",
+  },
+  {
+    question: "Can a broker help me compare Medigap options for 2026 at no cost?",
+    answer:
+      "Yes. Licensed Medicare brokers are paid by the insurance carriers, so there's no cost to you for comparing plans, checking underwriting questions, or applying. Call 855-559-1700 to review your current Medigap premium against other carriers offering the same standardized plan letter in your state.",
+  }
 ];
 
 export default function WhenCanIChangeMyMedicareSupplementPlanFor2026() {
@@ -535,6 +551,7 @@ export default function WhenCanIChangeMyMedicareSupplementPlanFor2026() {
             <div className="text-sm text-gray-600 mt-4">State help: <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> offers free Medigap counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a> or contact the <a href="https://www.nj.gov/dobi/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/dobi/index.shtml" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or the <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free local Medigap counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/division_consumers/insurance/ship.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">New Jersey State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </main>
   );

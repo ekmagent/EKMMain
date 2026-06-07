@@ -96,6 +96,12 @@ const faqs = [
     answer:
       "No. You should keep your existing coverage in place until your Plan G application is approved and the new policy's effective date is confirmed. Dropping coverage too early can leave you with gaps in protection. Once approved, you can coordinate the cancellation of your prior plan with the start date of Plan G.",
   }
+,
+  {
+    question: "Can I switch to Plan G from another Medigap policy at 69?",
+    answer:
+      "Yes, you can apply to switch Medigap policies at any time, but outside your Medigap Open Enrollment Period you'll typically need to pass medical underwriting. Some states offer broader switching rights under state law. Check with your state insurance department or a licensed broker before dropping your current policy.",
+  }
 ];
 
 export default function EnrollInMedicareSupplementPlanGAt69() {

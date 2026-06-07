@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "what time of the year can you switch medicare supplement plans | Free Help from a Licensed Broker | MedicareYourself",
   description:
-    "When can you switch Medicare Supplement plans? Learn Medigap windows, guaranteed issue rights & underwriting rules. Free broker help — call 855-559-1700.",
+    "When can you switch Medicare Supplement plans? Learn Medigap open enrollment, guaranteed issue rights & underwriting. Free broker help — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/what-time-of-year-can-you-switch-medicare-supplement-plans" },
   openGraph: {
     title:
@@ -110,6 +110,22 @@ const faqs = [
     question: "Can I switch from Medicare Advantage back to Original Medicare with a Medigap plan?",
     answer:
       "Yes, you can switch from Medicare Advantage to Original Medicare during the Annual Enrollment Period or the Medicare Advantage Open Enrollment Period. However, getting a Medigap policy afterward may require medical underwriting unless you qualify for a guaranteed issue right, such as a trial right within your first year on Advantage.",
+  }
+,
+  {
+    question: "What is the 30-day free look period when switching Medigap plans?",
+    answer:
+      "When you buy a new Medigap policy, you get 30 days to decide if you want to keep it. During this free look period, you should keep your old policy active and pay both premiums. If you decide to keep the new policy, you can then cancel the old one.",
+  },
+  {
+    question: "What are guaranteed issue rights for Medigap?",
+    answer:
+      "Guaranteed issue rights are situations where insurance companies must sell you a Medigap policy, cover all your pre-existing conditions, and cannot charge you more based on health. Common triggers include losing employer coverage, your Medicare Advantage plan leaving your area, or moving outside your plan's service area. You generally have 63 days from the qualifying event to apply.",
+  },
+  {
+    question: "Should I work with a broker when switching Medicare Supplement plans?",
+    answer:
+      "A licensed Medicare broker can compare Medigap rates from multiple carriers at no cost to you and help determine whether you'll face underwriting. Broker services are free because carriers pay the commission directly. Call 855-559-1700 to review your options with Anthony Orner.",
   }
 ];
 
@@ -358,6 +374,7 @@ export default function WhatTimeOfYearCanYouSwitchMedigap() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents: contact the <a href="https://www.state.nj.us/dobi/insurance.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> to learn about any extra state-level Medigap switching rights.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> or the <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free state-specific Medigap guidance.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents: contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a> or the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> to learn about additional state rights to switch Medigap plans.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> to learn about state-specific Medigap switching rights.</div>
       </section>
     </main>
   );

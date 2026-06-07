@@ -282,6 +282,22 @@ const programs = [
     answer:
       "Yes. If you qualify for QMB, SLMB, or QI, you are automatically enrolled in Extra Help for Part D prescription drug costs. You do not need to file a separate Extra Help application with Social Security in that case.",
   }
+,
+  {
+    question: "How do I apply for a Medicare Savings Program?",
+    answer:
+      "You apply through your state Medicaid office, not through Medicare or Social Security. Each state runs its own application process and may have different income and asset rules. Even if you're unsure whether you qualify, Medicare recommends applying anyway because the state makes the final determination. In New Jersey, applications go through NJ FamilyCare.",
+  },
+  {
+    question: "Does Extra Help automatically come with Medicaid or SSI?",
+    answer:
+      "Yes. If you have full Medicaid, Supplemental Security Income (SSI), or qualify for a Medicare Savings Program, you are automatically enrolled in Extra Help for Part D prescription drug costs. You don't need to file a separate application. Social Security will send a notice confirming your Extra Help status.",
+  },
+  {
+    question: "Can a licensed broker help me apply for these programs?",
+    answer:
+      "A licensed Medicare broker can explain the programs, help you understand eligibility, and point you to the correct state and federal applications. Brokers are paid by insurance carriers for Medicare Advantage and Part D enrollments, so guidance on Extra Help and Medicare Savings Programs is provided at no cost. Call 855-559-1700 to review your situation.",
+  }
 ];
 
 export default function LowIncomeMedicarePage() {

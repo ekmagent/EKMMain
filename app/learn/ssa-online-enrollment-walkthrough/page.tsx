@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title:
     "How to Enroll in Medicare Online at SSA.gov (Step-by-Step Walkthrough)",
   description:
-    "Step-by-step SSA.gov Medicare enrollment walkthrough — apply for Part A & Part B online in about 10 minutes. Call 855-559-1700 for free Part B guidance.",
+    "Step-by-step SSA.gov Medicare enrollment walkthrough — apply for Part A & Part B online in about 10 minutes. Call 855-559-1700 for free guidance.",
   alternates: {
     canonical: `${SITE_URL}/learn/ssa-online-enrollment-walkthrough`,
   },
@@ -912,6 +912,22 @@ const steps = [
     question: "What if I make a mistake on my SSA Medicare application?",
     answer:
       "Once you click Submit Now and sign the Electronic Signature Agreement, you cannot modify the application online. If you notice an error, contact the Social Security Administration directly to correct it. You can also call us at 855-559-1700 for free guidance before you submit.",
+  }
+,
+  {
+    question: "Do I have to contact Medicare to sign up for Part A and Part B?",
+    answer:
+      "No. Enrollment in Original Medicare is handled by the Social Security Administration, not Medicare itself. You can apply online at ssa.gov, by phone, or by visiting a local Social Security office.",
+  },
+  {
+    question: "Can I change my application after I submit it on SSA.gov?",
+    answer:
+      "No. Once you click Submit Now and agree to the Electronic Signature Agreement, the application cannot be modified online. If you need to make changes, you will have to contact the Social Security Administration directly.",
+  },
+  {
+    question: "What documents do I need before starting the online application?",
+    answer:
+      "You will need your Social Security number and a valid form of identification, such as a driver's license, to verify your identity through Login.gov or ID.me. Having details about any current health insurance coverage and employment history ready will also help you move through the application faster.",
   }
 ];
 

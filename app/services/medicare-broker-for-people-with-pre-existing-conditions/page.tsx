@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare broker for people with pre-existing conditions | Free Guidance | MedicareYourself",
   description:
-    "Medicare broker for people with pre-existing conditions — find lenient carriers, guaranteed issue rights, and free plan comparisons. Call 855-559-1700 today.",
+    "Medicare broker for people with pre-existing conditions — compare lenient carriers, guaranteed issue rights, and Medigap options. Free help at 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-people-with-pre-existing-conditions" },
   openGraph: {
     title:
@@ -215,6 +215,17 @@ const faqs = [
     answer:
       "As of 2021, people with ESRD can enroll in Medicare Advantage plans, which was previously restricted. ESRD does not affect eligibility for Original Medicare or Part D. Medigap availability for ESRD beneficiaries varies by state, and a broker can confirm which supplement options are available where you live.",
   }
+,
+  {
+    question: "Which pre-existing conditions are hardest to get approved with for Medigap underwriting?",
+    answer:
+      "Carriers vary, but conditions commonly flagged during underwriting include recent cancer treatment, COPD requiring oxygen, congestive heart failure, kidney disease requiring dialysis, and recent strokes or heart attacks. Each carrier publishes its own knockout questions and look-back periods. A broker who works with multiple carriers can match your specific health history to the carrier most likely to approve you. Call 855-559-1700 to review your options before applying.",
+  },
+  {
+    question: "Does a Medicare Advantage plan have a waiting period for pre-existing conditions?",
+    answer:
+      "No. Medicare Advantage plans cannot impose waiting periods or deny enrollment based on pre-existing conditions, with the historical exception of End-Stage Renal Disease, which was removed as a barrier starting in 2021. As long as you're enrolled in Part A and Part B and live in the plan's service area, you can join during a valid election period regardless of health history.",
+  }
 ];
 
 export default function MedicareBrokerPreExistingConditions() {
@@ -416,6 +427,7 @@ export default function MedicareBrokerPreExistingConditions() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
     </main>
   );

@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "How to Sign Up for Medicare (2026 Guide)",
   description:
-    "Step-by-step 2026 guide to signing up for Medicare: enrollment windows, applying through SSA, and avoiding Part B penalties. Free broker help — 855-559-1700.",
+    "2026 step-by-step guide to signing up for Medicare: enrollment windows, applying at SSA, and avoiding Part B penalties. Free broker help at 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/how-to-sign-up-for-medicare` },
   openGraph: {
     title: "How to Sign Up for Medicare (2026 Guide)",
@@ -801,6 +801,22 @@ const faqs = [
     question: "Do I need to sign up for Medicare if I am still working?",
     answer:
       "If you have creditable health coverage through your or your spouse's active employment, you may delay Part B without penalty and enroll later through a Special Enrollment Period. Confirm with your HR department that your coverage qualifies as creditable before delaying. Most people still enroll in premium-free Part A at 65.",
+  }
+,
+  {
+    question: "Can I sign up for Medicare if I am still working at 65?",
+    answer:
+      "Yes. You can enroll in Medicare at 65 even if you are still working. Many people sign up for premium-free Part A and delay Part B if they have creditable employer coverage from active employment. Check with your HR department to confirm your group plan qualifies before delaying Part B.",
+  },
+  {
+    question: "How long does it take to get my Medicare card after applying?",
+    answer:
+      "After applying through the Social Security Administration at ssa.gov/medicare, most people receive their red, white, and blue Medicare card in the mail within about 3 weeks. If you are automatically enrolled, the card arrives about 3 months before your 65th birthday month. You can also print a replacement card from your my Social Security account.",
+  },
+  {
+    question: "What happens if I miss my Medicare Initial Enrollment Period?",
+    answer:
+      "If you miss your IEP and do not qualify for a Special Enrollment Period, you must wait for the General Enrollment Period (January 1 – March 31) to sign up for Part B, with coverage starting the month after you enroll. You may also owe a permanent Part B late enrollment penalty added to your monthly premium for as long as you have Medicare. Call 855-559-1700 if you need help reviewing your options.",
   }
 ];
 

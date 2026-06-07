@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "how much does the best medicare supplemental insurance cost per month | Free Plan-by-Plan Breakdown | MedicareYourself",
   description:
-    "Compare Medicare Supplement Plan G and Plan N monthly premiums across top carriers and lock in your lowest rate. Call 855-559-1700 for a free quote.",
+    "Compare Medicare Supplement Plan G and Plan N monthly premiums across top-rated carriers and lock in your lowest rate. Call 855-559-1700 for a free quote.",
   alternates: { canonical: "https://medicareyourself.com/services/how-much-does-the-best-medicare-supplemental-insurance-cost-per-month" },
   openGraph: {
     title:
@@ -217,6 +217,22 @@ const faqs = [
     question: "Will my Medigap premium increase over time?",
     answer:
       "Most Medigap policies are attained-age-rated, meaning the premium increases as you get older. Premiums can also rise due to inflation and overall claims experience within the carrier's block of business. Comparing carriers periodically helps you make sure you're still getting a competitive rate.",
+  }
+,
+  {
+    question: "Does where I live affect how much I pay for a Medigap plan?",
+    answer:
+      "Yes. Medigap premiums vary by state, county, and even zip code because carriers price based on local claims experience and competition. Two people with the same plan letter and the same carrier can pay very different premiums depending on their location. That's why comparing carrier rates in your specific zip code is the only reliable way to find the lowest price.",
+  },
+  {
+    question: "Will my Medigap premium go up every year?",
+    answer:
+      "Most Medigap policies are attained-age-rated, meaning premiums increase as you get older, plus annual adjustments for inflation and claims. Issue-age and community-rated policies don't increase with age but can still rise due to inflation. Reviewing your rate annually and shopping carriers can help you stay on the lowest available premium if you can pass underwriting.",
+  },
+  {
+    question: "Can I switch Medigap plans later to save money?",
+    answer:
+      "You can apply to switch Medigap plans or carriers at any time, but outside your Open Enrollment Period or a guaranteed-issue situation, you'll typically go through medical underwriting. If you're in good health, switching can lock in a lower premium. Call 855-559-1700 to compare your current rate against other carriers before renewing.",
   }
 ];
 
@@ -472,6 +488,7 @@ export default function HowMuchDoesBestMedicareSupplementalInsuranceCostPerMonth
             <div className="text-sm text-gray-600 mt-4">State help: <a href="https://www.nj.gov/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> &middot; <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">SHIP — Free State Medicare Counseling</a></div>
             <div className="text-sm text-gray-600 mt-4">For free, unbiased counseling, contact your <a href="https://www.shiphelp.org/about-medicare/regional-ship-location" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a> or the <a href="https://www.nj.gov/dobi/division_insurance/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">New Jersey SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

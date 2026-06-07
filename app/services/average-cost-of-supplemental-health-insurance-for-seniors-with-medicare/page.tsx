@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "average cost of supplemental health insurance for seniors with medicare | Free Broker Comparison | MedicareYourself",
   description:
-    "Compare 2026 Medigap costs by carrier, age, and state. Call 855-559-1700 for a free licensed broker rate comparison and lock in your lowest monthly premium.",
+    "Compare 2026 Medigap premiums by carrier, age, and state. Call 855-559-1700 for a free licensed broker rate review and lock in your lowest monthly cost.",
   alternates: { canonical: "https://medicareyourself.com/services/average-cost-of-supplemental-health-insurance-for-seniors-with-medicare" },
   openGraph: {
     title:
@@ -565,6 +565,22 @@ const faqs = [
     answer:
       "Yes. Medigap premiums vary widely by zip code because carriers price based on local claims experience, state regulations, and competition. The same Plan G from the same insurer can cost noticeably more or less depending on where you live, which is why a licensed broker comparison across carriers in your specific state matters.",
   }
+,
+  {
+    question: "What are the three Medigap pricing methods and why do they matter?",
+    answer:
+      "Insurance companies set Medigap premiums using one of three methods: community-rated (everyone pays the same regardless of age), issue-age-rated (based on the age you bought the policy and doesn't increase due to age), or attained-age-rated (starts lower but increases as you get older). Attained-age policies often look cheapest at 65 but can become the most expensive over time. Knowing which method your carrier uses helps you predict long-term costs.",
+  },
+  {
+    question: "Does my zip code really affect what I pay for a Medigap plan?",
+    answer:
+      "Yes. Medicare.gov confirms that Medigap premiums vary widely based on where you live, even for the exact same lettered plan. Carriers price by state and often by zip code based on local claims experience and medical costs. Two neighbors in different counties can pay noticeably different premiums for identical coverage.",
+  },
+  {
+    question: "Can a licensed broker actually find me a lower rate than going direct?",
+    answer:
+      "A licensed independent broker compares rates from multiple carriers in your zip code at no cost to you, since commissions are paid by the insurance company and built into the standardized premium. Because every lettered Medigap plan offers identical benefits, the only real variable is price and carrier stability. Call 855-559-1700 to compare your options side by side.",
+  }
 ];
 
 export default function AverageCostSupplementalInsurancePage() {
@@ -792,6 +808,7 @@ export default function AverageCostSupplementalInsurancePage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a> or contact the <a href="https://www.nj.gov/dobi/division_insurance/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents: contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">For free, unbiased local counseling on Medigap pricing, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> or the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify carrier rates and file complaints through the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a> or get free unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP</a>.</div>
       </section>
     </main>
   );

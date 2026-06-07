@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "find a medicare agent in neptune nj | Free No-Obligation Help | MedicareYourself",
   description:
-    "Find a Medicare agent in Neptune, NJ for free, unbiased plan comparisons. Anthony Orner helps Monmouth County residents enroll—call 855-559-1700 today.",
+    "Find a Medicare agent in Neptune, NJ for free, unbiased plan comparisons. Anthony Orner helps Monmouth County residents choose with confidence—call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/find-a-medicare-agent-in-neptune-nj" },
   openGraph: {
     title:
@@ -125,6 +125,12 @@ const faqs = [
     question: "Does a Medicare agent help with Part D prescription drug plans?",
     answer:
       "Yes. A licensed agent can run your medication list through each available Part D plan to compare formularies, pharmacy networks, and total annual drug costs. This is especially useful during the Annual Enrollment Period when plans update their drug tiers and pricing.",
+  }
+,
+  {
+    question: "Can a Medicare agent help me switch plans during the Annual Enrollment Period?",
+    answer:
+      "Yes. The Annual Enrollment Period runs from October 15 through December 7 each year, and a licensed agent can compare your current plan against new options for the coming year. Changes you make during this window take effect January 1. An independent broker can also help you review Part D drug coverage, since formularies and pharmacy networks change every year.",
   }
 ];
 
@@ -347,6 +353,7 @@ export default function FindMedicareAgentNeptuneNJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
       </article>
     </>

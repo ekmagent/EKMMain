@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "free medicare broker new jersey | No Fees, No Obligation | MedicareYourself",
   description:
-    "Free New Jersey Medicare broker — compare Medigap, Advantage & Part D side-by-side with a licensed independent broker. No fees, no obligation. Call 855-559-1700.",
+    "Free New Jersey Medicare broker — compare Medigap, Advantage & Part D with a licensed independent broker. No fees, no obligation. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/free-medicare-broker-new-jersey" },
   openGraph: {
     title:
@@ -158,6 +158,22 @@ const faqs = [
     question: "Does working with a broker cost more than enrolling directly with a carrier?",
     answer:
       "No. Medicare plan premiums are filed with CMS and the state, so the price is identical whether you enroll through a broker, the carrier, or medicare.gov. A broker simply adds licensed guidance and ongoing service at no extra cost to you.",
+  }
+,
+  {
+    question: "When is the best time to enroll in a Medigap plan in New Jersey?",
+    answer:
+      "The best time is during your 6-month Medigap Open Enrollment Period, which begins the month you're 65 or older and enrolled in Medicare Part B. During this window, you have guaranteed issue rights and cannot be denied coverage or charged more for health reasons. A New Jersey broker can help you compare Medigap plans before this window closes.",
+  },
+  {
+    question: "Does a Medicare broker help after I'm already enrolled?",
+    answer:
+      "Yes. A broker can review your current coverage each year during the Annual Enrollment Period (October 15 to December 7) to make sure your plan still fits your doctors, medications, and budget. Ongoing service is part of working with an independent broker and does not cost extra.",
+  },
+  {
+    question: "What information should I have ready when I call a New Jersey Medicare broker?",
+    answer:
+      "Have your Medicare card or Medicare number, a list of your current prescriptions with dosages, and the names of doctors or hospitals you want to keep. This lets the broker run an accurate plan comparison on the first call and identify which Medigap or Medicare Advantage plans match your needs.",
   }
 ];
 
@@ -387,6 +403,7 @@ export default function FreeMedicareBrokerNewJersey() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.nj.gov/humanservices/doas/services/q-z/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> offers free, unbiased Medicare counseling for New Jersey residents.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey resources: <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> &middot; <a href="https://www.nj.gov/getcoverednj/help/local/" rel="noopener noreferrer" target="_blank" className="underline">GetCoveredNJ Local Assistance</a></div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free local Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

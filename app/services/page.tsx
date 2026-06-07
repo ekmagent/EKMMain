@@ -9,7 +9,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Medicare Services & Guides | MedicareYourself",
   description:
-    "Compare Medigap, Medicare Advantage & Part D with a licensed independent broker in NJ & 34 states. Free, unbiased plan reviews — call 855-559-1700 today.",
+    "Compare Medigap, Medicare Advantage & Part D with a licensed independent broker in NJ & 34 states. Free, unbiased plan reviews — call 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/services` },
   openGraph: {
     title: "Medicare Services & Guides | MedicareYourself",
@@ -854,6 +854,22 @@ const STATIC_CATEGORIES = [
     answer:
       "Yes. Medicare Advantage and Part D plans can typically be changed during the Annual Enrollment Period each fall, and Medigap plans can often be changed year-round (though medical underwriting may apply outside guaranteed-issue windows). Call 855-559-1700 to review your options before making a switch.",
   }
+,
+  {
+    question: "What does a licensed Medicare insurance broker do?",
+    answer:
+      "A licensed Medicare broker helps you compare Medigap, Medicare Advantage, and Part D plans from multiple insurance carriers so you can pick coverage that fits your doctors, prescriptions, and budget. Brokers are appointed with carriers and must be licensed in each state where they sell. Our help is free to you — call 855-559-1700 to review your options.",
+  },
+  {
+    question: "Is there a cost to work with MedicareYourself?",
+    answer:
+      "No. Like other independent Medicare brokers, we are paid directly by the insurance carriers when you enroll, so there is no fee or markup passed on to you. You pay the same plan premium whether you enroll on your own or with our guidance.",
+  },
+  {
+    question: "Can I get help directly from Medicare instead?",
+    answer:
+      "Yes. You can contact Medicare 24/7 at 1-800-MEDICARE (1-800-633-4227), TTY 1-877-486-2048, or use the live chat on Medicare.gov. A broker adds value by comparing private plan options side-by-side and supporting you year after year during the Annual Enrollment Period.",
+  }
 ];
 
 export default function ServicesHubPage() {
@@ -991,6 +1007,7 @@ export default function ServicesHubPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents: <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank">NJ State Health Insurance Assistance Program (SHIP)</a> offers free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
     </>
   );

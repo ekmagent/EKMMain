@@ -215,6 +215,22 @@ const faqs = [
     answer:
       "Your best opportunity is the 6-month Medigap Open Enrollment Period, which starts the month you're 65 or older and enrolled in Part B. During this window, you have guaranteed issue rights and cannot be denied coverage or charged more due to health. Outside this window, carriers in NJ can use medical underwriting.",
   }
+,
+  {
+    question: "Does New Jersey use community rating for Medigap?",
+    answer:
+      "Yes. New Jersey uses community-rated pricing for Medigap policies, which means premiums are not based on your individual age at the time of purchase. All policyholders of the same plan in the state are generally charged the same base rate, though premiums can still change over time due to inflation and other factors.",
+  },
+  {
+    question: "When can I enroll in a Medigap plan in New Jersey?",
+    answer:
+      "The best time to enroll is during your 6-month Medigap Open Enrollment Period, which starts the month you are 65 or older and enrolled in Medicare Part B. During this window, you have guaranteed issue rights and cannot be denied coverage or charged more due to health conditions. Outside this window, medical underwriting may apply unless you qualify for a specific guaranteed issue right.",
+  },
+  {
+    question: "What does an independent Medicare broker actually do for me?",
+    answer:
+      "An independent broker reviews your doctors, prescriptions, budget, and travel needs, then compares Medigap, Medicare Advantage, and Part D plans from multiple carriers. They handle the enrollment paperwork, explain the tradeoffs, and remain your point of contact for plan questions or annual reviews at no cost to you.",
+  }
 ];
 
 export default function FreeIndependentMedicareBrokerNearMeNewJersey() {

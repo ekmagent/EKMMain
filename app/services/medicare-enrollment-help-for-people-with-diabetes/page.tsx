@@ -309,6 +309,22 @@ const faqs = [
     answer:
       "Yes, during the Annual Enrollment Period from October 15 to December 7, you can change your Medicare Advantage or Part D plan for any reason, including formulary changes. You may also qualify for a Special Enrollment Period in certain situations. Call 855-559-1700 for help reviewing whether your current plan still fits your prescriptions.",
   }
+,
+  {
+    question: "Does Medicare Part D cover insulin?",
+    answer:
+      "Yes. Medicare Part D plans cover insulin, and under the Inflation Reduction Act, the monthly copay for a covered insulin product is capped. Insulin used with a traditional pump is covered under Part B as durable medical equipment instead of Part D. Call 855-559-1700 to make sure your specific insulin is on your plan's formulary before enrolling.",
+  },
+  {
+    question: "Are diabetes self-management training and nutrition counseling covered?",
+    answer:
+      "Yes. Medicare Part B covers Diabetes Self-Management Training (DSMT) when ordered by your doctor, as well as Medical Nutrition Therapy (MNT) for people with diabetes or kidney disease. These services help you learn how to monitor blood sugar, manage medications, and plan meals. Your doctor must provide a written referral for these benefits.",
+  },
+  {
+    question: "Will Medicare pay for therapeutic shoes if I have diabetes?",
+    answer:
+      "Yes. Medicare Part B covers one pair of therapeutic shoes and inserts per calendar year for people with diabetes who meet specific medical criteria, such as having neuropathy or a history of foot ulcers. Your doctor must certify the need, and the shoes must be prescribed by a podiatrist or qualified physician and supplied by a Medicare-approved provider.",
+  }
 ];
 
 export default function MedicareEnrollmentHelpDiabetes() {

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare broker for people with parkinsons | Free Consultation | MedicareYourself",
   description:
-    "Medicare broker for people with Parkinson's — Anthony Orner matches your neurologists, meds & therapy needs to the right plan. Call 855-559-1700 for a free review.",
+    "Medicare broker for people with Parkinson's — Anthony Orner matches your neurologists, meds & therapy needs to the right plan. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-people-with-parkinsons" },
   openGraph: {
     title:

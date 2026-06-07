@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "best medicare supplement for people on disability | Free Plan Review | MedicareYourself",
   description:
-    "Find the best Medicare Supplement for people on disability under 65 — compare state protections and plan options. Call 855-559-1700 for free expert help.",
+    "Best Medicare Supplement for people on disability under 65 — compare state protections, plan letters, and pricing. Call 855-559-1700 for free expert guidance.",
   alternates: { canonical: "https://medicareyourself.com/services/best-medicare-supplement-for-people-on-disability" },
   openGraph: {
     title:
@@ -114,6 +114,12 @@ const faqs = [
     question: "Does Medicare cover prescription drugs for people on disability?",
     answer:
       "Original Medicare (Parts A and B) does not include outpatient prescription drug coverage. Disability beneficiaries can enroll in a standalone Part D plan alongside a Medigap policy, or choose a Medicare Advantage plan that bundles drug coverage. We can help you compare both routes at 855-559-1700.",
+  }
+,
+  {
+    question: "Which Medigap plan letter is most popular for people on disability?",
+    answer:
+      "Plan G and Plan N are commonly chosen because they offer broad coverage of out-of-pocket costs after the Part B deductible. For people under 65, availability and pricing vary widely by state and carrier. We can review which plan letters carriers in your state actually sell to disability beneficiaries — call 855-559-1700.",
   }
 ];
 
@@ -340,6 +346,7 @@ export default function BestMedicareSupplementForPeopleOnDisability() {
             <div className="text-sm text-gray-600 mt-4">Free state counseling: <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">Find your local SHIP program</a> for unbiased Medicare guidance in your state.</div>
             <div className="text-sm text-gray-600 mt-4">Need state-specific guidance? Contact your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">Get free unbiased help from your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a> to confirm under-65 Medigap rules where you live.</div>
+            <div className="text-sm text-gray-600 mt-4">Need state-specific help? Contact your <a href="https://www.shiphelp.org/about-medicare/regional-ship-location" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
       </section>
       </article>
     </>

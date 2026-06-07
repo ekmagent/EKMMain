@@ -142,6 +142,17 @@ const faqs = [
     answer:
       "It depends on your providers and medications. Original Medicare with a standalone Part D plan and Medigap supplement gives you broad access to any psychiatrist or therapist who accepts Medicare nationwide. Medicare Advantage plans may include extra behavioral health benefits but use networks and require referrals or prior authorization for some psychiatric services. A broker can compare both paths against your current treatment team and drug list.",
   }
+,
+  {
+    question: "Does Medicare cover therapy and counseling for bipolar disorder?",
+    answer:
+      "Yes. Medicare Part B covers outpatient mental health services including individual and group psychotherapy, family counseling related to your treatment, and visits with psychiatrists, clinical psychologists, clinical social workers, and nurse practitioners. After meeting the Part B deductible, you typically pay a coinsurance for each visit. Telehealth therapy visits are also covered when provided by Medicare-enrolled clinicians.",
+  },
+  {
+    question: "Can a Medicare broker help me compare plans based on my specific psychiatric medications?",
+    answer:
+      "Yes. Anthony Orner reviews your full medication list — including mood stabilizers, antipsychotics, and antidepressants — and runs them through each available Part D and Medicare Advantage formulary in your ZIP code. The comparison shows tier placement, copays, and total annual drug cost so you can pick the plan with the lowest out-of-pocket spend. Call 855-559-1700 for a free comparison.",
+  }
 ];
 
 export default function MedicareBrokerBipolarDisorderPage() {
@@ -431,6 +442,7 @@ export default function MedicareBrokerBipolarDisorderPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free local counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

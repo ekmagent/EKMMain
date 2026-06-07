@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
   description:
-    "IRMAA explained: how Medicare's 2026 income surcharge affects Part B and Part D, who pays it, and how to appeal with SSA-44. Free broker help: 855-559-1700.",
+    "IRMAA explained: how Medicare's 2026 income surcharge affects Part B and Part D, who pays, and how to appeal with SSA-44. Free broker help: 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/irmaa-medicare-surcharge` },
   openGraph: {
     title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
@@ -784,6 +784,22 @@ const faqs = [
     question: "Is IRMAA recalculated every year?",
     answer:
       "Yes. Social Security reviews your tax return data from the IRS each year and recalculates your IRMAA based on your most recent MAGI. If your income drops below the threshold, the surcharge goes away automatically the following year — you don't need to reapply.",
+  }
+,
+  {
+    question: "How do I appeal an IRMAA determination?",
+    answer:
+      "If you've had a life-changing event that reduced your income, you can file Form SSA-44 with the Social Security Administration to request a reduction or removal of your IRMAA surcharge. Qualifying events include retirement, marriage, divorce, death of a spouse, or loss of pension income. You'll need documentation such as a marriage certificate, death certificate, or proof of work stoppage.",
+  },
+  {
+    question: "Will I pay IRMAA forever once I'm assessed?",
+    answer:
+      "No. IRMAA is recalculated every year based on your most recent tax return on file with the IRS, which is typically from two years prior. If your income drops below the threshold in a future year, your IRMAA surcharge will go away automatically. You don't need to reapply each year.",
+  },
+  {
+    question: "Can a Medicare broker help me plan around IRMAA?",
+    answer:
+      "Yes. While a broker cannot reduce your IRMAA directly, we can help you understand how plan choices, enrollment timing, and Part D selection interact with your income situation. Call 855-559-1700 for a free review of your Medicare options.",
   }
 ];
 

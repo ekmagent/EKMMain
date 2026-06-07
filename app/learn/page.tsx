@@ -215,6 +215,12 @@ const GUIDES = [
     answer:
       "Yes. Every state has a State Health Insurance Assistance Program (SHIP) that offers free, unbiased Medicare counseling to beneficiaries and their families. SHIP counselors can answer questions about enrollment, coverage choices, and assistance programs. You can also call 855-559-1700 if you'd like to speak with a licensed broker.",
   }
+,
+  {
+    question: "Can I switch from Medicare Advantage back to Original Medicare later?",
+    answer:
+      "Yes. You can switch during the Annual Enrollment Period each fall or during the Medicare Advantage Open Enrollment Period in the first quarter of the year. Keep in mind that if you want to add a Medigap policy after leaving Medicare Advantage, you may be subject to medical underwriting outside of a guaranteed-issue window. Call 855-559-1700 to review your options before making a switch.",
+  }
 ];
 
 export default function LearnHubPage() {
