@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for COPD patients | Free Plan Review | MedicareYourself",
   description:
-    "Medicare broker for COPD patients — compare plans covering inhalers, oxygen, and pulmonary rehab. Free review with Anthony Orner. Call 855-559-1700 today.",
+    "Medicare broker for COPD patients — compare plans covering inhalers, oxygen & pulmonary rehab. Free review with Anthony Orner. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-copd-patients" },
   openGraph: {
     title:
@@ -504,6 +504,7 @@ export default function MedicareBrokerForCOPDPatients() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Need local help? Contact <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">New Jersey SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey beneficiaries: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> offers free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

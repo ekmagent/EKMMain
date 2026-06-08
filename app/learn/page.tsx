@@ -221,6 +221,12 @@ const GUIDES = [
     answer:
       "Yes. You can switch during the Annual Enrollment Period each fall or during the Medicare Advantage Open Enrollment Period in the first quarter of the year. Keep in mind that if you want to add a Medigap policy after leaving Medicare Advantage, you may be subject to medical underwriting outside of a guaranteed-issue window. Call 855-559-1700 to review your options before making a switch.",
   }
+,
+  {
+    question: "Where can I find official Medicare information from the government?",
+    answer:
+      "The official source for Medicare information is medicare.gov, which covers the parts of Medicare, costs, enrollment, and your rights. You can also call 1-800-MEDICARE for federal assistance. For personalized help comparing private plan options in your state, call 855-559-1700 to speak with a licensed broker.",
+  }
 ];
 
 export default function LearnHubPage() {

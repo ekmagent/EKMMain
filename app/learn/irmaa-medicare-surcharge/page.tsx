@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
   description:
-    "IRMAA explained: how Medicare's 2026 income surcharge affects Part B and Part D, who pays, and how to appeal with SSA-44. Free broker help: 855-559-1700.",
+    "IRMAA explained: how Medicare's 2026 income surcharge affects Part B and Part D, who pays, and how to appeal with SSA-44. Free broker help at 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/irmaa-medicare-surcharge` },
   openGraph: {
     title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
@@ -800,6 +800,22 @@ const faqs = [
     question: "Can a Medicare broker help me plan around IRMAA?",
     answer:
       "Yes. While a broker cannot reduce your IRMAA directly, we can help you understand how plan choices, enrollment timing, and Part D selection interact with your income situation. Call 855-559-1700 for a free review of your Medicare options.",
+  }
+,
+  {
+    question: "How do I appeal an IRMAA determination?",
+    answer:
+      "If you experienced a life-changing event that reduced your income, you can file Form SSA-44 with the Social Security Administration to request a reconsideration. Common qualifying events include retirement, marriage, divorce, death of a spouse, or loss of pension income. You'll need documentation supporting both the event and your reduced income estimate.",
+  },
+  {
+    question: "When will I find out if I owe IRMAA?",
+    answer:
+      "Social Security sends an Initial IRMAA Determination notice in late fall before the new plan year begins. The notice explains the surcharge amount, the tax year used to calculate it, and your appeal rights. If you disagree, you generally have 60 days from the date of the notice to request reconsideration.",
+  },
+  {
+    question: "Does IRMAA go away if my income drops?",
+    answer:
+      "Yes. IRMAA is recalculated each year based on your most recent tax return on file with the IRS. If your income falls below the threshold, the surcharge will automatically come off the following year. If your income dropped due to a qualifying life-changing event, you don't have to wait — file Form SSA-44 to request a sooner adjustment.",
   }
 ];
 

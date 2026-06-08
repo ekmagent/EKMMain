@@ -397,6 +397,22 @@ const faqs = [
     answer:
       "Yes. Medically necessary MRIs are covered under Medicare Part B when ordered by your doctor to diagnose or monitor MS. You'll be responsible for the Part B deductible and coinsurance unless you have a Medigap plan that fills those gaps. Medicare Advantage plans may require prior authorization before the scan is approved.",
   }
+,
+  {
+    question: "Does Medicare cover MRIs needed to monitor MS progression?",
+    answer:
+      "Yes. Medically necessary MRIs ordered by your doctor to monitor MS are covered under Medicare Part B as diagnostic imaging. You'll typically be responsible for the Part B deductible and coinsurance unless a Medigap plan covers those costs. Medicare Advantage plans cover MRIs too, but may require prior authorization before the scan is approved.",
+  },
+  {
+    question: "Will Medicare cover physical or occupational therapy for MS?",
+    answer:
+      "Medicare Part B covers medically necessary physical therapy, occupational therapy, and speech-language pathology services when prescribed by your doctor. There is no longer a hard cap on therapy visits, but services must remain medically necessary and documented. A licensed broker can help confirm whether your specific plan adds any extra rehab benefits.",
+  },
+  {
+    question: "What happens if my MS specialist isn't in a Medicare Advantage network?",
+    answer:
+      "Most Medicare Advantage plans restrict you to in-network providers except in emergencies, which can be a problem if you've built a relationship with a specific neurologist. Original Medicare paired with a Medigap plan lets you see any provider nationwide who accepts Medicare. We review your current care team before recommending any plan structure.",
+  }
 ];
 
 export default function MedicareBrokerForMSPatients() {

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for congestive heart failure patients | Free Plan Review | MedicareYourself",
   description:
-    "Medicare broker for CHF patients — Anthony Orner finds plans covering cardiac rehab, heart meds & hospital stays. Free plan review: 855-559-1700.",
+    "Medicare broker for CHF patients — Anthony Orner finds plans covering cardiac rehab, heart meds & hospital stays. Call 855-559-1700 for a free plan review.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-congestive-heart-failure-patients" },
   openGraph: {
     title:
@@ -321,6 +321,12 @@ const faqs = [
     answer:
       "Most heart failure medications are covered under Medicare Part D prescription drug plans, but coverage and tier placement vary by plan formulary. Some brand-name drugs like Entresto may sit on higher tiers with larger copays. Anthony can compare formularies side-by-side to find the plan that covers your specific medications at the lowest cost.",
   }
+,
+  {
+    question: "Does Medicare cover heart failure medications under Part D?",
+    answer:
+      "Yes. Medicare Part D plans cover most heart failure medications, including ACE inhibitors, beta blockers, diuretics, and SGLT2 inhibitors when prescribed for CHF. Coverage and copays vary by plan formulary, so it's important to match your specific drug list to a plan that covers all of them at the lowest tier possible.",
+  }
 ];
 
 export default function MedicareBrokerCHFPage() {
@@ -554,6 +560,7 @@ export default function MedicareBrokerCHFPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
       </section>
     </main>
   );

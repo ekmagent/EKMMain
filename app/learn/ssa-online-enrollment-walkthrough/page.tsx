@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title:
     "How to Enroll in Medicare Online at SSA.gov (Step-by-Step Walkthrough)",
   description:
-    "Step-by-step SSA.gov Medicare enrollment walkthrough — apply for Part A & Part B online in about 10 minutes. Call 855-559-1700 for free guidance.",
+    "Step-by-step SSA.gov Medicare enrollment walkthrough — apply for Part A & Part B online in about 10 minutes. Call 855-559-1700 for free expert help.",
   alternates: {
     canonical: `${SITE_URL}/learn/ssa-online-enrollment-walkthrough`,
   },
@@ -928,6 +928,22 @@ const steps = [
     question: "What documents do I need before starting the online application?",
     answer:
       "You will need your Social Security number and a valid form of identification, such as a driver's license, to verify your identity through Login.gov or ID.me. Having details about any current health insurance coverage and employment history ready will also help you move through the application faster.",
+  }
+,
+  {
+    question: "Do I contact Medicare or Social Security to enroll in Part A and Part B?",
+    answer:
+      "You sign up for Medicare Part A and Part B through the Social Security Administration, not Medicare itself. The fastest way is to apply online at ssa.gov by creating a my Social Security account. You can also apply by phone or at a local Social Security office.",
+  },
+  {
+    question: "How long does the online SSA Medicare application take?",
+    answer:
+      "Most people complete the online application in about 10 minutes if they have their information ready. You'll need your Social Security number, a valid ID for identity verification, and details about any current health coverage. Once submitted, you cannot edit the application.",
+  },
+  {
+    question: "Can I apply for Medicare online without starting Social Security retirement benefits?",
+    answer:
+      "Yes. During the application, you can choose to apply for Medicare only and delay your retirement benefits. This is a common choice for people who are still working or want to let their retirement benefit grow before claiming it.",
   }
 ];
 

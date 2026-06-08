@@ -86,6 +86,17 @@ const faqs = [
     answer:
       "Absolutely. Anthony Orner is a licensed Medicare broker in New Jersey who provides free, personalized enrollment guidance. Call 855-559-1700 to discuss your medications, specialists, and coverage options at no cost.",
   },
+,
+  {
+    question: "Are biologic infusions like Benlysta covered under Medicare?",
+    answer:
+      "Biologic infusions administered in a clinic or infusion center are typically covered under Medicare Part B as physician-administered drugs, while self-injected versions may fall under Part D. Coverage details, prior authorization requirements, and out-of-pocket costs vary by plan. A broker can review your specific medications against each plan's formulary before you enroll.",
+  },
+  {
+    question: "Will Medicare cover my rheumatologist visits and lab work for lupus?",
+    answer:
+      "Yes. Medicare Part B covers medically necessary specialist visits, including rheumatology, along with lab work like ANA panels, complement levels, and kidney function tests used to monitor lupus. With Original Medicare you generally pay the Part B coinsurance after the deductible, which a Medigap plan can help offset.",
+  }
 ];
 
 export default function MedicareEnrollmentHelpLupus() {
@@ -335,6 +346,7 @@ export default function MedicareEnrollmentHelpLupus() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free local counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> offers free Medicare counseling.</div>
       </section>
       </article>
     </>

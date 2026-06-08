@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Best Medicare Advantage Plans in NJ 2026",
   description:
-    "Compare 2026 New Jersey Medicare Advantage plans with $0 premium options, drug, dental and vision benefits. Call 855-559-1700 for free local broker help.",
+    "Compare 2026 New Jersey Medicare Advantage plans with $0 premium options, drug, dental, and vision benefits. Free local broker help — call 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/medicare-advantage/new-jersey` },
   openGraph: {
     title: "Best Medicare Advantage Plans in NJ 2026",
@@ -53,6 +53,22 @@ const faqs = [
     answer:
       "Yes. You can switch back to Original Medicare during the Annual Enrollment Period (October 15 – December 7) or the Medicare Advantage Open Enrollment Period (January 1 – March 31). However, if you want to add a Medigap plan after switching back and your 6-month Medigap Open Enrollment Period has passed, insurers may use medical underwriting and could deny coverage based on health conditions. This is why the initial choice between Medicare Advantage and Medigap at 65 is so important.",
   },
+,
+  {
+    question: "When can I enroll in a Medicare Advantage plan in New Jersey?",
+    answer:
+      "You can first enroll during your Initial Enrollment Period, which is the 7-month window around your 65th birthday. After that, the Annual Enrollment Period runs October 15 through December 7 each year for coverage starting January 1. The Medicare Advantage Open Enrollment Period (January 1 – March 31) also lets current Advantage members switch plans or return to Original Medicare.",
+  },
+  {
+    question: "Do Medicare Advantage plans in NJ include prescription drug coverage?",
+    answer:
+      "Most Medicare Advantage plans in New Jersey are MA-PD plans that bundle Part D prescription drug coverage into the same plan. A small number of MA-only plans exclude drug coverage, typically for veterans with VA benefits or those with other creditable coverage. Always confirm your specific medications are on the plan's formulary before enrolling.",
+  },
+  {
+    question: "How do I compare Medicare Advantage plans by county in New Jersey?",
+    answer:
+      "Plan availability, premiums, and provider networks vary by county in New Jersey, so a plan offered in Bergen County may differ from one in Cape May. You can compare plans on Medicare.gov using your ZIP code, or call our office at 855-559-1700 for a free side-by-side review based on your doctors and prescriptions.",
+  }
 ];
 
 export default function NJMedicareAdvantagePage() {
@@ -152,6 +168,7 @@ export default function NJMedicareAdvantagePage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.nj.gov/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> offers free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-700 underline">NJ State Health Insurance Assistance Program (SHIP)</a> offers free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.nj.gov/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> offers free, unbiased Medicare counseling for New Jersey residents.</div>
+            <div className="text-sm text-gray-600 mt-4">Free unbiased counseling: <a href="https://www.nj.gov/humanservices/doas/services/ship/" target="_blank" rel="noopener noreferrer" className="text-blue-700 underline">New Jersey State Health Insurance Assistance Program (SHIP)</a></div>
       </section>
     </>
   );

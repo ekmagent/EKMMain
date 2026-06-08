@@ -331,6 +331,7 @@ export default function MedicareEnrollmentHelpDiabetesTexas() {
             <div className="text-sm text-gray-600 mt-4">Texas residents can also contact the <a href="https://www.hhs.texas.gov/services/health/medicare" rel="noopener noreferrer" target="_blank" className="underline">Texas Health and Human Services Medicare program</a> for free local guidance.</div>
             <div className="text-sm text-gray-600 mt-4">Texas help: <a href="https://www.hhs.texas.gov/services/health/medicare" rel="noopener noreferrer" target="_blank" className="underline">Texas Health and Human Services — Medicare</a> for state benefits counseling and the Medicare Help Line.</div>
             <div className="text-sm text-gray-600 mt-4">Texas resources: <a href="https://www.hhs.texas.gov/services/health/medicare" rel="noopener noreferrer" target="_blank" className="underline">Texas Health and Human Services — Medicare</a> (HICAP/SHIP counseling available statewide).</div>
+            <div className="text-sm text-gray-600 mt-4">Texas help: <a href="https://www.hhs.texas.gov/services/health/medicare" rel="noopener noreferrer" target="_blank" className="underline">Texas Health and Human Services — Medicare</a> offers free counseling and enrollment guidance for Texans.</div>
       </section>
     </main>
   );

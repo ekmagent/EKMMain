@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare broker for people with CLL | Free Consult | MedicareYourself",
   description:
-    "CLL Medicare broker help from Anthony Orner: Medigap underwriting, Part D oral cancer drugs, and specialist access. Free consult — call 855-559-1700 today.",
+    "CLL Medicare broker help from Anthony Orner: Medigap underwriting, Part D oral cancer drug coverage, and specialist access. Free consult — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-people-with-cll" },
   openGraph: {
     title:
@@ -265,6 +265,12 @@ const faqs = [
     question: "Does Medicare cover clinical trials for CLL?",
     answer:
       "Yes. Medicare covers routine costs of qualifying clinical trials, including doctor visits, lab work, and standard care that would normally be covered. The investigational drug itself is usually paid for by the trial sponsor. Always confirm coverage details with your oncologist and the trial coordinator before enrolling.",
+  }
+,
+  {
+    question: "Does Medicare Part B cover a second opinion from a CLL specialist?",
+    answer:
+      "Yes. Medicare Part B covers second opinions before surgery or major treatment decisions, including consultations with CLL specialists at academic cancer centers. If the first and second opinions differ, Medicare will also cover a third opinion. This is especially valuable for CLL patients deciding between watch-and-wait, targeted therapy, or clinical trial enrollment.",
   }
 ];
 

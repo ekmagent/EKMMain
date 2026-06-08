@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare broker for people with pre-existing conditions | Free Guidance | MedicareYourself",
   description:
-    "Medicare broker for people with pre-existing conditions — compare lenient carriers, guaranteed issue rights, and Medigap options. Free help at 855-559-1700.",
+    "Medicare broker help for people with pre-existing conditions — compare lenient carriers, Medigap rules & guaranteed issue rights. Free guidance: 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-people-with-pre-existing-conditions" },
   openGraph: {
     title:
@@ -428,6 +428,7 @@ export default function MedicareBrokerPreExistingConditions() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
     </main>
   );

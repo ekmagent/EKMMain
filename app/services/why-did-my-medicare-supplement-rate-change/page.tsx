@@ -155,6 +155,17 @@ const faqs = [
     answer:
       "Reviewing your Medigap premium annually is a smart habit because identical lettered plans can have very different prices between carriers. Since benefits are standardized by Medicare, the only difference between two Plan G policies is the premium and the carrier's rate history. A licensed broker can compare available carriers in your state at no cost.",
   }
+,
+  {
+    question: "Should I switch Medigap carriers every time I get a rate increase?",
+    answer:
+      "Not necessarily. Switching makes sense when a comparable plan from another carrier offers meaningful long-term savings and you can pass medical underwriting. However, frequent switching can backfire if your health changes and you become locked into a plan later. A rate review with a licensed broker helps you weigh the trade-offs before making a move.",
+  },
+  {
+    question: "Does Medicare itself control Medigap rate increases?",
+    answer:
+      "No. Medicare standardizes the benefits within each lettered Medigap plan, but private insurance carriers set the premiums. State departments of insurance review and approve rate filings, which is why increases can vary by state and carrier even for the same plan letter.",
+  }
 ];
 
 export default function WhyDidMyMedicareSupplementRateChange() {
@@ -443,6 +454,7 @@ export default function WhyDidMyMedicareSupplementRateChange() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify carrier rate filings and consumer protections through the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents: contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a> or the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP program</a> for free counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify carrier filings and consumer protections with the <a href="https://www.state.nj.us/dobi/division_insurance/" target="_blank" rel="noopener noreferrer" className="underline">NJ Department of Banking and Insurance</a> or speak with a free counselor through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" target="_blank" rel="noopener noreferrer" className="underline">NJ SHIP</a>.</div>
       </section>
       </article>
     </>

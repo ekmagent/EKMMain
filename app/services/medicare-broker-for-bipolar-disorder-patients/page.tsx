@@ -153,6 +153,12 @@ const faqs = [
     answer:
       "Yes. Anthony Orner reviews your full medication list — including mood stabilizers, antipsychotics, and antidepressants — and runs them through each available Part D and Medicare Advantage formulary in your ZIP code. The comparison shows tier placement, copays, and total annual drug cost so you can pick the plan with the lowest out-of-pocket spend. Call 855-559-1700 for a free comparison.",
   }
+,
+  {
+    question: "Does Medicare cover therapy and counseling for bipolar disorder?",
+    answer:
+      "Yes. Medicare Part B covers outpatient mental health services including individual and group psychotherapy, family counseling related to your treatment, and visits with psychiatrists, clinical psychologists, clinical social workers, and nurse practitioners. After meeting the Part B deductible, you typically pay coinsurance for each visit. Telehealth therapy is also covered for many behavioral health visits.",
+  }
 ];
 
 export default function MedicareBrokerBipolarDisorderPage() {
@@ -443,6 +449,7 @@ export default function MedicareBrokerBipolarDisorderPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free local counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
       </article>
     </>

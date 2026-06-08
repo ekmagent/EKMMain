@@ -380,6 +380,12 @@ const faqs = [
     answer:
       "Medicare Part D plans cover prescription drugs, but each plan has its own formulary that determines which heart medications are included and at what tier. Common cardiac drugs like statins, beta blockers, ACE inhibitors, and anticoagulants are typically covered, though costs vary by plan. A broker can compare formularies to find the plan that covers your specific medications at the lowest total cost.",
   }
+,
+  {
+    question: "Will my cardiologist accept Medicare?",
+    answer:
+      "Most cardiologists in the United States accept Original Medicare, but Medicare Advantage plans use provider networks that vary by carrier and county. Before enrolling, a broker can verify that your specific cardiologist, hospital system, and any affiliated cardiac surgeons are in-network. This step is especially important if you receive care at a specialty heart center or academic medical center.",
+  }
 ];
 
 export default function MedicareBrokerHeartDiseasePatients() {

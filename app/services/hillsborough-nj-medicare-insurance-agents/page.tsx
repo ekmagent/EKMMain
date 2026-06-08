@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "hillsborough nj medicare insurance agents | Free Broker Consultation | MedicareYourself",
   description:
-    "Hillsborough NJ Medicare agents compare Supplement & Advantage plans from top carriers at no cost. Call 855-559-1700 for a free Somerset County quote.",
+    "Hillsborough NJ Medicare agents compare Supplement & Advantage plans from top carriers at no cost. Call 855-559-1700 for a free Somerset County quote today.",
   alternates: { canonical: "https://medicareyourself.com/services/hillsborough-nj-medicare-insurance-agents" },
   openGraph: {
     title:
@@ -99,6 +99,12 @@ const faqs = [
     question: "Does a Hillsborough Medicare broker work with my doctors at RWJ Somerset or Hunterdon?",
     answer:
       "An independent broker doesn't choose your providers, but checks each plan's network and formulary before you enroll. That means confirming your doctors at RWJUH Somerset, Hunterdon Health, and your preferred pharmacies are covered. This step helps avoid surprises after your effective date.",
+  }
+,
+  {
+    question: "Does an independent broker in Hillsborough cover all of Somerset County?",
+    answer:
+      "Yes. Anthony Orner is a licensed independent Medicare broker serving Hillsborough and the surrounding Somerset County communities, including Bridgewater, Somerville, Hillsborough Township, and Manville. Appointments are available by phone, video, or in person at no cost to you.",
   }
 ];
 
@@ -329,6 +335,7 @@ export default function HillsboroughNJMedicareInsuranceAgents() {
             <div className="text-sm text-gray-600 mt-4">For free local counseling, visit the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey SHIP (State Health Insurance Assistance Program)</a> or the <a href="https://www.nj.gov/dobi/" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the free <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for unbiased Medicare counseling.</div>
       </section>
     </main>
   );

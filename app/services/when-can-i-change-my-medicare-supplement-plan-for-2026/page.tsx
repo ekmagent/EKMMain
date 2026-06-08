@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "when can i change my medicare supplement plan for 2026 | Free Switching Help | MedicareYourself",
   description:
-    "When can you change your Medicare Supplement plan for 2026? Learn switch rules, guaranteed-issue rights & underwriting. Call 855-559-1700 for free broker help.",
+    "When can you change your Medicare Supplement plan for 2026? Learn switch rules, underwriting & guaranteed-issue rights. Free broker help: 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/when-can-i-change-my-medicare-supplement-plan-for-2026" },
   openGraph: {
     title:
@@ -331,6 +331,22 @@ const faqs = [
     answer:
       "Yes. Licensed Medicare brokers are paid by the insurance carriers, so there's no cost to you for comparing plans, checking underwriting questions, or applying. Call 855-559-1700 to review your current Medigap premium against other carriers offering the same standardized plan letter in your state.",
   }
+,
+  {
+    question: "Can my new Medigap carrier deny me coverage based on health history?",
+    answer:
+      "Yes. Outside your 6-month Medigap Open Enrollment Period or a federal guaranteed-issue situation, insurance companies can use medical underwriting when you apply to switch. That means they can review your health history and deny your application or charge a higher premium. A broker can pre-screen carriers before you formally apply.",
+  },
+  {
+    question: "If I switch Medigap plans, do I have to start a new waiting period for pre-existing conditions?",
+    answer:
+      "In most cases, if you've had your current Medigap policy for at least six months, the new carrier cannot impose a new pre-existing condition waiting period when you switch. This protection helps people who shop their coverage after holding a policy for a while. Rules can vary by state, so it's worth confirming before applying.",
+  },
+  {
+    question: "Should I cancel my old Medigap policy before the new one is approved?",
+    answer:
+      "No. You have a 30-day free-look period once your new Medigap policy starts, during which you can try the new plan while keeping the old one. Keep paying both premiums for that month, then cancel the old policy only after you're certain you want to keep the new one. This protects you if the new policy isn't the right fit.",
+  }
 ];
 
 export default function WhenCanIChangeMyMedicareSupplementPlanFor2026() {
@@ -552,6 +568,7 @@ export default function WhenCanIChangeMyMedicareSupplementPlanFor2026() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a> or contact the <a href="https://www.nj.gov/dobi/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/dobi/index.shtml" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or the <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free local Medigap counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/division_consumers/insurance/ship.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">New Jersey State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medigap switching help from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
     </main>
   );

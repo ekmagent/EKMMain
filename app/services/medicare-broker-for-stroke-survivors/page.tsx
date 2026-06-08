@@ -290,6 +290,22 @@ const faqs = [
     answer:
       "Yes. As a licensed broker, I check provider networks across Medicare Advantage and supplement plans to confirm your neurologist, rehab facility, and therapists are covered. This is one of the most important steps for stroke survivors who already have an established care team. Call 855-559-1700 for a free network check.",
   }
+,
+  {
+    question: "Does Medicare cover home health care after a stroke?",
+    answer:
+      "Yes. If your doctor certifies you are homebound and need skilled nursing or therapy, Medicare Part A and/or Part B cover intermittent home health services, including physical therapy, speech-language pathology, and occupational therapy. A Medicare-certified home health agency must provide the care.",
+  },
+  {
+    question: "Does Medicare cover durable medical equipment like walkers or wheelchairs after a stroke?",
+    answer:
+      "Yes. Medicare Part B covers medically necessary durable medical equipment (DME) such as walkers, wheelchairs, hospital beds, and canes when prescribed by your doctor. You typically pay the Part B coinsurance after meeting the Part B deductible, and the supplier must be enrolled in Medicare.",
+  },
+  {
+    question: "Is a Medicare Supplement or Medicare Advantage plan better for stroke survivors?",
+    answer:
+      "It depends on your providers, budget, and ongoing care needs. Medicare Supplement plans offer broader provider access and predictable out-of-pocket costs for frequent therapy and specialist visits, while Medicare Advantage plans may bundle extras but use networks and prior authorization. I review both sides with you on a free call at 855-559-1700.",
+  }
 ];
 
 export default function MedicareBrokerForStrokeSurvivors() {

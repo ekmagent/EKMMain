@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "best medicare supplement for people on disability | Free Plan Review | MedicareYourself",
   description:
-    "Best Medicare Supplement for people on disability under 65 — compare state protections, plan letters, and pricing. Call 855-559-1700 for free expert guidance.",
+    "Best Medicare Supplement for people on disability under 65 — compare state rules, plan letters, and pricing. Call 855-559-1700 for free expert guidance today.",
   alternates: { canonical: "https://medicareyourself.com/services/best-medicare-supplement-for-people-on-disability" },
   openGraph: {
     title:
@@ -120,6 +120,12 @@ const faqs = [
     question: "Which Medigap plan letter is most popular for people on disability?",
     answer:
       "Plan G and Plan N are commonly chosen because they offer broad coverage of out-of-pocket costs after the Part B deductible. For people under 65, availability and pricing vary widely by state and carrier. We can review which plan letters carriers in your state actually sell to disability beneficiaries — call 855-559-1700.",
+  }
+,
+  {
+    question: "Which Medigap plan letter is most popular for people on disability?",
+    answer:
+      "Plan G and Plan N are commonly chosen for their balance of coverage and cost. Plan G covers nearly all out-of-pocket costs except the Part B deductible, while Plan N has slightly lower premiums in exchange for small copays at doctor visits. The right choice depends on your state's pricing and your expected use of care. Call 855-559-1700 for a free comparison.",
   }
 ];
 

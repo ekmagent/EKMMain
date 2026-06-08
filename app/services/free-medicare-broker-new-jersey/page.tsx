@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "free medicare broker new jersey | No Fees, No Obligation | MedicareYourself",
   description:
-    "Free New Jersey Medicare broker — compare Medigap, Advantage & Part D with a licensed independent broker. No fees, no obligation. Call 855-559-1700.",
+    "Free New Jersey Medicare broker — compare Medigap, Advantage & Part D with a licensed independent broker. No fees, no obligation. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/free-medicare-broker-new-jersey" },
   openGraph: {
     title:
@@ -404,6 +404,7 @@ export default function FreeMedicareBrokerNewJersey() {
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.nj.gov/humanservices/doas/services/q-z/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> offers free, unbiased Medicare counseling for New Jersey residents.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey resources: <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> &middot; <a href="https://www.nj.gov/getcoverednj/help/local/" rel="noopener noreferrer" target="_blank" className="underline">GetCoveredNJ Local Assistance</a></div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free local Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">Free unbiased counseling for New Jersey beneficiaries is available through <a href="https://www.nj.gov/humanservices/doas/services/q-z/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

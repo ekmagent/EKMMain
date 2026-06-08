@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare agent for someone with pre existing conditions california | Free Help | MedicareYourself",
   description:
-    "California Medicare help for pre-existing conditions — learn Medigap timing, guaranteed-issue rights & enrollment windows. Call 855-559-1700 for free guidance.",
+    "California Medicare help for pre-existing conditions — understand Medigap timing, guaranteed-issue rights & enrollment windows. Call 855-559-1700 for free guidance.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-agent-for-someone-with-pre-existing-conditions-california" },
   openGraph: {
     title:
@@ -417,6 +417,7 @@ export default function MedicareAgentPreExistingConditionsCA() {
             <div className="text-sm text-gray-600 mt-4">California residents can also contact the <a href="https://www.insurance.ca.gov/01-consumers/105-type/95-guides/05-health/medicare.cfm" rel="noopener noreferrer" target="_blank" className="underline">California Department of Insurance — Medicare resources</a> or the free <a href="https://www.aging.ca.gov/HICAP/" rel="noopener noreferrer" target="_blank" className="underline">California HICAP (SHIP) counseling program</a>.</div>
             <div className="text-sm text-gray-600 mt-4">California residents can also get free counseling from <a href="https://www.aging.ca.gov/HICAP/" rel="noopener noreferrer" target="_blank" className="underline">HICAP (California's SHIP)</a> or check carrier complaints with the <a href="https://www.insurance.ca.gov/" rel="noopener noreferrer" target="_blank" className="underline">California Department of Insurance</a>.</div>
             <div className="text-sm text-gray-600 mt-4">California consumers: review the <a href="https://www.insurance.ca.gov/01-consumers/105-type/95-guides/05-health/03-medsup/list-of-companies.cfm" rel="noopener noreferrer" target="_blank" className="underline">California Department of Insurance list of Medicare Supplement companies</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">California residents can also get free counseling through <a href="https://www.aging.ca.gov/HICAP/" rel="noopener noreferrer" target="_blank" className="underline">HICAP (California's SHIP program)</a> or contact the <a href="https://www.insurance.ca.gov/" rel="noopener noreferrer" target="_blank" className="underline">California Department of Insurance</a>.</div>
       </section>
       </article>
     </>

@@ -325,6 +325,12 @@ const faqs = [
     answer:
       "Yes. Medicare Part B covers one pair of therapeutic shoes and inserts per calendar year for people with diabetes who meet specific medical criteria, such as having neuropathy or a history of foot ulcers. Your doctor must certify the need, and the shoes must be prescribed by a podiatrist or qualified physician and supplied by a Medicare-approved provider.",
   }
+,
+  {
+    question: "Can I get help paying for my insulin and diabetes medications under Medicare?",
+    answer:
+      "Yes. The Medicare Part D Extra Help program (also called the Low Income Subsidy) helps people with limited income and resources pay for prescription drug costs, including insulin. You can apply through the Social Security Administration at ssa.gov. Call 855-559-1700 if you'd like help reviewing your eligibility and Part D options.",
+  }
 ];
 
 export default function MedicareEnrollmentHelpDiabetes() {
@@ -625,6 +631,7 @@ export default function MedicareEnrollmentHelpDiabetes() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free local Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for schizophrenia patients | Free Coverage Analysis | MedicareYourself",
   description:
-    "Medicare broker for schizophrenia patients — Anthony Orner compares plans covering antipsychotics, psychiatrists & inpatient care. Call 855-559-1700 for free help.",
+    "Medicare broker for schizophrenia patients — Anthony Orner compares plans covering antipsychotics & psychiatric care. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-schizophrenia-patients" },
   openGraph: {
     title:

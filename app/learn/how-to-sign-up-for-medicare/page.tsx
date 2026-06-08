@@ -818,6 +818,22 @@ const faqs = [
     answer:
       "If you miss your IEP and do not qualify for a Special Enrollment Period, you must wait for the General Enrollment Period (January 1 – March 31) to sign up for Part B, with coverage starting the month after you enroll. You may also owe a permanent Part B late enrollment penalty added to your monthly premium for as long as you have Medicare. Call 855-559-1700 if you need help reviewing your options.",
   }
+,
+  {
+    question: "Can I sign up for Medicare if I'm still working at 65?",
+    answer:
+      "Yes. You can enroll in Part A at 65 even while working, and it is usually premium-free if you have enough work credits. If your employer coverage from active work is creditable, you may delay Part B without a late penalty and enroll later through a Special Enrollment Period. Call 855-559-1700 to confirm whether delaying makes sense for your situation.",
+  },
+  {
+    question: "What happens if I miss my Medicare Initial Enrollment Period?",
+    answer:
+      "If you miss your IEP and don't qualify for a Special Enrollment Period, you'll need to wait for the General Enrollment Period from January 1 to March 31, with coverage starting the month after you enroll. You may also owe a permanent Part B late enrollment penalty that increases the longer you go without creditable coverage. A licensed broker can help you avoid gaps — call 855-559-1700.",
+  },
+  {
+    question: "Is signing up for Medicare the same as choosing a plan?",
+    answer:
+      "No. Enrolling in Original Medicare (Parts A and B) is done through the Social Security Administration at ssa.gov/medicare. Choosing a Medicare Supplement, Part D drug plan, or Medicare Advantage plan is a separate decision made through a private insurer or licensed broker. Both steps matter to keep your out-of-pocket costs predictable.",
+  }
 ];
 
 export default function HowToSignUpPage() {

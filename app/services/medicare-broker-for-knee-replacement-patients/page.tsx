@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for knee replacement patients | Free Pre-Surgery Review | MedicareYourself",
   description:
-    "Medicare broker for knee replacement patients — Anthony Orner reviews rehab, hospital & PT coverage before surgery. Call 855-559-1700 for a free pre-op review.",
+    "Medicare broker for knee replacement patients — Anthony Orner reviews hospital, rehab & PT coverage before surgery. Call 855-559-1700 for a free pre-op review.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-knee-replacement-patients" },
   openGraph: {
     title:
@@ -99,6 +99,22 @@ const faqs = [
     question: "How long does Medicare cover skilled nursing or rehab after knee surgery?",
     answer:
       "Medicare Part A covers up to 100 days of skilled nursing facility care per benefit period if you qualify, but coverage is only full for the first 20 days. After day 20, a daily coinsurance applies, and after day 100, you pay the full cost. Most knee replacement patients don't need the full 100 days, but understanding the coinsurance tiers helps you avoid surprise bills.",
+  }
+,
+  {
+    question: "How long does Medicare cover rehab in a skilled nursing facility after knee replacement?",
+    answer:
+      "Medicare Part A covers up to 100 days in a skilled nursing facility per benefit period, but only if you had a qualifying inpatient hospital stay of at least three days first. The first 20 days are covered in full, and days 21 through 100 require a daily coinsurance. After day 100, you pay all costs unless you have supplemental coverage.",
+  },
+  {
+    question: "Does a Medicare Advantage plan cover knee replacement differently than Original Medicare?",
+    answer:
+      "Medicare Advantage plans must cover knee replacement surgery, but they use their own copays, network rules, and prior authorization requirements. Your surgeon and rehab facility usually need to be in-network, and the plan may require approval before scheduling the procedure. That's why reviewing your plan's specific cost-sharing and network before surgery is critical.",
+  },
+  {
+    question: "Can I change my Medicare plan if I'm scheduled for knee surgery?",
+    answer:
+      "You can only change plans during a valid enrollment period, such as the Annual Election Period each fall or a Special Enrollment Period if you qualify. If surgery is imminent and you're locked into your current plan, a broker can still help you minimize costs within that plan. Planning the coverage months ahead of surgery gives you the most flexibility.",
   }
 ];
 

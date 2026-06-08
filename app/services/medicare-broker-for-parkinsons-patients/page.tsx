@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for Parkinson's patients | Free Plan Review | MedicareYourself",
   description:
-    "Medicare broker for Parkinson's patients — compare Part D, DBS coverage, and therapy access. Free plan review with Anthony Orner. Call 855-559-1700.",
+    "Medicare broker for Parkinson's patients — compare Part D drug costs, DBS coverage, and therapy access. Free plan review with Anthony Orner. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-parkinsons-patients" },
   openGraph: {
     title:
@@ -176,6 +176,12 @@ const faqs = [
     question: "Will Medicare cover a movement disorder specialist?",
     answer:
       "Yes. Medicare Part B covers visits to neurologists and movement disorder specialists when medically necessary. With Original Medicare, you can see any specialist who accepts Medicare without a referral. With Medicare Advantage, you'll need to confirm the specialist is in-network and check whether a referral is required.",
+  }
+,
+  {
+    question: "When can I change my Medicare plan if my Parkinson's treatment needs change?",
+    answer:
+      "Most people can change plans during the Annual Enrollment Period each fall, from October 15 to December 7, with coverage starting January 1. Medicare Advantage enrollees also get the Medicare Advantage Open Enrollment Period from January 1 to March 31. If you qualify for Extra Help or move into a Special Needs Plan area, you may have a Special Enrollment Period to switch outside those windows.",
   }
 ];
 
@@ -442,6 +448,7 @@ export default function MedicareBrokerForParkinsonsPatients() {
             <div className="text-sm text-gray-600 mt-4">For free unbiased counseling, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> or the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">Free, unbiased counseling: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

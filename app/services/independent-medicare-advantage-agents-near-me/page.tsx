@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "independent medicare advantage agents near me | Free NJ Consultations | MedicareYourself",
   description:
-    "Connect with an independent NJ Medicare Advantage agent who compares every major plan in your county at no cost. Call 855-559-1700 for a free review.",
+    "Work with an independent NJ Medicare Advantage agent who compares every major plan in your county at no cost. Call 855-559-1700 for a free review today.",
   alternates: { canonical: "https://medicareyourself.com/services/independent-medicare-advantage-agents-near-me" },
   openGraph: {
     title:
@@ -372,6 +372,7 @@ export default function IndependentMedicareAdvantageAgentsNearMe() {
             <div className="text-sm text-gray-600 mt-4">New Jersey beneficiaries can also get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

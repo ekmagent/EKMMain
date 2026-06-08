@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "average cost of supplemental health insurance for seniors with medicare | Free Broker Comparison | MedicareYourself",
   description:
-    "Compare 2026 Medigap premiums by carrier, age, and state. Call 855-559-1700 for a free licensed broker rate review and lock in your lowest monthly cost.",
+    "Compare 2026 Medigap costs by carrier, age, and state. Call 855-559-1700 for a free licensed broker rate review and lock in your lowest monthly premium.",
   alternates: { canonical: "https://medicareyourself.com/services/average-cost-of-supplemental-health-insurance-for-seniors-with-medicare" },
   openGraph: {
     title:
@@ -581,6 +581,17 @@ const faqs = [
     answer:
       "A licensed independent broker compares rates from multiple carriers in your zip code at no cost to you, since commissions are paid by the insurance company and built into the standardized premium. Because every lettered Medigap plan offers identical benefits, the only real variable is price and carrier stability. Call 855-559-1700 to compare your options side by side.",
   }
+,
+  {
+    question: "Do Medigap premiums increase as I get older?",
+    answer:
+      "It depends on how the carrier prices the policy. Attained-age-rated plans go up as you age, issue-age-rated plans are based on your age when you bought the policy, and community-rated plans charge everyone in the area the same regardless of age. All three types can still be affected by inflation and claims experience. Call 855-559-1700 to compare which pricing method works best for your situation.",
+  },
+  {
+    question: "Does where I live affect what I pay for supplemental insurance?",
+    answer:
+      "Yes. According to Medicare.gov, Medigap premiums vary widely by state and even zip code because of differences in local healthcare costs, state regulations, and how many carriers compete in your area. The same lettered plan can cost significantly more in one state than another.",
+  }
 ];
 
 export default function AverageCostSupplementalInsurancePage() {
@@ -809,6 +820,7 @@ export default function AverageCostSupplementalInsurancePage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents: contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">For free, unbiased local counseling on Medigap pricing, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> or the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify carrier rates and file complaints through the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a> or get free unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents: contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free counseling on Medigap costs.</div>
       </section>
     </main>
   );

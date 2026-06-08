@@ -234,6 +234,12 @@ const faqs = [
     answer:
       "You can apply to switch Medigap plans or carriers at any time, but outside your Open Enrollment Period or a guaranteed-issue situation, you'll typically go through medical underwriting. If you're in good health, switching can lock in a lower premium. Call 855-559-1700 to compare your current rate against other carriers before renewing.",
   }
+,
+  {
+    question: "Does where I live affect how much I pay for a Medigap plan?",
+    answer:
+      "Yes. Medigap premiums vary significantly by zip code because carriers base rates on local claims experience, demographics, and state regulations. Two people the same age with the same plan letter can pay very different amounts depending on whether they live in a high-cost or low-cost area. That's why comparing quotes specific to your zip code matters.",
+  }
 ];
 
 export default function HowMuchDoesBestMedicareSupplementalInsuranceCostPerMonth() {

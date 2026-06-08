@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "free independent medicare broker near me new jersey | Free Quote | MedicareYourself",
   description:
-    "Free independent Medicare broker in NJ. Anthony Orner compares Medigap & Advantage plans from top carriers at no cost. Call 855-559-1700 for a free quote.",
+    "Compare NJ Medigap & Medicare Advantage plans with a free independent broker. Anthony Orner shops top carriers at no cost. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/free-independent-medicare-broker-near-me-new-jersey" },
   openGraph: {
     title:
@@ -230,6 +230,17 @@ const faqs = [
     question: "What does an independent Medicare broker actually do for me?",
     answer:
       "An independent broker reviews your doctors, prescriptions, budget, and travel needs, then compares Medigap, Medicare Advantage, and Part D plans from multiple carriers. They handle the enrollment paperwork, explain the tradeoffs, and remain your point of contact for plan questions or annual reviews at no cost to you.",
+  }
+,
+  {
+    question: "Does New Jersey use community rating for Medigap plans?",
+    answer:
+      "Yes. New Jersey is a community-rated state for Medicare Supplement (Medigap) plans, which means carriers cannot charge you a higher premium based on your age. Premiums can still vary by carrier and by plan letter, so comparing multiple companies matters. An independent broker can show you community-rated quotes from several NJ carriers at once.",
+  },
+  {
+    question: "When can I enroll in a Medigap plan in New Jersey?",
+    answer:
+      "The best time to enroll is during your 6-month Medigap Open Enrollment Period, which starts the month your Part B becomes effective and you are 65 or older. During this window you have guaranteed issue rights and cannot be denied or charged more for health reasons. Outside this period, medical underwriting may apply unless you qualify for a specific guaranteed issue situation.",
   }
 ];
 
