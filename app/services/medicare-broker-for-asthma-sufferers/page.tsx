@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for asthma sufferers | Free Inhaler Coverage Check | MedicareYourself",
   description:
-    "Medicare broker for asthma sufferers — Anthony Orner compares Part D formularies so inhalers and nebulizer meds cost less. Call 855-559-1700 for a free review.",
+    "Medicare broker for asthma sufferers: Anthony Orner compares Part D formularies so inhalers and nebulizer meds cost less. Call 855-559-1700 for a free review.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-asthma-sufferers" },
   openGraph: {
     title:

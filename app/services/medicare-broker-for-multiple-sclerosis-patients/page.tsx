@@ -413,6 +413,22 @@ const faqs = [
     answer:
       "Most Medicare Advantage plans restrict you to in-network providers except in emergencies, which can be a problem if you've built a relationship with a specific neurologist. Original Medicare paired with a Medigap plan lets you see any provider nationwide who accepts Medicare. We review your current care team before recommending any plan structure.",
   }
+,
+  {
+    question: "Will Medicare cover MRIs needed to monitor MS progression?",
+    answer:
+      "Yes. Medicare Part B covers medically necessary MRIs ordered by your doctor to monitor multiple sclerosis. You'll typically pay coinsurance after meeting the Part B deductible, unless a Medigap policy covers that cost-sharing. With Medicare Advantage, prior authorization is often required before the scan is approved.",
+  },
+  {
+    question: "Does Medicare Part D cover oral MS medications?",
+    answer:
+      "Yes. Oral disease-modifying therapies for MS are generally covered under Medicare Part D prescription drug plans, though they're usually placed on a specialty tier with higher cost-sharing. Formularies and tier placement vary by plan, so the right Part D choice depends on which specific medication you take. A broker can compare formularies to find the plan that covers your drug at the lowest total annual cost.",
+  },
+  {
+    question: "Can I qualify for Extra Help paying for MS medications?",
+    answer:
+      "Yes. The Extra Help program (also called the Low Income Subsidy) helps Medicare beneficiaries with limited income and resources pay Part D premiums, deductibles, and copays. Many MS patients on SSDI qualify. You can apply through Social Security at ssa.gov or call us and we'll walk you through eligibility.",
+  }
 ];
 
 export default function MedicareBrokerForMSPatients() {

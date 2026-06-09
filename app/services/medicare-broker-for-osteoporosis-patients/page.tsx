@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for osteoporosis patients | Free Coverage Review | MedicareYourself",
   description:
-    "Compare Medicare plans covering DEXA scans, Prolia, Reclast & fracture rehab with broker Anthony Orner. Free review — call 855-559-1700 today.",
+    "Compare Medicare plans covering DEXA scans, Prolia, Reclast and fracture rehab with broker Anthony Orner. Free coverage review — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-osteoporosis-patients" },
   openGraph: {
     title:

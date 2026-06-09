@@ -886,6 +886,22 @@ const STATIC_CATEGORIES = [
     answer:
       "Yes. You can call 1-800-MEDICARE (1-800-633-4227) 24/7 for general Medicare questions, or contact your State Health Insurance Assistance Program (SHIP) for free local counseling. The Social Security Administration handles enrollment in Part A and Part B.",
   }
+,
+  {
+    question: "What does a licensed Medicare broker actually do for me?",
+    answer:
+      "A licensed independent broker compares Medigap, Medicare Advantage, and Part D plans across multiple carriers to find the right fit for your health needs and budget. There is no cost to you for working with a broker — carriers pay a standardized commission. Call 855-559-1700 to speak with Anthony Orner directly.",
+  },
+  {
+    question: "Can I get Medicare help if I don't live in New Jersey?",
+    answer:
+      "Yes. Anthony Orner is licensed in New Jersey and 34 additional states, so most clients across the country can get personalized plan comparisons. You can also call 1-800-MEDICARE 24/7 for general Medicare questions, or reach our office at 855-559-1700 for plan-specific guidance.",
+  },
+  {
+    question: "How do I decide between Medigap and Medicare Advantage?",
+    answer:
+      "Medigap (Medicare Supplement) works alongside Original Medicare and typically offers broader provider access with predictable out-of-pocket costs, while Medicare Advantage bundles coverage through a private plan, often with networks and extra benefits. The right choice depends on your doctors, prescriptions, travel habits, and budget. A free review at 855-559-1700 can help you compare side by side.",
+  }
 ];
 
 export default function ServicesHubPage() {
@@ -1025,6 +1041,7 @@ export default function ServicesHubPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents: <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank">NJ State Health Insurance Assistance Program (SHIP)</a> offers free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free local Medicare counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </>
   );

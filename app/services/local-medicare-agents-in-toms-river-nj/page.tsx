@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "local medicare agents in toms river nj | Free Carrier Comparison | MedicareYourself",
   description:
-    "Local Medicare agents in Toms River, NJ — Anthony Orner compares Supplement, Advantage & Part D plans across Ocean County carriers. Call 855-559-1700, no fee.",
+    "Local Medicare agents in Toms River, NJ — Anthony Orner compares Supplement, Advantage & Part D plans across Ocean County. Call 855-559-1700 for a free review.",
   alternates: { canonical: "https://medicareyourself.com/services/local-medicare-agents-in-toms-river-nj" },
   openGraph: {
     title:

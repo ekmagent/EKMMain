@@ -154,6 +154,17 @@ const faqs = [
     answer:
       "You can change Medicare Advantage plans during the Annual Election Period each fall and the Medicare Advantage Open Enrollment Period in the first quarter of the year. Special Enrollment Periods may also apply if you move, lose coverage, or qualify for Extra Help. A licensed broker can confirm which window applies to your situation.",
   }
+,
+  {
+    question: "Does Medicare cover hearing aid fittings?",
+    answer:
+      "Original Medicare does not cover hearing aid fittings or the hearing aids themselves. However, many Medicare Advantage plans available in NJ include fitting exams and adjustments as part of their supplemental hearing benefit. A broker can identify which plans include fitting coverage alongside the hearing aid allowance.",
+  },
+  {
+    question: "Are audiology services covered without a doctor's referral?",
+    answer:
+      "Medicare Part B allows beneficiaries to see an audiologist once every 12 months for non-acute hearing assessments without a physician order, as long as the service is diagnostic. Treatment-related audiology services may still require a referral depending on the plan. A broker can clarify how your specific plan handles audiology access.",
+  }
 ];
 
 export default function MedicareBrokerForHearingLossPatients() {

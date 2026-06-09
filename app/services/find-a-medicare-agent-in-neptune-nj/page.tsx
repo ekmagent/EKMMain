@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "find a medicare agent in neptune nj | Free No-Obligation Help | MedicareYourself",
   description:
-    "Find a Medicare agent in Neptune, NJ for free, unbiased plan comparisons. Anthony Orner helps Monmouth County residents choose confidently—call 855-559-1700.",
+    "Find a Medicare agent in Neptune, NJ for free, unbiased plan comparisons across top carriers. Call Anthony Orner at 855-559-1700 to review your options today.",
   alternates: { canonical: "https://medicareyourself.com/services/find-a-medicare-agent-in-neptune-nj" },
   openGraph: {
     title:
@@ -131,6 +131,17 @@ const faqs = [
     question: "Can a Medicare agent help me switch plans during the Annual Enrollment Period?",
     answer:
       "Yes. The Annual Enrollment Period runs from October 15 through December 7 each year, and a licensed agent can compare your current plan against new options for the coming year. Changes you make during this window take effect January 1. An independent broker can also help you review Part D drug coverage, since formularies and pharmacy networks change every year.",
+  }
+,
+  {
+    question: "Can a Medicare agent help me switch plans during the Annual Enrollment Period?",
+    answer:
+      "Yes. The Annual Enrollment Period runs from October 15 through December 7 each year, and a licensed agent can review your current coverage, compare alternatives, and submit a new application before the deadline. Changes made during this window take effect January 1.",
+  },
+  {
+    question: "Does a Neptune Medicare agent work with my local doctors and hospitals?",
+    answer:
+      "An independent agent can check whether your specific doctors, specialists, and Monmouth County hospitals are in-network for each Medicare Advantage plan before you enroll. For Medigap policies, you can see any provider nationwide that accepts Medicare, so network checks aren't needed.",
   }
 ];
 

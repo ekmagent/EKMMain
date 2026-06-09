@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Best Medicare Supplement Rates by Age (Plan G, Plan N, & Plan F Rates) | Free Quote | MedicareYourself",
   description:
-    "Compare Medicare Supplement rates by age for Plan G, Plan N & Plan F. Find your lowest premium with a free side-by-side quote — call 855-559-1700 today.",
+    "Compare Medicare Supplement rates by age for Plan G, Plan N, and Plan F. See how premiums change with age and get a free side-by-side quote at 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/best-medicare-supplement-rates-by-age-plan-g-plan-n-plan-f-rates" },
   openGraph: {
     title:
@@ -213,6 +213,17 @@ const faqs = [
     question: "Is Plan N a good alternative if Plan G rates are too high?",
     answer:
       "Plan N can be a strong option for budget-conscious enrollees because its premium is typically lower than Plan G. The tradeoff is small copays for some office and ER visits, plus you're responsible for Part B excess charges. For people who see doctors who accept Medicare assignment, Plan N often delivers significant monthly savings.",
+  }
+,
+  {
+    question: "Does my ZIP code affect my Medicare Supplement rate?",
+    answer:
+      "Yes. Carriers file rates by ZIP code or rating area because medical costs and claim trends vary by region. Two people the same age with the same plan letter can pay different premiums simply because they live in different ZIP codes. Call 855-559-1700 for a quote specific to your area.",
+  },
+  {
+    question: "Can I switch Medicare Supplement plans to get a lower rate later?",
+    answer:
+      "You can apply to switch at any time, but outside of your Medigap Open Enrollment Period or a guaranteed issue situation, carriers in most states can use medical underwriting. That means you may be denied or charged more based on health history, so it's important to compare carefully before switching.",
   }
 ];
 
@@ -503,6 +514,7 @@ export default function BestMedicareSupplementRatesByAge() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP program</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can compare rates and file complaints with the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP</a>.</div>
       </section>
     </main>
   );

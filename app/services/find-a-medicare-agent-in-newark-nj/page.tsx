@@ -130,6 +130,12 @@ const faqs = [
     answer:
       "No. If your current coverage still fits your doctors, medications, and budget, I'll tell you to keep it. My job is to compare your options honestly, not to push a change for the sake of a commission.",
   }
+,
+  {
+    question: "Does a Newark Medicare broker work with my existing doctors at RWJBarnabas or Saint Barnabas?",
+    answer:
+      "Network access depends on the specific plan you choose. With Original Medicare plus a Medigap policy, you can see any provider in Newark or Essex County that accepts Medicare. With Medicare Advantage, I check each plan's network directly so you know whether your current doctors and hospitals are in-network before you enroll.",
+  }
 ];
 
 export default function FindMedicareAgentNewarkNJ() {

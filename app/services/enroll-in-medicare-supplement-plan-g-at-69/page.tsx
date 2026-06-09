@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "enroll in medicare supplement plan g at 69 | Free Broker Guidance | MedicareYourself",
   description:
-    "Enroll in Medicare Supplement Plan G at 69 with free licensed broker help. Compare carriers, navigate underwriting, and apply. Call 855-559-1700 to start.",
+    "Enroll in Medicare Supplement Plan G at 69 with free licensed broker help. Compare carriers, navigate underwriting, and apply. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/enroll-in-medicare-supplement-plan-g-at-69" },
   openGraph: {
     title:
@@ -101,6 +101,22 @@ const faqs = [
     question: "Can I switch to Plan G from another Medigap policy at 69?",
     answer:
       "Yes, you can apply to switch Medigap policies at any time, but outside your Medigap Open Enrollment Period you'll typically need to pass medical underwriting. Some states offer broader switching rights under state law. Check with your state insurance department or a licensed broker before dropping your current policy.",
+  }
+,
+  {
+    question: "Do I need to switch from my current Medigap plan to enroll in Plan G at 69?",
+    answer:
+      "If you already have a Medigap policy, you can apply to switch to Plan G, but outside your initial open enrollment window you'll typically need to answer health questions. The new policy doesn't start until it's approved, so don't drop your current coverage first. A broker can help you compare your current benefits against Plan G before you apply.",
+  },
+  {
+    question: "Can I be charged more for Plan G at 69 because of my health?",
+    answer:
+      "Outside your Medigap Open Enrollment Period, insurers can use medical underwriting to decide whether to approve you and at what rate. Tobacco use and certain health conditions may result in higher premiums or a declined application. Comparing multiple carriers improves your odds of finding favorable pricing.",
+  },
+  {
+    question: "How long does it take to enroll in Plan G after I apply?",
+    answer:
+      "Most applications are processed within two to six weeks, depending on the carrier and whether additional medical records are requested. You choose your coverage start date on the application, and your new Plan G coverage begins once you're approved. A broker can help you time the application so there's no gap in coverage.",
   }
 ];
 
@@ -355,6 +371,7 @@ export default function EnrollInMedicareSupplementPlanGAt69() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">For state-specific guidance, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free local Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">Need state-specific guidance? Find your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling, or call 855-559-1700.</div>
       </section>
     </main>
   );

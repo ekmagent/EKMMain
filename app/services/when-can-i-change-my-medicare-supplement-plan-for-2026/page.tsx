@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "when can i change my medicare supplement plan for 2026 | Free Switching Help | MedicareYourself",
   description:
-    "When can you change your Medicare Supplement plan for 2026? Learn switch rules, underwriting & guaranteed-issue rights. Free broker help: 855-559-1700.",
+    "When can you change your Medicare Supplement plan for 2026? Learn switch rules, guaranteed-issue rights & underwriting. Free broker help: 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/when-can-i-change-my-medicare-supplement-plan-for-2026" },
   openGraph: {
     title:
@@ -347,6 +347,22 @@ const faqs = [
     answer:
       "No. You have a 30-day free-look period once your new Medigap policy starts, during which you can try the new plan while keeping the old one. Keep paying both premiums for that month, then cancel the old policy only after you're certain you want to keep the new one. This protects you if the new policy isn't the right fit.",
   }
+,
+  {
+    question: "Will I have to answer health questions to switch my Medigap plan in 2026?",
+    answer:
+      "In most cases, yes. Outside your 6-month Medigap Open Enrollment Period or a federal guaranteed-issue situation, carriers can require medical underwriting and ask about your health history. Some states have additional rules that expand your ability to switch without underwriting, so it's worth checking your state's protections before applying.",
+  },
+  {
+    question: "If I switch Medigap plans, is there a waiting period for pre-existing conditions?",
+    answer:
+      "If you've had your current Medigap policy for at least six months, the new carrier generally cannot impose a new pre-existing condition waiting period for benefits the old plan covered. If you're newer to Medigap, a waiting period of up to six months may apply for conditions treated or diagnosed before coverage started.",
+  },
+  {
+    question: "Can I try a new Medigap policy before fully dropping my old one?",
+    answer:
+      "Yes. Federal rules give you a 30-day free-look period when you buy a new Medigap policy. You can keep both policies active during those 30 days, and if you decide to keep the new plan, you cancel the old one. You'll pay both premiums during the overlap, but it protects you if the new coverage isn't what you expected.",
+  }
 ];
 
 export default function WhenCanIChangeMyMedicareSupplementPlanFor2026() {
@@ -569,6 +585,7 @@ export default function WhenCanIChangeMyMedicareSupplementPlanFor2026() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/dobi/index.shtml" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or the <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free local Medigap counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/division_consumers/insurance/ship.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">New Jersey State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medigap switching help from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">State help: <a href="https://www.nj.gov/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey SHIP (State Health Insurance Assistance Program)</a> offers free Medicare counseling. Call 855-559-1700 for personalized broker help.</div>
       </section>
     </main>
   );

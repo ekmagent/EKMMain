@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "hoboken nj medicare insurance agents | Free Consultation | MedicareYourself",
   description:
-    "Hoboken NJ Medicare insurance agents — Anthony Orner compares Supplement & Advantage plans across top carriers in Hudson County. Call 855-559-1700 for a free review.",
+    "Hoboken NJ Medicare insurance agents — Anthony Orner compares Supplement & Advantage plans in Hudson County. Call 855-559-1700 for a free review.",
   alternates: { canonical: "https://medicareyourself.com/services/hoboken-nj-medicare-insurance-agents" },
   openGraph: {
     title:

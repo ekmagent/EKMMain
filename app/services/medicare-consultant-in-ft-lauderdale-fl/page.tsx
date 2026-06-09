@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare consultant in ft lauderdale fl | Free Plan Comparison | MedicareYourself",
   description:
-    "Medicare consultant in Ft Lauderdale, FL — Anthony Orner compares Supplement, Advantage & Part D plans across Broward County. Free review: 855-559-1700.",
+    "Medicare consultant in Ft Lauderdale, FL: Anthony Orner compares Supplement, Advantage & Part D plans across Broward County. Free review — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-consultant-in-ft-lauderdale-fl" },
   openGraph: {
     title:

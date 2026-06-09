@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare Enrollment Help for People With Diabetes | Free Guidance | MedicareYourself",
   description:
-    "Medicare enrollment help for people with diabetes—find plans covering insulin, CGMs, pumps & supplies. Call 855-559-1700 for free expert guidance today.",
+    "Medicare enrollment help for people with diabetes—compare plans covering insulin, CGMs, pumps & supplies. Call 855-559-1700 for free expert guidance.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-enrollment-help-for-people-with-diabetes" },
   openGraph: {
     title:
@@ -331,6 +331,22 @@ const faqs = [
     answer:
       "Yes. The Medicare Part D Extra Help program (also called the Low Income Subsidy) helps people with limited income and resources pay for prescription drug costs, including insulin. You can apply through the Social Security Administration at ssa.gov. Call 855-559-1700 if you'd like help reviewing your eligibility and Part D options.",
   }
+,
+  {
+    question: "Does Medicare Part D cover insulin?",
+    answer:
+      "Yes. Medicare Part D plans cover insulin, and under the Inflation Reduction Act, the monthly copay for a covered insulin product is capped. Insulin used in a traditional pump is covered under Part B as durable medical equipment instead. Call 855-559-1700 to confirm your specific insulin is on a plan's formulary before enrolling.",
+  },
+  {
+    question: "Are diabetes self-management training and nutrition counseling covered?",
+    answer:
+      "Yes. Medicare Part B covers Diabetes Self-Management Training (DSMT) when ordered by your doctor, as well as Medical Nutrition Therapy (MNT) for people with diabetes or kidney disease. These services help you manage blood sugar, plan meals, and reduce complications. A referral from your treating physician is required.",
+  },
+  {
+    question: "What happens if I need an insulin pump under Medicare?",
+    answer:
+      "External insulin pumps and the insulin used in them are covered under Medicare Part B as durable medical equipment when you meet medical necessity criteria. You'll need to use a Medicare-approved DME supplier, and your share of the cost applies after the Part B deductible is met. A Medigap plan can help cover that coinsurance.",
+  }
 ];
 
 export default function MedicareEnrollmentHelpDiabetes() {
@@ -633,6 +649,7 @@ export default function MedicareEnrollmentHelpDiabetes() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">Free state counseling: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
       </section>
       </article>
     </>

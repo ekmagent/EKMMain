@@ -209,6 +209,17 @@ const faqs = [
     answer:
       "No. As long as your broker is licensed in New Jersey, they can help you compare and enroll in plans available in Montclair and the surrounding Essex County area. What matters more than physical location is whether the agent is independent, responsive, and licensed with the carriers serving your ZIP code.",
   }
+,
+  {
+    question: "When can I switch Medicare plans with help from a Montclair agent?",
+    answer:
+      "Most plan changes happen during the Annual Enrollment Period from October 15 to December 7, with changes taking effect January 1. Medicare Advantage enrollees also have the Open Enrollment Period from January 1 to March 31 to switch once. Special Enrollment Periods may apply if you move, lose employer coverage, or have other qualifying events.",
+  },
+  {
+    question: "Is an independent broker the same as SHIP counseling?",
+    answer:
+      "No. SHIP (State Health Insurance Assistance Program) is a free, unbiased counseling service funded by the federal government and not tied to any carrier. Independent brokers are licensed by carriers to enroll you in plans. Many beneficiaries use both — SHIP for neutral education and a broker for plan comparison and enrollment.",
+  }
 ];
 
 export default function FindMedicareAgentMontclairNJ() {

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "top medicare advisors | Free Independent Broker Help | MedicareYourself",
   description:
-    "Compare top Medicare advisors with independent broker Anthony Orner. Free, unbiased plan reviews across multiple carriers. Call 855-559-1700 today.",
+    "Find top Medicare advisors with independent broker Anthony Orner. Free, unbiased plan comparisons across multiple carriers. Call 855-559-1700 for help.",
   alternates: { canonical: "https://medicareyourself.com/services/top-medicare-advisors" },
   openGraph: {
     title:

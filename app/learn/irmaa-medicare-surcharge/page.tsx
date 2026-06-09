@@ -817,6 +817,22 @@ const faqs = [
     answer:
       "Yes. IRMAA is recalculated each year based on your most recent tax return on file with the IRS. If your income falls below the threshold, the surcharge will automatically come off the following year. If your income dropped due to a qualifying life-changing event, you don't have to wait — file Form SSA-44 to request a sooner adjustment.",
   }
+,
+  {
+    question: "How do I appeal an IRMAA determination if my income has dropped?",
+    answer:
+      "If you've experienced a life-changing event such as retirement, divorce, or the death of a spouse, you can file Form SSA-44 with the Social Security Administration to request a reduction. Include documentation of the event and your estimated current-year income. SSA will review your request and adjust your IRMAA if approved. Call us at 855-559-1700 if you need help understanding the process.",
+  },
+  {
+    question: "Will IRMAA go away on its own if my income drops later?",
+    answer:
+      "Yes. Because IRMAA is recalculated every year based on your tax return from two years prior, a drop in income will eventually reduce or eliminate your surcharge automatically. If you don't want to wait two years, you can file SSA-44 when the income change is tied to a qualifying life-changing event. Otherwise, the adjustment happens once SSA receives updated IRS data.",
+  },
+  {
+    question: "How will I know if I owe IRMAA?",
+    answer:
+      "The Social Security Administration mails an initial determination letter explaining your new Part B and Part D premium amounts and the income data they used. If you disagree with the determination, the letter explains your appeal rights and deadlines. Review it carefully and act quickly if you plan to file SSA-44.",
+  }
 ];
 
 export default function IrmaaPage() {

@@ -306,6 +306,22 @@ const faqs = [
     answer:
       "It depends on your providers, budget, and ongoing care needs. Medicare Supplement plans offer broader provider access and predictable out-of-pocket costs for frequent therapy and specialist visits, while Medicare Advantage plans may bundle extras but use networks and prior authorization. I review both sides with you on a free call at 855-559-1700.",
   }
+,
+  {
+    question: "Does Medicare cover home health care after a stroke?",
+    answer:
+      "Yes. Medicare Part A and Part B cover medically necessary home health services, including part-time skilled nursing, physical therapy, speech-language pathology, and occupational therapy, when ordered by your doctor. You must be considered homebound and receive services from a Medicare-certified home health agency. Call 855-559-1700 to review which plans best coordinate home health benefits.",
+  },
+  {
+    question: "Will Medicare pay for durable medical equipment like walkers or wheelchairs after a stroke?",
+    answer:
+      "Yes. Medicare Part B covers durable medical equipment (DME) such as walkers, wheelchairs, hospital beds, and certain communication devices when prescribed by your doctor as medically necessary. You typically pay the Part B coinsurance after meeting the Part B deductible. A Medigap or Medicare Advantage plan can help reduce out-of-pocket DME costs.",
+  },
+  {
+    question: "Does Medicare cover follow-up visits with neurologists and specialists?",
+    answer:
+      "Yes. Medicare Part B covers medically necessary visits with neurologists, cardiologists, and other specialists involved in your stroke recovery. Original Medicare lets you see any provider who accepts Medicare, while Medicare Advantage plans typically use provider networks and may require referrals.",
+  }
 ];
 
 export default function MedicareBrokerForStrokeSurvivors() {

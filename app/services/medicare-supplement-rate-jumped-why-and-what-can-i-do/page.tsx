@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "My Medicare Supplement Rate Just Jumped — Why, and What Can I Do? | Free Rate Comparison | MedicareYourself",
   description:
-    "Medigap rate jumped? Learn why Medicare Supplement premiums rise and how switching to the same plan letter could lower cost. Call 855-559-1700.",
+    "Medigap rate jumped? Learn why Medicare Supplement premiums rise and how switching to the same plan letter could lower your cost. Free comparison: 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-supplement-rate-jumped-why-and-what-can-i-do" },
   openGraph: {
     title:
@@ -139,6 +139,22 @@ const faqs = [
     question: "Are Medicare Supplement rate increases the same in every state?",
     answer:
       "No. Each state's department of insurance reviews and approves Medigap rate filings separately, so increases vary by state, carrier, and plan letter. Some states like New York and Connecticut also require community rating, which changes how rates are calculated compared to age-based pricing used in most states.",
+  }
+,
+  {
+    question: "What is a 'block' of Medicare Supplement business and why does it matter?",
+    answer:
+      "A block refers to a group of policyholders insured under a specific Medigap policy form. As that block ages and claims increase, the carrier may file for rate increases that apply to everyone in that block. Newer blocks often have lower rates because the insured pool is younger and healthier.",
+  },
+  {
+    question: "Should I switch Medigap carriers every time my rate goes up?",
+    answer:
+      "Not always. Small annual increases are normal and expected as you age. It usually makes sense to shop your coverage when the increase is unusually large, when you've gone several years without comparing, or when your health still allows you to pass underwriting comfortably.",
+  },
+  {
+    question: "How do I compare Medigap rates without affecting my current coverage?",
+    answer:
+      "You can request a free comparison from a licensed broker who quotes multiple carriers at once. Your current policy stays in force until a new plan is approved and you choose to cancel. Call 855-559-1700 to review your options before making any changes.",
   }
 ];
 

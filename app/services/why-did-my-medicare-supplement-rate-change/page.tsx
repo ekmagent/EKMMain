@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Why Did My Medicare Supplement Rate Change? | Free Rate Review | MedicareYourself",
   description:
-    "Medigap rate going up? Learn the 3 pricing factors behind every Medicare Supplement increase and get a free rate review. Call 855-559-1700.",
+    "Medigap rate going up? Learn the 3 pricing factors behind every Medicare Supplement increase and request a free rate review. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/why-did-my-medicare-supplement-rate-change" },
   openGraph: {
     title:
@@ -165,6 +165,22 @@ const faqs = [
     question: "Does Medicare itself control Medigap rate increases?",
     answer:
       "No. Medicare standardizes the benefits within each lettered Medigap plan, but private insurance carriers set the premiums. State departments of insurance review and approve rate filings, which is why increases can vary by state and carrier even for the same plan letter.",
+  }
+,
+  {
+    question: "Will shopping my Medicare Supplement to a new carrier always lower my rate?",
+    answer:
+      "Not always. A new carrier may offer a lower introductory rate, but you typically need to pass medical underwriting to qualify outside of a guaranteed issue period. A rate review compares your current premium against carriers available in your ZIP code so you can decide whether switching makes sense long-term.",
+  },
+  {
+    question: "Does Medicare set the price of my Medigap policy?",
+    answer:
+      "No. Medicare standardizes the benefits in each lettered plan, but each private insurance company decides how to price its policies. According to Medicare.gov, the price is the only difference between policies with the same plan letter sold by different companies, which is why premiums for identical coverage can vary widely.",
+  },
+  {
+    question: "What should I do when I receive a Medicare Supplement rate increase letter?",
+    answer:
+      "Do not cancel your current policy until a new one is approved and in force. Call a licensed broker to review your pricing model, current health status, and the carriers available in your state. If you qualify for underwriting or a guaranteed issue right, you may be able to secure the same benefits at a lower premium.",
   }
 ];
 

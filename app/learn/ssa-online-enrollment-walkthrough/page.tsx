@@ -945,6 +945,22 @@ const steps = [
     answer:
       "Yes. During the application, you can choose to apply for Medicare only and delay your retirement benefits. This is a common choice for people who are still working or want to let their retirement benefit grow before claiming it.",
   }
+,
+  {
+    question: "Can I sign up for Medicare Part A and Part B online?",
+    answer:
+      "Yes. The Social Security Administration allows you to apply for Part A and Part B online at ssa.gov/medicare/sign-up. According to Medicare.gov, applying online is the easiest and fastest way to sign up and get any financial help you qualify for.",
+  },
+  {
+    question: "Do I need a my Social Security account to enroll in Medicare online?",
+    answer:
+      "Yes. You'll need to create or sign in to a my Social Security account to complete the online application. You can create one using Login.gov or ID.me, and you'll need your Social Security number and a valid ID such as a driver's license for identity verification.",
+  },
+  {
+    question: "Can I change my Medicare application after I submit it online?",
+    answer:
+      "No. Once you click Submit Now and agree to the Electronic Signature Agreement, you cannot modify your application. If you need to make changes after submission, you'll need to contact the Social Security Administration directly. For free help reviewing your choices before you submit, call 855-559-1700.",
+  }
 ];
 
 export default function SSAOnlineEnrollmentWalkthrough() {

@@ -386,6 +386,12 @@ const faqs = [
     answer:
       "Most cardiologists in the United States accept Original Medicare, but Medicare Advantage plans use provider networks that vary by carrier and county. Before enrolling, a broker can verify that your specific cardiologist, hospital system, and any affiliated cardiac surgeons are in-network. This step is especially important if you receive care at a specialty heart center or academic medical center.",
   }
+,
+  {
+    question: "Are heart medications covered under Medicare?",
+    answer:
+      "Yes. Medicare Part D prescription drug plans cover most heart medications, including blood thinners, statins, beta blockers, and ACE inhibitors. Coverage and copays vary by plan formulary, so it's important to check that your specific medications are covered before enrolling. A broker can run your drug list through multiple plans to find the lowest total annual cost.",
+  }
 ];
 
 export default function MedicareBrokerHeartDiseasePatients() {

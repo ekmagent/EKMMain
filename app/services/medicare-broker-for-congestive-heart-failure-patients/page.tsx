@@ -327,6 +327,22 @@ const faqs = [
     answer:
       "Yes. Medicare Part D plans cover most heart failure medications, including ACE inhibitors, beta blockers, diuretics, and SGLT2 inhibitors when prescribed for CHF. Coverage and copays vary by plan formulary, so it's important to match your specific drug list to a plan that covers all of them at the lowest tier possible.",
   }
+,
+  {
+    question: "Does Medicare cover heart failure medications like beta-blockers and ACE inhibitors?",
+    answer:
+      "Most heart failure medications are covered under Medicare Part D prescription drug plans. Coverage and copays vary by plan formulary, so the same medication can cost very different amounts depending on which Part D plan you choose. Anthony can compare your specific drug list across available plans to find the lowest total cost.",
+  },
+  {
+    question: "Does Medicare cover implantable cardiac devices like pacemakers or defibrillators for CHF patients?",
+    answer:
+      "Yes. Medicare Part A covers implantation when performed as an inpatient procedure, and Part B covers outpatient implantation and follow-up device checks. Coinsurance and deductibles apply unless you have Medigap or other supplemental coverage. Your cardiologist must document medical necessity based on Medicare's coverage criteria.",
+  },
+  {
+    question: "Are remote heart monitoring services covered by Medicare for CHF patients?",
+    answer:
+      "Medicare Part B covers remote patient monitoring and certain telehealth services when ordered by your doctor to manage chronic conditions like congestive heart failure. Some Medicare Advantage plans also include additional remote monitoring benefits. Standard Part B cost-sharing applies unless supplemental coverage offsets it.",
+  }
 ];
 
 export default function MedicareBrokerCHFPage() {
@@ -561,6 +577,7 @@ export default function MedicareBrokerCHFPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free Medicare counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

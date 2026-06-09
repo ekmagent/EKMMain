@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare Supplement Insurance for Crohn's Patients | Free Guidance | MedicareYourself",
   description:
-    "Medigap for Crohn's patients helps cover the Part B coinsurance on biologic infusions, colonoscopies & GI visits. Call 855-559-1700 for free plan guidance.",
+    "Medigap for Crohn's patients covers the Part B coinsurance on biologics, colonoscopies & GI visits. Call 855-559-1700 for free, no-pressure plan guidance.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-supplement-insurance-for-crohns-patients" },
   openGraph: {
     title:
@@ -205,6 +205,22 @@ const faqs = [
     question: "Can I switch Medigap plans later if my Crohn's gets more severe?",
     answer:
       "You can apply to switch Medigap plans at any time, but outside your Open Enrollment Period or a guaranteed-issue window, carriers may use medical underwriting and could decline you based on Crohn's. We review your timing and any guaranteed-issue rights before recommending a switch — call 855-559-1700 to talk it through.",
+  }
+,
+  {
+    question: "Does Medicare cover ostomy supplies for Crohn's patients?",
+    answer:
+      "Yes. Medicare Part B covers medically necessary ostomy supplies for beneficiaries who have had a colostomy, ileostomy, or urinary ostomy as part of Crohn's treatment. Part B pays its share after the annual deductible, and a Medigap plan can cover the remaining coinsurance. Your supplier must be enrolled in Medicare for coverage to apply.",
+  },
+  {
+    question: "Will Medigap help with parenteral or enteral nutrition for IBD?",
+    answer:
+      "Medicare Part B may cover parenteral nutrition (IV feeding) or enteral nutrition (tube feeding) when deemed medically necessary for IBD patients who cannot absorb nutrients normally. After Part B pays its portion, a Medigap plan such as Plan G can pick up the coinsurance. Documentation from your gastroenterologist is required to establish medical necessity.",
+  },
+  {
+    question: "How do I switch to a Medigap plan if I currently have Medicare Advantage?",
+    answer:
+      "If you leave a Medicare Advantage plan during a valid election period, you may qualify for a guaranteed-issue right to certain Medigap plans without medical underwriting. This is especially helpful for Crohn's patients who might otherwise face denials. Call 855-559-1700 and we'll review your timing and eligibility at no cost.",
   }
 ];
 
@@ -414,6 +430,7 @@ export default function MedicareSupplementCrohnsPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">New Jersey State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
     </main>
   );

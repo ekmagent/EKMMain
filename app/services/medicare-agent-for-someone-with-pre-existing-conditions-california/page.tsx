@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare agent for someone with pre existing conditions california | Free Help | MedicareYourself",
   description:
-    "California Medicare help for pre-existing conditions — understand Medigap timing, guaranteed-issue rights & enrollment windows. Call 855-559-1700 for free guidance.",
+    "California Medicare help for pre-existing conditions — understand Medigap timing, guaranteed-issue rights & enrollment windows. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-agent-for-someone-with-pre-existing-conditions-california" },
   openGraph: {
     title:
@@ -207,6 +207,17 @@ const faqs = [
     question: "Should I choose a Medigap or Medicare Advantage plan in California if I have a chronic condition?",
     answer:
       "It depends on how often you see specialists, whether your providers are in-network, and your preference for predictable costs versus extra benefits. Medigap offers broader provider access and predictable out-of-pocket costs, while Medicare Advantage may bundle drug, dental, and vision coverage with networks. A licensed broker can compare both based on your doctors and medications at no cost — call 855-559-1700.",
+  }
+,
+  {
+    question: "Does California have a Medigap birthday rule for people with pre-existing conditions?",
+    answer:
+      "Yes. California's Medigap birthday rule lets you switch to an equal or lesser Medigap plan with the same or different carrier each year around your birthday without medical underwriting. This protection is especially valuable if you developed health conditions after your initial enrollment and would otherwise face denial or higher premiums.",
+  },
+  {
+    question: "Can a Medicare Advantage plan deny coverage in California because of a pre-existing condition?",
+    answer:
+      "No. Medicare Advantage plans cannot deny enrollment or charge more based on pre-existing conditions, with the historical exception of End-Stage Renal Disease — and even that exception was removed for plan years starting in 2021. As long as you enroll during a valid election period and live in the plan's service area, you're accepted.",
   }
 ];
 

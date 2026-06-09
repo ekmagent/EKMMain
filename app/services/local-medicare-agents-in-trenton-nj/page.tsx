@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "local medicare agents in trenton nj | Free Plan Comparison | MedicareYourself",
   description:
-    "Local Medicare agents in Trenton, NJ help you compare every major plan free. Licensed broker Anthony Orner serves Mercer County — call 855-559-1700 today.",
+    "Local Medicare agents in Trenton, NJ compare every major plan free. Licensed broker Anthony Orner serves Mercer County — call 855-559-1700 for help today.",
   alternates: { canonical: "https://medicareyourself.com/services/local-medicare-agents-in-trenton-nj" },
   openGraph: {
     title:
