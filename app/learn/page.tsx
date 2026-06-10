@@ -233,6 +233,12 @@ const GUIDES = [
     answer:
       "Yes. You can switch between Medicare Advantage and Original Medicare during the Annual Enrollment Period each fall or the Medicare Advantage Open Enrollment Period in the first quarter of the year. Keep in mind that if you want to add a Medigap policy after leaving Medicare Advantage, medical underwriting may apply unless you have a guaranteed issue right. Call 855-559-1700 to review your options before making a change.",
   }
+,
+  {
+    question: "How do I know if Medicare is right for me at 65?",
+    answer:
+      "Most people become eligible for Medicare at age 65, but the right choice depends on whether you have other coverage like an employer plan, retiree benefits, or VA health care. If you're already collecting Social Security, you'll typically be enrolled in Part A and Part B automatically. If not, you'll need to sign up through SSA.gov during your Initial Enrollment Period to avoid late penalties. Call 855-559-1700 to talk through your situation.",
+  }
 ];
 
 export default function LearnHubPage() {

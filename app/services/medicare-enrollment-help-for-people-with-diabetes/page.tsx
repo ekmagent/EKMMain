@@ -347,6 +347,12 @@ const faqs = [
     answer:
       "External insulin pumps and the insulin used in them are covered under Medicare Part B as durable medical equipment when you meet medical necessity criteria. You'll need to use a Medicare-approved DME supplier, and your share of the cost applies after the Part B deductible is met. A Medigap plan can help cover that coinsurance.",
   }
+,
+  {
+    question: "Does Medicare Part D cover insulin?",
+    answer:
+      "Yes. Medicare Part D plans cover insulin, and the Inflation Reduction Act capped monthly out-of-pocket costs for covered insulin products. Insulin used with a traditional pump is covered under Part B as durable medical equipment instead of Part D. Call 855-559-1700 to confirm your specific insulin is on a plan's formulary before enrolling.",
+  }
 ];
 
 export default function MedicareEnrollmentHelpDiabetes() {

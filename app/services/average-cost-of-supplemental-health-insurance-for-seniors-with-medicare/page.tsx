@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "average cost of supplemental health insurance for seniors with medicare | Free Broker Comparison | MedicareYourself",
   description:
-    "Compare 2026 Medigap premiums by carrier, age, and state. Call 855-559-1700 for a free licensed broker rate review and lock in your lowest monthly cost.",
+    "Compare 2026 Medigap premiums by carrier, age, and state. Call 855-559-1700 for a free licensed broker review and lock in your lowest monthly rate.",
   alternates: { canonical: "https://medicareyourself.com/services/average-cost-of-supplemental-health-insurance-for-seniors-with-medicare" },
   openGraph: {
     title:
@@ -598,6 +598,22 @@ const faqs = [
     answer:
       "Your monthly premium depends on the plan letter you choose, the insurance company, your age, gender, tobacco use, and the state and zip code where you live. Insurers also use different pricing methods — community-rated, issue-age-rated, or attained-age-rated — which affect how your premium changes over time. According to Medicare.gov, the benefits within each lettered plan are identical, so price is the only difference between carriers selling the same plan.",
   }
+,
+  {
+    question: "Do Medigap premiums increase as I get older?",
+    answer:
+      "It depends on how the carrier prices the plan. Attained-age-rated policies increase as you age, issue-age-rated policies are based on your age at purchase and rise with inflation, and community-rated policies charge everyone in your area the same regardless of age. Choosing the right pricing method can significantly affect your long-term cost.",
+  },
+  {
+    question: "Does where I live affect my supplemental insurance premium?",
+    answer:
+      "Yes. Medigap premiums vary widely by zip code because claims experience, state regulations, and competition differ. The same lettered plan from the same carrier can cost noticeably more in one state than another, which is why a broker comparison across multiple carriers in your specific area matters.",
+  },
+  {
+    question: "Can I get help comparing Medigap rates in my state?",
+    answer:
+      "Yes. A licensed Medicare broker can pull current rates from multiple carriers side-by-side at no cost to you, since commissions are paid by the insurance company. Call 855-559-1700 to speak with Anthony Orner, a licensed broker in NJ and 34 states, for a free rate review.",
+  }
 ];
 
 export default function AverageCostSupplementalInsurancePage() {
@@ -828,6 +844,7 @@ export default function AverageCostSupplementalInsurancePage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify carrier rates and file complaints through the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a> or get free unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents: contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free counseling on Medigap costs.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify carrier rates and file complaints through the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased plan counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

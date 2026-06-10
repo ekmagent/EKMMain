@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare agents near me | Free Unbiased Plan Comparison | MedicareYourself",
   description:
-    "Find a licensed Medicare agent near you who compares every major carrier free of charge. Call 855-559-1700 for honest, no-pressure plan guidance.",
+    "Find a licensed Medicare agent near you for free, unbiased plan comparisons across major carriers. Call 855-559-1700 for honest, no-pressure guidance.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-agents-near-me" },
   openGraph: {
     title:
@@ -299,6 +299,7 @@ export default function MedicareAgentsNearMe() {
             <div className="text-sm text-gray-600 mt-2">Verify any agent's license or find free local counseling through your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Free unbiased counseling is also available through your <a href="https://www.shiphelp.org/about-medicare/regional-ship-location" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify any agent's license through the <a href="https://www.state.nj.us/dobi/insurance.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify any agent's license and file complaints through the <a href="https://www.state.nj.us/dobi/inssrch.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance Producer Search</a>.</div>
       </section>
     </main>
   );

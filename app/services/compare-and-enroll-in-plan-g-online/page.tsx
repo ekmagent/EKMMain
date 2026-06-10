@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Compare and Enroll in Plan G Online | No Paperwork Needed | MedicareYourself",
   description:
-    "Compare every NJ Plan G rate side by side and enroll online in minutes with a licensed broker. Same price as direct — no fees. Call 855-559-1700.",
+    "Compare every NJ Plan G rate side by side and enroll online in minutes with a licensed broker. Same price as direct — no fees. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/compare-and-enroll-in-plan-g-online" },
   openGraph: {
     title:
@@ -120,6 +120,12 @@ const faqs = [
     question: "Are Plan G benefits standardized across all carriers?",
     answer:
       "Yes. Medigap Plan G benefits are standardized by federal law, so every carrier offering Plan G covers the exact same services. The differences between carriers come down to price, rate stability history, and customer service — not coverage.",
+  }
+,
+  {
+    question: "Are Plan G benefits standardized across all carriers?",
+    answer:
+      "Yes. Medigap Plan G benefits are set by federal law, so every carrier offering Plan G covers the exact same services. The differences come down to premium, customer service, and rate stability — not coverage.",
   }
 ];
 
@@ -317,6 +323,7 @@ export default function CompareAndEnrollInPlanGOnline() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </main>
   );

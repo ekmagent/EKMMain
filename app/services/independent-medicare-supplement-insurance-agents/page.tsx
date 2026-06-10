@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "independent medicare supplement insurance agents | Free Help | MedicareYourself",
   description:
-    "Work with an independent Medicare Supplement agent who compares every top carrier at no cost. Honest, pressure-free guidance. Call 855-559-1700 today.",
+    "Independent Medicare Supplement agents compare every top carrier at no cost to you. Honest, pressure-free guidance from a licensed broker. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/independent-medicare-supplement-insurance-agents" },
   openGraph: {
     title:
@@ -360,6 +360,7 @@ export default function IndependentMedicareSuppAgentsPage() {
             <div className="text-sm text-gray-600 mt-4">Free state counseling: <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">Find your local SHIP program</a> for unbiased Medicare guidance in your state.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">For free, unbiased counseling, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
     </>
   );

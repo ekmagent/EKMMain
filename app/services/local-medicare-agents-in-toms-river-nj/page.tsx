@@ -155,6 +155,12 @@ const faqs = [
     answer:
       "It depends on the plan type. Medicare Supplement plans let you see any provider nationwide who accepts Medicare, while Medicare Advantage plans use provider networks that vary by carrier. A local agent will verify whether your specific doctors and Ocean County hospitals are in-network before you enroll.",
   }
+,
+  {
+    question: "Is there a cost to work with a local Medicare agent in Toms River?",
+    answer:
+      "No. Independent Medicare brokers like Anthony Orner are paid directly by the insurance carrier when you enroll, so there is no fee, markup, or hidden charge passed to you. You pay the same plan premium whether you enroll through an agent or on your own through medicare.gov.",
+  }
 ];
 
 export default function LocalMedicareAgentsTomsRiverNJ() {

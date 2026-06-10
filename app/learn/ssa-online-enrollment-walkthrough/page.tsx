@@ -961,6 +961,22 @@ const steps = [
     answer:
       "No. Once you click Submit Now and agree to the Electronic Signature Agreement, you cannot modify your application. If you need to make changes after submission, you'll need to contact the Social Security Administration directly. For free help reviewing your choices before you submit, call 855-559-1700.",
   }
+,
+  {
+    question: "How long does the SSA online Medicare application take to complete?",
+    answer:
+      "Most people finish the online application in about 10 minutes if they have their documents ready. You'll need your Social Security number, a driver's license or state ID for identity verification, and details about any current health insurance. The SSA does not require you to mail in any documents to complete the online application.",
+  },
+  {
+    question: "Can I apply for Medicare online if I don't want to start Social Security retirement benefits yet?",
+    answer:
+      "Yes. During the application you'll be asked whether you want to apply for Medicare only, without starting your retirement benefits. This is a common choice for people who are still working or who want to delay claiming Social Security to grow their monthly benefit.",
+  },
+  {
+    question: "What happens after I submit my SSA Medicare application?",
+    answer:
+      "After you click Submit Now, the Social Security Administration reviews your application and will contact you if more information is needed. Once approved, you'll receive your red, white, and blue Medicare card in the mail, typically within a few weeks. You cannot modify the application after submitting, so review carefully before signing.",
+  }
 ];
 
 export default function SSAOnlineEnrollmentWalkthrough() {

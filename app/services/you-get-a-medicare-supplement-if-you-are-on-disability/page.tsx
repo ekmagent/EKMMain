@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "you get a medicare supplement if you are on disability | Free Guide | MedicareYourself",
   description:
-    "On disability and under 65? Many states protect Medigap access for SSDI enrollees. Compare under-65 Medicare Supplement options — call 855-559-1700 today.",
+    "On disability and under 65? Over 30 states protect Medigap access for SSDI enrollees. Compare under-65 Medicare Supplement options — call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/you-get-a-medicare-supplement-if-you-are-on-disability" },
   openGraph: {
     title:
@@ -142,6 +142,12 @@ const faqs = [
     question: "Can I switch Medigap plans later when I turn 65?",
     answer:
       "Yes. When you turn 65, you get a brand-new Medigap Open Enrollment Period that lasts six months and starts the month your Part B coverage begins under your age-65 eligibility. During this window, you can buy any Medigap plan sold in your state with guaranteed issue rights, regardless of health history. This is often a great opportunity to lower your premium.",
+  }
+,
+  {
+    question: "Do I have a Medigap Open Enrollment Period when I turn 65, even if I already had Medicare due to disability?",
+    answer:
+      "Yes. In most states, you get a fresh six-month Medigap Open Enrollment Period when you turn 65, regardless of whether you were already enrolled in Medicare due to disability. During this window, insurers cannot deny you coverage or charge more based on health. This is often the best opportunity to switch to a more affordable Medigap plan.",
   }
 ];
 
@@ -406,6 +412,7 @@ export default function MedicareSupplementDisabilityPage() {
             <div className="text-sm text-gray-600 mt-4">Need state-specific help? Find your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents: contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">Need state-specific help? Find your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling in your state.</div>
+            <div className="text-sm text-gray-600 mt-4">For state-specific Medigap rules, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">local SHIP (State Health Insurance Assistance Program)</a> for free, unbiased counseling.</div>
       </section>
 
       <p className="text-sm text-gray-500 mt-10">

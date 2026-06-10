@@ -504,6 +504,7 @@ export default function MedicareEnrollmentHelpLupusCalifornia() {
             <div className="text-sm text-gray-600 mt-4">California residents: <a href="https://aging.ca.gov/HICAP/" rel="noopener noreferrer" target="_blank" className="underline">Health Insurance Counseling &amp; Advocacy Program (HICAP)</a> offers free Medicare counseling statewide.</div>
             <div className="text-sm text-gray-600 mt-4">California residents can get free Medicare counseling through <a href="https://aging.ca.gov/HICAP/" rel="noopener noreferrer" target="_blank" className="underline">California's HICAP program</a> or contact the <a href="https://www.insurance.ca.gov/" rel="noopener noreferrer" target="_blank" className="underline">California Department of Insurance</a>.</div>
             <div className="text-sm text-gray-600 mt-4">California residents can get free, unbiased Medicare counseling through <a href="https://www.aging.ca.gov/HICAP/" rel="noopener noreferrer" target="_blank" className="underline">California HICAP (Health Insurance Counseling and Advocacy Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">California residents can get free local Medicare counseling through <a href="https://cahealthadvocates.org/hicap/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">California HICAP</a> or contact the <a href="https://www.insurance.ca.gov/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">California Department of Insurance</a>.</div>
       </section>
     </main>
   );

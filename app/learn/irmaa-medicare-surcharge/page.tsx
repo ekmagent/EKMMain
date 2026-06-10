@@ -833,6 +833,22 @@ const faqs = [
     answer:
       "The Social Security Administration mails an initial determination letter explaining your new Part B and Part D premium amounts and the income data they used. If you disagree with the determination, the letter explains your appeal rights and deadlines. Review it carefully and act quickly if you plan to file SSA-44.",
   }
+,
+  {
+    question: "How do I appeal an IRMAA determination if my income has dropped?",
+    answer:
+      "If you experienced a life-changing event such as retirement, divorce, or the death of a spouse, you can file Form SSA-44 with the Social Security Administration to request a reduction. Include documentation of the event and your estimated current-year income. SSA will review the request and adjust your IRMAA if approved. You can also call SSA directly to start the process.",
+  },
+  {
+    question: "Does IRMAA reset every year?",
+    answer:
+      "Yes. Social Security recalculates IRMAA each year using your most recent tax return on file, which is typically from two years prior. If your income drops below the threshold in a later year, your surcharge will go away automatically once SSA processes the updated return. You do not need to reapply each year unless you are appealing based on a life-changing event.",
+  },
+  {
+    question: "How is the IRMAA surcharge paid?",
+    answer:
+      "The Part B IRMAA surcharge is deducted from your Social Security benefit along with your standard Part B premium, or billed directly by Medicare if you are not yet collecting Social Security. The Part D IRMAA is billed separately by Medicare, not by your drug plan. Missing these payments can affect your Medicare coverage, so it is important to stay current.",
+  }
 ];
 
 export default function IrmaaPage() {

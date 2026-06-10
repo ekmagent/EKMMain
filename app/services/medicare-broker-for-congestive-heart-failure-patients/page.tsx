@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for congestive heart failure patients | Free Plan Review | MedicareYourself",
   description:
-    "Medicare broker for CHF patients — Anthony Orner finds plans covering cardiac rehab, heart meds & hospital stays. Call 855-559-1700 for a free plan review.",
+    "Medicare broker for CHF patients — Anthony Orner finds plans covering cardiac rehab, heart meds, and hospital stays. Call 855-559-1700 for a free plan review.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-congestive-heart-failure-patients" },
   openGraph: {
     title:
@@ -342,6 +342,22 @@ const faqs = [
     question: "Are remote heart monitoring services covered by Medicare for CHF patients?",
     answer:
       "Medicare Part B covers remote patient monitoring and certain telehealth services when ordered by your doctor to manage chronic conditions like congestive heart failure. Some Medicare Advantage plans also include additional remote monitoring benefits. Standard Part B cost-sharing applies unless supplemental coverage offsets it.",
+  }
+,
+  {
+    question: "Does Medicare cover heart failure medications under Part D?",
+    answer:
+      "Yes. Medicare Part D plans cover most CHF medications, including ACE inhibitors, ARBs, beta-blockers, and diuretics, but each plan has its own formulary and tier structure. The same medication can have very different copays depending on the plan you choose. Anthony can compare your drug list against available plans to find the lowest total cost.",
+  },
+  {
+    question: "Does Medicare cover implantable cardiac devices like pacemakers or ICDs for CHF patients?",
+    answer:
+      "Yes. Medicare Part A covers implantation of pacemakers and implantable cardioverter defibrillators (ICDs) during a hospital stay when medically necessary. Part B covers follow-up monitoring and device checks in the outpatient setting. Your share of costs depends on whether you have Original Medicare with a Medigap plan or a Medicare Advantage plan.",
+  },
+  {
+    question: "Are remote heart monitoring and telehealth visits covered for CHF patients?",
+    answer:
+      "Medicare covers remote patient monitoring and telehealth visits for chronic conditions like congestive heart failure when ordered by your provider. Many Medicare Advantage plans also include additional chronic care management benefits. Coverage details and cost-sharing vary by plan, so it's worth reviewing your options before enrolling.",
   }
 ];
 

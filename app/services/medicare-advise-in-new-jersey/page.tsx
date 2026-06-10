@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare advise in new jersey | Free Expert Guidance | MedicareYourself",
   description:
-    "Free Medicare advice in New Jersey from licensed broker Anthony Orner. Compare Medigap, Advantage & Part D with no pressure. Call 855-559-1700 today.",
+    "Free Medicare advice in New Jersey from licensed broker Anthony Orner. Compare Medigap, Advantage & Part D with no pressure. Call 855-559-1700 for guidance.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-advise-in-new-jersey" },
   openGraph: {
     title:
@@ -337,6 +337,7 @@ export default function MedicareAdviseInNewJersey() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.nj.gov/humanservices/doas/services/q-z/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">For free unbiased counseling, visit the <a href="https://www.nj.gov/humanservices/doas/services/q-z/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">New Jersey State Health Insurance Assistance Program (SHIP)</a> through the NJ Division of Aging Services.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the free <a href="https://www.nj.gov/humanservices/doas/services/q-z/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">NJ State Health Insurance Assistance Program (SHIP)</a> through the Division of Aging Services.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.nj.gov/humanservices/doas/services/q-z/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </>
   );

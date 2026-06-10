@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "How to Sign Up for Medicare (2026 Guide)",
   description:
-    "2026 step-by-step guide to enrolling in Medicare: IEP windows, applying at SSA, and avoiding Part B penalties. Free broker help — call 855-559-1700.",
+    "Step-by-step 2026 guide to signing up for Medicare: enrollment windows, applying at SSA, and avoiding Part B penalties. Free broker help: 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/how-to-sign-up-for-medicare` },
   openGraph: {
     title: "How to Sign Up for Medicare (2026 Guide)",
@@ -849,6 +849,22 @@ const faqs = [
     question: "What happens if I miss my Medicare Initial Enrollment Period?",
     answer:
       "If you miss your 7-month Initial Enrollment Period and do not qualify for a Special Enrollment Period, you will need to wait for the General Enrollment Period (January 1 – March 31) to sign up for Part B. You may also face a permanent Part B late enrollment penalty added to your monthly premium for as long as you have Medicare.",
+  }
+,
+  {
+    question: "How do I actually apply for Medicare?",
+    answer:
+      "You can apply online at ssa.gov/medicare, which takes about 10 minutes, or by calling Social Security. You can also visit your local Social Security office in person. If you are already receiving Social Security benefits, you do not need to apply — you will be enrolled automatically in Parts A and B.",
+  },
+  {
+    question: "What happens if I miss my Initial Enrollment Period?",
+    answer:
+      "If you miss your IEP and do not qualify for a Special Enrollment Period, you will need to wait for the General Enrollment Period from January 1 to March 31 each year. Coverage begins the month after you enroll. You may also owe a permanent Part B late enrollment penalty that is added to your monthly premium for as long as you have Part B.",
+  },
+  {
+    question: "Do I need to sign up for Medicare if I have employer coverage?",
+    answer:
+      "If you or your spouse are still actively working and have employer health coverage, you can usually delay Part B without penalty and enroll later through a Special Enrollment Period. Most people still enroll in Part A at 65 since it is premium-free for those with enough work credits. Always confirm with your HR department that your plan counts as creditable coverage before delaying.",
   }
 ];
 

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for stroke survivors | Free Plan Review | MedicareYourself",
   description:
-    "Medicare broker for stroke survivors — find plans covering rehab, therapy, DME & home health. Free plan review with Anthony Orner. Call 855-559-1700.",
+    "Medicare broker for stroke survivors — compare plans covering rehab, therapy, DME & home health. Free plan review with Anthony Orner. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-stroke-survivors" },
   openGraph: {
     title:

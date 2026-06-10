@@ -256,6 +256,12 @@ const faqs = [
     answer:
       "The best way is to compare multiple top-rated carriers side by side for your exact age, zip code, and gender, since prices for identical coverage can vary widely. Enrolling during your Medigap Open Enrollment Period also locks in the best available rate without medical underwriting. Call 855-559-1700 for a free, no-obligation comparison.",
   }
+,
+  {
+    question: "Does where I live affect how much I pay for a Medigap plan?",
+    answer:
+      "Yes. Medigap premiums vary significantly by state and even by zip code because carriers price based on local claims experience, demographics, and state insurance regulations. Two people with identical plans can pay very different amounts depending on where they live. That's why comparing carriers in your specific area is essential.",
+  }
 ];
 
 export default function HowMuchDoesBestMedicareSupplementalInsuranceCostPerMonth() {

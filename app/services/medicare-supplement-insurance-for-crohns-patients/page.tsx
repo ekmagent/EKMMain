@@ -222,6 +222,22 @@ const faqs = [
     answer:
       "If you leave a Medicare Advantage plan during a valid election period, you may qualify for a guaranteed-issue right to certain Medigap plans without medical underwriting. This is especially helpful for Crohn's patients who might otherwise face denials. Call 855-559-1700 and we'll review your timing and eligibility at no cost.",
   }
+,
+  {
+    question: "Are Crohn's-related prescription drugs covered by a Medigap plan?",
+    answer:
+      "No. Medigap plans do not cover self-administered prescription drugs, including oral Crohn's medications or self-injectables filled at a pharmacy. For those, you'll need a separate Medicare Part D prescription drug plan. Provider-administered infusions given in a clinic are billed under Part B, and Medigap does cover that coinsurance.",
+  },
+  {
+    question: "Do I need to switch gastroenterologists if I enroll in a Medigap plan?",
+    answer:
+      "No. Medigap plans work with any provider in the United States who accepts Original Medicare, so you can keep seeing your current GI specialist as long as they accept Medicare assignment. There are no networks or referrals required, which is especially helpful for Crohn's patients who see multiple specialists.",
+  },
+  {
+    question: "How do I apply for a Medigap plan with Crohn's disease?",
+    answer:
+      "Call us at 855-559-1700 for a free review of your situation. We'll confirm whether you're in a guaranteed-issue window, compare carrier underwriting questions for IBD applicants, and walk you through the application. There's no cost to you for our help.",
+  }
 ];
 
 export default function MedicareSupplementCrohnsPage() {
@@ -431,6 +447,7 @@ export default function MedicareSupplementCrohnsPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">New Jersey State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
     </main>
   );

@@ -363,6 +363,22 @@ const faqs = [
     answer:
       "Yes. Federal rules give you a 30-day free-look period when you buy a new Medigap policy. You can keep both policies active during those 30 days, and if you decide to keep the new plan, you cancel the old one. You'll pay both premiums during the overlap, but it protects you if the new coverage isn't what you expected.",
   }
+,
+  {
+    question: "What happens if I switch Medigap plans and don't like the new one?",
+    answer:
+      "Federal law gives you a 30-day free look period when you buy a new Medigap policy. During that window you can cancel the new policy and keep your old one, as long as you haven't dropped the old policy yet. You'll need to pay both premiums for one month, but it protects you if the new plan isn't a good fit.",
+  },
+  {
+    question: "Can my Medigap carrier drop me if I switch plans or my health changes?",
+    answer:
+      "No. As long as you pay your premium, your Medigap policy is guaranteed renewable under federal law, even if your health declines. Carriers cannot cancel your coverage because of claims or new diagnoses. This protection applies whether you bought the policy during open enrollment or through underwriting.",
+  },
+  {
+    question: "Should I review my Medigap plan every year even though there's no enrollment period?",
+    answer:
+      "Yes. Premiums can rise each year, and a different carrier may offer the same standardized plan letter at a lower rate. An annual review with a licensed broker can identify savings opportunities, and if you're healthy enough to pass underwriting, switching carriers can meaningfully reduce your monthly cost. Call 855-559-1700 for a free comparison.",
+  }
 ];
 
 export default function WhenCanIChangeMyMedicareSupplementPlanFor2026() {
@@ -586,6 +602,7 @@ export default function WhenCanIChangeMyMedicareSupplementPlanFor2026() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/division_consumers/insurance/ship.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">New Jersey State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medigap switching help from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">State help: <a href="https://www.nj.gov/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey SHIP (State Health Insurance Assistance Program)</a> offers free Medicare counseling. Call 855-559-1700 for personalized broker help.</div>
+            <div className="text-sm text-gray-600 mt-4">Need state-specific guidance? Contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> or your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free counseling.</div>
       </section>
     </main>
   );

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare broker for people with crohns | No-Cost Plan Help | MedicareYourself",
   description:
-    "Medicare broker for people with Crohn's. Compare plans that cover your biologics, infusions, and GI specialists at no cost. Call 855-559-1700 today.",
+    "Medicare broker for people with Crohn's. Compare plans covering biologics, infusions, and GI specialists at no cost to you. Call 855-559-1700 for free help.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-people-with-crohns" },
   openGraph: {
     title:
@@ -158,6 +158,22 @@ const faqs = [
     question: "Can I switch Medicare plans if my Crohn's medication isn't covered?",
     answer:
       "You can change Medicare Advantage and Part D plans during the Annual Enrollment Period each fall, with coverage starting January 1. You may also qualify for a Special Enrollment Period in certain situations, such as moving or losing other coverage. If your current plan drops a key biologic from its formulary, reviewing your options each year is important.",
+  }
+,
+  {
+    question: "Should I choose Medicare Supplement or Medicare Advantage if I have Crohn's?",
+    answer:
+      "Many people with Crohn's prefer a Medicare Supplement (Medigap) paired with Original Medicare and a standalone Part D plan because there are no provider networks, so you can see any gastroenterologist or specialist that accepts Medicare. Medicare Advantage plans can have lower premiums but use networks and may require referrals or prior authorization for biologics and procedures. The right fit depends on your providers, medications, and budget.",
+  },
+  {
+    question: "Will Medicare cover infusions like Remicade or Entyvio?",
+    answer:
+      "Yes. Infusions administered in a doctor's office or infusion center are typically covered under Medicare Part B rather than Part D. You'll generally be responsible for the Part B deductible and coinsurance unless you have a Medigap plan or Medicare Advantage plan that helps with those costs. A broker can review how each plan handles infused biologics for Crohn's.",
+  },
+  {
+    question: "Can I switch Medicare plans if my Crohn's treatment changes?",
+    answer:
+      "Yes. During the Annual Enrollment Period each fall, you can change your Part D or Medicare Advantage plan to better match new prescriptions or providers. Certain life events also trigger Special Enrollment Periods. Switching to a Medigap plan after your initial enrollment window may require medical underwriting, so timing matters.",
   }
 ];
 
