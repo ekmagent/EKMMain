@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "licensed medicare advisors | Free Unbiased Help | MedicareYourself",
   description:
-    "Work with licensed Medicare advisors at no cost. Anthony Orner (NJ + 34 states) compares plans across carriers. Free, unbiased help — call 855-559-1700.",
+    "Compare Medicare plans with licensed advisors at no cost. Anthony Orner (NJ + 34 states) gives unbiased help across carriers — call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/licensed-medicare-advisors" },
   openGraph: {
     title:

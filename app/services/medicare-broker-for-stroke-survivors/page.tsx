@@ -322,6 +322,22 @@ const faqs = [
     answer:
       "Yes. Medicare Part B covers medically necessary visits with neurologists, cardiologists, and other specialists involved in your stroke recovery. Original Medicare lets you see any provider who accepts Medicare, while Medicare Advantage plans typically use provider networks and may require referrals.",
   }
+,
+  {
+    question: "Does Medicare cover durable medical equipment (DME) needed after a stroke?",
+    answer:
+      "Yes. Medicare Part B covers medically necessary durable medical equipment such as wheelchairs, walkers, hospital beds, and certain communication devices when prescribed by your doctor. You'll typically pay the Part B coinsurance after meeting the deductible, and the supplier must be Medicare-approved. A Medigap or Medicare Advantage plan can help with the out-of-pocket portion.",
+  },
+  {
+    question: "Does Medicare cover home health care after a stroke?",
+    answer:
+      "Yes. Medicare Part A and Part B cover part-time skilled nursing care, physical therapy, speech-language pathology, and occupational therapy at home when you're certified as homebound and a doctor orders the care. The services must be provided by a Medicare-certified home health agency. I can help you compare plans that strengthen home health and caregiver support benefits.",
+  },
+  {
+    question: "Should a stroke survivor choose Medicare Advantage or Original Medicare with a Medigap plan?",
+    answer:
+      "It depends on your providers, prescriptions, and how much predictability you want in costs. Original Medicare with a Medigap plan offers broad provider access and predictable out-of-pocket costs, which many stroke survivors prefer for ongoing specialist and therapy care. Medicare Advantage may offer extra benefits like transportation or OTC allowances but uses networks. I'll compare both sides for your situation — call 855-559-1700.",
+  }
 ];
 
 export default function MedicareBrokerForStrokeSurvivors() {

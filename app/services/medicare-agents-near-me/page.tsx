@@ -92,6 +92,12 @@ const faqs = [
     answer:
       "Look for an independent broker who is licensed in your state and contracted with multiple major carriers. Ask how they get paid, whether they charge fees, and if they offer ongoing support after enrollment. A trustworthy agent will explain options clearly, share their National Producer Number, and never pressure you into a decision.",
   }
+,
+  {
+    question: "Should I meet a Medicare agent in person or is a phone consultation enough?",
+    answer:
+      "Both options are equally effective for most beneficiaries. Phone and video consultations allow a licensed agent to compare plans, check your doctors and prescriptions, and complete enrollment securely from home. In-person meetings can be arranged if you prefer face-to-face guidance, but they are not required to get accurate, personalized advice.",
+  }
 ];
 
 export default function MedicareAgentsNearMe() {

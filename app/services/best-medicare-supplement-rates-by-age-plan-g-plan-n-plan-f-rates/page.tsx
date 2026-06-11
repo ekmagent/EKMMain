@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Best Medicare Supplement Rates by Age (Plan G, Plan N, & Plan F Rates) | Free Quote | MedicareYourself",
   description:
-    "Compare Medicare Supplement rates by age for Plan G, Plan N, and Plan F. See how premiums change with age and get a free side-by-side quote at 855-559-1700.",
+    "Compare Medicare Supplement rates by age for Plan G, Plan N, and Plan F. See how premiums shift over time and get a free quote at 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/best-medicare-supplement-rates-by-age-plan-g-plan-n-plan-f-rates" },
   openGraph: {
     title:
@@ -224,6 +224,22 @@ const faqs = [
     question: "Can I switch Medicare Supplement plans to get a lower rate later?",
     answer:
       "You can apply to switch at any time, but outside of your Medigap Open Enrollment Period or a guaranteed issue situation, carriers in most states can use medical underwriting. That means you may be denied or charged more based on health history, so it's important to compare carefully before switching.",
+  }
+,
+  {
+    question: "What are the three Medigap pricing methods carriers use to set rates?",
+    answer:
+      "Medigap policies are priced one of three ways: community-rated (same premium regardless of age), issue-age rated (based on the age you buy), or attained-age rated (increases as you get older). Attained-age policies often start lowest but rise the most over time. Knowing which method a carrier uses helps you forecast long-term costs, not just today's premium.",
+  },
+  {
+    question: "Can I switch Medicare Supplement plans later if I find a lower rate?",
+    answer:
+      "Outside your initial Medigap Open Enrollment Period, switching plans usually requires medical underwriting, and carriers can decline coverage or charge more based on your health. A few states offer broader switching rights, so the rules depend on where you live. A licensed broker can shop carriers and run underwriting prescreens before you apply.",
+  },
+  {
+    question: "Is Plan N a better value than Plan G for some people?",
+    answer:
+      "Plan N has a lower monthly premium than Plan G but includes small copays for office and ER visits and doesn't cover Part B excess charges. If you don't visit doctors often and live in a state where excess charges are limited, Plan N can save money overall. We can compare both side-by-side at 855-559-1700.",
   }
 ];
 
@@ -515,6 +531,7 @@ export default function BestMedicareSupplementRatesByAge() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can compare rates and file complaints with the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
       </section>
     </main>
   );

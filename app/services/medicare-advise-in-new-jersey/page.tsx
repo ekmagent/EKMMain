@@ -338,6 +338,7 @@ export default function MedicareAdviseInNewJersey() {
             <div className="text-sm text-gray-600 mt-4">For free unbiased counseling, visit the <a href="https://www.nj.gov/humanservices/doas/services/q-z/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">New Jersey State Health Insurance Assistance Program (SHIP)</a> through the NJ Division of Aging Services.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the free <a href="https://www.nj.gov/humanservices/doas/services/q-z/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">NJ State Health Insurance Assistance Program (SHIP)</a> through the Division of Aging Services.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.nj.gov/humanservices/doas/services/q-z/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.nj.gov/humanservices/doas/services/q-z/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
       </section>
     </>
   );

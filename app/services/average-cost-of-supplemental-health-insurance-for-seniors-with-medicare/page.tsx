@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "average cost of supplemental health insurance for seniors with medicare | Free Broker Comparison | MedicareYourself",
   description:
-    "Compare 2026 Medigap premiums by carrier, age, and state. Call 855-559-1700 for a free licensed broker review and lock in your lowest monthly rate.",
+    "See what Medigap really costs in 2026 by carrier, age, and state. Call 855-559-1700 for a free broker comparison and lock in your lowest monthly premium.",
   alternates: { canonical: "https://medicareyourself.com/services/average-cost-of-supplemental-health-insurance-for-seniors-with-medicare" },
   openGraph: {
     title:
@@ -614,6 +614,22 @@ const faqs = [
     answer:
       "Yes. A licensed Medicare broker can pull current rates from multiple carriers side-by-side at no cost to you, since commissions are paid by the insurance company. Call 855-559-1700 to speak with Anthony Orner, a licensed broker in NJ and 34 states, for a free rate review.",
   }
+,
+  {
+    question: "Do Medigap premiums increase as I get older?",
+    answer:
+      "It depends on how the carrier prices its policy. Attained-age-rated plans go up as you get older, issue-age-rated plans are based on the age you bought the policy, and community-rated plans charge the same premium regardless of age. All three types can also see annual increases due to inflation and claims experience.",
+  },
+  {
+    question: "Does the lettered Medigap plan I choose affect what each company charges?",
+    answer:
+      "The benefits in each lettered Medigap plan are standardized by federal law, so Plan G from one carrier covers the same services as Plan G from another. The only real difference between identical lettered plans is the premium each company charges. That's why comparing carriers in your zip code can lead to meaningful savings.",
+  },
+  {
+    question: "Can a licensed broker help me find the lowest Medigap rate?",
+    answer:
+      "Yes. An independent licensed broker can quote multiple carriers at once and identify which company offers the lowest rate for your age, zip code, gender, and tobacco status. Call 855-559-1700 to compare Medigap premiums side by side with no cost or obligation.",
+  }
 ];
 
 export default function AverageCostSupplementalInsurancePage() {
@@ -845,6 +861,7 @@ export default function AverageCostSupplementalInsurancePage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents: contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free counseling on Medigap costs.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify carrier rates and file complaints through the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased plan counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> or contact the <a href="https://www.state.nj.us/dobi/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a>.</div>
       </section>
     </main>
   );

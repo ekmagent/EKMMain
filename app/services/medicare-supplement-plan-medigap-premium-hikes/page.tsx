@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare supplement plan (medigap) premium hikes | Free Rate Review | MedicareYourself",
   description:
-    "Medigap premium increase? Compare carriers on the same plan letter and call 855-559-1700 for a free rate review to potentially lower your monthly cost.",
+    "Medigap premium hike? Compare carriers on the same plan letter and call 855-559-1700 for a free rate review to help lower your monthly Medicare costs.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-supplement-plan-medigap-premium-hikes" },
   openGraph: {
     title:

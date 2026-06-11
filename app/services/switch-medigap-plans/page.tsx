@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title:
     "switch medigap plans | Compare Carriers & Switch Online | MedicareYourself",
   description:
-    "Switch Medigap plans any month and keep identical Plan G or N benefits at a lower premium. Call 855-559-1700 for free licensed broker help comparing carriers.",
+    "Switch Medigap plans any month and keep identical Plan G or N benefits for less. Free licensed broker help comparing carriers — call 855-559-1700 today.",
   alternates: {
     canonical: `${SITE_URL}/services/switch-medigap-plans`,
   },
@@ -239,6 +239,22 @@ const faqs = [
     question: "Can I be denied a new Medigap policy because of my health?",
     answer:
       "Outside your Medigap Open Enrollment Period or a guaranteed issue situation, carriers in most states can use medical underwriting and may deny coverage or charge more based on your health. If you are in good health, approval is usually straightforward. A licensed broker can pre-screen carriers for you before you submit an application — call 855-559-1700 for a free review.",
+  }
+,
+  {
+    question: "Do I need to answer health questions when I switch Medigap plans?",
+    answer:
+      "It depends on when you switch. During your 6-month Medigap Open Enrollment Period or when you have a guaranteed issue right, carriers cannot use medical underwriting. Outside those windows, most states allow carriers to ask health questions and decide whether to approve your application. Some states, however, offer additional protections that let you switch more freely — your licensed broker can confirm the rules where you live.",
+  },
+  {
+    question: "What is the Medigap 30-day free look period?",
+    answer:
+      "When you buy a new Medigap policy, federal rules give you 30 days to decide if you want to keep it. You must pay both premiums for one month — your old plan and the new one — but if you cancel within those 30 days, you can return to your prior coverage situation without penalty. This protection is why we recommend keeping your current plan active until the new one is fully in force.",
+  },
+  {
+    question: "Should I work with a broker or switch Medigap plans on my own?",
+    answer:
+      "You can apply directly with any carrier, but a licensed independent broker compares multiple carriers at once and checks each one's underwriting rules before you apply. That helps avoid declines and makes sure you keep identical Plan G or Plan N benefits at the lowest available premium. Broker help is free — carriers pay the same commission whether you apply alone or with guidance. Call 855-559-1700 to review your options.",
   }
 ];
 
@@ -900,6 +916,7 @@ export default function SwitchMedigapPlansPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/division_consumers/insurance/ship.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medigap counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/index.shtml" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> or the free <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP program</a> for state-specific Medigap switching rights.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-700 underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medigap counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medigap switching guidance.</div>
       </section>
     </>
   );

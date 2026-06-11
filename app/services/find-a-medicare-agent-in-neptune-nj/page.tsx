@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "find a medicare agent in neptune nj | Free No-Obligation Help | MedicareYourself",
   description:
-    "Find a Medicare agent in Neptune, NJ for free, unbiased plan comparisons. Call Anthony Orner at 855-559-1700 to review your Medicare options today.",
+    "Find a Medicare agent in Neptune, NJ for free, unbiased plan comparisons across top carriers. Call Anthony Orner at 855-559-1700 to review your options.",
   alternates: { canonical: "https://medicareyourself.com/services/find-a-medicare-agent-in-neptune-nj" },
   openGraph: {
     title:

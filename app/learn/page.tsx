@@ -239,6 +239,12 @@ const GUIDES = [
     answer:
       "Most people become eligible for Medicare at age 65, but the right choice depends on whether you have other coverage like an employer plan, retiree benefits, or VA health care. If you're already collecting Social Security, you'll typically be enrolled in Part A and Part B automatically. If not, you'll need to sign up through SSA.gov during your Initial Enrollment Period to avoid late penalties. Call 855-559-1700 to talk through your situation.",
   }
+,
+  {
+    question: "Can I switch from Medicare Advantage back to Original Medicare later?",
+    answer:
+      "Yes, you can switch during the Annual Enrollment Period in the fall or during the Medicare Advantage Open Enrollment Period in early in the year. However, if you want to add a Medigap policy when switching back, you may be subject to medical underwriting depending on your state and timing. Call 855-559-1700 to review your switch options before you make changes.",
+  }
 ];
 
 export default function LearnHubPage() {

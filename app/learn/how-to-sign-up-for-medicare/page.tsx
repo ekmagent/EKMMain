@@ -866,6 +866,22 @@ const faqs = [
     answer:
       "If you or your spouse are still actively working and have employer health coverage, you can usually delay Part B without penalty and enroll later through a Special Enrollment Period. Most people still enroll in Part A at 65 since it is premium-free for those with enough work credits. Always confirm with your HR department that your plan counts as creditable coverage before delaying.",
   }
+,
+  {
+    question: "Can I sign up for Medicare if I am still working at 65?",
+    answer:
+      "Yes. You can enroll in Medicare at 65 even while working, and many people sign up for premium-free Part A because it can coordinate with employer coverage. Whether to also take Part B depends on whether your employer plan counts as creditable coverage. Call 855-559-1700 to review your situation before making a decision.",
+  },
+  {
+    question: "What happens if I miss my Medicare Initial Enrollment Period?",
+    answer:
+      "If you miss your Initial Enrollment Period and do not qualify for a Special Enrollment Period, you generally must wait for the General Enrollment Period (January 1 to March 31) to sign up for Part B. You may also owe a permanent Part B late enrollment penalty added to your monthly premium for as long as you have Medicare. A licensed broker can help you confirm whether a Special Enrollment Period applies to you.",
+  },
+  {
+    question: "Do I sign up for Medicare through Social Security or Medicare directly?",
+    answer:
+      "You sign up for Medicare Parts A and B through the Social Security Administration at ssa.gov/medicare, by calling Social Security, or by visiting a local SSA office. Medicare Advantage and Part D drug plans are enrolled separately through Medicare or a licensed broker. We can walk you through both steps at 855-559-1700.",
+  }
 ];
 
 export default function HowToSignUpPage() {

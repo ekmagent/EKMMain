@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title:
     "How to Enroll in Medicare Online at SSA.gov (Step-by-Step Walkthrough)",
   description:
-    "Step-by-step SSA.gov Medicare enrollment walkthrough — apply for Part A & Part B online in about 10 minutes. Call 855-559-1700 for free expert help.",
+    "Step-by-step SSA.gov Medicare enrollment walkthrough — apply for Part A & Part B online in about 10 minutes. Free expert help: call 855-559-1700.",
   alternates: {
     canonical: `${SITE_URL}/learn/ssa-online-enrollment-walkthrough`,
   },
@@ -976,6 +976,22 @@ const steps = [
     question: "What happens after I submit my SSA Medicare application?",
     answer:
       "After you click Submit Now, the Social Security Administration reviews your application and will contact you if more information is needed. Once approved, you'll receive your red, white, and blue Medicare card in the mail, typically within a few weeks. You cannot modify the application after submitting, so review carefully before signing.",
+  }
+,
+  {
+    question: "Do I contact Medicare or Social Security to enroll in Part A and Part B?",
+    answer:
+      "You enroll in Medicare Part A and Part B through the Social Security Administration, not Medicare itself. SSA handles the application, identity verification, and eligibility determination. Once enrolled, Medicare manages your benefits and coverage.",
+  },
+  {
+    question: "What documents do I need before starting the SSA online application?",
+    answer:
+      "You'll need your Social Security number and a valid driver's license or state ID for identity verification through Login.gov or ID.me. If you have current health coverage through an employer, gather your insurance card and employment start and end dates. Having these ready helps you finish the application in about 10 minutes.",
+  },
+  {
+    question: "Can I change my application after submitting it on SSA.gov?",
+    answer:
+      "No. Once you click Submit Now and agree to the Electronic Signature Agreement, you cannot modify the application online. If you need to correct information or change your Part B election, you'll need to contact the Social Security Administration directly.",
   }
 ];
 

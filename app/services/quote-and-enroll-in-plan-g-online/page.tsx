@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Quote and Enroll in Plan G Online | Free Instant Rates | MedicareYourself",
   description:
-    "Quote and enroll in Medigap Plan G online with a licensed NJ broker. Compare top-carrier rates instantly and finish enrollment today — call 855-559-1700.",
+    "Quote and enroll in Medigap Plan G online with a licensed NJ broker. Compare top-carrier rates instantly and finish today — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/quote-and-enroll-in-plan-g-online" },
   openGraph: {
     title:

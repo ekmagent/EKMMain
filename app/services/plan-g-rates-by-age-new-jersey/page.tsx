@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Plan G Rates by Age in New Jersey | 2026 Costs | MedicareYourself",
   description:
-    "Compare 2026 Plan G rates by age in New Jersey. Broker Anthony Orner shops top NJ Medigap carriers to find your lowest premium. Call 855-559-1700 for a quote.",
+    "Compare 2026 Plan G rates by age in New Jersey. Broker Anthony Orner shops top NJ Medigap carriers to find your lowest premium. Call 855-559-1700 for a free quote.",
   alternates: { canonical: `${SITE_URL}/services/plan-g-rates-by-age-new-jersey` },
   openGraph: {
     title: "Plan G Rates by Age in New Jersey | 2026 Costs | MedicareYourself",
@@ -158,6 +158,17 @@ const faqs = [
     question: "How does Anthony Orner help me find the lowest Plan G rate in NJ?",
     answer:
       "As an independent broker licensed in New Jersey, Anthony Orner compares Plan G rates across multiple top-rated NJ Medigap carriers for your exact age and ZIP code. Because Plan G benefits are standardized by federal law, the only real difference between carriers is price and rate-increase history. Call 855-559-1700 for a no-cost comparison.",
+  }
+,
+  {
+    question: "How does the 6-month Medigap Open Enrollment Period work in New Jersey?",
+    answer:
+      "Your Medigap Open Enrollment Period begins the first month you are both 65 or older and enrolled in Medicare Part B, and it lasts 6 months. During this window, NJ carriers must sell you any Medigap plan they offer at their best available rate, regardless of your health history. After it ends, carriers can apply medical underwriting unless you qualify for a federal guaranteed-issue right.",
+  },
+  {
+    question: "Should I work with a broker to compare Plan G rates in NJ?",
+    answer:
+      "Yes — Plan G coverage is standardized by federal law, so the benefits are identical from carrier to carrier, but premiums can vary widely. A licensed NJ broker like Anthony Orner can shop multiple carriers at once and match you with the lowest rate for your age and ZIP code. Call 855-559-1700 for a free comparison.",
   }
 ];
 

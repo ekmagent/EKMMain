@@ -429,6 +429,12 @@ const faqs = [
     answer:
       "Yes. The Extra Help program (also called the Low Income Subsidy) helps Medicare beneficiaries with limited income and resources pay Part D premiums, deductibles, and copays. Many MS patients on SSDI qualify. You can apply through Social Security at ssa.gov or call us and we'll walk you through eligibility.",
   }
+,
+  {
+    question: "Does Medicare Part D cover oral MS medications?",
+    answer:
+      "Yes. Oral disease-modifying therapies for MS, such as those taken at home in pill form, are generally covered under Medicare Part D prescription drug plans. Coverage tiers, prior authorization requirements, and out-of-pocket costs vary by plan, so it's important to compare formularies before enrolling. A broker can check whether your specific medication is on a plan's formulary and at what tier.",
+  }
 ];
 
 export default function MedicareBrokerForMSPatients() {

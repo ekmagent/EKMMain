@@ -119,6 +119,22 @@ const faqs = [
     answer:
       "It depends on how you want the rest of your Medicare benefits structured. Standalone Part D pairs with Original Medicare and a Medigap policy, while Medicare Advantage plans often bundle drug coverage with medical benefits. A broker reviews your prescriptions, doctors, and budget to recommend the structure that fits your situation.",
   }
+,
+  {
+    question: "What's the difference between a stand-alone Part D plan and Medicare Advantage drug coverage near 18517?",
+    answer:
+      "A stand-alone Part D plan adds prescription coverage to Original Medicare or a Medicare Supplement. Medicare Advantage plans (MA-PD) bundle medical and drug coverage into one plan. A broker can show you both options side-by-side so you can compare total costs and pharmacy networks before deciding.",
+  },
+  {
+    question: "What is the Part D coverage phase structure I should know about?",
+    answer:
+      "Part D has three phases: the deductible phase, the initial coverage phase, and the catastrophic coverage phase. Starting in 2025, the coverage gap (donut hole) was eliminated and a new annual out-of-pocket cap applies. A broker can walk you through how your specific medications move through these phases throughout the year.",
+  },
+  {
+    question: "Can I get help paying for my Part D plan if I have limited income?",
+    answer:
+      "Yes. The Extra Help program (also called the Low-Income Subsidy) can significantly reduce your Part D premium, deductible, and copays. New Jersey residents may also qualify for PAAD or Senior Gold. A licensed broker can screen you for these programs during your free review.",
+  }
 ];
 
 export default function MedicarePartDBrokers18517() {

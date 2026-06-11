@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
   description:
-    "IRMAA explained: how Medicare's 2026 income surcharge affects Part B and Part D, who pays, and how to appeal with SSA-44. Free broker help at 855-559-1700.",
+    "IRMAA explained: how Medicare's 2026 income surcharge affects Part B and Part D, who pays, and how to appeal with SSA-44. Free broker help: 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/irmaa-medicare-surcharge` },
   openGraph: {
     title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
@@ -848,6 +848,17 @@ const faqs = [
     question: "How is the IRMAA surcharge paid?",
     answer:
       "The Part B IRMAA surcharge is deducted from your Social Security benefit along with your standard Part B premium, or billed directly by Medicare if you are not yet collecting Social Security. The Part D IRMAA is billed separately by Medicare, not by your drug plan. Missing these payments can affect your Medicare coverage, so it is important to stay current.",
+  }
+,
+  {
+    question: "How do I appeal an IRMAA determination if my income has dropped?",
+    answer:
+      "If you experienced a life-changing event such as retirement, divorce, or the death of a spouse, you can request a reduction by filing Form SSA-44 with the Social Security Administration. You'll need to provide documentation of the event and your reduced expected income. SSA reviews these requests case-by-case and can adjust your IRMAA going forward. Call 855-559-1700 if you'd like help understanding the process.",
+  },
+  {
+    question: "Will IRMAA last forever once I'm subject to it?",
+    answer:
+      "No. IRMAA is recalculated every year based on your tax return from two years prior. If your income drops below the threshold in a future tax year, your surcharge will go away automatically once SSA receives that updated tax data from the IRS.",
   }
 ];
 

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "How Much Does Medicare Supplement Cost per Month for Seniors? | Free 2026 Rate Quote | MedicareYourself",
   description:
-    "How much does Medicare Supplement cost per month for seniors? Compare Plan G and Plan N premium ranges by age and carrier. Call 855-559-1700 for a free quote.",
+    "How much does Medicare Supplement cost per month for seniors? Compare Plan G and Plan N premiums by age, carrier, and zip code. Call 855-559-1700 for a free quote.",
   alternates: { canonical: "https://medicareyourself.com/services/how-much-does-medicare-supplement-cost-per-month-for-seniors" },
   openGraph: {
     title:
@@ -85,6 +85,17 @@ const faqs = [
     answer:
       "Your Medigap Open Enrollment Period, which is the 6 months starting when you're 65 or older AND enrolled in Part B. During this window, carriers can't charge more or deny you based on health conditions. After it closes, you may face medical underwriting.",
   },
+,
+  {
+    question: "Does where I live affect my Medicare Supplement premium?",
+    answer:
+      "Yes. Medigap insurance companies set premiums based on your zip code, in addition to your age, gender, and tobacco use. The same lettered plan from the same carrier can cost noticeably more or less just a few towns away. That's why a personalized quote is the only reliable way to see your actual monthly cost.",
+  },
+  {
+    question: "Are Medicare Supplement benefits the same across every insurance company?",
+    answer:
+      "Yes. Per Medicare.gov, the benefits in each lettered Medigap plan are standardized and identical no matter which insurance company sells it. The only real difference between two carriers offering the same plan letter is the premium and the carrier's rate-increase history. That's why comparing prices across carriers matters so much.",
+  }
 ];
 
 export default function HowMuchDoesMedicareSupplementCostPerMonthForSeniors() {
@@ -309,6 +320,7 @@ export default function HowMuchDoesMedicareSupplementCostPerMonthForSeniors() {
             <div className="text-sm text-gray-600 mt-4">For NJ residents: contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Free state counseling: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> offers unbiased Medicare guidance to New Jersey seniors.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </main>
   );

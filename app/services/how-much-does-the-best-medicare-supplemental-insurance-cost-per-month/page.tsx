@@ -262,6 +262,17 @@ const faqs = [
     answer:
       "Yes. Medigap premiums vary significantly by state and even by zip code because carriers price based on local claims experience, demographics, and state insurance regulations. Two people with identical plans can pay very different amounts depending on where they live. That's why comparing carriers in your specific area is essential.",
   }
+,
+  {
+    question: "Does where I live affect how much I pay for Medigap?",
+    answer:
+      "Yes, your zip code is one of the biggest factors in your monthly premium. Carriers price Medigap policies based on regional claims experience, so the same plan letter can cost noticeably more in one state or county than another. Your age, gender, and tobacco use also influence the rate.",
+  },
+  {
+    question: "Can my Medigap premium go up after I enroll?",
+    answer:
+      "Yes. Medigap premiums can increase due to inflation, claims experience, and your rating method (community-rated, issue-age-rated, or attained-age-rated). Attained-age policies typically rise as you get older, while community-rated plans charge the same regardless of age but can still increase across the board.",
+  }
 ];
 
 export default function HowMuchDoesBestMedicareSupplementalInsuranceCostPerMonth() {
