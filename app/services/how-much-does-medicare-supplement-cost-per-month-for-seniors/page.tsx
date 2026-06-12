@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "How Much Does Medicare Supplement Cost per Month for Seniors? | Free 2026 Rate Quote | MedicareYourself",
   description:
-    "How much does Medicare Supplement cost per month for seniors? Compare Plan G and Plan N premiums by age, carrier, and zip code. Call 855-559-1700 for a free quote.",
+    "How much does Medicare Supplement cost per month for seniors? Compare Plan G and Plan N rates by age and zip. Call 855-559-1700 for a free quote.",
   alternates: { canonical: "https://medicareyourself.com/services/how-much-does-medicare-supplement-cost-per-month-for-seniors" },
   openGraph: {
     title:
@@ -95,6 +95,22 @@ const faqs = [
     question: "Are Medicare Supplement benefits the same across every insurance company?",
     answer:
       "Yes. Per Medicare.gov, the benefits in each lettered Medigap plan are standardized and identical no matter which insurance company sells it. The only real difference between two carriers offering the same plan letter is the premium and the carrier's rate-increase history. That's why comparing prices across carriers matters so much.",
+  }
+,
+  {
+    question: "How do insurance companies decide what to charge for the same Medigap plan?",
+    answer:
+      "Each company chooses one of three pricing methods: community-rated (everyone pays the same regardless of age), issue-age rated (based on the age you bought it), or attained-age rated (rises as you get older). The benefits inside each lettered plan are identical, so the price and pricing method are the only real differences between carriers.",
+  },
+  {
+    question: "Can I switch Medicare Supplement carriers to lower my premium?",
+    answer:
+      "Yes, you can apply to switch carriers at any time, but outside of your Medigap Open Enrollment Period or a guaranteed-issue right, most states allow medical underwriting. That means a new carrier can review your health and decline your application or charge more. We compare current rates against your existing plan before recommending a switch.",
+  },
+  {
+    question: "Do I still pay the Part B premium if I have a Medicare Supplement plan?",
+    answer:
+      "Yes. A Medigap policy is in addition to Original Medicare, so you continue paying the standard Part B premium directly to Medicare along with your Medigap premium to the private carrier. Your Medigap plan only covers gaps left by Parts A and B.",
   }
 ];
 
@@ -321,6 +337,7 @@ export default function HowMuchDoesMedicareSupplementCostPerMonthForSeniors() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Free state counseling: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> offers unbiased Medicare guidance to New Jersey seniors.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </main>
   );

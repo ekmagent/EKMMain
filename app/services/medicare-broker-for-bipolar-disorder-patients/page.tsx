@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for bipolar disorder patients | Free Plan Comparison | MedicareYourself",
   description:
-    "Medicare broker for bipolar disorder patients — Anthony Orner compares Part D plans covering mood stabilizers, therapy & psychiatric care. Call 855-559-1700.",
+    "Medicare broker for bipolar disorder patients — Anthony Orner compares Part D plans covering mood stabilizers and psychiatric care. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-bipolar-disorder-patients" },
   openGraph: {
     title:
@@ -186,6 +186,12 @@ const faqs = [
     question: "Does Medicare cover therapy and counseling for bipolar disorder?",
     answer:
       "Yes. Medicare Part B covers outpatient mental health services including individual and group therapy, psychiatric evaluations, and medication management visits with psychiatrists, clinical psychologists, clinical social workers, and nurse practitioners. Part B also covers an annual depression screening at no cost when performed by a participating provider. After meeting the Part B deductible, you typically pay coinsurance for each visit.",
+  }
+,
+  {
+    question: "Does Medicare cover therapy and counseling for bipolar disorder?",
+    answer:
+      "Yes. Medicare Part B covers outpatient mental health services including individual and group therapy, family counseling when the purpose is to help with your treatment, and visits with psychiatrists, clinical psychologists, clinical social workers, and nurse practitioners. You typically pay 20% of the Medicare-approved amount after meeting the Part B deductible. Telehealth therapy visits are also covered in many situations.",
   }
 ];
 

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "average cost of supplemental health insurance for seniors with medicare | Free Broker Comparison | MedicareYourself",
   description:
-    "See what Medigap really costs in 2026 by carrier, age, and state. Call 855-559-1700 for a free broker comparison and lock in your lowest monthly premium.",
+    "Compare 2026 Medigap costs by carrier, age, and state with a licensed broker. Call 855-559-1700 to lock in your lowest premium with no fees.",
   alternates: { canonical: "https://medicareyourself.com/services/average-cost-of-supplemental-health-insurance-for-seniors-with-medicare" },
   openGraph: {
     title:
@@ -630,6 +630,22 @@ const faqs = [
     answer:
       "Yes. An independent licensed broker can quote multiple carriers at once and identify which company offers the lowest rate for your age, zip code, gender, and tobacco status. Call 855-559-1700 to compare Medigap premiums side by side with no cost or obligation.",
   }
+,
+  {
+    question: "Do Medigap premiums increase as I get older?",
+    answer:
+      "It depends on how the carrier prices the policy. Attained-age-rated plans increase as you age, issue-age-rated plans are based on the age you enrolled, and community-rated plans charge everyone in an area the same regardless of age. All three pricing methods may also see annual increases due to inflation and claims experience.",
+  },
+  {
+    question: "Can I be denied a Medigap policy or charged more for health conditions?",
+    answer:
+      "Outside of your Medigap Open Enrollment Period or a guaranteed issue right, carriers in most states can medically underwrite your application. That means they can deny coverage, charge a higher premium, or impose a pre-existing condition waiting period. Enrolling during your initial 6-month window protects you from this.",
+  },
+  {
+    question: "Does my Medigap premium include prescription drug coverage?",
+    answer:
+      "No. Modern Medigap plans do not include Part D prescription drug coverage. You'll need to enroll in a standalone Medicare Part D plan separately, which has its own monthly premium in addition to your Medigap premium and your Part B premium.",
+  }
 ];
 
 export default function AverageCostSupplementalInsurancePage() {
@@ -862,6 +878,7 @@ export default function AverageCostSupplementalInsurancePage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify carrier rates and file complaints through the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased plan counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> or contact the <a href="https://www.state.nj.us/dobi/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

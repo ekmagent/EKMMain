@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare enrollment help for people with diabetes texas | Free Guidance | MedicareYourself",
   description:
-    "Texas Medicare help for diabetes — compare plans covering insulin, CGMs & test strips with no underwriting at 65. Call 855-559-1700 for free broker guidance.",
+    "Texas Medicare help for people with diabetes — compare plans covering insulin, CGMs, and supplies. Call 855-559-1700 for free licensed broker guidance.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-enrollment-help-for-people-with-diabetes-texas" },
   openGraph: {
     title:
@@ -85,6 +85,22 @@ const faqs = [
     answer:
       "During your 6-month Medigap Open Enrollment Period (starting the month you turn 65 and enroll in Part B), insurers cannot deny you or charge more due to diabetes. Outside that window, Texas Medigap carriers can use medical underwriting and may decline coverage or add a waiting period for pre-existing conditions like diabetes.",
   },
+,
+  {
+    question: "Does Medicare Part D cap insulin costs for Texans with diabetes?",
+    answer:
+      "Yes. Under the Inflation Reduction Act, Medicare Part D and Medicare Advantage drug plans cap the monthly copay for each covered insulin product. The cap applies regardless of which phase of the drug benefit you're in, and there is no deductible for insulin. Your plan's formulary determines which insulins are covered, so checking formularies before enrolling is important.",
+  },
+  {
+    question: "What diabetes self-management training does Medicare cover in Texas?",
+    answer:
+      "Medicare Part B covers Diabetes Self-Management Training (DSMT) when ordered by your doctor after a diabetes diagnosis. The program teaches you how to monitor blood sugar, manage medications, plan meals, and reduce complications. After meeting the Part B deductible, you typically pay a coinsurance share unless you have supplemental coverage.",
+  },
+  {
+    question: "When should I enroll in Medicare if I'm managing diabetes in Texas?",
+    answer:
+      "Most Texans should enroll during their Initial Enrollment Period — the seven-month window around their 65th birthday — to avoid late penalties and gaps in diabetes coverage. If you're still working with employer coverage, you may qualify for a Special Enrollment Period later. Enrolling on time also protects your one-time guaranteed-issue window for Medigap, which matters if you have diabetes.",
+  }
 ];
 
 export default function MedicareEnrollmentHelpDiabetesTexas() {
@@ -334,6 +350,7 @@ export default function MedicareEnrollmentHelpDiabetesTexas() {
             <div className="text-sm text-gray-600 mt-4">Texas help: <a href="https://www.hhs.texas.gov/services/health/medicare" rel="noopener noreferrer" target="_blank" className="underline">Texas Health and Human Services — Medicare</a> offers free counseling and enrollment guidance for Texans.</div>
             <div className="text-sm text-gray-600 mt-4">Texas help: <a href="https://www.hhs.texas.gov/services/health/medicare" rel="noopener noreferrer" target="_blank" className="underline">Texas Health and Human Services — Medicare</a> offers the state's Medicare help line and SHIP counseling.</div>
             <div className="text-sm text-gray-600 mt-4">Texas help: <a href="https://www.hhs.texas.gov/services/health/medicare" rel="noopener noreferrer" target="_blank" className="underline">Texas Health and Human Services — Medicare</a> can connect you with the state's HICAP/SHIP counselors for free, unbiased Medicare guidance.</div>
+            <div className="text-sm text-gray-600 mt-4">Texas help: <a href="https://www.hhs.texas.gov/services/health/medicare" rel="noopener noreferrer" target="_blank" className="underline">Texas Health and Human Services — Medicare</a> (includes the state's HICAP/SHIP counseling program for free, unbiased Medicare guidance).</div>
       </section>
     </main>
   );

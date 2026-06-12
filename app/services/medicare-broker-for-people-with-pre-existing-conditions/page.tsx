@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare broker for people with pre-existing conditions | Free Guidance | MedicareYourself",
   description:
-    "Medicare broker help for pre-existing conditions — find lenient Medigap carriers, guaranteed issue rights & Advantage options. Free guidance: 855-559-1700.",
+    "Medicare broker help for pre-existing conditions — compare Medigap underwriting, guaranteed issue rights & Advantage options. Free guidance: 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-people-with-pre-existing-conditions" },
   openGraph: {
     title:
@@ -226,6 +226,17 @@ const faqs = [
     answer:
       "No. Medicare Advantage plans cannot impose waiting periods or deny enrollment based on pre-existing conditions, with the historical exception of End-Stage Renal Disease, which was removed as a barrier starting in 2021. As long as you're enrolled in Part A and Part B and live in the plan's service area, you can join during a valid election period regardless of health history.",
   }
+,
+  {
+    question: "Which pre-existing conditions are hardest to get approved with for a Medigap plan?",
+    answer:
+      "Conditions that often trigger declines during medical underwriting include recent cancer treatment, congestive heart failure, COPD requiring oxygen, dialysis, recent stroke, and insulin-dependent diabetes with complications. Each carrier sets its own underwriting rules, so a condition declined by one insurer may be accepted by another. A broker who works with multiple carriers can match your health history to the most lenient available option.",
+  },
+  {
+    question: "Can a Medicare Advantage plan drop me if my health gets worse?",
+    answer:
+      "No. Medicare Advantage plans cannot cancel your coverage or raise your premium because of a change in your health. You keep guaranteed renewal rights as long as the plan stays in your service area and you continue paying any applicable premium. You can also switch plans during the Annual Enrollment Period or, in some cases, a Special Enrollment Period.",
+  }
 ];
 
 export default function MedicareBrokerPreExistingConditions() {
@@ -432,6 +443,7 @@ export default function MedicareBrokerPreExistingConditions() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </main>
   );

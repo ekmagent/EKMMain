@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Plan G Rates for a 70-Year-Old in New Jersey | Free Quote in Minutes | MedicareYourself",
   description:
-    "Compare Plan G rates for a 70-year-old in NJ with a licensed local broker. See how community-rated Medigap pricing works. Call 855-559-1700 for free quotes.",
+    "Compare Plan G rates for a 70-year-old in NJ with a licensed local broker. Learn how community-rated Medigap pricing works. Call 855-559-1700 for free quotes.",
   alternates: { canonical: "https://medicareyourself.com/services/plan-g-rates-for-70-year-old-in-new-jersey" },
   openGraph: {
     title:
@@ -510,6 +510,7 @@ export default function PlanGRates70NJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.html" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">For free, unbiased Medicare counseling in New Jersey, visit the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> and the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">For NJ-specific help, visit the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> or the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
       </article>
     </>

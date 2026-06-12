@@ -175,6 +175,12 @@ const faqs = [
     answer:
       "Yes. During the Annual Enrollment Period each fall, you can change your Part D or Medicare Advantage plan to better match new prescriptions or providers. Certain life events also trigger Special Enrollment Periods. Switching to a Medigap plan after your initial enrollment window may require medical underwriting, so timing matters.",
   }
+,
+  {
+    question: "What should I look for in a Medicare plan if I have Crohn's disease?",
+    answer:
+      "Focus on three things: whether your gastroenterologist and infusion center are in-network, whether your specific biologics and maintenance drugs are on the formulary at a manageable tier, and how the plan handles prior authorization for specialty drugs. A Medigap plan paired with Part D often gives the broadest specialist access, while Medicare Advantage may offer lower premiums with network trade-offs.",
+  }
 ];
 
 export default function MedicareBrokerForPeopleWithCrohns() {

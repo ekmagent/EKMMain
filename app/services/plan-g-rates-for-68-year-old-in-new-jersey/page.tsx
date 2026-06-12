@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Plan G Rates for a 68-Year-Old in New Jersey | Free Carrier Comparison | MedicareYourself",
   description:
-    "Compare Plan G rates for a 68-year-old in New Jersey across top carriers — identical coverage, different premiums. Call 855-559-1700 for a free side-by-side quote.",
+    "Compare Plan G rates for a 68-year-old in New Jersey across top carriers — same coverage, different premiums. Call 855-559-1700 for a free quote.",
   alternates: { canonical: "https://medicareyourself.com/services/plan-g-rates-for-68-year-old-in-new-jersey" },
   openGraph: {
     title:
@@ -137,6 +137,12 @@ const faqs = [
     question: "Will my Plan G premium in New Jersey go up every year?",
     answer:
       "Most Medigap carriers file rate adjustments annually, so premiums typically rise over time due to medical inflation and claims experience — not because of your individual age under community-rated pricing. The size of the increase varies significantly by carrier, which is why comparing rate-history stability matters as much as the starting premium. Call 855-559-1700 for a side-by-side look at carrier pricing trends.",
+  }
+,
+  {
+    question: "When can a 68-year-old in New Jersey buy Plan G without health questions?",
+    answer:
+      "The federal 6-month Medigap Open Enrollment Period starts the month you turn 65 and are enrolled in Part B. During that window, carriers cannot deny you coverage or charge more for health reasons. Outside of that window, you may need to answer medical underwriting questions unless a guaranteed issue right applies.",
   }
 ];
 

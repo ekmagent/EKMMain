@@ -882,6 +882,17 @@ const faqs = [
     answer:
       "You sign up for Medicare Parts A and B through the Social Security Administration at ssa.gov/medicare, by calling Social Security, or by visiting a local SSA office. Medicare Advantage and Part D drug plans are enrolled separately through Medicare or a licensed broker. We can walk you through both steps at 855-559-1700.",
   }
+,
+  {
+    question: "Can I sign up for Medicare if I am still working at 65?",
+    answer:
+      "Yes. You can enroll in Part A at 65 even if you are still working, and it is usually premium-free if you have enough work credits. If your employer plan is considered creditable coverage, you may delay Part B without a late penalty. Confirm with your HR or benefits administrator before making a decision.",
+  },
+  {
+    question: "What happens if I miss my Initial Enrollment Period?",
+    answer:
+      "If you miss your Initial Enrollment Period and do not qualify for a Special Enrollment Period, you will need to wait for the General Enrollment Period, which runs January 1 through March 31 each year. You may also owe a permanent Part B late enrollment penalty added to your monthly premium for as long as you have Medicare. Call 855-559-1700 if you are unsure which window applies to you.",
+  }
 ];
 
 export default function HowToSignUpPage() {

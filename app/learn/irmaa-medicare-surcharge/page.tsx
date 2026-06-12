@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
   description:
-    "IRMAA explained: how Medicare's 2026 income surcharge affects Part B and Part D, who pays, and how to appeal with SSA-44. Free broker help: 855-559-1700.",
+    "IRMAA explained: how Medicare's income surcharge affects Part B and Part D, who pays, and how to appeal with SSA-44. Free broker help: 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/irmaa-medicare-surcharge` },
   openGraph: {
     title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
@@ -859,6 +859,22 @@ const faqs = [
     question: "Will IRMAA last forever once I'm subject to it?",
     answer:
       "No. IRMAA is recalculated every year based on your tax return from two years prior. If your income drops below the threshold in a future tax year, your surcharge will go away automatically once SSA receives that updated tax data from the IRS.",
+  }
+,
+  {
+    question: "How do I appeal IRMAA if my income has dropped?",
+    answer:
+      "If you experienced a life-changing event such as retirement, divorce, or the death of a spouse, you can file Form SSA-44 with the Social Security Administration to request a reduction. You'll need to provide documentation of the event and your estimated new income. SSA will review your request and adjust your IRMAA if approved. You can also call SSA directly to start the process.",
+  },
+  {
+    question: "Does IRMAA go away if my income drops in the future?",
+    answer:
+      "Yes. Because IRMAA is recalculated each year using your tax return from two years prior, a lower income in a later tax year will eventually reduce or eliminate your surcharge. You do not need to reapply each year unless you want SSA to use a more recent year due to a qualifying life-changing event.",
+  },
+  {
+    question: "Can a Medicare broker help me plan around IRMAA?",
+    answer:
+      "A licensed broker cannot give tax advice, but we can explain how IRMAA interacts with your Part B and Part D premiums and help you choose coverage that fits your situation. For income planning, we recommend coordinating with your tax professional. Call 855-559-1700 to discuss your Medicare options.",
   }
 ];
 

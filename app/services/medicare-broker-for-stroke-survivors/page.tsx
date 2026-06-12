@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for stroke survivors | Free Plan Review | MedicareYourself",
   description:
-    "Medicare broker for stroke survivors — compare plans covering rehab, therapy, DME & home health. Free plan review with Anthony Orner. Call 855-559-1700.",
+    "Medicare broker for stroke survivors — compare plans for rehab, therapy, DME & home health. Free plan review with Anthony Orner. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-stroke-survivors" },
   openGraph: {
     title:
@@ -338,6 +338,22 @@ const faqs = [
     answer:
       "It depends on your providers, prescriptions, and how much predictability you want in costs. Original Medicare with a Medigap plan offers broad provider access and predictable out-of-pocket costs, which many stroke survivors prefer for ongoing specialist and therapy care. Medicare Advantage may offer extra benefits like transportation or OTC allowances but uses networks. I'll compare both sides for your situation — call 855-559-1700.",
   }
+,
+  {
+    question: "Will a Medicare Supplement plan help cover stroke recovery costs?",
+    answer:
+      "Yes. Medigap plans help cover the out-of-pocket costs Original Medicare leaves behind, including hospital coinsurance, skilled nursing facility coinsurance after day 20, and the Part B coinsurance for therapy visits. For stroke survivors who use a lot of rehab and specialist care, a Medigap plan can make budgeting much more predictable.",
+  },
+  {
+    question: "Does Medicare cover durable medical equipment like walkers or wheelchairs after a stroke?",
+    answer:
+      "Yes. Medicare Part B covers medically necessary durable medical equipment such as walkers, wheelchairs, hospital beds, and certain communication devices when prescribed by your doctor. You generally pay the Part B coinsurance after meeting the Part B deductible, and the supplier must be Medicare-approved.",
+  },
+  {
+    question: "Can a Medicare broker help me coordinate coverage with my neurologist and rehab team?",
+    answer:
+      "Yes. As an independent broker, I review which plans include your neurologist, rehab facility, and therapists in network, and I check that your prescriptions are on the plan's formulary. That way your existing care team stays intact when you enroll or switch plans.",
+  }
 ];
 
 export default function MedicareBrokerForStrokeSurvivors() {
@@ -566,6 +582,7 @@ export default function MedicareBrokerForStrokeSurvivors() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">Need free local counseling? Find your state's SHIP counselor at the <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">official State Health Insurance Assistance Program directory</a>.</div>
       </section>
       </article>
     </>

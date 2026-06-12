@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for hearing loss patients | Free Plan Review | MedicareYourself",
   description:
-    "Compare NJ Medicare Advantage plans with hearing aid and audiology benefits. Licensed broker Anthony Orner reviews options free — call 855-559-1700.",
+    "Medicare broker for hearing loss patients — compare NJ Medicare Advantage plans with hearing aid and audiology benefits. Free review. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-hearing-loss-patients" },
   openGraph: {
     title:

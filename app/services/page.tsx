@@ -9,7 +9,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Medicare Services & Guides | MedicareYourself",
   description:
-    "Compare Medigap, Medicare Advantage & Part D with a licensed independent broker in NJ & 34 states. Free, unbiased plan reviews — call 855-559-1700 today.",
+    "Compare Medigap, Medicare Advantage & Part D with a licensed independent broker in NJ & 34 states. Free, unbiased plan reviews — call 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/services` },
   openGraph: {
     title: "Medicare Services & Guides | MedicareYourself",
@@ -934,6 +934,22 @@ const STATIC_CATEGORIES = [
     answer:
       "You can call 1-800-MEDICARE (1-800-633-4227), available 24/7, or visit Medicare.gov to compare plans and review coverage details. For enrollment in Part A and Part B, contact the Social Security Administration. Your State Health Insurance Assistance Program (SHIP) also provides free, unbiased counseling.",
   }
+,
+  {
+    question: "What does an independent Medicare broker do?",
+    answer:
+      "An independent Medicare broker compares plans from multiple insurance carriers to help you choose coverage that fits your health needs and budget. There's no cost to work with a broker — carriers pay a standardized commission, so you pay the same premium whether you enroll directly or through a licensed broker. At MedicareYourself, Anthony Orner is licensed in NJ and 34 states and offers free plan reviews at 855-559-1700.",
+  },
+  {
+    question: "How do I contact Medicare directly if I have questions?",
+    answer:
+      "You can call 1-800-MEDICARE (1-800-633-4227) 24 hours a day, 7 days a week, or use the live chat at Medicare.gov. TTY users can call 1-877-486-2048. For Medicare enrollment, address changes, or Extra Help applications, contact the Social Security Administration.",
+  },
+  {
+    question: "Which Medicare services should I compare before enrolling?",
+    answer:
+      "Most beneficiaries compare Medicare Advantage, Medicare Supplement (Medigap) plans like Plan G and Plan N, and Part D prescription drug plans. The right choice depends on your doctors, medications, travel needs, and budget for premiums versus out-of-pocket costs. A licensed broker can run a side-by-side comparison at no charge — call 855-559-1700.",
+  }
 ];
 
 export default function ServicesHubPage() {
@@ -1076,6 +1092,7 @@ export default function ServicesHubPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/dobi/division_consumers/insurance/ship.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents: free counseling is available through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </>
   );

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "free independent medicare broker near me new jersey | Free Quote | MedicareYourself",
   description:
-    "Free independent Medicare broker in New Jersey. Anthony Orner compares Medigap & Advantage plans from top carriers at no cost. Call 855-559-1700 today.",
+    "Work with a free independent Medicare broker in New Jersey. Anthony Orner compares Medigap & Advantage plans from top carriers. Call 855-559-1700 for a free review.",
   alternates: { canonical: "https://medicareyourself.com/services/free-independent-medicare-broker-near-me-new-jersey" },
   openGraph: {
     title:
@@ -241,6 +241,22 @@ const faqs = [
     question: "When can I enroll in a Medigap plan in New Jersey?",
     answer:
       "The best time to enroll is during your 6-month Medigap Open Enrollment Period, which starts the month your Part B becomes effective and you are 65 or older. During this window you have guaranteed issue rights and cannot be denied or charged more for health reasons. Outside this period, medical underwriting may apply unless you qualify for a specific guaranteed issue situation.",
+  }
+,
+  {
+    question: "Does New Jersey use community rating for Medigap?",
+    answer:
+      "Yes. New Jersey uses community rating for Medicare Supplement (Medigap) plans, meaning carriers charge the same premium for a given plan regardless of your age. Premiums can still vary by carrier and can change over time, so comparing multiple carriers matters. Your 6-month Medigap Open Enrollment Period begins when you're 65 or older and enrolled in Part B.",
+  },
+  {
+    question: "When can I enroll in Medigap in New Jersey with guaranteed acceptance?",
+    answer:
+      "The federal 6-month Medigap Open Enrollment Period applies in New Jersey. It starts the month you're 65 or older and enrolled in Medicare Part B, and during that window you can buy any Medigap plan sold in NJ without medical underwriting. Outside that window, acceptance is generally subject to underwriting unless you qualify for a specific guaranteed issue right.",
+  },
+  {
+    question: "What does a free independent Medicare broker actually do for me?",
+    answer:
+      "An independent broker reviews your doctors, prescriptions, budget, and travel needs, then compares Medigap, Medicare Advantage, and Part D options from multiple carriers. There is no cost to you because carriers pay the broker the same standardized commission regardless of which plan you choose. You also get ongoing service for annual reviews and plan changes.",
   }
 ];
 

@@ -245,6 +245,12 @@ const GUIDES = [
     answer:
       "Yes, you can switch during the Annual Enrollment Period in the fall or during the Medicare Advantage Open Enrollment Period in early in the year. However, if you want to add a Medigap policy when switching back, you may be subject to medical underwriting depending on your state and timing. Call 855-559-1700 to review your switch options before you make changes.",
   }
+,
+  {
+    question: "Can I switch from Medicare Advantage back to Original Medicare later?",
+    answer:
+      "Yes. You can switch from a Medicare Advantage plan back to Original Medicare during the Annual Enrollment Period each fall or during the Medicare Advantage Open Enrollment Period in early spring. Keep in mind that if you want to add a Medigap policy after leaving Advantage, medical underwriting may apply unless you have a guaranteed-issue right. Call 855-559-1700 if you want to review your switch options.",
+  }
 ];
 
 export default function LearnHubPage() {

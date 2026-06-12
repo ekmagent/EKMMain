@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for glaucoma patients | Free Coverage Review | MedicareYourself",
   description:
-    "Glaucoma and on Medicare? Compare plans covering eye drops, SLT laser & surgery with broker Anthony Orner. Free coverage review — call 855-559-1700 today.",
+    "Glaucoma and Medicare? Compare plans covering drops, SLT laser & surgery with broker Anthony Orner. Free coverage review — call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-glaucoma-patients" },
   openGraph: {
     title:
@@ -266,6 +266,12 @@ const faqs = [
     question: "Can a Medigap plan help with glaucoma treatment costs?",
     answer:
       "Yes. Because Original Medicare leaves you responsible for the Part B deductible and 20% coinsurance on laser treatments and surgery, a Medigap (Medicare Supplement) plan can cover most or all of that out-of-pocket exposure. Plan G and Plan N are popular choices for beneficiaries managing ongoing conditions like glaucoma. A licensed broker can compare premiums and benefits side by side.",
+  }
+,
+  {
+    question: "Who qualifies as high-risk for Medicare's annual glaucoma screening?",
+    answer:
+      "Medicare considers you high-risk if you have diabetes, a family history of glaucoma, are African American and age 50 or older, or are Hispanic and age 65 or older. If you meet one of these criteria, Part B covers a screening once every 12 months. The screening must be performed or supervised by an eye doctor legally authorized to do so in your state.",
   }
 ];
 

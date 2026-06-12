@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "free medicare broker new jersey | No Fees, No Obligation | MedicareYourself",
   description:
-    "Free New Jersey Medicare broker — compare Medigap, Advantage & Part D with a licensed independent broker. Zero fees. Call 855-559-1700 today.",
+    "Free New Jersey Medicare broker — independent, licensed help comparing Medigap, Advantage & Part D across carriers. Zero fees. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/free-medicare-broker-new-jersey" },
   openGraph: {
     title:
@@ -174,6 +174,17 @@ const faqs = [
     question: "What information should I have ready when I call a New Jersey Medicare broker?",
     answer:
       "Have your Medicare card or Medicare number, a list of your current prescriptions with dosages, and the names of doctors or hospitals you want to keep. This lets the broker run an accurate plan comparison on the first call and identify which Medigap or Medicare Advantage plans match your needs.",
+  }
+,
+  {
+    question: "Does using a free broker change the price of my Medicare plan?",
+    answer:
+      "No. Medicare plan premiums are filed with CMS and state regulators, so the price is identical whether you enroll through a broker, directly with the carrier, or online. Working with a broker simply adds a licensed advocate who can compare options and help with claims questions later — at no added cost to you.",
+  },
+  {
+    question: "What should I have ready before calling a New Jersey Medicare broker?",
+    answer:
+      "It helps to have your Medicare card (or Part A/B effective dates), a list of your current prescriptions with dosages, your preferred doctors and hospitals, and your ZIP code. With that information, a broker can quickly narrow down which Medigap, Medicare Advantage, and Part D plans actually fit your needs in New Jersey.",
   }
 ];
 
@@ -405,6 +416,7 @@ export default function FreeMedicareBrokerNewJersey() {
             <div className="text-sm text-gray-600 mt-4">New Jersey resources: <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> &middot; <a href="https://www.nj.gov/getcoverednj/help/local/" rel="noopener noreferrer" target="_blank" className="underline">GetCoveredNJ Local Assistance</a></div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free local Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Free unbiased counseling for New Jersey beneficiaries is available through <a href="https://www.nj.gov/humanservices/doas/services/q-z/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling from <a href="https://www.nj.gov/humanservices/doas/services/q-z/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey SHIP (State Health Insurance Assistance Program)</a> through the Division of Aging Services.</div>
       </section>
       </article>
     </>

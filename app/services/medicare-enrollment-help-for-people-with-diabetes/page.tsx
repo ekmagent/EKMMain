@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare Enrollment Help for People With Diabetes | Free Guidance | MedicareYourself",
   description:
-    "Medicare enrollment help for people with diabetes—compare plans covering insulin, CGMs, pumps & supplies. Call 855-559-1700 for free expert guidance.",
+    "Medicare enrollment help for people with diabetes—compare plans covering insulin, CGMs, pumps & supplies. Call 855-559-1700 for free personalized guidance.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-enrollment-help-for-people-with-diabetes" },
   openGraph: {
     title:
@@ -353,6 +353,17 @@ const faqs = [
     answer:
       "Yes. Medicare Part D plans cover insulin, and the Inflation Reduction Act capped monthly out-of-pocket costs for covered insulin products. Insulin used with a traditional pump is covered under Part B as durable medical equipment instead of Part D. Call 855-559-1700 to confirm your specific insulin is on a plan's formulary before enrolling.",
   }
+,
+  {
+    question: "Does Medicare Part D cover insulin?",
+    answer:
+      "Yes. Medicare Part D plans cover insulin, and recent changes under the Inflation Reduction Act capped monthly out-of-pocket costs for covered insulin products. Insulin used with a traditional pump is covered under Part B instead. Call 855-559-1700 to make sure your specific insulin is on a plan's formulary before you enroll.",
+  },
+  {
+    question: "Are diabetes supplies like test strips and lancets covered by Medicare?",
+    answer:
+      "Yes. Medicare Part B covers blood sugar monitors, test strips, lancets, and lancet devices as durable medical equipment when prescribed by your doctor. You'll need to use a Medicare-enrolled supplier to get coverage. Therapeutic shoes and inserts are also covered for people with diabetes who meet specific criteria.",
+  }
 ];
 
 export default function MedicareEnrollmentHelpDiabetes() {
@@ -656,6 +667,7 @@ export default function MedicareEnrollmentHelpDiabetes() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Free state counseling: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

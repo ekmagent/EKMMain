@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Best Medicare Supplement Rates by Age (Plan G, Plan N, & Plan F Rates) | Free Quote | MedicareYourself",
   description:
-    "Compare Medicare Supplement rates by age for Plan G, Plan N, and Plan F. See how premiums shift over time and get a free quote at 855-559-1700.",
+    "Compare Medicare Supplement rates by age for Plan G, Plan N, and Plan F. See how premiums change over time and call 855-559-1700 for a free personalized quote.",
   alternates: { canonical: "https://medicareyourself.com/services/best-medicare-supplement-rates-by-age-plan-g-plan-n-plan-f-rates" },
   openGraph: {
     title:
@@ -240,6 +240,22 @@ const faqs = [
     question: "Is Plan N a better value than Plan G for some people?",
     answer:
       "Plan N has a lower monthly premium than Plan G but includes small copays for office and ER visits and doesn't cover Part B excess charges. If you don't visit doctors often and live in a state where excess charges are limited, Plan N can save money overall. We can compare both side-by-side at 855-559-1700.",
+  }
+,
+  {
+    question: "Does Plan N cost less than Plan G?",
+    answer:
+      "Yes, Plan N generally has a lower monthly premium than Plan G. The trade-off is that Plan N requires small copays for some office and emergency room visits and does not cover Part B excess charges. For people who don't visit doctors often and use providers who accept Medicare assignment, Plan N can offer meaningful monthly savings.",
+  },
+  {
+    question: "Can I still buy Plan F in 2026?",
+    answer:
+      "Plan F is only available to people who were eligible for Medicare before January 1, 2020. If you qualified before that date but didn't enroll, you may still be able to apply, though medical underwriting may apply outside of a guaranteed issue window. Newly eligible beneficiaries are directed to Plan G or Plan N instead.",
+  },
+  {
+    question: "Will switching Medigap carriers lower my rate?",
+    answer:
+      "It can, but outside your Open Enrollment Period most states allow carriers to use medical underwriting, which may result in higher rates or denial. If you're in good health, shopping your Plan G or Plan N to a lower-priced carrier with identical standardized benefits can reduce your premium. Call 855-559-1700 for a free rate comparison.",
   }
 ];
 
@@ -532,6 +548,7 @@ export default function BestMedicareSupplementRatesByAge() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can compare rates and file complaints with the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify carrier rates and file complaints through the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> or get free counseling from <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">your local SHIP program</a>.</div>
       </section>
     </main>
   );

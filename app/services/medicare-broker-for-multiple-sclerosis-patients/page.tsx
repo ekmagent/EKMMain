@@ -435,6 +435,12 @@ const faqs = [
     answer:
       "Yes. Oral disease-modifying therapies for MS, such as those taken at home in pill form, are generally covered under Medicare Part D prescription drug plans. Coverage tiers, prior authorization requirements, and out-of-pocket costs vary by plan, so it's important to compare formularies before enrolling. A broker can check whether your specific medication is on a plan's formulary and at what tier.",
   }
+,
+  {
+    question: "Does Medicare Part D cover oral MS disease-modifying therapies?",
+    answer:
+      "Yes. Oral disease-modifying therapies you take at home are generally covered under Medicare Part D, not Part B. Each Part D plan has its own formulary, so the same medication can have very different out-of-pocket costs depending on the plan you choose. Reviewing formularies before enrollment is critical for MS patients.",
+  }
 ];
 
 export default function MedicareBrokerForMSPatients() {
