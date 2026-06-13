@@ -94,6 +94,12 @@ const faqs = [
     answer:
       "Yes. Nebulizers are typically covered under Medicare Part B as durable medical equipment when prescribed by your doctor for use at home. The medications used with the nebulizer, such as albuterol solution, are also generally covered under Part B rather than Part D when administered through the device. You'll usually pay the Part B coinsurance after meeting your deductible.",
   }
+,
+  {
+    question: "When can I switch Medicare plans if my current one stops covering my inhaler?",
+    answer:
+      "If your Part D or Medicare Advantage plan drops your medication mid-year, you may qualify for a Special Enrollment Period. Otherwise, you can change plans during the Annual Enrollment Period from October 15 to December 7, or the Medicare Advantage Open Enrollment Period from January 1 to March 31. I can help you review formulary changes each fall before they take effect.",
+  }
 ];
 
 export default function MedicareBrokerForAsthmaSufferers() {
@@ -336,6 +342,7 @@ export default function MedicareBrokerForAsthmaSufferers() {
             <div className="text-sm text-gray-600 mt-4">Need state-level help? Contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> or your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">SHIP counselor</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">For free local counseling, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a> or the <a href="https://www.nj.gov/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

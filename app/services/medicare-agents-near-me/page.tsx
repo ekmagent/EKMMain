@@ -98,6 +98,12 @@ const faqs = [
     answer:
       "Both options are equally effective for most beneficiaries. Phone and video consultations allow a licensed agent to compare plans, check your doctors and prescriptions, and complete enrollment securely from home. In-person meetings can be arranged if you prefer face-to-face guidance, but they are not required to get accurate, personalized advice.",
   }
+,
+  {
+    question: "Do Medicare agents near me work with all the major carriers?",
+    answer:
+      "Independent brokers contract with multiple major carriers, while captive agents only represent one company. Before scheduling a consultation, ask which carriers the agent is appointed with. The more carriers an agent represents, the more objective the plan comparison can be.",
+  }
 ];
 
 export default function MedicareAgentsNearMe() {

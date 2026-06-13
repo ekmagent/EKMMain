@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "quickest way to enroll into plan n | Same-Day Application | MedicareYourself",
   description:
-    "Quickest way to enroll in Medigap Plan N? A licensed broker can finish most applications in under 15 minutes. Call 855-559-1700 for a same-day quote.",
+    "Quickest way to enroll into Medigap Plan N? A licensed broker can complete most applications in under 15 minutes. Call 855-559-1700 for a same-day quote.",
   alternates: { canonical: "https://medicareyourself.com/services/quickest-way-to-enroll-into-plan-n" },
   openGraph: {
     title:

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "best medicare supplement for people on disability | Free Plan Review | MedicareYourself",
   description:
-    "Compare the best Medicare Supplement options for people on disability under 65 — state rules, plan letters, and pricing. Call 855-559-1700 for free help.",
+    "Find the best Medicare Supplement for people on disability under 65 — state rules, plan letters, and pricing tips. Call 855-559-1700 for a free plan review.",
   alternates: { canonical: "https://medicareyourself.com/services/best-medicare-supplement-for-people-on-disability" },
   openGraph: {
     title:
@@ -142,6 +142,22 @@ const faqs = [
     question: "Does a Medigap plan cover prescription drugs for people on disability?",
     answer:
       "No. Medigap plans sold today do not include prescription drug coverage. If you want drug coverage alongside a Medicare Supplement, you'll need to enroll in a standalone Medicare Part D plan.",
+  }
+,
+  {
+    question: "Which Medigap plan letter is usually best for someone on disability?",
+    answer:
+      "Plan G is often considered the strongest value because it covers nearly all Medicare-approved out-of-pocket costs except the Part B deductible. Plan N is a lower-premium option that still offers solid coverage but includes small copays for some office and ER visits. The right choice depends on your state's under-65 rules and how predictable you want your costs to be.",
+  },
+  {
+    question: "Can I switch from Medicare Advantage to a Medigap plan while on disability?",
+    answer:
+      "You can apply to switch, but outside of a guaranteed issue period, the Medigap carrier can use medical underwriting and may decline you or charge more. Some states offer annual open enrollment windows or birthday rules that let under-65 beneficiaries change plans without underwriting. Call 855-559-1700 and we'll check what's available in your state.",
+  },
+  {
+    question: "Do I have to wait 24 months for Medicare if I have ALS or ESRD?",
+    answer:
+      "No. People diagnosed with ALS (Lou Gehrig's disease) become eligible for Medicare the same month their SSDI benefits begin, with no 24-month waiting period. Those with End-Stage Renal Disease (ESRD) follow a separate eligibility timeline tied to dialysis or transplant.",
   }
 ];
 
@@ -373,6 +389,7 @@ export default function BestMedicareSupplementForPeopleOnDisability() {
             <div className="text-sm text-gray-600 mt-4">Need state-specific help? Find your local SHIP counselor at <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">shiphelp.org</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">Need state-specific help? Contact your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">For state-specific Medigap rules and free counseling, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">For free one-on-one help in your state, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
       </article>
     </>

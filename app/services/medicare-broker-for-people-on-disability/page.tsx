@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare broker for people on disability | Free Guidance | MedicareYourself",
   description:
-    "On SSDI and new to Medicare? Anthony Orner offers free, no-pressure broker help comparing Medigap and Advantage plans in NJ. Call 855-559-1700 today.",
+    "On SSDI and new to Medicare under 65? Anthony Orner offers free broker guidance comparing Medigap and Advantage plans in NJ. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-people-on-disability" },
   openGraph: {
     title:

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "the best medicare plan for foreign travel | Free Comparison | MedicareYourself",
   description:
-    "Compare the best Medicare plans for foreign travel. Medigap Plans G and N include emergency coverage abroad — get a free quote from a licensed broker today.",
+    "Find the best Medicare plan for foreign travel. Medigap Plans G and N include emergency coverage abroad — compare options free with a licensed broker.",
   alternates: { canonical: "https://medicareyourself.com/services/best-medicare-plan-for-foreign-travel" },
   openGraph: {
     title:

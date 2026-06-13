@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare insurance agents in clifton new jersey | Free Quote, No Fees | MedicareYourself",
   description:
-    "Talk to a licensed Medicare insurance agent in Clifton, NJ. Independent broker Anthony Orner compares 20+ carriers — free quote, no fees. Call 855-559-1700.",
+    "Compare Medicare plans in Clifton, NJ with licensed broker Anthony Orner. 20+ carriers, no fees, no pressure. Call 855-559-1700 for your free quote today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-insurance-agents-in-clifton-new-jersey" },
   openGraph: {
     title:
@@ -345,6 +345,7 @@ export default function MedicareInsuranceAgentsCliftonNJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling from the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

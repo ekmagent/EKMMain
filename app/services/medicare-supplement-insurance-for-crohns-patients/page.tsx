@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare Supplement Insurance for Crohn's Patients | Free Guidance | MedicareYourself",
   description:
-    "Medigap for Crohn's patients helps cover Part B coinsurance on biologics, colonoscopies & GI specialist visits. Call 855-559-1700 for free, no-pressure guidance.",
+    "Medigap for Crohn's patients helps cover Part B coinsurance on biologics, colonoscopies & GI visits. Call 855-559-1700 for free guidance.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-supplement-insurance-for-crohns-patients" },
   openGraph: {
     title:
@@ -237,6 +237,17 @@ const faqs = [
     question: "How do I apply for a Medigap plan with Crohn's disease?",
     answer:
       "Call us at 855-559-1700 for a free review of your situation. We'll confirm whether you're in a guaranteed-issue window, compare carrier underwriting questions for IBD applicants, and walk you through the application. There's no cost to you for our help.",
+  }
+,
+  {
+    question: "Does a Medigap plan cover Crohn's-related hospital stays?",
+    answer:
+      "Yes. Medigap plans like Plan G and Plan N cover the Part A hospital coinsurance and an additional 365 days of hospital costs after Medicare benefits are used up. This is important for Crohn's patients who may need hospitalization for flares, bowel obstructions, or surgical procedures.",
+  },
+  {
+    question: "Can I switch Medigap plans later if my Crohn's symptoms change?",
+    answer:
+      "You can apply to switch Medigap plans at any time, but outside your Open Enrollment Period or a guaranteed-issue window, carriers can use medical underwriting and may deny you based on Crohn's. Some states have annual birthday or anniversary rules that let you switch without underwriting. Call 855-559-1700 to check your state's rules.",
   }
 ];
 

@@ -441,6 +441,12 @@ const faqs = [
     answer:
       "Yes. Oral disease-modifying therapies you take at home are generally covered under Medicare Part D, not Part B. Each Part D plan has its own formulary, so the same medication can have very different out-of-pocket costs depending on the plan you choose. Reviewing formularies before enrollment is critical for MS patients.",
   }
+,
+  {
+    question: "Does Medicare cover MRIs for monitoring MS progression?",
+    answer:
+      "Yes. Medicare Part B covers medically necessary MRIs ordered by your doctor to monitor MS progression or evaluate new symptoms. You'll typically pay the Part B coinsurance after meeting the annual deductible, unless a Medigap plan covers that cost share. Medicare Advantage plans cover MRIs too but often require prior authorization.",
+  }
 ];
 
 export default function MedicareBrokerForMSPatients() {

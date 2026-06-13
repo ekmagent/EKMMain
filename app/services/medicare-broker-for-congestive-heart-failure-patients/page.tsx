@@ -359,6 +359,12 @@ const faqs = [
     answer:
       "Medicare covers remote patient monitoring and telehealth visits for chronic conditions like congestive heart failure when ordered by your provider. Many Medicare Advantage plans also include additional chronic care management benefits. Coverage details and cost-sharing vary by plan, so it's worth reviewing your options before enrolling.",
   }
+,
+  {
+    question: "Does Medicare cover heart failure medications under Part D?",
+    answer:
+      "Yes. Medicare Part D plans cover most CHF medications, including ACE inhibitors, beta-blockers, diuretics, and newer heart failure drugs, but coverage and tier placement vary by plan formulary. Reviewing your specific drug list against each plan's formulary is the only way to know your true out-of-pocket cost. Anthony can run that comparison during your free plan review.",
+  }
 ];
 
 export default function MedicareBrokerCHFPage() {
@@ -594,6 +600,7 @@ export default function MedicareBrokerCHFPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free Medicare counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Plan G Rates by Age in New Jersey | 2026 Costs | MedicareYourself",
   description:
-    "Compare 2026 Plan G rates by age in New Jersey. Anthony Orner shops top NJ Medigap carriers for your lowest premium. Call 855-559-1700 for a free quote.",
+    "Compare 2026 Plan G rates by age in New Jersey. Anthony Orner shops top NJ Medigap carriers to find your lowest premium. Call 855-559-1700 for a free quote.",
   alternates: { canonical: `${SITE_URL}/services/plan-g-rates-by-age-new-jersey` },
   openGraph: {
     title: "Plan G Rates by Age in New Jersey | 2026 Costs | MedicareYourself",

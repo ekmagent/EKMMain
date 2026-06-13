@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Plan G Rates for a 68-Year-Old in New Jersey | Free Carrier Comparison | MedicareYourself",
   description:
-    "Compare Plan G rates for a 68-year-old in New Jersey across top carriers — same coverage, different premiums. Call 855-559-1700 for a free quote.",
+    "Compare Plan G rates for a 68-year-old in New Jersey across top carriers — identical coverage, different premiums. Call 855-559-1700 for a free NJ quote.",
   alternates: { canonical: "https://medicareyourself.com/services/plan-g-rates-for-68-year-old-in-new-jersey" },
   openGraph: {
     title:
@@ -143,6 +143,22 @@ const faqs = [
     question: "When can a 68-year-old in New Jersey buy Plan G without health questions?",
     answer:
       "The federal 6-month Medigap Open Enrollment Period starts the month you turn 65 and are enrolled in Part B. During that window, carriers cannot deny you coverage or charge more for health reasons. Outside of that window, you may need to answer medical underwriting questions unless a guaranteed issue right applies.",
+  }
+,
+  {
+    question: "When is the best time for a 68-year-old in New Jersey to buy Plan G?",
+    answer:
+      "The strongest protection comes during your 6-month Medigap Open Enrollment Period, which begins the month you're 65 or older and enrolled in Part B. During that window, carriers cannot deny you or charge more for health reasons. If you're already past that window at 68, you may need to answer health questions unless a guaranteed issue right applies.",
+  },
+  {
+    question: "Do Plan G rates in New Jersey increase as I get older?",
+    answer:
+      "New Jersey generally uses community-rated pricing for Medigap, so your premium is not based on your individual age. However, rates can still rise over time due to inflation, claims experience, and carrier rate adjustments filed with the state. Comparing carriers helps identify companies with a history of more stable increases.",
+  },
+  {
+    question: "How do I get a free Plan G rate comparison for New Jersey?",
+    answer:
+      "Call Anthony Orner at 855-559-1700 for a side-by-side comparison of Plan G premiums from top-rated carriers available in New Jersey. There is no cost or obligation, and the same plan letter covers identical benefits — so the goal is finding the lowest premium with strong rate stability.",
   }
 ];
 
@@ -427,6 +443,7 @@ export default function PlanGRates68NJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">For NJ-specific help, contact <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-700 underline">NJ Department of Banking and Insurance</a> or the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-700 underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">For New Jersey-specific guidance, contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> or the <a href="https://www.nj.gov/dobi/" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
       </article>
     </>

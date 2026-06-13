@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title:
     "How to Enroll in Medicare Online at SSA.gov (Step-by-Step Walkthrough)",
   description:
-    "Step-by-step SSA.gov Medicare enrollment walkthrough — apply for Part A & Part B online in about 10 minutes. Free expert help: call 855-559-1700.",
+    "Step-by-step SSA.gov Medicare enrollment walkthrough — apply for Part A & B online in about 10 minutes. Free broker help: call 855-559-1700.",
   alternates: {
     canonical: `${SITE_URL}/learn/ssa-online-enrollment-walkthrough`,
   },
@@ -1008,6 +1008,22 @@ const steps = [
     question: "What happens after I submit my SSA Medicare application?",
     answer:
       "After you sign and submit, SSA will review your application and mail your Medicare card once you're approved. You cannot modify the application after submission, so review carefully. If you need to make a change, you'll need to contact SSA directly.",
+  }
+,
+  {
+    question: "How long does the SSA online Medicare application take to complete?",
+    answer:
+      "Most people finish the SSA.gov Medicare application in about 10 minutes if they have their information ready. You'll need your Social Security number, a government-issued ID for identity verification, and details about any current health coverage. Having employer insurance dates handy can speed things up.",
+  },
+  {
+    question: "Can I apply for Medicare online if I don't want to start Social Security retirement benefits yet?",
+    answer:
+      "Yes. The SSA online application lets you apply for Medicare only without claiming retirement benefits. During the questionnaire, you'll be asked whether you want Medicare only, and you can delay your Social Security retirement claim to a later date.",
+  },
+  {
+    question: "What happens after I submit my Medicare application on SSA.gov?",
+    answer:
+      "After submitting, you'll receive a confirmation and a receipt you can save. The Social Security Administration reviews the application and mails your Medicare card once approved, typically within a few weeks. You cannot modify the application after submission, so contact SSA directly if you need to make changes.",
   }
 ];
 

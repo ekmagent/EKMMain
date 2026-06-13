@@ -9,7 +9,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Medicare Services & Guides | MedicareYourself",
   description:
-    "Compare Medigap, Medicare Advantage & Part D with a licensed independent broker in NJ & 34 states. Free, unbiased plan reviews — call 855-559-1700.",
+    "Compare Medigap, Medicare Advantage & Part D with a licensed independent broker in NJ & 34 states. Free, unbiased plan reviews — call 855-559-1700 today.",
   alternates: { canonical: `${SITE_URL}/services` },
   openGraph: {
     title: "Medicare Services & Guides | MedicareYourself",
@@ -949,6 +949,22 @@ const STATIC_CATEGORIES = [
     question: "Which Medicare services should I compare before enrolling?",
     answer:
       "Most beneficiaries compare Medicare Advantage, Medicare Supplement (Medigap) plans like Plan G and Plan N, and Part D prescription drug plans. The right choice depends on your doctors, medications, travel needs, and budget for premiums versus out-of-pocket costs. A licensed broker can run a side-by-side comparison at no charge — call 855-559-1700.",
+  }
+,
+  {
+    question: "What does a licensed independent Medicare broker do?",
+    answer:
+      "An independent broker is appointed with multiple insurance carriers and helps you compare Medigap, Medicare Advantage, and Part D options side by side. Because brokers are paid by the carrier you choose, our help is free to you. We focus on matching your doctors, prescriptions, and budget to the right plan.",
+  },
+  {
+    question: "Is there a cost to use MedicareYourself for plan comparisons?",
+    answer:
+      "No. There is no fee to speak with our licensed broker or to enroll through us. Carriers compensate brokers directly, and your premium is the same whether you enroll on your own or with our help. You can also contact 1-800-MEDICARE or your State Health Insurance Assistance Program (SHIP) for free unbiased counseling.",
+  },
+  {
+    question: "Which states does MedicareYourself serve?",
+    answer:
+      "Anthony Orner (NPI 1902584006) is licensed in New Jersey and 34 additional states. Call 855-559-1700 to confirm licensure in your state and to get a personalized plan review at no cost.",
   }
 ];
 

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "hillsborough nj medicare insurance agents | Free Broker Consultation | MedicareYourself",
   description:
-    "Hillsborough NJ Medicare agents compare Supplement & Advantage plans from top carriers at no cost. Call 855-559-1700 for a free Somerset County quote.",
+    "Hillsborough NJ Medicare agents compare Supplement & Advantage plans from top carriers at no cost. Call 855-559-1700 for a free Somerset County quote today.",
   alternates: { canonical: "https://medicareyourself.com/services/hillsborough-nj-medicare-insurance-agents" },
   openGraph: {
     title:
@@ -105,6 +105,17 @@ const faqs = [
     question: "Does an independent broker in Hillsborough cover all of Somerset County?",
     answer:
       "Yes. Anthony Orner is a licensed independent Medicare broker serving Hillsborough and the surrounding Somerset County communities, including Bridgewater, Somerville, Hillsborough Township, and Manville. Appointments are available by phone, video, or in person at no cost to you.",
+  }
+,
+  {
+    question: "Does an independent broker serve all of Somerset County, NJ?",
+    answer:
+      "Yes. As a licensed independent broker, Anthony Orner serves Hillsborough and the surrounding Somerset County communities including Somerville, Bridgewater, Hillsborough Township, and Manville. Appointments can be done by phone, video, or in person depending on your preference. Call 855-559-1700 to schedule a free consultation.",
+  },
+  {
+    question: "What's the difference between a Medicare Supplement and a Medicare Advantage plan?",
+    answer:
+      "Medicare Supplement (Medigap) plans work alongside Original Medicare to cover out-of-pocket costs like coinsurance and deductibles, and you can see any provider that accepts Medicare nationwide. Medicare Advantage plans replace Original Medicare and typically use provider networks, often bundling Part D drug coverage and extras like dental or vision. A broker can compare both options side by side for your situation in Hillsborough.",
   }
 ];
 
@@ -338,6 +349,7 @@ export default function HillsboroughNJMedicareInsuranceAgents() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the free <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </main>
   );

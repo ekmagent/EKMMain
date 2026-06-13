@@ -136,6 +136,12 @@ const faqs = [
     answer:
       "Network access depends on the specific plan you choose. With Original Medicare plus a Medigap policy, you can see any provider in Newark or Essex County that accepts Medicare. With Medicare Advantage, I check each plan's network directly so you know whether your current doctors and hospitals are in-network before you enroll.",
   }
+,
+  {
+    question: "Is a Newark Medicare agent licensed to sell plans in New Jersey?",
+    answer:
+      "Yes. Any agent or broker helping you enroll in a Medicare plan in Newark must hold an active New Jersey insurance license and be appointed with the carriers they represent. Anthony Orner is licensed in NJ and 34 other states, with NPI 1902584006, and you can verify any agent's license through the NJ Department of Banking and Insurance.",
+  }
 ];
 
 export default function FindMedicareAgentNewarkNJ() {
@@ -394,6 +400,7 @@ export default function FindMedicareAgentNewarkNJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling from the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

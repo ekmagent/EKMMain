@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Why Did My Medicare Supplement Rate Change? | Free Rate Review | MedicareYourself",
   description:
-    "Medigap rate going up? Learn the 3 pricing factors behind every Medicare Supplement increase and request a free rate review. Call 855-559-1700 today.",
+    "Medigap rate going up? Learn the 3 pricing factors behind every Medicare Supplement increase and request a free rate review. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/why-did-my-medicare-supplement-rate-change" },
   openGraph: {
     title:

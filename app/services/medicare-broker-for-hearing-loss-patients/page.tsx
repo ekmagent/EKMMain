@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for hearing loss patients | Free Plan Review | MedicareYourself",
   description:
-    "Medicare broker for hearing loss patients — compare NJ Medicare Advantage plans with hearing aid and audiology benefits. Free review. Call 855-559-1700.",
+    "Medicare broker for hearing loss patients in NJ. Compare Medicare Advantage plans with hearing aid and audiology benefits. Free review — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-hearing-loss-patients" },
   openGraph: {
     title:
@@ -164,6 +164,17 @@ const faqs = [
     question: "Are audiology services covered without a doctor's referral?",
     answer:
       "Medicare Part B allows beneficiaries to see an audiologist once every 12 months for non-acute hearing assessments without a physician order, as long as the service is diagnostic. Treatment-related audiology services may still require a referral depending on the plan. A broker can clarify how your specific plan handles audiology access.",
+  }
+,
+  {
+    question: "Are hearing aids covered under Original Medicare?",
+    answer:
+      "No. Original Medicare does not cover hearing aids or exams for fitting hearing aids. Coverage for hearing aids is typically only available through Medicare Advantage plans that include supplemental hearing benefits.",
+  },
+  {
+    question: "Does Medicare cover audiology services without a doctor's referral?",
+    answer:
+      "As of recent CMS rule changes, Medicare Part B allows beneficiaries to see an audiologist once every 12 months for non-acute hearing assessments without a physician order. Additional diagnostic services still require a referral when ordered to determine medical treatment.",
   }
 ];
 
@@ -437,6 +448,7 @@ export default function MedicareBrokerForHearingLossPatients() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">NJ residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
       </section>
     </main>
   );

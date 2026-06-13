@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "help with your medicare decision | Free, No-Pressure Guidance | MedicareYourself",
   description:
-    "Get free, no-pressure help with your Medicare decision from licensed broker Anthony Orner. Compare every option clearly — call 855-559-1700 to start today.",
+    "Free, no-pressure help with your Medicare decision from licensed broker Anthony Orner. Compare every option clearly — call 855-559-1700 for unbiased guidance.",
   alternates: { canonical: "https://medicareyourself.com/services/help-with-your-medicare-decision" },
   openGraph: {
     title:
@@ -379,6 +379,7 @@ export default function HelpWithYourMedicareDecision() {
             <div className="text-sm text-gray-600 mt-4">For free, unbiased one-on-one counseling, contact your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey State Health Insurance Assistance Program (SHIP)</a> for free, one-on-one Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, one-on-one Medicare counseling.</div>
       </section>
       </article>
     </>

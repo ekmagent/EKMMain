@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "How to Sign Up for Medicare (2026 Guide)",
   description:
-    "Step-by-step 2026 guide to signing up for Medicare: enrollment windows, applying at SSA, and avoiding Part B penalties. Free broker help: 855-559-1700.",
+    "2026 step-by-step guide to signing up for Medicare: enrollment windows, applying at SSA, and avoiding Part B penalties. Free broker help at 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/how-to-sign-up-for-medicare` },
   openGraph: {
     title: "How to Sign Up for Medicare (2026 Guide)",
@@ -892,6 +892,22 @@ const faqs = [
     question: "What happens if I miss my Initial Enrollment Period?",
     answer:
       "If you miss your Initial Enrollment Period and do not qualify for a Special Enrollment Period, you will need to wait for the General Enrollment Period, which runs January 1 through March 31 each year. You may also owe a permanent Part B late enrollment penalty added to your monthly premium for as long as you have Medicare. Call 855-559-1700 if you are unsure which window applies to you.",
+  }
+,
+  {
+    question: "How do I actually apply for Medicare?",
+    answer:
+      "You apply through the Social Security Administration, not Medicare itself. The fastest way is online at ssa.gov/medicare, which takes about 10 minutes. You can also call Social Security or visit a local SSA office to apply in person.",
+  },
+  {
+    question: "Will I be automatically enrolled in Medicare at 65?",
+    answer:
+      "You are automatically enrolled in Parts A and B if you are already receiving Social Security or Railroad Retirement Board benefits before turning 65. Your red, white, and blue Medicare card will arrive in the mail about three months before your birthday month. If you are not yet collecting those benefits, you must sign up yourself.",
+  },
+  {
+    question: "What happens if I miss my Medicare Initial Enrollment Period?",
+    answer:
+      "If you miss your IEP and do not qualify for a Special Enrollment Period, you generally have to wait for the General Enrollment Period from January 1 to March 31 each year. You may also owe a permanent Part B late enrollment penalty that is added to your monthly premium for as long as you have Medicare. Call 855-559-1700 if you are unsure which window applies to you.",
   }
 ];
 

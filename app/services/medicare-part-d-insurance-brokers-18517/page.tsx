@@ -135,6 +135,22 @@ const faqs = [
     answer:
       "Yes. The Extra Help program (also called the Low-Income Subsidy) can significantly reduce your Part D premium, deductible, and copays. New Jersey residents may also qualify for PAAD or Senior Gold. A licensed broker can screen you for these programs during your free review.",
   }
+,
+  {
+    question: "What's the difference between a stand-alone Part D plan and drug coverage through Medicare Advantage?",
+    answer:
+      "A stand-alone Part D plan adds prescription drug coverage to Original Medicare (Parts A and B) or a Medicare Supplement plan. Medicare Advantage plans (Part C) often bundle drug coverage into a single plan. A broker can help you decide which structure fits your medications, doctors, and budget.",
+  },
+  {
+    question: "Can a broker help me apply for Extra Help with Part D costs?",
+    answer:
+      "Yes. Extra Help (also called the Low Income Subsidy) is a federal program that reduces Part D premiums, deductibles, and copays for people who meet income and resource limits. A licensed broker can review your eligibility and walk you through the Social Security application at no cost. Call 855-559-1700 to get started.",
+  },
+  {
+    question: "What if my prescriptions change after I enroll in a Part D plan?",
+    answer:
+      "You generally stay in your chosen plan until the next Annual Enrollment Period (October 15 – December 7), unless a Special Enrollment Period applies. If a new medication makes your current plan expensive, a broker can re-run the Plan Finder during open enrollment to switch you to a lower-cost option for the following year.",
+  }
 ];
 
 export default function MedicarePartDBrokers18517() {

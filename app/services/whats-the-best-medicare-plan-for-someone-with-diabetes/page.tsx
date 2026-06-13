@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "what's the best medicare plan for someone with diabetes | Free Guidance | MedicareYourself",
   description:
-    "Diabetic on Medicare? Compare Supplement vs Advantage coverage for insulin, CGMs & A1C tests. Call 855-559-1700 for a free, no-pressure broker review.",
+    "Diabetic on Medicare? Compare Supplement vs Advantage coverage for insulin, CGMs & A1C tests. Call 855-559-1700 for free, no-pressure broker guidance.",
   alternates: { canonical: "https://medicareyourself.com/services/whats-the-best-medicare-plan-for-someone-with-diabetes" },
   openGraph: {
     title:
