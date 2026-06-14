@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "quickest way to enroll into plan g | Same-Day Coverage Available | MedicareYourself",
   description:
-    "Quickest way to enroll in Plan G? Inside Open Enrollment, finish in one call with Anthony Orner. Same-day application support — get your free quote today.",
+    "Quickest way to enroll in Plan G? Finish in one call during your Medigap Open Enrollment Period. Same-day application help — call 855-559-1700 for a free quote.",
   alternates: { canonical: "https://medicareyourself.com/services/quickest-way-to-enroll-into-plan-g" },
   openGraph: {
     title:
@@ -340,6 +340,7 @@ export default function QuickestWayToEnrollIntoPlanG() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or the free <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP counseling program</a> for unbiased Medigap guidance.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents: contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medigap counseling.</div>
       </section>
       </article>
     </>

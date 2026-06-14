@@ -142,6 +142,12 @@ const faqs = [
     answer:
       "Yes. Any agent or broker helping you enroll in a Medicare plan in Newark must hold an active New Jersey insurance license and be appointed with the carriers they represent. Anthony Orner is licensed in NJ and 34 other states, with NPI 1902584006, and you can verify any agent's license through the NJ Department of Banking and Insurance.",
   }
+,
+  {
+    question: "Is a Newark Medicare agent licensed by the state of New Jersey?",
+    answer:
+      "Yes. Any agent or broker selling Medicare plans in Newark must hold an active New Jersey resident or non-resident insurance license through the NJ Department of Banking and Insurance. Anthony Orner is licensed in New Jersey and 34 additional states, with NPI 1902584006 on file with CMS.",
+  }
 ];
 
 export default function FindMedicareAgentNewarkNJ() {

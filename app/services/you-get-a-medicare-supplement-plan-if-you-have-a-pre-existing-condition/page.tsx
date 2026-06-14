@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "You Get a Medicare Supplement Plan If You Have a Pre-Existing Condition | Free Guidance | MedicareYourself",
   description:
-    "Yes—you can get a Medicare Supplement plan with a pre-existing condition during Medigap Open Enrollment. Call 855-559-1700 for free expert guidance today.",
+    "Yes—you can get a Medicare Supplement plan with a pre-existing condition. Learn open enrollment rules and guaranteed-issue rights. Call 855-559-1700 free.",
   alternates: { canonical: "https://medicareyourself.com/services/you-get-a-medicare-supplement-plan-if-you-have-a-pre-existing-condition" },
   openGraph: {
     title:
@@ -88,6 +88,12 @@ const faqs = [
     answer:
       "No. Some states like New York, Connecticut, and Massachusetts require insurers to sell Medigap plans year-round without medical underwriting. Other states follow only the federal minimum rules. Your state matters a lot, so it's worth confirming the rules where you live.",
   },
+,
+  {
+    question: "Does Original Medicare itself cover pre-existing conditions?",
+    answer:
+      "Yes. Original Medicare (Part A and Part B) covers pre-existing conditions the same as any other condition, with no waiting period and no medical underwriting. A Medicare Supplement plan is what helps cover the out-of-pocket costs Original Medicare leaves behind, like deductibles and coinsurance.",
+  }
 ];
 
 export default function PreExistingConditionMedigapPage() {
@@ -353,6 +359,7 @@ export default function PreExistingConditionMedigapPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">For state-specific guidance, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a> for free local counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact <a href="https://www.state.nj.us/dobi/division_insurance/ihcseh/shipp.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free counseling on Medigap rules and pre-existing condition protections.</div>
       </section>
 
       <p className="text-sm text-gray-400 mt-10">

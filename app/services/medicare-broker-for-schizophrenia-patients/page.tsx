@@ -86,6 +86,17 @@ const faqs = [
     answer:
       "Medicare Part A covers inpatient psychiatric care, but there's a 190-day lifetime limit on stays at freestanding psychiatric hospitals. This limit does not apply to psychiatric units within general hospitals. Once you've used all 190 days at a freestanding facility, Medicare won't cover additional stays there.",
   },
+,
+  {
+    question: "Does Medicare cover outpatient therapy and counseling for schizophrenia?",
+    answer:
+      "Yes. Medicare Part B covers a wide range of outpatient mental health services, including visits with psychiatrists, clinical psychologists, clinical social workers, nurse practitioners, and physician assistants. Part B also covers partial hospitalization programs when ordered by a doctor. After the Part B deductible, you typically pay coinsurance for each covered service.",
+  },
+  {
+    question: "Can a Medicare Advantage plan be a good fit for someone with schizophrenia?",
+    answer:
+      "It depends on the plan's provider network, drug formulary, and prior authorization rules. Some Medicare Advantage plans include extra mental health benefits or care coordination that Original Medicare does not offer. A broker can compare your psychiatrist, therapist, and medications against each plan before you enroll.",
+  }
 ];
 
 export default function MedicareBrokerSchizophreniaPatients() {

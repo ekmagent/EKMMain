@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Best Medicare Supplement Rates by Age (Plan G, Plan N, & Plan F Rates) | Free Quote | MedicareYourself",
   description:
-    "Compare Medicare Supplement rates by age for Plan G, Plan N, and Plan F. See how premiums shift over time and call 855-559-1700 for a free personalized quote.",
+    "Compare Medicare Supplement rates by age for Plan G, Plan N, and Plan F. See how premiums shift over time. Call 855-559-1700 for a free personalized quote.",
   alternates: { canonical: "https://medicareyourself.com/services/best-medicare-supplement-rates-by-age-plan-g-plan-n-plan-f-rates" },
   openGraph: {
     title:
@@ -256,6 +256,12 @@ const faqs = [
     question: "Will switching Medigap carriers lower my rate?",
     answer:
       "It can, but outside your Open Enrollment Period most states allow carriers to use medical underwriting, which may result in higher rates or denial. If you're in good health, shopping your Plan G or Plan N to a lower-priced carrier with identical standardized benefits can reduce your premium. Call 855-559-1700 for a free rate comparison.",
+  }
+,
+  {
+    question: "Does Plan F still make sense if I'm eligible for it?",
+    answer:
+      "Plan F is only available to people who were eligible for Medicare before January 1, 2020. If you qualify, Plan F covers the Part B deductible that Plan G doesn't, but the premium is typically higher. Whether it makes sense depends on whether the extra premium outweighs the deductible savings in your situation.",
   }
 ];
 
@@ -550,6 +556,7 @@ export default function BestMedicareSupplementRatesByAge() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify carrier rates and file complaints through the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> or get free counseling from <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">your local SHIP program</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify carrier filings and consumer protections with the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a> or get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents: visit the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP</a> for free Medicare counseling.</div>
       </section>
     </main>
   );

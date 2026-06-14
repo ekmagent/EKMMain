@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "how much does the best medicare supplemental insurance cost per month | Free Plan-by-Plan Breakdown | MedicareYourself",
   description:
-    "Compare Medicare Supplement Plan G and Plan N monthly premiums by carrier and zip code. Call 855-559-1700 for a free side-by-side quote and lock in your lowest rate.",
+    "Compare Medicare Supplement Plan G and Plan N monthly premiums by carrier and zip code. Call 855-559-1700 for a free side-by-side quote.",
   alternates: { canonical: "https://medicareyourself.com/services/how-much-does-the-best-medicare-supplemental-insurance-cost-per-month" },
   openGraph: {
     title:
@@ -284,6 +284,12 @@ const faqs = [
     question: "Does where I live affect how much I pay for a Medigap plan?",
     answer:
       "Yes. Medigap premiums vary widely by zip code because carriers price based on local claims experience, state regulations, and competition. Two neighbors in different counties — or even different zip codes — can pay noticeably different rates for the exact same Plan G or Plan N policy. Call 855-559-1700 for a quote specific to your area.",
+  }
+,
+  {
+    question: "Does where I live affect my Medicare Supplement premium?",
+    answer:
+      "Yes. Medigap premiums vary by zip code because carriers price policies based on local claims experience, hospital costs, and state regulations. Two neighbors in different states — or even different counties — can pay very different rates for the identical Plan G or Plan N coverage.",
   }
 ];
 

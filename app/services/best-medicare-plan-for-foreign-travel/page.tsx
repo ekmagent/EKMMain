@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "the best medicare plan for foreign travel | Free Comparison | MedicareYourself",
   description:
-    "Find the best Medicare plan for foreign travel. Medigap Plans G and N include emergency coverage abroad — compare options free with a licensed broker.",
+    "Compare the best Medicare plans for foreign travel. Medigap Plans G & N include emergency coverage abroad — free guidance from a licensed broker. Call today.",
   alternates: { canonical: "https://medicareyourself.com/services/best-medicare-plan-for-foreign-travel" },
   openGraph: {
     title:
@@ -368,6 +368,7 @@ export default function BestMedicarePlanForForeignTravel() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
       </section>
     </main>
   );

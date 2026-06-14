@@ -9,7 +9,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Medicare Services & Guides | MedicareYourself",
   description:
-    "Compare Medigap, Medicare Advantage & Part D with a licensed independent broker in NJ & 34 states. Free, unbiased plan reviews — call 855-559-1700 today.",
+    "Compare Medigap, Medicare Advantage & Part D with a licensed independent broker in NJ & 34 states. Free, unbiased reviews — call 855-559-1700 today.",
   alternates: { canonical: `${SITE_URL}/services` },
   openGraph: {
     title: "Medicare Services & Guides | MedicareYourself",
@@ -965,6 +965,22 @@ const STATIC_CATEGORIES = [
     question: "Which states does MedicareYourself serve?",
     answer:
       "Anthony Orner (NPI 1902584006) is licensed in New Jersey and 34 additional states. Call 855-559-1700 to confirm licensure in your state and to get a personalized plan review at no cost.",
+  }
+,
+  {
+    question: "What does a licensed Medicare insurance broker actually do?",
+    answer:
+      "A licensed broker helps you compare Medigap, Medicare Advantage, and Part D plans from multiple carriers so you can choose coverage that fits your doctors, medications, and budget. Brokers are paid by the insurance companies, so their help is free to you. At MedicareYourself, Anthony Orner is licensed in NJ and 34 other states and offers unbiased plan reviews — call 855-559-1700.",
+  },
+  {
+    question: "Is there a cost to use MedicareYourself's services?",
+    answer:
+      "No. Our plan comparisons, enrollment help, and ongoing support are free to consumers because brokers are compensated directly by the insurance carriers. The premium you pay for a plan is the same whether you enroll through a broker or directly with the carrier.",
+  },
+  {
+    question: "Can I also get help directly from Medicare or my state?",
+    answer:
+      "Yes. You can call 1-800-MEDICARE (1-800-633-4227) 24/7 or use the live chat at Medicare.gov for official answers. Every state also has a SHIP (State Health Insurance Assistance Program) offering free Medicare counseling. Many people use both government resources and a licensed broker for plan-specific comparisons.",
   }
 ];
 

@@ -273,6 +273,12 @@ const faqs = [
     answer:
       "Medicare considers you high-risk if you have diabetes, a family history of glaucoma, are African American and age 50 or older, or are Hispanic and age 65 or older. If you meet one of these criteria, Part B covers a screening once every 12 months. The screening must be performed or supervised by an eye doctor legally authorized to do so in your state.",
   }
+,
+  {
+    question: "Who is considered high-risk for glaucoma under Medicare's screening benefit?",
+    answer:
+      "Medicare considers you high-risk if you have diabetes, a family history of glaucoma, are African American and age 50 or older, or are Hispanic American and age 65 or older. If you fall into one of these groups, Medicare Part B covers a glaucoma screening once every 12 months. The screening must be performed or supervised by an eye doctor legally allowed to do so in your state.",
+  }
 ];
 
 export default function MedicareBrokerForGlaucomaPatients() {

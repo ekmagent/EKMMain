@@ -209,6 +209,17 @@ const faqs = [
     answer:
       "Outside of the Annual Enrollment Period (October 15 – December 7), you generally cannot switch Part D plans mid-year just because a drug changed tiers. However, you can request a formulary exception from your current plan or apply for a Special Enrollment Period if you qualify (for example, through Extra Help or a change in residence). Reviewing formularies each fall is the best way to stay ahead of changes.",
   }
+,
+  {
+    question: "Does Medicare cover therapy and counseling for bipolar disorder?",
+    answer:
+      "Yes. Medicare Part B covers outpatient mental health services including individual and group psychotherapy provided by psychiatrists, clinical psychologists, licensed clinical social workers, nurse practitioners, and physician assistants. Part B also covers an annual depression screening and diagnostic evaluations. Telehealth therapy visits are covered when provided by an eligible Medicare provider.",
+  },
+  {
+    question: "Can a Medicare broker help me find a plan that covers my current psychiatrist?",
+    answer:
+      "Yes. If you choose Original Medicare with a standalone Part D plan, you can see any provider who accepts Medicare nationwide, including most psychiatrists. With Medicare Advantage, networks vary by plan, so it's important to confirm your psychiatrist is in-network before enrolling. A broker can check network rosters and formularies side-by-side before you make a decision.",
+  }
 ];
 
 export default function MedicareBrokerBipolarDisorderPage() {
@@ -504,6 +515,7 @@ export default function MedicareBrokerBipolarDisorderPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
       </section>
       </article>
     </>

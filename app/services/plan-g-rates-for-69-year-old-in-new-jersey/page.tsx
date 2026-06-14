@@ -124,6 +124,12 @@ const faqs = [
     answer:
       "Plan G covers nearly all Medicare-approved out-of-pocket costs after you pay the Part B deductible, which can offer strong protection at age 69 when healthcare use often increases. Whether it's worth it depends on your budget, expected medical use, and how long you plan to keep the same plan. Comparing Plan G against other Medigap options helps clarify the value.",
   }
+,
+  {
+    question: "Does New Jersey use community rating for Medigap Plan G?",
+    answer:
+      "New Jersey is a community-rated state for Medigap, which means carriers generally charge the same premium for a given plan regardless of the enrollee's age. However, premiums can still vary between carriers and may change over time due to inflation and claims experience.",
+  }
 ];
 
 export default function PlanGRates69NJ() {

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "how can i save money on my medicare supplement | Free Rate Review | MedicareYourself",
   description:
-    "Save money on your Medicare Supplement by comparing carriers, stacking discounts, and reviewing plan letters. Call 855-559-1700 for a free rate review.",
+    "Lower your Medicare Supplement premium by comparing carriers, stacking discounts, and reviewing plan letters. Call 855-559-1700 for a free rate review.",
   alternates: { canonical: "https://medicareyourself.com/services/how-can-i-save-money-on-my-medicare-supplement" },
   openGraph: {
     title:
@@ -129,6 +129,12 @@ const faqs = [
     question: "Does household discount lower my Medicare Supplement premium?",
     answer:
       "Many carriers offer a household or spousal discount when more than one adult in the home enrolls in a Medigap policy with the same company. The discount amount varies by carrier and state. We can check which carriers offer this discount in your area during a free rate review.",
+  }
+,
+  {
+    question: "Why do Medigap premiums for the same plan letter vary so much between carriers?",
+    answer:
+      "Each insurance company sets its own price for a Medigap policy, even though the benefits in each lettered plan are standardized by the federal government. Carriers also use different pricing methods — community-rated, issue-age-rated, or attained-age-rated — which affect how your premium changes over time. That's why comparing carriers for the same plan letter is one of the most effective ways to save.",
   }
 ];
 
@@ -377,6 +383,7 @@ export default function HowCanISaveMoneyOnMyMedicareSupplement() {
             <div className="text-sm text-gray-600 mt-4">Free, unbiased local help is available through your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Free unbiased counseling: contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for one-on-one Medicare help.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

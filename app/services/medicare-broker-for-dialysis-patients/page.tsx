@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for dialysis patients | Free ESRD Plan Review | MedicareYourself",
   description:
-    "Medicare broker for dialysis patients — get free ESRD plan reviews, home dialysis coverage guidance, and enrollment help. Call 855-559-1700 today.",
+    "Medicare broker for dialysis patients — free ESRD plan reviews, home dialysis coverage guidance, and enrollment help. Call 855-559-1700 for a no-cost review.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-dialysis-patients" },
   openGraph: {
     title:
@@ -439,6 +439,7 @@ export default function MedicareBrokerForDialysisPatients() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

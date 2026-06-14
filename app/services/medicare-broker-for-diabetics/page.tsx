@@ -181,6 +181,22 @@ const faqs = [
     answer:
       "Yes. Medicare Part B covers blood sugar testing supplies including test strips, lancets, and glucose monitors as durable medical equipment when prescribed by your doctor. Insulin pumps and the insulin used with them are also covered under Part B. A broker can confirm supply coverage and preferred suppliers under each plan.",
   }
+,
+  {
+    question: "Can I switch Medicare plans if my current one stops covering my diabetes medication?",
+    answer:
+      "Yes, but timing matters. You can change Medicare Advantage or Part D plans during the Annual Enrollment Period each fall, and certain Special Enrollment Periods may apply if your plan drops a drug mid-year. A broker can help you review formulary changes and switch to a plan that still covers your specific insulin or oral medication.",
+  },
+  {
+    question: "Are diabetes supplies like test strips and lancets covered by Medicare?",
+    answer:
+      "Yes. Medicare Part B covers blood glucose monitors, test strips, and lancets as durable medical equipment when prescribed by your doctor. Coverage details and supplier networks vary, so a broker can help you confirm which suppliers are in-network under your plan.",
+  },
+  {
+    question: "Do Medicare Advantage plans offer extra benefits for people with diabetes?",
+    answer:
+      "Some do. Certain Medicare Advantage plans, including Chronic Condition Special Needs Plans (C-SNPs) designed for diabetes, may offer enhanced benefits like nutrition counseling, expanded CGM coverage, or reduced cost-sharing on diabetic supplies. A broker can identify which C-SNPs or standard Advantage plans are available in your county.",
+  }
 ];
 
 export default function MedicareBrokerForDiabetics() {

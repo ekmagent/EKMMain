@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
   description:
-    "IRMAA explained: how Medicare's income surcharge raises Part B and Part D premiums, who pays, and how to appeal with SSA-44. Free broker help at 855-559-1700.",
+    "IRMAA explained: how Medicare's income surcharge affects Part B and Part D, who pays, and how to appeal with SSA-44. Free broker help at 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/irmaa-medicare-surcharge` },
   openGraph: {
     title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
@@ -891,6 +891,22 @@ const faqs = [
     question: "Can I avoid IRMAA with smart tax planning?",
     answer:
       "In some cases, yes. Strategies such as Roth conversions before age 63, managing capital gains, using qualified charitable distributions from an IRA, and timing large withdrawals can help keep your MAGI below the IRMAA thresholds. Because IRMAA is based on income from two years prior, planning ahead is important. Always consult a qualified tax advisor before making changes.",
+  }
+,
+  {
+    question: "How do I appeal IRMAA if my income has dropped?",
+    answer:
+      "If you experienced a life-changing event such as retirement, divorce, or the death of a spouse, you can request a reduction by filing Form SSA-44 with the Social Security Administration. Include documentation of the event and an estimate of your new income. SSA will review and, if approved, recalculate your IRMAA based on the updated income.",
+  },
+  {
+    question: "Does IRMAA reset each year?",
+    answer:
+      "Yes. Social Security recalculates IRMAA every year using your most recent tax return on file, typically from two years prior. If your income drops below the threshold, your surcharge goes away automatically the following year — no appeal needed.",
+  },
+  {
+    question: "Can a Medicare broker help me plan around IRMAA?",
+    answer:
+      "A broker cannot change your tax return, but we can help you understand how IRMAA interacts with your Part B, Part D, and Medicare Advantage choices. We can also walk you through the SSA-44 appeal process if you've had a qualifying life-changing event. Call 855-559-1700 for free guidance.",
   }
 ];
 

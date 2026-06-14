@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare broker for people with CLL | Free Consult | MedicareYourself",
   description:
-    "CLL Medicare broker help from Anthony Orner: Medigap underwriting, Part D oral cancer drug coverage, and specialist access. Free consult — call 855-559-1700.",
+    "Medicare broker for CLL patients: protect specialist access, Medigap timing, and Part D oral cancer drug coverage. Free consult — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-people-with-cll" },
   openGraph: {
     title:
@@ -271,6 +271,22 @@ const faqs = [
     question: "Does Medicare Part B cover a second opinion from a CLL specialist?",
     answer:
       "Yes. Medicare Part B covers second opinions before surgery or major treatment decisions, including consultations with CLL specialists at academic cancer centers. If the first and second opinions differ, Medicare will also cover a third opinion. This is especially valuable for CLL patients deciding between watch-and-wait, targeted therapy, or clinical trial enrollment.",
+  }
+,
+  {
+    question: "Are CLL clinical trials covered by Medicare?",
+    answer:
+      "Medicare covers routine costs of qualifying clinical trials, including doctor visits, lab tests, and standard care that would be provided whether or not you were in the trial. The investigational drug or device itself is typically paid for by the trial sponsor. Talk with your CLL specialist about trial options at NCI-designated cancer centers.",
+  },
+  {
+    question: "Does Medicare Part D cover oral CLL medications like BTK inhibitors?",
+    answer:
+      "Yes. Oral targeted therapies for CLL, including BTK inhibitors and BCL-2 inhibitors, are typically covered under Medicare Part D as specialty-tier drugs. Cost-sharing varies by plan formulary, and the Part D out-of-pocket cap applies once you reach it. Comparing Part D plans annually during the Annual Election Period is important for CLL patients.",
+  },
+  {
+    question: "What happens if my CLL specialist is out of network on Medicare Advantage?",
+    answer:
+      "Medicare Advantage plans generally require you to use in-network providers, and out-of-network care may not be covered except in emergencies. If your preferred CLL specialist is out of network, you may face high out-of-pocket costs or denied claims. Original Medicare with a Medigap plan lets you see any provider nationwide who accepts Medicare.",
   }
 ];
 
@@ -553,6 +569,7 @@ export default function MedicareBrokerForPeopleWithCLL() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
       </section>
     </>
   );

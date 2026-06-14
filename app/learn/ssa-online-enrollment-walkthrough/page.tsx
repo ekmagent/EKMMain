@@ -1025,6 +1025,22 @@ const steps = [
     answer:
       "After submitting, you'll receive a confirmation and a receipt you can save. The Social Security Administration reviews the application and mails your Medicare card once approved, typically within a few weeks. You cannot modify the application after submission, so contact SSA directly if you need to make changes.",
   }
+,
+  {
+    question: "Do I need to contact Medicare or Social Security to enroll in Part A and Part B?",
+    answer:
+      "You enroll in Part A and Part B through the Social Security Administration, not Medicare. Medicare.gov directs all new enrollment applications to SSA.gov, which processes the application and issues your Medicare card.",
+  },
+  {
+    question: "How long does the online SSA Medicare application take?",
+    answer:
+      "Most people complete the online application in about 10 minutes if they have their information ready. You'll need your Social Security number, a valid ID for verification, and details about any current health insurance coverage.",
+  },
+  {
+    question: "Can I change my Medicare application after submitting it online?",
+    answer:
+      "No. Once you click Submit Now and agree to the Electronic Signature Agreement, you cannot modify the application. If you need to make a change, you'll have to contact Social Security directly to update your record.",
+  }
 ];
 
 export default function SSAOnlineEnrollmentWalkthrough() {

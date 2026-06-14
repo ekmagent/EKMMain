@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "average cost of supplemental health insurance for seniors with medicare | Free Broker Comparison | MedicareYourself",
   description:
-    "Compare 2026 Medigap costs by carrier, age, and state with a licensed broker. Call 855-559-1700 to lock in your lowest premium with no fees.",
+    "See what seniors really pay for Medigap in 2026 by plan, age, and state. Compare carriers free with a licensed broker — call 855-559-1700 for your lowest rate.",
   alternates: { canonical: "https://medicareyourself.com/services/average-cost-of-supplemental-health-insurance-for-seniors-with-medicare" },
   openGraph: {
     title:
@@ -646,6 +646,22 @@ const faqs = [
     answer:
       "No. Modern Medigap plans do not include Part D prescription drug coverage. You'll need to enroll in a standalone Medicare Part D plan separately, which has its own monthly premium in addition to your Medigap premium and your Part B premium.",
   }
+,
+  {
+    question: "Do Medigap premiums go up every year?",
+    answer:
+      "Most Medigap policies increase over time due to inflation, claims experience, and your pricing method. Attained-age-rated policies rise as you get older, while community-rated policies increase based on overall trends rather than your age. Issue-age-rated plans lock in the rate based on your age at enrollment but still adjust for inflation.",
+  },
+  {
+    question: "Does where I live affect my Medigap premium?",
+    answer:
+      "Yes. According to Medicare.gov, Medigap premiums vary widely depending on the insurance company, the plan letter, and your location. Carriers price by zip code based on local claims costs, so the same Plan G can cost noticeably more in one state than another. A licensed broker can run side-by-side quotes for your exact zip code.",
+  },
+  {
+    question: "Are there discounts that can lower my Medigap premium?",
+    answer:
+      "Many carriers offer household discounts when two people in the same home enroll, plus discounts for non-tobacco users, paying annually, or signing up for electronic funds transfer. Discount amounts and eligibility rules vary by company and state. Stacking available discounts can meaningfully reduce your monthly cost on the same lettered plan.",
+  }
 ];
 
 export default function AverageCostSupplementalInsurancePage() {
@@ -879,6 +895,7 @@ export default function AverageCostSupplementalInsurancePage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased plan counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> or contact the <a href="https://www.state.nj.us/dobi/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </main>
   );

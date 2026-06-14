@@ -370,6 +370,22 @@ const faqs = [
     answer:
       "Yes. Medicare Part B covers external insulin pumps and the insulin used with them as durable medical equipment when your doctor documents medical necessity. You'll need to use a Medicare-approved DME supplier. Insulin taken by injection (not through a pump) is typically covered under Part D.",
   }
+,
+  {
+    question: "Does Medicare Part D cover insulin?",
+    answer:
+      "Yes. Medicare Part D plans cover insulin, and recent changes have capped monthly out-of-pocket costs for covered insulin products. The specific insulin brands covered depend on each plan's formulary, so it's important to check that your prescribed insulin is included. Call 855-559-1700 to compare Part D plans that cover your specific insulin.",
+  },
+  {
+    question: "Are insulin pumps and pump supplies covered by Medicare?",
+    answer:
+      "Yes. Medicare Part B covers external insulin pumps and the insulin used in them as durable medical equipment (DME) when medical necessity is documented by your doctor. You'll need to use a Medicare-approved DME supplier for both the pump and ongoing supplies. Coverage rules differ from pharmacy-dispensed insulin, which falls under Part D.",
+  },
+  {
+    question: "Does Medicare cover diabetes self-management training?",
+    answer:
+      "Yes. Medicare Part B covers diabetes self-management training (DSMT) when ordered by your doctor as part of your treatment plan. This includes education on monitoring blood sugar, healthy eating, managing medications, and reducing complications. Coverage also includes medical nutrition therapy services for people with diabetes.",
+  }
 ];
 
 export default function MedicareEnrollmentHelpDiabetes() {

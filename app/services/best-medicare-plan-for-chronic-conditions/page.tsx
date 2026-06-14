@@ -113,6 +113,17 @@ const faqs = [
     answer:
       "For most people managing multiple chronic conditions, Medigap paired with Original Medicare offers more predictable costs and nationwide access to any doctor or specialist who accepts Medicare. Medicare Advantage plans, including C-SNPs, use provider networks and require referrals or prior authorization for many services, which can complicate care when you see multiple specialists. The right choice depends on your providers, medications, and budget — a licensed broker can compare both side by side at 855-559-1700.",
   }
+,
+  {
+    question: "Are Medigap plans better than Medicare Advantage for chronic conditions?",
+    answer:
+      "For many people managing chronic conditions, Medigap plans offer advantages because they work with any doctor that accepts Medicare nationwide, with no network restrictions or referrals. Medicare Advantage plans, including C-SNPs, typically require you to use in-network providers and may require prior authorization for specialist care and treatments. The right choice depends on your providers, prescriptions, and budget — a licensed broker can compare your options at no cost.",
+  },
+  {
+    question: "Do C-SNPs coordinate care for chronic conditions?",
+    answer:
+      "Yes. According to Medicare.gov, Special Needs Plans include care coordination services and tailor their benefits, provider networks, and drug formularies to the specific group they serve. For chronic condition SNPs, this often means dedicated care managers and condition-specific resources, but you'll still need to stay in-network and follow plan rules to get the coordination benefits.",
+  }
 ];
 
 export default function BestMedicarePlanForChronicConditions() {

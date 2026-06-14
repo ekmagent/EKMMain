@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare broker for people with crohns | No-Cost Plan Help | MedicareYourself",
   description:
-    "Medicare broker for people with Crohn's. Compare plans covering biologics, infusions, and GI specialists at no cost to you. Call 855-559-1700 for free help.",
+    "Medicare broker for people with Crohn's — compare plans covering biologics, infusions, and GI specialists at no cost. Call 855-559-1700 for free help today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-people-with-crohns" },
   openGraph: {
     title:
@@ -452,6 +452,7 @@ export default function MedicareBrokerForPeopleWithCrohns() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
       </section>
 
         <p className="text-sm text-gray-500 mt-8">

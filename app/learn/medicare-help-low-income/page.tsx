@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Medicare Help on a Fixed Income (2026)",
   description:
-    "Lower your Medicare costs with Extra Help, QMB, SLMB & Medicare Savings Programs. See what you qualify for — free help from a licensed broker at 855-559-1700.",
+    "Lower your Medicare costs with Extra Help, QMB, SLMB & Medicare Savings Programs. See what you qualify for — free guidance from a licensed broker at 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/medicare-help-low-income` },
   openGraph: {
     title: "Medicare Help on a Fixed Income (2026)",
@@ -297,6 +297,22 @@ const programs = [
     question: "Can a licensed broker help me apply for these programs?",
     answer:
       "A licensed Medicare broker can explain the programs, help you understand eligibility, and point you to the correct state and federal applications. Brokers are paid by insurance carriers for Medicare Advantage and Part D enrollments, so guidance on Extra Help and Medicare Savings Programs is provided at no cost. Call 855-559-1700 to review your situation.",
+  }
+,
+  {
+    question: "How do I apply for a Medicare Savings Program?",
+    answer:
+      "You apply through your state Medicaid office, not through Medicare directly. Each state runs its own application process, and the state determines which of the four programs (QMB, SLMB, QI, or QDWI) you qualify for. Even if you are unsure whether you meet the income or asset limits, Medicare encourages you to apply anyway because limits vary and some income may not count.",
+  },
+  {
+    question: "Does Extra Help work with any Medicare drug plan?",
+    answer:
+      "Extra Help can be applied to any Medicare Part D prescription drug plan, but choosing a benchmark plan in your state may eliminate your monthly premium entirely. A licensed broker can help you compare plans that work best with Extra Help based on your medications and pharmacy. You can apply for Extra Help anytime through Social Security at ssa.gov or by calling 1-800-772-1213.",
+  },
+  {
+    question: "If I qualify for QMB, do providers have to accept it?",
+    answer:
+      "Yes. Federal law prohibits Medicare providers from billing QMB enrollees for Medicare cost-sharing, including deductibles, coinsurance, and copayments. If you are billed in error, you should contact the provider, show your QMB card or Medicaid card, and request a refund. You can also report improper billing to 1-800-MEDICARE.",
   }
 ];
 

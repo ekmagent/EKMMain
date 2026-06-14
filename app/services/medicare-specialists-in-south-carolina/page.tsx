@@ -164,6 +164,12 @@ const faqs = [
     answer:
       "Original Medicare (Parts A and B) does not cover most outpatient prescriptions. South Carolina residents can add a standalone Part D drug plan or choose a Medicare Advantage plan that includes drug coverage. Each plan has its own formulary, so it's important to confirm your medications are covered before enrolling.",
   }
+,
+  {
+    question: "Can I switch from Medicare Advantage to a Medigap plan in South Carolina?",
+    answer:
+      "Yes, but timing matters. You can switch during the Medicare Advantage Open Enrollment Period (January 1 to March 31) or the Annual Election Period (October 15 to December 7). However, South Carolina does not have a guaranteed issue rule for Medigap when leaving Advantage, so you may face medical underwriting and could be denied based on health history.",
+  }
 ];
 
 export default function MedicareSpecialistsSouthCarolina() {

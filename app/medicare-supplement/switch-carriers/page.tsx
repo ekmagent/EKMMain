@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Switch Medigap Carriers, Same Plan G (2026)",
   description:
-    "Switch Medigap Plan G carriers and keep identical federal benefits at a lower premium. Free carrier comparison in NJ & 34 states — call 855-559-1700 today.",
+    "Switch Medigap Plan G carriers and keep identical federal benefits while lowering your premium. Free carrier comparison in NJ & 34 states — call 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/medicare-supplement/switch-carriers` },
   openGraph: {
     title: "Switch Medigap Carriers, Same Plan G (2026)",
@@ -449,6 +449,12 @@ const faqs = [
     answer:
       "In most states, yes — outside of your initial 6-month Medigap Open Enrollment Period or a Guaranteed Issue situation, carriers can require medical underwriting. That means they may ask about your health history, prescriptions, and recent procedures before approving you. If you are in reasonably good health, approval is common, but a broker can pre-screen you against each carrier's underwriting rules before you formally apply.",
   }
+,
+  {
+    question: "Will I have to answer health questions to switch Plan G carriers?",
+    answer:
+      "In most states, yes — once you are outside your 6-month Medigap Open Enrollment Period, federal law allows carriers to use medical underwriting unless you have a Guaranteed Issue right. That means the new carrier can ask about your health history and may decline your application or charge more. A few states have their own rules that make switching easier, so it is worth confirming the rules where you live before applying.",
+  }
 ];
 
 export default function SwitchCarriersPage() {
@@ -703,6 +709,7 @@ export default function SwitchCarriersPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> before switching carriers.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased help comparing Medigap carriers through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> or the <a href="https://www.nj.gov/dobi/" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medigap counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> before switching carriers.</div>
       </section>
     </>
   );
