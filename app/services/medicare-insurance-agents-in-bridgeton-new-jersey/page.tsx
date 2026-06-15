@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare insurance agents in bridgeton new jersey | Free Local Broker | MedicareYourself",
   description:
-    "Medicare agents in Bridgeton, NJ — Anthony Orner compares Supplement and Advantage plans across top carriers at no cost. Call 855-559-1700 for a free quote.",
+    "Medicare agents in Bridgeton, NJ — Anthony Orner compares Supplement & Advantage plans across top carriers at no cost. Call 855-559-1700 for a free quote.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-insurance-agents-in-bridgeton-new-jersey" },
   openGraph: {
     title:
@@ -110,6 +110,22 @@ const faqs = [
     question: "What's the difference between Medicare Supplement and Medicare Advantage in New Jersey?",
     answer:
       "Medicare Supplement (Medigap) works alongside Original Medicare and helps cover out-of-pocket costs like coinsurance and deductibles, with nationwide doctor access. Medicare Advantage replaces Original Medicare with a private plan that typically includes Part D and extra benefits but uses provider networks. An independent broker can compare both for your needs in Cumberland County.",
+  }
+,
+  {
+    question: "Does it cost more to use a Medicare broker in Bridgeton?",
+    answer:
+      "No. Working with a licensed independent broker like Anthony Orner costs you nothing. Brokers are compensated by the insurance carriers, and plan premiums are the same whether you enroll through a broker or directly with the company. You get personalized comparisons at no added cost.",
+  },
+  {
+    question: "Are Medigap premiums the same for everyone in New Jersey?",
+    answer:
+      "New Jersey uses community rating for Medigap, which means carriers cannot charge different premiums based on age within the same plan. However, premiums still vary by carrier, so comparing rates across companies is important. An independent broker can show you side-by-side pricing for the same plan letter.",
+  },
+  {
+    question: "Can I switch from Medicare Advantage to a Medigap plan later?",
+    answer:
+      "You can request a switch during the Annual Enrollment Period (October 15 to December 7) or the Medicare Advantage Open Enrollment Period (January 1 to March 31). However, moving to a Medigap plan outside your initial 6-month Open Enrollment window may require medical underwriting in New Jersey. Call 855-559-1700 to review your options before making a change.",
   }
 ];
 
@@ -372,6 +388,7 @@ export default function MedicareInsuranceAgentsBridgetonNJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> offers free Medicare counseling for Cumberland County residents.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Local help: <a href="https://www.cumberlandcountynj.gov/aging/ship" rel="noopener noreferrer" target="_blank" className="underline">Cumberland County SHIP — free Medicare counseling</a></div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

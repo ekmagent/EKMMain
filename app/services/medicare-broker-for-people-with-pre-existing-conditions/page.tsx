@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare broker for people with pre-existing conditions | Free Guidance | MedicareYourself",
   description:
-    "Have a pre-existing condition? Compare Medigap underwriting, guaranteed issue rights, and Advantage options with a licensed broker. Free help: 855-559-1700.",
+    "Pre-existing condition? A licensed Medicare broker compares Medigap underwriting, guaranteed issue rights & Advantage plans free. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-people-with-pre-existing-conditions" },
   openGraph: {
     title:
@@ -253,6 +253,22 @@ const faqs = [
     answer:
       "An independent broker represents multiple carriers and knows which insurers are more lenient on specific conditions and which apply strict underwriting. That carrier-by-carrier knowledge helps you target applications likely to be approved and avoid wasting time on declines. You can reach Anthony Orner at 855-559-1700 for a free review of your options.",
   }
+,
+  {
+    question: "Can a Medicare Advantage plan deny me because of a pre-existing condition?",
+    answer:
+      "No. Medicare Advantage plans cannot deny enrollment or charge higher premiums based on pre-existing conditions. As long as you're enrolled in Part A and Part B and live in the plan's service area, you can join during a valid enrollment period regardless of your health history.",
+  },
+  {
+    question: "Which Medigap carriers are most lenient with underwriting?",
+    answer:
+      "Carrier underwriting guidelines vary widely and change over time, so there's no single answer that fits every condition or state. Some carriers automatically decline certain diagnoses, while others may approve with a rate-up or no adjustment at all. A licensed broker can pre-screen your medications and conditions against multiple carriers before you submit an application.",
+  },
+  {
+    question: "Do I have to answer health questions to switch Medicare Advantage or Part D plans?",
+    answer:
+      "No. Medicare Advantage and Part D prescription drug plans never use medical underwriting. You can switch during the Annual Enrollment Period or other valid election periods without answering any health questions, even if you have multiple chronic conditions.",
+  }
 ];
 
 export default function MedicareBrokerPreExistingConditions() {
@@ -462,6 +478,7 @@ export default function MedicareBrokerPreExistingConditions() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

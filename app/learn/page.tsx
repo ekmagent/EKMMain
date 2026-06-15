@@ -263,6 +263,12 @@ const GUIDES = [
     answer:
       "The right choice depends on your doctors, your budget, how often you travel, and how predictable you want your costs to be. Original Medicare with a Medigap policy offers broad provider access nationwide and predictable out-of-pocket costs, while Medicare Advantage typically uses networks and may bundle extras like dental or vision. A licensed broker can walk through both paths with you — call 855-559-1700 for a free comparison.",
   }
+,
+  {
+    question: "How do I know if Medigap or Medicare Advantage is right for me?",
+    answer:
+      "The right choice depends on how you use care, whether you travel, your preferred doctors, and your budget for premiums versus out-of-pocket costs. Medigap pairs with Original Medicare and offers broad provider access nationwide, while Medicare Advantage typically uses networks but may include extra benefits. A licensed broker can walk through both options based on your situation. Call 855-559-1700 for a no-cost comparison.",
+  }
 ];
 
 export default function LearnHubPage() {

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "help with your medicare decision | Free, No-Pressure Guidance | MedicareYourself",
   description:
-    "Free, no-pressure help with your Medicare decision from licensed broker Anthony Orner. Compare every option clearly — call 855-559-1700 for unbiased guidance.",
+    "Get free, no-pressure help with your Medicare decision from licensed broker Anthony Orner. Compare every option clearly — call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/help-with-your-medicare-decision" },
   openGraph: {
     title:
@@ -111,6 +111,12 @@ const faqs = [
     question: "Can I change my Medicare plan if I make the wrong choice?",
     answer:
       "Yes. During the Annual Enrollment Period from October 15 through December 7, you can switch Medicare Advantage or Part D plans for the following year. There is also a Medicare Advantage Open Enrollment Period from January 1 through March 31. Special Enrollment Periods may apply if you move, lose other coverage, or qualify for Extra Help.",
+  }
+,
+  {
+    question: "How does an independent broker get paid if the consultation is free?",
+    answer:
+      "Independent Medicare brokers are compensated by the insurance carriers when a client enrolls in a plan. The commission is set by Medicare rules and does not change your premium — you pay the same price whether you enroll through a broker or directly with the carrier. That's why consultations, plan comparisons, and ongoing service can be offered at no cost to you.",
   }
 ];
 

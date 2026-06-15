@@ -386,6 +386,22 @@ const faqs = [
     answer:
       "Yes. Medicare Part B covers diabetes self-management training (DSMT) when ordered by your doctor as part of your treatment plan. This includes education on monitoring blood sugar, healthy eating, managing medications, and reducing complications. Coverage also includes medical nutrition therapy services for people with diabetes.",
   }
+,
+  {
+    question: "Does Medicare Part D cover insulin?",
+    answer:
+      "Yes. Medicare Part D plans cover insulin, and recent federal changes cap the monthly cost-sharing for a covered insulin product. Coverage details vary by plan formulary, so it's important to confirm your specific insulin is on the plan's drug list. Call 855-559-1700 for a free formulary check.",
+  },
+  {
+    question: "Are insulin pumps and pump supplies covered by Medicare?",
+    answer:
+      "Yes. Medicare Part B covers external insulin pumps and the insulin used in them as durable medical equipment when medical necessity is documented by your doctor. You'll need to use a Medicare-enrolled DME supplier to ensure coverage. Replacement supplies like infusion sets and reservoirs are also typically covered under Part B.",
+  },
+  {
+    question: "Does Medicare cover diabetes self-management training?",
+    answer:
+      "Yes. Medicare Part B covers diabetes self-management training (DSMT) for beneficiaries recently diagnosed or at risk of complications, with a written order from your doctor. The program teaches you how to monitor blood sugar, manage medications, and plan meals. Training must be provided by a Medicare-approved program.",
+  }
 ];
 
 export default function MedicareEnrollmentHelpDiabetes() {

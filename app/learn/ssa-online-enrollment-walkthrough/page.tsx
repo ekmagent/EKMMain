@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title:
     "How to Enroll in Medicare Online at SSA.gov (Step-by-Step Walkthrough)",
   description:
-    "Step-by-step SSA.gov Medicare enrollment walkthrough — apply for Part A & B online in about 10 minutes. Free broker help: call 855-559-1700.",
+    "Step-by-step SSA.gov Medicare enrollment walkthrough — apply for Part A & B online in about 10 minutes. Free licensed broker help at 855-559-1700.",
   alternates: {
     canonical: `${SITE_URL}/learn/ssa-online-enrollment-walkthrough`,
   },
@@ -1040,6 +1040,22 @@ const steps = [
     question: "Can I change my Medicare application after submitting it online?",
     answer:
       "No. Once you click Submit Now and agree to the Electronic Signature Agreement, you cannot modify the application. If you need to make a change, you'll have to contact Social Security directly to update your record.",
+  }
+,
+  {
+    question: "Do I need to enroll in Medicare if I'm already getting Social Security benefits?",
+    answer:
+      "No. If you're already receiving Social Security or Railroad Retirement Board benefits when you turn 65, you'll be automatically enrolled in Medicare Part A and Part B. Your red, white, and blue Medicare card will arrive in the mail about three months before your 65th birthday. You only need to use the SSA online application if you are not yet collecting Social Security.",
+  },
+  {
+    question: "How long does the SSA online Medicare application take?",
+    answer:
+      "Most people complete the application in about 10 minutes if they have their information ready. You'll need your Social Security number, a valid driver's license or state ID for identity verification, and details about any current health insurance coverage. The application can be saved and resumed if you need to gather information.",
+  },
+  {
+    question: "Can I enroll in just Part A and delay Part B through the online application?",
+    answer:
+      "Yes. During the application you'll be asked whether you want to enroll in Part B. If you have creditable employer coverage and want to delay Part B, you can decline it on the application and sign up later using a Special Enrollment Period. A licensed broker can help you decide based on your specific coverage — call 855-559-1700.",
   }
 ];
 

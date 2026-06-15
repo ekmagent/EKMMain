@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "local medicare agents in sewell nj | Free Quotes, No Pressure | MedicareYourself",
   description:
-    "Local Medicare agents in Sewell, NJ — Anthony Orner compares Advantage, Medigap & Part D plans across top carriers. Free, no-pressure quotes. Call 855-559-1700.",
+    "Local Medicare agents in Sewell, NJ — Anthony Orner compares Advantage, Medigap & Part D plans across top carriers. Free quotes, no pressure. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/local-medicare-agents-in-sewell-nj" },
   openGraph: {
     title:
@@ -387,6 +387,7 @@ export default function LocalMedicareAgentsInSewellNJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </main>
   );

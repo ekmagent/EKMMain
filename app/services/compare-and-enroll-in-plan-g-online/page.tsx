@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Compare and Enroll in Plan G Online | No Paperwork Needed | MedicareYourself",
   description:
-    "Compare every NJ Plan G rate side by side and enroll online in minutes with a licensed broker. Same price as direct — no fees. Call 855-559-1700.",
+    "Compare every NJ Plan G rate side by side and enroll online in minutes with a licensed broker. Same price as direct — no fees. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/compare-and-enroll-in-plan-g-online" },
   openGraph: {
     title:
@@ -126,6 +126,17 @@ const faqs = [
     question: "Are Plan G benefits standardized across all carriers?",
     answer:
       "Yes. Medigap Plan G benefits are set by federal law, so every carrier offering Plan G covers the exact same services. The differences come down to premium, customer service, and rate stability — not coverage.",
+  }
+,
+  {
+    question: "Can I switch from Plan G to a different Medigap plan later?",
+    answer:
+      "Yes, you can apply to switch Medigap plans at any time, but outside of guaranteed issue situations you'll typically need to pass medical underwriting. If you're healthy and qualify, switching is straightforward and we can help you compare rates across carriers.",
+  },
+  {
+    question: "Do I still need a Part D drug plan if I enroll in Plan G?",
+    answer:
+      "Yes. Medigap Plan G does not include prescription drug coverage, so you'll want to enroll in a standalone Part D plan to avoid the late enrollment penalty. We can help you compare Part D options at the same time you enroll in Plan G.",
   }
 ];
 
@@ -328,6 +339,7 @@ export default function CompareAndEnrollInPlanGOnline() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also verify carrier information with the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </main>
   );

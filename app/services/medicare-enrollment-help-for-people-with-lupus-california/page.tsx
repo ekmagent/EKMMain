@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare enrollment help for people with lupus california | Free Guidance | MedicareYourself",
   description:
-    "Medicare enrollment help for Californians with lupus. Compare plans covering rheumatologists, biologics & infusions. Free licensed broker—call 855-559-1700.",
+    "Medicare help for Californians with lupus—compare plans covering rheumatologists, biologics & infusions. Free licensed broker guidance. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-enrollment-help-for-people-with-lupus-california" },
   openGraph: {
     title:
@@ -236,6 +236,22 @@ const faqs = [
     question: "Can a licensed Medicare broker in California help me at no cost?",
     answer:
       "Yes. Licensed Medicare brokers are paid by the insurance carriers, so their guidance is free to you and your plan premium is the same whether you enroll directly or through a broker. A broker can compare plans across carriers, check that your rheumatologist is in-network, and confirm your lupus medications are on the formulary.",
+  }
+,
+  {
+    question: "Will Medicare Part D cover oral lupus medications like hydroxychloroquine?",
+    answer:
+      "Yes. Medicare Part D plans generally cover commonly prescribed oral lupus medications such as hydroxychloroquine, corticosteroids, and immunosuppressants. Each plan has its own formulary, so it's important to confirm your specific drugs are listed before enrolling. A broker can run your medication list against available California plans at no cost.",
+  },
+  {
+    question: "Can I switch Medicare Advantage plans in California if my rheumatologist leaves the network?",
+    answer:
+      "Generally, you can change plans during the Annual Election Period each fall or the Medicare Advantage Open Enrollment Period in early in the year. In some cases, a Special Enrollment Period may apply if your provider network changes significantly. Call us at 855-559-1700 to review your options.",
+  },
+  {
+    question: "Does Original Medicare or Medicare Advantage work better for lupus patients?",
+    answer:
+      "It depends on your providers, medications, and budget. Original Medicare with a Medigap plan offers broader provider access nationwide, which can help if you see specialized lupus centers. Medicare Advantage plans may offer lower upfront costs but use networks and prior authorization. A licensed broker can compare both based on your specific care team.",
   }
 ];
 
@@ -505,6 +521,7 @@ export default function MedicareEnrollmentHelpLupusCalifornia() {
             <div className="text-sm text-gray-600 mt-4">California residents can get free Medicare counseling through <a href="https://aging.ca.gov/HICAP/" rel="noopener noreferrer" target="_blank" className="underline">California's HICAP program</a> or contact the <a href="https://www.insurance.ca.gov/" rel="noopener noreferrer" target="_blank" className="underline">California Department of Insurance</a>.</div>
             <div className="text-sm text-gray-600 mt-4">California residents can get free, unbiased Medicare counseling through <a href="https://www.aging.ca.gov/HICAP/" rel="noopener noreferrer" target="_blank" className="underline">California HICAP (Health Insurance Counseling and Advocacy Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">California residents can get free local Medicare counseling through <a href="https://cahealthadvocates.org/hicap/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">California HICAP</a> or contact the <a href="https://www.insurance.ca.gov/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">California Department of Insurance</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">California residents can get free, unbiased Medicare counseling from <a href="https://aging.ca.gov/Programs_and_Services/Medicare_Counseling/" rel="noopener noreferrer" target="_blank" className="underline">California HICAP (Health Insurance Counseling and Advocacy Program)</a>.</div>
       </section>
     </main>
   );

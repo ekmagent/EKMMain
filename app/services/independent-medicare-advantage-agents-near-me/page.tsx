@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "independent medicare advantage agents near me | Free NJ Consultations | MedicareYourself",
   description:
-    "Independent NJ Medicare Advantage agent comparing every major plan in your county at no cost. Call 855-559-1700 for a free, no-pressure review today.",
+    "Work with an independent NJ Medicare Advantage agent who compares every major plan in your county at no cost. Call 855-559-1700 for a free, no-pressure review.",
   alternates: { canonical: "https://medicareyourself.com/services/independent-medicare-advantage-agents-near-me" },
   openGraph: {
     title:
@@ -137,6 +137,17 @@ const faqs = [
     question: "What should I bring to a meeting with an independent Medicare agent?",
     answer:
       "Have your Medicare card, a list of your current prescriptions with dosages, and the names of any doctors or specialists you want to keep. If you have current coverage, bring those plan details too. This information lets the agent run an accurate plan comparison for your specific needs.",
+  }
+,
+  {
+    question: "Does an independent Medicare Advantage agent help after I enroll?",
+    answer:
+      "Yes. A good independent agent stays available year-round to answer billing questions, help with claims issues, and review your plan annually before the Annual Enrollment Period. If your prescriptions or doctors change, they can compare your options again at no cost.",
+  },
+  {
+    question: "How do I find a trustworthy independent Medicare agent near me in NJ?",
+    answer:
+      "Look for an agent who is licensed in New Jersey, appointed with multiple major carriers, and willing to compare plans without pressure. You can verify any agent's license through the NJ Department of Banking and Insurance. Anthony Orner is licensed in NJ and 34 additional states — call 855-559-1700 to schedule a free review.",
   }
 ];
 
@@ -391,6 +402,7 @@ export default function IndependentMedicareAdvantageAgentsNearMe() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
+            <div className="text-sm text-gray-600 mt-4">NJ residents: get free unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

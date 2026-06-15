@@ -125,6 +125,22 @@ const faqs = [
     answer:
       "Ask which carriers they're appointed with, how many plans they actively compare in your ZIP code, and whether they'll check your specific doctors and prescriptions against each plan's network and formulary. You should also ask how they handle service after enrollment, including claims issues, plan changes, and annual reviews. A good independent agent will answer all of these without pressure.",
   }
+,
+  {
+    question: "How does an independent Medicare agent get paid?",
+    answer:
+      "Independent Medicare agents are paid a commission directly by the insurance carrier when a client enrolls in a plan. CMS sets maximum commission amounts, so agents are compensated similarly across most major carriers. This structure means there is no cost or fee passed on to you for the agent's guidance or ongoing service.",
+  },
+  {
+    question: "Will an independent agent still help me after I enroll?",
+    answer:
+      "Yes. A good independent agent provides ongoing service after enrollment, including help with claims questions, plan changes, and annual reviews during the Annual Enrollment Period. Because they represent multiple carriers, they can move you to a different plan if your needs or the plan's benefits change.",
+  },
+  {
+    question: "Can an independent agent help with both Medicare Advantage and Medigap plans?",
+    answer:
+      "Yes. Independent Medicare agents are typically appointed with carriers offering Medicare Advantage, Medicare Supplement (Medigap), and standalone Part D prescription drug plans. This allows them to walk you through the pros and cons of each path and recommend the structure that fits your health needs and budget.",
+  }
 ];
 
 export default function IndependentMedicareInsuranceAgentsPage() {
@@ -353,6 +369,7 @@ export default function IndependentMedicareInsuranceAgentsPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify a producer's license through the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Verify any agent's license through your state insurance department, or get free unbiased counseling from <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">your local SHIP program</a>. New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify a producer's license through the <a href="https://www.state.nj.us/dobi/inssrch.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance license search</a> or get free unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify an agent's license or get free Medicare counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
     </>
   );

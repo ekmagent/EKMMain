@@ -807,6 +807,22 @@ const faqs = [
     answer:
       "You can apply to switch Medigap plans at any time, but outside of guaranteed-issue situations, carriers can require medical underwriting and may deny your application or charge more based on health. That is why choosing the right plan during your initial Medigap Open Enrollment Period is important. Call 855-559-1700 to review whether a switch makes sense in your situation.",
   }
+,
+  {
+    question: "When is the best time to buy a Medicare Supplement policy?",
+    answer:
+      "The best time to buy a Medigap policy is during your 6-month Medigap Open Enrollment Period, which starts the first month you are both 65 or older and enrolled in Medicare Part B. During this window, you have a guaranteed right to buy any Medigap policy sold in your state at the best available rate, regardless of your health. Outside this window, carriers in most states can use medical underwriting to deny coverage or charge more.",
+  },
+  {
+    question: "Can I be denied a Medicare Supplement plan because of pre-existing conditions?",
+    answer:
+      "During your 6-month Medigap Open Enrollment Period, insurance companies cannot deny you coverage or charge you more because of pre-existing conditions. Outside of this window — and outside of specific guaranteed-issue situations — most states allow carriers to use medical underwriting, which means they can decline your application or raise your premium based on your health. A few states have additional consumer protections that go beyond federal rules.",
+  },
+  {
+    question: "Do I need to re-enroll in my Medicare Supplement plan every year?",
+    answer:
+      "No. Medicare Supplement plans automatically renew each year as long as you pay your premium, and the carrier cannot cancel your policy due to health changes. This is different from Medicare Advantage and Part D drug plans, which you can review and switch during the Annual Enrollment Period each fall. You can apply to switch Medigap plans at any time, but outside guaranteed-issue situations you may need to pass medical underwriting.",
+  }
 ];
 
 export default function HowToEnrollMedigapPage() {

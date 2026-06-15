@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "average cost of supplemental health insurance for seniors with medicare | Free Broker Comparison | MedicareYourself",
   description:
-    "See what seniors really pay for Medigap in 2026 by plan, age, and state. Compare carriers free with a licensed broker — call 855-559-1700 for your lowest rate.",
+    "Compare Medigap costs by plan, age, and state for 2026. See what seniors actually pay and find your lowest rate with a licensed broker — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/average-cost-of-supplemental-health-insurance-for-seniors-with-medicare" },
   openGraph: {
     title:
@@ -662,6 +662,22 @@ const faqs = [
     answer:
       "Many carriers offer household discounts when two people in the same home enroll, plus discounts for non-tobacco users, paying annually, or signing up for electronic funds transfer. Discount amounts and eligibility rules vary by company and state. Stacking available discounts can meaningfully reduce your monthly cost on the same lettered plan.",
   }
+,
+  {
+    question: "Does my zip code really affect what I pay for Medigap?",
+    answer:
+      "Yes. Medigap premiums vary widely based on where you live because carriers price by zip code based on local claims experience and competition. According to Medicare.gov, the benefits in each lettered plan are identical, but the premium for the same Plan G can differ substantially between states and even between counties within the same state.",
+  },
+  {
+    question: "Will my Medigap premium go up every year?",
+    answer:
+      "Most Medigap policies use attained-age pricing, meaning your premium increases as you get older, plus annual inflation adjustments. Issue-age and community-rated policies don't raise rates based on your age, but all policies can increase due to inflation and claims trends. Ask your broker which pricing method each carrier uses before enrolling.",
+  },
+  {
+    question: "Can I switch Medigap plans later to lower my cost?",
+    answer:
+      "You can apply to switch Medigap plans at any time, but outside your Open Enrollment Period or a guaranteed issue situation, carriers can use medical underwriting and decline coverage or charge more. Some states have annual switching rights regardless of health. A licensed broker can check whether you qualify for a better rate without losing coverage.",
+  }
 ];
 
 export default function AverageCostSupplementalInsurancePage() {
@@ -896,6 +912,7 @@ export default function AverageCostSupplementalInsurancePage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> or contact the <a href="https://www.state.nj.us/dobi/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </main>
   );

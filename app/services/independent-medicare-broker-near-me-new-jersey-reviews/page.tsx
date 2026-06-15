@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "independent medicare broker near me new jersey reviews | Free Consultation | MedicareYourself",
   description:
-    "Read real New Jersey client reviews of independent Medicare broker Anthony Orner. Compare plans across carriers at no cost — call 855-559-1700 today.",
+    "Read real New Jersey reviews of independent Medicare broker Anthony Orner. Compare plans across carriers at no cost — call 855-559-1700 for a free consult.",
   alternates: { canonical: "https://medicareyourself.com/services/independent-medicare-broker-near-me-new-jersey-reviews" },
   openGraph: {
     title:
@@ -341,6 +341,7 @@ export default function IndependentMedicareBrokerNJReviewsPage() {
             <div className="text-sm text-gray-600 mt-4">Verify a broker's license or get free NJ counseling: <a href="https://www.state.nj.us/dobi/" target="_blank" rel="noopener noreferrer" className="underline">NJ Department of Banking and Insurance</a> and <a href="https://www.nj.gov/humanservices/doas/services/ship/" target="_blank" rel="noopener noreferrer" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Verify a broker's license or file a concern with the <a href="https://www.state.nj.us/dobi/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a>, or get free unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Verify a broker's license: <a href="https://www.state.nj.us/dobi/index.shtml" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a>. Free unbiased counseling: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP Program</a>.</div>
+            <div className="text-sm text-gray-600 mt-2">Verify a New Jersey broker license through the <a href="https://www.state.nj.us/dobi/" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP</a>.</div>
       </section>
     </main>
   );

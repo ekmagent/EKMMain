@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "How Much Does Medicare Supplement Cost per Month for Seniors? | Free 2026 Rate Quote | MedicareYourself",
   description:
-    "How much does Medicare Supplement cost per month for seniors? Compare Plan G & N rates by age and zip. Call 855-559-1700 for a free side-by-side quote.",
+    "How much does Medicare Supplement cost per month for seniors? Compare Plan G & N rates by age and zip. Call 855-559-1700 for a free side-by-side quote today.",
   alternates: { canonical: "https://medicareyourself.com/services/how-much-does-medicare-supplement-cost-per-month-for-seniors" },
   openGraph: {
     title:
@@ -111,6 +111,17 @@ const faqs = [
     question: "Do I still pay the Part B premium if I have a Medicare Supplement plan?",
     answer:
       "Yes. A Medigap policy is in addition to Original Medicare, so you continue paying the standard Part B premium directly to Medicare along with your Medigap premium to the private carrier. Your Medigap plan only covers gaps left by Parts A and B.",
+  }
+,
+  {
+    question: "Is there a yearly out-of-pocket limit with Medicare alone if I don't buy a Supplement plan?",
+    answer:
+      "No. Original Medicare by itself has no annual cap on what you can pay out-of-pocket for covered services. A Medigap policy is one of the few ways to add that financial protection, which is why many seniors weigh the monthly premium against the unlimited exposure of going without supplemental coverage.",
+  },
+  {
+    question: "Are Medicare Supplement benefits different from one company to another?",
+    answer:
+      "No. The benefits in each lettered Medigap plan are standardized by federal law, so a Plan G from one carrier covers the exact same services as a Plan G from another. Price is the main difference between policies with the same plan letter, which is why comparing carriers matters. Call 855-559-1700 for a side-by-side rate comparison.",
   }
 ];
 

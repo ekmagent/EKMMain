@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare advise in new jersey | Free Expert Guidance | MedicareYourself",
   description:
-    "Free Medicare advice in New Jersey from licensed broker Anthony Orner. Compare Medigap, Advantage & Part D with no pressure. Call 855-559-1700 today.",
+    "Free Medicare advice in New Jersey from licensed broker Anthony Orner. Compare Medigap, Advantage & Part D with no pressure—call 855-559-1700 to start.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-advise-in-new-jersey" },
   openGraph: {
     title:
@@ -86,6 +86,22 @@ const faqs = [
     answer:
       "Start at least 3 months before your 65th birthday. Your Initial Enrollment Period begins 3 months before the month you turn 65 and ends 3 months after. If you want Medigap coverage, your 6-month open enrollment window starts when you're both 65 and enrolled in Part B, so timing matters.",
   },
+,
+  {
+    question: "Does New Jersey use community rating for Medigap policies?",
+    answer:
+      "Yes. New Jersey uses community rating for Medicare Supplement (Medigap) policies, meaning insurers charge the same premium to everyone with a given plan regardless of age. This can make Medigap more predictable over time compared to states that use age-rated pricing.",
+  },
+  {
+    question: "When can I enroll in a Medigap plan in New Jersey with guaranteed issue rights?",
+    answer:
+      "Your strongest protection is the 6-month Medigap Open Enrollment Period, which begins the month you're 65 or older and enrolled in Medicare Part B. During this window, you can buy any Medigap plan sold in New Jersey without medical underwriting. Outside this period, acceptance is not guaranteed unless you qualify for a separate guaranteed issue right.",
+  },
+  {
+    question: "How do I get started with a free Medicare consultation in New Jersey?",
+    answer:
+      "Call Anthony Orner at 855-559-1700 to schedule a no-pressure phone or virtual consultation. He'll review your doctors, prescriptions, and budget, then walk through Medigap, Medicare Advantage, and Part D options side by side so you can choose with confidence.",
+  }
 ];
 
 export default function MedicareAdviseInNewJersey() {
@@ -342,6 +358,7 @@ export default function MedicareAdviseInNewJersey() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling from the <a href="https://www.nj.gov/humanservices/doas/services/q-z/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also access free counseling through the <a href="https://www.nj.gov/humanservices/doas/services/q-z/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling from <a href="https://www.nj.gov/humanservices/doas/services/q-z/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.nj.gov/humanservices/doas/services/q-z/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">New Jersey State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </>
   );

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for multiple sclerosis patients | Free Plan Comparison | MedicareYourself",
   description:
-    "Medicare broker for MS patients — Anthony Orner finds plans covering Ocrevus, MRIs & your neurologist with no surprises. Call 855-559-1700 for a free review.",
+    "Medicare broker for MS patients — Anthony Orner finds plans covering Ocrevus infusions, MRIs and your neurologist. Call 855-559-1700 for a free plan review.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-multiple-sclerosis-patients" },
   openGraph: {
     title:
@@ -452,6 +452,12 @@ const faqs = [
     question: "Does Medicare cover MRI scans for MS monitoring?",
     answer:
       "Yes. Medicare Part B covers medically necessary MRI scans ordered by your doctor to monitor MS progression or response to therapy. You'll typically pay the Part B coinsurance after meeting the annual deductible, unless a Medigap plan covers that share. Medicare Advantage plans also cover MRIs but often require prior authorization.",
+  }
+,
+  {
+    question: "Does Medicare cover MRIs for monitoring multiple sclerosis?",
+    answer:
+      "Yes. Medicare Part B covers medically necessary MRI scans when ordered by your doctor to monitor MS progression or response to therapy. You'll typically pay coinsurance after meeting the Part B deductible, and a Medigap plan can reduce or eliminate that out-of-pocket cost. Medicare Advantage plans may require prior authorization before scheduling the scan.",
   }
 ];
 
