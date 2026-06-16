@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "independent medicare advantage agents near me | Free NJ Consultations | MedicareYourself",
   description:
-    "Work with an independent NJ Medicare Advantage agent who compares every major plan in your county at no cost. Call 855-559-1700 for a free, no-pressure review.",
+    "Independent NJ Medicare Advantage agent compares every major plan in your county at no cost to you. Call 855-559-1700 for a free, no-pressure plan review.",
   alternates: { canonical: "https://medicareyourself.com/services/independent-medicare-advantage-agents-near-me" },
   openGraph: {
     title:
@@ -148,6 +148,22 @@ const faqs = [
     question: "How do I find a trustworthy independent Medicare agent near me in NJ?",
     answer:
       "Look for an agent who is licensed in New Jersey, appointed with multiple major carriers, and willing to compare plans without pressure. You can verify any agent's license through the NJ Department of Banking and Insurance. Anthony Orner is licensed in NJ and 34 additional states — call 855-559-1700 to schedule a free review.",
+  }
+,
+  {
+    question: "How do I find an independent Medicare Advantage agent near me in NJ?",
+    answer:
+      "You can search by ZIP code on directories like Medicare.gov or call a licensed broker directly. Look for an agent who is appointed with multiple carriers in your county, holds an active NJ insurance license, and is willing to compare plans based on your doctors and prescriptions rather than push one carrier.",
+  },
+  {
+    question: "What should I bring to a meeting with an independent Medicare agent?",
+    answer:
+      "Bring your Medicare card, a list of your current doctors and preferred hospitals, a list of your prescription medications with dosages, and your ZIP code. This information lets the agent run an accurate plan comparison so you can see which Medicare Advantage options cover your providers and drugs.",
+  },
+  {
+    question: "Can an independent agent help me each year during the Annual Enrollment Period?",
+    answer:
+      "Yes. A good independent agent reviews your plan every year during the Annual Enrollment Period (October 15 through December 7) because Medicare Advantage formularies, networks, and benefits can change. An annual review helps confirm your current plan is still the best match for the coming year.",
   }
 ];
 
@@ -403,6 +419,7 @@ export default function IndependentMedicareAdvantageAgentsNearMe() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
             <div className="text-sm text-gray-600 mt-4">NJ residents: get free unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

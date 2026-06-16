@@ -127,6 +127,22 @@ const faqs = [
     answer:
       "You can request a switch during the Annual Enrollment Period (October 15 to December 7) or the Medicare Advantage Open Enrollment Period (January 1 to March 31). However, moving to a Medigap plan outside your initial 6-month Open Enrollment window may require medical underwriting in New Jersey. Call 855-559-1700 to review your options before making a change.",
   }
+,
+  {
+    question: "Does New Jersey use community rating for Medigap?",
+    answer:
+      "Yes. New Jersey is a community-rated state, meaning Medigap premiums for the same plan are typically the same regardless of your age. This can make Medigap more predictable over time compared to age-rated states. Rates can still change year to year based on overall claims and inflation.",
+  },
+  {
+    question: "Do Bridgeton Medicare agents charge a fee?",
+    answer:
+      "No. Licensed Medicare brokers like Anthony Orner are compensated by the insurance carriers, not by you. You pay the same premium whether you enroll through a broker or directly with the carrier. The benefit is unbiased plan comparisons across multiple companies at no cost.",
+  },
+  {
+    question: "Can I switch Medicare plans after I enroll?",
+    answer:
+      "Yes, but the rules depend on the plan type. Medicare Advantage and Part D plans can be changed during the Annual Enrollment Period each fall, and sometimes during the Medicare Advantage Open Enrollment Period in early spring. Switching Medigap plans outside your initial 6-month Open Enrollment window may require medical underwriting in New Jersey.",
+  }
 ];
 
 export default function MedicareInsuranceAgentsBridgetonNJ() {

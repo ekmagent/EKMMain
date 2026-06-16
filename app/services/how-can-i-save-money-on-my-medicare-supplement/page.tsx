@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "how can i save money on my medicare supplement | Free Rate Review | MedicareYourself",
   description:
-    "Save on your Medicare Supplement by comparing carriers, stacking discounts, and reviewing plan letters. Call 855-559-1700 for a free rate review today.",
+    "Save on your Medicare Supplement: compare carriers, stack discounts, and review plan letters. Call 855-559-1700 for a free, no-obligation rate review.",
   alternates: { canonical: "https://medicareyourself.com/services/how-can-i-save-money-on-my-medicare-supplement" },
   openGraph: {
     title:
@@ -135,6 +135,17 @@ const faqs = [
     question: "Why do Medigap premiums for the same plan letter vary so much between carriers?",
     answer:
       "Each insurance company sets its own price for a Medigap policy, even though the benefits in each lettered plan are standardized by the federal government. Carriers also use different pricing methods — community-rated, issue-age-rated, or attained-age-rated — which affect how your premium changes over time. That's why comparing carriers for the same plan letter is one of the most effective ways to save.",
+  }
+,
+  {
+    question: "When is the best time to buy a Medigap policy to lock in lower rates?",
+    answer:
+      "The best time is during your Medigap Open Enrollment Period, which starts the month you're 65 or older and enrolled in Medicare Part B. During this six-month window, carriers can't deny you coverage or charge more based on health conditions. Buying outside this window may require medical underwriting, which can raise your premium or result in denial.",
+  },
+  {
+    question: "Are there state programs that can help me afford Medicare costs?",
+    answer:
+      "Yes. Medicare Savings Programs administered by your state can help pay Part B premiums, deductibles, and coinsurance if you meet income and resource limits. You can also explore Supplemental Security Income through Social Security and your state's SHIP program for free counseling. Call 855-559-1700 and we'll point you to the right resources.",
   }
 ];
 
@@ -385,6 +396,7 @@ export default function HowCanISaveMoneyOnMyMedicareSupplement() {
             <div className="text-sm text-gray-600 mt-4">Free unbiased counseling: contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for one-on-one Medicare help.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">Need free, unbiased local help? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a> for one-on-one Medicare counseling.</div>
       </section>
     </main>
   );

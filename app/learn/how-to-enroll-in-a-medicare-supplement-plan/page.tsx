@@ -9,7 +9,7 @@ import { MF } from "@/lib/medicare-figures";
 export const metadata: Metadata = {
   title: "How to Enroll in a Medicare Supplement Plan (2026): The 5-Step Guide",
   description:
-    "Enroll in a Medicare Supplement plan in 5 steps and lock in your 6-month guaranteed-issue window. Call 855-559-1700 to compare every carrier free.",
+    "Enroll in a Medicare Supplement plan in 5 simple steps and protect your 6-month guaranteed-issue window. Call 855-559-1700 to compare every carrier free.",
   alternates: { canonical: `${SITE_URL}/learn/how-to-enroll-in-a-medicare-supplement-plan` },
   openGraph: {
     title: "How to Enroll in a Medicare Supplement Plan (2026): The 5-Step Guide",
@@ -822,6 +822,22 @@ const faqs = [
     question: "Do I need to re-enroll in my Medicare Supplement plan every year?",
     answer:
       "No. Medicare Supplement plans automatically renew each year as long as you pay your premium, and the carrier cannot cancel your policy due to health changes. This is different from Medicare Advantage and Part D drug plans, which you can review and switch during the Annual Enrollment Period each fall. You can apply to switch Medigap plans at any time, but outside guaranteed-issue situations you may need to pass medical underwriting.",
+  }
+,
+  {
+    question: "Can I be denied a Medicare Supplement plan if I have pre-existing conditions?",
+    answer:
+      "During your 6-month Medigap Open Enrollment Period, no insurance company can deny you coverage or charge you more based on your health. Outside of that window, in most states carriers can use medical underwriting to deny you or charge higher premiums. A few states have additional guaranteed-issue protections beyond the federal rules.",
+  },
+  {
+    question: "Do I need to re-enroll in my Medicare Supplement plan each year?",
+    answer:
+      "No. Medicare Supplement plans are guaranteed renewable as long as you pay your premium, meaning your coverage automatically continues year after year. You do not need to re-enroll during the annual Medicare Open Enrollment Period. You can, however, apply to switch plans at any time — though outside your open enrollment window you may face medical underwriting.",
+  },
+  {
+    question: "How long does it take for a Medicare Supplement plan to start after I apply?",
+    answer:
+      "Most Medicare Supplement applications are processed within a few business days to a few weeks, depending on the carrier and whether medical underwriting is required. You can typically choose a future effective date when you apply, which is useful if you are coordinating with your Part B start date. Call 855-559-1700 if you need help timing your application.",
   }
 ];
 

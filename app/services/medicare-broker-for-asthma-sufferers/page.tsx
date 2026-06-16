@@ -100,6 +100,17 @@ const faqs = [
     answer:
       "If your Part D or Medicare Advantage plan drops your medication mid-year, you may qualify for a Special Enrollment Period. Otherwise, you can change plans during the Annual Enrollment Period from October 15 to December 7, or the Medicare Advantage Open Enrollment Period from January 1 to March 31. I can help you review formulary changes each fall before they take effect.",
   }
+,
+  {
+    question: "Does Medicare cover pulmonary rehabilitation for asthma?",
+    answer:
+      "Medicare Part B covers pulmonary rehabilitation programs when prescribed by a doctor for certain chronic respiratory conditions. Coverage rules and patient cost-sharing depend on whether you have Original Medicare or a Medicare Advantage plan. I can verify whether your specific diagnosis and provider qualify before you enroll.",
+  },
+  {
+    question: "Can I switch Medicare plans if my asthma medication is dropped from the formulary mid-year?",
+    answer:
+      "Plans can change their formularies, but you typically must wait for Annual Enrollment (Oct 15 – Dec 7) or a Special Enrollment Period to switch. In the meantime, you can request a formulary exception or appeal. I help clients document medical necessity and time plan changes around their treatment needs.",
+  }
 ];
 
 export default function MedicareBrokerForAsthmaSufferers() {

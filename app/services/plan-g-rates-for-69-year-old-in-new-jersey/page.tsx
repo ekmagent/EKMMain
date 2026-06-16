@@ -130,6 +130,12 @@ const faqs = [
     answer:
       "New Jersey is a community-rated state for Medigap, which means carriers generally charge the same premium for a given plan regardless of the enrollee's age. However, premiums can still vary between carriers and may change over time due to inflation and claims experience.",
   }
+,
+  {
+    question: "Does New Jersey use community rating for Medigap Plan G?",
+    answer:
+      "Many Medigap plans sold in New Jersey use community-rated pricing, meaning everyone in the same plan pays the same premium regardless of age. However, not every carrier uses the same method, so it's important to compare quotes directly. A licensed broker can confirm which pricing structure applies to each plan you're considering.",
+  }
 ];
 
 export default function PlanGRates69NJ() {

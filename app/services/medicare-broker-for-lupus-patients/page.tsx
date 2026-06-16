@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for lupus patients | Free Coverage Review | MedicareYourself",
   description:
-    "Medicare broker for lupus patients in NJ. Anthony Orner matches plans covering biologics, labs, and rheumatology. Call 855-559-1700 for a free plan review.",
+    "Medicare broker for lupus patients in NJ. Anthony Orner matches plans covering biologics, labs, and rheumatology visits. Call 855-559-1700 for a free review.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-lupus-patients" },
   openGraph: {
     title:
@@ -321,6 +321,7 @@ export default function MedicareBrokerForLupusPatients() {
             <div className="text-sm text-gray-600 mt-4">NJ residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">NJ residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">NJ residents: free unbiased counseling is available through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

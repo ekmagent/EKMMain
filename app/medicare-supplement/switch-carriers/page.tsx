@@ -461,6 +461,22 @@ const faqs = [
     answer:
       "In most states, yes — outside of your 6-month Medigap Open Enrollment Period or a Guaranteed Issue situation, the new carrier can ask health questions and decline you based on your medical history. A few states have annual or birthday-month switching rules that waive underwriting. Call 855-559-1700 and we'll check the rules in your state before you apply.",
   }
+,
+  {
+    question: "Will I need to answer health questions to switch Plan G carriers?",
+    answer:
+      "In most states, yes — once you are outside your initial 6-month Medigap Open Enrollment Period, carriers can use medical underwriting and may decline you based on health history. Exceptions apply if you have a federal guaranteed issue right, such as your current plan leaving the market or losing employer coverage. A broker can review your medications and conditions to identify which carriers are most likely to approve you before you apply.",
+  },
+  {
+    question: "Should I cancel my current Medigap plan before the new one is approved?",
+    answer:
+      "No — never cancel your existing Medicare Supplement policy until the new carrier has formally approved your application and given you an effective date. This prevents any gap in coverage. Once approval is confirmed, you submit a written cancellation to the old carrier timed to end the day before your new plan starts.",
+  },
+  {
+    question: "Do I have to switch during Medicare's Annual Enrollment Period to change Medigap carriers?",
+    answer:
+      "No. The Annual Enrollment Period (October 15 – December 7) applies to Medicare Advantage and Part D plans, not Medicare Supplement plans. You can apply to switch Medigap carriers any month of the year, subject to underwriting rules in your state. Call 855-559-1700 to start a free carrier comparison.",
+  }
 ];
 
 export default function SwitchCarriersPage() {
@@ -717,6 +733,7 @@ export default function SwitchCarriersPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medigap counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> before switching carriers.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents: contact <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a> before switching carriers.</div>
       </section>
     </>
   );

@@ -459,6 +459,17 @@ const faqs = [
     answer:
       "Yes. Medicare Part B covers medically necessary MRI scans when ordered by your doctor to monitor MS progression or response to therapy. You'll typically pay coinsurance after meeting the Part B deductible, and a Medigap plan can reduce or eliminate that out-of-pocket cost. Medicare Advantage plans may require prior authorization before scheduling the scan.",
   }
+,
+  {
+    question: "Does Medicare cover MRIs for monitoring MS progression?",
+    answer:
+      "Yes. Medicare Part B covers medically necessary MRIs ordered by your doctor to monitor MS activity and treatment response. You'll typically pay the Part B coinsurance after meeting the annual deductible, unless a Medigap plan covers that cost sharing. Under Medicare Advantage, MRIs are covered but often require prior authorization.",
+  },
+  {
+    question: "Will Medicare cover physical therapy and rehabilitation for MS?",
+    answer:
+      "Medicare Part B covers medically necessary physical therapy, occupational therapy, and speech-language pathology services when prescribed by your doctor. There are no longer hard annual caps, but therapy beyond a certain threshold requires your provider to document medical necessity. Home health therapy may also be covered if you meet homebound criteria.",
+  }
 ];
 
 export default function MedicareBrokerForMSPatients() {

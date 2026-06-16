@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "You Get a Medicare Supplement Plan If You Have a Pre-Existing Condition | Free Guidance | MedicareYourself",
   description:
-    "Yes, you can get a Medicare Supplement plan with a pre-existing condition. Learn open enrollment and guaranteed-issue rules. Call 855-559-1700 for free help.",
+    "Yes, you can get a Medicare Supplement plan with a pre-existing condition during open enrollment. Learn the rules and call 855-559-1700 for free guidance.",
   alternates: { canonical: "https://medicareyourself.com/services/you-get-a-medicare-supplement-plan-if-you-have-a-pre-existing-condition" },
   openGraph: {
     title:
@@ -93,6 +93,17 @@ const faqs = [
     question: "Does Original Medicare itself cover pre-existing conditions?",
     answer:
       "Yes. Original Medicare (Part A and Part B) covers pre-existing conditions the same as any other condition, with no waiting period and no medical underwriting. A Medicare Supplement plan is what helps cover the out-of-pocket costs Original Medicare leaves behind, like deductibles and coinsurance.",
+  }
+,
+  {
+    question: "Can a Medigap insurer impose a waiting period for my pre-existing condition?",
+    answer:
+      "Yes, in some cases. Even during your Medigap Open Enrollment Period, an insurer may refuse to cover out-of-pocket costs for a pre-existing condition for up to 6 months — this is called a pre-existing condition waiting period. However, if you had at least 6 months of prior creditable coverage, that waiting period can be reduced or eliminated entirely.",
+  },
+  {
+    question: "Does Original Medicare itself deny coverage for pre-existing conditions?",
+    answer:
+      "No. Original Medicare (Part A and Part B) has covered people with pre-existing conditions since the program began in 1965. Your health history does not affect your eligibility or what Original Medicare will pay. Pre-existing condition rules only come into play with Medigap policies purchased outside protected enrollment windows.",
   }
 ];
 
@@ -361,6 +372,7 @@ export default function PreExistingConditionMedigapPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact <a href="https://www.state.nj.us/dobi/division_insurance/ihcseh/shipp.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free counseling on Medigap rules and pre-existing condition protections.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medigap guidance.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
 
       <p className="text-sm text-gray-400 mt-10">

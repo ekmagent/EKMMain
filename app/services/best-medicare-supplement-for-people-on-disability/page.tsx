@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "best medicare supplement for people on disability | Free Plan Review | MedicareYourself",
   description:
-    "Best Medicare Supplement for people on disability: state rules, plan letters, and pricing tips to lower out-of-pocket costs. Call 855-559-1700 for a free review.",
+    "Best Medicare Supplement for people on disability: state rules, plan letters, and pricing tips to lower costs. Call 855-559-1700 for free help.",
   alternates: { canonical: "https://medicareyourself.com/services/best-medicare-supplement-for-people-on-disability" },
   openGraph: {
     title:
@@ -158,6 +158,12 @@ const faqs = [
     question: "Do I have to wait 24 months for Medicare if I have ALS or ESRD?",
     answer:
       "No. People diagnosed with ALS (Lou Gehrig's disease) become eligible for Medicare the same month their SSDI benefits begin, with no 24-month waiting period. Those with End-Stage Renal Disease (ESRD) follow a separate eligibility timeline tied to dialysis or transplant.",
+  }
+,
+  {
+    question: "Do all Medigap carriers sell plans to people under 65 on disability?",
+    answer:
+      "No. Federal law does not require carriers to offer Medigap to beneficiaries under 65. Availability depends on your state's rules and each carrier's underwriting guidelines. We can check which carriers actively sell to under-65 disability beneficiaries in your state.",
   }
 ];
 
@@ -391,6 +397,7 @@ export default function BestMedicareSupplementForPeopleOnDisability() {
             <div className="text-sm text-gray-600 mt-4">For state-specific Medigap rules and free counseling, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">For free one-on-one help in your state, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">For state-specific help, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">For state-specific help, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">local SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
       </section>
       </article>
     </>

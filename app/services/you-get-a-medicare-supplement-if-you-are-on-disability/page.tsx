@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "you get a medicare supplement if you are on disability | Free Guide | MedicareYourself",
   description:
-    "On disability and under 65? Over 30 states protect Medigap access for SSDI enrollees. Compare under-65 Medicare Supplement options — call 855-559-1700 today.",
+    "On SSDI and under 65? Over 30 states protect Medigap access for disabled enrollees. Compare under-65 Medicare Supplement plans — call 855-559-1700 for free help.",
   alternates: { canonical: "https://medicareyourself.com/services/you-get-a-medicare-supplement-if-you-are-on-disability" },
   openGraph: {
     title:
@@ -148,6 +148,22 @@ const faqs = [
     question: "Do I have a Medigap Open Enrollment Period when I turn 65, even if I already had Medicare due to disability?",
     answer:
       "Yes. In most states, you get a fresh six-month Medigap Open Enrollment Period when you turn 65, regardless of whether you were already enrolled in Medicare due to disability. During this window, insurers cannot deny you coverage or charge more based on health. This is often the best opportunity to switch to a more affordable Medigap plan.",
+  }
+,
+  {
+    question: "Can I switch from Medicare Advantage to a Medigap plan when I turn 65?",
+    answer:
+      "Yes. When you turn 65, you typically get a new six-month Medigap Open Enrollment Period, even if you already had Medicare due to disability. During this window, insurers cannot deny you coverage or charge more based on health. This is often the best time for under-65 disability enrollees to lock in better Medigap rates.",
+  },
+  {
+    question: "Do I qualify for Extra Help with prescription drug costs if I'm on SSDI?",
+    answer:
+      "You may qualify for the Extra Help (Low Income Subsidy) program if your income and resources fall below federal limits. This program helps pay Part D premiums, deductibles, and copays. You can apply through the Social Security Administration at ssa.gov or by calling our team for guidance.",
+  },
+  {
+    question: "What happens to my Medigap plan when I turn 65?",
+    answer:
+      "When you turn 65, you generally gain a fresh Medigap Open Enrollment Period regardless of your disability status. This lets you shop for new plans at standard age-65 rates, which are often lower than under-65 disability rates. Call 855-559-1700 before your 65th birthday to compare options.",
   }
 ];
 
@@ -415,6 +431,7 @@ export default function MedicareSupplementDisabilityPage() {
             <div className="text-sm text-gray-600 mt-4">For state-specific Medigap rules, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">local SHIP (State Health Insurance Assistance Program)</a> for free, unbiased counseling.</div>
             <div className="text-sm text-gray-600 mt-4">For state-specific Medigap rules, contact your <a href="https://www.shiphelp.org/about-medicare/regional-ship-location" target="_blank" rel="noopener noreferrer" className="text-blue-700 underline">State Health Insurance Assistance Program (SHIP)</a> for free local counseling.</div>
             <div className="text-sm text-gray-600 mt-4">For state-specific guidance, contact your <a href="https://www.shiphelp.org/about-medicare/regional-ship-location" rel="noopener noreferrer" target="_blank" className="underline">local SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">Need state-specific help? Contact your <a href="https://www.shiphelp.org/about-medicare/regional-ship-location" rel="noopener noreferrer" target="_blank" className="underline">local SHIP counselor</a> for free, unbiased Medicare guidance in your state.</div>
       </section>
 
       <p className="text-sm text-gray-500 mt-10">

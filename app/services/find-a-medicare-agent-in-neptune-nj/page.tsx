@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "find a medicare agent in neptune nj | Free No-Obligation Help | MedicareYourself",
   description:
-    "Find a Medicare agent in Neptune, NJ for free, unbiased plan comparisons across top carriers. Call Anthony Orner at 855-559-1700 to review your options.",
+    "Find a licensed Medicare agent in Neptune, NJ for free plan comparisons across top carriers. Call Anthony Orner at 855-559-1700 to review your options today.",
   alternates: { canonical: "https://medicareyourself.com/services/find-a-medicare-agent-in-neptune-nj" },
   openGraph: {
     title:
@@ -142,6 +142,22 @@ const faqs = [
     question: "Does a Neptune Medicare agent work with my local doctors and hospitals?",
     answer:
       "An independent agent can check whether your specific doctors, specialists, and Monmouth County hospitals are in-network for each Medicare Advantage plan before you enroll. For Medigap policies, you can see any provider nationwide that accepts Medicare, so network checks aren't needed.",
+  }
+,
+  {
+    question: "Can a Medicare agent in Neptune help me compare Medicare Advantage and Medigap?",
+    answer:
+      "Yes. An independent broker can lay out the structural differences between Medicare Advantage and Medigap, including network rules, referral requirements, prescription drug coverage, and how each handles out-of-pocket costs. The goal is to match the plan type to your doctors, medications, and travel patterns so you understand the tradeoffs before enrolling.",
+  },
+  {
+    question: "Does a local Neptune agent know which doctors and hospitals are in-network?",
+    answer:
+      "A local independent agent works with the major carriers serving Monmouth County and can check provider directories for specific Neptune-area doctors, specialists, and hospitals. This is especially important with Medicare Advantage plans, where networks differ between carriers and can change year to year.",
+  },
+  {
+    question: "What should I bring to my first meeting with a Medicare agent?",
+    answer:
+      "Have your Medicare card (or your Part A and Part B effective dates), a list of current prescriptions with dosages, and the names of doctors and specialists you want to keep. This lets your agent run an accurate plan comparison based on your actual prescriptions and providers rather than estimates.",
   }
 ];
 
@@ -366,6 +382,7 @@ export default function FindMedicareAgentNeptuneNJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

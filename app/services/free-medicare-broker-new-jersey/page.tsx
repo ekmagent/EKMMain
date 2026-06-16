@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "free medicare broker new jersey | No Fees, No Obligation | MedicareYourself",
   description:
-    "Free New Jersey Medicare broker — compare Medigap, Advantage & Part D across carriers with zero fees or pressure. Call 855-559-1700 for unbiased help today.",
+    "Free New Jersey Medicare broker — compare Medigap, Advantage, and Part D across top carriers with zero fees or pressure. Call 855-559-1700 for unbiased help.",
   alternates: { canonical: "https://medicareyourself.com/services/free-medicare-broker-new-jersey" },
   openGraph: {
     title:
@@ -217,6 +217,22 @@ const faqs = [
     question: "What does a free Medicare broker actually do for me?",
     answer:
       "A broker reviews your doctors, prescriptions, and budget, then compares Medigap, Medicare Advantage, and Part D plans from multiple carriers. They handle the application paperwork, explain enrollment windows, and stay available for ongoing questions after you enroll. Because carriers pay the commission, none of this costs you anything.",
+  }
+,
+  {
+    question: "When is the best time to enroll in a Medigap plan in New Jersey?",
+    answer:
+      "The strongest time to enroll is during your 6-month Medigap Open Enrollment Period, which starts the month you're 65 or older and enrolled in Part B. During this window, carriers cannot deny you coverage or charge more based on health. A New Jersey broker can help you compare plans before the window closes. Call 855-559-1700 to review your timing.",
+  },
+  {
+    question: "Does it cost more to use a broker instead of going directly to a carrier?",
+    answer:
+      "No. Medicare plan premiums are filed with CMS and the state, so the price is identical whether you enroll through a broker, the carrier directly, or Medicare.gov. Using an independent broker gives you a side-by-side comparison at no added cost.",
+  },
+  {
+    question: "What information should I have ready before calling a Medicare broker?",
+    answer:
+      "It helps to have your Medicare card (or expected Part A and Part B effective dates), a list of your current medications with dosages, and the names of any doctors or hospitals you want to keep. With that information, a broker can quickly narrow plan options that fit your needs.",
   }
 ];
 
@@ -452,6 +468,7 @@ export default function FreeMedicareBrokerNewJersey() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased Medicare counseling from <a href="https://www.nj.gov/humanservices/doas/services/q-z/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.nj.gov/humanservices/doas/services/q-z/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">For free, unbiased counseling, contact the <a href="https://www.nj.gov/humanservices/doas/services/q-z/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">New Jersey State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased Medicare counseling through the <a href="https://www.nj.gov/humanservices/doas/services/q-z/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
       </article>
     </>

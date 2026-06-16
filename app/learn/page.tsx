@@ -269,6 +269,12 @@ const GUIDES = [
     answer:
       "The right choice depends on how you use care, whether you travel, your preferred doctors, and your budget for premiums versus out-of-pocket costs. Medigap pairs with Original Medicare and offers broad provider access nationwide, while Medicare Advantage typically uses networks but may include extra benefits. A licensed broker can walk through both options based on your situation. Call 855-559-1700 for a no-cost comparison.",
   }
+,
+  {
+    question: "What is the best way to learn how Medicare works before I enroll?",
+    answer:
+      "Medicare.gov's 'Get Started with Medicare' section is the official starting point and explains the parts of Medicare, general costs, and how Original Medicare and Medicare Advantage work. Pairing that with a plain-English broker guide can help the rules click faster. If you'd rather talk it out, call 855-559-1700 for a no-cost conversation with a licensed broker.",
+  }
 ];
 
 export default function LearnHubPage() {

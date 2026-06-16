@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare broker for people with diabetes | Free Plan Comparison | MedicareYourself",
   description:
-    "Medicare broker for people with diabetes — Anthony Orner compares plans covering insulin, CGMs & endocrinologists. Free help, no obligation. Call 855-559-1700.",
+    "Medicare broker for people with diabetes — Anthony Orner compares plans covering insulin, CGMs & endocrinologists. Free, no-obligation help. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-people-with-diabetes" },
   openGraph: {
     title:
@@ -365,6 +365,7 @@ export default function MedicareBrokerForPeopleWithDiabetes() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents: contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
       </section>
     </>
   );

@@ -1057,6 +1057,22 @@ const steps = [
     answer:
       "Yes. During the application you'll be asked whether you want to enroll in Part B. If you have creditable employer coverage and want to delay Part B, you can decline it on the application and sign up later using a Special Enrollment Period. A licensed broker can help you decide based on your specific coverage — call 855-559-1700.",
   }
+,
+  {
+    question: "How long does the SSA online Medicare application take?",
+    answer:
+      "Most people complete the online application in about 10 minutes if they have their information ready. You'll need your Social Security number, a driver's license or state ID for identity verification, and details about any current health insurance. Once submitted, you cannot modify the application, so review each screen carefully.",
+  },
+  {
+    question: "Can I apply for Medicare online without starting Social Security retirement benefits?",
+    answer:
+      "Yes. The SSA application includes a question asking whether you want to apply for Medicare only without retirement benefits. Selecting this option lets you enroll in Part A and Part B while delaying your retirement check to a later date.",
+  },
+  {
+    question: "What happens after I submit my SSA Medicare application?",
+    answer:
+      "SSA will review your application and may contact you if additional documentation is needed. Once approved, your Medicare card will be mailed to the address on file, typically within a few weeks. You can also check application status by signing back in to your my Social Security account.",
+  }
 ];
 
 export default function SSAOnlineEnrollmentWalkthrough() {

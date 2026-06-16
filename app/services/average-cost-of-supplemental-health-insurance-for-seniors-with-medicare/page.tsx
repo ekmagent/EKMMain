@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "average cost of supplemental health insurance for seniors with medicare | Free Broker Comparison | MedicareYourself",
   description:
-    "Compare Medigap costs by plan, age, and state for 2026. See what seniors actually pay and find your lowest rate with a licensed broker — call 855-559-1700.",
+    "See average Medigap costs for seniors in 2026 by plan, age, and state. Compare carriers with a licensed broker and lock in your lowest rate — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/average-cost-of-supplemental-health-insurance-for-seniors-with-medicare" },
   openGraph: {
     title:
@@ -677,6 +677,12 @@ const faqs = [
     question: "Can I switch Medigap plans later to lower my cost?",
     answer:
       "You can apply to switch Medigap plans at any time, but outside your Open Enrollment Period or a guaranteed issue situation, carriers can use medical underwriting and decline coverage or charge more. Some states have annual switching rights regardless of health. A licensed broker can check whether you qualify for a better rate without losing coverage.",
+  }
+,
+  {
+    question: "Does where I live affect what I pay for Medigap?",
+    answer:
+      "Yes. Medigap premiums vary widely by state, zip code, and even county because insurance companies factor in local healthcare costs and claims experience. The same lettered plan can cost noticeably more in one region than another. Comparing carriers licensed in your specific area is the only way to know your true lowest rate.",
   }
 ];
 

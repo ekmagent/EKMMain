@@ -924,6 +924,22 @@ const faqs = [
     answer:
       "A licensed broker cannot reduce your IRMAA, but we can help you understand how it affects your Part B and Part D costs and choose coverage that fits your budget. We can also explain when an SSA-44 appeal may apply. Call 855-559-1700 for free guidance.",
   }
+,
+  {
+    question: "How do I appeal an IRMAA determination?",
+    answer:
+      "If you've had a qualifying life-changing event that reduced your income, you can file Form SSA-44 with the Social Security Administration to request a lower IRMAA. Submit the form with supporting documentation such as a marriage certificate, death certificate, or proof of work stoppage. You can also request reconsideration if you believe SSA used outdated or incorrect tax information.",
+  },
+  {
+    question: "Does IRMAA reset each year?",
+    answer:
+      "Yes. Social Security recalculates IRMAA every year based on your most recent tax return on file, which is typically from two years prior. If your income drops below the threshold, your IRMAA surcharge will go away automatically the following year — no appeal needed.",
+  },
+  {
+    question: "How is IRMAA paid?",
+    answer:
+      "The Part B IRMAA surcharge is added to your standard Part B premium and is usually deducted directly from your Social Security check. The Part D IRMAA surcharge is billed separately by Medicare, even if you pay your Part D plan premium to a private insurer. Both are paid to the government, not to your plan.",
+  }
 ];
 
 export default function IrmaaPage() {

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "the best medicare plan for foreign travel | Free Comparison | MedicareYourself",
   description:
-    "Traveling abroad on Medicare? Compare Medigap Plans G & N with foreign travel emergency coverage. Free guidance from a licensed broker — call 855-559-1700.",
+    "Find the best Medicare plan for foreign travel. Compare Medigap Plans G & N with emergency coverage abroad — free help from a licensed broker at 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/best-medicare-plan-for-foreign-travel" },
   openGraph: {
     title:

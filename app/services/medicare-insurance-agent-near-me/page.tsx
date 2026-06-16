@@ -86,6 +86,12 @@ const faqs = [
     answer:
       "No. Medicare brokers are compensated by the insurance carriers. Your premium stays the same whether you enroll directly or through a broker. The consultation and plan comparison are completely free.",
   },
+,
+  {
+    question: "How quickly can a Medicare agent help me enroll?",
+    answer:
+      "Most enrollments can be completed in a single phone or video appointment once you have your Medicare number and effective date. Anthony Orner walks you through the application, confirms your doctors and medications are covered, and submits everything electronically. You typically receive carrier confirmation within a few business days.",
+  }
 ];
 
 export default function MedicareInsuranceAgentNearMe() {

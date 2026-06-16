@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for schizophrenia patients | Free Coverage Analysis | MedicareYourself",
   description:
-    "Medicare broker for schizophrenia patients — Anthony Orner compares plans covering antipsychotics, therapy & psychiatric care. Call 855-559-1700.",
+    "Medicare broker for schizophrenia patients — Anthony Orner compares plans covering antipsychotics, therapy & psychiatric care. Free help: 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-schizophrenia-patients" },
   openGraph: {
     title:
@@ -96,6 +96,22 @@ const faqs = [
     question: "Can a Medicare Advantage plan be a good fit for someone with schizophrenia?",
     answer:
       "It depends on the plan's provider network, drug formulary, and prior authorization rules. Some Medicare Advantage plans include extra mental health benefits or care coordination that Original Medicare does not offer. A broker can compare your psychiatrist, therapist, and medications against each plan before you enroll.",
+  }
+,
+  {
+    question: "Are long-acting injectable antipsychotics covered by Medicare?",
+    answer:
+      "Long-acting injectable antipsychotics administered in a doctor's office are typically covered under Medicare Part B as physician-administered drugs. Self-administered antipsychotics fall under Part D. Coverage rules, prior authorization, and cost-sharing vary, so a broker can help confirm which benefit applies to your specific medication.",
+  },
+  {
+    question: "Can a Medicare Advantage plan deny coverage for schizophrenia?",
+    answer:
+      "No. Medicare Advantage plans cannot deny enrollment based on a schizophrenia diagnosis during your Initial Enrollment Period, Annual Enrollment Period, or other valid election periods. They must cover everything Original Medicare covers, including psychiatric services and antipsychotic medications under the Part D protected class rule.",
+  },
+  {
+    question: "Does Medicare cover case management or community mental health services?",
+    answer:
+      "Medicare Part B covers partial hospitalization programs and certain community-based mental health services when provided by a Medicare-certified program. Coverage includes evaluation, individual and group therapy, and medication management. Some Medicare Advantage plans offer additional care coordination benefits for members with chronic conditions like schizophrenia.",
   }
 ];
 
@@ -381,6 +397,7 @@ export default function MedicareBrokerSchizophreniaPatients() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
       </section>
     </main>
   );
