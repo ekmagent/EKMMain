@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "best independent medicare broker near me new jersey | Free Consultation | MedicareYourself",
   description:
-    "Find the best independent Medicare broker near you in New Jersey. Anthony Orner compares 20+ carriers free across all 21 NJ counties. Call 855-559-1700.",
+    "Looking for the best independent Medicare broker near you in New Jersey? Anthony Orner compares 20+ carriers free across all 21 NJ counties. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/best-independent-medicare-broker-near-me-new-jersey" },
   openGraph: {
     title:
@@ -129,6 +129,12 @@ const faqs = [
     question: "How do I switch brokers if I already have a Medicare plan?",
     answer:
       "You can change your broker of record at any time by signing a new agent of record form, and it costs you nothing. Your plan, premium, and benefits stay exactly the same — only the agent who services your policy changes. Anthony Orner can walk you through the simple paperwork by phone.",
+  }
+,
+  {
+    question: "Does New Jersey have community-rated Medigap pricing?",
+    answer:
+      "Yes. New Jersey uses community rating for Medigap policies, which means carriers charge the same base premium regardless of your age. Your rate can still vary by carrier, plan letter, and household discounts, so comparing across multiple insurers still matters.",
   }
 ];
 
@@ -446,6 +452,7 @@ export default function BestIndependentMedicareBrokerNearMeNewJersey() {
             <div className="text-sm text-gray-600 mt-4">New Jersey beneficiaries can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> offers free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
       </article>
     </>

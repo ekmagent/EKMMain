@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for kidney disease patients | Free Coverage Review | MedicareYourself",
   description:
-    "Medicare broker for kidney disease patients — compare ESRD, dialysis, and transplant coverage at no cost. Call 855-559-1700 for a free plan review.",
+    "Medicare broker for kidney disease patients — get clear help with ESRD, dialysis & transplant coverage. Free plan review. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-kidney-disease-patients" },
   openGraph: {
     title:
@@ -383,6 +383,7 @@ export default function MedicareBrokerKidneyDisease() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased help from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
       </article>
     </>

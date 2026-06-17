@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "how much does the best medicare supplemental insurance cost per month | Free Plan-by-Plan Breakdown | MedicareYourself",
   description:
-    "Compare Medicare Supplement Plan G and Plan N monthly costs by carrier and zip code. Call 855-559-1700 for a free side-by-side Medigap quote.",
+    "Compare Medicare Supplement Plan G and Plan N monthly premiums by carrier and zip code. Call 855-559-1700 for a free side-by-side Medigap quote today.",
   alternates: { canonical: "https://medicareyourself.com/services/how-much-does-the-best-medicare-supplemental-insurance-cost-per-month" },
   openGraph: {
     title:
@@ -547,6 +547,7 @@ export default function HowMuchDoesBestMedicareSupplementalInsuranceCostPerMonth
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">New Jersey SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Need state-level help? Contact the <a href="https://www.nj.gov/dobi/division_insurance/" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">SHIP counseling program</a> for free, unbiased guidance.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

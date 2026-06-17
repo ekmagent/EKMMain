@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "My Medicare Supplement Rate Just Jumped — Why, and What Can I Do? | Free Rate Comparison | MedicareYourself",
   description:
-    "Medigap rate jumped? Learn why Medicare Supplement premiums rise and how switching to the same plan letter could save money. Free comparison: 855-559-1700.",
+    "Medigap premium jumped? Learn why Medicare Supplement rates rise and how switching to the same plan letter could lower your cost. Free comparison: 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-supplement-rate-jumped-why-and-what-can-i-do" },
   openGraph: {
     title:
@@ -412,6 +412,7 @@ export default function MedicareSupplementRateJumpedPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a> or the free <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP program</a> for unbiased Medigap rate guidance.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can check rate filings and consumer protections through the <a href="https://www.state.nj.us/dobi/division_insurance/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">New Jersey Department of Banking and Insurance</a> or get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a> or the <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify carrier rate filings and consumer protections through the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">New Jersey Department of Banking and Insurance</a> or get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP</a>.</div>
       </section>
     </main>
   );

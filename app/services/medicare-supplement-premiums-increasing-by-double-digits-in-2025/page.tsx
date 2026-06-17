@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare supplement premiums increasing by double digits in 2025 | Free Rate Review | MedicareYourself",
   description:
-    "Medigap rates rising in 2025? Compare carriers offering identical standardized benefits and see if switching lowers your premium. Free review: 855-559-1700.",
+    "Medigap premiums climbing in 2025? Compare carriers offering identical standardized benefits and see if switching lowers your rate. Free review: 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-supplement-premiums-increasing-by-double-digits-in-2025" },
   openGraph: {
     title:
@@ -456,6 +456,7 @@ export default function MedicareSupplementPremiumsIncreasing2025() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-700 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Need free local help? Contact the <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> or the <a href="https://www.nj.gov/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Need state-level help comparing Medigap rates? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free, unbiased counseling, or call us at <a href="tel:8555591700" className="underline">855-559-1700</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">Need help comparing Medigap rates in your state? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a> for free, unbiased counseling.</div>
       </section>
     </main>
   );

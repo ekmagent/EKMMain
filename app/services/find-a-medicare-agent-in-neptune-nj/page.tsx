@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "find a medicare agent in neptune nj | Free No-Obligation Help | MedicareYourself",
   description:
-    "Find a licensed Medicare agent in Neptune, NJ for free plan comparisons across top carriers. Call Anthony Orner at 855-559-1700 to review your options today.",
+    "Work with a licensed Medicare agent in Neptune, NJ for free plan comparisons across top carriers. Call Anthony Orner at 855-559-1700 to review your options.",
   alternates: { canonical: "https://medicareyourself.com/services/find-a-medicare-agent-in-neptune-nj" },
   openGraph: {
     title:
@@ -158,6 +158,22 @@ const faqs = [
     question: "What should I bring to my first meeting with a Medicare agent?",
     answer:
       "Have your Medicare card (or your Part A and Part B effective dates), a list of current prescriptions with dosages, and the names of doctors and specialists you want to keep. This lets your agent run an accurate plan comparison based on your actual prescriptions and providers rather than estimates.",
+  }
+,
+  {
+    question: "Can a Medicare agent help me switch plans during the Annual Enrollment Period?",
+    answer:
+      "Yes. The Annual Enrollment Period runs from October 15 to December 7 each year, and a licensed agent can review your current coverage, compare it against next year's options, and submit the application for you. Changes made during AEP take effect January 1.",
+  },
+  {
+    question: "Does a Neptune, NJ Medicare agent only sell one company's plans?",
+    answer:
+      "It depends on whether the agent is captive or independent. A captive agent represents a single carrier, while an independent broker is appointed with multiple insurance companies and can compare plans across them. Anthony Orner is an independent broker licensed in New Jersey and 34 other states.",
+  },
+  {
+    question: "What information should I have ready before meeting with a Medicare agent?",
+    answer:
+      "Have your Medicare card or Part A/B effective dates, a list of your current prescriptions with dosages, and the names of doctors and hospitals you want to keep. This lets the agent check formularies and provider networks accurately before recommending a plan.",
   }
 ];
 

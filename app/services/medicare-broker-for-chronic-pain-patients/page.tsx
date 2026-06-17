@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for chronic pain patients | Free Coverage Consultation | MedicareYourself",
   description:
-    "Medicare broker for chronic pain patients: Anthony Orner compares plans covering pain management, PT, injections, and specialists. Free review — call 855-559-1700.",
+    "Medicare broker for chronic pain patients: Anthony Orner compares plans covering pain management, PT, and injections. Free review — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-chronic-pain-patients" },
   openGraph: {
     title:

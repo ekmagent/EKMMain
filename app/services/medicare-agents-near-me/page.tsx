@@ -104,6 +104,12 @@ const faqs = [
     answer:
       "Independent brokers contract with multiple major carriers, while captive agents only represent one company. Before scheduling a consultation, ask which carriers the agent is appointed with. The more carriers an agent represents, the more objective the plan comparison can be.",
   }
+,
+  {
+    question: "What questions should I ask a Medicare agent before enrolling?",
+    answer:
+      "Ask which carriers they represent, how they're compensated, and whether they're independent or captive. Confirm they're licensed in your state and request their National Producer Number. Also ask about ongoing service — will they help with claims, plan reviews, or questions after enrollment?",
+  }
 ];
 
 export default function MedicareAgentsNearMe() {

@@ -138,6 +138,22 @@ const faqs = [
     answer:
       "Yes. Medigap Plan G does not include prescription drug coverage, so you'll want to enroll in a standalone Part D plan to avoid the late enrollment penalty. We can help you compare Part D options at the same time you enroll in Plan G.",
   }
+,
+  {
+    question: "Can I switch to Plan G from another Medigap plan later?",
+    answer:
+      "You can apply to switch Medigap plans at any time, but outside your Medigap Open Enrollment Period, carriers in most states can use medical underwriting to approve, deny, or price your application. A few states have annual or birthday rules that make switching easier, so it's worth confirming the rules where you live before applying.",
+  },
+  {
+    question: "Do I still need a Part D drug plan if I enroll in Plan G?",
+    answer:
+      "Yes. Medigap Plan G does not include prescription drug coverage, so you'll want a standalone Part D plan to avoid the late enrollment penalty and to cover your medications. We can help you compare Part D options at the same time you enroll in Plan G.",
+  },
+  {
+    question: "Will my Plan G policy renew automatically each year?",
+    answer:
+      "Yes. Medigap policies are guaranteed renewable as long as you pay your premium, meaning the carrier cannot cancel your coverage because of health changes or claims. Your premium can change at renewal, which is why comparing rates before enrolling matters.",
+  }
 ];
 
 export default function CompareAndEnrollInPlanGOnline() {

@@ -9,7 +9,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Medicare Services & Guides | MedicareYourself",
   description:
-    "Compare Medigap, Medicare Advantage & Part D with a licensed independent broker in NJ & 34 states. Free, unbiased plan reviews — call 855-559-1700.",
+    "Compare Medigap, Medicare Advantage & Part D with a licensed independent broker in NJ & 34 states. Free, unbiased plan reviews — call 855-559-1700 today.",
   alternates: { canonical: `${SITE_URL}/services` },
   openGraph: {
     title: "Medicare Services & Guides | MedicareYourself",
@@ -998,6 +998,22 @@ const STATIC_CATEGORIES = [
     answer:
       "Anthony Orner is licensed in New Jersey and 34 additional states, so we can help most beneficiaries nationwide compare and enroll in Medicare plans. If you'd like to confirm licensure in your state before scheduling a review, call 855-559-1700.",
   }
+,
+  {
+    question: "What does a licensed Medicare insurance broker do?",
+    answer:
+      "A licensed broker helps you compare Medigap, Medicare Advantage, and Part D drug plans from multiple carriers so you can choose coverage that fits your doctors, medications, and budget. Brokers are appointed with insurance companies and licensed by each state's department of insurance. At MedicareYourself, the service is free to you — call 855-559-1700 to review your options.",
+  },
+  {
+    question: "Is there a cost to use MedicareYourself for plan comparisons?",
+    answer:
+      "No. There is no fee to compare plans or enroll through a licensed broker. Insurance carriers compensate brokers directly, and your premium is the same whether you enroll through a broker, online, or directly with the carrier. You can also get free help from Medicare by calling 1-800-MEDICARE or contacting your state SHIP program.",
+  },
+  {
+    question: "Can I get help if I live outside New Jersey?",
+    answer:
+      "Yes. Anthony Orner is licensed in New Jersey and 34 additional states, so most U.S. residents can get personalized plan comparisons and enrollment assistance. Call 855-559-1700 to confirm licensure in your state and review available Medigap, Medicare Advantage, and Part D options.",
+  }
 ];
 
 export default function ServicesHubPage() {
@@ -1142,6 +1158,7 @@ export default function ServicesHubPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents: free counseling is available through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-2">New Jersey residents can also get free, unbiased counseling from the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
     </>
   );

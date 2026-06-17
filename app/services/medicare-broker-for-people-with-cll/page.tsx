@@ -299,6 +299,12 @@ const faqs = [
     answer:
       "If your CLL specialist is at a major cancer center, Original Medicare paired with a Medigap plan generally offers the broadest access because most providers nationwide accept Medicare assignment. Medicare Advantage plans rely on networks and may require referrals or prior authorization. Confirm your oncologist's participation before enrolling and call 855-559-1700 if you want help comparing options.",
   }
+,
+  {
+    question: "Are clinical trials for CLL covered by Medicare?",
+    answer:
+      "Medicare covers routine patient care costs in qualifying clinical trials, including doctor visits, lab work, and hospital stays related to the trial. The trial sponsor typically covers the investigational drug itself. This can be important for CLL patients exploring newer targeted therapies or CAR-T options not yet approved as standard care.",
+  }
 ];
 
 export default function MedicareBrokerForPeopleWithCLL() {
@@ -582,6 +588,7 @@ export default function MedicareBrokerForPeopleWithCLL() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </>
   );

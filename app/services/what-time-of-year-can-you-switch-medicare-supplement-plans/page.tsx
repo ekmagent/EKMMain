@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "what time of the year can you switch medicare supplement plans | Free Help from a Licensed Broker | MedicareYourself",
   description:
-    "When can you switch Medicare Supplement plans? Learn Medigap Open Enrollment, guaranteed issue rights & free broker help. Call 855-559-1700 today.",
+    "When can you switch Medicare Supplement plans? Learn Medigap Open Enrollment, guaranteed issue rights & switch free with a licensed broker. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/what-time-of-year-can-you-switch-medicare-supplement-plans" },
   openGraph: {
     title:
@@ -383,6 +383,7 @@ export default function WhatTimeOfYearCanYouSwitchMedigap() {
             <div className="text-sm text-gray-600 mt-4">Need state-specific guidance? Contact the <a href="https://www.state.nj.us/dobi/division_insurance/" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking &amp; Insurance</a> or your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">SHIP program</a> for free counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP program</a> for free Medigap counseling.</div>
             <div className="text-sm text-gray-600 mt-4">For state-specific Medigap switching rules, contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">New Jersey Department of Banking and Insurance</a> or your state's SHIP program.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medigap counseling and state-specific switching rights.</div>
       </section>
     </main>
   );

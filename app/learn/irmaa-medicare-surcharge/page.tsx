@@ -940,6 +940,22 @@ const faqs = [
     answer:
       "The Part B IRMAA surcharge is added to your standard Part B premium and is usually deducted directly from your Social Security check. The Part D IRMAA surcharge is billed separately by Medicare, even if you pay your Part D plan premium to a private insurer. Both are paid to the government, not to your plan.",
   }
+,
+  {
+    question: "How do I appeal IRMAA if my income has dropped?",
+    answer:
+      "You can request a reduction by filing Form SSA-44 with the Social Security Administration if you experienced a qualifying life-changing event, such as retirement, marriage, divorce, or the death of a spouse. Include documentation of the event and proof of your reduced income. SSA reviews the request and, if approved, recalculates your IRMAA based on your current expected income.",
+  },
+  {
+    question: "Will IRMAA go away on its own if my income decreases?",
+    answer:
+      "Yes, IRMAA is recalculated each year using your most recent tax return on file with the IRS. If your income drops below the threshold, your surcharge will be removed automatically the following year. However, if the change is due to a life-changing event, filing Form SSA-44 can speed up the adjustment instead of waiting two years.",
+  },
+  {
+    question: "Do I pay IRMAA directly to my Medicare plan?",
+    answer:
+      "No. The Part B IRMAA surcharge is typically deducted from your Social Security benefit along with your standard premium. The Part D IRMAA is also collected by Social Security or billed by Medicare directly — not paid to your drug plan. Your private Part D plan only receives its standard plan premium.",
+  }
 ];
 
 export default function IrmaaPage() {

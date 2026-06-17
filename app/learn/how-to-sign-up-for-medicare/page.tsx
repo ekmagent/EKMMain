@@ -957,6 +957,22 @@ const faqs = [
     answer:
       "Online applications through SSA.gov typically take about 10 minutes to complete, and Social Security usually processes them within a few weeks. Your red, white, and blue Medicare card arrives by mail shortly after approval. If you apply during the 3 months before your 65th birthday, your coverage will start the month you turn 65.",
   }
+,
+  {
+    question: "Can I sign up for Medicare if I am still working at 65?",
+    answer:
+      "Yes. You can enroll in premium-free Part A at 65 even if you are still working, and many people do since it has no monthly cost for those with enough work credits. If your employer plan is creditable, you may delay Part B without penalty until you stop working. Confirm creditable status with your HR department before delaying.",
+  },
+  {
+    question: "How do I apply for Medicare if I am not taking Social Security yet?",
+    answer:
+      "You apply directly through the Social Security Administration at ssa.gov/medicare, which handles Medicare enrollment. The online application takes about 10 minutes and can be submitted up to 3 months before your 65th birthday month. You can also call Social Security or visit a local office to enroll.",
+  },
+  {
+    question: "What happens if I miss my Initial Enrollment Period?",
+    answer:
+      "If you miss your IEP and do not qualify for a Special Enrollment Period, you must wait for the General Enrollment Period (January 1 – March 31) to sign up for Part B, with coverage starting the month after you enroll. You may also owe a permanent Part B late enrollment penalty that increases your premium for as long as you have Medicare. Call 855-559-1700 if you are unsure which enrollment window applies to you.",
+  }
 ];
 
 export default function HowToSignUpPage() {

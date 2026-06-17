@@ -7,7 +7,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Medicare Education Guides | MedicareYourself",
   description:
-    "Free plain-English Medicare guides from a licensed broker. Learn Parts A-D, Medigap, enrollment periods, and IRMAA. Call 855-559-1700 for personal help.",
+    "Free plain-English Medicare guides from a licensed broker. Learn Parts A-D, Medigap, enrollment, and IRMAA. Call 855-559-1700 for personal help.",
   alternates: { canonical: `${SITE_URL}/learn` },
   openGraph: {
     title: "Medicare Education Guides | MedicareYourself",
@@ -275,6 +275,12 @@ const GUIDES = [
     answer:
       "Medicare.gov's 'Get Started with Medicare' section is the official starting point and explains the parts of Medicare, general costs, and how Original Medicare and Medicare Advantage work. Pairing that with a plain-English broker guide can help the rules click faster. If you'd rather talk it out, call 855-559-1700 for a no-cost conversation with a licensed broker.",
   }
+,
+  {
+    question: "How do I know if I should choose Original Medicare with a Medigap plan or a Medicare Advantage plan?",
+    answer:
+      "It depends on your priorities. Original Medicare with a Medigap policy gives you nationwide access to any provider that accepts Medicare and predictable out-of-pocket costs, while Medicare Advantage plans typically use networks but may include extras like dental or vision. The right choice depends on your doctors, prescriptions, travel needs, and budget. Call 855-559-1700 to walk through your specific situation.",
+  }
 ];
 
 export default function LearnHubPage() {
@@ -377,6 +383,7 @@ export default function LearnHubPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free local Medicare counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free unbiased counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
     </>
   );

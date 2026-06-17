@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Medicare Help on a Fixed Income (2026)",
   description:
-    "Lower your Medicare costs with Extra Help, QMB, SLMB & Medicare Savings Programs. See what you qualify for — free guidance from a licensed broker. Call 855-559-1700.",
+    "Lower Medicare costs with Extra Help, QMB, SLMB & Medicare Savings Programs. See what you qualify for — free guidance from a licensed broker. Call 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/medicare-help-low-income` },
   openGraph: {
     title: "Medicare Help on a Fixed Income (2026)",
@@ -313,6 +313,22 @@ const programs = [
     question: "If I qualify for QMB, do providers have to accept it?",
     answer:
       "Yes. Federal law prohibits Medicare providers from billing QMB enrollees for Medicare cost-sharing, including deductibles, coinsurance, and copayments. If you are billed in error, you should contact the provider, show your QMB card or Medicaid card, and request a refund. You can also report improper billing to 1-800-MEDICARE.",
+  }
+,
+  {
+    question: "How do I apply for a Medicare Savings Program?",
+    answer:
+      "You apply through your state Medicaid office, not through Medicare directly. Even if you're unsure whether you qualify, Medicare recommends applying anyway because income and asset rules vary by state. Once you apply, your state determines which of the four MSPs (QMB, SLMB, QI, or QDWI) you qualify for.",
+  },
+  {
+    question: "Do I have to apply for Extra Help and a Medicare Savings Program separately?",
+    answer:
+      "In most cases, yes. Extra Help is a federal program handled by Social Security, while Medicare Savings Programs are run by your state. However, if you qualify for QMB, SLMB, or QI, you are automatically enrolled in Extra Help for your Part D prescription drug costs.",
+  },
+  {
+    question: "Will applying for these programs affect my Social Security or other benefits?",
+    answer:
+      "No. Qualifying for Extra Help or a Medicare Savings Program does not reduce your Social Security check or affect other federal benefits. In fact, MSPs typically pay your Part B premium, which means the amount normally deducted from your Social Security may stop being withheld.",
   }
 ];
 

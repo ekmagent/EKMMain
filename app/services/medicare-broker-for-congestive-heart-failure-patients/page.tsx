@@ -365,6 +365,12 @@ const faqs = [
     answer:
       "Yes. Medicare Part D plans cover most CHF medications, including ACE inhibitors, beta-blockers, diuretics, and newer heart failure drugs, but coverage and tier placement vary by plan formulary. Reviewing your specific drug list against each plan's formulary is the only way to know your true out-of-pocket cost. Anthony can run that comparison during your free plan review.",
   }
+,
+  {
+    question: "Does Medicare cover heart failure medications under Part D?",
+    answer:
+      "Yes. Most CHF medications, including ACE inhibitors, beta blockers, diuretics, and SGLT2 inhibitors, are covered under Medicare Part D prescription drug plans. Coverage and copays vary by plan formulary, so it's important to check that your specific medications are on your plan's drug list before enrolling.",
+  }
 ];
 
 export default function MedicareBrokerCHFPage() {
@@ -602,6 +608,7 @@ export default function MedicareBrokerCHFPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free Medicare counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" target="_blank" rel="noopener noreferrer" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

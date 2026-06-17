@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare enrollment help for people with diabetes texas | Free Guidance | MedicareYourself",
   description:
-    "Texas Medicare help for diabetics — compare plans covering insulin, CGMs, pumps & supplies. Call 855-559-1700 for free licensed broker guidance today.",
+    "Texas Medicare help for diabetics — compare plans covering insulin, CGMs, pumps & test supplies. Call 855-559-1700 for free licensed broker guidance.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-enrollment-help-for-people-with-diabetes-texas" },
   openGraph: {
     title:
@@ -116,6 +116,12 @@ const faqs = [
     question: "When should a Texan with diabetes enroll in Medicare?",
     answer:
       "Most Texans should enroll during their 7-month Initial Enrollment Period around their 65th birthday to avoid late penalties and lock in Medigap guaranteed-issue rights. If you have diabetes, enrolling in a Medigap plan during your Medigap Open Enrollment Period is especially important since insurers cannot underwrite based on your condition. Call 855-559-1700 to review your timing.",
+  }
+,
+  {
+    question: "Are diabetes self-management training classes covered by Medicare in Texas?",
+    answer:
+      "Yes. Medicare Part B covers diabetes self-management training (DSMT) for beneficiaries recently diagnosed with diabetes or at risk for complications. A doctor must order the training, and it must be provided by an accredited program. After meeting the Part B deductible, you typically pay 20% of the Medicare-approved amount.",
   }
 ];
 
@@ -369,6 +375,7 @@ export default function MedicareEnrollmentHelpDiabetesTexas() {
             <div className="text-sm text-gray-600 mt-4">Texas help: <a href="https://www.hhs.texas.gov/services/health/medicare" rel="noopener noreferrer" target="_blank" className="underline">Texas Health and Human Services — Medicare</a> (includes the state's HICAP/SHIP counseling program for free, unbiased Medicare guidance).</div>
             <div className="text-sm text-gray-600 mt-4">Texas help: <a href="https://www.hhs.texas.gov/services/health/medicare" rel="noopener noreferrer" target="_blank" className="underline">Texas Health and Human Services — Medicare</a> for state-administered assistance programs and SHIP counseling.</div>
             <div className="text-sm text-gray-600 mt-4">Texas help: <a href="https://www.hhs.texas.gov/services/health/medicare" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">Texas Health and Human Services — Medicare</a> for state assistance program eligibility.</div>
+            <div className="text-sm text-gray-600 mt-4">Texas resource: <a href="https://www.hhs.texas.gov/services/health/medicare" rel="noopener noreferrer" target="_blank" className="underline">Texas Health and Human Services — Medicare</a></div>
       </section>
     </main>
   );

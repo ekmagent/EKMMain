@@ -1073,6 +1073,22 @@ const steps = [
     answer:
       "SSA will review your application and may contact you if additional documentation is needed. Once approved, your Medicare card will be mailed to the address on file, typically within a few weeks. You can also check application status by signing back in to your my Social Security account.",
   }
+,
+  {
+    question: "Can I apply for Medicare online if I'm not ready to start Social Security retirement benefits?",
+    answer:
+      "Yes. The SSA online application lets you apply for Medicare only without filing for retirement benefits. During the application, you'll be asked whether you want to apply for Medicare only, which keeps your retirement benefits available to start at a later date.",
+  },
+  {
+    question: "What documents do I need before starting the SSA online Medicare application?",
+    answer:
+      "You'll need your Social Security number, a valid driver's license or state ID for identity verification through Login.gov or ID.me, and details about any current health coverage. If you've worked for an employer providing group health insurance, have the employer name and coverage dates ready.",
+  },
+  {
+    question: "Can I change my application after submitting it on SSA.gov?",
+    answer:
+      "No. Once you agree to the Electronic Signature Agreement and click Submit Now, the application is final and cannot be modified online. If you need to make a correction, you'll have to contact the Social Security Administration directly by phone or at your local SSA office.",
+  }
 ];
 
 export default function SSAOnlineEnrollmentWalkthrough() {

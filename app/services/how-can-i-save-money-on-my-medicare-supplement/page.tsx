@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "how can i save money on my medicare supplement | Free Rate Review | MedicareYourself",
   description:
-    "Save on your Medicare Supplement: compare carriers, stack discounts, and review plan letters. Call 855-559-1700 for a free, no-obligation rate review.",
+    "How to save on your Medicare Supplement: compare carriers, stack discounts, and review plan letters. Call 855-559-1700 for a free rate review.",
   alternates: { canonical: "https://medicareyourself.com/services/how-can-i-save-money-on-my-medicare-supplement" },
   openGraph: {
     title:
@@ -397,6 +397,7 @@ export default function HowCanISaveMoneyOnMyMedicareSupplement() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Need free, unbiased local help? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a> for one-on-one Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">Need free one-on-one help in your state? Contact your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a> for unbiased Medicare counseling.</div>
       </section>
     </main>
   );

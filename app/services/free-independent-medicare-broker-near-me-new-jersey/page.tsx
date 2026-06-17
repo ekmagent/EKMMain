@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "free independent medicare broker near me new jersey | Free Quote | MedicareYourself",
   description:
-    "Work with a free independent Medicare broker in New Jersey. Anthony Orner compares Medigap & Advantage plans. Call 855-559-1700 for a free quote.",
+    "Compare NJ Medigap & Medicare Advantage plans with a free independent broker. Anthony Orner helps you choose with no fees. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/free-independent-medicare-broker-near-me-new-jersey" },
   openGraph: {
     title:
@@ -462,6 +462,7 @@ export default function FreeIndependentMedicareBrokerNearMeNewJersey() {
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

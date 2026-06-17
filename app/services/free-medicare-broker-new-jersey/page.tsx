@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "free medicare broker new jersey | No Fees, No Obligation | MedicareYourself",
   description:
-    "Free New Jersey Medicare broker — compare Medigap, Advantage, and Part D across top carriers with zero fees or pressure. Call 855-559-1700 for unbiased help.",
+    "Free New Jersey Medicare broker — compare Medigap, Advantage & Part D across top carriers with zero fees. Call 855-559-1700 for unbiased, no-pressure help.",
   alternates: { canonical: "https://medicareyourself.com/services/free-medicare-broker-new-jersey" },
   openGraph: {
     title:
@@ -233,6 +233,22 @@ const faqs = [
     question: "What information should I have ready before calling a Medicare broker?",
     answer:
       "It helps to have your Medicare card (or expected Part A and Part B effective dates), a list of your current medications with dosages, and the names of any doctors or hospitals you want to keep. With that information, a broker can quickly narrow plan options that fit your needs.",
+  }
+,
+  {
+    question: "When is the best time to enroll in a Medigap plan in New Jersey?",
+    answer:
+      "The best time is during your 6-month Medigap Open Enrollment Period, which begins the month you're 65 or older and enrolled in Part B. During this window, you have guaranteed issue rights and cannot be denied coverage or charged more due to health conditions. A broker can help you compare carriers before this window closes.",
+  },
+  {
+    question: "Does a New Jersey Medicare broker also help with Part D drug plans?",
+    answer:
+      "Yes. A licensed independent broker can run your prescription list against every Part D plan available in your New Jersey county to find the lowest total annual cost. This includes standalone Part D plans for those keeping Original Medicare plus Medigap, as well as Medicare Advantage plans that include drug coverage.",
+  },
+  {
+    question: "How do I get started with a free Medicare consultation?",
+    answer:
+      "Call 855-559-1700 to speak directly with Anthony Orner. There's no cost, no pressure, and no obligation to enroll. You'll get a clear side-by-side comparison of the Medicare options available in your New Jersey ZIP code.",
   }
 ];
 
@@ -469,6 +485,7 @@ export default function FreeMedicareBrokerNewJersey() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.nj.gov/humanservices/doas/services/q-z/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">For free, unbiased counseling, contact the <a href="https://www.nj.gov/humanservices/doas/services/q-z/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">New Jersey State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased Medicare counseling through the <a href="https://www.nj.gov/humanservices/doas/services/q-z/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
       </article>
     </>

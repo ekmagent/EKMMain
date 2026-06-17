@@ -148,6 +148,12 @@ const faqs = [
     answer:
       "Yes. Any agent or broker selling Medicare plans in Newark must hold an active New Jersey resident or non-resident insurance license through the NJ Department of Banking and Insurance. Anthony Orner is licensed in New Jersey and 34 additional states, with NPI 1902584006 on file with CMS.",
   }
+,
+  {
+    question: "Is a Newark Medicare agent the same as calling 1-800-MEDICARE?",
+    answer:
+      "No. 1-800-MEDICARE is a general government helpline that can answer basic questions about Original Medicare. A licensed local broker like me can actually compare specific Medigap and Medicare Advantage plans available in Essex County and help you enroll in the one that fits.",
+  }
 ];
 
 export default function FindMedicareAgentNewarkNJ() {
