@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Plan G Rates for a 68-Year-Old in New Jersey | Free Carrier Comparison | MedicareYourself",
   description:
-    "Compare Plan G rates for a 68-year-old in New Jersey across top carriers—same coverage, different premiums. Call 855-559-1700 for a free NJ quote.",
+    "Compare Plan G rates for a 68-year-old in New Jersey across top carriers—same coverage, big premium gaps. Call 855-559-1700 for a free NJ quote.",
   alternates: { canonical: "https://medicareyourself.com/services/plan-g-rates-for-68-year-old-in-new-jersey" },
   openGraph: {
     title:
@@ -159,6 +159,17 @@ const faqs = [
     question: "How do I get a free Plan G rate comparison for New Jersey?",
     answer:
       "Call Anthony Orner at 855-559-1700 for a side-by-side comparison of Plan G premiums from top-rated carriers available in New Jersey. There is no cost or obligation, and the same plan letter covers identical benefits — so the goal is finding the lowest premium with strong rate stability.",
+  }
+,
+  {
+    question: "When can a 68-year-old in NJ enroll in Plan G without health questions?",
+    answer:
+      "The Medigap Open Enrollment Period is a one-time 6-month window that begins when you're 65 or older and enrolled in Medicare Part B. During this window, any Medigap plan, including Plan G, is guaranteed issue. Outside of it, you may need to answer health questions unless a federal guaranteed issue right applies.",
+  },
+  {
+    question: "Does the Plan G benefit package change between carriers in New Jersey?",
+    answer:
+      "No. Medigap plans are standardized by the federal government, so Plan G's benefits are identical no matter which insurance company sells it in New Jersey. The only meaningful differences between carriers are the monthly premium, the company's rate history, and customer service. That's why comparing carriers side-by-side matters.",
   }
 ];
 
@@ -447,6 +458,7 @@ export default function PlanGRates68NJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> offers free, unbiased Medicare counseling.</div>
       </section>
       </article>
     </>

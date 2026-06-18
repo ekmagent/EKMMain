@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "how can i save money on my medicare supplement | Free Rate Review | MedicareYourself",
   description:
-    "How to save on your Medicare Supplement: compare carriers, stack discounts, and review plan letters. Call 855-559-1700 for a free rate review.",
+    "Save money on your Medicare Supplement by comparing carriers, stacking discounts, and reviewing plan letters. Call 855-559-1700 for a free rate review.",
   alternates: { canonical: "https://medicareyourself.com/services/how-can-i-save-money-on-my-medicare-supplement" },
   openGraph: {
     title:
@@ -146,6 +146,12 @@ const faqs = [
     question: "Are there state programs that can help me afford Medicare costs?",
     answer:
       "Yes. Medicare Savings Programs administered by your state can help pay Part B premiums, deductibles, and coinsurance if you meet income and resource limits. You can also explore Supplemental Security Income through Social Security and your state's SHIP program for free counseling. Call 855-559-1700 and we'll point you to the right resources.",
+  }
+,
+  {
+    question: "Are there government programs that can help me pay my Medicare costs?",
+    answer:
+      "Yes. Medicare Savings Programs run by your state can help pay Part B premiums and other out-of-pocket costs if you qualify based on income and resources. Supplemental Security Income through Social Security may also help certain people with limited incomes. You can learn more at medicare.gov/basics/costs/help or call us at 855-559-1700 for guidance.",
   }
 ];
 

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title:
     "How to Enroll in Medicare Online at SSA.gov (Step-by-Step Walkthrough)",
   description:
-    "Step-by-step SSA.gov Medicare enrollment walkthrough — apply for Part A & B online in about 10 minutes. Free licensed broker help at 855-559-1700.",
+    "Step-by-step SSA.gov Medicare enrollment walkthrough — sign up for Part A & B online in about 10 minutes. Free licensed broker help at 855-559-1700.",
   alternates: {
     canonical: `${SITE_URL}/learn/ssa-online-enrollment-walkthrough`,
   },
@@ -1088,6 +1088,22 @@ const steps = [
     question: "Can I change my application after submitting it on SSA.gov?",
     answer:
       "No. Once you agree to the Electronic Signature Agreement and click Submit Now, the application is final and cannot be modified online. If you need to make a correction, you'll have to contact the Social Security Administration directly by phone or at your local SSA office.",
+  }
+,
+  {
+    question: "How long does it take to enroll in Medicare online through SSA.gov?",
+    answer:
+      "Most people complete the SSA online Medicare application in about 10 minutes. You'll need your Social Security number and a government-issued ID for identity verification through Login.gov or ID.me. Having your current health insurance information handy will also speed things up.",
+  },
+  {
+    question: "Can I sign up for just Medicare without starting my Social Security retirement benefits?",
+    answer:
+      "Yes. During the SSA online application, you'll be asked if you want to apply for Medicare only without claiming retirement benefits. This lets you enroll in Part A and Part B while delaying your Social Security check to a later age.",
+  },
+  {
+    question: "Can I make changes after I submit my Medicare application on SSA.gov?",
+    answer:
+      "No. Once you click Submit Now and agree to the Electronic Signature Agreement, you cannot modify the application online. If you need to correct something, you'll have to contact Social Security directly. Call us at 855-559-1700 if you'd like a licensed broker to review your situation before you submit.",
   }
 ];
 

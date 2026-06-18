@@ -110,6 +110,12 @@ const faqs = [
     answer:
       "Ask which carriers they represent, how they're compensated, and whether they're independent or captive. Confirm they're licensed in your state and request their National Producer Number. Also ask about ongoing service — will they help with claims, plan reviews, or questions after enrollment?",
   }
+,
+  {
+    question: "What questions should I ask a Medicare agent before enrolling?",
+    answer:
+      "Ask which carriers they are contracted with, whether they are independent or captive, and how they get paid. You should also ask about their National Producer Number, whether your preferred doctors and prescriptions are covered under the recommended plan, and what kind of support they provide after enrollment. A trustworthy agent will answer all of these openly.",
+  }
 ];
 
 export default function MedicareAgentsNearMe() {

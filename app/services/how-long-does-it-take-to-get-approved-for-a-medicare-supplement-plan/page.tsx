@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "how long does it take to get approved for a medicare supplement plan | Free Timeline Guide | MedicareYourself",
   description:
-    "How long does Medicare Supplement approval take? Most Medigap applications clear in 1–3 weeks. Call 855-559-1700 for a free timeline review and faster setup.",
+    "Wondering how long Medicare Supplement approval takes? Most Medigap applications clear in 1–3 weeks. Call 855-559-1700 for a free timeline review.",
   alternates: { canonical: "https://medicareyourself.com/services/how-long-does-it-take-to-get-approved-for-a-medicare-supplement-plan" },
   openGraph: {
     title:
@@ -309,6 +309,7 @@ export default function HowLongMedigapApproval() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medigap counseling. Call 855-559-1700 for personalized help.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> or contact the <a href="https://www.nj.gov/dobi/" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Need state-level help? Contact the <a href="https://www.state.nj.us/dobi/index.shtml" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> or your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">SHIP counselor</a> for free Medigap guidance.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased help from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> when reviewing Medigap timing and options.</div>
       </section>
     </main>
   );

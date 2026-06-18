@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "free independent medicare broker near me new jersey | Free Quote | MedicareYourself",
   description:
-    "Compare NJ Medigap & Medicare Advantage plans with a free independent broker. Anthony Orner helps you choose with no fees. Call 855-559-1700 today.",
+    "Work with a free independent Medicare broker in New Jersey. Anthony Orner compares Medigap & Advantage plans from top carriers at no cost. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/free-independent-medicare-broker-near-me-new-jersey" },
   openGraph: {
     title:
@@ -264,6 +264,22 @@ const faqs = [
     answer:
       "No. Independent brokers are compensated by the insurance carriers, so working with one does not add to your premium. You pay the same rate whether you enroll on your own or through a licensed broker like Anthony Orner.",
   }
+,
+  {
+    question: "Does New Jersey use community rating for Medigap?",
+    answer:
+      "Yes. New Jersey is a community-rated state, meaning Medigap premiums for a given plan are not based on your individual age. Every enrollee in that plan with the same carrier generally pays the same base premium, though carriers can still differ in price.",
+  },
+  {
+    question: "When can I enroll in a Medigap plan in New Jersey?",
+    answer:
+      "Your strongest enrollment window is the 6-month Medigap Open Enrollment Period that begins when you are 65 or older and enrolled in Part B. During this window you have guaranteed issue rights with no medical underwriting. Outside this window, you may need to answer health questions to qualify.",
+  },
+  {
+    question: "What does an independent broker do during a free consultation?",
+    answer:
+      "An independent broker reviews your doctors, prescriptions, budget, and travel needs, then compares Medigap, Medicare Advantage, and Part D options from multiple carriers. There is no fee for the consultation, and you are never obligated to enroll.",
+  }
 ];
 
 export default function FreeIndependentMedicareBrokerNearMeNewJersey() {
@@ -463,6 +479,7 @@ export default function FreeIndependentMedicareBrokerNearMeNewJersey() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-700 underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </main>
   );

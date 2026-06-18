@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "when can i change my medicare supplement plan for 2026 | Free Switching Help | MedicareYourself",
   description:
-    "When can I change my Medicare Supplement plan for 2026? Learn switch windows, guaranteed-issue rights & underwriting. Call 855-559-1700 for free broker help.",
+    "When can I change my Medicare Supplement plan for 2026? Learn switch windows, guaranteed-issue rights & underwriting rules. Call 855-559-1700 for free broker help.",
   alternates: { canonical: "https://medicareyourself.com/services/when-can-i-change-my-medicare-supplement-plan-for-2026" },
   openGraph: {
     title:
@@ -390,6 +390,22 @@ const faqs = [
     answer:
       "Yes. When you buy a new Medigap policy, you have a 30-day free-look period to decide whether to keep it. During this window you'll need to pay premiums on both the old and new policy, but you can cancel the new one if it isn't a good fit. Call 855-559-1700 and we'll walk you through the timing so you're never without coverage.",
   }
+,
+  {
+    question: "Do I have a 30-day free look period if I switch Medigap policies?",
+    answer:
+      "Yes. When you buy a new Medigap policy, you have a 30-day free look period to decide whether to keep it. During this window you'll pay premiums on both your old and new policies, but you can cancel the new policy and stay with the old one if you change your mind.",
+  },
+  {
+    question: "Will I have to answer health questions if I switch Medigap plans in 2026?",
+    answer:
+      "In most cases, yes. Outside of your 6-month Medigap Open Enrollment Period or a federal guaranteed-issue situation, carriers can use medical underwriting and may deny coverage or charge more based on your health history. Some states offer broader switching rights, so it's worth checking with your state insurance department.",
+  },
+  {
+    question: "Can I drop my Medigap policy and go back to Original Medicare alone?",
+    answer:
+      "Yes, you can drop a Medigap policy at any time by contacting your insurance company. However, if you later want to buy a Medigap policy again, you may face underwriting unless you qualify for a guaranteed-issue right. Talk with a broker before dropping coverage to understand the long-term implications.",
+  }
 ];
 
 export default function WhenCanIChangeMyMedicareSupplementPlanFor2026() {
@@ -621,6 +637,7 @@ export default function WhenCanIChangeMyMedicareSupplementPlanFor2026() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.html" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medigap counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/ship.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medigap counseling.</div>
       </section>
     </main>
   );

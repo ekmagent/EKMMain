@@ -262,6 +262,12 @@ const faqs = [
     answer:
       "Yes. Medigap benefits are standardized by federal law, so Plan G from one carrier provides the exact same coverage as Plan G from another. The only differences between carriers are price, customer service, and financial stability — which is why comparing rates side by side matters so much.",
   }
+,
+  {
+    question: "Why do Plan G premiums vary so much between carriers in New Jersey?",
+    answer:
+      "Every Medigap Plan G covers the exact same federally standardized benefits, no matter which carrier sells it. The only real difference between companies is price, which is why shopping multiple carriers in New Jersey can lead to meaningful savings on the same coverage.",
+  }
 ];
 
 export default function PlanGRates70NJ() {
@@ -525,6 +531,7 @@ export default function PlanGRates70NJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey resource: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> offers free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <p className="text-sm text-gray-600 mt-2">New Jersey residents can also contact <a href="https://www.state.nj.us/dobi/index.shtml" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP program</a> for free counseling.</p>
+            <div className="text-sm text-gray-600 mt-4">For state-specific help, contact the <a href="https://www.state.nj.us/dobi/index.html" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> or the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
       </article>
     </>

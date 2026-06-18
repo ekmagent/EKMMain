@@ -111,6 +111,12 @@ const faqs = [
     answer:
       "Plans can change their formularies, but you typically must wait for Annual Enrollment (Oct 15 – Dec 7) or a Special Enrollment Period to switch. In the meantime, you can request a formulary exception or appeal. I help clients document medical necessity and time plan changes around their treatment needs.",
   }
+,
+  {
+    question: "When can I switch Part D plans if my inhaler is no longer covered?",
+    answer:
+      "You can change Part D plans during the Annual Enrollment Period from October 15 to December 7, with coverage starting January 1. If you have a Medicare Advantage plan, the Medicare Advantage Open Enrollment Period from January 1 to March 31 also lets you switch. Certain Special Enrollment Periods may apply if you move or lose other coverage.",
+  }
 ];
 
 export default function MedicareBrokerForAsthmaSufferers() {

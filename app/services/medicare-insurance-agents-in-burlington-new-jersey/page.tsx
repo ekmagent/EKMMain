@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare insurance agents in burlington new jersey | Free Local Help | MedicareYourself",
   description:
-    "Compare Medigap, Medicare Advantage & Part D plans in Burlington, NJ with a licensed independent broker. Free, unbiased help — call 855-559-1700 today.",
+    "Talk with a licensed independent Medicare broker serving Burlington County, NJ. Compare Medigap, Advantage & Part D plans free — call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-insurance-agents-in-burlington-new-jersey" },
   openGraph: {
     title:
@@ -327,6 +327,22 @@ const faqs = [
     question: "What's the difference between Medigap and Medicare Advantage?",
     answer:
       "Medigap (Medicare Supplement) works alongside Original Medicare to help cover out-of-pocket costs like coinsurance and deductibles, and it lets you see any provider that accepts Medicare. Medicare Advantage replaces Original Medicare with a private plan that often includes Part D and extras, but typically uses provider networks. A broker can walk you through the tradeoffs based on your doctors and prescriptions.",
+  }
+,
+  {
+    question: "Does a Medicare broker in Burlington, NJ serve the whole county?",
+    answer:
+      "Yes. A licensed independent broker can help residents across Burlington County, including Mount Laurel, Willingboro, Moorestown, Evesham, and Bordentown. Meetings can be done by phone, video, or in person depending on your preference.",
+  },
+  {
+    question: "When can I enroll in a Medigap plan in New Jersey?",
+    answer:
+      "Your strongest window is the 6-month Medigap Open Enrollment Period that begins when you are 65 or older and enrolled in Part B. During this period, insurers must issue you a policy regardless of health history. Outside that window, medical underwriting may apply in most situations.",
+  },
+  {
+    question: "How does New Jersey rate Medigap premiums?",
+    answer:
+      "New Jersey uses community rating for Medigap, which means premiums for a given plan are generally not based on your individual age. Carriers still set their own rates, so comparing multiple companies is important to find the best value.",
   }
 ];
 

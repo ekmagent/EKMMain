@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare part d insurance brokers 18517 | Free Plan Comparison | MedicareYourself",
   description:
-    "Compare every Medicare Part D drug plan in 18517 with licensed broker Anthony Orner. Free Rx cost review — call 855-559-1700 to find your lowest total cost.",
+    "Compare every Medicare Part D drug plan in 18517 with licensed broker Anthony Orner. Free Rx cost review — call 855-559-1700 to lower your total drug spend.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-part-d-insurance-brokers-18517" },
   openGraph: {
     title:
@@ -150,6 +150,22 @@ const faqs = [
     question: "What if my prescriptions change after I enroll in a Part D plan?",
     answer:
       "You generally stay in your chosen plan until the next Annual Enrollment Period (October 15 – December 7), unless a Special Enrollment Period applies. If a new medication makes your current plan expensive, a broker can re-run the Plan Finder during open enrollment to switch you to a lower-cost option for the following year.",
+  }
+,
+  {
+    question: "What does Medicare Part D cover for residents near 18517?",
+    answer:
+      "Medicare Part D covers outpatient prescription drugs through private plans approved by Medicare. Each plan has its own formulary, preferred pharmacy network, and cost-sharing structure. Coverage includes most brand-name and generic medications, though the specific drugs covered vary by plan.",
+  },
+  {
+    question: "Can I get Extra Help paying for my Part D plan?",
+    answer:
+      "Yes. The Extra Help program (also called the Low-Income Subsidy) helps eligible beneficiaries pay Part D premiums, deductibles, and copays. Eligibility is based on income and resources, and you can apply through the Social Security Administration. A broker can help you determine if you may qualify before enrolling.",
+  },
+  {
+    question: "How do I get started with a Part D review in 18517?",
+    answer:
+      "Call 855-559-1700 to schedule a free Part D review with licensed broker Anthony Orner. Have your prescription list, dosages, and preferred pharmacy ready. The review compares every Part D plan available in your zip code so you can see total projected annual cost before enrolling.",
   }
 ];
 
@@ -378,6 +394,7 @@ export default function MedicarePartDBrokers18517() {
             <div className="text-sm text-gray-600 mt-4">Pennsylvania residents in 18517 can also contact <a href="https://www.aging.pa.gov/aging-services/insurance/Pages/default.aspx" rel="noopener noreferrer" target="_blank" className="underline">PA APPRISE</a>, the state's free SHIP Medicare counseling program.</div>
             <div className="text-sm text-gray-600 mt-4">Pennsylvania residents in 18517 can get free local counseling from <a href="https://www.aging.pa.gov/aging-services/pages/apprise.aspx" rel="noopener noreferrer" target="_blank" className="underline">APPRISE, the PA State Health Insurance Assistance Program</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Pennsylvania residents in 18517 can also contact <a href="https://www.aging.pa.gov/aging-services/Pages/APPRISE.aspx" rel="noopener noreferrer" target="_blank" className="underline">PA APPRISE (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">Free local counseling: <a href="https://www.insurance.pa.gov/Coverage/Pages/Medicare.aspx" rel="noopener noreferrer" target="_blank" className="underline">Pennsylvania Insurance Department — Medicare</a> and the <a href="https://www.aging.pa.gov/aging-services/pace/Pages/APPRISE.aspx" rel="noopener noreferrer" target="_blank" className="underline">PA APPRISE SHIP program</a>.</div>
       </section>
     </>
   );

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "average cost of supplemental health insurance for seniors with medicare | Free Broker Comparison | MedicareYourself",
   description:
-    "Compare average Medigap costs for seniors in 2026 by plan, age, and state. A licensed broker shops carriers to lock your lowest rate — call 855-559-1700.",
+    "Compare average Medigap costs for seniors by plan, age, and state. A licensed broker shops carriers to lock your lowest rate — call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/average-cost-of-supplemental-health-insurance-for-seniors-with-medicare" },
   openGraph: {
     title:
@@ -690,6 +690,22 @@ const faqs = [
     answer:
       "Yes. Medicare.gov confirms that Medigap premiums vary widely based on where you live, in addition to the insurance company and the plan letter you choose. Two neighboring zip codes can have different rates with the same carrier because insurers price based on local claims experience and state regulations.",
   }
+,
+  {
+    question: "Do Medigap premiums increase as I get older?",
+    answer:
+      "It depends on how the insurance company prices the plan. Attained-age-rated policies increase as you age, issue-age-rated policies are based on your age when you buy, and community-rated policies charge the same regardless of age. All three can still rise over time due to inflation and claims experience, which is why comparing pricing methods matters.",
+  },
+  {
+    question: "Does the plan letter or the insurance company matter more for cost?",
+    answer:
+      "Both matter, but the carrier often matters more once you've chosen a plan letter. Every lettered Medigap plan offers identical benefits regardless of which company sells it, so the only real difference between two Plan G policies in your zip code is the premium. A licensed broker can shop multiple carriers to find the lowest rate for the exact same coverage.",
+  },
+  {
+    question: "Can a broker help me lower my supplemental insurance cost?",
+    answer:
+      "Yes. A licensed broker compares premiums across multiple carriers offering the same lettered plan, so you pay the lowest available rate for identical benefits. There's no cost to you for using a broker, and we can also review your plan annually to make sure you're still on the most competitive rate. Call 855-559-1700 to compare.",
+  }
 ];
 
 export default function AverageCostSupplementalInsurancePage() {
@@ -926,6 +942,7 @@ export default function AverageCostSupplementalInsurancePage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can compare rates and file complaints through the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> or get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">For state-specific rate help, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free local Medicare counseling.</div>
       </section>
     </main>
   );

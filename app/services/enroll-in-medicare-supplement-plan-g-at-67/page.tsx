@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Enroll in Medicare Supplement Plan G at 67 | Free Rate Quote | MedicareYourself",
   description:
-    "Enrolling in Medicare Supplement Plan G at 67? Learn underwriting rules, guaranteed issue rights, and lock in a fair rate. Call 855-559-1700 for a free quote.",
+    "Enroll in Medicare Supplement Plan G at 67 — understand underwriting, guaranteed issue rights, and lock in a fair rate. Call 855-559-1700 for a free quote.",
   alternates: { canonical: "https://medicareyourself.com/services/enroll-in-medicare-supplement-plan-g-at-67" },
   openGraph: {
     title:

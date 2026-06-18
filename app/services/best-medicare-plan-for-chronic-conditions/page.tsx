@@ -124,6 +124,22 @@ const faqs = [
     answer:
       "Yes. According to Medicare.gov, Special Needs Plans include care coordination services and tailor their benefits, provider networks, and drug formularies to the specific group they serve. For chronic condition SNPs, this often means dedicated care managers and condition-specific resources, but you'll still need to stay in-network and follow plan rules to get the coordination benefits.",
   }
+,
+  {
+    question: "Are Medicare Advantage plans or Medigap better for managing multiple chronic conditions?",
+    answer:
+      "Medigap paired with Original Medicare typically works better for people managing multiple chronic conditions because you can see any provider nationwide that accepts Medicare without referrals or network restrictions. Medicare Advantage plans, including C-SNPs, use HMO or PPO networks and may require prior authorization for specialists, imaging, and procedures. A licensed broker can compare both options based on your specific doctors and medications.",
+  },
+  {
+    question: "Can I switch from a Medicare Advantage plan to Medigap if my chronic condition worsens?",
+    answer:
+      "You can switch during the Annual Enrollment Period or Medicare Advantage Open Enrollment Period, but Medigap carriers can use medical underwriting outside your initial Medigap Open Enrollment Period in most states. That means approval and pricing may depend on your health status. Some states have additional protections, so call to review your guaranteed issue rights before making a change.",
+  },
+  {
+    question: "Does Medicare cover care coordination for chronic conditions?",
+    answer:
+      "Yes. Original Medicare covers Chronic Care Management services through Part B for people with two or more chronic conditions expected to last at least 12 months. Medicare Advantage Special Needs Plans also include care coordination tailored to the specific condition the plan serves, such as diabetes or cardiovascular disease.",
+  }
 ];
 
 export default function BestMedicarePlanForChronicConditions() {

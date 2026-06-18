@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare enrollment help for people with lupus california | Free Guidance | MedicareYourself",
   description:
-    "Medicare help for Californians with lupus—compare plans covering rheumatologists, biologics & infusions. Free licensed broker guidance. Call 855-559-1700.",
+    "Californians with lupus: compare Medicare plans covering rheumatologists, biologics & infusions. Free licensed broker help—call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-enrollment-help-for-people-with-lupus-california" },
   openGraph: {
     title:
@@ -252,6 +252,22 @@ const faqs = [
     question: "Does Original Medicare or Medicare Advantage work better for lupus patients?",
     answer:
       "It depends on your providers, medications, and budget. Original Medicare with a Medigap plan offers broader provider access nationwide, which can help if you see specialized lupus centers. Medicare Advantage plans may offer lower upfront costs but use networks and prior authorization. A licensed broker can compare both based on your specific care team.",
+  }
+,
+  {
+    question: "Will a Medicare Advantage plan in California cover my current rheumatologist?",
+    answer:
+      "Medicare Advantage plans use provider networks, so coverage depends on whether your rheumatologist is in-network. Before enrolling, it's important to verify your specialist participates in the plan. A licensed broker can check this for you at no cost—call 855-559-1700.",
+  },
+  {
+    question: "Does Medicare Part D cover oral lupus medications like hydroxychloroquine?",
+    answer:
+      "Yes, Medicare Part D plans typically cover commonly prescribed oral lupus medications, though formularies vary by plan. Your share of the cost depends on the drug's tier and your plan's structure. Reviewing each plan's formulary against your prescription list is essential before enrolling.",
+  },
+  {
+    question: "Can I switch Medicare plans if my lupus treatment changes mid-year?",
+    answer:
+      "Generally, you can switch plans during the Annual Enrollment Period (October 15–December 7) or the Medicare Advantage Open Enrollment Period (January 1–March 31). Certain life events may also trigger a Special Enrollment Period. A broker can review whether your situation qualifies.",
   }
 ];
 
@@ -522,6 +538,7 @@ export default function MedicareEnrollmentHelpLupusCalifornia() {
             <div className="text-sm text-gray-600 mt-4">California residents can get free, unbiased Medicare counseling through <a href="https://www.aging.ca.gov/HICAP/" rel="noopener noreferrer" target="_blank" className="underline">California HICAP (Health Insurance Counseling and Advocacy Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">California residents can get free local Medicare counseling through <a href="https://cahealthadvocates.org/hicap/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">California HICAP</a> or contact the <a href="https://www.insurance.ca.gov/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">California Department of Insurance</a>.</div>
             <div className="text-sm text-gray-600 mt-4">California residents can get free, unbiased Medicare counseling from <a href="https://aging.ca.gov/Programs_and_Services/Medicare_Counseling/" rel="noopener noreferrer" target="_blank" className="underline">California HICAP (Health Insurance Counseling and Advocacy Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">California residents can get free local Medicare counseling through <a href="https://www.aging.ca.gov/HICAP/" rel="noopener noreferrer" target="_blank" className="underline">California's Health Insurance Counseling and Advocacy Program (HICAP)</a>.</div>
       </section>
     </main>
   );

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for chronic pain patients | Free Coverage Consultation | MedicareYourself",
   description:
-    "Medicare broker for chronic pain patients: Anthony Orner compares plans covering pain management, PT, and injections. Free review — call 855-559-1700.",
+    "Living with chronic pain? Anthony Orner compares Medicare plans covering pain management, PT, and injections. Free plan review — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-chronic-pain-patients" },
   openGraph: {
     title:
@@ -130,6 +130,22 @@ const faqs = [
     question: "Can I switch Medicare plans if my chronic pain treatment changes?",
     answer:
       "You can change Medicare Advantage or Part D plans during the Annual Enrollment Period each fall, and during the Medicare Advantage Open Enrollment Period in early spring. Switching to a Medigap plan outside your initial enrollment window may require medical underwriting, which can affect approval for people with chronic conditions. A broker can explain which switches are guaranteed-issue in your state.",
+  }
+,
+  {
+    question: "Does Medicare cover physical therapy for chronic pain?",
+    answer:
+      "Yes. Medicare Part B covers medically necessary outpatient physical therapy when prescribed by your doctor as part of a treatment plan. There is no longer a hard cap on therapy visits, but your provider must document that ongoing therapy is medically necessary. After the Part B deductible, you pay the standard Part B coinsurance.",
+  },
+  {
+    question: "Are epidural injections and nerve blocks covered by Medicare?",
+    answer:
+      "Medicare Part B generally covers epidural steroid injections, nerve blocks, and similar interventional pain procedures when they are medically necessary and ordered by your physician. Coverage and prior authorization rules can vary between Original Medicare and Medicare Advantage plans, so it's important to confirm with your specific plan before scheduling.",
+  },
+  {
+    question: "Can a Medicare broker help me keep my current pain specialist?",
+    answer:
+      "Yes. Before recommending any plan, a broker should verify whether your pain management specialist, physical therapist, and pharmacy accept the plan. With Original Medicare plus Medigap, any provider that accepts Medicare is in-network, which often gives chronic pain patients more flexibility than narrow Advantage networks.",
   }
 ];
 
@@ -427,6 +443,7 @@ export default function MedicareBrokerForChronicPainPatients() {
             <div className="text-sm text-gray-600 mt-4">For free local counseling, contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">New Jersey SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
       </section>
     </main>
   );

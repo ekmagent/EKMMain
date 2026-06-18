@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare advise in new jersey | Free Expert Guidance | MedicareYourself",
   description:
-    "Get free Medicare advice in New Jersey from licensed broker Anthony Orner. Compare Medigap, Advantage & Part D with no pressure—call 855-559-1700.",
+    "Free Medicare advice in New Jersey from licensed broker Anthony Orner. Compare Medigap, Advantage & Part D with no pressure—call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-advise-in-new-jersey" },
   openGraph: {
     title:

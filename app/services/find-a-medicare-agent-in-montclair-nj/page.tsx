@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "find a medicare agent in montclair nj | Free Local Help | MedicareYourself",
   description:
-    "Find a Medicare agent in Montclair, NJ. Independent broker Anthony Orner compares top Essex County carriers — free, no-pressure review. Call 855-559-1700.",
+    "Find a Medicare agent in Montclair, NJ. Independent broker Anthony Orner compares top Essex County carriers free of charge. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/find-a-medicare-agent-in-montclair-nj" },
   openGraph: {
     title:
@@ -219,6 +219,22 @@ const faqs = [
     question: "Is an independent broker the same as SHIP counseling?",
     answer:
       "No. SHIP (State Health Insurance Assistance Program) is a free, unbiased counseling service funded by the federal government and not tied to any carrier. Independent brokers are licensed by carriers to enroll you in plans. Many beneficiaries use both — SHIP for neutral education and a broker for plan comparison and enrollment.",
+  }
+,
+  {
+    question: "When can I switch Medicare plans in Montclair, NJ?",
+    answer:
+      "Most beneficiaries can change Medicare Advantage or Part D plans during the Annual Enrollment Period from October 15 to December 7. The Medicare Advantage Open Enrollment Period runs January 1 to March 31 for those already on an Advantage plan. Medigap plans can generally be changed year-round in New Jersey, though medical underwriting may apply outside your initial guaranteed-issue window. Call 855-559-1700 to review your timing.",
+  },
+  {
+    question: "Where can I get free unbiased Medicare counseling in New Jersey?",
+    answer:
+      "New Jersey's State Health Insurance Assistance Program (SHIP) offers free, unbiased Medicare counseling to residents through the NJ Division of Aging Services. SHIP counselors do not sell insurance and can answer general coverage questions. An independent broker like Anthony Orner complements that resource by comparing actual plans and helping you enroll.",
+  },
+  {
+    question: "Do I have to use a Montclair-based agent for Medicare in Essex County?",
+    answer:
+      "No. What matters is that your broker is licensed in New Jersey and represents carriers that serve Essex County. Anthony Orner is a licensed NJ broker who works with Montclair-area beneficiaries by phone, video, or in person when preferred.",
   }
 ];
 
@@ -515,6 +531,7 @@ export default function FindMedicareAgentMontclairNJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey resource: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> — free, unbiased Medicare counseling for New Jersey residents.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey beneficiaries can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey beneficiaries can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey resources: <a href="https://www.nj.gov/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
       </section>
       </article>
     </>
