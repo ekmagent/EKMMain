@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "average cost of supplemental health insurance for seniors with medicare | Free Broker Comparison | MedicareYourself",
   description:
-    "Compare average Medigap costs for seniors by plan, age, and state. A licensed broker shops carriers to lock your lowest rate — call 855-559-1700 today.",
+    "See what drives Medigap premiums for seniors on Medicare in 2026 — plan, age, and state. A licensed broker compares carriers free. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/average-cost-of-supplemental-health-insurance-for-seniors-with-medicare" },
   openGraph: {
     title:
@@ -706,6 +706,22 @@ const faqs = [
     answer:
       "Yes. A licensed broker compares premiums across multiple carriers offering the same lettered plan, so you pay the lowest available rate for identical benefits. There's no cost to you for using a broker, and we can also review your plan annually to make sure you're still on the most competitive rate. Call 855-559-1700 to compare.",
   }
+,
+  {
+    question: "Do Medigap premiums increase as I get older?",
+    answer:
+      "It depends on how the carrier prices the policy. Attained-age-rated plans go up as you age, issue-age-rated plans are based on your age at purchase, and community-rated plans charge everyone in your area the same premium. All three pricing methods can also see annual increases due to inflation and claims experience.",
+  },
+  {
+    question: "Does a Medigap plan also cover my prescription drugs?",
+    answer:
+      "No. Medigap policies sold today do not include prescription drug coverage. To cover medications, you would enroll in a standalone Medicare Part D drug plan alongside your Medigap policy.",
+  },
+  {
+    question: "Can I switch Medigap plans later to lower my premium?",
+    answer:
+      "You can apply to switch Medigap plans at any time, but outside your initial 6-month Open Enrollment Period, carriers in most states can require medical underwriting and may charge more or deny coverage based on health history. A few states offer broader switching rights, so it's worth having a broker review your options.",
+  }
 ];
 
 export default function AverageCostSupplementalInsurancePage() {
@@ -943,6 +959,7 @@ export default function AverageCostSupplementalInsurancePage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can compare rates and file complaints through the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> or get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">For state-specific rate help, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free local Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

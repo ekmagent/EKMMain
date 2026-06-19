@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare supplement plan (medigap) premium hikes | Free Rate Review | MedicareYourself",
   description:
-    "Medigap premium hike notice? Compare carriers on the same plan letter and call 855-559-1700 for a free rate review to help lower your monthly costs.",
+    "Got a Medigap premium hike notice? Compare carriers on the same plan letter and call 855-559-1700 for a free rate review to help lower your monthly costs.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-supplement-plan-medigap-premium-hikes" },
   openGraph: {
     title:
@@ -413,6 +413,7 @@ export default function MedigapPremiumHikesPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medigap counseling.</div>
             <div className="text-sm text-gray-600 mt-4">For state-specific Medigap rules and free counseling, visit the <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> or the <a href="https://www.nj.gov/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Need state-specific help? Contact the <a href="https://www.state.nj.us/dobi/" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">SHIP counselor</a> for free unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </main>
   );

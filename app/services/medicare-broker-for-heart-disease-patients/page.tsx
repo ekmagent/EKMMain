@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare broker for heart disease patients | Free Help Finding the Right Plan | MedicareYourself",
   description:
-    "Medicare broker for heart disease patients — find plans covering cardiologists, cardiac rehab & heart meds. Free unbiased help. Call 855-559-1700 today.",
+    "Medicare broker for heart disease patients — compare plans covering cardiologists, cardiac rehab & heart medications. Free unbiased help. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-heart-disease-patients" },
   openGraph: {
     title:
@@ -391,6 +391,22 @@ const faqs = [
     question: "Are heart medications covered under Medicare?",
     answer:
       "Yes. Medicare Part D prescription drug plans cover most heart medications, including blood thinners, statins, beta blockers, and ACE inhibitors. Coverage and copays vary by plan formulary, so it's important to check that your specific medications are covered before enrolling. A broker can run your drug list through multiple plans to find the lowest total annual cost.",
+  }
+,
+  {
+    question: "Will Medicare cover my heart medications?",
+    answer:
+      "Medicare Part D prescription drug plans cover most cardiac medications, including blood thinners, beta blockers, ACE inhibitors, and statins. However, each plan has its own formulary, tier structure, and preferred pharmacies, so the same drug can cost very different amounts across plans. A broker can run your specific medication list through plan comparison tools to find the lowest total annual cost.",
+  },
+  {
+    question: "Are cardiologists and heart specialists covered under Medicare Advantage?",
+    answer:
+      "Yes, but only if they participate in your plan's provider network. Medicare Advantage plans use HMO or PPO networks, and seeing an out-of-network cardiologist can mean higher costs or no coverage at all. Before enrolling, it's important to confirm your cardiologist, preferred hospital, and any specialists are in-network for the specific plan year.",
+  },
+  {
+    question: "Do I need a referral to see a cardiologist on Medicare?",
+    answer:
+      "With Original Medicare, you do not need a referral to see any specialist who accepts Medicare. Medicare Advantage HMO plans typically require a referral from your primary care doctor before seeing a cardiologist, while PPO plans generally do not. This is an important factor to weigh if you manage an ongoing heart condition.",
   }
 ];
 

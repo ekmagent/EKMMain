@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "independent medicare broker near me new jersey reviews | Free Consultation | MedicareYourself",
   description:
-    "Read real New Jersey reviews of independent Medicare broker Anthony Orner. Compare plans across carriers at no cost — call 855-559-1700 for free help.",
+    "Read real New Jersey reviews of independent Medicare broker Anthony Orner. Compare Medigap, Advantage & Part D plans at no cost — call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/independent-medicare-broker-near-me-new-jersey-reviews" },
   openGraph: {
     title:

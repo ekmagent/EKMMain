@@ -281,6 +281,12 @@ const GUIDES = [
     answer:
       "It depends on your priorities. Original Medicare with a Medigap policy gives you nationwide access to any provider that accepts Medicare and predictable out-of-pocket costs, while Medicare Advantage plans typically use networks but may include extras like dental or vision. The right choice depends on your doctors, prescriptions, travel needs, and budget. Call 855-559-1700 to walk through your specific situation.",
   }
+,
+  {
+    question: "Can I switch from Medicare Advantage back to Original Medicare later?",
+    answer:
+      "Yes. You can switch during the Annual Enrollment Period in the fall or during the Medicare Advantage Open Enrollment Period in early each year. Keep in mind that if you want to add a Medigap policy after leaving Medicare Advantage, you may be subject to medical underwriting outside of guaranteed issue situations. Call 855-559-1700 to review your specific options before making a change.",
+  }
 ];
 
 export default function LearnHubPage() {

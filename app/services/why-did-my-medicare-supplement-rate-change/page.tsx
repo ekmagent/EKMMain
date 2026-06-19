@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Why Did My Medicare Supplement Rate Change? | Free Rate Review | MedicareYourself",
   description:
-    "Medigap rate going up? Learn the 3 pricing factors behind every Medicare Supplement increase and request a free rate review. Call 855-559-1700.",
+    "Medigap rate going up? Learn the 3 pricing factors behind every Medicare Supplement increase and get a free rate review. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/why-did-my-medicare-supplement-rate-change" },
   openGraph: {
     title:
@@ -181,6 +181,22 @@ const faqs = [
     question: "What should I do when I receive a Medicare Supplement rate increase letter?",
     answer:
       "Do not cancel your current policy until a new one is approved and in force. Call a licensed broker to review your pricing model, current health status, and the carriers available in your state. If you qualify for underwriting or a guaranteed issue right, you may be able to secure the same benefits at a lower premium.",
+  }
+,
+  {
+    question: "Will switching Medigap carriers always lower my premium?",
+    answer:
+      "Not always. A new carrier may offer a lower starting premium, but their pricing model and future rate trend matter just as much as today's quote. A rate review compares the long-term stability of available carriers in your state, not just the first-year savings.",
+  },
+  {
+    question: "Does my Medigap rate increase if I file claims?",
+    answer:
+      "No. Medigap rate changes apply to the entire block of policyholders in your plan, not to you individually based on claims usage. Your personal health history cannot trigger an increase once you are enrolled, though it may affect underwriting if you try to switch plans later.",
+  },
+  {
+    question: "Should I drop my Medigap plan and switch to Medicare Advantage to save money?",
+    answer:
+      "It depends on your health, providers, and travel needs. Medigap and Medicare Advantage work very differently in terms of network access, out-of-pocket exposure, and the ability to return to Medigap later with underwriting. Review both options with a licensed broker before making a permanent change.",
   }
 ];
 
@@ -477,6 +493,7 @@ export default function WhyDidMyMedicareSupplementRateChange() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify carrier filings and consumer rights through the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can review rate filings and consumer protections through the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a> or get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a> or the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or the free <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP program</a> for one-on-one counseling.</div>
       </section>
       </article>
     </>

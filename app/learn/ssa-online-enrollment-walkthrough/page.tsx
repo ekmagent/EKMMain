@@ -1105,6 +1105,22 @@ const steps = [
     answer:
       "No. Once you click Submit Now and agree to the Electronic Signature Agreement, you cannot modify the application online. If you need to correct something, you'll have to contact Social Security directly. Call us at 855-559-1700 if you'd like a licensed broker to review your situation before you submit.",
   }
+,
+  {
+    question: "How long does the SSA online Medicare application take?",
+    answer:
+      "Most people complete the SSA.gov Medicare-only application in about 10 minutes. Having your Social Security number, driver's license, and current health insurance details ready before you start will help you move through the screens without interruption.",
+  },
+  {
+    question: "Can I apply for Medicare online if I am not taking Social Security retirement benefits yet?",
+    answer:
+      "Yes. The SSA application includes an option to apply for Medicare only without starting your retirement benefits. This is common for people who plan to keep working or delay Social Security past their Medicare eligibility date.",
+  },
+  {
+    question: "What happens after I submit my Medicare application on SSA.gov?",
+    answer:
+      "Social Security will review your application and send a confirmation, usually by mail. If approved, you'll receive your red, white, and blue Medicare card with your Part A and Part B effective dates. If SSA needs more information, they will contact you directly.",
+  }
 ];
 
 export default function SSAOnlineEnrollmentWalkthrough() {

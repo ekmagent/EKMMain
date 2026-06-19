@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Best Medicare Supplement Rates by Age (Plan G, Plan N, & Plan F Rates) | Free Quote | MedicareYourself",
   description:
-    "Compare Medicare Supplement rates by age for Plan G, Plan N, and Plan F. See how premiums shift over time. Call 855-559-1700 for a free personalized quote.",
+    "Compare Medicare Supplement rates by age for Plan G, Plan N, and Plan F. See how premiums shift over time and lock in your lowest rate. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/best-medicare-supplement-rates-by-age-plan-g-plan-n-plan-f-rates" },
   openGraph: {
     title:
@@ -262,6 +262,22 @@ const faqs = [
     question: "Does Plan F still make sense if I'm eligible for it?",
     answer:
       "Plan F is only available to people who were eligible for Medicare before January 1, 2020. If you qualify, Plan F covers the Part B deductible that Plan G doesn't, but the premium is typically higher. Whether it makes sense depends on whether the extra premium outweighs the deductible savings in your situation.",
+  }
+,
+  {
+    question: "What's the difference between community-rated, issue-age, and attained-age Medigap pricing?",
+    answer:
+      "Community-rated plans charge the same premium regardless of age, so a 65-year-old and an 85-year-old pay the same base rate. Issue-age plans set your premium based on the age you were when you bought the policy, and that rate doesn't change as you get older. Attained-age plans start lower at 65 but rise as you age, which can make them more expensive over time.",
+  },
+  {
+    question: "Can I switch from Plan F to Plan G to save money?",
+    answer:
+      "Yes, but outside your Open Enrollment Period most states require medical underwriting, meaning carriers can review your health history before approving the switch. If you're healthy, switching from Plan F to Plan G often lowers your premium for nearly identical coverage. A licensed broker can shop carriers and check which ones are most likely to approve you.",
+  },
+  {
+    question: "Does where I live affect my Medicare Supplement rate?",
+    answer:
+      "Yes. Medigap premiums vary by ZIP code because carriers factor in regional medical costs and claims experience. Two people the same age with the same Plan G can pay very different premiums in different states or even different counties within the same state.",
   }
 ];
 
@@ -557,6 +573,7 @@ export default function BestMedicareSupplementRatesByAge() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify carrier rates and file complaints through the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> or get free counseling from <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">your local SHIP program</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify carrier filings and consumer protections with the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a> or get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents: visit the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </main>
   );

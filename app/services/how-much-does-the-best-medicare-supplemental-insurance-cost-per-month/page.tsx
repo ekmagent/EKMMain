@@ -291,6 +291,22 @@ const faqs = [
     answer:
       "Yes. Medigap premiums vary by zip code because carriers price policies based on local claims experience, hospital costs, and state regulations. Two neighbors in different states — or even different counties — can pay very different rates for the identical Plan G or Plan N coverage.",
   }
+,
+  {
+    question: "Does where I live affect my Medigap premium?",
+    answer:
+      "Yes. Carriers price Medigap policies by zip code because medical costs, utilization, and competition vary by region. Two people the same age can pay very different monthly premiums depending on their state and county. That's why comparing quotes specific to your zip code matters.",
+  },
+  {
+    question: "Will my Medigap premium increase every year?",
+    answer:
+      "Most Medigap policies experience annual rate adjustments due to inflation, claims experience, and your rating method. Attained-age-rated plans typically increase as you get older, while community-rated plans charge the same regardless of age but still adjust for inflation. No carrier can guarantee flat premiums for life.",
+  },
+  {
+    question: "Can I switch Medigap plans later if I find a lower rate?",
+    answer:
+      "You can apply to switch carriers at any time, but outside your initial Open Enrollment Period most states allow medical underwriting. That means the new carrier can review your health history and decline coverage or charge more. A few states have guaranteed-issue rules that make switching easier — call 855-559-1700 to review your options.",
+  }
 ];
 
 export default function HowMuchDoesBestMedicareSupplementalInsuranceCostPerMonth() {

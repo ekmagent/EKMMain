@@ -281,6 +281,12 @@ const faqs = [
     answer:
       "You can apply to switch Medigap plans at any time, but outside of a guaranteed-issue window, carriers can use medical underwriting and may decline or rate-up applicants with active Crohn's disease. Call 855-559-1700 before switching so we can check which carriers in your state are most likely to approve IBD applicants.",
   }
+,
+  {
+    question: "Does a Medigap plan cover my gastroenterologist visits for Crohn's?",
+    answer:
+      "Yes. Medicare Part B covers specialist visits, including gastroenterology appointments, at 80% of the Medicare-approved amount after the Part B deductible. A Medigap plan like Plan G covers the remaining coinsurance, so you typically pay nothing at the GI office once the deductible is met.",
+  }
 ];
 
 export default function MedicareSupplementCrohnsPage() {

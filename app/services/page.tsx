@@ -1030,6 +1030,22 @@ const STATIC_CATEGORIES = [
     answer:
       "Enrollment in Original Medicare is handled by the Social Security Administration, not by a broker. You can apply online at SSA.gov, call Social Security, or visit a local office during your Initial Enrollment Period around your 65th birthday. Once you have your Medicare number, a broker can help you add a Medigap, Part D, or Medicare Advantage plan.",
   }
+,
+  {
+    question: "What does a licensed Medicare insurance broker do?",
+    answer:
+      "A licensed Medicare broker helps you compare Medigap, Medicare Advantage, and Part D plans from multiple insurance carriers so you can choose coverage that fits your doctors, medications, and budget. Brokers are appointed with carriers and licensed by each state's department of insurance. At MedicareYourself, Anthony Orner is licensed in NJ and 34 states and provides free, unbiased plan reviews.",
+  },
+  {
+    question: "Is there a cost to use MedicareYourself's services?",
+    answer:
+      "No. Our plan comparisons, enrollment help, and ongoing support are free to you. Licensed brokers are paid directly by the insurance carrier when you enroll, and the premium you pay is the same whether you use a broker or go directly to the carrier. Call 855-559-1700 to speak with a licensed broker.",
+  },
+  {
+    question: "Can I get free Medicare help directly from the government?",
+    answer:
+      "Yes. You can call 1-800-MEDICARE (1-800-633-4227) 24/7, or contact your State Health Insurance Assistance Program (SHIP) for free, unbiased counseling. A licensed broker like Anthony Orner can also help you compare specific plans available in your ZIP code and handle enrollment paperwork.",
+  }
 ];
 
 export default function ServicesHubPage() {

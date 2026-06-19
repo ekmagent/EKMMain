@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "best medicare supplement for people on disability | Free Plan Review | MedicareYourself",
   description:
-    "Best Medicare Supplement for people on disability: compare state rules, plan letters, and ways to lower premiums. Call 855-559-1700 for free expert help.",
+    "Best Medicare Supplement for people on disability: compare state rules, plan letters, and pricing tips. Call 855-559-1700 for free licensed broker help.",
   alternates: { canonical: "https://medicareyourself.com/services/best-medicare-supplement-for-people-on-disability" },
   openGraph: {
     title:
@@ -170,6 +170,17 @@ const faqs = [
     question: "Which Medigap plan letter is most popular for people on disability?",
     answer:
       "Plan G is often considered a strong value because it covers most out-of-pocket costs after the Part B deductible. Plan N is another option with lower premiums in exchange for small copays at office visits and emergency rooms. The best choice depends on your state's pricing, your health needs, and what carriers offer to under-65 beneficiaries in your area.",
+  }
+,
+  {
+    question: "When can I enroll in a Medigap plan if I'm on disability?",
+    answer:
+      "Federal law guarantees a six-month Medigap Open Enrollment Period that begins when you're 65 or older and enrolled in Part B. For people under 65 on disability, federal law does not guarantee this enrollment window, but many states have their own rules requiring carriers to offer at least one Medigap plan to disabled beneficiaries. Call 855-559-1700 to confirm what's available in your state.",
+  },
+  {
+    question: "Which Medigap plan letter is most popular for people on disability?",
+    answer:
+      "Plan G is often the most comprehensive option available to people on disability in states that allow under-65 enrollment, covering nearly all Medicare-approved out-of-pocket costs except the Part B deductible. Plan N is another popular choice for those who want lower premiums and are willing to pay small copays at the doctor's office. The best fit depends on your state's available carriers and your expected healthcare use.",
   }
 ];
 
@@ -406,6 +417,7 @@ export default function BestMedicareSupplementForPeopleOnDisability() {
             <div className="text-sm text-gray-600 mt-4">For state-specific help, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">local SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">For state-specific help, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">For state-specific guidance, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">For state-specific Medigap rules, contact your <a href="https://www.shiphelp.org/about-medicare/regional-ship-location" rel="noopener noreferrer" target="_blank" className="underline">local SHIP counselor</a> for free Medicare counseling.</div>
       </section>
       </article>
     </>

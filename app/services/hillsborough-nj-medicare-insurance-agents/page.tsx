@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "hillsborough nj medicare insurance agents | Free Broker Consultation | MedicareYourself",
   description:
-    "Hillsborough NJ Medicare agents compare Supplement & Advantage plans from top carriers at no cost. Call 855-559-1700 for your free Somerset County quote today.",
+    "Hillsborough NJ Medicare brokers compare Supplement & Advantage plans from top carriers at no cost. Call 855-559-1700 for a free Somerset County plan review.",
   alternates: { canonical: "https://medicareyourself.com/services/hillsborough-nj-medicare-insurance-agents" },
   openGraph: {
     title:
@@ -116,6 +116,22 @@ const faqs = [
     question: "What's the difference between a Medicare Supplement and a Medicare Advantage plan?",
     answer:
       "Medicare Supplement (Medigap) plans work alongside Original Medicare to cover out-of-pocket costs like coinsurance and deductibles, and you can see any provider that accepts Medicare nationwide. Medicare Advantage plans replace Original Medicare and typically use provider networks, often bundling Part D drug coverage and extras like dental or vision. A broker can compare both options side by side for your situation in Hillsborough.",
+  }
+,
+  {
+    question: "What's the difference between Medicare Supplement and Medicare Advantage in Hillsborough?",
+    answer:
+      "Medicare Supplement (Medigap) works alongside Original Medicare and helps cover out-of-pocket costs like deductibles and coinsurance, with nationwide doctor access. Medicare Advantage replaces Original Medicare with a private plan that often includes Part D and extra benefits, but uses network providers. A Hillsborough broker can compare both options side by side for Somerset County zip codes.",
+  },
+  {
+    question: "Can a Medicare broker help me find a plan that includes my Somerset County doctors?",
+    answer:
+      "Yes. An independent broker can check provider networks across Advantage plans to confirm your Hillsborough-area doctors and preferred hospitals are in-network. For Medigap, any provider that accepts Medicare nationwide will accept your plan, so network restrictions don't apply.",
+  },
+  {
+    question: "Do I need to switch Medicare plans every year in New Jersey?",
+    answer:
+      "No, but it's smart to review annually. Plan benefits, drug formularies, and premiums change each year, and a plan that fit last year may no longer be the best value. During the Annual Enrollment Period, October 15 through December 7, a broker can run a free comparison for your Hillsborough zip code.",
   }
 ];
 
@@ -352,6 +368,7 @@ export default function HillsboroughNJMedicareInsuranceAgents() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
       </section>
     </main>
   );

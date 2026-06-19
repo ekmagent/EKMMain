@@ -189,6 +189,22 @@ const planData = [
     answer:
       "No. Medicare Supplement (Medigap) plans sold today do not include prescription drug coverage. To get drug coverage, you'll need to enroll in a separate standalone Medicare Part D plan. We can help you pair a Medigap plan with a Part D plan that fits your medications and pharmacy preferences.",
   }
+,
+  {
+    question: "Does New Jersey use community rating for Medigap premiums?",
+    answer:
+      "Yes. New Jersey uses community rating for Medicare Supplement plans, meaning carriers charge the same premium to all enrollees of a given plan regardless of age. This differs from issue-age or attained-age rating used in many other states. Community rating can make NJ Medigap premiums more predictable as you age.",
+  },
+  {
+    question: "Can I switch Medicare Supplement plans in New Jersey after my Open Enrollment Period?",
+    answer:
+      "You can apply to switch Medigap plans at any time, but outside your 6-month Medigap Open Enrollment Period or a federally protected guaranteed-issue situation, carriers in New Jersey may use medical underwriting. That means they can review your health history and potentially deny coverage or charge more. A licensed broker can help you compare carriers and underwriting rules before you apply.",
+  },
+  {
+    question: "Do Medicare Supplement plans in New Jersey cover prescription drugs?",
+    answer:
+      "No. Medicare Supplement plans sold today do not include prescription drug coverage. To get drug coverage, you'll need to enroll in a separate Medicare Part D prescription drug plan. Call 855-559-1700 and we'll help you pair the right Medigap and Part D plan for your medications.",
+  }
 ];
 
 export default function NJMedicareSupplementPage() {
@@ -424,6 +440,7 @@ export default function NJMedicareSupplementPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> offers free, unbiased Medicare counseling to NJ residents.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.nj.gov/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> offers free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.nj.gov/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> offers free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </>
   );

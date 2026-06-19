@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "when can i change my medicare supplement plan for 2026 | Free Switching Help | MedicareYourself",
   description:
-    "When can I change my Medicare Supplement plan for 2026? Learn switch windows, guaranteed-issue rights & underwriting rules. Call 855-559-1700 for free broker help.",
+    "When can I change your Medicare Supplement plan for 2026? Learn switch windows, guaranteed-issue rights & underwriting. Call 855-559-1700 for free help.",
   alternates: { canonical: "https://medicareyourself.com/services/when-can-i-change-my-medicare-supplement-plan-for-2026" },
   openGraph: {
     title:
@@ -405,6 +405,22 @@ const faqs = [
     question: "Can I drop my Medigap policy and go back to Original Medicare alone?",
     answer:
       "Yes, you can drop a Medigap policy at any time by contacting your insurance company. However, if you later want to buy a Medigap policy again, you may face underwriting unless you qualify for a guaranteed-issue right. Talk with a broker before dropping coverage to understand the long-term implications.",
+  }
+,
+  {
+    question: "Will I need medical underwriting to switch my Medigap plan in 2026?",
+    answer:
+      "In most cases, yes. Outside your 6-month Medigap Open Enrollment Period or a federal guaranteed-issue situation, carriers can require you to answer health questions and can deny coverage based on your history. Some states offer broader protections, so it's worth checking your state's rules before applying.",
+  },
+  {
+    question: "Can I switch Medigap plans during the Medicare Annual Enrollment Period?",
+    answer:
+      "The October 15 through December 7 Annual Enrollment Period applies to Medicare Advantage and Part D drug plans, not Medigap. Medigap has no annual enrollment window, so you can apply to switch any time of year, but approval outside protected periods depends on underwriting.",
+  },
+  {
+    question: "What happens if I don't like my new Medigap policy after switching?",
+    answer:
+      "Federal law gives you a 30-day free look period when you buy a new Medigap policy. You must keep your old policy active during those 30 days and pay both premiums, then decide whether to keep the new plan or return to the old one before cancelling either.",
   }
 ];
 

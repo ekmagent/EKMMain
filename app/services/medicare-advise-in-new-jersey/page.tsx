@@ -102,6 +102,17 @@ const faqs = [
     answer:
       "Call Anthony Orner at 855-559-1700 to schedule a no-pressure phone or virtual consultation. He'll review your doctors, prescriptions, and budget, then walk through Medigap, Medicare Advantage, and Part D options side by side so you can choose with confidence.",
   }
+,
+  {
+    question: "Do I need to use a New Jersey-based broker for Medicare advice?",
+    answer:
+      "You don't need a broker physically located in New Jersey, but they must be licensed in New Jersey to recommend or enroll you in plans here. Anthony Orner is licensed in NJ and 34 other states, so he can help if you split time between states or are relocating.",
+  },
+  {
+    question: "When can I enroll in a Medigap plan in New Jersey?",
+    answer:
+      "Your best opportunity is the 6-month Medigap Open Enrollment Period, which begins the month you're 65 or older and enrolled in Part B. During this window, insurers cannot deny you coverage or charge more based on health. Outside that window, enrollment may require medical underwriting unless you qualify for a guaranteed issue right.",
+  }
 ];
 
 export default function MedicareAdviseInNewJersey() {
@@ -360,6 +371,7 @@ export default function MedicareAdviseInNewJersey() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling from <a href="https://www.nj.gov/humanservices/doas/services/q-z/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.nj.gov/humanservices/doas/services/q-z/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">New Jersey State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4"><a href="https://www.nj.gov/humanservices/doas/services/q-z/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey SHIP — State Health Insurance Assistance Program</a></div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free local counseling through the <a href="https://www.nj.gov/humanservices/doas/services/q-z/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
     </>
   );

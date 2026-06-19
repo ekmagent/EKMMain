@@ -123,6 +123,22 @@ const faqs = [
     answer:
       "No. The benefits in each lettered Medigap plan are standardized by federal law, so a Plan G from one carrier covers the exact same services as a Plan G from another. Price is the main difference between policies with the same plan letter, which is why comparing carriers matters. Call 855-559-1700 for a side-by-side rate comparison.",
   }
+,
+  {
+    question: "Are Medicare Supplement premiums the only cost I'll pay with a Medigap plan?",
+    answer:
+      "No. In addition to your Medigap premium, you'll still pay your monthly Part B premium to Medicare. Depending on the plan letter you choose, you may also be responsible for the Part B deductible before coverage kicks in. Call 855-559-1700 to review which out-of-pocket costs each plan covers.",
+  },
+  {
+    question: "Can I switch Medicare Supplement plans later if I find a lower premium?",
+    answer:
+      "You can apply to switch Medigap plans at any time, but outside of your Open Enrollment Period or a guaranteed issue situation, the new carrier can use medical underwriting. That means they can deny coverage or charge more based on your health. A licensed broker can review whether you'd likely qualify before you drop your current plan.",
+  },
+  {
+    question: "Does Medicare Supplement cost more if I enroll after age 65?",
+    answer:
+      "Often yes. If you enroll outside your Medigap Open Enrollment Period, carriers in most states can use medical underwriting and may charge higher rates or decline coverage. Additionally, attained-age rated plans naturally cost more the older you are when you enroll.",
+  }
 ];
 
 export default function HowMuchDoesMedicareSupplementCostPerMonthForSeniors() {

@@ -492,6 +492,22 @@ const faqs = [
     answer:
       "A broker reviews your neurologist, infusion center, and current MS medications, then compares plans to confirm coverage and out-of-pocket costs for each. For MS patients, the broker focuses on Part B coverage of infusions, MRI authorization rules, and whether your Medigap timing protects you from underwriting. Call 855-559-1700 for a free review of your situation.",
   }
+,
+  {
+    question: "Does Medicare cover MRIs needed to monitor MS progression?",
+    answer:
+      "Yes. Medically necessary MRIs ordered by your doctor to monitor multiple sclerosis are covered under Medicare Part B as diagnostic imaging. You'll be responsible for the Part B deductible and coinsurance unless you have a Medigap policy that covers those costs. Medicare Advantage plans cover MRIs too, but often require prior authorization.",
+  },
+  {
+    question: "Will Medicare cover physical therapy and rehabilitation for MS?",
+    answer:
+      "Yes. Medicare Part B covers medically necessary physical therapy, occupational therapy, and speech-language pathology services when ordered by your doctor as part of an MS treatment plan. There is no longer a hard cap on therapy services, but your provider must document medical necessity above certain thresholds. Home health therapy may also be covered if you meet homebound criteria.",
+  },
+  {
+    question: "What happens if my MS specialist isn't in a Medicare Advantage network?",
+    answer:
+      "With Medicare Advantage, going out of network can mean higher costs or no coverage outside emergencies, depending on whether the plan is an HMO or PPO. Original Medicare paired with a Medigap plan lets you see any neurologist nationwide who accepts Medicare, with no referrals required. This is often the deciding factor for MS patients with established specialist relationships.",
+  }
 ];
 
 export default function MedicareBrokerForMSPatients() {

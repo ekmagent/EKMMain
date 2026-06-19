@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for rheumatoid arthritis patients | Free Plan Comparison | MedicareYourself",
   description:
-    "Medicare broker for rheumatoid arthritis patients — compare plans covering biologics, infusions & rheumatology visits. Free review with Anthony Orner.",
+    "Medicare broker for rheumatoid arthritis patients — compare plans covering biologics, infusions & rheumatology visits. Free review. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-rheumatoid-arthritis-patients" },
   openGraph: {
     title:

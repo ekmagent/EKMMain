@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
   description:
-    "IRMAA explained: how Medicare's income surcharge affects Part B & Part D, who pays, and how to appeal with SSA-44. Free broker help — call 855-559-1700.",
+    "IRMAA explained: how Medicare's income surcharge affects Part B & Part D, who pays, and how to appeal using SSA-44. Free broker help — call 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/irmaa-medicare-surcharge` },
   openGraph: {
     title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
@@ -971,6 +971,22 @@ const faqs = [
     question: "Can I avoid IRMAA with tax planning?",
     answer:
       "Some beneficiaries reduce IRMAA exposure by managing taxable income two years before Medicare enrollment — for example, through Roth conversions completed earlier, qualified charitable distributions from IRAs, or timing capital gains. Because IRMAA uses a two-year lookback, planning ahead matters. Consult a tax professional for strategies specific to your situation.",
+  }
+,
+  {
+    question: "How do I appeal IRMAA if my income has dropped?",
+    answer:
+      "If you experienced a life-changing event such as retirement, divorce, or the death of a spouse, you can request a reduction by filing Form SSA-44 with the Social Security Administration. You'll need documentation of the event and your expected new income. If approved, SSA will recalculate your IRMAA based on your updated income rather than your tax return from two years ago.",
+  },
+  {
+    question: "Do I get billed separately for IRMAA, or is it added to my premium?",
+    answer:
+      "For Part B, the IRMAA surcharge is added to your standard Part B premium and is typically deducted from your Social Security check. For Part D, the IRMAA surcharge is billed separately by Medicare or deducted from Social Security — it is not paid to your Part D plan. You continue paying your Part D plan premium directly to the insurer.",
+  },
+  {
+    question: "Does IRMAA reset every year?",
+    answer:
+      "Yes. Social Security recalculates IRMAA each year using your most recent tax return on file, which is generally from two years prior. If your income drops below the threshold in a future year, your IRMAA surcharge will go away automatically once SSA receives the updated tax data from the IRS.",
   }
 ];
 

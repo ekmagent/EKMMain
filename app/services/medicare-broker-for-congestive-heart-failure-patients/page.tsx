@@ -377,6 +377,17 @@ const faqs = [
     answer:
       "Yes. Medicare Part D plans cover most CHF medications, including ACE inhibitors, beta blockers, diuretics, and SGLT2 inhibitors, but each plan has its own formulary and tier structure. The same drug can cost dramatically different amounts on different plans. A broker can compare your exact medication list across available plans to find the lowest total annual cost.",
   }
+,
+  {
+    question: "Will a Medicare broker cost me anything if I have congestive heart failure?",
+    answer:
+      "No. Working with Anthony Orner is free to you. Licensed Medicare brokers are compensated by the insurance carriers when a plan is enrolled, and that compensation is the same across carriers, so there's no incentive to steer you toward a plan that doesn't fit your CHF care needs. Call 855-559-1700 for a free plan review.",
+  },
+  {
+    question: "Can I keep my cardiologist if I switch Medicare plans?",
+    answer:
+      "On Original Medicare with a Medigap policy, you can see any provider who accepts Medicare, including your current cardiologist. On Medicare Advantage, your cardiologist must be in the plan's network or you may face higher costs or denied claims. Anthony can verify your specific cardiology team and hospital are covered before you enroll.",
+  }
 ];
 
 export default function MedicareBrokerCHFPage() {

@@ -871,6 +871,22 @@ const faqs = [
     answer:
       "Yes, you can apply to switch Medigap plans at any time, but outside of your Open Enrollment Period or a guaranteed-issue situation, the new carrier can require medical underwriting. That means approval and pricing on the new plan depend on your health. Call 855-559-1700 before switching so we can check whether you'd qualify.",
   }
+,
+  {
+    question: "Can I be denied a Medicare Supplement plan because of my health?",
+    answer:
+      "During your 6-month Medigap Open Enrollment Period, insurance companies cannot deny you coverage or charge you more based on pre-existing conditions. Outside of this window — and outside of specific guaranteed-issue situations — carriers in most states can medical underwrite your application and decline you. That is why timing your enrollment correctly is the single most important step.",
+  },
+  {
+    question: "Do I need to re-enroll in my Medicare Supplement plan every year?",
+    answer:
+      "No. Medigap plans are guaranteed renewable for life as long as you pay your premium, regardless of any health changes. You do not need to re-apply annually like Medicare Advantage or Part D plans during the Annual Enrollment Period. Your coverage simply continues from year to year.",
+  },
+  {
+    question: "Can I switch Medicare Supplement plans after I enroll?",
+    answer:
+      "Yes, but in most states you will need to pass medical underwriting to switch to a new Medigap plan or carrier after your initial Open Enrollment Period ends. If you are healthy, switching can save you money since premiums for the same federally-standardized plan vary widely by carrier. Call 855-559-1700 and we can shop your current plan against every carrier in your state at no cost.",
+  }
 ];
 
 export default function HowToEnrollMedigapPage() {
