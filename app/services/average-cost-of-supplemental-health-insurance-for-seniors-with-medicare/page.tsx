@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "average cost of supplemental health insurance for seniors with medicare | Free Broker Comparison | MedicareYourself",
   description:
-    "See what drives Medigap premiums for seniors on Medicare in 2026 — plan, age, and state. A licensed broker compares carriers free. Call 855-559-1700.",
+    "Compare what drives Medigap premiums for seniors on Medicare — plan letter, age, and state. A licensed broker shops carriers free. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/average-cost-of-supplemental-health-insurance-for-seniors-with-medicare" },
   openGraph: {
     title:
@@ -722,6 +722,12 @@ const faqs = [
     answer:
       "You can apply to switch Medigap plans at any time, but outside your initial 6-month Open Enrollment Period, carriers in most states can require medical underwriting and may charge more or deny coverage based on health history. A few states offer broader switching rights, so it's worth having a broker review your options.",
   }
+,
+  {
+    question: "Do Medigap premiums increase as I get older?",
+    answer:
+      "It depends on how the insurance company prices the policy. Community-rated plans charge everyone the same premium regardless of age, issue-age-rated plans base premiums on your age when you buy, and attained-age-rated plans increase as you grow older. All three pricing methods can also rise over time due to inflation and claims experience.",
+  }
 ];
 
 export default function AverageCostSupplementalInsurancePage() {
@@ -960,6 +966,7 @@ export default function AverageCostSupplementalInsurancePage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can compare rates and file complaints through the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> or get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">For state-specific rate help, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free local Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </main>
   );

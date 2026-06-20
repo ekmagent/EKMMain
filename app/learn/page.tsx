@@ -287,6 +287,12 @@ const GUIDES = [
     answer:
       "Yes. You can switch during the Annual Enrollment Period in the fall or during the Medicare Advantage Open Enrollment Period in early each year. Keep in mind that if you want to add a Medigap policy after leaving Medicare Advantage, you may be subject to medical underwriting outside of guaranteed issue situations. Call 855-559-1700 to review your specific options before making a change.",
   }
+,
+  {
+    question: "What does Medicare Part A cover and do I pay a premium for it?",
+    answer:
+      "Part A covers inpatient hospital stays, skilled nursing facility care, hospice, and some home health care. Most people don't pay a premium for Part A because they or a spouse paid Medicare taxes while working. You can confirm your premium-free status when you enroll through SSA.gov or call 855-559-1700 for help.",
+  }
 ];
 
 export default function LearnHubPage() {

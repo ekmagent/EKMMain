@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "How Much Does Medicare Supplement Cost per Month for Seniors? | Free 2026 Rate Quote | MedicareYourself",
   description:
-    "How much does Medicare Supplement cost per month for seniors? Compare Plan G & N rates by age and zip. Call 855-559-1700 for a free side-by-side quote today.",
+    "How much does Medicare Supplement cost per month for seniors? Compare Plan G & N rates by age and zip in minutes. Call 855-559-1700 for a free quote.",
   alternates: { canonical: "https://medicareyourself.com/services/how-much-does-medicare-supplement-cost-per-month-for-seniors" },
   openGraph: {
     title:
@@ -138,6 +138,17 @@ const faqs = [
     question: "Does Medicare Supplement cost more if I enroll after age 65?",
     answer:
       "Often yes. If you enroll outside your Medigap Open Enrollment Period, carriers in most states can use medical underwriting and may charge higher rates or decline coverage. Additionally, attained-age rated plans naturally cost more the older you are when you enroll.",
+  }
+,
+  {
+    question: "How do insurance companies set prices for Medigap policies?",
+    answer:
+      "Insurance companies use one of three pricing methods: community-rated (the same premium regardless of age), issue-age-rated (based on your age when you buy the policy), or attained-age-rated (based on your current age, rising as you get older). Each method affects how much you'll pay now and in the future. The pricing method a carrier uses can make a significant difference in lifetime cost even when benefits are identical.",
+  },
+  {
+    question: "Are Medigap premiums the only cost I'll pay with a Medicare Supplement plan?",
+    answer:
+      "No. In addition to your Medigap premium, you must continue paying the Part B premium to Medicare each month. Depending on the plan letter you choose, you may also be responsible for the Part B deductible or small copays for office visits. Call 855-559-1700 to review what your total monthly Medicare costs would look like.",
   }
 ];
 
@@ -370,6 +381,7 @@ export default function HowMuchDoesMedicareSupplementCostPerMonthForSeniors() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">For free, unbiased counseling, contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey State Health Insurance Assistance Program (SHIP)</a> or your state's local SHIP office.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">For state-specific help, contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">New Jersey Department of Banking and Insurance</a> or your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
       </section>
     </main>
   );

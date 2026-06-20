@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare enrollment help for people with lupus california | Free Guidance | MedicareYourself",
   description:
-    "Californians with lupus: compare Medicare plans covering rheumatologists, biologics & infusions. Free licensed broker help—call 855-559-1700 today.",
+    "Californians with lupus: compare Medicare plans that cover rheumatologists, biologics, and infusions. Free licensed broker help—call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-enrollment-help-for-people-with-lupus-california" },
   openGraph: {
     title:
@@ -539,6 +539,7 @@ export default function MedicareEnrollmentHelpLupusCalifornia() {
             <div className="text-sm text-gray-600 mt-4">California residents can get free local Medicare counseling through <a href="https://cahealthadvocates.org/hicap/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">California HICAP</a> or contact the <a href="https://www.insurance.ca.gov/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">California Department of Insurance</a>.</div>
             <div className="text-sm text-gray-600 mt-4">California residents can get free, unbiased Medicare counseling from <a href="https://aging.ca.gov/Programs_and_Services/Medicare_Counseling/" rel="noopener noreferrer" target="_blank" className="underline">California HICAP (Health Insurance Counseling and Advocacy Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">California residents can get free local Medicare counseling through <a href="https://www.aging.ca.gov/HICAP/" rel="noopener noreferrer" target="_blank" className="underline">California's Health Insurance Counseling and Advocacy Program (HICAP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">California residents can get free local Medicare counseling through <a href="https://www.aging.ca.gov/HICAP/" rel="noopener noreferrer" target="_blank" className="underline">California HICAP (Health Insurance Counseling and Advocacy Program)</a>.</div>
       </section>
     </main>
   );

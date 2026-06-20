@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "hillsborough nj medicare insurance agents | Free Broker Consultation | MedicareYourself",
   description:
-    "Hillsborough NJ Medicare brokers compare Supplement & Advantage plans from top carriers at no cost. Call 855-559-1700 for a free Somerset County plan review.",
+    "Hillsborough NJ Medicare brokers compare Supplement & Advantage plans from top carriers at zero cost. Call 855-559-1700 for a free Somerset County plan review.",
   alternates: { canonical: "https://medicareyourself.com/services/hillsborough-nj-medicare-insurance-agents" },
   openGraph: {
     title:
@@ -369,6 +369,7 @@ export default function HillsboroughNJMedicareInsuranceAgents() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

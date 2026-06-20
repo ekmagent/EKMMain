@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "what time of the year can you switch medicare supplement plans | Free Help from a Licensed Broker | MedicareYourself",
   description:
-    "When can you switch Medicare Supplement plans? Learn Medigap Open Enrollment, guaranteed issue rights & switch free with a licensed broker. Call 855-559-1700.",
+    "When can you switch Medicare Supplement plans? Learn Medigap Open Enrollment, guaranteed issue rights & switch the smart way. Free help — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/what-time-of-year-can-you-switch-medicare-supplement-plans" },
   openGraph: {
     title:
@@ -126,6 +126,22 @@ const faqs = [
     question: "Should I work with a broker when switching Medicare Supplement plans?",
     answer:
       "A licensed Medicare broker can compare Medigap rates from multiple carriers at no cost to you and help determine whether you'll face underwriting. Broker services are free because carriers pay the commission directly. Call 855-559-1700 to review your options with Anthony Orner.",
+  }
+,
+  {
+    question: "What is the Medigap free look period when switching plans?",
+    answer:
+      "When you buy a new Medigap policy, you have a 30-day free look period to decide if you want to keep it. During this time, you can have both policies active. You'll need to pay both premiums for one month, but it gives you a chance to review the new coverage before canceling your old policy.",
+  },
+  {
+    question: "Do I need to answer health questions to switch Medigap plans?",
+    answer:
+      "Outside of your 6-month Medigap Open Enrollment Period or a guaranteed issue situation, most carriers will require you to answer medical underwriting questions. Based on your answers, you can be denied coverage or charged a higher premium. A licensed broker can help you compare carrier underwriting guidelines before you apply.",
+  },
+  {
+    question: "Can I switch from Medicare Advantage back to Original Medicare and add a Medigap plan?",
+    answer:
+      "Yes, but timing matters. You can typically switch during the Medicare Annual Enrollment Period or the Medicare Advantage Open Enrollment Period. In some cases, you may have a guaranteed issue right to buy a Medigap policy — for example, if you joined Medicare Advantage when first eligible and disenroll within 12 months (trial right).",
   }
 ];
 
@@ -386,6 +402,7 @@ export default function WhatTimeOfYearCanYouSwitchMedigap() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medigap counseling and state-specific switching rights.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> or the free <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for help understanding state-specific Medigap switching rights. Call 855-559-1700 for personalized guidance.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medigap counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/shipmain.htm" rel="noopener noreferrer" target="_blank" className="text-blue-700 underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </main>
   );

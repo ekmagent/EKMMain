@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "how much does the best medicare supplemental insurance cost per month | Free Plan-by-Plan Breakdown | MedicareYourself",
   description:
-    "Compare Medicare Supplement Plan G and Plan N monthly premiums by carrier and zip code. Call 855-559-1700 for a free side-by-side Medigap quote — no obligation.",
+    "Compare Medicare Supplement Plan G and Plan N monthly premiums by carrier and zip code. Call 855-559-1700 for a free Medigap quote — no obligation.",
   alternates: { canonical: "https://medicareyourself.com/services/how-much-does-the-best-medicare-supplemental-insurance-cost-per-month" },
   openGraph: {
     title:
@@ -307,6 +307,12 @@ const faqs = [
     answer:
       "You can apply to switch carriers at any time, but outside your initial Open Enrollment Period most states allow medical underwriting. That means the new carrier can review your health history and decline coverage or charge more. A few states have guaranteed-issue rules that make switching easier — call 855-559-1700 to review your options.",
   }
+,
+  {
+    question: "Does where I live affect my Medigap premium?",
+    answer:
+      "Yes. Medigap premiums vary widely by zip code because carriers factor in local healthcare costs, claims history, and state regulations. The same Plan G from the same carrier can cost noticeably more in one county versus a neighboring one. That's why a personalized quote based on your zip code is the only way to know your true rate.",
+  }
 ];
 
 export default function HowMuchDoesBestMedicareSupplementalInsuranceCostPerMonth() {
@@ -565,6 +571,7 @@ export default function HowMuchDoesBestMedicareSupplementalInsuranceCostPerMonth
             <div className="text-sm text-gray-600 mt-4">Need state-level help? Contact the <a href="https://www.nj.gov/dobi/division_insurance/" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">SHIP counseling program</a> for free, unbiased guidance.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">For unbiased state-level counseling, visit the <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a> to find free help in your state.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
     </main>
   );

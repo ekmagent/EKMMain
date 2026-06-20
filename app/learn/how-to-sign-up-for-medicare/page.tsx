@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "How to Sign Up for Medicare (2026 Guide)",
   description:
-    "Step-by-step 2026 guide to signing up for Medicare at SSA, avoiding Part B late penalties, and choosing coverage. Free broker help: 855-559-1700.",
+    "Step-by-step 2026 guide to signing up for Medicare at SSA, avoiding Part B late penalties, and choosing coverage. Free broker help: call 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/how-to-sign-up-for-medicare` },
   openGraph: {
     title: "How to Sign Up for Medicare (2026 Guide)",
@@ -1004,6 +1004,22 @@ const faqs = [
     question: "How long does Medicare enrollment take to process?",
     answer:
       "The online application at SSA.gov takes about 10 minutes to complete. Social Security typically processes Medicare applications within a few weeks and mails your red, white, and blue Medicare card once approved. You can check your application status by signing in to your my Social Security account.",
+  }
+,
+  {
+    question: "Can I sign up for Medicare if I am still working?",
+    answer:
+      "Yes. You can enroll in Part A at 65 even if you are still working, and it is usually free if you have enough work credits. If you have creditable employer health coverage from active employment, you may delay Part B without a late penalty and sign up later during a Special Enrollment Period.",
+  },
+  {
+    question: "What happens if I miss my Medicare enrollment deadline?",
+    answer:
+      "If you miss your Initial Enrollment Period and do not qualify for a Special Enrollment Period, you must wait for the General Enrollment Period (January 1 – March 31) to sign up. You may also owe a permanent Part B late enrollment penalty that increases your premium for as long as you have Medicare.",
+  },
+  {
+    question: "Do I need to sign up for Medicare every year?",
+    answer:
+      "No. Once you are enrolled in Original Medicare, your coverage continues automatically each year as long as you pay your premiums. However, if you have a Medicare Advantage or Part D drug plan, you can review and change it each fall during the Annual Enrollment Period (October 15 – December 7).",
   }
 ];
 

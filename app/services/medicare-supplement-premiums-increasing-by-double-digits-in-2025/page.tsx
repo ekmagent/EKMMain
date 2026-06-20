@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare supplement premiums increasing by double digits in 2025 | Free Rate Review | MedicareYourself",
   description:
-    "Medigap premiums rising in 2025? Compare carriers offering identical standardized benefits and see if switching lowers your rate. Free review: 855-559-1700.",
+    "Medigap premiums rising in 2025? Compare carriers offering identical standardized benefits and see if switching can lower your rate. Free review: 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-supplement-premiums-increasing-by-double-digits-in-2025" },
   openGraph: {
     title:
@@ -459,6 +459,7 @@ export default function MedicareSupplementPremiumsIncreasing2025() {
             <div className="text-sm text-gray-600 mt-4">Need help comparing Medigap rates in your state? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a> for free, unbiased counseling.</div>
             <div className="text-sm text-gray-600 mt-4">State help: <a href="https://www.state.nj.us/dobi/division_insurance/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a> or find your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">SHIP counselor</a> for free Medigap guidance.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
     </main>
   );

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare enrollment help for people with diabetes texas | Free Guidance | MedicareYourself",
   description:
-    "Texas Medicare help for diabetics — compare plans covering insulin, CGMs, pumps & test strips. Call 855-559-1700 for free licensed broker guidance today.",
+    "Texas Medicare help for people with diabetes — compare plans covering insulin, CGMs, pumps & test strips. Call 855-559-1700 for free licensed broker guidance.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-enrollment-help-for-people-with-diabetes-texas" },
   openGraph: {
     title:
@@ -122,6 +122,12 @@ const faqs = [
     question: "Are diabetes self-management training classes covered by Medicare in Texas?",
     answer:
       "Yes. Medicare Part B covers diabetes self-management training (DSMT) for beneficiaries recently diagnosed with diabetes or at risk for complications. A doctor must order the training, and it must be provided by an accredited program. After meeting the Part B deductible, you typically pay 20% of the Medicare-approved amount.",
+  }
+,
+  {
+    question: "Will Medicare cover my insulin pump and supplies in Texas?",
+    answer:
+      "Medicare Part B covers external insulin pumps and the insulin used in them as durable medical equipment when your doctor certifies medical necessity. You typically pay the Part B coinsurance after meeting the Part B deductible. A licensed broker can help you compare Texas plans that minimize your out-of-pocket cost for pump supplies.",
   }
 ];
 
@@ -377,6 +383,7 @@ export default function MedicareEnrollmentHelpDiabetesTexas() {
             <div className="text-sm text-gray-600 mt-4">Texas help: <a href="https://www.hhs.texas.gov/services/health/medicare" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">Texas Health and Human Services — Medicare</a> for state assistance program eligibility.</div>
             <div className="text-sm text-gray-600 mt-4">Texas resource: <a href="https://www.hhs.texas.gov/services/health/medicare" rel="noopener noreferrer" target="_blank" className="underline">Texas Health and Human Services — Medicare</a></div>
             <div className="text-sm text-gray-600 mt-4">Texas resource: <a href="https://www.hhs.texas.gov/services/health/medicare" rel="noopener noreferrer" target="_blank" className="underline">Texas Health and Human Services — Medicare</a></div>
+            <div className="text-sm text-gray-600 mt-4">Texas resources: <a href="https://www.hhs.texas.gov/services/health/medicare" rel="noopener noreferrer" target="_blank" className="underline">Texas Health and Human Services — Medicare</a> (counseling and Medicare Savings Program info for Texans).</div>
       </section>
     </main>
   );

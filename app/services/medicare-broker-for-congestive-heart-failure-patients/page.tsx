@@ -388,6 +388,12 @@ const faqs = [
     answer:
       "On Original Medicare with a Medigap policy, you can see any provider who accepts Medicare, including your current cardiologist. On Medicare Advantage, your cardiologist must be in the plan's network or you may face higher costs or denied claims. Anthony can verify your specific cardiology team and hospital are covered before you enroll.",
   }
+,
+  {
+    question: "Does Medicare cover heart failure medications under Part D?",
+    answer:
+      "Yes, Medicare Part D plans cover most CHF medications including ACE inhibitors, beta blockers, diuretics, and newer drugs like SGLT2 inhibitors. However, formularies vary by plan, so the same medication may be a low-tier generic on one plan and a high-tier brand on another. Anthony reviews your full medication list against each plan's formulary before recommending coverage.",
+  }
 ];
 
 export default function MedicareBrokerCHFPage() {
@@ -627,6 +633,7 @@ export default function MedicareBrokerCHFPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" target="_blank" rel="noopener noreferrer" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </main>
   );

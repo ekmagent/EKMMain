@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare insurance agents in burlington new jersey | Free Local Help | MedicareYourself",
   description:
-    "Compare Medigap, Medicare Advantage & Part D plans with a licensed independent broker serving Burlington County, NJ. Free, no-obligation help — call 855-559-1700.",
+    "Compare Medigap, Medicare Advantage & Part D plans with a licensed independent broker serving Burlington County, NJ. Free, no-obligation help — call today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-insurance-agents-in-burlington-new-jersey" },
   openGraph: {
     title:

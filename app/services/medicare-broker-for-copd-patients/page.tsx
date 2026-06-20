@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for COPD patients | Free Plan Review | MedicareYourself",
   description:
-    "Medicare broker for COPD patients — compare plans covering inhalers, oxygen & pulmonary rehab. Free review with Anthony Orner. Call 855-559-1700.",
+    "Medicare broker for COPD patients — compare plans covering inhalers, oxygen, and pulmonary rehab. Free plan review with Anthony Orner. Call today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-copd-patients" },
   openGraph: {
     title:

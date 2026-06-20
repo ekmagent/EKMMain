@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
   description:
-    "IRMAA explained: how Medicare's income surcharge affects Part B & Part D, who pays, and how to appeal using SSA-44. Free broker help — call 855-559-1700.",
+    "IRMAA explained: how Medicare's income surcharge hits Part B & Part D, who pays, and how to appeal with SSA-44. Free broker help — call 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/irmaa-medicare-surcharge` },
   openGraph: {
     title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
@@ -987,6 +987,22 @@ const faqs = [
     question: "Does IRMAA reset every year?",
     answer:
       "Yes. Social Security recalculates IRMAA each year using your most recent tax return on file, which is generally from two years prior. If your income drops below the threshold in a future year, your IRMAA surcharge will go away automatically once SSA receives the updated tax data from the IRS.",
+  }
+,
+  {
+    question: "How do I appeal IRMAA if my income has dropped?",
+    answer:
+      "If you've experienced a life-changing event such as retirement, divorce, or the death of a spouse, you can request a reduction by filing Form SSA-44 with the Social Security Administration. You'll need to provide documentation of the event and an estimate of your new income. SSA can then use your more recent income instead of the tax return from two years prior. For help walking through the process, call 855-559-1700.",
+  },
+  {
+    question: "Is IRMAA recalculated every year?",
+    answer:
+      "Yes. Social Security reviews your most recent tax return each year to determine whether IRMAA applies and at what tier. If your income drops below the threshold in a later year, the surcharge will be removed automatically once SSA receives the updated IRS data. You do not need to reapply each year unless you're requesting a reduction based on a life-changing event.",
+  },
+  {
+    question: "How is the IRMAA surcharge paid?",
+    answer:
+      "The Part B IRMAA surcharge is typically deducted directly from your Social Security benefit, just like your standard Part B premium. The Part D IRMAA surcharge is billed separately by Medicare — not by your drug plan — and can also be deducted from Social Security if you choose. If you're not yet collecting Social Security, you'll receive a bill from Medicare.",
   }
 ];
 

@@ -117,6 +117,17 @@ const faqs = [
     answer:
       "You can change Part D plans during the Annual Enrollment Period from October 15 to December 7, with coverage starting January 1. If you have a Medicare Advantage plan, the Medicare Advantage Open Enrollment Period from January 1 to March 31 also lets you switch. Certain Special Enrollment Periods may apply if you move or lose other coverage.",
   }
+,
+  {
+    question: "How often can I switch Medicare plans if my asthma medications change?",
+    answer:
+      "You can change Medicare Advantage or Part D plans during the Annual Enrollment Period from October 15 to December 7 each year. There's also a Medicare Advantage Open Enrollment Period from January 1 to March 31. If you qualify for a Special Enrollment Period due to a move or loss of coverage, you may switch outside these windows.",
+  },
+  {
+    question: "Does Medicare cover pulmonologist visits for asthma management?",
+    answer:
+      "Yes. Medicare Part B covers visits to specialists like pulmonologists when medically necessary, after you meet the Part B deductible. With Original Medicare you generally don't need a referral, while many Medicare Advantage HMO plans require one. I help you check network rules before you enroll.",
+  }
 ];
 
 export default function MedicareBrokerForAsthmaSufferers() {

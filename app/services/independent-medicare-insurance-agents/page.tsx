@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "independent medicare insurance agents | Free Plan Comparison | MedicareYourself",
   description:
-    "Independent Medicare insurance agents compare plans from multiple carriers at no cost to you. Call Anthony Orner at 855-559-1700 for an unbiased review.",
+    "Independent Medicare agents compare plans from multiple carriers at no cost to you. Call Anthony Orner at 855-559-1700 for an unbiased side-by-side review.",
   alternates: { canonical: "https://medicareyourself.com/services/independent-medicare-insurance-agents" },
   openGraph: {
     title:
@@ -140,6 +140,17 @@ const faqs = [
     question: "Can an independent agent help with both Medicare Advantage and Medigap plans?",
     answer:
       "Yes. Independent Medicare agents are typically appointed with carriers offering Medicare Advantage, Medicare Supplement (Medigap), and standalone Part D prescription drug plans. This allows them to walk you through the pros and cons of each path and recommend the structure that fits your health needs and budget.",
+  }
+,
+  {
+    question: "What questions should I ask an independent Medicare agent before enrolling?",
+    answer:
+      "Ask which carriers they represent, how many plan options they'll compare for you, and whether they review your current doctors and prescriptions before recommending coverage. You should also ask about ongoing service, such as help with claims, appeals, or annual plan reviews each fall during the Annual Enrollment Period.",
+  },
+  {
+    question: "Will an independent agent help me after I enroll?",
+    answer:
+      "Yes. A good independent agent stays available year-round to answer billing questions, assist with provider network changes, and review your plan annually to make sure it still fits. Because carriers pay them for ongoing service, there is no additional cost for this support.",
   }
 ];
 
@@ -370,6 +381,7 @@ export default function IndependentMedicareInsuranceAgentsPage() {
             <div className="text-sm text-gray-600 mt-4">Verify any agent's license through your state insurance department, or get free unbiased counseling from <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">your local SHIP program</a>. New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify a producer's license through the <a href="https://www.state.nj.us/dobi/inssrch.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance license search</a> or get free unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify an agent's license or get free Medicare counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">For free, unbiased counseling, contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey SHIP (State Health Insurance Assistance Program)</a> or your state's SHIP office.</div>
       </section>
     </>
   );

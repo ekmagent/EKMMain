@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "My Medicare Supplement Rate Just Jumped — Why, and What Can I Do? | Free Rate Comparison | MedicareYourself",
   description:
-    "Medigap premium jumped? Learn why Medicare Supplement rates rise and how switching to the same plan letter could lower your cost. Call 855-559-1700 for a free review.",
+    "Medigap premium jumped? Learn why Medicare Supplement rates rise and how switching to the same plan letter could lower your cost. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-supplement-rate-jumped-why-and-what-can-i-do" },
   openGraph: {
     title:
@@ -155,6 +155,22 @@ const faqs = [
     question: "How do I compare Medigap rates without affecting my current coverage?",
     answer:
       "You can request a free comparison from a licensed broker who quotes multiple carriers at once. Your current policy stays in force until a new plan is approved and you choose to cancel. Call 855-559-1700 to review your options before making any changes.",
+  }
+,
+  {
+    question: "Does Medicare set or regulate Medigap premium increases?",
+    answer:
+      "No. Medicare doesn't control Medigap pricing. Each carrier files proposed rates with your state's insurance department, which reviews and approves them. That's why two carriers offering identical Plan G benefits can charge very different premiums.",
+  },
+  {
+    question: "What's the difference between attained-age, issue-age, and community-rated Medigap policies?",
+    answer:
+      "Attained-age policies increase premiums as you get older, which is the most common pricing method. Issue-age policies base your premium on your age when you bought the plan, and community-rated policies charge everyone in your area the same regardless of age. All three can still see rate hikes due to inflation and claims experience.",
+  },
+  {
+    question: "Could switching to a Medicare Advantage plan be a better option than changing Medigap carriers?",
+    answer:
+      "It depends on your health, doctors, and budget. Medicare Advantage often has lower or no monthly premium but uses networks and prior authorization, while Medigap offers broader provider access and predictable out-of-pocket costs. A licensed broker can compare both side-by-side for your situation.",
   }
 ];
 
@@ -415,6 +431,7 @@ export default function MedicareSupplementRateJumpedPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify carrier rate filings and consumer protections through the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">New Jersey Department of Banking and Insurance</a> or get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/index.shtml" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> or the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">For state-specific help, contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> or your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">Need help in your state? Contact your <a href="https://www.shiphelp.org/about-medicare/regional-ship-location" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </main>
   );

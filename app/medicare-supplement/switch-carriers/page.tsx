@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Switch Medigap Carriers, Same Plan G (2026)",
   description:
-    "Switch Medigap Plan G carriers and keep identical federal benefits at a lower premium. Free carrier comparison in NJ & 34 states — call 855-559-1700 today.",
+    "Switch Medigap Plan G carriers and keep identical federal benefits at a lower premium. Free carrier comparison in NJ & 34 states — call 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/medicare-supplement/switch-carriers` },
   openGraph: {
     title: "Switch Medigap Carriers, Same Plan G (2026)",
@@ -493,6 +493,22 @@ const faqs = [
     answer:
       "No. Medicare Supplement (Medigap) and Medicare Part D prescription drug plans are completely separate. You can switch your Medigap carrier at any time of year without touching your Part D plan, and changing Part D during the Annual Enrollment Period does not affect your Medigap policy.",
   }
+,
+  {
+    question: "Will I have to answer health questions to switch Plan G carriers?",
+    answer:
+      "In most states, yes — if you are switching outside your 6-month Medigap Open Enrollment Period and do not have a Guaranteed Issue right, the new carrier can require medical underwriting. That means they may ask about your health history and prescription medications, and they can decline your application. A broker can pre-screen you against each carrier's underwriting guidelines before you apply so you only submit where you are likely to be approved.",
+  },
+  {
+    question: "What happens to my old Medigap policy when I switch?",
+    answer:
+      "You should never cancel your existing Medigap policy until the new one has been approved and has an active start date. Once the new policy is in force, you contact the old carrier to cancel and request a refund of any unearned premium. Medicare allows a 30-day free look period on the new policy so you can review it before committing.",
+  },
+  {
+    question: "Does switching Medigap carriers affect my Part D drug plan?",
+    answer:
+      "No. Your Medicare Supplement (Medigap) policy and your Part D prescription drug plan are completely separate. Switching Medigap carriers does not change, cancel, or affect your standalone Part D plan in any way. You can review your Part D coverage separately during the Annual Enrollment Period each fall.",
+  }
 ];
 
 export default function SwitchCarriersPage() {
@@ -753,6 +769,7 @@ export default function SwitchCarriersPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medigap counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> before switching carriers.</div>
             <div className="text-sm text-gray-600 mt-4">Free unbiased counseling: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </>
   );

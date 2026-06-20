@@ -1121,6 +1121,22 @@ const steps = [
     answer:
       "Social Security will review your application and send a confirmation, usually by mail. If approved, you'll receive your red, white, and blue Medicare card with your Part A and Part B effective dates. If SSA needs more information, they will contact you directly.",
   }
+,
+  {
+    question: "Do I need to contact Medicare directly to sign up for Part A and Part B?",
+    answer:
+      "No. Original Medicare enrollment is handled by the Social Security Administration, not Medicare itself. You can apply online at ssa.gov, by phone, or in person at a local Social Security office. Medicare.gov directs all Part A and Part B sign-ups to SSA.",
+  },
+  {
+    question: "What documents do I need before starting the SSA online application?",
+    answer:
+      "You'll need your Social Security number and a valid form of identification such as a driver's license to verify your identity through Login.gov or ID.me. If you have current health coverage through an employer, have the employer name, coverage start date, and group plan details ready. Having this information on hand keeps the application to about 10 minutes.",
+  },
+  {
+    question: "Can I change my application after I submit it online?",
+    answer:
+      "No. Once you agree to the Electronic Signature Agreement and click Submit Now, the application is final and cannot be modified online. If you need to make a correction, you'll have to contact the Social Security Administration directly. Review every screen carefully before submitting.",
+  }
 ];
 
 export default function SSAOnlineEnrollmentWalkthrough() {

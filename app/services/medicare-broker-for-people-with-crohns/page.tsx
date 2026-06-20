@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare broker for people with crohns | No-Cost Plan Help | MedicareYourself",
   description:
-    "Medicare broker for people with Crohn's — compare plans covering biologics, infusions, and GI specialists at no cost. Call 855-559-1700 for free help today.",
+    "Medicare broker for people with Crohn's — compare plans covering biologics, infusions, and GI specialists at no cost. Call 855-559-1700 for free guidance.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-people-with-crohns" },
   openGraph: {
     title:
@@ -180,6 +180,22 @@ const faqs = [
     question: "What should I look for in a Medicare plan if I have Crohn's disease?",
     answer:
       "Focus on three things: whether your gastroenterologist and infusion center are in-network, whether your specific biologics and maintenance drugs are on the formulary at a manageable tier, and how the plan handles prior authorization for specialty drugs. A Medigap plan paired with Part D often gives the broadest specialist access, while Medicare Advantage may offer lower premiums with network trade-offs.",
+  }
+,
+  {
+    question: "Are infusions for Crohn's covered under Medicare Part B or Part D?",
+    answer:
+      "It depends on how and where the drug is administered. Biologic infusions given in a doctor's office or infusion center are typically covered under Part B as a medical benefit, while self-injected or oral biologics usually fall under Part D. This distinction matters because Part B and Part D have different cost-sharing structures, so a broker can help you compare your total expected costs.",
+  },
+  {
+    question: "Should someone with Crohn's choose Medigap or Medicare Advantage?",
+    answer:
+      "There's no one-size-fits-all answer, but many people with chronic conditions like Crohn's value the predictable costs and provider freedom of a Medigap (Supplement) plan paired with a standalone Part D plan. Medicare Advantage plans can have lower premiums but use networks and prior authorization, which can complicate specialist and biologic access. The right choice depends on your providers, prescriptions, and budget.",
+  },
+  {
+    question: "What happens if my Crohn's medication isn't on a plan's formulary?",
+    answer:
+      "If your specific biologic or Crohn's drug isn't covered, you can request a formulary exception with your doctor's support, switch to a covered alternative, or change plans during the Annual Enrollment Period. A licensed broker can review formularies before you enroll so you avoid coverage surprises. This is one of the most important steps for anyone managing Crohn's on Medicare.",
   }
 ];
 
@@ -453,6 +469,7 @@ export default function MedicareBrokerForPeopleWithCrohns() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
 
         <p className="text-sm text-gray-500 mt-8">
