@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare insurance agents in burlington new jersey | Free Local Help | MedicareYourself",
   description:
-    "Compare Medigap, Medicare Advantage & Part D plans with a licensed independent broker serving Burlington County, NJ. Free, no-obligation help — call today.",
+    "Compare Medigap, Medicare Advantage & Part D in Burlington County, NJ with a licensed independent broker. Free, no-obligation help — call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-insurance-agents-in-burlington-new-jersey" },
   openGraph: {
     title:
@@ -344,6 +344,22 @@ const faqs = [
     answer:
       "New Jersey uses community rating for Medigap, which means premiums for a given plan are generally not based on your individual age. Carriers still set their own rates, so comparing multiple companies is important to find the best value.",
   }
+,
+  {
+    question: "Do Medicare brokers in Burlington, NJ charge a fee?",
+    answer:
+      "No. Independent Medicare brokers are paid commissions by the insurance carriers, not by you. Your premium is identical whether you enroll on your own or through a licensed broker, so there is no added cost for personalized guidance.",
+  },
+  {
+    question: "Can a Burlington, NJ broker help me compare Medigap and Medicare Advantage?",
+    answer:
+      "Yes. A licensed independent broker can run a side-by-side comparison of Medigap, Medicare Advantage, and Part D options available in Burlington County. New Jersey uses community rating for Medigap, so all enrollees in a given plan pay the same premium regardless of age.",
+  },
+  {
+    question: "When is the best time to enroll in Medigap in New Jersey?",
+    answer:
+      "The strongest protection is during your 6-month Medigap Open Enrollment Period, which begins the month you are 65 or older and enrolled in Part B. During that window, carriers cannot deny coverage or charge more based on health. Outside that window, medical underwriting typically applies in NJ.",
+  }
 ];
 
 export default function MedicareInsuranceAgentsBurlingtonNJ() {
@@ -613,6 +629,7 @@ export default function MedicareInsuranceAgentsBurlingtonNJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
     </>
   );

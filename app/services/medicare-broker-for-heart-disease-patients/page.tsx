@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare broker for heart disease patients | Free Help Finding the Right Plan | MedicareYourself",
   description:
-    "Medicare broker for heart disease patients — compare plans covering cardiologists, cardiac rehab & heart medications. Free unbiased help. Call 855-559-1700.",
+    "Medicare broker for heart disease patients — compare plans covering cardiologists, cardiac rehab & heart medications. Free expert help. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-heart-disease-patients" },
   openGraph: {
     title:

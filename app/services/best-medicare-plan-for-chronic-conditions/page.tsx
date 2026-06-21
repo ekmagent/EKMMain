@@ -140,6 +140,22 @@ const faqs = [
     answer:
       "Yes. Original Medicare covers Chronic Care Management services through Part B for people with two or more chronic conditions expected to last at least 12 months. Medicare Advantage Special Needs Plans also include care coordination tailored to the specific condition the plan serves, such as diabetes or cardiovascular disease.",
   }
+,
+  {
+    question: "Do Special Needs Plans cover the same benefits as Original Medicare?",
+    answer:
+      "Yes. SNPs are required to cover all the same Part A and Part B benefits that Original Medicare and other Medicare Advantage plans cover. They also include care coordination services and tailor their provider networks and drug formularies to the specific condition group they serve.",
+  },
+  {
+    question: "Are C-SNPs offered as HMO or PPO plans?",
+    answer:
+      "C-SNPs are structured as either HMO or PPO Medicare Advantage plans, which means network rules and referral requirements still apply. That's an important difference from Original Medicare with Medigap, which lets you see any provider nationwide that accepts Medicare.",
+  },
+  {
+    question: "How do I know whether Medigap or a C-SNP is better for my situation?",
+    answer:
+      "The right choice depends on your providers, prescriptions, budget, and how often you need specialty care. A licensed broker can compare both options side by side at no cost — call 855-559-1700 to walk through your specific conditions and doctors.",
+  }
 ];
 
 export default function BestMedicarePlanForChronicConditions() {

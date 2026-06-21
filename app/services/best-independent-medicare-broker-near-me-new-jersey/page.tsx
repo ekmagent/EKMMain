@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "best independent medicare broker near me new jersey | Free Consultation | MedicareYourself",
   description:
-    "Looking for the best independent Medicare broker near you in New Jersey? Anthony Orner compares 20+ carriers across all 21 NJ counties at no cost. Call 855-559-1700.",
+    "Looking for the best independent Medicare broker near you in New Jersey? Anthony Orner compares 20+ carriers across all 21 NJ counties. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/best-independent-medicare-broker-near-me-new-jersey" },
   openGraph: {
     title:
@@ -135,6 +135,17 @@ const faqs = [
     question: "Does New Jersey have community-rated Medigap pricing?",
     answer:
       "Yes. New Jersey uses community rating for Medigap policies, which means carriers charge the same base premium regardless of your age. Your rate can still vary by carrier, plan letter, and household discounts, so comparing across multiple insurers still matters.",
+  }
+,
+  {
+    question: "Does New Jersey use community rating for Medigap pricing?",
+    answer:
+      "Yes. New Jersey requires community-rated pricing for Medigap policies, meaning carriers cannot charge you a higher premium based on your age. Your rate is the same as everyone else enrolled in that plan with that carrier in NJ. However, this does not mean Medigap is guaranteed issue year-round — health underwriting can still apply outside protected enrollment windows.",
+  },
+  {
+    question: "How do I verify a Medicare broker is licensed in New Jersey?",
+    answer:
+      "You can confirm licensure through the New Jersey Department of Banking and Insurance producer search or by checking the broker's National Producer Number (NPI). Anthony Orner's NPI is 1902584006, and he is licensed in New Jersey plus 34 additional states. Always confirm a broker is appointed with multiple carriers before enrolling.",
   }
 ];
 

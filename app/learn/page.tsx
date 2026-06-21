@@ -293,6 +293,12 @@ const GUIDES = [
     answer:
       "Part A covers inpatient hospital stays, skilled nursing facility care, hospice, and some home health care. Most people don't pay a premium for Part A because they or a spouse paid Medicare taxes while working. You can confirm your premium-free status when you enroll through SSA.gov or call 855-559-1700 for help.",
   }
+,
+  {
+    question: "How do I know if Original Medicare or Medicare Advantage is right for me?",
+    answer:
+      "The right choice depends on your budget, the doctors and hospitals you want to use, your prescription needs, and how much flexibility you want when traveling. Original Medicare paired with a Medigap plan gives you nationwide access to any provider that accepts Medicare, while Medicare Advantage plans use networks and often bundle extra benefits. A licensed broker can walk you through the trade-offs at 855-559-1700.",
+  }
 ];
 
 export default function LearnHubPage() {

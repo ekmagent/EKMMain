@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare insurance agents in elizabeth new jersey | Free Quotes | MedicareYourself",
   description:
-    "Medicare insurance agents in Elizabeth, NJ — Anthony Orner compares Medigap and Advantage plans across carriers at no cost. Free quotes. Call 855-559-1700.",
+    "Medicare insurance agents in Elizabeth, NJ — Anthony Orner compares Medigap and Advantage plans across top carriers at no cost. Call 855-559-1700 for free quotes.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-insurance-agents-in-elizabeth-new-jersey" },
   openGraph: {
     title:
@@ -85,6 +85,12 @@ const faqs = [
     answer:
       "Your Medigap Open Enrollment Period starts the month you turn 65 and are enrolled in Part B. During this 6-month window, carriers must accept you regardless of health history. Applying up to 6 months before your Part B start date helps lock in the best rate.",
   },
+,
+  {
+    question: "Does a Medicare broker in Elizabeth, NJ cost anything?",
+    answer:
+      "No. Licensed Medicare brokers are paid commissions by the insurance carriers, not by you. Your premium is the same whether you enroll directly with the carrier or through an independent broker. There are no hidden fees or enrollment charges for the consultation.",
+  }
 ];
 
 export default function MedicareInsuranceAgentsElizabethNJ() {
@@ -354,6 +360,7 @@ export default function MedicareInsuranceAgentsElizabethNJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

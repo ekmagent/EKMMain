@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "My Medicare Supplement Rate Just Jumped — Why, and What Can I Do? | Free Rate Comparison | MedicareYourself",
   description:
-    "Medigap premium jumped? Learn why Medicare Supplement rates rise and how switching to the same plan letter could lower your cost. Call 855-559-1700.",
+    "Medigap premium just jumped? Learn why Medicare Supplement rates rise and how switching to the same plan letter could lower your cost. Free quote: 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-supplement-rate-jumped-why-and-what-can-i-do" },
   openGraph: {
     title:
@@ -171,6 +171,22 @@ const faqs = [
     question: "Could switching to a Medicare Advantage plan be a better option than changing Medigap carriers?",
     answer:
       "It depends on your health, doctors, and budget. Medicare Advantage often has lower or no monthly premium but uses networks and prior authorization, while Medigap offers broader provider access and predictable out-of-pocket costs. A licensed broker can compare both side-by-side for your situation.",
+  }
+,
+  {
+    question: "If I switch Medigap carriers, will I have to start a new deductible or waiting period?",
+    answer:
+      "Medigap Plan letters are standardized, so the benefits reset based on the new carrier's policy terms. If you had continuous creditable coverage, the new carrier generally cannot impose a new pre-existing condition waiting period. The Part B deductible counts toward Medicare itself, not the supplement, so it does not restart when you change carriers.",
+  },
+  {
+    question: "Does my Part D drug plan change if I switch Medigap carriers?",
+    answer:
+      "No. Medicare Supplement and Part D prescription drug plans are separate products. Switching your Medigap carrier has no effect on your standalone Part D plan, and you can continue to use Original Medicare with both.",
+  },
+  {
+    question: "What should I do first if my Medigap premium just increased?",
+    answer:
+      "Start by comparing rates for the same plan letter across multiple carriers in your ZIP code before assuming you are stuck. A licensed broker can run a side-by-side quote and review whether you would likely pass underwriting. You can call 855-559-1700 for a free comparison with Anthony Orner.",
   }
 ];
 
@@ -432,6 +448,7 @@ export default function MedicareSupplementRateJumpedPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/index.shtml" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> or the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">For state-specific help, contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> or your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">Need help in your state? Contact your <a href="https://www.shiphelp.org/about-medicare/regional-ship-location" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> or the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP program</a> for free Medicare counseling.</div>
       </section>
     </main>
   );

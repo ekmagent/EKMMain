@@ -124,6 +124,12 @@ const faqs = [
     answer:
       "Outside your 6-month Medigap Open Enrollment Period, switching plans in New Jersey generally requires medical underwriting, and carriers can decline coverage or charge more based on health. Certain guaranteed-issue situations apply, such as losing employer coverage. A licensed broker can review whether you qualify for a guaranteed-issue right.",
   }
+,
+  {
+    question: "How does New Jersey's community rating affect Medigap costs in Monmouth County?",
+    answer:
+      "New Jersey requires Medigap plans to use community rating, which means insurers charge the same premium to everyone with a given plan regardless of age. This is different from many other states that allow age-rated pricing. Monmouth County residents benefit from this rule, though premiums still vary by carrier and plan letter.",
+  }
 ];
 
 export default function MedicareInMonmouthCountyNewJersey() {
@@ -363,6 +369,7 @@ export default function MedicareInMonmouthCountyNewJersey() {
             <div className="text-sm text-gray-600 mt-4">New Jersey resources: <a href="https://www.nj.gov/humanservices/doas/services/l-p/msp/" rel="noopener noreferrer" target="_blank" className="underline">NJ Division of Aging Services — Medicare Savings Programs</a> and <a href="https://medicare.co.monmouth.nj.us/" rel="noopener noreferrer" target="_blank" className="underline">Monmouth County Medicare Part B Reimbursement</a></div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.nj.gov/humanservices/doas/assistance/medicare/offices.shtml" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free local Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.nj.gov/humanservices/doas/assistance/medicare/offices.shtml" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free local Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey resource: <a href="https://www.nj.gov/humanservices/doas/assistance/medicare/offices.shtml" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP) local offices</a></div>
       </section>
     </main>
   );

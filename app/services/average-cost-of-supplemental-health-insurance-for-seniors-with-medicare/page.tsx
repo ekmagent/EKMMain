@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "average cost of supplemental health insurance for seniors with medicare | Free Broker Comparison | MedicareYourself",
   description:
-    "Compare what drives Medigap premiums for seniors on Medicare — plan letter, age, and state. A licensed broker shops carriers free. Call 855-559-1700.",
+    "Medigap premiums vary by plan letter, age, state, and carrier. A licensed broker compares rates free so you don't overpay. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/average-cost-of-supplemental-health-insurance-for-seniors-with-medicare" },
   openGraph: {
     title:
@@ -728,6 +728,12 @@ const faqs = [
     answer:
       "It depends on how the insurance company prices the policy. Community-rated plans charge everyone the same premium regardless of age, issue-age-rated plans base premiums on your age when you buy, and attained-age-rated plans increase as you grow older. All three pricing methods can also rise over time due to inflation and claims experience.",
   }
+,
+  {
+    question: "Does where I live affect how much I pay for a Medigap plan?",
+    answer:
+      "Yes. Medigap premiums vary widely by state and even by zip code because carriers price based on local claims experience and regulations. The same lettered plan from the same company can cost noticeably more in one state than another. A licensed broker can show you carrier-by-carrier pricing for your exact location.",
+  }
 ];
 
 export default function AverageCostSupplementalInsurancePage() {
@@ -967,6 +973,7 @@ export default function AverageCostSupplementalInsurancePage() {
             <div className="text-sm text-gray-600 mt-4">For state-specific rate help, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free local Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify rates and consumer rights through the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or get free counseling from <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">your State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
     </main>
   );

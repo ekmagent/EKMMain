@@ -113,6 +113,12 @@ const faqs = [
     answer:
       "Medicare Part B covers partial hospitalization programs and certain community-based mental health services when provided by a Medicare-certified program. Coverage includes evaluation, individual and group therapy, and medication management. Some Medicare Advantage plans offer additional care coordination benefits for members with chronic conditions like schizophrenia.",
   }
+,
+  {
+    question: "Can a Medicare broker help find plans that include my current psychiatrist?",
+    answer:
+      "Yes. A licensed broker can check provider directories across Medicare Advantage plans in your area to confirm whether your psychiatrist, therapist, or community mental health center is in-network. With Original Medicare paired with a Medigap plan, you can generally see any provider who accepts Medicare nationwide, which is often important for continuity of psychiatric care.",
+  }
 ];
 
 export default function MedicareBrokerSchizophreniaPatients() {
@@ -401,6 +407,7 @@ export default function MedicareBrokerSchizophreniaPatients() {
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free local counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" target="_blank" rel="noopener noreferrer" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free local counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </main>
   );

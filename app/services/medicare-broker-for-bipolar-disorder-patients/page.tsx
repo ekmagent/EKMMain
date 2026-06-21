@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for bipolar disorder patients | Free Plan Comparison | MedicareYourself",
   description:
-    "Medicare broker for bipolar disorder patients — Anthony Orner compares Part D plans covering mood stabilizers & therapy. Free plan review: 855-559-1700.",
+    "Medicare broker for bipolar disorder patients — Anthony Orner compares Part D plans for mood stabilizers, therapy & psychiatric care. Free review: 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-bipolar-disorder-patients" },
   openGraph: {
     title:
@@ -237,6 +237,22 @@ const faqs = [
     question: "Are therapy and psychiatrist visits covered by Medicare for bipolar disorder?",
     answer:
       "Yes. Medicare Part B covers outpatient mental health services, including individual and group psychotherapy, family counseling, medication management, and psychiatric evaluations. You typically pay the Part B deductible and then a coinsurance percentage of the Medicare-approved amount. Providers must accept Medicare assignment for these costs to apply.",
+  }
+,
+  {
+    question: "Does Medicare Part B cover outpatient therapy and psychiatrist visits for bipolar disorder?",
+    answer:
+      "Yes. Medicare Part B covers outpatient mental health services including individual and group psychotherapy, family counseling, medication management visits with a psychiatrist, and diagnostic evaluations. After meeting the Part B deductible, you typically pay a coinsurance share of the Medicare-approved amount. Providers must accept Medicare assignment for these benefits to apply.",
+  },
+  {
+    question: "Does Medicare cover lab work like lithium blood level monitoring?",
+    answer:
+      "Yes. Medicare Part B covers medically necessary laboratory tests ordered by your provider, including blood draws to monitor lithium levels, thyroid function, and kidney function — all of which are routine for bipolar disorder management. When the lab accepts Medicare assignment, these tests are generally covered at no additional cost beyond standard Part B cost-sharing.",
+  },
+  {
+    question: "Should I choose Original Medicare or Medicare Advantage if I have bipolar disorder?",
+    answer:
+      "It depends on your providers and medications. Original Medicare plus a standalone Part D plan offers broad provider access, which matters if you see an established psychiatrist or therapist. Medicare Advantage plans bundle drug coverage and may include extras, but networks can restrict which mental health providers you see. A broker can compare your current prescribers and medications against both options before you enroll.",
   }
 ];
 

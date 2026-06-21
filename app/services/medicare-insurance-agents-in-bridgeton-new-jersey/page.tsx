@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare insurance agents in bridgeton new jersey | Free Local Broker | MedicareYourself",
   description:
-    "Medicare agents in Bridgeton, NJ — Anthony Orner compares Supplement & Advantage plans across top carriers at no cost. Call 855-559-1700 for a free quote.",
+    "Talk to a licensed Medicare broker in Bridgeton, NJ. Anthony Orner compares Supplement & Advantage plans across top carriers at no cost. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-insurance-agents-in-bridgeton-new-jersey" },
   openGraph: {
     title:
@@ -142,6 +142,17 @@ const faqs = [
     question: "Can I switch Medicare plans after I enroll?",
     answer:
       "Yes, but the rules depend on the plan type. Medicare Advantage and Part D plans can be changed during the Annual Enrollment Period each fall, and sometimes during the Medicare Advantage Open Enrollment Period in early spring. Switching Medigap plans outside your initial 6-month Open Enrollment window may require medical underwriting in New Jersey.",
+  }
+,
+  {
+    question: "Does an independent Medicare broker in Bridgeton charge a fee?",
+    answer:
+      "No. Licensed Medicare brokers are compensated by the insurance carriers when a plan is issued, not by the client. You pay the same premium whether you enroll directly with a carrier or through a broker like Anthony Orner. The benefit is that an independent broker can compare multiple carriers side by side in one conversation.",
+  },
+  {
+    question: "Can I change my Medicare plan after I enroll?",
+    answer:
+      "Yes, but the rules depend on the plan type. Medicare Advantage and Part D plans can typically be changed during the Annual Election Period each fall or during certain Special Enrollment Periods. Medigap plans can be changed any time, though outside your initial 6-month Medigap Open Enrollment Period you may face medical underwriting in New Jersey.",
   }
 ];
 
@@ -405,6 +416,7 @@ export default function MedicareInsuranceAgentsBridgetonNJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Local help: <a href="https://www.cumberlandcountynj.gov/aging/ship" rel="noopener noreferrer" target="_blank" className="underline">Cumberland County SHIP — free Medicare counseling</a></div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">Free local counseling: <a href="https://www.cumberlandcountynj.gov/aging/ship" rel="noopener noreferrer" target="_blank" className="underline">Cumberland County SHIP (Senior Health Insurance Program)</a></div>
       </section>
     </main>
   );

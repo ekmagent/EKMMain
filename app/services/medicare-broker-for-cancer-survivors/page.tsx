@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for cancer survivors | Free Coverage Review | MedicareYourself",
   description:
-    "Cancer survivor on Medicare? Anthony Orner reviews oncology, scans & Part D drug coverage at no cost. Free plan review — call 855-559-1700 today.",
+    "Cancer survivor on Medicare? Broker Anthony Orner reviews oncology, scans & Part D drug coverage at no cost. Call 855-559-1700 for a free plan review.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-cancer-survivors" },
   openGraph: {
     title:
@@ -275,6 +275,7 @@ export default function MedicareBrokerForCancerSurvivors() {
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> — free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">Need state-level help? Visit the <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling in your state.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents: <a href="https://www.state.nj.us/dobi/division_consumers/insurance/ship.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> offers free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
       </section>
     </main>
   );

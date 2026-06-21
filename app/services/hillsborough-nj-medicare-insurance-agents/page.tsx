@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "hillsborough nj medicare insurance agents | Free Broker Consultation | MedicareYourself",
   description:
-    "Hillsborough NJ Medicare brokers compare Supplement & Advantage plans from top carriers at zero cost. Call 855-559-1700 for a free Somerset County plan review.",
+    "Hillsborough NJ Medicare brokers compare Supplement, Advantage & Part D plans from top carriers at no cost. Call 855-559-1700 for a free Somerset County plan review.",
   alternates: { canonical: "https://medicareyourself.com/services/hillsborough-nj-medicare-insurance-agents" },
   openGraph: {
     title:
@@ -132,6 +132,22 @@ const faqs = [
     question: "Do I need to switch Medicare plans every year in New Jersey?",
     answer:
       "No, but it's smart to review annually. Plan benefits, drug formularies, and premiums change each year, and a plan that fit last year may no longer be the best value. During the Annual Enrollment Period, October 15 through December 7, a broker can run a free comparison for your Hillsborough zip code.",
+  }
+,
+  {
+    question: "Does a Hillsborough Medicare broker work with all carriers?",
+    answer:
+      "An independent Medicare broker is appointed with multiple national and regional carriers offering plans in Somerset County. That allows side-by-side comparison of Medicare Supplement, Medicare Advantage, and Part D plans available in the 08844 zip code. The goal is to match your doctors, prescriptions, and budget to the right plan.",
+  },
+  {
+    question: "Can a broker help me switch Medicare plans if I'm unhappy?",
+    answer:
+      "Yes. During the Annual Enrollment Period (October 15 through December 7) you can change Advantage or Part D plans for the following year. The Medicare Advantage Open Enrollment Period from January 1 through March 31 also allows one switch. A broker can review your current coverage and handle the paperwork at no cost.",
+  },
+  {
+    question: "What's the difference between Medicare Advantage and Medicare Supplement in NJ?",
+    answer:
+      "Medicare Advantage (Part C) bundles your hospital, medical, and usually drug coverage through a private carrier with network rules. Medicare Supplement (Medigap) works alongside Original Medicare to cover out-of-pocket costs and lets you see any provider that accepts Medicare nationwide. Each fits different budgets and lifestyles, which a Hillsborough broker can walk through.",
   }
 ];
 
@@ -370,6 +386,7 @@ export default function HillsboroughNJMedicareInsuranceAgents() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
     </main>
   );

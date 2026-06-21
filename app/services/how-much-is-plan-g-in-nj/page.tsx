@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "How Much Is Plan G in NJ? | Free Rate Comparison by Age | MedicareYourself",
   description:
-    "How much is Plan G in NJ? Compare 2026 Medigap rates by age and zip from every major carrier — Anthony Orner finds your lowest price. Call 855-559-1700.",
+    "How much is Plan G in NJ? Compare 2026 Medigap rates by age and zip from every major carrier — Anthony Orner finds your lowest price. Free quote: 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/how-much-is-plan-g-in-nj" },
   openGraph: {
     title:
@@ -99,6 +99,22 @@ const faqs = [
     question: "Is Plan G worth it in New Jersey compared to other Medigap plans?",
     answer:
       "For most New Jersey beneficiaries, Plan G offers the most comprehensive coverage available to those newly eligible for Medicare. It eliminates nearly all out-of-pocket exposure outside the Part B deductible, making budgeting predictable. Whether it's the right fit depends on your health, budget, and how often you use care.",
+  }
+,
+  {
+    question: "Why is the same Plan G policy priced differently by each NJ carrier?",
+    answer:
+      "Medicare requires every Plan G policy to cover the exact same federally standardized benefits, so coverage does not differ between companies. According to Medicare.gov, the price is the only real difference between Plan G policies sold by different insurers. Carriers use different pricing structures, underwriting, and rate-increase histories, which is why shopping every carrier matters.",
+  },
+  {
+    question: "Does my NJ zip code affect my Plan G premium?",
+    answer:
+      "Yes. Medicare.gov notes that Medigap premiums vary depending on the insurance company, the plan, and where you live. In New Jersey, two people the same age can receive different Plan G quotes simply because they live in different rating areas. That's why a zip-specific quote is the only reliable way to know your true price.",
+  },
+  {
+    question: "How do I get the lowest Plan G rate in New Jersey?",
+    answer:
+      "The most reliable way is to compare quotes from every major carrier licensed in New Jersey for your exact age, gender, and zip code. Since benefits are identical by federal law, the lowest-priced carrier with a stable rate-increase history is typically the best value. Call Anthony Orner at 855-559-1700 for a free side-by-side comparison.",
   }
 ];
 
@@ -292,6 +308,7 @@ export default function HowMuchIsPlanGInNJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey resource: <a href="https://www.state.nj.us/dobi/division_insurance/ihcseh/medsupp.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking &amp; Insurance — Medicare Supplement Information</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey shoppers can also review the <a href="https://www.nj.gov/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </main>
   );

@@ -122,6 +122,12 @@ const faqs = [
     answer:
       "Ask which carriers they are contracted with, how many plans they can compare, and whether they receive different commissions from different companies. Also ask about ongoing support — will they help you if a claim is denied or if your medications change mid-year? A good agent welcomes these questions and answers them transparently.",
   }
+,
+  {
+    question: "What questions should I ask a Medicare agent before enrolling?",
+    answer:
+      "Ask which carriers they represent, how they are compensated, and whether they offer ongoing support after enrollment. You should also ask for their National Producer Number, confirm they are licensed in your state, and find out if they review your plan annually to ensure it still fits your needs.",
+  }
 ];
 
 export default function MedicareAgentsNearMe() {

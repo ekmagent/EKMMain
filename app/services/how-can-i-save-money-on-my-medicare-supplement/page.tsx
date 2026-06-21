@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "how can i save money on my medicare supplement | Free Rate Review | MedicareYourself",
   description:
-    "How can I save money on your Medicare Supplement? Compare carriers, stack discounts, and review plan letters. Call 855-559-1700 for a free rate review.",
+    "How can I save money on my Medicare Supplement? Compare carriers, stack discounts, and review plan letters. Call 855-559-1700 for a free rate review.",
   alternates: { canonical: "https://medicareyourself.com/services/how-can-i-save-money-on-my-medicare-supplement" },
   openGraph: {
     title:
@@ -152,6 +152,22 @@ const faqs = [
     question: "Are there government programs that can help me pay my Medicare costs?",
     answer:
       "Yes. Medicare Savings Programs run by your state can help pay Part B premiums and other out-of-pocket costs if you qualify based on income and resources. Supplemental Security Income through Social Security may also help certain people with limited incomes. You can learn more at medicare.gov/basics/costs/help or call us at 855-559-1700 for guidance.",
+  }
+,
+  {
+    question: "When is the best time to buy a Medicare Supplement at the lowest rate?",
+    answer:
+      "Your Medigap Open Enrollment Period is the best time to buy. During this 6-month window, which starts when you're 65 or older and enrolled in Part B, carriers cannot deny you coverage or charge more based on health. Buying outside this window may require medical underwriting, which can affect your rate.",
+  },
+  {
+    question: "Are household discounts available on Medicare Supplement plans?",
+    answer:
+      "Many carriers offer household or spousal discounts when two adults in the same home both enroll in a Medigap policy. Discount amounts and eligibility rules vary by carrier and state. We can check which carriers in your area offer this when reviewing your options.",
+  },
+  {
+    question: "Does my ZIP code affect my Medicare Supplement premium?",
+    answer:
+      "Yes. Carriers rate Medigap premiums by ZIP code, age, gender, and tobacco use. Two people with the same Plan G can pay very different premiums depending on where they live. Comparing carriers specific to your ZIP code is the fastest way to find savings.",
   }
 ];
 

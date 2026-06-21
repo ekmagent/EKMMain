@@ -1021,6 +1021,22 @@ const faqs = [
     answer:
       "No. Once you are enrolled in Original Medicare, your coverage continues automatically each year as long as you pay your premiums. However, if you have a Medicare Advantage or Part D drug plan, you can review and change it each fall during the Annual Enrollment Period (October 15 – December 7).",
   }
+,
+  {
+    question: "Can I sign up for Medicare if I am still working at 65?",
+    answer:
+      "Yes, you can enroll in Medicare at 65 even if you are still working. Many people enroll in premium-free Part A and delay Part B if they have creditable employer coverage from active employment. Confirm with your HR department that your group plan qualifies as creditable coverage before delaying Part B to avoid a late enrollment penalty.",
+  },
+  {
+    question: "What happens if I miss my Medicare Initial Enrollment Period?",
+    answer:
+      "If you miss your IEP and do not qualify for a Special Enrollment Period, you must wait for the General Enrollment Period (January 1 through March 31) to sign up. Coverage begins the month after you enroll, and you may owe a permanent Part B late enrollment penalty for each 12-month period you went without coverage.",
+  },
+  {
+    question: "Do I sign up for Medicare through Social Security or Medicare.gov?",
+    answer:
+      "You enroll in Medicare Parts A and B through the Social Security Administration at ssa.gov/medicare, not through medicare.gov. Medicare.gov is used to compare and enroll in Part D drug plans, Medicare Advantage plans, and to review coverage options. Call 855-559-1700 if you would like free help comparing plans after you enroll.",
+  }
 ];
 
 export default function HowToSignUpPage() {

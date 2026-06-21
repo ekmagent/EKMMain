@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for chronic pain patients | Free Coverage Consultation | MedicareYourself",
   description:
-    "Living with chronic pain? Broker Anthony Orner compares Medicare plans covering pain management, PT, and injections. Call 855-559-1700 for a free review.",
+    "Chronic pain and Medicare? Broker Anthony Orner compares plans covering pain management, PT, and specialists. Call 855-559-1700 for a free plan review.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-chronic-pain-patients" },
   openGraph: {
     title:
@@ -162,6 +162,17 @@ const faqs = [
     question: "Can I switch Medicare plans if my pain treatment isn't covered well?",
     answer:
       "Yes, but timing matters. Most people can change Medicare Advantage or Part D plans during the Annual Enrollment Period in the fall or the Medicare Advantage Open Enrollment Period in early spring. Switching to a Medigap plan outside your initial enrollment window may require medical underwriting, which can affect approval for people with chronic conditions.",
+  }
+,
+  {
+    question: "Does Medicare cover physical therapy for chronic pain?",
+    answer:
+      "Yes. Medicare Part B covers medically necessary outpatient physical therapy when prescribed by your doctor as part of a chronic pain treatment plan. After you meet the Part B deductible, you typically pay 20% of the Medicare-approved amount. There is no longer a hard cap on therapy visits, but providers must document continued medical necessity beyond a certain threshold.",
+  },
+  {
+    question: "Can I switch Medicare plans if my pain specialist leaves the network?",
+    answer:
+      "Mid-year network changes generally do not trigger a Special Enrollment Period on their own, so most members have to wait until the Annual Enrollment Period or Medicare Advantage Open Enrollment to switch. However, if you qualify for Extra Help, a C-SNP, or move out of the plan's service area, you may be able to change sooner. A licensed broker can review whether a Special Enrollment Period applies to your situation.",
   }
 ];
 
@@ -462,6 +473,7 @@ export default function MedicareBrokerForChronicPainPatients() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );
