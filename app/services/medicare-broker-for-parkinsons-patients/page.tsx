@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for Parkinson's patients | Free Plan Review | MedicareYourself",
   description:
-    "Medicare broker for Parkinson's patients — compare Part D drug costs, DBS coverage, and therapy access. Free plan review with Anthony Orner. Call 855-559-1700.",
+    "Medicare broker for Parkinson's patients — compare Part D, DBS coverage, and neurologist access. Free plan review with Anthony Orner. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-parkinsons-patients" },
   openGraph: {
     title:
@@ -182,6 +182,22 @@ const faqs = [
     question: "When can I change my Medicare plan if my Parkinson's treatment needs change?",
     answer:
       "Most people can change plans during the Annual Enrollment Period each fall, from October 15 to December 7, with coverage starting January 1. Medicare Advantage enrollees also get the Medicare Advantage Open Enrollment Period from January 1 to March 31. If you qualify for Extra Help or move into a Special Needs Plan area, you may have a Special Enrollment Period to switch outside those windows.",
+  }
+,
+  {
+    question: "When should I review my Medicare plan if I have Parkinson's?",
+    answer:
+      "Review your plan every year during the Annual Enrollment Period from October 15 to December 7. Drug formularies, tiers, and specialist networks change yearly, and Parkinson's medications can move tiers without notice. A quick annual review makes sure your current plan still covers your prescriptions at the lowest cost.",
+  },
+  {
+    question: "Should Parkinson's patients choose Medicare Advantage or Medigap?",
+    answer:
+      "It depends on your providers, medications, and budget. Medigap paired with Original Medicare offers broader specialist access and predictable out-of-pocket costs, which many Parkinson's patients prefer for movement disorder neurologists and DBS centers. Medicare Advantage may have lower premiums but uses networks and prior authorization that can affect access to specialty care.",
+  },
+  {
+    question: "Can a Medicare broker help me find a movement disorder specialist?",
+    answer:
+      "Yes. Before recommending a plan, I check whether your current neurologist or preferred Parkinson's Foundation Center of Excellence is in-network. If you're on Original Medicare with a Supplement, you can generally see any provider that accepts Medicare, which gives you the widest specialist access.",
   }
 ];
 
@@ -449,6 +465,7 @@ export default function MedicareBrokerForParkinsonsPatients() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">Free, unbiased counseling: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">Need free local counseling? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for unbiased Medicare guidance in your state.</div>
       </section>
     </main>
   );

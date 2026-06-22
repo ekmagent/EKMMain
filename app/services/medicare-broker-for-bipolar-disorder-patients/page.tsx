@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for bipolar disorder patients | Free Plan Comparison | MedicareYourself",
   description:
-    "Medicare broker for bipolar disorder patients — Anthony Orner compares Part D plans for mood stabilizers, therapy & psychiatric care. Free review: 855-559-1700.",
+    "Medicare broker for bipolar disorder: Anthony Orner compares Part D plans for mood stabilizers, therapy & psychiatric care. Free review — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-bipolar-disorder-patients" },
   openGraph: {
     title:
@@ -253,6 +253,22 @@ const faqs = [
     question: "Should I choose Original Medicare or Medicare Advantage if I have bipolar disorder?",
     answer:
       "It depends on your providers and medications. Original Medicare plus a standalone Part D plan offers broad provider access, which matters if you see an established psychiatrist or therapist. Medicare Advantage plans bundle drug coverage and may include extras, but networks can restrict which mental health providers you see. A broker can compare your current prescribers and medications against both options before you enroll.",
+  }
+,
+  {
+    question: "Does Medicare Part B cover therapy and counseling for bipolar disorder?",
+    answer:
+      "Yes. Medicare Part B covers outpatient mental health services including individual and group psychotherapy, family counseling when the focus is your treatment, and diagnostic evaluations. Services must be provided by a Medicare-enrolled psychiatrist, clinical psychologist, licensed clinical social worker, or other qualifying provider. After meeting the Part B deductible, you typically pay a coinsurance for each visit.",
+  },
+  {
+    question: "Will a Medicare broker review my full medication list before recommending a Part D plan?",
+    answer:
+      "Yes. A licensed broker enters every prescription — mood stabilizers, antipsychotics, antidepressants, and any other medications — into the plan comparison tool to project your true annual drug cost. This matters for bipolar disorder because formulary tier placement and prior authorization rules vary widely between plans, and the cheapest premium often is not the cheapest total cost.",
+  },
+  {
+    question: "Can I switch Medicare plans if my psychiatrist leaves the network?",
+    answer:
+      "If you are on Medicare Advantage and your psychiatrist exits the network mid-year, you generally must wait for the Annual Enrollment Period or Medicare Advantage Open Enrollment Period to switch, unless you qualify for a Special Enrollment Period. Original Medicare with a Medigap plan avoids network issues because you can see any provider who accepts Medicare. A broker can help weigh that tradeoff.",
   }
 ];
 
@@ -554,6 +570,7 @@ export default function MedicareBrokerBipolarDisorderPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-700 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" target="_blank" rel="noopener noreferrer" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
       </section>
       </article>
     </>

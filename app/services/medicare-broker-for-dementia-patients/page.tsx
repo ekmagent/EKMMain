@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for dementia patients | Free Caregiver Consultation | MedicareYourself",
   description:
-    "Medicare broker for dementia patients & caregivers — free help with home health, Part D drugs, skilled nursing & GUIDE program. Call 855-559-1700 today.",
+    "Medicare broker for dementia patients & caregivers — free help with home health, Part D drugs, skilled nursing & GUIDE program. Call 855-559-1700 for guidance.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-dementia-patients" },
   openGraph: {
     title:

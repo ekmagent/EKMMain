@@ -1020,6 +1020,22 @@ const faqs = [
     answer:
       "No. IRMAA only applies to your Part B premium and your Part D prescription drug premium. It is paid directly to Medicare, not to your Medicare Advantage or Medigap plan. However, if your Medicare Advantage plan includes drug coverage, the Part D portion of IRMAA still applies.",
   }
+,
+  {
+    question: "Can I appeal IRMAA if my income has dropped?",
+    answer:
+      "Yes. If you experienced a life-changing event such as retirement, marriage, divorce, or the death of a spouse, you can file Form SSA-44 with the Social Security Administration to request a reduction. You'll need documentation of the event and your current expected income. If approved, SSA will use your more recent income instead of the two-year-old tax return.",
+  },
+  {
+    question: "Is IRMAA recalculated every year?",
+    answer:
+      "Yes. Social Security reviews your most recent tax return each year to determine whether IRMAA applies for the upcoming calendar year. If your income drops below the threshold, the surcharge goes away automatically the next year. You do not need to reapply if your income naturally decreases.",
+  },
+  {
+    question: "How is the IRMAA surcharge paid?",
+    answer:
+      "For Part B, the IRMAA surcharge is added to your monthly Part B premium and typically deducted directly from your Social Security benefit. For Part D, the surcharge is billed separately by Medicare or Social Security — it is not paid to your Part D plan. You continue paying your regular Part D plan premium to the insurance carrier.",
+  }
 ];
 
 export default function IrmaaPage() {

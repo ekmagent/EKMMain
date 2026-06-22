@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "My Medicare Supplement Rate Just Jumped — Why, and What Can I Do? | Free Rate Comparison | MedicareYourself",
   description:
-    "Medigap premium just jumped? Learn why Medicare Supplement rates rise and how switching to the same plan letter could lower your cost. Free quote: 855-559-1700.",
+    "Medigap rate jumped? Learn why Medicare Supplement premiums rise and how switching to the same plan letter could save you money. Free quote: 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-supplement-rate-jumped-why-and-what-can-i-do" },
   openGraph: {
     title:
@@ -187,6 +187,22 @@ const faqs = [
     question: "What should I do first if my Medigap premium just increased?",
     answer:
       "Start by comparing rates for the same plan letter across multiple carriers in your ZIP code before assuming you are stuck. A licensed broker can run a side-by-side quote and review whether you would likely pass underwriting. You can call 855-559-1700 for a free comparison with Anthony Orner.",
+  }
+,
+  {
+    question: "What factors cause Medicare Supplement premiums to increase over time?",
+    answer:
+      "Medigap rates typically rise due to medical inflation, increased claims within the carrier's insured pool, and the natural aging of policyholders. Carriers also adjust premiums based on prescription drug costs and overall healthcare utilization. State insurance departments must approve these increases before they take effect.",
+  },
+  {
+    question: "Are there three pricing methods carriers use for Medigap policies?",
+    answer:
+      "Yes. Medigap plans are generally priced one of three ways: community-rated (same premium regardless of age), issue-age-rated (based on your age when you bought the policy), and attained-age-rated (premium increases as you get older). Attained-age pricing tends to start lower but rise more steeply over time.",
+  },
+  {
+    question: "What should I do first when I receive a Medigap rate increase notice?",
+    answer:
+      "Don't cancel your current policy right away. Call a licensed Medicare broker to compare quotes for the same plan letter across multiple carriers, and only switch after you've been approved by the new carrier. This protects you from a coverage gap if underwriting doesn't go as expected.",
   }
 ];
 
@@ -449,6 +465,7 @@ export default function MedicareSupplementRateJumpedPage() {
             <div className="text-sm text-gray-600 mt-4">For state-specific help, contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> or your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">Need help in your state? Contact your <a href="https://www.shiphelp.org/about-medicare/regional-ship-location" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> or the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP program</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">For state-specific guidance, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </main>
   );

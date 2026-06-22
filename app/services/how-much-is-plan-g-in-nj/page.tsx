@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "How Much Is Plan G in NJ? | Free Rate Comparison by Age | MedicareYourself",
   description:
-    "How much is Plan G in NJ? Compare 2026 Medigap rates by age and zip from every major carrier — Anthony Orner finds your lowest price. Free quote: 855-559-1700.",
+    "How much is Plan G in NJ? Compare 2026 Medigap rates by age and zip from every major carrier — Anthony Orner finds your lowest price. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/how-much-is-plan-g-in-nj" },
   openGraph: {
     title:
@@ -309,6 +309,7 @@ export default function HowMuchIsPlanGInNJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey resource: <a href="https://www.state.nj.us/dobi/division_insurance/ihcseh/medsupp.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking &amp; Insurance — Medicare Supplement Information</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey shoppers can also review the <a href="https://www.nj.gov/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </main>
   );

@@ -129,6 +129,22 @@ const faqs = [
     answer:
       "Medicare Part B covers external insulin pumps and the insulin used in them as durable medical equipment when your doctor certifies medical necessity. You typically pay the Part B coinsurance after meeting the Part B deductible. A licensed broker can help you compare Texas plans that minimize your out-of-pocket cost for pump supplies.",
   }
+,
+  {
+    question: "When can Texans with diabetes enroll in Medicare?",
+    answer:
+      "Most Texans can enroll during their Initial Enrollment Period, a 7-month window starting 3 months before turning 65. The Annual Enrollment Period runs October 15 to December 7 each year for changing Medicare Advantage or Part D plans. Medicare Advantage Open Enrollment runs January 1 to March 31 for one switch or return to Original Medicare.",
+  },
+  {
+    question: "Does Medicare cover diabetes supplies like test strips and lancets in Texas?",
+    answer:
+      "Medicare Part B covers blood sugar test strips, lancets, lancet devices, and glucose monitors as durable medical equipment when prescribed by your doctor. You typically pay the Part B coinsurance after meeting the deductible. Medicare Advantage plans in Texas may offer these supplies at lower cost-sharing through preferred suppliers.",
+  },
+  {
+    question: "Where can Texans get free Medicare counseling for diabetes coverage questions?",
+    answer:
+      "The Texas Health Information, Counseling and Advocacy Program (HICAP) offers free, unbiased Medicare counseling through Texas Health and Human Services. You can also call our licensed broker line at 855-559-1700 for personalized help comparing plans that cover insulin, CGMs, and diabetes supplies.",
+  }
 ];
 
 export default function MedicareEnrollmentHelpDiabetesTexas() {
@@ -385,6 +401,7 @@ export default function MedicareEnrollmentHelpDiabetesTexas() {
             <div className="text-sm text-gray-600 mt-4">Texas resource: <a href="https://www.hhs.texas.gov/services/health/medicare" rel="noopener noreferrer" target="_blank" className="underline">Texas Health and Human Services — Medicare</a></div>
             <div className="text-sm text-gray-600 mt-4">Texas resources: <a href="https://www.hhs.texas.gov/services/health/medicare" rel="noopener noreferrer" target="_blank" className="underline">Texas Health and Human Services — Medicare</a> (counseling and Medicare Savings Program info for Texans).</div>
             <div className="text-sm text-gray-600 mt-4">Texas help: <a href="https://www.hhs.texas.gov/services/health/medicare" rel="noopener noreferrer" target="_blank" className="underline">Texas Health and Human Services — Medicare</a> (free counseling through the Texas HICAP/SHIP program).</div>
+            <div className="text-sm text-gray-600 mt-4">Texas resource: <a href="https://www.hhs.texas.gov/services/health/medicare" rel="noopener noreferrer" target="_blank" className="underline">Texas Health and Human Services — Medicare</a></div>
       </section>
     </main>
   );

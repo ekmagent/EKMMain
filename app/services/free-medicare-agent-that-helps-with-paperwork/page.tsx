@@ -83,6 +83,22 @@ const faqs = [
     answer:
       "Yes. During Open Enrollment (October 15 through December 7), or if you qualify for a Special Enrollment Period, Anthony can handle the switch, cancel the old plan, and make sure there's no gap in coverage.",
   },
+,
+  {
+    question: "Can I call Medicare directly instead of using a broker?",
+    answer:
+      "Yes, you can reach Medicare at 1-800-MEDICARE (1-800-633-4227) 24 hours a day, 7 days a week. They can answer general questions, but they won't compare specific Medigap, Medicare Advantage, or Part D plans side by side. A licensed broker like Anthony can do that comparison and handle the paperwork for you at no cost.",
+  },
+  {
+    question: "What information do I need to give an agent to handle my paperwork?",
+    answer:
+      "You'll typically need your Medicare number, effective dates for Part A and Part B, a list of your prescriptions, and your preferred doctors and pharmacies. Anthony uses that to match you with plans and complete the carrier applications. Nothing gets submitted until you review and approve it.",
+  },
+  {
+    question: "Does using a free Medicare agent affect my plan price?",
+    answer:
+      "No. Premiums are filed with and approved by state regulators, so the same plan costs the same whether you enroll on your own or through a licensed broker. The carrier pays the broker a standard commission that is built into the plan regardless.",
+  }
 ];
 
 export default function FreeMedicareAgentPaperworkPage() {

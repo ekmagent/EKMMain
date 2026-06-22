@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "when can i change my medicare supplement plan for 2026 | Free Switching Help | MedicareYourself",
   description:
-    "When can I change my Medicare Supplement plan for 2026? Learn switch windows, guaranteed-issue rights & underwriting. Call 855-559-1700 for free broker help.",
+    "When can I change your Medicare Supplement plan for 2026? Learn switch windows, guaranteed-issue rights, and underwriting. Call 855-559-1700 for free broker help.",
   alternates: { canonical: "https://medicareyourself.com/services/when-can-i-change-my-medicare-supplement-plan-for-2026" },
   openGraph: {
     title:

@@ -280,6 +280,17 @@ const faqs = [
     answer:
       "An independent broker reviews your doctors, prescriptions, budget, and travel needs, then compares Medigap, Medicare Advantage, and Part D options from multiple carriers. There is no fee for the consultation, and you are never obligated to enroll.",
   }
+,
+  {
+    question: "Does New Jersey use community rating for Medigap plans?",
+    answer:
+      "Yes. New Jersey is a community-rated state for Medicare Supplement (Medigap) plans, meaning carriers cannot charge you a different premium based on your age. Everyone enrolled in the same plan with the same carrier pays the same base rate, though premiums can still vary between carriers.",
+  },
+  {
+    question: "When can I enroll in a Medigap plan in New Jersey without medical underwriting?",
+    answer:
+      "Your Medigap Open Enrollment Period is a one-time, 6-month window that starts when you are 65 or older and enrolled in Medicare Part B. During this window, carriers must sell you any Medigap plan they offer at their best available rate regardless of health history. Outside of this window, you may be subject to medical underwriting unless you qualify for a guaranteed issue right.",
+  }
 ];
 
 export default function FreeIndependentMedicareBrokerNearMeNewJersey() {
@@ -480,6 +491,7 @@ export default function FreeIndependentMedicareBrokerNearMeNewJersey() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-700 underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
       </section>
     </main>
   );

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for anxiety disorder patients | Free Coverage Review | MedicareYourself",
   description:
-    "Medicare broker for anxiety disorder patients — compare plans covering therapy, SSRIs, and telehealth at no cost. Call Anthony Orner at 855-559-1700 today.",
+    "Medicare broker for anxiety patients — compare plans covering therapy, SSRIs, and telehealth at no cost. Call Anthony Orner at 855-559-1700 for a free review.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-anxiety-disorder-patients" },
   openGraph: {
     title:
@@ -118,6 +118,22 @@ const faqs = [
     question: "Will a Medicare Advantage plan cover more anxiety services than Original Medicare?",
     answer:
       "It depends on the plan. Medicare Advantage plans must cover everything Original Medicare covers, and many include extra mental health benefits, lower copays for therapy, or bundled prescription drug coverage. A broker can compare specific Advantage plans in your area against Original Medicare with a Part D plan.",
+  }
+,
+  {
+    question: "Does Medicare cover an annual depression and anxiety screening?",
+    answer:
+      "Yes. Medicare Part B covers one depression screening per year when performed in a primary care setting that can provide follow-up treatment and referrals. There is no cost to you for the screening itself when your provider accepts assignment.",
+  },
+  {
+    question: "What types of providers can I see for anxiety treatment under Medicare?",
+    answer:
+      "Medicare Part B covers visits with psychiatrists, clinical psychologists, licensed clinical social workers, nurse practitioners, physician assistants, and as of recent expansions, marriage and family therapists and mental health counselors. The provider must accept Medicare and be qualified to diagnose and treat mental health conditions.",
+  },
+  {
+    question: "Does Medicare Advantage offer extra mental health benefits?",
+    answer:
+      "Often, yes. Many Medicare Advantage plans bundle Part D drug coverage with mental health benefits and may include wellness programs, expanded telehealth, or lower copays for behavioral health visits. Benefits vary by plan and county, which is why comparing options with a broker matters.",
   }
 ];
 

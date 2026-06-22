@@ -319,6 +319,12 @@ const faqs = [
     answer:
       "Yes. Medigap premiums vary widely by state and even by zip code because carriers use local claims experience and demographics to set rates. The same Plan G from the same carrier can cost noticeably more in a high-cost urban area than in a rural one. That's why comparing quotes specific to your zip code matters.",
   }
+,
+  {
+    question: "Does where I live affect how much I pay for a Medigap plan?",
+    answer:
+      "Yes. Medigap premiums vary significantly by state and even by zip code because carriers price based on local claims data, demographics, and competition. The same Plan G from the same carrier can cost noticeably more in one area than another. Always compare rates specific to your zip code before enrolling.",
+  }
 ];
 
 export default function HowMuchDoesBestMedicareSupplementalInsuranceCostPerMonth() {

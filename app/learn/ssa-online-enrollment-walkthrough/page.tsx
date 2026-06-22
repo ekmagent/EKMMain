@@ -1153,6 +1153,22 @@ const steps = [
     answer:
       "Yes. You'll need to sign in to an existing my Social Security account or create one using Login.gov or ID.me. Identity verification requires your Social Security number and a driver's license or state-issued ID. According to Medicare.gov, applying online through SSA is the fastest way to sign up for Part A and Part B.",
   }
+,
+  {
+    question: "How long does the SSA online Medicare application take to complete?",
+    answer:
+      "Most people finish the SSA.gov Medicare application in about 10 minutes once they have their information ready. You'll need your Social Security number, a valid ID for verification, and details about any current health coverage. The application can be completed in one sitting without uploading documents in most cases.",
+  },
+  {
+    question: "Can I enroll in only Part A and delay Part B through the online application?",
+    answer:
+      "Yes. During the application, SSA will ask if you want Medicare only (without retirement benefits) and whether you want to enroll in Part B. You can decline Part B if you have qualifying employer coverage, but be aware that delaying without creditable coverage may lead to a late enrollment penalty.",
+  },
+  {
+    question: "What happens after I submit my Medicare application on SSA.gov?",
+    answer:
+      "After you submit, SSA reviews your application and mails a decision, typically within a few weeks. You cannot modify the application once submitted, so any corrections require contacting Social Security directly. Your red, white, and blue Medicare card will arrive by mail once you're approved.",
+  }
 ];
 
 export default function SSAOnlineEnrollmentWalkthrough() {

@@ -170,6 +170,22 @@ const faqs = [
     answer:
       "Yes — Plan G coverage is standardized by federal law, so the benefits are identical from carrier to carrier, but premiums can vary widely. A licensed NJ broker like Anthony Orner can shop multiple carriers at once and match you with the lowest rate for your age and ZIP code. Call 855-559-1700 for a free comparison.",
   }
+,
+  {
+    question: "Where can I see the official NJ Plan G rate chart by age?",
+    answer:
+      "The New Jersey Department of Human Services publishes Medigap rate charts comparing carriers by age and gender. The NJ Department of Banking and Insurance also maintains current Medicare Supplement rate filings. Anthony Orner uses these official sources alongside live carrier quotes to confirm the lowest available premium in your county.",
+  },
+  {
+    question: "How does the 6-month Medigap Open Enrollment Period work in NJ?",
+    answer:
+      "Your one-time, federally guaranteed Medigap Open Enrollment Period begins the month you are 65 or older and enrolled in Medicare Part B, and it lasts 6 months. During this window, any NJ carrier must sell you Plan G at their best rate regardless of health history. Applying inside this window typically secures the lowest age-65 premium available.",
+  },
+  {
+    question: "Can Anthony Orner compare every Plan G carrier licensed in New Jersey?",
+    answer:
+      "Yes. As an independent broker licensed in NJ and 34 other states, Anthony Orner is contracted with the major Medigap carriers selling Plan G in New Jersey. He runs a side-by-side comparison by your exact age and ZIP code so you can see the lowest rate without calling each carrier individually. Call 855-559-1700 for a free quote.",
+  }
 ];
 
 export default function PlanGRatesByAgeNJPage() {

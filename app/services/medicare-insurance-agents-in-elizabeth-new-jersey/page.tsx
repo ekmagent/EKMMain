@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare insurance agents in elizabeth new jersey | Free Quotes | MedicareYourself",
   description:
-    "Medicare insurance agents in Elizabeth, NJ — Anthony Orner compares Medigap and Advantage plans across top carriers at no cost. Call 855-559-1700 for free quotes.",
+    "Medicare insurance agents in Elizabeth, NJ — Anthony Orner compares Medigap and Advantage plans across carriers at no cost. Call 855-559-1700 for free quotes.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-insurance-agents-in-elizabeth-new-jersey" },
   openGraph: {
     title:

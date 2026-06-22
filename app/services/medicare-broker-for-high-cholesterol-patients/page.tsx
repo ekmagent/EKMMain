@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for high cholesterol patients | Free Plan Comparison | MedicareYourself",
   description:
-    "Compare Medicare plans for high cholesterol patients with broker Anthony Orner. Find coverage for statins, lipid panels & cardiology. Call 855-559-1700 today.",
+    "Medicare broker Anthony Orner helps high cholesterol patients compare plans covering statins, lipid panels & cardiology. Free help — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-high-cholesterol-patients" },
   openGraph: {
     title:

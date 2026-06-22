@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "quickest way to enroll into plan g | Same-Day Coverage Available | MedicareYourself",
   description:
-    "Quickest way to enroll in Plan G? Finish your Medigap application in one call during Open Enrollment. Same-day help — call 855-559-1700 for a free quote.",
+    "Quickest way to enroll in Plan G? Finish your Medigap application in one call during Open Enrollment. Call 855-559-1700 for same-day help.",
   alternates: { canonical: "https://medicareyourself.com/services/quickest-way-to-enroll-into-plan-g" },
   openGraph: {
     title:

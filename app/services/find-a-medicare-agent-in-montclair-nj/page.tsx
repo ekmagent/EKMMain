@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "find a medicare agent in montclair nj | Free Local Help | MedicareYourself",
   description:
-    "Find a Medicare agent in Montclair, NJ. Independent broker Anthony Orner compares top Essex County carriers at no cost. Call 855-559-1700 for free help.",
+    "Find a licensed Medicare agent in Montclair, NJ. Anthony Orner compares top Essex County carriers at no cost — call 855-559-1700 for free, no-pressure help.",
   alternates: { canonical: "https://medicareyourself.com/services/find-a-medicare-agent-in-montclair-nj" },
   openGraph: {
     title:
@@ -235,6 +235,22 @@ const faqs = [
     question: "Do I have to use a Montclair-based agent for Medicare in Essex County?",
     answer:
       "No. What matters is that your broker is licensed in New Jersey and represents carriers that serve Essex County. Anthony Orner is a licensed NJ broker who works with Montclair-area beneficiaries by phone, video, or in person when preferred.",
+  }
+,
+  {
+    question: "When can I enroll in Medicare with an agent in Montclair?",
+    answer:
+      "Your Initial Enrollment Period runs for seven months around your 65th birthday. After that, the Annual Enrollment Period from October 15 to December 7 lets you change Medicare Advantage or Part D plans. Medigap has its own one-time guaranteed issue window when you first enroll in Part B, though New Jersey residents have additional protections worth discussing with a licensed broker.",
+  },
+  {
+    question: "Is Anthony Orner licensed to sell Medicare plans in New Jersey?",
+    answer:
+      "Yes. Anthony Orner is a licensed independent Medicare insurance broker in New Jersey and 34 additional states, with NPI 1902584006. He represents multiple carriers serving Essex County and the surrounding area, including residents in Montclair, Bloomfield, and Glen Ridge.",
+  },
+  {
+    question: "What should I bring to a Medicare consultation?",
+    answer:
+      "Have your Medicare card or Part A/B effective dates ready, along with a list of your current doctors, hospitals, and prescription medications with dosages. This lets the broker check provider networks and drug formularies accurately. If you have an existing Medigap or Advantage plan, your member ID helps with comparison.",
   }
 ];
 

@@ -9,7 +9,7 @@ import { MF } from "@/lib/medicare-figures";
 export const metadata: Metadata = {
   title: "How to Enroll in a Medicare Supplement Plan (2026): The 5-Step Guide",
   description:
-    "Enroll in a Medicare Supplement plan in 5 steps and lock in your 6-month guaranteed-issue window. Call 855-559-1700 to compare every carrier free.",
+    "Enroll in a Medicare Supplement plan in 5 steps and lock in your 6-month guaranteed-issue window. Call 855-559-1700 to compare every carrier — free.",
   alternates: { canonical: `${SITE_URL}/learn/how-to-enroll-in-a-medicare-supplement-plan` },
   openGraph: {
     title: "How to Enroll in a Medicare Supplement Plan (2026): The 5-Step Guide",
@@ -918,6 +918,22 @@ const faqs = [
     question: "Can I switch Medigap plans after I enroll?",
     answer:
       "Yes, but outside of your Open Enrollment Period or a guaranteed-issue situation, you will typically need to pass medical underwriting to switch carriers or plan letters. Some states have additional protections that allow switching without underwriting. Call 855-559-1700 to review your state's specific rules before making a change.",
+  }
+,
+  {
+    question: "Can I be denied a Medicare Supplement plan if I apply outside my Open Enrollment Period?",
+    answer:
+      "Yes. Outside your 6-month Medigap Open Enrollment Period, carriers in most states can use medical underwriting to deny your application or charge higher premiums based on your health history. There are limited guaranteed-issue situations protected by federal law, such as losing certain other coverage. Call 855-559-1700 to confirm whether you qualify for a guaranteed-issue right.",
+  },
+  {
+    question: "Do I have to re-enroll in my Medicare Supplement plan each year?",
+    answer:
+      "No. Medicare Supplement plans automatically renew as long as you pay your premium, regardless of any health changes. Unlike Medicare Advantage, there is no annual election period you need to act on to keep your Medigap coverage in force.",
+  },
+  {
+    question: "Can I switch Medicare Supplement plans after I enroll?",
+    answer:
+      "Yes, you can apply to switch Medigap plans at any time, but outside your Open Enrollment Period or a guaranteed-issue situation, the new carrier can require medical underwriting. That means you could be denied or charged more based on your health. Some states have additional rules that make switching easier — we can check your state's rules at 855-559-1700.",
   }
 ];
 

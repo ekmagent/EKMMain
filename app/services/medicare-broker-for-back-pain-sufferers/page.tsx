@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for back pain sufferers | Free Plan Comparison | MedicareYourself",
   description:
-    "Medicare broker for back pain sufferers — compare plans covering PT, chiropractic, injections & surgery. Call Anthony Orner at 855-559-1700 for free help.",
+    "Medicare broker for back pain sufferers — compare plans covering PT, chiropractic, injections & surgery. Call Anthony Orner at 855-559-1700 for free help today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-back-pain-sufferers" },
   openGraph: {
     title:
@@ -155,6 +155,22 @@ const faqs = [
     question: "Can I switch Medicare plans if my back condition gets worse?",
     answer:
       "You can change Medicare Advantage or Part D plans during the Annual Enrollment Period (October 15 – December 7) or the Medicare Advantage Open Enrollment Period (January 1 – March 31). Switching from Medicare Advantage back to Medigap may require medical underwriting outside of guaranteed issue windows, so it's important to plan ahead. I can review your options before you make a change.",
+  }
+,
+  {
+    question: "Does Medicare cover acupuncture for back pain?",
+    answer:
+      "Yes. Since 2020, Medicare Part B covers acupuncture specifically for chronic low back pain. Coverage is limited to a set number of sessions per year, with additional sessions allowed only if you show improvement. The treatment must be furnished by a qualified provider under appropriate supervision.",
+  },
+  {
+    question: "Are chiropractic services covered by Medicare for back pain?",
+    answer:
+      "Medicare Part B covers manual manipulation of the spine by a chiropractor to correct a subluxation when medically necessary. It does not cover other services a chiropractor may offer, such as X-rays, massage therapy, or acupuncture performed by the chiropractor. Medicare Advantage plans may offer broader chiropractic benefits depending on the plan.",
+  },
+  {
+    question: "Does Medicare cover physical therapy for back pain long-term?",
+    answer:
+      "Yes. Medicare Part B covers medically necessary outpatient physical therapy for back pain with no hard cap on visits, as long as your provider documents that continued therapy is reasonable and necessary. After a certain annual threshold, your therapist must add a special billing modifier to confirm ongoing need.",
   }
 ];
 
