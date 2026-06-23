@@ -515,6 +515,22 @@ const faqs = [
     answer:
       "In most states, yes — once your 6-month Medigap Open Enrollment Period has ended, carriers can use medical underwriting to approve or decline your application. Exceptions apply if you qualify for a federal Guaranteed Issue right, such as losing employer coverage or your current carrier leaving the market. A licensed broker can pre-screen your health profile against carrier underwriting guidelines before you apply so you know your odds of approval.",
   }
+,
+  {
+    question: "Will I have to answer health questions to switch Medigap carriers?",
+    answer:
+      "In most states, yes — once your 6-month Medigap Open Enrollment Period has ended, federal law allows carriers to use medical underwriting. That means the new carrier can ask about your health history and prescriptions, and can decline your application. The exception is if you qualify for a Guaranteed Issue right, such as losing other coverage or your current plan leaving the market.",
+  },
+  {
+    question: "Do I need to cancel my current Medigap policy before applying to a new carrier?",
+    answer:
+      "No, and you should not. Apply to the new carrier first and wait for approval. Once your new policy's effective date is confirmed, then cancel the old policy so there is no gap in coverage. Medicare also gives you a 30-day free look period to review the new policy after it starts.",
+  },
+  {
+    question: "Does switching Medigap carriers restart any waiting periods?",
+    answer:
+      "If you have had continuous Medigap coverage, most carriers will waive any pre-existing condition waiting period when you switch. However, this is handled by the new carrier under state rules, so it is important to confirm before applying. A licensed broker can verify the waiver policy for each carrier you are considering.",
+  }
 ];
 
 export default function SwitchCarriersPage() {
@@ -778,6 +794,7 @@ export default function SwitchCarriersPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify carriers and rights with the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> before switching carriers.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify carrier rates and file complaints through the <a href="https://www.nj.gov/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-700 underline">NJ Department of Banking and Insurance</a> or get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-700 underline">NJ SHIP</a>.</div>
       </section>
     </>
   );

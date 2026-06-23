@@ -197,6 +197,12 @@ const faqs = [
     answer:
       "If your specific biologic or Crohn's drug isn't covered, you can request a formulary exception with your doctor's support, switch to a covered alternative, or change plans during the Annual Enrollment Period. A licensed broker can review formularies before you enroll so you avoid coverage surprises. This is one of the most important steps for anyone managing Crohn's on Medicare.",
   }
+,
+  {
+    question: "What should I look for in a Medicare plan if I have Crohn's disease?",
+    answer:
+      "Focus on three things: whether your gastroenterologist and infusion center are in-network, whether your biologics and maintenance drugs are on the formulary at a manageable tier, and what the plan's out-of-pocket maximum looks like. Don't just compare premiums — for Crohn's patients, total annual cost matters far more than monthly premium. A broker can model your real expected spending across plans.",
+  }
 ];
 
 export default function MedicareBrokerForPeopleWithCrohns() {

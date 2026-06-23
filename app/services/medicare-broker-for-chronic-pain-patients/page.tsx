@@ -174,6 +174,12 @@ const faqs = [
     answer:
       "Mid-year network changes generally do not trigger a Special Enrollment Period on their own, so most members have to wait until the Annual Enrollment Period or Medicare Advantage Open Enrollment to switch. However, if you qualify for Extra Help, a C-SNP, or move out of the plan's service area, you may be able to change sooner. A licensed broker can review whether a Special Enrollment Period applies to your situation.",
   }
+,
+  {
+    question: "Does Medicare cover acupuncture for chronic pain?",
+    answer:
+      "Medicare Part B covers acupuncture specifically for chronic low back pain. Coverage includes a limited number of visits per year, with additional visits available if you show improvement. Acupuncture for other types of pain is generally not covered by Original Medicare.",
+  }
 ];
 
 export default function MedicareBrokerForChronicPainPatients() {
@@ -475,6 +481,7 @@ export default function MedicareBrokerForChronicPainPatients() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

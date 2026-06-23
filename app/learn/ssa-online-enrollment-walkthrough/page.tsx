@@ -1169,6 +1169,22 @@ const steps = [
     answer:
       "After you submit, SSA reviews your application and mails a decision, typically within a few weeks. You cannot modify the application once submitted, so any corrections require contacting Social Security directly. Your red, white, and blue Medicare card will arrive by mail once you're approved.",
   }
+,
+  {
+    question: "Do I sign up for Medicare through Medicare.gov or SSA.gov?",
+    answer:
+      "Even though Medicare benefits are administered by CMS, enrollment in Part A and Part B is handled by the Social Security Administration. You apply at ssa.gov/medicare/sign-up, not on Medicare.gov. Medicare.gov itself directs you to Social Security to complete enrollment.",
+  },
+  {
+    question: "What documents do I need before starting the SSA online application?",
+    answer:
+      "You'll need your Social Security number, a valid driver's license or state ID for identity verification through Login.gov or ID.me, and details about any current health coverage. If you have employer group health coverage, have your employment start date and insurance information ready. The application takes about 10 minutes once you have these on hand.",
+  },
+  {
+    question: "Can I change my Medicare application after submitting it online?",
+    answer:
+      "No. Once you click Submit Now and agree to the Electronic Signature Agreement, the application is final and cannot be modified online. If you need to correct information or change your Part B election, you'll have to contact Social Security directly. Review every screen carefully before submitting.",
+  }
 ];
 
 export default function SSAOnlineEnrollmentWalkthrough() {

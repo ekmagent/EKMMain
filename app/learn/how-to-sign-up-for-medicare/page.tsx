@@ -1053,6 +1053,22 @@ const faqs = [
     answer:
       "No. Once you enroll in Original Medicare (Parts A and B), your coverage continues automatically as long as you pay any required premiums. However, if you have a Medicare Advantage or Part D drug plan, you should review it each year during the Annual Enrollment Period (October 15 – December 7) because plan costs, networks, and drug formularies can change.",
   }
+,
+  {
+    question: "How do I sign up for Medicare if I am not getting Social Security yet?",
+    answer:
+      "You can apply online at ssa.gov/medicare, which takes about 10 minutes. You can also call Social Security or visit your local SSA office. Apply during the 3 months before the month you turn 65 so your coverage starts on the first day of your birthday month.",
+  },
+  {
+    question: "What happens if I miss my Medicare Initial Enrollment Period?",
+    answer:
+      "If you miss your IEP and do not have creditable employer coverage, you may have to wait for the General Enrollment Period (January 1 – March 31) to sign up for Part B. You may also owe a permanent late enrollment penalty added to your Part B premium for as long as you have Medicare. A licensed broker can help you confirm whether a Special Enrollment Period applies — call 855-559-1700.",
+  },
+  {
+    question: "Do I need to sign up for Medicare every year?",
+    answer:
+      "No. Once you enroll in Medicare Part A and Part B, your coverage continues automatically each year. However, if you have a Medicare Advantage or Part D drug plan, you should review it each fall during the Annual Enrollment Period (October 15 – December 7) to make sure it still fits your needs.",
+  }
 ];
 
 export default function HowToSignUpPage() {

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "best medicare supplement for people on disability | Free Plan Review | MedicareYourself",
   description:
-    "Best Medicare Supplement for people on disability: compare state rules, plan letters, and pricing tips. Call 855-559-1700 for free licensed broker help.",
+    "Best Medicare Supplement for people on disability: compare state rules, plan letters, and pricing. Call 855-559-1700 for free licensed broker help.",
   alternates: { canonical: "https://medicareyourself.com/services/best-medicare-supplement-for-people-on-disability" },
   openGraph: {
     title:
@@ -181,6 +181,22 @@ const faqs = [
     question: "Which Medigap plan letter is most popular for people on disability?",
     answer:
       "Plan G is often the most comprehensive option available to people on disability in states that allow under-65 enrollment, covering nearly all Medicare-approved out-of-pocket costs except the Part B deductible. Plan N is another popular choice for those who want lower premiums and are willing to pay small copays at the doctor's office. The best fit depends on your state's available carriers and your expected healthcare use.",
+  }
+,
+  {
+    question: "Which Medigap plan letter is typically best for someone on disability?",
+    answer:
+      "Plan G and Plan N are often the most popular choices because they cover most out-of-pocket costs after the Part B deductible. Plan G offers the most comprehensive coverage available to newly eligible beneficiaries, while Plan N has lower premiums in exchange for small copays at office and ER visits. The right letter depends on your budget and how often you use care.",
+  },
+  {
+    question: "Can I switch from Medicare Advantage to a Medigap plan while on disability?",
+    answer:
+      "You can apply to switch, but outside of a guaranteed issue right, carriers in most states can use medical underwriting to approve or deny your application when you're under 65. A few states offer broader switching protections for disabled beneficiaries. Call 855-559-1700 and we'll review your state's rules before you make a change.",
+  },
+  {
+    question: "Does a Medigap plan cover prescription drugs if I'm on disability?",
+    answer:
+      "No. Medigap plans sold today do not include prescription drug coverage. You'll need a standalone Medicare Part D plan to cover medications, and we can help you compare Part D options alongside your supplement at no cost.",
   }
 ];
 
@@ -418,6 +434,7 @@ export default function BestMedicareSupplementForPeopleOnDisability() {
             <div className="text-sm text-gray-600 mt-4">For state-specific help, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">For state-specific guidance, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">For state-specific Medigap rules, contact your <a href="https://www.shiphelp.org/about-medicare/regional-ship-location" rel="noopener noreferrer" target="_blank" className="underline">local SHIP counselor</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">State help: Find your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">SHIP counselor</a> for free, unbiased Medicare guidance in your state.</div>
       </section>
       </article>
     </>

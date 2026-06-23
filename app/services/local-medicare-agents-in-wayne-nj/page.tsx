@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "local medicare agents in wayne nj | Free Independent Broker Help | MedicareYourself",
   description:
-    "Local Medicare agents in Wayne, NJ — independent broker Anthony Orner compares Supplement & Advantage plans across carriers. Free, no-pressure quote. Call today.",
+    "Local Medicare agents in Wayne, NJ — independent broker Anthony Orner compares Supplement & Advantage plans across carriers. Free, no-pressure quote.",
   alternates: { canonical: "https://medicareyourself.com/services/local-medicare-agents-in-wayne-nj" },
   openGraph: {
     title:

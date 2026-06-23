@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "You Get a Medicare Supplement Plan If You Have a Pre-Existing Condition | Free Guidance | MedicareYourself",
   description:
-    "Yes, you can get a Medicare Supplement plan with a pre-existing condition during Medigap Open Enrollment. Call 855-559-1700 for free, no-pressure guidance.",
+    "Yes, you can get a Medicare Supplement plan with a pre-existing condition during Medigap Open Enrollment. Call 855-559-1700 for free, no-pressure help.",
   alternates: { canonical: "https://medicareyourself.com/services/you-get-a-medicare-supplement-plan-if-you-have-a-pre-existing-condition" },
   openGraph: {
     title:
@@ -110,6 +110,17 @@ const faqs = [
     question: "Does Original Medicare cover pre-existing conditions?",
     answer:
       "Yes. Original Medicare (Part A and Part B) has covered pre-existing conditions since the program began in 1965. There is no medical underwriting to enroll in Original Medicare, so your health history does not affect your eligibility or your access to covered services.",
+  }
+,
+  {
+    question: "Does Original Medicare cover pre-existing conditions?",
+    answer:
+      "Yes. Original Medicare (Part A and Part B) covers your pre-existing conditions from day one of enrollment. Unlike some private insurance, Medicare cannot deny you coverage or refuse to pay for care related to a health condition you had before enrolling.",
+  },
+  {
+    question: "Can a Medigap insurer impose a waiting period for pre-existing conditions?",
+    answer:
+      "In some cases, yes. Even during your Medigap Open Enrollment Period, an insurer may impose a pre-existing condition waiting period of up to 6 months if you did not have prior creditable coverage. If you had at least 6 months of continuous prior creditable coverage, the insurer must waive the waiting period entirely.",
   }
 ];
 

@@ -1036,6 +1036,22 @@ const faqs = [
     answer:
       "For Part B, the IRMAA surcharge is added to your monthly Part B premium and typically deducted directly from your Social Security benefit. For Part D, the surcharge is billed separately by Medicare or Social Security — it is not paid to your Part D plan. You continue paying your regular Part D plan premium to the insurance carrier.",
   }
+,
+  {
+    question: "Can I appeal IRMAA if my income has dropped?",
+    answer:
+      "Yes. If you experienced a qualifying life-changing event such as retirement, divorce, or the death of a spouse, you can file Form SSA-44 with the Social Security Administration to request a reduction. You'll need to provide documentation of the event and an estimate of your current year's income. If approved, SSA will use your more recent income instead of the two-year-old tax return.",
+  },
+  {
+    question: "How will I know if I owe IRMAA?",
+    answer:
+      "Social Security mails an initial determination notice each fall explaining whether you owe IRMAA for the upcoming year and how the amount was calculated. The surcharge is automatically deducted from your Social Security benefit or billed directly if you don't yet collect benefits. Part D IRMAA is billed separately by Social Security, not by your drug plan.",
+  },
+  {
+    question: "Does IRMAA recalculate every year?",
+    answer:
+      "Yes. Social Security reviews your most recent tax return each year, so IRMAA can go up, down, or disappear entirely as your income changes. Because there's a two-year lookback, a one-time income spike — like a Roth conversion or large capital gain — will only affect you for a single year in most cases.",
+  }
 ];
 
 export default function IrmaaPage() {

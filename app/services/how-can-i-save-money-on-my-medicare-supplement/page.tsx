@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "how can i save money on my medicare supplement | Free Rate Review | MedicareYourself",
   description:
-    "Save on your Medicare Supplement by comparing carriers, stacking discounts, and reviewing plan letters. Call 855-559-1700 for a free rate review today.",
+    "How can I save on your Medicare Supplement? Compare carriers, stack household discounts, and review plan letters. Call 855-559-1700 for a free rate review.",
   alternates: { canonical: "https://medicareyourself.com/services/how-can-i-save-money-on-my-medicare-supplement" },
   openGraph: {
     title:
@@ -168,6 +168,22 @@ const faqs = [
     question: "Does my ZIP code affect my Medicare Supplement premium?",
     answer:
       "Yes. Carriers rate Medigap premiums by ZIP code, age, gender, and tobacco use. Two people with the same Plan G can pay very different premiums depending on where they live. Comparing carriers specific to your ZIP code is the fastest way to find savings.",
+  }
+,
+  {
+    question: "When is the best time to buy a Medigap policy to get the lowest rate?",
+    answer:
+      "Your Medigap Open Enrollment Period is the best window, since carriers cannot use medical underwriting to deny you or charge more during that time. Outside this window, you may still switch carriers if you can pass underwriting or qualify for a guaranteed issue right. Locking in coverage early often results in lower lifetime premiums.",
+  },
+  {
+    question: "Are there household or spousal discounts on Medicare Supplement plans?",
+    answer:
+      "Many carriers offer household or household premium discounts when two adults in the same home each enroll in a Medigap policy, and some offer the discount even if only one spouse enrolls. These discounts vary by carrier and state. A licensed broker can quickly identify which carriers in your area offer them.",
+  },
+  {
+    question: "Can a Medicare Savings Program help if my Supplement premium is too high?",
+    answer:
+      "Yes. State-run Medicare Savings Programs can help pay your Part B premium and other Medicare costs if your income and resources fall within program limits. Lowering those out-of-pocket Medicare costs can free up budget for your Supplement premium. You can review eligibility at Medicare.gov or call us for help applying.",
   }
 ];
 
@@ -423,6 +439,7 @@ export default function HowCanISaveMoneyOnMyMedicareSupplement() {
             <div className="text-sm text-gray-600 mt-4">Free, unbiased counseling is available through your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">For free one-on-one counseling, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> or the <a href="https://www.nj.gov/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-700 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">Free local counseling: <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Find your State Health Insurance Assistance Program (SHIP)</a> for unbiased Medicare guidance.</div>
       </section>
     </main>
   );

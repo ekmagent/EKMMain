@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare Enrollment Help for People With Diabetes | Free Guidance | MedicareYourself",
   description:
-    "Medicare enrollment help for people with diabetes—compare plans covering insulin, CGMs, pumps & supplies. Call 855-559-1700 for free personalized guidance.",
+    "Medicare enrollment help for people with diabetes—find plans covering insulin, CGMs, pumps & test strips. Call 855-559-1700 for free personalized guidance.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-enrollment-help-for-people-with-diabetes" },
   openGraph: {
     title:

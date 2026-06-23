@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "How Much Does Medicare Supplement Cost per Month for Seniors? | Free 2026 Rate Quote | MedicareYourself",
   description:
-    "How much does Medicare Supplement cost per month for seniors? Compare Plan G & N rates by age and zip in minutes. Call 855-559-1700 for a free quote.",
+    "How much does Medicare Supplement cost per month for seniors? Compare Plan G and N rates by age and zip free. Call 855-559-1700 for a personalized quote.",
   alternates: { canonical: "https://medicareyourself.com/services/how-much-does-medicare-supplement-cost-per-month-for-seniors" },
   openGraph: {
     title:
@@ -149,6 +149,22 @@ const faqs = [
     question: "Are Medigap premiums the only cost I'll pay with a Medicare Supplement plan?",
     answer:
       "No. In addition to your Medigap premium, you must continue paying the Part B premium to Medicare each month. Depending on the plan letter you choose, you may also be responsible for the Part B deductible or small copays for office visits. Call 855-559-1700 to review what your total monthly Medicare costs would look like.",
+  }
+,
+  {
+    question: "Are Medicare Supplement premiums the only cost I'll pay each month?",
+    answer:
+      "No. In addition to your Medigap premium, you'll continue paying the standard Part B premium to Medicare, and most people add a separate Part D prescription drug plan with its own premium. Your total monthly Medicare cost is the sum of these pieces.",
+  },
+  {
+    question: "Can I switch Medicare Supplement plans later to get a lower premium?",
+    answer:
+      "Yes, you can apply to switch carriers at any time, but outside of your Medigap Open Enrollment Period or a guaranteed-issue situation, the new company can use medical underwriting. That means they can review your health history and decline coverage or charge more. Call 855-559-1700 and we'll review whether switching makes sense for your situation.",
+  },
+  {
+    question: "Does tobacco use raise my Medicare Supplement premium?",
+    answer:
+      "Most carriers charge tobacco users a higher rate, typically through a percentage surcharge on the base premium. A few carriers don't ask, so shopping the market matters if you're a current or recent tobacco user.",
   }
 ];
 
@@ -384,6 +400,7 @@ export default function HowMuchDoesMedicareSupplementCostPerMonthForSeniors() {
             <div className="text-sm text-gray-600 mt-4">For state-specific help, contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">New Jersey Department of Banking and Insurance</a> or your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">For state-specific guidance, contact <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">SHIP (State Health Insurance Assistance Program)</a> for free counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/division_consumers/insurance/ship.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can compare carrier rates and file complaints through the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">New Jersey Department of Banking and Insurance</a> or get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP</a>.</div>
       </section>
     </main>
   );

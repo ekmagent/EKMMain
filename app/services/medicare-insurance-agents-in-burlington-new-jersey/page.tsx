@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare insurance agents in burlington new jersey | Free Local Help | MedicareYourself",
   description:
-    "Compare Medigap, Medicare Advantage & Part D in Burlington County, NJ with a licensed independent broker. Free, no-obligation help — call 855-559-1700 today.",
+    "Talk to a licensed Medicare broker in Burlington County, NJ. Compare Medigap, Advantage & Part D plans at no cost. Call 855-559-1700 for free local help.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-insurance-agents-in-burlington-new-jersey" },
   openGraph: {
     title:
@@ -360,6 +360,22 @@ const faqs = [
     answer:
       "The strongest protection is during your 6-month Medigap Open Enrollment Period, which begins the month you are 65 or older and enrolled in Part B. During that window, carriers cannot deny coverage or charge more based on health. Outside that window, medical underwriting typically applies in NJ.",
   }
+,
+  {
+    question: "When is the Medigap Open Enrollment Period in New Jersey?",
+    answer:
+      "Your 6-month Medigap Open Enrollment Period begins the month your Medicare Part B becomes effective and you're age 65 or older. During this window, you have guaranteed issue rights and cannot be denied coverage or charged more based on health. New Jersey uses community rating, meaning premiums are not based on your individual age.",
+  },
+  {
+    question: "Do you serve all of Burlington County, NJ?",
+    answer:
+      "Yes. As a licensed independent broker, Anthony Orner helps Medicare beneficiaries throughout Burlington County, including Mount Laurel, Willingboro, Evesham, Moorestown, Medford, and surrounding communities. Consultations are available by phone, video, or in person.",
+  },
+  {
+    question: "What's the difference between Medigap and Medicare Advantage in NJ?",
+    answer:
+      "Medigap (Medicare Supplement) works alongside Original Medicare to help cover out-of-pocket costs like deductibles and coinsurance, and it lets you see any provider that accepts Medicare nationwide. Medicare Advantage replaces Original Medicare with a private plan that often includes Part D and extra benefits but uses provider networks. The right choice depends on your doctors, travel habits, and budget.",
+  }
 ];
 
 export default function MedicareInsuranceAgentsBurlingtonNJ() {
@@ -630,6 +646,7 @@ export default function MedicareInsuranceAgentsBurlingtonNJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
       </section>
     </>
   );

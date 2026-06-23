@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "independent medicare agents abq nm | Free Local Help | MedicareYourself",
   description:
-    "Independent Medicare agents serving ABQ, NM compare Advantage, Medigap & Part D plans across carriers at no cost. Call 855-559-1700 for free local help.",
+    "Independent Medicare agents in ABQ, NM compare Advantage, Medigap & Part D plans across carriers at no cost. Call 855-559-1700 for free local guidance.",
   alternates: { canonical: "https://medicareyourself.com/services/independent-medicare-agents-abq-nm" },
   openGraph: {
     title:
@@ -327,6 +327,7 @@ export default function IndependentMedicareAgentsABQNM() {
             <div className="text-sm text-gray-600 mt-4">New Mexico residents can also get free, unbiased counseling from <a href="https://www.benefitscheckup.org/ship/new-mexico/" rel="noopener noreferrer" target="_blank" className="underline">New Mexico SHIP (Benefits Counseling)</a> or contact the <a href="https://www.osi.state.nm.us/" rel="noopener noreferrer" target="_blank" className="underline">New Mexico Office of Superintendent of Insurance</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Mexico residents can also contact the <a href="https://www.nmaging.state.nm.us/benefits-counseling.aspx" rel="noopener noreferrer" target="_blank" className="underline">New Mexico Aging and Long-Term Services SHIP/Benefits Counseling program</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Mexico residents can also get free, unbiased counseling through the <a href="https://www.benefitsouttreach.nmaging.state.nm.us/SHIP.aspx" rel="noopener noreferrer" target="_blank" className="underline">New Mexico SHIP (Benefits Counseling) program</a> or the <a href="https://www.osi.state.nm.us/" rel="noopener noreferrer" target="_blank" className="underline">New Mexico Office of Superintendent of Insurance</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Mexico residents can also get free local counseling through <a href="https://www.nmaging.state.nm.us/benefits-counseling" rel="noopener noreferrer" target="_blank" className="underline">New Mexico SHIP (Benefits Counseling)</a> or contact the <a href="https://www.osi.state.nm.us/" rel="noopener noreferrer" target="_blank" className="underline">New Mexico Office of Superintendent of Insurance</a>.</div>
       </section>
     </main>
   );

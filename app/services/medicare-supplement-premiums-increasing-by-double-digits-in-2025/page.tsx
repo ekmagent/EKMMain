@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare supplement premiums increasing by double digits in 2025 | Free Rate Review | MedicareYourself",
   description:
-    "Medigap premiums rising in 2025? Compare carriers offering identical standardized benefits and see if switching could lower your rate. Free review: 855-559-1700.",
+    "Medigap premiums rising in 2025? Compare carriers with identical standardized benefits and see if switching could lower your rate. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-supplement-premiums-increasing-by-double-digits-in-2025" },
   openGraph: {
     title:
@@ -236,6 +236,17 @@ const faqs = [
     question: "Is it worth switching Medigap plans if I have to go through underwriting?",
     answer:
       "It depends on your health and the potential savings. If you qualify medically and the new premium is meaningfully lower, the long-term savings can be significant since Medigap rates tend to increase each year. A licensed broker can pre-screen underwriting questions before you submit a formal application.",
+  }
+,
+  {
+    question: "What should I do if my Medicare Supplement premium increases this year?",
+    answer:
+      "Start by reviewing your renewal notice and confirming your current plan letter. Then compare quotes from other carriers offering the same standardized plan in your ZIP code. A licensed broker can run a free rate review and explain whether you'd need to pass medical underwriting to switch.",
+  },
+  {
+    question: "Do all Medigap carriers raise rates at the same time?",
+    answer:
+      "No. Each carrier files rate adjustments with state insurance departments on its own schedule, so increases can happen at different times of year and at different sizes. That's why two people with the same plan letter can pay very different premiums.",
   }
 ];
 

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "local medicare agents in sewell nj | Free Quotes, No Pressure | MedicareYourself",
   description:
-    "Local Medicare agents in Sewell, NJ — Anthony Orner compares Advantage, Medigap & Part D plans across top carriers. Free quotes, no pressure. Call 855-559-1700.",
+    "Local Medicare agents in Sewell, NJ — Anthony Orner compares Advantage, Medigap & Part D across top carriers. Free, no-pressure quotes. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/local-medicare-agents-in-sewell-nj" },
   openGraph: {
     title:

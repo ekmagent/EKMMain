@@ -113,6 +113,22 @@ const faqs = [
     answer:
       "Your best opportunity is the 6-month Medigap Open Enrollment Period, which begins the month you're 65 or older and enrolled in Part B. During this window, insurers cannot deny you coverage or charge more based on health. Outside that window, enrollment may require medical underwriting unless you qualify for a guaranteed issue right.",
   }
+,
+  {
+    question: "How do I contact New Jersey SHIP for free Medicare counseling?",
+    answer:
+      "New Jersey's State Health Insurance Assistance Program (SHIP) is run through the Division of Aging Services and offers free, unbiased Medicare counseling to residents. You can find contact information on the official NJ Department of Human Services website. SHIP counselors can help with plan comparisons, enrollment questions, and appeals.",
+  },
+  {
+    question: "Do I need to enroll in Medicare if I'm still working at 65 in New Jersey?",
+    answer:
+      "If you have credible employer coverage from a company with 20 or more employees, you may be able to delay Part B without penalty. However, many people still enroll in Part A since it's typically premium-free. It's worth reviewing your employer plan against Medicare before deciding, which is something a licensed broker can help you compare.",
+  },
+  {
+    question: "Can I switch from Medicare Advantage to Medigap in New Jersey later?",
+    answer:
+      "You can request to switch, but outside of your initial 6-month Medigap Open Enrollment Period or a qualifying guaranteed-issue situation, insurers in New Jersey may use medical underwriting. That means approval and pricing depend on your health history. Reviewing your options early helps avoid being locked into a plan that no longer fits.",
+  }
 ];
 
 export default function MedicareAdviseInNewJersey() {
@@ -374,6 +390,7 @@ export default function MedicareAdviseInNewJersey() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free local counseling through the <a href="https://www.nj.gov/humanservices/doas/services/q-z/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.nj.gov/humanservices/doas/services/q-z/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling from <a href="https://www.nj.gov/humanservices/doas/services/q-z/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free local counseling through the <a href="https://www.nj.gov/humanservices/doas/services/q-z/ship/" rel="noopener noreferrer" target="_blank">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
     </>
   );

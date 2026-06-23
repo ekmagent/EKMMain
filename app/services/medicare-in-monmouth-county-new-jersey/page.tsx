@@ -130,6 +130,12 @@ const faqs = [
     answer:
       "New Jersey requires Medigap plans to use community rating, which means insurers charge the same premium to everyone with a given plan regardless of age. This is different from many other states that allow age-rated pricing. Monmouth County residents benefit from this rule, though premiums still vary by carrier and plan letter.",
   }
+,
+  {
+    question: "Does New Jersey use community rating for Medigap plans?",
+    answer:
+      "Yes. New Jersey is a community-rated state for Medicare Supplement insurance, meaning insurers generally charge the same premium for a given Medigap plan regardless of your age. Your 6-month Medigap Open Enrollment Period still applies when you first enroll in Part B at age 65 or older. Outside that window, medical underwriting may apply unless you qualify for a guaranteed issue right.",
+  }
 ];
 
 export default function MedicareInMonmouthCountyNewJersey() {
@@ -370,6 +376,7 @@ export default function MedicareInMonmouthCountyNewJersey() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.nj.gov/humanservices/doas/assistance/medicare/offices.shtml" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free local Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.nj.gov/humanservices/doas/assistance/medicare/offices.shtml" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free local Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey resource: <a href="https://www.nj.gov/humanservices/doas/assistance/medicare/offices.shtml" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP) local offices</a></div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey SHIP: <a href="https://www.nj.gov/humanservices/doas/assistance/medicare/offices.shtml" rel="noopener noreferrer" target="_blank" className="underline">NJ Division of Aging Services — SHIP Local Offices</a></div>
       </section>
     </main>
   );
