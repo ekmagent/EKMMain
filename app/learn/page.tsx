@@ -299,6 +299,12 @@ const GUIDES = [
     answer:
       "The right choice depends on your budget, the doctors and hospitals you want to use, your prescription needs, and how much flexibility you want when traveling. Original Medicare paired with a Medigap plan gives you nationwide access to any provider that accepts Medicare, while Medicare Advantage plans use networks and often bundle extra benefits. A licensed broker can walk you through the trade-offs at 855-559-1700.",
   }
+,
+  {
+    question: "How often should I review my Medicare coverage?",
+    answer:
+      "It's a good idea to review your Medicare coverage once a year during the Annual Enrollment Period, which runs from October 15 to December 7. Plan premiums, drug formularies, and provider networks can change each year, so the plan that worked best last year may not be the best fit this year. Call 855-559-1700 if you'd like a licensed broker to review your options with you.",
+  }
 ];
 
 export default function LearnHubPage() {

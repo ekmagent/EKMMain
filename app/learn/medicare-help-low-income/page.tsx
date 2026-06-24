@@ -330,6 +330,22 @@ const programs = [
     answer:
       "No. Qualifying for Extra Help or a Medicare Savings Program does not reduce your Social Security check or affect other federal benefits. In fact, MSPs typically pay your Part B premium, which means the amount normally deducted from your Social Security may stop being withheld.",
   }
+,
+  {
+    question: "How do I apply for a Medicare Savings Program?",
+    answer:
+      "You apply through your state Medicaid office, not through Medicare directly. Each state runs its own application process, and the state determines which of the four MSP levels (QMB, SLMB, QI, or QDWI) you qualify for. Medicare.gov recommends applying even if you're unsure whether you qualify, because income and asset rules vary by state.",
+  },
+  {
+    question: "Does Extra Help work with any Medicare Part D plan?",
+    answer:
+      "Yes. Extra Help applies to any Medicare-approved Part D prescription drug plan or Medicare Advantage plan with drug coverage. You can switch plans more often if you have Extra Help, and the subsidy follows you to your new plan. Apply through Social Security at ssa.gov or by calling 1-800-772-1213.",
+  },
+  {
+    question: "Can I have both Medicare and Medicaid at the same time?",
+    answer:
+      "Yes. People who qualify for both are called \"dual eligibles,\" and Medicaid often pays for costs Medicare doesn't cover, including most cost-sharing. Dual eligibles also automatically qualify for Extra Help with drug costs. A licensed broker can help you choose a plan designed for dual-eligible members — call 855-559-1700.",
+  }
 ];
 
 export default function LowIncomeMedicarePage() {

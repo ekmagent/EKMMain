@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "you get a medicare supplement if you are on disability | Free Guide | MedicareYourself",
   description:
-    "On SSDI under 65? Over 30 states protect Medigap access for disabled enrollees. Compare plans free — call 855-559-1700 for licensed broker guidance.",
+    "Under 65 on SSDI? Over 30 states protect Medigap access for disabled enrollees. Compare plans free — call 855-559-1700 for licensed broker guidance today.",
   alternates: { canonical: "https://medicareyourself.com/services/you-get-a-medicare-supplement-if-you-are-on-disability" },
   openGraph: {
     title:
@@ -164,6 +164,22 @@ const faqs = [
     question: "What happens to my Medigap plan when I turn 65?",
     answer:
       "When you turn 65, you generally gain a fresh Medigap Open Enrollment Period regardless of your disability status. This lets you shop for new plans at standard age-65 rates, which are often lower than under-65 disability rates. Call 855-559-1700 before your 65th birthday to compare options.",
+  }
+,
+  {
+    question: "What is the 24-month Medicare waiting period for SSDI?",
+    answer:
+      "If you qualify for Social Security Disability Insurance, you generally must wait 24 months from your SSDI entitlement date before Medicare coverage begins. Medicare Parts A and B start automatically in the 25th month. People with ALS or End-Stage Renal Disease may qualify sooner without the waiting period.",
+  },
+  {
+    question: "Can I switch from Medicare Advantage to Medigap if I'm under 65 and disabled?",
+    answer:
+      "It depends on your state's protections and the timing of your request. Some states grant guaranteed issue rights to disabled enrollees during specific windows, while others allow carriers to medically underwrite or decline coverage. Call 855-559-1700 to review your state's rules and switching options.",
+  },
+  {
+    question: "Do I get a second Medigap open enrollment when I turn 65?",
+    answer:
+      "Yes. Even if you already had Medicare due to disability, you receive a fresh six-month Medigap Open Enrollment Period starting the month you turn 65 and are enrolled in Part B. During this window, you can buy any Medigap plan sold in your state without medical underwriting.",
   }
 ];
 
@@ -439,6 +455,7 @@ export default function MedicareSupplementDisabilityPage() {
             <div className="text-sm text-gray-600 mt-4">Need state-specific help? Find your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">Need state-specific help? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free local Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">Need state-specific help? Find your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">For state-specific help, contact your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
       </section>
 
       <p className="text-sm text-gray-500 mt-10">

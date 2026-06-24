@@ -84,6 +84,12 @@ const faqs = [
     answer:
       "Your Medigap Open Enrollment Period starts the month you turn 65 and are enrolled in Part B. During this 6-month window, carriers must accept you regardless of health history and cannot charge more for pre-existing conditions. Applying up to 6 months before your Part B start date helps lock in the best rate.",
   },
+,
+  {
+    question: "How do I find a local independent Medicare broker in Howell, NJ?",
+    answer:
+      "Many Howell residents ask for referrals in community groups when searching for a local independent Medicare broker. An independent broker like Anthony Orner is licensed in New Jersey and works with multiple carriers, so you can compare Supplement and Advantage options side by side. Call 855-559-1700 to schedule a free consultation.",
+  }
 ];
 
 export default function HowellNJMedicareInsuranceAgents() {

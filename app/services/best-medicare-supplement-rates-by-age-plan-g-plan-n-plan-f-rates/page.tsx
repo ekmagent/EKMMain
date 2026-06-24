@@ -279,6 +279,22 @@ const faqs = [
     answer:
       "Yes. Medigap premiums vary by ZIP code because carriers factor in regional medical costs and claims experience. Two people the same age with the same Plan G can pay very different premiums in different states or even different counties within the same state.",
   }
+,
+  {
+    question: "Does my ZIP code affect my Medicare Supplement rate?",
+    answer:
+      "Yes. Medigap premiums are set by carrier, plan letter, age, tobacco use, gender in some states, and your ZIP code. Two people the same age with the same plan letter can pay different premiums simply because they live in different rating areas.",
+  },
+  {
+    question: "Can I switch Medicare Supplement plans later to get a lower rate?",
+    answer:
+      "You can apply to switch Medigap plans at any time, but outside your Open Enrollment Period or a guaranteed issue situation, carriers can require medical underwriting. If you're in good health, switching can lower your premium, but a denial is possible if you have certain conditions.",
+  },
+  {
+    question: "Is Plan N a good way to get a lower Medigap premium than Plan G?",
+    answer:
+      "Plan N typically has a lower monthly premium than Plan G in exchange for small copays at office and ER visits and exposure to Part B excess charges. For people who don't visit doctors often and live in states that limit excess charges, Plan N can be a strong cost-saving alternative.",
+  }
 ];
 
 export default function BestMedicareSupplementRatesByAge() {
@@ -574,6 +590,7 @@ export default function BestMedicareSupplementRatesByAge() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify carrier filings and consumer protections with the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a> or get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents: visit the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling. Questions about your rate? Call 855-559-1700.</div>
       </section>
     </main>
   );

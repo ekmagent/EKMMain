@@ -270,6 +270,17 @@ const faqs = [
     answer:
       "If you are on Medicare Advantage and your psychiatrist exits the network mid-year, you generally must wait for the Annual Enrollment Period or Medicare Advantage Open Enrollment Period to switch, unless you qualify for a Special Enrollment Period. Original Medicare with a Medigap plan avoids network issues because you can see any provider who accepts Medicare. A broker can help weigh that tradeoff.",
   }
+,
+  {
+    question: "Does Medicare cover outpatient therapy and counseling for bipolar disorder?",
+    answer:
+      "Yes. Medicare Part B covers outpatient mental health services including individual and group psychotherapy, family counseling, and diagnostic evaluations. These services must be provided by a Medicare-enrolled psychiatrist, psychologist, clinical social worker, or other qualified provider. After meeting the Part B deductible, you typically pay 20% of the Medicare-approved amount.",
+  },
+  {
+    question: "Can a broker help me find a plan with my current psychiatrist in-network?",
+    answer:
+      "Yes. Anthony Orner can check provider networks across available Medicare Advantage plans in your area to confirm whether your psychiatrist, therapist, or behavioral health clinic participates. If you prefer Original Medicare with a Medigap plan, you can see any provider who accepts Medicare nationwide, which is often valuable for continuity of psychiatric care.",
+  }
 ];
 
 export default function MedicareBrokerBipolarDisorderPage() {

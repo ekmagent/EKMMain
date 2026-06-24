@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "how much does the best medicare supplemental insurance cost per month | Free Plan-by-Plan Breakdown | MedicareYourself",
   description:
-    "Compare Medicare Supplement Plan G and Plan N monthly premiums by carrier and zip code. Call 855-559-1700 for a free Medigap quote — no obligation.",
+    "Compare Medicare Supplement Plan G and Plan N monthly premiums by carrier, age, and zip code. Call 855-559-1700 for a free, no-obligation Medigap quote.",
   alternates: { canonical: "https://medicareyourself.com/services/how-much-does-the-best-medicare-supplemental-insurance-cost-per-month" },
   openGraph: {
     title:
@@ -341,6 +341,17 @@ const faqs = [
     answer:
       "You can apply to switch Medigap plans at any time, but outside your Open Enrollment Period or a guaranteed-issue situation, carriers can use medical underwriting and deny coverage or charge more based on health. Some states have special rules — like annual birthday or anniversary rules — that allow switching without underwriting. Call 855-559-1700 to review your options for your state.",
   }
+,
+  {
+    question: "Does where I live affect how much I pay for a Medigap policy?",
+    answer:
+      "Yes. Medigap premiums vary widely by state, county, and even zip code because insurers price based on local claims experience and competition. Two neighbors with the same Plan G from the same carrier could pay very different rates if they live across a county line. Call 855-559-1700 for a quote specific to your zip code.",
+  },
+  {
+    question: "What's the difference between community-rated, issue-age, and attained-age pricing?",
+    answer:
+      "Community-rated plans charge the same premium regardless of age. Issue-age policies base your rate on the age you were when you bought the plan, and that starting point never changes due to age. Attained-age policies start lower but increase as you get older, which can make them more expensive over time.",
+  }
 ];
 
 export default function HowMuchDoesBestMedicareSupplementalInsuranceCostPerMonth() {
@@ -600,6 +611,7 @@ export default function HowMuchDoesBestMedicareSupplementalInsuranceCostPerMonth
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">For unbiased state-level counseling, visit the <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a> to find free help in your state.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or the free <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP program</a> for unbiased Medigap counseling.</div>
       </section>
     </main>
   );

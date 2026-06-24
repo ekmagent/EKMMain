@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare supplement premiums increasing by double digits in 2025 | Free Rate Review | MedicareYourself",
   description:
-    "Medigap premiums rising in 2025? Compare carriers with identical standardized benefits and see if switching could lower your rate. Call 855-559-1700.",
+    "Medigap premiums rising in 2025? Compare carriers with identical benefits and see if switching could lower your rate. Free review — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-supplement-premiums-increasing-by-double-digits-in-2025" },
   openGraph: {
     title:
@@ -248,6 +248,22 @@ const faqs = [
     answer:
       "No. Each carrier files rate adjustments with state insurance departments on its own schedule, so increases can happen at different times of year and at different sizes. That's why two people with the same plan letter can pay very different premiums.",
   }
+,
+  {
+    question: "What should I do if I get a renewal letter with a large premium increase?",
+    answer:
+      "Don't panic or cancel your existing policy until you have a replacement approved. Call a licensed broker for a free rate review to compare carriers offering the same standardized plan letter in your ZIP code. If you can pass medical underwriting, switching to a lower-cost carrier with identical benefits is often possible. Call 855-559-1700 to start a review.",
+  },
+  {
+    question: "Are Medigap benefits different from one carrier to another?",
+    answer:
+      "No. Medicare Supplement plans are standardized by the federal government, so a Plan G from one carrier covers the exact same gaps in Original Medicare as a Plan G from any other carrier. The only differences are price, customer service, and optional extras like fitness or hearing discounts. This is why shopping carriers can save money without reducing coverage.",
+  },
+  {
+    question: "Will Original Medicare costs also change for 2026?",
+    answer:
+      "Yes. The Part B premium, Part B deductible, and Part A deductible are reset each year by CMS and typically rise. These changes are separate from your Medigap premium but affect your total out-of-pocket costs. Check medicare.gov each fall for the official figures before your plan renews.",
+  }
 ];
 
 export default function MedicareSupplementPremiumsIncreasing2025() {
@@ -473,6 +489,7 @@ export default function MedicareSupplementPremiumsIncreasing2025() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">NJ residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> or the free <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a> or the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP program</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" target="_blank" rel="noopener noreferrer" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </main>
   );

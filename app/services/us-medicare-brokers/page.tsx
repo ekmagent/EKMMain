@@ -8,7 +8,7 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 export const metadata: Metadata = {
   title: "US Medicare Brokers | Free Unbiased Help | MedicareYourself",
   description:
-    "Compare Medicare Supplement, Advantage & Part D plans across top carriers with a licensed US Medicare broker at no cost. Call 855-559-1700 for free help.",
+    "Work with a licensed US Medicare broker to compare Supplement, Advantage & Part D plans across top carriers at no cost. Call 855-559-1700 for free help.",
   alternates: { canonical: "https://medicareyourself.com/services/us-medicare-brokers" },
   openGraph: {
     title: "US Medicare Brokers | Free Unbiased Help | MedicareYourself",
@@ -346,6 +346,7 @@ export default function USMedicareBrokersPage() {
             <div className="text-sm text-gray-600 mt-4">Verify any broker's license through the <a href="https://www.state.nj.us/dobi/division_insurance/" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or contact your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify any broker's license through the <a href="https://www.state.nj.us/dobi/insurance.htm" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">NJ Department of Banking and Insurance</a> or get free counseling from <a href="https://www.shiphelp.org/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">your local SHIP program</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Verify a broker's license or get free local counseling through your <a href="https://www.shiphelp.org/about-medicare/regional-ship-location" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">Verify a broker's license through the <a href="https://www.state.nj.us/dobi/insmenu.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> or find free local counseling via your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
       </article>
     </>

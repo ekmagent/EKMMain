@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "best independent medicare broker near me new jersey | Free Consultation | MedicareYourself",
   description:
-    "Searching for the best independent Medicare broker near you in New Jersey? Anthony Orner compares 20+ carriers across all 21 NJ counties. Call 855-559-1700.",
+    "Looking for the best independent Medicare broker near you in NJ? Anthony Orner compares 20+ carriers across all 21 counties — free help. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/best-independent-medicare-broker-near-me-new-jersey" },
   openGraph: {
     title:
@@ -146,6 +146,22 @@ const faqs = [
     question: "How do I verify a Medicare broker is licensed in New Jersey?",
     answer:
       "You can confirm licensure through the New Jersey Department of Banking and Insurance producer search or by checking the broker's National Producer Number (NPI). Anthony Orner's NPI is 1902584006, and he is licensed in New Jersey plus 34 additional states. Always confirm a broker is appointed with multiple carriers before enrolling.",
+  }
+,
+  {
+    question: "Does New Jersey use community rating for Medigap premiums?",
+    answer:
+      "Yes. New Jersey uses community-rated Medigap pricing, which means carriers charge the same base premium regardless of your age within a given plan. Rates can still vary by carrier and plan letter, which is why comparing multiple companies side by side matters.",
+  },
+  {
+    question: "How do I choose the best independent Medicare broker in NJ?",
+    answer:
+      "Look for a licensed broker contracted with multiple major carriers, transparent about how they're paid, and willing to review your doctors and prescriptions before recommending a plan. Verify their license through the NJ Department of Banking and Insurance and check that they serve your county. Anthony Orner is licensed in NJ and 34 other states and works with 20+ carriers.",
+  },
+  {
+    question: "Will a broker help me after I enroll?",
+    answer:
+      "A good independent broker stays your point of contact for the life of your policy. That includes annual plan reviews during the Medicare Annual Enrollment Period, claims questions, and switching plans if your needs change. Call 855-559-1700 to set up a free consultation.",
   }
 ];
 
@@ -465,6 +481,7 @@ export default function BestIndependentMedicareBrokerNearMeNewJersey() {
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> offers free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" target="_blank" rel="noopener noreferrer" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> — free, unbiased Medicare counseling for NJ residents.</div>
       </section>
       </article>
     </>

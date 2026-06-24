@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare Supplement Insurance for Crohn's Patients | Free Guidance | MedicareYourself",
   description:
-    "Medigap for Crohn's patients helps cover the Part B coinsurance on biologic infusions, colonoscopies, and GI visits. Call 855-559-1700 for free guidance.",
+    "Medigap for Crohn's patients helps cover the Part B coinsurance on biologic infusions, colonoscopies, and GI visits. Call 855-559-1700 for free guidance today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-supplement-insurance-for-crohns-patients" },
   openGraph: {
     title:
@@ -303,6 +303,17 @@ const faqs = [
     answer:
       "Outside your initial Open Enrollment Period, switching Medigap plans usually requires passing medical underwriting, where Crohn's disease may affect approval. However, certain guaranteed-issue situations and a few state-specific rules allow plan changes without health questions. Call 855-559-1700 and we'll review whether you qualify to switch carriers or plan letters.",
   }
+,
+  {
+    question: "Are Medigap plans accepted at the same gastroenterologists who take Original Medicare?",
+    answer:
+      "Yes. Medigap plans work with any provider in the United States who accepts Original Medicare, so you can keep seeing the same GI specialists, infusion centers, and hospitals. There are no network restrictions, which is helpful when you need consistent IBD care or want access to academic medical centers. You also don't need referrals to see specialists.",
+  },
+  {
+    question: "Does a Medigap plan help with biologics I pick up at a pharmacy?",
+    answer:
+      "No. Medigap only supplements Original Medicare (Parts A and B), so it covers provider-administered infusions billed under Part B. Self-injected biologics filled at a pharmacy fall under Medicare Part D, which is a separate prescription drug plan. We can help you compare Part D options alongside your Medigap choice.",
+  }
 ];
 
 export default function MedicareSupplementCrohnsPage() {
@@ -519,6 +530,7 @@ export default function MedicareSupplementCrohnsPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </main>
   );

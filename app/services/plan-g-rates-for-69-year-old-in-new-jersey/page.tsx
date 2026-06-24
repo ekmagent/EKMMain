@@ -136,6 +136,17 @@ const faqs = [
     answer:
       "Many Medigap plans sold in New Jersey use community-rated pricing, meaning everyone in the same plan pays the same premium regardless of age. However, not every carrier uses the same method, so it's important to compare quotes directly. A licensed broker can confirm which pricing structure applies to each plan you're considering.",
   }
+,
+  {
+    question: "Does New Jersey use community rating for Medigap Plan G?",
+    answer:
+      "New Jersey uses community-rated pricing for Medigap plans, which means carriers generally charge the same premium regardless of your age. However, premiums can still vary significantly from one carrier to another. Comparing multiple insurers is the best way to find a competitive rate.",
+  },
+  {
+    question: "What does Plan G cover for a 69-year-old in New Jersey?",
+    answer:
+      "Plan G covers nearly all out-of-pocket costs left by Original Medicare, including the Part A deductible, hospital coinsurance, skilled nursing facility coinsurance, and Part B excess charges. You're only responsible for the annual Part B deductible before coverage kicks in. Benefits are standardized by federal law, so coverage is identical across carriers.",
+  }
 ];
 
 export default function PlanGRates69NJ() {

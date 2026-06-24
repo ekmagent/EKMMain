@@ -198,6 +198,12 @@ const faqs = [
     answer:
       "No. Medigap plans sold today do not include prescription drug coverage. You'll need a standalone Medicare Part D plan to cover medications, and we can help you compare Part D options alongside your supplement at no cost.",
   }
+,
+  {
+    question: "Which states guarantee Medigap access for people under 65 on disability?",
+    answer:
+      "A number of states require Medigap carriers to offer at least one supplement plan to Medicare beneficiaries under 65, including states like New York, Connecticut, Massachusetts, Maine, and several others. Rules vary on which plan letters must be offered and whether pricing is community-rated. Call 855-559-1700 and we'll confirm your state's specific protections at no cost.",
+  }
 ];
 
 export default function BestMedicareSupplementForPeopleOnDisability() {

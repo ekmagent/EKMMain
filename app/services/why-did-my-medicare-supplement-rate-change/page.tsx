@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Why Did My Medicare Supplement Rate Change? | Free Rate Review | MedicareYourself",
   description:
-    "Medigap rate going up? Learn the 3 pricing factors behind every Medicare Supplement increase and get a free rate review. Call 855-559-1700 today.",
+    "Medigap rate going up? Understand the 3 pricing factors behind every Medicare Supplement increase and get a free rate review. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/why-did-my-medicare-supplement-rate-change" },
   openGraph: {
     title:
@@ -197,6 +197,22 @@ const faqs = [
     question: "Should I drop my Medigap plan and switch to Medicare Advantage to save money?",
     answer:
       "It depends on your health, providers, and travel needs. Medigap and Medicare Advantage work very differently in terms of network access, out-of-pocket exposure, and the ability to return to Medigap later with underwriting. Review both options with a licensed broker before making a permanent change.",
+  }
+,
+  {
+    question: "Will shopping for a new Medigap plan always lower my premium?",
+    answer:
+      "Not always. While a new carrier may offer a lower introductory rate, you must qualify through medical underwriting in most situations outside of Open Enrollment or a guaranteed issue period. A licensed broker can compare carriers in your area and confirm whether switching saves money long-term, since some low introductory rates rise sharply later.",
+  },
+  {
+    question: "Does Medicare set or approve Medigap rate increases?",
+    answer:
+      "No. Medicare standardizes the benefits inside each lettered plan, but it does not set or approve premiums. Each insurance company files its own rates with the state department of insurance, which is why two carriers can charge very different premiums for the exact same Plan G or Plan N benefits.",
+  },
+  {
+    question: "Can I get a free review of my Medicare supplement rate?",
+    answer:
+      "Yes. Anthony Orner offers a no-cost rate review where he compares your current premium against other carriers available in your state. If a better-priced plan exists and you can qualify, he will walk you through the application. Call 855-559-1700 to schedule your review.",
   }
 ];
 
@@ -494,6 +510,7 @@ export default function WhyDidMyMedicareSupplementRateChange() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can review rate filings and consumer protections through the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a> or get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a> or the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or the free <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP program</a> for one-on-one counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
       </article>
     </>

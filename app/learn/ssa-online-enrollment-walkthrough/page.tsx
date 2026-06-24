@@ -1185,6 +1185,22 @@ const steps = [
     answer:
       "No. Once you click Submit Now and agree to the Electronic Signature Agreement, the application is final and cannot be modified online. If you need to correct information or change your Part B election, you'll have to contact Social Security directly. Review every screen carefully before submitting.",
   }
+,
+  {
+    question: "Do I need to contact Medicare directly to sign up for Part A and Part B?",
+    answer:
+      "No. Even though Medicare is the program, enrollment in Part A and Part B is handled by the Social Security Administration. You can apply online at ssa.gov, by phone, or in person at a local Social Security office.",
+  },
+  {
+    question: "What documents do I need before starting the SSA online application?",
+    answer:
+      "You'll need your Social Security number, a valid driver's license or state ID for identity verification through Login.gov or ID.me, and details about any current health coverage. If you have employer group coverage, have the employer name and your employment start and end dates ready.",
+  },
+  {
+    question: "Can I change my application after I submit it on SSA.gov?",
+    answer:
+      "No. Once you agree to the Electronic Signature Agreement and click Submit Now, the application is final and cannot be modified online. If you need to make a correction, you'll need to contact the Social Security Administration directly.",
+  }
 ];
 
 export default function SSAOnlineEnrollmentWalkthrough() {

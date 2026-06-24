@@ -408,6 +408,22 @@ const faqs = [
     answer:
       "With Original Medicare, you do not need a referral to see any specialist who accepts Medicare. Medicare Advantage HMO plans typically require a referral from your primary care doctor before seeing a cardiologist, while PPO plans generally do not. This is an important factor to weigh if you manage an ongoing heart condition.",
   }
+,
+  {
+    question: "Are heart medications covered under Medicare?",
+    answer:
+      "Most prescription heart medications — including blood thinners, statins, beta-blockers, and ACE inhibitors — are covered under Medicare Part D or through a Medicare Advantage plan that includes drug coverage. Each plan has its own formulary, so the same medication may have different copays depending on the plan you choose. A broker can run your specific drug list against available plans to find the lowest total annual cost.",
+  },
+  {
+    question: "Does Medicare cover pacemakers, stents, and bypass surgery?",
+    answer:
+      "Yes. Medicare Part A covers inpatient hospital care for procedures like coronary artery bypass grafting, valve replacement, and pacemaker or defibrillator implantation. Medicare Part B covers outpatient diagnostic testing such as EKGs, echocardiograms, and stress tests when ordered by your doctor. Your out-of-pocket share depends on whether you have a Medigap supplement or a Medicare Advantage plan.",
+  },
+  {
+    question: "Can I keep my cardiologist if I switch to Medicare Advantage?",
+    answer:
+      "Only if your cardiologist is in that plan's network. Medicare Advantage plans use provider networks, so a specialist who accepts Original Medicare may not participate with every Advantage plan. Before enrolling, a broker will verify your cardiologist, hospital system, and any other specialists are in-network for the plans you're considering.",
+  }
 ];
 
 export default function MedicareBrokerHeartDiseasePatients() {
@@ -606,6 +622,7 @@ export default function MedicareBrokerHeartDiseasePatients() {
             <div className="text-sm text-gray-600 mt-4">Free local counseling: <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> offers unbiased Medicare guidance in every state.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </main>
   );

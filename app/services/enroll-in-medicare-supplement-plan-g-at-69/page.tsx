@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "enroll in medicare supplement plan g at 69 | Free Broker Guidance | MedicareYourself",
   description:
-    "Enrolling in Medigap Plan G at 69? A licensed broker can compare carriers, navigate underwriting, and find your best rate. Call 855-559-1700 for free quotes.",
+    "Enrolling in Medigap Plan G at 69? Compare carriers, navigate underwriting, and lock in your best rate with a licensed broker. Call 855-559-1700 for free quotes.",
   alternates: { canonical: "https://medicareyourself.com/services/enroll-in-medicare-supplement-plan-g-at-69" },
   openGraph: {
     title:
@@ -117,6 +117,12 @@ const faqs = [
     question: "How long does it take to enroll in Plan G after I apply?",
     answer:
       "Most applications are processed within two to six weeks, depending on the carrier and whether additional medical records are requested. You choose your coverage start date on the application, and your new Plan G coverage begins once you're approved. A broker can help you time the application so there's no gap in coverage.",
+  }
+,
+  {
+    question: "Do I need to drop my current coverage before applying for Plan G at 69?",
+    answer:
+      "No. You should keep your existing coverage in place until the new Medigap policy is approved and the start date is confirmed. Once your Plan G application is accepted and effective, you can then cancel your prior coverage to avoid any gap.",
   }
 ];
 
@@ -382,6 +388,7 @@ export default function EnrollInMedicareSupplementPlanGAt69() {
             <div className="text-sm text-gray-600 mt-4">Need state-specific help? Find your local <a href="https://www.shiphelp.org/about-medicare/regional-ship-location" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/ship.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
       </section>
     </main>
   );

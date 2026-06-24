@@ -746,6 +746,22 @@ const faqs = [
     answer:
       "Carriers use one of three pricing methods: community-rated (everyone pays the same regardless of age), issue-age-rated (based on the age you bought the policy), or attained-age-rated (premiums rise as you get older). The method a company uses affects what you pay now and how much your premium increases over time. The available methods can vary by state.",
   }
+,
+  {
+    question: "Does my age affect what I pay for a Medigap policy each year?",
+    answer:
+      "It depends on how the insurance company prices its policies. Attained-age-rated plans increase as you get older, issue-age-rated plans are based on your age when you bought the policy, and community-rated plans charge the same regardless of age. All three types can still go up due to inflation and other factors.",
+  },
+  {
+    question: "Do I still have to pay my Part B premium if I have a Medigap plan?",
+    answer:
+      "Yes. A Medigap policy works alongside Original Medicare, so you continue paying the Part B premium directly to Medicare in addition to your Medigap premium. The Medigap plan only covers gaps like deductibles, copays, and coinsurance that Original Medicare leaves behind.",
+  },
+  {
+    question: "Can I switch Medigap plans later to lower my cost?",
+    answer:
+      "You can apply to switch Medigap plans at any time, but outside your initial Open Enrollment Period or a guaranteed-issue situation, carriers in most states can use medical underwriting. That means they can raise your rate or deny coverage based on your health. A licensed broker can review whether you qualify before you apply.",
+  }
 ];
 
 export default function AverageCostSupplementalInsurancePage() {

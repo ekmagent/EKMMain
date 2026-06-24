@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare insurance agents in burlington new jersey | Free Local Help | MedicareYourself",
   description:
-    "Talk to a licensed Medicare broker in Burlington County, NJ. Compare Medigap, Advantage & Part D plans at no cost. Call 855-559-1700 for free local help.",
+    "Compare Medicare plans in Burlington County, NJ with a licensed independent broker. Free side-by-side review of Medigap, Advantage & Part D — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-insurance-agents-in-burlington-new-jersey" },
   openGraph: {
     title:
@@ -376,6 +376,22 @@ const faqs = [
     answer:
       "Medigap (Medicare Supplement) works alongside Original Medicare to help cover out-of-pocket costs like deductibles and coinsurance, and it lets you see any provider that accepts Medicare nationwide. Medicare Advantage replaces Original Medicare with a private plan that often includes Part D and extra benefits but uses provider networks. The right choice depends on your doctors, travel habits, and budget.",
   }
+,
+  {
+    question: "When can I enroll in a Medigap plan in New Jersey?",
+    answer:
+      "Your strongest window is the 6-month Medigap Open Enrollment Period that starts the month you're 65 or older and enrolled in Part B. During this window, insurers in New Jersey cannot deny you coverage or charge more for health reasons. New Jersey also uses community rating, meaning Medigap premiums are not based on your age.",
+  },
+  {
+    question: "Do I need a local Burlington County agent, or can I work with someone remote?",
+    answer:
+      "You can work with any agent licensed in New Jersey, but many Burlington County residents prefer a broker familiar with local hospital systems and provider networks. Anthony Orner is licensed in NJ and 34 other states and can meet by phone, video, or in person when scheduling allows.",
+  },
+  {
+    question: "What's the difference between Medigap and Medicare Advantage in New Jersey?",
+    answer:
+      "Medigap (Medicare Supplement) works alongside Original Medicare to help cover out-of-pocket costs and lets you see any provider that accepts Medicare nationwide. Medicare Advantage replaces Original Medicare with a private plan that typically uses a network and may include extra benefits like dental or vision. A broker can walk through the tradeoffs based on your doctors and prescriptions.",
+  }
 ];
 
 export default function MedicareInsuranceAgentsBurlingtonNJ() {
@@ -647,6 +663,7 @@ export default function MedicareInsuranceAgentsBurlingtonNJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> offers free, unbiased Medicare counseling.</div>
       </section>
     </>
   );

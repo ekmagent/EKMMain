@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
   description:
-    "IRMAA explained: how Medicare's income surcharge raises Part B & Part D premiums, who pays, and how to appeal with SSA-44. Free broker help — call 855-559-1700.",
+    "IRMAA explained: how Medicare's income surcharge affects Part B & Part D, who pays, and how to appeal with SSA-44. Free broker help — call 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/irmaa-medicare-surcharge` },
   openGraph: {
     title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
@@ -1051,6 +1051,22 @@ const faqs = [
     question: "Does IRMAA recalculate every year?",
     answer:
       "Yes. Social Security reviews your most recent tax return each year, so IRMAA can go up, down, or disappear entirely as your income changes. Because there's a two-year lookback, a one-time income spike — like a Roth conversion or large capital gain — will only affect you for a single year in most cases.",
+  }
+,
+  {
+    question: "How do I appeal an IRMAA determination if my income has dropped?",
+    answer:
+      "You can appeal by filing Form SSA-44 with the Social Security Administration if you experienced a qualifying life-changing event, such as retirement, the death of a spouse, or divorce. You'll need documentation of the event and an estimate of your reduced income for the current year. If approved, SSA will recalculate your IRMAA using your updated income instead of the tax return from two years prior.",
+  },
+  {
+    question: "Does IRMAA get reviewed every year?",
+    answer:
+      "Yes. Social Security recalculates IRMAA annually based on the most recent tax return data provided by the IRS. If your income drops below the threshold in a future year, your IRMAA surcharge will be reduced or eliminated automatically the following year. You do not need to reapply once your income falls back below the bracket.",
+  },
+  {
+    question: "Can a licensed broker help me plan around IRMAA?",
+    answer:
+      "A licensed Medicare broker can help you understand how IRMAA affects your total Medicare costs and coordinate with your tax or financial advisor on timing decisions. While brokers do not file IRMAA appeals for you, we can explain the SSA-44 process and help you compare Part D and Medicare Advantage options. Call 855-559-1700 for free guidance.",
   }
 ];
 

@@ -279,6 +279,22 @@ const faqs = [
     answer:
       "Medicare considers you high-risk if you have diabetes, a family history of glaucoma, are African American and age 50 or older, or are Hispanic American and age 65 or older. If you fall into one of these groups, Medicare Part B covers a glaucoma screening once every 12 months. The screening must be performed or supervised by an eye doctor legally allowed to do so in your state.",
   }
+,
+  {
+    question: "Who qualifies for Medicare's annual glaucoma screening benefit?",
+    answer:
+      "Medicare Part B covers an annual glaucoma screening only for people considered high-risk. That includes people with diabetes, a family history of glaucoma, African Americans age 50 or older, and Hispanic Americans age 65 or older. The screening must be performed or supervised by an eye doctor legally authorized to do so in your state.",
+  },
+  {
+    question: "Are glaucoma eye drops covered by Original Medicare?",
+    answer:
+      "No. Prescription glaucoma eye drops such as latanoprost, timolol, or brimonidine are outpatient medications, which Original Medicare (Parts A and B) does not cover. You'll need a standalone Part D drug plan or a Medicare Advantage plan that includes Part D coverage. Formulary tier, copay, and prior authorization rules vary by plan, so comparing formularies before enrolling matters.",
+  },
+  {
+    question: "Can a Medicare broker help me find a plan that covers my eye doctor?",
+    answer:
+      "Yes. As a licensed broker, I can check whether your ophthalmologist participates in a given Medicare Advantage network and confirm that your specific glaucoma drops are on a plan's Part D formulary. With Original Medicare plus Medigap, you can generally see any provider who accepts Medicare, which many glaucoma patients prefer for specialist access.",
+  }
 ];
 
 export default function MedicareBrokerForGlaucomaPatients() {
@@ -515,6 +531,7 @@ export default function MedicareBrokerForGlaucomaPatients() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </div>
   );

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "local medicare agents in sewell nj | Free Quotes, No Pressure | MedicareYourself",
   description:
-    "Local Medicare agents in Sewell, NJ — Anthony Orner compares Advantage, Medigap & Part D across top carriers. Free, no-pressure quotes. Call 855-559-1700.",
+    "Local Medicare agents in Sewell, NJ — Anthony Orner compares Advantage, Medigap & Part D plans across top carriers. Free, no-pressure quotes: 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/local-medicare-agents-in-sewell-nj" },
   openGraph: {
     title:
@@ -85,6 +85,22 @@ const faqs = [
     answer:
       "Your Medigap Open Enrollment Period lasts 6 months, starting the month you turn 65 and are enrolled in Part B. During this window, carriers must accept you regardless of health history. After it closes, you may face medical underwriting.",
   },
+,
+  {
+    question: "Do local Medicare agents in Sewell, NJ charge a fee?",
+    answer:
+      "No. Licensed independent Medicare agents are paid by the insurance carriers, not by you. Your premium is the same whether you enroll directly with the carrier or through a local broker, so there is no added cost for personalized guidance.",
+  },
+  {
+    question: "Which Medicare carriers are available in Gloucester County, NJ?",
+    answer:
+      "Gloucester County residents typically have access to major carriers offering Medicare Advantage, Medigap, and Part D plans, including Aetna, Cigna, Humana, UnitedHealthcare, Wellcare, and Blue Cross Blue Shield. An independent broker can compare options across these carriers in one appointment.",
+  },
+  {
+    question: "Can I change my Medicare plan each year in Sewell?",
+    answer:
+      "Yes. The Medicare Annual Enrollment Period runs from October 15 through December 7 each year, when you can switch Medicare Advantage or Part D plans for the following year. Medicare Advantage enrollees also have an Open Enrollment Period from January 1 through March 31 to make one additional change.",
+  }
 ];
 
 export default function LocalMedicareAgentsInSewellNJ() {
@@ -389,6 +405,7 @@ export default function LocalMedicareAgentsInSewellNJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">For free, unbiased Medicare counseling in New Jersey, contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> or the <a href="https://www.nj.gov/dobi/" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

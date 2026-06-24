@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "How to Sign Up for Medicare (2026 Guide)",
   description:
-    "Step-by-step 2026 guide to signing up for Medicare at SSA, avoiding Part B late penalties, and picking the right coverage. Free broker help: 855-559-1700.",
+    "Step-by-step 2026 guide to signing up for Medicare at SSA, avoiding Part B late penalties & picking coverage. Free licensed broker help: 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/how-to-sign-up-for-medicare` },
   openGraph: {
     title: "How to Sign Up for Medicare (2026 Guide)",
@@ -1068,6 +1068,22 @@ const faqs = [
     question: "Do I need to sign up for Medicare every year?",
     answer:
       "No. Once you enroll in Medicare Part A and Part B, your coverage continues automatically each year. However, if you have a Medicare Advantage or Part D drug plan, you should review it each fall during the Annual Enrollment Period (October 15 – December 7) to make sure it still fits your needs.",
+  }
+,
+  {
+    question: "Can I sign up for Medicare online?",
+    answer:
+      "Yes. You can apply for Medicare online at ssa.gov/medicare in about 10 minutes, even if you are not ready to start Social Security retirement benefits. You can apply up to 3 months before the month you turn 65, and SSA will mail your red, white, and blue Medicare card after your application is processed.",
+  },
+  {
+    question: "What happens if I miss my Initial Enrollment Period?",
+    answer:
+      "If you miss your IEP and do not qualify for a Special Enrollment Period, you will have to wait for the General Enrollment Period (January 1 – March 31) to sign up for Part B, with coverage starting the month after you enroll. You may also owe a permanent Part B late enrollment penalty for each 12-month period you went without coverage. Call 855-559-1700 if you missed your window and need help figuring out next steps.",
+  },
+  {
+    question: "Do I need to sign up for Medicare if I have employer coverage?",
+    answer:
+      "If you or your spouse are still actively working and covered by a group health plan from an employer with 20+ employees, you can usually delay Part B without penalty and enroll later during a Special Enrollment Period. Confirm with your HR department that your plan counts as creditable coverage before delaying. Most people still enroll in Part A at 65 because it is premium-free for those with 40+ work credits.",
   }
 ];
 

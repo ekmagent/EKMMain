@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare Enrollment Help for People With Diabetes | Free Guidance | MedicareYourself",
   description:
-    "Medicare enrollment help for people with diabetes—find plans covering insulin, CGMs, pumps & test strips. Call 855-559-1700 for free personalized guidance.",
+    "Medicare enrollment help for people with diabetes—compare plans covering insulin, CGMs, pumps & test strips. Call 855-559-1700 for free expert guidance.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-enrollment-help-for-people-with-diabetes" },
   openGraph: {
     title:
@@ -435,6 +435,12 @@ const faqs = [
     question: "Is there help paying for insulin and other diabetes medications under Medicare?",
     answer:
       "Yes. Medicare's Extra Help program assists people with limited income and resources in paying Part D premiums, deductibles, and copayments for prescription drugs, including insulin. People who qualify for Extra Help also avoid the Part D late enrollment penalty. You can apply through Social Security or call 855-559-1700 to see if you may qualify.",
+  }
+,
+  {
+    question: "Does Medicare Part D cover insulin?",
+    answer:
+      "Yes. Medicare Part D plans cover insulin, and recent federal changes have capped monthly out-of-pocket costs for covered insulin products. Insulin used with a traditional insulin pump is covered under Part B as durable medical equipment instead. Call 855-559-1700 to compare Part D formularies for your specific insulin.",
   }
 ];
 

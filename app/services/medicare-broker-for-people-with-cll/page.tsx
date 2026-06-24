@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare broker for people with CLL | Free Consult | MedicareYourself",
   description:
-    "CLL Medicare broker help: protect oncologist access, time Medigap enrollment, and cover oral cancer drugs under Part D. Free consult — call 855-559-1700.",
+    "CLL Medicare broker help: protect oncologist access, time Medigap enrollment right, and cover oral targeted therapies. Free consult — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-people-with-cll" },
   openGraph: {
     title:
@@ -320,6 +320,12 @@ const faqs = [
     question: "Can I switch from Medicare Advantage back to Original Medicare after a CLL diagnosis?",
     answer:
       "You can switch back to Original Medicare during the Annual Enrollment Period or the Medicare Advantage Open Enrollment Period. However, getting a Medigap plan afterward may require medical underwriting in most states, and a CLL diagnosis could lead to denial. Trial right protections may apply in limited situations.",
+  }
+,
+  {
+    question: "Are CLL clinical trials covered by Medicare?",
+    answer:
+      "Medicare covers routine costs of qualifying clinical trials, including office visits, lab work, and standard care you would receive even outside the trial. The investigational drug itself is usually provided by the trial sponsor. If you're considering a CLL trial at a major cancer center, call 855-559-1700 to review how your current plan handles trial-related costs.",
   }
 ];
 
