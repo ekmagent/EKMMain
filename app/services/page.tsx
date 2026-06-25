@@ -1126,6 +1126,22 @@ const STATIC_CATEGORIES = [
     answer:
       "The right path depends on your health conditions, prescriptions, preferred doctors, and budget. If you have specific conditions or live in New Jersey, our condition-specific and local guides walk through how plans typically handle each situation. For personalized help, call 855-559-1700 to speak with a licensed broker.",
   }
+,
+  {
+    question: "What does a licensed Medicare broker actually do?",
+    answer:
+      "A licensed Medicare broker helps you compare Medigap, Medicare Advantage, and Part D plans from multiple carriers so you can choose what fits your health needs and budget. Brokers are appointed with several insurance companies and provide unbiased plan reviews at no cost to you. You can also call 1-800-MEDICARE or visit Medicare.gov for general program questions.",
+  },
+  {
+    question: "Is there a fee to work with MedicareYourself?",
+    answer:
+      "No. Our services are free to consumers because licensed brokers are compensated directly by the insurance carriers when a plan is issued. Your premium is the same whether you enroll through a broker or directly with the carrier. Call 855-559-1700 to schedule a free plan review.",
+  },
+  {
+    question: "Can I get help comparing plans outside of New Jersey?",
+    answer:
+      "Yes. Anthony Orner is licensed in New Jersey and 34 additional states, so he can review Medigap, Medicare Advantage, and Part D options across most of the country. Plan availability and pricing vary by ZIP code, so we tailor every recommendation to your local market.",
+  }
 ];
 
 export default function ServicesHubPage() {
@@ -1277,6 +1293,7 @@ export default function ServicesHubPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/dobi/index.shtml" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking &amp; Insurance</a> or the free <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP counseling program</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
       </section>
     </>
   );

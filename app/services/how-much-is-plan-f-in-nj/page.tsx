@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "how much is plan F in nj | Free Rate Lookup by Age | MedicareYourself",
   description:
-    "How much is Plan F in NJ? Compare 2026 Medigap rates by age and see if Plan G saves you more. Call 855-559-1700 for a free side-by-side quote.",
+    "How much is Plan F in NJ? Compare 2026 Medigap rates by age and see if Plan G saves you more. Call 855-559-1700 for a free side-by-side quote today.",
   alternates: { canonical: "https://medicareyourself.com/services/how-much-is-plan-f-in-nj" },
   openGraph: {
     title:
@@ -307,6 +307,7 @@ export default function HowMuchIsPlanFInNJ() {
             <div className="text-sm text-gray-600 mt-4">Free unbiased help for NJ seniors: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">For New Jersey-specific guidance, visit the <a href="https://www.state.nj.us/dobi/index.html" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a> or contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </main>
   );

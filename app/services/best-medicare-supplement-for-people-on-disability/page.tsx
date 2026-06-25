@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "best medicare supplement for people on disability | Free Plan Review | MedicareYourself",
   description:
-    "Best Medicare Supplement for people on disability: compare state rules, plan letters, and pricing. Call 855-559-1700 for free licensed broker help.",
+    "Best Medicare Supplement for people on disability: compare state rules, plan letters, and pricing. Call 855-559-1700 for free licensed broker help today.",
   alternates: { canonical: "https://medicareyourself.com/services/best-medicare-supplement-for-people-on-disability" },
   openGraph: {
     title:
@@ -203,6 +203,17 @@ const faqs = [
     question: "Which states guarantee Medigap access for people under 65 on disability?",
     answer:
       "A number of states require Medigap carriers to offer at least one supplement plan to Medicare beneficiaries under 65, including states like New York, Connecticut, Massachusetts, Maine, and several others. Rules vary on which plan letters must be offered and whether pricing is community-rated. Call 855-559-1700 and we'll confirm your state's specific protections at no cost.",
+  }
+,
+  {
+    question: "Which Medigap plan letter is most popular for people on disability?",
+    answer:
+      "Plan G is widely chosen because it covers nearly all Medicare-approved out-of-pocket costs except the annual Part B deductible. Plan N is a lower-premium alternative that uses small copays for office and ER visits. The best choice depends on your state's under-65 access rules and the premiums each carrier offers in your area.",
+  },
+  {
+    question: "Can I switch Medigap plans when I turn 65 if I'm already on Medicare due to disability?",
+    answer:
+      "Yes. When you turn 65, you generally get a fresh six-month Medigap Open Enrollment Period with guaranteed-issue rights, regardless of your health history. This is often the best time to shop carriers because premiums typically drop significantly compared to under-65 pricing. Call 855-559-1700 and we'll help you compare options before your birthday window opens.",
   }
 ];
 

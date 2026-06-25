@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "independent medicare advantage agents near me | Free NJ Consultations | MedicareYourself",
   description:
-    "Independent NJ Medicare Advantage agent compares every major plan in your county at no cost. Call 855-559-1700 for a free, no-pressure review today.",
+    "Work with an independent NJ Medicare Advantage agent who compares every major plan in your county at no cost. Call 855-559-1700 for a free review.",
   alternates: { canonical: "https://medicareyourself.com/services/independent-medicare-advantage-agents-near-me" },
   openGraph: {
     title:
@@ -164,6 +164,17 @@ const faqs = [
     question: "Can an independent agent help me each year during the Annual Enrollment Period?",
     answer:
       "Yes. A good independent agent reviews your plan every year during the Annual Enrollment Period (October 15 through December 7) because Medicare Advantage formularies, networks, and benefits can change. An annual review helps confirm your current plan is still the best match for the coming year.",
+  }
+,
+  {
+    question: "How do I find a trustworthy independent Medicare agent near me?",
+    answer:
+      "Look for a licensed agent who is appointed with multiple major carriers in your state, has verifiable credentials like an NPI number, and is willing to explain tradeoffs rather than push one specific plan. A trustworthy agent will review your doctors, prescriptions, and budget before making a recommendation.",
+  },
+  {
+    question: "Does an independent Medicare agent help after I enroll?",
+    answer:
+      "Yes. A good independent agent stays available year-round to answer billing questions, help with provider network issues, and review your plan each Annual Enrollment Period to make sure it still fits your needs. Ongoing service is part of how independent agents build long-term client relationships.",
   }
 ];
 
@@ -421,6 +432,7 @@ export default function IndependentMedicareAdvantageAgentsNearMe() {
             <div className="text-sm text-gray-600 mt-4">NJ residents: get free unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

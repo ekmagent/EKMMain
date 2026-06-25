@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "how can i save money on my medicare supplement | Free Rate Review | MedicareYourself",
   description:
-    "How can I save on my Medicare Supplement? Compare carriers, stack discounts & review plan letters. Call 855-559-1700 for a free rate review today.",
+    "How can I save on my Medicare Supplement? Compare carriers, stack discounts, and review plan letters. Call 855-559-1700 for a free rate review today.",
   alternates: { canonical: "https://medicareyourself.com/services/how-can-i-save-money-on-my-medicare-supplement" },
   openGraph: {
     title:
@@ -184,6 +184,22 @@ const faqs = [
     question: "Can a Medicare Savings Program help if my Supplement premium is too high?",
     answer:
       "Yes. State-run Medicare Savings Programs can help pay your Part B premium and other Medicare costs if your income and resources fall within program limits. Lowering those out-of-pocket Medicare costs can free up budget for your Supplement premium. You can review eligibility at Medicare.gov or call us for help applying.",
+  }
+,
+  {
+    question: "When is the best time to buy a Medicare Supplement to save money?",
+    answer:
+      "Your Medigap Open Enrollment Period is the best time to buy. It starts the first month you have Medicare Part B and you're 65 or older, and lasts 6 months. During this window, carriers can't deny you coverage or charge more based on health, which usually means lower premiums.",
+  },
+  {
+    question: "Can household or paperless discounts lower my Medigap premium?",
+    answer:
+      "Yes. Many carriers offer household discounts when two people in the same home are enrolled, plus smaller discounts for electronic funds transfer or paperless billing. Stacking these discounts at the time of application can meaningfully reduce your monthly premium. Call 855-559-1700 and we'll check which discounts each carrier offers in your state.",
+  },
+  {
+    question: "Does changing plan letters (like G to N) actually save money?",
+    answer:
+      "It can. Plan N typically has a lower premium than Plan G in exchange for small copays at office and ER visits and not covering the Part B excess charge. For people who don't see specialists frequently, the premium savings can outweigh the copays.",
   }
 ];
 
@@ -441,6 +457,7 @@ export default function HowCanISaveMoneyOnMyMedicareSupplement() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-700 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Free local counseling: <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Find your State Health Insurance Assistance Program (SHIP)</a> for unbiased Medicare guidance.</div>
             <div className="text-sm text-gray-600 mt-4">Need state-specific help? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">Need free one-on-one help? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a> for unbiased Medicare counseling in your state.</div>
       </section>
     </main>
   );

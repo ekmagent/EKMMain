@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
   description:
-    "IRMAA explained: how Medicare's income surcharge affects Part B & Part D, who pays, and how to appeal with SSA-44. Free broker help — call 855-559-1700.",
+    "IRMAA explained: how Medicare's income surcharge affects Part B & Part D, who pays, and how to appeal with SSA-44. Free broker guidance — call 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/irmaa-medicare-surcharge` },
   openGraph: {
     title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
@@ -1067,6 +1067,22 @@ const faqs = [
     question: "Can a licensed broker help me plan around IRMAA?",
     answer:
       "A licensed Medicare broker can help you understand how IRMAA affects your total Medicare costs and coordinate with your tax or financial advisor on timing decisions. While brokers do not file IRMAA appeals for you, we can explain the SSA-44 process and help you compare Part D and Medicare Advantage options. Call 855-559-1700 for free guidance.",
+  }
+,
+  {
+    question: "How do I appeal an IRMAA determination if my income has dropped?",
+    answer:
+      "If you've experienced a qualifying life-changing event — such as retirement, divorce, or the death of a spouse — you can file Form SSA-44 with the Social Security Administration to request a reduction. You'll need to provide documentation of the event and an estimate of your reduced income. SSA reviews these requests and adjusts your IRMAA if approved. You can also call SSA directly to start the process.",
+  },
+  {
+    question: "Will IRMAA automatically go away if my income decreases?",
+    answer:
+      "Eventually, yes — IRMAA is recalculated each year based on your tax return from two years prior. If your income drops and you wait, the surcharge will adjust on its own once SSA receives the updated tax data. However, if the drop is due to a life-changing event, filing Form SSA-44 can speed up the reduction rather than waiting two years.",
+  },
+  {
+    question: "Can a Medicare broker help me reduce or appeal IRMAA?",
+    answer:
+      "A licensed broker cannot change your IRMAA determination — that's handled by the Social Security Administration. However, we can help you understand which life-changing events qualify, walk you through the SSA-44 process, and review how IRMAA affects your Part B and Part D costs. Call 855-559-1700 for free guidance.",
   }
 ];
 

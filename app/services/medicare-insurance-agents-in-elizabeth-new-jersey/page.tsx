@@ -91,6 +91,12 @@ const faqs = [
     answer:
       "No. Licensed Medicare brokers are paid commissions by the insurance carriers, not by you. Your premium is the same whether you enroll directly with the carrier or through an independent broker. There are no hidden fees or enrollment charges for the consultation.",
   }
+,
+  {
+    question: "What's the difference between Medigap and Medicare Advantage in Elizabeth, NJ?",
+    answer:
+      "Medigap (Medicare Supplement) works alongside Original Medicare and helps pay your share of costs like deductibles and coinsurance, letting you see any provider that accepts Medicare. Medicare Advantage (Part C) replaces Original Medicare with a private plan that typically uses networks and may include extra benefits like dental or vision. An independent broker can compare both options based on your doctors and prescriptions.",
+  }
 ];
 
 export default function MedicareInsuranceAgentsElizabethNJ() {
@@ -362,6 +368,7 @@ export default function MedicareInsuranceAgentsElizabethNJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </main>
   );

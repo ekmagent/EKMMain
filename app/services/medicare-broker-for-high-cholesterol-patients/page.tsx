@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for high cholesterol patients | Free Plan Comparison | MedicareYourself",
   description:
-    "Medicare broker Anthony Orner helps high cholesterol patients compare plans covering statins, lipid panels & cardiology. Free help — call 855-559-1700.",
+    "High cholesterol? Broker Anthony Orner compares Medicare plans covering statins, lipid panels & cardiology so you pay less. Free help — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-high-cholesterol-patients" },
   openGraph: {
     title:
@@ -347,6 +347,7 @@ export default function MedicareBrokerHighCholesterolPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free unbiased Medicare counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents: visit the <a href="https://www.state.nj.us/dobi/division_insurance/ins_ombudsman.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free unbiased counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
       </article>
     </>

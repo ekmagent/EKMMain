@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "when can i change my medicare supplement plan for 2026 | Free Switching Help | MedicareYourself",
   description:
-    "When can you change your Medicare Supplement plan for 2026? Learn switch windows, guaranteed-issue rights & underwriting. Free broker help — call 855-559-1700.",
+    "When can you change your Medicare Supplement plan for 2026? Learn switch windows, guaranteed-issue rights, and underwriting rules. Free broker help: 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/when-can-i-change-my-medicare-supplement-plan-for-2026" },
   openGraph: {
     title:
@@ -438,6 +438,22 @@ const faqs = [
     answer:
       "In most cases, yes. Outside your 6-month Medigap Open Enrollment Period or a guaranteed-issue situation, carriers can require medical underwriting and review your health history before approving you. A licensed broker can pre-screen you with multiple carriers to find one likely to approve your application before you formally apply.",
   }
+,
+  {
+    question: "Do I have to wait for an annual enrollment period to change my Medigap plan?",
+    answer:
+      "No. Unlike Medicare Advantage and Part D, Medigap has no federal annual enrollment window. You can submit an application to change your Medicare Supplement plan at any time of year, but outside your initial Medigap Open Enrollment Period or a guaranteed-issue situation, carriers can use medical underwriting to approve, deny, or rate your application.",
+  },
+  {
+    question: "What happens if I switch Medigap plans and don't like the new one?",
+    answer:
+      "Federal law provides a 30-day free-look period when you buy a new Medigap policy. During that time you can decide whether to keep the new policy or go back to your old one, as long as you don't cancel the original until the free-look ends. A licensed broker can walk you through this before you switch — call 855-559-1700.",
+  },
+  {
+    question: "Does my state give me more rights to change Medigap plans in 2026?",
+    answer:
+      "Some states offer broader Medigap switching rights than federal law, including annual birthday rules, anniversary rules, or continuous guaranteed issue. These rules vary widely and change over time, so it's important to confirm your state's current protections before applying to switch carriers.",
+  }
 ];
 
 export default function WhenCanIChangeMyMedicareSupplementPlanFor2026() {
@@ -674,6 +690,7 @@ export default function WhenCanIChangeMyMedicareSupplementPlanFor2026() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medigap switching guidance.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/division_consumers/insurance/ship.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medigap guidance.</div>
+            <div className="text-sm text-gray-600 mt-4">For state-specific Medigap rights, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> or the <a href="https://www.nj.gov/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a>.</div>
       </section>
     </main>
   );

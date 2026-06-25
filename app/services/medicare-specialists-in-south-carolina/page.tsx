@@ -170,6 +170,17 @@ const faqs = [
     answer:
       "Yes, but timing matters. You can switch during the Medicare Advantage Open Enrollment Period (January 1 to March 31) or the Annual Election Period (October 15 to December 7). However, South Carolina does not have a guaranteed issue rule for Medigap when leaving Advantage, so you may face medical underwriting and could be denied based on health history.",
   }
+,
+  {
+    question: "Can I switch from Medicare Advantage back to Original Medicare in South Carolina?",
+    answer:
+      "Yes, you can switch during the Annual Enrollment Period from October 15 to December 7, or during the Medicare Advantage Open Enrollment Period from January 1 to March 31. However, returning to Original Medicare and adding a Medigap plan in SC may require medical underwriting if you're outside your initial enrollment window. A specialist can review your options before you make the switch.",
+  },
+  {
+    question: "Which Medicare carriers are available in South Carolina?",
+    answer:
+      "South Carolina residents have access to multiple national and regional carriers offering Medigap, Medicare Advantage, and Part D plans. Plan availability varies by county, so a SC-licensed broker can show you which carriers and plan types are offered in your specific ZIP code. Call 855-559-1700 to compare options side by side.",
+  }
 ];
 
 export default function MedicareSpecialistsSouthCarolina() {

@@ -305,6 +305,12 @@ const GUIDES = [
     answer:
       "It's a good idea to review your Medicare coverage once a year during the Annual Enrollment Period, which runs from October 15 to December 7. Plan premiums, drug formularies, and provider networks can change each year, so the plan that worked best last year may not be the best fit this year. Call 855-559-1700 if you'd like a licensed broker to review your options with you.",
   }
+,
+  {
+    question: "Can I change my Medicare coverage after I enroll?",
+    answer:
+      "Yes. Medicare has specific enrollment windows when you can join, switch, or drop coverage, including the Annual Election Period in the fall and the Medicare Advantage Open Enrollment Period in early in the year. Outside those windows, you may qualify for a Special Enrollment Period if you have a life event like moving or losing employer coverage. Our guide on Medicare enrollment periods explains the timing, or call 855-559-1700 for help.",
+  }
 ];
 
 export default function LearnHubPage() {

@@ -1201,6 +1201,22 @@ const steps = [
     answer:
       "No. Once you agree to the Electronic Signature Agreement and click Submit Now, the application is final and cannot be modified online. If you need to make a correction, you'll need to contact the Social Security Administration directly.",
   }
+,
+  {
+    question: "Do I need a my Social Security account to enroll in Medicare online?",
+    answer:
+      "Yes. You'll need to sign in to a my Social Security account to submit your online Medicare application. If you don't already have one, you can create it during the process using Login.gov or ID.me, which requires identity verification with your Social Security number and a government-issued ID.",
+  },
+  {
+    question: "Can I sign up for only Part A and skip Part B online?",
+    answer:
+      "Yes. During the SSA online application, you'll be asked whether you want to enroll in Part B. You can choose to enroll in Part A only if you have other creditable coverage, such as an employer group health plan. Delaying Part B without creditable coverage can trigger a late enrollment penalty.",
+  },
+  {
+    question: "What if I make a mistake on my SSA Medicare application?",
+    answer:
+      "Once you click Submit Now and agree to the Electronic Signature Agreement, you cannot modify your application online. If you need to correct information or withdraw the application, you'll need to contact the Social Security Administration directly. Review every screen carefully before submitting.",
+  }
 ];
 
 export default function SSAOnlineEnrollmentWalkthrough() {

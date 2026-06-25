@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for COPD patients | Free Plan Review | MedicareYourself",
   description:
-    "Medicare broker for COPD patients—compare plans covering inhalers, oxygen therapy, and pulmonary rehab. Free plan review with Anthony Orner. Call today.",
+    "Medicare broker for COPD patients—compare plans covering inhalers, oxygen, and pulmonary rehab. Free plan review with Anthony Orner. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-copd-patients" },
   openGraph: {
     title:
@@ -231,6 +231,22 @@ const faqs = [
     question: "What should COPD patients look for when choosing a Medicare plan?",
     answer:
       "Focus on inhaler coverage tier and copay structure, access to your pulmonologist, oxygen supplier network, and prior authorization requirements for nebulizers or rehab. Plan design matters more than premium for chronic conditions like COPD. I compare these details side by side so you can see total expected cost, not just the sticker price.",
+  }
+,
+  {
+    question: "Does Medicare cover pulmonary rehabilitation for COPD?",
+    answer:
+      "Yes. Medicare Part B covers comprehensive pulmonary rehabilitation programs for beneficiaries with moderate to very severe COPD when referred by the doctor treating the chronic respiratory disease. These programs include exercise training, education, and psychosocial support to help you manage symptoms and improve quality of life.",
+  },
+  {
+    question: "Are COPD inhalers covered under Medicare Part B or Part D?",
+    answer:
+      "Most COPD inhalers are covered under Medicare Part D prescription drug plans, not Part B. However, nebulizer medications used with durable medical equipment at home are typically covered under Part B. Formularies vary between Part D plans, so it's important to verify your specific inhalers are covered before enrolling.",
+  },
+  {
+    question: "Can I switch Medicare plans if my COPD treatment needs change?",
+    answer:
+      "Yes. You can change Medicare Advantage or Part D plans during the Annual Enrollment Period each fall, and Medicare Advantage members have an additional Open Enrollment Period in early in the year. Certain life events like moving or qualifying for Extra Help may also trigger a Special Enrollment Period.",
   }
 ];
 

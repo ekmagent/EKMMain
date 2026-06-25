@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "average cost of supplemental health insurance for seniors with medicare | Free Broker Comparison | MedicareYourself",
   description:
-    "See what drives Medigap premiums by plan, age, and state for 2026. A licensed broker compares top carriers free so you don't overpay. Call 855-559-1700.",
+    "Compare 2026 Medigap costs by plan, age, and state. A licensed broker shops top carriers free so you get the lowest rate available. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/average-cost-of-supplemental-health-insurance-for-seniors-with-medicare" },
   openGraph: {
     title:
@@ -761,6 +761,17 @@ const faqs = [
     question: "Can I switch Medigap plans later to lower my cost?",
     answer:
       "You can apply to switch Medigap plans at any time, but outside your initial Open Enrollment Period or a guaranteed-issue situation, carriers in most states can use medical underwriting. That means they can raise your rate or deny coverage based on your health. A licensed broker can review whether you qualify before you apply.",
+  }
+,
+  {
+    question: "Does where I live affect how much I pay for Medigap?",
+    answer:
+      "Yes. Medigap premiums vary widely by state and even by zip code because carriers price based on local claims experience and state regulations. The same lettered plan from the same company can cost noticeably more in one state than another. A licensed broker can run a side-by-side carrier comparison for your specific zip code.",
+  },
+  {
+    question: "Do Medigap premiums go up as I get older?",
+    answer:
+      "It depends on the carrier's pricing method. Community-rated plans charge everyone the same regardless of age, issue-age plans lock in your rate based on the age you enrolled, and attained-age plans increase as you grow older. All three can still see rate adjustments for inflation and claims trends.",
   }
 ];
 

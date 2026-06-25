@@ -9,7 +9,7 @@ import { MF } from "@/lib/medicare-figures";
 export const metadata: Metadata = {
   title: "How to Enroll in a Medicare Supplement Plan (2026): The 5-Step Guide",
   description:
-    "Enroll in a Medicare Supplement plan in 5 steps and protect your 6-month guaranteed-issue window. Call 855-559-1700 to compare every carrier — free.",
+    "Enroll in a Medicare Supplement plan in 5 steps and protect your 6-month guaranteed-issue window. Call 855-559-1700 to compare every carrier in your state — free.",
   alternates: { canonical: `${SITE_URL}/learn/how-to-enroll-in-a-medicare-supplement-plan` },
   openGraph: {
     title: "How to Enroll in a Medicare Supplement Plan (2026): The 5-Step Guide",
@@ -966,6 +966,22 @@ const faqs = [
     question: "Can I switch Medicare Supplement plans after I enroll?",
     answer:
       "Yes, you can apply to switch plans at any time, but outside of your Medigap Open Enrollment Period or a guaranteed-issue situation, the new carrier can use medical underwriting. That means they can deny coverage or charge more based on your health. Some states have additional protections — call 855-559-1700 to review your options.",
+  }
+,
+  {
+    question: "When is the best time to enroll in a Medicare Supplement plan?",
+    answer:
+      "The best time to enroll is during your 6-month Medigap Open Enrollment Period, which starts the first day of the month you are both 65 or older and enrolled in Part B. During this window, you have a guaranteed right to buy any Medigap plan sold in your state, regardless of health history. Outside this window, carriers in most states can deny you or charge more based on medical underwriting.",
+  },
+  {
+    question: "Can I be denied a Medicare Supplement plan because of my health?",
+    answer:
+      "During your 6-month Medigap Open Enrollment Period, you cannot be denied coverage or charged more based on pre-existing conditions. Outside that window — and outside certain federally protected guaranteed-issue situations — carriers in most states can use medical underwriting to deny your application or charge a higher premium. This is why timing your application correctly is critical.",
+  },
+  {
+    question: "Do I need to re-enroll in my Medicare Supplement plan every year?",
+    answer:
+      "No. Medicare Supplement plans are guaranteed renewable, meaning your carrier cannot cancel your policy as long as you pay your premium. You do not need to re-enroll annually or during the Medicare Annual Enrollment Period. You can keep the same Medigap plan for life, though premiums may change over time.",
   }
 ];
 

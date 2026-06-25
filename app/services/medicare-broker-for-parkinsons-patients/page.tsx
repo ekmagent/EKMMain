@@ -199,6 +199,17 @@ const faqs = [
     answer:
       "Yes. Before recommending a plan, I check whether your current neurologist or preferred Parkinson's Foundation Center of Excellence is in-network. If you're on Original Medicare with a Supplement, you can generally see any provider that accepts Medicare, which gives you the widest specialist access.",
   }
+,
+  {
+    question: "When can Parkinson's patients change Medicare plans?",
+    answer:
+      "Most people can change plans during the Annual Enrollment Period from October 15 to December 7 each year. If you have a Medicare Advantage plan, you also have the Medicare Advantage Open Enrollment Period from January 1 to March 31 to switch plans or return to Original Medicare. Qualifying life events like moving or losing other coverage can trigger Special Enrollment Periods.",
+  },
+  {
+    question: "Should Parkinson's patients choose Original Medicare or Medicare Advantage?",
+    answer:
+      "It depends on your providers, medications, and how often you see specialists. Original Medicare with a Medigap plan offers broader access to neurologists and movement disorder specialists nationwide with predictable out-of-pocket costs. Medicare Advantage plans may include extras but use networks and prior authorization, which can complicate access to DBS surgery or specialized therapy. I compare both side by side using your actual doctor and drug list.",
+  }
 ];
 
 export default function MedicareBrokerForParkinsonsPatients() {
