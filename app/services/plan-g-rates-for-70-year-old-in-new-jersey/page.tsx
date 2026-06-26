@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Plan G Rates for a 70-Year-Old in New Jersey | Free Quote in Minutes | MedicareYourself",
   description:
-    "Compare Plan G rates for a 70-year-old in NJ with a licensed local broker. See how Medigap pricing works and get a free quote. Call 855-559-1700 today.",
+    "Compare Plan G rates for a 70-year-old in New Jersey with a licensed local broker. See how NJ Medigap pricing works and get a free quote. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/plan-g-rates-for-70-year-old-in-new-jersey" },
   openGraph: {
     title:
@@ -267,6 +267,17 @@ const faqs = [
     question: "Why do Plan G premiums vary so much between carriers in New Jersey?",
     answer:
       "Every Medigap Plan G covers the exact same federally standardized benefits, no matter which carrier sells it. The only real difference between companies is price, which is why shopping multiple carriers in New Jersey can lead to meaningful savings on the same coverage.",
+  }
+,
+  {
+    question: "Why do Plan G premiums differ between insurance companies in New Jersey?",
+    answer:
+      "Every Medigap Plan G covers the exact same federally standardized benefits, regardless of which company sells it. The only real difference between carriers is price, which can vary significantly based on the insurer's pricing method, administrative costs, and rate history. That's why comparing multiple NJ carriers before enrolling can save you meaningful money over time.",
+  },
+  {
+    question: "Should I work with a licensed broker to compare Plan G rates in NJ?",
+    answer:
+      "Yes — a licensed independent broker can pull live quotes from multiple Medigap carriers at no cost to you, since commissions are paid by the insurance company. This saves you from calling each company separately and helps ensure you don't overpay for identical coverage. Call 855-559-1700 to compare NJ Plan G rates side by side.",
   }
 ];
 
@@ -535,6 +546,7 @@ export default function PlanGRates70NJ() {
             <div className="text-sm text-gray-600 mt-4">For NJ-specific help, visit the <a href="https://www.state.nj.us/dobi/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> or the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.html" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/dobi/division_insurance/ship/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">For New Jersey-specific help, visit the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free counseling.</div>
       </section>
       </article>
     </>

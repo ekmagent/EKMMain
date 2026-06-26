@@ -136,6 +136,12 @@ const faqs = [
     answer:
       "Yes. New Jersey is a community-rated state for Medicare Supplement insurance, meaning insurers generally charge the same premium for a given Medigap plan regardless of your age. Your 6-month Medigap Open Enrollment Period still applies when you first enroll in Part B at age 65 or older. Outside that window, medical underwriting may apply unless you qualify for a guaranteed issue right.",
   }
+,
+  {
+    question: "How does New Jersey rate Medigap plans for Monmouth County residents?",
+    answer:
+      "New Jersey uses community rating for Medicare Supplement (Medigap) plans, which means insurers cannot charge you a higher premium based on your age. Your 6-month Medigap Open Enrollment Period begins the month you turn 65 and are enrolled in Part B, giving you guaranteed issue rights during that window. Outside that window, medical underwriting may apply unless you qualify for a separate guaranteed issue right.",
+  }
 ];
 
 export default function MedicareInMonmouthCountyNewJersey() {

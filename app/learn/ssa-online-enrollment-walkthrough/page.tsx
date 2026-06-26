@@ -1217,6 +1217,22 @@ const steps = [
     answer:
       "Once you click Submit Now and agree to the Electronic Signature Agreement, you cannot modify your application online. If you need to correct information or withdraw the application, you'll need to contact the Social Security Administration directly. Review every screen carefully before submitting.",
   }
+,
+  {
+    question: "How long does the SSA online Medicare application take to complete?",
+    answer:
+      "Most people finish the application in about 10 minutes if they have their documents ready. You'll need your Social Security number, a valid driver's license or state ID for identity verification, and details about any current health coverage. Social Security says applying online is the fastest way to sign up for Part A and Part B.",
+  },
+  {
+    question: "Can I apply for Medicare without starting my Social Security retirement benefits?",
+    answer:
+      "Yes. During the application, you'll be asked whether you want Medicare only or Medicare plus retirement benefits. Choosing Medicare only lets you delay your Social Security retirement check while still enrolling in Part A and/or Part B.",
+  },
+  {
+    question: "Can I change my application after I submit it on SSA.gov?",
+    answer:
+      "No. Once you click Submit Now and agree to the Electronic Signature Agreement, the application is final and cannot be modified online. If you need to make a correction, you'll need to contact the Social Security Administration directly.",
+  }
 ];
 
 export default function SSAOnlineEnrollmentWalkthrough() {

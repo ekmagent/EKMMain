@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "How Much Is Plan G in NJ? | Free Rate Comparison by Age | MedicareYourself",
   description:
-    "How much is Plan G in NJ? Compare 2026 Medigap rates by age and zip from every major carrier. Anthony Orner finds your lowest price — call 855-559-1700.",
+    "How much is Plan G in NJ? Compare 2026 Medigap rates by age, gender, and zip from every major carrier. Anthony Orner finds your lowest price — free quote.",
   alternates: { canonical: "https://medicareyourself.com/services/how-much-is-plan-g-in-nj" },
   openGraph: {
     title:

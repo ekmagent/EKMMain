@@ -352,6 +352,12 @@ const faqs = [
     answer:
       "Community-rated plans charge the same premium regardless of age. Issue-age policies base your rate on the age you were when you bought the plan, and that starting point never changes due to age. Attained-age policies start lower but increase as you get older, which can make them more expensive over time.",
   }
+,
+  {
+    question: "Does where I live affect how much I pay for Medigap?",
+    answer:
+      "Yes. Medigap premiums vary widely by zip code because carriers use local claims data, demographics, and state regulations to set rates. The same Plan G from the same carrier can cost noticeably more in one zip code than in a neighboring one. This is why getting quotes specific to your address is essential.",
+  }
 ];
 
 export default function HowMuchDoesBestMedicareSupplementalInsuranceCostPerMonth() {

@@ -773,6 +773,12 @@ const faqs = [
     answer:
       "It depends on the carrier's pricing method. Community-rated plans charge everyone the same regardless of age, issue-age plans lock in your rate based on the age you enrolled, and attained-age plans increase as you grow older. All three can still see rate adjustments for inflation and claims trends.",
   }
+,
+  {
+    question: "Does where I live affect how much I pay for a Medigap policy?",
+    answer:
+      "Yes. Medicare.gov confirms that Medigap premiums vary widely based on the insurance company, the plan letter, and your geographic location. Two people with identical health profiles can pay very different premiums for the same Plan G simply because they live in different zip codes or states. A licensed broker can shop carriers in your specific area to find the lowest rate.",
+  }
 ];
 
 export default function AverageCostSupplementalInsurancePage() {

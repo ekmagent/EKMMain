@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
   description:
-    "IRMAA explained: how Medicare's income surcharge affects Part B & Part D, who pays, and how to appeal with SSA-44. Free broker guidance — call 855-559-1700.",
+    "IRMAA explained: how Medicare's income surcharge affects Part B & Part D, who pays, and how to appeal with SSA-44. Free broker help — call 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/irmaa-medicare-surcharge` },
   openGraph: {
     title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
@@ -1083,6 +1083,22 @@ const faqs = [
     question: "Can a Medicare broker help me reduce or appeal IRMAA?",
     answer:
       "A licensed broker cannot change your IRMAA determination — that's handled by the Social Security Administration. However, we can help you understand which life-changing events qualify, walk you through the SSA-44 process, and review how IRMAA affects your Part B and Part D costs. Call 855-559-1700 for free guidance.",
+  }
+,
+  {
+    question: "How do I appeal an IRMAA determination if my income has dropped?",
+    answer:
+      "If you've experienced a life-changing event such as retirement, divorce, or the death of a spouse, you can request a reduction by filing Form SSA-44 with the Social Security Administration. You'll need documentation of the event and your reduced income estimate. SSA reviews the request and, if approved, recalculates your IRMAA based on the new circumstances.",
+  },
+  {
+    question: "Will IRMAA go away on its own if my income drops?",
+    answer:
+      "Yes, IRMAA is recalculated every year based on your most recent tax return on file (typically two years prior). If your income falls below the threshold in a later tax year, your IRMAA surcharge will be removed automatically once SSA receives the updated IRS data. You don't have to wait if the drop was caused by a qualifying life-changing event — you can file SSA-44 to update it sooner.",
+  },
+  {
+    question: "How am I notified that I owe IRMAA?",
+    answer:
+      "Social Security mails a predetermination notice followed by an initial determination letter explaining the surcharge amount and the income data used. The letter also explains your right to appeal or request a new decision if you had a life-changing event. If you disagree with the income figures, you can request a reconsideration through SSA.",
   }
 ];
 

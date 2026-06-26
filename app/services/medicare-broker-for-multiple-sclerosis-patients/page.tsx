@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for multiple sclerosis patients | Free Plan Comparison | MedicareYourself",
   description:
-    "Medicare broker for MS patients — Anthony Orner finds plans covering Ocrevus infusions, MRIs and your neurologist. Call 855-559-1700 for a free plan review.",
+    "Medicare broker for MS patients — Anthony Orner finds plans that cover infusions, MRIs, DMTs and your neurologist. Call 855-559-1700 for a free plan review.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-multiple-sclerosis-patients" },
   openGraph: {
     title:
@@ -530,6 +530,22 @@ const faqs = [
     answer:
       "Medicare Advantage plans typically only cover in-network providers except in emergencies. If your neurologist isn't in the plan's network, you may pay full cost out of pocket or need to switch doctors. This is why many MS patients choose Original Medicare with a Medigap plan, which lets you see any provider who accepts Medicare nationwide. Call 855-559-1700 to review your provider list before enrolling.",
   }
+,
+  {
+    question: "Does Medicare cover MRIs needed to monitor MS progression?",
+    answer:
+      "Yes. Medically necessary MRIs ordered by your doctor to monitor MS are covered under Medicare Part B as diagnostic imaging. You'll be responsible for the Part B deductible and coinsurance unless a Medigap plan covers those costs. Medicare Advantage plans may require prior authorization before scheduling the MRI.",
+  },
+  {
+    question: "Does Medicare Part D cover oral MS disease-modifying therapies?",
+    answer:
+      "Oral DMTs you take at home, such as fingolimod or dimethyl fumarate, are generally covered under Medicare Part D rather than Part B. Each Part D plan has its own formulary and tier placement, so the same medication can cost very different amounts depending on the plan you choose. Comparing formularies before enrolling is critical for MS patients on specialty drugs.",
+  },
+  {
+    question: "What happens if I qualify for Medicare under 65 due to MS disability?",
+    answer:
+      "If you receive Social Security Disability Insurance for MS, you become eligible for Medicare after a 24-month waiting period. You'll automatically be enrolled in Parts A and B, and you can then add a Part D plan or enroll in Medicare Advantage. Medigap rights for under-65 enrollees vary by state, so it's important to review your options carefully.",
+  }
 ];
 
 export default function MedicareBrokerForMSPatients() {
@@ -764,6 +780,7 @@ export default function MedicareBrokerForMSPatients() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">NJ residents can also get free, unbiased Medicare counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
       </article>
     </>

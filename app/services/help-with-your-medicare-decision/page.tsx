@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "help with your medicare decision | Free, No-Pressure Guidance | MedicareYourself",
   description:
-    "Get free, unbiased help with your Medicare decision from licensed broker Anthony Orner. Compare every option clearly with no pressure — call 855-559-1700.",
+    "Get free, unbiased help with your Medicare decision from licensed broker Anthony Orner. Compare every option clearly with no pressure — call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/help-with-your-medicare-decision" },
   openGraph: {
     title:

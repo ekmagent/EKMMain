@@ -256,6 +256,22 @@ const faqs = [
     answer:
       "You can apply directly with any carrier, but a licensed independent broker compares multiple carriers at once and checks each one's underwriting rules before you apply. That helps avoid declines and makes sure you keep identical Plan G or Plan N benefits at the lowest available premium. Broker help is free — carriers pay the same commission whether you apply alone or with guidance. Call 855-559-1700 to review your options.",
   }
+,
+  {
+    question: "Do I have to answer health questions to switch Medigap plans?",
+    answer:
+      "In most states, yes — outside of your initial 6-month Medigap Open Enrollment Period or a guaranteed issue right, carriers can use medical underwriting and ask health questions when you apply. A few states have special rules that give you broader rights to switch without underwriting. Contact your State Insurance Department to confirm your state's specific protections.",
+  },
+  {
+    question: "What is the 30-day free look period when switching Medigap plans?",
+    answer:
+      "When you buy a new Medigap policy, you get a 30-day free look period to decide if you want to keep it. During this time you can have both your old and new policies in force at the same time. You will need to pay both premiums for one month, but it ensures you have continuous coverage while you confirm the new plan works for you.",
+  },
+  {
+    question: "How do I start the process of switching Medigap plans?",
+    answer:
+      "A licensed broker can run a side-by-side comparison of carrier rates in your zip code for your current plan letter, then submit the application electronically. Most approvals take a few days to a few weeks depending on underwriting. Call 855-559-1700 to speak with a licensed Medicare broker who can review your options at no cost.",
+  }
 ];
 
 export default function SwitchMedigapPlansPage() {
@@ -929,6 +945,7 @@ export default function SwitchMedigapPlansPage() {
             <div className="text-sm text-gray-600 mt-4">State help: <a href="https://www.nj.gov/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> — or call your state SHIP for free one-on-one counseling.</div>
             <div className="text-sm text-gray-600 mt-4">State help: <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> — your state insurance department can tell you whether your state offers extra opportunities to switch Medigap outside federal guaranteed issue rights.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify carrier rates and rights with the <a href="https://www.state.nj.us/dobi/division_insurance/" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">New Jersey Department of Banking and Insurance</a> or the state SHIP program for free Medigap counseling and information on state-specific switching rights.</div>
       </section>
     </>
   );

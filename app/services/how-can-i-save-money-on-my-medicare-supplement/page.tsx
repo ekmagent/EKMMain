@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "how can i save money on my medicare supplement | Free Rate Review | MedicareYourself",
   description:
-    "How can I save on my Medicare Supplement? Compare carriers, stack discounts, and review plan letters. Call 855-559-1700 for a free rate review today.",
+    "Save on your Medicare Supplement by comparing carriers, stacking discounts, and reviewing plan letters. Call 855-559-1700 for a free rate review.",
   alternates: { canonical: "https://medicareyourself.com/services/how-can-i-save-money-on-my-medicare-supplement" },
   openGraph: {
     title:
@@ -200,6 +200,22 @@ const faqs = [
     question: "Does changing plan letters (like G to N) actually save money?",
     answer:
       "It can. Plan N typically has a lower premium than Plan G in exchange for small copays at office and ER visits and not covering the Part B excess charge. For people who don't see specialists frequently, the premium savings can outweigh the copays.",
+  }
+,
+  {
+    question: "Are there different ways insurance companies price Medigap policies?",
+    answer:
+      "Yes. Insurance companies use one of three pricing methods: community-rated, issue-age-rated, or attained-age-rated. Each method affects how your premium changes over time, so two plans with identical benefits can cost very different amounts as you age. Comparing pricing structures — not just today's premium — can lead to long-term savings.",
+  },
+  {
+    question: "Can household discounts lower my Medicare Supplement premium?",
+    answer:
+      "Many carriers offer household or multi-policy discounts when more than one adult in the same home enrolls, and some offer discounts simply for living with another adult. The discount amount and eligibility rules vary by carrier and state. Asking about every available discount before you apply is one of the easiest ways to reduce your premium.",
+  },
+  {
+    question: "Does where I live affect my Medigap premium?",
+    answer:
+      "Yes. Medigap premiums vary based on the insurance company, the plan letter, and your ZIP code or state. Two neighbors with the same plan letter from different carriers can pay very different premiums, which is why a local rate comparison is important.",
   }
 ];
 
@@ -458,6 +474,7 @@ export default function HowCanISaveMoneyOnMyMedicareSupplement() {
             <div className="text-sm text-gray-600 mt-4">Free local counseling: <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Find your State Health Insurance Assistance Program (SHIP)</a> for unbiased Medicare guidance.</div>
             <div className="text-sm text-gray-600 mt-4">Need state-specific help? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">Need free one-on-one help? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a> for unbiased Medicare counseling in your state.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free local counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
     </main>
   );

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare enrollment help for people with lupus california | Free Guidance | MedicareYourself",
   description:
-    "California lupus patients: find Medicare plans covering rheumatologists, biologics, and infusions. Free licensed broker help—call 855-559-1700.",
+    "California lupus patients: compare Medicare plans covering rheumatologists, biologics, and infusions. Free licensed broker help—call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-enrollment-help-for-people-with-lupus-california" },
   openGraph: {
     title:
@@ -268,6 +268,17 @@ const faqs = [
     question: "Can I switch Medicare plans if my lupus treatment changes mid-year?",
     answer:
       "Generally, you can switch plans during the Annual Enrollment Period (October 15–December 7) or the Medicare Advantage Open Enrollment Period (January 1–March 31). Certain life events may also trigger a Special Enrollment Period. A broker can review whether your situation qualifies.",
+  }
+,
+  {
+    question: "Does Medicare Part D cover oral lupus medications like hydroxychloroquine?",
+    answer:
+      "Yes, Medicare Part D plans cover most oral lupus medications, including hydroxychloroquine, corticosteroids, and immunosuppressants. Each plan has its own formulary, so the specific drugs covered and your cost-sharing tier can vary. We can help compare California Part D plans to find one that covers your specific medications affordably.",
+  },
+  {
+    question: "Can I switch Medicare Advantage plans in California if my rheumatologist leaves the network?",
+    answer:
+      "You can change Medicare Advantage plans during the Annual Enrollment Period (October 15 to December 7) or the Medicare Advantage Open Enrollment Period (January 1 to March 31). In some cases, a Special Enrollment Period may apply if your provider network changes significantly mid-year. Call us to review your options.",
   }
 ];
 

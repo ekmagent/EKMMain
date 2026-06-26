@@ -311,6 +311,12 @@ const GUIDES = [
     answer:
       "Yes. Medicare has specific enrollment windows when you can join, switch, or drop coverage, including the Annual Election Period in the fall and the Medicare Advantage Open Enrollment Period in early in the year. Outside those windows, you may qualify for a Special Enrollment Period if you have a life event like moving or losing employer coverage. Our guide on Medicare enrollment periods explains the timing, or call 855-559-1700 for help.",
   }
+,
+  {
+    question: "Can I read these Medicare guides without sharing my contact information?",
+    answer:
+      "Yes. Every guide on MedicareYourself is free to read with no email signup, account, or contact form required. If you want personal help after reading, you can call 855-559-1700 to speak with a licensed broker.",
+  }
 ];
 
 export default function LearnHubPage() {

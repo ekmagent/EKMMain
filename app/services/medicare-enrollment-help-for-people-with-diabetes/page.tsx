@@ -458,6 +458,22 @@ const faqs = [
     answer:
       "Yes. Medicare Part B covers diabetes self-management training (DSMT) when ordered by your doctor as part of your treatment plan. This program teaches you how to manage your condition, monitor blood sugar, eat well, and reduce risks of complications. Medical nutrition therapy is also covered for people with diabetes.",
   }
+,
+  {
+    question: "Does Medicare Part D cover insulin?",
+    answer:
+      "Yes. Medicare Part D plans cover insulin, and the Inflation Reduction Act capped monthly out-of-pocket costs for covered insulin products at Part D plans and through Part B for insulin used with a pump. Each plan has its own formulary, so it's important to confirm your specific insulin is covered before enrolling. Call 855-559-1700 to review formularies side by side.",
+  },
+  {
+    question: "Are diabetes test strips and lancets covered by Medicare?",
+    answer:
+      "Yes. Medicare Part B covers blood sugar monitors, test strips, lancets, and lancet devices as durable medical equipment when prescribed by your doctor. You'll typically pay the Part B coinsurance after meeting the Part B deductible. Using a Medicare-approved supplier helps keep your costs predictable.",
+  },
+  {
+    question: "Can I switch Medicare plans if my diabetes medications change?",
+    answer:
+      "Yes, during the Annual Enrollment Period each fall you can switch Part D or Medicare Advantage plans to better match your current prescriptions. You may also qualify for a Special Enrollment Period in certain situations, such as moving or losing other coverage. A free annual review with a licensed broker helps confirm your plan still fits your medication list.",
+  }
 ];
 
 export default function MedicareEnrollmentHelpDiabetes() {
@@ -767,6 +783,7 @@ export default function MedicareEnrollmentHelpDiabetes() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Need one-on-one local help? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

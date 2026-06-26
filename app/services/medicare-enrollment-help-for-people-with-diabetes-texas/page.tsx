@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare enrollment help for people with diabetes texas | Free Guidance | MedicareYourself",
   description:
-    "Texas Medicare help for people with diabetes — find plans covering insulin, CGMs, pumps & test strips. Call 855-559-1700 for free licensed broker guidance.",
+    "Texas Medicare help for people with diabetes — compare plans covering insulin, CGMs, pumps & test strips. Call 855-559-1700 for free licensed broker guidance.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-enrollment-help-for-people-with-diabetes-texas" },
   openGraph: {
     title:
@@ -144,6 +144,22 @@ const faqs = [
     question: "Where can Texans get free Medicare counseling for diabetes coverage questions?",
     answer:
       "The Texas Health Information, Counseling and Advocacy Program (HICAP) offers free, unbiased Medicare counseling through Texas Health and Human Services. You can also call our licensed broker line at 855-559-1700 for personalized help comparing plans that cover insulin, CGMs, and diabetes supplies.",
+  }
+,
+  {
+    question: "Does Medicare cover diabetes self-management training in Texas?",
+    answer:
+      "Yes. Medicare Part B covers diabetes self-management training (DSMT) when your doctor prescribes it as part of your treatment plan. The program teaches you how to monitor blood sugar, manage medications, plan meals, and reduce risk factors. You'll typically owe the Part B coinsurance after meeting your deductible.",
+  },
+  {
+    question: "Are diabetes supplies like test strips and lancets covered in Texas?",
+    answer:
+      "Medicare Part B covers blood sugar testing supplies including test strips, lancets, and glucose monitors as durable medical equipment. If you use insulin, Medicare allows more test strips per month than if you don't. A Medicare Advantage plan in Texas may bundle these supplies with additional benefits — call 855-559-1700 to compare options.",
+  },
+  {
+    question: "When can a Texan with diabetes switch Medicare plans?",
+    answer:
+      "The Annual Enrollment Period runs October 15 through December 7 each year, when you can switch Medicare Advantage or Part D plans. The Medicare Advantage Open Enrollment Period from January 1 through March 31 lets you change Advantage plans or return to Original Medicare. Special Enrollment Periods may also apply if you move, lose coverage, or qualify for Extra Help.",
   }
 ];
 
@@ -403,6 +419,7 @@ export default function MedicareEnrollmentHelpDiabetesTexas() {
             <div className="text-sm text-gray-600 mt-4">Texas help: <a href="https://www.hhs.texas.gov/services/health/medicare" rel="noopener noreferrer" target="_blank" className="underline">Texas Health and Human Services — Medicare</a> (free counseling through the Texas HICAP/SHIP program).</div>
             <div className="text-sm text-gray-600 mt-4">Texas resource: <a href="https://www.hhs.texas.gov/services/health/medicare" rel="noopener noreferrer" target="_blank" className="underline">Texas Health and Human Services — Medicare</a></div>
             <div className="text-sm text-gray-600 mt-4">Texas resource: <a href="https://www.hhs.texas.gov/services/health/medicare" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">Texas Health and Human Services — Medicare</a></div>
+            <div className="text-sm text-gray-600 mt-4">Texas resource: <a href="https://www.hhs.texas.gov/services/health/medicare" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Texas Health and Human Services — Medicare</a></div>
       </section>
     </main>
   );

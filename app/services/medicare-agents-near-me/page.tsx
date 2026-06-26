@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare agents near me | Free Unbiased Plan Comparison | MedicareYourself",
   description:
-    "Find a licensed Medicare agent near you for free, unbiased plan comparisons across major carriers. Call 855-559-1700 for honest, no-pressure guidance.",
+    "Find a licensed Medicare agent near you for free, unbiased plan comparisons across major carriers. Call 855-559-1700 for honest, no-pressure guidance today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-agents-near-me" },
   openGraph: {
     title:
@@ -127,6 +127,17 @@ const faqs = [
     question: "What questions should I ask a Medicare agent before enrolling?",
     answer:
       "Ask which carriers they represent, how they are compensated, and whether they offer ongoing support after enrollment. You should also ask for their National Producer Number, confirm they are licensed in your state, and find out if they review your plan annually to ensure it still fits your needs.",
+  }
+,
+  {
+    question: "What questions should I ask a Medicare agent before working with them?",
+    answer:
+      "Ask which carriers they are contracted with, how they are compensated, and whether they offer support after enrollment. Request their National Producer Number so you can verify their license with your state's Department of Insurance. A reputable agent will answer these questions openly and never pressure you to enroll on the spot.",
+  },
+  {
+    question: "Can a Medicare agent help me if I have both Medicare and Medicaid?",
+    answer:
+      "Yes. A licensed agent can review Dual Special Needs Plans (D-SNPs) designed for people who qualify for both Medicare and Medicaid. These plans often include extra benefits beyond Original Medicare, and an independent broker can compare D-SNP options across carriers in your area.",
   }
 ];
 

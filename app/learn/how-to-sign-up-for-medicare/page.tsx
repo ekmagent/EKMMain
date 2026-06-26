@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "How to Sign Up for Medicare (2026 Guide)",
   description:
-    "Step-by-step 2026 guide to signing up for Medicare at SSA, avoiding Part B late penalties, and choosing coverage. Free licensed broker help: 855-559-1700.",
+    "Step-by-step 2026 guide to enrolling in Medicare at SSA, avoiding Part B late penalties, and picking the right coverage. Free broker help: 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/how-to-sign-up-for-medicare` },
   openGraph: {
     title: "How to Sign Up for Medicare (2026 Guide)",
@@ -1100,6 +1100,22 @@ const faqs = [
     question: "Do I need to sign up for Medicare if I already get Social Security?",
     answer:
       "No. If you are already receiving Social Security or Railroad Retirement Board benefits before age 65, you will be automatically enrolled in Part A and Part B starting the month you turn 65. Your Medicare card will arrive in the mail about 3 months before your birthday month.",
+  }
+,
+  {
+    question: "How do I actually apply for Medicare if I'm not getting Social Security yet?",
+    answer:
+      "You can apply online at ssa.gov/medicare, which takes about 10 minutes. You can also apply by calling Social Security or by visiting your local Social Security office. Apply up to 3 months before the month you turn 65 so your coverage starts on time.",
+  },
+  {
+    question: "What happens if I miss my Initial Enrollment Period?",
+    answer:
+      "If you miss your IEP and don't qualify for a Special Enrollment Period, you'll need to wait for the General Enrollment Period (January 1 – March 31) to sign up for Part B. You may also owe a permanent Part B late enrollment penalty added to your monthly premium for as long as you have Medicare. Call 855-559-1700 if you missed your window and need help reviewing your options.",
+  },
+  {
+    question: "Do I need to sign up for Medicare if I have VA or TRICARE coverage?",
+    answer:
+      "VA benefits don't count as creditable coverage for Part B, so most veterans should still enroll in Part B during their IEP to avoid penalties and gain access to non-VA providers. TRICARE for Life requires you to enroll in both Part A and Part B to keep your TRICARE coverage after 65. Confirm your specific situation with the VA or TRICARE before delaying enrollment.",
   }
 ];
 

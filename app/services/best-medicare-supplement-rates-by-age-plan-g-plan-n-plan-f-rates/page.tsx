@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Best Medicare Supplement Rates by Age (Plan G, Plan N, & Plan F Rates) | Free Quote | MedicareYourself",
   description:
-    "Compare Medicare Supplement rates by age for Plan G, Plan N, and Plan F. See how premiums shift over time and lock in your lowest rate—call 855-559-1700.",
+    "Compare Medicare Supplement rates by age for Plan G, Plan N, and Plan F. See how premiums shift and lock in your lowest rate—call 855-559-1700 for a free quote.",
   alternates: { canonical: "https://medicareyourself.com/services/best-medicare-supplement-rates-by-age-plan-g-plan-n-plan-f-rates" },
   openGraph: {
     title:
@@ -310,6 +310,22 @@ const faqs = [
     question: "Is Plan N a good way to get a lower Medigap premium?",
     answer:
       "Plan N usually has a lower monthly premium than Plan G in exchange for small copays at doctor and ER visits, plus exposure to Part B excess charges. For healthy enrollees who don't see specialists frequently, Plan N can be a strong value. Call 855-559-1700 to compare Plan N quotes against Plan G in your area.",
+  }
+,
+  {
+    question: "Does Plan F still make sense if I'm eligible for it?",
+    answer:
+      "Plan F is only available to people who became eligible for Medicare before January 1, 2020. If you qualify, it offers the most comprehensive coverage of any Medigap plan, including the Part B deductible. However, because the Plan F risk pool is closed to new entrants, premiums often rise faster than Plan G over time.",
+  },
+  {
+    question: "How is Plan N different from Plan G in terms of out-of-pocket costs?",
+    answer:
+      "Plan N has lower monthly premiums than Plan G but includes small copays for office visits and emergency room visits that don't lead to admission. Plan N also doesn't cover Part B excess charges, while Plan G does. For people who don't visit doctors frequently, Plan N can be a cost-effective alternative.",
+  },
+  {
+    question: "Can I switch from Plan F to Plan G or Plan N later to save money?",
+    answer:
+      "Yes, but outside your Medigap Open Enrollment Period most states allow carriers to require medical underwriting before approving the switch. If you have pre-existing conditions, you could be denied or charged a higher rate. A few states offer broader switching rights, so it's worth reviewing your options with a licensed broker at 855-559-1700.",
   }
 ];
 

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "independent medicare broker near me new jersey reviews | Free Consultation | MedicareYourself",
   description:
-    "Read New Jersey client reviews of independent Medicare broker Anthony Orner. Compare Medigap, Advantage & Part D at no cost. Call 855-559-1700 today.",
+    "Read New Jersey client reviews of independent Medicare broker Anthony Orner. Compare Medigap, Advantage & Part D at no cost. Call 855-559-1700 for a free review.",
   alternates: { canonical: "https://medicareyourself.com/services/independent-medicare-broker-near-me-new-jersey-reviews" },
   openGraph: {
     title:
@@ -85,6 +85,22 @@ const faqs = [
     answer:
       "Visit the NJ Department of Banking and Insurance website and search for the broker's name. You can confirm their active license status and see which lines of insurance they're authorized to sell.",
   },
+,
+  {
+    question: "Is Anthony Orner licensed to help with Medicare in New Jersey?",
+    answer:
+      "Yes. Anthony Orner is a licensed independent Medicare insurance broker (NPI 1902584006) authorized in New Jersey and 34 additional states. You can verify his license through the NJ Department of Banking and Insurance. Call 855-559-1700 to schedule a free consultation.",
+  },
+  {
+    question: "Does New Jersey have special Medigap rules?",
+    answer:
+      "Yes. New Jersey uses community rating for Medigap policies, meaning carriers cannot charge different premiums based on age. The federal 6-month Medigap Open Enrollment Period still applies when you first enroll in Part B. An independent broker can walk you through which carriers offer the best community-rated pricing.",
+  },
+  {
+    question: "Where can I get free Medicare counseling in New Jersey?",
+    answer:
+      "New Jersey's State Health Insurance Assistance Program (SHIP) offers free, unbiased Medicare counseling to beneficiaries and their families. You can also speak with a licensed independent broker at no cost for plan comparisons across multiple carriers.",
+  }
 ];
 
 export default function IndependentMedicareBrokerNJReviewsPage() {
@@ -344,6 +360,7 @@ export default function IndependentMedicareBrokerNJReviewsPage() {
             <div className="text-sm text-gray-600 mt-2">Verify a New Jersey broker license through the <a href="https://www.state.nj.us/dobi/" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP</a>.</div>
             <div className="text-sm text-gray-600 mt-2">Verify any New Jersey broker's license through the <a href="https://www.state.nj.us/dobi/index.shtml" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP</a>.</div>
             <div className="text-sm text-gray-600 mt-2">Confirm a broker's license with the <a href="https://www.state.nj.us/dobi/" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey resource: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" target="_blank" rel="noopener noreferrer" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free local Medicare counseling.</div>
       </section>
     </main>
   );

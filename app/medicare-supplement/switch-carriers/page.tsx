@@ -547,6 +547,17 @@ const faqs = [
     answer:
       "If you've had continuous creditable coverage, the new carrier generally cannot impose a new pre-existing condition waiting period. However, if there's a gap in coverage, a waiting period of up to 6 months for pre-existing conditions may apply. Switching during a guaranteed issue right protects you from any waiting period being applied.",
   }
+,
+  {
+    question: "Do I have a federal right to switch Medigap policies any time I want?",
+    answer:
+      "In most cases, no. Under federal law you generally only have the right to switch Medigap policies during your 6-month Medigap Open Enrollment Period or when you qualify for a specific guaranteed issue right. Outside those windows, carriers in most states can use medical underwriting to approve or deny your application. Some states offer additional switching rights beyond the federal minimum, so it is worth checking with your State Insurance Department.",
+  },
+  {
+    question: "What happens to my old Medigap policy when I switch carriers?",
+    answer:
+      "You should not cancel your existing Medigap policy until your new policy has been approved and is in effect. Most carriers give you a 30-day free look period to review the new policy after it starts. Once you are comfortable with the new coverage, you contact the previous carrier in writing to terminate the old policy, and you avoid any gap in supplemental coverage.",
+  }
 ];
 
 export default function SwitchCarriersPage() {

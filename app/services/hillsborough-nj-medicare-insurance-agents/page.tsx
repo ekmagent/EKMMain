@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "hillsborough nj medicare insurance agents | Free Broker Consultation | MedicareYourself",
   description:
-    "Hillsborough NJ Medicare brokers compare Supplement, Advantage & Part D plans from top carriers at no cost. Call 855-559-1700 for a free plan review.",
+    "Hillsborough NJ Medicare brokers compare Supplement, Advantage & Part D plans from top carriers at no cost. Call 855-559-1700 for a free plan review today.",
   alternates: { canonical: "https://medicareyourself.com/services/hillsborough-nj-medicare-insurance-agents" },
   openGraph: {
     title:
@@ -148,6 +148,12 @@ const faqs = [
     question: "What's the difference between Medicare Advantage and Medicare Supplement in NJ?",
     answer:
       "Medicare Advantage (Part C) bundles your hospital, medical, and usually drug coverage through a private carrier with network rules. Medicare Supplement (Medigap) works alongside Original Medicare to cover out-of-pocket costs and lets you see any provider that accepts Medicare nationwide. Each fits different budgets and lifestyles, which a Hillsborough broker can walk through.",
+  }
+,
+  {
+    question: "What's the difference between a Medicare Supplement and Medicare Advantage plan in Hillsborough?",
+    answer:
+      "Medicare Supplement (Medigap) plans work alongside Original Medicare and help cover out-of-pocket costs like deductibles and coinsurance, with the freedom to see any provider that accepts Medicare. Medicare Advantage plans replace Original Medicare and typically use a network of providers, often bundling Part D drug coverage and extra benefits. A licensed broker can compare both options side by side based on your Hillsborough doctors and prescriptions. Call 855-559-1700 for a free comparison.",
   }
 ];
 
@@ -387,6 +393,7 @@ export default function HillsboroughNJMedicareInsuranceAgents() {
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
       </section>
     </main>
   );
