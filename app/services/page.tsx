@@ -9,7 +9,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Medicare Services & Guides | MedicareYourself",
   description:
-    "Compare Medigap, Medicare Advantage & Part D with a licensed independent broker in NJ & 34 states. Free, unbiased plan reviews — call 855-559-1700 today.",
+    "Compare Medigap, Medicare Advantage & Part D with a licensed independent broker in NJ & 34 states. Free, unbiased plan reviews — call 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/services` },
   openGraph: {
     title: "Medicare Services & Guides | MedicareYourself",
@@ -1157,6 +1157,22 @@ const STATIC_CATEGORIES = [
     question: "Which states does Anthony Orner serve?",
     answer:
       "Anthony Orner (NPI 1902584006) is a licensed Medicare insurance broker in New Jersey and 34 additional states. If you're unsure whether he's licensed where you live, call 855-559-1700 and we'll confirm before scheduling a plan review.",
+  }
+,
+  {
+    question: "What does an independent Medicare broker do?",
+    answer:
+      "An independent Medicare broker compares plans across multiple insurance carriers to help you find coverage that fits your health needs and budget. Brokers are licensed by their state and certified annually with each carrier they represent. There is no cost to you for using a broker — carriers pay a standardized commission set by CMS.",
+  },
+  {
+    question: "How do I contact Medicare directly if I have questions?",
+    answer:
+      "You can call 1-800-MEDICARE (1-800-633-4227) 24 hours a day, 7 days a week, or use the live chat feature on Medicare.gov. TTY users can call 1-877-486-2048. For enrollment in Part A or Part B, contact the Social Security Administration.",
+  },
+  {
+    question: "Can I switch Medicare plans after I enroll?",
+    answer:
+      "Yes. You can change Medicare Advantage and Part D plans during the Annual Enrollment Period each fall, and Medicare Advantage members have an additional Open Enrollment Period in early in the year. Medigap (Medicare Supplement) changes are possible year-round but may require medical underwriting outside of your initial guaranteed-issue window. Call 855-559-1700 to review your options.",
   }
 ];
 

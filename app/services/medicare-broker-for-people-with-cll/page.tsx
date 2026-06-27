@@ -333,6 +333,12 @@ const faqs = [
     answer:
       "Yes. Medicare Part B covers second opinions from qualified specialists, which is especially valuable for CLL patients considering treatment decisions. If the first and second opinions differ, Medicare may also cover a third opinion. Seeking input from a CLL-focused hematologist at a major cancer center is often recommended before starting therapy.",
   }
+,
+  {
+    question: "Will Medicare cover clinical trials for CLL?",
+    answer:
+      "Yes. Medicare covers routine costs of qualifying clinical trials, including doctor visits, lab work, and standard treatments you would receive outside the trial. This is important for CLL patients, as many newer targeted therapies and CAR-T approaches are studied in trials at major cancer centers. Your oncologist's office can confirm whether a specific trial qualifies under Medicare rules.",
+  }
 ];
 
 export default function MedicareBrokerForPeopleWithCLL() {

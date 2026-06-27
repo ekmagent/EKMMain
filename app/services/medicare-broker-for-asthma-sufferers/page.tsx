@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for asthma sufferers | Free Inhaler Coverage Check | MedicareYourself",
   description:
-    "Medicare broker for asthma sufferers: Anthony Orner compares Part D formularies so inhalers and nebulizer meds cost less. Call 855-559-1700 for a free review.",
+    "Medicare broker for asthma sufferers: Anthony Orner compares Part D formularies so your inhalers and nebulizer meds cost less. Call 855-559-1700 for a free review.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-asthma-sufferers" },
   openGraph: {
     title:
@@ -127,6 +127,17 @@ const faqs = [
     question: "Does Medicare cover pulmonologist visits for asthma management?",
     answer:
       "Yes. Medicare Part B covers visits to specialists like pulmonologists when medically necessary, after you meet the Part B deductible. With Original Medicare you generally don't need a referral, while many Medicare Advantage HMO plans require one. I help you check network rules before you enroll.",
+  }
+,
+  {
+    question: "Can I switch Medicare plans if my inhaler stops being covered?",
+    answer:
+      "Yes, but timing matters. You can change Part D or Medicare Advantage plans during the Annual Enrollment Period (October 15 to December 7) or the Medicare Advantage Open Enrollment Period (January 1 to March 31). If a formulary change happens mid-year, you may also qualify for a Special Enrollment Period in certain situations.",
+  },
+  {
+    question: "Does Medicare cover pulmonary rehabilitation for asthma?",
+    answer:
+      "Medicare Part B covers pulmonary rehabilitation programs when prescribed by your doctor for qualifying conditions, though coverage for asthma specifically depends on severity and documentation. Your doctor will need to confirm medical necessity. I can help you verify coverage rules under the plan you're considering before you enroll.",
   }
 ];
 

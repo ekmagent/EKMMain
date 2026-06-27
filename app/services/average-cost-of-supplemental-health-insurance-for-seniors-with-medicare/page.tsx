@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "average cost of supplemental health insurance for seniors with medicare | Free Broker Comparison | MedicareYourself",
   description:
-    "Compare 2026 Medigap costs by plan, age, and state. A licensed broker shops top carriers free so you get the lowest rate available. Call 855-559-1700.",
+    "Compare 2026 Medigap costs by plan, age, and state. A licensed broker shops every top carrier free to find your lowest rate. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/average-cost-of-supplemental-health-insurance-for-seniors-with-medicare" },
   openGraph: {
     title:
@@ -779,6 +779,22 @@ const faqs = [
     answer:
       "Yes. Medicare.gov confirms that Medigap premiums vary widely based on the insurance company, the plan letter, and your geographic location. Two people with identical health profiles can pay very different premiums for the same Plan G simply because they live in different zip codes or states. A licensed broker can shop carriers in your specific area to find the lowest rate.",
   }
+,
+  {
+    question: "Does where I live affect what I pay for a Medigap policy?",
+    answer:
+      "Yes. Medigap premiums vary widely by state, zip code, and even county because carriers price based on local claims experience and regulations. According to Medicare.gov, the same lettered plan can have significantly different premiums depending on the insurance company and where you live. A licensed broker can compare every carrier available in your area at no cost.",
+  },
+  {
+    question: "What's the difference between community-rated, issue-age, and attained-age pricing?",
+    answer:
+      "Community-rated means everyone with the same plan pays the same premium regardless of age. Issue-age-rated locks your premium based on the age you bought the policy. Attained-age-rated starts lower but increases as you get older. The pricing method affects how much you'll pay over time, not just today, so it matters when comparing identical plans.",
+  },
+  {
+    question: "Can I switch Medigap plans later to get a lower rate?",
+    answer:
+      "You can apply to switch Medigap plans at any time, but outside of your Open Enrollment Period or a guaranteed-issue situation, carriers can medically underwrite your application and deny coverage or charge more. Some states have annual switching windows with guaranteed acceptance. Call 855-559-1700 to see what rules apply where you live.",
+  }
 ];
 
 export default function AverageCostSupplementalInsurancePage() {
@@ -1021,6 +1037,7 @@ export default function AverageCostSupplementalInsurancePage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify rates and consumer rights through the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or get free counseling from <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">your State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">For state-specific rate help, contact the <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> or the <a href="https://www.nj.gov/dobi/" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">State help: <a href="https://www.state.nj.us/dobi/division_insurance/ihcseh/shipindex.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> offers free Medicare counseling.</div>
       </section>
     </main>
   );

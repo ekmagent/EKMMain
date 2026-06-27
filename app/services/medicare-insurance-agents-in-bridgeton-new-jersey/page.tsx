@@ -417,6 +417,7 @@ export default function MedicareInsuranceAgentsBridgetonNJ() {
             <div className="text-sm text-gray-600 mt-4">Local help: <a href="https://www.cumberlandcountynj.gov/aging/ship" rel="noopener noreferrer" target="_blank" className="underline">Cumberland County SHIP — free Medicare counseling</a></div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Free local counseling: <a href="https://www.cumberlandcountynj.gov/aging/ship" rel="noopener noreferrer" target="_blank" className="underline">Cumberland County SHIP (Senior Health Insurance Program)</a></div>
+            <div className="text-sm text-gray-600 mt-4">Free local counseling: <a href="https://www.cumberlandcountynj.gov/aging/ship" rel="noopener noreferrer" target="_blank" className="underline">Cumberland County SHIP (Senior Health Insurance Program)</a></div>
       </section>
     </main>
   );

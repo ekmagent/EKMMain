@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "free medicare broker new jersey | No Fees, No Obligation | MedicareYourself",
   description:
-    "Free New Jersey Medicare broker — compare Medigap, Advantage & Part D across top carriers with zero fees. Call 855-559-1700 for unbiased, no-pressure help.",
+    "Free New Jersey Medicare broker — compare Medigap, Advantage & Part D across top carriers with no fees or pressure. Call 855-559-1700 for unbiased help.",
   alternates: { canonical: "https://medicareyourself.com/services/free-medicare-broker-new-jersey" },
   openGraph: {
     title:

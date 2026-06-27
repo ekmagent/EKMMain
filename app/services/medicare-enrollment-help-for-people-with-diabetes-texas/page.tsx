@@ -161,6 +161,22 @@ const faqs = [
     answer:
       "The Annual Enrollment Period runs October 15 through December 7 each year, when you can switch Medicare Advantage or Part D plans. The Medicare Advantage Open Enrollment Period from January 1 through March 31 lets you change Advantage plans or return to Original Medicare. Special Enrollment Periods may also apply if you move, lose coverage, or qualify for Extra Help.",
   }
+,
+  {
+    question: "Does Medicare cover diabetes self-management training in Texas?",
+    answer:
+      "Yes. Medicare Part B covers diabetes self-management training (DSMT) when ordered by your doctor as part of your treatment plan. The program teaches you how to manage your condition, monitor blood sugar, take medications, and reduce complications. You pay the Part B coinsurance after the deductible, and many Medicare Advantage plans in Texas cover it as well.",
+  },
+  {
+    question: "Are insulin pumps and supplies covered by Medicare for Texans with diabetes?",
+    answer:
+      "Medicare Part B covers external insulin pumps and the insulin used in them as durable medical equipment when your doctor certifies medical necessity. You'll need to use a Medicare-enrolled DME supplier in Texas. Pump-related supplies, including infusion sets and reservoirs, are also covered under Part B.",
+  },
+  {
+    question: "When can I enroll in a Medicare plan that covers my diabetes supplies in Texas?",
+    answer:
+      "Most Texans enroll during their Initial Enrollment Period around their 65th birthday, the Annual Enrollment Period each fall, or the Medicare Advantage Open Enrollment Period in early spring. Special Enrollment Periods may also apply if you lose employer coverage or move. Call 855-559-1700 to review which window applies to your situation and which plans cover your specific insulin, CGM, and testing supplies.",
+  }
 ];
 
 export default function MedicareEnrollmentHelpDiabetesTexas() {
@@ -420,6 +436,7 @@ export default function MedicareEnrollmentHelpDiabetesTexas() {
             <div className="text-sm text-gray-600 mt-4">Texas resource: <a href="https://www.hhs.texas.gov/services/health/medicare" rel="noopener noreferrer" target="_blank" className="underline">Texas Health and Human Services — Medicare</a></div>
             <div className="text-sm text-gray-600 mt-4">Texas resource: <a href="https://www.hhs.texas.gov/services/health/medicare" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">Texas Health and Human Services — Medicare</a></div>
             <div className="text-sm text-gray-600 mt-4">Texas resource: <a href="https://www.hhs.texas.gov/services/health/medicare" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Texas Health and Human Services — Medicare</a></div>
+            <div className="text-sm text-gray-600 mt-4">Texas residents can get free local Medicare counseling through the <a href="https://www.hhs.texas.gov/services/health/medicare" rel="noopener noreferrer" target="_blank" className="underline">Texas Health and Human Services Medicare program</a>.</div>
       </section>
     </main>
   );

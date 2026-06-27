@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title:
     "How to Enroll in Medicare Online at SSA.gov (Step-by-Step Walkthrough)",
   description:
-    "Step-by-step SSA.gov Medicare enrollment walkthrough — sign up for Part A & B online in about 10 minutes. Free licensed broker help at 855-559-1700.",
+    "Step-by-step SSA.gov Medicare enrollment walkthrough — sign up for Part A & B online in about 10 minutes. Free broker help at 855-559-1700.",
   alternates: {
     canonical: `${SITE_URL}/learn/ssa-online-enrollment-walkthrough`,
   },
@@ -1232,6 +1232,22 @@ const steps = [
     question: "Can I change my application after I submit it on SSA.gov?",
     answer:
       "No. Once you click Submit Now and agree to the Electronic Signature Agreement, the application is final and cannot be modified online. If you need to make a correction, you'll need to contact the Social Security Administration directly.",
+  }
+,
+  {
+    question: "How long does the SSA online Medicare application take?",
+    answer:
+      "Most people complete the SSA.gov Medicare application in about 10 minutes. Having your Social Security number, driver's license, and any current health insurance details ready before you start will help you move through the screens without interruption.",
+  },
+  {
+    question: "Can I apply for Medicare online without also taking Social Security retirement benefits?",
+    answer:
+      "Yes. During the application, SSA asks whether you want to apply for Medicare only without starting retirement benefits. Selecting that option lets you enroll in Part A and Part B while delaying your Social Security check to a later age.",
+  },
+  {
+    question: "What happens after I submit my SSA Medicare application?",
+    answer:
+      "Once you click Submit, you cannot modify the application online. SSA will review it and mail your Medicare card and a decision notice. If they need more information, they will contact you by phone or mail, and you can check status by signing in to your my Social Security account.",
   }
 ];
 

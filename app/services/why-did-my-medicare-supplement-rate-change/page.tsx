@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Why Did My Medicare Supplement Rate Change? | Free Rate Review | MedicareYourself",
   description:
-    "Medigap rate going up? Understand the 3 pricing factors behind every Medicare Supplement increase and get a free rate review. Call 855-559-1700 today.",
+    "Medigap premium went up? Learn the 3 pricing factors behind every Medicare Supplement rate change and get a free rate review. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/why-did-my-medicare-supplement-rate-change" },
   openGraph: {
     title:
@@ -213,6 +213,22 @@ const faqs = [
     question: "Can I get a free review of my Medicare supplement rate?",
     answer:
       "Yes. Anthony Orner offers a no-cost rate review where he compares your current premium against other carriers available in your state. If a better-priced plan exists and you can qualify, he will walk you through the application. Call 855-559-1700 to schedule your review.",
+  }
+,
+  {
+    question: "Does where I live affect my Medicare Supplement rate increase?",
+    answer:
+      "Yes. Medigap premiums vary widely based on your state and ZIP code because claims costs, demographics, and state filing rules differ by region. Two policyholders with the exact same Plan G from the same carrier can pay very different premiums based solely on location.",
+  },
+  {
+    question: "Can I shop for a lower Medigap rate without losing coverage?",
+    answer:
+      "Yes, you can compare carriers at any time, but approval outside of guaranteed issue windows typically requires answering health questions. If approved, your new policy starts before the old one is cancelled so coverage never lapses. A free rate review can identify whether switching makes sense for your situation.",
+  },
+  {
+    question: "Should I drop my Medigap plan if the rate keeps going up?",
+    answer:
+      "Not without reviewing alternatives first. Dropping Medigap without a replacement in place can leave you exposed to Part A and Part B cost-sharing, and re-enrolling later usually requires underwriting. Call 855-559-1700 for a free comparison before making any changes.",
   }
 ];
 
@@ -511,6 +527,7 @@ export default function WhyDidMyMedicareSupplementRateChange() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a> or the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or the free <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP program</a> for one-on-one counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify carrier rate filings and consumer protections through the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP</a>.</div>
       </section>
       </article>
     </>

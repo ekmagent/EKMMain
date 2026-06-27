@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare agents near me | Free Unbiased Plan Comparison | MedicareYourself",
   description:
-    "Find a licensed Medicare agent near you for free, unbiased plan comparisons across major carriers. Call 855-559-1700 for honest, no-pressure guidance today.",
+    "Find a licensed Medicare agent near you for free, unbiased plan comparisons across major carriers. Call 855-559-1700 for honest, no-pressure guidance.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-agents-near-me" },
   openGraph: {
     title:
@@ -138,6 +138,17 @@ const faqs = [
     question: "Can a Medicare agent help me if I have both Medicare and Medicaid?",
     answer:
       "Yes. A licensed agent can review Dual Special Needs Plans (D-SNPs) designed for people who qualify for both Medicare and Medicaid. These plans often include extra benefits beyond Original Medicare, and an independent broker can compare D-SNP options across carriers in your area.",
+  }
+,
+  {
+    question: "How do I find a trustworthy Medicare agent near me?",
+    answer:
+      "Look for an independent broker licensed in your state and contracted with multiple major carriers. Ask how they get paid, request their National Producer Number, and confirm they offer year-round support after enrollment. A trustworthy agent explains options clearly and never pressures you into a decision.",
+  },
+  {
+    question: "Is a phone consultation as effective as meeting in person?",
+    answer:
+      "Yes. Most Medicare consultations work just as well by phone or video as they do in person, since plan comparisons rely on reviewing your ZIP code, doctors, prescriptions, and budget. Call 855-559-1700 to schedule a free, no-pressure consultation at a time that works for you.",
   }
 ];
 
@@ -347,6 +358,7 @@ export default function MedicareAgentsNearMe() {
             <div className="text-sm text-gray-600 mt-4">Free unbiased counseling is also available through your <a href="https://www.shiphelp.org/about-medicare/regional-ship-location" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify any agent's license through the <a href="https://www.state.nj.us/dobi/insurance.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify any agent's license and file complaints through the <a href="https://www.state.nj.us/dobi/inssrch.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance Producer Search</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
     </main>
   );

@@ -398,6 +398,22 @@ const faqs = [
     answer:
       "Your best opportunity is the 6-month Medigap Open Enrollment Period that begins the month you're 65 or older and enrolled in Part B. During this window, you have guaranteed issue rights and can't be denied coverage or charged more based on health. New Jersey uses community rating, meaning everyone with the same plan pays the same premium regardless of age.",
   }
+,
+  {
+    question: "When can I enroll in a Medigap plan in New Jersey?",
+    answer:
+      "Your best opportunity is the 6-month Medigap Open Enrollment Period that starts when you're 65 or older and enrolled in Part B. During this window, you have guaranteed issue rights and can't be denied coverage or charged more based on health. New Jersey uses community rating, so Medigap premiums are based on the plan rather than individual age.",
+  },
+  {
+    question: "Do Medicare brokers in Burlington County serve the whole area?",
+    answer:
+      "Yes. As a licensed independent broker, Anthony Orner helps residents throughout Burlington County, including Mount Laurel, Moorestown, Willingboro, Medford, and surrounding communities. Consultations can be done by phone or video, so you don't need to travel to compare plans.",
+  },
+  {
+    question: "What's the difference between Medigap and Medicare Advantage in NJ?",
+    answer:
+      "Medigap (Medicare Supplement) works alongside Original Medicare to help pay deductibles and coinsurance, and lets you see any provider that accepts Medicare nationwide. Medicare Advantage replaces Original Medicare with a private plan that often includes Part D and extras like dental, but uses provider networks. A broker can compare both side by side for your situation in Burlington County.",
+  }
 ];
 
 export default function MedicareInsuranceAgentsBurlingtonNJ() {
@@ -671,6 +687,7 @@ export default function MedicareInsuranceAgentsBurlingtonNJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> offers free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
       </section>
     </>
   );

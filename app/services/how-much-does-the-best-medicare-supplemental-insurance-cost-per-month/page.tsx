@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "how much does the best medicare supplemental insurance cost per month | Free Plan-by-Plan Breakdown | MedicareYourself",
   description:
-    "How much does the best Medicare Supplement plan cost per month? Compare Plan G and Plan N premiums by carrier and age. Call 855-559-1700 for a free quote.",
+    "Compare Medicare Supplement Plan G and Plan N monthly costs by carrier and age. Get a free, no-obligation quote — call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/how-much-does-the-best-medicare-supplemental-insurance-cost-per-month" },
   openGraph: {
     title:
@@ -357,6 +357,17 @@ const faqs = [
     question: "Does where I live affect how much I pay for Medigap?",
     answer:
       "Yes. Medigap premiums vary widely by zip code because carriers use local claims data, demographics, and state regulations to set rates. The same Plan G from the same carrier can cost noticeably more in one zip code than in a neighboring one. This is why getting quotes specific to your address is essential.",
+  }
+,
+  {
+    question: "Does where I live affect how much I pay for a Medigap plan?",
+    answer:
+      "Yes. Medigap premiums vary widely by zip code because carriers price based on local claims history and state regulations. Two people with the same plan letter and same age can pay very different premiums depending on their state and county. Call 855-559-1700 for a quote specific to your zip code.",
+  },
+  {
+    question: "Will my Medigap premium go up every year?",
+    answer:
+      "Most Medigap policies are attained-age-rated, meaning premiums increase as you get older, plus inflation and claims adjustments. Community-rated and issue-age-rated policies don't raise premiums based on your age, but can still go up due to inflation. Asking your broker how a carrier prices its plans helps you predict future costs.",
   }
 ];
 

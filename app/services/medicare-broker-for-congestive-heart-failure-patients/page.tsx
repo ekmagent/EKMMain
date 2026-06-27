@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for congestive heart failure patients | Free Plan Review | MedicareYourself",
   description:
-    "Medicare broker for CHF patients — Anthony Orner finds plans covering cardiac rehab, heart meds & hospital stays. Call 855-559-1700 for a free plan review.",
+    "Medicare broker for CHF patients — Anthony Orner finds plans covering cardiac rehab, heart meds & hospital stays. Call 855-559-1700 for your free plan review.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-congestive-heart-failure-patients" },
   openGraph: {
     title:
@@ -399,6 +399,22 @@ const faqs = [
     question: "Does Medicare cover heart failure medications under Part D?",
     answer:
       "Most Part D plans cover common heart failure medications like ACE inhibitors, ARBs, beta blockers, and diuretics, but each plan has its own formulary and tier structure. The same drug can cost very different amounts depending on the plan you choose. Anthony reviews your full medication list to find the plan with the lowest total annual cost.",
+  }
+,
+  {
+    question: "Does Medicare cover heart failure medications under Part D?",
+    answer:
+      "Most Part D plans cover common CHF medications like ACE inhibitors, beta-blockers, diuretics, and ARBs, but formularies and tier placement vary by plan. Some plans require prior authorization or step therapy for newer heart failure drugs. Reviewing your specific medication list against each plan's formulary is the only way to find the lowest total cost.",
+  },
+  {
+    question: "Will Medicare cover a heart failure specialist or cardiologist?",
+    answer:
+      "Yes. Original Medicare Part B covers visits to cardiologists and heart failure specialists who accept Medicare assignment. With Medicare Advantage, you may need a referral or be limited to in-network cardiologists, so it's important to confirm your preferred specialist participates before enrolling.",
+  },
+  {
+    question: "Does Medicare cover home health care for congestive heart failure patients?",
+    answer:
+      "Medicare covers intermittent skilled nursing care, physical therapy, and home health aide services for CHF patients who are homebound and under a physician's care plan. Coverage requires that services come from a Medicare-certified home health agency. Anthony can help you choose a plan that includes additional in-home support benefits where available.",
   }
 ];
 

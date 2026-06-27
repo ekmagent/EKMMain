@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "You Get a Medicare Supplement Plan If You Have a Pre-Existing Condition | Free Guidance | MedicareYourself",
   description:
-    "Yes, you can get a Medicare Supplement plan with a pre-existing condition during Medigap Open Enrollment — no underwriting. Call 855-559-1700 for free help.",
+    "Yes — you can get a Medicare Supplement plan with a pre-existing condition during Medigap Open Enrollment. Call 855-559-1700 for free expert guidance.",
   alternates: { canonical: "https://medicareyourself.com/services/you-get-a-medicare-supplement-plan-if-you-have-a-pre-existing-condition" },
   openGraph: {
     title:
@@ -127,6 +127,22 @@ const faqs = [
     question: "Does Original Medicare cover pre-existing conditions?",
     answer:
       "Yes. Original Medicare (Part A and Part B) has covered pre-existing conditions since the program began in 1965. There is no medical underwriting to enroll in Original Medicare, so prior health problems do not affect your eligibility or what Medicare pays for covered services.",
+  }
+,
+  {
+    question: "Can a Medigap insurer impose a waiting period for my pre-existing condition?",
+    answer:
+      "Yes, in some situations. Even during your Medigap Open Enrollment Period, an insurer may refuse to cover out-of-pocket costs for a pre-existing condition for up to 6 months — this is called a pre-existing condition waiting period. However, if you had prior creditable coverage, that waiting period can be shortened or eliminated. Original Medicare will still cover the condition during this time.",
+  },
+  {
+    question: "Does Original Medicare itself deny coverage for pre-existing conditions?",
+    answer:
+      "No. Original Medicare (Part A and Part B) has covered pre-existing conditions since the program began in 1965. Your eligibility for Medicare is not affected by any health issues you had before enrolling. The pre-existing condition rules only come into play with Medigap underwriting outside of guaranteed-issue periods.",
+  },
+  {
+    question: "How can I find out if I qualify for a Medigap plan with my health history?",
+    answer:
+      "The fastest way is to review your enrollment window and any guaranteed-issue rights that may apply to your situation. A licensed broker can check carrier underwriting questions against your specific conditions before you apply. Call 855-559-1700 for a free, no-obligation review.",
   }
 ];
 
@@ -404,6 +420,7 @@ export default function PreExistingConditionMedigapPage() {
             <div className="text-sm text-gray-600 mt-4">For state-specific help, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">local SHIP counselor</a> or the <a href="https://www.nj.gov/dobi/division_insurance/" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medigap counseling.</div>
             <div className="text-sm text-gray-600 mt-4">State help: <a href="https://www.state.nj.us/dobi/division_insurance/ihcseh/shipinfo.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey State Health Insurance Assistance Program (SHIP)</a> offers free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">Need state-specific help? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free local Medicare counseling.</div>
       </section>
 
       <p className="text-sm text-gray-400 mt-10">

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare broker for diabetics | Free Help Finding the Right Plan | MedicareYourself",
   description:
-    "Work with a Medicare broker who understands diabetes — insulin, CGMs, and specialist access. Free expert help from Anthony Orner. Call 855-559-1700 today.",
+    "Work with a Medicare broker who understands diabetes — insulin caps, CGM coverage, and specialist networks. Free expert help from Anthony Orner. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-diabetics" },
   openGraph: {
     title:

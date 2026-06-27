@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "How to Sign Up for Medicare (2026 Guide)",
   description:
-    "Step-by-step 2026 guide to enrolling in Medicare at SSA, avoiding Part B late penalties, and picking the right coverage. Free broker help: 855-559-1700.",
+    "Step-by-step 2026 guide to signing up for Medicare at SSA, avoiding Part B late penalties, and choosing coverage. Free broker help: 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/how-to-sign-up-for-medicare` },
   openGraph: {
     title: "How to Sign Up for Medicare (2026 Guide)",
@@ -1116,6 +1116,22 @@ const faqs = [
     question: "Do I need to sign up for Medicare if I have VA or TRICARE coverage?",
     answer:
       "VA benefits don't count as creditable coverage for Part B, so most veterans should still enroll in Part B during their IEP to avoid penalties and gain access to non-VA providers. TRICARE for Life requires you to enroll in both Part A and Part B to keep your TRICARE coverage after 65. Confirm your specific situation with the VA or TRICARE before delaying enrollment.",
+  }
+,
+  {
+    question: "How do I sign up for Medicare if I am not getting Social Security yet?",
+    answer:
+      "You can apply for Medicare online at ssa.gov/medicare, by calling Social Security, or by visiting your local Social Security office. The online application takes about 10 minutes and you can submit it up to 3 months before the month you turn 65. You do not need to be collecting Social Security retirement benefits to enroll in Medicare.",
+  },
+  {
+    question: "What happens if I miss my Medicare Initial Enrollment Period?",
+    answer:
+      "If you miss your IEP and do not qualify for a Special Enrollment Period, you will have to wait for the General Enrollment Period (January 1 – March 31) to sign up for Part B. You may also owe a permanent Part B late enrollment penalty that is added to your monthly premium for as long as you have Medicare. Call 855-559-1700 if you are unsure which window applies to you.",
+  },
+  {
+    question: "Can a broker help me sign up for Medicare?",
+    answer:
+      "A licensed broker cannot enroll you in Part A or Part B — that is done through Social Security at ssa.gov/medicare. However, a broker can help you understand your enrollment timing, avoid late penalties, and choose a Medicare Supplement, Advantage, or Part D plan once your Original Medicare is active. This help is free to you.",
   }
 ];
 

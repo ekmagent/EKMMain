@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for schizophrenia patients | Free Coverage Analysis | MedicareYourself",
   description:
-    "Medicare broker for schizophrenia patients: Anthony Orner compares plans covering antipsychotics, therapy & psychiatric hospital care. Free help — 855-559-1700.",
+    "Medicare broker for schizophrenia patients: Anthony Orner compares plans covering antipsychotics, therapy & psychiatric care. Free help — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-schizophrenia-patients" },
   openGraph: {
     title:
@@ -118,6 +118,22 @@ const faqs = [
     question: "Can a Medicare broker help find plans that include my current psychiatrist?",
     answer:
       "Yes. A licensed broker can check provider directories across Medicare Advantage plans in your area to confirm whether your psychiatrist, therapist, or community mental health center is in-network. With Original Medicare paired with a Medigap plan, you can generally see any provider who accepts Medicare nationwide, which is often important for continuity of psychiatric care.",
+  }
+,
+  {
+    question: "Can a Medicare Advantage plan include extra mental health benefits for schizophrenia?",
+    answer:
+      "Yes. Many Medicare Advantage plans include supplemental benefits beyond Original Medicare, such as expanded telehealth access, care coordination, and transportation to medical appointments. Networks and prior authorization rules differ by plan, so a broker can compare which plans include the providers and services you already use.",
+  },
+  {
+    question: "Does Medicare cover long-acting injectable antipsychotics?",
+    answer:
+      "Yes. Long-acting injectables administered in a clinical setting are typically covered under Medicare Part B, while self-administered antipsychotics fall under Part D. Coverage rules, billing, and cost sharing depend on how and where the medication is given, which is why plan selection matters.",
+  },
+  {
+    question: "What happens if my psychiatrist or therapist isn't in my plan's network?",
+    answer:
+      "With Original Medicare, you can see any provider who accepts Medicare assignment. Medicare Advantage plans generally require in-network providers except in emergencies. A broker can verify whether your current mental health providers participate before you enroll, helping avoid disruptions in care.",
   }
 ];
 
@@ -411,6 +427,7 @@ export default function MedicareBrokerSchizophreniaPatients() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </main>
   );

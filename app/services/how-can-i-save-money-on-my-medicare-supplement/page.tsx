@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "how can i save money on my medicare supplement | Free Rate Review | MedicareYourself",
   description:
-    "Save on your Medicare Supplement by comparing carriers, stacking discounts, and reviewing plan letters. Call 855-559-1700 for a free rate review.",
+    "Save on your Medicare Supplement by comparing carriers, timing your enrollment, and stacking discounts. Call 855-559-1700 for a free rate review today.",
   alternates: { canonical: "https://medicareyourself.com/services/how-can-i-save-money-on-my-medicare-supplement" },
   openGraph: {
     title:
@@ -216,6 +216,17 @@ const faqs = [
     question: "Does where I live affect my Medigap premium?",
     answer:
       "Yes. Medigap premiums vary based on the insurance company, the plan letter, and your ZIP code or state. Two neighbors with the same plan letter from different carriers can pay very different premiums, which is why a local rate comparison is important.",
+  }
+,
+  {
+    question: "When is the best time to buy a Medigap policy to save the most money?",
+    answer:
+      "Your Medigap Open Enrollment Period is the best time to buy. During this window, insurance companies cannot use medical underwriting to deny you coverage or charge you more based on health history. Buying outside this window may mean higher premiums or being declined, which limits your ability to shop for savings later.",
+  },
+  {
+    question: "Can a Medicare Savings Program lower my Medicare Supplement costs?",
+    answer:
+      "A Medicare Savings Program won't directly pay your Medigap premium, but it can help pay your Part B premium and other Original Medicare costs, freeing up money in your budget. Eligibility is based on income and resources and is determined by your state. You can also explore Supplemental Security Income through Social Security if your income is limited.",
   }
 ];
 
@@ -475,6 +486,7 @@ export default function HowCanISaveMoneyOnMyMedicareSupplement() {
             <div className="text-sm text-gray-600 mt-4">Need state-specific help? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">Need free one-on-one help? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a> for unbiased Medicare counseling in your state.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free local counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">For free local counseling, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> or the <a href="https://www.nj.gov/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a>.</div>
       </section>
     </main>
   );

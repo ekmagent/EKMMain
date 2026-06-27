@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Best Medicare Supplement Rates by Age (Plan G, Plan N, & Plan F Rates) | Free Quote | MedicareYourself",
   description:
-    "Compare Medicare Supplement rates by age for Plan G, Plan N, and Plan F. See how premiums shift and lock in your lowest rate—call 855-559-1700 for a free quote.",
+    "Compare Medicare Supplement rates by age for Plan G, Plan N, and Plan F. See how premiums shift by age bracket—call 855-559-1700 to lock in your lowest rate.",
   alternates: { canonical: "https://medicareyourself.com/services/best-medicare-supplement-rates-by-age-plan-g-plan-n-plan-f-rates" },
   openGraph: {
     title:
@@ -624,6 +624,7 @@ export default function BestMedicareSupplementRatesByAge() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling. Questions about your rate? Call 855-559-1700.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify carriers and rates with the <a href="https://www.nj.gov/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP</a>.</div>
       </section>
     </main>
   );

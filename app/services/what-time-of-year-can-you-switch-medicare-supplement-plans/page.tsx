@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "what time of the year can you switch medicare supplement plans | Free Help from a Licensed Broker | MedicareYourself",
   description:
-    "When can you switch Medicare Supplement plans? Learn Medigap Open Enrollment, guaranteed issue rights, and how to switch safely. Call 855-559-1700 for free help.",
+    "When can you switch Medicare Supplement plans? Learn Medigap Open Enrollment, guaranteed issue rights, and how to switch safely. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/what-time-of-year-can-you-switch-medicare-supplement-plans" },
   openGraph: {
     title:
@@ -142,6 +142,17 @@ const faqs = [
     question: "Can I switch from Medicare Advantage back to Original Medicare and add a Medigap plan?",
     answer:
       "Yes, but timing matters. You can typically switch during the Medicare Annual Enrollment Period or the Medicare Advantage Open Enrollment Period. In some cases, you may have a guaranteed issue right to buy a Medigap policy — for example, if you joined Medicare Advantage when first eligible and disenroll within 12 months (trial right).",
+  }
+,
+  {
+    question: "What happens during the 30-day free look period when switching Medigap plans?",
+    answer:
+      "When you buy a new Medigap policy, you have 30 days to decide if you want to keep it. During this free look period, you should keep your old policy active and pay both premiums. If you decide the new plan isn't right for you, you can cancel it and stay on your original policy without losing coverage.",
+  },
+  {
+    question: "Do I need to answer health questions when switching Medigap plans?",
+    answer:
+      "Outside your 6-month Medigap Open Enrollment Period or a guaranteed issue situation, most carriers require medical underwriting. That means answering health questions, and the insurer can deny coverage or charge higher premiums based on your conditions. During Open Enrollment or with guaranteed issue rights, carriers cannot use your health to deny or price the policy.",
   }
 ];
 

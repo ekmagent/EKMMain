@@ -317,6 +317,12 @@ const GUIDES = [
     answer:
       "Yes. Every guide on MedicareYourself is free to read with no email signup, account, or contact form required. If you want personal help after reading, you can call 855-559-1700 to speak with a licensed broker.",
   }
+,
+  {
+    question: "Can I switch from Medicare Advantage back to Original Medicare later?",
+    answer:
+      "Yes. You can switch between Medicare Advantage and Original Medicare during the Annual Enrollment Period in the fall or during the Medicare Advantage Open Enrollment Period in early in the year. Keep in mind that if you want to add a Medigap policy after switching back, medical underwriting may apply outside of guaranteed-issue situations. Call 855-559-1700 to review your options before making a change.",
+  }
 ];
 
 export default function LearnHubPage() {

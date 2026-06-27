@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare insurance agents in clifton new jersey | Free Quote, No Fees | MedicareYourself",
   description:
-    "Compare Medicare plans in Clifton, NJ with licensed broker Anthony Orner. 20+ carriers, no fees, no pressure. Call 855-559-1700 for your free quote today.",
+    "Compare Medicare plans in Clifton, NJ with licensed broker Anthony Orner. 20+ carriers, zero fees, no pressure. Call 855-559-1700 for a free quote today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-insurance-agents-in-clifton-new-jersey" },
   openGraph: {
     title:
@@ -92,6 +92,17 @@ const faqs = [
     question: "Does New Jersey use community rating for Medigap premiums?",
     answer:
       "Yes. New Jersey is a community-rated state, meaning Medigap carriers charge the same premium to all enrollees of a given plan regardless of age. Premiums can still change annually based on factors like inflation and claims experience.",
+  }
+,
+  {
+    question: "Can a Clifton Medicare broker help me enroll in Part D prescription drug coverage?",
+    answer:
+      "Yes. Anthony Orner can run your prescription list through the Medicare Plan Finder and compare standalone Part D plans available in Passaic County. The goal is to match your specific medications to the plan with the lowest projected annual cost, including premiums and copays.",
+  },
+  {
+    question: "Do I need to live in Clifton to work with Anthony Orner?",
+    answer:
+      "No. Anthony is licensed in New Jersey and 34 additional states, so residents across Passaic County and beyond can get help. Most consultations are handled by phone or video, though local appointments can be arranged when needed.",
   }
 ];
 
@@ -347,6 +358,7 @@ export default function MedicareInsuranceAgentsCliftonNJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">For free, unbiased Medicare counseling in New Jersey, contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" target="_blank" rel="noopener noreferrer" className="text-blue-700 underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
       </article>
     </>

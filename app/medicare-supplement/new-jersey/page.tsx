@@ -9,7 +9,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Best Medicare Supplement Plans in NJ 2026",
   description:
-    "Compare 2026 New Jersey Medicare Supplement plans — community-rated Plan G & N, NJ enrollment rules, and free licensed broker help. Call 855-559-1700 today.",
+    "Compare 2026 New Jersey Medicare Supplement plans — community-rated Plan G & N, NJ Medigap enrollment rules, and free licensed broker help. Call 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/medicare-supplement/new-jersey` },
   openGraph: {
     title: "Best Medicare Supplement Plans in NJ 2026",

@@ -180,6 +180,12 @@ const faqs = [
     answer:
       "Medicare Part B covers acupuncture specifically for chronic low back pain. Coverage includes a limited number of visits per year, with additional visits available if you show improvement. Acupuncture for other types of pain is generally not covered by Original Medicare.",
   }
+,
+  {
+    question: "Will Medicare cover physical therapy for chronic pain?",
+    answer:
+      "Yes. Medicare Part B covers medically necessary physical therapy, occupational therapy, and outpatient rehabilitation services when ordered by your doctor as part of a treatment plan. After meeting the Part B deductible, you typically pay 20% of the Medicare-approved amount. There is no longer a hard cap on therapy services, but ongoing therapy above a threshold may require your provider to confirm medical necessity.",
+  }
 ];
 
 export default function MedicareBrokerForChronicPainPatients() {

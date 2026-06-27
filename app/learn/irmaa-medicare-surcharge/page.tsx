@@ -1100,6 +1100,22 @@ const faqs = [
     answer:
       "Social Security mails a predetermination notice followed by an initial determination letter explaining the surcharge amount and the income data used. The letter also explains your right to appeal or request a new decision if you had a life-changing event. If you disagree with the income figures, you can request a reconsideration through SSA.",
   }
+,
+  {
+    question: "How do I appeal IRMAA if my income has dropped?",
+    answer:
+      "If you experienced a life-changing event such as retirement, divorce, or the death of a spouse, you can request a reduction by filing Form SSA-44 with the Social Security Administration. You'll need to provide documentation of the event and an estimate of your new, lower income. If approved, SSA will recalculate your IRMAA based on the more recent income.",
+  },
+  {
+    question: "Is IRMAA recalculated every year?",
+    answer:
+      "Yes. Social Security reviews your IRMAA status each year using your most recent IRS tax return data. If your income drops below the threshold, your surcharge will automatically be removed for the following year — no appeal needed unless you want it adjusted sooner.",
+  },
+  {
+    question: "Can a Roth conversion or one-time capital gain trigger IRMAA?",
+    answer:
+      "Yes. Because IRMAA is based on Modified Adjusted Gross Income, large one-time events like Roth IRA conversions, home sales, or capital gains can push you into a higher bracket two years later. Careful tax planning before age 63 can help avoid an unexpected surcharge later in retirement.",
+  }
 ];
 
 export default function IrmaaPage() {

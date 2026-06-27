@@ -158,6 +158,12 @@ const faqs = [
     answer:
       "Plan G covers nearly all Medicare-approved out-of-pocket costs after you pay the annual Part B deductible. That includes the Part A deductible, Part A and Part B coinsurance, hospice cost-sharing, skilled nursing facility coinsurance, and Part B excess charges. Benefits are standardized by federal law, so coverage is identical across every carrier selling Plan G in NJ.",
   }
+,
+  {
+    question: "Does New Jersey use community rating for Medigap Plan G?",
+    answer:
+      "New Jersey is a community-rated state for Medigap, meaning carriers generally charge the same premium to everyone with the same plan in your area regardless of age. However, premiums can still differ between carriers and may change over time due to inflation and claims experience. Comparing carriers is the only way to find the lowest available rate.",
+  }
 ];
 
 export default function PlanGRates69NJ() {

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "best medicare supplement for people on disability | Free Plan Review | MedicareYourself",
   description:
-    "Best Medicare Supplement for people on disability: compare state rules, plan letters, and pricing. Call 855-559-1700 for free licensed broker help today.",
+    "Best Medicare Supplement for people on disability: compare state rules, plan letters, and eligibility. Call 855-559-1700 for free licensed broker guidance.",
   alternates: { canonical: "https://medicareyourself.com/services/best-medicare-supplement-for-people-on-disability" },
   openGraph: {
     title:
@@ -453,6 +453,7 @@ export default function BestMedicareSupplementForPeopleOnDisability() {
             <div className="text-sm text-gray-600 mt-4">For state-specific Medigap rules, contact your <a href="https://www.shiphelp.org/about-medicare/regional-ship-location" rel="noopener noreferrer" target="_blank" className="underline">local SHIP counselor</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">State help: Find your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">SHIP counselor</a> for free, unbiased Medicare guidance in your state.</div>
             <div className="text-sm text-gray-600 mt-4">Need state-specific guidance? Find your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a> for free counseling on Medigap rules for disabled beneficiaries.</div>
+            <div className="text-sm text-gray-600 mt-4">State help: find your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a> for free one-on-one Medicare counseling.</div>
       </section>
       </article>
     </>

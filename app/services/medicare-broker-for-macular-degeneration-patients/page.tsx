@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for macular degeneration patients | Free Plan Match | MedicareYourself",
   description:
-    "Medicare broker matching macular degeneration patients with plans that cover anti-VEGF injections, OCT scans & retina specialists. Free help: 855-559-1700.",
+    "Medicare broker matching macular degeneration patients with plans covering anti-VEGF injections, OCT scans & retina specialists. Call 855-559-1700 for free help.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-macular-degeneration-patients" },
   openGraph: {
     title:
@@ -315,6 +315,7 @@ export default function MedicareBrokerMacularDegenerationPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling from the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );
