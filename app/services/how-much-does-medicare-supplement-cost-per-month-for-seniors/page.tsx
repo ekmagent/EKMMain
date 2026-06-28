@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "How Much Does Medicare Supplement Cost per Month for Seniors? | Free 2026 Rate Quote | MedicareYourself",
   description:
-    "How much does Medicare Supplement cost per month for seniors? Compare Plan G and N rates by age and zip. Call 855-559-1700 for a free 2026 quote.",
+    "How much does Medicare Supplement cost per month for seniors? Compare Plan G and N rates by age and zip with a licensed broker. Call 855-559-1700 for a free quote.",
   alternates: { canonical: "https://medicareyourself.com/services/how-much-does-medicare-supplement-cost-per-month-for-seniors" },
   openGraph: {
     title:
@@ -165,6 +165,22 @@ const faqs = [
     question: "Does tobacco use raise my Medicare Supplement premium?",
     answer:
       "Most carriers charge tobacco users a higher rate, typically through a percentage surcharge on the base premium. A few carriers don't ask, so shopping the market matters if you're a current or recent tobacco user.",
+  }
+,
+  {
+    question: "Can I switch Medicare Supplement plans later if my premium gets too high?",
+    answer:
+      "Yes, you can apply to switch Medigap plans or carriers at any time, but outside of your Open Enrollment Period or a guaranteed issue situation, the new carrier can require medical underwriting. That means they can review your health history and either approve, deny, or rate up your application. Call 855-559-1700 and we can shop your current rate against other carriers to see if a switch makes sense.",
+  },
+  {
+    question: "Is Medicare Supplement worth the monthly premium compared to Medicare Advantage?",
+    answer:
+      "It depends on how you use healthcare and how predictable you want your costs to be. Medigap plans like Plan G leave you with minimal out-of-pocket costs after the Part B deductible and let you see any provider that accepts Medicare nationwide. Medicare Advantage plans usually have lower or no premiums but use networks and require copays at the point of care.",
+  },
+  {
+    question: "Does Medicare Supplement cover the Part B premium?",
+    answer:
+      "No. You must continue paying your standard Part B premium directly to Medicare in addition to your Medigap premium. The Medigap policy only fills gaps in Original Medicare cost-sharing such as deductibles, coinsurance, and copays — it does not replace or reimburse the Part B premium itself.",
   }
 ];
 
@@ -405,6 +421,7 @@ export default function HowMuchDoesMedicareSupplementCostPerMonthForSeniors() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can compare carrier rate histories through the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased plan counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can compare rates and file complaints through the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP</a>.</div>
       </section>
     </main>
   );

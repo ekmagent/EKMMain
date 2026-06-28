@@ -1116,6 +1116,22 @@ const faqs = [
     answer:
       "Yes. Because IRMAA is based on Modified Adjusted Gross Income, large one-time events like Roth IRA conversions, home sales, or capital gains can push you into a higher bracket two years later. Careful tax planning before age 63 can help avoid an unexpected surcharge later in retirement.",
   }
+,
+  {
+    question: "How do I appeal an IRMAA determination if my income has dropped?",
+    answer:
+      "If you've experienced a life-changing event such as retirement, divorce, or the death of a spouse, you can request a reconsideration by filing Form SSA-44 with the Social Security Administration. You'll need documentation of the event and proof of your reduced income. If approved, SSA will recalculate your IRMAA based on your more recent income.",
+  },
+  {
+    question: "Is IRMAA recalculated every year?",
+    answer:
+      "Yes. Social Security reviews your tax return data each year and adjusts your IRMAA based on your most recent available MAGI (typically from two years prior). If your income drops below the threshold, your IRMAA surcharge goes away automatically the following year.",
+  },
+  {
+    question: "Can a Medicare broker help me plan around IRMAA?",
+    answer:
+      "A licensed broker can't change your tax situation, but we can help you understand how IRMAA interacts with your Part B and Part D costs and coordinate with your tax advisor. Call 855-559-1700 for a free review of your Medicare options and IRMAA exposure.",
+  }
 ];
 
 export default function IrmaaPage() {

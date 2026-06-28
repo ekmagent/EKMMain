@@ -564,6 +564,17 @@ const faqs = [
     answer:
       "In most states, yes. Under federal law you generally only have a right to switch Medigap policies during your 6-month Medigap Open Enrollment Period or when you qualify for a guaranteed issue right. Outside those windows, carriers can use medical underwriting and may decline your application based on health. Some states offer broader switching rights, so it's worth checking with a broker or your state insurance department.",
   }
+,
+  {
+    question: "Do I have a federal right to switch my Medigap policy whenever I want?",
+    answer:
+      "In most cases, no. Under federal law, you generally only have a guaranteed right to switch Medigap policies during your 6-month Medigap Open Enrollment Period or when you qualify for a guaranteed issue right, such as losing other coverage or a carrier leaving the market. Outside of those windows, carriers can use medical underwriting and may decline your application. Some states offer broader switching rights than federal law, so it is worth checking with your State Insurance Department.",
+  },
+  {
+    question: "What happens to my old Medigap policy when I switch carriers?",
+    answer:
+      "You should not cancel your existing Medigap policy until the new policy is approved and in force. Most new carriers offer a free-look period during which you can try the new policy while keeping the old one, then cancel the old plan once you are satisfied. This avoids any gap in supplemental coverage while Original Medicare continues paying its share.",
+  }
 ];
 
 export default function SwitchCarriersPage() {

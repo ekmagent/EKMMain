@@ -354,6 +354,22 @@ const faqs = [
     answer:
       "Yes. As an independent broker, I review which plans include your neurologist, rehab facility, and therapists in network, and I check that your prescriptions are on the plan's formulary. That way your existing care team stays intact when you enroll or switch plans.",
   }
+,
+  {
+    question: "Does Medicare cover durable medical equipment like walkers or wheelchairs after a stroke?",
+    answer:
+      "Yes. Medicare Part B covers durable medical equipment (DME) such as walkers, wheelchairs, hospital beds, and canes when your doctor prescribes them as medically necessary for home use. You'll typically pay the Part B coinsurance after meeting the Part B deductible. Choosing a supplier that accepts Medicare assignment helps keep costs predictable.",
+  },
+  {
+    question: "Will Medicare pay for home health care during stroke recovery?",
+    answer:
+      "Medicare Part A and Part B cover eligible home health services — including part-time skilled nursing, physical therapy, speech-language pathology, and occupational therapy — when you're homebound and a doctor certifies the need. Services must be provided by a Medicare-certified home health agency. Custodial care alone, like help with bathing or meals, is not covered.",
+  },
+  {
+    question: "Are stroke medications covered by Medicare?",
+    answer:
+      "Medications administered during a hospital stay fall under Part A, while drugs given in a doctor's office or outpatient setting are typically covered by Part B. Prescription medications you take at home — such as blood thinners or blood pressure drugs — are covered through a Medicare Part D plan or a Medicare Advantage plan that includes drug coverage. I'll help you compare formularies so your specific prescriptions are covered affordably.",
+  }
 ];
 
 export default function MedicareBrokerForStrokeSurvivors() {

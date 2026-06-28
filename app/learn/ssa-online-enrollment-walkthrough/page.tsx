@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title:
     "How to Enroll in Medicare Online at SSA.gov (Step-by-Step Walkthrough)",
   description:
-    "Step-by-step SSA.gov Medicare enrollment walkthrough — sign up for Part A & B online in about 10 minutes. Free broker help at 855-559-1700.",
+    "Step-by-step SSA.gov Medicare enrollment walkthrough — sign up for Part A & B online in about 10 minutes. Free licensed broker help at 855-559-1700.",
   alternates: {
     canonical: `${SITE_URL}/learn/ssa-online-enrollment-walkthrough`,
   },
@@ -1248,6 +1248,22 @@ const steps = [
     question: "What happens after I submit my SSA Medicare application?",
     answer:
       "Once you click Submit, you cannot modify the application online. SSA will review it and mail your Medicare card and a decision notice. If they need more information, they will contact you by phone or mail, and you can check status by signing in to your my Social Security account.",
+  }
+,
+  {
+    question: "How long does the SSA online Medicare application take?",
+    answer:
+      "Most people complete the online application in about 10 minutes. Having your Social Security number, driver's license, and current health insurance information ready will help you move through the screens without delays.",
+  },
+  {
+    question: "Can I apply for Medicare online without signing up for Social Security retirement benefits?",
+    answer:
+      "Yes. The SSA online application includes an option to apply for Medicare only without starting your retirement benefits. This is a common choice for people who plan to delay retirement but want to enroll in Part A and/or Part B at age 65.",
+  },
+  {
+    question: "What if I make a mistake on my SSA Medicare application?",
+    answer:
+      "You cannot modify your application after clicking Submit Now. If you notice an error, contact the Social Security Administration directly to correct it. You can also call us at 855-559-1700 for guidance before you submit.",
   }
 ];
 

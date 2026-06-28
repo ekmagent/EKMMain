@@ -562,6 +562,12 @@ const faqs = [
     answer:
       "With Original Medicare paired with a Medigap plan, you can see any neurologist nationwide who accepts Medicare, with no referrals required. With Medicare Advantage, you'll need to confirm your neurologist is in-network and may need a referral from your primary care doctor. Before enrolling, it's worth confirming network status directly with your neurologist's office.",
   }
+,
+  {
+    question: "Does Medicare cover MRIs for monitoring MS progression?",
+    answer:
+      "Yes. Medicare Part B covers medically necessary MRI scans ordered by your doctor to monitor MS activity and treatment response. You'll typically pay the Part B coinsurance after meeting the annual deductible unless a Medigap plan picks up that cost. Medicare Advantage plans usually cover MRIs but may require prior authorization.",
+  }
 ];
 
 export default function MedicareBrokerForMSPatients() {

@@ -186,6 +186,12 @@ const faqs = [
     answer:
       "Yes. Medicare Part B covers medically necessary physical therapy, occupational therapy, and outpatient rehabilitation services when ordered by your doctor as part of a treatment plan. After meeting the Part B deductible, you typically pay 20% of the Medicare-approved amount. There is no longer a hard cap on therapy services, but ongoing therapy above a threshold may require your provider to confirm medical necessity.",
   }
+,
+  {
+    question: "Who is eligible for Medicare chronic pain management services?",
+    answer:
+      "You qualify if you have chronic pain, defined by Medicare as persistent or recurring pain lasting longer than three months. Your provider must document the diagnosis and deliver covered services such as pain assessment, medication management, and care coordination. Eligibility does not depend on the cause of the pain.",
+  }
 ];
 
 export default function MedicareBrokerForChronicPainPatients() {

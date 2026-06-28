@@ -290,6 +290,12 @@ const faqs = [
     answer:
       "Plan G covers nearly every gap in Original Medicare except the annual Part B deductible, including hospital coinsurance, skilled nursing coinsurance, and excess charges. For a 70-year-old who wants predictable out-of-pocket costs and the freedom to see any doctor that accepts Medicare, Plan G is one of the most comprehensive options available. Call 855-559-1700 to compare your NJ options.",
   }
+,
+  {
+    question: "Why do Plan G premiums vary so much between carriers in New Jersey?",
+    answer:
+      "Every Medigap Plan G covers the same federally standardized benefits, so the only real difference between carriers is price and customer service. Insurance companies set their own premiums based on claims experience, administrative costs, and rating method. That's why comparing multiple NJ carriers side by side is the single best way to save money.",
+  }
 ];
 
 export default function PlanGRates70NJ() {

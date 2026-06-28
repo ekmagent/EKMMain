@@ -142,6 +142,17 @@ const faqs = [
     answer:
       "New Jersey uses community rating for Medicare Supplement (Medigap) plans, which means insurers cannot charge you a higher premium based on your age. Your 6-month Medigap Open Enrollment Period begins the month you turn 65 and are enrolled in Part B, giving you guaranteed issue rights during that window. Outside that window, medical underwriting may apply unless you qualify for a separate guaranteed issue right.",
   }
+,
+  {
+    question: "How does New Jersey rate Medigap plans for Monmouth County residents?",
+    answer:
+      "New Jersey uses community rating for Medicare Supplement (Medigap) policies, meaning carriers charge the same premium to everyone enrolled in a given plan regardless of age. Your 6-month Medigap Open Enrollment Period begins the month you are 65 and enrolled in Part B, giving you guaranteed issue rights during that window. A licensed broker can compare community-rated Medigap premiums across carriers serving Monmouth County.",
+  },
+  {
+    question: "Can I switch Medicare plans during the year in Monmouth County?",
+    answer:
+      "Most plan changes happen during the Annual Election Period from October 15 to December 7. Medicare Advantage enrollees also have a Medicare Advantage Open Enrollment Period from January 1 to March 31 to switch plans or return to Original Medicare. Certain life events, such as moving or losing other coverage, can trigger a Special Enrollment Period.",
+  }
 ];
 
 export default function MedicareInMonmouthCountyNewJersey() {
@@ -383,6 +394,7 @@ export default function MedicareInMonmouthCountyNewJersey() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.nj.gov/humanservices/doas/assistance/medicare/offices.shtml" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free local Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey resource: <a href="https://www.nj.gov/humanservices/doas/assistance/medicare/offices.shtml" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP) local offices</a></div>
             <div className="text-sm text-gray-600 mt-4">New Jersey SHIP: <a href="https://www.nj.gov/humanservices/doas/assistance/medicare/offices.shtml" rel="noopener noreferrer" target="_blank" className="underline">NJ Division of Aging Services — SHIP Local Offices</a></div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can find free local counseling through the <a href="https://www.nj.gov/humanservices/doas/assistance/medicare/offices.shtml" rel="noopener noreferrer" target="_blank">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
     </main>
   );

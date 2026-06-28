@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Best Medicare Supplement Rates by Age (Plan G, Plan N, & Plan F Rates) | Free Quote | MedicareYourself",
   description:
-    "Compare Medicare Supplement rates by age for Plan G, Plan N, and Plan F. See how premiums shift by age bracket—call 855-559-1700 to lock in your lowest rate.",
+    "Compare Medicare Supplement rates by age for Plan G, Plan N, and Plan F. See how premiums shift by age bracket—call 855-559-1700 for your lowest quote.",
   alternates: { canonical: "https://medicareyourself.com/services/best-medicare-supplement-rates-by-age-plan-g-plan-n-plan-f-rates" },
   openGraph: {
     title:
@@ -327,6 +327,22 @@ const faqs = [
     answer:
       "Yes, but outside your Medigap Open Enrollment Period most states allow carriers to require medical underwriting before approving the switch. If you have pre-existing conditions, you could be denied or charged a higher rate. A few states offer broader switching rights, so it's worth reviewing your options with a licensed broker at 855-559-1700.",
   }
+,
+  {
+    question: "Does Plan F still make sense if I'm eligible for it?",
+    answer:
+      "Plan F is only available to people who became eligible for Medicare before January 1, 2020. If you qualify, it offers the most comprehensive coverage including the Part B deductible. However, because the Plan F risk pool is closed to new entrants, rates tend to rise faster over time than Plan G.",
+  },
+  {
+    question: "How is Plan N different from Plan G?",
+    answer:
+      "Plan N has lower premiums than Plan G but requires you to pay small copays for some office and emergency room visits, and it does not cover Part B excess charges. Plan G covers those excess charges and has no copays. Plan N can be a strong fit if your providers accept Medicare assignment and you want a lower monthly premium.",
+  },
+  {
+    question: "Can I switch from Plan F or Plan N to Plan G later?",
+    answer:
+      "Yes, but outside of your Medigap Open Enrollment Period or a guaranteed issue situation, you may need to answer medical underwriting questions. Some states have annual rules like a birthday rule that allow you to switch to an equal or lesser plan without underwriting. Call 855-559-1700 to review your state's specific rules.",
+  }
 ];
 
 export default function BestMedicareSupplementRatesByAge() {
@@ -625,6 +641,7 @@ export default function BestMedicareSupplementRatesByAge() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling. Questions about your rate? Call 855-559-1700.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify carriers and rates with the <a href="https://www.nj.gov/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </main>
   );

@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "How to Sign Up for Medicare (2026 Guide)",
   description:
-    "Step-by-step 2026 guide to signing up for Medicare at SSA, avoiding Part B late penalties, and choosing coverage. Free broker help: 855-559-1700.",
+    "Step-by-step 2026 guide to signing up for Medicare through SSA, avoiding Part B late penalties, and picking coverage. Free broker help: 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/how-to-sign-up-for-medicare` },
   openGraph: {
     title: "How to Sign Up for Medicare (2026 Guide)",
@@ -1132,6 +1132,22 @@ const faqs = [
     question: "Can a broker help me sign up for Medicare?",
     answer:
       "A licensed broker cannot enroll you in Part A or Part B — that is done through Social Security at ssa.gov/medicare. However, a broker can help you understand your enrollment timing, avoid late penalties, and choose a Medicare Supplement, Advantage, or Part D plan once your Original Medicare is active. This help is free to you.",
+  }
+,
+  {
+    question: "What happens if I miss my Initial Enrollment Period?",
+    answer:
+      "If you miss your Initial Enrollment Period and don't qualify for a Special Enrollment Period, you'll need to sign up during the General Enrollment Period (January 1 – March 31), with coverage starting the month after you enroll. You may also owe a permanent Part B late enrollment penalty for each 12-month period you were eligible but didn't enroll. Call 855-559-1700 if you're unsure which window applies to you.",
+  },
+  {
+    question: "Can I sign up for Medicare if I'm still working?",
+    answer:
+      "Yes. You can enroll in premium-free Part A at 65 even if you're still working, and many people do. If you have creditable employer coverage from active employment, you may delay Part B without penalty and use a Special Enrollment Period to sign up later. Confirm with your HR department that your plan qualifies before delaying.",
+  },
+  {
+    question: "How do I actually apply for Medicare?",
+    answer:
+      "Most people apply through the Social Security Administration at ssa.gov/medicare, by calling SSA, or by visiting a local Social Security office. The online application takes about 10 minutes and you can apply up to 3 months before the month you turn 65. After enrolling, call 855-559-1700 for free help choosing a Supplement or Advantage plan.",
   }
 ];
 

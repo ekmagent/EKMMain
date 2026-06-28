@@ -225,6 +225,12 @@ const faqs = [
     answer:
       "Yes. All standardized Medigap plans cover the Part A hospital coinsurance and provide additional hospital days after Medicare benefits are used up. Plan G and Plan N also cover the Part A deductible, which is helpful for COPD patients who may face exacerbation-related admissions.",
   }
+,
+  {
+    question: "Is Plan N a good option for COPD patients on a budget?",
+    answer:
+      "Plan N can work for COPD patients who want lower monthly premiums and don't mind small copays for office and ER visits. However, Plan N does not cover Part B excess charges, which could add up if your pulmonologist doesn't accept Medicare assignment. Plan G typically offers more predictable costs for frequent specialist care.",
+  }
 ];
 
 export default function WhichMedicareSupplementalPlanBestForCOPDPatient() {

@@ -230,6 +230,17 @@ const faqs = [
     answer:
       "Not without reviewing alternatives first. Dropping Medigap without a replacement in place can leave you exposed to Part A and Part B cost-sharing, and re-enrolling later usually requires underwriting. Call 855-559-1700 for a free comparison before making any changes.",
   }
+,
+  {
+    question: "Does where I live affect my Medicare Supplement rate?",
+    answer:
+      "Yes. Medigap premiums vary widely based on your ZIP code, state, and the insurance company selling the plan. Even for the same lettered plan with identical benefits, prices differ significantly by location because carriers file rates with each state's insurance department.",
+  },
+  {
+    question: "Should I shop my Medigap plan every year?",
+    answer:
+      "Reviewing your Medigap premium annually is a smart habit because benefits within each lettered plan are standardized by Medicare, so the only real difference between carriers is price and rate stability. If you can pass medical underwriting, switching to a lower-priced carrier with the same plan letter can lock in savings. Call 855-559-1700 for a free rate review.",
+  }
 ];
 
 export default function WhyDidMyMedicareSupplementRateChange() {

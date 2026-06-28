@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "independent medicare broker near me new jersey reviews | Free Consultation | MedicareYourself",
   description:
-    "Read New Jersey client reviews of independent Medicare broker Anthony Orner. Compare Medigap, Advantage & Part D at no cost. Call 855-559-1700 today.",
+    "Read New Jersey client reviews of independent Medicare broker Anthony Orner. Compare Medigap, Advantage & Part D at no cost — call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/independent-medicare-broker-near-me-new-jersey-reviews" },
   openGraph: {
     title:
@@ -100,6 +100,22 @@ const faqs = [
     question: "Where can I get free Medicare counseling in New Jersey?",
     answer:
       "New Jersey's State Health Insurance Assistance Program (SHIP) offers free, unbiased Medicare counseling to beneficiaries and their families. You can also speak with a licensed independent broker at no cost for plan comparisons across multiple carriers.",
+  }
+,
+  {
+    question: "What questions should I ask a Medicare broker before enrolling?",
+    answer:
+      "Ask which carriers they're appointed with, whether they're independent or captive, and how they get paid. Confirm they'll review your doctors, prescriptions, and pharmacy preferences before recommending a plan. A trustworthy broker will explain trade-offs between Medigap and Medicare Advantage rather than pushing one product.",
+  },
+  {
+    question: "When can I enroll in a Medigap plan in New Jersey?",
+    answer:
+      "Your Medigap Open Enrollment Period is the 6-month window that begins the month you're 65 or older and enrolled in Part B. During this window, carriers must sell you any Medigap policy they offer regardless of health history. Outside this window, you may be subject to medical underwriting unless you qualify for a guaranteed issue right.",
+  },
+  {
+    question: "Can a New Jersey Medicare broker help me after I enroll?",
+    answer:
+      "Yes. A good independent broker provides ongoing support, including annual plan reviews during the Medicare Open Enrollment Period (October 15 to December 7), help with claims questions, and assistance switching plans if your needs change. Call 855-559-1700 to set up a free consultation with Anthony Orner.",
   }
 ];
 
@@ -361,6 +377,7 @@ export default function IndependentMedicareBrokerNJReviewsPage() {
             <div className="text-sm text-gray-600 mt-2">Verify any New Jersey broker's license through the <a href="https://www.state.nj.us/dobi/index.shtml" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP</a>.</div>
             <div className="text-sm text-gray-600 mt-2">Confirm a broker's license with the <a href="https://www.state.nj.us/dobi/" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey resource: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" target="_blank" rel="noopener noreferrer" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free local Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">Verify any New Jersey broker's license at the <a href="https://www.state.nj.us/dobi/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a> or get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

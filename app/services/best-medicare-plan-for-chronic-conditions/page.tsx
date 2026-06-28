@@ -156,6 +156,22 @@ const faqs = [
     answer:
       "The right choice depends on your providers, prescriptions, budget, and how often you need specialty care. A licensed broker can compare both options side by side at no cost — call 855-559-1700 to walk through your specific conditions and doctors.",
   }
+,
+  {
+    question: "What chronic conditions qualify for a C-SNP?",
+    answer:
+      "Chronic Condition Special Needs Plans are available for specific severe or disabling conditions identified by Medicare, including diabetes, chronic heart failure, cardiovascular disorders, chronic lung disorders, and end-stage renal disease, among others. Availability varies by ZIP code, and you must have a qualifying diagnosis confirmed by your provider to enroll. Call 855-559-1700 to see which C-SNPs are offered in your area.",
+  },
+  {
+    question: "Can I switch from a Medicare Advantage plan back to Original Medicare with Medigap if my health changes?",
+    answer:
+      "You can switch back to Original Medicare during the Annual Enrollment Period or the Medicare Advantage Open Enrollment Period each year. However, getting a Medigap policy outside your initial open enrollment window may require medical underwriting unless you qualify for a guaranteed issue right. A licensed broker can review your situation and confirm which protections apply in your state.",
+  },
+  {
+    question: "Do Medigap plans coordinate care for chronic conditions like C-SNPs do?",
+    answer:
+      "No. Medigap plans are supplemental insurance that pays for cost-sharing left over from Original Medicare, but they do not provide care coordination services. C-SNPs include tailored care coordination, condition-specific provider networks, and customized drug formularies designed around the qualifying condition.",
+  }
 ];
 
 export default function BestMedicarePlanForChronicConditions() {

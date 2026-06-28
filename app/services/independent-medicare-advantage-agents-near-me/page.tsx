@@ -176,6 +176,12 @@ const faqs = [
     answer:
       "Yes. A good independent agent stays available year-round to answer billing questions, help with provider network issues, and review your plan each Annual Enrollment Period to make sure it still fits your needs. Ongoing service is part of how independent agents build long-term client relationships.",
   }
+,
+  {
+    question: "Will my independent agent stay with me after I enroll?",
+    answer:
+      "Yes. A good independent Medicare agent provides ongoing service after enrollment, including help with ID cards, claims questions, provider network changes, and annual plan reviews during the Annual Enrollment Period. You're not handed off to a call center — you have a direct line to the same licensed broker year after year.",
+  }
 ];
 
 export default function IndependentMedicareAdvantageAgentsNearMe() {
@@ -435,6 +441,7 @@ export default function IndependentMedicareAdvantageAgentsNearMe() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" target="_blank" rel="noopener noreferrer" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">For free, unbiased counseling in New Jersey, contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

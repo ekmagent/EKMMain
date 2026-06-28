@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare Enrollment Help for People With Diabetes | Free Guidance | MedicareYourself",
   description:
-    "Medicare enrollment help for people with diabetes—compare plans covering insulin, CGMs, pumps & test strips. Call 855-559-1700 for free expert guidance today.",
+    "Medicare enrollment help for people with diabetes—find plans covering insulin, CGMs, pumps & test strips. Call 855-559-1700 for free expert guidance.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-enrollment-help-for-people-with-diabetes" },
   openGraph: {
     title:
@@ -490,6 +490,22 @@ const faqs = [
     answer:
       "Yes, you can change Medicare Advantage or Part D plans during the Annual Enrollment Period (October 15 – December 7) each year. If your new prescriptions aren't well-covered by your current plan, switching can lower your out-of-pocket costs. Anthony can review your current plan against your updated medication list at no charge.",
   }
+,
+  {
+    question: "Does Medicare Part D cover insulin?",
+    answer:
+      "Yes. Medicare Part D plans cover insulin, and under the Inflation Reduction Act, out-of-pocket costs for a month's supply of covered insulin are capped. Insulin used with a traditional pump may be covered under Part B as durable medical equipment instead. Call 855-559-1700 to compare Part D plans that include your specific insulin.",
+  },
+  {
+    question: "Are diabetes test strips and lancets covered by Medicare?",
+    answer:
+      "Yes. Medicare Part B covers blood sugar monitors, test strips, lancets, and lancet devices as durable medical equipment when prescribed by your doctor. You'll need to use a Medicare-enrolled supplier, and quantities may depend on whether you use insulin. Some Medicare Advantage plans may offer additional supplies through preferred suppliers.",
+  },
+  {
+    question: "Can I get help paying for diabetes medications if I'm on a fixed income?",
+    answer:
+      "Yes. The Extra Help program (also called the Low Income Subsidy) helps pay for Part D premiums, deductibles, and copays for prescription drugs including insulin. Medicare Savings Programs run by your state can also help cover Part A and Part B premiums. Call 855-559-1700 and we'll help you determine if you qualify.",
+  }
 ];
 
 export default function MedicareEnrollmentHelpDiabetes() {
@@ -801,6 +817,7 @@ export default function MedicareEnrollmentHelpDiabetes() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased Medicare counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free Medicare counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
       </article>
     </>

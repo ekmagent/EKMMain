@@ -112,6 +112,12 @@ const faqs = [
     answer:
       "Yes. A licensed broker can run your medication list against available Part D plans and Medicare Advantage plans that include drug coverage. This helps identify which plan covers your prescriptions at the lowest total cost, including premiums, deductibles, and copays. Anthony Orner offers this comparison at no charge.",
   }
+,
+  {
+    question: "Do Fort Lee Medicare brokers help with Part D prescription drug plans?",
+    answer:
+      "Yes. A licensed broker can run a personalized Part D comparison using your actual medication list to find the plan with the lowest total annual cost. This includes reviewing standalone Part D plans as well as Medicare Advantage plans that bundle drug coverage. Reviews are typically done each fall during the Annual Enrollment Period.",
+  }
 ];
 
 export default function MedicareInsuranceAgentsFortLeeNJ() {

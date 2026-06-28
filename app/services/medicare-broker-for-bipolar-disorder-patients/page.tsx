@@ -292,6 +292,12 @@ const faqs = [
     answer:
       "Yes. Medicare Part B covers medically necessary lab tests, including blood draws to monitor lithium levels, thyroid function, kidney function, and other markers related to bipolar medication management. When ordered by a Medicare-enrolled provider, these tests are generally covered with no out-of-pocket cost when performed by a participating lab.",
   }
+,
+  {
+    question: "Are therapy sessions and counseling covered under Medicare for bipolar disorder?",
+    answer:
+      "Yes. Medicare Part B covers outpatient mental health services, including individual and group therapy with psychiatrists, psychologists, clinical social workers, and other licensed providers who accept Medicare. After meeting the Part B deductible, you typically pay a coinsurance percentage of the Medicare-approved amount. Part B also covers an annual depression screening at no cost when performed by a participating provider.",
+  }
 ];
 
 export default function MedicareBrokerBipolarDisorderPage() {

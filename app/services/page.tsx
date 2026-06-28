@@ -9,7 +9,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Medicare Services & Guides | MedicareYourself",
   description:
-    "Compare Medigap, Medicare Advantage & Part D with a licensed independent broker in NJ & 34 states. Free, unbiased plan reviews — call 855-559-1700.",
+    "Compare Medigap, Medicare Advantage & Part D with a licensed independent broker in NJ & 34 states. Free, unbiased plan reviews — call 855-559-1700 today.",
   alternates: { canonical: `${SITE_URL}/services` },
   openGraph: {
     title: "Medicare Services & Guides | MedicareYourself",
@@ -1173,6 +1173,22 @@ const STATIC_CATEGORIES = [
     question: "Can I switch Medicare plans after I enroll?",
     answer:
       "Yes. You can change Medicare Advantage and Part D plans during the Annual Enrollment Period each fall, and Medicare Advantage members have an additional Open Enrollment Period in early in the year. Medigap (Medicare Supplement) changes are possible year-round but may require medical underwriting outside of your initial guaranteed-issue window. Call 855-559-1700 to review your options.",
+  }
+,
+  {
+    question: "What does a licensed Medicare insurance broker do?",
+    answer:
+      "A licensed Medicare broker helps you compare Medigap, Medicare Advantage, and Part D plans across multiple insurance carriers so you can choose coverage that fits your health needs and budget. Brokers are appointed with carriers and licensed by state insurance departments. At MedicareYourself, the service is free to you — call 855-559-1700 to speak with Anthony Orner.",
+  },
+  {
+    question: "Is there a cost to work with MedicareYourself?",
+    answer:
+      "No. Our plan reviews and enrollment help are completely free to you. Brokers are compensated by the insurance carrier after a policy is issued, and that compensation is standardized so it does not change your premium. You pay the same rate whether you enroll on your own or through a licensed broker.",
+  },
+  {
+    question: "Which states does MedicareYourself serve?",
+    answer:
+      "Anthony Orner is licensed in New Jersey and 34 additional states, with NPI 1902584006. You can verify any agent's license through your state's department of banking and insurance. For official Medicare questions, you can also call 1-800-MEDICARE 24/7.",
   }
 ];
 
