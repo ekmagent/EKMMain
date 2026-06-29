@@ -296,6 +296,17 @@ const faqs = [
     answer:
       "Every Medigap Plan G covers the same federally standardized benefits, so the only real difference between carriers is price and customer service. Insurance companies set their own premiums based on claims experience, administrative costs, and rating method. That's why comparing multiple NJ carriers side by side is the single best way to save money.",
   }
+,
+  {
+    question: "What does Medigap Plan G cover in New Jersey?",
+    answer:
+      "Plan G covers the Part A hospital coinsurance and an additional 365 days after Medicare benefits are used up, Part B coinsurance and copays, the first three pints of blood, skilled nursing facility coinsurance, the Part A deductible, and Part B excess charges. It also includes 80% of foreign travel emergency care up to plan limits. The only major out-of-pocket cost left for you is the annual Part B deductible.",
+  },
+  {
+    question: "Is Medigap Plan G accepted by all doctors in New Jersey?",
+    answer:
+      "Yes. Any doctor or hospital in New Jersey that accepts Original Medicare also accepts any Medigap plan, including Plan G. There is no provider network with Medigap, so you can see any Medicare-participating provider nationwide without referrals.",
+  }
 ];
 
 export default function PlanGRates70NJ() {
@@ -565,6 +576,7 @@ export default function PlanGRates70NJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/dobi/division_insurance/ship/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">For New Jersey-specific help, visit the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free counseling.</div>
             <div className="text-sm text-gray-600 mt-4">For NJ-specific help, visit the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" target="_blank" rel="noopener noreferrer" className="underline">New Jersey Department of Banking and Insurance</a> or the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" target="_blank" rel="noopener noreferrer" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
       </article>
     </>

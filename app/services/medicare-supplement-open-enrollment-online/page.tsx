@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare supplement open enrollment online | Apply From Home, No Exam | MedicareYourself",
   description:
-    "Apply for Medicare Supplement online during your 6-month guaranteed-issue window—no exam, no health questions. Call 855-559-1700 for free expert help today.",
+    "Apply for Medicare Supplement online during your 6-month guaranteed-issue window—no exam, no health questions. Call 855-559-1700 for free broker help.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-supplement-open-enrollment-online" },
   openGraph: {
     title:
@@ -409,6 +409,7 @@ export default function MedicareSupplementOpenEnrollmentOnline() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Need state-specific help? Contact the <a href="https://www.nj.gov/dobi/division_insurance/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> or your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">SHIP counselor</a> for free, unbiased Medicare guidance.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

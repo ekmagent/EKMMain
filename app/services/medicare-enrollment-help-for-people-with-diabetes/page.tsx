@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare Enrollment Help for People With Diabetes | Free Guidance | MedicareYourself",
   description:
-    "Medicare enrollment help for people with diabetes—find plans covering insulin, CGMs, pumps & test strips. Call 855-559-1700 for free expert guidance.",
+    "Medicare enrollment help for people with diabetes—compare plans covering insulin, CGMs, pumps & test strips. Call 855-559-1700 for free expert guidance today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-enrollment-help-for-people-with-diabetes" },
   openGraph: {
     title:
@@ -506,6 +506,22 @@ const faqs = [
     answer:
       "Yes. The Extra Help program (also called the Low Income Subsidy) helps pay for Part D premiums, deductibles, and copays for prescription drugs including insulin. Medicare Savings Programs run by your state can also help cover Part A and Part B premiums. Call 855-559-1700 and we'll help you determine if you qualify.",
   }
+,
+  {
+    question: "Does Medicare cover insulin and diabetes supplies?",
+    answer:
+      "Yes. Medicare Part D covers insulin used with injection pens or syringes, while Part B covers insulin used with a Medicare-covered insulin pump as durable medical equipment. Part B also covers blood sugar test strips, lancets, and glucose monitors. Call 855-559-1700 to review plans that include your specific insulin and supplies.",
+  },
+  {
+    question: "Are there programs to help lower my Medicare costs if I have diabetes?",
+    answer:
+      "Yes. Medicare Savings Programs run by your state can help pay Part A and Part B premiums, deductibles, and copays, and Extra Help (Low Income Subsidy) can lower your Part D prescription drug costs. Eligibility is based on income and resources. You can learn more at medicare.gov/basics/costs/help or call 855-559-1700 for guidance.",
+  },
+  {
+    question: "Will switching Medicare plans disrupt my diabetes care?",
+    answer:
+      "It can if you don't plan carefully. Formularies, preferred pharmacies, and DME suppliers vary by plan, so your insulin tier or CGM supplier could change. Before switching, we verify that your medications, doctors, and supply providers are covered under the new plan to avoid gaps in your diabetes care.",
+  }
 ];
 
 export default function MedicareEnrollmentHelpDiabetes() {
@@ -818,6 +834,7 @@ export default function MedicareEnrollmentHelpDiabetes() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased Medicare counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free Medicare counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

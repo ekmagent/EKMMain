@@ -171,6 +171,12 @@ const faqs = [
     answer:
       "Yes. Plan G works with any provider in the United States that accepts Original Medicare. There are no networks, no referrals, and no service-area restrictions, which is one of the main reasons people choose a Medigap plan over other coverage types.",
   }
+,
+  {
+    question: "Are Plan G benefits the same from every insurance company?",
+    answer:
+      "Yes. Medigap Plan G benefits are standardized by federal law, so the coverage is identical across carriers. The differences come down to monthly premium, rate stability, and customer service — which is exactly what a broker helps you compare.",
+  }
 ];
 
 export default function CompareAndEnrollInPlanGOnline() {

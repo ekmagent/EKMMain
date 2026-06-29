@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare specialists in south carolina | Free Multi-Carrier Quotes | MedicareYourself",
   description:
-    "Work with a licensed Medicare specialist in South Carolina. Compare Medigap, Advantage & Part D plans from top SC carriers at no cost. Call 855-559-1700.",
+    "Talk to a licensed Medicare specialist in South Carolina. Compare Medigap, Advantage & Part D plans from top SC carriers free. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-specialists-in-south-carolina" },
   openGraph: {
     title:
@@ -378,6 +378,7 @@ export default function MedicareSpecialistsSouthCarolina() {
             <div className="text-sm text-gray-600 mt-4">South Carolina residents can also contact <a href="https://aging.sc.gov/programs-initiatives/insurance-counseling-ship" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">South Carolina SHIP (Insurance Counseling Assistance &amp; Referrals for Elders)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">South Carolina residents can also get free, unbiased Medicare counseling through <a href="https://aging.sc.gov/programs-initiatives/insurance-counseling-ship" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">South Carolina SHIP (Insurance Counseling Assistance)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">South Carolina residents can also get free, unbiased counseling through <a href="https://aging.sc.gov/programs-initiatives/i-care" rel="noopener noreferrer" target="_blank" className="underline">SC I-CARE (the state's SHIP program)</a> or contact the <a href="https://doi.sc.gov/" rel="noopener noreferrer" target="_blank" className="underline">South Carolina Department of Insurance</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">South Carolina resource: <a href="https://aging.sc.gov/programs-initiatives/insurance-counseling-ship" rel="noopener noreferrer" target="_blank" className="underline">SC Insurance Counseling Assistance &amp; Referrals for Elders (SHIP)</a></div>
       </section>
     </main>
   );

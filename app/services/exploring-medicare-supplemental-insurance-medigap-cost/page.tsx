@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Exploring Medicare Supplemental Insurance (Medigap) Cost | Free Rate Comparison | MedicareYourself",
   description:
-    "Compare Medigap costs by plan letter, pricing model, and ZIP. A free broker rate review could lower your premium — call 855-559-1700 for an honest quote.",
+    "Compare Medigap costs by plan letter, pricing model, and ZIP. A free broker rate review may lower your premium — call 855-559-1700 for an honest quote.",
   alternates: { canonical: "https://medicareyourself.com/services/exploring-medicare-supplemental-insurance-medigap-cost" },
   openGraph: {
     title:
@@ -374,6 +374,7 @@ export default function ExploringMedigapCostPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medigap counseling.</div>
       </section>
     </main>
   );

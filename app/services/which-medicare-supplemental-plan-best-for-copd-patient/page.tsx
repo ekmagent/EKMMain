@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "which medicare supplemental plan best for copd patient? | Free Expert Advice | MedicareYourself",
   description:
-    "Compare Medigap Plan G vs Plan N for COPD oxygen, inhalers, and pulmonologist visits. Get a free licensed broker review — call 855-559-1700 today.",
+    "Compare Medigap Plan G vs Plan N for COPD oxygen, inhalers, and pulmonologist visits. Free licensed broker review — call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/which-medicare-supplemental-plan-best-for-copd-patient" },
   openGraph: {
     title:
@@ -230,6 +230,17 @@ const faqs = [
     question: "Is Plan N a good option for COPD patients on a budget?",
     answer:
       "Plan N can work for COPD patients who want lower monthly premiums and don't mind small copays for office and ER visits. However, Plan N does not cover Part B excess charges, which could add up if your pulmonologist doesn't accept Medicare assignment. Plan G typically offers more predictable costs for frequent specialist care.",
+  }
+,
+  {
+    question: "Is Plan G or Plan N better for a COPD patient on a tighter budget?",
+    answer:
+      "Plan N typically has a lower monthly premium than Plan G, but it requires copays for office and ER visits and does not cover Part B excess charges. For COPD patients with frequent pulmonologist visits, those copays can add up. Plan G usually offers more predictable costs, but Plan N can work if your providers accept Medicare assignment and your visit frequency is moderate.",
+  },
+  {
+    question: "Will my Medigap plan let me see any pulmonologist I choose?",
+    answer:
+      "Yes. Medigap plans, including Plan G and Plan N, let you see any provider in the United States who accepts Original Medicare — no networks or referrals required. This is a major advantage for COPD patients who may need specialized pulmonary care or second opinions at major medical centers.",
   }
 ];
 

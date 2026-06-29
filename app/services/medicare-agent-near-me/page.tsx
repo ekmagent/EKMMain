@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare agent near me | Free Local Broker Help, No Obligation | MedicareYourself",
   description:
-    "Looking for a Medicare agent near you? Independent broker Anthony Orner compares 30+ carriers free by phone, video, or in person. Call 855-559-1700.",
+    "Find a local Medicare agent near you. Independent broker Anthony Orner compares 30+ carriers free by phone, video, or in person. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-agent-near-me" },
   openGraph: {
     title:

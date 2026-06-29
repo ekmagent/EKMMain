@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Best Medicare Supplement Rates by Age (Plan G, Plan N, & Plan F Rates) | Free Quote | MedicareYourself",
   description:
-    "Compare Medicare Supplement rates by age for Plan G, Plan N, and Plan F. See how premiums shift by age bracket—call 855-559-1700 for your lowest quote.",
+    "Compare Medicare Supplement rates by age for Plan G, Plan N & Plan F. See how premiums change by age bracket—call 855-559-1700 for your lowest free quote.",
   alternates: { canonical: "https://medicareyourself.com/services/best-medicare-supplement-rates-by-age-plan-g-plan-n-plan-f-rates" },
   openGraph: {
     title:
@@ -343,6 +343,22 @@ const faqs = [
     answer:
       "Yes, but outside of your Medigap Open Enrollment Period or a guaranteed issue situation, you may need to answer medical underwriting questions. Some states have annual rules like a birthday rule that allow you to switch to an equal or lesser plan without underwriting. Call 855-559-1700 to review your state's specific rules.",
   }
+,
+  {
+    question: "Does my ZIP code affect Medicare Supplement rates?",
+    answer:
+      "Yes. Carriers price Medigap policies based on regional claims experience, so the same Plan G can cost noticeably more or less depending on your ZIP code. Urban areas often have higher rates than rural ones because of greater medical utilization and provider costs in those markets.",
+  },
+  {
+    question: "Can I switch from Plan F to Plan G to lower my rate?",
+    answer:
+      "Yes, but outside your Medigap Open Enrollment Period or a guaranteed issue situation, you'll typically need to answer health questions and pass medical underwriting. Many people in good health do successfully switch from Plan F to Plan G to capture lower monthly premiums while keeping nearly identical coverage.",
+  },
+  {
+    question: "Does tobacco use raise Medicare Supplement premiums?",
+    answer:
+      "Most Medigap carriers charge tobacco users a higher rate, often 5–15% above the non-tobacco premium for the same plan. If you've recently quit, ask about each carrier's tobacco-free waiting period — some will reclassify you as a non-user after 12 months.",
+  }
 ];
 
 export default function BestMedicareSupplementRatesByAge() {
@@ -642,6 +658,7 @@ export default function BestMedicareSupplementRatesByAge() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify carriers and rates with the <a href="https://www.nj.gov/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/division_insurance/ins_index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a> or the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
       </section>
     </main>
   );

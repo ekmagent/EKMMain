@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare agent for someone with pre existing conditions california | Free Help | MedicareYourself",
   description:
-    "California Medicare help for pre-existing conditions — learn Medigap timing, guaranteed-issue rights, and enrollment windows. Free guidance: 855-559-1700.",
+    "California Medicare help for pre-existing conditions — understand Medigap timing, the birthday rule, and guaranteed-issue rights. Free guidance: 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-agent-for-someone-with-pre-existing-conditions-california" },
   openGraph: {
     title:
@@ -218,6 +218,22 @@ const faqs = [
     question: "Can a Medicare Advantage plan deny coverage in California because of a pre-existing condition?",
     answer:
       "No. Medicare Advantage plans cannot deny enrollment or charge more based on pre-existing conditions, with the historical exception of End-Stage Renal Disease — and even that exception was removed for plan years starting in 2021. As long as you enroll during a valid election period and live in the plan's service area, you're accepted.",
+  }
+,
+  {
+    question: "Does California have a Medigap birthday rule for people with pre-existing conditions?",
+    answer:
+      "Yes. California's Medigap birthday rule lets enrollees switch to an equal or lesser-benefit Medigap plan from any carrier each year during a window that begins on their birthday — without medical underwriting. This is especially helpful if you have pre-existing conditions and would otherwise be denied or rated up. The current plan must already be in force when you apply.",
+  },
+  {
+    question: "Can a Medicare Advantage plan deny me in California because of a pre-existing condition?",
+    answer:
+      "No. Medicare Advantage plans cannot deny enrollment based on pre-existing conditions, with the historical exception of End-Stage Renal Disease — and that exclusion was removed by federal law. As long as you enroll during a valid election period and live in the plan's service area, your health history does not block enrollment.",
+  },
+  {
+    question: "Should I use a local California Medicare broker if I have complex health needs?",
+    answer:
+      "A licensed broker who understands California's Medigap birthday rule, guaranteed-issue triggers, and local provider networks can compare options across multiple carriers at no cost to you. That's valuable when chronic conditions, specialist relationships, or specific medications drive your plan choice.",
   }
 ];
 
@@ -434,6 +450,7 @@ export default function MedicareAgentPreExistingConditionsCA() {
             <div className="text-sm text-gray-600 mt-4">California residents can also contact the <a href="https://www.insurance.ca.gov/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">California Department of Insurance</a> or the state's <a href="https://www.aging.ca.gov/Programs_and_Services/Medicare_Counseling/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">HICAP (SHIP) program</a> for free unbiased counseling.</div>
             <div className="text-sm text-gray-600 mt-4">California residents can get free, unbiased counseling through <a href="https://www.aging.ca.gov/HICAP/" rel="noopener noreferrer" target="_blank" className="underline">California HICAP (the state SHIP program)</a> or contact the <a href="https://www.insurance.ca.gov/" rel="noopener noreferrer" target="_blank" className="underline">California Department of Insurance</a>.</div>
             <div className="text-sm text-gray-600 mt-4">California residents can get free, unbiased counseling from <a href="https://www.aging.ca.gov/HICAP/" rel="noopener noreferrer" target="_blank" className="underline">HICAP (California's SHIP program)</a> or file complaints with the <a href="https://www.insurance.ca.gov/" rel="noopener noreferrer" target="_blank" className="underline">California Department of Insurance</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">California residents can also contact <a href="https://www.aging.ca.gov/HICAP/" rel="noopener noreferrer" target="_blank" className="underline">HICAP (California's SHIP program)</a> for free, unbiased Medicare counseling.</div>
       </section>
       </article>
     </>

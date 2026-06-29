@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Switch Medigap Carriers, Same Plan G (2026)",
   description:
-    "Switch Medigap Plan G carriers and keep the exact same federal benefits at a lower premium. Free carrier comparison in NJ & 34 states — call 855-559-1700.",
+    "Switch Medigap Plan G carriers and keep identical federal benefits at a lower premium. Free carrier comparison in NJ & 34 states — call 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/medicare-supplement/switch-carriers` },
   openGraph: {
     title: "Switch Medigap Carriers, Same Plan G (2026)",
@@ -575,6 +575,12 @@ const faqs = [
     answer:
       "You should not cancel your existing Medigap policy until the new policy is approved and in force. Most new carriers offer a free-look period during which you can try the new policy while keeping the old one, then cancel the old plan once you are satisfied. This avoids any gap in supplemental coverage while Original Medicare continues paying its share.",
   }
+,
+  {
+    question: "Do I have a federal right to switch Medigap policies anytime?",
+    answer:
+      "In most cases, no. Under federal law, you only have a guaranteed right to switch Medigap policies during your 6-month Medigap Open Enrollment Period or if you qualify for a specific guaranteed issue right. Outside of those windows, carriers can use medical underwriting and may deny your application. Some states offer broader switching rights than federal law — your state insurance department can confirm what applies in your area.",
+  }
 ];
 
 export default function SwitchCarriersPage() {
@@ -842,6 +848,7 @@ export default function SwitchCarriersPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> or contact the <a href="https://www.nj.gov/dobi/" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify carrier rates and file complaints with the <a href="https://www.nj.gov/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> or get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a> or the free <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP program</a> to learn about state-specific Medigap switching rights.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/shipindex.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased counseling on switching Medigap carriers.</div>
       </section>
     </>
   );

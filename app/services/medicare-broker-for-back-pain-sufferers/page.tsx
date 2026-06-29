@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for back pain sufferers | Free Plan Comparison | MedicareYourself",
   description:
-    "Medicare broker for back pain sufferers — compare plans covering PT, chiropractic, injections & surgery. Call Anthony Orner at 855-559-1700 for free help today.",
+    "Medicare broker for back pain sufferers — compare plans covering PT, chiropractic, injections & surgery. Free help from Anthony Orner. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-back-pain-sufferers" },
   openGraph: {
     title:

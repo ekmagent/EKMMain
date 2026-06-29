@@ -568,6 +568,22 @@ const faqs = [
     answer:
       "Yes. Medicare Part B covers medically necessary MRI scans ordered by your doctor to monitor MS activity and treatment response. You'll typically pay the Part B coinsurance after meeting the annual deductible unless a Medigap plan picks up that cost. Medicare Advantage plans usually cover MRIs but may require prior authorization.",
   }
+,
+  {
+    question: "Does Medicare cover MRI scans for monitoring MS progression?",
+    answer:
+      "Yes. Medically necessary MRI scans ordered by your doctor to monitor MS are covered under Medicare Part B. You'll typically owe the Part B deductible and coinsurance unless you have a Medigap plan that helps cover those costs. Medicare Advantage plans also cover MRIs but may require prior authorization from the plan first.",
+  },
+  {
+    question: "Will Medicare cover physical therapy and rehabilitation for MS?",
+    answer:
+      "Medicare Part B covers medically necessary physical therapy, occupational therapy, and speech-language pathology services to help manage MS symptoms. There's no longer a hard cap on therapy services, but your provider must document that ongoing care is medically necessary. Home health therapy may also be covered if you meet Medicare's homebound criteria.",
+  },
+  {
+    question: "What happens if my MS disease-modifying therapy is in self-injection form?",
+    answer:
+      "Self-administered injectable or oral disease-modifying therapies are usually covered under Medicare Part D, not Part B. Costs vary widely by plan formulary and tier placement, which is why comparing Part D plans annually during the Annual Enrollment Period is critical for MS patients. A broker can run your specific medications through every available plan to find the lowest total cost.",
+  }
 ];
 
 export default function MedicareBrokerForMSPatients() {
@@ -804,6 +820,7 @@ export default function MedicareBrokerForMSPatients() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">For free, unbiased Medicare counseling in your state, contact your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> or the <a href="https://www.nj.gov/dobi/division_insurance/" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a>.</div>
       </section>
       </article>
     </>

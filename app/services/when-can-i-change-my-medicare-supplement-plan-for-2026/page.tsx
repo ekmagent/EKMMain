@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "when can i change my medicare supplement plan for 2026 | Free Switching Help | MedicareYourself",
   description:
-    "Wondering when you can change your Medicare Supplement plan for 2026? Learn switch windows, guaranteed-issue rights, and underwriting rules. Call 855-559-1700.",
+    "Find out when you can change your Medicare Supplement plan for 2026, including switch windows and guaranteed-issue rules. Call 855-559-1700 for free help.",
   alternates: { canonical: "https://medicareyourself.com/services/when-can-i-change-my-medicare-supplement-plan-for-2026" },
   openGraph: {
     title:
@@ -465,6 +465,22 @@ const faqs = [
     answer:
       "If a carrier declines your application due to underwriting, you can keep your current Medigap policy — it doesn't get canceled by the attempted switch. You can also apply with other carriers, since underwriting guidelines vary. A licensed broker can help match your health history to carriers more likely to approve you.",
   }
+,
+  {
+    question: "What happens if I switch Medigap plans and don't like the new one?",
+    answer:
+      "Under federal law, you have a 30-day free look period when you buy a new Medigap policy. You must keep paying premiums on both the old and new policies during this window. If you decide to keep the new plan, you cancel the old one; if not, you can drop the new policy and stay with your original coverage.",
+  },
+  {
+    question: "Will I have to answer health questions to switch my Medigap plan for 2026?",
+    answer:
+      "In most cases, yes. Outside your 6-month Medigap Open Enrollment Period or a federal guaranteed-issue situation, carriers can require medical underwriting and deny coverage based on your health history. Some states offer additional protections, so it's worth checking with a broker or your state insurance department before applying.",
+  },
+  {
+    question: "Can I drop my Medigap plan and join Medicare Advantage instead?",
+    answer:
+      "Yes, you can drop a Medigap policy at any time, but you'll need to enroll in a Medicare Advantage plan during a valid election period such as the Annual Enrollment Period from October 15 to December 7. If you later want to return to Original Medicare with a Medigap plan, you may face underwriting unless you qualify for a trial-right or guaranteed-issue protection.",
+  }
 ];
 
 export default function WhenCanIChangeMyMedicareSupplementPlanFor2026() {
@@ -705,6 +721,7 @@ export default function WhenCanIChangeMyMedicareSupplementPlanFor2026() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/ihcseniors/shipindex.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medigap switching guidance.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medigap counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/index.html" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a> or the <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">SHIP program</a> for free state-specific Medigap guidance.</div>
       </section>
     </main>
   );

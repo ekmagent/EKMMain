@@ -177,6 +177,22 @@ const faqs = [
     answer:
       "Most Texans enroll during their Initial Enrollment Period around their 65th birthday, the Annual Enrollment Period each fall, or the Medicare Advantage Open Enrollment Period in early spring. Special Enrollment Periods may also apply if you lose employer coverage or move. Call 855-559-1700 to review which window applies to your situation and which plans cover your specific insulin, CGM, and testing supplies.",
   }
+,
+  {
+    question: "Does Medicare cover diabetes self-management training in Texas?",
+    answer:
+      "Yes. Medicare Part B covers Diabetes Self-Management Training (DSMT) when your doctor refers you and certifies it's medically necessary. The program teaches you how to monitor blood sugar, manage medications, eat well, and reduce risks from diabetes. Coverage applies whether you have Original Medicare or a Medicare Advantage plan in Texas.",
+  },
+  {
+    question: "Are diabetes supplies covered under Medicare Advantage plans in Texas?",
+    answer:
+      "Most Medicare Advantage plans in Texas cover the same diabetes supplies as Original Medicare, including test strips, lancets, glucose monitors, and insulin pumps as durable medical equipment. Some plans bundle extras like meal delivery, fitness benefits, or lower CGM copays. A licensed broker can compare plans available in your Texas ZIP code — call 855-559-1700 for free guidance.",
+  },
+  {
+    question: "When can I switch Medicare plans if my diabetes medications change?",
+    answer:
+      "You can change Medicare Advantage or Part D plans during the Annual Enrollment Period (October 15–December 7) or the Medicare Advantage Open Enrollment Period (January 1–March 31). If you qualify for Extra Help or a Medicare Savings Program, you may get a Special Enrollment Period to change plans once per quarter during the first three quarters of the year.",
+  }
 ];
 
 export default function MedicareEnrollmentHelpDiabetesTexas() {
@@ -438,6 +454,7 @@ export default function MedicareEnrollmentHelpDiabetesTexas() {
             <div className="text-sm text-gray-600 mt-4">Texas resource: <a href="https://www.hhs.texas.gov/services/health/medicare" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Texas Health and Human Services — Medicare</a></div>
             <div className="text-sm text-gray-600 mt-4">Texas residents can get free local Medicare counseling through the <a href="https://www.hhs.texas.gov/services/health/medicare" rel="noopener noreferrer" target="_blank" className="underline">Texas Health and Human Services Medicare program</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Texas resource: <a href="https://www.hhs.texas.gov/services/health/medicare" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Texas Health and Human Services — Medicare</a> for state-specific assistance programs.</div>
+            <div className="text-sm text-gray-600 mt-4">Texas help: <a href="https://www.hhs.texas.gov/services/health/medicare" rel="noopener noreferrer" target="_blank" className="underline">Texas Health and Human Services — Medicare</a> (includes HICAP/SHIP counseling for Texans with diabetes).</div>
       </section>
     </main>
   );

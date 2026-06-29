@@ -1265,6 +1265,22 @@ const steps = [
     answer:
       "You cannot modify your application after clicking Submit Now. If you notice an error, contact the Social Security Administration directly to correct it. You can also call us at 855-559-1700 for guidance before you submit.",
   }
+,
+  {
+    question: "Do I need to contact Medicare to enroll in Part A and Part B?",
+    answer:
+      "No. Initial enrollment in Medicare Part A and Part B is handled by the Social Security Administration, not Medicare itself. You can apply online at ssa.gov, by phone, or at a local Social Security office. Medicare.gov directs all new enrollees to SSA for sign-up.",
+  },
+  {
+    question: "What documents do I need to complete the SSA online Medicare application?",
+    answer:
+      "You'll need your Social Security number, a valid driver's license or state ID for identity verification, and details about any current health coverage such as an employer group health plan or Medicaid. If you're enrolling based on current employment, you may also need employment dates. Having this information ready helps you complete the application in roughly 10 minutes.",
+  },
+  {
+    question: "Can I change my application after I submit it on SSA.gov?",
+    answer:
+      "No. Once you click Submit Now and agree to the Electronic Signature Agreement, the application cannot be modified online. If you need to make a correction, you'll have to contact the Social Security Administration directly. For help reviewing your choices before submitting, call a licensed broker at 855-559-1700.",
+  }
 ];
 
 export default function SSAOnlineEnrollmentWalkthrough() {

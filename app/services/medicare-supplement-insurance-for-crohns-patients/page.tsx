@@ -325,6 +325,17 @@ const faqs = [
     answer:
       "You can apply to switch Medigap plans at any time, but outside your Open Enrollment Period or a guaranteed-issue window, carriers can use medical underwriting and may decline based on Crohn's. Some states have additional protections that allow switching without underwriting, so it's worth reviewing your options before changing plans.",
   }
+,
+  {
+    question: "Does a Medigap plan cover gastroenterologist visits for Crohn's disease?",
+    answer:
+      "Yes. Medicare Part B covers specialist visits including gastroenterologists at 80% of the Medicare-approved amount after the annual Part B deductible. A Medigap plan such as Plan G or Plan N covers the remaining coinsurance, so ongoing GI follow-ups for Crohn's are essentially paid in full after the deductible.",
+  },
+  {
+    question: "Are Crohn's medications covered under Medigap or Part D?",
+    answer:
+      "It depends on how the medication is administered. Provider-administered biologic infusions are billed under Part B, and Medigap helps cover the coinsurance. Self-administered drugs like oral medications or at-home injectables fall under Part D, which is a separate prescription drug plan that Medigap does not supplement.",
+  }
 ];
 
 export default function MedicareSupplementCrohnsPage() {

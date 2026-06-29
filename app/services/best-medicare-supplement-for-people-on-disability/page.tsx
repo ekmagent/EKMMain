@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "best medicare supplement for people on disability | Free Plan Review | MedicareYourself",
   description:
-    "Best Medicare Supplement for people on disability — compare state rules, plan letters, and eligibility. Call 855-559-1700 for free broker guidance.",
+    "Best Medicare Supplement for people on disability: compare state rules, plan letters, and under-65 access. Call 855-559-1700 for free broker guidance.",
   alternates: { canonical: "https://medicareyourself.com/services/best-medicare-supplement-for-people-on-disability" },
   openGraph: {
     title:
@@ -214,6 +214,22 @@ const faqs = [
     question: "Can I switch Medigap plans when I turn 65 if I'm already on Medicare due to disability?",
     answer:
       "Yes. When you turn 65, you generally get a fresh six-month Medigap Open Enrollment Period with guaranteed-issue rights, regardless of your health history. This is often the best time to shop carriers because premiums typically drop significantly compared to under-65 pricing. Call 855-559-1700 and we'll help you compare options before your birthday window opens.",
+  }
+,
+  {
+    question: "Does every state require Medigap plans to be sold to people under 65 on disability?",
+    answer:
+      "No. Federal law does not require Medigap carriers to sell policies to beneficiaries under 65, but many states have passed their own rules requiring guaranteed access. The specific plan letters available and the open enrollment windows vary by state. Call 855-559-1700 and we'll walk through your state's exact rules.",
+  },
+  {
+    question: "When I turn 65, can I switch to a better-priced Medigap plan?",
+    answer:
+      "Yes. When you turn 65, you generally get a new six-month Medigap Open Enrollment Period, even if you already had Medicare due to disability. During this window, carriers must sell you any plan they offer at the standard 65+ rate without medical underwriting. This is often the best time to re-shop your supplement.",
+  },
+  {
+    question: "What Medigap plan letters tend to offer the best value for under-65 enrollees?",
+    answer:
+      "Plans G and N are the most commonly recommended for new Medicare beneficiaries because they cover the broadest range of out-of-pocket costs after the Part B deductible. Plan A is often the only plan carriers are required to offer to under-65 enrollees in some states. The right choice depends on your state's rules and your expected healthcare use.",
   }
 ];
 
@@ -455,6 +471,7 @@ export default function BestMedicareSupplementForPeopleOnDisability() {
             <div className="text-sm text-gray-600 mt-4">Need state-specific guidance? Find your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a> for free counseling on Medigap rules for disabled beneficiaries.</div>
             <div className="text-sm text-gray-600 mt-4">State help: find your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a> for free one-on-one Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">State help: contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-700 underline">State Health Insurance Assistance Program (SHIP)</a> for free local Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">State help: <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">Find your local SHIP counselor</a> for free, unbiased state-specific Medicare guidance.</div>
       </section>
       </article>
     </>

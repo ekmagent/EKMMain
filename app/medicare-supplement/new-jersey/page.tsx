@@ -9,7 +9,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Best Medicare Supplement Plans in NJ 2026",
   description:
-    "Compare 2026 New Jersey Medicare Supplement plans — community-rated Plan G & N, NJ Medigap enrollment rules, and free licensed broker help. Call 855-559-1700.",
+    "Compare 2026 New Jersey Medicare Supplement plans — community-rated Plan G & N, NJ Medigap rules, and free broker guidance. Call 855-559-1700 today.",
   alternates: { canonical: `${SITE_URL}/medicare-supplement/new-jersey` },
   openGraph: {
     title: "Best Medicare Supplement Plans in NJ 2026",
@@ -204,6 +204,22 @@ const planData = [
     question: "Do Medicare Supplement plans in New Jersey cover prescription drugs?",
     answer:
       "No. Medicare Supplement plans sold today do not include prescription drug coverage. To get drug coverage, you'll need to enroll in a separate Medicare Part D prescription drug plan. Call 855-559-1700 and we'll help you pair the right Medigap and Part D plan for your medications.",
+  }
+,
+  {
+    question: "How does community rating affect Medigap premiums in New Jersey?",
+    answer:
+      "New Jersey uses community rating for Medicare Supplement plans, which means carriers charge the same premium to all enrollees of a given plan regardless of age. This differs from issue-age or attained-age rating used in many other states. Community rating can make Medigap more affordable for older enrollees, though starting premiums at 65 may be higher than in other states.",
+  },
+  {
+    question: "When is the best time to enroll in a Medigap plan in New Jersey?",
+    answer:
+      "The best time to enroll is during your 6-month Medigap Open Enrollment Period, which begins the month you are 65 or older and enrolled in Medicare Part B. During this window, you have guaranteed issue rights and cannot be denied or charged more for pre-existing conditions. Missing this window may mean medical underwriting later. Call 855-559-1700 for a free review of your timing and options.",
+  },
+  {
+    question: "Can I switch Medicare Supplement plans in New Jersey after my open enrollment window?",
+    answer:
+      "Yes, you can apply to switch Medigap plans at any time, but outside of your initial 6-month Open Enrollment Period or a qualifying guaranteed issue situation, carriers in New Jersey may use medical underwriting. That means your application can be denied or priced higher based on health history. A licensed broker can help you compare carriers and determine whether switching makes sense for you.",
   }
 ];
 
@@ -442,6 +458,7 @@ export default function NJMedicareSupplementPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.nj.gov/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> offers free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.nj.gov/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey resource: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
       </section>
     </>
   );

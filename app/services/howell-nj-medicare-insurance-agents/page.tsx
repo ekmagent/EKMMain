@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "howell nj medicare insurance agents | Free Independent Broker Help | MedicareYourself",
   description:
-    "Howell NJ Medicare insurance agents — compare Supplement and Advantage plans from top Monmouth County carriers at no cost. Call 855-559-1700 for free help.",
+    "Howell NJ Medicare insurance agents — compare Supplement and Advantage plans from top Monmouth County carriers free. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/howell-nj-medicare-insurance-agents" },
   openGraph: {
     title:

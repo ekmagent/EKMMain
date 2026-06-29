@@ -197,6 +197,22 @@ const faqs = [
     answer:
       "Some do. Certain Medicare Advantage plans, including Chronic Condition Special Needs Plans (C-SNPs) designed for diabetes, may offer enhanced benefits like nutrition counseling, expanded CGM coverage, or reduced cost-sharing on diabetic supplies. A broker can identify which C-SNPs or standard Advantage plans are available in your county.",
   }
+,
+  {
+    question: "Does Medicare cover diabetes self-management training?",
+    answer:
+      "Yes. Medicare Part B covers diabetes self-management training (DSMT) for beneficiaries recently diagnosed or at risk for complications, when ordered by your doctor. This includes education on monitoring blood glucose, nutrition, and reducing risk factors. A broker can help you understand what cost-sharing applies under your specific plan.",
+  },
+  {
+    question: "Are diabetic shoes and foot care covered by Medicare?",
+    answer:
+      "Medicare Part B covers therapeutic shoes or inserts for people with diabetes who meet specific medical criteria, when prescribed by a qualified doctor. Medicare also covers foot exams every six months for those with diabetic peripheral neuropathy. Coverage details and supplier networks vary by plan, which is where a broker can help.",
+  },
+  {
+    question: "When can I switch Medicare plans if my diabetes needs change?",
+    answer:
+      "Most beneficiaries can change Medicare Advantage or Part D plans during the Annual Enrollment Period each fall, or the Medicare Advantage Open Enrollment Period in early year. If you qualify for a Special Enrollment Period — for example, a new diagnosis affecting your medications — you may be able to switch outside those windows. Call 855-559-1700 to review your options.",
+  }
 ];
 
 export default function MedicareBrokerForDiabetics() {
@@ -471,6 +487,7 @@ export default function MedicareBrokerForDiabetics() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Need free local counseling? Contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for unbiased Medicare help.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
     </main>
   );

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "How Much Does Medicare Supplement Cost per Month for Seniors? | Free 2026 Rate Quote | MedicareYourself",
   description:
-    "How much does Medicare Supplement cost per month for seniors? Compare Plan G and N rates by age and zip with a licensed broker. Call 855-559-1700 for a free quote.",
+    "How much does Medicare Supplement cost per month for seniors? Compare Plan G and N rates by age and zip. Call 855-559-1700 for a free quote.",
   alternates: { canonical: "https://medicareyourself.com/services/how-much-does-medicare-supplement-cost-per-month-for-seniors" },
   openGraph: {
     title:
@@ -181,6 +181,17 @@ const faqs = [
     question: "Does Medicare Supplement cover the Part B premium?",
     answer:
       "No. You must continue paying your standard Part B premium directly to Medicare in addition to your Medigap premium. The Medigap policy only fills gaps in Original Medicare cost-sharing such as deductibles, coinsurance, and copays — it does not replace or reimburse the Part B premium itself.",
+  }
+,
+  {
+    question: "How do insurance companies set prices for Medigap policies?",
+    answer:
+      "Medigap carriers use one of three pricing methods: community-rated (same premium regardless of age), issue-age-rated (based on the age you buy), or attained-age-rated (premium rises as you get older). The method your carrier uses significantly affects how much you'll pay long-term. Ask your broker which rating method applies before enrolling.",
+  },
+  {
+    question: "Can I switch Medicare Supplement plans to lower my monthly cost?",
+    answer:
+      "You can apply to switch Medigap plans at any time, but outside your Open Enrollment or a guaranteed-issue period, the new carrier can require medical underwriting and may deny coverage or charge more based on health. A licensed broker can review your current premium, shop competing carriers, and tell you whether switching makes sense.",
   }
 ];
 

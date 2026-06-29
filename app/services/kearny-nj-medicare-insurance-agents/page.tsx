@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "kearny nj medicare insurance agents | Free Consultation | MedicareYourself",
   description:
-    "Kearny NJ Medicare agents — Anthony Orner, independent broker, compares Supplement & Advantage plans free. Keep your doctors. Call 855-559-1700 for a free review.",
+    "Kearny NJ Medicare agents — Anthony Orner, independent broker, compares Supplement & Advantage plans free. Keep your doctors. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/kearny-nj-medicare-insurance-agents" },
   openGraph: {
     title:

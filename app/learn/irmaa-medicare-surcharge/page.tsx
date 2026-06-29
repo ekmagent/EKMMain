@@ -1132,6 +1132,22 @@ const faqs = [
     answer:
       "A licensed broker can't change your tax situation, but we can help you understand how IRMAA interacts with your Part B and Part D costs and coordinate with your tax advisor. Call 855-559-1700 for a free review of your Medicare options and IRMAA exposure.",
   }
+,
+  {
+    question: "How do I appeal IRMAA if my income has dropped?",
+    answer:
+      "If you've experienced a life-changing event such as retirement, divorce, or the death of a spouse, you can request a reduction by filing Form SSA-44 with the Social Security Administration. You'll need to provide documentation of the event and your estimated new income. SSA reviews these requests and can adjust your IRMAA based on your current circumstances rather than your tax return from two years ago.",
+  },
+  {
+    question: "Will IRMAA go away automatically if my income decreases?",
+    answer:
+      "IRMAA is recalculated each year using your most recent tax return data from the IRS. If your income drops below the threshold on a future return, the surcharge will be removed automatically the following year. However, if the drop is due to a life-changing event, you don't have to wait — you can file SSA-44 to request an immediate adjustment.",
+  },
+  {
+    question: "Can a Medicare broker help me plan around IRMAA?",
+    answer:
+      "A licensed broker can't change your tax return, but we can help you understand how IRMAA interacts with your Part B, Part D, and Medicare Advantage choices. We can also walk you through the SSA-44 appeal process if you've had a qualifying life event. Call 855-559-1700 for free guidance.",
+  }
 ];
 
 export default function IrmaaPage() {

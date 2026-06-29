@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "how can i save money on my medicare supplement | Free Rate Review | MedicareYourself",
   description:
-    "How can I save money on your Medicare Supplement? Compare carriers, stack discounts, and review plan letters. Call 855-559-1700 for a free rate review.",
+    "Save money on your Medicare Supplement: compare carriers, stack household discounts, and review plan letters. Call 855-559-1700 for a free rate review.",
   alternates: { canonical: "https://medicareyourself.com/services/how-can-i-save-money-on-my-medicare-supplement" },
   openGraph: {
     title:
@@ -227,6 +227,22 @@ const faqs = [
     question: "Can a Medicare Savings Program lower my Medicare Supplement costs?",
     answer:
       "A Medicare Savings Program won't directly pay your Medigap premium, but it can help pay your Part B premium and other Original Medicare costs, freeing up money in your budget. Eligibility is based on income and resources and is determined by your state. You can also explore Supplemental Security Income through Social Security if your income is limited.",
+  }
+,
+  {
+    question: "Are there government programs that help pay my Medicare costs?",
+    answer:
+      "Yes. Medicare Savings Programs run by your state can help pay Part A and Part B premiums, deductibles, and coinsurance if you meet income and resource limits. Supplemental Security Income (SSI) through Social Security may also help certain people with lower incomes. Medicare.gov has a tool to check your eligibility, or call us at 855-559-1700 and we'll point you in the right direction.",
+  },
+  {
+    question: "Does household discount really lower my Medicare Supplement premium?",
+    answer:
+      "Many carriers offer a household or spousal discount when more than one adult in the home has a Medigap policy with them, and some offer it even if your spouse or roommate only has Original Medicare. The discount is applied to your premium for as long as you keep the policy. Not every carrier offers it, which is why comparing multiple companies matters.",
+  },
+  {
+    question: "Will changing from Plan F or Plan G to Plan N really save me money?",
+    answer:
+      "Plan N typically has a lower monthly premium than Plan G or Plan F in exchange for small copays at doctor visits and the ER, plus you pay the Part B deductible and any Part B excess charges. For people who don't visit the doctor often, the premium savings can outweigh the copays. We can run the numbers side by side so you see your real out-of-pocket picture.",
   }
 ];
 
@@ -488,6 +504,7 @@ export default function HowCanISaveMoneyOnMyMedicareSupplement() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free local counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">For free local counseling, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> or the <a href="https://www.nj.gov/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">Need one-on-one help in your state? Contact your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
       </section>
     </main>
   );

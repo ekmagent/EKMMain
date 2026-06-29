@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for macular degeneration patients | Free Plan Match | MedicareYourself",
   description:
-    "Medicare broker matching macular degeneration patients with plans covering anti-VEGF injections, OCT scans & retina specialists. Call 855-559-1700 for free help.",
+    "Medicare broker matching macular degeneration patients with plans covering anti-VEGF injections, OCT scans & retina specialists. Call 855-559-1700 for help.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-macular-degeneration-patients" },
   openGraph: {
     title:

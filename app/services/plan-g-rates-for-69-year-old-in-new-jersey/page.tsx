@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Plan G Rates for a 69-Year-Old in New Jersey | Free Carrier Comparison | MedicareYourself",
   description:
-    "Compare Plan G rates for 69-year-olds in NJ across top carriers. Get a free side-by-side quote from a licensed NJ broker — call 855-559-1700 today.",
+    "Compare Plan G rates for 69-year-olds in NJ side-by-side across top carriers. Get a free, no-pressure quote from a licensed NJ broker — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/plan-g-rates-for-69-year-old-in-new-jersey" },
   openGraph: {
     title:
@@ -163,6 +163,22 @@ const faqs = [
     question: "Does New Jersey use community rating for Medigap Plan G?",
     answer:
       "New Jersey is a community-rated state for Medigap, meaning carriers generally charge the same premium to everyone with the same plan in your area regardless of age. However, premiums can still differ between carriers and may change over time due to inflation and claims experience. Comparing carriers is the only way to find the lowest available rate.",
+  }
+,
+  {
+    question: "Are Plan G benefits the same across every carrier in New Jersey?",
+    answer:
+      "Yes. Medigap Plan G benefits are standardized by federal law, so the coverage is identical no matter which insurance company sells it. The only meaningful differences are the monthly premium, how the carrier raises rates over time, and customer service quality.",
+  },
+  {
+    question: "Does New Jersey have community rating for Medigap Plan G?",
+    answer:
+      "New Jersey carriers commonly use community rating for Medigap, meaning all enrollees in a given plan pay the same premium regardless of age. However, premiums can still change over time due to inflation and claims experience, and pricing methods can vary by carrier.",
+  },
+  {
+    question: "How can a broker help me compare Plan G rates at age 69?",
+    answer:
+      "A licensed independent broker can pull side-by-side quotes from multiple carriers in your ZIP code at no cost to you. Because Plan G coverage is identical by law, the broker's job is to identify the lowest premium with a stable rate history. Call 855-559-1700 for a free comparison.",
   }
 ];
 
@@ -408,6 +424,7 @@ export default function PlanGRates69NJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey resource: <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> — free, unbiased Medicare counseling for NJ residents.</div>
       </section>
       </article>
     </>

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for Parkinson's patients | Free Plan Review | MedicareYourself",
   description:
-    "Medicare broker for Parkinson's patients — compare Part D, DBS coverage, and neurologist access. Free plan review with Anthony Orner. Call 855-559-1700.",
+    "Medicare broker for Parkinson's patients — compare Part D, DBS coverage, and specialist access. Free plan review with Anthony Orner. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-parkinsons-patients" },
   openGraph: {
     title:
@@ -209,6 +209,12 @@ const faqs = [
     question: "Should Parkinson's patients choose Original Medicare or Medicare Advantage?",
     answer:
       "It depends on your providers, medications, and how often you see specialists. Original Medicare with a Medigap plan offers broader access to neurologists and movement disorder specialists nationwide with predictable out-of-pocket costs. Medicare Advantage plans may include extras but use networks and prior authorization, which can complicate access to DBS surgery or specialized therapy. I compare both side by side using your actual doctor and drug list.",
+  }
+,
+  {
+    question: "Should Parkinson's patients choose Original Medicare with a Supplement or a Medicare Advantage plan?",
+    answer:
+      "It depends on your providers and how often you see them. Original Medicare with a Medigap plan gives you access to any doctor or hospital that accepts Medicare nationwide, which matters if you see a movement disorder specialist or travel for DBS evaluation. Medicare Advantage plans can offer extra benefits but use networks and prior authorization, so we verify your neurologist and preferred hospital are in-network before recommending one.",
   }
 ];
 

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "How Much Is Plan G in NJ? | Free Rate Comparison by Age | MedicareYourself",
   description:
-    "How much is Plan G in NJ? Compare 2026 Medigap rates by age, gender, and zip from every major carrier. Anthony Orner finds your lowest price — free quote.",
+    "How much is Plan G in NJ? Compare 2026 Medigap rates by age, gender & zip from every major carrier. Anthony Orner finds your lowest price — free quote.",
   alternates: { canonical: "https://medicareyourself.com/services/how-much-is-plan-g-in-nj" },
   openGraph: {
     title:
@@ -314,6 +314,7 @@ export default function HowMuchIsPlanGInNJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP program</a> for free counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also compare official rate charts through the <a href="https://www.nj.gov/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
     </main>
   );

@@ -795,6 +795,22 @@ const faqs = [
     answer:
       "You can apply to switch Medigap plans at any time, but outside of your Open Enrollment Period or a guaranteed-issue situation, carriers can medically underwrite your application and deny coverage or charge more. Some states have annual switching windows with guaranteed acceptance. Call 855-559-1700 to see what rules apply where you live.",
   }
+,
+  {
+    question: "Do Medigap premiums increase as I get older?",
+    answer:
+      "It depends on how the carrier prices the policy. Attained-age-rated plans go up as you age, issue-age-rated plans are based on your age at purchase, and community-rated plans charge everyone in an area the same regardless of age. All three pricing methods are still subject to annual rate adjustments for inflation and claims experience.",
+  },
+  {
+    question: "Does the cost of Medigap include my Part B premium?",
+    answer:
+      "No. A Medigap policy is separate from Original Medicare, so you continue to pay the standard Part B premium to Medicare in addition to your Medigap monthly premium. Medigap only helps cover the deductibles, copays, and coinsurance that Original Medicare leaves behind.",
+  },
+  {
+    question: "Can a broker really find me a lower Medigap rate for the same plan?",
+    answer:
+      "Yes. Because every lettered Medigap plan provides identical benefits no matter who sells it, the only meaningful difference between carriers is price. A licensed broker can quote every top-rated carrier in your zip code at once and identify the lowest premium for the exact same coverage. Call 855-559-1700 for a free comparison.",
+  }
 ];
 
 export default function AverageCostSupplementalInsurancePage() {
@@ -1039,6 +1055,7 @@ export default function AverageCostSupplementalInsurancePage() {
             <div className="text-sm text-gray-600 mt-4">For state-specific rate help, contact the <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> or the <a href="https://www.nj.gov/dobi/" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a>.</div>
             <div className="text-sm text-gray-600 mt-4">State help: <a href="https://www.state.nj.us/dobi/division_insurance/ihcseh/shipindex.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> offers free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">Need state-specific help? Contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> or your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">SHIP counselor</a> for free unbiased Medigap guidance.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
     </main>
   );
