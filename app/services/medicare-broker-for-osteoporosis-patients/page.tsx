@@ -105,6 +105,12 @@ const faqs = [
     answer:
       "Medicare Part B covers bone mass measurements for both men and women who meet certain risk criteria, such as a history of fractures, long-term steroid use, or hyperparathyroidism. Your doctor must order the test and document why you're at risk. Coverage frequency is generally once every 24 months, though more frequent testing may be approved when medically necessary.",
   }
+,
+  {
+    question: "Does Medicare cover osteoporosis injections given at home?",
+    answer:
+      "Yes. Medicare Part B helps cover certain injectable osteoporosis drugs and visits by a home health nurse to administer them. To qualify, you must be a woman with osteoporosis who meets the criteria for Medicare home health services and has a bone fracture certified by a doctor as related to post-menopausal osteoporosis. Your doctor must also certify that you're unable to give yourself the injection.",
+  }
 ];
 
 export default function MedicareBrokerForOsteoporosisPatients() {

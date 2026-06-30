@@ -522,6 +522,22 @@ const faqs = [
     answer:
       "It can if you don't plan carefully. Formularies, preferred pharmacies, and DME suppliers vary by plan, so your insulin tier or CGM supplier could change. Before switching, we verify that your medications, doctors, and supply providers are covered under the new plan to avoid gaps in your diabetes care.",
   }
+,
+  {
+    question: "Does Medicare Part D cover insulin?",
+    answer:
+      "Yes. Medicare Part D plans cover insulin, and recent federal changes cap monthly out-of-pocket costs for covered insulin products. Insulin used with a traditional pump may be covered under Part B instead as durable medical equipment. Call 855-559-1700 to compare Part D formularies for your specific insulin.",
+  },
+  {
+    question: "Are diabetes test strips and supplies covered by Medicare?",
+    answer:
+      "Yes. Medicare Part B covers blood sugar monitors, test strips, lancets, and control solutions as durable medical equipment when prescribed by your doctor. You'll need to use a Medicare-enrolled supplier for the best coverage. Therapeutic shoes and inserts are also covered for people with diabetes who meet certain criteria.",
+  },
+  {
+    question: "Can I get help paying for diabetes medications on Medicare?",
+    answer:
+      "Yes. The Extra Help program (Low Income Subsidy) assists with Part D prescription drug costs for people with limited income and resources. State Pharmaceutical Assistance Programs and Medicare Savings Programs may also reduce your costs. Visit Medicare.gov or call 855-559-1700 to see which programs you qualify for.",
+  }
 ];
 
 export default function MedicareEnrollmentHelpDiabetes() {

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "best independent medicare broker near me new jersey | Free Consultation | MedicareYourself",
   description:
-    "Looking for the best independent Medicare broker near you in NJ? Anthony Orner compares 20+ carriers across all 21 counties — free help. Call 855-559-1700.",
+    "Find an independent Medicare broker near you in NJ. Anthony Orner compares 20+ carriers across all 21 counties at no cost. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/best-independent-medicare-broker-near-me-new-jersey" },
   openGraph: {
     title:
@@ -162,6 +162,22 @@ const faqs = [
     question: "Will a broker help me after I enroll?",
     answer:
       "A good independent broker stays your point of contact for the life of your policy. That includes annual plan reviews during the Medicare Annual Enrollment Period, claims questions, and switching plans if your needs change. Call 855-559-1700 to set up a free consultation.",
+  }
+,
+  {
+    question: "Does it cost more to enroll through a Medicare broker in New Jersey?",
+    answer:
+      "No. Medicare plan premiums are set by the carrier and filed with regulators, so they're identical whether you enroll directly or through an independent broker. Anthony Orner is compensated by the insurance carriers, not by you, so the consultation and ongoing service are free.",
+  },
+  {
+    question: "How does Medigap pricing work in New Jersey?",
+    answer:
+      "New Jersey uses community rating for Medicare Supplement plans, which means carriers charge the same base premium regardless of your age within a given plan. Your strongest enrollment window is your 6-month Medigap Open Enrollment Period that begins when you're 65 and enrolled in Part B. Outside that window, carriers in most cases can use medical underwriting.",
+  },
+  {
+    question: "What questions should I ask before choosing an independent Medicare broker?",
+    answer:
+      "Ask how many carriers they represent, whether they review your doctors and prescriptions before recommending a plan, and how they support you after enrollment when claims or plan changes come up. A good independent broker will also explain the trade-offs between Medigap and Medicare Advantage rather than steering you to one product.",
   }
 ];
 
@@ -482,6 +498,7 @@ export default function BestIndependentMedicareBrokerNearMeNewJersey() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" target="_blank" rel="noopener noreferrer" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> — free, unbiased Medicare counseling for NJ residents.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
       </article>
     </>

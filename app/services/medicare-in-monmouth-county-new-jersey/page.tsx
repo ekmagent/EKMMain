@@ -153,6 +153,12 @@ const faqs = [
     answer:
       "Most plan changes happen during the Annual Election Period from October 15 to December 7. Medicare Advantage enrollees also have a Medicare Advantage Open Enrollment Period from January 1 to March 31 to switch plans or return to Original Medicare. Certain life events, such as moving or losing other coverage, can trigger a Special Enrollment Period.",
   }
+,
+  {
+    question: "How does New Jersey's community rating affect Medigap premiums in Monmouth County?",
+    answer:
+      "New Jersey requires Medigap insurers to use community rating, which means premiums for the same plan are not based on your age. Every enrollee in a given plan from the same carrier pays the same base rate, though premiums can still vary between carriers. This makes comparing Medigap quotes from multiple insurers especially important for Monmouth County residents.",
+  }
 ];
 
 export default function MedicareInMonmouthCountyNewJersey() {
@@ -395,6 +401,7 @@ export default function MedicareInMonmouthCountyNewJersey() {
             <div className="text-sm text-gray-600 mt-4">New Jersey resource: <a href="https://www.nj.gov/humanservices/doas/assistance/medicare/offices.shtml" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP) local offices</a></div>
             <div className="text-sm text-gray-600 mt-4">New Jersey SHIP: <a href="https://www.nj.gov/humanservices/doas/assistance/medicare/offices.shtml" rel="noopener noreferrer" target="_blank" className="underline">NJ Division of Aging Services — SHIP Local Offices</a></div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can find free local counseling through the <a href="https://www.nj.gov/humanservices/doas/assistance/medicare/offices.shtml" rel="noopener noreferrer" target="_blank">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey resource: <a href="https://www.nj.gov/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> — free, unbiased Medicare counseling for Monmouth County residents.</div>
       </section>
     </main>
   );

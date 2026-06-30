@@ -74,6 +74,17 @@ const faqs = [
     answer:
       "Yes. Medigap Plan G and Plan N benefits are federally standardized, so the core coverage is identical from carrier to carrier and state to state. What differs in New Jersey is the pricing structure — NJ uses community rating, meaning premiums do not change based on your age. Carriers compete on price and customer service rather than benefits.",
   }
+,
+  {
+    question: "Do Plan G and Plan N cover the same hospital benefits in New Jersey?",
+    answer:
+      "Yes. Both Plan G and Plan N cover the Medicare Part A hospital coinsurance and provide an additional 365 days of hospital coverage after your Medicare benefits are exhausted. They also both cover the Part A deductible, skilled nursing facility coinsurance, and Part B coinsurance (subject to Plan N's office and ER copays).",
+  },
+  {
+    question: "Are Plan G and Plan N standardized the same way in New Jersey as in other states?",
+    answer:
+      "Yes. Medigap Plan G and Plan N are federally standardized, so the core benefits are identical regardless of which state or carrier you buy from. What differs in New Jersey is the pricing structure: NJ uses community rating, so premiums do not vary by age within the same carrier and plan.",
+  }
 ];
 
 export default function PlanGvsPlanNPage() {

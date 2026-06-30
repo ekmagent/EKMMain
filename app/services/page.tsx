@@ -9,7 +9,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Medicare Services & Guides | MedicareYourself",
   description:
-    "Compare Medigap, Medicare Advantage & Part D with a licensed independent broker in NJ & 34 states. Free, unbiased plan reviews — call 855-559-1700 today.",
+    "Compare Medigap, Medicare Advantage & Part D with a licensed independent broker in NJ & 34 states. Free, unbiased plan reviews — call 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/services` },
   openGraph: {
     title: "Medicare Services & Guides | MedicareYourself",
@@ -1206,6 +1206,22 @@ const STATIC_CATEGORIES = [
     answer:
       "No. Plan reviews, comparisons, and enrollment help are free to you. Brokers are compensated by the insurance carriers, and that compensation is regulated so it doesn't change your premium. You pay the same rate whether you enroll through a broker or directly with the carrier.",
   }
+,
+  {
+    question: "What does a licensed Medicare insurance broker do?",
+    answer:
+      "A licensed Medicare broker helps you compare Medigap, Medicare Advantage, and Part D drug plans from multiple carriers so you can choose coverage that fits your health needs and budget. Brokers are appointed by insurance companies but work on your behalf at no cost to you. You can also call 1-800-MEDICARE for general Medicare questions 24/7.",
+  },
+  {
+    question: "Is there a fee to work with MedicareYourself?",
+    answer:
+      "No. Our services are free to you because licensed brokers are compensated directly by the insurance carriers when a plan is selected. The price of a Medicare plan is the same whether you enroll through a broker, directly with the carrier, or on Medicare.gov. Call 855-559-1700 for a free, unbiased plan review.",
+  },
+  {
+    question: "Which states does Anthony Orner serve?",
+    answer:
+      "Anthony Orner (NPI 1902584006) is a licensed independent Medicare insurance broker based in New Jersey and licensed in 34 states. That means he can help you compare and enroll in Medigap, Medicare Advantage, and Part D plans available in your specific ZIP code. Call 855-559-1700 to confirm availability in your state.",
+  }
 ];
 
 export default function ServicesHubPage() {
@@ -1360,6 +1376,7 @@ export default function ServicesHubPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/ship.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-2">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/division_consumers/insurance/ship.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
       </section>
     </>
   );

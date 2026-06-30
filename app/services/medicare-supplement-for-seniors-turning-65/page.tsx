@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare supplement for seniors turning 65 | Free Quote in Minutes | MedicareYourself",
   description:
-    "Turning 65? Lock in your Medigap rate during the 6-month open enrollment window with no medical underwriting. Call 855-559-1700 for a free comparison.",
+    "Turning 65? Lock in Medigap rates during your 6-month open enrollment window with no medical underwriting. Call 855-559-1700 for a free side-by-side quote.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-supplement-for-seniors-turning-65" },
   openGraph: {
     title:
@@ -369,6 +369,7 @@ export default function MedicareSupplementSeniorsTurning65() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "enroll in medicare supplement plan g at 70 | Free Broker Help | MedicareYourself",
   description:
-    "Enrolling in Medicare Supplement Plan G at 70? Compare carriers, navigate underwriting, and find the best rate. Free licensed broker help — call 855-559-1700.",
+    "Enroll in Medicare Supplement Plan G at 70 — compare carriers, pass underwriting, and lock in stable rates. Free licensed broker help. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/enroll-in-medicare-supplement-plan-g-at-70" },
   openGraph: {
     title:
@@ -144,6 +144,22 @@ const faqs = [
     question: "What documents do I need to enroll in Plan G at 70?",
     answer:
       "You'll need your Medicare card showing your Part A and Part B effective dates, a valid ID, and basic health history for the underwriting questions. Some carriers also pull a prescription history report. The application itself usually takes about 20 minutes when working with a broker.",
+  }
+,
+  {
+    question: "Can I switch from Medicare Advantage to Plan G at 70?",
+    answer:
+      "Yes, but timing matters. You can drop a Medicare Advantage plan during the Annual Enrollment Period or Medicare Advantage Open Enrollment Period and apply for Plan G, but unless you have a Guaranteed Issue right, you'll typically go through medical underwriting. A broker can review your health profile and match you with carriers most likely to approve you.",
+  },
+  {
+    question: "What does Plan G not cover at age 70?",
+    answer:
+      "Plan G doesn't cover the Part B deductible, prescription drugs, dental, vision, or hearing. You'll need a separate Part D plan for medications and optional standalone policies for dental, vision, and hearing if you want that coverage. Plan G focuses on filling the major gaps in Original Medicare hospital and outpatient costs.",
+  },
+  {
+    question: "Should I work with a broker to enroll in Plan G at 70?",
+    answer:
+      "Outside your Medigap Open Enrollment Period, carriers can decline you or rate you higher based on health. An independent broker compares multiple carriers, knows which underwriters are more flexible for common conditions, and helps you avoid wasted applications. Broker help through MedicareYourself is free — call 855-559-1700.",
   }
 ];
 
@@ -392,6 +408,7 @@ export default function EnrollInMedicareSupplementPlanGAt70() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Need state-specific guidance? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> or contact the <a href="https://www.state.nj.us/dobi/" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
       </section>
       </article>
     </>

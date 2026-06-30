@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "How to Sign Up for Medicare (2026 Guide)",
   description:
-    "Step-by-step 2026 guide to signing up for Medicare through SSA, avoiding Part B late penalties, and choosing coverage. Free broker help: 855-559-1700.",
+    "Step-by-step 2026 guide to signing up for Medicare through SSA, avoiding Part B late penalties, and picking coverage. Free broker help: 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/how-to-sign-up-for-medicare` },
   openGraph: {
     title: "How to Sign Up for Medicare (2026 Guide)",
@@ -1164,6 +1164,22 @@ const faqs = [
     question: "Do I need to sign up for Medicare if I have employer coverage at 65?",
     answer:
       "If you have creditable coverage from active employment (yours or a spouse's), you can usually delay Part B without penalty and enroll later through a Special Enrollment Period. Most people still enroll in Part A at 65 because it's premium-free if you have enough work credits. Confirm with your HR department that your employer plan qualifies as creditable coverage before delaying.",
+  }
+,
+  {
+    question: "Can I sign up for Medicare if I'm still working at 65?",
+    answer:
+      "Yes, you can enroll in Medicare while still working. Many people sign up for Part A at 65 since it is premium-free for those with 40+ work credits, and delay Part B if they have creditable employer coverage from active employment. Confirm with your HR department that your group coverage qualifies as creditable before delaying Part B to avoid a late enrollment penalty.",
+  },
+  {
+    question: "What happens if I miss my Medicare Initial Enrollment Period?",
+    answer:
+      "If you miss your IEP and don't qualify for a Special Enrollment Period, you'll need to wait for the General Enrollment Period (January 1 – March 31) to sign up for Part B, with coverage starting the month after you enroll. You may also owe a permanent Part B late enrollment penalty added to your monthly premium for as long as you have Medicare.",
+  },
+  {
+    question: "How do I sign up for Medicare if I'm not getting Social Security yet?",
+    answer:
+      "If you're not already receiving Social Security benefits, you won't be automatically enrolled — you'll need to apply yourself. You can apply online at ssa.gov/medicare, by calling Social Security at 1-800-772-1213, or by visiting your local Social Security office. The online application typically takes about 10 minutes to complete.",
   }
 ];
 

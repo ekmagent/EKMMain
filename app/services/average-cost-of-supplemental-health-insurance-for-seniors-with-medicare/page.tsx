@@ -811,6 +811,12 @@ const faqs = [
     answer:
       "Yes. Because every lettered Medigap plan provides identical benefits no matter who sells it, the only meaningful difference between carriers is price. A licensed broker can quote every top-rated carrier in your zip code at once and identify the lowest premium for the exact same coverage. Call 855-559-1700 for a free comparison.",
   }
+,
+  {
+    question: "Does where I live affect how much I pay for Medigap?",
+    answer:
+      "Yes. Medigap premiums vary widely by state and even by zip code within the same state. Insurance companies factor in local healthcare costs, claims experience, and state regulations when setting rates. The same lettered plan can cost significantly more in one region than another, which is why comparing local carrier pricing is critical.",
+  }
 ];
 
 export default function AverageCostSupplementalInsurancePage() {

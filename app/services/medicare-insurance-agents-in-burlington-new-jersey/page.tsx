@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare insurance agents in burlington new jersey | Free Local Help | MedicareYourself",
   description:
-    "Compare Medicare plans in Burlington County, NJ with a licensed independent broker. Free Medigap, Advantage & Part D review — call 855-559-1700.",
+    "Talk to a licensed independent Medicare broker serving Burlington County, NJ. Free Medigap, Advantage & Part D plan comparison — call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-insurance-agents-in-burlington-new-jersey" },
   openGraph: {
     title:
@@ -413,6 +413,22 @@ const faqs = [
     question: "What's the difference between Medigap and Medicare Advantage in NJ?",
     answer:
       "Medigap (Medicare Supplement) works alongside Original Medicare to help pay deductibles and coinsurance, and lets you see any provider that accepts Medicare nationwide. Medicare Advantage replaces Original Medicare with a private plan that often includes Part D and extras like dental, but uses provider networks. A broker can compare both side by side for your situation in Burlington County.",
+  }
+,
+  {
+    question: "When can I enroll in a Medigap plan in New Jersey?",
+    answer:
+      "Your strongest window is the 6-month Medigap Open Enrollment Period that begins the month you're 65 or older and enrolled in Part B. During this window, you have guaranteed issue rights and can't be turned down or charged more for health reasons. New Jersey uses community rating, so premiums are not based on your individual age.",
+  },
+  {
+    question: "Do Burlington County residents have access to both Medigap and Medicare Advantage plans?",
+    answer:
+      "Yes. Burlington County residents can choose between Original Medicare paired with a Medigap (Medicare Supplement) policy and a standalone Part D plan, or a Medicare Advantage plan that bundles coverage. An independent broker can compare carriers available in your ZIP code so you see the full picture before deciding.",
+  },
+  {
+    question: "Can I switch Medicare plans each year in Burlington, NJ?",
+    answer:
+      "Medicare Advantage and Part D plans can be reviewed and changed each fall during the Annual Enrollment Period from October 15 to December 7. Medigap switches outside your initial open enrollment window may involve medical underwriting, so it's worth talking with a broker before making a change.",
   }
 ];
 

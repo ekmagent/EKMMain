@@ -99,6 +99,22 @@ const faqs = [
     answer:
       "No. Premiums are filed with and approved by state regulators, so the same plan costs the same whether you enroll on your own or through a licensed broker. The carrier pays the broker a standard commission that is built into the plan regardless.",
   }
+,
+  {
+    question: "What can 1-800-MEDICARE help with versus a licensed broker?",
+    answer:
+      "1-800-MEDICARE (1-800-633-4227) is available 24/7 and can answer general questions about Medicare, claims, and coverage. TTY users can call 1-877-486-2048. However, the federal helpline won't compare specific Medigap, Medicare Advantage, or Part D plans for you — a licensed broker like Anthony does that comparison and handles every form at no cost.",
+  },
+  {
+    question: "Does Social Security or Medicare submit my Medigap and Part D applications?",
+    answer:
+      "No. Social Security only processes enrollment in Original Medicare Parts A and B. Medigap, Medicare Advantage, and Part D applications go directly to private insurance carriers, each with their own forms. Anthony fills out and submits those carrier applications for you and tracks them through approval.",
+  },
+  {
+    question: "What information do I need to give an agent to handle my paperwork?",
+    answer:
+      "You'll typically need your Medicare number, Part A and Part B effective dates, current address, date of birth, and a list of prescriptions and preferred doctors. With that, Anthony can complete carrier applications, compare plans, and submit everything on your behalf — no in-person visits required.",
+  }
 ];
 
 export default function FreeMedicareAgentPaperworkPage() {

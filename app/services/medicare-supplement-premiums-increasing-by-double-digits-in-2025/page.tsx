@@ -264,6 +264,12 @@ const faqs = [
     answer:
       "Yes. The Part B premium, Part B deductible, and Part A deductible are reset each year by CMS and typically rise. These changes are separate from your Medigap premium but affect your total out-of-pocket costs. Check medicare.gov each fall for the official figures before your plan renews.",
   }
+,
+  {
+    question: "What should I do if I get a rate increase letter from my Medigap carrier?",
+    answer:
+      "Do not panic or drop coverage right away. Request a free rate comparison from a licensed broker who can quote multiple carriers offering the same plan letter in your ZIP code. If you can pass medical underwriting, switching to a lower-priced carrier with identical benefits may save you money each month. Call 855-559-1700 for a no-cost review.",
+  }
 ];
 
 export default function MedicareSupplementPremiumsIncreasing2025() {
@@ -491,6 +497,7 @@ export default function MedicareSupplementPremiumsIncreasing2025() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a> or the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP program</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" target="_blank" rel="noopener noreferrer" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> or contact the <a href="https://www.state.nj.us/dobi/" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </main>
   );

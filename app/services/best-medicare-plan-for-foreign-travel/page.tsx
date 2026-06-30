@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "the best medicare plan for foreign travel | Free Comparison | MedicareYourself",
   description:
-    "Find the best Medicare plan for foreign travel. Compare Medigap Plans G & N with emergency coverage abroad — free help from a licensed broker today.",
+    "Find the best Medicare plan for foreign travel. Compare Medigap Plans G & N with emergency coverage abroad — free help from a licensed broker. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/best-medicare-plan-for-foreign-travel" },
   openGraph: {
     title:
@@ -373,6 +373,7 @@ export default function BestMedicarePlanForForeignTravel() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP program</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

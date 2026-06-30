@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for chronic pain patients | Free Coverage Consultation | MedicareYourself",
   description:
-    "Living with chronic pain? Broker Anthony Orner compares Medicare plans covering pain management, PT, and specialists. Call 855-559-1700 for a free review.",
+    "Chronic pain shouldn't fight your Medicare plan too. Broker Anthony Orner compares plans covering pain management, PT & specialists — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-chronic-pain-patients" },
   openGraph: {
     title:
@@ -191,6 +191,17 @@ const faqs = [
     question: "Who is eligible for Medicare chronic pain management services?",
     answer:
       "You qualify if you have chronic pain, defined by Medicare as persistent or recurring pain lasting longer than three months. Your provider must document the diagnosis and deliver covered services such as pain assessment, medication management, and care coordination. Eligibility does not depend on the cause of the pain.",
+  }
+,
+  {
+    question: "Does Medicare cover physical therapy for chronic pain?",
+    answer:
+      "Yes. Medicare Part B covers medically necessary outpatient physical therapy when prescribed by your doctor as part of a treatment plan. There is no longer a hard cap on therapy services, but your provider must document medical necessity after a certain threshold. You typically pay the Part B coinsurance after meeting the annual deductible.",
+  },
+  {
+    question: "Can I switch Medicare plans if my pain treatment isn't covered?",
+    answer:
+      "You can change Medicare Advantage or Part D plans during the Annual Enrollment Period each fall, or during the Medicare Advantage Open Enrollment Period in early spring. Certain Special Enrollment Periods may also apply if you qualify. Call 855-559-1700 to have Anthony review whether your current plan is the best match for your pain management providers.",
   }
 ];
 
@@ -495,6 +506,7 @@ export default function MedicareBrokerForChronicPainPatients() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">Free unbiased counseling: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

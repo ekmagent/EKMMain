@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "How Much Is Plan G in NJ? | Free Rate Comparison by Age | MedicareYourself",
   description:
-    "How much is Plan G in NJ? Compare 2026 Medigap rates by age, gender & zip from every major carrier. Anthony Orner finds your lowest price — free quote.",
+    "How much is Plan G in NJ? Compare 2026 Medigap rates by age, gender & zip across every major carrier. Anthony Orner finds your lowest price — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/how-much-is-plan-g-in-nj" },
   openGraph: {
     title:
@@ -115,6 +115,22 @@ const faqs = [
     question: "How do I get the lowest Plan G rate in New Jersey?",
     answer:
       "The most reliable way is to compare quotes from every major carrier licensed in New Jersey for your exact age, gender, and zip code. Since benefits are identical by federal law, the lowest-priced carrier with a stable rate-increase history is typically the best value. Call Anthony Orner at 855-559-1700 for a free side-by-side comparison.",
+  }
+,
+  {
+    question: "Why is comparing every carrier important when buying Plan G in NJ?",
+    answer:
+      "Medicare requires every Plan G policy to cover the same federally standardized benefits, regardless of which company sells it. That means the only real difference between two Plan G policies is the premium and the carrier's rate-increase history. Comparing every available carrier in your zip code is the only way to make sure you aren't overpaying for identical coverage.",
+  },
+  {
+    question: "Does my zip code in New Jersey affect my Plan G premium?",
+    answer:
+      "Yes. Carriers in New Jersey often price Plan G differently by zip code based on local claims experience and provider costs. Two people the same age and gender can pay noticeably different premiums depending on where they live in the state. Always run a quote based on your exact zip code rather than relying on a statewide average.",
+  },
+  {
+    question: "Is Plan G worth it in New Jersey compared to other Medigap plans?",
+    answer:
+      "Plan G is one of the most comprehensive Medigap plans available to people newly eligible for Medicare, leaving only the annual Part B deductible as your out-of-pocket cost. For many New Jersey beneficiaries, the predictability of Plan G is worth the higher premium compared to plans like N or High-Deductible G. The right choice depends on your budget and how often you expect to use medical care.",
   }
 ];
 
@@ -315,6 +331,7 @@ export default function HowMuchIsPlanGInNJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP program</a> for free counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also compare official rate charts through the <a href="https://www.nj.gov/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </main>
   );

@@ -193,6 +193,12 @@ const faqs = [
     answer:
       "You can apply to switch Medigap plans at any time, but outside your Open Enrollment or a guaranteed-issue period, the new carrier can require medical underwriting and may deny coverage or charge more based on health. A licensed broker can review your current premium, shop competing carriers, and tell you whether switching makes sense.",
   }
+,
+  {
+    question: "Can I switch Medicare Supplement plans later to get a lower premium?",
+    answer:
+      "Yes, you can apply to switch Medigap plans at any time, but outside of your Open Enrollment Period or a guaranteed issue situation, carriers in most states can use medical underwriting. That means they can review your health history and decline coverage or charge more. Some states have additional protections, so it's worth reviewing your options with a licensed broker before switching.",
+  }
 ];
 
 export default function HowMuchDoesMedicareSupplementCostPerMonthForSeniors() {
@@ -433,6 +439,7 @@ export default function HowMuchDoesMedicareSupplementCostPerMonthForSeniors() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased plan counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can compare rates and file complaints through the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

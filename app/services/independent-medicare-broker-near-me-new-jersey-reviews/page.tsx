@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "independent medicare broker near me new jersey reviews | Free Consultation | MedicareYourself",
   description:
-    "Read New Jersey client reviews of independent Medicare broker Anthony Orner. Compare Medigap, Advantage & Part D at no cost — call 855-559-1700 today.",
+    "Read New Jersey reviews of independent Medicare broker Anthony Orner. Compare Medigap, Advantage & Part D at no cost — call 855-559-1700 for a free consult.",
   alternates: { canonical: "https://medicareyourself.com/services/independent-medicare-broker-near-me-new-jersey-reviews" },
   openGraph: {
     title:
@@ -378,6 +378,7 @@ export default function IndependentMedicareBrokerNJReviewsPage() {
             <div className="text-sm text-gray-600 mt-2">Confirm a broker's license with the <a href="https://www.state.nj.us/dobi/" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey resource: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" target="_blank" rel="noopener noreferrer" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free local Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">Verify any New Jersey broker's license at the <a href="https://www.state.nj.us/dobi/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a> or get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">Verify any New Jersey broker's license through the <a href="https://www.state.nj.us/dobi/" target="_blank" rel="noopener noreferrer" className="underline">NJ Department of Banking and Insurance</a>, or get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" target="_blank" rel="noopener noreferrer" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

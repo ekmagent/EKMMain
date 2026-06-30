@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for bipolar disorder patients | Free Plan Comparison | MedicareYourself",
   description:
-    "Medicare broker for bipolar disorder: Anthony Orner compares Part D plans covering mood stabilizers and psychiatric care. Free review — call 855-559-1700.",
+    "Medicare broker for bipolar disorder: Anthony Orner compares Part D formularies for mood stabilizers and psychiatric care. Free review — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-bipolar-disorder-patients" },
   openGraph: {
     title:
@@ -297,6 +297,22 @@ const faqs = [
     question: "Are therapy sessions and counseling covered under Medicare for bipolar disorder?",
     answer:
       "Yes. Medicare Part B covers outpatient mental health services, including individual and group therapy with psychiatrists, psychologists, clinical social workers, and other licensed providers who accept Medicare. After meeting the Part B deductible, you typically pay a coinsurance percentage of the Medicare-approved amount. Part B also covers an annual depression screening at no cost when performed by a participating provider.",
+  }
+,
+  {
+    question: "Will switching Part D plans during Open Enrollment affect my bipolar medications?",
+    answer:
+      "Switching plans during the Annual Enrollment Period (October 15 – December 7) takes effect January 1 and should not interrupt your prescriptions if your new plan covers the same drugs. However, formularies, tier placement, and prior authorization rules can differ between plans. A broker can run your exact medication list through each available plan before you switch to confirm continuity.",
+  },
+  {
+    question: "Does Medicare cover therapy and counseling for bipolar disorder?",
+    answer:
+      "Yes. Medicare Part B covers outpatient psychotherapy, individual and group counseling, family therapy, and psychiatric evaluations when provided by Medicare-enrolled professionals such as psychiatrists, clinical psychologists, and licensed clinical social workers. Part B also covers an annual depression screening at no cost when performed by an eligible provider.",
+  },
+  {
+    question: "Can a Medicare Advantage plan deny me because I have bipolar disorder?",
+    answer:
+      "No. Medicare Advantage plans cannot deny enrollment or charge higher premiums based on pre-existing conditions, including bipolar disorder, during valid enrollment periods. The same applies to Part D prescription drug plans. Medigap (Medicare Supplement) plans are the one exception — outside your initial open enrollment window, they can use medical underwriting in most states.",
   }
 ];
 
@@ -603,6 +619,7 @@ export default function MedicareBrokerBipolarDisorderPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

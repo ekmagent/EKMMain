@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare insurance agents in atlantic city new jersey | Free Quotes | MedicareYourself",
   description:
-    "Atlantic City Medicare broker Anthony Orner compares Medigap, Advantage & Part D plans from top carriers free. Call 855-559-1700 for honest guidance today.",
+    "Atlantic City Medicare broker Anthony Orner compares Medigap, Advantage & Part D plans from top carriers at no cost. Call 855-559-1700 for honest guidance.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-insurance-agents-in-atlantic-city-new-jersey" },
   openGraph: {
     title:

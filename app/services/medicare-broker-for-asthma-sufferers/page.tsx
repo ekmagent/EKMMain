@@ -139,6 +139,17 @@ const faqs = [
     answer:
       "Medicare Part B covers pulmonary rehabilitation programs when prescribed by your doctor for qualifying conditions, though coverage for asthma specifically depends on severity and documentation. Your doctor will need to confirm medical necessity. I can help you verify coverage rules under the plan you're considering before you enroll.",
   }
+,
+  {
+    question: "Can I switch Medicare plans if my asthma medication isn't covered well?",
+    answer:
+      "Yes. You can change Medicare Advantage or Part D plans during the Annual Enrollment Period from October 15 to December 7 each year. There's also a Medicare Advantage Open Enrollment Period from January 1 to March 31. If you have a Special Enrollment Period trigger, like moving or losing other coverage, you may be able to switch outside those windows.",
+  },
+  {
+    question: "Does Medicare cover pulmonologist visits for asthma?",
+    answer:
+      "Yes. Medicare Part B covers medically necessary specialist visits, including pulmonologists, after you meet the Part B deductible. With Original Medicare you typically pay coinsurance unless you have a Medigap plan. Medicare Advantage plans usually require the specialist to be in network and may require a referral.",
+  }
 ];
 
 export default function MedicareBrokerForAsthmaSufferers() {
@@ -387,6 +398,7 @@ export default function MedicareBrokerForAsthmaSufferers() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

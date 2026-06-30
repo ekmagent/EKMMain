@@ -584,6 +584,12 @@ const faqs = [
     answer:
       "Self-administered injectable or oral disease-modifying therapies are usually covered under Medicare Part D, not Part B. Costs vary widely by plan formulary and tier placement, which is why comparing Part D plans annually during the Annual Enrollment Period is critical for MS patients. A broker can run your specific medications through every available plan to find the lowest total cost.",
   }
+,
+  {
+    question: "Does Medicare cover MRI scans for monitoring MS progression?",
+    answer:
+      "Yes. Medically necessary MRI scans ordered by your doctor to monitor MS are covered under Medicare Part B as diagnostic imaging. You'll typically owe the Part B deductible and coinsurance, though a Medigap plan can reduce or eliminate that out-of-pocket cost. Medicare Advantage plans cover MRIs too but may require prior authorization.",
+  }
 ];
 
 export default function MedicareBrokerForMSPatients() {

@@ -1148,6 +1148,22 @@ const faqs = [
     answer:
       "A licensed broker can't change your tax return, but we can help you understand how IRMAA interacts with your Part B, Part D, and Medicare Advantage choices. We can also walk you through the SSA-44 appeal process if you've had a qualifying life event. Call 855-559-1700 for free guidance.",
   }
+,
+  {
+    question: "How do I appeal an IRMAA determination?",
+    answer:
+      "If you've experienced a life-changing event that reduced your income, you can request a reduction by filing Form SSA-44 with the Social Security Administration. You'll need to provide documentation of the event and your expected income for the current year. SSA will review your request and notify you in writing of their decision.",
+  },
+  {
+    question: "Will IRMAA go away if my income drops?",
+    answer:
+      "Yes, IRMAA is recalculated each year based on your tax return from two years prior. If your income falls below the threshold, the surcharge will automatically be removed in a future year. If your income dropped due to a qualifying life-changing event, you can request an earlier adjustment with Form SSA-44 rather than waiting.",
+  },
+  {
+    question: "How will I know if I owe IRMAA?",
+    answer:
+      "Social Security sends a notice (called an Initial IRMAA Determination) before the year begins if you'll owe a surcharge. The notice explains the income they used, the bracket you fall into, and your appeal rights. If you're already collecting Social Security benefits, the IRMAA amount is typically deducted from your monthly check.",
+  }
 ];
 
 export default function IrmaaPage() {
