@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title:
     "How to Enroll in Medicare Online at SSA.gov (Step-by-Step Walkthrough)",
   description:
-    "Step-by-step SSA.gov Medicare enrollment walkthrough — sign up for Part A & B online in about 10 minutes. Free licensed broker help at 855-559-1700.",
+    "Step-by-step SSA.gov Medicare enrollment walkthrough — sign up for Part A & B online in about 10 minutes. Free broker help at 855-559-1700.",
   alternates: {
     canonical: `${SITE_URL}/learn/ssa-online-enrollment-walkthrough`,
   },
@@ -1296,6 +1296,22 @@ const steps = [
     question: "Can I change my Medicare application after submitting it online?",
     answer:
       "No — once you click Submit Now and agree to the Electronic Signature Agreement, you cannot modify the application online. If you need to correct or change something, you'll have to contact the Social Security Administration directly by phone or visit a local office. Review every screen carefully before submitting.",
+  }
+,
+  {
+    question: "How long does the SSA online Medicare application take?",
+    answer:
+      "Most people complete the online application in about 10 minutes if they have their information ready. You'll need your Social Security number, a valid driver's license or state ID for identity verification, and details about any current health coverage.",
+  },
+  {
+    question: "Can I apply for Medicare online if I'm not taking Social Security retirement benefits yet?",
+    answer:
+      "Yes. The SSA application includes an option to apply for Medicare only, without starting your Social Security retirement benefits. This is common for people who plan to keep working past 65 or delay retirement to increase their monthly benefit.",
+  },
+  {
+    question: "What happens after I submit my Medicare application on SSA.gov?",
+    answer:
+      "You'll receive a confirmation number and can track your application status through your my Social Security account. SSA typically processes applications within a few weeks and mails your red, white, and blue Medicare card once approved. You cannot modify the application after submitting, so review carefully before clicking Submit Now.",
   }
 ];
 

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "which medicare supplemental plan best for copd patient? | Free Expert Advice | MedicareYourself",
   description:
-    "Compare Medigap Plan G vs Plan N for COPD oxygen, inhalers, and pulmonologist visits. Free licensed broker review — call 855-559-1700 today.",
+    "Best Medigap plan for COPD? Compare Plan G vs Plan N for oxygen, inhalers & pulmonologist visits. Free licensed broker review — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/which-medicare-supplemental-plan-best-for-copd-patient" },
   openGraph: {
     title:
@@ -241,6 +241,22 @@ const faqs = [
     question: "Will my Medigap plan let me see any pulmonologist I choose?",
     answer:
       "Yes. Medigap plans, including Plan G and Plan N, let you see any provider in the United States who accepts Original Medicare — no networks or referrals required. This is a major advantage for COPD patients who may need specialized pulmonary care or second opinions at major medical centers.",
+  }
+,
+  {
+    question: "Is Plan G or Plan N better for a COPD patient with frequent doctor visits?",
+    answer:
+      "Plan G typically works best for COPD patients with frequent pulmonologist visits, ER trips, and ongoing oxygen needs because it covers Part B excess charges and leaves you with only the annual Part B deductible. Plan N has lower premiums but requires copays for office and ER visits, plus it doesn't cover excess charges. For high-utilization COPD care, Plan G's predictability usually outweighs the premium difference.",
+  },
+  {
+    question: "Does Medicare cover pulmonary rehabilitation and how does Medigap help?",
+    answer:
+      "Medicare Part B covers comprehensive pulmonary rehabilitation programs for patients with moderate to very severe COPD when ordered by a physician. After Medicare pays its share, your Medigap plan covers the remaining coinsurance, meaning Plan G enrollees typically pay nothing beyond the Part B deductible for these sessions.",
+  },
+  {
+    question: "Do I need a separate Part D plan for COPD inhalers?",
+    answer:
+      "Yes. Medigap plans do not include prescription drug coverage, so COPD patients using inhalers, nebulizer solutions, or oral medications need a standalone Part D plan. Choosing the right Part D formulary is critical because inhaler pricing varies significantly between plans — call 855-559-1700 for a free formulary check.",
   }
 ];
 

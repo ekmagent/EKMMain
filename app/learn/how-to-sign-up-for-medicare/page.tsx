@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "How to Sign Up for Medicare (2026 Guide)",
   description:
-    "Step-by-step 2026 guide to signing up for Medicare through SSA, avoiding Part B late penalties, and picking coverage. Free broker help: 855-559-1700.",
+    "2026 step-by-step guide to signing up for Medicare through SSA, avoiding Part B late penalties, and choosing coverage. Free broker help: 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/how-to-sign-up-for-medicare` },
   openGraph: {
     title: "How to Sign Up for Medicare (2026 Guide)",
@@ -1180,6 +1180,22 @@ const faqs = [
     question: "How do I sign up for Medicare if I'm not getting Social Security yet?",
     answer:
       "If you're not already receiving Social Security benefits, you won't be automatically enrolled — you'll need to apply yourself. You can apply online at ssa.gov/medicare, by calling Social Security at 1-800-772-1213, or by visiting your local Social Security office. The online application typically takes about 10 minutes to complete.",
+  }
+,
+  {
+    question: "Can I sign up for Medicare if I'm still working at 65?",
+    answer:
+      "Yes, you can enroll in Medicare at 65 even if you're still working. Many people sign up for premium-free Part A and delay Part B if they have creditable coverage through an employer with 20 or more employees. Confirm with your HR department whether your group health plan is considered creditable before delaying Part B.",
+  },
+  {
+    question: "How do I actually apply for Medicare?",
+    answer:
+      "You apply through the Social Security Administration, not Medicare directly. The fastest way is online at ssa.gov/medicare, which typically takes about 10 minutes. You can also call Social Security or visit a local office to enroll in person.",
+  },
+  {
+    question: "What happens if I miss my Initial Enrollment Period?",
+    answer:
+      "If you miss your IEP and don't qualify for a Special Enrollment Period, you'll need to wait for the General Enrollment Period (January 1 – March 31) to sign up for Part B. You may also face a permanent Part B late enrollment penalty added to your monthly premium. Call 855-559-1700 if you're unsure which enrollment window applies to you.",
   }
 ];
 

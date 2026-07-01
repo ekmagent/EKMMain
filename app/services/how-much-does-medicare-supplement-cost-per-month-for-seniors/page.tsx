@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "How Much Does Medicare Supplement Cost per Month for Seniors? | Free 2026 Rate Quote | MedicareYourself",
   description:
-    "How much does Medicare Supplement cost per month for seniors? Compare Plan G and N rates by age and zip. Call 855-559-1700 for a free quote.",
+    "How much does Medicare Supplement cost per month for seniors? Compare Plan G and N rates by age and zip. Call 855-559-1700 for a free personalized quote.",
   alternates: { canonical: "https://medicareyourself.com/services/how-much-does-medicare-supplement-cost-per-month-for-seniors" },
   openGraph: {
     title:
@@ -198,6 +198,22 @@ const faqs = [
     question: "Can I switch Medicare Supplement plans later to get a lower premium?",
     answer:
       "Yes, you can apply to switch Medigap plans at any time, but outside of your Open Enrollment Period or a guaranteed issue situation, carriers in most states can use medical underwriting. That means they can review your health history and decline coverage or charge more. Some states have additional protections, so it's worth reviewing your options with a licensed broker before switching.",
+  }
+,
+  {
+    question: "Can I switch Medicare Supplement plans later if my premium gets too high?",
+    answer:
+      "You can apply to switch Medigap plans at any time, but outside of your Open Enrollment Period or a guaranteed issue right, most carriers will require medical underwriting. That means they can ask health questions and deny coverage or charge more based on your conditions. It's worth shopping your rate annually to see if switching makes sense.",
+  },
+  {
+    question: "Does Medicare Supplement cover the Part B premium or Part A deductible?",
+    answer:
+      "Medigap plans do not pay your monthly Part B premium — that's a separate cost you pay to Medicare. However, Plan G and Plan N both cover the Part A hospital deductible in full, which is one of the biggest out-of-pocket exposures Original Medicare leaves behind.",
+  },
+  {
+    question: "Is Plan G or Plan N cheaper long-term for most seniors?",
+    answer:
+      "Plan N usually has a lower monthly premium than Plan G, but it comes with small office and ER copays and doesn't cover the Part B deductible or excess charges. For seniors who rarely visit doctors, Plan N can save money; for those with frequent specialist visits, Plan G's predictable coverage often wins out.",
   }
 ];
 
@@ -440,6 +456,7 @@ export default function HowMuchDoesMedicareSupplementCostPerMonthForSeniors() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased plan counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can compare rates and file complaints through the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">For state-specific help, contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">SHIP counselor</a> for free unbiased Medicare guidance.</div>
       </section>
     </main>
   );

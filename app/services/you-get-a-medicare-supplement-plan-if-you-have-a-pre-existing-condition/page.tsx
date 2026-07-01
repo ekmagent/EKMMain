@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "You Get a Medicare Supplement Plan If You Have a Pre-Existing Condition | Free Guidance | MedicareYourself",
   description:
-    "Yes, you can get a Medicare Supplement plan with a pre-existing condition during Medigap Open Enrollment. Call 855-559-1700 for free broker guidance today.",
+    "Yes—you can get a Medicare Supplement plan with a pre-existing condition during Medigap Open Enrollment. Call 855-559-1700 for free broker guidance.",
   alternates: { canonical: "https://medicareyourself.com/services/you-get-a-medicare-supplement-plan-if-you-have-a-pre-existing-condition" },
   openGraph: {
     title:
@@ -143,6 +143,22 @@ const faqs = [
     question: "How can I find out if I qualify for a Medigap plan with my health history?",
     answer:
       "The fastest way is to review your enrollment window and any guaranteed-issue rights that may apply to your situation. A licensed broker can check carrier underwriting questions against your specific conditions before you apply. Call 855-559-1700 for a free, no-obligation review.",
+  }
+,
+  {
+    question: "Does Original Medicare itself deny coverage for pre-existing conditions?",
+    answer:
+      "No. Original Medicare (Part A and Part B) does not use medical underwriting and cannot deny you coverage or charge more based on pre-existing conditions. The pre-existing condition rules people worry about apply to Medigap supplement policies purchased outside of guaranteed-issue windows.",
+  },
+  {
+    question: "Can a Medigap insurer impose a waiting period for pre-existing conditions?",
+    answer:
+      "Yes, in some cases. Even during your Medigap Open Enrollment Period, an insurer may impose a pre-existing condition waiting period of up to 6 months if you did not have prior creditable coverage. Prior creditable coverage of at least 6 months typically shortens or eliminates this waiting period.",
+  },
+  {
+    question: "How can a licensed broker help me if I have a pre-existing condition?",
+    answer:
+      "A licensed broker can review your enrollment timing, check for guaranteed-issue rights, and compare which carriers in your state are most lenient with underwriting. Call 855-559-1700 to speak with Anthony Orner about your specific health history and options.",
   }
 ];
 
@@ -424,6 +440,7 @@ export default function PreExistingConditionMedigapPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">For state-specific help, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling in your state.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medigap counseling.</div>
       </section>
 
       <p className="text-sm text-gray-400 mt-10">

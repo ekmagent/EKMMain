@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare broker for people with crohns | No-Cost Plan Help | MedicareYourself",
   description:
-    "Medicare broker for people with Crohn's — compare plans covering biologics, infusions & GI specialists at no cost. Call 855-559-1700 for free guidance.",
+    "Medicare broker for people with Crohn's — compare plans that cover biologics, infusions, and GI specialists at no cost. Call 855-559-1700 for free guidance.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-people-with-crohns" },
   openGraph: {
     title:
@@ -202,6 +202,22 @@ const faqs = [
     question: "What should I look for in a Medicare plan if I have Crohn's disease?",
     answer:
       "Focus on three things: whether your gastroenterologist and infusion center are in-network, whether your biologics and maintenance drugs are on the formulary at a manageable tier, and what the plan's out-of-pocket maximum looks like. Don't just compare premiums — for Crohn's patients, total annual cost matters far more than monthly premium. A broker can model your real expected spending across plans.",
+  }
+,
+  {
+    question: "Are there patient assistance programs for Crohn's medications on Medicare?",
+    answer:
+      "Yes. The PAN Foundation runs an Inflammatory Bowel Disease program specifically for Medicare beneficiaries that can help cover out-of-pocket costs for medications like Cimzia and other IBD therapies. Eligibility depends on income and diagnosis, and funding availability changes throughout the year. A broker can also point you to manufacturer assistance and state pharmaceutical programs that layer with your Part D plan.",
+  },
+  {
+    question: "Should someone with Crohn's choose Medicare Advantage or Medigap?",
+    answer:
+      "It depends on how you use care. Medigap paired with Original Medicare and a standalone Part D plan gives you access to any provider that accepts Medicare, which matters if your gastroenterologist or infusion center is out of a local network. Medicare Advantage often has lower premiums but uses networks, prior authorizations, and referrals that can complicate specialty care for Crohn's.",
+  },
+  {
+    question: "Are Crohn's infusions covered under Part B or Part D?",
+    answer:
+      "It depends on the drug and where it's administered. Infusions given in a doctor's office or infusion center, like Remicade or Entyvio, are typically covered under Part B. Self-injected biologics you get at a pharmacy usually fall under Part D. This distinction affects your cost-sharing, so it's worth confirming before you enroll.",
   }
 ];
 
@@ -476,6 +492,7 @@ export default function MedicareBrokerForPeopleWithCrohns() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">Need free unbiased counseling? Contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey SHIP</a> for one-on-one Medicare guidance.</div>
       </section>
 
         <p className="text-sm text-gray-500 mt-8">

@@ -817,6 +817,12 @@ const faqs = [
     answer:
       "Yes. Medigap premiums vary widely by state and even by zip code within the same state. Insurance companies factor in local healthcare costs, claims experience, and state regulations when setting rates. The same lettered plan can cost significantly more in one region than another, which is why comparing local carrier pricing is critical.",
   }
+,
+  {
+    question: "Does where I live affect how much I pay for Medigap?",
+    answer:
+      "Yes. Medigap premiums vary widely by state, and even by zip code within the same state. Insurance companies price policies based on local claims experience, competition, and state regulations. The same lettered plan can cost significantly more in one region than another, which is why comparing carriers licensed in your specific area matters.",
+  }
 ];
 
 export default function AverageCostSupplementalInsurancePage() {

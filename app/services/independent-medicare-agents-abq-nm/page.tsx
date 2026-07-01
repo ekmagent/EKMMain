@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "independent medicare agents abq nm | Free Local Help | MedicareYourself",
   description:
-    "Independent Medicare agents in ABQ, NM compare Advantage, Medigap & Part D plans across top carriers at no cost. Call 855-559-1700 for free local guidance.",
+    "Independent Medicare agents serving ABQ, NM compare Advantage, Medigap & Part D plans across top carriers at no cost. Call 855-559-1700 for free local help.",
   alternates: { canonical: "https://medicareyourself.com/services/independent-medicare-agents-abq-nm" },
   openGraph: {
     title:
@@ -137,6 +137,12 @@ const faqs = [
     question: "Will an independent agent help after I enroll?",
     answer:
       "A good independent Medicare agent stays your point of contact after enrollment, helping with ID cards, billing questions, provider network issues, and annual plan reviews. Because Medicare plans change each year, an annual review ensures your coverage still matches your doctors, prescriptions, and budget.",
+  }
+,
+  {
+    question: "Do independent Medicare agents in Albuquerque help with New Mexico-specific plan options?",
+    answer:
+      "Yes. Independent agents licensed in New Mexico work with carriers that offer plans specifically available in Bernalillo County and surrounding areas. They can check which local hospitals, clinics, and physician networks are in-network for each Medicare Advantage plan and confirm pharmacy access for Part D coverage.",
   }
 ];
 
@@ -333,6 +339,7 @@ export default function IndependentMedicareAgentsABQNM() {
             <div className="text-sm text-gray-600 mt-4">New Mexico residents can also contact the <a href="https://www.osi.state.nm.us/" rel="noopener noreferrer" target="_blank" className="underline">New Mexico Office of Superintendent of Insurance</a> or the <a href="https://www.nmaging.state.nm.us/benefits-counseling.aspx" rel="noopener noreferrer" target="_blank" className="underline">New Mexico SHIP/Benefits Counseling program</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Mexico residents can also contact the <a href="https://www.benefits.senior.nm.gov/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">New Mexico SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Mexico beneficiaries can get free local counseling through the <a href="https://www.nmaging.state.nm.us/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Mexico SHIP (Benefits Counseling) program</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Mexico residents can also get free counseling through the <a href="https://www.nmaging.state.nm.us/ship.aspx" rel="noopener noreferrer" target="_blank" className="underline">New Mexico State Health Insurance Assistance Program (SHIP)</a> or verify agent licensing with the <a href="https://www.osi.state.nm.us/" rel="noopener noreferrer" target="_blank" className="underline">New Mexico Office of Superintendent of Insurance</a>.</div>
       </section>
     </main>
   );

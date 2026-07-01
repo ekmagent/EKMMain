@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Compare and Enroll in Plan G Online | No Paperwork Needed | MedicareYourself",
   description:
-    "Compare every NJ Plan G rate side by side and enroll online in minutes with a licensed broker. Same price as direct — no fees. Call 855-559-1700 today.",
+    "Compare every NJ Plan G rate side by side and enroll online in minutes with a licensed broker. Same price as direct, no fees. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/compare-and-enroll-in-plan-g-online" },
   openGraph: {
     title:
@@ -176,6 +176,22 @@ const faqs = [
     question: "Are Plan G benefits the same from every insurance company?",
     answer:
       "Yes. Medigap Plan G benefits are standardized by federal law, so the coverage is identical across carriers. The differences come down to monthly premium, rate stability, and customer service — which is exactly what a broker helps you compare.",
+  }
+,
+  {
+    question: "Can I switch Plan G carriers later if I find a lower rate?",
+    answer:
+      "Yes, you can apply to switch Medigap carriers at any time, but outside your initial Medigap Open Enrollment Period most states allow carriers to use medical underwriting. If you qualify, switching to an identical Plan G at a lower rate is a common way to control long-term premium costs. We can shop the market for you each year at no charge.",
+  },
+  {
+    question: "Do I need a separate drug plan if I enroll in Plan G?",
+    answer:
+      "Yes. Plan G does not include prescription drug coverage, so most people pair it with a stand-alone Medicare Part D plan to avoid the late enrollment penalty. We can help you compare Part D plans in the same appointment when you enroll in Plan G.",
+  },
+  {
+    question: "Will my doctor accept Plan G?",
+    answer:
+      "Any provider in the United States who accepts Original Medicare will accept your Plan G coverage — there are no networks. Plan G pays secondary to Medicare, so as long as Medicare approves the service, your Medigap policy will pay its share.",
   }
 ];
 
@@ -383,6 +399,7 @@ export default function CompareAndEnrollInPlanGOnline() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify carriers and get free counseling through the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/division_insurance/" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> for independent guidance.</div>
       </section>
     </main>
   );

@@ -1164,6 +1164,22 @@ const faqs = [
     answer:
       "Social Security sends a notice (called an Initial IRMAA Determination) before the year begins if you'll owe a surcharge. The notice explains the income they used, the bracket you fall into, and your appeal rights. If you're already collecting Social Security benefits, the IRMAA amount is typically deducted from your monthly check.",
   }
+,
+  {
+    question: "How do I appeal IRMAA if my income has dropped?",
+    answer:
+      "If you've experienced a life-changing event that reduced your income, you can file Form SSA-44 with the Social Security Administration to request a reduction. Qualifying events include retirement, work stoppage, marriage, divorce, or death of a spouse. Submit the form with supporting documentation to your local SSA office or by mail. If approved, Social Security will use your more recent income instead of the tax return from two years prior.",
+  },
+  {
+    question: "Is IRMAA permanent once I have to pay it?",
+    answer:
+      "No. IRMAA is recalculated every year based on your most recent tax return on file with the IRS. If your income drops below the threshold in a future tax year, your IRMAA surcharge will be removed automatically the following year. You do not need to reapply — Social Security receives updated income data from the IRS each year.",
+  },
+  {
+    question: "How is IRMAA paid?",
+    answer:
+      "The Part B IRMAA surcharge is typically deducted directly from your Social Security benefit along with your standard Part B premium. If you're not yet collecting Social Security, you'll receive a bill from Medicare. The Part D IRMAA surcharge is billed separately by Medicare, even if you pay your Part D plan premium directly to your insurer.",
+  }
 ];
 
 export default function IrmaaPage() {

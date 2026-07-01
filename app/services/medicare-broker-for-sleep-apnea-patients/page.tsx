@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for sleep apnea patients | Free CPAP Coverage Check | MedicareYourself",
   description:
-    "Licensed Medicare broker for sleep apnea patients — get clear answers on CPAP coverage, the 90-day compliance rule, and DME suppliers. Call 855-559-1700.",
+    "Licensed Medicare broker helping sleep apnea patients understand CPAP coverage, the 90-day compliance rule, and DME suppliers. Call 855-559-1700 for a free review.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-sleep-apnea-patients" },
   openGraph: {
     title:

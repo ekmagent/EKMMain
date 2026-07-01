@@ -424,6 +424,17 @@ const faqs = [
     answer:
       "Only if your cardiologist is in that plan's network. Medicare Advantage plans use provider networks, so a specialist who accepts Original Medicare may not participate with every Advantage plan. Before enrolling, a broker will verify your cardiologist, hospital system, and any other specialists are in-network for the plans you're considering.",
   }
+,
+  {
+    question: "Does Medicare cover heart medications like blood thinners and statins?",
+    answer:
+      "Yes, Medicare Part D prescription drug plans cover most cardiac medications including blood thinners, statins, beta blockers, and ACE inhibitors. However, formularies and tier placement vary significantly between plans, which affects your copays. A broker can run your specific medication list against available Part D and Medicare Advantage plans to find the lowest total annual cost.",
+  },
+  {
+    question: "Are cardiologist visits covered under Medicare?",
+    answer:
+      "Yes. Medicare Part B covers medically necessary visits to cardiologists, including diagnostic tests like EKGs, echocardiograms, and stress tests. Under Original Medicare you can see any cardiologist who accepts Medicare, while Medicare Advantage plans typically require you to use in-network specialists and may require a referral.",
+  }
 ];
 
 export default function MedicareBrokerHeartDiseasePatients() {

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare insurance agents in fort lee new jersey | Free Broker Help | MedicareYourself",
   description:
-    "Compare Medigap and Advantage plans in Fort Lee, NJ with licensed broker Anthony Orner. Free, no-pressure guidance for Bergen County. Call 855-559-1700.",
+    "Compare Medigap and Medicare Advantage plans in Fort Lee, NJ with licensed broker Anthony Orner. Free, no-pressure guidance for Bergen County — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-insurance-agents-in-fort-lee-new-jersey" },
   openGraph: {
     title:
@@ -117,6 +117,22 @@ const faqs = [
     question: "Do Fort Lee Medicare brokers help with Part D prescription drug plans?",
     answer:
       "Yes. A licensed broker can run a personalized Part D comparison using your actual medication list to find the plan with the lowest total annual cost. This includes reviewing standalone Part D plans as well as Medicare Advantage plans that bundle drug coverage. Reviews are typically done each fall during the Annual Enrollment Period.",
+  }
+,
+  {
+    question: "Do Fort Lee Medicare brokers help with Part D prescription drug plans?",
+    answer:
+      "Yes. A licensed broker can run your medication list through Medicare's Plan Finder to compare Part D standalone plans or the drug coverage built into Medicare Advantage plans. This helps identify which plan covers your specific prescriptions at the lowest total cost. Reviewing your Part D coverage each year during Annual Enrollment is a smart habit.",
+  },
+  {
+    question: "Can I switch Medicare plans after I enroll in Fort Lee?",
+    answer:
+      "Yes, in most cases. Medicare Advantage and Part D plans can be changed during the Annual Enrollment Period each fall, and there is also a Medicare Advantage Open Enrollment Period in early spring. Switching Medigap plans outside your initial 6-month Open Enrollment Period may require medical underwriting in New Jersey. A broker can review your options at no cost.",
+  },
+  {
+    question: "Does Medicare cover care at Bergen County hospitals near Fort Lee?",
+    answer:
+      "Original Medicare is accepted at any hospital or provider in the U.S. that accepts Medicare, including major Bergen County hospital systems. Medicare Advantage plans use provider networks, so it's important to confirm your preferred doctors and hospitals are in-network before enrolling. A broker can verify network participation for your specific providers.",
   }
 ];
 
@@ -408,6 +424,7 @@ export default function MedicareInsuranceAgentsFortLeeNJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free local counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

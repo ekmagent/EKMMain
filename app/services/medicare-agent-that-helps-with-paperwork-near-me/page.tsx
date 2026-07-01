@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare agent that helps with paperwork near me | Free Help in NJ | MedicareYourself",
   description:
-    "Licensed NJ Medicare broker Anthony Orner completes your applications and carrier paperwork accurately—at no cost. Call 855-559-1700 for free hands-on help.",
+    "NJ licensed Medicare broker Anthony Orner completes your applications and carrier forms accurately at no cost. Call 855-559-1700 for free hands-on help today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-agent-that-helps-with-paperwork-near-me" },
   openGraph: {
     title:
@@ -283,6 +283,7 @@ export default function MedicareAgentPaperworkPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">Free unbiased counseling is also available through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

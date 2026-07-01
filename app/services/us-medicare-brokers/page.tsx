@@ -111,6 +111,22 @@ const faqs = [
     answer:
       "Yes. Independent brokers like Anthony Orner are typically contracted to sell Medicare Supplement (Medigap), Medicare Advantage, and standalone Part D prescription drug plans. That lets them compare the total cost and coverage of each path side by side instead of steering you toward a single product line.",
   }
+,
+  {
+    question: "What should I ask a US Medicare broker before enrolling?",
+    answer:
+      "Ask which carriers they are appointed with, since a broker contracted with more companies can show you a wider range of options. Confirm they are licensed in your state, hold current AHIP or carrier certification, and will remain available for annual plan reviews. You should also ask how they handle claims questions and plan changes after enrollment.",
+  },
+  {
+    question: "Will a Medicare broker help me after I enroll in a plan?",
+    answer:
+      "Yes. A good broker provides ongoing service including annual plan comparisons during the Medicare Annual Enrollment Period, help resolving billing or coverage issues, and guidance if your prescriptions or providers change. There is no additional cost for this continued support.",
+  },
+  {
+    question: "Does a Medicare broker share my personal information?",
+    answer:
+      "Licensed brokers are required to follow CMS privacy rules and the Scope of Appointment process, which limits how your information can be used. Your details are only shared with carriers you choose to apply with, and you can request a copy of the privacy practices before providing any information.",
+  }
 ];
 
 export default function USMedicareBrokersPage() {

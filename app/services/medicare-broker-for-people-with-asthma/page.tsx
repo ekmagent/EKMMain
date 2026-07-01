@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare broker for people with asthma | Free Help Finding Coverage | MedicareYourself",
   description:
-    "Have asthma? Broker Anthony Orner helps you find Medicare carriers more likely to approve Medigap coverage. Free, no-pressure help — call 855-559-1700.",
+    "Have asthma? Broker Anthony Orner knows which Medicare carriers approve applicants with respiratory conditions. Free help — call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-people-with-asthma" },
   openGraph: {
     title:

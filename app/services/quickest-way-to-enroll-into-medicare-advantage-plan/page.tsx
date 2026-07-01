@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "quickest way to enroll into medicare advantage plan | Free Help | MedicareYourself",
   description:
-    "Quickest way to enroll in a Medicare Advantage plan? A licensed broker can complete your application in about 10-15 minutes. Call 855-559-1700 for free help.",
+    "Quickest way to enroll in a Medicare Advantage plan? A licensed broker handles the application in about 10-15 minutes. Call 855-559-1700 for free help today.",
   alternates: { canonical: "https://medicareyourself.com/services/quickest-way-to-enroll-into-medicare-advantage-plan" },
   openGraph: {
     title:
@@ -85,6 +85,22 @@ const faqs = [
     answer:
       "Not always. If you're new to Medicare, you can enroll during your Initial Enrollment Period. Special Enrollment Periods also apply if you're losing employer coverage, moving out of your plan's service area, or qualifying for other life changes.",
   },
+,
+  {
+    question: "What information do I need on hand to enroll quickly?",
+    answer:
+      "To join a Medicare Advantage plan, you'll need your Medicare Number and your Part A and/or Part B coverage start dates, both of which are printed on your red, white, and blue Medicare card. You should also confirm you live in the plan's service area and are a U.S. citizen or lawfully present in the U.S. Having a list of your doctors and current prescriptions ready helps a broker match you to the right plan on the first call.",
+  },
+  {
+    question: "When does my Medicare Advantage coverage actually start after I enroll?",
+    answer:
+      "Your coverage start date depends on the enrollment period you use. If you're enrolling during your Initial Enrollment Period, coverage typically starts the month your Part B begins. During the Annual Enrollment Period (October 15 – December 7), coverage generally starts January 1 of the following year.",
+  },
+  {
+    question: "Does it cost more to enroll through a licensed broker?",
+    answer:
+      "No. Licensed Medicare brokers are paid directly by the insurance carriers, so their help is free to you. Your plan premium is the same whether you enroll on your own through Medicare.gov or with a broker's assistance.",
+  }
 ];
 
 export default function QuickestWayToEnrollMedicareAdvantagePlan() {

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "best medicare supplement for people on disability | Free Plan Review | MedicareYourself",
   description:
-    "Best Medicare Supplement for people on disability — compare under-65 access by state and find the right plan letter. Call 855-559-1700 for free broker help.",
+    "Best Medicare Supplement for people on disability: compare under-65 state rules, plan letters, and pricing. Call 855-559-1700 for free broker guidance.",
   alternates: { canonical: "https://medicareyourself.com/services/best-medicare-supplement-for-people-on-disability" },
   openGraph: {
     title:
@@ -230,6 +230,22 @@ const faqs = [
     question: "What Medigap plan letters tend to offer the best value for under-65 enrollees?",
     answer:
       "Plans G and N are the most commonly recommended for new Medicare beneficiaries because they cover the broadest range of out-of-pocket costs after the Part B deductible. Plan A is often the only plan carriers are required to offer to under-65 enrollees in some states. The right choice depends on your state's rules and your expected healthcare use.",
+  }
+,
+  {
+    question: "Can I switch Medigap plans after I turn 65 if I originally enrolled while on disability?",
+    answer:
+      "Yes. When you turn 65, you generally get a new six-month Medigap Open Enrollment Period, even if you already had a Medigap policy on disability. During that window, carriers cannot deny you coverage or charge more based on your health. This is often the best time to shop for a lower-priced plan letter.",
+  },
+  {
+    question: "Which Medigap plan letters are most popular for people on disability?",
+    answer:
+      "Plans G and N are the most comprehensive options available to people newly eligible for Medicare. Plan G covers nearly all Part A and Part B cost-sharing after the Part B deductible, while Plan N has slightly lower premiums with small copays for some office and ER visits. The right choice depends on your expected doctor visits and budget.",
+  },
+  {
+    question: "What if my state doesn't require Medigap coverage for people under 65?",
+    answer:
+      "If your state doesn't mandate under-65 Medigap access, you may still find a carrier willing to sell you a plan, though premiums can be significantly higher. Medicare Advantage plans are guaranteed available regardless of age or state. Call 855-559-1700 and we'll review both paths so you can compare real options side by side.",
   }
 ];
 
@@ -473,6 +489,7 @@ export default function BestMedicareSupplementForPeopleOnDisability() {
             <div className="text-sm text-gray-600 mt-4">State help: contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-700 underline">State Health Insurance Assistance Program (SHIP)</a> for free local Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">State help: <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">Find your local SHIP counselor</a> for free, unbiased state-specific Medicare guidance.</div>
             <div className="text-sm text-gray-600 mt-4">State help: <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Find your local SHIP counselor</a> for free, unbiased Medicare counseling in your state.</div>
+            <div className="text-sm text-gray-600 mt-4">Need state-specific help? Contact your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling in your area.</div>
       </section>
       </article>
     </>
