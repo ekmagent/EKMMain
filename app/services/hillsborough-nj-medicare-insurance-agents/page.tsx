@@ -155,6 +155,22 @@ const faqs = [
     answer:
       "Medicare Supplement (Medigap) plans work alongside Original Medicare and help cover out-of-pocket costs like deductibles and coinsurance, with the freedom to see any provider that accepts Medicare. Medicare Advantage plans replace Original Medicare and typically use a network of providers, often bundling Part D drug coverage and extra benefits. A licensed broker can compare both options side by side based on your Hillsborough doctors and prescriptions. Call 855-559-1700 for a free comparison.",
   }
+,
+  {
+    question: "What's the difference between a Medicare Supplement and a Medicare Advantage plan in Hillsborough?",
+    answer:
+      "Medicare Supplement (Medigap) plans work alongside Original Medicare and let you see any provider nationwide that accepts Medicare, with predictable out-of-pocket costs. Medicare Advantage plans bundle Parts A, B, and usually D into one plan through a private carrier, often with network restrictions but added benefits like dental or vision. A Hillsborough broker can compare both side by side based on your doctors and prescriptions.",
+  },
+  {
+    question: "Can a Medicare broker help me keep my current doctors in Somerset County?",
+    answer:
+      "Yes. Before enrolling, an independent broker checks each plan's provider network against your current doctors and specialists in the Hillsborough and Somerset County area. If you prefer full freedom of provider choice, a Medigap plan paired with Original Medicare allows you to see any provider that accepts Medicare nationwide.",
+  },
+  {
+    question: "Is Anthony Orner licensed to sell Medicare plans in New Jersey?",
+    answer:
+      "Yes. Anthony Orner is a licensed independent Medicare insurance broker (NPI 1902584006) authorized in New Jersey and 34 additional states. He is appointed with multiple top-rated carriers and can quote and enroll Hillsborough residents in Supplement, Advantage, and Part D plans at no cost.",
+  }
 ];
 
 export default function HillsboroughNJMedicareInsuranceAgents() {
@@ -396,6 +412,7 @@ export default function HillsboroughNJMedicareInsuranceAgents() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

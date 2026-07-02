@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare insurance agents in fort lee new jersey | Free Broker Help | MedicareYourself",
   description:
-    "Compare Medigap and Medicare Advantage plans in Fort Lee, NJ with licensed broker Anthony Orner. Free, no-pressure guidance for Bergen County — call 855-559-1700.",
+    "Compare Medigap and Medicare Advantage plans in Fort Lee, NJ with licensed broker Anthony Orner. Free Bergen County guidance — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-insurance-agents-in-fort-lee-new-jersey" },
   openGraph: {
     title:

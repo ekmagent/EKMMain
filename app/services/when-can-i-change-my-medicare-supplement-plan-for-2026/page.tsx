@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "when can i change my medicare supplement plan for 2026 | Free Switching Help | MedicareYourself",
   description:
-    "When can you change your Medicare Supplement plan for 2026? Learn switch windows, guaranteed-issue rights, and underwriting rules. Call 855-559-1700 for free broker help.",
+    "When can you change your Medicare Supplement plan for 2026? Learn switch windows, guaranteed-issue rights, and underwriting. Call 855-559-1700 for free help.",
   alternates: { canonical: "https://medicareyourself.com/services/when-can-i-change-my-medicare-supplement-plan-for-2026" },
   openGraph: {
     title:
@@ -480,6 +480,17 @@ const faqs = [
     question: "Can I drop my Medigap plan and join Medicare Advantage instead?",
     answer:
       "Yes, you can drop a Medigap policy at any time, but you'll need to enroll in a Medicare Advantage plan during a valid election period such as the Annual Enrollment Period from October 15 to December 7. If you later want to return to Original Medicare with a Medigap plan, you may face underwriting unless you qualify for a trial-right or guaranteed-issue protection.",
+  }
+,
+  {
+    question: "Can I switch Medigap plans without medical underwriting?",
+    answer:
+      "Yes, but only in specific situations. You can switch without underwriting during your 6-month Medigap Open Enrollment Period or when you have a federal guaranteed-issue right, such as losing other coverage or your plan ending. Some states also offer additional protections beyond federal law, so it's worth checking your state's rules.",
+  },
+  {
+    question: "What happens if I'm denied when I apply to switch Medigap plans?",
+    answer:
+      "If a carrier denies your application based on medical underwriting, you keep your current Medigap policy — coverage doesn't lapse just because you applied. You can then apply with a different carrier or wait for a guaranteed-issue situation. A licensed broker can help you identify carriers more likely to approve based on your health profile.",
   }
 ];
 

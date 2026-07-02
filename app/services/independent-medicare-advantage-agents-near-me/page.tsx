@@ -182,6 +182,17 @@ const faqs = [
     answer:
       "Yes. A good independent Medicare agent provides ongoing service after enrollment, including help with ID cards, claims questions, provider network changes, and annual plan reviews during the Annual Enrollment Period. You're not handed off to a call center — you have a direct line to the same licensed broker year after year.",
   }
+,
+  {
+    question: "How do I verify an independent Medicare agent is licensed in New Jersey?",
+    answer:
+      "You can verify any agent's license through the New Jersey Department of Banking and Insurance producer lookup tool. Ask for the agent's National Producer Number (NPN) and confirm they're appointed with the carriers whose plans they're recommending. Anthony Orner is licensed in NJ and 34 other states under NPN 1902584006.",
+  },
+  {
+    question: "What should I bring to a Medicare Advantage consultation?",
+    answer:
+      "Have your Medicare card, a list of your current prescriptions with dosages, and the names of doctors and hospitals you want to keep in-network. If you have any current insurance ID cards or a copy of your Medicare Summary Notice, those help too. This lets the agent match plan formularies and provider networks accurately to your needs.",
+  }
 ];
 
 export default function IndependentMedicareAdvantageAgentsNearMe() {

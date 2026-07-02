@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for multiple sclerosis patients | Free Plan Comparison | MedicareYourself",
   description:
-    "Medicare broker for MS patients — Anthony Orner finds plans covering infusions, MRIs, DMTs and your neurologist. Call 855-559-1700 for a free plan review.",
+    "Medicare broker for MS patients — Anthony Orner finds plans covering infusions, MRIs, DMTs & your neurologist. Call 855-559-1700 for a free plan review.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-multiple-sclerosis-patients" },
   openGraph: {
     title:
@@ -596,6 +596,22 @@ const faqs = [
     answer:
       "Yes. Medically necessary MRIs ordered by your doctor to monitor MS progression are covered under Medicare Part B. You'll typically be responsible for the Part B deductible and coinsurance unless a Medigap plan fills that gap. Medicare Advantage plans also cover MRIs but may require prior authorization from your plan before scheduling.",
   }
+,
+  {
+    question: "How does the 24-month SSDI waiting period work for MS patients under 65?",
+    answer:
+      "If you qualify for Social Security Disability Insurance due to MS, Medicare eligibility begins 24 months after your SSDI cash benefits start. During that gap, many patients rely on employer coverage, COBRA, or a marketplace plan. Once Medicare kicks in, you'll want to review Part D and supplement options before your Initial Enrollment Period ends to avoid late penalties.",
+  },
+  {
+    question: "Will Medicare cover MRIs and neurologist visits for MS monitoring?",
+    answer:
+      "Yes. Medicare Part B covers medically necessary MRIs, neurologist visits, and diagnostic testing used to monitor MS progression. You're generally responsible for the Part B deductible and coinsurance unless a Medigap plan or Medicare Advantage plan reduces those costs. Some Advantage plans require prior authorization for advanced imaging, so it's worth verifying before scheduling.",
+  },
+  {
+    question: "What happens to my MS specialist if I switch to a Medicare Advantage plan?",
+    answer:
+      "Medicare Advantage plans use provider networks, so your neurologist and infusion center must be in-network to receive the lowest cost-sharing. Original Medicare with a Medigap plan lets you see any provider nationwide who accepts Medicare, which can matter if your MS team is at a specialized center. Call 855-559-1700 and we'll confirm your providers before you enroll.",
+  }
 ];
 
 export default function MedicareBrokerForMSPatients() {
@@ -833,6 +849,7 @@ export default function MedicareBrokerForMSPatients() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">For free, unbiased Medicare counseling in your state, contact your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> or the <a href="https://www.nj.gov/dobi/division_insurance/" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for sleep apnea patients | Free CPAP Coverage Check | MedicareYourself",
   description:
-    "Licensed Medicare broker helping sleep apnea patients understand CPAP coverage, the 90-day compliance rule, and DME suppliers. Call 855-559-1700 for a free review.",
+    "Licensed Medicare broker helping sleep apnea patients understand CPAP coverage, the 90-day compliance rule & DME suppliers. Free review: 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-sleep-apnea-patients" },
   openGraph: {
     title:
@@ -126,6 +126,17 @@ const faqs = [
     question: "What happens if I was diagnosed with sleep apnea before enrolling in Medicare?",
     answer:
       "If you were diagnosed and used a CPAP before Medicare eligibility, you may still qualify for Medicare-covered equipment, but you'll typically need a new face-to-face evaluation with your doctor and documentation of continued need. Medicare may also require a new compliance period. A broker can help you understand transition requirements based on your plan choice.",
+  }
+,
+  {
+    question: "Does Medicare cover a CPAP trial period?",
+    answer:
+      "Yes. Medicare may cover an initial 12-week trial of CPAP therapy, including the device and accessories, if you've been diagnosed with obstructive sleep apnea. After the trial, Medicare may continue coverage if your doctor documents that the therapy is helping you and you meet the usage requirements.",
+  },
+  {
+    question: "Do I need to use a specific supplier for my CPAP equipment?",
+    answer:
+      "Yes. To have Medicare cover your CPAP machine and supplies, you must use a Medicare-enrolled DME supplier that accepts assignment. If you use a supplier that isn't enrolled in Medicare, your claim will not be paid. A broker can help you confirm your supplier is properly enrolled before you order equipment.",
   }
 ];
 

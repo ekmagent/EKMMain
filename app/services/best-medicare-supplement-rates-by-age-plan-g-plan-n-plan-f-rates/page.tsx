@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Best Medicare Supplement Rates by Age (Plan G, Plan N, & Plan F Rates) | Free Quote | MedicareYourself",
   description:
-    "Compare Medicare Supplement rates by age for Plan G, Plan N & Plan F. See how premiums change by age bracket—call 855-559-1700 for your lowest free quote.",
+    "Compare Medicare Supplement rates by age for Plan G, Plan N & Plan F. See how premiums shift by age bracket—call 855-559-1700 for a free personalized quote.",
   alternates: { canonical: "https://medicareyourself.com/services/best-medicare-supplement-rates-by-age-plan-g-plan-n-plan-f-rates" },
   openGraph: {
     title:
@@ -359,6 +359,22 @@ const faqs = [
     answer:
       "Most Medigap carriers charge tobacco users a higher rate, often 5–15% above the non-tobacco premium for the same plan. If you've recently quit, ask about each carrier's tobacco-free waiting period — some will reclassify you as a non-user after 12 months.",
   }
+,
+  {
+    question: "Does my ZIP code affect my Medicare Supplement rate?",
+    answer:
+      "Yes. Carriers set Medigap premiums by ZIP code because claims costs, provider pricing, and utilization vary by region. Two people the same age with the same plan letter can pay very different premiums depending on where they live.",
+  },
+  {
+    question: "Can I switch from Plan F to Plan G later to save money?",
+    answer:
+      "You can apply to switch anytime, but outside of Open Enrollment or guaranteed issue windows, most carriers will require medical underwriting. If you're healthy enough to qualify, moving from Plan F to Plan G often lowers your monthly premium since Plan G doesn't include the Part B deductible.",
+  },
+  {
+    question: "Is Plan N cheaper than Plan G?",
+    answer:
+      "Plan N typically has a lower monthly premium than Plan G, but it includes small copays for certain office and ER visits and doesn't cover Part B excess charges. For beneficiaries who see providers who accept Medicare assignment, Plan N can offer meaningful savings.",
+  }
 ];
 
 export default function BestMedicareSupplementRatesByAge() {
@@ -659,6 +675,7 @@ export default function BestMedicareSupplementRatesByAge() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify carriers and rates with the <a href="https://www.nj.gov/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/division_insurance/ins_index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a> or the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free unbiased help from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

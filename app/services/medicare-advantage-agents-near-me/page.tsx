@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare Advantage Agents Near Me | Free NJ Help | MedicareYourself",
   description:
-    "Find a local Medicare Advantage agent in NJ. Anthony Orner compares MA plans by county at no cost — check networks before you enroll. Call 855-559-1700.",
+    "Find a local Medicare Advantage agent in NJ. Anthony Orner compares MA plans by county at no cost — check your doctors before enrolling. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-advantage-agents-near-me" },
   openGraph: {
     title:

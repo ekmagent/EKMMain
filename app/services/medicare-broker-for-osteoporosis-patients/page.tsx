@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for osteoporosis patients | Free Coverage Review | MedicareYourself",
   description:
-    "Compare Medicare plans covering DEXA scans, Prolia, Reclast and fracture rehab with broker Anthony Orner. Free coverage review — call 855-559-1700.",
+    "Compare Medicare plans covering DEXA scans, Prolia, Reclast and fracture rehab with licensed broker Anthony Orner. Free coverage review — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-osteoporosis-patients" },
   openGraph: {
     title:
@@ -110,6 +110,22 @@ const faqs = [
     question: "Does Medicare cover osteoporosis injections given at home?",
     answer:
       "Yes. Medicare Part B helps cover certain injectable osteoporosis drugs and visits by a home health nurse to administer them. To qualify, you must be a woman with osteoporosis who meets the criteria for Medicare home health services and has a bone fracture certified by a doctor as related to post-menopausal osteoporosis. Your doctor must also certify that you're unable to give yourself the injection.",
+  }
+,
+  {
+    question: "Can a Medicare broker help me switch plans if my osteoporosis medication isn't covered?",
+    answer:
+      "Yes. During the Annual Enrollment Period (October 15 to December 7), you can switch Medicare Advantage or Part D plans for coverage starting January 1. A broker can review each plan's formulary to confirm your specific osteoporosis medication is covered and estimate your out-of-pocket costs before you enroll.",
+  },
+  {
+    question: "Does Medicare cover home health nurse visits to administer osteoporosis injections?",
+    answer:
+      "Yes. Medicare Part B helps cover certain injectable osteoporosis drugs and visits by a home health nurse to administer them for women who meet specific criteria. You must qualify for the Medicare home health benefit and have a bone fracture certified by your doctor as related to post-menopausal osteoporosis.",
+  },
+  {
+    question: "Should I choose Medigap or Medicare Advantage if I have osteoporosis?",
+    answer:
+      "It depends on your priorities. Medigap plans pair with Original Medicare and typically offer broader provider access plus predictable out-of-pocket costs for infusions and rehab, but require a separate Part D plan. Medicare Advantage bundles drug coverage and may offer lower premiums, but networks and formularies vary. A broker can compare both options based on your specific medications and providers.",
   }
 ];
 

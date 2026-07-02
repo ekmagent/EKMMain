@@ -213,6 +213,22 @@ const faqs = [
     answer:
       "Most beneficiaries can change Medicare Advantage or Part D plans during the Annual Enrollment Period each fall, or the Medicare Advantage Open Enrollment Period in early year. If you qualify for a Special Enrollment Period — for example, a new diagnosis affecting your medications — you may be able to switch outside those windows. Call 855-559-1700 to review your options.",
   }
+,
+  {
+    question: "Are diabetes supplies like test strips and lancets covered by Medicare?",
+    answer:
+      "Yes. Medicare Part B covers blood glucose monitors, test strips, lancets, and control solutions as durable medical equipment when prescribed by your doctor. Coverage amounts and supplier requirements vary, so a broker can help you understand which suppliers accept Medicare assignment and what you'll pay out of pocket.",
+  },
+  {
+    question: "Does Medicare cover diabetes self-management training?",
+    answer:
+      "Yes. Medicare Part B covers Diabetes Self-Management Training (DSMT) when your doctor certifies it's medically necessary. This includes education on managing blood sugar, nutrition, and reducing complications. A broker can confirm which local providers offer this benefit under your plan.",
+  },
+  {
+    question: "Should someone with diabetes choose Medicare Advantage or Original Medicare with a Supplement?",
+    answer:
+      "Both can work, but the right choice depends on your medications, specialists, and budget. Medicare Advantage plans often bundle drug coverage and extras but use networks, while Original Medicare with a Supplement offers broader provider access paired with a separate Part D plan. A broker can compare total costs across both paths for your specific diabetes care.",
+  }
 ];
 
 export default function MedicareBrokerForDiabetics() {

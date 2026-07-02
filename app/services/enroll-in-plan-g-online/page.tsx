@@ -164,6 +164,22 @@ const faqs = [
     answer:
       "Yes. Medigap benefits are standardized by federal law, so Plan G from one carrier covers the exact same services as Plan G from any other carrier. The differences come down to monthly premium, carrier financial strength, and customer service. That's why comparing rates through a broker matters.",
   }
+,
+  {
+    question: "Can I switch from Medicare Advantage to Plan G online?",
+    answer:
+      "You can start a Plan G application online, but switching from Medicare Advantage usually requires medical underwriting unless you qualify for a guaranteed issue right or trial right. A broker can review your situation to see if you qualify for underwriting protection. You'll also need to disenroll from your Advantage plan so your Medigap coverage can take effect.",
+  },
+  {
+    question: "Do I need Part B before I can enroll in Plan G?",
+    answer:
+      "Yes. Medicare requires you to be enrolled in both Part A and Part B before a Medigap policy like Plan G can take effect. Plan G works alongside Original Medicare to cover cost-sharing that Part A and Part B leave behind. Your broker will confirm your Part B effective date before submitting your application.",
+  },
+  {
+    question: "Is Plan G the same with every carrier?",
+    answer:
+      "Yes. The benefits of Plan G are standardized by federal law, so coverage is identical regardless of which insurance company sells it. What differs is the monthly premium, the carrier's rate history, customer service, and any added extras like fitness discounts. Comparing carriers side by side is how you find the best value.",
+  }
 ];
 
 export default function EnrollInPlanGOnlinePage() {

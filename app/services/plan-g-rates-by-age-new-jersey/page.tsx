@@ -186,6 +186,12 @@ const faqs = [
     answer:
       "Yes. As an independent broker licensed in NJ and 34 other states, Anthony Orner is contracted with the major Medigap carriers selling Plan G in New Jersey. He runs a side-by-side comparison by your exact age and ZIP code so you can see the lowest rate without calling each carrier individually. Call 855-559-1700 for a free quote.",
   }
+,
+  {
+    question: "Where can I find the official New Jersey Medigap rate chart?",
+    answer:
+      "The New Jersey Department of Human Services, Division of Aging Services, publishes Medigap rate comparison charts by age and gender. These charts list premiums from carriers approved to sell Medigap policies in New Jersey. You can also call 855-559-1700 to have Anthony Orner walk you through current Plan G rates for your specific age and county.",
+  }
 ];
 
 export default function PlanGRatesByAgeNJPage() {

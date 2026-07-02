@@ -175,6 +175,12 @@ const faqs = [
     answer:
       "Have your Medicare card or Part A/B effective dates, a list of your current prescriptions with dosages, and the names of doctors and hospitals you want to keep. This lets the agent check formularies and provider networks accurately before recommending a plan.",
   }
+,
+  {
+    question: "Can a Medicare agent help me switch plans during the Annual Enrollment Period?",
+    answer:
+      "Yes. The Medicare Annual Enrollment Period runs from October 15 through December 7 each year, and a licensed agent can compare your current plan against other available options in Neptune. Any changes you make take effect January 1. This is also a good time to review whether your prescriptions and providers are still covered.",
+  }
 ];
 
 export default function FindMedicareAgentNeptuneNJ() {

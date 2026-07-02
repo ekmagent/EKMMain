@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for depression patients | Free Mental Health Plan Review | MedicareYourself",
   description:
-    "Medicare broker for depression patients — Anthony Orner finds plans covering therapy, psychiatrists & antidepressants. Free plan review. Call 855-559-1700.",
+    "Medicare broker for depression patients — Anthony Orner finds plans covering therapy, psychiatry & antidepressants. Free plan review. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-depression-patients" },
   openGraph: {
     title:
@@ -332,6 +332,7 @@ export default function MedicareBrokerForDepressionPatients() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

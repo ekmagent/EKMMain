@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "best medicare supplement for people on disability | Free Plan Review | MedicareYourself",
   description:
-    "Best Medicare Supplement for people on disability: compare under-65 state rules, plan letters, and pricing. Call 855-559-1700 for free broker guidance.",
+    "Compare the best Medicare Supplement options for people on disability — state rules, plan letters, and pricing. Call 855-559-1700 for free broker guidance.",
   alternates: { canonical: "https://medicareyourself.com/services/best-medicare-supplement-for-people-on-disability" },
   openGraph: {
     title:
@@ -246,6 +246,22 @@ const faqs = [
     question: "What if my state doesn't require Medigap coverage for people under 65?",
     answer:
       "If your state doesn't mandate under-65 Medigap access, you may still find a carrier willing to sell you a plan, though premiums can be significantly higher. Medicare Advantage plans are guaranteed available regardless of age or state. Call 855-559-1700 and we'll review both paths so you can compare real options side by side.",
+  }
+,
+  {
+    question: "Which Medigap plan letter is most popular for people on disability?",
+    answer:
+      "Plan G and Plan N are among the most commonly chosen letters because they cover a large share of Original Medicare's out-of-pocket costs. Plan G covers everything except the Part B deductible, while Plan N has slightly lower premiums with small copays for some visits. The right choice depends on your state's under-65 availability and how each carrier prices those letters.",
+  },
+  {
+    question: "Can I switch from Medicare Advantage to a Medigap plan while on disability?",
+    answer:
+      "You can apply to switch, but outside of a guaranteed issue right or your state's under-65 protections, carriers may use medical underwriting and deny coverage based on health history. Some states offer annual open enrollment windows for Medigap regardless of age. Call 855-559-1700 and we'll review your state's switching rules at no cost.",
+  },
+  {
+    question: "Will my Medigap premium drop when I turn 65?",
+    answer:
+      "In most cases, yes. Once you turn 65, you qualify for a new six-month Medigap Open Enrollment Period and can apply for a policy at standard 65+ rates without medical underwriting. This often results in a substantially lower premium than the under-65 disability rate you were paying.",
   }
 ];
 
@@ -490,6 +506,7 @@ export default function BestMedicareSupplementForPeopleOnDisability() {
             <div className="text-sm text-gray-600 mt-4">State help: <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">Find your local SHIP counselor</a> for free, unbiased state-specific Medicare guidance.</div>
             <div className="text-sm text-gray-600 mt-4">State help: <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Find your local SHIP counselor</a> for free, unbiased Medicare counseling in your state.</div>
             <div className="text-sm text-gray-600 mt-4">Need state-specific help? Contact your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling in your area.</div>
+            <div className="text-sm text-gray-600 mt-4">State help: <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">Find your local SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling in your state.</div>
       </section>
       </article>
     </>

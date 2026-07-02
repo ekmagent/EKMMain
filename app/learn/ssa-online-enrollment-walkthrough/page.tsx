@@ -1313,6 +1313,22 @@ const steps = [
     answer:
       "You'll receive a confirmation number and can track your application status through your my Social Security account. SSA typically processes applications within a few weeks and mails your red, white, and blue Medicare card once approved. You cannot modify the application after submitting, so review carefully before clicking Submit Now.",
   }
+,
+  {
+    question: "Can I sign up for Medicare online if I'm already receiving Social Security benefits?",
+    answer:
+      "No. If you're already receiving Social Security or Railroad Retirement Board benefits, you'll be automatically enrolled in Medicare Part A and Part B starting the first day of the month you turn 65. Your red, white, and blue Medicare card will arrive in the mail about three months before your birthday.",
+  },
+  {
+    question: "What documents do I need before starting the SSA.gov Medicare application?",
+    answer:
+      "You'll need your Social Security number, a valid driver's license or state ID for identity verification through Login.gov or ID.me, and information about any current health insurance coverage. If you're delaying Part B due to employer coverage, have your employment start and end dates ready.",
+  },
+  {
+    question: "How long does it take to get my Medicare card after applying online?",
+    answer:
+      "Most applicants receive their Medicare card in the mail within about three weeks of submitting the online application. You can also print a temporary card from your my Social Security account once your application is processed. If you don't receive it, call Social Security to check your application status.",
+  }
 ];
 
 export default function SSAOnlineEnrollmentWalkthrough() {

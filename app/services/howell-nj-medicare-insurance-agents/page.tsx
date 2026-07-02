@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "howell nj medicare insurance agents | Free Independent Broker Help | MedicareYourself",
   description:
-    "Howell NJ Medicare insurance agents — compare Supplement and Advantage plans from top Monmouth County carriers free. Call 855-559-1700 today.",
+    "Howell NJ Medicare insurance agents — compare Supplement & Advantage plans from top Monmouth County carriers at no cost. Call 855-559-1700 for a free quote.",
   alternates: { canonical: "https://medicareyourself.com/services/howell-nj-medicare-insurance-agents" },
   openGraph: {
     title:
@@ -277,6 +277,7 @@ export default function HowellNJMedicareInsuranceAgents() {
             <div className="text-sm text-gray-600 mt-2">New Jersey residents can also get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

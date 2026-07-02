@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "How to Sign Up for Medicare (2026 Guide)",
   description:
-    "2026 step-by-step guide to signing up for Medicare through SSA, avoiding Part B late penalties, and choosing coverage. Free broker help: 855-559-1700.",
+    "2026 step-by-step guide to signing up for Medicare through Social Security, avoiding Part B late penalties, and picking coverage. Free broker help: 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/how-to-sign-up-for-medicare` },
   openGraph: {
     title: "How to Sign Up for Medicare (2026 Guide)",
@@ -1196,6 +1196,22 @@ const faqs = [
     question: "What happens if I miss my Initial Enrollment Period?",
     answer:
       "If you miss your IEP and don't qualify for a Special Enrollment Period, you'll need to wait for the General Enrollment Period (January 1 – March 31) to sign up for Part B. You may also face a permanent Part B late enrollment penalty added to your monthly premium. Call 855-559-1700 if you're unsure which enrollment window applies to you.",
+  }
+,
+  {
+    question: "How do I sign up for Medicare if I am not automatically enrolled?",
+    answer:
+      "You can apply for Medicare online at ssa.gov/medicare, by calling Social Security, or by visiting your local Social Security office. The online application typically takes about 10 minutes. You can apply starting 3 months before the month you turn 65.",
+  },
+  {
+    question: "What happens if I miss my Medicare Initial Enrollment Period?",
+    answer:
+      "If you miss your IEP and do not qualify for a Special Enrollment Period, you will have to wait for the General Enrollment Period (January 1 – March 31) to sign up for Part B. You may also owe a permanent Part B late enrollment penalty that gets added to your monthly premium for as long as you have Medicare. Call 855-559-1700 for help reviewing your options.",
+  },
+  {
+    question: "Can a broker help me sign up for Medicare?",
+    answer:
+      "A licensed broker cannot enroll you in Part A or Part B — that is done through Social Security. However, a broker can walk you through the SSA enrollment process, help you decide whether to delay Part B, and compare Medicare Supplement, Advantage, and Part D plans at no cost to you.",
   }
 ];
 

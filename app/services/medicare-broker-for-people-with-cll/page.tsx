@@ -339,6 +339,12 @@ const faqs = [
     answer:
       "Yes. Medicare covers routine costs of qualifying clinical trials, including doctor visits, lab work, and standard treatments you would receive outside the trial. This is important for CLL patients, as many newer targeted therapies and CAR-T approaches are studied in trials at major cancer centers. Your oncologist's office can confirm whether a specific trial qualifies under Medicare rules.",
   }
+,
+  {
+    question: "Are clinical trials for CLL covered by Medicare?",
+    answer:
+      "Medicare covers routine costs of qualifying clinical trials, including doctor visits, lab work, and standard treatments you would receive outside the trial. The trial sponsor typically covers the investigational drug itself. Talk with your oncologist and check medicare.gov for details on qualifying studies before enrolling.",
+  }
 ];
 
 export default function MedicareBrokerForPeopleWithCLL() {

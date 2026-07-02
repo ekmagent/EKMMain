@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare Supplement Plan G Cost for a 70-Year-Old | Free Rate Lookup | MedicareYourself",
   description:
-    "Compare Medicare Supplement Plan G premiums for 70-year-olds by carrier, zip code, and pricing model. Free rate lookup — call 855-559-1700 today.",
+    "Compare Medicare Supplement Plan G premiums for 70-year-olds by carrier, zip code, and pricing model. Get a free rate lookup — call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-supplement-plan-g-cost-for-70-year-old" },
   openGraph: {
     title:
@@ -84,6 +84,22 @@ const faqs = [
     answer:
       "In most states, switching Medigap carriers after your initial open enrollment period requires medical underwriting. Some states offer additional protections, and certain federal guaranteed issue triggers apply. Call to confirm what options are available in your state.",
   },
+,
+  {
+    question: "How does pricing model affect Plan G cost at age 70?",
+    answer:
+      "Medigap carriers use one of three pricing models: community-rated (everyone pays the same regardless of age), issue-age-rated (based on the age you enrolled), or attained-age-rated (rises as you get older). At 70, an attained-age policy often starts cheaper but climbs faster over time, while issue-age and community-rated policies tend to have more stable pricing. The right choice depends on how long you plan to keep the policy.",
+  },
+  {
+    question: "Does zip code really change my Plan G premium?",
+    answer:
+      "Yes. Insurance companies file separate rates by state and often by zip code or region within a state, reflecting local claims costs and provider pricing. Two 70-year-olds with the same carrier and plan letter can pay noticeably different premiums simply because they live in different zip codes.",
+  },
+  {
+    question: "Are there discounts available on Plan G at age 70?",
+    answer:
+      "Many carriers offer household discounts when two people in the same home enroll, and some offer non-tobacco or electronic payment discounts. These savings can meaningfully reduce your monthly premium, but the discount amount and eligibility rules vary by carrier and state. A licensed broker can identify which discounts apply to your situation.",
+  }
 ];
 
 export default function MedicareSupplementPlanGCostFor70YearOld() {
@@ -324,6 +340,7 @@ export default function MedicareSupplementPlanGCostFor70YearOld() {
             <div className="text-sm text-gray-600 mt-4">Need help in your state? Find your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">For state-specific guidance, visit the <a href="https://www.nj.gov/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> or contact your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">SHIP program</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">For state-specific guidance, visit the <a href="https://www.nj.gov/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> or your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
     </main>
   );

@@ -9,7 +9,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Medicare Services & Guides | MedicareYourself",
   description:
-    "Compare Medigap, Medicare Advantage & Part D with a licensed independent broker in NJ & 34 states. Free, unbiased plan reviews — call 855-559-1700.",
+    "Compare Medigap, Medicare Advantage & Part D with a licensed independent broker in NJ & 34 states. Free, unbiased plan reviews — call 855-559-1700 today.",
   alternates: { canonical: `${SITE_URL}/services` },
   openGraph: {
     title: "Medicare Services & Guides | MedicareYourself",
@@ -1222,6 +1222,22 @@ const STATIC_CATEGORIES = [
     answer:
       "Anthony Orner (NPI 1902584006) is a licensed independent Medicare insurance broker based in New Jersey and licensed in 34 states. That means he can help you compare and enroll in Medigap, Medicare Advantage, and Part D plans available in your specific ZIP code. Call 855-559-1700 to confirm availability in your state.",
   }
+,
+  {
+    question: "How do I contact Medicare directly if I have questions beyond what a broker can answer?",
+    answer:
+      "You can call 1-800-MEDICARE (1-800-633-4227) 24 hours a day, 7 days a week, except some federal holidays. TTY users can call 1-877-486-2048. You can also start a live chat at Medicare.gov for real-time help from a Medicare representative.",
+  },
+  {
+    question: "Does it cost anything to work with an independent Medicare broker?",
+    answer:
+      "No. Our services are free to you because licensed brokers are compensated by the insurance carriers when a plan is issued. You pay the same premium whether you enroll on your own or with a broker's help. Call 855-559-1700 to compare plans at no cost.",
+  },
+  {
+    question: "How do I sign up for Medicare Part A and Part B?",
+    answer:
+      "Enrollment in Original Medicare (Parts A and B) is handled through the Social Security Administration, not through a broker or insurance carrier. You can apply online at SSA.gov, by phone, or in person at a local Social Security office. Once you have your Medicare number, a broker can help you compare Medigap, Medicare Advantage, and Part D options.",
+  }
 ];
 
 export default function ServicesHubPage() {
@@ -1377,6 +1393,7 @@ export default function ServicesHubPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/ship.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-2">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/division_consumers/insurance/ship.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </>
   );

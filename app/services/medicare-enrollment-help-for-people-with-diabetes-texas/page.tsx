@@ -193,6 +193,22 @@ const faqs = [
     answer:
       "You can change Medicare Advantage or Part D plans during the Annual Enrollment Period (October 15–December 7) or the Medicare Advantage Open Enrollment Period (January 1–March 31). If you qualify for Extra Help or a Medicare Savings Program, you may get a Special Enrollment Period to change plans once per quarter during the first three quarters of the year.",
   }
+,
+  {
+    question: "What diabetes supplies does Medicare cover for Texans?",
+    answer:
+      "Medicare Part B covers blood sugar test strips, lancets, glucose monitors, and control solutions as durable medical equipment when prescribed by your doctor. Insulin used with an insulin pump is also covered under Part B. Insulin taken by injection, syringes, needles, and most oral diabetes medications are covered under Medicare Part D prescription drug plans.",
+  },
+  {
+    question: "Are diabetes self-management training and nutrition therapy covered?",
+    answer:
+      "Medicare Part B covers diabetes self-management training when your doctor certifies you need it, helping you learn to manage the condition and prevent complications. Medical nutrition therapy is also covered for people with diabetes or kidney disease when referred by your doctor. Both benefits are available through Original Medicare and Medicare Advantage plans in Texas.",
+  },
+  {
+    question: "When can I enroll in Medicare in Texas if I have diabetes?",
+    answer:
+      "Your Initial Enrollment Period is the 7-month window around your 65th birthday. If you miss it, you can enroll during the General Enrollment Period from January 1 to March 31 each year. Diabetes is not a disqualifying condition, and Original Medicare and Medicare Advantage plans cannot deny you coverage based on health status.",
+  }
 ];
 
 export default function MedicareEnrollmentHelpDiabetesTexas() {
@@ -457,6 +473,7 @@ export default function MedicareEnrollmentHelpDiabetesTexas() {
             <div className="text-sm text-gray-600 mt-4">Texas help: <a href="https://www.hhs.texas.gov/services/health/medicare" rel="noopener noreferrer" target="_blank" className="underline">Texas Health and Human Services — Medicare</a> (includes HICAP/SHIP counseling for Texans with diabetes).</div>
             <div className="text-sm text-gray-600 mt-4">Texas resource: <a href="https://www.hhs.texas.gov/services/health/medicare" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Texas Health and Human Services — Medicare</a> for Medicare Savings Programs and state assistance.</div>
             <div className="text-sm text-gray-600 mt-4">Texas resources: <a href="https://www.hhs.texas.gov/services/health/medicare" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Texas Health and Human Services — Medicare</a></div>
+            <div className="text-sm text-gray-600 mt-4">Texas resources: <a href="https://www.hhs.texas.gov/services/health/medicare" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Texas Health and Human Services — Medicare</a>.</div>
       </section>
     </main>
   );

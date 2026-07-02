@@ -435,6 +435,12 @@ const faqs = [
     answer:
       "Yes. Medicare Part B covers medically necessary visits to cardiologists, including diagnostic tests like EKGs, echocardiograms, and stress tests. Under Original Medicare you can see any cardiologist who accepts Medicare, while Medicare Advantage plans typically require you to use in-network specialists and may require a referral.",
   }
+,
+  {
+    question: "Will Medicare cover my heart medications?",
+    answer:
+      "Prescription drugs are covered under Medicare Part D, either through a standalone Part D plan paired with Original Medicare or built into most Medicare Advantage plans. Each plan has its own formulary, so coverage for specific cardiac medications like anticoagulants, statins, or beta-blockers varies. A broker can run your exact medication list through available plans to find the lowest total cost for your prescriptions.",
+  }
 ];
 
 export default function MedicareBrokerHeartDiseasePatients() {

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Find a Medicare Agent in Newark NJ | Free No-Obligation Help | MedicareYourself",
   description:
-    "Find a licensed Medicare agent in Newark, NJ. Anthony Orner compares Medigap and Advantage plans across Essex County — free help. Call 855-559-1700.",
+    "Talk to a licensed Medicare agent in Newark, NJ. Anthony Orner compares Medigap & Advantage plans across Essex County — free, no pressure. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/find-a-medicare-agent-in-newark-nj" },
   openGraph: {
     title:
@@ -153,6 +153,22 @@ const faqs = [
     question: "Is a Newark Medicare agent the same as calling 1-800-MEDICARE?",
     answer:
       "No. 1-800-MEDICARE is a general government helpline that can answer basic questions about Original Medicare. A licensed local broker like me can actually compare specific Medigap and Medicare Advantage plans available in Essex County and help you enroll in the one that fits.",
+  }
+,
+  {
+    question: "Do I need a Medicare agent in Newark, or can I enroll on my own?",
+    answer:
+      "You can enroll directly through medicare.gov or Social Security, but a licensed broker helps you compare plans across multiple carriers at no cost. That's especially useful in Essex County, where plan networks and hospital affiliations vary widely. A broker can also flag underwriting rules that affect switching later.",
+  },
+  {
+    question: "Will a Newark Medicare broker check whether my doctors are in-network?",
+    answer:
+      "Yes. Before recommending a Medicare Advantage plan, I verify that your primary care physician, specialists, and preferred Newark-area hospitals are in the plan's network. For Medigap, network isn't a factor since you can see any provider who accepts Original Medicare.",
+  },
+  {
+    question: "What information should I have ready before calling a Medicare agent?",
+    answer:
+      "Have your Medicare card (or your Part A/B effective dates), a list of your current prescriptions with dosages, and the names of the doctors and hospitals you want to keep. That lets me run an accurate plan comparison on the first call instead of guessing.",
   }
 ];
 

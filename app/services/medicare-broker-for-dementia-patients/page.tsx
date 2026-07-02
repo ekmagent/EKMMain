@@ -109,6 +109,17 @@ const faqs = [
     answer:
       "The Annual Enrollment Period runs October 15 through December 7 each year, and the Medicare Advantage Open Enrollment runs January 1 through March 31. Patients who qualify for Medicaid or Extra Help can often change plans more frequently through a Special Enrollment Period. We can confirm which window applies to your family's situation.",
   }
+,
+  {
+    question: "What is the Medicare GUIDE program for dementia care?",
+    answer:
+      "GUIDE (Guiding an Improved Dementia Experience) is a CMS model that helps Medicare beneficiaries with dementia and their unpaid caregivers access care coordination, caregiver training, and respite services. Participation requires enrollment through a participating provider. We can help you identify whether a local practice is enrolled and what it means for your parent's coverage.",
+  },
+  {
+    question: "Does Medicare cover home health aides for a parent with dementia?",
+    answer:
+      "Medicare covers intermittent home health services — skilled nursing, physical therapy, and home health aide visits — when a doctor certifies the patient is homebound and needs skilled care. It does not cover 24-hour care, meal delivery, or aides whose only role is help with bathing or dressing. A broker can help you understand what your parent's plan will and won't pay for.",
+  }
 ];
 
 export default function MedicareBrokerForDementiaPatients() {

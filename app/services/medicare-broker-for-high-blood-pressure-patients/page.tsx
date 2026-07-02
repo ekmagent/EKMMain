@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for high blood pressure patients | Free Plan Review | MedicareYourself",
   description:
-    "Medicare broker for high blood pressure patients — Anthony Orner reviews your Part D formulary free so BP meds stay covered. Call 855-559-1700 today.",
+    "Medicare broker for high blood pressure patients — Anthony Orner reviews Part D formularies free so your BP meds stay covered. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-high-blood-pressure-patients" },
   openGraph: {
     title:
@@ -353,6 +353,7 @@ export default function MedicareBrokerHighBloodPressure() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Need free one-on-one Medicare counseling? Find your local SHIP through <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">SHIPhelp.org</a> or contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

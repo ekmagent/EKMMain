@@ -8,7 +8,7 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 export const metadata: Metadata = {
   title: "US Medicare Brokers | Free Unbiased Help | MedicareYourself",
   description:
-    "Compare Medicare Supplement, Advantage & Part D plans with a licensed US Medicare broker at no cost. Call 855-559-1700 for free, unbiased help today.",
+    "Work with a licensed US Medicare broker to compare Supplement, Advantage & Part D plans across carriers at no cost. Call 855-559-1700 for free, unbiased help.",
   alternates: { canonical: "https://medicareyourself.com/services/us-medicare-brokers" },
   openGraph: {
     title: "US Medicare Brokers | Free Unbiased Help | MedicareYourself",
@@ -126,6 +126,22 @@ const faqs = [
     question: "Does a Medicare broker share my personal information?",
     answer:
       "Licensed brokers are required to follow CMS privacy rules and the Scope of Appointment process, which limits how your information can be used. Your details are only shared with carriers you choose to apply with, and you can request a copy of the privacy practices before providing any information.",
+  }
+,
+  {
+    question: "What questions should I ask a US Medicare broker before enrolling?",
+    answer:
+      "Ask which carriers they are contracted with, whether they can compare both Medicare Advantage and Medicare Supplement plans, and how they handle service after enrollment. You should also confirm their state license number and National Producer Number so you can verify them through your state's Department of Insurance.",
+  },
+  {
+    question: "Will a Medicare broker check if my doctors and prescriptions are covered?",
+    answer:
+      "Yes. A licensed broker will run your specific doctors, hospitals, and medications through each plan's provider network and drug formulary before recommending coverage. This helps confirm your care team is in-network and your prescriptions are on the plan's tier list before you enroll.",
+  },
+  {
+    question: "Does a Medicare broker help after I enroll?",
+    answer:
+      "Reputable brokers provide year-round support, including claims questions, ID card issues, and annual plan reviews during the Annual Enrollment Period. Because the carrier pays the broker as long as you remain enrolled, ongoing service is part of the relationship at no added cost to you.",
   }
 ];
 
@@ -364,6 +380,7 @@ export default function USMedicareBrokersPage() {
             <div className="text-sm text-gray-600 mt-4">Verify a broker's license or get free local counseling through your <a href="https://www.shiphelp.org/about-medicare/regional-ship-location" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Verify a broker's license through the <a href="https://www.state.nj.us/dobi/insmenu.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> or find free local counseling via your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Verify any broker's license through the <a href="https://www.state.nj.us/dobi/inslic.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance License Lookup</a> or your state's SHIP program at <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">shiphelp.org</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">Verify any broker's license through your state insurance department — for example, the <a href="https://www.state.nj.us/dobi/inslic.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">New Jersey Department of Banking and Insurance</a> license lookup, or contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">local SHIP counselor</a> for free unbiased guidance.</div>
       </section>
       </article>
     </>

@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title:
     "switch medigap plans | Compare Carriers & Switch Online | MedicareYourself",
   description:
-    "Switch Medigap plans any month to lower premiums while keeping identical Plan G or N benefits. Free licensed broker help — call 855-559-1700 today.",
+    "Switch Medigap plans any month to lower premiums while keeping identical Plan G or N benefits. Free licensed broker help — call 855-559-1700 to compare.",
   alternates: {
     canonical: `${SITE_URL}/services/switch-medigap-plans`,
   },
@@ -271,6 +271,12 @@ const faqs = [
     question: "How do I start the process of switching Medigap plans?",
     answer:
       "A licensed broker can run a side-by-side comparison of carrier rates in your zip code for your current plan letter, then submit the application electronically. Most approvals take a few days to a few weeks depending on underwriting. Call 855-559-1700 to speak with a licensed Medicare broker who can review your options at no cost.",
+  }
+,
+  {
+    question: "Do I have a federal right to switch Medigap plans outside Open Enrollment?",
+    answer:
+      "In most cases, no. Under federal law, you generally do not have a right to switch Medigap policies unless you are within your 6-month Medigap Open Enrollment Period or qualify for a guaranteed issue right. Some states offer additional switching opportunities beyond federal rules, so it is worth checking with your State Insurance Department or calling 855-559-1700 to review your options.",
   }
 ];
 
@@ -951,6 +957,7 @@ export default function SwitchMedigapPlansPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a> for state-specific Medigap switching rights.</div>
             <div className="text-sm text-gray-600 mt-4">For state-specific Medigap switching rules, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-700 underline">State Health Insurance Assistance Program (SHIP)</a> or the <a href="https://www.nj.gov/dobi/division_insurance/" rel="noopener noreferrer" target="_blank" className="text-blue-700 underline">NJ Department of Banking and Insurance</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> or the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medigap guidance.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medigap switching guidance.</div>
       </section>
     </>
   );

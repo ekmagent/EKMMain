@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare Enrollment Help for People With Diabetes | Free Guidance | MedicareYourself",
   description:
-    "Medicare enrollment help for people with diabetes—compare plans covering insulin, CGMs, pumps & test strips. Call 855-559-1700 for free expert guidance today.",
+    "Medicare enrollment help for people with diabetes—compare plans covering insulin, CGMs, pumps & test strips. Call 855-559-1700 for free expert guidance.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-enrollment-help-for-people-with-diabetes" },
   openGraph: {
     title:
@@ -538,6 +538,22 @@ const faqs = [
     answer:
       "Yes. The Extra Help program (Low Income Subsidy) assists with Part D prescription drug costs for people with limited income and resources. State Pharmaceutical Assistance Programs and Medicare Savings Programs may also reduce your costs. Visit Medicare.gov or call 855-559-1700 to see which programs you qualify for.",
   }
+,
+  {
+    question: "Does Medicare Part D cap the cost of insulin?",
+    answer:
+      "Yes. Under recent Medicare drug law changes, Part D plans and Medicare Advantage plans with drug coverage have a monthly copay cap on covered insulin products. The cap applies whether you're in the deductible, initial coverage, or catastrophic phase. Call 855-559-1700 to confirm your specific insulin is on your plan's formulary.",
+  },
+  {
+    question: "Are diabetes test strips and lancets covered by Medicare?",
+    answer:
+      "Yes. Medicare Part B covers blood sugar monitors, test strips, lancets, and lancet devices as durable medical equipment when prescribed by your doctor. You'll typically need to use a Medicare-approved supplier, and quantity limits may apply based on whether you use insulin. Mail-order and retail pharmacy options are both available.",
+  },
+  {
+    question: "Will Medicare cover my insulin pump and pump supplies?",
+    answer:
+      "Yes. Medicare Part B covers external insulin pumps and the insulin used in them as durable medical equipment when you meet medical necessity requirements. Pump supplies like infusion sets and reservoirs are also covered under DME. Your doctor will need to document that you meet the coverage criteria.",
+  }
 ];
 
 export default function MedicareEnrollmentHelpDiabetes() {
@@ -852,6 +868,7 @@ export default function MedicareEnrollmentHelpDiabetes() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free Medicare counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

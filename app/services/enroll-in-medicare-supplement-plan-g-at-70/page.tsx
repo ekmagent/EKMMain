@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "enroll in medicare supplement plan g at 70 | Free Broker Help | MedicareYourself",
   description:
-    "Enroll in Medicare Supplement Plan G at 70 with free broker help. Compare carriers, navigate underwriting, and lock in stable rates. Call 855-559-1700.",
+    "Enroll in Medicare Supplement Plan G at 70 with free broker help — navigate underwriting, compare carriers, and lock in stable rates. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/enroll-in-medicare-supplement-plan-g-at-70" },
   openGraph: {
     title:
@@ -160,6 +160,22 @@ const faqs = [
     question: "Should I work with a broker to enroll in Plan G at 70?",
     answer:
       "Outside your Medigap Open Enrollment Period, carriers can decline you or rate you higher based on health. An independent broker compares multiple carriers, knows which underwriters are more flexible for common conditions, and helps you avoid wasted applications. Broker help through MedicareYourself is free — call 855-559-1700.",
+  }
+,
+  {
+    question: "Does Plan G cover the same benefits with every carrier?",
+    answer:
+      "Yes. Medigap plans are standardized by the federal government, so Plan G benefits are identical from one carrier to the next. The only differences are the monthly premium, the company's customer service, and how rates increase over time. That's why comparing carriers is really about price stability and reputation.",
+  },
+  {
+    question: "Can I switch to Plan G from a Medicare Advantage plan at 70?",
+    answer:
+      "Yes, but you'll typically need to pass medical underwriting unless you qualify for a Guaranteed Issue right, such as a trial right or your Advantage plan leaving your service area. Timing matters — you'll want to align your Medigap effective date with your Advantage disenrollment. A licensed broker can help coordinate the switch so you avoid a coverage gap.",
+  },
+  {
+    question: "What happens if I'm denied Plan G at 70 due to underwriting?",
+    answer:
+      "If one carrier denies you, another may still approve you since each company applies different underwriting standards. A broker who represents multiple carriers can match your health profile to the most lenient underwriter. If no carrier approves you, alternatives like Plan N or a Medicare Advantage plan may be worth considering.",
   }
 ];
 
@@ -410,6 +426,7 @@ export default function EnrollInMedicareSupplementPlanGAt70() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> or contact the <a href="https://www.state.nj.us/dobi/" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">Need state-specific help? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free local Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">Need state-specific help? Contact <a href="https://www.state.nj.us/dobi/division_insurance/ship/shipmain.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey SHIP</a> for free Medicare counseling.</div>
       </section>
       </article>
     </>

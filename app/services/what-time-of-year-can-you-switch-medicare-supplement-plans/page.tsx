@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "what time of the year can you switch medicare supplement plans | Free Help from a Licensed Broker | MedicareYourself",
   description:
-    "When can you switch Medicare Supplement plans? Learn Medigap Open Enrollment, guaranteed issue rights & underwriting rules. Free broker help — call 855-559-1700.",
+    "When can you switch Medicare Supplement plans? Learn Medigap Open Enrollment, guaranteed issue rights & underwriting. Free broker help — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/what-time-of-year-can-you-switch-medicare-supplement-plans" },
   openGraph: {
     title:
@@ -153,6 +153,12 @@ const faqs = [
     question: "Do I need to answer health questions when switching Medigap plans?",
     answer:
       "Outside your 6-month Medigap Open Enrollment Period or a guaranteed issue situation, most carriers require medical underwriting. That means answering health questions, and the insurer can deny coverage or charge higher premiums based on your conditions. During Open Enrollment or with guaranteed issue rights, carriers cannot use your health to deny or price the policy.",
+  }
+,
+  {
+    question: "What happens during the 30-day free look period?",
+    answer:
+      "When you buy a new Medigap policy, you have 30 days to decide if you want to keep it. During this free look period, you should keep your old policy active and pay both premiums. If you cancel the new policy within 30 days, you can stay on your original Medigap plan without a gap in coverage.",
   }
 ];
 
