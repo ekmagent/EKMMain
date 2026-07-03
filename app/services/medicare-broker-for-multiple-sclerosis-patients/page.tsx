@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for multiple sclerosis patients | Free Plan Comparison | MedicareYourself",
   description:
-    "Medicare broker for MS patients — Anthony Orner finds plans covering infusions, MRIs, DMTs & your neurologist. Call 855-559-1700 for a free plan review.",
+    "Medicare broker for MS patients — Anthony Orner finds plans that cover infusions, MRIs, DMTs and your neurologist. Call 855-559-1700 for a free plan review.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-multiple-sclerosis-patients" },
   openGraph: {
     title:
@@ -612,6 +612,12 @@ const faqs = [
     answer:
       "Medicare Advantage plans use provider networks, so your neurologist and infusion center must be in-network to receive the lowest cost-sharing. Original Medicare with a Medigap plan lets you see any provider nationwide who accepts Medicare, which can matter if your MS team is at a specialized center. Call 855-559-1700 and we'll confirm your providers before you enroll.",
   }
+,
+  {
+    question: "How long is the Medicare waiting period if I qualify due to MS disability?",
+    answer:
+      "If you qualify for Medicare through Social Security Disability Insurance because of MS, there is generally a 24-month waiting period after your SSDI cash benefits begin before Medicare coverage starts. Some people with certain conditions qualify sooner, but MS on its own does not waive the waiting period. Once the waiting period ends, you are automatically enrolled in Part A and Part B.",
+  }
 ];
 
 export default function MedicareBrokerForMSPatients() {
@@ -850,6 +856,7 @@ export default function MedicareBrokerForMSPatients() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">For free, unbiased Medicare counseling in your state, contact your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> or the <a href="https://www.nj.gov/dobi/division_insurance/" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "local medicare agents in union nj | Free Plan Comparison | MedicareYourself",
   description:
-    "Local Medicare agents in Union, NJ — Anthony Orner compares Medigap & Advantage plans from top carriers at no cost. Call 855-559-1700 for free guidance.",
+    "Local Medicare agents in Union, NJ — Anthony Orner compares Medigap, Advantage & Part D plans from top carriers free. Call 855-559-1700 for guidance.",
   alternates: { canonical: "https://medicareyourself.com/services/local-medicare-agents-in-union-nj" },
   openGraph: {
     title:
@@ -154,6 +154,22 @@ const faqs = [
     question: "What hospitals and providers do Union, NJ Medicare plans typically cover?",
     answer:
       "Most Union County residents use providers affiliated with major regional health systems serving the area. Network coverage varies by plan, so an independent broker can verify whether your specific doctors and preferred hospitals are in-network before you enroll.",
+  }
+,
+  {
+    question: "Does Anthony Orner meet with Union, NJ clients in person or by phone?",
+    answer:
+      "Both options are available. Many Union County residents prefer a phone or video review because it's faster and lets you share your medication list and doctors from home. In-person meetings can be arranged when helpful.",
+  },
+  {
+    question: "What Medicare plans can a local Union, NJ broker compare?",
+    answer:
+      "An independent broker can compare Medicare Supplement (Medigap) plans, Medicare Advantage plans, and standalone Part D prescription drug plans from multiple carriers licensed in New Jersey. This lets you see how monthly premiums, provider networks, and drug coverage differ side by side before enrolling.",
+  },
+  {
+    question: "Can I switch Medicare plans later if my needs change in Union County?",
+    answer:
+      "Yes. You can review and change Medicare Advantage or Part D plans each year during the Annual Enrollment Period from October 15 to December 7. Medigap changes are also possible year-round, though outside your initial window they may require medical underwriting in New Jersey.",
   }
 ];
 
@@ -429,6 +445,7 @@ export default function LocalMedicareAgentsUnionNJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey resources: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free local Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free unbiased counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
       </article>
     </>

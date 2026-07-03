@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "You Get a Medicare Supplement Plan If You Have a Pre-Existing Condition | Free Guidance | MedicareYourself",
   description:
-    "Yes, you can get a Medicare Supplement plan with a pre-existing condition during Medigap Open Enrollment. Call 855-559-1700 for free broker help.",
+    "Yes, you can get a Medicare Supplement plan with a pre-existing condition during Medigap Open Enrollment. Call 855-559-1700 for free licensed broker guidance.",
   alternates: { canonical: "https://medicareyourself.com/services/you-get-a-medicare-supplement-plan-if-you-have-a-pre-existing-condition" },
   openGraph: {
     title:
@@ -159,6 +159,22 @@ const faqs = [
     question: "How can a licensed broker help me if I have a pre-existing condition?",
     answer:
       "A licensed broker can review your enrollment timing, check for guaranteed-issue rights, and compare which carriers in your state are most lenient with underwriting. Call 855-559-1700 to speak with Anthony Orner about your specific health history and options.",
+  }
+,
+  {
+    question: "Does Original Medicare itself cover pre-existing conditions?",
+    answer:
+      "Yes. Original Medicare (Part A and Part B) has covered pre-existing conditions since the program began in 1965. Your health history does not affect your eligibility or the benefits you receive under Original Medicare.",
+  },
+  {
+    question: "Can a Medigap insurer impose a waiting period for my pre-existing condition?",
+    answer:
+      "During your 6-month Medigap Open Enrollment Period, insurers cannot deny coverage or charge more due to pre-existing conditions, but they may impose a pre-existing condition waiting period of up to 6 months if you did not have prior creditable coverage. Creditable coverage from a previous health plan can reduce or eliminate this waiting period. Original Medicare will still cover the condition during any waiting period.",
+  },
+  {
+    question: "What guaranteed-issue rights protect me if I have a pre-existing condition?",
+    answer:
+      "Federal guaranteed-issue rights require insurers to sell you a Medigap policy without medical underwriting in specific situations, such as losing employer coverage or if your Medicare Advantage plan leaves your area. These protections generally have a 63-day window from the qualifying event. Some states offer broader protections beyond federal minimums.",
   }
 ];
 
@@ -442,6 +458,7 @@ export default function PreExistingConditionMedigapPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medigap counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">Need help in your state? Contact your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free one-on-one Medicare counseling.</div>
       </section>
 
       <p className="text-sm text-gray-400 mt-10">

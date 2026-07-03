@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare insurance agents in camden new jersey | Free Quotes | MedicareYourself",
   description:
-    "Camden, NJ Medicare broker Anthony Orner compares Medigap and Advantage plans from top carriers at zero cost. Call 855-559-1700 for a free, no-obligation quote.",
+    "Camden, NJ Medicare broker Anthony Orner compares Medigap and Advantage plans from top carriers at no cost. Call 855-559-1700 for a free, no-obligation quote.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-insurance-agents-in-camden-new-jersey" },
   openGraph: {
     title:
@@ -301,6 +301,7 @@ export default function MedicareInsuranceAgentsCamdenNJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

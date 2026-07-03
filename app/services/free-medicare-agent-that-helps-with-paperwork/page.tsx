@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "free medicare agent that helps with paperwork | Zero Cost Enrollment Help | MedicareYourself",
   description:
-    "Get a free Medicare agent to handle every application and carrier form for you — zero cost, zero stress. Call Anthony at 855-559-1700 for hands-on help.",
+    "Free Medicare agent Anthony Orner handles every application and carrier form for you — zero cost, zero stress. Call 855-559-1700 for hands-on paperwork help.",
   alternates: { canonical: "https://medicareyourself.com/services/free-medicare-agent-that-helps-with-paperwork" },
   openGraph: {
     title:
@@ -114,6 +114,17 @@ const faqs = [
     question: "What information do I need to give an agent to handle my paperwork?",
     answer:
       "You'll typically need your Medicare number, Part A and Part B effective dates, current address, date of birth, and a list of prescriptions and preferred doctors. With that, Anthony can complete carrier applications, compare plans, and submit everything on your behalf — no in-person visits required.",
+  }
+,
+  {
+    question: "Does a free Medicare agent help after I enroll, or only during the application?",
+    answer:
+      "A licensed broker like Anthony stays with you after enrollment. That means help with billing questions, ID card issues, pharmacy problems, and annual plan reviews during the Annual Enrollment Period from October 15 through December 7.",
+  },
+  {
+    question: "Is my personal information safe when a Medicare agent handles my paperwork?",
+    answer:
+      "Yes. Licensed Medicare brokers are required to follow strict privacy rules, including HIPAA and CMS marketing guidelines. Anthony only uses your information to submit carrier applications and provide plan comparisons — never to sell your data.",
   }
 ];
 

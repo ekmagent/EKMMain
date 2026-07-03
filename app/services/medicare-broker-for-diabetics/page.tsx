@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare broker for diabetics | Free Help Finding the Right Plan | MedicareYourself",
   description:
-    "Medicare broker for diabetics who understands insulin caps, CGM coverage, and specialist networks. Free expert help from Anthony Orner. Call 855-559-1700.",
+    "Work with a Medicare broker who understands diabetes — insulin caps, CGM coverage, and specialist networks. Free expert help from Anthony Orner. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-diabetics" },
   openGraph: {
     title:
@@ -228,6 +228,22 @@ const faqs = [
     question: "Should someone with diabetes choose Medicare Advantage or Original Medicare with a Supplement?",
     answer:
       "Both can work, but the right choice depends on your medications, specialists, and budget. Medicare Advantage plans often bundle drug coverage and extras but use networks, while Original Medicare with a Supplement offers broader provider access paired with a separate Part D plan. A broker can compare total costs across both paths for your specific diabetes care.",
+  }
+,
+  {
+    question: "How does a Medicare broker help diabetics compare Part D formularies?",
+    answer:
+      "A broker enters your specific diabetes medications, insulin types, and dosages into plan comparison tools to see how each Part D or Medicare Advantage plan tiers your drugs. This reveals which plans cover your prescriptions at the lowest tier and which require prior authorization or step therapy. It's a level of detail most people can't easily replicate on their own.",
+  },
+  {
+    question: "Can I switch Medicare plans if my diabetes needs change?",
+    answer:
+      "Yes. During the Annual Enrollment Period each fall, you can change your Medicare Advantage or Part D plan for the following year. If your medications, devices, or doctors change mid-year, a broker can review whether you qualify for a Special Enrollment Period. Reviewing your plan annually is especially important when you have a chronic condition like diabetes.",
+  },
+  {
+    question: "Does Medicare cover diabetic supplies like test strips and lancets?",
+    answer:
+      "Yes. Medicare Part B covers blood glucose monitors, test strips, lancets, and control solutions as durable medical equipment when prescribed by your doctor. Coverage amounts and supplier requirements vary, so a broker can help you understand what your specific plan pays and which suppliers are in-network.",
   }
 ];
 
@@ -504,6 +520,7 @@ export default function MedicareBrokerForDiabetics() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Need free local counseling? Contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for unbiased Medicare help.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

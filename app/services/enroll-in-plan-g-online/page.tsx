@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Enroll in Plan G Online | Fast, Free, Broker-Assisted | MedicareYourself",
   description:
-    "Enroll in Medicare Plan G online with a licensed broker comparing top carriers side by side. Apply from home in about 20-40 minutes — call 855-559-1700.",
+    "Enroll in Medicare Plan G online with a licensed broker comparing top carriers side by side. Apply from home in about 20–40 minutes — call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/enroll-in-plan-g-online" },
   openGraph: {
     title:
@@ -179,6 +179,22 @@ const faqs = [
     question: "Is Plan G the same with every carrier?",
     answer:
       "Yes. The benefits of Plan G are standardized by federal law, so coverage is identical regardless of which insurance company sells it. What differs is the monthly premium, the carrier's rate history, customer service, and any added extras like fitness discounts. Comparing carriers side by side is how you find the best value.",
+  }
+,
+  {
+    question: "Can I switch to Plan G from another Medigap plan later?",
+    answer:
+      "Yes, you can apply to switch Medigap plans at any time of year, but outside of guaranteed issue situations most carriers will require medical underwriting. That means your application can be denied or priced higher based on your health. A broker can help you compare carriers and identify the strongest chance of approval before you apply.",
+  },
+  {
+    question: "Does Plan G cover prescription drugs?",
+    answer:
+      "No. Medigap Plan G does not include prescription drug coverage. To get drug coverage, you'll need to enroll in a separate Medicare Part D prescription drug plan. A broker can help you shop both your Plan G and Part D options in the same appointment.",
+  },
+  {
+    question: "Can I keep my current doctors with Plan G?",
+    answer:
+      "Yes. Plan G works with any doctor or hospital in the United States that accepts Original Medicare, so there is no network restriction. As long as your provider accepts Medicare assignment, your Plan G benefits apply. This is one reason many people prefer Medigap over network-based plans.",
   }
 ];
 
@@ -474,6 +490,7 @@ export default function EnrollInPlanGOnlinePage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">Need state-specific help? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling in your area.</div>
             <div className="text-sm text-gray-600 mt-4">Need local help? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free one-on-one Medicare counseling in your state.</div>
+            <div className="text-sm text-gray-600 mt-4">Need free state-based counseling? Contact your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">SHIP (State Health Insurance Assistance Program)</a> or the <a href="https://www.nj.gov/dobi/division_insurance/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a>.</div>
       </section>
       </article>
     </>

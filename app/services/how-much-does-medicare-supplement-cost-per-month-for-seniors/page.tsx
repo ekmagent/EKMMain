@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "How Much Does Medicare Supplement Cost per Month for Seniors? | Free 2026 Rate Quote | MedicareYourself",
   description:
-    "How much does Medicare Supplement cost per month for seniors? Compare Plan G and N rates by age and zip. Call 855-559-1700 for a free personalized quote.",
+    "How much does Medicare Supplement cost per month for seniors? Compare Plan G and N pricing methods by age, zip, and carrier. Call 855-559-1700 for a free quote.",
   alternates: { canonical: "https://medicareyourself.com/services/how-much-does-medicare-supplement-cost-per-month-for-seniors" },
   openGraph: {
     title:
@@ -458,6 +458,7 @@ export default function HowMuchDoesMedicareSupplementCostPerMonthForSeniors() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">For state-specific help, contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">SHIP counselor</a> for free unbiased Medicare guidance.</div>
             <div className="text-sm text-gray-600 mt-4">Need unbiased local help? Contact <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">the NJ Department of Banking and Insurance</a> or your state's SHIP program.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free unbiased Medicare counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> or contact the <a href="https://www.nj.gov/dobi/" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a>.</div>
       </section>
     </main>
   );

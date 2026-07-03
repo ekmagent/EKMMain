@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "How to Sign Up for Medicare (2026 Guide)",
   description:
-    "2026 step-by-step guide to signing up for Medicare through Social Security, avoiding Part B late penalties, and picking coverage. Free broker help: 855-559-1700.",
+    "2026 step-by-step guide to signing up for Medicare through Social Security, avoiding Part B penalties, and picking coverage. Free help: 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/how-to-sign-up-for-medicare` },
   openGraph: {
     title: "How to Sign Up for Medicare (2026 Guide)",
@@ -1212,6 +1212,22 @@ const faqs = [
     question: "Can a broker help me sign up for Medicare?",
     answer:
       "A licensed broker cannot enroll you in Part A or Part B — that is done through Social Security. However, a broker can walk you through the SSA enrollment process, help you decide whether to delay Part B, and compare Medicare Supplement, Advantage, and Part D plans at no cost to you.",
+  }
+,
+  {
+    question: "How do I sign up for Medicare if I am not getting Social Security yet?",
+    answer:
+      "If you are not already collecting Social Security or Railroad Retirement benefits, you must actively sign up for Medicare. The fastest way is online at ssa.gov/medicare, which typically takes about 10 minutes. You can also apply by calling Social Security or visiting a local SSA office.",
+  },
+  {
+    question: "When can I first sign up for Medicare?",
+    answer:
+      "Your Initial Enrollment Period begins 3 months before the month you turn 65 and ends 3 months after your birthday month. Signing up in the 3 months before your birthday month helps ensure your coverage starts the month you turn 65. Waiting until later in the window can delay when your Part B coverage begins.",
+  },
+  {
+    question: "What if I miss my Medicare enrollment deadline?",
+    answer:
+      "If you miss your Initial Enrollment Period and do not qualify for a Special Enrollment Period, you may have to wait for the General Enrollment Period (January 1 through March 31) to sign up. You could also face a permanent Part B late enrollment penalty added to your monthly premium. Call 855-559-1700 to review your options.",
   }
 ];
 

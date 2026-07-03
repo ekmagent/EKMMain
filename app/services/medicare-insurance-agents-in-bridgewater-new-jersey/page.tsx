@@ -84,6 +84,12 @@ const faqs = [
     answer:
       "You can call 1-800-MEDICARE (1-800-633-4227) for general questions. For help choosing a specific plan in Bridgewater, call a local independent broker at 855-559-1700 for a free, no-pressure consultation.",
   },
+,
+  {
+    question: "Is there a fee to work with a Medicare broker in Bridgewater?",
+    answer:
+      "No. Independent Medicare brokers are compensated directly by the insurance carriers when a plan is issued. You pay the same premium whether you enroll on your own or through a licensed broker like Anthony Orner. Call 855-559-1700 for a no-cost review.",
+  }
 ];
 
 export default function MedicareInsuranceAgentsBridgewaterNJ() {
@@ -330,6 +336,7 @@ export default function MedicareInsuranceAgentsBridgewaterNJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" target="_blank" rel="noopener noreferrer" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

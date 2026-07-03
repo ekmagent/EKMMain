@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "hoboken nj medicare insurance agents | Free Consultation | MedicareYourself",
   description:
-    "Hoboken NJ Medicare insurance agents — compare Supplement, Advantage & Part D plans across Hudson County carriers. Free consultation. Call 855-559-1700.",
+    "Hoboken NJ Medicare insurance agents — compare Supplement, Advantage & Part D plans across Hudson County carriers. Free, no-pressure consultation. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/hoboken-nj-medicare-insurance-agents" },
   openGraph: {
     title:
@@ -359,6 +359,7 @@ export default function HobokenNJMedicareInsuranceAgents() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" target="_blank" rel="noopener noreferrer" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-2">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free local counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> or contact the <a href="https://www.nj.gov/dobi/division_insurance/" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a>.</div>
+            <div className="text-sm text-gray-600 mt-2">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
       </section>
     </main>
   );

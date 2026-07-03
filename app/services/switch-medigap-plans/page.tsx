@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title:
     "switch medigap plans | Compare Carriers & Switch Online | MedicareYourself",
   description:
-    "Switch Medigap plans any month to lower premiums while keeping identical Plan G or N benefits. Free licensed broker help — call 855-559-1700 to compare.",
+    "Switch Medigap plans any month to lower your premium while keeping identical Plan G or N benefits. Free licensed broker help — call 855-559-1700 today.",
   alternates: {
     canonical: `${SITE_URL}/services/switch-medigap-plans`,
   },
@@ -958,6 +958,7 @@ export default function SwitchMedigapPlansPage() {
             <div className="text-sm text-gray-600 mt-4">For state-specific Medigap switching rules, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-700 underline">State Health Insurance Assistance Program (SHIP)</a> or the <a href="https://www.nj.gov/dobi/division_insurance/" rel="noopener noreferrer" target="_blank" className="text-blue-700 underline">NJ Department of Banking and Insurance</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> or the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medigap guidance.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medigap switching guidance.</div>
+            <div className="text-sm text-gray-600 mt-4">State help: <a href="https://www.state.nj.us/dobi/division_insurance/" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> — check your state's rules, since some states offer more opportunities to switch Medigap policies than federal law requires.</div>
       </section>
     </>
   );

@@ -381,6 +381,12 @@ const faqs = [
     answer:
       "Yes. Medigap premiums vary widely by zip code because carriers factor in local healthcare costs, claims experience, and state regulations. Two neighbors in different counties can pay noticeably different rates for the exact same lettered plan. Comparing carriers licensed in your specific area is the only way to find your true lowest cost.",
   }
+,
+  {
+    question: "Does where I live affect how much I pay for a Medigap plan?",
+    answer:
+      "Yes. Medigap premiums vary widely by ZIP code because carriers price policies based on local claims experience, competition, and state regulations. Two neighbors with identical plans from different carriers can pay very different premiums, which is why comparing quotes across multiple companies is critical.",
+  }
 ];
 
 export default function HowMuchDoesBestMedicareSupplementalInsuranceCostPerMonth() {
@@ -645,6 +651,7 @@ export default function HowMuchDoesBestMedicareSupplementalInsuranceCostPerMonth
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

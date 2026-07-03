@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for thyroid disease patients | Free Plan Review | MedicareYourself",
   description:
-    "Medicare broker for thyroid patients — compare NJ plans covering levothyroxine, TSH labs, and endocrinologists. Free plan review. Call 855-559-1700.",
+    "Medicare broker for thyroid patients — compare NJ plans covering levothyroxine, TSH labs, and endocrinologist visits. Free plan review. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-thyroid-disease-patients" },
   openGraph: {
     title:

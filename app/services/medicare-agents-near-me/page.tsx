@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare agents near me | Free Unbiased Plan Comparison | MedicareYourself",
   description:
-    "Find a licensed Medicare agent near you for free, unbiased plan comparisons across major carriers. Call 855-559-1700 for honest, no-pressure guidance today.",
+    "Talk to a licensed Medicare agent near you for free, unbiased plan comparisons across major carriers. Call 855-559-1700 for honest, no-pressure guidance.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-agents-near-me" },
   openGraph: {
     title:
@@ -149,6 +149,12 @@ const faqs = [
     question: "Is a phone consultation as effective as meeting in person?",
     answer:
       "Yes. Most Medicare consultations work just as well by phone or video as they do in person, since plan comparisons rely on reviewing your ZIP code, doctors, prescriptions, and budget. Call 855-559-1700 to schedule a free, no-pressure consultation at a time that works for you.",
+  }
+,
+  {
+    question: "Should I meet a Medicare agent in person or is a phone consultation enough?",
+    answer:
+      "Both options work well for most beneficiaries. Phone and video consultations give you the same plan comparisons, enrollment help, and licensed guidance as an in-person meeting, often with more scheduling flexibility. Choose whichever format helps you ask questions comfortably and review materials at your own pace.",
   }
 ];
 

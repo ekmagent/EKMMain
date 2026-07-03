@@ -1196,6 +1196,22 @@ const faqs = [
     answer:
       "The Part B IRMAA surcharge is typically deducted directly from your Social Security benefit, along with your standard Part B premium. The Part D IRMAA surcharge is billed separately by Medicare and is not paid to your Part D plan. If you are not yet collecting Social Security, you will receive a bill from Medicare.",
   }
+,
+  {
+    question: "How do I appeal an IRMAA determination if my income has decreased?",
+    answer:
+      "If you've experienced a life-changing event that reduced your income, you can appeal by filing Form SSA-44 with the Social Security Administration. Qualifying events include retirement, marriage, divorce, death of a spouse, or loss of pension income. You'll need to provide documentation of the event and your estimated new income. If approved, SSA will recalculate your IRMAA using your updated income figures.",
+  },
+  {
+    question: "When will I know if I have to pay IRMAA?",
+    answer:
+      "If you owe IRMAA, the Social Security Administration will mail you a predetermination notice, typically in late fall before the new plan year begins. The notice explains the surcharge amount for both Part B and Part D and how it was calculated. If you disagree with the determination, you have 60 days from the date of the notice to request a reconsideration.",
+  },
+  {
+    question: "Does IRMAA change every year?",
+    answer:
+      "Yes. IRMAA is recalculated annually using your most recent tax return on file with the IRS, which is typically from two years prior. If your income drops below the threshold in a later year, your IRMAA surcharge will go away automatically the following year. Income brackets and surcharge amounts are also adjusted each year by CMS.",
+  }
 ];
 
 export default function IrmaaPage() {

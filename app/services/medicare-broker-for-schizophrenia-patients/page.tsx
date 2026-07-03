@@ -135,6 +135,22 @@ const faqs = [
     answer:
       "With Original Medicare, you can see any provider who accepts Medicare assignment. Medicare Advantage plans generally require in-network providers except in emergencies. A broker can verify whether your current mental health providers participate before you enroll, helping avoid disruptions in care.",
   }
+,
+  {
+    question: "Can a Medicare broker help coordinate coverage with Medicaid for schizophrenia patients?",
+    answer:
+      "Yes. Many people with schizophrenia qualify as dual-eligible for both Medicare and Medicaid. A licensed broker can identify Dual Special Needs Plans (D-SNPs) designed for this population, which often include enhanced behavioral health benefits, care coordination, and lower out-of-pocket costs.",
+  },
+  {
+    question: "Are long-acting injectable antipsychotics covered by Medicare?",
+    answer:
+      "Coverage depends on how the injection is administered. Long-acting injectables given in a clinical setting are typically covered under Medicare Part B as a provider-administered drug, while self-administered antipsychotics fall under Part D. A broker can review both benefits to confirm your specific medication is covered.",
+  },
+  {
+    question: "Can I change plans if my psychiatrist leaves the network?",
+    answer:
+      "In most cases you must wait for the Annual Enrollment Period or a Special Enrollment Period to switch plans. However, dual-eligible beneficiaries and those with certain chronic conditions may qualify for more frequent plan changes. A broker can review whether you qualify for a Special Enrollment Period.",
+  }
 ];
 
 export default function MedicareBrokerSchizophreniaPatients() {
@@ -428,6 +444,7 @@ export default function MedicareBrokerSchizophreniaPatients() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

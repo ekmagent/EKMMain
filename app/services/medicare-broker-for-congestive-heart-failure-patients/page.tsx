@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for congestive heart failure patients | Free Plan Review | MedicareYourself",
   description:
-    "CHF Medicare broker Anthony Orner finds plans covering cardiac rehab, heart meds & hospital stays. Call 855-559-1700 for a free, no-pressure plan review.",
+    "CHF Medicare broker helps you find plans covering cardiac rehab, heart meds & hospital stays. Free, no-pressure plan review — call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-congestive-heart-failure-patients" },
   openGraph: {
     title:
@@ -421,6 +421,12 @@ const faqs = [
     question: "Does Medicare cover heart failure medications under Part D?",
     answer:
       "Yes. Medicare Part D prescription drug plans cover most common CHF medications, including ACE inhibitors, beta blockers, diuretics, and SGLT2 inhibitors. Coverage and copays vary by plan formulary, so it's important to match your specific drug list to the right plan. Anthony can run a personalized formulary check before you enroll.",
+  }
+,
+  {
+    question: "Does Medicare cover heart failure medications like Entresto or Jardiance?",
+    answer:
+      "Prescription drugs for heart failure are covered under Medicare Part D or through a Medicare Advantage plan that includes drug coverage. Coverage and cost-sharing vary by plan formulary, so it's important to compare plans based on your specific medication list. Anthony can run your drug list against available plans to find the best fit.",
   }
 ];
 

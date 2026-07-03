@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "when can i change my medicare supplement plan for 2026 | Free Switching Help | MedicareYourself",
   description:
-    "When can you change your Medicare Supplement plan for 2026? Learn switch windows, guaranteed-issue rights, and underwriting. Call 855-559-1700 for free help.",
+    "When can you change your Medicare Supplement plan for 2026? Learn switch windows, guaranteed-issue rights & underwriting. Free broker help: 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/when-can-i-change-my-medicare-supplement-plan-for-2026" },
   openGraph: {
     title:
@@ -492,6 +492,12 @@ const faqs = [
     answer:
       "If a carrier denies your application based on medical underwriting, you keep your current Medigap policy — coverage doesn't lapse just because you applied. You can then apply with a different carrier or wait for a guaranteed-issue situation. A licensed broker can help you identify carriers more likely to approve based on your health profile.",
   }
+,
+  {
+    question: "Can I switch back to my old Medigap policy if I don't like the new one?",
+    answer:
+      "Yes, if you're within a 30-day free look period on the new Medigap policy, you can return it and keep your old plan. You must pay premiums for both policies during this trial window. After the free look period ends, going back may require underwriting and approval by your prior carrier.",
+  }
 ];
 
 export default function WhenCanIChangeMyMedicareSupplementPlanFor2026() {
@@ -735,6 +741,7 @@ export default function WhenCanIChangeMyMedicareSupplementPlanFor2026() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/index.html" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a> or the <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">SHIP program</a> for free state-specific Medigap guidance.</div>
             <div className="text-sm text-gray-600 mt-4">For state-specific help, contact the <a href="https://www.nj.gov/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> or your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">SHIP counselor</a> for free Medicare guidance.</div>
             <div className="text-sm text-gray-600 mt-4">State help: <a href="https://www.state.nj.us/dobi/division_insurance/ship/shipmain.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey SHIP (State Health Insurance Assistance Program)</a> offers free one-on-one Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">For state-specific Medigap switching rules and free counseling, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
     </main>
   );

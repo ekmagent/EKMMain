@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Best Medicare Advantage Plans in NJ 2026",
   description:
-    "Compare 2026 New Jersey Medicare Advantage plans with $0 premium options, dental, vision, and Part D coverage. Call 855-559-1700 for licensed NJ broker help.",
+    "Compare 2026 New Jersey Medicare Advantage plans with $0 premium options, dental, vision, and Part D. Talk to a licensed NJ broker — call 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/medicare-advantage/new-jersey` },
   openGraph: {
     title: "Best Medicare Advantage Plans in NJ 2026",

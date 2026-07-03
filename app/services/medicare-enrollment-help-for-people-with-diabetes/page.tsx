@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare Enrollment Help for People With Diabetes | Free Guidance | MedicareYourself",
   description:
-    "Medicare enrollment help for people with diabetes—compare plans covering insulin, CGMs, pumps & test strips. Call 855-559-1700 for free expert guidance.",
+    "Medicare enrollment help for people with diabetes—find plans that cover insulin, CGMs, pumps & test strips. Call 855-559-1700 for free expert guidance.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-enrollment-help-for-people-with-diabetes" },
   openGraph: {
     title:
@@ -554,6 +554,22 @@ const faqs = [
     answer:
       "Yes. Medicare Part B covers external insulin pumps and the insulin used in them as durable medical equipment when you meet medical necessity requirements. Pump supplies like infusion sets and reservoirs are also covered under DME. Your doctor will need to document that you meet the coverage criteria.",
   }
+,
+  {
+    question: "Does Medicare Part D cover insulin?",
+    answer:
+      "Yes. Medicare Part D plans cover insulin, and thanks to recent changes under the Inflation Reduction Act, out-of-pocket costs for a month's supply of covered insulin are capped. Insulin used with a traditional pump is covered under Part B as durable medical equipment. Call 855-559-1700 to compare Part D formularies for your specific insulin.",
+  },
+  {
+    question: "Are diabetes test strips and lancets covered by Medicare?",
+    answer:
+      "Yes. Medicare Part B covers blood sugar monitors, test strips, lancets, and control solution as durable medical equipment when prescribed by your doctor. You'll need to use a Medicare-enrolled DME supplier. The quantity covered depends on whether you use insulin, so ask your provider to document your testing frequency.",
+  },
+  {
+    question: "Does Medicare cover diabetes self-management training?",
+    answer:
+      "Yes. Medicare Part B covers Diabetes Self-Management Training (DSMT) when your doctor orders it and you meet certain criteria. This training helps you learn how to manage your condition, including nutrition, monitoring, and medication use. Preventive services like the Medicare Diabetes Prevention Program are also covered for eligible beneficiaries.",
+  }
 ];
 
 export default function MedicareEnrollmentHelpDiabetes() {
@@ -869,6 +885,7 @@ export default function MedicareEnrollmentHelpDiabetes() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">For free, unbiased counseling in New Jersey, contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

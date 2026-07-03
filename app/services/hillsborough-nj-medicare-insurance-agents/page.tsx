@@ -171,6 +171,12 @@ const faqs = [
     answer:
       "Yes. Anthony Orner is a licensed independent Medicare insurance broker (NPI 1902584006) authorized in New Jersey and 34 additional states. He is appointed with multiple top-rated carriers and can quote and enroll Hillsborough residents in Supplement, Advantage, and Part D plans at no cost.",
   }
+,
+  {
+    question: "What's the difference between a Medicare broker and a captive agent in Hillsborough?",
+    answer:
+      "A captive agent represents one insurance carrier and can only sell that company's plans. An independent broker is contracted with multiple carriers and compares options side by side. For Hillsborough and Somerset County residents, an independent broker can shop the full market of Advantage, Supplement, and Part D plans in your zip code.",
+  }
 ];
 
 export default function HillsboroughNJMedicareInsuranceAgents() {
@@ -413,6 +419,7 @@ export default function HillsboroughNJMedicareInsuranceAgents() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );
