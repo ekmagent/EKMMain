@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "quickest way to enroll into medicare advantage plan | Free Help | MedicareYourself",
   description:
-    "Quickest way to enroll in a Medicare Advantage plan? A licensed broker handles the application in about 10-15 minutes. Call 855-559-1700 for free help today.",
+    "Quickest way to enroll in a Medicare Advantage plan? A licensed broker completes your application in about 10-15 minutes. Call 855-559-1700 for free help.",
   alternates: { canonical: "https://medicareyourself.com/services/quickest-way-to-enroll-into-medicare-advantage-plan" },
   openGraph: {
     title:
@@ -385,6 +385,7 @@ export default function QuickestWayToEnrollMedicareAdvantagePlan() {
             <div className="text-sm text-gray-600 mt-4">Need unbiased help in your state? Visit the <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">Need free unbiased counseling? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for one-on-one Medicare help.</div>
             <div className="text-sm text-gray-600 mt-4">Need unbiased state help? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">local SHIP program</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">For free, unbiased counseling in your state, visit the <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
     </main>
   );

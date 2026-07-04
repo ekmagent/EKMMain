@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "local medicare agents in union nj | Free Plan Comparison | MedicareYourself",
   description:
-    "Local Medicare agents in Union, NJ — Anthony Orner compares Medigap, Advantage & Part D plans from top carriers free. Call 855-559-1700 for guidance.",
+    "Local Medicare agents in Union, NJ — Anthony Orner compares Medigap, Advantage & Part D plans free. Call 855-559-1700 for personalized guidance today.",
   alternates: { canonical: "https://medicareyourself.com/services/local-medicare-agents-in-union-nj" },
   openGraph: {
     title:

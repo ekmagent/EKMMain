@@ -1212,6 +1212,22 @@ const faqs = [
     answer:
       "Yes. IRMAA is recalculated annually using your most recent tax return on file with the IRS, which is typically from two years prior. If your income drops below the threshold in a later year, your IRMAA surcharge will go away automatically the following year. Income brackets and surcharge amounts are also adjusted each year by CMS.",
   }
+,
+  {
+    question: "How do I appeal an IRMAA determination?",
+    answer:
+      "If you experienced a life-changing event that reduced your income, you can file Form SSA-44 with the Social Security Administration to request a reduction. Common qualifying events include retirement, marriage, divorce, death of a spouse, or loss of pension income. You'll need documentation such as a tax return, marriage certificate, or letter from your former employer. SSA reviews each request individually and will notify you in writing of their decision.",
+  },
+  {
+    question: "Will IRMAA go away automatically if my income drops?",
+    answer:
+      "Eventually, yes — but not right away. Because IRMAA is based on your tax return from two years ago, a drop in income won't reflect on your Medicare premium until Social Security processes your more recent tax data. If you don't want to wait, and your income drop was caused by a qualifying life-changing event, you can file Form SSA-44 to have IRMAA reduced or removed sooner.",
+  },
+  {
+    question: "Do both spouses pay IRMAA if only one is on Medicare?",
+    answer:
+      "IRMAA is applied per Medicare beneficiary, but the income used to calculate it is based on the household's joint tax return if you file jointly. That means only the spouse enrolled in Medicare pays the surcharge, but the couple's combined MAGI determines which bracket applies. When both spouses are on Medicare, each pays their own IRMAA based on the same joint income.",
+  }
 ];
 
 export default function IrmaaPage() {

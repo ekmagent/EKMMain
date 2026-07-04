@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "how much does the best medicare supplemental insurance cost per month | Free Plan-by-Plan Breakdown | MedicareYourself",
   description:
-    "Compare Medicare Supplement Plan G and Plan N monthly costs by carrier, age, and ZIP. Get a free, no-obligation quote — call 855-559-1700 today.",
+    "Compare Medicare Supplement Plan G and Plan N monthly premiums by carrier, age, and ZIP. Get a free, no-obligation quote — call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/how-much-does-the-best-medicare-supplemental-insurance-cost-per-month" },
   openGraph: {
     title:
@@ -387,6 +387,22 @@ const faqs = [
     answer:
       "Yes. Medigap premiums vary widely by ZIP code because carriers price policies based on local claims experience, competition, and state regulations. Two neighbors with identical plans from different carriers can pay very different premiums, which is why comparing quotes across multiple companies is critical.",
   }
+,
+  {
+    question: "Does where I live affect how much I pay for a Medigap plan?",
+    answer:
+      "Yes. Medigap premiums vary widely by ZIP code because carriers factor in local claims experience, state regulations, and regional healthcare costs. Two people the same age with identical plans can pay very different premiums depending on where they live. That's why comparing quotes across carriers in your specific ZIP is essential.",
+  },
+  {
+    question: "Do Medigap premiums increase over time?",
+    answer:
+      "Most Medigap policies see premium increases over time due to inflation and rising healthcare costs. How your rate changes depends on the pricing method your carrier uses — community-rated, issue-age-rated, or attained-age-rated. Attained-age policies typically start lower but rise as you get older, while community-rated policies stay more level.",
+  },
+  {
+    question: "Can I switch Medigap plans later if I find a lower rate?",
+    answer:
+      "You can apply to switch Medigap plans at any time, but outside of your initial Open Enrollment Period or a guaranteed-issue situation, carriers can require medical underwriting. That means they can charge more or deny coverage based on your health. Call 855-559-1700 to review whether switching makes sense for your situation.",
+  }
 ];
 
 export default function HowMuchDoesBestMedicareSupplementalInsuranceCostPerMonth() {
@@ -652,6 +668,7 @@ export default function HowMuchDoesBestMedicareSupplementalInsuranceCostPerMonth
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/shipmain.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
       </section>
     </main>
   );

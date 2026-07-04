@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare Supplement Plan G Cost for a 70-Year-Old | Free Rate Lookup | MedicareYourself",
   description:
-    "Compare Medicare Supplement Plan G premiums for 70-year-olds by carrier, zip code, and pricing model. Get a free rate lookup — call 855-559-1700 today.",
+    "Compare Medicare Supplement Plan G premiums for 70-year-olds by carrier, zip code & pricing model. Free rate lookup — call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-supplement-plan-g-cost-for-70-year-old" },
   openGraph: {
     title:
@@ -99,6 +99,22 @@ const faqs = [
     question: "Are there discounts available on Plan G at age 70?",
     answer:
       "Many carriers offer household discounts when two people in the same home enroll, and some offer non-tobacco or electronic payment discounts. These savings can meaningfully reduce your monthly premium, but the discount amount and eligibility rules vary by carrier and state. A licensed broker can identify which discounts apply to your situation.",
+  }
+,
+  {
+    question: "Why do Plan G premiums vary so much between insurance companies?",
+    answer:
+      "Even though Plan G benefits are federally standardized, each insurance company sets its own premium based on its pricing model, underwriting, administrative costs, and claims experience. Where you live, your zip code, and tobacco status also influence the rate. That's why comparing multiple carriers for the same identical Plan G coverage is essential before enrolling.",
+  },
+  {
+    question: "Is Plan G still worth it at age 70?",
+    answer:
+      "For many 70-year-olds, Plan G remains the most comprehensive Medigap option available to new enrollees, covering nearly all out-of-pocket costs after the Part B deductible. Whether it's the right value depends on your health, budget, and how much predictability you want in your medical spending. A licensed broker can compare your current plan against Plan G options in your zip code at no cost.",
+  },
+  {
+    question: "How can I lower my Plan G premium at age 70?",
+    answer:
+      "You can often reduce your premium by comparing carriers annually, applying household discounts if you live with another adult, avoiding tobacco surcharges, and choosing a carrier with a stable rate history. If you qualify medically, switching to a lower-priced Plan G with the same benefits can save significantly. Call 855-559-1700 for a free rate comparison.",
   }
 ];
 
@@ -341,6 +357,7 @@ export default function MedicareSupplementPlanGCostFor70YearOld() {
             <div className="text-sm text-gray-600 mt-4">For state-specific guidance, visit the <a href="https://www.nj.gov/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> or contact your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">SHIP program</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">For state-specific guidance, visit the <a href="https://www.nj.gov/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> or your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

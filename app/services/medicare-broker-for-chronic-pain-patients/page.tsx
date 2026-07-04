@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for chronic pain patients | Free Coverage Consultation | MedicareYourself",
   description:
-    "Medicare broker Anthony Orner helps chronic pain patients find plans that cover pain management, PT, and specialists. Call 855-559-1700 for a free review.",
+    "Medicare broker Anthony Orner helps chronic pain patients compare plans covering pain management, PT, and specialists. Call 855-559-1700 for a free review.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-chronic-pain-patients" },
   openGraph: {
     title:
@@ -208,6 +208,22 @@ const faqs = [
     question: "Does Medicare cover physical therapy for chronic pain?",
     answer:
       "Yes. Medicare Part B covers medically necessary outpatient physical therapy when prescribed by your doctor as part of a treatment plan. There is no longer a hard cap on therapy services, though claims above a certain threshold may be reviewed for medical necessity. After meeting the Part B deductible, you pay the standard Part B coinsurance.",
+  }
+,
+  {
+    question: "Will my pain medications be covered under Medicare Part D?",
+    answer:
+      "Most prescription pain medications are covered under Medicare Part D or a Medicare Advantage plan with drug coverage, but each plan has its own formulary. Opioid medications may have quantity limits or require prior authorization under CMS safety rules. Always check the specific plan's formulary and any step therapy requirements before enrolling.",
+  },
+  {
+    question: "Does Medicare cover physical therapy for chronic pain?",
+    answer:
+      "Yes. Medicare Part B covers medically necessary physical therapy, occupational therapy, and speech-language pathology services when ordered by your provider. After you meet the Part B deductible, you typically pay a percentage of the Medicare-approved amount. There is no longer a hard cap on therapy services, but higher-cost cases may require additional documentation of medical necessity.",
+  },
+  {
+    question: "Can I switch Medicare plans if my chronic pain treatment changes?",
+    answer:
+      "Yes, but the timing matters. You can generally change Medicare Advantage or Part D plans during the Annual Enrollment Period each fall or the Medicare Advantage Open Enrollment Period in early spring. Certain life events also trigger Special Enrollment Periods. A licensed broker can help you time a change so you don't lose access to your current pain specialists or medications.",
   }
 ];
 
@@ -514,6 +530,7 @@ export default function MedicareBrokerForChronicPainPatients() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Free unbiased counseling: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

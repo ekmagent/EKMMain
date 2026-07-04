@@ -436,6 +436,17 @@ const faqs = [
     answer:
       "Your best window is the 6-month Medigap Open Enrollment Period, which starts the month you're 65 or older and enrolled in Part B. During this window, you have guaranteed issue rights and can't be denied or charged more for health reasons. New Jersey uses community rating, so Medigap premiums aren't based on your individual age.",
   }
+,
+  {
+    question: "When can I enroll in a Medigap plan in New Jersey?",
+    answer:
+      "Your strongest window is the 6-month Medigap Open Enrollment Period, which begins when you're 65 or older and enrolled in Medicare Part B. During this period, insurers cannot deny coverage or charge more based on your health. New Jersey uses community rating for Medigap, so premiums are not based on age. Outside this window, you may face medical underwriting unless you qualify for a guaranteed issue right.",
+  },
+  {
+    question: "Do you serve Medicare beneficiaries throughout Burlington County?",
+    answer:
+      "Yes. Anthony Orner is a licensed independent Medicare broker (NPI 1902584006) serving Burlington County communities including Mount Laurel, Willingboro, Moorestown, Cinnaminson, Medford, and surrounding towns. Consultations are offered by phone, video, or in person at no cost.",
+  }
 ];
 
 export default function MedicareInsuranceAgentsBurlingtonNJ() {
@@ -711,6 +722,7 @@ export default function MedicareInsuranceAgentsBurlingtonNJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey resources: <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" target="_blank" rel="noopener noreferrer" className="underline">NJ Department of Banking and Insurance</a> and free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" target="_blank" rel="noopener noreferrer" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
       </section>
     </>
   );

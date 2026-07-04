@@ -1238,6 +1238,22 @@ const STATIC_CATEGORIES = [
     answer:
       "Enrollment in Original Medicare (Parts A and B) is handled through the Social Security Administration, not through a broker or insurance carrier. You can apply online at SSA.gov, by phone, or in person at a local Social Security office. Once you have your Medicare number, a broker can help you compare Medigap, Medicare Advantage, and Part D options.",
   }
+,
+  {
+    question: "What does an independent Medicare broker do?",
+    answer:
+      "An independent Medicare broker is licensed with multiple insurance carriers and helps you compare Medigap, Medicare Advantage, and Part D plans side by side. Because brokers are paid by the carriers, our help is free to you. Anthony Orner is licensed in NJ and 34 additional states and can review options based on your doctors, medications, and budget.",
+  },
+  {
+    question: "Is there a cost to use MedicareYourself for plan comparisons?",
+    answer:
+      "No. There is no fee to speak with our licensed broker or to enroll through us. Medicare insurance carriers pay brokers a standardized commission set by CMS, so your premium is the same whether you enroll on your own or with our help. Call 855-559-1700 to get started.",
+  },
+  {
+    question: "Can I get official Medicare help outside of a broker?",
+    answer:
+      "Yes. You can call 1-800-MEDICARE (1-800-633-4227), 24 hours a day, 7 days a week, or visit Medicare.gov to compare plans directly. Each state also offers free counseling through the State Health Insurance Assistance Program (SHIP). A licensed broker adds personalized carrier comparisons and enrollment support at no cost to you.",
+  }
 ];
 
 export default function ServicesHubPage() {
@@ -1394,6 +1410,7 @@ export default function ServicesHubPage() {
             <div className="text-sm text-gray-600 mt-2">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/division_consumers/insurance/ship.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents: <a href="https://www.state.nj.us/dobi/division_insurance/ship/shipmain.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> offers free Medicare counseling.</div>
       </section>
     </>
   );

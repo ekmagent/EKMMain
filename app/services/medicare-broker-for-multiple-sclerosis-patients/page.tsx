@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for multiple sclerosis patients | Free Plan Comparison | MedicareYourself",
   description:
-    "Medicare broker for MS patients — Anthony Orner finds plans that cover infusions, MRIs, DMTs and your neurologist. Call 855-559-1700 for a free plan review.",
+    "Medicare broker for MS patients — Anthony Orner finds plans covering infusions, MRIs, DMTs and your neurologist. Call 855-559-1700 for a free plan review.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-multiple-sclerosis-patients" },
   openGraph: {
     title:
@@ -618,6 +618,22 @@ const faqs = [
     answer:
       "If you qualify for Medicare through Social Security Disability Insurance because of MS, there is generally a 24-month waiting period after your SSDI cash benefits begin before Medicare coverage starts. Some people with certain conditions qualify sooner, but MS on its own does not waive the waiting period. Once the waiting period ends, you are automatically enrolled in Part A and Part B.",
   }
+,
+  {
+    question: "Will Medicare cover MRIs needed to monitor MS progression?",
+    answer:
+      "Yes. Medicare Part B covers medically necessary MRIs ordered by your doctor to monitor MS. Under Original Medicare, you pay the Part B coinsurance after meeting the deductible, unless you have Medigap coverage. Medicare Advantage plans also cover MRIs but may require prior authorization and use in-network imaging facilities.",
+  },
+  {
+    question: "Does Medicare Part D cover oral MS disease-modifying therapies?",
+    answer:
+      "Yes. Oral disease-modifying therapies for MS that you take at home are generally covered under Medicare Part D prescription drug plans. Coverage tier, prior authorization, and step therapy requirements vary by plan, so comparing formularies is essential before enrolling. A broker can pull your specific medications against each plan's formulary to find the lowest total cost.",
+  },
+  {
+    question: "Can I keep my neurologist if I switch to a Medicare Advantage plan?",
+    answer:
+      "Only if your neurologist is in that plan's network. Medicare Advantage plans use provider networks, and MS specialists are not always included in every plan. Before enrolling, we verify your neurologist, infusion center, and imaging facility are all in-network — call 855-559-1700 and we'll check for you.",
+  }
 ];
 
 export default function MedicareBrokerForMSPatients() {
@@ -857,6 +873,7 @@ export default function MedicareBrokerForMSPatients() {
             <div className="text-sm text-gray-600 mt-4">For free, unbiased Medicare counseling in your state, contact your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> or the <a href="https://www.nj.gov/dobi/division_insurance/" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
       </section>
       </article>
     </>

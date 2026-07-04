@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare broker for people with pre-existing conditions | Free Guidance | MedicareYourself",
   description:
-    "Have a pre-existing condition? A licensed Medicare broker explains Medigap underwriting, guaranteed issue rights, and Advantage options. Call 855-559-1700 today.",
+    "Have a pre-existing condition? A licensed Medicare broker explains Medigap underwriting, guaranteed issue rights, and Advantage options. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-people-with-pre-existing-conditions" },
   openGraph: {
     title:
@@ -275,6 +275,12 @@ const faqs = [
     answer:
       "Outside of guaranteed issue windows, carriers commonly scrutinize conditions such as COPD, congestive heart failure, recent cancer treatment, diabetes with complications, and certain mental health diagnoses. Each carrier maintains its own list of declinable and rate-up conditions, so an application denied by one company may still be approved by another. A broker who knows current carrier guidelines can route your application to the most lenient option.",
   }
+,
+  {
+    question: "Which pre-existing conditions make Medigap underwriting most difficult?",
+    answer:
+      "Carriers vary, but conditions commonly flagged during underwriting include recent cancer treatment, congestive heart failure, COPD, kidney disease requiring dialysis, and insulin-dependent diabetes with complications. Each carrier maintains its own knockout list and lookback period. A broker familiar with those internal guidelines can steer you toward carriers most likely to approve your specific health history.",
+  }
 ];
 
 export default function MedicareBrokerPreExistingConditions() {
@@ -500,6 +506,7 @@ export default function MedicareBrokerPreExistingConditions() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased Medicare counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </main>

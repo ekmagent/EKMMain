@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "enroll in medicare supplement plan g at 70 | Free Broker Help | MedicareYourself",
   description:
-    "Enroll in Medicare Supplement Plan G at 70 with free broker help. Compare carriers, navigate underwriting, and lock in stable rates. Call 855-559-1700 today.",
+    "Enroll in Medicare Supplement Plan G at 70 with free broker help. Navigate underwriting, compare top carriers, and lock in stable rates. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/enroll-in-medicare-supplement-plan-g-at-70" },
   openGraph: {
     title:
@@ -176,6 +176,22 @@ const faqs = [
     question: "What happens if I'm denied Plan G at 70 due to underwriting?",
     answer:
       "If one carrier denies you, another may still approve you since each company applies different underwriting standards. A broker who represents multiple carriers can match your health profile to the most lenient underwriter. If no carrier approves you, alternatives like Plan N or a Medicare Advantage plan may be worth considering.",
+  }
+,
+  {
+    question: "Does Plan G cover the same benefits at every carrier?",
+    answer:
+      "Yes. Medigap Plan G benefits are standardized by the federal government, so the coverage is identical no matter which insurance company you buy from. The only differences between carriers are the monthly premium, rate stability over time, and customer service. That's why comparing carriers matters more than comparing plan letters.",
+  },
+  {
+    question: "Can I switch from Medicare Advantage to Plan G at age 70?",
+    answer:
+      "Yes, but timing and underwriting are key. You can request to switch during the Medicare Advantage Open Enrollment Period or the Annual Election Period, but most carriers will still require you to answer health questions unless you qualify for Guaranteed Issue rights. A broker can help you check underwriting guidelines before you drop your current coverage.",
+  },
+  {
+    question: "What does Plan G not cover?",
+    answer:
+      "Plan G does not cover the Part B deductible, prescription drugs, dental, vision, hearing aids, or long-term custodial care. You'll still need a separate Part D plan for medications, and standalone dental or vision coverage if you want those benefits. Call 855-559-1700 to review how to fill those gaps.",
   }
 ];
 
@@ -428,6 +444,7 @@ export default function EnrollInMedicareSupplementPlanGAt70() {
             <div className="text-sm text-gray-600 mt-4">Need state-specific help? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free local Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">Need state-specific help? Contact <a href="https://www.state.nj.us/dobi/division_insurance/ship/shipmain.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey SHIP</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">For state-specific Medigap rights and free counseling, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> or your state Department of Insurance.</div>
+            <div className="text-sm text-gray-600 mt-4">For state-specific Medigap rights and free counseling, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a> or the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a>.</div>
       </section>
       </article>
     </>

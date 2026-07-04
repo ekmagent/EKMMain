@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "how long does it take to enroll in medicare supplements | Free Help | MedicareYourself",
   description:
-    "Medicare Supplement enrollment usually takes 10–20 minutes. During Medigap Open Enrollment, approval is guaranteed. Call 855-559-1700 for free help today.",
+    "How long does it take to enroll in Medicare Supplements? Most applications take 10–20 minutes and approval is guaranteed during Medigap Open Enrollment. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/how-long-does-it-take-to-enroll-in-medicare-supplements" },
   openGraph: {
     title:
@@ -321,6 +321,7 @@ export default function HowLongToEnrollMedigapPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Need free one-on-one help? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medigap counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">Need state-specific help? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">local SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
       </section>
     </main>
   );

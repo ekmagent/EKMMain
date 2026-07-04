@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "How to Sign Up for Medicare (2026 Guide)",
   description:
-    "2026 step-by-step guide to signing up for Medicare through Social Security, avoiding Part B penalties, and picking coverage. Free help: 855-559-1700.",
+    "2026 step-by-step guide to signing up for Medicare through Social Security, avoiding Part B penalties, and choosing coverage. Free expert help: 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/how-to-sign-up-for-medicare` },
   openGraph: {
     title: "How to Sign Up for Medicare (2026 Guide)",
@@ -1228,6 +1228,22 @@ const faqs = [
     question: "What if I miss my Medicare enrollment deadline?",
     answer:
       "If you miss your Initial Enrollment Period and do not qualify for a Special Enrollment Period, you may have to wait for the General Enrollment Period (January 1 through March 31) to sign up. You could also face a permanent Part B late enrollment penalty added to your monthly premium. Call 855-559-1700 to review your options.",
+  }
+,
+  {
+    question: "Can I sign up for Medicare if I am still working at 65?",
+    answer:
+      "Yes. You can enroll in premium-free Part A at 65 even if you are still working, and many people do since it costs nothing for those with 40+ work credits. If your employer group coverage is considered creditable, you may delay Part B without penalty and enroll later through a Special Enrollment Period. Confirm with your HR department in writing before delaying Part B.",
+  },
+  {
+    question: "What happens if I miss my Medicare Initial Enrollment Period?",
+    answer:
+      "If you miss your Initial Enrollment Period and do not qualify for a Special Enrollment Period, you will have to wait for the General Enrollment Period, which runs January 1 through March 31 each year. Coverage begins the month after you enroll. You may also owe a permanent Part B late enrollment penalty added to your monthly premium for as long as you have Medicare.",
+  },
+  {
+    question: "How long does it take to get my Medicare card after I apply?",
+    answer:
+      "Most people receive their red, white, and blue Medicare card in the mail within about 3 weeks of applying through Social Security. If you are automatically enrolled, your card typically arrives about 3 months before your 65th birthday. You can also print an official copy of your card from your My Social Security account online.",
   }
 ];
 

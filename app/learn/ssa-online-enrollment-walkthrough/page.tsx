@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title:
     "How to Enroll in Medicare Online at SSA.gov (Step-by-Step Walkthrough)",
   description:
-    "Step-by-step SSA.gov Medicare enrollment walkthrough — sign up for Part A & B online in about 10 minutes. Free broker guidance at 855-559-1700.",
+    "Step-by-step SSA.gov Medicare enrollment walkthrough — apply online for Part A & B in about 10 minutes. Free broker guidance at 855-559-1700.",
   alternates: {
     canonical: `${SITE_URL}/learn/ssa-online-enrollment-walkthrough`,
   },
@@ -1344,6 +1344,22 @@ const steps = [
     question: "Can I change my application after submitting it online?",
     answer:
       "No. Once you agree to the Electronic Signature Agreement and click Submit Now, the application is final and cannot be modified online. If you need to correct information or change your Part B decision, you'll need to contact the Social Security Administration directly.",
+  }
+,
+  {
+    question: "Do I sign up for Medicare through Medicare.gov or SSA.gov?",
+    answer:
+      "You enroll in Medicare Part A and Part B through the Social Security Administration at SSA.gov, not Medicare.gov. Medicare.gov is the official resource for learning about coverage and comparing plans, but the actual application for Original Medicare is handled by Social Security. Online enrollment is the fastest option for most people turning 65.",
+  },
+  {
+    question: "How long does the SSA online Medicare application take?",
+    answer:
+      "Most people complete the SSA.gov Medicare application in about 10 minutes if they have their information ready. You'll need your Social Security number, a driver's license or state ID for identity verification, and details about any current employer health coverage. The application can be paused and resumed if needed before you submit.",
+  },
+  {
+    question: "Can I change my application after I submit it on SSA.gov?",
+    answer:
+      "No. Once you agree to the Electronic Signature Agreement and click Submit Now, the application is final and cannot be modified online. If you need to correct information or change your Part B election, you'll have to contact Social Security directly by phone or at your local field office.",
   }
 ];
 

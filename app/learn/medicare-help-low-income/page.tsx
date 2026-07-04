@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Medicare Help on a Fixed Income (2026)",
   description:
-    "Lower Medicare costs with Extra Help, QMB, SLMB & Medicare Savings Programs. See if you qualify — free help from a licensed broker. Call 855-559-1700.",
+    "Lower your Medicare costs with Extra Help, QMB, SLMB & Medicare Savings Programs. See if you qualify — free help from a licensed broker. Call 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/medicare-help-low-income` },
   openGraph: {
     title: "Medicare Help on a Fixed Income (2026)",

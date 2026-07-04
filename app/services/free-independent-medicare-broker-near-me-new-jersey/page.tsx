@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "free independent medicare broker near me new jersey | Free Quote | MedicareYourself",
   description:
-    "Work with a free independent Medicare broker in New Jersey. Anthony Orner compares Medigap & Advantage plans from top carriers. Call 855-559-1700 today.",
+    "Free independent Medicare broker in New Jersey. Anthony Orner compares Medigap & Advantage plans from top carriers at no cost. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/free-independent-medicare-broker-near-me-new-jersey" },
   openGraph: {
     title:
@@ -317,6 +317,22 @@ const faqs = [
     question: "When can I enroll in a Medigap plan in New Jersey?",
     answer:
       "Your best opportunity is the 6-month Medigap Open Enrollment Period, which begins the month you are 65 or older and enrolled in Medicare Part B. During this window, you have guaranteed issue rights and cannot be denied coverage or charged more for health reasons. Outside this window, medical underwriting may apply unless you qualify for a separate guaranteed issue situation.",
+  }
+,
+  {
+    question: "Does New Jersey use community rating for Medigap?",
+    answer:
+      "Yes. New Jersey uses community rating for Medicare Supplement (Medigap) plans, which means premiums are not based on your individual age. All enrollees in the same plan with the same carrier are charged the same base rate regardless of how old they are.",
+  },
+  {
+    question: "When can I enroll in a Medigap plan in New Jersey?",
+    answer:
+      "Your best opportunity is the 6-month Medigap Open Enrollment Period, which begins the month you're 65 or older and enrolled in Medicare Part B. During this window you have guaranteed issue rights and cannot be denied coverage or charged more for health reasons. Outside this window, medical underwriting typically applies unless you qualify for a specific guaranteed issue situation.",
+  },
+  {
+    question: "How many carriers does an independent New Jersey broker represent?",
+    answer:
+      "An independent broker like Anthony Orner is appointed with multiple Medigap and Medicare Advantage carriers licensed in New Jersey. That allows a side-by-side comparison of premiums, networks, drug coverage, and extra benefits so you can choose based on your doctors, prescriptions, and budget — not on which single company an agent happens to represent.",
   }
 ];
 

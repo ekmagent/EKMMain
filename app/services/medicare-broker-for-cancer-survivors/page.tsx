@@ -89,6 +89,22 @@ const faqs = [
     answer:
       "Self-administered oral cancer drugs typically fall under Part D. In 2025 and beyond, Part D has a $2,000 annual out-of-pocket cap, which significantly reduces costs for expensive cancer medications. The specific drug must be on your plan's formulary, so the right Part D plan matters enormously.",
   },
+,
+  {
+    question: "Does Medicare cover cancer screenings for survivors?",
+    answer:
+      "Yes. Medicare Part B covers a range of cancer screenings including mammograms, colorectal screenings, cervical and prostate screenings, and lung cancer screening for eligible beneficiaries. Many preventive screenings are covered at no cost when performed by a provider who accepts assignment. Diagnostic follow-up tests after a positive screening may have cost-sharing.",
+  },
+  {
+    question: "What's the difference between Medicare Advantage and Medigap for a cancer survivor?",
+    answer:
+      "Medicare Advantage plans typically use networks and require prior authorization for scans, chemotherapy, and specialist visits, with an annual out-of-pocket maximum. Medigap (Supplement) plans pair with Original Medicare, let you see any provider nationwide that accepts Medicare, and cover most or all cost-sharing depending on the letter plan. For survivors who see specialists across systems, Medigap often provides more predictable access.",
+  },
+  {
+    question: "Where can cancer survivors get help beyond Medicare coverage?",
+    answer:
+      "Nonprofit organizations like CancerCare offer free counseling from oncology social workers, resource navigation, support groups, and financial assistance information for people living with cancer and their caregivers. Your State Health Insurance Assistance Program (SHIP) can also provide free, unbiased Medicare counseling. I can help you coordinate these resources alongside your coverage review.",
+  }
 ];
 
 export default function MedicareBrokerForCancerSurvivors() {
@@ -277,6 +293,7 @@ export default function MedicareBrokerForCancerSurvivors() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents: <a href="https://www.state.nj.us/dobi/division_consumers/insurance/ship.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> offers free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">Free, unbiased counseling: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents: contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </main>
   );

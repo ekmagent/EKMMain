@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "hoboken nj medicare insurance agents | Free Consultation | MedicareYourself",
   description:
-    "Hoboken NJ Medicare insurance agents — compare Supplement, Advantage & Part D plans across Hudson County carriers. Free, no-pressure consultation. Call 855-559-1700.",
+    "Hoboken NJ Medicare insurance agents — compare Supplement, Advantage & Part D plans across Hudson County carriers. Free consultation. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/hoboken-nj-medicare-insurance-agents" },
   openGraph: {
     title:
