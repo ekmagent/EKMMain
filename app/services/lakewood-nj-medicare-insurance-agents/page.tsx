@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "lakewood nj medicare insurance agents | Free Rate Comparison | MedicareYourself",
   description:
-    "Lakewood NJ Medicare insurance agents compare every top carrier in Ocean County at no cost. Anthony Orner shops plans for you. Call 855-559-1700 today.",
+    "Lakewood NJ Medicare agents compare every top carrier in Ocean County at no cost. Anthony Orner shops plans for you — call 855-559-1700 for a free quote.",
   alternates: { canonical: "https://medicareyourself.com/services/lakewood-nj-medicare-insurance-agents" },
   openGraph: {
     title:
@@ -344,6 +344,7 @@ export default function LakewoodNJMedicareInsuranceAgents() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased Medicare counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free unbiased Medicare counseling.</div>
       </section>
       </article>
     </>

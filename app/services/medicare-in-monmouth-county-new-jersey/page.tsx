@@ -159,6 +159,17 @@ const faqs = [
     answer:
       "New Jersey requires Medigap insurers to use community rating, which means premiums for the same plan are not based on your age. Every enrollee in a given plan from the same carrier pays the same base rate, though premiums can still vary between carriers. This makes comparing Medigap quotes from multiple insurers especially important for Monmouth County residents.",
   }
+,
+  {
+    question: "Does Monmouth County offer a Medicare Part B reimbursement program?",
+    answer:
+      "Monmouth County operates a Medicare Part B Reimbursement program for eligible retirees, administered through the county. Details, eligibility, and the request form are available at medicare.co.monmouth.nj.us, or by calling (732) 683-8955 or emailing Medicarehelp@co.monmouth.nj.us.",
+  },
+  {
+    question: "How does a Medigap plan work for Monmouth County residents?",
+    answer:
+      "A Medigap (Medicare Supplement) policy pairs with Original Medicare to help cover out-of-pocket costs like coinsurance and deductibles. New Jersey uses community rating, so premiums for a given plan are the same regardless of age. Your best time to enroll is during your 6-month Medigap Open Enrollment Period that begins the month you are 65 and enrolled in Part B.",
+  }
 ];
 
 export default function MedicareInMonmouthCountyNewJersey() {

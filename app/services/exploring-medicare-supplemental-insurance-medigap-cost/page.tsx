@@ -85,6 +85,22 @@ const faqs = [
     answer:
       "Plan G is the most commonly purchased Medigap plan. It covers everything except the annual Part B deductible ($283 in 2026). Plan N is a popular lower-cost alternative, though it has small copays for some office and ER visits.",
   },
+,
+  {
+    question: "Does a Medigap policy cover prescription drugs?",
+    answer:
+      "No. Medigap policies sold today do not include prescription drug coverage. To get drug coverage, you'll need to enroll in a separate Medicare Part D plan. A licensed broker can help you pair your Medigap policy with a Part D plan that fits your medications.",
+  },
+  {
+    question: "Do I need both Medicare Part A and Part B to buy a Medigap policy?",
+    answer:
+      "Yes. To purchase a Medigap policy, you generally must be enrolled in both Part A (Hospital Insurance) and Part B (Medical Insurance). Medigap works alongside Original Medicare to help pay your share of covered costs like copayments, coinsurance, and deductibles.",
+  },
+  {
+    question: "Does a Medigap premium ever go up over time?",
+    answer:
+      "Yes. Medigap premiums can increase due to inflation, rising medical costs, and the carrier's pricing model (issue-age, attained-age, or community-rated). Reviewing your rate each year with a licensed broker helps confirm you're still on a competitive plan. Call 855-559-1700 for a free rate comparison.",
+  }
 ];
 
 export default function ExploringMedigapCostPage() {
@@ -378,6 +394,7 @@ export default function ExploringMedigapCostPage() {
             <div className="text-sm text-gray-600 mt-4">Need state-specific help? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-700 underline">local SHIP counselor</a> or the <a href="https://www.nj.gov/dobi/division_insurance/" rel="noopener noreferrer" target="_blank" className="text-blue-700 underline">NJ Department of Banking and Insurance</a> for free, unbiased guidance.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents: contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or the free <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP counseling program</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">Need state-level help? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free one-on-one Medicare counseling.</div>
       </section>
     </main>
   );

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare enrollment help for people with diabetes texas | Free Guidance | MedicareYourself",
   description:
-    "Texas Medicare help for diabetes — compare plans covering insulin, CGMs, pumps & test strips. Call 855-559-1700 for free licensed broker guidance.",
+    "Texas Medicare help for diabetes — compare plans covering insulin, CGMs, pumps & testing supplies. Call 855-559-1700 for free licensed broker guidance today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-enrollment-help-for-people-with-diabetes-texas" },
   openGraph: {
     title:
@@ -208,6 +208,22 @@ const faqs = [
     question: "When can I enroll in Medicare in Texas if I have diabetes?",
     answer:
       "Your Initial Enrollment Period is the 7-month window around your 65th birthday. If you miss it, you can enroll during the General Enrollment Period from January 1 to March 31 each year. Diabetes is not a disqualifying condition, and Original Medicare and Medicare Advantage plans cannot deny you coverage based on health status.",
+  }
+,
+  {
+    question: "Does Medicare cover insulin pumps for Texans with diabetes?",
+    answer:
+      "Medicare Part B covers external insulin pumps and the insulin used in them as durable medical equipment when your doctor certifies medical necessity. You'll typically pay the Part B coinsurance after meeting the deductible. Many Medicare Advantage plans in Texas also cover pumps, and a licensed broker can help you compare supply networks.",
+  },
+  {
+    question: "Are diabetes self-management training sessions covered by Medicare?",
+    answer:
+      "Yes. Medicare Part B covers diabetes self-management training (DSMT) if your doctor certifies you need it to manage your condition. The program teaches you how to monitor blood sugar, take medications properly, and reduce complications. You pay the standard Part B coinsurance after the deductible.",
+  },
+  {
+    question: "How do I choose between Medicare Advantage and Original Medicare with diabetes in Texas?",
+    answer:
+      "Original Medicare with a Medigap plan and a standalone Part D plan gives you the widest provider access, which matters if you see specialists like endocrinologists. Medicare Advantage plans in Texas often bundle drug coverage and may include extras like CGM supplies or meal benefits, but use provider networks. A licensed broker can compare both against your medications and doctors.",
   }
 ];
 
@@ -476,6 +492,7 @@ export default function MedicareEnrollmentHelpDiabetesTexas() {
             <div className="text-sm text-gray-600 mt-4">Texas resources: <a href="https://www.hhs.texas.gov/services/health/medicare" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Texas Health and Human Services — Medicare</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Texas resource: <a href="https://www.hhs.texas.gov/services/health/medicare" rel="noopener noreferrer" target="_blank" className="underline">Texas Health and Human Services — Medicare</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Texas resource: <a href="https://www.hhs.texas.gov/services/health/medicare" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Texas Health and Human Services — Medicare</a></div>
+            <div className="text-sm text-gray-600 mt-4">Texas residents: contact the <a href="https://www.tdi.texas.gov/hicap/" rel="noopener noreferrer" target="_blank" className="underline">Texas Health Information, Counseling &amp; Advocacy Program (HICAP/SHIP)</a> for free local Medicare counseling.</div>
       </section>
     </main>
   );

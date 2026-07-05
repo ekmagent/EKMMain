@@ -193,6 +193,22 @@ const faqs = [
     answer:
       "Plan G does not cover the Part B deductible, prescription drugs, dental, vision, hearing aids, or long-term custodial care. You'll still need a separate Part D plan for medications, and standalone dental or vision coverage if you want those benefits. Call 855-559-1700 to review how to fill those gaps.",
   }
+,
+  {
+    question: "Can my state offer more opportunities to buy Plan G at 70?",
+    answer:
+      "Yes. While federal rules govern Medigap Open Enrollment and Guaranteed Issue rights, some states offer additional protections that let you switch or buy a Medigap policy outside those windows. It's worth checking with your state insurance department or SHIP program before assuming you'll need underwriting. Call 855-559-1700 and we'll check your state's rules with you.",
+  },
+  {
+    question: "How do I actually buy a Plan G policy at 70?",
+    answer:
+      "First, decide Plan G is the right lettered plan for your needs, then compare carriers offering that plan in your zip code. Under federal law, every insurer must sell the same standardized Plan G benefits, so the differences come down to premium, rate stability, and underwriting leniency. A licensed broker can quote multiple carriers at once so you don't have to apply blindly.",
+  },
+  {
+    question: "Can I switch from Medicare Advantage to Plan G at 70?",
+    answer:
+      "Yes, but timing matters. If you're in your Medicare Advantage trial period or qualify for a Guaranteed Issue right, you can enroll in Plan G without health questions. Outside those windows, you'll typically go through medical underwriting, so it helps to know which carriers are most likely to approve you before you drop your Advantage plan.",
+  }
 ];
 
 export default function EnrollInMedicareSupplementPlanGAt70() {

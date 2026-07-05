@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "when can i change my medicare supplement plan for 2026 | Free Switching Help | MedicareYourself",
   description:
-    "When can you change your Medicare Supplement plan for 2026? Learn switch windows, guaranteed-issue rights, and how to lower premiums. Free broker help: 855-559-1700.",
+    "Change your Medicare Supplement plan for 2026: learn switch windows, guaranteed-issue rights, and underwriting rules. Free broker help at 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/when-can-i-change-my-medicare-supplement-plan-for-2026" },
   openGraph: {
     title:
@@ -513,6 +513,22 @@ const faqs = [
     question: "Does my state offer extra rights to change Medigap plans?",
     answer:
       "Some states provide broader switching rights than federal law, such as annual birthday or anniversary rules that allow you to change plans without underwriting. Contact your State Insurance Department or call 855-559-1700 to find out what protections apply where you live.",
+  }
+,
+  {
+    question: "Will I need medical underwriting to switch my Medigap plan in 2026?",
+    answer:
+      "In most cases, yes. Outside your 6-month Medigap Open Enrollment Period or a guaranteed-issue situation, carriers can review your health history and may deny coverage or charge more. Some states offer broader switching rights, so it's worth checking your state's rules before applying.",
+  },
+  {
+    question: "What happens to my old Medigap plan when I switch carriers?",
+    answer:
+      "You should not cancel your existing Medigap policy until the new one is approved and active. Once your new plan starts, you have a 30-day free-look period to compare both policies. After you're satisfied, you can cancel the old policy to avoid paying two premiums.",
+  },
+  {
+    question: "Does my state give me extra rights to change Medigap plans?",
+    answer:
+      "Some states provide switching protections beyond federal law, such as annual birthday or anniversary rules that let you change to an equal or lesser plan without underwriting. Contact your State Insurance Department or SHIP program to confirm what applies where you live.",
   }
 ];
 

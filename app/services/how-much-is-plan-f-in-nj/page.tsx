@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "how much is plan F in nj | Free Rate Lookup by Age | MedicareYourself",
   description:
-    "How much is Plan F in NJ? Compare 2026 Medigap rates by age and see if Plan G saves you more. Call 855-559-1700 for a free side-by-side quote.",
+    "How much is Plan F in NJ? Compare 2026 Medigap rates by age and see if Plan G saves you more. Call 855-559-1700 for a free side-by-side quote today.",
   alternates: { canonical: "https://medicareyourself.com/services/how-much-is-plan-f-in-nj" },
   openGraph: {
     title:
@@ -316,6 +316,7 @@ export default function HowMuchIsPlanFInNJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank">NJ SHIP (State Health Insurance Assistance Program)</a> for free unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">For state-specific help, visit the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> or the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also review Medigap rate charts through the <a href="https://www.nj.gov/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">For free NJ counseling, contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey State Health Insurance Assistance Program (SHIP)</a> or the <a href="https://www.state.nj.us/dobi/" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a>.</div>
       </section>
     </main>
   );

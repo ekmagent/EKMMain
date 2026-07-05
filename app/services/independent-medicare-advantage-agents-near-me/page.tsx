@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "independent medicare advantage agents near me | Free NJ Consultations | MedicareYourself",
   description:
-    "Compare every major Medicare Advantage plan in your NJ county with an independent agent. No cost, no pressure. Call 855-559-1700 for a free review.",
+    "Work with an independent NJ Medicare Advantage agent who compares every major plan in your county at no cost. Call 855-559-1700 for a free review.",
   alternates: { canonical: "https://medicareyourself.com/services/independent-medicare-advantage-agents-near-me" },
   openGraph: {
     title:

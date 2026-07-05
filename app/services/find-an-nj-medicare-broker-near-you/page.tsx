@@ -133,6 +133,12 @@ const faqs = [
     answer:
       "Yes. New Jersey's State Health Insurance Assistance Program (SHIP) offers free Medicare counseling through trained volunteers. SHIP counselors don't sell plans, while a licensed broker can both advise you and complete enrollment. Many beneficiaries use both resources.",
   }
+,
+  {
+    question: "How do I verify a New Jersey Medicare broker is properly licensed?",
+    answer:
+      "You can verify any broker's license through the New Jersey Department of Banking and Insurance producer search tool. Ask for the broker's National Producer Number (NPN) and confirm they hold an active health/life license in New Jersey. Anthony Orner's NPI is 1902584006 and he is licensed in NJ plus 34 other states.",
+  }
 ];
 
 export default function FindNJMedicareBrokerNearYou() {

@@ -9,7 +9,7 @@ import { MF } from "@/lib/medicare-figures";
 export const metadata: Metadata = {
   title: "How to Enroll in a Medicare Supplement Plan (2026): The 5-Step Guide",
   description:
-    "The 5-step guide to enrolling in a Medicare Supplement plan in 2026 and locking in your 6-month guaranteed-issue window. Call 855-559-1700 to compare carriers.",
+    "The 5-step guide to enrolling in a Medicare Supplement plan in 2026 and locking in your 6-month guaranteed-issue window. Call 855-559-1700 to compare every carrier.",
   alternates: { canonical: `${SITE_URL}/learn/how-to-enroll-in-a-medicare-supplement-plan` },
   openGraph: {
     title: "How to Enroll in a Medicare Supplement Plan (2026): The 5-Step Guide",
@@ -1110,6 +1110,22 @@ const faqs = [
     question: "Do I need to re-enroll in my Medigap plan every year?",
     answer:
       "No. Medicare Supplement policies are guaranteed renewable, meaning the carrier cannot cancel your plan as long as you pay the premium. Unlike Medicare Advantage plans, there is no annual election period requirement for Medigap — your coverage continues year after year automatically.",
+  }
+,
+  {
+    question: "When is the best time to buy a Medicare Supplement policy?",
+    answer:
+      "The best time to buy a Medigap policy is during your 6-month Medigap Open Enrollment Period, which starts the first month you are both 65 or older and enrolled in Part B. During this window, you have a guaranteed right to buy any Medigap plan sold in your state at the best available rate. Outside this window, carriers in most states can use medical underwriting to deny you or charge more.",
+  },
+  {
+    question: "Do I need to be enrolled in Medicare Part A and Part B before I apply?",
+    answer:
+      "Yes. You must be enrolled in both Medicare Part A and Part B before a carrier can issue you a Medigap policy. If you are not yet enrolled, you can sign up through the Social Security Administration at ssa.gov/medicare.",
+  },
+  {
+    question: "Can I switch Medigap carriers later if I find a lower price?",
+    answer:
+      "You can apply to switch Medigap carriers at any time, but outside your 6-month Medigap Open Enrollment Period or a guaranteed-issue situation, most states allow carriers to use medical underwriting. That means they can deny your application or charge more based on your health. This is why comparing every carrier before you first enroll matters so much.",
   }
 ];
 

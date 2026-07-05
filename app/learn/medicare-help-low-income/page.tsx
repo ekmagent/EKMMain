@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Medicare Help on a Fixed Income (2026)",
   description:
-    "Lower your Medicare costs with Extra Help, QMB, SLMB & Medicare Savings Programs. See if you qualify — free help from a licensed broker. Call 855-559-1700.",
+    "Lower Medicare costs with Extra Help, QMB & SLMB. See if you qualify for programs that pay premiums and drug costs — free broker help at 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/medicare-help-low-income` },
   openGraph: {
     title: "Medicare Help on a Fixed Income (2026)",
@@ -345,6 +345,22 @@ const programs = [
     question: "Can I have both Medicare and Medicaid at the same time?",
     answer:
       "Yes. People who qualify for both are called \"dual eligibles,\" and Medicaid often pays for costs Medicare doesn't cover, including most cost-sharing. Dual eligibles also automatically qualify for Extra Help with drug costs. A licensed broker can help you choose a plan designed for dual-eligible members — call 855-559-1700.",
+  }
+,
+  {
+    question: "How do I apply for a Medicare Savings Program?",
+    answer:
+      "You apply through your state Medicaid office, not through Medicare or Social Security. Each state has slightly different income and asset rules, so it is worth applying even if you are not sure you qualify. In New Jersey, applications go through NJ FamilyCare. A licensed broker can point you to the right agency at 855-559-1700.",
+  },
+  {
+    question: "Will Extra Help affect my Social Security or other benefits?",
+    answer:
+      "No. Extra Help only reduces what you pay for Medicare Part D prescription drug coverage — it does not lower your Social Security check or affect other benefits you receive. You can apply for Extra Help directly through the Social Security Administration at ssa.gov or by calling 1-800-772-1213. Approval is based on income and resources.",
+  },
+  {
+    question: "If I qualify for QMB, do I still need a Medicare Advantage or Part D plan?",
+    answer:
+      "You will still need Part D drug coverage, but QMB pairs automatically with Extra Help so your drug costs are minimal. Some people with QMB choose a Dual Special Needs Plan (D-SNP) that combines Medicare and Medicaid benefits into one plan. A licensed broker can review your options at no cost to you.",
   }
 ];
 

@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
   description:
-    "IRMAA explained: how Medicare's income surcharge affects Part B & Part D, who pays, and how to appeal with SSA-44. Free broker help — call 855-559-1700.",
+    "IRMAA explained: how Medicare's income surcharge works for Part B & Part D, who pays, and how to appeal with Form SSA-44. Free broker help — call 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/irmaa-medicare-surcharge` },
   openGraph: {
     title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
@@ -1227,6 +1227,22 @@ const faqs = [
     question: "Do both spouses pay IRMAA if only one is on Medicare?",
     answer:
       "IRMAA is applied per Medicare beneficiary, but the income used to calculate it is based on the household's joint tax return if you file jointly. That means only the spouse enrolled in Medicare pays the surcharge, but the couple's combined MAGI determines which bracket applies. When both spouses are on Medicare, each pays their own IRMAA based on the same joint income.",
+  }
+,
+  {
+    question: "How do I appeal an IRMAA determination if my income has dropped?",
+    answer:
+      "If you've experienced a life-changing event that reduced your income, you can file Form SSA-44 with the Social Security Administration to request a lower IRMAA. Qualifying events include retirement, marriage, divorce, death of a spouse, or loss of pension income. Submit the form with documentation to your local SSA office, and if approved, they will use your more recent income to calculate your surcharge.",
+  },
+  {
+    question: "Is IRMAA recalculated every year?",
+    answer:
+      "Yes. Social Security reviews your tax return data from the IRS every year and recalculates whether you owe IRMAA based on your most recent available return. If your income drops below the threshold in a future year, the surcharge will be removed automatically once SSA receives the updated tax data.",
+  },
+  {
+    question: "How is the IRMAA surcharge paid?",
+    answer:
+      "For Part B, the IRMAA surcharge is added to your monthly Part B premium and typically deducted directly from your Social Security benefit. For Part D, the surcharge is billed separately by Medicare or Social Security — not by your Part D plan — even though the base premium is paid to the drug plan.",
   }
 ];
 

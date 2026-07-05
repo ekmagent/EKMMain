@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "average cost of supplemental health insurance for seniors with medicare | Free Broker Comparison | MedicareYourself",
   description:
-    "Compare 2026 Medigap costs by plan, age, and state. A licensed broker shops every top carrier free to find your lowest rate. Call 855-559-1700 for a quote.",
+    "Compare 2026 Medigap costs by plan, age, and state. A licensed broker shops every top carrier free to find your lowest rate. Call 855-559-1700 to compare.",
   alternates: { canonical: "https://medicareyourself.com/services/average-cost-of-supplemental-health-insurance-for-seniors-with-medicare" },
   openGraph: {
     title:
@@ -835,6 +835,22 @@ const faqs = [
     answer:
       "Yes. Medigap premiums vary widely by state and even by zip code within the same state. Insurance companies base rates on local claims experience, state regulations, and cost of care in your area. Two people with identical health profiles can pay very different premiums simply because they live in different regions.",
   }
+,
+  {
+    question: "Does the Medigap plan letter affect how much I pay each month?",
+    answer:
+      "Yes. Higher-benefit plans like Plan G and Plan F generally cost more than lower-benefit options like Plan K, Plan L, or Plan N. However, plans with the same letter offer identical benefits across all carriers, so the premium is the only real variable when comparing the same plan letter.",
+  },
+  {
+    question: "Will my Medigap premium increase as I get older?",
+    answer:
+      "It depends on how the carrier prices the plan. Community-rated policies charge the same premium regardless of age, issue-age-rated policies base the premium on your age at purchase, and attained-age-rated policies increase as you get older. All three types are also subject to inflation and claims-driven rate adjustments.",
+  },
+  {
+    question: "Can a licensed broker help me find the lowest Medigap rate for free?",
+    answer:
+      "Yes. Because every carrier files identical benefits under each plan letter, an independent broker can compare rates across multiple insurance companies at no cost to you. Premiums are set by the carrier and regulators, so you pay the same rate whether you enroll through a broker or directly. Call 855-559-1700 to compare your options.",
+  }
 ];
 
 export default function AverageCostSupplementalInsurancePage() {
@@ -1080,6 +1096,7 @@ export default function AverageCostSupplementalInsurancePage() {
             <div className="text-sm text-gray-600 mt-4">State help: <a href="https://www.state.nj.us/dobi/division_insurance/ihcseh/shipindex.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> offers free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">Need state-specific help? Contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> or your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">SHIP counselor</a> for free unbiased Medigap guidance.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">For free, unbiased counseling in your state, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a> or the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a>.</div>
       </section>
     </main>
   );

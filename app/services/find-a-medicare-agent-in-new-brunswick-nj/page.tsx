@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "find a medicare agent in new brunswick nj | Free Local Guidance | MedicareYourself",
   description:
-    "Find a Medicare agent in New Brunswick, NJ for free plan comparisons across every top carrier. Call licensed broker Anthony Orner at 855-559-1700 today.",
+    "Find a licensed Medicare agent in New Brunswick, NJ for free plan comparisons across every top carrier. Call Anthony Orner at 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/find-a-medicare-agent-in-new-brunswick-nj" },
   openGraph: {
     title:
@@ -293,6 +293,7 @@ export default function FindMedicareAgentNewBrunswickNJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free unbiased counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free unbiased Medicare counseling.</div>
       </section>
       </article>
     </>

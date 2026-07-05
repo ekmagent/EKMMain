@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare agent near me | Free Local Broker Help, No Obligation | MedicareYourself",
   description:
-    "Find a local Medicare agent near you. Independent broker Anthony Orner compares 30+ carriers free by phone, video, or in person. Call 855-559-1700 today.",
+    "Looking for a Medicare agent near you? Independent broker Anthony Orner compares 30+ carriers free by phone, video, or in person. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-agent-near-me" },
   openGraph: {
     title:
@@ -84,6 +84,22 @@ const faqs = [
     answer:
       "Absolutely. Licensed brokers can conduct full consultations and enrollments by phone, video, or in person. All methods are CMS-compliant. Choose whatever feels most comfortable for you.",
   },
+,
+  {
+    question: "How do I find a licensed Medicare agent near me?",
+    answer:
+      "You can verify any agent's license through your state's Department of Banking and Insurance and confirm their National Producer Number (NPI) on the National Insurance Producer Registry. Ask whether they are independent or captive, and which carriers they represent in your ZIP code. A local agent should also be familiar with the provider networks and pharmacies you already use.",
+  },
+  {
+    question: "Does a Medicare agent have to meet me in person?",
+    answer:
+      "No. CMS rules allow enrollments to be completed by phone, video, or in person as long as scope-of-appointment and consent requirements are followed. Many people prefer phone or video because it lets them share their screen, view plan comparisons, and enroll the same day. In-person meetings remain an option when you'd rather sit down together.",
+  },
+  {
+    question: "What should I bring to my first meeting with a Medicare agent?",
+    answer:
+      "Have your red, white, and blue Medicare card, a list of your current prescriptions with dosages, and the names of the doctors and hospitals you want to keep. If you're comparing Part D or Medicare Advantage plans, your preferred pharmacy also matters. This information lets the agent price plans accurately based on your actual usage.",
+  }
 ];
 
 export default function MedicareAgentNearMePage() {
@@ -325,6 +341,7 @@ export default function MedicareAgentNearMePage() {
             <div className="text-sm text-gray-600 mt-4">For free, unbiased counseling, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free local counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">For free, unbiased counseling in your state, contact your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">Free unbiased counseling is also available through <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">your State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
       </article>
     </>

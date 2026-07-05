@@ -1361,6 +1361,22 @@ const steps = [
     answer:
       "No. Once you agree to the Electronic Signature Agreement and click Submit Now, the application is final and cannot be modified online. If you need to correct information or change your Part B election, you'll have to contact Social Security directly by phone or at your local field office.",
   }
+,
+  {
+    question: "How long does the SSA online Medicare application take?",
+    answer:
+      "Most people complete the online Medicare application in about 10 minutes. Having your Social Security number, driver's license, and any current health insurance information ready before you start will help you move through the screens without interruption.",
+  },
+  {
+    question: "Can I sign up for just Part A online and delay Part B?",
+    answer:
+      "Yes. During the application, SSA asks whether you want to enroll in Part B. You can decline Part B if you have qualifying employer coverage and plan to enroll later during a Special Enrollment Period. If you're unsure, call us at 855-559-1700 before submitting.",
+  },
+  {
+    question: "What happens after I submit my SSA Medicare application?",
+    answer:
+      "SSA reviews your application and sends confirmation, typically by mail. Once approved, your Medicare card arrives with your Part A and/or Part B effective date. You cannot modify the application after submission, so review each screen carefully before signing.",
+  }
 ];
 
 export default function SSAOnlineEnrollmentWalkthrough() {

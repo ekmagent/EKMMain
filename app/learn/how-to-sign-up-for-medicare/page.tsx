@@ -1245,6 +1245,22 @@ const faqs = [
     answer:
       "Most people receive their red, white, and blue Medicare card in the mail within about 3 weeks of applying through Social Security. If you are automatically enrolled, your card typically arrives about 3 months before your 65th birthday. You can also print an official copy of your card from your My Social Security account online.",
   }
+,
+  {
+    question: "How do I sign up for Medicare if I am not automatically enrolled?",
+    answer:
+      "You can apply online at ssa.gov/medicare, which takes about 10 minutes. You can also call Social Security or visit your local Social Security office to enroll. Applications can be submitted up to 3 months before the month you turn 65.",
+  },
+  {
+    question: "What happens if I miss my Initial Enrollment Period?",
+    answer:
+      "If you miss your 7-month Initial Enrollment Period and do not qualify for a Special Enrollment Period, you will need to wait for the General Enrollment Period (January 1 – March 31) to sign up for Part B. You may also face a permanent late enrollment penalty added to your Part B premium for as long as you have Medicare.",
+  },
+  {
+    question: "Can I sign up for Medicare if I am still working?",
+    answer:
+      "Yes. You can enroll in Part A at 65 even if you are still working, and it is usually premium-free. Whether to enroll in Part B depends on whether your employer coverage is considered creditable — check with your HR department before delaying, and call 855-559-1700 if you need help deciding.",
+  }
 ];
 
 export default function HowToSignUpPage() {

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare broker for people with pre-existing conditions | Free Guidance | MedicareYourself",
   description:
-    "Have a pre-existing condition? A licensed Medicare broker explains Medigap underwriting, guaranteed issue rights, and Advantage options. Call 855-559-1700.",
+    "Have a pre-existing condition? A licensed Medicare broker explains Medigap underwriting, guaranteed issue rights, and Advantage plans. Free help — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-people-with-pre-existing-conditions" },
   openGraph: {
     title:
@@ -281,6 +281,22 @@ const faqs = [
     answer:
       "Carriers vary, but conditions commonly flagged during underwriting include recent cancer treatment, congestive heart failure, COPD, kidney disease requiring dialysis, and insulin-dependent diabetes with complications. Each carrier maintains its own knockout list and lookback period. A broker familiar with those internal guidelines can steer you toward carriers most likely to approve your specific health history.",
   }
+,
+  {
+    question: "Which pre-existing conditions make Medigap underwriting hardest to pass?",
+    answer:
+      "Carriers vary, but conditions commonly triggering declines outside of open enrollment include recent cancer treatment, congestive heart failure, COPD requiring oxygen, kidney disease requiring dialysis, and recent stroke. Each carrier maintains its own list of automatic declines and look-back periods. A broker familiar with carrier underwriting guidelines can identify which companies may still accept your application.",
+  },
+  {
+    question: "Can a Medicare Advantage plan drop me if my health changes?",
+    answer:
+      "No. Once you're enrolled in a Medicare Advantage plan, the carrier cannot cancel your coverage because your health worsens or you develop a new condition. You keep the plan as long as you continue paying any premium and the plan remains available in your service area.",
+  },
+  {
+    question: "Does end-stage renal disease (ESRD) affect my Medicare enrollment options?",
+    answer:
+      "As of 2021, people with ESRD can enroll in Medicare Advantage plans during standard enrollment periods, which was not previously allowed. Original Medicare still covers ESRD-related care, and Medigap availability for people under 65 with ESRD depends on state law. A licensed broker can walk you through what's offered in your state.",
+  }
 ];
 
 export default function MedicareBrokerPreExistingConditions() {
@@ -508,6 +524,7 @@ export default function MedicareBrokerPreExistingConditions() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased Medicare counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

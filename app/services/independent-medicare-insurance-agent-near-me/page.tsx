@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "independent medicare insurance agent near me | Free No-Obligation Help | MedicareYourself",
   description:
-    "Find an independent Medicare insurance agent near you. Anthony Orner compares top carriers across NJ & 34 states at no cost. Call 855-559-1700 for free help.",
+    "Looking for an independent Medicare insurance agent near you? Anthony Orner compares top carriers across NJ & 34 states at no cost. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/independent-medicare-insurance-agent-near-me" },
   openGraph: {
     title:
@@ -85,6 +85,22 @@ const faqs = [
     answer:
       "SHIP counselors are volunteers who provide free, unbiased Medicare education but cannot enroll you in a plan. Independent agents can educate you AND handle enrollment directly. Both are free to use. An independent agent can also follow up year after year to review your coverage.",
   },
+,
+  {
+    question: "Does working with an independent Medicare agent limit my plan choices?",
+    answer:
+      "It depends on how many carrier appointments the agent holds. A truly independent agent with broad carrier appointments can present most of the plans available in your ZIP code. Always ask which carriers the agent is contracted with so you know the scope of options you'll see.",
+  },
+  {
+    question: "Can an independent Medicare agent help me switch plans later?",
+    answer:
+      "Yes. During the Annual Enrollment Period each fall, and during other qualifying enrollment windows, your agent can review your current coverage, compare it to newly available plans, and help you switch if a better fit exists. Ongoing service is part of what an independent agent provides at no additional cost.",
+  },
+  {
+    question: "Do I have to meet an independent Medicare agent in person?",
+    answer:
+      "No. Most consultations can be handled by phone, video call, or email, which is why searching for an agent \"near me\" no longer requires a local office visit. What matters more is that the agent is licensed in your state and appointed with the carriers offering plans in your county.",
+  }
 ];
 
 export default function IndependentMedicareInsuranceAgentNearMe() {
@@ -306,6 +322,7 @@ export default function IndependentMedicareInsuranceAgentNearMe() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased Medicare counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </main>
   );

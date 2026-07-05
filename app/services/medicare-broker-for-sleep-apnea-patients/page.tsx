@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for sleep apnea patients | Free CPAP Coverage Check | MedicareYourself",
   description:
-    "Licensed Medicare broker helping sleep apnea patients understand CPAP coverage, the 90-day compliance rule & DME suppliers. Free review: 855-559-1700.",
+    "Licensed Medicare broker helping sleep apnea patients navigate CPAP coverage, the 90-day compliance rule & DME suppliers. Free coverage review: 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-sleep-apnea-patients" },
   openGraph: {
     title:
@@ -137,6 +137,22 @@ const faqs = [
     question: "Do I need to use a specific supplier for my CPAP equipment?",
     answer:
       "Yes. To have Medicare cover your CPAP machine and supplies, you must use a Medicare-enrolled DME supplier that accepts assignment. If you use a supplier that isn't enrolled in Medicare, your claim will not be paid. A broker can help you confirm your supplier is properly enrolled before you order equipment.",
+  }
+,
+  {
+    question: "Does Medicare cover a CPAP replacement machine after 5 years?",
+    answer:
+      "Yes. Medicare generally allows a replacement CPAP machine after the 5-year reasonable useful lifetime of the original device. Your doctor must confirm you still have obstructive sleep apnea and benefit from continued therapy. You'll pay your standard Part B coinsurance after meeting the deductible.",
+  },
+  {
+    question: "Does Medicare cover BiPAP machines instead of CPAP?",
+    answer:
+      "Medicare Part B may cover a BiPAP (bi-level positive airway pressure) device when CPAP therapy has been tried and failed, or when your doctor documents a medical need for BiPAP. The same DME rules and coinsurance apply, and you must use a Medicare-enrolled supplier.",
+  },
+  {
+    question: "Can a Medicare broker help me find a DME supplier for CPAP?",
+    answer:
+      "Yes. A licensed Medicare broker can help you understand which plans work best with Medicare-enrolled DME suppliers in your area and explain network rules under Medicare Advantage. Call 855-559-1700 for a free review of your CPAP coverage options.",
   }
 ];
 

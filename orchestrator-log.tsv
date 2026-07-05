@@ -34499,3 +34499,220 @@ Wai"... is not valid JSON
 2026-07-04	/tools/keyword-checker	40	274	0	0	no	yes	word_count:274/600|faqs:0/4|meta_desc_short:0/130|internal_links:0/2|missing_gov_link|missing_faq_schema	no_match
 2026-07-04	/tools	40	111	0	0	no	yes	word_count:111/600|faqs:0/4|meta_desc_short:0/130|internal_links:0/2|missing_gov_link|missing_faq_schema	no_match
 2026-07-04	/write-for-us	50	426	0	162	yes	yes	word_count:426/600|faqs:0/4|meta_desc_long:162/160|internal_links:0/2|missing_faq_schema	aborted:corrupt_terminator_0
+2026-07-05	/about	60	529	0	152	yes	yes	word_count:529/600|faqs:0/4|internal_links:0/2|missing_faq_schema	aborted:corrupt_terminator_0
+2026-07-05	/contact	50	277	0	0	yes	yes	word_count:277/600|faqs:0/4|meta_desc_short:0/130|internal_links:0/2|missing_faq_schema	error:Unterminated string in JSON at position 2707
+2026-07-05	/learn/how-to-enroll-in-a-medicare-supplement-plan	90	15805	192	159	yes	yes	missing_faq_schema	fixed:extra_faqs,gov_links_html,state_links_html,byline_html,meta_description
+2026-07-05	/learn/how-to-sign-up-for-medicare	90	17386	219	157	yes	yes	missing_faq_schema	fixed:extra_faqs
+2026-07-05	/learn/irmaa-medicare-surcharge	90	16518	219	152	yes	yes	missing_faq_schema	fixed:extra_faqs,meta_description,gov_links_html,state_links_html,byline_html
+2026-07-05	/learn/medicare-help-low-income	90	4209	50	155	yes	yes	missing_faq_schema	fixed:extra_faqs,meta_description
+2026-07-05	/learn/medicare-parts-explained	90	1007	7	158	yes	yes	missing_faq_schema	no_match
+2026-07-05	/learn	90	4107	47	152	yes	yes	missing_faq_schema	no_match
+2026-07-05	/learn/ssa-online-enrollment-walkthrough	90	14783	213	141	yes	yes	missing_faq_schema	fixed:extra_faqs,gov_links_html,byline_html
+2026-07-05	/learn/what-is-medigap	90	680	5	152	yes	yes	missing_faq_schema	no_match
+2026-07-05	/medicare-advantage/new-jersey	90	999	8	151	yes	yes	missing_faq_schema	fixed:gov_links_html,state_links_html,meta_description
+2026-07-05	/medicare-supplement/new-jersey/cost	80	2483	27	152	yes	yes	missing_state_link|missing_faq_schema	no_match
+2026-07-05	/medicare-supplement/new-jersey	90	3360	34	149	yes	yes	missing_faq_schema	error:Unexpected non-whitespace character after JSON at position 116
+2026-07-05	/medicare-supplement/new-jersey/plan-g-vs-plan-n	80	1648	13	149	yes	yes	missing_state_link|missing_faq_schema	no_match
+2026-07-05	/medicare-supplement/new-jersey/pricing-ages-65-69	60	2137	8	198	no	yes	meta_desc_long:198/160|missing_gov_link|missing_state_link|missing_faq_schema	error:Unterminated string in JSON at position 2691
+2026-07-05	/medicare-supplement/new-jersey/turning-65	80	1026	5	146	yes	yes	missing_state_link|missing_faq_schema	no_match
+2026-07-05	/medicare-supplement/new-jersey/vs-medicare-advantage	80	1106	5	148	yes	yes	missing_state_link|missing_faq_schema	no_match
+2026-07-05	/medicare-supplement/pennsylvania	80	1590	13	153	yes	yes	missing_state_link|missing_faq_schema	no_match
+2026-07-05	/medicare-supplement/switch-carriers	90	9402	101	146	yes	yes	missing_faq_schema	fixed:byline_html,gov_links_html,state_links_html,extra_faqs,meta_description
+2026-07-05	/	60	454	0	161	yes	yes	word_count:454/600|faqs:0/4|meta_desc_long:161/160|missing_faq_schema	aborted:corrupt_terminator_0
+2026-07-05	/privacy	60	369	0	141	yes	yes	word_count:369/600|faqs:0/4|internal_links:1/2|missing_faq_schema	aborted:corrupt_terminator_0
+2026-07-05	/quote	70	103	0	144	yes	yes	word_count:103/600|faqs:0/4|missing_faq_schema	aborted:corrupt_terminator_0
+2026-07-05	/services/average-cost-of-medicare-supplement-insurance-by-age-in-2026	90	1419	4	159	yes	yes	missing_faq_schema	fixed:gov_links_html,state_links_html
+2026-07-05	/services/average-cost-of-supplemental-health-insurance-for-seniors-with-medicare	90	10981	141	155	yes	yes	missing_faq_schema	fixed:gov_links_html,state_links_html,extra_faqs,meta_description
+2026-07-05	/services/best-and-cheapest-medicare-supplement	90	1293	4	156	yes	yes	missing_faq_schema	fixed:gov_links_html,state_links_html
+2026-07-05	/services/best-independent-medicare-broker-near-me-new-jersey	90	2274	21	146	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/best-medicare-broker-no-cost-to-you	90	1057	4	150	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/best-medicare-insurance-broker-near-hackensack-nj	90	990	4	151	yes	yes	missing_faq_schema	error:Unexpected non-whitespace character after JSON at position 29
+2026-07-05	/services/best-medicare-insurance-brokers-near-me	90	1079	4	146	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/best-medicare-plan-for-chronic-conditions	90	2554	20	154	yes	yes	missing_faq_schema	fixed:gov_links_html,extra_faqs,meta_description
+2026-07-05	/services/best-medicare-plan-for-foreign-travel	90	1119	4	142	yes	yes	missing_faq_schema	error:Unterminated string in JSON at position 2655
+2026-07-05	/services/best-medicare-supplement-for-people-on-disability	90	3659	36	155	yes	yes	missing_faq_schema	fixed:gov_links_html,state_links_html,meta_description,byline_html
+2026-07-05	/services/best-medicare-supplement-rates-by-age-plan-g-plan-n-plan-f-rates	90	5499	61	157	yes	yes	missing_faq_schema	fixed:gov_links_html,state_links_html
+2026-07-05	/services/compare-and-enroll-in-plan-g-online	90	2368	24	144	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/enroll-in-medicare-supplement-plan-g-at-67	90	1371	4	156	yes	yes	missing_faq_schema	fixed:gov_links_html,state_links_html
+2026-07-05	/services/enroll-in-medicare-supplement-plan-g-at-68	90	1453	4	152	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/enroll-in-medicare-supplement-plan-g-at-69	90	1796	11	152	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/enroll-in-medicare-supplement-plan-g-at-70	90	2730	24	155	yes	yes	missing_faq_schema	fixed:extra_faqs
+2026-07-05	/services/enroll-in-plan-g-online	90	2705	25	158	yes	yes	missing_faq_schema	fixed:gov_links_html,state_links_html,meta_description
+2026-07-05	/services/exploring-medicare-supplemental-insurance-medigap-cost	90	1478	4	146	yes	yes	missing_faq_schema	fixed:gov_links_html,state_links_html,extra_faqs
+2026-07-05	/services/find-a-medicare-agent-in-monroe-township-nj	90	1134	4	148	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/find-a-medicare-agent-in-montclair-nj	90	3426	35	153	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/find-a-medicare-agent-in-mount-laurel-nj	90	1059	4	151	yes	yes	missing_faq_schema	fixed:gov_links_html,state_links_html
+2026-07-05	/services/find-a-medicare-agent-in-neptune-nj	90	2255	22	156	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/find-a-medicare-agent-in-new-brunswick-nj	90	1165	4	152	yes	yes	missing_faq_schema	fixed:gov_links_html,state_links_html,meta_description
+2026-07-05	/services/find-a-medicare-agent-in-newark-nj	90	1985	19	157	yes	yes	missing_faq_schema	error:Unexpected non-whitespace character after JSON at position 29
+2026-07-05	/services/find-a-medicare-agent-in-north-bergen-nj	90	1313	4	153	yes	yes	missing_faq_schema	error:Unexpected non-whitespace character after JSON at position 35
+2026-07-05	/services/find-a-medicare-agent-in-north-brunswick-nj	90	1060	4	149	yes	yes	missing_faq_schema	error:Unexpected non-whitespace character after JSON at position 29
+2026-07-05	/services/find-a-medicare-agent-in-passaic-nj	90	1213	4	153	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/find-a-medicare-agent-in-paterson-nj	90	1098	6	150	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/find-a-medicare-agent-in-piscataway-nj	90	1033	4	150	yes	yes	missing_faq_schema	error:Unexpected non-whitespace character after JSON at position 29
+2026-07-05	/services/find-a-medicare-agent-in-plainfield-nj	90	1008	4	157	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/find-an-nj-medicare-broker-near-you	90	1773	13	153	yes	yes	missing_faq_schema	fixed:extra_faqs,meta_description
+2026-07-05	/services/free-independent-medicare-broker-near-me-new-jersey	90	4202	50	151	yes	yes	missing_faq_schema	fixed:gov_links_html,state_links_html,meta_description
+2026-07-05	/services/free-medicare-advocate-near-me	90	950	4	143	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/free-medicare-agent-that-helps-with-paperwork	90	1665	12	151	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/free-medicare-broker-new-jersey	90	3279	35	156	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/hackensack-nj-medicare-insurance-agents	90	1001	4	149	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/help-with-your-medicare-decision	90	1699	10	154	yes	yes	missing_faq_schema	fixed:gov_links_html,state_links_html,meta_description
+2026-07-05	/services/hillsborough-nj-medicare-insurance-agents	90	2427	21	160	yes	yes	missing_faq_schema	fixed:gov_links_html,state_links_html,meta_description
+2026-07-05	/services/hoboken-nj-medicare-insurance-agents	90	1029	4	152	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/how-can-i-save-money-on-my-medicare-supplement	90	3295	33	150	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/how-long-does-it-take-to-enroll-in-medicare-supplements	80	1212	4	171	yes	yes	meta_desc_long:171/160|missing_faq_schema	fixed:meta_description,gov_links_html,state_links_html,byline_html
+2026-07-05	/services/how-long-does-it-take-to-get-approved-for-a-medicare-supplement-plan	90	1416	4	150	yes	yes	missing_faq_schema	fixed:gov_links_html,state_links_html,meta_description
+2026-07-05	/services/how-much-does-medicare-supplement-cost-per-month-for-seniors	90	3231	28	160	yes	yes	missing_faq_schema	fixed:gov_links_html,state_links_html
+2026-07-05	/services/how-much-does-the-best-medicare-supplemental-insurance-cost-per-month	90	5376	61	147	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/how-much-is-plan-f-in-nj	90	1402	5	142	yes	yes	missing_faq_schema	fixed:gov_links_html,state_links_html,meta_description
+2026-07-05	/services/how-much-is-plan-g-in-nj	90	1878	13	158	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/how-to-enroll-in-medicare-in-new-jersey	90	1417	4	151	yes	yes	missing_faq_schema	fixed:gov_links_html,state_links_html
+2026-07-05	/services/howell-nj-medicare-insurance-agents	90	1169	5	156	yes	yes	missing_faq_schema	error:Unexpected non-whitespace character after JSON at position 30
+2026-07-05	/services/independent-medicare-advantage-agents-near-me	90	2570	24	147	yes	yes	missing_faq_schema	fixed:meta_description
+2026-07-05	/services/independent-medicare-agents-abq-nm	90	1807	15	158	yes	yes	missing_faq_schema	fixed:gov_links_html,state_links_html,meta_description
+2026-07-05	/services/independent-medicare-agents-near-me	90	1081	4	145	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/independent-medicare-broker-near-me-new-jersey-reviews	90	1491	10	156	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/independent-medicare-insurance-agent-near-me	90	1103	4	157	yes	yes	missing_faq_schema	fixed:gov_links_html,state_links_html,extra_faqs,meta_description
+2026-07-05	/services/independent-medicare-insurance-agents	90	1915	16	155	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/independent-medicare-supplement-insurance-agents	90	1101	4	157	yes	yes	missing_faq_schema	fixed:gov_links_html,state_links_html
+2026-07-05	/services/independent-medicare-supplement-insurance-agents-near-me	90	1149	4	159	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/irvington-nj-medicare-insurance-agents	90	1024	4	156	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/jackson-nj-medicare-insurance-agents	90	1047	4	155	yes	yes	missing_faq_schema	error:Unexpected non-whitespace character after JSON at position 270
+2026-07-05	/services/kearny-nj-medicare-insurance-agents	90	1041	4	150	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/lakewood-nj-medicare-insurance-agents	90	1107	4	151	yes	yes	missing_faq_schema	fixed:gov_links_html,state_links_html,meta_description
+2026-07-05	/services/licensed-medicare-advisors	90	972	4	154	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/linden-nj-medicare-insurance-agents	90	1083	4	152	yes	yes	missing_faq_schema	error:Unexpected non-whitespace character after JSON at position 29
+2026-07-05	/services/local-medicare-agent	90	2101	21	155	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/local-medicare-agents-in-sayreville-nj	90	1029	4	153	yes	yes	missing_faq_schema	error:Unexpected non-whitespace character after JSON at position 284
+2026-07-05	/services/local-medicare-agents-in-sewell-nj	90	1281	7	154	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/local-medicare-agents-in-sicklerville-nj	90	979	4	144	yes	yes	missing_faq_schema	error:Unexpected non-whitespace character after JSON at position 29
+2026-07-05	/services/local-medicare-agents-in-teaneck-nj	90	1008	4	149	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/local-medicare-agents-in-toms-river-nj	90	2090	18	155	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/local-medicare-agents-in-trenton-nj	90	1108	4	154	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/local-medicare-agents-in-union-city-nj	90	1269	4	147	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/local-medicare-agents-in-union-nj	90	2232	20	150	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/local-medicare-agents-in-wayne-nj	90	1063	4	149	yes	yes	missing_faq_schema	error:Unexpected non-whitespace character after JSON at position 29
+2026-07-05	/services/local-medicare-agents-in-west-new-york-nj	90	1060	4	148	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/local-medicare-agents-in-west-orange-nj	90	1164	4	156	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/medicare-advantage-agents-near-me	90	1329	5	155	yes	yes	missing_faq_schema	fixed:gov_links_html,state_links_html
+2026-07-05	/services/medicare-advise-in-new-jersey	90	1846	12	148	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/medicare-advisors-nj	90	1135	4	145	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/medicare-agent-for-someone-with-pre-existing-conditions-california	90	3221	31	158	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/medicare-agent-near-me	90	932	4	153	yes	yes	missing_faq_schema	fixed:gov_links_html,state_links_html,extra_faqs,meta_description
+2026-07-05	/services/medicare-agent-that-helps-with-paperwork-near-me	90	1120	4	158	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/medicare-agents-near-me	90	1807	16	153	yes	yes	missing_faq_schema	fixed:gov_links_html,state_links_html
+2026-07-05	/services/medicare-broker-for-alzheimers-patients	90	1247	4	156	yes	yes	missing_faq_schema	error:Unexpected non-whitespace character after JSON at position 29
+2026-07-05	/services/medicare-broker-for-anxiety-disorder-patients	90	1801	13	158	yes	yes	missing_faq_schema	fixed:gov_links_html,state_links_html
+2026-07-05	/services/medicare-broker-for-arthritis-sufferers	90	1215	4	156	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/medicare-broker-for-asthma-sufferers	90	1988	15	158	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/medicare-broker-for-atrial-fibrillation-patients	90	1689	10	150	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/medicare-broker-for-back-pain-sufferers	90	2183	20	153	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/medicare-broker-for-bipolar-disorder-patients	90	4644	45	160	yes	yes	missing_faq_schema	fixed:extra_faqs,meta_description,gov_links_html,state_links_html,byline_html
+2026-07-05	/services/medicare-broker-for-cancer-survivors	90	1333	7	150	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/medicare-broker-for-cataracts-patients	90	996	4	157	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/medicare-broker-for-chronic-pain-patients	90	3319	29	155	yes	yes	missing_faq_schema	fixed:gov_links_html,state_links_html,extra_faqs,meta_description
+2026-07-05	/services/medicare-broker-for-congestive-heart-failure-patients	90	5685	66	150	yes	yes	missing_faq_schema	error:Unexpected non-whitespace character after JSON at position 125
+2026-07-05	/services/medicare-broker-for-copd-patients	90	3351	34	151	yes	yes	missing_faq_schema	fixed:gov_links_html,state_links_html
+2026-07-05	/services/medicare-broker-for-dementia-patients	90	1663	10	159	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/medicare-broker-for-depression-patients	90	1301	4	152	yes	yes	missing_faq_schema	fixed:gov_links_html,state_links_html
+2026-07-05	/services/medicare-broker-for-diabetics	90	3351	34	154	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/medicare-broker-for-dialysis-patients	90	2463	21	158	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/medicare-broker-for-epilepsy-patients	90	1198	4	152	yes	yes	missing_faq_schema	fixed:gov_links_html,state_links_html
+2026-07-05	/services/medicare-broker-for-fibromyalgia-patients	90	1329	5	153	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/medicare-broker-for-glaucoma-patients	90	4320	43	147	yes	yes	missing_faq_schema	fixed:gov_links_html,state_links_html
+2026-07-05	/services/medicare-broker-for-hearing-loss-patients	90	2328	21	150	yes	yes	missing_faq_schema	fixed:gov_links_html,state_links_html,meta_description
+2026-07-05	/services/medicare-broker-for-heart-disease-patients	90	6121	70	154	yes	yes	missing_faq_schema	error:Unexpected non-whitespace character after JSON at position 19
+2026-07-05	/services/medicare-broker-for-high-blood-pressure-patients	90	1178	4	151	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/medicare-broker-for-high-cholesterol-patients	90	1209	4	154	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/medicare-broker-for-hip-replacement-patients	90	1101	4	153	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/medicare-broker-for-kidney-disease-patients	90	2018	14	151	yes	yes	missing_faq_schema	fixed:gov_links_html,state_links_html
+2026-07-05	/services/medicare-broker-for-knee-replacement-patients	90	1514	10	159	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/medicare-broker-for-lupus-patients	90	1406	4	157	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/medicare-broker-for-macular-degeneration-patients	90	1195	4	156	yes	yes	missing_faq_schema	fixed:meta_description
+2026-07-05	/services/medicare-broker-for-multiple-sclerosis-patients	90	8399	101	154	yes	yes	missing_faq_schema	fixed:extra_faqs
+2026-07-05	/services/medicare-broker-for-neuropathy-patients	90	1261	4	153	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/medicare-broker-for-obesity-patients	90	1217	4	150	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/medicare-broker-for-osteoporosis-patients	90	1889	11	156	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/medicare-broker-for-parkinsons-patients	90	3121	28	159	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/medicare-broker-for-people-on-disability	90	1282	4	152	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/medicare-broker-for-people-with-asthma	90	1370	4	148	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/medicare-broker-for-people-with-cll	90	4553	51	155	yes	yes	missing_faq_schema	fixed:gov_links_html,state_links_html,extra_faqs,meta_description
+2026-07-05	/services/medicare-broker-for-people-with-crohns	90	3180	29	156	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/medicare-broker-for-people-with-diabetes	90	1414	4	159	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/medicare-broker-for-people-with-lupus	90	1705	10	152	yes	yes	missing_faq_schema	fixed:gov_links_html,state_links_html,meta_description
+2026-07-05	/services/medicare-broker-for-people-with-parkinsons	90	1190	4	154	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/medicare-broker-for-people-with-pre-existing-conditions	90	3910	40	155	yes	yes	missing_faq_schema	fixed:gov_links_html,state_links_html,extra_faqs,meta_description
+2026-07-05	/services/medicare-broker-for-peripheral-artery-disease-patients	90	1244	4	156	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/medicare-broker-for-ptsd-patients	90	1197	4	151	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/medicare-broker-for-rheumatoid-arthritis-patients	90	1573	4	151	yes	yes	missing_faq_schema	fixed:gov_links_html,state_links_html,meta_description
+2026-07-05	/services/medicare-broker-for-schizophrenia-patients	90	2137	16	156	yes	yes	missing_faq_schema	fixed:gov_links_html,state_links_html
+2026-07-05	/services/medicare-broker-for-sleep-apnea-patients	90	1751	14	150	yes	yes	missing_faq_schema	fixed:gov_links_html,extra_faqs,meta_description
+2026-07-05	/services/medicare-broker-for-stroke-survivors	90	4923	57	153	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/medicare-broker-for-thyroid-disease-patients	90	1091	4	154	yes	yes	missing_faq_schema	fixed:gov_links_html,state_links_html
+2026-07-05	/services/medicare-broker-for-transplant-recipients	90	1025	4	154	yes	yes	missing_faq_schema	error:Unexpected non-whitespace character after JSON at position 35
+2026-07-05	/services/medicare-brokers-in-my-area	90	1242	4	151	yes	yes	missing_faq_schema	error:Unexpected non-whitespace character after JSON at position 28
+2026-07-05	/services/medicare-consultant-in-ft-lauderdale-fl	90	1028	4	157	yes	yes	missing_faq_schema	error:Unexpected non-whitespace character after JSON at position 29
+2026-07-05	/services/medicare-enrollment-help-for-people-with-diabetes	90	7479	95	158	yes	yes	missing_faq_schema	fixed:gov_links_html,state_links_html,extra_faqs,meta_description
+2026-07-05	/services/medicare-enrollment-help-for-people-with-diabetes-texas	90	2968	27	146	yes	yes	missing_faq_schema	fixed:extra_faqs,gov_links_html,state_links_html,byline_html,meta_description
+2026-07-05	/services/medicare-enrollment-help-for-people-with-lupus	90	1404	6	154	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/medicare-enrollment-help-for-people-with-lupus-california	90	3683	40	152	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/medicare-in-monmouth-county-new-jersey	90	1998	17	156	yes	yes	missing_faq_schema	fixed:extra_faqs
+2026-07-05	/services/medicare-insurance-agent-near-me	90	1122	5	154	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/medicare-insurance-agents-in-atlantic-city-new-jersey	90	1172	4	155	yes	yes	missing_faq_schema	fixed:gov_links_html,state_links_html
+2026-07-05	/services/medicare-insurance-agents-in-bayonne-new-jersey	90	1008	4	146	yes	yes	missing_faq_schema	error:Unexpected non-whitespace character after JSON at position 24
+2026-07-05	/services/medicare-insurance-agents-in-belleville-new-jersey	90	1032	4	150	yes	yes	missing_faq_schema	error:Unexpected non-whitespace character after JSON at position 29
+2026-07-05	/services/medicare-insurance-agents-in-bloomfield-new-jersey	100	2581	23	154	yes	yes	none	clean
+2026-07-05	/services/medicare-insurance-agents-in-brick-new-jersey	90	1067	4	152	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/medicare-insurance-agents-in-bridgeton-new-jersey	90	2045	17	155	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/medicare-insurance-agents-in-bridgewater-new-jersey	90	1154	5	158	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/medicare-insurance-agents-in-burlington-new-jersey	90	5774	71	151	yes	yes	missing_faq_schema	fixed:gov_links_html,state_links_html,meta_description
+2026-07-05	/services/medicare-insurance-agents-in-camden-new-jersey	90	1126	4	158	yes	yes	missing_faq_schema	error:Unexpected non-whitespace character after JSON at position 117
+2026-07-05	/services/medicare-insurance-agents-in-cherry-hill-new-jersey	90	1059	4	152	yes	yes	missing_faq_schema	fixed:gov_links_html,state_links_html,extra_faqs
+2026-07-05	/services/medicare-insurance-agents-in-clifton-new-jersey	90	1222	7	150	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/medicare-insurance-agents-in-edison-new-jersey	90	1017	4	158	yes	yes	missing_faq_schema	error:Unexpected non-whitespace character after JSON at position 29
+2026-07-05	/services/medicare-insurance-agents-in-egg-harbor-township-new-jersey	90	1041	4	152	yes	yes	missing_faq_schema	error:Unexpected non-whitespace character after JSON at position 204
+2026-07-05	/services/medicare-insurance-agents-in-elizabeth-new-jersey	90	1291	6	158	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/medicare-insurance-agents-in-fort-lee-new-jersey	90	1889	13	145	yes	yes	missing_faq_schema	fixed:extra_faqs,gov_links_html,state_links_html,byline_html,meta_description
+2026-07-05	/services/medicare-insurance-agents-in-franklin-new-jersey	90	1036	4	150	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/medicare-insurance-agents-in-freehold-new-jersey	90	989	4	158	yes	yes	missing_faq_schema	error:Unexpected non-whitespace character after JSON at position 29
+2026-07-05	/services/medicare-part-d-insurance-brokers-18517	90	2240	19	152	yes	yes	missing_faq_schema	fixed:gov_links_html,state_links_html,meta_description
+2026-07-05	/services/medicare-quotes	90	2182	20	156	yes	yes	missing_faq_schema	error:Unexpected non-whitespace character after JSON at position 222
+2026-07-05	/services/medicare-specialists-in-cranford-nj-office	90	1370	10	152	yes	yes	missing_faq_schema	fixed:gov_links_html,state_links_html
+2026-07-05	/services/medicare-specialists-in-south-carolina	90	2412	22	151	yes	yes	missing_faq_schema	fixed:gov_links_html,state_links_html
+2026-07-05	/services/medicare-supplement-for-seniors-turning-65	90	1358	4	155	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/medicare-supplement-insurance-for-crohns-patients	90	4489	50	149	yes	yes	missing_faq_schema	error:Unexpected non-whitespace character after JSON at position 34
+2026-07-05	/services/medicare-supplement-open-enrollment-online	90	2345	16	150	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/medicare-supplement-plan-g-cost-for-68-year-old	90	1400	4	156	yes	yes	missing_faq_schema	fixed:gov_links_html,state_links_html
+2026-07-05	/services/medicare-supplement-plan-g-cost-for-69-year-old	90	1618	10	150	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/medicare-supplement-plan-g-cost-for-70-year-old	90	1613	10	142	yes	yes	missing_faq_schema	fixed:gov_links_html,state_links_html
+2026-07-05	/services/medicare-supplement-plan-medigap-premium-hikes	90	2108	13	156	yes	yes	missing_faq_schema	fixed:meta_description,gov_links_html,state_links_html
+2026-07-05	/services/medicare-supplement-premiums-increasing-by-double-digits-in-2025	90	3383	38	150	yes	yes	missing_faq_schema	fixed:extra_faqs
+2026-07-05	/services/medicare-supplement-rate-jumped-why-and-what-can-i-do	90	2765	26	156	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services	90	13837	195	153	yes	yes	missing_faq_schema	error:Unterminated string in JSON at position 2600
+2026-07-05	/services/plan-g-rates-by-age-new-jersey	80	3010	32	156	no	yes	missing_gov_link|missing_faq_schema	no_match
+2026-07-05	/services/plan-g-rates-for-68-year-old-in-new-jersey	90	2563	20	156	yes	yes	missing_faq_schema	fixed:gov_links_html,state_links_html
+2026-07-05	/services/plan-g-rates-for-69-year-old-in-new-jersey	90	2378	21	154	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/plan-g-rates-for-70-year-old-in-new-jersey	90	4194	45	152	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/quickest-way-to-enroll-into-medicare-advantage-plan	90	1483	7	154	yes	yes	missing_faq_schema	fixed:gov_links_html,state_links_html,meta_description
+2026-07-05	/services/quickest-way-to-enroll-into-plan-g	90	1419	4	153	yes	yes	missing_faq_schema	fixed:gov_links_html,state_links_html
+2026-07-05	/services/quickest-way-to-enroll-into-plan-n	90	1184	4	153	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/quote-and-enroll-in-plan-g-online	90	1164	4	148	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/same-day-medicare-supplement-enrollment-form	90	1258	4	156	yes	yes	missing_faq_schema	fixed:gov_links_html,state_links_html
+2026-07-05	/services/switch-medigap-plans	90	4945	39	145	yes	yes	missing_faq_schema	fixed:gov_links_html,state_links_html
+2026-07-05	/services/tampa-medicare-agent	90	1498	12	152	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/top-medicare-advisors	90	1057	4	147	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/us-medicare-brokers	90	1756	15	158	yes	yes	missing_faq_schema	no_match
+2026-07-05	/services/what-is-the-best-medicare-plan-for-dialysis	90	1368	4	150	yes	yes	missing_faq_schema	fixed:gov_links_html,state_links_html
+2026-07-05	/services/what-time-of-year-can-you-switch-medicare-supplement-plans	90	2390	18	155	yes	yes	missing_faq_schema	fixed:byline_html,gov_links_html,state_links_html,meta_description
+2026-07-05	/services/whats-the-best-medicare-plan-for-someone-with-diabetes	90	1454	4	152	yes	yes	missing_faq_schema	fixed:gov_links_html,state_links_html,byline_html
+2026-07-05	/services/when-can-i-change-my-medicare-supplement-plan-for-2026	80	7378	84	165	yes	yes	meta_desc_long:165/160|missing_faq_schema	fixed:meta_description,extra_faqs
+2026-07-05	/services/which-medicare-supplemental-plan-best-for-copd-patient	80	3567	38	146	no	yes	missing_gov_link|missing_faq_schema	no_match
+2026-07-05	/services/why-did-my-medicare-supplement-rate-change	90	3335	33	156	yes	yes	missing_faq_schema	fixed:gov_links_html,state_links_html
+2026-07-05	/services/you-get-a-medicare-supplement-if-you-are-on-disability	90	2549	21	149	yes	yes	missing_faq_schema	fixed:gov_links_html,state_links_html,meta_description
+2026-07-05	/services/you-get-a-medicare-supplement-plan-if-you-have-a-pre-existing-condition	90	2547	20	154	yes	yes	missing_faq_schema	fixed:gov_links_html,state_links_html,meta_description
+2026-07-05	/terms	60	394	0	151	yes	yes	word_count:394/600|faqs:0/4|internal_links:1/2|missing_faq_schema	aborted:corrupt_terminator_0
+2026-07-05	/tools/autoresearch	30	424	0	0	no	no	word_count:424/600|faqs:0/4|meta_desc_short:0/130|internal_links:1/2|missing_gov_link|missing_byline|missing_faq_schema	aborted:corrupt_terminator_0
+2026-07-05	/tools/keyword-checker	40	274	0	0	no	yes	word_count:274/600|faqs:0/4|meta_desc_short:0/130|internal_links:0/2|missing_gov_link|missing_faq_schema	no_match
+2026-07-05	/tools	40	111	0	0	no	yes	word_count:111/600|faqs:0/4|meta_desc_short:0/130|internal_links:0/2|missing_gov_link|missing_faq_schema	no_match
+2026-07-05	/write-for-us	50	426	0	162	yes	yes	word_count:426/600|faqs:0/4|meta_desc_long:162/160|internal_links:0/2|missing_faq_schema	aborted:corrupt_terminator_0

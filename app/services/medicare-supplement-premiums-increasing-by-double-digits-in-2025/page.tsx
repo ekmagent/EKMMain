@@ -270,6 +270,17 @@ const faqs = [
     answer:
       "Do not panic or drop coverage right away. Request a free rate comparison from a licensed broker who can quote multiple carriers offering the same plan letter in your ZIP code. If you can pass medical underwriting, switching to a lower-priced carrier with identical benefits may save you money each month. Call 855-559-1700 for a no-cost review.",
   }
+,
+  {
+    question: "What should I do if I get a Medigap rate increase notice?",
+    answer:
+      "Don't panic and don't cancel your policy before comparing options. Request a free rate review to see what other carriers charge for the same plan letter in your ZIP code. Because all Medigap plans with the same letter cover identical benefits, switching to a lower-priced carrier can reduce your premium without changing your coverage. Call 855-559-1700 to compare.",
+  },
+  {
+    question: "Are all Medicare Supplement Plan G policies the same?",
+    answer:
+      "Yes, benefits for a given Medigap plan letter are standardized by federal law, so Plan G from one carrier covers the same services as Plan G from another. The only differences are the monthly premium, the carrier's rate increase history, and customer service. That's why comparing carriers is one of the most effective ways to lower your Medigap costs.",
+  }
 ];
 
 export default function MedicareSupplementPremiumsIncreasing2025() {

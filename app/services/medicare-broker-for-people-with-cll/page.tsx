@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare broker for people with CLL | Free Consult | MedicareYourself",
   description:
-    "CLL Medicare broker: keep your oncologist, time Medigap enrollment, and cover oral targeted therapies. Free consult with Anthony Orner — call 855-559-1700.",
+    "CLL Medicare broker: keep your oncologist, time Medigap enrollment right, and cover oral targeted therapies. Free consult with Anthony Orner — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-people-with-cll" },
   openGraph: {
     title:
@@ -345,6 +345,22 @@ const faqs = [
     answer:
       "Medicare covers routine costs of qualifying clinical trials, including doctor visits, lab work, and standard treatments you would receive outside the trial. The trial sponsor typically covers the investigational drug itself. Talk with your oncologist and check medicare.gov for details on qualifying studies before enrolling.",
   }
+,
+  {
+    question: "Are BTK inhibitors and other oral CLL therapies covered under Medicare Part D?",
+    answer:
+      "Yes. Oral targeted therapies used to treat CLL, including BTK inhibitors and BCL-2 inhibitors, are typically covered as specialty-tier drugs under Medicare Part D or Medicare Advantage prescription drug plans. Because these medications sit on the highest cost-sharing tier, plan selection matters — the right Part D plan can meaningfully reduce your annual out-of-pocket spend.",
+  },
+  {
+    question: "Does Medicare cover clinical trials for CLL patients?",
+    answer:
+      "Yes. Medicare covers routine patient care costs in qualifying clinical trials, including doctor visits, lab work, and hospital stays related to the trial. This can be important for CLL patients seeking access to newer targeted therapies or CAR-T investigational treatments through major cancer centers.",
+  },
+  {
+    question: "Can I switch from Medicare Advantage to Original Medicare after a CLL diagnosis?",
+    answer:
+      "You can switch back to Original Medicare during the Annual Enrollment Period or the Medicare Advantage Open Enrollment Period. However, adding a Medigap policy afterward usually requires medical underwriting outside your initial enrollment window, and a CLL diagnosis often leads to denial. Reviewing timing carefully with a broker before switching is critical.",
+  }
 ];
 
 export default function MedicareBrokerForPeopleWithCLL() {
@@ -631,6 +647,7 @@ export default function MedicareBrokerForPeopleWithCLL() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">State help: <a href="https://www.state.nj.us/dobi/division_insurance/ship/shipindex.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">New Jersey SHIP — Free Medicare Counseling</a></div>
             <div className="text-sm text-gray-600 mt-4">Need state-level help? Contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> or your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">SHIP counselor</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">Need free local counseling? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a> for unbiased Medicare guidance.</div>
       </section>
     </>
   );

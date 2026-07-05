@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Enroll in Plan G Online | Fast, Free, Broker-Assisted | MedicareYourself",
   description:
-    "Enroll in Medicare Plan G online with a licensed broker comparing top carriers side by side. Apply from home in about 20–40 minutes — call 855-559-1700 today.",
+    "Enroll in Medicare Plan G online with a licensed broker comparing top carriers side by side. Apply from home in 20–40 minutes — call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/enroll-in-plan-g-online" },
   openGraph: {
     title:
@@ -492,6 +492,7 @@ export default function EnrollInPlanGOnlinePage() {
             <div className="text-sm text-gray-600 mt-4">Need local help? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free one-on-one Medicare counseling in your state.</div>
             <div className="text-sm text-gray-600 mt-4">Need free state-based counseling? Contact your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">SHIP (State Health Insurance Assistance Program)</a> or the <a href="https://www.nj.gov/dobi/division_insurance/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Need state-specific help? Contact the <a href="https://www.nj.gov/dobi/division_insurance/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> or your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

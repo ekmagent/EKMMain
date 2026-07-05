@@ -576,6 +576,22 @@ const faqs = [
     answer:
       "Yes. Medicare Part D plans cover insulin taken by injection or pen, and Part B covers insulin used with a traditional insulin pump. Under recent changes to Part D, out-of-pocket costs for a monthly supply of covered insulin are capped. Call 855-559-1700 to make sure your specific insulin is on your plan's formulary before enrolling.",
   }
+,
+  {
+    question: "Does Medicare Part D cover insulin?",
+    answer:
+      "Yes. Medicare Part D covers insulin taken by injection or pen, and under the Inflation Reduction Act your monthly copay for a covered insulin is capped. Insulin used with a traditional insulin pump is covered under Part B instead. Call 855-559-1700 to make sure your specific insulin is on your plan's formulary before you enroll.",
+  },
+  {
+    question: "Are diabetes test strips and lancets covered by Medicare?",
+    answer:
+      "Yes. Medicare Part B covers blood glucose monitors, test strips, lancets, and control solutions as durable medical equipment when prescribed by your doctor. The quantity covered depends on whether you use insulin. You'll need to use a Medicare-approved supplier to get the lowest out-of-pocket cost.",
+  },
+  {
+    question: "Can I switch Medicare plans if my diabetes medications change?",
+    answer:
+      "Yes. You can review and change your Part D or Medicare Advantage plan during the Annual Enrollment Period each fall, and certain life events may qualify you for a Special Enrollment Period. If your prescriber adds a new insulin, CGM, or GLP-1 medication, comparing plans can save you significant money. Call Anthony at 855-559-1700 for a free formulary check.",
+  }
 ];
 
 export default function MedicareEnrollmentHelpDiabetes() {
@@ -893,6 +909,7 @@ export default function MedicareEnrollmentHelpDiabetes() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">For free, unbiased counseling in New Jersey, contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">NJ residents can also get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
       </section>
       </article>
     </>

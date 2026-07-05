@@ -634,6 +634,12 @@ const faqs = [
     answer:
       "Only if your neurologist is in that plan's network. Medicare Advantage plans use provider networks, and MS specialists are not always included in every plan. Before enrolling, we verify your neurologist, infusion center, and imaging facility are all in-network — call 855-559-1700 and we'll check for you.",
   }
+,
+  {
+    question: "Does Medicare cover MRI scans for MS monitoring?",
+    answer:
+      "Yes. Medically necessary MRIs ordered by your doctor to monitor MS progression are covered under Medicare Part B as diagnostic imaging. You'll typically be responsible for the Part B deductible and coinsurance unless a Medigap plan covers those costs. Under Medicare Advantage, prior authorization is often required before the scan is approved.",
+  }
 ];
 
 export default function MedicareBrokerForMSPatients() {

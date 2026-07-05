@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for bipolar disorder patients | Free Plan Comparison | MedicareYourself",
   description:
-    "Medicare broker for bipolar disorder: Anthony Orner compares Part D formularies for mood stabilizers and psychiatric care. Free plan review — call 855-559-1700.",
+    "Medicare broker for bipolar disorder: Anthony Orner compares Part D plans for mood stabilizers and psychiatric coverage. Free plan review — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-bipolar-disorder-patients" },
   openGraph: {
     title:
@@ -313,6 +313,12 @@ const faqs = [
     question: "Can a Medicare Advantage plan deny me because I have bipolar disorder?",
     answer:
       "No. Medicare Advantage plans cannot deny enrollment or charge higher premiums based on pre-existing conditions, including bipolar disorder, during valid enrollment periods. The same applies to Part D prescription drug plans. Medigap (Medicare Supplement) plans are the one exception — outside your initial open enrollment window, they can use medical underwriting in most states.",
+  }
+,
+  {
+    question: "Does Medicare cover outpatient therapy and psychiatric visits for bipolar disorder?",
+    answer:
+      "Yes. Medicare Part B covers outpatient mental health services including individual and group psychotherapy, psychiatric evaluations, medication management, and diagnostic testing. After you meet the Part B deductible, you typically pay coinsurance for visits with psychiatrists, clinical psychologists, and licensed clinical social workers who accept Medicare. Part B also covers an annual depression screening at no cost when performed by a qualifying provider.",
   }
 ];
 
@@ -624,6 +630,7 @@ export default function MedicareBrokerBipolarDisorderPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> offers free Medicare counseling.</div>
       </section>
       </article>
     </>

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "how long does it take to get approved for a medicare supplement plan | Free Timeline Guide | MedicareYourself",
   description:
-    "How long does Medigap approval take? Most Medicare Supplement applications clear in 1–3 weeks. Call 855-559-1700 for a free timeline review and quote.",
+    "How long does Medigap approval take? Most Medicare Supplement applications clear in 1–3 weeks. Call 855-559-1700 for a free timeline review and quote today.",
   alternates: { canonical: "https://medicareyourself.com/services/how-long-does-it-take-to-get-approved-for-a-medicare-supplement-plan" },
   openGraph: {
     title:
@@ -321,6 +321,7 @@ export default function HowLongMedigapApproval() {
             <div className="text-sm text-gray-600 mt-4">Need help in your state? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medigap counseling.</div>
             <div className="text-sm text-gray-600 mt-4">Need state-level help? Contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> or your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">SHIP counselor</a> for free Medicare guidance.</div>
             <div className="text-sm text-gray-600 mt-4">Need state-specific help? Contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> or your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">Need help in your state? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </main>
   );

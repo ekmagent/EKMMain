@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Best Medicare Advantage Plans in NJ 2026",
   description:
-    "Compare 2026 New Jersey Medicare Advantage plans with $0 premium options, dental, vision, and Part D. Talk to a licensed NJ broker — call 855-559-1700.",
+    "Compare 2026 New Jersey Medicare Advantage plans with $0 premium options, dental, vision, and drug coverage. Talk to a licensed NJ broker — call 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/medicare-advantage/new-jersey` },
   openGraph: {
     title: "Best Medicare Advantage Plans in NJ 2026",
@@ -172,6 +172,7 @@ export default function NJMedicareAdvantagePage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.nj.gov/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">For free, unbiased counseling in New Jersey, contact the <a href="https://www.nj.gov/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> offers free, unbiased Medicare counseling.</div>
       </section>
     </>
   );
