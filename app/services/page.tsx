@@ -9,7 +9,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Medicare Services & Guides | MedicareYourself",
   description:
-    "Compare Medigap, Medicare Advantage & Part D with a licensed independent broker in NJ & 34 states. Free, unbiased plan reviews — call 855-559-1700 today.",
+    "Compare Medigap, Medicare Advantage & Part D with a licensed independent broker in NJ & 34 states. Free, unbiased plan reviews — call 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/services` },
   openGraph: {
     title: "Medicare Services & Guides | MedicareYourself",
@@ -1254,6 +1254,22 @@ const STATIC_CATEGORIES = [
     answer:
       "Yes. You can call 1-800-MEDICARE (1-800-633-4227), 24 hours a day, 7 days a week, or visit Medicare.gov to compare plans directly. Each state also offers free counseling through the State Health Insurance Assistance Program (SHIP). A licensed broker adds personalized carrier comparisons and enrollment support at no cost to you.",
   }
+,
+  {
+    question: "What does a licensed Medicare broker do?",
+    answer:
+      "A licensed independent Medicare broker helps you compare Medigap, Medicare Advantage, and Part D plans from multiple carriers side by side. The service is free to you because brokers are compensated by the insurance companies once you enroll. An independent broker is not tied to a single carrier, so you get unbiased plan comparisons based on your doctors, prescriptions, and budget.",
+  },
+  {
+    question: "Do I have to pay to work with a Medicare broker?",
+    answer:
+      "No. Working with a licensed Medicare broker costs you nothing — plan premiums are the same whether you enroll through a broker or directly with the carrier. Brokers are paid a standardized commission by the insurance company after you enroll. You can call 855-559-1700 for a free plan review.",
+  },
+  {
+    question: "Which states does MedicareYourself serve?",
+    answer:
+      "Anthony Orner (NPI 1902584006) is a licensed Medicare insurance broker in New Jersey and 34 additional states. If you're unsure whether your state is covered, call 855-559-1700 and we'll confirm before scheduling a plan review. All consultations are free and no obligation.",
+  }
 ];
 
 export default function ServicesHubPage() {
@@ -1411,6 +1427,7 @@ export default function ServicesHubPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/division_consumers/insurance/ship.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents: <a href="https://www.state.nj.us/dobi/division_insurance/ship/shipmain.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> offers free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
       </section>
     </>
   );

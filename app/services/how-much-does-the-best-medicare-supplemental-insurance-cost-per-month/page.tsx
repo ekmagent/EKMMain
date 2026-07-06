@@ -403,6 +403,12 @@ const faqs = [
     answer:
       "You can apply to switch Medigap plans at any time, but outside of your initial Open Enrollment Period or a guaranteed-issue situation, carriers can require medical underwriting. That means they can charge more or deny coverage based on your health. Call 855-559-1700 to review whether switching makes sense for your situation.",
   }
+,
+  {
+    question: "Does where I live affect how much I pay for Medigap?",
+    answer:
+      "Yes. Medigap premiums vary widely by ZIP code because insurance companies factor in local claims costs, competition, and state regulations. Two people with the same plan letter and age can pay very different premiums depending on where they live. That's why comparing quotes for your specific ZIP is critical.",
+  }
 ];
 
 export default function HowMuchDoesBestMedicareSupplementalInsuranceCostPerMonth() {
@@ -669,6 +675,7 @@ export default function HowMuchDoesBestMedicareSupplementalInsuranceCostPerMonth
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/shipmain.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">Need free one-on-one help in your state? Contact your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-700 underline">State Health Insurance Assistance Program (SHIP)</a> or the <a href="https://www.state.nj.us/dobi/division_insurance/" rel="noopener noreferrer" target="_blank" className="text-blue-700 underline">NJ Department of Banking and Insurance</a>.</div>
       </section>
     </main>
   );

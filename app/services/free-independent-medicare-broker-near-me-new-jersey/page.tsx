@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "free independent medicare broker near me new jersey | Free Quote | MedicareYourself",
   description:
-    "Work with a free independent Medicare broker in New Jersey. Anthony Orner compares Medigap & Advantage plans from top carriers—call 855-559-1700 for a free quote.",
+    "Work with a free independent Medicare broker in New Jersey. Anthony Orner compares Medigap & Advantage plans—call 855-559-1700 for a free quote.",
   alternates: { canonical: "https://medicareyourself.com/services/free-independent-medicare-broker-near-me-new-jersey" },
   openGraph: {
     title:
@@ -333,6 +333,17 @@ const faqs = [
     question: "How many carriers does an independent New Jersey broker represent?",
     answer:
       "An independent broker like Anthony Orner is appointed with multiple Medigap and Medicare Advantage carriers licensed in New Jersey. That allows a side-by-side comparison of premiums, networks, drug coverage, and extra benefits so you can choose based on your doctors, prescriptions, and budget — not on which single company an agent happens to represent.",
+  }
+,
+  {
+    question: "Does New Jersey use community rating for Medigap?",
+    answer:
+      "Yes. New Jersey requires Medigap plans to use community rating, meaning premiums for a given plan are the same regardless of your age. Your 6-month Medigap Open Enrollment Period still applies when you first enroll in Part B at age 65 or older.",
+  },
+  {
+    question: "What areas of New Jersey does Anthony Orner serve?",
+    answer:
+      "Anthony Orner is licensed in New Jersey and 34 additional states and serves clients throughout NJ, including North Jersey, Central Jersey, the Jersey Shore, and South Jersey. Appointments are available in person, by phone, or virtually to fit your preference.",
   }
 ];
 

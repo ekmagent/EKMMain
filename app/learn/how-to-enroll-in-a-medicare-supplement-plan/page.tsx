@@ -9,7 +9,7 @@ import { MF } from "@/lib/medicare-figures";
 export const metadata: Metadata = {
   title: "How to Enroll in a Medicare Supplement Plan (2026): The 5-Step Guide",
   description:
-    "The 5-step guide to enrolling in a Medicare Supplement plan in 2026 and locking in your 6-month guaranteed-issue window. Call 855-559-1700 to compare every carrier.",
+    "The 5-step guide to enrolling in a Medicare Supplement plan in 2026 and locking in your 6-month guaranteed-issue window. Call 855-559-1700 to compare carriers.",
   alternates: { canonical: `${SITE_URL}/learn/how-to-enroll-in-a-medicare-supplement-plan` },
   openGraph: {
     title: "How to Enroll in a Medicare Supplement Plan (2026): The 5-Step Guide",
@@ -1126,6 +1126,22 @@ const faqs = [
     question: "Can I switch Medigap carriers later if I find a lower price?",
     answer:
       "You can apply to switch Medigap carriers at any time, but outside your 6-month Medigap Open Enrollment Period or a guaranteed-issue situation, most states allow carriers to use medical underwriting. That means they can deny your application or charge more based on your health. This is why comparing every carrier before you first enroll matters so much.",
+  }
+,
+  {
+    question: "When is the best time to buy a Medicare Supplement plan?",
+    answer:
+      "The best time to buy a Medigap policy is during your 6-month Medigap Open Enrollment Period, which starts the first month you are both 65 or older and enrolled in Part B. During this window, carriers cannot deny you coverage or charge more based on health conditions. Applying outside this window in most states means answering health questions and possibly being declined.",
+  },
+  {
+    question: "Do I need both Medicare Part A and Part B to enroll in a Medigap plan?",
+    answer:
+      "Yes. You must be enrolled in both Medicare Part A and Part B before a carrier will issue you a Medicare Supplement policy. If you don't yet have Part B, you'll need to enroll through the Social Security Administration first.",
+  },
+  {
+    question: "Can I switch Medicare Supplement plans later if I change my mind?",
+    answer:
+      "You can apply to switch Medigap plans at any time, but outside of your Medigap Open Enrollment Period or a guaranteed-issue situation, carriers in most states can require medical underwriting. That means they can deny your application or charge more based on your health. Medicare.gov advises choosing carefully because you may not be able to switch policies later.",
   }
 ];
 

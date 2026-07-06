@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
   description:
-    "IRMAA explained: how Medicare's income surcharge works for Part B & Part D, who pays, and how to appeal with Form SSA-44. Free broker help — call 855-559-1700.",
+    "IRMAA explained: how Medicare's income surcharge affects Part B and Part D, income brackets, and how to appeal with Form SSA-44. Free help — call 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/irmaa-medicare-surcharge` },
   openGraph: {
     title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
@@ -1243,6 +1243,22 @@ const faqs = [
     question: "How is the IRMAA surcharge paid?",
     answer:
       "For Part B, the IRMAA surcharge is added to your monthly Part B premium and typically deducted directly from your Social Security benefit. For Part D, the surcharge is billed separately by Medicare or Social Security — not by your Part D plan — even though the base premium is paid to the drug plan.",
+  }
+,
+  {
+    question: "How do I appeal an IRMAA determination?",
+    answer:
+      "If you've experienced a life-changing event that reduced your income, you can appeal by filing Form SSA-44 with the Social Security Administration. Qualifying events include marriage, divorce, death of a spouse, work stoppage or reduction, loss of pension, or loss of income-producing property. You'll need to provide documentation of the event and an estimate of your new income.",
+  },
+  {
+    question: "Is IRMAA permanent once I'm charged?",
+    answer:
+      "No. IRMAA is recalculated every year based on your most recent tax return on file with the IRS. If your income drops below the threshold in a later tax year, your IRMAA surcharge will decrease or go away entirely. This is why one-time income events like Roth conversions or capital gains only affect IRMAA for a single year.",
+  },
+  {
+    question: "How is IRMAA collected?",
+    answer:
+      "For Part B, the IRMAA surcharge is deducted directly from your Social Security benefit along with your standard premium. For Part D, the surcharge is billed separately by Medicare — not by your drug plan — even though your base Part D premium still goes to your plan carrier.",
   }
 ];
 

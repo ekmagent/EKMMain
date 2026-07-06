@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Plan G Rates for a 69-Year-Old in New Jersey | Free Carrier Comparison | MedicareYourself",
   description:
-    "Compare Plan G rates for 69-year-olds in NJ side-by-side across top carriers. Get a free, no-pressure quote from a licensed NJ broker — call 855-559-1700.",
+    "Compare Plan G rates for 69-year-olds in NJ across top carriers. Free, no-pressure quotes from a licensed NJ broker. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/plan-g-rates-for-69-year-old-in-new-jersey" },
   openGraph: {
     title:

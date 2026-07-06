@@ -1377,6 +1377,22 @@ const steps = [
     answer:
       "SSA reviews your application and sends confirmation, typically by mail. Once approved, your Medicare card arrives with your Part A and/or Part B effective date. You cannot modify the application after submission, so review each screen carefully before signing.",
   }
+,
+  {
+    question: "Do I need a my Social Security account to enroll in Medicare online?",
+    answer:
+      "Yes. The SSA online Medicare application requires you to sign in with a my Social Security account, which you can create using Login.gov or ID.me. You'll need your Social Security number and a valid ID such as a driver's license to verify your identity.",
+  },
+  {
+    question: "Can I apply for Medicare online without also applying for Social Security retirement benefits?",
+    answer:
+      "Yes. During the application, you'll be asked whether you want to apply for Medicare only or for Medicare along with retirement benefits. Choosing Medicare-only lets you enroll in Part A and Part B without starting your Social Security retirement checks.",
+  },
+  {
+    question: "Can I change my application after I submit it on SSA.gov?",
+    answer:
+      "No. Once you agree to the Electronic Signature Agreement and click Submit Now, you cannot modify the application online. If you need to make corrections, you'll need to contact the Social Security Administration directly by phone or at your local office.",
+  }
 ];
 
 export default function SSAOnlineEnrollmentWalkthrough() {

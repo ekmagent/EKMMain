@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare enrollment help for people with lupus california | Free Guidance | MedicareYourself",
   description:
-    "California lupus patients: compare Medicare plans covering rheumatologists, biologics, and infusions. Free licensed broker help—call 855-559-1700 today.",
+    "California lupus patients: find Medicare plans covering rheumatologists, biologics & infusions. Free licensed broker help—call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-enrollment-help-for-people-with-lupus-california" },
   openGraph: {
     title:
@@ -279,6 +279,12 @@ const faqs = [
     question: "Can I switch Medicare Advantage plans in California if my rheumatologist leaves the network?",
     answer:
       "You can change Medicare Advantage plans during the Annual Enrollment Period (October 15 to December 7) or the Medicare Advantage Open Enrollment Period (January 1 to March 31). In some cases, a Special Enrollment Period may apply if your provider network changes significantly mid-year. Call us to review your options.",
+  }
+,
+  {
+    question: "Does Medicare Advantage or Original Medicare work better for lupus patients in California?",
+    answer:
+      "It depends on your care team and medications. Original Medicare with a Medigap plan offers broader specialist access nationwide, which can help if you see rheumatologists at academic centers like UCLA or UCSF. Medicare Advantage plans may offer lower premiums but use networks and prior authorization for biologics. A licensed broker can compare both side by side for your situation.",
   }
 ];
 

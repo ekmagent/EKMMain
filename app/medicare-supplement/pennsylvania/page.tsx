@@ -86,6 +86,12 @@ const faqs = [
     answer:
       "No. Medigap plans sold in Pennsylvania do not include prescription drug coverage. To get drug coverage, you'll need a separate standalone Medicare Part D plan. Many PA enrollees pair Plan G or Plan N with a Part D plan to cover both medical and pharmacy costs.",
   }
+,
+  {
+    question: "When can I enroll in a Medicare Supplement plan in Pennsylvania?",
+    answer:
+      "Your best time to enroll is during your 6-month Medigap Open Enrollment Period, which begins the month you are 65 or older and enrolled in Medicare Part B. During this window, Pennsylvania insurers cannot deny you coverage or charge more based on health conditions. Outside this window, you may face medical underwriting unless you qualify for a guaranteed issue right.",
+  }
 ];
 
 export default function PennsylvaniaMedigapPage() {

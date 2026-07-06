@@ -851,6 +851,22 @@ const faqs = [
     answer:
       "Yes. Because every carrier files identical benefits under each plan letter, an independent broker can compare rates across multiple insurance companies at no cost to you. Premiums are set by the carrier and regulators, so you pay the same rate whether you enroll through a broker or directly. Call 855-559-1700 to compare your options.",
   }
+,
+  {
+    question: "Does where I live affect how much I pay for Medigap?",
+    answer:
+      "Yes. Medigap premiums vary widely by state, county, and even zip code because carriers price based on local claims experience and demographics. Medicare.gov notes that the same lettered plan can cost significantly more or less depending on where you live. That's why comparing multiple carriers licensed in your specific area is critical.",
+  },
+  {
+    question: "Will my Medigap premium go up as I get older?",
+    answer:
+      "It depends on how the carrier prices the policy. Attained-age-rated plans increase as you age, issue-age-rated plans lock in based on your enrollment age, and community-rated plans charge everyone in an area the same regardless of age. All three types may still see annual increases due to inflation and claims trends.",
+  },
+  {
+    question: "Do I pay extra for a Medigap plan on top of my Part B premium?",
+    answer:
+      "Yes. A Medigap policy is a separate premium paid to a private insurance company in addition to the standard Part B premium you pay to Medicare. You must be enrolled in both Part A and Part B to buy and keep a Medigap plan. Call 855-559-1700 and a licensed broker will compare every carrier in your area at no cost.",
+  }
 ];
 
 export default function AverageCostSupplementalInsurancePage() {

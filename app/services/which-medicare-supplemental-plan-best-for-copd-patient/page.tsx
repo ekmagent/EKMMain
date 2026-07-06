@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "which medicare supplemental plan best for copd patient? | Free Expert Advice | MedicareYourself",
   description:
-    "Best Medigap plan for COPD? Compare Plan G vs Plan N for oxygen, inhalers & pulmonologist visits. Free licensed broker review — call 855-559-1700.",
+    "Compare Medigap Plan G vs Plan N for COPD care — oxygen, inhalers, pulmonologist visits. Free licensed broker review. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/which-medicare-supplemental-plan-best-for-copd-patient" },
   openGraph: {
     title:

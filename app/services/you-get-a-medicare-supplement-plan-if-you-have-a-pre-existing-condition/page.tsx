@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "You Get a Medicare Supplement Plan If You Have a Pre-Existing Condition | Free Guidance | MedicareYourself",
   description:
-    "Yes — you can get a Medicare Supplement plan with a pre-existing condition during Medigap Open Enrollment. Call 855-559-1700 for free licensed broker guidance.",
+    "Yes — you can get a Medicare Supplement plan with a pre-existing condition during Medigap Open Enrollment. Call 855-559-1700 for free broker guidance today.",
   alternates: { canonical: "https://medicareyourself.com/services/you-get-a-medicare-supplement-plan-if-you-have-a-pre-existing-condition" },
   openGraph: {
     title:
@@ -175,6 +175,22 @@ const faqs = [
     question: "What guaranteed-issue rights protect me if I have a pre-existing condition?",
     answer:
       "Federal guaranteed-issue rights require insurers to sell you a Medigap policy without medical underwriting in specific situations, such as losing employer coverage or if your Medicare Advantage plan leaves your area. These protections generally have a 63-day window from the qualifying event. Some states offer broader protections beyond federal minimums.",
+  }
+,
+  {
+    question: "Does Original Medicare itself cover pre-existing conditions?",
+    answer:
+      "Yes. Original Medicare (Part A and Part B) has covered pre-existing conditions since the program began in 1965. Your eligibility for Medicare is not affected by prior injuries, illnesses, or chronic diseases like diabetes or heart disease.",
+  },
+  {
+    question: "Can an insurance company impose a waiting period for pre-existing conditions on a Medigap plan?",
+    answer:
+      "In some cases, yes. If you had less than 6 months of prior creditable coverage before enrolling, an insurer may impose a pre-existing condition waiting period of up to 6 months during which the Medigap plan won't cover care related to that condition. Original Medicare will still pay its share during that time.",
+  },
+  {
+    question: "How can a licensed broker help me if I have a pre-existing condition?",
+    answer:
+      "A licensed broker can identify whether you're inside a guaranteed-issue window, check state-specific protections, and compare carriers that are more lenient on underwriting. Call 855-559-1700 to speak with Anthony Orner for free guidance on your options.",
   }
 ];
 
@@ -461,6 +477,7 @@ export default function PreExistingConditionMedigapPage() {
             <div className="text-sm text-gray-600 mt-4">Need help in your state? Contact your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free one-on-one Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify Medigap rules with the <a href="https://www.state.nj.us/dobi/division_insurance/" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or free counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP program</a>.</div>
             <div className="text-sm text-gray-600 mt-4">For state-specific help, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling in your state.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents: contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
 
       <p className="text-sm text-gray-400 mt-10">

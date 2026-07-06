@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare insurance agents in burlington new jersey | Free Local Help | MedicareYourself",
   description:
-    "Compare Medicare plans in Burlington County, NJ with a licensed independent broker. Free Medigap, Advantage & Part D reviews — call 855-559-1700 today.",
+    "Talk with a licensed Medicare broker serving Burlington County, NJ. Free Medigap, Advantage & Part D plan comparisons — call 855-559-1700 for no-cost help.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-insurance-agents-in-burlington-new-jersey" },
   openGraph: {
     title:
@@ -447,6 +447,22 @@ const faqs = [
     answer:
       "Yes. Anthony Orner is a licensed independent Medicare broker (NPI 1902584006) serving Burlington County communities including Mount Laurel, Willingboro, Moorestown, Cinnaminson, Medford, and surrounding towns. Consultations are offered by phone, video, or in person at no cost.",
   }
+,
+  {
+    question: "Does Medigap in New Jersey use community rating?",
+    answer:
+      "Yes. New Jersey requires Medigap policies to be community-rated, which means premiums are not based on your age. Everyone enrolled in the same plan with the same carrier generally pays the same base rate regardless of whether they are 65 or 85.",
+  },
+  {
+    question: "When is my Medigap Open Enrollment Period in New Jersey?",
+    answer:
+      "Your one-time Medigap Open Enrollment Period is the 6-month window that begins when you are both 65 or older and enrolled in Medicare Part B. During this window you have guaranteed issue rights, meaning carriers cannot deny you coverage or charge more based on health. Outside this window, medical underwriting may apply.",
+  },
+  {
+    question: "Can a Burlington County broker help me compare Medicare Advantage and Medigap?",
+    answer:
+      "Yes. As an independent broker, Anthony Orner can walk you through the tradeoffs between Medicare Advantage plans and Medigap paired with a standalone Part D drug plan. The comparison considers your doctors, prescriptions, travel habits, and budget so you can make an informed decision.",
+  }
 ];
 
 export default function MedicareInsuranceAgentsBurlingtonNJ() {
@@ -724,6 +740,7 @@ export default function MedicareInsuranceAgentsBurlingtonNJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey resources: <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" target="_blank" rel="noopener noreferrer" className="underline">NJ Department of Banking and Insurance</a> and free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" target="_blank" rel="noopener noreferrer" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-2">New Jersey seniors can also get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </>
   );

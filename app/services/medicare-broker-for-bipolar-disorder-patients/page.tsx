@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for bipolar disorder patients | Free Plan Comparison | MedicareYourself",
   description:
-    "Medicare broker for bipolar disorder: Anthony Orner compares Part D plans for mood stabilizers and psychiatric coverage. Free plan review — call 855-559-1700.",
+    "Medicare broker for bipolar disorder: Anthony Orner compares Part D formularies for mood stabilizers and psychiatric networks. Free review — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-bipolar-disorder-patients" },
   openGraph: {
     title:
@@ -319,6 +319,17 @@ const faqs = [
     question: "Does Medicare cover outpatient therapy and psychiatric visits for bipolar disorder?",
     answer:
       "Yes. Medicare Part B covers outpatient mental health services including individual and group psychotherapy, psychiatric evaluations, medication management, and diagnostic testing. After you meet the Part B deductible, you typically pay coinsurance for visits with psychiatrists, clinical psychologists, and licensed clinical social workers who accept Medicare. Part B also covers an annual depression screening at no cost when performed by a qualifying provider.",
+  }
+,
+  {
+    question: "Does Medicare cover therapy and counseling for bipolar disorder?",
+    answer:
+      "Yes. Medicare Part B covers outpatient mental health services, including individual and group psychotherapy, family counseling when the focus is your treatment, and diagnostic evaluations. Covered providers include psychiatrists, clinical psychologists, licensed clinical social workers, and, more recently, marriage and family therapists and mental health counselors. You typically pay a coinsurance after meeting the Part B deductible.",
+  },
+  {
+    question: "Will a Medicare Advantage plan restrict which psychiatrist I can see?",
+    answer:
+      "Often, yes. Most Medicare Advantage plans use HMO or PPO networks, so seeing an out-of-network psychiatrist may cost more or not be covered. Original Medicare with a Medigap supplement lets you see any provider who accepts Medicare, which can matter if you have an established psychiatrist. Anthony can compare network directories against your current care team before you enroll.",
   }
 ];
 
@@ -631,6 +642,7 @@ export default function MedicareBrokerBipolarDisorderPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> offers free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free unbiased Medicare counseling.</div>
       </section>
       </article>
     </>

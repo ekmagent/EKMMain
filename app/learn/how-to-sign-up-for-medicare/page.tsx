@@ -1261,6 +1261,22 @@ const faqs = [
     answer:
       "Yes. You can enroll in Part A at 65 even if you are still working, and it is usually premium-free. Whether to enroll in Part B depends on whether your employer coverage is considered creditable — check with your HR department before delaying, and call 855-559-1700 if you need help deciding.",
   }
+,
+  {
+    question: "Can I sign up for Medicare if I am still working at 65?",
+    answer:
+      "Yes. You can enroll in premium-free Part A at 65 even if you are still working, and many people do since it may coordinate with employer coverage. Whether to enroll in Part B depends on whether your employer plan is considered creditable coverage. Call 855-559-1700 to review your situation before making a decision.",
+  },
+  {
+    question: "What happens if I miss my Medicare Initial Enrollment Period?",
+    answer:
+      "If you miss your Initial Enrollment Period and do not qualify for a Special Enrollment Period, you may have to wait for the General Enrollment Period (January 1 – March 31) to sign up. You could also face a permanent Part B late enrollment penalty added to your monthly premium for as long as you have Medicare. A licensed broker can help you determine if a Special Enrollment Period applies to you.",
+  },
+  {
+    question: "Do I sign up for Medicare through Social Security or Medicare?",
+    answer:
+      "You sign up for Medicare through the Social Security Administration at ssa.gov/medicare, by calling Social Security, or by visiting a local Social Security office. Medicare itself does not process enrollments. Once enrolled, you can then choose additional coverage like a Medicare Supplement or Medicare Advantage plan.",
+  }
 ];
 
 export default function HowToSignUpPage() {

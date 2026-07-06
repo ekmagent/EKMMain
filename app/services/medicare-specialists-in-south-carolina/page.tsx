@@ -187,6 +187,12 @@ const faqs = [
     answer:
       "Yes. Plan availability and provider networks vary widely between areas like Charleston, Columbia, Greenville, and rural Upstate or Pee Dee counties. An independent broker can pull quotes from multiple carriers licensed in your specific SC ZIP code and confirm your doctors and prescriptions are covered before you enroll.",
   }
+,
+  {
+    question: "What Medicare plan types can a South Carolina specialist help me compare?",
+    answer:
+      "A licensed SC specialist can help you compare Original Medicare with a Medicare Supplement (Medigap) plan, Medicare Advantage (Part C) plans, and stand-alone Part D prescription drug plans. Anthony Orner works with multiple carriers serving South Carolina residents so you can see options side by side. This includes reviewing provider networks, drug formularies, and out-of-pocket costs.",
+  }
 ];
 
 export default function MedicareSpecialistsSouthCarolina() {

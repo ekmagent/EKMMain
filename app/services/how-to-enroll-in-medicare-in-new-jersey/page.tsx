@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "how to enroll in medicare in new jersey | Free Local Help | MedicareYourself",
   description:
-    "How to enroll in Medicare in New Jersey: IEP timeline, Parts A & B sign-up, and NJ Medigap rules explained. Free local broker help — call 855-559-1700.",
+    "How to enroll in Medicare in New Jersey — step-by-step IEP timeline, Parts A & B sign-up, and NJ Medigap basics. Free local broker help. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/how-to-enroll-in-medicare-in-new-jersey" },
   openGraph: {
     title:
@@ -345,6 +345,7 @@ export default function HowToEnrollInMedicareInNewJersey() {
             <div className="text-sm text-gray-600 mt-4">Free NJ counseling: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" target="_blank" rel="noopener noreferrer" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
       </section>
     </main>
   );

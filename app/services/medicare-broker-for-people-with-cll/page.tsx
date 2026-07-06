@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare broker for people with CLL | Free Consult | MedicareYourself",
   description:
-    "CLL Medicare broker: keep your oncologist, time Medigap enrollment right, and cover oral targeted therapies. Free consult with Anthony Orner — call 855-559-1700.",
+    "CLL Medicare broker: keep your oncologist, time Medigap enrollment right, and cover oral targeted therapies. Free consult — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-people-with-cll" },
   openGraph: {
     title:

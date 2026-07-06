@@ -101,6 +101,22 @@ const faqs = [
     answer:
       "Yes. Medigap premiums can increase due to inflation, rising medical costs, and the carrier's pricing model (issue-age, attained-age, or community-rated). Reviewing your rate each year with a licensed broker helps confirm you're still on a competitive plan. Call 855-559-1700 for a free rate comparison.",
   }
+,
+  {
+    question: "Do I need both Medicare Part A and Part B to buy a Medigap policy?",
+    answer:
+      "Yes. Medicare.gov states that you generally must be enrolled in Original Medicare — both Part A (Hospital Insurance) and Part B (Medical Insurance) — before you can purchase a Medigap policy. Medigap is designed to help pay your share of costs under Original Medicare, so it cannot stand alone.",
+  },
+  {
+    question: "What out-of-pocket costs does Medigap actually help pay?",
+    answer:
+      "Medigap is private insurance that helps cover your share of costs in Original Medicare, including copayments, coinsurance, and deductibles. The exact combination depends on the standardized plan letter you choose. It does not replace Medicare — it works alongside it after Medicare pays its portion first.",
+  },
+  {
+    question: "Does working with a licensed broker cost more than buying Medigap directly?",
+    answer:
+      "No. Medigap premiums are filed with each state, so the rate you pay is the same whether you enroll through a licensed broker or directly with the carrier. A broker like Anthony Orner can compare multiple carriers side by side at no cost to you. Call 855-559-1700 for a free rate review.",
+  }
 ];
 
 export default function ExploringMedigapCostPage() {
@@ -395,6 +411,7 @@ export default function ExploringMedigapCostPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents: contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or the free <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP counseling program</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Need state-level help? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free one-on-one Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or the free <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for unbiased Medigap guidance.</div>
       </section>
     </main>
   );

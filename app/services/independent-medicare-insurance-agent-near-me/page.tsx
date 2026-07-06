@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "independent medicare insurance agent near me | Free No-Obligation Help | MedicareYourself",
   description:
-    "Looking for an independent Medicare insurance agent near you? Anthony Orner compares top carriers across NJ & 34 states at no cost. Call 855-559-1700 today.",
+    "Find an independent Medicare insurance agent near you. Anthony Orner compares top carriers across NJ & 34 states at no cost. Call 855-559-1700 for free help.",
   alternates: { canonical: "https://medicareyourself.com/services/independent-medicare-insurance-agent-near-me" },
   openGraph: {
     title:
@@ -100,6 +100,22 @@ const faqs = [
     question: "Do I have to meet an independent Medicare agent in person?",
     answer:
       "No. Most consultations can be handled by phone, video call, or email, which is why searching for an agent \"near me\" no longer requires a local office visit. What matters more is that the agent is licensed in your state and appointed with the carriers offering plans in your county.",
+  }
+,
+  {
+    question: "How do I find an independent Medicare agent near me?",
+    answer:
+      "Start by searching for agents licensed in your state and confirm they hold appointments with multiple carriers. Ask whether they meet in person, by phone, or via video, and confirm they service your ZIP code. You can also call 855-559-1700 to schedule a free consultation with Anthony Orner, licensed in NJ and 34 additional states.",
+  },
+  {
+    question: "Will an independent agent help me after I enroll?",
+    answer:
+      "A good independent agent stays with you long after enrollment. They can help with claim questions, doctor and pharmacy changes, and the Annual Enrollment Period review each fall to make sure your plan still fits. This ongoing service is included at no cost to you.",
+  },
+  {
+    question: "Can an independent Medicare agent help with both Medicare Advantage and Medigap plans?",
+    answer:
+      "Yes. Independent agents with the right carrier appointments can present Medicare Advantage, Medicare Supplement (Medigap), and standalone Part D prescription drug plans. This lets you compare the two main paths — Original Medicare with a Medigap and Part D plan versus an all-in-one Medicare Advantage plan — side by side before deciding.",
   }
 ];
 
@@ -323,6 +339,7 @@ export default function IndependentMedicareInsuranceAgentNearMe() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify an agent's license or file a complaint through the <a href="https://www.state.nj.us/dobi/division_insurance/" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a>, or get free unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP</a>.</div>
       </section>
     </main>
   );
