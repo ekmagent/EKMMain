@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Enroll in Plan G Online | Fast, Free, Broker-Assisted | MedicareYourself",
   description:
-    "Enroll in Medicare Plan G online in 20–40 minutes with a licensed broker comparing top carriers side by side. Free, no-obligation help — call 855-559-1700.",
+    "Enroll in Medicare Plan G online in 20–40 minutes with a licensed broker comparing top carriers side by side. Free help — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/enroll-in-plan-g-online" },
   openGraph: {
     title:
@@ -195,6 +195,22 @@ const faqs = [
     question: "Can I keep my current doctors with Plan G?",
     answer:
       "Yes. Plan G works with any doctor or hospital in the United States that accepts Original Medicare, so there is no network restriction. As long as your provider accepts Medicare assignment, your Plan G benefits apply. This is one reason many people prefer Medigap over network-based plans.",
+  }
+,
+  {
+    question: "Can I switch from another Medigap plan to Plan G online?",
+    answer:
+      "Yes, you can apply to switch to Plan G at any time, but outside your Medigap Open Enrollment Period most carriers will require medical underwriting. If approved, your new Plan G takes effect and you cancel your prior policy. A broker can help you compare quotes across carriers before you switch.",
+  },
+  {
+    question: "Does Plan G cover the Part B deductible?",
+    answer:
+      "No. Plan G covers nearly all Original Medicare out-of-pocket costs except the annual Part B deductible, which you pay once per year before Plan G benefits kick in. After that, Plan G typically pays your remaining Part A and Part B coinsurance and copays for Medicare-approved services.",
+  },
+  {
+    question: "Can I use any doctor with Plan G?",
+    answer:
+      "Yes. Plan G works with any doctor or hospital in the U.S. that accepts Original Medicare — there are no networks or referrals required. That flexibility is one of the main reasons people choose a Medigap plan over other coverage types.",
   }
 ];
 

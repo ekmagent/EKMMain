@@ -656,6 +656,12 @@ const faqs = [
     answer:
       "Yes, but not automatically. You must first qualify for Social Security Disability Insurance (SSDI), and Medicare eligibility typically begins 24 months after your SSDI cash benefits start. Once enrolled, you have the same Part A, Part B, Part D, and Medigap or Medicare Advantage options as anyone else on Medicare.",
   }
+,
+  {
+    question: "Does Medicare cover MRIs needed to monitor MS progression?",
+    answer:
+      "Yes. Medically necessary MRIs ordered by your doctor to monitor MS are covered under Medicare Part B when performed at a Medicare-approved facility. You'll typically be responsible for the Part B deductible and coinsurance unless you have a Medigap plan. Medicare Advantage plans also cover MRIs but may require prior authorization and use of in-network imaging centers.",
+  }
 ];
 
 export default function MedicareBrokerForMSPatients() {
@@ -897,6 +903,7 @@ export default function MedicareBrokerForMSPatients() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
       </article>
     </>

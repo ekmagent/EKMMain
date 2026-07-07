@@ -9,7 +9,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Medicare Services & Guides | MedicareYourself",
   description:
-    "Compare Medigap, Medicare Advantage & Part D with a licensed independent broker in NJ & 34 states. Free, unbiased plan reviews — call 855-559-1700.",
+    "Compare Medigap, Medicare Advantage & Part D with a licensed independent broker in NJ & 34 states. Free, unbiased reviews — call 855-559-1700 today.",
   alternates: { canonical: `${SITE_URL}/services` },
   openGraph: {
     title: "Medicare Services & Guides | MedicareYourself",
@@ -1270,6 +1270,22 @@ const STATIC_CATEGORIES = [
     answer:
       "Anthony Orner (NPI 1902584006) is a licensed Medicare insurance broker in New Jersey and 34 additional states. If you're unsure whether your state is covered, call 855-559-1700 and we'll confirm before scheduling a plan review. All consultations are free and no obligation.",
   }
+,
+  {
+    question: "What does an independent Medicare broker do?",
+    answer:
+      "An independent Medicare broker is licensed to compare plans from multiple insurance carriers rather than representing just one company. They help you review Medigap, Medicare Advantage, and Part D options based on your doctors, medications, and budget. Their services are free to you because carriers pay the broker directly when you enroll.",
+  },
+  {
+    question: "Is there a cost to use MedicareYourself for plan comparisons?",
+    answer:
+      "No. There is no fee to speak with a licensed broker or to compare plans through MedicareYourself. Medicare beneficiaries pay the same premium whether they enroll on their own or with the help of a licensed agent.",
+  },
+  {
+    question: "Which states does Anthony Orner service?",
+    answer:
+      "Anthony Orner is a licensed Medicare insurance broker in New Jersey and 34 additional states. You can call 855-559-1700 to confirm licensure in your state and get a free plan review.",
+  }
 ];
 
 export default function ServicesHubPage() {
@@ -1428,6 +1444,7 @@ export default function ServicesHubPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents: <a href="https://www.state.nj.us/dobi/division_insurance/ship/shipmain.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> offers free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents: <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank">NJ State Health Insurance Assistance Program (SHIP)</a></div>
       </section>
     </>
   );

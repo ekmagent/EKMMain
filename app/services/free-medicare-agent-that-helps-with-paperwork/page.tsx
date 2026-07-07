@@ -126,6 +126,17 @@ const faqs = [
     answer:
       "Yes. Licensed Medicare brokers are required to follow strict privacy rules, including HIPAA and CMS marketing guidelines. Anthony only uses your information to submit carrier applications and provide plan comparisons — never to sell your data.",
   }
+,
+  {
+    question: "How long does it take a broker to complete my Medicare paperwork?",
+    answer:
+      "Most enrollment applications can be completed in a single phone call, typically 20 to 45 minutes depending on which plans you're enrolling in. Anthony fills out the forms while you're on the line, reads back the details, and submits everything electronically. You'll get confirmation from the carrier once processing is complete.",
+  },
+  {
+    question: "Will I still get help from my agent after the paperwork is submitted?",
+    answer:
+      "Yes. Anthony stays available for billing questions, ID card issues, plan changes, and Annual Enrollment reviews each fall. Ongoing service is part of what the carrier compensates a licensed broker for, so there's no additional cost to you for continued help.",
+  }
 ];
 
 export default function FreeMedicareAgentPaperworkPage() {

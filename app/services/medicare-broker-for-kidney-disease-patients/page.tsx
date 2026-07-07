@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for kidney disease patients | Free Coverage Review | MedicareYourself",
   description:
-    "Medicare broker for kidney disease patients — ESRD, dialysis, transplant & Part D guidance. Free plan review with a licensed broker. Call 855-559-1700.",
+    "Medicare broker for kidney disease patients — ESRD, dialysis & transplant coverage made simple. Get a free plan review with a licensed broker. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-kidney-disease-patients" },
   openGraph: {
     title:
@@ -141,6 +141,22 @@ const faqs = [
     question: "Can I enroll in a Medicare Advantage plan if I have ESRD?",
     answer:
       "Yes. Since 2021, people with ESRD can enroll in any Medicare Advantage plan available in their area. Before choosing, it's important to confirm your nephrologist, dialysis center, and transplant hospital are in the plan's network. A broker can compare provider networks and drug formularies side by side.",
+  }
+,
+  {
+    question: "Does Medicare cover dialysis at home?",
+    answer:
+      "Yes. Medicare Part B covers both in-center and home dialysis, including training for you and a helper, home dialysis equipment, and most supplies. You'll still be responsible for the Part B deductible and coinsurance unless you have a Medigap plan or other secondary coverage that helps offset those costs.",
+  },
+  {
+    question: "Can I join a Medicare Advantage plan if I have ESRD?",
+    answer:
+      "Yes. Since 2021, people with ESRD have been allowed to enroll in any Medicare Advantage plan available in their area. Coverage details for dialysis providers, transplant hospitals, and specialty drugs vary by plan, so it's important to compare networks and formularies carefully before enrolling.",
+  },
+  {
+    question: "Does Medicare pay for immunosuppressive drugs after a transplant?",
+    answer:
+      "Medicare Part B covers immunosuppressive drugs for transplant recipients whose transplant was covered by Medicare. For those who would otherwise lose Medicare 36 months after a successful transplant, Part B offers a limited immunosuppressive drug benefit that continues drug-only coverage. A broker can help you decide whether to enroll in this benefit or seek other coverage.",
   }
 ];
 
@@ -393,6 +409,7 @@ export default function MedicareBrokerKidneyDisease() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

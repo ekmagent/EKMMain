@@ -453,6 +453,12 @@ const faqs = [
     answer:
       "Yes, but through Medicare Part D prescription drug plans, not Part A or Part B. Common heart medications including statins, blood thinners like Eliquis and Xarelto, beta blockers, and ACE inhibitors are typically covered, though tier placement and copays vary by plan. A broker can run your specific medication list through each plan's formulary to find the lowest total annual cost.",
   }
+,
+  {
+    question: "Are heart medications covered under Medicare?",
+    answer:
+      "Yes, prescription heart medications are covered under Medicare Part D or through a Medicare Advantage plan that includes drug coverage. Common cardiac drugs like statins, beta-blockers, ACE inhibitors, and anticoagulants are typically on plan formularies, but tiers and copays vary widely between plans. A broker can run your specific medication list through every available plan in your zip code to find the lowest total annual cost.",
+  }
 ];
 
 export default function MedicareBrokerHeartDiseasePatients() {

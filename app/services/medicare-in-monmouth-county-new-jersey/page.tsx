@@ -170,6 +170,17 @@ const faqs = [
     answer:
       "A Medigap (Medicare Supplement) policy pairs with Original Medicare to help cover out-of-pocket costs like coinsurance and deductibles. New Jersey uses community rating, so premiums for a given plan are the same regardless of age. Your best time to enroll is during your 6-month Medigap Open Enrollment Period that begins the month you are 65 and enrolled in Part B.",
   }
+,
+  {
+    question: "How does New Jersey's community rating affect Medigap costs in Monmouth County?",
+    answer:
+      "New Jersey requires Medigap carriers to use community rating, which means premiums for a given plan are the same regardless of your age. However, premiums can still vary between insurance companies, so comparing carriers is important. A licensed local broker can help you review the Medigap options available in Monmouth County.",
+  },
+  {
+    question: "Can I switch Medicare plans after I enroll in Monmouth County?",
+    answer:
+      "Yes. You can change Medicare Advantage or Part D plans during the Annual Enrollment Period from October 15 to December 7. There is also a Medicare Advantage Open Enrollment Period from January 1 to March 31. Medigap changes outside your 6-month Open Enrollment Period may be subject to medical underwriting in New Jersey.",
+  }
 ];
 
 export default function MedicareInMonmouthCountyNewJersey() {
@@ -414,6 +425,7 @@ export default function MedicareInMonmouthCountyNewJersey() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can find free local counseling through the <a href="https://www.nj.gov/humanservices/doas/assistance/medicare/offices.shtml" rel="noopener noreferrer" target="_blank">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey resource: <a href="https://www.nj.gov/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> — free, unbiased Medicare counseling for Monmouth County residents.</div>
             <div className="text-sm text-gray-600 mt-4">Local help: <a href="https://www.nj.gov/humanservices/doas/assistance/medicare/offices.shtml" rel="noopener noreferrer" target="_blank" className="underline">New Jersey SHIP Local Offices (Division of Aging Services)</a> or the <a href="https://medicare.co.monmouth.nj.us/" rel="noopener noreferrer" target="_blank" className="underline">Monmouth County Medicare Part B Reimbursement portal</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey resource: <a href="https://www.nj.gov/humanservices/doas/assistance/medicare/offices.shtml" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP Local Offices (Division of Aging Services)</a></div>
       </section>
     </main>
   );

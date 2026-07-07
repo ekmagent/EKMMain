@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for stroke survivors | Free Plan Review | MedicareYourself",
   description:
-    "Stroke survivor Medicare broker — compare plans for rehab, therapy, home health & DME coverage. Free plan review with Anthony Orner. Call 855-559-1700.",
+    "Stroke survivor Medicare broker — compare plans covering rehab, therapy, home health & DME. Free plan review with Anthony Orner. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-stroke-survivors" },
   openGraph: {
     title:
@@ -386,6 +386,22 @@ const faqs = [
     answer:
       "Medicare Part B covers several preventive services that help reduce stroke risk, including cardiovascular disease screenings, diabetes screenings, and blood pressure checks during your Annual Wellness Visit. Many of these preventive services are covered at no cost when you see a provider who accepts Medicare assignment.",
   }
+,
+  {
+    question: "Does Medicare cover home health care after a stroke?",
+    answer:
+      "Yes. Medicare Part A and Part B cover intermittent skilled nursing care, physical therapy, speech-language pathology, and occupational therapy at home when you are certified as homebound and your doctor orders a plan of care. Home health aide services may also be covered when you already receive skilled care. A Medicare-certified home health agency must provide the services.",
+  },
+  {
+    question: "Does Medicare cover durable medical equipment like walkers or wheelchairs after a stroke?",
+    answer:
+      "Yes. Medicare Part B covers durable medical equipment (DME) such as walkers, wheelchairs, hospital beds, and canes when your doctor prescribes them as medically necessary for use at home. You'll typically pay a percentage of the Medicare-approved amount after meeting the Part B deductible. Choosing suppliers that accept Medicare assignment keeps costs predictable.",
+  },
+  {
+    question: "Should a stroke survivor choose Medicare Advantage or a Medigap plan?",
+    answer:
+      "It depends on your providers, rehab needs, and budget. Medigap paired with Original Medicare offers broad provider access and predictable out-of-pocket costs — helpful when you need specialists or out-of-network rehab. Medicare Advantage may include extras like transportation or fitness benefits but uses network rules and prior authorization. Call 855-559-1700 for a side-by-side review.",
+  }
 ];
 
 export default function MedicareBrokerForStrokeSurvivors() {
@@ -620,6 +636,7 @@ export default function MedicareBrokerForStrokeSurvivors() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">Need local help? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling in your state.</div>
       </section>
       </article>
     </>

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare supplement plan (medigap) premium hikes | Free Rate Review | MedicareYourself",
   description:
-    "Facing a Medigap premium hike? Compare carriers offering the same standardized plan and call 855-559-1700 for a free, no-pressure rate review today.",
+    "Hit with a Medigap premium hike? Compare carriers offering the same standardized plan and call 855-559-1700 for a free, no-pressure rate review today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-supplement-plan-medigap-premium-hikes" },
   openGraph: {
     title:
@@ -132,6 +132,17 @@ const faqs = [
     question: "If I switch Medigap carriers, will there be a gap in my coverage?",
     answer:
       "No, if the transition is timed correctly. A licensed broker will align your new policy's effective date with the cancellation of the old one so coverage is continuous. Never cancel your existing policy until the new one is approved and in force.",
+  }
+,
+  {
+    question: "Does my Medigap plan letter change my benefits when I switch carriers?",
+    answer:
+      "No. Medigap plans are standardized by the federal government, so a Plan G or Plan N provides the exact same benefits regardless of which insurance company sells it. Only the premium and the carrier's rate history differ. This means switching to a lower-priced carrier will not reduce your coverage.",
+  },
+  {
+    question: "Will my doctor accept a new Medigap plan if I switch carriers?",
+    answer:
+      "Yes, as long as your doctor accepts Original Medicare, they will accept any Medigap policy from any carrier. Medigap works alongside Medicare and does not use provider networks. You do not need to change doctors when you switch Medigap companies.",
   }
 ];
 
@@ -429,6 +440,7 @@ export default function MedigapPremiumHikesPage() {
             <div className="text-sm text-gray-600 mt-4">For state-specific rate rules and consumer assistance, visit the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> or contact your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Free, unbiased counseling is available through your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a> or the <a href="https://www.nj.gov/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medigap counseling.</div>
       </section>
     </main>
   );

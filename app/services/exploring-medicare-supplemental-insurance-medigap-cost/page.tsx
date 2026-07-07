@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Exploring Medicare Supplemental Insurance (Medigap) Cost | Free Rate Comparison | MedicareYourself",
   description:
-    "Compare Medigap costs by plan letter, pricing model, and ZIP. A free licensed broker rate review may lower your premium — call 855-559-1700 today.",
+    "Compare Medigap costs by plan letter, pricing model & ZIP. Free licensed broker review across top carriers — call 855-559-1700 to find your lowest rate.",
   alternates: { canonical: "https://medicareyourself.com/services/exploring-medicare-supplemental-insurance-medigap-cost" },
   openGraph: {
     title:
@@ -116,6 +116,22 @@ const faqs = [
     question: "Does working with a licensed broker cost more than buying Medigap directly?",
     answer:
       "No. Medigap premiums are filed with each state, so the rate you pay is the same whether you enroll through a licensed broker or directly with the carrier. A broker like Anthony Orner can compare multiple carriers side by side at no cost to you. Call 855-559-1700 for a free rate review.",
+  }
+,
+  {
+    question: "What factors most affect my Medigap premium?",
+    answer:
+      "Premiums vary based on the plan letter you choose, the carrier's pricing model (community-rated, issue-age-rated, or attained-age-rated), your ZIP code, age, tobacco use, and whether you qualify for a household or enrollment discount. Medical underwriting outside your Open Enrollment Period can also affect rates. Comparing multiple carriers for the same plan letter is the best way to control cost.",
+  },
+  {
+    question: "Is a Medigap plan worth the cost compared to Original Medicare alone?",
+    answer:
+      "That depends on your health, budget, and risk tolerance. Original Medicare leaves you responsible for coinsurance and deductibles with no annual out-of-pocket limit, while a Medigap policy caps most of that exposure in exchange for a monthly premium. Many enrollees find the predictable costs worth the premium, especially if they use healthcare frequently.",
+  },
+  {
+    question: "Does Medigap work with any doctor that accepts Medicare?",
+    answer:
+      "Yes. Medigap policies work with any provider nationwide who accepts Original Medicare, with no network restrictions or referral requirements. This is one of the biggest advantages of pairing Original Medicare with a Medigap plan, especially for people who travel or split time between states.",
   }
 ];
 
@@ -412,6 +428,7 @@ export default function ExploringMedigapCostPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents: contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or the free <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP counseling program</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Need state-level help? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free one-on-one Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or the free <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for unbiased Medigap guidance.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents: contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.html" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medigap counseling.</div>
       </section>
     </main>
   );

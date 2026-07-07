@@ -177,6 +177,22 @@ const faqs = [
     answer:
       "A captive agent represents one insurance carrier and can only sell that company's plans. An independent broker is contracted with multiple carriers and compares options side by side. For Hillsborough and Somerset County residents, an independent broker can shop the full market of Advantage, Supplement, and Part D plans in your zip code.",
   }
+,
+  {
+    question: "What does a Hillsborough Medicare broker actually do?",
+    answer:
+      "A licensed independent broker reviews your current coverage, doctors, and prescriptions, then compares Medicare Supplement, Advantage, and Part D plans available in your Somerset County zip code. The broker handles the enrollment paperwork and stays available for questions year after year. Because carriers pay the commission, the service is free to you.",
+  },
+  {
+    question: "Can I keep my Hillsborough-area doctors with a Medicare plan?",
+    answer:
+      "With Original Medicare plus a Medigap plan, you can see any provider nationwide that accepts Medicare, which includes most doctors and hospitals in the Hillsborough and Somerset County area. Medicare Advantage plans use networks, so a broker will verify your specific doctors are in-network before you enroll. This step avoids surprises after your effective date.",
+  },
+  {
+    question: "How is a Medicare Supplement different from Medicare Advantage?",
+    answer:
+      "A Medicare Supplement (Medigap) works alongside Original Medicare to cover deductibles and coinsurance, and it lets you use any Medicare-accepting provider without referrals. Medicare Advantage replaces Original Medicare with a private plan that bundles hospital, medical, and often drug coverage using a network. The right choice depends on your budget, providers, and travel habits.",
+  }
 ];
 
 export default function HillsboroughNJMedicareInsuranceAgents() {
@@ -422,6 +438,7 @@ export default function HillsboroughNJMedicareInsuranceAgents() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </main>
   );

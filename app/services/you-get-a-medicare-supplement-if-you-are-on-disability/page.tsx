@@ -468,6 +468,7 @@ export default function MedicareSupplementDisabilityPage() {
             <div className="text-sm text-gray-600 mt-4">Need state-specific help? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">local SHIP counselor</a> for free, unbiased Medicare guidance.</div>
             <div className="text-sm text-gray-600 mt-4">For state-specific Medigap rules for under-65 enrollees, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free local counseling.</div>
             <div className="text-sm text-gray-600 mt-4">Need state-specific help? Find your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">SHIP counselor</a> for free, unbiased Medicare guidance in your state.</div>
+            <div className="text-sm text-gray-600 mt-4">For state-specific Medigap rules on disability, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a> for free local counseling.</div>
       </section>
 
       <p className="text-sm text-gray-500 mt-10">

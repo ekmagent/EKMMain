@@ -54,6 +54,17 @@ const faqs = [
     answer:
       "Generally, no. Original Medicare (Parts A and B) does not cover most outpatient prescription drugs. To get drug coverage, you need to enroll in a stand-alone Part D plan or a Medicare Advantage plan that includes drug coverage. Call 855-559-1700 for help comparing your options.",
   }
+,
+  {
+    question: "What is Medicare Part C (Medicare Advantage)?",
+    answer:
+      "Medicare Part C, also called Medicare Advantage, is an all-in-one alternative to Original Medicare offered by private insurance companies approved by Medicare. These plans include Part A and Part B coverage, and most include Part D drug coverage plus extras like dental, vision, and hearing. You must continue paying your Part B premium when enrolled in a Medicare Advantage plan.",
+  },
+  {
+    question: "How do Medicare Parts A, B, C, and D work together?",
+    answer:
+      "Parts A and B together form Original Medicare, which covers hospital and medical services. Part D adds prescription drug coverage through a stand-alone plan. Part C (Medicare Advantage) is a private alternative that bundles A, B, and usually D into one plan — you choose either Original Medicare (with optional Part D and Medigap) or Medicare Advantage, not both.",
+  }
 ];
 
 export default function MedicarePartsPage() {

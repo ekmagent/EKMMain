@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for osteoporosis patients | Free Coverage Review | MedicareYourself",
   description:
-    "Medicare broker for osteoporosis patients: compare plans covering DEXA scans, Prolia, Reclast & fracture rehab. Free review with Anthony Orner — call 855-559-1700.",
+    "Medicare broker for osteoporosis patients: compare plans covering DEXA scans, Prolia, Reclast & fracture rehab. Free review — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-osteoporosis-patients" },
   openGraph: {
     title:
@@ -126,6 +126,12 @@ const faqs = [
     question: "Should I choose Medigap or Medicare Advantage if I have osteoporosis?",
     answer:
       "It depends on your priorities. Medigap plans pair with Original Medicare and typically offer broader provider access plus predictable out-of-pocket costs for infusions and rehab, but require a separate Part D plan. Medicare Advantage bundles drug coverage and may offer lower premiums, but networks and formularies vary. A broker can compare both options based on your specific medications and providers.",
+  }
+,
+  {
+    question: "Does Medicare cover osteoporosis injections given at home?",
+    answer:
+      "Yes, in specific cases. Medicare Part B helps cover certain injectable osteoporosis drugs and home health nurse visits to administer them for women who meet the home health benefit criteria and have a doctor-certified bone fracture related to post-menopausal osteoporosis. Your doctor must also certify that you can't self-inject or have a family member available to give the injection.",
   }
 ];
 

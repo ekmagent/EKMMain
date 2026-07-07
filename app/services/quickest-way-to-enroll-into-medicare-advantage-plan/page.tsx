@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "quickest way to enroll into medicare advantage plan | Free Help | MedicareYourself",
   description:
-    "The quickest way to enroll in a Medicare Advantage plan: a licensed broker completes your application in about 10-15 minutes. Call 855-559-1700 for free help.",
+    "Enroll in a Medicare Advantage plan in one quick call — a licensed broker handles the paperwork in about 10-15 minutes. Call 855-559-1700 for free help.",
   alternates: { canonical: "https://medicareyourself.com/services/quickest-way-to-enroll-into-medicare-advantage-plan" },
   openGraph: {
     title:
@@ -100,6 +100,22 @@ const faqs = [
     question: "Does it cost more to enroll through a licensed broker?",
     answer:
       "No. Licensed Medicare brokers are paid directly by the insurance carriers, so their help is free to you. Your plan premium is the same whether you enroll on your own through Medicare.gov or with a broker's assistance.",
+  }
+,
+  {
+    question: "When does my Medicare Advantage coverage start after I enroll?",
+    answer:
+      "Your coverage start date depends on which enrollment period you use. For most enrollment periods, coverage begins the first day of the month after the plan gets your completed request. If you're new to Medicare, coverage typically begins the same month your Part A and Part B start.",
+  },
+  {
+    question: "Is there a cost to enroll through a licensed broker?",
+    answer:
+      "No. Working with a licensed Medicare broker like Anthony Orner is free to you. Brokers are paid directly by the insurance carriers, and the plan premium is the same whether you enroll on your own or with a broker's help.",
+  },
+  {
+    question: "Can I switch Medicare Advantage plans if I change my mind?",
+    answer:
+      "Yes. You can switch plans during the Annual Enrollment Period each fall or during the Medicare Advantage Open Enrollment Period in early spring. Special Enrollment Periods may also allow changes if you move, lose other coverage, or have certain qualifying life events.",
   }
 ];
 
@@ -388,6 +404,7 @@ export default function QuickestWayToEnrollMedicareAdvantagePlan() {
             <div className="text-sm text-gray-600 mt-4">For free, unbiased counseling in your state, visit the <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Need free, unbiased counseling? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">Free unbiased counseling is available through your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
     </main>
   );

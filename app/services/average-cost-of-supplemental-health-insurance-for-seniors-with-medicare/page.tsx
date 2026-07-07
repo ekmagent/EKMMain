@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "average cost of supplemental health insurance for seniors with medicare | Free Broker Comparison | MedicareYourself",
   description:
-    "Compare 2026 Medigap costs by plan, age, and state. A licensed broker shops every top carrier free to find your lowest rate. Call 855-559-1700 to compare.",
+    "Compare 2026 Medigap costs by plan, age, and location. A licensed broker shops every top carrier free to find your lowest rate. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/average-cost-of-supplemental-health-insurance-for-seniors-with-medicare" },
   openGraph: {
     title:
@@ -866,6 +866,22 @@ const faqs = [
     question: "Do I pay extra for a Medigap plan on top of my Part B premium?",
     answer:
       "Yes. A Medigap policy is a separate premium paid to a private insurance company in addition to the standard Part B premium you pay to Medicare. You must be enrolled in both Part A and Part B to buy and keep a Medigap plan. Call 855-559-1700 and a licensed broker will compare every carrier in your area at no cost.",
+  }
+,
+  {
+    question: "Does where I live affect how much I pay for Medigap?",
+    answer:
+      "Yes. Medicare.gov confirms that Medigap premiums vary widely based on the insurance company, the specific lettered plan, and your geographic location. The same Plan G in one zip code can cost significantly more or less than the exact same plan a few counties away. A licensed broker can quickly show you which carriers price most competitively in your area.",
+  },
+  {
+    question: "Do all insurance companies charge the same for the same Medigap plan?",
+    answer:
+      "No. According to Medicare.gov, the benefits in each lettered Medigap plan are identical no matter which insurance company sells it — the price is the only difference. That means you could pay substantially more for the exact same coverage simply because you chose a different carrier. Comparing every top-rated company is the only way to know you're getting the lowest rate.",
+  },
+  {
+    question: "Will my Medigap premium go up as I get older?",
+    answer:
+      "It depends on the carrier's pricing method. Attained-age-rated policies increase as you age, issue-age-rated policies are based on the age you were when you bought the plan, and community-rated policies charge everyone the same regardless of age. All three types can still increase over time due to inflation. A broker can explain which pricing method each carrier in your state uses.",
   }
 ];
 

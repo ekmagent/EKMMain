@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for PTSD patients | Free Mental Health Plan Review | MedicareYourself",
   description:
-    "Medicare broker for PTSD patients — compare NJ plans covering trauma therapy, EMDR & psychiatric meds. Free help from Anthony Orner. Call 855-559-1700.",
+    "Medicare broker for PTSD patients — compare NJ plans covering therapy, EMDR & psychiatric meds. Free help from Anthony Orner. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-ptsd-patients" },
   openGraph: {
     title:
@@ -347,6 +347,7 @@ export default function MedicareBrokerForPTSDPatients() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
       </section>
     </main>
   );

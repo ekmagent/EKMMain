@@ -193,6 +193,12 @@ const faqs = [
     answer:
       "Any provider in the United States who accepts Original Medicare will accept your Plan G coverage — there are no networks. Plan G pays secondary to Medicare, so as long as Medicare approves the service, your Medigap policy will pay its share.",
   }
+,
+  {
+    question: "Do I need to switch doctors when I enroll in Plan G?",
+    answer:
+      "No. Medigap Plan G works with any provider in the United States that accepts Original Medicare. There are no networks, no referrals, and no in-network or out-of-network distinctions.",
+  }
 ];
 
 export default function CompareAndEnrollInPlanGOnline() {
@@ -402,6 +408,7 @@ export default function CompareAndEnrollInPlanGOnline() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/division_insurance/" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> for independent guidance.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </main>
   );

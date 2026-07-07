@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
   description:
-    "IRMAA explained: how Medicare's income surcharge affects Part B and Part D, income brackets, and how to appeal with Form SSA-44. Free help — call 855-559-1700.",
+    "IRMAA explained: how Medicare's income surcharge affects Part B and Part D, plus how to appeal with Form SSA-44 if income dropped. Free help: 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/irmaa-medicare-surcharge` },
   openGraph: {
     title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
@@ -1259,6 +1259,22 @@ const faqs = [
     question: "How is IRMAA collected?",
     answer:
       "For Part B, the IRMAA surcharge is deducted directly from your Social Security benefit along with your standard premium. For Part D, the surcharge is billed separately by Medicare — not by your drug plan — even though your base Part D premium still goes to your plan carrier.",
+  }
+,
+  {
+    question: "How do I appeal an IRMAA determination?",
+    answer:
+      "If you had a qualifying life-changing event that reduced your income, you can appeal by filing Form SSA-44 with the Social Security Administration. Qualifying events include marriage, divorce, death of a spouse, work stoppage or reduction, loss of pension, or loss of income-producing property. You'll need documentation such as a marriage certificate, death certificate, or employer statement. Call 855-559-1700 for help understanding the process.",
+  },
+  {
+    question: "Will IRMAA go away if my income drops?",
+    answer:
+      "Yes. Because IRMAA is recalculated each year based on your tax return from two years prior, a drop in income will eventually reduce or eliminate the surcharge. If the income drop was caused by a qualifying life-changing event, you can file Form SSA-44 to have IRMAA adjusted sooner rather than waiting two years.",
+  },
+  {
+    question: "Does IRMAA apply if I have Medicare Advantage?",
+    answer:
+      "Yes. Even if you're enrolled in a Medicare Advantage plan, you still pay your Part B premium plus any IRMAA surcharge directly to Medicare. If your Advantage plan includes prescription drug coverage, the Part D IRMAA is also billed separately by Social Security, not by your plan.",
   }
 ];
 

@@ -1277,6 +1277,22 @@ const faqs = [
     answer:
       "You sign up for Medicare through the Social Security Administration at ssa.gov/medicare, by calling Social Security, or by visiting a local Social Security office. Medicare itself does not process enrollments. Once enrolled, you can then choose additional coverage like a Medicare Supplement or Medicare Advantage plan.",
   }
+,
+  {
+    question: "How do I sign up for Medicare if I am not automatically enrolled?",
+    answer:
+      "You can apply for Medicare online at ssa.gov/medicare, by calling Social Security, or by visiting your local Social Security office. The online application typically takes about 10 minutes to complete. You can apply up to 3 months before the month you turn 65.",
+  },
+  {
+    question: "What happens if I miss my Medicare Initial Enrollment Period?",
+    answer:
+      "If you miss your Initial Enrollment Period and do not qualify for a Special Enrollment Period, you will have to wait for the General Enrollment Period (January 1 – March 31) to sign up. You may also owe a permanent Part B late enrollment penalty that is added to your monthly premium for as long as you have Medicare. Call 855-559-1700 if you missed your window and need help figuring out next steps.",
+  },
+  {
+    question: "Can I sign up for a Medicare Advantage or Supplement plan at the same time?",
+    answer:
+      "Yes. Once you have both Part A and Part B, you can enroll in a Medicare Supplement (Medigap) or Medicare Advantage plan. Your Medigap Open Enrollment Period begins the month your Part B starts and lasts 6 months — during this window you have guaranteed-issue rights. Call 855-559-1700 for a free plan comparison.",
+  }
 ];
 
 export default function HowToSignUpPage() {

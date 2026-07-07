@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for chronic pain patients | Free Coverage Consultation | MedicareYourself",
   description:
-    "Medicare broker Anthony Orner helps chronic pain patients compare plans that cover pain management, PT, and specialists. Call 855-559-1700 for a free review.",
+    "Medicare broker Anthony Orner helps chronic pain patients find plans covering pain management, PT, and specialists. Call 855-559-1700 for a free plan review.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-chronic-pain-patients" },
   openGraph: {
     title:
@@ -235,6 +235,22 @@ const faqs = [
     question: "Can a Medicare broker help me keep my current pain specialist?",
     answer:
       "Yes. Before recommending a plan, a licensed broker should confirm whether your pain specialist accepts Original Medicare or is in-network with the Medicare Advantage plans you're considering. Anthony Orner reviews provider directories and formularies before enrollment. Call 855-559-1700 to start a free provider check.",
+  }
+,
+  {
+    question: "How often does Medicare cover chronic pain management visits?",
+    answer:
+      "Medicare Part B covers chronic pain management and treatment services on a monthly basis for beneficiaries with persistent or recurring pain lasting longer than three months. Each monthly visit can include a pain assessment, medication management, and care coordination with your provider. You must have a diagnosed chronic pain condition to be eligible.",
+  },
+  {
+    question: "Does Medicare cover physical therapy and acupuncture for chronic pain?",
+    answer:
+      "Yes. Medicare Part B covers medically necessary physical therapy and occupational therapy when ordered by your provider. Acupuncture is also covered specifically for chronic low back pain, with limits on the number of sessions per year. Chiropractic manipulation of the spine is covered when medically necessary to correct a subluxation.",
+  },
+  {
+    question: "Can a Medicare broker help if I take prescription pain medications?",
+    answer:
+      "Yes. A licensed broker can review each plan's drug formulary to confirm your specific pain medications are covered and at what tier. This matters because two plans in the same area can have very different copays for the same drug. Anthony Orner reviews your medication list before recommending any Part D or Medicare Advantage plan.",
   }
 ];
 
@@ -543,6 +559,7 @@ export default function MedicareBrokerForChronicPainPatients() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased Medicare counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

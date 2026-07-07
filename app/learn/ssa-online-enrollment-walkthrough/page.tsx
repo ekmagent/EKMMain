@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title:
     "How to Enroll in Medicare Online at SSA.gov (Step-by-Step Walkthrough)",
   description:
-    "Step-by-step SSA.gov Medicare enrollment walkthrough — apply online for Part A & B in about 10 minutes. Free broker guidance at 855-559-1700.",
+    "Step-by-step SSA.gov Medicare enrollment walkthrough — apply online for Part A & B in about 10 minutes. Free broker help at 855-559-1700.",
   alternates: {
     canonical: `${SITE_URL}/learn/ssa-online-enrollment-walkthrough`,
   },
@@ -1392,6 +1392,22 @@ const steps = [
     question: "Can I change my application after I submit it on SSA.gov?",
     answer:
       "No. Once you agree to the Electronic Signature Agreement and click Submit Now, you cannot modify the application online. If you need to make corrections, you'll need to contact the Social Security Administration directly by phone or at your local office.",
+  }
+,
+  {
+    question: "How long does the SSA online Medicare application take to complete?",
+    answer:
+      "Most people finish the online application in about 10 minutes if they have their documents ready. You'll need your Social Security number, a valid driver's license or state ID for identity verification, and details about any current health insurance coverage.",
+  },
+  {
+    question: "Can I sign up for only Part A online and delay Part B?",
+    answer:
+      "Yes. During the application, SSA asks whether you want to enroll in Part B. You can choose Part A only if you have other creditable coverage, such as an active employer group health plan, and delay Part B without a late enrollment penalty.",
+  },
+  {
+    question: "What happens after I submit my Medicare application on SSA.gov?",
+    answer:
+      "You'll receive a confirmation number and can track your application status through your my Social Security account. SSA typically processes applications within a few weeks and mails your red, white, and blue Medicare card once approved.",
   }
 ];
 
