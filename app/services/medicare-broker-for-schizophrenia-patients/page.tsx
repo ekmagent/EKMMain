@@ -151,6 +151,22 @@ const faqs = [
     answer:
       "In most cases you must wait for the Annual Enrollment Period or a Special Enrollment Period to switch plans. However, dual-eligible beneficiaries and those with certain chronic conditions may qualify for more frequent plan changes. A broker can review whether you qualify for a Special Enrollment Period.",
   }
+,
+  {
+    question: "Does Medicare cover long-acting injectable antipsychotics?",
+    answer:
+      "Yes. Long-acting injectable antipsychotics administered in a doctor's office are typically covered under Medicare Part B as physician-administered drugs. Self-administered antipsychotics filled at a pharmacy are covered under Part D. A broker can help you understand which benefit applies to your specific medication and how cost-sharing works.",
+  },
+  {
+    question: "Can a Medicare broker help coordinate coverage with Medicaid for dual-eligible patients?",
+    answer:
+      "Yes. Many people with schizophrenia qualify for both Medicare and Medicaid, making them dual-eligible. Anthony Orner can review Dual Special Needs Plans (D-SNPs) that coordinate both programs, often reducing out-of-pocket costs for psychiatric care, medications, and case management services.",
+  },
+  {
+    question: "Does Medicare cover partial hospitalization programs for schizophrenia?",
+    answer:
+      "Yes. Medicare Part B covers partial hospitalization programs (PHPs), which are structured outpatient psychiatric treatment programs more intensive than standard outpatient therapy. Your doctor must certify that you would otherwise require inpatient care. Coverage includes individual and group therapy, occupational therapy, and medication management.",
+  }
 ];
 
 export default function MedicareBrokerSchizophreniaPatients() {

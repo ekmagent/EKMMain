@@ -883,6 +883,12 @@ const faqs = [
     answer:
       "It depends on the carrier's pricing method. Attained-age-rated policies increase as you age, issue-age-rated policies are based on the age you were when you bought the plan, and community-rated policies charge everyone the same regardless of age. All three types can still increase over time due to inflation. A broker can explain which pricing method each carrier in your state uses.",
   }
+,
+  {
+    question: "Does where I live affect how much I pay for Medigap coverage?",
+    answer:
+      "Yes, location is one of the biggest factors in Medigap pricing. Medicare.gov confirms that premiums vary widely by zip code because carriers use local claims data and state regulations to set rates. The same lettered plan can cost significantly more or less depending on your county and state.",
+  }
 ];
 
 export default function AverageCostSupplementalInsurancePage() {
@@ -1129,6 +1135,7 @@ export default function AverageCostSupplementalInsurancePage() {
             <div className="text-sm text-gray-600 mt-4">Need state-specific help? Contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> or your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">SHIP counselor</a> for free unbiased Medigap guidance.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">For free, unbiased counseling in your state, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a> or the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">Need one-on-one help? Contact your state's <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
       </section>
     </main>
   );

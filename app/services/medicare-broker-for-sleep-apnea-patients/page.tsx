@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for sleep apnea patients | Free CPAP Coverage Check | MedicareYourself",
   description:
-    "Licensed Medicare broker helping sleep apnea patients navigate CPAP coverage, the 90-day compliance rule & DME suppliers. Free coverage review: 855-559-1700.",
+    "Licensed Medicare broker helping sleep apnea patients navigate CPAP coverage, the 90-day compliance rule, and DME suppliers. Free coverage review: 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-sleep-apnea-patients" },
   openGraph: {
     title:
@@ -153,6 +153,17 @@ const faqs = [
     question: "Can a Medicare broker help me find a DME supplier for CPAP?",
     answer:
       "Yes. A licensed Medicare broker can help you understand which plans work best with Medicare-enrolled DME suppliers in your area and explain network rules under Medicare Advantage. Call 855-559-1700 for a free review of your CPAP coverage options.",
+  }
+,
+  {
+    question: "Does Medicare cover the Inspire implant for sleep apnea?",
+    answer:
+      "Medicare may cover the Inspire upper airway stimulation implant for people with moderate to severe obstructive sleep apnea who cannot tolerate CPAP therapy. Coverage typically requires documentation of CPAP intolerance and a qualifying sleep study. Prior authorization rules vary by plan, so a licensed broker can help you confirm coverage before you schedule the procedure.",
+  },
+  {
+    question: "What happens after the initial 12-week CPAP trial period?",
+    answer:
+      "Medicare may cover a 12-week trial of CPAP therapy after an obstructive sleep apnea diagnosis. To continue coverage beyond the trial, your doctor must document that the therapy is helping you and that you are meeting the usage compliance requirements. If both conditions are met, Medicare can continue covering the device and supplies.",
   }
 ];
 

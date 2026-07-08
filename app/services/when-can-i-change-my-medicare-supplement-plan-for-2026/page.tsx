@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "when can i change my medicare supplement plan for 2026 | Free Switching Help | MedicareYourself",
   description:
-    "When can I change your Medicare Supplement plan for 2026? Learn switch windows, guaranteed-issue rights, and underwriting rules. Call 855-559-1700 for free help.",
+    "When can I change my Medicare Supplement plan for 2026? Learn switch windows, guaranteed-issue rights & underwriting. Call 855-559-1700 for free help.",
   alternates: { canonical: "https://medicareyourself.com/services/when-can-i-change-my-medicare-supplement-plan-for-2026" },
   openGraph: {
     title:
@@ -530,6 +530,22 @@ const faqs = [
     answer:
       "Some states provide switching protections beyond federal law, such as annual birthday or anniversary rules that let you change to an equal or lesser plan without underwriting. Contact your State Insurance Department or SHIP program to confirm what applies where you live.",
   }
+,
+  {
+    question: "What is the 6-month Medigap Open Enrollment Period?",
+    answer:
+      "Your Medigap Open Enrollment Period is a one-time 6-month window that starts the first month you're 65 or older and enrolled in Medicare Part B. During this window, carriers cannot deny you coverage or charge more based on health history. Once it ends, you generally lose that federal protection unless a guaranteed-issue right applies.",
+  },
+  {
+    question: "Can my Medigap carrier drop me if I switch plans in 2026?",
+    answer:
+      "A Medigap carrier generally cannot cancel your policy as long as you pay your premiums, even if your health changes. If you apply to switch to a new carrier and are approved, you would then cancel the old policy yourself. It's important not to cancel your existing coverage until the new policy is officially approved and in force.",
+  },
+  {
+    question: "Should I use the 30-day free-look period when switching Medigap plans?",
+    answer:
+      "Yes. Federal rules give you a 30-day free-look period after starting a new Medigap policy. During this time you can keep both policies active so you can compare them, then decide whether to cancel the old one. You'll pay both premiums for that month, but it protects you if the new plan isn't what you expected.",
+  }
 ];
 
 export default function WhenCanIChangeMyMedicareSupplementPlanFor2026() {
@@ -776,6 +792,7 @@ export default function WhenCanIChangeMyMedicareSupplementPlanFor2026() {
             <div className="text-sm text-gray-600 mt-4">For state-specific Medigap switching rules and free counseling, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">State help: <a href="https://www.nj.gov/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey SHIP (State Health Insurance Assistance Program)</a> provides free Medicare counseling, including guidance on Medigap switching rights.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents: <a href="https://www.state.nj.us/dobi/division_insurance/ihcseh/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> and the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP program</a> offer free Medigap counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

@@ -1409,6 +1409,22 @@ const steps = [
     answer:
       "You'll receive a confirmation number and can track your application status through your my Social Security account. SSA typically processes applications within a few weeks and mails your red, white, and blue Medicare card once approved.",
   }
+,
+  {
+    question: "How long does the SSA online Medicare application take to complete?",
+    answer:
+      "Most people finish the online application in about 10 minutes if they have their documents ready. You'll need your Social Security number, a driver's license or state ID for identity verification, and details about any current health coverage. The Social Security Administration confirms this is the fastest way to sign up.",
+  },
+  {
+    question: "Can I apply for Medicare online without also applying for Social Security retirement benefits?",
+    answer:
+      "Yes. During the SSA online application, you'll be asked whether you want to apply for Medicare only or for both Medicare and retirement benefits. Choosing Medicare only lets you enroll in Part A and/or Part B while delaying your retirement benefit to a later date.",
+  },
+  {
+    question: "What if I make a mistake on the online application after submitting?",
+    answer:
+      "You cannot modify the application through the SSA website after clicking Submit Now. If you notice an error, contact the Social Security Administration by phone or visit your local SSA office to make corrections. You can also call our office at 855-559-1700 and we'll help you determine the next steps.",
+  }
 ];
 
 export default function SSAOnlineEnrollmentWalkthrough() {

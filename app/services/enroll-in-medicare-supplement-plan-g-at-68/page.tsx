@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "enroll in medicare supplement plan g at 68 | Free Guidance | MedicareYourself",
   description:
-    "Enroll in Medicare Supplement Plan G at 68 with broker guidance. Compare carriers, understand underwriting, and lock in coverage. Call 855-559-1700.",
+    "Enroll in Medicare Supplement Plan G at 68 with broker guidance — compare carriers, navigate underwriting, and lock in rates. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/enroll-in-medicare-supplement-plan-g-at-68" },
   openGraph: {
     title:
@@ -418,6 +418,7 @@ export default function EnrollInMedicareSupplementPlanGAt68() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="underline hover:text-blue-700">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">For state-specific Medigap rules and free counseling, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline hover:text-blue-700">State Health Insurance Assistance Program (SHIP)</a> or the <a href="https://www.nj.gov/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline hover:text-blue-700">NJ Department of Banking and Insurance</a>.</div>
             <div className="text-sm text-gray-600 mt-4">For state-specific Medigap protections and free counseling, contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline hover:text-blue-700">New Jersey Department of Banking and Insurance</a> or your state's SHIP program.</div>
+            <div className="text-sm text-gray-600 mt-4">For state-specific guidance, contact the <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline hover:text-blue-700">State Health Insurance Assistance Program (SHIP)</a> for free unbiased Medicare counseling in your state.</div>
       </section>
       </article>
     </>

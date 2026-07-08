@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Find an NJ Medicare Broker Near You | Free No-Pressure Help | MedicareYourself",
   description:
-    "Find a trusted NJ Medicare broker near you. Anthony Orner compares top carriers statewide at no cost—independent, no pressure. Call 855-559-1700.",
+    "Find a trusted NJ Medicare broker near you. Anthony Orner compares top carriers statewide at no cost—independent, no pressure. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/find-an-nj-medicare-broker-near-you" },
   openGraph: {
     title:
@@ -433,6 +433,7 @@ export default function FindNJMedicareBrokerNearYou() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a></div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey resource: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> offers free, unbiased Medicare counseling to NJ residents.</div>
       </section>
       </article>
     </>

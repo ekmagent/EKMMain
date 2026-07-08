@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "independent medicare agents abq nm | Free Local Help | MedicareYourself",
   description:
-    "Independent Medicare agents serving ABQ, NM compare Advantage, Medigap & Part D plans across carriers at no cost. Call 855-559-1700 for free local guidance.",
+    "Independent Medicare agents serving ABQ, NM compare Advantage, Medigap & Part D plans across carriers at no cost. Call 855-559-1700 for free local help.",
   alternates: { canonical: "https://medicareyourself.com/services/independent-medicare-agents-abq-nm" },
   openGraph: {
     title:

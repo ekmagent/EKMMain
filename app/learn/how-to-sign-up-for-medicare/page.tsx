@@ -1293,6 +1293,22 @@ const faqs = [
     answer:
       "Yes. Once you have both Part A and Part B, you can enroll in a Medicare Supplement (Medigap) or Medicare Advantage plan. Your Medigap Open Enrollment Period begins the month your Part B starts and lasts 6 months — during this window you have guaranteed-issue rights. Call 855-559-1700 for a free plan comparison.",
   }
+,
+  {
+    question: "How do I sign up for Medicare if I am not automatically enrolled?",
+    answer:
+      "You can sign up online at ssa.gov/medicare, which takes about 10 minutes. You may also apply by calling Social Security or by visiting a local Social Security office. Applications can be submitted up to 3 months before the month you turn 65.",
+  },
+  {
+    question: "What happens if I miss my Initial Enrollment Period?",
+    answer:
+      "If you miss your Initial Enrollment Period and do not qualify for a Special Enrollment Period, you generally must wait for the General Enrollment Period from January 1 through March 31 each year. You may also owe a permanent Part B late enrollment penalty that increases the longer you wait. Coverage from a General Enrollment Period begins the month after you enroll.",
+  },
+  {
+    question: "Do I need to sign up for Medicare if I already receive Social Security?",
+    answer:
+      "No. If you are already collecting Social Security or Railroad Retirement benefits, you will be automatically enrolled in Medicare Part A and Part B when you become eligible. Your Medicare card will arrive in the mail about 3 months before your 65th birthday.",
+  }
 ];
 
 export default function HowToSignUpPage() {

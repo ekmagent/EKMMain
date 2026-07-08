@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare Enrollment Help for People With Diabetes | Free Guidance | MedicareYourself",
   description:
-    "Medicare enrollment help for people with diabetes—find plans covering insulin, CGMs, pumps & test strips. Call 855-559-1700 for free expert guidance.",
+    "Medicare enrollment help for people with diabetes—compare plans covering insulin, CGMs, pumps & test strips. Call 855-559-1700 for free expert guidance.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-enrollment-help-for-people-with-diabetes" },
   openGraph: {
     title:
@@ -608,6 +608,22 @@ const faqs = [
     answer:
       "Yes. Medicare Part B covers diabetes self-management training (DSMT) for beneficiaries recently diagnosed with diabetes or those at risk of complications, when ordered by a doctor. This training helps you learn how to manage blood sugar, plan meals, and reduce risks. Medical nutrition therapy is also covered separately for people with diabetes or kidney disease.",
   }
+,
+  {
+    question: "Does Medicare Part D cap what I pay for insulin?",
+    answer:
+      "Yes. Under the Inflation Reduction Act, Medicare Part D plans cap the monthly copay for a covered insulin product, and there is no deductible applied to insulin. This applies to insulins on your plan's formulary, so it's important to confirm your specific insulin is covered before enrolling. Call 855-559-1700 to review Part D plans that cover your insulin.",
+  },
+  {
+    question: "Are diabetic test strips and lancets covered by Medicare?",
+    answer:
+      "Yes. Medicare Part B covers blood sugar monitors, test strips, lancets, and control solutions as durable medical equipment when prescribed by your doctor. You'll need to use a Medicare-enrolled supplier, and the quantity covered depends on whether you use insulin. Mail-order suppliers must be part of the Medicare National Mail-Order Program for diabetic supplies.",
+  },
+  {
+    question: "Does Medicare cover diabetes self-management training?",
+    answer:
+      "Yes. Medicare Part B covers diabetes self-management training (DSMT) when your doctor refers you and certifies that you need it to manage your condition. This training helps you learn how to monitor blood sugar, plan meals, take medications, and reduce risks of complications. Part B cost-sharing applies after you meet the Part B deductible.",
+  }
 ];
 
 export default function MedicareEnrollmentHelpDiabetes() {
@@ -928,6 +944,7 @@ export default function MedicareEnrollmentHelpDiabetes() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
       </article>
     </>

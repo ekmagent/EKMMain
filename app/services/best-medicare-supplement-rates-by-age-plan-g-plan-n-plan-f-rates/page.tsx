@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Best Medicare Supplement Rates by Age (Plan G, Plan N, & Plan F Rates) | Free Quote | MedicareYourself",
   description:
-    "Compare Medicare Supplement rates by age for Plan G, Plan N & Plan F. See how premiums shift by age bracket & lock in your best rate—call 855-559-1700 today.",
+    "Compare Medicare Supplement rates by age for Plan G, Plan N & Plan F. See how premiums shift by age bracket and lock in your best rate—call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/best-medicare-supplement-rates-by-age-plan-g-plan-n-plan-f-rates" },
   openGraph: {
     title:
@@ -391,6 +391,22 @@ const faqs = [
     answer:
       "Plan N usually has a lower monthly premium than Plan G, but it includes small copays for some office and ER visits and doesn't cover Part B excess charges. For healthier enrollees who don't visit the doctor often, Plan N can be the better long-term value, especially as Plan G premiums rise with age. The right choice depends on your expected usage and budget.",
   }
+,
+  {
+    question: "Does Plan N have any out-of-pocket costs that Plan G doesn't?",
+    answer:
+      "Yes. Plan N requires copays of up to $20 for some office visits and up to $50 for emergency room visits that don't result in inpatient admission. Plan N also doesn't cover Part B excess charges, while Plan G does. In exchange, Plan N usually has a lower monthly premium than Plan G.",
+  },
+  {
+    question: "Can I switch from Plan F to Plan G later to save money?",
+    answer:
+      "You can apply to switch, but outside your Medigap Open Enrollment Period or a guaranteed issue situation, most carriers will require medical underwriting. That means your application can be denied or rated higher based on your health history. It's worth comparing quotes before switching to make sure you'll actually qualify at a lower rate.",
+  },
+  {
+    question: "Is Plan F still available to new Medicare enrollees?",
+    answer:
+      "Plan F is only available to people who became eligible for Medicare before January 1, 2020. If you were eligible before that date, you can still enroll in or keep Plan F. Everyone else should compare Plan G and Plan N as the closest alternatives.",
+  }
 ];
 
 export default function BestMedicareSupplementRatesByAge() {
@@ -695,6 +711,7 @@ export default function BestMedicareSupplementRatesByAge() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents: contact the <a href="https://www.state.nj.us/dobi/division_insurance/ins_ombudsman.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
       </section>
     </main>
   );

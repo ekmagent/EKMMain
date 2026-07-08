@@ -193,6 +193,22 @@ const faqs = [
     answer:
       "A Medicare Supplement (Medigap) works alongside Original Medicare to cover deductibles and coinsurance, and it lets you use any Medicare-accepting provider without referrals. Medicare Advantage replaces Original Medicare with a private plan that bundles hospital, medical, and often drug coverage using a network. The right choice depends on your budget, providers, and travel habits.",
   }
+,
+  {
+    question: "What's the difference between a Medicare Supplement and a Medicare Advantage plan?",
+    answer:
+      "Medicare Supplement (Medigap) plans work alongside Original Medicare and help pay the out-of-pocket costs like coinsurance and deductibles. Medicare Advantage plans replace Original Medicare and bundle Parts A, B, and often D into one plan through a private carrier. A Hillsborough broker can walk you through the trade-offs in network access, monthly premium, and prescription coverage.",
+  },
+  {
+    question: "Can a Hillsborough Medicare broker help me switch plans?",
+    answer:
+      "Yes. If you already have coverage, an independent broker can review your current plan against other options during the Annual Enrollment Period (October 15 through December 7) or the Medicare Advantage Open Enrollment Period (January 1 through March 31). Certain Special Enrollment Periods also allow mid-year changes if you move or lose coverage.",
+  },
+  {
+    question: "Does Medicare cover prescription drugs in Somerset County?",
+    answer:
+      "Prescription drug coverage comes through Medicare Part D, either as a standalone plan added to Original Medicare or bundled into a Medicare Advantage plan. Formularies and pharmacy networks vary by carrier, so a broker can match your specific medications to the lowest-cost plan available in your Hillsborough ZIP code.",
+  }
 ];
 
 export default function HillsboroughNJMedicareInsuranceAgents() {
@@ -439,6 +455,7 @@ export default function HillsboroughNJMedicareInsuranceAgents() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

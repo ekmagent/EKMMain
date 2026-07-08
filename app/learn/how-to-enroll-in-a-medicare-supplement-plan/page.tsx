@@ -1159,6 +1159,22 @@ const faqs = [
     answer:
       "No. Medigap policies are guaranteed renewable, meaning as long as you pay your premium the carrier cannot cancel your coverage, even if your health changes. Unlike Medicare Advantage and Part D plans, Medigap policies do not require an annual re-election during Medicare's fall Open Enrollment.",
   }
+,
+  {
+    question: "When is the best time to buy a Medicare Supplement plan?",
+    answer:
+      "The best time to buy is during your 6-month Medigap Open Enrollment Period, which starts the first month you are both 65 or older and enrolled in Medicare Part B. During this window, carriers cannot deny you coverage or charge more based on health conditions. Outside this window, most states allow medical underwriting, which means you can be denied or charged more.",
+  },
+  {
+    question: "Do I need both Medicare Part A and Part B to enroll in a Medigap plan?",
+    answer:
+      "Yes. You must be enrolled in both Medicare Part A and Part B before you can buy a Medicare Supplement policy. If you are not yet enrolled in Part B, you can sign up through the Social Security Administration at ssa.gov/medicare.",
+  },
+  {
+    question: "Can I switch Medicare Supplement plans after I enroll?",
+    answer:
+      "You can apply to switch Medigap plans at any time, but outside of your Open Enrollment Period or a guaranteed-issue situation, the new carrier can require medical underwriting. That means you could be denied or charged more based on your health. A few states have annual or birthday rules that allow switching without underwriting — call 855-559-1700 to check your state's rules.",
+  }
 ];
 
 export default function HowToEnrollMedigapPage() {

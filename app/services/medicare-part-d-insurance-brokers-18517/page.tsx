@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare part d insurance brokers 18517 | Free Plan Comparison | MedicareYourself",
   description:
-    "Compare every Medicare Part D drug plan in 18517 with licensed broker Anthony Orner. Free Rx cost review to lower spend — call 855-559-1700.",
+    "Compare every Medicare Part D drug plan in 18517 with licensed broker Anthony Orner. Free Rx cost review to lower your yearly spend — call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-part-d-insurance-brokers-18517" },
   openGraph: {
     title:
@@ -166,6 +166,22 @@ const faqs = [
     question: "How do I get started with a Part D review in 18517?",
     answer:
       "Call 855-559-1700 to schedule a free Part D review with licensed broker Anthony Orner. Have your prescription list, dosages, and preferred pharmacy ready. The review compares every Part D plan available in your zip code so you can see total projected annual cost before enrolling.",
+  }
+,
+  {
+    question: "Can I have a standalone Part D plan if I already have Original Medicare and a Medigap policy?",
+    answer:
+      "Yes. If you have Original Medicare (Parts A and B) with or without a Medicare Supplement plan, you can enroll in a standalone Prescription Drug Plan (PDP) to add Part D coverage. You cannot, however, pair a standalone PDP with most Medicare Advantage plans that already include drug coverage.",
+  },
+  {
+    question: "What if my prescriptions change after I enroll in a Part D plan?",
+    answer:
+      "You're generally locked into your Part D plan until the next Annual Enrollment Period from October 15 to December 7, when you can switch to a plan that better covers your new medications. A broker can re-run your drug list each fall to confirm you're still in the lowest-cost plan for the coming year.",
+  },
+  {
+    question: "Does Part D cover insulin and vaccines?",
+    answer:
+      "Yes. Under the Inflation Reduction Act, Part D plans cap the monthly cost-sharing for covered insulin products and cover ACIP-recommended adult vaccines, such as shingles and Tdap, at no cost to the enrollee. A broker can confirm your specific insulin or vaccine is on your plan's formulary before you enroll.",
   }
 ];
 
@@ -401,6 +417,7 @@ export default function MedicarePartDBrokers18517() {
             <div className="text-sm text-gray-600 mt-4">Pennsylvania residents near 18517 can also contact <a href="https://www.aging.pa.gov/aging-services/pace/Pages/APPRISE.aspx" rel="noopener noreferrer" target="_blank" className="underline">APPRISE, Pennsylvania's State Health Insurance Assistance Program (SHIP)</a>, for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">Pennsylvania residents in the 18517 area can also contact <a href="https://www.aging.pa.gov/aging-services/prescriptions-insurance-medicare/Pages/APPRISE.aspx" rel="noopener noreferrer" target="_blank" className="underline">APPRISE, Pennsylvania's free SHIP program</a>, for unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">Free local counseling: <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">Pennsylvania residents in 18517 can also get free unbiased counseling from <a href="https://www.aging.pa.gov/aging-services/insurance/Pages/default.aspx" rel="noopener noreferrer" target="_blank" className="underline">PA MEDI (Pennsylvania's SHIP program)</a> or file complaints with the <a href="https://www.insurance.pa.gov/" rel="noopener noreferrer" target="_blank" className="underline">Pennsylvania Insurance Department</a>.</div>
       </section>
     </>
   );

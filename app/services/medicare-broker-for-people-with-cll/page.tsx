@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare broker for people with CLL | Free Consult | MedicareYourself",
   description:
-    "CLL Medicare broker: keep your oncologist, time Medigap enrollment right, and cover oral targeted therapies. Free consult — call 855-559-1700.",
+    "CLL Medicare broker: keep your oncologist, time Medigap enrollment right, and cover oral targeted therapies. Free consult — call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-people-with-cll" },
   openGraph: {
     title:
@@ -361,6 +361,17 @@ const faqs = [
     answer:
       "You can switch back to Original Medicare during the Annual Enrollment Period or the Medicare Advantage Open Enrollment Period. However, adding a Medigap policy afterward usually requires medical underwriting outside your initial enrollment window, and a CLL diagnosis often leads to denial. Reviewing timing carefully with a broker before switching is critical.",
   }
+,
+  {
+    question: "Are clinical trials for CLL covered by Medicare?",
+    answer:
+      "Medicare covers routine costs of qualifying clinical trials, including doctor visits, lab work, and standard care you would receive outside the trial. The investigational drug itself is typically paid by the trial sponsor. If you're considering a CLL clinical trial at a major cancer center, we can help you understand which plan type gives you the smoothest access.",
+  },
+  {
+    question: "How do I keep my CLL oncologist when I enroll in Medicare?",
+    answer:
+      "With Original Medicare plus a Medigap plan, you can see any oncologist nationwide who accepts Medicare — no network restrictions. With Medicare Advantage, you must confirm your CLL specialist and preferred cancer center are in-network before enrolling. Call 855-559-1700 and we'll verify your providers before you make a decision.",
+  }
 ];
 
 export default function MedicareBrokerForPeopleWithCLL() {
@@ -649,6 +660,7 @@ export default function MedicareBrokerForPeopleWithCLL() {
             <div className="text-sm text-gray-600 mt-4">Need state-level help? Contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> or your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">SHIP counselor</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">Need free local counseling? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a> for unbiased Medicare guidance.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </>
   );

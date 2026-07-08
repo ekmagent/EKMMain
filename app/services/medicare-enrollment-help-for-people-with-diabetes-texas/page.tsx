@@ -225,6 +225,17 @@ const faqs = [
     answer:
       "Original Medicare with a Medigap plan and a standalone Part D plan gives you the widest provider access, which matters if you see specialists like endocrinologists. Medicare Advantage plans in Texas often bundle drug coverage and may include extras like CGM supplies or meal benefits, but use provider networks. A licensed broker can compare both against your medications and doctors.",
   }
+,
+  {
+    question: "Does Medicare cover insulin pumps in Texas?",
+    answer:
+      "Medicare Part B covers insulin pumps as durable medical equipment when your doctor documents medical necessity. The insulin used in the pump is also covered under Part B rather than Part D. You'll typically pay the Part B coinsurance after meeting the Part B deductible, and a licensed broker can help you find a plan that minimizes DME cost-sharing.",
+  },
+  {
+    question: "What diabetes supplies does Medicare cover for Texans?",
+    answer:
+      "Medicare Part B covers blood sugar test strips, lancets, glucose monitors, and control solutions when prescribed by your doctor. Part D plans cover insulin used with syringes or pens, along with anti-diabetic medications. Therapeutic shoes and inserts are also covered annually for beneficiaries with diabetic foot conditions.",
+  }
 ];
 
 export default function MedicareEnrollmentHelpDiabetesTexas() {
@@ -494,6 +505,7 @@ export default function MedicareEnrollmentHelpDiabetesTexas() {
             <div className="text-sm text-gray-600 mt-4">Texas resource: <a href="https://www.hhs.texas.gov/services/health/medicare" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Texas Health and Human Services — Medicare</a></div>
             <div className="text-sm text-gray-600 mt-4">Texas residents: contact the <a href="https://www.tdi.texas.gov/hicap/" rel="noopener noreferrer" target="_blank" className="underline">Texas Health Information, Counseling &amp; Advocacy Program (HICAP/SHIP)</a> for free local Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">Texas assistance: <a href="https://www.hhs.texas.gov/services/health/medicare" rel="noopener noreferrer" target="_blank" className="underline">Texas Health and Human Services — Medicare</a></div>
+            <div className="text-sm text-gray-600 mt-4">Texas help: <a href="https://www.tdi.texas.gov/hicap/" rel="noopener noreferrer" target="_blank" className="underline">Texas Health Information, Counseling &amp; Advocacy Program (HICAP/SHIP)</a></div>
       </section>
     </main>
   );

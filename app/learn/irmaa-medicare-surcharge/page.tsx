@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
   description:
-    "IRMAA explained: how Medicare's income surcharge affects Part B and Part D, plus how to appeal with Form SSA-44 if income dropped. Free help: 855-559-1700.",
+    "IRMAA explained: how Medicare's income surcharge raises Part B & Part D costs, plus how to appeal with SSA-44. Get free expert help at 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/irmaa-medicare-surcharge` },
   openGraph: {
     title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
@@ -1275,6 +1275,22 @@ const faqs = [
     question: "Does IRMAA apply if I have Medicare Advantage?",
     answer:
       "Yes. Even if you're enrolled in a Medicare Advantage plan, you still pay your Part B premium plus any IRMAA surcharge directly to Medicare. If your Advantage plan includes prescription drug coverage, the Part D IRMAA is also billed separately by Social Security, not by your plan.",
+  }
+,
+  {
+    question: "How do I appeal an IRMAA determination?",
+    answer:
+      "If you've experienced a life-changing event that reduced your income, you can appeal IRMAA by filing Form SSA-44 with the Social Security Administration. Qualifying events include marriage, divorce, death of a spouse, work stoppage or reduction, loss of pension, or loss of income-producing property. You'll need documentation of the event and your expected new income. Call 855-559-1700 for help understanding the process.",
+  },
+  {
+    question: "Will IRMAA go away if my income drops?",
+    answer:
+      "Yes. IRMAA is recalculated every year based on your tax return from two years prior. If your income drops below the threshold, your IRMAA surcharge will automatically end the following year. If the drop is due to a life-changing event, you can file Form SSA-44 to have it removed sooner rather than waiting two years.",
+  },
+  {
+    question: "Does IRMAA affect Medicare Advantage plans?",
+    answer:
+      "IRMAA applies to your Medicare Part B and Part D premiums, not to the Medicare Advantage plan premium itself. However, since you must continue paying your Part B premium while enrolled in a Medicare Advantage plan, IRMAA still affects your total Medicare costs. The Part D IRMAA also applies if your Advantage plan includes drug coverage.",
   }
 ];
 

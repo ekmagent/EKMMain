@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for chronic pain patients | Free Coverage Consultation | MedicareYourself",
   description:
-    "Medicare broker Anthony Orner helps chronic pain patients find plans covering pain management, PT, and specialists. Call 855-559-1700 for a free plan review.",
+    "Medicare broker Anthony Orner helps chronic pain patients find plans that cover pain management, PT, and specialists. Call 855-559-1700 for a free plan review.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-chronic-pain-patients" },
   openGraph: {
     title:
@@ -251,6 +251,22 @@ const faqs = [
     question: "Can a Medicare broker help if I take prescription pain medications?",
     answer:
       "Yes. A licensed broker can review each plan's drug formulary to confirm your specific pain medications are covered and at what tier. This matters because two plans in the same area can have very different copays for the same drug. Anthony Orner reviews your medication list before recommending any Part D or Medicare Advantage plan.",
+  }
+,
+  {
+    question: "Does Medicare cover physical therapy for chronic pain?",
+    answer:
+      "Yes. Medicare Part B covers medically necessary outpatient physical therapy, including therapy used to manage chronic pain conditions. After you meet the annual Part B deductible, you typically pay 20% of the Medicare-approved amount. Your therapist must document that the services are reasonable and necessary.",
+  },
+  {
+    question: "Are opioid and non-opioid pain medications covered under Medicare?",
+    answer:
+      "Prescription pain medications, including many non-opioid and opioid options, are covered under Medicare Part D or through a Medicare Advantage plan with drug coverage. Coverage, tier placement, and prior authorization rules vary by plan formulary. A broker can compare formularies to find a plan that covers your specific medications at the lowest cost.",
+  },
+  {
+    question: "Can I switch Medicare plans if my pain treatment changes?",
+    answer:
+      "Yes, but only during specific enrollment windows such as the Annual Enrollment Period (Oct 15 – Dec 7) or the Medicare Advantage Open Enrollment Period (Jan 1 – Mar 31). Certain life events, like moving or losing other coverage, may trigger a Special Enrollment Period. Reviewing your plan yearly helps ensure it still covers your specialists and prescriptions.",
   }
 ];
 
@@ -560,6 +576,7 @@ export default function MedicareBrokerForChronicPainPatients() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased Medicare counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">For free, unbiased counseling in New Jersey, contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );
