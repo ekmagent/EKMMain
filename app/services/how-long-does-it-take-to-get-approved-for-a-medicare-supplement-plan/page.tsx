@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "how long does it take to get approved for a medicare supplement plan | Free Timeline Guide | MedicareYourself",
   description:
-    "How long does Medicare Supplement approval take? Most Medigap applications clear in 1–3 weeks. Call 855-559-1700 for a free timeline review and quote.",
+    "How long does Medicare Supplement approval take? Most Medigap applications clear in 1-3 weeks. Call 855-559-1700 for a free timeline review.",
   alternates: { canonical: "https://medicareyourself.com/services/how-long-does-it-take-to-get-approved-for-a-medicare-supplement-plan" },
   openGraph: {
     title:

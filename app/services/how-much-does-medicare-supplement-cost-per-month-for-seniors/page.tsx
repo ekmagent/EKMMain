@@ -215,6 +215,12 @@ const faqs = [
     answer:
       "Plan N usually has a lower monthly premium than Plan G, but it comes with small office and ER copays and doesn't cover the Part B deductible or excess charges. For seniors who rarely visit doctors, Plan N can save money; for those with frequent specialist visits, Plan G's predictable coverage often wins out.",
   }
+,
+  {
+    question: "Can I switch Medicare Supplement plans later if my premium gets too high?",
+    answer:
+      "You can apply to switch Medigap plans or carriers at any time, but outside of your Medigap Open Enrollment Period or a guaranteed issue right, most carriers will require medical underwriting. That means they can review your health history and either decline coverage or charge more. Working with a licensed broker helps identify which carriers you'll likely qualify with before you apply.",
+  }
 ];
 
 export default function HowMuchDoesMedicareSupplementCostPerMonthForSeniors() {
@@ -463,6 +469,7 @@ export default function HowMuchDoesMedicareSupplementCostPerMonthForSeniors() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a> or contact the <a href="https://www.nj.gov/dobi/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can compare state-approved Medigap rates through the <a href="https://www.state.nj.us/dobi/division_insurance/managedcare/medsupp.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP</a>.</div>
       </section>
     </main>
   );

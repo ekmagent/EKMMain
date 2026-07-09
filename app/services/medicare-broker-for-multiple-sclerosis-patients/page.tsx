@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for multiple sclerosis patients | Free Plan Comparison | MedicareYourself",
   description:
-    "Medicare broker for MS patients — Anthony Orner finds plans covering infusions, MRIs, DMTs & your neurologist. Call 855-559-1700 for a free plan review.",
+    "Medicare broker for MS patients — Anthony Orner helps you compare plans covering infusions, MRIs, DMTs & your neurologist. Call 855-559-1700 for a free review.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-multiple-sclerosis-patients" },
   openGraph: {
     title:
@@ -668,6 +668,22 @@ const faqs = [
     answer:
       "Yes. Medically necessary MRIs ordered by your doctor to monitor MS are covered under Medicare Part B when performed at a facility that accepts Medicare. You'll typically pay coinsurance after meeting the Part B deductible, unless a Medigap plan picks up that cost. Medicare Advantage plans also cover MRIs but often require prior authorization.",
   }
+,
+  {
+    question: "Does Medicare Part D cover oral MS disease-modifying therapies?",
+    answer:
+      "Yes. Oral disease-modifying therapies you take at home are generally covered under Medicare Part D, not Part B. Coverage, tier placement, and prior authorization requirements vary significantly by plan, so comparing formularies is essential before enrolling. Call 855-559-1700 and we'll review which Part D or Medicare Advantage plan lists your specific DMT on the best tier.",
+  },
+  {
+    question: "Will Medicare cover MRIs to monitor my MS progression?",
+    answer:
+      "Yes. Medicare Part B covers medically necessary MRIs ordered by your doctor to diagnose or monitor MS. Under Original Medicare you pay coinsurance after the Part B deductible, while Medicare Advantage plans may require prior authorization and use their own cost-sharing. A Medigap plan can reduce or eliminate your out-of-pocket share of the MRI cost.",
+  },
+  {
+    question: "Can I keep seeing my current neurologist on Medicare?",
+    answer:
+      "With Original Medicare plus a Medigap plan, you can see any neurologist nationwide who accepts Medicare, with no referrals or network restrictions. With Medicare Advantage, your neurologist must be in the plan's network, and you may need a referral from a primary care doctor. Verifying your specialist's participation before enrolling is critical for MS patients.",
+  }
 ];
 
 export default function MedicareBrokerForMSPatients() {
@@ -911,6 +927,7 @@ export default function MedicareBrokerForMSPatients() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">For free, unbiased Medicare counseling in New Jersey, contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

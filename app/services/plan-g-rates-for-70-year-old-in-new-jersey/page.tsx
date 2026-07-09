@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Plan G Rates for a 70-Year-Old in New Jersey | Free Quote in Minutes | MedicareYourself",
   description:
-    "Compare Plan G rates for a 70-year-old in New Jersey with a licensed local broker. See how NJ Medigap pricing works. Call 855-559-1700 for a free quote.",
+    "Compare Plan G rates for a 70-year-old in New Jersey with a licensed local broker. See how NJ Medigap pricing works. Call 855-559-1700 for a free quote today.",
   alternates: { canonical: "https://medicareyourself.com/services/plan-g-rates-for-70-year-old-in-new-jersey" },
   openGraph: {
     title:
@@ -323,6 +323,12 @@ const faqs = [
     answer:
       "A licensed independent broker can quote multiple NJ carriers at once at no cost to you, since brokers are paid by the insurance companies. This makes it easier to compare community-rated premiums across insurers offering the same standardized Plan G benefits. Call 855-559-1700 to compare live NJ rates.",
   }
+,
+  {
+    question: "Why do Plan G premiums vary so much between carriers in New Jersey?",
+    answer:
+      "The benefits in Plan G are standardized by federal law, so every carrier offers the exact same coverage under that plan letter. However, each insurance company sets its own premium based on its own claims experience, administrative costs, and pricing strategy. That's why comparing multiple NJ carriers before enrolling can save you significantly over the life of your policy.",
+  }
 ];
 
 export default function PlanGRates70NJ() {
@@ -598,6 +604,7 @@ export default function PlanGRates70NJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
       </article>
     </>

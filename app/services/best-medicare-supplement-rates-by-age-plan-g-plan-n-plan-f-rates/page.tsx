@@ -407,6 +407,22 @@ const faqs = [
     answer:
       "Plan F is only available to people who became eligible for Medicare before January 1, 2020. If you were eligible before that date, you can still enroll in or keep Plan F. Everyone else should compare Plan G and Plan N as the closest alternatives.",
   }
+,
+  {
+    question: "Does my ZIP code affect my Medicare Supplement rate?",
+    answer:
+      "Yes. Carriers file rates by state and often by ZIP code or rating area within a state. Two people the same age with the same plan letter can pay different premiums simply because one lives in a higher-cost area. That's why comparing quotes for your exact ZIP is important.",
+  },
+  {
+    question: "Can I switch Medicare Supplement plans later to get a lower rate?",
+    answer:
+      "You can apply to switch Medigap plans at any time, but outside of your Open Enrollment or a guaranteed issue right, carriers can medical underwrite and decline you or charge more based on health. Some states have annual birthday or anniversary rules that allow switching without underwriting. A licensed broker can help you compare options before you switch.",
+  },
+  {
+    question: "Is Plan N a good way to lower my Medigap premium?",
+    answer:
+      "Plan N generally has a lower monthly premium than Plan G in exchange for small copays at doctor and emergency room visits and no coverage of Part B excess charges. If you don't mind minor cost-sharing and your providers accept Medicare assignment, Plan N can be a strong value. Call 855-559-1700 to compare Plan G and Plan N side by side.",
+  }
 ];
 
 export default function BestMedicareSupplementRatesByAge() {
@@ -712,6 +728,7 @@ export default function BestMedicareSupplementRatesByAge() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents: contact the <a href="https://www.state.nj.us/dobi/division_insurance/ins_ombudsman.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </main>
   );

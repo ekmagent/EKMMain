@@ -506,6 +506,7 @@ export default function MedicareEnrollmentHelpDiabetesTexas() {
             <div className="text-sm text-gray-600 mt-4">Texas residents: contact the <a href="https://www.tdi.texas.gov/hicap/" rel="noopener noreferrer" target="_blank" className="underline">Texas Health Information, Counseling &amp; Advocacy Program (HICAP/SHIP)</a> for free local Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">Texas assistance: <a href="https://www.hhs.texas.gov/services/health/medicare" rel="noopener noreferrer" target="_blank" className="underline">Texas Health and Human Services — Medicare</a></div>
             <div className="text-sm text-gray-600 mt-4">Texas help: <a href="https://www.tdi.texas.gov/hicap/" rel="noopener noreferrer" target="_blank" className="underline">Texas Health Information, Counseling &amp; Advocacy Program (HICAP/SHIP)</a></div>
+            <div className="text-sm text-gray-600 mt-4">Texas resources: <a href="https://www.hhs.texas.gov/services/health/medicare" rel="noopener noreferrer" target="_blank" className="underline">Texas Health and Human Services — Medicare</a></div>
       </section>
     </main>
   );

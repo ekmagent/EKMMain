@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare broker for people with pre-existing conditions | Free Guidance | MedicareYourself",
   description:
-    "Pre-existing condition? A licensed Medicare broker explains Medigap underwriting, guaranteed issue rights & Advantage options. Free help — call 855-559-1700.",
+    "Have a pre-existing condition? A licensed Medicare broker explains Medigap underwriting, guaranteed issue rights & Advantage options. Free help — 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-people-with-pre-existing-conditions" },
   openGraph: {
     title:
@@ -297,6 +297,22 @@ const faqs = [
     answer:
       "As of 2021, people with ESRD can enroll in Medicare Advantage plans during standard enrollment periods, which was not previously allowed. Original Medicare still covers ESRD-related care, and Medigap availability for people under 65 with ESRD depends on state law. A licensed broker can walk you through what's offered in your state.",
   }
+,
+  {
+    question: "What counts as a pre-existing condition under Medicare rules?",
+    answer:
+      "A pre-existing condition is generally any health issue you were diagnosed with or treated for before your Medicare or Medigap coverage started. Common examples include diabetes, heart disease, COPD, and cancer history. Original Medicare covers these without restriction, but Medigap carriers may consider them during medical underwriting outside protected enrollment windows.",
+  },
+  {
+    question: "Can a Medigap plan impose a waiting period for a pre-existing condition?",
+    answer:
+      "In some cases, yes. If you enroll during your Medigap Open Enrollment Period but did not have prior creditable coverage, a carrier may apply up to a 6-month waiting period before covering care related to a pre-existing condition. Prior creditable coverage typically shortens or eliminates that waiting period. Original Medicare still pays its share during any Medigap waiting period.",
+  },
+  {
+    question: "How does a broker help when I have complicated health history?",
+    answer:
+      "A licensed broker knows which carriers underwrite specific conditions more leniently and which situations trigger guaranteed issue rights that skip health questions entirely. That means fewer denied applications and a clearer path to coverage. There's no cost to you for this guidance — call 855-559-1700 to review your options.",
+  }
 ];
 
 export default function MedicareBrokerPreExistingConditions() {
@@ -528,6 +544,7 @@ export default function MedicareBrokerPreExistingConditions() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free unbiased Medicare counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Need state-specific help? Contact the <a href="https://www.nj.gov/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">New Jersey Department of Banking and Insurance</a> or your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a> for free counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

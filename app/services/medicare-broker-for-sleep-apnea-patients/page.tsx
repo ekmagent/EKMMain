@@ -165,6 +165,12 @@ const faqs = [
     answer:
       "Medicare may cover a 12-week trial of CPAP therapy after an obstructive sleep apnea diagnosis. To continue coverage beyond the trial, your doctor must document that the therapy is helping you and that you are meeting the usage compliance requirements. If both conditions are met, Medicare can continue covering the device and supplies.",
   }
+,
+  {
+    question: "Does Medicare cover Inspire therapy for sleep apnea?",
+    answer:
+      "Medicare may cover Inspire upper airway stimulation therapy for people with moderate to severe obstructive sleep apnea who cannot tolerate CPAP. You typically need documentation of CPAP intolerance and must meet specific clinical criteria. Coverage decisions and costs vary, so a broker can help you review your plan's requirements before proceeding.",
+  }
 ];
 
 export default function MedicareBrokerForSleepApneaPatients() {

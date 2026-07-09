@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Find an NJ Medicare Broker Near You | Free No-Pressure Help | MedicareYourself",
   description:
-    "Find a trusted NJ Medicare broker near you. Anthony Orner compares top carriers statewide at no cost—independent, no pressure. Call 855-559-1700 today.",
+    "Find a trusted NJ Medicare broker near you. Anthony Orner compares top carriers statewide at no cost—independent, year-round support. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/find-an-nj-medicare-broker-near-you" },
   openGraph: {
     title:
@@ -138,6 +138,22 @@ const faqs = [
     question: "How do I verify a New Jersey Medicare broker is properly licensed?",
     answer:
       "You can verify any broker's license through the New Jersey Department of Banking and Insurance producer search tool. Ask for the broker's National Producer Number (NPN) and confirm they hold an active health/life license in New Jersey. Anthony Orner's NPI is 1902584006 and he is licensed in NJ plus 34 other states.",
+  }
+,
+  {
+    question: "How do I know if a Medicare broker is licensed in New Jersey?",
+    answer:
+      "You can verify any broker's license through the New Jersey Department of Banking and Insurance producer search tool. Anthony Orner is a licensed health insurance producer in New Jersey and 34 additional states. Always confirm your broker holds an active NJ resident or non-resident producer license before enrolling.",
+  },
+  {
+    question: "Can a Medicare broker help me if I have Medicaid or Extra Help in NJ?",
+    answer:
+      "Yes. Dual-eligible beneficiaries who qualify for both Medicare and NJ Medicaid may be eligible for Dual Special Needs Plans (D-SNPs) or Extra Help with prescription costs. A broker can review your eligibility for programs like PAAD and Senior Gold and compare D-SNP options available in your county.",
+  },
+  {
+    question: "Will a broker help me after I enroll, or only during signup?",
+    answer:
+      "A good Medicare broker stays your point of contact year-round for billing questions, claims issues, doctor network changes, and annual plan reviews. Anthony Orner helps clients reassess coverage each fall during the Annual Enrollment Period at no additional cost.",
   }
 ];
 

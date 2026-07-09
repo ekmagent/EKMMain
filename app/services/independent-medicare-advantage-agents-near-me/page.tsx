@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "independent medicare advantage agents near me | Free NJ Consultations | MedicareYourself",
   description:
-    "Independent Medicare Advantage agent serving NJ. Anthony Orner compares plans across every major carrier at no cost. Call 855-559-1700 for a free review.",
+    "Work with an independent Medicare Advantage agent in NJ. Anthony Orner compares every major carrier at no cost to you. Call 855-559-1700 for a free plan review.",
   alternates: { canonical: "https://medicareyourself.com/services/independent-medicare-advantage-agents-near-me" },
   openGraph: {
     title:
@@ -192,6 +192,22 @@ const faqs = [
     question: "What should I bring to a Medicare Advantage consultation?",
     answer:
       "Have your Medicare card, a list of your current prescriptions with dosages, and the names of doctors and hospitals you want to keep in-network. If you have any current insurance ID cards or a copy of your Medicare Summary Notice, those help too. This lets the agent match plan formularies and provider networks accurately to your needs.",
+  }
+,
+  {
+    question: "How does an independent Medicare Advantage agent get paid?",
+    answer:
+      "Independent agents are compensated directly by the insurance carriers when a client enrolls in a plan. CMS sets the commission amounts, so agents earn the same regardless of which Medicare Advantage plan you choose. That structure removes the incentive to steer you toward one carrier over another.",
+  },
+  {
+    question: "Can an independent agent help me review my plan every year?",
+    answer:
+      "Yes. Medicare Advantage plans change their formularies, provider networks, and benefits each year, so an annual review during the Annual Enrollment Period is important. An independent agent like Anthony Orner can re-shop your options across carriers and confirm your doctors and prescriptions are still covered.",
+  },
+  {
+    question: "What should I bring to a meeting with an independent Medicare agent?",
+    answer:
+      "Have your Medicare card, a list of your current prescriptions with dosages, and the names of the doctors and hospitals you want to keep in-network. If you have current coverage, bring the plan details so the agent can compare it directly against other Medicare Advantage options in your county.",
   }
 ];
 
@@ -454,6 +470,7 @@ export default function IndependentMedicareAdvantageAgentsNearMe() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" target="_blank" rel="noopener noreferrer" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">For free, unbiased counseling in New Jersey, contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-700 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">NJ residents can also get free unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

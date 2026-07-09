@@ -889,6 +889,12 @@ const faqs = [
     answer:
       "Yes, location is one of the biggest factors in Medigap pricing. Medicare.gov confirms that premiums vary widely by zip code because carriers use local claims data and state regulations to set rates. The same lettered plan can cost significantly more or less depending on your county and state.",
   }
+,
+  {
+    question: "Does where I live affect how much I pay for Medigap coverage?",
+    answer:
+      "Yes. Medigap premiums vary widely by state, county, and even zip code because insurance companies base rates partly on local claims experience and healthcare costs. The same lettered plan from the same carrier can cost significantly more in one state than another. A licensed broker can quickly show you what carriers charge in your specific area.",
+  }
 ];
 
 export default function AverageCostSupplementalInsurancePage() {
@@ -1136,6 +1142,7 @@ export default function AverageCostSupplementalInsurancePage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">For free, unbiased counseling in your state, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a> or the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Need one-on-one help? Contact your state's <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-700 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

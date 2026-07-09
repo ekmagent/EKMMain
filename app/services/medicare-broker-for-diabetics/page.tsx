@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare broker for diabetics | Free Help Finding the Right Plan | MedicareYourself",
   description:
-    "Medicare broker for diabetics who understands insulin caps, CGM coverage, and specialist networks. Free expert help from Anthony Orner. Call 855-559-1700.",
+    "Medicare broker for diabetics — Anthony Orner compares plans for insulin, CGM, and specialist coverage. Free expert help finding the right fit. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-diabetics" },
   openGraph: {
     title:
@@ -244,6 +244,22 @@ const faqs = [
     question: "Does Medicare cover diabetic supplies like test strips and lancets?",
     answer:
       "Yes. Medicare Part B covers blood glucose monitors, test strips, lancets, and control solutions as durable medical equipment when prescribed by your doctor. Coverage amounts and supplier requirements vary, so a broker can help you understand what your specific plan pays and which suppliers are in-network.",
+  }
+,
+  {
+    question: "Does Medicare cover diabetes self-management training?",
+    answer:
+      "Yes. Medicare Part B covers diabetes self-management training (DSMT) when your doctor certifies that you need it. This program teaches you how to manage blood sugar, plan meals, monitor your condition, and reduce complication risks. A broker can help you find plans that pair well with these benefits.",
+  },
+  {
+    question: "Are diabetic supplies like test strips and lancets covered by Medicare?",
+    answer:
+      "Yes. Medicare Part B generally covers blood sugar testing supplies including test strips, lancets, lancet devices, and glucose monitors when prescribed by your doctor. Coverage amounts and preferred suppliers vary, so a broker can help you understand what a specific plan covers before you enroll.",
+  },
+  {
+    question: "Does Medicare cover diabetic foot care and eye exams?",
+    answer:
+      "Yes. Medicare Part B covers foot exams every six months for people with diabetic peripheral neuropathy and annual eye exams to check for diabetic retinopathy. Many Medicare Advantage plans add extra vision and podiatry benefits on top of Original Medicare's coverage.",
   }
 ];
 
@@ -522,6 +538,7 @@ export default function MedicareBrokerForDiabetics() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Need free unbiased counseling? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> or the <a href="https://www.state.nj.us/dobi/division_insurance/" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

@@ -9,7 +9,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Medicare Services & Guides | MedicareYourself",
   description:
-    "Compare Medigap, Medicare Advantage & Part D with a licensed independent broker in NJ & 34 states. Free unbiased guidance — call 855-559-1700 today.",
+    "Compare Medigap, Medicare Advantage & Part D with a licensed independent broker in NJ & 34 states. Free, unbiased guidance — call 855-559-1700 today.",
   alternates: { canonical: `${SITE_URL}/services` },
   openGraph: {
     title: "Medicare Services & Guides | MedicareYourself",
@@ -1302,6 +1302,22 @@ const STATIC_CATEGORIES = [
     answer:
       "Yes. Anthony Orner (NPI 1902584006) is licensed in New Jersey and 34 additional states, so we can review plans and enroll clients across most of the country. Plan availability and pricing vary by ZIP code, so we quote your specific area before recommending coverage. Call 855-559-1700 to confirm licensing in your state.",
   }
+,
+  {
+    question: "What does an independent Medicare broker do?",
+    answer:
+      "An independent Medicare broker is licensed to compare plans from multiple insurance carriers and help you choose coverage that fits your health needs and budget. Brokers are paid by the insurance company, so their guidance is free to you. You can also contact 1-800-MEDICARE or your State Health Insurance Assistance Program (SHIP) for unbiased public help.",
+  },
+  {
+    question: "Do I have to pay to work with MedicareYourself?",
+    answer:
+      "No. There is no cost to speak with our licensed broker, compare plans, or enroll through our office. Insurance carriers pay the broker a standardized commission set by CMS, so your premium is the same whether you enroll through a broker or directly with the carrier.",
+  },
+  {
+    question: "Which Medicare plans can you help me compare?",
+    answer:
+      "We can help you compare Medicare Supplement (Medigap) plans, Medicare Advantage plans, and standalone Part D prescription drug plans across the carriers we represent. We review benefits, provider networks, drug formularies, and premiums so you can make an informed choice. Call 855-559-1700 to review your options.",
+  }
 ];
 
 export default function ServicesHubPage() {
@@ -1462,6 +1478,7 @@ export default function ServicesHubPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents: <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank">NJ State Health Insurance Assistance Program (SHIP)</a></div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents: visit the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank">NJ Department of Banking &amp; Insurance</a> or contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank">NJ SHIP</a> for free Medicare counseling.</div>
       </section>
     </>
   );

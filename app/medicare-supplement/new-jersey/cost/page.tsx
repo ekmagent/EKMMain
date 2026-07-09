@@ -163,6 +163,17 @@ const faqs = [
     answer:
       "You can apply to switch Medigap plans in New Jersey at any time, but outside your 6-month Medigap Open Enrollment Period or a guaranteed issue situation, carriers may use medical underwriting. That means a lower-priced plan is not guaranteed if you have health conditions. Call 855-559-1700 and we can shop the NJ market to see if a switch makes sense for you.",
   }
+,
+  {
+    question: "Do Medigap plans in New Jersey cover the same benefits regardless of carrier?",
+    answer:
+      "Yes. Medigap plan benefits are standardized by federal law, so Plan G from one carrier covers the exact same services as Plan G from another carrier in New Jersey. The only differences are price, customer service, and financial stability of the insurer. That is why comparing quotes is the smart way to lower your cost. Call 855-559-1700 to compare NJ carriers side by side.",
+  },
+  {
+    question: "Can my Medigap premium in New Jersey go up over time?",
+    answer:
+      "Yes. Even though New Jersey uses community rating (premiums are not based on your individual age), carriers can still raise rates annually due to inflation, medical trend, and claims experience. Reviewing your plan every year or two helps ensure you are not overpaying. A licensed broker can shop the NJ market on your behalf at no cost to you.",
+  }
 ];
 
 export default function NJMedicareCostPage() {

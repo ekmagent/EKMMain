@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Switch Medigap Carriers, Same Plan G (2026)",
   description:
-    "Switch Medigap Plan G carriers and keep identical federal benefits at a lower premium. Free carrier comparison — call 855-559-1700 to check if you qualify.",
+    "Switch Medigap Plan G carriers and keep identical federal benefits at a lower premium. Free carrier comparison — call 855-559-1700 to see if you qualify.",
   alternates: { canonical: `${SITE_URL}/medicare-supplement/switch-carriers` },
   openGraph: {
     title: "Switch Medigap Carriers, Same Plan G (2026)",
@@ -617,6 +617,22 @@ const faqs = [
     answer:
       "In most cases, yes. Under federal law, you generally do not have a right to switch Medigap policies outside your 6-month Medigap Open Enrollment Period unless you qualify for a Guaranteed Issue right. Outside those windows, the new carrier can require medical underwriting and deny coverage based on health. Some states have additional rules that make switching easier, so it is worth checking with a licensed broker before you apply.",
   }
+,
+  {
+    question: "Do I have to answer health questions to switch Medigap carriers?",
+    answer:
+      "In most states, yes — outside of your 6-month Medigap Open Enrollment Period or a federal guaranteed issue situation, carriers can medically underwrite your application and decline you based on health. Some states offer broader switching rights beyond federal law, so it is worth checking with your state insurance department. A broker can pre-screen the underwriting questions before you formally apply so you avoid a denial on your record.",
+  },
+  {
+    question: "What happens to my old Medigap policy when I switch?",
+    answer:
+      "You keep your existing Medigap policy active until the new one is approved and in force, then you cancel the old policy so there is no lapse in coverage. Medicare allows a 30-day free-look period on your new Medigap policy, during which you can decide to keep it or go back. You should never cancel the old plan before the new one is officially effective.",
+  },
+  {
+    question: "Will switching Medigap carriers restart a waiting period for pre-existing conditions?",
+    answer:
+      "If you have had continuous creditable coverage for at least 6 months, the new carrier generally cannot impose a new pre-existing condition waiting period when you switch. If your prior coverage was shorter, a waiting period of up to 6 months may apply. A licensed broker can confirm how the rule applies to your specific situation before you submit an application.",
+  }
 ];
 
 export default function SwitchCarriersPage() {
@@ -892,6 +908,7 @@ export default function SwitchCarriersPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/ihcseh/shipmain.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medigap guidance.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> before switching carriers.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify carrier rates and switching rules with the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or the free <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP counseling program</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/index.shtml" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medigap counseling.</div>
       </section>
     </>
   );

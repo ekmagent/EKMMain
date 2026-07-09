@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Why Did My Medicare Supplement Rate Change? | Free Rate Review | MedicareYourself",
   description:
-    "Medigap rate went up? Learn the 3 pricing factors behind Medicare Supplement increases and get a free rate review from a licensed broker. Call 855-559-1700.",
+    "Medigap premium went up? Learn the 3 pricing factors behind Medicare Supplement rate increases and get a free broker rate review. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/why-did-my-medicare-supplement-rate-change" },
   openGraph: {
     title:
@@ -240,6 +240,22 @@ const faqs = [
     question: "Should I shop my Medigap plan every year?",
     answer:
       "Reviewing your Medigap premium annually is a smart habit because benefits within each lettered plan are standardized by Medicare, so the only real difference between carriers is price and rate stability. If you can pass medical underwriting, switching to a lower-priced carrier with the same plan letter can lock in savings. Call 855-559-1700 for a free rate review.",
+  }
+,
+  {
+    question: "Does where I live affect my Medicare supplement premium?",
+    answer:
+      "Yes. Medigap premiums vary widely depending on the insurance company, the plan, and where you live. Two people with the same Plan G in different ZIP codes can pay very different premiums even with the same carrier. Local claims experience and state filing rules both influence what you pay.",
+  },
+  {
+    question: "If the benefits are the same, why do premiums differ between carriers?",
+    answer:
+      "The benefits in each lettered Medigap plan are standardized by Medicare, so a Plan G is a Plan G regardless of carrier. The price is the only real difference between policies with the same plan letter sold by different companies. That is why shopping the same plan letter across carriers can lower your cost without changing your coverage.",
+  },
+  {
+    question: "Should I shop my Medigap plan every year?",
+    answer:
+      "Reviewing your Medigap premium annually is a smart habit, especially after receiving a rate increase notice. If you can pass medical underwriting, you may qualify to move to a lower-priced carrier offering the same standardized benefits. A licensed broker can run a free comparison at 855-559-1700.",
   }
 ];
 

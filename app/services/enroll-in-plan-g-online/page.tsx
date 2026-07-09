@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Enroll in Plan G Online | Fast, Free, Broker-Assisted | MedicareYourself",
   description:
-    "Enroll in Medicare Plan G online in 20–40 minutes with a licensed broker comparing top carriers side by side. Free help — call 855-559-1700.",
+    "Enroll in Medicare Plan G online in 20–40 minutes with a licensed broker comparing carriers side by side. Free, no-obligation help — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/enroll-in-plan-g-online" },
   openGraph: {
     title:
@@ -211,6 +211,22 @@ const faqs = [
     question: "Can I use any doctor with Plan G?",
     answer:
       "Yes. Plan G works with any doctor or hospital in the U.S. that accepts Original Medicare — there are no networks or referrals required. That flexibility is one of the main reasons people choose a Medigap plan over other coverage types.",
+  }
+,
+  {
+    question: "Can I switch from Plan G to another Medigap plan later?",
+    answer:
+      "Yes, you can apply to switch Medigap plans at any time, but outside your Medigap Open Enrollment Period most carriers will require medical underwriting. That means a carrier can review your health history and deny coverage or charge more. A broker can help you compare options before you make a change.",
+  },
+  {
+    question: "Does Plan G cover prescription drugs?",
+    answer:
+      "No. Medigap Plan G does not include prescription drug coverage. To get drug coverage, you'll need to enroll separately in a standalone Medicare Part D plan. A broker can help you pair your Plan G with a Part D plan that fits your medications and pharmacy.",
+  },
+  {
+    question: "Is Plan G coverage the same across every carrier?",
+    answer:
+      "Yes. Medigap benefits are standardized by the federal government, so Plan G from one carrier covers the same services as Plan G from another. The differences are price, customer service, and rate increase history. That's why comparing carriers side by side matters more than choosing a brand name.",
   }
 ];
 
@@ -510,6 +526,7 @@ export default function EnrollInPlanGOnlinePage() {
             <div className="text-sm text-gray-600 mt-4">Need state-specific help? Contact the <a href="https://www.nj.gov/dobi/division_insurance/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> or your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free unbiased counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
       </article>
     </>

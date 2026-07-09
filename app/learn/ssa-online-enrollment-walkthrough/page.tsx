@@ -1425,6 +1425,22 @@ const steps = [
     answer:
       "You cannot modify the application through the SSA website after clicking Submit Now. If you notice an error, contact the Social Security Administration by phone or visit your local SSA office to make corrections. You can also call our office at 855-559-1700 and we'll help you determine the next steps.",
   }
+,
+  {
+    question: "Do I sign up for Medicare through Medicare.gov or SSA.gov?",
+    answer:
+      "Even though Medicare is a federal health program, enrollment in Part A and Part B is handled by the Social Security Administration at SSA.gov. Medicare.gov directs applicants to Social Security to complete the sign-up. You can apply online, by phone, or at a local Social Security office.",
+  },
+  {
+    question: "What documents do I need before starting the SSA online application?",
+    answer:
+      "You'll need your Social Security number, date and place of birth, and information about any current health coverage, including employer group plans and Medicaid. If you're creating a new my Social Security account, you'll also need a driver's license or state ID to verify your identity through Login.gov or ID.me.",
+  },
+  {
+    question: "Can I change my Medicare application after submitting it online?",
+    answer:
+      "No. Once you agree to the Electronic Signature Agreement and click Submit, the application cannot be modified online. If you need to make a correction, you'll need to contact the Social Security Administration directly by phone or at a local office.",
+  }
 ];
 
 export default function SSAOnlineEnrollmentWalkthrough() {

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare broker for people with lupus | Free Coverage Guidance | MedicareYourself",
   description:
-    "Living with lupus? Broker Anthony Orner compares Medigap, Advantage & Part D for rheumatology, infusions & meds. Call 855-559-1700 for a free coverage review.",
+    "Living with lupus? Broker Anthony Orner compares Medigap, Advantage & Part D for rheumatology visits, infusions & meds. Call 855-559-1700 for a free review.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-people-with-lupus" },
   openGraph: {
     title:
@@ -118,6 +118,22 @@ const faqs = [
     question: "Should lupus patients choose Medigap or Medicare Advantage?",
     answer:
       "It depends on your providers, medications, and budget. Medigap plans paired with Original Medicare offer broad provider access and predictable cost-sharing, which can benefit lupus patients who see specialists and need infusions. Medicare Advantage plans may have lower premiums but use networks and prior authorization, which can affect access to rheumatologists and biologics.",
+  }
+,
+  {
+    question: "Are lupus medications covered under Part B or Part D?",
+    answer:
+      "It depends on how the drug is administered. Infusions and injections given in a clinical setting by a provider are typically billed under Part B, while oral medications like hydroxychloroquine and prednisone are covered under a Part D prescription drug plan. Choosing a Part D plan that lists your specific lupus medications on its formulary is key to keeping out-of-pocket costs manageable.",
+  },
+  {
+    question: "Should someone with lupus choose Medigap or Medicare Advantage?",
+    answer:
+      "Medigap plans generally offer broader provider access and predictable costs, which can help lupus patients who need consistent rheumatology care and frequent labs. Medicare Advantage plans may have lower monthly premiums but use networks and prior authorization, which can affect access to specialists and infusion centers. A broker can compare both options against your treatment plan.",
+  },
+  {
+    question: "Can a broker help me switch plans if my lupus treatment changes?",
+    answer:
+      "Yes. During the Annual Enrollment Period each fall, you can review Part D and Medicare Advantage plans to match your current medications and providers. If you have Medigap and want to switch carriers, medical underwriting may apply outside of guaranteed issue windows. Call 855-559-1700 to review your options.",
   }
 ];
 
@@ -362,6 +378,7 @@ export default function MedicareBrokerForPeopleWithLupus() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">Free unbiased counseling: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free local counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

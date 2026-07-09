@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "How to Sign Up for Medicare (2026 Guide)",
   description:
-    "2026 step-by-step guide to signing up for Medicare through Social Security, avoiding Part B penalties, and choosing coverage. Free expert help: 855-559-1700.",
+    "2026 step-by-step guide to signing up for Medicare through Social Security, avoiding Part B late penalties, and picking coverage. Free expert help: 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/how-to-sign-up-for-medicare` },
   openGraph: {
     title: "How to Sign Up for Medicare (2026 Guide)",
@@ -1308,6 +1308,22 @@ const faqs = [
     question: "Do I need to sign up for Medicare if I already receive Social Security?",
     answer:
       "No. If you are already collecting Social Security or Railroad Retirement benefits, you will be automatically enrolled in Medicare Part A and Part B when you become eligible. Your Medicare card will arrive in the mail about 3 months before your 65th birthday.",
+  }
+,
+  {
+    question: "How do I sign up for Medicare if I'm not automatically enrolled?",
+    answer:
+      "You can apply online at ssa.gov/medicare, which takes about 10 minutes. You can also apply by calling Social Security or by visiting your local Social Security office. Applications can be submitted up to 3 months before the month you turn 65.",
+  },
+  {
+    question: "What happens if I miss my Initial Enrollment Period?",
+    answer:
+      "If you miss your 7-month Initial Enrollment Period and don't qualify for a Special Enrollment Period, you'll need to wait until the General Enrollment Period (January 1 – March 31) to sign up for Part B. You may also face a permanent Part B late enrollment penalty that increases your premium for as long as you have Medicare. Call 855-559-1700 for help reviewing your options.",
+  },
+  {
+    question: "Do I need to sign up for Medicare if I'm still working at 65?",
+    answer:
+      "If you have creditable coverage through an employer with 20 or more employees, you can typically delay Part B without penalty. Confirm with your HR department that your plan qualifies as creditable coverage before delaying. When you lose that coverage, you'll get an 8-month Special Enrollment Period to sign up for Part B.",
   }
 ];
 

@@ -97,6 +97,12 @@ const faqs = [
     answer:
       "Yes. Medicare Part B covers medically necessary specialist visits, including rheumatology, along with lab work like ANA panels, complement levels, and kidney function tests used to monitor lupus. With Original Medicare you generally pay the Part B coinsurance after the deductible, which a Medigap plan can help offset.",
   }
+,
+  {
+    question: "Will Medicare cover the rheumatologist visits I need to manage lupus?",
+    answer:
+      "Yes. Original Medicare Part B covers medically necessary visits to rheumatologists and other specialists after you meet the Part B deductible, and you typically pay a coinsurance for each visit. Medicare Advantage plans also cover specialist visits but may require referrals or in-network providers, so it's important to confirm your rheumatologist participates before enrolling.",
+  }
 ];
 
 export default function MedicareEnrollmentHelpLupus() {
@@ -356,6 +362,7 @@ export default function MedicareEnrollmentHelpLupus() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">NJ residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

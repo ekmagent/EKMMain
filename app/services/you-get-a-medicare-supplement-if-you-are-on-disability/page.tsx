@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "you get a medicare supplement if you are on disability | Free Guide | MedicareYourself",
   description:
-    "On SSDI and under 65? Many states guarantee your right to a Medigap plan. Compare options with a licensed broker — call 855-559-1700 for free help today.",
+    "On SSDI and under 65? Over 30 states protect your right to a Medigap plan. Compare options with a licensed broker — call 855-559-1700 for free help.",
   alternates: { canonical: "https://medicareyourself.com/services/you-get-a-medicare-supplement-if-you-are-on-disability" },
   openGraph: {
     title:
@@ -470,6 +470,7 @@ export default function MedicareSupplementDisabilityPage() {
             <div className="text-sm text-gray-600 mt-4">Need state-specific help? Find your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">SHIP counselor</a> for free, unbiased Medicare guidance in your state.</div>
             <div className="text-sm text-gray-600 mt-4">For state-specific Medigap rules on disability, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a> for free local counseling.</div>
             <div className="text-sm text-gray-600 mt-4">Get free state-based counseling from your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">Need state-specific help? Contact your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
       </section>
 
       <p className="text-sm text-gray-500 mt-10">

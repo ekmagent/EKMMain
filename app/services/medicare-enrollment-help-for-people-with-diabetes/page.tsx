@@ -624,6 +624,12 @@ const faqs = [
     answer:
       "Yes. Medicare Part B covers diabetes self-management training (DSMT) when your doctor refers you and certifies that you need it to manage your condition. This training helps you learn how to monitor blood sugar, plan meals, take medications, and reduce risks of complications. Part B cost-sharing applies after you meet the Part B deductible.",
   }
+,
+  {
+    question: "Does Medicare Part D cover insulin?",
+    answer:
+      "Yes. Medicare Part D plans cover insulin, and under the Inflation Reduction Act, out-of-pocket costs for a month's supply of covered insulin are capped. Insulin used with a traditional pump is covered under Part B as durable medical equipment instead. Call 855-559-1700 to review which plans cover your specific insulin.",
+  }
 ];
 
 export default function MedicareEnrollmentHelpDiabetes() {
@@ -945,6 +951,7 @@ export default function MedicareEnrollmentHelpDiabetes() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

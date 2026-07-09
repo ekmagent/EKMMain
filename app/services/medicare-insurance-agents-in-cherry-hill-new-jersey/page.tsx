@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare insurance agents in cherry hill new jersey | Free Broker Help | MedicareYourself",
   description:
-    "Compare Medicare plans in Cherry Hill, NJ with licensed broker Anthony Orner. Free side-by-side Medigap and Advantage reviews — call 855-559-1700 today.",
+    "Talk to a licensed Cherry Hill, NJ Medicare broker. Free side-by-side Medigap and Advantage plan comparisons across top carriers — call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-insurance-agents-in-cherry-hill-new-jersey" },
   openGraph: {
     title:
@@ -84,6 +84,22 @@ const faqs = [
     answer:
       "No. Independent Medicare brokers are paid by the insurance carriers. You pay the same premium whether you enroll on your own or through a broker. There's no fee, no obligation, and no markup.",
   },
+,
+  {
+    question: "When can I enroll in a Medigap plan in New Jersey?",
+    answer:
+      "Your best window is the 6-month Medigap Open Enrollment Period, which begins the month you're 65 or older and enrolled in Part B. During this window, you have guaranteed issue rights and cannot be denied coverage or charged more for health reasons. New Jersey uses community rating, so Medigap premiums are set the same for all enrollees of a given plan regardless of age.",
+  },
+  {
+    question: "Do Cherry Hill Medicare Advantage plans include prescription drug coverage?",
+    answer:
+      "Most Medicare Advantage plans available in Camden County bundle Part D prescription drug coverage into the plan. Some also add extras like dental, vision, and hearing benefits. A broker can compare the specific formularies and provider networks to make sure your medications and doctors are covered.",
+  },
+  {
+    question: "Can I switch Medicare plans after I enroll?",
+    answer:
+      "Yes. The Annual Enrollment Period runs each fall and lets you change Medicare Advantage or Part D plans for the following year. There's also a Medicare Advantage Open Enrollment Period in the first quarter of the year for one additional switch. Medigap changes outside your initial 6-month window may be subject to medical underwriting in New Jersey.",
+  }
 ];
 
 export default function MedicareInsuranceAgentsCherryHillNJ() {
@@ -348,6 +364,7 @@ export default function MedicareInsuranceAgentsCherryHillNJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" target="_blank" rel="noopener noreferrer" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" target="_blank" rel="noopener noreferrer" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );
