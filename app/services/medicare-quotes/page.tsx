@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare quotes | Free Instant Rates From Every Carrier | MedicareYourself",
   description:
-    "Compare free Medicare quotes from every major carrier side by side. See Supplement and Advantage rates instantly — call 855-559-1700 for no-obligation help.",
+    "Compare free Medicare quotes from top carriers side by side. See Supplement and Advantage rates in minutes — call 855-559-1700 for no-obligation help.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-quotes" },
   openGraph: {
     title:

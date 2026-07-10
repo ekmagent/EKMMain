@@ -331,6 +331,12 @@ const faqs = [
     answer:
       "Often, yes. Most Medicare Advantage plans use HMO or PPO networks, so seeing an out-of-network psychiatrist may cost more or not be covered. Original Medicare with a Medigap supplement lets you see any provider who accepts Medicare, which can matter if you have an established psychiatrist. Anthony can compare network directories against your current care team before you enroll.",
   }
+,
+  {
+    question: "Does Medicare cover outpatient therapy and counseling for bipolar disorder?",
+    answer:
+      "Yes. Medicare Part B covers outpatient mental health services including individual and group psychotherapy, family counseling, and diagnostic evaluations. Covered providers include psychiatrists, clinical psychologists, clinical social workers, and, more recently, marriage and family therapists and mental health counselors. You typically pay the Part B deductible and coinsurance after Medicare's share.",
+  }
 ];
 
 export default function MedicareBrokerBipolarDisorderPage() {

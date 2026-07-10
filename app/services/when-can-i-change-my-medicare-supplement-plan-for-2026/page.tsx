@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "when can i change my medicare supplement plan for 2026 | Free Switching Help | MedicareYourself",
   description:
-    "When can I change my Medicare Supplement plan for 2026? Learn switch windows, guaranteed-issue rights & underwriting rules. Call 855-559-1700 for free help.",
+    "When can you change your Medicare Supplement plan for 2026? Learn switch rules, guaranteed-issue rights & underwriting. Call 855-559-1700 for free broker help.",
   alternates: { canonical: "https://medicareyourself.com/services/when-can-i-change-my-medicare-supplement-plan-for-2026" },
   openGraph: {
     title:
@@ -546,6 +546,22 @@ const faqs = [
     answer:
       "Yes. Federal rules give you a 30-day free-look period after starting a new Medigap policy. During this time you can keep both policies active so you can compare them, then decide whether to cancel the old one. You'll pay both premiums for that month, but it protects you if the new plan isn't what you expected.",
   }
+,
+  {
+    question: "Does changing my Medigap plan restart a new 6-month open enrollment period?",
+    answer:
+      "No. Your 6-month Medigap Open Enrollment Period is a one-time window that starts when you're 65 or older and first enrolled in Part B. Once it ends, it doesn't reset, even if you switch plans or carriers later. After that, changes typically require medical underwriting unless a federal or state guaranteed-issue right applies.",
+  },
+  {
+    question: "What happens during the free-look period if I switch Medigap plans in 2026?",
+    answer:
+      "When you buy a new Medigap policy, you get a 30-day free-look period to decide if you want to keep it. You'll need to pay premiums on both your old and new policy during that month. If you cancel the new plan within 30 days, you can keep the original coverage without a lapse.",
+  },
+  {
+    question: "Can I be denied a new Medigap plan in 2026 because of my health?",
+    answer:
+      "Yes, outside of your 6-month Medigap Open Enrollment Period or a guaranteed-issue situation, carriers can use medical underwriting and deny your application based on pre-existing conditions. That's why timing your switch matters. Call 855-559-1700 for a free review of your options before you apply.",
+  }
 ];
 
 export default function WhenCanIChangeMyMedicareSupplementPlanFor2026() {
@@ -794,6 +810,7 @@ export default function WhenCanIChangeMyMedicareSupplementPlanFor2026() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents: <a href="https://www.state.nj.us/dobi/division_insurance/ihcseh/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> and the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP program</a> offer free Medigap counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Some states offer broader Medigap switching rights than federal law. Check with the <a href="https://www.state.nj.us/dobi/division_insurance/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">New Jersey Department of Banking and Insurance</a> or your state's <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">SHIP program</a> for state-specific protections.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/ihcseh/shipmain.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">New Jersey State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </main>
   );

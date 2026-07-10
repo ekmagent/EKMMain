@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "How to Sign Up for Medicare (2026 Guide)",
   description:
-    "2026 step-by-step guide to signing up for Medicare through Social Security, avoiding Part B late penalties, and picking coverage. Free expert help: 855-559-1700.",
+    "2026 step-by-step guide to signing up for Medicare via Social Security, avoiding Part B late penalties, and picking coverage. Call 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/how-to-sign-up-for-medicare` },
   openGraph: {
     title: "How to Sign Up for Medicare (2026 Guide)",
@@ -1324,6 +1324,22 @@ const faqs = [
     question: "Do I need to sign up for Medicare if I'm still working at 65?",
     answer:
       "If you have creditable coverage through an employer with 20 or more employees, you can typically delay Part B without penalty. Confirm with your HR department that your plan qualifies as creditable coverage before delaying. When you lose that coverage, you'll get an 8-month Special Enrollment Period to sign up for Part B.",
+  }
+,
+  {
+    question: "How do I sign up for Medicare if I'm not getting Social Security yet?",
+    answer:
+      "You can apply online at ssa.gov/medicare, which takes about 10 minutes. You can also apply by calling Social Security or by visiting your local Social Security office. Applications can be submitted starting 3 months before the month you turn 65.",
+  },
+  {
+    question: "What happens if I miss my Initial Enrollment Period?",
+    answer:
+      "If you miss your IEP and don't qualify for a Special Enrollment Period, you'll have to wait for the General Enrollment Period (January 1 – March 31) to sign up for Part B, with coverage starting the month after you enroll. You may also owe a lifetime Part B late enrollment penalty. Call 855-559-1700 if you're unsure which window applies to you.",
+  },
+  {
+    question: "Do I need to sign up for Medicare every year?",
+    answer:
+      "No. Once you enroll in Medicare Parts A and B, your coverage continues automatically as long as you pay any required premiums. However, if you have a Medicare Advantage or Part D drug plan, you should review it each year during the Annual Enrollment Period (October 15 – December 7) since plan costs and networks can change.",
   }
 ];
 

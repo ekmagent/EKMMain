@@ -309,6 +309,7 @@ export default function MedicareConsultantFtLauderdaleFL() {
             <div className="text-sm text-gray-600 mt-4">Florida residents can also get free, unbiased counseling through <a href="https://www.floridashine.org/" rel="noopener noreferrer" target="_blank" className="underline">SHINE (Florida's SHIP program)</a> or verify any agent's license with the <a href="https://www.floir.com/" rel="noopener noreferrer" target="_blank" className="underline">Florida Office of Insurance Regulation</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Florida residents can also get free counseling through <a href="https://www.floridashine.org/" rel="noopener noreferrer" target="_blank" className="underline">Florida SHINE</a>, the state's SHIP program.</div>
             <div className="text-sm text-gray-600 mt-4">Florida residents can also contact <a href="https://www.floridashine.org/" rel="noopener noreferrer" target="_blank" className="underline">SHINE (Serving Health Insurance Needs of Elders)</a>, Florida's free SHIP counseling program administered by the Department of Elder Affairs.</div>
+            <div className="text-sm text-gray-600 mt-4">Florida residents can contact <a href="https://www.floridashine.org/" rel="noopener noreferrer" target="_blank" className="underline">Florida SHINE</a> for free, unbiased Medicare counseling through the state's SHIP program.</div>
       </section>
     </main>
   );

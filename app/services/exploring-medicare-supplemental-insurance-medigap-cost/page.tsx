@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Exploring Medicare Supplemental Insurance (Medigap) Cost | Free Rate Comparison | MedicareYourself",
   description:
-    "Compare Medigap costs by plan letter, pricing model & ZIP with a licensed broker. Find your lowest rate free — call 855-559-1700 for a personalized quote.",
+    "Compare Medigap costs by plan letter, pricing model, and ZIP with a licensed broker. Find your lowest rate free — call 855-559-1700 for a personalized quote.",
   alternates: { canonical: "https://medicareyourself.com/services/exploring-medicare-supplemental-insurance-medigap-cost" },
   openGraph: {
     title:
@@ -132,6 +132,22 @@ const faqs = [
     question: "Does Medigap work with any doctor that accepts Medicare?",
     answer:
       "Yes. Medigap policies work with any provider nationwide who accepts Original Medicare, with no network restrictions or referral requirements. This is one of the biggest advantages of pairing Original Medicare with a Medigap plan, especially for people who travel or split time between states.",
+  }
+,
+  {
+    question: "What factors affect how much I'll pay for a Medigap policy?",
+    answer:
+      "Premiums vary based on your ZIP code, age, gender, tobacco use, and the carrier's pricing model (community-rated, issue-age-rated, or attained-age-rated). The plan letter you choose also matters, since more comprehensive plans like Plan G typically cost more than lower-benefit plans. Comparing quotes from multiple carriers for the same plan letter is the best way to find your lowest rate.",
+  },
+  {
+    question: "Do all Medigap plans work with any doctor that accepts Medicare?",
+    answer:
+      "Yes. Because Medigap works alongside Original Medicare, you can see any provider nationwide who accepts Medicare assignment — there are no network restrictions. This is one of the biggest differences between Medigap and Medicare Advantage plans.",
+  },
+  {
+    question: "When is the best time to buy a Medigap policy?",
+    answer:
+      "The ideal window is your 6-month Medigap Open Enrollment Period, which starts the month you're 65 or older and enrolled in Part B. During this window, you have guaranteed issue rights, meaning carriers can't deny coverage or charge more due to health conditions. Call 855-559-1700 to review your enrollment window before it closes.",
   }
 ];
 
@@ -431,6 +447,7 @@ export default function ExploringMedigapCostPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents: contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.html" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medigap counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </main>
   );

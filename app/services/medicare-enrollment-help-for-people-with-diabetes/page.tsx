@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare Enrollment Help for People With Diabetes | Free Guidance | MedicareYourself",
   description:
-    "Medicare enrollment help for people with diabetes—compare plans covering insulin, CGMs, pumps & test strips. Call 855-559-1700 for free expert guidance.",
+    "Medicare enrollment help for people with diabetes—find plans covering insulin, CGMs, pumps & test strips. Call 855-559-1700 for free personalized guidance.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-enrollment-help-for-people-with-diabetes" },
   openGraph: {
     title:
@@ -630,6 +630,22 @@ const faqs = [
     answer:
       "Yes. Medicare Part D plans cover insulin, and under the Inflation Reduction Act, out-of-pocket costs for a month's supply of covered insulin are capped. Insulin used with a traditional pump is covered under Part B as durable medical equipment instead. Call 855-559-1700 to review which plans cover your specific insulin.",
   }
+,
+  {
+    question: "Does Medicare Part D cover insulin?",
+    answer:
+      "Yes. Medicare Part D plans cover insulin taken through injection pens or vials, and there is a monthly copay cap on covered insulin under the Inflation Reduction Act. Insulin used with a traditional insulin pump is typically covered under Part B as durable medical equipment. Formularies vary by plan, so it's important to confirm your specific insulin is on the plan's drug list before enrolling.",
+  },
+  {
+    question: "Are diabetes test strips and lancets covered by Medicare?",
+    answer:
+      "Yes. Medicare Part B covers blood sugar test strips, lancets, lancet devices, and blood glucose monitors as durable medical equipment when prescribed by your doctor. You'll need to use a Medicare-enrolled supplier to get coverage. Quantity limits may apply based on whether you use insulin.",
+  },
+  {
+    question: "Can I switch Medicare plans if my diabetes medications change?",
+    answer:
+      "Yes. During the Annual Enrollment Period (October 15 – December 7), you can change your Part D or Medicare Advantage plan for any reason, including a new prescription that isn't well covered. You may also qualify for a Special Enrollment Period in certain circumstances. Call 855-559-1700 and Anthony can review your medication list against available plans.",
+  }
 ];
 
 export default function MedicareEnrollmentHelpDiabetes() {
@@ -952,6 +968,7 @@ export default function MedicareEnrollmentHelpDiabetes() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
       </article>
     </>

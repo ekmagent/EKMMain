@@ -285,6 +285,17 @@ const faqs = [
     answer:
       "Medicare Part B covers pulmonary rehabilitation for patients with moderate to severe COPD when ordered by a physician. Your Medigap plan then picks up the Part B coinsurance, meaning Plan G leaves you with little to no out-of-pocket cost for approved sessions after the Part B deductible is met.",
   }
+,
+  {
+    question: "Is Plan G or Plan N better for someone with frequent pulmonologist visits?",
+    answer:
+      "Plan G is generally better for COPD patients with frequent specialist visits because it covers Part B excess charges and has no copays for office visits after the Part B deductible. Plan N has lower premiums but charges a copay for office and ER visits, which can add up quickly with regular pulmonology appointments. If you see specialists monthly, Plan G's predictability usually outweighs Plan N's premium savings.",
+  },
+  {
+    question: "Do Medigap plans cover COPD inhalers and prescriptions?",
+    answer:
+      "No. Medigap (Medicare Supplement) plans do not cover prescription drugs, including COPD inhalers and nebulizer medications. You'll need a separate Medicare Part D prescription drug plan to cover these medications. A licensed broker can help you compare Part D formularies to find one that covers your specific inhalers at the lowest cost.",
+  }
 ];
 
 export default function WhichMedicareSupplementalPlanBestForCOPDPatient() {

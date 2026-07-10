@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "average cost of supplemental health insurance for seniors with medicare | Free Broker Comparison | MedicareYourself",
   description:
-    "Compare 2026 Medigap costs by plan, age, and location. A licensed broker shops every top carrier free to find your lowest rate. Call 855-559-1700 today.",
+    "Compare 2026 Medigap costs by plan, age, and zip code. A licensed broker shops every top carrier free to find your lowest rate. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/average-cost-of-supplemental-health-insurance-for-seniors-with-medicare" },
   openGraph: {
     title:
@@ -895,6 +895,22 @@ const faqs = [
     answer:
       "Yes. Medigap premiums vary widely by state, county, and even zip code because insurance companies base rates partly on local claims experience and healthcare costs. The same lettered plan from the same carrier can cost significantly more in one state than another. A licensed broker can quickly show you what carriers charge in your specific area.",
   }
+,
+  {
+    question: "Does where I live affect what I pay for a Medigap plan?",
+    answer:
+      "Yes. Medigap premiums vary widely by state, county, and even zip code because carriers price policies based on local claims experience and regulations. The same lettered plan can cost significantly more in one area than another, which is why a broker who shops every carrier licensed in your state matters.",
+  },
+  {
+    question: "What are the three ways insurance companies price Medigap policies?",
+    answer:
+      "Carriers use community-rated (same premium regardless of age), issue-age-rated (based on your age when you buy), or attained-age-rated (increases as you get older) pricing. Attained-age policies often start cheapest but rise fastest over time. Understanding which method a carrier uses helps predict your long-term costs, not just today's premium.",
+  },
+  {
+    question: "Do I pay extra if I use a broker to compare Medigap plans?",
+    answer:
+      "No. Medigap premiums are filed with your state's insurance department, so the price is the same whether you buy directly from the carrier or through a licensed broker. A broker can compare every carrier at once and identify the lowest-priced plan for your zip code at no cost to you.",
+  }
 ];
 
 export default function AverageCostSupplementalInsurancePage() {
@@ -1143,6 +1159,7 @@ export default function AverageCostSupplementalInsurancePage() {
             <div className="text-sm text-gray-600 mt-4">For free, unbiased counseling in your state, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a> or the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Need one-on-one help? Contact your state's <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-700 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">For state-specific rate filings and free counseling, visit the <a href="https://www.state.nj.us/dobi/division_insurance/" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or find your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">SHIP counselor</a>.</div>
       </section>
     </main>
   );

@@ -465,6 +465,12 @@ const faqs = [
     answer:
       "Prescription drug coverage comes through Medicare Part D, either as a standalone plan alongside Original Medicare or bundled into a Medicare Advantage plan. Each plan has its own formulary, so common cardiac medications like statins, blood thinners, beta blockers, and ACE inhibitors may be tiered differently from plan to plan. A broker can run your exact medication list against every available plan in your ZIP code to find the lowest total annual cost.",
   }
+,
+  {
+    question: "Are heart medications covered under Medicare?",
+    answer:
+      "Yes, most heart medications are covered under Medicare Part D prescription drug plans or through a Medicare Advantage plan that includes drug coverage. Each plan has its own formulary, so the same medication may have different costs depending on the plan. A broker can run your specific medications through plan finders to identify the lowest total annual cost.",
+  }
 ];
 
 export default function MedicareBrokerHeartDiseasePatients() {

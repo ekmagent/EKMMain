@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Average Cost of Medicare Supplement Insurance by Age (2026) | Free Rate Comparison | MedicareYourself",
   description:
-    "Compare 2026 Medicare Supplement costs by age in NJ. See how Plan G premiums shift at 65, 70, and 75+. Call 855-559-1700 for a free personalized quote today.",
+    "See how 2026 Medicare Supplement costs change at 65, 70, and 75+ in NJ. Compare carriers and save — call 855-559-1700 for a free personalized quote today.",
   alternates: { canonical: "https://medicareyourself.com/services/average-cost-of-medicare-supplement-insurance-by-age-in-2026" },
   openGraph: {
     title:
@@ -86,6 +86,22 @@ const faqs = [
     answer:
       "Attained-age plans increase your premium as you get older, on top of any general rate increases. Community-rated plans charge the same base rate regardless of age. Community-rated plans often start higher but can cost less over time. New Jersey requires carriers to offer community-rated pricing.",
   },
+,
+  {
+    question: "Do Medigap premiums typically increase every year?",
+    answer:
+      "Most Medigap policies see annual rate adjustments due to medical inflation, claims experience, and — for attained-age plans — the policyholder's age. The size of the increase varies by carrier and pricing methodology. Reviewing your policy annually helps ensure you're still getting competitive value.",
+  },
+  {
+    question: "Does tobacco use affect my Medicare Supplement premium?",
+    answer:
+      "Yes, most carriers charge higher premiums for tobacco users, and the surcharge can be significant. If you quit and can document a tobacco-free period (often 12 months), some carriers will requote you at non-tobacco rates. Underwriting rules may still apply outside your initial enrollment window.",
+  },
+  {
+    question: "Is it cheaper to enroll in Medigap at age 65 than to wait?",
+    answer:
+      "Generally yes. Enrolling during your 6-month Medigap Open Enrollment Period at 65 guarantees you cannot be denied or charged more due to health conditions. Waiting means carriers can medically underwrite you, which may lead to higher rates or denied coverage entirely.",
+  }
 ];
 
 export default function AverageCostMedigapByAge2026() {
@@ -371,6 +387,7 @@ export default function AverageCostMedigapByAge2026() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents: <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> offers free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
       </article>

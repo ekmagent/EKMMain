@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare Supplement Plan G Cost for a 70-Year-Old | Free Rate Lookup | MedicareYourself",
   description:
-    "Compare Medicare Supplement Plan G premiums for 70-year-olds by carrier, zip code & pricing model. Free rate lookup — call 855-559-1700 today.",
+    "Compare Medicare Supplement Plan G premiums for 70-year-olds by carrier, zip code & pricing model. Get a free personalized rate lookup — call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-supplement-plan-g-cost-for-70-year-old" },
   openGraph: {
     title:
@@ -115,6 +115,22 @@ const faqs = [
     question: "How can I lower my Plan G premium at age 70?",
     answer:
       "You can often reduce your premium by comparing carriers annually, applying household discounts if you live with another adult, avoiding tobacco surcharges, and choosing a carrier with a stable rate history. If you qualify medically, switching to a lower-priced Plan G with the same benefits can save significantly. Call 855-559-1700 for a free rate comparison.",
+  }
+,
+  {
+    question: "Why do Plan G premiums differ so much between insurance companies at age 70?",
+    answer:
+      "Even though Plan G benefits are standardized by Medicare, each insurance company sets its own premium. Differences reflect the carrier's pricing model, underwriting, claims history in your state, administrative costs, and available discounts. Comparing multiple carriers for the same zip code is the only reliable way to see the full range.",
+  },
+  {
+    question: "Does my zip code really change my Plan G cost at 70?",
+    answer:
+      "Yes. Medigap premiums are filed by state and often further adjusted by rating region or zip code within that state. Two 70-year-olds with identical health can pay meaningfully different premiums simply because they live in different counties. A licensed broker can pull rates specific to your exact zip code.",
+  },
+  {
+    question: "Is Plan G still worth it at age 70 compared to other Medigap plans?",
+    answer:
+      "Plan G remains one of the most comprehensive Medigap options available to those newly eligible, covering everything Original Medicare leaves behind except the annual Part B deductible. For most 70-year-olds who value predictable out-of-pocket costs, Plan G's coverage often justifies its premium compared to lower-benefit plans.",
   }
 ];
 
@@ -359,6 +375,7 @@ export default function MedicareSupplementPlanGCostFor70YearOld() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">For state-specific help, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">local SHIP (State Health Insurance Assistance Program)</a> for free unbiased Medicare counseling.</div>
       </section>
     </main>
   );

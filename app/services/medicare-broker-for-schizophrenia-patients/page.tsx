@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for schizophrenia patients | Free Coverage Analysis | MedicareYourself",
   description:
-    "Medicare broker for schizophrenia patients: Anthony Orner compares plans covering antipsychotics, therapy & psychiatric care. Free help — call 855-559-1700.",
+    "Medicare broker for schizophrenia patients: Anthony Orner compares plans covering antipsychotics, therapy & inpatient care. Free help — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-schizophrenia-patients" },
   openGraph: {
     title:
@@ -166,6 +166,12 @@ const faqs = [
     question: "Does Medicare cover partial hospitalization programs for schizophrenia?",
     answer:
       "Yes. Medicare Part B covers partial hospitalization programs (PHPs), which are structured outpatient psychiatric treatment programs more intensive than standard outpatient therapy. Your doctor must certify that you would otherwise require inpatient care. Coverage includes individual and group therapy, occupational therapy, and medication management.",
+  }
+,
+  {
+    question: "Does Medicare cover long-acting injectable antipsychotics?",
+    answer:
+      "Yes. Long-acting injectable antipsychotics administered in a clinical setting are typically covered under Medicare Part B as physician-administered drugs, while self-administered oral antipsychotics are covered under Part D. Because coverage rules and cost-sharing differ between Part B and Part D, a broker can help identify which plan structure works best for your treatment plan.",
   }
 ];
 
@@ -463,6 +469,7 @@ export default function MedicareBrokerSchizophreniaPatients() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

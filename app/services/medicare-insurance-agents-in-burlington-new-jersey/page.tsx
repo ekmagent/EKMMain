@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare insurance agents in burlington new jersey | Free Local Help | MedicareYourself",
   description:
-    "Talk with Anthony Orner, a licensed NJ Medicare broker serving Burlington County. Compare Medigap, Advantage & Part D free — call 855-559-1700 today.",
+    "Talk with Anthony Orner, a licensed NJ Medicare broker serving Burlington County. Compare Medigap, Advantage & Part D at no cost — call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-insurance-agents-in-burlington-new-jersey" },
   openGraph: {
     title:
@@ -463,6 +463,22 @@ const faqs = [
     answer:
       "Yes. As an independent broker, Anthony Orner can walk you through the tradeoffs between Medicare Advantage plans and Medigap paired with a standalone Part D drug plan. The comparison considers your doctors, prescriptions, travel habits, and budget so you can make an informed decision.",
   }
+,
+  {
+    question: "When can I enroll in a Medigap plan in New Jersey?",
+    answer:
+      "Your best window is the 6-month Medigap Open Enrollment Period that starts the month you turn 65 and are enrolled in Part B. During this window, you have guaranteed issue rights, meaning carriers cannot deny you or charge more based on health. New Jersey uses community rating, so premiums are not based on your individual age within a plan.",
+  },
+  {
+    question: "Does Anthony Orner serve all of Burlington County?",
+    answer:
+      "Yes. Anthony Orner is a licensed New Jersey Medicare broker (NPI 1902584006) serving Burlington County communities including Mount Laurel, Willingboro, Moorestown, Marlton, Medford, and surrounding areas. Consultations are available by phone at 855-559-1700 and are always free with no obligation to enroll.",
+  },
+  {
+    question: "What's the difference between Medigap and Medicare Advantage?",
+    answer:
+      "Medigap (Medicare Supplement) works alongside Original Medicare and helps cover out-of-pocket costs like deductibles and coinsurance, with freedom to see any provider that accepts Medicare. Medicare Advantage replaces Original Medicare with a private plan that usually includes Part D and extras like dental or vision, but typically uses provider networks. An independent broker can compare both side-by-side for your Burlington County situation.",
+  }
 ];
 
 export default function MedicareInsuranceAgentsBurlingtonNJ() {
@@ -743,6 +759,7 @@ export default function MedicareInsuranceAgentsBurlingtonNJ() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey seniors can also get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </>
   );

@@ -228,6 +228,12 @@ const faqs = [
     answer:
       "Yes. Medigap benefits are standardized by the federal government, so Plan G from one carrier covers the same services as Plan G from another. The differences are price, customer service, and rate increase history. That's why comparing carriers side by side matters more than choosing a brand name.",
   }
+,
+  {
+    question: "Can I switch from Plan G to another Medigap plan later?",
+    answer:
+      "Yes, but outside your Medigap Open Enrollment Period, most carriers will require medical underwriting to switch plans. That means they can review your health history and either deny coverage or charge a higher premium. Some states offer additional switching rights, so it's worth reviewing your state's rules with a licensed broker before making a change.",
+  }
 ];
 
 export default function EnrollInPlanGOnlinePage() {

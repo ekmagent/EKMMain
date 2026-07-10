@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare broker for people with lupus | Free Coverage Guidance | MedicareYourself",
   description:
-    "Living with lupus? Broker Anthony Orner compares Medigap, Advantage & Part D for rheumatology visits, infusions & meds. Call 855-559-1700 for a free review.",
+    "Medicare broker Anthony Orner helps lupus patients compare Medigap, Advantage & Part D for rheumatology, infusions & meds. Call 855-559-1700 for a free review.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-people-with-lupus" },
   openGraph: {
     title:
@@ -134,6 +134,22 @@ const faqs = [
     question: "Can a broker help me switch plans if my lupus treatment changes?",
     answer:
       "Yes. During the Annual Enrollment Period each fall, you can review Part D and Medicare Advantage plans to match your current medications and providers. If you have Medigap and want to switch carriers, medical underwriting may apply outside of guaranteed issue windows. Call 855-559-1700 to review your options.",
+  }
+,
+  {
+    question: "Are lupus medications covered under Part B or Part D?",
+    answer:
+      "It depends on how the drug is administered. Biologic infusions given in a clinical setting are typically billed under Part B, while self-administered oral medications like hydroxychloroquine are covered under a Part D prescription drug plan. Reviewing both benefits together is important for lupus patients.",
+  },
+  {
+    question: "Should a lupus patient choose Medigap or Medicare Advantage?",
+    answer:
+      "Medigap plans often work well for lupus patients because they help cover the coinsurance on frequent specialist visits, labs, and infusions with broad access to rheumatologists nationwide. Medicare Advantage can have lower premiums but uses networks and prior authorization that may affect your infusion center or biologic choice. A broker can compare both against your treatment plan.",
+  },
+  {
+    question: "How can a Medicare broker help someone with lupus?",
+    answer:
+      "A licensed broker like Anthony Orner reviews your rheumatologist, infusion center, and prescription list, then compares plans that best support ongoing lupus care. Brokers can also identify guaranteed issue windows so you can secure Medigap coverage without medical underwriting. Call 855-559-1700 for a free, no-obligation review.",
   }
 ];
 
@@ -379,6 +395,7 @@ export default function MedicareBrokerForPeopleWithLupus() {
             <div className="text-sm text-gray-600 mt-4">Free unbiased counseling: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free local counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
       </article>
     </>

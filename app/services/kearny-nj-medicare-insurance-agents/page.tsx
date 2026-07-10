@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "kearny nj medicare insurance agents | Free Consultation | MedicareYourself",
   description:
-    "Kearny NJ Medicare agents — Anthony Orner, independent broker, compares Supplement & Advantage plans free. Keep your doctors. Call 855-559-1700.",
+    "Kearny NJ Medicare agents — Anthony Orner compares Supplement, Advantage & Part D plans free. Keep your doctors. Call 855-559-1700 for a no-cost review.",
   alternates: { canonical: "https://medicareyourself.com/services/kearny-nj-medicare-insurance-agents" },
   openGraph: {
     title:
@@ -86,6 +86,22 @@ const faqs = [
     answer:
       "It depends on the plan's network. Anthony checks your doctors and prescriptions against each plan before recommending anything, so you know exactly what you're getting before you sign.",
   },
+,
+  {
+    question: "Does a Kearny Medicare broker help with Part D prescription drug plans?",
+    answer:
+      "Yes. Anthony reviews your current medications and runs them against each Part D plan's formulary to find one that covers your prescriptions at the lowest total cost. This includes checking preferred pharmacies in the Kearny and Hudson County area.",
+  },
+  {
+    question: "Do I have to switch plans every year during Open Enrollment?",
+    answer:
+      "No. If your current plan still fits your doctors, medications, and budget, you can keep it. Anthony offers a free annual review so you can confirm nothing important has changed before the December 7 deadline.",
+  },
+  {
+    question: "Can I work with Anthony if I live outside Kearny but elsewhere in NJ?",
+    answer:
+      "Yes. Anthony is licensed in New Jersey and 34 other states, so he can help residents throughout Hudson County and across NJ. Consultations are available by phone, video, or in person when practical.",
+  }
 ];
 
 export default function KearnyNJMedicareInsuranceAgents() {
@@ -350,6 +366,7 @@ export default function KearnyNJMedicareInsuranceAgents() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

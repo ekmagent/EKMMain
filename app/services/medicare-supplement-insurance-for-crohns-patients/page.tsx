@@ -336,6 +336,22 @@ const faqs = [
     answer:
       "It depends on how the medication is administered. Provider-administered biologic infusions are billed under Part B, and Medigap helps cover the coinsurance. Self-administered drugs like oral medications or at-home injectables fall under Part D, which is a separate prescription drug plan that Medigap does not supplement.",
   }
+,
+  {
+    question: "Does Medicare cover parenteral or enteral nutrition for severe Crohn's cases?",
+    answer:
+      "Medicare Part B may cover parenteral (intravenous) or enteral (tube) nutrition when it is medically necessary and prescribed for patients who cannot absorb nutrients through normal digestion. Coverage typically requires documentation from your gastroenterologist showing the therapy is essential, not supplemental. A Medigap plan can then help pay the Part B coinsurance portion.",
+  },
+  {
+    question: "Are ostomy supplies covered under Medicare for Crohn's patients?",
+    answer:
+      "Yes. Medicare Part B covers medically necessary ostomy supplies for patients who have had colostomy, ileostomy, or urinary ostomy surgery, which some Crohn's patients require. After the Part B deductible, Medicare pays its share and a Medigap plan such as Plan G covers the remaining coinsurance. Supplies must be obtained from a Medicare-enrolled supplier.",
+  },
+  {
+    question: "Do I need a separate plan for my Crohn's medications?",
+    answer:
+      "Oral Crohn's medications you take at home are generally covered under Medicare Part D, not Part B or Medigap. Provider-administered infusions given in a clinic fall under Part B, where Medigap helps with the coinsurance. We can help you review both your Medigap and Part D options together so nothing is missed — call 855-559-1700.",
+  }
 ];
 
 export default function MedicareSupplementCrohnsPage() {
@@ -557,6 +573,7 @@ export default function MedicareSupplementCrohnsPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

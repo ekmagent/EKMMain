@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "free independent medicare broker near me new jersey | Free Quote | MedicareYourself",
   description:
-    "Free independent Medicare broker in NJ. Anthony Orner compares Medigap & Advantage plans from top carriers—no fees. Call 855-559-1700 for a free quote.",
+    "Free independent Medicare broker in New Jersey. Anthony Orner compares Medigap & Advantage plans from top NJ carriers—no fees. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/free-independent-medicare-broker-near-me-new-jersey" },
   openGraph: {
     title:
@@ -345,6 +345,17 @@ const faqs = [
     answer:
       "Anthony Orner is licensed in New Jersey and 34 additional states and serves clients throughout NJ, including North Jersey, Central Jersey, the Jersey Shore, and South Jersey. Appointments are available in person, by phone, or virtually to fit your preference.",
   }
+,
+  {
+    question: "Does New Jersey use community rating for Medigap?",
+    answer:
+      "Yes. New Jersey uses community rating for Medicare Supplement (Medigap) plans, which means carriers charge the same premium regardless of your age within a given plan. Your 6-month Medigap Open Enrollment Period still applies when you first enroll in Part B at age 65 or older. Outside of that window, medical underwriting may apply unless you qualify for a guaranteed issue right.",
+  },
+  {
+    question: "How many carriers does an independent broker in NJ typically compare?",
+    answer:
+      "An independent Medicare broker licensed in New Jersey usually represents multiple carriers for both Medigap and Medicare Advantage. That allows you to see plan benefits, premiums, and networks side by side rather than being limited to one company's products. Anthony Orner is contracted with a broad set of top NJ carriers.",
+  }
 ];
 
 export default function FreeIndependentMedicareBrokerNearMeNewJersey() {
@@ -549,6 +560,7 @@ export default function FreeIndependentMedicareBrokerNearMeNewJersey() {
             <div className="text-sm text-gray-600 mt-4">New Jersey help: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

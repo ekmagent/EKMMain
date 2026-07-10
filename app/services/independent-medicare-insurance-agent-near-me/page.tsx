@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "independent medicare insurance agent near me | Free No-Obligation Help | MedicareYourself",
   description:
-    "Looking for an independent Medicare insurance agent near you? Anthony Orner compares top carriers across NJ & 34 states at no cost. Call 855-559-1700 today.",
+    "Searching for an independent Medicare insurance agent near you? Anthony Orner compares top carriers across NJ & 34 states at no cost. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/independent-medicare-insurance-agent-near-me" },
   openGraph: {
     title:
@@ -116,6 +116,22 @@ const faqs = [
     question: "Can an independent Medicare agent help with both Medicare Advantage and Medigap plans?",
     answer:
       "Yes. Independent agents with the right carrier appointments can present Medicare Advantage, Medicare Supplement (Medigap), and standalone Part D prescription drug plans. This lets you compare the two main paths — Original Medicare with a Medigap and Part D plan versus an all-in-one Medicare Advantage plan — side by side before deciding.",
+  }
+,
+  {
+    question: "What questions should I ask an independent Medicare agent before enrolling?",
+    answer:
+      "Ask which carriers they are appointed with, how many Medicare Advantage and Medigap plans they can offer in your ZIP code, and whether they will review your plan every year during the Annual Enrollment Period. Also ask if your current doctors and prescriptions are covered under any plan they recommend. A good agent will welcome these questions.",
+  },
+  {
+    question: "Can an independent Medicare agent help me switch plans if my current one isn't working?",
+    answer:
+      "Yes. During the Annual Enrollment Period and other valid enrollment windows, an independent agent can review your current coverage, compare it against other options, and help you switch to a plan that better fits your needs. They can also help identify Special Enrollment Periods you may qualify for.",
+  },
+  {
+    question: "Do I have to meet an independent Medicare agent in person?",
+    answer:
+      "No. Most independent agents, including Anthony Orner, can help you by phone, email, or video call across all licensed states. In-person meetings are available in New Jersey when preferred. You can complete plan comparisons and enrollment applications entirely remotely if that's easier for you.",
   }
 ];
 
@@ -340,6 +356,7 @@ export default function IndependentMedicareInsuranceAgentNearMe() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can verify an agent's license or file a complaint through the <a href="https://www.state.nj.us/dobi/division_insurance/" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a>, or get free unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">You can also get free, unbiased Medicare counseling through your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a> or verify a New Jersey agent's license with the <a href="https://www.state.nj.us/dobi/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a>.</div>
       </section>
     </main>
   );

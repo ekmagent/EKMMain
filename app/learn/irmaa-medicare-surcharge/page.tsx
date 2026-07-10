@@ -1308,6 +1308,22 @@ const faqs = [
     answer:
       "Yes. IRMAA is tied to your Part B and Part D premiums, not to how you receive your Medicare benefits. If you're enrolled in a Medicare Advantage plan, you still pay your Part B premium plus any IRMAA surcharge, and any Part D IRMAA is billed separately by Social Security even if drug coverage is included in your plan.",
   }
+,
+  {
+    question: "How do I appeal an IRMAA determination?",
+    answer:
+      "If you experienced a life-changing event that reduced your income, you can appeal by filing Form SSA-44 with the Social Security Administration. Qualifying events include marriage, divorce, death of a spouse, work stoppage or reduction, loss of pension, or loss of income-producing property. Submit the form with supporting documentation to your local SSA office. For free help reviewing your situation, call 855-559-1700.",
+  },
+  {
+    question: "Will IRMAA go away if my income drops?",
+    answer:
+      "Yes, but not immediately unless you file an appeal for a life-changing event. Otherwise, IRMAA is recalculated each year based on your tax return from two years prior. Once your lower income appears on the relevant return, Social Security will adjust or remove the surcharge automatically.",
+  },
+  {
+    question: "How will I know if I owe IRMAA?",
+    answer:
+      "The Social Security Administration mails you a predetermination notice if your income triggers IRMAA. The surcharge for Part B is deducted from your Social Security benefit or billed directly, and the Part D surcharge is billed separately from your drug plan premium. If you receive a notice and believe it is incorrect, you have the right to appeal.",
+  }
 ];
 
 export default function IrmaaPage() {

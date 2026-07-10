@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "best independent medicare broker near me new jersey | Free Consultation | MedicareYourself",
   description:
-    "Independent NJ Medicare broker Anthony Orner compares 20+ carriers across all 21 counties at no cost to you. Call 855-559-1700 for a free plan review.",
+    "Independent NJ Medicare broker Anthony Orner compares 20+ carriers across all 21 counties at no cost. Call 855-559-1700 for a free personalized plan review.",
   alternates: { canonical: "https://medicareyourself.com/services/best-independent-medicare-broker-near-me-new-jersey" },
   openGraph: {
     title:
@@ -189,6 +189,17 @@ const faqs = [
     question: "Do I have to work with a local NJ broker, or can I use one licensed in other states?",
     answer:
       "Anthony Orner is licensed in New Jersey and 34 additional states, which is helpful if you split time between NJ and another state or have family members enrolling elsewhere. You get one point of contact who can quote plans across multiple state markets.",
+  }
+,
+  {
+    question: "Does a New Jersey Medicare broker help after enrollment?",
+    answer:
+      "Yes. A good independent broker stays with you year after year for plan reviews during the Annual Enrollment Period, claim questions, and carrier changes. Anthony Orner reviews client plans annually to make sure the coverage still fits as drug formularies, networks, and premiums change.",
+  },
+  {
+    question: "How does Medigap pricing work in New Jersey?",
+    answer:
+      "New Jersey uses community rating for Medicare Supplement plans, meaning every enrollee in the same plan with the same carrier pays the same base rate regardless of age. Rates still vary between carriers, so comparing quotes across multiple companies is the main way to save money on the same standardized coverage.",
   }
 ];
 

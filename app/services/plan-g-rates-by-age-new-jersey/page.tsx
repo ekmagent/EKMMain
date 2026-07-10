@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Plan G Rates by Age in New Jersey | 2026 Costs | MedicareYourself",
   description:
-    "Compare 2026 Plan G rates by age in New Jersey. Licensed broker Anthony Orner shops top NJ Medigap carriers to find your lowest premium. Call 855-559-1700.",
+    "Compare 2026 Plan G rates by age in New Jersey. Licensed NJ broker Anthony Orner shops top Medigap carriers to find your lowest premium. Call 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/services/plan-g-rates-by-age-new-jersey` },
   openGraph: {
     title: "Plan G Rates by Age in New Jersey | 2026 Costs | MedicareYourself",
@@ -202,6 +202,17 @@ const faqs = [
     question: "Can Anthony Orner help me compare NJ Plan G rates by age?",
     answer:
       "Yes. Anthony Orner is a licensed Medicare insurance broker in New Jersey who shops multiple top-rated Medigap carriers to find the lowest Plan G premium for your age and county. There is no cost to you for the quote or enrollment assistance. Call 855-559-1700 to review your options.",
+  }
+,
+  {
+    question: "What is the Medigap Open Enrollment Period in New Jersey?",
+    answer:
+      "Your Medigap Open Enrollment Period is a one-time 6-month window that begins the month you are 65 or older and enrolled in Medicare Part B. During this period, NJ carriers must sell you any Plan G they offer at their best available rate regardless of health history. This is the ideal time to lock in Plan G coverage.",
+  },
+  {
+    question: "How does Anthony Orner compare Plan G rates across NJ carriers?",
+    answer:
+      "As a licensed independent broker in New Jersey and 34 other states, Anthony Orner runs your age, ZIP code, and tobacco status through multiple NJ Medigap carriers in one call. Because Plan G benefits are standardized by federal law, the only real differences are price, pricing method, and carrier stability. Call 855-559-1700 for a side-by-side quote.",
   }
 ];
 

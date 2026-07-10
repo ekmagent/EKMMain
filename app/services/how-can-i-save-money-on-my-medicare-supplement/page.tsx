@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "how can i save money on my medicare supplement | Free Rate Review | MedicareYourself",
   description:
-    "Save money on your Medicare Supplement by comparing carriers, stacking discounts, or switching plan letters. Call 855-559-1700 for a free rate review today.",
+    "Learn how to save on your Medicare Supplement by comparing carriers, stacking discounts, and reviewing rates yearly. Call 855-559-1700 for a free rate review.",
   alternates: { canonical: "https://medicareyourself.com/services/how-can-i-save-money-on-my-medicare-supplement" },
   openGraph: {
     title:
@@ -243,6 +243,22 @@ const faqs = [
     question: "Will changing from Plan F or Plan G to Plan N really save me money?",
     answer:
       "Plan N typically has a lower monthly premium than Plan G or Plan F in exchange for small copays at doctor visits and the ER, plus you pay the Part B deductible and any Part B excess charges. For people who don't visit the doctor often, the premium savings can outweigh the copays. We can run the numbers side by side so you see your real out-of-pocket picture.",
+  }
+,
+  {
+    question: "Why do Medicare Supplement premiums go up each year?",
+    answer:
+      "Insurance companies typically raise premiums based on medical inflation, claims experience, and how they price their policies (community-rated, issue-age-rated, or attained-age-rated). Attained-age policies generally increase as you get older. Reviewing your rate annually helps you catch increases early and shop for a better price on the same standardized benefits.",
+  },
+  {
+    question: "Are all Plan G policies really the same coverage?",
+    answer:
+      "Yes. Medigap plan letters are standardized by the federal government, so Plan G benefits are identical no matter which insurance company sells the policy. The only real difference between carriers is the premium and the company's rate-increase history, which is why comparing prices can lead to meaningful savings.",
+  },
+  {
+    question: "Can household or paid-in-full discounts really lower my premium?",
+    answer:
+      "Many carriers offer discounts for households where more than one adult is on the policy, or for paying annually instead of monthly. These discounts vary by company and state, so stacking them with a competitive base rate can reduce what you pay for identical coverage. Call 855-559-1700 for a free review of the discounts available in your state.",
   }
 ];
 
@@ -509,6 +525,7 @@ export default function HowCanISaveMoneyOnMyMedicareSupplement() {
             <div className="text-sm text-gray-600 mt-4">Need free one-on-one counseling? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a> for unbiased Medicare help in your state.</div>
             <div className="text-sm text-gray-600 mt-4">Need free one-on-one counseling? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a> for unbiased Medicare help in your state.</div>
             <div className="text-sm text-gray-600 mt-4">Free unbiased counseling: <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">State Health Insurance Assistance Program (SHIP)</a> offers one-on-one Medicare help in your state.</div>
+            <div className="text-sm text-gray-600 mt-4">For free one-on-one counseling, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
     </main>
   );

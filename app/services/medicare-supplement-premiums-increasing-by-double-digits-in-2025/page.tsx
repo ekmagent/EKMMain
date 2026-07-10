@@ -281,6 +281,22 @@ const faqs = [
     answer:
       "Yes, benefits for a given Medigap plan letter are standardized by federal law, so Plan G from one carrier covers the same services as Plan G from another. The only differences are the monthly premium, the carrier's rate increase history, and customer service. That's why comparing carriers is one of the most effective ways to lower your Medigap costs.",
   }
+,
+  {
+    question: "What should I do if I get a double-digit premium increase notice?",
+    answer:
+      "Don't panic and don't cancel your coverage before securing a replacement. Request a free rate review to compare other carriers offering the same Medigap plan letter, since benefits are standardized by federal law. If you're healthy enough to pass underwriting, switching carriers can often lower your premium without changing your coverage.",
+  },
+  {
+    question: "Will switching Medigap carriers change my doctors or hospitals?",
+    answer:
+      "No. Medigap plans work with any provider that accepts Original Medicare, so switching carriers does not affect your doctor or hospital network. You keep the same providers as long as they accept Medicare assignment.",
+  },
+  {
+    question: "Is there a best time of year to shop for a new Medicare Supplement?",
+    answer:
+      "You can shop for a Medigap plan any time of year — there is no annual enrollment window like Medicare Advantage. Many people review their coverage when they receive a renewal notice or rate increase letter from their carrier. Call 855-559-1700 for a free rate review.",
+  }
 ];
 
 export default function MedicareSupplementPremiumsIncreasing2025() {
