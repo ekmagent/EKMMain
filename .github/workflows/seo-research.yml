@@ -59,6 +59,14 @@ jobs:
           SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
         run: node scripts/orchestrator.js
 
+      # BUILD GATE — bot page edits must compile before anything is pushed.
+      # A single corrupted page (stray comma, 2026-04-23) blocked every
+      # production deploy for 11 weeks. Never push app/ changes unverified.
+      - name: Build gate — verify site still compiles
+        run: |
+          npm ci
+          npm run build
+
       - name: Commit signal logs and any page fixes
         run: |
           git config user.name "SEO Research Bot"
@@ -206,6 +214,12 @@ jobs:
 
       - name: Validate on-page SEO (Module 05)
         run: node scripts/validate-pages.js
+
+      # BUILD GATE — same rule as the daily job: no unverified app/ pushes.
+      - name: Build gate — verify site still compiles
+        run: |
+          npm ci
+          npm run build
 
       - name: Commit results and any page updates
         run: |
