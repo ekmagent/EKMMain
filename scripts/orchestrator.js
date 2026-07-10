@@ -230,6 +230,30 @@ function insertBeforeMainClose(source, snippet) {
   return source.slice(0, pos) + "      " + snippet + "\n      " + source.slice(pos);
 }
 
+/** Normalize a question into significant lowercase words for similarity checks */
+function normalizeQuestionWords(q) {
+  const STOPWORDS = new Set(["a", "an", "the", "is", "are", "do", "does", "can", "i", "my", "you", "your", "to", "of", "in", "on", "for", "with", "what", "how", "when", "will", "and", "or", "it", "if"]);
+  return String(q)
+    .toLowerCase()
+    .replace(/[^a-z0-9\s]/g, " ")
+    .split(/\s+/)
+    .filter((w) => w && !STOPWORDS.has(w));
+}
+
+/** True if two FAQ questions are near-duplicates (same first 6 normalized words, or Jaccard word overlap > 0.6) */
+function isSimilarQuestion(a, b) {
+  const wordsA = normalizeQuestionWords(a);
+  const wordsB = normalizeQuestionWords(b);
+  if (wordsA.length === 0 || wordsB.length === 0) return false;
+  if (wordsA.slice(0, 6).join(" ") === wordsB.slice(0, 6).join(" ")) return true;
+  const setA = new Set(wordsA);
+  const setB = new Set(wordsB);
+  let overlap = 0;
+  for (const w of setA) if (setB.has(w)) overlap++;
+  const union = setA.size + setB.size - overlap;
+  return union > 0 && overlap / union > 0.6;
+}
+
 function applyGapFill(source, suggestions) {
   let s = source;
 
@@ -257,24 +281,46 @@ function applyGapFill(source, suggestions) {
 
   // 4. Extra FAQs — append before closing ] of faqs array
   if (suggestions.extra_faqs && suggestions.extra_faqs.length > 0) {
-    const newFaqs = suggestions.extra_faqs
-      .slice(0, 3) // safety cap: max 3 per run
+    // Dedup: skip any FAQ whose question is a near-duplicate of one already on
+    // the page (or of another suggestion in this batch) — the bot used to
+    // re-append the same lightly-rephrased questions run after run.
+    // Hard cap: never grow a page past 12 FAQ entries via bot insertion.
+    const existingQuestions = [...s.matchAll(/question\s*:\s*"((?:[^"\\]|\\.)*)"/g)].map((m) => m[1]);
+    const room = Math.max(0, 12 - existingQuestions.length);
+    const accepted = [];
+    for (const f of suggestions.extra_faqs.slice(0, 3)) { // safety cap: max 3 per run
+      if (accepted.length >= room) break;
+      const q = String(f.question);
+      if (existingQuestions.some((eq) => isSimilarQuestion(eq, q))) continue;
+      if (accepted.some((a) => isSimilarQuestion(String(a.question), q))) continue;
+      accepted.push(f);
+    }
+
+    const newFaqs = accepted
       .map(
         (f) =>
           `  {\n    question: "${String(f.question).replace(/"/g, '\\"')}",\n    answer:\n      "${String(f.answer).replace(/"/g, '\\"')}",\n  }`
       )
       .join(",\n");
 
-    // Insert before the closing ]; of the faqs array.
+    // Insert before the closing ]; of the faqs array, consuming any trailing
+    // comma after the last existing entry — otherwise appending `,\n{...}`
+    // after `},` leaves a bare `,` line (a sparse array that breaks the build).
     // IMPORTANT: use a function replacement, not a string replacement — a string
     // replacement treats `$1`, `$&`, etc. in `newFaqs` as regex backreferences,
     // which silently corrupts any FAQ answer containing dollar amounts like
     // `$185` or `$1,676`. Function replacements insert the value verbatim.
-    const replaced = s.replace(
-      /\];[\s\n]*export default/,
-      () => `,\n${newFaqs}\n];\n\nexport default`
-    );
-    if (replaced !== s) s = replaced;
+    if (newFaqs) {
+      const replaced = s.replace(
+        /,?[\s\n]*\];[\s\n]*export default/,
+        (match, offset) => {
+          // Only prepend a comma when the array already has entries.
+          const lead = s.slice(0, offset).trimEnd().endsWith("[") ? "" : ",";
+          return `${lead}\n${newFaqs},\n];\n\nexport default`;
+        }
+      );
+      if (replaced !== s) s = replaced;
+    }
   }
 
   // 5. Meta description replacement — function callback for the same reason

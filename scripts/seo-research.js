@@ -131,6 +131,30 @@ function safeReplace(source, pattern, replacement) {
   return re.test(source) ? source.replace(re, replacement) : source;
 }
 
+/** Normalize a question into significant lowercase words for similarity checks */
+function normalizeQuestionWords(q) {
+  const STOPWORDS = new Set(["a", "an", "the", "is", "are", "do", "does", "can", "i", "my", "you", "your", "to", "of", "in", "on", "for", "with", "what", "how", "when", "will", "and", "or", "it", "if"]);
+  return String(q)
+    .toLowerCase()
+    .replace(/[^a-z0-9\s]/g, " ")
+    .split(/\s+/)
+    .filter((w) => w && !STOPWORDS.has(w));
+}
+
+/** True if two FAQ questions are near-duplicates (same first 6 normalized words, or Jaccard word overlap > 0.6) */
+function isSimilarQuestion(a, b) {
+  const wordsA = normalizeQuestionWords(a);
+  const wordsB = normalizeQuestionWords(b);
+  if (wordsA.length === 0 || wordsB.length === 0) return false;
+  if (wordsA.slice(0, 6).join(" ") === wordsB.slice(0, 6).join(" ")) return true;
+  const setA = new Set(wordsA);
+  const setB = new Set(wordsB);
+  let overlap = 0;
+  for (const w of setA) if (setB.has(w)) overlap++;
+  const union = setA.size + setB.size - overlap;
+  return union > 0 && overlap / union > 0.6;
+}
+
 /**
  * Apply Claude's suggestions to the page source code.
  * All substitutions are regex-only — we never eval LLM output.
@@ -168,15 +192,40 @@ function applyChanges(source, suggestions) {
 
   // 4. Append new FAQ entries before the closing ] of the faqs array
   if (suggestions.faqs && suggestions.faqs.length > 0) {
-    const newFaqs = suggestions.faqs
+    // Dedup: skip any FAQ whose question is a near-duplicate of one already on
+    // the page (or of another suggestion in this batch) — otherwise the weekly
+    // run re-appends the same lightly-rephrased questions forever.
+    // Hard cap: never grow a page past 12 FAQ entries via bot insertion.
+    const existingQuestions = [...s.matchAll(/question\s*:\s*"((?:[^"\\]|\\.)*)"/g)].map((m) => m[1]);
+    const room = Math.max(0, 12 - existingQuestions.length);
+    const accepted = [];
+    for (const f of suggestions.faqs) {
+      if (accepted.length >= room) break;
+      const q = String(f.question);
+      if (existingQuestions.some((eq) => isSimilarQuestion(eq, q))) continue;
+      if (accepted.some((a) => isSimilarQuestion(String(a.question), q))) continue;
+      accepted.push(f);
+    }
+
+    const newFaqs = accepted
       .map(
         (f) =>
           `  {\n    question: "${f.question.replace(/"/g, '\\"')}",\n    answer:\n      "${f.answer.replace(/"/g, '\\"')}",\n  }`
       )
       .join(",\n");
 
-    // Find the last }; that closes the faqs array and insert before it
-    s = safeReplace(s, /(\];[\s\n]*export default)/, `,\n${newFaqs}\n];\n\nexport default`);
+    // Insert before the closing ]; of the faqs array, consuming any trailing
+    // comma after the last existing entry — appending `,\n{...}` after `},`
+    // would leave a bare `,` line (a sparse array that breaks the build).
+    // Function replacement so `$` in FAQ text is inserted verbatim, never
+    // treated as a regex backreference.
+    if (newFaqs) {
+      s = safeReplace(s, /,?[\s\n]*\];[\s\n]*export default/, (match, offset) => {
+        // Only prepend a comma when the array already has entries.
+        const lead = s.slice(0, offset).trimEnd().endsWith("[") ? "" : ",";
+        return `${lead}\n${newFaqs},\n];\n\nexport default`;
+      });
+    }
   }
 
   return s;
