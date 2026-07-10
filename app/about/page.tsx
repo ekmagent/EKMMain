@@ -21,6 +21,15 @@ const personSchema = {
   name: "MedicareYourself",
   url: "https://medicareyourself.com",
   telephone: "+18555591700",
+  email: "anthony@easykindmedicare.com",
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: "1309 Route 70 West",
+    addressLocality: "Cherry Hill",
+    addressRegion: "NJ",
+    postalCode: "08002",
+    addressCountry: "US",
+  },
   description:
     "Independent Medicare insurance broker licensed in New Jersey and 34 other states. We provide free, unbiased Medicare Supplement and Medicare Advantage plan comparisons.",
   areaServed: ["New Jersey", "Florida", "Texas", "Pennsylvania", "Ohio", "Georgia"],

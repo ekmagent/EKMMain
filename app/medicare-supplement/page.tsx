@@ -142,6 +142,15 @@ export default function MedicareSupplementHub() {
             </p>
           </Link>
           <Link
+            href="/medicare-supplement/new-jersey/rate-index"
+            className="block border border-gray-200 rounded-lg p-5 hover:border-blue-400 hover:shadow-sm transition-all"
+          >
+            <h3 className="font-bold text-blue-800 mb-1">NJ Medigap Rate Index 2026</h3>
+            <p className="text-sm text-gray-600">
+              Original filed-rate dataset: lows, highs, spreads, and household discounts across every NJ carrier.
+            </p>
+          </Link>
+          <Link
             href="/medicare-supplement/pennsylvania"
             className="block border border-gray-200 rounded-lg p-5 hover:border-blue-400 hover:shadow-sm transition-all"
           >
