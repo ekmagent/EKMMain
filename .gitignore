@@ -46,5 +46,16 @@ next-env.d.ts
 # CSG carrier probes — commercially-licensed rate data; derived content only goes on pages
 /artifacts/csg-probes/
 
+# Local pack rank tracker results — competitive intel snapshots, can grow large
+/artifacts/local-pack/
+
 # CSG auth token cache — credential, never commit
 /scripts/.csg-token.json
+
+# Client rate reports + one-off quote scripts — contain client names/DOBs/ZIPs; repo is public
+/artifacts/csg-reports/
+/scripts/csg-debbie-08034.js
+/scripts/csg-couple-quote.js
+
+# Parasite SEO drafts — internal working copy, not site content
+/artifacts/parasite-drafts/

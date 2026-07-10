@@ -1,11 +1,12 @@
 name: SEO Autoresearch Loop
 
 on:
-  schedule:
-    # Daily 9am ET — citation oracle + SERP tracker
-    - cron: "0 14 * * *"
-    # Weekly Monday 9am ET — GSC fetch + content optimiser
-    - cron: "0 14 * * 1"
+  # DISABLED 2026-06-08 — automated cron removed to stop runaway Opus token
+  # spend (~$155/mo) and bot-corrupted commits to main. The pipeline pushed
+  # raw Opus output straight to main with no build gate, causing build
+  # failures and likely thin-content deindexing. Re-introduce automation one
+  # build-gated, cheap-model script at a time. Manual trigger still available
+  # below via workflow_dispatch; re-add a `schedule:` block here to resume.
   workflow_dispatch:
     inputs:
       run_mode:
