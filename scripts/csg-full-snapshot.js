@@ -39,10 +39,16 @@ const STATES = [
   { code: "NC", sampleZip: "28202", sampleCity: "Charlotte",    tobaccoNeutralOEP: false },
   { code: "TX", sampleZip: "77002", sampleCity: "Houston",      tobaccoNeutralOEP: false },
 ];
-const PLANS = ["G", "N", "HDG"];
-const AGES = [65, 67, 69];
-const GENDER = "F";
-const TOBACCO = "0"; // non-tobacco only — tobacco is a separate analysis
+// Plan G, Plan N, and Plan F are the plans worth tracking. F is federally
+// closed to people first eligible for Medicare on/after 2020-01-01 but is
+// still widely held by pre-2020 enrollees — rate filings and loss ratios
+// on F are relevant for existing policyholders weighing switch decisions.
+// A/K/L/M have <10 carriers filing; HDG can be added back if needed.
+const PLANS = ["G", "N", "F"];
+const AGES = [65, 67, 70, 75, 80];
+const GENDERS = ["F", "M"];
+// Tobacco: always run non-tobacco; also run tobacco=1 for states that rate
+// tobacco during OEP (skipped in states with tobacco-neutral OEP like NJ).
 const REQUEST_DELAY_MS = 500;
 
 const OUT_DIR = path.resolve(__dirname, "..", "artifacts", "csg-probes");
@@ -104,48 +110,18 @@ function deriveMarketTrend(medSuppMarketData) {
   return { national: byYearNational, byState: byYearByState };
 }
 
-/** Normalize a raw CSG quote — capture everything useful, including rate history. */
-function normalizeQuote(q) {
-  const cb = q?.company_base;
-  if (!cb?.name) return null;
-  const rate = q?.rate?.month;
-  if (!Number.isFinite(rate) || rate <= 0) return null;
-  const viewTypes = Array.isArray(q.view_type) ? q.view_type : [];
+// Carrier metadata registry — populated once per carrier during the run, not
+// duplicated per quote. Keeping this separate from per-quote rates keeps the
+// output JSON writable under Node's V8 string-length cap.
+const carrierRegistry = new Map(); // carrierName -> { ...metadata, marketTrend }
 
-  // rate_increases (quote-level) — array of { date, rate_increase }
-  const rateIncreases = Array.isArray(q.rate_increases)
-    ? q.rate_increases
-        .map((r) => ({
-          date: r.date ? String(r.date).slice(0, 10) : null,
-          increasePct: typeof r.rate_increase === "number" ? Math.round(r.rate_increase * 10000) / 100 : null, // as %
-        }))
-        .filter((r) => r.date && r.increasePct != null)
-        .sort((a, b) => a.date.localeCompare(b.date))
-    : [];
-
-  const ageIncreases = Array.isArray(q.age_increases) ? q.age_increases : [];
-
-  return {
-    // Quote fields
+function registerCarrier(cb) {
+  if (!cb?.name) return;
+  if (carrierRegistry.has(cb.name)) return; // already captured
+  carrierRegistry.set(cb.name, {
     carrierName: cb.name,
     carrierNameFull: cb.name_full || cb.name,
     naicCode: cb.naic || null,
-    plan: q.plan || null,
-    age: q.age || null,
-    gender: q.gender || null,
-    tobacco: q.tobacco === true || q.tobacco === "1",
-    rateMonthlyCents: rate,
-    rateMonthlyDollars: Math.round((rate / 100) * 100) / 100,
-    rateAnnualDollars: q.rate?.annual ? Math.round((q.rate.annual / 100) * 100) / 100 : null,
-    rateType: q.rate_type || null,
-    ratingClass: q.rating_class || null,
-    isHhd: viewTypes.includes("with_hhd"),
-    effectiveDate: q.effective_date ? String(q.effective_date).slice(0, 10) : null,
-    rateIncreases, // [{ date, increasePct }]
-    ageIncreases, // attained-age ramp array
-    discountCategory: q.discount_category || null,
-
-    // Company metadata (correct field names this time)
     amBestRating: cb.ambest_rating || null,
     amBestOutlook: cb.ambest_outlook || null,
     spRating: cb.sp_rating || null,
@@ -157,15 +133,54 @@ function normalizeQuote(q) {
     yearsInBusiness: cb.established_year ? new Date().getFullYear() - cb.established_year : null,
     parentCompanyName: cb.parent_company_base?.name || null,
     parentEstablishedYear: cb.parent_company_base?.established_year || null,
-
-    // State-specific marketing identity (important: underwriter vs. marketing name can differ)
     stateMarketingData: Array.isArray(cb.state_marketing_data) ? cb.state_marketing_data : [],
-
-    // 7-year claims/premiums/lives history — the loss-ratio gold
     marketTrend: deriveMarketTrend(cb.med_supp_market_data),
-
-    // E-app links
     eAppLink: cb.default_resources?.["medicare-supplement"]?.e_app_link || null,
+  });
+}
+
+/**
+ * Normalize a raw CSG quote — rate + filing fields only. Carrier metadata
+ * (AM Best, market history, etc.) is stored once per carrier in
+ * carrierRegistry, looked up by carrierName. This keeps the per-state JSON
+ * output compact enough to JSON.stringify without hitting V8's string cap.
+ */
+function normalizeQuote(q) {
+  const cb = q?.company_base;
+  if (!cb?.name) return null;
+  const rate = q?.rate?.month;
+  if (!Number.isFinite(rate) || rate <= 0) return null;
+  const viewTypes = Array.isArray(q.view_type) ? q.view_type : [];
+
+  registerCarrier(cb);
+
+  const rateIncreases = Array.isArray(q.rate_increases)
+    ? q.rate_increases
+        .map((r) => ({
+          date: r.date ? String(r.date).slice(0, 10) : null,
+          increasePct: typeof r.rate_increase === "number" ? Math.round(r.rate_increase * 10000) / 100 : null,
+        }))
+        .filter((r) => r.date && r.increasePct != null)
+        .sort((a, b) => a.date.localeCompare(b.date))
+    : [];
+
+  const ageIncreases = Array.isArray(q.age_increases) ? q.age_increases : [];
+
+  return {
+    carrierName: cb.name, // look up full metadata via snapshot.carriers[carrierName]
+    plan: q.plan || null,
+    age: q.age || null,
+    gender: q.gender || null,
+    tobacco: q.tobacco === true || q.tobacco === "1",
+    rateMonthlyDollars: Math.round((rate / 100) * 100) / 100,
+    rateAnnualDollars: q.rate?.annual ? Math.round((q.rate.annual / 100) * 100) / 100 : null,
+    rateType: q.rate_type || null,
+    ratingClass: q.rating_class || null,
+    isHhd: viewTypes.includes("with_hhd"),
+    effectiveDate: q.effective_date ? String(q.effective_date).slice(0, 10) : null,
+    rateIncreases, // [{ date, increasePct }] — per-product, stays on the quote
+    ageIncreases,
+    discountCategory: q.discount_category || null,
   };
 }
 
@@ -209,9 +224,13 @@ async function main() {
       "Raw carrier-level Medigap quote data. Commercially licensed via CSG Actuarial. " +
       "DO NOT publish raw rates or carrier rate tables on public pages. " +
       "Only derived, contextualized, broker-edited content may appear on published content.",
-    params: { gender: GENDER, tobacco: TOBACCO, ages: AGES, plans: PLANS },
+    params: { genders: GENDERS, ages: AGES, plans: PLANS, tobacco: "0/1 (state-dependent)" },
+    carriers: {}, // populated from carrierRegistry at end of run
     states: {},
   };
+
+  // Reset registry in case main is called more than once
+  carrierRegistry.clear();
 
   let totalCalls = 0;
   let totalCarrierRows = 0;
@@ -225,94 +244,122 @@ async function main() {
       plans: {},
     };
 
+    // Tobacco=1 only in states that rate tobacco during OEP
+    const tobaccoValues = state.tobaccoNeutralOEP ? ["0"] : ["0", "1"];
+
     for (const plan of PLANS) {
       snapshot.states[state.code].plans[plan] = {};
 
       for (const age of AGES) {
-        try {
-          const raw = await csgFetch("med_supp/quotes.json", {
-            zip5: state.sampleZip,
-            age: String(age),
-            gender: GENDER,
-            tobacco: TOBACCO,
-            plan: plan === "HDG" ? "HDG" : plan, // CSG uses "HDG" for High-Deductible Plan G
-            apply_discounts: "0",
-          });
-          totalCalls++;
-          await delay(REQUEST_DELAY_MS);
+        snapshot.states[state.code].plans[plan][String(age)] = {};
 
-          const normalized = Array.isArray(raw)
-            ? raw.map(normalizeQuote).filter(Boolean)
-            : [];
-          totalCarrierRows += normalized.length;
+        for (const gender of GENDERS) {
+          for (const tobacco of tobaccoValues) {
+            const bucketKey = `${gender}_tobacco${tobacco}`;
+            try {
+              const raw = await csgFetch("med_supp/quotes.json", {
+                zip5: state.sampleZip,
+                age: String(age),
+                gender,
+                tobacco,
+                plan,
+                apply_discounts: "0",
+              });
+              totalCalls++;
+              await delay(REQUEST_DELAY_MS);
 
-          const ctx = marketContextByCarrier(normalized);
+              const normalized = Array.isArray(raw)
+                ? raw.map(normalizeQuote).filter(Boolean)
+                : [];
+              totalCarrierRows += normalized.length;
 
-          snapshot.states[state.code].plans[plan][String(age)] = {
-            quotes: normalized,
-            market: {
-              count: ctx.count,
-              low: ctx.low,
-              high: ctx.high,
-              median: ctx.median,
-            },
-          };
+              const ctx = marketContextByCarrier(normalized);
 
-          console.log(
-            `  ${plan} age ${age}: ${normalized.length} quotes | ${ctx.count} distinct carriers | ` +
-            (ctx.low != null ? `$${ctx.low}–$${ctx.high} (median $${ctx.median})` : "no data")
-          );
-        } catch (err) {
-          console.error(`  ${plan} age ${age}: error — ${err.message}`);
+              snapshot.states[state.code].plans[plan][String(age)][bucketKey] = {
+                quotes: normalized,
+                market: {
+                  count: ctx.count,
+                  low: ctx.low,
+                  high: ctx.high,
+                  median: ctx.median,
+                },
+              };
+
+              // Only log the F/non-tobacco bucket to keep console output readable
+              if (gender === "F" && tobacco === "0") {
+                console.log(
+                  `  ${plan.padEnd(3)} age ${age}: ${String(normalized.length).padStart(3)} F-non-tob quotes | ${ctx.count} carriers | ` +
+                  (ctx.low != null ? `$${ctx.low}–$${ctx.high} (median $${ctx.median})` : "no data")
+                );
+              }
+            } catch (err) {
+              console.error(`  ${plan} age ${age} ${gender} tob=${tobacco}: error — ${err.message}`);
+            }
+          }
         }
       }
     }
   }
 
+  // Flatten registry into snapshot.carriers (keyed by carrier name) so per-quote
+  // entries can look up full metadata without duplicating it in every row.
+  for (const [name, data] of carrierRegistry.entries()) {
+    snapshot.carriers[name] = data;
+  }
+
   // Write full snapshot
   fs.writeFileSync(SNAPSHOT_FILE, JSON.stringify(snapshot, null, 2) + "\n", "utf8");
   console.log(`\n✓ Full snapshot: ${path.relative(process.cwd(), SNAPSHOT_FILE)}`);
-  console.log(`  ${totalCalls} API calls · ${totalCarrierRows} carrier-rate rows captured`);
+  console.log(`  ${totalCalls} API calls · ${totalCarrierRows} carrier-rate rows · ${carrierRegistry.size} distinct carriers`);
 
   // Build per-carrier slices with state-by-state market context
-  const perCarrier = new Map(); // carrierName -> { ...metadata, states: { PA: { plans: {...}, ages: {...} } } }
+  // Iterates over (state × plan × age × gender/tobacco bucket).
+  const perCarrier = new Map();
   for (const [stateCode, stateData] of Object.entries(snapshot.states)) {
     for (const [plan, ageMap] of Object.entries(stateData.plans)) {
-      for (const [age, entry] of Object.entries(ageMap)) {
-        const ranked = marketContextByCarrier(entry.quotes || []).ranked;
-        for (const row of ranked) {
-          if (!perCarrier.has(row.carrierName)) {
-            perCarrier.set(row.carrierName, {
-              carrierName: row.carrierName,
-              naicCode: row.naicCode,
-              naicGroup: row.naicGroup,
-              amBestRating: row.amBestRating,
-              amBestDate: row.amBestDate,
-              parentCompany: row.parentCompany,
-              establishedYear: row.establishedYear,
-              yearsInBusiness: row.yearsInBusiness,
-              stateOfDomicile: row.stateOfDomicile,
-              entries: [],
+      for (const [age, bucketMap] of Object.entries(ageMap)) {
+        for (const [bucketKey, entry] of Object.entries(bucketMap)) {
+          const [gender, tobaccoPart] = bucketKey.split("_");
+          const tobacco = tobaccoPart === "tobacco1";
+          const ranked = marketContextByCarrier(entry.quotes || []).ranked;
+          for (const row of ranked) {
+            if (!perCarrier.has(row.carrierName)) {
+              const meta = carrierRegistry.get(row.carrierName) || {};
+              perCarrier.set(row.carrierName, {
+                carrierName: row.carrierName,
+                naicCode: meta.naicCode || null,
+                amBestRating: meta.amBestRating || null,
+                amBestOutlook: meta.amBestOutlook || null,
+                spRating: meta.spRating || null,
+                establishedYear: meta.establishedYear || null,
+                yearsInBusiness: meta.yearsInBusiness || null,
+                customerSatisfactionRatio: meta.customerSatisfactionRatio ?? null,
+                marketTrend: meta.marketTrend || null,
+                stateMarketingData: meta.stateMarketingData || [],
+                entries: [],
+              });
+            }
+            const carrier = perCarrier.get(row.carrierName);
+            carrier.entries.push({
+              state: stateCode,
+              plan,
+              age: parseInt(age, 10),
+              gender,
+              tobacco,
+              monthlyRate: row.rateMonthlyDollars,
+              marketRank: row.rank,
+              marketOf: entry.market?.count ?? null,
+              marketLow: entry.market?.low ?? null,
+              marketHigh: entry.market?.high ?? null,
+              marketMedian: entry.market?.median ?? null,
+              deltaVsLow: entry.market?.low != null
+                ? Math.round((row.rateMonthlyDollars - entry.market.low) * 100) / 100
+                : null,
+              pctVsLow: entry.market?.low
+                ? Math.round(((row.rateMonthlyDollars / entry.market.low - 1) * 100) * 10) / 10
+                : null,
             });
           }
-          const carrier = perCarrier.get(row.carrierName);
-          carrier.entries.push({
-            state: stateCode,
-            plan,
-            age: parseInt(age, 10),
-            monthlyRate: row.rateMonthlyDollars,
-            marketRank: row.rank,
-            marketOf: entry.market?.count ?? null,
-            marketLow: entry.market?.low ?? null,
-            marketHigh: entry.market?.high ?? null,
-            marketMedian: entry.market?.median ?? null,
-            deltaVsLow: entry.market?.low != null
-              ? Math.round((row.rateMonthlyDollars - entry.market.low) * 100) / 100
-              : null,
-            pctVsLow: entry.market?.low
-              ? Math.round(((row.rateMonthlyDollars / entry.market.low - 1) * 100) * 10) / 10
-              : null,
-          });
         }
       }
     }
@@ -327,14 +374,17 @@ async function main() {
   console.log(`✓ ${perCarrier.size} per-carrier files in ${path.relative(process.cwd(), BY_CARRIER_DIR)}/`);
 
   // Write carrier index (sorted by # of states they appear in)
-  const indexRows = [...perCarrier.values()].map((c) => ({
-    name: c.carrierName,
-    slug: slugify(c.carrierName),
-    states: [...new Set(c.entries.map((e) => e.state))].sort(),
-    amBest: c.amBestRating || "—",
-    established: c.establishedYear || "—",
-    totalEntries: c.entries.length,
-  })).sort((a, b) => b.states.length - a.states.length || a.name.localeCompare(b.name));
+  const indexRows = [...perCarrier.values()].map((c) => {
+    const meta = carrierRegistry.get(c.carrierName) || {};
+    return {
+      name: c.carrierName,
+      slug: slugify(c.carrierName),
+      states: [...new Set(c.entries.map((e) => e.state))].sort(),
+      amBest: meta.amBestRating || c.amBestRating || "—",
+      established: meta.establishedYear || c.establishedYear || "—",
+      totalEntries: c.entries.length,
+    };
+  }).sort((a, b) => b.states.length - a.states.length || a.name.localeCompare(b.name));
 
   const indexMd = [
     `# CSG Snapshot — Carrier Index`,
@@ -342,7 +392,9 @@ async function main() {
     `**As of:** ${snapshot.asOfDate}`,
     `**States probed:** ${STATES.map((s) => s.code).join(", ")}`,
     `**Plans:** ${PLANS.join(", ")}`,
-    `**Ages:** ${AGES.join(", ")} (Female, non-tobacco)`,
+    `**Ages:** ${AGES.join(", ")}`,
+    `**Genders:** ${GENDERS.join(", ")}`,
+    `**Tobacco:** non-tobacco always; tobacco also pulled in states rating tobacco during OEP`,
     `**Total carriers discovered:** ${perCarrier.size}`,
     ``,
     `Sorted by number of states each carrier appears in.`,
