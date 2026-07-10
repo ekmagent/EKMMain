@@ -21,6 +21,14 @@ const TARGET_QUERIES = [
   "best medicare supplement plans pennsylvania",
   "medicare parts a b c d explained",
   "medigap open enrollment new jersey",
+  // Carrier-review + high-intent queries — added 2026-07-10 with the new pages
+  "best plan g rates in new jersey",
+  "mutual of omaha medigap review",
+  "humana medicare supplement review",
+  "medico medicare supplement review",
+  "bankers fidelity medicare supplement review",
+  "woodmenlife medicare supplement review",
+  "mutual of omaha plan g rate increase history",
 ];
 
 async function queryPerplexity(query, apiKey) {

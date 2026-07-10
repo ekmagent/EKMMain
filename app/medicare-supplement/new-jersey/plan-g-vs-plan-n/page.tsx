@@ -98,7 +98,7 @@ export default function PlanGvsPlanNPage() {
           Medigap Plan G vs Plan N in New Jersey (2026): Which Is Better?
         </h1>
         <p className="text-sm text-gray-500 mt-2">By <strong>Anthony Orner</strong>, Licensed Medicare Insurance Broker — NJ &amp; 34 states</p>
-        <p className="text-xs text-gray-400 mb-6">Last reviewed: April 2026 · Sources: CMS.gov, NJ DOBI</p>
+        <p className="text-xs text-gray-400 mb-6">Last reviewed: July 10, 2026 · Sources: CMS.gov, NJ DOBI, CSG Actuarial filed rates</p>
 
         <div className="bg-amber-50 border border-amber-200 rounded-xl p-5 mb-8">
           <p className="font-semibold text-gray-900 mb-2">What's Different for NJ Plan G vs Plan N in 2026</p>
@@ -155,6 +155,45 @@ export default function PlanGvsPlanNPage() {
         </p>
         <p className="text-gray-700 leading-relaxed mb-4">
           The scenario where Plan N clearly wins: you are 65–70, in excellent health, see your primary care doctor twice a year, and rarely visit specialists. In that case, the premium savings accumulate without being offset by copays.
+        </p>
+
+        <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">What Plan G and Plan N Actually Cost in New Jersey (2026 Filed Rates)</h2>
+        <p className="text-gray-700 leading-relaxed mb-4">
+          Based on CSG Actuarial filed-rate data (April 2026, age 65, ZIP 08002 Cherry Hill, no household discount), New Jersey Plan G premiums run from <strong>$147.88 to $260.98/month across 19 carriers</strong> — a $113/month spread for federally identical benefits. Plan N runs <strong>$106.57 to $176.72/month across 20 carriers</strong>. The carrier you pick matters more than the plan letter.
+        </p>
+        <div className="overflow-x-auto mb-4">
+          <table className="w-full text-sm border-collapse">
+            <thead>
+              <tr className="bg-gray-900 text-white">
+                <th className="text-left px-4 py-3 rounded-tl-lg">NJ Plan G at 65 (filed rates)</th>
+                <th className="text-left px-4 py-3">Monthly premium</th>
+                <th className="text-left px-4 py-3 rounded-tr-lg">Market rank</th>
+              </tr>
+            </thead>
+            <tbody>
+              {[
+                ["Cheapest filed Plan G", "$147.88", "1 of 19"],
+                ["Medico (Wellabe)", "$165.47", "5 of 19"],
+                ["NJ market median", "$179.94", "—"],
+                ["Humana", "$182.60", "13 of 19"],
+                ["WoodmenLife", "$205.29", "16 of 19"],
+                ["Most expensive filed Plan G", "$260.98", "19 of 19"],
+              ].map(([label, rate, rank], i) => (
+                <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
+                  <td className="px-4 py-3 text-gray-700 border-b border-gray-100">{label}</td>
+                  <td className="px-4 py-3 text-gray-900 font-medium border-b border-gray-100">{rate}</td>
+                  <td className="px-4 py-3 text-gray-600 border-b border-gray-100">{rank}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <p className="text-xs text-gray-500 mb-4">
+          Source: CSG Actuarial filed rates, April 2026 · age 65, female, non-tobacco, ZIP 08002 · Full carrier-by-carrier analysis in our{" "}
+          <Link href="/medicare-supplement/medico-medigap-review" className="text-blue-600 hover:underline">Medico</Link>,{" "}
+          <Link href="/medicare-supplement/humana-medigap-review" className="text-blue-600 hover:underline">Humana</Link>, and{" "}
+          <Link href="/medicare-supplement/woodmenlife-medigap-review" className="text-blue-600 hover:underline">WoodmenLife</Link> reviews, or see{" "}
+          <Link href="/medicare-supplement/new-jersey/pricing-ages-65-69" className="text-blue-600 hover:underline">NJ Plan G &amp; N pricing for ages 65–69</Link>.
         </p>
 
         <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">New Jersey&apos;s Community Rating: Why It Changes the Calculation</h2>

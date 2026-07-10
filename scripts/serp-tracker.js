@@ -27,6 +27,14 @@ const TARGET_QUERIES = [
   "how to sign up for medicare",
   "medicare help low income",
   "irmaa medicare surcharge",
+  // Carrier-review + high-intent queries — added 2026-07-10 with the new pages
+  "best plan g rates in new jersey",
+  "mutual of omaha medigap review",
+  "humana medicare supplement review",
+  "medico medicare supplement review",
+  "bankers fidelity medicare supplement review",
+  "woodmenlife medicare supplement review",
+  "compare medigap policies",
 ];
 
 async function serpSearch(query, apiKey) {
