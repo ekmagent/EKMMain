@@ -98,6 +98,11 @@ export default function KeywordChecker() {
   return (
     <div style={s.page}>
       <div style={s.container}>
+        <nav style={{ display: "flex", gap: "1rem", marginBottom: "1.5rem", fontSize: "0.875rem" }}>
+          <a href="/tools/keyword-checker" style={{ color: "#fff", fontWeight: 600 }}>Keyword Checker</a>
+          <a href="/tools/local-pack" style={{ color: "#888", textDecoration: "none" }}>Local Pack Tracker</a>
+          <a href="/tools/autoresearch" style={{ color: "#888", textDecoration: "none" }}>Autoresearch</a>
+        </nav>
         <div style={s.header}>
           <h1 style={s.title}>Keyword Checker</h1>
         <p className="text-sm text-gray-500 mt-2">By <strong>Anthony Orner</strong>, Licensed Medicare Insurance Broker — NJ &amp; 34 states</p>
