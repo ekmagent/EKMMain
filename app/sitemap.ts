@@ -4,8 +4,21 @@ import fs from "fs";
 import path from "path";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  /** Return the file mtime for a page route, or fall back to today. */
+  // Git-derived last-commit dates, committed via scripts/build-page-dates.js.
+  // File mtimes are checkout time in CI, which would falsely mark every page
+  // as changed on every deploy — lastmod must only move when content does.
+  let pageDates: Record<string, string> = {};
+  try {
+    pageDates = JSON.parse(
+      fs.readFileSync(path.join(process.cwd(), "page-dates.json"), "utf8")
+    );
+  } catch {
+    // page-dates.json missing — fall back to mtime below
+  }
+
+  /** Return the last real content change for a page route. */
   function pageMtime(routePath: string): Date {
+    if (pageDates[routePath]) return new Date(pageDates[routePath]);
     try {
       const filePath = path.join(process.cwd(), "app", routePath, "page.tsx");
       return fs.statSync(filePath).mtime;
@@ -24,6 +37,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/medicare-supplement/new-jersey/vs-medicare-advantage`, lastModified: pageMtime("medicare-supplement/new-jersey/vs-medicare-advantage"), changeFrequency: "weekly", priority: 0.8 },
     { url: `${SITE_URL}/medicare-supplement/new-jersey/turning-65`, lastModified: pageMtime("medicare-supplement/new-jersey/turning-65"), changeFrequency: "weekly", priority: 0.8 },
     { url: `${SITE_URL}/medicare-supplement/pennsylvania`, lastModified: pageMtime("medicare-supplement/pennsylvania"), changeFrequency: "weekly", priority: 0.9 },
+    { url: `${SITE_URL}/medicare-supplement`, lastModified: pageMtime("medicare-supplement"), changeFrequency: "weekly", priority: 0.9 },
     { url: `${SITE_URL}/medicare-supplement/switch-carriers`, lastModified: pageMtime("medicare-supplement/switch-carriers"), changeFrequency: "monthly", priority: 0.8 },
     { url: `${SITE_URL}/medicare-supplement/bankers-fidelity-review`, lastModified: pageMtime("medicare-supplement/bankers-fidelity-review"), changeFrequency: "monthly", priority: 0.8 },
     { url: `${SITE_URL}/medicare-supplement/compare-policies`, lastModified: pageMtime("medicare-supplement/compare-policies"), changeFrequency: "monthly", priority: 0.9 },

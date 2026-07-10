@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className="bg-[#F6FAF8] border-t border-[#D0E4DE] mt-20">
       <div className="max-w-5xl mx-auto px-6 py-14">
-        <div className="grid md:grid-cols-3 gap-10 mb-10">
+        <div className="grid md:grid-cols-4 gap-10 mb-10">
 
           <div>
             <span className="text-lg font-black tracking-tight text-[#2D6E5F]">
@@ -40,6 +40,20 @@ export default function Footer() {
               <li><Link href="/learn/irmaa-medicare-surcharge" className="hover:text-[#2D6E5F] transition-colors">IRMAA Medicare Surcharge</Link></li>
               <li><Link href="/contact" className="hover:text-[#2D6E5F] transition-colors">Contact Us</Link></li>
               <li><Link href="/quote" className="hover:text-[#2D6E5F] transition-colors">Get a Free Quote</Link></li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="text-sm font-bold text-[#1C2B27] uppercase tracking-wide mb-4">Carrier Reviews</h3>
+            <ul className="space-y-3 text-sm text-[#3A5048]">
+              <li><Link href="/medicare-supplement" className="hover:text-[#2D6E5F] transition-colors">Medigap Hub — All Guides</Link></li>
+              <li><Link href="/medicare-supplement/mutual-of-omaha-medigap-review" className="hover:text-[#2D6E5F] transition-colors">Mutual of Omaha Review</Link></li>
+              <li><Link href="/medicare-supplement/humana-medigap-review" className="hover:text-[#2D6E5F] transition-colors">Humana Review</Link></li>
+              <li><Link href="/medicare-supplement/medico-medigap-review" className="hover:text-[#2D6E5F] transition-colors">Medico Review</Link></li>
+              <li><Link href="/medicare-supplement/bankers-fidelity-review" className="hover:text-[#2D6E5F] transition-colors">Bankers Fidelity Review</Link></li>
+              <li><Link href="/medicare-supplement/woodmenlife-medigap-review" className="hover:text-[#2D6E5F] transition-colors">WoodmenLife Review</Link></li>
+              <li><Link href="/medicare-supplement/compare-policies" className="hover:text-[#2D6E5F] transition-colors">Compare Medigap Policies</Link></li>
+              <li><Link href="/medicare-supplement/switch-carriers" className="hover:text-[#2D6E5F] transition-colors">Switch Medigap Carriers</Link></li>
             </ul>
           </div>
 
