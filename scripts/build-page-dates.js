@@ -22,10 +22,19 @@ const root = path.join(__dirname, "..");
 const appDir = path.join(root, "app");
 const outFile = path.join(root, "page-dates.json");
 
-function gitAvailable() {
+function fullHistoryAvailable() {
+  // CI clones are shallow — `git log -1 -- file` would return HEAD's date for
+  // every file, stamping today on all 200+ pages. Only regenerate locally.
+  if (process.env.VERCEL || process.env.CI) return false;
   try {
     execSync("git rev-parse --is-inside-work-tree", { cwd: root, stdio: "pipe" });
-    return true;
+    const shallow = execSync("git rev-parse --is-shallow-repository", {
+      cwd: root,
+      stdio: "pipe",
+    })
+      .toString()
+      .trim();
+    return shallow !== "true";
   } catch {
     return false;
   }
@@ -57,8 +66,8 @@ function gitDate(file) {
   }
 }
 
-if (!gitAvailable()) {
-  console.log("page-dates.json: no git history here, keeping committed file");
+if (!fullHistoryAvailable()) {
+  console.log("page-dates.json: no full git history here (CI/shallow), keeping committed file");
   process.exit(0);
 }
 
