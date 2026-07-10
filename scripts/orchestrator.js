@@ -311,15 +311,23 @@ function applyGapFill(source, suggestions) {
     // which silently corrupts any FAQ answer containing dollar amounts like
     // `$185` or `$1,676`. Function replacements insert the value verbatim.
     if (newFaqs) {
-      const replaced = s.replace(
-        /,?[\s\n]*\];[\s\n]*export default/,
-        (match, offset) => {
+      // Anchor on the faqs array itself, not "the last array before export
+      // default" — any other const array declared after faqs would otherwise
+      // silently receive the FAQ objects (valid JS, so it would even build).
+      const faqsStart = s.search(/const faqs\s*(?::[^=]+)?=\s*\[/);
+      if (faqsStart !== -1) {
+        const closeRe = /,?[ \t]*\n\];/g;
+        closeRe.lastIndex = faqsStart;
+        const m = closeRe.exec(s);
+        if (m) {
           // Only prepend a comma when the array already has entries.
-          const lead = s.slice(0, offset).trimEnd().endsWith("[") ? "" : ",";
-          return `${lead}\n${newFaqs},\n];\n\nexport default`;
+          const lead = s.slice(0, m.index).trimEnd().endsWith("[") ? "" : ",";
+          s =
+            s.slice(0, m.index) +
+            `${lead}\n${newFaqs},\n];` +
+            s.slice(m.index + m[0].length);
         }
-      );
-      if (replaced !== s) s = replaced;
+      }
     }
   }
 

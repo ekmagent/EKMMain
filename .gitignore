@@ -52,10 +52,9 @@ next-env.d.ts
 # CSG auth token cache — credential, never commit
 /scripts/.csg-token.json
 
-# Client rate reports + one-off quote scripts — contain client names/DOBs/ZIPs; repo is public
+# Client rate reports + one-off quote scripts — never public
 /artifacts/csg-reports/
-/scripts/csg-debbie-08034.js
-/scripts/csg-couple-quote.js
+/scripts/client-quotes/
 
 # Parasite SEO drafts — internal working copy, not site content
 /artifacts/parasite-drafts/

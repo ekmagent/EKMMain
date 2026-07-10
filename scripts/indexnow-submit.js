@@ -45,7 +45,7 @@ async function main() {
       urlList: urlList.slice(0, 10000),
     }),
   });
-  console.log(`IndexNow: submitted ${urlList.length} URLs — HTTP ${res.status}`);
+  console.log(`IndexNow: submitted ${Math.min(urlList.length, 10000)} URLs — HTTP ${res.status}`);
   if (!res.ok) console.error(await res.text());
 }
 

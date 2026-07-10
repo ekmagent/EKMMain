@@ -220,11 +220,23 @@ function applyChanges(source, suggestions) {
     // Function replacement so `$` in FAQ text is inserted verbatim, never
     // treated as a regex backreference.
     if (newFaqs) {
-      s = safeReplace(s, /,?[\s\n]*\];[\s\n]*export default/, (match, offset) => {
-        // Only prepend a comma when the array already has entries.
-        const lead = s.slice(0, offset).trimEnd().endsWith("[") ? "" : ",";
-        return `${lead}\n${newFaqs},\n];\n\nexport default`;
-      });
+      // Anchor on the faqs array itself, not "the last array before export
+      // default" — any other const array declared after faqs would otherwise
+      // silently receive the FAQ objects (valid JS, so it would even build).
+      const faqsStart = s.search(/const faqs\s*(?::[^=]+)?=\s*\[/);
+      if (faqsStart !== -1) {
+        const closeRe = /,?[ \t]*\n\];/g;
+        closeRe.lastIndex = faqsStart;
+        const m = closeRe.exec(s);
+        if (m) {
+          // Only prepend a comma when the array already has entries.
+          const lead = s.slice(0, m.index).trimEnd().endsWith("[") ? "" : ",";
+          s =
+            s.slice(0, m.index) +
+            `${lead}\n${newFaqs},\n];` +
+            s.slice(m.index + m[0].length);
+        }
+      }
     }
   }
 

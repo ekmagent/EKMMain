@@ -22,10 +22,11 @@ on:
 jobs:
   daily-signals:
     runs-on: ubuntu-latest
-    # Run on daily cron, manual "daily" or "all" trigger
+    # Manual "daily" or "all" trigger only (cron removed 2026-06-08).
+    # If a schedule: block is ever re-added, discriminate by cron string here —
+    # a bare `github.event_name == 'schedule'` also fires on the weekly cron.
     if: |
-      github.event_name == 'workflow_dispatch' && (github.event.inputs.run_mode == 'daily' || github.event.inputs.run_mode == 'all') ||
-      github.event_name == 'schedule'
+      github.event_name == 'workflow_dispatch' && (github.event.inputs.run_mode == 'daily' || github.event.inputs.run_mode == 'all')
     permissions:
       contents: write
 
@@ -69,18 +70,18 @@ jobs:
 
       - name: Commit signal logs and any page fixes
         run: |
+          node scripts/stamp-page-dates.js
           git config user.name "SEO Research Bot"
           git config user.email "bot@medicareyourself.com"
-          git add citation-log.tsv serp-log.tsv orchestrator-log.tsv app/
+          git add citation-log.tsv serp-log.tsv orchestrator-log.tsv page-dates.json app/
           git diff --cached --quiet || git commit -m "SEO signals + quality fixes: $(date +'%Y-%m-%d')"
           git push
 
   weekly-optimiser:
     runs-on: ubuntu-latest
-    # Run only on Monday cron or manual "weekly" or "all" trigger
+    # Manual "weekly" or "all" trigger only (cron removed 2026-06-08).
     if: |
-      github.event_name == 'workflow_dispatch' && (github.event.inputs.run_mode == 'weekly' || github.event.inputs.run_mode == 'all') ||
-      (github.event_name == 'schedule' && github.event.schedule == '0 14 * * 1')
+      github.event_name == 'workflow_dispatch' && (github.event.inputs.run_mode == 'weekly' || github.event.inputs.run_mode == 'all')
     permissions:
       contents: write
 
@@ -223,9 +224,10 @@ jobs:
 
       - name: Commit results and any page updates
         run: |
+          node scripts/stamp-page-dates.js
           git config user.name "SEO Research Bot"
           git config user.email "bot@medicareyourself.com"
-          git add results.tsv gsc-data.json gsc-keyword-opportunities.tsv faq-index.json faq-build-log.tsv bing-grounding.json bing-grounding-log.tsv ga4-ai-traffic.json ga4-ai-traffic-log.tsv compact-keywords-log.tsv compact-keywords-state.json compact-pages-log.tsv competitor-analysis-log.tsv competitor-analysis-state.json press-releases/ press-release-log.tsv press-release-state.json artifacts/ artifact-log.tsv artifact-state.json video-scripts/ video-seo-state.json video-seo-log.tsv competitor-videos/ competitor-videos-state.json competitor-videos-log.tsv x-threads/ x-threads-state.json x-threads-log.tsv social-posts/ social-posts-state.json social-posts-log.tsv expert-quotes/ expert-quotes-state.json expert-quotes-log.tsv directory-log.tsv site-audit-log.tsv screaming-frog-log.tsv page-validation-report.tsv change-log.tsv moz-usage.json app/
+          git add page-dates.json results.tsv gsc-data.json gsc-keyword-opportunities.tsv faq-index.json faq-build-log.tsv bing-grounding.json bing-grounding-log.tsv ga4-ai-traffic.json ga4-ai-traffic-log.tsv compact-keywords-log.tsv compact-keywords-state.json compact-pages-log.tsv competitor-analysis-log.tsv competitor-analysis-state.json press-releases/ press-release-log.tsv press-release-state.json artifacts/ artifact-log.tsv artifact-state.json video-scripts/ video-seo-state.json video-seo-log.tsv competitor-videos/ competitor-videos-state.json competitor-videos-log.tsv x-threads/ x-threads-state.json x-threads-log.tsv social-posts/ social-posts-state.json social-posts-log.tsv expert-quotes/ expert-quotes-state.json expert-quotes-log.tsv directory-log.tsv site-audit-log.tsv screaming-frog-log.tsv page-validation-report.tsv change-log.tsv moz-usage.json app/
           git diff --cached --quiet || git commit -m "SEO autoresearch: weekly update $(date +'%Y-%m-%d')"
           git push
 

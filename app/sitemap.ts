@@ -45,7 +45,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/medicare-supplement/medico-medigap-review`, lastModified: pageMtime("medicare-supplement/medico-medigap-review"), changeFrequency: "monthly", priority: 0.9 },
     { url: `${SITE_URL}/medicare-supplement/mutual-of-omaha-medigap-review`, lastModified: pageMtime("medicare-supplement/mutual-of-omaha-medigap-review"), changeFrequency: "monthly", priority: 0.9 },
     { url: `${SITE_URL}/medicare-supplement/woodmenlife-medigap-review`, lastModified: pageMtime("medicare-supplement/woodmenlife-medigap-review"), changeFrequency: "monthly", priority: 0.9 },
-    { url: `${SITE_URL}/medicare-supplement/new-jersey/enrollment`, lastModified: pageMtime("medicare-supplement/new-jersey/enrollment"), changeFrequency: "monthly", priority: 0.8 },
     { url: `${SITE_URL}/learn`, lastModified: pageMtime("learn"), changeFrequency: "weekly", priority: 0.7 },
     { url: `${SITE_URL}/learn/what-is-medigap`, lastModified: pageMtime("learn/what-is-medigap"), changeFrequency: "monthly", priority: 0.7 },
     { url: `${SITE_URL}/learn/medicare-enrollment-periods`, lastModified: pageMtime("learn/medicare-enrollment-periods"), changeFrequency: "monthly", priority: 0.7 },

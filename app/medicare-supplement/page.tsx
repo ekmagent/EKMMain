@@ -194,10 +194,10 @@ export default function MedicareSupplementHub() {
             </p>
           </Link>
           <Link
-            href="/medicare-supplement/new-jersey/enrollment"
+            href="/learn/how-to-enroll-in-a-medicare-supplement-plan"
             className="block border border-gray-200 rounded-lg p-5 hover:border-blue-400 hover:shadow-sm transition-all"
           >
-            <h3 className="font-bold text-blue-800 mb-1">NJ Medigap Enrollment Guide</h3>
+            <h3 className="font-bold text-blue-800 mb-1">Medigap Enrollment Guide</h3>
             <p className="text-sm text-gray-600">
               Step-by-step: choosing a plan letter, picking a carrier, and applying at the right time.
             </p>
