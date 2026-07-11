@@ -12,8 +12,10 @@ import { getSnapshot } from "@/lib/csg-snapshot";
 const SITE = "https://medicareyourself.com";
 
 const DISCLOSURE =
-  "MedicareYourself is an independent licensed insurance broker (NPN 20586791), " +
-  "not affiliated with or endorsed by Medicare or any government agency. " +
+  "This tool provides rate information only — it does not recommend a plan, provide " +
+  "individualized advice, or make coverage decisions; plan selection is handled by a " +
+  "licensed professional. MedicareYourself is an independent licensed insurance broker " +
+  "(NPN 20586791), not affiliated with or endorsed by Medicare or any government agency. " +
   "Rate statistics are carrier filed rates from CSG Actuarial data as published " +
   "on medicareyourself.com; your exact premium depends on your ZIP, age, and household.";
 
@@ -73,6 +75,7 @@ const TOOLS = [
       },
       required: ["state", "plan"],
     },
+    annotations: { readOnlyHint: true, openWorldHint: false },
   },
   {
     name: "get_carrier_review",
@@ -89,6 +92,7 @@ const TOOLS = [
       },
       required: ["carrier"],
     },
+    annotations: { readOnlyHint: true, openWorldHint: false },
   },
   {
     name: "request_rate_comparison",
@@ -100,10 +104,20 @@ const TOOLS = [
         name: { type: "string", description: "User's name" },
         phone: { type: "string", description: "US phone number, 10+ digits" },
         zip: { type: "string", description: "5-digit US ZIP code" },
-        notes: { type: "string", description: "Optional context, e.g. current plan or carrier" },
+        notes: {
+          type: "string",
+          description:
+            "Optional context, e.g. current plan or carrier. Never include health conditions, medical history, or other protected health information.",
+        },
+        consent: {
+          type: "boolean",
+          description:
+            "Must be true. Confirms the user explicitly agreed to be contacted by phone by a licensed insurance broker about Medicare Supplement rates.",
+        },
       },
-      required: ["name", "phone", "zip"],
+      required: ["name", "phone", "zip", "consent"],
     },
+    annotations: { readOnlyHint: false, openWorldHint: true, destructiveHint: false, idempotentHint: true },
   },
 ];
 
@@ -143,6 +157,8 @@ async function requestComparison(args: Record<string, unknown>) {
   const phone = String(args.phone ?? "").trim();
   const zip = String(args.zip ?? "").trim();
   const notes = String(args.notes ?? "").trim();
+  if (args.consent !== true)
+    return { error: "The user must explicitly consent to a phone call from a licensed broker before this request can be submitted." };
   if (name.length < 2) return { error: "Please provide a name." };
   if (phone.replace(/\D/g, "").length < 10) return { error: "Please provide a valid US phone number." };
   if (!/^\d{5}$/.test(zip)) return { error: "Please provide a 5-digit ZIP code." };
@@ -223,9 +239,37 @@ export async function POST(req: NextRequest) {
       const toolName = params?.name as string;
       const args = (params?.arguments ?? {}) as Record<string, unknown>;
       if (toolName === "get_medigap_rate_index") {
-        return NextResponse.json(
-          toolResult(id, rateIndex(String(args.state ?? ""), String(args.plan ?? "G"), String(args.age ?? "65")))
-        );
+        const state = String(args.state ?? "");
+        const plan = String(args.plan ?? "G");
+        const age = String(args.age ?? "65");
+        const text = rateIndex(state, plan, age);
+        const snapshot = getSnapshot();
+        const entry = snapshot?.states?.[state]?.plans?.[plan]?.[age];
+        const res = toolResult(id, text) as {
+          result: { structuredContent?: Record<string, unknown> };
+        } & Record<string, unknown>;
+        if (entry && snapshot) {
+          res.result.structuredContent = {
+            state,
+            plan,
+            age: Number(age),
+            asOfDate: snapshot.asOfDate,
+            lowMonthly: entry.low,
+            highMonthly: entry.high,
+            spreadMonthly: entry.spread,
+            carrierCount: entry.carrierCount,
+            householdDiscount: entry.hhd?.low != null
+              ? {
+                  carriersOffering: entry.hhd.carriersOffering,
+                  minDiscountPct: entry.hhd.minDiscountPct,
+                  maxDiscountPct: entry.hhd.maxDiscountPct,
+                  lowMonthly: entry.hhd.low,
+                }
+              : null,
+            sourceUrl: `${SITE}/medicare-supplement/new-jersey/rate-index`,
+          };
+        }
+        return NextResponse.json(res);
       }
       if (toolName === "get_carrier_review") {
         const c = CARRIERS[String(args.carrier ?? "")];

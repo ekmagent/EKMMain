@@ -48,6 +48,18 @@ export default function PrivacyPage() {
           authorize.
         </p>
 
+        <h2 className="text-xl font-bold text-gray-900">AI Assistant Tools (ChatGPT App)</h2>
+        <p>
+          We offer tools inside AI assistants (such as our Medigap Rate Check app in ChatGPT).
+          The rate statistics these tools display are public, state-level filed-rate data and
+          involve no personal information. If you use the callback-request feature and give
+          explicit consent to be contacted, the name, phone number, and ZIP code you provide are
+          transmitted to EasyKind Medicare so a licensed insurance broker can call you with a
+          rate comparison. These tools never request or collect health information, Medicare
+          numbers, Social Security numbers, or payment information. Callback requests are
+          retained under the same terms as website contact-form submissions and are never sold.
+        </p>
+
         <h2 className="text-xl font-bold text-gray-900">Cookies and Analytics</h2>
         <p>
           We use cookies and similar technologies to understand how visitors use our website.
