@@ -3,6 +3,7 @@ import { Montserrat } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import AttributionTracker from "@/components/AttributionTracker";
 import { SITE_URL } from "@/lib/site";
 
 const montserrat = Montserrat({
@@ -33,6 +34,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${montserrat.variable} antialiased font-sans`}>
+        <AttributionTracker />
         <Header />
         <main>{children}</main>
         <Footer />
