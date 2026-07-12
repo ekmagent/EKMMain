@@ -1,0 +1,726 @@
+{
+  "humana": {
+    "asOfDate": "2026-04-24",
+    "reviewUrl": "https://medicareyourself.com/medicare-supplement/humana-medigap-review",
+    "states": {
+      "PA": {
+        "name": "Pennsylvania",
+        "planG65Monthly": 177.02,
+        "marketRank": 9,
+        "marketCarriers": 30,
+        "marketLow": 137.68,
+        "marketMedian": 189.81,
+        "recentFilings": [
+          {
+            "date": "2024-10-01",
+            "pct": 7.42
+          },
+          {
+            "date": "2025-11-01",
+            "pct": 19.53
+          }
+        ],
+        "lossRatioTrend": [
+          {
+            "year": 2023,
+            "lives": 461,
+            "lossRatio": 0.667
+          },
+          {
+            "year": 2024,
+            "lives": 4720,
+            "lossRatio": 1.054
+          },
+          {
+            "year": 2025,
+            "lives": 11761,
+            "lossRatio": 1.08
+          }
+        ],
+        "verdict": "Mid-pack pricing with rapidly growing membership and loss ratios above 100% for two years running. Recent +19.53% filing is a direct response to unsustainable claims costs. Expect further rate pressure."
+      },
+      "NJ": {
+        "name": "New Jersey",
+        "planG65Monthly": 182.6,
+        "marketRank": 13,
+        "marketCarriers": 19,
+        "marketLow": 147.88,
+        "marketMedian": 179.94,
+        "recentFilings": [
+          {
+            "date": "2024-06-01",
+            "pct": 7.01
+          },
+          {
+            "date": "2025-08-01",
+            "pct": 16.22
+          }
+        ],
+        "lossRatioTrend": [
+          {
+            "year": 2020,
+            "lives": 600,
+            "lossRatio": 0.459
+          },
+          {
+            "year": 2021,
+            "lives": 2086,
+            "lossRatio": 0.732
+          },
+          {
+            "year": 2022,
+            "lives": 3200,
+            "lossRatio": 0.78
+          },
+          {
+            "year": 2023,
+            "lives": 3613,
+            "lossRatio": 0.902
+          },
+          {
+            "year": 2024,
+            "lives": 3956,
+            "lossRatio": 0.941
+          },
+          {
+            "year": 2025,
+            "lives": 4362,
+            "lossRatio": 1.006
+          }
+        ],
+        "verdict": "Loss ratio climbed every single year from 46% (2020) to 100.6% (2025). Crossing the 100% threshold triggered the recent +16.22% filing. Pattern strongly suggests continued rate pressure."
+      },
+      "OH": {
+        "name": "Ohio",
+        "planG65Monthly": 179.25,
+        "marketRank": 25,
+        "marketCarriers": 34,
+        "marketLow": 118.17,
+        "marketMedian": 164.49,
+        "recentFilings": [
+          {
+            "date": "2021-01-01",
+            "pct": 5.51
+          },
+          {
+            "date": "2022-03-01",
+            "pct": 5.51
+          },
+          {
+            "date": "2023-04-01",
+            "pct": -5
+          },
+          {
+            "date": "2024-04-01",
+            "pct": 7.5
+          },
+          {
+            "date": "2025-04-01",
+            "pct": 7.52
+          },
+          {
+            "date": "2026-04-01",
+            "pct": 25.03
+          }
+        ],
+        "lossRatioTrend": [
+          {
+            "year": 2020,
+            "lives": 415,
+            "lossRatio": 0.558
+          },
+          {
+            "year": 2021,
+            "lives": 846,
+            "lossRatio": 0.761
+          },
+          {
+            "year": 2022,
+            "lives": 982,
+            "lossRatio": 0.789
+          },
+          {
+            "year": 2023,
+            "lives": 1264,
+            "lossRatio": 0.867
+          },
+          {
+            "year": 2024,
+            "lives": 2003,
+            "lossRatio": 0.969
+          },
+          {
+            "year": 2025,
+            "lives": 4491,
+            "lossRatio": 0.92
+          }
+        ],
+        "verdict": "Six rate filings in six years with the most recent a 25.03% increase effective April 1, 2026 — the largest in this dataset. At rank 25 of 34 carriers, Humana Plan G in Ohio is 52% more expensive than the state's cheapest Plan G for identical benefits. Shop competitors first."
+      },
+      "TX": {
+        "name": "Texas",
+        "planG65Monthly": 217.63,
+        "marketRank": 23,
+        "marketCarriers": 28,
+        "marketLow": 129.92,
+        "marketMedian": 179.97,
+        "recentFilings": [
+          {
+            "date": "2024-03-01",
+            "pct": 8.51
+          },
+          {
+            "date": "2025-03-01",
+            "pct": 10.52
+          },
+          {
+            "date": "2026-04-01",
+            "pct": 18.02
+          }
+        ],
+        "lossRatioTrend": [
+          {
+            "year": 2022,
+            "lives": 895,
+            "lossRatio": 1.132
+          },
+          {
+            "year": 2023,
+            "lives": 1625,
+            "lossRatio": 1.171
+          },
+          {
+            "year": 2024,
+            "lives": 2581,
+            "lossRatio": 0.94
+          },
+          {
+            "year": 2025,
+            "lives": 5111,
+            "lossRatio": 0.989
+          }
+        ],
+        "verdict": "Humana Plan G in Texas is 67.5% more expensive than the cheapest Plan G in the state — the largest gap in this dataset. Loss ratios hit 113-117% in 2022-2023 before the 8.5%, 10.5%, and 18.0% filings corrected pricing. For identical federally-standardized benefits, Texas shoppers should compare before choosing Humana."
+      }
+    }
+  },
+  "medico": {
+    "asOfDate": "2026-04-26",
+    "reviewUrl": "https://medicareyourself.com/medicare-supplement/medico-medigap-review",
+    "states": {
+      "NJ": {
+        "name": "New Jersey",
+        "planG65Monthly": 165.47,
+        "marketRank": 5,
+        "marketCarriers": 19,
+        "marketLow": 147.88,
+        "marketMedian": 179.94,
+        "recentFilings": [],
+        "lossRatioTrend": [
+          {
+            "year": 2025,
+            "lives": 2436,
+            "lossRatio": 0.68
+          }
+        ],
+        "verdict": "Best Medico market in our footprint. Rank 5 of 19 means Medico is genuinely competitive in NJ Plan G. No rate increases on file (Medico Ins Co only recently became active here). Loss ratio is healthy at 68% in 2025. Worth a serious look for NJ Medigap shoppers."
+      },
+      "PA": {
+        "name": "Pennsylvania",
+        "planG65Monthly": 176.21,
+        "marketRank": 8,
+        "marketCarriers": 30,
+        "marketLow": 137.68,
+        "marketMedian": 189.81,
+        "recentFilings": [
+          {
+            "date": "2025-09-01",
+            "pct": 18.59
+          }
+        ],
+        "lossRatioTrend": [
+          {
+            "year": 2024,
+            "lives": 484,
+            "lossRatio": 0.43
+          },
+          {
+            "year": 2025,
+            "lives": 2403,
+            "lossRatio": 0.82
+          }
+        ],
+        "verdict": "Mid-pack pricing (rank 8 of 30) following an 18.59% rate filing in September 2025. Loss ratio nearly doubled from 43% to 82% in one year as membership grew 5x — the typical adverse-selection trajectory we'd expect to push another rate filing within 12-18 months. Compare carriers before choosing."
+      },
+      "OH": {
+        "name": "Ohio",
+        "planG65Monthly": 146.89,
+        "marketRank": 7,
+        "marketCarriers": 34,
+        "marketLow": 118.17,
+        "marketMedian": 164.49,
+        "recentFilings": [
+          {
+            "date": "2026-02-01",
+            "pct": 9
+          }
+        ],
+        "lossRatioTrend": [
+          {
+            "year": 2025,
+            "lives": 753,
+            "lossRatio": 0.74
+          }
+        ],
+        "verdict": "Reasonable pricing — rank 7 of 34, 24% above the state's cheapest Plan G. Recent 9% rate filing is the smallest of any Medico state filing in this review. Loss ratio at 74% is healthy. New entrant (only 2025 data) so trend hard to project. Worth a look for OH Medigap shoppers."
+      },
+      "NC": {
+        "name": "North Carolina",
+        "planG65Monthly": 128.01,
+        "marketRank": 8,
+        "marketCarriers": 31,
+        "marketLow": 101.83,
+        "marketMedian": 147.5,
+        "recentFilings": [
+          {
+            "date": "2025-09-01",
+            "pct": 4
+          },
+          {
+            "date": "2025-09-01",
+            "pct": 18.59
+          }
+        ],
+        "lossRatioTrend": [
+          {
+            "year": 2023,
+            "lives": 4231,
+            "lossRatio": 0.81
+          },
+          {
+            "year": 2024,
+            "lives": 5187,
+            "lossRatio": 0.87
+          },
+          {
+            "year": 2025,
+            "lives": 5868,
+            "lossRatio": 0.89
+          }
+        ],
+        "verdict": "Two simultaneous rate filings in September 2025 — +4% on some rating tiers, +18.59% on others — depending on which Medico product line you're on. Loss ratio climbed 81% → 87% → 89% over three years and may push another filing soon. Optional dental rider available in NC, which is unusual for Medigap."
+      },
+      "TX": {
+        "name": "Texas",
+        "planG65Monthly": 175.22,
+        "marketRank": 14,
+        "marketCarriers": 28,
+        "marketLow": 129.92,
+        "marketMedian": 179.97,
+        "recentFilings": [
+          {
+            "date": "2025-09-01",
+            "pct": 0
+          },
+          {
+            "date": "2026-02-01",
+            "pct": 24.28
+          }
+        ],
+        "lossRatioTrend": [
+          {
+            "year": 2025,
+            "lives": 2951,
+            "lossRatio": 0.76
+          }
+        ],
+        "verdict": "Largest rate filing of any Medico state in this review — +24.28% effective February 2026, just three months ago. Mid-pack pricing (rank 14 of 28) and 34.9% above the cheapest Plan G in TX. New entrant so loss-ratio history is thin, but the size of the recent filing suggests pricing was previously too low for the claims experience. Compare carriers before choosing."
+      }
+    }
+  },
+  "mutual-of-omaha": {
+    "asOfDate": "2026-04-26",
+    "reviewUrl": "https://medicareyourself.com/medicare-supplement/mutual-of-omaha-medigap-review",
+    "states": {
+      "PA": {
+        "name": "Pennsylvania",
+        "planG65Monthly": 208.62,
+        "marketRank": 24,
+        "marketCarriers": 30,
+        "marketLow": 137.68,
+        "marketMedian": 189.81,
+        "recentFilings": [
+          {
+            "date": "2022-06-01",
+            "pct": 3
+          },
+          {
+            "date": "2023-06-01",
+            "pct": 5
+          },
+          {
+            "date": "2024-05-15",
+            "pct": 12
+          },
+          {
+            "date": "2025-06-01",
+            "pct": 19
+          }
+        ],
+        "lossRatioTrend": [
+          {
+            "year": 2023,
+            "lives": 10303,
+            "lossRatio": 1.24
+          },
+          {
+            "year": 2024,
+            "lives": 9397,
+            "lossRatio": 0.93
+          },
+          {
+            "year": 2025,
+            "lives": 11888,
+            "lossRatio": 0.96
+          }
+        ],
+        "verdict": "Four consecutive annual rate increases of 3% → 5% → 12% → 19% — each one larger than the last. Loss ratio peaked at 124% in 2023 and is back near 100% despite the hikes. Ranks 24 of 30 carriers; you're paying 51.5% above the cheapest Pennsylvania Plan G for identical benefits. Compare carriers before choosing."
+      },
+      "NJ": {
+        "name": "New Jersey",
+        "planG65Monthly": null,
+        "marketRank": null,
+        "marketCarriers": 19,
+        "marketLow": 147.88,
+        "marketMedian": 179.94,
+        "recentFilings": [],
+        "lossRatioTrend": [
+          {
+            "year": 2023,
+            "lives": 872,
+            "lossRatio": 0.63
+          },
+          {
+            "year": 2024,
+            "lives": 868,
+            "lossRatio": 0.77
+          },
+          {
+            "year": 2025,
+            "lives": 597,
+            "lossRatio": 0.86
+          }
+        ],
+        "verdict": "Mutual of Omaha Insurance Company has a Medigap block in New Jersey (597 lives in 2025), but they do not appear in our flagship Cherry Hill ZIP 08002 quote sample at age 65 F non-tobacco — likely a pricing tier or rating-class issue. Loss ratio climbed from 63% (2023) to 86% (2025), a healthy-but-rising pattern. Call us at 855-559-1700 for a state-specific NJ Mutual of Omaha quote."
+      },
+      "OH": {
+        "name": "Ohio",
+        "planG65Monthly": 163.23,
+        "marketRank": 16,
+        "marketCarriers": 34,
+        "marketLow": 118.17,
+        "marketMedian": 164.49,
+        "recentFilings": [
+          {
+            "date": "2024-04-01",
+            "pct": 6
+          },
+          {
+            "date": "2025-04-01",
+            "pct": 30
+          }
+        ],
+        "lossRatioTrend": [
+          {
+            "year": 2023,
+            "lives": 6489,
+            "lossRatio": 1.94
+          },
+          {
+            "year": 2024,
+            "lives": 4112,
+            "lossRatio": 0.83
+          },
+          {
+            "year": 2025,
+            "lives": 16231,
+            "lossRatio": 0.97
+          }
+        ],
+        "verdict": "+30% rate filing effective April 2025 — the largest single-year filing in our review. The 2023 loss ratio of 194% (claims nearly double premiums) explains why. Membership shrank as healthy policyholders fled then exploded back when pricing reset. Currently ranks 16 of 34, costing 38% above the cheapest Plan G. Loss ratio at 97% in 2025 means the rebalance hasn't fully held — expect more pressure."
+      },
+      "NC": {
+        "name": "North Carolina",
+        "planG65Monthly": 153.87,
+        "marketRank": 22,
+        "marketCarriers": 31,
+        "marketLow": 101.83,
+        "marketMedian": 147.5,
+        "recentFilings": [
+          {
+            "date": "2022-05-01",
+            "pct": 2.99
+          },
+          {
+            "date": "2024-05-01",
+            "pct": 12
+          },
+          {
+            "date": "2025-04-01",
+            "pct": 25.01
+          }
+        ],
+        "lossRatioTrend": [
+          {
+            "year": 2023,
+            "lives": 17727,
+            "lossRatio": 1.16
+          },
+          {
+            "year": 2024,
+            "lives": 16018,
+            "lossRatio": 0.92
+          },
+          {
+            "year": 2025,
+            "lives": 22508,
+            "lossRatio": 0.95
+          }
+        ],
+        "verdict": "Three rate filings in three years culminating in a +25.01% increase effective April 2025. The 2023 loss ratio of 116% triggered the cascade. Currently ranks 22 of 31 carriers; you're paying 51% above the cheapest NC Plan G. Membership grew despite the increases (16k → 22k) but loss ratio remains at 95% — more rate pressure likely."
+      },
+      "TX": {
+        "name": "Texas",
+        "planG65Monthly": 213,
+        "marketRank": 22,
+        "marketCarriers": 28,
+        "marketLow": 129.92,
+        "marketMedian": 179.97,
+        "recentFilings": [
+          {
+            "date": "2023-07-01",
+            "pct": 5
+          },
+          {
+            "date": "2024-04-15",
+            "pct": 12.5
+          },
+          {
+            "date": "2025-06-15",
+            "pct": 25
+          }
+        ],
+        "lossRatioTrend": [
+          {
+            "year": 2023,
+            "lives": 42924,
+            "lossRatio": 1.03
+          },
+          {
+            "year": 2024,
+            "lives": 37893,
+            "lossRatio": 0.95
+          },
+          {
+            "year": 2025,
+            "lives": 65638,
+            "lossRatio": 0.97
+          }
+        ],
+        "verdict": "Worst value in our review. Mutual of Omaha Plan G in Texas is 63.9% more expensive than the cheapest Plan G ($213 vs $130) — for identical federally-standardized benefits. The +25% filing effective June 2025 followed +12.5% in 2024 and +5% in 2023, an escalating cadence. Loss ratio still at 97% in 2025 despite the hikes. The Texas Medigap market has 28 carriers; Mutual of Omaha ranks 22nd. Strongly compare alternatives."
+      }
+    }
+  },
+  "woodmenlife": {
+    "asOfDate": "2026-04-26",
+    "reviewUrl": "https://medicareyourself.com/medicare-supplement/woodmenlife-medigap-review",
+    "states": {
+      "PA": {
+        "name": "Pennsylvania",
+        "planG65Monthly": 194.5,
+        "marketRank": 18,
+        "marketCarriers": 30,
+        "marketLow": 137.68,
+        "marketMedian": 189.81,
+        "recentFilings": [
+          {
+            "date": "2024-06-01",
+            "pct": 9.01
+          },
+          {
+            "date": "2025-06-01",
+            "pct": 15
+          },
+          {
+            "date": "2026-01-15",
+            "pct": 8.99
+          }
+        ],
+        "lossRatioTrend": [
+          {
+            "year": 2024,
+            "lives": 28,
+            "lossRatio": 0.52
+          },
+          {
+            "year": 2025,
+            "lives": 75,
+            "lossRatio": 1.27
+          }
+        ],
+        "verdict": "Three rate filings in 23 months totaling roughly 36% compounded. Tiny PA block (75 lives in 2025) but loss ratio jumped to 127% — claims significantly outpacing premiums. Mid-pack pricing at rank 18 of 30, 41% above the cheapest Plan G. Strong upward rate pressure likely."
+      },
+      "NJ": {
+        "name": "New Jersey",
+        "planG65Monthly": 205.29,
+        "marketRank": 16,
+        "marketCarriers": 19,
+        "marketLow": 147.88,
+        "marketMedian": 179.94,
+        "recentFilings": [
+          {
+            "date": "2024-06-01",
+            "pct": 9
+          },
+          {
+            "date": "2025-06-01",
+            "pct": 15
+          },
+          {
+            "date": "2026-03-01",
+            "pct": 9
+          }
+        ],
+        "lossRatioTrend": [
+          {
+            "year": 2024,
+            "lives": 7,
+            "lossRatio": 1.57
+          },
+          {
+            "year": 2025,
+            "lives": 7,
+            "lossRatio": 1.14
+          }
+        ],
+        "verdict": "Tiny NJ block (7 lives) with loss ratios 114-157% — the carrier is losing money on this state and recent rate filings reflect it. Ranks 16 of 19 carriers; you're paying 39% above the cheapest NJ Plan G. With only seven policyholders, the data is statistically thin but the rate-filing pattern suggests the company is not finding equilibrium here."
+      },
+      "OH": {
+        "name": "Ohio",
+        "planG65Monthly": 156.5,
+        "marketRank": 12,
+        "marketCarriers": 34,
+        "marketLow": 118.17,
+        "marketMedian": 164.49,
+        "recentFilings": [
+          {
+            "date": "2024-05-01",
+            "pct": 9
+          },
+          {
+            "date": "2025-04-01",
+            "pct": 15
+          }
+        ],
+        "lossRatioTrend": [
+          {
+            "year": 2023,
+            "lives": 5,
+            "lossRatio": 0
+          },
+          {
+            "year": 2024,
+            "lives": 48,
+            "lossRatio": 0.47
+          },
+          {
+            "year": 2025,
+            "lives": 97,
+            "lossRatio": 0.98
+          }
+        ],
+        "verdict": "Best WoodmenLife state in our review — rank 12 of 34, 32% above the cheapest Plan G. Two rate filings (9%, then 15%) in two years. Loss ratio climbed from 0% (5 lives) → 47% (48 lives) → 98% (97 lives) as block grew, the classic adverse-selection trajectory. Likely more rate pressure ahead."
+      },
+      "NC": {
+        "name": "North Carolina",
+        "planG65Monthly": 152.66,
+        "marketRank": 21,
+        "marketCarriers": 31,
+        "marketLow": 101.83,
+        "marketMedian": 147.5,
+        "recentFilings": [
+          {
+            "date": "2024-05-15",
+            "pct": 9.01
+          },
+          {
+            "date": "2025-01-01",
+            "pct": 0
+          },
+          {
+            "date": "2025-04-01",
+            "pct": 18
+          },
+          {
+            "date": "2026-01-15",
+            "pct": 15
+          }
+        ],
+        "lossRatioTrend": [
+          {
+            "year": 2023,
+            "lives": 63,
+            "lossRatio": 0.34
+          },
+          {
+            "year": 2024,
+            "lives": 259,
+            "lossRatio": 0.69
+          },
+          {
+            "year": 2025,
+            "lives": 506,
+            "lossRatio": 0.76
+          }
+        ],
+        "verdict": "Four filings in 23 months: +9%, +0%, +18%, +15% — totaling roughly 47% compounded. Loss ratio still healthy at 76% but climbing fast. Currently ranks 21 of 31 carriers; you're paying 50% above the cheapest NC Plan G. Membership growing (63 → 506 lives) while rate filings escalate."
+      },
+      "TX": {
+        "name": "Texas",
+        "planG65Monthly": 197.75,
+        "marketRank": 19,
+        "marketCarriers": 28,
+        "marketLow": 129.92,
+        "marketMedian": 179.97,
+        "recentFilings": [
+          {
+            "date": "2024-05-15",
+            "pct": 9.01
+          },
+          {
+            "date": "2026-02-15",
+            "pct": 41.6
+          }
+        ],
+        "lossRatioTrend": [
+          {
+            "year": 2023,
+            "lives": 198,
+            "lossRatio": 0.83
+          },
+          {
+            "year": 2024,
+            "lives": 1256,
+            "lossRatio": 0.89
+          },
+          {
+            "year": 2025,
+            "lives": 3371,
+            "lossRatio": 0.93
+          }
+        ],
+        "verdict": "+41.60% rate filing effective February 2026 — the largest single-year Plan G increase in our entire dataset. Membership grew rapidly (198 → 3371 lives) while loss ratio climbed from 83% to 93%. The +41.6% filing is the carrier resetting pricing aggressively to catch up. Anyone enrolled before February 2026 just absorbed the full increase. Currently ranks 19 of 28 carriers; you're paying 52% above the cheapest TX Plan G."
+      }
+    }
+  }
+}

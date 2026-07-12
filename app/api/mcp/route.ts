@@ -1,4 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
+import fs from "node:fs";
+import path from "node:path";
 import { getSnapshot } from "@/lib/csg-snapshot";
 
 /**
@@ -59,7 +61,37 @@ const STATE_NAMES: Record<string, string> = {
   PA: "Pennsylvania",
   OH: "Ohio",
   TX: "Texas",
+  NC: "North Carolina",
 };
+
+type HistoryState = {
+  name: string;
+  planG65Monthly: number | null;
+  marketRank: number | null;
+  marketCarriers: number | null;
+  marketLow: number | null;
+  marketMedian: number | null;
+  recentFilings: { date: string; pct: number }[];
+  lossRatioTrend: { year: number; lives: number; lossRatio: number }[];
+  verdict: string | null;
+};
+type CarrierHistory = Record<
+  string,
+  { asOfDate: string | null; reviewUrl: string; states: Record<string, HistoryState> }
+>;
+
+let historyCache: CarrierHistory | null | undefined;
+function getCarrierHistory(): CarrierHistory | null {
+  if (historyCache !== undefined) return historyCache ?? null;
+  try {
+    historyCache = JSON.parse(
+      fs.readFileSync(path.resolve(process.cwd(), "carrier-history.json"), "utf8")
+    );
+  } catch {
+    historyCache = null;
+  }
+  return historyCache ?? null;
+}
 
 const TOOLS = [
   {
@@ -88,6 +120,28 @@ const TOOLS = [
           type: "string",
           enum: Object.keys(CARRIERS),
           description: "Carrier slug",
+        },
+      },
+      required: ["carrier"],
+    },
+    annotations: { readOnlyHint: true, openWorldHint: false },
+  },
+  {
+    name: "get_rate_history",
+    description:
+      "Get a Medicare Supplement carrier's rate-increase filing history and annual loss-ratio trend in a specific state — every filed increase with date and percentage, plus covered lives and loss ratios by year, market rank, and the data-grounded verdict. The key question this answers: 'has this carrier been raising Medigap rates, and are more increases likely?' Carriers: humana, medico, mutual-of-omaha, woodmenlife. States vary by carrier (NJ, PA, OH, TX, NC).",
+    inputSchema: {
+      type: "object",
+      properties: {
+        carrier: {
+          type: "string",
+          enum: ["humana", "medico", "mutual-of-omaha", "woodmenlife"],
+          description: "Carrier slug",
+        },
+        state: {
+          type: "string",
+          enum: ["NJ", "PA", "OH", "TX", "NC"],
+          description: "Two-letter state code. Omit to list which states have data for this carrier.",
         },
       },
       required: ["carrier"],
@@ -281,6 +335,62 @@ export async function POST(req: NextRequest) {
               : `Unknown carrier. Available: ${Object.keys(CARRIERS).join(", ")}.`
           )
         );
+      }
+      if (toolName === "get_rate_history") {
+        const history = getCarrierHistory();
+        const carrier = String(args.carrier ?? "");
+        const state = args.state ? String(args.state) : null;
+        const c = history?.[carrier];
+        if (!c) {
+          return NextResponse.json(
+            toolResult(id, `No filing-history data for "${carrier}". Available: ${Object.keys(history ?? {}).join(", ")}. Bankers Fidelity detail is in its review: ${SITE}/medicare-supplement/bankers-fidelity-review`)
+          );
+        }
+        if (!state) {
+          return NextResponse.json(
+            toolResult(id, `${CARRIERS[carrier]?.name ?? carrier} has filing-history data for: ${Object.keys(c.states).join(", ")} (as of ${c.asOfDate}). Call again with a state code. Full review: ${c.reviewUrl}`)
+          );
+        }
+        const s = c.states[state];
+        if (!s) {
+          return NextResponse.json(
+            toolResult(id, `${CARRIERS[carrier]?.name ?? carrier} has no ${state} data in our dataset. States with data: ${Object.keys(c.states).join(", ")}.`)
+          );
+        }
+        const filings = s.recentFilings.length
+          ? s.recentFilings.map((f) => `  - ${f.date}: ${f.pct > 0 ? "+" : ""}${f.pct}%`).join("\n")
+          : "  - No filings in our dataset window";
+        const lr = s.lossRatioTrend.length
+          ? s.lossRatioTrend.map((y) => `  - ${y.year}: ${(y.lossRatio * 100).toFixed(1)}% loss ratio (${y.lives.toLocaleString()} covered lives)`).join("\n")
+          : "  - No loss-ratio data";
+        const text = [
+          `${CARRIERS[carrier]?.name ?? carrier} — ${s.name} Medigap rate history (data as of ${c.asOfDate}):`,
+          s.planG65Monthly != null
+            ? `Plan G at 65 files $${s.planG65Monthly.toFixed(2)}/month${s.marketRank != null ? `, rank ${s.marketRank} of ${s.marketCarriers} carriers` : ""}${s.marketMedian != null ? ` (state median $${s.marketMedian.toFixed(2)})` : ""}.`
+            : "",
+          `Filed rate increases:\n${filings}`,
+          `Loss-ratio trend (claims paid vs premium collected; above ~100% usually precedes increases):\n${lr}`,
+          s.verdict ? `Our verdict: ${s.verdict}` : "",
+          `Full review: ${c.reviewUrl}`,
+          DISCLOSURE,
+        ]
+          .filter(Boolean)
+          .join("\n\n");
+        const res = toolResult(id, text) as {
+          result: { structuredContent?: Record<string, unknown> };
+        } & Record<string, unknown>;
+        res.result.structuredContent = {
+          carrier,
+          state,
+          asOfDate: c.asOfDate,
+          planG65Monthly: s.planG65Monthly,
+          marketRank: s.marketRank,
+          marketCarriers: s.marketCarriers,
+          recentFilings: s.recentFilings,
+          lossRatioTrend: s.lossRatioTrend,
+          reviewUrl: c.reviewUrl,
+        };
+        return NextResponse.json(res);
       }
       if (toolName === "request_rate_comparison") {
         const r = await requestComparison(args);
