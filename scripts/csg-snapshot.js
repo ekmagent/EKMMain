@@ -25,11 +25,63 @@ const path = require("path");
 // ---------------------------------------------------------------------------
 // Configuration — one flagship ZIP per state, 2 plans, 3 sample ages
 // ---------------------------------------------------------------------------
+// All 50 states + DC, one flagship metro ZIP each. States that return no
+// lettered-plan quotes (waiver states MA/MN/WI) or are access-blocked (MI,
+// see reference_csg_mi_access_blocked) are pruned from output automatically.
+// tobaccoNeutralOEP is asserted only where verified (NJ); it only controls
+// whether a tobacco-surcharge sample is pulled, not any published claim.
 const STATES = [
-  { code: "NJ", sampleZip: "08002", sampleCity: "Cherry Hill",   tobaccoNeutralOEP: true  },
-  { code: "PA", sampleZip: "19103", sampleCity: "Philadelphia",  tobaccoNeutralOEP: false },
-  { code: "OH", sampleZip: "44101", sampleCity: "Cleveland",     tobaccoNeutralOEP: false },
-  { code: "TX", sampleZip: "77002", sampleCity: "Houston",       tobaccoNeutralOEP: false },
+  { code: "AL", sampleZip: "35203", sampleCity: "Birmingham",     tobaccoNeutralOEP: false },
+  { code: "AK", sampleZip: "99501", sampleCity: "Anchorage",      tobaccoNeutralOEP: false },
+  { code: "AZ", sampleZip: "85004", sampleCity: "Phoenix",        tobaccoNeutralOEP: false },
+  { code: "AR", sampleZip: "72201", sampleCity: "Little Rock",    tobaccoNeutralOEP: false },
+  { code: "CA", sampleZip: "90012", sampleCity: "Los Angeles",    tobaccoNeutralOEP: false },
+  { code: "CO", sampleZip: "80202", sampleCity: "Denver",         tobaccoNeutralOEP: false },
+  { code: "CT", sampleZip: "06103", sampleCity: "Hartford",       tobaccoNeutralOEP: false },
+  { code: "DE", sampleZip: "19801", sampleCity: "Wilmington",     tobaccoNeutralOEP: false },
+  { code: "DC", sampleZip: "20001", sampleCity: "Washington",     tobaccoNeutralOEP: false },
+  { code: "FL", sampleZip: "33131", sampleCity: "Miami",          tobaccoNeutralOEP: false },
+  { code: "GA", sampleZip: "30303", sampleCity: "Atlanta",        tobaccoNeutralOEP: false },
+  { code: "HI", sampleZip: "96813", sampleCity: "Honolulu",       tobaccoNeutralOEP: false },
+  { code: "ID", sampleZip: "83702", sampleCity: "Boise",          tobaccoNeutralOEP: false },
+  { code: "IL", sampleZip: "60602", sampleCity: "Chicago",        tobaccoNeutralOEP: false },
+  { code: "IN", sampleZip: "46204", sampleCity: "Indianapolis",   tobaccoNeutralOEP: false },
+  { code: "IA", sampleZip: "50309", sampleCity: "Des Moines",     tobaccoNeutralOEP: false },
+  { code: "KS", sampleZip: "67202", sampleCity: "Wichita",        tobaccoNeutralOEP: false },
+  { code: "KY", sampleZip: "40202", sampleCity: "Louisville",     tobaccoNeutralOEP: false },
+  { code: "LA", sampleZip: "70112", sampleCity: "New Orleans",    tobaccoNeutralOEP: false },
+  { code: "ME", sampleZip: "04101", sampleCity: "Portland",       tobaccoNeutralOEP: false },
+  { code: "MD", sampleZip: "21201", sampleCity: "Baltimore",      tobaccoNeutralOEP: false },
+  { code: "MA", sampleZip: "02108", sampleCity: "Boston",         tobaccoNeutralOEP: false },
+  { code: "MI", sampleZip: "48226", sampleCity: "Detroit",        tobaccoNeutralOEP: false },
+  { code: "MN", sampleZip: "55401", sampleCity: "Minneapolis",    tobaccoNeutralOEP: false },
+  { code: "MS", sampleZip: "39201", sampleCity: "Jackson",        tobaccoNeutralOEP: false },
+  { code: "MO", sampleZip: "63101", sampleCity: "St. Louis",      tobaccoNeutralOEP: false },
+  { code: "MT", sampleZip: "59101", sampleCity: "Billings",       tobaccoNeutralOEP: false },
+  { code: "NE", sampleZip: "68102", sampleCity: "Omaha",          tobaccoNeutralOEP: false },
+  { code: "NV", sampleZip: "89101", sampleCity: "Las Vegas",      tobaccoNeutralOEP: false },
+  { code: "NH", sampleZip: "03101", sampleCity: "Manchester",     tobaccoNeutralOEP: false },
+  { code: "NJ", sampleZip: "08002", sampleCity: "Cherry Hill",    tobaccoNeutralOEP: true  },
+  { code: "NM", sampleZip: "87102", sampleCity: "Albuquerque",    tobaccoNeutralOEP: false },
+  { code: "NY", sampleZip: "10007", sampleCity: "New York",       tobaccoNeutralOEP: false },
+  { code: "NC", sampleZip: "28202", sampleCity: "Charlotte",      tobaccoNeutralOEP: false },
+  { code: "ND", sampleZip: "58102", sampleCity: "Fargo",          tobaccoNeutralOEP: false },
+  { code: "OH", sampleZip: "44101", sampleCity: "Cleveland",      tobaccoNeutralOEP: false },
+  { code: "OK", sampleZip: "73102", sampleCity: "Oklahoma City",  tobaccoNeutralOEP: false },
+  { code: "OR", sampleZip: "97204", sampleCity: "Portland",       tobaccoNeutralOEP: false },
+  { code: "PA", sampleZip: "19103", sampleCity: "Philadelphia",   tobaccoNeutralOEP: false },
+  { code: "RI", sampleZip: "02903", sampleCity: "Providence",     tobaccoNeutralOEP: false },
+  { code: "SC", sampleZip: "29201", sampleCity: "Columbia",       tobaccoNeutralOEP: false },
+  { code: "SD", sampleZip: "57104", sampleCity: "Sioux Falls",    tobaccoNeutralOEP: false },
+  { code: "TN", sampleZip: "37203", sampleCity: "Nashville",      tobaccoNeutralOEP: false },
+  { code: "TX", sampleZip: "77002", sampleCity: "Houston",        tobaccoNeutralOEP: false },
+  { code: "UT", sampleZip: "84101", sampleCity: "Salt Lake City", tobaccoNeutralOEP: false },
+  { code: "VT", sampleZip: "05401", sampleCity: "Burlington",     tobaccoNeutralOEP: false },
+  { code: "VA", sampleZip: "23219", sampleCity: "Richmond",       tobaccoNeutralOEP: false },
+  { code: "WA", sampleZip: "98104", sampleCity: "Seattle",        tobaccoNeutralOEP: false },
+  { code: "WV", sampleZip: "25301", sampleCity: "Charleston",     tobaccoNeutralOEP: false },
+  { code: "WI", sampleZip: "53202", sampleCity: "Milwaukee",      tobaccoNeutralOEP: false },
+  { code: "WY", sampleZip: "82001", sampleCity: "Cheyenne",       tobaccoNeutralOEP: false },
 ];
 const PLANS = ["G", "N"];
 const AGES = [65, 67, 69];
@@ -263,7 +315,15 @@ async function main() {
       }
     }
 
-    out.states[state.code] = stateOut;
+    // Prune states with no data at all (waiver states, access-blocked states)
+    const hasData = Object.values(stateOut.plans).some(
+      (plan) => Object.keys(plan).length > 0
+    );
+    if (hasData) {
+      out.states[state.code] = stateOut;
+    } else {
+      console.log(`  (no data for ${state.code} — omitted from snapshot)`);
+    }
   }
 
   const outPath = path.resolve(__dirname, "..", "csg-snapshot.json");

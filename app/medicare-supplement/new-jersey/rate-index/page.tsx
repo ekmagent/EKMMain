@@ -11,7 +11,7 @@ const PAGE_URL = `${SITE_URL}${PAGE_PATH}`;
 export const metadata: Metadata = {
   title: "New Jersey Medigap Rate Index 2026: Filed Rates, Spreads & Carrier Data",
   description:
-    "Original dataset: what Medicare Supplement Plan G and Plan N actually cost in New Jersey from CSG Actuarial filed rates — lows, highs, spreads, household discounts, and how NJ compares to PA, OH, and TX.",
+    "Original dataset: what Medicare Supplement Plan G and Plan N actually cost in New Jersey from CSG Actuarial filed rates — lows, highs, spreads, household discounts, and how NJ compares to every state's lowest filed Plan G rate.",
   alternates: { canonical: PAGE_URL },
   openGraph: {
     title: "New Jersey Medigap Rate Index 2026",
@@ -76,9 +76,24 @@ export default function NjRateIndexPage() {
   const g65 = g["65"];
   const n65 = n["65"];
 
-  const otherStates = (["PA", "OH", "TX"] as const)
-    .map((code) => ({ code, entry: snapshot?.states?.[code] }))
-    .filter((s) => s.entry?.plans?.G?.["65"]);
+  const STATE_NAMES: Record<string, string> = {
+    AL: "Alabama", AK: "Alaska", AZ: "Arizona", AR: "Arkansas", CA: "California",
+    CO: "Colorado", CT: "Connecticut", DE: "Delaware", DC: "Washington DC",
+    FL: "Florida", GA: "Georgia", HI: "Hawaii", ID: "Idaho", IL: "Illinois",
+    IN: "Indiana", IA: "Iowa", KS: "Kansas", KY: "Kentucky", LA: "Louisiana",
+    ME: "Maine", MD: "Maryland", MI: "Michigan", MN: "Minnesota",
+    MS: "Mississippi", MO: "Missouri", MT: "Montana", NE: "Nebraska",
+    NV: "Nevada", NH: "New Hampshire", NM: "New Mexico", NY: "New York",
+    NC: "North Carolina", ND: "North Dakota", OH: "Ohio", OK: "Oklahoma",
+    OR: "Oregon", PA: "Pennsylvania", RI: "Rhode Island", SC: "South Carolina",
+    SD: "South Dakota", TN: "Tennessee", TX: "Texas", UT: "Utah",
+    VT: "Vermont", VA: "Virginia", WA: "Washington", WV: "West Virginia",
+    WI: "Wisconsin", WY: "Wyoming",
+  };
+  const otherStates = Object.keys(snapshot?.states ?? {})
+    .filter((code) => code !== "NJ" && snapshot?.states?.[code]?.plans?.G?.["65"])
+    .map((code) => ({ code, entry: snapshot!.states[code] }))
+    .sort((a, b) => a.entry.plans.G["65"].low - b.entry.plans.G["65"].low);
 
   return (
     <main className="bg-white">
@@ -163,7 +178,7 @@ export default function NjRateIndexPage() {
 
         <h2 className="text-2xl font-bold text-gray-900 mb-4">Named-Carrier Examples (Plan G, age 65)</h2>
         <p className="text-gray-700 leading-relaxed mb-4">
-          From our published carrier reviews, all sourced to the same {asOf} CSG dataset:{" "}
+          From our published carrier reviews (April 2026 CSG dataset):{" "}
           <Link href="/medicare-supplement/medico-medigap-review" className="text-blue-600 hover:underline font-medium">Medico (Wellabe)</Link>{" "}
           files $165.47 (rank 5 of 19),{" "}
           <Link href="/medicare-supplement/humana-medigap-review" className="text-blue-600 hover:underline font-medium">Humana</Link>{" "}
@@ -178,7 +193,13 @@ export default function NjRateIndexPage() {
           your exact ZIP and age, call us — we quote every filed carrier, not a marketing shortlist.
         </p>
 
-        <h2 className="text-2xl font-bold text-gray-900 mb-4">How NJ Compares: Four-State Index (Plan G, age 65)</h2>
+        <h2 className="text-2xl font-bold text-gray-900 mb-4">
+          How NJ Compares: Lowest Filed Plan G Rate by State (age 65)
+        </h2>
+        <p className="text-gray-700 leading-relaxed mb-4">
+          Sorted by each state&apos;s cheapest filed Plan G rate, one flagship-metro ZIP per state.
+          New Jersey is highlighted.
+        </p>
         <div className="overflow-x-auto mb-2">
           <table className="w-full text-sm border-collapse">
             <thead>
@@ -186,42 +207,38 @@ export default function NjRateIndexPage() {
                 <th className="text-left px-4 py-3 rounded-tl-lg">State (sample city)</th>
                 <th className="text-left px-4 py-3">Lowest Plan G</th>
                 <th className="text-left px-4 py-3">Highest Plan G</th>
-                <th className="text-left px-4 py-3">Carriers</th>
-                <th className="text-left px-4 py-3 rounded-tr-lg">Rating rule</th>
+                <th className="text-left px-4 py-3 rounded-tr-lg">Carriers</th>
               </tr>
             </thead>
             <tbody>
-              {nj && g65 && (
-                <tr className="bg-green-50">
-                  <td className="px-4 py-3 font-bold text-gray-900 border-b border-gray-100">New Jersey ({nj.sampleCity})</td>
-                  <td className="px-4 py-3 text-green-700 font-medium border-b border-gray-100">{usd(g65.low)}</td>
-                  <td className="px-4 py-3 text-red-600 font-medium border-b border-gray-100">{usd(g65.high)}</td>
-                  <td className="px-4 py-3 text-gray-700 border-b border-gray-100">{g65.carrierCount}</td>
-                  <td className="px-4 py-3 text-gray-700 border-b border-gray-100">Community-rated</td>
-                </tr>
-              )}
-              {otherStates.map(({ code, entry }, i) => {
-                const e = entry!.plans.G["65"];
-                return (
-                  <tr key={code} className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
-                    <td className="px-4 py-3 font-medium text-gray-900 border-b border-gray-100">
-                      {code === "PA" ? "Pennsylvania" : code === "OH" ? "Ohio" : "Texas"} ({entry!.sampleCity})
-                    </td>
-                    <td className="px-4 py-3 text-green-700 font-medium border-b border-gray-100">{usd(e.low)}</td>
-                    <td className="px-4 py-3 text-red-600 font-medium border-b border-gray-100">{usd(e.high)}</td>
-                    <td className="px-4 py-3 text-gray-700 border-b border-gray-100">{e.carrierCount}</td>
-                    <td className="px-4 py-3 text-gray-700 border-b border-gray-100">Attained-age (typical)</td>
-                  </tr>
-                );
-              })}
+              {[
+                ...(nj && g65 ? [{ code: "NJ", entry: nj }] : []),
+                ...otherStates,
+              ]
+                .sort((a, b) => a.entry.plans.G["65"].low - b.entry.plans.G["65"].low)
+                .map(({ code, entry }, i) => {
+                  const e = entry.plans.G["65"];
+                  const isNJ = code === "NJ";
+                  return (
+                    <tr key={code} className={isNJ ? "bg-green-50" : i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
+                      <td className={`px-4 py-3 border-b border-gray-100 ${isNJ ? "font-bold text-gray-900" : "font-medium text-gray-900"}`}>
+                        {isNJ ? "New Jersey" : STATE_NAMES[code] ?? code} ({entry.sampleCity})
+                      </td>
+                      <td className="px-4 py-3 text-green-700 font-medium border-b border-gray-100">{usd(e.low)}</td>
+                      <td className="px-4 py-3 text-red-600 font-medium border-b border-gray-100">{usd(e.high)}</td>
+                      <td className="px-4 py-3 text-gray-700 border-b border-gray-100">{e.carrierCount}</td>
+                    </tr>
+                  );
+                })}
             </tbody>
           </table>
         </div>
         <p className="text-gray-700 leading-relaxed mb-8 mt-4">
-          New Jersey&apos;s entry price is higher than Ohio&apos;s or Texas&apos;s, but its community rating means the
-          premium does not climb with your age after you buy — a structural trade-off most national comparisons
-          miss. NJ also prohibits tobacco rate differentials during the 6-month Medigap Open Enrollment Period,
-          a consumer protection unique among these four states.
+          Entry price is only half the story: New Jersey&apos;s community rating means the premium does not
+          climb with your age after you buy, unlike the attained-age pricing common in most states — a
+          structural trade-off most national comparisons miss. NJ also prohibits tobacco rate differentials
+          during the 6-month Medigap Open Enrollment Period. Massachusetts, Minnesota, and Wisconsin
+          standardize Medigap differently and are not included.
         </p>
 
         <h2 className="text-2xl font-bold text-gray-900 mb-4">Methodology</h2>

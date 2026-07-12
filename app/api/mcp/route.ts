@@ -57,12 +57,26 @@ const CARRIERS: Record<string, { name: string; url: string; summary: string }> =
 };
 
 const STATE_NAMES: Record<string, string> = {
-  NJ: "New Jersey",
-  PA: "Pennsylvania",
-  OH: "Ohio",
-  TX: "Texas",
-  NC: "North Carolina",
+  AL: "Alabama", AK: "Alaska", AZ: "Arizona", AR: "Arkansas", CA: "California",
+  CO: "Colorado", CT: "Connecticut", DE: "Delaware", DC: "Washington DC",
+  FL: "Florida", GA: "Georgia", HI: "Hawaii", ID: "Idaho", IL: "Illinois",
+  IN: "Indiana", IA: "Iowa", KS: "Kansas", KY: "Kentucky", LA: "Louisiana",
+  ME: "Maine", MD: "Maryland", MA: "Massachusetts", MI: "Michigan",
+  MN: "Minnesota", MS: "Mississippi", MO: "Missouri", MT: "Montana",
+  NE: "Nebraska", NV: "Nevada", NH: "New Hampshire", NJ: "New Jersey",
+  NM: "New Mexico", NY: "New York", NC: "North Carolina", ND: "North Dakota",
+  OH: "Ohio", OK: "Oklahoma", OR: "Oregon", PA: "Pennsylvania",
+  RI: "Rhode Island", SC: "South Carolina", SD: "South Dakota",
+  TN: "Tennessee", TX: "Texas", UT: "Utah", VT: "Vermont", VA: "Virginia",
+  WA: "Washington", WV: "West Virginia", WI: "Wisconsin", WY: "Wyoming",
 };
+
+// States available in the current snapshot — drives the tool schema so the
+// model only offers states we actually have data for.
+function snapshotStates(): string[] {
+  const snapshot = getSnapshot();
+  return Object.keys(snapshot?.states ?? {}).sort();
+}
 
 type HistoryState = {
   name: string;
@@ -93,15 +107,17 @@ function getCarrierHistory(): CarrierHistory | null {
   return historyCache ?? null;
 }
 
+const AVAILABLE_STATES = snapshotStates();
+
 const TOOLS = [
   {
     name: "get_medigap_rate_index",
     description:
-      "Get filed-rate statistics for Medicare Supplement (Medigap) Plan G or Plan N in a supported US state: lowest and highest filed monthly premium, dollar spread, number of carriers, and household-discount availability. Data are real carrier filed rates (CSG Actuarial) as published in the MedicareYourself Rate Index. Supported states: NJ, PA, OH, TX. Ages: 65, 67, 69.",
+      `Get filed-rate statistics for Medicare Supplement (Medigap) Plan G or Plan N in a US state: lowest and highest filed monthly premium, dollar spread, number of carriers, and household-discount availability. Data are real carrier filed rates (CSG Actuarial) as published in the MedicareYourself Rate Index. Supported states: ${AVAILABLE_STATES.join(", ")}. Ages: 65, 67, 69.`,
     inputSchema: {
       type: "object",
       properties: {
-        state: { type: "string", enum: ["NJ", "PA", "OH", "TX"], description: "Two-letter state code" },
+        state: { type: "string", enum: AVAILABLE_STATES, description: "Two-letter state code" },
         plan: { type: "string", enum: ["G", "N"], description: "Medigap plan letter" },
         age: { type: "string", enum: ["65", "67", "69"], description: "Applicant age (issue age)" },
       },
@@ -180,7 +196,7 @@ function rateIndex(state: string, plan: string, age: string) {
   const st = snapshot?.states?.[state];
   const entry = st?.plans?.[plan]?.[age];
   if (!snapshot || !st || !entry) {
-    return `No filed-rate data available for Plan ${plan} in ${state} at age ${age}. Supported: NJ/PA/OH/TX, plans G and N, ages 65/67/69. See ${SITE}/medicare-supplement for published guides.`;
+    return `No filed-rate data available for Plan ${plan} in ${state} at age ${age}. Supported states: ${AVAILABLE_STATES.join(", ")}; plans G and N; ages 65/67/69. (Massachusetts, Minnesota, and Wisconsin standardize Medigap differently and are not covered.) See ${SITE}/medicare-supplement for published guides.`;
   }
   const lines = [
     `Medigap Plan ${plan} in ${STATE_NAMES[state]} at age ${age} — filed rates as of ${snapshot.asOfDate} (sample: ZIP ${st.sampleZip}, ${st.sampleCity}, female, non-tobacco, no household discount):`,
