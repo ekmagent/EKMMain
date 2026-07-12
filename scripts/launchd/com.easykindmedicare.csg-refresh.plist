@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!-- Monthly CSG filed-rate snapshot refresh (1st of the month, 9am local).
+     Runs scripts/refresh-csg-snapshot.sh — see that file for the flow and
+     load/unload instructions. -->
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.easykindmedicare.csg-refresh</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>/Users/anthonyorner/Claude Code/easykindmedicare/scripts/refresh-csg-snapshot.sh</string>
+  </array>
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Day</key>
+    <integer>1</integer>
+    <key>Hour</key>
+    <integer>9</integer>
+    <key>Minute</key>
+    <integer>0</integer>
+  </dict>
+  <key>StandardOutPath</key>
+  <string>/Users/anthonyorner/Library/Logs/csg-refresh.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/anthonyorner/Library/Logs/csg-refresh.log</string>
+</dict>
+</plist>

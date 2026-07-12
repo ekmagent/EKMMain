@@ -1,12 +1,31 @@
 name: SEO Autoresearch Loop
 
+# RE-ENABLED 2026-07-12 with a restructured cadence. The original design (all
+# scripts daily, Opus everywhere, raw output pushed to main unverified) burned
+# ~$155/mo and once froze production for 11 weeks. The fix is not "no
+# automation" — it's spend proportional to updates:
+#
+#   daily-signals    cron, ~pennies  — measurement only (Perplexity + Serper),
+#                                      commits TSV logs, never touches app/
+#   weekly-optimiser cron, LLM spend — research + page quality fixes + new
+#                                      approved pages, build-gated, then
+#                                      IndexNow ping (Bing powers ChatGPT search)
+#   content-drafts   manual only     — off-site draft generators (press, video,
+#                                      social, quotes). These produce files a
+#                                      human must publish elsewhere, so they run
+#                                      on demand, not on a timer.
+#
+# Human-in-the-loop is POST-loop: nothing here waits for approval, but every
+# bot commit is reviewable via git log / the Actions run summary. The stop-
+# checks are automated instead: validate-pages.js + the build gate.
+#
+# NOTE: job `if:` conditions discriminate schedule events by exact cron string —
+# a bare `github.event_name == 'schedule'` would fire every job on every cron.
+
 on:
-  # DISABLED 2026-06-08 — automated cron removed to stop runaway Opus token
-  # spend (~$155/mo) and bot-corrupted commits to main. The pipeline pushed
-  # raw Opus output straight to main with no build gate, causing build
-  # failures and likely thin-content deindexing. Re-introduce automation one
-  # build-gated, cheap-model script at a time. Manual trigger still available
-  # below via workflow_dispatch; re-add a `schedule:` block here to resume.
+  schedule:
+    - cron: "0 18 * * *" # daily signals — 2pm ET (EDT)
+    - cron: "0 15 * * 1" # weekly optimiser — Mondays 11am ET (3h before daily to avoid push races)
   workflow_dispatch:
     inputs:
       run_mode:
@@ -18,15 +37,15 @@ on:
           - all
           - daily
           - weekly
+          - drafts
 
 jobs:
   daily-signals:
     runs-on: ubuntu-latest
-    # Manual "daily" or "all" trigger only (cron removed 2026-06-08).
-    # If a schedule: block is ever re-added, discriminate by cron string here —
-    # a bare `github.event_name == 'schedule'` also fires on the weekly cron.
+    # Measurement only: is anyone citing/ranking us? No LLM page edits, no
+    # app/ changes, so no build gate needed. Cost: Perplexity + Serper pennies.
     if: |
-      github.event_name == 'workflow_dispatch' && (github.event.inputs.run_mode == 'daily' || github.event.inputs.run_mode == 'all')
+      github.event.schedule == '0 18 * * *' || (github.event_name == 'workflow_dispatch' && (github.event.inputs.run_mode == 'daily' || github.event.inputs.run_mode == 'all'))
     permissions:
       contents: write
 
@@ -54,34 +73,22 @@ jobs:
           SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
         run: node scripts/serp-tracker.js
 
-      - name: Run orchestrator (quality audit + gap-fill)
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
-        run: node scripts/orchestrator.js
-
-      # BUILD GATE — bot page edits must compile before anything is pushed.
-      # A single corrupted page (stray comma, 2026-04-23) blocked every
-      # production deploy for 11 weeks. Never push app/ changes unverified.
-      - name: Build gate — verify site still compiles
+      - name: Commit signal logs
         run: |
-          npm ci
-          npm run build
-
-      - name: Commit signal logs and any page fixes
-        run: |
-          node scripts/stamp-page-dates.js
           git config user.name "SEO Research Bot"
           git config user.email "bot@medicareyourself.com"
-          git add citation-log.tsv serp-log.tsv orchestrator-log.tsv page-dates.json app/
-          git diff --cached --quiet || git commit -m "SEO signals + quality fixes: $(date +'%Y-%m-%d')"
+          git add citation-log.tsv serp-log.tsv
+          git diff --cached --quiet || git commit -m "SEO signals: $(date +'%Y-%m-%d')"
           git push
 
   weekly-optimiser:
     runs-on: ubuntu-latest
-    # Manual "weekly" or "all" trigger only (cron removed 2026-06-08).
+    # The spend job: pulls ranking/citation data, runs the Opus quality audit
+    # (orchestrator — moved here from daily; weekly cadence is the main cost
+    # cut), builds newly-approved Compact Keyword pages and PAA FAQ pages,
+    # validates, build-gates, pushes, then pings IndexNow.
     if: |
-      github.event_name == 'workflow_dispatch' && (github.event.inputs.run_mode == 'weekly' || github.event.inputs.run_mode == 'all')
+      github.event.schedule == '0 15 * * 1' || (github.event_name == 'workflow_dispatch' && (github.event.inputs.run_mode == 'weekly' || github.event.inputs.run_mode == 'all'))
     permissions:
       contents: write
 
@@ -124,6 +131,12 @@ jobs:
           SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
         run: node scripts/seo-research.js
 
+      - name: Run orchestrator (quality audit + gap-fill)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
+        run: node scripts/orchestrator.js
+
       - name: Analyze competitor keywords (Moz + Serper)
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -159,11 +172,85 @@ jobs:
           SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
         run: node scripts/build-faq-pages.js
 
+      # NOTE: Screaming Frog crawl (Module 04, Steps 4-6) runs locally via
+      # cron on macOS because it requires Screaming Frog SEO Spider installed.
+      # Run manually: cd scripts && npm run screaming-frog
+      # Results committed as screaming-frog-log.tsv + Google Sheets tab.
+
+      - name: Run site audit (Module 04)
+        env:
+          GOOGLE_CREDENTIALS_JSON: ${{ secrets.GOOGLE_CREDENTIALS_JSON_PATH }}
+          SITE_AUDIT_SHEET_ID: ${{ secrets.SITE_AUDIT_SHEET_ID }}
+          MOZ_API_TOKEN: ${{ secrets.MOZ_API_TOKEN }}
+          SITE_URL: ${{ secrets.SITE_URL }}
+        run: node scripts/site-audit.js
+
+      - name: Validate on-page SEO (Module 05)
+        run: node scripts/validate-pages.js
+
+      # BUILD GATE — bot page edits must compile before anything is pushed.
+      # A single corrupted page (stray comma, 2026-04-23) blocked every
+      # production deploy for 11 weeks. Never push app/ changes unverified.
+      - name: Build gate — verify site still compiles
+        run: |
+          npm ci
+          npm run build
+
+      - name: Commit results and any page updates
+        run: |
+          node scripts/stamp-page-dates.js
+          git config user.name "SEO Research Bot"
+          git config user.email "bot@medicareyourself.com"
+          git add page-dates.json results.tsv gsc-data.json gsc-keyword-opportunities.tsv faq-index.json faq-build-log.tsv bing-grounding.json bing-grounding-log.tsv ga4-ai-traffic.json ga4-ai-traffic-log.tsv compact-keywords-log.tsv compact-keywords-state.json compact-pages-log.tsv competitor-analysis-log.tsv competitor-analysis-state.json orchestrator-log.tsv site-audit-log.tsv screaming-frog-log.tsv page-validation-report.tsv change-log.tsv moz-usage.json app/
+          git diff --cached --quiet || git commit -m "SEO autoresearch: weekly update $(date +'%Y-%m-%d')"
+          git push
+
+      # Bing's index powers ChatGPT search — our highest-converting discovery
+      # channel. Submit the full sitemap (no dynamic args = no injection
+      # surface); IndexNow batches up to 10k URLs. The sleep lets the Vercel
+      # deploy triggered by the push above go live first. Soft-fail: a flaky
+      # IndexNow endpoint must not mark a successful publish run as failed.
+      - name: Submit sitemap to IndexNow (Bing → ChatGPT search)
+        run: |
+          sleep 180
+          node scripts/indexnow-submit.js || echo "IndexNow submission failed (non-fatal)"
+
+      - name: Log page changes (Module 09)
+        run: node scripts/change-log.js
+
+  content-drafts:
+    runs-on: ubuntu-latest
+    # Manual only. These generators produce DRAFTS (press releases, video
+    # scripts, social posts, expert quotes) that a human must publish on
+    # external platforms — running them on a timer just burns tokens filling
+    # folders nobody empties. Trigger when you're ready to publish a batch.
+    if: |
+      github.event_name == 'workflow_dispatch' && (github.event.inputs.run_mode == 'drafts' || github.event.inputs.run_mode == 'all')
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install script dependencies
+        run: |
+          cd scripts
+          npm install
+
       - name: Generate weekly press release draft
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: node scripts/generate-press-release.js
 
+      # claude.ai published artifacts carry a noindex meta tag (verified
+      # 2026-04-23) — artifact content is repurposed for on-site pages, not
+      # parasite SEO.
       - name: Generate weekly Claude Artifact
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -200,36 +287,10 @@ jobs:
           DIRECTORY_SEO_SHEET_ID: ${{ secrets.DIRECTORY_SEO_SHEET_ID }}
         run: node scripts/directory-tracker.js
 
-      # NOTE: Screaming Frog crawl (Module 04, Steps 4-6) runs locally via
-      # cron on macOS because it requires Screaming Frog SEO Spider installed.
-      # Run manually: cd scripts && npm run screaming-frog
-      # Results committed as screaming-frog-log.tsv + Google Sheets tab.
-
-      - name: Run site audit (Module 04)
-        env:
-          GOOGLE_CREDENTIALS_JSON: ${{ secrets.GOOGLE_CREDENTIALS_JSON_PATH }}
-          SITE_AUDIT_SHEET_ID: ${{ secrets.SITE_AUDIT_SHEET_ID }}
-          MOZ_API_TOKEN: ${{ secrets.MOZ_API_TOKEN }}
-          SITE_URL: ${{ secrets.SITE_URL }}
-        run: node scripts/site-audit.js
-
-      - name: Validate on-page SEO (Module 05)
-        run: node scripts/validate-pages.js
-
-      # BUILD GATE — same rule as the daily job: no unverified app/ pushes.
-      - name: Build gate — verify site still compiles
+      - name: Commit draft outputs
         run: |
-          npm ci
-          npm run build
-
-      - name: Commit results and any page updates
-        run: |
-          node scripts/stamp-page-dates.js
           git config user.name "SEO Research Bot"
           git config user.email "bot@medicareyourself.com"
-          git add page-dates.json results.tsv gsc-data.json gsc-keyword-opportunities.tsv faq-index.json faq-build-log.tsv bing-grounding.json bing-grounding-log.tsv ga4-ai-traffic.json ga4-ai-traffic-log.tsv compact-keywords-log.tsv compact-keywords-state.json compact-pages-log.tsv competitor-analysis-log.tsv competitor-analysis-state.json press-releases/ press-release-log.tsv press-release-state.json artifacts/ artifact-log.tsv artifact-state.json video-scripts/ video-seo-state.json video-seo-log.tsv competitor-videos/ competitor-videos-state.json competitor-videos-log.tsv x-threads/ x-threads-state.json x-threads-log.tsv social-posts/ social-posts-state.json social-posts-log.tsv expert-quotes/ expert-quotes-state.json expert-quotes-log.tsv directory-log.tsv site-audit-log.tsv screaming-frog-log.tsv page-validation-report.tsv change-log.tsv moz-usage.json app/
-          git diff --cached --quiet || git commit -m "SEO autoresearch: weekly update $(date +'%Y-%m-%d')"
+          git add press-releases/ press-release-log.tsv press-release-state.json artifacts/ artifact-log.tsv artifact-state.json video-scripts/ video-seo-state.json video-seo-log.tsv competitor-videos/ competitor-videos-state.json competitor-videos-log.tsv x-threads/ x-threads-state.json x-threads-log.tsv social-posts/ social-posts-state.json social-posts-log.tsv expert-quotes/ expert-quotes-state.json expert-quotes-log.tsv directory-log.tsv
+          git diff --cached --quiet || git commit -m "Content drafts: $(date +'%Y-%m-%d')"
           git push
-
-      - name: Log page changes (Module 09)
-        run: node scripts/change-log.js
