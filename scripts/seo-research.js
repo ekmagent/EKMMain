@@ -317,6 +317,8 @@ async function main() {
     fs.writeFileSync(opportunitiesPath, oppHeader, "utf8");
   }
 
+  const today = new Date().toISOString().split("T")[0];
+
   const allQueries = gsc.queries || [];
   const oppRows = [];
 
@@ -354,7 +356,6 @@ async function main() {
   }
 
   const client = new Anthropic();
-  const today = new Date().toISOString().split("T")[0];
   const resultsPath = path.resolve(__dirname, "..", "results.tsv");
   const resultsHeader = "date\tpage\timpressions\tclicks\tctr\tposition\tchange_type\tnew_value\tstatus\n";
 
