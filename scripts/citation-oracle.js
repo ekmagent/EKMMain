@@ -29,6 +29,16 @@ const TARGET_QUERIES = [
   "bankers fidelity medicare supplement review",
   "woodmenlife medicare supplement review",
   "mutual of omaha plan g rate increase history",
+  // Broker-intent local queries — added 2026-07-12 with /medicare-broker/new-jersey.
+  // These are the query classes publisher sites (MoneyGeek/NerdWallet tier) can't
+  // serve: the asker wants a licensed local human, not a listicle.
+  "medicare broker in new jersey",
+  "best medicare broker near me nj",
+  "should I use a medicare broker in new jersey",
+  "medicare agent cherry hill nj",
+  "medicare broker camden county nj",
+  "medicare broker ocean county nj",
+  "do medigap rates vary by county in new jersey",
 ];
 
 async function queryPerplexity(query, apiKey) {
