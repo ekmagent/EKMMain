@@ -38,7 +38,7 @@ const CHECKS = [
 // Helpers
 // ---------------------------------------------------------------------------
 
-/** Recursively find all app/**/page.tsx files. */
+/** Recursively find every page.tsx under app/. (Don't write the glob in this comment — a slash-star sequence inside it terminates the comment and breaks the file.) */
 async function findPageFiles(appDir) {
   const pattern = path.join(appDir, "**", "page.tsx").replace(/\\/g, "/");
   return glob(pattern);
