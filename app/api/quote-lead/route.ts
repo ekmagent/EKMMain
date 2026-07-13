@@ -32,6 +32,57 @@ function clean(value: unknown, max = 300): string {
   return typeof value === "string" ? value.slice(0, max).trim() : "";
 }
 
+const GHL_API_BASE = "https://services.leadconnector.com";
+
+// Creates/updates the contact in GHL via the free REST API (no billed
+// inbound-webhook trigger). Attaches lead context as a contact note.
+async function deliverToGhlApi(
+  token: string,
+  locationId: string,
+  lead: Record<string, unknown>,
+  noteBody: string
+): Promise<Response> {
+  const fullName = String(lead.name);
+  const [firstName, ...rest] = fullName.split(/\s+/);
+  const res = await fetch(`${GHL_API_BASE}/contacts/upsert`, {
+    method: "POST",
+    headers: {
+      Authorization: `Bearer ${token}`,
+      Version: "2021-07-28",
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      locationId,
+      firstName,
+      lastName: rest.join(" ") || undefined,
+      name: fullName,
+      email: lead.email,
+      phone: `+1${lead.phone}`,
+      postalCode: lead.zip,
+      dateOfBirth: lead.dob,
+      source: "medicareyourself.com /quote",
+      tags: ["website-quote"],
+    }),
+  });
+  if (res.ok) {
+    const data = await res.json().catch(() => null);
+    const contactId = data?.contact?.id;
+    if (contactId) {
+      // Best-effort: full context as a note on the contact
+      await fetch(`${GHL_API_BASE}/contacts/${contactId}/notes`, {
+        method: "POST",
+        headers: {
+          Authorization: `Bearer ${token}`,
+          Version: "2021-07-28",
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ body: noteBody }),
+      }).catch(() => null);
+    }
+  }
+  return res;
+}
+
 export async function POST(req: NextRequest) {
   let body: Record<string, unknown>;
   try {
@@ -102,8 +153,11 @@ export async function POST(req: NextRequest) {
   const slackUrl = process.env.SLACK_WEBHOOK_URL;
   const ghlUrl = process.env.GHL_WEBHOOK_URL;
   const genericUrl = process.env.WEBHOOK_URL;
+  const ghlApiToken = process.env.GHL_API_TOKEN;
+  const ghlLocationId = process.env.GHL_LOCATION_ID;
+  const ghlApiConfigured = Boolean(ghlApiToken && ghlLocationId);
 
-  if (!slackUrl && !ghlUrl && !genericUrl) {
+  if (!slackUrl && !ghlUrl && !genericUrl && !ghlApiConfigured) {
     return NextResponse.json(
       { ok: false, error: "Something went wrong. Please call us at 855-559-1700." },
       { status: 500 }
@@ -120,7 +174,20 @@ export async function POST(req: NextRequest) {
     `*Landed on:* ${landing || "n/a"}  ·  *Referrer:* ${referrer || "none"}`,
   ].join("\n");
 
+  const noteBody = [
+    `Website quote request (${lead.submitted_at})`,
+    `Why: ${lead.reason}`,
+    `Found us via: ${lead.source}`,
+    `Reach out by: ${lead.contact_preference}`,
+    `Clicked from: ${prevPage || "(direct to /quote)"}`,
+    `Landed on: ${landing || "n/a"}`,
+    `Referrer: ${referrer || "none"}`,
+  ].join("\n");
+
   const deliveries: Promise<Response>[] = [];
+  if (ghlApiConfigured) {
+    deliveries.push(deliverToGhlApi(ghlApiToken!, ghlLocationId!, lead, noteBody));
+  }
   if (slackUrl) {
     deliveries.push(
       fetch(slackUrl, {
