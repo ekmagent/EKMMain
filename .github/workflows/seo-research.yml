@@ -39,6 +39,12 @@ on:
           - weekly
           - drafts
 
+# Runs queue behind each other instead of overlapping — a long weekly run
+# and the daily cron were racing on git push.
+concurrency:
+  group: seo-autoresearch
+  cancel-in-progress: false
+
 jobs:
   daily-signals:
     runs-on: ubuntu-latest
@@ -151,6 +157,24 @@ jobs:
           SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
         run: node scripts/orchestrator.js
 
+      # CHECKPOINT — research + orchestrator above are ~80% of this run's
+      # token spend. Build-gate and push their output NOW so no later step
+      # can discard paid work (attempts 3-4 on 2026-07-13 each lost the full
+      # spend to late-step failures).
+      - name: Checkpoint — persist research + orchestrator output
+        run: |
+          npm ci
+          npm run build
+          node scripts/stamp-page-dates.js
+          git config user.name "SEO Research Bot"
+          git config user.email "bot@medicareyourself.com"
+          for p in page-dates.json results.tsv gsc-data.json gsc-keyword-opportunities.tsv bing-grounding.json bing-grounding-log.tsv ga4-ai-traffic.json ga4-ai-traffic-log.tsv orchestrator-log.tsv app/; do
+            [ -e "$p" ] && git add "$p"
+          done
+          git diff --cached --quiet || git commit -m "SEO weekly checkpoint (research + orchestrator): $(date +'%Y-%m-%d')"
+          git pull --rebase --autostash
+          git push
+
       - name: Analyze competitor keywords (Moz + Serper)
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -219,7 +243,9 @@ jobs:
           node scripts/stamp-page-dates.js
           git config user.name "SEO Research Bot"
           git config user.email "bot@medicareyourself.com"
-          git add page-dates.json results.tsv gsc-data.json gsc-keyword-opportunities.tsv faq-index.json faq-build-log.tsv bing-grounding.json bing-grounding-log.tsv ga4-ai-traffic.json ga4-ai-traffic-log.tsv compact-keywords-log.tsv compact-keywords-state.json compact-pages-log.tsv competitor-analysis-log.tsv competitor-analysis-state.json orchestrator-log.tsv site-audit-log.tsv screaming-frog-log.tsv page-validation-report.tsv change-log.tsv moz-usage.json app/
+          for p in page-dates.json results.tsv gsc-data.json gsc-keyword-opportunities.tsv faq-index.json faq-build-log.tsv bing-grounding.json bing-grounding-log.tsv ga4-ai-traffic.json ga4-ai-traffic-log.tsv compact-keywords-log.tsv compact-keywords-state.json compact-pages-log.tsv competitor-analysis-log.tsv competitor-analysis-state.json orchestrator-log.tsv site-audit-log.tsv screaming-frog-log.tsv page-validation-report.tsv change-log.tsv moz-usage.json app/; do
+            [ -e "$p" ] && git add "$p"
+          done
           git diff --cached --quiet || git commit -m "SEO autoresearch: weekly update $(date +'%Y-%m-%d')"
           git pull --rebase --autostash
           git push
@@ -313,7 +339,9 @@ jobs:
         run: |
           git config user.name "SEO Research Bot"
           git config user.email "bot@medicareyourself.com"
-          git add press-releases/ press-release-log.tsv press-release-state.json artifacts/ artifact-log.tsv artifact-state.json video-scripts/ video-seo-state.json video-seo-log.tsv competitor-videos/ competitor-videos-state.json competitor-videos-log.tsv x-threads/ x-threads-state.json x-threads-log.tsv social-posts/ social-posts-state.json social-posts-log.tsv expert-quotes/ expert-quotes-state.json expert-quotes-log.tsv directory-log.tsv
+          for p in press-releases/ press-release-log.tsv press-release-state.json artifacts/ artifact-log.tsv artifact-state.json video-scripts/ video-seo-state.json video-seo-log.tsv competitor-videos/ competitor-videos-state.json competitor-videos-log.tsv x-threads/ x-threads-state.json x-threads-log.tsv social-posts/ social-posts-state.json social-posts-log.tsv expert-quotes/ expert-quotes-state.json expert-quotes-log.tsv directory-log.tsv; do
+            [ -e "$p" ] && git add "$p"
+          done
           git diff --cached --quiet || git commit -m "Content drafts: $(date +'%Y-%m-%d')"
           git pull --rebase --autostash
           git push
