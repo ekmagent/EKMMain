@@ -106,19 +106,26 @@ jobs:
           cd scripts
           npm install
 
+      # The three measurement fetches are soft-fail: a broken analytics API
+      # must never block the research/build/publish steps below (2026-07-13:
+      # the GA4 step — secrets never configured — aborted the entire weekly
+      # run). Downstream scripts fall back to the last committed JSON/TSV.
       - name: Fetch GSC ranking data
+        continue-on-error: true
         env:
           GSC_SERVICE_ACCOUNT_JSON: ${{ secrets.GSC_SERVICE_ACCOUNT_JSON }}
           SITE_URL: ${{ secrets.SITE_URL }}
         run: node scripts/fetch-gsc-data.js
 
       - name: Fetch Bing grounding queries (LLM citation signals)
+        continue-on-error: true
         env:
           BING_WEBMASTER_API_KEY: ${{ secrets.BING_WEBMASTER_API_KEY }}
           BING_WEBMASTER_SITE_URL: ${{ secrets.BING_WEBMASTER_SITE_URL }}
         run: node scripts/fetch-bing-grounding.js
 
       - name: Fetch GA4 AI referral traffic
+        continue-on-error: true
         env:
           GA4_PROPERTY_ID: ${{ secrets.GA4_PROPERTY_ID }}
           GA4_SERVICE_ACCOUNT_JSON: ${{ secrets.GA4_SERVICE_ACCOUNT_JSON }}
