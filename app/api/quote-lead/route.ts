@@ -44,26 +44,37 @@ async function deliverToGhlApi(
 ): Promise<Response> {
   const fullName = String(lead.name);
   const [firstName, ...rest] = fullName.split(/\s+/);
-  const res = await fetch(`${GHL_API_BASE}/contacts/upsert`, {
-    method: "POST",
-    headers: {
-      Authorization: `Bearer ${token}`,
-      Version: "2021-07-28",
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify({
-      locationId,
-      firstName,
-      lastName: rest.join(" ") || undefined,
-      name: fullName,
-      email: lead.email,
-      phone: `+1${lead.phone}`,
-      postalCode: lead.zip,
-      dateOfBirth: lead.dob,
-      source: "medicareyourself.com /quote",
-      tags: ["website-quote"],
-    }),
-  });
+  let res: Response;
+  try {
+    res = await fetch(`${GHL_API_BASE}/contacts/upsert`, {
+      method: "POST",
+      headers: {
+        Authorization: `Bearer ${token}`,
+        Version: "2021-07-28",
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        locationId,
+        firstName,
+        lastName: rest.join(" ") || undefined,
+        name: fullName,
+        email: lead.email,
+        phone: `+1${lead.phone}`,
+        postalCode: lead.zip,
+        dateOfBirth: lead.dob,
+        source: "medicareyourself.com /quote",
+        tags: ["website-quote"],
+      }),
+    });
+  } catch (err) {
+    // Token redacted; message only — never lead fields
+    const msg = String(err instanceof Error ? err.message : err)
+      .split(token)
+      .join("***")
+      .slice(0, 200);
+    console.log("ghl_api exception:", msg);
+    throw err;
+  }
   if (res.ok) {
     const data = await res.json().catch(() => null);
     const contactId = data?.contact?.id;
@@ -153,8 +164,8 @@ export async function POST(req: NextRequest) {
   const slackUrl = process.env.SLACK_WEBHOOK_URL;
   const ghlUrl = process.env.GHL_WEBHOOK_URL;
   const genericUrl = process.env.WEBHOOK_URL;
-  const ghlApiToken = process.env.GHL_API_TOKEN;
-  const ghlLocationId = process.env.GHL_LOCATION_ID;
+  const ghlApiToken = process.env.GHL_API_TOKEN?.trim();
+  const ghlLocationId = process.env.GHL_LOCATION_ID?.trim();
   const ghlApiConfigured = Boolean(ghlApiToken && ghlLocationId);
 
   if (!slackUrl && !ghlUrl && !genericUrl && !ghlApiConfigured) {
