@@ -39,6 +39,9 @@ const TARGET_QUERIES = [
   "medicare broker camden county nj",
   "medicare broker ocean county nj",
   "do medigap rates vary by county in new jersey",
+  // AB Newswire experiment — target keyword of the 2026-07-12 Rate Index
+  // release. If the release earns citations, consider the $500/yr plan.
+  "new jersey medigap rates",
 ];
 
 async function queryPerplexity(query, apiKey) {

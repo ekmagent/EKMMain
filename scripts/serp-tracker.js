@@ -58,6 +58,8 @@ const TARGET_QUERIES = [
   "medicare broker monmouth county nj",
   "medicare agent toms river nj",
   "medicare agent lakewood nj",
+  // AB Newswire experiment — target keyword of the 2026-07-12 Rate Index release
+  "new jersey medigap rates",
 ];
 
 async function serpSearch(query, apiKey) {
