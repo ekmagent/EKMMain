@@ -42,6 +42,7 @@ const organizationSchema = {
   telephone: BUSINESS.telephone,
   address: businessAddress(),
   geo: { "@type": "GeoCoordinates", latitude: BUSINESS.lat, longitude: BUSINESS.lng },
+  sameAs: BUSINESS.orgSameAs,
   founder: founderPerson(),
   description:
     "Independent Medicare insurance broker based in Cherry Hill, NJ, helping people compare Medicare Supplement and Medicare Advantage plans in New Jersey and 34 other states.",

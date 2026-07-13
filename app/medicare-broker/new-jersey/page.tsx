@@ -96,6 +96,7 @@ export default function NewJerseyMedicareBrokerHub() {
     telephone: BUSINESS.telephone,
     address: businessAddress(),
     geo: { "@type": "GeoCoordinates", latitude: BUSINESS.lat, longitude: BUSINESS.lng },
+    sameAs: BUSINESS.orgSameAs,
     areaServed: NJ_COUNTIES.map((c) => ({
       "@type": "AdministrativeArea",
       name: `${c.name}, NJ`,

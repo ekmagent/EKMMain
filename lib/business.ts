@@ -21,9 +21,20 @@ export const BUSINESS = {
   founderNPN: "20586791",
   founderNPI: "1902584006",
   aboutUrl: "https://medicareyourself.com/about",
+  // Public profiles of the SAME business entity (easyKind Medicare) — these
+  // stitch medicareyourself.com to the review/citation footprint that lives
+  // under the easykindmedicare.com brand. Verified live 2026-07-12.
+  orgSameAs: [
+    "https://www.easykindmedicare.com",
+    "https://www.yelp.com/biz/easykind-medicare-cherry-hill",
+    "https://www.bbb.org/us/nj/cherry-hill/profile/health-consultants/easykind-medicare-0221-90234473",
+    "https://www.facebook.com/easyKindMedicare/",
+    "https://www.linkedin.com/company/easykind-medicare",
+  ],
   sameAs: [
     // NPPES registry entry for Anthony Orner — authoritative identity link
     "https://npiregistry.cms.hhs.gov/provider-view/1902584006",
+    "https://www.linkedin.com/in/anthonyorner/",
   ],
 } as const;
 
