@@ -1,0 +1,406 @@
+{
+  "asOfDate": "2026-07-13",
+  "sourceApi": "CSG Actuarial v1",
+  "notes": "Aggregate ranges only; carrier names never exposed. One representative ZIP per NJ county (largest senior-population center). Female non-tobacco, age 65.",
+  "counties": {
+    "atlantic-county": {
+      "zip": "08234",
+      "plans": {
+        "G": {
+          "carrierCount": 18,
+          "low": 147.88,
+          "high": 260.98,
+          "spread": 113.1,
+          "hhdLow": 155.15
+        },
+        "N": {
+          "carrierCount": 19,
+          "low": 106.57,
+          "high": 208.53,
+          "spread": 101.96,
+          "hhdLow": 105.3
+        }
+      }
+    },
+    "bergen-county": {
+      "zip": "07601",
+      "plans": {
+        "G": {
+          "carrierCount": 18,
+          "low": 147.88,
+          "high": 260.98,
+          "spread": 113.1,
+          "hhdLow": 155.15
+        },
+        "N": {
+          "carrierCount": 19,
+          "low": 106.57,
+          "high": 208.53,
+          "spread": 101.96,
+          "hhdLow": 105.3
+        }
+      }
+    },
+    "burlington-county": {
+      "zip": "08054",
+      "plans": {
+        "G": {
+          "carrierCount": 18,
+          "low": 147.88,
+          "high": 260.98,
+          "spread": 113.1,
+          "hhdLow": 155.15
+        },
+        "N": {
+          "carrierCount": 19,
+          "low": 106.57,
+          "high": 208.53,
+          "spread": 101.96,
+          "hhdLow": 105.3
+        }
+      }
+    },
+    "camden-county": {
+      "zip": "08002",
+      "plans": {
+        "G": {
+          "carrierCount": 18,
+          "low": 147.88,
+          "high": 260.98,
+          "spread": 113.1,
+          "hhdLow": 155.15
+        },
+        "N": {
+          "carrierCount": 19,
+          "low": 106.57,
+          "high": 208.53,
+          "spread": 101.96,
+          "hhdLow": 105.3
+        }
+      }
+    },
+    "cape-may-county": {
+      "zip": "08210",
+      "plans": {
+        "G": {
+          "carrierCount": 18,
+          "low": 147.88,
+          "high": 260.98,
+          "spread": 113.1,
+          "hhdLow": 155.15
+        },
+        "N": {
+          "carrierCount": 19,
+          "low": 106.57,
+          "high": 208.53,
+          "spread": 101.96,
+          "hhdLow": 105.3
+        }
+      }
+    },
+    "cumberland-county": {
+      "zip": "08360",
+      "plans": {
+        "G": {
+          "carrierCount": 18,
+          "low": 147.88,
+          "high": 260.98,
+          "spread": 113.1,
+          "hhdLow": 155.15
+        },
+        "N": {
+          "carrierCount": 19,
+          "low": 106.57,
+          "high": 208.53,
+          "spread": 101.96,
+          "hhdLow": 105.3
+        }
+      }
+    },
+    "essex-county": {
+      "zip": "07102",
+      "plans": {
+        "G": {
+          "carrierCount": 18,
+          "low": 147.88,
+          "high": 260.98,
+          "spread": 113.1,
+          "hhdLow": 155.15
+        },
+        "N": {
+          "carrierCount": 19,
+          "low": 106.57,
+          "high": 208.53,
+          "spread": 101.96,
+          "hhdLow": 105.3
+        }
+      }
+    },
+    "gloucester-county": {
+      "zip": "08080",
+      "plans": {
+        "G": {
+          "carrierCount": 18,
+          "low": 147.88,
+          "high": 260.98,
+          "spread": 113.1,
+          "hhdLow": 155.15
+        },
+        "N": {
+          "carrierCount": 19,
+          "low": 106.57,
+          "high": 208.53,
+          "spread": 101.96,
+          "hhdLow": 105.3
+        }
+      }
+    },
+    "hudson-county": {
+      "zip": "07030",
+      "plans": {
+        "G": {
+          "carrierCount": 18,
+          "low": 147.88,
+          "high": 260.98,
+          "spread": 113.1,
+          "hhdLow": 155.15
+        },
+        "N": {
+          "carrierCount": 19,
+          "low": 106.57,
+          "high": 208.53,
+          "spread": 101.96,
+          "hhdLow": 105.3
+        }
+      }
+    },
+    "hunterdon-county": {
+      "zip": "08822",
+      "plans": {
+        "G": {
+          "carrierCount": 18,
+          "low": 147.88,
+          "high": 260.98,
+          "spread": 113.1,
+          "hhdLow": 155.15
+        },
+        "N": {
+          "carrierCount": 19,
+          "low": 106.57,
+          "high": 208.53,
+          "spread": 101.96,
+          "hhdLow": 105.3
+        }
+      }
+    },
+    "mercer-county": {
+      "zip": "08608",
+      "plans": {
+        "G": {
+          "carrierCount": 18,
+          "low": 147.88,
+          "high": 260.98,
+          "spread": 113.1,
+          "hhdLow": 155.15
+        },
+        "N": {
+          "carrierCount": 19,
+          "low": 106.57,
+          "high": 208.53,
+          "spread": 101.96,
+          "hhdLow": 105.3
+        }
+      }
+    },
+    "middlesex-county": {
+      "zip": "08817",
+      "plans": {
+        "G": {
+          "carrierCount": 18,
+          "low": 147.88,
+          "high": 260.98,
+          "spread": 113.1,
+          "hhdLow": 155.15
+        },
+        "N": {
+          "carrierCount": 19,
+          "low": 106.57,
+          "high": 208.53,
+          "spread": 101.96,
+          "hhdLow": 105.3
+        }
+      }
+    },
+    "monmouth-county": {
+      "zip": "07728",
+      "plans": {
+        "G": {
+          "carrierCount": 18,
+          "low": 147.88,
+          "high": 260.98,
+          "spread": 113.1,
+          "hhdLow": 155.15
+        },
+        "N": {
+          "carrierCount": 19,
+          "low": 106.57,
+          "high": 208.53,
+          "spread": 101.96,
+          "hhdLow": 105.3
+        }
+      }
+    },
+    "morris-county": {
+      "zip": "07960",
+      "plans": {
+        "G": {
+          "carrierCount": 18,
+          "low": 147.88,
+          "high": 260.98,
+          "spread": 113.1,
+          "hhdLow": 155.15
+        },
+        "N": {
+          "carrierCount": 19,
+          "low": 106.57,
+          "high": 208.53,
+          "spread": 101.96,
+          "hhdLow": 105.3
+        }
+      }
+    },
+    "ocean-county": {
+      "zip": "08753",
+      "plans": {
+        "G": {
+          "carrierCount": 18,
+          "low": 147.88,
+          "high": 260.98,
+          "spread": 113.1,
+          "hhdLow": 155.15
+        },
+        "N": {
+          "carrierCount": 19,
+          "low": 106.57,
+          "high": 208.53,
+          "spread": 101.96,
+          "hhdLow": 105.3
+        }
+      }
+    },
+    "passaic-county": {
+      "zip": "07470",
+      "plans": {
+        "G": {
+          "carrierCount": 18,
+          "low": 147.88,
+          "high": 260.98,
+          "spread": 113.1,
+          "hhdLow": 155.15
+        },
+        "N": {
+          "carrierCount": 19,
+          "low": 106.57,
+          "high": 208.53,
+          "spread": 101.96,
+          "hhdLow": 105.3
+        }
+      }
+    },
+    "salem-county": {
+      "zip": "08079",
+      "plans": {
+        "G": {
+          "carrierCount": 18,
+          "low": 147.88,
+          "high": 260.98,
+          "spread": 113.1,
+          "hhdLow": 155.15
+        },
+        "N": {
+          "carrierCount": 19,
+          "low": 106.57,
+          "high": 208.53,
+          "spread": 101.96,
+          "hhdLow": 105.3
+        }
+      }
+    },
+    "somerset-county": {
+      "zip": "08807",
+      "plans": {
+        "G": {
+          "carrierCount": 18,
+          "low": 147.88,
+          "high": 260.98,
+          "spread": 113.1,
+          "hhdLow": 155.15
+        },
+        "N": {
+          "carrierCount": 19,
+          "low": 106.57,
+          "high": 208.53,
+          "spread": 101.96,
+          "hhdLow": 105.3
+        }
+      }
+    },
+    "sussex-county": {
+      "zip": "07860",
+      "plans": {
+        "G": {
+          "carrierCount": 18,
+          "low": 147.88,
+          "high": 260.98,
+          "spread": 113.1,
+          "hhdLow": 155.15
+        },
+        "N": {
+          "carrierCount": 19,
+          "low": 106.57,
+          "high": 208.53,
+          "spread": 101.96,
+          "hhdLow": 105.3
+        }
+      }
+    },
+    "union-county": {
+      "zip": "07083",
+      "plans": {
+        "G": {
+          "carrierCount": 18,
+          "low": 147.88,
+          "high": 260.98,
+          "spread": 113.1,
+          "hhdLow": 155.15
+        },
+        "N": {
+          "carrierCount": 19,
+          "low": 106.57,
+          "high": 208.53,
+          "spread": 101.96,
+          "hhdLow": 105.3
+        }
+      }
+    },
+    "warren-county": {
+      "zip": "08865",
+      "plans": {
+        "G": {
+          "carrierCount": 18,
+          "low": 147.88,
+          "high": 260.98,
+          "spread": 113.1,
+          "hhdLow": 155.15
+        },
+        "N": {
+          "carrierCount": 19,
+          "low": 106.57,
+          "high": 208.53,
+          "spread": 101.96,
+          "hhdLow": 105.3
+        }
+      }
+    }
+  }
+}

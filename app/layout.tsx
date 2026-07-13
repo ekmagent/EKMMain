@@ -4,6 +4,8 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import AttributionTracker from "@/components/AttributionTracker";
+import SchemaMarkup from "@/components/SchemaMarkup";
+import { BUSINESS, businessAddress, founderPerson } from "@/lib/business";
 import { SITE_URL } from "@/lib/site";
 
 const montserrat = Montserrat({
@@ -26,6 +28,26 @@ export const metadata: Metadata = {
   },
 };
 
+// Site-wide entity graph: one canonical InsuranceAgency node (@id anchored)
+// that every page-level schema can reference. NAP must match the footer and
+// the Google Business Profile exactly.
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "InsuranceAgency",
+  "@id": `${BUSINESS.url}/#organization`,
+  name: BUSINESS.name,
+  alternateName: BUSINESS.alternateName,
+  legalName: BUSINESS.legalName,
+  url: BUSINESS.url,
+  telephone: BUSINESS.telephone,
+  address: businessAddress(),
+  geo: { "@type": "GeoCoordinates", latitude: BUSINESS.lat, longitude: BUSINESS.lng },
+  founder: founderPerson(),
+  description:
+    "Independent Medicare insurance broker based in Cherry Hill, NJ, helping people compare Medicare Supplement and Medicare Advantage plans in New Jersey and 34 other states.",
+  priceRange: "Free consultation",
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -34,6 +56,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${montserrat.variable} antialiased font-sans`}>
+        <SchemaMarkup schema={organizationSchema} />
         <AttributionTracker />
         <Header />
         <main>{children}</main>

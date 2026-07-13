@@ -31,6 +31,7 @@ export default function Footer() {
           <div>
             <h3 className="text-sm font-bold text-[#1C2B27] uppercase tracking-wide mb-4">Medicare Plans</h3>
             <ul className="space-y-3 text-sm text-[#3A5048]">
+              <li><Link href="/medicare-broker/new-jersey" className="hover:text-[#2D6E5F] transition-colors">New Jersey Medicare Broker</Link></li>
               <li><Link href="/medicare-supplement/new-jersey" className="hover:text-[#2D6E5F] transition-colors">Medicare Supplement — New Jersey</Link></li>
               <li><Link href="/medicare-supplement/pennsylvania" className="hover:text-[#2D6E5F] transition-colors">Medicare Supplement — Pennsylvania</Link></li>
               <li><Link href="/medicare-advantage/new-jersey" className="hover:text-[#2D6E5F] transition-colors">Medicare Advantage — New Jersey</Link></li>

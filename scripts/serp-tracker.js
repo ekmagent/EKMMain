@@ -9,6 +9,15 @@ const path = require("path");
 
 const SITE_DOMAIN = "medicareyourself.com";
 
+// Local competitors tracked head-to-head (positions logged to competitor-serp-log.tsv
+// from the same API responses — no extra Serper calls).
+const COMPETITOR_DOMAINS = [
+  "mediplansnj.com",
+  "njseniorhealth.com",
+  "njlifeandhealth.com",
+  "thebig65.com",
+];
+
 const TARGET_QUERIES = [
   "best medicare supplement plans new jersey 2026",
   "best medigap plans in NJ",
@@ -35,6 +44,20 @@ const TARGET_QUERIES = [
   "bankers fidelity medicare supplement review",
   "woodmenlife medicare supplement review",
   "compare medigap policies",
+  // Local-domination queries — added 2026-07-12 with the /medicare-broker/new-jersey cluster.
+  // Watch mediplansnj.com, njseniorhealth.com, njlifeandhealth.com, thebig65.com on these.
+  "medicare broker nj",
+  "medicare broker new jersey",
+  "medicare agent new jersey",
+  "best medicare broker nj",
+  "medicare broker near me new jersey",
+  "cherry hill nj medicare agent",
+  "medicare broker camden county nj",
+  "medicare broker ocean county nj",
+  "medicare broker bergen county nj",
+  "medicare broker monmouth county nj",
+  "medicare agent toms river nj",
+  "medicare agent lakewood nj",
 ];
 
 async function serpSearch(query, apiKey) {
@@ -91,7 +114,17 @@ async function main() {
     );
   }
 
+  const competitorLogPath = path.resolve(__dirname, "..", "competitor-serp-log.tsv");
+  if (!fs.existsSync(competitorLogPath)) {
+    fs.writeFileSync(
+      competitorLogPath,
+      "date\tquery\tdomain\tposition\turl\n",
+      "utf8"
+    );
+  }
+
   const rows = [];
+  const competitorRows = [];
   let ranked = 0;
   let top10 = 0;
 
@@ -100,6 +133,13 @@ async function main() {
       console.log(`Checking SERP: "${query}"`);
       const data = await serpSearch(query, apiKey);
       const { position, url, title } = findPosition(data, SITE_DOMAIN);
+
+      for (const domain of COMPETITOR_DOMAINS) {
+        const comp = findPosition(data, domain);
+        competitorRows.push(
+          [today, query, domain, comp.position, comp.url].join("\t")
+        );
+      }
 
       if (position === -1) {
         console.log(`  ✗ Not in top 20`);
@@ -124,6 +164,9 @@ async function main() {
   }
 
   fs.appendFileSync(logPath, rows.join("\n") + "\n", "utf8");
+  if (competitorRows.length > 0) {
+    fs.appendFileSync(competitorLogPath, competitorRows.join("\n") + "\n", "utf8");
+  }
 
   console.log(
     `\nSERP tracker complete: ${ranked}/${TARGET_QUERIES.length} queries ranked, ${top10} in top 10`

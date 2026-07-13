@@ -4,6 +4,7 @@ import Link from "next/link";
 import PhoneCTA from "@/components/PhoneCTA";
 import FAQSection from "@/components/FAQSection";
 import SchemaMarkup from "@/components/SchemaMarkup";
+import LocalServiceSchema from "@/components/LocalServiceSchema";
 
 export const metadata: Metadata = {
   title:
@@ -92,6 +93,7 @@ export default function MedicareInMonmouthCountyNewJersey() {
   return (
     <main className="max-w-4xl mx-auto px-4 py-8">
       <SchemaMarkup schema={[breadcrumbSchema, articleSchema]} />
+      <LocalServiceSchema countySlug="monmouth-county" />
 
       <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
         <Link href="/" className="hover:underline">
@@ -221,9 +223,11 @@ export default function MedicareInMonmouthCountyNewJersey() {
           Local resources and hospital systems
         </h2>
         <p className="text-gray-700 mb-2">
-          Monmouth County is served by Hackensack Meridian Health, including
-          Monmouth Medical Center in Long Branch and Bayshore Medical Center in
-          Holmdel. CentraState Medical Center in Freehold is part of the Atlantic
+          Monmouth County is served by Hackensack Meridian Health — including
+          Jersey Shore University Medical Center in Neptune, Riverview Medical
+          Center in Red Bank, and Bayshore Medical Center in Holmdel — and by
+          RWJBarnabas Health&apos;s Monmouth Medical Center in Long Branch.
+          CentraState Medical Center in Freehold is a partner of the Atlantic
           Health System.
         </p>
         <p className="text-gray-700">

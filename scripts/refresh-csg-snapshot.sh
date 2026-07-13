@@ -30,7 +30,7 @@ fi
 
 # Refuse to run over unrelated work-in-progress; we must only ever commit
 # csg-snapshot.json from an otherwise clean tree.
-if ! git diff --quiet -- . ':!csg-snapshot.json' || ! git diff --cached --quiet; then
+if ! git diff --quiet -- . ':!csg-snapshot.json' ':!nj-county-snapshot.json' || ! git diff --cached --quiet; then
   echo "Uncommitted changes present — aborting so they aren't swept into a bot commit."
   exit 1
 fi
@@ -38,8 +38,19 @@ fi
 git pull --ff-only
 
 node scripts/csg-snapshot.js
+# County-level NJ probe (21 counties) — powers the /medicare-broker/new-jersey
+# hub's uniform-rates callout. Non-fatal: a failed probe must not block the
+# state refresh.
+node scripts/csg-nj-county-probe.js || echo "NJ county probe failed (non-fatal, keeping previous county snapshot)"
 
-if git diff --quiet -- csg-snapshot.json; then
+# Stage both snapshots (only if present) so the change check also sees a
+# newly created, previously untracked county snapshot.
+git add -- csg-snapshot.json
+if [ -f nj-county-snapshot.json ]; then
+  git add -- nj-county-snapshot.json
+fi
+
+if git diff --cached --quiet; then
   echo "No rate changes since last snapshot — nothing to publish."
   exit 0
 fi
@@ -47,8 +58,6 @@ fi
 # BUILD GATE — the rate-index pages consume this JSON at build time; never
 # push data the site can't compile with.
 npm run build
-
-git add csg-snapshot.json
 git commit -m "CSG rate snapshot refresh: $(date +%Y-%m-%d)"
 git push
 

@@ -4,6 +4,7 @@ import Link from "next/link";
 import PhoneCTA from "@/components/PhoneCTA";
 import FAQSection from "@/components/FAQSection";
 import SchemaMarkup from "@/components/SchemaMarkup";
+import LocalServiceSchema from "@/components/LocalServiceSchema";
 
 export const metadata: Metadata = {
   title:
@@ -90,6 +91,7 @@ export default function MedicareInsuranceAgentsEdisonNJ() {
   return (
     <main className="max-w-3xl mx-auto px-4 py-8">
       <SchemaMarkup schema={[breadcrumbSchema, articleSchema]} />
+      <LocalServiceSchema citySlug="edison" />
 
       <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
         <Link href="/" className="hover:underline">
