@@ -4,9 +4,9 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 import { SITE_URL } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "About Us | Licensed Medicare Broker",
+  title: "About Our Licensed Medicare Broker | NJ + 34 States 2026",
   description:
-    "Meet Anthony Orner, an independent licensed Medicare broker serving NJ and 34 states. Free, unbiased Medigap & Advantage comparisons. Call 855-559-1700.",
+    "Meet Anthony Orner, an independent Medicare broker in NJ serving 34 states. Free, unbiased Medigap & Advantage plan comparisons. Get expert help today.",
   alternates: { canonical: `${SITE_URL}/about` },
   openGraph: {
     title: "About Us | Licensed Medicare Broker",
@@ -77,7 +77,7 @@ export default function AboutPage() {
       <section className="max-w-3xl mx-auto px-6 py-14">
 
         <h1 className="text-4xl font-black tracking-tight text-[#1C2B27] mb-4">
-          About MedicareYourself
+          Meet Your Independent Medicare Broker Serving NJ and 34 States
         </h1>
         <p className="text-lg text-[#3A5048] leading-relaxed mb-10">
           MedicareYourself is an independent insurance brokerage specializing exclusively in

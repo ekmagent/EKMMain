@@ -102,7 +102,12 @@ const faqs = [
     question: "Should I cancel my old Medigap policy before the new one is approved?",
     answer:
       "No. Always wait until your new Medicare Supplement policy is approved and has an active start date before cancelling the old one. This prevents any gap in coverage if the new carrier declines your application due to underwriting. Once the new plan is in force, contact your old carrier in writing to cancel and request a refund of any unused premium.",
-  }
+  },
+  {
+    question: "Do I have a federal right to switch Medigap policies after my Open Enrollment Period?",
+    answer:
+      "In most cases, no. Medicare.gov states that you generally do not have a federal right to switch Medigap policies unless you are within your 6-month Medigap Open Enrollment Period or qualify for a guaranteed issue right. Some states have additional protections that make switching easier, so it's worth checking your state rules with a licensed broker before applying.",
+  },
 ];
 
 export default function SwitchCarriersPage() {
@@ -324,6 +329,7 @@ export default function SwitchCarriersPage() {
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/health-drug-plans/medigap/ready-to-buy/change-policies/switch-drop" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Medicare.gov – Switching or Dropping a Medigap Policy</a> · <a href="https://www.medicare.gov/health-drug-plans/medigap/basics/when-to-get" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Medigap Open Enrollment Period</a></div>
             <div className="text-sm text-gray-600 mt-4">State help: <a href="https://www.nj.gov/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ Department of Banking and Insurance</a> — confirms carrier rates and any state-specific Medigap switching rules.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents: contact <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or the free <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP program</a> for unbiased counseling on switching Medigap carriers.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medigap counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </>
   );

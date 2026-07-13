@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "independent medicare broker near me new jersey reviews | Free Consultation | MedicareYourself",
   description:
-    "Read real New Jersey client reviews of independent Medicare broker Anthony Orner. Unbiased plan comparisons at no cost to you. Call 855-559-1700 today.",
+    "Read New Jersey client reviews of independent Medicare broker Anthony Orner. Unbiased plan comparisons across carriers at no cost. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/independent-medicare-broker-near-me-new-jersey-reviews" },
   openGraph: {
     title:
@@ -84,6 +84,16 @@ const faqs = [
     question: "How do I verify a Medicare broker's license in New Jersey?",
     answer:
       "Visit the NJ Department of Banking and Insurance website and search for the broker's name. You can confirm their active license status and see which lines of insurance they're authorized to sell.",
+  },
+  {
+    question: "Does Anthony Orner meet with New Jersey clients remotely or in person?",
+    answer:
+      "Both options are available. Most New Jersey clients prefer a phone or video consultation for convenience, but in-person meetings can be arranged when helpful. Call 855-559-1700 to schedule whichever format works best for you.",
+  },
+  {
+    question: "When can I enroll in a Medigap plan in New Jersey?",
+    answer:
+      "The best time is during your 6-month Medigap Open Enrollment Period, which begins the month you're 65 or older and enrolled in Part B. During this window, carriers cannot deny coverage or charge more based on health. New Jersey uses community rating, so premiums are not based on your individual age within a plan.",
   },
 ];
 
@@ -340,6 +350,7 @@ export default function IndependentMedicareBrokerNJReviewsPage() {
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/basics/get-started-with-medicare" target="_blank" rel="noopener noreferrer" className="underline">Medicare.gov — Get Started with Medicare</a> and <a href="https://www.medicare.gov/talk-to-someone" target="_blank" rel="noopener noreferrer" className="underline">Talk to Someone at Medicare.gov</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Verify a broker's license or get free NJ counseling: <a href="https://www.state.nj.us/dobi/" target="_blank" rel="noopener noreferrer" className="underline">NJ Department of Banking and Insurance</a> and <a href="https://www.nj.gov/humanservices/doas/services/ship/" target="_blank" rel="noopener noreferrer" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Verify a broker's license or file a concern with the <a href="https://www.state.nj.us/dobi/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a>, or get free unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
     </main>
   );

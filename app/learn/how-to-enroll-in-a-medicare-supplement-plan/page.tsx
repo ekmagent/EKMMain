@@ -9,7 +9,7 @@ import { MF } from "@/lib/medicare-figures";
 export const metadata: Metadata = {
   title: "How to Enroll in a Medicare Supplement Plan (2026): The 5-Step Guide",
   description:
-    "Enroll in a Medicare Supplement plan in 5 steps: confirm Parts A & B, compare every carrier, pick Plan G or N, apply during your 6-month window. Call 855-559-1700.",
+    "Enroll in a Medicare Supplement plan in 5 steps: confirm Parts A & B, compare every carrier, pick Plan G or N, apply in your 6-month window. Call 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/how-to-enroll-in-a-medicare-supplement-plan` },
   openGraph: {
     title: "How to Enroll in a Medicare Supplement Plan (2026): The 5-Step Guide",

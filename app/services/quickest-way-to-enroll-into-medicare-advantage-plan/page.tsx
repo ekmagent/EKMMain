@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "quickest way to enroll into medicare advantage plan | Free Help | MedicareYourself",
   description:
-    "Quickest way to enroll into a Medicare Advantage plan? A licensed broker can complete your application in one call. Anthony Orner makes it easy. Free help.",
+    "Quickest way to enroll in a Medicare Advantage plan? A licensed broker can complete your application in one 15-minute call. Call 855-559-1700 for free help.",
   alternates: { canonical: "https://medicareyourself.com/services/quickest-way-to-enroll-into-medicare-advantage-plan" },
   openGraph: {
     title:
@@ -340,6 +340,7 @@ export default function QuickestWayToEnrollMedicareAdvantagePlan() {
 </ul>
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/basics/get-started-with-medicare/get-more-coverage/joining-a-plan" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Joining a Plan</a> and <a href="https://www.medicare.gov/plan-compare" rel="noopener noreferrer" target="_blank" className="underline">Medicare Plan Finder</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Need free local help? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">Need unbiased local guidance? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
       </section>
     </main>
   );

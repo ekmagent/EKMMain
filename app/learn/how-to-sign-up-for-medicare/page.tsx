@@ -123,7 +123,17 @@ const faqs = [
     question: "How long does it take for Medicare coverage to start after I apply?",
     answer:
       "If you sign up during the 3 months before your 65th birthday, coverage starts the first day of your birthday month. If you sign up during your birthday month or the 3 months after, coverage begins the month after you enroll. For help choosing the right start date, call 855-559-1700.",
-  }
+  },
+  {
+    question: "How do I sign up for Medicare if I am not automatically enrolled?",
+    answer:
+      "You can sign up online at ssa.gov/medicare, which usually takes about 10 minutes. You may also apply by calling Social Security or by visiting your local Social Security office. Apply during the 3 months before the month you turn 65 to make sure your coverage starts on time.",
+  },
+  {
+    question: "Who gets Medicare automatically?",
+    answer:
+      "You are automatically enrolled in Medicare Parts A and B if you are already receiving Social Security or Railroad Retirement Board benefits when you turn 65. You are also automatically enrolled if you have received Social Security disability benefits for 24 months, or if you have ALS. Your Medicare card arrives in the mail about 3 months before your 65th birthday.",
+  },
 ];
 
 export default function HowToSignUpPage() {

@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title:
     "Medicare Broker in Bergen County, NJ | Hackensack, Fort Lee, Teaneck",
   description:
-    "Independent Medicare broker for Bergen County, NJ — Hackensack, Fort Lee, Teaneck, Paramus and every Bergen town. Compare Medigap and Medicare Advantage plans with real filed rates. Free help: 855-559-1700.",
+    "Independent Medicare broker for Bergen County, NJ — compare Medigap and Advantage plans across every carrier with real filed rates. Free help: 855-559-1700.",
   alternates: {
     canonical:
       "https://medicareyourself.com/medicare-broker/new-jersey/bergen-county",
@@ -333,6 +333,8 @@ export default function BergenCountyMedicareBroker() {
           </a>
           .
         </div>
+            <div className="text-sm text-gray-600 mt-4">Official Medicare resources: <a href="https://www.medicare.gov/plan-compare" target="_blank" rel="noopener noreferrer" className="underline">Medicare.gov Plan Finder</a> · <a href="https://www.medicare.gov/basics/get-started-with-medicare" target="_blank" rel="noopener noreferrer" className="underline">Get Started with Medicare</a></div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey resources: <a href="https://www.state.nj.us/dobi/division_insurance/" target="_blank" rel="noopener noreferrer" className="underline">NJ Department of Banking and Insurance</a> · <a href="https://www.state.nj.us/humanservices/doas/services/ship/" target="_blank" rel="noopener noreferrer" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a></div>
       </section>
     </main>
   );

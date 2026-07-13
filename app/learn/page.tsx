@@ -7,7 +7,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Medicare Education Guides | MedicareYourself",
   description:
-    "Free Medicare education guides written by a licensed broker: Parts A-D, Medigap, enrollment, IRMAA, and low-income help. Call 855-559-1700 for answers.",
+    "Free Medicare guides from a licensed broker: Parts A-D, Medigap, enrollment, IRMAA, and low-income help. Call 855-559-1700 for straight answers.",
   alternates: { canonical: `${SITE_URL}/learn` },
   openGraph: {
     title: "Medicare Education Guides | MedicareYourself",

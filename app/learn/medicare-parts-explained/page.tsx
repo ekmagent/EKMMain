@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Medicare Parts A, B, C & D Explained",
   description:
-    "What do Medicare Parts A, B, C, and D cover? Plain-English guide to each part, costs, and how they work together. Call 855-559-1700.",
+    "Medicare Parts A, B, C & D explained in plain English — what each part covers, costs, and how they fit together. Free help: call 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/medicare-parts-explained` },
   openGraph: {
     title: "Medicare Parts A, B, C & D Explained",

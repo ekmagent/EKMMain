@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title:
     "Medicare Broker in Monmouth County, NJ | Freehold, Howell, Neptune",
   description:
-    "Independent Medicare broker for Monmouth County, NJ — Freehold, Howell, Neptune, Middletown, and every Shore town. Compare Medigap and Medicare Advantage plans with real filed rates. Free help: 855-559-1700.",
+    "Independent Medicare broker for Monmouth County, NJ — Freehold, Howell, Neptune, Middletown. Compare Medigap & Advantage plans. Call 855-559-1700.",
   alternates: {
     canonical:
       "https://medicareyourself.com/medicare-broker/new-jersey/monmouth-county",
@@ -364,6 +364,8 @@ export default function MonmouthCountyMedicareBroker() {
           </a>
           .
         </div>
+            <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/plan-compare" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov Plan Finder</a> · <a href="https://www.cms.gov/medicare/enrollment-renewal/health-plans/medigap/consumer-guide" rel="noopener noreferrer" target="_blank" className="underline">CMS Medigap Consumer Guide</a></div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </main>
   );

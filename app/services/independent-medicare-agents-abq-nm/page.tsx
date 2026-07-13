@@ -266,6 +266,7 @@ export default function IndependentMedicareAgentsABQNM() {
           </li>
         </ul>
             <div className="text-sm text-gray-600 mt-4">Official Medicare resources: <a href="https://www.medicare.gov/plan-compare" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">Medicare Plan Finder on Medicare.gov</a> and <a href="https://www.medicare.gov/talk-to-someone" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">Talk to Someone at Medicare.gov</a>. For New Mexico-specific help, contact <a href="https://www.benefits.nm.gov/SHIP.aspx" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">New Mexico SHIP (Senior Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Mexico residents can also contact the <a href="https://www.nmaging.state.nm.us/ship-program.aspx" rel="noopener noreferrer" target="_blank" className="underline">New Mexico SHIP (Benefits Counseling Program)</a> for free Medicare counseling.</div>
       </section>
     </main>
   );

@@ -348,6 +348,7 @@ export default function MedicareBrokerForRheumatoidArthritisPatients() {
             </li>
 </ul>
             <div className="text-sm text-gray-600 mt-4">Official Medicare resources: <a href="https://www.medicare.gov/coverage/infusion-pumps-supplies" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Medicare.gov — Infusion coverage</a> and <a href="https://www.medicare.gov/drug-coverage-part-d" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Medicare.gov — Part D prescription drug coverage</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

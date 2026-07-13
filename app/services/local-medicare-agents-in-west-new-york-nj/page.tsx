@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title:
     "local medicare agents in west new york nj | Free Plan Comparison | MedicareYourself",
   description:
-    "Local Medicare agents in West New York, NJ — Anthony Orner compares Medigap and Advantage plans across Hudson County carriers. Free consultation.",
+    "Local Medicare agents in West New York, NJ — Anthony Orner compares Medigap and Advantage plans from top Hudson County carriers. Free bilingual help. Call today.",
   alternates: { canonical: "https://medicareyourself.com/services/local-medicare-agents-in-west-new-york-nj" },
   openGraph: {
     title:

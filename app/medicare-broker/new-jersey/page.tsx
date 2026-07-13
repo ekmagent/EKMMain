@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   title:
     "New Jersey Medicare Broker | Every County, Real Filed Rates",
   description:
-    "Independent New Jersey Medicare broker serving all 21 NJ counties from Cherry Hill. Compare Medigap and Medicare Advantage plans with real filed-rate data. Free help: 855-559-1700.",
+    "Independent New Jersey Medicare broker for all 21 counties. Compare Medigap and Advantage plans with real filed rates. Free help: 855-559-1700.",
   alternates: {
     canonical: "https://medicareyourself.com/medicare-broker/new-jersey",
   },
@@ -74,6 +74,11 @@ const faqs = [
     question: "When should I contact a Medicare broker in New Jersey?",
     answer:
       "Ideally about six months before your Part B start date. Your Medigap Open Enrollment Period gives you six months of guaranteed acceptance once Part B begins, and applying early lets you lock in a rate and avoid coverage gaps. Outside that window, a broker can still help — several carriers accept applications with medical underwriting, and switching can lower your premium.",
+  },
+  {
+    question: "Does New Jersey have community-rated Medigap pricing?",
+    answer:
+      "Yes. New Jersey uses community rating for Medicare Supplement plans, which means carriers charge the same premium for a given plan regardless of the applicant's age. Premiums can still differ significantly from one carrier to another for the identical standardized plan, so comparing filed rates across companies is what drives savings.",
   },
 ];
 
@@ -373,6 +378,8 @@ export default function NewJerseyMedicareBrokerHub() {
           </a>
           .
         </div>
+            <div className="text-sm text-gray-600 mt-4">Official Medicare resources: <a href="https://www.medicare.gov/basics/get-started-with-medicare" rel="noopener noreferrer" target="_blank" className="underline">Get Started with Medicare (medicare.gov)</a> &middot; <a href="https://www.medicare.gov/health-drug-plans/medigap" rel="noopener noreferrer" target="_blank" className="underline">Medigap basics (medicare.gov)</a></div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

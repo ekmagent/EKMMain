@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title:
     "Medicare Broker in Camden County, NJ | Local Office in Cherry Hill",
   description:
-    "Independent Medicare broker with a real office in Cherry Hill. In-person and phone help across Camden County — Medigap rates, MA networks, free comparisons: 855-559-1700.",
+    "Independent Medicare broker with a Cherry Hill office serving Camden County. In-person or phone help, real Medigap rate comparisons: 855-559-1700.",
   alternates: {
     canonical:
       "https://medicareyourself.com/medicare-broker/new-jersey/camden-county",
@@ -327,6 +327,8 @@ export default function CamdenCountyMedicareBroker() {
           </a>
           .
         </div>
+            <div className="text-sm text-gray-600 mt-4">Official Medicare resources: <a href="https://www.medicare.gov/basics/get-started-with-medicare" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Get Started with Medicare (medicare.gov)</a> and <a href="https://www.medicare.gov/health-drug-plans/medigap" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Medigap basics</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

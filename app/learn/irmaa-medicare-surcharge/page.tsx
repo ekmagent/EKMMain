@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "IRMAA Explained: Medicare's Income Surcharge (2026)",
   description:
-    "2026 IRMAA brackets explained: Part B & Part D income surcharges, how MAGI is used, and how to appeal with SSA-44. Free broker help at 855-559-1700.",
+    "2026 IRMAA brackets explained: Part B & Part D income surcharges, how MAGI works, and how to appeal with SSA-44. Free broker help — call 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/irmaa-medicare-surcharge` },
   openGraph: {
     title: "IRMAA Explained: Medicare's Income Surcharge (2026)",

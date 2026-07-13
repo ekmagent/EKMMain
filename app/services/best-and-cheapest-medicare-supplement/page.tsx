@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Need Help Finding Best and Cheapest Medicare Supplement | Free Quote | MedicareYourself",
   description:
-    "Need help finding the best and cheapest Medicare Supplement? Anthony Orner compares every top carrier's rates free — no obligation. Get your quote today.",
+    "Find the best and cheapest Medicare Supplement with free carrier-by-carrier rate comparisons from broker Anthony Orner. Call 855-559-1700 for a no-obligation quote.",
   alternates: { canonical: "https://medicareyourself.com/services/best-and-cheapest-medicare-supplement" },
   openGraph: {
     title:

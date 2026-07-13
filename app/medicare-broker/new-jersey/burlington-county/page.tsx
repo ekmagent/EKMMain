@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title:
     "Medicare Broker in Burlington County, NJ | Mount Laurel, Burlington",
   description:
-    "Independent Medicare broker serving Burlington County, NJ — Mount Laurel, Burlington, Willingboro, Marlton, and more — from our Cherry Hill office 20 minutes away. Free help: 855-559-1700.",
+    "Independent Medicare broker serving Burlington County, NJ — Mount Laurel, Marlton, Willingboro. Free plan comparisons. Call 855-559-1700.",
   alternates: {
     canonical:
       "https://medicareyourself.com/medicare-broker/new-jersey/burlington-county",
@@ -316,6 +316,8 @@ export default function BurlingtonCountyMedicareBroker() {
           </a>
           .
         </div>
+            <div className="text-sm text-gray-600 mt-4">Official Medicare resources: <a href="https://www.medicare.gov/plan-compare" rel="noopener noreferrer" target="_blank" className="underline">Medicare Plan Finder at Medicare.gov</a> and <a href="https://www.medicare.gov/basics/get-started-with-medicare" rel="noopener noreferrer" target="_blank" className="underline">Get Started with Medicare</a>.</div>
+            <div className="text-sm text-gray-600 mt-2">New Jersey residents can also get free unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> or contact the <a href="https://www.nj.gov/dobi/" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a>.</div>
       </section>
     </main>
   );

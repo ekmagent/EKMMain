@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title:
     "Medicare Broker in Ocean County, NJ | Toms River, Lakewood, Brick",
   description:
-    "Independent Medicare broker for Ocean County, NJ — Toms River, Lakewood, Brick, Jackson, and every 55+ community in between. Compare real filed Medigap rates and Medicare Advantage networks. Free help: 855-559-1700.",
+    "Independent Medicare broker for Ocean County, NJ — Toms River, Lakewood, Brick. Compare filed Medigap rates and Advantage networks. Call 855-559-1700.",
   alternates: {
     canonical: "https://medicareyourself.com/medicare-broker/new-jersey/ocean-county",
   },
@@ -309,6 +309,8 @@ export default function OceanCountyMedicareBroker() {
           </a>
           .
         </div>
+            <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/plan-compare" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Medicare.gov Plan Compare</a> · <a href="https://www.medicare.gov/health-drug-plans/medigap" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Medigap Basics (Medicare.gov)</a></div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

@@ -8,7 +8,7 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 export const metadata: Metadata = {
   title: "US Medicare Brokers | Free Unbiased Help | MedicareYourself",
   description:
-    "US Medicare brokers compare Supplement and Advantage plans across carriers at no cost to you. Learn how Anthony Orner finds the best rate. Free quote.",
+    "US Medicare brokers compare Supplement and Advantage plans across top carriers at no cost. Get free, unbiased help from Anthony Orner — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/us-medicare-brokers" },
   openGraph: {
     title: "US Medicare Brokers | Free Unbiased Help | MedicareYourself",
@@ -316,6 +316,7 @@ export default function USMedicareBrokersPage() {
             </li>
 </ul>
               <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/plan-compare" rel="noopener noreferrer" target="_blank" className="underline">Medicare Plan Finder on Medicare.gov</a> and <a href="https://www.medicare.gov/talk-to-someone" rel="noopener noreferrer" target="_blank" className="underline">Talk to Someone at Medicare.gov</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">Verify any broker's license or get free unbiased counseling through your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
       </article>
     </>

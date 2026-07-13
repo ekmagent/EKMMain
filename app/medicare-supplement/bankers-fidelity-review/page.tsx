@@ -13,7 +13,7 @@ const APPLY_URL = "https://healthplans.now";
 export const metadata: Metadata = {
   title: "Bankers Fidelity Medicare Supplement: Family Review 2026",
   description:
-    "Bankers Fidelity, Bankers Fidelity Assurance, and Atlantic Capital Life — three Medigap companies in one A-rated carrier family. Ratings, plans, and how to apply.",
+    "Bankers Fidelity Medigap review: three A-rated issuing companies, plan availability, and how to apply. Get a state-specific quote today.",
   alternates: { canonical: PAGE_URL },
   openGraph: {
     title: "Bankers Fidelity Medicare Supplement: Family Review 2026",
@@ -75,6 +75,11 @@ const faqs = [
     question: "Is the Bankers Fidelity family A-rated?",
     answer:
       "Yes. AM Best affirmed an A- (Excellent) Financial Strength Rating with a Stable outlook for the Bankers Fidelity Life Insurance Group — covering all three Medigap issuing companies — on April 22, 2026.",
+  },
+  {
+    question: "Which Medicare Supplement plans does Bankers Fidelity offer?",
+    answer:
+      "Bankers Fidelity offers standardized Medicare Supplement plans under the letter-plan system regulated by CMS. Plan availability varies by state and by issuing company (Bankers Fidelity Life, Bankers Fidelity Assurance, or Atlantic Capital Life). You can request a state-specific quote to see which letter plans are open in your area.",
   },
 ];
 
@@ -407,6 +412,7 @@ export default function BankersFidelityReviewPage() {
             {MF.partBDeductible}, Part A deductible {MF.partADeductible} (MF.year {MF.year}).
           </p>
         </div>
+            <div className="text-sm text-gray-600 mt-4">Compare Medigap plan benefits on the official <a href="https://www.medicare.gov/health-drug-plans/medigap" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">Medicare.gov Medigap guide</a> and review <a href="https://www.medicare.gov/health-drug-plans/medigap/basics/compare-plan-benefits" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">standardized Medigap plan benefits</a> before choosing a carrier.</div>
       </section>
     </>
   );

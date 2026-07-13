@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for multiple sclerosis patients | Free Plan Comparison | MedicareYourself",
   description:
-    "Medicare broker for MS patients in NJ. Anthony Orner helps you find plans that cover infusions, MRIs & specialists. Call 855-559-1700 for a free review.",
+    "Medicare broker for MS patients: compare plans covering Ocrevus, MRIs & neurologists. Anthony Orner guides you through underwriting. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-multiple-sclerosis-patients" },
   openGraph: {
     title:
@@ -102,7 +102,22 @@ const faqs = [
     question: "Can I keep my neurologist if I switch Medicare plans?",
     answer:
       "With Original Medicare plus Medigap, you can see any neurologist nationwide who accepts Medicare — no networks or referrals. With Medicare Advantage, you're generally limited to the plan's network, so confirm your MS specialist is in-network before enrolling. This matters because many communities have a shortage of neurologists trained in MS care.",
-  }
+  },
+  {
+    question: "Does Medicare Part D cover oral MS disease-modifying therapies?",
+    answer:
+      "Yes. Oral disease-modifying therapies you pick up at a pharmacy are generally covered under Medicare Part D, while self-injectable and infused MS drugs are often covered under Part B. Because MS specialty drugs typically fall on a plan's highest tier, comparing each Part D plan's formulary and coinsurance is essential before you enroll. Call 855-559-1700 and we'll match your specific medications to the lowest-cost plan.",
+  },
+  {
+    question: "Will Medicare pay for MRIs to monitor my MS?",
+    answer:
+      "Medically necessary MRIs ordered by your doctor to monitor MS progression are covered under Medicare Part B. Under Original Medicare you pay the Part B deductible and coinsurance, while a Medicare Advantage plan may require prior authorization and apply a copay. A Medigap plan can reduce your out-of-pocket costs on repeated imaging.",
+  },
+  {
+    question: "Does Medicare cover physical, occupational, or speech therapy for MS?",
+    answer:
+      "Yes. Medicare Part B covers medically necessary outpatient physical therapy, occupational therapy, and speech-language pathology when your doctor certifies the services as part of your MS care plan. There is no longer a hard cap on therapy visits, but your provider must document that continued therapy is reasonable and necessary.",
+  },
 ];
 
 export default function MedicareBrokerForMSPatients() {
@@ -318,6 +333,7 @@ export default function MedicareBrokerForMSPatients() {
             </li>
 </ul>
               <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/basics/get-started-with-medicare" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Get Started with Medicare</a> and <a href="https://www.medicare.gov/health-drug-plans/health-plans/your-coverage-options" rel="noopener noreferrer" target="_blank" className="underline">Your Medicare Coverage Options</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

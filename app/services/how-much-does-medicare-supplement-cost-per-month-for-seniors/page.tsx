@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "How Much Does Medicare Supplement Cost per Month for Seniors? | Free 2026 Rate Quote | MedicareYourself",
   description:
-    "How much does Medicare Supplement cost per month for seniors? See real Plan G and Plan N rates by age from NJ carriers. Get a free personalized quote today.",
+    "How much does Medicare Supplement cost per month for seniors? Compare Plan G & Plan N premiums by age and carrier. Call 855-559-1700 for a free quote.",
   alternates: { canonical: "https://medicareyourself.com/services/how-much-does-medicare-supplement-cost-per-month-for-seniors" },
   openGraph: {
     title:
@@ -280,6 +280,7 @@ export default function HowMuchDoesMedicareSupplementCostPerMonthForSeniors() {
           </li>
         </ul>
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/health-drug-plans/medigap/basics/costs" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Get Medigap Costs</a> and <a href="https://www.medicare.gov/health-drug-plans/medigap/basics/how-to-compare-policies" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — How to Compare Medigap Policies</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can compare Medigap rates and get free counseling through the <a href="https://www.state.nj.us/dobi/division_insurance/managedcare/medsuppcov.html" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP program</a>.</div>
       </section>
     </main>
   );

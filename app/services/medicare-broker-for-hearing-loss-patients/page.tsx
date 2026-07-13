@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for hearing loss patients | Free Plan Review | MedicareYourself",
   description:
-    "Medicare broker for hearing loss patients — compare NJ plans with hearing aid allowances and audiology benefits at no cost. Call 855-559-1700 today.",
+    "Medicare broker for hearing loss patients — compare NJ Medicare Advantage plans with hearing aid allowances and audiology benefits at no cost. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-hearing-loss-patients" },
   openGraph: {
     title:
@@ -345,6 +345,7 @@ export default function MedicareBrokerForHearingLossPatients() {
             <div className="text-sm text-gray-600 mt-4">Learn more from official sources: <a href="https://www.medicare.gov/coverage/hearing-balance-exams" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">Medicare.gov — Hearing &amp; Balance Exams</a> and <a href="https://www.medicare.gov/coverage/hearing-aids" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">Medicare.gov — Hearing Aids Coverage</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

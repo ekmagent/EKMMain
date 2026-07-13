@@ -338,6 +338,7 @@ export default function MedicareBrokerForDialysisPatients() {
             </li>
 </ul>
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/coverage/dialysis-services-supplies" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Dialysis Services &amp; Supplies Coverage</a> and <a href="https://www.medicare.gov/basics/end-stage-renal-disease" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — End-Stage Renal Disease (ESRD)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
     </main>
   );

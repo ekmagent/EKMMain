@@ -13,7 +13,7 @@ const APPLY_URL = "https://healthplans.now";
 export const metadata: Metadata = {
   title: "Compare Medigap Policies: 2026 Plans, Costs & Apply",
   description:
-    "Compare Medigap policies side-by-side: Plans G, N, F, K, L and more. 2026 benefits, costs, enrollment rules — then apply online in minutes.",
+    "Compare Medigap Plans G, N, F, K, L side-by-side for 2026: benefits, costs, and enrollment rules. See which plan fits — then apply online or call to enroll.",
   alternates: { canonical: PAGE_URL },
   openGraph: {
     title: "Compare Medigap Policies: 2026 Plans, Costs & Apply",
@@ -70,6 +70,11 @@ const faqs = [
     question: "Do all carriers charge the same for the same Medigap plan?",
     answer:
       "No. Benefits are federally standardized, so Plan G from one carrier covers the exact same services as Plan G from another. However, monthly premiums, pricing method (community, issue-age, or attained-age), and rate-increase history vary significantly by carrier and ZIP code.",
+  },
+  {
+    question: "Are Medigap plan benefits the same across every state?",
+    answer:
+      "In most states, Medigap benefits are federally standardized into plan letters (A, B, C, D, F, G, K, L, M, N), so a Plan G is identical in coverage from any carrier. Massachusetts, Minnesota, and Wisconsin have their own standardized plan structures. Regardless of state, only premiums and carrier service differ — not the covered benefits.",
   },
 ];
 
@@ -314,6 +319,8 @@ export default function CompareMedigapPoliciesPage() {
             {MF.partBDeductible}, Part A deductible {MF.partADeductible} ({MF.year}).
           </p>
         </div>
+            <div className="text-sm text-gray-600 mt-4">Official references: <a href="https://www.medicare.gov/health-drug-plans/medigap/basics/compare-plan-benefits" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Compare Medigap Plan Benefits</a> and <a href="https://www.medicare.gov/medigap-supplemental-insurance-plans/" rel="noopener noreferrer" target="_blank" className="underline">Find Medigap Policies in Your Area</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </>
   );

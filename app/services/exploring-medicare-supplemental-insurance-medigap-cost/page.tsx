@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Exploring Medicare Supplemental Insurance (Medigap) Cost | Free Rate Comparison | MedicareYourself",
   description:
-    "Exploring Medicare Supplemental insurance (Medigap) cost? See average premiums by plan letter, pricing model, and state. Compare carriers free with a broker.",
+    "Compare Medigap costs by plan letter, pricing model, and state. Get a free rate comparison from a licensed broker — call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/exploring-medicare-supplemental-insurance-medigap-cost" },
   openGraph: {
     title:
@@ -330,6 +330,7 @@ export default function ExploringMedigapCostPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents: contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free local help from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a> or the free <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP counseling program</a> for unbiased Medigap guidance.</div>
       </section>
     </main>
   );

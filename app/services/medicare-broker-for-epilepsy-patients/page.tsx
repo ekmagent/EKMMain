@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for epilepsy patients | Free Coverage Consultation | MedicareYourself",
   description:
-    "Medicare broker for epilepsy patients in NJ. Anthony Orner finds plans covering seizure meds, ER visits, and neurology with no surprise gaps. Free quote.",
+    "Medicare broker for epilepsy patients in NJ. Anthony Orner compares plans covering seizure meds, neurology visits & ER care. Call 855-559-1700 for a free quote.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-epilepsy-patients" },
   openGraph: {
     title:

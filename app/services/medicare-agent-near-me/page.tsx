@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare agent near me | Free Local Broker Help, No Obligation | MedicareYourself",
   description:
-    "Medicare agent near me — Anthony Orner is a licensed independent broker in NJ and PA comparing 30+ carriers. Free consultation by phone, video, or in person.",
+    "Medicare agent near me — Anthony Orner, licensed in NJ & 34 states, compares 30+ carriers at no cost. Free phone, video, or in-person help. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-agent-near-me" },
   openGraph: {
     title:
@@ -318,6 +318,7 @@ export default function MedicareAgentNearMePage() {
 </ul>
               <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/plan-compare/" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov Plan Finder</a> and <a href="https://www.medicare.gov/talk-to-someone" rel="noopener noreferrer" target="_blank" className="underline">Talk to Someone at Medicare.gov</a>.</div>
             <div className="text-sm text-gray-600 mt-2">Free unbiased counseling is also available through <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">For free state-based counseling, visit the <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> or the <a href="https://www.nj.gov/dobi/division_insurance/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a>.</div>
       </section>
       </article>
     </>

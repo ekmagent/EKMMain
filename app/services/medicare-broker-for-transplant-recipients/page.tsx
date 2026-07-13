@@ -308,6 +308,7 @@ export default function MedicareBrokerForTransplantRecipients() {
           </li>
         </ul>
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/coverage/organ-transplants" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Organ Transplant Coverage</a> and <a href="https://www.medicare.gov/coverage/immunosuppressive-drugs" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Immunosuppressive Drug Coverage (Part B-ID)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
       </section>
     </main>
   );

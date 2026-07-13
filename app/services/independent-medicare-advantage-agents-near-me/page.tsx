@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "independent medicare advantage agents near me | Free NJ Consultations | MedicareYourself",
   description:
-    "Independent Medicare Advantage agents near you in New Jersey. Anthony Orner compares every major MA plan in your county at no cost. Book a free consultation.",
+    "Independent Medicare Advantage agents near you in NJ. Anthony Orner compares every major MA plan in your county at no cost. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/independent-medicare-advantage-agents-near-me" },
   openGraph: {
     title:
@@ -323,6 +323,7 @@ export default function IndependentMedicareAdvantageAgentsNearMe() {
             </li>
 </ul>
               <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/plan-compare" rel="noopener noreferrer" target="_blank" className="underline">Compare Medicare Advantage plans on Medicare.gov</a> or learn more about <a href="https://www.medicare.gov/basics/get-started-with-medicare/get-more-coverage/joining-a-plan" rel="noopener noreferrer" target="_blank" className="underline">joining a Medicare Advantage plan</a>. New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free unbiased counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

@@ -84,6 +84,21 @@ const faqs = [
     answer:
       "During your Medigap Open Enrollment Period (the 6 months starting when you're 65+ and enrolled in Part B), insurers cannot deny you or charge more due to COPD. Outside that window, medical underwriting may apply and approval isn't guaranteed. Call us at 855-559-1700 to review your options.",
   },
+  {
+    question: "Does Medicare cover pulmonary rehabilitation for COPD patients?",
+    answer:
+      "Yes. Medicare Part B covers comprehensive pulmonary rehabilitation programs for patients with moderate to very severe COPD when referred by the doctor treating the chronic respiratory disease. After Medicare pays its share, your Medigap plan can cover the remaining coinsurance, which is one reason Plan G is popular for COPD patients who attend multiple rehab sessions.",
+  },
+  {
+    question: "How is Plan N different from Plan G for someone with COPD?",
+    answer:
+      "Plan N typically has a lower monthly premium than Plan G but leaves you responsible for small copays at doctor and ER visits, plus any Part B excess charges. For a COPD patient with frequent pulmonologist appointments and possible ER visits for flare-ups, those copays and excess charges can add up quickly. Plan G usually offers more predictable costs for high-utilization respiratory patients.",
+  },
+  {
+    question: "Should a COPD patient choose Medicare Advantage or a Medigap plan?",
+    answer:
+      "Medicare Advantage plans use provider networks and require prior authorization for many services, which can delay oxygen equipment, specialist referrals, and rehab. A Medigap plan paired with Original Medicare lets you see any provider that accepts Medicare nationwide with far fewer approvals. For most COPD patients who value access and predictable costs, a Medigap plan tends to be the safer long-term choice.",
+  },
 ];
 
 export default function WhichMedicareSupplementalPlanBestForCOPDPatient() {

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "independent medicare insurance agent near me | Free No-Obligation Help | MedicareYourself",
   description:
-    "Independent Medicare insurance agent near me? Anthony Orner compares top carriers across multiple states at no cost to you. Book a free consultation today.",
+    "Looking for an independent Medicare insurance agent near me? Anthony Orner compares top carriers across 34+ states at no cost. Book your free consultation.",
   alternates: { canonical: "https://medicareyourself.com/services/independent-medicare-insurance-agent-near-me" },
   openGraph: {
     title:
@@ -295,6 +295,7 @@ export default function IndependentMedicareInsuranceAgentNearMe() {
             </Link>
           </li>
         </ul>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" target="_blank" rel="noopener noreferrer" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
       </section>
     </main>
   );

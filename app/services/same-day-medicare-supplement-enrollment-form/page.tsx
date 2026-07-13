@@ -339,6 +339,7 @@ export default function SameDayMedicareSupplementEnrollmentForm() {
             </li>
 </ul>
               <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/basics/forms-publications-mailings/forms/enrollment" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov enrollment forms</a> and the <a href="https://www.cms.gov/medicare/cms-forms/cms-forms/downloads/cms40b-e.pdf" rel="noopener noreferrer" target="_blank" className="underline">CMS-40B Part B application (PDF)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">Need free unbiased help? Contact the <a href="https://www.state.nj.us/dobi/division_insurance/ship/index.htm" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">New Jersey State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
       </article>
     </>

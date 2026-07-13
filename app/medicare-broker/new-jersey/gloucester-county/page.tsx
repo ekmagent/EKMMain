@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title:
     "Medicare Broker in Gloucester County, NJ | Sewell, Washington Township",
   description:
-    "Independent Medicare broker one county over from Gloucester County — real office at 1309 Route 70 West in Cherry Hill. In-person and phone help for Sewell, Washington Township, Glassboro, and Deptford: 855-559-1700.",
+    "Independent Medicare broker serving Gloucester County, NJ — Sewell, Washington Township, Glassboro, Deptford. Compare every carrier free. Call 855-559-1700.",
   alternates: {
     canonical:
       "https://medicareyourself.com/medicare-broker/new-jersey/gloucester-county",
@@ -68,6 +68,16 @@ const faqs = [
     question: "When should I enroll in Medigap if I live in Gloucester County?",
     answer:
       "Your Medigap Open Enrollment Period lasts six months, starting once you are 65 or older and enrolled in Part B. During those six months carriers must accept you regardless of health history, and New Jersey adds a consumer protection: carriers cannot charge tobacco users a higher rate during that window. You can apply up to six months before your Part B start date to lock in your rate early. Outside the OEP, federal guaranteed-issue rights apply only in specific situations, like losing employer coverage — otherwise applications go through medical underwriting.",
+  },
+  {
+    question: "When can I enroll in a Medigap plan in New Jersey?",
+    answer:
+      "Your best window is the 6-month Medigap Open Enrollment Period, which starts the month you are 65 or older and enrolled in Medicare Part B. During that window, carriers in New Jersey must issue you any Medigap plan they sell without medical underwriting. Outside of that window, acceptance and pricing can depend on your health, so it is worth reviewing your options before it closes.",
+  },
+  {
+    question: "How does Medigap pricing work in New Jersey?",
+    answer:
+      "New Jersey uses community rating for Medigap, which means carriers cannot charge you a higher premium based on your age. Everyone enrolled in the same plan with the same carrier pays the same base rate regardless of whether they are 65 or 85. Premiums still vary significantly between carriers for identical standardized benefits, so comparing filed rates matters.",
   },
 ];
 
@@ -333,6 +343,8 @@ export default function GloucesterCountyMedicareBroker() {
           </a>
           .
         </div>
+            <div className="text-sm text-gray-600 mt-4">Official Medicare resources: <a href="https://www.medicare.gov/basics/get-started-with-medicare" rel="noopener noreferrer" target="_blank" className="underline">Get started with Medicare (Medicare.gov)</a> · <a href="https://www.medicare.gov/plan-compare/" rel="noopener noreferrer" target="_blank" className="underline">Compare plans on Medicare.gov</a></div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

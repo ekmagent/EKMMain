@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title:
     "find a medicare agent in neptune nj | Free No-Obligation Help | MedicareYourself",
   description:
-    "Find a Medicare agent in Neptune NJ for unbiased plan comparisons across top carriers. Anthony Orner offers free, licensed help for Monmouth County residents.",
+    "Find a licensed Medicare agent in Neptune, NJ for free plan comparisons across top carriers. Call Anthony Orner at 855-559-1700 for no-obligation help.",
   alternates: { canonical: "https://medicareyourself.com/services/find-a-medicare-agent-in-neptune-nj" },
   openGraph: {
     title:
@@ -301,6 +301,7 @@ export default function FindMedicareAgentNeptuneNJ() {
 </ul>
               <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/plan-compare" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov Plan Compare</a> and <a href="https://www.medicare.gov/talk-to-someone" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov &mdash; Talk to Someone</a>.</div>
             <div className="text-sm text-gray-600 mt-2">New Jersey residents can also get free unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

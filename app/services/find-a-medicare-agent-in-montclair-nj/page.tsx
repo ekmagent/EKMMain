@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title:
     "find a medicare agent in montclair nj | Free Local Help | MedicareYourself",
   description:
-    "Find a medicare agent in Montclair NJ — Anthony Orner is a licensed independent broker comparing top carriers in Essex County. Free consultation, no pressure.",
+    "Find a Medicare agent in Montclair NJ — Anthony Orner, licensed independent broker, compares top carriers across Essex County. Free consultation, call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/find-a-medicare-agent-in-montclair-nj" },
   openGraph: {
     title:
@@ -366,6 +366,7 @@ export default function FindMedicareAgentMontclairNJ() {
             <div className="text-sm text-gray-600 mt-2">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey beneficiaries can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" target="_blank" rel="noopener noreferrer" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title:
     "Medicare Broker in Essex County, NJ | Newark, Montclair, West Orange",
   description:
-    "Independent Medicare broker serving Essex County, NJ — Newark, Montclair, West Orange, Bloomfield, and every town in between. Compare Medigap and Medicare Advantage plans with real filed rates. Free help: 855-559-1700.",
+    "Independent Medicare broker for Essex County, NJ — Newark, Montclair, West Orange. Compare Medigap and Advantage plans free. Call 855-559-1700.",
   alternates: {
     canonical:
       "https://medicareyourself.com/medicare-broker/new-jersey/essex-county",
@@ -70,6 +70,16 @@ const faqs = [
       "I have both Medicare and Medicaid in Essex County — can a broker help?",
     answer:
       "Yes. Many Essex County residents qualify for both Medicare and Medicaid, and carriers offer Dual-Eligible Special Needs Plans (D-SNPs) designed for that situation, often with extra benefits and low or no cost sharing. A licensed broker can check your eligibility and compare the D-SNP options available in your ZIP code at no cost.",
+  },
+  {
+    question: "When can I enroll in a Medigap plan in Essex County, NJ?",
+    answer:
+      "Your best window is the 6-month Medigap Open Enrollment Period that starts the month your Medicare Part B becomes effective and you're 65 or older. During that window, carriers in New Jersey must issue you any Medigap plan they sell without medical underwriting. Outside that window, you may need to answer health questions to switch plans, so it's worth reviewing your options carefully before it closes.",
+  },
+  {
+    question: "How does New Jersey price Medigap plans?",
+    answer:
+      "New Jersey uses community rating for Medigap, which means carriers charge the same premium for a given plan regardless of your age. Your rate in Newark, Montclair, or West Orange is based on the carrier's filed community rate, not your birthday. That said, premiums still differ significantly between carriers for the same lettered plan, which is why comparing filed rates side by side matters.",
   },
 ];
 
@@ -322,6 +332,8 @@ export default function EssexCountyMedicareBroker() {
           </a>
           .
         </div>
+            <div className="text-sm text-gray-600 mt-4">Official Medicare resources: <a href="https://www.medicare.gov/plan-compare" rel="noopener noreferrer" target="_blank" className="underline">Medicare Plan Finder on Medicare.gov</a> and <a href="https://www.medicare.gov/basics/get-started-with-medicare" rel="noopener noreferrer" target="_blank" className="underline">Get Started with Medicare</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> or check carrier filings with the <a href="https://www.nj.gov/dobi/" rel="noopener noreferrer" target="_blank" className="underline">NJ Department of Banking and Insurance</a>.</div>
       </section>
     </main>
   );

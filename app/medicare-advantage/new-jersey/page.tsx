@@ -6,9 +6,9 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 import { SITE_URL } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Best Medicare Advantage Plans in NJ 2026",
+  title: "Best Medicare Advantage Plans in NJ 2026 | Compare",
   description:
-    "Compare 2026 Medicare Advantage plans in New Jersey with $0 premium options, drug, dental and vision benefits. Call 855-559-1700 for free local broker help.",
+    "Compare 2026 New Jersey Medicare Advantage plans with $0 premium options, drug, dental, and vision benefits. Call 855-559-1700 to review NJ options.",
   alternates: { canonical: `${SITE_URL}/medicare-advantage/new-jersey` },
   openGraph: {
     title: "Best Medicare Advantage Plans in NJ 2026",
@@ -53,6 +53,16 @@ const faqs = [
     answer:
       "Yes. You can switch back to Original Medicare during the Annual Enrollment Period (October 15 – December 7) or the Medicare Advantage Open Enrollment Period (January 1 – March 31). However, if you want to add a Medigap plan after switching back and your 6-month Medigap Open Enrollment Period has passed, insurers may use medical underwriting and could deny coverage based on health conditions. This is why the initial choice between Medicare Advantage and Medigap at 65 is so important.",
   },
+  {
+    question: "How much does Medicare Advantage cost in New Jersey in 2026?",
+    answer:
+      "Many Medicare Advantage plans in New Jersey have $0 monthly premiums in 2026. You still pay the standard Part B premium of $185/month, plus any plan copays or deductibles when you use care. Costs vary by county and plan type, so comparing options in your ZIP code is important.",
+  },
+  {
+    question: "When can I enroll in a Medicare Advantage plan in New Jersey?",
+    answer:
+      "New Jersey residents can enroll during the Annual Enrollment Period from October 15 to December 7, with coverage starting January 1. You can also switch or drop plans during the Medicare Advantage Open Enrollment Period from January 1 to March 31. Special Enrollment Periods may apply if you move, lose coverage, or qualify for Extra Help.",
+  },
 ];
 
 export default function NJMedicareAdvantagePage() {
@@ -73,8 +83,8 @@ export default function NJMedicareAdvantagePage() {
         <div className="grid lg:grid-cols-3 gap-10">
           <div className="lg:col-span-2">
             <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">
-              Best Medicare Advantage Plans in New Jersey (2026)
-            </h1>
+          Best Medicare Advantage Plans in New Jersey for 2026
+        </h1>
         <p className="text-sm text-gray-500 mt-2">By <strong>Anthony Orner</strong>, Licensed Medicare Insurance Broker — NJ &amp; 34 states</p>
             <p className="text-lg text-gray-600 leading-relaxed mb-6">
               <strong>The short answer:</strong> New Jersey has competitive Medicare Advantage options

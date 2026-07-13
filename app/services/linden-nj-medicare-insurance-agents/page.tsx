@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title:
     "linden nj medicare insurance agents | Free Quote | MedicareYourself",
   description:
-    "Linden NJ Medicare insurance agents — Anthony Orner compares Supplement and Advantage plans across carriers in Union County. Free quote, no obligation.",
+    "Linden NJ Medicare insurance agents — Anthony Orner compares Supplement & Advantage plans across carriers in Union County. Call 855-559-1700 for a free quote.",
   alternates: { canonical: "https://medicareyourself.com/services/linden-nj-medicare-insurance-agents" },
   openGraph: {
     title:

@@ -11,7 +11,7 @@ const PAGE_URL = `${SITE_URL}${PAGE_PATH}`;
 export const metadata: Metadata = {
   title: "Medicare Supplement (Medigap) Hub: State Guides & Carrier Reviews 2026",
   description:
-    "Compare Medicare Supplement plans by state and carrier. Data-driven Medigap reviews with real rate filings and loss ratios, plus state pricing guides for NJ and PA.",
+    "Compare Medicare Supplement plans by state and carrier with data-driven Medigap reviews built on real rate filings. Call 855-559-1700 for help.",
   alternates: { canonical: PAGE_URL },
   openGraph: {
     title: "Medicare Supplement (Medigap) Hub: State Guides & Carrier Reviews 2026",
@@ -94,6 +94,16 @@ const faqs = [
     question: "Does the best Medigap carrier vary by state?",
     answer:
       "Yes, dramatically. Medigap premiums are filed state by state, so a carrier that is the cheapest option in Pennsylvania can be among the most expensive in Texas for the identical plan letter. That is why our guides and reviews always break pricing out by state rather than giving one national answer.",
+  },
+  {
+    question: "Do I need Original Medicare to buy a Medigap policy?",
+    answer:
+      "Yes. According to Medicare.gov, you generally must have both Part A (Hospital Insurance) and Part B (Medical Insurance) to purchase a Medicare Supplement policy. Medigap works alongside Original Medicare — it does not replace it and cannot be paired with a Medicare Advantage plan.",
+  },
+  {
+    question: "What does a Medigap policy actually help pay for?",
+    answer:
+      "Medigap is private insurance that helps cover your share of out-of-pocket costs in Original Medicare, such as copayments, coinsurance, and deductibles. The exact costs covered depend on which standardized plan letter you choose. Because benefits are federally standardized, comparing carriers really comes down to price and rate history.",
   },
 ];
 

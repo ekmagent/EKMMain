@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for neuropathy patients | Free Plan Review | MedicareYourself",
   description:
-    "Medicare broker for neuropathy patients: compare plans covering nerve testing, specialists, and Rx. Free plan review with Anthony Orner — call today.",
+    "Medicare broker for neuropathy patients: compare plans covering nerve testing, specialists, and Rx. Free plan review with Anthony Orner — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-neuropathy-patients" },
   openGraph: {
     title:
@@ -323,6 +323,7 @@ export default function MedicareBrokerForNeuropathyPatients() {
             </li>
 </ul>
               <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/coverage/nerve-conduction-studies" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">Medicare.gov — Nerve conduction studies coverage</a> and <a href="https://www.medicare.gov/coverage/foot-care" rel="noopener noreferrer" target="_blank" className="text-blue-600 hover:underline">Medicare.gov — Foot care coverage</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">Need free local Medicare counseling? Visit the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
       </article>
     </>

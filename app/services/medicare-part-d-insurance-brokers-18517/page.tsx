@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare part d insurance brokers 18517 | Free Plan Comparison | MedicareYourself",
   description:
-    "Medicare Part D brokers serving 18517 — Anthony Orner compares every drug plan for your exact prescriptions at no cost. Call 855-559-1700 today.",
+    "Medicare Part D brokers serving 18517 — Anthony Orner compares every drug plan against your prescriptions at no cost. Call 855-559-1700 for a free review.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-part-d-insurance-brokers-18517" },
   openGraph: {
     title:
@@ -299,6 +299,7 @@ export default function MedicarePartDBrokers18517() {
               </Link>
             </li>
 </ul>
+            <div className="text-sm text-gray-600 mt-4">Free unbiased counseling in Pennsylvania: <a href="https://www.aging.pa.gov/aging-services/pace/Pages/APPRISE.aspx" rel="noopener noreferrer" target="_blank" className="underline">PA APPRISE SHIP Program</a>.</div>
       </section>
     </>
   );

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare enrollment help for people with lupus california | Free Guidance | MedicareYourself",
   description:
-    "Medicare enrollment help for Californians with lupus. Compare plans covering rheumatologists, biologics & infusions. Free broker guidance — call today.",
+    "Medicare help for Californians with lupus. Compare plans covering rheumatologists, biologics & infusions. Call 855-559-1700 for free broker guidance.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-enrollment-help-for-people-with-lupus-california" },
   openGraph: {
     title:
@@ -89,7 +89,22 @@ const faqs = [
     question: "Does Medicare cover rheumatologist visits for lupus management?",
     answer:
       "Yes. Medicare Part B covers medically necessary visits to rheumatologists and other specialists who accept Medicare. After meeting the 2026 Part B deductible of $283, you typically pay 20% of the Medicare-approved amount unless you have supplemental coverage that reduces your cost share.",
-  }
+  },
+  {
+    question: "Will Medicare cover lab work needed to monitor lupus activity in California?",
+    answer:
+      "Yes. Medicare Part B covers medically necessary diagnostic lab tests ordered by your doctor, including bloodwork commonly used to monitor lupus such as ANA panels, complement levels, and kidney function tests. You typically pay nothing for Medicare-approved lab services when your provider accepts assignment.",
+  },
+  {
+    question: "Can a Medicare Advantage plan in California require prior authorization for lupus medications?",
+    answer:
+      "Yes. Most Medicare Advantage and Part D plans use prior authorization, step therapy, or quantity limits for specialty drugs and biologics used to treat lupus. Reviewing each plan's formulary and utilization rules before enrolling is important. A licensed broker can compare plans against your specific medication list at no cost.",
+  },
+  {
+    question: "Does Medicare help with lupus-related kidney complications?",
+    answer:
+      "Yes. Medicare covers treatment for lupus nephritis, including nephrologist visits, medications, and dialysis if kidney disease progresses. People with end-stage renal disease may also qualify for Medicare regardless of age. Coordinating your rheumatologist and nephrologist within the same plan network can reduce costs and simplify care.",
+  },
 ];
 
 export default function MedicareEnrollmentHelpLupusCalifornia() {
@@ -350,6 +365,7 @@ export default function MedicareEnrollmentHelpLupusCalifornia() {
 </ul>
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/basics/get-started-with-medicare/sign-up/when-does-medicare-coverage-start" rel="noopener noreferrer" target="_blank" className="underline">When Medicare coverage starts (Medicare.gov)</a> · <a href="https://www.medicare.gov/basics/costs/medicare-costs" rel="noopener noreferrer" target="_blank" className="underline">2026 Medicare costs</a></div>
             <div className="text-sm text-gray-600 mt-2">California residents: Get free local Medicare counseling through <a href="https://aging.ca.gov/hicap/" rel="noopener noreferrer" target="_blank" className="underline">California's Health Insurance Counseling and Advocacy Program (HICAP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">California resource: <a href="https://www.aging.ca.gov/HICAP/" rel="noopener noreferrer" target="_blank" className="underline">California HICAP — Free Medicare Counseling</a></div>
       </section>
     </main>
   );
