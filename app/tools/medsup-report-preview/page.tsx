@@ -111,7 +111,7 @@ type Report = {
 };
 
 function loadReport(): Report {
-  const file = path.resolve(process.cwd(), "artifacts/csg-reports/debbie-08034-report.json");
+  const file = path.resolve(process.cwd(), "artifacts/csg-reports/sample-report.json");
   return JSON.parse(fs.readFileSync(file, "utf8"));
 }
 
