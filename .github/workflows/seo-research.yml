@@ -91,6 +91,12 @@ jobs:
       github.event.schedule == '0 15 * * 1' || (github.event_name == 'workflow_dispatch' && (github.event.inputs.run_mode == 'weekly' || github.event.inputs.run_mode == 'all'))
     permissions:
       contents: write
+    # Exposed at job level so step `if:` guards can skip Sheets-dependent
+    # steps when these secrets aren't configured (env is valid in step ifs;
+    # the secrets context is not).
+    env:
+      INTERNAL_SEO_SHEET_ID: ${{ secrets.INTERNAL_SEO_SHEET_ID }}
+      SITE_AUDIT_SHEET_ID: ${{ secrets.SITE_AUDIT_SHEET_ID }}
 
     steps:
       - name: Checkout repo
@@ -165,7 +171,10 @@ jobs:
           DIRECTORY_SEO_SHEET_ID: ${{ secrets.DIRECTORY_SEO_SHEET_ID }}
         run: node scripts/find-compact-keywords.js
 
+      # Sheets-dependent steps skip when their secrets aren't configured
+      # (they were never added to this repo) instead of hard-failing the run.
       - name: Build approved Compact Keyword pages
+        if: env.INTERNAL_SEO_SHEET_ID != ''
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
@@ -185,6 +194,7 @@ jobs:
       # Results committed as screaming-frog-log.tsv + Google Sheets tab.
 
       - name: Run site audit (Module 04)
+        if: env.SITE_AUDIT_SHEET_ID != ''
         env:
           GOOGLE_CREDENTIALS_JSON: ${{ secrets.GOOGLE_CREDENTIALS_JSON_PATH }}
           SITE_AUDIT_SHEET_ID: ${{ secrets.SITE_AUDIT_SHEET_ID }}
@@ -235,6 +245,8 @@ jobs:
       github.event_name == 'workflow_dispatch' && (github.event.inputs.run_mode == 'drafts' || github.event.inputs.run_mode == 'all')
     permissions:
       contents: write
+    env:
+      DIRECTORY_SEO_SHEET_ID: ${{ secrets.DIRECTORY_SEO_SHEET_ID }}
 
     steps:
       - name: Checkout repo
@@ -289,6 +301,7 @@ jobs:
         run: node scripts/expert-quotes.js
 
       - name: Suggest directory submissions (Module 12)
+        if: env.DIRECTORY_SEO_SHEET_ID != ''
         env:
           GOOGLE_CREDENTIALS_JSON: ${{ secrets.GOOGLE_CREDENTIALS_JSON_PATH }}
           DIRECTORY_SEO_SHEET_ID: ${{ secrets.DIRECTORY_SEO_SHEET_ID }}
