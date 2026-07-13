@@ -184,39 +184,54 @@ export async function POST(req: NextRequest) {
     `Referrer: ${referrer || "none"}`,
   ].join("\n");
 
-  const deliveries: Promise<Response>[] = [];
+  const deliveries: { label: string; promise: Promise<Response> }[] = [];
   if (ghlApiConfigured) {
-    deliveries.push(deliverToGhlApi(ghlApiToken!, ghlLocationId!, lead, noteBody));
+    deliveries.push({
+      label: "ghl_api",
+      promise: deliverToGhlApi(ghlApiToken!, ghlLocationId!, lead, noteBody),
+    });
   }
   if (slackUrl) {
-    deliveries.push(
-      fetch(slackUrl, {
+    deliveries.push({
+      label: "slack",
+      promise: fetch(slackUrl, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ text: slackText }),
-      })
-    );
+      }),
+    });
   }
   if (ghlUrl) {
-    deliveries.push(
-      fetch(ghlUrl, {
+    deliveries.push({
+      label: "ghl_webhook",
+      promise: fetch(ghlUrl, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(lead),
-      })
-    );
+      }),
+    });
   }
   if (genericUrl) {
-    deliveries.push(
-      fetch(genericUrl, {
+    deliveries.push({
+      label: "webhook",
+      promise: fetch(genericUrl, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(lead),
-      })
-    );
+      }),
+    });
   }
 
-  const results = await Promise.allSettled(deliveries);
+  const results = await Promise.allSettled(deliveries.map((d) => d.promise));
+  // Status codes only — never log lead fields
+  console.log(
+    "quote-lead deliveries:",
+    results
+      .map((r, i) =>
+        `${deliveries[i].label}=${r.status === "fulfilled" ? r.value.status : "failed"}`
+      )
+      .join(" ")
+  );
   const delivered = results.some((r) => r.status === "fulfilled" && r.value.ok);
 
   if (!delivered) {
