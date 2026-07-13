@@ -32,7 +32,7 @@ function clean(value: unknown, max = 300): string {
   return typeof value === "string" ? value.slice(0, max).trim() : "";
 }
 
-const GHL_API_BASE = "https://services.leadconnector.com";
+const GHL_API_BASE = "https://services.leadconnectorhq.com";
 
 // Creates/updates the contact in GHL via the free REST API (no billed
 // inbound-webhook trigger). Attaches lead context as a contact note.
