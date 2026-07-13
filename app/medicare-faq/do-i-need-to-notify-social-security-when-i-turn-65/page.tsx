@@ -1,0 +1,82 @@
+import type { Metadata } from "next";
+import Link from "next/link";
+import PhoneCTA from "@/components/PhoneCTA";
+import SchemaMarkup from "@/components/SchemaMarkup";
+
+export const metadata: Metadata = {
+  title: "Do I need to notify Social Security when I turn 65? | Medicare FAQ",
+  description:
+    "If you're already collecting Social Security benefits before 65, you don't need to do anything. Social Security automatically enrolls you in Medicare Part ",
+};
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "Do I need to notify Social Security when I turn 65?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "If you're already collecting Social Security benefits before 65, you don't need to do anything. Social Security automatically enrolls you in Medicare Part A and Part B, and your card arrives about three months before your 65th birthday. If you're not yet drawing Social Security, you have to sign up yourself through ssa.gov or by calling Social Security. Your Initial Enrollment Period runs seven months total: three months before your birthday month, the month itself, and three months after. Miss it without other creditable coverage and you could face a lifetime Part B penalty on top of the $185 monthly premium in 2026. Want help timing this correctly? Call Anthony at 855-559-1700 or visit medicareyourself.com.",
+      },
+    },
+  ],
+};
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://medicareyourself.com" },
+    { "@type": "ListItem", position: 2, name: "Medicare FAQ", item: "https://medicareyourself.com/medicare-faq" },
+    { "@type": "ListItem", position: 3, name: "Do I need to notify Social Security when I turn 65", item: "https://medicareyourself.com/medicare-faq/do-i-need-to-notify-social-security-when-i-turn-65" },
+  ],
+};
+
+export default function FAQPage() {
+  return (
+    <>
+      <SchemaMarkup schema={[faqSchema, breadcrumbSchema]} />
+
+      <nav className="max-w-3xl mx-auto px-4 pt-4 text-sm text-gray-500">
+        <Link href="/" className="hover:text-blue-600">Home</Link>
+        <span className="mx-2">›</span>
+        <Link href="/medicare-faq" className="hover:text-blue-600">Medicare FAQ</Link>
+        <span className="mx-2">›</span>
+        <span className="text-gray-900">Do I need to notify Social Security when I turn 65</span>
+      </nav>
+
+      <article className="max-w-3xl mx-auto px-4 py-10">
+        <h1 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6 leading-tight">
+          Do I need to notify Social Security when I turn 65?
+        </h1>
+
+        <div className="prose prose-gray max-w-none mb-8">
+          <p className="text-gray-700 leading-relaxed text-lg">
+            If you&apos;re already collecting Social Security benefits before 65, you don&apos;t need to do anything. Social Security automatically enrolls you in Medicare Part A and Part B, and your card arrives about three months before your 65th birthday. If you&apos;re not yet drawing Social Security, you have to sign up yourself through ssa.gov or by calling Social Security. Your Initial Enrollment Period runs seven months total: three months before your birthday month, the month itself, and three months after. Miss it without other creditable coverage and you could face a lifetime Part B penalty on top of the &#36;185 monthly premium in 2026. Want help timing this correctly? Call Anthony at 855-559-1700 or visit medicareyourself.com.
+          </p>
+        </div>
+
+        <div className="mb-10">
+          <PhoneCTA label="Get a Free Answer From a Licensed Broker" />
+        </div>
+
+        <div className="bg-gray-50 rounded-xl p-5 text-sm border border-gray-100">
+          <p className="font-semibold text-gray-900 mb-3">Related Medicare Questions</p>
+          <ul className="space-y-1">
+            <li><Link href="/medicare-faq" className="text-blue-600 hover:underline">Browse all Medicare FAQ →</Link></li>
+            <li><Link href="/learn/how-to-sign-up-for-medicare" className="text-blue-600 hover:underline">How and when to sign up for Medicare</Link></li>
+            <li><Link href="/medicare-supplement/new-jersey" className="text-blue-600 hover:underline">Medicare Supplement plans in New Jersey</Link></li>
+            <li><Link href="/learn/medicare-help-low-income" className="text-blue-600 hover:underline">Medicare help for people on a fixed income</Link></li>
+          </ul>
+        </div>
+
+        <p className="text-xs text-gray-400 mt-6">
+          EasyKind Medicare is an independent brokerage licensed in NJ and 34 states. Not affiliated with Medicare or any government agency.
+          Last updated: July 2026.
+        </p>
+      </article>
+    </>
+  );
+}

@@ -153,20 +153,37 @@ Answer (100-130 words, plain text only):`;
   return msg.content[0].text.trim();
 }
 
-/** Escape string for safe embedding in JSX template literals */
-function escapeForJsx(str) {
+/**
+ * LLM answer text is untrusted input. Two encoders, one per context:
+ * - js(): JSON.stringify — always a valid JS string literal (newlines,
+ *   quotes, backslashes, unicode). Raw string interpolation here is what
+ *   generated 9 uncompilable pages on 2026-07-13 (answers with paragraph
+ *   breaks -> unterminated string constants).
+ * - jsxText(): entity-escapes & < > { } " ' for JSX text position (XSS +
+ *   parse safety), plus backtick/dollar-brace escapes for this generator's
+ *   own outer template literal. Newlines are safe in JSX text.
+ */
+function js(str) {
+  return JSON.stringify(str);
+}
+
+function jsxText(str) {
   return str
-    .replace(/\\/g, "\\\\")     // backslashes first
-    .replace(/`/g, "\\`")       // backticks (template literal)
-    .replace(/\$\{/g, "\\${")   // template expressions
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/\{/g, "&#123;")
+    .replace(/\}/g, "&#125;")
     .replace(/'/g, "&apos;")
-    .replace(/"/g, "&quot;");
+    .replace(/"/g, "&quot;")
+    .replace(/`/g, "&#96;")
+    .replace(/\$/g, "&#36;");
 }
 
 /** Write a single FAQ page file */
 function writeFaqPage(question, slug, answer) {
-  const escapedQuestion = escapeForJsx(question);
-  const escapedAnswer = escapeForJsx(answer);
+  const escapedQuestion = jsxText(question);
+  const escapedAnswer = jsxText(answer);
   const siteUrl = "https://medicareyourself.com";
 
   const content = `import type { Metadata } from "next";
@@ -175,9 +192,9 @@ import PhoneCTA from "@/components/PhoneCTA";
 import SchemaMarkup from "@/components/SchemaMarkup";
 
 export const metadata: Metadata = {
-  title: "${escapedQuestion.slice(0, 55)} | Medicare FAQ",
+  title: ${js(question.slice(0, 55) + " | Medicare FAQ")},
   description:
-    "${escapedAnswer.slice(0, 155).replace(/"/g, '\\"')}",
+    ${js(answer.slice(0, 155))},
 };
 
 const faqSchema = {
@@ -186,10 +203,10 @@ const faqSchema = {
   mainEntity: [
     {
       "@type": "Question",
-      name: "${escapedQuestion}",
+      name: ${js(question)},
       acceptedAnswer: {
         "@type": "Answer",
-        text: "${escapedAnswer}",
+        text: ${js(answer)},
       },
     },
   ],
@@ -201,7 +218,7 @@ const breadcrumbSchema = {
   itemListElement: [
     { "@type": "ListItem", position: 1, name: "Home", item: "${siteUrl}" },
     { "@type": "ListItem", position: 2, name: "Medicare FAQ", item: "${siteUrl}/medicare-faq" },
-    { "@type": "ListItem", position: 3, name: "${escapedQuestion.slice(0, 50)}", item: "${siteUrl}/medicare-faq/${slug}" },
+    { "@type": "ListItem", position: 3, name: ${js(question.slice(0, 50))}, item: ${js(siteUrl + "/medicare-faq/" + slug)} },
   ],
 };
 
@@ -265,7 +282,7 @@ function writeHubPage(entries) {
   const listItems = entries
     .map(
       (e) =>
-        `        <li>\n          <Link href="/medicare-faq/${e.slug}" className="text-blue-700 hover:underline font-medium">\n            ${e.question.replace(/'/g, "&apos;")}\n          </Link>\n        </li>`
+        `        <li>\n          <Link href="/medicare-faq/${e.slug}" className="text-blue-700 hover:underline font-medium">\n            ${jsxText(e.question)}\n          </Link>\n        </li>`
     )
     .join("\n");
 
@@ -423,7 +440,11 @@ async function main() {
   console.log(`\nFAQ build complete: ${built} new pages, ${skipped} skipped (already exist)`);
 }
 
-main().catch((err) => {
-  console.error("build-faq-pages failed:", err.message);
-  process.exit(1);
-});
+if (require.main === module) {
+  main().catch((err) => {
+    console.error("build-faq-pages failed:", err.message);
+    process.exit(1);
+  });
+}
+
+module.exports = { writeFaqPage, jsxText, js };
