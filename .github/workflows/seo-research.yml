@@ -79,7 +79,7 @@ jobs:
           git config user.email "bot@medicareyourself.com"
           git add citation-log.tsv serp-log.tsv
           git diff --cached --quiet || git commit -m "SEO signals: $(date +'%Y-%m-%d')"
-          git pull --rebase
+          git pull --rebase --autostash
           git push
 
   weekly-optimiser:
@@ -221,7 +221,7 @@ jobs:
           git config user.email "bot@medicareyourself.com"
           git add page-dates.json results.tsv gsc-data.json gsc-keyword-opportunities.tsv faq-index.json faq-build-log.tsv bing-grounding.json bing-grounding-log.tsv ga4-ai-traffic.json ga4-ai-traffic-log.tsv compact-keywords-log.tsv compact-keywords-state.json compact-pages-log.tsv competitor-analysis-log.tsv competitor-analysis-state.json orchestrator-log.tsv site-audit-log.tsv screaming-frog-log.tsv page-validation-report.tsv change-log.tsv moz-usage.json app/
           git diff --cached --quiet || git commit -m "SEO autoresearch: weekly update $(date +'%Y-%m-%d')"
-          git pull --rebase
+          git pull --rebase --autostash
           git push
 
       # Bing's index powers ChatGPT search — our highest-converting discovery
@@ -315,5 +315,5 @@ jobs:
           git config user.email "bot@medicareyourself.com"
           git add press-releases/ press-release-log.tsv press-release-state.json artifacts/ artifact-log.tsv artifact-state.json video-scripts/ video-seo-state.json video-seo-log.tsv competitor-videos/ competitor-videos-state.json competitor-videos-log.tsv x-threads/ x-threads-state.json x-threads-log.tsv social-posts/ social-posts-state.json social-posts-log.tsv expert-quotes/ expert-quotes-state.json expert-quotes-log.tsv directory-log.tsv
           git diff --cached --quiet || git commit -m "Content drafts: $(date +'%Y-%m-%d')"
-          git pull --rebase
+          git pull --rebase --autostash
           git push
