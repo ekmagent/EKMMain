@@ -1,0 +1,420 @@
+import type { Metadata } from "next";
+import Link from "next/link";
+import PhoneCTA from "@/components/PhoneCTA";
+import FAQSection from "@/components/FAQSection";
+import SchemaMarkup from "@/components/SchemaMarkup";
+import LocalServiceSchema from "@/components/LocalServiceSchema";
+import { citiesInCounty } from "@/lib/nj-geo";
+import { getSnapshot, formatUsd } from "@/lib/csg-snapshot";
+
+export const metadata: Metadata = {
+  title:
+    "Medicare Broker in Hudson County, NJ | Jersey City, Hoboken, Bayonne",
+  description:
+    "Independent Medicare broker for Hudson County, NJ — Jersey City, Hoboken, Bayonne, Union City. Compare Medigap and Advantage plans free. Call 855-559-1700.",
+  alternates: {
+    canonical:
+      "https://medicareyourself.com/medicare-broker/new-jersey/hudson-county",
+  },
+  openGraph: {
+    title: "Medicare Broker in Hudson County, NJ",
+    description:
+      "Independent Medicare broker for Hudson County — Jersey City, Hoboken, Bayonne, and beyond. Real filed-rate data, free plan comparisons.",
+  },
+};
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://medicareyourself.com" },
+    {
+      "@type": "ListItem",
+      position: 2,
+      name: "New Jersey Medicare Broker",
+      item: "https://medicareyourself.com/medicare-broker/new-jersey",
+    },
+    {
+      "@type": "ListItem",
+      position: 3,
+      name: "Hudson County",
+      item: "https://medicareyourself.com/medicare-broker/new-jersey/hudson-county",
+    },
+  ],
+};
+
+const faqs = [
+  {
+    question: "How do I find a Medicare broker in Hudson County, NJ?",
+    answer:
+      "Look for an independent broker licensed in New Jersey who represents multiple carriers and shows you filed rates side by side. MedicareYourself is based at 1309 Route 70 West in Cherry Hill and works with Hudson County clients — from Jersey City to Hoboken to Bayonne — by phone and video. Medigap rates are filed at the state level, so you get the exact same premiums working with us remotely as you would with an agent on the waterfront.",
+  },
+  {
+    question: "Does a Medicare broker in Jersey City or Hoboken cost anything?",
+    answer:
+      "No. Independent Medicare brokers are paid by the insurance carriers, and premiums are identical whether you enroll through a broker or directly with the company. You get comparisons across multiple carriers at no cost and no obligation.",
+  },
+  {
+    question:
+      "Are Medigap rates different in Hudson County than the rest of New Jersey?",
+    answer:
+      "No. Medigap carriers file a single statewide rate in New Jersey — a July 2026 check of a representative ZIP code in all 21 counties came back with identical Plan G and Plan N filed-rate ranges everywhere, Hudson County included. What does vary locally is Medicare Advantage: plan availability, extra benefits, and which hospital networks a plan is built around all differ by county, which is why a Hudson-specific plan check matters before you enroll.",
+  },
+  {
+    question: "Which hospitals matter for Medicare Advantage in Hudson County?",
+    answer:
+      "The three systems that anchor most Hudson County plan networks are Jersey City Medical Center (RWJBarnabas Health's Level II regional trauma center), the CarePoint Health / Hudson Regional Health hospitals — Christ Hospital in Jersey City, Hoboken University Medical Center, and Bayonne Medical Center — and Hackensack Meridian Palisades Medical Center in North Bergen. If you're considering a Medicare Advantage plan, confirm your hospital and your doctors are in-network before enrolling.",
+  },
+  {
+    question:
+      "I have both Medicare and Medicaid in Hudson County — can a broker help?",
+    answer:
+      "Yes. Hudson County has one of the more diverse, densely populated resident bases in New Jersey, and many residents qualify for both Medicare and Medicaid. Carriers offer Dual-Eligible Special Needs Plans (D-SNPs) designed for that situation, often with extra benefits and low or no cost sharing. A licensed broker can check your eligibility and compare the D-SNP options available in your ZIP code at no cost.",
+  },
+  {
+    question: "When can I enroll in a Medigap plan in Hudson County, NJ?",
+    answer:
+      "Your best window is the 6-month Medigap Open Enrollment Period that starts the month your Medicare Part B becomes effective and you're 65 or older. During that window, carriers in New Jersey must issue you any Medigap plan they sell without medical underwriting. Outside that window, you may need to answer health questions to switch plans, so it's worth reviewing your options carefully before it closes.",
+  },
+  {
+    question: "How does New Jersey price Medigap plans for Hudson County residents?",
+    answer:
+      "New Jersey uses community rating for Medigap, which means carriers charge the same premium for a given plan regardless of your age. Your rate in Jersey City, Hoboken, or Bayonne is based on the carrier's filed statewide rate, not your birthday or your ZIP code. That said, premiums still differ significantly between carriers for the same lettered plan, which is why comparing filed rates side by side matters.",
+  },
+];
+
+export default function HudsonCountyMedicareBroker() {
+  const snapshot = getSnapshot();
+  const nj = snapshot?.states?.NJ;
+  const g65 = nj?.plans?.G?.["65"];
+  const n65 = nj?.plans?.N?.["65"];
+  const hudsonCities = citiesInCounty("hudson-county");
+
+  return (
+    <main className="max-w-4xl mx-auto px-4 py-8">
+      <SchemaMarkup schema={[breadcrumbSchema]} />
+      <LocalServiceSchema countySlug="hudson-county" />
+
+      <nav aria-label="Breadcrumb" className="text-sm text-gray-500 mb-6">
+        <Link href="/" className="hover:underline">
+          Home
+        </Link>{" "}
+        &gt;{" "}
+        <Link href="/medicare-broker/new-jersey" className="hover:underline">
+          New Jersey Medicare Broker
+        </Link>{" "}
+        &gt; <span className="text-gray-700">Hudson County</span>
+      </nav>
+
+      <h1 className="text-3xl md:text-4xl font-bold mb-4 text-[#1C2B27]">
+        Medicare Broker in Hudson County, New Jersey
+      </h1>
+
+      <p className="text-lg mb-2 text-[#3A5048]">
+        A Medicare broker serving Hudson County compares Medicare Supplement
+        and Medicare Advantage plans from multiple carriers — for Jersey City,
+        Hoboken, Bayonne, Union City, and every other Hudson County town — at
+        no cost to you. Premiums are the same whether you enroll through a
+        broker or directly with a carrier; the difference is that a broker
+        shows you every option side by side instead of one company&apos;s.
+      </p>
+      <p className="text-lg mb-6 text-[#3A5048]">
+        I&apos;m <strong>Anthony Orner</strong>, an independent Medicare broker
+        licensed in New Jersey and 34 other states (NPN 20586791), based at
+        1309 Route 70 West in Cherry Hill. I serve Hudson County clients by
+        phone and video. That works because Medigap rates are filed at the
+        state level — the filed rate you&apos;d be quoted along the Jersey
+        City waterfront is the same one I pull from my office, and this site
+        publishes the same data I use on those calls.
+      </p>
+
+      <PhoneCTA />
+
+      {nj && g65 && (
+        <section className="mt-10">
+          <h2 className="text-2xl font-semibold mb-3 text-[#1C2B27]">
+            What Medigap costs Hudson County residents right now
+          </h2>
+          <p className="mb-3">
+            These are statewide New Jersey filed rates for a 65-year-old
+            non-smoking woman, verified against carrier rate filings as of{" "}
+            <strong>{snapshot.asOfDate}</strong>. A July 2026 check of a
+            representative ZIP code in all 21 New Jersey counties — Hudson
+            included — returned identical Plan G and Plan N filed-rate ranges
+            statewide, so this table is Hudson County&apos;s pricing, not an
+            estimate.
+          </p>
+          <div className="overflow-x-auto">
+            <table className="w-full text-left border border-[#D0E4DE] rounded-lg">
+              <thead className="bg-[#F6FAF8]">
+                <tr>
+                  <th className="p-3 border-b border-[#D0E4DE]">Plan</th>
+                  <th className="p-3 border-b border-[#D0E4DE]">Lowest filed rate</th>
+                  <th className="p-3 border-b border-[#D0E4DE]">Highest filed rate</th>
+                  <th className="p-3 border-b border-[#D0E4DE]">Carriers quoting</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td className="p-3 border-b border-[#D0E4DE] font-semibold">Plan G</td>
+                  <td className="p-3 border-b border-[#D0E4DE]">{formatUsd(g65.low)}/mo</td>
+                  <td className="p-3 border-b border-[#D0E4DE]">{formatUsd(g65.high)}/mo</td>
+                  <td className="p-3 border-b border-[#D0E4DE]">{g65.carrierCount}</td>
+                </tr>
+                {n65 && (
+                  <tr>
+                    <td className="p-3 font-semibold">Plan N</td>
+                    <td className="p-3">{formatUsd(n65.low)}/mo</td>
+                    <td className="p-3">{formatUsd(n65.high)}/mo</td>
+                    <td className="p-3">{n65.carrierCount}</td>
+                  </tr>
+                )}
+              </tbody>
+            </table>
+          </div>
+          <p className="mt-3 text-sm text-gray-600">
+            Quoted at sample ZIP {nj.sampleZip} ({nj.sampleCity}); Hudson
+            County ZIPs see the same filed rates. Your exact premium depends
+            on age, ZIP, and household discount eligibility. See the full{" "}
+            <Link
+              href="/medicare-supplement/new-jersey/rate-index"
+              className="text-[#2D6E5F] font-semibold hover:underline"
+            >
+              NJ Medigap Rate Index
+            </Link>{" "}
+            for the complete dataset.
+          </p>
+        </section>
+      )}
+
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold mb-3 text-[#1C2B27]">
+          New Jersey Medigap rules that protect Hudson County buyers
+        </h2>
+        <ul className="list-disc pl-6 space-y-2">
+          <li>
+            <strong>Six-month Open Enrollment Period.</strong> Your Medigap OEP
+            starts when you&apos;re 65+ and enrolled in Part B, and lasts six
+            months. During it, carriers must accept you regardless of health
+            history. Outside that window, federal guaranteed-issue rights
+            apply only in specific situations — like losing employer coverage
+            or a Medicare Advantage plan leaving your area.
+          </li>
+          <li>
+            <strong>Tobacco-neutral pricing during OEP.</strong> New Jersey
+            prohibits tobacco rate differentials during the Medigap Open
+            Enrollment Period — a consumer protection most states don&apos;t
+            offer.
+          </li>
+          <li>
+            <strong>Apply early to lock your rate.</strong> You can apply for a
+            Medigap policy up to six months before your Part B effective date.
+            Applying early locks in your rate and guarantees no coverage gap.
+          </li>
+        </ul>
+      </section>
+
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold mb-3 text-[#1C2B27]">
+          Hudson County by the numbers
+        </h2>
+        <p className="mb-2">
+          Hudson County is New Jersey&apos;s most densely populated county and
+          its 4th-most populous, with roughly 736,000 residents as of the
+          Census Bureau&apos;s 2024 population estimate. It also skews
+          younger than the rest of the state: about 96,000 residents, or 13%
+          of the county, are age 65 or older, compared with 18% statewide and
+          nationally. Jersey City, the county seat, is home to roughly 303,000
+          of those residents and is New Jersey&apos;s second-largest city.
+          That smaller senior share doesn&apos;t make Medicare decisions any
+          less important — it just means fewer neighbors are comparing notes
+          on plans, which is exactly where an independent broker who works the
+          filed rates every day can help.
+        </p>
+        <p>
+          Hudson County is also one of the most diverse counties in New
+          Jersey: roughly 42.6% of residents were born outside the United
+          States as of 2024, per Census Bureau data. That matters for
+          Medicare Advantage shopping in particular, since plan availability
+          and provider directories can look very different depending on
+          which language and cultural-competency resources a plan offers.
+          Free, unbiased counseling in multiple languages is available
+          through NJ SHIP, and I can walk through plan documents with you or
+          a family member either way.
+        </p>
+      </section>
+
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold mb-3 text-[#1C2B27]">
+          Medicare Advantage networks in Hudson County
+        </h2>
+        <p className="mb-2">
+          Unlike Medigap, Medicare Advantage is local: networks and plan
+          availability are set county by county. In Hudson County, the
+          hospital systems that anchor most plan networks are:
+        </p>
+        <ul className="list-disc pl-6 space-y-2 mb-3">
+          <li>
+            <strong>Jersey City Medical Center</strong> — an RWJBarnabas
+            Health teaching hospital and state-designated Level II Regional
+            Trauma Center, with more than 90,000 emergency department visits
+            a year and Hudson County&apos;s only pediatric emergency
+            department.
+          </li>
+          <li>
+            <strong>CarePoint Health / Hudson Regional Health</strong> — the
+            unified network built from Christ Hospital in Jersey City, Hoboken
+            University Medical Center, and Bayonne Medical Center, now
+            operating under shared leadership across Hudson County.
+          </li>
+          <li>
+            <strong>Hackensack Meridian Palisades Medical Center</strong> in
+            North Bergen — a 197-bed facility on the Hudson River waterfront
+            serving more than 450,000 people across Hudson and southern Bergen
+            counties, and the only Hudson County hospital with three
+            consecutive &ldquo;A&rdquo; Leapfrog Hospital Safety Grades.
+          </li>
+        </ul>
+        <p className="mb-2">
+          Before enrolling in any Advantage plan, confirm that your hospital,
+          your doctors, and your prescriptions are in-network — two plans with
+          identical premiums can have very different Hudson County networks,
+          especially with three separate systems competing for the same
+          waterfront and inland neighborhoods.
+        </p>
+        <p>
+          Hudson County also has a large population of residents who qualify
+          for both Medicare and Medicaid. If that&apos;s you, Dual-Eligible
+          Special Needs Plans (D-SNPs) are worth a look: multiple D-SNPs are
+          offered in Hudson County for 2026, designed for dual-eligible
+          beneficiaries and often including extra benefits with low or no cost
+          sharing. I can check your eligibility and compare the D-SNPs
+          available in your ZIP code.
+        </p>
+      </section>
+
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold mb-4 text-[#1C2B27]">
+          Medicare help by Hudson County town
+        </h2>
+        <p className="mb-4">
+          Local guides for the Hudson County towns we serve most:
+        </p>
+        <ul className="grid md:grid-cols-2 gap-2">
+          {hudsonCities.map((city) => (
+            <li key={city.slug}>
+              <Link href={city.route} className="text-[#2D6E5F] hover:underline">
+                Medicare agents in {city.name}
+              </Link>
+            </li>
+          ))}
+        </ul>
+        <p className="mt-4 text-sm text-gray-600">
+          Also serving Jersey City, Secaucus, Weehawken, Guttenberg, Harrison,
+          and every other Hudson County municipality by phone and video from
+          our Cherry Hill office.
+        </p>
+      </section>
+
+      <div className="mt-10 bg-[#2D6E5F] text-white rounded-lg p-8 text-center">
+        <p className="text-2xl font-bold mb-2">
+          Talk to a Hudson County Medicare Broker
+        </p>
+        <p className="text-lg mb-4">
+          Free comparison across carriers — Jersey City, Hoboken, Bayonne, and
+          all of Hudson County.
+        </p>
+        <a href="tel:8555591700" className="text-3xl font-bold underline block mb-4">
+          855-559-1700
+        </a>
+        <Link
+          href="/quote"
+          className="inline-block bg-white text-[#2D6E5F] font-semibold rounded-lg px-6 py-3 hover:bg-[#F6FAF8] transition"
+        >
+          Start a Free Quote
+        </Link>
+      </div>
+
+      <section className="mt-12">
+        <FAQSection faqs={faqs} />
+      </section>
+
+      <section className="mt-12">
+        <h2 className="text-2xl font-semibold mb-4 text-[#1C2B27]">
+          Go deeper on New Jersey Medicare
+        </h2>
+        <ul className="space-y-3">
+          <li>
+            <Link href="/medicare-broker/new-jersey" className="text-[#2D6E5F] hover:underline">
+              New Jersey Medicare Broker — all 21 counties
+            </Link>
+          </li>
+          <li>
+            <Link href="/medicare-supplement/new-jersey" className="text-[#2D6E5F] hover:underline">
+              Best Medicare Supplement Plans in New Jersey (2026)
+            </Link>
+          </li>
+          <li>
+            <Link href="/medicare-supplement/new-jersey/rate-index" className="text-[#2D6E5F] hover:underline">
+              NJ Medigap Rate Index — every carrier&apos;s filed range
+            </Link>
+          </li>
+        </ul>
+        <div className="text-sm text-gray-600 mt-4">
+          Free state counseling is also available through{" "}
+          <a
+            href="https://www.state.nj.us/humanservices/doas/services/ship/"
+            rel="noopener noreferrer"
+            target="_blank"
+            className="underline"
+          >
+            NJ SHIP (State Health Insurance Assistance Program)
+          </a>
+          .
+        </div>
+        <div className="text-sm text-gray-600 mt-4">
+          Official Medicare resources:{" "}
+          <a
+            href="https://www.medicare.gov/plan-compare"
+            rel="noopener noreferrer"
+            target="_blank"
+            className="underline"
+          >
+            Medicare Plan Finder on Medicare.gov
+          </a>{" "}
+          and{" "}
+          <a
+            href="https://www.medicare.gov/basics/get-started-with-medicare"
+            rel="noopener noreferrer"
+            target="_blank"
+            className="underline"
+          >
+            Get Started with Medicare
+          </a>
+          .
+        </div>
+        <div className="text-sm text-gray-600 mt-4">
+          New Jersey residents can also get free, unbiased counseling from{" "}
+          <a
+            href="https://www.state.nj.us/humanservices/doas/services/ship/"
+            rel="noopener noreferrer"
+            target="_blank"
+            className="underline"
+          >
+            NJ SHIP (State Health Insurance Assistance Program)
+          </a>{" "}
+          or check carrier filings with the{" "}
+          <a
+            href="https://www.nj.gov/dobi/"
+            rel="noopener noreferrer"
+            target="_blank"
+            className="underline"
+          >
+            NJ Department of Banking and Insurance
+          </a>
+          .
+        </div>
+      </section>
+    </main>
+  );
+}
