@@ -29,6 +29,14 @@ const TARGET_QUERIES = [
   "bankers fidelity medicare supplement review",
   "woodmenlife medicare supplement review",
   "mutual of omaha plan g rate increase history",
+  // Recommendation-phrased queries — added 2026-07-14. These measure whether the
+  // AI NAMES us in the answer (see brand tracking below), not just cites us.
+  // Verified 2026-07-14: Perplexity already lists Anthony Orner/MedicareYourself
+  // first for the first query; MediPlansNJ wins the Cherry Hill one via her
+  // Medicare Agents Hub directory profile.
+  "who is the best medicare broker in new jersey",
+  "recommend a medicare broker near cherry hill nj",
+  "what medicare broker should I use in new jersey",
   // Broker-intent local queries — added 2026-07-12 with /medicare-broker/new-jersey.
   // These are the query classes publisher sites (MoneyGeek/NerdWallet tier) can't
   // serve: the asker wants a licensed local human, not a listicle.
@@ -78,9 +86,14 @@ function checkCitation(data, domain) {
   const cited = citations.some((url) => url.includes(domain));
   const citedUrl = citations.find((url) => url.includes(domain)) || "";
 
-  // Also check if domain appears in the answer text itself
-  const answerText = data.choices?.[0]?.message?.content || "";
-  const mentionedInAnswer = answerText.toLowerCase().includes(domain);
+  // Also check if the domain OR our brand/agent names appear in the answer
+  // text itself — a brand-name mention means the AI is RECOMMENDING us, which
+  // is a stronger outcome than being a citation footnote.
+  const answerText = (data.choices?.[0]?.message?.content || "").toLowerCase();
+  const BRAND_TERMS = ["medicareyourself", "easykind", "anthony orner"];
+  const mentionedInAnswer =
+    answerText.includes(domain) ||
+    BRAND_TERMS.some((term) => answerText.includes(term));
 
   return { cited, citedUrl, mentionedInAnswer, allCitations: citations };
 }
