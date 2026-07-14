@@ -354,7 +354,7 @@ The prompt is exhausting its keyword space. You MUST dramatically change the app
 Return ONLY the improved generation prompt text. No explanation, no markdown fences. The prompt must instruct Claude to return exactly ${BATCH_SIZE} keyword strings as a JSON array.`;
 
     const msg = await anthropic.messages.create({
-      model: "claude-opus-4-7",
+      model: "claude-opus-4-8",
       max_tokens: 2048,
       messages: [{ role: "user", content: diversifyPrompt }],
     });
@@ -408,7 +408,7 @@ ANALYZE: What patterns scored highest and why? What lost points? What new angles
 Return ONLY the improved generation prompt text. No explanation, no markdown fences. The prompt must instruct Claude to return exactly ${BATCH_SIZE} keyword strings as a JSON array.`;
 
   const msg = await anthropic.messages.create({
-    model: "claude-opus-4-7",
+    model: "claude-opus-4-8",
     max_tokens: 2048,
     messages: [{ role: "user", content: optimizerPrompt }],
   });
@@ -564,7 +564,7 @@ async function main() {
     let candidates;
     try {
       const genMsg = await anthropic.messages.create({
-        model: "claude-opus-4-7",
+        model: "claude-opus-4-8",
         max_tokens: 1024,
         messages: [{ role: "user", content: candidatePrompt }],
       });

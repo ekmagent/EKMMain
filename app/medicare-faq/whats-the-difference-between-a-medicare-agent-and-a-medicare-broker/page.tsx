@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import PhoneCTA from "@/components/PhoneCTA";
+import ZipCTA from "@/components/ZipCTA";
 import SchemaMarkup from "@/components/SchemaMarkup";
 
 export const metadata: Metadata = {
@@ -56,6 +57,11 @@ export default function FAQPage() {
           <p className="text-gray-700 leading-relaxed text-lg">
             A Medicare agent typically works for one insurance company and can only sell that carrier&apos;s plans. A broker is independent and contracts with multiple carriers, so you get options across companies like Aetna, Humana, UnitedHealthcare, Cigna, and others. Both must be licensed by your state and complete AHIP certification each year. Both get paid by the insurance company, not you. The price of any given plan is the same whether you buy directly, through an agent, or through a broker. The real difference is choice. A captive agent shows you one menu. A broker compares plans side by side, including the 2026 Part B premium of &#36;185 and how each plan handles your drugs and doctors. Call Anthony at 855-559-1700 to compare.
           </p>
+        </div>
+
+        <div className="bg-[#F6FAF8] border border-[#D0E4DE] rounded-xl p-5 mb-6">
+          <p className="font-semibold text-gray-900 mb-3">See what this costs in your area</p>
+          <ZipCTA label="Compare My Rates" />
         </div>
 
         <div className="mb-10">

@@ -99,7 +99,7 @@ STRICT RULES:
 FORMAT: Number each tweet. Write one tweet per line. Put a blank line between tweets. Do not add any commentary before or after the thread.`;
 
   const msg = await client.messages.create({
-    model: "claude-opus-4-7",
+    model: "claude-opus-4-8",
     max_tokens: 2048,
     messages: [{ role: "user", content: prompt }],
   });
@@ -135,7 +135,7 @@ THREADS ADAPTATION RULES:
 FORMAT: Number each post. Write one post per section. Put a blank line between posts. Do not add any commentary before or after.`;
 
   const msg = await client.messages.create({
-    model: "claude-opus-4-7",
+    model: "claude-opus-4-8",
     max_tokens: 3072,
     messages: [{ role: "user", content: prompt }],
   });
@@ -175,7 +175,7 @@ LINKEDIN ARTICLE RULES:
 FORMAT: Write the article as continuous prose with paragraph breaks. No numbered lists unless they genuinely serve the content. Do not add any commentary before or after the article.`;
 
   const msg = await client.messages.create({
-    model: "claude-opus-4-7",
+    model: "claude-opus-4-8",
     max_tokens: 2048,
     messages: [{ role: "user", content: prompt }],
   });

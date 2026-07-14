@@ -1,8 +1,21 @@
 import Link from "next/link";
+import ZipCTA from "./ZipCTA";
 
 export default function Footer() {
   return (
     <footer className="bg-[#F6FAF8] border-t border-[#D0E4DE] mt-20">
+      {/* Site-wide lead capture — every page's last chance to convert */}
+      <div className="bg-[#2D6E5F]">
+        <div className="max-w-5xl mx-auto px-6 py-10 text-center">
+          <h2 className="text-xl sm:text-2xl font-bold text-white mb-2">
+            See what Medicare plans cost in your area
+          </h2>
+          <p className="text-sm text-[#D0E4DE] mb-5">
+            Free comparison from a licensed broker. Takes about 60 seconds — no spam, no robocalls.
+          </p>
+          <ZipCTA size="lg" label="Compare My Rates" />
+        </div>
+      </div>
       <div className="max-w-5xl mx-auto px-6 py-14">
         <div className="grid md:grid-cols-4 gap-10 mb-10">
 

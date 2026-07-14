@@ -248,7 +248,7 @@ async function main() {
   let candidates;
   try {
     const msg = await anthropic.messages.create({
-      model: "claude-opus-4-7",
+      model: "claude-opus-4-8",
       max_tokens: 1024,
       messages: [{ role: "user", content: generationPrompt }],
     });

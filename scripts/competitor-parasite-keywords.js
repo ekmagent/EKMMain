@@ -183,7 +183,7 @@ CANDIDATES from ${domain}:
 ${candidates.map((c, i) => `${i + 1}. "${c.keyword}" — pos ${c.rank_position ?? "?"} | vol ${c.volume ?? "?"} | difficulty ${c.difficulty ?? "?"} | URL: ${c.ranking_page || "?"}`).join("\n")}`;
 
   const msg = await client.messages.create({
-    model: "claude-opus-4-7",
+    model: "claude-opus-4-8",
     max_tokens: 4096,
     messages: [{ role: "user", content: prompt }],
   });

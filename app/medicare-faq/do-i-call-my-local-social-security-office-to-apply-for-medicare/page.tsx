@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import PhoneCTA from "@/components/PhoneCTA";
+import ZipCTA from "@/components/ZipCTA";
 import SchemaMarkup from "@/components/SchemaMarkup";
 
 export const metadata: Metadata = {
@@ -56,6 +57,11 @@ export default function FAQPage() {
           <p className="text-gray-700 leading-relaxed text-lg">
             You have three ways to apply for Medicare, and calling your local Social Security office is one of them. The fastest option is online at ssa.gov/medicare/sign-up, which takes about 10 minutes. You can also call Social Security&apos;s national line at 1-800-772-1213 (TTY 1-800-325-0778), Monday through Friday, 8 a.m. to 7 p.m. Or you can visit your local field office, though appointments are recommended to avoid a long wait. Your Initial Enrollment Period runs seven months around your 65th birthday. Miss it and you could owe a lifetime Part B late penalty. Once you have Parts A and B, you&apos;ll want a plan to handle the &#36;257 deductible and 20% coinsurance. Call me at 855-559-1700 and I&apos;ll walk you through your options.
           </p>
+        </div>
+
+        <div className="bg-[#F6FAF8] border border-[#D0E4DE] rounded-xl p-5 mb-6">
+          <p className="font-semibold text-gray-900 mb-3">See what this costs in your area</p>
+          <ZipCTA label="Compare My Rates" />
         </div>
 
         <div className="mb-10">

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import PhoneCTA from "@/components/PhoneCTA";
+import ZipCTA from "@/components/ZipCTA";
 import SchemaMarkup from "@/components/SchemaMarkup";
 
 export const metadata: Metadata = {
@@ -56,6 +57,11 @@ export default function FAQPage() {
           <p className="text-gray-700 leading-relaxed text-lg">
             Yes, Medicare Supplement Plan G is still available and remains one of the most popular Medigap plans sold today. If you became eligible for Medicare on or after January 1, 2020, Plan G is likely your best choice since Plan F was closed to newly eligible beneficiaries after that date. Plan G covers everything Plan F does except the Part B deductible, which is &#36;257 in 2026. After you pay that deductible, Plan G picks up your Part A and Part B coinsurance, hospital costs, skilled nursing coinsurance, and foreign travel emergencies. You can enroll in Plan G at any time, though your rate depends on health questions outside your open enrollment window. Call Anthony at 855-559-1700 to compare Plan G rates in your area.
           </p>
+        </div>
+
+        <div className="bg-[#F6FAF8] border border-[#D0E4DE] rounded-xl p-5 mb-6">
+          <p className="font-semibold text-gray-900 mb-3">See what this costs in your area</p>
+          <ZipCTA label="Compare My Rates" />
         </div>
 
         <div className="mb-10">

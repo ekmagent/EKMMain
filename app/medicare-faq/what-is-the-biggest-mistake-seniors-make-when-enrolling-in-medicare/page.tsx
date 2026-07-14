@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import PhoneCTA from "@/components/PhoneCTA";
+import ZipCTA from "@/components/ZipCTA";
 import SchemaMarkup from "@/components/SchemaMarkup";
 
 export const metadata: Metadata = {
@@ -56,6 +57,11 @@ export default function FAQPage() {
           <p className="text-gray-700 leading-relaxed text-lg">
             The biggest mistake seniors make is missing their Initial Enrollment Period, which runs seven months around your 65th birthday. Skip it, and you can face a Part B late enrollment penalty of 10% for every 12 months you delayed, and that penalty sticks with you for life. Another costly slip-up is assuming you must take Part B if you have solid employer coverage from an active job. You might not need it yet. People also pick a plan based on premium alone and ignore drug formularies, provider networks, and the &#36;257 Part B deductible in 2026. Every situation is different, so talk it through with someone before you sign. Call Anthony at 855-559-1700 or visit medicareyourself.com and we&apos;ll walk through your options.
           </p>
+        </div>
+
+        <div className="bg-[#F6FAF8] border border-[#D0E4DE] rounded-xl p-5 mb-6">
+          <p className="font-semibold text-gray-900 mb-3">See what this costs in your area</p>
+          <ZipCTA label="Compare My Rates" />
         </div>
 
         <div className="mb-10">

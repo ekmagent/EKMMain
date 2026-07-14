@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import PhoneCTA from "@/components/PhoneCTA";
+import ZipCTA from "@/components/ZipCTA";
 import SchemaMarkup from "@/components/SchemaMarkup";
 
 export const metadata: Metadata = {
@@ -56,6 +57,11 @@ export default function FAQPage() {
           <p className="text-gray-700 leading-relaxed text-lg">
             There is no single best Medicare plan in New Jersey because the right plan depends on your doctors, prescriptions, and budget. That said, in 2026 New Jersey retirees generally choose between Original Medicare with a Medigap policy and Part D drug plan, or a Medicare Advantage plan from carriers like Aetna, Horizon BCBSNJ, UnitedHealthcare, and Wellcare. Original Medicare charges a &#36;185 monthly Part B premium, a &#36;257 Part B deductible, and a &#36;1,676 Part A hospital deductible. Advantage plans often cost &#36;0 in premium but restrict you to a network. The right pick comes down to whether your doctors accept the plan and whether your drugs are on the formulary. Call Anthony at 855-559-1700 for a free side-by-side comparison built around your situation.
           </p>
+        </div>
+
+        <div className="bg-[#F6FAF8] border border-[#D0E4DE] rounded-xl p-5 mb-6">
+          <p className="font-semibold text-gray-900 mb-3">See what this costs in your area</p>
+          <ZipCTA label="Compare My Rates" />
         </div>
 
         <div className="mb-10">

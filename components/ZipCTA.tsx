@@ -21,7 +21,7 @@ export default function ZipCTA({ size = "default", label = "Get My Options" }: Z
       return;
     }
     setError("");
-    router.push(`/contact?zip=${clean}`);
+    router.push(`/quote?zip=${clean}`);
   }
 
   const isLg = size === "lg";

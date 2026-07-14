@@ -39,12 +39,12 @@ function isValidEmail(email: string) {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
 }
 
-export default function QuoteFlow() {
+export default function QuoteFlow({ initialZip = "" }: { initialZip?: string }) {
   const [step, setStep] = useState(0);
   const [reason, setReason] = useState("");
   const [source, setSource] = useState("");
   const [name, setName] = useState("");
-  const [zip, setZip] = useState("");
+  const [zip, setZip] = useState(/^\d{5}$/.test(initialZip) ? initialZip : "");
   const [dob, setDob] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");

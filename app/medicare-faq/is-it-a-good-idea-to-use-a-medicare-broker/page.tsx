@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import PhoneCTA from "@/components/PhoneCTA";
+import ZipCTA from "@/components/ZipCTA";
 import SchemaMarkup from "@/components/SchemaMarkup";
 
 export const metadata: Metadata = {
@@ -56,6 +57,11 @@ export default function FAQPage() {
           <p className="text-gray-700 leading-relaxed text-lg">
             Yes, using a licensed Medicare broker is usually a smart move, and it costs you nothing. Brokers get paid by the insurance companies, so you pay the same premium whether you enroll through a broker, directly with the carrier, or on medicare.gov. The advantage is choice. A good independent broker compares multiple Advantage and Supplement plans side by side, checks that your doctors and prescriptions are covered, and helps you avoid mistakes like missing your Initial Enrollment Period. With the 2026 Part B premium at &#36;185 a month and the Part B deductible at &#36;257, every dollar matters. Want an honest look at your options? Call Anthony Orner at 855-559-1700 or visit medicareyourself.com for a no-pressure review.
           </p>
+        </div>
+
+        <div className="bg-[#F6FAF8] border border-[#D0E4DE] rounded-xl p-5 mb-6">
+          <p className="font-semibold text-gray-900 mb-3">See what this costs in your area</p>
+          <ZipCTA label="Compare My Rates" />
         </div>
 
         <div className="mb-10">

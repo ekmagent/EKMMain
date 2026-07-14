@@ -15,7 +15,13 @@ export const metadata: Metadata = {
   },
 };
 
-export default function QuotePage() {
+export default async function QuotePage({
+  searchParams,
+}: {
+  searchParams: Promise<{ zip?: string }>;
+}) {
+  const { zip } = await searchParams;
+  const initialZip = /^\d{5}$/.test(zip ?? "") ? zip : undefined;
   return (
     <section className="bg-[#F6FAF8] py-10 sm:py-16">
       <div className="max-w-xl mx-auto px-4">
@@ -29,7 +35,7 @@ export default function QuotePage() {
           </p>
         </div>
 
-        <QuoteFlow />
+        <QuoteFlow initialZip={initialZip} />
 
         <div className="text-center mt-8 space-y-2">
           <p className="text-sm text-gray-500">

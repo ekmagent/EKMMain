@@ -145,7 +145,7 @@ Question: ${question}
 Answer (100-130 words, plain text only):`;
 
   const msg = await client.messages.create({
-    model: "claude-opus-4-7",
+    model: "claude-opus-4-8",
     max_tokens: 300,
     messages: [{ role: "user", content: prompt }],
   });
@@ -189,6 +189,7 @@ function writeFaqPage(question, slug, answer) {
   const content = `import type { Metadata } from "next";
 import Link from "next/link";
 import PhoneCTA from "@/components/PhoneCTA";
+import ZipCTA from "@/components/ZipCTA";
 import SchemaMarkup from "@/components/SchemaMarkup";
 
 export const metadata: Metadata = {
@@ -244,6 +245,11 @@ export default function FAQPage() {
           <p className="text-gray-700 leading-relaxed text-lg">
             ${escapedAnswer}
           </p>
+        </div>
+
+        <div className="bg-[#F6FAF8] border border-[#D0E4DE] rounded-xl p-5 mb-6">
+          <p className="font-semibold text-gray-900 mb-3">See what this costs in your area</p>
+          <ZipCTA label="Compare My Rates" />
         </div>
 
         <div className="mb-10">

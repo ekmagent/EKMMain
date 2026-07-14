@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import PhoneCTA from "@/components/PhoneCTA";
+import ZipCTA from "@/components/ZipCTA";
 import SchemaMarkup from "@/components/SchemaMarkup";
 
 export const metadata: Metadata = {
@@ -56,6 +57,11 @@ export default function FAQPage() {
           <p className="text-gray-700 leading-relaxed text-lg">
             If you&apos;re already collecting Social Security benefits before 65, you don&apos;t need to do anything. Social Security automatically enrolls you in Medicare Part A and Part B, and your card arrives about three months before your 65th birthday. If you&apos;re not yet drawing Social Security, you have to sign up yourself through ssa.gov or by calling Social Security. Your Initial Enrollment Period runs seven months total: three months before your birthday month, the month itself, and three months after. Miss it without other creditable coverage and you could face a lifetime Part B penalty on top of the &#36;185 monthly premium in 2026. Want help timing this correctly? Call Anthony at 855-559-1700 or visit medicareyourself.com.
           </p>
+        </div>
+
+        <div className="bg-[#F6FAF8] border border-[#D0E4DE] rounded-xl p-5 mb-6">
+          <p className="font-semibold text-gray-900 mb-3">See what this costs in your area</p>
+          <ZipCTA label="Compare My Rates" />
         </div>
 
         <div className="mb-10">

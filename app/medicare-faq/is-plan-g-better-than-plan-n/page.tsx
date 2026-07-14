@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import PhoneCTA from "@/components/PhoneCTA";
+import ZipCTA from "@/components/ZipCTA";
 import SchemaMarkup from "@/components/SchemaMarkup";
 
 export const metadata: Metadata = {
@@ -56,6 +57,11 @@ export default function FAQPage() {
           <p className="text-gray-700 leading-relaxed text-lg">
             Plan G is better if you want predictable costs; Plan N is better if you want lower premiums and don&apos;t mind small copays. Here&apos;s the practical difference. Plan G covers everything except the Part B deductible, which is &#36;257 in 2026. After that, you pay nothing for Medicare-approved services. Plan N charges you up to &#36;20 per office visit, up to &#36;50 for ER visits that don&apos;t lead to admission, and doesn&apos;t cover Part B excess charges. If your doctors accept Medicare assignment and you rarely see specialists, Plan N can save you &#36;30 to &#36;50 a month in premium. Heavy healthcare users usually come out ahead with Plan G. Want help comparing rates in your ZIP code? Call Anthony at 855-559-1700 or visit medicareyourself.com.
           </p>
+        </div>
+
+        <div className="bg-[#F6FAF8] border border-[#D0E4DE] rounded-xl p-5 mb-6">
+          <p className="font-semibold text-gray-900 mb-3">See what this costs in your area</p>
+          <ZipCTA label="Compare My Rates" />
         </div>
 
         <div className="mb-10">

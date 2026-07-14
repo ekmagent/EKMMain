@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import PhoneCTA from "@/components/PhoneCTA";
+import ZipCTA from "@/components/ZipCTA";
 import SchemaMarkup from "@/components/SchemaMarkup";
 
 export const metadata: Metadata = {
@@ -58,6 +59,11 @@ export default function FAQPage() {
 
 Anthony Orner runs medicareyourself.com and holds licenses in New Jersey plus 34 other states, so he can shop dozens of plans against your doctors, medications, and budget. With the 2026 Part B premium at &#36;185 a month, every dollar counts. Call 855-559-1700 for a straightforward comparison.
           </p>
+        </div>
+
+        <div className="bg-[#F6FAF8] border border-[#D0E4DE] rounded-xl p-5 mb-6">
+          <p className="font-semibold text-gray-900 mb-3">See what this costs in your area</p>
+          <ZipCTA label="Compare My Rates" />
         </div>
 
         <div className="mb-10">
