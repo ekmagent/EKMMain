@@ -84,6 +84,7 @@ jobs:
           git config user.name "SEO Research Bot"
           git config user.email "bot@medicareyourself.com"
           git add citation-log.tsv serp-log.tsv
+          [ -e competitor-serp-log.tsv ] && git add competitor-serp-log.tsv
           git diff --cached --quiet || git commit -m "SEO signals: $(date +'%Y-%m-%d')"
           git pull --rebase --autostash
           git push
