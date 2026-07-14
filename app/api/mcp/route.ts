@@ -191,11 +191,29 @@ const TOOLS = [
   },
 ];
 
+// Demand telemetry: count requests for states we don't have data for — this
+// is the purchase signal for expanding CSG rate-data coverage. Inputs are
+// sanitized to fixed alphabets before logging (log-injection safety).
+function logUnsupportedDemand(tool: string, state: string, plan: string, age: string) {
+  const safe = (v: string, re: RegExp, max: number) =>
+    re.test(v) ? v.slice(0, max) : "invalid";
+  console.log(
+    JSON.stringify({
+      event: "mcp_unsupported_state",
+      tool,
+      state: safe(state, /^[A-Z]{2}$/, 2),
+      plan: safe(plan, /^[A-Z]$/, 1),
+      age: safe(age, /^\d{2}$/, 2),
+    })
+  );
+}
+
 function rateIndex(state: string, plan: string, age: string) {
   const snapshot = getSnapshot();
   const st = snapshot?.states?.[state];
   const entry = st?.plans?.[plan]?.[age];
   if (!snapshot || !st || !entry) {
+    logUnsupportedDemand("get_medigap_rate_index", state, plan, age);
     return `No filed-rate data available for Plan ${plan} in ${state} at age ${age}. Supported states: ${AVAILABLE_STATES.join(", ")}; plans G and N; ages 65/67/69. (Massachusetts, Minnesota, and Wisconsin standardize Medigap differently and are not covered.) See ${SITE}/medicare-supplement for published guides.`;
   }
   const lines = [
@@ -369,6 +387,7 @@ export async function POST(req: NextRequest) {
         }
         const s = c.states[state];
         if (!s) {
+          logUnsupportedDemand("get_rate_history", state, "G", "65");
           return NextResponse.json(
             toolResult(id, `${CARRIERS[carrier]?.name ?? carrier} has no ${state} data in our dataset. States with data: ${Object.keys(c.states).join(", ")}.`)
           );
