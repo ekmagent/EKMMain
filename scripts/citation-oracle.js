@@ -35,6 +35,7 @@ const TARGET_QUERIES = [
   // first for the first query; MediPlansNJ wins the Cherry Hill one via her
   // Medicare Agents Hub directory profile.
   "who is the best medicare broker in new jersey",
+  "who is the best medicare broker in south jersey",
   "recommend a medicare broker near cherry hill nj",
   "what medicare broker should I use in new jersey",
   // Broker-intent local queries — added 2026-07-12 with /medicare-broker/new-jersey.
