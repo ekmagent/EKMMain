@@ -1,0 +1,151 @@
+state,plan,age,profile,rank,carrier,monthly_rate,rate_type,household_discount,latest_increase_pct,latest_increase_date,state_low,state_high,state_spread,carriers_quoting,as_of
+PA,G,65,F non-tobacco,1,"Physicians Mutual (PSIC)",122.39,attained age,yes,9,2025-10-01,122.39,295.51,173.12,28,2026-07-15
+PA,G,65,F non-tobacco,2,"HealthSpring Ins Co",149.53,attained age,yes,19,2026-02-01,122.39,295.51,173.12,28,2026-07-15
+PA,G,65,F non-tobacco,3,"Humana Insurance Company",155.54,attained age,yes,19.53,2025-11-01,122.39,295.51,173.12,28,2026-07-15
+PA,G,65,F non-tobacco,4,"MedMutual Protect",167.17,attained age,no,16.52,2024-07-01,122.39,295.51,173.12,28,2026-07-15
+PA,G,65,F non-tobacco,5,"Washington Natl Ins Co",168.06,attained age,no,11.5,2025-08-11,122.39,295.51,173.12,28,2026-07-15
+PA,G,70,F non-tobacco,1,"Physicians Mutual (PSIC)",130.58,attained age,yes,9,2025-10-01,130.58,325.98,195.40,28,2026-07-15
+PA,G,70,F non-tobacco,2,"HealthSpring Ins Co",154.05,attained age,yes,19,2026-02-01,130.58,325.98,195.40,28,2026-07-15
+PA,G,70,F non-tobacco,3,"Humana Insurance Company",165.07,attained age,yes,19.53,2025-11-01,130.58,325.98,195.40,28,2026-07-15
+PA,G,70,F non-tobacco,4,"Insurance Co of N Amer",175.89,attained age,no,,,130.58,325.98,195.40,28,2026-07-15
+PA,G,70,F non-tobacco,5,"Medico Life and Health Ins Co",177.97,attained age,no,18.59,2025-09-01,130.58,325.98,195.40,28,2026-07-15
+PA,G,75,F non-tobacco,1,"Physicians Mutual (PSIC)",149.32,attained age,yes,9,2025-10-01,149.32,390.14,240.82,28,2026-07-15
+PA,G,75,F non-tobacco,2,"HealthSpring Ins Co",181.15,attained age,yes,19,2026-02-01,149.32,390.14,240.82,28,2026-07-15
+PA,G,75,F non-tobacco,3,"Medico Life and Health Ins Co",189.80,attained age,no,18.59,2025-09-01,149.32,390.14,240.82,28,2026-07-15
+PA,G,75,F non-tobacco,4,"Humana Insurance Company",195.15,attained age,yes,19.53,2025-11-01,149.32,390.14,240.82,28,2026-07-15
+PA,G,75,F non-tobacco,5,"Insurance Co of N Amer",208.81,attained age,no,,,149.32,390.14,240.82,28,2026-07-15
+PA,N,65,F non-tobacco,1,"HealthSpring Ins Co",99.11,attained age,yes,18.99,2026-02-01,99.11,228.18,129.07,28,2026-07-15
+PA,N,65,F non-tobacco,2,"Humana Insurance Company",104.25,attained age,yes,9.52,2025-11-01,99.11,228.18,129.07,28,2026-07-15
+PA,N,65,F non-tobacco,3,"Insurance Co of N Amer",114.51,attained age,no,,,99.11,228.18,129.07,28,2026-07-15
+PA,N,65,F non-tobacco,4,"Washington Natl Ins Co",115.84,attained age,no,5.49,2025-08-11,99.11,228.18,129.07,28,2026-07-15
+PA,N,65,F non-tobacco,5,"Nassau Life Insurance Company",121.27,attained age,no,7,2025-10-01,99.11,228.18,129.07,28,2026-07-15
+PA,N,70,F non-tobacco,1,"HealthSpring Ins Co",112.09,attained age,yes,18.99,2026-02-01,112.09,269.00,156.91,28,2026-07-15
+PA,N,70,F non-tobacco,2,"Insurance Co of N Amer",116.31,attained age,no,,,112.09,269.00,156.91,28,2026-07-15
+PA,N,70,F non-tobacco,3,"Humana Insurance Company",117.30,attained age,yes,9.52,2025-11-01,112.09,269.00,156.91,28,2026-07-15
+PA,N,70,F non-tobacco,4,"Medico Life and Health Ins Co",130.65,attained age,no,18.59,2025-09-01,112.09,269.00,156.91,28,2026-07-15
+PA,N,70,F non-tobacco,5,"Nassau Life Insurance Company",133.54,attained age,no,7,2025-10-01,112.09,269.00,156.91,28,2026-07-15
+PA,N,75,F non-tobacco,1,"HealthSpring Ins Co",133.25,attained age,yes,18.99,2026-02-01,133.25,314.00,180.75,28,2026-07-15
+PA,N,75,F non-tobacco,2,"Insurance Co of N Amer",138.11,attained age,no,,,133.25,314.00,180.75,28,2026-07-15
+PA,N,75,F non-tobacco,3,"Medico Life and Health Ins Co",139.34,attained age,no,18.59,2025-09-01,133.25,314.00,180.75,28,2026-07-15
+PA,N,75,F non-tobacco,4,"Humana Insurance Company",144.14,attained age,yes,9.52,2025-11-01,133.25,314.00,180.75,28,2026-07-15
+PA,N,75,F non-tobacco,5,"Nassau Life Insurance Company",163.65,attained age,no,7,2025-10-01,133.25,314.00,180.75,28,2026-07-15
+NJ,G,65,F non-tobacco,1,"Washington Natl Ins Co",147.88,attained age,no,6.53,2025-08-04,147.88,260.98,113.10,18,2026-07-15
+NJ,G,65,F non-tobacco,2,"Bankers Fidelity Assur Co",150.53,attained age,no,6.9,2026-02-01,147.88,260.98,113.10,18,2026-07-15
+NJ,G,65,F non-tobacco,3,"AARP Medicare Supplement Insurance Plans, insured by United Healthcare Insurance Company of America",155.15,community rated,yes,7.05,2025-08-01,147.88,260.98,113.10,18,2026-07-15
+NJ,G,65,F non-tobacco,4,"HealthSpring National Health Ins Co",157.80,attained age,no,6.9,2025-08-01,147.88,260.98,113.10,18,2026-07-15
+NJ,G,65,F non-tobacco,5,"UnitedHealthcare Ins Co",168.85,community rated,yes,11.64,2025-08-01,147.88,260.98,113.10,18,2026-07-15
+NJ,G,70,F non-tobacco,1,"Bankers Fidelity Assur Co",158.14,attained age,no,6.9,2026-02-01,158.14,294.00,135.86,18,2026-07-15
+NJ,G,70,F non-tobacco,2,"HealthSpring National Health Ins Co",164.18,attained age,no,6.9,2025-08-01,158.14,294.00,135.86,18,2026-07-15
+NJ,G,70,F non-tobacco,3,"AARP Medicare Supplement Insurance Plans, insured by United Healthcare Insurance Company of America",172.51,community rated,yes,7.05,2025-08-01,158.14,294.00,135.86,18,2026-07-15
+NJ,G,70,F non-tobacco,4,"Humana Insurance Company",175.56,attained age,yes,16.22,2025-08-01,158.14,294.00,135.86,18,2026-07-15
+NJ,G,70,F non-tobacco,5,"Insurance Co of N Amer",179.81,attained age,no,,,158.14,294.00,135.86,18,2026-07-15
+NJ,G,75,F non-tobacco,1,"Bankers Fidelity Assur Co",187.90,attained age,no,6.9,2026-02-01,187.90,351.00,163.10,18,2026-07-15
+NJ,G,75,F non-tobacco,2,"Medico Ins Co",194.28,attained age,no,9,2026-05-01,187.90,351.00,163.10,18,2026-07-15
+NJ,G,75,F non-tobacco,3,"HealthSpring National Health Ins Co",194.99,attained age,no,6.9,2025-08-01,187.90,351.00,163.10,18,2026-07-15
+NJ,G,75,F non-tobacco,4,"AARP Medicare Supplement Insurance Plans, insured by United Healthcare Insurance Company of America",201.44,community rated,yes,7.05,2025-08-01,187.90,351.00,163.10,18,2026-07-15
+NJ,G,75,F non-tobacco,5,"Humana Insurance Company",210.34,attained age,yes,16.22,2025-08-01,187.90,351.00,163.10,18,2026-07-15
+NJ,N,65,F non-tobacco,1,"AARP Medicare Supplement Insurance Plans, insured by United Healthcare Insurance Company of America",105.30,community rated,yes,7.11,2025-08-01,105.30,202.00,96.70,19,2026-07-15
+NJ,N,65,F non-tobacco,2,"HealthSpring National Health Ins Co",106.57,attained age,no,6.9,2025-08-01,105.30,202.00,96.70,19,2026-07-15
+NJ,N,65,F non-tobacco,3,"Washington Natl Ins Co",107.91,attained age,no,1.42,2025-08-04,105.30,202.00,96.70,19,2026-07-15
+NJ,N,65,F non-tobacco,4,"Bankers Fidelity Assur Co",114.63,attained age,no,6.9,2026-02-01,105.30,202.00,96.70,19,2026-07-15
+NJ,N,65,F non-tobacco,5,"Humana Insurance Company",114.66,attained age,yes,15.01,2026-02-01,105.30,202.00,96.70,19,2026-07-15
+NJ,N,70,F non-tobacco,1,"AARP Medicare Supplement Insurance Plans, insured by United Healthcare Insurance Company of America",117.22,community rated,yes,7.11,2025-08-01,117.22,245.00,127.78,19,2026-07-15
+NJ,N,70,F non-tobacco,2,"HealthSpring National Health Ins Co",117.64,attained age,no,6.9,2025-08-01,117.22,245.00,127.78,19,2026-07-15
+NJ,N,70,F non-tobacco,3,"Bankers Fidelity Assur Co",120.43,attained age,no,6.9,2026-02-01,117.22,245.00,127.78,19,2026-07-15
+NJ,N,70,F non-tobacco,4,"Insurance Co of N Amer",123.07,attained age,no,,,117.22,245.00,127.78,19,2026-07-15
+NJ,N,70,F non-tobacco,5,"Humana Insurance Company",125.78,attained age,yes,13.18,2025-08-01,117.22,245.00,127.78,19,2026-07-15
+NJ,N,75,F non-tobacco,1,"Medico Ins Co",135.30,attained age,no,9,2026-05-01,135.30,294.00,158.70,19,2026-07-15
+NJ,N,75,F non-tobacco,2,"AARP Medicare Supplement Insurance Plans, insured by United Healthcare Insurance Company of America",137.09,community rated,yes,7.11,2025-08-01,135.30,294.00,158.70,19,2026-07-15
+NJ,N,75,F non-tobacco,3,"HealthSpring National Health Ins Co",139.72,attained age,no,6.9,2025-08-01,135.30,294.00,158.70,19,2026-07-15
+NJ,N,75,F non-tobacco,4,"Bankers Fidelity Assur Co",143.10,attained age,no,6.9,2026-02-01,135.30,294.00,158.70,19,2026-07-15
+NJ,N,75,F non-tobacco,5,"Insurance Co of N Amer",146.13,attained age,no,,,135.30,294.00,158.70,19,2026-07-15
+OH,G,65,F non-tobacco,1,"Physicians Mutual (PSIC)",117.08,attained age,yes,24.11,2025-10-01,117.08,342.84,225.76,32,2026-07-15
+OH,G,65,F non-tobacco,2,"UnitedHealthcare Ins Co",118.17,community rated,no,14.07,2025-06-01,117.08,342.84,225.76,32,2026-07-15
+OH,G,65,F non-tobacco,3,"Atlantic Capital Life Assur Co",135.52,attained age,no,11.99,2026-01-01,117.08,342.84,225.76,32,2026-07-15
+OH,G,65,F non-tobacco,4,"Insurance Co of N Amer",141.86,attained age,no,,,117.08,342.84,225.76,32,2026-07-15
+OH,G,65,F non-tobacco,5,"HealthSpring Ins Co",142.94,attained age,no,18,2026-04-01,117.08,342.84,225.76,32,2026-07-15
+OH,G,70,F non-tobacco,1,"Physicians Mutual (PSIC)",124.91,attained age,yes,24.11,2025-10-01,124.91,364.54,239.63,32,2026-07-15
+OH,G,70,F non-tobacco,2,"UnitedHealthcare Ins Co",129.99,community rated,no,14.07,2025-06-01,124.91,364.54,239.63,32,2026-07-15
+OH,G,70,F non-tobacco,3,"Atlantic Capital Life Assur Co",142.38,attained age,no,11.99,2026-01-01,124.91,364.54,239.63,32,2026-07-15
+OH,G,70,F non-tobacco,4,"Insurance Co of N Amer",146.19,attained age,no,,,124.91,364.54,239.63,32,2026-07-15
+OH,G,70,F non-tobacco,5,"HealthSpring Ins Co",146.54,attained age,no,18,2026-04-01,124.91,364.54,239.63,32,2026-07-15
+OH,G,75,F non-tobacco,1,"Physicians Mutual (PSIC)",142.86,attained age,yes,24.11,2025-10-01,142.86,433.25,290.39,32,2026-07-15
+OH,G,75,F non-tobacco,2,"Medico Life and Health Ins Co",158.23,attained age,no,9,2026-02-01,142.86,433.25,290.39,32,2026-07-15
+OH,G,75,F non-tobacco,3,"UnitedHealthcare Ins Co",159.54,community rated,no,14.07,2025-06-01,142.86,433.25,290.39,32,2026-07-15
+OH,G,75,F non-tobacco,4,"Atlantic Capital Life Assur Co",169.17,attained age,no,11.99,2026-01-01,142.86,433.25,290.39,32,2026-07-15
+OH,G,75,F non-tobacco,5,"Insurance Co of N Amer",174.46,attained age,no,,,142.86,433.25,290.39,32,2026-07-15
+OH,N,65,F non-tobacco,1,"Atlantic Capital Life Assur Co",102.31,attained age,no,8.01,2026-01-01,102.31,277.27,174.96,31,2026-07-15
+OH,N,65,F non-tobacco,2,"HealthSpring Ins Co",103.37,attained age,no,18.01,2026-04-01,102.31,277.27,174.96,31,2026-07-15
+OH,N,65,F non-tobacco,3,"UnitedHealthcare Ins Co",104.29,community rated,no,11.16,2025-06-01,102.31,277.27,174.96,31,2026-07-15
+OH,N,65,F non-tobacco,4,"Humana Insurance Company",106.71,attained age,yes,8.02,2026-04-01,102.31,277.27,174.96,31,2026-07-15
+OH,N,65,F non-tobacco,5,"Insurance Co of N Amer",107.50,attained age,no,,,102.31,277.27,174.96,31,2026-07-15
+OH,N,70,F non-tobacco,1,"Atlantic Capital Life Assur Co",107.49,attained age,no,8.01,2026-01-01,107.49,322.00,214.51,31,2026-07-15
+OH,N,70,F non-tobacco,2,"Insurance Co of N Amer",110.15,attained age,no,,,107.49,322.00,214.51,31,2026-07-15
+OH,N,70,F non-tobacco,3,"Humana Insurance Company",110.81,attained age,yes,8.02,2026-04-01,107.49,322.00,214.51,31,2026-07-15
+OH,N,70,F non-tobacco,4,"HealthSpring Ins Co",112.98,attained age,no,18.01,2026-04-01,107.49,322.00,214.51,31,2026-07-15
+OH,N,70,F non-tobacco,5,"UnitedHealthcare Ins Co",114.74,community rated,no,11.16,2025-06-01,107.49,322.00,214.51,31,2026-07-15
+OH,N,75,F non-tobacco,1,"Medico Life and Health Ins Co",122.86,attained age,no,9.01,2026-02-01,122.86,369.00,246.14,31,2026-07-15
+OH,N,75,F non-tobacco,2,"Atlantic Capital Life Assur Co",127.72,attained age,no,8.01,2026-01-01,122.86,369.00,246.14,31,2026-07-15
+OH,N,75,F non-tobacco,3,"Insurance Co of N Amer",130.82,attained age,no,,,122.86,369.00,246.14,31,2026-07-15
+OH,N,75,F non-tobacco,4,"Humana Insurance Company",136.75,attained age,yes,8.02,2026-04-01,122.86,369.00,246.14,31,2026-07-15
+OH,N,75,F non-tobacco,5,"HealthSpring Ins Co",137.45,attained age,no,18.01,2026-04-01,122.86,369.00,246.14,31,2026-07-15
+NC,G,65,F non-tobacco,1,"Physicians Mutual (PSIC)",97.09,attained age,yes,14.99,2025-11-01,97.09,315.20,218.11,29,2026-07-15
+NC,G,65,F non-tobacco,2,"Atlantic Capital Life Assur Co",101.84,attained age,no,4.9,2025-08-01,97.09,315.20,218.11,29,2026-07-15
+NC,G,65,F non-tobacco,3,"Medico Ins Co",112.26,attained age,yes,4,2025-09-01,97.09,315.20,218.11,29,2026-07-15
+NC,G,65,F non-tobacco,4,"MedMutual Protect",113.59,attained age,no,20,2025-11-01,97.09,315.20,218.11,29,2026-07-15
+NC,G,65,F non-tobacco,5,"UnitedHealthcare Ins Co",116.80,community rated,yes,12.71,2026-06-01,97.09,315.20,218.11,29,2026-07-15
+NC,G,70,F non-tobacco,1,"Physicians Mutual (PSIC)",103.60,attained age,yes,14.99,2025-11-01,103.60,346.90,243.30,29,2026-07-15
+NC,G,70,F non-tobacco,2,"Atlantic Capital Life Assur Co",106.99,attained age,no,4.9,2025-08-01,103.60,346.90,243.30,29,2026-07-15
+NC,G,70,F non-tobacco,3,"Medico Ins Co",113.39,attained age,yes,4,2025-09-01,103.60,346.90,243.30,29,2026-07-15
+NC,G,70,F non-tobacco,4,"MedMutual Protect",121.09,attained age,no,20,2025-11-01,103.60,346.90,243.30,29,2026-07-15
+NC,G,70,F non-tobacco,5,"HealthSpring Ins Co",122.30,attained age,yes,15,2026-04-01,103.60,346.90,243.30,29,2026-07-15
+NC,G,75,F non-tobacco,1,"Physicians Mutual (PSIC)",118.47,attained age,yes,14.99,2025-11-01,118.47,412.34,293.87,29,2026-07-15
+NC,G,75,F non-tobacco,2,"Medico Ins Co",120.92,attained age,yes,4,2025-09-01,118.47,412.34,293.87,29,2026-07-15
+NC,G,75,F non-tobacco,3,"Atlantic Capital Life Assur Co",127.12,attained age,no,4.9,2025-08-01,118.47,412.34,293.87,29,2026-07-15
+NC,G,75,F non-tobacco,4,"MedMutual Protect",142.09,attained age,no,20,2025-11-01,118.47,412.34,293.87,29,2026-07-15
+NC,G,75,F non-tobacco,5,"HealthSpring Ins Co",146.29,attained age,yes,15,2026-04-01,118.47,412.34,293.87,29,2026-07-15
+NC,N,65,F non-tobacco,1,"Atlantic Capital Life Assur Co",78.54,attained age,no,4.9,2025-08-01,78.54,262.00,183.46,27,2026-07-15
+NC,N,65,F non-tobacco,2,"Medico Ins Co",82.41,attained age,yes,3.99,2025-09-01,78.54,262.00,183.46,27,2026-07-15
+NC,N,65,F non-tobacco,3,"MedMutual Protect",85.10,attained age,no,20.01,2025-11-01,78.54,262.00,183.46,27,2026-07-15
+NC,N,65,F non-tobacco,4,"Humana Insurance Company",86.73,attained age,yes,8.03,2026-07-01,78.54,262.00,183.46,27,2026-07-15
+NC,N,65,F non-tobacco,5,"Insurance Co of N Amer",87.11,attained age,no,,,78.54,262.00,183.46,27,2026-07-15
+NC,N,70,F non-tobacco,1,"Atlantic Capital Life Assur Co",82.51,attained age,no,4.9,2025-08-01,82.51,334.00,251.49,27,2026-07-15
+NC,N,70,F non-tobacco,2,"Medico Ins Co",83.24,attained age,yes,3.99,2025-09-01,82.51,334.00,251.49,27,2026-07-15
+NC,N,70,F non-tobacco,3,"Insurance Co of N Amer",88.91,attained age,no,,,82.51,334.00,251.49,27,2026-07-15
+NC,N,70,F non-tobacco,4,"HealthSpring Ins Co",89.27,attained age,yes,13.01,2026-04-01,82.51,334.00,251.49,27,2026-07-15
+NC,N,70,F non-tobacco,5,"Humana Insurance Company",90.07,attained age,yes,8.03,2026-07-01,82.51,334.00,251.49,27,2026-07-15
+NC,N,75,F non-tobacco,1,"Medico Ins Co",88.77,attained age,yes,3.99,2025-09-01,88.77,374.00,285.23,27,2026-07-15
+NC,N,75,F non-tobacco,2,"Atlantic Capital Life Assur Co",98.04,attained age,no,4.9,2025-08-01,88.77,374.00,285.23,27,2026-07-15
+NC,N,75,F non-tobacco,3,"Insurance Co of N Amer",105.51,attained age,no,,,88.77,374.00,285.23,27,2026-07-15
+NC,N,75,F non-tobacco,4,"MedMutual Protect",106.46,attained age,no,20.01,2025-11-01,88.77,374.00,285.23,27,2026-07-15
+NC,N,75,F non-tobacco,5,"HealthSpring Ins Co",106.79,attained age,yes,13.01,2026-04-01,88.77,374.00,285.23,27,2026-07-15
+TX,G,65,F non-tobacco,1,"Atlantic Capital Life Assur Co",129.92,attained age,no,4.9,2025-08-01,129.92,284.86,154.94,24,2026-07-15
+TX,G,65,F non-tobacco,2,"Members Hlth Ins Co",140.58,attained age,no,-7.68,2025-09-01,129.92,284.86,154.94,24,2026-07-15
+TX,G,65,F non-tobacco,3,"Physicians Mutual (PSIC)",145.29,attained age,yes,17,2025-09-01,129.92,284.86,154.94,24,2026-07-15
+TX,G,65,F non-tobacco,4,"UnitedHealthcare Ins Co",147.43,community rated,yes,25.66,2026-07-01,129.92,284.86,154.94,24,2026-07-15
+TX,G,65,F non-tobacco,5,"HealthSpring Ins Co",158.56,attained age,yes,18.99,2026-05-01,129.92,284.86,154.94,24,2026-07-15
+TX,G,70,F non-tobacco,1,"Atlantic Capital Life Assur Co",136.49,attained age,no,4.9,2025-08-01,136.49,305.26,168.77,24,2026-07-15
+TX,G,70,F non-tobacco,2,"Members Hlth Ins Co",154.94,attained age,no,-7.68,2025-09-01,136.49,305.26,168.77,24,2026-07-15
+TX,G,70,F non-tobacco,3,"Physicians Mutual (PSIC)",155.03,attained age,yes,17,2025-09-01,136.49,305.26,168.77,24,2026-07-15
+TX,G,70,F non-tobacco,4,"HealthSpring Ins Co",163.32,attained age,yes,18.99,2026-05-01,136.49,305.26,168.77,24,2026-07-15
+TX,G,70,F non-tobacco,5,"UnitedHealthcare Ins Co",165.01,community rated,yes,25.66,2026-07-01,136.49,305.26,168.77,24,2026-07-15
+TX,G,75,F non-tobacco,1,"Atlantic Capital Life Assur Co",162.18,attained age,no,4.9,2025-08-01,162.18,365.34,203.16,24,2026-07-15
+TX,G,75,F non-tobacco,2,"Physicians Mutual (PSIC)",177.26,attained age,yes,17,2025-09-01,162.18,365.34,203.16,24,2026-07-15
+TX,G,75,F non-tobacco,3,"Medico Life and Health Ins Co",188.74,attained age,no,24.28,2026-02-01,162.18,365.34,203.16,24,2026-07-15
+TX,G,75,F non-tobacco,4,"HealthSpring Ins Co",196.80,attained age,yes,18.99,2026-05-01,162.18,365.34,203.16,24,2026-07-15
+TX,G,75,F non-tobacco,5,"Members Hlth Ins Co",196.88,attained age,no,-7.68,2025-09-01,162.18,365.34,203.16,24,2026-07-15
+TX,N,65,F non-tobacco,1,"Atlantic Capital Life Assur Co",99.14,attained age,no,4.89,2025-08-01,99.14,243.00,143.86,23,2026-07-15
+TX,N,65,F non-tobacco,2,"Members Hlth Ins Co",106.36,attained age,no,-7.67,2025-09-01,99.14,243.00,143.86,23,2026-07-15
+TX,N,65,F non-tobacco,3,"HealthSpring Ins Co",106.86,attained age,yes,10.24,2026-05-01,99.14,243.00,143.86,23,2026-07-15
+TX,N,65,F non-tobacco,4,"Insurance Co of N Amer",109.83,attained age,no,0,2025-09-01,99.14,243.00,143.86,23,2026-07-15
+TX,N,65,F non-tobacco,5,"Washington Natl Ins Co",114.53,attained age,no,0,2026-06-19,99.14,243.00,143.86,23,2026-07-15
+TX,N,70,F non-tobacco,1,"Atlantic Capital Life Assur Co",104.15,attained age,no,4.89,2025-08-01,104.15,310.00,205.85,23,2026-07-15
+TX,N,70,F non-tobacco,2,"Insurance Co of N Amer",111.67,attained age,no,0,2025-09-01,104.15,310.00,205.85,23,2026-07-15
+TX,N,70,F non-tobacco,3,"HealthSpring Ins Co",116.22,attained age,yes,10.24,2026-05-01,104.15,310.00,205.85,23,2026-07-15
+TX,N,70,F non-tobacco,4,"Members Hlth Ins Co",117.44,attained age,no,-7.67,2025-09-01,104.15,310.00,205.85,23,2026-07-15
+TX,N,70,F non-tobacco,5,"Nassau Life Insurance Company",127.52,attained age,no,7.31,2025-10-01,104.15,310.00,205.85,23,2026-07-15
+TX,N,75,F non-tobacco,1,"Atlantic Capital Life Assur Co",123.75,attained age,no,4.89,2025-08-01,123.75,363.00,239.25,23,2026-07-15
+TX,N,75,F non-tobacco,2,"Insurance Co of N Amer",132.50,attained age,no,0,2025-09-01,123.75,363.00,239.25,23,2026-07-15
+TX,N,75,F non-tobacco,3,"HealthSpring Ins Co",137.37,attained age,yes,10.24,2026-05-01,123.75,363.00,239.25,23,2026-07-15
+TX,N,75,F non-tobacco,4,"Medico Life and Health Ins Co",138.56,attained age,no,24.29,2026-02-01,123.75,363.00,239.25,23,2026-07-15
+TX,N,75,F non-tobacco,5,"Members Hlth Ins Co",149.81,attained age,no,-7.67,2025-09-01,123.75,363.00,239.25,23,2026-07-15
