@@ -1,0 +1,185 @@
+state,age,profile,brand,brand_rate,ours_rate,ours_carrier,save_monthly,save_annual,as_of
+PA,65,F non-tobacco,"UnitedHealthcare / AARP",186.05,195.91,"Bankers Fidelity Assur Co",-9.86,-118,2026-07-15
+PA,65,F non-tobacco,"Aetna",229.41,195.91,"Bankers Fidelity Assur Co",33.50,402,2026-07-15
+PA,65,F non-tobacco,"Humana",155.54,195.91,"Bankers Fidelity Assur Co",-40.37,-484,2026-07-15
+PA,65,F non-tobacco,"Blue Cross Blue Shield",199.10,195.91,"Bankers Fidelity Assur Co",3.19,38,2026-07-15
+PA,65,M non-tobacco,"UnitedHealthcare / AARP",210.07,219.42,"Bankers Fidelity Assur Co",-9.35,-112,2026-07-15
+PA,65,M non-tobacco,"Aetna",263.89,219.42,"Bankers Fidelity Assur Co",44.47,534,2026-07-15
+PA,65,M non-tobacco,"Humana",175.79,219.42,"Bankers Fidelity Assur Co",-43.63,-524,2026-07-15
+PA,65,M non-tobacco,"Blue Cross Blue Shield",220.05,219.42,"Bankers Fidelity Assur Co",0.63,8,2026-07-15
+PA,70,F non-tobacco,"UnitedHealthcare / AARP",206.94,213.98,"Bankers Fidelity Assur Co",-7.04,-84,2026-07-15
+PA,70,F non-tobacco,"Aetna",243.57,213.98,"Bankers Fidelity Assur Co",29.59,355,2026-07-15
+PA,70,F non-tobacco,"Humana",165.07,213.98,"Bankers Fidelity Assur Co",-48.91,-587,2026-07-15
+PA,70,F non-tobacco,"Blue Cross Blue Shield",217.55,213.98,"Bankers Fidelity Assur Co",3.57,43,2026-07-15
+PA,70,M non-tobacco,"UnitedHealthcare / AARP",233.64,239.66,"Bankers Fidelity Assur Co",-6.02,-72,2026-07-15
+PA,70,M non-tobacco,"Aetna",280.22,239.66,"Bankers Fidelity Assur Co",40.56,487,2026-07-15
+PA,70,M non-tobacco,"Humana",186.56,239.66,"Bankers Fidelity Assur Co",-53.10,-637,2026-07-15
+PA,70,M non-tobacco,"Blue Cross Blue Shield",240.45,239.66,"Bankers Fidelity Assur Co",0.79,9,2026-07-15
+PA,75,F non-tobacco,"UnitedHealthcare / AARP",255.90,252.79,"Bankers Fidelity Assur Co",3.11,37,2026-07-15
+PA,75,F non-tobacco,"Aetna",286.14,252.79,"Bankers Fidelity Assur Co",33.35,400,2026-07-15
+PA,75,F non-tobacco,"Humana",195.15,252.79,"Bankers Fidelity Assur Co",-57.64,-692,2026-07-15
+PA,75,F non-tobacco,"Blue Cross Blue Shield",252.15,252.79,"Bankers Fidelity Assur Co",-0.64,-8,2026-07-15
+PA,75,M non-tobacco,"UnitedHealthcare / AARP",289.08,283.13,"Bankers Fidelity Assur Co",5.95,71,2026-07-15
+PA,75,M non-tobacco,"Aetna",328.95,283.13,"Bankers Fidelity Assur Co",45.82,550,2026-07-15
+PA,75,M non-tobacco,"Humana",220.54,283.13,"Bankers Fidelity Assur Co",-62.59,-751,2026-07-15
+PA,75,M non-tobacco,"Blue Cross Blue Shield",278.70,283.13,"Bankers Fidelity Assur Co",-4.43,-53,2026-07-15
+PA,80,F non-tobacco,"UnitedHealthcare / AARP",296.16,294.09,"Bankers Fidelity Assur Co",2.07,25,2026-07-15
+PA,80,F non-tobacco,"Aetna",337.28,294.09,"Bankers Fidelity Assur Co",43.19,518,2026-07-15
+PA,80,F non-tobacco,"Humana",237.47,294.09,"Bankers Fidelity Assur Co",-56.62,-679,2026-07-15
+PA,80,F non-tobacco,"Blue Cross Blue Shield",292.35,294.09,"Bankers Fidelity Assur Co",-1.74,-21,2026-07-15
+PA,80,M non-tobacco,"UnitedHealthcare / AARP",334.49,329.38,"Bankers Fidelity Assur Co",5.11,61,2026-07-15
+PA,80,M non-tobacco,"Aetna",387.93,329.38,"Bankers Fidelity Assur Co",58.55,703,2026-07-15
+PA,80,M non-tobacco,"Humana",268.37,329.38,"Bankers Fidelity Assur Co",-61.01,-732,2026-07-15
+PA,80,M non-tobacco,"Blue Cross Blue Shield",323.10,329.38,"Bankers Fidelity Assur Co",-6.28,-75,2026-07-15
+NJ,65,F non-tobacco,"UnitedHealthcare / AARP",155.15,150.53,"Bankers Fidelity Assur Co",4.62,55,2026-07-15
+NJ,65,F non-tobacco,"Mutual of Omaha",198.29,150.53,"Bankers Fidelity Assur Co",47.76,573,2026-07-15
+NJ,65,F non-tobacco,"Aetna",260.98,150.53,"Bankers Fidelity Assur Co",110.45,1325,2026-07-15
+NJ,65,F non-tobacco,"Humana",169.68,150.53,"Bankers Fidelity Assur Co",19.15,230,2026-07-15
+NJ,65,M non-tobacco,"UnitedHealthcare / AARP",175.46,172.82,"Bankers Fidelity Assur Co",2.64,32,2026-07-15
+NJ,65,M non-tobacco,"Mutual of Omaha",228.02,172.82,"Bankers Fidelity Assur Co",55.20,662,2026-07-15
+NJ,65,M non-tobacco,"Aetna",299.88,172.82,"Bankers Fidelity Assur Co",127.06,1525,2026-07-15
+NJ,65,M non-tobacco,"Humana",195.17,172.82,"Bankers Fidelity Assur Co",22.35,268,2026-07-15
+NJ,70,F non-tobacco,"UnitedHealthcare / AARP",172.51,158.14,"Bankers Fidelity Assur Co",14.37,172,2026-07-15
+NJ,70,F non-tobacco,"Mutual of Omaha",209.95,158.14,"Bankers Fidelity Assur Co",51.81,622,2026-07-15
+NJ,70,F non-tobacco,"Aetna",292.47,158.14,"Bankers Fidelity Assur Co",134.33,1612,2026-07-15
+NJ,70,F non-tobacco,"Humana",175.56,158.14,"Bankers Fidelity Assur Co",17.42,209,2026-07-15
+NJ,70,M non-tobacco,"UnitedHealthcare / AARP",195.04,181.56,"Bankers Fidelity Assur Co",13.48,162,2026-07-15
+NJ,70,M non-tobacco,"Mutual of Omaha",241.44,181.56,"Bankers Fidelity Assur Co",59.88,719,2026-07-15
+NJ,70,M non-tobacco,"Aetna",336.53,181.56,"Bankers Fidelity Assur Co",154.97,1860,2026-07-15
+NJ,70,M non-tobacco,"Humana",201.92,181.56,"Bankers Fidelity Assur Co",20.36,244,2026-07-15
+NJ,75,F non-tobacco,"UnitedHealthcare / AARP",201.44,187.90,"Bankers Fidelity Assur Co",13.54,162,2026-07-15
+NJ,75,F non-tobacco,"Mutual of Omaha",243.49,187.90,"Bankers Fidelity Assur Co",55.59,667,2026-07-15
+NJ,75,F non-tobacco,"Aetna",348.44,187.90,"Bankers Fidelity Assur Co",160.54,1926,2026-07-15
+NJ,75,F non-tobacco,"Humana",210.34,187.90,"Bankers Fidelity Assur Co",22.44,269,2026-07-15
+NJ,75,M non-tobacco,"UnitedHealthcare / AARP",227.67,215.73,"Bankers Fidelity Assur Co",11.94,143,2026-07-15
+NJ,75,M non-tobacco,"Mutual of Omaha",280.00,215.73,"Bankers Fidelity Assur Co",64.27,771,2026-07-15
+NJ,75,M non-tobacco,"Aetna",400.67,215.73,"Bankers Fidelity Assur Co",184.94,2219,2026-07-15
+NJ,75,M non-tobacco,"Humana",241.92,215.73,"Bankers Fidelity Assur Co",26.19,314,2026-07-15
+NJ,80,F non-tobacco,"UnitedHealthcare / AARP",233.28,222.79,"Bankers Fidelity Assur Co",10.49,126,2026-07-15
+NJ,80,F non-tobacco,"Mutual of Omaha",294.51,222.79,"Bankers Fidelity Assur Co",71.72,861,2026-07-15
+NJ,80,F non-tobacco,"Aetna",415.08,222.79,"Bankers Fidelity Assur Co",192.29,2307,2026-07-15
+NJ,80,F non-tobacco,"Humana",254.60,222.79,"Bankers Fidelity Assur Co",31.81,382,2026-07-15
+NJ,80,M non-tobacco,"UnitedHealthcare / AARP",263.57,255.79,"Bankers Fidelity Assur Co",7.78,93,2026-07-15
+NJ,80,M non-tobacco,"Mutual of Omaha",338.68,255.79,"Bankers Fidelity Assur Co",82.89,995,2026-07-15
+NJ,80,M non-tobacco,"Aetna",477.31,255.79,"Bankers Fidelity Assur Co",221.52,2658,2026-07-15
+NJ,80,M non-tobacco,"Humana",292.81,255.79,"Bankers Fidelity Assur Co",37.02,444,2026-07-15
+OH,65,F non-tobacco,"UnitedHealthcare / AARP",118.17,135.52,"Atlantic Capital Life Assur Co",-17.35,-208,2026-07-15
+OH,65,F non-tobacco,"Mutual of Omaha",204.05,135.52,"Atlantic Capital Life Assur Co",68.53,822,2026-07-15
+OH,65,F non-tobacco,"Aetna",209.00,135.52,"Atlantic Capital Life Assur Co",73.48,882,2026-07-15
+OH,65,F non-tobacco,"Humana",157.50,135.52,"Atlantic Capital Life Assur Co",21.98,264,2026-07-15
+OH,65,F non-tobacco,"Blue Cross Blue Shield",173.25,135.52,"Atlantic Capital Life Assur Co",37.73,453,2026-07-15
+OH,65,M non-tobacco,"UnitedHealthcare / AARP",133.42,155.56,"Atlantic Capital Life Assur Co",-22.14,-266,2026-07-15
+OH,65,M non-tobacco,"Mutual of Omaha",234.65,155.56,"Atlantic Capital Life Assur Co",79.09,949,2026-07-15
+OH,65,M non-tobacco,"Aetna",240.24,155.56,"Atlantic Capital Life Assur Co",84.68,1016,2026-07-15
+OH,65,M non-tobacco,"Humana",181.15,155.56,"Atlantic Capital Life Assur Co",25.59,307,2026-07-15
+OH,65,M non-tobacco,"Blue Cross Blue Shield",190.24,155.56,"Atlantic Capital Life Assur Co",34.68,416,2026-07-15
+OH,70,F non-tobacco,"UnitedHealthcare / AARP",129.99,142.38,"Atlantic Capital Life Assur Co",-12.39,-149,2026-07-15
+OH,70,F non-tobacco,"Mutual of Omaha",219.95,142.38,"Atlantic Capital Life Assur Co",77.57,931,2026-07-15
+OH,70,F non-tobacco,"Aetna",221.74,142.38,"Atlantic Capital Life Assur Co",79.36,952,2026-07-15
+OH,70,F non-tobacco,"Humana",162.96,142.38,"Atlantic Capital Life Assur Co",20.58,247,2026-07-15
+OH,70,F non-tobacco,"Blue Cross Blue Shield",226.07,142.38,"Atlantic Capital Life Assur Co",83.69,1004,2026-07-15
+OH,70,M non-tobacco,"UnitedHealthcare / AARP",146.74,163.43,"Atlantic Capital Life Assur Co",-16.69,-200,2026-07-15
+OH,70,M non-tobacco,"Mutual of Omaha",252.95,163.43,"Atlantic Capital Life Assur Co",89.52,1074,2026-07-15
+OH,70,M non-tobacco,"Aetna",254.98,163.43,"Atlantic Capital Life Assur Co",91.55,1099,2026-07-15
+OH,70,M non-tobacco,"Humana",187.44,163.43,"Atlantic Capital Life Assur Co",24.01,288,2026-07-15
+OH,70,M non-tobacco,"Blue Cross Blue Shield",248.22,163.43,"Atlantic Capital Life Assur Co",84.79,1017,2026-07-15
+OH,75,F non-tobacco,"UnitedHealthcare / AARP",159.54,169.17,"Atlantic Capital Life Assur Co",-9.63,-116,2026-07-15
+OH,75,F non-tobacco,"Mutual of Omaha",254.10,169.17,"Atlantic Capital Life Assur Co",84.93,1019,2026-07-15
+OH,75,F non-tobacco,"Aetna",260.56,169.17,"Atlantic Capital Life Assur Co",91.39,1097,2026-07-15
+OH,75,F non-tobacco,"Humana",195.25,169.17,"Atlantic Capital Life Assur Co",26.08,313,2026-07-15
+OH,75,F non-tobacco,"Blue Cross Blue Shield",278.83,169.17,"Atlantic Capital Life Assur Co",109.66,1316,2026-07-15
+OH,75,M non-tobacco,"UnitedHealthcare / AARP",180.04,194.19,"Atlantic Capital Life Assur Co",-14.15,-170,2026-07-15
+OH,75,M non-tobacco,"Mutual of Omaha",292.21,194.19,"Atlantic Capital Life Assur Co",98.02,1176,2026-07-15
+OH,75,M non-tobacco,"Aetna",299.71,194.19,"Atlantic Capital Life Assur Co",105.52,1266,2026-07-15
+OH,75,M non-tobacco,"Humana",224.59,194.19,"Atlantic Capital Life Assur Co",30.40,365,2026-07-15
+OH,75,M non-tobacco,"Blue Cross Blue Shield",306.12,194.19,"Atlantic Capital Life Assur Co",111.93,1343,2026-07-15
+OH,80,F non-tobacco,"UnitedHealthcare / AARP",189.09,199.58,"Atlantic Capital Life Assur Co",-10.49,-126,2026-07-15
+OH,80,F non-tobacco,"Mutual of Omaha",300.53,199.58,"Atlantic Capital Life Assur Co",100.95,1211,2026-07-15
+OH,80,F non-tobacco,"Aetna",307.13,199.58,"Atlantic Capital Life Assur Co",107.55,1291,2026-07-15
+OH,80,F non-tobacco,"Humana",236.38,199.58,"Atlantic Capital Life Assur Co",36.80,442,2026-07-15
+OH,80,F non-tobacco,"Blue Cross Blue Shield",331.65,199.58,"Atlantic Capital Life Assur Co",132.07,1585,2026-07-15
+OH,80,M non-tobacco,"UnitedHealthcare / AARP",213.34,229.10,"Atlantic Capital Life Assur Co",-15.76,-189,2026-07-15
+OH,80,M non-tobacco,"Mutual of Omaha",345.60,229.10,"Atlantic Capital Life Assur Co",116.50,1398,2026-07-15
+OH,80,M non-tobacco,"Aetna",352.94,229.10,"Atlantic Capital Life Assur Co",123.84,1486,2026-07-15
+OH,80,M non-tobacco,"Humana",271.86,229.10,"Atlantic Capital Life Assur Co",42.76,513,2026-07-15
+OH,80,M non-tobacco,"Blue Cross Blue Shield",364.06,229.10,"Atlantic Capital Life Assur Co",134.96,1620,2026-07-15
+NC,65,F non-tobacco,"UnitedHealthcare / AARP",116.80,101.84,"Atlantic Capital Life Assur Co",14.96,180,2026-07-15
+NC,65,F non-tobacco,"Mutual of Omaha",184.64,101.84,"Atlantic Capital Life Assur Co",82.80,994,2026-07-15
+NC,65,F non-tobacco,"Aetna",181.01,101.84,"Atlantic Capital Life Assur Co",79.17,950,2026-07-15
+NC,65,F non-tobacco,"Humana",147.27,101.84,"Atlantic Capital Life Assur Co",45.43,545,2026-07-15
+NC,65,F non-tobacco,"Blue Cross Blue Shield",179.50,101.84,"Atlantic Capital Life Assur Co",77.66,932,2026-07-15
+NC,65,M non-tobacco,"UnitedHealthcare / AARP",131.92,116.86,"Atlantic Capital Life Assur Co",15.06,181,2026-07-15
+NC,65,M non-tobacco,"Mutual of Omaha",212.34,116.86,"Atlantic Capital Life Assur Co",95.48,1146,2026-07-15
+NC,65,M non-tobacco,"Aetna",208.25,116.86,"Atlantic Capital Life Assur Co",91.39,1097,2026-07-15
+NC,65,M non-tobacco,"Humana",166.45,116.86,"Atlantic Capital Life Assur Co",49.59,595,2026-07-15
+NC,65,M non-tobacco,"Blue Cross Blue Shield",205.50,116.86,"Atlantic Capital Life Assur Co",88.64,1064,2026-07-15
+NC,70,F non-tobacco,"UnitedHealthcare / AARP",130.00,106.99,"Atlantic Capital Life Assur Co",23.01,276,2026-07-15
+NC,70,F non-tobacco,"Mutual of Omaha",196.93,106.99,"Atlantic Capital Life Assur Co",89.94,1079,2026-07-15
+NC,70,F non-tobacco,"Aetna",192.01,106.99,"Atlantic Capital Life Assur Co",85.02,1020,2026-07-15
+NC,70,F non-tobacco,"Humana",157.83,106.99,"Atlantic Capital Life Assur Co",50.84,610,2026-07-15
+NC,70,F non-tobacco,"Blue Cross Blue Shield",212.50,106.99,"Atlantic Capital Life Assur Co",105.51,1266,2026-07-15
+NC,70,M non-tobacco,"UnitedHealthcare / AARP",146.80,122.77,"Atlantic Capital Life Assur Co",24.03,288,2026-07-15
+NC,70,M non-tobacco,"Mutual of Omaha",226.48,122.77,"Atlantic Capital Life Assur Co",103.71,1245,2026-07-15
+NC,70,M non-tobacco,"Aetna",220.91,122.77,"Atlantic Capital Life Assur Co",98.14,1178,2026-07-15
+NC,70,M non-tobacco,"Humana",178.39,122.77,"Atlantic Capital Life Assur Co",55.62,667,2026-07-15
+NC,70,M non-tobacco,"Blue Cross Blue Shield",243.00,122.77,"Atlantic Capital Life Assur Co",120.23,1443,2026-07-15
+NC,75,F non-tobacco,"UnitedHealthcare / AARP",163.00,127.12,"Atlantic Capital Life Assur Co",35.88,431,2026-07-15
+NC,75,F non-tobacco,"Mutual of Omaha",228.90,127.12,"Atlantic Capital Life Assur Co",101.78,1221,2026-07-15
+NC,75,F non-tobacco,"Aetna",225.83,127.12,"Atlantic Capital Life Assur Co",98.71,1185,2026-07-15
+NC,75,F non-tobacco,"Humana",188.78,127.12,"Atlantic Capital Life Assur Co",61.66,740,2026-07-15
+NC,75,F non-tobacco,"Blue Cross Blue Shield",282.75,127.12,"Atlantic Capital Life Assur Co",155.63,1868,2026-07-15
+NC,75,M non-tobacco,"UnitedHealthcare / AARP",184.00,145.88,"Atlantic Capital Life Assur Co",38.12,457,2026-07-15
+NC,75,M non-tobacco,"Mutual of Omaha",263.21,145.88,"Atlantic Capital Life Assur Co",117.33,1408,2026-07-15
+NC,75,M non-tobacco,"Aetna",259.73,145.88,"Atlantic Capital Life Assur Co",113.85,1366,2026-07-15
+NC,75,M non-tobacco,"Humana",213.34,145.88,"Atlantic Capital Life Assur Co",67.46,810,2026-07-15
+NC,75,M non-tobacco,"Blue Cross Blue Shield",323.50,145.88,"Atlantic Capital Life Assur Co",177.62,2131,2026-07-15
+NC,80,F non-tobacco,"UnitedHealthcare / AARP",196.00,150.73,"Atlantic Capital Life Assur Co",45.27,543,2026-07-15
+NC,80,F non-tobacco,"Mutual of Omaha",276.88,150.73,"Atlantic Capital Life Assur Co",126.15,1514,2026-07-15
+NC,80,F non-tobacco,"Aetna",265.98,150.73,"Atlantic Capital Life Assur Co",115.25,1383,2026-07-15
+NC,80,F non-tobacco,"Humana",229.72,150.73,"Atlantic Capital Life Assur Co",78.99,948,2026-07-15
+NC,80,F non-tobacco,"Blue Cross Blue Shield",353.00,150.73,"Atlantic Capital Life Assur Co",202.27,2427,2026-07-15
+NC,80,M non-tobacco,"UnitedHealthcare / AARP",221.20,172.97,"Atlantic Capital Life Assur Co",48.23,579,2026-07-15
+NC,80,M non-tobacco,"Mutual of Omaha",318.41,172.97,"Atlantic Capital Life Assur Co",145.44,1745,2026-07-15
+NC,80,M non-tobacco,"Aetna",305.88,172.97,"Atlantic Capital Life Assur Co",132.91,1595,2026-07-15
+NC,80,M non-tobacco,"Humana",259.62,172.97,"Atlantic Capital Life Assur Co",86.65,1040,2026-07-15
+NC,80,M non-tobacco,"Blue Cross Blue Shield",403.75,172.97,"Atlantic Capital Life Assur Co",230.78,2769,2026-07-15
+TX,65,F non-tobacco,"UnitedHealthcare / AARP",147.43,129.92,"Atlantic Capital Life Assur Co",17.51,210,2026-07-15
+TX,65,F non-tobacco,"Mutual of Omaha",266.26,129.92,"Atlantic Capital Life Assur Co",136.34,1636,2026-07-15
+TX,65,F non-tobacco,"Aetna",275.22,129.92,"Atlantic Capital Life Assur Co",145.30,1744,2026-07-15
+TX,65,F non-tobacco,"Humana",191.27,129.92,"Atlantic Capital Life Assur Co",61.35,736,2026-07-15
+TX,65,F non-tobacco,"Blue Cross Blue Shield",177.03,129.92,"Atlantic Capital Life Assur Co",47.11,565,2026-07-15
+TX,65,M non-tobacco,"UnitedHealthcare / AARP",166.55,149.07,"Atlantic Capital Life Assur Co",17.48,210,2026-07-15
+TX,65,M non-tobacco,"Mutual of Omaha",306.18,149.07,"Atlantic Capital Life Assur Co",157.11,1885,2026-07-15
+TX,65,M non-tobacco,"Aetna",316.71,149.07,"Atlantic Capital Life Assur Co",167.64,2012,2026-07-15
+TX,65,M non-tobacco,"Humana",212.98,149.07,"Atlantic Capital Life Assur Co",63.91,767,2026-07-15
+TX,65,M non-tobacco,"Blue Cross Blue Shield",198.30,149.07,"Atlantic Capital Life Assur Co",49.23,591,2026-07-15
+TX,70,F non-tobacco,"UnitedHealthcare / AARP",165.01,136.49,"Atlantic Capital Life Assur Co",28.52,342,2026-07-15
+TX,70,F non-tobacco,"Mutual of Omaha",282.21,136.49,"Atlantic Capital Life Assur Co",145.72,1749,2026-07-15
+TX,70,F non-tobacco,"Aetna",291.97,136.49,"Atlantic Capital Life Assur Co",155.48,1866,2026-07-15
+TX,70,F non-tobacco,"Humana",202.99,136.49,"Atlantic Capital Life Assur Co",66.50,798,2026-07-15
+TX,70,F non-tobacco,"Blue Cross Blue Shield",223.77,136.49,"Atlantic Capital Life Assur Co",87.28,1047,2026-07-15
+TX,70,M non-tobacco,"UnitedHealthcare / AARP",186.38,156.62,"Atlantic Capital Life Assur Co",29.76,357,2026-07-15
+TX,70,M non-tobacco,"Mutual of Omaha",324.55,156.62,"Atlantic Capital Life Assur Co",167.93,2015,2026-07-15
+TX,70,M non-tobacco,"Aetna",335.78,156.62,"Atlantic Capital Life Assur Co",179.16,2150,2026-07-15
+TX,70,M non-tobacco,"Humana",226.03,156.62,"Atlantic Capital Life Assur Co",69.41,833,2026-07-15
+TX,70,M non-tobacco,"Blue Cross Blue Shield",250.07,156.62,"Atlantic Capital Life Assur Co",93.45,1121,2026-07-15
+TX,75,F non-tobacco,"UnitedHealthcare / AARP",208.96,162.18,"Atlantic Capital Life Assur Co",46.78,561,2026-07-15
+TX,75,F non-tobacco,"Mutual of Omaha",335.13,162.18,"Atlantic Capital Life Assur Co",172.95,2075,2026-07-15
+TX,75,F non-tobacco,"Aetna",343.36,162.18,"Atlantic Capital Life Assur Co",181.18,2174,2026-07-15
+TX,75,F non-tobacco,"Humana",247.02,162.18,"Atlantic Capital Life Assur Co",84.84,1018,2026-07-15
+TX,75,F non-tobacco,"Blue Cross Blue Shield",270.48,162.18,"Atlantic Capital Life Assur Co",108.30,1300,2026-07-15
+TX,75,M non-tobacco,"UnitedHealthcare / AARP",235.96,186.09,"Atlantic Capital Life Assur Co",49.87,598,2026-07-15
+TX,75,M non-tobacco,"Mutual of Omaha",385.39,186.09,"Atlantic Capital Life Assur Co",199.30,2392,2026-07-15
+TX,75,M non-tobacco,"Aetna",394.59,186.09,"Atlantic Capital Life Assur Co",208.50,2502,2026-07-15
+TX,75,M non-tobacco,"Humana",275.06,186.09,"Atlantic Capital Life Assur Co",88.97,1068,2026-07-15
+TX,75,M non-tobacco,"Blue Cross Blue Shield",301.81,186.09,"Atlantic Capital Life Assur Co",115.72,1389,2026-07-15
+TX,80,F non-tobacco,"UnitedHealthcare / AARP",252.91,192.29,"Atlantic Capital Life Assur Co",60.62,727,2026-07-15
+TX,80,F non-tobacco,"Mutual of Omaha",401.46,192.29,"Atlantic Capital Life Assur Co",209.17,2510,2026-07-15
+TX,80,F non-tobacco,"Aetna",404.75,192.29,"Atlantic Capital Life Assur Co",212.46,2550,2026-07-15
+TX,80,F non-tobacco,"Humana",300.59,192.29,"Atlantic Capital Life Assur Co",108.30,1300,2026-07-15
+TX,80,F non-tobacco,"Blue Cross Blue Shield",317.23,192.29,"Atlantic Capital Life Assur Co",124.94,1499,2026-07-15
+TX,80,M non-tobacco,"UnitedHealthcare / AARP",285.53,220.65,"Atlantic Capital Life Assur Co",64.88,779,2026-07-15
+TX,80,M non-tobacco,"Mutual of Omaha",461.69,220.65,"Atlantic Capital Life Assur Co",241.04,2892,2026-07-15
+TX,80,M non-tobacco,"Aetna",465.15,220.65,"Atlantic Capital Life Assur Co",244.50,2934,2026-07-15
+TX,80,M non-tobacco,"Humana",334.71,220.65,"Atlantic Capital Life Assur Co",114.06,1369,2026-07-15
+TX,80,M non-tobacco,"Blue Cross Blue Shield",353.57,220.65,"Atlantic Capital Life Assur Co",132.92,1595,2026-07-15
