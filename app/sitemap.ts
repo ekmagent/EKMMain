@@ -38,6 +38,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/medicare-supplement/new-jersey/turning-65`, lastModified: pageMtime("medicare-supplement/new-jersey/turning-65"), changeFrequency: "weekly", priority: 0.8 },
     { url: `${SITE_URL}/medicare-supplement/pennsylvania`, lastModified: pageMtime("medicare-supplement/pennsylvania"), changeFrequency: "weekly", priority: 0.9 },
     { url: `${SITE_URL}/medicare-broker/new-jersey`, lastModified: pageMtime("medicare-broker/new-jersey"), changeFrequency: "weekly", priority: 0.9 },
+    { url: `${SITE_URL}/medicare-broker/new-jersey/south-jersey`, lastModified: pageMtime("medicare-broker/new-jersey/south-jersey"), changeFrequency: "monthly", priority: 0.8 },
     { url: `${SITE_URL}/medicare-broker/new-jersey/camden-county`, lastModified: pageMtime("medicare-broker/new-jersey/camden-county"), changeFrequency: "monthly", priority: 0.8 },
     { url: `${SITE_URL}/medicare-broker/new-jersey/gloucester-county`, lastModified: pageMtime("medicare-broker/new-jersey/gloucester-county"), changeFrequency: "monthly", priority: 0.8 },
     { url: `${SITE_URL}/medicare-broker/new-jersey/burlington-county`, lastModified: pageMtime("medicare-broker/new-jersey/burlington-county"), changeFrequency: "monthly", priority: 0.8 },

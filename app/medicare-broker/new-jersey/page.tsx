@@ -248,8 +248,16 @@ export default function NewJerseyMedicareBrokerHub() {
           Medicare help by New Jersey county
         </h2>
         <p className="mb-4">
-          Plan availability, Medicare Advantage networks, and even Medigap
-          pricing differ across New Jersey. Pick your county or town:
+          Medicare Advantage networks and plan availability differ across New
+          Jersey, even though Medigap rates don&apos;t. Pick your county or
+          town — South Jersey residents can also start at our{" "}
+          <Link
+            href="/medicare-broker/new-jersey/south-jersey"
+            className="text-[#2D6E5F] font-semibold hover:underline"
+          >
+            South Jersey Medicare broker hub
+          </Link>
+          , where in-person meetings are available:
         </p>
         <div className="grid md:grid-cols-2 gap-6">
           {NJ_COUNTIES.map((county) => {
