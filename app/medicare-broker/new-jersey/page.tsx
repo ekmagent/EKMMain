@@ -138,7 +138,9 @@ export default function NewJerseyMedicareBrokerHub() {
         based at 1309 Route 70 West in Cherry Hill (Camden County), licensed in
         New Jersey and 34 other states (NPN 20586791). I work with clients in
         every New Jersey county by phone and video, and this site publishes the
-        same filed-rate data I use in those calls.
+        same filed-rate data I use in those calls. As of July 2026, easyKind
+        Medicare holds a perfect record on Google: all 142 of our Google
+        reviews are five stars.
       </p>
 
       <PhoneCTA />

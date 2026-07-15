@@ -82,7 +82,8 @@ export default function AboutPage() {
         <p className="text-lg text-[#3A5048] leading-relaxed mb-10">
           MedicareYourself is an independent insurance brokerage specializing exclusively in
           Medicare — Supplement (Medigap) and Medicare Advantage plans. Licensed in New Jersey
-          and 34 other states.
+          and 34 other states. As of July 2026, easyKind Medicare holds a perfect record on
+          Google: all 142 of our Google reviews are five stars.
         </p>
 
         {/* Credential badges */}
