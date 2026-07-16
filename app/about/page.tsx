@@ -32,6 +32,18 @@ const personSchema = {
   },
   description:
     "Independent Medicare insurance broker licensed in New Jersey and 34 other states. We provide free, unbiased Medicare Supplement and Medicare Advantage plan comparisons.",
+  parentOrganization: {
+    "@type": "Organization",
+    name: "EasyKind Medicare (EasyKind Health LLC)",
+    url: "https://www.easykindmedicare.com",
+  },
+  sameAs: [
+    "https://www.easykindmedicare.com",
+    "https://www.linkedin.com/company/easykind-medicare",
+    "https://www.facebook.com/easyKindMedicare/",
+    "https://www.yelp.com/biz/easykind-medicare-cherry-hill",
+    "https://www.bbb.org/us/nj/cherry-hill/profile/health-consultants/easykind-medicare-0221-90234473",
+  ],
   areaServed: ["New Jersey", "Florida", "Texas", "Pennsylvania", "Ohio", "Georgia"],
   knowsAbout: [
     "Medicare Supplement Insurance",
