@@ -159,7 +159,6 @@ date	query	position	url	title
 2026-04-15	best medicare supplement plans pennsylvania	-1		
 2026-04-15	medicare parts a b c d explained	-1		
 2026-04-15	medigap open enrollment new jersey	-1		
-<<<<<<< Updated upstream
 2026-04-16	best medicare supplement plans new jersey 2026	8	https://medicareyourself.com/medicare-supplement/new-jersey	Best Medicare Supplement Plans in NJ 2026 | MedicareYourself
 2026-04-16	medigap plan g new jersey cost	-1		
 2026-04-16	medicare supplement vs medicare advantage new jersey	7	https://www.medicareyourself.com/medicare-supplement/new-jersey/vs-medicare-advantage	Medigap vs Medicare Advantage in New Jersey (2026)
@@ -200,25 +199,13 @@ date	query	position	url	title
 2026-04-19	best medicare supplement plans pennsylvania	-1		
 2026-04-19	medicare parts a b c d explained	-1		
 2026-04-19	medigap open enrollment new jersey	-1		
-=======
-2026-04-15	best medicare supplement plans new jersey 2026	-1		
 2026-04-15	best medigap plans in NJ	-1		
 2026-04-15	best medigap plans new jersey	-1		
-2026-04-15	medigap plan g new jersey cost	-1		
-2026-04-15	medicare supplement vs medicare advantage new jersey	9	https://www.medicareyourself.com/medicare-supplement/new-jersey/vs-medicare-advantage	Medigap vs Medicare Advantage in New Jersey (2026)
-2026-04-15	turning 65 in new jersey medicare	-1		
-2026-04-15	plan g vs plan n new jersey	-1		
-2026-04-15	what is medigap insurance	-1		
 2026-04-15	what is medigap	-1		
-2026-04-15	medicare supplement plans pennsylvania 2026	-1		
-2026-04-15	best medicare supplement plans pennsylvania	-1		
-2026-04-15	medicare parts a b c d explained	-1		
-2026-04-15	medigap open enrollment new jersey	-1		
 2026-04-15	switch medigap plans	-1		
 2026-04-15	how to sign up for medicare	-1		
 2026-04-15	medicare help low income	-1		
 2026-04-15	irmaa medicare surcharge	-1		
->>>>>>> Stashed changes
 2026-04-21	best medicare supplement plans new jersey 2026	6	https://medicareyourself.com/medicare-supplement/new-jersey	Best Medicare Supplement Plans in NJ 2026 | MedicareYourself
 2026-04-21	best medigap plans in NJ	-1		
 2026-04-21	best medigap plans new jersey	-1		
@@ -1545,23 +1532,6 @@ date	query	position	url	title
 2026-07-09	how to sign up for medicare	-1		
 2026-07-09	medicare help low income	-1		
 2026-07-09	irmaa medicare surcharge	-1		
-2026-07-10	best medicare supplement plans new jersey 2026	-1		
-2026-07-10	best medigap plans in NJ	-1		
-2026-07-10	best medigap plans new jersey	-1		
-2026-07-10	medigap plan g new jersey cost	-1		
-2026-07-10	medicare supplement vs medicare advantage new jersey	-1		
-2026-07-10	turning 65 in new jersey medicare	-1		
-2026-07-10	plan g vs plan n new jersey	-1		
-2026-07-10	what is medigap insurance	-1		
-2026-07-10	what is medigap	-1		
-2026-07-10	medicare supplement plans pennsylvania 2026	-1		
-2026-07-10	best medicare supplement plans pennsylvania	-1		
-2026-07-10	medicare parts a b c d explained	-1		
-2026-07-10	medigap open enrollment new jersey	-1		
-2026-07-10	switch medigap plans	-1		
-2026-07-10	how to sign up for medicare	-1		
-2026-07-10	medicare help low income	-1		
-2026-07-10	irmaa medicare surcharge	-1		
 2026-07-10	best medicare supplement plans new jersey 2026	-1		
 2026-07-10	best medigap plans in NJ	-1		
 2026-07-10	best medigap plans new jersey	-1		
