@@ -128,7 +128,7 @@ export default function NjRateIndexPage() {
           New Jersey Medigap Rate Index 2026
         </h1>
         <p className="text-sm text-gray-400 mb-6">
-          By <strong className="text-gray-600">Anthony Orner</strong>, Licensed Medicare Insurance Broker ·
+          By <strong className="text-gray-600">Anthony Orner</strong>, Independent Licensed Medicare Insurance Broker (compares multiple carriers) ·
           Filed-rate data as of {asOf} · Source: CSG Actuarial
         </p>
 

@@ -125,7 +125,7 @@ export default function MedicareSupplementHub() {
           Medicare Supplement (Medigap): State Guides &amp; Carrier Reviews
         </h1>
         <p className="text-sm text-gray-400 mb-6">
-          By <strong className="text-gray-600">Anthony Orner</strong>, Licensed Medicare Insurance Broker
+          By <strong className="text-gray-600">Anthony Orner</strong>, Independent Licensed Medicare Insurance Broker — appointed with multiple carriers
         </p>
 
         <p className="text-lg text-gray-700 leading-relaxed mb-4">
@@ -134,6 +134,9 @@ export default function MedicareSupplementHub() {
           two things: what each carrier charges in <em>your state</em>, and how fast it has been
           raising rates. This hub collects our state pricing guides and data-driven carrier
           reviews, built on actual rate filings and loss ratios rather than marketing claims.
+          As an independent brokerage appointed with multiple carriers, we compare every
+          carrier&apos;s filed rate side by side — unbiased, and at no cost to you, because
+          brokers are paid by the carrier you choose at the same rate regardless of company.
         </p>
         <div className="mb-10">
           <PhoneCTA label="Compare Carriers Free" />

@@ -54,15 +54,16 @@ export default function HomePage() {
       <section className="bg-white pt-20 pb-24 px-6">
         <div className="max-w-3xl mx-auto text-center">
           <p className="text-sm font-bold uppercase tracking-widest text-[#2D6E5F] mb-5">
-            Independent Medicare Broker · Licensed in 35 States
+            Independent Medicare Broker · Appointed with Multiple Carriers · Licensed in 35 States
           </p>
           <h1 className="text-5xl md:text-6xl font-black tracking-tight text-[#1C2B27] leading-[1.1] mb-6">
           Independent Medicare Broker in New Jersey — Compare 2026 Plans Free
         </h1>
         <p className="text-sm text-gray-500 mt-2">By <strong>Anthony Orner</strong>, Licensed Medicare Insurance Broker — NJ &amp; 34 states</p>
           <p className="text-lg text-[#3A5048] mb-10 max-w-xl mx-auto leading-relaxed">
-            Enter your zip code and we'll show you what plans are available in your area —
-            no pressure, no obligation, completely free.
+            We're an independent brokerage appointed with multiple carriers, so we compare
+            plans side by side — unbiased, no pressure, and at no cost to you. Enter your
+            zip code and we'll show you what's available in your area.
           </p>
           <div className="flex justify-center">
             <ZipCTA size="lg" label="Compare Plans Free" />
