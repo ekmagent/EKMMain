@@ -11,10 +11,17 @@ never retype.
 ```
 EasyKind Medicare
 1309 Route 70 West, Cherry Hill, NJ 08002
-855-559-1700
+856-888-9080
 anthony@easykindmedicare.com
 https://medicareyourself.com
 ```
+
+**Phone policy (decided 2026-07-16):** the entity number is **(856) 888-9080** — it is
+what Google Business Profile (142 reviews) already shows, and a local area code
+outranks a toll-free line for local pack. Use it on EVERY directory and profile.
+The toll-free 855-559-1700 stays on medicareyourself.com only, as the
+publication's tracking line (so calls from content/AI answers stay attributable).
+The old BBB number 856-888-4467 is retired — fix it when claiming the profile.
 
 **Supporting facts (use verbatim when a field asks):**
 
@@ -53,7 +60,7 @@ strategy's payoff. Bing Places is also thin competition: most Medicare agents sk
    (do GBP first). Otherwise create manually:
    - Business name: `EasyKind Medicare`
    - Address: `1309 Route 70 West, Cherry Hill, NJ 08002`
-   - Phone: `855-559-1700`
+   - Phone: `856-888-9080`
    - Website: `[https://medicareyourself.com`](https://medicareyourself.com`)
    - Category: Insurance Agency
    - Description: paste the standard short description above.
@@ -118,7 +125,7 @@ My comparisons are free — carriers pay brokers at essentially the same rate re
 
 Licensed insurance broker. Not affiliated with or endorsed by Medicare or any government agency. We do not offer every plan available in your area.
 
-855-559-1700 | anthony@easykindmedicare.com
+856-888-9080 | anthony@easykindmedicare.com
 ```
 
 3. Set current position: `Independent Medicare Broker — EasyKind Medicare` linked to the new
@@ -141,7 +148,7 @@ Licensed insurance broker. Not affiliated with or endorsed by Medicare or any go
    - Name: `EasyKind Medicare`
    - Category: Insurance Agency
    - Address: `1309 Route 70 West, Cherry Hill, NJ 08002`
-   - Phone: `855-559-1700`
+   - Phone: `856-888-9080`
    - Website: `[https://medicareyourself.com`](https://medicareyourself.com`)
    - "About" (verbatim): paste the standard short description.
 4. Verification: usually a phone call to the listed number or document upload

@@ -16,7 +16,7 @@
 |---|---|
 | Business name | EasyKind Medicare |
 | Address | 1309 Route 70 West, Cherry Hill, NJ 08002 |
-| Phone | 855-559-1700 |
+| Phone | 856-888-9080 |
 | Website | https://medicareyourself.com |
 | Email (profile contact) | anthony@easykindmedicare.com |
 
@@ -122,7 +122,7 @@ Hi [First Name], it's Anthony from EasyKind Medicare. I'm glad we got your
 [Plan G / plan] squared away. If the process was helpful, would you take a
 minute to share a quick Google review? It helps other folks on Medicare find
 honest help: [Google review short link]
-No pressure at all — and call me anytime a question comes up. 855-559-1700
+No pressure at all — and call me anytime a question comes up. 856-888-9080
 ```
 
 ### Email template
@@ -143,7 +143,7 @@ Leave a review here (takes about a minute):
 [Google review short link]
 
 Whether or not you write one, I'm your broker for the life of the policy.
-If a bill looks wrong or a rate notice arrives, call me first: 855-559-1700.
+If a bill looks wrong or a rate notice arrives, call me first: 856-888-9080.
 
 Anthony Orner
 Licensed Insurance Broker, EasyKind Medicare
@@ -172,7 +172,7 @@ mention themselves — privacy first.)*
 ```
 [Name], thank you for the feedback, and I'm sorry your experience fell short.
 I'd like to understand what happened and make it right. Please call me
-directly at 855-559-1700 or email anthony@easykindmedicare.com. Out of
+directly at 856-888-9080 or email anthony@easykindmedicare.com. Out of
 respect for your privacy I won't discuss any personal or policy details here,
 but I will follow up personally. — Anthony Orner, EasyKind Medicare
 ```
