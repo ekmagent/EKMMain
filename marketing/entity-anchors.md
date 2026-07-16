@@ -25,7 +25,7 @@ https://medicareyourself.com
 | Owner/agent | Anthony Orner, Licensed Insurance Broker |
 | NPN | 20586791 |
 | NPI | 1902584006 |
-| Enrollment site | https://healthplans.now (secondary link only — primary website field is always medicareyourself.com) |
+| Enrollment site | [https://healthplans.now](https://healthplans.now) (secondary link only — primary website field is always medicareyourself.com) |
 | Category | Insurance Agency / Insurance Broker |
 | Founded | *(fill in actual year — must match everywhere once chosen)* |
 
@@ -47,21 +47,21 @@ this is the only free window into AI-citation traffic, which is exactly the "hon
 strategy's payoff. Bing Places is also thin competition: most Medicare agents skip it.
 
 **A. Bing Places (~20 min)**
-1. Start at: https://www.bingplaces.com
+1. Start at: [https://www.bingplaces.com](https://www.bingplaces.com)
 2. Sign in with a Microsoft account tied to anthony@easykindmedicare.com.
 3. Easiest path: choose **"Import from Google Business Profile"** — it syncs the GBP listing
    (do GBP first). Otherwise create manually:
    - Business name: `EasyKind Medicare`
    - Address: `1309 Route 70 West, Cherry Hill, NJ 08002`
    - Phone: `855-559-1700`
-   - Website: `https://medicareyourself.com`
+   - Website: `[https://medicareyourself.com`](https://medicareyourself.com`)
    - Category: Insurance Agency
    - Description: paste the standard short description above.
 4. Verify by phone or postcard.
 
 **B. Bing Webmaster Tools site verification (~15 min)**
-1. Start at: https://www.bing.com/webmasters
-2. Sign in with the same Microsoft account → **Add a site** → `https://medicareyourself.com`
+1. Start at: [https://www.bing.com/webmasters](https://www.bing.com/webmasters)
+2. Sign in with the same Microsoft account → **Add a site** → `[https://medicareyourself.com`](https://medicareyourself.com`)
 3. Fastest verification: **"Import from Google Search Console"** — one OAuth click, since GSC
    is already verified for this site. No DNS work needed.
    - Fallback options: add the `<meta name="msvalidate.01" ...>` tag to the site layout, or a
@@ -81,11 +81,11 @@ strategy's payoff. Bing Places is also thin competition: most Medicare agents sk
 and are one of the strongest entity-confirmation signals AI models use for a person.
 
 **A. Company page (~25 min)**
-1. Start at: https://www.linkedin.com/company/setup/new/
+1. Start at: [https://www.linkedin.com/company/setup/new/](https://www.linkedin.com/company/setup/new/)
 2. Fields:
    - Name: `EasyKind Medicare`
    - Public URL: `linkedin.com/company/easykind-medicare`
-   - Website: `https://medicareyourself.com`
+   - Website: `[https://medicareyourself.com`](https://medicareyourself.com`)
    - Industry: Insurance
    - Company size: 1–10 employees
    - Type: Privately held
@@ -135,14 +135,14 @@ Licensed insurance broker. Not affiliated with or endorsed by Medicare or any go
 **Why #3:** feeds Apple Maps, Siri, and Spotlight — the default on every iPhone your
 60-something clients carry. Also an entity signal Apple's and others' models ingest.
 
-1. Start at: https://businessconnect.apple.com
+1. Start at: [https://businessconnect.apple.com](https://businessconnect.apple.com)
 2. Sign in with an Apple ID (create one on anthony@easykindmedicare.com if needed).
 3. **Add business:**
    - Name: `EasyKind Medicare`
    - Category: Insurance Agency
    - Address: `1309 Route 70 West, Cherry Hill, NJ 08002`
    - Phone: `855-559-1700`
-   - Website: `https://medicareyourself.com`
+   - Website: `[https://medicareyourself.com`](https://medicareyourself.com`)
    - "About" (verbatim): paste the standard short description.
 4. Verification: usually a phone call to the listed number or document upload
    (an EasyKind Health LLC document with the address works). Can take a few days.
@@ -160,7 +160,7 @@ Insurance Professionals) — a trusted-source citation for both Google and AI mo
 credibility badge consumers recognize. Requires paid NABIP membership; if not yet a member,
 weigh dues (roughly $400–500/yr with state/local chapter) against the credibility value.
 
-1. Start at: https://nabip.org → **Membership → Join** (join national + NJ chapter, e.g.
+1. Start at: [https://nabip.org](https://nabip.org) → **Membership → Join** (join national + NJ chapter, e.g.
    NABIP New Jersey), then log in to the member portal.
 2. Complete the member profile that powers the **Find an Agent** consumer directory
    (https://nabip.org/find-an-agent or the member-profile equivalent):
@@ -182,7 +182,7 @@ weigh dues (roughly $400–500/yr with state/local chapter) against the credibil
 a source AI models quote for legitimacy. Accreditation (paid, ~$500+/yr) is optional; the
 free profile still anchors NAP.
 
-1. Start at: https://www.bbb.org/get-listed (serving BBB is **BBB Serving New Jersey**).
+1. Start at: [https://www.bbb.org/get-listed](https://www.bbb.org/get-listed) (serving BBB is **BBB Serving New Jersey**).
 2. Search first — a stub profile may already exist; if so, **claim** it instead of creating.
 3. Fields:
    - Business name: `EasyKind Medicare` (legal name field: `EasyKind Health LLC`)
@@ -204,7 +204,7 @@ free profile still anchors NAP.
 syndicates into Apple Maps and several AI training/citation pipelines, so the NAP anchor is
 still worth 25 minutes. **Never solicit Yelp reviews — Yelp penalizes asked-for reviews.**
 
-1. Start at: https://biz.yelp.com → "Manage my free listing."
+1. Start at: [https://biz.yelp.com](https://biz.yelp.com) → "Manage my free listing."
 2. Search for the business first; claim if it exists, otherwise add:
    - Name: `EasyKind Medicare`
    - Address / Phone / Website: paste the canonical NAP block exactly.
