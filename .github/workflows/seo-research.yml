@@ -24,8 +24,8 @@ name: SEO Autoresearch Loop
 
 on:
   schedule:
-    - cron: "0 18 * * *" # daily signals — 2pm ET (EDT)
-    - cron: "0 15 * * 1" # weekly optimiser — Mondays 11am ET (3h before daily to avoid push races)
+    - cron: "7 10 * * *" # daily signals — ~6am ET (EDT), before the 8am Slack digest routine reads the logs
+    - cron: "0 15 * * 1" # weekly optimiser — Mondays 11am ET (daily runs hours earlier; concurrency group below prevents push races)
   workflow_dispatch:
     inputs:
       run_mode:
@@ -51,7 +51,7 @@ jobs:
     # Measurement only: is anyone citing/ranking us? No LLM page edits, no
     # app/ changes, so no build gate needed. Cost: Perplexity + Serper pennies.
     if: |
-      github.event.schedule == '0 18 * * *' || (github.event_name == 'workflow_dispatch' && (github.event.inputs.run_mode == 'daily' || github.event.inputs.run_mode == 'all'))
+      github.event.schedule == '7 10 * * *' || (github.event_name == 'workflow_dispatch' && (github.event.inputs.run_mode == 'daily' || github.event.inputs.run_mode == 'all'))
     permissions:
       contents: write
 
