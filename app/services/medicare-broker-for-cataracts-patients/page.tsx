@@ -321,7 +321,6 @@ export default function MedicareBrokerForCataractsPatients() {
 </ul>
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/coverage/cataract-surgery" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Cataract Surgery Coverage</a> and <a href="https://www.medicare.gov/coverage/eyeglasses-contact-lenses" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Eyeglasses &amp; Contact Lenses After Cataract Surgery</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents: <a href="https://www.state.nj.us/dobi/division_insurance/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> offers free Medicare counseling.</div>
-            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

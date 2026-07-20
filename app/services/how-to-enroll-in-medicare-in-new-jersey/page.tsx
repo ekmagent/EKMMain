@@ -290,7 +290,6 @@ export default function HowToEnrollInMedicareInNewJersey() {
             </li>
 </ul>
             <div className="text-sm text-gray-600 mt-4">Need free NJ counseling? Visit the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey State Health Insurance Assistance Program (SHIP)</a>.</div>
-            <div className="text-sm text-gray-600 mt-4">New Jersey counseling: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> offers free, unbiased Medicare counseling.</div>
       </section>
     </main>
   );

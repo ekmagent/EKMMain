@@ -169,7 +169,6 @@ export default function ContactPage() {
       </div>
           <div className="text-sm text-gray-600 mt-4">Official Medicare resources: <a href="https://www.medicare.gov/talk-to-someone" rel="noopener noreferrer" target="_blank" className="underline">Talk to Someone at Medicare.gov</a> · <a href="https://www.medicare.gov/about-us/contact-medicare" rel="noopener noreferrer" target="_blank" className="underline">Contact Medicare</a></div>
             <div className="text-sm text-gray-600 mt-2">New Jersey residents can also get free counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
-            <div className="text-sm text-gray-600 mt-4">Prefer free state counseling? Find your local <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="text-[#2D6E5F] underline">SHIP (State Health Insurance Assistance Program)</a> for unbiased Medicare help.</div>
       </section>
   );
 }

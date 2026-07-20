@@ -324,7 +324,6 @@ export default function MedicareSupplementOpenEnrollmentOnline() {
 </ul>
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/health-drug-plans/open-enrollment" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov Open Enrollment</a> and <a href="https://www.cms.gov/priorities/key-initiatives/medicare-open-enrollment-partner-resources" rel="noopener noreferrer" target="_blank" className="underline">CMS Medicare Open Enrollment Partner Resources</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
-            <div className="text-sm text-gray-600 mt-4">Need local help? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> or the <a href="https://www.nj.gov/dobi/division_insurance/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> for free, unbiased guidance.</div>
       </section>
     </main>
   );
