@@ -15,6 +15,7 @@
 const Anthropic = require("@anthropic-ai/sdk");
 const fs = require("fs");
 const path = require("path");
+const FIG = require("./medicare-figures.js");
 
 // ---------------------------------------------------------------------------
 // Web research — fetch top-ranking pages to ground content in verified facts
@@ -419,8 +420,8 @@ Respond ONLY with a valid JSON object with these exact keys:
 }
 
 Rules:
-- Keep all 2026 figures accurate (Part B premium $202.90/mo, Part B deductible $283, Part A deductible $1,736)
-- NJ uses community rating for Medigap (premiums not based on age). Do NOT claim NJ has year-round guaranteed issue
+- Keep all ${FIG.year} figures accurate (${FIG.promptLine})
+- Do NOT claim NJ uses community rating for Medigap (it does not), and do NOT claim NJ has year-round guaranteed issue
 - Do not invent statistics. Do not mention competitor brand names.
 - The phone number is 855-559-1700. Do not include it in title/description/h1.
 - Respond with JSON only — no markdown, no prose before or after.`;
@@ -433,7 +434,12 @@ Rules:
         messages: [{ role: "user", content: prompt }],
       });
 
-      const raw = msg.content[0].text.trim();
+      // Same unwrap as orchestrator.js: Claude often adds ```json fences or
+      // a prose preamble despite the JSON-only instruction.
+      let raw = msg.content[0].text.trim().replace(/^```(?:json)?\n?/, "").replace(/\n?```$/, "");
+      const objStart = raw.indexOf("{");
+      const objEnd = raw.lastIndexOf("}");
+      if (objStart !== -1 && objEnd > objStart) raw = raw.slice(objStart, objEnd + 1);
       suggestions = JSON.parse(raw);
     } catch (err) {
       console.error(`  Claude API error for ${target.pagePath}: ${err.message}`);

@@ -25,6 +25,7 @@
 const Anthropic = require("@anthropic-ai/sdk");
 const fs = require("fs");
 const path = require("path");
+const FIG = require("./medicare-figures.js");
 
 // ---------------------------------------------------------------------------
 // Low-competition, question-based keywords ideal for Claude Artifacts
@@ -85,7 +86,7 @@ PHONE: 855-559-1700
 REQUIREMENTS:
 1. The <title> tag and the H1 must START with the exact keyword "${keyword}"
 2. Write 200-300 words of genuinely useful, factual content answering the keyword as a question
-3. Include 2026 Medicare facts where relevant: Part B premium $202.90/mo, Part B deductible $283
+3. Include ${FIG.year} Medicare facts where relevant: Part B premium ${FIG.partBPremium}/mo, Part B deductible ${FIG.partBDeductible}
 4. End with a clear call to action linking to https://medicareyourself.com
 5. Mention Anthony Orner and EasyKind Medicare naturally in the content
 6. Do NOT make specific regulatory claims about individual states you cannot verify

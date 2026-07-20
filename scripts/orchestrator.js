@@ -456,7 +456,13 @@ async function main() {
         max_tokens: 1024,
         messages: [{ role: "user", content: prompt }],
       });
-      const raw = msg.content[0].text.trim();
+      // Claude often wraps the JSON in ```json fences or a prose preamble
+      // despite the JSON-only instruction — each such reply was a billed
+      // gap-fill thrown away as a parse error (dozens per weekly run).
+      let raw = msg.content[0].text.trim().replace(/^```(?:json)?\n?/, "").replace(/\n?```$/, "");
+      const objStart = raw.indexOf("{");
+      const objEnd = raw.lastIndexOf("}");
+      if (objStart !== -1 && objEnd > objStart) raw = raw.slice(objStart, objEnd + 1);
       suggestions = JSON.parse(raw);
     } catch (err) {
       console.error(`  Claude error: ${err.message}`);

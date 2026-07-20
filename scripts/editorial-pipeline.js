@@ -24,6 +24,7 @@
 
 const fs = require("fs");
 const path = require("path");
+const FIG = require("./medicare-figures.js");
 
 const REPO_ROOT = path.resolve(__dirname, "..");
 const APP_DIR = path.join(REPO_ROOT, "app");
@@ -38,19 +39,19 @@ const { extractPlainText } = require("./ai-detector.js");
 // ---------------------------------------------------------------------------
 const CMS_2026_VALUES = {
   partB: {
-    standardPremium: 185.00,        // $/month (standard)
-    incomeSurcharge: "IRMAA",       // for high-income beneficiaries
-    deductible: 257,                // $/year
-    coinsurance: 0.20,              // 20% after deductible
+    standardPremium: FIG.raw.partBPremium,  // $/month (standard)
+    incomeSurcharge: "IRMAA",               // for high-income beneficiaries
+    deductible: FIG.raw.partBDeductible,    // $/year
+    coinsurance: 0.20,                      // 20% after deductible
   },
   partA: {
-    deductible: 1676,               // $/benefit period
-    skilledNursingCoinsuranceDays21to100: 209.50, // $/day
-    hospitalCoinsuranceDays61to90: 419,    // $/day
+    deductible: FIG.raw.partADeductible,    // $/benefit period
+    skilledNursingCoinsuranceDays21to100: FIG.raw.snfCoinsurance, // $/day
+    hospitalCoinsuranceDays61to90: FIG.raw.partADeductible / 4, // $/day (CMS sets this at 1/4 of the inpatient deductible)
   },
   partD: {
-    catastrophicThreshold: 2000,    // out-of-pocket cap (IRA 2022 provision)
-    deductibleMax: 590,             // max initial deductible
+    catastrophicThreshold: FIG.raw.partDOopCap, // out-of-pocket cap (IRA 2022 provision)
+    deductibleMax: 615,             // max initial deductible (2026)
   },
   enrollmentPeriods: {
     iepMonthsBeforeTurning65: 3,

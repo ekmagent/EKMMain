@@ -21,6 +21,7 @@
 const Anthropic = require("@anthropic-ai/sdk");
 const fs = require("fs");
 const path = require("path");
+const FIG = require("./medicare-figures.js");
 
 // ---------------------------------------------------------------------------
 // Keyword rotation — bottom-of-funnel + branded, used one per week
@@ -123,7 +124,7 @@ RULES:
 - Sound like a real press release, not marketing copy
 - Do NOT make specific claims about NJ state insurance regulations you cannot verify
 - Do NOT mention specific competitor names
-- Keep 2026 Medicare facts accurate: Part B $202.90/mo, Part B deductible $283
+- Keep ${FIG.year} Medicare facts accurate: Part B ${FIG.partBPremium}/mo, Part B deductible ${FIG.partBDeductible}
 
 Write the complete press release now, ready to paste into AB Newswire:`;
 

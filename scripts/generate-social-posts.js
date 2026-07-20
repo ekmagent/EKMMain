@@ -34,6 +34,7 @@ require("dotenv").config({ path: __dirname + "/.env" });
 const Anthropic = require("@anthropic-ai/sdk");
 const fs = require("fs");
 const path = require("path");
+const FIG = require("./medicare-figures.js");
 
 // ---------------------------------------------------------------------------
 // Fallback Medicare tips -- used when no source content exists
@@ -42,7 +43,7 @@ const path = require("path");
 const FALLBACK_TIPS = [
   {
     keyword: "Medicare Supplement Plan G",
-    tip: "Medicare Supplement Plan G is the most popular Medigap plan in 2026. It covers everything Original Medicare doesn't except the Part B deductible ($283/year). That means after you pay $283, Plan G picks up 100% of your approved costs for the rest of the year. Every carrier's Plan G covers the exact same benefits -- the only difference is price and rate increase history.",
+    tip: `Medicare Supplement Plan G is the most popular Medigap plan in ${FIG.year}. It covers everything Original Medicare doesn't except the Part B deductible (${FIG.partBDeductible}/year). That means after you pay ${FIG.partBDeductible}, Plan G picks up 100% of your approved costs for the rest of the year. Every carrier's Plan G covers the exact same benefits -- the only difference is price and rate increase history.`,
   },
   {
     keyword: "Medicare turning 65",
@@ -53,8 +54,8 @@ const FALLBACK_TIPS = [
     tip: "Working with an independent Medicare broker costs you nothing. Brokers are paid by the insurance carriers, not by you. The price of your plan is the same whether you buy direct or through a broker. The difference? A broker can compare dozens of carriers for you instead of you calling each one.",
   },
   {
-    keyword: "Medicare Part B premium 2026",
-    tip: "The standard Medicare Part B premium for 2026 is $202.90 per month. This covers doctor visits, outpatient care, and preventive services. If your income is above $109,000 (single) or $218,000 (married filing jointly), you'll pay more due to IRMAA surcharges. The Part B annual deductible is $283.",
+    keyword: `Medicare Part B premium ${FIG.year}`,
+    tip: `The standard Medicare Part B premium for ${FIG.year} is ${FIG.partBPremium} per month. This covers doctor visits, outpatient care, and preventive services. If your income is above $109,000 (single) or $218,000 (married filing jointly), you'll pay more due to IRMAA surcharges. The Part B annual deductible is ${FIG.partBDeductible}.`,
   },
   {
     keyword: "Medicare Advantage vs Supplement",
@@ -238,7 +239,7 @@ GLOBAL RULES:
 - Do NOT use em dashes
 - Do NOT use words like "navigate," "crucial," "comprehensive," "landscape," "empower"
 - Do NOT make specific claims about state regulations you cannot verify
-- Keep 2026 Medicare facts accurate: Part B $202.90/mo, Part B deductible $283
+- Keep ${FIG.year} Medicare facts accurate: Part B ${FIG.partBPremium}/mo, Part B deductible ${FIG.partBDeductible}
 - Each platform post should feel native to that platform, not copy-pasted
 - Sound like a real person, not marketing copy
 

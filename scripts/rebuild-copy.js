@@ -22,6 +22,7 @@ const Anthropic = require("@anthropic-ai/sdk");
 const { google } = require("googleapis");
 const fs = require("fs");
 const path = require("path");
+const FIG = require("./medicare-figures.js");
 
 const SERPER_API_KEY = process.env.SERPER_API_KEY;
 const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY;
@@ -352,14 +353,14 @@ MEDIGAP/MEDICARE SUPPLEMENT MESSAGING (new-to-Medicare pages only):
 - If the page targets someone new to Medicare AND the topic is Medigap: apply 6 months BEFORE Part B start date to lock in rate.
 - Never apply this framing to Medicare Advantage pages.
 
-VERIFIED 2026 MEDICARE FACTS — use only these, do not invent others:
-- Part B premium: $202.90/month
-- Part B deductible: $283/year
-- Part A deductible: $1,736 per benefit period
+VERIFIED ${FIG.year} MEDICARE FACTS — use only these, do not invent others:
+- Part B premium: ${FIG.partBPremium}/month
+- Part B deductible: ${FIG.partBDeductible}/year
+- Part A deductible: ${FIG.partADeductible} per benefit period
 - Medicare Advantage / Part D Open Enrollment: October 15 – December 7
 - Medigap Open Enrollment Period: 6 months starting the month you are 65+ AND enrolled in Part B
 - Federal Guaranteed Issue triggers: losing employer/union coverage, losing MA coverage, carrier bankruptcy, moved out of service area, plan violated contract
-- SNF coinsurance (2026): Days 21-100 = $217.00/day; Days 1-20 = $0
+- SNF coinsurance (${FIG.year}): Days 21-100 = ${FIG.snfCoinsurance}/day; Days 1-20 = $0
 - Part B late enrollment penalty: 10% per 12-month period you delayed
 
 MEDICARE FACTS — DO NOT INVENT:

@@ -29,6 +29,7 @@ require("dotenv").config({ path: __dirname + "/.env" });
 const Anthropic = require("@anthropic-ai/sdk");
 const fs = require("fs");
 const path = require("path");
+const FIG = require("./medicare-figures.js");
 
 // ---------------------------------------------------------------------------
 // Config
@@ -170,7 +171,7 @@ YOUR TASK — return ONLY a JSON object with this shape (no markdown fences, no 
 
 COMPLIANCE RULES (hard constraints — violating any invalidates the output):
 - All CTA buttons / "Learn More" / "Enroll" links must use href="https://healthplans.now". No claude.ai subdomains, no other destinations.
-- Use 2026 Medicare figures only: Part B premium $202.90/mo, Part B deductible $283, Part A deductible $1,736. Do NOT cite other years' figures.
+- Use ${FIG.year} Medicare figures only: ${FIG.promptLine}. Do NOT cite other years' figures.
 - Do NOT claim New Jersey has year-round guaranteed-issue for Medigap. Reference only the standard 6-month Medigap OEP and federal guaranteed-issue triggers (e.g., loss of employer coverage, moving out of a plan's service area).
 - Do NOT reference tobacco rate differentials during the NJ 6-month Medigap OEP (NJ prohibits them during OEP).
 - Do NOT invent statistics, premiums, or carrier names. If unsure, speak in ranges or omit.

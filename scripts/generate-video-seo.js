@@ -24,6 +24,7 @@ require("dotenv").config({ path: __dirname + "/.env" });
 const Anthropic = require("@anthropic-ai/sdk");
 const fs = require("fs");
 const path = require("path");
+const FIG = require("./medicare-figures.js");
 
 // ---------------------------------------------------------------------------
 // Keyword list — bottom-of-funnel keywords the site targets
@@ -167,7 +168,7 @@ Rules for the script:
 - Write the way a real person talks, not corporate speak
 - Use short sentences
 - Do NOT use "navigate," "crucial," "comprehensive," "landscape," "empower"
-- Include specific facts where possible (Part B = $202.90/mo in 2026, Part B deductible = $283)
+- Include specific facts where possible (Part B = ${FIG.partBPremium}/mo in ${FIG.year}, Part B deductible = ${FIG.partBDeductible})
 - Anthony should sound helpful and knowledgeable, not salesy
 - First-person perspective — Anthony is speaking
 
