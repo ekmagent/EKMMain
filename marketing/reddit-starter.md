@@ -115,21 +115,21 @@ figures. Adjust the personal details to the actual thread.
 > It does, in a few genuinely useful ways. I'm a broker licensed in NJ, so this one's my
 > home turf.
 >
-> The big one: New Jersey Medigap plans are community-rated. Your premium isn't based on
-> your age — a 65-year-old and an 80-year-old pay the same rate for the same plan with the
-> same carrier. So NJ premiums can look high at 65 compared to attained-age states, but
-> you're not signing up for the age-based escalator. Rates still rise over time, but from
-> inflation-type increases, not your birthdays.
+> First, a correction to something you'll see repeated online: NJ is *not* a
+> community-rated state. Carriers choose their own pricing method, and most NJ Medigap
+> carriers use attained-age rating — your premium rises as you get older, on top of
+> general increases. A minority (AARP/UnitedHealthcare is the big one) are
+> community-rated, charging the same rate at every age. So in NJ the rating method is
+> a real comparison point between carriers, not a state-wide given.
 >
-> NJ also prohibits tobacco-based rate differences during the 6-month open enrollment
-> window, which is a real consumer protection if you smoke.
+> NJ does prohibit tobacco-based rate differences during the 6-month open enrollment
+> window, which is a real consumer protection if you smoke. And if you're on Medicare
+> under 65 due to disability, NJ caps your premium at the age-65 rate for the same plan.
 >
 > What NJ does *not* have: a year-round right to switch without health questions. You get
 > the standard 6-month Medigap Open Enrollment Period when Part B starts, plus the federal
 > guaranteed-issue rights everyone gets in specific situations. Outside those, switching
-> carriers in NJ means underwriting, same as most states. I mention this because the
-> community-rating thing sometimes gets garbled into "NJ is guaranteed issue all the time,"
-> and that's not correct — timing still matters here.
+> carriers in NJ means underwriting, same as most states.
 
 ### 5. "Why does the same Plan G cost so much more from one company than another?"
 

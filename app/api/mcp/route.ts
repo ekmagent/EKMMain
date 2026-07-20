@@ -230,7 +230,7 @@ function rateIndex(state: string, plan: string, age: string) {
   }
   if (state === "NJ") {
     lines.push(
-      "- New Jersey is community-rated: the premium does not increase with age after purchase. NJ also prohibits tobacco rate differentials during the 6-month Medigap Open Enrollment Period."
+      "- New Jersey does NOT mandate community rating: carriers choose their own pricing method, and most NJ Medigap carriers use attained-age rating (premiums rise as you age). A minority, notably AARP/UnitedHealthcare, use community rating. Compare the rating method and rate-increase history, not just the starting premium. NJ prohibits tobacco rate differentials during the 6-month Medigap Open Enrollment Period, and enrollees under 65 (disabled) cannot be charged more than the age-65 rate for the same plan."
     );
   }
   lines.push(

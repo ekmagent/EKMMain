@@ -15,9 +15,9 @@ each other's rates.
   are structurally likely. Rate-increase letters are landing in NJ mailboxes.
 - A consumer can act on it the day the story runs: same benefits, pick the
   cheaper filing.
-- NJ-specific angles no national outlet covers: community rating (premiums
-  don't rise with age here — unlike PA/OH/TX) and the tobacco-neutral
-  6-month open enrollment window.
+- NJ-specific angles no national outlet covers: the carrier-level rating-method
+  split (most NJ carriers use attained-age pricing; a minority are
+  community-rated) and the tobacco-neutral 6-month open enrollment window.
 
 ## Where to send it
 

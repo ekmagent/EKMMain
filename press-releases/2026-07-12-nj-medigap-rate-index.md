@@ -21,7 +21,7 @@ The index, built from CSG Actuarial filed-rate data, publishes the numbers carri
 
 The index also tracks rate-increase filings. Humana's New Jersey Plan G block filed a 7.01% increase in 2024 and 16.22% in 2025, while its New Jersey loss ratio — claims paid versus premium collected — crossed 100% in 2025, a pattern that historically precedes further increases.
 
-New Jersey's community rating, which keeps premiums from rising with age after purchase, and its 6-month Medigap Open Enrollment Period are covered in the index methodology.
+New Jersey's carrier-by-carrier pricing methods — most NJ carriers use attained-age rating, while a minority are community-rated — and its 6-month Medigap Open Enrollment Period are covered in the index methodology.
 
 The full dataset is free to cite with attribution at medicareyourself.com/medicare-supplement/new-jersey/rate-index. Consumers can compare every carrier's filed rate for their own ZIP code and age by calling 855-559-1700.
 

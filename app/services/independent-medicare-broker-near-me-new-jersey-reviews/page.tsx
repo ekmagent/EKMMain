@@ -93,7 +93,7 @@ const faqs = [
   {
     question: "When can I enroll in a Medigap plan in New Jersey?",
     answer:
-      "The best time is during your 6-month Medigap Open Enrollment Period, which begins the month you're 65 or older and enrolled in Part B. During this window, carriers cannot deny coverage or charge more based on health. New Jersey uses community rating, so premiums are not based on your individual age within a plan.",
+      "The best time is during your 6-month Medigap Open Enrollment Period, which begins the month you're 65 or older and enrolled in Part B. During this window, carriers cannot deny coverage or charge more based on health. Most NJ carriers use attained-age pricing, so enrolling earlier generally means a lower starting premium.",
   },
 ];
 

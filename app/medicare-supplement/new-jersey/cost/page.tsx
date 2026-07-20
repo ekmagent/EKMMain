@@ -46,7 +46,7 @@ const faqs = [
   {
     question: "Does New Jersey use community rating for Medigap premiums?",
     answer:
-      "Yes. New Jersey uses community rating for Medicare Supplement plans, meaning premiums are not based on your individual age. Everyone enrolled in the same plan with the same carrier pays the same base rate, though prices can still differ by county and carrier. This generally keeps long-term costs more predictable than age-rated states.",
+      "No. New Jersey does not require community rating for Medicare Supplement plans. Carriers choose their own pricing method, and most NJ Medigap carriers use attained-age rating, meaning your premium rises as you get older. A minority — most notably AARP/UnitedHealthcare — use community rating, where age does not affect the premium. Because the method varies by carrier, compare both the starting rate and how the rate behaves over time, not just the age-65 price.",
   },
   {
     question: "When is the best time to buy a Medigap plan in New Jersey to get the lowest cost?",

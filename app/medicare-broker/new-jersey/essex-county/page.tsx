@@ -79,7 +79,7 @@ const faqs = [
   {
     question: "How does New Jersey price Medigap plans?",
     answer:
-      "New Jersey uses community rating for Medigap, which means carriers charge the same premium for a given plan regardless of your age. Your rate in Newark, Montclair, or West Orange is based on the carrier's filed community rate, not your birthday. That said, premiums still differ significantly between carriers for the same lettered plan, which is why comparing filed rates side by side matters.",
+      "Each carrier chooses its own pricing method in New Jersey — the state does not mandate community rating. Most NJ Medigap carriers use attained-age rating, where your premium rises as you get older; a minority (notably AARP/UnitedHealthcare) charge the same rate regardless of age. Your rate in Newark, Montclair, or West Orange is based on the carrier's filed statewide rate. Premiums still differ significantly between carriers for the same lettered plan, which is why comparing filed rates and rating methods side by side matters.",
   },
 ];
 

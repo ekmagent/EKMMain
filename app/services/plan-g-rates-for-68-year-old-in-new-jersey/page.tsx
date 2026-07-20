@@ -78,7 +78,7 @@ const faqs = [
     question:
       "Can a 68-year-old in New Jersey switch Plan G carriers without underwriting?",
     answer:
-      "New Jersey offers a birthday rule that gives you a 30-day window around your birthday to switch Medigap carriers without medical underwriting, as long as you move to the same plan letter or a lesser plan. Outside that window, you'll typically need to pass health questions. Federal guaranteed issue rights also apply in specific situations like losing employer coverage.",
+      "Usually not without health questions. New Jersey does not have a birthday rule or an annual switching window — outside your original 6-month Medigap Open Enrollment Period or a federal guaranteed-issue situation (like losing employer coverage), the new carrier can use medical underwriting. If you're in reasonable health, switching to a cheaper carrier for identical coverage is often still straightforward.",
   },
   {
     question: "Why do Plan G rates differ if the coverage is the same?",
@@ -88,7 +88,7 @@ const faqs = [
   {
     question: "Does New Jersey use community rating for Medigap Plan G?",
     answer:
-      "Yes. New Jersey generally requires community-rated pricing for Medigap, meaning premiums are not based on your individual age at the time of purchase. That said, rates still vary from one carrier to another based on each company's claims experience and overhead, which is why comparing carriers is important.",
+      "No. New Jersey does not require community-rated pricing for Medigap. Most NJ carriers use attained-age rating, meaning your Plan G premium rises as you get older; a minority (notably AARP/UnitedHealthcare) are community-rated. Rates also vary widely from one carrier to another for identical coverage, which is why comparing both the premium and the rating method matters.",
   },
   {
     question: "When is the best time for a 68-year-old in NJ to enroll in Plan G?",
@@ -154,15 +154,16 @@ export default function PlanGRates68NJ() {
             means most carriers will ask health questions before approving you.
           </p>
           <p className="mb-3">
-            New Jersey does offer a birthday rule. You get a 30-day window
-            around your birthday each year to switch to the same plan letter (or
-            lower) with a different carrier, no medical underwriting required.
-            This is one of the strongest consumer protections in the country.
+            New Jersey does not have a birthday rule or an annual switching
+            window — some states (like California and Oregon) do, but NJ follows
+            the federal rules only. Outside a guaranteed-issue situation,
+            switching carriers means answering health questions.
           </p>
           <p>
-            If you're already on Plan G and paying too much, that birthday window
-            is your annual escape hatch. Don't let it pass without checking
-            rates.
+            The good news: if you&apos;re already on Plan G, in reasonable
+            health, and paying too much, underwriting is often passable — and
+            the identical coverage at a lower premium makes checking rates
+            worth it every year or two.
           </p>
         </section>
 

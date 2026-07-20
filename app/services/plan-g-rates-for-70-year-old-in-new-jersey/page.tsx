@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Plan G Rates for a 70-Year-Old in New Jersey | Free Quote in Minutes | MedicareYourself",
   description:
-    "Compare Plan G rates for 70-year-olds in New Jersey across top carriers. See how community rating works in NJ and get a free quote — call 855-559-1700.",
+    "Compare Plan G rates for 70-year-olds in New Jersey across top carriers. See how NJ carriers price by age and get a free quote — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/plan-g-rates-for-70-year-old-in-new-jersey" },
   openGraph: {
     title:
@@ -82,12 +82,12 @@ const faqs = [
   {
     question: "Can I switch Medigap carriers at age 70 in New Jersey?",
     answer:
-      "Yes. New Jersey has a yearly 30-day open enrollment window around your Medigap policy anniversary. You can also switch anytime if you pass medical underwriting. A licensed broker can help you find the right timing and carrier.",
+      "Yes, you can apply to switch Medigap carriers at any time of year in New Jersey — but outside your original 6-month Medigap Open Enrollment Period or a guaranteed-issue situation, the new carrier can use medical underwriting. If you're in reasonable health, switching to a lower-priced carrier for identical coverage is often straightforward. A licensed broker can review your options and timing.",
   },
   {
     question: "Does New Jersey use community rating for Medigap Plan G?",
     answer:
-      "New Jersey uses community-rated pricing for Medigap, meaning carriers generally charge the same premium regardless of age within a given plan and area. That said, premiums still vary significantly between carriers, so shopping multiple companies is essential. Call 855-559-1700 and we'll pull live NJ rates for you.",
+      "No. New Jersey does not mandate community-rated pricing for Medigap. Most NJ carriers use attained-age rating, meaning a 70-year-old typically pays more than a 65-year-old for the same plan; a minority of carriers (notably AARP/UnitedHealthcare) charge the same rate at every age. Premiums also vary significantly between carriers, so shopping multiple companies is essential. Call 855-559-1700 and we'll pull live NJ rates for you.",
   },
   {
     question: "When can a 70-year-old in New Jersey enroll in Plan G?",
@@ -188,10 +188,10 @@ export default function PlanGRates70NJ() {
             How to switch carriers at 70 without a coverage gap
           </h2>
           <p>
-            New Jersey gives Medigap policyholders a 30-day open enrollment window each year around your policy anniversary date. During that window, you can switch to a new carrier without answering health questions.
+            New Jersey does not have an annual switching window or birthday rule — outside your original 6-month Medigap Open Enrollment Period or a federal guaranteed-issue situation, you&apos;ll need to pass medical underwriting to change carriers. For a 70-year-old in reasonable health, that&apos;s often very doable.
           </p>
           <p className="mt-2">
-            Outside that window, you'll need to pass medical underwriting. A licensed broker coordinates the timing so your old plan ends the day your new plan starts. No gap.
+            A licensed broker coordinates the timing so your new plan is approved and in force before your old plan ends. No gap.
           </p>
         </section>
 

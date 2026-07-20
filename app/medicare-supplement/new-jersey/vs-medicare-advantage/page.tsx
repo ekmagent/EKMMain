@@ -21,7 +21,7 @@ const faqs = [
   {
     question: "Is Medigap or Medicare Advantage better in New Jersey?",
     answer:
-      "It depends on your priorities. Medigap (Medicare Supplement) is better if you want the freedom to see any doctor in the US who accepts Medicare, predictable costs, and no network restrictions. Medicare Advantage is better if you want a lower monthly premium, don't mind a network, and want extra benefits like dental and vision bundled in. New Jersey uses community rating for Medigap, which means your premium is not based on your age — a benefit compared to attained-age states.",
+      "It depends on your priorities. Medigap (Medicare Supplement) is better if you want the freedom to see any doctor in the US who accepts Medicare, predictable costs, and no network restrictions. Medicare Advantage is better if you want a lower monthly premium, don't mind a network, and want extra benefits like dental and vision bundled in. In New Jersey, most Medigap carriers use attained-age rating, so compare each carrier's rating method and rate history — not just the starting premium.",
   },
   {
     question: "Can I switch from Medicare Advantage back to Medigap in New Jersey?",
@@ -76,19 +76,19 @@ export default function MedigapVsMAPage() {
         <p className="text-xs text-gray-400 mb-6">Last reviewed: April 2026 · Sources: CMS.gov, KFF.org, NJ DOBI</p>
 
         <div className="bg-amber-50 border border-amber-200 rounded-xl p-5 mb-8">
-          <p className="font-semibold text-gray-900 mb-2">Why NJ's Community Rating Changes the Decision in 2026</p>
+          <p className="font-semibold text-gray-900 mb-2">How NJ Medigap Pricing Really Works in 2026</p>
           <p className="text-sm text-gray-700 mb-3">
-            New Jersey uses <strong>community rating</strong> for Medigap — a major advantage. This means your Plan G premium is set by the carrier and <strong>does not increase as you age</strong>, unlike most other states where Medigap premiums rise 3–5% annually at older ages.
+            New Jersey does <strong>not</strong> mandate community rating for Medigap. Most NJ carriers use <strong>attained-age rating</strong> — premiums rise as you get older — while a minority (notably AARP/UnitedHealthcare) are community-rated. The rating method and rate-increase history matter as much as the starting premium.
           </p>
           <p className="text-sm text-gray-700">
-            This shifts the Medigap vs Medicare Advantage calculus significantly: Plan G costs more upfront but stays stable for life, while Medicare Advantage appears cheaper now but has network restrictions and out-of-pocket exposure up to <strong>$8,850/year in-network</strong>.
+            Even so, the Medigap vs Medicare Advantage calculus holds: Plan G costs more upfront but keeps your out-of-pocket exposure small and predictable, while Medicare Advantage appears cheaper now but has network restrictions and out-of-pocket exposure up to <strong>$8,850/year in-network</strong>.
           </p>
         </div>
 
         <div className="bg-blue-50 border border-blue-100 rounded-xl p-5 mb-8">
           <p className="font-semibold text-gray-900 mb-1">The bottom line</p>
           <p className="text-gray-700">
-            <strong>Medigap gives you freedom. Medicare Advantage gives you extras at a lower upfront cost.</strong> In New Jersey, Medigap uses community rating — your premium is not based on your age, which is an advantage compared to attained-age states. Your 6-month <a href="https://www.medicare.gov/health-drug-plans/medigap/basics/when-can-i-buy-medigap" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline font-medium">Medigap Open Enrollment Period</a> at 65 is your best window to enroll with guaranteed acceptance.
+            <strong>Medigap gives you freedom. Medicare Advantage gives you extras at a lower upfront cost.</strong> Your 6-month <a href="https://www.medicare.gov/health-drug-plans/medigap/basics/when-can-i-buy-medigap" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline font-medium">Medigap Open Enrollment Period</a> at 65 is your best window to enroll with guaranteed acceptance.
           </p>
         </div>
 

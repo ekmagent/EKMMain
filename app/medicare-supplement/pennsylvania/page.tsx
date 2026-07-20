@@ -36,7 +36,7 @@ const faqs = [
   {
     question: "What is attained-age rating and how does it affect PA Medigap premiums?",
     answer:
-      "Pennsylvania allows attained-age rating for Medigap plans, meaning your premium increases each year as you get older — on top of any general rate increases. This differs from community rating (used in NJ) where everyone the same plan pays the same rate. In PA, a plan that costs $130/month at 65 may cost significantly more by age 75. When comparing plans in PA, ask carriers how their rates have increased historically.",
+      "Pennsylvania allows attained-age rating for Medigap plans, meaning your premium increases each year as you get older — on top of any general rate increases. This differs from community-rated pricing (required in states like New York and Connecticut) where everyone on the same plan pays the same rate. In PA, a plan that costs $130/month at 65 may cost significantly more by age 75. When comparing plans in PA, ask carriers how their rates have increased historically.",
   },
   {
     question: "Can I switch Medicare Supplement plans in Pennsylvania?",
@@ -177,7 +177,7 @@ export default function PennsylvaniaMedigapPage() {
           <div className="border border-gray-200 rounded-xl p-5">
             <h3 className="font-bold text-gray-900 mb-2">Attained-Age Rating</h3>
             <p className="text-gray-600 text-sm leading-relaxed">
-              Pennsylvania uses attained-age rating, meaning your Medigap premium increases each year as you get older. This is different from community rating states (like New Jersey) where everyone on the same plan pays the same premium. Over a 10–15 year period, this can add up significantly. When comparing PA carriers, ask about their historical rate increase track record — not just the current premium.
+              Most Pennsylvania Medigap carriers use attained-age rating, meaning your premium increases each year as you get older. This is different from community-rating states (like New York and Connecticut) where everyone on the same plan pays the same premium. Over a 10–15 year period, this can add up significantly. When comparing PA carriers, ask about their historical rate increase track record — not just the current premium.
             </p>
           </div>
           <div className="border border-gray-200 rounded-xl p-5">

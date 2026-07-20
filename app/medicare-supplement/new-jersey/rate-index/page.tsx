@@ -155,9 +155,10 @@ export default function NjRateIndexPage() {
         <h2 className="text-2xl font-bold text-gray-900 mb-4">Plan G Filed Rates by Age (NJ)</h2>
         <AgeTable plan="G" entries={Object.entries(g)} />
         <p className="text-xs text-gray-500 mb-8">
-          Sample: ZIP {nj?.sampleZip} ({nj?.sampleCity}), female, non-tobacco, no household discount. New Jersey is
-          community-rated, so premiums do not increase with age after purchase — the small age differences above
-          reflect issue-age pricing at purchase.
+          Sample: ZIP {nj?.sampleZip} ({nj?.sampleCity}), female, non-tobacco, no household discount. New Jersey
+          does not mandate a single pricing method — most NJ carriers use attained-age rating (premiums rise as
+          you age), while a minority are community-rated. The age differences above reflect each carrier&apos;s
+          filed age curve.
         </p>
 
         <h2 className="text-2xl font-bold text-gray-900 mb-4">Plan N Filed Rates by Age (NJ)</h2>
@@ -234,11 +235,12 @@ export default function NjRateIndexPage() {
           </table>
         </div>
         <p className="text-gray-700 leading-relaxed mb-8 mt-4">
-          Entry price is only half the story: New Jersey&apos;s community rating means the premium does not
-          climb with your age after you buy, unlike the attained-age pricing common in most states — a
-          structural trade-off most national comparisons miss. NJ also prohibits tobacco rate differentials
-          during the 6-month Medigap Open Enrollment Period. Massachusetts, Minnesota, and Wisconsin
-          standardize Medigap differently and are not included.
+          Entry price is only half the story: most NJ Medigap carriers use attained-age rating, so the premium
+          climbs as you age on top of general rate increases — a minority of carriers are community-rated and
+          hold the same rate at every age. That rating-method split is a structural detail most national
+          comparisons miss. NJ also prohibits tobacco rate differentials during the 6-month Medigap Open
+          Enrollment Period. Massachusetts, Minnesota, and Wisconsin standardize Medigap differently and are
+          not included.
         </p>
 
         <h2 className="text-2xl font-bold text-gray-900 mb-4">Methodology</h2>

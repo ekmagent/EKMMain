@@ -138,7 +138,7 @@ export default function AverageCostMedigapByAge2026() {
             What determines your Medigap premium at each age
           </h2>
           <p className="mb-2">
-            Three things drive your rate: the plan letter, your age at enrollment, and the carrier's pricing method. In NJ, carriers must offer community-rated options, which means the base price doesn't increase just because you turn 70.
+            Three things drive your rate: the plan letter, your age at enrollment, and the carrier's pricing method. Most NJ carriers use attained-age rating, so the base price typically does increase as you get older; a minority are community-rated and hold the same rate at every age.
           </p>
           <p>
             But block rate increases still happen. When claims in your carrier's insured pool rise, everyone's premium goes up. When age-based increases and block increases stack together, 10-18% jumps in a single year aren't unusual. That's why the carrier you pick matters as much as the plan letter.

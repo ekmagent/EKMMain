@@ -77,15 +77,15 @@ Look at what that tells you. Humana — one of the biggest names in Medicare —
 
 Here's the punchline of this whole chapter: the gap between the cheapest and most expensive Plan G — $113 a month — is roughly three times bigger than the typical $20-to-$40 gap between Plan G and Plan N at the same carrier. The carrier you pick matters more than the plan letter.
 
-### CHAPTER 4: New Jersey's Community Rating — Why It Changes the Calculation (8:00)
+### CHAPTER 4: How NJ Carriers Actually Price Medigap — Why It Changes the Calculation (8:00)
 
-New Jersey has something most states don't. In most states, Medigap premiums are attained-age rated — they go up every year just because you got a year older. In New Jersey, community rating means the insurer sets one premium for everyone — your premium does not increase because you aged.
+Here's something that gets stated wrong constantly, even by national sites: New Jersey is NOT a community-rated state. The state doesn't mandate a pricing method — each carrier picks its own. In our filed-rate data, most NJ carriers use attained-age rating, meaning your premium goes up as you get older, on top of general rate increases. A minority — AARP/UnitedHealthcare is the big one — are community-rated, one premium for everyone regardless of age.
 
-[ON SCREEN: "NJ community rating: your premium doesn't rise because you got older"]
+[ON SCREEN: "NJ does NOT mandate community rating — most carriers price by age. Check the rating method."]
 
 Two consequences for the G versus N decision.
 
-First, the $20-to-$40 monthly savings from Plan N stays consistent as you age. In an attained-age state, that math shifts over time. In New Jersey, it's stable — so the decision really is about your healthcare usage pattern, not about a moving target.
+First, the $20-to-$40 monthly savings from Plan N is a snapshot at your current age. With an attained-age carrier, both premiums climb as you age, and the gap can shift. So compare the carrier's rating method and rate-increase history, not just today's premium — the cheapest Plan G at 65 is not always the cheapest at 75.
 
 Second — and this is the one people miss — switching later isn't free. You can apply to switch from Plan N to Plan G at any time, but outside your 6-month Medigap Open Enrollment Period, insurers can use medical underwriting. If you're healthy, switching is usually straightforward. If your health has changed, it may be difficult or impossible. So the plan you pick at 65 might be the plan you're holding at 80. Pick it with your long-term health picture in mind, not just this year's premium.
 
@@ -109,7 +109,7 @@ Quick recap, so you can screenshot this:
 - Plan N saves roughly $20 to $40 a month; break-even is about 12 to 24 doctor visits a year.
 - New Jersey Plan G filed rates run $147.88 to $260.98 across 19 carriers. Plan N runs $106.57 to $176.72 across 20 carriers. CSG Actuarial, April 2026.
 - The carrier spread — $113 a month on Plan G — is bigger than the G-versus-N difference. Carrier choice is the real decision.
-- New Jersey's community rating keeps your premium from rising with age, but switching plans later can require medical underwriting. Choose at 65 like you'll keep it.
+- NJ is not a community-rated state — most carriers use attained-age pricing, so check the rating method. Switching plans later can require medical underwriting. Choose at 65 like you'll keep it.
 
 ### CTA (12:15)
 
@@ -129,14 +129,14 @@ If you want the actual carrier-by-carrier comparison for your ZIP code — every
 
 The same Medigap Plan G is filed at $147.88/month from one New Jersey carrier and $260.98/month from another — a $113/month gap for federally identical benefits (CSG Actuarial filed rates, April 2026, ZIP 08002 Cherry Hill, age 65 female non-tobacco). In this video, licensed independent broker Anthony Orner breaks down the Plan G vs Plan N decision in New Jersey using actual filed rates instead of marketing ranges.
 
-You'll see the only three coverage differences between the plans (the $283 Part B deductible, Part B excess charges, and Plan N's copays of up to $20 per office visit and $50 per ER visit), the break-even math on Plan N's $20–$40/month premium savings, real carrier placements on the NJ Plan G ladder (including Humana at 13 of 19 and WoodmenLife at 16 of 19), and how New Jersey's community rating changes the long-term calculation. Also covered: why switching plans after your 6-month Medigap Open Enrollment Period can require medical underwriting — New Jersey does not have year-round guaranteed issue.
+You'll see the only three coverage differences between the plans (the $283 Part B deductible, Part B excess charges, and Plan N's copays of up to $20 per office visit and $50 per ER visit), the break-even math on Plan N's $20–$40/month premium savings, real carrier placements on the NJ Plan G ladder (including Humana at 13 of 19 and WoodmenLife at 16 of 19), and why NJ's carrier-by-carrier rating methods (NJ is not a community-rated state) change the long-term calculation. Also covered: why switching plans after your 6-month Medigap Open Enrollment Period can require medical underwriting — New Jersey does not have year-round guaranteed issue.
 
 CHAPTERS
 0:00 — Cold open: the $113/month Plan G spread
 0:50 — What Plan G and Plan N actually cover
 3:00 — The break-even math
 5:15 — What Plan G and Plan N actually cost in NJ (2026 filed rates)
-8:00 — NJ community rating: why it changes the calculation
+8:00 — How NJ carriers actually price Medigap (not community rating)
 10:15 — Who should pick which
 11:30 — Recap
 12:15 — How to get your carrier-by-carrier comparison

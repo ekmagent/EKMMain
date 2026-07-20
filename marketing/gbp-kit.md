@@ -95,7 +95,7 @@ A: Neither is "better" — they're different trade-offs. Advantage plans usually
 A: Yes. We enter your exact medication list and pharmacies and compare total annual cost — premium plus copays — across available Part D plans. The lowest-premium plan is frequently not the cheapest overall for your specific prescriptions.
 
 **Q8. I live in New Jersey — is Medigap different here?**
-A: In some helpful ways. NJ Medigap plans are community-rated, meaning your premium isn't based on your age. NJ also prohibits tobacco-based rate differences during your 6-month open enrollment window. The standard federal rules still apply — the 6-month Medigap Open Enrollment Period and federal guaranteed-issue rights — so timing still matters.
+A: In a few ways. NJ carriers each choose their own pricing method — most use attained-age rating (premiums rise as you age), while a minority are community-rated — so the rating method is worth comparing alongside the premium. NJ also prohibits tobacco-based rate differences during your 6-month open enrollment window. The standard federal rules still apply — the 6-month Medigap Open Enrollment Period and federal guaranteed-issue rights — so timing still matters.
 
 **Q9. What states are you licensed in?**
 A: New Jersey and 34 other states — including Pennsylvania, Ohio, Texas, Florida, and most of the East and Midwest. You can verify any producer license at NIPR.com (NPN 20586791).

@@ -77,7 +77,7 @@ const faqs = [
   {
     question: "How does Medigap pricing work in New Jersey?",
     answer:
-      "New Jersey uses community rating for Medigap, which means carriers cannot charge you a higher premium based on your age. Everyone enrolled in the same plan with the same carrier pays the same base rate regardless of whether they are 65 or 85. Premiums still vary significantly between carriers for identical standardized benefits, so comparing filed rates matters.",
+      "Each carrier chooses its own pricing method in New Jersey — the state does not mandate community rating. Most NJ Medigap carriers use attained-age rating, where premiums rise as you get older; a minority (notably AARP/UnitedHealthcare) charge everyone the same base rate regardless of age. Premiums also vary significantly between carriers for identical standardized benefits, so comparing filed rates and rating methods matters.",
   },
 ];
 

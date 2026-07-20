@@ -93,7 +93,7 @@ const faqs = [
   {
     question: "How does a New Jersey broker help with Medigap enrollment?",
     answer:
-      "New Jersey uses community rating for Medigap, meaning premiums are set the same regardless of your age. A broker can explain your 6-month Medigap Open Enrollment Period, which begins when you're 65 or older and enrolled in Part B, and help you compare letter plans like Plan G and Plan N across carriers.",
+      "NJ Medigap carriers use different pricing methods — most use attained-age rating (premiums rise as you age), while a minority are community-rated. A broker can explain each carrier's rating method and rate history, walk you through your 6-month Medigap Open Enrollment Period, which begins when you're 65 or older and enrolled in Part B, and help you compare letter plans like Plan G and Plan N across carriers.",
   }
 ];
 

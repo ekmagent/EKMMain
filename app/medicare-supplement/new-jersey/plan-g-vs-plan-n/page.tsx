@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Plan G vs Plan N in NJ | Compare 2026",
   description:
-    "Plan G vs Plan N in NJ for 2026: compare premiums, copays, and coverage under community rating. Find your best fit — call 855-559-1700 for free quotes.",
+    "Plan G vs Plan N in NJ for 2026: compare premiums, copays, coverage, and carrier pricing methods. Find your best fit — call 855-559-1700 for free quotes.",
   alternates: { canonical: `${SITE_URL}/medicare-supplement/new-jersey/plan-g-vs-plan-n` },
   openGraph: {
     title: "Plan G vs Plan N in NJ | Compare 2026",
@@ -26,7 +26,7 @@ const faqs = [
   {
     question: "How much does Plan N cost compared to Plan G in New Jersey?",
     answer:
-      "In New Jersey, Plan N typically costs $20–$40 less per month than Plan G for the same age and carrier. For a 65-year-old, Plan G averages $150–$220/month while Plan N averages $120–$185/month depending on your county and insurer. Because NJ uses community rating, these premiums do not increase as you age.",
+      "In New Jersey, Plan N typically costs $20–$40 less per month than Plan G for the same age and carrier. For a 65-year-old, Plan G averages $150–$220/month while Plan N averages $120–$185/month depending on your insurer. Note that most NJ carriers use attained-age rating, so both premiums typically rise as you get older — check each carrier's rating method and rate-increase history before choosing.",
   },
   {
     question: "What does Plan N not cover that Plan G does?",
@@ -44,9 +44,9 @@ const faqs = [
       "You can apply to switch from Plan N to Plan G at any time, but outside of your 6-month Medigap Open Enrollment Period, insurers may use medical underwriting. If you are in good health, switching is usually straightforward. If you have significant health conditions, it may be more difficult. That is why choosing the right plan during your initial enrollment window matters.",
   },
   {
-    question: "Does New Jersey's community rating affect Plan G vs Plan N pricing?",
+    question: "Does New Jersey use community rating for Plan G and Plan N pricing?",
     answer:
-      "Yes. Because New Jersey uses community rating for Medigap, every enrollee with a given carrier pays the same premium regardless of age for both Plan G and Plan N. This means the monthly savings you get from choosing Plan N over Plan G stays consistent as you age, rather than shrinking over time like it would in age-rated states.",
+      "No — New Jersey does not mandate community rating. Most NJ Medigap carriers use attained-age rating, meaning both Plan G and Plan N premiums typically rise as you get older, on top of general rate increases. A minority of carriers (notably AARP/UnitedHealthcare) are community-rated. When comparing Plan G vs Plan N, look at each carrier's rating method and rate-increase history, not just the age-65 premium gap.",
   },
   {
     question: "When can I enroll in Plan G or Plan N in New Jersey without medical underwriting?",
@@ -105,7 +105,7 @@ export default function PlanGvsPlanNPage() {
           <ul className="text-sm text-gray-700 space-y-1">
             <li>• Part B deductible is <strong>$283</strong> (covered by Plan G, not Plan N)</li>
             <li>• Part A hospital deductible is <strong>$1,676 per benefit period</strong> (both plans cover it)</li>
-            <li>• NJ community rating means your Plan G premium <strong>won't increase as you age</strong></li>
+            <li>• Most NJ carriers use attained-age rating — your premium <strong>typically rises as you age</strong>, so check the carrier&apos;s rating method</li>
             <li>• Plan N copays up to <strong>$20 per doctor visit, $50 per ER visit</strong> still apply</li>
           </ul>
         </div>
@@ -113,7 +113,7 @@ export default function PlanGvsPlanNPage() {
         <div className="bg-blue-50 border border-blue-100 rounded-xl p-5 mb-8">
           <p className="font-semibold text-gray-900 mb-1">The short answer</p>
           <p className="text-gray-700">
-            <strong>Plan G is the better choice for most NJ residents.</strong> The $20–$40/month premium savings from Plan N rarely offset the copays and coverage gaps — especially in New Jersey where community rating means your Plan G premium stays the same as you age.
+            <strong>Plan G is the better choice for most NJ residents.</strong> The $20–$40/month premium savings from Plan N rarely offset the copays and coverage gaps once you factor in real-world doctor and ER visits over a typical year.
           </p>
         </div>
 
@@ -196,9 +196,9 @@ export default function PlanGvsPlanNPage() {
           <Link href="/medicare-supplement/new-jersey/pricing-ages-65-69" className="text-blue-600 hover:underline">NJ Plan G &amp; N pricing for ages 65–69</Link>.
         </p>
 
-        <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">New Jersey&apos;s Community Rating: Why It Changes the Calculation</h2>
+        <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">How NJ Carriers Price Medigap: Why the Rating Method Changes the Calculation</h2>
         <p className="text-gray-700 leading-relaxed mb-4">
-          In most states, Medigap premiums rise as you age (attained-age rating). In New Jersey, community rating means your premium is set by the insurer for everyone — it does not increase because you got older. This makes the Plan G vs Plan N decision less about short-term savings and more about which coverage model fits your healthcare usage.
+          New Jersey does not mandate a single pricing method — each carrier chooses its own. Most NJ Medigap carriers use attained-age rating, meaning your premium rises as you get older on top of general rate increases. A minority (notably AARP/UnitedHealthcare) are community-rated, charging the same premium regardless of age. That means the cheapest Plan G or Plan N at 65 is not always the cheapest at 75 — compare each carrier&apos;s rating method and rate-increase history, not just today&apos;s premium gap.
         </p>
         <p className="text-gray-700 leading-relaxed mb-4">
           However, keep in mind that switching from Plan N to Plan G after your 6-month <a href="https://www.medicare.gov/health-drug-plans/medigap/basics/when-can-i-buy-medigap" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline font-medium">Medigap Open Enrollment Period</a> may require medical underwriting. If your health changes later, switching could be more difficult. Consider your long-term healthcare needs when choosing between Plan G and Plan N at 65.

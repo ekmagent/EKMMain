@@ -26,8 +26,9 @@ Two timely angles:
 - Humana's NJ Plan G filed +7.01% in 2024 and +16.22% in 2025, and its NJ loss
   ratio crossed 100% last year — the pattern that historically precedes more
   increases. Rate-increase letters are hitting NJ mailboxes now.
-- New Jersey is one of the few community-rated states (premiums don't rise
-  with age here, unlike PA), which almost no national coverage gets right.
+- Most NJ Medigap carriers use attained-age pricing (premiums rise with age),
+  while a minority are community-rated — a carrier-level split almost no
+  national coverage gets right.
 
 The full dataset, methodology, and four-state comparison are here, free to
 cite with attribution:
@@ -59,9 +60,10 @@ built from CSG Actuarial data, with methodology:
 
 https://medicareyourself.com/medicare-supplement/new-jersey/rate-index
 
-The policy angle your desk might find interesting: NJ's community rating keeps
-premiums flat as people age (PA's attained-age pricing doesn't), but the
-carrier-to-carrier spread means the consumer-protection story is incomplete —
+The policy angle your desk might find interesting: NJ doesn't mandate a
+pricing method — most carriers use attained-age rating, a minority are
+community-rated — and the carrier-to-carrier spread means the
+consumer-protection story is incomplete —
 the state standardizes the product but not the price discovery. Loss ratios
 above 100% at major carriers (Humana NJ crossed 100% in 2025) point to another
 round of increases.
