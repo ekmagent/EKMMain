@@ -157,7 +157,7 @@ export default function JacksonNJMedicareInsuranceAgents() {
           </li>
         </ul>
         <p className="text-gray-700 mt-2">
-          For 2026, the Part B premium is $202.90/month and the Part A deductible is $1,676 per benefit period. These costs matter when deciding between Supplement and Advantage.
+          For 2026, the Part B premium is $202.90/month and the Part A deductible is $1,736 per benefit period. These costs matter when deciding between Supplement and Advantage.
         </p>
       </section>
 

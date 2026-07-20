@@ -85,7 +85,7 @@ const faqs = [
     question:
       "What happens if I need rehab after a fracture?",
     answer:
-      "Medicare Part A covers skilled nursing facility (SNF) care after a qualifying hospital stay. In 2026, days 1-20 cost $0. Days 21-100 carry a $209.50/day coinsurance charge. A Medigap plan or the right Medicare Advantage plan can cover that coinsurance and prevent a devastating bill.",
+      "Medicare Part A covers skilled nursing facility (SNF) care after a qualifying hospital stay. In 2026, days 1-20 cost $0. Days 21-100 carry a $217.00/day coinsurance charge. A Medigap plan or the right Medicare Advantage plan can cover that coinsurance and prevent a devastating bill.",
   },
 ];
 
@@ -136,7 +136,7 @@ export default function MedicareBrokerForOsteoporosisPatients() {
           What a broken hip really costs without the right coverage
         </h2>
         <p className="mb-3">
-          A hip fracture typically means a hospital stay, surgery, and weeks of skilled nursing care. Under Original Medicare in 2026, you'd owe a $1,676 Part A deductible before coverage starts. If rehab extends past 20 days, you're looking at $209.50 per day in coinsurance for days 21 through 100.
+          A hip fracture typically means a hospital stay, surgery, and weeks of skilled nursing care. Under Original Medicare in 2026, you'd owe a $1,736 Part A deductible before coverage starts. If rehab extends past 20 days, you're looking at $217.00 per day in coinsurance for days 21 through 100.
         </p>
         <p>
           That's over $16,000 in potential out-of-pocket costs for a single fall. The right Medigap or Advantage plan eliminates most or all of that exposure.

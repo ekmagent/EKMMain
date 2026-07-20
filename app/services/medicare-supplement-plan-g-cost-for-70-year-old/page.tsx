@@ -225,8 +225,8 @@ export default function MedicareSupplementPlanGCostFor70YearOld() {
         </h2>
         <p className="text-gray-700 mb-2">
           Plan G picks up nearly everything Original Medicare doesn't. That
-          includes the Part A deductible ($1,676 per benefit period in 2026),
-          Part B excess charges, skilled nursing coinsurance ($209.50/day for
+          includes the Part A deductible ($1,736 per benefit period in 2026),
+          Part B excess charges, skilled nursing coinsurance ($217.00/day for
           days 21-100), and foreign travel emergencies.
         </p>
         <p className="text-gray-700">

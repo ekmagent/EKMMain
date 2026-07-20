@@ -203,8 +203,8 @@ export default function EnrollInMedicareSupplementPlanGAt70() {
             Plan G covers nearly all out-of-pocket costs under Original Medicare. You pay the annual Part B deductible ($283 in 2026) and your monthly premium. That's it.
           </p>
           <ul className="list-disc pl-6 space-y-1">
-            <li>Part A deductible: $1,676 per benefit period — covered</li>
-            <li>SNF coinsurance: $209.50/day for days 21-100 — covered</li>
+            <li>Part A deductible: $1,736 per benefit period — covered</li>
+            <li>SNF coinsurance: $217.00/day for days 21-100 — covered</li>
             <li>Part B excess charges — covered</li>
             <li>Foreign travel emergency care — covered</li>
           </ul>

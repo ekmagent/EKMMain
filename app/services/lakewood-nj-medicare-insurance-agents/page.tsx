@@ -222,13 +222,13 @@ export default function LakewoodNJMedicareInsuranceAgents() {
           <ul className="list-disc pl-5 space-y-1">
             <li>Part B premium: $202.90/month</li>
             <li>Part B deductible: $283/year</li>
-            <li>Part A deductible: $1,676 per benefit period</li>
-            <li>SNF coinsurance (days 21-100): $209.50/day</li>
+            <li>Part A deductible: $1,736 per benefit period</li>
+            <li>SNF coinsurance (days 21-100): $217.00/day</li>
             <li>Open Enrollment for Advantage/Part D: October 15 through December 7</li>
           </ul>
           <p className="mt-2">
             These numbers add up fast without supplemental coverage. A single
-            hospital stay could cost you $1,676 out of pocket before Original
+            hospital stay could cost you $1,736 out of pocket before Original
             Medicare pays anything.
           </p>
         </section>

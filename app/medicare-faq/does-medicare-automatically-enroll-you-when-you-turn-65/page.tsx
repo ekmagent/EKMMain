@@ -19,7 +19,7 @@ const faqSchema = {
       name: "Does Medicare automatically enroll you when you turn 65?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Not always. Medicare enrolls you automatically only if you're already receiving Social Security or Railroad Retirement Board benefits before you turn 65. In that case, your red, white, and blue card arrives in the mail about three months before your 65th birthday, and Part A and Part B start the first day of your birthday month.\n\nIf you're not yet collecting Social Security, you have to sign up yourself through SSA.gov during your seven-month Initial Enrollment Period. Miss it and you could face a lifetime Part B late penalty, plus the standard $185 monthly premium in 2026.\n\nNot sure which group you fall into? Call Anthony at 855-559-1700 or visit medicareyourself.com and we'll walk through your enrollment timing together.",
+        text: "Not always. Medicare enrolls you automatically only if you're already receiving Social Security or Railroad Retirement Board benefits before you turn 65. In that case, your red, white, and blue card arrives in the mail about three months before your 65th birthday, and Part A and Part B start the first day of your birthday month.\n\nIf you're not yet collecting Social Security, you have to sign up yourself through SSA.gov during your seven-month Initial Enrollment Period. Miss it and you could face a lifetime Part B late penalty, plus the standard $202.90 monthly premium in 2026.\n\nNot sure which group you fall into? Call Anthony at 855-559-1700 or visit medicareyourself.com and we'll walk through your enrollment timing together.",
       },
     },
   ],
@@ -57,7 +57,7 @@ export default function FAQPage() {
           <p className="text-gray-700 leading-relaxed text-lg">
             Not always. Medicare enrolls you automatically only if you&apos;re already receiving Social Security or Railroad Retirement Board benefits before you turn 65. In that case, your red, white, and blue card arrives in the mail about three months before your 65th birthday, and Part A and Part B start the first day of your birthday month.
 
-If you&apos;re not yet collecting Social Security, you have to sign up yourself through SSA.gov during your seven-month Initial Enrollment Period. Miss it and you could face a lifetime Part B late penalty, plus the standard &#36;185 monthly premium in 2026.
+If you&apos;re not yet collecting Social Security, you have to sign up yourself through SSA.gov during your seven-month Initial Enrollment Period. Miss it and you could face a lifetime Part B late penalty, plus the standard &#36;202.90 monthly premium in 2026.
 
 Not sure which group you fall into? Call Anthony at 855-559-1700 or visit medicareyourself.com and we&apos;ll walk through your enrollment timing together.
           </p>

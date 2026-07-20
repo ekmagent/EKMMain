@@ -173,7 +173,7 @@ export default function MedicareInsuranceAgentsBurlingtonNJ() {
         </ul>
         <p>
           The 2026 Part B premium is $202.90/month, and the Part A deductible is
-          $1,676 per benefit period. These costs factor into which plan type
+          $1,736 per benefit period. These costs factor into which plan type
           saves you the most.
         </p>
       </section>

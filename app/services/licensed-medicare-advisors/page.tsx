@@ -152,7 +152,7 @@ export default function LicensedMedicareAdvisorsPage() {
               <strong>Pennsylvania:</strong> Use the PA Insurance Department agent lookup at insurance.pa.gov.
             </li>
             <li>
-              Ask for their National Producer Number (NPN). Every licensed advisor has one, and it's searchable on the NAIC website.
+              Ask for their National Producer Number (NPN). Every licensed advisor has one, and it&apos;s searchable at NIPR.com.
             </li>
             <li>
               If someone avoids sharing their license info, find a different advisor.
@@ -180,7 +180,7 @@ export default function LicensedMedicareAdvisorsPage() {
             State licensing requirements include continuing education, background checks, and compliance oversight. If I give you bad advice, you have a regulatory body to report it to.
           </p>
           <p>
-            An unlicensed "helper" at a seminar or on social media? You have no recourse. The 2026 Part B premium is $202.90/month and the Part A deductible is $1,676 per benefit period. Getting steered into the wrong plan with numbers like those costs real money.
+            An unlicensed "helper" at a seminar or on social media? You have no recourse. The 2026 Part B premium is $202.90/month and the Part A deductible is $1,736 per benefit period. Getting steered into the wrong plan with numbers like those costs real money.
           </p>
         </section>
 

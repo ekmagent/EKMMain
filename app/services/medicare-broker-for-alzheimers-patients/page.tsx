@@ -170,7 +170,7 @@ export default function MedicareBrokerForAlzheimersPatients() {
           </p>
           <p>
             A Medigap plan (Medicare Supplement) helps cover the costs
-            Original Medicare leaves behind, like the $1,676 Part A
+            Original Medicare leaves behind, like the $1,736 Part A
             deductible per benefit period and the $283 Part B annual
             deductible in 2026. I match families with plans that keep
             out-of-pocket costs predictable.
@@ -186,7 +186,7 @@ export default function MedicareBrokerForAlzheimersPatients() {
             <li>
               <strong>Skilled nursing:</strong> Medicare covers days 1-20 at
               $0 after a qualifying hospital stay. Days 21-100 cost
-              $209.50/day in 2026 unless a Supplement covers it.
+              $217.00/day in 2026 unless a Supplement covers it.
             </li>
             <li>
               <strong>Home health:</strong> Covered when a doctor orders

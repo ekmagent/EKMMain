@@ -228,7 +228,7 @@ export default function TopMedicareAdvisorsPage() {
         <ul className="list-disc pl-6 space-y-2">
           <li>2026 Part B premium: $202.90/month</li>
           <li>Part B deductible: $283/year</li>
-          <li>Part A deductible: $1,676 per benefit period</li>
+          <li>Part A deductible: $1,736 per benefit period</li>
           <li>
             Medigap Open Enrollment: 6 months starting the month you turn 65 and
             are enrolled in Part B

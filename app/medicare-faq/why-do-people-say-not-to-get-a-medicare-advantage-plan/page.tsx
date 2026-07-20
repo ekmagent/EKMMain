@@ -19,7 +19,7 @@ const faqSchema = {
       name: "Why do people say not to get a Medicare Advantage plan?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "People warn against Medicare Advantage plans because they use provider networks, require prior authorization for many services, and can deny care that Original Medicare would cover. You typically must stay in-network or pay more, and specialists often need referrals. If you get sick while traveling, coverage outside your service area is limited to emergencies. Another concern is switching back. After your first year on Advantage, you may not qualify for a Medigap policy without medical underwriting, meaning insurers can reject you based on health.\n\nThat said, Advantage plans often include dental, vision, and a $0 premium beyond the $185 Part B premium in 2026. The right choice depends on your doctors, medications, and budget. Call 855-559-1700 and we'll run the numbers with you.",
+        text: "People warn against Medicare Advantage plans because they use provider networks, require prior authorization for many services, and can deny care that Original Medicare would cover. You typically must stay in-network or pay more, and specialists often need referrals. If you get sick while traveling, coverage outside your service area is limited to emergencies. Another concern is switching back. After your first year on Advantage, you may not qualify for a Medigap policy without medical underwriting, meaning insurers can reject you based on health.\n\nThat said, Advantage plans often include dental, vision, and a $0 premium beyond the $202.90 Part B premium in 2026. The right choice depends on your doctors, medications, and budget. Call 855-559-1700 and we'll run the numbers with you.",
       },
     },
   ],
@@ -57,7 +57,7 @@ export default function FAQPage() {
           <p className="text-gray-700 leading-relaxed text-lg">
             People warn against Medicare Advantage plans because they use provider networks, require prior authorization for many services, and can deny care that Original Medicare would cover. You typically must stay in-network or pay more, and specialists often need referrals. If you get sick while traveling, coverage outside your service area is limited to emergencies. Another concern is switching back. After your first year on Advantage, you may not qualify for a Medigap policy without medical underwriting, meaning insurers can reject you based on health.
 
-That said, Advantage plans often include dental, vision, and a &#36;0 premium beyond the &#36;185 Part B premium in 2026. The right choice depends on your doctors, medications, and budget. Call 855-559-1700 and we&apos;ll run the numbers with you.
+That said, Advantage plans often include dental, vision, and a &#36;0 premium beyond the &#36;202.90 Part B premium in 2026. The right choice depends on your doctors, medications, and budget. Call 855-559-1700 and we&apos;ll run the numbers with you.
           </p>
         </div>
 

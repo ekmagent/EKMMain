@@ -198,8 +198,8 @@ export default function FindMedicareAgentNewBrunswickNJ() {
           <ul className="list-disc pl-6 space-y-2">
             <li>Part B premium: $202.90/month</li>
             <li>Part B deductible: $283/year</li>
-            <li>Part A deductible: $1,676 per benefit period</li>
-            <li>Skilled nursing facility coinsurance (days 21-100): $209.50/day</li>
+            <li>Part A deductible: $1,736 per benefit period</li>
+            <li>Skilled nursing facility coinsurance (days 21-100): $217.00/day</li>
           </ul>
           <p className="mt-3">
             These gaps are exactly what Supplement or Advantage plans are designed to cover. The right plan can save you thousands if you have a hospital stay or need skilled nursing care.

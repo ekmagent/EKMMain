@@ -19,7 +19,7 @@ const faqSchema = {
       name: "Is Medicare Supplement G still available?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes, Medicare Supplement Plan G is still available and remains one of the most popular Medigap plans sold today. If you became eligible for Medicare on or after January 1, 2020, Plan G is likely your best choice since Plan F was closed to newly eligible beneficiaries after that date. Plan G covers everything Plan F does except the Part B deductible, which is $257 in 2026. After you pay that deductible, Plan G picks up your Part A and Part B coinsurance, hospital costs, skilled nursing coinsurance, and foreign travel emergencies. You can enroll in Plan G at any time, though your rate depends on health questions outside your open enrollment window. Call Anthony at 855-559-1700 to compare Plan G rates in your area.",
+        text: "Yes, Medicare Supplement Plan G is still available and remains one of the most popular Medigap plans sold today. If you became eligible for Medicare on or after January 1, 2020, Plan G is likely your best choice since Plan F was closed to newly eligible beneficiaries after that date. Plan G covers everything Plan F does except the Part B deductible, which is $283 in 2026. After you pay that deductible, Plan G picks up your Part A and Part B coinsurance, hospital costs, skilled nursing coinsurance, and foreign travel emergencies. You can enroll in Plan G at any time, though your rate depends on health questions outside your open enrollment window. Call Anthony at 855-559-1700 to compare Plan G rates in your area.",
       },
     },
   ],
@@ -55,7 +55,7 @@ export default function FAQPage() {
 
         <div className="prose prose-gray max-w-none mb-8">
           <p className="text-gray-700 leading-relaxed text-lg">
-            Yes, Medicare Supplement Plan G is still available and remains one of the most popular Medigap plans sold today. If you became eligible for Medicare on or after January 1, 2020, Plan G is likely your best choice since Plan F was closed to newly eligible beneficiaries after that date. Plan G covers everything Plan F does except the Part B deductible, which is &#36;257 in 2026. After you pay that deductible, Plan G picks up your Part A and Part B coinsurance, hospital costs, skilled nursing coinsurance, and foreign travel emergencies. You can enroll in Plan G at any time, though your rate depends on health questions outside your open enrollment window. Call Anthony at 855-559-1700 to compare Plan G rates in your area.
+            Yes, Medicare Supplement Plan G is still available and remains one of the most popular Medigap plans sold today. If you became eligible for Medicare on or after January 1, 2020, Plan G is likely your best choice since Plan F was closed to newly eligible beneficiaries after that date. Plan G covers everything Plan F does except the Part B deductible, which is &#36;283 in 2026. After you pay that deductible, Plan G picks up your Part A and Part B coinsurance, hospital costs, skilled nursing coinsurance, and foreign travel emergencies. You can enroll in Plan G at any time, though your rate depends on health questions outside your open enrollment window. Call Anthony at 855-559-1700 to compare Plan G rates in your area.
           </p>
         </div>
 

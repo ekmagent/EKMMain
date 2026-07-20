@@ -46,12 +46,12 @@ const articleSchema = {
 };
 
 const partBBrackets = [
-  { filing: "Single", joint: "Married Filing Jointly", surcharge: "$0", total: "$202.90" , income: "$106,000 or less", jointIncome: "$212,000 or less" },
-  { filing: "Single", joint: "Married Filing Jointly", surcharge: "+$70.00", total: "$272.90", income: "$106,001–$133,000", jointIncome: "$212,001–$266,000" },
-  { filing: "Single", joint: "Married Filing Jointly", surcharge: "+$175.00", total: "$377.90", income: "$133,001–$167,000", jointIncome: "$266,001–$334,000" },
-  { filing: "Single", joint: "Married Filing Jointly", surcharge: "+$280.10", total: "$483.00", income: "$167,001–$200,000", jointIncome: "$334,001–$400,000" },
-  { filing: "Single", joint: "Married Filing Jointly", surcharge: "+$385.00", total: "$587.90", income: "$200,001–$500,000", jointIncome: "$400,001–$750,000" },
-  { filing: "Single", joint: "Married Filing Jointly", surcharge: "+$420.80", total: "$623.70", income: "Above $500,000", jointIncome: "Above $750,000" },
+  { filing: "Single", joint: "Married Filing Jointly", surcharge: "$0", total: "$202.90" , income: "$109,000 or less", jointIncome: "$218,000 or less" },
+  { filing: "Single", joint: "Married Filing Jointly", surcharge: "+$81.20", total: "$284.10", income: "$109,001–$137,000", jointIncome: "$218,001–$274,000" },
+  { filing: "Single", joint: "Married Filing Jointly", surcharge: "+$202.90", total: "$405.80", income: "$137,001–$171,000", jointIncome: "$274,001–$342,000" },
+  { filing: "Single", joint: "Married Filing Jointly", surcharge: "+$324.60", total: "$527.50", income: "$171,001–$205,000", jointIncome: "$342,001–$410,000" },
+  { filing: "Single", joint: "Married Filing Jointly", surcharge: "+$446.40", total: "$649.30", income: "$205,001–$500,000", jointIncome: "$410,001–$750,000" },
+  { filing: "Single", joint: "Married Filing Jointly", surcharge: "+$487.00", total: "$689.90", income: "Above $500,000", jointIncome: "Above $750,000" },
 ];
 
 const lifeChangingEvents = [
@@ -77,7 +77,7 @@ const faqs = [
   {
     question: "Does IRMAA apply to Part D (prescription drug plans) too?",
     answer:
-      "Yes. If your income triggers IRMAA, you will also pay an extra amount on top of your Part D plan premium. The Part D IRMAA surcharge uses the same income brackets but different dollar amounts. The surcharge ranges from about $13 to $81 per month in 2025, depending on your income tier.",
+      "Yes. If your income triggers IRMAA, you will also pay an extra amount on top of your Part D plan premium. The Part D IRMAA surcharge uses the same income brackets but different dollar amounts. The surcharge ranges from about $14.50 to $91.00 per month in 2026, depending on your income tier.",
   },
   {
     question: "How do I know if I owe IRMAA?",

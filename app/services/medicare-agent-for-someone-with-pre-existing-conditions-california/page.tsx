@@ -170,7 +170,7 @@ export default function MedicareAgentPreExistingConditionsCA() {
             Medigap vs. Medicare Advantage when you have a chronic illness
           </h2>
           <p className="mb-2">
-            With Medigap, you keep Original Medicare. Any doctor who accepts Medicare accepts you. No referrals, no network. You pay a monthly premium, but your out-of-pocket exposure on the 20% Part B coinsurance and the $1,676 Part A deductible is covered (depending on the plan letter).
+            With Medigap, you keep Original Medicare. Any doctor who accepts Medicare accepts you. No referrals, no network. You pay a monthly premium, but your out-of-pocket exposure on the 20% Part B coinsurance and the $1,736 Part A deductible is covered (depending on the plan letter).
           </p>
           <p>
             Medicare Advantage plans often have $0 premiums and include drug coverage, dental, and vision. But they use networks. If your oncologist or cardiologist is out-of-network, you could face much higher costs or need to switch providers. For people managing ongoing specialist care across California, that trade-off matters.

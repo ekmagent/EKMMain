@@ -544,10 +544,12 @@ export default function SwitchMedigapPlansPage() {
             </h3>
             <p className="text-gray-600 text-sm mt-1">
               Some states give you additional switching windows. California,
-              Oregon, Illinois, and others have birthday rules that let you
-              switch to any plan with equal or lesser benefits around your
-              birthday each year without health questions. Check with a broker
-              to see what your state offers.
+              Oregon, and others have birthday rules that let you switch to a
+              plan with equal or lesser benefits around your birthday each year
+              without health questions. Details vary — Illinois, for example,
+              limits its rule to ages 65–75 and switches within your current
+              insurer&apos;s plans. Check with a broker to see what your state
+              offers.
             </p>
           </div>
 

@@ -142,10 +142,10 @@ export default function ExploringMedigapCostPage() {
           the plan letter, that includes:
         </p>
         <ul className="list-disc pl-6 text-gray-700 space-y-1">
-          <li>Part A deductible ($1,676 per benefit period in 2026)</li>
+          <li>Part A deductible ($1,736 per benefit period in 2026)</li>
           <li>Part B coinsurance (the 20% Medicare doesn't pay)</li>
           <li>
-            Skilled nursing facility coinsurance ($209.50/day for days 21–100)
+            Skilled nursing facility coinsurance ($217.00/day for days 21–100)
           </li>
           <li>Part B excess charges (Plan F and Plan G cover these)</li>
           <li>Foreign travel emergency care (up to plan limits)</li>

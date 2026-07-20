@@ -164,7 +164,7 @@ export default function HackensackNJMedicareInsuranceAgents() {
           near some of the most expensive hospital systems in the state.
         </p>
         <p className="text-gray-700">
-          If you're on Original Medicare, the 2026 Part B premium is $202.90/month with a $283 annual deductible. Medigap picks up the gaps. The Part A deductible is $1,676 per benefit period, which is where a supplement plan earns its keep fast.
+          If you're on Original Medicare, the 2026 Part B premium is $202.90/month with a $283 annual deductible. Medigap picks up the gaps. The Part A deductible is $1,736 per benefit period, which is where a supplement plan earns its keep fast.
         </p>
       </section>
 

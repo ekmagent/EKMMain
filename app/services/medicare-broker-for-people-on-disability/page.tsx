@@ -81,7 +81,7 @@ const faqs = [
     question:
       "Can I get a Medigap plan if I'm under 65 in New Jersey?",
     answer:
-      "New Jersey requires Medigap carriers to offer policies to Medicare-eligible residents under 65. However, carriers can charge higher premiums for under-65 enrollees. Your best rates come during your 6-month Medigap Open Enrollment window, which starts the month your Part B is active.",
+      "Yes. New Jersey requires Medigap carriers to offer policies to Medicare-eligible residents under 65 — and NJ caps what you pay: carriers cannot charge an under-65 enrollee more than the age-65 rate for the same plan. Enroll during your 6-month Medigap Open Enrollment window, which starts the month your Part B is active.",
   },
   {
     question:
@@ -159,7 +159,7 @@ export default function MedicareBrokerForPeopleOnDisability() {
             Medigap options for under-65 disability beneficiaries in New Jersey
           </h2>
           <p className="mb-2">
-            New Jersey is one of the states that requires Medigap carriers to sell policies to Medicare-eligible people under 65. That's good news. The catch: carriers can charge higher premiums for under-65 enrollees, and rates vary significantly between companies.
+            New Jersey is one of the states that requires Medigap carriers to sell policies to Medicare-eligible people under 65. Even better, NJ caps the premium: an under-65 enrollee cannot be charged more than the age-65 rate for the same plan. Rates still vary significantly between companies, so comparing carriers matters.
           </p>
           <ul className="list-disc pl-6 space-y-1 mb-2">
             <li>Your 6-month Medigap Open Enrollment starts when Part B kicks in</li>

@@ -136,7 +136,7 @@ export default function MedicareSupplementCrohnsPage() {
           Part B covers 80% of outpatient Crohn&#39;s care after you meet the $283 annual deductible. That includes provider-administered biologics like Remicade infusions, diagnostic colonoscopies, and GI specialist visits.
         </p>
         <p className="text-gray-700">
-          The remaining 20% is yours. On a biologic that runs $5,000+ per infusion every 8 weeks, that 20% adds up to thousands a year. Part A covers inpatient hospital stays with a $1,676 deductible per benefit period.
+          The remaining 20% is yours. On a biologic that runs $5,000+ per infusion every 8 weeks, that 20% adds up to thousands a year. Part A covers inpatient hospital stays with a $1,736 deductible per benefit period.
         </p>
       </section>
 
@@ -146,7 +146,7 @@ export default function MedicareSupplementCrohnsPage() {
         </h2>
         <ul className="list-disc pl-6 text-gray-700 space-y-2">
           <li>
-            <strong>Plan G</strong> — Covers 100% of Part B coinsurance, Part A deductible, skilled nursing facility costs ($209.50/day for days 21-100), and excess charges. You only pay the $283 Part B deductible.
+            <strong>Plan G</strong> — Covers 100% of Part B coinsurance, Part A deductible, skilled nursing facility costs ($217.00/day for days 21-100), and excess charges. You only pay the $283 Part B deductible.
           </li>
           <li>
             <strong>Plan N</strong> — Similar to G but with up to $20 copays at some office visits and a slightly lower premium. Good if your infusions are your biggest cost.

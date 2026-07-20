@@ -160,7 +160,7 @@ export default function LocalMedicareAgentsWestNewYorkNJ() {
           West New York sits right across the Hudson from Manhattan, and your plan needs to work on both sides of the river. Medicare Advantage plans use provider networks. If your doctors practice in both NJ and NY, network restrictions matter.
         </p>
         <p>
-          Medigap (Medicare Supplement) plans let you see any doctor who accepts Medicare nationwide. In 2026, the Part B premium is $202.90/month and the Part A deductible is $1,676 per benefit period. Medigap plans cover some or all of those gaps. Rates vary by carrier, age, and zip code.
+          Medigap (Medicare Supplement) plans let you see any doctor who accepts Medicare nationwide. In 2026, the Part B premium is $202.90/month and the Part A deductible is $1,736 per benefit period. Medigap plans cover some or all of those gaps. Rates vary by carrier, age, and zip code.
         </p>
       </section>
 

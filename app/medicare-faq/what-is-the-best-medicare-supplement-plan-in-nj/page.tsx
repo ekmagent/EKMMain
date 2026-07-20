@@ -7,7 +7,7 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 export const metadata: Metadata = {
   title: "What is the best Medicare Supplement plan in NJ? | Medicare FAQ",
   description:
-    "Plan G is the top pick for most people turning 65 in New Jersey today. It covers everything Original Medicare leaves behind except the $257 Part B deductib",
+    "Plan G is the top pick for most people turning 65 in New Jersey today. It covers everything Original Medicare leaves behind except the $283 Part B deductib",
 };
 
 const faqSchema = {
@@ -19,7 +19,7 @@ const faqSchema = {
       name: "What is the best Medicare Supplement plan in NJ?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Plan G is the top pick for most people turning 65 in New Jersey today. It covers everything Original Medicare leaves behind except the $257 Part B deductible, so after you meet that once a year, you pay almost nothing at the doctor or hospital. Plan N is a solid runner-up if you want a lower premium and don't mind small copays at office visits. Plan F is still available, but only if you were eligible for Medicare before January 1, 2020.\n\nThe \"best\" plan really comes down to price, since benefits are standardized by federal law. Horizon Blue Cross, AARP/UnitedHealthcare, and Aetna all sell competitive Plan G rates in NJ. Call Anthony at 855-559-1700 for a side-by-side quote.",
+        text: "Plan G is the top pick for most people turning 65 in New Jersey today. It covers everything Original Medicare leaves behind except the $283 Part B deductible, so after you meet that once a year, you pay almost nothing at the doctor or hospital. Plan N is a solid runner-up if you want a lower premium and don't mind small copays at office visits. Plan F is still available, but only if you were eligible for Medicare before January 1, 2020.\n\nThe \"best\" plan really comes down to price, since benefits are standardized by federal law. Horizon Blue Cross, AARP/UnitedHealthcare, and Aetna all sell competitive Plan G rates in NJ. Call Anthony at 855-559-1700 for a side-by-side quote.",
       },
     },
   ],
@@ -55,7 +55,7 @@ export default function FAQPage() {
 
         <div className="prose prose-gray max-w-none mb-8">
           <p className="text-gray-700 leading-relaxed text-lg">
-            Plan G is the top pick for most people turning 65 in New Jersey today. It covers everything Original Medicare leaves behind except the &#36;257 Part B deductible, so after you meet that once a year, you pay almost nothing at the doctor or hospital. Plan N is a solid runner-up if you want a lower premium and don&apos;t mind small copays at office visits. Plan F is still available, but only if you were eligible for Medicare before January 1, 2020.
+            Plan G is the top pick for most people turning 65 in New Jersey today. It covers everything Original Medicare leaves behind except the &#36;283 Part B deductible, so after you meet that once a year, you pay almost nothing at the doctor or hospital. Plan N is a solid runner-up if you want a lower premium and don&apos;t mind small copays at office visits. Plan F is still available, but only if you were eligible for Medicare before January 1, 2020.
 
 The &quot;best&quot; plan really comes down to price, since benefits are standardized by federal law. Horizon Blue Cross, AARP/UnitedHealthcare, and Aetna all sell competitive Plan G rates in NJ. Call Anthony at 855-559-1700 for a side-by-side quote.
           </p>

@@ -85,7 +85,7 @@ const faqs = [
   {
     question: "How much could a CHF hospitalization cost on Original Medicare?",
     answer:
-      "Each benefit period starts with a $1,676 Part A deductible in 2026. If you're readmitted within 60 days, that's the same benefit period. But a new admission after 60 days means another $1,676. Skilled nursing facility stays cost $209.50/day for days 21 through 100. Without supplemental coverage, these costs add up fast with CHF.",
+      "Each benefit period starts with a $1,736 Part A deductible in 2026. If you're readmitted within 60 days, that's the same benefit period. But a new admission after 60 days means another $1,736. Skilled nursing facility stays cost $217.00/day for days 21 through 100. Without supplemental coverage, these costs add up fast with CHF.",
   },
 ];
 
@@ -140,9 +140,9 @@ export default function MedicareBrokerCHFPage() {
           The real cost of CHF: hospitalizations, medications, and monitoring
         </h2>
         <p className="text-gray-700 mb-2">
-          One hospital stay costs $1,676 in Part A deductible alone in 2026. CHF
+          One hospital stay costs $1,736 in Part A deductible alone in 2026. CHF
           patients average multiple admissions per year. If you end up in a
-          skilled nursing facility for rehab, days 21 through 100 run $209.50
+          skilled nursing facility for rehab, days 21 through 100 run $217.00
           per day out of your pocket without supplemental coverage.
         </p>
         <p className="text-gray-700">

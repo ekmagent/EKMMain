@@ -56,7 +56,7 @@ const faqs = [
   {
     question: "What is the Part A hospital deductible in New Jersey for 2026?",
     answer:
-      "The Medicare Part A hospital deductible is $1,676 per benefit period in 2026. This is a federal amount and applies in every state, including New Jersey. Medigap Plan G and Plan N both fully cover this deductible, which is one of the main reasons many NJ beneficiaries add a supplement.",
+      "The Medicare Part A hospital deductible is $1,736 per benefit period in 2026. This is a federal amount and applies in every state, including New Jersey. Medigap Plan G and Plan N both fully cover this deductible, which is one of the main reasons many NJ beneficiaries add a supplement.",
   },
 ];
 
@@ -102,7 +102,7 @@ export default function NJMedicareCostPage() {
             <div>
               <p className="font-semibold text-gray-900">Annual Deductibles</p>
               <p className="text-gray-700 mt-1"><strong>$283</strong> Part B (covered by Plan G)</p>
-              <p className="text-gray-700"><strong>$1,676</strong> Part A per benefit period</p>
+              <p className="text-gray-700"><strong>$1,736</strong> Part A per benefit period</p>
               <p className="text-gray-700"><strong>$0</strong> out-of-pocket with Plan G</p>
             </div>
           </div>
@@ -128,7 +128,7 @@ export default function NJMedicareCostPage() {
             <tbody>
               {[
                 ["Part A premium", "$0 for most", "Free if 40+ quarters of Medicare taxes"],
-                ["Part A deductible (per benefit period)", "$1,676", "Covered by Plan G and Plan N"],
+                ["Part A deductible (per benefit period)", "$1,736", "Covered by Plan G and Plan N"],
                 ["Part B premium", "$202.90/month", "Federal standard; higher if IRMAA applies"],
                 ["Part B deductible", "$283/year", "Covered by Plan G, not Plan N"],
                 ["Medigap Plan G (NJ avg)", "$130–$220/month", "Varies by carrier and county"],

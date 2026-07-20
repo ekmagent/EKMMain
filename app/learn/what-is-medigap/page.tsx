@@ -83,7 +83,7 @@ export default function WhatIsMedigapPage() {
 
         <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-3">How Medicare&apos;s Cost-Sharing Works</h2>
         <p className="text-gray-700 leading-relaxed mb-4">
-          <a href="https://www.medicare.gov/basics/get-started-with-medicare" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline font-medium">Original Medicare</a> pays 80% of covered Part B services (doctor visits, outpatient care, procedures). You pay the remaining 20% — with no annual cap. A $100,000 cancer treatment could leave you with a $20,000 bill. A single hospitalization with complications could trigger the Part A deductible ($1,676 in 2026) plus daily coinsurance for extended stays.
+          <a href="https://www.medicare.gov/basics/get-started-with-medicare" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline font-medium">Original Medicare</a> pays 80% of covered Part B services (doctor visits, outpatient care, procedures). You pay the remaining 20% — with no annual cap. A $100,000 cancer treatment could leave you with a $20,000 bill. A single hospitalization with complications could trigger the Part A deductible ($1,736 in 2026) plus daily coinsurance for extended stays.
         </p>
         <p className="text-gray-700 leading-relaxed mb-4">
           Medigap covers most or all of these remaining costs, depending on which plan letter you choose. Plan G — the most popular — covers everything except the Part B deductible ($283/year).
@@ -94,7 +94,7 @@ export default function WhatIsMedigapPage() {
           <div className="bg-green-50 border border-green-100 rounded-xl p-4">
             <h3 className="font-semibold text-gray-900 mb-2">✅ What Medigap Covers (Plan G)</h3>
             <ul className="space-y-1 text-gray-700">
-              {["Part A hospital coinsurance", "Part A deductible ($1,676)", "Part A hospice care coinsurance", "Part B coinsurance (the 20%)", "Part B excess charges", "First 3 pints of blood", "Skilled nursing coinsurance", "Foreign travel emergency (80%)"].map(i => <li key={i}>• {i}</li>)}
+              {["Part A hospital coinsurance", "Part A deductible ($1,736)", "Part A hospice care coinsurance", "Part B coinsurance (the 20%)", "Part B excess charges", "First 3 pints of blood", "Skilled nursing coinsurance", "Foreign travel emergency (80%)"].map(i => <li key={i}>• {i}</li>)}
             </ul>
           </div>
           <div className="bg-red-50 border border-red-100 rounded-xl p-4">

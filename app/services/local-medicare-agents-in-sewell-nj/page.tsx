@@ -79,7 +79,7 @@ const faqs = [
     question:
       "What is the difference between Medicare Advantage and Medigap in New Jersey?",
     answer:
-      "Medicare Advantage replaces Original Medicare with a private plan that often includes drug coverage and extras like dental. Medigap (Medicare Supplement) works alongside Original Medicare to cover out-of-pocket costs like the $1,676 Part A deductible. Both are available in Gloucester County through multiple carriers.",
+      "Medicare Advantage replaces Original Medicare with a private plan that often includes drug coverage and extras like dental. Medigap (Medicare Supplement) works alongside Original Medicare to cover out-of-pocket costs like the $1,736 Part A deductible. Both are available in Gloucester County through multiple carriers.",
   },
   {
     question: "When can I enroll in a Medigap plan in Sewell, NJ?",
@@ -161,7 +161,7 @@ export default function LocalMedicareAgentsInSewellNJ() {
         <ul className="list-disc pl-6 space-y-2">
           <li>
             <strong>Medigap (Supplement) plans</strong> like Plan G and Plan N
-            cover gaps in Original Medicare. Plan G covers the $1,676 Part A
+            cover gaps in Original Medicare. Plan G covers the $1,736 Part A
             deductible and all Part B excess charges. Rates vary by carrier and
             age.
           </li>
@@ -185,7 +185,7 @@ export default function LocalMedicareAgentsInSewellNJ() {
           Your Part B premium in 2026 is $202.90/month. That&apos;s just the
           baseline. Without supplemental coverage, you&apos;re responsible for
           the $283 Part B deductible, 20% of outpatient costs with no cap, and
-          $209.50/day for skilled nursing days 21 through 100.
+          $217.00/day for skilled nursing days 21 through 100.
         </p>
         <p>
           Choosing the wrong plan costs you every month. A quick comparison

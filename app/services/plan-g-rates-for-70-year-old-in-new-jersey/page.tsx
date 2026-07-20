@@ -203,8 +203,8 @@ export default function PlanGRates70NJ() {
             Plan G covers everything Original Medicare doesn't except the Part B deductible, which is $283/year in 2026. That means:
           </p>
           <ul className="list-disc pl-6 space-y-1 mt-2">
-            <li>$0 out-of-pocket for the $1,676 Part A deductible</li>
-            <li>$0 for skilled nursing coinsurance ($209.50/day for days 21-100)</li>
+            <li>$0 out-of-pocket for the $1,736 Part A deductible</li>
+            <li>$0 for skilled nursing coinsurance ($217.00/day for days 21-100)</li>
             <li>$0 for Part B excess charges</li>
             <li>Foreign travel emergency coverage included</li>
           </ul>

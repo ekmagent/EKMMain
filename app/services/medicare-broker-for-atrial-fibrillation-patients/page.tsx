@@ -84,7 +84,7 @@ const faqs = [
     question:
       "Does Medicare cover catheter ablation for atrial fibrillation?",
     answer:
-      "Medicare Part A covers catheter ablation as a medically necessary inpatient or outpatient hospital procedure. You'll owe the Part A deductible ($1,676 per benefit period in 2026) plus any coinsurance. A Medigap plan can cover most or all of that gap. Some patients report ablation charges over $90,000 before insurance, which makes your supplemental coverage critical.",
+      "Medicare Part A covers catheter ablation as a medically necessary inpatient or outpatient hospital procedure. You'll owe the Part A deductible ($1,736 per benefit period in 2026) plus any coinsurance. A Medigap plan can cover most or all of that gap. Some patients report ablation charges over $90,000 before insurance, which makes your supplemental coverage critical.",
   },
 ];
 
@@ -194,7 +194,7 @@ export default function MedicareBrokerForAtrialFibrillationPatients() {
             The real cost of AFib without the right plan
           </h2>
           <p className="mb-2">
-            An ablation can generate charges over $90,000. Even with Original Medicare paying 80%, you'd owe roughly $18,000 out of pocket without supplemental coverage. The Part A inpatient deductible alone is $1,676 per benefit period in 2026.
+            An ablation can generate charges over $90,000. Even with Original Medicare paying 80%, you'd owe roughly $18,000 out of pocket without supplemental coverage. The Part A inpatient deductible alone is $1,736 per benefit period in 2026.
           </p>
           <p>
             Add monthly blood thinner costs, quarterly cardiology visits, and monitoring devices. The wrong plan bleeds money every month. The right plan keeps your costs predictable.

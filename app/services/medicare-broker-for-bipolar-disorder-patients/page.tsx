@@ -79,7 +79,7 @@ const faqs = [
     question:
       "Does Medicare cover inpatient psychiatric hospitalization?",
     answer:
-      "Medicare Part A covers inpatient psychiatric care in general hospitals with no lifetime day limit. For freestanding psychiatric hospitals, Part A covers up to 190 days over your lifetime. You pay the Part A deductible of $1,676 per benefit period. Some Medicare Advantage plans may offer additional behavioral health benefits, but network restrictions apply.",
+      "Medicare Part A covers inpatient psychiatric care in general hospitals with no lifetime day limit. For freestanding psychiatric hospitals, Part A covers up to 190 days over your lifetime. You pay the Part A deductible of $1,736 per benefit period. Some Medicare Advantage plans may offer additional behavioral health benefits, but network restrictions apply.",
   },
   {
     question:
@@ -190,7 +190,7 @@ export default function MedicareBrokerBipolarDisorderPage() {
           </h2>
           <p className="mb-2">
             Part A covers inpatient psychiatric stays in general hospitals like
-            any other hospitalization. You pay the $1,676 Part A deductible
+            any other hospitalization. You pay the $1,736 Part A deductible
             per benefit period. Freestanding psychiatric hospitals carry a
             190-day lifetime limit.
           </p>

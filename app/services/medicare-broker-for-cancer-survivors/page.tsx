@@ -87,7 +87,7 @@ const faqs = [
     question:
       "Are oral chemotherapy drugs covered under Medicare Part D?",
     answer:
-      "Self-administered oral cancer drugs typically fall under Part D. In 2025 and beyond, Part D has a $2,000 annual out-of-pocket cap, which significantly reduces costs for expensive cancer medications. The specific drug must be on your plan's formulary, so the right Part D plan matters enormously.",
+      "Self-administered oral cancer drugs typically fall under Part D. Part D has an annual out-of-pocket cap — $2,100 in 2026 — which significantly reduces costs for expensive cancer medications. The specific drug must be on your plan's formulary, so the right Part D plan matters enormously.",
   },
 ];
 

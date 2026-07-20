@@ -168,7 +168,7 @@ export default function FindMedicareAgentNeptuneNJ() {
             For Medigap, your six-month open enrollment window begins the month you're both 65 and enrolled in Part B. During this window, carriers can't deny you or charge more for health conditions. After it closes, underwriting applies.
           </p>
           <p>
-            The 2026 Part B premium is $202.90/month. The Part B deductible is $283/year. The Part A deductible is $1,676 per benefit period.
+            The 2026 Part B premium is $202.90/month. The Part B deductible is $283/year. The Part A deductible is $1,736 per benefit period.
           </p>
         </section>
 

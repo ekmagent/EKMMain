@@ -79,7 +79,7 @@ const faqs = [
   {
     question: "Can a local Medicare agent help me switch plans?",
     answer:
-      "Yes. During the Medicare Advantage Open Enrollment (October 15 through December 7) or if you qualify for a Special Enrollment Period, a local agent can review your current coverage, compare alternatives, and handle the switch for you.",
+      "Yes. During the Annual Enrollment Period (October 15 through December 7) or if you qualify for a Special Enrollment Period, a local agent can review your current coverage, compare alternatives, and handle the switch for you.",
   },
   {
     question: "What areas does Anthony Orner serve?",
@@ -212,7 +212,7 @@ export default function LocalMedicareAgentPage() {
             have Part B
           </li>
           <li>Part B monthly premium (2026): $202.90</li>
-          <li>Part A deductible (2026): $1,676 per benefit period</li>
+          <li>Part A deductible (2026): $1,736 per benefit period</li>
         </ul>
       </section>
 

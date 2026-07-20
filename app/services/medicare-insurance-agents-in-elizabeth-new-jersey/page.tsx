@@ -189,7 +189,7 @@ export default function MedicareInsuranceAgentsElizabethNJ() {
           </li>
           <li>
             <strong>Assuming Original Medicare covers everything.</strong> The
-            2026 Part A deductible is $1,676 per benefit period. Part B covers
+            2026 Part A deductible is $1,736 per benefit period. Part B covers
             80%, leaving you with 20% of approved charges. That adds up fast.
           </li>
           <li>

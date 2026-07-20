@@ -19,7 +19,7 @@ const faqSchema = {
       name: "How much do I have to pay for Medicare when I turn 65?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Most people pay $0 for Part A when they turn 65, as long as you or your spouse worked and paid Medicare taxes for at least 10 years. Part B is where the real cost kicks in. In 2026, the standard Part B premium is $185 per month, with a $257 annual deductible. After that, you typically pay 20% of the Medicare-approved amount for doctor visits and outpatient care. If your income is higher, you may pay more for Part B due to IRMAA. There's no cap on out-of-pocket costs unless you add a Medigap plan or join a Medicare Advantage plan. Want help figuring out what fits your budget? Call Anthony at 855-559-1700 or visit medicareyourself.com.",
+        text: "Most people pay $0 for Part A when they turn 65, as long as you or your spouse worked and paid Medicare taxes for at least 10 years. Part B is where the real cost kicks in. In 2026, the standard Part B premium is $202.90 per month, with a $283 annual deductible. After that, you typically pay 20% of the Medicare-approved amount for doctor visits and outpatient care. If your income is higher, you may pay more for Part B due to IRMAA. There's no cap on out-of-pocket costs unless you add a Medigap plan or join a Medicare Advantage plan. Want help figuring out what fits your budget? Call Anthony at 855-559-1700 or visit medicareyourself.com.",
       },
     },
   ],
@@ -55,7 +55,7 @@ export default function FAQPage() {
 
         <div className="prose prose-gray max-w-none mb-8">
           <p className="text-gray-700 leading-relaxed text-lg">
-            Most people pay &#36;0 for Part A when they turn 65, as long as you or your spouse worked and paid Medicare taxes for at least 10 years. Part B is where the real cost kicks in. In 2026, the standard Part B premium is &#36;185 per month, with a &#36;257 annual deductible. After that, you typically pay 20% of the Medicare-approved amount for doctor visits and outpatient care. If your income is higher, you may pay more for Part B due to IRMAA. There&apos;s no cap on out-of-pocket costs unless you add a Medigap plan or join a Medicare Advantage plan. Want help figuring out what fits your budget? Call Anthony at 855-559-1700 or visit medicareyourself.com.
+            Most people pay &#36;0 for Part A when they turn 65, as long as you or your spouse worked and paid Medicare taxes for at least 10 years. Part B is where the real cost kicks in. In 2026, the standard Part B premium is &#36;202.90 per month, with a &#36;283 annual deductible. After that, you typically pay 20% of the Medicare-approved amount for doctor visits and outpatient care. If your income is higher, you may pay more for Part B due to IRMAA. There&apos;s no cap on out-of-pocket costs unless you add a Medigap plan or join a Medicare Advantage plan. Want help figuring out what fits your budget? Call Anthony at 855-559-1700 or visit medicareyourself.com.
           </p>
         </div>
 

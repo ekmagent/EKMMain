@@ -229,7 +229,7 @@ export default function MedicareBrokerForParkinsonsPatients() {
         </p>
         <p>
           Skilled nursing facility stays after a hospitalization cost $0 for days
-          1-20 under Medicare, then $209.50 per day for days 21-100 in 2026. A
+          1-20 under Medicare, then $217.00 per day for days 21-100 in 2026. A
           Supplement plan can cover that coinsurance entirely. These are the
           details that matter when a fall changes everything overnight.
         </p>

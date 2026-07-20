@@ -41,7 +41,7 @@ const faqs = [
   {
     question: "Which is more expensive long-term — Medigap or Medicare Advantage in NJ?",
     answer:
-      "This depends entirely on your healthcare usage. Medigap Plan G costs more per month upfront ($130–$220/month) but provides near-zero additional costs when you use healthcare. Medicare Advantage may cost less per month but has copays, deductibles, and out-of-pocket maximums (up to $8,850 in-network in 2026) that can add up quickly if you have a serious illness or hospitalization.",
+      "This depends entirely on your healthcare usage. Medigap Plan G costs more per month upfront ($130–$220/month) but provides near-zero additional costs when you use healthcare. Medicare Advantage may cost less per month but has copays, deductibles, and out-of-pocket maximums (up to $9,250 in-network in 2026) that can add up quickly if you have a serious illness or hospitalization.",
   },
 ];
 
@@ -81,7 +81,7 @@ export default function MedigapVsMAPage() {
             New Jersey does <strong>not</strong> mandate community rating for Medigap. Most NJ carriers use <strong>attained-age rating</strong> — premiums rise as you get older — while a minority (notably AARP/UnitedHealthcare) are community-rated. The rating method and rate-increase history matter as much as the starting premium.
           </p>
           <p className="text-sm text-gray-700">
-            Even so, the Medigap vs Medicare Advantage calculus holds: Plan G costs more upfront but keeps your out-of-pocket exposure small and predictable, while Medicare Advantage appears cheaper now but has network restrictions and out-of-pocket exposure up to <strong>$8,850/year in-network</strong>.
+            Even so, the Medigap vs Medicare Advantage calculus holds: Plan G costs more upfront but keeps your out-of-pocket exposure small and predictable, while Medicare Advantage appears cheaper now but has network restrictions and out-of-pocket exposure up to <strong>$9,250/year in-network</strong>.
           </p>
         </div>
 
@@ -107,7 +107,7 @@ export default function MedigapVsMAPage() {
                 ["Monthly premium (beyond Part B)", "$130–$220", "$0–$80 (many $0 plans)"],
                 ["Doctor networks", "Any Medicare doctor in US", "In-network only"],
                 ["Referrals to see specialists", "Never needed", "Required for HMO plans"],
-                ["Out-of-pocket maximum", "Near zero (only Part B deductible)", "Up to $8,850 in-network"],
+                ["Out-of-pocket maximum", "Near zero (only Part B deductible)", "Up to $9,250 in-network"],
                 ["Dental coverage", "Not included", "Usually included"],
                 ["Vision coverage", "Not included", "Usually included"],
                 ["Drug coverage (Part D)", "Separate plan required", "Often bundled in"],

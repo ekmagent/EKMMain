@@ -148,7 +148,7 @@ export default function MedicareAgentsNearMe() {
           <li>Reviews your current prescriptions and checks formulary coverage across carriers</li>
           <li>Confirms your doctors are in-network before you enroll</li>
           <li>Explains the real cost differences between Medicare Advantage and Medigap</li>
-          <li>Walks you through the 2026 Part B premium ($202.90/month) and Part A deductible ($1,676 per benefit period) so you understand what Original Medicare doesn't cover</li>
+          <li>Walks you through the 2026 Part B premium ($202.90/month) and Part A deductible ($1,736 per benefit period) so you understand what Original Medicare doesn't cover</li>
           <li>Follows up after enrollment if you have billing issues or need to switch plans</li>
         </ul>
       </section>

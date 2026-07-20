@@ -82,7 +82,7 @@ const faqs = [
     question:
       "What does Plan G cover that I'd otherwise pay out of pocket?",
     answer:
-      "Plan G covers the Part A deductible ($1,676 per benefit period in 2026), skilled nursing facility coinsurance ($209.50/day for days 21-100), Part B excess charges, and foreign travel emergency care. Your only remaining cost is the annual Part B deductible of $283.",
+      "Plan G covers the Part A deductible ($1,736 per benefit period in 2026), skilled nursing facility coinsurance ($217.00/day for days 21-100), Part B excess charges, and foreign travel emergency care. Your only remaining cost is the annual Part B deductible of $283.",
   },
 ];
 
@@ -173,7 +173,7 @@ export default function HowMuchIsPlanGInNJ() {
           Plan G covers everything except the Part B deductible, which is $283/year in 2026. That's it. No copays at the doctor. No coinsurance after surgery. No network restrictions.
         </p>
         <p className="text-gray-700">
-          It also picks up the Part A hospital deductible ($1,676 per benefit period), skilled nursing coinsurance at $209.50/day for days 21-100, and Part B excess charges. You see any doctor in the country who accepts Medicare.
+          It also picks up the Part A hospital deductible ($1,736 per benefit period), skilled nursing coinsurance at $217.00/day for days 21-100, and Part B excess charges. You see any doctor in the country who accepts Medicare.
         </p>
       </section>
 

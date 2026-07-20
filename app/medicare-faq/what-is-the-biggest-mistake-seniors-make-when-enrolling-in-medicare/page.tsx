@@ -19,7 +19,7 @@ const faqSchema = {
       name: "What is the biggest mistake seniors make when enrolling in Medicare?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "The biggest mistake seniors make is missing their Initial Enrollment Period, which runs seven months around your 65th birthday. Skip it, and you can face a Part B late enrollment penalty of 10% for every 12 months you delayed, and that penalty sticks with you for life. Another costly slip-up is assuming you must take Part B if you have solid employer coverage from an active job. You might not need it yet. People also pick a plan based on premium alone and ignore drug formularies, provider networks, and the $257 Part B deductible in 2026. Every situation is different, so talk it through with someone before you sign. Call Anthony at 855-559-1700 or visit medicareyourself.com and we'll walk through your options.",
+        text: "The biggest mistake seniors make is missing their Initial Enrollment Period, which runs seven months around your 65th birthday. Skip it, and you can face a Part B late enrollment penalty of 10% for every 12 months you delayed, and that penalty sticks with you for life. Another costly slip-up is assuming you must take Part B if you have solid employer coverage from an active job. You might not need it yet. People also pick a plan based on premium alone and ignore drug formularies, provider networks, and the $283 Part B deductible in 2026. Every situation is different, so talk it through with someone before you sign. Call Anthony at 855-559-1700 or visit medicareyourself.com and we'll walk through your options.",
       },
     },
   ],
@@ -55,7 +55,7 @@ export default function FAQPage() {
 
         <div className="prose prose-gray max-w-none mb-8">
           <p className="text-gray-700 leading-relaxed text-lg">
-            The biggest mistake seniors make is missing their Initial Enrollment Period, which runs seven months around your 65th birthday. Skip it, and you can face a Part B late enrollment penalty of 10% for every 12 months you delayed, and that penalty sticks with you for life. Another costly slip-up is assuming you must take Part B if you have solid employer coverage from an active job. You might not need it yet. People also pick a plan based on premium alone and ignore drug formularies, provider networks, and the &#36;257 Part B deductible in 2026. Every situation is different, so talk it through with someone before you sign. Call Anthony at 855-559-1700 or visit medicareyourself.com and we&apos;ll walk through your options.
+            The biggest mistake seniors make is missing their Initial Enrollment Period, which runs seven months around your 65th birthday. Skip it, and you can face a Part B late enrollment penalty of 10% for every 12 months you delayed, and that penalty sticks with you for life. Another costly slip-up is assuming you must take Part B if you have solid employer coverage from an active job. You might not need it yet. People also pick a plan based on premium alone and ignore drug formularies, provider networks, and the &#36;283 Part B deductible in 2026. Every situation is different, so talk it through with someone before you sign. Call Anthony at 855-559-1700 or visit medicareyourself.com and we&apos;ll walk through your options.
           </p>
         </div>
 

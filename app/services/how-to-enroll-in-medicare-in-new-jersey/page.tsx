@@ -76,7 +76,7 @@ const faqs = [
   {
     question: "What happens if I miss my Medicare enrollment window in NJ?",
     answer:
-      "If you miss your IEP and don't qualify for a Special Enrollment Period, you'll wait for General Enrollment (January 1 through March 31), with coverage starting July 1. You'll also pay a Part B late enrollment penalty of 10% for each 12-month period you delayed.",
+      "If you miss your IEP and don't qualify for a Special Enrollment Period, you'll wait for General Enrollment (January 1 through March 31), with coverage starting the first of the month after you enroll. You'll also pay a Part B late enrollment penalty of 10% for each 12-month period you delayed.",
   },
   {
     question: "Is there a cost to work with a Medicare broker for enrollment in NJ?",
@@ -179,7 +179,7 @@ export default function HowToEnrollInMedicareInNewJersey() {
           What to do if you missed your enrollment period
         </h2>
         <p className="mb-3">
-          General Enrollment runs January 1 through March 31, with coverage starting July 1. You'll pay a 10% Part B late penalty for each full 12-month period you could have had Part B but didn't. That penalty is permanent.
+          General Enrollment runs January 1 through March 31, with coverage starting the first of the month after you enroll. You&apos;ll pay a 10% Part B late penalty for each full 12-month period you could have had Part B but didn&apos;t. That penalty is permanent.
         </p>
         <p>
           If you lost employer or union coverage, check whether you qualify for a Special Enrollment Period first. You may avoid penalties entirely.
@@ -191,7 +191,7 @@ export default function HowToEnrollInMedicareInNewJersey() {
           The Part A deductible most people don't see coming
         </h2>
         <p className="mb-3">
-          Part A covers hospital stays, but the 2026 deductible is $1,676 per benefit period. If you're readmitted after 60 days, you pay it again. Skilled nursing after day 20 costs $209.50/day through day 100.
+          Part A covers hospital stays, but the 2026 deductible is $1,736 per benefit period. If you're readmitted after 60 days, you pay it again. Skilled nursing after day 20 costs $217.00/day through day 100.
         </p>
         <p>
           A Medigap plan or Medicare Advantage plan covers much of this. Neither comes automatically with enrollment. You choose one or the other.

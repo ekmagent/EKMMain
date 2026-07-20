@@ -89,7 +89,7 @@ export default function Turning65NJPage() {
           <ul className="text-sm text-gray-700 space-y-1">
             <li>• <strong>Initial Enrollment Period:</strong> 7 months (3 months before + your birthday month + 3 months after)</li>
             <li>• <strong>Part B premium (2026):</strong> $202.90/month — no increase if you enroll within your IEP window</li>
-            <li>• <strong>Part A deductible (2026):</strong> $1,676 per benefit period (Plan G covers it)</li>
+            <li>• <strong>Part A deductible (2026):</strong> $1,736 per benefit period (Plan G covers it)</li>
             <li>• <strong>Medigap Open Enrollment:</strong> 6 months starting the month you're 65 and enrolled in Part B — guaranteed issue window</li>
             <li>• <strong>Part D deadline:</strong> Enroll within your IEP to avoid 1% per month late penalty for life</li>
           </ul>

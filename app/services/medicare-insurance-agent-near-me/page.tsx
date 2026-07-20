@@ -183,7 +183,7 @@ export default function MedicareInsuranceAgentNearMe() {
             <li>Your total annual out-of-pocket cost, not just the monthly premium</li>
           </ul>
           <p className="mt-2">
-            For 2026, Part B runs $202.90/month with a $283 annual deductible. The Part A inpatient deductible is $1,676 per benefit period. Those numbers shape which supplemental plan makes sense for your budget.
+            For 2026, Part B runs $202.90/month with a $283 annual deductible. The Part A inpatient deductible is $1,736 per benefit period. Those numbers shape which supplemental plan makes sense for your budget.
           </p>
         </section>
 

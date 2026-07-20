@@ -79,7 +79,7 @@ const faqs = [
     question:
       "Does Florida use attained-age or issue-age rating for Medigap?",
     answer:
-      "Florida uses attained-age rating for most Medigap policies. That means your premium can increase as you get older, which makes choosing the right plan and timing your enrollment especially important.",
+      "Neither — Florida law requires issue-age rating and prohibits attained-age pricing. Your premium class is locked to the age you were when you bought the policy and can't be raised just because you got older. Carriers can still file across-the-board rate increases, so comparing each company's rate history remains important.",
   },
   {
     question:
@@ -177,17 +177,19 @@ export default function TampaMedicareAgent() {
 
       <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
-          Florida's attained-age rating and why it affects your premium
+          Florida's issue-age rating rule and why it affects your premium
         </h2>
         <p className="mb-2">
-          Florida allows attained-age pricing on Medigap policies. Your premium
-          starts based on your current age and rises as you get older. A plan
-          that costs $130/month at 65 could cost $200+ at 75 with the same
-          carrier.
+          Florida requires issue-age pricing on Medigap policies — attained-age
+          rating is prohibited. Your premium class is set by the age you were
+          at purchase and cannot rise simply because you got older. Enrolling
+          earlier locks in a lower issue-age class for life.
         </p>
         <p>
-          This makes your initial carrier choice critical. I show you each
-          company's rate history so you're not surprised five years from now.
+          Carriers can still raise rates across an entire class through filed
+          increases, so your initial carrier choice is critical. I show you each
+          company&apos;s rate history so you&apos;re not surprised five years
+          from now.
         </p>
       </section>
 

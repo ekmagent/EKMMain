@@ -168,7 +168,7 @@ export default function FindMedicareAgentPiscatawayNJ() {
             Miss it, and carriers can underwrite you or decline coverage entirely. That's why I recommend starting the process about six months before your Part B effective date.
           </p>
           <p>
-            For 2026, the Part B premium is $202.90/month, the Part B deductible is $283/year, and the Part A deductible is $1,676 per benefit period. These costs are exactly what a good Medigap plan covers.
+            For 2026, the Part B premium is $202.90/month, the Part B deductible is $283/year, and the Part A deductible is $1,736 per benefit period. These costs are exactly what a good Medigap plan covers.
           </p>
         </section>
 

@@ -197,7 +197,7 @@ export default function IndependentMedicareBrokerNJReviewsPage() {
           <li>Will you check if my doctors are in-network?</li>
           <li>Do you review my drug list against each plan's formulary?</li>
           <li>What happens if I need help after January 1?</li>
-          <li>Are you available during the Medicare Advantage Open Enrollment (October 15 through December 7)?</li>
+          <li>Are you available during the Annual Enrollment Period (October 15 through December 7)?</li>
         </ul>
         <p className="mt-2">
           If you get vague answers or feel rushed, that tells you everything.

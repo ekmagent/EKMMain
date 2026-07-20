@@ -179,7 +179,7 @@ export default function IndependentMedicareAgentsNearMe() {
           Part A, B, C, D. Advantage vs. Supplement. Drug tiers. Enrollment windows. People describe it as "learning a new language," and they're right.
         </p>
         <p className="text-gray-700">
-          The 2026 Part B premium is $202.90/month. The Part A deductible is $1,676 per benefit period. Those numbers matter when you're comparing Medigap Plan G against a $0-premium Advantage plan. An independent broker lays all of this out plainly, without jargon.
+          The 2026 Part B premium is $202.90/month. The Part A deductible is $1,736 per benefit period. Those numbers matter when you're comparing Medigap Plan G against a $0-premium Advantage plan. An independent broker lays all of this out plainly, without jargon.
         </p>
       </section>
 

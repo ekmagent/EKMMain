@@ -19,7 +19,7 @@ const faqSchema = {
       name: "How do I enroll in Medicare for the first time?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "You enroll through Social Security, either online at ssa.gov/medicare, by phone at 1-800-772-1213, or in person at your local Social Security office. Most people qualify at age 65. Your Initial Enrollment Period runs seven months total: the three months before your 65th birthday month, your birthday month, and the three months after. Sign up in those first three months so coverage starts the day you turn 65. If you already collect Social Security, you're enrolled automatically in Part A and Part B. In 2026, Part B costs $185 per month with a $257 deductible. Missing your window can trigger lifetime late penalties. Call me at 855-559-1700 or visit medicareyourself.com and I'll walk you through the timing and paperwork.",
+        text: "You enroll through Social Security, either online at ssa.gov/medicare, by phone at 1-800-772-1213, or in person at your local Social Security office. Most people qualify at age 65. Your Initial Enrollment Period runs seven months total: the three months before your 65th birthday month, your birthday month, and the three months after. Sign up in those first three months so coverage starts the day you turn 65. If you already collect Social Security, you're enrolled automatically in Part A and Part B. In 2026, Part B costs $202.90 per month with a $283 deductible. Missing your window can trigger lifetime late penalties. Call me at 855-559-1700 or visit medicareyourself.com and I'll walk you through the timing and paperwork.",
       },
     },
   ],
@@ -55,7 +55,7 @@ export default function FAQPage() {
 
         <div className="prose prose-gray max-w-none mb-8">
           <p className="text-gray-700 leading-relaxed text-lg">
-            You enroll through Social Security, either online at ssa.gov/medicare, by phone at 1-800-772-1213, or in person at your local Social Security office. Most people qualify at age 65. Your Initial Enrollment Period runs seven months total: the three months before your 65th birthday month, your birthday month, and the three months after. Sign up in those first three months so coverage starts the day you turn 65. If you already collect Social Security, you&apos;re enrolled automatically in Part A and Part B. In 2026, Part B costs &#36;185 per month with a &#36;257 deductible. Missing your window can trigger lifetime late penalties. Call me at 855-559-1700 or visit medicareyourself.com and I&apos;ll walk you through the timing and paperwork.
+            You enroll through Social Security, either online at ssa.gov/medicare, by phone at 1-800-772-1213, or in person at your local Social Security office. Most people qualify at age 65. Your Initial Enrollment Period runs seven months total: the three months before your 65th birthday month, your birthday month, and the three months after. Sign up in those first three months so coverage starts the day you turn 65. If you already collect Social Security, you&apos;re enrolled automatically in Part A and Part B. In 2026, Part B costs &#36;202.90 per month with a &#36;283 deductible. Missing your window can trigger lifetime late penalties. Call me at 855-559-1700 or visit medicareyourself.com and I&apos;ll walk you through the timing and paperwork.
           </p>
         </div>
 

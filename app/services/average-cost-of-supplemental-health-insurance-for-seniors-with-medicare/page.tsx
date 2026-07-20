@@ -152,7 +152,7 @@ export default function AverageCostSupplementalInsurancePage() {
           Medigap vs. Medicare Advantage — two different cost structures
         </h2>
         <p className="text-gray-700 mb-3">
-          Medigap (Medicare Supplement) plans charge a monthly premium on top of your $202.90/month Part B premium. In return, they cover most or all of the gaps in Original Medicare: the $1,676 Part A deductible, the $283 Part B deductible (Plan G doesn't cover this one), and coinsurance like the $209.50/day for skilled nursing days 21–100.
+          Medigap (Medicare Supplement) plans charge a monthly premium on top of your $202.90/month Part B premium. In return, they cover most or all of the gaps in Original Medicare: the $1,736 Part A deductible, the $283 Part B deductible (Plan G doesn't cover this one), and coinsurance like the $217.00/day for skilled nursing days 21–100.
         </p>
         <p className="text-gray-700 mb-3">
           Medicare Advantage plans often have $0 premiums. But you'll face copays, coinsurance, prior authorizations, and network restrictions at the point of care. Total annual cost depends heavily on how much healthcare you use.

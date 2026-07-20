@@ -56,7 +56,7 @@ const faqs = [
   {
     question: "Do Plan G and Plan N cover the Part A deductible in New Jersey?",
     answer:
-      "Yes. Both Plan G and Plan N fully cover the Medicare Part A hospital deductible, which is $1,676 per benefit period in 2026. They also both cover Part A coinsurance and an additional 365 days of hospital care after Medicare benefits are exhausted.",
+      "Yes. Both Plan G and Plan N fully cover the Medicare Part A hospital deductible, which is $1,736 per benefit period in 2026. They also both cover Part A coinsurance and an additional 365 days of hospital care after Medicare benefits are exhausted.",
   },
   {
     question: "Is the network the same for Plan G and Plan N in NJ?",
@@ -104,7 +104,7 @@ export default function PlanGvsPlanNPage() {
           <p className="font-semibold text-gray-900 mb-2">What's Different for NJ Plan G vs Plan N in 2026</p>
           <ul className="text-sm text-gray-700 space-y-1">
             <li>• Part B deductible is <strong>$283</strong> (covered by Plan G, not Plan N)</li>
-            <li>• Part A hospital deductible is <strong>$1,676 per benefit period</strong> (both plans cover it)</li>
+            <li>• Part A hospital deductible is <strong>$1,736 per benefit period</strong> (both plans cover it)</li>
             <li>• Most NJ carriers use attained-age rating — your premium <strong>typically rises as you age</strong>, so check the carrier&apos;s rating method</li>
             <li>• Plan N copays up to <strong>$20 per doctor visit, $50 per ER visit</strong> still apply</li>
           </ul>
@@ -132,7 +132,7 @@ export default function PlanGvsPlanNPage() {
                 ["Part A hospital coinsurance + 365 extra days", "✅ Covered", "✅ Covered"],
                 ["Part B coinsurance / copayment", "✅ Covered", "✅ Covered (with copays)"],
                 ["Part A hospice coinsurance", "✅ Covered", "✅ Covered"],
-                ["Part A deductible ($1,676 in 2026)", "✅ Covered", "✅ Covered"],
+                ["Part A deductible ($1,736 in 2026)", "✅ Covered", "✅ Covered"],
                 ["Part B deductible ($283 in 2026)", "✅ Covered", "❌ Not covered"],
                 ["Part B excess charges", "✅ Covered", "❌ Not covered"],
                 ["Foreign travel emergency (80%)", "✅ Covered", "✅ Covered"],
@@ -159,7 +159,7 @@ export default function PlanGvsPlanNPage() {
 
         <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">What Plan G and Plan N Actually Cost in New Jersey (2026 Filed Rates)</h2>
         <p className="text-gray-700 leading-relaxed mb-4">
-          Based on CSG Actuarial filed-rate data (April 2026, age 65, ZIP 08002 Cherry Hill, no household discount), New Jersey Plan G premiums run from <strong>$147.88 to $260.98/month across 19 carriers</strong> — a $113/month spread for federally identical benefits. Plan N runs <strong>$106.57 to $176.72/month across 20 carriers</strong>. The carrier you pick matters more than the plan letter.
+          Based on CSG Actuarial filed-rate data (July 2026, age 65, ZIP 08002 Cherry Hill, no household discount), New Jersey Plan G premiums run from <strong>$147.88 to $260.98/month across 18 carriers</strong> — a $113/month spread for federally identical benefits. Plan N runs <strong>$106.57 to $208.53/month across 19 carriers</strong>. The carrier you pick matters more than the plan letter.
         </p>
         <div className="overflow-x-auto mb-4">
           <table className="w-full text-sm border-collapse">
@@ -172,12 +172,12 @@ export default function PlanGvsPlanNPage() {
             </thead>
             <tbody>
               {[
-                ["Cheapest filed Plan G", "$147.88", "1 of 19"],
-                ["Medico (Wellabe)", "$165.47", "5 of 19"],
-                ["NJ market median", "$179.94", "—"],
-                ["Humana", "$182.60", "13 of 19"],
-                ["WoodmenLife", "$205.29", "16 of 19"],
-                ["Most expensive filed Plan G", "$260.98", "19 of 19"],
+                ["Cheapest filed Plan G", "$147.88", "1 of 18"],
+                ["Medico (Wellabe)", "$180.36", "8 of 18"],
+                ["NJ market median", "$181.62", "—"],
+                ["Humana", "$182.60", "10 of 18"],
+                ["WoodmenLife", "$205.29", "15 of 18"],
+                ["Most expensive filed Plan G", "$260.98", "18 of 18"],
               ].map(([label, rate, rank], i) => (
                 <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
                   <td className="px-4 py-3 text-gray-700 border-b border-gray-100">{label}</td>

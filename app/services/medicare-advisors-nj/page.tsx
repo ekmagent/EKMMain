@@ -187,8 +187,8 @@ export default function MedicareAdvisorsNJ() {
           <ul className="list-disc pl-6 space-y-2">
             <li>
               <strong>Medigap (Supplement):</strong> Covers gaps in Original
-              Medicare. Plan G is the most popular, covering the $1,676 Part
-              A deductible, SNF coinsurance ($209.50/day for days 21-100),
+              Medicare. Plan G is the most popular, covering the $1,736 Part
+              A deductible, SNF coinsurance ($217.00/day for days 21-100),
               and excess charges. You pay the $283 Part B deductible, then
               essentially nothing else. Rates vary by carrier and age.
             </li>

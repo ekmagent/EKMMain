@@ -179,15 +179,14 @@ export default function NjRateIndexPage() {
 
         <h2 className="text-2xl font-bold text-gray-900 mb-4">Named-Carrier Examples (Plan G, age 65)</h2>
         <p className="text-gray-700 leading-relaxed mb-4">
-          From our published carrier reviews (April 2026 CSG dataset):{" "}
+          From our published carrier reviews (July 2026 CSG dataset):{" "}
           <Link href="/medicare-supplement/medico-medigap-review" className="text-blue-600 hover:underline font-medium">Medico (Wellabe)</Link>{" "}
-          files $165.47 (rank 5 of 19),{" "}
+          files $180.36 (rank 8 of 18, after a +9% filing effective May 2026),{" "}
           <Link href="/medicare-supplement/humana-medigap-review" className="text-blue-600 hover:underline font-medium">Humana</Link>{" "}
-          files $182.60 (rank 13), and{" "}
+          files $182.60 (rank 10), and{" "}
           <Link href="/medicare-supplement/woodmenlife-medigap-review" className="text-blue-600 hover:underline font-medium">WoodmenLife</Link>{" "}
-          files $205.29 (rank 16). Humana&apos;s NJ Plan G block has filed two consecutive increases — +7.01%
-          (June 2024) and +16.22% (August 2025) — with its NJ loss ratio crossing 100% in 2025, a pattern that
-          historically precedes further increases.
+          files $205.29 (rank 15). Humana&apos;s NJ Plan G block has filed two consecutive increases — +7.01%
+          (June 2024) and +16.22% (August 2025) — a pattern that historically precedes further increases.
         </p>
         <p className="text-gray-700 leading-relaxed mb-8">
           The cheapest and most expensive carriers change as filings land. For the current cheapest carrier at

@@ -202,8 +202,8 @@ export default function PlanGRates68NJ() {
           </h2>
           <p className="mb-3">
             Every Plan G in New Jersey covers the same things: the Part A
-            deductible ($1,676 in 2026), Part B excess charges, skilled nursing
-            coinsurance ($209.50/day for days 21-100), and essentially
+            deductible ($1,736 in 2026), Part B excess charges, skilled nursing
+            coinsurance ($217.00/day for days 21-100), and essentially
             everything except the $283 Part B deductible.
           </p>
           <p className="mb-3">

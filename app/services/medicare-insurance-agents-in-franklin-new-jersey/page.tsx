@@ -200,7 +200,7 @@ export default function MedicareInsuranceAgentsFranklinNJ() {
           <li>
             <strong>Choosing Advantage plans based on $0 premiums alone.</strong>{" "}
             That $0 premium looks great until a hospital stay costs you
-            thousands in copays. The Part A deductible alone is $1,676 per
+            thousands in copays. The Part A deductible alone is $1,736 per
             benefit period in 2026.
           </li>
           <li>
@@ -234,9 +234,9 @@ export default function MedicareInsuranceAgentsFranklinNJ() {
         <ul className="list-disc pl-6 text-gray-700 space-y-1">
           <li>Part B premium: $202.90/month</li>
           <li>Part B deductible: $283/year</li>
-          <li>Part A deductible: $1,676 per benefit period</li>
+          <li>Part A deductible: $1,736 per benefit period</li>
           <li>
-            SNF coinsurance (days 21-100): $209.50/day with no Supplement
+            SNF coinsurance (days 21-100): $217.00/day with no Supplement
           </li>
           <li>
             Medicare Advantage/Part D open enrollment: October 15 through

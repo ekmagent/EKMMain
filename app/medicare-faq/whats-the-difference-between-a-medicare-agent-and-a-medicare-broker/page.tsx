@@ -19,7 +19,7 @@ const faqSchema = {
       name: "What's the difference between a Medicare agent and a Medicare broker?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "A Medicare agent typically works for one insurance company and can only sell that carrier's plans. A broker is independent and contracts with multiple carriers, so you get options across companies like Aetna, Humana, UnitedHealthcare, Cigna, and others. Both must be licensed by your state and complete AHIP certification each year. Both get paid by the insurance company, not you. The price of any given plan is the same whether you buy directly, through an agent, or through a broker. The real difference is choice. A captive agent shows you one menu. A broker compares plans side by side, including the 2026 Part B premium of $185 and how each plan handles your drugs and doctors. Call Anthony at 855-559-1700 to compare.",
+        text: "A Medicare agent typically works for one insurance company and can only sell that carrier's plans. A broker is independent and contracts with multiple carriers, so you get options across companies like Aetna, Humana, UnitedHealthcare, Cigna, and others. Both must be licensed by your state and complete AHIP certification each year. Both get paid by the insurance company, not you. The price of any given plan is the same whether you buy directly, through an agent, or through a broker. The real difference is choice. A captive agent shows you one menu. A broker compares plans side by side, including the 2026 Part B premium of $202.90 and how each plan handles your drugs and doctors. Call Anthony at 855-559-1700 to compare.",
       },
     },
   ],
@@ -55,7 +55,7 @@ export default function FAQPage() {
 
         <div className="prose prose-gray max-w-none mb-8">
           <p className="text-gray-700 leading-relaxed text-lg">
-            A Medicare agent typically works for one insurance company and can only sell that carrier&apos;s plans. A broker is independent and contracts with multiple carriers, so you get options across companies like Aetna, Humana, UnitedHealthcare, Cigna, and others. Both must be licensed by your state and complete AHIP certification each year. Both get paid by the insurance company, not you. The price of any given plan is the same whether you buy directly, through an agent, or through a broker. The real difference is choice. A captive agent shows you one menu. A broker compares plans side by side, including the 2026 Part B premium of &#36;185 and how each plan handles your drugs and doctors. Call Anthony at 855-559-1700 to compare.
+            A Medicare agent typically works for one insurance company and can only sell that carrier&apos;s plans. A broker is independent and contracts with multiple carriers, so you get options across companies like Aetna, Humana, UnitedHealthcare, Cigna, and others. Both must be licensed by your state and complete AHIP certification each year. Both get paid by the insurance company, not you. The price of any given plan is the same whether you buy directly, through an agent, or through a broker. The real difference is choice. A captive agent shows you one menu. A broker compares plans side by side, including the 2026 Part B premium of &#36;202.90 and how each plan handles your drugs and doctors. Call Anthony at 855-559-1700 to compare.
           </p>
         </div>
 

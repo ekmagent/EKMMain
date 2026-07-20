@@ -67,7 +67,7 @@ const faqs = [
   {
     question: "What is the best Medicare Supplement for COPD?",
     answer:
-      "For most COPD patients, Plan G offers the strongest financial protection. It covers the Part A deductible ($1,676 per benefit period in 2026), all Part B excess charges, and 100% of Medicare-approved coinsurance. With frequent specialist visits, ER trips, and oxygen therapy, Plan G eliminates almost all surprise costs beyond your monthly premium and the $283 Part B deductible.",
+      "For most COPD patients, Plan G offers the strongest financial protection. It covers the Part A deductible ($1,736 per benefit period in 2026), all Part B excess charges, and 100% of Medicare-approved coinsurance. With frequent specialist visits, ER trips, and oxygen therapy, Plan G eliminates almost all surprise costs beyond your monthly premium and the $283 Part B deductible.",
   },
   {
     question: "Does Medicare cover oxygen therapy and nebulizers for COPD?",
@@ -157,7 +157,7 @@ export default function WhichMedicareSupplementalPlanBestForCOPDPatient() {
         equipment, nebulizer treatments, and pulmonary rehab sessions.
       </p>
       <p className="mb-6">
-        Each hospital admission also triggers a $1,676 Part A deductible (2026).
+        Each hospital admission also triggers a $1,736 Part A deductible (2026).
         COPD exacerbations can mean multiple hospital stays per year. Without a
         supplement, you pay that deductible every benefit period.
       </p>
@@ -176,7 +176,7 @@ export default function WhichMedicareSupplementalPlanBestForCOPDPatient() {
           </thead>
           <tbody>
             <tr>
-              <td className="border border-gray-300 p-3">Part A deductible ($1,676)</td>
+              <td className="border border-gray-300 p-3">Part A deductible ($1,736)</td>
               <td className="border border-gray-300 p-3">Covered</td>
               <td className="border border-gray-300 p-3">Covered</td>
             </tr>

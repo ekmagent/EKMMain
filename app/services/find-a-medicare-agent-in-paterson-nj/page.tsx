@@ -215,8 +215,8 @@ export default function FindMedicareAgentPatersonNJ() {
           <ul className="list-disc pl-6 space-y-1">
             <li>Part B premium: $202.90/month</li>
             <li>Part B deductible: $283/year</li>
-            <li>Part A deductible: $1,676 per benefit period</li>
-            <li>SNF coinsurance (days 21-100): $209.50/day</li>
+            <li>Part A deductible: $1,736 per benefit period</li>
+            <li>SNF coinsurance (days 21-100): $217.00/day</li>
           </ul>
           <p className="mt-2">
             These out-of-pocket costs add up fast. A Medigap plan or a

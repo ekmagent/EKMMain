@@ -75,7 +75,7 @@ const faqs = [
     question:
       "What percentage of a hip replacement does Medicare cover?",
     answer:
-      "Medicare Part A covers the hospital stay, and Part B covers the surgeon's fees and follow-up care like physical therapy. After you meet the Part A deductible ($1,676 in 2026), Part A covers the rest of the inpatient stay for days 1-60. Part B covers 80% of approved outpatient charges after the $283 annual deductible. A Medigap plan can cover most or all of those remaining gaps.",
+      "Medicare Part A covers the hospital stay, and Part B covers the surgeon's fees and follow-up care like physical therapy. After you meet the Part A deductible ($1,736 in 2026), Part A covers the rest of the inpatient stay for days 1-60. Part B covers 80% of approved outpatient charges after the $283 annual deductible. A Medigap plan can cover most or all of those remaining gaps.",
   },
   {
     question:
@@ -87,7 +87,7 @@ const faqs = [
     question:
       "Does Medicare cover rehab after outpatient hip replacement?",
     answer:
-      "Yes. Medicare Part B covers outpatient physical therapy after hip surgery. If you're admitted as an inpatient for at least 3 consecutive days, Medicare Part A can also cover up to 100 days of skilled nursing facility rehab, though days 21-100 carry a $209.50/day coinsurance in 2026.",
+      "Yes. Medicare Part B covers outpatient physical therapy after hip surgery. If you're admitted as an inpatient for at least 3 consecutive days, Medicare Part A can also cover up to 100 days of skilled nursing facility rehab, though days 21-100 carry a $217.00/day coinsurance in 2026.",
   },
 ];
 
@@ -142,7 +142,7 @@ export default function MedicareBrokerHipReplacementPage() {
           Medicare covers medically necessary hip replacement. Part A handles the hospital stay. Part B covers the surgeon, anesthesiologist, physical therapy, and durable medical equipment like a walker.
         </p>
         <p className="text-gray-700">
-          In 2026, you'll pay the $1,676 Part A deductible per benefit period for inpatient stays. On the Part B side, you owe 20% of approved charges after a $283 annual deductible. That 20% on a major surgery adds up fast.
+          In 2026, you'll pay the $1,736 Part A deductible per benefit period for inpatient stays. On the Part B side, you owe 20% of approved charges after a $283 annual deductible. That 20% on a major surgery adds up fast.
         </p>
       </section>
 
@@ -154,7 +154,7 @@ export default function MedicareBrokerHipReplacementPage() {
           A Medigap (Medicare Supplement) plan pays the costs Original Medicare doesn't. For hip replacement patients, the key benefits:
         </p>
         <ul className="list-disc pl-6 text-gray-700 space-y-1">
-          <li>Plan G covers the full Part A deductible ($1,676) and all Part B coinsurance (that 20%)</li>
+          <li>Plan G covers the full Part A deductible ($1,736) and all Part B coinsurance (that 20%)</li>
           <li>Plan N covers the same deductible with slightly lower premiums, though you'll pay small copays at some visits</li>
           <li>No prior authorization, no network restrictions, no referral requirements</li>
         </ul>
@@ -184,7 +184,7 @@ export default function MedicareBrokerHipReplacementPage() {
         </p>
         <ul className="list-disc pl-6 text-gray-700 space-y-1">
           <li>Physical therapy visits (Part B: 20% coinsurance per session)</li>
-          <li>Skilled nursing facility rehab: $0/day for days 1-20, then $209.50/day for days 21-100 in 2026</li>
+          <li>Skilled nursing facility rehab: $0/day for days 1-20, then $217.00/day for days 21-100 in 2026</li>
           <li>Walker, raised toilet seat, and other durable medical equipment (Part B covers 80%)</li>
         </ul>
         <p className="text-gray-700 mt-2">

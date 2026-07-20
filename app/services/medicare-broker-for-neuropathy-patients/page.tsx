@@ -166,9 +166,8 @@ export default function MedicareBrokerForNeuropathyPatients() {
           </p>
           <ul className="list-disc pl-6 space-y-1 mb-2">
             <li>
-              The 2025 Part D out-of-pocket cap of $2,000/year applies going
-              forward, which matters if you're on expensive brand-name nerve pain
-              medications.
+              The Part D out-of-pocket cap — $2,100/year in 2026 — matters if
+              you're on expensive brand-name nerve pain medications.
             </li>
             <li>
               Lidocaine patches may face coverage restrictions for non-diabetic

@@ -85,7 +85,7 @@ const faqs = [
   {
     question: "Does Medicare cover long-term rehabilitation after a stroke?",
     answer:
-      "Medicare Part A covers inpatient rehab and skilled nursing facility stays (days 1 through 20 at $0 coinsurance, days 21 through 100 at $209.50/day in 2026). Part B covers outpatient physical, speech, and occupational therapy when deemed medically necessary. Coverage is not unlimited, so the right supplemental plan matters.",
+      "Medicare Part A covers inpatient rehab and skilled nursing facility stays (days 1 through 20 at $0 coinsurance, days 21 through 100 at $217.00/day in 2026). Part B covers outpatient physical, speech, and occupational therapy when deemed medically necessary. Coverage is not unlimited, so the right supplemental plan matters.",
   },
 
   {
@@ -151,7 +151,7 @@ export default function MedicareBrokerForStrokeSurvivors() {
             How Medicare covers speech, physical, and occupational therapy after stroke
           </h2>
           <p className="mb-2">
-            Medicare Part A covers inpatient rehab and skilled nursing facility (SNF) stays. Days 1 through 20 cost $0 in coinsurance. Days 21 through 100 cost $209.50/day in 2026. After day 100, Medicare stops paying entirely.
+            Medicare Part A covers inpatient rehab and skilled nursing facility (SNF) stays. Days 1 through 20 cost $0 in coinsurance. Days 21 through 100 cost $217.00/day in 2026. After day 100, Medicare stops paying entirely.
           </p>
           <p className="mb-2">
             Part B covers outpatient physical therapy, occupational therapy, and speech-language pathology when your doctor orders it as medically necessary. There's no fixed cap, but Medicare reviews utilization at certain dollar thresholds.
@@ -169,7 +169,7 @@ export default function MedicareBrokerForStrokeSurvivors() {
             This is the decision I walk families through most often. Medicare Advantage plans have out-of-pocket maximums, which sounds protective. But many Advantage plans require prior authorization for rehab days and may limit you to 10 to 14 days in a SNF before cutting coverage.
           </p>
           <p className="mb-2">
-            Original Medicare with a Medigap supplement (like Plan G) lets you access any Medicare-accepting provider and covers that $209.50/day SNF coinsurance. No network restrictions. No authorization delays during the critical recovery window.
+            Original Medicare with a Medigap supplement (like Plan G) lets you access any Medicare-accepting provider and covers that $217.00/day SNF coinsurance. No network restrictions. No authorization delays during the critical recovery window.
           </p>
           <p>
             For stroke survivors facing months of therapy, that flexibility can be the difference between recovering and getting stuck.

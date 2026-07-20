@@ -19,7 +19,7 @@ const faqSchema = {
       name: "What are the disadvantages of a Medicare Supplement plan?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Medicare Supplement plans carry three main drawbacks you should weigh before enrolling. First, the monthly premium sits on top of your Part B premium of $185 in 2026, so your fixed costs run higher than a Medicare Advantage plan. Second, Medigap plans don't include prescription drug coverage, dental, vision, or hearing, so you'll need a separate Part D plan and standalone benefits. Third, if you miss your six-month Medigap Open Enrollment window that starts when you turn 65 and enroll in Part B, insurers in most states can medically underwrite you, raise your rate, or deny you outright.\n\nThe tradeoff is freedom to see any doctor nationwide who accepts Medicare. Want help running the numbers for your situation? Call Anthony at 855-559-1700 or visit medicareyourself.com.",
+        text: "Medicare Supplement plans carry three main drawbacks you should weigh before enrolling. First, the monthly premium sits on top of your Part B premium of $202.90 in 2026, so your fixed costs run higher than a Medicare Advantage plan. Second, Medigap plans don't include prescription drug coverage, dental, vision, or hearing, so you'll need a separate Part D plan and standalone benefits. Third, if you miss your six-month Medigap Open Enrollment window that starts when you turn 65 and enroll in Part B, insurers in most states can medically underwrite you, raise your rate, or deny you outright.\n\nThe tradeoff is freedom to see any doctor nationwide who accepts Medicare. Want help running the numbers for your situation? Call Anthony at 855-559-1700 or visit medicareyourself.com.",
       },
     },
   ],
@@ -55,7 +55,7 @@ export default function FAQPage() {
 
         <div className="prose prose-gray max-w-none mb-8">
           <p className="text-gray-700 leading-relaxed text-lg">
-            Medicare Supplement plans carry three main drawbacks you should weigh before enrolling. First, the monthly premium sits on top of your Part B premium of &#36;185 in 2026, so your fixed costs run higher than a Medicare Advantage plan. Second, Medigap plans don&apos;t include prescription drug coverage, dental, vision, or hearing, so you&apos;ll need a separate Part D plan and standalone benefits. Third, if you miss your six-month Medigap Open Enrollment window that starts when you turn 65 and enroll in Part B, insurers in most states can medically underwrite you, raise your rate, or deny you outright.
+            Medicare Supplement plans carry three main drawbacks you should weigh before enrolling. First, the monthly premium sits on top of your Part B premium of &#36;202.90 in 2026, so your fixed costs run higher than a Medicare Advantage plan. Second, Medigap plans don&apos;t include prescription drug coverage, dental, vision, or hearing, so you&apos;ll need a separate Part D plan and standalone benefits. Third, if you miss your six-month Medigap Open Enrollment window that starts when you turn 65 and enroll in Part B, insurers in most states can medically underwrite you, raise your rate, or deny you outright.
 
 The tradeoff is freedom to see any doctor nationwide who accepts Medicare. Want help running the numbers for your situation? Call Anthony at 855-559-1700 or visit medicareyourself.com.
           </p>

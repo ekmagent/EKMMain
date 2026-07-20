@@ -183,7 +183,7 @@ export default function FreeIndependentMedicareBrokerNearMeNewJersey() {
         <ul className="list-disc pl-5 text-gray-700 space-y-2">
           <li>Part B monthly premium: $202.90</li>
           <li>Part B annual deductible: $283</li>
-          <li>Part A deductible: $1,676 per benefit period</li>
+          <li>Part A deductible: $1,736 per benefit period</li>
           <li>Medigap Open Enrollment: 6 months starting the month you turn 65 and are enrolled in Part B</li>
           <li>Medicare Advantage/Part D Open Enrollment: October 15 through December 7</li>
           <li>Part B late enrollment penalty: 10% for every 12-month period you delayed</li>

@@ -180,7 +180,7 @@ export default function QuickestWayToEnrollIntoPlanG() {
             What Plan G actually covers (and why people want it fast)
           </h2>
           <p className="mb-3">
-            Plan G covers the Part A deductible ($1,676 per benefit period in 2026), skilled nursing facility coinsurance ($209.50/day for days 21-100), Part B excess charges, and foreign travel emergency care. You pay only the annual Part B deductible of $283, then Plan G picks up essentially everything else Original Medicare approves.
+            Plan G covers the Part A deductible ($1,736 per benefit period in 2026), skilled nursing facility coinsurance ($217.00/day for days 21-100), Part B excess charges, and foreign travel emergency care. You pay only the annual Part B deductible of $283, then Plan G picks up essentially everything else Original Medicare approves.
           </p>
           <p>
             People rush to lock it in because rates are lowest when you're youngest and healthiest. Every month you wait past your open enrollment, you risk higher premiums or denial.

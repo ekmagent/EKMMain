@@ -152,7 +152,7 @@ export default function MedicareBrokerPreExistingConditions() {
           How pre-existing conditions affect Medigap underwriting
         </h2>
         <p className="text-gray-700 mb-2">
-          Medicare Supplement (Medigap) plans help cover what Original Medicare doesn't: the $1,676 Part A deductible, the $283 Part B deductible, and coinsurance that can add up fast. But outside of protected enrollment windows, carriers can ask about your health.
+          Medicare Supplement (Medigap) plans help cover what Original Medicare doesn't: the $1,736 Part A deductible, the $283 Part B deductible, and coinsurance that can add up fast. But outside of protected enrollment windows, carriers can ask about your health.
         </p>
         <p className="text-gray-700">
           Diabetes, heart disease, COPD, cancer history. Any of these can lead to a denial or a higher rate. The application isn't just a formality. It's medical underwriting, and it's legal outside your initial enrollment window.

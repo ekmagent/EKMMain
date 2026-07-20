@@ -207,7 +207,7 @@ export default function FindNJMedicareBrokerNearYou() {
           <ul className="list-disc pl-6 space-y-2">
             <li>Part B premium: $202.90/month</li>
             <li>Part B deductible: $283/year</li>
-            <li>Part A deductible: $1,676 per benefit period</li>
+            <li>Part A deductible: $1,736 per benefit period</li>
             <li>Part B late enrollment penalty: 10% added for every 12-month period you delayed</li>
             <li>Medicare Advantage / Part D Open Enrollment: October 15 – December 7</li>
           </ul>

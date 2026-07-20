@@ -77,7 +77,7 @@ const faqs = [
     question:
       "What is the difference between a Medicare Supplement and a Medicare Advantage plan?",
     answer:
-      "Medicare Supplement (Medigap) plans cover out-of-pocket costs left by Original Medicare, like the $1,676 Part A deductible. Medicare Advantage plans replace Original Medicare with a private plan that often includes dental, vision, and prescription drug coverage. Each has tradeoffs worth discussing based on your doctors and health needs.",
+      "Medicare Supplement (Medigap) plans cover out-of-pocket costs left by Original Medicare, like the $1,736 Part A deductible. Medicare Advantage plans replace Original Medicare with a private plan that often includes dental, vision, and prescription drug coverage. Each has tradeoffs worth discussing based on your doctors and health needs.",
   },
   {
     question:

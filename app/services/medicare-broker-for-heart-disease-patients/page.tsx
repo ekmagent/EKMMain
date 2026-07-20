@@ -152,7 +152,7 @@ export default function MedicareBrokerHeartDiseasePatients() {
           Heart disease isn't one bill. It's an ongoing cycle of specialist visits, imaging, blood work, medication adjustments, and sometimes emergency procedures that cost six or seven figures. One real-world example: a single heart attack with three surgeries and weeks in cardiac ICU totaled over $1.2 million. The patient on the right Medigap plan paid roughly $283 for his Part B deductible plus monthly premiums.
         </p>
         <p className="text-gray-700">
-          On the wrong plan, you'd face copays at every turn. The 2026 Part A deductible alone is $1,676 per benefit period, and skilled nursing coinsurance runs $209.50 per day for days 21 through 100.
+          On the wrong plan, you'd face copays at every turn. The 2026 Part A deductible alone is $1,736 per benefit period, and skilled nursing coinsurance runs $217.00 per day for days 21 through 100.
         </p>
       </section>
 

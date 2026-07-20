@@ -76,7 +76,7 @@ const faqs = [
   {
     question: "What does Plan G cover that Original Medicare doesn't?",
     answer:
-      "Plan G covers the Part A deductible ($1,676 per benefit period in 2026), Part B coinsurance (typically 20% of approved charges), skilled nursing facility coinsurance ($209.50/day for days 21-100), the first 3 pints of blood, hospice coinsurance, and Part B excess charges. The only gap: you pay the $283 annual Part B deductible yourself.",
+      "Plan G covers the Part A deductible ($1,736 per benefit period in 2026), Part B coinsurance (typically 20% of approved charges), skilled nursing facility coinsurance ($217.00/day for days 21-100), the first 3 pints of blood, hospice coinsurance, and Part B excess charges. The only gap: you pay the $283 annual Part B deductible yourself.",
   },
   {
     question: "When is the best time to enroll in Plan G?",
@@ -166,9 +166,9 @@ export default function CompareAndEnrollInPlanGOnline() {
           Plan G picks up nearly every cost Original Medicare leaves behind:
         </p>
         <ul className="list-disc list-inside text-gray-700 space-y-1">
-          <li>Part A deductible: $1,676 per benefit period (2026)</li>
+          <li>Part A deductible: $1,736 per benefit period (2026)</li>
           <li>Part B coinsurance: the 20% Medicare doesn't pay</li>
-          <li>Skilled nursing coinsurance: $209.50/day, days 21-100</li>
+          <li>Skilled nursing coinsurance: $217.00/day, days 21-100</li>
           <li>Part B excess charges, first 3 pints of blood, hospice coinsurance</li>
           <li>365 additional hospital days after Medicare benefits run out</li>
         </ul>

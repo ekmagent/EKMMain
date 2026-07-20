@@ -244,7 +244,7 @@ export default function MedicareBrokerForPeopleWithParkinsons() {
             Parkinson&apos;s is progressive. Costs grow over time. Adult
             children become caregivers. Financial planning for a parent with PD
             means thinking about skilled nursing facility coverage too. Under
-            Original Medicare, SNF coinsurance runs $209.50/day for days 21
+            Original Medicare, SNF coinsurance runs $217.00/day for days 21
             through 100 in 2026. A good Medigap plan covers that entirely.
           </p>
           <p>

@@ -7,7 +7,7 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 export const metadata: Metadata = {
   title: "What is the disadvantage of plan G Medicare Supplement? | Medicare FAQ",
   description:
-    "The main disadvantage of Plan G is that you must pay the annual Part B deductible out of pocket before coverage kicks in. For 2026, that deductible is $257",
+    "The main disadvantage of Plan G is that you must pay the annual Part B deductible out of pocket before coverage kicks in. For 2026, that deductible is $283",
 };
 
 const faqSchema = {
@@ -19,7 +19,7 @@ const faqSchema = {
       name: "What is the disadvantage of plan G Medicare Supplement?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "The main disadvantage of Plan G is that you must pay the annual Part B deductible out of pocket before coverage kicks in. For 2026, that deductible is $257. Plan F used to cover this, but it's no longer available to anyone who became eligible for Medicare on or after January 1, 2020.\n\nAnother drawback is the monthly premium. Plan G typically costs more than Plan N or high-deductible Plan G, though it covers more up front. Premiums also rise each year with age and inflation, which can strain a fixed income over time. Plan G doesn't include drug, dental, vision, or hearing coverage either.\n\nWant to compare Plan G rates in your area? Call Anthony at 855-559-1700 or visit medicareyourself.com.",
+        text: "The main disadvantage of Plan G is that you must pay the annual Part B deductible out of pocket before coverage kicks in. For 2026, that deductible is $283. Plan F used to cover this, but it's no longer available to anyone who became eligible for Medicare on or after January 1, 2020.\n\nAnother drawback is the monthly premium. Plan G typically costs more than Plan N or high-deductible Plan G, though it covers more up front. Premiums also rise each year with age and inflation, which can strain a fixed income over time. Plan G doesn't include drug, dental, vision, or hearing coverage either.\n\nWant to compare Plan G rates in your area? Call Anthony at 855-559-1700 or visit medicareyourself.com.",
       },
     },
   ],
@@ -55,7 +55,7 @@ export default function FAQPage() {
 
         <div className="prose prose-gray max-w-none mb-8">
           <p className="text-gray-700 leading-relaxed text-lg">
-            The main disadvantage of Plan G is that you must pay the annual Part B deductible out of pocket before coverage kicks in. For 2026, that deductible is &#36;257. Plan F used to cover this, but it&apos;s no longer available to anyone who became eligible for Medicare on or after January 1, 2020.
+            The main disadvantage of Plan G is that you must pay the annual Part B deductible out of pocket before coverage kicks in. For 2026, that deductible is &#36;283. Plan F used to cover this, but it&apos;s no longer available to anyone who became eligible for Medicare on or after January 1, 2020.
 
 Another drawback is the monthly premium. Plan G typically costs more than Plan N or high-deductible Plan G, though it covers more up front. Premiums also rise each year with age and inflation, which can strain a fixed income over time. Plan G doesn&apos;t include drug, dental, vision, or hearing coverage either.
 

@@ -210,7 +210,7 @@ export default function HobokenNJMedicareInsuranceAgents() {
           </li>
           <li>
             <strong>2026 Part B premium:</strong> $202.90/month. Part A
-            deductible: $1,676 per benefit period.
+            deductible: $1,736 per benefit period.
           </li>
         </ul>
         <p className="mt-3">

@@ -147,7 +147,7 @@ export default function BestMedicarePlanForChronicConditions() {
             How Plan G and Plan N protect you from unpredictable costs
           </h2>
           <p className="mb-2">
-            Plan G covers everything Original Medicare doesn&#39;t except the Part B deductible ($283/year in 2026). After that, your out-of-pocket cost for approved services is zero. No copays at the oncologist. No coinsurance after surgery. No $209.50/day for skilled nursing days 21 through 100.
+            Plan G covers everything Original Medicare doesn&#39;t except the Part B deductible ($283/year in 2026). After that, your out-of-pocket cost for approved services is zero. No copays at the oncologist. No coinsurance after surgery. No $217.00/day for skilled nursing days 21 through 100.
           </p>
           <p>
             Plan N costs less per month but adds small copays: up to $20 for office visits and up to $50 for ER visits that don&#39;t result in admission. If your condition is stable and you mostly see your primary doctor, Plan N can save you real money. If you&#39;re in and out of hospitals, Plan G is worth the higher premium.
@@ -192,7 +192,7 @@ export default function BestMedicarePlanForChronicConditions() {
             I&#39;ve talked to people who picked a $0 Advantage plan and then watched copays pile up after a hospital stay. Or found their longtime specialist dropped from the network mid-year. When you have a chronic condition, switching plans isn&#39;t just paperwork. It can mean gaps in treatment.
           </p>
           <p>
-            The Part A deductible alone is $1,676 per benefit period in 2026. If your condition puts you in the hospital more than once a year, that resets each time. A Medigap plan eliminates that exposure entirely.
+            The Part A deductible alone is $1,736 per benefit period in 2026. If your condition puts you in the hospital more than once a year, that resets each time. A Medigap plan eliminates that exposure entirely.
           </p>
         </section>
 

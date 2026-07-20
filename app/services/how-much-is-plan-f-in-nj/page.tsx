@@ -81,7 +81,7 @@ const faqs = [
   {
     question: "Can I switch from Plan F to Plan G in New Jersey?",
     answer:
-      "Yes. In New Jersey, you can switch from Plan F to Plan G or any lesser-lettered Medigap plan without medical underwriting. This is a state-specific protection. You'd then pay the $283 annual Part B deductible yourself but often save hundreds more on premiums.",
+      "You can apply to switch from Plan F to Plan G at any time, but New Jersey does not waive underwriting for the switch — outside your original 6-month Medigap Open Enrollment Period or a federal guaranteed-issue situation, the new carrier can ask health questions. If you're in reasonable health, approval is often straightforward, and you'd then pay the $283 annual Part B deductible yourself but often save hundreds more on premiums.",
   },
 
   {
@@ -178,10 +178,10 @@ export default function HowMuchIsPlanFInNJ() {
           How to check if switching to Plan G saves you money
         </h2>
         <p className="text-gray-700 mb-2">
-          New Jersey has a strong consumer protection: you can switch from Plan F to Plan G (or any lesser-lettered plan) without medical underwriting. This is a state rule, not federal.
+          Switching from Plan F to Plan G in New Jersey usually means medical underwriting — NJ has no special state rule waiving health questions for the switch. For Plan F holders in reasonable health, approval is often straightforward, and the premium savings can be substantial.
         </p>
         <p className="text-gray-700">
-          That means no health questions. No denial for pre-existing conditions. You keep the same doctors and hospitals because Medigap plans are accepted by any provider who takes Medicare.
+          Either way, you keep the same doctors and hospitals because Medigap plans are accepted by any provider who takes Medicare. I&apos;ll run the math on your current Plan F rate against every carrier&apos;s Plan G filing before you decide whether applying makes sense.
         </p>
       </section>
 

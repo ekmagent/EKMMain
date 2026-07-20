@@ -9,7 +9,7 @@ import { SITE_URL } from "@/lib/site";
 const PAGE_PATH = "/medicare-supplement/medico-medigap-review";
 const PAGE_URL = `${SITE_URL}${PAGE_PATH}`;
 const APPLY_URL = "https://healthplans.now";
-const DATA_AS_OF = "2026-04-26";
+const DATA_AS_OF = "2026-07-15";
 
 export const metadata: Metadata = {
   title: "Medico Medigap Review 2026: Two Companies, One Brand",
@@ -69,12 +69,12 @@ const faqs = [
   {
     question: "Has Medico raised Medicare Supplement rates recently?",
     answer:
-      "Yes. In the last 12 months Medico filed Plan G rate increases of +18.59% in Pennsylvania (effective September 2025), +9% in Ohio (February 2026), +4% to +18.59% in North Carolina depending on rating tier (September 2025), and +24.28% in Texas (February 2026). New Jersey is the only one of these five states with no recent rate filing on record.",
+      "Yes. In the last 12 months Medico filed Plan G rate increases of +18.59% in Pennsylvania (effective September 2025), +9% in Ohio (February 2026), +4% to +18.59% in North Carolina depending on rating tier (September 2025), +24.28% in Texas (February 2026), and +9% in New Jersey (effective May 2026). Every state in our five-state footprint now has a recent Medico filing on record.",
   },
   {
     question: "Is Medico Medigap competitively priced?",
     answer:
-      "It varies by state. In New Jersey Plan G, Medico ranks 5th out of 19 carriers (only 11.9% above the cheapest) — competitive. In Texas Plan G, Medico ranks 14th of 28 carriers and is 34.9% above the cheapest. Medico uses attained-age pricing in every state we reviewed, meaning your premium rises annually with age in addition to filed rate increases.",
+      "It varies by state. In New Jersey Plan G, Medico ranks 8th out of 18 carriers (22.0% above the cheapest) after its May 2026 +9% filing — mid-pack rather than a bargain. Medico uses attained-age pricing in every state we reviewed, meaning your premium rises annually with age in addition to filed rate increases.",
   },
 ];
 
@@ -84,18 +84,18 @@ const stateData = [
     name: "New Jersey",
     entity: "Medico Insurance Company",
     naic: "31119",
-    planG65NonHHD: 165.47,
+    planG65NonHHD: 180.36,
     marketLow: 147.88,
     marketHigh: 260.98,
-    marketMedian: 179.94,
-    marketCarriers: 19,
-    rank: 5,
-    pctVsLow: 11.9,
-    recentFilings: [],
+    marketMedian: 181.62,
+    marketCarriers: 18,
+    rank: 8,
+    pctVsLow: 22.0,
+    recentFilings: [{ date: "2026-05-01", pct: 9 }],
     lossRatioTrend: [
       { year: 2025, lives: 2436, lossRatio: 0.68 },
     ],
-    verdict: "Best Medico market in our footprint. Rank 5 of 19 means Medico is genuinely competitive in NJ Plan G. No rate increases on file (Medico Ins Co only recently became active here). Loss ratio is healthy at 68% in 2025. Worth a serious look for NJ Medigap shoppers.",
+    verdict: "Still Medico's best market in our footprint, but the May 2026 +9% filing moved it from bargain to mid-pack: rank 8 of 18 in NJ Plan G at 22% above the cheapest filing. Loss ratio was healthy at 68% in 2025. Compare against the market leaders before choosing.",
     verdictTone: "ok",
     note: "Rates from Medico Insurance Company (older 1992-established legal entity).",
   },
@@ -107,9 +107,9 @@ const stateData = [
     planG65NonHHD: 176.21,
     marketLow: 137.68,
     marketHigh: 295.51,
-    marketMedian: 189.81,
-    marketCarriers: 30,
-    rank: 8,
+    marketMedian: 197.50,
+    marketCarriers: 28,
+    rank: 7,
     pctVsLow: 28.0,
     recentFilings: [
       { date: "2025-09-01", pct: 18.59 },
@@ -118,7 +118,7 @@ const stateData = [
       { year: 2024, lives: 484,  lossRatio: 0.43 },
       { year: 2025, lives: 2403, lossRatio: 0.82 },
     ],
-    verdict: "Mid-pack pricing (rank 8 of 30) following an 18.59% rate filing in September 2025. Loss ratio nearly doubled from 43% to 82% in one year as membership grew 5x — the typical adverse-selection trajectory we'd expect to push another rate filing within 12-18 months. Compare carriers before choosing.",
+    verdict: "Mid-pack pricing (rank 7 of 28) following an 18.59% rate filing in September 2025. Loss ratio nearly doubled from 43% to 82% in one year as membership grew 5x — the typical adverse-selection trajectory we'd expect to push another rate filing within 12-18 months. Compare carriers before choosing.",
     verdictTone: "caution",
     note: "Rates from Medico Life and Health (newer 2017-established legal entity).",
   },
@@ -130,9 +130,9 @@ const stateData = [
     planG65NonHHD: 146.89,
     marketLow: 118.17,
     marketHigh: 342.84,
-    marketMedian: 164.49,
-    marketCarriers: 34,
-    rank: 7,
+    marketMedian: 179.81,
+    marketCarriers: 32,
+    rank: 6,
     pctVsLow: 24.3,
     recentFilings: [
       { date: "2026-02-01", pct: 9.00 },
@@ -140,7 +140,7 @@ const stateData = [
     lossRatioTrend: [
       { year: 2025, lives: 753, lossRatio: 0.74 },
     ],
-    verdict: "Reasonable pricing — rank 7 of 34, 24% above the state's cheapest Plan G. Recent 9% rate filing is the smallest of any Medico state filing in this review. Loss ratio at 74% is healthy. New entrant (only 2025 data) so trend hard to project. Worth a look for OH Medigap shoppers.",
+    verdict: "Reasonable pricing — rank 6 of 32, 24% above the state's cheapest Plan G. Recent 9% rate filing is the smallest of any Medico state filing in this review. Loss ratio at 74% is healthy. New entrant (only 2025 data) so trend hard to project. Worth a look for OH Medigap shoppers.",
     verdictTone: "ok",
     note: "Rates from Medico Life and Health Insurance Company.",
   },
@@ -150,11 +150,11 @@ const stateData = [
     entity: "Medico Insurance Company",
     naic: "31119",
     planG65NonHHD: 128.01,
-    marketLow: 101.83,
-    marketHigh: 280.62,
-    marketMedian: 147.50,
-    marketCarriers: 31,
-    rank: 8,
+    marketLow: 101.84,
+    marketHigh: 315.20,
+    marketMedian: 156.00,
+    marketCarriers: 29,
+    rank: 5,
     pctVsLow: 25.7,
     recentFilings: [
       { date: "2025-09-01", pct: 4.00 },
@@ -177,9 +177,9 @@ const stateData = [
     planG65NonHHD: 175.22,
     marketLow: 129.92,
     marketHigh: 284.86,
-    marketMedian: 179.97,
-    marketCarriers: 28,
-    rank: 14,
+    marketMedian: 194.91,
+    marketCarriers: 24,
+    rank: 7,
     pctVsLow: 34.9,
     recentFilings: [
       { date: "2025-09-01", pct: 0 },
@@ -188,7 +188,7 @@ const stateData = [
     lossRatioTrend: [
       { year: 2025, lives: 2951, lossRatio: 0.76 },
     ],
-    verdict: "Largest rate filing of any Medico state in this review — +24.28% effective February 2026, just three months ago. Mid-pack pricing (rank 14 of 28) and 34.9% above the cheapest Plan G in TX. New entrant so loss-ratio history is thin, but the size of the recent filing suggests pricing was previously too low for the claims experience. Compare carriers before choosing.",
+    verdict: "Largest rate filing of any Medico state in this review — +24.28% effective February 2026. Rank 7 of 24 but still 34.9% above the cheapest Plan G in TX. New entrant so loss-ratio history is thin, but the size of the recent filing suggests pricing was previously too low for the claims experience. Compare carriers before choosing.",
     verdictTone: "avoid",
     note: "Rates from Medico Life and Health Insurance Company.",
   },

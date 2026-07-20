@@ -246,9 +246,9 @@ export default function EnrollInMedicareSupplementPlanGAt69() {
           2026). Everything else is covered:
         </p>
         <ul className="list-disc list-inside text-gray-700 space-y-1">
-          <li>Part A deductible ($1,676 per benefit period)</li>
+          <li>Part A deductible ($1,736 per benefit period)</li>
           <li>Part A hospital coinsurance and extra 365 days</li>
-          <li>Skilled nursing facility coinsurance ($209.50/day, days 21-100)</li>
+          <li>Skilled nursing facility coinsurance ($217.00/day, days 21-100)</li>
           <li>Part B coinsurance and copayments</li>
           <li>Part B excess charges</li>
           <li>First 3 pints of blood</li>

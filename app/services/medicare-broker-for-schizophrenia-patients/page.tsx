@@ -177,7 +177,7 @@ export default function MedicareBrokerSchizophreniaPatients() {
         </p>
         <p>
           Psychiatric units inside general hospitals don't have this cap. They
-          follow standard Part A rules: $1,676 deductible per benefit period,
+          follow standard Part A rules: $1,736 deductible per benefit period,
           with full coverage for the first 60 days. Knowing which facility type
           you're using matters more than most people realize.
         </p>

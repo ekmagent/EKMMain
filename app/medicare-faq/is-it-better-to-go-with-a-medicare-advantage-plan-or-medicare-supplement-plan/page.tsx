@@ -19,7 +19,7 @@ const faqSchema = {
       name: "Is it better to go with a Medicare Advantage plan or Medicare Supplement plan?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "The right choice depends on your budget, your doctors, and how often you use care. Medicare Advantage plans often have low or $0 premiums but use networks, require referrals in some cases, and charge copays every time you get care. Medicare Supplement plans cost more monthly but let you see any doctor nationwide who accepts Medicare, with little to no out-of-pocket cost after the Part B deductible of $257 in 2026. If you travel often or want predictable bills, a Supplement usually wins. If you want extras like dental, vision, and drug coverage bundled in, Advantage may fit better. Call Anthony at 855-559-1700 or visit medicareyourself.com and we'll run both options side by side for your ZIP code.",
+        text: "The right choice depends on your budget, your doctors, and how often you use care. Medicare Advantage plans often have low or $0 premiums but use networks, require referrals in some cases, and charge copays every time you get care. Medicare Supplement plans cost more monthly but let you see any doctor nationwide who accepts Medicare, with little to no out-of-pocket cost after the Part B deductible of $283 in 2026. If you travel often or want predictable bills, a Supplement usually wins. If you want extras like dental, vision, and drug coverage bundled in, Advantage may fit better. Call Anthony at 855-559-1700 or visit medicareyourself.com and we'll run both options side by side for your ZIP code.",
       },
     },
   ],
@@ -55,7 +55,7 @@ export default function FAQPage() {
 
         <div className="prose prose-gray max-w-none mb-8">
           <p className="text-gray-700 leading-relaxed text-lg">
-            The right choice depends on your budget, your doctors, and how often you use care. Medicare Advantage plans often have low or &#36;0 premiums but use networks, require referrals in some cases, and charge copays every time you get care. Medicare Supplement plans cost more monthly but let you see any doctor nationwide who accepts Medicare, with little to no out-of-pocket cost after the Part B deductible of &#36;257 in 2026. If you travel often or want predictable bills, a Supplement usually wins. If you want extras like dental, vision, and drug coverage bundled in, Advantage may fit better. Call Anthony at 855-559-1700 or visit medicareyourself.com and we&apos;ll run both options side by side for your ZIP code.
+            The right choice depends on your budget, your doctors, and how often you use care. Medicare Advantage plans often have low or &#36;0 premiums but use networks, require referrals in some cases, and charge copays every time you get care. Medicare Supplement plans cost more monthly but let you see any doctor nationwide who accepts Medicare, with little to no out-of-pocket cost after the Part B deductible of &#36;283 in 2026. If you travel often or want predictable bills, a Supplement usually wins. If you want extras like dental, vision, and drug coverage bundled in, Advantage may fit better. Call Anthony at 855-559-1700 or visit medicareyourself.com and we&apos;ll run both options side by side for your ZIP code.
           </p>
         </div>
 

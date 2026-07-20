@@ -168,9 +168,9 @@ export default function MedicareSupplementDisabilityPage() {
         <p className="mb-3">
           After 24 months on SSDI, you're automatically enrolled in Medicare
           Parts A and B. Part A is usually premium-free. Part B costs $202.90/month
-          in 2026. But Original Medicare still leaves real gaps: the $1,676 Part A
+          in 2026. But Original Medicare still leaves real gaps: the $1,736 Part A
           deductible, 20% coinsurance on outpatient care, and skilled nursing
-          facility costs up to $209.50/day after day 20.
+          facility costs up to $217.00/day after day 20.
         </p>
         <p>
           A Medigap (Medicare Supplement) plan covers those gaps. The catch: the
@@ -217,10 +217,11 @@ export default function MedicareSupplementDisabilityPage() {
           gives you that window.
         </p>
         <p>
-          Pennsylvania also has protections, though the available plan options and
-          pricing differ. In both states, premiums for under-65 enrollees tend to
-          run higher than for 65+ applicants. Comparing carriers matters because
-          the rate spread can be significant.
+          Pennsylvania also has protections, though the available plan options
+          differ. In both states, under-65 enrollees are protected on price too:
+          NJ caps under-65 premiums at the age-65 rate for the same plan, and PA
+          requires under-65 rates to match the age-65 rates. Comparing carriers
+          still matters because the carrier-to-carrier spread can be significant.
         </p>
       </section>
 

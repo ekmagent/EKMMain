@@ -69,7 +69,7 @@ const faqs = [
   {
     question: "Does Medicare cover angioplasty and stents for PAD?",
     answer:
-      "Yes. Medicare Part A covers inpatient vascular procedures like angioplasty and stent placement when medically necessary. Part B covers outpatient vascular procedures and follow-up monitoring. You'll still owe the Part A deductible ($1,676 per benefit period in 2026) or the Part B 20% coinsurance unless you have supplemental coverage.",
+      "Yes. Medicare Part A covers inpatient vascular procedures like angioplasty and stent placement when medically necessary. Part B covers outpatient vascular procedures and follow-up monitoring. You'll still owe the Part A deductible ($1,736 per benefit period in 2026) or the Part B 20% coinsurance unless you have supplemental coverage.",
   },
   {
     question: "What Part D drugs do PAD patients typically need covered?",
@@ -149,7 +149,7 @@ export default function MedicareBrokerPAD() {
           <p>
             The catch: Part B only pays 80%. That remaining 20% on a $40,000
             procedure is $8,000 out of your pocket. The 2026 Part A deductible is
-            $1,676 per benefit period.
+            $1,736 per benefit period.
           </p>
         </section>
 
@@ -214,11 +214,11 @@ export default function MedicareBrokerPAD() {
               cap under Original Medicare alone
             </li>
             <li>
-              Part A deductible: $1,676 per benefit period (resets if you're
+              Part A deductible: $1,736 per benefit period (resets if you're
               readmitted after 60 days)
             </li>
             <li>
-              SNF coinsurance for days 21-100: $209.50/day in 2026 if you need
+              SNF coinsurance for days 21-100: $217.00/day in 2026 if you need
               rehab after surgery
             </li>
             <li>

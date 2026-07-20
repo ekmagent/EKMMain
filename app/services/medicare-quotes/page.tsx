@@ -84,7 +84,7 @@ const faqs = [
   {
     question: "Does Medicare pay for pacemaker surgery?",
     answer:
-      "Yes. Medicare Part A covers pacemaker implantation as an inpatient hospital procedure. Part B covers the doctor's services. You're responsible for the Part A deductible ($1,676 in 2026) and any applicable coinsurance unless you have a Supplement plan that covers those costs.",
+      "Yes. Medicare Part A covers pacemaker implantation as an inpatient hospital procedure. Part B covers the doctor's services. You're responsible for the Part A deductible ($1,736 in 2026) and any applicable coinsurance unless you have a Supplement plan that covers those costs.",
   },
 ];
 

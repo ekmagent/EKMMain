@@ -82,7 +82,7 @@ const faqs = [
   {
     question: "When can I enroll in a Medigap plan if I'm under 65 with lupus in California?",
     answer:
-      "California requires Medigap carriers to offer at least two standardized plans to Medicare beneficiaries under 65 on SSDI. You'll want to apply during your Medigap Open Enrollment Period, which starts the month you turn 65 and enroll in Part B. Under-65 rules differ, so call us to confirm your options.",
+      "California requires Medigap carriers to offer standardized plans to Medicare beneficiaries under 65 on SSDI (ESRD is the exception), and you get your own 6-month open enrollment window when your Part B starts — you do not have to wait until 65. You'll then get a second 6-month window at 65. Under-65 premiums can be higher in CA, so call us to compare your options.",
   },
 
   {

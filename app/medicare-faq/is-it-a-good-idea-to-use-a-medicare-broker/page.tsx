@@ -19,7 +19,7 @@ const faqSchema = {
       name: "Is it a good idea to use a Medicare broker?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes, using a licensed Medicare broker is usually a smart move, and it costs you nothing. Brokers get paid by the insurance companies, so you pay the same premium whether you enroll through a broker, directly with the carrier, or on medicare.gov. The advantage is choice. A good independent broker compares multiple Advantage and Supplement plans side by side, checks that your doctors and prescriptions are covered, and helps you avoid mistakes like missing your Initial Enrollment Period. With the 2026 Part B premium at $185 a month and the Part B deductible at $257, every dollar matters. Want an honest look at your options? Call Anthony Orner at 855-559-1700 or visit medicareyourself.com for a no-pressure review.",
+        text: "Yes, using a licensed Medicare broker is usually a smart move, and it costs you nothing. Brokers get paid by the insurance companies, so you pay the same premium whether you enroll through a broker, directly with the carrier, or on medicare.gov. The advantage is choice. A good independent broker compares multiple Advantage and Supplement plans side by side, checks that your doctors and prescriptions are covered, and helps you avoid mistakes like missing your Initial Enrollment Period. With the 2026 Part B premium at $202.90 a month and the Part B deductible at $283, every dollar matters. Want an honest look at your options? Call Anthony Orner at 855-559-1700 or visit medicareyourself.com for a no-pressure review.",
       },
     },
   ],
@@ -55,7 +55,7 @@ export default function FAQPage() {
 
         <div className="prose prose-gray max-w-none mb-8">
           <p className="text-gray-700 leading-relaxed text-lg">
-            Yes, using a licensed Medicare broker is usually a smart move, and it costs you nothing. Brokers get paid by the insurance companies, so you pay the same premium whether you enroll through a broker, directly with the carrier, or on medicare.gov. The advantage is choice. A good independent broker compares multiple Advantage and Supplement plans side by side, checks that your doctors and prescriptions are covered, and helps you avoid mistakes like missing your Initial Enrollment Period. With the 2026 Part B premium at &#36;185 a month and the Part B deductible at &#36;257, every dollar matters. Want an honest look at your options? Call Anthony Orner at 855-559-1700 or visit medicareyourself.com for a no-pressure review.
+            Yes, using a licensed Medicare broker is usually a smart move, and it costs you nothing. Brokers get paid by the insurance companies, so you pay the same premium whether you enroll through a broker, directly with the carrier, or on medicare.gov. The advantage is choice. A good independent broker compares multiple Advantage and Supplement plans side by side, checks that your doctors and prescriptions are covered, and helps you avoid mistakes like missing your Initial Enrollment Period. With the 2026 Part B premium at &#36;202.90 a month and the Part B deductible at &#36;283, every dollar matters. Want an honest look at your options? Call Anthony Orner at 855-559-1700 or visit medicareyourself.com for a no-pressure review.
           </p>
         </div>
 

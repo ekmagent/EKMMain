@@ -145,7 +145,7 @@ export default function QuoteAndEnrollInPlanGOnline() {
           <li>Part A hospital coinsurance plus 365 extra days after Medicare runs out</li>
           <li>Part B coinsurance (the 20% you'd otherwise owe on approved services)</li>
           <li>First 3 pints of blood per year</li>
-          <li>Skilled nursing facility coinsurance: $209.50/day for days 21-100 in 2026</li>
+          <li>Skilled nursing facility coinsurance: $217.00/day for days 21-100 in 2026</li>
           <li>Part A hospice care coinsurance</li>
           <li>80% of foreign travel emergency care</li>
         </ul>

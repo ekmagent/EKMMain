@@ -67,7 +67,7 @@ const faqs = [
   {
     question: "Does Medicare pay 100% of knee replacement surgery?",
     answer:
-      "No. Under Original Medicare, Part A covers the hospital stay after you pay the $1,676 deductible per benefit period. Part B covers the surgeon's fee at 80% after your $283 annual deductible. Without a Medigap plan, you're responsible for the remaining 20% coinsurance on Part B services, which can add up to thousands of dollars on a major surgery.",
+      "No. Under Original Medicare, Part A covers the hospital stay after you pay the $1,736 deductible per benefit period. Part B covers the surgeon's fee at 80% after your $283 annual deductible. Without a Medigap plan, you're responsible for the remaining 20% coinsurance on Part B services, which can add up to thousands of dollars on a major surgery.",
   },
   {
     question: "Will Medicare pay for knee replacement after age 70?",
@@ -77,7 +77,7 @@ const faqs = [
   {
     question: "What is the average out-of-pocket cost for knee replacement with Medicare?",
     answer:
-      "Costs vary by location, facility, and your coverage type. With Original Medicare alone, you could owe the Part A deductible ($1,676), 20% of the surgeon and anesthesia fees under Part B, and significant skilled nursing costs if rehab extends past 20 days. A Medigap Plan G holder typically pays only the $283 Part B deductible for the entire episode of care.",
+      "Costs vary by location, facility, and your coverage type. With Original Medicare alone, you could owe the Part A deductible ($1,736), 20% of the surgeon and anesthesia fees under Part B, and significant skilled nursing costs if rehab extends past 20 days. A Medigap Plan G holder typically pays only the $283 Part B deductible for the entire episode of care.",
   },
   {
     question: "Does Medicare cover physical therapy at home after knee replacement?",
@@ -145,7 +145,7 @@ export default function MedicareBrokerKneReplacementPage() {
         <ul className="list-disc pl-6 text-gray-700 space-y-1 mb-2">
           <li>
             <strong>Part A</strong> covers the hospital stay after you pay the
-            $1,676 deductible per benefit period
+            $1,736 deductible per benefit period
           </li>
           <li>
             <strong>Part B</strong> covers the surgeon, anesthesiologist, and
@@ -164,7 +164,7 @@ export default function MedicareBrokerKneReplacementPage() {
         <p className="text-gray-700 mb-2">
           Many knee replacement patients need skilled nursing facility (SNF) care
           after discharge. Days 1-20 are covered at $0 under Part A. Days 21-100
-          cost you $209.50 per day in 2026 coinsurance.
+          cost you $217.00 per day in 2026 coinsurance.
         </p>
         <p className="text-gray-700">
           That's up to $16,760 if you need the full 100 days. People don't

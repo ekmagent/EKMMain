@@ -179,7 +179,7 @@ export default function EnrollInMedicareSupplementPlanGAt67() {
             Why Plan G is still worth it at 67
           </h2>
           <p className="mb-3">
-            Plan G covers everything Original Medicare doesn't except the Part B deductible ($283/year in 2026). That means no copays for doctor visits, no surprise bills after surgery, and no daily cost for skilled nursing days 21-100 (otherwise $209.50/day).
+            Plan G covers everything Original Medicare doesn't except the Part B deductible ($283/year in 2026). That means no copays for doctor visits, no surprise bills after surgery, and no daily cost for skilled nursing days 21-100 (otherwise $217.00/day).
           </p>
           <p>
             You also keep full freedom to see any doctor in the country who accepts Medicare. No networks. No referrals.

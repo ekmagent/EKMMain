@@ -7,7 +7,7 @@ export const MEDICARE = {
   year: 2026,
 
   partA: {
-    deductible: 1676,        // per benefit period
+    deductible: 1736,        // per benefit period
   },
 
   partB: {
@@ -20,7 +20,7 @@ export const MEDICARE = {
   },
 
   snf: {
-    coinsurancePerDay: 209.50, // days 21–100
+    coinsurancePerDay: 217.00, // days 21–100
   },
 } as const;
 

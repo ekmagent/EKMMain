@@ -19,7 +19,7 @@ const faqSchema = {
       name: "How much is Medigap plan G in NJ?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Medigap Plan G premiums in New Jersey typically range from about $150 to over $300 per month, depending on the insurance company, your age, ZIP code, gender, and tobacco use. The benefits are identical across every carrier. A 65-year-old male non-smoker often sees quotes in the $170 to $220 range from competitive carriers, while older applicants pay more. Same plan, very different prices.\n\nPlan G covers everything Original Medicare leaves behind except the 2026 Part B deductible of $257. After you pay that once a year, your out-of-pocket costs on covered services drop to near zero.\n\nWant the lowest Plan G rate for your ZIP code? Call Anthony at 855-559-1700 or visit medicareyourself.com for a side-by-side quote.",
+        text: "Medigap Plan G premiums in New Jersey typically range from about $150 to over $300 per month, depending on the insurance company, your age, ZIP code, gender, and tobacco use. The benefits are identical across every carrier. A 65-year-old male non-smoker often sees quotes in the $170 to $220 range from competitive carriers, while older applicants pay more. Same plan, very different prices.\n\nPlan G covers everything Original Medicare leaves behind except the 2026 Part B deductible of $283. After you pay that once a year, your out-of-pocket costs on covered services drop to near zero.\n\nWant the lowest Plan G rate for your ZIP code? Call Anthony at 855-559-1700 or visit medicareyourself.com for a side-by-side quote.",
       },
     },
   ],
@@ -57,7 +57,7 @@ export default function FAQPage() {
           <p className="text-gray-700 leading-relaxed text-lg">
             Medigap Plan G premiums in New Jersey typically range from about &#36;150 to over &#36;300 per month, depending on the insurance company, your age, ZIP code, gender, and tobacco use. The benefits are identical across every carrier. A 65-year-old male non-smoker often sees quotes in the &#36;170 to &#36;220 range from competitive carriers, while older applicants pay more. Same plan, very different prices.
 
-Plan G covers everything Original Medicare leaves behind except the 2026 Part B deductible of &#36;257. After you pay that once a year, your out-of-pocket costs on covered services drop to near zero.
+Plan G covers everything Original Medicare leaves behind except the 2026 Part B deductible of &#36;283. After you pay that once a year, your out-of-pocket costs on covered services drop to near zero.
 
 Want the lowest Plan G rate for your ZIP code? Call Anthony at 855-559-1700 or visit medicareyourself.com for a side-by-side quote.
           </p>

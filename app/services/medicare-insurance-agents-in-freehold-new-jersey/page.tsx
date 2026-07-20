@@ -160,7 +160,7 @@ export default function MedicareInsuranceAgentsFreeholdNJ() {
             <li>
               <strong>Medigap (Supplement):</strong> Plan G is the most popular
               choice in Monmouth County. It covers the Part A deductible
-              ($1,676 in 2026), hospital coinsurance, and Part B excess charges.
+              ($1,736 in 2026), hospital coinsurance, and Part B excess charges.
               You pay only the $283 annual Part B deductible.
             </li>
             <li>

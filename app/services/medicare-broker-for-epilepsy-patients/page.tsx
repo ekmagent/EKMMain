@@ -147,7 +147,7 @@ export default function MedicareBrokerForEpilepsyPatients() {
           you're paying 25-33% coinsurance.
         </p>
         <p className="text-gray-700">
-          ER visits under Original Medicare mean the $1,676 Part A deductible
+          ER visits under Original Medicare mean the $1,736 Part A deductible
           per benefit period, plus 20% of Part B charges after your $283
           annual deductible. For someone who's had three ER visits in a year,
           those numbers add up fast.

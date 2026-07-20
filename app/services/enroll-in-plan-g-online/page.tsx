@@ -172,9 +172,9 @@ export default function EnrollInPlanGOnlinePage() {
           </h2>
           <p className="mb-2">
             Plan G is standardized by Medicare, so every carrier offers the exact
-            same benefits. It covers the Part A deductible ($1,676 per benefit
+            same benefits. It covers the Part A deductible ($1,736 per benefit
             period in 2026), Part B excess charges, skilled nursing facility
-            coinsurance ($209.50/day for days 21-100), and foreign travel
+            coinsurance ($217.00/day for days 21-100), and foreign travel
             emergencies.
           </p>
           <p>

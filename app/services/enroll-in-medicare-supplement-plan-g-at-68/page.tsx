@@ -230,9 +230,9 @@ export default function EnrollInMedicareSupplementPlanGAt68() {
             meet the $283 annual Part B deductible (2026), Plan G covers:
           </p>
           <ul className="list-disc pl-6 mb-3 space-y-1">
-            <li>Part A deductible ($1,676 per benefit period in 2026)</li>
+            <li>Part A deductible ($1,736 per benefit period in 2026)</li>
             <li>Part A and Part B coinsurance and copayments</li>
-            <li>Skilled nursing facility coinsurance ($209.50/day for days 21-100)</li>
+            <li>Skilled nursing facility coinsurance ($217.00/day for days 21-100)</li>
             <li>Foreign travel emergency care (80%)</li>
             <li>Part B excess charges</li>
           </ul>

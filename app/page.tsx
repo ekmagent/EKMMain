@@ -161,7 +161,7 @@ export default function HomePage() {
               { href: "/services", title: "Medicare Guides", desc: "Plan comparisons, costs, enrollment, and more." },
               { href: "/learn/how-to-sign-up-for-medicare", title: "How to Sign Up", desc: "Deadlines, penalties, and step-by-step enrollment." },
               { href: "/learn/medicare-help-low-income", title: "Help on Fixed Income", desc: "Extra Help, QMB, SLMB, and savings programs." },
-              { href: "/about", title: "About Our Team", desc: "Licensed independent broker, NPI verified." },
+              { href: "/about", title: "About Our Team", desc: "Licensed independent broker, NPN verified at NIPR." },
             ].map(({ href, title, desc }) => (
               <Link
                 key={href}

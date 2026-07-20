@@ -74,7 +74,7 @@ const faqs = [
   {
     question: "Does Medicare pay for COPD treatment?",
     answer:
-      "Yes. Medicare Part B covers pulmonary rehabilitation, oxygen therapy, and nebulizers when medically necessary. Part D covers most inhaler medications, though formularies and copays vary by plan. The 2025 Part D redesign caps annual out-of-pocket drug costs at $2,000, which can significantly reduce inhaler expenses.",
+      "Yes. Medicare Part B covers pulmonary rehabilitation, oxygen therapy, and nebulizers when medically necessary. Part D covers most inhaler medications, though formularies and copays vary by plan. The Part D redesign caps annual out-of-pocket drug costs at $2,100 in 2026, which can significantly reduce inhaler expenses.",
   },
   {
     question: "Will my smoking history affect which Medicare plans I can get?",
@@ -178,8 +178,8 @@ export default function MedicareBrokerForCOPDPatients() {
             plan, which is exactly where I dig in for you.
           </li>
           <li>
-            <strong>2025 Part D cap:</strong> Annual out-of-pocket drug costs
-            are now capped at $2,000. If you're on multiple inhalers, that
+            <strong>Part D cap:</strong> Annual out-of-pocket drug costs
+            are capped at $2,100 in 2026. If you're on multiple inhalers, that
             single change can save you hundreds.
           </li>
         </ul>

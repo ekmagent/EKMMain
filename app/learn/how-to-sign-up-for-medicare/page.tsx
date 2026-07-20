@@ -87,12 +87,12 @@ const faqs = [
   {
     question: "What is the Medicare Initial Enrollment Period?",
     answer:
-      "The Initial Enrollment Period (IEP) is a 7-month window: the 3 months before your birthday month, your birthday month itself, and the 3 months after. This is the best time to enroll. If you sign up in your birthday month or after, your coverage start date may be delayed by 1–3 months.",
+      "The Initial Enrollment Period (IEP) is a 7-month window: the 3 months before your birthday month, your birthday month itself, and the 3 months after. Enrolling in the 3 months before your birthday month means coverage starts the first of your birthday month. If you sign up during your birthday month or the 3 months after, coverage begins the first of the month after you enroll.",
   },
   {
     question: "What happens if I miss my Medicare enrollment window?",
     answer:
-      "If you miss your Initial Enrollment Period without a valid reason (like employer coverage from active work), you will face a Part B late enrollment penalty. The penalty is 10% added to your Part B premium for every 12-month period you were eligible but not enrolled — and it is permanent for life. The General Enrollment Period runs January 1 through March 31 each year, with coverage starting July 1.",
+      "If you miss your Initial Enrollment Period without a valid reason (like employer coverage from active work), you will face a Part B late enrollment penalty. The penalty is 10% added to your Part B premium for every 12-month period you were eligible but not enrolled — and it is permanent for life. The General Enrollment Period runs January 1 through March 31 each year, with coverage starting the first of the month after you enroll.",
   },
   {
     question: "Can I delay Medicare if I have employer insurance?",
@@ -177,7 +177,7 @@ export default function HowToSignUpPage() {
             </div>
             <div className="bg-white rounded-lg p-4 border border-blue-100">
               <p className="font-semibold text-blue-800 mb-1">General Enrollment Period</p>
-              <p className="text-gray-600">Jan 1 – Mar 31 each year. Coverage starts July 1. Late penalty applies.</p>
+              <p className="text-gray-600">Jan 1 – Mar 31 each year. Coverage starts the month after you enroll. Late penalty applies.</p>
             </div>
           </div>
         </div>

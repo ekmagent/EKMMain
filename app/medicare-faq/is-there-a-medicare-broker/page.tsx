@@ -19,7 +19,7 @@ const faqSchema = {
       name: "Is there a Medicare broker?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes, Medicare brokers exist, and working with one costs you nothing. A licensed Medicare broker is an independent agent contracted with multiple insurance carriers who helps you compare Medicare Advantage, Medigap, and Part D plans side by side. Carriers pay the broker directly, so you pay the same premium whether you enroll on your own or through a broker. That's the key difference from a captive agent who only sells one company's plans.\n\nAnthony Orner runs medicareyourself.com and holds licenses in New Jersey plus 34 other states, so he can shop dozens of plans against your doctors, medications, and budget. With the 2026 Part B premium at $185 a month, every dollar counts. Call 855-559-1700 for a straightforward comparison.",
+        text: "Yes, Medicare brokers exist, and working with one costs you nothing. A licensed Medicare broker is an independent agent contracted with multiple insurance carriers who helps you compare Medicare Advantage, Medigap, and Part D plans side by side. Carriers pay the broker directly, so you pay the same premium whether you enroll on your own or through a broker. That's the key difference from a captive agent who only sells one company's plans.\n\nAnthony Orner runs medicareyourself.com and holds licenses in New Jersey plus 34 other states, so he can shop dozens of plans against your doctors, medications, and budget. With the 2026 Part B premium at $202.90 a month, every dollar counts. Call 855-559-1700 for a straightforward comparison.",
       },
     },
   ],
@@ -57,7 +57,7 @@ export default function FAQPage() {
           <p className="text-gray-700 leading-relaxed text-lg">
             Yes, Medicare brokers exist, and working with one costs you nothing. A licensed Medicare broker is an independent agent contracted with multiple insurance carriers who helps you compare Medicare Advantage, Medigap, and Part D plans side by side. Carriers pay the broker directly, so you pay the same premium whether you enroll on your own or through a broker. That&apos;s the key difference from a captive agent who only sells one company&apos;s plans.
 
-Anthony Orner runs medicareyourself.com and holds licenses in New Jersey plus 34 other states, so he can shop dozens of plans against your doctors, medications, and budget. With the 2026 Part B premium at &#36;185 a month, every dollar counts. Call 855-559-1700 for a straightforward comparison.
+Anthony Orner runs medicareyourself.com and holds licenses in New Jersey plus 34 other states, so he can shop dozens of plans against your doctors, medications, and budget. With the 2026 Part B premium at &#36;202.90 a month, every dollar counts. Call 855-559-1700 for a straightforward comparison.
           </p>
         </div>
 

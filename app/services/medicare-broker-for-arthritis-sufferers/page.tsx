@@ -189,7 +189,7 @@ export default function MedicareBrokerForArthritisSufferers() {
         <ul className="list-disc pl-6 text-gray-700 space-y-2">
           <li>Part B premium (2026): $202.90/month</li>
           <li>Part B deductible: $283/year</li>
-          <li>Part A deductible: $1,676 per benefit period</li>
+          <li>Part A deductible: $1,736 per benefit period</li>
           <li>Part D/Advantage Open Enrollment: October 15 through December 7</li>
           <li>Medigap Open Enrollment: 6 months starting when you're 65+ and enrolled in Part B</li>
         </ul>

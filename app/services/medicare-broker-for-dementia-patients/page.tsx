@@ -141,7 +141,7 @@ export default function MedicareBrokerForDementiaPatients() {
         <ul className="list-disc pl-6 space-y-1 mb-2">
           <li>Home health aide and skilled nursing visits when doctor-ordered</li>
           <li>Cognitive assessments and care planning under the Annual Wellness Visit</li>
-          <li>Skilled nursing facility: $0 copay for days 1-20, then $209.50/day for days 21-100 (2026)</li>
+          <li>Skilled nursing facility: $0 copay for days 1-20, then $217.00/day for days 21-100 (2026)</li>
           <li>Hospice care under Part A when a physician certifies a 6-month prognosis</li>
         </ul>
         <p>
@@ -157,7 +157,7 @@ export default function MedicareBrokerForDementiaPatients() {
           I hear from caregivers who hit a wall with Medicare Advantage: their parent can't travel to in-network providers, can't sit through prior authorization delays, or gets denied home health because they missed an in-person visit. That's a real pattern, not an edge case.
         </p>
         <p className="mb-2">
-          Original Medicare with a Medigap Supplement gives broader provider access and no referral requirements. Plan G, for example, covers the Part A deductible ($1,676 in 2026) and all Part B excess charges. No networks.
+          Original Medicare with a Medigap Supplement gives broader provider access and no referral requirements. Plan G, for example, covers the Part A deductible ($1,736 in 2026) and all Part B excess charges. No networks.
         </p>
         <p>
           For someone whose condition is progressing, flexibility matters more than low premiums. I can walk you through the actual tradeoffs based on your parent's doctors and care needs.

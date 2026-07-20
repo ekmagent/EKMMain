@@ -230,7 +230,7 @@ export default function MedicareEnrollmentHelpDiabetes() {
           </p>
           <p>
             Your Part B deductible in 2026 is $283/year. The Part A deductible
-            is $1,676 per benefit period. Without the right supplemental
+            is $1,736 per benefit period. Without the right supplemental
             coverage, one hospitalization for a diabetic complication can be
             devastating.
           </p>

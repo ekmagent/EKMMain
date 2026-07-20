@@ -151,7 +151,7 @@ export default function HelpWithYourMedicareDecision() {
           <p className="mb-2">
             Original Medicare (Parts A and B) covers hospitals and doctors
             nationwide. In 2026, Part B costs $202.90/month with a $283 annual
-            deductible. Part A carries a $1,676 deductible per benefit period.
+            deductible. Part A carries a $1,736 deductible per benefit period.
             Those gaps add up fast.
           </p>
           <p className="mb-2">

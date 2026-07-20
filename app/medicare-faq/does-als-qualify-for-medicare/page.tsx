@@ -19,7 +19,7 @@ const faqSchema = {
       name: "Does ALS qualify for Medicare?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes, ALS qualifies you for Medicare automatically, and you don't have to wait the standard 24 months that applies to other disability recipients. The moment your Social Security disability benefits start for ALS (Lou Gehrig's disease), your Medicare Part A and Part B coverage kicks in the same month. There's no age requirement either. You could be 40 or 60, it doesn't matter.\n\nSocial Security will mail your welcome package and red, white, and blue Medicare card before coverage begins. In 2026, you'll pay the standard $185 monthly Part B premium and a $257 Part B deductible, unless you qualify for assistance programs.\n\nWant help picking the right plan to pair with Medicare? Call Anthony at 855-559-1700 or visit medicareyourself.com.",
+        text: "Yes, ALS qualifies you for Medicare automatically, and you don't have to wait the standard 24 months that applies to other disability recipients. The moment your Social Security disability benefits start for ALS (Lou Gehrig's disease), your Medicare Part A and Part B coverage kicks in the same month. There's no age requirement either. You could be 40 or 60, it doesn't matter.\n\nSocial Security will mail your welcome package and red, white, and blue Medicare card before coverage begins. In 2026, you'll pay the standard $202.90 monthly Part B premium and a $283 Part B deductible, unless you qualify for assistance programs.\n\nWant help picking the right plan to pair with Medicare? Call Anthony at 855-559-1700 or visit medicareyourself.com.",
       },
     },
   ],
@@ -57,7 +57,7 @@ export default function FAQPage() {
           <p className="text-gray-700 leading-relaxed text-lg">
             Yes, ALS qualifies you for Medicare automatically, and you don&apos;t have to wait the standard 24 months that applies to other disability recipients. The moment your Social Security disability benefits start for ALS (Lou Gehrig&apos;s disease), your Medicare Part A and Part B coverage kicks in the same month. There&apos;s no age requirement either. You could be 40 or 60, it doesn&apos;t matter.
 
-Social Security will mail your welcome package and red, white, and blue Medicare card before coverage begins. In 2026, you&apos;ll pay the standard &#36;185 monthly Part B premium and a &#36;257 Part B deductible, unless you qualify for assistance programs.
+Social Security will mail your welcome package and red, white, and blue Medicare card before coverage begins. In 2026, you&apos;ll pay the standard &#36;202.90 monthly Part B premium and a &#36;283 Part B deductible, unless you qualify for assistance programs.
 
 Want help picking the right plan to pair with Medicare? Call Anthony at 855-559-1700 or visit medicareyourself.com.
           </p>

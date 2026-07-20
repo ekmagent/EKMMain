@@ -191,7 +191,7 @@ export default function QuickestWayToEnrollIntoPlanN() {
             Plan N is standardized by Medicare, so every carrier offers identical benefits. It covers 100% of Part B coinsurance except for a $20 copay at office visits and a $50 copay for ER visits that don't result in admission.
           </p>
           <p>
-            It also covers the Part A deductible ($1,676 per benefit period in 2026), skilled nursing facility coinsurance ($209.50/day for days 21-100), hospice coinsurance, and the first 3 pints of blood. The tradeoff for those small copays? Lower monthly premiums than Plan G.
+            It also covers the Part A deductible ($1,736 per benefit period in 2026), skilled nursing facility coinsurance ($217.00/day for days 21-100), hospice coinsurance, and the first 3 pints of blood. The tradeoff for those small copays? Lower monthly premiums than Plan G.
           </p>
         </section>
 

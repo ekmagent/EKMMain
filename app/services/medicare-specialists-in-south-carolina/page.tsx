@@ -213,8 +213,8 @@ export default function MedicareSpecialistsSouthCarolina() {
         <ul className="list-disc pl-6 text-gray-700 space-y-2">
           <li>Part B premium: $202.90/month</li>
           <li>Part B deductible: $283/year</li>
-          <li>Part A hospital deductible: $1,676 per benefit period</li>
-          <li>Skilled nursing facility coinsurance (days 21-100): $209.50/day</li>
+          <li>Part A hospital deductible: $1,736 per benefit period</li>
+          <li>Skilled nursing facility coinsurance (days 21-100): $217.00/day</li>
           <li>Part B late enrollment penalty: 10% added per 12-month delay</li>
         </ul>
         <p className="text-gray-700 mt-2">

@@ -182,8 +182,8 @@ export default function MedicareInsuranceAgentsBellevilleNewJersey() {
         <ul className="list-disc pl-6 space-y-2">
           <li>Part B premium: $202.90/month</li>
           <li>Part B deductible: $283/year</li>
-          <li>Part A inpatient deductible: $1,676 per benefit period</li>
-          <li>Skilled nursing facility coinsurance (days 21-100): $209.50/day</li>
+          <li>Part A inpatient deductible: $1,736 per benefit period</li>
+          <li>Skilled nursing facility coinsurance (days 21-100): $217.00/day</li>
           <li>Part B late enrollment penalty: 10% for every 12 months you delayed</li>
         </ul>
         <p className="mt-3">

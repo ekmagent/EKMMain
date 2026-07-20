@@ -36,7 +36,7 @@ const faqs = [
   {
     question: "When does Medicare Part B start?",
     answer:
-      "Part B coverage begins based on when you enroll. If you enroll during the 3 months before your 65th birthday, coverage starts the month you turn 65. If you enroll during your birthday month or after, coverage is delayed by 1–3 months. Enrolling early is recommended to avoid a gap in coverage.",
+      "Part B coverage begins based on when you enroll. If you enroll during the 3 months before your 65th birthday, coverage starts the month you turn 65. If you enroll during your birthday month or the 3 months after, coverage begins the first of the month after you sign up. Enrolling early is recommended to avoid a gap in coverage.",
   },
 ];
 
@@ -57,7 +57,7 @@ export default function MedicarePartsPage() {
       name: "Hospital Insurance",
       color: "blue",
       covers: ["Inpatient hospital stays", "Skilled nursing facility care (after qualifying hospital stay)", "Hospice care", "Some home health care"],
-      cost: "Free for most. $1,676 deductible per benefit period in 2026.",
+      cost: "Free for most. $1,736 deductible per benefit period in 2026.",
       doesNotCover: "Custodial (long-term) care, private-duty nursing, most dental/vision",
     },
     {

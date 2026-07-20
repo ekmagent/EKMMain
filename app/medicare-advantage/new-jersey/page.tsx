@@ -56,7 +56,7 @@ const faqs = [
   {
     question: "How much does Medicare Advantage cost in New Jersey in 2026?",
     answer:
-      "Many Medicare Advantage plans in New Jersey have $0 monthly premiums in 2026. You still pay the standard Part B premium of $185/month, plus any plan copays or deductibles when you use care. Costs vary by county and plan type, so comparing options in your ZIP code is important.",
+      "Many Medicare Advantage plans in New Jersey have $0 monthly premiums in 2026. You still pay the standard Part B premium of $202.90/month, plus any plan copays or deductibles when you use care. Costs vary by county and plan type, so comparing options in your ZIP code is important.",
   },
   {
     question: "When can I enroll in a Medicare Advantage plan in New Jersey?",

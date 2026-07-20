@@ -149,7 +149,7 @@ export default function FindMedicareAgentNewarkNJ() {
           <ul className="list-disc pl-6 space-y-1 mb-3">
             <li>
               <strong>Original Medicare + Medigap supplement</strong> — covers
-              gaps like the $1,676 Part A deductible and $283 Part B deductible
+              gaps like the $1,736 Part A deductible and $283 Part B deductible
             </li>
             <li>
               <strong>Medicare Advantage (Part C)</strong> — bundled plans that

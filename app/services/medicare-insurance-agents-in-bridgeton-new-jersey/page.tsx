@@ -161,7 +161,7 @@ export default function MedicareInsuranceAgentsBridgetonNJ() {
         </h2>
         <p className="mb-3">
           Bridgeton residents with Original Medicare can choose a Medigap
-          (Supplement) plan to cover out-of-pocket costs like the $1,676 Part A
+          (Supplement) plan to cover out-of-pocket costs like the $1,736 Part A
           deductible and $283 Part B deductible in 2026. Plan G is the most
           popular standardized option — it covers everything except the Part B
           deductible.

@@ -185,7 +185,7 @@ export default function LindenNJMedicareInsuranceAgents() {
           </h2>
           <p className="mb-3">
             The 2026 Part B premium is $202.90/month, and the Part A deductible
-            is $1,676 per benefit period. Those numbers add up fast if you don't
+            is $1,736 per benefit period. Those numbers add up fast if you don't
             have the right supplemental coverage.
           </p>
           <ul className="list-disc pl-6 space-y-2">

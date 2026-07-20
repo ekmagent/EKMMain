@@ -221,7 +221,7 @@ export default function BestIndependentMedicareBrokerNearMeNewJersey() {
             </li>
             <li>
               <strong>Part B premium (2026):</strong> $202.90/month. Part A
-              deductible: $1,676 per benefit period.
+              deductible: $1,736 per benefit period.
             </li>
           </ul>
         </section>

@@ -151,7 +151,7 @@ export default function IrvingtonNJMedicareInsuranceAgents() {
           Medicare Supplement and Advantage plans in Irvington 07111
         </h2>
         <p className="mb-2">
-          Medicare Supplement (Medigap) plans cover the gaps Original Medicare leaves behind. Plan G is the most popular standardized option: it covers the Part A deductible ($1,676 in 2026), skilled nursing coinsurance ($209.50/day for days 21-100), and Part B excess charges.
+          Medicare Supplement (Medigap) plans cover the gaps Original Medicare leaves behind. Plan G is the most popular standardized option: it covers the Part A deductible ($1,736 in 2026), skilled nursing coinsurance ($217.00/day for days 21-100), and Part B excess charges.
         </p>
         <p>
           Medicare Advantage plans bundle Part A, Part B, and usually Part D into one plan. Many have $0 premiums in Essex County, but they use provider networks. If your doctors are at University Hospital Newark or Clara Maass Medical Center, check that they're in-network before you enroll.
@@ -189,7 +189,7 @@ export default function IrvingtonNJMedicareInsuranceAgents() {
         <ul className="list-disc pl-6 space-y-1">
           <li>Part B premium: $202.90/month</li>
           <li>Part B deductible: $283/year</li>
-          <li>Part A deductible: $1,676 per benefit period</li>
+          <li>Part A deductible: $1,736 per benefit period</li>
           <li>Part B late enrollment penalty: 10% for each 12-month period you delayed</li>
           <li>Medicare Advantage/Part D Open Enrollment: October 15 through December 7</li>
         </ul>

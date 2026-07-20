@@ -137,7 +137,7 @@ export default function MedicareInsuranceAgentsCamdenNJ() {
             Camden County has strong hospital access through systems like Cooper University Health Care and Virtua. But South Jersey residents regularly report billing surprises and difficulty finding providers who accept their coverage. The plan you pick shapes those experiences.
           </p>
           <p>
-            For 2026, the Part B premium is $202.90/month and the Part A deductible is $1,676 per benefit period. Those out-of-pocket costs hit harder if you don't have supplemental coverage in place.
+            For 2026, the Part B premium is $202.90/month and the Part A deductible is $1,736 per benefit period. Those out-of-pocket costs hit harder if you don't have supplemental coverage in place.
           </p>
         </section>
 

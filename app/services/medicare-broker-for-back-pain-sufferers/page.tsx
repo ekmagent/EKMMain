@@ -143,9 +143,9 @@ export default function MedicareBrokerForBackPainSufferers() {
           </h2>
           <p className="mb-2">
             Part A covers inpatient hospital stays, including spinal surgery and
-            post-surgical skilled nursing. The 2026 Part A deductible is $1,676
+            post-surgical skilled nursing. The 2026 Part A deductible is $1,736
             per benefit period. If you need rehab in a skilled nursing facility,
-            days 1-20 cost $0, but days 21-100 cost $209.50/day.
+            days 1-20 cost $0, but days 21-100 cost $217.00/day.
           </p>
           <p>
             Part B covers outpatient treatment: physical therapy, epidural

@@ -19,7 +19,7 @@ const faqSchema = {
       name: "Is Plan G better than Plan N?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Plan G is better if you want predictable costs; Plan N is better if you want lower premiums and don't mind small copays. Here's the practical difference. Plan G covers everything except the Part B deductible, which is $257 in 2026. After that, you pay nothing for Medicare-approved services. Plan N charges you up to $20 per office visit, up to $50 for ER visits that don't lead to admission, and doesn't cover Part B excess charges. If your doctors accept Medicare assignment and you rarely see specialists, Plan N can save you $30 to $50 a month in premium. Heavy healthcare users usually come out ahead with Plan G. Want help comparing rates in your ZIP code? Call Anthony at 855-559-1700 or visit medicareyourself.com.",
+        text: "Plan G is better if you want predictable costs; Plan N is better if you want lower premiums and don't mind small copays. Here's the practical difference. Plan G covers everything except the Part B deductible, which is $283 in 2026. After that, you pay nothing for Medicare-approved services. Plan N charges you up to $20 per office visit, up to $50 for ER visits that don't lead to admission, and doesn't cover Part B excess charges. If your doctors accept Medicare assignment and you rarely see specialists, Plan N can save you $30 to $50 a month in premium. Heavy healthcare users usually come out ahead with Plan G. Want help comparing rates in your ZIP code? Call Anthony at 855-559-1700 or visit medicareyourself.com.",
       },
     },
   ],
@@ -55,7 +55,7 @@ export default function FAQPage() {
 
         <div className="prose prose-gray max-w-none mb-8">
           <p className="text-gray-700 leading-relaxed text-lg">
-            Plan G is better if you want predictable costs; Plan N is better if you want lower premiums and don&apos;t mind small copays. Here&apos;s the practical difference. Plan G covers everything except the Part B deductible, which is &#36;257 in 2026. After that, you pay nothing for Medicare-approved services. Plan N charges you up to &#36;20 per office visit, up to &#36;50 for ER visits that don&apos;t lead to admission, and doesn&apos;t cover Part B excess charges. If your doctors accept Medicare assignment and you rarely see specialists, Plan N can save you &#36;30 to &#36;50 a month in premium. Heavy healthcare users usually come out ahead with Plan G. Want help comparing rates in your ZIP code? Call Anthony at 855-559-1700 or visit medicareyourself.com.
+            Plan G is better if you want predictable costs; Plan N is better if you want lower premiums and don&apos;t mind small copays. Here&apos;s the practical difference. Plan G covers everything except the Part B deductible, which is &#36;283 in 2026. After that, you pay nothing for Medicare-approved services. Plan N charges you up to &#36;20 per office visit, up to &#36;50 for ER visits that don&apos;t lead to admission, and doesn&apos;t cover Part B excess charges. If your doctors accept Medicare assignment and you rarely see specialists, Plan N can save you &#36;30 to &#36;50 a month in premium. Heavy healthcare users usually come out ahead with Plan G. Want help comparing rates in your ZIP code? Call Anthony at 855-559-1700 or visit medicareyourself.com.
           </p>
         </div>
 

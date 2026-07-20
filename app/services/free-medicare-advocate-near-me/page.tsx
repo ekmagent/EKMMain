@@ -79,7 +79,7 @@ const faqs = [
   {
     question: "Can a Medicare advocate help me switch plans?",
     answer:
-      "Absolutely. During Medicare Advantage Open Enrollment (October 15 through December 7) or if you have a qualifying life event, an advocate can review your current coverage, compare alternatives, and switch you to a better-fitting plan at no cost.",
+      "Absolutely. During Annual Enrollment Period (October 15 through December 7) or if you have a qualifying life event, an advocate can review your current coverage, compare alternatives, and switch you to a better-fitting plan at no cost.",
   },
   {
     question: "How do I know a Medicare advocate is unbiased?",
@@ -205,7 +205,7 @@ export default function FreeMedicareAdvocateNearMe() {
           <ul className="list-disc pl-6 space-y-1">
             <li>Part B monthly premium: $202.90</li>
             <li>Part B annual deductible: $283</li>
-            <li>Part A deductible: $1,676 per benefit period</li>
+            <li>Part A deductible: $1,736 per benefit period</li>
             <li>
               Medicare Advantage/Part D Open Enrollment: October 15 through
               December 7

@@ -76,7 +76,7 @@ const faqs = [
   {
     question: "Can I switch Medicare Supplement plans in Florida without medical underwriting?",
     answer:
-      "Florida's Birthday Rule gives you a 30-day window around your birthday each year to switch to a comparable Medigap plan without answering health questions. This is a state-specific protection that most Floridians don't know about.",
+      "Usually not without health questions. Florida does not have a birthday rule — outside your one-time 6-month Medigap Open Enrollment Period or a federal guaranteed-issue situation, carriers can use medical underwriting. Florida does have one real state protection most people miss: carriers must use issue-age rating, so your premium can't be raised just because you got older.",
   },
   {
     question: "When should I contact a Medicare consultant before turning 65?",
@@ -160,13 +160,13 @@ export default function MedicareConsultantFtLauderdaleFL() {
 
       <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-3">
-          Florida's Birthday Rule and how it protects your right to switch
+          Florida's issue-age rating rule and what it means for your premium
         </h2>
         <p className="mb-2">
-          Florida gives Medigap policyholders a powerful annual protection most people never hear about. During the 30-day window around your birthday, you can switch to a comparable or lesser Supplement plan from any carrier without medical underwriting.
+          Florida has a real state protection most people never hear about: Medigap carriers must use issue-age rating. Your premium class is locked to the age you were when you bought the policy — it cannot be raised simply because you got older. Rates can still rise across the board when a carrier files an increase, so carrier choice and rate history still matter.
         </p>
         <p>
-          That means if your current Plan G premium jumps, you can shop for a lower rate and the new carrier can't deny you for health reasons. I track rate changes across Broward County carriers so I can tell you when a switch makes sense.
+          One thing Florida does not have: a birthday rule. Outside your one-time 6-month Medigap Open Enrollment Period or a federal guaranteed-issue situation, switching carriers means medical underwriting. If you&apos;re in reasonable health, that&apos;s often passable — I track rate changes across Broward County carriers so I can tell you when a switch makes sense.
         </p>
       </section>
 
@@ -177,8 +177,8 @@ export default function MedicareConsultantFtLauderdaleFL() {
         <ul className="list-disc pl-6 space-y-2">
           <li>Part B premium: $202.90/month</li>
           <li>Part B deductible: $283/year</li>
-          <li>Part A deductible: $1,676 per benefit period</li>
-          <li>SNF coinsurance (days 21-100): $209.50/day</li>
+          <li>Part A deductible: $1,736 per benefit period</li>
+          <li>SNF coinsurance (days 21-100): $217.00/day</li>
           <li>Part B late enrollment penalty: 10% for each 12-month delay</li>
         </ul>
         <p className="mt-3">
@@ -257,7 +257,7 @@ export default function MedicareConsultantFtLauderdaleFL() {
               href="/services/medicare-consultant-in-ft-lauderdale-fl"
               className="text-blue-600 hover:underline"
             >
-              Florida's Birthday Rule for Medigap Explained
+              Florida&apos;s Issue-Age Rating Rule for Medigap Explained
             </Link>
           </li>
           <li>

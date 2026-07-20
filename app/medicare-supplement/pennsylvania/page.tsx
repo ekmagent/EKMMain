@@ -46,7 +46,7 @@ const faqs = [
   {
     question: "What does Medicare Supplement Plan G cover in Pennsylvania?",
     answer:
-      "Plan G in Pennsylvania covers: the Part A hospital deductible ($1,676 in 2026), Part A coinsurance and hospital costs, Part B coinsurance (the 20% you owe on all outpatient services), Part B excess charges, skilled nursing facility coinsurance, hospice care coinsurance, and foreign travel emergency care (80% up to plan limits). The only gap is the Part B deductible ($283/year), which you pay out of pocket. After that, Plan G covers virtually all remaining Medicare-approved costs.",
+      "Plan G in Pennsylvania covers: the Part A hospital deductible ($1,736 in 2026), Part A coinsurance and hospital costs, Part B coinsurance (the 20% you owe on all outpatient services), Part B excess charges, skilled nursing facility coinsurance, hospice care coinsurance, and foreign travel emergency care (80% up to plan limits). The only gap is the Part B deductible ($283/year), which you pay out of pocket. After that, Plan G covers virtually all remaining Medicare-approved costs.",
   },
 
   {

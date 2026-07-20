@@ -217,7 +217,7 @@ export default function MedicareInsuranceAgentsFortLeeNJ() {
               <strong>Part B premium (2026):</strong> $202.90/month.
             </li>
             <li>
-              <strong>Part A deductible (2026):</strong> $1,676 per benefit
+              <strong>Part A deductible (2026):</strong> $1,736 per benefit
               period.
             </li>
             <li>

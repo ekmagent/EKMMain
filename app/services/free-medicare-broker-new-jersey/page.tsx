@@ -88,7 +88,7 @@ const faqs = [
   {
     question: "Is Anthony Orner licensed to help with Medicare in New Jersey?",
     answer:
-      "Yes. Anthony Orner (NPI 1902584006) is a licensed Medicare insurance broker in New Jersey and 34 additional states. He works as an independent broker, which means he can compare plans across multiple carriers rather than representing just one company.",
+      "Yes. Anthony Orner (NPN 20586791, verifiable at NIPR.com) is a licensed Medicare insurance broker in New Jersey and 34 additional states. He works as an independent broker, which means he can compare plans across multiple carriers rather than representing just one company.",
   },
   {
     question: "How does a New Jersey broker help with Medigap enrollment?",

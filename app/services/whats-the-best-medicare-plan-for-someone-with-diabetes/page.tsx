@@ -153,7 +153,7 @@ export default function BestMedicarePlanDiabetes() {
             <li>
               <strong>Medigap (Plan G or N) + Part D:</strong> You see any
               Medicare-accepting doctor nationwide. Plan G covers the Part A
-              deductible ($1,676 in 2026) and all Part B coinsurance. You pay
+              deductible ($1,736 in 2026) and all Part B coinsurance. You pay
               the Part B deductible, then essentially nothing else for
               Medicare-covered services.
             </li>

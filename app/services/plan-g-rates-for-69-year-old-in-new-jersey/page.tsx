@@ -145,7 +145,7 @@ export default function PlanGRates69NJ() {
           <p>
             Plan G covers everything Original Medicare doesn't except the Part B
             deductible ($283/year in 2026). That means no copays at the doctor,
-            no surprise bills after a hospital stay, no $209.50/day skilled
+            no surprise bills after a hospital stay, no $217.00/day skilled
             nursing coinsurance. Every carrier's Plan G covers the same things.
             The only variable is price.
           </p>

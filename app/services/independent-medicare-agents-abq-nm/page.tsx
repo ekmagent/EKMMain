@@ -188,8 +188,8 @@ export default function IndependentMedicareAgentsABQNM() {
         <ul className="list-disc pl-6 space-y-2 text-gray-800">
           <li>Part B premium: $202.90/month</li>
           <li>Part B deductible: $283/year</li>
-          <li>Part A deductible: $1,676 per benefit period</li>
-          <li>SNF coinsurance (days 21-100): $209.50/day</li>
+          <li>Part A deductible: $1,736 per benefit period</li>
+          <li>SNF coinsurance (days 21-100): $217.00/day</li>
         </ul>
         <p className="text-gray-800 mt-2">
           These numbers are why people in Albuquerque carry supplemental coverage. Without it, one hospital stay can cost thousands.
