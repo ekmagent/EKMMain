@@ -123,7 +123,7 @@ RULES:
 - Sound like a real press release, not marketing copy
 - Do NOT make specific claims about NJ state insurance regulations you cannot verify
 - Do NOT mention specific competitor names
-- Keep 2026 Medicare facts accurate: Part B $185/mo, Part B deductible $257
+- Keep 2026 Medicare facts accurate: Part B $202.90/mo, Part B deductible $283
 
 Write the complete press release now, ready to paste into AB Newswire:`;
 

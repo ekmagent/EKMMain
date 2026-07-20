@@ -92,7 +92,7 @@ STRICT RULES:
 - No hashtags
 - No marketing speak
 - Must be genuinely educational, not marketing dressed as education
-- 2026 Medicare facts: Part B premium $185/mo, Part B deductible $257
+- 2026 Medicare facts: Part B premium $202.90/mo, Part B deductible $283
 - Sales pitch ONLY in last 10-20% of the thread
 - Write from first person as Anthony
 
@@ -130,7 +130,7 @@ THREADS ADAPTATION RULES:
 - No hashtags
 - Sales pitch ONLY in last 10-20%
 - Write 8-12 posts
-- 2026 Medicare facts: Part B premium $185/mo, Part B deductible $257
+- 2026 Medicare facts: Part B premium $202.90/mo, Part B deductible $283
 
 FORMAT: Number each post. Write one post per section. Put a blank line between posts. Do not add any commentary before or after.`;
 
@@ -168,7 +168,7 @@ LINKEDIN ARTICLE RULES:
 - ZERO filler words ("just," "really," "very," "actually," "honestly")
 - No marketing speak or LinkedIn buzzwords ("thrilled to announce," "game-changer," "excited to share")
 - Must be genuinely educational
-- 2026 Medicare facts: Part B premium $185/mo, Part B deductible $257
+- 2026 Medicare facts: Part B premium $202.90/mo, Part B deductible $283
 - Sales pitch ONLY in the final paragraph
 - Write from first person as Anthony
 

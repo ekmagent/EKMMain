@@ -42,7 +42,7 @@ const path = require("path");
 const FALLBACK_TIPS = [
   {
     keyword: "Medicare Supplement Plan G",
-    tip: "Medicare Supplement Plan G is the most popular Medigap plan in 2026. It covers everything Original Medicare doesn't except the Part B deductible ($257/year). That means after you pay $257, Plan G picks up 100% of your approved costs for the rest of the year. Every carrier's Plan G covers the exact same benefits -- the only difference is price and rate increase history.",
+    tip: "Medicare Supplement Plan G is the most popular Medigap plan in 2026. It covers everything Original Medicare doesn't except the Part B deductible ($283/year). That means after you pay $283, Plan G picks up 100% of your approved costs for the rest of the year. Every carrier's Plan G covers the exact same benefits -- the only difference is price and rate increase history.",
   },
   {
     keyword: "Medicare turning 65",
@@ -54,7 +54,7 @@ const FALLBACK_TIPS = [
   },
   {
     keyword: "Medicare Part B premium 2026",
-    tip: "The standard Medicare Part B premium for 2026 is $185 per month. This covers doctor visits, outpatient care, and preventive services. If your income is above $106,000 (single) or $212,000 (married filing jointly), you'll pay more due to IRMAA surcharges. The Part B annual deductible is $257.",
+    tip: "The standard Medicare Part B premium for 2026 is $202.90 per month. This covers doctor visits, outpatient care, and preventive services. If your income is above $109,000 (single) or $218,000 (married filing jointly), you'll pay more due to IRMAA surcharges. The Part B annual deductible is $283.",
   },
   {
     keyword: "Medicare Advantage vs Supplement",
@@ -238,7 +238,7 @@ GLOBAL RULES:
 - Do NOT use em dashes
 - Do NOT use words like "navigate," "crucial," "comprehensive," "landscape," "empower"
 - Do NOT make specific claims about state regulations you cannot verify
-- Keep 2026 Medicare facts accurate: Part B $185/mo, Part B deductible $257
+- Keep 2026 Medicare facts accurate: Part B $202.90/mo, Part B deductible $283
 - Each platform post should feel native to that platform, not copy-pasted
 - Sound like a real person, not marketing copy
 

@@ -167,7 +167,7 @@ Rules for the script:
 - Write the way a real person talks, not corporate speak
 - Use short sentences
 - Do NOT use "navigate," "crucial," "comprehensive," "landscape," "empower"
-- Include specific facts where possible (Part B = $185/mo in 2026, Part B deductible = $257)
+- Include specific facts where possible (Part B = $202.90/mo in 2026, Part B deductible = $283)
 - Anthony should sound helpful and knowledgeable, not salesy
 - First-person perspective — Anthony is speaking
 

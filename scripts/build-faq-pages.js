@@ -133,7 +133,7 @@ Rules:
 - End with a natural call to action mentioning 855-559-1700 or medicareyourself.com
 - Use active voice throughout: "You pay" not "costs are incurred by"
 - Vary sentence length — at least one sentence under 10 words
-- Keep 2026 figures accurate: Part B premium $185/mo, Part B deductible $257, Part A deductible $1,676
+- Keep 2026 figures accurate: Part B premium $202.90/mo, Part B deductible $283, Part A deductible $1,736 (update this line and lib/medicare-figures.ts together at each annual refresh — this line caused the 2026-07-20 build-gate failure by citing 2025 numbers)
 - Do NOT make state-specific regulatory claims unless the question specifically asks about a state
 - NEVER use: delve, tapestry, seamless, robust, nuanced, pivotal, meticulous, intricate, landscape (as metaphor), empower, garner, foster, bolster
 - NEVER use these phrases: "it's worth noting", "it is important to", "having said that", "in conclusion", "navigating Medicare", "ensuring peace of mind", "comprehensive coverage"

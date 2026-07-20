@@ -375,11 +375,11 @@ MEDIGAP/MEDICARE SUPPLEMENT MESSAGING (new-to-Medicare pages only):
 VERIFIED 2026 MEDICARE FACTS — use only these, do not invent others:
 - Part B premium: $202.90/month
 - Part B deductible: $283/year
-- Part A deductible: $1,676 per benefit period
+- Part A deductible: $1,736 per benefit period
 - Medicare Advantage / Part D Open Enrollment: October 15 – December 7
 - Medigap Open Enrollment Period: 6 months starting the month you are 65+ AND enrolled in Part B — guaranteed issue, no health questions, no higher premiums
 - Federal Guaranteed Issue triggers (apply in specific situations only): losing employer/union coverage, losing Medicare Advantage coverage, insurance company goes bankrupt, moved out of plan's service area, plan violated its contract
-- Skilled Nursing Facility coinsurance (2026): Days 21-100 = $209.50/day; Days 1-20 = $0 with Medicare
+- Skilled Nursing Facility coinsurance (2026): Days 21-100 = $217.00/day; Days 1-20 = $0 with Medicare
 - Part B late enrollment penalty: 10% per 12-month period you delayed
 
 MEDICARE FACTS — DO NOT INVENT:

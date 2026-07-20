@@ -98,7 +98,7 @@ ${topicList}
 For EACH topic, generate:
 1. A realistic journalist headline/query that a reporter might post (e.g., "What should people turning 65 know about Medicare enrollment?")
 2. A 2-3 sentence expert quote from Anthony Orner that is:
-   - Factual and accurate (use 2026 Medicare facts: Part B premium $185/mo, Part B deductible $257)
+   - Factual and accurate (use 2026 Medicare facts: Part B premium $202.90/mo, Part B deductible $283)
    - Authoritative but approachable
    - Quotable — sounds like a real person talking to a reporter, not marketing copy
    - Includes one specific, useful detail that makes the quote stand out
