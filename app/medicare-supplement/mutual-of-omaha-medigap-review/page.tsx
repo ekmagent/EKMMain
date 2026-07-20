@@ -9,7 +9,7 @@ import { SITE_URL } from "@/lib/site";
 const PAGE_PATH = "/medicare-supplement/mutual-of-omaha-medigap-review";
 const PAGE_URL = `${SITE_URL}${PAGE_PATH}`;
 const APPLY_URL = "https://healthplans.now";
-const DATA_AS_OF = "2026-04-26";
+const DATA_AS_OF = "2026-07-15";
 
 export const metadata: Metadata = {
   title: "Mutual of Omaha Medigap Review 2026: Four Companies, One Brand",
@@ -42,7 +42,7 @@ const articleSchema = {
   description:
     "A data-grounded review of the Mutual of Omaha Medicare Supplement carrier family — four legally separate A+ rated insurance companies — across Pennsylvania, New Jersey, Ohio, North Carolina, and Texas, with rate filings and loss ratios from CSG Actuarial.",
   datePublished: "2026-04-26",
-  dateModified: "2026-04-26",
+  dateModified: "2026-07-20",
   inLanguage: "en-US",
   author: {
     "@type": "Person",
@@ -71,12 +71,12 @@ const faqs = [
   {
     question: "Has Mutual of Omaha raised Medicare Supplement rates recently?",
     answer:
-      "Yes, repeatedly. In Texas, Mutual of Omaha filed a +25% Plan G rate increase in June 2025. In Pennsylvania, United of Omaha filed +19% in June 2025 — the latest in a string of escalating annual increases (3% in 2022, 5% in 2023, 12% in 2024, 19% in 2025). Ohio Omaha Supplemental filed +30% in April 2025. North Carolina Omaha Insurance filed +25% in April 2025. Loss ratios across the family are near or above 100% in most states, suggesting more increases are likely.",
+      "Yes, repeatedly — and the 2026 filings are now in effect. In Texas, Mutual of Omaha filed back-to-back +25% Plan G increases (June 2025 and July 2026). Pennsylvania's United of Omaha filed +19% in 2025 and another +19% effective May 2026, capping a string of escalating annual increases (3% in 2022, 5% in 2023, 12% in 2024). Ohio Omaha Supplemental filed +30% in April 2025 and +25% in May 2026. North Carolina Omaha Insurance filed +25% in April 2025 and +20% in May 2026. Loss ratios across the family are near or above 100% in most states, suggesting more increases are likely.",
   },
   {
     question: "Is Mutual of Omaha Plan G priced competitively?",
     answer:
-      "No. Across the four states we have direct quote data for, Mutual of Omaha Plan G is consistently mid-to-high pack: 51.5% above the cheapest in Pennsylvania, 51.1% in North Carolina, 38.1% in Ohio, and 63.9% in Texas. For identical federally-standardized benefits, lower-priced carriers are available in every state we reviewed. Mutual of Omaha trades premium for brand recognition.",
+      "No. With the 2026 filings in effect, Mutual of Omaha Plan G sits near the bottom of every market we track: 80.3% above the cheapest in Pennsylvania, 81.3% in North Carolina, 72.7% in Ohio, and 104.9% in Texas — more than double the cheapest premium. For identical federally-standardized benefits, lower-priced carriers are available in every state we reviewed. Mutual of Omaha trades premium for brand recognition.",
   },
 ];
 
@@ -86,25 +86,26 @@ const stateData = [
     name: "Pennsylvania",
     entity: "United of Omaha Life Insurance Company",
     naic: "69868",
-    planG65NonHHD: 208.62,
+    planG65NonHHD: 248.26,
     marketLow: 137.68,
     marketHigh: 295.51,
-    marketMedian: 189.81,
-    marketCarriers: 30,
-    rank: 24,
-    pctVsLow: 51.5,
+    marketMedian: 197.50,
+    marketCarriers: 28,
+    rank: 26,
+    pctVsLow: 80.3,
     recentFilings: [
       { date: "2022-06-01", pct: 3.00 },
       { date: "2023-06-01", pct: 5.00 },
       { date: "2024-05-15", pct: 12.00 },
       { date: "2025-06-01", pct: 19.00 },
+      { date: "2026-05-15", pct: 19.00 },
     ],
     lossRatioTrend: [
       { year: 2023, lives: 10303, lossRatio: 1.24 },
       { year: 2024, lives: 9397,  lossRatio: 0.93 },
       { year: 2025, lives: 11888, lossRatio: 0.96 },
     ],
-    verdict: "Four consecutive annual rate increases of 3% → 5% → 12% → 19% — each one larger than the last. Loss ratio peaked at 124% in 2023 and is back near 100% despite the hikes. Ranks 24 of 30 carriers; you're paying 51.5% above the cheapest Pennsylvania Plan G for identical benefits. Compare carriers before choosing.",
+    verdict: "Five consecutive annual rate increases of 3% → 5% → 12% → 19% → 19%, the latest effective May 2026. Loss ratio peaked at 124% in 2023 and is back near 100% despite the hikes. Ranks 26 of 28 carriers; you're paying 80.3% above the cheapest Pennsylvania Plan G for identical benefits. Compare carriers before choosing.",
     verdictTone: "avoid",
   },
   {
@@ -115,8 +116,8 @@ const stateData = [
     planG65NonHHD: null,
     marketLow: 147.88,
     marketHigh: 260.98,
-    marketMedian: 179.94,
-    marketCarriers: 19,
+    marketMedian: 181.62,
+    marketCarriers: 18,
     rank: null,
     pctVsLow: null,
     recentFilings: [],
@@ -133,23 +134,24 @@ const stateData = [
     name: "Ohio",
     entity: "Omaha Supplemental Insurance Company",
     naic: "16537",
-    planG65NonHHD: 163.23,
+    planG65NonHHD: 204.05,
     marketLow: 118.17,
     marketHigh: 342.84,
-    marketMedian: 164.49,
-    marketCarriers: 34,
-    rank: 16,
-    pctVsLow: 38.1,
+    marketMedian: 179.81,
+    marketCarriers: 32,
+    rank: 25,
+    pctVsLow: 72.7,
     recentFilings: [
       { date: "2024-04-01", pct: 6.00 },
       { date: "2025-04-01", pct: 30.00 },
+      { date: "2026-05-01", pct: 25.00 },
     ],
     lossRatioTrend: [
       { year: 2023, lives: 6489,  lossRatio: 1.94 },
       { year: 2024, lives: 4112,  lossRatio: 0.83 },
       { year: 2025, lives: 16231, lossRatio: 0.97 },
     ],
-    verdict: "+30% rate filing effective April 2025 — the largest single-year filing in our review. The 2023 loss ratio of 194% (claims nearly double premiums) explains why. Membership shrank as healthy policyholders fled then exploded back when pricing reset. Currently ranks 16 of 34, costing 38% above the cheapest Plan G. Loss ratio at 97% in 2025 means the rebalance hasn't fully held — expect more pressure.",
+    verdict: "+30% rate filing effective April 2025 — the largest single-year filing in our review — followed by another +25% effective May 2026. The 2023 loss ratio of 194% (claims nearly double premiums) explains why. With the new filing in effect, Omaha Supplemental ranks 25 of 32, costing 72.7% above the cheapest Plan G. The rebalance hasn't held — expect more pressure.",
     verdictTone: "avoid",
   },
   {
@@ -157,24 +159,25 @@ const stateData = [
     name: "North Carolina",
     entity: "Omaha Insurance Company",
     naic: "13100",
-    planG65NonHHD: 153.87,
-    marketLow: 101.83,
-    marketHigh: 280.62,
-    marketMedian: 147.50,
-    marketCarriers: 31,
-    rank: 22,
-    pctVsLow: 51.1,
+    planG65NonHHD: 184.64,
+    marketLow: 101.84,
+    marketHigh: 315.20,
+    marketMedian: 156.00,
+    marketCarriers: 29,
+    rank: 25,
+    pctVsLow: 81.3,
     recentFilings: [
       { date: "2022-05-01", pct: 2.99 },
       { date: "2024-05-01", pct: 12.00 },
       { date: "2025-04-01", pct: 25.01 },
+      { date: "2026-05-01", pct: 20.00 },
     ],
     lossRatioTrend: [
       { year: 2023, lives: 17727, lossRatio: 1.16 },
       { year: 2024, lives: 16018, lossRatio: 0.92 },
       { year: 2025, lives: 22508, lossRatio: 0.95 },
     ],
-    verdict: "Three rate filings in three years culminating in a +25.01% increase effective April 2025. The 2023 loss ratio of 116% triggered the cascade. Currently ranks 22 of 31 carriers; you're paying 51% above the cheapest NC Plan G. Membership grew despite the increases (16k → 22k) but loss ratio remains at 95% — more rate pressure likely.",
+    verdict: "Four rate filings in four years: +25.01% effective April 2025 and another +20% effective May 2026. The 2023 loss ratio of 116% triggered the cascade. With the new filing, ranks 25 of 29 carriers; you're paying 81% above the cheapest NC Plan G. Membership grew despite the increases (16k → 22k) but loss ratio remains at 95% — more rate pressure likely.",
     verdictTone: "avoid",
   },
   {
@@ -182,24 +185,25 @@ const stateData = [
     name: "Texas",
     entity: "Mutual of Omaha Insurance Company",
     naic: "71412",
-    planG65NonHHD: 213.00,
+    planG65NonHHD: 266.26,
     marketLow: 129.92,
     marketHigh: 284.86,
-    marketMedian: 179.97,
-    marketCarriers: 28,
-    rank: 22,
-    pctVsLow: 63.9,
+    marketMedian: 194.91,
+    marketCarriers: 24,
+    rank: 21,
+    pctVsLow: 104.9,
     recentFilings: [
       { date: "2023-07-01", pct: 5.00 },
       { date: "2024-04-15", pct: 12.50 },
       { date: "2025-06-15", pct: 25.00 },
+      { date: "2026-07-01", pct: 25.00 },
     ],
     lossRatioTrend: [
       { year: 2023, lives: 42924, lossRatio: 1.03 },
       { year: 2024, lives: 37893, lossRatio: 0.95 },
       { year: 2025, lives: 65638, lossRatio: 0.97 },
     ],
-    verdict: "Worst value in our review. Mutual of Omaha Plan G in Texas is 63.9% more expensive than the cheapest Plan G ($213 vs $130) — for identical federally-standardized benefits. The +25% filing effective June 2025 followed +12.5% in 2024 and +5% in 2023, an escalating cadence. Loss ratio still at 97% in 2025 despite the hikes. The Texas Medigap market has 28 carriers; Mutual of Omaha ranks 22nd. Strongly compare alternatives.",
+    verdict: "Worst value in our review. Mutual of Omaha Plan G in Texas is now 104.9% more expensive than the cheapest Plan G ($266 vs $130) — more than double the price for identical federally-standardized benefits. Back-to-back +25% filings (June 2025 and July 2026) followed +12.5% in 2024 and +5% in 2023, an escalating cadence. Loss ratio still at 97% in 2025 despite the hikes. The Texas Medigap market has 24 carriers; Mutual of Omaha ranks 21st. Strongly compare alternatives.",
     verdictTone: "avoid",
   },
 ];
@@ -248,13 +252,12 @@ export default function MutualOfOmahaMedigapReviewPage() {
               The Mutual of Omaha brand has the highest name recognition of any Medigap carrier we
               cover. The pricing data does not match the brand reputation. Across every state we
               reviewed with current quote data, Mutual of Omaha Plan G is{" "}
-              <strong>38% to 64% more expensive than the cheapest Plan G in the same state</strong>{" "}
-              for identical federally-standardized benefits. Recent rate increases of +19% to +30%
-              have hit Mutual of Omaha policyholders in 2024-2025, with loss ratios still near or
+              <strong>73% to 105% more expensive than the cheapest Plan G in the same state</strong>{" "}
+              for identical federally-standardized benefits. Escalating rate increases of +19% to +30%              hit Mutual of Omaha policyholders in 2024-2025, and a fresh round of +19% to +25% filings took effect in mid-2026, with loss ratios still near or
               above 100% &mdash; meaning more rate pressure is likely.
             </p>
             <p className="text-xs text-gray-400 mb-6">
-              Last reviewed: April 2026 · CSG Actuarial rate &amp; market data
+              Last reviewed: July 2026 · CSG Actuarial rate &amp; market data
             </p>
             <a
               href={APPLY_URL}
@@ -270,8 +273,8 @@ export default function MutualOfOmahaMedigapReviewPage() {
               <li><strong>Four legal entities:</strong> NAIC 71412, 69868, 13100, 16537</li>
               <li><strong>AM Best:</strong> A+ (Stable) on all four</li>
               <li><strong>Rate type:</strong> Attained-age in every state</li>
-              <li><strong>Premium vs. cheapest Plan G:</strong> +38% to +64%</li>
-              <li><strong>Recent rate filings:</strong> +19% PA, +30% OH, +25% NC, +25% TX</li>
+              <li><strong>Premium vs. cheapest Plan G:</strong> +73% to +105%</li>
+              <li><strong>Recent rate filings:</strong> 2026: +19% PA, +25% OH, +20% NC, +25% TX</li>
               <li><strong>Loss ratios:</strong> 95%-97% in 4 of 5 states</li>
             </ul>
             <a
@@ -306,8 +309,8 @@ export default function MutualOfOmahaMedigapReviewPage() {
           <p className="text-gray-700 leading-relaxed mb-4">
             More importantly: the data is not flattering. Across every state we have current
             quote data for, Mutual of Omaha Plan G is the most expensive single carrier we cover
-            in our reviews. The Texas premium of $213/month at age 65 is{" "}
-            <strong>$83 above the cheapest Plan G</strong> in the state for the same benefits;
+            in our reviews. The Texas premium of $266/month at age 65 is{" "}
+            <strong>$136 above the cheapest Plan G</strong> in the state for the same benefits;
             over 20 years of attained-age increases that gap compounds into tens of thousands of
             dollars. The brand recognition does not translate to better coverage &mdash; all
             Medigap plan letters are federally standardized.
@@ -500,7 +503,7 @@ export default function MutualOfOmahaMedigapReviewPage() {
           they consistently price well above the state-by-state market low. Their advantage is
           brand recognition, A+ financial strength, and a household discount that varies by state
           (typically 7-12% when both spouses enroll). For consumers who value the brand and are
-          willing to pay 38-64% above the cheapest carrier for the same benefits, Mutual of Omaha
+          willing to pay 73-105% above the cheapest carrier for the same benefits, Mutual of Omaha
           is a defensible choice. For shoppers comparing on cost and rate stability, the data
           points elsewhere.
         </p>

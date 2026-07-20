@@ -9,7 +9,7 @@ import { SITE_URL } from "@/lib/site";
 const PAGE_PATH = "/medicare-supplement/woodmenlife-medigap-review";
 const PAGE_URL = `${SITE_URL}${PAGE_PATH}`;
 const APPLY_URL = "https://healthplans.now";
-const DATA_AS_OF = "2026-04-26";
+const DATA_AS_OF = "2026-07-15";
 
 export const metadata: Metadata = {
   title: "WoodmenLife Medigap Review 2026: Rate History & Loss Ratios",
@@ -42,7 +42,7 @@ const articleSchema = {
   description:
     "A data-grounded review of WoodmenLife Medicare Supplement Plan G across Pennsylvania, New Jersey, Ohio, North Carolina, and Texas — including every filed rate increase and the carrier's loss-ratio trajectory in each state.",
   datePublished: "2026-04-26",
-  dateModified: "2026-04-26",
+  dateModified: "2026-07-20",
   inLanguage: "en-US",
   author: {
     "@type": "Person",
@@ -68,12 +68,12 @@ const faqs = [
   {
     question: "Has WoodmenLife raised Medicare Supplement rates recently?",
     answer:
-      "Yes, repeatedly. WoodmenLife filed Plan G rate increases of +9% in mid-2024 across all five states, followed by +15% to +18% in 2025, with additional 2026 filings on top. Texas saw the most dramatic — a +41.6% Plan G filing effective February 2026, the largest single-year increase in our entire carrier review dataset.",
+      "Yes, repeatedly. WoodmenLife filed Plan G rate increases of +9% in mid-2024 across all five states, followed by +15% to +18% filings in 2025 in four of them, with additional 2026 filings on top. Texas skipped 2025 and then saw the most dramatic — a +41.6% Plan G filing effective February 2026, the largest single-year increase in our entire carrier review dataset.",
   },
   {
     question: "Is WoodmenLife competitively priced?",
     answer:
-      "No. Across all five states we reviewed, WoodmenLife Plan G ranks between 12th and 21st of 19-34 carriers competing — paying 32% to 52% above the cheapest Plan G in each state. Combined with attained-age pricing, this means WoodmenLife is generally a higher-cost option for identical federally-standardized Medigap benefits.",
+      "No. Across all five states we reviewed, WoodmenLife Plan G ranks between 12th and 15th of 18-32 carriers competing — paying 39% to 52% above the cheapest Plan G in each state. Combined with attained-age pricing, this means WoodmenLife is generally a higher-cost option for identical federally-standardized Medigap benefits.",
   },
 ];
 
@@ -84,9 +84,9 @@ const stateData = [
     planG65NonHHD: 194.50,
     marketLow: 137.68,
     marketHigh: 295.51,
-    marketMedian: 189.81,
-    marketCarriers: 30,
-    rank: 18,
+    marketMedian: 197.50,
+    marketCarriers: 28,
+    rank: 13,
     pctVsLow: 41.3,
     recentFilings: [
       { date: "2024-06-01", pct: 9.01 },
@@ -97,7 +97,7 @@ const stateData = [
       { year: 2024, lives: 28, lossRatio: 0.52 },
       { year: 2025, lives: 75, lossRatio: 1.27 },
     ],
-    verdict: "Three rate filings in 23 months totaling roughly 36% compounded. Tiny PA block (75 lives in 2025) but loss ratio jumped to 127% — claims significantly outpacing premiums. Mid-pack pricing at rank 18 of 30, 41% above the cheapest Plan G. Strong upward rate pressure likely.",
+    verdict: "Three rate filings in 23 months totaling roughly 36% compounded. Tiny PA block (75 lives in 2025) but loss ratio jumped to 127% — claims significantly outpacing premiums. Mid-pack pricing at rank 13 of 28, 41% above the cheapest Plan G. Strong upward rate pressure likely.",
     verdictTone: "avoid",
   },
   {
@@ -106,9 +106,9 @@ const stateData = [
     planG65NonHHD: 205.29,
     marketLow: 147.88,
     marketHigh: 260.98,
-    marketMedian: 179.94,
-    marketCarriers: 19,
-    rank: 16,
+    marketMedian: 181.62,
+    marketCarriers: 18,
+    rank: 15,
     pctVsLow: 38.8,
     recentFilings: [
       { date: "2024-06-01", pct: 9.00 },
@@ -119,40 +119,41 @@ const stateData = [
       { year: 2024, lives: 7, lossRatio: 1.57 },
       { year: 2025, lives: 7, lossRatio: 1.14 },
     ],
-    verdict: "Tiny NJ block (7 lives) with loss ratios 114-157% — the carrier is losing money on this state and recent rate filings reflect it. Ranks 16 of 19 carriers; you're paying 39% above the cheapest NJ Plan G. With only seven policyholders, the data is statistically thin but the rate-filing pattern suggests the company is not finding equilibrium here.",
+    verdict: "Tiny NJ block (7 lives) with loss ratios 114-157% — the carrier is losing money on this state and recent rate filings reflect it. Ranks 15 of 18 carriers; you're paying 39% above the cheapest NJ Plan G. With only seven policyholders, the data is statistically thin but the rate-filing pattern suggests the company is not finding equilibrium here.",
     verdictTone: "avoid",
   },
   {
     code: "OH",
     name: "Ohio",
-    planG65NonHHD: 156.50,
+    planG65NonHHD: 170.59,
     marketLow: 118.17,
     marketHigh: 342.84,
-    marketMedian: 164.49,
-    marketCarriers: 34,
+    marketMedian: 179.81,
+    marketCarriers: 32,
     rank: 12,
-    pctVsLow: 32.4,
+    pctVsLow: 44.4,
     recentFilings: [
       { date: "2024-05-01", pct: 9.00 },
       { date: "2025-04-01", pct: 15.00 },
+      { date: "2026-06-01", pct: 9.00 },
     ],
     lossRatioTrend: [
       { year: 2023, lives: 5,  lossRatio: 0.00 },
       { year: 2024, lives: 48, lossRatio: 0.47 },
       { year: 2025, lives: 97, lossRatio: 0.98 },
     ],
-    verdict: "Best WoodmenLife state in our review — rank 12 of 34, 32% above the cheapest Plan G. Two rate filings (9%, then 15%) in two years. Loss ratio climbed from 0% (5 lives) → 47% (48 lives) → 98% (97 lives) as block grew, the classic adverse-selection trajectory. Likely more rate pressure ahead.",
+    verdict: "Best WoodmenLife rank in our review — 12 of 32, but now 44% above the cheapest Plan G after a third filing (+9% effective June 2026) landed on top of the 9% and 15% increases. Loss ratio climbed from 0% (5 lives) → 47% (48 lives) → 98% (97 lives) as the block grew, the classic adverse-selection trajectory. Likely more rate pressure ahead.",
     verdictTone: "caution",
   },
   {
     code: "NC",
     name: "North Carolina",
     planG65NonHHD: 152.66,
-    marketLow: 101.83,
-    marketHigh: 280.62,
-    marketMedian: 147.50,
-    marketCarriers: 31,
-    rank: 21,
+    marketLow: 101.84,
+    marketHigh: 315.20,
+    marketMedian: 156.00,
+    marketCarriers: 29,
+    rank: 13,
     pctVsLow: 49.9,
     recentFilings: [
       { date: "2024-05-15", pct: 9.01 },
@@ -165,7 +166,7 @@ const stateData = [
       { year: 2024, lives: 259, lossRatio: 0.69 },
       { year: 2025, lives: 506, lossRatio: 0.76 },
     ],
-    verdict: "Four filings in 23 months: +9%, +0%, +18%, +15% — totaling roughly 47% compounded. Loss ratio still healthy at 76% but climbing fast. Currently ranks 21 of 31 carriers; you're paying 50% above the cheapest NC Plan G. Membership growing (63 → 506 lives) while rate filings escalate.",
+    verdict: "Four filings in 23 months: +9%, +0%, +18%, +15% — totaling roughly 47% compounded. Loss ratio still healthy at 76% but climbing fast. Currently ranks 13 of 29 carriers; you're still paying 50% above the cheapest NC Plan G. Membership growing (63 → 506 lives) while rate filings escalate.",
     verdictTone: "avoid",
   },
   {
@@ -174,9 +175,9 @@ const stateData = [
     planG65NonHHD: 197.75,
     marketLow: 129.92,
     marketHigh: 284.86,
-    marketMedian: 179.97,
-    marketCarriers: 28,
-    rank: 19,
+    marketMedian: 194.91,
+    marketCarriers: 24,
+    rank: 14,
     pctVsLow: 52.2,
     recentFilings: [
       { date: "2024-05-15", pct: 9.01 },
@@ -187,7 +188,7 @@ const stateData = [
       { year: 2024, lives: 1256, lossRatio: 0.89 },
       { year: 2025, lives: 3371, lossRatio: 0.93 },
     ],
-    verdict: "+41.60% rate filing effective February 2026 — the largest single-year Plan G increase in our entire dataset. Membership grew rapidly (198 → 3371 lives) while loss ratio climbed from 83% to 93%. The +41.6% filing is the carrier resetting pricing aggressively to catch up. Anyone enrolled before February 2026 just absorbed the full increase. Currently ranks 19 of 28 carriers; you're paying 52% above the cheapest TX Plan G.",
+    verdict: "+41.60% rate filing effective February 2026 — the largest single-year Plan G increase in our entire dataset. Membership grew rapidly (198 → 3371 lives) while loss ratio climbed from 83% to 93%. The +41.6% filing is the carrier resetting pricing aggressively to catch up. Anyone enrolled before February 2026 just absorbed the full increase. Currently ranks 14 of 24 carriers; you're paying 52% above the cheapest TX Plan G.",
     verdictTone: "avoid",
   },
 ];
@@ -227,7 +228,7 @@ export default function WoodmenLifeMedigapReviewPage() {
               WoodmenLife (NAIC 57320) holds an AM Best A+ (Stable) financial strength rating and
               writes Medicare Supplement Plan G in all five states we reviewed. The pricing data
               tells a consistent story: WoodmenLife is mid-pack to high in every state, ranging
-              from 32% to 52% above the cheapest Plan G in the same state for identical
+              from 39% to 52% above the cheapest Plan G in the same state for identical
               federally-standardized benefits.
             </p>
             <p className="text-gray-600 leading-relaxed mb-6">
@@ -239,7 +240,7 @@ export default function WoodmenLifeMedigapReviewPage() {
               most states despite the recent hikes, suggesting more rate pressure ahead.
             </p>
             <p className="text-xs text-gray-400 mb-6">
-              Last reviewed: April 2026 · CSG Actuarial rate &amp; market data
+              Last reviewed: July 2026 · CSG Actuarial rate &amp; market data
             </p>
             <a
               href={APPLY_URL}
@@ -255,10 +256,10 @@ export default function WoodmenLifeMedigapReviewPage() {
               <li><strong>NAIC:</strong> 57320</li>
               <li><strong>AM Best:</strong> A+ (Stable)</li>
               <li><strong>Rate type:</strong> Attained-age (every state)</li>
-              <li><strong>Premium vs. cheapest Plan G:</strong> +32% to +52%</li>
+              <li><strong>Premium vs. cheapest Plan G:</strong> +39% to +52%</li>
               <li><strong>Largest 2026 filing:</strong> Texas +41.60%</li>
-              <li><strong>Best fit (of 5):</strong> Ohio Plan G &mdash; rank 12 of 34</li>
-              <li><strong>Worst fit:</strong> Texas Plan G &mdash; rank 19, +52% above cheapest</li>
+              <li><strong>Best fit (of 5):</strong> Ohio Plan G &mdash; rank 12 of 32</li>
+              <li><strong>Worst fit:</strong> Texas Plan G &mdash; rank 14, +52% above cheapest</li>
             </ul>
             <a
               href={APPLY_URL}

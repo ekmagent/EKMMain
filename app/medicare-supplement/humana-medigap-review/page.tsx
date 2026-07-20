@@ -9,7 +9,7 @@ import { SITE_URL } from "@/lib/site";
 const PAGE_PATH = "/medicare-supplement/humana-medigap-review";
 const PAGE_URL = `${SITE_URL}${PAGE_PATH}`;
 const APPLY_URL = "https://healthplans.now";
-const DATA_AS_OF = "2026-04-24";
+const DATA_AS_OF = "2026-07-15";
 
 export const metadata: Metadata = {
   title: "Humana Medigap Review 2026: Rate History, Loss Ratios, State-by-State",
@@ -42,7 +42,7 @@ const articleSchema = {
   description:
     "A data-grounded 2026 review of Humana Medicare Supplement policies across Pennsylvania, New Jersey, Ohio, and Texas — including every filed rate increase since 2020 and annual loss ratios from state market data.",
   datePublished: "2026-04-24",
-  dateModified: "2026-04-24",
+  dateModified: "2026-07-20",
   inLanguage: "en-US",
   author: {
     "@type": "Person",
@@ -74,7 +74,7 @@ const faqs = [
   {
     question: "Is Humana Plan G priced competitively in every state?",
     answer:
-      "No. Humana's competitive position varies dramatically by state. In Pennsylvania and New Jersey Plan G, Humana is mid-pack. In Ohio and Texas Plan G, Humana ranks in the bottom third — in Texas, Humana Plan G is 67% more expensive than the state's cheapest Plan G for identical federally-standardized benefits.",
+      "No. Humana's competitive position varies dramatically by state. In Pennsylvania and New Jersey Plan G, Humana is mid-pack. In Ohio and Texas, Humana's Plan G premium runs 52% to 67% above the state's cheapest Plan G for identical federally-standardized benefits — in Texas that gap is the largest in our dataset.",
   },
 ];
 
@@ -88,9 +88,9 @@ const stateData = [
     hhdDiscountPct: 12.1,
     marketLow: 137.68,
     marketHigh: 295.51,
-    marketMedian: 189.81,
-    marketCarriers: 30,
-    rank: 9,
+    marketMedian: 197.50,
+    marketCarriers: 28,
+    rank: 8,
     recentFilings: [
       { date: "2024-10-01", pct: 7.42 },
       { date: "2025-11-01", pct: 19.53 },
@@ -111,9 +111,9 @@ const stateData = [
     hhdDiscountPct: 7.1,
     marketLow: 147.88,
     marketHigh: 260.98,
-    marketMedian: 179.94,
-    marketCarriers: 19,
-    rank: 13,
+    marketMedian: 181.62,
+    marketCarriers: 18,
+    rank: 10,
     recentFilings: [
       { date: "2024-06-01", pct: 7.01 },
       { date: "2025-08-01", pct: 16.22 },
@@ -137,9 +137,9 @@ const stateData = [
     hhdDiscountPct: 12.1,
     marketLow: 118.17,
     marketHigh: 342.84,
-    marketMedian: 164.49,
-    marketCarriers: 34,
-    rank: 25,
+    marketMedian: 179.81,
+    marketCarriers: 32,
+    rank: 16,
     recentFilings: [
       { date: "2021-01-01", pct: 5.51 },
       { date: "2022-03-01", pct: 5.51 },
@@ -156,8 +156,8 @@ const stateData = [
       { year: 2024, lives: 2003, lossRatio: 0.969 },
       { year: 2025, lives: 4491, lossRatio: 0.920 },
     ],
-    verdict: "Six rate filings in six years with the most recent a 25.03% increase effective April 1, 2026 — the largest in this dataset. At rank 25 of 34 carriers, Humana Plan G in Ohio is 52% more expensive than the state's cheapest Plan G for identical benefits. Shop competitors first.",
-    verdictTone: "avoid",
+    verdict: "Six rate filings in six years with the most recent a 25.03% increase effective April 1, 2026 — the largest in this dataset. Rank 16 of 32 carriers is mid-pack, but Humana Plan G in Ohio is still 52% more expensive than the state's cheapest Plan G for identical benefits. Shop competitors first.",
+    verdictTone: "caution",
   },
   {
     code: "TX",
@@ -167,21 +167,20 @@ const stateData = [
     hhdDiscountPct: 12.1,
     marketLow: 129.92,
     marketHigh: 284.86,
-    marketMedian: 179.97,
-    marketCarriers: 28,
-    rank: 23,
+    marketMedian: 194.91,
+    marketCarriers: 24,
+    rank: 18,
     recentFilings: [
       { date: "2024-03-01", pct: 8.51 },
       { date: "2025-03-01", pct: 10.52 },
       { date: "2026-04-01", pct: 18.02 },
     ],
     lossRatioTrend: [
-      { year: 2022, lives: 895,  lossRatio: 1.132 },
-      { year: 2023, lives: 1625, lossRatio: 1.171 },
-      { year: 2024, lives: 2581, lossRatio: 0.940 },
-      { year: 2025, lives: 5111, lossRatio: 0.989 },
+      { year: 2023, lives: 4492,  lossRatio: 1.514 },
+      { year: 2024, lives: 21768, lossRatio: 0.996 },
+      { year: 2025, lives: 39525, lossRatio: 1.208 },
     ],
-    verdict: "Humana Plan G in Texas is 67.5% more expensive than the cheapest Plan G in the state — the largest gap in this dataset. Loss ratios hit 113-117% in 2022-2023 before the 8.5%, 10.5%, and 18.0% filings corrected pricing. For identical federally-standardized benefits, Texas shoppers should compare before choosing Humana.",
+    verdict: "Humana Plan G in Texas is 67.5% more expensive than the cheapest Plan G in the state — the largest gap in this dataset. The loss ratio hit 151% in 2023 and was back above 120% in 2025 even after the 8.5% and 10.5% filings, with membership growing fast — further rate pressure is likely. For identical federally-standardized benefits, Texas shoppers should compare before choosing Humana.",
     verdictTone: "avoid",
   },
 ];
@@ -230,7 +229,7 @@ export default function HumanaMedigapReviewPage() {
             <p className="text-gray-600 leading-relaxed mb-6">
               This review uses actual state rate filings and CSG Actuarial market data to show where
               Humana Medigap is priced competitively and where it is not. Humana ranks anywhere from
-              9th to 25th among the carriers competing for your premium dollar, depending on the
+              8th to 18th among the carriers competing for your premium dollar, depending on the
               state. Benefits are federally standardized, so identical Plan G coverage is available
               from other carriers at lower cost in every state reviewed.
             </p>
@@ -442,13 +441,15 @@ export default function HumanaMedigapReviewPage() {
               </article>
             ))}
 
-            {/* North Carolina note — we sell there but don't have data in this snapshot yet */}
+            {/* North Carolina note — quotes in snapshot, loss-ratio detail not yet */}
             <div className="bg-white border border-gray-200 rounded-xl p-6 text-sm text-gray-700">
-              <h3 className="font-semibold text-gray-900 mb-2">North Carolina — Data Refresh Pending</h3>
+              <h3 className="font-semibold text-gray-900 mb-2">North Carolina — Snapshot</h3>
               <p>
-                We place Humana Medicare Supplement policies in North Carolina. State-specific rate
-                and loss-ratio data for NC will be added in the next CSG Actuarial data refresh.
-                For current NC quotes, call{" "}
+                We place Humana Medicare Supplement policies in North Carolina. In the July 2026
+                filed-rate data, Humana Plan G ranks 17 of 29 NC carriers at $167.63/month (65 F
+                non-tobacco), 64.6% above the state&apos;s cheapest filing, after +12.9% (March
+                2025) and +25% (March 2026) rate filings. NC loss-ratio detail is not yet in our
+                dataset. For current NC quotes, call{" "}
                 <a href="tel:8555591700" className="text-blue-700 hover:underline font-medium">855-559-1700</a>
                 {" "}or apply at{" "}
                 <a href={APPLY_URL} className="text-blue-700 hover:underline font-medium">healthplans.now</a>.
@@ -477,7 +478,7 @@ export default function HumanaMedigapReviewPage() {
         <h3 className="text-xl font-semibold text-gray-900 mb-2 mt-6">Plan N with Humana</h3>
         <p className="text-gray-700 leading-relaxed mb-4">
           Humana Plan N trades the Part B excess charges coverage and a small office/ER copay for a
-          lower monthly premium. In Pennsylvania, Humana Plan N ranks 4th of 30 carriers at 65 F
+          lower monthly premium. In Pennsylvania, Humana Plan N ranks 3rd of 28 carriers at 65 F
           non-tobacco, which makes PA the best value for a Humana Medigap applicant among the
           states we reviewed.
         </p>
@@ -532,7 +533,9 @@ export default function HumanaMedigapReviewPage() {
             <strong>Data sources &amp; methodology.</strong> All carrier rates, filed rate
             increases, and historical loss-ratio data on this page are sourced from the CSG
             Actuarial API as of {DATA_AS_OF}. Loss ratios are computed from CSG&apos;s{" "}
-            <code>med_supp_market_data</code> field (claims ÷ premiums per state per year). Current
+            <code>med_supp_market_data</code> field (claims ÷ premiums per state per year); the
+            New Jersey and Ohio loss-ratio histories reflect the April 2026 CSG pull, the most
+            recent to include state-level detail for those markets. Current
             Plan G premiums reflect a Female 65 non-tobacco applicant at a flagship ZIP in each
             state (Philadelphia 19103, Cherry Hill 08002, Cleveland 44101, Houston 77002). Rates
             in smaller ZIPs within the same state may differ.

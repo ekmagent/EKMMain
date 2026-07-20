@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "node scripts/build-page-dates.js && node scripts/build-carrier-history.js && node scripts/build-service-index.js && next build",
+    "build": "node scripts/check-stale-figures.js && node scripts/build-page-dates.js && node scripts/build-carrier-history.js && node scripts/build-service-index.js && next build",
     "start": "next start",
     "lint": "eslint"
   },

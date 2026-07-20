@@ -42,7 +42,7 @@ const articleSchema = {
   description:
     "A data-grounded review of Medico Medicare Supplement policies across the two legal entities (Medico Insurance Company and Medico Life and Health Insurance Company), covering Pennsylvania, New Jersey, Ohio, North Carolina, and Texas — with rate filings and loss-ratio history from CSG Actuarial.",
   datePublished: "2026-04-26",
-  dateModified: "2026-04-26",
+  dateModified: "2026-07-20",
   inLanguage: "en-US",
   author: {
     "@type": "Person",
@@ -240,7 +240,7 @@ export default function MedicoMedigapReviewPage() {
               with no recent Medico rate filing on record.
             </p>
             <p className="text-xs text-gray-400 mb-6">
-              Last reviewed: April 2026 · CSG Actuarial rate &amp; market data
+              Last reviewed: July 2026 · CSG Actuarial rate &amp; market data
             </p>
             <a
               href={APPLY_URL}
