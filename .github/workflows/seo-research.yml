@@ -120,6 +120,17 @@ jobs:
           cd scripts
           npm install
 
+      # page-dates.json is stamped by both CI checkpoints and local sessions,
+      # so a human push landing mid-run conflicts on it and kills the rebase
+      # (lost the full 2026-07-20 weekly spend at the checkpoint step). This
+      # driver auto-resolves it: union of routes, later date wins. Conflicts
+      # in any other file still fail loudly.
+      - name: Register page-dates.json merge driver
+        run: |
+          git config merge.pagedates.name "page-dates union merge"
+          git config merge.pagedates.driver "node scripts/merge-page-dates.js %O %A %B"
+          echo "page-dates.json merge=pagedates" >> .git/info/attributes
+
       # The three measurement fetches are soft-fail: a broken analytics API
       # must never block the research/build/publish steps below (2026-07-13:
       # the GA4 step — secrets never configured — aborted the entire weekly
