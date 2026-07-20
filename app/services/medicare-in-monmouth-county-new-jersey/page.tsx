@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title:
     "medicare in monmouth county new jersey | Free Local Broker Quotes | MedicareYourself",
   description:
-    "Medicare in Monmouth County, New Jersey — see Supplement and Advantage plans in your zip code. Free comparison from a licensed local broker.",
+    "Compare Medicare Supplement and Advantage plans in Monmouth County, NJ by zip code. Free help from a licensed local broker — call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-in-monmouth-county-new-jersey" },
   openGraph: {
     title:
@@ -319,6 +319,7 @@ export default function MedicareInMonmouthCountyNewJersey() {
         </ul>
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/plan-compare" rel="noopener noreferrer" target="_blank" className="underline">Compare Medicare plans on Medicare.gov</a> and review <a href="https://www.medicare.gov/basics/get-started-with-medicare/sign-up/when-does-medicare-coverage-start" rel="noopener noreferrer" target="_blank" className="underline">when your Medicare coverage starts</a>.</div>
             <div className="text-sm text-gray-600 mt-2">Monmouth County residents can also access free SHIP counseling through <a href="https://www.fcsmonmouth.org/_home/services/medicare-counseling/" rel="noopener noreferrer" target="_blank" className="underline">Family and Children's Service SHIP</a> or find other <a href="https://www.nj.gov/humanservices/doas/assistance/medicare/offices.shtml" rel="noopener noreferrer" target="_blank" className="underline">New Jersey SHIP local offices</a>.</div>
+            <div className="text-sm text-gray-600 mt-4"><p>Free local help: <a href="https://www.fcsmonmouth.org/medicare-counseling-2/" rel="noopener noreferrer" target="_blank" className="hover:underline">SHIP / Medicare Counseling through Family and Children's Service in Monmouth County</a>.</p></div>
       </section>
     </main>
   );

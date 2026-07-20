@@ -1,72 +1,108 @@
 {
-  "fetchedAt": "2026-07-13T22:19:45.599Z",
+  "fetchedAt": "2026-07-20T16:43:18.719Z",
   "period": {
-    "startDate": "2026-06-15",
-    "endDate": "2026-07-13"
+    "startDate": "2026-06-22",
+    "endDate": "2026-07-20"
   },
   "pages": [
     {
       "keys": [
         "https://medicareyourself.com/medicare-supplement/new-jersey/cost"
       ],
-      "clicks": 18,
-      "impressions": 2101,
-      "ctr": 0.008567348881485007,
-      "position": 18.79343169919086
+      "clicks": 22,
+      "impressions": 2377,
+      "ctr": 0.009255363904080775,
+      "position": 16.13167858645351
     },
     {
       "keys": [
         "https://medicareyourself.com/medicare-supplement/new-jersey/pricing-ages-65-69"
       ],
-      "clicks": 17,
-      "impressions": 478,
-      "ctr": 0.03556485355648536,
-      "position": 6.897489539748954
+      "clicks": 19,
+      "impressions": 709,
+      "ctr": 0.02679830747531735,
+      "position": 6.76163610719323
     },
     {
       "keys": [
         "https://medicareyourself.com/medicare-supplement/new-jersey"
       ],
-      "clicks": 9,
-      "impressions": 1830,
-      "ctr": 0.004918032786885246,
-      "position": 18.285792349726776
+      "clicks": 8,
+      "impressions": 1915,
+      "ctr": 0.004177545691906005,
+      "position": 16.9733681462141
     },
     {
       "keys": [
         "https://medicareyourself.com/medicare-supplement/new-jersey/plan-g-vs-plan-n"
       ],
-      "clicks": 5,
-      "impressions": 297,
-      "ctr": 0.016835016835016835,
-      "position": 7.3367003367003365
+      "clicks": 8,
+      "impressions": 349,
+      "ctr": 0.022922636103151862,
+      "position": 7.412607449856734
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/woodmenlife-medigap-review"
+      ],
+      "clicks": 4,
+      "impressions": 61,
+      "ctr": 0.06557377049180328,
+      "position": 14.934426229508198
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/medico-medigap-review"
+      ],
+      "clicks": 2,
+      "impressions": 89,
+      "ctr": 0.02247191011235955,
+      "position": 7.797752808988764
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/mutual-of-omaha-medigap-review"
+      ],
+      "clicks": 1,
+      "impressions": 78,
+      "ctr": 0.01282051282051282,
+      "position": 17.96153846153846
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/pennsylvania"
+      ],
+      "clicks": 1,
+      "impressions": 805,
+      "ctr": 0.0012422360248447205,
+      "position": 52.49068322981366
     },
     {
       "keys": [
         "https://medicareyourself.com/services/free-medicare-agent-that-helps-with-paperwork"
       ],
       "clicks": 1,
-      "impressions": 64,
-      "ctr": 0.015625,
-      "position": 7.3125
+      "impressions": 74,
+      "ctr": 0.013513513513513514,
+      "position": 7.581081081081081
     },
     {
       "keys": [
         "https://medicareyourself.com/"
       ],
       "clicks": 0,
-      "impressions": 100,
+      "impressions": 6,
       "ctr": 0,
-      "position": 39.39
+      "position": 1.5
     },
     {
       "keys": [
         "https://medicareyourself.com/about"
       ],
       "clicks": 0,
-      "impressions": 15,
+      "impressions": 14,
       "ctr": 0,
-      "position": 6
+      "position": 8
     },
     {
       "keys": [
@@ -75,16 +111,16 @@
       "clicks": 0,
       "impressions": 39,
       "ctr": 0,
-      "position": 65.58974358974359
+      "position": 60.41025641025641
     },
     {
       "keys": [
         "https://medicareyourself.com/medicare-advantage/new-jersey"
       ],
       "clicks": 0,
-      "impressions": 1316,
+      "impressions": 1090,
       "ctr": 0,
-      "position": 51.86322188449848
+      "position": 52.64862385321101
     },
     {
       "keys": [
@@ -106,57 +142,21 @@
     },
     {
       "keys": [
-        "https://medicareyourself.com/medicare-supplement/medico-medigap-review"
+        "https://medicareyourself.com/medicare-supplement/new-jersey/turning-65"
       ],
       "clicks": 0,
       "impressions": 3,
       "ctr": 0,
-      "position": 10.666666666666666
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-supplement/mutual-of-omaha-medigap-review"
-      ],
-      "clicks": 0,
-      "impressions": 4,
-      "ctr": 0,
-      "position": 2
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-supplement/new-jersey/turning-65"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 4
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-supplement/pennsylvania"
-      ],
-      "clicks": 0,
-      "impressions": 689,
-      "ctr": 0,
-      "position": 54.28737300435414
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-supplement/woodmenlife-medigap-review"
-      ],
-      "clicks": 0,
-      "impressions": 5,
-      "ctr": 0,
-      "position": 5
+      "position": 6
     },
     {
       "keys": [
         "https://medicareyourself.com/services/free-independent-medicare-broker-near-me-new-jersey"
       ],
       "clicks": 0,
-      "impressions": 13,
+      "impressions": 22,
       "ctr": 0,
-      "position": 12.76923076923077
+      "position": 33.5
     },
     {
       "keys": [
@@ -181,9 +181,18 @@
         "https://medicareyourself.com/services/medicare-broker-for-people-with-crohns"
       ],
       "clicks": 0,
-      "impressions": 11,
+      "impressions": 8,
       "ctr": 0,
-      "position": 6.636363636363637
+      "position": 6
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/services/medicare-in-monmouth-county-new-jersey"
+      ],
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": 0,
+      "position": 8.625
     },
     {
       "keys": [
@@ -199,9 +208,9 @@
         "https://medicareyourself.com/services/medicare-insurance-agents-in-camden-new-jersey"
       ],
       "clicks": 0,
-      "impressions": 79,
+      "impressions": 5,
       "ctr": 0,
-      "position": 17.556962025316455
+      "position": 9.4
     },
     {
       "keys": [
@@ -216,453 +225,23 @@
   "queries": [
     {
       "keys": [
-        "https://medicareyourself.com/medicare-supplement/new-jersey",
-        "nj medicare supplement plans 2026"
+        "https://medicareyourself.com/medicare-supplement/new-jersey/cost",
+        "nj medigap plans 2026"
+      ],
+      "clicks": 2,
+      "impressions": 24,
+      "ctr": 0.08333333333333333,
+      "position": 10.916666666666666
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/woodmenlife-medigap-review",
+        "medigap plan g"
       ],
       "clicks": 1,
-      "impressions": 19,
-      "ctr": 0.05263157894736842,
-      "position": 9.421052631578947
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/",
-        "best medicare broker in hackensack nj"
-      ],
-      "clicks": 0,
       "impressions": 1,
-      "ctr": 0,
-      "position": 61
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/",
-        "independent medicare advisor jersey city nj"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 49
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/",
-        "independent medicare agency franklin township nj"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 47
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/",
-        "independent medicare agency new jersey"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 45
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/",
-        "independent medicare agency nj"
-      ],
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0,
-      "position": 39
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/",
-        "independent medicare agent jersey city nj"
-      ],
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0,
-      "position": 46.5
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/",
-        "independent medicare agent new jersey"
-      ],
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0,
-      "position": 46
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/",
-        "independent medicare agent nj"
-      ],
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0,
-      "position": 40.5
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/",
-        "independent medicare agent woodbridge nj"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 48
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/",
-        "independent medicare agents jersey city nj"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 49
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/",
-        "independent medicare agents new jersey"
-      ],
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0,
-      "position": 41
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/",
-        "independent medicare agents nj"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 37
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/",
-        "independent medicare broker atlantic county nj"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 35
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/",
-        "independent medicare broker jersey city nj"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 49
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/",
-        "independent medicare broker new jersey"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 31
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/",
-        "independent medicare broker nj"
-      ],
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0,
-      "position": 32.5
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/",
-        "independent medicare broker trenton nj"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 49
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/",
-        "independent medicare expert hudson county nj"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 40
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/",
-        "independent medicare expert jersey city nj"
-      ],
-      "clicks": 0,
-      "impressions": 3,
-      "ctr": 0,
-      "position": 42
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/",
-        "independent medicare expert union city nj"
-      ],
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0,
-      "position": 46.5
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/",
-        "independent medicare insurance advisor jersey city nj"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 48
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/",
-        "independent medicare insurance agent franklin township nj"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 46
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/",
-        "independent medicare insurance agent jersey city nj"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 50
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/",
-        "independent medicare insurance agent new jersey"
-      ],
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0,
-      "position": 39
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/",
-        "independent medicare insurance agent paterson nj"
-      ],
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0,
-      "position": 44.5
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/",
-        "independent medicare insurance broker atlantic county nj"
-      ],
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0,
-      "position": 44.5
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/",
-        "independent medicare insurance broker jersey city nj"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 48
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/",
-        "independent medicare insurance broker nj"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 36
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/",
-        "independent medicare insurance broker woodbridge nj"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 43
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/",
-        "independent medicare insurance services franklin township nj"
-      ],
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0,
-      "position": 48
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/",
-        "independent medicare insurance specialist new jersey"
-      ],
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0,
-      "position": 39
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/",
-        "independent medicare insurance specialist paterson nj"
-      ],
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0,
-      "position": 31
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/",
-        "independent medicare insurance specialist somerset county nj"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 45
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/",
-        "independent medicare services franklin township nj"
-      ],
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0,
-      "position": 45
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/",
-        "independent medicare services jersey city nj"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 48
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/",
-        "independent medicare services newark nj"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 49
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/",
-        "independent medicare services nj"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 32
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/",
-        "independent medicare services somerset county nj"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 43
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/",
-        "independent medicare services trenton nj"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 43
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/",
-        "independent medicare services woodbridge nj"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 42
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/",
-        "independent medicare specialist jersey city nj"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 37
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/",
-        "independent medicare specialist middlesex county nj"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 47
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/",
-        "independent medicare specialist new jersey"
-      ],
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0,
-      "position": 36
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/",
-        "licensed medicare expert woodbridge nj"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 43
+      "ctr": 1,
+      "position": 2
     },
     {
       "keys": [
@@ -670,9 +249,9 @@
         "apply for medicare supplement insurance"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 3,
       "ctr": 0,
-      "position": 100
+      "position": 98.66666666666667
     },
     {
       "keys": [
@@ -712,7 +291,7 @@
       "clicks": 0,
       "impressions": 3,
       "ctr": 0,
-      "position": 91
+      "position": 92.66666666666667
     },
     {
       "keys": [
@@ -720,19 +299,9 @@
         "enrolling in a medigap plan"
       ],
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 1,
       "ctr": 0,
-      "position": 87.5
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/learn/how-to-enroll-in-a-medicare-supplement-plan",
-        "enrollment process for medicare supplement"
-      ],
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0,
-      "position": 74.5
+      "position": 76
     },
     {
       "keys": [
@@ -767,22 +336,12 @@
     {
       "keys": [
         "https://medicareyourself.com/learn/how-to-enroll-in-a-medicare-supplement-plan",
-        "medicare supplement plans 2022"
-      ],
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0,
-      "position": 39.5
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/learn/how-to-enroll-in-a-medicare-supplement-plan",
         "medsupp enrollment"
       ],
       "clicks": 0,
       "impressions": 5,
       "ctr": 0,
-      "position": 69.8
+      "position": 66.8
     },
     {
       "keys": [
@@ -792,7 +351,7 @@
       "clicks": 0,
       "impressions": 2,
       "ctr": 0,
-      "position": 84
+      "position": 78
     },
     {
       "keys": [
@@ -800,9 +359,9 @@
         "amelia medicare advantage plans"
       ],
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 2,
       "ctr": 0,
-      "position": 27.666666666666668
+      "position": 31.5
     },
     {
       "keys": [
@@ -822,7 +381,7 @@
       "clicks": 0,
       "impressions": 13,
       "ctr": 0,
-      "position": 78
+      "position": 71.38461538461539
     },
     {
       "keys": [
@@ -830,9 +389,9 @@
         "best medicare advantage plans in nj"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 4,
       "ctr": 0,
-      "position": 78.5
+      "position": 76.5
     },
     {
       "keys": [
@@ -852,7 +411,7 @@
       "clicks": 0,
       "impressions": 8,
       "ctr": 0,
-      "position": 76.25
+      "position": 67.25
     },
     {
       "keys": [
@@ -862,7 +421,7 @@
       "clicks": 0,
       "impressions": 5,
       "ctr": 0,
-      "position": 77.4
+      "position": 76.4
     },
     {
       "keys": [
@@ -870,9 +429,9 @@
         "best medicare fmo in new jersey"
       ],
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 4,
       "ctr": 0,
-      "position": 59.333333333333336
+      "position": 52.5
     },
     {
       "keys": [
@@ -880,9 +439,9 @@
         "best medicare part c plans new jersey 2027"
       ],
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 2,
       "ctr": 0,
-      "position": 52
+      "position": 45.5
     },
     {
       "keys": [
@@ -890,19 +449,19 @@
         "best medicare part d plans new jersey"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 4,
       "ctr": 0,
-      "position": 94
+      "position": 96
     },
     {
       "keys": [
         "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "braven health benefits"
+        "braven health medicare"
       ],
       "clicks": 0,
       "impressions": 1,
       "ctr": 0,
-      "position": 3
+      "position": 2
     },
     {
       "keys": [
@@ -917,322 +476,12 @@
     {
       "keys": [
         "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "independent medicare insurance expert salem county nj"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 48
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "independent medicare insurance specialist cape may county nj"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 40
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "independent medicare insurance specialist new jersey"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 25
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "independent medicare services new jersey"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 17
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "independent medicare services trenton nj"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 34
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "medicare advantage advisor cumberland county nj"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 27
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "medicare advantage advisor franklin township nj"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 44
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "medicare advantage advisor jersey city nj"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 31
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "medicare advantage advisor new jersey"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 43
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "medicare advantage advisor nj"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 39
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "medicare advantage advisor sussex county nj"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 49
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "medicare advantage agency nj"
-      ],
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0,
-      "position": 32.5
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "medicare advantage agency trenton nj"
-      ],
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0,
-      "position": 20
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "medicare advantage agency warren county nj"
-      ],
-      "clicks": 0,
-      "impressions": 4,
-      "ctr": 0,
-      "position": 32.5
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "medicare advantage agent new jersey"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 32
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "medicare advantage agent nj"
-      ],
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0,
-      "position": 34
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
         "medicare advantage agents in new jersey"
       ],
       "clicks": 0,
-      "impressions": 4,
-      "ctr": 0,
-      "position": 69.5
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "medicare advantage agents nj"
-      ],
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0,
-      "position": 40
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "medicare advantage broker new jersey"
-      ],
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0,
-      "position": 17.5
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "medicare advantage broker nj"
-      ],
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0,
-      "position": 16.5
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "medicare advantage expert atlantic county nj"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 39
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "medicare advantage expert burlington county nj"
-      ],
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0,
-      "position": 42.5
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "medicare advantage expert camden county nj"
-      ],
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0,
-      "position": 42.5
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "medicare advantage expert camden nj"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 47
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "medicare advantage expert cape may county nj"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 49
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "medicare advantage expert east orange nj"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 47
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "medicare advantage expert gloucester county nj"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 35
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "medicare advantage expert hudson county nj"
-      ],
-      "clicks": 0,
       "impressions": 3,
       "ctr": 0,
-      "position": 39
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "medicare advantage expert middlesex county nj"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 28
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "medicare advantage expert passaic county nj"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 45
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "medicare advantage expert salem county nj"
-      ],
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0,
-      "position": 46
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "medicare advantage expert warren county nj"
-      ],
-      "clicks": 0,
-      "impressions": 3,
-      "ctr": 0,
-      "position": 34
+      "position": 71.33333333333333
     },
     {
       "keys": [
@@ -1240,9 +489,9 @@
         "medicare advantage kearny nj"
       ],
       "clicks": 0,
-      "impressions": 8,
+      "impressions": 11,
       "ctr": 0,
-      "position": 46.75
+      "position": 46.63636363636363
     },
     {
       "keys": [
@@ -1250,9 +499,9 @@
         "medicare advantage new jersey"
       ],
       "clicks": 0,
-      "impressions": 64,
+      "impressions": 63,
       "ctr": 0,
-      "position": 43.859375
+      "position": 44.333333333333336
     },
     {
       "keys": [
@@ -1260,9 +509,9 @@
         "medicare advantage nj"
       ],
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 4,
       "ctr": 0,
-      "position": 51.666666666666664
+      "position": 53.75
     },
     {
       "keys": [
@@ -1270,9 +519,9 @@
         "medicare advantage parsippany, nj 07054"
       ],
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 2,
       "ctr": 0,
-      "position": 48.666666666666664
+      "position": 52
     },
     {
       "keys": [
@@ -1280,9 +529,9 @@
         "medicare advantage plans in new jersey"
       ],
       "clicks": 0,
-      "impressions": 12,
+      "impressions": 15,
       "ctr": 0,
-      "position": 59.166666666666664
+      "position": 59.6
     },
     {
       "keys": [
@@ -1292,7 +541,7 @@
       "clicks": 0,
       "impressions": 8,
       "ctr": 0,
-      "position": 58
+      "position": 61.5
     },
     {
       "keys": [
@@ -1302,7 +551,7 @@
       "clicks": 0,
       "impressions": 5,
       "ctr": 0,
-      "position": 75.8
+      "position": 73.6
     },
     {
       "keys": [
@@ -1310,9 +559,9 @@
         "medicare advantage plans new jersey"
       ],
       "clicks": 0,
-      "impressions": 137,
+      "impressions": 142,
       "ctr": 0,
-      "position": 47.802919708029194
+      "position": 46.91549295774648
     },
     {
       "keys": [
@@ -1320,384 +569,14 @@
         "medicare advantage plans new jersey 2023"
       ],
       "clicks": 0,
-      "impressions": 5,
-      "ctr": 0,
-      "position": 50.4
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "medicare advantage plans nj"
-      ],
-      "clicks": 0,
-      "impressions": 109,
-      "ctr": 0,
-      "position": 51.20183486238532
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "medicare advantage services bayonne nj"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 36
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "medicare advantage services bergen county nj"
-      ],
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0,
-      "position": 46
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "medicare advantage services burlington county nj"
-      ],
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0,
-      "position": 39.5
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "medicare advantage services camden county nj"
-      ],
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0,
-      "position": 47
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "medicare advantage services cape may county nj"
-      ],
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0,
-      "position": 45
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "medicare advantage services cumberland county nj"
-      ],
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0,
-      "position": 43.5
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "medicare advantage services east orange nj"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 31
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "medicare advantage services essex county nj"
-      ],
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0,
-      "position": 45.5
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "medicare advantage services franklin township nj"
-      ],
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0,
-      "position": 29
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "medicare advantage services hudson county nj"
-      ],
-      "clicks": 0,
-      "impressions": 3,
-      "ctr": 0,
-      "position": 35.333333333333336
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "medicare advantage services lakewood nj"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 49
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "medicare advantage services mercer county nj"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 43
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "medicare advantage services newark nj"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 49
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "medicare advantage services nj"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 49
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "medicare advantage services ocean county nj"
-      ],
-      "clicks": 0,
-      "impressions": 3,
-      "ctr": 0,
-      "position": 43.333333333333336
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "medicare advantage services paterson nj"
-      ],
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0,
-      "position": 43.5
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "medicare advantage services salem county nj"
-      ],
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0,
-      "position": 45
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "medicare advantage services somerset county nj"
-      ],
-      "clicks": 0,
-      "impressions": 3,
-      "ctr": 0,
-      "position": 41.666666666666664
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "medicare advantage services sussex county nj"
-      ],
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0,
-      "position": 37.5
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "medicare advantage services union city nj"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 40
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "medicare advantage specialist atlantic county nj"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 34
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "medicare advantage specialist bergen county nj"
-      ],
-      "clicks": 0,
       "impressions": 4,
       "ctr": 0,
-      "position": 32.75
+      "position": 50
     },
     {
       "keys": [
         "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "medicare advantage specialist burlington county nj"
-      ],
-      "clicks": 0,
-      "impressions": 3,
-      "ctr": 0,
-      "position": 21.333333333333332
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "medicare advantage specialist camden county nj"
-      ],
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0,
-      "position": 40.5
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "medicare advantage specialist cape may county nj"
-      ],
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0,
-      "position": 31
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "medicare advantage specialist cumberland county nj"
-      ],
-      "clicks": 0,
-      "impressions": 3,
-      "ctr": 0,
-      "position": 31.666666666666668
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "medicare advantage specialist essex county nj"
-      ],
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0,
-      "position": 44
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "medicare advantage specialist gloucester county nj"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 23
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "medicare advantage specialist hamilton township nj"
-      ],
-      "clicks": 0,
-      "impressions": 3,
-      "ctr": 0,
-      "position": 30
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "medicare advantage specialist jersey city nj"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 30
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "medicare advantage specialist mercer county nj"
-      ],
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0,
-      "position": 37
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "medicare advantage specialist middlesex county nj"
-      ],
-      "clicks": 0,
-      "impressions": 3,
-      "ctr": 0,
-      "position": 21.666666666666668
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "medicare advantage specialist monmouth county nj"
-      ],
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0,
-      "position": 35
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "medicare advantage specialist ocean county nj"
-      ],
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0,
-      "position": 37.5
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "medicare advantage specialist salem county nj"
-      ],
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0,
-      "position": 12.5
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "medicare advantage specialist somerset county nj"
-      ],
-      "clicks": 0,
-      "impressions": 3,
-      "ctr": 0,
-      "position": 28
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "medicare advantage specialist union city nj"
+        "medicare advantage plans new jersey 2027"
       ],
       "clicks": 0,
       "impressions": 1,
@@ -1707,12 +586,22 @@
     {
       "keys": [
         "https://medicareyourself.com/medicare-advantage/new-jersey",
+        "medicare advantage plans nj"
+      ],
+      "clicks": 0,
+      "impressions": 115,
+      "ctr": 0,
+      "position": 49.93913043478261
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-advantage/new-jersey",
         "medicare benefits nj"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 1,
       "ctr": 0,
-      "position": 51.5
+      "position": 53
     },
     {
       "keys": [
@@ -1720,9 +609,9 @@
         "medicare health plans in new jersey"
       ],
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 2,
       "ctr": 0,
-      "position": 68.75
+      "position": 66.5
     },
     {
       "keys": [
@@ -1740,9 +629,9 @@
         "medicare insurance agents in new jersey"
       ],
       "clicks": 0,
-      "impressions": 25,
+      "impressions": 19,
       "ctr": 0,
-      "position": 50.76
+      "position": 49.526315789473685
     },
     {
       "keys": [
@@ -1757,32 +646,12 @@
     {
       "keys": [
         "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "medicare insurance services ocean county nj"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 50
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "medicare licensed specialist trenton nj"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 32
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
         "medicare part c plan new jersey"
       ],
       "clicks": 0,
-      "impressions": 54,
+      "impressions": 48,
       "ctr": 0,
-      "position": 62.5
+      "position": 62.479166666666664
     },
     {
       "keys": [
@@ -1790,19 +659,9 @@
         "medicare part c plans new jersey"
       ],
       "clicks": 0,
-      "impressions": 63,
+      "impressions": 60,
       "ctr": 0,
-      "position": 57.36507936507937
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "medicare part c plans new jersey 2027"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 67
+      "position": 56.03333333333333
     },
     {
       "keys": [
@@ -1820,9 +679,9 @@
         "medicare plans in new jersey"
       ],
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 5,
       "ctr": 0,
-      "position": 61.75
+      "position": 62
     },
     {
       "keys": [
@@ -1830,9 +689,9 @@
         "medicare plans in nj"
       ],
       "clicks": 0,
-      "impressions": 68,
+      "impressions": 62,
       "ctr": 0,
-      "position": 52.3235294117647
+      "position": 51.67741935483871
     },
     {
       "keys": [
@@ -1842,7 +701,7 @@
       "clicks": 0,
       "impressions": 12,
       "ctr": 0,
-      "position": 49.083333333333336
+      "position": 48.916666666666664
     },
     {
       "keys": [
@@ -1852,7 +711,7 @@
       "clicks": 0,
       "impressions": 3,
       "ctr": 0,
-      "position": 54
+      "position": 51
     },
     {
       "keys": [
@@ -1870,9 +729,9 @@
         "new jersey medicare advantage"
       ],
       "clicks": 0,
-      "impressions": 60,
+      "impressions": 54,
       "ctr": 0,
-      "position": 49.18333333333333
+      "position": 48.94444444444444
     },
     {
       "keys": [
@@ -1880,9 +739,9 @@
         "new jersey medicare advantage plan"
       ],
       "clicks": 0,
-      "impressions": 61,
+      "impressions": 55,
       "ctr": 0,
-      "position": 61.52459016393443
+      "position": 60.472727272727276
     },
     {
       "keys": [
@@ -1890,9 +749,9 @@
         "new jersey medicare advantage plans"
       ],
       "clicks": 0,
-      "impressions": 70,
+      "impressions": 60,
       "ctr": 0,
-      "position": 60.5
+      "position": 59.68333333333333
     },
     {
       "keys": [
@@ -1910,9 +769,9 @@
         "new jersey medicare advantage plans for 2025"
       ],
       "clicks": 0,
-      "impressions": 5,
+      "impressions": 4,
       "ctr": 0,
-      "position": 59.4
+      "position": 57.5
     },
     {
       "keys": [
@@ -1920,9 +779,9 @@
         "new jersey medicare part c"
       ],
       "clicks": 0,
-      "impressions": 24,
+      "impressions": 16,
       "ctr": 0,
-      "position": 73.95833333333333
+      "position": 73.875
     },
     {
       "keys": [
@@ -1930,9 +789,9 @@
         "new jersey medicare part c plan"
       ],
       "clicks": 0,
-      "impressions": 68,
+      "impressions": 55,
       "ctr": 0,
-      "position": 66.29411764705883
+      "position": 64.29090909090908
     },
     {
       "keys": [
@@ -1940,9 +799,9 @@
         "new jersey medicare part c plans"
       ],
       "clicks": 0,
-      "impressions": 71,
+      "impressions": 64,
       "ctr": 0,
-      "position": 73.22535211267606
+      "position": 73.515625
     },
     {
       "keys": [
@@ -1952,7 +811,7 @@
       "clicks": 0,
       "impressions": 5,
       "ctr": 0,
-      "position": 50.8
+      "position": 51.2
     },
     {
       "keys": [
@@ -1970,9 +829,9 @@
         "nj advantage health insurance"
       ],
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 2,
       "ctr": 0,
-      "position": 50.666666666666664
+      "position": 49
     },
     {
       "keys": [
@@ -1980,9 +839,9 @@
         "nj medicare advantage plans"
       ],
       "clicks": 0,
-      "impressions": 6,
+      "impressions": 7,
       "ctr": 0,
-      "position": 45.5
+      "position": 46
     },
     {
       "keys": [
@@ -1990,9 +849,19 @@
         "nj medicare advantage plans 2025"
       ],
       "clicks": 0,
-      "impressions": 5,
+      "impressions": 4,
       "ctr": 0,
       "position": 52
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-advantage/new-jersey",
+        "nj medicare advantage plans 2026"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 34
     },
     {
       "keys": [
@@ -2000,9 +869,9 @@
         "nj medicare plans"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 50
+      "position": 52.5
     },
     {
       "keys": [
@@ -2010,9 +879,9 @@
         "part c plan new jersey"
       ],
       "clicks": 0,
-      "impressions": 12,
+      "impressions": 10,
       "ctr": 0,
-      "position": 63.166666666666664
+      "position": 63.1
     },
     {
       "keys": [
@@ -2020,9 +889,9 @@
         "part c plans new jersey"
       ],
       "clicks": 0,
-      "impressions": 19,
+      "impressions": 17,
       "ctr": 0,
-      "position": 54.89473684210526
+      "position": 54.35294117647059
     },
     {
       "keys": [
@@ -2030,9 +899,39 @@
         "state of new jersey medicare"
       ],
       "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 72.5
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/medico-medigap-review",
+        "is medico a good medicare supplement"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 32
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/medico-medigap-review",
+        "medico insurance company website"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 3.5
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/medico-medigap-review",
+        "medico medicare supplement provider portal"
+      ],
+      "clicks": 0,
       "impressions": 1,
       "ctr": 0,
-      "position": 68
+      "position": 6
     },
     {
       "keys": [
@@ -2040,9 +939,139 @@
         "medico medicare supplement review"
       ],
       "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 26
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/medico-medigap-review",
+        "medico medicare supplement reviews"
+      ],
+      "clicks": 0,
       "impressions": 1,
       "ctr": 0,
-      "position": 27
+      "position": 28
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/medico-medigap-review",
+        "medico medigap reviews"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 19
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/medico-medigap-review",
+        "medico supplemental insurance"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 2
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/medico-medigap-review",
+        "medico supplemental insurance reviews"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 29
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/mutual-of-omaha-medigap-review",
+        "is mutual of omaha a good medicare supplement"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 80.5
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/mutual-of-omaha-medigap-review",
+        "medigap insurance company ratings"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 46.5
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/mutual-of-omaha-medigap-review",
+        "mutual of omaha medicare reviews"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 60
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/mutual-of-omaha-medigap-review",
+        "mutual of omaha medicare supplement plan f reviews"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 66
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/mutual-of-omaha-medigap-review",
+        "mutual of omaha medicare supplement plan g reviews"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 61
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/mutual-of-omaha-medigap-review",
+        "mutual of omaha medicare supplement plans reviews"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 62.5
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/mutual-of-omaha-medigap-review",
+        "mutual of omaha medicare supplement reviews"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 55
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/mutual-of-omaha-medigap-review",
+        "mutual of omaha medigap plan g"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 67
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/mutual-of-omaha-medigap-review",
+        "mutual of omaha supplemental insurance reviews"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 52
     },
     {
       "keys": [
@@ -2053,6 +1082,16 @@
       "impressions": 1,
       "ctr": 0,
       "position": 4
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/new-jersey",
+        "07421"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 7
     },
     {
       "keys": [
@@ -2083,6 +1122,26 @@
       "impressions": 1,
       "ctr": 0,
       "position": 4
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/new-jersey",
+        "08080"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 6
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/new-jersey",
+        "08432"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 3
     },
     {
       "keys": [
@@ -2127,12 +1186,12 @@
     {
       "keys": [
         "https://medicareyourself.com/medicare-supplement/new-jersey",
-        "best medicare part d plans new jersey"
+        "08901"
       ],
       "clicks": 0,
       "impressions": 1,
       "ctr": 0,
-      "position": 97
+      "position": 1
     },
     {
       "keys": [
@@ -2150,9 +1209,9 @@
         "best medicare supplement plans in new jersey"
       ],
       "clicks": 0,
-      "impressions": 9,
+      "impressions": 7,
       "ctr": 0,
-      "position": 72.44444444444444
+      "position": 77.28571428571429
     },
     {
       "keys": [
@@ -2162,7 +1221,7 @@
       "clicks": 0,
       "impressions": 7,
       "ctr": 0,
-      "position": 29.428571428571427
+      "position": 28.857142857142858
     },
     {
       "keys": [
@@ -2170,9 +1229,9 @@
         "best medicare supplement plans in nj"
       ],
       "clicks": 0,
-      "impressions": 5,
+      "impressions": 6,
       "ctr": 0,
-      "position": 67.2
+      "position": 72.5
     },
     {
       "keys": [
@@ -2182,7 +1241,7 @@
       "clicks": 0,
       "impressions": 3,
       "ctr": 0,
-      "position": 56.333333333333336
+      "position": 60
     },
     {
       "keys": [
@@ -2193,16 +1252,6 @@
       "impressions": 1,
       "ctr": 0,
       "position": 6
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-supplement/new-jersey",
-        "best medicare supplement plans new jersey 2027"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 31
     },
     {
       "keys": [
@@ -2240,9 +1289,9 @@
         "best medigap plans in new jersey"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 3,
       "ctr": 0,
-      "position": 65.5
+      "position": 79
     },
     {
       "keys": [
@@ -2250,19 +1299,9 @@
         "best medigap plans in nj"
       ],
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 4,
       "ctr": 0,
       "position": 6
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-supplement/new-jersey",
-        "best medigap plans new jersey"
-      ],
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0,
-      "position": 23
     },
     {
       "keys": [
@@ -2270,19 +1309,29 @@
         "best medigap plans new jersey 2027"
       ],
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 1,
       "ctr": 0,
-      "position": 33.666666666666664
+      "position": 27
     },
     {
       "keys": [
         "https://medicareyourself.com/medicare-supplement/new-jersey",
-        "how to enroll in medigap plan g in new jersey"
+        "cheapest medicare supplement plan g"
       ],
       "clicks": 0,
-      "impressions": 5,
+      "impressions": 1,
       "ctr": 0,
-      "position": 29.4
+      "position": 1
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/new-jersey",
+        "female"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 12
     },
     {
       "keys": [
@@ -2297,22 +1346,12 @@
     {
       "keys": [
         "https://medicareyourself.com/medicare-supplement/new-jersey",
-        "medicare health plans in new jersey"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 45
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-supplement/new-jersey",
         "medicare medigap plans nj"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 29
+      "position": 43.5
     },
     {
       "keys": [
@@ -2320,9 +1359,9 @@
         "medicare plans in new jersey"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 1,
       "ctr": 0,
-      "position": 41.5
+      "position": 37
     },
     {
       "keys": [
@@ -2330,9 +1369,9 @@
         "medicare supplement agents in new jersey"
       ],
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 2,
       "ctr": 0,
-      "position": 57.75
+      "position": 60.5
     },
     {
       "keys": [
@@ -2343,16 +1382,6 @@
       "impressions": 1,
       "ctr": 0,
       "position": 77
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-supplement/new-jersey",
-        "medicare supplement new jersey"
-      ],
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0,
-      "position": 28
     },
     {
       "keys": [
@@ -2380,9 +1409,9 @@
         "medicare supplement plans in new jersey"
       ],
       "clicks": 0,
-      "impressions": 60,
+      "impressions": 52,
       "ctr": 0,
-      "position": 33.483333333333334
+      "position": 31.76923076923077
     },
     {
       "keys": [
@@ -2400,9 +1429,9 @@
         "medicare supplement plans new jersey"
       ],
       "clicks": 0,
-      "impressions": 64,
+      "impressions": 58,
       "ctr": 0,
-      "position": 27.765625
+      "position": 28.982758620689655
     },
     {
       "keys": [
@@ -2410,9 +1439,9 @@
         "medicare supplement plans new jersey in 2023"
       ],
       "clicks": 0,
-      "impressions": 6,
+      "impressions": 7,
       "ctr": 0,
-      "position": 26.333333333333332
+      "position": 26.857142857142858
     },
     {
       "keys": [
@@ -2420,9 +1449,9 @@
         "medicare supplement plans nj"
       ],
       "clicks": 0,
-      "impressions": 94,
+      "impressions": 91,
       "ctr": 0,
-      "position": 30.925531914893618
+      "position": 30.98901098901099
     },
     {
       "keys": [
@@ -2440,9 +1469,9 @@
         "medicare supplement short hills nj"
       ],
       "clicks": 0,
-      "impressions": 17,
+      "impressions": 16,
       "ctr": 0,
-      "position": 12.705882352941176
+      "position": 13
     },
     {
       "keys": [
@@ -2450,9 +1479,9 @@
         "medicare supplemental insurance nj"
       ],
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 3,
       "ctr": 0,
-      "position": 30.75
+      "position": 31
     },
     {
       "keys": [
@@ -2460,9 +1489,9 @@
         "medicare supplemental plans in nj"
       ],
       "clicks": 0,
-      "impressions": 9,
+      "impressions": 12,
       "ctr": 0,
-      "position": 32.888888888888886
+      "position": 34.166666666666664
     },
     {
       "keys": [
@@ -2470,9 +1499,9 @@
         "medicare supplements kearny nj"
       ],
       "clicks": 0,
-      "impressions": 7,
+      "impressions": 9,
       "ctr": 0,
-      "position": 34.57142857142857
+      "position": 37.333333333333336
     },
     {
       "keys": [
@@ -2520,9 +1549,9 @@
         "medigap plan g in new jersey"
       ],
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 4,
       "ctr": 0,
-      "position": 94
+      "position": 73
     },
     {
       "keys": [
@@ -2540,9 +1569,9 @@
         "medigap plans in nj"
       ],
       "clicks": 0,
-      "impressions": 68,
+      "impressions": 64,
       "ctr": 0,
-      "position": 27.529411764705884
+      "position": 27.5
     },
     {
       "keys": [
@@ -2550,9 +1579,9 @@
         "medigap plans new jersey"
       ],
       "clicks": 0,
-      "impressions": 53,
+      "impressions": 50,
       "ctr": 0,
-      "position": 24.79245283018868
+      "position": 24.5
     },
     {
       "keys": [
@@ -2560,9 +1589,9 @@
         "medigap plans new jersey 2027"
       ],
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 2,
       "ctr": 0,
-      "position": 26
+      "position": 23
     },
     {
       "keys": [
@@ -2572,7 +1601,7 @@
       "clicks": 0,
       "impressions": 65,
       "ctr": 0,
-      "position": 30.615384615384617
+      "position": 29.138461538461538
     },
     {
       "keys": [
@@ -2590,9 +1619,9 @@
         "new jersey medicare supplement plans"
       ],
       "clicks": 0,
-      "impressions": 80,
+      "impressions": 76,
       "ctr": 0,
-      "position": 49.15
+      "position": 50.81578947368421
     },
     {
       "keys": [
@@ -2600,9 +1629,9 @@
         "new jersey medicare supplement rates"
       ],
       "clicks": 0,
-      "impressions": 10,
+      "impressions": 8,
       "ctr": 0,
-      "position": 27.9
+      "position": 36
     },
     {
       "keys": [
@@ -2620,9 +1649,9 @@
         "new jersey medigap plans"
       ],
       "clicks": 0,
-      "impressions": 62,
+      "impressions": 61,
       "ctr": 0,
-      "position": 26.951612903225808
+      "position": 28.59016393442623
     },
     {
       "keys": [
@@ -2630,9 +1659,9 @@
         "new jersey supplemental health insurance"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 1,
       "ctr": 0,
-      "position": 31.5
+      "position": 28
     },
     {
       "keys": [
@@ -2650,9 +1679,9 @@
         "nj medicare supplement plans"
       ],
       "clicks": 0,
-      "impressions": 62,
+      "impressions": 57,
       "ctr": 0,
-      "position": 29.112903225806452
+      "position": 28.912280701754387
     },
     {
       "keys": [
@@ -2660,9 +1689,19 @@
         "nj medicare supplement plans 2022"
       ],
       "clicks": 0,
-      "impressions": 17,
+      "impressions": 14,
       "ctr": 0,
-      "position": 20.941176470588236
+      "position": 20.428571428571427
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/new-jersey",
+        "nj medicare supplement plans 2026"
+      ],
+      "clicks": 0,
+      "impressions": 10,
+      "ctr": 0,
+      "position": 6.8
     },
     {
       "keys": [
@@ -2670,9 +1709,9 @@
         "nj medigap plans"
       ],
       "clicks": 0,
-      "impressions": 5,
+      "impressions": 6,
       "ctr": 0,
-      "position": 27.2
+      "position": 27.666666666666668
     },
     {
       "keys": [
@@ -2680,9 +1719,9 @@
         "nj medigap plans 2026"
       ],
       "clicks": 0,
-      "impressions": 19,
+      "impressions": 15,
       "ctr": 0,
-      "position": 9.31578947368421
+      "position": 8.533333333333333
     },
     {
       "keys": [
@@ -2720,9 +1759,9 @@
         "what is the best medicare supplement plan in nj"
       ],
       "clicks": 0,
-      "impressions": 14,
+      "impressions": 16,
       "ctr": 0,
-      "position": 28.357142857142858
+      "position": 22.625
     },
     {
       "keys": [
@@ -2740,24 +1779,14 @@
         "yes"
       ],
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 6,
       "ctr": 0,
-      "position": 3.75
+      "position": 4.666666666666666
     },
     {
       "keys": [
         "https://medicareyourself.com/medicare-supplement/new-jersey",
         "yes, please"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 9
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-supplement/new-jersey",
-        "zip code 07760"
       ],
       "clicks": 0,
       "impressions": 1,
@@ -2787,12 +1816,32 @@
     {
       "keys": [
         "https://medicareyourself.com/medicare-supplement/new-jersey/cost",
+        "07701"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 4
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/new-jersey/cost",
         "07731"
       ],
       "clicks": 0,
       "impressions": 1,
       "ctr": 0,
       "position": 4
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/new-jersey/cost",
+        "07869"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 2
     },
     {
       "keys": [
@@ -2863,6 +1912,16 @@
       "impressions": 1,
       "ctr": 0,
       "position": 16
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/new-jersey/cost",
+        "08901"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
     },
     {
       "keys": [
@@ -2950,9 +2009,9 @@
         "average cost of medicare plan g"
       ],
       "clicks": 0,
-      "impressions": 10,
+      "impressions": 9,
       "ctr": 0,
-      "position": 55.4
+      "position": 55.333333333333336
     },
     {
       "keys": [
@@ -2970,9 +2029,9 @@
         "average cost of medicare supplement per month"
       ],
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 3,
       "ctr": 0,
-      "position": 43.5
+      "position": 43.666666666666664
     },
     {
       "keys": [
@@ -2990,9 +2049,9 @@
         "average cost of medicare supplemental insurance policy"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 1,
       "ctr": 0,
-      "position": 74.5
+      "position": 76
     },
     {
       "keys": [
@@ -3040,9 +2099,19 @@
         "best medicare supplement plans in new jersey"
       ],
       "clicks": 0,
-      "impressions": 6,
+      "impressions": 9,
       "ctr": 0,
-      "position": 57.5
+      "position": 58.77777777777778
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/new-jersey/cost",
+        "best medicare supplement plans in new jersey 2024"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 30
     },
     {
       "keys": [
@@ -3050,9 +2119,9 @@
         "best medicare supplement plans in nj"
       ],
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 7,
       "ctr": 0,
-      "position": 47.5
+      "position": 47.857142857142854
     },
     {
       "keys": [
@@ -3060,9 +2129,19 @@
         "best medicare supplement plans new jersey"
       ],
       "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 51
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/new-jersey/cost",
+        "best medicare supplement plans new jersey 2027"
+      ],
+      "clicks": 0,
       "impressions": 1,
       "ctr": 0,
-      "position": 59
+      "position": 27
     },
     {
       "keys": [
@@ -3080,9 +2159,9 @@
         "best medigap plans in new jersey"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 3,
       "ctr": 0,
-      "position": 46
+      "position": 42.333333333333336
     },
     {
       "keys": [
@@ -3090,9 +2169,9 @@
         "best medigap plans in nj"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 3,
       "ctr": 0,
-      "position": 39
+      "position": 28
     },
     {
       "keys": [
@@ -3100,9 +2179,19 @@
         "best medigap plans new jersey 2027"
       ],
       "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 68
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/new-jersey/cost",
+        "compare rates"
+      ],
+      "clicks": 0,
       "impressions": 1,
       "ctr": 0,
-      "position": 69
+      "position": 4
     },
     {
       "keys": [
@@ -3110,9 +2199,9 @@
         "cost of medicare supplement plan g"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 64
+      "position": 68
     },
     {
       "keys": [
@@ -3140,9 +2229,9 @@
         "cost of plan g medicare"
       ],
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 3,
       "ctr": 0,
-      "position": 49
+      "position": 49.333333333333336
     },
     {
       "keys": [
@@ -3197,12 +2286,22 @@
     {
       "keys": [
         "https://medicareyourself.com/medicare-supplement/new-jersey/cost",
-        "gomedicare cost"
+        "gloucester county nj"
       ],
       "clicks": 0,
       "impressions": 1,
       "ctr": 0,
-      "position": 34
+      "position": 4
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/new-jersey/cost",
+        "gomedicare cost"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 30
     },
     {
       "keys": [
@@ -3260,9 +2359,9 @@
         "how much does a medicare supplement insurance cost"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 1,
       "ctr": 0,
-      "position": 49
+      "position": 47
     },
     {
       "keys": [
@@ -3270,9 +2369,9 @@
         "how much does a prenup cost in nj"
       ],
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 6,
       "ctr": 0,
-      "position": 56
+      "position": 54.666666666666664
     },
     {
       "keys": [
@@ -3280,9 +2379,9 @@
         "how much does an addition cost in nj"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 4,
       "ctr": 0,
-      "position": 60.5
+      "position": 60.25
     },
     {
       "keys": [
@@ -3300,9 +2399,9 @@
         "how much does medicare part g cost"
       ],
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 2,
       "ctr": 0,
-      "position": 47
+      "position": 47.5
     },
     {
       "keys": [
@@ -3350,9 +2449,9 @@
         "how much does medicare supplemental insurance cost"
       ],
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 3,
       "ctr": 0,
-      "position": 58.25
+      "position": 57.666666666666664
     },
     {
       "keys": [
@@ -3390,9 +2489,9 @@
         "how much does supplemental insurance for medicare cost"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 1,
       "ctr": 0,
-      "position": 44.5
+      "position": 41
     },
     {
       "keys": [
@@ -3447,12 +2546,22 @@
     {
       "keys": [
         "https://medicareyourself.com/medicare-supplement/new-jersey/cost",
+        "how much is medicare in nj"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 12
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/new-jersey/cost",
         "how much is medicare part g"
       ],
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 2,
       "ctr": 0,
-      "position": 49.333333333333336
+      "position": 49.5
     },
     {
       "keys": [
@@ -3470,9 +2579,9 @@
         "how much is medicare supplement"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 1,
       "ctr": 0,
-      "position": 50
+      "position": 48
     },
     {
       "keys": [
@@ -3530,9 +2639,9 @@
         "how much is medigap plan g per month"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 42
+      "position": 39
     },
     {
       "keys": [
@@ -3540,19 +2649,9 @@
         "how much is plan g medicare"
       ],
       "clicks": 0,
-      "impressions": 2,
-      "ctr": 0,
-      "position": 52
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-supplement/new-jersey/cost",
-        "how much is supplemental insurance"
-      ],
-      "clicks": 0,
       "impressions": 1,
       "ctr": 0,
-      "position": 71
+      "position": 60
     },
     {
       "keys": [
@@ -3573,16 +2672,6 @@
       "impressions": 3,
       "ctr": 0,
       "position": 53
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-supplement/new-jersey/cost",
-        "how to enroll in medigap plan g in new jersey"
-      ],
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0,
-      "position": 86
     },
     {
       "keys": [
@@ -3622,7 +2711,7 @@
       "clicks": 0,
       "impressions": 15,
       "ctr": 0,
-      "position": 23.2
+      "position": 22.8
     },
     {
       "keys": [
@@ -3650,19 +2739,19 @@
         "medicare part g cost"
       ],
       "clicks": 0,
-      "impressions": 7,
+      "impressions": 8,
       "ctr": 0,
-      "position": 47.285714285714285
+      "position": 45.625
     },
     {
       "keys": [
         "https://medicareyourself.com/medicare-supplement/new-jersey/cost",
-        "medicare part g cost per month"
+        "medicare part g cost 2024"
       ],
       "clicks": 0,
       "impressions": 1,
       "ctr": 0,
-      "position": 44
+      "position": 46
     },
     {
       "keys": [
@@ -3677,22 +2766,32 @@
     {
       "keys": [
         "https://medicareyourself.com/medicare-supplement/new-jersey/cost",
-        "medicare plan g cost 2026"
-      ],
-      "clicks": 0,
-      "impressions": 3,
-      "ctr": 0,
-      "position": 44.666666666666664
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-supplement/new-jersey/cost",
-        "medicare plan g prices"
+        "medicare plan g cost"
       ],
       "clicks": 0,
       "impressions": 1,
       "ctr": 0,
-      "position": 46
+      "position": 32
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/new-jersey/cost",
+        "medicare plan g cost 2026"
+      ],
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 46.2
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/new-jersey/cost",
+        "medicare plan g cost 2027"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 35
     },
     {
       "keys": [
@@ -3700,9 +2799,9 @@
         "medicare supplement insurance cost"
       ],
       "clicks": 0,
-      "impressions": 16,
+      "impressions": 13,
       "ctr": 0,
-      "position": 48.25
+      "position": 48.38461538461539
     },
     {
       "keys": [
@@ -3710,9 +2809,9 @@
         "medicare supplement livingston nj"
       ],
       "clicks": 0,
-      "impressions": 7,
+      "impressions": 10,
       "ctr": 0,
-      "position": 21.714285714285715
+      "position": 18.9
     },
     {
       "keys": [
@@ -3727,16 +2826,6 @@
     {
       "keys": [
         "https://medicareyourself.com/medicare-supplement/new-jersey/cost",
-        "medicare supplement new jersey"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 56
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-supplement/new-jersey/cost",
         "medicare supplement plan cost"
       ],
       "clicks": 0,
@@ -3747,22 +2836,22 @@
     {
       "keys": [
         "https://medicareyourself.com/medicare-supplement/new-jersey/cost",
-        "medicare supplement plan costs 2026"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 38
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-supplement/new-jersey/cost",
         "medicare supplement plan d cost"
       ],
       "clicks": 0,
       "impressions": 1,
       "ctr": 0,
       "position": 29
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/new-jersey/cost",
+        "medicare supplement plan g cost 2026"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 33
     },
     {
       "keys": [
@@ -3780,9 +2869,9 @@
         "medicare supplement plans bridgewater nj"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 3,
       "ctr": 0,
-      "position": 31
+      "position": 20.333333333333332
     },
     {
       "keys": [
@@ -3790,9 +2879,9 @@
         "medicare supplement plans in new jersey"
       ],
       "clicks": 0,
-      "impressions": 14,
+      "impressions": 17,
       "ctr": 0,
-      "position": 44.357142857142854
+      "position": 45.88235294117647
     },
     {
       "keys": [
@@ -3810,9 +2899,9 @@
         "medicare supplement plans new jersey"
       ],
       "clicks": 0,
-      "impressions": 11,
+      "impressions": 18,
       "ctr": 0,
-      "position": 46
+      "position": 33.666666666666664
     },
     {
       "keys": [
@@ -3830,9 +2919,9 @@
         "medicare supplement plans nj"
       ],
       "clicks": 0,
-      "impressions": 45,
+      "impressions": 25,
       "ctr": 0,
-      "position": 53.51111111111111
+      "position": 49.2
     },
     {
       "keys": [
@@ -3850,9 +2939,9 @@
         "medicare supplemental insurance cost"
       ],
       "clicks": 0,
-      "impressions": 8,
+      "impressions": 4,
       "ctr": 0,
-      "position": 49.75
+      "position": 49.5
     },
     {
       "keys": [
@@ -3860,19 +2949,9 @@
         "medicare supplemental insurance nj"
       ],
       "clicks": 0,
-      "impressions": 3,
-      "ctr": 0,
-      "position": 45.666666666666664
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-supplement/new-jersey/cost",
-        "medicare supplemental plan g cost"
-      ],
-      "clicks": 0,
       "impressions": 1,
       "ctr": 0,
-      "position": 49
+      "position": 30
     },
     {
       "keys": [
@@ -3890,9 +2969,9 @@
         "medicare supplemental plans in nj"
       ],
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 2,
       "ctr": 0,
-      "position": 39
+      "position": 55
     },
     {
       "keys": [
@@ -3932,7 +3011,17 @@
       "clicks": 0,
       "impressions": 2,
       "ctr": 0,
-      "position": 70.5
+      "position": 57.5
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/new-jersey/cost",
+        "medigap plan g cost 2026"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 25
     },
     {
       "keys": [
@@ -3942,7 +3031,7 @@
       "clicks": 0,
       "impressions": 3,
       "ctr": 0,
-      "position": 34.666666666666664
+      "position": 33.333333333333336
     },
     {
       "keys": [
@@ -3970,9 +3059,9 @@
         "medigap plans in nj"
       ],
       "clicks": 0,
-      "impressions": 38,
+      "impressions": 37,
       "ctr": 0,
-      "position": 54.76315789473684
+      "position": 47.567567567567565
     },
     {
       "keys": [
@@ -3980,9 +3069,9 @@
         "medigap plans new jersey"
       ],
       "clicks": 0,
-      "impressions": 10,
+      "impressions": 13,
       "ctr": 0,
-      "position": 47.4
+      "position": 41.46153846153846
     },
     {
       "keys": [
@@ -3990,9 +3079,9 @@
         "medigap plans new jersey 2027"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 68
+      "position": 66.5
     },
     {
       "keys": [
@@ -4000,9 +3089,9 @@
         "medigap plans nj"
       ],
       "clicks": 0,
-      "impressions": 26,
+      "impressions": 14,
       "ctr": 0,
-      "position": 57.73076923076923
+      "position": 53.5
     },
     {
       "keys": [
@@ -4032,7 +3121,7 @@
       "clicks": 0,
       "impressions": 86,
       "ctr": 0,
-      "position": 43.627906976744185
+      "position": 43.26744186046512
     },
     {
       "keys": [
@@ -4040,9 +3129,9 @@
         "new jersey medicare supplement rates"
       ],
       "clicks": 0,
-      "impressions": 14,
+      "impressions": 11,
       "ctr": 0,
-      "position": 26.714285714285715
+      "position": 23.818181818181817
     },
     {
       "keys": [
@@ -4060,9 +3149,19 @@
         "new jersey medigap plans"
       ],
       "clicks": 0,
-      "impressions": 47,
+      "impressions": 40,
       "ctr": 0,
-      "position": 49.97872340425532
+      "position": 44.8
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/new-jersey/cost",
+        "nj"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 11
     },
     {
       "keys": [
@@ -4080,9 +3179,9 @@
         "nj medicare supplement plans"
       ],
       "clicks": 0,
-      "impressions": 31,
+      "impressions": 15,
       "ctr": 0,
-      "position": 56.29032258064516
+      "position": 54.53333333333333
     },
     {
       "keys": [
@@ -4090,9 +3189,9 @@
         "nj medicare supplement plans 2022"
       ],
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 7,
       "ctr": 0,
-      "position": 37.666666666666664
+      "position": 27.571428571428573
     },
     {
       "keys": [
@@ -4100,29 +3199,39 @@
         "nj medicare supplement plans 2026"
       ],
       "clicks": 0,
-      "impressions": 30,
+      "impressions": 41,
       "ctr": 0,
-      "position": 11
+      "position": 10.878048780487806
     },
     {
       "keys": [
         "https://medicareyourself.com/medicare-supplement/new-jersey/cost",
-        "nj medigap plans 2026"
-      ],
-      "clicks": 0,
-      "impressions": 15,
-      "ctr": 0,
-      "position": 11.333333333333334
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-supplement/new-jersey/cost",
-        "ocean county"
+        "nj passaic"
       ],
       "clicks": 0,
       "impressions": 1,
       "ctr": 0,
-      "position": 8
+      "position": 6
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/new-jersey/cost",
+        "part g medicare cost"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 42
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/new-jersey/cost",
+        "physicians mutual plan g coverage"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 3
     },
     {
       "keys": [
@@ -4302,7 +3411,7 @@
       "clicks": 0,
       "impressions": 1,
       "ctr": 0,
-      "position": 1
+      "position": 3
     },
     {
       "keys": [
@@ -4317,12 +3426,22 @@
     {
       "keys": [
         "https://medicareyourself.com/medicare-supplement/new-jersey/cost",
-        "zip code 07760"
+        "zip code 07726"
       ],
       "clicks": 0,
       "impressions": 1,
       "ctr": 0,
-      "position": 11
+      "position": 13
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/new-jersey/cost",
+        "zip code 08742"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 5
     },
     {
       "keys": [
@@ -4347,12 +3466,22 @@
     {
       "keys": [
         "https://medicareyourself.com/medicare-supplement/new-jersey/plan-g-vs-plan-n",
-        "best medigap plans in nj"
+        "07675"
       ],
       "clicks": 0,
       "impressions": 1,
       "ctr": 0,
-      "position": 3
+      "position": 10
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/new-jersey/plan-g-vs-plan-n",
+        "best medigap plans in nj"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 3.5
     },
     {
       "keys": [
@@ -4382,7 +3511,7 @@
       "clicks": 0,
       "impressions": 5,
       "ctr": 0,
-      "position": 47
+      "position": 44.4
     },
     {
       "keys": [
@@ -4390,9 +3519,29 @@
         "new jersey"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 1,
       "ctr": 0,
-      "position": 1.5
+      "position": 1
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/new-jersey/plan-g-vs-plan-n",
+        "plan g versus plan n"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 62
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/new-jersey/plan-g-vs-plan-n",
+        "plan g vs n"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 48
     },
     {
       "keys": [
@@ -4410,9 +3559,9 @@
         "plan g vs plan n new jersey"
       ],
       "clicks": 0,
-      "impressions": 32,
+      "impressions": 31,
       "ctr": 0,
-      "position": 6.5625
+      "position": 6.419354838709677
     },
     {
       "keys": [
@@ -4426,13 +3575,73 @@
     },
     {
       "keys": [
+        "https://medicareyourself.com/medicare-supplement/new-jersey/plan-g-vs-plan-n",
+        "yes"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/new-jersey/pricing-ages-65-69",
+        "07920"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 12
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/new-jersey/pricing-ages-65-69",
+        "08223"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 4
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/new-jersey/pricing-ages-65-69",
+        "aged 67"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 2
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/new-jersey/pricing-ages-65-69",
+        "female"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 3
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/new-jersey/pricing-ages-65-69",
+        "in new jersey"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "keys": [
         "https://medicareyourself.com/medicare-supplement/new-jersey/pricing-ages-65-69",
         "medicare-supplement new-jersey pricing-ages-65-69 medicare"
       ],
       "clicks": 0,
-      "impressions": 21,
+      "impressions": 17,
       "ctr": 0,
-      "position": 4.904761904761905
+      "position": 4.0588235294117645
     },
     {
       "keys": [
@@ -4443,6 +3652,16 @@
       "impressions": 1,
       "ctr": 0,
       "position": 5
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/new-jersey/pricing-ages-65-69",
+        "most popular medigap plan for seniors"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 168.75
     },
     {
       "keys": [
@@ -4467,12 +3686,32 @@
     {
       "keys": [
         "https://medicareyourself.com/medicare-supplement/new-jersey/pricing-ages-65-69",
-        "plan g"
+        "nj"
       ],
       "clicks": 0,
       "impressions": 1,
       "ctr": 0,
-      "position": 9
+      "position": 11
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/new-jersey/pricing-ages-65-69",
+        "plan g"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 5.5
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/new-jersey/pricing-ages-65-69",
+        "plan n"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 5
     },
     {
       "keys": [
@@ -4490,9 +3729,19 @@
         "yes"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 4,
       "ctr": 0,
-      "position": 10
+      "position": 6
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/new-jersey/pricing-ages-65-69",
+        "yes compare"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 1
     },
     {
       "keys": [
@@ -4542,7 +3791,7 @@
       "clicks": 0,
       "impressions": 6,
       "ctr": 0,
-      "position": 93.16666666666667
+      "position": 93.33333333333333
     },
     {
       "keys": [
@@ -4552,7 +3801,7 @@
       "clicks": 0,
       "impressions": 4,
       "ctr": 0,
-      "position": 83
+      "position": 82.5
     },
     {
       "keys": [
@@ -4570,9 +3819,9 @@
         "best medicare supplement plans pennsylvania"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 4,
       "ctr": 0,
-      "position": 53.5
+      "position": 55.25
     },
     {
       "keys": [
@@ -4580,9 +3829,9 @@
         "best medicare supplement plans pennsylvania 2027"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 59
+      "position": 60
     },
     {
       "keys": [
@@ -4602,7 +3851,7 @@
       "clicks": 0,
       "impressions": 3,
       "ctr": 0,
-      "position": 74.33333333333333
+      "position": 76
     },
     {
       "keys": [
@@ -4610,9 +3859,9 @@
         "best medigap plans pennsylvania 2027"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 54
+      "position": 53.5
     },
     {
       "keys": [
@@ -4622,7 +3871,7 @@
       "clicks": 0,
       "impressions": 7,
       "ctr": 0,
-      "position": 67.71428571428571
+      "position": 69.42857142857143
     },
     {
       "keys": [
@@ -4640,9 +3889,9 @@
         "compare pennsylvania medicare advantage plans"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 63
+      "position": 64.5
     },
     {
       "keys": [
@@ -4662,7 +3911,7 @@
       "clicks": 0,
       "impressions": 4,
       "ctr": 0,
-      "position": 57.25
+      "position": 58.5
     },
     {
       "keys": [
@@ -4670,9 +3919,9 @@
         "medicare advantage plans pennsylvania 2025"
       ],
       "clicks": 0,
-      "impressions": 9,
+      "impressions": 7,
       "ctr": 0,
-      "position": 67.11111111111111
+      "position": 66.85714285714286
     },
     {
       "keys": [
@@ -4680,9 +3929,9 @@
         "medicare health plans in pa"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 3,
       "ctr": 0,
-      "position": 83
+      "position": 83.66666666666667
     },
     {
       "keys": [
@@ -4692,7 +3941,27 @@
       "clicks": 0,
       "impressions": 8,
       "ctr": 0,
-      "position": 71.25
+      "position": 73.625
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/pennsylvania",
+        "medicare insurance pa"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 69
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/pennsylvania",
+        "medicare insurance pennsylvania"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 63
     },
     {
       "keys": [
@@ -4700,9 +3969,9 @@
         "medicare plans in pa"
       ],
       "clicks": 0,
-      "impressions": 6,
+      "impressions": 7,
       "ctr": 0,
-      "position": 58.833333333333336
+      "position": 59.57142857142857
     },
     {
       "keys": [
@@ -4710,9 +3979,9 @@
         "medicare plans in pennsylvania"
       ],
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 3,
       "ctr": 0,
-      "position": 53.75
+      "position": 53
     },
     {
       "keys": [
@@ -4720,9 +3989,9 @@
         "medicare plans pennsylvania"
       ],
       "clicks": 0,
-      "impressions": 15,
+      "impressions": 12,
       "ctr": 0,
-      "position": 61.266666666666666
+      "position": 62
     },
     {
       "keys": [
@@ -4730,9 +3999,9 @@
         "medicare supplement pennsylvania"
       ],
       "clicks": 0,
-      "impressions": 7,
+      "impressions": 9,
       "ctr": 0,
-      "position": 48.285714285714285
+      "position": 45.55555555555556
     },
     {
       "keys": [
@@ -4740,9 +4009,9 @@
         "medicare supplement plan g in pennsylvania"
       ],
       "clicks": 0,
-      "impressions": 5,
+      "impressions": 7,
       "ctr": 0,
-      "position": 68.2
+      "position": 67
     },
     {
       "keys": [
@@ -4750,9 +4019,9 @@
         "medicare supplement plans in pa"
       ],
       "clicks": 0,
-      "impressions": 19,
+      "impressions": 27,
       "ctr": 0,
-      "position": 70.42105263157895
+      "position": 70.18518518518519
     },
     {
       "keys": [
@@ -4760,9 +4029,9 @@
         "medicare supplement plans in pennsylvania"
       ],
       "clicks": 0,
-      "impressions": 19,
+      "impressions": 23,
       "ctr": 0,
-      "position": 67.36842105263158
+      "position": 57.95652173913044
     },
     {
       "keys": [
@@ -4770,9 +4039,9 @@
         "medicare supplement plans in pennsylvania cost"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 58
+      "position": 61
     },
     {
       "keys": [
@@ -4780,9 +4049,9 @@
         "medicare supplement plans pa"
       ],
       "clicks": 0,
-      "impressions": 62,
+      "impressions": 78,
       "ctr": 0,
-      "position": 54.53225806451613
+      "position": 52.48717948717949
     },
     {
       "keys": [
@@ -4790,9 +4059,19 @@
         "medicare supplement plans pennsylvania"
       ],
       "clicks": 0,
-      "impressions": 41,
+      "impressions": 45,
       "ctr": 0,
-      "position": 46.4390243902439
+      "position": 44.8
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/pennsylvania",
+        "medicare supplement plans pennsylvania 2027"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 78
     },
     {
       "keys": [
@@ -4800,9 +4079,9 @@
         "medicare supplemental insurance pa"
       ],
       "clicks": 0,
-      "impressions": 5,
+      "impressions": 4,
       "ctr": 0,
-      "position": 63.2
+      "position": 62.75
     },
     {
       "keys": [
@@ -4810,9 +4089,9 @@
         "medicare supplemental insurance pennsylvania"
       ],
       "clicks": 0,
-      "impressions": 19,
+      "impressions": 22,
       "ctr": 0,
-      "position": 58.36842105263158
+      "position": 55.63636363636363
     },
     {
       "keys": [
@@ -4822,7 +4101,7 @@
       "clicks": 0,
       "impressions": 6,
       "ctr": 0,
-      "position": 83.66666666666667
+      "position": 72.66666666666667
     },
     {
       "keys": [
@@ -4832,7 +4111,7 @@
       "clicks": 0,
       "impressions": 3,
       "ctr": 0,
-      "position": 75.66666666666667
+      "position": 79.66666666666667
     },
     {
       "keys": [
@@ -4870,9 +4149,9 @@
         "medigap pennsylvania"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 3,
       "ctr": 0,
-      "position": 46.5
+      "position": 47.333333333333336
     },
     {
       "keys": [
@@ -4880,9 +4159,9 @@
         "medigap plan g pennsylvania"
       ],
       "clicks": 0,
-      "impressions": 5,
+      "impressions": 7,
       "ctr": 0,
-      "position": 56.4
+      "position": 56.285714285714285
     },
     {
       "keys": [
@@ -4900,9 +4179,9 @@
         "medigap plans in pennsylvania"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 7,
       "ctr": 0,
-      "position": 46.5
+      "position": 39.285714285714285
     },
     {
       "keys": [
@@ -4910,9 +4189,9 @@
         "medigap plans pa"
       ],
       "clicks": 0,
-      "impressions": 58,
+      "impressions": 65,
       "ctr": 0,
-      "position": 57.62068965517241
+      "position": 57.16923076923077
     },
     {
       "keys": [
@@ -4920,9 +4199,9 @@
         "medigap plans pennsylvania"
       ],
       "clicks": 0,
-      "impressions": 14,
+      "impressions": 16,
       "ctr": 0,
-      "position": 39.642857142857146
+      "position": 43.4375
     },
     {
       "keys": [
@@ -4932,7 +4211,17 @@
       "clicks": 0,
       "impressions": 2,
       "ctr": 0,
-      "position": 64.5
+      "position": 59
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/pennsylvania",
+        "medigap policies in pa"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 50.666666666666664
     },
     {
       "keys": [
@@ -4950,9 +4239,9 @@
         "pa medicare plans"
       ],
       "clicks": 0,
-      "impressions": 44,
+      "impressions": 49,
       "ctr": 0,
-      "position": 58.97727272727273
+      "position": 60.93877551020408
     },
     {
       "keys": [
@@ -4960,9 +4249,9 @@
         "pa medicare supplement plans"
       ],
       "clicks": 0,
-      "impressions": 13,
+      "impressions": 12,
       "ctr": 0,
-      "position": 50.46153846153846
+      "position": 45.416666666666664
     },
     {
       "keys": [
@@ -4972,7 +4261,7 @@
       "clicks": 0,
       "impressions": 4,
       "ctr": 0,
-      "position": 38.25
+      "position": 46.25
     },
     {
       "keys": [
@@ -4980,9 +4269,9 @@
         "pennsylvania medicare plans"
       ],
       "clicks": 0,
-      "impressions": 10,
+      "impressions": 13,
       "ctr": 0,
-      "position": 55.9
+      "position": 57.84615384615385
     },
     {
       "keys": [
@@ -4990,9 +4279,9 @@
         "pennsylvania medicare supplement"
       ],
       "clicks": 0,
-      "impressions": 7,
+      "impressions": 9,
       "ctr": 0,
-      "position": 50.142857142857146
+      "position": 51.55555555555556
     },
     {
       "keys": [
@@ -5000,9 +4289,9 @@
         "pennsylvania medicare supplement plans"
       ],
       "clicks": 0,
-      "impressions": 101,
+      "impressions": 115,
       "ctr": 0,
-      "position": 47.78217821782178
+      "position": 46.07826086956522
     },
     {
       "keys": [
@@ -5012,7 +4301,7 @@
       "clicks": 0,
       "impressions": 17,
       "ctr": 0,
-      "position": 48
+      "position": 48.05882352941177
     },
     {
       "keys": [
@@ -5020,9 +4309,9 @@
         "pennsylvania medigap plans"
       ],
       "clicks": 0,
-      "impressions": 63,
+      "impressions": 74,
       "ctr": 0,
-      "position": 47.92063492063492
+      "position": 46.486486486486484
     },
     {
       "keys": [
@@ -5042,7 +4331,7 @@
       "clicks": 0,
       "impressions": 9,
       "ctr": 0,
-      "position": 72.11111111111111
+      "position": 72.55555555555556
     },
     {
       "keys": [
@@ -5050,9 +4339,109 @@
         "what is the best medicare supplement plan in pennsylvania"
       ],
       "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 22
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/woodmenlife-medigap-review",
+        "woodman medicare supplement"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 40
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/woodmenlife-medigap-review",
+        "woodmen life medicare supplement"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 17.75
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/woodmenlife-medigap-review",
+        "woodmen life medicare supplement reviews"
+      ],
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 14.2
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/woodmenlife-medigap-review",
+        "woodmen life medicare supplement reviews complaints"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 31
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/woodmenlife-medigap-review",
+        "woodmen of the world medicare supplement cost"
+      ],
+      "clicks": 0,
       "impressions": 1,
       "ctr": 0,
       "position": 34
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/woodmenlife-medigap-review",
+        "woodmen of the world medicare supplement reviews"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 36.333333333333336
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/woodmenlife-medigap-review",
+        "woodmenlife med supp"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 37
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/woodmenlife-medigap-review",
+        "woodmenlife medicare insurance"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 33
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/woodmenlife-medigap-review",
+        "woodmenlife medicare supplement"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 30
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/woodmenlife-medigap-review",
+        "woodmenlife medicare supplement insurance"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 31
     },
     {
       "keys": [
@@ -5070,9 +4459,9 @@
         "free medicare insurance broker"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 8,
       "ctr": 0,
-      "position": 77
+      "position": 80
     },
     {
       "keys": [
@@ -5100,9 +4489,9 @@
         "easykind medicare"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 3,
       "ctr": 0,
-      "position": 11
+      "position": 11.666666666666666
     },
     {
       "keys": [
@@ -5136,156 +4525,26 @@
     },
     {
       "keys": [
-        "https://medicareyourself.com/services/medicare-insurance-agents-in-camden-new-jersey",
-        "independent medicare advisor camden nj"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 24
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/services/medicare-insurance-agents-in-camden-new-jersey",
-        "independent medicare agency camden county nj"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 9
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/services/medicare-insurance-agents-in-camden-new-jersey",
-        "independent medicare agency camden nj"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 16
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/services/medicare-insurance-agents-in-camden-new-jersey",
-        "independent medicare agent camden county nj"
+        "https://medicareyourself.com/services/quickest-way-to-enroll-into-medicare-advantage-plan",
+        "how to enroll in medicare advantage"
       ],
       "clicks": 0,
       "impressions": 2,
       "ctr": 0,
-      "position": 10
+      "position": 72.5
     },
     {
       "keys": [
-        "https://medicareyourself.com/services/medicare-insurance-agents-in-camden-new-jersey",
-        "independent medicare agent camden nj"
+        "https://medicareyourself.com/services/quickest-way-to-enroll-into-medicare-advantage-plan",
+        "services quickest-way-to-enroll-into-medicare-advantage-plan medicare"
       ],
       "clicks": 0,
       "impressions": 1,
       "ctr": 0,
-      "position": 11
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/services/medicare-insurance-agents-in-camden-new-jersey",
-        "independent medicare agents camden county nj"
-      ],
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0,
-      "position": 10
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/services/medicare-insurance-agents-in-camden-new-jersey",
-        "independent medicare agents camden nj"
-      ],
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0,
-      "position": 11
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/services/medicare-insurance-agents-in-camden-new-jersey",
-        "independent medicare broker camden county nj"
-      ],
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0,
-      "position": 13.5
+      "position": 6
     }
   ],
   "longTailQueries": [
-    {
-      "keys": [
-        "https://medicareyourself.com/",
-        "independent medicare insurance advisor jersey city nj"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 48
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/",
-        "independent medicare insurance agent franklin township nj"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 46
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/",
-        "independent medicare insurance agent jersey city nj"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 50
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/",
-        "independent medicare insurance broker atlantic county nj"
-      ],
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0,
-      "position": 44.5
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/",
-        "independent medicare insurance broker jersey city nj"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 48
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/",
-        "independent medicare insurance services franklin township nj"
-      ],
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0,
-      "position": 48
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/",
-        "independent medicare insurance specialist somerset county nj"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 45
-    },
     {
       "keys": [
         "https://medicareyourself.com/learn/how-to-enroll-in-a-medicare-supplement-plan",
@@ -5304,7 +4563,7 @@
       "clicks": 0,
       "impressions": 13,
       "ctr": 0,
-      "position": 78
+      "position": 71.38461538461539
     },
     {
       "keys": [
@@ -5322,9 +4581,9 @@
         "best medicare part c plans new jersey 2027"
       ],
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 2,
       "ctr": 0,
-      "position": 52
+      "position": 45.5
     },
     {
       "keys": [
@@ -5332,69 +4591,9 @@
         "best medicare part d plans new jersey"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 4,
       "ctr": 0,
-      "position": 94
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "independent medicare insurance expert salem county nj"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 48
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "independent medicare insurance specialist cape may county nj"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 40
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "medicare advantage expert cape may county nj"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 49
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "medicare advantage services cape may county nj"
-      ],
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0,
-      "position": 45
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "medicare advantage specialist cape may county nj"
-      ],
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0,
-      "position": 31
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-advantage/new-jersey",
-        "medicare part c plans new jersey 2027"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 67
+      "position": 96
     },
     {
       "keys": [
@@ -5422,19 +4621,49 @@
         "new jersey medicare advantage plans for 2025"
       ],
       "clicks": 0,
-      "impressions": 5,
+      "impressions": 4,
       "ctr": 0,
-      "position": 59.4
+      "position": 57.5
     },
     {
       "keys": [
-        "https://medicareyourself.com/medicare-supplement/new-jersey",
-        "best medicare part d plans new jersey"
+        "https://medicareyourself.com/medicare-supplement/mutual-of-omaha-medigap-review",
+        "is mutual of omaha a good medicare supplement"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 80.5
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/mutual-of-omaha-medigap-review",
+        "mutual of omaha medicare supplement plan f reviews"
       ],
       "clicks": 0,
       "impressions": 1,
       "ctr": 0,
-      "position": 97
+      "position": 66
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/mutual-of-omaha-medigap-review",
+        "mutual of omaha medicare supplement plan g reviews"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 61
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/mutual-of-omaha-medigap-review",
+        "mutual of omaha medicare supplement plans reviews"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 62.5
     },
     {
       "keys": [
@@ -5442,9 +4671,9 @@
         "best medicare supplement plans in new jersey"
       ],
       "clicks": 0,
-      "impressions": 9,
+      "impressions": 7,
       "ctr": 0,
-      "position": 72.44444444444444
+      "position": 77.28571428571429
     },
     {
       "keys": [
@@ -5454,7 +4683,7 @@
       "clicks": 0,
       "impressions": 7,
       "ctr": 0,
-      "position": 29.428571428571427
+      "position": 28.857142857142858
     },
     {
       "keys": [
@@ -5469,32 +4698,12 @@
     {
       "keys": [
         "https://medicareyourself.com/medicare-supplement/new-jersey",
-        "best medicare supplement plans new jersey 2027"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 31
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-supplement/new-jersey",
-        "how to enroll in medigap plan g in new jersey"
-      ],
-      "clicks": 0,
-      "impressions": 5,
-      "ctr": 0,
-      "position": 29.4
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-supplement/new-jersey",
         "medicare supplement plans new jersey in 2023"
       ],
       "clicks": 0,
-      "impressions": 6,
+      "impressions": 7,
       "ctr": 0,
-      "position": 26.333333333333332
+      "position": 26.857142857142858
     },
     {
       "keys": [
@@ -5512,9 +4721,9 @@
         "what is the best medicare supplement plan in nj"
       ],
       "clicks": 0,
-      "impressions": 14,
+      "impressions": 16,
       "ctr": 0,
-      "position": 28.357142857142858
+      "position": 22.625
     },
     {
       "keys": [
@@ -5532,9 +4741,9 @@
         "average cost of medicare supplement per month"
       ],
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 3,
       "ctr": 0,
-      "position": 43.5
+      "position": 43.666666666666664
     },
     {
       "keys": [
@@ -5542,9 +4751,9 @@
         "average cost of medicare supplemental insurance policy"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 1,
       "ctr": 0,
-      "position": 74.5
+      "position": 76
     },
     {
       "keys": [
@@ -5562,9 +4771,29 @@
         "best medicare supplement plans in new jersey"
       ],
       "clicks": 0,
-      "impressions": 6,
+      "impressions": 9,
       "ctr": 0,
-      "position": 57.5
+      "position": 58.77777777777778
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/new-jersey/cost",
+        "best medicare supplement plans in new jersey 2024"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 30
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/new-jersey/cost",
+        "best medicare supplement plans new jersey 2027"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 27
     },
     {
       "keys": [
@@ -5602,9 +4831,9 @@
         "how much does a medicare supplement insurance cost"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 1,
       "ctr": 0,
-      "position": 49
+      "position": 47
     },
     {
       "keys": [
@@ -5612,9 +4841,9 @@
         "how much does a prenup cost in nj"
       ],
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 6,
       "ctr": 0,
-      "position": 56
+      "position": 54.666666666666664
     },
     {
       "keys": [
@@ -5622,9 +4851,9 @@
         "how much does an addition cost in nj"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 4,
       "ctr": 0,
-      "position": 60.5
+      "position": 60.25
     },
     {
       "keys": [
@@ -5642,9 +4871,9 @@
         "how much does medicare part g cost"
       ],
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 2,
       "ctr": 0,
-      "position": 47
+      "position": 47.5
     },
     {
       "keys": [
@@ -5682,9 +4911,9 @@
         "how much does medicare supplemental insurance cost"
       ],
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 3,
       "ctr": 0,
-      "position": 58.25
+      "position": 57.666666666666664
     },
     {
       "keys": [
@@ -5722,9 +4951,9 @@
         "how much does supplemental insurance for medicare cost"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 1,
       "ctr": 0,
-      "position": 44.5
+      "position": 41
     },
     {
       "keys": [
@@ -5762,9 +4991,9 @@
         "how much is medigap plan g per month"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 42
+      "position": 39
     },
     {
       "keys": [
@@ -5775,16 +5004,6 @@
       "impressions": 1,
       "ctr": 0,
       "position": 52
-    },
-    {
-      "keys": [
-        "https://medicareyourself.com/medicare-supplement/new-jersey/cost",
-        "how to enroll in medigap plan g in new jersey"
-      ],
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0,
-      "position": 86
     },
     {
       "keys": [
@@ -5872,9 +5091,9 @@
         "plan g vs plan n new jersey"
       ],
       "clicks": 0,
-      "impressions": 32,
+      "impressions": 31,
       "ctr": 0,
-      "position": 6.5625
+      "position": 6.419354838709677
     },
     {
       "keys": [
@@ -5924,7 +5143,7 @@
       "clicks": 0,
       "impressions": 9,
       "ctr": 0,
-      "position": 72.11111111111111
+      "position": 72.55555555555556
     },
     {
       "keys": [
@@ -5932,9 +5151,29 @@
         "what is the best medicare supplement plan in pennsylvania"
       ],
       "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 22
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/woodmenlife-medigap-review",
+        "woodmen of the world medicare supplement cost"
+      ],
+      "clicks": 0,
       "impressions": 1,
       "ctr": 0,
       "position": 34
+    },
+    {
+      "keys": [
+        "https://medicareyourself.com/medicare-supplement/woodmenlife-medigap-review",
+        "woodmen of the world medicare supplement reviews"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 36.333333333333336
     }
   ]
 }

@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title:
     "jackson nj medicare insurance agents | Free Local Broker Help | MedicareYourself",
   description:
-    "Compare Jackson NJ Medicare Supplement and Advantage plans with independent broker Anthony Orner. Free quotes, no pressure. Call 855-559-1700 today.",
+    "Compare Jackson NJ Medicare Supplement & Advantage plans with independent broker Anthony Orner. Free, no-pressure quotes across top carriers. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/jackson-nj-medicare-insurance-agents" },
   openGraph: {
     title:

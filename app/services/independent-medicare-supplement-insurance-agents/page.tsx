@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "independent medicare supplement insurance agents | Free Help | MedicareYourself",
   description:
-    "Work with an independent Medicare Supplement insurance agent who compares every top carrier at no cost. Call Anthony Orner at 855-559-1700 for a free quote.",
+    "Compare every top Medicare Supplement carrier with an independent, licensed agent at no cost. Call Anthony Orner at 855-559-1700 for a free quote today.",
   alternates: { canonical: "https://medicareyourself.com/services/independent-medicare-supplement-insurance-agents" },
   openGraph: {
     title:
@@ -356,6 +356,7 @@ export default function IndependentMedicareSuppAgentsPage() {
 </ul>
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/health-drug-plans/medigap" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov Medigap basics</a> and <a href="https://www.medicare.gov/talk-to-someone" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Talk to someone</a>.</div>
             <div className="text-sm text-gray-600 mt-4">For free, unbiased counseling, contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> or the <a href="https://www.nj.gov/dobi/division_insurance/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can contact the <a href="https://www.state.nj.us/dobi/division_insurance/index.htm" rel="noopener noreferrer" target="_blank" className="underline">New Jersey Department of Banking and Insurance</a> for consumer assistance.</div>
       </section>
     </>
   );

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "You Get a Medicare Supplement Plan If You Have a Pre-Existing Condition | Free Guidance | MedicareYourself",
   description:
-    "Yes, you can get a Medicare Supplement plan with pre-existing conditions during guaranteed-issue windows. Call 855-559-1700 for free personalized guidance.",
+    "Yes, you can get a Medicare Supplement plan with pre-existing conditions during your guaranteed-issue window. Call 855-559-1700 for free personalized guidance.",
   alternates: { canonical: "https://medicareyourself.com/services/you-get-a-medicare-supplement-plan-if-you-have-a-pre-existing-condition" },
   openGraph: {
     title:
@@ -87,6 +87,16 @@ const faqs = [
       "Do all states handle Medigap pre-existing conditions the same way?",
     answer:
       "No. Some states like New York, Connecticut, and Massachusetts require insurers to sell Medigap plans year-round without medical underwriting. Other states follow only the federal minimum rules. Your state matters a lot, so it's worth confirming the rules where you live.",
+  },
+  {
+    question: "Does Original Medicare deny coverage for pre-existing conditions?",
+    answer:
+      "No. Original Medicare (Part A and Part B) has covered pre-existing conditions since the program began in 1965. Your eligibility and coverage under Original Medicare are not affected by health problems you had before enrolling. Pre-existing condition rules only affect Medigap underwriting in certain situations.",
+  },
+  {
+    question: "Can an insurer charge me more for a Medigap plan because of my health during open enrollment?",
+    answer:
+      "No. During your 6-month Medigap Open Enrollment Period, insurers cannot use medical underwriting or charge you more because of pre-existing health problems. This is the best window to lock in coverage and generally get better prices and more plan choices. Call 855-559-1700 to make sure you don't miss it.",
   },
 ];
 
@@ -317,6 +327,7 @@ export default function PreExistingConditionMedigapPage() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free one-on-one Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">Need state-specific help? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free local Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased Medicare counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank">New Jersey State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
 
       <p className="text-sm text-gray-400 mt-10">

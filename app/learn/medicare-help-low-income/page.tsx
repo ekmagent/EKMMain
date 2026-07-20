@@ -8,7 +8,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Medicare Help on a Fixed Income (2026)",
   description:
-    "See if you qualify for Extra Help, QMB, SLMB, or a Medicare Savings Program that lowers premiums and drug costs. Free help: 855-559-1700.",
+    "Find out if you qualify for Extra Help, QMB, SLMB, or a Medicare Savings Program to lower premiums and drug costs. Get free guidance today: 855-559-1700.",
   alternates: { canonical: `${SITE_URL}/learn/medicare-help-low-income` },
   openGraph: {
     title: "Medicare Help on a Fixed Income (2026)",
@@ -75,6 +75,16 @@ const faqs = [
     question: "How do I apply for Medicare Savings Programs in New Jersey?",
     answer:
       "In New Jersey, apply for Medicare Savings Programs through NJ FamilyCare at njfamilycare.org or call 1-800-701-0710. You can also get free help from NJ SHIP (State Health Insurance Assistance Program) at 1-800-792-8820. An independent broker like EasyKind Medicare can also help you understand which programs you may qualify for before you apply.",
+  },
+  {
+    question: "Do I have to reapply for Extra Help or a Medicare Savings Program each year?",
+    answer:
+      "Extra Help and Medicare Savings Programs may require you to report income or asset changes, and your state may periodically review your eligibility. If your circumstances change, it's important to update your information so your benefits continue correctly. Call us at 855-559-1700 if you're unsure about your status.",
+  },
+  {
+    question: "Can I qualify for Extra Help and a Medicare Savings Program at the same time?",
+    answer:
+      "Yes. Many people qualify for both, and enrollment in certain Medicare Savings Programs like QMB or SLMB automatically qualifies you for Extra Help with prescription drug costs. Applying for one can open the door to the other. Reach out at 855-559-1700 to review your options.",
   },
 ];
 

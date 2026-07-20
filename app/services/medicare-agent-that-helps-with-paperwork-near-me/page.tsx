@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare agent that helps with paperwork near me | Free Help in NJ | MedicareYourself",
   description:
-    "Need a Medicare agent to handle the paperwork? Anthony Orner completes applications, carrier forms, and CMS enrollment free. Call 855-559-1700 today.",
+    "Skip the Medicare paperwork stress. Anthony Orner completes applications, carrier forms, and CMS enrollment free across NJ. Call 855-559-1700 for help today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-agent-that-helps-with-paperwork-near-me" },
   openGraph: {
     title:
@@ -262,6 +262,7 @@ export default function MedicareAgentPaperworkPage() {
           </li>
         </ul>
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/basics/get-started-with-medicare/sign-up/how-do-i-sign-up-for-medicare" rel="noopener noreferrer" target="_blank" className="underline">How to sign up for Medicare (Medicare.gov)</a> and <a href="https://www.ssa.gov/medicare/sign-up" rel="noopener noreferrer" target="_blank" className="underline">Apply for Medicare through Social Security</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">For free, unbiased local counseling, contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">New Jersey SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
     </main>
   );

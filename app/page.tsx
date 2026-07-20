@@ -5,9 +5,9 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 import { SITE_URL } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "NJ Medicare Broker 2026 | Independent Advisor, 35 States",
+  title: "NJ Medicare Broker 2026 | Compare Plans Free",
   description:
-    "Compare 2026 Medicare Advantage & Medigap plans with an independent NJ broker. Free, no-pressure guidance from a licensed advisor. Get your quote today.",
+    "Compare 2026 Medicare Advantage & Medigap plans with an independent NJ broker. Free, unbiased guidance from a licensed advisor. Get your free quote today.",
   alternates: { canonical: SITE_URL },
   openGraph: {
     title: "MedicareYourself | Medicare Insurance Broker",
@@ -57,7 +57,7 @@ export default function HomePage() {
             Independent Medicare Broker · Appointed with Multiple Carriers · Licensed in 35 States
           </p>
           <h1 className="text-5xl md:text-6xl font-black tracking-tight text-[#1C2B27] leading-[1.1] mb-6">
-          Independent Medicare Broker in New Jersey — Compare 2026 Plans Free
+          Compare 2026 Medicare Plans in New Jersey with an Independent Broker
         </h1>
         <p className="text-sm text-gray-500 mt-2">By <strong>Anthony Orner</strong>, Licensed Medicare Insurance Broker — NJ &amp; 34 states</p>
           <p className="text-lg text-[#3A5048] mb-10 max-w-xl mx-auto leading-relaxed">

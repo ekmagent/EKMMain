@@ -100,7 +100,12 @@ const faqs = [
     question: "Does Medicare cover diabetes self-management training and nutrition counseling?",
     answer:
       "Yes. Medicare Part B covers diabetes self-management training (DSMT) with a doctor's referral and medical nutrition therapy (MNT) for people with diabetes or kidney disease. Many Medicare Advantage plans also offer additional wellness benefits that support diabetes management.",
-  }
+  },
+  {
+    question: "Can a Medicare broker help me compare Part D formularies for my diabetes drugs?",
+    answer:
+      "Yes. Each Medicare Part D and Medicare Advantage plan uses its own formulary, so the same medication can be covered differently from one plan to the next. A broker can check whether your specific diabetes drugs are on a plan's formulary and flag any prior authorization or step therapy requirements before you enroll.",
+  },
 ];
 
 export default function MedicareBrokerForDiabetics() {

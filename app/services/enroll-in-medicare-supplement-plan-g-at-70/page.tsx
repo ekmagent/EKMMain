@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "enroll in medicare supplement plan g at 70 | Free Broker Help | MedicareYourself",
   description:
-    "Enroll in Medicare Supplement Plan G at 70 with broker guidance on underwriting, carrier choice, and Guaranteed Issue rights. Call 855-559-1700 for free help.",
+    "Enroll in Medicare Supplement Plan G at 70 with expert broker help on underwriting and carrier choice — even past open enrollment. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/enroll-in-medicare-supplement-plan-g-at-70" },
   openGraph: {
     title:
@@ -85,6 +85,16 @@ const faqs = [
     question: "How much does Plan G cost at age 70?",
     answer:
       "Rates vary by carrier, zip code, and health status. Attained-age-rated plans will be higher at 70 than at 65, but choosing a carrier with stable long-term rate behavior matters more than chasing the lowest starting premium. Call 855-559-1700 for a free rate comparison.",
+  },
+  {
+    question: "Can I switch to Plan G at 70 if I already have another Medigap plan?",
+    answer:
+      "Yes, but outside a Guaranteed Issue period you'll typically need to pass medical underwriting to switch. Because you might not be able to switch policies later, it's important to choose a plan that meets your current and future health needs. A broker can compare carriers to find one likely to approve you at your current health status.",
+  },
+  {
+    question: "Does my state offer extra Medigap enrollment rights beyond federal rules?",
+    answer:
+      "Some states provide additional opportunities to buy or switch a Medigap policy under state law beyond your federal rights. These protections vary widely, so it's worth checking with your state insurance department or SHIP program. Call 855-559-1700 and we'll review the rules that apply where you live.",
   },
 ];
 

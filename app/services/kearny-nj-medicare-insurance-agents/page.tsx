@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title:
     "kearny nj medicare insurance agents | Free Consultation | MedicareYourself",
   description:
-    "Kearny NJ Medicare insurance agents — Anthony Orner is a licensed independent broker comparing Supplement and Advantage plans in Hudson County. Free consult.",
+    "Kearny NJ Medicare insurance agents — compare Supplement & Advantage plans with licensed broker Anthony Orner at no cost. Call for a free consult today.",
   alternates: { canonical: "https://medicareyourself.com/services/kearny-nj-medicare-insurance-agents" },
   openGraph: {
     title:

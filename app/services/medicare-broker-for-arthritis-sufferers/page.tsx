@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for arthritis sufferers | Free Plan Comparison | MedicareYourself",
   description:
-    "Medicare broker for arthritis sufferers who need biologics, specialist visits, and joint care covered right. Anthony Orner compares plans for free.",
+    "Get arthritis biologics, specialists & joint care covered right. Broker Anthony Orner compares Medicare plans free—call 855-559-1700 for a quote.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-arthritis-sufferers" },
   openGraph: {
     title:
@@ -270,6 +270,7 @@ export default function MedicareBrokerForArthritisSufferers() {
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/coverage/prescription-drugs-outpatient" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Part B drug coverage</a> and <a href="https://www.medicare.gov/plan-compare/" rel="noopener noreferrer" target="_blank" className="underline">Medicare Plan Finder</a> to compare formularies for arthritis medications.</div>
             <div className="text-sm text-gray-600 mt-4">Need unbiased local help? Contact your <a href="https://www.shiphelp.org/" rel="noopener noreferrer" target="_blank" className="underline">State Health Insurance Assistance Program (SHIP)</a> for free Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
     </main>
   );

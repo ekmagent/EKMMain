@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "best independent medicare broker near me new jersey | Free Consultation | MedicareYourself",
   description:
-    "Best independent Medicare broker near me in New Jersey? Anthony Orner compares 20+ carriers, charges nothing, and serves every NJ county. Free consultation.",
+    "Looking for the best independent Medicare broker near you in New Jersey? Anthony Orner compares 20+ carriers at no cost. Call 855-559-1700 for a free review.",
   alternates: { canonical: "https://medicareyourself.com/services/best-independent-medicare-broker-near-me-new-jersey" },
   openGraph: {
     title:
@@ -86,6 +86,21 @@ const faqs = [
     question: "Can a Medicare broker help me if I live in a rural NJ county?",
     answer:
       "Yes. Anthony Orner serves all 21 New Jersey counties by phone, video, or in person. Whether you're in Sussex County or Cape May, you get the same full plan comparison and enrollment support.",
+  },
+  {
+    question: "When can I enroll in a Medigap plan in New Jersey?",
+    answer:
+      "New Jersey follows the 6-month Medigap Open Enrollment Period, which begins when you're 65 or older and enrolled in Medicare Part B. During this window you have guaranteed issue rights, meaning carriers cannot deny you or charge more based on health. New Jersey also uses community rating, so Medigap premiums are not based on your age.",
+  },
+  {
+    question: "Does a Medicare broker help with both Medicare Advantage and Medigap?",
+    answer:
+      "Yes. An independent broker like Anthony Orner can walk you through Medicare Advantage plans, Medigap (Medicare Supplement) plans, and standalone Part D prescription drug coverage. Comparing all your options side by side helps you choose the coverage that fits your doctors, medications, and budget.",
+  },
+  {
+    question: "How do I get started with a free Medicare consultation in New Jersey?",
+    answer:
+      "Call Anthony Orner at 855-559-1700 to schedule a free, no-obligation consultation. He'll review your current situation, compare plans across 20+ carriers, and help you enroll in coverage that fits your needs at no cost to you.",
   },
 ];
 

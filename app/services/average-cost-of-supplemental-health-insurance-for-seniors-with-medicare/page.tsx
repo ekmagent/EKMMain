@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "average cost of supplemental health insurance for seniors with medicare | Free Broker Comparison | MedicareYourself",
   description:
-    "Compare average supplemental health insurance costs for seniors on Medicare. See how Medigap pricing works and get a free broker comparison — call today.",
+    "See how supplemental insurance costs for seniors on Medicare vary by plan, age, and state. Get a free broker comparison — call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/average-cost-of-supplemental-health-insurance-for-seniors-with-medicare" },
   openGraph: {
     title:

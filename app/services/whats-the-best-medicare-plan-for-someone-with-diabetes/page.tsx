@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "what's the best medicare plan for someone with diabetes | Free Guidance | MedicareYourself",
   description:
-    "What's the best Medicare plan for someone with diabetes? Compare Supplement and Advantage coverage for insulin, CGMs, and A1C testing. Free broker guidance.",
+    "Best Medicare plan for diabetes? Compare Supplement vs. Advantage coverage for insulin, CGMs & A1C tests. Get free, honest broker guidance today.",
   alternates: { canonical: "https://medicareyourself.com/services/whats-the-best-medicare-plan-for-someone-with-diabetes" },
   openGraph: {
     title:
@@ -335,6 +335,7 @@ export default function BestMedicarePlanDiabetes() {
             </li>
 </ul>
               <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free counseling from the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
       </article>
     </>

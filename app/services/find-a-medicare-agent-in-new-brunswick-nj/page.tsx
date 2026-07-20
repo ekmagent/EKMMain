@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title:
     "find a medicare agent in new brunswick nj | Free Local Guidance | MedicareYourself",
   description:
-    "Find a Medicare agent in New Brunswick NJ who compares plans from every top carrier. Anthony Orner provides free, licensed guidance. Schedule a call today.",
+    "Find a licensed Medicare agent in New Brunswick, NJ. Anthony Orner compares Supplement, Advantage & Part D plans free of charge. Call today for local guidance.",
   alternates: { canonical: "https://medicareyourself.com/services/find-a-medicare-agent-in-new-brunswick-nj" },
   openGraph: {
     title:

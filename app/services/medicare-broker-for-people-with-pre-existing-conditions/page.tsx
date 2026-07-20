@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare broker for people with pre-existing conditions | Free Guidance | MedicareYourself",
   description:
-    "Medicare broker for people with pre-existing conditions — know which carriers underwrite leniently and when health questions don't apply. Call 855-559-1700.",
+    "Medicare broker for people with pre-existing conditions — find lenient carriers and plans that skip health questions. Free expert help. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-people-with-pre-existing-conditions" },
   openGraph: {
     title:
@@ -102,7 +102,17 @@ const faqs = [
     question: "Can switching Medigap plans trigger underwriting if I have health issues?",
     answer:
       "In most states, yes. If you already have a Medigap plan and want to switch to a different one outside a protected enrollment window, the new carrier can typically require medical underwriting. A few states have birthday rules or annual switch windows that allow changes without health questions, so the rules depend on where you live.",
-  }
+  },
+  {
+    question: "Do Medicare Advantage plans use medical underwriting for pre-existing conditions?",
+    answer:
+      "No. With the exception of End-Stage Renal Disease in limited circumstances, Medicare Advantage plans cannot deny you enrollment or charge you more based on your health history. As long as you enroll during a valid enrollment period, your pre-existing conditions do not affect your acceptance or premium.",
+  },
+  {
+    question: "Why should I use a broker if I have a pre-existing condition?",
+    answer:
+      "A broker who knows carrier underwriting guidelines can steer you toward companies more likely to approve your specific condition, saving you from declined applications. Brokers can also confirm whether you qualify for a guaranteed issue right or an open enrollment window where health questions don't apply. This guidance costs you nothing, since brokers are paid by the carriers.",
+  },
 ];
 
 export default function MedicareBrokerPreExistingConditions() {
@@ -294,6 +304,7 @@ export default function MedicareBrokerPreExistingConditions() {
         </ul>
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/health-drug-plans/medigap/basics/ready-to-buy" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — When to buy Medigap</a> and <a href="https://www.medicare.gov/basics/get-started-with-medicare/sign-up/when-does-medicare-coverage-start" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Guaranteed issue rights</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased help from the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
     </main>
   );

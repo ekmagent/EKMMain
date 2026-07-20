@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for epilepsy patients | Free Coverage Consultation | MedicareYourself",
   description:
-    "Medicare broker for epilepsy patients in NJ. Anthony Orner compares plans covering seizure meds, neurology visits & ER care. Call 855-559-1700 for a free quote.",
+    "Medicare broker for epilepsy patients in NJ. Anthony Orner compares plans covering seizure meds, neurology & ER care so you avoid gaps. Call for a free quote.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-epilepsy-patients" },
   openGraph: {
     title:
@@ -87,6 +87,11 @@ const faqs = [
       "Will my epilepsy diagnosis affect Medicare Supplement underwriting?",
     answer:
       "Outside of your Medigap Open Enrollment Period, carriers can use medical underwriting to set premiums or deny coverage based on pre-existing conditions like epilepsy. That's why timing matters. During your 6-month Medigap OEP (starting the month you turn 65 and enroll in Part B), no carrier can deny you or charge more because of epilepsy.",
+  },
+  {
+    question: "Does Medicare cover neurologist visits and EEG testing for epilepsy?",
+    answer:
+      "Medicare Part B covers medically necessary outpatient care, including neurologist visits and diagnostic tests like EEGs used to evaluate seizures. You'll typically be responsible for the Part B deductible and coinsurance unless you have supplemental coverage. Medicare Advantage plans also cover these services but may require in-network providers or referrals.",
   },
 ];
 
@@ -308,6 +313,7 @@ export default function MedicareBrokerForEpilepsyPatients() {
         </ul>
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/coverage/prescription-drugs-outpatient" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Prescription drug coverage (Part D)</a> and <a href="https://www.medicare.gov/basics/get-started-with-medicare/medicare-basics/parts-of-medicare" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Parts of Medicare</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">For unbiased local counseling, contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank">New Jersey State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
 
       <p className="mt-10 text-sm text-gray-500">

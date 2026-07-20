@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for sleep apnea patients | Free CPAP Coverage Check | MedicareYourself",
   description:
-    "Medicare broker for sleep apnea patients helping you understand CPAP coverage rules, the 90-day compliance window, and the best plan. Free coverage check.",
+    "Medicare broker for sleep apnea patients: understand CPAP coverage, the 90-day compliance rule, and sleep study benefits. Get your free coverage check today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-sleep-apnea-patients" },
   openGraph: {
     title:

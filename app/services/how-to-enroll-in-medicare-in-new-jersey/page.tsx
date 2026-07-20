@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "how to enroll in medicare in new jersey | Free Local Help | MedicareYourself",
   description:
-    "How to enroll in Medicare in New Jersey: IEP timing, Parts A & B sign-up, and NJ Medigap rules. Free local help from Anthony Orner. Call 855-559-1700.",
+    "How to enroll in Medicare in New Jersey: IEP timing, Parts A & B sign-up, and NJ Medigap rules. Get free local help from Anthony Orner — call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/how-to-enroll-in-medicare-in-new-jersey" },
   openGraph: {
     title:

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare broker for people with parkinsons | Free Consultation | MedicareYourself",
   description:
-    "Medicare broker for people with Parkinson's — Anthony Orner matches your specialists, medications, and therapy needs to the right plan. Free consultation.",
+    "Medicare broker for people with Parkinson's — Anthony Orner matches your specialists, medications, and DBS coverage needs to the right plan. Free consultation.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-people-with-parkinsons" },
   openGraph: {
     title:
@@ -84,6 +84,11 @@ const faqs = [
     question: "Does Medicare cover DBS surgery for Parkinson's?",
     answer:
       "Medicare covers deep brain stimulation (DBS) when medically necessary and certain clinical criteria are met. Part A covers the hospital stay, Part B covers the physician services. Your out-of-pocket costs depend heavily on whether you have a Medigap plan, Medicare Advantage, or Original Medicare alone.",
+  },
+  {
+    question: "Can a Medicare broker help me keep my neurologist and movement disorder specialist?",
+    answer:
+      "Yes. Anthony can check each plan's provider network before you enroll to confirm your neurologist and movement disorder specialist are in-network. This matters most with Medicare Advantage plans, which use networks, while Original Medicare with a Medigap plan lets you see any provider that accepts Medicare.",
   },
 ];
 
@@ -342,6 +347,7 @@ export default function MedicareBrokerForPeopleWithParkinsons() {
 </ul>
               <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/coverage/deep-brain-stimulation-for-essential-tremor-parkinsons-disease" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Deep Brain Stimulation coverage</a> and <a href="https://www.medicare.gov/basics/costs/medicare-costs" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — 2026 costs at a glance</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a> for free Medicare counseling.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="hover:underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
       </article>
     </>

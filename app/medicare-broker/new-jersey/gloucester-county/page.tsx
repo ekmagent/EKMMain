@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title:
     "Medicare Broker in Gloucester County, NJ | Sewell, Washington Township",
   description:
-    "Independent Medicare broker serving Gloucester County, NJ — Sewell, Washington Township, Glassboro, Deptford. Compare every carrier free. Call 855-559-1700.",
+    "Independent Medicare broker for Gloucester County, NJ — Sewell, Washington Township, Glassboro, Deptford. Compare every carrier free. Call 855-559-1700 today.",
   alternates: {
     canonical:
       "https://medicareyourself.com/medicare-broker/new-jersey/gloucester-county",
@@ -78,6 +78,11 @@ const faqs = [
     question: "How does Medigap pricing work in New Jersey?",
     answer:
       "Each carrier chooses its own pricing method in New Jersey — the state does not mandate community rating. Most NJ Medigap carriers use attained-age rating, where premiums rise as you get older; a minority (notably AARP/UnitedHealthcare) charge everyone the same base rate regardless of age. Premiums also vary significantly between carriers for identical standardized benefits, so comparing filed rates and rating methods matters.",
+  },
+  {
+    question: "Can I keep my own doctors on a Medicare plan in Gloucester County?",
+    answer:
+      "With a Medigap plan paired with Original Medicare, you can see any provider nationwide that accepts Medicare, including Jefferson Health New Jersey and Inspira Health locations. With Medicare Advantage, coverage depends on that plan's specific network. We check your actual doctors and hospitals against each plan's directory before you enroll so there are no surprises.",
   },
 ];
 
@@ -345,6 +350,7 @@ export default function GloucesterCountyMedicareBroker() {
         </div>
             <div className="text-sm text-gray-600 mt-4">Official Medicare resources: <a href="https://www.medicare.gov/basics/get-started-with-medicare" rel="noopener noreferrer" target="_blank" className="underline">Get started with Medicare (Medicare.gov)</a> · <a href="https://www.medicare.gov/plan-compare/" rel="noopener noreferrer" target="_blank" className="underline">Compare plans on Medicare.gov</a></div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased Medicare counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">Free unbiased counseling: <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank">New Jersey State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
     </main>
   );

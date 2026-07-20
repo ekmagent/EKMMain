@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "free independent medicare broker near me new jersey | Free Quote | MedicareYourself",
   description:
-    "Free independent Medicare broker near you in New Jersey. Anthony Orner compares top Medigap and Advantage carriers at no charge. Request a free quote today.",
+    "Free independent Medicare broker in New Jersey. Anthony Orner compares Medigap & Advantage plans from top carriers at no cost. Get your free quote today.",
   alternates: { canonical: "https://medicareyourself.com/services/free-independent-medicare-broker-near-me-new-jersey" },
   openGraph: {
     title:
@@ -83,6 +83,21 @@ const faqs = [
     question: "Can I meet with a Medicare broker in person in NJ?",
     answer:
       "Yes. Anthony Orner offers in-person, phone, and virtual appointments across New Jersey. Whether you're in North Jersey, the Shore, or South Jersey, you can schedule a free consultation in the format that works best for you.",
+  },
+  {
+    question: "Does using a broker affect my Medigap enrollment rights in New Jersey?",
+    answer:
+      "No. Working with a broker does not change your enrollment protections. In New Jersey, your best time to buy a Medigap policy is during your 6-month Medigap Open Enrollment Period, which begins when you're 65 or older and enrolled in Part B. A broker can help you understand these windows and compare community-rated plans.",
+  },
+  {
+    question: "What states is Anthony Orner licensed in?",
+    answer:
+      "Anthony Orner is a licensed Medicare insurance broker in New Jersey and 34 additional states. This allows him to help clients who split time between states or relocate. You can verify his license through the NPI registry using NPI 1902584006.",
+  },
+  {
+    question: "Do I need to pay anything to compare plans with a broker?",
+    answer:
+      "No. Comparing Medicare plans with an independent broker is completely free to you. There is no consultation fee and no obligation to enroll. You can review Medigap and Medicare Advantage options and decide what works best for your situation.",
   },
 ];
 
@@ -266,6 +281,7 @@ export default function FreeIndependentMedicareBrokerNearMeNewJersey() {
         </ul>
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/basics/get-started-with-medicare/get-more-coverage/working-with-an-agent-or-broker" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov: Working with an agent or broker</a> &middot; <a href="https://www.medicare.gov/plan-compare/" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov Plan Finder</a></div>
             <div className="text-sm text-gray-600 mt-2">For free unbiased counseling in New Jersey, contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="hover:underline">New Jersey State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
     </main>
   );

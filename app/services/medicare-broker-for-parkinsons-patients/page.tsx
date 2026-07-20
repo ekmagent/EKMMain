@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for Parkinson's patients | Free Plan Review | MedicareYourself",
   description:
-    "Medicare broker for Parkinson's patients — compare Part D drug plans, specialist networks, and DBS coverage. Free plan review with Anthony Orner. Call today.",
+    "Medicare broker for Parkinson's patients: compare Part D drug plans, specialist networks, and DBS coverage. Get a free plan review with Anthony Orner today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-parkinsons-patients" },
   openGraph: {
     title:
@@ -84,6 +84,21 @@ const faqs = [
       "What should Parkinson's patients look for in a Part D drug plan?",
     answer:
       "Look for a plan that covers your specific medications, especially carbidopa-levodopa combinations, at a low tier. Some patients take 15-20 pills a day across multiple prescriptions. Even small copay differences per fill add up fast. I run your full medication list through every available plan to find the lowest annual cost.",
+  },
+  {
+    question: "Does Medicare cover physical, occupational, and speech therapy for Parkinson's?",
+    answer:
+      "Yes. Original Medicare Part B covers medically necessary physical therapy, occupational therapy, and speech-language pathology services that help manage Parkinson's symptoms. These therapies can support mobility, daily function, and communication. Your doctor must certify that the services are medically necessary.",
+  },
+  {
+    question: "Should a Parkinson's patient choose Original Medicare with a Supplement or a Medicare Advantage plan?",
+    answer:
+      "It depends on your priorities. Original Medicare with a Supplement offers broad access to any provider that accepts Medicare, which matters if you see movement-disorder specialists at different facilities. Medicare Advantage plans may cost less upfront but often use networks and prior authorization, so I review your specialists and medications against both paths before you decide.",
+  },
+  {
+    question: "When can I enroll in or change my Medicare plan?",
+    answer:
+      "Most people enroll during their Initial Enrollment Period around their 65th birthday. After that, the Annual Enrollment Period each fall lets you change your Part D or Medicare Advantage plan. If your medications or condition change during the year, you may also qualify for a Special Enrollment Period, which I can help you confirm.",
   },
 ];
 
@@ -337,6 +352,7 @@ export default function MedicareBrokerForParkinsonsPatients() {
 </ul>
             <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/coverage/deep-brain-stimulation-for-essential-tremor-parkinsons-disease" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Deep Brain Stimulation coverage</a> and <a href="https://www.medicare.gov/drug-coverage-part-d" rel="noopener noreferrer" target="_blank" className="underline">Medicare.gov — Part D prescription drug coverage</a>.</div>
             <div className="text-sm text-gray-600 mt-4">For free, unbiased counseling in New Jersey, contact <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">For free, unbiased counseling in New Jersey, contact the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
     </main>
   );

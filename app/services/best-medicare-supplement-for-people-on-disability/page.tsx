@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "best medicare supplement for people on disability | Free Plan Review | MedicareYourself",
   description:
-    "Best Medicare Supplement for people on disability — compare state rules, plan letters, and pricing. Call 855-559-1700 for a free eligibility check.",
+    "See which states guarantee Medigap access for people under 65 on disability and find the strongest plan value. Call 855-559-1700 for a free eligibility check.",
   alternates: { canonical: "https://medicareyourself.com/services/best-medicare-supplement-for-people-on-disability" },
   openGraph: {
     title:

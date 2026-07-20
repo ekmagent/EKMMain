@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title:
     "Find a Medicare Agent in Newark NJ | Free No-Obligation Help | MedicareYourself",
   description:
-    "Find a Medicare agent in Newark NJ — Anthony Orner is an independent broker comparing Medigap and Advantage plans in Essex County. Free consultation today.",
+    "Find a licensed Medicare agent in Newark NJ. Anthony Orner compares Medigap & Advantage plans across Essex County — free, no-obligation help. Call today.",
   alternates: { canonical: "https://medicareyourself.com/services/find-a-medicare-agent-in-newark-nj" },
   openGraph: {
     title:

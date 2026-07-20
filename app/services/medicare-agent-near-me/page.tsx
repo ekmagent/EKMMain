@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare agent near me | Free Local Broker Help, No Obligation | MedicareYourself",
   description:
-    "Medicare agent near me — Anthony Orner, licensed in NJ & 34 states, compares 30+ carriers at no cost. Free phone, video, or in-person help. Call 855-559-1700.",
+    "Medicare agent near me — Anthony Orner, licensed in NJ & 34 states, compares plans across 30+ carriers at no cost. Free phone, video, or in-person help. Call today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-agent-near-me" },
   openGraph: {
     title:

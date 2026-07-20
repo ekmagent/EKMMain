@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "how can i save money on my medicare supplement | Free Rate Review | MedicareYourself",
   description:
-    "Save on your Medicare Supplement in 2026 — switch carriers, stack discounts, or change plan letters. Free rate review in 10 minutes. Call 855-559-1700.",
+    "Save on your Medicare Supplement in 2026 by switching carriers, stacking discounts, or comparing plan letters. Free 10-minute rate review. Call 855-559-1700.",
   alternates: { canonical: "https://medicareyourself.com/services/how-can-i-save-money-on-my-medicare-supplement" },
   openGraph: {
     title:

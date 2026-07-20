@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for hip replacement patients | Free Plan Comparison | MedicareYourself",
   description:
-    "Medicare broker for hip replacement patients comparing Medigap and Advantage plans to cut surgery costs. Anthony Orner offers free pre-surgery plan reviews.",
+    "Work with a licensed Medicare broker to compare Medigap and Advantage plans and cut hip replacement surgery costs. Free pre-surgery reviews — call today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-hip-replacement-patients" },
   openGraph: {
     title:

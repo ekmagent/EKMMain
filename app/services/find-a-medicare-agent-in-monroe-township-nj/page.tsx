@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title:
     "find a medicare agent in monroe township nj | Free Plan Review | MedicareYourself",
   description:
-    "Find a Medicare agent in Monroe Township NJ — Anthony Orner compares Supplement and Advantage carriers for Middlesex County residents. Free plan review.",
+    "Find a trusted Medicare agent in Monroe Township NJ — Anthony Orner compares Supplement and Advantage plans for Middlesex County. Call for a free plan review.",
   alternates: { canonical: "https://medicareyourself.com/services/find-a-medicare-agent-in-monroe-township-nj" },
   openGraph: {
     title:

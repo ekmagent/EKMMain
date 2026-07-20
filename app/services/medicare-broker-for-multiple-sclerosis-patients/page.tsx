@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Medicare broker for multiple sclerosis patients | Free Plan Comparison | MedicareYourself",
   description:
-    "Medicare broker for MS patients: compare plans covering Ocrevus, MRIs & neurologists. Anthony Orner guides you through underwriting. Call 855-559-1700.",
+    "Medicare broker for MS patients: compare plans covering Ocrevus, MRIs & neurologists. Anthony Orner guides your underwriting choices. Call 855-559-1700 today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-multiple-sclerosis-patients" },
   openGraph: {
     title:
@@ -117,6 +117,16 @@ const faqs = [
     question: "Does Medicare cover physical, occupational, or speech therapy for MS?",
     answer:
       "Yes. Medicare Part B covers medically necessary outpatient physical therapy, occupational therapy, and speech-language pathology when your doctor certifies the services as part of your MS care plan. There is no longer a hard cap on therapy visits, but your provider must document that continued therapy is reasonable and necessary.",
+  },
+  {
+    question: "Do I need a referral to see a neurologist under Medicare for my MS?",
+    answer:
+      "It depends on your coverage type. Original Medicare paired with a Medigap plan lets you see any neurologist who accepts Medicare without a referral or network restriction. Many Medicare Advantage plans, however, may require you to stay in-network and get referrals or prior authorization, so it's important to review the plan rules before enrolling.",
+  },
+  {
+    question: "Can I qualify for Medicare under 65 if MS caused my disability?",
+    answer:
+      "Yes. If MS prevents you from working and you qualify for Social Security Disability Insurance, you generally become eligible for Medicare after a 24-month waiting period from when your disability benefits begin. Once enrolled, you can add Part D drug coverage or consider a Medicare Advantage plan for your care.",
   },
 ];
 

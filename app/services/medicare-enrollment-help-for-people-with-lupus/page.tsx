@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare enrollment help for people with lupus | Free NJ Guidance | MedicareYourself",
   description:
-    "Medicare enrollment help for people with lupus in NJ. Compare plans, lower drug costs, and keep your specialists. Call Anthony Orner at 855-559-1700 free.",
+    "Medicare enrollment help for people with lupus in NJ—keep your rheumatologist, lower drug costs, and compare plans. Call Anthony Orner at 855-559-1700 free.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-enrollment-help-for-people-with-lupus" },
   openGraph: {
     title:
@@ -85,6 +85,21 @@ const faqs = [
     question: "Can I get help enrolling in Medicare if I have lupus in NJ?",
     answer:
       "Absolutely. Anthony Orner is a licensed Medicare broker in New Jersey who provides free, personalized enrollment guidance. Call 855-559-1700 to discuss your medications, specialists, and coverage options at no cost.",
+  },
+  {
+    question: "Does Medicare cover lupus medications and infusions?",
+    answer:
+      "Medicare Part B generally covers physician-administered drugs, including certain biologic infusions given in a clinic or infusion center. Self-administered prescription drugs are typically covered under a Part D plan. Reviewing each plan's formulary is important because coverage and cost-sharing for lupus medications vary between plans.",
+  },
+  {
+    question: "Will Medicare let me keep my rheumatologist?",
+    answer:
+      "With Original Medicare, you can see any provider in the U.S. who accepts Medicare, which offers flexibility for specialty care. Medicare Advantage plans use provider networks, so you should confirm your rheumatologist and infusion center are in-network before enrolling. A licensed broker can check network participation for your specific doctors.",
+  },
+  {
+    question: "When can I enroll or change my Medicare plan if I have lupus?",
+    answer:
+      "You can enroll during your Initial Enrollment Period around your Medicare eligibility date, and most people can make changes each year during the Annual Enrollment Period. Certain life events, such as moving or losing other coverage, may trigger a Special Enrollment Period. Call 855-559-1700 to confirm which enrollment window applies to your situation.",
   },
 ];
 
@@ -311,6 +326,7 @@ export default function MedicareEnrollmentHelpLupus() {
               <div className="text-sm text-gray-600 mt-4">Official resources: <a href="https://www.medicare.gov/basics/get-started-with-medicare/medicare-basics/get-medicare-early" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Medicare.gov — Getting Medicare Under 65 With a Disability</a> and <a href="https://www.medicare.gov/basics/costs/medicare-costs" rel="noopener noreferrer" target="_blank" className="text-blue-600 underline">Medicare.gov — 2026 Medicare Costs</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free counseling through the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank">NJ State Health Insurance Assistance Program (SHIP)</a>.</div>
       </section>
       </article>
     </>

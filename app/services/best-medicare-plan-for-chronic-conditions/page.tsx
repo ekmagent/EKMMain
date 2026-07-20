@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "What's the Best Medicare Plan for Someone With Chronic Conditions | Free Broker Help | MedicareYourself",
   description:
-    "What's the best Medicare plan for chronic conditions? Learn why Medigap often beats Advantage for ongoing care. Free broker guidance, no health screening.",
+    "Best Medicare plan for chronic conditions? Compare Medigap vs. C-SNP options for predictable costs and doctor access. Call a licensed broker for free help.",
   alternates: { canonical: "https://medicareyourself.com/services/best-medicare-plan-for-chronic-conditions" },
   openGraph: {
     title:
@@ -84,6 +84,16 @@ const faqs = [
     question: "What is a C-SNP plan for chronic conditions?",
     answer:
       "A Chronic Condition Special Needs Plan (C-SNP) is a Medicare Advantage plan designed for people with qualifying conditions like diabetes, heart failure, or cardiovascular disorders. C-SNPs coordinate care for your specific condition but still operate as HMO or PPO plans with network restrictions and cost-sharing.",
+  },
+  {
+    question: "Do all C-SNPs include prescription drug coverage?",
+    answer:
+      "Yes. All Chronic Condition Special Needs Plans are required to provide Medicare prescription drug coverage as part of the plan. This means you don't need a separate standalone Part D plan when you enroll in a C-SNP.",
+  },
+  {
+    question: "How is a Special Needs Plan different from a regular Medicare Advantage plan?",
+    answer:
+      "Special Needs Plans are a type of Medicare Advantage plan that tailors benefits, provider networks, and drug formularies to a specific group, such as people with certain chronic conditions or those who also have Medicaid. Like other Advantage plans, SNPs are structured as HMOs or PPOs and cover the same Part A and Part B benefits, but they add care coordination services for the group they serve.",
   },
 ];
 
@@ -315,6 +325,7 @@ export default function BestMedicarePlanForChronicConditions() {
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also reach the <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="underline">NJ State Health Insurance Assistance Program (SHIP)</a> for free, unbiased Medicare counseling.</div>
             <div className="text-sm text-gray-600 mt-4">New Jersey residents can also get free, unbiased counseling from <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank" className="text-blue-700 underline">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
+            <div className="text-sm text-gray-600 mt-4">New Jersey residents can get free, unbiased counseling through <a href="https://www.state.nj.us/humanservices/doas/services/ship/" rel="noopener noreferrer" target="_blank">NJ SHIP (State Health Insurance Assistance Program)</a>.</div>
       </section>
       </article>
     </>

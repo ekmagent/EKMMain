@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "medicare broker for people with diabetes | Free Plan Comparison | MedicareYourself",
   description:
-    "Medicare broker for people with diabetes — Anthony Orner finds NJ plans covering insulin, CGMs, and endocrinology visits. Free comparison, no obligation.",
+    "Medicare broker for people with diabetes — Anthony Orner finds NJ plans covering insulin, CGMs & endocrinology. Free, no-obligation comparison. Call today.",
   alternates: { canonical: "https://medicareyourself.com/services/medicare-broker-for-people-with-diabetes" },
   openGraph: {
     title:
