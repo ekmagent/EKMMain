@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: "How much do I have to pay for Medicare when I turn 65? | Medicare FAQ",
   description:
     "Most people pay $0 for Part A when they turn 65, as long as you or your spouse worked and paid Medicare taxes for at least 10 years. Part B is where the re",
+  alternates: {
+    canonical: "https://medicareyourself.com/medicare-faq/how-much-do-i-have-to-pay-for-medicare-when-i-turn-65",
+  },
 };
 
 const faqSchema = {

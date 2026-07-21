@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: "Is Plan G better than Plan N? | Medicare FAQ",
   description:
     "Plan G is better if you want predictable costs; Plan N is better if you want lower premiums and don't mind small copays. Here's the practical difference. P",
+  alternates: {
+    canonical: "https://medicareyourself.com/medicare-faq/is-plan-g-better-than-plan-n",
+  },
 };
 
 const faqSchema = {

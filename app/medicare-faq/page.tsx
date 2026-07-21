@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Medicare FAQ — Common Questions Answered (2026)",
   description:
     "Plain-language answers to the most common Medicare questions. Enrollment, costs, plan types, coverage, and more. Free broker help: 855-559-1700.",
+  alternates: {
+    canonical: "https://medicareyourself.com/medicare-faq",
+  },
 };
 
 const breadcrumbSchema = {

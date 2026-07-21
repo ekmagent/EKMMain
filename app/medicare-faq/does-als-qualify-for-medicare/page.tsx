@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: "Does ALS qualify for Medicare? | Medicare FAQ",
   description:
     "Yes, ALS qualifies you for Medicare automatically, and you don't have to wait the standard 24 months that applies to other disability recipients. The momen",
+  alternates: {
+    canonical: "https://medicareyourself.com/medicare-faq/does-als-qualify-for-medicare",
+  },
 };
 
 const faqSchema = {

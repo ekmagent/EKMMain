@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: "What is the best Medicare Supplement plan in NJ? | Medicare FAQ",
   description:
     "Plan G is the top pick for most people turning 65 in New Jersey today. It covers everything Original Medicare leaves behind except the $283 Part B deductib",
+  alternates: {
+    canonical: "https://medicareyourself.com/medicare-faq/what-is-the-best-medicare-supplement-plan-in-nj",
+  },
 };
 
 const faqSchema = {

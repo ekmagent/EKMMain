@@ -197,6 +197,9 @@ export const metadata: Metadata = {
   title: ${js(question.slice(0, 55) + " | Medicare FAQ")},
   description:
     ${js(answer.slice(0, 155))},
+  alternates: {
+    canonical: ${js(`${siteUrl}/medicare-faq/${slug}`)},
+  },
 };
 
 const faqSchema = {
@@ -301,6 +304,9 @@ export const metadata: Metadata = {
   title: "Medicare FAQ — Common Questions Answered (2026)",
   description:
     "Plain-language answers to the most common Medicare questions. Enrollment, costs, plan types, coverage, and more. Free broker help: 855-559-1700.",
+  alternates: {
+    canonical: "${siteUrl}/medicare-faq",
+  },
 };
 
 const breadcrumbSchema = {

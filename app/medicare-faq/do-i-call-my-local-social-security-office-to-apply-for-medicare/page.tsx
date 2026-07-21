@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: "Do I call my local Social Security office to apply for  | Medicare FAQ",
   description:
     "You have three ways to apply for Medicare, and calling your local Social Security office is one of them. The fastest option is online at ssa.gov/medicare/s",
+  alternates: {
+    canonical: "https://medicareyourself.com/medicare-faq/do-i-call-my-local-social-security-office-to-apply-for-medicare",
+  },
 };
 
 const faqSchema = {

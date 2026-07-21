@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: "Does Medicare automatically enroll you when you turn 65 | Medicare FAQ",
   description:
     "Not always. Medicare enrolls you automatically only if you're already receiving Social Security or Railroad Retirement Board benefits before you turn 65. I",
+  alternates: {
+    canonical: "https://medicareyourself.com/medicare-faq/does-medicare-automatically-enroll-you-when-you-turn-65",
+  },
 };
 
 const faqSchema = {

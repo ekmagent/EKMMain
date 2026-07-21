@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: "What's the difference between a Medicare agent and a Me | Medicare FAQ",
   description:
     "A Medicare agent typically works for one insurance company and can only sell that carrier's plans. A broker is independent and contracts with multiple carr",
+  alternates: {
+    canonical: "https://medicareyourself.com/medicare-faq/whats-the-difference-between-a-medicare-agent-and-a-medicare-broker",
+  },
 };
 
 const faqSchema = {

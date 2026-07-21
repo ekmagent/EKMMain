@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: "Is there a Medicare broker? | Medicare FAQ",
   description:
     "Yes, Medicare brokers exist, and working with one costs you nothing. A licensed Medicare broker is an independent agent contracted with multiple insurance ",
+  alternates: {
+    canonical: "https://medicareyourself.com/medicare-faq/is-there-a-medicare-broker",
+  },
 };
 
 const faqSchema = {

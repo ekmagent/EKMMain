@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: "Is it better to go with a Medicare Advantage plan or Me | Medicare FAQ",
   description:
     "The right choice depends on your budget, your doctors, and how often you use care. Medicare Advantage plans often have low or $0 premiums but use networks,",
+  alternates: {
+    canonical: "https://medicareyourself.com/medicare-faq/is-it-better-to-go-with-a-medicare-advantage-plan-or-medicare-supplement-plan",
+  },
 };
 
 const faqSchema = {

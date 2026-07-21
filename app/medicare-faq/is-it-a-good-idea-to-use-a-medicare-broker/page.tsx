@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: "Is it a good idea to use a Medicare broker? | Medicare FAQ",
   description:
     "Yes, using a licensed Medicare broker is usually a smart move, and it costs you nothing. Brokers get paid by the insurance companies, so you pay the same p",
+  alternates: {
+    canonical: "https://medicareyourself.com/medicare-faq/is-it-a-good-idea-to-use-a-medicare-broker",
+  },
 };
 
 const faqSchema = {

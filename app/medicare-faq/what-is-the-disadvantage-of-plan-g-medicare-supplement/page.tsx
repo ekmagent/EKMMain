@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: "What is the disadvantage of plan G Medicare Supplement? | Medicare FAQ",
   description:
     "The main disadvantage of Plan G is that you must pay the annual Part B deductible out of pocket before coverage kicks in. For 2026, that deductible is $283",
+  alternates: {
+    canonical: "https://medicareyourself.com/medicare-faq/what-is-the-disadvantage-of-plan-g-medicare-supplement",
+  },
 };
 
 const faqSchema = {

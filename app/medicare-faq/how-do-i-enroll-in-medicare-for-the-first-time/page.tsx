@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: "How do I enroll in Medicare for the first time? | Medicare FAQ",
   description:
     "You enroll through Social Security, either online at ssa.gov/medicare, by phone at 1-800-772-1213, or in person at your local Social Security office. Most ",
+  alternates: {
+    canonical: "https://medicareyourself.com/medicare-faq/how-do-i-enroll-in-medicare-for-the-first-time",
+  },
 };
 
 const faqSchema = {

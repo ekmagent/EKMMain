@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: "Do I need to notify Social Security when I turn 65? | Medicare FAQ",
   description:
     "If you're already collecting Social Security benefits before 65, you don't need to do anything. Social Security automatically enrolls you in Medicare Part ",
+  alternates: {
+    canonical: "https://medicareyourself.com/medicare-faq/do-i-need-to-notify-social-security-when-i-turn-65",
+  },
 };
 
 const faqSchema = {

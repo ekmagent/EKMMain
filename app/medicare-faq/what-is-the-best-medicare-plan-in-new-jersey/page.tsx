@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: "What is the best Medicare plan in New Jersey? | Medicare FAQ",
   description:
     "There is no single best Medicare plan in New Jersey because the right plan depends on your doctors, prescriptions, and budget. That said, in 2026 New Jerse",
+  alternates: {
+    canonical: "https://medicareyourself.com/medicare-faq/what-is-the-best-medicare-plan-in-new-jersey",
+  },
 };
 
 const faqSchema = {

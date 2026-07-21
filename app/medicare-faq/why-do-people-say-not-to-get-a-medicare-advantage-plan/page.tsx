@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: "Why do people say not to get a Medicare Advantage plan? | Medicare FAQ",
   description:
     "People warn against Medicare Advantage plans because they use provider networks, require prior authorization for many services, and can deny care that Orig",
+  alternates: {
+    canonical: "https://medicareyourself.com/medicare-faq/why-do-people-say-not-to-get-a-medicare-advantage-plan",
+  },
 };
 
 const faqSchema = {

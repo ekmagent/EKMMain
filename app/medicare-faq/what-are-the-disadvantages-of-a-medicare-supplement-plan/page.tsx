@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: "What are the disadvantages of a Medicare Supplement pla | Medicare FAQ",
   description:
     "Medicare Supplement plans carry three main drawbacks you should weigh before enrolling. First, the monthly premium sits on top of your Part B premium of $1",
+  alternates: {
+    canonical: "https://medicareyourself.com/medicare-faq/what-are-the-disadvantages-of-a-medicare-supplement-plan",
+  },
 };
 
 const faqSchema = {

@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: "What is the biggest mistake seniors make when enrolling | Medicare FAQ",
   description:
     "The biggest mistake seniors make is missing their Initial Enrollment Period, which runs seven months around your 65th birthday. Skip it, and you can face a",
+  alternates: {
+    canonical: "https://medicareyourself.com/medicare-faq/what-is-the-biggest-mistake-seniors-make-when-enrolling-in-medicare",
+  },
 };
 
 const faqSchema = {

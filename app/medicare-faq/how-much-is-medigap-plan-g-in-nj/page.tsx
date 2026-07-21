@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: "How much is Medigap plan G in NJ? | Medicare FAQ",
   description:
     "Medigap Plan G premiums in New Jersey typically range from about $150 to over $300 per month, depending on the insurance company, your age, ZIP code, gende",
+  alternates: {
+    canonical: "https://medicareyourself.com/medicare-faq/how-much-is-medigap-plan-g-in-nj",
+  },
 };
 
 const faqSchema = {

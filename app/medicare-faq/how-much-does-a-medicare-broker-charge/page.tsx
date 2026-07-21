@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: "How much does a Medicare broker charge? | Medicare FAQ",
   description:
     "A Medicare broker charges you nothing. Zero. Insurance carriers pay brokers a commission directly when you enroll in a plan, so the service is free to you.",
+  alternates: {
+    canonical: "https://medicareyourself.com/medicare-faq/how-much-does-a-medicare-broker-charge",
+  },
 };
 
 const faqSchema = {

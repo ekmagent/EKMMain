@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: "Is Medicare Supplement G still available? | Medicare FAQ",
   description:
     "Yes, Medicare Supplement Plan G is still available and remains one of the most popular Medigap plans sold today. If you became eligible for Medicare on or ",
+  alternates: {
+    canonical: "https://medicareyourself.com/medicare-faq/is-medicare-supplement-g-still-available",
+  },
 };
 
 const faqSchema = {
