@@ -48,6 +48,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/medicare-broker/new-jersey/bergen-county`, lastModified: pageMtime("medicare-broker/new-jersey/bergen-county"), changeFrequency: "monthly", priority: 0.8 },
     { url: `${SITE_URL}/medicare-broker/new-jersey/essex-county`, lastModified: pageMtime("medicare-broker/new-jersey/essex-county"), changeFrequency: "monthly", priority: 0.8 },
     { url: `${SITE_URL}/medicare-broker/new-jersey/hudson-county`, lastModified: pageMtime("medicare-broker/new-jersey/hudson-county"), changeFrequency: "monthly", priority: 0.8 },
+    { url: `${SITE_URL}/medicare-broker/new-jersey/union-county`, lastModified: pageMtime("medicare-broker/new-jersey/union-county"), changeFrequency: "monthly", priority: 0.8 },
     { url: `${SITE_URL}/medicare-supplement`, lastModified: pageMtime("medicare-supplement"), changeFrequency: "weekly", priority: 0.9 },
     { url: `${SITE_URL}/medicare-supplement/new-jersey/rate-index`, lastModified: pageMtime("medicare-supplement/new-jersey/rate-index"), changeFrequency: "monthly", priority: 0.9 },
     { url: `${SITE_URL}/medicare-supplement/switch-carriers`, lastModified: pageMtime("medicare-supplement/switch-carriers"), changeFrequency: "monthly", priority: 0.8 },

@@ -34,6 +34,7 @@ const BUILT_COUNTY_PAGES = new Set([
   "bergen-county",
   "essex-county",
   "hudson-county",
+  "union-county",
 ]);
 
 const breadcrumbSchema = {
